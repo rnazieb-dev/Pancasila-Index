@@ -36,19 +36,38 @@ lintas sejarah* — dan setiap skor wajib bersitasi bukti primer.
 - **Bhinneka Tunggal Ika.** UI dirancang multibahasa: Indonesia lebih dahulu,
   kemudian bahasa-bahasa daerah (Jawa, Sunda, Madura, Minangkabau, Bugis, …).
 
-## Status: Fase 2 (MVP)
+## Status: Fase 3–4 (kurasi, AI pipeline, dataset historis)
 
 | Fase | Isi | Status |
 |------|-----|--------|
 | 0 | Scaffold monorepo, CI, lisensi | ✅ |
 | 1 | Rubrik v1 + scoring engine + test | ✅ |
-| 2 | Seed era Reformasi + MVP web (timeline, radar, evidence explorer) | 🚧 |
-| 3 | Auth + workflow kurasi + pipeline AI | ⬜ |
-| 4 | Dataset historis penuh (Orba, Demokrasi Terpimpin/Liberal) + bahasa daerah + API publik | ⬜ |
+| 2 | Seed era Reformasi + MVP web (timeline, radar, evidence explorer) | ✅ |
+| 2.5 | Peta lengkap UUD (73 pasal) + peristiwa krusial tambahan | ✅ |
+| 3 | Auth GitHub + workflow kurasi (review-state audit trail) + prototipe pipeline AI | ✅ |
+| 4a | Dataset eksekutif penuh 1945–1998 (Revolusi/Liberal, Demokrasi Terpimpin, Orde Baru) | ✅ draf |
+| 4b | i18n bahasa daerah UI (id/jv/su/mad/min, fallback otomatis) | ✅ beta |
+| 4c | API publik (/index, /rubric, /uud) | ✅ |
+| lanjutan | Legislatif & yudikatif pra-1998, terjemahan konten substantif, dewan editorial | ⬜ |
 
 > ⚠️ Seluruh penilaian pada fase seed berstatus **DRAF** — dihasilkan sebagai
 > demonstrasi metodologi dan *belum* dikurasi dewan editorial. Angka indeks
 > bukan vonis akhir.
+
+### Workflow kurasi & AI
+
+```bash
+# usulkan draf penilaian dari peristiwa berbukti (heuristik / LLM)
+pnpm --filter @pancasila-index/ai suggest --term presiden-habibie
+
+# kurasi via web: cp apps/web/.env.example apps/web/.env lalu set CURATION_DEV=1
+pnpm dev   # buka /kurasi → Setujui/Tolak → review-state.json (jejak audit)
+
+# terapkan keputusan kurasi ke dataset publik
+pnpm build:data && pnpm build
+```
+
+Detail: [docs/ai-pipeline.md](docs/ai-pipeline.md).
 
 ## Struktur repo
 

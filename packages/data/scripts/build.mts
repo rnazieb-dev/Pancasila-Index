@@ -6,7 +6,7 @@
  *
  * Jalankan: pnpm --filter @pancasila-index/data build
  */
-import { readdirSync, readFileSync, mkdirSync, writeFileSync } from "node:fs";
+import { readdirSync, readFileSync, mkdirSync, writeFileSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -22,6 +22,8 @@ import {
   sourceSchema,
   assessmentSchema,
 } from "@pancasila-index/core";
+
+import { applyReviews, reviewStateSchema } from "../src/review";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA = join(ROOT, "data");
@@ -61,6 +63,20 @@ const terms = loadArray("terms-presiden.yaml", termSchema, "term")
 const sources = loadArray("sources.yaml", sourceSchema, "source");
 const events = loadArray("events.yaml", eventSchema, "event");
 const assessments = loadArray("assessments.yaml", assessmentSchema, "assessment");
+
+// ---- terapkan keputusan kurasi (review-state.json = jejak audit) ----
+const REVIEW_FILE = join(ROOT, "generated", "review-state.json");
+let reviews: ReturnType<typeof reviewStateSchema.parse>["reviews"] = [];
+if (existsSync(REVIEW_FILE)) {
+  const rawState = JSON.parse(readFileSync(REVIEW_FILE, "utf8"));
+  reviews = reviewStateSchema.parse(rawState).reviews;
+}
+const reviewed = applyReviews(assessments, reviews);
+if (reviews.length > 0) {
+  console.log(
+    `Kurasi: ${reviewed.publishedIds.length} disetujui, ${reviewed.rejectedIds.length} ditolak dari ${reviews.length} keputusan`
+  );
+}
 
 // ------------------------------------------------------- referensi silang
 
@@ -127,7 +143,7 @@ const dataset = parseDataset({
   terms,
   events,
   sources,
-  assessments,
+  assessments: reviewed.assessments,
 });
 
 mkdirSync(dirname(OUT), { recursive: true });

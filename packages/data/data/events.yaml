@@ -655,3 +655,180 @@
   summary_id: Eks Wakil Ketua DPR dari partai penguasa dilantik 5 Februari 2026; akademisi menilai proses melanggar prinsip transparansi; laporan etik diproses MKMK sementara DPR menolaknya.
   source_ids: [berita-adies-kadir-mk-2026]
   dimension_ids: [negara-hukum, kedaulatan-rakyat]
+
+# ================= ERA REVOLUSI & DEMOKRASI LIBERAL =================
+
+- id: ev-soekarno1-proklamasi-uud
+  term_id: presiden-soekarno-i
+  date: "1945-08-18"
+  category: pengangkatan
+  title_id: Pengesahan UUD 1945 oleh PPKI
+  summary_id: Sehari setelah proklamasi, PPKI mengesahkan konstitusi pertama republik dan memilih presiden-wakil presiden.
+  source_ids: [proklamasi-ppki-1945]
+  dimension_ids: [kedaulatan-rakyat]
+
+- id: ev-soekarno1-madiun
+  term_id: presiden-soekarno-i
+  date: "1948-09"
+  category: krisis
+  title_id: Peristiwa Madiun 1948
+  summary_id: Konflik bersenjata dengan FDR-PKI di Madiun; penindakan dan eksekusi berlangsung dari dua arah di tengah revolusi.
+  source_ids: [proklamasi-ppki-1945]
+  dimension_ids: [sila-2]
+
+- id: ev-soekarno1-kmb
+  term_id: presiden-soekarno-i
+  date: "1949-12"
+  category: kebijakan
+  title_id: Konferensi Meja Bundar dan pengakuan kedaulatan
+  summary_id: Diplomasi mengakhiri perang kemerdekaan; kedaulatan diakui 27 Desember 1949 dalam bingkai RIS sementara.
+  source_ids: [konferensi-meja-bundar-1949]
+  dimension_ids: [tujuan-1]
+
+- id: ev-soekarno1-nkri-uuds
+  term_id: presiden-soekarno-i
+  date: "1950-08"
+  category: produk-hukum
+  title_id: Kembalinya NKRI dan berlakunya UUDS 1950
+  summary_id: Negara kesatuan dipulihkan lewat jalan konstitusional; demokrasi parlementer beroperasi di bawah konstitusi sementara.
+  source_ids: [uuds-1950]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-soekarno1-pemilu-1955
+  term_id: presiden-soekarno-i
+  date: "1955-09"
+  category: peristiwa
+  title_id: Pemilu nasional pertama
+  summary_id: Pemilu bebas, umum, rahasia pertama di Asia Tenggara pasca-kolonial; partisipasi melebihi 90 persen pemilih terdaftar.
+  source_ids: [pemilu-1955]
+  dimension_ids: [sila-4, kedaulatan-rakyat]
+
+- id: ev-soekarno1-kaa
+  term_id: presiden-soekarno-i
+  date: "1955-04"
+  category: kebijakan
+  title_id: Konferensi Asia-Afrika Bandung
+  summary_id: Indonesia menjadi tuan rumah 29 negara Asia-Afrika; dasar gerakan non-blok dan ketertiban dunia yang adil.
+  source_ids: [kaa-bandung-1955]
+  dimension_ids: [tujuan-4]
+
+# ==================== DEMOKRASI TERPIMPIN ====================
+
+- id: ev-soekarno2-dekrit
+  term_id: presiden-soekarno-ii
+  date: "1959-07"
+  category: krisis
+  title_id: Dekrit Presiden 5 Juli 1959
+  summary_id: Konstituante yang buntu dibubarkan; UUD 1945 diberlakukan kembali dan demokrasi parlementer berakhir.
+  source_ids: [dekrit-presiden-1959]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-soekarno2-irian-barat
+  term_id: presiden-soekarno-ii
+  date: "1962-08"
+  category: kebijakan
+  title_id: New York Agreement dan pengembalian Irian Barat
+  summary_id: Diplomasi dan tekanan Trikora membawa Irian Barat ke administrasi UNTEA lalu Indonesia; Pepera 1969 menyusul dengan kontroversi.
+  source_ids: [new-york-agreement-1962]
+  dimension_ids: [tujuan-1, sila-3]
+
+- id: ev-soekarno2-konfrontasi
+  term_id: presiden-soekarno-ii
+  date: "1963-09"
+  category: kebijakan
+  title_id: Dwikora dan konfrontasi dengan Malaysia
+  summary_id: Kebijakan konfrontasi militer melawan pembentukan Malaysia mengisolasi ekonomi dan melanggar prinsip perdamaian regional.
+  source_ids: [dwikora-konfrontasi-1963]
+  dimension_ids: [tujuan-4, sila-3]
+
+- id: ev-soekarno2-gestapu
+  term_id: presiden-soekarno-ii
+  date: "1965-10"
+  category: krisis
+  title_id: G30S dan gelombang kekerasan 1965-1966
+  summary_id: Pasca-peristiwa enam jenderal, kampanye pemusnahan terhadap dugaan simpatisan PKI menelan ratusan ribu nyawa tanpa proses hukum; Komnas HAM menyimpulkan pelanggaran HAM berat sistemik.
+  source_ids: [komnas-ham-temuan-1965]
+  dimension_ids: [sila-2, tujuan-1]
+
+- id: ev-soekarno2-supersemar
+  term_id: presiden-soekarno-ii
+  date: "1966-03"
+  category: krisis
+  title_id: Supersemar
+  summary_id: Surat perintah 11 Maret memberi mandat pemulihan ketertiban kepada Mayjen Suharto; transisi kekuasaan dimulai di luar jalur yang sepenuhnya jelas.
+  source_ids: [supersemar-1966]
+  dimension_ids: [checks-balances]
+
+# ======================= ORDE BARU =======================
+
+- id: ev-soeharto-tap-iii-1967
+  term_id: presiden-soeharto
+  date: "1967-03"
+  category: produk-hukum
+  title_id: TAP MPRS III/MPRS/1967 - Suharto menjadi Pejabat Presiden
+  summary_id: Sidang Istimewa MPRS mencabut mandat Sukarno dan menunjuk Suharto; MPR-MPRS berperan sebagai penentu arah kekuasaan.
+  source_ids: [tap-mprs-iii-1967]
+  dimension_ids: [checks-balances]
+
+- id: ev-soeharto-inpres-14
+  term_id: presiden-soeharto
+  date: "1967-12"
+  category: kebijakan
+  title_id: Inpres 14/1967 membatasi tradisi dan kepercayaan Tionghoa
+  summary_id: Pembatasan keagamaan dan budaya warga Tionghoa berlaku puluhan tahun hingga dicabut Keppres 6/2000.
+  source_ids: [inpres-14-1967]
+  dimension_ids: [sila-1, sila-3]
+
+- id: ev-soeharto-fusi-partai
+  term_id: presiden-soeharto
+  date: "1973-01"
+  category: kebijakan
+  title_id: Fusi paksa partai politik
+  summary_id: Sepuluh partai dilebur menjadi PPP dan PDI sementara Golkar menjadi kendaraan pemerintah tanpa oposisi efektif.
+  source_ids: [fusi-partai-1973]
+  dimension_ids: [sila-4, kedaulatan-rakyat]
+
+- id: ev-soeharto-sd-inpres
+  term_id: presiden-soeharto
+  date: "1973-03"
+  category: kebijakan
+  title_id: Program SD Inpres membangun puluhan ribu sekolah
+  summary_id: Salah satu program pendidikan dasar tercepat di negara berkembang; akses naik tajam meski mutu mengikuti belakangan.
+  source_ids: [sd-inpres-1973]
+  dimension_ids: [tujuan-3]
+
+- id: ev-soeharto-timtim
+  term_id: presiden-soeharto
+  date: "1976-07"
+  category: produk-hukum
+  title_id: Integrasi Timor Timur lewat UU No. 7/1976
+  summary_id: Pasca-invasi Desember 1975 yang tidak disetujui PBB, Timor Timur disatukan; operasi militer panjang menimbulkan korban besar.
+  source_ids: [uu-7-1976]
+  dimension_ids: [sila-2, tujuan-4]
+
+- id: ev-soeharto-asas-tunggal
+  term_id: presiden-soeharto
+  date: "1985-08"
+  category: produk-hukum
+  title_id: UU Ormas 8/1985 - Pancasila asas tunggal
+  summary_id: Seluruh organisasi termasuk partai wajib Pancasila satu-satunya asas; instrumen monoloyalitas pegawai negeri menyempitkan ruang sipil.
+  source_ids: [uu-8-1985]
+  dimension_ids: [sila-4, kedaulatan-rakyat]
+
+- id: ev-soeharto-swasembada
+  term_id: presiden-soeharto
+  date: "1984-11"
+  category: kebijakan
+  title_id: Swasembada beras diakui FAO
+  summary_id: Produksi pangan mencapai swasembada pada 1984; FAO menganugerahkan medali 1985, hasil intensifikasi dan subsidi pupuk.
+  source_ids: [fao-swasembada-1985]
+  dimension_ids: [sila-5, tujuan-2]
+
+- id: ev-soeharto-mej-1998
+  term_id: presiden-soeharto
+  date: "1998-05"
+  category: krisis
+  title_id: Krismon, Trisakti, kerusuhan Mei, dan lengsernya Soeharto
+  summary_id: Krisis finansial memicu krisis legitimasi; penembakan Trisakti dan kerusuhan Mei (TGPF mencatat korban jiwa) diikuti pengunduran diri 21 Mei 1998.
+  source_ids: [tgpf-mei-1998]
+  dimension_ids: [sila-2, kedaulatan-rakyat]

@@ -20,7 +20,7 @@ export default function TimelinePage() {
     <div className="mx-auto max-w-4xl px-4 py-12">
       <h1 className="text-3xl font-bold">Timeline penilaian</h1>
       <p className="mt-2 text-[var(--muted)] text-sm">
-        Masa jabatan era Reformasi (seed). Era sebelumnya menyusul pada fase 4.
+        Eksekutif lengkap 1945–kini. Legislatif dan yudikatif pra-1998 menyusul.
       </p>
 
       {branches.map((branch) => {

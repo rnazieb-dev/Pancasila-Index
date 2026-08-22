@@ -11,6 +11,7 @@
   "scripts": {
     "build": "pnpm --filter @pancasila-index/web build",
     "dev": "pnpm --filter @pancasila-index/web dev",
+    "build:data": "pnpm --filter @pancasila-index/data build",
     "test": "pnpm -r test",
     "typecheck": "pnpm -r typecheck",
     "lint": "pnpm -r lint"

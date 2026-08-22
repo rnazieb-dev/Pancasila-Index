@@ -363,7 +363,7 @@
       confidence: 0.45
       rationale_id: Komitmen iklim moratorium hutan dan aktivisme regional memperkuat ketertiban dunia.
       evidence: [{source_id: inpres-10-2011}]
-      event_ids: [ev-sby2-moratorium]
+      event_ids: [ev-sby2-moratorium-hutan]
     - dimension_id: negara-hukum
       score: -1
       confidence: 0.5
@@ -1273,3 +1273,237 @@
       rationale_id: Komposisi majelis yang dipolitisir melemahkan kepercayaan publik kepada penjaga konstitusi.
       evidence: [{source_id: berita-adies-kadir-mk-2026}]
       event_ids: [ev-mk5-lantikan-adies-kadir]
+
+- id: asm-soekarno-i
+  term_id: presiden-soekarno-i
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-23"
+  dimension_scores:
+    - dimension_id: sila-1
+      score: 1
+      confidence: 0.4
+      rationale_id: Pancasila dikukuhkan sebagai dasar negara; tidak ada represi keagamaan pada periode ini.
+      evidence: [{source_id: proklamasi-ppki-1945}]
+      event_ids: [ev-soekarno1-proklamasi-uud]
+    - dimension_id: sila-2
+      score: 0
+      confidence: 0.35
+      rationale_id: Madiun menelan korban dari dua arah di tengah perang kemerdekaan tanpa pola represi permanen.
+      evidence: [{source_id: proklamasi-ppki-1945}]
+      event_ids: [ev-soekarno1-madiun]
+    - dimension_id: sila-3
+      score: 1
+      confidence: 0.5
+      rationale_id: Integrasi dari federalisme kembali ke negara kesatuan dilakukan lewat jalur konstitusional.
+      evidence: [{source_id: uuds-1950}]
+      event_ids: [ev-soekarno1-nkri-uuds]
+    - dimension_id: sila-4
+      score: 1
+      confidence: 0.55
+      rationale_id: Pemilu 1955 berjalan bebas dan jujur meski sistem kabinet parlementer sangat tidak stabil.
+      evidence: [{source_id: pemilu-1955}]
+      event_ids: [ev-soekarno1-pemilu-1955]
+    - dimension_id: sila-5
+      score: -1
+      confidence: 0.4
+      rationale_id: Nasionalisasi dan defisit membebani ekonomi; inflasi meningkat menjelang akhir periode.
+      evidence: [{source_id: uuds-1950}]
+    - dimension_id: tujuan-1
+      score: 1
+      confidence: 0.5
+      rationale_id: Kemerdekaan penuh dipertahankan lewat kombinasi perjuangan bersenjata dan diplomasi KMB.
+      evidence: [{source_id: konferensi-meja-bundar-1949}]
+      event_ids: [ev-soekarno1-kmb]
+    - dimension_id: tujuan-2
+      score: -1
+      confidence: 0.35
+      rationale_id: Kesejahteraan umum tertekan oleh peperangan dan ketidakstabilan fiskal.
+      evidence: [{source_id: uuds-1950}]
+    - dimension_id: tujuan-3
+      score: 0
+      confidence: 0.3
+      rationale_id: Pendidikan tinggi mulai dibangun namun akses dasar masih sangat terbatas.
+      evidence: [{source_id: uuds-1950}]
+    - dimension_id: tujuan-4
+      score: 2
+      confidence: 0.6
+      rationale_id: Konferensi Asia-Afrika menjadi landmark solidaritas antarbangsa terjajah dan dasar gerakan non-blok.
+      evidence: [{source_id: kaa-bandung-1955}]
+      event_ids: [ev-soekarno1-kaa]
+    - dimension_id: negara-hukum
+      score: 0
+      confidence: 0.4
+      rationale_id: UUDS menjamin kepastian hukum dan MA aktif; intervensi politik terhadap hukum mulai meningkat akhir periode.
+      evidence: [{source_id: uuds-1950}]
+    - dimension_id: checks-balances
+      score: 0
+      confidence: 0.4
+      rationale_id: Parlemen menjatuhkan beberapa kabinet secara konstitusional; posisi presiden mulai menguat melewati keseimbangan.
+      evidence: [{source_id: uuds-1950}]
+    - dimension_id: kedaulatan-rakyat
+      score: 1
+      confidence: 0.55
+      rationale_id: Pemilu pertama yang bebas dan partisipatif menjadi fondasi legitimasi elektoral republik muda.
+      evidence: [{source_id: pemilu-1955}]
+
+- id: asm-soekarno-ii
+  term_id: presiden-soekarno-ii
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-23"
+  dimension_scores:
+    - dimension_id: sila-1
+      score: 0
+      confidence: 0.35
+      rationale_id: Relasi agama-negara dinegosiasikan lewat politik Nasakom tanpa represi keagamaan besar.
+      evidence: [{source_id: dekrit-presiden-1959}]
+    - dimension_id: sila-2
+      score: -2
+      confidence: 0.5
+      rationale_id: Gelombang pembunuhan massal 1965-1966 terhadap dugaan simpatisan PKI terjadi tanpa proses hukum; Komnas HAM menyimpulkan pelanggaran HAM berat sistemik.
+      evidence: [{source_id: komnas-ham-temuan-1965}]
+      event_ids: [ev-soekarno2-gestapu]
+    - dimension_id: sila-3
+      score: -1
+      confidence: 0.45
+      rationale_id: Irian Barat kembali namun konfrontasi militer regional dan Pepera kontroversial menggerus persatuan yang adil.
+      evidence: [{source_id: new-york-agreement-1962}]
+      event_ids: [ev-soekarno2-konfrontasi, ev-soekarno2-irian-barat]
+    - dimension_id: sila-4
+      score: -2
+      confidence: 0.5
+      rationale_id: DPR hasil pemilu dibubarkan dan diganti DPR-GR tunjukan; tidak ada pemilu selama delapan tahun demokrasi terpimpin.
+      evidence: [{source_id: dekrit-presiden-1959}]
+    - dimension_id: sila-5
+      score: -2
+      confidence: 0.45
+      rationale_id: Ekonomi runtuh menuju hiperinflasi tiga digit; daya beli rakyat jatuh drastis.
+      evidence: [{source_id: dekrit-presiden-1959}]
+    - dimension_id: tujuan-1
+      score: 1
+      confidence: 0.45
+      rationale_id: Irian Barat berhasil dikembalikan melalui tekanan diplomatik-militer yang terkendali.
+      evidence: [{source_id: new-york-agreement-1962}]
+      event_ids: [ev-soekarno2-irian-barat]
+    - dimension_id: tujuan-2
+      score: -2
+      confidence: 0.4
+      rationale_id: Kebijakan ekonomi mengabaikan pemulihan; kesejahteraan umum anjlok berkepanjangan.
+      evidence: [{source_id: dekrit-presiden-1959}]
+    - dimension_id: tujuan-3
+      score: 0
+      confidence: 0.3
+      rationale_id: Tidak ada kemajuan maupun kemunduran besar yang terdokumentasi baik.
+      evidence: [{source_id: uuds-1950}]
+    - dimension_id: tujuan-4
+      score: -2
+      confidence: 0.5
+      rationale_id: Konfrontasi militer dengan tetangga dan keluarnya Indonesia dari PBB bertentangan dengan perdamaian abadi.
+      evidence: [{source_id: dwikora-konfrontasi-1963}]
+      event_ids: [ev-soekarno2-konfrontasi]
+    - dimension_id: negara-hukum
+      score: -2
+      confidence: 0.45
+      rationale_id: Kekuasaan dijalankan lewat dekrit; tahanan politik ditahan tanpa proses hukum yang sah.
+      evidence: [{source_id: dekrit-presiden-1959}]
+      event_ids: [ev-soekarno2-dekrit]
+    - dimension_id: checks-balances
+      score: -2
+      confidence: 0.5
+      rationale_id: Lembaga perwakilan dibubarkan atau digantikan badan tunjusan; kontrol atas presiden lenyap.
+      evidence: [{source_id: dekrit-presiden-1959}]
+      event_ids: [ev-soekarno2-dekrit]
+    - dimension_id: kedaulatan-rakyat
+      score: -2
+      confidence: 0.5
+      rationale_id: Mandat rakyat hasil pemilu 1955 dimatikan; legitimasi beralih ke doktrin mandataris revolusi.
+      evidence: [{source_id: dekrit-presiden-1959}]
+
+- id: asm-soeharto
+  term_id: presiden-soeharto
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-23"
+  dimension_scores:
+    - dimension_id: sila-1
+      score: -1
+      confidence: 0.45
+      rationale_id: Inpres 14/1967 mendiskriminasi warga Tionghoa dan negara mengontrol ketat kehidupan keagamaan.
+      evidence: [{source_id: inpres-14-1967}]
+      event_ids: [ev-soeharto-inpres-14]
+    - dimension_id: sila-2
+      score: -1
+      confidence: 0.5
+      rationale_id: Operasi militer Timor Timur, kasus Petrus, dan Tanjung Priok berlangsung dengan impunitas sistemik.
+      evidence: [{source_id: uu-7-1976}]
+      event_ids: [ev-soeharto-timtim]
+    - dimension_id: sila-3
+      score: 0
+      confidence: 0.45
+      rationale_id: Stabilitas tiga dekade membawa pembangunan merata sebagian namun pendekatan militer di wilayah konflik meninggalkan luka integrasi.
+      evidence: [{source_id: uu-7-1976}]
+      event_ids: [ev-soeharto-timtim]
+    - dimension_id: sila-4
+      score: -2
+      confidence: 0.55
+      rationale_id: Fusi paksa partai, asas tunggal Pancasila, monoloyalitas ASN, dan pembredelan pers mematikan kerakyatan konstitusional.
+      evidence: [{source_id: uu-8-1985}, {source_id: fusi-partai-1973}]
+      event_ids: [ev-soeharto-fusi-partai, ev-soeharto-asas-tunggal]
+    - dimension_id: sila-5
+      score: 1
+      confidence: 0.5
+      rationale_id: Kemiskinan turun drastis dari sekitar enam puluh persen ke belasan persen; swasembada beras tercapai nyata.
+      evidence: [{source_id: fao-swasembada-1985}]
+      event_ids: [ev-soeharto-swasembada]
+    - dimension_id: tujuan-1
+      score: 0
+      confidence: 0.4
+      rationale_id: Stabilitas keamanan internal kuat namun represif; akhir periode gagal melindungi warga dalam kerusuhan Mei.
+      evidence: [{source_id: tgpf-mei-1998}]
+      event_ids: [ev-soeharto-mej-1998]
+    - dimension_id: tujuan-2
+      score: 1
+      confidence: 0.5
+      rationale_id: Pertumbuhan tinggi, infrastruktur luas, dan swasembada pangan memajukan kesejahteraan umum secara nyata.
+      evidence: [{source_id: fao-swasembada-1985}]
+      event_ids: [ev-soeharto-swasembada]
+    - dimension_id: tujuan-3
+      score: 1
+      confidence: 0.45
+      rationale_id: SD Inpres membangun akses pendidikan dasar masif meski mutu pembelajaran tertinggal.
+      evidence: [{source_id: sd-inpres-1973}]
+      event_ids: [ev-soeharto-sd-inpres]
+    - dimension_id: tujuan-4
+      score: -1
+      confidence: 0.45
+      rationale_id: Integrasi Timor Timur lewat invasi tanpa mandat PBB melanggar prinsip perdamaian internasional.
+      evidence: [{source_id: uu-7-1976}]
+      event_ids: [ev-soeharto-timtim]
+    - dimension_id: negara-hukum
+      score: -2
+      confidence: 0.55
+      rationale_id: Hukum berfungsi sebagai instrumen kekuasaan; korupsi keluarga-croni tak tersentuh hingga akhir rezim.
+      evidence: [{source_id: tgpf-mei-1998}]
+      event_ids: [ev-soeharto-mej-1998]
+    - dimension_id: checks-balances
+      score: -2
+      confidence: 0.55
+      rationale_id: MPR-MPRS menjadi alat legitimasi; tidak ada satu pun kontrol efektif terhadap kekuasaan presiden.
+      evidence: [{source_id: tap-mprs-iii-1967}]
+      event_ids: [ev-soeharto-tap-iii-1967]
+    - dimension_id: kedaulatan-rakyat
+      score: -2
+      confidence: 0.55
+      rationale_id: Pemilu lima tahunan dikendalikan Golkar dan asas tunggal; kehendak rakyat bukan sumber kekuasaan.
+      evidence: [{source_id: uu-8-1985}]
+      event_ids: [ev-soeharto-asas-tunggal]

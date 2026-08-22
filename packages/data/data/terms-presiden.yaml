@@ -93,3 +93,37 @@
       role_id: Presiden Republik Indonesia
     - name: Gibran Rakabuming Raka
       role_id: Wakil Presiden
+
+# ---------------- ERA SEBELUM REFORMASI ----------------
+
+- id: presiden-soekarno-i
+  institution_id: presiden-ri
+  label_id: Presiden Sukarno (Revolusi & Demokrasi Liberal)
+  era: revolusi
+  start_date: "1945-08-18"
+  end_date: "1959-07-04"
+  actors:
+    - name: Sukarno
+      role_id: Presiden Republik Indonesia
+    - name: Mohammad Hatta
+      role_id: Wakil Presiden (hingga Desember 1956)
+
+- id: presiden-soekarno-ii
+  institution_id: presiden-ri
+  label_id: Presiden Sukarno (Demokrasi Terpimpin)
+  era: demokrasi-terpimpin
+  start_date: "1959-07-05"
+  end_date: "1967-03-11"
+  actors:
+    - name: Sukarno
+      role_id: Presiden Republik Indonesia / Mandataris Tertinggi Revolusi
+
+- id: presiden-soeharto
+  institution_id: presiden-ri
+  label_id: Presiden Suharto (Orde Baru)
+  era: orde-baru
+  start_date: "1967-03-12"
+  end_date: "1998-05-21"
+  actors:
+    - name: Suharto
+      role_id: Pejabat Presiden (1967-1968), Presiden RI (1968-1998)

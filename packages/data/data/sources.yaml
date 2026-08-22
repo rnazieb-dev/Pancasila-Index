@@ -346,3 +346,113 @@
   title_id: Pemberitaan fenomena politik dinasti keluarga presiden petahana (Gibran wapres, Kaesang ketum PSI, Bobby gubernur Sumut)
   year: 2024
   citation_id: Kompas/BBC Indonesia/Katadata, liputan dinamika politik dinasti 2023-2024
+
+- id: proklamasi-ppki-1945
+  type: arsip-nasional
+  title_id: Proklamasi Kemerdekaan dan pengesahan UUD 1945 oleh PPKI, 18 Agustus 1945
+  year: 1945
+  citation_id: Arsip Nasional RI; Risalah sidang PPKI
+
+- id: konferensi-meja-bundar-1949
+  type: arsip-nasional
+  title_id: Hasil Konferensi Meja Bundar Den Haag; pengakuan kedaulatan 27 Desember 1949
+  year: 1949
+  citation_id: Arsip Nasional RI; dokumen KMB
+
+- id: uuds-1950
+  type: lainnya
+  title_id: Undang-Undang Dasar Sementara 1950 (berlaku 17 Agustus 1950)
+  year: 1950
+  citation_id: Lembaran Negara RIS/UUDS 1950
+
+- id: pemilu-1955
+  type: lainnya
+  title_id: Pemilihan umum nasional pertama Republik Indonesia, September-Desember 1955
+  year: 1955
+  citation_id: Dokumen KPU-era; literatur sejarah elektoral Indonesia
+
+- id: kaa-bandung-1955
+  type: arsip-nasional
+  title_id: Konferensi Asia-Afrika Bandung dan komunike finalnya, April 1955
+  year: 1955
+  url: https://www.kemlu.go.id
+  citation_id: Final Communique of the Asian-African Conference, April 1955
+
+- id: dekrit-presiden-1959
+  type: keppres
+  title_id: Dekrit Presiden 5 Juli 1959 (pembubaran Konstituante, kembali ke UUD 1945)
+  year: 1959
+  citation_id: Dekrit Presiden/Mandataris Tertinggi Revolusi, 5 Juli 1959
+
+- id: new-york-agreement-1962
+  type: lainnya
+  title_id: New York Agreement tentang Irian Barat (Indonesia-Belanda-PBB), Agustus 1962
+  year: 1962
+  url: https://peacemaker.un.org
+  citation_id: UN Treaty Series; Agreement concerning West New Guinea
+
+- id: dwikora-konfrontasi-1963
+  type: lainnya
+  title_id: Dwikora dan konfrontasi Indonesia-Malaysia 1963-1966
+  year: 1963
+  citation_id: Amanat DWIKORA Presiden, 1964; literatur sejarah hubungan luar negeri
+
+- id: komnas-ham-temuan-1965
+  type: laporan-lembaga
+  title_id: Penyelidikan Komnas HAM atas dugaan pelanggaran HAM berat 1965-1966
+  year: 2012
+  citation_id: Laporan Penyelidikan Komnas HAM Peristiwa 1965, 2012; Keppres 17/2022 tentang pemulihan hak korban
+
+- id: supersemar-1966
+  type: arsip-nasional
+  title_id: Surat Perintah Sebelas Maret (Supersemar) 1966 - salinan Arsip Nasional
+  year: 1966
+  citation_id: ANRI, Salinan Supersemar 11 Maret 1966
+
+- id: tap-mprs-iii-1967
+  type: dokumen-mpr
+  title_id: TAP MPRS No. III/MPRS/1967 (menunjuk Jenderal Suharto sebagai Pejabat Presiden)
+  year: 1967
+  citation_id: Risalah Sidang Istimewa MPRS 1967
+
+- id: inpres-14-1967
+  type: lainnya
+  title_id: Inpres No. 14/1967 tentang agama, kepercayaan, dan adat istiadat Tionghoa
+  year: 1967
+  citation_id: Instruksi Presiden No. 14 Tahun 1967
+
+- id: fusi-partai-1973
+  type: lainnya
+  title_id: Fusi paksa sepuluh partai menjadi PPP dan PDI pada Januari 1973
+  year: 1973
+  citation_id: Literatur sejarah politik Orde Baru (mis. R. William Liddle)
+
+- id: sd-inpres-1973
+  type: lainnya
+  title_id: Program Sekolah Dasar Inpres 1973-1974 (pembangunan masif sekolah dasar)
+  year: 1973
+  citation_id: Presiden Soeharto pidato APBN 1973; evaluasi Bank Dunia atas SD Inpres
+
+- id: uu-7-1976
+  type: undang-undang
+  title_id: UU No. 7 Tahun 1976 tentang Penyatuan Wilayah Timor Timur
+  year: 1976
+  citation_id: LN 1976 No. 35, TLN 3085
+
+- id: uu-8-1985
+  type: undang-undang
+  title_id: UU No. 8 Tahun 1985 tentang Organisasi Kemasyarakatan (Pancasila sebagai asas tunggal)
+  year: 1985
+  citation_id: LN 1985 No. 69, TLN 3323
+
+- id: fao-swasembada-1985
+  type: laporan-lembaga
+  title_id: Pengakuan FAO atas swasembada beras Indonesia (medali 1985)
+  year: 1985
+  citation_id: FAO Ceres medal 1985; data BPS produksi pangan
+
+- id: tgpf-mei-1998
+  type: laporan-lembaga
+  title_id: Laporan Tim Gabungan Pencari Fakta (TGPF) Kerusuhan Mei 1998
+  year: 1998
+  citation_id: Laporan TGPF 23 Oktober 1998

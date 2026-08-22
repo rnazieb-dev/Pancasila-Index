@@ -1,0 +1,19 @@
+{
+  "name": "@pancasila-index/ai",
+  "version": "0.1.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "main": "./src/heuristic.ts",
+  "scripts": {
+    "suggest": "tsx scripts/suggest.mts"
+  },
+  "dependencies": {
+    "@pancasila-index/core": "workspace:*",
+    "yaml": "^2.6.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
