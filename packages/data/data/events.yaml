@@ -1,0 +1,657 @@
+# ============================================================
+# PERISTIWA & KEBIJAKAN — era Reformasi (seed)
+# Setiap entri wajib merujuk sumber di sources.yaml.
+# ============================================================
+
+# ------------------------- PRESIDEN HABIBIE -------------------------
+- id: ev-habibie-tap-xvii
+  term_id: presiden-habibie
+  date: "1998-11"
+  category: produk-hukum
+  title_id: TAP MPR XVII/MPR/1998 tentang Hak Asasi Manusia
+  summary_id: Sidang Umum MPR mengesahkan piagam HAM nasional sebagai komitmen pasca-Orde Baru.
+  source_ids: [tap-mpr-xvii-1998]
+  dimension_ids: [sila-2]
+
+- id: ev-habibie-kemerdekaan-sipil
+  term_id: presiden-habibie
+  date: "1998-10"
+  category: produk-hukum
+  title_id: UU Kemerdekaan Menyatakan Pendapat di Muka Umum
+  summary_id: Ruang sipil dibuka; tahanan politik dilepas dan pers bebas mulai berkembang.
+  source_ids: [uu-9-1998]
+  dimension_ids: [sila-4]
+
+- id: ev-habibie-referendum-timtim
+  term_id: presiden-habibie
+  date: "1999-05"
+  category: kebijakan
+  title_id: Konsultasi Rakyat Timor Timur
+  summary_id: Kesepakatan tripartit Indonesia-Portugal-PBB memungkinkan konsultasi rakyat Agustus 1999.
+  source_ids: [tripartit-timtim-1999]
+  dimension_ids: [sila-3, tujuan-4]
+
+- id: ev-habibie-pemilu-1999
+  term_id: presiden-habibie
+  date: "1999-06"
+  category: peristiwa
+  title_id: Pemilu multipartai pertama pasca-Orde Baru
+  summary_id: Pemilu berlangsung bebas dan kompetitif, pemilih baru lahir dari era pembatasan partai.
+  source_ids: [uu-3-1999]
+  dimension_ids: [sila-4, kedaulatan-rakyat]
+
+- id: ev-habibie-otda
+  term_id: presiden-habibie
+  date: "1999-05"
+  category: produk-hukum
+  title_id: UU Otonomi Daerah dan Perimbangan Keuangan
+  summary_id: Desentralisasi besar-besaran mengakhiri sentralisasi Orde Baru.
+  source_ids: [uu-22-1999, uu-25-1999]
+  dimension_ids: [sila-3]
+
+- id: ev-habibie-uu-pers-ham
+  term_id: presiden-habibie
+  date: "1999-09"
+  category: produk-hukum
+  title_id: UU Pers dan UU Hak Asasi Manusia
+  summary_id: Dua undang-undang kunci perlindungan pers dan HAM ditetapkan menjelang akhir masa jabatan.
+  source_ids: [uu-40-1999, uu-39-1999]
+  dimension_ids: [sila-4, sila-2]
+
+# ------------------------- PRESIDEN GUSDUR -------------------------
+- id: ev-gusdur-depen
+  term_id: presiden-gusdur
+  date: "1999-10"
+  category: kebijakan
+  title_id: Pembubaran Departemen Penerangan
+  summary_id: Simbol akhir era propaganda negara; fungsi penerangan dikembalikan kepada pers bebas.
+  source_ids: [keppres-125-1999]
+  dimension_ids: [sila-4]
+
+- id: ev-gusdur-imlek
+  term_id: presiden-gusdur
+  date: "2000-01"
+  category: kebijakan
+  title_id: Keppres No. 6/2000 - Imlek dirayakan terbuka
+  summary_id: Pencabutan Inpres 14/1967 menghapus pembatasan tradisi dan kepercayaan Tionghoa.
+  source_ids: [keppres-6-2000]
+  dimension_ids: [sila-1, sila-3]
+
+- id: ev-gusdur-ssm
+  term_id: presiden-gusdur
+  date: "2001-07"
+  category: krisis
+  title_id: Sidang Istimewa MPR memberhentikan Presiden Wahid
+  summary_id: Konflik eksekutif-legislatif diselesaikan melalui mekanisme konstitusional, bukan paksaan militer.
+  source_ids: [tap-mpr-iii-2001]
+  dimension_ids: [checks-balances]
+
+# ------------------------ PRESIDEN MEGAWATI ------------------------
+- id: ev-megawati-pengadilan-timtim
+  term_id: presiden-megawati
+  date: "2001-12"
+  category: pengadilan
+  title_id: Pengadilan HAM Ad Hoc Timor Timur dibentuk
+  summary_id: Keppres 53/2001 membentuk pengadilan ad hoc, namun prosesnya kemudian dikritik lemah dan impunitif.
+  source_ids: [keppres-53-2001]
+  dimension_ids: [sila-2]
+
+- id: ev-megawati-kpk
+  term_id: presiden-megawati
+  date: "2002-12"
+  category: produk-hukum
+  title_id: UU Komisi Pemberantasan Korupsi
+  summary_id: Lahirnya KPK sebagai institusi independen pemberantasan korupsi.
+  source_ids: [uu-30-2002]
+  dimension_ids: [negara-hukum]
+
+- id: ev-megawati-presiden-langsung
+  term_id: presiden-megawati
+  date: "2003-07"
+  category: produk-hukum
+  title_id: UU Pemilihan Presiden dan Wakil Presiden
+  summary_id: Legislasinya membuka era pemilihan presiden langsung pertama pada 2004.
+  source_ids: [uu-23-2003]
+  dimension_ids: [kedaulatan-rakyat, sila-4]
+
+- id: ev-megawati-antiteror
+  term_id: presiden-megawati
+  date: "2003-04"
+  category: produk-hukum
+  title_id: UU Pemberantasan Tindak Pidana Terorisme
+  summary_id: Respons hukum pasca-bom Bali 2002; efektif namun definisi luasnya kelak dipersoalkan.
+  source_ids: [uu-15-2003]
+  dimension_ids: [tujuan-1]
+
+- id: ev-megawati-mk-dilantik
+  term_id: presiden-megawati
+  date: "2003-08"
+  category: pengangkatan
+  title_id: Majelis Mahkamah Konstitusi pertama dilantik
+  summary_id: MK resmi berdiri 13 Agustus 2003 sebagai penjaga konstitusi.
+  source_ids: [uu-24-2003]
+  dimension_ids: [checks-balances]
+
+# ------------------------- PRESIDEN SBY I -------------------------
+- id: ev-sby1-damai-aceh
+  term_id: presiden-sby-i
+  date: "2005-08"
+  category: kebijakan
+  title_id: MoU Helsinki mengakhiri konflik Aceh
+  summary_id: Damai tiga dekade konflik Aceh melalui negosiasi dengan fasilitator internasional.
+  source_ids: [mou-helsinki-2005]
+  dimension_ids: [sila-3, tujuan-1]
+
+- id: ev-sby1-log-aceh
+  term_id: presiden-sby-i
+  date: "2006-07"
+  category: produk-hukum
+  title_id: UU Pemerintahan Aceh
+  summary_id: Implementasi legislasi MoU Helsinki; pilkada lokal pertama bagi mantan daerah konflik.
+  source_ids: [uu-11-2006]
+  dimension_ids: [sila-3]
+
+- id: ev-sby1-ite
+  term_id: presiden-sby-i
+  date: "2008-03"
+  category: produk-hukum
+  title_id: UU Informasi dan Transaksi Elektronik disahkan
+  summary_id: Memberi kepastian ekonomi digital, tetapi pasal-pasalnya kelak menjadi instrumen kriminalisasi ekspresi.
+  source_ids: [uu-11-2008]
+  dimension_ids: [sila-4]
+
+- id: ev-sby1-antirasial
+  term_id: presiden-sby-i
+  date: "2008-10"
+  category: produk-hukum
+  title_id: UU Penghapusan Diskriminasi Rasial dan Etnik
+  summary_id: Instrumen hukum anti-diskriminasi menyusul Keppres 56/2003 soal SBKRI.
+  source_ids: [uu-40-2008]
+  dimension_ids: [sila-3]
+
+- id: ev-sby1-century
+  term_id: presiden-sby-i
+  date: "2008-11"
+  category: krisis
+  title_id: Bailout Bank Century Rp6,7 triliun
+  summary_id: Kontroversi akuntabilitas bailout; pansus DPR terbelah dan tidak ada pejabat yang dimintai tanggung jawab hukum.
+  source_ids: [laporan-bpk-century]
+  dimension_ids: [negara-hukum]
+
+# ------------------------- PRESIDEN SBY II -------------------------
+- id: ev-sby2-tppu
+  term_id: presiden-sby-ii
+  date: "2010-10"
+  category: produk-hukum
+  title_id: UU Pencegahan dan Pemberantasan Pencucian Uang
+  summary_id: Memperkuat instrumen penelusuran aset hasil korupsi.
+  source_ids: [uu-8-2010]
+  dimension_ids: [negara-hukum]
+
+- id: ev-sby2-bpjs
+  term_id: presiden-sby-ii
+  date: "2011-11"
+  category: produk-hukum
+  title_id: UU Badan Penyelenggara Jaminan Sosial
+  summary_id: Fondasi jaminan kesehatan dan ketenagakerjaan universal menuju jaring pengaman sosial nasional.
+  source_ids: [uu-24-2011]
+  dimension_ids: [sila-5, tujuan-2]
+
+- id: ev-sby2-moratorium-hutan
+  term_id: presiden-sby-ii
+  date: "2011-05"
+  category: kebijakan
+  title_id: Moratorium izin hutan alam primer dan gambut
+  summary_id: Komitmen iklim nasional yang diapresiasi secara internasional meski pelaksanaannya timpang.
+  source_ids: [inpres-10-2011]
+  dimension_ids: [tujuan-4]
+
+- id: ev-sby2-md3
+  term_id: presiden-sby-ii
+  date: "2014-04"
+  category: produk-hukum
+  title_id: UU MD3 disahkan
+  summary_id: Dikritik memperkuat posisi elite parlemen dan meredupkan fungsi kontrol publik.
+  source_ids: [uu-17-2014]
+  dimension_ids: [checks-balances]
+
+# ------------------------ PRESIDEN JOKOWI I ------------------------
+- id: ev-jokowi1-dana-desa
+  term_id: presiden-jokowi-i
+  date: "2015-01"
+  category: kebijakan
+  title_id: Dana Desa mulai mengalir besar-besaran
+  summary_id: Transfer fiskal desa untuk pembangunan dari bawah; efektivitasnya beragam antardaerah.
+  source_ids: [uu-6-2014]
+  dimension_ids: [sila-5, tujuan-2]
+
+- id: ev-jokowi1-eksekusi-narkoba
+  term_id: presiden-jokowi-i
+  date: "2015-01"
+  category: peristiwa
+  title_id: Gelombang eksekusi mati narkotika
+  summary_id: Eksekusi Januari-April 2015 dikritik Komnas HAM dan masyarakat internasional terkait hak hidup dan proses hukum.
+  source_ids: [laporan-komnas-ham-eksekusi-2015]
+  dimension_ids: [sila-2]
+
+- id: ev-jokowi1-perluasan-pkh
+  term_id: presiden-jokowi-i
+  date: "2017-08"
+  category: kebijakan
+  title_id: Perluasan Program Keluarga Harapan nasional
+  summary_id: Bantuan bersyarat keluarga miskin diperluas signifikan berbasis data terpadu.
+  source_ids: [perpres-63-2017]
+  dimension_ids: [sila-5, tujuan-2]
+
+- id: ev-jokowi1-aksi-2019
+  term_id: presiden-jokowi-i
+  date: "2019-09"
+  category: peristiwa
+  title_id: Penindakan aksi mahasiswa pasca-RUU KPK dan RKUHP
+  summary_id: Komnas HAM mencatat temuan kekerasan aparat terhadap peserta aksi damai September 2019.
+  source_ids: [laporan-komnas-ham-aktivis-2019]
+  dimension_ids: [sila-4, sila-2]
+
+# ----------------------- PRESIDEN JOKOWI II -----------------------
+- id: ev-jokowi2-shutdown-papua
+  term_id: presiden-jokowi-ii
+  date: "2019-08"
+  category: kebijakan
+  title_id: Pembatasan akses internet di Papua
+  summary_id: Shutdown internet pasca-kerusuhan Surabaya dinilai organisasi sipil sebagai pembatasan informasi berlebihan.
+  source_ids: [laporan-lsm-kebebasan-sipil-2019-2024]
+  dimension_ids: [sila-4, sila-3]
+
+- id: ev-jokowi2-ciptaker
+  term_id: presiden-jokowi-ii
+  date: "2020-02"
+  category: produk-hukum
+  title_id: Proses omnibus UU Cipta Kerja
+  summary_id: Paket regulasi besar disusun dan digodok cepat; protes nasional buruh dan lingkungan menolak proses minim partisipasi.
+  source_ids: [uu-11-2020]
+  dimension_ids: [checks-balances, sila-4]
+
+- id: ev-jokowi2-respons-pandemi
+  term_id: presiden-jokowi-ii
+  date: "2020-03"
+  category: krisis
+  title_id: Penanganan pandemi COVID-19
+  summary_id: PSBB/PKKM dan bansos besar via UU 2/2020; respons awal lambat namun program perlindungan sosial masif.
+  source_ids: [uu-2-2020]
+  dimension_ids: [tujuan-1, sila-5]
+
+- id: ev-jokowi2-putusan-mk-91
+  term_id: presiden-jokowi-ii
+  date: "2021-11"
+  category: pengadilan
+  title_id: Putusan MK No. 91/PUU-XVIII/2020
+  summary_id: MK menyatakan UU Cipta Kerja inkonstitusional bersyarat karena cacat formal legislasi.
+  source_ids: [putusan-mk-91-2021]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-jokowi2-perppu-ciptaker
+  term_id: presiden-jokowi-ii
+  date: "2022-12"
+  category: produk-hukum
+  title_id: Perppu Cipta Kerja diterbitkan sebelum revisi selesai
+  summary_id: Dikeluarkan dua tahun setelah putusan MK tanpa menunggu revisi tuntas; dinilai melewati amanat putusan.
+  source_ids: [perppu-2-2022]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-jokowi2-uu-ciptaker-permanen
+  term_id: presiden-jokowi-ii
+  date: "2023-03"
+  category: produk-hukum
+  title_id: DPR menetapkan Perppu Cipta Kerja menjadi UU
+  summary_id: Pengesahan dilakukan meski uji materi atas Perppu masih berjalan di MK.
+  source_ids: [uu-6-2023]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-jokowi2-rkuhp
+  term_id: presiden-jokowi-ii
+  date: "2022-12"
+  category: produk-hukum
+  title_id: RKUHP disahkan menjadi UU No. 1/2023
+  summary_id: KUHP baru disahkan dengan kritik atas pasal-pasal sensitif (hidup bersama, kritik presiden) dan proses yang dipaksakan.
+  source_ids: [uu-1-2023]
+  dimension_ids: [sila-4, sila-2]
+
+# ------------------------ PRESIDEN PRABOWO ------------------------
+- id: ev-prabowo-mbg
+  term_id: presiden-prabowo
+  date: "2025-01"
+  category: kebijakan
+  title_id: Program Makan Bergizi Gratis dimulai
+  summary_id: Program gizi sekolah skala nasional lewat Badan Gizi Nasional; ambisius namun diuji tata kelola dan keberlanjutan fiskal.
+  source_ids: [perpres-83-2024]
+  dimension_ids: [sila-5, tujuan-2, tujuan-3]
+
+- id: ev-prabowo-danantara
+  term_id: presiden-prabowo
+  date: "2025-02"
+  category: produk-hukum
+  title_id: UU Badan Pengelola Investasi Danantara
+  summary_id: Holding investasi raksasa di luar struktur BUMN biasa; akuntabilitas dan kontrol publiknya dipertanyakan.
+  source_ids: [uu-danantara-2025]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-prabowo-agustus-2025
+  term_id: presiden-prabowo
+  date: "2025-08"
+  category: krisis
+  title_id: Gelombang protes nasional Agustus 2025
+  summary_id: Aksi luas pasca-tewasnya pengendara oleh kendaraan Brimob; Komnas HAM mencatat korban jiwa dan kekerasan aparat.
+  source_ids: [komnas-ham-protes-agustus-2025]
+  dimension_ids: [sila-2, sila-4]
+
+# ============================ DPR RI ============================
+
+- id: ev-dpr99-amandemen-uud
+  term_id: dpr-1999-2004
+  date: "2002-08"
+  category: produk-hukum
+  title_id: Empat tahap amandemen UUD 1945 diselesaikan
+  summary_id: "Reformasi konstitusi paling fundamental dalam sejarah republik: pembatasan masa jabatan, HAM, MK, KY, dan pilpres langsung."
+  source_ids: [tap-amandemen-uud-1999-2002, uud-nri-1945]
+  dimension_ids: [checks-balances, kedaulatan-rakyat, sila-4]
+
+- id: ev-dpr99-kpk
+  term_id: dpr-1999-2004
+  date: "2002-12"
+  category: produk-hukum
+  title_id: DPR mengesahkan UU KPK
+  summary_id: Produk legislasi antikorupsi paling berdampak era Reformasi.
+  source_ids: [uu-30-2002]
+  dimension_ids: [negara-hukum]
+
+- id: ev-dpr99-pilpres-langsung
+  term_id: dpr-1999-2004
+  date: "2003-07"
+  category: produk-hukum
+  title_id: DPR mengesahkan UU Pilpres langsung
+  summary_id: Menerjemahkan mandat amandemen konstitusi menjadi undang-undang operasional.
+  source_ids: [uu-23-2003]
+  dimension_ids: [kedaulatan-rakyat]
+
+- id: ev-dpr04-kepemilihan
+  term_id: dpr-2004-2009
+  date: "2007-04"
+  category: produk-hukum
+  title_id: UU Penyelenggara Pemilihan Umum
+  summary_id: Membangun arsitektur penyelenggara pemilu independen (KPU-Bawaslu).
+  source_ids: [uu-22-2007]
+  dimension_ids: [sila-4]
+
+- id: ev-dpr04-tipikor
+  term_id: dpr-2004-2009
+  date: "2009-09"
+  category: produk-hukum
+  title_id: UU Pengadilan Tipikor
+  summary_id: Sistem peradilan khusus tindak pidana korupsi dilengkapi.
+  source_ids: [uu-46-2009]
+  dimension_ids: [negara-hukum]
+
+- id: ev-dpr04-ky
+  term_id: dpr-2004-2009
+  date: "2004-08"
+  category: produk-hukum
+  title_id: UU Komisi Yudisial
+  summary_id: Menjalankan mandat amandemen konstitusi untuk pengawasan etik hakim.
+  source_ids: [uu-27-2004]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-dpr04-ite-disahkan
+  term_id: dpr-2004-2009
+  date: "2008-03"
+  category: produk-hukum
+  title_id: UU ITE disahkan dengan pasal yang kelak dipersoalkan
+  summary_id: Pasal-pasal karet (Pasal 27 ayat 3) kelak menjadi alat kriminalisasi ekspresi ratusan warga.
+  source_ids: [uu-11-2008]
+  dimension_ids: [sila-4]
+
+- id: ev-dpr09-bpjs
+  term_id: dpr-2009-2014
+  date: "2011-11"
+  category: produk-hukum
+  title_id: DPR mengesahkan UU BPJS
+  summary_id: Jaminan sosial nasional menjadi kewajiban konstitusional yang operasional.
+  source_ids: [uu-24-2011]
+  dimension_ids: [sila-5, tujuan-2]
+
+- id: ev-dpr09-pp3
+  term_id: dpr-2009-2014
+  date: "2011-08"
+  category: produk-hukum
+  title_id: UU Pembentukan Peraturan Perundang-undangan
+  summary_id: Menstandarkan proses legislasi; kritik menyebut beberapa ketentuan melemahkan uji materi.
+  source_ids: [uu-12-2011]
+  dimension_ids: [negara-hukum]
+
+- id: ev-dpr09-md3
+  term_id: dpr-2009-2014
+  date: "2014-04"
+  category: produk-hukum
+  title_id: UU MD3 memperkuat posisi pimpinan dewan
+  summary_id: Konsolidasi internal parlemen dinilai meredupkan fungsi anggota dan kontrol terhadap eksekutif.
+  source_ids: [uu-17-2014]
+  dimension_ids: [checks-balances, kedaulatan-rakyat]
+
+- id: ev-dpr14-des
+  term_id: dpr-2014-2019
+  date: "2014-09"
+  category: produk-hukum
+  title_id: UU Desa disahkan
+  summary_id: Kerangka hukum tata kelola desa yang mendanai ribuan desa secara langsung.
+  source_ids: [uu-6-2014]
+  dimension_ids: [sila-5, tujuan-2]
+
+- id: ev-dpr14-pemilu
+  term_id: dpr-2014-2019
+  date: "2017-08"
+  category: produk-hukum
+  title_id: UU Pemilihan Umum No. 7/2017
+  summary_id: Kodifikasi aturan elektoral menyeluruh meski ambang batas parlemennya kontroversial.
+  source_ids: [uu-7-2017]
+  dimension_ids: [sila-4, kedaulatan-rakyat]
+
+- id: ev-dpr14-revisi-kpk
+  term_id: dpr-2014-2019
+  date: "2019-09"
+  category: produk-hukum
+  title_id: Revisi UU KPK melemahkan independensi
+  summary_id: Dewan pengarah, status ASN, dan izin penyadapan baru; aksi mahasiswa nasional menolaknya.
+  source_ids: [uu-19-2019, laporan-komnas-ham-aktivis-2019]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-dpr19-ciptaker-legislasi
+  term_id: dpr-2019-2024
+  date: "2020-02"
+  category: produk-hukum
+  title_id: UU Cipta Kerja lahir dari proses dipercepat
+  summary_id: Putusan MK kemudian menyatakan cacat formal karena partisipasi publik diabaikan.
+  source_ids: [uu-11-2020, putusan-mk-91-2021]
+  dimension_ids: [checks-balances, kedaulatan-rakyat]
+
+- id: ev-dpr19-pdp
+  term_id: dpr-2019-2024
+  date: "2022-09"
+  category: produk-hukum
+  title_id: UU Pelindungan Data Pribadi disahkan
+  summary_id: Kemajuan legislasi perlindungan data digital warga negara.
+  source_ids: [uu-27-2022]
+  dimension_ids: [sila-4]
+
+- id: ev-dpr19-rkuhp-final
+  term_id: dpr-2019-2024
+  date: "2022-12"
+  category: produk-hukum
+  title_id: RKUHP disahkan menjadi UU No. 1/2023
+  summary_id: KUHP baru disahkan meski kritik atas pasal-pasal sensitif belum terjawab tuntas.
+  source_ids: [uu-1-2023]
+  dimension_ids: [sila-4, sila-2]
+
+- id: ev-dpr19-uu-ciptaker-permanen
+  term_id: dpr-2019-2024
+  date: "2023-03"
+  category: produk-hukum
+  title_id: UU No. 6/2023 penetapan Perppu Cipta Kerja
+  summary_id: DPR mengesahkan Perppu menjadi UU permanen saat uji materi masih berlangsung di MK.
+  source_ids: [uu-6-2023]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-dpr19-kesehatan-omnibus
+  term_id: dpr-2019-2024
+  date: "2023-08"
+  category: produk-hukum
+  title_id: UU Kesehatan omnibus disahkan cepat
+  summary_id: Mengganti sembilan UU sekaligus dalam waktu singkat; profesi medis memprotes substansi tertentu.
+  source_ids: [uu-17-2023]
+  dimension_ids: [checks-balances, tujuan-2]
+
+- id: ev-dpr24-revisi-pemilu-mk60
+  term_id: dpr-2024-2029
+  date: "2024-11"
+  category: produk-hukum
+  title_id: Revisi UU Pemilu mematuhi Putusan MK No. 60/PUU-XI/2024
+  summary_id: DPR menyesuaikan ambang batas parlemen sesuai amanat putusan penjaga konstitusi.
+  source_ids: [putusan-mk-60-2024]
+  dimension_ids: [checks-balances]
+
+- id: ev-dpr24-revisi-md3
+  term_id: dpr-2024-2029
+  date: "2025-03"
+  category: produk-hukum
+  title_id: Revisi UU MD3 disahkan di tengah protes
+  summary_id: Menambah fasilitas dan tunjangan anggota; disahkan sambil demonstrasi menolaknya berlangsung.
+  source_ids: [revisi-md3-2025]
+  dimension_ids: [kedaulatan-rakyat, checks-balances]
+
+- id: ev-dpr24-protes-tunjangan
+  term_id: dpr-2024-2029
+  date: "2025-08"
+  category: krisis
+  title_id: Gelombang protes nasional soal tunjangan DPR
+  summary_id: Aksi luas Agustus 2025 memaksa pencabutan kebijakan tunjangan rumah dinas anggota dewan.
+  source_ids: [komnas-ham-protes-agustus-2025]
+  dimension_ids: [kedaulatan-rakyat, sila-4]
+
+# ========================= MAHKAMAH KONSTITUSI =========================
+
+- id: ev-mk1-pelantikan
+  term_id: mk-2003-2008
+  date: "2003-08"
+  category: pengangkatan
+  title_id: Majelis MK pertama mulai bertugas
+  summary_id: Era awal judicial review Indonesia; standar uji materi dan keterbukaan sidang mulai dibentuk.
+  source_ids: [uu-24-2003]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-mk2-narkoba-46
+  term_id: mk-2008-2013
+  date: "2010-10"
+  category: pengadilan
+  title_id: Putusan MK No. 46/PUU-VIII/2010
+  summary_id: Penyalahguna narkotika ditetapkan sebagai korban yang wajib direhabilitasi, bukan hanya dipidana.
+  source_ids: [putusan-mk-46-2010]
+  dimension_ids: [sila-2]
+
+- id: ev-mk2-akil-mochtar
+  term_id: mk-2008-2013
+  date: "2013-10"
+  category: krisis
+  title_id: Ketua MK Akil Mochtar ditangkap kasus suap
+  summary_id: Krisis integritas terbesar lembaga; divonis seumur hidup dan memicu reformasi tata kelola etik MK.
+  source_ids: [putusan-ma-akil-2014]
+  dimension_ids: [negara-hukum]
+
+- id: ev-mk3-pilkada-independen
+  term_id: mk-2013-2018
+  date: "2015-01"
+  category: pengadilan
+  title_id: Putusan MK No. 100/PUU-XII/2014
+  summary_id: Membuka kembali pencalonan independen (jalur perseorangan) pada pilkada.
+  source_ids: [putusan-mk-100-2014]
+  dimension_ids: [sila-4, kedaulatan-rakyat]
+
+- id: ev-mk4-ciptaker-91
+  term_id: mk-2018-2023
+  date: "2021-11"
+  category: pengadilan
+  title_id: Putusan MK 91/PUU-XVIII/2020 menegakkan prosedur legislasi
+  summary_id: "Landmark judicial review: UU Cipta Kerja inkonstitusional bersyarat karena cacat formal partisipasi publik."
+  source_ids: [putusan-mk-91-2021]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-mk4-usia-capres
+  term_id: mk-2018-2023
+  date: "2023-10"
+  category: pengadilan
+  title_id: Putusan MK No. 90/PUU-XI/2023 soal batas usia
+  summary_id: Perubahan batas usia calon presiden-wakil presiden; dituduh disesuaikan kepentingan pencalonan keluarga petahana.
+  source_ids: [putusan-mk-90-2023]
+  dimension_ids: [kedaulatan-rakyat, negara-hukum]
+
+- id: ev-mk4-etik-anwar-usman
+  term_id: mk-2018-2023
+  date: "2023-11"
+  category: krisis
+  title_id: Ketua MK Anwar Usman melanggar etik
+  summary_id: MKMK memberhentikan Anwar Usman karena gagal netralitas - kakak iparnya diuntungkan Putusan 90/2023.
+  source_ids: [mkmk-anwar-usman-2023]
+  dimension_ids: [negara-hukum, kedaulatan-rakyat]
+
+- id: ev-mk5-ambang-batas
+  term_id: mk-2023-sekarang
+  date: "2024-11"
+  category: pengadilan
+  title_id: Putusan MK No. 60/PUU-XI/2024 soal ambang batas
+  summary_id: Ambang batas parlemen dinyatakan inkonstitusional untuk pemilu mendatang; DPR menindaklanjuti dengan revisi UU.
+  source_ids: [putusan-mk-60-2024]
+  dimension_ids: [kedaulatan-rakyat]
+
+# ------------------- TAMBAHAN PERIODE BERJALAN -------------------
+
+- id: ev-jokowi2-ikn
+  term_id: presiden-jokowi-ii
+  date: "2022-01"
+  category: produk-hukum
+  title_id: UU Ibu Kota Negara No. 3/2022 disahkan
+  summary_id: Proyek strategis nasional paling besar pasca-Reformasi disahkan dalam hitungan pekan; kritik atas partisipasi publik minim dan beban fiskal.
+  source_ids: [uu-3-2022]
+  dimension_ids: [tujuan-2, kedaulatan-rakyat]
+
+- id: ev-jokowi2-whoosh
+  term_id: presiden-jokowi-ii
+  date: "2023-10"
+  category: kebijakan
+  title_id: Kereta cepat Whoosh Jakarta-Bandung mulai operasi
+  summary_id: Proyek infrastruktur unggulan kerja sama dengan Tiongkok; pertama di Asia Tenggara, dengan polemik utang dan ketergantungan teknologi.
+  source_ids: [whoosh-kcjb-2023]
+  dimension_ids: [tujuan-2]
+
+- id: ev-jokowi2-dinasti-politik
+  term_id: presiden-jokowi-ii
+  date: "2024-02"
+  category: peristiwa
+  title_id: Konsolidasi politik dinasti keluarga presiden petahana
+  summary_id: Gibran dilantik wapres usai Putusan MK 90/2023; Kaesang menjadi ketum PSI (2023); Bobby terpilih gubernur Sumut - fenomena dinasti politik yang luas dikritik.
+  source_ids: [putusan-mk-90-2023, mkmk-anwar-usman-2023, berita-dinasti-politik-2024]
+  dimension_ids: [kedaulatan-rakyat, negara-hukum]
+
+- id: ev-dpr24-calon-hakim-mk
+  term_id: dpr-2024-2029
+  date: "2026-01"
+  category: krisis
+  title_id: DPR mengganti calon hakim konstitusi lewat proses kilat
+  summary_id: Komisi III menjalankan uji kelayakan Adies Kadir kurang dari 30 menit; paripurna membatalkan Inosentius Samsul yang sudah ditetapkan Agustus 2025.
+  source_ids: [berita-adies-kadir-mk-2026]
+  dimension_ids: [kedaulatan-rakyat, negara-hukum]
+
+- id: ev-mk5-lantikan-adies-kadir
+  term_id: mk-2023-sekarang
+  date: "2026-02"
+  category: pengangkatan
+  title_id: Adies Kadir dilantik hakim konstitusi di tengah kontroversi
+  summary_id: Eks Wakil Ketua DPR dari partai penguasa dilantik 5 Februari 2026; akademisi menilai proses melanggar prinsip transparansi; laporan etik diproses MKMK sementara DPR menolaknya.
+  source_ids: [berita-adies-kadir-mk-2026]
+  dimension_ids: [negara-hukum, kedaulatan-rakyat]

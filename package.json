@@ -1,0 +1,18 @@
+{
+  "name": "pancasila-index",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Indeks Kepancasilaan terbuka: menilai kesetiaan pemangku kekuasaan Indonesia pada Pancasila, Pembukaan UUD 1945, dan UUD 1945 — berbasis bukti.",
+  "license": "AGPL-3.0-only",
+  "packageManager": "pnpm@11.8.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "pnpm --filter @pancasila-index/web build",
+    "dev": "pnpm --filter @pancasila-index/web dev",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint"
+  }
+}

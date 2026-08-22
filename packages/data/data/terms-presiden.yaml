@@ -1,0 +1,95 @@
+# Periode kepresidenan era Reformasi (1998-sekarang).
+
+- id: presiden-habibie
+  institution_id: presiden-ri
+  label_id: Presiden B.J. Habibie
+  era: reformasi
+  start_date: "1998-05-21"
+  end_date: "1999-10-20"
+  actors:
+    - name: Bacharuddin Jusuf Habibie
+      role_id: Presiden Republik Indonesia
+
+- id: presiden-gusdur
+  institution_id: presiden-ri
+  label_id: Presiden Abdurrahman Wahid
+  era: reformasi
+  start_date: "1999-10-20"
+  end_date: "2001-07-23"
+  actors:
+    - name: Abdurrahman Wahid
+      role_id: Presiden Republik Indonesia
+    - name: Megawati Soekarnoputri
+      role_id: Wakil Presiden
+
+- id: presiden-megawati
+  institution_id: presiden-ri
+  label_id: Presiden Megawati Soekarnoputri
+  era: reformasi
+  start_date: "2001-07-23"
+  end_date: "2004-10-20"
+  actors:
+    - name: Megawati Soekarnoputri
+      role_id: Presiden Republik Indonesia
+    - name: Hamzah Haz
+      role_id: Wakil Presiden
+
+- id: presiden-sby-i
+  institution_id: presiden-ri
+  label_id: Presiden Susilo Bambang Yudhoyono (Periode Pertama)
+  era: reformasi
+  start_date: "2004-10-20"
+  end_date: "2009-10-20"
+  actors:
+    - name: Susilo Bambang Yudhoyono
+      role_id: Presiden Republik Indonesia
+    - name: Jusuf Kalla
+      role_id: Wakil Presiden
+
+- id: presiden-sby-ii
+  institution_id: presiden-ri
+  label_id: Presiden Susilo Bambang Yudhoyono (Periode Kedua)
+  era: reformasi
+  start_date: "2009-10-20"
+  end_date: "2014-10-20"
+  actors:
+    - name: Susilo Bambang Yudhoyono
+      role_id: Presiden Republik Indonesia
+    - name: Boediono
+      role_id: Wakil Presiden
+
+- id: presiden-jokowi-i
+  institution_id: presiden-ri
+  label_id: Presiden Joko Widodo (Periode Pertama)
+  era: reformasi
+  start_date: "2014-10-20"
+  end_date: "2019-10-20"
+  actors:
+    - name: Joko Widodo
+      role_id: Presiden Republik Indonesia
+    - name: Jusuf Kalla
+      role_id: Wakil Presiden
+
+- id: presiden-jokowi-ii
+  institution_id: presiden-ri
+  label_id: Presiden Joko Widodo (Periode Kedua)
+  era: reformasi
+  start_date: "2019-10-20"
+  end_date: "2024-10-20"
+  actors:
+    - name: Joko Widodo
+      role_id: Presiden Republik Indonesia
+    - name: Ma'ruf Amin
+      role_id: Wakil Presiden
+
+- id: presiden-prabowo
+  institution_id: presiden-ri
+  label_id: Presiden Prabowo Subianto (berjalan)
+  era: reformasi
+  start_date: "2024-10-20"
+  end_date: null
+  actors:
+    - name: Prabowo Subianto
+      role_id: Presiden Republik Indonesia
+    - name: Gibran Rakabuming Raka
+      role_id: Wakil Presiden

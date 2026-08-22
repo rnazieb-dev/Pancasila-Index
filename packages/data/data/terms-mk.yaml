@@ -1,0 +1,60 @@
+# Periode kepemimpinan Mahkamah Konstitusi (aproksimasi periode jabatan
+# Ketua MK; komposisi majelis berubah lebih sering).
+
+- id: mk-2003-2008
+  institution_id: mahkamah-konstitusi
+  label_id: "MK Periode Pertama (Ketua: Bagir Manan)"
+  era: reformasi
+  start_date: "2003-08-13"
+  end_date: "2008-08-18"
+  actors:
+    - name: Jimly Asshiddiqie
+      role_id: Hakim Konstitusi (Sekretaris Jenderal pertama MK)
+    - name: Bagir Manan
+      role_id: Ketua MK (2003-2008)
+
+- id: mk-2008-2013
+  institution_id: mahkamah-konstitusi
+  label_id: MK Periode Ketua Mahfud MD dan krisis integritas 2013
+  era: reformasi
+  start_date: "2008-08-19"
+  end_date: "2013-10-01"
+  actors:
+    - name: Mohammad Mahfud MD
+      role_id: Ketua MK (2008-2013)
+    - name: Akil Mochtar
+      role_id: Ketua MK (2013) - ditangkap kasus suap
+
+- id: mk-2013-2018
+  institution_id: mahkamah-konstitusi
+  label_id: "MK Periode Pemulihan Integritas (Ketua: Hamdan Zoelva lalu Arief Hidayat)"
+  era: reformasi
+  start_date: "2013-11-01"
+  end_date: "2018-08-07"
+  actors:
+    - name: Hamdan Zoelva
+      role_id: Ketua MK (2013-2015)
+    - name: Arief Hidayat
+      role_id: Ketua MK (2015-2018)
+
+- id: mk-2018-2023
+  institution_id: mahkamah-konstitusi
+  label_id: MK Periode Putusan Landmark dan Krisis Etik 2023
+  era: reformasi
+  start_date: "2018-08-08"
+  end_date: "2023-11-06"
+  actors:
+    - name: Arief Hidayat
+      role_id: Ketua MK (2018-2022)
+    - name: Anwar Usman
+      role_id: Ketua MK (2022-2023, diberhentikan karena pelanggaran etik)
+
+- id: mk-2023-sekarang
+  institution_id: mahkamah-konstitusi
+  label_id: MK Pasca-Krisis Etik 2023
+  era: reformasi
+  start_date: "2023-11-07"
+  end_date: null
+  actors:
+    - name: Suhartono
+      role_id: Ketua MK (plt., 2023-2024)

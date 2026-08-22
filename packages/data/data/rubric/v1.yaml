@@ -1,0 +1,433 @@
+# ============================================================
+# RUBRIK KEpancasilaan — versi 1.0.0
+# ============================================================
+# Inti metodologi Pancasila Index. Perubahan struktur/bobot =
+# versi baru (lihat CONTRIBUTING.md). Penilaian lama tetap
+# terikat pada versi rubrik saat penilaian dibuat.
+#
+# Skala per dimensi: -2 .. +2
+#   -2 = melanggar berat   -1 = menggerus   0 = netral/tidak signifikan
+#   +1 = memperkuat        +2 = selaras penuh / teladan
+# ============================================================
+
+version: "1.0.0"
+name_id: Rubrik Kepancasilaan Pancasila Index
+description_id: >
+  Dua belas dimensi yang diturunkan dari tiga landasan normatif: Lima Sila
+  Pancasila, empat tujuan bernegara dalam Pembukaan UUD 1945 alinea IV, dan
+  norma struktural UUD 1945 (negara hukum, checks and balances, kedaulatan
+  rakyat). Setiap dimensi dinilai berbasis bukti primer dengan skala -2..+2.
+
+groups:
+  - id: sila
+    name_id: Lima Sila Pancasila
+    description_id: >
+      Kepatuhan praktis pada kelima sila sebagai sumber segala sumber hukum
+      negara (TAP MPRS No. XX/MPRS/1966 jo. TAP MPR No. III/MPR/1978).
+    weight: 5
+
+  - id: pembukaan
+    name_id: Empat Tujuan Bernegara (Pembukaan alinea IV)
+    description_id: >
+      Melindungi segenap bangsa; memajukan kesejahteraan umum; mencerdaskan
+      kehidupan bangsa; ikut melaksanakan ketertiban dunia.
+    weight: 4
+
+  - id: struktur-uud
+    name_id: Norma Struktural UUD 1945
+    description_id: >
+      Cara kerja konstitusi: negara hukum, saling pengawasan antarlembaga,
+      dan kedaulatan di tangan rakyat.
+    weight: 3
+
+dimensions:
+
+  # ================= GRUP: LIMA SILA =================
+
+  - id: sila-1
+    group_id: sila
+    name_id: Ketuhanan Yang Maha Esa
+    question_id: >
+      Sejauh mana tindakan lembaga memperkuat jaminan kebebasan beragama dan
+      hubungan negara-agama yang adil bagi seluruh warga?
+    weight: 1
+    anchors:
+      "-2": >-
+        Diskriminasi atau penganiayaan sistemik atas keyakinan; negara
+        memaksakan keyakinan tertentu kepada warga.
+      "-1": >-
+        Netralitas goyah; aturan atau praktik yang memberatkan kelompok
+        keyakinan tertentu tanpa dasar proporsional.
+      "0": Tidak ada tindakan signifikan yang menguatkan ataupun menggerus.
+      "1": >-
+        Perlindungan konkret terhadap minoritas beragama; penyelesaian
+        sengketa keagamaan secara adil.
+      "2": >-
+        Penguatan teladan kebebasan beragama; harmonisasi antarumat secara
+        institusional dan berkelanjutan.
+    indicators:
+      - id: sila-1-kebebasan-beragama
+        name_id: Jaminan kebebasan memeluk dan menjalankan agama
+        legal_anchors_id: ["Pasal 28E ayat (1)-(2)", "Pasal 29 ayat (2)"]
+      - id: sila-1-kesetaraan-keyakinan
+        name_id: Kesetaraan warga tanpa diskriminasi keyakinan
+        legal_anchors_id: ["Pasal 28D ayat (1)", "Pasal 28I ayat (2)"]
+      - id: sila-1-layanan-netral
+        name_id: Netralitas layanan publik terkait agama (pendidikan agama, rumah ibadah, administrasi kependudukan)
+        legal_anchors_id: ["Pasal 29 ayat (2)", "Pasal 31"]
+
+  - id: sila-2
+    group_id: sila
+    name_id: Kemanusiaan yang Adil dan Beradab
+    question_id: >
+      Sejauh mana HAM dihormati dan dilindungi, termasuk akuntabilitas
+      pelanggaran HAM masa lalu serta pemulihan korban?
+    weight: 1
+    anchors:
+      "-2": >-
+        Pelanggaran HAM berat/sistemik; impunitas aktif; penyiksaan,
+        penghilangan paksa, atau eksekusi di luar hukum oleh aparat negara.
+      "-1": >-
+        Pengabaian berulang; pembatasan hak tanpa uji proporsionalitas;
+        penanganan korban lambat dan setengah hati.
+      "0": Tidak ada perubahan berarti dibanding situasi sebelumnya.
+      "1": >-
+        Penegakan hukum HAM konkret; pemulihan korban; pembatasan hak hanya
+        dengan dasar kuat, terukur, dan dapat diuji.
+      "2": >-
+        Penguatan teladan perlindungan HAM; rekonsiliasi berbasis kebenaran
+        dan keadilan yang menyentuh akar masalah.
+    indicators:
+      - id: sila-2-hak-hidup
+        name_id: Hak hidup dan hak bebas dari penyiksaan
+        legal_anchors_id: ["Pasal 28G ayat (2)", "Pasal 28I ayat (1)"]
+      - id: sila-2-akuntabilitas-ham
+        name_id: Akuntabilitas pelanggaran HAM dan pemulihan korban
+        legal_anchors_id: ["UU No. 39/1999 tentang HAM", "UU No. 26/2000 tentang Pengadilan HAM"]
+      - id: sila-2-proses-adil
+        name_id: Jaminan proses hukum yang adil
+        legal_anchors_id: ["Pasal 28D ayat (1)"]
+
+  - id: sila-3
+    group_id: sila
+    name_id: Persatuan Indonesia
+    question_id: >
+      Apakah tindakan lembaga memperkuat persatuan dalam kebinekaan -
+      antarwilayah, suku, budaya, dan keyakinan?
+    weight: 1
+    anchors:
+      "-2": >-
+        Sentralisasi paksa atau diskriminasi terhadap kelompok/wilayah
+        tertentu; meresahkan kebinekaan demi kepentingan politik.
+      "-1": >-
+        Ketimpangan antarwilayah dibiarkan; retorika perpecahan; otonomi
+        daerah digerogoti tanpa ganti mekanisme perlindungan setara.
+      "0": Tidak ada perubahan berarti.
+      "1": >-
+        Penguatan otonomi daerah dan keadilan antarwilayah; pengelolaan
+        konflik secara adil dan damai.
+      "2": >-
+        Konsolidasi persatuan teladan: keadilan antarwilayah disertai
+        penghargaan penuh terhadap kebinekaan.
+    indicators:
+      - id: sila-3-otonomi-daerah
+        name_id: Otonomi daerah dan keadilan antarwilayah
+        legal_anchors_id: ["Pasal 18", "Pasal 18B"]
+      - id: sila-3-anti-sara
+        name_id: Kesetaraan tanpa diskriminasi suku/agama/ras
+        legal_anchors_id: ["Pasal 28I ayat (2)"]
+      - id: sila-3-konflik
+        name_id: Pengelolaan konflik dan integrasi nasional
+        legal_anchors_id: ["Pembukaan alinea IV"]
+
+  - id: sila-4
+    group_id: sila
+    name_id: Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan
+    question_id: >
+      Sejauh mana demokrasi konstitusional berjalan: integritas pemilu,
+      kebebasan sipil dan pers, serta partisipasi publik dalam kebijakan?
+    weight: 1
+    anchors:
+      "-2": >-
+        Pembajakan kehendak rakyat; kecurangan elektoral sistemik; represi
+        terhadap kritik, oposisi, atau media.
+      "-1": >-
+        Erosi berulang: legislasi menghindari partisipasi; ruang sipil
+        menyempit; integritas pemilu dipertanyakan.
+      "0": Tidak ada perubahan berarti.
+      "1": >-
+        Pemilu kredibel; partisipasi publik nyata; kebebasan pers dan
+        berserikat dilindungi konsisten.
+      "2": >-
+        Konsolidasi demokrasi teladan: akuntabilitas tinggi dan ruang
+        sipil yang melembaga.
+    indicators:
+      - id: sila-4-integritas-pemilu
+        name_id: Integritas pemilu dan penyelenggaraan pemilihan
+        legal_anchors_id: ["Pasal 22E", "Pasal 23G"]
+      - id: sila-4-kebebasan-sipil
+        name_id: Kebebasan berekspresi, berkumpul, dan pers
+        legal_anchors_id: ["Pasal 28E ayat (3)", "Pasal 28F", "Pasal 28"]
+      - id: sila-4-partisipasi
+        name_id: Partisipasi publik dalam legislasi dan kebijakan
+        legal_anchors_id: ["Pasal 20A ayat (1)"]
+
+  - id: sila-5
+    group_id: sila
+    name_id: Keadilan Sosial bagi Seluruh Rakyat Indonesia
+    question_id: >
+      Apakah kebijakan ekonomi memperluas keadilan distributif sesuai Pasal
+      33-34: kesejahteraan merata, bukan menumpuk pada segelintir elite?
+    weight: 1
+    anchors:
+      "-2": >-
+        Ekonomi politik yang memiskinkan; penguasaan aset publik oleh
+        oligarki; pengabaian rakyat miskin secara sistemik.
+      "-1": >-
+        Ketimpangan melebar; program kesejahteraan tidak sampai atau
+        tertukar dengan kepentingan patronase.
+      "0": Tidak ada perubahan berarti.
+      "1": >-
+        Perluasan jaminan sosial nyata; pengentasan kemiskinan berbasis
+        data; kesempatan kerja layak meningkat.
+      "2": >-
+        Keadilan sosial teladan: distribusi merata lintas wilayah/kelompok
+        dan berkelanjutan secara fiskal.
+    indicators:
+      - id: sila-5-penguasaan-negara
+        name_id: Penguasaan negara atas cabang produksi penting untuk kemakmuran rakyat
+        legal_anchors_id: ["Pasal 33 ayat (2)-(3)"]
+      - id: sila-5-jaminan-sosial
+        name_id: Fakir-miskin dan anak terlantar dipelihara negara; jaminan sosial
+        legal_anchors_id: ["Pasal 34", "Pasal 28H ayat (3)"]
+      - id: sila-5-kerja-layak
+        name_id: Kesempatan kerja dan penghidupan yang layak
+        legal_anchors_id: ["Pasal 27 ayat (2)", "Pasal 28D ayat (2)"]
+
+  # ========== GRUP: TUJUAN BERNEGARA PEMBUKAAN ALINAEA IV ==========
+
+  - id: tujuan-1
+    group_id: pembukaan
+    name_id: Melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia
+    question_id: >
+      Sejauh mana negara melindungi warga dan wilayah - dari ancaman militer,
+      bencana, hingga kejahatan - secara proporsional dan tidak represif?
+    weight: 1
+    anchors:
+      "-2": >-
+        Aparat diperlakukan sebagai instrumen represi politik terhadap
+        warga sendiri; perlindungan warga diabaikan saat krisis.
+      "-1": >-
+        Respons krisis lambat/selektif; operasi keamanan berlebihan tanpa
+        akuntabilitas.
+      "0": Tidak ada perubahan berarti.
+      "1": >-
+        Perlindungan warga efektif dalam krisis; profesionalisme pertahanan-
+        keamanan meningkat dengan kontrol sipil sehat.
+      "2": >-
+        Perlindungan teladan: tangguh terhadap ancaman nyata, tunduk pada
+        hukum, dan berpihak pada keselamatan warga.
+    indicators:
+      - id: tujuan-1-pertahanan
+        name_id: Pertahanan dan keamanan profesional dengan kontrol sipil
+        legal_anchors_id: ["Pasal 30", "Pasal 11"]
+      - id: tujuan-1-perlindungan-warga
+        name_id: Perlindungan warga dari bencana, pandemi, dan kejahatan
+        legal_anchors_id: ["Pasal 28G ayat (1)"]
+      - id: tujuan-1-kedaulatan
+        name_id: Pemeliharaan kedaulatan wilayah dan warga di luar negeri
+        legal_anchors_id: ["Pembukaan alinea IV", "Pasal 25A"]
+
+  - id: tujuan-2
+    group_id: pembukaan
+    name_id: Memajukan kesejahteraan umum
+    question_id: >
+      Apakah kebijakan fiskal dan layanan dasar benar-benar memajukan
+      kesejahteraan umum, bukan kesejahteraan kroni?
+    weight: 1
+    anchors:
+      "-2": >-
+        Penggelapan/pemborosan publik sistemik; layanan dasar runtuh;
+        anggaran dialihkan ke kepentingan elite.
+      "-1": >-
+        Kualitas layanan dasar stagnan/menurun; belanja negara kurang
+        tepat sasaran dan sulit diaudit.
+      "0": Tidak ada perubahan berarti.
+      "1": >-
+        Layanan dasar membaik dan terjangkau; belanja tepat sasaran;
+        transparansi anggaran meningkat.
+      "2": >-
+        Kesejahteraan umum teladan: hasil pembangunan dirasakan merata dan
+        terverifikasi data independen.
+    indicators:
+      - id: tujuan-2-layanan-dasar
+        name_id: Kesehatan, air bersih, perumahan, dan infrastruktur dasar
+        legal_anchors_id: ["Pasal 28H ayat (1)", "Pasal 33 ayat (3)", "Pasal 34 ayat (2)"]
+      - id: tujuan-2-anggaran
+        name_id: Integritas dan ketepatan sasaran APBN/APBD
+        legal_anchors_id: ["Pasal 23", "Pasal 23A"]
+      - id: tujuan-2-stabilitas
+        name_id: Stabilitas harga dan daya beli rakyat kecil
+        legal_anchors_id: ["Pasal 33 ayat (1)"]
+
+  - id: tujuan-3
+    group_id: pembukaan
+    name_id: Mencerdaskan kehidupan bangsa
+    question_id: >
+      Sejauh mana akses pendidikan, mutu pembelajaran, serta budaya dan
+      iptek benar-benar dicerdaskan?
+    weight: 1
+    anchors:
+      "-2": >-
+        Anggaran konstitusional pendidikan diabaikan; kebijakan pendidikan
+        menjadi instrumen indoktrinasi politik.
+      "-1": >-
+        Mutu pendidikan stagnan; kesenjangan akses kota-desa melebar;
+        kebebasan akademik tertekan.
+      "0": Tidak ada perubahan berarti.
+      "1": >-
+        Akses dan mutu pendidikan membaik; anggaran 20% dipenuhi dengan
+        kualitas output yang terukur.
+      "2": >-
+        Pencerdasan teladan: hasil belajar dunia, kebebasan akademik
+        terjaga, riset dan budaya berkembang.
+    indicators:
+      - id: tujuan-3-pendidikan
+        name_id: Akses dan mutu pendidikan
+        legal_anchors_id: ["Pasal 31 ayat (1)-(3)"]
+      - id: tujuan-3-anggaran-pendidikan
+        name_id: Prioritas anggaran pendidikan sekurang-kurangnya 20%
+        legal_anchors_id: ["Pasal 31 ayat (4)"]
+      - id: tujuan-3-budaya-iptek
+        name_id: Advokasi budaya nasional dan ilmu pengetahuan/teknologi
+        legal_anchors_id: ["Pasal 32", "Pasal 33 ayat (5)"]
+
+  - id: tujuan-4
+    group_id: pembukaan
+    name_id: Ikut melaksanakan ketertiban dunia berdasarkan kemerdekaan, perdamaian abadi dan keadilan sosial
+    question_id: >
+      Apakah politik luar negeri bebas-aktif dan kontribusi pada perdamaian
+      serta keadilan global dijalankan sungguh-sungguh?
+    weight: 1
+    anchors:
+      "-2": >-
+        Agresi terhadap negara lain; kompromi kedaulatan secara rahasia;
+        pelanggaran hukum humaniter internasional.
+      "-1": >-
+        Politik luar negeri reaktif/transaksional; pengabaian kewajiban
+        traktat; perlindungan WNI buruk.
+      "0": Tidak ada perubahan berarti.
+      "1": >-
+        Diplomasi bebas-aktif produktif; partisipasi perdamaian PBB;
+        ratifikasi instrumen HAM internasional.
+      "2": >-
+        Teladan internasional: jangkar perdamaian regional dan advokat
+        keadilan global yang konsisten.
+    indicators:
+      - id: tujuan-4-bebas-aktif
+        name_id: Politik luar negeri bebas aktif
+        legal_anchors_id: ["Pembukaan alinea IV"]
+      - id: tujuan-4-perdamaian
+        name_id: Kontribusi pada perdamaian dan hukum internasional
+        legal_anchors_id: ["Pasal 11"]
+      - id: tujuan-4-wni
+        name_id: Perlindungan warga negara di luar negeri
+        legal_anchors_id: ["Pasal 28G ayat (1)", "Pembukaan alinea IV"]
+
+  # ============== GRUP: NORMA STRUKTURAL UUD 1945 ==============
+
+  - id: negara-hukum
+    group_id: struktur-uud
+    name_id: Indonesia adalah negara hukum (Pasal 1 ayat 3)
+    question_id: >
+      Apakah kekuasaan dijalankan berdasarkan hukum, setiap orang sama di
+      depan hukum, dan penegakan hukumnya non-selektif?
+    weight: 1
+    anchors:
+      "-2": >-
+        Rule by law: hukum menjadi senjata politik; impunitas elite;
+        penegakan hukum selektif-flagran.
+      "-1": >-
+        Supremasi hukum goyah: intervensi terhadap aparat penegak hukum;
+        kasus besar mengendur.
+      "0": Tidak ada perubahan berarti.
+      "1": >-
+        Kasus penting ditangani tanpa pandang bulu; kepastian hukum
+        meningkat.
+      "2": >-
+        Supremasi hukum teladan: siapa pun dapat diaudit/ditindak, proses
+        hukum transparan.
+    indicators:
+      - id: negara-hukum-supremasi
+        name_id: Supremasi hukum dan persamaan di depan hukum
+        legal_anchors_id: ["Pasal 1 ayat (3)", "Pasal 27 ayat (1)", "Pasal 28D ayat (1)"]
+      - id: negara-hukum-kehakiman
+        name_id: Kemerdekaan kekuasaan kehakiman
+        legal_anchors_id: ["Pasal 24 ayat (1)", "Pasal 24C"]
+      - id: negara-hukum-anti-impunitas
+        name_id: Non-selektivitas penegakan hukum terhadap elite
+        legal_anchors_id: ["Pasal 1 ayat (3)"]
+
+  - id: checks-balances
+    group_id: struktur-uud
+    name_id: Saling pengawasan antarlembaga (checks and balances)
+    question_id: >
+      Apakah relasi eksekutif-legislatif-yudikatif berlangsung sehat: saling
+      mengawasi, menghormati putusan, dan transparan?
+    weight: 1
+    anchors:
+      "-2": >-
+        Dominasi satu pusat kekuasaan; lembaga lain dilumpuhkan atau
+        dikooptasi; putusan pengadilan diabaikan.
+      "-1": >-
+        Pengabaian berkala terhadap fungsi pengawasan; legislasi kilat
+        tanpa telaah; konflik antarlembaga diselesaikan di luar konstitusi.
+      "0": Tidak ada perubahan berarti.
+      "1": >-
+        Putusan MK/MA dihormati; fungsi pengawasan DPR/KY/BPK berjalan;
+        proses legislasi patuh prosedur.
+      "2": >-
+        Checks and balances teladan: ketaatan konstitusional tinggi dan
+        transparansi antarlembaga melembaga.
+    indicators:
+      - id: cb-ketaatan-putusan
+        name_id: Ketaatan pada putusan Mahkamah Konstitusi dan MA
+        legal_anchors_id: ["Pasal 24C ayat (1)", "Pasal 24A"]
+      - id: cb-fungsi-awas
+        name_id: Fungsi pengawasan legislatif dan audit (hak interpelasi, angket, BPK)
+        legal_anchors_id: ["Pasal 20A ayat (2)", "Pasal 23E"]
+      - id: cb-transparansi-legislasi
+        name_id: Transparansi dan keterbukaan proses legislasi
+        legal_anchors_id: ["Pasal 20", "UU No. 12/2011", "UU No. 14/2008"]
+
+  - id: kedaulatan-rakyat
+    group_id: struktur-uud
+    name_id: Kedaulatan di tangan rakyat (Pasal 1 ayat 2)
+    question_id: >
+      Apakah legitimasi dan kebijakan mencerminkan kehendak rakyat melalui
+      mekanisme konstitusional yang jujur?
+    weight: 1
+    anchors:
+      "-2": >-
+        Legitimasi direkayasa: politik uang sistemik, manipulasi elektoral,
+        atau pewarisan kekuasaan di luar jalur konstitusional.
+      "-1": >-
+        Partisipasi rakyat formalitas; representasi dilemahkan (mis. cara
+        pemilihan pimpinan lembaga yang mengunci alternatif).
+      "0": Tidak ada perubahan berarti.
+      "1": >-
+        Pemilihan berkala bebas-rahasia-jujur-adil; aspirasi publik
+        tercermin dalam kebijakan.
+      "2": >-
+        Kedaulatan rakyat teladan: keterbukaan informasi dan akuntabilitas
+        langsung kepada publik melembaga.
+    indicators:
+      - id: kr-pemilu
+        name_id: Pemilihan umum berkala yang jujur dan adil
+        legal_anchors_id: ["Pasal 1 ayat (2)", "Pasal 22E"]
+      - id: kr-representasi
+        name_id: Representasi yang responsif terhadap aspirasi rakyat
+        legal_anchors_id: ["Pasal 28", "Pasal 28E ayat (3)"]
+      - id: kr-keterbukaan
+        name_id: Hak memperoleh informasi dan akuntabilitas publik
+        legal_anchors_id: ["Pasal 28F", "UU No. 14/2008"]

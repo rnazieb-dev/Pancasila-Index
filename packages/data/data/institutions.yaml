@@ -1,0 +1,29 @@
+- id: presiden-ri
+  slug: presiden
+  branch: eksekutif
+  name_id: Presiden Republik Indonesia
+  short_id: Presiden
+  description_id: >
+    Pemegang kekuasaan pemerintahan menurut UUD 1945 (Pasal 4 ayat 1).
+    Dinilai per periode jabatan, mencakup kebijakan kabinet, produk hukum
+    yang ditetapkan, dan praktik ketatanegaraan selama masa jabatan.
+
+- id: dpr-ri
+  slug: dpr
+  branch: legislatif
+  name_id: Dewan Perwakilan Rakyat Republik Indonesia
+  short_id: DPR RI
+  description_id: >
+    Lembaga perwakilan rakyat dengan fungsi legislasi, anggaran, dan
+    pengawasan (Pasal 20A UUD 1945). Dinilai per periode keanggotaan hasil
+    pemilu, berdasarkan produk legislasi dan jalannya fungsi pengawasan.
+
+- id: mahkamah-konstitusi
+  slug: mahkamah-konstitusi
+  branch: yudikatif
+  name_id: Mahkamah Konstitusi Republik Indonesia
+  short_id: MK RI
+  description_id: >
+    Lembaga penjaga konstitusi yang menguji undang-undang terhadap UUD 1945
+    (Pasal 24C). Berdiri sejak 2003. Dinilai dari mutu dan integritas
+    putusan serta tata kelola etik internalnya.

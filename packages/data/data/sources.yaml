@@ -1,0 +1,348 @@
+# Registri sumber primer & sekunder kredibel.
+# url hanya diisi bila stabil; citation_id selalu diutamakan.
+
+- id: uud-nri-1945
+  type: dokumen-mpr
+  title_id: Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (hasil empat amandemen)
+  year: 2002
+  citation_id: UUD NRI Tahun 1945, MPR RI
+
+- id: tap-amandemen-uud-1999-2002
+  type: dokumen-mpr
+  title_id: Perubahan Pertama sampai Keempat UUD 1945 (Sidang Umum/Sidang Tahunan MPR 1999-2002)
+  year: 2002
+  citation_id: TAP MPR I/MPR/1999 - IV/MPR/2002
+
+- id: tap-mpr-xvii-1998
+  type: dokumen-mpr
+  title_id: TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia
+  year: 1998
+  citation_id: TAP MPR XVII/MPR/1998
+
+- id: tap-mpr-iii-2001
+  type: dokumen-mpr
+  title_id: TAP MPR No. III/MPR/2001 hasil Sidang Istimewa MPR Juli 2001
+  year: 2001
+  citation_id: TAP MPR III/MPR/2001
+
+- id: uu-3-1999
+  type: undang-undang
+  title_id: UU No. 3 Tahun 1999 tentang Pemilihan Umum
+  year: 1999
+
+- id: uu-9-1998
+  type: undang-undang
+  title_id: UU No. 9 Tahun 1998 tentang Kemerdekaan Menyatakan Pendapat di Muka Umum
+  year: 1998
+
+- id: uu-39-1999
+  type: undang-undang
+  title_id: UU No. 39 Tahun 1999 tentang Hak Asasi Manusia
+  year: 1999
+
+- id: uu-40-1999
+  type: undang-undang
+  title_id: UU No. 40 Tahun 1999 tentang Pers
+  year: 1999
+
+- id: uu-22-1999
+  type: undang-undang
+  title_id: UU No. 22 Tahun 1999 tentang Pemerintahan Daerah
+  year: 1999
+
+- id: uu-25-1999
+  type: undang-undang
+  title_id: UU No. 25 Tahun 1999 tentang Perimbangan Keuangan antara Pemerintah Pusat dan Daerah
+  year: 1999
+
+- id: keppres-6-2000
+  type: keppres
+  title_id: Keppres No. 6 Tahun 2000 (mencabut Inpres No. 14/1967 tentang agama, kepercayaan, dan adat istiadat Tionghoa)
+  year: 2000
+
+- id: keppres-125-1999
+  type: keppres
+  title_id: Keppres No. 125 Tahun 1999 (pembubaran Departemen Penerangan)
+  year: 1999
+
+- id: tripartit-timtim-1999
+  type: arsip-nasional
+  title_id: Kesepakatan Tripartit Indonesia-Portugal-PBB tentang Konsultasi Rakyat Timor Timur, 5 Mei 1999
+  year: 1999
+  url: https://peacemaker.un.org/timor-leste-agreements99
+  citation_id: UN Peacemaker, Agreement on the Question of East Timor
+
+- id: keppres-53-2001
+  type: keppres
+  title_id: Keppres No. 53 Tahun 2001 (Pengadilan HAM Ad Hoc untuk Timor Timur)
+  year: 2001
+
+- id: uu-15-2003
+  type: undang-undang
+  title_id: UU No. 15 Tahun 2003 tentang Pemberantasan Tindak Pidana Terorisme
+  year: 2003
+
+- id: uu-30-2002
+  type: undang-undang
+  title_id: UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Korupsi
+  year: 2002
+
+- id: uu-23-2003
+  type: undang-undang
+  title_id: UU No. 23 Tahun 2003 tentang Pemilihan Umum Presiden dan Wakil Presiden
+  year: 2003
+
+- id: uu-24-2003
+  type: undang-undang
+  title_id: UU No. 24 Tahun 2003 tentang Mahkamah Konstitusi
+  year: 2003
+
+- id: uu-27-2004
+  type: undang-undang
+  title_id: UU No. 27 Tahun 2004 tentang Komisi Yudisial
+  year: 2004
+
+- id: mou-helsinki-2005
+  type: arsip-nasional
+  title_id: MoU Helsinki antara Pemerintah RI dan Gerakan Aceh Merdeka, 15 Agustus 2005
+  year: 2005
+  url: https://www.cmi.fi/wp-content/uploads/sites/2/2010/02/MOU_ACEH1.pdf
+  citation_id: Memorandum of Understanding Helsinki, Crisis Management Initiative
+
+- id: uu-11-2006
+  type: undang-undang
+  title_id: UU No. 11 Tahun 2006 tentang Pemerintahan Aceh
+  year: 2006
+
+- id: uu-32-2004
+  type: undang-undang
+  title_id: UU No. 32 Tahun 2004 tentang Pemerintahan Daerah
+  year: 2004
+
+- id: uu-22-2007
+  type: undang-undang
+  title_id: UU No. 22 Tahun 2007 tentang Penyelenggara Pemilihan Umum
+  year: 2007
+
+- id: uu-46-2009
+  type: undang-undang
+  title_id: UU No. 46 Tahun 2009 tentang Pengadilan Tipikor
+  year: 2009
+
+- id: uu-40-2008
+  type: undang-undang
+  title_id: UU No. 40 Tahun 2008 tentang Penghapusan Diskriminasi Rasial dan Etnik
+  year: 2008
+
+- id: uu-11-2008
+  type: undang-undang
+  title_id: UU No. 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik
+  year: 2008
+
+- id: laporan-bpk-century
+  type: laporan-lembaga
+  title_id: Laporan Audit BPK atas Dana Bailout Bank Century (2008) dan hasil pansus DPR
+  year: 2010
+  citation_id: LHP BPK No. 00/LHP/XII/2008 dan lanjutan; Berita Acara Pansus DPR RI 2010
+
+- id: uu-8-2010
+  type: undang-undang
+  title_id: UU No. 8 Tahun 2010 tentang Pencegahan dan Pemberantasan Tindak Pidana Pencucian Uang
+  year: 2010
+
+- id: uu-24-2011
+  type: undang-undang
+  title_id: UU No. 24 Tahun 2011 tentang Badan Penyelenggara Jaminan Sosial
+  year: 2011
+
+- id: uu-17-2014
+  type: undang-undang
+  title_id: UU No. 17 Tahun 2014 tentang MPR, DPR, DPD, dan DPRD (MD3)
+  year: 2014
+
+- id: uu-23-2014
+  type: undang-undang
+  title_id: UU No. 23 Tahun 2014 tentang Pemerintahan Daerah
+  year: 2014
+
+- id: putusan-mk-73-2014
+  type: putusan-mk
+  title_id: Putusan MK No. 73/PUU-XII/2014 (memulihkan pilkada langsung)
+  year: 2014
+  url: https://putusan3.mkri.id
+
+- id: inpres-10-2011
+  type: lainnya
+  title_id: Inpres No. 10/2011 tentang Penundaan Izin Baru Hutan Alam Primer dan Gambut
+  year: 2011
+
+- id: laporan-komnas-ham-eksekusi-2015
+  type: laporan-lembaga
+  title_id: Komnas HAM - pernyataan dan pemantauan terkait eksekusi mati narkotika Januari-April 2015
+  year: 2015
+  citation_id: Siaran pers Komnas HAM 2015
+
+- id: laporan-komnas-ham-aktivis-2019
+  type: laporan-lembaga
+  title_id: Komnas HAM - pemantauan penindakan hukum terhadap peserta aksi RUU KPK/RKUHP September-Oktober 2019
+  year: 2019
+  citation_id: Temuan Pemantauan Komnas HAM 2019
+
+- id: uu-6-2014
+  type: undang-undang
+  title_id: UU No. 6 Tahun 2014 tentang Desa
+  year: 2014
+
+- id: perpres-63-2017
+  type: lainnya
+  title_id: Perpres No. 63 Tahun 2017 tentang Penyaluran Bantuan Sosial Program Keluarga Harapan
+  year: 2017
+
+- id: uu-16-2019
+  type: undang-undang
+  title_id: UU No. 16 Tahun 2019 tentang Perubahan atas UU Pencalonan Presiden (pencalonan berpasangan)
+  year: 2019
+
+- id: uu-19-2019
+  type: undang-undang
+  title_id: UU No. 19 Tahun 2019 (Perubahan Kedua UU KPK No. 30/2002)
+  year: 2019
+
+- id: uu-7-2017
+  type: undang-undang
+  title_id: UU No. 7 Tahun 2017 tentang Pemilihan Umum
+  year: 2017
+
+- id: uu-11-2020
+  type: undang-undang
+  title_id: UU No. 11 Tahun 2020 tentang Cipta Kerja
+  year: 2020
+
+- id: putusan-mk-91-2021
+  type: putusan-mk
+  title_id: Putusan MK No. 91/PUU-XVIII/2020 (UU Cipta Kerja inkonstitusional bersyarat)
+  year: 2021
+  url: https://putusan3.mkri.id
+
+- id: perppu-2-2022
+  type: perppu
+  title_id: Perppu No. 2 Tahun 2022 tentang Cipta Kerja
+  year: 2022
+
+- id: uu-6-2023
+  type: undang-undang
+  title_id: UU No. 6 Tahun 2023 (penetapan Perppu Cipta Kerja menjadi UU)
+  year: 2023
+
+- id: uu-3-2022
+  type: undang-undang
+  title_id: UU No. 3 Tahun 2022 tentang Ibu Kota Negara
+  year: 2022
+
+- id: uu-1-2023
+  type: undang-undang
+  title_id: UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (RKUHP)
+  year: 2023
+
+- id: uu-27-2022
+  type: undang-undang
+  title_id: UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi
+  year: 2022
+
+- id: uu-17-2023
+  type: undang-undang
+  title_id: UU No. 17 Tahun 2023 tentang Kesehatan (omnibus)
+  year: 2023
+
+- id: uu-2-2020
+  type: undang-undang
+  title_id: UU No. 2 Tahun 2020 (Perppu 1/2020 - kebijakan fiskal penanganan pandemi COVID-19 dan jaring pengaman sosial)
+  year: 2020
+
+- id: putusan-mk-90-2023
+  type: putusan-mk
+  title_id: Putusan MK No. 90/PUU-XI/2023 (batas usia calon presiden/wakil presiden)
+  year: 2023
+  url: https://putusan3.mkri.id
+
+- id: mkmk-anwar-usman-2023
+  type: laporan-lembaga
+  title_id: Putusan Majelis Kehormatan Etik MK No. 2/MKMK/LKA/PL/11/2023 (pelanggaran etik Ketua MK Anwar Usman)
+  year: 2023
+  citation_id: MKMK Mahkamah Konstitusi, November 2023
+
+- id: laporan-lsm-kebebasan-sipil-2019-2024
+  type: laporan-lembaga
+  title_id: Catatan organisasi masyarakat sipil (IHCS, ELSAM, LBH Pers) mengenai tren kebebasan sipil 2019-2024
+  year: 2024
+  citation_id: Laporan tahunan IHCS/ELSAM/LBH Pers 2019-2024
+
+- id: putusan-mk-60-2024
+  type: putusan-mk
+  title_id: Putusan MK No. 60/PUU-XI/2024 (ambang batas parlemen pada pemilihan umum)
+  year: 2024
+  url: https://putusan3.mkri.id
+
+- id: revisi-md3-2025
+  type: undang-undang
+  title_id: Revisi UU MD3 yang disahkan DPR pada 20 Maret 2025
+  year: 2025
+  citation_id: UU tentang Perubahan atas UU No. 17 Tahun 2014 tentang MD3, 2025
+
+- id: komnas-ham-protes-agustus-2025
+  type: laporan-lembaga
+  title_id: Komnas HAM - temuan awal pemantauan aksi Agustus 2025 dan respons aparat
+  year: 2025
+  citation_id: Siaran pers Komnas HAM, Agustus 2025
+
+- id: perpres-83-2024
+  type: lainnya
+  title_id: Perpres No. 83 Tahun 2024 tentang Badan Gizi Nasional (program Makan Bergizi Gratis)
+  year: 2024
+
+- id: uu-danantara-2025
+  type: undang-undang
+  title_id: UU No. 1 Tahun 2025 tentang Badan Pengelola Investasi Daya Anagata Nusantara (Danantara)
+  year: 2025
+
+- id: uu-12-2011
+  type: undang-undang
+  title_id: UU No. 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan
+  year: 2011
+
+- id: putusan-mk-46-2010
+  type: putusan-mk
+  title_id: Putusan MK No. 46/PUU-VIII/2010 (penyalahguna narkotika sebagai korban untuk direhabilitasi)
+  year: 2010
+  url: https://putusan3.mkri.id
+
+- id: putusan-mk-100-2014
+  type: putusan-mk
+  title_id: Putusan MK No. 100/PUU-XII/2014 (pencalonan independen pada pilkada)
+  year: 2015
+  url: https://putusan3.mkri.id
+
+- id: putusan-ma-akil-2014
+  type: putusan-ma
+  title_id: Putusan MA kasus suap Akil Mochtar (vonis seumur hidup) dan putusan terkait Majelis Kehormatan
+  year: 2014
+  citation_id: Putusan MA No. 2297 K/PID.SUS/2014; putusan etik MKDKI/KY
+
+- id: berita-adies-kadir-mk-2026
+  type: berita
+  title_id: Pemberitaan lintas media pelantikan Adies Kadir sebagai hakim konstitusi dan polemiknya (Januari-Februari 2026)
+  year: 2026
+  url: https://www.bbc.com/indonesia/articles/cm2yp236n1yo
+  citation_id: BBC News Indonesia 29/1/2026; Kompas 6/2/2026; CNN Indonesia 25/2/2026; Hukumonline 31/1/2026
+
+- id: whoosh-kcjb-2023
+  type: lainnya
+  title_id: Peluncuran operasi komersial Kereta Cepat Jakarta-Bandung (Whoosh), 2 Oktober 2023
+  year: 2023
+  citation_id: KCIC; pemberitaan resmi peluncuran oleh Presiden Joko Widodo
+
+- id: berita-dinasti-politik-2024
+  type: berita
+  title_id: Pemberitaan fenomena politik dinasti keluarga presiden petahana (Gibran wapres, Kaesang ketum PSI, Bobby gubernur Sumut)
+  year: 2024
+  citation_id: Kompas/BBC Indonesia/Katadata, liputan dinamika politik dinasti 2023-2024
