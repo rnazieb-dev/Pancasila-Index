@@ -1685,3 +1685,203 @@
     kebijakan luar negeri pertama era ini yang benar-benar menguji doktrin.
   source_ids: [berita-brics-ri-2025]
   dimension_ids: [tujuan-4]
+
+# --------- GELOMBANG PERLUASAN: DIMENSI YANG MASIH TIPIS ---------
+
+- id: ev-soekarno1-pasukan-garuda
+  term_id: presiden-soekarno-i
+  date: "1957-09"
+  category: kebijakan
+  title_id: Pasukan Garuda I dikirim ke Mesir (UNEF)
+  summary_id: >-
+    September 1957, 559 personel TNI mendarat di Sinai sebagai kontingen pertama pasukan
+    perdamaian PBB - hanya dua tahun setelah KAA Bandung. Dari misi Garuda I itu lahir
+    tradisi lima puluh lebih misi dan puluhan ribu peacekeeper Indonesia hingga hari ini,
+    salah satu kontributor terbesar dunia. Bukti bahwa politik luar negeri bebas-aktif
+    pernah punya kaki di lapangan, bukan cuma di mimbar.
+  source_ids: [literatur-sejarah-nasional]
+  dimension_ids: [tujuan-4]
+
+- id: ev-soeharto-asean-1967
+  term_id: presiden-soeharto
+  date: "1967-08"
+  category: kebijakan
+  title_id: Pendirian ASEAN - Deklarasi Bangkok
+  summary_id: >-
+    Setelah konfrontasi yang menghancurkan, Indonesia justru menjadi pendiri ASEAN bersama
+    lima tetangga pada 8 Agustus 1967. Dari sini lahir ZOPFAN, TAC 1976, dan arsitektur
+    keamanan regional tempat Jakarta selalu jadi motor. Satu dari sedikit babak dalam
+    sejarah ketika kebijakan luar negeri Indonesia mengubah peta kawasan secara permanen -
+    warisan positif Orde Baru yang tak terbantahkan.
+  source_ids: [deklarasi-bangkok-1967]
+  dimension_ids: [tujuan-4, sila-3]
+
+- id: ev-soeharto-dom-aceh-papua
+  term_id: presiden-soeharto
+  date: "1989"
+  category: krisis
+  title_id: Daerah Operasi Militer Aceh dan Papua
+  summary_id: >-
+    Status DOM diberlakukan di Aceh (1989-1998) dan diperkuat di Papua: pembumian rumah,
+    penyiksaan, hilangnya ribuan orang yang namanya tidak pernah dicatat. Ketika DOM dicabut
+    1998, mayat massal digali dari bekas markas militer di Aceh. Warisan kebijakan ini -
+    menjawab pemberontakan dengan teror terhadap warga sipil - adalah akar dari luka yang
+    MoU Helsinki hanya sebagian menyembuhkan.
+  source_ids: [literatur-sejarah-nasional]
+  dimension_ids: [sila-2]
+
+- id: ev-soekarno2-pnps-1965
+  term_id: presiden-soekarno-ii
+  date: "1966-01"
+  category: produk-hukum
+  title_id: Lahirnya kitab blasfemi - UU No. 1/PNPS/1965
+  summary_id: >-
+    Ditandatangani Sukarno pada pekan-pekan terakhir Demokrasi Terpimpin (27 Januari 1966),
+    undang-undang ini melarang penafsiran agama yang menyimpang dari doktrin utama - dan
+    secara efektif membekukan aliran-aliran baru seperti Ahmadiyah dalam posisi hukum abu-abu.
+    Lima puluh tahun kemudian, kitab lima pasal ini menjadi dasar ratusan penangkapan dan
+    penutupan rumah ibadah. Pasal karet tertua yang masih hidup dalam hukum kebebasan
+    beragama Indonesia.
+  source_ids: [pnps-1965]
+  dimension_ids: [sila-1]
+
+- id: ev-gusdur-uu-pengadilan-ham
+  term_id: presiden-gusdur
+  date: "2000-11"
+  category: produk-hukum
+  title_id: UU No. 26/2000 tentang Pengadilan HAM
+  summary_id: >-
+    November 2000, Indonesia akhirnya punya payung yuridis untuk mengadili pelanggaran HAM
+    berat - genosida dan kejahatan kemanusiaan - termasuk retroaktif untuk Timor Timur dan
+    kasus-kasus Orde Baru. Di atas kertas, jawaban atas impunitas 1965 dan 1998 terbuka lebar.
+    Praksinya: hanya Timor Timur ad hoc yang pernah berjalan, dan gagal. Undang-undang bagus,
+    keberanian politiknya tidak pernah ikut disahkan.
+  source_ids: [uu-26-2000]
+  dimension_ids: [sila-2, negara-hukum]
+
+- id: ev-gusdur-konflik-komunal
+  term_id: presiden-gusdur
+  date: "1999-01"
+  category: krisis
+  title_id: Konflik komunal Maluku dan Poso meledak
+  summary_id: >-
+    Januari 1999 Ambon terbakar; Poso menyusul 2000. Dalam tiga tahun, konflik Muslim-Kristen
+    menewaskan perkiraan sepuluh ribu jiwa dan memaksa lebih sejuta orang mengungsi - kekerasan
+    komunal terbesar pasca-Reformasi. Negara lambat meredam, Laskar Jihad melintasi provinsi
+    tanpa halangan, dan rekonsiliasi Baku Bae baru datang setelah darah. Pesan Bhinneka Tunggal
+    Ika Gus Dur tidak cukup kuat mengalahkan mesin provokasi di lapangan.
+  source_ids: [literatur-sejarah-nasional]
+  dimension_ids: [sila-2, sila-3]
+
+- id: ev-megawati-sisdiknas
+  term_id: presiden-megawati
+  date: "2003-07"
+  category: produk-hukum
+  title_id: UU Sistem Pendidikan Nasional No. 20/2003
+  summary_id: >-
+    Disahkan 8 Juli 2003, UU Sisdiknas menjadi kerangka induk pendidikan modern: wajib belajar,
+    kurikulum berbasis kompetensi, jaminan anggaran, dan definisi pendidikan yang inklusif.
+    Semua reformasi pendidikan sesudahnya - BOS, Kurikulum Merdeka - berdiri di atas fondasi
+    ini. Kelemahannya juga mewarisi: mutu guru dan hasil belajar tetap menjadi PR yang belum
+    selesai dua dekade kemudian.
+  source_ids: [uu-20-2003]
+  dimension_ids: [tujuan-3]
+
+- id: ev-megawati-sipadan-ligitan
+  term_id: presiden-megawati
+  date: "2002-12"
+  category: pengadilan
+  title_id: ICJ menangkan Sipadan-Ligitan untuk Indonesia
+  summary_id: >-
+    17 Desember 2002, Mahkamah Internasional menetapkan kedaulatan dua pulau kecil di Selat
+    Celebes kepada Indonesia, menutup sengketa tiga dekade dengan Malaysia. Kemenangan dibangun
+    bukan dengan kapal perang melainkan dokumen efektifitas pengelolaan sejak era kolonial -
+    kemenangan arsip. Preseden penting bagi seluruh sengketa maritim Nusantara dan bukti bahwa
+    diplomasi hukum adalah senjata negara kepulauan.
+  source_ids: [icj-sipadan-ligitan-2002]
+  dimension_ids: [tujuan-1]
+
+- id: ev-sby1-ratifisasi-icescr
+  term_id: presiden-sby-i
+  date: "2005-09"
+  category: produk-hukum
+  title_id: Ratifikasi Konvenan Ekonomi-Sosial-Budaya (UU No. 11/2005)
+  summary_id: >-
+    Hampir empat puluh tahun Indonesia menunda meratifikasi ICESCR - takut kewajiban hak
+    ekonomi mengikat. Akhirnya September 2005 sah juga, menyusul ICCPR setahun sebelumnya.
+    Sejak itu seluruh pasal 28E-28J konstitusi punya jangkar traktat internasional, dan laporan
+    berkala Indonesia diuji Komite PBB. Langkah kecil di kertas, besar dalam bahasa: negara
+    resmi mengaku bisa diaudit soal hak-hak dasar rakyatnya.
+  source_ids: [uu-11-2005]
+  dimension_ids: [tujuan-4, sila-2]
+
+- id: ev-sby1-blt-perdana
+  term_id: presiden-sby-i
+  date: "2005-10"
+  category: kebijakan
+  title_id: BLT perdana untuk 19 juta rumah tangga miskin
+  summary_id: >-
+    Saat subsidi BBM dipotong Oktober 2005, pemerintah membayar kompensasi sosialnya langsung:
+    Rp300 ribu per bulan bagi 19 juta rumah tangga termiskin - program perlindungan sosial
+    berskala massal pertama republik. Distribusinya berantakan di lapangan, data kemiskinan
+    usang, tapi preseden lahir: sejak BLT ini, setiap kenaikan harga energi wajib dibayar
+    tebusan sosial. Fondasi bagi PKH, bansos pandemi, sampai MBG hari ini.
+  source_ids: [literatur-sejarah-nasional]
+  dimension_ids: [sila-5, tujuan-2]
+
+- id: ev-sby1-dana-bos
+  term_id: presiden-sby-i
+  date: "2005"
+  category: kebijakan
+  title_id: Dana BOS dimulai - sekolah bebas biaya
+  summary_id: >-
+    Tahun ajaran 2005/2006 Dana BOS pertama mengalir ke ratusan ribu SD-SMP negeri dan swasta
+    terakreditasi: sekolah dilarang memungut biaya, negara yang membayarnya per siswa. Angka
+    partisipasi SMP melonjak nyata dalam beberapa tahun. Masalahnya klasik menyusul: verifikasi
+    murid fiktif, penyelewengan oleh kepala sekolah, dan mutu yang tidak otomatis naik ikut
+    kantong yang naik.
+  source_ids: [dana-bos-2005]
+  dimension_ids: [tujuan-3]
+
+- id: ev-sby1-penanaman-modal
+  term_id: presiden-sby-i
+  date: "2007-03"
+  category: produk-hukum
+  title_id: UU Penanaman Modal No. 25/2007
+  summary_id: >-
+    Setelah satu dekade krisis membuat investor lari, Indonesia menulis ulang rezim investasi:
+    perlakukan asing-domestik setara, kepastian tanah, fasilitas pajak, dan larangan
+    nasionalisasi tanpa kompensasi. Arus masuk FDI berbalik tajam bertahun-tahun sesudahnya.
+    Sisi gelapnya kelak tampak di Cipta Kerja: pintu yang dibuka lebar ini tanpa pagar lingkungan
+    dan hak buruh yang memadai.
+  source_ids: [uu-25-2007]
+  dimension_ids: [tujuan-2]
+
+- id: ev-jokowi1-perppu-ormas-hti
+  term_id: presiden-jokowi-i
+  date: "2017-07"
+  category: produk-hukum
+  title_id: Perppu Ormas dan pembubaran HTI
+  summary_id: >-
+    Julu 2017, pemerintah menerbitkan Perppu Ormas yang mempermudah pembubaran organisasi
+    kemasyarakatan tanpa putusan pengadilan - dua pekan kemudian HTI dilumat karena menolak
+    Pancasila sebagai asas negara. Perppu disahkan jadi UU meski Komnas HAM dan puluhan LSM
+    menyebutnya pintu represi terhadap semua ormas. Preseden yang sama kelak dipakai membubarkan
+    FPI pada 2020 - alat yang dibuat untuk satu lawan akhirnya tersedia untuk siapa saja yang
+    berkuasa.
+  source_ids: [berita-fpi-skb-2020]
+  dimension_ids: [negara-hukum, sila-4]
+
+- id: ev-jokowi2-revisi-uumk
+  term_id: presiden-jokowi-ii
+  date: "2020-07"
+  category: produk-hukum
+  title_id: Revisi UU Mahkamah Konstitusi mengubah masa jabatan pimpinan
+  summary_id: >-
+    Diam-diam digodok, UU No. 7/2020 mengubah aturan masa jabatan Ketua dan Wakil Ketua MK -
+    periode 2015-2020 dihitung sebagai periode baru sehingga petahana bisa maju lagi. Anwar
+    Usman akhirnya menjabat ketua hingga 2023, persis sampai skandal etik Putusan 90/2023
+    memberhentikannya. Legislatif membuka pintu; isi rumahnya yang kelak memalukan. Contoh
+    sempurna bagaimana revisi teknis kecil bisa mengubah nasib konstitusi.
+  source_ids: [uu-7-2020, mkmk-anwar-usman-2023]
+  dimension_ids: [checks-balances]

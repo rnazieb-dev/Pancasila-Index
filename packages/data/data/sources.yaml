@@ -581,3 +581,53 @@
   year: 2025
   url: https://www.kompas.com/tren/read/2025/01/08/123000965/daftar-anggota-brics-2025-usai-indonesia-resmi-bergabung
   citation_id: Kompas/DDTCNews/Siaran pers pemerintah Brasil, 6 Januari 2025
+
+- id: uu-26-2000
+  type: undang-undang
+  title_id: UU No. 26 Tahun 2000 tentang Pengadilan Hak Asasi Manusia
+  year: 2000
+
+- id: pnps-1965
+  type: undang-undang
+  title_id: UU No. 1/PNPS/1965 tentang Pencegahan Penyalahgunaan/Penghinaan terhadap Agama (kitab blasfemi)
+  year: 1966
+
+- id: uu-20-2003
+  type: undang-undang
+  title_id: UU No. 20 Tahun 2003 tentang Sistem Pendidikan Nasional
+  year: 2003
+
+- id: uu-11-2005
+  type: undang-undang
+  title_id: UU No. 11 Tahun 2005 (ratifikasi International Covenant on Economic, Social and Cultural Rights)
+  year: 2005
+
+- id: uu-25-2007
+  type: undang-undang
+  title_id: UU No. 25 Tahun 2007 tentang Penanaman Modal
+  year: 2007
+
+- id: uu-7-2020
+  type: undang-undang
+  title_id: UU No. 7 Tahun 2020 (Perubahan Ketiga UU Mahkamah Konstitusi - masa jabatan pimpinan)
+  year: 2020
+
+- id: deklarasi-bangkok-1967
+  type: arsip-nasional
+  title_id: Deklarasi Bangkok - pendirian Asosiasi Bangsa-Bangsa Asia Tenggara (ASEAN), 8 Agustus 1967
+  year: 1967
+  url: https://asean.org/the-asean-declaration-bangkok-declaration/
+  citation_id: ASEAN Secretariat, Bangkok Declaration 1967
+
+- id: icj-sipadan-ligitan-2002
+  type: lainnya
+  title_id: Putusan Mahkamah Internasional Sipadan-Ligitan (Malaysia v. Indonesia), 17 Desember 2002
+  year: 2002
+  url: https://www.icj-cij.org/case/102
+  citation_id: ICJ Case 102, Sovereignty over Pulau Ligitan and Pulau Sipadan
+
+- id: dana-bos-2005
+  type: lainnya
+  title_id: Dana BOS nasional dimulai tahun pelajaran 2005/2006
+  year: 2005
+  citation_id: Kemendikbudristek; PP 17/2005 jo. regulasi Dana BOS

@@ -99,10 +99,11 @@
       evidence: [{source_id: keppres-6-2000}]
       event_ids: [ev-gusdur-imlek]
     - dimension_id: sila-2
-      score: 1
-      confidence: 0.5
-      rationale_id: Advokasi korban masa lalu dan toleransi antarumat menguat meski konflik komunal belum tuntas.
-      evidence: [{source_id: keppres-6-2000}]
+      score: 0
+      confidence: 0.45
+      rationale_id: UU Pengadilan HAM membuka jalan akuntabilitas, tetapi konflik komunal Maluku-Poso menewaskan sekitar sepuluh ribu jiwa tanpa penyelesaian tuntas di bawah pemerintahannya.
+      evidence: [{source_id: uu-26-2000}, {source_id: literatur-sejarah-nasional}]
+      event_ids: [ev-gusdur-uu-pengadilan-ham, ev-gusdur-konflik-komunal]
     - dimension_id: sila-3
       score: 0
       confidence: 0.5
@@ -197,18 +198,19 @@
       score: 1
       confidence: 0.5
       rationale_id: Respons cepat pasca-bom Bali menunjukkan perlindungan warga dari ancaman teror.
-      evidence: [{source_id: uu-15-2003}]
-      event_ids: [ev-megawati-antiteror]
+      evidence: [{source_id: uu-15-2003}, {source_id: icj-sipadan-ligitan-2002}]
+      event_ids: [ev-megawati-antiteror, ev-megawati-sipadan-ligitan]
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.4
       rationale_id: Kebijakan ekonomi netral dengan layanan dasar yang stagnan.
       evidence: [{source_id: uud-nri-1945}]
     - dimension_id: tujuan-3
-      score: 0
-      confidence: 0.35
-      rationale_id: Belanja dan mutu pendidikan belum menjadi prioritas kebijakan periode ini.
-      evidence: [{source_id: uud-nri-1945}]
+      score: 1
+      confidence: 0.4
+      rationale_id: UU Sisdiknas menjadi kerangka induk pendidikan modern yang dipakai seluruh reformasi sesudahnya.
+      evidence: [{source_id: uu-20-2003}]
+      event_ids: [ev-megawati-sisdiknas]
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.5
@@ -265,8 +267,9 @@
     - dimension_id: sila-5
       score: 1
       confidence: 0.5
-      rationale_id: Kemiskinan menurun bertahap didukung pertumbuhan stabil dan BLT perdana.
-      evidence: [{source_id: uud-nri-1945}]
+      rationale_id: Kemiskinan menurun didukung BLT perdana bagi 19 juta rumah tangga - preseden perlindungan sosial massal republik.
+      evidence: [{source_id: literatur-sejarah-nasional}]
+      event_ids: [ev-sby1-blt-perdana]
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.55
@@ -279,10 +282,11 @@
       rationale_id: Ekspansi belanja sosial dan infrastruktur dasar meningkatkan kesejahteraan umum.
       evidence: [{source_id: uud-nri-1945}]
     - dimension_id: tujuan-3
-      score: 0
-      confidence: 0.35
-      rationale_id: Anggaran pendidikan dipenuhi formal namun mutu output belum terukur naik.
-      evidence: [{source_id: uud-nri-1945}]
+      score: 1
+      confidence: 0.4
+      rationale_id: Dana BOS membuat SD-SMP praktis gratis dan partisipasi sekolah menengah pertama melonjak nyata.
+      evidence: [{source_id: dana-bos-2005}]
+      event_ids: [ev-sby1-dana-bos]
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.5
@@ -486,7 +490,7 @@
       confidence: 0.6
       rationale_id: Proses legislasi kilat tanpa partisipasi publik dinyatakan cacat formal oleh Mahkamah Konstitusi.
       evidence: [{source_id: putusan-mk-91-2021}]
-      event_ids: [ev-jokowi2-ciptaker]
+      event_ids: [ev-jokowi2-ciptaker, ev-jokowi2-revisi-uumk]
     - dimension_id: sila-5
       score: 1
       confidence: 0.35
@@ -1363,8 +1367,9 @@
     - dimension_id: sila-1
       score: 0
       confidence: 0.35
-      rationale_id: Relasi agama-negara dinegosiasikan lewat politik Nasakom tanpa represi keagamaan besar.
-      evidence: [{source_id: dekrit-presiden-1959}]
+      rationale_id: Relasi agama-negara dinegosiasikan lewat Nasakom tanpa represi besar, namun kitab blasfemi PNPS 1965 yang lahir di ujung era ini menjadi bom waktu kebebasan beragama.
+      evidence: [{source_id: dekrit-presiden-1959}, {source_id: pnps-1965}]
+      event_ids: [ev-soekarno2-pnps-1965]
     - dimension_id: sila-2
       score: -2
       confidence: 0.5
@@ -1447,7 +1452,7 @@
       confidence: 0.5
       rationale_id: Operasi militer Timor Timur, Petrus, dan Tanjung Priok berlangsung dengan impunitas sistemik.
       evidence: [{source_id: uu-7-1976}, {source_id: literatur-sejarah-nasional}]
-      event_ids: [ev-soeharto-timtim, ev-soeharto-petrus, ev-soeharto-tanjung-priok]
+      event_ids: [ev-soeharto-timtim, ev-soeharto-petrus, ev-soeharto-tanjung-priok, ev-soeharto-dom-aceh-papua]
     - dimension_id: sila-3
       score: 0
       confidence: 0.45
@@ -1487,9 +1492,9 @@
     - dimension_id: tujuan-4
       score: -1
       confidence: 0.45
-      rationale_id: Integrasi Timor Timur lewat invasi tanpa mandat PBB melanggar prinsip perdamaian internasional.
-      evidence: [{source_id: uu-7-1976}]
-      event_ids: [ev-soeharto-timtim]
+      rationale_id: Pendirian ASEAN adalah warisan diplomatik besar, namun invasi Timor Timur tanpa mandat PBB dengan korban ratusan ribu membuat neraca ketertiban dunia era ini tetap merah.
+      evidence: [{source_id: uu-7-1976}, {source_id: deklarasi-bangkok-1967}]
+      event_ids: [ev-soeharto-timtim, ev-soeharto-asean-1967]
     - dimension_id: negara-hukum
       score: -2
       confidence: 0.55
