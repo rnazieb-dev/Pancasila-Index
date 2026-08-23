@@ -3022,6 +3022,21 @@
       "dimension_ids": [
         "negara-hukum"
       ]
+    },
+    {
+      "id": "ev-prabowo-bop",
+      "term_id": "presiden-prabowo",
+      "date": "2026-01",
+      "category": "kebijakan",
+      "title_id": "Indonesia bergabung ke Board of Peace Gaza pimpinan Trump",
+      "summary_id": "22 Januari 2026 di Davos, Prabowo menandatangani Board of Peace Charter - badan baru ciptaan Trump untuk mengawasi administrasi, stabilisasi, dan rekonstruksi Gaza lewat mandat Resolusi DK PBB 2803 (2025). Keanggotaan diundang langsung oleh sang ketua; pada 11 Februari Netanyahu pun menandatanganinya, membuat negara pendudukan duduk satu meja dengan negara yang konstitusinya mewajibkan pembebasan Palestina. Pemerintah membaca langkah ini sebagai jalan mendorong solusi dua negara dari dalam; pakar hukum internasional membalas tajam - struktur pengawasan atas wilayah terjajara tanpa kedaulatan Palestina penuh \"menyerupai kolonialisme\", dan sejumlah kalangan mendesak Indonesia keluar sebagai pengkhianatan politik bebas-aktif. Pertemuan perdana BoP digelar 19 Februari di Washington dengan Prabowo hadir.",
+      "source_ids": [
+        "setpres-bop-charter-2026",
+        "kritik-bop-pakar-2026"
+      ],
+      "dimension_ids": [
+        "tujuan-4"
+      ]
     }
   ],
   "sources": [
@@ -3682,6 +3697,24 @@
       "year": 2025,
       "citation_id": "Kompas/CNN Indonesia/Reuters, liputan kebijakan luar negeri 2025",
       "resolved_url": "https://duckduckgo.com/?q=Pemberitaan%20politik%20luar%20negeri%20era%20Prabowo%20-%20posisi%20Gaza%2C%20tawaran%20pasukan%20perdamaian%2C%20dan%20dinamika%20aliansi"
+    },
+    {
+      "id": "setpres-bop-charter-2026",
+      "type": "laporan-lembaga",
+      "title_id": "Rilis BPMI Setpres - penandatanganan Board of Peace Charter oleh Presiden Prabowo di Davos, 22 Januari 2026",
+      "year": 2026,
+      "url": "https://setneg.go.id/baca/index/presiden_prabowo_tandatangani_piagam_board_of_peace_tegaskan_solusi_dua_negara_untuk_gaza",
+      "citation_id": "Sekretariat Kabinet RI, 22 Januari 2026; Resolusi DK PBB 2803 (2025)",
+      "resolved_url": "https://setneg.go.id/baca/index/presiden_prabowo_tandatangani_piagam_board_of_peace_tegaskan_solusi_dua_negara_untuk_gaza"
+    },
+    {
+      "id": "kritik-bop-pakar-2026",
+      "type": "berita",
+      "title_id": "Pakar hukum internasional dan UI sebut Board of Peace melanggengkan penjajahan - struktur diserupai kolonialisme",
+      "year": 2026,
+      "url": "https://www.tribunnews.com/nasional/7801089/pakar-ui-sebut-board-of-peace-untuk-melanggengkan-penjajahan-israel-di-gaza-indonesia-harus-keluar",
+      "citation_id": "Tribunnews 7 Maret 2026; IDN Times 12 Februari 2026 (aksesi Israel ke BoP)",
+      "resolved_url": "https://www.tribunnews.com/nasional/7801089/pakar-ui-sebut-board-of-peace-untuk-melanggengkan-penjajahan-israel-di-gaza-indonesia-harus-keluar"
     }
   ],
   "assessments": [
@@ -5239,13 +5272,19 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 0,
-          "confidence": 0.3,
-          "rationale_id": "Retorika solidaritas Palestina tinggi dan tawarkan pasukan perdamaian diucapkan, tetapi kritik menyebut langkah konkret terbatas dan beberapa arah kebijakan dinilai menggeser prinsip bebas-aktif. Menunggu kurasi dengan bukti lebih lengkap.",
+          "score": -1,
+          "confidence": 0.35,
+          "rationale_id": "Bergabung ke Board of Peace pimpinan Trump - yang kelak diduduki juga Israel - dinilai banyak ahli sebagai melanggengkan penjajahan Gaza dan mengkhianati politik bebas-aktif serta kewajiban konstitusi membebaskan Palestina; klaim pemerintah bahwa ia mendorong dua negara dari dalam belum terbuktikan efektif.",
           "evidence": [
             {
-              "source_id": "berita-diplomasi-prabowo-2025"
+              "source_id": "setpres-bop-charter-2026"
+            },
+            {
+              "source_id": "kritik-bop-pakar-2026"
             }
+          ],
+          "event_ids": [
+            "ev-prabowo-bop"
           ],
           "normative_anchors": [
             "uud-nri-1945"

@@ -587,10 +587,11 @@
       rationale_id: Program gizi sekolah menyasar fondasi pencerdasan generasi penerus.
       evidence: [{source_id: perpres-83-2024}]
     - dimension_id: tujuan-4
-      score: 0
-      confidence: 0.3
-      rationale_id: Retorika solidaritas Palestina tinggi dan tawarkan pasukan perdamaian diucapkan, tetapi kritik menyebut langkah konkret terbatas dan beberapa arah kebijakan dinilai menggeser prinsip bebas-aktif. Menunggu kurasi dengan bukti lebih lengkap.
-      evidence: [{source_id: berita-diplomasi-prabowo-2025}]
+      score: -1
+      confidence: 0.35
+      rationale_id: Bergabung ke Board of Peace pimpinan Trump - yang kelak diduduki juga Israel - dinilai banyak ahli sebagai melanggengkan penjajahan Gaza dan mengkhianati politik bebas-aktif serta kewajiban konstitusi membebaskan Palestina; klaim pemerintah bahwa ia mendorong dua negara dari dalam belum terbuktikan efektif.
+      evidence: [{source_id: setpres-bop-charter-2026}, {source_id: kritik-bop-pakar-2026}]
+      event_ids: [ev-prabowo-bop]
     - dimension_id: negara-hukum
       score: -1
       confidence: 0.3

@@ -1375,3 +1375,22 @@
     pemberhentian. Independensi sudah ada; integritas masih dalam peradilan panjang.
   source_ids: [laporan-ky-tahunan]
   dimension_ids: [negara-hukum]
+
+- id: ev-prabowo-bop
+  term_id: presiden-prabowo
+  date: "2026-01"
+  category: kebijakan
+  title_id: Indonesia bergabung ke Board of Peace Gaza pimpinan Trump
+  summary_id: >-
+    22 Januari 2026 di Davos, Prabowo menandatangani Board of Peace Charter - badan baru
+    ciptaan Trump untuk mengawasi administrasi, stabilisasi, dan rekonstruksi Gaza lewat
+    mandat Resolusi DK PBB 2803 (2025). Keanggotaan diundang langsung oleh sang ketua;
+    pada 11 Februari Netanyahu pun menandatanganinya, membuat negara pendudukan duduk satu
+    meja dengan negara yang konstitusinya mewajibkan pembebasan Palestina. Pemerintah
+    membaca langkah ini sebagai jalan mendorong solusi dua negara dari dalam; pakar hukum
+    internasional membalas tajam - struktur pengawasan atas wilayah terjajara tanpa
+    kedaulatan Palestina penuh "menyerupai kolonialisme", dan sejumlah kalangan mendesak
+    Indonesia keluar sebagai pengkhianatan politik bebas-aktif. Pertemuan perdana BoP
+    digelar 19 Februari di Washington dengan Prabowo hadir.
+  source_ids: [setpres-bop-charter-2026, kritik-bop-pakar-2026]
+  dimension_ids: [tujuan-4]

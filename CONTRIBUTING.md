@@ -51,3 +51,11 @@ Rubrik adalah inti intelektual proyek. Perubahan besar wajib:
 - Dilarang menyalin konten berhak cipta panjang ke dalam rationale;
   parafrase + kutipan pendek dengan sitasi.
 - Hormati Code of Conduct standar komunitas open source.
+
+## Aturan verifikasi fakta (wajib)
+
+**Selalu lakukan pencarian web sebelum menambah fakta, tanggal, angka,
+atau penilaian baru.** Setiap klaim dalam dataset harus bisa dipertanggung-
+jawabkan ke sumber primer atau pemberitaan yang dapat ditautkan. Klaim
+yang tidak dapat diverifikasi tidak boleh masuk `rationale_id` maupun
+peristiwa - termasuk untuk era berjalan.
