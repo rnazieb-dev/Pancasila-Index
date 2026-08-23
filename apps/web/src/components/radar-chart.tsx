@@ -1,8 +1,8 @@
 interface RadarProps {
   /** label tiap sumbu, urutannya menentukan sudut */
   labels: string[];
-  /** nilai -2..+2 */
-  values: number[];
+  /** nilai -2..+2; undefined = belum dinilai (sumbu dilewati) */
+  values: Array<number | undefined>;
   size?: number;
 }
 
@@ -25,8 +25,12 @@ export function RadarChart({ labels, values, size = 320 }: RadarProps) {
   const ringPath = (v: number) =>
     Array.from({ length: n }, (_, i) => point(i, v).join(",")).join(" ");
 
-  const dataPoints = values.map((v, i) => point(i, v));
-  const dataPath = dataPoints.map((p) => p.join(",")).join(" ");
+  const defined = values
+    .map((v, i) => ({ v, i }))
+    .filter((x): x is { v: number; i: number } => typeof x.v === "number");
+  const dataPoints = defined.map(({ v, i }) => point(i, v));
+  const dataPath =
+    defined.length >= 3 ? dataPoints.map((p) => p.join(",")).join(" ") : "";
 
   const avg = values.length
     ? values.reduce((a, b) => a + b, 0) / values.length
@@ -53,10 +57,17 @@ export function RadarChart({ labels, values, size = 320 }: RadarProps) {
       })}
       {values.length > 0 && (
         <>
-          <polygon points={dataPath} fill={`${stroke}22`} stroke={stroke} strokeWidth={2} />
+          {defined.length >= 3 && (
+            <polygon points={dataPath} fill={`${stroke}22`} stroke={stroke} strokeWidth={2} />
+          )}
           {dataPoints.map(([px, py], i) => (
             <circle key={i} cx={px} cy={py} r={3.5} fill={stroke} />
           ))}
+          {values.some((v) => typeof v !== "number") && (
+            <text x={cx} y={size - 8} textAnchor="middle" fontSize={10} fill="#8b96ad">
+              sebagian dimensi belum dinilai
+            </text>
+          )}
         </>
       )}
       {labels.map((label, i) => {

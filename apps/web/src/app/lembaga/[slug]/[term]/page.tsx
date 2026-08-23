@@ -63,8 +63,11 @@ export default async function TermPage({
     }
   }
 
-  const silaValues = silaDims.map((d) => scoreByDim.get(d.id) ?? 0);
-  const silaLabels = silaDims.map((d) => `Sila ${d.id.split("-")[1]}`);
+  const silaValues = silaDims.map((d) => scoreByDim.get(d.id));
+  const silaLabels = silaDims.map((d) => {
+    const v = scoreByDim.get(d.id);
+    return `Sila ${d.id.split("-")[1]}${v === undefined ? "" : " " + Math.round(((v + 2) / 4) * 100)}`;
+  });
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-12">
@@ -116,7 +119,7 @@ export default async function TermPage({
                 <div className="flex justify-between text-sm mb-1">
                   <span>{groupName(gs.group_id)}</span>
                   <span className="tabular-nums text-[var(--muted)]">
-                    {scoreLabel(gs.coverage > 0 ? gs.score : null)} · cakupan{" "}
+                    {gs.coverage > 0 ? Math.round(((gs.score + 2) / 4) * 100) + "/100" : "belum dinilai"} · cakupan{" "}
                     {Math.round(gs.coverage * 100)}%
                   </span>
                 </div>
@@ -158,11 +161,11 @@ export default async function TermPage({
               >
                 <summary className="flex flex-wrap items-center gap-3 cursor-pointer list-none">
                   <span
-                    className="rounded-md px-2 py-0.5 text-xs font-bold w-11 text-center"
+                    className="rounded-md px-2 py-0.5 text-xs font-bold w-11 text-center tabular-nums"
+                    title={`skala rubrik: ${avg > 0 ? "+" : ""}${avg.toFixed(1)} dari -2..+2`}
                     style={{ background: `${scoreColor(avg)}22`, color: scoreColor(avg) }}
                   >
-                    {avg > 0 ? "+" : ""}
-                    {avg.toFixed(1)}
+                    {Math.round(((avg + 2) / 4) * 100)}
                   </span>
                   <span className="font-medium grow">{dim.name_id}</span>
                   <span className="text-xs text-[var(--muted)]">
@@ -218,7 +221,7 @@ export default async function TermPage({
                                   rel="noopener noreferrer"
                                   className="underline decoration-dotted underline-offset-2 hover:text-white"
                                 >
-                                  {src.title_id} ↗
+                                  {(src.title_id || "").replace(/\s*\([^)]*\)\s*/g, " ").slice(0, 48).trim()} ↗
                                 </a>
                               ) : (
                                 na
