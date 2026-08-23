@@ -191,6 +191,48 @@ describe("computeAssessmentSummary", () => {
   it("mengembalikan null tanpa penilaian", () => {
     expect(computeAssessmentSummary([], testRubric)).toBeNull();
   });
+
+  it("bukti yang lebih beragam menaikkan bobot keyakinan dimensi", () => {
+    // d1: +2 dengan 3 sumber berbeda; d2: -2 dengan 1 sumber.
+    // Tanpa korelasi, rerata = 0 (indeks 50). Dengan korelasi:
+    // efektif d1 = 0.5 + 0.04*2 = 0.58 -> condong positif.
+    const scores: Assessment["dimension_scores"] = [
+      {
+        dimension_id: "d1",
+        score: 2,
+        confidence: 0.5,
+        rationale_id: "Rasional yang cukup panjang untuk lolos validasi skema.",
+        evidence: [
+          { source_id: "src-a" },
+          { source_id: "src-b" },
+          { source_id: "src-c" },
+        ],
+      },
+      {
+        dimension_id: "d2",
+        score: -2,
+        confidence: 0.5,
+        rationale_id: "Rasional yang cukup panjang untuk lolos validasi skema.",
+        evidence: [{ source_id: "src-a" }],
+      },
+    ];
+    const summary = computeAssessmentSummary(
+      [mkAssessment("a-12", "draft", false, scores)],
+      testRubric
+    )!;
+    // baseline tanpa korelasi (kedua dimensi satu sumber) lebih rendah
+    const baseline = computeAssessmentSummary(
+      [
+        mkAssessment("a-13", "draft", false, [
+          { ...scores[0]!, evidence: [{ source_id: "src-a" }] },
+          { ...scores[1]! },
+        ]),
+      ],
+      testRubric
+    )!;
+    expect(summary.index!).toBeGreaterThan(baseline.index!);
+    expect(summary.index).toBeCloseTo(27.9, 1);
+  });
 });
 
 describe("computePublicIndex", () => {

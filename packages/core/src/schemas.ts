@@ -55,6 +55,8 @@ export const sourceSchema = z.object({
   year: z.number().int().min(1945).max(2100).optional(),
   url: z.string().url().optional(),
   citation_id: z.string().optional(),
+  /** Diisi build: tautan yang pasti bisa dibuka (portal resmi/pencarian). */
+  resolved_url: z.string().url().optional(),
 });
 export type Source = z.infer<typeof sourceSchema>;
 

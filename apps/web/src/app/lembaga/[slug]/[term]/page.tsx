@@ -174,12 +174,30 @@ export default async function TermPage({
                   <div>
                     <div className="text-xs uppercase tracking-wide text-[var(--muted)] mt-2">Bukti</div>
                     <ul className="mt-1.5 space-y-1">
-                      {first.evidence.map((ev) => (
-                        <li key={ev.source_id} className="text-xs text-[var(--muted)]">
-                          • {sourceTitle(ev.source_id)}
-                          {ev.note_id ? ` — ${ev.note_id}` : ""}
-                        </li>
-                      ))}
+                      {first.evidence.map((ev) => {
+                        const src = dataset.sources.find((s) => s.id === ev.source_id);
+                        const href = src?.resolved_url ?? src?.url;
+                        return (
+                          <li key={ev.source_id} className="text-xs leading-relaxed">
+                            {href ? (
+                              <>
+                                📄{" "}
+                                <a
+                                  href={href}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-sky-400 hover:text-sky-300 underline decoration-dotted underline-offset-2"
+                                >
+                                  {src?.title_id ?? ev.source_id} ↗
+                                </a>
+                              </>
+                            ) : (
+                              <span className="text-[var(--muted)]">• {sourceTitle(ev.source_id)}</span>
+                            )}
+                            {ev.note_id ? <span className="text-[var(--muted)]"> — {ev.note_id}</span> : null}
+                          </li>
+                        );
+                      })}
                     </ul>
                   </div>
                   {first.event_ids && first.event_ids.length > 0 && (
@@ -217,15 +235,30 @@ export default async function TermPage({
                 <div className="mt-1 font-medium">{ev.title_id}</div>
                 <p className="mt-1 text-sm text-[var(--muted)]">{ev.summary_id}</p>
                 <div className="mt-2 flex flex-wrap gap-1.5">
-                  {ev.source_ids.map((sid) => (
-                    <span
-                      key={sid}
-                      title={sourceTitle(sid)}
-                      className="rounded bg-[var(--bg)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-[var(--muted)] max-w-xs truncate"
-                    >
-                      📄 {sourceTitle(sid)}
-                    </span>
-                  ))}
+                  {ev.source_ids.map((sid) => {
+                    const src = dataset.sources.find((s) => s.id === sid);
+                    const href = src?.resolved_url ?? src?.url;
+                    return href ? (
+                      <a
+                        key={sid}
+                        href={href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={src?.title_id ?? sid}
+                        className="rounded bg-[var(--bg)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-sky-400 hover:text-sky-300 hover:border-sky-700 max-w-xs truncate"
+                      >
+                        📄 {src?.title_id ?? sid} ↗
+                      </a>
+                    ) : (
+                      <span
+                        key={sid}
+                        title={sourceTitle(sid)}
+                        className="rounded bg-[var(--bg)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-[var(--muted)] max-w-xs truncate"
+                      >
+                        📄 {sourceTitle(sid)}
+                      </span>
+                    );
+                  })}
                 </div>
               </li>
             ))}

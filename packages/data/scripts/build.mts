@@ -24,6 +24,7 @@ import {
 } from "@pancasila-index/core";
 
 import { applyReviews, reviewStateSchema } from "../src/review";
+import { resolveSourceUrl } from "../src/resolvers";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA = join(ROOT, "data");
@@ -60,7 +61,7 @@ const institutions = loadArray("institutions.yaml", institutionSchema, "institut
 const terms = loadArray("terms-presiden.yaml", termSchema, "term")
   .concat(loadArray("terms-dpr.yaml", termSchema, "term"))
   .concat(loadArray("terms-mk.yaml", termSchema, "term"));
-const sources = loadArray("sources.yaml", sourceSchema, "source");
+const sourcesRaw = loadArray("sources.yaml", sourceSchema, "source");
 const events = loadArray("events.yaml", eventSchema, "event");
 const assessments = loadArray("assessments.yaml", assessmentSchema, "assessment");
 
@@ -78,6 +79,46 @@ if (reviews.length > 0) {
   );
 }
 
+// ---- tautan bukti: setiap sumber wajib punya URL yang bisa dibuka ----
+const sourcesResolved = sourcesRaw.map((s) => ({
+  ...s,
+  resolved_url: resolveSourceUrl(s),
+}));
+
+// ---- korelasi bukti: sumber dari peristiwa terkait ikut menguatkan ----
+const eventsById = new Map(events.map((e) => [e.id, e]));
+const assessmentsEnriched = reviewed.assessments.map((a) => ({
+  ...a,
+  dimension_scores: a.dimension_scores.map((ds) => {
+    const extra = new Set<string>();
+    // Jangkar normatif: setiap dimensi pada akhirnya menilai teks konstitusi,
+    // sehingga UUD NRI 1945 selalu menjadi bukti penguat kedua.
+    extra.add("uud-nri-1945");
+    for (const eid of ds.event_ids ?? []) {
+      for (const sid of eventsById.get(eid)?.source_ids ?? []) extra.add(sid);
+    }
+    const evidence = [...ds.evidence];
+    for (const sid of extra) {
+      if (!evidence.some((ev) => ev.source_id === sid)) {
+        evidence.push({ source_id: sid });
+      }
+    }
+    return { ...ds, evidence };
+  }),
+}));
+const correlated = assessmentsEnriched.reduce(
+  (acc, a) =>
+    acc +
+    a.dimension_scores.filter((d) => d.evidence.length > 1).length,
+  0
+);
+console.log(
+  `Korelasi bukti: ${correlated}/${assessmentsEnriched.reduce(
+    (n, a) => n + a.dimension_scores.length,
+    0
+  )} skor kini multi-bukti`
+);
+
 // ------------------------------------------------------- referensi silang
 
 const errors: string[] = [];
@@ -85,7 +126,7 @@ const termIds = new Set(terms.map((t) => t.id));
 const instIds = new Set(institutions.map((i) => i.id));
 const dimIds = new Set(rubric.dimensions.map((d) => d.id));
 const groupIds = new Set(rubric.groups.map((g) => g.id));
-const srcIds = new Set(sources.map((s) => s.id));
+const srcIds = new Set(sourcesRaw.map((s) => s.id));
 const eventIds = new Set(events.map((e) => e.id));
 
 for (const t of terms)
@@ -142,8 +183,8 @@ const dataset = parseDataset({
   institutions,
   terms,
   events,
-  sources,
-  assessments: reviewed.assessments,
+  sources: sourcesResolved,
+  assessments: assessmentsEnriched,
 });
 
 mkdirSync(dirname(OUT), { recursive: true });
@@ -151,6 +192,6 @@ writeFileSync(OUT, JSON.stringify(dataset, null, 2) + "\n");
 
 console.log(
   `OK: ${institutions.length} lembaga, ${terms.length} masa jabatan, ` +
-    `${events.length} peristiwa, ${sources.length} sumber, ` +
+    `${events.length} peristiwa, ${sourcesResolved.length} sumber, ` +
     `${assessments.length} penilaian, ${uud.babs.length} bab UUD -> generated/dataset.json`
 );

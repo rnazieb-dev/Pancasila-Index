@@ -49,6 +49,17 @@ function weightedMean(items: EffectiveScore[]): number | null {
 }
 
 /**
+ * Korelasi bukti menaikkan efektivitas keyakinan: setiap sumber berbeda
+ * tambahan menambah 0.04 hingga langit-langit 0.95. Satu bukti = dasar.
+ */
+export function effectiveConfidence(
+  confidence: number,
+  distinctSources: number
+): number {
+  return Math.min(0.95, confidence + 0.04 * Math.max(0, distinctSources - 1));
+}
+
+/**
  * Rerata per dimensi dari beberapa penilaian atas masa jabatan yang sama.
  * Hanya penilaian published yang dihitung untuk indeks publik.
  */
@@ -57,6 +68,7 @@ function meanPerDimension(
   rubric: Rubric
 ): Map<string, { score: number; confidence: number }> {
   const acc = new Map<string, { sum: number; n: number }>();
+  const evidenceByDim = new Map<string, Set<string>>();
   for (const a of assessments) {
     for (const ds of a.dimension_scores) {
       if (!rubric.dimensions.some((d) => d.id === ds.dimension_id)) continue;
@@ -64,16 +76,24 @@ function meanPerDimension(
       cur.sum += ds.score;
       cur.n += 1;
       acc.set(ds.dimension_id, cur);
+      const set = evidenceByDim.get(ds.dimension_id) ?? new Set<string>();
+      for (const ev of ds.evidence) set.add(ev.source_id);
+      evidenceByDim.set(ds.dimension_id, set);
     }
   }
   const result = new Map<string, { score: number; confidence: number }>();
-  // keyakinan agregat = rerata confidence reviewer untuk dimensi tsb
+  // keyakinan agregat = rerata confidence reviewer, ditingkatkan oleh
+  // keberagaman bukti yang mendukung dimensi tersebut
   for (const [dimId, { sum, n }] of acc) {
     let confSum = 0;
     for (const a of assessments)
       for (const ds of a.dimension_scores)
         if (ds.dimension_id === dimId) confSum += ds.confidence;
-    result.set(dimId, { score: sum / n, confidence: n > 0 ? confSum / n : 0 });
+    const baseConfidence = n > 0 ? confSum / n : 0;
+    result.set(dimId, {
+      score: sum / n,
+      confidence: effectiveConfidence(baseConfidence, evidenceByDim.get(dimId)?.size ?? 1),
+    });
   }
   return result;
 }
