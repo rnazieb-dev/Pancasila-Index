@@ -1885,3 +1885,362 @@
     sempurna bagaimana revisi teknis kecil bisa mengubah nasib konstitusi.
   source_ids: [uu-7-2020, mkmk-anwar-usman-2023]
   dimension_ids: [checks-balances]
+
+- id: ev-soeharto-skb-1969
+  term_id: presiden-soeharto
+  date: "1969"
+  category: kebijakan
+  title_id: SKB 2 Menteri tentang rumah ibadah
+  summary_id: >-
+    Dua menteri menandatangani surat bersama yang mensyaratkan "dukungan warga sekitar"
+    untuk membangun rumah ibadah minoritas - dalam praktiknya diterjemahkan birokrasi menjadi
+    angka 90 tanda tangan tetangga. Selama lebih dari lima puluh tahun, dokumen teknis ini
+    adalah akar dari ratusan kasus penutupan paksa gereja dan pura di seluruh Indonesia.
+    Konflik yang terlihat sebagai intoleransi warga sering kali lahir dari satu lembar SKB.
+  source_ids: [skb-rumah-ibadah-1969]
+  dimension_ids: [sila-1]
+
+- id: ev-soeharto-uuperkawinan-1974
+  term_id: presiden-soeharto
+  date: "1974"
+  category: produk-hukum
+  title_id: UU Perkawinan No. 1/1974
+  summary_id: >-
+    Undang-undang pertama tentang perkawinan menutup perdebatan panjang dengan formula
+    kompromi: perkawinan sah bila dilakukan menurut agama masing-masing, tetapi Pasal 11 tak
+    menjelaskan status perkawinan beda agama - celah yang membuat pasukan pencatat sipil dan
+    pengadilan saling melempar tanggung jawab sampai hari ini. Negara memilih mengunci
+    keragaman ke dalam ambiguitas daripada menyelesaikannya.
+  source_ids: [uu-1-1974]
+  dimension_ids: [sila-1]
+
+- id: ev-soeharto-krismon-blbi
+  term_id: presiden-soeharto
+  date: "1998-01"
+  category: krisis
+  title_id: Krismon, likuidasi bank, dan skandal BLBI
+  summary_id: >-
+    Rupiah runtuh; di bawah tekanan IMF, puluhan bank dilikuidasi sementara BLBI Rp130+
+    triliun dialirkan ke pemilik bank - sebagian besar tidak kembali. Para taipan yang
+    membawa uang keluar negeri hidup bebas; rakyat menanggung inflasi 78% dan PHK massal.
+    Skandal BLBI kemudian jadi daftar panjang impunitas oligarki yang tidak pernah benar-benar
+    dituntaskan hingga kini.
+  source_ids: [literatur-sejarah-nasional]
+  dimension_ids: [negara-hukum, sila-5]
+
+- id: ev-soeharto-udin-jurnalis
+  term_id: presiden-soeharto
+  date: "1996-08"
+  category: krisis
+  title_id: Pembunuhan jurnalis Udin di Yogyakarta
+  summary_id: >-
+    10 Agustus 1996, wartawan Monitor Fuad Muhammad Syafruddin yang gali korupsi bupati
+    Bantul ditusuk di depan rumahnya. Seorang buruh bangunan disiksa hingga mengaku, lalu
+    dibebaskan pengadilan karena keterangannya dipaksakan. Pembunuh sejati dan otaknya tak
+    pernah ditemukan. Kasus Udin menjadi simbol abadi: membongkar korupsi di era Orde Baru
+    bisa berarti mati, dan negara melindungi pembunuhnya lebih baik daripada saksi.
+  source_ids: [berita-udin-1996]
+  dimension_ids: [sila-4, sila-2]
+
+- id: ev-megawati-sampit-sambas
+  term_id: presiden-megawati
+  date: "2001-02"
+  category: krisis
+  title_id: Kerusuhan Sampit dan Sambas - konflik Dayak-Madura
+  summary_id: >-
+    Melanjutkan Sambas 1999, kerusuhan Sampit Februari-Maret 2001 menewaskan setidaknya lima
+    ratus orang dan memaksa puluhan ribu etnis Madura mengungsi permanen dari Kalimantan
+    Tengah. Kekerasan paling brutal antaretnis era Reformasi ini berakhir bukan lewat
+    penegakan hukum melainkan karena satu kelompok berhasil dibersihkan dari wilayahnya -
+    perdamaian tanpa keadilan yang menjadi template konflik agraria-etnis berikutnya.
+  source_ids: [literatur-sejarah-nasional]
+  dimension_ids: [sila-2, sila-3]
+
+- id: ev-sby1-tsunami-aceh-respons
+  term_id: presiden-sby-i
+  date: "2004-12"
+  category: krisis
+  title_id: Gempa dan tsunami Samudra Hindia - respons bencana terbesar republik
+  summary_id: >-
+    26 Desember 2004, gempa M9,1 dan tsunami menewaskan sekitar 167 ribu orang di Aceh dan
+    Nias - bencana nasional terbesar sepanjang ingatan. Indonesia membuka pintu bantuan dunia,
+    TNI berubah fungsi menjadi logistik kemanusiaan, dan rekonstruksi via BRR Aceh-Nias
+    dijalankan relatif bersih dibanding standar saat itu. Dari puing-puing juga lahir damai:
+    bencana yang sama-sama diderita membuka jalan MoU Helsinki tujuh bulan kemudian.
+  source_ids: [literatur-sejarah-nasional, mou-helsinki-2005]
+  dimension_ids: [tujuan-1]
+
+- id: ev-sby1-uuguru-dosen
+  term_id: presiden-sby-i
+  date: "2005-12"
+  category: produk-hukum
+  title_id: UU Guru dan Dosen No. 14/2005
+  summary_id: >-
+    Diundangkan 14 Desember 2005 dengan janji megah: tunjangan profesi sebesar gaji pokok
+    bagi semua guru - gaji guru naik dua kali lipat. Empat belas tahun kemudian jutaan guru
+    non-PNS masih menunggu janji itu penuh; sertifikasi mengubah status tanpa mengubah mutu
+    kelas secara signifikan menurut berbagai studi. UU yang dimaksudkan mencerdaskan justru
+    menjadi contoh bagaimana anggaran besar tanpa desain insentif hanya menghasilkan
+    birokrasi baru.
+  source_ids: [uu-14-2005]
+  dimension_ids: [tujuan-3]
+
+- id: ev-sby2-gayus-pajak
+  term_id: presiden-sby-ii
+  date: "2010"
+  category: krisis
+  title_id: Kasus Gayus Tambunan - mafia pajak yang berlibur
+  summary_id: >-
+    Pajak rendahan Gayus Tambunan terbongkar menerima miliaran dari perusahaan, lalu dunia
+    dikejutkan foto dirinya berlibur ke Bali dan Gili saat statusnya tahanan - bukti telanjang
+    bahwa uang bisa membeli penjara. Jaringannya menyentuh polisi, jaksa, hakim, dan advokat.
+    Reformasi DJP diluncurkan setelahnya; kepercayaan publik kepada sistem perpajakan dan
+    penegakan hukum tidak pernah benar-benar pulih.
+  source_ids: [berita-gayus-2010]
+  dimension_ids: [negara-hukum]
+
+- id: ev-sby2-hambalang
+  term_id: presiden-sby-ii
+  date: "2013-01"
+  category: krisis
+  title_id: Korupsi proyek Hambalang Rp2,5 triliun
+  summary_id: >-
+    Proyek pusat pelatihan atlet nasional membengkak menjadi sekitar Rp2,5 triliun penuh
+    mark-up; KPK menetapkan pejabat Kemenpora dan kontraktor sebagai tersangka, termasuk
+    politisi senior partai penguasa. Dana yang seharusnya mencetak medali habis di rekening.
+    Hambalang menjadi lambang bagaimana anggaran prestasi olahraga Indonesia dibunuh oleh
+    rakusnya pengelolanya sendiri - dua dekade kemudian hasilnya masih kita tanggung.
+  source_ids: [berita-hambalang-2013]
+  dimension_ids: [negara-hukum]
+
+- id: ev-jokowi1-paris-agreement
+  term_id: presiden-jokowi-i
+  date: "2016-10"
+  category: produk-hukum
+  title_id: Indonesia meratifikasi Paris Agreement lebih awal
+  summary_id: >-
+    Oktober 2016, DPR mengesahkan UU No. 16/2016 sehingga Indonesia masuk jajaran negara
+    pertama yang meratifikasi Paris Agreement sebelum perjanjian itu berlaku efektif -
+    diklaim sebagai negara berkembang pertama lewat jalur parlemen. Komitmen NDC: menurunkan
+    emisi hingga 29% sendiri, 41% dengan bantuan internasional pada 2030. Realisasinya masih
+    diperdebatkan tiap tahun; tetapi secara hukum, Indonesia mengikat dirinya ke rezim iklim
+    global.
+  source_ids: [uu-16-2016]
+  dimension_ids: [tujuan-4]
+
+- id: ev-jokowi2-kip-kuliah
+  term_id: presiden-jokowi-ii
+  date: "2020"
+  category: kebijakan
+  title_id: Peluncuran KIP Kuliah
+  summary_id: >-
+    Tengah pandemi, pemerintah melebur Bidikmisi dan berbagai beasiswa menjadi satu KIP
+    Kuliah: biaya kuliah ditanggung penuh plus biaya hidup bagi mahasiswa dari keluarga
+    tidak mampu. Dalam beberapa tahun jumlah penerima melonjak hingga jutaan per angkatan -
+    salah satu program afirmasi pendidikan tinggi terbesar di Asia Tenggara. Tantangan klasik
+    menyusul: data penerima yang bocor dijual daring, dan mutu lulusan yang tak otomatis ikut
+    naik bersama kuotanya.
+  source_ids: [kip-kuliah-2020]
+  dimension_ids: [tujuan-3]
+
+- id: ev-jokowi2-jiwasraya-vonis
+  term_id: presiden-jokowi-ii
+  date: "2022-03"
+  category: pengadilan
+  title_id: Vonis Jiwasraya - Rp16,8 triliun hilang di asuransi negara
+  summary_id: >-
+    Maret 2022 majelis hakim menjatuhkan vonis dalam skandal investasi PT Asuransi Jiwasraya:
+    kerugian negara Rp16,8 triliun - dana tabungan polis jutaan rakyat yang dipakai saham-
+    sahaman spekulatif oleh eks-direktur dan jaringan broker politik. Salah satu kerugian
+    terbesar dalam sejarah korupsi Indonesia, dan seperti biasa: para eksdir divonis, sementara
+    pertanyaan siapa pemilik kepentingan di baliknya tidak pernah benar-benar dijawab.
+  source_ids: [berita-jiwasraya-2022]
+  dimension_ids: [negara-hukum]
+
+- id: ev-jokowi2-revisi-ite-2024
+  term_id: presiden-jokowi-ii
+  date: "2024-01"
+  category: produk-hukum
+  title_id: Revisi kedua UU ITE (UU No. 1/2024)
+  summary_id: >-
+    Setelah lebih dari 700 orang dipidana lewat pasal karet, revisi kedua UU ITE akhirnya
+    mengubah pencemaran nama baik menjadi delik aduan dan menambah bab "hormat serta privasi".
+    Kemajuannya nyata di atas kertas; praktik lapangan belum banyak berubah - pasal-pasal baru
+    tentang martabat dan privasi justru rawan dipakai cara lama. Perbaikan setengah hati atas
+    luka yang diciptakan undang-undang itu sendiri enam belas tahun sebelumnya.
+  source_ids: [uu-1-2024]
+  dimension_ids: [sila-4]
+
+# ---- peristiwa baru (hasil import massal, WAJIB DIKURASI) ----
+- id: ev-soekarno1-hatta-mundur
+  term_id: presiden-soekarno-i
+  date: 1956-12
+  category: pengangkatan
+  title_id: Mohammad Hatta mengundurkan diri dari wakil presiden
+  summary_id: 1 Desember 1956, Bung Hatta meletakkan jabatan - protes tenang atas
+    kultus individu yang tumbuh dan ketidaksetujuan pada arah politik Sukarno.
+    Tanpa wakil presiden, republik kehilangan rem moralnya di detik kritis
+    menjelang Dekrit 1959. Perdebatan apakah Indonesia butuh wakil presiden
+    aktif baru selesai hanya lewat amandemen 44 tahun kemudian.
+  source_ids:
+    - literatur-sejarah-nasional
+  dimension_ids:
+    - checks-balances
+- id: ev-soekarno2-seumur-hidup
+  term_id: presiden-soekarno-ii
+  date: 1963-05
+  category: produk-hukum
+  title_id: TAP MPRS III/MPRS/1963 - Sukarno Presiden Seumur Hidup
+  summary_id: "Sidang Istimewa MPRS Mei 1963 menobatkan Sukarno presiden seumur
+    hidup - tanpa pemilu, tanpa batasan, atas nama revolusi. Satu ketetapan
+    menutup seluruh pintu pergantian kekuasaan secara damai selamanya; dua tahun
+    kemudian satu lembar Supersemar membuka pintu itu dengan cara paling
+    berdarah. Pelajaran klasik: kursi tanpa batas waktu selalu berakhir tanpa
+    aturan."
+  source_ids:
+    - tap-mprs-iii-1963
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-dpr99-uu-polri
+  term_id: dpr-1999-2004
+  date: 2002-01
+  category: produk-hukum
+  title_id: UU Kepolisian - Polri resmi lepas dari militer
+  summary_id: "Disahkan Januari 2002 menyusul pemisahan Polri dari ABRI sejak
+    April 1999, undang-undang ini menata ulang kepolisian sebagai institusi
+    sipil yang melindungi-mengayomi-melayani masyarakat. Reformasi keamanan
+    paling fundamental pasca-dwifungsi: tentara keluar dari urusan kamtibmas.
+    Implementasinya masih diperjuangkan sampai hari ini - reformasi polri
+    ternyata lebih mudah ditulis daripada dilakukan."
+  source_ids:
+    - uu-2-2002
+  dimension_ids:
+    - tujuan-1
+    - negara-hukum
+- id: ev-jokowi1-pengepungan-kpk
+  term_id: presiden-jokowi-i
+  date: 2015-01
+  category: krisis
+  title_id: Pengepungan gedung KPK oleh aparat kepolisian
+  summary_id: "18 Januari 2015, beberapa hari setelah KPK menetapkan seorang
+    jenderal bintang tiga tersangka, puluhan aparat Brimob mengepung gedung KPK
+    untuk menangkap dua penyidiknya. Publik menyebutnya hari tergelap
+    antikorupsi; presiden memilih jalan tengah yang tidak menyenangkan siapa
+    pun. Pesan yang tertinggal: lembaga antikorupsi bisa digerogoti bahkan oleh
+    institusi yang seharusnya menjadi sekutunya."
+  source_ids:
+    - berita-kpk-2015
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+- id: ev-jokowi2-hilirisasi-nikel
+  term_id: presiden-jokowi-ii
+  date: 2020-01
+  category: kebijakan
+  title_id: Larangan ekspor bijih nikel dan era hilirisasi paksa
+  summary_id: "Januari 2020 larangan ekspor bijih nikel mentah berlaku - WTO
+    sempat memenangkan gugatan atasnya, Indonesia banding dan tetap jalan.
+    Hasilnya nyata: puluhan smelter dibangun, nilai ekspor produk nikel melonjak
+    berpuluh kali lipat, ratusan ribu lapangan kerja industri baru. Bayangannya
+    sama nyata: ekspansi tambah kapal keruk laut, deforestasi Raja
+    Ampat-Halmahera, dan dominasi modal tunggal asing di kawasan industri."
+  source_ids:
+    - berita-hilirisasi-2020
+  dimension_ids:
+    - tujuan-2
+- id: ev-jokowi2-pemilu-terbesar
+  term_id: presiden-jokowi-ii
+  date: 2024-02
+  category: peristiwa
+  title_id: Pemilu 14 Februari 2024 - pemilihan satu hari terbesar dunia
+  summary_id: Sehari dalam sebulan penuh, sekitar 204,8 juta pemilih terdaftar
+    memilih lima tingkat jabatan sekaligus di lebih dari 800 ribu TPS -
+    pemilihan umum satu hari terbesar dalam sejarah manusia. Berlangsung damai
+    dan meriah meski korban jiwa petugas logistik serta polemik etika netralitas
+    Anies-Ganjar-Prabowo vs Istana mencoretnya. Kapasitas elektoral republik tak
+    diragukan lagi; mutu integritasnya masih diuji tiap lima tahun.
+  source_ids:
+    - berita-kpu-2024
+    - uu-7-2017
+  dimension_ids:
+    - sila-4
+    - kedaulatan-rakyat
+
+
+# ---- peristiwa baru (hasil import massal, WAJIB DIKURASI) ----
+- id: ev-sby1-kur
+  term_id: presiden-sby-i
+  date: 2007-03
+  category: kebijakan
+  title_id: Kredit Usaha Rakyat (KUR) diluncurkan nasional
+  summary_id: "Maret 2007, KUR menembakkan kredit subsidi ke UMKM dengan bunga
+    tetap rendah dan tanpa agunan untuk plafon tertentu - triliunan rupiah
+    pertama dialirkan pada tahun pertamanya. Program ini menjadi instrumen
+    favorit setiap pemerintah sesudahnya; kritiknya juga turun temurun:
+    penyaluran sering tertukar dengan patronase politik dan banyak penerima tak
+    pernah naik kelas."
+  source_ids:
+    - literatur-sejarah-nasional
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+- id: ev-sby1-gempa-yogya
+  term_id: presiden-sby-i
+  date: 2006-05
+  category: krisis
+  title_id: Gempa Yogyakarta dan Jawa Tengah
+  summary_id: 27 Mei 2006, gempa M5,9 meratakan ribuan rumah di Yogyakarta-Klaten;
+    sekitar 5.800 orang tewas. Respons darurat berjalan cepat dengan bantuan
+    komunitas terbesar dalam sejarah bencana Indonesia saat itu, namun
+    rekonstruksi via dana swadaya masyarakat justru lebih cepat dan lebih
+    akuntabel daripada kanal negara - pelajaran tata kelola yang kelak diulang
+    di Palu.
+  source_ids:
+    - literatur-sejarah-nasional
+  dimension_ids:
+    - tujuan-1
+- id: ev-dpr04-pilkada-langsung
+  term_id: dpr-2004-2009
+  date: 2004-09
+  category: produk-hukum
+  title_id: UU Pemerintahan Daerah - era pilkada langsung dimulai
+  summary_id: "UU No. 32/2004 mengoperasionalkan amandemen konstitusi:
+    gubernur-bupati-wali kota dipilih langsung rakyat mulai 2005, mengakhiri era
+    DPRD menunjuk kepala daerah. Legitimasi lokal berubah total; harga-harganya
+    juga muncul - politik uang pilkada dan dinasti daerah yang kini jadi musuh
+    abadi reformasi elektoral."
+  source_ids:
+    - uu-32-2004
+  dimension_ids:
+    - sila-4
+    - kedaulatan-rakyat
+
+- id: ev-prabowo-kabinet-merah-putih
+  term_id: presiden-prabowo
+  date: 2024-10
+  category: pengangkatan
+  title_id: Kabinet Merah Putih dilantik - terbesar sejak Orde Baru
+  summary_id: 21 Oktober 2024, Prabowo melantik kabinet dengan puluhan menteri dan
+    pejabat setingkat - total melebihi seratus jabatan, terbesar sejak Orde
+    Baru, termasuk wamen usia 20-an dan koalisi hampir seluruh partai. Efisiensi
+    birokrasi dipertanyakan ekonomi; presiden membela sebagai mesin kerja cepat.
+    Ukuran sebenarnya akan diukur oleh kinerja, bukan jumlah kursi.
+  source_ids:
+    - berita-kabinet-merah-putih-2024
+  dimension_ids:
+    - checks-balances
+- id: ev-prabowo-oecd
+  term_id: presiden-prabowo
+  date: 2024-09
+  category: kebijakan
+  title_id: Indonesia memulai proses aksesi OECD
+  summary_id: "September 2024, Indonesia resmi menyampaikan permohonan aksesi ke
+    OECD - klub negara industri demokrasi pasar - beberapa bulan sebelum masuk
+    BRICS. Dua arah sekaligus: berkembar ganda atau diversifikasi cerdas,
+    tergantung siapa yang ditanya. Yang pasti, standar tata kelola, antikorupsi,
+    dan data OECD kini menjadi alat ukur eksternal bagi reformasi di rumah."
+  source_ids:
+    - berita-oecd-indonesia-2024
+  dimension_ids:
+    - tujuan-4

@@ -631,3 +631,95 @@
   title_id: Dana BOS nasional dimulai tahun pelajaran 2005/2006
   year: 2005
   citation_id: Kemendikbudristek; PP 17/2005 jo. regulasi Dana BOS
+
+- id: skb-rumah-ibadah-1969
+  type: lainnya
+  title_id: SKB Menteri Agama dan Menteri Dalam Negeri No. 1/BER/mdn-mag/1969 tentang pembangunan rumah ibadah
+  year: 1969
+  citation_id: SKB 2 Menteri 1969 jo. SKB 45/2006
+
+- id: uu-1-1974
+  type: undang-undang
+  title_id: UU No. 1 Tahun 1974 tentang Perkawinan
+  year: 1974
+
+- id: uu-14-2005
+  type: undang-undang
+  title_id: UU No. 14 Tahun 2005 tentang Guru dan Dosen
+  year: 2005
+
+- id: uu-16-2016
+  type: undang-undang
+  title_id: UU No. 16 Tahun 2016 (ratifikasi Paris Agreement)
+  year: 2016
+
+- id: uu-1-2024
+  type: undang-undang
+  title_id: UU No. 1 Tahun 2024 (Perubahan Kedua UU ITE)
+  year: 2024
+
+- id: berita-udin-1996
+  type: berita
+  title_id: Pembunuhan jurnalis Fuad Muhammad Syafruddin (Udin) di Yogyakarta 1996 dan pembebasan kambing hitam Dwi Sumaji
+  year: 1996
+  citation_id: AJI/Laporan Komnas HAM; pemberitaan vonis 1998
+
+- id: berita-gayus-2010
+  type: berita
+  title_id: Kasus Gayus Tambunan - mafia pajak, tur Bali saat tahanan, jaringan suap ke aparat dan pengadilan
+  year: 2010
+  citation_id: Tempo/KPK pemberitaan 2010-2011
+
+- id: berita-hambalang-2013
+  type: berita
+  title_id: Korupsi proyek Wisma Atlet Hambalang senilai sekitar Rp2,5 triliun
+  year: 2013
+  citation_id: KPK/pemberitaan vonis 2013-2015
+
+- id: berita-jiwasraya-2022
+  type: berita
+  title_id: Vonis kasus Jiwasraya - kerugian negara Rp16,8 triliun, salah satu skandal investasi terbesar
+  year: 2022
+  citation_id: KPK/PN Tipikor, Maret 2022
+
+- id: kip-kuliah-2020
+  type: lainnya
+  title_id: Peluncuran KIP Kuliah menggabungkan Bidikmisi dan beasiswa lainnya
+  year: 2020
+  citation_id: Kemendikbudristek, Panduan KIP Kuliah 2020
+
+- id: uu-2-2002
+  type: undang-undang
+  title_id: UU No. 2 Tahun 2002 tentang Kepolisian Negara Republik Indonesia
+  year: 2002
+- id: tap-mprs-iii-1963
+  type: dokumen-mpr
+  title_id: TAP MPRS No. III/MPRS/1963 (Sukarno Presiden Seumur Hidup)
+  year: 1963
+  citation_id: Risalah Sidang Istimewa MPRS Mei 1963
+- id: berita-kpk-2015
+  type: berita
+  title_id: Pengepungan gedung KPK oleh aparat usai penetapan tersangka IGG Januari 2015
+  year: 2015
+  citation_id: Kompas/CNN Indonesia, Januari-Februari 2015
+- id: berita-hilirisasi-2020
+  type: berita
+  title_id: Larangan ekspor bijih nikel mentah Januari 2020 dan gelombang smelter
+    hilirisasi
+  year: 2020
+  citation_id: Kompas/Reuters, 2020-2022
+- id: berita-kpu-2024
+  type: berita
+  title_id: Pemilu serentak 14 Februari 2024 - pemilihan satu hari terbesar di dunia
+  year: 2024
+  citation_id: KPU RI; Reuters/BBC Februari 2024
+- id: berita-kabinet-merah-putih-2024
+  type: berita
+  title_id: Pelantikan Kabinet Merah Putih - kabinet terbesar sejak Orde Baru
+  year: 2024
+  citation_id: Setpres/Kompas, Oktober 2024
+- id: berita-oecd-indonesia-2024
+  type: berita
+  title_id: Indonesia memulai proses aksesi keanggotaan OECD
+  year: 2024
+  citation_id: OECD/Kemlu, September 2024

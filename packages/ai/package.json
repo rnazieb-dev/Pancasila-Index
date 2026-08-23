@@ -6,7 +6,8 @@
   "type": "module",
   "main": "./src/heuristic.ts",
   "scripts": {
-    "suggest": "tsx scripts/suggest.mts"
+    "suggest": "tsx scripts/suggest.mts",
+    "import": "tsx scripts/import.mts"
   },
   "dependencies": {
     "@pancasila-index/core": "workspace:*",
