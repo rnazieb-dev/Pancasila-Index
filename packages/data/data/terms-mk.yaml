@@ -58,3 +58,35 @@
   actors:
     - name: Suhartono
       role_id: Ketua MK (plt., 2023-2024)
+
+# ------------------------ MAHKAMAH AGUNG ------------------------
+
+- id: ma-revolusi-liberal
+  institution_id: mahkamah-agung
+  label_id: MA Era Revolusi & Demokrasi Liberal
+  era: revolusi
+  start_date: "1946-08-22"
+  end_date: "1959-07-04"
+  actors:
+    - name: Sutjipto
+      role_id: Ketua MA pertama
+
+- id: ma-dt-orde-baru
+  institution_id: mahkamah-agung
+  label_id: MA Era Demokrasi Terpimpin & Orde Baru
+  era: demokrasi-terpimpin
+  start_date: "1959-07-05"
+  end_date: "1998-05-21"
+  actors:
+    - name: Masjkur, Gazali, Purwoto S Gandasubrata dkk.
+      role_id: Para Ketua MA periode 1958-1998
+
+- id: ma-reformasi-sekarang
+  institution_id: mahkamah-agung
+  label_id: MA Era Reformasi
+  era: reformasi
+  start_date: "1998-05-22"
+  end_date: null
+  actors:
+    - name: Bagir Manan, Harifin Tumpa, Hatta Ali, Sunarto dkk.
+      role_id: Para Ketua MA periode 2001-kini

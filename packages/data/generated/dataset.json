@@ -1221,6 +1221,14 @@
       "name_id": "Mahkamah Konstitusi Republik Indonesia",
       "short_id": "MK RI",
       "description_id": "Lembaga penjaga konstitusi yang menguji undang-undang terhadap UUD 1945 (Pasal 24C). Berdiri sejak 2003. Dinilai dari mutu dan integritas putusan serta tata kelola etik internalnya.\n"
+    },
+    {
+      "id": "mahkamah-agung",
+      "slug": "mahkamah-agung",
+      "branch": "yudikatif",
+      "name_id": "Mahkamah Agung Republik Indonesia",
+      "short_id": "MA RI",
+      "description_id": "Puncak empat lingkungan peradilan dengan kewenangan kasasi, peninjauan kembali, dan uji peraturan di bawah UU (Pasal 24A UUD 1945). Berdiri sejak 1946 lewat UU No. 1 Tahun 1946. Dinilai per periode politik nasional dari independensi, integritas, dan mutu yurisprudensinya.\n"
     }
   ],
   "terms": [
@@ -1585,6 +1593,48 @@
         {
           "name": "Suhartono",
           "role_id": "Ketua MK (plt., 2023-2024)"
+        }
+      ]
+    },
+    {
+      "id": "ma-revolusi-liberal",
+      "institution_id": "mahkamah-agung",
+      "label_id": "MA Era Revolusi & Demokrasi Liberal",
+      "era": "revolusi",
+      "start_date": "1946-08-22",
+      "end_date": "1959-07-04",
+      "actors": [
+        {
+          "name": "Sutjipto",
+          "role_id": "Ketua MA pertama"
+        }
+      ]
+    },
+    {
+      "id": "ma-dt-orde-baru",
+      "institution_id": "mahkamah-agung",
+      "label_id": "MA Era Demokrasi Terpimpin & Orde Baru",
+      "era": "demokrasi-terpimpin",
+      "start_date": "1959-07-05",
+      "end_date": "1998-05-21",
+      "actors": [
+        {
+          "name": "Masjkur, Gazali, Purwoto S Gandasubrata dkk.",
+          "role_id": "Para Ketua MA periode 1958-1998"
+        }
+      ]
+    },
+    {
+      "id": "ma-reformasi-sekarang",
+      "institution_id": "mahkamah-agung",
+      "label_id": "MA Era Reformasi",
+      "era": "reformasi",
+      "start_date": "1998-05-22",
+      "end_date": null,
+      "actors": [
+        {
+          "name": "Bagir Manan, Harifin Tumpa, Hatta Ali, Sunarto dkk.",
+          "role_id": "Para Ketua MA periode 2001-kini"
         }
       ]
     }
@@ -2912,6 +2962,66 @@
         "kedaulatan-rakyat",
         "negara-hukum"
       ]
+    },
+    {
+      "id": "ev-ma-pembentukan",
+      "term_id": "ma-revolusi-liberal",
+      "date": "1946-08",
+      "category": "pengangkatan",
+      "title_id": "Mahkamah Agung dibentuk lewat UU No. 1 Tahun 1946",
+      "summary_id": "Tujuh bulan setelah proklamasi, republik yang sedang berperang tetap menulis undang-undang tentang mahkamah agungnya; Sutjipto dilantik sebagai ketua pertama. Di masa demokrasi liberal, MA cukup dihormati hingga sanggup membebaskan terdakwa yang tidak disukai pemerintah - kenangan yang kelak membuat Orde Baru memastikan hal serupa tak terulang.",
+      "source_ids": [
+        "uu-1-1946",
+        "sejarah-ma-arsip"
+      ],
+      "dimension_ids": [
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-ma-dikooptasi-orba",
+      "term_id": "ma-dt-orde-baru",
+      "date": "1980-01",
+      "category": "krisis",
+      "title_id": "Peradilan tunduk pada eksekutif sepanjang Orde Baru",
+      "summary_id": "Secara organisasi MA berada di bawah Departemen Kehakiman; karier, gaji tunjangan, bahkan pensiun hakim ditentukan eksekutif. Perkara sensitif - Malari, media yang dibredel, tanah rakyat untuk proyek - nyaris selalu dimenangkan penguasa; advokat berani seperti Adnan Buyung Nasution justru diberhentikan. Supremasi hukum menjadi slogan pidato, bukan realitas persidangan.",
+      "source_ids": [
+        "sejarah-ma-arsip",
+        "tap-mprs-iii-1967"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-ma-otonomi-penuh",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2004-03",
+      "category": "produk-hukum",
+      "title_id": "Otonomi organisasi penuh MA lepas dari eksekutif",
+      "summary_id": "Pasca-amandemen konstitusi, 31 Maret 2004 tanggung jawab pembinaan MA resmi lepas dari Departemen Kehakiman ke MA sendiri (dikonsolidasikan UU No. 48/2009). Untuk pertama kali sejak 1946 karier hakim tidak lagi ditentukan menteri politik. Independensi struktural tercapai - budaya internal dan kas-kusuen butuh waktu lebih lama direformasi.",
+      "source_ids": [
+        "uu-48-2009"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-ma-suap-hakim-modern",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2017-09",
+      "category": "krisis",
+      "title_id": "Serangkaian OTT suap hakim dari Bandar Jiwa hingga PN Tipikor",
+      "summary_id": "Reformasi organisasi tidak otomatis membersihkan manusianya: OTT KPK menangkap hakim Bandar Jiwa Suanto (2017), disusul gelombang penangkapan hakim dan panitera Pengadilan Tipikor daerah (2023-2025) yang memperlihatkan pasar vonis terselubung. Laporan tahunan KY mencatat ribuan aduan etik per tahun dengan sanksi berat yang jarang sampai pemberhentian. Independensi sudah ada; integritas masih dalam peradilan panjang.",
+      "source_ids": [
+        "laporan-ky-tahunan"
+      ],
+      "dimension_ids": [
+        "negara-hukum"
+      ]
     }
   ],
   "sources": [
@@ -3534,6 +3644,44 @@
       "year": 1998,
       "citation_id": "Laporan TGPF 23 Oktober 1998",
       "resolved_url": "https://duckduckgo.com/?q=Laporan%20Tim%20Gabungan%20Pencari%20Fakta%20(TGPF)%20Kerusuhan%20Mei%201998"
+    },
+    {
+      "id": "uu-1-1946",
+      "type": "undang-undang",
+      "title_id": "UU No. 1 Tahun 1946 tentang Mahkamah Agung",
+      "year": 1946,
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%201%20Tahun%201946"
+    },
+    {
+      "id": "uu-48-2009",
+      "type": "undang-undang",
+      "title_id": "UU No. 48 Tahun 2009 tentang Kekuasaan Kehakiman",
+      "year": 2009,
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2048%20Tahun%202009"
+    },
+    {
+      "id": "sejarah-ma-arsip",
+      "type": "buku",
+      "title_id": "Sejarah Mahkamah Agung Republik Indonesia (publikasi resmi MA RI)",
+      "citation_id": "Badan Diklat MA RI, Sejarah Mahkamah Agung RI",
+      "resolved_url": "https://duckduckgo.com/?q=Sejarah%20Mahkamah%20Agung%20Republik%20Indonesia%20(publikasi%20resmi%20MA%20RI)"
+    },
+    {
+      "id": "laporan-ky-tahunan",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Tahunan Komisi Yudisial - temuan pelanggaran etik hakim",
+      "year": 2024,
+      "url": "https://www.komisiyudisial.go.id",
+      "citation_id": "Laporan Tahunan KY RI 2015-2024",
+      "resolved_url": "https://www.komisiyudisial.go.id"
+    },
+    {
+      "id": "berita-diplomasi-prabowo-2025",
+      "type": "berita",
+      "title_id": "Pemberitaan politik luar negeri era Prabowo - posisi Gaza, tawaran pasukan perdamaian, dan dinamika aliansi",
+      "year": 2025,
+      "citation_id": "Kompas/CNN Indonesia/Reuters, liputan kebijakan luar negeri 2025",
+      "resolved_url": "https://duckduckgo.com/?q=Pemberitaan%20politik%20luar%20negeri%20era%20Prabowo%20-%20posisi%20Gaza%2C%20tawaran%20pasukan%20perdamaian%2C%20dan%20dinamika%20aliansi"
     }
   ],
   "assessments": [
@@ -3557,10 +3705,10 @@
           "evidence": [
             {
               "source_id": "uu-39-1999"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3574,13 +3722,13 @@
             },
             {
               "source_id": "uu-39-1999"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-habibie-tap-xvii"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3593,14 +3741,14 @@
               "source_id": "uu-22-1999"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "uu-25-1999"
             }
           ],
           "event_ids": [
             "ev-habibie-otda"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3613,14 +3761,14 @@
               "source_id": "uu-40-1999"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "uu-3-1999"
             }
           ],
           "event_ids": [
             "ev-habibie-pemilu-1999"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3632,6 +3780,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3643,6 +3794,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3654,6 +3808,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3666,14 +3823,14 @@
               "source_id": "uu-40-1999"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "uu-9-1998"
             }
           ],
           "event_ids": [
             "ev-habibie-kemerdekaan-sipil"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3684,13 +3841,13 @@
           "evidence": [
             {
               "source_id": "tripartit-timtim-1999"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-habibie-referendum-timtim"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3701,10 +3858,10 @@
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3715,10 +3872,10 @@
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3729,13 +3886,13 @@
           "evidence": [
             {
               "source_id": "uu-3-1999"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-habibie-pemilu-1999"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -3760,13 +3917,13 @@
           "evidence": [
             {
               "source_id": "keppres-6-2000"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-gusdur-imlek"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3777,10 +3934,10 @@
           "evidence": [
             {
               "source_id": "keppres-6-2000"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3791,10 +3948,10 @@
           "evidence": [
             {
               "source_id": "keppres-6-2000"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3807,14 +3964,14 @@
               "source_id": "tap-mpr-iii-2001"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "keppres-125-1999"
             }
           ],
           "event_ids": [
             "ev-gusdur-depen"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3826,6 +3983,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3837,6 +3997,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3848,6 +4011,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3858,13 +4024,13 @@
           "evidence": [
             {
               "source_id": "keppres-125-1999"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-gusdur-depen"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3876,6 +4042,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3886,10 +4055,10 @@
           "evidence": [
             {
               "source_id": "tap-mpr-iii-2001"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3900,13 +4069,13 @@
           "evidence": [
             {
               "source_id": "tap-mpr-iii-2001"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-gusdur-ssm"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3917,10 +4086,10 @@
           "evidence": [
             {
               "source_id": "tap-mpr-iii-2001"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -3946,6 +4115,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3956,13 +4128,13 @@
           "evidence": [
             {
               "source_id": "keppres-53-2001"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-megawati-pengadilan-timtim"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3974,6 +4146,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -3984,13 +4159,13 @@
           "evidence": [
             {
               "source_id": "uu-23-2003"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-megawati-presiden-langsung"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4002,6 +4177,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4012,13 +4190,13 @@
           "evidence": [
             {
               "source_id": "uu-15-2003"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-megawati-antiteror"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4030,6 +4208,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4041,6 +4222,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4051,10 +4235,10 @@
           "evidence": [
             {
               "source_id": "uu-15-2003"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4065,13 +4249,13 @@
           "evidence": [
             {
               "source_id": "uu-24-2003"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-megawati-mk-dilantik"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4082,13 +4266,13 @@
           "evidence": [
             {
               "source_id": "uu-24-2003"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-megawati-mk-dilantik"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4099,10 +4283,10 @@
           "evidence": [
             {
               "source_id": "uu-23-2003"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -4128,6 +4312,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4139,6 +4326,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4149,13 +4339,13 @@
           "evidence": [
             {
               "source_id": "mou-helsinki-2005"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-sby1-damai-aceh"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4166,10 +4356,10 @@
           "evidence": [
             {
               "source_id": "uu-22-2007"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4181,6 +4371,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4191,13 +4384,13 @@
           "evidence": [
             {
               "source_id": "mou-helsinki-2005"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-sby1-damai-aceh"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4209,6 +4402,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4220,6 +4416,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4230,10 +4429,10 @@
           "evidence": [
             {
               "source_id": "mou-helsinki-2005"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4246,14 +4445,14 @@
               "source_id": "uu-40-2008"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "laporan-bpk-century"
             }
           ],
           "event_ids": [
             "ev-sby1-century"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4264,13 +4463,13 @@
           "evidence": [
             {
               "source_id": "laporan-bpk-century"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-sby1-century"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4281,10 +4480,10 @@
           "evidence": [
             {
               "source_id": "uu-22-2007"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -4310,6 +4509,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4321,6 +4523,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4331,10 +4536,10 @@
           "evidence": [
             {
               "source_id": "uu-11-2006"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4345,13 +4550,13 @@
           "evidence": [
             {
               "source_id": "uu-17-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-sby2-md3"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4362,13 +4567,13 @@
           "evidence": [
             {
               "source_id": "uu-24-2011"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-sby2-bpjs"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4379,10 +4584,10 @@
           "evidence": [
             {
               "source_id": "inpres-10-2011"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4393,13 +4598,13 @@
           "evidence": [
             {
               "source_id": "uu-24-2011"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-sby2-bpjs"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4411,6 +4616,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4421,13 +4629,13 @@
           "evidence": [
             {
               "source_id": "inpres-10-2011"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-sby2-moratorium-hutan"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4438,10 +4646,10 @@
           "evidence": [
             {
               "source_id": "laporan-bpk-century"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4452,13 +4660,13 @@
           "evidence": [
             {
               "source_id": "uu-17-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-sby2-md3"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4469,10 +4677,10 @@
           "evidence": [
             {
               "source_id": "uu-17-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -4498,6 +4706,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4508,13 +4719,13 @@
           "evidence": [
             {
               "source_id": "laporan-komnas-ham-eksekusi-2015"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-jokowi1-eksekusi-narkoba"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4525,13 +4736,13 @@
           "evidence": [
             {
               "source_id": "uu-6-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-jokowi1-dana-desa"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4544,14 +4755,14 @@
               "source_id": "uu-19-2019"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "laporan-komnas-ham-aktivis-2019"
             }
           ],
           "event_ids": [
             "ev-jokowi1-aksi-2019"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4562,13 +4773,13 @@
           "evidence": [
             {
               "source_id": "perpres-63-2017"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-jokowi1-perluasan-pkh"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4580,6 +4791,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4590,10 +4804,10 @@
           "evidence": [
             {
               "source_id": "uu-6-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4605,6 +4819,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4616,6 +4833,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4626,10 +4846,10 @@
           "evidence": [
             {
               "source_id": "uu-19-2019"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4640,10 +4860,10 @@
           "evidence": [
             {
               "source_id": "uu-19-2019"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4654,10 +4874,10 @@
           "evidence": [
             {
               "source_id": "laporan-komnas-ham-aktivis-2019"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -4682,13 +4902,13 @@
           "evidence": [
             {
               "source_id": "laporan-lsm-kebebasan-sipil-2019-2024"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-jokowi2-shutdown-papua"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4699,13 +4919,13 @@
           "evidence": [
             {
               "source_id": "uu-1-2023"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-jokowi2-rkuhp"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4716,10 +4936,10 @@
           "evidence": [
             {
               "source_id": "laporan-lsm-kebebasan-sipil-2019-2024"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4732,14 +4952,14 @@
               "source_id": "putusan-mk-91-2021"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "uu-11-2020"
             }
           ],
           "event_ids": [
             "ev-jokowi2-ciptaker"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4750,13 +4970,13 @@
           "evidence": [
             {
               "source_id": "uu-2-2020"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-jokowi2-respons-pandemi"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4767,30 +4987,34 @@
           "evidence": [
             {
               "source_id": "uu-2-2020"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-jokowi2-respons-pandemi"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.45,
-          "rationale_id": "Infrastruktur strategis besar seperti IKN dan kereta cepat dibangun meski beban fiskal dipersoalkan.",
+          "rationale_id": "Infrastruktur membaik secara fisik, tetapi proyek prestise seperti IKN dan kereta cepat dibayar utang negara saat korporasi gagal bayar - kesejahteraan umum vs kesejahteraan kontraktor belum seimbang dinilai.",
           "evidence": [
             {
               "source_id": "uu-3-2022"
             },
             {
-              "source_id": "uud-nri-1945"
+              "source_id": "whoosh-kcjb-2023"
             }
           ],
           "event_ids": [
-            "ev-jokowi2-ikn"
+            "ev-jokowi2-ikn",
+            "ev-jokowi2-whoosh"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4802,6 +5026,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4813,6 +5040,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4823,13 +5053,13 @@
           "evidence": [
             {
               "source_id": "perppu-2-2022"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-jokowi2-perppu-ciptaker"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4840,13 +5070,13 @@
           "evidence": [
             {
               "source_id": "uu-6-2023"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-jokowi2-uu-ciptaker-permanen"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4859,9 +5089,6 @@
               "source_id": "berita-dinasti-politik-2024"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "putusan-mk-90-2023"
             },
             {
@@ -4870,6 +5097,9 @@
           ],
           "event_ids": [
             "ev-jokowi2-dinasti-politik"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -4895,6 +5125,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4905,13 +5138,13 @@
           "evidence": [
             {
               "source_id": "komnas-ham-protes-agustus-2025"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-prabowo-agustus-2025"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4923,6 +5156,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4933,13 +5169,13 @@
           "evidence": [
             {
               "source_id": "komnas-ham-protes-agustus-2025"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-prabowo-agustus-2025"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4950,13 +5186,13 @@
           "evidence": [
             {
               "source_id": "perpres-83-2024"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-prabowo-mbg"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4968,6 +5204,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4978,10 +5217,10 @@
           "evidence": [
             {
               "source_id": "perpres-83-2024"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -4992,21 +5231,24 @@
           "evidence": [
             {
               "source_id": "perpres-83-2024"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.3,
-          "rationale_id": "Aktivisme diplomasi kemanusiaan Palestina menonjol pada tahun pertama.",
+          "rationale_id": "Retorika solidaritas Palestina tinggi dan tawarkan pasukan perdamaian diucapkan, tetapi kritik menyebut langkah konkret terbatas dan beberapa arah kebijakan dinilai menggeser prinsip bebas-aktif. Menunggu kurasi dengan bukti lebih lengkap.",
           "evidence": [
             {
-              "source_id": "uud-nri-1945"
+              "source_id": "berita-diplomasi-prabowo-2025"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5017,13 +5259,13 @@
           "evidence": [
             {
               "source_id": "uu-danantara-2025"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-prabowo-danantara"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5034,10 +5276,10 @@
           "evidence": [
             {
               "source_id": "uu-danantara-2025"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5048,10 +5290,10 @@
           "evidence": [
             {
               "source_id": "komnas-ham-protes-agustus-2025"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -5077,6 +5319,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5094,6 +5339,9 @@
           ],
           "event_ids": [
             "ev-dpr99-amandemen-uud"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5104,10 +5352,10 @@
           "evidence": [
             {
               "source_id": "uu-22-1999"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5125,6 +5373,9 @@
           ],
           "event_ids": [
             "ev-dpr99-amandemen-uud"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5135,10 +5386,10 @@
           "evidence": [
             {
               "source_id": "uu-25-1999"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5150,6 +5401,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5161,6 +5415,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5171,10 +5428,10 @@
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5186,6 +5443,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5196,13 +5456,13 @@
           "evidence": [
             {
               "source_id": "uu-30-2002"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr99-kpk"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5220,6 +5480,9 @@
           ],
           "event_ids": [
             "ev-dpr99-amandemen-uud"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5230,13 +5493,13 @@
           "evidence": [
             {
               "source_id": "uu-23-2003"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr99-pilpres-langsung"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -5262,6 +5525,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5273,6 +5539,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5283,10 +5552,10 @@
           "evidence": [
             {
               "source_id": "uu-32-2004"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5297,13 +5566,13 @@
           "evidence": [
             {
               "source_id": "uu-22-2007"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr04-kepemilihan"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5314,10 +5583,10 @@
           "evidence": [
             {
               "source_id": "uu-40-2008"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5329,6 +5598,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5340,6 +5612,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5351,6 +5626,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5362,6 +5640,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5374,15 +5655,15 @@
               "source_id": "uu-27-2004"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "uu-46-2009"
             }
           ],
           "event_ids": [
             "ev-dpr04-tipikor",
             "ev-dpr04-ky"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5393,10 +5674,10 @@
           "evidence": [
             {
               "source_id": "laporan-bpk-century"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5407,10 +5688,10 @@
           "evidence": [
             {
               "source_id": "uu-22-2007"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -5436,6 +5717,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5447,6 +5731,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5458,6 +5745,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5468,13 +5758,13 @@
           "evidence": [
             {
               "source_id": "uu-17-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr09-md3"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5485,13 +5775,13 @@
           "evidence": [
             {
               "source_id": "uu-24-2011"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr09-bpjs"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5503,6 +5793,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5513,13 +5806,13 @@
           "evidence": [
             {
               "source_id": "uu-24-2011"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr09-bpjs"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5531,6 +5824,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5542,6 +5838,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5552,13 +5851,13 @@
           "evidence": [
             {
               "source_id": "uu-12-2011"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr09-pp3"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5569,13 +5868,13 @@
           "evidence": [
             {
               "source_id": "uu-17-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr09-md3"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5586,10 +5885,10 @@
           "evidence": [
             {
               "source_id": "uu-17-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -5615,6 +5914,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5627,14 +5929,14 @@
               "source_id": "laporan-komnas-ham-aktivis-2019"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "uu-19-2019"
             }
           ],
           "event_ids": [
             "ev-dpr14-revisi-kpk"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5645,13 +5947,13 @@
           "evidence": [
             {
               "source_id": "uu-6-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr14-des"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5664,14 +5966,14 @@
               "source_id": "uu-19-2019"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "laporan-komnas-ham-aktivis-2019"
             }
           ],
           "event_ids": [
             "ev-dpr14-revisi-kpk"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5682,13 +5984,13 @@
           "evidence": [
             {
               "source_id": "uu-6-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr14-des"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5700,6 +6002,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5710,10 +6015,10 @@
           "evidence": [
             {
               "source_id": "uu-6-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5724,13 +6029,13 @@
           "evidence": [
             {
               "source_id": "uu-7-2017"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr14-pemilu"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5742,6 +6047,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5754,14 +6062,14 @@
               "source_id": "uu-19-2019"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "laporan-komnas-ham-aktivis-2019"
             }
           ],
           "event_ids": [
             "ev-dpr14-revisi-kpk"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5772,10 +6080,10 @@
           "evidence": [
             {
               "source_id": "uu-19-2019"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5786,10 +6094,10 @@
           "evidence": [
             {
               "source_id": "laporan-komnas-ham-aktivis-2019"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -5814,13 +6122,13 @@
           "evidence": [
             {
               "source_id": "uu-1-2023"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr19-rkuhp-final"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5831,13 +6139,13 @@
           "evidence": [
             {
               "source_id": "uu-1-2023"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr19-rkuhp-final"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5849,6 +6157,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5861,14 +6172,14 @@
               "source_id": "putusan-mk-91-2021"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "uu-11-2020"
             }
           ],
           "event_ids": [
             "ev-dpr19-ciptaker-legislasi"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5879,13 +6190,13 @@
           "evidence": [
             {
               "source_id": "uu-27-2022"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr19-pdp"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5897,6 +6208,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5907,13 +6221,13 @@
           "evidence": [
             {
               "source_id": "uu-17-2023"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr19-kesehatan-omnibus"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5925,6 +6239,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5936,6 +6253,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5946,13 +6266,13 @@
           "evidence": [
             {
               "source_id": "uu-6-2023"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr19-uu-ciptaker-permanen"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5965,14 +6285,14 @@
               "source_id": "uu-11-2020"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "putusan-mk-91-2021"
             }
           ],
           "event_ids": [
             "ev-dpr19-ciptaker-legislasi"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -5985,14 +6305,14 @@
               "source_id": "uu-11-2020"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "putusan-mk-91-2021"
             }
           ],
           "event_ids": [
             "ev-dpr19-ciptaker-legislasi"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -6018,6 +6338,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6028,13 +6351,13 @@
           "evidence": [
             {
               "source_id": "komnas-ham-protes-agustus-2025"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr24-protes-tunjangan"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6046,6 +6369,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6056,13 +6382,13 @@
           "evidence": [
             {
               "source_id": "revisi-md3-2025"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr24-revisi-md3"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6074,6 +6400,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6085,6 +6414,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6095,13 +6427,13 @@
           "evidence": [
             {
               "source_id": "putusan-mk-60-2024"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr24-revisi-pemilu-mk60"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6113,6 +6445,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6124,6 +6459,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6134,13 +6472,13 @@
           "evidence": [
             {
               "source_id": "berita-adies-kadir-mk-2026"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr24-calon-hakim-mk"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6151,13 +6489,13 @@
           "evidence": [
             {
               "source_id": "berita-adies-kadir-mk-2026"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpr24-calon-hakim-mk"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6170,14 +6508,14 @@
               "source_id": "revisi-md3-2025"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "komnas-ham-protes-agustus-2025"
             }
           ],
           "event_ids": [
             "ev-dpr24-protes-tunjangan"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -6203,6 +6541,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6214,6 +6555,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6224,13 +6568,13 @@
           "evidence": [
             {
               "source_id": "uu-24-2003"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mk1-pelantikan"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6242,6 +6586,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6252,13 +6599,13 @@
           "evidence": [
             {
               "source_id": "uu-24-2003"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mk1-pelantikan"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6270,6 +6617,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -6295,6 +6645,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6305,13 +6658,13 @@
           "evidence": [
             {
               "source_id": "putusan-mk-46-2010"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mk2-narkoba-46"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6323,6 +6676,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6333,13 +6689,13 @@
           "evidence": [
             {
               "source_id": "putusan-ma-akil-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mk2-akil-mochtar"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6350,13 +6706,13 @@
           "evidence": [
             {
               "source_id": "putusan-ma-akil-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mk2-akil-mochtar"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6368,6 +6724,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -6393,6 +6752,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6404,6 +6766,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6414,13 +6779,13 @@
           "evidence": [
             {
               "source_id": "putusan-mk-100-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mk3-pilkada-independen"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6432,6 +6797,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6443,6 +6811,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6453,13 +6824,13 @@
           "evidence": [
             {
               "source_id": "putusan-mk-100-2014"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mk3-pilkada-independen"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -6485,6 +6856,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6496,6 +6870,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6506,13 +6883,13 @@
           "evidence": [
             {
               "source_id": "putusan-mk-90-2023"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mk4-usia-capres"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6523,13 +6900,13 @@
           "evidence": [
             {
               "source_id": "mkmk-anwar-usman-2023"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mk4-etik-anwar-usman"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6540,13 +6917,13 @@
           "evidence": [
             {
               "source_id": "putusan-mk-91-2021"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mk4-ciptaker-91"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6557,13 +6934,13 @@
           "evidence": [
             {
               "source_id": "putusan-mk-90-2023"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mk4-usia-capres"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -6589,6 +6966,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6600,6 +6980,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6611,6 +6994,9 @@
             {
               "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6621,13 +7007,13 @@
           "evidence": [
             {
               "source_id": "berita-adies-kadir-mk-2026"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mk5-lantikan-adies-kadir"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6638,13 +7024,13 @@
           "evidence": [
             {
               "source_id": "berita-adies-kadir-mk-2026"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mk5-lantikan-adies-kadir"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6655,13 +7041,13 @@
           "evidence": [
             {
               "source_id": "berita-adies-kadir-mk-2026"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mk5-lantikan-adies-kadir"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -6686,13 +7072,13 @@
           "evidence": [
             {
               "source_id": "proklamasi-ppki-1945"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soekarno1-proklamasi-uud"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6703,13 +7089,13 @@
           "evidence": [
             {
               "source_id": "proklamasi-ppki-1945"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soekarno1-madiun"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6720,13 +7106,13 @@
           "evidence": [
             {
               "source_id": "uuds-1950"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soekarno1-nkri-uuds"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6737,13 +7123,13 @@
           "evidence": [
             {
               "source_id": "pemilu-1955"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soekarno1-pemilu-1955"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6754,10 +7140,10 @@
           "evidence": [
             {
               "source_id": "uuds-1950"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6768,13 +7154,13 @@
           "evidence": [
             {
               "source_id": "konferensi-meja-bundar-1949"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soekarno1-kmb"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6785,10 +7171,10 @@
           "evidence": [
             {
               "source_id": "uuds-1950"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6799,10 +7185,10 @@
           "evidence": [
             {
               "source_id": "uuds-1950"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6813,13 +7199,13 @@
           "evidence": [
             {
               "source_id": "kaa-bandung-1955"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soekarno1-kaa"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6830,10 +7216,10 @@
           "evidence": [
             {
               "source_id": "uuds-1950"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6844,10 +7230,10 @@
           "evidence": [
             {
               "source_id": "uuds-1950"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6858,10 +7244,10 @@
           "evidence": [
             {
               "source_id": "pemilu-1955"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -6886,10 +7272,10 @@
           "evidence": [
             {
               "source_id": "dekrit-presiden-1959"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6900,13 +7286,13 @@
           "evidence": [
             {
               "source_id": "komnas-ham-temuan-1965"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soekarno2-gestapu"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6919,15 +7305,15 @@
               "source_id": "new-york-agreement-1962"
             },
             {
-              "source_id": "uud-nri-1945"
-            },
-            {
               "source_id": "dwikora-konfrontasi-1963"
             }
           ],
           "event_ids": [
             "ev-soekarno2-konfrontasi",
             "ev-soekarno2-irian-barat"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6938,10 +7324,10 @@
           "evidence": [
             {
               "source_id": "dekrit-presiden-1959"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6952,10 +7338,10 @@
           "evidence": [
             {
               "source_id": "dekrit-presiden-1959"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6966,13 +7352,13 @@
           "evidence": [
             {
               "source_id": "new-york-agreement-1962"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soekarno2-irian-barat"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6983,10 +7369,10 @@
           "evidence": [
             {
               "source_id": "dekrit-presiden-1959"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -6997,10 +7383,10 @@
           "evidence": [
             {
               "source_id": "uuds-1950"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7011,13 +7397,13 @@
           "evidence": [
             {
               "source_id": "dwikora-konfrontasi-1963"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soekarno2-konfrontasi"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7028,13 +7414,13 @@
           "evidence": [
             {
               "source_id": "dekrit-presiden-1959"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soekarno2-dekrit"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7045,13 +7431,13 @@
           "evidence": [
             {
               "source_id": "dekrit-presiden-1959"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soekarno2-dekrit"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7062,10 +7448,10 @@
           "evidence": [
             {
               "source_id": "dekrit-presiden-1959"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]
@@ -7090,13 +7476,13 @@
           "evidence": [
             {
               "source_id": "inpres-14-1967"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soeharto-inpres-14"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7107,13 +7493,13 @@
           "evidence": [
             {
               "source_id": "uu-7-1976"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soeharto-timtim"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7124,13 +7510,13 @@
           "evidence": [
             {
               "source_id": "uu-7-1976"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soeharto-timtim"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7144,14 +7530,14 @@
             },
             {
               "source_id": "fusi-partai-1973"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soeharto-fusi-partai",
             "ev-soeharto-asas-tunggal"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7162,13 +7548,13 @@
           "evidence": [
             {
               "source_id": "fao-swasembada-1985"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soeharto-swasembada"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7179,13 +7565,13 @@
           "evidence": [
             {
               "source_id": "tgpf-mei-1998"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soeharto-mej-1998"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7196,13 +7582,13 @@
           "evidence": [
             {
               "source_id": "fao-swasembada-1985"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soeharto-swasembada"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7213,13 +7599,13 @@
           "evidence": [
             {
               "source_id": "sd-inpres-1973"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soeharto-sd-inpres"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7230,13 +7616,13 @@
           "evidence": [
             {
               "source_id": "uu-7-1976"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soeharto-timtim"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7247,13 +7633,13 @@
           "evidence": [
             {
               "source_id": "tgpf-mei-1998"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soeharto-mej-1998"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7264,13 +7650,13 @@
           "evidence": [
             {
               "source_id": "tap-mprs-iii-1967"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soeharto-tap-iii-1967"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         },
         {
@@ -7281,13 +7667,599 @@
           "evidence": [
             {
               "source_id": "uu-8-1985"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-soeharto-asas-tunggal"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-ma-revolusi-liberal",
+      "term_id": "ma-revolusi-liberal",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-23",
+      "dimension_scores": [
+        {
+          "dimension_id": "sila-1",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Belum ada perkara kebebasan beragama yang membentuk preseden pada periode ini.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Perlindungan hak dalam putusan berjalan normal tanpa arah besar.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Yurisprudensi integrasi wilayah belum menjadi sorotan majelis.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 0,
+          "confidence": 0.3,
+          "rationale_id": "MA cukup berani membebaskan terdakwa yang tidak disukai pemerintah pada beberapa perkara.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "uu-1-1946"
+            }
+          ],
+          "event_ids": [
+            "ev-ma-pembentukan"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 0,
+          "confidence": 0.2,
+          "rationale_id": "Sengketa ekonomi rakyat belum menjadi agenda dominan kasasi periode ini.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 0,
+          "confidence": 0.2,
+          "rationale_id": "Perkara pertahanan-keamanan nyaris tidak sampai ke tingkat kasasi.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 0,
+          "confidence": 0.2,
+          "rationale_id": "Belum ada yurisprudensi layanan dasar yang menonjol.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 0,
+          "confidence": 0.2,
+          "rationale_id": "Agenda pendidikan belum menyentuh ranah peradilan tinggi.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 0,
+          "confidence": 0.2,
+          "rationale_id": "Perkara internasional tidak menjadi sorotan majelis awal.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.35,
+          "rationale_id": "Lembaga tertinggi kehakiman dibentuk lewat undang-undang di tengah revolusi fisik.",
+          "evidence": [
+            {
+              "source_id": "uu-1-1946"
+            },
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "event_ids": [
+            "ev-ma-pembentukan"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": 0,
+          "confidence": 0.3,
+          "rationale_id": "Independensi awal relatif terjaga meski kapasitas sangat terbatas.",
+          "evidence": [
+            {
+              "source_id": "uu-1-1946"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Peradilan belum menjadi instrumen akuntabilitas publik yang aktif.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-ma-dt-orde-baru",
+      "term_id": "ma-dt-orde-baru",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-23",
+      "dimension_scores": [
+        {
+          "dimension_id": "sila-1",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Perkara agama-negara jarang sampai ke kasasi dengan dampak besar.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": -1,
+          "confidence": 0.35,
+          "rationale_id": "Perkara tahanan politik dan pelanggaran aparat kerap kalah oleh pertimbangan politik negara.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Yurisprudensi sengketa wilayah dan komunal tidak membentuk perlindungan berarti.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": -1,
+          "confidence": 0.35,
+          "rationale_id": "Putusan pers dan kritik politik konsisten memihak penguasa sepanjang Orde Baru.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "tap-mprs-iii-1967"
+            }
+          ],
+          "event_ids": [
+            "ev-ma-dikooptasi-orba"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Sengketa ekonomi rakyat diselesaikan teknis tanpa arah distributif.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Operasi keamanan praktis bebas uji hukum di tingkat kasasi.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Belum ada garis yurisprudensi pro-kesejahteraan yang menonjol.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 0,
+          "confidence": 0.2,
+          "rationale_id": "Perkara pendidikan tidak membentuk standar baru periode ini.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 0,
+          "confidence": 0.2,
+          "rationale_id": "Dimensi internasional tidak hadir dalam kerja kasasi era ini.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": -1,
+          "confidence": 0.4,
+          "rationale_id": "Organisasi berada di bawah eksekutif; karier hakim ditentukan menteri sehingga independensi runtuh.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "tap-mprs-iii-1967"
+            }
+          ],
+          "event_ids": [
+            "ev-ma-dikooptasi-orba"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": -1,
+          "confidence": 0.4,
+          "rationale_id": "Kontrol atas kekuasaan presiden lewat ruang sidang praktis tidak berfungsi.",
+          "evidence": [
+            {
+              "source_id": "tap-mprs-iii-1967"
+            },
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "event_ids": [
+            "ev-ma-dikooptasi-orba"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Peradilan belum menjadi kanal kedaulatan rakyat yang bermakna.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-ma-reformasi-sekarang",
+      "term_id": "ma-reformasi-sekarang",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-23",
+      "dimension_scores": [
+        {
+          "dimension_id": "sila-1",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Perkara kebebasan beragama di tingkat kasasi tetap langka dan tidak membentuk standar.",
+          "evidence": [
+            {
+              "source_id": "laporan-ky-tahunan"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 0,
+          "confidence": 0.3,
+          "rationale_id": "Perlindungan korban meningkat di lingkungan peradilan umum namun impunitas aparat bertahan.",
+          "evidence": [
+            {
+              "source_id": "laporan-ky-tahunan"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Sengketa agraria-komunitas adat masih didominasi putusan pro-perusahaan menurut catatan LSM.",
+          "evidence": [
+            {
+              "source_id": "laporan-ky-tahunan"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 0,
+          "confidence": 0.3,
+          "rationale_id": "Kebebasan pers lebih terlindungi pasca-UU Pers namun kasus jurnalis masih muncul berkala.",
+          "evidence": [
+            {
+              "source_id": "laporan-ky-tahunan"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Yurisprudensi buruh-konsumen bergerak dua arah tanpa tren kuat satu arah.",
+          "evidence": [
+            {
+              "source_id": "laporan-ky-tahunan"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 0,
+          "confidence": 0.2,
+          "rationale_id": "Pengawasan yudisial atas operasi keamanan tetap minim.",
+          "evidence": [
+            {
+              "source_id": "laporan-ky-tahunan"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Perkara korupsi besar naik kasus namun vonis seragam ringan dikritik luas.",
+          "evidence": [
+            {
+              "source_id": "laporan-ky-tahunan"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 0,
+          "confidence": 0.2,
+          "rationale_id": "Tidak ada garis kasasi pendidikan yang menonjol periode ini.",
+          "evidence": [
+            {
+              "source_id": "laporan-ky-tahunan"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 0,
+          "confidence": 0.2,
+          "rationale_id": "Perkara lintas batas belum menjadi kontribusi yurisprudensi besar.",
+          "evidence": [
+            {
+              "source_id": "laporan-ky-tahunan"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 0,
+          "confidence": 0.35,
+          "rationale_id": "Otonomi organisasi penuh dicapai 2004",
+          "evidence": [
+            {
+              "source_id": "uu-48-2009"
+            },
+            {
+              "source_id": "laporan-ky-tahunan"
+            }
+          ],
+          "event_ids": [
+            "ev-ma-otonomi-penuh",
+            "ev-ma-suap-hakim-modern"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": 1,
+          "confidence": 0.35,
+          "rationale_id": "Uji peraturan di bawah UU memberi kontrol baru atas produk eksekutif-legislatif secara rutin.",
+          "evidence": [
+            {
+              "source_id": "uu-48-2009"
+            }
+          ],
+          "event_ids": [
+            "ev-ma-otonomi-penuh"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 0,
+          "confidence": 0.25,
+          "rationale_id": "Akses masyarakat ke peradilan membaik secara administratif",
+          "evidence": [
+            {
+              "source_id": "laporan-ky-tahunan"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
           ]
         }
       ]

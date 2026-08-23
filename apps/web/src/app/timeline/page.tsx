@@ -3,9 +3,9 @@ import Link from "next/link";
 import { dataset } from "@pancasila-index/data";
 
 import {
+  indexLabel,
   periodLabel,
   scoreColor,
-  scoreLabel,
   termSummary,
 } from "@/lib/view";
 
@@ -60,8 +60,8 @@ export default function TimelinePage() {
                       </div>
                       <div className="mt-1.5 text-xs text-[var(--muted)]">
                         Indeks draf{" "}
-                        <strong style={{ color: scoreColor((index ?? 50 / 25 - 2)) }}>
-                          {scoreLabel(index)}
+                        <strong style={{ color: scoreColor(index === null ? 0 : index / 25 - 2) }}>
+                          {indexLabel(index)}/100
                         </strong>{" "}
                         · cakupan {Math.round((summary?.coverage ?? 0) * 100)}% dimensi ·{" "}
                         {summary?.assessment_ids.length ?? 0} penilaian

@@ -68,7 +68,7 @@ function meanPerDimension(
   rubric: Rubric
 ): Map<string, { score: number; confidence: number }> {
   const acc = new Map<string, { sum: number; n: number }>();
-  const evidenceByDim = new Map<string, Set<string>>();
+  const supportByDim = new Map<string, Set<string>>();
   for (const a of assessments) {
     for (const ds of a.dimension_scores) {
       if (!rubric.dimensions.some((d) => d.id === ds.dimension_id)) continue;
@@ -76,14 +76,14 @@ function meanPerDimension(
       cur.sum += ds.score;
       cur.n += 1;
       acc.set(ds.dimension_id, cur);
-      const set = evidenceByDim.get(ds.dimension_id) ?? new Set<string>();
+      const set = supportByDim.get(ds.dimension_id) ?? new Set<string>();
+      // bukti empiris dan jangkar normatif sama-sama memperkuat keyakinan
       for (const ev of ds.evidence) set.add(ev.source_id);
-      evidenceByDim.set(ds.dimension_id, set);
+      for (const na of ds.normative_anchors ?? []) set.add(`#norm:${na}`);
+      supportByDim.set(ds.dimension_id, set);
     }
   }
   const result = new Map<string, { score: number; confidence: number }>();
-  // keyakinan agregat = rerata confidence reviewer, ditingkatkan oleh
-  // keberagaman bukti yang mendukung dimensi tersebut
   for (const [dimId, { sum, n }] of acc) {
     let confSum = 0;
     for (const a of assessments)
@@ -92,7 +92,7 @@ function meanPerDimension(
     const baseConfidence = n > 0 ? confSum / n : 0;
     result.set(dimId, {
       score: sum / n,
-      confidence: effectiveConfidence(baseConfidence, evidenceByDim.get(dimId)?.size ?? 1),
+      confidence: effectiveConfidence(baseConfidence, supportByDim.get(dimId)?.size ?? 1),
     });
   }
   return result;

@@ -456,3 +456,31 @@
   title_id: Laporan Tim Gabungan Pencari Fakta (TGPF) Kerusuhan Mei 1998
   year: 1998
   citation_id: Laporan TGPF 23 Oktober 1998
+
+- id: uu-1-1946
+  type: undang-undang
+  title_id: UU No. 1 Tahun 1946 tentang Mahkamah Agung
+  year: 1946
+
+- id: uu-48-2009
+  type: undang-undang
+  title_id: UU No. 48 Tahun 2009 tentang Kekuasaan Kehakiman
+  year: 2009
+
+- id: sejarah-ma-arsip
+  type: buku
+  title_id: Sejarah Mahkamah Agung Republik Indonesia (publikasi resmi MA RI)
+  citation_id: Badan Diklat MA RI, Sejarah Mahkamah Agung RI
+
+- id: laporan-ky-tahunan
+  type: laporan-lembaga
+  title_id: Laporan Tahunan Komisi Yudisial - temuan pelanggaran etik hakim
+  year: 2024
+  url: https://www.komisiyudisial.go.id
+  citation_id: Laporan Tahunan KY RI 2015-2024
+
+- id: berita-diplomasi-prabowo-2025
+  type: berita
+  title_id: Pemberitaan politik luar negeri era Prabowo - posisi Gaza, tawaran pasukan perdamaian, dan dinamika aliansi
+  year: 2025
+  citation_id: Kompas/CNN Indonesia/Reuters, liputan kebijakan luar negeri 2025

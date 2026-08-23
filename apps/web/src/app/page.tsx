@@ -3,9 +3,9 @@ import Link from "next/link";
 import { dataset } from "@pancasila-index/data";
 
 import {
+  indexLabel,
   periodLabel,
   scoreColor,
-  scoreLabel,
   termSummary,
 } from "@/lib/view";
 
@@ -92,8 +92,8 @@ export default function Beranda() {
                     }}
                   />
                 </span>
-                <span className="w-16 shrink-0 text-right text-sm font-semibold tabular-nums">
-                  {scoreLabel(index)}
+                <span className="w-16 shrink-0 text-right text-sm font-semibold tabular-nums" title="indeks 0-100; 50 = netral">
+                  {indexLabel(index)}
                 </span>
               </Link>
             );

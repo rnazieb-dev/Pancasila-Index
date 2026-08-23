@@ -91,9 +91,6 @@ const assessmentsEnriched = reviewed.assessments.map((a) => ({
   ...a,
   dimension_scores: a.dimension_scores.map((ds) => {
     const extra = new Set<string>();
-    // Jangkar normatif: setiap dimensi pada akhirnya menilai teks konstitusi,
-    // sehingga UUD NRI 1945 selalu menjadi bukti penguat kedua.
-    extra.add("uud-nri-1945");
     for (const eid of ds.event_ids ?? []) {
       for (const sid of eventsById.get(eid)?.source_ids ?? []) extra.add(sid);
     }
@@ -103,7 +100,12 @@ const assessmentsEnriched = reviewed.assessments.map((a) => ({
         evidence.push({ source_id: sid });
       }
     }
-    return { ...ds, evidence };
+    // Jangkar normatif dipisah dari bukti empiris: pasal UUD bukan
+    // dukungan faktual atas skor, sehingga tidak boleh tampil sebagai "BUKTI".
+    const normative_anchors = ds.normative_anchors?.length
+      ? ds.normative_anchors
+      : ["uud-nri-1945"];
+    return { ...ds, evidence, normative_anchors };
   }),
 }));
 const correlated = assessmentsEnriched.reduce(

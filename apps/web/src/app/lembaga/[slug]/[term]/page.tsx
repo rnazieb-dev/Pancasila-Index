@@ -13,6 +13,7 @@ import {
 import { RadarChart } from "@/components/radar-chart";
 import {
   groupName,
+  indexLabel,
   periodLabel,
   scoreColor,
   scoreLabel,
@@ -91,7 +92,7 @@ export default async function TermPage({
             className="text-4xl font-bold tabular-nums"
             style={{ color: scoreColor(((summary?.index ?? 50) / 25 - 2)) }}
           >
-            {scoreLabel(summary?.index ?? null)}
+            {indexLabel(summary?.index ?? null)}
           </div>
         </div>
         <div className="text-xs text-[var(--muted)] leading-relaxed">
@@ -172,7 +173,10 @@ export default async function TermPage({
                   <p className="text-sm italic text-[var(--muted)]">{dim.question_id.trim()}</p>
                   <p className="text-sm">{first.rationale_id.trim()}</p>
                   <div>
-                    <div className="text-xs uppercase tracking-wide text-[var(--muted)] mt-2">Bukti</div>
+                    <div className="text-xs uppercase tracking-wide text-[var(--muted)] mt-2">Bukti empiris</div>
+                    {first.evidence.length === 0 ? (
+                      <p className="mt-1 text-xs text-amber-400">Belum ada bukti empiris - skor menunggu kurasi.</p>
+                    ) : (
                     <ul className="mt-1.5 space-y-1">
                       {first.evidence.map((ev) => {
                         const src = dataset.sources.find((s) => s.id === ev.source_id);
@@ -199,6 +203,32 @@ export default async function TermPage({
                         );
                       })}
                     </ul>
+                    )}
+                    {(first.normative_anchors ?? []).length > 0 && (
+                      <div className="mt-2 text-[11px] leading-relaxed text-[var(--muted)]">
+                        Landasan normatif (bukan bukti faktual):{" "}
+                        {(first.normative_anchors ?? []).map((na, i, arr) => {
+                          const src = dataset.sources.find((s) => s.id === na);
+                          return (
+                            <span key={na}>
+                              {src ? (
+                                <a
+                                  href={src.resolved_url ?? src.url}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="underline decoration-dotted underline-offset-2 hover:text-white"
+                                >
+                                  {src.title_id} ↗
+                                </a>
+                              ) : (
+                                na
+                              )}
+                              {i < arr.length - 1 ? " · " : ""}
+                            </span>
+                          );
+                        })}
+                      </div>
+                    )}
                   </div>
                   {first.event_ids && first.event_ids.length > 0 && (
                     <div className="text-xs text-[var(--muted)]">

@@ -27,3 +27,14 @@
     Lembaga penjaga konstitusi yang menguji undang-undang terhadap UUD 1945
     (Pasal 24C). Berdiri sejak 2003. Dinilai dari mutu dan integritas
     putusan serta tata kelola etik internalnya.
+
+- id: mahkamah-agung
+  slug: mahkamah-agung
+  branch: yudikatif
+  name_id: Mahkamah Agung Republik Indonesia
+  short_id: MA RI
+  description_id: >
+    Puncak empat lingkungan peradilan dengan kewenangan kasasi, peninjauan
+    kembali, dan uji peraturan di bawah UU (Pasal 24A UUD 1945). Berdiri sejak
+    1946 lewat UU No. 1 Tahun 1946. Dinilai per periode politik nasional dari
+    independensi, integritas, dan mutu yurisprudensinya.

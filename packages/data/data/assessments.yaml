@@ -500,11 +500,11 @@
       evidence: [{source_id: uu-2-2020}]
       event_ids: [ev-jokowi2-respons-pandemi]
     - dimension_id: tujuan-2
-      score: 1
+      score: 0
       confidence: 0.45
-      rationale_id: Infrastruktur strategis besar seperti IKN dan kereta cepat dibangun meski beban fiskal dipersoalkan.
-      evidence: [{source_id: uu-3-2022}]
-      event_ids: [ev-jokowi2-ikn]
+      rationale_id: Infrastruktur membaik secara fisik, tetapi proyek prestise seperti IKN dan kereta cepat dibayar utang negara saat korporasi gagal bayar - kesejahteraan umum vs kesejahteraan kontraktor belum seimbang dinilai.
+      evidence: [{source_id: uu-3-2022}, {source_id: whoosh-kcjb-2023}]
+      event_ids: [ev-jokowi2-ikn, ev-jokowi2-whoosh]
     - dimension_id: tujuan-3
       score: 0
       confidence: 0.4
@@ -587,10 +587,10 @@
       rationale_id: Program gizi sekolah menyasar fondasi pencerdasan generasi penerus.
       evidence: [{source_id: perpres-83-2024}]
     - dimension_id: tujuan-4
-      score: 1
+      score: 0
       confidence: 0.3
-      rationale_id: Aktivisme diplomasi kemanusiaan Palestina menonjol pada tahun pertama.
-      evidence: [{source_id: uud-nri-1945}]
+      rationale_id: Retorika solidaritas Palestina tinggi dan tawarkan pasukan perdamaian diucapkan, tetapi kritik menyebut langkah konkret terbatas dan beberapa arah kebijakan dinilai menggeser prinsip bebas-aktif. Menunggu kurasi dengan bukti lebih lengkap.
+      evidence: [{source_id: berita-diplomasi-prabowo-2025}]
     - dimension_id: negara-hukum
       score: -1
       confidence: 0.3
@@ -1507,3 +1507,69 @@
       rationale_id: Pemilu lima tahunan dikendalikan Golkar dan asas tunggal; kehendak rakyat bukan sumber kekuasaan.
       evidence: [{source_id: uu-8-1985}]
       event_ids: [ev-soeharto-asas-tunggal]
+
+- id: asm-ma-revolusi-liberal
+  term_id: ma-revolusi-liberal
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-23"
+  dimension_scores:
+    - {dimension_id: sila-1, score: 0, confidence: 0.25, rationale_id: Belum ada perkara kebebasan beragama yang membentuk preseden pada periode ini., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: sila-2, score: 0, confidence: 0.25, rationale_id: Perlindungan hak dalam putusan berjalan normal tanpa arah besar., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: sila-3, score: 0, confidence: 0.25, rationale_id: Yurisprudensi integrasi wilayah belum menjadi sorotan majelis., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: sila-4, score: 0, confidence: 0.3, rationale_id: MA cukup berani membebaskan terdakwa yang tidak disukai pemerintah pada beberapa perkara., evidence: [{source_id: sejarah-ma-arsip}], event_ids: [ev-ma-pembentukan]}
+    - {dimension_id: sila-5, score: 0, confidence: 0.2, rationale_id: Sengketa ekonomi rakyat belum menjadi agenda dominan kasasi periode ini., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: tujuan-1, score: 0, confidence: 0.2, rationale_id: Perkara pertahanan-keamanan nyaris tidak sampai ke tingkat kasasi., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: tujuan-2, score: 0, confidence: 0.2, rationale_id: Belum ada yurisprudensi layanan dasar yang menonjol., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: tujuan-3, score: 0, confidence: 0.2, rationale_id: Agenda pendidikan belum menyentuh ranah peradilan tinggi., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: tujuan-4, score: 0, confidence: 0.2, rationale_id: Perkara internasional tidak menjadi sorotan majelis awal., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: negara-hukum, score: 1, confidence: 0.35, rationale_id: Lembaga tertinggi kehakiman dibentuk lewat undang-undang di tengah revolusi fisik., evidence: [{source_id: uu-1-1946}], event_ids: [ev-ma-pembentukan]}
+    - {dimension_id: checks-balances, score: 0, confidence: 0.3, rationale_id: Independensi awal relatif terjaga meski kapasitas sangat terbatas., evidence: [{source_id: uu-1-1946}]}
+    - {dimension_id: kedaulatan-rakyat, score: 0, confidence: 0.25, rationale_id: Peradilan belum menjadi instrumen akuntabilitas publik yang aktif., evidence: [{source_id: sejarah-ma-arsip}]}
+
+- id: asm-ma-dt-orde-baru
+  term_id: ma-dt-orde-baru
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-23"
+  dimension_scores:
+    - {dimension_id: sila-1, score: 0, confidence: 0.25, rationale_id: Perkara agama-negara jarang sampai ke kasasi dengan dampak besar., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: sila-2, score: -1, confidence: 0.35, rationale_id: Perkara tahanan politik dan pelanggaran aparat kerap kalah oleh pertimbangan politik negara., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: sila-3, score: 0, confidence: 0.25, rationale_id: Yurisprudensi sengketa wilayah dan komunal tidak membentuk perlindungan berarti., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: sila-4, score: -1, confidence: 0.35, rationale_id: Putusan pers dan kritik politik konsisten memihak penguasa sepanjang Orde Baru., evidence: [{source_id: sejarah-ma-arsip}], event_ids: [ev-ma-dikooptasi-orba]}
+    - {dimension_id: sila-5, score: 0, confidence: 0.25, rationale_id: Sengketa ekonomi rakyat diselesaikan teknis tanpa arah distributif., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: tujuan-1, score: 0, confidence: 0.25, rationale_id: Operasi keamanan praktis bebas uji hukum di tingkat kasasi., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: tujuan-2, score: 0, confidence: 0.25, rationale_id: Belum ada garis yurisprudensi pro-kesejahteraan yang menonjol., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: tujuan-3, score: 0, confidence: 0.2, rationale_id: Perkara pendidikan tidak membentuk standar baru periode ini., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: tujuan-4, score: 0, confidence: 0.2, rationale_id: Dimensi internasional tidak hadir dalam kerja kasasi era ini., evidence: [{source_id: sejarah-ma-arsip}]}
+    - {dimension_id: negara-hukum, score: -1, confidence: 0.4, rationale_id: Organisasi berada di bawah eksekutif; karier hakim ditentukan menteri sehingga independensi runtuh., evidence: [{source_id: sejarah-ma-arsip}], event_ids: [ev-ma-dikooptasi-orba]}
+    - {dimension_id: checks-balances, score: -1, confidence: 0.4, rationale_id: Kontrol atas kekuasaan presiden lewat ruang sidang praktis tidak berfungsi., evidence: [{source_id: tap-mprs-iii-1967}], event_ids: [ev-ma-dikooptasi-orba]}
+    - {dimension_id: kedaulatan-rakyat, score: 0, confidence: 0.25, rationale_id: Peradilan belum menjadi kanal kedaulatan rakyat yang bermakna., evidence: [{source_id: sejarah-ma-arsip}]}
+
+- id: asm-ma-reformasi-sekarang
+  term_id: ma-reformasi-sekarang
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-23"
+  dimension_scores:
+    - {dimension_id: sila-1, score: 0, confidence: 0.25, rationale_id: Perkara kebebasan beragama di tingkat kasasi tetap langka dan tidak membentuk standar., evidence: [{source_id: laporan-ky-tahunan}]}
+    - {dimension_id: sila-2, score: 0, confidence: 0.3, rationale_id: Perlindungan korban meningkat di lingkungan peradilan umum namun impunitas aparat bertahan., evidence: [{source_id: laporan-ky-tahunan}]}
+    - {dimension_id: sila-3, score: 0, confidence: 0.25, rationale_id: Sengketa agraria-komunitas adat masih didominasi putusan pro-perusahaan menurut catatan LSM., evidence: [{source_id: laporan-ky-tahunan}]}
+    - {dimension_id: sila-4, score: 0, confidence: 0.3, rationale_id: Kebebasan pers lebih terlindungi pasca-UU Pers namun kasus jurnalis masih muncul berkala., evidence: [{source_id: laporan-ky-tahunan}]}
+    - {dimension_id: sila-5, score: 0, confidence: 0.25, rationale_id: Yurisprudensi buruh-konsumen bergerak dua arah tanpa tren kuat satu arah., evidence: [{source_id: laporan-ky-tahunan}]}
+    - {dimension_id: tujuan-1, score: 0, confidence: 0.2, rationale_id: Pengawasan yudisial atas operasi keamanan tetap minim., evidence: [{source_id: laporan-ky-tahunan}]}
+    - {dimension_id: tujuan-2, score: 0, confidence: 0.25, rationale_id: Perkara korupsi besar naik kasus namun vonis seragam ringan dikritik luas., evidence: [{source_id: laporan-ky-tahunan}]}
+    - {dimension_id: tujuan-3, score: 0, confidence: 0.2, rationale_id: Tidak ada garis kasasi pendidikan yang menonjol periode ini., evidence: [{source_id: laporan-ky-tahunan}]}
+    - {dimension_id: tujuan-4, score: 0, confidence: 0.2, rationale_id: Perkara lintas batas belum menjadi kontribusi yurisprudensi besar., evidence: [{source_id: laporan-ky-tahunan}]}
+    - {dimension_id: negara-hukum, score: 0, confidence: 0.35, rationale_id: Otonomi organisasi penuh dicapai 2004, tetapi OTT suap hakim berulang menunjukkan integritas internal rapuh., evidence: [{source_id: uu-48-2009}, {source_id: laporan-ky-tahunan}], event_ids: [ev-ma-otonomi-penuh, ev-ma-suap-hakim-modern]}
+    - {dimension_id: checks-balances, score: 1, confidence: 0.35, rationale_id: Uji peraturan di bawah UU memberi kontrol baru atas produk eksekutif-legislatif secara rutin., evidence: [{source_id: uu-48-2009}], event_ids: [ev-ma-otonomi-penuh]}
+    - {dimension_id: kedaulatan-rakyat, score: 0, confidence: 0.25, rationale_id: Akses masyarakat ke peradilan membaik secara administratif, kendala biaya dan waktu bertahan., evidence: [{source_id: laporan-ky-tahunan}]}

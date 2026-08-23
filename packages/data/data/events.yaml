@@ -1317,3 +1317,61 @@
     justru tugas lembaga yang diusulkannya.
   source_ids: [berita-adies-kadir-mk-2026]
   dimension_ids: [kedaulatan-rakyat, negara-hukum]
+
+# ========================= MAHKAMAH AGUNG =========================
+
+- id: ev-ma-pembentukan
+  term_id: ma-revolusi-liberal
+  date: "1946-08"
+  category: pengangkatan
+  title_id: Mahkamah Agung dibentuk lewat UU No. 1 Tahun 1946
+  summary_id: >-
+    Tujuh bulan setelah proklamasi, republik yang sedang berperang tetap menulis
+    undang-undang tentang mahkamah agungnya; Sutjipto dilantik sebagai ketua pertama.
+    Di masa demokrasi liberal, MA cukup dihormati hingga sanggup membebaskan terdakwa
+    yang tidak disukai pemerintah - kenangan yang kelak membuat Orde Baru memastikan
+    hal serupa tak terulang.
+  source_ids: [uu-1-1946, sejarah-ma-arsip]
+  dimension_ids: [negara-hukum]
+
+- id: ev-ma-dikooptasi-orba
+  term_id: ma-dt-orde-baru
+  date: "1980-01"
+  category: krisis
+  title_id: Peradilan tunduk pada eksekutif sepanjang Orde Baru
+  summary_id: >-
+    Secara organisasi MA berada di bawah Departemen Kehakiman; karier, gaji tunjangan,
+    bahkan pensiun hakim ditentukan eksekutif. Perkara sensitif - Malari, media yang
+    dibredel, tanah rakyat untuk proyek - nyaris selalu dimenangkan penguasa; advokat
+    berani seperti Adnan Buyung Nasution justru diberhentikan. Supremasi hukum menjadi
+    slogan pidato, bukan realitas persidangan.
+  source_ids: [sejarah-ma-arsip, tap-mprs-iii-1967]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-ma-otonomi-penuh
+  term_id: ma-reformasi-sekarang
+  date: "2004-03"
+  category: produk-hukum
+  title_id: Otonomi organisasi penuh MA lepas dari eksekutif
+  summary_id: >-
+    Pasca-amandemen konstitusi, 31 Maret 2004 tanggung jawab pembinaan MA resmi lepas
+    dari Departemen Kehakiman ke MA sendiri (dikonsolidasikan UU No. 48/2009). Untuk
+    pertama kali sejak 1946 karier hakim tidak lagi ditentukan menteri politik.
+    Independensi struktural tercapai - budaya internal dan kas-kusuen butuh waktu
+    lebih lama direformasi.
+  source_ids: [uu-48-2009]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-ma-suap-hakim-modern
+  term_id: ma-reformasi-sekarang
+  date: "2017-09"
+  category: krisis
+  title_id: Serangkaian OTT suap hakim dari Bandar Jiwa hingga PN Tipikor
+  summary_id: >-
+    Reformasi organisasi tidak otomatis membersihkan manusianya: OTT KPK menangkap hakim
+    Bandar Jiwa Suanto (2017), disusul gelombang penangkapan hakim dan panitera Pengadilan
+    Tipikor daerah (2023-2025) yang memperlihatkan pasar vonis terselubung. Laporan tahunan
+    KY mencatat ribuan aduan etik per tahun dengan sanksi berat yang jarang sampai
+    pemberhentian. Independensi sudah ada; integritas masih dalam peradilan panjang.
+  source_ids: [laporan-ky-tahunan]
+  dimension_ids: [negara-hukum]

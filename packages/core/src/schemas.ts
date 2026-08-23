@@ -204,6 +204,12 @@ export const dimensionScoreSchema = z.object({
   rationale_id: z.string().min(20),
   evidence: z.array(evidenceSchema).min(1),
   event_ids: z.array(idField("dimension_score.event_ids")).optional(),
+  /**
+   * Landasan normatif (pasal UUD) yang dinilai - BUKAN bukti empiris.
+   * Ditampilkan terpisah di UI dan ikut menaikkan efektivitas keyakinan,
+   * tetapi tidak boleh dibaca sebagai dukungan faktual atas skor.
+   */
+  normative_anchors: z.array(idField("dimension_score.normative_anchors")).optional(),
 });
 
 export const assessmentStatusSchema = z.enum(["draft", "published"]);

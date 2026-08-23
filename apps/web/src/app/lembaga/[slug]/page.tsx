@@ -4,9 +4,9 @@ import { notFound } from "next/navigation";
 import { dataset, getInstitution, getTermsOfInstitution } from "@pancasila-index/data";
 
 import {
+  indexLabel,
   periodLabel,
   scoreColor,
-  scoreLabel,
   termSummary,
 } from "@/lib/view";
 
@@ -58,7 +58,7 @@ export default async function LembagaPage({
                   color: index === null ? "#94a3b8" : scoreColor(index / 25 - 2),
                 }}
               >
-                {scoreLabel(index)}
+                {indexLabel(index)}
               </span>
               <span className="text-xs text-[var(--muted)] w-24 text-right">
                 cakupan {Math.round((summary?.coverage ?? 0) * 100)}%

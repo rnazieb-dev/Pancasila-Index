@@ -24,6 +24,12 @@ export function scoreLabel(score: number | null): string {
   return `${s > 0 ? "+" : ""}${s.toFixed(1)}`;
 }
 
+/** Indeks publik ditampilkan sebagai angka bulat 0-100 tanpa tanda - mudah dibaca awam. */
+export function indexLabel(index: number | null): string {
+  if (index === null) return "belum dinilai";
+  return String(Math.round(index));
+}
+
 export function periodLabel(start: string, end: string | null): string {
   const s = start.slice(0, 4);
   return end ? `${s}–${end.slice(0, 4)}` : `${s}–kini`;
