@@ -26,7 +26,7 @@
       confidence: 0.5
       rationale_id: Piagam dan UU HAM lahir, tetapi pelanggaran kerusuhan Mei 1998 belum diadili.
       evidence: [{source_id: tap-mpr-xvii-1998}, {source_id: uu-39-1999}]
-      event_ids: [ev-habibie-tap-xvii]
+      event_ids: [ev-habibie-tap-xvii, ev-habibie-trisakti-semanggi]
     - dimension_id: sila-3
       score: 1
       confidence: 0.55
@@ -175,8 +175,8 @@
       score: -1
       confidence: 0.4
       rationale_id: Pengadilan HAM ad hoc Timtim dibentuk namun prosesnya lemah dan cenderung impunitif.
-      evidence: [{source_id: keppres-53-2001}]
-      event_ids: [ev-megawati-pengadilan-timtim]
+      evidence: [{source_id: keppres-53-2001}, {source_id: putusan-munir-2008}]
+      event_ids: [ev-megawati-pengadilan-timtim, ev-megawati-munir]
     - dimension_id: sila-3
       score: 1
       confidence: 0.5
@@ -489,16 +489,16 @@
       event_ids: [ev-jokowi2-ciptaker]
     - dimension_id: sila-5
       score: 1
-      confidence: 0.45
-      rationale_id: Bansos masif masa pandemi dan perluasan jaminan sosial melindungi kelompok rentan.
-      evidence: [{source_id: uu-2-2020}]
-      event_ids: [ev-jokowi2-respons-pandemi]
+      confidence: 0.35
+      rationale_id: Bansos masif dan perluasan jaminan sosial nyata melindungi rentan, tapi menteri yang memimpinnya dipenjara mencuri uang pangkal bansos - capaian dicemari tata kelola.
+      evidence: [{source_id: uu-2-2020}, {source_id: berita-juliari-bansos-2020}]
+      event_ids: [ev-jokowi2-respons-pandemi, ev-jokowi2-juliari-bansos]
     - dimension_id: tujuan-1
-      score: 1
+      score: 0
       confidence: 0.45
-      rationale_id: Manajemen pandemi akhirnya efektif dengan vaksinasi masif meski respons awal lambat.
-      evidence: [{source_id: uu-2-2020}]
-      event_ids: [ev-jokowi2-respons-pandemi]
+      rationale_id: Pandemi dikelola besar-besaran pada akhirnya, tetapi Kanjuruhan menelan 135 nyawa lewat gas air mata di tribun - perlindungan warga gagal di momen paling dasar.
+      evidence: [{source_id: uu-2-2020}, {source_id: berita-kanjuruhan-tgipf-2022}]
+      event_ids: [ev-jokowi2-respons-pandemi, ev-jokowi2-kanjuruhan]
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.45
@@ -591,7 +591,7 @@
       confidence: 0.35
       rationale_id: Bergabung ke Board of Peace pimpinan Trump - yang kelak diduduki juga Israel - dinilai banyak ahli sebagai melanggengkan penjajahan Gaza dan mengkhianati politik bebas-aktif serta kewajiban konstitusi membebaskan Palestina; klaim pemerintah bahwa ia mendorong dua negara dari dalam belum terbuktikan efektif.
       evidence: [{source_id: setpres-bop-charter-2026}, {source_id: kritik-bop-pakar-2026}]
-      event_ids: [ev-prabowo-bop]
+      event_ids: [ev-prabowo-bop, ev-prabowo-brics]
     - dimension_id: negara-hukum
       score: -1
       confidence: 0.3
@@ -1445,9 +1445,9 @@
     - dimension_id: sila-2
       score: -1
       confidence: 0.5
-      rationale_id: Operasi militer Timor Timur, kasus Petrus, dan Tanjung Priok berlangsung dengan impunitas sistemik.
-      evidence: [{source_id: uu-7-1976}]
-      event_ids: [ev-soeharto-timtim]
+      rationale_id: Operasi militer Timor Timur, Petrus, dan Tanjung Priok berlangsung dengan impunitas sistemik.
+      evidence: [{source_id: uu-7-1976}, {source_id: literatur-sejarah-nasional}]
+      event_ids: [ev-soeharto-timtim, ev-soeharto-petrus, ev-soeharto-tanjung-priok]
     - dimension_id: sila-3
       score: 0
       confidence: 0.45
@@ -1459,7 +1459,7 @@
       confidence: 0.55
       rationale_id: Fusi paksa partai, asas tunggal Pancasila, monoloyalitas ASN, dan pembredelan pers mematikan kerakyatan konstitusional.
       evidence: [{source_id: uu-8-1985}, {source_id: fusi-partai-1973}]
-      event_ids: [ev-soeharto-fusi-partai, ev-soeharto-asas-tunggal]
+      event_ids: [ev-soeharto-fusi-partai, ev-soeharto-asas-tunggal, ev-soeharto-malari]
     - dimension_id: sila-5
       score: 1
       confidence: 0.5

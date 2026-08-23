@@ -3037,6 +3037,297 @@
       "dimension_ids": [
         "tujuan-4"
       ]
+    },
+    {
+      "id": "ev-soekarno1-serangan-umum",
+      "term_id": "presiden-soekarno-i",
+      "date": "1949-03",
+      "category": "peristiwa",
+      "title_id": "Serangan Umum 1 Maret 1949",
+      "summary_id": "Enam jam republik merebut kembali Yogyakarta dari tangan Belanda - lalu sengaja melepasnya lagi. Serangan yang dipimpin Letkol Soeharto ini bukan soal mempertahankan kota, melainkan bukti kepada dunia bahwa TNI masih hidup dan pemerintah republik berdaulat, membantah propaganda Belanda tentang \"republik yang sudah hancur\". Tekanan internasional bergeser dalam hitungan pekan; jalannya menuju KMB terbuka lebar.",
+      "source_ids": [
+        "literatur-sejarah-nasional"
+      ],
+      "dimension_ids": [
+        "tujuan-1"
+      ]
+    },
+    {
+      "id": "ev-soekarno1-di-tii",
+      "term_id": "presiden-soekarno-i",
+      "date": "1949-08",
+      "category": "krisis",
+      "title_id": "Pemberontakan DI/TII Kartosuwiryo (1949-1962)",
+      "summary_id": "Agustus 1949, S.M. Kartosuwiryo memproklamasikan Negara Islam Indonesia di Jawa Barat - pemberontakan yang menyebar ke Sulawesi Selatan dan Kalimantan Selatan serta menggigit belasan tahun. Ditumpas dengan operasi militer panjang; Kartosuwiryo ditangkap 1962 dan dieksekusi. Warisannya dua sisi: negara menegaskan bahwa syariat tidak boleh dipaksakan lewat senjata, sekaligus meninggalkan catatan pelanggaran kedua belah pihak yang jarang dibicarakan.",
+      "source_ids": [
+        "literatur-sejarah-nasional"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-soekarno1-prri-permesta",
+      "term_id": "presiden-soekarno-i",
+      "date": "1958-02",
+      "category": "krisis",
+      "title_id": "Pemberontakan PRRI/Permesta",
+      "summary_id": "Februari 1958, perwira menengah Sumatera Tengah dan Sulawesi Utara memberontak - bukan demi separatisme, melainkan protes dana pembangunan yang tak pernah sampai ke daerah penghasil devisa. Dalam lima bulan pemberontakan militer ditumpam, tetapi keluhannya tidak pernah dijawab; malah jadi dalil bagi sentralisasi makin ketat. PRRI/Permesta adalah tagihan otonomi daerah yang baru dibayar Indonesia empat puluh tahun kemudian.",
+      "source_ids": [
+        "literatur-sejarah-nasional"
+      ],
+      "dimension_ids": [
+        "sila-3",
+        "tujuan-2"
+      ]
+    },
+    {
+      "id": "ev-soeharto-transmigrasi",
+      "term_id": "presiden-soeharto",
+      "date": "1975",
+      "category": "kebijakan",
+      "title_id": "Transmigrasi skala besar era minyak",
+      "summary_id": "Dengan uang migas, ratusan ribu keluarga Jawa-Bali dipindahkan ke Sumatera, Kalimantan, dan Papua dengan janji tanah dan hidup baru. Di satu sisi kemiskinan pedesaan Jawa tertolong; di sisi lain program ini menjadi mesin konflik agraria - hak ulayat adat digilir untuk transmigran, masyarakat lokal menjadi minoritas di kampung sendiri. Kebijakan yang menolong sekaligus merampas, tergantung Anda lahir di mana.",
+      "source_ids": [
+        "literatur-sejarah-nasional"
+      ],
+      "dimension_ids": [
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-soeharto-kb-program",
+      "term_id": "presiden-soeharto",
+      "date": "1974",
+      "category": "kebijakan",
+      "title_id": "Program Keluarga Berencana nasional (BKKBN)",
+      "summary_id": "Lahir dari Inpres 1970 dan dilembagakan sebagai BKKBN 1974, KB Orde Baru menjadi salah satu program paling sukses dunia: angka kelahiran turun dari lebih lima anak per wanita (1971) menjadi sekitar dua setengah pada akhir 1990-an, dipuji FAO hingga PBB. Metodenya juga punya bayang-bayang - target yang dipaksakan ke kepala desa dan insentif sterilisasi yang menuai kritik hak reproduksi.",
+      "source_ids": [
+        "literatur-sejarah-nasional"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-2"
+      ]
+    },
+    {
+      "id": "ev-soeharto-malari",
+      "term_id": "presiden-soeharto",
+      "date": "1974-01",
+      "category": "krisis",
+      "title_id": "Malari dan pembredelan pertama gelombang pers",
+      "summary_id": "15 Januari 1974, kunjungan PM Tanaka berujung kerusuhan Jakarta: gedung-gedung asosiasi Jepang dibakar, sebelas orang tewas. Negara menjawab bukan dengan dialog melainkan pembredelan dua belas media termasuk Indonesia Raya dan Nusantara, penahanan tokoh-tokoh mahasiswa, dan pemecatan pejabat yang tak sepaham. Malari adalah momen Orde Baru memilih jalan: kritik ekonomi-politik akan dihargai dengan penjara, bukan jawaban.",
+      "source_ids": [
+        "literatur-sejarah-nasional"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "tujuan-2"
+      ]
+    },
+    {
+      "id": "ev-soeharto-petrus",
+      "term_id": "presiden-soeharto",
+      "date": "1983",
+      "category": "krisis",
+      "title_id": "Petrus - penembakan misterius ribuan preman",
+      "summary_id": "1983-1985, mayat-mayat ditembak mati dan ditinggalkan di tempat umum dari Aceh sampai Jawa - korban resmi disebut para preman, narasi resminya \"preman lawan preman\". Ribuan jiwa lenyap tanpa pengadilan; keluarga tak pernah mendapat kepastian. Bertahun-tahun kemudian, keterlibatan aparat diakui secara setengah-setengah bahkan dalam otobiografi presiden itu sendiri. Impunitas paling telanjang dalam sejarah republik modern.",
+      "source_ids": [
+        "literatur-sejarah-nasional"
+      ],
+      "dimension_ids": [
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-soeharto-tanjung-priok",
+      "term_id": "presiden-soeharto",
+      "date": "1984-09",
+      "category": "krisis",
+      "title_id": "Tragedi Tanjung Priok",
+      "summary_id": "12 September 1984, pasukan menyerbu Masjid Raya Tanjung Priok seusia ceramah yang mengkritik pemerintah; puluhan warga tewas - angka resmi 18, kesaksian warga jauh lebih banyak. Baru pada era Reformasi beberapa prajurit diadili, lalu semuanya dibebaskan Habibie lewat amnesti. Pola yang berulang sampai hari ini: kekerasan aparat ditutup rapor, korban diminta berdamai tanpa keadilan.",
+      "source_ids": [
+        "literatur-sejarah-nasional"
+      ],
+      "dimension_ids": [
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-habibie-trisakti-semanggi",
+      "term_id": "presiden-habibie",
+      "date": "1998-05",
+      "category": "krisis",
+      "title_id": "Penembakan Trisakti dan Semanggi I-II",
+      "summary_id": "12 Mei 1998 empat mahasiswa Trisakti ditembak mati oleh aparat bersenjata - percikan kerusuhan Mei yang menumbangkan Soeharto tiga hari kemudian. Kekerasan berlanjut ke era Habibie: Semanggi I (November 1998) dan Semanggi II (September 1999) kembali menewaskan mahasiswa dan warga. Komnas HAM menyimpulkan ada pelaku aparat, tapi berpuluh tahun kemudian tidak satu pun kasus ini sampai vonis - pembuka bab panjang impunitas pasca-Reformasi.",
+      "source_ids": [
+        "komnas-ham-trisakti-semanggi"
+      ],
+      "dimension_ids": [
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-megawati-papua-otsus",
+      "term_id": "presiden-megawati",
+      "date": "2001-11",
+      "category": "produk-hukum",
+      "title_id": "UU Otonomi Khusus Papua No. 21/2001",
+      "summary_id": "Setelah Theys Eluay dibunuh dan konflik Papua memanas, Megawati mengesahkan UU otonomi khusus paling dermawan di republik ini: dana otsus 2% APBN selama dua puluh tahun, MRP penjaga hak orang asli, pengakuan kebudayaan Papua. Dua dekade kemudian neracanya pahit: dana mengalir ratusan triliun sementara kekerasan dan ketidakpercayaan justru menguat - bukti bahwa otonomi uang tanpa penyelesaian politik dan keadilan sejarah tak memadamkan api.",
+      "source_ids": [
+        "uu-21-2001"
+      ],
+      "dimension_ids": [
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-megawati-munir",
+      "term_id": "presiden-megawati",
+      "date": "2004-09",
+      "category": "krisis",
+      "title_id": "Pembunuhan Munir Said Thalib",
+      "summary_id": "7 September 2004, pembela HAM terdepan Indonesia diracun arsenik di penerbangan Garuda menuju Amsterdam. Pengemudi Garuda Pollycarpus divonis seumur hidup, tetapi mantan pejabat BIN Muchdi PR dibebaskan majelis hakim - meski jejak teleponnya mengular ke markas intelijjen. Pembunuhan paling politis dalam sejarah Reformasi ini tidak pernah sampai ke dalangnya. Pesannya dingin: siapa pun yang menggali terlalu dalam akan dilindungi hukum - selama bukan lawan hukum itu sendiri.",
+      "source_ids": [
+        "putusan-munir-2008"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-sby2-bibit-chandra",
+      "term_id": "presiden-sby-ii",
+      "date": "2009-10",
+      "category": "krisis",
+      "title_id": "Perang praperadilan Bibit-Chandra",
+      "summary_id": "Oktober 2009, dua pimpinan KPK ditetapkan tersangka dugaan suap - beberapa hari setelah mereka menangani perkara besar yang menyentuh elite kepolisian dan kejaksaan. Praperadilan Pengadilan Negeri Jakarta Selatan memvonis penetapan itu melawan hukum; jutaan warga mendukung lewat Facebook, kemeja \"Cicak vs Buaya\" menjadi busana nasional. Episode ini membuka mata publik bahwa antikorupsi bisa diserang dengan senjata hukumnya sendiri.",
+      "source_ids": [
+        "berita-praperadilan-kpk-2009"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-jokowi1-ahok-212",
+      "term_id": "presiden-jokowi-i",
+      "date": "2016-12",
+      "category": "krisis",
+      "title_id": "Perkara blasfemi Ahok dan aksi 212",
+      "summary_id": "Kutipan Al-Qur'an dalam pidato Kepulauan Seribu (Oktober 2016) memicu mobilisasi Islam terbesar pasca-Reformasi: aksi 212 Desember menghimpun ratusan ribu orang. Gubernur Jakarta non-Muslim etnis Tionghoa itu kalah di pemilu Februari 2017 lalu divonis dua tahun penjara atas blasfemi pada Mei - lebih berat dari tuntutan jaksa, dan langsung dipenjarakan. Kasus ini menjadi titik balik intoleransi: retorika identitas terbukti bisa menjatuhkan pejabat tertinggi daerah, dan preseden pidana blasfemi menguat.",
+      "source_ids": [
+        "berita-ahok-blasfemi-2017"
+      ],
+      "dimension_ids": [
+        "sila-1"
+      ]
+    },
+    {
+      "id": "ev-jokowi1-ektp-setnov",
+      "term_id": "presiden-jokowi-i",
+      "date": "2018-04",
+      "category": "pengadilan",
+      "title_id": "Vonis Setya Novanto dalam kasus e-KTP",
+      "summary_id": "Korupsi kartu e-KTP merugikan negara Rp2,3 triliun dan menjatuhkan Ketua Umum Golkar yang juga Ketua DPR - jabatan legislatif tertinggi - ke penjara lima belas tahun. KPK memenangkan duel paling dramatis melawan parlemen sejak era Bibit-Chandra. Namun angkanya juga pengingat: dari perkara terbesar dekade ini, hanya satu kepala yang jatuh, sementara aliran uang politik ke banyak partai tak pernah benar-benar dibongkar.",
+      "source_ids": [
+        "berita-ektp-setnov-2018"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-jokowi2-fpi-dibubarkan",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2020-12",
+      "category": "kebijakan",
+      "title_id": "Pembubaran FPI lewat SKB enam pejabat dan penangkapan Rizieq Shihab",
+      "summary_id": "30 Desember 2020, enam pejabat negara - menteri, kapolri, jaksa agung - menandatangani Surat Keputusan Bersama membubarkan FPI, tanpa putusan pengadilan. Dua minggu sebelumnya Rizieq Shihab ditangkap; enam pengurus FPI tewas dalam insiden jalan tol yang polisi sebut \"penembakan karena melawan\", publik menyebutnya pembunuhan. Mahkamah Agung kemudian menyatakan SKB itu bertentangan dengan UU (2021) - tetapi organisasinya sudah bubar dan pemimpinnya di penjara. Preseden berbahaya: lembaga eksekutif bisa membunuh organisasi sipil lewat rapat meja.",
+      "source_ids": [
+        "berita-fpi-skb-2020"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-jokowi2-juliari-bansos",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2020-12",
+      "category": "krisis",
+      "title_id": "Menteri Sosial ditangkap KPK - suap uang pangkal bansos pandemi",
+      "summary_id": "6 Desember 2020, di tengah pandemi ketika jutaan keluarga bergantung bansos, KPK menangkap Menteri Sosial Juliari Batubara - anak politisi senior - atas uang pangkal dari distribusi bantuan COVID-19; divonis dua belas tahun. Wajah nasional program perlindungan sosial ternyata mencuri dari porsi rakyat paling lapar. Simbol sempurna dari celah tata kelola darurat: dana besar mengalir cepat, pengawasan tak sanggup mengikuti.",
+      "source_ids": [
+        "berita-juliari-bansos-2020"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-jokowi2-kanjuruhan",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2022-10",
+      "category": "krisis",
+      "title_id": "Tragedi Kanjuruhan - 135 tewas oleh gas air mata di tribun",
+      "summary_id": "1 Oktober 2022, usai Arema kalah dari Persebaya, polisi menembakkan gas air mata ke arah tribun yang penuh sesak - pelanggaran langsung aturan FIFA. Ribuan orang panik menuju pintu keluar terkunci; 135 jiwa melayang, 583 luka. TGIPF yang dibentuk presiden menunjuk enam tersangka termasuk tiga perwira polisi, tetapi prosesnya berjalan lamban dan vonis-restitusi jauh di bawah harapan korban (Rp1,02 miliar dari tuntutan Rp17,5 miliar). Negara merespons dengan UU Keolahragaan baru - setelah, seperti biasa, nyawa sudah hilang lebih dahulu.",
+      "source_ids": [
+        "berita-kanjuruhan-tgipf-2022",
+        "uu-11-2022-keolahragaan"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-jokowi2-g20-bali",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2022-11",
+      "category": "kebijakan",
+      "title_id": "Presidensi G20 Indonesia dan KTT Bali di tengah perang Ukraina",
+      "summary_id": "Di tengah perang Rusia-Ukraina yang memecah dunia, Indonesia memimpin G20 dan memaksakan satu-satunya KTT yang dihadiri Biden dan para pemimpin G7 sekaligus Lavrov (15-16 November 2022, Bali). Diplomasi kursi roda Jokowi - ke Kiev, Moskwa, Beijing - mengangkat citra Indonesia sebagai jembatan Global South. Warisan diplomasi luar negeri terbesar era ini, meski komitmen hasil KTT banyak yang tinggal dokumen.",
+      "source_ids": [
+        "berita-g20-bali-2022"
+      ],
+      "dimension_ids": [
+        "tujuan-4"
+      ]
+    },
+    {
+      "id": "ev-jokowi2-pemekaran-papua",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2022-07",
+      "category": "produk-hukum",
+      "title_id": "Pemekaran tiga provinsi Papua tanpa konsultasi DPRP",
+      "summary_id": "Juli 2022, pemerintah dan DPR mengesahkan lahirnya Papua Selatan, Papua Tengah, dan Papua Pegunungan - meski DPRP Papua secara resmi menolaknya dan UU Otsus mensyaratkan persetujuan MRP. Masyarakat sipil dan sebagian gereja menyebutnya strategi militeristik memecah gerakan Papua; pemerintah menyebut pemerataan layanan. Kontradiksi hukum dan politiknya menganga: otonomi khusus dilanggar oleh undang-undang yang seharusnya melindunginya.",
+      "source_ids": [
+        "berita-pemekaran-papua-2022"
+      ],
+      "dimension_ids": [
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-prabowo-brics",
+      "term_id": "presiden-prabowo",
+      "date": "2025-01",
+      "category": "kebijakan",
+      "title_id": "Indonesia resmi anggota penuh BRICS",
+      "summary_id": "6 Januari 2025, Brasil selaku ketua BRICS mengumumkan Indonesia sebagai anggota penuh - negara Asia Tenggara pertama di blok Global South yang dipimpin China-Rusia itu. Pilihan Prabowo yang dieksekusi cepat setelah pencalonannya disetujui Johannesburg 2023. Bagi pendukungnya, langkah strategis diversifikasi aliansi; bagi kritikusnya, geseran dari bebas-aktif ke berkembar ganda - bergabung BRICS sambil berproses masuk OECD Barat. Arah kebijakan luar negeri pertama era ini yang benar-benar menguji doktrin.",
+      "source_ids": [
+        "berita-brics-ri-2025"
+      ],
+      "dimension_ids": [
+        "tujuan-4"
+      ]
     }
   ],
   "sources": [
@@ -3715,6 +4006,117 @@
       "url": "https://www.tribunnews.com/nasional/7801089/pakar-ui-sebut-board-of-peace-untuk-melanggengkan-penjajahan-israel-di-gaza-indonesia-harus-keluar",
       "citation_id": "Tribunnews 7 Maret 2026; IDN Times 12 Februari 2026 (aksesi Israel ke BoP)",
       "resolved_url": "https://www.tribunnews.com/nasional/7801089/pakar-ui-sebut-board-of-peace-untuk-melanggengkan-penjajahan-israel-di-gaza-indonesia-harus-keluar"
+    },
+    {
+      "id": "uu-21-2001",
+      "type": "undang-undang",
+      "title_id": "UU No. 21 Tahun 2001 tentang Otonomi Khusus bagi Provinsi Papua",
+      "year": 2001,
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2021%20Tahun%202001"
+    },
+    {
+      "id": "uu-11-2022-keolahragaan",
+      "type": "undang-undang",
+      "title_id": "UU No. 11 Tahun 2022 tentang Keolahragaan",
+      "year": 2022,
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2011%20Tahun%202022"
+    },
+    {
+      "id": "literatur-sejarah-nasional",
+      "type": "buku",
+      "title_id": "Literatur sejarah nasional standar (George McT Kahin, M.C. Ricklefs, dkk.) untuk peristiwa pra-Reformasi",
+      "citation_id": "Kahin, Nationalism and Revolution in Indonesia; Ricklefs, A History of Modern Indonesia",
+      "resolved_url": "https://duckduckgo.com/?q=Literatur%20sejarah%20nasional%20standar%20(George%20McT%20Kahin%2C%20M.C.%20Ricklefs%2C%20dkk.)%20untuk%20peristiwa%20pra-Reformasi"
+    },
+    {
+      "id": "komnas-ham-trisakti-semanggi",
+      "type": "laporan-lembaga",
+      "title_id": "Hasil penyelidikan Komnas HAM dan Tim Gabungan atas penembakan Trisakti serta Semanggi I-II",
+      "year": 1999,
+      "citation_id": "Laporan Komnas HAM/Tim Gabungan Pencari Fakta 1998-1999",
+      "resolved_url": "https://duckduckgo.com/?q=Hasil%20penyelidikan%20Komnas%20HAM%20dan%20Tim%20Gabungan%20atas%20penembakan%20Trisakti%20serta%20Semanggi%20I-II"
+    },
+    {
+      "id": "putusan-munir-2008",
+      "type": "putusan-ma",
+      "title_id": "Putusan kasus pembunuhan Munir Said Thalib - Pollycarpus divonis seumur hidup, mantan pejabat BIN Muchdi PR dibebaskan",
+      "year": 2008,
+      "citation_id": "Putusan MA kasus Munir, 2008",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20kasus%20pembunuhan%20Munir%20Said%20Thalib%20-%20Pollycarpus%20divonis%20seumur%20hidup%2C%20mantan%20pejabat%20BIN%20Muchdi%20PR%20dibebaskan"
+    },
+    {
+      "id": "berita-praperadilan-kpk-2009",
+      "type": "berita",
+      "title_id": "Praperadilan Bibit-Chandra 2009 - perang KPK vs Polri-Kejaksaan dan kemenangan praperadilan dua pimpinan KPK",
+      "year": 2009,
+      "citation_id": "Kompas/Hukumonline, Oktober-November 2009",
+      "resolved_url": "https://duckduckgo.com/?q=Praperadilan%20Bibit-Chandra%202009%20-%20perang%20KPK%20vs%20Polri-Kejaksaan%20dan%20kemenangan%20praperadilan%20dua%20pimpinan%20KPK"
+    },
+    {
+      "id": "berita-ahok-blasfemi-2017",
+      "type": "berita",
+      "title_id": "Perkara blasfemi Basuki Tjahaja Purnama (Ahok), aksi 212 Desember 2016, dan vonis dua tahun Mei 2017",
+      "year": 2017,
+      "citation_id": "BBC Indonesia/Kompas, Desember 2016-Mei 2017",
+      "resolved_url": "https://duckduckgo.com/?q=Perkara%20blasfemi%20Basuki%20Tjahaja%20Purnama%20(Ahok)%2C%20aksi%20212%20Desember%202016%2C%20dan%20vonis%20dua%20tahun%20Mei%202017"
+    },
+    {
+      "id": "berita-ektp-setnov-2018",
+      "type": "berita",
+      "title_id": "Kasus korupsi e-KTP - vonis Setya Novanto 15 tahun oleh Pengadilan Tipikor April 2018",
+      "year": 2018,
+      "citation_id": "CNN Indonesia/KPK, April 2018",
+      "resolved_url": "https://duckduckgo.com/?q=Kasus%20korupsi%20e-KTP%20-%20vonis%20Setya%20Novanto%2015%20tahun%20oleh%20Pengadilan%20Tipikor%20April%202018"
+    },
+    {
+      "id": "berita-fpi-skb-2020",
+      "type": "berita",
+      "title_id": "Pembubaran FPI lewat SKB enam pejabat negara Desember 2020 dan penangkapan Rizieq Shihab",
+      "year": 2020,
+      "citation_id": "BBC Indonesia/CNN Indonesia, Desember 2020",
+      "resolved_url": "https://duckduckgo.com/?q=Pembubaran%20FPI%20lewat%20SKB%20enam%20pejabat%20negara%20Desember%202020%20dan%20penangkapan%20Rizieq%20Shihab"
+    },
+    {
+      "id": "berita-juliari-bansos-2020",
+      "type": "berita",
+      "title_id": "Penangkapan Menteri Sosial Juliari Batubara atas suap uang pangkal bansos COVID-19",
+      "year": 2020,
+      "citation_id": "KPK/CNN Indonesia, Desember 2020",
+      "resolved_url": "https://duckduckgo.com/?q=Penangkapan%20Menteri%20Sosial%20Juliari%20Batubara%20atas%20suap%20uang%20pangkal%20bansos%20COVID-19"
+    },
+    {
+      "id": "berita-kanjuruhan-tgipf-2022",
+      "type": "laporan-lembaga",
+      "title_id": "Temuan TGIPF Kanjuruhan (Keppres 19/2022) - gas air mata ke tribun, 135 tewas 583 luka, enam tersangka Pasal 103 UU Keolahragaan",
+      "year": 2022,
+      "url": "https://www.cnnindonesia.com/nasional/20221028154345-20-866651/sebulan-tragedi-kanjuruhan-gas-air-mata-aparat-tewaskan-135-orang",
+      "citation_id": "TGIPF/Laporan Komnas HAM 2 November 2022; Tempo kaleidoskop 2022",
+      "resolved_url": "https://www.cnnindonesia.com/nasional/20221028154345-20-866651/sebulan-tragedi-kanjuruhan-gas-air-mata-aparat-tewaskan-135-orang"
+    },
+    {
+      "id": "berita-g20-bali-2022",
+      "type": "berita",
+      "title_id": "Presidensi G20 Indonesia - KTT Bali 15-16 November 2022 di tengah perang Ukraina",
+      "year": 2022,
+      "citation_id": "Sekretariat Kabinet/Kemlu, November 2022",
+      "resolved_url": "https://duckduckgo.com/?q=Presidensi%20G20%20Indonesia%20-%20KTT%20Bali%2015-16%20November%202022%20di%20tengah%20perang%20Ukraina"
+    },
+    {
+      "id": "berita-pemekaran-papua-2022",
+      "type": "berita",
+      "title_id": "Pemekaran tiga provinsi baru di Papua 2022 tanpa konsultasi DPRP dan kritik masyarakat sipil",
+      "year": 2022,
+      "citation_id": "BBC Indonesia/Tempo, Juli-September 2022",
+      "resolved_url": "https://duckduckgo.com/?q=Pemekaran%20tiga%20provinsi%20baru%20di%20Papua%202022%20tanpa%20konsultasi%20DPRP%20dan%20kritik%20masyarakat%20sipil"
+    },
+    {
+      "id": "berita-brics-ri-2025",
+      "type": "berita",
+      "title_id": "Indonesia resmi anggota penuh BRICS diumumkan Brasil 6 Januari 2025 - negara Asia Tenggara pertama",
+      "year": 2025,
+      "url": "https://www.kompas.com/tren/read/2025/01/08/123000965/daftar-anggota-brics-2025-usai-indonesia-resmi-bergabung",
+      "citation_id": "Kompas/DDTCNews/Siaran pers pemerintah Brasil, 6 Januari 2025",
+      "resolved_url": "https://www.kompas.com/tren/read/2025/01/08/123000965/daftar-anggota-brics-2025-usai-indonesia-resmi-bergabung"
     }
   ],
   "assessments": [
@@ -3755,10 +4157,14 @@
             },
             {
               "source_id": "uu-39-1999"
+            },
+            {
+              "source_id": "komnas-ham-trisakti-semanggi"
             }
           ],
           "event_ids": [
-            "ev-habibie-tap-xvii"
+            "ev-habibie-tap-xvii",
+            "ev-habibie-trisakti-semanggi"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -4161,10 +4567,14 @@
           "evidence": [
             {
               "source_id": "keppres-53-2001"
+            },
+            {
+              "source_id": "putusan-munir-2008"
             }
           ],
           "event_ids": [
-            "ev-megawati-pengadilan-timtim"
+            "ev-megawati-pengadilan-timtim",
+            "ev-megawati-munir"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -4998,15 +5408,19 @@
         {
           "dimension_id": "sila-5",
           "score": 1,
-          "confidence": 0.45,
-          "rationale_id": "Bansos masif masa pandemi dan perluasan jaminan sosial melindungi kelompok rentan.",
+          "confidence": 0.35,
+          "rationale_id": "Bansos masif dan perluasan jaminan sosial nyata melindungi rentan, tapi menteri yang memimpinnya dipenjara mencuri uang pangkal bansos - capaian dicemari tata kelola.",
           "evidence": [
             {
               "source_id": "uu-2-2020"
+            },
+            {
+              "source_id": "berita-juliari-bansos-2020"
             }
           ],
           "event_ids": [
-            "ev-jokowi2-respons-pandemi"
+            "ev-jokowi2-respons-pandemi",
+            "ev-jokowi2-juliari-bansos"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -5014,16 +5428,23 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.45,
-          "rationale_id": "Manajemen pandemi akhirnya efektif dengan vaksinasi masif meski respons awal lambat.",
+          "rationale_id": "Pandemi dikelola besar-besaran pada akhirnya, tetapi Kanjuruhan menelan 135 nyawa lewat gas air mata di tribun - perlindungan warga gagal di momen paling dasar.",
           "evidence": [
             {
               "source_id": "uu-2-2020"
+            },
+            {
+              "source_id": "berita-kanjuruhan-tgipf-2022"
+            },
+            {
+              "source_id": "uu-11-2022-keolahragaan"
             }
           ],
           "event_ids": [
-            "ev-jokowi2-respons-pandemi"
+            "ev-jokowi2-respons-pandemi",
+            "ev-jokowi2-kanjuruhan"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -5281,10 +5702,14 @@
             },
             {
               "source_id": "kritik-bop-pakar-2026"
+            },
+            {
+              "source_id": "berita-brics-ri-2025"
             }
           ],
           "event_ids": [
-            "ev-prabowo-bop"
+            "ev-prabowo-bop",
+            "ev-prabowo-brics"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -7528,14 +7953,19 @@
           "dimension_id": "sila-2",
           "score": -1,
           "confidence": 0.5,
-          "rationale_id": "Operasi militer Timor Timur, kasus Petrus, dan Tanjung Priok berlangsung dengan impunitas sistemik.",
+          "rationale_id": "Operasi militer Timor Timur, Petrus, dan Tanjung Priok berlangsung dengan impunitas sistemik.",
           "evidence": [
             {
               "source_id": "uu-7-1976"
+            },
+            {
+              "source_id": "literatur-sejarah-nasional"
             }
           ],
           "event_ids": [
-            "ev-soeharto-timtim"
+            "ev-soeharto-timtim",
+            "ev-soeharto-petrus",
+            "ev-soeharto-tanjung-priok"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -7569,11 +7999,15 @@
             },
             {
               "source_id": "fusi-partai-1973"
+            },
+            {
+              "source_id": "literatur-sejarah-nasional"
             }
           ],
           "event_ids": [
             "ev-soeharto-fusi-partai",
-            "ev-soeharto-asas-tunggal"
+            "ev-soeharto-asas-tunggal",
+            "ev-soeharto-malari"
           ],
           "normative_anchors": [
             "uud-nri-1945"

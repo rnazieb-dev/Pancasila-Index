@@ -498,3 +498,86 @@
   year: 2026
   url: https://www.tribunnews.com/nasional/7801089/pakar-ui-sebut-board-of-peace-untuk-melanggengkan-penjajahan-israel-di-gaza-indonesia-harus-keluar
   citation_id: Tribunnews 7 Maret 2026; IDN Times 12 Februari 2026 (aksesi Israel ke BoP)
+
+- id: uu-21-2001
+  type: undang-undang
+  title_id: UU No. 21 Tahun 2001 tentang Otonomi Khusus bagi Provinsi Papua
+  year: 2001
+
+- id: uu-11-2022-keolahragaan
+  type: undang-undang
+  title_id: UU No. 11 Tahun 2022 tentang Keolahragaan
+  year: 2022
+
+- id: literatur-sejarah-nasional
+  type: buku
+  title_id: Literatur sejarah nasional standar (George McT Kahin, M.C. Ricklefs, dkk.) untuk peristiwa pra-Reformasi
+  citation_id: Kahin, Nationalism and Revolution in Indonesia; Ricklefs, A History of Modern Indonesia
+
+- id: komnas-ham-trisakti-semanggi
+  type: laporan-lembaga
+  title_id: Hasil penyelidikan Komnas HAM dan Tim Gabungan atas penembakan Trisakti serta Semanggi I-II
+  year: 1999
+  citation_id: Laporan Komnas HAM/Tim Gabungan Pencari Fakta 1998-1999
+
+- id: putusan-munir-2008
+  type: putusan-ma
+  title_id: Putusan kasus pembunuhan Munir Said Thalib - Pollycarpus divonis seumur hidup, mantan pejabat BIN Muchdi PR dibebaskan
+  year: 2008
+  citation_id: Putusan MA kasus Munir, 2008
+
+- id: berita-praperadilan-kpk-2009
+  type: berita
+  title_id: Praperadilan Bibit-Chandra 2009 - perang KPK vs Polri-Kejaksaan dan kemenangan praperadilan dua pimpinan KPK
+  year: 2009
+  citation_id: Kompas/Hukumonline, Oktober-November 2009
+
+- id: berita-ahok-blasfemi-2017
+  type: berita
+  title_id: Perkara blasfemi Basuki Tjahaja Purnama (Ahok), aksi 212 Desember 2016, dan vonis dua tahun Mei 2017
+  year: 2017
+  citation_id: BBC Indonesia/Kompas, Desember 2016-Mei 2017
+
+- id: berita-ektp-setnov-2018
+  type: berita
+  title_id: Kasus korupsi e-KTP - vonis Setya Novanto 15 tahun oleh Pengadilan Tipikor April 2018
+  year: 2018
+  citation_id: CNN Indonesia/KPK, April 2018
+
+- id: berita-fpi-skb-2020
+  type: berita
+  title_id: Pembubaran FPI lewat SKB enam pejabat negara Desember 2020 dan penangkapan Rizieq Shihab
+  year: 2020
+  citation_id: BBC Indonesia/CNN Indonesia, Desember 2020
+
+- id: berita-juliari-bansos-2020
+  type: berita
+  title_id: Penangkapan Menteri Sosial Juliari Batubara atas suap uang pangkal bansos COVID-19
+  year: 2020
+  citation_id: KPK/CNN Indonesia, Desember 2020
+
+- id: berita-kanjuruhan-tgipf-2022
+  type: laporan-lembaga
+  title_id: Temuan TGIPF Kanjuruhan (Keppres 19/2022) - gas air mata ke tribun, 135 tewas 583 luka, enam tersangka Pasal 103 UU Keolahragaan
+  year: 2022
+  url: https://www.cnnindonesia.com/nasional/20221028154345-20-866651/sebulan-tragedi-kanjuruhan-gas-air-mata-aparat-tewaskan-135-orang
+  citation_id: TGIPF/Laporan Komnas HAM 2 November 2022; Tempo kaleidoskop 2022
+
+- id: berita-g20-bali-2022
+  type: berita
+  title_id: Presidensi G20 Indonesia - KTT Bali 15-16 November 2022 di tengah perang Ukraina
+  year: 2022
+  citation_id: Sekretariat Kabinet/Kemlu, November 2022
+
+- id: berita-pemekaran-papua-2022
+  type: berita
+  title_id: Pemekaran tiga provinsi baru di Papua 2022 tanpa konsultasi DPRP dan kritik masyarakat sipil
+  year: 2022
+  citation_id: BBC Indonesia/Tempo, Juli-September 2022
+
+- id: berita-brics-ri-2025
+  type: berita
+  title_id: Indonesia resmi anggota penuh BRICS diumumkan Brasil 6 Januari 2025 - negara Asia Tenggara pertama
+  year: 2025
+  url: https://www.kompas.com/tren/read/2025/01/08/123000965/daftar-anggota-brics-2025-usai-indonesia-resmi-bergabung
+  citation_id: Kompas/DDTCNews/Siaran pers pemerintah Brasil, 6 Januari 2025
