@@ -11,7 +11,7 @@ export default function LembagaIndex() {
       <p className="mt-2 text-sm text-[var(--muted)]">
         Tiga cabang kekuasaan dinilai dengan rubrik yang sama.
       </p>
-      <div className="mt-8 grid gap-4 sm:grid-cols-3">
+      <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {institutions.map((inst) => {
           const terms = dataset.terms.filter(
             (t) => t.institution_id === inst.id

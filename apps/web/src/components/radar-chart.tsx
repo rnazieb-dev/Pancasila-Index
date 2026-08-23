@@ -32,12 +32,21 @@ export function RadarChart({ labels, values, size = 320 }: RadarProps) {
   const dataPath =
     defined.length >= 3 ? dataPoints.map((p) => p.join(",")).join(" ") : "";
 
-  const avg = values.length
-    ? values.reduce((a, b) => a + b, 0) / values.length
-    : 0;
+  const nums = values.filter((v): v is number => typeof v === "number");
+  const avg = nums.length ? nums.reduce((a, b) => a + b, 0) / nums.length : null;
 
   const stroke =
-    avg <= -1 ? "#ef4444" : avg < 0 ? "#fb923c" : avg === 0 ? "#94a3b8" : avg <= 1 ? "#a3e635" : "#22c55e";
+    avg === null
+      ? "#334155"
+      : avg <= -1
+        ? "#ef4444"
+        : avg < 0
+          ? "#fb923c"
+          : avg === 0
+            ? "#94a3b8"
+            : avg <= 1
+              ? "#a3e635"
+              : "#22c55e";
 
   return (
     <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} role="img" aria-label="Radar lima sila">

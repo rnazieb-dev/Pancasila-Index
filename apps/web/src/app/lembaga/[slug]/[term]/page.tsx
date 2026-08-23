@@ -98,6 +98,7 @@ export default async function TermPage({
             {indexLabel(summary?.index ?? null)}
           </div>
         </div>
+        <div className="text-[11px] text-[var(--muted)]">skala 0–100 · 50 = netral</div>
         <div className="text-xs text-[var(--muted)] leading-relaxed">
           cakupan {Math.round((summary?.coverage ?? 0) * 100)}% dari{" "}
           {summary?.total_dimensions ?? 0} dimensi rubrik v{summary?.rubric_version ?? "?"}
@@ -109,7 +110,15 @@ export default async function TermPage({
       {/* Radar lima sila */}
       <section className="mt-10 grid md:grid-cols-[320px_1fr] gap-8 items-center">
         <div className="justify-self-center">
-          <RadarChart labels={silaLabels} values={silaValues} />
+          {silaValues.some((v) => typeof v === "number") ? (
+            <RadarChart labels={silaLabels} values={silaValues} />
+          ) : (
+            <div className="w-[320px] h-[320px] rounded-xl border border-dashed border-[var(--line)] flex items-center justify-center p-6 text-center text-xs text-[var(--muted)] leading-relaxed">
+              Radar lima sila akan tampil setelah dimensi sila dinilai.
+              <br />
+              Penilaian periode ini baru menyentuh tujuan bernegara dan norma struktural.
+            </div>
+          )}
         </div>
         <div>
           <h2 className="text-lg font-semibold">Skor per grup</h2>
