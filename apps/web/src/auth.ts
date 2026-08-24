@@ -1,25 +1,113 @@
 import NextAuth from "next-auth";
 import GitHub from "next-auth/providers/github";
 
+import { db } from "@/lib/db";
+
 /**
- * Auth.js v5 — provider GitHub aktif hanya bila env tersedia.
- * Tanpa env, mode kurasi lokal dapat dinyalakan dengan CURATION_DEV=1
- * (khusus pengembangan; jangan pernah dipakai produksi).
+ * Auth.js v5 + Prisma.
+ *
+ * - Sesi memakai JWT (tanpa tabel session) agar cepat; identitas & peran
+ *   disimpan di token.
+ * - Peran ditetapkan saat login pertama:
+ *     · pengguna pertama            -> ADMIN
+ *     · ada di CURATOR_GITHUB_LOGINS -> KURATOR
+ *     · selainnya                   -> KONTRIBUTOR
+ * - Setiap login tercatat di AuditLog.
  */
-const githubConfigured = Boolean(process.env.GITHUB_ID && process.env.GITHUB_SECRET);
+
+const githubConfigured = Boolean(
+  process.env.GITHUB_ID && process.env.GITHUB_SECRET
+);
+
+const curatorLogins = new Set(
+  (process.env.CURATOR_GITHUB_LOGINS ?? "")
+    .split(",")
+    .map((s) => s.trim().toLowerCase())
+    .filter(Boolean)
+);
 
 function authConfig() {
-  if (githubConfigured) {
-    return {
-      secret: process.env.AUTH_SECRET ?? "dev-secret-pancasila-index",
-      providers: [GitHub],
-      trustHost: true,
-    };
-  }
-  return {
+  const base = {
     secret: process.env.AUTH_SECRET ?? "dev-secret-pancasila-index",
-    providers: [],
     trustHost: true,
+  };
+  if (!githubConfigured) return { ...base, providers: [] };
+
+  return {
+    ...base,
+    providers: [GitHub],
+    callbacks: {
+      async jwt({
+        token,
+        user,
+        profile,
+      }: {
+        token: Record<string, unknown> & {
+          uid?: string;
+          role?: "ADMIN" | "KURATOR" | "KONTRIBUTOR";
+        };
+        user?: { name?: string | null; email?: string | null; image?: string | null };
+        profile?: { id?: number | string; login?: string };
+      }) {
+        if (user && profile) {
+          const githubId = String(profile.id ?? "");
+          const login = String(profile.login ?? user.email ?? "").toLowerCase();
+
+          const existing = await db.user.findUnique({ where: { githubId } });
+
+          let role: "ADMIN" | "KURATOR" | "KONTRIBUTOR" = "KONTRIBUTOR";
+          if (!existing) {
+            const totalUsers = await db.user.count();
+            role =
+              totalUsers === 0
+                ? "ADMIN"
+                : curatorLogins.has(login)
+                  ? "KURATOR"
+                  : "KONTRIBUTOR";
+          }
+
+          const data = {
+            name: user.name,
+            image: user.image,
+            email: user.email,
+          };
+          const dbUser = existing
+            ? await db.user.update({ where: { id: existing.id }, data })
+            : await db.user.create({ data: { githubId, role, ...data } });
+
+          await db.auditLog.create({
+            data: {
+              actorId: dbUser.id,
+              action: "auth.signin",
+              entity: "User",
+              entityId: dbUser.id,
+              meta: JSON.stringify({ login }),
+            },
+          });
+
+          token.uid = dbUser.id;
+          token.role = dbUser.role;
+        }
+        return token;
+      },
+      session({
+        session,
+        token,
+      }: {
+        session: { user: Record<string, unknown> };
+        token: { uid?: string; role?: string };
+      }) {
+        if (session.user) {
+          session.user.id = token.uid;
+          session.user.role = token.role as
+            | "ADMIN"
+            | "KURATOR"
+            | "KONTRIBUTOR"
+            | undefined;
+        }
+        return session;
+      },
+    },
   };
 }
 

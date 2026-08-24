@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-import { auth } from "@/auth";
 import { dataset } from "@pancasila-index/data";
+import { getCurrentUser, hasRole } from "@/lib/authz";
 import { KurasiActions } from "@/components/kurasi-actions";
 
 export const dynamic = "force-dynamic";
@@ -9,10 +9,9 @@ export const dynamic = "force-dynamic";
 export const metadata = { title: "Kurasi — Pancasila Index" };
 
 export default async function KurasiPage() {
-  const session = await auth();
-  const devMode = process.env.CURATION_DEV === "1";
+  const user = await getCurrentUser();
 
-  if (!session?.user && !devMode) {
+  if (!hasRole(user, "KONTRIBUTOR")) {
     return (
       <div className="mx-auto max-w-xl px-4 py-20 text-center">
         <h1 className="text-2xl font-bold">Area kurasi</h1>
@@ -73,7 +72,7 @@ export default async function KurasiPage() {
               >
                 tinjau →
               </Link>
-              <KurasiActions assessmentId={a.id} />
+              {hasRole(user, "KURATOR") && <KurasiActions assessmentId={a.id} />}
             </div>
           );
         })}

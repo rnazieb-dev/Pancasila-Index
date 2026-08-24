@@ -1,0 +1,78 @@
+// Pancasila Index — lapisan dinamis (akun, review, komentar, audit).
+// Kanonik untuk PENILAIAN tetap YAML di git; tabel di sini hanya overlay
+// interaktif. SQLite untuk lokal; ganti provider ke "postgresql" + url
+// saat naik ke server tanpa mengubah model.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  KURATOR
+  KONTRIBUTOR
+  PEMBACA
+}
+
+enum Decision {
+  APPROVED
+  REJECTED
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String?  @unique
+  name      String?
+  image     String?
+  githubId  String?  @unique
+  role      Role     @default(KONTRIBUTOR)
+  createdAt DateTime @default(now())
+  reviews   Review[]
+  comments  Comment[]
+  audits    AuditLog[]
+}
+
+/// Satu baris per keputusan kurasi; keputusan TERAKHIR per assessmentId
+/// yang menang. Diecermin ke generated/review-state.json oleh API
+/// (write-through) agar build dataset tetap berjalan tanpa database.
+model Review {
+  id           String    @id @default(cuid())
+  assessmentId String
+  decision     Decision
+  note         String?
+  reviewer     User?     @relation(fields: [reviewerId], references: [id])
+  reviewerId   String?
+  reviewerName String // snapshot nama saat memutuskan
+  createdAt    DateTime  @default(now())
+
+  @@index([assessmentId, createdAt])
+}
+
+model Comment {
+  id           String   @id @default(cuid())
+  assessmentId String
+  body         String
+  author       User     @relation(fields: [authorId], references: [id])
+  authorId     String
+  createdAt    DateTime @default(now())
+
+  @@index([assessmentId])
+}
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  actor     User?    @relation(fields: [actorId], references: [id])
+  actorId   String?
+  action    String // contoh: "review.create", "auth.signin", "role.grant"
+  entity    String // contoh: "Review", "User"
+  entityId  String?
+  meta      String?
+  createdAt DateTime @default(now())
+
+  @@index([entity, entityId])
+}

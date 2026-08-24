@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "db:push": "prisma db push",
+    "db:generate": "prisma generate"
   },
   "dependencies": {
     "@pancasila-index/core": "workspace:*",
@@ -15,7 +17,8 @@
     "next": "^15.1.6",
     "next-auth": "5.0.0-beta.32",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "@prisma/client": "^6.2.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.9",
@@ -23,6 +26,10 @@
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "tailwindcss": "^4.0.9",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "prisma": "^6.2.1"
+  },
+  "prisma": {
+    "schema": "prisma/schema.prisma"
   }
 }
