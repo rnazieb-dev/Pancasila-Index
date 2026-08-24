@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "goal-mode",
+  "instructions": ["AGENTS.md"],
+  "compaction": { "auto": true, "tail_turns": 12 },
+  "permission": "allow",
+  "agent": {
+    "goal-mode": {
+      "$schema": "https://opencode.ai/config.json",
+      "mode": "primary",
+      "description": "Mode otonom 24 jam: mengeksekusi roadmap Pancasila Index tanpa bertanya, dengan disiplin verifikasi."
+    }
+  },
+  "command": {
+    "goal": {
+      "description": "Mulai sesi kerja otonom menuju target fase tertentu",
+      "agent": "goal-mode",
+      "template": "Baca AGENTS.md dan ROADMAP di dalamnya. Eksekusikan fase/target berikut secara berurutan sampai selesai atau benar-benar terhalang hal yang hanya bisa diputuskan manusia:\n\n$ARGUMENTS\n\nAturan main ada di prompt agen goal-mode."
+    }
+  }
+}
