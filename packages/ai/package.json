@@ -7,14 +7,19 @@
   "main": "./src/heuristic.ts",
   "scripts": {
     "suggest": "tsx scripts/suggest.mts",
-    "import": "tsx scripts/import.mts"
+    "corpus-suggest": "tsx scripts/corpus-suggest.mts",
+    "import": "tsx scripts/import.mts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@pancasila-index/core": "workspace:*",
     "yaml": "^2.6.1"
   },
   "devDependencies": {
+    "@types/node": "^22.20.1",
     "tsx": "^4.19.2",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.9"
   }
 }

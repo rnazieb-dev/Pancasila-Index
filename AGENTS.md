@@ -84,10 +84,13 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
       PDF tervalidasi magic bytes + index.jsonl + manifest kurasi dari
       sources.yaml). Portal BPK & putusan MK/MA diblokir Cloudflare/
       jaringan dari mesin dev ini — menyusul bila ada akses.
-- [ ] **Fase 6b: LLM suggest v2 berbasis korpus; +250 peristiwa
-      terverifikasi. Catatan arsitektur: evaluasi orkestrasi LangGraph
-      (master) + Mastra (sub-agent RAG/workflow) — usulan klien — tanpa
-      mengubah keputusan terkunci lain** ← BERIKUTNYA
+- [ ] **Fase 6b: suggest v2 berbasis korpus; target +250 peristiwa**
+      🚧 tahap 1 ✅ (commit ini): generator `corpus.ts` deterministik dari
+      metadata JDIH (tanpa LLM berbayar), warisan-topik amendemen,
+      validator import kini membaca dimensi via rubricSchema; +8 peristiwa
+      & +8 sumber primer → 161 total. Evaluasi LangGraph+Mastra (usulan
+      klien) terdokumentasi di docs/ai-pipeline.md — adopsi bertahap,
+      bukan prasyarat. Lanjutan: batch bertema era × dimensi. ← BERIKUTNYA
 - [ ] Fase 7: lembaga MPR, DPD, BPK, KY lengkap (term/peristiwa/assessment)
 - [ ] Fase 8: pencarian teks; Bandingkan era/institusi (radar overlay);
       ekspor CSV/PDF; halaman aktor

@@ -18,12 +18,16 @@
  *   pnpm --filter @pancasila-index/ai import --file batch.json            # pratinjau ke stdout
  *   pnpm --filter @pancasila-index/ai import --file b.json --append       # tambah ke events.yaml
  */
-import { readFileSync, appendFileSync } from "node:fs";
+import { readFileSync, appendFileSync, readdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
 
-import { stringify } from "yaml";
+import { parse, stringify } from "yaml";
+
+import {
+  rubricSchema,
+} from "@pancasila-index/core";
 
 import {
   eventSchema,
@@ -68,6 +72,14 @@ const existingTermIds = new Set(
     )
   )
 );
+
+/** Dimensi resmi dibaca langsung dari rubrik aktif agar tidak telat lagi. */
+const rubricText = readFileSync(
+  join(DATA, "rubric", readdirSync(join(DATA, "rubric")).filter((f) => f.endsWith(".yaml")).sort().at(-1)!),
+  "utf8"
+);
+const rubric = rubricSchema.parse(parse(rubricText));
+const knownDimensionIds = new Set(rubric.dimensions.map((d) => d.id));
 
 const errors: string[] = [];
 const validSources: unknown[] = [];
@@ -115,8 +127,7 @@ for (const [i, e] of (raw.events ?? []).entries()) {
     continue;
   }
   const badDim = ((ev.dimension_ids as string[]) ?? []).filter(
-    (d) => !d.startsWith("sila-") && !d.startsWith("tujuan-") &&
-      !["negara-hukum", "checks-balances", "kedaulatan-rakyat"].includes(d)
+    (d) => !knownDimensionIds.has(d)
   );
   if (badDim.length > 0 && !args.values["skip-invalid"]) {
     errors.push(`events[${i}] (${ev.id}): dimensi tak dikenal: ${badDim.join(", ")}`);
