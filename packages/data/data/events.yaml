@@ -2244,3 +2244,115 @@
     - berita-oecd-indonesia-2024
   dimension_ids:
     - tujuan-4
+
+
+- id: ev-uu-17-2011
+  term_id: presiden-sby-ii
+  date: 2011-11-07
+  category: produk-hukum
+  title_id: "Undang-Undang No. 17 Tahun 2011: Intelijen Negara"
+  summary_id: Undang-Undang Nomor 17 Tahun 2011 tentang Intelijen Negara tercatat
+    ditetapkan/diundangkan 7 November 2011 dengan status "Disahkan". Metadata
+    resmi dihimpun langsung dari JDIH Kementerian Sekretariat Negara (tautan
+    sumber terlampir); berkas PDF asli tersimpan di korpus data/raw.
+  source_ids:
+    - uu-17-2011
+  dimension_ids:
+    - checks-balances
+- id: ev-uu-37-1999
+  term_id: presiden-habibie
+  date: 1999-09-14
+  category: produk-hukum
+  title_id: "Undang-Undang No. 37 Tahun 1999: Hubungan Luar Negeri"
+  summary_id: Undang-Undang Nomor 37 Tahun 1999 tentang Hubungan Luar Negeri
+    tercatat ditetapkan/diundangkan 14 September 1999 dengan status "Disahkan".
+    Metadata resmi dihimpun langsung dari JDIH Kementerian Sekretariat Negara
+    (tautan sumber terlampir); berkas PDF asli tersimpan di korpus data/raw.
+  source_ids:
+    - uu-37-1999
+  dimension_ids:
+    - tujuan-4
+
+- id: ev-perpu-2-2022
+  term_id: presiden-jokowi-ii
+  date: 2022-12-30
+  category: produk-hukum
+  title_id: "Peraturan Pemerintah Pengganti Undang-Undang No. 2 Tahun 2022: Cipta Kerja"
+  summary_id: Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022
+    tentang Cipta Kerja tercatat ditetapkan/diundangkan 30 Desember 2022 dengan
+    status "Disahkan". Metadata resmi dihimpun langsung dari JDIH Kementerian
+    Sekretariat Negara (tautan sumber terlampir); berkas PDF asli tersimpan di
+    korpus data/raw.
+  source_ids:
+    - perpu-2-2022
+  dimension_ids:
+    - sila-5
+- id: ev-uu-17-2003
+  term_id: presiden-megawati
+  date: 2003-04-05
+  category: produk-hukum
+  title_id: "Undang-Undang No. 17 Tahun 2003: Keuangan Negara"
+  summary_id: Undang-Undang Nomor 17 Tahun 2003 tentang Keuangan Negara tercatat
+    ditetapkan/diundangkan 5 April 2003 dengan status "Disahkan". Metadata resmi
+    dihimpun langsung dari JDIH Kementerian Sekretariat Negara (tautan sumber
+    terlampir); berkas PDF asli tersimpan di korpus data/raw.
+  source_ids:
+    - uu-17-2003
+  dimension_ids:
+    - checks-balances
+- id: ev-uu-20-2001
+  term_id: presiden-megawati
+  date: 2001-11-21
+  category: produk-hukum
+  title_id: "Undang-Undang No. 20 Tahun 2001: Perubahan atas Uu Nomor 31 Tahun
+    1999 tentang Pemberantasan Tindak Pidana Korupsi"
+  summary_id: Undang-Undang Nomor 20 Tahun 2001 tentang Perubahan atas Uu Nomor 31
+    Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi tercatat
+    ditetapkan/diundangkan 21 November 2001 dengan status "Disahkan". Metadata
+    resmi dihimpun langsung dari JDIH Kementerian Sekretariat Negara (tautan
+    sumber terlampir); berkas PDF asli tersimpan di korpus data/raw.
+  source_ids:
+    - uu-20-2001
+  dimension_ids:
+    - negara-hukum
+- id: ev-uu-28-1999
+  term_id: presiden-habibie
+  date: 1999-05-19
+  category: produk-hukum
+  title_id: "Undang-Undang No. 28 Tahun 1999: Penyelenggaraan Negara Yang Bersih
+    dan Bebas dari Korupsi, Kolusi dan Nepotisme"
+  summary_id: Undang-Undang Nomor 28 Tahun 1999 tentang Penyelenggaraan Negara
+    Yang Bersih dan Bebas dari Korupsi, Kolusi dan Nepotisme tercatat
+    ditetapkan/diundangkan 19 Mei 1999 dengan status "Disahkan". Metadata resmi
+    dihimpun langsung dari JDIH Kementerian Sekretariat Negara (tautan sumber
+    terlampir); berkas PDF asli tersimpan di korpus data/raw.
+  source_ids:
+    - uu-28-1999
+  dimension_ids:
+    - negara-hukum
+- id: ev-uu-30-2014
+  term_id: presiden-sby-ii
+  date: 2014-10-17
+  category: produk-hukum
+  title_id: "Undang-Undang No. 30 Tahun 2014: Administrasi Pemerintahan"
+  summary_id: Undang-Undang Nomor 30 Tahun 2014 tentang Administrasi Pemerintahan
+    tercatat ditetapkan/diundangkan 17 Oktober 2014 dengan status "Disahkan".
+    Metadata resmi dihimpun langsung dari JDIH Kementerian Sekretariat Negara
+    (tautan sumber terlampir); berkas PDF asli tersimpan di korpus data/raw.
+  source_ids:
+    - uu-30-2014
+  dimension_ids:
+    - checks-balances
+- id: ev-uu-5-2014
+  term_id: presiden-sby-ii
+  date: 2014-01-15
+  category: produk-hukum
+  title_id: "Undang-Undang No. 5 Tahun 2014: Aparatur Sipil Negara"
+  summary_id: Undang-Undang Nomor 5 Tahun 2014 tentang Aparatur Sipil Negara
+    tercatat ditetapkan/diundangkan 15 Januari 2014 dengan status "Disahkan".
+    Metadata resmi dihimpun langsung dari JDIH Kementerian Sekretariat Negara
+    (tautan sumber terlampir); berkas PDF asli tersimpan di korpus data/raw.
+  source_ids:
+    - uu-5-2014
+  dimension_ids:
+    - checks-balances

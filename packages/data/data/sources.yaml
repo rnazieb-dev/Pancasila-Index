@@ -723,3 +723,56 @@
   title_id: Indonesia memulai proses aksesi keanggotaan OECD
   year: 2024
   citation_id: OECD/Kemlu, September 2024
+
+- id: perpu-2-2022
+  type: perppu
+  title_id: Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022
+    tentang Cipta Kerja
+  year: 2022
+  url: https://jdih.setneg.go.id/detailperaturan?jns=PERPU&no=2&thn=2022
+  citation_id: jdih-setneg:P19577
+- id: uu-17-2003
+  type: undang-undang
+  title_id: Undang-Undang Nomor 17 Tahun 2003 tentang Keuangan Negara
+  year: 2003
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=17&thn=2003
+  citation_id: jdih-setneg:P01196
+- id: uu-20-2001
+  type: undang-undang
+  title_id: Undang-Undang Nomor 20 Tahun 2001 tentang Perubahan atas Uu Nomor 31
+    Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi
+  year: 2001
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2001
+  citation_id: jdih-setneg:P01145
+- id: uu-28-1999
+  type: undang-undang
+  title_id: Undang-Undang Nomor 28 Tahun 1999 tentang Penyelenggaraan Negara Yang
+    Bersih dan Bebas dari Korupsi, Kolusi dan Nepotisme
+  year: 1999
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=28&thn=1999
+  citation_id: jdih-setneg:P01059
+- id: uu-30-2014
+  type: undang-undang
+  title_id: Undang-Undang Nomor 30 Tahun 2014 tentang Administrasi Pemerintahan
+  year: 2014
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2014
+  citation_id: jdih-setneg:P14728
+- id: uu-5-2014
+  type: undang-undang
+  title_id: Undang-Undang Nomor 5 Tahun 2014 tentang Aparatur Sipil Negara
+  year: 2014
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=5&thn=2014
+  citation_id: jdih-setneg:P14819
+
+- id: uu-17-2011
+  type: undang-undang
+  title_id: Undang-Undang Nomor 17 Tahun 2011 tentang Intelijen Negara
+  year: 2011
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=17&thn=2011
+  citation_id: jdih-setneg:P14617
+- id: uu-37-1999
+  type: undang-undang
+  title_id: Undang-Undang Nomor 37 Tahun 1999 tentang Hubungan Luar Negeri
+  year: 1999
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=37&thn=1999
+  citation_id: jdih-setneg:P01068
