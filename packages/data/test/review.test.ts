@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import type { Assessment } from "@pancasila-index/core";
-import { applyReviews } from "../src/review";
+import { applyReviews, MIN_APPROVERS } from "../src/review";
 
 const mkDraft = (
   id: string,
@@ -27,26 +27,48 @@ const mkDraft = (
   ...overrides,
 });
 
+const appr = (id: string, reviewer: string, at = "2026-08-23") => ({
+  assessment_id: id,
+  decision: "approved" as const,
+  reviewer,
+  at,
+});
+
 describe("applyReviews", () => {
-  it("approved mempromosikan draf menjadi published", () => {
+  it("satu approval -> tetap draft, masuk pending (butuh telaah kedua)", () => {
     const out = applyReviews(
       [mkDraft("a-1"), mkDraft("a-2")],
-      [
-        {
-          assessment_id: "a-1",
-          decision: "approved",
-          reviewer: "Kurator A",
-          at: "2026-08-23",
-        },
-      ]
+      [appr("a-1", "Kurator A")]
     );
-    expect(out.publishedIds).toEqual(["a-1"]);
-    expect(out.rejectedIds).toEqual([]);
+    expect(out.pendingIds).toEqual(["a-1"]);
+    expect(out.publishedIds).toEqual([]);
     const a1 = out.assessments.find((x) => x.id === "a-1");
-    expect(a1?.status).toBe("published");
-    expect(a1?.human_confirmed).toBe(true);
-    // a-2 tanpa keputusan tetap draf
+    expect(a1?.status).toBe("draft");
+    expect(a1?.human_confirmed).toBe(false);
+    // kurator pertama tercatat pada jejak reviewer
+    expect(a1?.reviewers).toContain("Kurator A");
     expect(out.assessments.find((x) => x.id === "a-2")?.status).toBe("draft");
+  });
+
+  it(`dua approver berbeda-nama memenuhi kuorum ${MIN_APPROVERS} -> published`, () => {
+    const out = applyReviews([mkDraft("a-1")], [
+      appr("a-1", "Kurator A"),
+      appr("a-1", "Kurator B", "2026-08-24"),
+    ]);
+    expect(out.publishedIds).toEqual(["a-1"]);
+    const a1 = out.assessments[0]!;
+    expect(a1.status).toBe("published");
+    expect(a1.human_confirmed).toBe(true);
+    expect(new Set(a1.reviewers)).toEqual(new Set(["Pipeline AI", "Kurator A", "Kurator B"]));
+  });
+
+  it("dua approval dari orang yang sama TIDAK memenuhi kuorum", () => {
+    const out = applyReviews([mkDraft("a-1")], [
+      appr("a-1", "Kurator A"),
+      appr("a-1", "Kurator A", "2026-08-24"),
+    ]);
+    expect(out.pendingIds).toEqual(["a-1"]);
+    expect(out.publishedIds).toEqual([]);
   });
 
   it("rejected mengeluarkan penilaian dari dataset", () => {
@@ -63,14 +85,9 @@ describe("applyReviews", () => {
     expect(out.assessments).toHaveLength(0);
   });
 
-  it("keputusan terakhir menang", () => {
+  it("keputusan terakhir menang: approve lalu reject -> ditolak", () => {
     const out = applyReviews([mkDraft("a-1")], [
-      {
-        assessment_id: "a-1",
-        decision: "approved",
-        reviewer: "Kurator A",
-        at: "2026-08-23",
-      },
+      appr("a-1", "Kurator A"),
       {
         assessment_id: "a-1",
         decision: "rejected",
@@ -82,21 +99,19 @@ describe("applyReviews", () => {
     expect(out.publishedIds).toEqual([]);
   });
 
-  it("penilaian sudah published tetap published saat di-approved ulang", () => {
-    const already = mkDraft("a-9", {
-      status: "published",
-      human_confirmed: true,
-      reviewers: ["Kurator Asli"],
-    });
-    const out = applyReviews([already], [
+  it("keputusan terakhir menang: dua approve menimpa reject awal -> published", () => {
+    const out = applyReviews([mkDraft("a-1")], [
       {
-        assessment_id: "a-9",
-        decision: "approved",
-        reviewer: "Kurator Kedua",
-        at: "2026-08-25",
+        assessment_id: "a-1",
+        decision: "rejected",
+        reviewer: "Kurator C",
+        note_id: "perlu revisi",
+        at: "2026-08-20",
       },
+      appr("a-1", "Kurator A", "2026-08-23"),
+      appr("a-1", "Kurator B", "2026-08-24"),
     ]);
-    expect(out.publishedIds).toContain("a-9");
-    expect(out.assessments[0]?.reviewers).toContain("Kurator Kedua");
+    expect(out.publishedIds).toContain("a-1");
+    expect(out.rejectedIds).toEqual([]);
   });
 });

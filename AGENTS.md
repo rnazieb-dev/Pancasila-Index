@@ -66,16 +66,20 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
       MA masuk, BOP dikoreksi via search, +20 peristiwa terlewat,
       gelombang dimensi tipis (+14), dogfood import (+11)
 - [x] Fase 5a: Prisma overlay + RBAC + auth GitHub penuh + backfill
-- [ ] **Fase 5b: Kurasi tuntas** ← BERIKUTNYA
-  - [ ] Aturan reviewer-kedua otomatis (publish butuh ≥2 approver beda nama;
-        ubah applyReviews di packages/core + test)
-  - [ ] Halaman detail kurasi `/kurasi/[id]`: tabel dimensi (rubrik vs
-        rationale vs bukti) + tombol putusan
-  - [ ] Antrean /kurasi berprioritas (cakupan naik, era terbaru dulu) +
-        filter tab draft/published
-  - [ ] Halaman log aktivitas publik `/kurasi/log` (AuditLog terakhir 100)
-  - [ ] Webhook opsional `KURASI_WEBHOOK_URL` pada tiap keputusan
-- [ ] Fase 6a: scraper JDIH + MKRI → data/raw/ (≥50 dokumen)
+- [x] **Fase 5b: Kurasi tuntas** ✅
+  - [x] Aturan reviewer-kedua otomatis (publish butuh ≥2 approver beda nama;
+        `MIN_APPROVERS` di applyReviews + pendingIds + test; mirror file hanya
+        untuk keputusan final)
+  - [x] Halaman detail kurasi `/kurasi/[id]`: status kuorum, riwayat
+        keputusan, tabel dimensi (rubrik vs rationale vs bukti tertaut),
+        tombol putusan sadar-kuorum
+  - [x] Antrean /kurasi berprioritas (cakupan terendah dulu, era terbaru)
+        + tab draf/published/semua
+  - [x] Halaman log aktivitas publik `/kurasi/log` (AuditLog terakhir 100,
+        tanpa login, empty-state bila DB kosong)
+  - [x] Webhook opsional `KURASI_WEBHOOK_URL` POST JSON tiap keputusan
+        (diverifikasi hidup: approve→pending_second→published→rejected)
+- [ ] **Fase 6a: scraper JDIH + MKRI → data/raw/ (≥50 dokumen)** ← BERIKUTNYA
 - [ ] Fase 6b: LLM suggest v2 berbasis korpus; +250 peristiwa terverifikasi
 - [ ] Fase 7: lembaga MPR, DPD, BPK, KY lengkap (term/peristiwa/assessment)
 - [ ] Fase 8: pencarian teks; Bandingkan era/institusi (radar overlay);

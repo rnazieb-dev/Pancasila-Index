@@ -5,60 +5,86 @@ import path from "node:path";
 
 import { db } from "@/lib/db";
 import { audit, getCurrentUser, hasRole } from "@/lib/authz";
-import { dataset } from "@pancasila-index/data";
+import {
+  applyReviews,
+  dataset,
+  type ReviewEntry,
+} from "@pancasila-index/data";
 
 /**
  * POST /api/kurasi — catat keputusan kurasi (approved/rejected).
  *
- * Fase 5a: keputusan ditulis ke Postgres/SQLite (Review) lalu
- * di-mirror write-through ke generated/review-state.json agar
- * build dataset tetap berjalan tanpa database. Jejak audit ganda:
- * baris DB + file yang dikomit.
+ * Fase 5b:
+ *  - Setiap keputusan = baris Review baru (riwayat penuh di DB).
+ *  - Status akhir mengikuti aturan kuorum applyReviews: publish butuh
+ *    >=2 approver berbeda-nama dan keputusan terakhir approved.
+ *  - Mirror write-through ke generated/review-state.json HANYA untuk
+ *    penilaian yang benar-benar final (published/rejected); yang
+ *    pending telaah kedua sengaja tidak ditulis agar build tetap draft.
  *
- * Otorisasi: peran KURATOR/ADMIN, atau CURATION_DEV=1 (dev lokal).
+ * Otorisasi: KURATOR/ADMIN, atau CURATION_DEV=1 (dev lokal).
  */
 const REVIEW_FILE = path.resolve(
   process.cwd(),
   "../../packages/data/generated/review-state.json"
 );
 
-interface ReviewFileShape {
-  reviews: Array<{
-    assessment_id: string;
-    decision: "approved" | "rejected";
-    reviewer: string;
-    note_id?: string;
-    at: string;
-  }>;
-}
-
-/** Regenerasi review-state.json dari keputusan terakhir tiap assessment. */
-async function syncReviewFile(): Promise<number> {
-  const all = await db.review.findMany({
-    orderBy: { createdAt: "asc" },
-    select: {
-      assessmentId: true,
-      decision: true,
-      reviewerName: true,
-      note: true,
-      createdAt: true,
-    },
-  });
-
-  const latest = new Map<string, (typeof all)[number]>();
-  for (const r of all) latest.set(r.assessmentId, r);
-
-  const reviews = [...latest.values()].map((r) => ({
+/** Ambil seluruh keputusan dari DB dalam bentuk ReviewEntry. */
+async function loadEntries(): Promise<ReviewEntry[]> {
+  const rows = await db.review.findMany({ orderBy: { createdAt: "asc" } });
+  return rows.map((r) => ({
     assessment_id: r.assessmentId,
     decision: r.decision === "APPROVED" ? ("approved" as const) : ("rejected" as const),
     reviewer: r.reviewerName,
     at: r.createdAt.toISOString().slice(0, 10),
     ...(r.note ? { note_id: r.note } : {}),
   }));
+}
+
+/** Status satu penilaian menurut kuorum (murni, dipakai POST & GET). */
+function statusOf(
+  outcome: ReturnType<typeof applyReviews>,
+  assessmentId: string
+): "published" | "rejected" | "pending_second" | "untouched" {
+  if (outcome.publishedIds.includes(assessmentId)) return "published";
+  if (outcome.rejectedIds.includes(assessmentId)) return "rejected";
+  if (outcome.pendingIds.includes(assessmentId)) return "pending_second";
+  return "untouched";
+}
+
+/**
+ * Hitung outcome atas seluruh penilaian dan tulis hanya yang final ke file.
+ * Mengembalikan status untuk satu assessment yang diminta.
+ */
+async function mirrorAndStatus(assessmentId: string) {
+  const entries = await loadEntries();
+  const outcome = applyReviews(dataset.assessments, entries);
+
+  const lastOf = (id: string) =>
+    entries.filter((e) => e.assessment_id === id).at(-1)!;
+  const finals = [...outcome.publishedIds, ...outcome.rejectedIds].map(lastOf);
+  const reviews = finals.map((e) => ({
+    assessment_id: e.assessment_id,
+    decision: e.decision === "approved" ? ("approved" as const) : ("rejected" as const),
+    reviewer: e.reviewer,
+    at: e.at,
+    ...(e.note_id ? { note_id: e.note_id } : {}),
+  }));
 
   await fs.mkdir(path.dirname(REVIEW_FILE), { recursive: true });
   await fs.writeFile(REVIEW_FILE, JSON.stringify({ reviews }, null, 2) + "\n");
-  return reviews.length;
+
+  return { status: statusOf(outcome, assessmentId), total: reviews.length };
+}
+
+function fireWebhook(payload: Record<string, unknown>): void {
+  const url = process.env.KURASI_WEBHOOK_URL;
+  if (!url) return;
+  void fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  }).catch(() => {});
 }
 
 export async function POST(req: Request) {
@@ -87,7 +113,8 @@ export async function POST(req: Request) {
       { status: 400 }
     );
   }
-  if (!dataset.assessments.some((a) => a.id === assessmentId)) {
+  const target = dataset.assessments.find((a) => a.id === assessmentId);
+  if (!target) {
     return NextResponse.json(
       { error: `assessment "${assessmentId}" tidak dikenal` },
       { status: 404 }
@@ -115,17 +142,33 @@ export async function POST(req: Request) {
     note: body.note,
   });
 
-  const total = await syncReviewFile();
+  const { status, total } = await mirrorAndStatus(assessmentId);
   revalidatePath("/kurasi");
+  revalidatePath(`/kurasi/${assessmentId}`);
+
+  const payload = {
+    assessmentId,
+    decision,
+    reviewer: user!.name ?? "tanpa-nama",
+    note: body.note ?? null,
+    status,
+    term: target.term_id,
+  };
+  fireWebhook(payload);
 
   return NextResponse.json({
     ok: true,
     total,
-    hint: "Jalankan `pnpm build:data` untuk menerapkan keputusan ke dataset.",
+    status,
+    ...(status === "pending_second"
+      ? {
+          hint: `Tercatat. Menunggu telaah kedua — publikasi butuh ${2} approver berbeda nama.`,
+        }
+      : {}),
   });
 }
 
-/** GET /api/kurasi — ringkasan antrean untuk dashboard (dipakai klien). */
+/** GET /api/kurasi — ringkasan antrean untuk dashboard. */
 export async function GET() {
   const user = await getCurrentUser();
   if (!hasRole(user, "KONTRIBUTOR")) {
@@ -134,6 +177,10 @@ export async function GET() {
   const counts = {
     draft: dataset.assessments.filter((a) => a.status === "draft").length,
     published: dataset.assessments.filter((a) => a.status === "published").length,
+    // hidup dari DB (bukan hasil build terakhir): sudah approve 1 orang,
+    // menunggu telaah kedua sesuai kuorum fase 5b.
+    pending_second: applyReviews(dataset.assessments, await loadEntries())
+      .pendingIds.length,
   };
   return NextResponse.json({ counts });
 }

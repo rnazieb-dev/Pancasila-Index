@@ -2,15 +2,25 @@ import Link from "next/link";
 
 import { dataset } from "@pancasila-index/data";
 import { getCurrentUser, hasRole } from "@/lib/authz";
-import { KurasiActions } from "@/components/kurasi-actions";
 
 export const dynamic = "force-dynamic";
 
 export const metadata = { title: "Kurasi — Pancasila Index" };
 
-export default async function KurasiPage() {
-  const user = await getCurrentUser();
+const TABS = [
+  { key: "draft", label: "Antrean draf" },
+  { key: "published", label: "Telah dikurasi" },
+  { key: "all", label: "Semua" },
+] as const;
 
+type TabKey = (typeof TABS)[number]["key"];
+
+export default async function KurasiPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ tab?: string }>;
+}) {
+  const user = await getCurrentUser();
   if (!hasRole(user, "KONTRIBUTOR")) {
     return (
       <div className="mx-auto max-w-xl px-4 py-20 text-center">
@@ -29,67 +39,117 @@ export default async function KurasiPage() {
     );
   }
 
-  const drafts = dataset.assessments.filter((a) => a.status === "draft");
-  const published = dataset.assessments.filter((a) => a.status === "published");
+  const sp = await searchParams;
+  const tab: TabKey =
+    sp.tab === "published" || sp.tab === "all" ? sp.tab : "draft";
+
+  const all = [...dataset.assessments];
+  const drafts = all.filter((a) => a.status === "draft");
+  const published = all.filter((a) => a.status === "published");
+
+  // prioritas antrean: cakupan terendah dulu (paling butuh perhatian),
+  // lalu yang terbaru dibuat.
+  const covOf = (a: (typeof all)[number]) =>
+    new Set(a.dimension_scores.map((d) => d.dimension_id)).size /
+    dataset.rubric.dimensions.length;
+
+  const rows =
+    tab === "all" ? all : tab === "published" ? published : [...drafts].sort(
+      (a, b) =>
+        covOf(a) - covOf(b) || b.created_at.localeCompare(a.created_at)
+    );
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-12">
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <h1 className="text-3xl font-bold">Antrean kurasi</h1>
         <span className="text-xs text-[var(--muted)]">
-          {session?.user?.name ? `masuk sebagai ${session.user.name}` : "mode dev"} ·{" "}
-          {drafts.length} draf · {published.length} published
+          {user ? (user.name ? `${user.name} · ${user.role}` : user.role) : "anonim"} ·{" "}
+          {drafts.length} draf · {published.length} published · kuorum{" "}
+          <strong className="text-[var(--text)]">2 approver</strong>
         </span>
       </div>
 
+      <div className="mt-4 flex gap-2 text-xs">
+        {TABS.map((tb) => (
+          <Link
+            key={tb.key}
+            href={`/kurasi?tab=${tb.key}`}
+            className={`rounded-full px-3 py-1 border transition ${
+              tab === tb.key
+                ? "border-red-500/60 bg-red-500/10 text-red-300"
+                : "border-[var(--line)] text-[var(--muted)] hover:text-white"
+            }`}
+          >
+            {tb.label}
+          </Link>
+        ))}
+        <Link
+          href="/kurasi/log"
+          className="ml-auto rounded-full border border-[var(--line)] px-3 py-1 text-[var(--muted)] hover:text-white"
+        >
+          Log aktivitas →
+        </Link>
+      </div>
+
       <div className="mt-4 rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-xs leading-relaxed text-amber-300">
-        Keputusan dicatat ke <code>generated/review-state.json</code> (jejak audit
-        yang dikomit). Terapkan dengan{" "}
-        <code>pnpm build:data &amp;&amp; pnpm build</code>. Penolakan wajib
-        beralasan.
+        Publikasi butuh <strong>dua approver berbeda nama</strong>. Satu approval
+        menandai penilaian sebagai <em>menunggu telaah kedua</em>; penolakan wajib
+        beralasan dan langsung mengeluarkannya dari dataset publik setelah build.
       </div>
 
       <div className="mt-8 space-y-2">
-        {drafts.map((a) => {
+        {rows.map((a) => {
           const term = dataset.terms.find((t) => t.id === a.term_id);
+          const inst = dataset.institutions.find(
+            (i) => i.id === term?.institution_id
+          );
           const scored = new Set(a.dimension_scores.map((d) => d.dimension_id));
+          const covPct = Math.round(covOf(a) * 100);
+          const isPublished = a.status === "published";
           return (
             <div
               key={a.id}
-              className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-3 flex flex-wrap items-center gap-x-4 gap-y-2"
+              className={`rounded-lg border px-4 py-3 flex flex-wrap items-center gap-x-4 gap-y-2 ${
+                isPublished
+                  ? "border-green-800/40 bg-green-900/10"
+                  : "border-[var(--line)] bg-[var(--panel)]"
+              }`}
             >
               <div className="grow min-w-52">
                 <div className="font-medium">{term?.label_id ?? a.term_id}</div>
                 <div className="text-xs text-[var(--muted)] mt-0.5">
-                  {a.id} · rubrik v{a.rubric_version} ·{" "}
-                  {scored.size}/{dataset.rubric.dimensions.length} dimensi ·{" "}
-                  {a.ai_suggested ? "usulan AI" : "manual"}
+                  {inst?.name_id ?? "—"} · {a.id} · rubrik v{a.rubric_version} ·{" "}
+                  {scored.size}/{dataset.rubric.dimensions.length} dimensi ({covPct}%) ·{" "}
+                  {a.ai_suggested ? "usulan AI" : "manual"} · {a.created_at}
                 </div>
               </div>
+              <span
+                className={`rounded-full px-2.5 py-0.5 text-[11px] font-semibold ${
+                  isPublished
+                    ? "bg-green-500/15 text-green-400"
+                    : covPct < 50
+                      ? "bg-orange-500/15 text-orange-300"
+                      : "bg-slate-500/15 text-slate-300"
+                }`}
+              >
+                {isPublished ? "✓ published" : covPct < 50 ? "cakupan rendah" : "draf"}
+              </span>
               <Link
-                href={`/lembaga/${dataset.institutions.find((i) => i.id === term?.institution_id)?.slug ?? ""}/${a.term_id}`}
+                href={`/kurasi/${a.id}`}
                 className="text-xs underline text-[var(--muted)] hover:text-white"
               >
                 tinjau →
               </Link>
-              {hasRole(user, "KURATOR") && <KurasiActions assessmentId={a.id} />}
             </div>
           );
         })}
+        {rows.length === 0 && (
+          <p className="text-sm text-[var(--muted)] py-8 text-center">
+            Tidak ada penilaian pada tab ini.
+          </p>
+        )}
       </div>
-
-      {published.length > 0 && (
-        <section className="mt-10">
-          <h2 className="text-lg font-semibold">Telah dikurasi ({published.length})</h2>
-          <ul className="mt-3 space-y-1 text-sm text-[var(--muted)]">
-            {published.map((a) => (
-              <li key={a.id}>
-                ✓ {a.term_id} — reviewer: {a.reviewers.join(", ")}
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
     </div>
   );
 }

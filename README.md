@@ -46,6 +46,7 @@ lintas sejarah* — dan setiap skor wajib bersitasi bukti primer.
 | 2.5 | Peta lengkap UUD (73 pasal) + peristiwa krusial tambahan | ✅ |
 | 3 | Auth GitHub + workflow kurasi + pipeline AI | ✅ |
 | 5a | Prisma/SQLite overlay + RBAC 4 peran + review write-through DB→file + AuditLog | ✅ |
+| 5b | Kurasi tuntas: kuorum 2 approver beda nama, halaman detail & log publik, webhook opsional | ✅ |
 | 4a | Dataset eksekutif penuh 1945–1998 (Revolusi/Liberal, Demokrasi Terpimpin, Orde Baru) | ✅ draf |
 | 4b | i18n bahasa daerah UI (id/jv/su/mad/min, fallback otomatis) | ✅ beta |
 | 4c | API publik (/index, /rubric, /uud) | ✅ |
