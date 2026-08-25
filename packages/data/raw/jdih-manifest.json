@@ -1,0 +1,514 @@
+[
+  {
+    "jns": "KEPPRES",
+    "no": "125",
+    "thn": "1999",
+    "cited_by": [
+      "keppres-125-1999"
+    ]
+  },
+  {
+    "jns": "KEPPRES",
+    "no": "6",
+    "thn": "2000",
+    "cited_by": [
+      "keppres-6-2000"
+    ]
+  },
+  {
+    "jns": "KEPPRES",
+    "no": "53",
+    "thn": "2001",
+    "cited_by": [
+      "keppres-53-2001"
+    ]
+  },
+  {
+    "jns": "PERPU",
+    "no": "2",
+    "thn": "2022",
+    "cited_by": [
+      "perppu-2-2022"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "1",
+    "thn": "1946",
+    "cited_by": [
+      "uu-1-1946"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "1",
+    "thn": "1974",
+    "cited_by": [
+      "uu-1-1974"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "7",
+    "thn": "1976",
+    "cited_by": [
+      "uu-7-1976"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "8",
+    "thn": "1985",
+    "cited_by": [
+      "uu-8-1985"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "25",
+    "thn": "1992",
+    "cited_by": [
+      "kurasi-manual"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "9",
+    "thn": "1998",
+    "cited_by": [
+      "uu-9-1998"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "3",
+    "thn": "1999",
+    "cited_by": [
+      "uu-3-1999"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "22",
+    "thn": "1999",
+    "cited_by": [
+      "uu-22-1999"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "25",
+    "thn": "1999",
+    "cited_by": [
+      "uu-25-1999"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "28",
+    "thn": "1999",
+    "cited_by": [
+      "kurasi-manual"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "37",
+    "thn": "1999",
+    "cited_by": [
+      "kurasi-manual"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "39",
+    "thn": "1999",
+    "cited_by": [
+      "uu-39-1999"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "40",
+    "thn": "1999",
+    "cited_by": [
+      "uu-40-1999"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "26",
+    "thn": "2000",
+    "cited_by": [
+      "uu-26-2000"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "20",
+    "thn": "2001",
+    "cited_by": [
+      "kurasi-manual"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "21",
+    "thn": "2001",
+    "cited_by": [
+      "uu-21-2001"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "2",
+    "thn": "2002",
+    "cited_by": [
+      "uu-2-2002"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "30",
+    "thn": "2002",
+    "cited_by": [
+      "uu-30-2002"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "15",
+    "thn": "2003",
+    "cited_by": [
+      "uu-15-2003"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "17",
+    "thn": "2003",
+    "cited_by": [
+      "kurasi-manual"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "20",
+    "thn": "2003",
+    "cited_by": [
+      "uu-20-2003"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "23",
+    "thn": "2003",
+    "cited_by": [
+      "uu-23-2003"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "24",
+    "thn": "2003",
+    "cited_by": [
+      "uu-24-2003"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "1",
+    "thn": "2004",
+    "cited_by": [
+      "kurasi-manual"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "15",
+    "thn": "2004",
+    "cited_by": [
+      "kurasi-manual"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "27",
+    "thn": "2004",
+    "cited_by": [
+      "uu-27-2004"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "32",
+    "thn": "2004",
+    "cited_by": [
+      "uu-32-2004"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "11",
+    "thn": "2005",
+    "cited_by": [
+      "uu-11-2005"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "14",
+    "thn": "2005",
+    "cited_by": [
+      "uu-14-2005"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "11",
+    "thn": "2006",
+    "cited_by": [
+      "uu-11-2006"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "22",
+    "thn": "2007",
+    "cited_by": [
+      "uu-22-2007"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "25",
+    "thn": "2007",
+    "cited_by": [
+      "uu-25-2007"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "11",
+    "thn": "2008",
+    "cited_by": [
+      "uu-11-2008"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "40",
+    "thn": "2008",
+    "cited_by": [
+      "uu-40-2008"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "46",
+    "thn": "2009",
+    "cited_by": [
+      "uu-46-2009"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "48",
+    "thn": "2009",
+    "cited_by": [
+      "uu-48-2009"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "8",
+    "thn": "2010",
+    "cited_by": [
+      "uu-8-2010"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "12",
+    "thn": "2011",
+    "cited_by": [
+      "uu-12-2011"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "17",
+    "thn": "2011",
+    "cited_by": [
+      "kurasi-manual"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "24",
+    "thn": "2011",
+    "cited_by": [
+      "uu-24-2011"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "5",
+    "thn": "2014",
+    "cited_by": [
+      "kurasi-manual"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "6",
+    "thn": "2014",
+    "cited_by": [
+      "uu-6-2014"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "17",
+    "thn": "2014",
+    "cited_by": [
+      "uu-17-2014"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "23",
+    "thn": "2014",
+    "cited_by": [
+      "uu-23-2014"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "30",
+    "thn": "2014",
+    "cited_by": [
+      "kurasi-manual"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "16",
+    "thn": "2016",
+    "cited_by": [
+      "uu-16-2016"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "7",
+    "thn": "2017",
+    "cited_by": [
+      "uu-7-2017"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "16",
+    "thn": "2019",
+    "cited_by": [
+      "uu-16-2019"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "19",
+    "thn": "2019",
+    "cited_by": [
+      "uu-19-2019"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "2",
+    "thn": "2020",
+    "cited_by": [
+      "uu-2-2020"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "7",
+    "thn": "2020",
+    "cited_by": [
+      "uu-7-2020"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "11",
+    "thn": "2020",
+    "cited_by": [
+      "uu-11-2020"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "3",
+    "thn": "2022",
+    "cited_by": [
+      "uu-3-2022"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "11",
+    "thn": "2022",
+    "cited_by": [
+      "uu-11-2022-keolahragaan"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "27",
+    "thn": "2022",
+    "cited_by": [
+      "uu-27-2022"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "1",
+    "thn": "2023",
+    "cited_by": [
+      "uu-1-2023"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "6",
+    "thn": "2023",
+    "cited_by": [
+      "uu-6-2023"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "17",
+    "thn": "2023",
+    "cited_by": [
+      "uu-17-2023"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "1",
+    "thn": "2024",
+    "cited_by": [
+      "uu-1-2024"
+    ]
+  },
+  {
+    "jns": "UU",
+    "no": "1",
+    "thn": "2025",
+    "cited_by": [
+      "uu-danantara-2025"
+    ]
+  }
+]
