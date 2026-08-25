@@ -11,3 +11,4 @@ export function getDataset(): Dataset {
 
 export * from "@pancasila-index/core";
 export * from "./review";
+export * from "./jdih";

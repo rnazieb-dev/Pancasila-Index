@@ -13,7 +13,8 @@
   "scripts": {
     "build": "tsx scripts/build.mts",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "scrape:jdih": "tsx scripts/scrape-jdih.mts"
   },
   "dependencies": {
     "@pancasila-index/core": "workspace:*",

@@ -47,6 +47,7 @@ lintas sejarah* — dan setiap skor wajib bersitasi bukti primer.
 | 3 | Auth GitHub + workflow kurasi + pipeline AI | ✅ |
 | 5a | Prisma/SQLite overlay + RBAC 4 peran + review write-through DB→file + AuditLog | ✅ |
 | 5b | Kurasi tuntas: kuorum 2 approver beda nama, halaman detail & log publik, webhook opsional | ✅ |
+| 6a | Scraper JDIH Setneg → korpus `data/raw/` (51 dokumen hukum tervalidasi) | ✅ parsial* |
 | 4a | Dataset eksekutif penuh 1945–1998 (Revolusi/Liberal, Demokrasi Terpimpin, Orde Baru) | ✅ draf |
 | 4b | i18n bahasa daerah UI (id/jv/su/mad/min, fallback otomatis) | ✅ beta |
 | 4c | API publik (/index, /rubric, /uud) | ✅ |
@@ -55,6 +56,9 @@ lintas sejarah* — dan setiap skor wajib bersitasi bukti primer.
 > ⚠️ Seluruh penilaian pada fase seed berstatus **DRAF** — dihasilkan sebagai
 > demonstrasi metodologi dan *belum* dikurasi dewan editorial. Angka indeks
 > bukan vonis akhir.
+>
+> \* 6a parsial: korpus dari JDIH Setneg (terbuka); portal BPK & putusan
+> MK/MA diblokir Cloudflare/jaringan dari mesin pengembangan saat ini.
 
 ### Workflow kurasi & AI
 

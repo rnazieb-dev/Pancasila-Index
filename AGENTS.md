@@ -79,8 +79,15 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
         tanpa login, empty-state bila DB kosong)
   - [x] Webhook opsional `KURASI_WEBHOOK_URL` POST JSON tiap keputusan
         (diverifikasi hidup: approve→pending_second→published→rejected)
-- [ ] **Fase 6a: scraper JDIH + MKRI → data/raw/ (≥50 dokumen)** ← BERIKUTNYA
-- [ ] Fase 6b: LLM suggest v2 berbasis korpus; +250 peristiwa terverifikasi
+- [x] **Fase 6a: scraper JDIH → data/raw/ (51 dokumen valid)** ✅
+      Cakupan parsial jujur: sumber aktif JDIH Setneg (metadata lengkap +
+      PDF tervalidasi magic bytes + index.jsonl + manifest kurasi dari
+      sources.yaml). Portal BPK & putusan MK/MA diblokir Cloudflare/
+      jaringan dari mesin dev ini — menyusul bila ada akses.
+- [ ] **Fase 6b: LLM suggest v2 berbasis korpus; +250 peristiwa
+      terverifikasi. Catatan arsitektur: evaluasi orkestrasi LangGraph
+      (master) + Mastra (sub-agent RAG/workflow) — usulan klien — tanpa
+      mengubah keputusan terkunci lain** ← BERIKUTNYA
 - [ ] Fase 7: lembaga MPR, DPD, BPK, KY lengkap (term/peristiwa/assessment)
 - [ ] Fase 8: pencarian teks; Bandingkan era/institusi (radar overlay);
       ekspor CSV/PDF; halaman aktor
