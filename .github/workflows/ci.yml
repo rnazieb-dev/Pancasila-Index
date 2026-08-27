@@ -23,9 +23,17 @@ jobs:
       # dan kegagalannya muncul sebagai error TypeScript, bukan error install.
       - uses: pnpm/action-setup@v4
 
+      # Node 24 adalah Active LTS (dukungan sampai 30 April 2028). Node 22
+      # sudah masuk Maintenance LTS dan berakhir 30 April 2027.
+      #
+      # Catatan: ini versi Node yang menjalankan PROYEK. Peringatan "Node 20 is
+      # being deprecated" di log run berasal dari runtime yang dipakai GitHub
+      # untuk mengeksekusi action-nya sendiri (actions/checkout, pnpm/action-setup)
+      # dan tidak terpengaruh oleh nilai di bawah ini - itu hanya hilang bila
+      # major action-nya dinaikkan.
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: pnpm
 
       - name: Install dependencies

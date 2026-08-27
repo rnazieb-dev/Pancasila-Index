@@ -21,6 +21,13 @@ coverage/
 .vercel
 .env*
 
-# hasil unduhan indeks eksternal: artefak lokal, bukan data kurasi
+# Hasil parse fetch:indices bersifat turunan - bisa dibangun ulang dari
+# berkas mentahnya, jadi tidak perlu masuk repo.
 packages/data/generated/external-indices-fetched.json
-packages/data/raw/external-indices/
+
+# CATATAN: packages/data/raw/external-indices/ SENGAJA tidak diabaikan.
+# Berkas mentah dari penerbit adalah bukti, bukan artefak sementara, dan
+# harus bisa ditelusuri ulang sama seperti korpus JDIH di packages/data/raw/
+# yang memang dikomit. Ini juga satu-satunya jalan mengisi provenance ketika
+# kebijakan egress memblokir host penerbit: unduh di mesin yang tidak
+# terblokir, commit berkas mentahnya, lalu kurasi dari situ.
