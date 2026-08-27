@@ -54,3 +54,158 @@
     sebesar Rp8,032 triliun kepada Kejaksaan Agung RI, yang menjerat Menteri Kominfo dan pejabat pelaksana proyek digitalisasi daerah 3T.
   source_ids: [laporan-audit-bpk-bts-2023]
   dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-mk-putusan-calon-tunggal-2015
+  term_id: mk-2013-2018
+  date: "2015-09-29"
+  category: pengadilan
+  title_id: Putusan MK No. 100/PUU-XIII/2015 Legalisasi Calon Tunggal Pilkada Melawan Kolom Kosong
+  summary_id: >-
+    MK memutuskan bahwa pilkada dengan pasangan calon tunggal tetap sah diselenggarakan dengan memberikan opsi 'Setuju' atau 'Tidak Setuju'
+    (surat suara kolom kosong) guna menjamin hak pemilih dan kepastian suksesi kepemimpinan daerah.
+  source_ids: [putusan-mk-100-puu-xiii-2015]
+  dimension_ids: [kedaulatan-rakyat, sila-4]
+
+- id: ev-dpr-tax-amnesty-2016
+  term_id: dpr-2014-2019
+  date: "2016-06-28"
+  category: produk-hukum
+  title_id: UU No. 11/2016 tentang Pengampunan Pajak dan Putusan MK No. 105/PUU-XIV/2016
+  summary_id: >-
+    DPR mengesahkan UU Tax Amnesty dan Mahkamah Konstitusi menolak gugatan pembatalannya,
+    menilai pengampunan pajak bertujuan menghimpun likuiditas repatriasi aset untuk pembangunan infrastruktur dan pembiayaan kesejahteraan umum.
+  source_ids: [uu-11-2016, putusan-mk-105-puu-xiv-2016]
+  dimension_ids: [tujuan-2, sila-5]
+
+- id: ev-mk-putusan-dpd-parpol-2018
+  term_id: mk-2013-2018
+  date: "2018-07-23"
+  category: pengadilan
+  title_id: Putusan MK No. 30/PUU-XVI/2018 Larangan Pengurus Parpol Menjadi Anggota DPD
+  summary_id: >-
+    MK menegaskan hakikat konstitusional DPD sebagai perwakilan daerah non-partisan, melarang fungsionaris/pengurus partai politik
+    mencalonkan diri sebagai anggota DPD RI demi mencegah dominasi dan konflik kepentingan partai politik di kamar senator.
+  source_ids: [putusan-mk-30-puu-xvi-2018]
+  dimension_ids: [checks-balances, kedaulatan-rakyat]
+
+- id: ev-mk-putusan-usia-nikah-2018
+  term_id: mk-2018-2023
+  date: "2018-12-13"
+  category: pengadilan
+  title_id: Putusan MK No. 22/PUU-XV/2017 & UU No. 16/2019 Penyetaraan Batas Usia Nikah 19 Tahun
+  summary_id: >-
+    MK memerintahkan pembentuk undang-undang merevisi batas usia menikah perempuan 16 tahun karena diskriminatif dan mencederai hak tumbuh kembang anak,
+    yang ditindaklanjuti DPR dengan mengesahkan UU No. 16/2019 yang menyetarakan batas usia minimal menikah pria dan wanita menjadi 19 tahun.
+  source_ids: [putusan-mk-22-puu-xv-2017, uu-16-2019]
+  dimension_ids: [sila-2, tujuan-3]
+
+- id: ev-bpk-audit-garuda-2020
+  term_id: bpk-2019-sekarang
+  date: "2020-07-10"
+  category: kebijakan
+  title_id: Audit Investigatif BPK atas Korupsi Pengadaan Pesawat Garuda Indonesia
+  summary_id: >-
+    BPK RI menyerahkan LHP Investigatif atas pengadaan pesawat Bombardier CRJ-1000 dan ATR 72-600 PT Garuda Indonesia Tbk,
+    mengungkap kerugian negara dan praktik suap lintas batas yang melibatkan pabrikan asing dan manajemen maskapai nasional.
+  source_ids: [laporan-audit-bpk-garuda-2020]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-bpk-audit-asabri-2021
+  term_id: bpk-2019-sekarang
+  date: "2021-05-31"
+  category: kebijakan
+  title_id: Audit Investigatif BPK atas Mega Korupsi Investasi ASABRI Rp22,78 Triliun
+  summary_id: >-
+    BPK RI merampungkan penghitungan kerugian keuangan negara dalam kasus korupsi pengelolaan dana investasi PT ASABRI (Persero)
+    sebesar Rp22,78 triliun, salah satu skandal korupsi terbesar di sektor asuransi prajurit TNI, Polri, dan ASN Kemenhan.
+  source_ids: [laporan-audit-bpk-asabri-2021]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-ma-kasasi-jiwasraya-2021
+  term_id: ma-reformasi-sekarang
+  date: "2021-08-24"
+  category: pengadilan
+  title_id: Putusan Kasasi MA Memvonis Seumur Hidup Terdakwa Mega Korupsi Jiwasraya
+  summary_id: >-
+    Mahkamah Agung menolak permohonan kasasi para terdakwa kasus korupsi dan tindak pidana pencucian uang PT Asuransi Jiwasraya (Persero),
+    menguatkan vonis pidana penjara seumur hidup dan uang pengganti belasan triliun rupiah demi kepastian hukum dan perlindungan nasabah polis.
+  source_ids: [putusan-kasasi-ma-jiwasraya-2021]
+  dimension_ids: [negara-hukum, sila-5]
+
+- id: ev-dpr-uu-ikn-2022
+  term_id: dpr-2019-2024
+  date: "2022-01-18"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 3 Tahun 2022 tentang Ibu Kota Negara (IKN Nusantara)
+  summary_id: >-
+    DPR bersama Pemerintah mengesahkan landasan hukum pemindahan ibu kota negara dari Jakarta ke Ibu Kota Nusantara (IKN)
+    di Penajam Paser Utara, Kalimantan Timur, dengan visi pemerataan pembangunan Indonesia-sentris dan keberlanjutan lingkungan.
+  source_ids: [uu-3-2022]
+  dimension_ids: [tujuan-2, sila-3]
+
+- id: ev-dpr-uu-pdp-2022
+  term_id: dpr-2019-2024
+  date: "2022-09-20"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)
+  summary_id: >-
+    DPR mengesahkan payung hukum perlindungan data pribadi komprehensif pertama di Indonesia yang menjamin hak privasi konstitusional warga negara,
+    mengatur kewajiban pengendali data, dan menetapkan sanksi administratif hingga pidana atas kebocoran dan penyalahgunaan data.
+  source_ids: [uu-27-2022]
+  dimension_ids: [tujuan-1, sila-2]
+
+- id: ev-dpr-kuhp-nasional-2023
+  term_id: dpr-2019-2024
+  date: "2023-01-02"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (KUHP Nasional)
+  summary_id: >-
+    DPR dan Pemerintah mengesahkan kodifikasi hukum pidana nasional menggantikan Wetboek van Strafrecht (WvS) warisan kolonial Belanda,
+    memperkenalkan konsep keadilan restoratif, pidana kerja sosial, dan penyesuaian nilai-nilai hukum yang hidup dalam masyarakat Indonesia.
+  source_ids: [uu-1-2023]
+  dimension_ids: [negara-hukum, sila-2]
+
+- id: ev-mk-putusan-threshold-2024
+  term_id: mk-2023-sekarang
+  date: "2024-02-29"
+  category: pengadilan
+  title_id: Putusan MK No. 116/PUU-XXI/2023 Menghapus Ambang Batas Parlemen 4% Mulai 2029
+  summary_id: >-
+    MK memutuskan Pasal 414 ayat 1 UU Pemilu tentang Parliamentary Threshold 4% inkonstitusional bersyarat untuk diberlakukan pada Pemilu 2029,
+    memerintahkan pembentuk undang-undang mendesain ulang ambang batas berbasis metode rasional demi meminimalkan suara rakyat yang terbuang sia-sia.
+  source_ids: [putusan-mk-116-puu-xxi-2023]
+  dimension_ids: [kedaulatan-rakyat, sila-4]
+
+- id: ev-ma-mkh-ronald-tannur-2024
+  term_id: ma-reformasi-sekarang
+  date: "2024-10-23"
+  category: pengadilan
+  title_id: Kasasi MA Batalkan Vonis Bebas Ronald Tannur & Pembongkaran Mafia Peradilan
+  summary_id: >-
+    Mahkamah Agung mengabulkan kasasi jaksa dan menjatuhkan vonis 5 tahun penjara kepada Ronald Tannur,
+    disusul operasi tangkap tangan Kejaksaan Agung terhadap tiga hakim PN Surabaya dan mantan pejabat MA atas dugaan suap suap pengondisian perkara.
+  source_ids: [putusan-ma-ronald-tannur-2024]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-mk-putusan-netralitas-pilkada-2024
+  term_id: mk-2023-sekarang
+  date: "2024-11-14"
+  category: pengadilan
+  title_id: Putusan MK No. 136/PUU-XXII/2024 Menegaskan Sanksi Pidana Netralitas TNI/Polri dalam Pilkada
+  summary_id: >-
+    MK mengabulkan uji materiil Pasal 188 UU Pilkada dengan memasukkan frasa 'pejabat daerah' dan 'anggota TNI/Kepolisian Negara Republik Indonesia'
+    sebagai subjek yang dapat dipidana penjara jika terbukti melanggar netralitas dan menguntungkan/merugikan salah satu pasangan calon kepala daerah.
+  source_ids: [putusan-mk-136-puu-xxii-2024]
+  dimension_ids: [kedaulatan-rakyat, negara-hukum]
+
+- id: ev-ky-laptah-penegakan-2023
+  term_id: ky-2020-sekarang
+  date: "2024-01-30"
+  category: kebijakan
+  title_id: Laporan Kinerja Komisi Yudisial 2023 - Rekomendasi Sanksi Puluhan Hakim Terbukti Langgar Etik
+  summary_id: >-
+    Komisi Yudisial RI merilis laporan penegakan etik dan perilaku hakim sepanjang 2023,
+    merekomendasikan penjatuhan sanksi kepada puluhan hakim dan mengusulkan sidang Majelis Kehormatan Hakim (MKH) untuk memelihara kehormatan dan martabat peradilan.
+  source_ids: [laporan-tahunan-ky-2023]
+  dimension_ids: [checks-balances, negara-hukum]
+

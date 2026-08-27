@@ -43,3 +43,26 @@
     bertentangan dengan Pasal 33 ayat 2 UUD 1945 (cabang produksi penting yang menguasai hajat hidup orang banyak harus dikuasai oleh negara).
   source_ids: [putusan-mk-001-021-022-puu-i-2003]
   dimension_ids: [sila-5, checks-balances]
+
+- id: ev-mpr-gbhn-1999
+  term_id: mpr-1999-2004
+  date: "1999-10-19"
+  category: produk-hukum
+  title_id: TAP MPR No. IV/MPR/1999 tentang GBHN Terakhir Era Transisi
+  summary_id: >-
+    MPR menetapkan Garis-Garis Besar Haluan Negara (GBHN) 1999–2004 sebagai pedoman pembangunan nasional transisi
+    menuju tatanan demokrasi, yang kelak menjadi GBHN terakhir sebelum sistem perencanaan nasional diubah menjadi UU SPPN dan RPJPN/RPJMN pasca-amandemen UUD.
+  source_ids: [tap-mpr-iv-1999]
+  dimension_ids: [tujuan-2, kedaulatan-rakyat]
+
+- id: ev-dpr-uu-ppatk-2002
+  term_id: dpr-1999-2004
+  date: "2002-04-17"
+  category: produk-hukum
+  title_id: UU No. 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang dan Pendirian PPATK
+  summary_id: >-
+    DPR bersama Pemerintah mengesahkan rezim anti-pencucian uang Indonesia dan mendirikan Pusat Pelaporan dan Analisis Transaksi Keuangan (PPATK)
+    sebagai lembaga intelijen keuangan independen untuk melacak aliran dana hasil kejahatan korupsi, narkotika, dan terorisme.
+  source_ids: [uu-15-2002]
+  dimension_ids: [negara-hukum, checks-balances]
+

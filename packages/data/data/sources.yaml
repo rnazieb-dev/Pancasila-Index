@@ -1298,4 +1298,202 @@
   year: 2020
   citation_id: Putusan MA No. 44 P/HUM/2019
 
+- id: putusan-mk-36-puu-x-2012
+  type: putusan-mk
+  title_id: Putusan MK No. 36/PUU-X/2012 (Pembubaran BP Migas dan Pengembalian Penguasaan Hulu Migas ke Kementerian demi Pasal 33 UUD 1945)
+  year: 2012
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=36/PUU-X/2012
+  citation_id: Putusan MKRI No. 36/PUU-X/2012
+
+- id: putusan-mk-116-puu-xxi-2023
+  type: putusan-mk
+  title_id: Putusan MK No. 116/PUU-XXI/2023 (Penghapusan Ambang Batas Parlemen / Parliamentary Threshold 4% Mulai Pemilu 2029)
+  year: 2024
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=116/PUU-XXI/2023
+  citation_id: Putusan MKRI No. 116/PUU-XXI/2023
+
+- id: putusan-mk-100-puu-xiii-2015
+  type: putusan-mk
+  title_id: Putusan MK No. 100/PUU-XIII/2015 (Penyelenggaraan Pilkada dengan Calon Tunggal Melalui Pilihan Setuju / Tidak Setuju Kolom Kosong)
+  year: 2015
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=100/PUU-XIII/2015
+  citation_id: Putusan MKRI No. 100/PUU-XIII/2015
+
+- id: putusan-mk-30-puu-xvi-2018
+  type: putusan-mk
+  title_id: Putusan MK No. 30/PUU-XVI/2018 (Larangan Pengurus Partai Politik Menjadi Calon Anggota Dewan Perwakilan Daerah / DPD RI)
+  year: 2018
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=30/PUU-XVI/2018
+  citation_id: Putusan MKRI No. 30/PUU-XVI/2018
+
+- id: putusan-mk-92-puu-x-2012
+  type: putusan-mk
+  title_id: Putusan MK No. 92/PUU-X/2012 (Penguatan Kewenangan Legislasi DPD RI dalam Pembahasan RUU Terkait Otonomi Daerah Bersama DPR & Presiden)
+  year: 2013
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=92/PUU-X/2012
+  citation_id: Putusan MKRI No. 92/PUU-X/2012
+
+- id: putusan-mk-012-016-019-puu-iv-2006
+  type: putusan-mk
+  title_id: Putusan MK No. 012-016-019/PUU-IV/2006 (Keabsahan Konstitusional Kewenangan Penyadapan Mandiri KPK Tanpa Izin Pengadilan)
+  year: 2006
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=012/PUU-IV/2006
+  citation_id: Putusan MKRI No. 012-016-019/PUU-IV/2006
+
+- id: putusan-mk-136-puu-xxii-2024
+  type: putusan-mk
+  title_id: Putusan MK No. 136/PUU-XXII/2024 (Penegasan Sanksi Pidana Netralitas bagi Pejabat Daerah, Aparatur Sipil Negara, dan Anggota TNI/Polri dalam Pilkada)
+  year: 2024
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=136/PUU-XXII/2024
+  citation_id: Putusan MKRI No. 136/PUU-XXII/2024
+
+- id: laporan-audit-bpk-asabri-2021
+  type: laporan-lembaga
+  title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pengelolaan Keuangan dan Dana Investasi PT ASABRI (Persero) Rp22,78 Triliun
+  year: 2021
+  citation_id: BPK RI LHP No. 08/LHP/XXI/05/2021
+
+- id: laporan-audit-bpk-garuda-2020
+  type: laporan-lembaga
+  title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pengadaan Armada Pesawat PT Garuda Indonesia (Persero) Tbk
+  year: 2020
+  citation_id: BPK RI LHP Investigatif Garuda 2020
+
+- id: laporan-audit-bpk-covid-2021
+  type: laporan-lembaga
+  title_id: Laporan Hasil Pemeriksaan Kepatuhan Penanganan Pandemi COVID-19 dan Program Pemulihan Ekonomi Nasional (PEN) BPK RI
+  year: 2021
+  citation_id: BPK RI LHP Kepatuhan COVID-19 PEN 2021
+
+- id: putusan-kasasi-ma-jiwasraya-2021
+  type: putusan-ma
+  title_id: Putusan Kasasi Mahkamah Agung No. 2937 K/Pid.Sus/2021 (Vonis Pidana Penjara Seumur Hidup dalam Mega Korupsi Jiwasraya)
+  year: 2021
+  citation_id: Putusan MA No. 2937 K/Pid.Sus/2021
+
+- id: keppres-50-1993
+  type: keppres
+  title_id: Keputusan Presiden No. 50 Tahun 1993 tentang Pembentukan Komisi Nasional Hak Asasi Manusia (Komnas HAM)
+  year: 1993
+  citation_id: Keppres No. 50 Tahun 1993
+
+- id: uu-15-2002
+  type: undang-undang
+  title_id: UU No. 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang & Pendirian Pusat Pelaporan dan Analisis Transaksi Keuangan (PPATK)
+  year: 2002
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=15&thn=2002
+  citation_id: LN No. 30 Tahun 2002, TLN No. 4191
+
+- id: uu-3-2022
+  type: undang-undang
+  title_id: UU No. 3 Tahun 2022 tentang Ibu Kota Negara (Pemindahan Ibu Kota ke IKN Nusantara di Kalimantan Timur)
+  year: 2022
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2022
+  citation_id: LN No. 41 Tahun 2022, TLN No. 6766
+
+- id: uu-1-2023
+  type: undang-undang
+  title_id: UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (Kodifikasi KUHP Nasional Baru)
+  year: 2023
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023
+  citation_id: LN No. 1 Tahun 2023, TLN No. 6842
+
+- id: uu-24-2007
+  type: undang-undang
+  title_id: UU No. 24 Tahun 2007 tentang Penanggulangan Bencana (Pembentukan Badan Nasional Penanggulangan Bencana / BNPB)
+  year: 2007
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=24&thn=2007
+  citation_id: LN No. 66 Tahun 2007, TLN No. 4723
+
+- id: uu-31-2008
+  type: undang-undang
+  title_id: UU No. 31 Tahun 2008 tentang Meteorologi, Klimatologi, dan Geofisika (Pendirian BMKG sebagai Lembaga Pemerintah Nonkementerian)
+  year: 2008
+  citation_id: LN No. 139 Tahun 2008, TLN No. 4901
+
+- id: inpres-5-1993
+  type: keppres
+  title_id: Instruksi Presiden No. 5 Tahun 1993 tentang Program Inpres Desa Tertinggal (IDT) untuk Pengentasan Kemiskinan Ekstrem
+  year: 1993
+  citation_id: Inpres No. 5 Tahun 1993
+
+- id: uu-86-1958
+  type: undang-undang
+  title_id: UU No. 86 Tahun 1958 tentang Nasionalisasi Perusahaan-Perusahaan Milik Belanda di Wilayah Republik Indonesia
+  year: 1958
+  citation_id: Lembaran Negara Tahun 1958 No. 162
+
+- id: perpres-83-2024
+  type: keppres
+  title_id: Peraturan Presiden No. 83 Tahun 2024 tentang Badan Gizi Nasional (Pelaksanaan Program Makan Bergizi Gratis Nasional)
+  year: 2024
+  citation_id: Lembaran Negara Tahun 2024 No. 153
+
+- id: putusan-ma-ronald-tannur-2024
+  type: putusan-ma
+  title_id: Putusan Kasasi MA No. 1466 K/Pid/2024 & Penangkapan Hakim Pengadilan Negeri Surabaya atas Kasus Suap Vonis Bebas Ronald Tannur
+  year: 2024
+  citation_id: Putusan Kasasi MA No. 1466 K/Pid/2024
+
+- id: laporan-tahunan-ky-2023
+  type: laporan-lembaga
+  title_id: Laporan Tahunan Komisi Yudisial RI Tahun 2023 (Penegakan Integritas Etik Hakim dan Seleksi Terbuka Hakim Agung)
+  year: 2024
+  citation_id: KY RI Laptah 2023
+
+- id: uu-17-2014
+  type: undang-undang
+  title_id: UU No. 17 Tahun 2014 tentang MPR, DPR, DPD, dan DPRD (UU MD3)
+  year: 2014
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=17&thn=2014
+  citation_id: LN No. 182 Tahun 2014, TLN No. 5568
+
+- id: uu-11-2016
+  type: undang-undang
+  title_id: UU No. 11 Tahun 2016 tentang Pengampunan Pajak (Tax Amnesty)
+  year: 2016
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2016
+  citation_id: LN No. 131 Tahun 2016, TLN No. 5899
+
+- id: putusan-mk-105-puu-xiv-2016
+  type: putusan-mk
+  title_id: Putusan MK No. 105/PUU-XIV/2016 (Konstitusionalitas UU Pengampunan Pajak demi Likuiditas Pembangunan Nasional)
+  year: 2016
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=105/PUU-XIV/2016
+  citation_id: Putusan MKRI No. 105/PUU-XIV/2016
+
+- id: uu-27-2022
+  type: undang-undang
+  title_id: UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)
+  year: 2022
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=27&thn=2022
+  citation_id: LN No. 196 Tahun 2022, TLN No. 6820
+
+- id: putusan-mk-22-puu-xv-2017
+  type: putusan-mk
+  title_id: Putusan MK No. 22/PUU-XV/2017 (Perintah Revisi Batas Usia Minimal Perkawinan Perempuan Menjadi 19 Tahun Demi Perlindungan Hak Anak)
+  year: 2018
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=22/PUU-XV/2017
+  citation_id: Putusan MKRI No. 22/PUU-XV/2017
+
+- id: uu-16-2019
+  type: undang-undang
+  title_id: UU No. 16 Tahun 2019 tentang Perubahan atas UU No. 1 Tahun 1974 tentang Perkawinan (Penyetaraan Usia Menikah Minimum 19 Tahun)
+  year: 2019
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=16&thn=2019
+  citation_id: LN No. 186 Tahun 2019, TLN No. 6401
+
+- id: deklarasi-keadaan-perang-1957
+  type: keppres
+  title_id: Keputusan Presiden No. 40 Tahun 1957 tentang Pemberlakuan Keadaan Darurat Perang (SOB) di Seluruh Indonesia
+  year: 1957
+  citation_id: Keppres No. 40 Tahun 1957
+
+- id: tap-mpr-iv-1999
+  type: dokumen-mpr
+  title_id: TAP MPR No. IV/MPR/1999 tentang Garis-Garis Besar Haluan Negara (GBHN) 1999–2004
+  year: 1999
+  citation_id: TAP MPR IV/MPR/1999
+
+
 

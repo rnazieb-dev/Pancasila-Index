@@ -43,3 +43,70 @@
     secara berlebihan yang membatasi hak konstitusional rakyat untuk memperoleh air bersih sebagai hak asasi mendasar.
   source_ids: [putusan-mk-85-puu-xi-2013]
   dimension_ids: [sila-5, tujuan-2]
+
+- id: ev-mk-putusan-penyadapan-kpk-2006
+  term_id: mk-2003-2008
+  date: "2006-12-19"
+  category: pengadilan
+  title_id: Putusan MK No. 012-016-019/PUU-IV/2006 Mengukuhkan Kewenangan Penyadapan Mandiri KPK
+  summary_id: >-
+    MK mengukuhkan keabsahan konstitusional kewenangan penyadapan mandiri KPK tanpa izin ketua pengadilan negeri,
+    menilai instrumen luar biasa tersebut sah dan proporsional untuk memberantas korupsi sebagai kejahatan luar biasa (extraordinary crime).
+  source_ids: [putusan-mk-012-016-019-puu-iv-2006]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-dpr-uu-bnpb-2007
+  term_id: dpr-2004-2009
+  date: "2007-04-26"
+  category: produk-hukum
+  title_id: UU No. 24 Tahun 2007 tentang Penanggulangan Bencana dan Pendirian BNPB
+  summary_id: >-
+    DPR bersama Pemerintah mengesahkan kerangka hukum penanggulangan bencana komprehensif pasca-Tsunami Aceh 2004
+    dan mendirikan Badan Nasional Penanggulangan Bencana (BNPB) untuk menjamin perlindungan keselamatan jiwa warga negara (Tujuan 1 UUD 1945).
+  source_ids: [uu-24-2007]
+  dimension_ids: [tujuan-1, tujuan-2]
+
+- id: ev-dpr-uu-bmkg-2008
+  term_id: dpr-2004-2009
+  date: "2008-09-09"
+  category: produk-hukum
+  title_id: UU No. 31 Tahun 2008 tentang Pendirian BMKG untuk Mitigasi Bencana
+  summary_id: >-
+    Pengesahan undang-undang meteorologi, klimatologi, dan geofisika yang memperkuat kelembagaan BMKG
+    sebagai otoritas resmi peringatan dini tsunami, cuaca ekstrem, dan gempa bumi untuk melindungi segenap tumpah darah Indonesia.
+  source_ids: [uu-31-2008]
+  dimension_ids: [tujuan-1, tujuan-3]
+
+- id: ev-mk-putusan-bpmigas-2012
+  term_id: mk-2008-2013
+  date: "2012-11-13"
+  category: pengadilan
+  title_id: Putusan MK No. 36/PUU-X/2012 Membubarkan BP Migas Demi Kedaulatan Energi
+  summary_id: >-
+    MK membatalkan pasal-pasal kunci UU No. 22/2001 tentang Minyak dan Gas Bumi dan membubarkan BP Migas,
+    menegaskan bahwa hubungan kontraktual langsung antara badan pengelola migas dengan korporasi asing mendegradasi kedaulatan negara atas cabang produksi migas.
+  source_ids: [putusan-mk-36-puu-x-2012]
+  dimension_ids: [sila-5, checks-balances]
+
+- id: ev-mk-putusan-dpd-tripartit-2013
+  term_id: mk-2008-2013
+  date: "2013-03-27"
+  category: pengadilan
+  title_id: Putusan MK No. 92/PUU-X/2012 Memulihkan Hak Legislasi Tripartit DPD RI
+  summary_id: >-
+    MK mengabulkan uji materiil UU MD3 yang diajukan DPD RI, memutuskan bahwa DPD berhak ikut serta membahas RUU
+    bidang otonomi daerah dan hubungan pusat-daerah sejak awal bersama DPR dan Presiden secara setara (tripartit).
+  source_ids: [putusan-mk-92-puu-x-2012]
+  dimension_ids: [checks-balances, kedaulatan-rakyat]
+
+- id: ev-dpr-uu-md3-2014
+  term_id: dpr-2009-2014
+  date: "2014-07-08"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 17 Tahun 2014 tentang MD3
+  summary_id: >-
+    DPR mengesahkan kodifikasi UU MD3 yang menata ulang wewenang, tata tertib, hak interpelasi, hak angket,
+    serta mekanisme penentuan pimpinan DPR dan MPR menjelang transisi hasil Pemilihan Umum 2014.
+  source_ids: [uu-17-2014]
+  dimension_ids: [checks-balances, sila-4]
+

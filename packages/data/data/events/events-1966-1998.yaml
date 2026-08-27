@@ -43,3 +43,26 @@
     menemukan bahwa 95% dari dana talangan Rp144,5 triliun untuk 48 bank bermasalah saat krisis 1997/1998 disalurkan dengan indikasi kuat melawan hukum dan korupsi sistemik.
   source_ids: [laporan-audit-bpk-blbi-2000]
   dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-komnas-ham-1993
+  term_id: presiden-soeharto
+  date: "1993-06-07"
+  category: produk-hukum
+  title_id: Keppres No. 50 Tahun 1993 tentang Pembentukan Komnas HAM
+  summary_id: >-
+    Pemerintah membentuk Komisi Nasional Hak Asasi Manusia (Komnas HAM) pasca-sorotan internasional atas Insiden Santa Cruz Dili 1991,
+    menjadi lembaga independen pertama di Indonesia yang bertugas menyelidiki pelanggaran HAM dan memajukan penegakan martabat kemanusiaan.
+  source_ids: [keppres-50-1993]
+  dimension_ids: [sila-2, negara-hukum]
+
+- id: ev-inpres-desa-tertinggal-1993
+  term_id: presiden-soeharto
+  date: "1993-12-27"
+  category: kebijakan
+  title_id: Peluncuran Program Inpres Desa Tertinggal (IDT) untuk Pengentasan Kemiskinan
+  summary_id: >-
+    Pemerintah meluncurkan Inpres No. 5/1993 yang mengalokasikan dana hibah modal bergulir langsung Rp20 juta per desa
+    ke lebih dari 20.000 desa tertinggal di seluruh Indonesia untuk mendorong pemerataan ekonomi dan keadilan sosial pedesaan.
+  source_ids: [inpres-5-1993]
+  dimension_ids: [sila-5, tujuan-2]
+

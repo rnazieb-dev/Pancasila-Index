@@ -54,3 +54,26 @@
     dan penyelenggaraan Konferensi Meja Bundar di Den Haag untuk penyerahan kedaulatan penuh tanpa syarat.
   source_ids: [perjanjian-roem-royen-1949]
   dimension_ids: [tujuan-1, tujuan-4]
+
+- id: ev-keadaan-darurat-sob-1957
+  term_id: presiden-soekarno-i
+  date: "1957-03-14"
+  category: kebijakan
+  title_id: Pemberlakuan Keadaan Darurat Perang (SOB) di Seluruh Wilayah Indonesia
+  summary_id: >-
+    Presiden Sukarno memberlakukan Keadaan Darurat Perang (Staat van Oorlog en Beleg / SOB) melalui Keppres No. 40/1957
+    menanggapi krisis politik daerah dan pergolakan militer daerah (Dewan Banteng, Dewan Gajah, Permesta), memperluas wewenang militer dalam urusan sipil.
+  source_ids: [deklarasi-keadaan-perang-1957]
+  dimension_ids: [tujuan-1, checks-balances]
+
+- id: ev-nasionalisasi-belanda-1958
+  term_id: presiden-soekarno-i
+  date: "1958-12-27"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 86 Tahun 1958 tentang Nasionalisasi Perusahaan Milik Belanda
+  summary_id: >-
+    Pemerintah dan DPR mengesahkan nasionalisasi ratusan perusahaan perkebunan, pertambangan, perkapalan (KPM),
+    dan perbankan milik Belanda menjadi Badan Usaha Milik Negara (BUMN) sebagai bagian dari perjuangan pembebasan Irian Barat dan kedaulatan ekonomi Pasal 33 UUD 1945.
+  source_ids: [uu-86-1958]
+  dimension_ids: [tujuan-2, sila-5]
+
