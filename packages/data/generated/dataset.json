@@ -17833,6 +17833,275 @@
           ]
         }
       ]
+    },
+    {
+      "id": "asm-mpr-1971-1999",
+      "term_id": "mpr-1971-1999",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "sila-4",
+          "score": -2,
+          "confidence": 0.8,
+          "rationale_id": "MPR difungsikan sebagai instrumen legitimasi monolitik kekuasaan eksekutif secara aklamasi tanpa mekanisme oposisi dan kritik publik terbuka.",
+          "evidence": [
+            {
+              "source_id": "uu-15-1969"
+            },
+            {
+              "source_id": "tap-mprs-xliv-1968"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": -2,
+          "confidence": 0.8,
+          "rationale_id": "Tidak menjalankan fungsi pengawasan dan evaluasi kritis terhadap pertanggungjawaban Presiden, meniadakan prinsip saling imbang antarlembaga negara.",
+          "evidence": [
+            {
+              "source_id": "tap-mpr-ii-1978"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menjaga kesinambungan arah pembangunan nasional melalui penetapan Garis-Garis Besar Haluan Negara (GBHN) Repelita I s.d. VI.",
+          "evidence": [
+            {
+              "source_id": "tap-mpr-ii-1978"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-mpr-2004-2009",
+      "term_id": "mpr-2004-2009",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mengoperasionalkan kedudukan konstitusional baru MPR sebagai lembaga perwakilan bersama DPR dan DPD pasca-Amandemen UUD 1945 dengan tata tertib modern.",
+          "evidence": [
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menyelenggarakan sidang pelantikan Presiden dan Wakil Presiden hasil pemilihan umum langsung pertama 2004 secara tertib dan demokratis.",
+          "evidence": [
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-mpr-2014-2019",
+      "term_id": "mpr-2014-2019",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menggalakkan sosialisasi Empat Pilar Kebangsaan (Pancasila, UUD 1945, NKRI, Bhinneka Tunggal Ika) secara inklusif ke seluruh lapisan masyarakat.",
+          "evidence": [
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": 0,
+          "confidence": 0.65,
+          "rationale_id": "Memulai kajian mendalam Badan Pengkajian MPR terkait urgensi Pokok-Pokok Haluan Negara (PPHN) tanpa mengorbankan stabilitas sistem presidensial.",
+          "evidence": [
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-mpr-2024-sekarang",
+      "term_id": "mpr-2024-sekarang",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menyelenggarakan pelantikan Presiden dan Wakil Presiden hasil Pemilu 2024 secara khidmat, mempertegas kesinambungan mandat demokrasi rakyat.",
+          "evidence": [
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Membangun rekonsiliasi kebangsaan lintas kekuatan politik pasca-Pilpres 2024 serta memfasilitasi Sidang Tahunan Refleksi 80 & 81 Tahun Kemerdekaan RI.",
+          "evidence": [
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-dpd-2014-2019",
+      "term_id": "dpd-2014-2019",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "checks-balances",
+          "score": -1,
+          "confidence": 0.7,
+          "rationale_id": "Kredibilitas kelembagaan tercederai oleh kasus hukum pimpinan terkait suap kuota impor dan sengketa kepengurusan internal pembatasan masa jabatan pimpinan.",
+          "evidence": [
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.65,
+          "rationale_id": "Tetap aktif mengawal penyaluran aspirasi pemekaran daerah otonom baru dan evaluasi implementasi UU Desa di berbagai pelosok nusantara.",
+          "evidence": [
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-dpd-2024-sekarang",
+      "term_id": "dpd-2024-sekarang",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mengadvokasi keadilan alokasi Dana Bagi Hasil (DBH) bagi daerah penghasil migas/tambang, percepatan pembangunan kawasan 3T, dan ekonomi maritim.",
+          "evidence": [
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mengoptimalkan fungsi pengawasan tripartit dalam implementasi Pilkada Serentak 545 daerah dan efektivitas APBN 2025/2026 di tingkat pemerintah daerah.",
+          "evidence": [
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
     }
   ],
   "external_indices": [
