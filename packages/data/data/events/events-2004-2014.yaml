@@ -385,6 +385,62 @@
   source_ids: [sema-07-2014]
   dimension_ids: [negara-hukum, checks-balances]
 
+- id: ev-mk-putusan-haatzaai-artikelen-2007
+  term_id: mk-2003-2008
+  date: "2007-07-17"
+  category: pengadilan
+  title_id: Putusan MK No. 6/PUU-V/2007 Menghapus Pasal Permusuhan Pemerintah (Haatzaai Artikelen)
+  summary_id: >-
+    MK membatalkan Pasal 154 dan 155 KUHP warisan kolonial Belanda tentang penyebaran perasaan permusuhan atau kebencian terhadap pemerintah,
+    mendekriminalisasi kritik warga negara dan melindungi kebebasan berpendapat di muka umum dari represi penguasa.
+  source_ids: [putusan-mk-6-puu-v-2007]
+  dimension_ids: [kedaulatan-rakyat, negara-hukum]
+
+- id: ev-kriminalisasi-bibit-chandra-2009
+  term_id: presiden-sby-ii
+  date: "2009-11-23"
+  category: krisis
+  title_id: Kriminalisasi Pimpinan KPK Bibit-Chandra, Rekomendasi Tim 8, dan Penerbitan SKP2
+  summary_id: >-
+    Penetapan tersangka dan penahanan dua pimpinan KPK Bibit Samad Rianto dan Chandra Hamzah oleh kepolisian memicu kemarahan publik
+    atas dugaan rekayasa kasus (Cicak vs Buaya I), memaksa Presiden membentuk Tim 8 Independen dan Kejaksaan menerbitkan SKP2 demi menghentikan penuntutan.
+  source_ids: [rekomendasi-tim-8-kriminalisasi-kpk-2009, skp2-kejaksaan-bibit-chandra-2009]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-kriminalisasi-prita-mulyasari-2008-2011
+  term_id: ma-reformasi-sekarang
+  date: "2011-09-17"
+  category: pengadilan
+  title_id: Kriminalisasi Konsumen Prita Mulyasari dan Pembebasan Murni oleh Mahkamah Agung
+  summary_id: >-
+    Ibu rumah tangga Prita Mulyasari dipidanakan dan ditahan karena mengirim email keluhan pelayanan rumah sakit menggunakan pasal pencemaran nama baik UU ITE,
+    memicu gerakan moral koin keadilan sebelum akhirnya Mahkamah Agung membebaskan murni Prita pada tingkat Peninjauan Kembali (PK).
+  source_ids: [putusan-ma-prita-mulyasari-2011, putusan-mk-50-puu-vi-2008]
+  dimension_ids: [sila-2, negara-hukum]
+
+- id: ev-ma-perma-tipiring-nenek-minah-2012
+  term_id: ma-reformasi-sekarang
+  date: "2012-02-27"
+  category: produk-hukum
+  title_id: Penerbitan PERMA No. 2/2012 tentang Batasan Tipiring Rp2,5 Juta Pasca Kasus Nenek Minah
+  summary_id: >-
+    Merespons gelombang kritik atas pemidanaan kaum rentan miskin (seperti vonis Nenek Minah yang memetik 3 buah kakao),
+    Mahkamah Agung menerbitkan PERMA penyesuaian batasan tipiring menjadi Rp2,5 juta agar tersangka tidak ditahan dan mengutamakan penyelesaian restoratif.
+  source_ids: [perma-2-2012]
+  dimension_ids: [sila-2, negara-hukum]
+
+- id: ev-mk-putusan-hutan-adat-2012
+  term_id: mk-2008-2013
+  date: "2013-05-16"
+  category: pengadilan
+  title_id: Putusan MK No. 35/PUU-X/2012 Mengakui Hutan Adat & Mendekriminalisasi Masyarakat Hukum Adat
+  summary_id: >-
+    MK memutuskan bahwa hutan adat adalah hutan hak milik masyarakat adat dan bukan hutan negara,
+    menghentikan gelombang kriminalisasi terhadap masyarakat adat yang mengelola wilayah tanah ulayat leluhur mereka dari jeratan pasal pidana kehutanan.
+  source_ids: [putusan-mk-35-puu-x-2012]
+  dimension_ids: [sila-5, negara-hukum]
+
+
 
 
 

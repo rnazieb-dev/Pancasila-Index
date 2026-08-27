@@ -627,6 +627,84 @@
   source_ids: [putusan-ma-kasus-minyak-goreng-2024]
   dimension_ids: [sila-5, negara-hukum]
 
+- id: ev-kriminalisasi-budi-pego-tumpang-pitu-2018
+  term_id: ma-reformasi-sekarang
+  date: "2018-10-16"
+  category: pengadilan
+  title_id: Kriminalisasi Aktivis Tolak Tambang Tumpang Pitu Budi Pego Menggunakan Pasal Komunisme
+  summary_id: >-
+    Pejuang lingkungan hidup Banyuwangi Heri Budiawan (Budi Pego) dipidana penjara 4 tahun melalui penerapan Pasal 107a KUHP (ajaran komunisme),
+    meski pembentangan spanduk berlogo palu arit dalam aksi unjuk rasa tolak tambang emas diduga kuat merupakan bentuk provokasi dan rekayasa kriminalisasi (SLAPP).
+  source_ids: [putusan-ma-budi-pego-2018]
+  dimension_ids: [negara-hukum, sila-2]
+
+- id: ev-amnesti-presiden-baiq-nuril-2019
+  term_id: presiden-jokowi-i
+  date: "2019-07-29"
+  category: peristiwa
+  title_id: Pemberian Amnesti Kepresidenan kepada Baiq Nuril Maknun Pasca Kriminalisasi UU ITE
+  summary_id: >-
+    Presiden Joko Widodo menggunakan hak prerogatif amnesti konstitusional (Pasal 14 ayat 2 UUD 1945) dengan persetujuan bulat DPR RI
+    untuk membebaskan Baiq Nuril Maknun dari vonis pidana UU ITE, memulihkan keadilan substantif bagi korban pelecehan seksual di tempat kerja.
+  source_ids: [keppres-22-2019]
+  dimension_ids: [sila-2, checks-balances]
+
+- id: ev-skb-tiga-menteri-ite-2021
+  term_id: presiden-jokowi-ii
+  date: "2021-06-23"
+  category: produk-hukum
+  title_id: Penerbitan SKB Pedoman Implementasi Pasal Karet UU ITE Demi Mencegah Kriminalisasi
+  summary_id: >-
+    Pemerintah melalui Menkominfo, Jaksa Agung, dan Kapolri menerbitkan Keputusan Bersama Pedoman Kriteria Implementasi Pasal 27, 28, 29 UU ITE
+    guna mencegah disparitas penegakan hukum, menghentikan saling lapor antar-warga, dan mengedepankan pendekatan mediasi restorative justice.
+  source_ids: [skb-uu-ite-2021]
+  dimension_ids: [negara-hukum, kedaulatan-rakyat]
+
+- id: ev-amnesti-presiden-saiful-mahdi-2021
+  term_id: presiden-jokowi-ii
+  date: "2021-10-12"
+  category: peristiwa
+  title_id: Pemberian Amnesti Kepresidenan kepada Dr. Saiful Mahdi atas Kriminalisasi Kritik Akademik
+  summary_id: >-
+    Presiden memberikan amnesti melalui Keppres No. 17/2021 kepada dosen Unsyiah Dr. Saiful Mahdi yang divonis 3 bulan penjara akibat mengkritik proses seleksi CPNS di grup percakapan dosen,
+    menegaskan perlindungan terhadap kebebasan mimbar akademik dan hak bersuara warga negara.
+  source_ids: [keppres-17-2021]
+  dimension_ids: [kedaulatan-rakyat, checks-balances]
+
+- id: ev-dpr-kuhp-nasional-baru-2023
+  term_id: dpr-2019-2024
+  date: "2023-01-02"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 1 Tahun 2023 tentang KUHP Nasional (Dekriminalisasi & Pemaafan Hakim)
+  summary_id: >-
+    DPR dan Pemerintah mengesahkan KUHP Nasional baru menggantikan Wetboek van Strafrecht warisan Hindia Belanda,
+    memperkenalkan pidana kerja sosial dan pidana pengawasan sebagai alternatif penjara, serta mengadopsi asas pemaafan hakim (judicial pardon) untuk mencegah kriminalisasi berlebihan.
+  source_ids: [uu-1-2023]
+  dimension_ids: [negara-hukum, sila-2]
+
+- id: ev-vonis-bebas-haris-fatia-2024
+  term_id: ma-reformasi-sekarang
+  date: "2024-01-08"
+  category: pengadilan
+  title_id: Vonis Bebas Murni Haris Azhar dan Fatia Maulidiyanti oleh Pengadilan Negeri & Kasasi MA
+  summary_id: >-
+    Majelis Hakim memvonis bebas murni dua aktivis HAM Haris Azhar dan Fatia Maulidiyanti dari dakwaan pencemaran nama baik pejabat negara (Luhut Binsar Pandjaitan),
+    menegaskan bahwa riset keterkaitan oligarki dan eksploitasi militer-tambang di Intan Jaya Papua adalah bagian sah dari partisipasi publik dan bukan tindak pidana.
+  source_ids: [putusan-pn-jaktim-haris-fatia-2024, putusan-ma-haris-fatia-2024]
+  dimension_ids: [kedaulatan-rakyat, negara-hukum]
+
+- id: ev-vonis-bebas-anti-slapp-daniel-frits-2024
+  term_id: ma-reformasi-sekarang
+  date: "2024-05-21"
+  category: pengadilan
+  title_id: Putusan Bebas PT Semarang Kasus Daniel Frits Menegaskan Perlindungan Anti-SLAPP Pejuang Lingkungan
+  summary_id: >-
+    Pengadilan Tinggi Semarang membatalkan vonis bersalah dan membebaskan aktivis lingkungan Karimunjawa Daniel Frits Tangkilisan,
+    menerapkan norma Anti-SLAPP Pasal 66 UU PPLH yang menegaskan setiap orang yang memperjuangkan hak atas lingkungan hidup yang baik dan sehat tidak dapat dituntut secara pidana maupun digugat perdata.
+  source_ids: [putusan-pt-semarang-daniel-frits-2024]
+  dimension_ids: [negara-hukum, sila-2]
+
+
 
 
 

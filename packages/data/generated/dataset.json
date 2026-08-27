@@ -6885,6 +6885,83 @@
       ]
     },
     {
+      "id": "ev-mk-putusan-haatzaai-artikelen-2007",
+      "term_id": "mk-2003-2008",
+      "date": "2007-07-17",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 6/PUU-V/2007 Menghapus Pasal Permusuhan Pemerintah (Haatzaai Artikelen)",
+      "summary_id": "MK membatalkan Pasal 154 dan 155 KUHP warisan kolonial Belanda tentang penyebaran perasaan permusuhan atau kebencian terhadap pemerintah, mendekriminalisasi kritik warga negara dan melindungi kebebasan berpendapat di muka umum dari represi penguasa.",
+      "source_ids": [
+        "putusan-mk-6-puu-v-2007"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-kriminalisasi-bibit-chandra-2009",
+      "term_id": "presiden-sby-ii",
+      "date": "2009-11-23",
+      "category": "krisis",
+      "title_id": "Kriminalisasi Pimpinan KPK Bibit-Chandra, Rekomendasi Tim 8, dan Penerbitan SKP2",
+      "summary_id": "Penetapan tersangka dan penahanan dua pimpinan KPK Bibit Samad Rianto dan Chandra Hamzah oleh kepolisian memicu kemarahan publik atas dugaan rekayasa kasus (Cicak vs Buaya I), memaksa Presiden membentuk Tim 8 Independen dan Kejaksaan menerbitkan SKP2 demi menghentikan penuntutan.",
+      "source_ids": [
+        "rekomendasi-tim-8-kriminalisasi-kpk-2009",
+        "skp2-kejaksaan-bibit-chandra-2009"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-kriminalisasi-prita-mulyasari-2008-2011",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2011-09-17",
+      "category": "pengadilan",
+      "title_id": "Kriminalisasi Konsumen Prita Mulyasari dan Pembebasan Murni oleh Mahkamah Agung",
+      "summary_id": "Ibu rumah tangga Prita Mulyasari dipidanakan dan ditahan karena mengirim email keluhan pelayanan rumah sakit menggunakan pasal pencemaran nama baik UU ITE, memicu gerakan moral koin keadilan sebelum akhirnya Mahkamah Agung membebaskan murni Prita pada tingkat Peninjauan Kembali (PK).",
+      "source_ids": [
+        "putusan-ma-prita-mulyasari-2011",
+        "putusan-mk-50-puu-vi-2008"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-ma-perma-tipiring-nenek-minah-2012",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2012-02-27",
+      "category": "produk-hukum",
+      "title_id": "Penerbitan PERMA No. 2/2012 tentang Batasan Tipiring Rp2,5 Juta Pasca Kasus Nenek Minah",
+      "summary_id": "Merespons gelombang kritik atas pemidanaan kaum rentan miskin (seperti vonis Nenek Minah yang memetik 3 buah kakao), Mahkamah Agung menerbitkan PERMA penyesuaian batasan tipiring menjadi Rp2,5 juta agar tersangka tidak ditahan dan mengutamakan penyelesaian restoratif.",
+      "source_ids": [
+        "perma-2-2012"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-hutan-adat-2012",
+      "term_id": "mk-2008-2013",
+      "date": "2013-05-16",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 35/PUU-X/2012 Mengakui Hutan Adat & Mendekriminalisasi Masyarakat Hukum Adat",
+      "summary_id": "MK memutuskan bahwa hutan adat adalah hutan hak milik masyarakat adat dan bukan hutan negara, menghentikan gelombang kriminalisasi terhadap masyarakat adat yang mengelola wilayah tanah ulayat leluhur mereka dari jeratan pasal pidana kehutanan.",
+      "source_ids": [
+        "putusan-mk-35-puu-x-2012"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "negara-hukum"
+      ]
+    },
+    {
       "id": "ev-mk-putusan-spdp-2016",
       "term_id": "mk-2013-2018",
       "date": "2016-01-11",
@@ -7742,6 +7819,112 @@
       "dimension_ids": [
         "sila-5",
         "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-kriminalisasi-budi-pego-tumpang-pitu-2018",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2018-10-16",
+      "category": "pengadilan",
+      "title_id": "Kriminalisasi Aktivis Tolak Tambang Tumpang Pitu Budi Pego Menggunakan Pasal Komunisme",
+      "summary_id": "Pejuang lingkungan hidup Banyuwangi Heri Budiawan (Budi Pego) dipidana penjara 4 tahun melalui penerapan Pasal 107a KUHP (ajaran komunisme), meski pembentangan spanduk berlogo palu arit dalam aksi unjuk rasa tolak tambang emas diduga kuat merupakan bentuk provokasi dan rekayasa kriminalisasi (SLAPP).",
+      "source_ids": [
+        "putusan-ma-budi-pego-2018"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-amnesti-presiden-baiq-nuril-2019",
+      "term_id": "presiden-jokowi-i",
+      "date": "2019-07-29",
+      "category": "peristiwa",
+      "title_id": "Pemberian Amnesti Kepresidenan kepada Baiq Nuril Maknun Pasca Kriminalisasi UU ITE",
+      "summary_id": "Presiden Joko Widodo menggunakan hak prerogatif amnesti konstitusional (Pasal 14 ayat 2 UUD 1945) dengan persetujuan bulat DPR RI untuk membebaskan Baiq Nuril Maknun dari vonis pidana UU ITE, memulihkan keadilan substantif bagi korban pelecehan seksual di tempat kerja.",
+      "source_ids": [
+        "keppres-22-2019"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-skb-tiga-menteri-ite-2021",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2021-06-23",
+      "category": "produk-hukum",
+      "title_id": "Penerbitan SKB Pedoman Implementasi Pasal Karet UU ITE Demi Mencegah Kriminalisasi",
+      "summary_id": "Pemerintah melalui Menkominfo, Jaksa Agung, dan Kapolri menerbitkan Keputusan Bersama Pedoman Kriteria Implementasi Pasal 27, 28, 29 UU ITE guna mencegah disparitas penegakan hukum, menghentikan saling lapor antar-warga, dan mengedepankan pendekatan mediasi restorative justice.",
+      "source_ids": [
+        "skb-uu-ite-2021"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-amnesti-presiden-saiful-mahdi-2021",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2021-10-12",
+      "category": "peristiwa",
+      "title_id": "Pemberian Amnesti Kepresidenan kepada Dr. Saiful Mahdi atas Kriminalisasi Kritik Akademik",
+      "summary_id": "Presiden memberikan amnesti melalui Keppres No. 17/2021 kepada dosen Unsyiah Dr. Saiful Mahdi yang divonis 3 bulan penjara akibat mengkritik proses seleksi CPNS di grup percakapan dosen, menegaskan perlindungan terhadap kebebasan mimbar akademik dan hak bersuara warga negara.",
+      "source_ids": [
+        "keppres-17-2021"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-dpr-kuhp-nasional-baru-2023",
+      "term_id": "dpr-2019-2024",
+      "date": "2023-01-02",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 1 Tahun 2023 tentang KUHP Nasional (Dekriminalisasi & Pemaafan Hakim)",
+      "summary_id": "DPR dan Pemerintah mengesahkan KUHP Nasional baru menggantikan Wetboek van Strafrecht warisan Hindia Belanda, memperkenalkan pidana kerja sosial dan pidana pengawasan sebagai alternatif penjara, serta mengadopsi asas pemaafan hakim (judicial pardon) untuk mencegah kriminalisasi berlebihan.",
+      "source_ids": [
+        "uu-1-2023"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-vonis-bebas-haris-fatia-2024",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2024-01-08",
+      "category": "pengadilan",
+      "title_id": "Vonis Bebas Murni Haris Azhar dan Fatia Maulidiyanti oleh Pengadilan Negeri & Kasasi MA",
+      "summary_id": "Majelis Hakim memvonis bebas murni dua aktivis HAM Haris Azhar dan Fatia Maulidiyanti dari dakwaan pencemaran nama baik pejabat negara (Luhut Binsar Pandjaitan), menegaskan bahwa riset keterkaitan oligarki dan eksploitasi militer-tambang di Intan Jaya Papua adalah bagian sah dari partisipasi publik dan bukan tindak pidana.",
+      "source_ids": [
+        "putusan-pn-jaktim-haris-fatia-2024",
+        "putusan-ma-haris-fatia-2024"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-vonis-bebas-anti-slapp-daniel-frits-2024",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2024-05-21",
+      "category": "pengadilan",
+      "title_id": "Putusan Bebas PT Semarang Kasus Daniel Frits Menegaskan Perlindungan Anti-SLAPP Pejuang Lingkungan",
+      "summary_id": "Pengadilan Tinggi Semarang membatalkan vonis bersalah dan membebaskan aktivis lingkungan Karimunjawa Daniel Frits Tangkilisan, menerapkan norma Anti-SLAPP Pasal 66 UU PPLH yang menegaskan setiap orang yang memperjuangkan hak atas lingkungan hidup yang baik dan sehat tidak dapat dituntut secara pidana maupun digugat perdata.",
+      "source_ids": [
+        "putusan-pt-semarang-daniel-frits-2024"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
       ]
     },
     {
@@ -11011,6 +11194,130 @@
       "year": 2019,
       "citation_id": "Berita Negara RI Tahun 2019 No. 944",
       "resolved_url": "https://duckduckgo.com/?q=Peraturan%20Mahkamah%20Agung%20No.%204%20Tahun%202019%20tentang%20Perubahan%20Tata%20Cara%20Penyelesaian%20Gugatan%20Sederhana%20(Small%20Claim%20Court)"
+    },
+    {
+      "id": "putusan-ma-prita-mulyasari-2011",
+      "type": "putusan-ma",
+      "title_id": "Putusan PK Mahkamah Agung No. 225 PK/Pid.Sus/2011 (Pembebasan Murni Prita Mulyasari dari Jeratan UU ITE)",
+      "year": 2011,
+      "citation_id": "Putusan PK MA No. 225 PK/Pid.Sus/2011",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20PK%20Mahkamah%20Agung%20No.%20225%20PK%2FPid.Sus%2F2011%20(Pembebasan%20Murni%20Prita%20Mulyasari%20dari%20Jeratan%20UU%20ITE)"
+    },
+    {
+      "id": "skp2-kejaksaan-bibit-chandra-2009",
+      "type": "laporan-lembaga",
+      "title_id": "Surat Ketetapan Penghentian Penuntutan (SKP2) Kejaksaan Negeri Jaksel Perkara Bibit Samad Rianto & Chandra Hamzah",
+      "year": 2009,
+      "citation_id": "SKP2 Kejaksaan Negeri Jaksel 2009",
+      "resolved_url": "https://duckduckgo.com/?q=Surat%20Ketetapan%20Penghentian%20Penuntutan%20(SKP2)%20Kejaksaan%20Negeri%20Jaksel%20Perkara%20Bibit%20Samad%20Rianto%20%26%20Chandra%20Hamzah"
+    },
+    {
+      "id": "rekomendasi-tim-8-kriminalisasi-kpk-2009",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Akhir Rekomendasi Tim 8 Kasus Kriminalisasi Pimpinan KPK Bibit-Chandra",
+      "year": 2009,
+      "citation_id": "Laporan Resmi Tim 8 Kepresidenan 2009",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Akhir%20Rekomendasi%20Tim%208%20Kasus%20Kriminalisasi%20Pimpinan%20KPK%20Bibit-Chandra"
+    },
+    {
+      "id": "keppres-22-2019",
+      "type": "keppres",
+      "title_id": "Keppres No. 22 Tahun 2019 tentang Pemberian Amnesti kepada Baiq Nuril Maknun",
+      "year": 2019,
+      "citation_id": "Keppres No. 22 Tahun 2019",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=KEPPRES%2022%20Tahun%202019"
+    },
+    {
+      "id": "keppres-17-2021",
+      "type": "keppres",
+      "title_id": "Keppres No. 17 Tahun 2021 tentang Pemberian Amnesti kepada Dr. Saiful Mahdi",
+      "year": 2021,
+      "citation_id": "Keppres No. 17 Tahun 2021",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=KEPPRES%2017%20Tahun%202021"
+    },
+    {
+      "id": "putusan-pn-jaktim-haris-fatia-2024",
+      "type": "putusan-ma",
+      "title_id": "Putusan PN Jakarta Timur No. 202/Pid.Sus/2023/PN.Jkt.Tim (Vonis Bebas Murni Haris Azhar dan Fatia Maulidiyanti)",
+      "year": 2024,
+      "citation_id": "Putusan PN Jaktim No. 202/Pid.Sus/2023/PN.Jkt.Tim",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20PN%20Jakarta%20Timur%20No.%20202%2FPid.Sus%2F2023%2FPN.Jkt.Tim%20(Vonis%20Bebas%20Murni%20Haris%20Azhar%20dan%20Fatia%20Maulidiyanti)"
+    },
+    {
+      "id": "putusan-ma-haris-fatia-2024",
+      "type": "putusan-ma",
+      "title_id": "Putusan Kasasi Mahkamah Agung No. 5712 K/Pid.Sus/2024 (Menolak Kasasi Jaksa atas Vonis Bebas Haris Azhar & Fatia Maulidiyanti)",
+      "year": 2024,
+      "citation_id": "Putusan MA No. 5712 K/Pid.Sus/2024",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20Kasasi%20Mahkamah%20Agung%20No.%205712%20K%2FPid.Sus%2F2024%20(Menolak%20Kasasi%20Jaksa%20atas%20Vonis%20Bebas%20Haris%20Azhar%20%26%20Fatia%20Maulidiyanti)"
+    },
+    {
+      "id": "putusan-pt-semarang-daniel-frits-2024",
+      "type": "putusan-ma",
+      "title_id": "Putusan PT Semarang No. 374/PID.SUS/2024/PT SMG (Pembebasan Aktivis Lingkungan Daniel Frits Berdasar Norma Anti-SLAPP)",
+      "year": 2024,
+      "citation_id": "Putusan PT Semarang No. 374/PID.SUS/2024/PT SMG",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20PT%20Semarang%20No.%20374%2FPID.SUS%2F2024%2FPT%20SMG%20(Pembebasan%20Aktivis%20Lingkungan%20Daniel%20Frits%20Berdasar%20Norma%20Anti-SLAPP)"
+    },
+    {
+      "id": "perma-2-2012",
+      "type": "putusan-ma",
+      "title_id": "Peraturan Mahkamah Agung No. 2 Tahun 2012 tentang Penyesuaian Batasan Tipiring dan Denda KUHP (Rp2,5 Juta)",
+      "year": 2012,
+      "citation_id": "Berita Negara RI Tahun 2012 No. 250",
+      "resolved_url": "https://duckduckgo.com/?q=Peraturan%20Mahkamah%20Agung%20No.%202%20Tahun%202012%20tentang%20Penyesuaian%20Batasan%20Tipiring%20dan%20Denda%20KUHP%20(Rp2%2C5%20Juta)"
+    },
+    {
+      "id": "putusan-mk-6-puu-v-2007",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 6/PUU-V/2007 (Pembatalan Pasal 154 & 155 KUHP tentang Permusuhan terhadap Pemerintah / Haatzaai Artikelen)",
+      "year": 2007,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=6/PUU-V/2007",
+      "citation_id": "Putusan MKRI No. 6/PUU-V/2007",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=6/PUU-V/2007"
+    },
+    {
+      "id": "putusan-mk-50-puu-vi-2008",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 50/PUU-VI/2008 (Penafsiran Konstitusional Pasal 27 ayat 3 UU ITE sebagai Delik Aduan Khusus)",
+      "year": 2009,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=50/PUU-VI/2008",
+      "citation_id": "Putusan MKRI No. 50/PUU-VI/2008",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=50/PUU-VI/2008"
+    },
+    {
+      "id": "putusan-mk-35-puu-x-2012",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 35/PUU-X/2012 (Hutan Adat Adalah Hutan Hak Masyarakat Adat, Bukan Hutan Negara)",
+      "year": 2013,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=35/PUU-X/2012",
+      "citation_id": "Putusan MKRI No. 35/PUU-X/2012",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=35/PUU-X/2012"
+    },
+    {
+      "id": "skb-uu-ite-2021",
+      "type": "lainnya",
+      "title_id": "Keputusan Bersama Menkominfo, Jaksa Agung, dan Kapolri No. 229/2021 tentang Pedoman Implementasi Pasal UU ITE",
+      "year": 2021,
+      "citation_id": "SKB 3 Lembaga No. 229, 154, KB/2/VI/2021",
+      "resolved_url": "https://duckduckgo.com/?q=Keputusan%20Bersama%20Menkominfo%2C%20Jaksa%20Agung%2C%20dan%20Kapolri%20No.%20229%2F2021%20tentang%20Pedoman%20Implementasi%20Pasal%20UU%20ITE"
+    },
+    {
+      "id": "uu-1-2023",
+      "type": "undang-undang",
+      "title_id": "UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (KUHP Nasional)",
+      "year": 2023,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023",
+      "citation_id": "LN No. 1 Tahun 2023, TLN No. 6842",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023"
+    },
+    {
+      "id": "putusan-ma-budi-pego-2018",
+      "type": "putusan-ma",
+      "title_id": "Putusan Kasasi Mahkamah Agung No. 2548 K/Pid.Sus/2018 atas Kasus Aktivis Tumpang Pitu Heri Budiawan (Budi Pego)",
+      "year": 2018,
+      "citation_id": "Putusan MA No. 2548 K/Pid.Sus/2018",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20Kasasi%20Mahkamah%20Agung%20No.%202548%20K%2FPid.Sus%2F2018%20atas%20Kasus%20Aktivis%20Tumpang%20Pitu%20Heri%20Budiawan%20(Budi%20Pego)"
     }
   ],
   "assessments": [

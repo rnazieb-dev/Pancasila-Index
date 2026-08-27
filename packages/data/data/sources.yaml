@@ -2301,6 +2301,101 @@
   year: 2019
   citation_id: Berita Negara RI Tahun 2019 No. 944
 
+- id: putusan-ma-prita-mulyasari-2011
+  type: putusan-ma
+  title_id: Putusan PK Mahkamah Agung No. 225 PK/Pid.Sus/2011 (Pembebasan Murni Prita Mulyasari dari Jeratan UU ITE)
+  year: 2011
+  citation_id: Putusan PK MA No. 225 PK/Pid.Sus/2011
+
+- id: skp2-kejaksaan-bibit-chandra-2009
+  type: laporan-lembaga
+  title_id: Surat Ketetapan Penghentian Penuntutan (SKP2) Kejaksaan Negeri Jaksel Perkara Bibit Samad Rianto & Chandra Hamzah
+  year: 2009
+  citation_id: SKP2 Kejaksaan Negeri Jaksel 2009
+
+- id: rekomendasi-tim-8-kriminalisasi-kpk-2009
+  type: laporan-lembaga
+  title_id: Laporan Akhir Rekomendasi Tim 8 Kasus Kriminalisasi Pimpinan KPK Bibit-Chandra
+  year: 2009
+  citation_id: Laporan Resmi Tim 8 Kepresidenan 2009
+
+- id: keppres-22-2019
+  type: keppres
+  title_id: Keppres No. 22 Tahun 2019 tentang Pemberian Amnesti kepada Baiq Nuril Maknun
+  year: 2019
+  citation_id: Keppres No. 22 Tahun 2019
+
+- id: keppres-17-2021
+  type: keppres
+  title_id: Keppres No. 17 Tahun 2021 tentang Pemberian Amnesti kepada Dr. Saiful Mahdi
+  year: 2021
+  citation_id: Keppres No. 17 Tahun 2021
+
+- id: putusan-pn-jaktim-haris-fatia-2024
+  type: putusan-ma
+  title_id: Putusan PN Jakarta Timur No. 202/Pid.Sus/2023/PN.Jkt.Tim (Vonis Bebas Murni Haris Azhar dan Fatia Maulidiyanti)
+  year: 2024
+  citation_id: Putusan PN Jaktim No. 202/Pid.Sus/2023/PN.Jkt.Tim
+
+- id: putusan-ma-haris-fatia-2024
+  type: putusan-ma
+  title_id: Putusan Kasasi Mahkamah Agung No. 5712 K/Pid.Sus/2024 (Menolak Kasasi Jaksa atas Vonis Bebas Haris Azhar & Fatia Maulidiyanti)
+  year: 2024
+  citation_id: Putusan MA No. 5712 K/Pid.Sus/2024
+
+- id: putusan-pt-semarang-daniel-frits-2024
+  type: putusan-ma
+  title_id: Putusan PT Semarang No. 374/PID.SUS/2024/PT SMG (Pembebasan Aktivis Lingkungan Daniel Frits Berdasar Norma Anti-SLAPP)
+  year: 2024
+  citation_id: Putusan PT Semarang No. 374/PID.SUS/2024/PT SMG
+
+- id: perma-2-2012
+  type: putusan-ma
+  title_id: Peraturan Mahkamah Agung No. 2 Tahun 2012 tentang Penyesuaian Batasan Tipiring dan Denda KUHP (Rp2,5 Juta)
+  year: 2012
+  citation_id: Berita Negara RI Tahun 2012 No. 250
+
+- id: putusan-mk-6-puu-v-2007
+  type: putusan-mk
+  title_id: Putusan MK No. 6/PUU-V/2007 (Pembatalan Pasal 154 & 155 KUHP tentang Permusuhan terhadap Pemerintah / Haatzaai Artikelen)
+  year: 2007
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=6/PUU-V/2007
+  citation_id: Putusan MKRI No. 6/PUU-V/2007
+
+- id: putusan-mk-50-puu-vi-2008
+  type: putusan-mk
+  title_id: Putusan MK No. 50/PUU-VI/2008 (Penafsiran Konstitusional Pasal 27 ayat 3 UU ITE sebagai Delik Aduan Khusus)
+  year: 2009
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=50/PUU-VI/2008
+  citation_id: Putusan MKRI No. 50/PUU-VI/2008
+
+- id: putusan-mk-35-puu-x-2012
+  type: putusan-mk
+  title_id: Putusan MK No. 35/PUU-X/2012 (Hutan Adat Adalah Hutan Hak Masyarakat Adat, Bukan Hutan Negara)
+  year: 2013
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=35/PUU-X/2012
+  citation_id: Putusan MKRI No. 35/PUU-X/2012
+
+- id: skb-uu-ite-2021
+  type: lainnya
+  title_id: Keputusan Bersama Menkominfo, Jaksa Agung, dan Kapolri No. 229/2021 tentang Pedoman Implementasi Pasal UU ITE
+  year: 2021
+  citation_id: SKB 3 Lembaga No. 229, 154, KB/2/VI/2021
+
+- id: uu-1-2023
+  type: undang-undang
+  title_id: UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (KUHP Nasional)
+  year: 2023
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023
+  citation_id: LN No. 1 Tahun 2023, TLN No. 6842
+
+- id: putusan-ma-budi-pego-2018
+  type: putusan-ma
+  title_id: Putusan Kasasi Mahkamah Agung No. 2548 K/Pid.Sus/2018 atas Kasus Aktivis Tumpang Pitu Heri Budiawan (Budi Pego)
+  year: 2018
+  citation_id: Putusan MA No. 2548 K/Pid.Sus/2018
+
+
 
 
 
