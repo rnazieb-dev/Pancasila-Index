@@ -1215,6 +1215,22 @@
       "description_id": "Lembaga perwakilan rakyat dengan fungsi legislasi, anggaran, dan pengawasan (Pasal 20A UUD 1945). Dinilai per periode keanggotaan hasil pemilu, berdasarkan produk legislasi dan jalannya fungsi pengawasan.\n"
     },
     {
+      "id": "mpr-ri",
+      "slug": "mpr",
+      "branch": "legislatif",
+      "name_id": "Majelis Permusyawaratan Rakyat Republik Indonesia",
+      "short_id": "MPR RI",
+      "description_id": "Lembaga permusyawaratan perwakilan yang berwenang mengubah dan menetapkan UUD, melantik Presiden dan/atau Wakil Presiden, serta memberhentikan Presiden dan/atau Wakil Presiden menurut UUD 1945 (Pasal 2 dan Pasal 3). Terdiri atas anggota DPR dan anggota DPD yang dipilih melalui pemilu.\n"
+    },
+    {
+      "id": "dpd-ri",
+      "slug": "dpd",
+      "branch": "legislatif",
+      "name_id": "Dewan Perwakilan Daerah Republik Indonesia",
+      "short_id": "DPD RI",
+      "description_id": "Lembaga perwakilan daerah yang beranggotakan wakil-wakil daerah provinsi hasil pemilu (Pasal 22C dan 22D UUD 1945). Berwenang mengajukan dan ikut membahas RUU otonomi daerah, hubungan pusat-daerah, pemekaran daerah, dan pengelolaan SDA/keuangan daerah.\n"
+    },
+    {
       "id": "mahkamah-konstitusi",
       "slug": "mahkamah-konstitusi",
       "branch": "yudikatif",
@@ -1229,9 +1245,785 @@
       "name_id": "Mahkamah Agung Republik Indonesia",
       "short_id": "MA RI",
       "description_id": "Puncak empat lingkungan peradilan dengan kewenangan kasasi, peninjauan kembali, dan uji peraturan di bawah UU (Pasal 24A UUD 1945). Berdiri sejak 1946 lewat UU No. 1 Tahun 1946. Dinilai per periode politik nasional dari independensi, integritas, dan mutu yurisprudensinya.\n"
+    },
+    {
+      "id": "bpk-ri",
+      "slug": "bpk",
+      "branch": "eksaminatif",
+      "name_id": "Badan Pemeriksa Keuangan Republik Indonesia",
+      "short_id": "BPK RI",
+      "description_id": "Lembaga negara yang bebas dan mandiri untuk memeriksa pengelolaan dan tanggung jawab tentang keuangan negara (Pasal 23E, 23F, dan 23G UUD 1945). Menyerahkan laporan hasil pemeriksaan keuangan kepada DPR, DPD, dan DPRD serta memantau tindak lanjut rekomendasi audit.\n"
+    },
+    {
+      "id": "komisi-yudisial",
+      "slug": "komisi-yudisial",
+      "branch": "yudikatif",
+      "name_id": "Komisi Yudisial Republik Indonesia",
+      "short_id": "KY RI",
+      "description_id": "Lembaga mandiri pengawas kehormatan peradilan (Pasal 24B UUD 1945) yang berwenang mengusulkan pengangkatan calon Hakim Agung ke DPR serta menjaga dan menegakkan kehormatan, keluhuran martabat, dan perilaku hakim di seluruh lingkungan peradilan.\n"
     }
   ],
   "terms": [
+    {
+      "id": "bpk-1947-1998",
+      "institution_id": "bpk-ri",
+      "label_id": "BPK Era Pra-Reformasi",
+      "era": "revolusi",
+      "start_date": "1947-01-01",
+      "end_date": "1998-05-21",
+      "actors": [
+        {
+          "name": "R. Soerasno",
+          "role_id": "Ketua BPK pertama (1947–1949)"
+        },
+        {
+          "name": "R. Kasirman",
+          "role_id": "Ketua BPK (1949–1957)"
+        },
+        {
+          "name": "Sri Sultan Hamengkubuwono IX",
+          "role_id": "Ketua BPK (1964–1966)"
+        },
+        {
+          "name": "Umar Wirahadikusumah",
+          "role_id": "Ketua BPK (1973–1983)"
+        },
+        {
+          "name": "M. Jusuf",
+          "role_id": "Ketua BPK (1983–1993)"
+        },
+        {
+          "name": "JB Sumarlin",
+          "role_id": "Ketua BPK (1993–1998)"
+        }
+      ]
+    },
+    {
+      "id": "bpk-1998-2009",
+      "institution_id": "bpk-ri",
+      "label_id": "BPK Era Reformasi & Satu Pintu Pemeriksaan Keuangan",
+      "era": "reformasi",
+      "start_date": "1998-05-22",
+      "end_date": "2009-10-19",
+      "actors": [
+        {
+          "name": "Satrio Budihardjo Joedono",
+          "role_id": "Ketua BPK RI (1998–2004)"
+        },
+        {
+          "name": "Anwar Nasution",
+          "role_id": "Ketua BPK RI (2004–2009)"
+        },
+        {
+          "name": "Abdullah Zainie",
+          "role_id": "Wakil Ketua BPK RI (2004–2009)"
+        }
+      ]
+    },
+    {
+      "id": "bpk-2009-2019",
+      "institution_id": "bpk-ri",
+      "label_id": "BPK Era Konsolidasi Transparansi & Akuntabilitas",
+      "era": "reformasi",
+      "start_date": "2009-10-19",
+      "end_date": "2019-10-19",
+      "actors": [
+        {
+          "name": "Hadi Poernomo",
+          "role_id": "Ketua BPK RI (2009–2014)"
+        },
+        {
+          "name": "Harry Azhar Azis",
+          "role_id": "Ketua BPK RI (2014–2017)"
+        },
+        {
+          "name": "Moermahadi Soerja Djanegara",
+          "role_id": "Ketua BPK RI (2017–2019)"
+        },
+        {
+          "name": "Bahrullah Akbar",
+          "role_id": "Wakil Ketua BPK RI (2017–2019)"
+        }
+      ]
+    },
+    {
+      "id": "bpk-2019-sekarang",
+      "institution_id": "bpk-ri",
+      "label_id": "BPK Periode 2019–kini",
+      "era": "reformasi",
+      "start_date": "2019-10-19",
+      "end_date": null,
+      "actors": [
+        {
+          "name": "Agung Firman Sampurna",
+          "role_id": "Ketua BPK RI (2019–2022)"
+        },
+        {
+          "name": "Isma Yatun",
+          "role_id": "Ketua BPK RI (2022–kini)"
+        },
+        {
+          "name": "Agus Joko Pramono",
+          "role_id": "Wakil Ketua BPK RI (2019–2023)"
+        },
+        {
+          "name": "Hendra Susanto",
+          "role_id": "Wakil Ketua BPK RI (2023–kini)"
+        }
+      ]
+    },
+    {
+      "id": "dpd-2004-2009",
+      "institution_id": "dpd-ri",
+      "label_id": "DPD RI Periode 2004–2009 (Peletakan Fondasi Kelembagaan)",
+      "era": "reformasi",
+      "start_date": "2004-10-01",
+      "end_date": "2009-09-30",
+      "actors": [
+        {
+          "name": "Ginandjar Kartasasmita",
+          "role_id": "Ketua DPD RI (2004–2009)"
+        },
+        {
+          "name": "Irman Gusman",
+          "role_id": "Wakil Ketua DPD RI (2004–2009)"
+        },
+        {
+          "name": "Laode Ida",
+          "role_id": "Wakil Ketua DPD RI (2004–2009)"
+        }
+      ]
+    },
+    {
+      "id": "dpd-2009-2014",
+      "institution_id": "dpd-ri",
+      "label_id": "DPD RI Periode 2009–2014 (Uji Materi Penguatan Legislasi)",
+      "era": "reformasi",
+      "start_date": "2009-10-01",
+      "end_date": "2014-09-30",
+      "actors": [
+        {
+          "name": "Irman Gusman",
+          "role_id": "Ketua DPD RI (2009–2014)"
+        },
+        {
+          "name": "Gusti Kanjeng Ratu Hemas",
+          "role_id": "Permaisuri & Wakil Ketua DPD RI (2009–2014)"
+        },
+        {
+          "name": "Laode Ida",
+          "role_id": "Wakil Ketua DPD RI (2009–2014)"
+        }
+      ]
+    },
+    {
+      "id": "dpd-2014-2019",
+      "institution_id": "dpd-ri",
+      "label_id": "DPD RI Periode 2014–2019",
+      "era": "reformasi",
+      "start_date": "2014-10-01",
+      "end_date": "2019-09-30",
+      "actors": [
+        {
+          "name": "Irman Gusman",
+          "role_id": "Ketua DPD RI (2014–2016)"
+        },
+        {
+          "name": "Mohammad Saleh",
+          "role_id": "Ketua DPD RI (2016–2017)"
+        },
+        {
+          "name": "Oesman Sapta Odang",
+          "role_id": "Ketua DPD RI (2017–2019)"
+        },
+        {
+          "name": "Gusti Kanjeng Ratu Hemas",
+          "role_id": "Wakil Ketua DPD RI (2014–2019)"
+        }
+      ]
+    },
+    {
+      "id": "dpd-2019-2024",
+      "institution_id": "dpd-ri",
+      "label_id": "DPD RI Periode 2019–2024 (Aspirasi Otonomi & Daerah Kepulauan)",
+      "era": "reformasi",
+      "start_date": "2019-10-01",
+      "end_date": "2024-09-30",
+      "actors": [
+        {
+          "name": "AA La Nyalla Mahmud Mattalitti",
+          "role_id": "Ketua DPD RI (2019–2024)"
+        },
+        {
+          "name": "Nono Sampono",
+          "role_id": "Wakil Ketua DPD RI (2019–2024)"
+        },
+        {
+          "name": "Mahyudin",
+          "role_id": "Wakil Ketua DPD RI (2019–2024)"
+        },
+        {
+          "name": "Sultan Bachtiar Najamudin",
+          "role_id": "Wakil Ketua DPD RI (2019–2024)"
+        }
+      ]
+    },
+    {
+      "id": "dpd-2024-sekarang",
+      "institution_id": "dpd-ri",
+      "label_id": "DPD RI Periode 2024–2029",
+      "era": "reformasi",
+      "start_date": "2024-10-01",
+      "end_date": null,
+      "actors": [
+        {
+          "name": "Sultan Bachtiar Najamudin",
+          "role_id": "Ketua DPD RI (2024–kini)"
+        },
+        {
+          "name": "Gusti Kanjeng Ratu Hemas",
+          "role_id": "Wakil Ketua DPD RI (2024–kini)"
+        },
+        {
+          "name": "Yorrys Raweyai",
+          "role_id": "Wakil Ketua DPD RI (2024–kini)"
+        },
+        {
+          "name": "Tamsil Linrung",
+          "role_id": "Wakil Ketua DPD RI (2024–kini)"
+        }
+      ]
+    },
+    {
+      "id": "dpr-1999-2004",
+      "institution_id": "dpr-ri",
+      "label_id": "DPR RI Hasil Pemilu 1999",
+      "era": "reformasi",
+      "start_date": "1999-10-01",
+      "end_date": "2004-09-30",
+      "actors": [
+        {
+          "name": "Akbar Tanjung",
+          "role_id": "Ketua DPR RI"
+        }
+      ]
+    },
+    {
+      "id": "dpr-2004-2009",
+      "institution_id": "dpr-ri",
+      "label_id": "DPR RI Hasil Pemilu 2004",
+      "era": "reformasi",
+      "start_date": "2004-10-01",
+      "end_date": "2009-09-30",
+      "actors": [
+        {
+          "name": "Agung Laksono",
+          "role_id": "Ketua DPR RI"
+        }
+      ]
+    },
+    {
+      "id": "dpr-2009-2014",
+      "institution_id": "dpr-ri",
+      "label_id": "DPR RI Hasil Pemilu 2009",
+      "era": "reformasi",
+      "start_date": "2009-10-01",
+      "end_date": "2014-09-30",
+      "actors": [
+        {
+          "name": "Marzuki Alie",
+          "role_id": "Ketua DPR RI"
+        }
+      ]
+    },
+    {
+      "id": "dpr-2014-2019",
+      "institution_id": "dpr-ri",
+      "label_id": "DPR RI Hasil Pemilu 2014",
+      "era": "reformasi",
+      "start_date": "2014-10-01",
+      "end_date": "2019-09-30",
+      "actors": [
+        {
+          "name": "Setya Novanto",
+          "role_id": "Ketua DPR RI (2014-2015)"
+        },
+        {
+          "name": "Zulkifli Hasan",
+          "role_id": "Ketua DPR RI (2016)"
+        },
+        {
+          "name": "Bambang Soesatyo",
+          "role_id": "Ketua DPR RI (2016-2019)"
+        }
+      ]
+    },
+    {
+      "id": "dpr-2019-2024",
+      "institution_id": "dpr-ri",
+      "label_id": "DPR RI Hasil Pemilu 2019",
+      "era": "reformasi",
+      "start_date": "2019-10-01",
+      "end_date": "2024-09-30",
+      "actors": [
+        {
+          "name": "Puan Maharani",
+          "role_id": "Ketua DPR RI"
+        }
+      ]
+    },
+    {
+      "id": "dpr-2024-2029",
+      "institution_id": "dpr-ri",
+      "label_id": "DPR RI Hasil Pemilu 2024",
+      "era": "reformasi",
+      "start_date": "2024-10-01",
+      "end_date": null,
+      "actors": [
+        {
+          "name": "Puan Maharani",
+          "role_id": "Ketua DPR RI"
+        }
+      ]
+    },
+    {
+      "id": "ky-2005-2010",
+      "institution_id": "komisi-yudisial",
+      "label_id": "KY Periode I (2005–2010) — Peletakan Pengawasan Etik Peradilan",
+      "era": "reformasi",
+      "start_date": "2005-08-02",
+      "end_date": "2010-12-20",
+      "actors": [
+        {
+          "name": "M. Busyro Muqoddas",
+          "role_id": "Ketua Komisi Yudisial RI (2005–2010)"
+        },
+        {
+          "name": "Thahir Saimima",
+          "role_id": "Wakil Ketua Komisi Yudisial RI (2005–2010)"
+        }
+      ]
+    },
+    {
+      "id": "ky-2010-2015",
+      "institution_id": "komisi-yudisial",
+      "label_id": "KY Periode II (2010–2015) — Penguatan Pasca-UU 18/2011",
+      "era": "reformasi",
+      "start_date": "2010-12-20",
+      "end_date": "2015-12-20",
+      "actors": [
+        {
+          "name": "Eman Suparman",
+          "role_id": "Ketua Komisi Yudisial RI (2010–2013)"
+        },
+        {
+          "name": "Suparman Marzuki",
+          "role_id": "Ketua Komisi Yudisial RI (2013–2015)"
+        },
+        {
+          "name": "Imam Anshori Saleh",
+          "role_id": "Wakil Ketua Komisi Yudisial RI (2010–2013)"
+        },
+        {
+          "name": "Abbas Said",
+          "role_id": "Wakil Ketua Komisi Yudisial RI (2013–2015)"
+        }
+      ]
+    },
+    {
+      "id": "ky-2015-2020",
+      "institution_id": "komisi-yudisial",
+      "label_id": "KY Periode III (2015–2020) — Penegakan Kode Etik & MKH",
+      "era": "reformasi",
+      "start_date": "2015-12-20",
+      "end_date": "2020-12-21",
+      "actors": [
+        {
+          "name": "Aidul Fitriciada Azhari",
+          "role_id": "Ketua Komisi Yudisial RI (2016–2018)"
+        },
+        {
+          "name": "Jaja Ahmad Jayus",
+          "role_id": "Ketua Komisi Yudisial RI (2018–2020)"
+        },
+        {
+          "name": "Sukma Violetta",
+          "role_id": "Wakil Ketua Komisi Yudisial RI (2016–2018)"
+        },
+        {
+          "name": "Maradaman Harahap",
+          "role_id": "Wakil Ketua Komisi Yudisial RI (2018–2020)"
+        }
+      ]
+    },
+    {
+      "id": "ky-2020-sekarang",
+      "institution_id": "komisi-yudisial",
+      "label_id": "KY Periode IV (2020–kini) — Pengawasan Integritas & Seleksi Hakim Agung",
+      "era": "reformasi",
+      "start_date": "2020-12-21",
+      "end_date": null,
+      "actors": [
+        {
+          "name": "Mukti Fajar Nur Dewata",
+          "role_id": "Ketua Komisi Yudisial RI (2021–2023)"
+        },
+        {
+          "name": "Amzulian Rifai",
+          "role_id": "Ketua Komisi Yudisial RI (2023–kini)"
+        },
+        {
+          "name": "M. Taufiq HZ",
+          "role_id": "Wakil Ketua Komisi Yudisial RI (2021–2023)"
+        },
+        {
+          "name": "Siti Nurljanah",
+          "role_id": "Wakil Ketua Komisi Yudisial RI (2023–kini)"
+        }
+      ]
+    },
+    {
+      "id": "ma-revolusi-liberal",
+      "institution_id": "mahkamah-agung",
+      "label_id": "MA Era Revolusi & Demokrasi Liberal",
+      "era": "revolusi",
+      "start_date": "1946-08-22",
+      "end_date": "1959-07-04",
+      "actors": [
+        {
+          "name": "Kusumah Atmadja",
+          "role_id": "Ketua Mahkamah Agung RI pertama (1946–1952)"
+        },
+        {
+          "name": "Mr. Wirjono Prodjodikoro",
+          "role_id": "Ketua Mahkamah Agung RI kedua (1952–1966)"
+        }
+      ]
+    },
+    {
+      "id": "ma-dt-orde-baru",
+      "institution_id": "mahkamah-agung",
+      "label_id": "MA Era Demokrasi Terpimpin & Orde Baru",
+      "era": "demokrasi-terpimpin",
+      "start_date": "1959-07-05",
+      "end_date": "1998-05-21",
+      "actors": [
+        {
+          "name": "Mr. Wirjono Prodjodikoro",
+          "role_id": "Ketua MA (era Demokrasi Terpimpin, status menteri)"
+        },
+        {
+          "name": "Subekti",
+          "role_id": "Ketua MA (1968–1974)"
+        },
+        {
+          "name": "Mudjono",
+          "role_id": "Ketua MA (1979–1984)"
+        },
+        {
+          "name": "Ali Said",
+          "role_id": "Ketua MA (1984–1992)"
+        },
+        {
+          "name": "Purwoto S. Gandasubrata",
+          "role_id": "Ketua MA (1992–1994)"
+        },
+        {
+          "name": "Soerjono",
+          "role_id": "Ketua MA (1994–1996)"
+        },
+        {
+          "name": "Sarwata",
+          "role_id": "Ketua MA (1996–2000)"
+        }
+      ]
+    },
+    {
+      "id": "ma-reformasi-sekarang",
+      "institution_id": "mahkamah-agung",
+      "label_id": "MA Era Reformasi & Satu Atap Peradilan",
+      "era": "reformasi",
+      "start_date": "1998-05-22",
+      "end_date": null,
+      "actors": [
+        {
+          "name": "Bagir Manan",
+          "role_id": "Ketua MA (2001–2008, arsitek penyatuan atap peradilan)"
+        },
+        {
+          "name": "Harifin A. Tumpa",
+          "role_id": "Ketua MA (2009–2012)"
+        },
+        {
+          "name": "Muhammad Hatta Ali",
+          "role_id": "Ketua MA (2012–2020)"
+        },
+        {
+          "name": "Muhammad Syarifuddin",
+          "role_id": "Ketua MA (2020–2024)"
+        },
+        {
+          "name": "Sunarto",
+          "role_id": "Ketua MA (2024–kini)"
+        }
+      ]
+    },
+    {
+      "id": "mk-2003-2008",
+      "institution_id": "mahkamah-konstitusi",
+      "label_id": "MK Periode Pertama (Ketua: Jimly Asshiddiqie)",
+      "era": "reformasi",
+      "start_date": "2003-08-13",
+      "end_date": "2008-08-18",
+      "actors": [
+        {
+          "name": "Jimly Asshiddiqie",
+          "role_id": "Ketua MK pertama (2003–2008)"
+        },
+        {
+          "name": "Mohammad Laica Marzuki",
+          "role_id": "Wakil Ketua MK (2003–2008)"
+        }
+      ]
+    },
+    {
+      "id": "mk-2008-2013",
+      "institution_id": "mahkamah-konstitusi",
+      "label_id": "MK Periode Ketua Mahfud MD dan krisis integritas 2013",
+      "era": "reformasi",
+      "start_date": "2008-08-19",
+      "end_date": "2013-10-01",
+      "actors": [
+        {
+          "name": "Mohammad Mahfud MD",
+          "role_id": "Ketua MK (2008–2013)"
+        },
+        {
+          "name": "Akil Mochtar",
+          "role_id": "Ketua MK (2013, diberhentikan karena OTT KPK)"
+        }
+      ]
+    },
+    {
+      "id": "mk-2013-2018",
+      "institution_id": "mahkamah-konstitusi",
+      "label_id": "MK Periode Pemulihan Integritas (Ketua: Hamdan Zoelva lalu Arief Hidayat)",
+      "era": "reformasi",
+      "start_date": "2013-11-01",
+      "end_date": "2018-08-07",
+      "actors": [
+        {
+          "name": "Hamdan Zoelva",
+          "role_id": "Ketua MK (2013–2015)"
+        },
+        {
+          "name": "Arief Hidayat",
+          "role_id": "Ketua MK (2015–2018)"
+        }
+      ]
+    },
+    {
+      "id": "mk-2018-2023",
+      "institution_id": "mahkamah-konstitusi",
+      "label_id": "MK Periode Putusan Landmark dan Krisis Etik 2023",
+      "era": "reformasi",
+      "start_date": "2018-08-08",
+      "end_date": "2023-11-06",
+      "actors": [
+        {
+          "name": "Arief Hidayat",
+          "role_id": "Ketua MK (2018–2022)"
+        },
+        {
+          "name": "Anwar Usman",
+          "role_id": "Ketua MK (2022–2023, diberhentikan dari jabatan Ketua oleh MKMK)"
+        }
+      ]
+    },
+    {
+      "id": "mk-2023-sekarang",
+      "institution_id": "mahkamah-konstitusi",
+      "label_id": "MK Pasca-Krisis Etik 2023 (Ketua: Suhartoyo)",
+      "era": "reformasi",
+      "start_date": "2023-11-07",
+      "end_date": null,
+      "actors": [
+        {
+          "name": "Suhartoyo",
+          "role_id": "Ketua MK (2023–kini)"
+        },
+        {
+          "name": "Saldi Isra",
+          "role_id": "Wakil Ketua MK (2023–kini)"
+        }
+      ]
+    },
+    {
+      "id": "mpr-1971-1999",
+      "institution_id": "mpr-ri",
+      "label_id": "MPR Era Orde Baru",
+      "era": "orde-baru",
+      "start_date": "1971-10-28",
+      "end_date": "1999-09-30",
+      "actors": [
+        {
+          "name": "Idham Chalid",
+          "role_id": "Ketua MPR/DPR (1971–1977)"
+        },
+        {
+          "name": "Adam Malik",
+          "role_id": "Ketua MPR/DPR (1977–1978)"
+        },
+        {
+          "name": "Daryatmo",
+          "role_id": "Ketua MPR/DPR (1978–1982)"
+        },
+        {
+          "name": "Amir Machmud",
+          "role_id": "Ketua MPR/DPR (1982–1987)"
+        },
+        {
+          "name": "Kharis Suhud",
+          "role_id": "Ketua MPR/DPR (1987–1992)"
+        },
+        {
+          "name": "Wahono",
+          "role_id": "Ketua MPR/DPR (1992–1997)"
+        },
+        {
+          "name": "Harmoko",
+          "role_id": "Ketua MPR/DPR (1997–1999)"
+        }
+      ]
+    },
+    {
+      "id": "mpr-1999-2004",
+      "institution_id": "mpr-ri",
+      "label_id": "MPR Era Reformasi & Perubahan Konstitusi 1999–2004",
+      "era": "reformasi",
+      "start_date": "1999-10-01",
+      "end_date": "2004-09-30",
+      "actors": [
+        {
+          "name": "Amien Rais",
+          "role_id": "Ketua MPR RI (1999–2004)"
+        },
+        {
+          "name": "Ginandjar Kartasasmita",
+          "role_id": "Wakil Ketua MPR RI (1999–2004)"
+        },
+        {
+          "name": "Kwik Kian Gie",
+          "role_id": "Wakil Ketua MPR RI (1999–2004)"
+        }
+      ]
+    },
+    {
+      "id": "mpr-2004-2009",
+      "institution_id": "mpr-ri",
+      "label_id": "MPR Periode 2004–2009 (Pasca-Amendemen)",
+      "era": "reformasi",
+      "start_date": "2004-10-01",
+      "end_date": "2009-09-30",
+      "actors": [
+        {
+          "name": "Hidayat Nur Wahid",
+          "role_id": "Ketua MPR RI (2004–2009)"
+        },
+        {
+          "name": "AM Fatwa",
+          "role_id": "Wakil Ketua MPR RI (2004–2009)"
+        },
+        {
+          "name": "Aksa Mahmud",
+          "role_id": "Wakil Ketua MPR RI (2004–2009)"
+        }
+      ]
+    },
+    {
+      "id": "mpr-2009-2014",
+      "institution_id": "mpr-ri",
+      "label_id": "MPR Periode 2009–2014 (Empat Pilar Kebangsaan)",
+      "era": "reformasi",
+      "start_date": "2009-10-01",
+      "end_date": "2014-09-30",
+      "actors": [
+        {
+          "name": "Taufiq Kiemas",
+          "role_id": "Ketua MPR RI (2009–2013)"
+        },
+        {
+          "name": "Sidarto Danusubroto",
+          "role_id": "Ketua MPR RI (2013–2014)"
+        }
+      ]
+    },
+    {
+      "id": "mpr-2014-2019",
+      "institution_id": "mpr-ri",
+      "label_id": "MPR Periode 2014–2019",
+      "era": "reformasi",
+      "start_date": "2014-10-01",
+      "end_date": "2019-09-30",
+      "actors": [
+        {
+          "name": "Zulkifli Hasan",
+          "role_id": "Ketua MPR RI (2014–2019)"
+        },
+        {
+          "name": "Mahyudin",
+          "role_id": "Wakil Ketua MPR RI (2014–2019)"
+        },
+        {
+          "name": "Oesman Sapta Odang",
+          "role_id": "Wakil Ketua MPR RI (2014–2019)"
+        }
+      ]
+    },
+    {
+      "id": "mpr-2019-2024",
+      "institution_id": "mpr-ri",
+      "label_id": "MPR Periode 2019–2024 (PPHN & Evaluasi Konstitusi)",
+      "era": "reformasi",
+      "start_date": "2019-10-01",
+      "end_date": "2024-09-30",
+      "actors": [
+        {
+          "name": "Bambang Soesatyo",
+          "role_id": "Ketua MPR RI (2019–2024)"
+        },
+        {
+          "name": "Ahmad Basarah",
+          "role_id": "Wakil Ketua MPR RI (2019–2024)"
+        },
+        {
+          "name": "Ahmad Muzani",
+          "role_id": "Wakil Ketua MPR RI (2019–2024)"
+        }
+      ]
+    },
+    {
+      "id": "mpr-2024-sekarang",
+      "institution_id": "mpr-ri",
+      "label_id": "MPR Periode 2024–2029",
+      "era": "reformasi",
+      "start_date": "2024-10-01",
+      "end_date": null,
+      "actors": [
+        {
+          "name": "Ahmad Muzani",
+          "role_id": "Ketua MPR RI (2024–kini)"
+        },
+        {
+          "name": "Bambang Wuryanto",
+          "role_id": "Wakil Ketua MPR RI (2024–kini)"
+        },
+        {
+          "name": "Rusdi Kirana",
+          "role_id": "Wakil Ketua MPR RI (2024–kini)"
+        }
+      ]
+    },
     {
       "id": "presiden-habibie",
       "institution_id": "presiden-ri",
@@ -1415,226 +2207,6 @@
         {
           "name": "Suharto",
           "role_id": "Pejabat Presiden (1967-1968), Presiden RI (1968-1998)"
-        }
-      ]
-    },
-    {
-      "id": "dpr-1999-2004",
-      "institution_id": "dpr-ri",
-      "label_id": "DPR RI Hasil Pemilu 1999",
-      "era": "reformasi",
-      "start_date": "1999-10-01",
-      "end_date": "2004-09-30",
-      "actors": [
-        {
-          "name": "Akbar Tanjung",
-          "role_id": "Ketua DPR RI"
-        }
-      ]
-    },
-    {
-      "id": "dpr-2004-2009",
-      "institution_id": "dpr-ri",
-      "label_id": "DPR RI Hasil Pemilu 2004",
-      "era": "reformasi",
-      "start_date": "2004-10-01",
-      "end_date": "2009-09-30",
-      "actors": [
-        {
-          "name": "Agung Laksono",
-          "role_id": "Ketua DPR RI"
-        }
-      ]
-    },
-    {
-      "id": "dpr-2009-2014",
-      "institution_id": "dpr-ri",
-      "label_id": "DPR RI Hasil Pemilu 2009",
-      "era": "reformasi",
-      "start_date": "2009-10-01",
-      "end_date": "2014-09-30",
-      "actors": [
-        {
-          "name": "Marzuki Alie",
-          "role_id": "Ketua DPR RI"
-        }
-      ]
-    },
-    {
-      "id": "dpr-2014-2019",
-      "institution_id": "dpr-ri",
-      "label_id": "DPR RI Hasil Pemilu 2014",
-      "era": "reformasi",
-      "start_date": "2014-10-01",
-      "end_date": "2019-09-30",
-      "actors": [
-        {
-          "name": "Setya Novanto",
-          "role_id": "Ketua DPR RI (2014-2015)"
-        },
-        {
-          "name": "Zulkifli Hasan",
-          "role_id": "Ketua DPR RI (2016)"
-        },
-        {
-          "name": "Bambang Soesatyo",
-          "role_id": "Ketua DPR RI (2016-2019)"
-        }
-      ]
-    },
-    {
-      "id": "dpr-2019-2024",
-      "institution_id": "dpr-ri",
-      "label_id": "DPR RI Hasil Pemilu 2019",
-      "era": "reformasi",
-      "start_date": "2019-10-01",
-      "end_date": "2024-09-30",
-      "actors": [
-        {
-          "name": "Puan Maharani",
-          "role_id": "Ketua DPR RI"
-        }
-      ]
-    },
-    {
-      "id": "dpr-2024-2029",
-      "institution_id": "dpr-ri",
-      "label_id": "DPR RI Hasil Pemilu 2024",
-      "era": "reformasi",
-      "start_date": "2024-10-01",
-      "end_date": null,
-      "actors": [
-        {
-          "name": "Puan Maharani",
-          "role_id": "Ketua DPR RI"
-        }
-      ]
-    },
-    {
-      "id": "mk-2003-2008",
-      "institution_id": "mahkamah-konstitusi",
-      "label_id": "MK Periode Pertama (Ketua: Bagir Manan)",
-      "era": "reformasi",
-      "start_date": "2003-08-13",
-      "end_date": "2008-08-18",
-      "actors": [
-        {
-          "name": "Jimly Asshiddiqie",
-          "role_id": "Hakim Konstitusi (Sekretaris Jenderal pertama MK)"
-        },
-        {
-          "name": "Bagir Manan",
-          "role_id": "Ketua MK (2003-2008)"
-        }
-      ]
-    },
-    {
-      "id": "mk-2008-2013",
-      "institution_id": "mahkamah-konstitusi",
-      "label_id": "MK Periode Ketua Mahfud MD dan krisis integritas 2013",
-      "era": "reformasi",
-      "start_date": "2008-08-19",
-      "end_date": "2013-10-01",
-      "actors": [
-        {
-          "name": "Mohammad Mahfud MD",
-          "role_id": "Ketua MK (2008-2013)"
-        },
-        {
-          "name": "Akil Mochtar",
-          "role_id": "Ketua MK (2013) - ditangkap kasus suap"
-        }
-      ]
-    },
-    {
-      "id": "mk-2013-2018",
-      "institution_id": "mahkamah-konstitusi",
-      "label_id": "MK Periode Pemulihan Integritas (Ketua: Hamdan Zoelva lalu Arief Hidayat)",
-      "era": "reformasi",
-      "start_date": "2013-11-01",
-      "end_date": "2018-08-07",
-      "actors": [
-        {
-          "name": "Hamdan Zoelva",
-          "role_id": "Ketua MK (2013-2015)"
-        },
-        {
-          "name": "Arief Hidayat",
-          "role_id": "Ketua MK (2015-2018)"
-        }
-      ]
-    },
-    {
-      "id": "mk-2018-2023",
-      "institution_id": "mahkamah-konstitusi",
-      "label_id": "MK Periode Putusan Landmark dan Krisis Etik 2023",
-      "era": "reformasi",
-      "start_date": "2018-08-08",
-      "end_date": "2023-11-06",
-      "actors": [
-        {
-          "name": "Arief Hidayat",
-          "role_id": "Ketua MK (2018-2022)"
-        },
-        {
-          "name": "Anwar Usman",
-          "role_id": "Ketua MK (2022-2023, diberhentikan karena pelanggaran etik)"
-        }
-      ]
-    },
-    {
-      "id": "mk-2023-sekarang",
-      "institution_id": "mahkamah-konstitusi",
-      "label_id": "MK Pasca-Krisis Etik 2023",
-      "era": "reformasi",
-      "start_date": "2023-11-07",
-      "end_date": null,
-      "actors": [
-        {
-          "name": "Suhartono",
-          "role_id": "Ketua MK (plt., 2023-2024)"
-        }
-      ]
-    },
-    {
-      "id": "ma-revolusi-liberal",
-      "institution_id": "mahkamah-agung",
-      "label_id": "MA Era Revolusi & Demokrasi Liberal",
-      "era": "revolusi",
-      "start_date": "1946-08-22",
-      "end_date": "1959-07-04",
-      "actors": [
-        {
-          "name": "Sutjipto",
-          "role_id": "Ketua MA pertama"
-        }
-      ]
-    },
-    {
-      "id": "ma-dt-orde-baru",
-      "institution_id": "mahkamah-agung",
-      "label_id": "MA Era Demokrasi Terpimpin & Orde Baru",
-      "era": "demokrasi-terpimpin",
-      "start_date": "1959-07-05",
-      "end_date": "1998-05-21",
-      "actors": [
-        {
-          "name": "Masjkur, Gazali, Purwoto S Gandasubrata dkk.",
-          "role_id": "Para Ketua MA periode 1958-1998"
-        }
-      ]
-    },
-    {
-      "id": "ma-reformasi-sekarang",
-      "institution_id": "mahkamah-agung",
-      "label_id": "MA Era Reformasi",
-      "era": "reformasi",
-      "start_date": "1998-05-22",
-      "end_date": null,
-      "actors": [
-        {
-          "name": "Bagir Manan, Harifin Tumpa, Hatta Ali, Sunarto dkk.",
-          "role_id": "Para Ketua MA periode 2001-kini"
         }
       ]
     }
@@ -3990,6 +4562,476 @@
       "dimension_ids": [
         "checks-balances"
       ]
+    },
+    {
+      "id": "ev-mpr-tap-xi-1998",
+      "term_id": "mpr-1999-2004",
+      "date": "1998-11-13",
+      "category": "produk-hukum",
+      "title_id": "TAP MPR No. XI/MPR/1998 tentang Penyelenggara Negara Bebas KKN",
+      "summary_id": "MPR RI menetapkan TAP MPR No. XI/MPR/1998 sebagai komitmen reformasi total untuk memberantas korupsi, kolusi, dan nepotisme serta memeriksa harta kekayaan pejabat negara dan kroni kekuasaan masa lalu demi tegaknya keadilan sosial.",
+      "source_ids": [
+        "tap-mpr-xi-1998"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-5",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-mpr-tap-xvii-1998",
+      "term_id": "mpr-1999-2004",
+      "date": "1998-11-13",
+      "category": "produk-hukum",
+      "title_id": "TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia",
+      "summary_id": "Ketetapan monumental MPR yang memuat Piagam Hak Asasi Manusia sebagai landasan pengakuan hak-hak sipil, politik, ekonomi, sosial, dan budaya bangsa Indonesia pasca-otoritarianisme Orde Baru.",
+      "source_ids": [
+        "tap-mpr-xvii-1998"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mpr-amendemen-1",
+      "term_id": "mpr-1999-2004",
+      "date": "1999-10-19",
+      "category": "produk-hukum",
+      "title_id": "Perubahan Pertama UUD 1945",
+      "summary_id": "Sidang Umum MPR 1999 mengesahkan Perubahan Pertama UUD 1945 yang membatasi masa jabatan Presiden maksimal dua periode (Pasal 7) dan mengembalikan fungsi legislasi ke DPR (Pasal 20), mengakhiri sistem pemerintahan berpusat pada eksekutif (executive heavy).",
+      "source_ids": [
+        "perubahan-pertama-uud-1945"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-mpr-amendemen-2",
+      "term_id": "mpr-1999-2004",
+      "date": "2000-08-18",
+      "category": "produk-hukum",
+      "title_id": "Perubahan Kedua UUD 1945 (Bab XA HAM & Desentralisasi)",
+      "summary_id": "Sidang Tahunan MPR 2000 mengadopsi Bab XA Hak Asasi Manusia (Pasal 28A–28J) secara komprehensif ke dalam batang tubuh konstitusi, serta mengatur otonomi daerah yang luas dan tata pemerintahan daerah (Pasal 18, 18A, 18B).",
+      "source_ids": [
+        "perubahan-kedua-uud-1945"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-mpr-tap-vi-2000",
+      "term_id": "mpr-1999-2004",
+      "date": "2000-08-18",
+      "category": "produk-hukum",
+      "title_id": "TAP MPR No. VI/MPR/2000 tentang Pemisahan TNI dan Polri",
+      "summary_id": "MPR memisahkan secara kelembagaan dan doktrinal peran Tentara Nasional Indonesia sebagai alat pertahanan negara dan Kepolisian Negara RI sebagai alat keamanan serta penegakan hukum dan pengayom masyarakat.",
+      "source_ids": [
+        "tap-mpr-vi-2000",
+        "tap-mpr-vii-2000"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-mpr-amendemen-3",
+      "term_id": "mpr-1999-2004",
+      "date": "2001-11-09",
+      "category": "produk-hukum",
+      "title_id": "Perubahan Ketiga UUD 1945 (MK, KY, DPD, Pilpres Langsung)",
+      "summary_id": "Perubahan fundamental struktur ketatanegaraan: penegasan Indonesia adalah negara hukum (Pasal 1 ayat 3), pemilihan Presiden/Wapres langsung oleh rakyat (Pasal 6A), pembentukan Mahkamah Konstitusi, Komisi Yudisial, dan Dewan Perwakilan Daerah (DPD).",
+      "source_ids": [
+        "perubahan-ketiga-uud-1945"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-mpr-amendemen-4",
+      "term_id": "mpr-1999-2004",
+      "date": "2002-08-10",
+      "category": "produk-hukum",
+      "title_id": "Perubahan Keempat UUD 1945 (Pendidikan 20% & Perekonomian Nasional)",
+      "summary_id": "Penuntasan rangkaian amendemen konstitusi: penetapan kewajiban alokasi anggaran pendidikan minimal 20% APBN/APBD (Pasal 31 ayat 4), sistem jaminan sosial nasional (Pasal 34), penghapusan DPA, dan pembentukan bank sentral independen.",
+      "source_ids": [
+        "perubahan-keempat-uud-1945"
+      ],
+      "dimension_ids": [
+        "tujuan-3",
+        "sila-5",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-mpr-tap-i-2003",
+      "term_id": "mpr-1999-2004",
+      "date": "2003-08-07",
+      "category": "produk-hukum",
+      "title_id": "TAP MPR No. I/MPR/2003 Peninjauan Materi Hukum TAP MPRS/MPR",
+      "summary_id": "MPR menertibkan dan memilah 139 Ketetapan MPRS/MPR sejak 1960 menjadi 6 kategori status hukum, memberikan kepastian hukum transisional dalam hierarki peraturan perundang-undangan nasional.",
+      "source_ids": [
+        "tap-mpr-i-2003"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-mpr-sosialisasi-4-pilar",
+      "term_id": "mpr-2009-2014",
+      "date": "2010-05-20",
+      "category": "kebijakan",
+      "title_id": "Sosialisasi Empat Pilar Kehidupan Berbangsa dan Bernegara",
+      "summary_id": "MPR RI di bawah kepemimpinan Taufiq Kiemas menginisiasi gerakan nasional pemasyarakatan Empat Pilar: Pancasila, UUD 1945, NKRI, dan Bhinneka Tunggal Ika ke seluruh pelosok tanah air.",
+      "source_ids": [
+        "kep-mpr-4-pilar-2010"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-mpr-kajian-pphn-2024",
+      "term_id": "mpr-2019-2024",
+      "date": "2024-09-25",
+      "category": "kebijakan",
+      "title_id": "Rekomendasi Badan Pengkajian MPR tentang Pokok-Pokok Haluan Negara (PPHN)",
+      "summary_id": "Badan Pengkajian MPR menyelesaikan kajian komprehensif mengenai urgensi PPHN sebagai pemandu arah pembangunan jangka panjang nasional melalui konvensi ketatanegaraan tanpa membongkar batasan kekuasaan presiden dalam UUD 1945.",
+      "source_ids": [
+        "laporan-mpr-pphn-2024"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-dpd-pelantikan-2004",
+      "term_id": "dpd-2004-2009",
+      "date": "2004-10-01",
+      "category": "peristiwa",
+      "title_id": "Pembentukan dan Sidang Perdana DPD RI Hasil Pemilu 2004",
+      "summary_id": "128 anggota DPD RI dari 32 provinsi resmi dilantik dan bersidang untuk pertama kalinya dalam sejarah Indonesia modern, mengawali babak baru sistem perwakilan bikameral lunak guna memperjuangkan kepentingan daerah di tingkat nasional.",
+      "source_ids": [
+        "uu-22-2003"
+      ],
+      "dimension_ids": [
+        "sila-3",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-dpd-uji-materi-mk-92-2012",
+      "term_id": "dpd-2009-2014",
+      "date": "2013-03-27",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 92/PUU-X/2012 Memperkuat Kewenangan Legislasi DPD",
+      "summary_id": "Mahkamah Konstitusi mengabulkan uji materi DPD RI terhadap UU P3 dan UU MD3, menegaskan bahwa DPD berhak mengusulkan RUU, membahas RUU sejak awal bersama DPR dan Presiden, serta menyusun program legislasi nasional (Prolegnas) terkait otonomi daerah.",
+      "source_ids": [
+        "putusan-mk-92-puu-x-2012"
+      ],
+      "dimension_ids": [
+        "sila-3",
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-dpd-putusan-mk-79-2014",
+      "term_id": "dpd-2014-2019",
+      "date": "2015-09-22",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 79/PUU-XII/2014 atas Kedudukan Tripartit Legislasi DPD",
+      "summary_id": "MK menegaskan kembali hak konstitusional DPD dalam proses pembentukan undang-undang terkait otonomi dan keuangan daerah secara setara dan bermartabat bersama DPR dan Presiden.",
+      "source_ids": [
+        "putusan-mk-79-puu-xii-2014"
+      ],
+      "dimension_ids": [
+        "sila-3",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-dpd-inisiatif-kepulauan",
+      "term_id": "dpd-2019-2024",
+      "date": "2020-02-18",
+      "category": "kebijakan",
+      "title_id": "Pengusulan RUU Usul Inisiatif DPD RI tentang Daerah Kepulauan",
+      "summary_id": "DPD RI mengajukan draf RUU Daerah Kepulauan ke DPR RI untuk memperjuangkan keadilan alokasi anggaran DAU/DBH berbasis luas laut wilayah bagi 8 provinsi kepulauan dan kawasan 3T.",
+      "source_ids": [
+        "ruu-daerah-kepulauan-dpd-2020"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-dpd-pengawasan-desa",
+      "term_id": "dpd-2019-2024",
+      "date": "2023-08-15",
+      "category": "kebijakan",
+      "title_id": "Pengawasan Komite I DPD RI atas Efektivitas Penyaluran Dana Desa",
+      "summary_id": "DPD RI menerbitkan laporan pengawasan nasional pelaksanaan penyaluran dana desa di 74.000 lebih desa untuk mencegah korupsi birokrasi lokal dan memastikan pemanfaatan dana bagi pengentasan kemiskinan ekstrem.",
+      "source_ids": [
+        "laporan-dpd-pengawasan-desa-2023"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-bpk-penetapan-1947",
+      "term_id": "bpk-1947-1998",
+      "date": "1947-01-01",
+      "category": "peristiwa",
+      "title_id": "Pembentukan Badan Pemeriksa Keuangan di Magelang",
+      "summary_id": "Pemerintah RI menetapkan berdirinya BPK di Magelang berdasarkan amanat Pasal 23 ayat 5 UUD 1945 asli dengan ketua pertama R. Soerasno, guna memeriksa perbendaharaan negara di tengah revolusi fisik kemerdekaan.",
+      "source_ids": [
+        "penetapan-bpk-1947"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-bpk-uu-5-1973",
+      "term_id": "bpk-1947-1998",
+      "date": "1973-12-28",
+      "category": "produk-hukum",
+      "title_id": "UU No. 5 Tahun 1973 tentang Badan Pemeriksa Keuangan",
+      "summary_id": "Pengesahan undang-undang yang mengatur kedudukan BPK sebagai lembaga tinggi negara di era Orde Baru, kendati dalam praktiknya ruang gerak pemeriksaan dibatasi oleh hegemoni eksekutif.",
+      "source_ids": [
+        "uu-5-1973"
+      ],
+      "dimension_ids": [
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-bpk-audit-blbi",
+      "term_id": "bpk-1998-2009",
+      "date": "2000-08-01",
+      "category": "kebijakan",
+      "title_id": "Audit Investigasi BPK RI atas Penyimpangan BLBI Rp144,5 Triliun",
+      "summary_id": "BPK RI di bawah kepemimpinan Satrio Budihardjo Joedono merilis laporan audit investigasi monumental atas penyimpangan dana Bantuan Likuiditas Bank Indonesia (BLBI) di 48 bank, membongkar skandal keuangan terbesar dalam sejarah republik.",
+      "source_ids": [
+        "laporan-bpk-blbi-2000"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-bpk-paket-uu-keuangan",
+      "term_id": "bpk-1998-2009",
+      "date": "2004-07-26",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 15 Tahun 2004 tentang Pemeriksaan Keuangan Negara",
+      "summary_id": "Pengesahan UU 15/2004 melengkapi paket reformasi keuangan negara (UU 17/2003 & UU 1/2004), memberi wewenang audit komprehensif atas pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu.",
+      "source_ids": [
+        "uu-15-2004"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-bpk-uu-15-2006",
+      "term_id": "bpk-1998-2009",
+      "date": "2006-10-30",
+      "category": "produk-hukum",
+      "title_id": "UU No. 15 Tahun 2006 Menegaskan Independensi Penuh BPK",
+      "summary_id": "Undang-undang baru BPK mengatur kedudukan BPK sebagai lembaga pemeriksa eksternal yang bebas dan mandiri, berkedudukan di ibukota negara dan memiliki perwakilan di setiap provinsi.",
+      "source_ids": [
+        "uu-15-2006"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-bpk-standar-sap-wtp",
+      "term_id": "bpk-2009-2019",
+      "date": "2016-05-30",
+      "category": "kebijakan",
+      "title_id": "Penerapan Akuntansi Akrual dan Capaian Opini WTP Perdana LKPP 2016",
+      "summary_id": "BPK RI mengawal transisi pelaporan keuangan pemerintah berbasis akrual penuh, menghasilkan opini Wajar Tanpa Pengecualian (WTP) pertama dalam sejarah untuk Laporan Keuangan Pemerintah Pusat (LKPP).",
+      "source_ids": [
+        "laporan-bpk-lkpp-2016"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-bpk-audit-pen-covid",
+      "term_id": "bpk-2019-sekarang",
+      "date": "2021-06-22",
+      "category": "kebijakan",
+      "title_id": "Pemeriksaan Komprehensif BPK atas Program PC-PEN Covid-19",
+      "summary_id": "BPK RI menyelesaikan audit komprehensif atas pengelolaan anggaran penanganan pandemi dan pemulihan ekonomi nasional (PC-PEN) ratusan triliun rupiah demi menjaga akuntabilitas belanja darurat publik.",
+      "source_ids": [
+        "bpk-ihps-pen-2021"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5",
+        "tujuan-2"
+      ]
+    },
+    {
+      "id": "ev-ky-uu-22-2004",
+      "term_id": "ky-2005-2010",
+      "date": "2004-08-13",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 22 Tahun 2004 tentang Komisi Yudisial",
+      "summary_id": "Pengesahan payung hukum pembentukan Komisi Yudisial sebagai lembaga independen penjaga integritas martabat peradilan dan pengusul seleksi calon hakim agung ke DPR.",
+      "source_ids": [
+        "uu-22-2004"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-ky-putusan-mk-005-2006",
+      "term_id": "ky-2005-2010",
+      "date": "2006-08-23",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 005/PUU-IV/2006 Membatalkan Pengawasan KY atas Hakim MK",
+      "summary_id": "Mahkamah Konstitusi memutus permohonan 31 Hakim Agung, menyatakan hakim konstitusi tidak termasuk objek pengawasan KY dan membatalkan sejumlah pasal kewenangan pengawasan perilaku hakim.",
+      "source_ids": [
+        "putusan-mk-005-puu-iv-2006"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-ky-skb-kepph-2009",
+      "term_id": "ky-2005-2010",
+      "date": "2009-04-08",
+      "category": "kebijakan",
+      "title_id": "Penandatanganan SKB Kode Etik dan Pedoman Perilaku Hakim (KEPPH)",
+      "summary_id": "Ketua Mahkamah Agung dan Ketua Komisi Yudisial menandatangani 10 Prinsip KEPPH (adil, jujur, arif, mandiri, berintegritas, bertanggung jawab, menjunjung harga diri, berdisiplin, rendah hati, dan profesional) sebagai standar etik seragam hakim Indonesia.",
+      "source_ids": [
+        "skb-ma-ky-kepph-2009"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-ky-uu-18-2011",
+      "term_id": "ky-2010-2015",
+      "date": "2011-11-09",
+      "category": "produk-hukum",
+      "title_id": "UU No. 18 Tahun 2011 Memperkuat Wewenang Investigasi Komisi Yudisial",
+      "summary_id": "DPR dan Presiden mengesahkan revisi UU KY yang memperkuat wewenang investigasi, pemberian rekomendasi sanksi etik, perlindungan dan advokasi hakim dari ancaman peradilan (contempt of court).",
+      "source_ids": [
+        "uu-18-2011"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-ky-mkh-penegakan",
+      "term_id": "ky-2015-2020",
+      "date": "2019-07-10",
+      "category": "kebijakan",
+      "title_id": "Penegakan Integritas Melalui Sidang Majelis Kehormatan Hakim (MKH) Bersama",
+      "summary_id": "Komisi Yudisial bersama Mahkamah Agung konsisten menyelenggarakan sidang MKH majelis gabungan untuk memeriksa dan menjatuhkan sanksi etik berat hingga pemecatan bagi hakim-hakim yang terbukti menerima suap atau melanggar asusila.",
+      "source_ids": [
+        "laporan-tahunan-ky-2019"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-ma-uu-19-1964-intervensi",
+      "term_id": "ma-dt-orde-baru",
+      "date": "1964-10-31",
+      "category": "produk-hukum",
+      "title_id": "UU No. 19 Tahun 1964 Membuka Campur Tangan Presiden atas Peradilan",
+      "summary_id": "Pemberlakuan Pasal 19 UU 19/1964 di era Demokrasi Terpimpin yang membolehkan Presiden mencampuri urusan pengadilan demi kepentingan revolusi, mencederai prinsip negara hukum dan kemandirian peradilan.",
+      "source_ids": [
+        "uu-19-1964"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-ma-uu-14-1970",
+      "term_id": "ma-dt-orde-baru",
+      "date": "1970-12-17",
+      "category": "produk-hukum",
+      "title_id": "UU No. 14 Tahun 1970 Mengembalikan Prinsip Peradilan Bebas",
+      "summary_id": "Pengesahan UU Pokok Kekuasaan Kehakiman 1970 menegaskan kembali peradilan yang merdeka dan bebas dari campur tangan pihak lain, kendati administrasi dan finansial pengadilan masih berada di bawah kementerian eksekutif (sistem dua atap).",
+      "source_ids": [
+        "uu-14-1970"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-ma-uu-14-1985",
+      "term_id": "ma-dt-orde-baru",
+      "date": "1985-12-30",
+      "category": "produk-hukum",
+      "title_id": "UU No. 14 Tahun 1985 tentang Mahkamah Agung",
+      "summary_id": "Pengesahan undang-undang organik Mahkamah Agung RI yang mengatur susunan, kekuasaan kasasi, peninjauan kembali, serta wewenang hak uji materiil terhadap peraturan perundang-undangan di bawah undang-undang.",
+      "source_ids": [
+        "uu-14-1985"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-ma-satu-atap-2004",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2004-03-23",
+      "category": "produk-hukum",
+      "title_id": "UU No. 5 Tahun 2004 & Penyatuan Satu Atap Peradilan ke Mahkamah Agung",
+      "summary_id": "Pengalihan penuh organisasi, administrasi, dan finansial badan peradilan umum, peradilan agama, peradilan militer, dan peradilan tata usaha negara dari departemen eksekutif ke bawah satu atap Mahkamah Agung RI.",
+      "source_ids": [
+        "uu-5-2004"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
     }
   ],
   "sources": [
@@ -5050,6 +6092,266 @@
       "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=37&thn=1999",
       "citation_id": "jdih-setneg:P01068",
       "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=37&thn=1999"
+    },
+    {
+      "id": "tap-mpr-xi-1998",
+      "type": "dokumen-mpr",
+      "title_id": "TAP MPR No. XI/MPR/1998 tentang Penyelenggara Negara yang Bersih dan Bebas Korupsi, Kolusi, dan Nepotisme",
+      "year": 1998,
+      "citation_id": "TAP MPR XI/MPR/1998",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20XI%2FMPR%2F1998%20tentang%20Penyelenggara%20Negara%20yang%20Bersih%20dan%20Bebas%20Korupsi%2C%20Kolusi"
+    },
+    {
+      "id": "perubahan-pertama-uud-1945",
+      "type": "dokumen-mpr",
+      "title_id": "Perubahan Pertama Undang-Undang Dasar Negara Republik Indonesia Tahun 1945",
+      "year": 1999,
+      "citation_id": "Sidang Umum MPR RI 1999",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Perubahan%20Pertama%20Undang-Undang%20Dasar%20Negara%20Republik%20Indonesia%20Tahun%201945"
+    },
+    {
+      "id": "perubahan-kedua-uud-1945",
+      "type": "dokumen-mpr",
+      "title_id": "Perubahan Kedua Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (Bab XA HAM, Otonomi Daerah, DPR)",
+      "year": 2000,
+      "citation_id": "Sidang Tahunan MPR RI 2000",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Perubahan%20Kedua%20Undang-Undang%20Dasar%20Negara%20Republik%20Indonesia%20Tahun%201945%20(Bab%20XA%20HAM%2C%20Oton"
+    },
+    {
+      "id": "perubahan-ketiga-uud-1945",
+      "type": "dokumen-mpr",
+      "title_id": "Perubahan Ketiga Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (MK, KY, BPK Mandiri, DPD, Pilpres Langsung)",
+      "year": 2001,
+      "citation_id": "Sidang Tahunan MPR RI 2001",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Perubahan%20Ketiga%20Undang-Undang%20Dasar%20Negara%20Republik%20Indonesia%20Tahun%201945%20(MK%2C%20KY%2C%20BPK%20Man"
+    },
+    {
+      "id": "perubahan-keempat-uud-1945",
+      "type": "dokumen-mpr",
+      "title_id": "Perubahan Keempat Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (Anggaran Pendidikan 20%, Bank Sentral, Wantimpres)",
+      "year": 2002,
+      "citation_id": "Sidang Tahunan MPR RI 2002",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Perubahan%20Keempat%20Undang-Undang%20Dasar%20Negara%20Republik%20Indonesia%20Tahun%201945%20(Anggaran%20Pendi"
+    },
+    {
+      "id": "tap-mpr-vi-2000",
+      "type": "dokumen-mpr",
+      "title_id": "TAP MPR No. VI/MPR/2000 tentang Pemisahan Tentara Nasional Indonesia dan Kepolisian Negara Republik Indonesia",
+      "year": 2000,
+      "citation_id": "TAP MPR VI/MPR/2000",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20VI%2FMPR%2F2000%20tentang%20Pemisahan%20Tentara%20Nasional%20Indonesia%20dan%20Kepolisian%20Negara"
+    },
+    {
+      "id": "tap-mpr-vii-2000",
+      "type": "dokumen-mpr",
+      "title_id": "TAP MPR No. VII/MPR/2000 tentang Peran Tentara Nasional Indonesia dan Peran Kepolisian Negara Republik Indonesia",
+      "year": 2000,
+      "citation_id": "TAP MPR VII/MPR/2000",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20VII%2FMPR%2F2000%20tentang%20Peran%20Tentara%20Nasional%20Indonesia%20dan%20Peran%20Kepolisian%20Neg"
+    },
+    {
+      "id": "tap-mpr-i-2003",
+      "type": "dokumen-mpr",
+      "title_id": "TAP MPR No. I/MPR/2003 tentang Peninjauan Terhadap Materi dan Status Hukum Ketetapan MPRS dan Ketetapan MPR RI Tahun 1960 sampai dengan Tahun 2002",
+      "year": 2003,
+      "citation_id": "TAP MPR I/MPR/2003",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20I%2FMPR%2F2003%20tentang%20Peninjauan%20Terhadap%20Materi%20dan%20Status%20Hukum%20Ketetapan%20MPRS"
+    },
+    {
+      "id": "kep-mpr-4-pilar-2010",
+      "type": "dokumen-mpr",
+      "title_id": "Keputusan Pimpinan MPR RI tentang Program Pemasyarakatan Empat Pilar Kehidupan Berbangsa dan Bernegara",
+      "year": 2010,
+      "citation_id": "Pimpinan MPR RI 2010",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Keputusan%20Pimpinan%20MPR%20RI%20tentang%20Program%20Pemasyarakatan%20Empat%20Pilar%20Kehidupan%20Berbangsa%20d"
+    },
+    {
+      "id": "laporan-mpr-pphn-2024",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Kinerja dan Rekomendasi Badan Pengkajian MPR RI Periode 2019–2024 tentang Pokok-Pokok Haluan Negara (PPHN)",
+      "year": 2024,
+      "citation_id": "MPR RI 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Kinerja%20dan%20Rekomendasi%20Badan%20Pengkajian%20MPR%20RI%20Periode%202019%E2%80%932024%20tentang%20Pokok-Pokok%20Haluan%20Negara%20(PPHN)"
+    },
+    {
+      "id": "uu-22-2003",
+      "type": "undang-undang",
+      "title_id": "UU No. 22 Tahun 2003 tentang Susunan dan Kedudukan Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah",
+      "year": 2003,
+      "url": "https://peraturan.bpk.go.id/Details/43924/uu-no-22-tahun-2003",
+      "citation_id": "LN No. 92 Tahun 2003, TLN No. 4310",
+      "resolved_url": "https://peraturan.bpk.go.id/Details/43924/uu-no-22-tahun-2003"
+    },
+    {
+      "id": "putusan-mk-92-puu-x-2012",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 92/PUU-X/2012 (Pengujian Wewenang Legislasi DPD RI dalam UU P3 dan UU MD3)",
+      "year": 2013,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=92/PUU-X/2012",
+      "citation_id": "Putusan MKRI No. 92/PUU-X/2012",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=92/PUU-X/2012"
+    },
+    {
+      "id": "putusan-mk-79-puu-xii-2014",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 79/PUU-XII/2014 (Penegasan Hak DPD RI Mengusulkan dan Membahas Prolegnas serta RUU Tertentu)",
+      "year": 2015,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=79/PUU-XII/2014",
+      "citation_id": "Putusan MKRI No. 79/PUU-XII/2014",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=79/PUU-XII/2014"
+    },
+    {
+      "id": "ruu-daerah-kepulauan-dpd-2020",
+      "type": "dokumen-mpr",
+      "title_id": "Draft Naskah Akademik dan RUU Usul Inisiatif DPD RI tentang Daerah Kepulauan",
+      "year": 2020,
+      "citation_id": "DPD RI Usul Inisiatif 2020",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Draft%20Naskah%20Akademik%20dan%20RUU%20Usul%20Inisiatif%20DPD%20RI%20tentang%20Daerah%20Kepulauan"
+    },
+    {
+      "id": "laporan-dpd-pengawasan-desa-2023",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Pengawasan Komite I DPD RI atas Implementasi Penyaluran Dana Desa dan Otonomi Daerah",
+      "year": 2023,
+      "citation_id": "DPD RI Komite I 2023",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pengawasan%20Komite%20I%20DPD%20RI%20atas%20Implementasi%20Penyaluran%20Dana%20Desa%20dan%20Otonomi%20Daerah"
+    },
+    {
+      "id": "penetapan-bpk-1947",
+      "type": "arsip-nasional",
+      "title_id": "Penetapan Pemerintah No. 11/OEM Tahun 1947 tentang Pembentukan Badan Pemeriksa Keuangan",
+      "year": 1947,
+      "citation_id": "Penetapan Pemerintah No. 11/OEM Tahun 1947",
+      "resolved_url": "https://duckduckgo.com/?q=Penetapan%20Pemerintah%20No.%2011%2FOEM%20Tahun%201947%20tentang%20Pembentukan%20Badan%20Pemeriksa%20Keuangan"
+    },
+    {
+      "id": "uu-5-1973",
+      "type": "undang-undang",
+      "title_id": "UU No. 5 Tahun 1973 tentang Badan Pemeriksa Keuangan",
+      "year": 1973,
+      "url": "https://peraturan.bpk.go.id/Details/48208/uu-no-5-tahun-1973",
+      "citation_id": "LN No. 39 Tahun 1973, TLN No. 3008",
+      "resolved_url": "https://peraturan.bpk.go.id/Details/48208/uu-no-5-tahun-1973"
+    },
+    {
+      "id": "uu-15-2004",
+      "type": "undang-undang",
+      "title_id": "UU No. 15 Tahun 2004 tentang Pemeriksaan Pengelolaan dan Tanggung Jawab Keuangan Negara",
+      "year": 2004,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=15&thn=2004",
+      "citation_id": "LN No. 66 Tahun 2004, TLN No. 4400",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=15&thn=2004"
+    },
+    {
+      "id": "uu-15-2006",
+      "type": "undang-undang",
+      "title_id": "UU No. 15 Tahun 2006 tentang Badan Pemeriksa Keuangan",
+      "year": 2006,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=15&thn=2006",
+      "citation_id": "LN No. 85 Tahun 2006, TLN No. 4654",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=15&thn=2006"
+    },
+    {
+      "id": "laporan-bpk-blbi-2000",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Pemeriksaan BPK RI atas Penggunaan Dana Bantuan Likuiditas Bank Indonesia (BLBI)",
+      "year": 2000,
+      "citation_id": "BPK RI Audit Investigasi BLBI 2000",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemeriksaan%20BPK%20RI%20atas%20Penggunaan%20Dana%20Bantuan%20Likuiditas%20Bank%20Indonesia%20(BLBI)"
+    },
+    {
+      "id": "bpk-ihps-pen-2021",
+      "type": "laporan-lembaga",
+      "title_id": "Ikhtisar Hasil Pemeriksaan Semester (IHPS) II Tahun 2020 BPK RI (Audit Tata Kelola PC-PEN dan Penanganan Covid-19)",
+      "year": 2021,
+      "url": "https://www.bpk.go.id/ihps",
+      "citation_id": "BPK RI IHPS II-2020",
+      "resolved_url": "https://www.bpk.go.id/ihps"
+    },
+    {
+      "id": "laporan-bpk-lkpp-2016",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Pemeriksaan BPK RI atas Laporan Keuangan Pemerintah Pusat (LKPP) Tahun 2016",
+      "year": 2017,
+      "url": "https://www.bpk.go.id/",
+      "citation_id": "BPK RI LHP LKPP 2016",
+      "resolved_url": "https://www.bpk.go.id/"
+    },
+    {
+      "id": "uu-22-2004",
+      "type": "undang-undang",
+      "title_id": "UU No. 22 Tahun 2004 tentang Komisi Yudisial",
+      "year": 2004,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=22&thn=2004",
+      "citation_id": "LN No. 89 Tahun 2004, TLN No. 4415",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=22&thn=2004"
+    },
+    {
+      "id": "uu-18-2011",
+      "type": "undang-undang",
+      "title_id": "UU No. 18 Tahun 2011 tentang Perubahan atas UU No. 22 Tahun 2004 tentang Komisi Yudisial",
+      "year": 2011,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=18&thn=2011",
+      "citation_id": "LN No. 106 Tahun 2011, TLN No. 5250",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=18&thn=2011"
+    },
+    {
+      "id": "putusan-mk-005-puu-iv-2006",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 005/PUU-IV/2006 (Uji Materi Kewenangan KY Mengawasi Hakim Mahkamah Konstitusi)",
+      "year": 2006,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=005/PUU-IV/2006",
+      "citation_id": "Putusan MKRI No. 005/PUU-IV/2006",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=005/PUU-IV/2006"
+    },
+    {
+      "id": "skb-ma-ky-kepph-2009",
+      "type": "laporan-lembaga",
+      "title_id": "Surat Keputusan Bersama Ketua MA dan Ketua KY No. 047/KMA/SKB/IV/2009 & 02/SKB/P.KY/IV/2009 tentang Kode Etik dan Pedoman Perilaku Hakim (KEPPH)",
+      "year": 2009,
+      "citation_id": "SKB MA-KY 2009",
+      "resolved_url": "https://duckduckgo.com/?q=Surat%20Keputusan%20Bersama%20Ketua%20MA%20dan%20Ketua%20KY%20No.%20047%2FKMA%2FSKB%2FIV%2F2009%20%26%2002%2FSKB%2FP.KY%2FIV%2F2009%20tentang%20Kode%20Etik%20dan%20Pedoman%20Perilaku%20Hakim%20(KEPPH)"
+    },
+    {
+      "id": "laporan-tahunan-ky-2019",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Tahunan Komisi Yudisial RI Tahun 2019 (Penegakan Etik dan Seleksi Hakim Agung)",
+      "year": 2020,
+      "url": "https://www.komisiyudisial.go.id/",
+      "citation_id": "KY RI Laptah 2019",
+      "resolved_url": "https://www.komisiyudisial.go.id/"
+    },
+    {
+      "id": "uu-19-1964",
+      "type": "undang-undang",
+      "title_id": "UU No. 19 Tahun 1964 tentang Ketentuan-Ketentuan Pokok Kekuasaan Kehakiman (Kekuasaan Presiden Mengintervensi Pengadilan)",
+      "year": 1964,
+      "citation_id": "LN No. 107 Tahun 1964, TLN No. 2699",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2019%20Tahun%201964"
+    },
+    {
+      "id": "uu-14-1970",
+      "type": "undang-undang",
+      "title_id": "UU No. 14 Tahun 1970 tentang Ketentuan-Ketentuan Pokok Kekuasaan Kehakiman",
+      "year": 1970,
+      "citation_id": "LN No. 74 Tahun 1970, TLN No. 2951",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2014%20Tahun%201970"
+    },
+    {
+      "id": "uu-14-1985",
+      "type": "undang-undang",
+      "title_id": "UU No. 14 Tahun 1985 tentang Mahkamah Agung",
+      "year": 1985,
+      "citation_id": "LN No. 73 Tahun 1985, TLN No. 3316",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2014%20Tahun%201985"
+    },
+    {
+      "id": "uu-5-2004",
+      "type": "undang-undang",
+      "title_id": "UU No. 5 Tahun 2004 tentang Perubahan atas UU No. 14 Tahun 1985 tentang Mahkamah Agung (Penyatuan Atap Peradilan ke MA)",
+      "year": 2004,
+      "citation_id": "LN No. 9 Tahun 2004, TLN No. 4359",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%205%20Tahun%202004"
     }
   ],
   "assessments": [
@@ -9327,6 +10629,748 @@
           "evidence": [
             {
               "source_id": "berita-jiwasraya-2022"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-mpr-1999-2004",
+      "term_id": "mpr-1999-2004",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "checks-balances",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Berhasil mengamandemen UUD 1945 empat tahap secara konsensual, membatasi masa jabatan presiden maksimal 2 periode dan mengakhiri era executive-heavy.",
+          "evidence": [
+            {
+              "source_id": "perubahan-pertama-uud-1945"
+            },
+            {
+              "source_id": "perubahan-ketiga-uud-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-amendemen-1",
+            "ev-mpr-amendemen-3"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 2,
+          "confidence": 0.8,
+          "rationale_id": "Mengesahkan Bab XA Hak Asasi Manusia (Pasal 28A–28J) dan TAP HAM No. XVII/MPR/1998 yang menjadi tonggak jaminan konstitusional kebebasan dasar warga.",
+          "evidence": [
+            {
+              "source_id": "perubahan-kedua-uud-1945"
+            },
+            {
+              "source_id": "tap-mpr-xvii-1998"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-amendemen-2",
+            "ev-mpr-tap-xvii-1998"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 2,
+          "confidence": 0.8,
+          "rationale_id": "Menegaskan klausul Pasal 1 ayat 3 'Indonesia adalah negara hukum' serta mendirikan Mahkamah Konstitusi dan Komisi Yudisial untuk pengujian undang-undang dan penjagaan etik peradilan.",
+          "evidence": [
+            {
+              "source_id": "perubahan-ketiga-uud-1945"
+            },
+            {
+              "source_id": "tap-mpr-xi-1998"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-amendemen-3",
+            "ev-mpr-tap-xi-1998"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Memasukkan kewajiban alokasi anggaran pendidikan sekurang-kurangnya 20% dari APBN dan APBD dalam Pasal 31 ayat 4 UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "perubahan-keempat-uud-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-amendemen-4"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menetapkan mekanisme pemilihan presiden dan wakil presiden secara langsung oleh rakyat melalui pemilu demokratis (Pasal 6A).",
+          "evidence": [
+            {
+              "source_id": "perubahan-ketiga-uud-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-amendemen-3"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-mpr-2009-2014",
+      "term_id": "mpr-2009-2014",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.6,
+          "rationale_id": "Mendorong pemasyarakatan nilai-nilai kebangsaan dan toleransi keberagamaan lewat sosialisasi Empat Pilar secara meluas.",
+          "evidence": [
+            {
+              "source_id": "kep-mpr-4-pilar-2010"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-sosialisasi-4-pilar"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.65,
+          "rationale_id": "Menjaga komitmen persatuan nasional dan integritas NKRI di tengah polarisasi politik elektoral pasca-reformasi.",
+          "evidence": [
+            {
+              "source_id": "kep-mpr-4-pilar-2010"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-sosialisasi-4-pilar"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-mpr-2019-2024",
+      "term_id": "mpr-2019-2024",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "checks-balances",
+          "score": 0,
+          "confidence": 0.55,
+          "rationale_id": "Wacana amendemen kelima UUD 1945 dan penambahan pasal PPHN menimbulkan kekhawatiran kembalinya sentralisme kekuasaan MPR, namun dituntaskan melalui rekomendasi non-amendemen.",
+          "evidence": [
+            {
+              "source_id": "laporan-mpr-pphn-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-kajian-pphn-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 0,
+          "confidence": 0.5,
+          "rationale_id": "Mengakomodasi berbagai aspirasi masyarakat mengenai evaluasi konstitusi 20 tahun pasca-reformasi tanpa membatasi hak konstitusional pemilu langsung.",
+          "evidence": [
+            {
+              "source_id": "laporan-mpr-pphn-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-kajian-pphn-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-dpd-2004-2009",
+      "term_id": "dpd-2004-2009",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.6,
+          "rationale_id": "Mengawali peletakan dasar representasi daerah di tingkat nasional dan menyerap aspirasi pemekaran serta otonomi daerah.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2003"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pelantikan-2004"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 0,
+          "confidence": 0.5,
+          "rationale_id": "Terkendala wewenang terbatas (soft bicameralism) dalam proses pembentukan UU sehingga aspirasi daerah belum sepenuhnya tertampung.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2003"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pelantikan-2004"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-dpd-2009-2014",
+      "term_id": "dpd-2009-2014",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "checks-balances",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Berhasil menguji UU P3 dan MD3 ke Mahkamah Konstitusi (Putusan No. 92/PUU-X/2012) untuk mengokohkan hak inisiatif dan pembahasan RUU daerah.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-92-puu-x-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-uji-materi-mk-92-2012"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.65,
+          "rationale_id": "Memperjuangkan desentralisasi asimetris dan penguatan fiskal daerah dalam penyusunan regulasi nasional.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-92-puu-x-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-uji-materi-mk-92-2012"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-dpd-2019-2024",
+      "term_id": "dpd-2019-2024",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.6,
+          "rationale_id": "Mengajukan RUU Inisiatif Daerah Kepulauan dan mengawasi implementasi transfer dana desa demi pemerataan kesejahteraan kawasan 3T.",
+          "evidence": [
+            {
+              "source_id": "ruu-daerah-kepulauan-dpd-2020"
+            },
+            {
+              "source_id": "laporan-dpd-pengawasan-desa-2023"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-inisiatif-kepulauan",
+            "ev-dpd-pengawasan-desa"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 0,
+          "confidence": 0.55,
+          "rationale_id": "Dinamika internal dan usulan kembali ke UUD 1945 asli sempat memicu perdebatan mengenai arah kelembagaan perwakilan daerah.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-pengawasan-desa-2023"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pengawasan-desa"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-bpk-1947-1998",
+      "term_id": "bpk-1947-1998",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "checks-balances",
+          "score": -1,
+          "confidence": 0.55,
+          "rationale_id": "Pada era Orde Baru fungsi audit eksternal BPK terbatas dan subordinatif di bawah kekuasaan eksekutif sehingga pengawasan anggaran tidak optimal.",
+          "evidence": [
+            {
+              "source_id": "uu-5-1973"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-uu-5-1973"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 0,
+          "confidence": 0.45,
+          "rationale_id": "Dasar konstitusional pemeriksaan tetap dipertahankan sejak berdirinya 1947 kendati daya dorong penegakan hukum temuan audit lemah.",
+          "evidence": [
+            {
+              "source_id": "penetapan-bpk-1947"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-penetapan-1947"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-bpk-1998-2009",
+      "term_id": "bpk-1998-2009",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "checks-balances",
+          "score": 2,
+          "confidence": 0.8,
+          "rationale_id": "Transformasi menjadi lembaga audit independen satu pintu lewat UU 15/2004 dan UU 15/2006, membongkar skandal BLBI dan merevolusi transparansi anggaran.",
+          "evidence": [
+            {
+              "source_id": "uu-15-2004"
+            },
+            {
+              "source_id": "uu-15-2006"
+            },
+            {
+              "source_id": "laporan-bpk-blbi-2000"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-paket-uu-keuangan",
+            "ev-bpk-uu-15-2006",
+            "ev-bpk-audit-blbi"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menyerahkan temuan indikasi kerugian negara kepada penegak hukum (KPK, Kejaksaan, Kepolisian) untuk ditindaklanjuti secara pidana.",
+          "evidence": [
+            {
+              "source_id": "uu-15-2004"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-paket-uu-keuangan"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-bpk-2009-2019",
+      "term_id": "bpk-2009-2019",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "checks-balances",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mengawal penerapan akuntansi berbasis akrual di seluruh kementerian/lembaga hingga LKPP meraih opini WTP pertama pada 2016.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-lkpp-2016"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-standar-sap-wtp"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 0,
+          "confidence": 0.6,
+          "rationale_id": "Terjadi kasus suap pemberian opini WTP oknum auditor di sejumlah daerah yang mencoreng integritas internal lembaga.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-lkpp-2016"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-bpk-2019-sekarang",
+      "term_id": "bpk-2019-sekarang",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "checks-balances",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Melakukan audit menyeluruh terhadap belanja darurat penanganan Covid-19 dan PEN guna memitigasi risiko kebocoran dana publik.",
+          "evidence": [
+            {
+              "source_id": "bpk-ihps-pen-2021"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-audit-pen-covid"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.6,
+          "rationale_id": "Memastikan akuntabilitas program bansos dan pemulihan ekonomi nasional agar tepat sasaran bagi masyarakat terdampak.",
+          "evidence": [
+            {
+              "source_id": "bpk-ihps-pen-2021"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-audit-pen-covid"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-ky-2005-2010",
+      "term_id": "ky-2005-2010",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Meletakkan pondasi pengawasan etik peradilan dan merumuskan Kode Etik dan Pedoman Perilaku Hakim (KEPPH) 2009 bersama Mahkamah Agung.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2004"
+            },
+            {
+              "source_id": "skb-ma-ky-kepph-2009"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-uu-22-2004",
+            "ev-ky-skb-kepph-2009"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": 0,
+          "confidence": 0.65,
+          "rationale_id": "Kewenangan pengawasan sempat digugat dan dipangkas oleh Putusan MK No. 005/PUU-IV/2006 yang membatasi jangkauan pengawasan KY atas hakim konstitusi.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-005-puu-iv-2006"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-putusan-mk-005-2006"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-ky-2010-2015",
+      "term_id": "ky-2010-2015",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memperoleh penguatan dasar legislasi lewat UU No. 18 Tahun 2011 untuk melakukan investigasi dan penegakan etik hakim secara proaktif.",
+          "evidence": [
+            {
+              "source_id": "uu-18-2011"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-uu-18-2011"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": 1,
+          "confidence": 0.65,
+          "rationale_id": "Menjalankan seleksi ketat calon Hakim Agung ke DPR dan merekomendasikan sanksi etik kepada Mahkamah Agung.",
+          "evidence": [
+            {
+              "source_id": "uu-18-2011"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-uu-18-2011"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-ky-2015-2020",
+      "term_id": "ky-2015-2020",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Melaksanakan sidang Majelis Kehormatan Hakim (MKH) secara konsisten dan menindak tegas hakim-hakim penerima suap dan pelanggar asusila.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2019"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-mkh-penegakan"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": 0,
+          "confidence": 0.6,
+          "rationale_id": "Sebagian rekomendasi sanksi KY atas hakim bermasalah belum seluruhnya dieksekusi oleh Mahkamah Agung karena disparitas tafsir teknis yudisial vs etik.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2019"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-mkh-penegakan"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-ky-2020-sekarang",
+      "term_id": "ky-2020-sekarang",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-27",
+      "dimension_scores": [
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.65,
+          "rationale_id": "Mendorong digitalisasi pemantauan persidangan dan transparansi uji publik kelayakan calon hakim agung dan hakim ad hoc tipikor/HAM.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2019"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": 0,
+          "confidence": 0.6,
+          "rationale_id": "Menghadapi tantangan OTT suap Hakim Agung di MA 2022, memperkuat koordinasi pengawasan terpadu dengan KPK dan MA.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2019"
             }
           ],
           "normative_anchors": [

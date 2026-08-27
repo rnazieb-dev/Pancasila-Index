@@ -1,0 +1,105 @@
+# Periode Majelis Permusyawaratan Rakyat Republik Indonesia
+
+- id: mpr-1971-1999
+  institution_id: mpr-ri
+  label_id: MPR Era Orde Baru
+  era: orde-baru
+  start_date: "1971-10-28"
+  end_date: "1999-09-30"
+  actors:
+    - name: Idham Chalid
+      role_id: Ketua MPR/DPR (1971–1977)
+    - name: Adam Malik
+      role_id: Ketua MPR/DPR (1977–1978)
+    - name: Daryatmo
+      role_id: Ketua MPR/DPR (1978–1982)
+    - name: Amir Machmud
+      role_id: Ketua MPR/DPR (1982–1987)
+    - name: Kharis Suhud
+      role_id: Ketua MPR/DPR (1987–1992)
+    - name: Wahono
+      role_id: Ketua MPR/DPR (1992–1997)
+    - name: Harmoko
+      role_id: Ketua MPR/DPR (1997–1999)
+
+- id: mpr-1999-2004
+  institution_id: mpr-ri
+  label_id: MPR Era Reformasi & Perubahan Konstitusi 1999–2004
+  era: reformasi
+  start_date: "1999-10-01"
+  end_date: "2004-09-30"
+  actors:
+    - name: Amien Rais
+      role_id: Ketua MPR RI (1999–2004)
+    - name: Ginandjar Kartasasmita
+      role_id: Wakil Ketua MPR RI (1999–2004)
+    - name: Kwik Kian Gie
+      role_id: Wakil Ketua MPR RI (1999–2004)
+
+- id: mpr-2004-2009
+  institution_id: mpr-ri
+  label_id: MPR Periode 2004–2009 (Pasca-Amendemen)
+  era: reformasi
+  start_date: "2004-10-01"
+  end_date: "2009-09-30"
+  actors:
+    - name: Hidayat Nur Wahid
+      role_id: Ketua MPR RI (2004–2009)
+    - name: AM Fatwa
+      role_id: Wakil Ketua MPR RI (2004–2009)
+    - name: Aksa Mahmud
+      role_id: Wakil Ketua MPR RI (2004–2009)
+
+- id: mpr-2009-2014
+  institution_id: mpr-ri
+  label_id: MPR Periode 2009–2014 (Empat Pilar Kebangsaan)
+  era: reformasi
+  start_date: "2009-10-01"
+  end_date: "2014-09-30"
+  actors:
+    - name: Taufiq Kiemas
+      role_id: Ketua MPR RI (2009–2013)
+    - name: Sidarto Danusubroto
+      role_id: Ketua MPR RI (2013–2014)
+
+- id: mpr-2014-2019
+  institution_id: mpr-ri
+  label_id: MPR Periode 2014–2019
+  era: reformasi
+  start_date: "2014-10-01"
+  end_date: "2019-09-30"
+  actors:
+    - name: Zulkifli Hasan
+      role_id: Ketua MPR RI (2014–2019)
+    - name: Mahyudin
+      role_id: Wakil Ketua MPR RI (2014–2019)
+    - name: Oesman Sapta Odang
+      role_id: Wakil Ketua MPR RI (2014–2019)
+
+- id: mpr-2019-2024
+  institution_id: mpr-ri
+  label_id: MPR Periode 2019–2024 (PPHN & Evaluasi Konstitusi)
+  era: reformasi
+  start_date: "2019-10-01"
+  end_date: "2024-09-30"
+  actors:
+    - name: Bambang Soesatyo
+      role_id: Ketua MPR RI (2019–2024)
+    - name: Ahmad Basarah
+      role_id: Wakil Ketua MPR RI (2019–2024)
+    - name: Ahmad Muzani
+      role_id: Wakil Ketua MPR RI (2019–2024)
+
+- id: mpr-2024-sekarang
+  institution_id: mpr-ri
+  label_id: MPR Periode 2024–2029
+  era: reformasi
+  start_date: "2024-10-01"
+  end_date: null
+  actors:
+    - name: Ahmad Muzani
+      role_id: Ketua MPR RI (2024–kini)
+    - name: Bambang Wuryanto
+      role_id: Wakil Ketua MPR RI (2024–kini)
+    - name: Rusdi Kirana
+      role_id: Wakil Ketua MPR RI (2024–kini)

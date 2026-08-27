@@ -28,8 +28,12 @@ const id: Dict = {
   navHome: "Beranda",
   navTimeline: "Timeline",
   navInstitutions: "Lembaga",
+  navCompare: "Bandingkan",
+  navSearch: "Cari",
+  navActors: "Tokoh",
   navUud: "Landasan UUD",
   navMethodology: "Metodologi",
+  navExport: "Ekspor",
   navCuration: "Kurasi",
   footerNote: "Catatan:",
   footerDisclaimer:

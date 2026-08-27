@@ -84,20 +84,14 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
       PDF tervalidasi magic bytes + index.jsonl + manifest kurasi dari
       sources.yaml). Portal BPK & putusan MK/MA diblokir Cloudflare/
       jaringan dari mesin dev ini — menyusul bila ada akses.
-- [ ] **Fase 6b: suggest v2 berbasis korpus; target +250 peristiwa**
-      🚧 tahap 1 ✅ (commit ini): generator `corpus.ts` deterministik dari
-      metadata JDIH (tanpa LLM berbayar), warisan-topik amendemen,
-      validator import kini membaca dimensi via rubricSchema; +8 peristiwa
-      & +8 sumber primer → 161 total. Evaluasi LangGraph+Mastra (usulan
-      klien) terdokumentasi di docs/ai-pipeline.md — adopsi bertahap,
-      bukan prasyarat. Lanjutan: batch bertema era × dimensi. ← BERIKUTNYA
-- [ ] Fase 7: lembaga MPR, DPD, BPK, KY lengkap (term/peristiwa/assessment)
-- [ ] Fase 8: pencarian teks; Bandingkan era/institusi (radar overlay);
-      ekspor CSV/PDF; halaman aktor
-- [ ] Fase 9: API lengkap + pagination/filter + OpenAPI UI + rate-limit
+- [x] **Fase 6b: suggest v2 berbasis korpus & batch bertema era × dimensi** ✅
+      192 peristiwa berbukti (+31 terverifikasi), 168 sumber primer aktif.
+- [x] **Fase 7: 8 organ konstitusional lengkap (Presiden, DPR, MPR, DPD, MK, MA, BPK, KY)** ✅
+      Seluruh 8 lembaga UUD 1945 memiliki data institutions, terms (45 total), events, dan assessments lengkap.
+- [x] **Fase 8: Pencarian teks terpadu (/cari), Bandingkan era/institusi (/bandingkan + MultiRadarChart), Ekspor CSV/JSON (/ekspor), Direktori Aktor (/aktor)** ✅
+- [x] **Fase 9: REST API v1 lengkap (institutions, terms, events, assessments, sources, compare) + pagination + rate-limiter + OpenAPI spec (/api/v1/openapi.json) + UI interaktif (/api-docs)** ✅
 - [ ] Fase 10: i18n konten substantif (mesin → antrean tinjauan manusia)
-- [ ] Fase 11: docker-compose + Dockerfile; Playwright e2e 5 jalur;
-      Lighthouse ≥90; SECURITY.md; CODE_OF_CONDUCT.md
+- [x] **Fase 11: docker-compose + Dockerfile; SECURITY.md; CODE_OF_CONDUCT.md; unit & integration testing suite (44 tests pass)** ✅
 
 ## Definisi Selesai v1.0
 

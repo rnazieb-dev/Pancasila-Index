@@ -1,29 +1,28 @@
-# Periode kepemimpinan Mahkamah Konstitusi (aproksimasi periode jabatan
-# Ketua MK; komposisi majelis berubah lebih sering).
+# Periode kepemimpinan Mahkamah Konstitusi Republik Indonesia (2003–kini)
 
 - id: mk-2003-2008
   institution_id: mahkamah-konstitusi
-  label_id: "MK Periode Pertama (Ketua: Bagir Manan)"
+  label_id: "MK Periode Pertama (Ketua: Jimly Asshiddiqie)"
   era: reformasi
   start_date: "2003-08-13"
   end_date: "2008-08-18"
   actors:
     - name: Jimly Asshiddiqie
-      role_id: Hakim Konstitusi (Sekretaris Jenderal pertama MK)
-    - name: Bagir Manan
-      role_id: Ketua MK (2003-2008)
+      role_id: Ketua MK pertama (2003–2008)
+    - name: Mohammad Laica Marzuki
+      role_id: Wakil Ketua MK (2003–2008)
 
 - id: mk-2008-2013
   institution_id: mahkamah-konstitusi
-  label_id: MK Periode Ketua Mahfud MD dan krisis integritas 2013
+  label_id: "MK Periode Ketua Mahfud MD dan krisis integritas 2013"
   era: reformasi
   start_date: "2008-08-19"
   end_date: "2013-10-01"
   actors:
     - name: Mohammad Mahfud MD
-      role_id: Ketua MK (2008-2013)
+      role_id: Ketua MK (2008–2013)
     - name: Akil Mochtar
-      role_id: Ketua MK (2013) - ditangkap kasus suap
+      role_id: Ketua MK (2013, diberhentikan karena OTT KPK)
 
 - id: mk-2013-2018
   institution_id: mahkamah-konstitusi
@@ -33,60 +32,30 @@
   end_date: "2018-08-07"
   actors:
     - name: Hamdan Zoelva
-      role_id: Ketua MK (2013-2015)
+      role_id: Ketua MK (2013–2015)
     - name: Arief Hidayat
-      role_id: Ketua MK (2015-2018)
+      role_id: Ketua MK (2015–2018)
 
 - id: mk-2018-2023
   institution_id: mahkamah-konstitusi
-  label_id: MK Periode Putusan Landmark dan Krisis Etik 2023
+  label_id: "MK Periode Putusan Landmark dan Krisis Etik 2023"
   era: reformasi
   start_date: "2018-08-08"
   end_date: "2023-11-06"
   actors:
     - name: Arief Hidayat
-      role_id: Ketua MK (2018-2022)
+      role_id: Ketua MK (2018–2022)
     - name: Anwar Usman
-      role_id: Ketua MK (2022-2023, diberhentikan karena pelanggaran etik)
+      role_id: Ketua MK (2022–2023, diberhentikan dari jabatan Ketua oleh MKMK)
 
 - id: mk-2023-sekarang
   institution_id: mahkamah-konstitusi
-  label_id: MK Pasca-Krisis Etik 2023
+  label_id: "MK Pasca-Krisis Etik 2023 (Ketua: Suhartoyo)"
   era: reformasi
   start_date: "2023-11-07"
   end_date: null
   actors:
-    - name: Suhartono
-      role_id: Ketua MK (plt., 2023-2024)
-
-# ------------------------ MAHKAMAH AGUNG ------------------------
-
-- id: ma-revolusi-liberal
-  institution_id: mahkamah-agung
-  label_id: MA Era Revolusi & Demokrasi Liberal
-  era: revolusi
-  start_date: "1946-08-22"
-  end_date: "1959-07-04"
-  actors:
-    - name: Sutjipto
-      role_id: Ketua MA pertama
-
-- id: ma-dt-orde-baru
-  institution_id: mahkamah-agung
-  label_id: MA Era Demokrasi Terpimpin & Orde Baru
-  era: demokrasi-terpimpin
-  start_date: "1959-07-05"
-  end_date: "1998-05-21"
-  actors:
-    - name: Masjkur, Gazali, Purwoto S Gandasubrata dkk.
-      role_id: Para Ketua MA periode 1958-1998
-
-- id: ma-reformasi-sekarang
-  institution_id: mahkamah-agung
-  label_id: MA Era Reformasi
-  era: reformasi
-  start_date: "1998-05-22"
-  end_date: null
-  actors:
-    - name: Bagir Manan, Harifin Tumpa, Hatta Ali, Sunarto dkk.
-      role_id: Para Ketua MA periode 2001-kini
+    - name: Suhartoyo
+      role_id: Ketua MK (2023–kini)
+    - name: Saldi Isra
+      role_id: Wakil Ketua MK (2023–kini)

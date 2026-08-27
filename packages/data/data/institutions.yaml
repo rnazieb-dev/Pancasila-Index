@@ -18,6 +18,27 @@
     pengawasan (Pasal 20A UUD 1945). Dinilai per periode keanggotaan hasil
     pemilu, berdasarkan produk legislasi dan jalannya fungsi pengawasan.
 
+- id: mpr-ri
+  slug: mpr
+  branch: legislatif
+  name_id: Majelis Permusyawaratan Rakyat Republik Indonesia
+  short_id: MPR RI
+  description_id: >
+    Lembaga permusyawaratan perwakilan yang berwenang mengubah dan menetapkan UUD,
+    melantik Presiden dan/atau Wakil Presiden, serta memberhentikan Presiden dan/atau
+    Wakil Presiden menurut UUD 1945 (Pasal 2 dan Pasal 3). Terdiri atas anggota DPR
+    dan anggota DPD yang dipilih melalui pemilu.
+
+- id: dpd-ri
+  slug: dpd
+  branch: legislatif
+  name_id: Dewan Perwakilan Daerah Republik Indonesia
+  short_id: DPD RI
+  description_id: >
+    Lembaga perwakilan daerah yang beranggotakan wakil-wakil daerah provinsi hasil
+    pemilu (Pasal 22C dan 22D UUD 1945). Berwenang mengajukan dan ikut membahas RUU
+    otonomi daerah, hubungan pusat-daerah, pemekaran daerah, dan pengelolaan SDA/keuangan daerah.
+
 - id: mahkamah-konstitusi
   slug: mahkamah-konstitusi
   branch: yudikatif
@@ -38,3 +59,23 @@
     kembali, dan uji peraturan di bawah UU (Pasal 24A UUD 1945). Berdiri sejak
     1946 lewat UU No. 1 Tahun 1946. Dinilai per periode politik nasional dari
     independensi, integritas, dan mutu yurisprudensinya.
+
+- id: bpk-ri
+  slug: bpk
+  branch: eksaminatif
+  name_id: Badan Pemeriksa Keuangan Republik Indonesia
+  short_id: BPK RI
+  description_id: >
+    Lembaga negara yang bebas dan mandiri untuk memeriksa pengelolaan dan tanggung
+    jawab tentang keuangan negara (Pasal 23E, 23F, dan 23G UUD 1945). Menyerahkan laporan
+    hasil pemeriksaan keuangan kepada DPR, DPD, dan DPRD serta memantau tindak lanjut rekomendasi audit.
+
+- id: komisi-yudisial
+  slug: komisi-yudisial
+  branch: yudikatif
+  name_id: Komisi Yudisial Republik Indonesia
+  short_id: KY RI
+  description_id: >
+    Lembaga mandiri pengawas kehormatan peradilan (Pasal 24B UUD 1945) yang berwenang
+    mengusulkan pengangkatan calon Hakim Agung ke DPR serta menjaga dan menegakkan
+    kehormatan, keluhuran martabat, dan perilaku hakim di seluruh lingkungan peradilan.

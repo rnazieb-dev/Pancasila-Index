@@ -1606,3 +1606,366 @@
       rationale_id: Korupsi besar naik kasus namun vonis seragam ringan dibanding kerugian negara - Jiwasraya Rp16,8 triliun contoh terkini.
       evidence: [{source_id: berita-jiwasraya-2022}]
       normative_anchors: [uud-nri-1945]
+
+# ======================== MAJELIS PERMUSYAWARATAN RAKYAT ========================
+
+- id: asm-mpr-1999-2004
+  term_id: mpr-1999-2004
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-27"
+  dimension_scores:
+    - dimension_id: checks-balances
+      score: 2
+      confidence: 0.85
+      rationale_id: Berhasil mengamandemen UUD 1945 empat tahap secara konsensual, membatasi masa jabatan presiden maksimal 2 periode dan mengakhiri era executive-heavy.
+      evidence: [{source_id: perubahan-pertama-uud-1945}, {source_id: perubahan-ketiga-uud-1945}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-mpr-amendemen-1, ev-mpr-amendemen-3]
+    - dimension_id: sila-2
+      score: 2
+      confidence: 0.8
+      rationale_id: Mengesahkan Bab XA Hak Asasi Manusia (Pasal 28A–28J) dan TAP HAM No. XVII/MPR/1998 yang menjadi tonggak jaminan konstitusional kebebasan dasar warga.
+      evidence: [{source_id: perubahan-kedua-uud-1945}, {source_id: tap-mpr-xvii-1998}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-mpr-amendemen-2, ev-mpr-tap-xvii-1998]
+    - dimension_id: negara-hukum
+      score: 2
+      confidence: 0.8
+      rationale_id: Menegaskan klausul Pasal 1 ayat 3 'Indonesia adalah negara hukum' serta mendirikan Mahkamah Konstitusi dan Komisi Yudisial untuk pengujian undang-undang dan penjagaan etik peradilan.
+      evidence: [{source_id: perubahan-ketiga-uud-1945}, {source_id: tap-mpr-xi-1998}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-mpr-amendemen-3, ev-mpr-tap-xi-1998]
+    - dimension_id: tujuan-3
+      score: 1
+      confidence: 0.75
+      rationale_id: Memasukkan kewajiban alokasi anggaran pendidikan sekurang-kurangnya 20% dari APBN dan APBD dalam Pasal 31 ayat 4 UUD 1945.
+      evidence: [{source_id: perubahan-keempat-uud-1945}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-mpr-amendemen-4]
+    - dimension_id: sila-4
+      score: 1
+      confidence: 0.7
+      rationale_id: Menetapkan mekanisme pemilihan presiden dan wakil presiden secara langsung oleh rakyat melalui pemilu demokratis (Pasal 6A).
+      evidence: [{source_id: perubahan-ketiga-uud-1945}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-mpr-amendemen-3]
+
+- id: asm-mpr-2009-2014
+  term_id: mpr-2009-2014
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-27"
+  dimension_scores:
+    - dimension_id: sila-1
+      score: 1
+      confidence: 0.6
+      rationale_id: Mendorong pemasyarakatan nilai-nilai kebangsaan dan toleransi keberagamaan lewat sosialisasi Empat Pilar secara meluas.
+      evidence: [{source_id: kep-mpr-4-pilar-2010}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-mpr-sosialisasi-4-pilar]
+    - dimension_id: sila-3
+      score: 1
+      confidence: 0.65
+      rationale_id: Menjaga komitmen persatuan nasional dan integritas NKRI di tengah polarisasi politik elektoral pasca-reformasi.
+      evidence: [{source_id: kep-mpr-4-pilar-2010}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-mpr-sosialisasi-4-pilar]
+
+- id: asm-mpr-2019-2024
+  term_id: mpr-2019-2024
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-27"
+  dimension_scores:
+    - dimension_id: checks-balances
+      score: 0
+      confidence: 0.55
+      rationale_id: Wacana amendemen kelima UUD 1945 dan penambahan pasal PPHN menimbulkan kekhawatiran kembalinya sentralisme kekuasaan MPR, namun dituntaskan melalui rekomendasi non-amendemen.
+      evidence: [{source_id: laporan-mpr-pphn-2024}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-mpr-kajian-pphn-2024]
+    - dimension_id: kedaulatan-rakyat
+      score: 0
+      confidence: 0.5
+      rationale_id: Mengakomodasi berbagai aspirasi masyarakat mengenai evaluasi konstitusi 20 tahun pasca-reformasi tanpa membatasi hak konstitusional pemilu langsung.
+      evidence: [{source_id: laporan-mpr-pphn-2024}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-mpr-kajian-pphn-2024]
+
+# ======================== DEWAN PERWAKILAN DAERAH ========================
+
+- id: asm-dpd-2004-2009
+  term_id: dpd-2004-2009
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-27"
+  dimension_scores:
+    - dimension_id: sila-3
+      score: 1
+      confidence: 0.6
+      rationale_id: Mengawali peletakan dasar representasi daerah di tingkat nasional dan menyerap aspirasi pemekaran serta otonomi daerah.
+      evidence: [{source_id: uu-22-2003}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-dpd-pelantikan-2004]
+    - dimension_id: kedaulatan-rakyat
+      score: 0
+      confidence: 0.5
+      rationale_id: Terkendala wewenang terbatas (soft bicameralism) dalam proses pembentukan UU sehingga aspirasi daerah belum sepenuhnya tertampung.
+      evidence: [{source_id: uu-22-2003}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-dpd-pelantikan-2004]
+
+- id: asm-dpd-2009-2014
+  term_id: dpd-2009-2014
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-27"
+  dimension_scores:
+    - dimension_id: checks-balances
+      score: 1
+      confidence: 0.7
+      rationale_id: Berhasil menguji UU P3 dan MD3 ke Mahkamah Konstitusi (Putusan No. 92/PUU-X/2012) untuk mengokohkan hak inisiatif dan pembahasan RUU daerah.
+      evidence: [{source_id: putusan-mk-92-puu-x-2012}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-dpd-uji-materi-mk-92-2012]
+    - dimension_id: sila-3
+      score: 1
+      confidence: 0.65
+      rationale_id: Memperjuangkan desentralisasi asimetris dan penguatan fiskal daerah dalam penyusunan regulasi nasional.
+      evidence: [{source_id: putusan-mk-92-puu-x-2012}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-dpd-uji-materi-mk-92-2012]
+
+- id: asm-dpd-2019-2024
+  term_id: dpd-2019-2024
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-27"
+  dimension_scores:
+    - dimension_id: sila-5
+      score: 1
+      confidence: 0.6
+      rationale_id: Mengajukan RUU Inisiatif Daerah Kepulauan dan mengawasi implementasi transfer dana desa demi pemerataan kesejahteraan kawasan 3T.
+      evidence: [{source_id: ruu-daerah-kepulauan-dpd-2020}, {source_id: laporan-dpd-pengawasan-desa-2023}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-dpd-inisiatif-kepulauan, ev-dpd-pengawasan-desa]
+    - dimension_id: sila-3
+      score: 0
+      confidence: 0.55
+      rationale_id: Dinamika internal dan usulan kembali ke UUD 1945 asli sempat memicu perdebatan mengenai arah kelembagaan perwakilan daerah.
+      evidence: [{source_id: laporan-dpd-pengawasan-desa-2023}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-dpd-pengawasan-desa]
+
+# ======================== BADAN PEMERIKSA KEUANGAN ========================
+
+- id: asm-bpk-1947-1998
+  term_id: bpk-1947-1998
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-27"
+  dimension_scores:
+    - dimension_id: checks-balances
+      score: -1
+      confidence: 0.55
+      rationale_id: Pada era Orde Baru fungsi audit eksternal BPK terbatas dan subordinatif di bawah kekuasaan eksekutif sehingga pengawasan anggaran tidak optimal.
+      evidence: [{source_id: uu-5-1973}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-bpk-uu-5-1973]
+    - dimension_id: negara-hukum
+      score: 0
+      confidence: 0.45
+      rationale_id: Dasar konstitusional pemeriksaan tetap dipertahankan sejak berdirinya 1947 kendati daya dorong penegakan hukum temuan audit lemah.
+      evidence: [{source_id: penetapan-bpk-1947}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-bpk-penetapan-1947]
+
+- id: asm-bpk-1998-2009
+  term_id: bpk-1998-2009
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-27"
+  dimension_scores:
+    - dimension_id: checks-balances
+      score: 2
+      confidence: 0.8
+      rationale_id: Transformasi menjadi lembaga audit independen satu pintu lewat UU 15/2004 dan UU 15/2006, membongkar skandal BLBI dan merevolusi transparansi anggaran.
+      evidence: [{source_id: uu-15-2004}, {source_id: uu-15-2006}, {source_id: laporan-bpk-blbi-2000}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-bpk-paket-uu-keuangan, ev-bpk-uu-15-2006, ev-bpk-audit-blbi]
+    - dimension_id: negara-hukum
+      score: 1
+      confidence: 0.7
+      rationale_id: Menyerahkan temuan indikasi kerugian negara kepada penegak hukum (KPK, Kejaksaan, Kepolisian) untuk ditindaklanjuti secara pidana.
+      evidence: [{source_id: uu-15-2004}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-bpk-paket-uu-keuangan]
+
+- id: asm-bpk-2009-2019
+  term_id: bpk-2009-2019
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-27"
+  dimension_scores:
+    - dimension_id: checks-balances
+      score: 1
+      confidence: 0.7
+      rationale_id: Mengawal penerapan akuntansi berbasis akrual di seluruh kementerian/lembaga hingga LKPP meraih opini WTP pertama pada 2016.
+      evidence: [{source_id: laporan-bpk-lkpp-2016}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-bpk-standar-sap-wtp]
+    - dimension_id: negara-hukum
+      score: 0
+      confidence: 0.6
+      rationale_id: Terjadi kasus suap pemberian opini WTP oknum auditor di sejumlah daerah yang mencoreng integritas internal lembaga.
+      evidence: [{source_id: laporan-bpk-lkpp-2016}]
+      normative_anchors: [uud-nri-1945]
+
+- id: asm-bpk-2019-sekarang
+  term_id: bpk-2019-sekarang
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-27"
+  dimension_scores:
+    - dimension_id: checks-balances
+      score: 1
+      confidence: 0.7
+      rationale_id: Melakukan audit menyeluruh terhadap belanja darurat penanganan Covid-19 dan PEN guna memitigasi risiko kebocoran dana publik.
+      evidence: [{source_id: bpk-ihps-pen-2021}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-bpk-audit-pen-covid]
+    - dimension_id: sila-5
+      score: 1
+      confidence: 0.6
+      rationale_id: Memastikan akuntabilitas program bansos dan pemulihan ekonomi nasional agar tepat sasaran bagi masyarakat terdampak.
+      evidence: [{source_id: bpk-ihps-pen-2021}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-bpk-audit-pen-covid]
+
+# ======================== KOMISI YUDISIAL ========================
+
+- id: asm-ky-2005-2010
+  term_id: ky-2005-2010
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-27"
+  dimension_scores:
+    - dimension_id: negara-hukum
+      score: 1
+      confidence: 0.7
+      rationale_id: Meletakkan pondasi pengawasan etik peradilan dan merumuskan Kode Etik dan Pedoman Perilaku Hakim (KEPPH) 2009 bersama Mahkamah Agung.
+      evidence: [{source_id: uu-22-2004}, {source_id: skb-ma-ky-kepph-2009}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-ky-uu-22-2004, ev-ky-skb-kepph-2009]
+    - dimension_id: checks-balances
+      score: 0
+      confidence: 0.65
+      rationale_id: Kewenangan pengawasan sempat digugat dan dipangkas oleh Putusan MK No. 005/PUU-IV/2006 yang membatasi jangkauan pengawasan KY atas hakim konstitusi.
+      evidence: [{source_id: putusan-mk-005-puu-iv-2006}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-ky-putusan-mk-005-2006]
+
+- id: asm-ky-2010-2015
+  term_id: ky-2010-2015
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-27"
+  dimension_scores:
+    - dimension_id: negara-hukum
+      score: 1
+      confidence: 0.7
+      rationale_id: Memperoleh penguatan dasar legislasi lewat UU No. 18 Tahun 2011 untuk melakukan investigasi dan penegakan etik hakim secara proaktif.
+      evidence: [{source_id: uu-18-2011}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-ky-uu-18-2011]
+    - dimension_id: checks-balances
+      score: 1
+      confidence: 0.65
+      rationale_id: Menjalankan seleksi ketat calon Hakim Agung ke DPR dan merekomendasikan sanksi etik kepada Mahkamah Agung.
+      evidence: [{source_id: uu-18-2011}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-ky-uu-18-2011]
+
+- id: asm-ky-2015-2020
+  term_id: ky-2015-2020
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-27"
+  dimension_scores:
+    - dimension_id: negara-hukum
+      score: 1
+      confidence: 0.7
+      rationale_id: Melaksanakan sidang Majelis Kehormatan Hakim (MKH) secara konsisten dan menindak tegas hakim-hakim penerima suap dan pelanggar asusila.
+      evidence: [{source_id: laporan-tahunan-ky-2019}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-ky-mkh-penegakan]
+    - dimension_id: checks-balances
+      score: 0
+      confidence: 0.6
+      rationale_id: Sebagian rekomendasi sanksi KY atas hakim bermasalah belum seluruhnya dieksekusi oleh Mahkamah Agung karena disparitas tafsir teknis yudisial vs etik.
+      evidence: [{source_id: laporan-tahunan-ky-2019}]
+      normative_anchors: [uud-nri-1945]
+      event_ids: [ev-ky-mkh-penegakan]
+
+- id: asm-ky-2020-sekarang
+  term_id: ky-2020-sekarang
+  rubric_version: "1.0.0"
+  status: draft
+  reviewers: ["Pipeline AI (draf awal)"]
+  ai_suggested: true
+  human_confirmed: false
+  created_at: "2026-08-27"
+  dimension_scores:
+    - dimension_id: negara-hukum
+      score: 1
+      confidence: 0.65
+      rationale_id: Mendorong digitalisasi pemantauan persidangan dan transparansi uji publik kelayakan calon hakim agung dan hakim ad hoc tipikor/HAM.
+      evidence: [{source_id: laporan-tahunan-ky-2019}]
+      normative_anchors: [uud-nri-1945]
+    - dimension_id: checks-balances
+      score: 0
+      confidence: 0.6
+      rationale_id: Menghadapi tantangan OTT suap Hakim Agung di MA 2022, memperkuat koordinasi pengawasan terpadu dengan KPK dan MA.
+      evidence: [{source_id: laporan-tahunan-ky-2019}]
+      normative_anchors: [uud-nri-1945]
+

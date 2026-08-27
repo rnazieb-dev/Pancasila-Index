@@ -2356,3 +2356,369 @@
     - uu-5-2014
   dimension_ids:
     - checks-balances
+
+# ======================== MAJELIS PERMUSYAWARATAN RAKYAT ========================
+
+- id: ev-mpr-tap-xi-1998
+  term_id: mpr-1999-2004
+  date: "1998-11-13"
+  category: produk-hukum
+  title_id: TAP MPR No. XI/MPR/1998 tentang Penyelenggara Negara Bebas KKN
+  summary_id: >-
+    MPR RI menetapkan TAP MPR No. XI/MPR/1998 sebagai komitmen reformasi total
+    untuk memberantas korupsi, kolusi, dan nepotisme serta memeriksa harta kekayaan
+    pejabat negara dan kroni kekuasaan masa lalu demi tegaknya keadilan sosial.
+  source_ids: [tap-mpr-xi-1998]
+  dimension_ids: [negara-hukum, sila-5, checks-balances]
+
+- id: ev-mpr-tap-xvii-1998
+  term_id: mpr-1999-2004
+  date: "1998-11-13"
+  category: produk-hukum
+  title_id: TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia
+  summary_id: >-
+    Ketetapan monumental MPR yang memuat Piagam Hak Asasi Manusia sebagai landasan
+    pengakuan hak-hak sipil, politik, ekonomi, sosial, dan budaya bangsa Indonesia
+    pasca-otoritarianisme Orde Baru.
+  source_ids: [tap-mpr-xvii-1998]
+  dimension_ids: [sila-2, negara-hukum]
+
+- id: ev-mpr-amendemen-1
+  term_id: mpr-1999-2004
+  date: "1999-10-19"
+  category: produk-hukum
+  title_id: Perubahan Pertama UUD 1945
+  summary_id: >-
+    Sidang Umum MPR 1999 mengesahkan Perubahan Pertama UUD 1945 yang membatasi masa
+    jabatan Presiden maksimal dua periode (Pasal 7) dan mengembalikan fungsi legislasi
+    ke DPR (Pasal 20), mengakhiri sistem pemerintahan berpusat pada eksekutif (executive heavy).
+  source_ids: [perubahan-pertama-uud-1945]
+  dimension_ids: [checks-balances, kedaulatan-rakyat]
+
+- id: ev-mpr-amendemen-2
+  term_id: mpr-1999-2004
+  date: "2000-08-18"
+  category: produk-hukum
+  title_id: Perubahan Kedua UUD 1945 (Bab XA HAM & Desentralisasi)
+  summary_id: >-
+    Sidang Tahunan MPR 2000 mengadopsi Bab XA Hak Asasi Manusia (Pasal 28A–28J) secara
+    komprehensif ke dalam batang tubuh konstitusi, serta mengatur otonomi daerah yang luas
+    dan tata pemerintahan daerah (Pasal 18, 18A, 18B).
+  source_ids: [perubahan-kedua-uud-1945]
+  dimension_ids: [sila-2, sila-3]
+
+- id: ev-mpr-tap-vi-2000
+  term_id: mpr-1999-2004
+  date: "2000-08-18"
+  category: produk-hukum
+  title_id: TAP MPR No. VI/MPR/2000 tentang Pemisahan TNI dan Polri
+  summary_id: >-
+    MPR memisahkan secara kelembagaan dan doktrinal peran Tentara Nasional Indonesia
+    sebagai alat pertahanan negara dan Kepolisian Negara RI sebagai alat keamanan
+    serta penegakan hukum dan pengayom masyarakat.
+  source_ids: [tap-mpr-vi-2000, tap-mpr-vii-2000]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-mpr-amendemen-3
+  term_id: mpr-1999-2004
+  date: "2001-11-09"
+  category: produk-hukum
+  title_id: Perubahan Ketiga UUD 1945 (MK, KY, DPD, Pilpres Langsung)
+  summary_id: >-
+    Perubahan fundamental struktur ketatanegaraan: penegasan Indonesia adalah negara hukum
+    (Pasal 1 ayat 3), pemilihan Presiden/Wapres langsung oleh rakyat (Pasal 6A), pembentukan
+    Mahkamah Konstitusi, Komisi Yudisial, dan Dewan Perwakilan Daerah (DPD).
+  source_ids: [perubahan-ketiga-uud-1945]
+  dimension_ids: [negara-hukum, checks-balances, sila-4]
+
+- id: ev-mpr-amendemen-4
+  term_id: mpr-1999-2004
+  date: "2002-08-10"
+  category: produk-hukum
+  title_id: Perubahan Keempat UUD 1945 (Pendidikan 20% & Perekonomian Nasional)
+  summary_id: >-
+    Penuntasan rangkaian amendemen konstitusi: penetapan kewajiban alokasi anggaran pendidikan
+    minimal 20% APBN/APBD (Pasal 31 ayat 4), sistem jaminan sosial nasional (Pasal 34),
+    penghapusan DPA, dan pembentukan bank sentral independen.
+  source_ids: [perubahan-keempat-uud-1945]
+  dimension_ids: [tujuan-3, sila-5, checks-balances]
+
+- id: ev-mpr-tap-i-2003
+  term_id: mpr-1999-2004
+  date: "2003-08-07"
+  category: produk-hukum
+  title_id: TAP MPR No. I/MPR/2003 Peninjauan Materi Hukum TAP MPRS/MPR
+  summary_id: >-
+    MPR menertibkan dan memilah 139 Ketetapan MPRS/MPR sejak 1960 menjadi 6 kategori status hukum,
+    memberikan kepastian hukum transisional dalam hierarki peraturan perundang-undangan nasional.
+  source_ids: [tap-mpr-i-2003]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-mpr-sosialisasi-4-pilar
+  term_id: mpr-2009-2014
+  date: "2010-05-20"
+  category: kebijakan
+  title_id: Sosialisasi Empat Pilar Kehidupan Berbangsa dan Bernegara
+  summary_id: >-
+    MPR RI di bawah kepemimpinan Taufiq Kiemas menginisiasi gerakan nasional pemasyarakatan
+    Empat Pilar: Pancasila, UUD 1945, NKRI, dan Bhinneka Tunggal Ika ke seluruh pelosok tanah air.
+  source_ids: [kep-mpr-4-pilar-2010]
+  dimension_ids: [sila-1, sila-3]
+
+- id: ev-mpr-kajian-pphn-2024
+  term_id: mpr-2019-2024
+  date: "2024-09-25"
+  category: kebijakan
+  title_id: Rekomendasi Badan Pengkajian MPR tentang Pokok-Pokok Haluan Negara (PPHN)
+  summary_id: >-
+    Badan Pengkajian MPR menyelesaikan kajian komprehensif mengenai urgensi PPHN sebagai
+    pemandu arah pembangunan jangka panjang nasional melalui konvensi ketatanegaraan tanpa
+    membongkar batasan kekuasaan presiden dalam UUD 1945.
+  source_ids: [laporan-mpr-pphn-2024]
+  dimension_ids: [kedaulatan-rakyat, checks-balances]
+
+# ======================== DEWAN PERWAKILAN DAERAH ========================
+
+- id: ev-dpd-pelantikan-2004
+  term_id: dpd-2004-2009
+  date: "2004-10-01"
+  category: peristiwa
+  title_id: Pembentukan dan Sidang Perdana DPD RI Hasil Pemilu 2004
+  summary_id: >-
+    128 anggota DPD RI dari 32 provinsi resmi dilantik dan bersidang untuk pertama kalinya
+    dalam sejarah Indonesia modern, mengawali babak baru sistem perwakilan bikameral lunak
+    guna memperjuangkan kepentingan daerah di tingkat nasional.
+  source_ids: [uu-22-2003]
+  dimension_ids: [sila-3, kedaulatan-rakyat]
+
+- id: ev-dpd-uji-materi-mk-92-2012
+  term_id: dpd-2009-2014
+  date: "2013-03-27"
+  category: pengadilan
+  title_id: Putusan MK No. 92/PUU-X/2012 Memperkuat Kewenangan Legislasi DPD
+  summary_id: >-
+    Mahkamah Konstitusi mengabulkan uji materi DPD RI terhadap UU P3 dan UU MD3,
+    menegaskan bahwa DPD berhak mengusulkan RUU, membahas RUU sejak awal bersama DPR
+    dan Presiden, serta menyusun program legislasi nasional (Prolegnas) terkait otonomi daerah.
+  source_ids: [putusan-mk-92-puu-x-2012]
+  dimension_ids: [sila-3, checks-balances, negara-hukum]
+
+- id: ev-dpd-putusan-mk-79-2014
+  term_id: dpd-2014-2019
+  date: "2015-09-22"
+  category: pengadilan
+  title_id: Putusan MK No. 79/PUU-XII/2014 atas Kedudukan Tripartit Legislasi DPD
+  summary_id: >-
+    MK menegaskan kembali hak konstitusional DPD dalam proses pembentukan undang-undang
+    terkait otonomi dan keuangan daerah secara setara dan bermartabat bersama DPR dan Presiden.
+  source_ids: [putusan-mk-79-puu-xii-2014]
+  dimension_ids: [sila-3, checks-balances]
+
+- id: ev-dpd-inisiatif-kepulauan
+  term_id: dpd-2019-2024
+  date: "2020-02-18"
+  category: kebijakan
+  title_id: Pengusulan RUU Usul Inisiatif DPD RI tentang Daerah Kepulauan
+  summary_id: >-
+    DPD RI mengajukan draf RUU Daerah Kepulauan ke DPR RI untuk memperjuangkan keadilan
+    alokasi anggaran DAU/DBH berbasis luas laut wilayah bagi 8 provinsi kepulauan dan kawasan 3T.
+  source_ids: [ruu-daerah-kepulauan-dpd-2020]
+  dimension_ids: [sila-5, sila-3]
+
+- id: ev-dpd-pengawasan-desa
+  term_id: dpd-2019-2024
+  date: "2023-08-15"
+  category: kebijakan
+  title_id: Pengawasan Komite I DPD RI atas Efektivitas Penyaluran Dana Desa
+  summary_id: >-
+    DPD RI menerbitkan laporan pengawasan nasional pelaksanaan penyaluran dana desa
+    di 74.000 lebih desa untuk mencegah korupsi birokrasi lokal dan memastikan pemanfaatan dana
+    bagi pengentasan kemiskinan ekstrem.
+  source_ids: [laporan-dpd-pengawasan-desa-2023]
+  dimension_ids: [sila-5, sila-3]
+
+# ======================== BADAN PEMERIKSA KEUANGAN ========================
+
+- id: ev-bpk-penetapan-1947
+  term_id: bpk-1947-1998
+  date: "1947-01-01"
+  category: peristiwa
+  title_id: Pembentukan Badan Pemeriksa Keuangan di Magelang
+  summary_id: >-
+    Pemerintah RI menetapkan berdirinya BPK di Magelang berdasarkan amanat Pasal 23 ayat 5
+    UUD 1945 asli dengan ketua pertama R. Soerasno, guna memeriksa perbendaharaan negara
+    di tengah revolusi fisik kemerdekaan.
+  source_ids: [penetapan-bpk-1947]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-bpk-uu-5-1973
+  term_id: bpk-1947-1998
+  date: "1973-12-28"
+  category: produk-hukum
+  title_id: UU No. 5 Tahun 1973 tentang Badan Pemeriksa Keuangan
+  summary_id: >-
+    Pengesahan undang-undang yang mengatur kedudukan BPK sebagai lembaga tinggi negara
+    di era Orde Baru, kendati dalam praktiknya ruang gerak pemeriksaan dibatasi oleh hegemoni eksekutif.
+  source_ids: [uu-5-1973]
+  dimension_ids: [checks-balances]
+
+- id: ev-bpk-audit-blbi
+  term_id: bpk-1998-2009
+  date: "2000-08-01"
+  category: kebijakan
+  title_id: Audit Investigasi BPK RI atas Penyimpangan BLBI Rp144,5 Triliun
+  summary_id: >-
+    BPK RI di bawah kepemimpinan Satrio Budihardjo Joedono merilis laporan audit investigasi
+    monumental atas penyimpangan dana Bantuan Likuiditas Bank Indonesia (BLBI) di 48 bank,
+    membongkar skandal keuangan terbesar dalam sejarah republik.
+  source_ids: [laporan-bpk-blbi-2000]
+  dimension_ids: [checks-balances, sila-5]
+
+- id: ev-bpk-paket-uu-keuangan
+  term_id: bpk-1998-2009
+  date: "2004-07-26"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 15 Tahun 2004 tentang Pemeriksaan Keuangan Negara
+  summary_id: >-
+    Pengesahan UU 15/2004 melengkapi paket reformasi keuangan negara (UU 17/2003 & UU 1/2004),
+    memberi wewenang audit komprehensif atas pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu.
+  source_ids: [uu-15-2004]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-bpk-uu-15-2006
+  term_id: bpk-1998-2009
+  date: "2006-10-30"
+  category: produk-hukum
+  title_id: UU No. 15 Tahun 2006 Menegaskan Independensi Penuh BPK
+  summary_id: >-
+    Undang-undang baru BPK mengatur kedudukan BPK sebagai lembaga pemeriksa eksternal yang bebas
+    dan mandiri, berkedudukan di ibukota negara dan memiliki perwakilan di setiap provinsi.
+  source_ids: [uu-15-2006]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-bpk-standar-sap-wtp
+  term_id: bpk-2009-2019
+  date: "2016-05-30"
+  category: kebijakan
+  title_id: Penerapan Akuntansi Akrual dan Capaian Opini WTP Perdana LKPP 2016
+  summary_id: >-
+    BPK RI mengawal transisi pelaporan keuangan pemerintah berbasis akrual penuh, menghasilkan
+    opini Wajar Tanpa Pengecualian (WTP) pertama dalam sejarah untuk Laporan Keuangan Pemerintah Pusat (LKPP).
+  source_ids: [laporan-bpk-lkpp-2016]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-bpk-audit-pen-covid
+  term_id: bpk-2019-sekarang
+  date: "2021-06-22"
+  category: kebijakan
+  title_id: Pemeriksaan Komprehensif BPK atas Program PC-PEN Covid-19
+  summary_id: >-
+    BPK RI menyelesaikan audit komprehensif atas pengelolaan anggaran penanganan pandemi
+    dan pemulihan ekonomi nasional (PC-PEN) ratusan triliun rupiah demi menjaga akuntabilitas belanja darurat publik.
+  source_ids: [bpk-ihps-pen-2021]
+  dimension_ids: [checks-balances, sila-5, tujuan-2]
+
+# ======================== KOMISI YUDISIAL ========================
+
+- id: ev-ky-uu-22-2004
+  term_id: ky-2005-2010
+  date: "2004-08-13"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 22 Tahun 2004 tentang Komisi Yudisial
+  summary_id: >-
+    Pengesahan payung hukum pembentukan Komisi Yudisial sebagai lembaga independen
+    penjaga integritas martabat peradilan dan pengusul seleksi calon hakim agung ke DPR.
+  source_ids: [uu-22-2004]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-ky-putusan-mk-005-2006
+  term_id: ky-2005-2010
+  date: "2006-08-23"
+  category: pengadilan
+  title_id: Putusan MK No. 005/PUU-IV/2006 Membatalkan Pengawasan KY atas Hakim MK
+  summary_id: >-
+    Mahkamah Konstitusi memutus permohonan 31 Hakim Agung, menyatakan hakim konstitusi tidak
+    termasuk objek pengawasan KY dan membatalkan sejumlah pasal kewenangan pengawasan perilaku hakim.
+  source_ids: [putusan-mk-005-puu-iv-2006]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-ky-skb-kepph-2009
+  term_id: ky-2005-2010
+  date: "2009-04-08"
+  category: kebijakan
+  title_id: Penandatanganan SKB Kode Etik dan Pedoman Perilaku Hakim (KEPPH)
+  summary_id: >-
+    Ketua Mahkamah Agung dan Ketua Komisi Yudisial menandatangani 10 Prinsip KEPPH
+    (adil, jujur, arif, mandiri, berintegritas, bertanggung jawab, menjunjung harga diri,
+    berdisiplin, rendah hati, dan profesional) sebagai standar etik seragam hakim Indonesia.
+  source_ids: [skb-ma-ky-kepph-2009]
+  dimension_ids: [negara-hukum, sila-2]
+
+- id: ev-ky-uu-18-2011
+  term_id: ky-2010-2015
+  date: "2011-11-09"
+  category: produk-hukum
+  title_id: UU No. 18 Tahun 2011 Memperkuat Wewenang Investigasi Komisi Yudisial
+  summary_id: >-
+    DPR dan Presiden mengesahkan revisi UU KY yang memperkuat wewenang investigasi,
+    pemberian rekomendasi sanksi etik, perlindungan dan advokasi hakim dari ancaman peradilan (contempt of court).
+  source_ids: [uu-18-2011]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-ky-mkh-penegakan
+  term_id: ky-2015-2020
+  date: "2019-07-10"
+  category: kebijakan
+  title_id: Penegakan Integritas Melalui Sidang Majelis Kehormatan Hakim (MKH) Bersama
+  summary_id: >-
+    Komisi Yudisial bersama Mahkamah Agung konsisten menyelenggarakan sidang MKH majelis gabungan
+    untuk memeriksa dan menjatuhkan sanksi etik berat hingga pemecatan bagi hakim-hakim yang terbukti menerima suap atau melanggar asusila.
+  source_ids: [laporan-tahunan-ky-2019]
+  dimension_ids: [negara-hukum, checks-balances]
+
+# ======================== MAHKAMAH AGUNG ========================
+
+- id: ev-ma-uu-19-1964-intervensi
+  term_id: ma-dt-orde-baru
+  date: "1964-10-31"
+  category: produk-hukum
+  title_id: UU No. 19 Tahun 1964 Membuka Campur Tangan Presiden atas Peradilan
+  summary_id: >-
+    Pemberlakuan Pasal 19 UU 19/1964 di era Demokrasi Terpimpin yang membolehkan Presiden
+    mencampuri urusan pengadilan demi kepentingan revolusi, mencederai prinsip negara hukum dan kemandirian peradilan.
+  source_ids: [uu-19-1964]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-ma-uu-14-1970
+  term_id: ma-dt-orde-baru
+  date: "1970-12-17"
+  category: produk-hukum
+  title_id: UU No. 14 Tahun 1970 Mengembalikan Prinsip Peradilan Bebas
+  summary_id: >-
+    Pengesahan UU Pokok Kekuasaan Kehakiman 1970 menegaskan kembali peradilan yang merdeka
+    dan bebas dari campur tangan pihak lain, kendati administrasi dan finansial pengadilan masih berada di bawah kementerian eksekutif (sistem dua atap).
+  source_ids: [uu-14-1970]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-ma-uu-14-1985
+  term_id: ma-dt-orde-baru
+  date: "1985-12-30"
+  category: produk-hukum
+  title_id: UU No. 14 Tahun 1985 tentang Mahkamah Agung
+  summary_id: >-
+    Pengesahan undang-undang organik Mahkamah Agung RI yang mengatur susunan, kekuasaan kasasi,
+    peninjauan kembali, serta wewenang hak uji materiil terhadap peraturan perundang-undangan di bawah undang-undang.
+  source_ids: [uu-14-1985]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-ma-satu-atap-2004
+  term_id: ma-reformasi-sekarang
+  date: "2004-03-23"
+  category: produk-hukum
+  title_id: UU No. 5 Tahun 2004 & Penyatuan Satu Atap Peradilan ke Mahkamah Agung
+  summary_id: >-
+    Pengalihan penuh organisasi, administrasi, dan finansial badan peradilan umum, peradilan agama,
+    peradilan militer, dan peradilan tata usaha negara dari departemen eksekutif ke bawah satu atap Mahkamah Agung RI.
+  source_ids: [uu-5-2004]
+  dimension_ids: [negara-hukum, checks-balances]
+

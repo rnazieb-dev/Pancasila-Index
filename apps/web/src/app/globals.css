@@ -1,14 +1,28 @@
 @import "tailwindcss";
 
-:root {
+/* ===== DARK MODE (default) ===== */
+:root,
+[data-theme="dark"] {
   --bg: #0b0f1a;
   --panel: #121828;
   --line: #232c44;
   --text: #e7ecf5;
   --muted: #8b96ad;
+  color-scheme: dark;
+}
+
+/* ===== LIGHT MODE ===== */
+[data-theme="light"] {
+  --bg: #f4f6fb;
+  --panel: #ffffff;
+  --line: #dde3ef;
+  --text: #0f172a;
+  --muted: #5a6a87;
+  color-scheme: light;
 }
 
 body {
   background: var(--bg);
   color: var(--text);
+  transition: background 0.2s, color 0.2s;
 }

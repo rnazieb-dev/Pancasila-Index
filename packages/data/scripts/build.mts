@@ -58,9 +58,8 @@ const rubric = rubricSchema.parse(readYaml(join("rubric", rubricFiles[rubricFile
 
 const uud = uudSchema.parse(readYaml("uud1945.yaml"));
 const institutions = loadArray("institutions.yaml", institutionSchema, "institution");
-const terms = loadArray("terms-presiden.yaml", termSchema, "term")
-  .concat(loadArray("terms-dpr.yaml", termSchema, "term"))
-  .concat(loadArray("terms-mk.yaml", termSchema, "term"));
+const termFiles = readdirSync(DATA).filter((f) => f.startsWith("terms-") && f.endsWith(".yaml")).sort();
+const terms = termFiles.flatMap((f) => loadArray(f, termSchema, `term (${f})`));
 const sourcesRaw = loadArray("sources.yaml", sourceSchema, "source");
 const events = loadArray("events.yaml", eventSchema, "event");
 const assessments = loadArray("assessments.yaml", assessmentSchema, "assessment");

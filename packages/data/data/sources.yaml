@@ -776,3 +776,202 @@
   year: 1999
   url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=37&thn=1999
   citation_id: jdih-setneg:P01068
+
+- id: tap-mpr-xi-1998
+  type: dokumen-mpr
+  title_id: TAP MPR No. XI/MPR/1998 tentang Penyelenggara Negara yang Bersih dan Bebas Korupsi, Kolusi, dan Nepotisme
+  year: 1998
+  citation_id: TAP MPR XI/MPR/1998
+
+- id: perubahan-pertama-uud-1945
+  type: dokumen-mpr
+  title_id: Perubahan Pertama Undang-Undang Dasar Negara Republik Indonesia Tahun 1945
+  year: 1999
+  citation_id: Sidang Umum MPR RI 1999
+
+- id: perubahan-kedua-uud-1945
+  type: dokumen-mpr
+  title_id: Perubahan Kedua Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (Bab XA HAM, Otonomi Daerah, DPR)
+  year: 2000
+  citation_id: Sidang Tahunan MPR RI 2000
+
+- id: perubahan-ketiga-uud-1945
+  type: dokumen-mpr
+  title_id: Perubahan Ketiga Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (MK, KY, BPK Mandiri, DPD, Pilpres Langsung)
+  year: 2001
+  citation_id: Sidang Tahunan MPR RI 2001
+
+- id: perubahan-keempat-uud-1945
+  type: dokumen-mpr
+  title_id: Perubahan Keempat Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (Anggaran Pendidikan 20%, Bank Sentral, Wantimpres)
+  year: 2002
+  citation_id: Sidang Tahunan MPR RI 2002
+
+- id: tap-mpr-vi-2000
+  type: dokumen-mpr
+  title_id: TAP MPR No. VI/MPR/2000 tentang Pemisahan Tentara Nasional Indonesia dan Kepolisian Negara Republik Indonesia
+  year: 2000
+  citation_id: TAP MPR VI/MPR/2000
+
+- id: tap-mpr-vii-2000
+  type: dokumen-mpr
+  title_id: TAP MPR No. VII/MPR/2000 tentang Peran Tentara Nasional Indonesia dan Peran Kepolisian Negara Republik Indonesia
+  year: 2000
+  citation_id: TAP MPR VII/MPR/2000
+
+- id: tap-mpr-i-2003
+  type: dokumen-mpr
+  title_id: TAP MPR No. I/MPR/2003 tentang Peninjauan Terhadap Materi dan Status Hukum Ketetapan MPRS dan Ketetapan MPR RI Tahun 1960 sampai dengan Tahun 2002
+  year: 2003
+  citation_id: TAP MPR I/MPR/2003
+
+- id: kep-mpr-4-pilar-2010
+  type: dokumen-mpr
+  title_id: Keputusan Pimpinan MPR RI tentang Program Pemasyarakatan Empat Pilar Kehidupan Berbangsa dan Bernegara
+  year: 2010
+  citation_id: Pimpinan MPR RI 2010
+
+- id: laporan-mpr-pphn-2024
+  type: laporan-lembaga
+  title_id: Laporan Kinerja dan Rekomendasi Badan Pengkajian MPR RI Periode 2019–2024 tentang Pokok-Pokok Haluan Negara (PPHN)
+  year: 2024
+  citation_id: MPR RI 2024
+
+- id: uu-22-2003
+  type: undang-undang
+  title_id: UU No. 22 Tahun 2003 tentang Susunan dan Kedudukan Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah
+  year: 2003
+  url: https://peraturan.bpk.go.id/Details/43924/uu-no-22-tahun-2003
+  citation_id: LN No. 92 Tahun 2003, TLN No. 4310
+
+- id: putusan-mk-92-puu-x-2012
+  type: putusan-mk
+  title_id: Putusan MK No. 92/PUU-X/2012 (Pengujian Wewenang Legislasi DPD RI dalam UU P3 dan UU MD3)
+  year: 2013
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=92/PUU-X/2012
+  citation_id: Putusan MKRI No. 92/PUU-X/2012
+
+- id: putusan-mk-79-puu-xii-2014
+  type: putusan-mk
+  title_id: Putusan MK No. 79/PUU-XII/2014 (Penegasan Hak DPD RI Mengusulkan dan Membahas Prolegnas serta RUU Tertentu)
+  year: 2015
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=79/PUU-XII/2014
+  citation_id: Putusan MKRI No. 79/PUU-XII/2014
+
+- id: ruu-daerah-kepulauan-dpd-2020
+  type: dokumen-mpr
+  title_id: Draft Naskah Akademik dan RUU Usul Inisiatif DPD RI tentang Daerah Kepulauan
+  year: 2020
+  citation_id: DPD RI Usul Inisiatif 2020
+
+- id: laporan-dpd-pengawasan-desa-2023
+  type: laporan-lembaga
+  title_id: Laporan Hasil Pengawasan Komite I DPD RI atas Implementasi Penyaluran Dana Desa dan Otonomi Daerah
+  year: 2023
+  citation_id: DPD RI Komite I 2023
+
+- id: penetapan-bpk-1947
+  type: arsip-nasional
+  title_id: Penetapan Pemerintah No. 11/OEM Tahun 1947 tentang Pembentukan Badan Pemeriksa Keuangan
+  year: 1947
+  citation_id: Penetapan Pemerintah No. 11/OEM Tahun 1947
+
+- id: uu-5-1973
+  type: undang-undang
+  title_id: UU No. 5 Tahun 1973 tentang Badan Pemeriksa Keuangan
+  year: 1973
+  url: https://peraturan.bpk.go.id/Details/48208/uu-no-5-tahun-1973
+  citation_id: LN No. 39 Tahun 1973, TLN No. 3008
+
+- id: uu-15-2004
+  type: undang-undang
+  title_id: UU No. 15 Tahun 2004 tentang Pemeriksaan Pengelolaan dan Tanggung Jawab Keuangan Negara
+  year: 2004
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=15&thn=2004
+  citation_id: LN No. 66 Tahun 2004, TLN No. 4400
+
+- id: uu-15-2006
+  type: undang-undang
+  title_id: UU No. 15 Tahun 2006 tentang Badan Pemeriksa Keuangan
+  year: 2006
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=15&thn=2006
+  citation_id: LN No. 85 Tahun 2006, TLN No. 4654
+
+- id: laporan-bpk-blbi-2000
+  type: laporan-lembaga
+  title_id: Laporan Hasil Pemeriksaan BPK RI atas Penggunaan Dana Bantuan Likuiditas Bank Indonesia (BLBI)
+  year: 2000
+  citation_id: BPK RI Audit Investigasi BLBI 2000
+
+- id: bpk-ihps-pen-2021
+  type: laporan-lembaga
+  title_id: Ikhtisar Hasil Pemeriksaan Semester (IHPS) II Tahun 2020 BPK RI (Audit Tata Kelola PC-PEN dan Penanganan Covid-19)
+  year: 2021
+  url: https://www.bpk.go.id/ihps
+  citation_id: BPK RI IHPS II-2020
+
+- id: laporan-bpk-lkpp-2016
+  type: laporan-lembaga
+  title_id: Laporan Hasil Pemeriksaan BPK RI atas Laporan Keuangan Pemerintah Pusat (LKPP) Tahun 2016
+  year: 2017
+  url: https://www.bpk.go.id/
+  citation_id: BPK RI LHP LKPP 2016
+
+- id: uu-22-2004
+  type: undang-undang
+  title_id: UU No. 22 Tahun 2004 tentang Komisi Yudisial
+  year: 2004
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=22&thn=2004
+  citation_id: LN No. 89 Tahun 2004, TLN No. 4415
+
+- id: uu-18-2011
+  type: undang-undang
+  title_id: UU No. 18 Tahun 2011 tentang Perubahan atas UU No. 22 Tahun 2004 tentang Komisi Yudisial
+  year: 2011
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=18&thn=2011
+  citation_id: LN No. 106 Tahun 2011, TLN No. 5250
+
+- id: putusan-mk-005-puu-iv-2006
+  type: putusan-mk
+  title_id: Putusan MK No. 005/PUU-IV/2006 (Uji Materi Kewenangan KY Mengawasi Hakim Mahkamah Konstitusi)
+  year: 2006
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=005/PUU-IV/2006
+  citation_id: Putusan MKRI No. 005/PUU-IV/2006
+
+- id: skb-ma-ky-kepph-2009
+  type: laporan-lembaga
+  title_id: Surat Keputusan Bersama Ketua MA dan Ketua KY No. 047/KMA/SKB/IV/2009 & 02/SKB/P.KY/IV/2009 tentang Kode Etik dan Pedoman Perilaku Hakim (KEPPH)
+  year: 2009
+  citation_id: SKB MA-KY 2009
+
+- id: laporan-tahunan-ky-2019
+  type: laporan-lembaga
+  title_id: Laporan Tahunan Komisi Yudisial RI Tahun 2019 (Penegakan Etik dan Seleksi Hakim Agung)
+  year: 2020
+  url: https://www.komisiyudisial.go.id/
+  citation_id: KY RI Laptah 2019
+
+- id: uu-19-1964
+  type: undang-undang
+  title_id: UU No. 19 Tahun 1964 tentang Ketentuan-Ketentuan Pokok Kekuasaan Kehakiman (Kekuasaan Presiden Mengintervensi Pengadilan)
+  year: 1964
+  citation_id: LN No. 107 Tahun 1964, TLN No. 2699
+
+- id: uu-14-1970
+  type: undang-undang
+  title_id: UU No. 14 Tahun 1970 tentang Ketentuan-Ketentuan Pokok Kekuasaan Kehakiman
+  year: 1970
+  citation_id: LN No. 74 Tahun 1970, TLN No. 2951
+
+- id: uu-14-1985
+  type: undang-undang
+  title_id: UU No. 14 Tahun 1985 tentang Mahkamah Agung
+  year: 1985
+  citation_id: LN No. 73 Tahun 1985, TLN No. 3316
+
+- id: uu-5-2004
+  type: undang-undang
+  title_id: UU No. 5 Tahun 2004 tentang Perubahan atas UU No. 14 Tahun 1985 tentang Mahkamah Agung (Penyatuan Atap Peradilan ke MA)
+  year: 2004
+  citation_id: LN No. 9 Tahun 2004, TLN No. 4359
+

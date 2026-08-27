@@ -11,7 +11,7 @@ import { z } from "zod";
 export const SCORE_MIN = -2;
 export const SCORE_MAX = 2;
 
-export const branchSchema = z.enum(["eksekutif", "legislatif", "yudikatif"]);
+export const branchSchema = z.enum(["eksekutif", "legislatif", "yudikatif", "eksaminatif"]);
 export type Branch = z.infer<typeof branchSchema>;
 
 export const eraSchema = z.enum([

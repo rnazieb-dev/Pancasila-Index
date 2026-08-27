@@ -1,0 +1,77 @@
+# Periode Dewan Perwakilan Daerah Republik Indonesia (2004–kini)
+
+- id: dpd-2004-2009
+  institution_id: dpd-ri
+  label_id: DPD RI Periode 2004–2009 (Peletakan Fondasi Kelembagaan)
+  era: reformasi
+  start_date: "2004-10-01"
+  end_date: "2009-09-30"
+  actors:
+    - name: Ginandjar Kartasasmita
+      role_id: Ketua DPD RI (2004–2009)
+    - name: Irman Gusman
+      role_id: Wakil Ketua DPD RI (2004–2009)
+    - name: Laode Ida
+      role_id: Wakil Ketua DPD RI (2004–2009)
+
+- id: dpd-2009-2014
+  institution_id: dpd-ri
+  label_id: DPD RI Periode 2009–2014 (Uji Materi Penguatan Legislasi)
+  era: reformasi
+  start_date: "2009-10-01"
+  end_date: "2014-09-30"
+  actors:
+    - name: Irman Gusman
+      role_id: Ketua DPD RI (2009–2014)
+    - name: Gusti Kanjeng Ratu Hemas
+      role_id: Permaisuri & Wakil Ketua DPD RI (2009–2014)
+    - name: Laode Ida
+      role_id: Wakil Ketua DPD RI (2009–2014)
+
+- id: dpd-2014-2019
+  institution_id: dpd-ri
+  label_id: DPD RI Periode 2014–2019
+  era: reformasi
+  start_date: "2014-10-01"
+  end_date: "2019-09-30"
+  actors:
+    - name: Irman Gusman
+      role_id: Ketua DPD RI (2014–2016)
+    - name: Mohammad Saleh
+      role_id: Ketua DPD RI (2016–2017)
+    - name: Oesman Sapta Odang
+      role_id: Ketua DPD RI (2017–2019)
+    - name: Gusti Kanjeng Ratu Hemas
+      role_id: Wakil Ketua DPD RI (2014–2019)
+
+- id: dpd-2019-2024
+  institution_id: dpd-ri
+  label_id: DPD RI Periode 2019–2024 (Aspirasi Otonomi & Daerah Kepulauan)
+  era: reformasi
+  start_date: "2019-10-01"
+  end_date: "2024-09-30"
+  actors:
+    - name: AA La Nyalla Mahmud Mattalitti
+      role_id: Ketua DPD RI (2019–2024)
+    - name: Nono Sampono
+      role_id: Wakil Ketua DPD RI (2019–2024)
+    - name: Mahyudin
+      role_id: Wakil Ketua DPD RI (2019–2024)
+    - name: Sultan Bachtiar Najamudin
+      role_id: Wakil Ketua DPD RI (2019–2024)
+
+- id: dpd-2024-sekarang
+  institution_id: dpd-ri
+  label_id: DPD RI Periode 2024–2029
+  era: reformasi
+  start_date: "2024-10-01"
+  end_date: null
+  actors:
+    - name: Sultan Bachtiar Najamudin
+      role_id: Ketua DPD RI (2024–kini)
+    - name: Gusti Kanjeng Ratu Hemas
+      role_id: Wakil Ketua DPD RI (2024–kini)
+    - name: Yorrys Raweyai
+      role_id: Wakil Ketua DPD RI (2024–kini)
+    - name: Tamsil Linrung
+      role_id: Wakil Ketua DPD RI (2024–kini)

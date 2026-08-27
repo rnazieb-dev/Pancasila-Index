@@ -48,3 +48,41 @@ export function sourceTitle(sourceId: string): string {
     dataset.sources.find((s) => s.id === sourceId)?.title_id ?? sourceId
   );
 }
+
+/**
+ * Predikat kualitatif berdasarkan indeks 0–100.
+ * Membantu masyarakat awam memahami bahwa 50 adalah posisi NETRAL, bukan "gagal".
+ */
+export function scoreQualLabel(index: number | null): {
+  label: string;
+  color: string;
+  bg: string;
+} {
+  if (index === null) return { label: "Belum Dinilai", color: "#8b96ad", bg: "#8b96ad22" };
+  if (index >= 75) return { label: "Teladan / Progresif", color: "#22c55e", bg: "#22c55e22" };
+  if (index >= 56) return { label: "Penguatan Konkret", color: "#a3e635", bg: "#a3e63522" };
+  if (index >= 46) return { label: "Netral / Status Quo", color: "#94a3b8", bg: "#94a3b822" };
+  if (index >= 30) return { label: "Cenderung Menggerus", color: "#fb923c", bg: "#fb923c22" };
+  return { label: "Erosi Berat", color: "#ef4444", bg: "#ef444422" };
+}
+
+/** Konstanta glosarium istilah tatanegara */
+export const GLOSSARY: Record<string, string> = {
+  "soft bicameralism":
+    "Sistem parlemen dua kamar yang tidak setara, di mana DPR memiliki kewenangan lebih besar dari DPD. Berbeda dengan 'hard bicameralism' di AS yang setara.",
+  "normative anchors":
+    "Jangkar normatif: ketentuan UUD 1945 atau prinsip konstitusi yang digunakan sebagai standar dasar penilaian.",
+  "hak uji materiil":
+    "Kewenangan Mahkamah Agung atau Mahkamah Konstitusi untuk menguji apakah suatu peraturan bertentangan dengan peraturan yang lebih tinggi.",
+  "executive-heavy":
+    "Sistem pemerintahan di mana cabang eksekutif mendominasi proses pengambilan keputusan, seringkali melampaui batas kewenangan konstitusionalnya.",
+  "kontrak sosial":
+    "Perjanjian dasar antara negara dan warganya, yang dalam konteks Indonesia diwujudkan melalui Pancasila, Pembukaan, dan batang tubuh UUD 1945.",
+  "diskresi":
+    "Kewenangan yang diberikan kepada pejabat negara untuk mengambil keputusan berdasarkan pertimbangan sendiri dalam situasi yang tidak diatur secara spesifik oleh peraturan.",
+  "constitutional moment":
+    "Momen transformatif dalam sejarah ketatanegaraan di mana perubahan fundamental terjadi pada tatanan hukum dan konstitusi.",
+  "judicial review":
+    "Pengujian konstitusionalitas undang-undang atau peraturan oleh lembaga yudisial (di Indonesia: oleh Mahkamah Konstitusi untuk UU, MA untuk di bawah UU).",
+};
+

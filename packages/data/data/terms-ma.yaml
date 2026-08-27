@@ -1,0 +1,53 @@
+# Periode kepemimpinan Mahkamah Agung Republik Indonesia (1946–kini)
+
+- id: ma-revolusi-liberal
+  institution_id: mahkamah-agung
+  label_id: MA Era Revolusi & Demokrasi Liberal
+  era: revolusi
+  start_date: "1946-08-22"
+  end_date: "1959-07-04"
+  actors:
+    - name: Kusumah Atmadja
+      role_id: Ketua Mahkamah Agung RI pertama (1946–1952)
+    - name: Mr. Wirjono Prodjodikoro
+      role_id: Ketua Mahkamah Agung RI kedua (1952–1966)
+
+- id: ma-dt-orde-baru
+  institution_id: mahkamah-agung
+  label_id: MA Era Demokrasi Terpimpin & Orde Baru
+  era: demokrasi-terpimpin
+  start_date: "1959-07-05"
+  end_date: "1998-05-21"
+  actors:
+    - name: Mr. Wirjono Prodjodikoro
+      role_id: Ketua MA (era Demokrasi Terpimpin, status menteri)
+    - name: Subekti
+      role_id: Ketua MA (1968–1974)
+    - name: Mudjono
+      role_id: Ketua MA (1979–1984)
+    - name: Ali Said
+      role_id: Ketua MA (1984–1992)
+    - name: Purwoto S. Gandasubrata
+      role_id: Ketua MA (1992–1994)
+    - name: Soerjono
+      role_id: Ketua MA (1994–1996)
+    - name: Sarwata
+      role_id: Ketua MA (1996–2000)
+
+- id: ma-reformasi-sekarang
+  institution_id: mahkamah-agung
+  label_id: MA Era Reformasi & Satu Atap Peradilan
+  era: reformasi
+  start_date: "1998-05-22"
+  end_date: null
+  actors:
+    - name: Bagir Manan
+      role_id: Ketua MA (2001–2008, arsitek penyatuan atap peradilan)
+    - name: Harifin A. Tumpa
+      role_id: Ketua MA (2009–2012)
+    - name: Muhammad Hatta Ali
+      role_id: Ketua MA (2012–2020)
+    - name: Muhammad Syarifuddin
+      role_id: Ketua MA (2020–2024)
+    - name: Sunarto
+      role_id: Ketua MA (2024–kini)

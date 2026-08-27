@@ -1,0 +1,67 @@
+# Periode Badan Pemeriksa Keuangan Republik Indonesia (1947–kini)
+
+- id: bpk-1947-1998
+  institution_id: bpk-ri
+  label_id: BPK Era Pra-Reformasi
+  era: revolusi
+  start_date: "1947-01-01"
+  end_date: "1998-05-21"
+  actors:
+    - name: R. Soerasno
+      role_id: Ketua BPK pertama (1947–1949)
+    - name: R. Kasirman
+      role_id: Ketua BPK (1949–1957)
+    - name: Sri Sultan Hamengkubuwono IX
+      role_id: Ketua BPK (1964–1966)
+    - name: Umar Wirahadikusumah
+      role_id: Ketua BPK (1973–1983)
+    - name: M. Jusuf
+      role_id: Ketua BPK (1983–1993)
+    - name: JB Sumarlin
+      role_id: Ketua BPK (1993–1998)
+
+- id: bpk-1998-2009
+  institution_id: bpk-ri
+  label_id: BPK Era Reformasi & Satu Pintu Pemeriksaan Keuangan
+  era: reformasi
+  start_date: "1998-05-22"
+  end_date: "2009-10-19"
+  actors:
+    - name: Satrio Budihardjo Joedono
+      role_id: Ketua BPK RI (1998–2004)
+    - name: Anwar Nasution
+      role_id: Ketua BPK RI (2004–2009)
+    - name: Abdullah Zainie
+      role_id: Wakil Ketua BPK RI (2004–2009)
+
+- id: bpk-2009-2019
+  institution_id: bpk-ri
+  label_id: BPK Era Konsolidasi Transparansi & Akuntabilitas
+  era: reformasi
+  start_date: "2009-10-19"
+  end_date: "2019-10-19"
+  actors:
+    - name: Hadi Poernomo
+      role_id: Ketua BPK RI (2009–2014)
+    - name: Harry Azhar Azis
+      role_id: Ketua BPK RI (2014–2017)
+    - name: Moermahadi Soerja Djanegara
+      role_id: Ketua BPK RI (2017–2019)
+    - name: Bahrullah Akbar
+      role_id: Wakil Ketua BPK RI (2017–2019)
+
+- id: bpk-2019-sekarang
+  institution_id: bpk-ri
+  label_id: BPK Periode 2019–kini
+  era: reformasi
+  start_date: "2019-10-19"
+  end_date: null
+  actors:
+    - name: Agung Firman Sampurna
+      role_id: Ketua BPK RI (2019–2022)
+    - name: Isma Yatun
+      role_id: Ketua BPK RI (2022–kini)
+    - name: Agus Joko Pramono
+      role_id: Wakil Ketua BPK RI (2019–2023)
+    - name: Hendra Susanto
+      role_id: Wakil Ketua BPK RI (2023–kini)

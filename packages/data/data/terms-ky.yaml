@@ -1,0 +1,61 @@
+# Periode Komisi Yudisial Republik Indonesia (2005–kini)
+
+- id: ky-2005-2010
+  institution_id: komisi-yudisial
+  label_id: KY Periode I (2005–2010) — Peletakan Pengawasan Etik Peradilan
+  era: reformasi
+  start_date: "2005-08-02"
+  end_date: "2010-12-20"
+  actors:
+    - name: M. Busyro Muqoddas
+      role_id: Ketua Komisi Yudisial RI (2005–2010)
+    - name: Thahir Saimima
+      role_id: Wakil Ketua Komisi Yudisial RI (2005–2010)
+
+- id: ky-2010-2015
+  institution_id: komisi-yudisial
+  label_id: KY Periode II (2010–2015) — Penguatan Pasca-UU 18/2011
+  era: reformasi
+  start_date: "2010-12-20"
+  end_date: "2015-12-20"
+  actors:
+    - name: Eman Suparman
+      role_id: Ketua Komisi Yudisial RI (2010–2013)
+    - name: Suparman Marzuki
+      role_id: Ketua Komisi Yudisial RI (2013–2015)
+    - name: Imam Anshori Saleh
+      role_id: Wakil Ketua Komisi Yudisial RI (2010–2013)
+    - name: Abbas Said
+      role_id: Wakil Ketua Komisi Yudisial RI (2013–2015)
+
+- id: ky-2015-2020
+  institution_id: komisi-yudisial
+  label_id: KY Periode III (2015–2020) — Penegakan Kode Etik & MKH
+  era: reformasi
+  start_date: "2015-12-20"
+  end_date: "2020-12-21"
+  actors:
+    - name: Aidul Fitriciada Azhari
+      role_id: Ketua Komisi Yudisial RI (2016–2018)
+    - name: Jaja Ahmad Jayus
+      role_id: Ketua Komisi Yudisial RI (2018–2020)
+    - name: Sukma Violetta
+      role_id: Wakil Ketua Komisi Yudisial RI (2016–2018)
+    - name: Maradaman Harahap
+      role_id: Wakil Ketua Komisi Yudisial RI (2018–2020)
+
+- id: ky-2020-sekarang
+  institution_id: komisi-yudisial
+  label_id: KY Periode IV (2020–kini) — Pengawasan Integritas & Seleksi Hakim Agung
+  era: reformasi
+  start_date: "2020-12-21"
+  end_date: null
+  actors:
+    - name: Mukti Fajar Nur Dewata
+      role_id: Ketua Komisi Yudisial RI (2021–2023)
+    - name: Amzulian Rifai
+      role_id: Ketua Komisi Yudisial RI (2023–kini)
+    - name: M. Taufiq HZ
+      role_id: Wakil Ketua Komisi Yudisial RI (2021–2023)
+    - name: Siti Nurljanah
+      role_id: Wakil Ketua Komisi Yudisial RI (2023–kini)
