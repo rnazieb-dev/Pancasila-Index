@@ -6,7 +6,7 @@
   "license": "AGPL-3.0-only",
   "packageManager": "pnpm@11.8.0",
   "engines": {
-    "node": "22.x"
+    "node": "24.x"
   },
   "scripts": {
     "build": "pnpm build:data && pnpm --filter @pancasila-index/web build",
