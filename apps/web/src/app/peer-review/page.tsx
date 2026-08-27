@@ -111,7 +111,7 @@ export default function PeerReviewPage() {
             <div className="text-2xl mb-2.5">🌐</div>
             <h3 className="font-bold text-sky-300 group-hover:text-sky-200">Tinjauan Terjemahan</h3>
             <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
-              Koreksi dan validasi terjemahan substantif dalam 5 bahasa (EN, Jawa, Sunda, Minang).
+              Koreksi dan validasi terjemahan substantif dalam 4 bahasa (EN, Jawa, Sunda, Minang).
             </p>
           </div>
           <span className="mt-4 text-xs font-semibold text-sky-400">Antrean Bahasa →</span>

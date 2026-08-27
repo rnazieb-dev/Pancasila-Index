@@ -4,23 +4,23 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 
-import { LOCALES } from "@/lib/i18n";
+import { LOCALES, type UiKey } from "@/lib/i18n";
 import { useLocale } from "@/components/locale-provider";
 
-/* ─── Struktur navigasi ─── */
-const NAV_EXPLORE = [
-  { href: "/lembaga", label: "Lembaga Negara" },
-  { href: "/timeline", label: "Timeline Penilaian" },
-  { href: "/bandingkan", label: "Bandingkan Era & Organ" },
-  { href: "/aktor", label: "Direktori Tokoh" },
+/* ─── Struktur navigasi: label sebagai kunci i18n, bukan teks literal ─── */
+const NAV_EXPLORE: { href: string; key: UiKey }[] = [
+  { href: "/lembaga", key: "navInstitutions" },
+  { href: "/timeline", key: "navTimeline" },
+  { href: "/bandingkan", key: "navCompare" },
+  { href: "/aktor", key: "navActors" },
 ];
 
-const NAV_DATA = [
-  { href: "/metodologi", label: "Metodologi" },
-  { href: "/landasan-uud", label: "Peta Pasal UUD" },
-  { href: "/ekspor", label: "Ekspor Dataset" },
-  { href: "/api-docs", label: "REST API Docs" },
-  { href: "/peer-review/draf", label: "Draf Usulan Saya" },
+const NAV_DATA: { href: string; key: UiKey }[] = [
+  { href: "/metodologi", key: "navMethodology" },
+  { href: "/landasan-uud", key: "navUud" },
+  { href: "/ekspor", key: "navExport" },
+  { href: "/api-docs", key: "navApiDocs" },
+  { href: "/peer-review/draf", key: "navMyDrafts" },
 ];
 
 /* ─── Helpers ─── */
@@ -47,25 +47,67 @@ function useTheme() {
   return { theme, toggleTheme };
 }
 
-/* ─── Dropdown komponen ─── */
+/** Tutup panel saat klik di luar atau tekan Escape. */
+function useDismiss<T extends HTMLElement>(
+  onDismiss: () => void,
+  active: boolean,
+) {
+  const ref = useRef<T>(null);
+
+  useEffect(() => {
+    if (!active) return;
+    const onPointer = (e: MouseEvent) => {
+      if (ref.current && !ref.current.contains(e.target as Node)) onDismiss();
+    };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onDismiss();
+    };
+    document.addEventListener("mousedown", onPointer);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onPointer);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [active, onDismiss]);
+
+  return ref;
+}
+
+const PANEL =
+  "absolute top-full z-50 mt-2 rounded-xl border border-[var(--line)] bg-[var(--panel)] py-1.5 shadow-xl";
+
+function Chevron({ open }: { open: boolean }) {
+  return (
+    <svg
+      width="12"
+      height="12"
+      viewBox="0 0 12 12"
+      aria-hidden="true"
+      className={`mt-0.5 transition-transform ${open ? "rotate-180" : ""}`}
+    >
+      <path
+        d="M2 4l4 4 4-4"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        fill="none"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+/* ─── Dropdown navigasi ─── */
 function NavDropdown({
   label,
   items,
 }: {
   label: string;
-  items: { href: string; label: string }[];
+  items: { href: string; key: UiKey }[];
 }) {
   const [open, setOpen] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useDismiss<HTMLDivElement>(() => setOpen(false), open);
   const pathname = usePathname();
-
-  useEffect(() => {
-    const handler = (e: MouseEvent) => {
-      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
-    };
-    document.addEventListener("mousedown", handler);
-    return () => document.removeEventListener("mousedown", handler);
-  }, []);
+  const { t } = useLocale();
 
   const isActive = items.some((i) => pathname?.startsWith(i.href));
 
@@ -74,28 +116,22 @@ function NavDropdown({
       <button
         onClick={() => setOpen((p) => !p)}
         aria-expanded={open}
+        aria-haspopup="menu"
         className={`flex items-center gap-1 text-sm transition hover:text-white ${
           isActive ? "text-white font-semibold" : "text-[var(--muted)]"
         }`}
       >
         {label}
-        <svg
-          width="12"
-          height="12"
-          viewBox="0 0 12 12"
-          fill="currentColor"
-          className={`mt-0.5 transition-transform ${open ? "rotate-180" : ""}`}
-        >
-          <path d="M2 4l4 4 4-4" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" />
-        </svg>
+        <Chevron open={open} />
       </button>
 
       {open && (
-        <div className="absolute top-full left-0 mt-2 z-50 w-52 rounded-xl border border-[var(--line)] bg-[var(--panel)] py-1.5 shadow-xl">
+        <div role="menu" className={`${PANEL} left-0 w-56`}>
           {items.map((item) => (
             <Link
               key={item.href}
               href={item.href}
+              role="menuitem"
               onClick={() => setOpen(false)}
               className={`block px-4 py-2 text-sm transition hover:bg-[var(--line)] ${
                 pathname === item.href
@@ -103,7 +139,7 @@ function NavDropdown({
                   : "text-[var(--muted)] hover:text-white"
               }`}
             >
-              {item.label}
+              {t(item.key)}
             </Link>
           ))}
         </div>
@@ -112,9 +148,110 @@ function NavDropdown({
   );
 }
 
+/* ─── Dropdown bahasa ─── */
+function LocaleDropdown({ align = "right" }: { align?: "left" | "right" }) {
+  const { locale, setLocale, t } = useLocale();
+  const [open, setOpen] = useState(false);
+  const ref = useDismiss<HTMLDivElement>(() => setOpen(false), open);
+
+  const current = LOCALES.find((l) => l.code === locale) ?? LOCALES[0]!;
+
+  return (
+    <div ref={ref} className="relative">
+      <button
+        onClick={() => setOpen((p) => !p)}
+        aria-expanded={open}
+        aria-haspopup="listbox"
+        aria-label={t("langChoose")}
+        title={t("langChoose")}
+        className="flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-white"
+      >
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.8"
+          aria-hidden="true"
+        >
+          <circle cx="12" cy="12" r="9" />
+          <path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18" />
+        </svg>
+        <span className="text-[11px] font-semibold uppercase">
+          {current.code}
+        </span>
+        <Chevron open={open} />
+      </button>
+
+      {open && (
+        <div
+          role="listbox"
+          className={`${PANEL} ${align === "right" ? "right-0" : "left-0"} w-60`}
+        >
+          {LOCALES.map((l) => {
+            const active = locale === l.code;
+            return (
+              <button
+                key={l.code}
+                role="option"
+                aria-selected={active}
+                onClick={() => {
+                  setLocale(l.code as typeof locale);
+                  setOpen(false);
+                }}
+                className={`flex w-full items-center gap-2.5 px-4 py-2 text-left text-sm transition hover:bg-[var(--line)] ${
+                  active
+                    ? "text-white font-semibold"
+                    : "text-[var(--muted)] hover:text-white"
+                }`}
+              >
+                <span
+                  className={`w-8 shrink-0 text-[10px] font-semibold uppercase ${
+                    active ? "text-red-400" : "text-[var(--muted)]"
+                  }`}
+                >
+                  {l.code}
+                </span>
+                <span className="min-w-0 flex-1 truncate">{l.native}</span>
+                {l.needsReview && (
+                  <span
+                    title={t("langNeedsReview")}
+                    className="shrink-0 rounded bg-amber-500/15 px-1.5 py-0.5 text-[9px] font-semibold uppercase text-amber-400"
+                  >
+                    draf
+                  </span>
+                )}
+              </button>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function SearchIcon() {
+  return (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 18 18"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      aria-hidden="true"
+    >
+      <circle cx="7.5" cy="7.5" r="5" />
+      <path d="M13 13l2.5 2.5" />
+    </svg>
+  );
+}
+
 /* ─── Komponen utama ─── */
 export function AppChrome({ children }: { children: React.ReactNode }) {
-  const { locale, setLocale } = useLocale();
+  const { t } = useLocale();
   const { theme, toggleTheme } = useTheme();
   const pathname = usePathname();
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -127,57 +264,74 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     fetch("/api/auth/session")
       .then((res) => (res.ok ? res.json() : null))
-      .then((data) => {
-        if (data?.user) {
-          setUserSession(data.user);
-        } else {
-          setUserSession(null);
-        }
-      })
+      .then((data) => setUserSession(data?.user ?? null))
       .catch(() => setUserSession(null));
   }, [pathname]);
+
+  const themeTitle = theme === "dark" ? t("themeToLight") : t("themeToDark");
 
   return (
     <>
       {/* ═══ HEADER ═══ */}
       <header className="sticky top-0 z-40 border-b border-[var(--line)] bg-[var(--bg)]/95 backdrop-blur-sm">
-        <div className="mx-auto max-w-6xl px-4 h-14 flex items-center gap-6">
-
+        <div className="mx-auto flex h-14 max-w-6xl items-center gap-6 px-4">
           {/* Logo */}
-          <Link href="/" className="font-bold tracking-tight text-lg whitespace-nowrap shrink-0">
+          <Link
+            href="/"
+            className="shrink-0 whitespace-nowrap text-lg font-bold tracking-tight"
+          >
             Pancasila<span className="text-red-500">·</span>Index
           </Link>
 
           {/* Nav Desktop */}
-          <nav className="hidden md:flex items-center gap-5 flex-1">
+          <nav className="hidden flex-1 items-center gap-5 md:flex">
             <Link
               href="/"
               className={`text-sm transition hover:text-white ${
-                pathname === "/" ? "text-white font-semibold" : "text-[var(--muted)]"
+                pathname === "/"
+                  ? "text-white font-semibold"
+                  : "text-[var(--muted)]"
               }`}
             >
-              Beranda
+              {t("navHome")}
             </Link>
-            <NavDropdown label="Eksplorasi" items={NAV_EXPLORE} />
-            <NavDropdown label="Metodologi & Data" items={NAV_DATA} />
+            <NavDropdown label={t("navExplore")} items={NAV_EXPLORE} />
+            <NavDropdown label={t("navMethodData")} items={NAV_DATA} />
           </nav>
 
           {/* Kanan Desktop */}
-          <div className="hidden md:flex items-center gap-3 ml-auto">
-            {/* Cari */}
+          <div className="ml-auto hidden items-center gap-1.5 md:flex">
             <Link
               href="/cari"
-              title="Cari"
-              className="rounded-lg p-2 text-[var(--muted)] hover:text-white hover:bg-[var(--line)] transition"
-              aria-label="Cari"
+              title={t("actSearch")}
+              aria-label={t("actSearch")}
+              className="rounded-lg p-2 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-white"
             >
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
-                <circle cx="7.5" cy="7.5" r="5" />
-                <path d="M13 13l2.5 2.5" />
-              </svg>
+              <SearchIcon />
             </Link>
 
-            {/* Peer Review */}
+            <button
+              onClick={toggleTheme}
+              title={themeTitle}
+              aria-label={themeTitle}
+              className="rounded-lg p-2 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-white"
+            >
+              {theme === "dark" ? (
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                </svg>
+              ) : (
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="4" />
+                  <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+                </svg>
+              )}
+            </button>
+
+            <LocaleDropdown />
+
+            <span className="mx-1 h-5 w-px bg-[var(--line)]" aria-hidden="true" />
+
             <Link
               href="/peer-review"
               className={`rounded-lg border px-3 py-1.5 text-xs font-semibold transition ${
@@ -186,88 +340,49 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                   : "border-[var(--line)] text-[var(--muted)] hover:border-slate-500 hover:text-white"
               }`}
             >
-              Peer Review
+              {t("actPeerReview")}
             </Link>
 
-            {/* Akun / Pengaturan / Masuk */}
             {userSession ? (
               <Link
                 href="/pengaturan"
-                title={`Akun: ${userSession.name || userSession.email} (${userSession.role})`}
-                className={`rounded-lg border px-3 py-1.5 text-xs font-semibold transition flex items-center gap-1.5 ${
+                title={`${userSession.name || userSession.email} (${userSession.role})`}
+                className={`flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-semibold transition ${
                   pathname === "/pengaturan"
                     ? "border-sky-500 bg-sky-500/10 text-sky-400"
-                    : "border-[var(--line)] bg-[var(--panel)] text-[var(--muted)] hover:text-white hover:border-slate-500"
+                    : "border-[var(--line)] bg-[var(--panel)] text-[var(--muted)] hover:border-slate-500 hover:text-white"
                 }`}
               >
                 <span className="size-2 rounded-full bg-emerald-400" />
-                <span className="max-w-[100px] truncate">{userSession.name?.split(" ")[0] || "Pengaturan"}</span>
+                <span className="max-w-[100px] truncate">
+                  {userSession.name?.split(" ")[0] || t("actSettings")}
+                </span>
               </Link>
             ) : (
               <Link
                 href="/masuk"
-                className="rounded-lg bg-red-600/90 px-3 py-1.5 text-xs font-semibold text-white hover:bg-red-500 transition shadow"
+                className="rounded-lg bg-red-600/90 px-3 py-1.5 text-xs font-semibold text-white shadow transition hover:bg-red-500"
               >
-                Masuk
+                {t("actSignIn")}
               </Link>
             )}
-
-            {/* Toggle Tema */}
-            <button
-              onClick={toggleTheme}
-              title={theme === "dark" ? "Ganti ke Mode Terang" : "Ganti ke Mode Gelap"}
-              className="rounded-lg p-2 text-[var(--muted)] hover:text-white hover:bg-[var(--line)] transition"
-              aria-label="Toggle tema"
-            >
-              {theme === "dark" ? (
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
-                </svg>
-              ) : (
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-                  <circle cx="12" cy="12" r="4" />
-                  <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
-                </svg>
-              )}
-            </button>
-
-            {/* Pilih Bahasa */}
-            <div className="flex gap-1">
-              {LOCALES.map((l) => (
-                <button
-                  key={l.code}
-                  onClick={() => setLocale(l.code as typeof locale)}
-                  title={l.native + (l.beta ? " (beta)" : "")}
-                  className={`rounded px-1.5 py-0.5 text-[10px] font-semibold uppercase transition ${
-                    locale === l.code
-                      ? "bg-red-500/20 text-red-400"
-                      : "text-[var(--muted)] hover:text-white"
-                  }`}
-                >
-                  {l.code}
-                </button>
-              ))}
-            </div>
           </div>
 
-          {/* Kanan Mobile: Cari + Hamburger */}
-          <div className="flex md:hidden items-center gap-2 ml-auto">
+          {/* Kanan Mobile */}
+          <div className="ml-auto flex items-center gap-2 md:hidden">
             <Link
               href="/cari"
-              aria-label="Cari"
-              className="rounded-lg p-2 text-[var(--muted)] hover:text-white hover:bg-[var(--line)] transition"
+              aria-label={t("actSearch")}
+              className="rounded-lg p-2 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-white"
             >
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
-                <circle cx="7.5" cy="7.5" r="5" />
-                <path d="M13 13l2.5 2.5" />
-              </svg>
+              <SearchIcon />
             </Link>
             <button
               onClick={() => setDrawerOpen(true)}
-              aria-label="Buka menu"
-              className="rounded-lg p-2 text-[var(--muted)] hover:text-white hover:bg-[var(--line)] transition"
+              aria-label={t("menuOpen")}
+              className="rounded-lg p-2 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-white"
             >
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
                 <path d="M3 5h14M3 10h14M3 15h14" />
               </svg>
             </button>
@@ -282,96 +397,83 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
             className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm"
             onClick={() => setDrawerOpen(false)}
           />
-          <nav className="fixed top-0 right-0 z-50 h-full w-72 bg-[var(--panel)] border-l border-[var(--line)] shadow-2xl flex flex-col">
-            {/* Header Drawer */}
-            <div className="flex items-center justify-between px-5 py-4 border-b border-[var(--line)]">
-              <span className="font-bold text-base">
+          <nav className="fixed top-0 right-0 z-50 flex h-full w-72 flex-col border-l border-[var(--line)] bg-[var(--panel)] shadow-2xl">
+            <div className="flex items-center justify-between border-b border-[var(--line)] px-5 py-4">
+              <span className="text-base font-bold">
                 Pancasila<span className="text-red-500">·</span>Index
               </span>
               <button
                 onClick={() => setDrawerOpen(false)}
-                aria-label="Tutup menu"
-                className="rounded-lg p-1.5 text-[var(--muted)] hover:text-white hover:bg-[var(--line)] transition"
+                aria-label={t("menuClose")}
+                className="rounded-lg p-1.5 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-white"
               >
-                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
                   <path d="M3 3l12 12M15 3L3 15" />
                 </svg>
               </button>
             </div>
 
-            {/* Links */}
-            <div className="flex-1 overflow-y-auto py-4 px-4 space-y-1">
-              <Link href="/" onClick={() => setDrawerOpen(false)} className="drawer-link">Beranda</Link>
+            <div className="flex-1 space-y-1 overflow-y-auto px-4 py-4">
+              <Link href="/" onClick={() => setDrawerOpen(false)} className="drawer-link">
+                {t("navHome")}
+              </Link>
 
-              <p className="px-2 pt-3 pb-1 text-[10px] uppercase tracking-widest text-[var(--muted)] font-bold">Eksplorasi</p>
+              <p className="drawer-section">{t("navExplore")}</p>
               {NAV_EXPLORE.map((item) => (
-                <Link key={item.href} href={item.href} onClick={() => setDrawerOpen(false)} className="drawer-link">{item.label}</Link>
+                <Link key={item.href} href={item.href} onClick={() => setDrawerOpen(false)} className="drawer-link">
+                  {t(item.key)}
+                </Link>
               ))}
 
-              <p className="px-2 pt-3 pb-1 text-[10px] uppercase tracking-widest text-[var(--muted)] font-bold">Metodologi & Data</p>
+              <p className="drawer-section">{t("navMethodData")}</p>
               {NAV_DATA.map((item) => (
-                <Link key={item.href} href={item.href} onClick={() => setDrawerOpen(false)} className="drawer-link">{item.label}</Link>
+                <Link key={item.href} href={item.href} onClick={() => setDrawerOpen(false)} className="drawer-link">
+                  {t(item.key)}
+                </Link>
               ))}
 
-              <p className="px-2 pt-3 pb-1 text-[10px] uppercase tracking-widest text-[var(--muted)] font-bold">Tinjauan Sejawat</p>
-              <Link href="/peer-review" onClick={() => setDrawerOpen(false)} className="drawer-link text-red-400 font-semibold">Portal Peer Review</Link>
-              <Link href="/peer-review/draf" onClick={() => setDrawerOpen(false)} className="drawer-link text-amber-400 font-semibold">📁 Draf Usulan Saya</Link>
+              <p className="drawer-section">{t("secReview")}</p>
+              <Link href="/peer-review" onClick={() => setDrawerOpen(false)} className="drawer-link font-semibold text-red-400">
+                {t("peerPortal")}
+              </Link>
 
-              <p className="px-2 pt-3 pb-1 text-[10px] uppercase tracking-widest text-[var(--muted)] font-bold">Akun Pengulas</p>
+              <p className="drawer-section">{t("secAccount")}</p>
               {userSession ? (
-                <Link
-                  href="/pengaturan"
-                  onClick={() => setDrawerOpen(false)}
-                  className="drawer-link text-sky-400 font-semibold"
-                >
-                  ⚙️ {userSession.name || "Pengaturan Akun"} ({userSession.role})
+                <Link href="/pengaturan" onClick={() => setDrawerOpen(false)} className="drawer-link font-semibold text-sky-400">
+                  {userSession.name || t("actSettings")} ({userSession.role})
                 </Link>
               ) : (
-                <div className="flex gap-2 pt-1 px-1">
+                <div className="flex gap-2 px-1 pt-1">
                   <Link
                     href="/masuk"
                     onClick={() => setDrawerOpen(false)}
-                    className="flex-1 rounded-lg bg-red-600 px-3 py-2 text-center text-xs font-semibold text-white hover:bg-red-500 transition"
+                    className="flex-1 rounded-lg bg-red-600 px-3 py-2 text-center text-xs font-semibold text-white transition hover:bg-red-500"
                   >
-                    Masuk
+                    {t("actSignIn")}
                   </Link>
                   <Link
                     href="/daftar"
                     onClick={() => setDrawerOpen(false)}
-                    className="flex-1 rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2 text-center text-xs font-semibold text-[var(--muted)] hover:text-white transition"
+                    className="flex-1 rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2 text-center text-xs font-semibold text-[var(--muted)] transition hover:text-white"
                   >
-                    Daftar
+                    {t("actRegister")}
                   </Link>
                 </div>
               )}
             </div>
 
             {/* Footer Drawer: tema & bahasa */}
-            <div className="border-t border-[var(--line)] px-5 py-4 space-y-3">
+            <div className="space-y-3 border-t border-[var(--line)] px-5 py-4">
               <button
                 onClick={toggleTheme}
-                className="flex items-center gap-2 text-sm text-[var(--muted)] hover:text-white transition"
+                className="flex w-full items-center gap-2 text-sm text-[var(--muted)] transition hover:text-white"
               >
-                {theme === "dark" ? "🌙 Mode Gelap" : "☀️ Mode Terang"}
-                <span className="ml-auto text-xs border border-[var(--line)] rounded px-2 py-0.5">
-                  Ganti
+                {theme === "dark" ? `🌙 ${t("themeDarkLabel")}` : `☀️ ${t("themeLightLabel")}`}
+                <span className="ml-auto rounded border border-[var(--line)] px-2 py-0.5 text-xs">
+                  {t("themeSwitch")}
                 </span>
               </button>
-              <div className="flex gap-1">
-                {LOCALES.map((l) => (
-                  <button
-                    key={l.code}
-                    onClick={() => { setLocale(l.code as typeof locale); setDrawerOpen(false); }}
-                    className={`rounded px-2 py-1 text-[10px] font-semibold uppercase transition ${
-                      locale === l.code
-                        ? "bg-red-500/20 text-red-400"
-                        : "text-[var(--muted)] hover:text-white"
-                    }`}
-                  >
-                    {l.code}
-                  </button>
-                ))}
-              </div>
+              <LocaleDropdown align="left" />
             </div>
           </nav>
         </>
@@ -390,17 +492,25 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
           background: var(--line);
           color: white;
         }
+        .drawer-section {
+          padding: 0.75rem 0.5rem 0.25rem;
+          font-size: 10px;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          color: var(--muted);
+        }
       `}</style>
 
       <main className="flex-1">{children}</main>
 
-      <footer className="border-t border-[var(--line)] mt-16">
-        <div className="mx-auto max-w-6xl px-4 py-8 text-xs leading-relaxed text-[var(--muted)] space-y-2">
+      <footer className="mt-16 border-t border-[var(--line)]">
+        <div className="mx-auto max-w-6xl space-y-2 px-4 py-8 text-xs leading-relaxed text-[var(--muted)]">
           <p>
-            <strong className="text-[var(--text)]">Catatan:</strong>{" "}
-            seluruh penilaian pada fase ini berstatus draf hasil demonstrasi metodologi dan belum dikurasi dewan editorial. Indeks bukan vonis akhir.
+            <strong className="text-[var(--text)]">{t("footerNote")}</strong>{" "}
+            {t("footerDisclaimer")}
           </p>
-          <p>Kode AGPL-3.0 · Data CC BY-SA 4.0 · kontribusi via Peer Review</p>
+          <p>{t("footerLicense")}</p>
         </div>
       </footer>
     </>

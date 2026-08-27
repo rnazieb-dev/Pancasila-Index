@@ -2,12 +2,12 @@
 
 import { createContext, useContext, useEffect, useState } from "react";
 
-import { isLocale, translate, type LocaleCode } from "@/lib/i18n";
+import { isLocale, translate, type LocaleCode, type UiKey } from "@/lib/i18n";
 
 interface LocaleCtx {
   locale: LocaleCode;
   setLocale: (code: LocaleCode) => void;
-  t: (key: string) => string;
+  t: (key: UiKey) => string;
 }
 
 const Ctx = createContext<LocaleCtx>({
