@@ -440,6 +440,51 @@
   source_ids: [putusan-mk-35-puu-x-2012]
   dimension_ids: [sila-5, negara-hukum]
 
+- id: ev-skb-tiga-menteri-ahmadiyah-2008
+  term_id: presiden-sby-i
+  date: "2008-06-09"
+  category: produk-hukum
+  title_id: Penerbitan SKB 3 Menteri tentang Peringatan kepada Jemaat Ahmadiyah Indonesia (JAI)
+  summary_id: >-
+    Menteri Agama, Jaksa Agung, dan Mendagri menerbitkan Surat Keputusan Bersama yang memerintahkan JAI menghentikan penyebaran penafsiran yang menyimpang,
+    memicu perdebatan luas antara penjagaan ketertiban keagamaan mayoritas versus perlindungan hak asasi kemerdekaan beragama dan beribadah (Pasal 29 UUD 1945).
+  source_ids: [skb-3-menteri-ahmadiyah-2008]
+  dimension_ids: [sila-1, sila-2]
+
+- id: ev-bpk-audit-bank-century-2009
+  term_id: bpk-2009-2019
+  date: "2009-11-23"
+  category: kebijakan
+  title_id: LHP Audit Investigasi BPK atas Skandal Bailout Bank Century Rp6,76 Triliun
+  summary_id: >-
+    BPK RI menyerahkan Laporan Hasil Pemeriksaan Investigasi kepada DPR RI, menyimpulkan adanya 9 ketidaktegasan dan dugaan pelanggaran hukum
+    dalam pemberian Fasilitas Pendanaan Jangka Pendek (FPJP) dan Penyertaan Modal Sementara (PMS) oleh Bank Indonesia dan KSSK.
+  source_ids: [laporan-audit-bpk-century-2009]
+  dimension_ids: [checks-balances, tujuan-2]
+
+- id: ev-dpr-pansus-angket-century-2010
+  term_id: dpr-2009-2014
+  date: "2010-03-03"
+  category: peristiwa
+  title_id: Paripurna DPR RI Putusan Akhir Pansus Hak Angket Century (Opsi C Bermasalah)
+  summary_id: >-
+    Sidang Paripurna DPR RI menyetujui rekomendasi Opsi C Pansus Hak Angket yang menyatakan bailout Bank Century bermasalah dan melanggar hukum,
+    merekomendasikan penegakan hukum oleh KPK/Kepolisian/Kejaksaan terhadap pejabat terkait dalam dinamika checks and balances parlemen terpanas era SBY.
+  source_ids: [risalah-pansus-century-dpr-2010]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-mk-putusan-tripartit-dpd-2012-2014
+  term_id: mk-2008-2013
+  date: "2013-03-27"
+  category: pengadilan
+  title_id: Putusan MK No. 92/PUU-X/2012 & 79/PUU-XII/2014 Kewenangan Tripartit Legislasi DPD RI
+  summary_id: >-
+    MK mengabulkan uji materiil UU MD3 yang diajukan DPD RI, memutuskan bahwa DPD memiliki kedudukan setara secara tripartit bersama DPR dan Presiden
+    dalam mengajukan, membahas, dan menyusun Daftar Inventarisasi Masalah (DIM) RUU yang berkaitan dengan otonomi daerah dari awal hingga Tingkat I.
+  source_ids: [putusan-mk-92-puu-x-2012, putusan-mk-79-puu-xii-2014]
+  dimension_ids: [checks-balances, kedaulatan-rakyat]
+
+
 
 
 

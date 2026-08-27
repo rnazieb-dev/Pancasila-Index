@@ -6071,6 +6071,21 @@
       ]
     },
     {
+      "id": "ev-pepera-papua-1969",
+      "term_id": "presiden-soeharto",
+      "date": "1969-11-19",
+      "category": "peristiwa",
+      "title_id": "Penentuan Pendapat Rakyat (PEPERA) 1969 dan Pengesahan Resolusi PBB 2504",
+      "summary_id": "Pelaksanaan Penentuan Pendapat Rakyat (Act of Free Choice) di Irian Barat menghasilkan keputusan mutlak tetap bergabung dengan NKRI, yang secara resmi dicatat dan disahkan oleh Majelis Umum PBB melalui Resolusi No. 2504 (XXIV) untuk mengukuhkan keutuhan wilayah Indonesia dari Sabang sampai Merauke.",
+      "source_ids": [
+        "resolusi-pbb-2504-1969"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "sila-3"
+      ]
+    },
+    {
       "id": "ev-tap-mpr-xvii-1998-ham",
       "term_id": "mpr-1971-1999",
       "date": "1998-11-13",
@@ -6356,6 +6371,112 @@
       "dimension_ids": [
         "negara-hukum",
         "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-mpr-pemisahan-tni-polri-2000",
+      "term_id": "mpr-1999-2004",
+      "date": "2000-08-18",
+      "category": "produk-hukum",
+      "title_id": "TAP MPR No. VI & VII/MPR/2000 tentang Pemisahan TNI dan Polri Serta Supremasi Sipil",
+      "summary_id": "MPR RI menetapkan pemisahan kelembagaan dan peran Tentara Nasional Indonesia (sebagai alat pertahanan negara) dan Kepolisian Negara Republik Indonesia (sebagai alat keamanan dan ketertiban masyarakat serta penegak hukum), mengakhiri Dwifungsi ABRI.",
+      "source_ids": [
+        "tap-mpr-vi-2000",
+        "tap-mpr-vii-2000"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-keppres-pemulihan-hak-tionghoa-2000",
+      "term_id": "presiden-gusdur",
+      "date": "2000-01-17",
+      "category": "produk-hukum",
+      "title_id": "Keppres No. 6 Tahun 2000 Mencabut Inpres 14/1967 (Pemulihan Hak Sipil Etnis Tionghoa)",
+      "summary_id": "Presiden Abdurrahman Wahid (Gus Dur) menerbitkan Keppres No. 6/2000 yang mencabut aturan diskriminatif Orde Baru, memulihkan kebebasan beragama, berkepercayaan, dan menjalankan tradisi budaya Tionghoa di ruang publik secara terbuka berlandaskan keadilan kemanusiaan (Sila ke-2).",
+      "source_ids": [
+        "keppres-6-2000"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-otsus-papua-2001",
+      "term_id": "dpr-1999-2004",
+      "date": "2001-11-21",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 21 Tahun 2001 tentang Otonomi Khusus Papua",
+      "summary_id": "DPR mengesahkan payung hukum Otonomi Khusus bagi Provinsi Papua yang mengakui hak-hak dasar Orang Asli Papua (OAP), membentuk lembaga kultural representatif Majelis Rakyat Papua (MRP), dan mengalokasikan dana otsus untuk percepatan pendidikan dan kesehatan.",
+      "source_ids": [
+        "uu-21-2001"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-keppres-imlek-libur-nasional-2002",
+      "term_id": "presiden-megawati",
+      "date": "2002-04-09",
+      "category": "produk-hukum",
+      "title_id": "Keppres No. 19 Tahun 2002 Menetapkan Tahun Baru Imlek sebagai Hari Libur Nasional",
+      "summary_id": "Presiden Megawati Soekarnoputri menetapkan Tahun Baru Imlek sebagai Hari Libur Nasional resmi di seluruh Indonesia, memperkuat toleransi kebinekaan, kesetaraan kewarganegaraan, dan persatuan nasional (Sila ke-3).",
+      "source_ids": [
+        "keppres-19-2002"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-polri-2002",
+      "term_id": "dpr-1999-2004",
+      "date": "2002-01-08",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 2 Tahun 2002 tentang Kepolisian Negara Republik Indonesia",
+      "summary_id": "DPR bersama Pemerintah mengesahkan landasan hukum Polri yang mandiri dan profesional di bawah Presiden, menegaskan doktrin kepolisian sipil (civilian policing) yang bertugas melindungi, mengayomi, dan melayani masyarakat serta menjunjung tinggi hak asasi manusia.",
+      "source_ids": [
+        "uu-2-2002"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-inpres-skl-blbi-2002",
+      "term_id": "presiden-megawati",
+      "date": "2002-12-30",
+      "category": "kebijakan",
+      "title_id": "Penerbitan Inpres No. 8/2002 tentang Penyelesaian BLBI dan Surat Keterangan Lunas (SKL)",
+      "summary_id": "Presiden Megawati mengeluarkan Inpres No. 8/2002 (Release and Discharge) yang memberikan jaminan kepastian hukum dan SKL kepada para obligor BLBI yang telah menandatangani kesepakatan PKPS/MSAA, memicu kontroversi panjang terkait penuntasan kerugian keuangan negara.",
+      "source_ids": [
+        "inpres-8-2002"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-tni-2004",
+      "term_id": "dpr-1999-2004",
+      "date": "2004-10-16",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 34 Tahun 2004 tentang TNI & Penghapusan Fraksi Militer di Parlemen",
+      "summary_id": "DPR mengesahkan UU TNI yang mengukuhkan posisi prajurit profesional alat pertahanan negara di bawah otoritas kementerian pertahanan, melarang prajurit berpolitik praktis dan berbisnis, serta mengakhiri keberadaan Fraksi TNI/Polri di DPR dan MPR RI.",
+      "source_ids": [
+        "uu-34-2004"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
       ]
     },
     {
@@ -6959,6 +7080,67 @@
       "dimension_ids": [
         "sila-5",
         "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-skb-tiga-menteri-ahmadiyah-2008",
+      "term_id": "presiden-sby-i",
+      "date": "2008-06-09",
+      "category": "produk-hukum",
+      "title_id": "Penerbitan SKB 3 Menteri tentang Peringatan kepada Jemaat Ahmadiyah Indonesia (JAI)",
+      "summary_id": "Menteri Agama, Jaksa Agung, dan Mendagri menerbitkan Surat Keputusan Bersama yang memerintahkan JAI menghentikan penyebaran penafsiran yang menyimpang, memicu perdebatan luas antara penjagaan ketertiban keagamaan mayoritas versus perlindungan hak asasi kemerdekaan beragama dan beribadah (Pasal 29 UUD 1945).",
+      "source_ids": [
+        "skb-3-menteri-ahmadiyah-2008"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-bpk-audit-bank-century-2009",
+      "term_id": "bpk-2009-2019",
+      "date": "2009-11-23",
+      "category": "kebijakan",
+      "title_id": "LHP Audit Investigasi BPK atas Skandal Bailout Bank Century Rp6,76 Triliun",
+      "summary_id": "BPK RI menyerahkan Laporan Hasil Pemeriksaan Investigasi kepada DPR RI, menyimpulkan adanya 9 ketidaktegasan dan dugaan pelanggaran hukum dalam pemberian Fasilitas Pendanaan Jangka Pendek (FPJP) dan Penyertaan Modal Sementara (PMS) oleh Bank Indonesia dan KSSK.",
+      "source_ids": [
+        "laporan-audit-bpk-century-2009"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "tujuan-2"
+      ]
+    },
+    {
+      "id": "ev-dpr-pansus-angket-century-2010",
+      "term_id": "dpr-2009-2014",
+      "date": "2010-03-03",
+      "category": "peristiwa",
+      "title_id": "Paripurna DPR RI Putusan Akhir Pansus Hak Angket Century (Opsi C Bermasalah)",
+      "summary_id": "Sidang Paripurna DPR RI menyetujui rekomendasi Opsi C Pansus Hak Angket yang menyatakan bailout Bank Century bermasalah dan melanggar hukum, merekomendasikan penegakan hukum oleh KPK/Kepolisian/Kejaksaan terhadap pejabat terkait dalam dinamika checks and balances parlemen terpanas era SBY.",
+      "source_ids": [
+        "risalah-pansus-century-dpr-2010"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-tripartit-dpd-2012-2014",
+      "term_id": "mk-2008-2013",
+      "date": "2013-03-27",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 92/PUU-X/2012 & 79/PUU-XII/2014 Kewenangan Tripartit Legislasi DPD RI",
+      "summary_id": "MK mengabulkan uji materiil UU MD3 yang diajukan DPD RI, memutuskan bahwa DPD memiliki kedudukan setara secara tripartit bersama DPR dan Presiden dalam mengajukan, membahas, dan menyusun Daftar Inventarisasi Masalah (DIM) RUU yang berkaitan dengan otonomi daerah dari awal hingga Tingkat I.",
+      "source_ids": [
+        "putusan-mk-92-puu-x-2012",
+        "putusan-mk-79-puu-xii-2014"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
       ]
     },
     {
@@ -7925,6 +8107,129 @@
       "dimension_ids": [
         "negara-hukum",
         "sila-2"
+      ]
+    },
+    {
+      "id": "ev-perppu-ormas-pembubaran-hti-2017",
+      "term_id": "presiden-jokowi-i",
+      "date": "2017-07-10",
+      "category": "produk-hukum",
+      "title_id": "Perppu No. 2/2017 tentang Ormas dan Pembubaran Hizbut Tahrir Indonesia (HTI)",
+      "summary_id": "Pemerintah menerbitkan Perppu Ormas yang menghapus mekanisme pembubaran ormas melalui pengadilan (contrarius actus), mencabut status badan hukum HTI atas dasar ideologi khilafah yang bertentangan dengan Pancasila dan kedaulatan NKRI.",
+      "source_ids": [
+        "perppu-2-2017"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-ptun-putusan-blokir-internet-papua-2020",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2020-06-03",
+      "category": "pengadilan",
+      "title_id": "Putusan PTUN Jakarta Pemblokiran Internet di Papua Melanggar Hukum",
+      "summary_id": "PTUN Jakarta mengabulkan gugatan koalisi masyarakat sipil, menyatakan tindakan Presiden dan Menkominfo yang memperlambat dan memutus akses internet di Papua dan Papua Barat pasca kerusuhan 2019 adalah perbuatan melanggar hukum oleh badan/pejabat pemerintahan (Onrechtmatige Overheidsdaad).",
+      "source_ids": [
+        "putusan-ptun-papua-internet-2020"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-skb-pelarangan-fpi-2020",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2020-12-30",
+      "category": "kebijakan",
+      "title_id": "Surat Keputusan Bersama 6 Menteri/Lembaga Pelarangan Kegiatan Front Pembela Islam (FPI)",
+      "summary_id": "Pemerintah menghentikan kegiatan dan melarang penggunaan simbol Front Pembela Islam (FPI) sebagai organisasi terlarang, menegaskan komitmen penegakan ketertiban umum, kepatuhan hukum, dan pencegahan tindakan sweeping/main hakim sendiri yang mengancam kebinekaan.",
+      "source_ids": [
+        "skb-6-lembaga-fpi-2020"
+      ],
+      "dimension_ids": [
+        "sila-3",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-ma-kasasi-asabri-2023",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2023-02-15",
+      "category": "pengadilan",
+      "title_id": "Putusan Kasasi MA Memvonis Pidana Penjara & Uang Pengganti Kasus Mega Korupsi ASABRI Rp22,78 Triliun",
+      "summary_id": "Mahkamah Agung menjatuhkan vonis pidana penjara hingga 20 tahun dan kewajiban membayar uang pengganti belasan triliun rupiah kepada para terpidana megakorupsi ASABRI, menegaskan ketegasan yudisial dalam melindungi integritas dana pensiun prajurit pertahanan dan keamanan negara.",
+      "source_ids": [
+        "putusan-ma-asabri-2023"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-keppres-satgas-blbi-2021",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2021-04-06",
+      "category": "produk-hukum",
+      "title_id": "Keppres No. 6 Tahun 2021 tentang Pembentukan Satuan Tugas Hak Tagih BLBI (Satgas BLBI)",
+      "summary_id": "Presiden membentuk Satgas BLBI antar-kementerian/lembaga untuk memburu dan menyita aset obligor/debitur BLBI senilai total hak tagih negara Rp110,45 triliun, menggunakan instrumen pemblokiran rekening, pencegahan ke luar negeri, dan penyitaan aset properti secara masif.",
+      "source_ids": [
+        "keppres-6-2021"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-dpr-pemekaran-dob-papua-2022",
+      "term_id": "dpr-2019-2024",
+      "date": "2022-06-30",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan 4 UU Pembentukan Provinsi Baru Pemekaran Papua (DOB Papua)",
+      "summary_id": "DPR bersama Pemerintah mengesahkan UU pembentukan Provinsi Papua Selatan, Papua Tengah, Papua Pegunungan, dan Papua Barat Daya guna memperpendek rentang kendali pelayanan publik, mempercepat pemerataan pembangunan kesejahteraan, dan mengangkat harkat martabat Orang Asli Papua (OAP).",
+      "source_ids": [
+        "uu-14-2022",
+        "uu-15-2022",
+        "uu-16-2022",
+        "uu-29-2022"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-mkh-ky-ma-integritas-hakim-2023",
+      "term_id": "ky-2020-sekarang",
+      "date": "2023-08-10",
+      "category": "kebijakan",
+      "title_id": "Sidang Majelis Kehormatan Hakim KY-MA dan Reformasi Penugasan Perkara Peradilan Pasca OTT MA",
+      "summary_id": "Komisi Yudisial dan Mahkamah Agung menggelar serangkaian sidang MKH yang menjatuhkan sanksi pemberhentian tidak dengan hormat kepada hakim yang terbukti suap, serta memberlakukan sistem penunjukan majelis hakim kasasi berbasis robotik/kecerdasan buatan (e-Court lotting) untuk memutus rantai mafia peradilan.",
+      "source_ids": [
+        "laporan-sidang-mkh-ky-ma-2023"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-perpres-publisher-rights-2024",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2024-02-20",
+      "category": "produk-hukum",
+      "title_id": "Perpres No. 32/2024 tentang Publisher Rights untuk Jurnalisme Berkualitas",
+      "summary_id": "Presiden mengesahkan Perpres Tanggung Jawab Platform Digital untuk Jurnalisme Berkualitas, mewajibkan platform digital global bermitra dengan perusahaan pers nasional guna memastikan bagi hasil yang adil dan menjaga keberlanjutan media massa independen.",
+      "source_ids": [
+        "perpres-32-2024"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "tujuan-3"
       ]
     },
     {
@@ -11318,6 +11623,224 @@
       "year": 2018,
       "citation_id": "Putusan MA No. 2548 K/Pid.Sus/2018",
       "resolved_url": "https://duckduckgo.com/?q=Putusan%20Kasasi%20Mahkamah%20Agung%20No.%202548%20K%2FPid.Sus%2F2018%20atas%20Kasus%20Aktivis%20Tumpang%20Pitu%20Heri%20Budiawan%20(Budi%20Pego)"
+    },
+    {
+      "id": "resolusi-pbb-2504-1969",
+      "type": "arsip-nasional",
+      "title_id": "Resolusi Majelis Umum PBB No. 2504 (XXIV) tentang Hasil Penentuan Pendapat Rakyat (PEPERA) Irian Barat 1969",
+      "year": 1969,
+      "citation_id": "UN General Assembly Resolution 2504 (XXIV)",
+      "resolved_url": "https://duckduckgo.com/?q=Resolusi%20Majelis%20Umum%20PBB%20No.%202504%20(XXIV)%20tentang%20Hasil%20Penentuan%20Pendapat%20Rakyat%20(PEPERA)%20Irian%20Barat%201969"
+    },
+    {
+      "id": "tap-mpr-vi-2000",
+      "type": "dokumen-mpr",
+      "title_id": "Ketetapan MPR No. VI/MPR/2000 tentang Pemisahan TNI dan Kepolisian Negara RI",
+      "year": 2000,
+      "citation_id": "TAP MPR No. VI/MPR/2000",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPR%20No.%20VI%2FMPR%2F2000%20tentang%20Pemisahan%20TNI%20dan%20Kepolisian%20Negara%20RI"
+    },
+    {
+      "id": "tap-mpr-vii-2000",
+      "type": "dokumen-mpr",
+      "title_id": "Ketetapan MPR No. VII/MPR/2000 tentang Peran TNI dan Peran Kepolisian Negara RI",
+      "year": 2000,
+      "citation_id": "TAP MPR No. VII/MPR/2000",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPR%20No.%20VII%2FMPR%2F2000%20tentang%20Peran%20TNI%20dan%20Peran%20Kepolisian%20Negara%20RI"
+    },
+    {
+      "id": "keppres-6-2000",
+      "type": "keppres",
+      "title_id": "Keppres No. 6 Tahun 2000 tentang Pencabutan Inpres No. 14/1967 (Pemulihan Hak Sipil Etnis Tionghoa)",
+      "year": 2000,
+      "citation_id": "Keppres No. 6 Tahun 2000",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=KEPPRES%206%20Tahun%202000"
+    },
+    {
+      "id": "uu-21-2001",
+      "type": "undang-undang",
+      "title_id": "UU No. 21 Tahun 2001 tentang Otonomi Khusus bagi Provinsi Papua",
+      "year": 2001,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=21&thn=2001",
+      "citation_id": "LN No. 135 Tahun 2001, TLN No. 4151",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=21&thn=2001"
+    },
+    {
+      "id": "keppres-19-2002",
+      "type": "keppres",
+      "title_id": "Keppres No. 19 Tahun 2002 tentang Penetapan Hari Tahun Baru Imlek sebagai Hari Libur Nasional",
+      "year": 2002,
+      "citation_id": "Keppres No. 19 Tahun 2002",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=KEPPRES%2019%20Tahun%202002"
+    },
+    {
+      "id": "uu-2-2002",
+      "type": "undang-undang",
+      "title_id": "UU No. 2 Tahun 2002 tentang Kepolisian Negara Republik Indonesia",
+      "year": 2002,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2002",
+      "citation_id": "LN No. 2 Tahun 2002, TLN No. 4168",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2002"
+    },
+    {
+      "id": "inpres-8-2002",
+      "type": "keppres",
+      "title_id": "Inpres No. 8 Tahun 2002 tentang Pemberian Jaminan Kepastian Hukum kepada Debitur BLBI (Penerbitan SKL)",
+      "year": 2002,
+      "citation_id": "Inpres No. 8 Tahun 2002",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=INPRES%208%20Tahun%202002"
+    },
+    {
+      "id": "uu-34-2004",
+      "type": "undang-undang",
+      "title_id": "UU No. 34 Tahun 2004 tentang Tentara Nasional Indonesia (TNI)",
+      "year": 2004,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=34&thn=2004",
+      "citation_id": "LN No. 127 Tahun 2004, TLN No. 4439",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=34&thn=2004"
+    },
+    {
+      "id": "skb-3-menteri-ahmadiyah-2008",
+      "type": "lainnya",
+      "title_id": "Keputusan Bersama Menag, Jaksa Agung, dan Mendagri No. 3/2008 tentang Peringatan Terhadap Jemaat Ahmadiyah Indonesia",
+      "year": 2008,
+      "citation_id": "SKB 3 Menteri No. 3 Tahun 2008",
+      "resolved_url": "https://duckduckgo.com/?q=Keputusan%20Bersama%20Menag%2C%20Jaksa%20Agung%2C%20dan%20Mendagri%20No.%203%2F2008%20tentang%20Peringatan%20Terhadap%20Jemaat%20Ahmadiyah%20Indonesia"
+    },
+    {
+      "id": "laporan-audit-bpk-century-2009",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Pemeriksaan Investigasi BPK RI atas Kasus Penanganan PT Bank Century Tbk Rp6,76 Triliun",
+      "year": 2009,
+      "citation_id": "BPK RI LHP Century 2009",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemeriksaan%20Investigasi%20BPK%20RI%20atas%20Kasus%20Penanganan%20PT%20Bank%20Century%20Tbk%20Rp6%2C76%20Triliun"
+    },
+    {
+      "id": "risalah-pansus-century-dpr-2010",
+      "type": "dokumen-mpr",
+      "title_id": "Risalah Keputusan Rapat Paripurna DPR RI atas Laporan Akhir Pansus Hak Angket Bank Century",
+      "year": 2010,
+      "citation_id": "Risalah DPR RI Paripurna Century 2010",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Risalah%20Keputusan%20Rapat%20Paripurna%20DPR%20RI%20atas%20Laporan%20Akhir%20Pansus%20Hak%20Angket%20Bank%20Century"
+    },
+    {
+      "id": "putusan-mk-92-puu-x-2012",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 92/PUU-X/2012 (Kewenangan Tripartit DPD RI dalam Pembentukan Undang-Undang Otonomi Daerah)",
+      "year": 2013,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=92/PUU-X/2012",
+      "citation_id": "Putusan MKRI No. 92/PUU-X/2012",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=92/PUU-X/2012"
+    },
+    {
+      "id": "putusan-mk-79-puu-xii-2014",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 79/PUU-XII/2014 (Penegasan Hak Partisipasi Penuh DPD RI dalam Tripartit Legislasi)",
+      "year": 2015,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=79/PUU-XII/2014",
+      "citation_id": "Putusan MKRI No. 79/PUU-XII/2014",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=79/PUU-XII/2014"
+    },
+    {
+      "id": "perppu-2-2017",
+      "type": "perppu",
+      "title_id": "Perppu No. 2 Tahun 2017 tentang Perubahan atas UU No. 17 Tahun 2013 tentang Organisasi Kemasyarakatan",
+      "year": 2017,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=PERPPU&no=2&thn=2017",
+      "citation_id": "LN No. 138 Tahun 2017, TLN No. 6084",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=PERPPU&no=2&thn=2017"
+    },
+    {
+      "id": "putusan-ptun-papua-internet-2020",
+      "type": "putusan-ma",
+      "title_id": "Putusan PTUN Jakarta No. 230/G/TF/2019/PTUN.JKT (Pemblokiran Internet di Papua Melanggar Hukum)",
+      "year": 2020,
+      "citation_id": "Putusan PTUN Jakarta No. 230/G/TF/2019/PTUN.JKT",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20PTUN%20Jakarta%20No.%20230%2FG%2FTF%2F2019%2FPTUN.JKT%20(Pemblokiran%20Internet%20di%20Papua%20Melanggar%20Hukum)"
+    },
+    {
+      "id": "skb-6-lembaga-fpi-2020",
+      "type": "lainnya",
+      "title_id": "Surat Keputusan Bersama 6 Menteri dan Kepala Lembaga tentang Larangan Kegiatan dan Penggunaan Atribut FPI",
+      "year": 2020,
+      "citation_id": "SKB 6 Kementerian/Lembaga No. 220-4780 Tahun 2020",
+      "resolved_url": "https://duckduckgo.com/?q=Surat%20Keputusan%20Bersama%206%20Menteri%20dan%20Kepala%20Lembaga%20tentang%20Larangan%20Kegiatan%20dan%20Penggunaan%20Atribut%20FPI"
+    },
+    {
+      "id": "laporan-audit-bpk-asabri-2021",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pengelolaan Keuangan dan Dana Investasi PT ASABRI Rp22,78 Triliun",
+      "year": 2021,
+      "citation_id": "BPK RI LHP Asabri 2021",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemeriksaan%20Investigatif%20BPK%20RI%20atas%20Pengelolaan%20Keuangan%20dan%20Dana%20Investasi%20PT%20ASABRI%20Rp22%2C78%20Triliun"
+    },
+    {
+      "id": "keppres-6-2021",
+      "type": "keppres",
+      "title_id": "Keppres No. 6 Tahun 2021 tentang Satuan Tugas Penanganan Hak Tagih Negara Dana BLBI (Satgas BLBI)",
+      "year": 2021,
+      "citation_id": "Keppres No. 6 Tahun 2021",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=KEPPRES%206%20Tahun%202021"
+    },
+    {
+      "id": "uu-14-2022",
+      "type": "undang-undang",
+      "title_id": "UU No. 14 Tahun 2022 tentang Pembentukan Provinsi Papua Selatan",
+      "year": 2022,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=14&thn=2022",
+      "citation_id": "LN No. 158 Tahun 2022, TLN No. 6804",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=14&thn=2022"
+    },
+    {
+      "id": "uu-15-2022",
+      "type": "undang-undang",
+      "title_id": "UU No. 15 Tahun 2022 tentang Pembentukan Provinsi Papua Tengah",
+      "year": 2022,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=15&thn=2022",
+      "citation_id": "LN No. 159 Tahun 2022, TLN No. 6805",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=15&thn=2022"
+    },
+    {
+      "id": "uu-16-2022",
+      "type": "undang-undang",
+      "title_id": "UU No. 16 Tahun 2022 tentang Pembentukan Provinsi Papua Pegunungan",
+      "year": 2022,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=16&thn=2022",
+      "citation_id": "LN No. 160 Tahun 2022, TLN No. 6806",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=16&thn=2022"
+    },
+    {
+      "id": "uu-29-2022",
+      "type": "undang-undang",
+      "title_id": "UU No. 29 Tahun 2022 tentang Pembentukan Provinsi Papua Barat Daya",
+      "year": 2022,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=29&thn=2022",
+      "citation_id": "LN No. 222 Tahun 2022, TLN No. 6831",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=29&thn=2022"
+    },
+    {
+      "id": "laporan-sidang-mkh-ky-ma-2023",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Penegakan Etik Bersama Majelis Kehormatan Hakim (MKH) Komisi Yudisial & Mahkamah Agung RI",
+      "year": 2023,
+      "citation_id": "Laporan Resmi KY-MA MKH 2023",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Penegakan%20Etik%20Bersama%20Majelis%20Kehormatan%20Hakim%20(MKH)%20Komisi%20Yudisial%20%26%20Mahkamah%20Agung%20RI"
+    },
+    {
+      "id": "perpres-32-2024",
+      "type": "keppres",
+      "title_id": "Perpres No. 32 Tahun 2024 tentang Tanggung Jawab Platform Digital untuk Mendukung Jurnalisme Berkualitas (Publisher Rights)",
+      "year": 2024,
+      "citation_id": "Perpres No. 32 Tahun 2024",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Perpres%20No.%2032%20Tahun%202024%20tentang%20Tanggung%20Jawab%20Platform%20Digital%20untuk%20Mendukung%20Jurnalis"
+    },
+    {
+      "id": "putusan-ma-asabri-2023",
+      "type": "putusan-ma",
+      "title_id": "Putusan Kasasi Mahkamah Agung No. 5928 K/Pid.Sus/2022 atas Megakorupsi Pengelolaan Dana Investasi PT ASABRI Rp22,78 Triliun",
+      "year": 2023,
+      "citation_id": "Putusan MA No. 5928 K/Pid.Sus/2022",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20Kasasi%20Mahkamah%20Agung%20No.%205928%20K%2FPid.Sus%2F2022%20atas%20Megakorupsi%20Pengelolaan%20Dana%20Investasi%20PT%20ASABRI%20Rp22%2C78%20Triliun"
     }
   ],
   "assessments": [

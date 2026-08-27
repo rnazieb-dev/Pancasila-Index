@@ -242,6 +242,18 @@
   source_ids: [keppres-36-1990]
   dimension_ids: [sila-2, tujuan-2]
 
+- id: ev-pepera-papua-1969
+  term_id: presiden-soeharto
+  date: "1969-11-19"
+  category: peristiwa
+  title_id: Penentuan Pendapat Rakyat (PEPERA) 1969 dan Pengesahan Resolusi PBB 2504
+  summary_id: >-
+    Pelaksanaan Penentuan Pendapat Rakyat (Act of Free Choice) di Irian Barat menghasilkan keputusan mutlak tetap bergabung dengan NKRI,
+    yang secara resmi dicatat dan disahkan oleh Majelis Umum PBB melalui Resolusi No. 2504 (XXIV) untuk mengukuhkan keutuhan wilayah Indonesia dari Sabang sampai Merauke.
+  source_ids: [resolusi-pbb-2504-1969]
+  dimension_ids: [tujuan-1, sila-3]
+
+
 
 
 

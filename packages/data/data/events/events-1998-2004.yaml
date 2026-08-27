@@ -209,6 +209,84 @@
   source_ids: [uu-31-1999, uu-20-2001]
   dimension_ids: [negara-hukum, checks-balances]
 
+- id: ev-mpr-pemisahan-tni-polri-2000
+  term_id: mpr-1999-2004
+  date: "2000-08-18"
+  category: produk-hukum
+  title_id: TAP MPR No. VI & VII/MPR/2000 tentang Pemisahan TNI dan Polri Serta Supremasi Sipil
+  summary_id: >-
+    MPR RI menetapkan pemisahan kelembagaan dan peran Tentara Nasional Indonesia (sebagai alat pertahanan negara)
+    dan Kepolisian Negara Republik Indonesia (sebagai alat keamanan dan ketertiban masyarakat serta penegak hukum), mengakhiri Dwifungsi ABRI.
+  source_ids: [tap-mpr-vi-2000, tap-mpr-vii-2000]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-keppres-pemulihan-hak-tionghoa-2000
+  term_id: presiden-gusdur
+  date: "2000-01-17"
+  category: produk-hukum
+  title_id: Keppres No. 6 Tahun 2000 Mencabut Inpres 14/1967 (Pemulihan Hak Sipil Etnis Tionghoa)
+  summary_id: >-
+    Presiden Abdurrahman Wahid (Gus Dur) menerbitkan Keppres No. 6/2000 yang mencabut aturan diskriminatif Orde Baru,
+    memulihkan kebebasan beragama, berkepercayaan, dan menjalankan tradisi budaya Tionghoa di ruang publik secara terbuka berlandaskan keadilan kemanusiaan (Sila ke-2).
+  source_ids: [keppres-6-2000]
+  dimension_ids: [sila-1, sila-2]
+
+- id: ev-dpr-uu-otsus-papua-2001
+  term_id: dpr-1999-2004
+  date: "2001-11-21"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 21 Tahun 2001 tentang Otonomi Khusus Papua
+  summary_id: >-
+    DPR mengesahkan payung hukum Otonomi Khusus bagi Provinsi Papua yang mengakui hak-hak dasar Orang Asli Papua (OAP),
+    membentuk lembaga kultural representatif Majelis Rakyat Papua (MRP), dan mengalokasikan dana otsus untuk percepatan pendidikan dan kesehatan.
+  source_ids: [uu-21-2001]
+  dimension_ids: [tujuan-2, sila-3]
+
+- id: ev-keppres-imlek-libur-nasional-2002
+  term_id: presiden-megawati
+  date: "2002-04-09"
+  category: produk-hukum
+  title_id: Keppres No. 19 Tahun 2002 Menetapkan Tahun Baru Imlek sebagai Hari Libur Nasional
+  summary_id: >-
+    Presiden Megawati Soekarnoputri menetapkan Tahun Baru Imlek sebagai Hari Libur Nasional resmi di seluruh Indonesia,
+    memperkuat toleransi kebinekaan, kesetaraan kewarganegaraan, dan persatuan nasional (Sila ke-3).
+  source_ids: [keppres-19-2002]
+  dimension_ids: [sila-1, sila-3]
+
+- id: ev-dpr-uu-polri-2002
+  term_id: dpr-1999-2004
+  date: "2002-01-08"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 2 Tahun 2002 tentang Kepolisian Negara Republik Indonesia
+  summary_id: >-
+    DPR bersama Pemerintah mengesahkan landasan hukum Polri yang mandiri dan profesional di bawah Presiden,
+    menegaskan doktrin kepolisian sipil (civilian policing) yang bertugas melindungi, mengayomi, dan melayani masyarakat serta menjunjung tinggi hak asasi manusia.
+  source_ids: [uu-2-2002]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-inpres-skl-blbi-2002
+  term_id: presiden-megawati
+  date: "2002-12-30"
+  category: kebijakan
+  title_id: Penerbitan Inpres No. 8/2002 tentang Penyelesaian BLBI dan Surat Keterangan Lunas (SKL)
+  summary_id: >-
+    Presiden Megawati mengeluarkan Inpres No. 8/2002 (Release and Discharge) yang memberikan jaminan kepastian hukum dan SKL
+    kepada para obligor BLBI yang telah menandatangani kesepakatan PKPS/MSAA, memicu kontroversi panjang terkait penuntasan kerugian keuangan negara.
+  source_ids: [inpres-8-2002]
+  dimension_ids: [tujuan-2, checks-balances]
+
+- id: ev-dpr-uu-tni-2004
+  term_id: dpr-1999-2004
+  date: "2004-10-16"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 34 Tahun 2004 tentang TNI & Penghapusan Fraksi Militer di Parlemen
+  summary_id: >-
+    DPR mengesahkan UU TNI yang mengukuhkan posisi prajurit profesional alat pertahanan negara di bawah otoritas kementerian pertahanan,
+    melarang prajurit berpolitik praktis dan berbisnis, serta mengakhiri keberadaan Fraksi TNI/Polri di DPR dan MPR RI.
+  source_ids: [uu-34-2004]
+  dimension_ids: [checks-balances, negara-hukum]
+
+
 
 
 
