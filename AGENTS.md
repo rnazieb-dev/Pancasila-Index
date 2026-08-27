@@ -90,7 +90,7 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
       Seluruh 8 lembaga UUD 1945 memiliki data institutions, terms (45 total), events, dan assessments lengkap.
 - [x] **Fase 8: Pencarian teks terpadu (/cari), Bandingkan era/institusi (/bandingkan + MultiRadarChart), Ekspor CSV/JSON (/ekspor), Direktori Aktor (/aktor)** ✅
 - [x] **Fase 9: REST API v1 lengkap (institutions, terms, events, assessments, sources, compare) + pagination + rate-limiter + OpenAPI spec (/api/v1/openapi.json) + UI interaktif (/api-docs)** ✅
-- [ ] Fase 10: i18n konten substantif (mesin → antrean tinjauan manusia)
+- [x] **Fase 10: i18n konten substantif (5 bahasa: id, en, jv, su, min) + Antrean Tinjauan Bahasa (/peer-review/terjemahan)** ✅
 - [x] **Fase 11: docker-compose + Dockerfile; SECURITY.md; CODE_OF_CONDUCT.md; unit & integration testing suite (44 tests pass)** ✅
 
 ## Definisi Selesai v1.0

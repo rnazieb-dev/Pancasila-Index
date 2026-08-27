@@ -975,3 +975,126 @@
   year: 2004
   citation_id: LN No. 9 Tahun 2004, TLN No. 4359
 
+- id: dekrit-presiden-5-juli-1959
+  type: keppres
+  title_id: Dekrit Presiden 5 Juli 1959 (Kembali ke UUD 1945 dan Pembubaran Konstituante)
+  year: 1959
+  citation_id: Dekrit Presiden 5 Juli 1959, Lembaran Negara No. 75 Tahun 1959
+
+- id: tap-mprs-xxxiii-1967
+  type: dokumen-mpr
+  title_id: TAP MPRS No. XXXIII/MPRS/1967 tentang Pencabutan Kekuasaan Pemerintahan Negara dari Presiden Sukarno
+  year: 1967
+  citation_id: TAP MPRS XXXIII/MPRS/1967
+
+- id: uu-30-2002
+  type: undang-undang
+  title_id: UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi (KPK)
+  year: 2002
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2002
+  citation_id: LN No. 137 Tahun 2002, TLN No. 4250
+
+- id: uu-14-2008
+  type: undang-undang
+  title_id: UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik (KIP)
+  year: 2008
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=14&thn=2008
+  citation_id: LN No. 61 Tahun 2008, TLN No. 4846
+
+- id: putusan-mk-91-puu-xviii-2020
+  type: putusan-mk
+  title_id: Putusan MK No. 91/PUU-XVIII/2020 (Uji Formil UU Cipta Kerja Inkonstitusional Bersyarat)
+  year: 2021
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=91/PUU-XVIII/2020
+  citation_id: Putusan MKRI No. 91/PUU-XVIII/2020
+
+- id: putusan-mk-90-puu-xxi-2023
+  type: putusan-mk
+  title_id: Putusan MK No. 90/PUU-XXI/2023 (Syarat Batas Usia Calon Presiden dan Wakil Presiden Pernah/Sedang Menjabat Kepala Daerah)
+  year: 2023
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=90/PUU-XXI/2023
+  citation_id: Putusan MKRI No. 90/PUU-XXI/2023
+
+- id: putusan-mk-60-puu-xxii-2024
+  type: putusan-mk
+  title_id: Putusan MK No. 60/PUU-XXII/2024 (Penurunan Ambang Batas Pencalonan Kepala Daerah dalam UU Pilkada)
+  year: 2024
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=60/PUU-XXII/2024
+  citation_id: Putusan MKRI No. 60/PUU-XXII/2024
+
+- id: putusan-mk-70-puu-xxii-2024
+  type: putusan-mk
+  title_id: Putusan MK No. 70/PUU-XXII/2024 (Penegasan Titik Hitung Syarat Usia Calon Kepala Daerah Saat Penetapan Pasangan Calon)
+  year: 2024
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=70/PUU-XXII/2024
+  citation_id: Putusan MKRI No. 70/PUU-XXII/2024
+
+- id: uu-19-2019
+  type: undang-undang
+  title_id: UU No. 19 Tahun 2019 tentang Perubahan Kedua atas UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi
+  year: 2019
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2019
+  citation_id: LN No. 197 Tahun 2019, TLN No. 6409
+
+- id: laporan-audit-bpk-century-2009
+  type: laporan-lembaga
+  title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Penanganan Kasus PT Bank Century Tbk (Penyerahan Resmi ke DPR RI)
+  year: 2009
+  citation_id: BPK RI Laporan Investigatif No. 03/LHP/XVI/11/2009
+
+- id: putusan-ma-23-p-hum-2024
+  type: putusan-ma
+  title_id: Putusan MA No. 23 P/HUM/2024 (Uji Materiil Pasal 4 ayat 1 huruf d PKPU No. 9 Tahun 2020 tentang Syarat Usia Calon Kepala Daerah)
+  year: 2024
+  citation_id: Putusan MA No. 23 P/HUM/2024
+
+- id: putusan-mk-14-puu-xi-2013
+  type: putusan-mk
+  title_id: Putusan MK No. 14/PUU-XI/2013 (Kewajiban Penyelenggaraan Pemilihan Umum Serentak 5 Kotak Mulai 2019)
+  year: 2014
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=14/PUU-XI/2013
+  citation_id: Putusan MKRI No. 14/PUU-XI/2013
+
+- id: uu-7-2017
+  type: undang-undang
+  title_id: UU No. 7 Tahun 2017 tentang Pemilihan Umum (Kodifikasi Regulasi Pemilu Serentak)
+  year: 2017
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017
+  citation_id: LN No. 182 Tahun 2017, TLN No. 6109
+
+- id: deklarasi-djuanda-1957
+  type: arsip-nasional
+  title_id: Deklarasi Djuanda 13 Desember 1957 tentang Batas Laut Teritorial dan Konsep Negara Kepulauan Indonesia
+  year: 1957
+  citation_id: Pengumuman Pemerintah tentang Wilayah Perairan RI 13 Desember 1957
+
+- id: konstitusi-ris-1949
+  type: dokumen-mpr
+  title_id: Piagam Persetujuan Konstitusi Republik Indonesia Serikat (Konstitusi RIS 1949)
+  year: 1949
+  citation_id: Lembaran Negara RIS Tahun 1950 No. 3
+
+- id: uuds-1950
+  type: undang-undang
+  title_id: UU No. 7 Tahun 1950 tentang Perubahan Konstitusi Sementara RIS Menjadi Undang-Undang Dasar Sementara Republik Indonesia
+  year: 1950
+  citation_id: Lembaran Negara Tahun 1950 No. 56
+
+- id: perma-1-2019
+  type: putusan-ma
+  title_id: Peraturan Mahkamah Agung No. 1 Tahun 2019 tentang Administrasi Perkara dan Persidangan di Pengadilan Secara Elektronik (e-Court & e-Litigation)
+  year: 2019
+  citation_id: Berita Negara RI Tahun 2019 No. 894
+
+- id: laporan-ihps-bpk-2022
+  type: laporan-lembaga
+  title_id: Ikhtisar Hasil Pemeriksaan Semester (IHPS) II Tahun 2022 Badan Pemeriksa Keuangan RI
+  year: 2023
+  citation_id: BPK RI IHPS II/2022
+
+- id: laporan-seleksi-ha-ky-2021
+  type: laporan-lembaga
+  title_id: Laporan Kinerja Seleksi Calon Hakim Agung dan Calon Hakim Ad Hoc HAM 2021 Komisi Yudisial RI
+  year: 2021
+  citation_id: KY RI Laporan Seleksi 2021
+

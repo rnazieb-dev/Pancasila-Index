@@ -5032,6 +5032,291 @@
         "negara-hukum",
         "checks-balances"
       ]
+    },
+    {
+      "id": "ev-presiden-dekrit-1959",
+      "term_id": "presiden-soekarno-i",
+      "date": "1959-07-05",
+      "category": "krisis",
+      "title_id": "Dekrit Presiden 5 Juli 1959 Kembali ke UUD 1945",
+      "summary_id": "5 Juli 1959, Presiden Sukarno mengeluarkan dekrit membubarkan Dewan Konstituante dan menyatakan kembali berlakunya UUD 1945. Langkah darurat ini mengakhiri masa Demokrasi Liberal dan kebuntuan sidang konstitusi, sekaligus membuka jalan bagi era Demokrasi Terpimpin yang sentralistik.",
+      "source_ids": [
+        "dekrit-presiden-5-juli-1959"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mpr-tap-xxxiii-1967",
+      "term_id": "mpr-1971-1999",
+      "date": "1967-03-12",
+      "category": "kebijakan",
+      "title_id": "TAP MPRS XXXIII/MPRS/1967 Pencabutan Kekuasaan Presiden Sukarno",
+      "summary_id": "Sidang Istimewa MPRS mencabut kekuasaan pemerintahan negara dari Presiden Sukarno dan mengangkat Jenderal Soeharto sebagai Pejabat Presiden RI. Peristiwa ini menandai transisi kekuasaan resmi dari Orde Lama ke Orde Baru.",
+      "source_ids": [
+        "tap-mprs-xxxiii-1967"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-kpk-2002",
+      "term_id": "dpr-1999-2004",
+      "date": "2002-12-27",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Korupsi (KPK)",
+      "summary_id": "DPR bersama Pemerintah mengesahkan UU KPK sebagai lembaga negara independen pemicu (trigger mechanism) untuk memberantas korupsi yang terstruktur, sistematis, dan masif pasca-Reformasi.",
+      "source_ids": [
+        "uu-30-2002"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-kip-2008",
+      "term_id": "dpr-2004-2009",
+      "date": "2008-04-30",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik (KIP)",
+      "summary_id": "DPR mengesahkan undang-undang yang menjamin hak setiap warga negara untuk memperoleh informasi publik dan mewajibkan seluruh badan publik menyelenggarakan tata kelola yang transparan dan akuntabel.",
+      "source_ids": [
+        "uu-14-2008"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-91-ciptaker",
+      "term_id": "mk-2018-2023",
+      "date": "2021-11-25",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 91/PUU-XVIII/2020 UU Cipta Kerja Inkonstitusional Bersyarat",
+      "summary_id": "Mahkamah Konstitusi memutuskan pembentukan UU Cipta Kerja bertentangan dengan UUD 1945 karena cacat formil dalam asas pembentukan peraturan dan minim partisipasi publik yang bermakna (meaningful participation).",
+      "source_ids": [
+        "putusan-mk-91-puu-xviii-2020"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-90-capres",
+      "term_id": "mk-2018-2023",
+      "date": "2023-10-16",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 90/PUU-XXI/2023 tentang Syarat Batas Usia Capres-Cawapres",
+      "summary_id": "MK mengabulkan sebagian uji materi Pasal 169 huruf q UU Pemilu dengan menambahkan frasa syarat berusia paling rendah 40 tahun atau pernah/sedang menduduki jabatan yang dipilih melalui pemilihan umum termasuk pemilihan kepala daerah.",
+      "source_ids": [
+        "putusan-mk-90-puu-xxi-2023"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-60-pilkada",
+      "term_id": "mk-2023-sekarang",
+      "date": "2024-08-20",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 60/PUU-XXII/2024 Menurunkan Ambang Batas Pencalonan Kepala Daerah",
+      "summary_id": "MK mengubah persentase ambang batas (threshold) pengusulan pasangan calon kepala daerah diselaraskan dengan perolehan suara sah pemilu legislatif, memulihkan kompetisi elektoral yang inklusif dan mencegah calon tunggal kotak kosong secara buatan.",
+      "source_ids": [
+        "putusan-mk-60-puu-xxii-2024"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-70-usia-pilkada",
+      "term_id": "mk-2023-sekarang",
+      "date": "2024-08-20",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 70/PUU-XXII/2024 Menegaskan Syarat Usia Calon Pilkada Dihitung Saat Penetapan",
+      "summary_id": "MK menegaskan dalam pertimbangan hukumnya bahwa syarat usia calon kepala daerah (30 tahun untuk gubernur, 25 tahun untuk bupati/walikota) harus dipenuhi pada saat penetapan pasangan calon oleh KPU, bukan pada saat pelantikan.",
+      "source_ids": [
+        "putusan-mk-70-puu-xxii-2024"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-dpr-revisi-uu-kpk-2019",
+      "term_id": "dpr-2014-2019",
+      "date": "2019-09-17",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 19 Tahun 2019 tentang Perubahan Kedua UU KPK",
+      "summary_id": "DPR dan Pemerintah merevisi UU KPK dengan pembentukan Dewan Pengawas, alih status pegawai KPK menjadi ASN, dan pembatasan penyadapan serta SP3, yang memicu aksi demonstrasi mahasiswa Reformasi Dikorupsi di berbagai kota.",
+      "source_ids": [
+        "uu-19-2019"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-bpk-audit-century-2009",
+      "term_id": "bpk-2009-2019",
+      "date": "2009-11-23",
+      "category": "kebijakan",
+      "title_id": "Penyerahan Laporan Investigatif Kasus Bank Century ke DPR RI",
+      "summary_id": "BPK RI menyerahkan Laporan Hasil Pemeriksaan (LHP) Investigatif atas penanganan Bank Century ke DPR RI, menemukan 9 ketetapan bermasalah dan indikasi kerugian negara dalam penetapan bank gagal berdampak sistemik serta Fasilitas Pendanaan Jangka Pendek (FPJP).",
+      "source_ids": [
+        "laporan-audit-bpk-century-2009"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-ma-putusan-23-pilkada",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2024-05-29",
+      "category": "pengadilan",
+      "title_id": "Putusan MA No. 23 P/HUM/2024 Mengubah Titik Hitung Usia Calon Kepala Daerah",
+      "summary_id": "MA mengabulkan permohonan hak uji materiil terhadap PKPU No. 9 Tahun 2020 dengan menyatakan syarat usia minimum calon kepala daerah dihitung sejak pelantikan pasangan calon terpilih, bukan saat penetapan paslon.",
+      "source_ids": [
+        "putusan-ma-23-p-hum-2024"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-14-pemilu-serentak",
+      "term_id": "mk-2013-2018",
+      "date": "2014-01-23",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 14/PUU-XI/2013 Kewajiban Pemilu Serentak 5 Kotak Mulai 2019",
+      "summary_id": "MK memutuskan bahwa pemisahan pemilu legislatif dan pemilu presiden bertentangan dengan UUD 1945, dan mewajibkan pemilihan umum diselenggarakan secara serentak mulai Pemilu 2019 guna memperkuat sistem presidensial.",
+      "source_ids": [
+        "putusan-mk-14-puu-xi-2013"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-pemilu-7-2017",
+      "term_id": "dpr-2014-2019",
+      "date": "2017-07-21",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 7 Tahun 2017 tentang Pemilu Serentak",
+      "summary_id": "DPR mengesahkan kodifikasi undang-undang pemilu menyatukan aturan pemilu presiden, pemilu DPR/DPD/DPRD, dan penyelenggara pemilu (KPU, Bawaslu, DKPP) dalam satu payung hukum menjelang Pemilu Serentak 2019.",
+      "source_ids": [
+        "uu-7-2017"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-presiden-deklarasi-djuanda",
+      "term_id": "presiden-soekarno-i",
+      "date": "1957-12-13",
+      "category": "kebijakan",
+      "title_id": "Deklarasi Djuanda 13 Desember 1957 Menetapkan Wilayah Perairan Nusantara",
+      "summary_id": "Perdana Menteri Djuanda Kartawidjaja atas nama Pemerintah RI menyatakan bahwa segala perairan di sekitar, di antara, dan yang menghubungkan pulau-pulau Indonesia adalah bagian integral dari kedaulatan mutlak NKRI (Wawasan Nusantara).",
+      "source_ids": [
+        "deklarasi-djuanda-1957"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-mpr-konstitusi-ris-1949",
+      "term_id": "presiden-soekarno-i",
+      "date": "1949-12-27",
+      "category": "produk-hukum",
+      "title_id": "Berlakunya Konstitusi RIS 1949 Pasca-Konferensi Meja Bundar",
+      "summary_id": "Penetapan Piagam Persetujuan Konstitusi Republik Indonesia Serikat mengubah bentuk negara menjadi federasi dan sistem pemerintahan menjadi parlementer semu, sebagai hasil kompromi diplomatik pengakuan kedaulatan dari Belanda.",
+      "source_ids": [
+        "konstitusi-ris-1949"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-dpr-uuds-1950",
+      "term_id": "presiden-soekarno-i",
+      "date": "1950-08-17",
+      "category": "produk-hukum",
+      "title_id": "Kembali ke Negara Kesatuan RI dan Pemberlakuan UUDS 1950",
+      "summary_id": "DPR RIS bersama DPR RI Yogyakarta dan BFO menyepakati pembubaran negara federal RIS dan kembali ke bentuk Negara Kesatuan Republik Indonesia dengan memberlakukan Undang-Undang Dasar Sementara 1950.",
+      "source_ids": [
+        "uuds-1950"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-ma-perma-ecourt-2019",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2019-08-19",
+      "category": "kebijakan",
+      "title_id": "Peluncuran e-Court dan e-Litigation Berdasarkan PERMA No. 1 Tahun 2019",
+      "summary_id": "Mahkamah Agung RI meluncurkan sistem peradilan elektronik nasional mencakup pendaftaran perkara (e-Filing), pembayaran panjar (e-Payment), pemanggilan pihak (e-Summons), dan persidangan elektronik (e-Litigation) guna mewujudkan peradilan sederhana, cepat, dan biaya ringan.",
+      "source_ids": [
+        "perma-1-2019"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "tujuan-2"
+      ]
+    },
+    {
+      "id": "ev-bpk-ihps-2022",
+      "term_id": "bpk-2019-sekarang",
+      "date": "2023-06-20",
+      "category": "kebijakan",
+      "title_id": "Penyerahan IHPS II 2022 Memetakan Penyelamatan Keuangan Negara Rp13,66 Triliun",
+      "summary_id": "BPK RI menyampaikan Ikhtisar Hasil Pemeriksaan Semester (IHPS) II Tahun 2022 kepada DPR dan DPD, mengungkapkan pemulihan dan penyelamatan aset serta penyetoran kas negara senilai Rp13,66 triliun dari rekomendasi audit tata kelola belanja negara.",
+      "source_ids": [
+        "laporan-ihps-bpk-2022"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-ky-seleksi-ha-2021",
+      "term_id": "ky-2020-sekarang",
+      "date": "2021-09-21",
+      "category": "kebijakan",
+      "title_id": "Seleksi Calon Hakim Agung dan Hakim Ad Hoc HAM 2021 dengan Partisipasi Publik",
+      "summary_id": "Komisi Yudisial RI menyelesaikan seleksi terbuka calon hakim agung dan hakim ad hoc HAM di Mahkamah Agung, melibatkan rekam jejak integritas KPK, PPATK, dan masukan masyarakat sipil untuk diusulkan ke DPR RI.",
+      "source_ids": [
+        "laporan-seleksi-ha-ky-2021"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
     }
   ],
   "sources": [
@@ -6352,6 +6637,167 @@
       "year": 2004,
       "citation_id": "LN No. 9 Tahun 2004, TLN No. 4359",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%205%20Tahun%202004"
+    },
+    {
+      "id": "dekrit-presiden-5-juli-1959",
+      "type": "keppres",
+      "title_id": "Dekrit Presiden 5 Juli 1959 (Kembali ke UUD 1945 dan Pembubaran Konstituante)",
+      "year": 1959,
+      "citation_id": "Dekrit Presiden 5 Juli 1959, Lembaran Negara No. 75 Tahun 1959",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Dekrit%20Presiden%205%20Juli%201959%20(Kembali%20ke%20UUD%201945%20dan%20Pembubaran%20Konstituante)"
+    },
+    {
+      "id": "tap-mprs-xxxiii-1967",
+      "type": "dokumen-mpr",
+      "title_id": "TAP MPRS No. XXXIII/MPRS/1967 tentang Pencabutan Kekuasaan Pemerintahan Negara dari Presiden Sukarno",
+      "year": 1967,
+      "citation_id": "TAP MPRS XXXIII/MPRS/1967",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPRS%20No.%20XXXIII%2FMPRS%2F1967%20tentang%20Pencabutan%20Kekuasaan%20Pemerintahan%20Negara%20dari%20Presid"
+    },
+    {
+      "id": "uu-30-2002",
+      "type": "undang-undang",
+      "title_id": "UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi (KPK)",
+      "year": 2002,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2002",
+      "citation_id": "LN No. 137 Tahun 2002, TLN No. 4250",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2002"
+    },
+    {
+      "id": "uu-14-2008",
+      "type": "undang-undang",
+      "title_id": "UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik (KIP)",
+      "year": 2008,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=14&thn=2008",
+      "citation_id": "LN No. 61 Tahun 2008, TLN No. 4846",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=14&thn=2008"
+    },
+    {
+      "id": "putusan-mk-91-puu-xviii-2020",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 91/PUU-XVIII/2020 (Uji Formil UU Cipta Kerja Inkonstitusional Bersyarat)",
+      "year": 2021,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=91/PUU-XVIII/2020",
+      "citation_id": "Putusan MKRI No. 91/PUU-XVIII/2020",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=91/PUU-XVIII/2020"
+    },
+    {
+      "id": "putusan-mk-90-puu-xxi-2023",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 90/PUU-XXI/2023 (Syarat Batas Usia Calon Presiden dan Wakil Presiden Pernah/Sedang Menjabat Kepala Daerah)",
+      "year": 2023,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=90/PUU-XXI/2023",
+      "citation_id": "Putusan MKRI No. 90/PUU-XXI/2023",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=90/PUU-XXI/2023"
+    },
+    {
+      "id": "putusan-mk-60-puu-xxii-2024",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 60/PUU-XXII/2024 (Penurunan Ambang Batas Pencalonan Kepala Daerah dalam UU Pilkada)",
+      "year": 2024,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=60/PUU-XXII/2024",
+      "citation_id": "Putusan MKRI No. 60/PUU-XXII/2024",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=60/PUU-XXII/2024"
+    },
+    {
+      "id": "putusan-mk-70-puu-xxii-2024",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 70/PUU-XXII/2024 (Penegasan Titik Hitung Syarat Usia Calon Kepala Daerah Saat Penetapan Pasangan Calon)",
+      "year": 2024,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=70/PUU-XXII/2024",
+      "citation_id": "Putusan MKRI No. 70/PUU-XXII/2024",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=70/PUU-XXII/2024"
+    },
+    {
+      "id": "uu-19-2019",
+      "type": "undang-undang",
+      "title_id": "UU No. 19 Tahun 2019 tentang Perubahan Kedua atas UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi",
+      "year": 2019,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2019",
+      "citation_id": "LN No. 197 Tahun 2019, TLN No. 6409",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2019"
+    },
+    {
+      "id": "laporan-audit-bpk-century-2009",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Pemeriksaan Investigatif BPK RI atas Penanganan Kasus PT Bank Century Tbk (Penyerahan Resmi ke DPR RI)",
+      "year": 2009,
+      "citation_id": "BPK RI Laporan Investigatif No. 03/LHP/XVI/11/2009",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemeriksaan%20Investigatif%20BPK%20RI%20atas%20Penanganan%20Kasus%20PT%20Bank%20Century%20Tbk%20(Penyerahan%20Resmi%20ke%20DPR%20RI)"
+    },
+    {
+      "id": "putusan-ma-23-p-hum-2024",
+      "type": "putusan-ma",
+      "title_id": "Putusan MA No. 23 P/HUM/2024 (Uji Materiil Pasal 4 ayat 1 huruf d PKPU No. 9 Tahun 2020 tentang Syarat Usia Calon Kepala Daerah)",
+      "year": 2024,
+      "citation_id": "Putusan MA No. 23 P/HUM/2024",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20MA%20No.%2023%20P%2FHUM%2F2024%20(Uji%20Materiil%20Pasal%204%20ayat%201%20huruf%20d%20PKPU%20No.%209%20Tahun%202020%20tentang%20Syarat%20Usia%20Calon%20Kepala%20Daerah)"
+    },
+    {
+      "id": "putusan-mk-14-puu-xi-2013",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 14/PUU-XI/2013 (Kewajiban Penyelenggaraan Pemilihan Umum Serentak 5 Kotak Mulai 2019)",
+      "year": 2014,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=14/PUU-XI/2013",
+      "citation_id": "Putusan MKRI No. 14/PUU-XI/2013",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=14/PUU-XI/2013"
+    },
+    {
+      "id": "uu-7-2017",
+      "type": "undang-undang",
+      "title_id": "UU No. 7 Tahun 2017 tentang Pemilihan Umum (Kodifikasi Regulasi Pemilu Serentak)",
+      "year": 2017,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017",
+      "citation_id": "LN No. 182 Tahun 2017, TLN No. 6109",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017"
+    },
+    {
+      "id": "deklarasi-djuanda-1957",
+      "type": "arsip-nasional",
+      "title_id": "Deklarasi Djuanda 13 Desember 1957 tentang Batas Laut Teritorial dan Konsep Negara Kepulauan Indonesia",
+      "year": 1957,
+      "citation_id": "Pengumuman Pemerintah tentang Wilayah Perairan RI 13 Desember 1957",
+      "resolved_url": "https://duckduckgo.com/?q=Deklarasi%20Djuanda%2013%20Desember%201957%20tentang%20Batas%20Laut%20Teritorial%20dan%20Konsep%20Negara%20Kepulauan%20Indonesia"
+    },
+    {
+      "id": "konstitusi-ris-1949",
+      "type": "dokumen-mpr",
+      "title_id": "Piagam Persetujuan Konstitusi Republik Indonesia Serikat (Konstitusi RIS 1949)",
+      "year": 1949,
+      "citation_id": "Lembaran Negara RIS Tahun 1950 No. 3",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Piagam%20Persetujuan%20Konstitusi%20Republik%20Indonesia%20Serikat%20(Konstitusi%20RIS%201949)"
+    },
+    {
+      "id": "uuds-1950",
+      "type": "undang-undang",
+      "title_id": "UU No. 7 Tahun 1950 tentang Perubahan Konstitusi Sementara RIS Menjadi Undang-Undang Dasar Sementara Republik Indonesia",
+      "year": 1950,
+      "citation_id": "Lembaran Negara Tahun 1950 No. 56",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%207%20Tahun%201950"
+    },
+    {
+      "id": "perma-1-2019",
+      "type": "putusan-ma",
+      "title_id": "Peraturan Mahkamah Agung No. 1 Tahun 2019 tentang Administrasi Perkara dan Persidangan di Pengadilan Secara Elektronik (e-Court & e-Litigation)",
+      "year": 2019,
+      "citation_id": "Berita Negara RI Tahun 2019 No. 894",
+      "resolved_url": "https://duckduckgo.com/?q=Peraturan%20Mahkamah%20Agung%20No.%201%20Tahun%202019%20tentang%20Administrasi%20Perkara%20dan%20Persidangan%20di%20Pengadilan%20Secara%20Elektronik%20(e-Court%20%26%20e-Litigation)"
+    },
+    {
+      "id": "laporan-ihps-bpk-2022",
+      "type": "laporan-lembaga",
+      "title_id": "Ikhtisar Hasil Pemeriksaan Semester (IHPS) II Tahun 2022 Badan Pemeriksa Keuangan RI",
+      "year": 2023,
+      "citation_id": "BPK RI IHPS II/2022",
+      "resolved_url": "https://duckduckgo.com/?q=Ikhtisar%20Hasil%20Pemeriksaan%20Semester%20(IHPS)%20II%20Tahun%202022%20Badan%20Pemeriksa%20Keuangan%20RI"
+    },
+    {
+      "id": "laporan-seleksi-ha-ky-2021",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Kinerja Seleksi Calon Hakim Agung dan Calon Hakim Ad Hoc HAM 2021 Komisi Yudisial RI",
+      "year": 2021,
+      "citation_id": "KY RI Laporan Seleksi 2021",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Kinerja%20Seleksi%20Calon%20Hakim%20Agung%20dan%20Calon%20Hakim%20Ad%20Hoc%20HAM%202021%20Komisi%20Yudisial%20RI"
     }
   ],
   "assessments": [
