@@ -351,6 +351,10 @@
     mengungkap rekayasa lelang, penggelembungan anggaran tahun jamak (multiyears), dan keterlibatan menteri serta pimpinan badan anggaran DPR.
   source_ids: [laporan-audit-bpk-hambalang-2013]
   dimension_ids: [checks-balances, negara-hukum]
+  subject_term_id: presiden-sby-ii
+  subject_basis_id: >-
+    LHP memeriksa kontrak tahun jamak proyek P3SON Hambalang beserta keterlibatan menteri, yang berjalan di
+    dalam masa jabatan ini.
 
 - id: ev-mk-putusan-sda-air-2013
   term_id: mk-2013-2018
@@ -406,6 +410,7 @@
     atas dugaan rekayasa kasus (Cicak vs Buaya I), memaksa Presiden membentuk Tim 8 Independen dan Kejaksaan menerbitkan SKP2 demi menghentikan penuntutan.
   source_ids: [rekomendasi-tim-8-kriminalisasi-kpk-2009, skp2-kejaksaan-bibit-chandra-2009]
   dimension_ids: [checks-balances, negara-hukum]
+  actor_ids: [bibit-samad-rianto, chandra-m-hamzah]
 
 - id: ev-kriminalisasi-prita-mulyasari-2008-2011
   term_id: ma-reformasi-sekarang

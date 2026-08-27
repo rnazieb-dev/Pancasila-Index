@@ -1,0 +1,350 @@
+# Perkara hukum yang melibatkan aktor ketatanegaraan.
+#
+# ATURAN KERAS berkas ini:
+#
+# 1. `source_ids` minimal satu - skema menolak perkara tanpa dokumen.
+#    Tidak ada nama yang masuk hanya karena "ramai diberitakan".
+# 2. `status` wajib eksplisit dan dibaca apa adanya:
+#       terlapor    - baru dilaporkan/diadukan
+#       tersangka   - sudah ditetapkan penyidik, BELUM diadili
+#       terdakwa    - sedang diadili
+#       terpidana   - sudah divonis, belum berkekuatan hukum tetap
+#       inkracht    - vonis berkekuatan hukum tetap
+#       bebas       - diputus bebas atau lepas
+#       dihentikan  - penuntutan dihentikan (SP3/SKP2/deponering)
+#    UI wajib menampilkan status ini bersama nama. Asas praduga tak bersalah
+#    tidak boleh tergilas hanya karena tampilan indeks terlihat tegas.
+# 3. `loss_idr` hanya diisi bila angkanya berasal dari audit resmi yang
+#    disitasi - bukan dari angka yang beredar di pemberitaan.
+
+- id: case-akil-mochtar-suap-pilkada
+  actor_id: akil-mochtar
+  title_id: Suap penanganan sengketa pilkada di Mahkamah Konstitusi
+  status: inkracht
+  status_date: "2014"
+  sentence_id: Pidana penjara seumur hidup
+  summary_id: >-
+    Ketua Mahkamah Konstitusi yang sedang menjabat ditangkap tangan KPK saat menerima
+    suap penanganan sengketa pilkada, lalu divonis pidana penjara seumur hidup yang
+    dikuatkan hingga tingkat kasasi.
+  source_ids: [putusan-ma-akil-2014]
+  event_ids: [ev-mk2-akil-mochtar]
+
+- id: case-setya-novanto-ektp
+  actor_id: setya-novanto
+  title_id: Korupsi pengadaan Kartu Tanda Penduduk elektronik (e-KTP)
+  status: terpidana
+  status_date: "2018-04"
+  sentence_id: 15 tahun penjara
+  loss_idr: 2314000000000
+  summary_id: >-
+    Ketua DPR RI yang sedang menjabat divonis 15 tahun penjara oleh Pengadilan Tipikor
+    atas korupsi pengadaan e-KTP. Nilai kerugian negara mengacu pada penghitungan resmi
+    BPK RI sebesar Rp2,314 triliun, bukan pada angka yang beredar di pemberitaan.
+  source_ids: [berita-ektp-setnov-2018, laporan-audit-bpk-ektp-2017]
+  event_ids: [ev-jokowi1-ektp-setnov, ev-bpk-audit-ektp-2017]
+
+- id: case-juliari-batubara-bansos
+  actor_id: juliari-batubara
+  title_id: Suap pengadaan bantuan sosial COVID-19 di Kementerian Sosial
+  status: inkracht
+  status_date: "2021-08-23"
+  decision_ref: No. 29/Pid.Sus-TPK/2021/PN.JKT.PST
+  sentence_id: >-
+    12 tahun penjara, denda Rp500 juta, dan pencabutan hak dipilih dalam jabatan publik
+    selama 4 tahun setelah menjalani pidana pokok
+  loss_idr: 14597450000
+  summary_id: >-
+    Menteri Sosial yang sedang menjabat ditangkap KPK pada 6 Desember 2020 atas uang
+    pangkal distribusi bantuan sosial pandemi. PN Tipikor Jakarta Pusat memvonis 12 tahun
+    penjara atas penerimaan suap Rp32,4 miliar dari penyedia bansos, dengan uang pengganti
+    Rp14.597.450.000. Putusan berkekuatan hukum tetap dan pidana mulai dijalani.
+  source_ids: [berita-juliari-bansos-2020, putusan-tipikor-juliari-2021]
+  event_ids: [ev-jokowi2-juliari-bansos]
+
+- id: case-zarof-ricar-suap-kasasi
+  actor_id: zarof-ricar
+  title_id: Percaloan perkara dan suap vonis kasasi di Mahkamah Agung
+  # Status dinaikkan dari `tersangka` (BAP Kejagung 2024) ke `inkracht` setelah
+  # kasasi ditolak MA. Inilah gunanya field status: satu perkara berubah
+  # derajatnya, dan datanya harus ikut berubah - bukan tetap "tersangka"
+  # selamanya, dan bukan pula ditulis "bersalah" sejak hari penggeledahan.
+  status: inkracht
+  status_date: "2025-11-12"
+  sentence_id: 18 tahun penjara dan denda Rp1 miliar
+  summary_id: >-
+    Kejaksaan Agung menangkap mantan Kepala Badan Litbang Diklat Kumdil MA dan menyita
+    uang tunai serta logam mulia dari kediamannya. PN Tipikor Jakarta Pusat menjatuhkan
+    16 tahun penjara, Pengadilan Tinggi DKI Jakarta memperberatnya menjadi 18 tahun pada
+    25 Juli 2025, dan Mahkamah Agung menolak kasasi pada 12 November 2025 sehingga vonis
+    berkekuatan hukum tetap. Rp915 miliar dan 51 kg emas dirampas untuk negara.
+  source_ids:
+    - bap-kejagung-zarof-ricar-2024
+    - putusan-kasasi-ma-zarof-ricar-2025
+    - laporan-icw-korupsi-penegak-hukum-2024
+  event_ids: [ev-ma-skandal-zarof-ricar-2024]
+
+- id: case-erintuah-damanik-suap-tannur
+  actor_id: erintuah-damanik
+  title_id: Dugaan suap vonis bebas perkara pembunuhan di PN Surabaya
+  status: tersangka
+  status_date: "2024-10"
+  summary_id: >-
+    Hakim Pengadilan Negeri Surabaya terjaring operasi tangkap tangan Kejaksaan Agung atas
+    dugaan suap vonis bebas, yang kemudian dibatalkan Mahkamah Agung pada tingkat kasasi.
+    Status pada dokumen sumber masih tersangka.
+  source_ids: [bap-kejagung-zarof-ricar-2024, putusan-ma-ronald-tannur-2024]
+  event_ids: [ev-ma-skandal-zarof-ricar-2024, ev-ma-mkh-ronald-tannur-2024]
+
+# Dua perkara berikut berstatus `dihentikan`: yang bermasalah bukan pejabatnya,
+# melainkan perkara yang dipaksakan kepada mereka.
+
+- id: case-bibit-samad-rianto-kriminalisasi
+  actor_id: bibit-samad-rianto
+  title_id: Penetapan tersangka atas pimpinan KPK yang dihentikan penuntutannya
+  status: dihentikan
+  status_date: "2009-11-23"
+  summary_id: >-
+    Wakil Ketua KPK ditetapkan tersangka oleh kepolisian beberapa hari setelah menangani
+    perkara yang menyentuh elite penegak hukum. Tim 8 Independen menyimpulkan perkara
+    tersebut bermasalah dan Kejaksaan menerbitkan SKP2 yang menghentikan penuntutan.
+  source_ids: [rekomendasi-tim-8-kriminalisasi-kpk-2009, skp2-kejaksaan-bibit-chandra-2009]
+  event_ids: [ev-kriminalisasi-bibit-chandra-2009, ev-sby2-bibit-chandra]
+
+- id: case-chandra-m-hamzah-kriminalisasi
+  actor_id: chandra-m-hamzah
+  title_id: Penetapan tersangka atas pimpinan KPK yang dihentikan penuntutannya
+  status: dihentikan
+  status_date: "2009-11-23"
+  summary_id: >-
+    Wakil Ketua KPK ditetapkan tersangka bersama Bibit Samad Rianto dalam rangkaian
+    peristiwa Cicak vs Buaya I. Penuntutan dihentikan melalui SKP2 Kejaksaan setelah
+    rekomendasi Tim 8 Independen.
+  source_ids: [rekomendasi-tim-8-kriminalisasi-kpk-2009, skp2-kejaksaan-bibit-chandra-2009]
+  event_ids: [ev-kriminalisasi-bibit-chandra-2009, ev-sby2-bibit-chandra]
+
+# ---------------------------------------------------------------------------
+# Perkara pelaku tindak pidana korupsi yang putusannya sudah tercitasi.
+#
+# Perhatikan derajat statusnya berbeda-beda dan itu memang disengaja:
+# `inkracht` (sudah final) tidak sama dengan `terpidana` (masih ada upaya
+# hukum). Satu perkara di bawah ini bahkan tidak pernah selesai karena
+# terdakwanya wafat sebelum kasasi diputus - dan datanya harus mengatakan itu.
+# ---------------------------------------------------------------------------
+
+- id: case-johnny-plate-bts-4g
+  actor_id: johnny-gerard-plate
+  title_id: Korupsi proyek BTS 4G BAKTI Kementerian Komunikasi dan Informatika
+  status: terpidana
+  status_date: "2023-11-08"
+  sentence_id: 15 tahun penjara dan denda Rp1 miliar subsider 6 bulan kurungan
+  loss_idr: 8032000000000
+  summary_id: >-
+    Menteri Komunikasi dan Informatika divonis PN Tipikor Jakarta Pusat karena terbukti
+    melakukan tindak pidana korupsi bersama-sama (Pasal 2 ayat 1 jo. Pasal 18 UU Tipikor
+    jo. Pasal 55 ayat 1 ke-1 KUHP) pada proyek penyediaan menara BTS 4G dan infrastruktur
+    pendukung BAKTI Kominfo tahun 2020-2022. Terdakwa menyatakan banding, sehingga pada
+    dokumen yang disitasi putusan belum berkekuatan hukum tetap. Nilai kerugian mengacu
+    pada penghitungan resmi BPK Rp8,032 triliun.
+  source_ids: [putusan-tipikor-johnny-plate-2023, laporan-audit-bpk-bts-2023]
+  event_ids: [ev-bpk-audit-bts-2023]
+
+- id: case-syahrul-yasin-limpo-kementan
+  actor_id: syahrul-yasin-limpo
+  title_id: Pemerasan dan gratifikasi di lingkungan Kementerian Pertanian 2020-2023
+  status: inkracht
+  status_date: "2025-02-28"
+  decision_ref: No. 1081 K/Pid.Sus/2025
+  sentence_id: >-
+    12 tahun penjara dan uang pengganti Rp44.269.777.204 ditambah USD30.000, subsider
+    5 tahun penjara
+  summary_id: >-
+    Menteri Pertanian terbukti memeras pegawai kementeriannya sendiri dan menerima
+    gratifikasi. Mahkamah Agung menolak kasasi pada 28 Februari 2025, menguatkan vonis
+    12 tahun di tingkat banding sehingga putusan berkekuatan hukum tetap.
+  source_ids: [putusan-kasasi-ma-syl-2025]
+  event_ids: []
+
+- id: case-rafael-alun-gratifikasi-tppu
+  actor_id: rafael-alun-trisambodo
+  title_id: Gratifikasi dan tindak pidana pencucian uang oleh pejabat Direktorat Jenderal Pajak
+  status: terpidana
+  status_date: "2024-03-14"
+  sentence_id: 14 tahun penjara, denda Rp500 juta, uang pengganti Rp10 miliar
+  summary_id: >-
+    Pejabat Ditjen Pajak terbukti menerima gratifikasi lewat perusahaan konsultan yang
+    terdaftar atas nama orang lain, lalu mencuci hasilnya. Vonis 14 tahun dijatuhkan
+    8 Januari 2024 dan dikuatkan di tingkat banding pada 14 Maret 2024.
+  source_ids: [putusan-banding-rafael-alun-2024]
+  event_ids: []
+
+- id: case-lukas-enembe-suap-gratifikasi
+  actor_id: lukas-enembe
+  title_id: Suap dan gratifikasi selama menjabat Gubernur Papua
+  # Perkara ini TIDAK pernah berkekuatan hukum tetap: terdakwa wafat saat kasasi
+  # masih berjalan. Statusnya tetap `terpidana`, bukan `inkracht`.
+  status: terpidana
+  status_date: "2023-12-06"
+  sentence_id: 10 tahun penjara (diperberat dari 8 tahun di tingkat pertama)
+  summary_id: >-
+    Gubernur Papua periode 2013-2022 divonis 8 tahun penjara oleh PN Tipikor Jakarta Pusat
+    atas suap dan gratifikasi, lalu diperberat menjadi 10 tahun oleh Pengadilan Tinggi
+    Jakarta pada 6 Desember 2023. Terdakwa mengajukan kasasi, namun wafat pada 26 Desember
+    2023 sebelum kasasi diputus - sehingga perkaranya tidak pernah berkekuatan hukum tetap.
+  source_ids: [putusan-banding-lukas-enembe-2023]
+  event_ids: []
+
+- id: case-patrialis-akbar-suap-uji-materi
+  actor_id: patrialis-akbar
+  title_id: Suap terkait uji materi UU Peternakan dan Kesehatan Hewan di Mahkamah Konstitusi
+  status: inkracht
+  status_date: "2017-09-04"
+  sentence_id: 8 tahun penjara dan denda Rp300 juta subsider 3 bulan kurungan
+  summary_id: >-
+    Hakim Konstitusi terbukti menerima suap USD10.000 dan Rp4.043.000 terkait uji materi
+    UU Peternakan dan Kesehatan Hewan. Terdakwa tidak mengajukan banding, sehingga putusan
+    PN Tipikor Jakarta langsung berkekuatan hukum tetap. Ini skandal MK kedua setelah Akil
+    Mochtar dalam rentang empat tahun.
+  source_ids: [putusan-tipikor-patrialis-akbar-2017]
+  event_ids: []
+
+- id: case-nurhadi-suap-pengurusan-perkara
+  actor_id: nurhadi
+  title_id: Penerimaan suap pengurusan perkara di Mahkamah Agung
+  status: terpidana
+  status_date: "2021-03-10"
+  sentence_id: 6 tahun penjara
+  summary_id: >-
+    Sekretaris Mahkamah Agung terbukti menerima suap Rp35,726 miliar bersama menantunya
+    dari Direktur Utama PT Multicon Indrajaya Terminal terkait pengurusan dua perkara.
+    Perkara ini menunjukkan percaloan perkara di MA sudah berjalan jauh sebelum skandal
+    Zarof Ricar 2024.
+  source_ids: [putusan-tipikor-nurhadi-2021]
+  event_ids: []
+
+- id: case-indrasari-wisnu-cpo
+  actor_id: indrasari-wisnu-wardhana
+  title_id: Korupsi penerbitan persetujuan ekspor CPO dan manipulasi kuota DMO minyak goreng
+  status: inkracht
+  status_date: "2023-05-12"
+  sentence_id: >-
+    8 tahun penjara dan denda Rp300 juta subsider 6 bulan (diperberat dari 3 tahun di
+    tingkat pertama)
+  summary_id: >-
+    Direktur Jenderal Perdagangan Luar Negeri Kemendag menerbitkan persetujuan ekspor CPO
+    secara melawan hukum saat minyak goreng langka di pasar dalam negeri. PN Tipikor hanya
+    memvonis 3 tahun pada 4 Januari 2023 - vonis yang dinilai ringan secara luas - lalu
+    Mahkamah Agung memperberatnya menjadi 8 tahun pada 12 Mei 2023.
+  source_ids: [putusan-kasasi-ma-wisnu-cpo-2023]
+  event_ids: [ev-ma-kasus-minyak-goreng-2024]
+
+- id: case-emirsyah-satar-pengadaan-pesawat
+  actor_id: emirsyah-satar
+  title_id: Suap dan pencucian uang pengadaan pesawat Bombardier CRJ-1000 dan ATR 72-600
+  status: terpidana
+  status_date: "2020-05-08"
+  sentence_id: 8 tahun penjara, denda Rp1 miliar, uang pengganti SGD2,11 juta
+  summary_id: >-
+    Direktur Utama PT Garuda Indonesia 2005-2014 terbukti menerima suap Rp49,3 miliar dan
+    mencuci uang Rp87,464 miliar dalam pemenangan Bombardier dan ATR pada pengadaan armada
+    maskapai negara. Vonis dikuatkan Pengadilan Tinggi Jakarta; terdakwa mengajukan kasasi.
+  source_ids: [putusan-tipikor-emirsyah-satar-2020, laporan-audit-bpk-garuda-2020]
+  event_ids: [ev-bpk-audit-garuda-2020]
+
+- id: case-emirsyah-satar-pengadaan-pesawat-kedua
+  actor_id: emirsyah-satar
+  title_id: Perkara kedua korupsi pengadaan pesawat PT Garuda Indonesia
+  status: terpidana
+  status_date: "2024-10-28"
+  sentence_id: 10 tahun penjara (diperberat di tingkat banding)
+  summary_id: >-
+    Perkara kedua atas pengadaan armada PT Garuda Indonesia, terpisah dari perkara suap
+    2020. Hukuman diperberat menjadi 10 tahun di tingkat banding pada 28 Oktober 2024.
+  source_ids: [putusan-banding-emirsyah-satar-2024, laporan-audit-bpk-garuda-2020]
+  event_ids: [ev-bpk-audit-garuda-2020]
+
+- id: case-hendrisman-rahim-jiwasraya
+  actor_id: hendrisman-rahim
+  title_id: Korupsi pengelolaan investasi saham dan reksa dana PT Asuransi Jiwasraya
+  status: terpidana
+  status_date: "2021-03-12"
+  sentence_id: 20 tahun penjara (dipangkas dari penjara seumur hidup di tingkat pertama)
+  loss_idr: 16800000000000
+  summary_id: >-
+    Direktur Utama PT Asuransi Jiwasraya divonis penjara seumur hidup oleh PN Tipikor
+    Jakarta pada Oktober 2020, lalu dipangkas menjadi 20 tahun oleh Pengadilan Tinggi DKI
+    Jakarta pada Maret 2021. Kerugian negara Rp16,8 triliun mengacu pada data BPK.
+  source_ids: [putusan-tipikor-direksi-jiwasraya-2020, putusan-banding-hendrisman-rahim-2021]
+  event_ids: [ev-ma-kasasi-jiwasraya-2021]
+
+- id: case-hary-prasetyo-jiwasraya
+  actor_id: hary-prasetyo
+  title_id: Korupsi pengelolaan investasi saham dan reksa dana PT Asuransi Jiwasraya
+  status: terpidana
+  status_date: "2020-10-12"
+  sentence_id: Penjara seumur hidup
+  loss_idr: 16800000000000
+  summary_id: >-
+    Direktur Keuangan PT Asuransi Jiwasraya divonis penjara seumur hidup oleh PN Tipikor
+    Jakarta atas pengelolaan investasi saham dan reksa dana yang tidak transparan dan tidak
+    akuntabel bersama direksi lain serta pihak swasta.
+  source_ids: [putusan-tipikor-direksi-jiwasraya-2020]
+  event_ids: [ev-ma-kasasi-jiwasraya-2021]
+
+- id: case-syahmirwan-jiwasraya
+  actor_id: syahmirwan
+  title_id: Korupsi pengelolaan investasi saham dan reksa dana PT Asuransi Jiwasraya
+  status: terpidana
+  status_date: "2020-10-12"
+  sentence_id: Penjara seumur hidup
+  loss_idr: 16800000000000
+  summary_id: >-
+    Kepala Divisi Investasi dan Keuangan PT Asuransi Jiwasraya divonis penjara seumur hidup
+    oleh PN Tipikor Jakarta bersama dua mantan direksi Jiwasraya.
+  source_ids: [putusan-tipikor-direksi-jiwasraya-2020]
+  event_ids: [ev-ma-kasasi-jiwasraya-2021]
+
+- id: case-harvey-moeis-timah
+  actor_id: harvey-moeis
+  title_id: Korupsi tata niaga komoditas timah wilayah IUP PT Timah Tbk 2015-2022
+  status: terpidana
+  status_date: "2025-02-13"
+  sentence_id: >-
+    20 tahun penjara (diperberat dari 6,5 tahun), denda Rp1 miliar subsider 8 bulan, dan
+    uang pengganti Rp420 miliar (dinaikkan dari Rp210 miliar)
+  loss_idr: 300003000000000
+  summary_id: >-
+    Pengadilan Tinggi DKI Jakarta memperberat vonis lebih dari tiga kali lipat pada
+    13 Februari 2025 dan menyebut yang bersangkutan sebagai aktor kunci perkara. Nilai
+    Rp300,003 triliun adalah hasil audit BPK bersama Kejaksaan Agung yang mencakup kerugian
+    ekologis dan biaya pemulihan lingkungan, bukan semata kerugian keuangan negara.
+  source_ids: [putusan-banding-harvey-moeis-2025, laporan-audit-bpk-timah-2024]
+  event_ids: [ev-bpk-audit-kasus-timah-2024, ev-kejagung-korupsi-timah-300t-2024]
+
+- id: case-benny-tjokrosaputro-jiwasraya
+  actor_id: benny-tjokrosaputro
+  title_id: Korupsi dan pencucian uang pengelolaan investasi PT Asuransi Jiwasraya
+  status: inkracht
+  status_date: "2021-08-24"
+  sentence_id: Penjara seumur hidup dan uang pengganti Rp6 triliun
+  loss_idr: 16800000000000
+  summary_id: >-
+    Direktur Utama PT Hanson International Tbk divonis penjara seumur hidup oleh PN Tipikor
+    Jakarta pada 26 Oktober 2020. Mahkamah Agung menolak kasasi pada 24 Agustus 2021
+    sehingga putusan berkekuatan hukum tetap dan yang bersangkutan dieksekusi ke lapas.
+  source_ids: [putusan-kasasi-ma-jiwasraya-2021, putusan-tipikor-direksi-jiwasraya-2020]
+  event_ids: [ev-ma-kasasi-jiwasraya-2021]
+
+- id: case-heru-hidayat-jiwasraya
+  actor_id: heru-hidayat
+  title_id: Korupsi dan pencucian uang pengelolaan investasi PT Asuransi Jiwasraya
+  status: inkracht
+  status_date: "2021-08-24"
+  sentence_id: Penjara seumur hidup dan uang pengganti Rp10,7 triliun
+  loss_idr: 16800000000000
+  summary_id: >-
+    Komisaris Utama PT Trada Alam Minera Tbk divonis penjara seumur hidup bersama Benny
+    Tjokrosaputro. Mahkamah Agung menolak kasasi pada 24 Agustus 2021 sehingga putusan
+    berkekuatan hukum tetap.
+  source_ids: [putusan-kasasi-ma-jiwasraya-2021, putusan-tipikor-direksi-jiwasraya-2020]
+  event_ids: [ev-ma-kasasi-jiwasraya-2021]

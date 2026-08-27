@@ -74,10 +74,19 @@ export type Institution = z.infer<typeof institutionSchema>;
 
 // ---------------------------------------------------------------- masa jabatan
 
-export const actorSchema = z.object({
+/**
+ * Aktor sebagaimana tercantum di dalam satu masa jabatan.
+ * `actor_id` menautkannya ke entitas orang kanonik di data/actors.yaml;
+ * dibiarkan opsional agar masa jabatan lama tetap valid selama migrasi.
+ */
+export const termActorSchema = z.object({
   name: z.string().min(2),
   role_id: z.string().min(2),
+  actor_id: idField("term.actor.actor_id").optional(),
 });
+/** @deprecated pakai termActorSchema; alias dipertahankan untuk kompatibilitas. */
+export const actorSchema = termActorSchema;
+export type TermActor = z.infer<typeof termActorSchema>;
 
 export const termSchema = z.object({
   id: idField("term.id"),
@@ -89,9 +98,94 @@ export const termSchema = z.object({
     .string()
     .regex(/^\d{4}-\d{2}-\d{2}$/)
     .nullable(),
-  actors: z.array(actorSchema).default([]),
+  actors: z.array(termActorSchema).default([]),
 });
 export type Term = z.infer<typeof termSchema>;
+
+// ------------------------------------------------------------------- aktor
+
+/**
+ * Jabatan yang pernah diduduki seseorang. `term_id` diisi bila jabatan itu
+ * memang salah satu masa jabatan pimpinan 8 organ konstitusional; dibiarkan
+ * kosong untuk jabatan di luar itu (menteri, kepala daerah, hakim non-ketua,
+ * direksi BUMN) yang tetap perlu tercatat namun bukan unit penilaian rubrik.
+ */
+export const actorRoleSchema = z.object({
+  title_id: z.string().min(2),
+  institution_id: idField("actor.role.institution_id").optional(),
+  term_id: idField("actor.role.term_id").optional(),
+  /**
+   * Opsional: untuk jabatan di luar 8 organ konstitusional, dokumen sumber
+   * sering hanya menyebut jabatannya tanpa tanggal. Lebih baik jabatan
+   * tercatat tanpa tanggal daripada tanggal dikarang.
+   */
+  start_date: z
+    .string()
+    .regex(/^\d{4}(-\d{2})?(-\d{2})?$/)
+    .optional(),
+  end_date: z
+    .string()
+    .regex(/^\d{4}(-\d{2})?(-\d{2})?$/)
+    .nullable()
+    .default(null),
+  note_id: z.string().optional(),
+});
+export type ActorRole = z.infer<typeof actorRoleSchema>;
+
+/**
+ * Entitas orang kanonik. Sengaja tidak memuat penilaian apa pun: indeks
+ * dihitung per masa jabatan lembaga, bukan per kepala. Profil orang hanya
+ * mengagregasi jabatan, peristiwa, dan perkara yang sudah bersitasi.
+ */
+export const actorProfileSchema = z.object({
+  id: idField("actor.id"),
+  name: z.string().min(2),
+  aliases: z.array(z.string().min(2)).default([]),
+  roles: z.array(actorRoleSchema).min(1, "actor.roles: minimal satu jabatan"),
+  bio_id: z.string().optional(),
+  /** Sumber untuk identitas & riwayat jabatan (bukan untuk perkara). */
+  source_ids: z.array(idField("actor.source_ids")).default([]),
+});
+export type ActorProfile = z.infer<typeof actorProfileSchema>;
+
+/**
+ * Status hukum seseorang dalam satu perkara, wajib eksplisit.
+ * Tanpa ini, tampilan indeks mudah membaca "disebut di berita" sebagai
+ * "sudah bersalah" - asas praduga tak bersalah harus terbaca di data.
+ */
+export const legalStatusSchema = z.enum([
+  "terlapor",
+  "tersangka",
+  "terdakwa",
+  "terpidana",
+  "inkracht",
+  "bebas",
+  "dihentikan",
+]);
+export type LegalStatus = z.infer<typeof legalStatusSchema>;
+
+/**
+ * Perkara hukum yang melibatkan seorang aktor.
+ * `source_ids` minimal satu: tidak ada nama yang boleh masuk tanpa dokumen.
+ */
+export const actorCaseSchema = z.object({
+  id: idField("actor_case.id"),
+  actor_id: idField("actor_case.actor_id"),
+  title_id: z.string().min(5),
+  status: legalStatusSchema,
+  status_date: z.string().regex(/^\d{4}(-\d{2})?(-\d{2})?$/),
+  /** Nomor putusan / register perkara bila sudah masuk pengadilan. */
+  decision_ref: z.string().optional(),
+  /** Kerugian negara dalam rupiah, hanya bila diaudit resmi. */
+  loss_idr: z.number().nonnegative().optional(),
+  sentence_id: z.string().optional(),
+  summary_id: z.string().min(15),
+  source_ids: z
+    .array(idField("actor_case.source_ids"))
+    .min(1, "actor_case.source_ids: perkara wajib bersitasi minimal satu sumber"),
+  event_ids: z.array(idField("actor_case.event_ids")).default([]),
+});
+export type ActorCase = z.infer<typeof actorCaseSchema>;
 
 // ---------------------------------------------------------------- peristiwa
 
@@ -113,6 +207,21 @@ export const eventSchema = z.object({
   summary_id: z.string().min(15),
   source_ids: z.array(idField("event.source_ids")).default([]),
   dimension_ids: z.array(idField("event.dimension_ids")).default([]),
+  /** Orang-orang yang menjadi subjek peristiwa ini (data/actors.yaml). */
+  actor_ids: z.array(idField("event.actor_ids")).default([]),
+  /**
+   * Masa jabatan yang menjadi *subjek* peristiwa, bila berbeda dari `term_id`
+   * yang mencatatnya. Dipakai ketika sebuah lembaga pengawas/pengadil
+   * (BPK, MA, KY) membongkar perkara yang pelakunya duduk di lembaga lain:
+   * `term_id` = yang membongkar, `subject_term_id` = yang diperiksa.
+   */
+  subject_term_id: idField("event.subject_term_id").optional(),
+  /**
+   * Dasar penetapan `subject_term_id`: periode yang diperiksa menurut dokumen
+   * yang disitasi. Wajib diisi bila `subject_term_id` diisi (dijaga build),
+   * agar re-atribusi bisa diaudit dan tidak jadi tebakan sejarah.
+   */
+  subject_basis_id: z.string().min(10).optional(),
 });
 export type EventRecord = z.infer<typeof eventSchema>;
 
@@ -243,14 +352,44 @@ export const externalIndexTypeSchema = z.enum([
 ]);
 export type ExternalIndexType = z.infer<typeof externalIndexTypeSchema>;
 
+/**
+ * Asal-usul satu angka. Tanpa ini sebuah titik data tidak bisa dibedakan
+ * dari karangan, dan itulah cacat yang membuat blok "Konteks Independen"
+ * sempat berisi angka tak berdasar.
+ */
+export const provenanceSchema = z.object({
+  /** Tautan tepat ke halaman/berkas tempat angka ini terbaca. */
+  url: z.string().url(),
+  retrieved_at: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  method: z.enum([
+    "unduh-dataset",
+    "halaman-penerbit",
+    "siaran-pers",
+    "laporan-pdf",
+    "pencarian-web",
+  ]),
+  note_id: z.string().optional(),
+});
+export type Provenance = z.infer<typeof provenanceSchema>;
+
 export const externalDataPointSchema = z.object({
   year: z.number().int().min(1945).max(2100),
-  score: z.number(),
+  /**
+   * `null` bila penerbit mempublikasikan peringkat tetapi skornya belum bisa
+   * ditelusuri. Lebih baik skor kosong daripada skor dikira-kira.
+   */
+  score: z.number().nullable(),
   rank: z.number().int().optional(),
   total_countries: z.number().int().optional(),
   note: z.string().optional(),
   subscores: z.record(z.string(), z.number()).optional(),
-});
+  /** Wajib ada agar titik data boleh ditandai terverifikasi oleh build. */
+  provenance: provenanceSchema.optional(),
+})
+  .refine(
+    (d) => d.score !== null || d.rank !== undefined,
+    "titik data tanpa skor wajib punya peringkat - kalau dua-duanya kosong, hapus saja"
+  );
 export type ExternalDataPoint = z.infer<typeof externalDataPointSchema>;
 
 export const externalIndexSchema = z.object({
@@ -264,5 +403,15 @@ export const externalIndexSchema = z.object({
   target_dimensions: z.array(idField("external_index.target_dimensions")).default([]),
   data: z.array(externalDataPointSchema).min(1),
   abs_discrepancy_note: z.string().optional(),
+  /**
+   * Derajat verifikasi deret waktu ini. Diisi ulang oleh build berdasarkan
+   * kelengkapan `provenance` tiap titik - tidak boleh diklaim manual:
+   *  - terverifikasi      : seluruh titik punya provenance
+   *  - sebagian           : sebagian titik punya provenance
+   *  - belum-terverifikasi: tidak ada titik yang punya provenance
+   */
+  verification: z
+    .enum(["terverifikasi", "sebagian", "belum-terverifikasi"])
+    .default("belum-terverifikasi"),
 });
 export type ExternalIndex = z.infer<typeof externalIndexSchema>;

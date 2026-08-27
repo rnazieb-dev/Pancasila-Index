@@ -9,10 +9,13 @@
   actors:
     - name: Ginandjar Kartasasmita
       role_id: Ketua DPD RI (2004–2009)
+      actor_id: ginandjar-kartasasmita
     - name: Irman Gusman
       role_id: Wakil Ketua DPD RI (2004–2009)
+      actor_id: irman-gusman
     - name: Laode Ida
       role_id: Wakil Ketua DPD RI (2004–2009)
+      actor_id: laode-ida
 
 - id: dpd-2009-2014
   institution_id: dpd-ri
@@ -23,10 +26,13 @@
   actors:
     - name: Irman Gusman
       role_id: Ketua DPD RI (2009–2014)
+      actor_id: irman-gusman
     - name: Gusti Kanjeng Ratu Hemas
       role_id: Permaisuri & Wakil Ketua DPD RI (2009–2014)
+      actor_id: gusti-kanjeng-ratu-hemas
     - name: Laode Ida
       role_id: Wakil Ketua DPD RI (2009–2014)
+      actor_id: laode-ida
 
 - id: dpd-2014-2019
   institution_id: dpd-ri
@@ -37,12 +43,16 @@
   actors:
     - name: Irman Gusman
       role_id: Ketua DPD RI (2014–2016)
+      actor_id: irman-gusman
     - name: Mohammad Saleh
       role_id: Ketua DPD RI (2016–2017)
+      actor_id: mohammad-saleh
     - name: Oesman Sapta Odang
       role_id: Ketua DPD RI (2017–2019)
+      actor_id: oesman-sapta-odang
     - name: Gusti Kanjeng Ratu Hemas
       role_id: Wakil Ketua DPD RI (2014–2019)
+      actor_id: gusti-kanjeng-ratu-hemas
 
 - id: dpd-2019-2024
   institution_id: dpd-ri
@@ -53,12 +63,16 @@
   actors:
     - name: AA La Nyalla Mahmud Mattalitti
       role_id: Ketua DPD RI (2019–2024)
+      actor_id: aa-la-nyalla-mahmud-mattalitti
     - name: Nono Sampono
       role_id: Wakil Ketua DPD RI (2019–2024)
+      actor_id: nono-sampono
     - name: Mahyudin
       role_id: Wakil Ketua DPD RI (2019–2024)
+      actor_id: mahyudin
     - name: Sultan Bachtiar Najamudin
       role_id: Wakil Ketua DPD RI (2019–2024)
+      actor_id: sultan-bachtiar-najamudin
 
 - id: dpd-2024-sekarang
   institution_id: dpd-ri
@@ -69,9 +83,13 @@
   actors:
     - name: Sultan Bachtiar Najamudin
       role_id: Ketua DPD RI (2024–kini)
+      actor_id: sultan-bachtiar-najamudin
     - name: Gusti Kanjeng Ratu Hemas
       role_id: Wakil Ketua DPD RI (2024–kini)
+      actor_id: gusti-kanjeng-ratu-hemas
     - name: Yorrys Raweyai
       role_id: Wakil Ketua DPD RI (2024–kini)
+      actor_id: yorrys-raweyai
     - name: Tamsil Linrung
       role_id: Wakil Ketua DPD RI (2024–kini)
+      actor_id: tamsil-linrung

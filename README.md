@@ -51,6 +51,8 @@ lintas sejarah* — dan setiap skor wajib bersitasi bukti primer.
 | 4a | Dataset eksekutif penuh 1945–1998 (Revolusi/Liberal, Demokrasi Terpimpin, Orde Baru) | ✅ draf |
 | 4b | i18n bahasa daerah UI (id/jv/su/mad/min, fallback otomatis) | ✅ beta |
 | 4c | API publik (/index, /rubric, /uud) | ✅ |
+| 7a | Lapisan aktor: entitas orang berid, perkara hukum bersitasi + status hukum eksplisit, profil `/aktor/[id]`, re-atribusi peristiwa lintas lembaga | ✅ |
+| 7b | Provenance wajib untuk indeks eksternal + script unduh dari penerbit resmi | ✅ parsial** |
 | lanjutan | Legislatif & yudikatif pra-1998, terjemahan konten substantif, dewan editorial | ⬜ |
 
 > ⚠️ Seluruh penilaian pada fase seed berstatus **DRAF** — dihasilkan sebagai
@@ -59,6 +61,53 @@ lintas sejarah* — dan setiap skor wajib bersitasi bukti primer.
 >
 > \* 6a parsial: korpus dari JDIH Setneg (terbuka); portal BPK & putusan
 > MK/MA diblokir Cloudflare/jaringan dari mesin pengembangan saat ini.
+>
+> \*\* 7b parsial: mekanismenya lengkap (skema `provenance`, verifikasi
+> dihitung build, script `fetch:indices`), tetapi mayoritas titik data masih
+> berstatus **belum terverifikasi** karena kebijakan egress jaringan memblokir
+> seluruh host penerbit. Lihat "Indeks eksternal" di bawah.
+
+### Lapisan aktor (siapa, bukan cuma lembaga apa)
+
+Indeks tetap dinilai **per masa jabatan lembaga**, bukan per kepala — itu unit
+analisis rubrik dan tidak berubah. Yang ditambahkan adalah lapisan identitas di
+atasnya, supaya perkara tidak lagi hilang dari halaman orangnya:
+
+- `data/actors.yaml` — entitas orang kanonik berid. Satu orang satu entri meski
+  menjabat lintas periode/lembaga. Pejabat di luar pimpinan 8 organ (menteri,
+  hakim non-ketua) boleh masuk **hanya** bila sudah ada dokumen di `sources.yaml`.
+- `data/actor-cases.yaml` — perkara hukum. Skema menolak perkara tanpa sumber,
+  dan `status` wajib eksplisit: `terlapor` / `tersangka` / `terdakwa` /
+  `terpidana` / `inkracht` / `bebas` / `dihentikan`. UI menampilkan status ini
+  berdampingan dengan nama supaya asas praduga tak bersalah tidak tergilas
+  tampilan indeks yang terlihat tegas.
+- `event.actor_ids` — peristiwa menunjuk orang secara terstruktur, bukan lewat
+  nama yang terselip di prosa `summary_id`.
+- `event.subject_term_id` + `subject_basis_id` — audit BPK atau putusan MA atas
+  perbuatan pejabat periode lain kini tampil **di kedua halaman**: yang
+  membongkar dan yang diperiksa. `subject_basis_id` wajib diisi agar
+  re-atribusinya bisa diaudit, bukan jadi tebakan sejarah.
+
+Kekosongan sengaja dibiarkan terlihat: profil tanpa perkara berbunyi "belum ada
+dokumen yang masuk korpus", bukan "bersih".
+
+### Indeks eksternal
+
+```bash
+# unduh dari penerbit resmi, bandingkan dengan angka yang tercatat
+pnpm --filter @pancasila-index/data fetch:indices
+```
+
+Script ini **tidak** menulis ulang YAML — ia mengunduh, membandingkan, dan
+melaporkan selisih; kurator yang memutuskan (lihat prinsip "AI hanya membantu").
+Sebuah angka baru dianggap sah bila punya blok `provenance` (tautan + tanggal
+ambil + cara ambil), dan derajat verifikasi tiap indeks **dihitung build** dari
+kelengkapan provenance sehingga tidak bisa diklaim manual.
+
+Host yang perlu diizinkan agar script bisa jalan: `transparency.org`,
+`worldjusticeproject.org`, `rsf.org`, `v-dem.net`, `internationalbudget.org`,
+`corruptionrisk.org`, `oecd-public-integrity-indicators.org`,
+`api.worldbank.org`.
 
 ### Workflow kurasi & AI
 

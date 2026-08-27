@@ -1,5 +1,7 @@
 import { z } from "zod";
 import {
+  actorCaseSchema,
+  actorProfileSchema,
   assessmentSchema,
   eventSchema,
   externalIndexSchema,
@@ -7,6 +9,8 @@ import {
   sourceSchema,
   termSchema,
   uudSchema,
+  type ActorCase,
+  type ActorProfile,
   type Assessment,
   type EventRecord,
   type ExternalIndex,
@@ -26,6 +30,8 @@ export const datasetSchema = z.object({
   uud: uudSchema,
   institutions: z.array(institutionSchema),
   terms: z.array(termSchema),
+  actors: z.array(actorProfileSchema).default([]),
+  actor_cases: z.array(actorCaseSchema).default([]),
   events: z.array(eventSchema),
   sources: z.array(sourceSchema),
   assessments: z.array(assessmentSchema),
@@ -76,6 +82,7 @@ export function getTermsOfInstitution(
     .sort((a, b) => a.start_date.localeCompare(b.start_date));
 }
 
+/** Peristiwa yang dicatat pada masa jabatan ini (`term_id`). */
 export function getEventsOfTerm(
   dataset: Dataset,
   termId: string
@@ -83,6 +90,69 @@ export function getEventsOfTerm(
   return dataset.events
     .filter((e) => e.term_id === termId)
     .sort((a, b) => a.date.localeCompare(b.date));
+}
+
+/**
+ * Peristiwa yang *menjadikan* masa jabatan ini subjek pemeriksaan meski
+ * dicatat di lembaga lain - misal audit BPK atau putusan MA atas perkara
+ * yang pelakunya menjabat di periode ini. Tanpa aksesor ini, perkara
+ * korupsi hanya muncul di profil lembaga yang membongkarnya.
+ */
+export function getEventsAboutTerm(
+  dataset: Dataset,
+  termId: string
+): EventRecord[] {
+  return dataset.events
+    .filter((e) => e.subject_term_id === termId && e.term_id !== termId)
+    .sort((a, b) => a.date.localeCompare(b.date));
+}
+
+// -------------------------------------------------------------------- aktor
+
+export function getActors(dataset: Dataset): ActorProfile[] {
+  return [...dataset.actors].sort((a, b) => a.name.localeCompare(b.name));
+}
+
+export function getActor(
+  dataset: Dataset,
+  actorId: string
+): ActorProfile | undefined {
+  return dataset.actors.find((a) => a.id === actorId);
+}
+
+/** Peristiwa yang menyebut orang ini secara eksplisit lewat `actor_ids`. */
+export function getEventsOfActor(
+  dataset: Dataset,
+  actorId: string
+): EventRecord[] {
+  return dataset.events
+    .filter((e) => e.actor_ids.includes(actorId))
+    .sort((a, b) => a.date.localeCompare(b.date));
+}
+
+/** Perkara hukum orang ini; setiap perkara dijamin bersitasi oleh skema. */
+export function getCasesOfActor(
+  dataset: Dataset,
+  actorId: string
+): ActorCase[] {
+  return dataset.actor_cases
+    .filter((c) => c.actor_id === actorId)
+    .sort((a, b) => a.status_date.localeCompare(b.status_date));
+}
+
+/** Masa jabatan yang pernah diduduki orang ini, terurut waktu. */
+export function getTermsOfActor(dataset: Dataset, actorId: string): Term[] {
+  const ids = new Set(
+    getActor(dataset, actorId)
+      ?.roles.map((r) => r.term_id)
+      .filter((id): id is string => Boolean(id)) ?? []
+  );
+  for (const t of dataset.terms) {
+    if (t.actors.some((a) => a.actor_id === actorId)) ids.add(t.id);
+  }
+  return dataset.terms
+    .filter((t) => ids.has(t.id))
+    .sort((a, b) => a.start_date.localeCompare(b.start_date));
 }
 
 export function getSource(

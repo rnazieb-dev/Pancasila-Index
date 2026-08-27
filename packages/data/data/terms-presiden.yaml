@@ -9,6 +9,7 @@
   actors:
     - name: Bacharuddin Jusuf Habibie
       role_id: Presiden Republik Indonesia
+      actor_id: bacharuddin-jusuf-habibie
 
 - id: presiden-gusdur
   institution_id: presiden-ri
@@ -19,8 +20,10 @@
   actors:
     - name: Abdurrahman Wahid
       role_id: Presiden Republik Indonesia
+      actor_id: abdurrahman-wahid
     - name: Megawati Soekarnoputri
       role_id: Wakil Presiden
+      actor_id: megawati-soekarnoputri
 
 - id: presiden-megawati
   institution_id: presiden-ri
@@ -31,8 +34,10 @@
   actors:
     - name: Megawati Soekarnoputri
       role_id: Presiden Republik Indonesia
+      actor_id: megawati-soekarnoputri
     - name: Hamzah Haz
       role_id: Wakil Presiden
+      actor_id: hamzah-haz
 
 - id: presiden-sby-i
   institution_id: presiden-ri
@@ -43,8 +48,10 @@
   actors:
     - name: Susilo Bambang Yudhoyono
       role_id: Presiden Republik Indonesia
+      actor_id: susilo-bambang-yudhoyono
     - name: Jusuf Kalla
       role_id: Wakil Presiden
+      actor_id: jusuf-kalla
 
 - id: presiden-sby-ii
   institution_id: presiden-ri
@@ -55,8 +62,10 @@
   actors:
     - name: Susilo Bambang Yudhoyono
       role_id: Presiden Republik Indonesia
+      actor_id: susilo-bambang-yudhoyono
     - name: Boediono
       role_id: Wakil Presiden
+      actor_id: boediono
 
 - id: presiden-jokowi-i
   institution_id: presiden-ri
@@ -67,8 +76,10 @@
   actors:
     - name: Joko Widodo
       role_id: Presiden Republik Indonesia
+      actor_id: joko-widodo
     - name: Jusuf Kalla
       role_id: Wakil Presiden
+      actor_id: jusuf-kalla
 
 - id: presiden-jokowi-ii
   institution_id: presiden-ri
@@ -79,8 +90,10 @@
   actors:
     - name: Joko Widodo
       role_id: Presiden Republik Indonesia
+      actor_id: joko-widodo
     - name: Ma'ruf Amin
       role_id: Wakil Presiden
+      actor_id: maruf-amin
 
 - id: presiden-prabowo
   institution_id: presiden-ri
@@ -91,8 +104,10 @@
   actors:
     - name: Prabowo Subianto
       role_id: Presiden Republik Indonesia
+      actor_id: prabowo-subianto
     - name: Gibran Rakabuming Raka
       role_id: Wakil Presiden
+      actor_id: gibran-rakabuming-raka
 
 # ---------------- ERA SEBELUM REFORMASI ----------------
 
@@ -105,8 +120,10 @@
   actors:
     - name: Sukarno
       role_id: Presiden Republik Indonesia
+      actor_id: sukarno
     - name: Mohammad Hatta
       role_id: Wakil Presiden (hingga Desember 1956)
+      actor_id: mohammad-hatta
 
 - id: presiden-soekarno-ii
   institution_id: presiden-ri
@@ -117,6 +134,7 @@
   actors:
     - name: Sukarno
       role_id: Presiden Republik Indonesia / Mandataris Tertinggi Revolusi
+      actor_id: sukarno
 
 - id: presiden-soeharto
   institution_id: presiden-ri
@@ -127,3 +145,4 @@
   actors:
     - name: Suharto
       role_id: Pejabat Presiden (1967-1968), Presiden RI (1968-1998)
+      actor_id: suharto

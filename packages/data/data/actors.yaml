@@ -1,0 +1,1236 @@
+# Entitas orang kanonik (aktor ketatanegaraan).
+#
+# Dua asal isi berkas ini:
+#
+# 1. BLOK TURUNAN - pimpinan 8 organ konstitusional, diturunkan otomatis dari
+#    terms-*.yaml. Satu orang = satu entri, meski menjabat di beberapa periode
+#    atau beberapa lembaga (mis. Megawati: Wapres lalu Presiden). Setiap entri
+#    ditautkan balik lewat `actor_id` pada terms-*.yaml.
+#
+# 2. BLOK MANUAL - pejabat di luar pimpinan 8 organ (menteri, hakim non-ketua,
+#    pejabat eselon, pimpinan lembaga lain) yang menjadi subjek peristiwa
+#    berbukti. Mereka TIDAK punya `term_id` karena bukan unit penilaian rubrik:
+#    indeks tetap dihitung per masa jabatan lembaga, bukan per kepala.
+#
+# ATURAN KERAS: sebuah nama hanya boleh masuk blok manual bila sudah ada
+# dokumen yang mendukungnya di sources.yaml. Tidak ada nama dari ingatan.
+# Perkara hukumnya dicatat terpisah di actor-cases.yaml, lengkap dengan status
+# hukum eksplisit - "disebut di berita" tidak sama dengan "sudah bersalah".
+
+# ------------------------------------------------------- 1. BLOK TURUNAN
+
+- id: r-soerasno
+  name: "R. Soerasno"
+  roles:
+    - title_id: "Ketua BPK pertama (1947–1949)"
+      institution_id: bpk-ri
+      term_id: bpk-1947-1998
+      start_date: "1947-01-01"
+      end_date: "1998-05-21"
+
+- id: r-kasirman
+  name: "R. Kasirman"
+  roles:
+    - title_id: "Ketua BPK (1949–1957)"
+      institution_id: bpk-ri
+      term_id: bpk-1947-1998
+      start_date: "1947-01-01"
+      end_date: "1998-05-21"
+
+- id: sri-sultan-hamengkubuwono-ix
+  name: "Sri Sultan Hamengkubuwono IX"
+  roles:
+    - title_id: "Ketua BPK (1964–1966)"
+      institution_id: bpk-ri
+      term_id: bpk-1947-1998
+      start_date: "1947-01-01"
+      end_date: "1998-05-21"
+
+- id: umar-wirahadikusumah
+  name: "Umar Wirahadikusumah"
+  roles:
+    - title_id: "Ketua BPK (1973–1983)"
+      institution_id: bpk-ri
+      term_id: bpk-1947-1998
+      start_date: "1947-01-01"
+      end_date: "1998-05-21"
+
+- id: m-jusuf
+  name: "M. Jusuf"
+  roles:
+    - title_id: "Ketua BPK (1983–1993)"
+      institution_id: bpk-ri
+      term_id: bpk-1947-1998
+      start_date: "1947-01-01"
+      end_date: "1998-05-21"
+
+- id: jb-sumarlin
+  name: "JB Sumarlin"
+  roles:
+    - title_id: "Ketua BPK (1993–1998)"
+      institution_id: bpk-ri
+      term_id: bpk-1947-1998
+      start_date: "1947-01-01"
+      end_date: "1998-05-21"
+
+- id: satrio-budihardjo-joedono
+  name: "Satrio Budihardjo Joedono"
+  roles:
+    - title_id: "Ketua BPK RI (1998–2004)"
+      institution_id: bpk-ri
+      term_id: bpk-1998-2009
+      start_date: "1998-05-22"
+      end_date: "2009-10-19"
+
+- id: anwar-nasution
+  name: "Anwar Nasution"
+  roles:
+    - title_id: "Ketua BPK RI (2004–2009)"
+      institution_id: bpk-ri
+      term_id: bpk-1998-2009
+      start_date: "1998-05-22"
+      end_date: "2009-10-19"
+
+- id: abdullah-zainie
+  name: "Abdullah Zainie"
+  roles:
+    - title_id: "Wakil Ketua BPK RI (2004–2009)"
+      institution_id: bpk-ri
+      term_id: bpk-1998-2009
+      start_date: "1998-05-22"
+      end_date: "2009-10-19"
+
+- id: hadi-poernomo
+  name: "Hadi Poernomo"
+  roles:
+    - title_id: "Ketua BPK RI (2009–2014)"
+      institution_id: bpk-ri
+      term_id: bpk-2009-2019
+      start_date: "2009-10-19"
+      end_date: "2019-10-19"
+
+- id: harry-azhar-azis
+  name: "Harry Azhar Azis"
+  roles:
+    - title_id: "Ketua BPK RI (2014–2017)"
+      institution_id: bpk-ri
+      term_id: bpk-2009-2019
+      start_date: "2009-10-19"
+      end_date: "2019-10-19"
+
+- id: moermahadi-soerja-djanegara
+  name: "Moermahadi Soerja Djanegara"
+  roles:
+    - title_id: "Ketua BPK RI (2017–2019)"
+      institution_id: bpk-ri
+      term_id: bpk-2009-2019
+      start_date: "2009-10-19"
+      end_date: "2019-10-19"
+
+- id: bahrullah-akbar
+  name: "Bahrullah Akbar"
+  roles:
+    - title_id: "Wakil Ketua BPK RI (2017–2019)"
+      institution_id: bpk-ri
+      term_id: bpk-2009-2019
+      start_date: "2009-10-19"
+      end_date: "2019-10-19"
+
+- id: agung-firman-sampurna
+  name: "Agung Firman Sampurna"
+  roles:
+    - title_id: "Ketua BPK RI (2019–2022)"
+      institution_id: bpk-ri
+      term_id: bpk-2019-sekarang
+      start_date: "2019-10-19"
+      end_date: null
+
+- id: isma-yatun
+  name: "Isma Yatun"
+  roles:
+    - title_id: "Ketua BPK RI (2022–kini)"
+      institution_id: bpk-ri
+      term_id: bpk-2019-sekarang
+      start_date: "2019-10-19"
+      end_date: null
+
+- id: agus-joko-pramono
+  name: "Agus Joko Pramono"
+  roles:
+    - title_id: "Wakil Ketua BPK RI (2019–2023)"
+      institution_id: bpk-ri
+      term_id: bpk-2019-sekarang
+      start_date: "2019-10-19"
+      end_date: null
+
+- id: hendra-susanto
+  name: "Hendra Susanto"
+  roles:
+    - title_id: "Wakil Ketua BPK RI (2023–kini)"
+      institution_id: bpk-ri
+      term_id: bpk-2019-sekarang
+      start_date: "2019-10-19"
+      end_date: null
+
+- id: ginandjar-kartasasmita
+  name: "Ginandjar Kartasasmita"
+  roles:
+    - title_id: "Ketua DPD RI (2004–2009)"
+      institution_id: dpd-ri
+      term_id: dpd-2004-2009
+      start_date: "2004-10-01"
+      end_date: "2009-09-30"
+    - title_id: "Wakil Ketua MPR RI (1999–2004)"
+      institution_id: mpr-ri
+      term_id: mpr-1999-2004
+      start_date: "1999-10-01"
+      end_date: "2004-09-30"
+
+- id: irman-gusman
+  name: "Irman Gusman"
+  roles:
+    - title_id: "Wakil Ketua DPD RI (2004–2009)"
+      institution_id: dpd-ri
+      term_id: dpd-2004-2009
+      start_date: "2004-10-01"
+      end_date: "2009-09-30"
+    - title_id: "Ketua DPD RI (2009–2014)"
+      institution_id: dpd-ri
+      term_id: dpd-2009-2014
+      start_date: "2009-10-01"
+      end_date: "2014-09-30"
+    - title_id: "Ketua DPD RI (2014–2016)"
+      institution_id: dpd-ri
+      term_id: dpd-2014-2019
+      start_date: "2014-10-01"
+      end_date: "2019-09-30"
+
+- id: laode-ida
+  name: "Laode Ida"
+  roles:
+    - title_id: "Wakil Ketua DPD RI (2004–2009)"
+      institution_id: dpd-ri
+      term_id: dpd-2004-2009
+      start_date: "2004-10-01"
+      end_date: "2009-09-30"
+    - title_id: "Wakil Ketua DPD RI (2009–2014)"
+      institution_id: dpd-ri
+      term_id: dpd-2009-2014
+      start_date: "2009-10-01"
+      end_date: "2014-09-30"
+
+- id: gusti-kanjeng-ratu-hemas
+  name: "Gusti Kanjeng Ratu Hemas"
+  roles:
+    - title_id: "Permaisuri & Wakil Ketua DPD RI (2009–2014)"
+      institution_id: dpd-ri
+      term_id: dpd-2009-2014
+      start_date: "2009-10-01"
+      end_date: "2014-09-30"
+    - title_id: "Wakil Ketua DPD RI (2014–2019)"
+      institution_id: dpd-ri
+      term_id: dpd-2014-2019
+      start_date: "2014-10-01"
+      end_date: "2019-09-30"
+    - title_id: "Wakil Ketua DPD RI (2024–kini)"
+      institution_id: dpd-ri
+      term_id: dpd-2024-sekarang
+      start_date: "2024-10-01"
+      end_date: null
+
+- id: mohammad-saleh
+  name: "Mohammad Saleh"
+  roles:
+    - title_id: "Ketua DPD RI (2016–2017)"
+      institution_id: dpd-ri
+      term_id: dpd-2014-2019
+      start_date: "2014-10-01"
+      end_date: "2019-09-30"
+
+- id: oesman-sapta-odang
+  name: "Oesman Sapta Odang"
+  roles:
+    - title_id: "Ketua DPD RI (2017–2019)"
+      institution_id: dpd-ri
+      term_id: dpd-2014-2019
+      start_date: "2014-10-01"
+      end_date: "2019-09-30"
+    - title_id: "Wakil Ketua MPR RI (2014–2019)"
+      institution_id: mpr-ri
+      term_id: mpr-2014-2019
+      start_date: "2014-10-01"
+      end_date: "2019-09-30"
+
+- id: aa-la-nyalla-mahmud-mattalitti
+  name: "AA La Nyalla Mahmud Mattalitti"
+  roles:
+    - title_id: "Ketua DPD RI (2019–2024)"
+      institution_id: dpd-ri
+      term_id: dpd-2019-2024
+      start_date: "2019-10-01"
+      end_date: "2024-09-30"
+
+- id: nono-sampono
+  name: "Nono Sampono"
+  roles:
+    - title_id: "Wakil Ketua DPD RI (2019–2024)"
+      institution_id: dpd-ri
+      term_id: dpd-2019-2024
+      start_date: "2019-10-01"
+      end_date: "2024-09-30"
+
+- id: mahyudin
+  name: "Mahyudin"
+  roles:
+    - title_id: "Wakil Ketua DPD RI (2019–2024)"
+      institution_id: dpd-ri
+      term_id: dpd-2019-2024
+      start_date: "2019-10-01"
+      end_date: "2024-09-30"
+    - title_id: "Wakil Ketua MPR RI (2014–2019)"
+      institution_id: mpr-ri
+      term_id: mpr-2014-2019
+      start_date: "2014-10-01"
+      end_date: "2019-09-30"
+
+- id: sultan-bachtiar-najamudin
+  name: "Sultan Bachtiar Najamudin"
+  roles:
+    - title_id: "Wakil Ketua DPD RI (2019–2024)"
+      institution_id: dpd-ri
+      term_id: dpd-2019-2024
+      start_date: "2019-10-01"
+      end_date: "2024-09-30"
+    - title_id: "Ketua DPD RI (2024–kini)"
+      institution_id: dpd-ri
+      term_id: dpd-2024-sekarang
+      start_date: "2024-10-01"
+      end_date: null
+
+- id: yorrys-raweyai
+  name: "Yorrys Raweyai"
+  roles:
+    - title_id: "Wakil Ketua DPD RI (2024–kini)"
+      institution_id: dpd-ri
+      term_id: dpd-2024-sekarang
+      start_date: "2024-10-01"
+      end_date: null
+
+- id: tamsil-linrung
+  name: "Tamsil Linrung"
+  roles:
+    - title_id: "Wakil Ketua DPD RI (2024–kini)"
+      institution_id: dpd-ri
+      term_id: dpd-2024-sekarang
+      start_date: "2024-10-01"
+      end_date: null
+
+- id: akbar-tanjung
+  name: "Akbar Tanjung"
+  roles:
+    - title_id: "Ketua DPR RI"
+      institution_id: dpr-ri
+      term_id: dpr-1999-2004
+      start_date: "1999-10-01"
+      end_date: "2004-09-30"
+
+- id: agung-laksono
+  name: "Agung Laksono"
+  roles:
+    - title_id: "Ketua DPR RI"
+      institution_id: dpr-ri
+      term_id: dpr-2004-2009
+      start_date: "2004-10-01"
+      end_date: "2009-09-30"
+
+- id: marzuki-alie
+  name: "Marzuki Alie"
+  roles:
+    - title_id: "Ketua DPR RI"
+      institution_id: dpr-ri
+      term_id: dpr-2009-2014
+      start_date: "2009-10-01"
+      end_date: "2014-09-30"
+
+- id: setya-novanto
+  name: "Setya Novanto"
+  roles:
+    - title_id: "Ketua DPR RI (2014-2015)"
+      institution_id: dpr-ri
+      term_id: dpr-2014-2019
+      start_date: "2014-10-01"
+      end_date: "2019-09-30"
+
+- id: zulkifli-hasan
+  name: "Zulkifli Hasan"
+  roles:
+    - title_id: "Ketua DPR RI (2016)"
+      institution_id: dpr-ri
+      term_id: dpr-2014-2019
+      start_date: "2014-10-01"
+      end_date: "2019-09-30"
+    - title_id: "Ketua MPR RI (2014–2019)"
+      institution_id: mpr-ri
+      term_id: mpr-2014-2019
+      start_date: "2014-10-01"
+      end_date: "2019-09-30"
+
+- id: bambang-soesatyo
+  name: "Bambang Soesatyo"
+  roles:
+    - title_id: "Ketua DPR RI (2016-2019)"
+      institution_id: dpr-ri
+      term_id: dpr-2014-2019
+      start_date: "2014-10-01"
+      end_date: "2019-09-30"
+    - title_id: "Ketua MPR RI (2019–2024)"
+      institution_id: mpr-ri
+      term_id: mpr-2019-2024
+      start_date: "2019-10-01"
+      end_date: "2024-09-30"
+
+- id: puan-maharani
+  name: "Puan Maharani"
+  roles:
+    - title_id: "Ketua DPR RI"
+      institution_id: dpr-ri
+      term_id: dpr-2019-2024
+      start_date: "2019-10-01"
+      end_date: "2024-09-30"
+    - title_id: "Ketua DPR RI"
+      institution_id: dpr-ri
+      term_id: dpr-2024-2029
+      start_date: "2024-10-01"
+      end_date: null
+
+- id: m-busyro-muqoddas
+  name: "M. Busyro Muqoddas"
+  roles:
+    - title_id: "Ketua Komisi Yudisial RI (2005–2010)"
+      institution_id: komisi-yudisial
+      term_id: ky-2005-2010
+      start_date: "2005-08-02"
+      end_date: "2010-12-20"
+
+- id: thahir-saimima
+  name: "Thahir Saimima"
+  roles:
+    - title_id: "Wakil Ketua Komisi Yudisial RI (2005–2010)"
+      institution_id: komisi-yudisial
+      term_id: ky-2005-2010
+      start_date: "2005-08-02"
+      end_date: "2010-12-20"
+
+- id: eman-suparman
+  name: "Eman Suparman"
+  roles:
+    - title_id: "Ketua Komisi Yudisial RI (2010–2013)"
+      institution_id: komisi-yudisial
+      term_id: ky-2010-2015
+      start_date: "2010-12-20"
+      end_date: "2015-12-20"
+
+- id: suparman-marzuki
+  name: "Suparman Marzuki"
+  roles:
+    - title_id: "Ketua Komisi Yudisial RI (2013–2015)"
+      institution_id: komisi-yudisial
+      term_id: ky-2010-2015
+      start_date: "2010-12-20"
+      end_date: "2015-12-20"
+
+- id: imam-anshori-saleh
+  name: "Imam Anshori Saleh"
+  roles:
+    - title_id: "Wakil Ketua Komisi Yudisial RI (2010–2013)"
+      institution_id: komisi-yudisial
+      term_id: ky-2010-2015
+      start_date: "2010-12-20"
+      end_date: "2015-12-20"
+
+- id: abbas-said
+  name: "Abbas Said"
+  roles:
+    - title_id: "Wakil Ketua Komisi Yudisial RI (2013–2015)"
+      institution_id: komisi-yudisial
+      term_id: ky-2010-2015
+      start_date: "2010-12-20"
+      end_date: "2015-12-20"
+
+- id: aidul-fitriciada-azhari
+  name: "Aidul Fitriciada Azhari"
+  roles:
+    - title_id: "Ketua Komisi Yudisial RI (2016–2018)"
+      institution_id: komisi-yudisial
+      term_id: ky-2015-2020
+      start_date: "2015-12-20"
+      end_date: "2020-12-21"
+
+- id: jaja-ahmad-jayus
+  name: "Jaja Ahmad Jayus"
+  roles:
+    - title_id: "Ketua Komisi Yudisial RI (2018–2020)"
+      institution_id: komisi-yudisial
+      term_id: ky-2015-2020
+      start_date: "2015-12-20"
+      end_date: "2020-12-21"
+
+- id: sukma-violetta
+  name: "Sukma Violetta"
+  roles:
+    - title_id: "Wakil Ketua Komisi Yudisial RI (2016–2018)"
+      institution_id: komisi-yudisial
+      term_id: ky-2015-2020
+      start_date: "2015-12-20"
+      end_date: "2020-12-21"
+
+- id: maradaman-harahap
+  name: "Maradaman Harahap"
+  roles:
+    - title_id: "Wakil Ketua Komisi Yudisial RI (2018–2020)"
+      institution_id: komisi-yudisial
+      term_id: ky-2015-2020
+      start_date: "2015-12-20"
+      end_date: "2020-12-21"
+
+- id: mukti-fajar-nur-dewata
+  name: "Mukti Fajar Nur Dewata"
+  roles:
+    - title_id: "Ketua Komisi Yudisial RI (2021–2023)"
+      institution_id: komisi-yudisial
+      term_id: ky-2020-sekarang
+      start_date: "2020-12-21"
+      end_date: null
+
+- id: amzulian-rifai
+  name: "Amzulian Rifai"
+  roles:
+    - title_id: "Ketua Komisi Yudisial RI (2023–kini)"
+      institution_id: komisi-yudisial
+      term_id: ky-2020-sekarang
+      start_date: "2020-12-21"
+      end_date: null
+
+- id: m-taufiq-hz
+  name: "M. Taufiq HZ"
+  roles:
+    - title_id: "Wakil Ketua Komisi Yudisial RI (2021–2023)"
+      institution_id: komisi-yudisial
+      term_id: ky-2020-sekarang
+      start_date: "2020-12-21"
+      end_date: null
+
+- id: siti-nurljanah
+  name: "Siti Nurljanah"
+  roles:
+    - title_id: "Wakil Ketua Komisi Yudisial RI (2023–kini)"
+      institution_id: komisi-yudisial
+      term_id: ky-2020-sekarang
+      start_date: "2020-12-21"
+      end_date: null
+
+- id: kusumah-atmadja
+  name: "Kusumah Atmadja"
+  roles:
+    - title_id: "Ketua Mahkamah Agung RI pertama (1946–1952)"
+      institution_id: mahkamah-agung
+      term_id: ma-revolusi-liberal
+      start_date: "1946-08-22"
+      end_date: "1959-07-04"
+
+- id: wirjono-prodjodikoro
+  name: "Mr. Wirjono Prodjodikoro"
+  roles:
+    - title_id: "Ketua Mahkamah Agung RI kedua (1952–1966)"
+      institution_id: mahkamah-agung
+      term_id: ma-revolusi-liberal
+      start_date: "1946-08-22"
+      end_date: "1959-07-04"
+    - title_id: "Ketua MA (era Demokrasi Terpimpin, status menteri)"
+      institution_id: mahkamah-agung
+      term_id: ma-dt-orde-baru
+      start_date: "1959-07-05"
+      end_date: "1998-05-21"
+
+- id: subekti
+  name: "Subekti"
+  roles:
+    - title_id: "Ketua MA (1968–1974)"
+      institution_id: mahkamah-agung
+      term_id: ma-dt-orde-baru
+      start_date: "1959-07-05"
+      end_date: "1998-05-21"
+
+- id: mudjono
+  name: "Mudjono"
+  roles:
+    - title_id: "Ketua MA (1979–1984)"
+      institution_id: mahkamah-agung
+      term_id: ma-dt-orde-baru
+      start_date: "1959-07-05"
+      end_date: "1998-05-21"
+
+- id: ali-said
+  name: "Ali Said"
+  roles:
+    - title_id: "Ketua MA (1984–1992)"
+      institution_id: mahkamah-agung
+      term_id: ma-dt-orde-baru
+      start_date: "1959-07-05"
+      end_date: "1998-05-21"
+
+- id: purwoto-s-gandasubrata
+  name: "Purwoto S. Gandasubrata"
+  roles:
+    - title_id: "Ketua MA (1992–1994)"
+      institution_id: mahkamah-agung
+      term_id: ma-dt-orde-baru
+      start_date: "1959-07-05"
+      end_date: "1998-05-21"
+
+- id: soerjono
+  name: "Soerjono"
+  roles:
+    - title_id: "Ketua MA (1994–1996)"
+      institution_id: mahkamah-agung
+      term_id: ma-dt-orde-baru
+      start_date: "1959-07-05"
+      end_date: "1998-05-21"
+
+- id: sarwata
+  name: "Sarwata"
+  roles:
+    - title_id: "Ketua MA (1996–2000)"
+      institution_id: mahkamah-agung
+      term_id: ma-dt-orde-baru
+      start_date: "1959-07-05"
+      end_date: "1998-05-21"
+
+- id: bagir-manan
+  name: "Bagir Manan"
+  roles:
+    - title_id: "Ketua MA (2001–2008, arsitek penyatuan atap peradilan)"
+      institution_id: mahkamah-agung
+      term_id: ma-reformasi-sekarang
+      start_date: "1998-05-22"
+      end_date: null
+
+- id: harifin-a-tumpa
+  name: "Harifin A. Tumpa"
+  roles:
+    - title_id: "Ketua MA (2009–2012)"
+      institution_id: mahkamah-agung
+      term_id: ma-reformasi-sekarang
+      start_date: "1998-05-22"
+      end_date: null
+
+- id: muhammad-hatta-ali
+  name: "Muhammad Hatta Ali"
+  roles:
+    - title_id: "Ketua MA (2012–2020)"
+      institution_id: mahkamah-agung
+      term_id: ma-reformasi-sekarang
+      start_date: "1998-05-22"
+      end_date: null
+
+- id: muhammad-syarifuddin
+  name: "Muhammad Syarifuddin"
+  roles:
+    - title_id: "Ketua MA (2020–2024)"
+      institution_id: mahkamah-agung
+      term_id: ma-reformasi-sekarang
+      start_date: "1998-05-22"
+      end_date: null
+
+- id: sunarto
+  name: "Sunarto"
+  roles:
+    - title_id: "Ketua MA (2024–kini)"
+      institution_id: mahkamah-agung
+      term_id: ma-reformasi-sekarang
+      start_date: "1998-05-22"
+      end_date: null
+
+- id: jimly-asshiddiqie
+  name: "Jimly Asshiddiqie"
+  roles:
+    - title_id: "Ketua MK pertama (2003–2008)"
+      institution_id: mahkamah-konstitusi
+      term_id: mk-2003-2008
+      start_date: "2003-08-13"
+      end_date: "2008-08-18"
+
+- id: mohammad-laica-marzuki
+  name: "Mohammad Laica Marzuki"
+  roles:
+    - title_id: "Wakil Ketua MK (2003–2008)"
+      institution_id: mahkamah-konstitusi
+      term_id: mk-2003-2008
+      start_date: "2003-08-13"
+      end_date: "2008-08-18"
+
+- id: mohammad-mahfud-md
+  name: "Mohammad Mahfud MD"
+  roles:
+    - title_id: "Ketua MK (2008–2013)"
+      institution_id: mahkamah-konstitusi
+      term_id: mk-2008-2013
+      start_date: "2008-08-19"
+      end_date: "2013-10-01"
+
+- id: akil-mochtar
+  name: "Akil Mochtar"
+  roles:
+    - title_id: "Ketua MK (2013, diberhentikan karena OTT KPK)"
+      institution_id: mahkamah-konstitusi
+      term_id: mk-2008-2013
+      start_date: "2008-08-19"
+      end_date: "2013-10-01"
+
+- id: hamdan-zoelva
+  name: "Hamdan Zoelva"
+  roles:
+    - title_id: "Ketua MK (2013–2015)"
+      institution_id: mahkamah-konstitusi
+      term_id: mk-2013-2018
+      start_date: "2013-11-01"
+      end_date: "2018-08-07"
+
+- id: arief-hidayat
+  name: "Arief Hidayat"
+  roles:
+    - title_id: "Ketua MK (2015–2018)"
+      institution_id: mahkamah-konstitusi
+      term_id: mk-2013-2018
+      start_date: "2013-11-01"
+      end_date: "2018-08-07"
+    - title_id: "Ketua MK (2018–2022)"
+      institution_id: mahkamah-konstitusi
+      term_id: mk-2018-2023
+      start_date: "2018-08-08"
+      end_date: "2023-11-06"
+
+- id: anwar-usman
+  name: "Anwar Usman"
+  roles:
+    - title_id: "Ketua MK (2022–2023, diberhentikan dari jabatan Ketua oleh MKMK)"
+      institution_id: mahkamah-konstitusi
+      term_id: mk-2018-2023
+      start_date: "2018-08-08"
+      end_date: "2023-11-06"
+
+- id: suhartoyo
+  name: "Suhartoyo"
+  roles:
+    - title_id: "Ketua MK (2023–kini)"
+      institution_id: mahkamah-konstitusi
+      term_id: mk-2023-sekarang
+      start_date: "2023-11-07"
+      end_date: null
+
+- id: saldi-isra
+  name: "Saldi Isra"
+  roles:
+    - title_id: "Wakil Ketua MK (2023–kini)"
+      institution_id: mahkamah-konstitusi
+      term_id: mk-2023-sekarang
+      start_date: "2023-11-07"
+      end_date: null
+
+- id: idham-chalid
+  name: "Idham Chalid"
+  roles:
+    - title_id: "Ketua MPR/DPR (1971–1977)"
+      institution_id: mpr-ri
+      term_id: mpr-1971-1999
+      start_date: "1971-10-28"
+      end_date: "1999-09-30"
+
+- id: adam-malik
+  name: "Adam Malik"
+  roles:
+    - title_id: "Ketua MPR/DPR (1977–1978)"
+      institution_id: mpr-ri
+      term_id: mpr-1971-1999
+      start_date: "1971-10-28"
+      end_date: "1999-09-30"
+
+- id: daryatmo
+  name: "Daryatmo"
+  roles:
+    - title_id: "Ketua MPR/DPR (1978–1982)"
+      institution_id: mpr-ri
+      term_id: mpr-1971-1999
+      start_date: "1971-10-28"
+      end_date: "1999-09-30"
+
+- id: amir-machmud
+  name: "Amir Machmud"
+  roles:
+    - title_id: "Ketua MPR/DPR (1982–1987)"
+      institution_id: mpr-ri
+      term_id: mpr-1971-1999
+      start_date: "1971-10-28"
+      end_date: "1999-09-30"
+
+- id: kharis-suhud
+  name: "Kharis Suhud"
+  roles:
+    - title_id: "Ketua MPR/DPR (1987–1992)"
+      institution_id: mpr-ri
+      term_id: mpr-1971-1999
+      start_date: "1971-10-28"
+      end_date: "1999-09-30"
+
+- id: wahono
+  name: "Wahono"
+  roles:
+    - title_id: "Ketua MPR/DPR (1992–1997)"
+      institution_id: mpr-ri
+      term_id: mpr-1971-1999
+      start_date: "1971-10-28"
+      end_date: "1999-09-30"
+
+- id: harmoko
+  name: "Harmoko"
+  roles:
+    - title_id: "Ketua MPR/DPR (1997–1999)"
+      institution_id: mpr-ri
+      term_id: mpr-1971-1999
+      start_date: "1971-10-28"
+      end_date: "1999-09-30"
+
+- id: amien-rais
+  name: "Amien Rais"
+  roles:
+    - title_id: "Ketua MPR RI (1999–2004)"
+      institution_id: mpr-ri
+      term_id: mpr-1999-2004
+      start_date: "1999-10-01"
+      end_date: "2004-09-30"
+
+- id: kwik-kian-gie
+  name: "Kwik Kian Gie"
+  roles:
+    - title_id: "Wakil Ketua MPR RI (1999–2004)"
+      institution_id: mpr-ri
+      term_id: mpr-1999-2004
+      start_date: "1999-10-01"
+      end_date: "2004-09-30"
+
+- id: hidayat-nur-wahid
+  name: "Hidayat Nur Wahid"
+  roles:
+    - title_id: "Ketua MPR RI (2004–2009)"
+      institution_id: mpr-ri
+      term_id: mpr-2004-2009
+      start_date: "2004-10-01"
+      end_date: "2009-09-30"
+
+- id: am-fatwa
+  name: "AM Fatwa"
+  roles:
+    - title_id: "Wakil Ketua MPR RI (2004–2009)"
+      institution_id: mpr-ri
+      term_id: mpr-2004-2009
+      start_date: "2004-10-01"
+      end_date: "2009-09-30"
+
+- id: aksa-mahmud
+  name: "Aksa Mahmud"
+  roles:
+    - title_id: "Wakil Ketua MPR RI (2004–2009)"
+      institution_id: mpr-ri
+      term_id: mpr-2004-2009
+      start_date: "2004-10-01"
+      end_date: "2009-09-30"
+
+- id: taufiq-kiemas
+  name: "Taufiq Kiemas"
+  roles:
+    - title_id: "Ketua MPR RI (2009–2013)"
+      institution_id: mpr-ri
+      term_id: mpr-2009-2014
+      start_date: "2009-10-01"
+      end_date: "2014-09-30"
+
+- id: sidarto-danusubroto
+  name: "Sidarto Danusubroto"
+  roles:
+    - title_id: "Ketua MPR RI (2013–2014)"
+      institution_id: mpr-ri
+      term_id: mpr-2009-2014
+      start_date: "2009-10-01"
+      end_date: "2014-09-30"
+
+- id: ahmad-basarah
+  name: "Ahmad Basarah"
+  roles:
+    - title_id: "Wakil Ketua MPR RI (2019–2024)"
+      institution_id: mpr-ri
+      term_id: mpr-2019-2024
+      start_date: "2019-10-01"
+      end_date: "2024-09-30"
+
+- id: ahmad-muzani
+  name: "Ahmad Muzani"
+  roles:
+    - title_id: "Wakil Ketua MPR RI (2019–2024)"
+      institution_id: mpr-ri
+      term_id: mpr-2019-2024
+      start_date: "2019-10-01"
+      end_date: "2024-09-30"
+    - title_id: "Ketua MPR RI (2024–kini)"
+      institution_id: mpr-ri
+      term_id: mpr-2024-sekarang
+      start_date: "2024-10-01"
+      end_date: null
+
+- id: bambang-wuryanto
+  name: "Bambang Wuryanto"
+  roles:
+    - title_id: "Wakil Ketua MPR RI (2024–kini)"
+      institution_id: mpr-ri
+      term_id: mpr-2024-sekarang
+      start_date: "2024-10-01"
+      end_date: null
+
+- id: rusdi-kirana
+  name: "Rusdi Kirana"
+  roles:
+    - title_id: "Wakil Ketua MPR RI (2024–kini)"
+      institution_id: mpr-ri
+      term_id: mpr-2024-sekarang
+      start_date: "2024-10-01"
+      end_date: null
+
+- id: bacharuddin-jusuf-habibie
+  name: "Bacharuddin Jusuf Habibie"
+  roles:
+    - title_id: "Presiden Republik Indonesia"
+      institution_id: presiden-ri
+      term_id: presiden-habibie
+      start_date: "1998-05-21"
+      end_date: "1999-10-20"
+
+- id: abdurrahman-wahid
+  name: "Abdurrahman Wahid"
+  roles:
+    - title_id: "Presiden Republik Indonesia"
+      institution_id: presiden-ri
+      term_id: presiden-gusdur
+      start_date: "1999-10-20"
+      end_date: "2001-07-23"
+
+- id: megawati-soekarnoputri
+  name: "Megawati Soekarnoputri"
+  roles:
+    - title_id: "Wakil Presiden"
+      institution_id: presiden-ri
+      term_id: presiden-gusdur
+      start_date: "1999-10-20"
+      end_date: "2001-07-23"
+    - title_id: "Presiden Republik Indonesia"
+      institution_id: presiden-ri
+      term_id: presiden-megawati
+      start_date: "2001-07-23"
+      end_date: "2004-10-20"
+
+- id: hamzah-haz
+  name: "Hamzah Haz"
+  roles:
+    - title_id: "Wakil Presiden"
+      institution_id: presiden-ri
+      term_id: presiden-megawati
+      start_date: "2001-07-23"
+      end_date: "2004-10-20"
+
+- id: susilo-bambang-yudhoyono
+  name: "Susilo Bambang Yudhoyono"
+  roles:
+    - title_id: "Presiden Republik Indonesia"
+      institution_id: presiden-ri
+      term_id: presiden-sby-i
+      start_date: "2004-10-20"
+      end_date: "2009-10-20"
+    - title_id: "Presiden Republik Indonesia"
+      institution_id: presiden-ri
+      term_id: presiden-sby-ii
+      start_date: "2009-10-20"
+      end_date: "2014-10-20"
+
+- id: jusuf-kalla
+  name: "Jusuf Kalla"
+  roles:
+    - title_id: "Wakil Presiden"
+      institution_id: presiden-ri
+      term_id: presiden-sby-i
+      start_date: "2004-10-20"
+      end_date: "2009-10-20"
+    - title_id: "Wakil Presiden"
+      institution_id: presiden-ri
+      term_id: presiden-jokowi-i
+      start_date: "2014-10-20"
+      end_date: "2019-10-20"
+
+- id: boediono
+  name: "Boediono"
+  roles:
+    - title_id: "Wakil Presiden"
+      institution_id: presiden-ri
+      term_id: presiden-sby-ii
+      start_date: "2009-10-20"
+      end_date: "2014-10-20"
+
+- id: joko-widodo
+  name: "Joko Widodo"
+  roles:
+    - title_id: "Presiden Republik Indonesia"
+      institution_id: presiden-ri
+      term_id: presiden-jokowi-i
+      start_date: "2014-10-20"
+      end_date: "2019-10-20"
+    - title_id: "Presiden Republik Indonesia"
+      institution_id: presiden-ri
+      term_id: presiden-jokowi-ii
+      start_date: "2019-10-20"
+      end_date: "2024-10-20"
+
+- id: maruf-amin
+  name: "Ma'ruf Amin"
+  roles:
+    - title_id: "Wakil Presiden"
+      institution_id: presiden-ri
+      term_id: presiden-jokowi-ii
+      start_date: "2019-10-20"
+      end_date: "2024-10-20"
+
+- id: prabowo-subianto
+  name: "Prabowo Subianto"
+  roles:
+    - title_id: "Presiden Republik Indonesia"
+      institution_id: presiden-ri
+      term_id: presiden-prabowo
+      start_date: "2024-10-20"
+      end_date: null
+
+- id: gibran-rakabuming-raka
+  name: "Gibran Rakabuming Raka"
+  roles:
+    - title_id: "Wakil Presiden"
+      institution_id: presiden-ri
+      term_id: presiden-prabowo
+      start_date: "2024-10-20"
+      end_date: null
+
+- id: sukarno
+  name: "Sukarno"
+  roles:
+    - title_id: "Presiden Republik Indonesia"
+      institution_id: presiden-ri
+      term_id: presiden-soekarno-i
+      start_date: "1945-08-18"
+      end_date: "1959-07-04"
+    - title_id: "Presiden Republik Indonesia / Mandataris Tertinggi Revolusi"
+      institution_id: presiden-ri
+      term_id: presiden-soekarno-ii
+      start_date: "1959-07-05"
+      end_date: "1967-03-11"
+
+- id: mohammad-hatta
+  name: "Mohammad Hatta"
+  roles:
+    - title_id: "Wakil Presiden (hingga Desember 1956)"
+      institution_id: presiden-ri
+      term_id: presiden-soekarno-i
+      start_date: "1945-08-18"
+      end_date: "1959-07-04"
+
+- id: suharto
+  name: "Suharto"
+  roles:
+    - title_id: "Pejabat Presiden (1967-1968), Presiden RI (1968-1998)"
+      institution_id: presiden-ri
+      term_id: presiden-soeharto
+      start_date: "1967-03-12"
+      end_date: "1998-05-21"
+
+# ------------------------------------------------------- 2. BLOK MANUAL
+#
+# Pejabat di luar pimpinan 8 organ konstitusional. Tanpa `term_id` karena
+# bukan unit penilaian rubrik. Setiap entri wajib punya `source_ids`.
+#
+# Catatan cakupan: daftar ini pendek bukan karena pejabat bermasalah cuma
+# segini, tetapi karena hanya nama-nama inilah yang sudah punya dokumen
+# pendukung di sources.yaml. Menambah nama tanpa dokumen justru merusak
+# prinsip "bebas bukti, bebas skor" - jadi kekosongannya dibiarkan terlihat.
+
+- id: juliari-batubara
+  name: "Juliari Batubara"
+  roles:
+    - title_id: "Menteri Sosial"
+      start_date: "2019-10"
+      end_date: "2020-12"
+      note_id: "Mengundurkan diri setelah operasi tangkap tangan KPK, Desember 2020."
+  source_ids: [berita-juliari-bansos-2020, putusan-tipikor-juliari-2021]
+
+- id: zarof-ricar
+  name: "Zarof Ricar"
+  roles:
+    - title_id: "Kepala Badan Litbang Diklat Kumdil Mahkamah Agung (mantan)"
+      institution_id: mahkamah-agung
+      note_id: >-
+        Tanggal menjabat tidak tercantum pada dokumen sumber; dibiarkan kosong
+        alih-alih dikarang.
+  source_ids: [bap-kejagung-zarof-ricar-2024, putusan-kasasi-ma-zarof-ricar-2025]
+
+- id: erintuah-damanik
+  name: "Erintuah Damanik"
+  roles:
+    - title_id: "Hakim Pengadilan Negeri Surabaya"
+      institution_id: mahkamah-agung
+  source_ids: [bap-kejagung-zarof-ricar-2024, putusan-ma-ronald-tannur-2024]
+
+# Dua entri berikut adalah kebalikannya: pejabat antikorupsi yang justru
+# dikriminalisasi. Sengaja dimasukkan agar `status` hukum terbukti bekerja
+# dua arah - bukan cuma daftar hitam.
+
+- id: bibit-samad-rianto
+  name: "Bibit Samad Rianto"
+  roles:
+    - title_id: "Wakil Ketua Komisi Pemberantasan Korupsi"
+      start_date: "2007"
+      end_date: "2011"
+  source_ids: [rekomendasi-tim-8-kriminalisasi-kpk-2009, skp2-kejaksaan-bibit-chandra-2009]
+
+- id: chandra-m-hamzah
+  name: "Chandra M. Hamzah"
+  roles:
+    - title_id: "Wakil Ketua Komisi Pemberantasan Korupsi"
+      start_date: "2007"
+      end_date: "2011"
+  source_ids: [rekomendasi-tim-8-kriminalisasi-kpk-2009, skp2-kejaksaan-bibit-chandra-2009]
+
+# ----------------------------------- 2b. PELAKU TINDAK PIDANA KORUPSI
+#
+# Pejabat penyelenggara negara di luar pimpinan 8 organ konstitusional yang
+# putusan perkaranya sudah tercitasi di sources.yaml. Statusnya, pidananya, dan
+# nomor putusannya ada di actor-cases.yaml - bukan di sini.
+#
+# Rentang tanggal jabatan hanya diisi bila tercantum pada dokumen sumber.
+# Kalau sumber cuma menyebut "mantan Dirjen", tanggalnya dibiarkan kosong.
+
+- id: johnny-gerard-plate
+  name: "Johnny Gerard Plate"
+  aliases: ["Johnny G. Plate"]
+  roles:
+    - title_id: "Menteri Komunikasi dan Informatika"
+      note_id: "Diberhentikan setelah ditetapkan tersangka korupsi proyek BTS 4G BAKTI Kominfo."
+  source_ids: [putusan-tipikor-johnny-plate-2023]
+
+- id: syahrul-yasin-limpo
+  name: "Syahrul Yasin Limpo"
+  aliases: ["SYL"]
+  roles:
+    - title_id: "Menteri Pertanian"
+      start_date: "2019-10"
+      end_date: "2023-10"
+      note_id: "Mengundurkan diri Oktober 2023; perkara mencakup perbuatan 2020-2023."
+  source_ids: [putusan-kasasi-ma-syl-2025]
+
+- id: rafael-alun-trisambodo
+  name: "Rafael Alun Trisambodo"
+  roles:
+    - title_id: "Pejabat Direktorat Jenderal Pajak, Kementerian Keuangan"
+      note_id: >-
+        Sumber menyebut masa kerja sebagai PNS sekitar 30 tahun tanpa merinci
+        tanggal jabatan, sehingga tanggalnya tidak dicantumkan.
+  source_ids: [putusan-banding-rafael-alun-2024]
+
+- id: lukas-enembe
+  name: "Lukas Enembe"
+  roles:
+    - title_id: "Gubernur Papua"
+      start_date: "2013"
+      end_date: "2022"
+  source_ids: [putusan-banding-lukas-enembe-2023]
+
+- id: patrialis-akbar
+  name: "Patrialis Akbar"
+  roles:
+    - title_id: "Hakim Konstitusi, Mahkamah Konstitusi"
+      institution_id: mahkamah-konstitusi
+      note_id: >-
+        Hakim anggota, bukan Ketua MK - karena itu tidak pernah masuk daftar
+        pimpinan masa jabatan dan luput dari direktori sebelum lapisan aktor ada.
+  source_ids: [putusan-tipikor-patrialis-akbar-2017]
+
+- id: nurhadi
+  name: "Nurhadi"
+  roles:
+    - title_id: "Sekretaris Mahkamah Agung"
+      institution_id: mahkamah-agung
+  source_ids: [putusan-tipikor-nurhadi-2021]
+
+- id: indrasari-wisnu-wardhana
+  name: "Indrasari Wisnu Wardhana"
+  aliases: ["Indra Sari Wisnu Wardhana"]
+  roles:
+    - title_id: "Direktur Jenderal Perdagangan Luar Negeri, Kementerian Perdagangan"
+      note_id: "Pejabat yang menerbitkan persetujuan ekspor CPO dalam perkara minyak goreng."
+  source_ids: [putusan-kasasi-ma-wisnu-cpo-2023]
+
+- id: emirsyah-satar
+  name: "Emirsyah Satar"
+  roles:
+    - title_id: "Direktur Utama PT Garuda Indonesia (Persero) Tbk"
+      start_date: "2005"
+      end_date: "2014"
+  source_ids: [putusan-tipikor-emirsyah-satar-2020, putusan-banding-emirsyah-satar-2024]
+
+- id: hendrisman-rahim
+  name: "Hendrisman Rahim"
+  roles:
+    - title_id: "Direktur Utama PT Asuransi Jiwasraya (Persero)"
+  source_ids: [putusan-tipikor-direksi-jiwasraya-2020, putusan-banding-hendrisman-rahim-2021]
+
+- id: hary-prasetyo
+  name: "Hary Prasetyo"
+  roles:
+    - title_id: "Direktur Keuangan PT Asuransi Jiwasraya (Persero)"
+  source_ids: [putusan-tipikor-direksi-jiwasraya-2020]
+
+- id: syahmirwan
+  name: "Syahmirwan"
+  roles:
+    - title_id: "Kepala Divisi Investasi dan Keuangan PT Asuransi Jiwasraya (Persero)"
+  source_ids: [putusan-tipikor-direksi-jiwasraya-2020]
+
+# ----------------------------------- 2c. PELAKU DARI PIHAK SWASTA
+#
+# BUKAN penyelenggara negara. Dicatat karena perbuatannya menjadi inti perkara
+# kerugian keuangan negara yang sudah ada di korpus peristiwa. Pembedaan ini
+# penting: indeks ini menilai pemangku kekuasaan negara, dan pihak swasta tidak
+# boleh terbaca seolah pejabat.
+
+- id: harvey-moeis
+  name: "Harvey Moeis"
+  roles:
+    - title_id: "Pihak swasta - perwakilan PT Refined Bangka Tin"
+      note_id: "Bukan penyelenggara negara. Disebut putusan banding sebagai aktor kunci perkara timah."
+  source_ids: [putusan-banding-harvey-moeis-2025]
+
+- id: benny-tjokrosaputro
+  name: "Benny Tjokrosaputro"
+  aliases: ["Bentjok"]
+  roles:
+    - title_id: "Pihak swasta - Direktur Utama PT Hanson International Tbk"
+      note_id: "Bukan penyelenggara negara."
+  source_ids: [putusan-kasasi-ma-jiwasraya-2021, putusan-tipikor-direksi-jiwasraya-2020]
+
+- id: heru-hidayat
+  name: "Heru Hidayat"
+  roles:
+    - title_id: "Pihak swasta - Komisaris Utama PT Trada Alam Minera Tbk"
+      note_id: "Bukan penyelenggara negara."
+  source_ids: [putusan-kasasi-ma-jiwasraya-2021, putusan-tipikor-direksi-jiwasraya-2020]

@@ -14,6 +14,8 @@ import { parse } from "yaml";
 
 import {
   parseDataset,
+  actorCaseSchema,
+  actorProfileSchema,
   rubricSchema,
   uudSchema,
   institutionSchema,
@@ -62,6 +64,12 @@ const institutions = loadArray("institutions.yaml", institutionSchema, "institut
 const termFiles = readdirSync(DATA).filter((f) => f.startsWith("terms-") && f.endsWith(".yaml")).sort();
 const terms = termFiles.flatMap((f) => loadArray(f, termSchema, `term (${f})`));
 const sourcesRaw = loadArray("sources.yaml", sourceSchema, "source");
+const actors = existsSync(join(DATA, "actors.yaml"))
+  ? loadArray("actors.yaml", actorProfileSchema, "actor")
+  : [];
+const actorCases = existsSync(join(DATA, "actor-cases.yaml"))
+  ? loadArray("actor-cases.yaml", actorCaseSchema, "actor_case")
+  : [];
 let events: ReturnType<typeof eventSchema.parse>[] = [];
 if (existsSync(join(DATA, "events.yaml"))) {
   events.push(...loadArray("events.yaml", eventSchema, "event (events.yaml)"));
@@ -73,9 +81,32 @@ if (existsSync(join(DATA, "events"))) {
   }
 }
 const assessments = loadArray("assessments.yaml", assessmentSchema, "assessment");
-const externalIndices = existsSync(join(DATA, "external-indices.yaml"))
+const externalIndicesRaw = existsSync(join(DATA, "external-indices.yaml"))
   ? loadArray("external-indices.yaml", externalIndexSchema, "external_index")
   : [];
+
+// Derajat verifikasi indeks eksternal DIHITUNG dari kelengkapan provenance,
+// tidak boleh diklaim manual di YAML. Angka tanpa asal-usul harus terbaca
+// sebagai belum terverifikasi, bukan sebagai fakta.
+const externalIndices = externalIndicesRaw.map((idx) => {
+  const withProv = idx.data.filter((d) => d.provenance).length;
+  const verification =
+    withProv === 0
+      ? ("belum-terverifikasi" as const)
+      : withProv === idx.data.length
+        ? ("terverifikasi" as const)
+        : ("sebagian" as const);
+  return { ...idx, verification };
+});
+const unverifiedPoints = externalIndices.reduce(
+  (n, idx) => n + idx.data.filter((d) => !d.provenance).length,
+  0
+);
+const totalPoints = externalIndices.reduce((n, idx) => n + idx.data.length, 0);
+console.log(
+  `Indeks eksternal: ${totalPoints - unverifiedPoints}/${totalPoints} titik data berprovenance ` +
+    `(${externalIndices.filter((i) => i.verification === "terverifikasi").length}/${externalIndices.length} indeks terverifikasi penuh)`
+);
 
 // ---- terapkan keputusan kurasi (review-state.json = jejak audit) ----
 const REVIEW_FILE = join(ROOT, "generated", "review-state.json");
@@ -142,6 +173,37 @@ const dimIds = new Set(rubric.dimensions.map((d) => d.id));
 const groupIds = new Set(rubric.groups.map((g) => g.id));
 const srcIds = new Set(sourcesRaw.map((s) => s.id));
 const eventIds = new Set(events.map((e) => e.id));
+const actorIds = new Set(actors.map((a) => a.id));
+
+// ---- aktor: identitas orang harus utuh dan tertaut ----
+const seenActorIds = new Set<string>();
+for (const a of actors) {
+  if (seenActorIds.has(a.id)) errors.push(`actor ${a.id}: id ganda`);
+  seenActorIds.add(a.id);
+  for (const r of a.roles) {
+    if (r.institution_id && !instIds.has(r.institution_id))
+      errors.push(`actor ${a.id}: institution_id "${r.institution_id}" tidak ada`);
+    if (r.term_id && !termIds.has(r.term_id))
+      errors.push(`actor ${a.id}: term_id "${r.term_id}" tidak ada`);
+  }
+  for (const sid of a.source_ids)
+    if (!srcIds.has(sid)) errors.push(`actor ${a.id}: sumber "${sid}" tidak terdaftar`);
+}
+
+for (const t of terms)
+  for (const a of t.actors)
+    if (a.actor_id && !actorIds.has(a.actor_id))
+      errors.push(`term ${t.id}: actor_id "${a.actor_id}" (${a.name}) tidak ada di actors.yaml`);
+
+// ---- perkara: tidak ada nama tanpa dokumen ----
+for (const c of actorCases) {
+  if (!actorIds.has(c.actor_id))
+    errors.push(`actor_case ${c.id}: actor_id "${c.actor_id}" tidak ada di actors.yaml`);
+  for (const sid of c.source_ids)
+    if (!srcIds.has(sid)) errors.push(`actor_case ${c.id}: sumber "${sid}" tidak terdaftar`);
+  for (const eid of c.event_ids)
+    if (!eventIds.has(eid)) errors.push(`actor_case ${c.id}: event_id "${eid}" tidak terdaftar`);
+}
 
 for (const t of terms)
   if (!instIds.has(t.institution_id))
@@ -153,6 +215,24 @@ for (const e of events) {
     if (!srcIds.has(s)) errors.push(`event ${e.id}: sumber "${s}" tidak terdaftar`);
   for (const d of e.dimension_ids)
     if (!dimIds.has(d)) errors.push(`event ${e.id}: dimensi "${d}" tidak ada di rubrik`);
+  for (const aid of e.actor_ids)
+    if (!actorIds.has(aid)) errors.push(`event ${e.id}: actor_id "${aid}" tidak ada di actors.yaml`);
+  if (e.subject_term_id) {
+    if (!termIds.has(e.subject_term_id))
+      errors.push(`event ${e.id}: subject_term_id "${e.subject_term_id}" tidak ada`);
+    if (e.subject_term_id === e.term_id)
+      errors.push(
+        `event ${e.id}: subject_term_id sama dengan term_id - hapus saja, tidak ada re-atribusi di sini`
+      );
+    if (!e.subject_basis_id)
+      errors.push(
+        `event ${e.id}: subject_term_id diisi tanpa subject_basis_id - re-atribusi wajib bisa diaudit`
+      );
+    if (e.source_ids.length === 0)
+      errors.push(
+        `event ${e.id}: subject_term_id diisi tanpa sumber - periode yang diperiksa harus bisa ditelusuri`
+      );
+  }
 }
 
 for (const idx of externalIndices) {
@@ -203,6 +283,8 @@ const dataset = parseDataset({
   uud,
   institutions,
   terms,
+  actors,
+  actor_cases: actorCases,
   events,
   sources: sourcesResolved,
   assessments: assessmentsEnriched,
@@ -211,6 +293,21 @@ const dataset = parseDataset({
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, JSON.stringify(dataset, null, 2) + "\n");
+
+// ---- laporan cakupan aktor: kekosongan harus terlihat, bukan tersembunyi ----
+const termActors = terms.flatMap((t) => t.actors);
+const unlinked = termActors.filter((a) => !a.actor_id).length;
+const reattributed = events.filter((e) => e.subject_term_id).length;
+const namedCorruptionEvents = events.filter((e) => e.actor_ids.length > 0).length;
+console.log(
+  `Aktor: ${actors.length} orang, ${actorCases.length} perkara bersitasi, ` +
+    `${termActors.length - unlinked}/${termActors.length} kursi masa jabatan tertaut` +
+    (unlinked > 0 ? ` (${unlinked} belum tertaut)` : "")
+);
+console.log(
+  `Atribusi: ${reattributed} peristiwa punya subject_term_id, ` +
+    `${namedCorruptionEvents} peristiwa menyebut aktor secara terstruktur`
+);
 
 console.log(
   `OK: ${institutions.length} lembaga, ${terms.length} masa jabatan, ` +

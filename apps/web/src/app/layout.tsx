@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 import { AppChrome } from "@/components/app-chrome";
@@ -21,6 +23,8 @@ export default function RootLayout({
         <LocaleProvider>
           <AppChrome>{children}</AppChrome>
         </LocaleProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

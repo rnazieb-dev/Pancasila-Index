@@ -9,18 +9,25 @@
   actors:
     - name: Idham Chalid
       role_id: Ketua MPR/DPR (1971–1977)
+      actor_id: idham-chalid
     - name: Adam Malik
       role_id: Ketua MPR/DPR (1977–1978)
+      actor_id: adam-malik
     - name: Daryatmo
       role_id: Ketua MPR/DPR (1978–1982)
+      actor_id: daryatmo
     - name: Amir Machmud
       role_id: Ketua MPR/DPR (1982–1987)
+      actor_id: amir-machmud
     - name: Kharis Suhud
       role_id: Ketua MPR/DPR (1987–1992)
+      actor_id: kharis-suhud
     - name: Wahono
       role_id: Ketua MPR/DPR (1992–1997)
+      actor_id: wahono
     - name: Harmoko
       role_id: Ketua MPR/DPR (1997–1999)
+      actor_id: harmoko
 
 - id: mpr-1999-2004
   institution_id: mpr-ri
@@ -31,10 +38,13 @@
   actors:
     - name: Amien Rais
       role_id: Ketua MPR RI (1999–2004)
+      actor_id: amien-rais
     - name: Ginandjar Kartasasmita
       role_id: Wakil Ketua MPR RI (1999–2004)
+      actor_id: ginandjar-kartasasmita
     - name: Kwik Kian Gie
       role_id: Wakil Ketua MPR RI (1999–2004)
+      actor_id: kwik-kian-gie
 
 - id: mpr-2004-2009
   institution_id: mpr-ri
@@ -45,10 +55,13 @@
   actors:
     - name: Hidayat Nur Wahid
       role_id: Ketua MPR RI (2004–2009)
+      actor_id: hidayat-nur-wahid
     - name: AM Fatwa
       role_id: Wakil Ketua MPR RI (2004–2009)
+      actor_id: am-fatwa
     - name: Aksa Mahmud
       role_id: Wakil Ketua MPR RI (2004–2009)
+      actor_id: aksa-mahmud
 
 - id: mpr-2009-2014
   institution_id: mpr-ri
@@ -59,8 +72,10 @@
   actors:
     - name: Taufiq Kiemas
       role_id: Ketua MPR RI (2009–2013)
+      actor_id: taufiq-kiemas
     - name: Sidarto Danusubroto
       role_id: Ketua MPR RI (2013–2014)
+      actor_id: sidarto-danusubroto
 
 - id: mpr-2014-2019
   institution_id: mpr-ri
@@ -71,10 +86,13 @@
   actors:
     - name: Zulkifli Hasan
       role_id: Ketua MPR RI (2014–2019)
+      actor_id: zulkifli-hasan
     - name: Mahyudin
       role_id: Wakil Ketua MPR RI (2014–2019)
+      actor_id: mahyudin
     - name: Oesman Sapta Odang
       role_id: Wakil Ketua MPR RI (2014–2019)
+      actor_id: oesman-sapta-odang
 
 - id: mpr-2019-2024
   institution_id: mpr-ri
@@ -85,10 +103,13 @@
   actors:
     - name: Bambang Soesatyo
       role_id: Ketua MPR RI (2019–2024)
+      actor_id: bambang-soesatyo
     - name: Ahmad Basarah
       role_id: Wakil Ketua MPR RI (2019–2024)
+      actor_id: ahmad-basarah
     - name: Ahmad Muzani
       role_id: Wakil Ketua MPR RI (2019–2024)
+      actor_id: ahmad-muzani
 
 - id: mpr-2024-sekarang
   institution_id: mpr-ri
@@ -99,7 +120,10 @@
   actors:
     - name: Ahmad Muzani
       role_id: Ketua MPR RI (2024–kini)
+      actor_id: ahmad-muzani
     - name: Bambang Wuryanto
       role_id: Wakil Ketua MPR RI (2024–kini)
+      actor_id: bambang-wuryanto
     - name: Rusdi Kirana
       role_id: Wakil Ketua MPR RI (2024–kini)
+      actor_id: rusdi-kirana

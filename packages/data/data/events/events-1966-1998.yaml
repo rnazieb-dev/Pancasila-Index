@@ -43,6 +43,10 @@
     menemukan bahwa 95% dari dana talangan Rp144,5 triliun untuk 48 bank bermasalah saat krisis 1997/1998 disalurkan dengan indikasi kuat melawan hukum dan korupsi sistemik.
   source_ids: [laporan-audit-bpk-blbi-2000]
   dimension_ids: [checks-balances, negara-hukum]
+  subject_term_id: presiden-soeharto
+  subject_basis_id: >-
+    Dana talangan BLBI Rp144,5 triliun disalurkan pada krisis 1997/1998 sebagaimana disebut dalam LHP
+    investigatif BPK yang disitasi - seluruhnya di dalam masa jabatan ini.
 
 - id: ev-komnas-ham-1993
   term_id: presiden-soeharto

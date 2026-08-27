@@ -11,9 +11,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Versi pnpm TIDAK diisi di sini. Sengaja: action ini membaca
+      # package.json#packageManager sebagai satu-satunya sumber otoritatif.
+      # Mengisi `version` di sini membuat ada dua deklarasi dan action gagal
+      # dengan "Multiple versions of pnpm specified".
+      #
+      # Jangan pula membalik arahnya dengan menghapus `packageManager` dari
+      # package.json: pnpm-workspace.yaml memakai `allowBuilds` (field era
+      # pnpm 11) untuk menyetujui build script @prisma/client, prisma, esbuild,
+      # dan sharp. Kalau versinya jatuh ke pnpm lama, keempatnya tidak jalan
+      # dan kegagalannya muncul sebagai error TypeScript, bukan error install.
       - uses: pnpm/action-setup@v4
-        with:
-          version: 11
 
       - uses: actions/setup-node@v4
         with:
@@ -22,6 +30,13 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      # Wajib sebelum typecheck: tipe @prisma/client dihasilkan dari schema,
+      # dan postinstall di root repo tidak menemukan schema (schema-nya milik
+      # apps/web). Tanpa langkah ini, `tsc --noEmit` di apps/web gagal pada
+      # route kurasi/ karena hasil query Prisma bertipe implicit any.
+      - name: Generate Prisma Client
+        run: pnpm --filter @pancasila-index/web db:generate
 
       - name: Typecheck
         run: pnpm typecheck

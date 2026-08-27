@@ -1,6 +1,34 @@
 # Indeks Independen Eksternal (Enrichment / Pengaya Konteks Pancasila Index)
-# Berisi data deret waktu (time series) indeks pihak ketiga yang kredibel,
-# berbasis data keras (hard data) dan peer-reviewed, bebas dari bias birokrasi ABS.
+#
+# STATUS BERKAS INI - BACA DULU SEBELUM MENGUTIP ANGKANYA.
+#
+# Berkas ini sebelumnya berisi angka yang tampak masuk akal tetapi tidak bisa
+# ditelusuri ke penerbitnya, dan satu indeks yang penerbitnya tidak ada sama
+# sekali. Yang sudah dibereskan:
+#
+#   - Indeks fiktif "Indeks Supremasi Sipil & Integritas Sektor Keamanan"
+#     DIHAPUS. Tidak ada indeks maupun penerbit dengan nama itu.
+#   - CPI 2024 dikoreksi: sebelumnya 34/peringkat 115 (itu angka 2023),
+#     seharusnya 37/peringkat 99. CPI 2025 ditambahkan.
+#   - Peringkat RSF 2026 dikoreksi dari 128 menjadi 129.
+#
+# ATURAN: satu titik data hanya boleh dianggap sah bila punya `provenance`
+# (tautan tepat + tanggal ambil + cara ambil). Build MENGHITUNG sendiri derajat
+# verifikasi tiap indeks dari kelengkapan provenance - tidak bisa diklaim
+# manual di berkas ini. Titik tanpa provenance ditandai "belum terverifikasi"
+# di UI dan TIDAK BOLEH dikutip sebagai fakta.
+#
+# Cara membereskan sisanya: jalankan
+#   pnpm --filter @pancasila-index/data fetch:indices
+# Script itu mengunduh langsung dari penerbit resmi dan mengisi provenance.
+# Di lingkungan build saat ini script tersebut GAGAL karena kebijakan egress
+# memblokir seluruh host penerbit (transparency.org, worldjusticeproject.org,
+# rsf.org, v-dem.net, internationalbudget.org, api.worldbank.org). Host-host
+# itu perlu diizinkan lebih dulu.
+#
+# `method: pencarian-web` berarti angka itu terbaca dari halaman yang
+# disitasi, BUKAN dari unduhan dataset resmi. Derajatnya lebih rendah
+# daripada `unduh-dataset` dan sebaiknya diganti begitu unduhan bisa jalan.
 
 - id: ipi-ercas
   name: Index of Public Integrity (IPI)
@@ -104,13 +132,28 @@
       score: 0.52
       rank: 68
       total_countries: 142
+    # Skor 2025 dikosongkan: WJP menerbitkan peringkatnya, tetapi skor
+    # gabungannya belum tertelusur tanpa mengunduh berkas indeks resmi.
+    - year: 2025
+      score: null
+      rank: 69
+      total_countries: 143
+      provenance:
+        url: https://worldjusticeproject.org/rule-of-law-index/country/2025/Indonesia
+        retrieved_at: "2026-08-27"
+        method: pencarian-web
   abs_discrepancy_note: >-
     Skor faktor 'Pembatasan Kekuasaan Pemerintah' (Constraints on Government Powers) dan
     'Keadilan Pidana' stagnan di level rendah (~0.48-0.50), membuktikan bahwa deklarasi formal
     WBK/WBBM di peradilan belum mengubah persepsi masyarakat atas praktik impunitas dan intervensi politik.
 
+# CATATAN NAMA: entri ini sebelumnya bernama "Deliberative & Liberal Democracy
+# Index" - menggabungkan dua indeks V-Dem yang berbeda menjadi satu deret,
+# sehingga angkanya tidak bisa dicocokkan ke indeks mana pun. Dinamai ulang ke
+# Liberal Democracy Index (LDI), indeks utama yang dirujuk laporan tahunan
+# V-Dem. Deret sebelum 2025 belum tertelusur dan menunggu unduhan dataset resmi.
 - id: vdem-deliberative
-  name: V-Dem Deliberative & Liberal Democracy Index
+  name: V-Dem Liberal Democracy Index (LDI)
   publisher: Varieties of Democracy (V-Dem) Institute, University of Gothenburg
   type: expert-coded
   scale: 0.00 - 1.00 (1.00 = Demokrasi deliberatif berintegritas tinggi)
@@ -148,9 +191,20 @@
     - year: 2023
       score: 0.41
       note: Krisis etika peradilan konstitusi dan kemunduran integritas elektoral.
+    - year: 2025
+      score: 0.30
+      note: >-
+        Terendah dalam sedekade. Angka dibulatkan sebagaimana disajikan sumber yang
+        disitasi; desimal penuhnya menunggu unduhan dataset V-Dem resmi. V-Dem
+        menggolongkan Indonesia sebagai salah satu electoral autocracy terbesar dunia.
+      provenance:
+        url: https://v-dem.net/documents/75/V-Dem_Institute_Democracy_Report_2026_lowres.pdf
+        retrieved_at: "2026-08-27"
+        method: pencarian-web
   abs_discrepancy_note: >-
-    V-Dem mengkategorikan Indonesia mengalami gejala 'democratic backsliding' (kemunduran demokrasi)
-    sejak 2019, berbanding terbalik dengan laporan kepuasan publik seremonial yang sering dirilis institusi resmi.
+    V-Dem mengkategorikan Indonesia mengalami 'democratic backsliding' sejak 2019 dan pada
+    2025 mencatat skor LDI terendah sedekade, berbanding terbalik dengan laporan kepuasan
+    publik seremonial yang sering dirilis institusi resmi.
 
 - id: cpi-ti
   name: Corruption Perceptions Index (CPI)
@@ -199,12 +253,35 @@
     - year: 2023
       score: 34
       rank: 115
+      provenance:
+        url: https://www.transparency.org/en/cpi/2023/index/idn
+        retrieved_at: "2026-08-27"
+        method: pencarian-web
+    # KOREKSI: sebelumnya tercatat 34/peringkat 115 - itu angka 2023 yang
+    # terduplikasi. Angka 2024 yang benar adalah 37 dengan peringkat 99.
     - year: 2024
+      score: 37
+      rank: 99
+      note: Skor naik tiga poin dari 2023; peringkat 99 menjadi acuan penurunan 10 tingkat pada 2025.
+      provenance:
+        url: https://www.transparency.org/en/cpi/2024/index/idn
+        retrieved_at: "2026-08-27"
+        method: pencarian-web
+    - year: 2025
       score: 34
-      rank: 115
+      rank: 109
+      total_countries: 182
+      note: >-
+        Turun 3 poin dan melorot 10 peringkat dari posisi 99 pada 2024. TI Indonesia
+        menautkan penurunan ini pada menyempitnya kebebasan sipil dan akses pada keadilan.
+      provenance:
+        url: https://www.transparency.org/en/cpi/2025
+        retrieved_at: "2026-08-27"
+        method: pencarian-web
   abs_discrepancy_note: >-
-    Anjloknya CPI dari 40 (2019) ke 34 (2022-2024) mencerminkan dampak nyata pelemahan KPK
-    dan korupsi penegak hukum, kontras dengan narasi keberhasilan survei kepatuhan internal birokrasi.
+    CPI turun dari 40 (2019) ke 34 (2022-2023), sempat naik ke 37 (2024), lalu kembali ke
+    34 dengan peringkat terburuk sedekade (109 dari 182) pada 2025 - kontras dengan narasi
+    keberhasilan survei kepatuhan internal birokrasi.
 
 - id: obi-ibp
   name: Open Budget Index (OBI)
@@ -232,6 +309,13 @@
       score: 70
     - year: 2023
       score: 70
+      subscores:
+        partisipasi-publik: 26
+        pengawasan-anggaran: 59
+      provenance:
+        url: https://internationalbudget.org/open-budget-survey/country-results/2023/indonesia
+        retrieved_at: "2026-08-27"
+        method: pencarian-web
   abs_discrepancy_note: >-
     Meskipun transparansi publikasi dokumen formal APBN dinilai memadai (skor 70), pilar
     'Partisipasi Publik Riil' (Public Participation) sangat rendah (skor 26/100), membuktikan bahwa
@@ -297,55 +381,20 @@
       score: 44.13
       rank: 127
       total_countries: 180
+    # KOREKSI: peringkat 2026 sebelumnya tercatat 128, yang benar 129.
+    # Skor 2026 dikosongkan karena tidak tertelusur ke penerbit - angka 43.02
+    # yang tercatat sebelumnya tidak punya sumber, jadi dihapus alih-alih
+    # dipertahankan sebagai tebakan.
     - year: 2026
-      score: 43.02
-      rank: 128
+      score: null
+      rank: 129
       total_countries: 180
+      note: RSF menyebut kebebasan pers global 2026 berada di titik terendah dalam 25 tahun.
+      provenance:
+        url: https://rsf.org/en/2026-rsf-index-press-freedom-25-year-low
+        retrieved_at: "2026-08-27"
+        method: pencarian-web
   abs_discrepancy_note: >-
     Anjloknya skor kebebasan pers RSF ke peringkat 128 dunia pada 2026 mencerminkan tingginya represi digital,
     kriminalisasi via UU ITE, dan pemusatan kepemilikan media pada konglomerasi politik, berbanding terbalik
     dengan klaim kebebasan berpendapat di forum-forum diplomatik resmi.
-
-- id: civilian-supremacy-security
-  name: Indeks Supremasi Sipil & Integritas Sektor Keamanan (Anti-Dwifungsi)
-  publisher: Koalisi Masyarakat Sipil untuk Reformasi Sektor Keamanan (Imparsial, KontraS, PBHI, ELSAM)
-  type: civil-society
-  scale: 0 - 100 (100 = Supremasi sipil mutlak dan zero-dwifungsi militer/polri)
-  description: >-
-    Mengukur 4 indikator kepatuhan konstitusional sektor pertahanan dan keamanan:
-    1. Kepatuhan larangan perwira aktif menduduki jabatan sipil ASN/BUMN (Pasal 47 UU 34/2004 & TAP MPR VII/2000),
-    2. Akuntabilitas peradilan umum bagi tindak pidana prajurit militer (Pasal 65 ayat 2 UU 34/2004),
-    3. Netralitas politik elektoral TNI-Polri,
-    4. Pengawasan anggaran pengadaan alutsista & bisnis militer.
-  url: https://imparsial.org/reformasi-sektor-keamanan
-  target_dimensions:
-    - checks-balances
-    - negara-hukum
-    - sila-4
-    - kedaulatan-rakyat
-  data:
-    - year: 2004
-      score: 68
-      note: Pengesahan UU TNI meletakkan dasar pemisahan jabatan sipil dan militer.
-    - year: 2009
-      score: 65
-      note: Pengambilalihan bisnis militer parsial berjalan bertahap.
-    - year: 2014
-      score: 62
-      note: Reformasi peradilan militer ke peradilan umum mandek.
-    - year: 2019
-      score: 55
-      note: Mulai marak penempatan perwira aktif di kementerian sipil dan BUMN.
-    - year: 2022
-      score: 48
-      note: Pengabaian putusan MK dan regulasi ASN terkait penugasan prajurit aktif.
-    - year: 2024
-      score: 42
-      note: Draf revisi UU TNI dan UU Polri memperluas wewenang dwifungsi dan penyadapan sipil.
-    - year: 2026
-      score: 38
-      note: Keterlibatan militer dalam program sipil (ketahanan pangan/MBG) dan pembiaran rangkap jabatan.
-  abs_discrepancy_note: >-
-    Anjloknya indeks supremasi sipil hingga angka 38/100 pada 2026 menjadi sinyal bahaya kembalinya
-    watak Dwifungsi ABRI era Orde Baru yang merusak prinsip dasar negara hukum demokratis pasca-Reformasi.
-

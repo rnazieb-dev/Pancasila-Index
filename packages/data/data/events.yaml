@@ -937,6 +937,7 @@
     Pelajaran abadi: integritas lembaga hanya setinggi integritas manusianya.
   source_ids: [putusan-ma-akil-2014]
   dimension_ids: [negara-hukum]
+  actor_ids: [akil-mochtar]
 
 - id: ev-mk3-pilkada-independen
   term_id: mk-2013-2018
@@ -1568,6 +1569,7 @@
     membuka mata publik bahwa antikorupsi bisa diserang dengan senjata hukumnya sendiri.
   source_ids: [berita-praperadilan-kpk-2009]
   dimension_ids: [negara-hukum, checks-balances]
+  actor_ids: [bibit-samad-rianto, chandra-m-hamzah]
 
 - id: ev-jokowi1-ahok-212
   term_id: presiden-jokowi-i
@@ -1597,6 +1599,7 @@
     aliran uang politik ke banyak partai tak pernah benar-benar dibongkar.
   source_ids: [berita-ektp-setnov-2018]
   dimension_ids: [negara-hukum, checks-balances]
+  actor_ids: [setya-novanto]
 
 - id: ev-jokowi2-fpi-dibubarkan
   term_id: presiden-jokowi-ii
@@ -1627,6 +1630,7 @@
     kelola darurat: dana besar mengalir cepat, pengawasan tak sanggup mengikuti.
   source_ids: [berita-juliari-bansos-2020]
   dimension_ids: [sila-5, negara-hukum]
+  actor_ids: [juliari-batubara]
 
 - id: ev-jokowi2-kanjuruhan
   term_id: presiden-jokowi-ii
@@ -2056,6 +2060,7 @@
     pertanyaan siapa pemilik kepentingan di baliknya tidak pernah benar-benar dijawab.
   source_ids: [berita-jiwasraya-2022]
   dimension_ids: [negara-hukum]
+  actor_ids: [benny-tjokrosaputro, heru-hidayat, hendrisman-rahim]
 
 - id: ev-jokowi2-revisi-ite-2024
   term_id: presiden-jokowi-ii
@@ -2832,6 +2837,10 @@
     menemukan 9 ketetapan bermasalah dan indikasi kerugian negara dalam penetapan bank gagal berdampak sistemik serta Fasilitas Pendanaan Jangka Pendek (FPJP).
   source_ids: [laporan-audit-bpk-century-2009]
   dimension_ids: [checks-balances, negara-hukum]
+  subject_term_id: presiden-sby-i
+  subject_basis_id: >-
+    Objek pemeriksaan LHP adalah penetapan bank gagal berdampak sistemik dan pemberian FPJP Bank Century
+    pada November 2008, yang jatuh di dalam masa jabatan ini.
 
 - id: ev-ma-putusan-23-pilkada
   term_id: ma-reformasi-sekarang
