@@ -2023,6 +2023,75 @@
   year: 2024
   citation_id: MPR RI Berita Acara Pelantikan 20 Oktober 2024
 
+- id: keppres-133-p-2024
+  type: keppres
+  title_id: Keppres No. 133/P Tahun 2024 tentang Pembentukan Kementerian Negara dan Pengangkatan Menteri Kabinet Merah Putih
+  year: 2024
+  citation_id: Keppres No. 133/P Tahun 2024
+
+- id: putusan-mk-168-puu-xxi-2023
+  type: putusan-mk
+  title_id: Putusan MK No. 168/PUU-XXI/2023 (Pengujian UU Cipta Kerja Klaster Ketenagakerjaan dan Perintah Pembentukan UU Baru)
+  year: 2024
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=168/PUU-XXI/2023
+  citation_id: Putusan MKRI No. 168/PUU-XXI/2023
+
+- id: uu-62-2024
+  type: undang-undang
+  title_id: UU No. 62 Tahun 2024 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2025
+  year: 2024
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=62&thn=2024
+  citation_id: LN No. 201 Tahun 2024, TLN No. 6980
+
+- id: laporan-pilkada-kpu-2024
+  type: laporan-lembaga
+  title_id: Laporan Penyelenggaraan Pemilihan Kepala Daerah Serentak Nasional 2024 di 545 Daerah
+  year: 2025
+  citation_id: KPU Laporan Pilkada Serentak 2024
+
+- id: sk-ma-ketua-2024
+  type: putusan-ma
+  title_id: Keputusan Sidang Paripurna Khusus Mahkamah Agung No. 01/KMA/SK/X/2024 tentang Pemilihan Ketua MA RI
+  year: 2024
+  citation_id: MA RI SK Pemilihan Ketua MA 2024
+
+- id: ihps-ii-bpk-2024
+  type: laporan-lembaga
+  title_id: Ikhtisar Hasil Pemeriksaan Semester (IHPS) II Tahun 2024 BPK RI
+  year: 2025
+  citation_id: BPK RI IHPS II 2024
+
+- id: ihps-i-bpk-2025
+  type: laporan-lembaga
+  title_id: Ikhtisar Hasil Pemeriksaan Semester (IHPS) I Tahun 2025 BPK RI
+  year: 2026
+  citation_id: BPK RI IHPS I 2025
+
+- id: laporan-tahunan-ky-2025
+  type: laporan-lembaga
+  title_id: Laporan Tahunan Komisi Yudisial RI Tahun 2025 - Pengawasan dan Peningkatan Integritas Hakim
+  year: 2026
+  citation_id: Komisi Yudisial Laptah 2025
+
+- id: risalah-sidang-mpr-2025
+  type: dokumen-mpr
+  title_id: Risalah Sidang Tahunan MPR RI dan Sidang Bersama DPR-DPD RI 16 Agustus 2025
+  year: 2025
+  citation_id: MPR RI Risalah Sidang Tahunan 2025
+
+- id: risalah-sidang-mpr-2026
+  type: dokumen-mpr
+  title_id: Risalah Sidang Tahunan MPR RI dan Sidang Bersama DPR-DPD RI 16 Agustus 2026
+  year: 2026
+  citation_id: MPR RI Risalah Sidang Tahunan 2026
+
+- id: perpres-danantara-2025
+  type: keppres
+  title_id: Peraturan Presiden tentang Pembentukan Badan Pengelola Investasi Daya Anagata Nusantara (BPI Danantara)
+  year: 2025
+  citation_id: Perpres BPI Danantara 2025
+
+
 
 
 

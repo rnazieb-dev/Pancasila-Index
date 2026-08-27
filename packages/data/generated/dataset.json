@@ -7350,6 +7350,186 @@
         "tujuan-1",
         "sila-3"
       ]
+    },
+    {
+      "id": "ev-kabinet-merah-putih-2024",
+      "term_id": "presiden-prabowo",
+      "date": "2024-10-21",
+      "category": "kebijakan",
+      "title_id": "Pelantikan Kabinet Merah Putih Periode 2024–2029",
+      "summary_id": "Presiden Prabowo Subianto melantik jajaran menteri dan kepala badan Kabinet Merah Putih berdasarkan Keppres No. 133/P Tahun 2024 guna memperkuat fokus penanganan kedaulatan pangan, hilirisasi industri, sains teknologi, dan perlindungan sosial.",
+      "source_ids": [
+        "keppres-133-p-2024"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-ma-pemilihan-ketua-sunarto-2024",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2024-10-16",
+      "category": "peristiwa",
+      "title_id": "Terpilihnya Prof. Dr. Sunarto sebagai Ketua Mahkamah Agung RI 2024–2029",
+      "summary_id": "Sidang Paripurna Khusus Mahkamah Agung memilih Hakim Agung Prof. Dr. H. Sunarto, S.H., M.H. sebagai Ketua MA ke-15, menegaskan komitmen pembersihan mafia peradilan, penguatan integritas aparat peradilan, dan transparansi persidangan modern.",
+      "source_ids": [
+        "sk-ma-ketua-2024"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-ciptaker-naker-168-2024",
+      "term_id": "mk-2023-sekarang",
+      "date": "2024-10-31",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 168/PUU-XXI/2023 tentang Klaster Ketenagakerjaan UU Cipta Kerja",
+      "summary_id": "MK mengabulkan sebagian permohonan uji materiil serikat buruh terhadap UU Cipta Kerja, memerintahkan pembentuk UU mengeluarkan klaster ketenagakerjaan dari UU Cipta Kerja dan membentuk UU Ketenagakerjaan yang baru dalam waktu maksimal 2 tahun demi menjamin hak upah layak dan kepastian kerja.",
+      "source_ids": [
+        "putusan-mk-168-puu-xxi-2023"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-apbn-2025",
+      "term_id": "dpr-2024-2029",
+      "date": "2024-10-17",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 62 Tahun 2024 tentang APBN Tahun Anggaran 2025",
+      "summary_id": "DPR bersama Pemerintah mengesahkan postur APBN 2025 sebesar Rp3.621 triliun yang mengalokasikan anggaran prioritas program Makan Bergizi Gratis (MBG), ketahanan pangan nasional, renovasi sekolah, dan bantalan perlindungan sosial.",
+      "source_ids": [
+        "uu-62-2024"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-dpd-pengawasan-pilkada-2024",
+      "term_id": "dpd-2024-sekarang",
+      "date": "2024-11-27",
+      "category": "peristiwa",
+      "title_id": "Penyelenggaraan dan Pengawasan Pilkada Serentak Nasional 2024 di 545 Daerah",
+      "summary_id": "Indonesia mencatatkan sejarah ketatanegaraan dengan menyelenggarakan pemilihan kepala daerah serentak pertama di seluruh provinsi dan kabupaten/kota di bawah pengawasan aktif DPD RI, KPU, dan Bawaslu untuk mengawal kedaulatan demokrasi lokal.",
+      "source_ids": [
+        "laporan-pilkada-kpu-2024"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-badan-danantara-2025",
+      "term_id": "presiden-prabowo",
+      "date": "2025-02-10",
+      "category": "produk-hukum",
+      "title_id": "Pembentukan Badan Pengelola Investasi Daya Anagata Nusantara (BPI Danantara)",
+      "summary_id": "Presiden membentuk BPI Danantara sebagai superholding sovereign wealth fund yang mengkonsolidasikan aset BUMN dan dana investasi strategis guna mendanai proyek industri hilirisasi, energi terbarukan, dan infrastruktur strategis nasional tanpa membebani APBN.",
+      "source_ids": [
+        "perpres-danantara-2025"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-mk-phpu-pilkada-serentak-2025",
+      "term_id": "mk-2023-sekarang",
+      "date": "2025-03-12",
+      "category": "pengadilan",
+      "title_id": "Penyelesaian Sengketa Hasil Pilkada Serentak 2024 di Mahkamah Konstitusi",
+      "summary_id": "MK merampungkan penanganan ratusan permohonan perselisihan hasil pemilihan kepala daerah serentak 2024 secara transparan dan tepat waktu, memberikan kepastian hukum konstitusional kepemimpinan kepala daerah definitif di seluruh pelosok tanah air.",
+      "source_ids": [
+        "laporan-pilkada-kpu-2024"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-bpk-ihps-ii-2024",
+      "term_id": "bpk-2019-sekarang",
+      "date": "2025-06-18",
+      "category": "kebijakan",
+      "title_id": "Penyerahan IHPS II Tahun 2024 oleh BPK RI kepada Lembaga Perwakilan",
+      "summary_id": "Ketua BPK Isma Yatun menyerahkan Ikhtisar Hasil Pemeriksaan Semester (IHPS) II 2024 yang memuat hasil evaluasi kepatuhan anggaran kementerian/lembaga dan efektivitas program bantuan sosial serta perlindungan lingkungan hidup nasional.",
+      "source_ids": [
+        "ihps-ii-bpk-2024"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mpr-sidang-tahunan-2025",
+      "term_id": "mpr-2024-sekarang",
+      "date": "2025-08-16",
+      "category": "peristiwa",
+      "title_id": "Sidang Tahunan MPR RI dan Sidang Bersama DPR-DPD RI Tahun 2025",
+      "summary_id": "MPR RI menyelenggarakan Sidang Tahunan untuk memfasilitasi pertanggungjawaban dan laporan kinerja seluruh lembaga negara konstitusional di hadapan wakil rakyat dan publik dalam rangka peringatan 80 Tahun Kemerdekaan Indonesia.",
+      "source_ids": [
+        "risalah-sidang-mpr-2025"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-ky-laptah-2025",
+      "term_id": "ky-2020-sekarang",
+      "date": "2026-01-28",
+      "category": "kebijakan",
+      "title_id": "Rilis Laporan Tahunan KY 2025 - Penguatan Integritas dan Kode Etik Hakim",
+      "summary_id": "Komisi Yudisial merilis laporan tahunan penegakan kehormatan peradilan sepanjang 2025, meningkatkan investigasi terpadu bersama Badan Pengawasan MA untuk memulihkan kepercayaan publik terhadap institusi kehakiman.",
+      "source_ids": [
+        "laporan-tahunan-ky-2025"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-bpk-ihps-i-2025",
+      "term_id": "bpk-2019-sekarang",
+      "date": "2026-05-20",
+      "category": "kebijakan",
+      "title_id": "Penyerahan IHPS I Tahun 2025 dan Audit Pengawasan Keuangan Program MBG",
+      "summary_id": "BPK RI menyerahkan IHPS I 2025 yang mencakup hasil audit investigatif dan kinerja atas tata kelola pengadaan bahan pangan program Makan Bergizi Gratis (MBG) guna memastikan efisiensi anggaran dan zero-corruption di seluruh satuan pelayanan gizi daerah.",
+      "source_ids": [
+        "ihps-i-bpk-2025"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-mpr-sidang-tahunan-2026",
+      "term_id": "mpr-2024-sekarang",
+      "date": "2026-08-16",
+      "category": "peristiwa",
+      "title_id": "Sidang Tahunan MPR RI dan Sidang Bersama DPR-DPD RI 16 Agustus 2026 (Refleksi 81 Tahun RI)",
+      "summary_id": "MPR RI menggelar Sidang Tahunan 2026 menyongsong HUT RI ke-81, mengevaluasi pencapaian kemandirian ekonomi, kedaulatan pangan, stabilitas demokrasi konstitusional, dan penegakan hukum berkeadilan di seluruh organ negara UUD 1945.",
+      "source_ids": [
+        "risalah-sidang-mpr-2026"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ]
     }
   ],
   "sources": [
@@ -10044,6 +10224,96 @@
       "year": 2024,
       "citation_id": "MPR RI Berita Acara Pelantikan 20 Oktober 2024",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Berita%20Acara%20Pengucapan%20Sumpah%20Presiden%20Prabowo%20Subianto%20dan%20Wapres%20Gibran%20Rakabuming%20Raka"
+    },
+    {
+      "id": "keppres-133-p-2024",
+      "type": "keppres",
+      "title_id": "Keppres No. 133/P Tahun 2024 tentang Pembentukan Kementerian Negara dan Pengangkatan Menteri Kabinet Merah Putih",
+      "year": 2024,
+      "citation_id": "Keppres No. 133/P Tahun 2024",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=KEPPRES%20133"
+    },
+    {
+      "id": "putusan-mk-168-puu-xxi-2023",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 168/PUU-XXI/2023 (Pengujian UU Cipta Kerja Klaster Ketenagakerjaan dan Perintah Pembentukan UU Baru)",
+      "year": 2024,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=168/PUU-XXI/2023",
+      "citation_id": "Putusan MKRI No. 168/PUU-XXI/2023",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=168/PUU-XXI/2023"
+    },
+    {
+      "id": "uu-62-2024",
+      "type": "undang-undang",
+      "title_id": "UU No. 62 Tahun 2024 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2025",
+      "year": 2024,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=62&thn=2024",
+      "citation_id": "LN No. 201 Tahun 2024, TLN No. 6980",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=62&thn=2024"
+    },
+    {
+      "id": "laporan-pilkada-kpu-2024",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Penyelenggaraan Pemilihan Kepala Daerah Serentak Nasional 2024 di 545 Daerah",
+      "year": 2025,
+      "citation_id": "KPU Laporan Pilkada Serentak 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Penyelenggaraan%20Pemilihan%20Kepala%20Daerah%20Serentak%20Nasional%202024%20di%20545%20Daerah"
+    },
+    {
+      "id": "sk-ma-ketua-2024",
+      "type": "putusan-ma",
+      "title_id": "Keputusan Sidang Paripurna Khusus Mahkamah Agung No. 01/KMA/SK/X/2024 tentang Pemilihan Ketua MA RI",
+      "year": 2024,
+      "citation_id": "MA RI SK Pemilihan Ketua MA 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Keputusan%20Sidang%20Paripurna%20Khusus%20Mahkamah%20Agung%20No.%2001%2FKMA%2FSK%2FX%2F2024%20tentang%20Pemilihan%20Ketua%20MA%20RI"
+    },
+    {
+      "id": "ihps-ii-bpk-2024",
+      "type": "laporan-lembaga",
+      "title_id": "Ikhtisar Hasil Pemeriksaan Semester (IHPS) II Tahun 2024 BPK RI",
+      "year": 2025,
+      "citation_id": "BPK RI IHPS II 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Ikhtisar%20Hasil%20Pemeriksaan%20Semester%20(IHPS)%20II%20Tahun%202024%20BPK%20RI"
+    },
+    {
+      "id": "ihps-i-bpk-2025",
+      "type": "laporan-lembaga",
+      "title_id": "Ikhtisar Hasil Pemeriksaan Semester (IHPS) I Tahun 2025 BPK RI",
+      "year": 2026,
+      "citation_id": "BPK RI IHPS I 2025",
+      "resolved_url": "https://duckduckgo.com/?q=Ikhtisar%20Hasil%20Pemeriksaan%20Semester%20(IHPS)%20I%20Tahun%202025%20BPK%20RI"
+    },
+    {
+      "id": "laporan-tahunan-ky-2025",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Tahunan Komisi Yudisial RI Tahun 2025 - Pengawasan dan Peningkatan Integritas Hakim",
+      "year": 2026,
+      "citation_id": "Komisi Yudisial Laptah 2025",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Tahunan%20Komisi%20Yudisial%20RI%20Tahun%202025%20-%20Pengawasan%20dan%20Peningkatan%20Integritas%20Hakim"
+    },
+    {
+      "id": "risalah-sidang-mpr-2025",
+      "type": "dokumen-mpr",
+      "title_id": "Risalah Sidang Tahunan MPR RI dan Sidang Bersama DPR-DPD RI 16 Agustus 2025",
+      "year": 2025,
+      "citation_id": "MPR RI Risalah Sidang Tahunan 2025",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Risalah%20Sidang%20Tahunan%20MPR%20RI%20dan%20Sidang%20Bersama%20DPR-DPD%20RI%2016%20Agustus%202025"
+    },
+    {
+      "id": "risalah-sidang-mpr-2026",
+      "type": "dokumen-mpr",
+      "title_id": "Risalah Sidang Tahunan MPR RI dan Sidang Bersama DPR-DPD RI 16 Agustus 2026",
+      "year": 2026,
+      "citation_id": "MPR RI Risalah Sidang Tahunan 2026",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Risalah%20Sidang%20Tahunan%20MPR%20RI%20dan%20Sidang%20Bersama%20DPR-DPD%20RI%2016%20Agustus%202026"
+    },
+    {
+      "id": "perpres-danantara-2025",
+      "type": "keppres",
+      "title_id": "Peraturan Presiden tentang Pembentukan Badan Pengelola Investasi Daya Anagata Nusantara (BPI Danantara)",
+      "year": 2025,
+      "citation_id": "Perpres BPI Danantara 2025",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Peraturan%20Presiden%20tentang%20Pembentukan%20Badan%20Pengelola%20Investasi%20Daya%20Anagata%20Nusantara%20(B"
     }
   ],
   "assessments": [
