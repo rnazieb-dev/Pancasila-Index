@@ -9,16 +9,22 @@
   actors:
     - name: R. Soerasno
       role_id: Ketua BPK pertama (1947–1949)
+      actor_id: r-soerasno
     - name: R. Kasirman
       role_id: Ketua BPK (1949–1957)
+      actor_id: r-kasirman
     - name: Sri Sultan Hamengkubuwono IX
       role_id: Ketua BPK (1964–1966)
+      actor_id: sri-sultan-hamengkubuwono-ix
     - name: Umar Wirahadikusumah
       role_id: Ketua BPK (1973–1983)
+      actor_id: umar-wirahadikusumah
     - name: M. Jusuf
       role_id: Ketua BPK (1983–1993)
+      actor_id: m-jusuf
     - name: JB Sumarlin
       role_id: Ketua BPK (1993–1998)
+      actor_id: jb-sumarlin
 
 - id: bpk-1998-2009
   institution_id: bpk-ri
@@ -29,10 +35,13 @@
   actors:
     - name: Satrio Budihardjo Joedono
       role_id: Ketua BPK RI (1998–2004)
+      actor_id: satrio-budihardjo-joedono
     - name: Anwar Nasution
       role_id: Ketua BPK RI (2004–2009)
+      actor_id: anwar-nasution
     - name: Abdullah Zainie
       role_id: Wakil Ketua BPK RI (2004–2009)
+      actor_id: abdullah-zainie
 
 - id: bpk-2009-2019
   institution_id: bpk-ri
@@ -43,12 +52,16 @@
   actors:
     - name: Hadi Poernomo
       role_id: Ketua BPK RI (2009–2014)
+      actor_id: hadi-poernomo
     - name: Harry Azhar Azis
       role_id: Ketua BPK RI (2014–2017)
+      actor_id: harry-azhar-azis
     - name: Moermahadi Soerja Djanegara
       role_id: Ketua BPK RI (2017–2019)
+      actor_id: moermahadi-soerja-djanegara
     - name: Bahrullah Akbar
       role_id: Wakil Ketua BPK RI (2017–2019)
+      actor_id: bahrullah-akbar
 
 - id: bpk-2019-sekarang
   institution_id: bpk-ri
@@ -59,9 +72,13 @@
   actors:
     - name: Agung Firman Sampurna
       role_id: Ketua BPK RI (2019–2022)
+      actor_id: agung-firman-sampurna
     - name: Isma Yatun
       role_id: Ketua BPK RI (2022–kini)
+      actor_id: isma-yatun
     - name: Agus Joko Pramono
       role_id: Wakil Ketua BPK RI (2019–2023)
+      actor_id: agus-joko-pramono
     - name: Hendra Susanto
       role_id: Wakil Ketua BPK RI (2023–kini)
+      actor_id: hendra-susanto

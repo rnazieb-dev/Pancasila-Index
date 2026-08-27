@@ -25,17 +25,24 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
       );
       // Jika tidak ada data spesifik di rentang tahun, ambil 2 data point terbaru
       const displayPoints = pointsInTerm.length > 0 ? pointsInTerm : idx.data.slice(-2);
+      // Titik tanpa skor (hanya peringkat yang terbit) tidak boleh ikut
+      // dirata-ratakan - kalau ikut, angka kosong terbaca sebagai nol.
+      const scored = displayPoints.filter(
+        (p): p is typeof p & { score: number } => p.score !== null
+      );
       const avgScore =
-        displayPoints.length > 0
-          ? (
-              displayPoints.reduce((acc, p) => acc + p.score, 0) / displayPoints.length
-            ).toFixed(idx.scale.includes("0.00") ? 2 : 1)
+        scored.length > 0
+          ? (scored.reduce((acc, p) => acc + p.score, 0) / scored.length).toFixed(
+              idx.scale.includes("0.00") ? 2 : 1
+            )
           : null;
+      const unverified = displayPoints.filter((p) => !p.provenance).length;
 
       return {
         ...idx,
         displayPoints,
         avgScore,
+        unverified,
         hasExactData: pointsInTerm.length > 0,
       };
     })
@@ -43,10 +50,39 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
 
   if (relevantIndices.length === 0) return null;
 
+  const totalPoints = relevantIndices.reduce((n, i) => n + i.displayPoints.length, 0);
+  const totalUnverified = relevantIndices.reduce((n, i) => n + i.unverified, 0);
+
   const defaultBadge = {
     label: "Indeks Independen",
     bg: "bg-sky-500/10 border-sky-500/30",
     text: "text-sky-400",
+  };
+
+  const verificationLabels: Record<
+    string,
+    { label: string; bg: string; text: string; title: string }
+  > = {
+    terverifikasi: {
+      label: "Terverifikasi",
+      bg: "bg-emerald-500/10 border-emerald-500/30",
+      text: "text-emerald-300",
+      title: "Setiap titik data punya tautan sumber dan tanggal pengambilan.",
+    },
+    sebagian: {
+      label: "Sebagian terverifikasi",
+      bg: "bg-amber-500/10 border-amber-500/30",
+      text: "text-amber-300",
+      title:
+        "Hanya sebagian titik data punya sumber yang bisa ditelusuri. Titik lainnya jangan dikutip.",
+    },
+    "belum-terverifikasi": {
+      label: "Belum terverifikasi",
+      bg: "bg-red-500/10 border-red-500/30",
+      text: "text-red-300",
+      title:
+        "Belum ada titik data yang bisa ditelusuri ke penerbitnya. Angka di kartu ini tidak boleh dikutip sebagai fakta.",
+    },
   };
 
   const typeLabels: Record<string, { label: string; bg: string; text: string }> = {
@@ -93,14 +129,28 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
           </p>
         </div>
 
-        <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 px-3.5 py-2 text-[11px] text-amber-200">
-          <div className="font-bold flex items-center gap-1.5 text-amber-300">
-            <span>⚖️</span>
-            <span>Metrik Kesenjangan Fakta vs Klaim</span>
+        <div className="space-y-2">
+          <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 px-3.5 py-2 text-[11px] text-amber-200">
+            <div className="font-bold flex items-center gap-1.5 text-amber-300">
+              <span>⚖️</span>
+              <span>Metrik Kesenjangan Fakta vs Klaim</span>
+            </div>
+            <p className="mt-0.5 text-amber-200/80">
+              Bandingkan skor independen ini dengan fakta hukum di peristiwa era ini.
+            </p>
           </div>
-          <p className="mt-0.5 text-amber-200/80">
-            Bandingkan skor independen ini dengan fakta hukum di peristiwa era ini.
-          </p>
+
+          {totalUnverified > 0 && (
+            <div className="rounded-xl border border-red-500/30 bg-red-500/10 px-3.5 py-2 text-[11px] text-red-200">
+              <div className="font-bold text-red-300">
+                {totalUnverified} dari {totalPoints} angka belum tertelusur
+              </div>
+              <p className="mt-0.5 text-red-200/80">
+                Angka bertanda garis putus-putus belum bisa dilacak ke penerbitnya.
+                Jangan dikutip sebagai fakta.
+              </p>
+            </div>
+          )}
         </div>
       </div>
 
@@ -108,6 +158,8 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {relevantIndices.map((idx) => {
           const typeBadge = typeLabels[idx.type] ?? defaultBadge;
+          const verifBadge =
+            verificationLabels[idx.verification] ?? verificationLabels["belum-terverifikasi"]!;
           const isSelected = selectedIdxId === idx.id;
 
           return (
@@ -138,6 +190,15 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
                   </a>
                 </div>
 
+                <div className="mt-1.5">
+                  <span
+                    title={verifBadge.title}
+                    className={`rounded-full border px-2 py-0.5 text-[9px] font-semibold ${verifBadge.bg} ${verifBadge.text}`}
+                  >
+                    {verifBadge.label}
+                  </span>
+                </div>
+
                 <h3 className="font-bold text-sm text-white/90 mt-2.5">{idx.name}</h3>
                 <p className="text-[11px] text-slate-400">{idx.publisher}</p>
 
@@ -153,22 +214,46 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
                     {idx.hasExactData ? `Rata-rata Era (${startYear}–${endYear})` : "Skor Terkini"}
                   </span>
                   <span className="font-mono text-base font-bold text-sky-300">
-                    {idx.avgScore}{" "}
+                    {idx.avgScore ?? "—"}{" "}
                     <span className="text-[10px] font-normal text-slate-400">/ {idx.scale.split(" ")[0]}</span>
                   </span>
                 </div>
 
                 {/* Deret waktu mini */}
                 <div className="mt-2 flex items-center gap-1.5 flex-wrap">
-                  {idx.displayPoints.map((p) => (
-                    <span
-                      key={p.year}
-                      className="rounded bg-slate-800/80 px-1.5 py-0.5 font-mono text-[10px] text-slate-300 border border-slate-700"
-                      title={p.note || `${p.year}: ${p.score}`}
-                    >
-                      {p.year}: <strong className="text-sky-300">{p.score}</strong>
-                    </span>
-                  ))}
+                  {idx.displayPoints.map((p) => {
+                    const prov = p.provenance;
+                    // Garis putus-putus = angka belum tertelusur ke penerbit.
+                    // Pembeda visual ini wajib: tanpanya, angka tak bersumber
+                    // terbaca sama meyakinkan dengan angka yang sudah dilacak.
+                    return (
+                      <span
+                        key={p.year}
+                        className={`rounded px-1.5 py-0.5 font-mono text-[10px] ${
+                          prov
+                            ? "border border-slate-700 bg-slate-800/80 text-slate-300"
+                            : "border border-dashed border-red-500/40 bg-red-950/20 text-slate-400"
+                        }`}
+                        title={
+                          prov
+                            ? `${p.year}: ${p.score ?? "peringkat saja"}${
+                                p.rank ? ` (peringkat ${p.rank})` : ""
+                              }\nSumber: ${prov.url}\nDiambil: ${prov.retrieved_at} (${prov.method})${
+                                p.note ? `\n${p.note}` : ""
+                              }`
+                            : `${p.year}: BELUM TERVERIFIKASI - tidak ada tautan sumber. Jangan dikutip.${
+                                p.note ? `\n${p.note}` : ""
+                              }`
+                        }
+                      >
+                        {p.year}:{" "}
+                        <strong className={prov ? "text-sky-300" : "text-slate-400"}>
+                          {p.score ?? (p.rank ? `#${p.rank}` : "—")}
+                        </strong>
+                        {!prov && <span className="ml-0.5 text-red-400/70">?</span>}
+                      </span>
+                    );
+                  })}
                 </div>
               </div>
 

@@ -9,8 +9,10 @@
   actors:
     - name: M. Busyro Muqoddas
       role_id: Ketua Komisi Yudisial RI (2005–2010)
+      actor_id: m-busyro-muqoddas
     - name: Thahir Saimima
       role_id: Wakil Ketua Komisi Yudisial RI (2005–2010)
+      actor_id: thahir-saimima
 
 - id: ky-2010-2015
   institution_id: komisi-yudisial
@@ -21,12 +23,16 @@
   actors:
     - name: Eman Suparman
       role_id: Ketua Komisi Yudisial RI (2010–2013)
+      actor_id: eman-suparman
     - name: Suparman Marzuki
       role_id: Ketua Komisi Yudisial RI (2013–2015)
+      actor_id: suparman-marzuki
     - name: Imam Anshori Saleh
       role_id: Wakil Ketua Komisi Yudisial RI (2010–2013)
+      actor_id: imam-anshori-saleh
     - name: Abbas Said
       role_id: Wakil Ketua Komisi Yudisial RI (2013–2015)
+      actor_id: abbas-said
 
 - id: ky-2015-2020
   institution_id: komisi-yudisial
@@ -37,12 +43,16 @@
   actors:
     - name: Aidul Fitriciada Azhari
       role_id: Ketua Komisi Yudisial RI (2016–2018)
+      actor_id: aidul-fitriciada-azhari
     - name: Jaja Ahmad Jayus
       role_id: Ketua Komisi Yudisial RI (2018–2020)
+      actor_id: jaja-ahmad-jayus
     - name: Sukma Violetta
       role_id: Wakil Ketua Komisi Yudisial RI (2016–2018)
+      actor_id: sukma-violetta
     - name: Maradaman Harahap
       role_id: Wakil Ketua Komisi Yudisial RI (2018–2020)
+      actor_id: maradaman-harahap
 
 - id: ky-2020-sekarang
   institution_id: komisi-yudisial
@@ -53,9 +63,13 @@
   actors:
     - name: Mukti Fajar Nur Dewata
       role_id: Ketua Komisi Yudisial RI (2021–2023)
+      actor_id: mukti-fajar-nur-dewata
     - name: Amzulian Rifai
       role_id: Ketua Komisi Yudisial RI (2023–kini)
+      actor_id: amzulian-rifai
     - name: M. Taufiq HZ
       role_id: Wakil Ketua Komisi Yudisial RI (2021–2023)
+      actor_id: m-taufiq-hz
     - name: Siti Nurljanah
       role_id: Wakil Ketua Komisi Yudisial RI (2023–kini)
+      actor_id: siti-nurljanah

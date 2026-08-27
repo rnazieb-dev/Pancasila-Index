@@ -20,3 +20,7 @@ dist/
 coverage/
 .vercel
 .env*
+
+# hasil unduhan indeks eksternal: artefak lokal, bukan data kurasi
+packages/data/generated/external-indices-fetched.json
+packages/data/raw/external-indices/

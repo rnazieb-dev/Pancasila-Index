@@ -1,0 +1,109 @@
+# Perkara hukum yang melibatkan aktor ketatanegaraan.
+#
+# ATURAN KERAS berkas ini:
+#
+# 1. `source_ids` minimal satu - skema menolak perkara tanpa dokumen.
+#    Tidak ada nama yang masuk hanya karena "ramai diberitakan".
+# 2. `status` wajib eksplisit dan dibaca apa adanya:
+#       terlapor    - baru dilaporkan/diadukan
+#       tersangka   - sudah ditetapkan penyidik, BELUM diadili
+#       terdakwa    - sedang diadili
+#       terpidana   - sudah divonis, belum berkekuatan hukum tetap
+#       inkracht    - vonis berkekuatan hukum tetap
+#       bebas       - diputus bebas atau lepas
+#       dihentikan  - penuntutan dihentikan (SP3/SKP2/deponering)
+#    UI wajib menampilkan status ini bersama nama. Asas praduga tak bersalah
+#    tidak boleh tergilas hanya karena tampilan indeks terlihat tegas.
+# 3. `loss_idr` hanya diisi bila angkanya berasal dari audit resmi yang
+#    disitasi - bukan dari angka yang beredar di pemberitaan.
+
+- id: case-akil-mochtar-suap-pilkada
+  actor_id: akil-mochtar
+  title_id: Suap penanganan sengketa pilkada di Mahkamah Konstitusi
+  status: inkracht
+  status_date: "2014"
+  sentence_id: Pidana penjara seumur hidup
+  summary_id: >-
+    Ketua Mahkamah Konstitusi yang sedang menjabat ditangkap tangan KPK saat menerima
+    suap penanganan sengketa pilkada, lalu divonis pidana penjara seumur hidup yang
+    dikuatkan hingga tingkat kasasi.
+  source_ids: [putusan-ma-akil-2014]
+  event_ids: [ev-mk2-akil-mochtar]
+
+- id: case-setya-novanto-ektp
+  actor_id: setya-novanto
+  title_id: Korupsi pengadaan Kartu Tanda Penduduk elektronik (e-KTP)
+  status: terpidana
+  status_date: "2018-04"
+  sentence_id: 15 tahun penjara
+  loss_idr: 2314000000000
+  summary_id: >-
+    Ketua DPR RI yang sedang menjabat divonis 15 tahun penjara oleh Pengadilan Tipikor
+    atas korupsi pengadaan e-KTP. Nilai kerugian negara mengacu pada penghitungan resmi
+    BPK RI sebesar Rp2,314 triliun, bukan pada angka yang beredar di pemberitaan.
+  source_ids: [berita-ektp-setnov-2018, laporan-audit-bpk-ektp-2017]
+  event_ids: [ev-jokowi1-ektp-setnov, ev-bpk-audit-ektp-2017]
+
+- id: case-juliari-batubara-bansos
+  actor_id: juliari-batubara
+  title_id: Suap pengadaan bantuan sosial COVID-19
+  status: terpidana
+  status_date: "2021"
+  sentence_id: 12 tahun penjara
+  summary_id: >-
+    Menteri Sosial yang sedang menjabat ditangkap KPK pada 6 Desember 2020 atas uang
+    pangkal dari distribusi bantuan sosial pandemi, lalu divonis 12 tahun penjara.
+  source_ids: [berita-juliari-bansos-2020]
+  event_ids: [ev-jokowi2-juliari-bansos]
+
+- id: case-zarof-ricar-suap-kasasi
+  actor_id: zarof-ricar
+  title_id: Dugaan percaloan perkara dan suap vonis kasasi di Mahkamah Agung
+  status: tersangka
+  status_date: "2024-10-25"
+  summary_id: >-
+    Kejaksaan Agung menetapkan mantan pejabat Mahkamah Agung sebagai tersangka setelah
+    menyita uang tunai dan logam mulia dari kediamannya. Status masih tersangka pada
+    dokumen yang disitasi - belum ada putusan pengadilan, sehingga tidak boleh dibaca
+    sebagai kesalahan yang sudah terbukti.
+  source_ids: [bap-kejagung-zarof-ricar-2024, laporan-icw-korupsi-penegak-hukum-2024]
+  event_ids: [ev-ma-skandal-zarof-ricar-2024]
+
+- id: case-erintuah-damanik-suap-tannur
+  actor_id: erintuah-damanik
+  title_id: Dugaan suap vonis bebas perkara pembunuhan di PN Surabaya
+  status: tersangka
+  status_date: "2024-10"
+  summary_id: >-
+    Hakim Pengadilan Negeri Surabaya terjaring operasi tangkap tangan Kejaksaan Agung atas
+    dugaan suap vonis bebas, yang kemudian dibatalkan Mahkamah Agung pada tingkat kasasi.
+    Status pada dokumen sumber masih tersangka.
+  source_ids: [bap-kejagung-zarof-ricar-2024, putusan-ma-ronald-tannur-2024]
+  event_ids: [ev-ma-skandal-zarof-ricar-2024, ev-ma-mkh-ronald-tannur-2024]
+
+# Dua perkara berikut berstatus `dihentikan`: yang bermasalah bukan pejabatnya,
+# melainkan perkara yang dipaksakan kepada mereka.
+
+- id: case-bibit-samad-rianto-kriminalisasi
+  actor_id: bibit-samad-rianto
+  title_id: Penetapan tersangka atas pimpinan KPK yang dihentikan penuntutannya
+  status: dihentikan
+  status_date: "2009-11-23"
+  summary_id: >-
+    Wakil Ketua KPK ditetapkan tersangka oleh kepolisian beberapa hari setelah menangani
+    perkara yang menyentuh elite penegak hukum. Tim 8 Independen menyimpulkan perkara
+    tersebut bermasalah dan Kejaksaan menerbitkan SKP2 yang menghentikan penuntutan.
+  source_ids: [rekomendasi-tim-8-kriminalisasi-kpk-2009, skp2-kejaksaan-bibit-chandra-2009]
+  event_ids: [ev-kriminalisasi-bibit-chandra-2009, ev-sby2-bibit-chandra]
+
+- id: case-chandra-m-hamzah-kriminalisasi
+  actor_id: chandra-m-hamzah
+  title_id: Penetapan tersangka atas pimpinan KPK yang dihentikan penuntutannya
+  status: dihentikan
+  status_date: "2009-11-23"
+  summary_id: >-
+    Wakil Ketua KPK ditetapkan tersangka bersama Bibit Samad Rianto dalam rangkaian
+    peristiwa Cicak vs Buaya I. Penuntutan dihentikan melalui SKP2 Kejaksaan setelah
+    rekomendasi Tim 8 Independen.
+  source_ids: [rekomendasi-tim-8-kriminalisasi-kpk-2009, skp2-kejaksaan-bibit-chandra-2009]
+  event_ids: [ev-kriminalisasi-bibit-chandra-2009, ev-sby2-bibit-chandra]

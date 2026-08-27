@@ -54,6 +54,11 @@
     sebesar Rp8,032 triliun kepada Kejaksaan Agung RI, yang menjerat Menteri Kominfo dan pejabat pelaksana proyek digitalisasi daerah 3T.
   source_ids: [laporan-audit-bpk-bts-2023]
   dimension_ids: [checks-balances, negara-hukum]
+  subject_term_id: presiden-jokowi-ii
+  subject_basis_id: >-
+    LHP menyasar penyediaan infrastruktur BTS 4G BAKTI Kominfo yang dikerjakan di dalam
+    masa jabatan ini dan menjerat Menteri Kominfo beserta pejabat pelaksananya, meski
+    laporan penghitungan kerugian negaranya diserahkan pada 2023.
 
 - id: ev-mk-putusan-calon-tunggal-2015
   term_id: mk-2013-2018
@@ -109,6 +114,10 @@
     mengungkap kerugian negara dan praktik suap lintas batas yang melibatkan pabrikan asing dan manajemen maskapai nasional.
   source_ids: [laporan-audit-bpk-garuda-2020]
   dimension_ids: [checks-balances, negara-hukum]
+  subject_term_id: presiden-sby-ii
+  subject_basis_id: >-
+    LHP memeriksa pengadaan armada Bombardier CRJ-1000 dan ATR 72-600 PT Garuda Indonesia yang dikontrak di
+    dalam masa jabatan ini, meski laporannya keluar 2020.
 
 - id: ev-bpk-audit-asabri-2021
   term_id: bpk-2019-sekarang
@@ -120,6 +129,10 @@
     sebesar Rp22,78 triliun, salah satu skandal korupsi terbesar di sektor asuransi prajurit TNI, Polri, dan ASN Kemenhan.
   source_ids: [laporan-audit-bpk-asabri-2021]
   dimension_ids: [checks-balances, negara-hukum]
+  subject_term_id: presiden-jokowi-i
+  subject_basis_id: >-
+    Penghitungan kerugian negara menyasar pengelolaan dana investasi PT ASABRI yang berlangsung lintas
+    periode dan berakhir di dalam masa jabatan ini.
 
 - id: ev-ma-kasasi-jiwasraya-2021
   term_id: ma-reformasi-sekarang
@@ -131,6 +144,10 @@
     menguatkan vonis pidana penjara seumur hidup dan uang pengganti belasan triliun rupiah demi kepastian hukum dan perlindungan nasabah polis.
   source_ids: [putusan-kasasi-ma-jiwasraya-2021]
   dimension_ids: [negara-hukum, sila-5]
+  subject_term_id: presiden-jokowi-i
+  subject_basis_id: >-
+    Putusan kasasi mengadili korupsi pengelolaan investasi PT Asuransi Jiwasraya yang perbuatannya
+    berlangsung lintas periode dan terbongkar di dalam masa jabatan ini.
 
 - id: ev-dpr-uu-ikn-2022
   term_id: dpr-2019-2024
@@ -186,6 +203,7 @@
     disusul operasi tangkap tangan Kejaksaan Agung terhadap tiga hakim PN Surabaya dan mantan pejabat MA atas dugaan suap suap pengondisian perkara.
   source_ids: [putusan-ma-ronald-tannur-2024]
   dimension_ids: [negara-hukum, checks-balances]
+  actor_ids: [erintuah-damanik]
 
 - id: ev-mk-putusan-netralitas-pilkada-2024
   term_id: mk-2023-sekarang
@@ -483,6 +501,10 @@
     mencakup kerugian ekologis dan biaya pemulihan lingkungan akibat penambangan ilegal di kawasan hutan lindung Bangka Belitung.
   source_ids: [laporan-audit-bpk-timah-2024]
   dimension_ids: [sila-5, checks-balances]
+  subject_term_id: presiden-jokowi-ii
+  subject_basis_id: >-
+    Audit menyebut tegas periode tata niaga timah yang diperiksa, 2015-2022, yang berakhir di dalam masa
+    jabatan ini.
 
 - id: ev-dpr-uu-hpp-pps-2021
   term_id: dpr-2019-2024
@@ -560,6 +582,11 @@
     menjadi bukti kunci persidangan tipikor yang menjerat pimpinan DPR RI dan pejabat Kemendagri.
   source_ids: [laporan-audit-bpk-ektp-2017]
   dimension_ids: [checks-balances, negara-hukum]
+  actor_ids: [setya-novanto]
+  subject_term_id: presiden-sby-ii
+  subject_basis_id: >-
+    Penghitungan kerugian negara BPK menyasar pengadaan paket e-KTP nasional yang dilaksanakan Kemendagri di
+    dalam masa jabatan ini, meski laporannya keluar 2017.
 
 - id: ev-ma-perma-gugatan-sederhana-2019
   term_id: ma-reformasi-sekarang
@@ -626,6 +653,10 @@
     menegaskan delik korupsi manipulasi kuota Domestic Market Obligation (DMO) yang memicu kelangkaan minyak goreng dan penderitaan ekonomi rakyat banyak.
   source_ids: [putusan-ma-kasus-minyak-goreng-2024]
   dimension_ids: [sila-5, negara-hukum]
+  subject_term_id: presiden-jokowi-ii
+  subject_basis_id: >-
+    Putusan kasasi mengadili pejabat Kemendag atas manipulasi kuota DMO dan persetujuan ekspor CPO pada masa
+    kelangkaan minyak goreng di dalam masa jabatan ini.
 
 - id: ev-kriminalisasi-budi-pego-tumpang-pitu-2018
   term_id: ma-reformasi-sekarang
@@ -747,6 +778,10 @@
     menegaskan ketegasan yudisial dalam melindungi integritas dana pensiun prajurit pertahanan dan keamanan negara.
   source_ids: [putusan-ma-asabri-2023]
   dimension_ids: [checks-balances, negara-hukum]
+  subject_term_id: presiden-jokowi-i
+  subject_basis_id: >-
+    Perkara yang diadili adalah megakorupsi pengelolaan dana investasi PT ASABRI, objek audit yang sama
+    dengan LHP BPK 2021.
 
 - id: ev-keppres-satgas-blbi-2021
   term_id: presiden-jokowi-ii
@@ -835,6 +870,9 @@
     dan maraknya kasus tipikor kepala desa akibat minimnya sistem pengawasan terpadu di tingkat kabupaten/kota meski transfer anggaran telah menembus Rp468 triliun.
   source_ids: [laporan-bpk-evaluasi-dana-desa-2022]
   dimension_ids: [checks-balances, tujuan-2]
+  subject_term_id: presiden-jokowi-ii
+  subject_basis_id: >-
+    Pemeriksaan kinerja menyasar pengelolaan dana desa yang berjalan di dalam masa jabatan ini.
 
 - id: ev-kasasi-polusi-udara-jakarta-2023
   term_id: ma-reformasi-sekarang

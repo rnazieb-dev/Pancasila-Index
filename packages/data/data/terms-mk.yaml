@@ -9,8 +9,10 @@
   actors:
     - name: Jimly Asshiddiqie
       role_id: Ketua MK pertama (2003–2008)
+      actor_id: jimly-asshiddiqie
     - name: Mohammad Laica Marzuki
       role_id: Wakil Ketua MK (2003–2008)
+      actor_id: mohammad-laica-marzuki
 
 - id: mk-2008-2013
   institution_id: mahkamah-konstitusi
@@ -21,8 +23,10 @@
   actors:
     - name: Mohammad Mahfud MD
       role_id: Ketua MK (2008–2013)
+      actor_id: mohammad-mahfud-md
     - name: Akil Mochtar
       role_id: Ketua MK (2013, diberhentikan karena OTT KPK)
+      actor_id: akil-mochtar
 
 - id: mk-2013-2018
   institution_id: mahkamah-konstitusi
@@ -33,8 +37,10 @@
   actors:
     - name: Hamdan Zoelva
       role_id: Ketua MK (2013–2015)
+      actor_id: hamdan-zoelva
     - name: Arief Hidayat
       role_id: Ketua MK (2015–2018)
+      actor_id: arief-hidayat
 
 - id: mk-2018-2023
   institution_id: mahkamah-konstitusi
@@ -45,8 +51,10 @@
   actors:
     - name: Arief Hidayat
       role_id: Ketua MK (2018–2022)
+      actor_id: arief-hidayat
     - name: Anwar Usman
       role_id: Ketua MK (2022–2023, diberhentikan dari jabatan Ketua oleh MKMK)
+      actor_id: anwar-usman
 
 - id: mk-2023-sekarang
   institution_id: mahkamah-konstitusi
@@ -57,5 +65,7 @@
   actors:
     - name: Suhartoyo
       role_id: Ketua MK (2023–kini)
+      actor_id: suhartoyo
     - name: Saldi Isra
       role_id: Wakil Ketua MK (2023–kini)
+      actor_id: saldi-isra

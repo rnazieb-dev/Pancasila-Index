@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import {
   dataset,
   getAssessmentsOfTerm,
+  getEventsAboutTerm,
   getEventsOfTerm,
   getInstitution,
   getSource,
@@ -44,6 +45,13 @@ export default async function TermPage({
   const summary = termSummary(term.id);
   const assessments = getAssessmentsOfTerm(dataset, term.id);
   const events = getEventsOfTerm(dataset, term.id);
+  // Peristiwa yang menjadikan periode ini subjek pemeriksaan meski dicatat di
+  // lembaga lain - tanpa ini, audit BPK atau putusan MA atas perkara pejabat
+  // periode ini hanya tampil di profil lembaga yang membongkarnya.
+  const eventsAbout = getEventsAboutTerm(dataset, term.id);
+  const actorsById = new Map(dataset.actors.map((a) => [a.id, a]));
+  const institutionsById = new Map(dataset.institutions.map((i) => [i.id, i]));
+  const termsById = new Map(dataset.terms.map((t) => [t.id, t]));
 
   const silaDims = dataset.rubric.dimensions.filter(
     (d) => d.group_id === "sila"
@@ -85,7 +93,22 @@ export default async function TermPage({
 
       {term.actors.length > 0 && (
         <p className="mt-2 text-sm text-[var(--muted)]">
-          {term.actors.map((a) => `${a.name} (${a.role_id})`).join(" · ")}
+          {term.actors.map((a, i) => (
+            <span key={`${a.name}-${i}`}>
+              {i > 0 && " · "}
+              {a.actor_id ? (
+                <Link
+                  href={`/aktor/${a.actor_id}`}
+                  className="text-sky-400 underline decoration-dotted underline-offset-2 hover:text-sky-300"
+                >
+                  {a.name}
+                </Link>
+              ) : (
+                a.name
+              )}{" "}
+              ({a.role_id})
+            </span>
+          ))}
         </p>
       )}
 
@@ -280,6 +303,22 @@ export default async function TermPage({
                 </div>
                 <div className="mt-1 font-medium">{ev.title_id}</div>
                 <p className="mt-1 text-sm text-[var(--muted)]">{ev.summary_id}</p>
+                {ev.actor_ids.length > 0 && (
+                  <div className="mt-2 flex flex-wrap items-center gap-1.5">
+                    <span className="text-[10px] uppercase tracking-wide text-[var(--muted)]">
+                      Aktor:
+                    </span>
+                    {ev.actor_ids.map((aid) => (
+                      <Link
+                        key={aid}
+                        href={`/aktor/${aid}`}
+                        className="rounded-full border border-amber-500/30 bg-amber-500/10 px-2 py-0.5 text-[11px] text-amber-200 hover:border-amber-400"
+                      >
+                        {actorsById.get(aid)?.name ?? aid}
+                      </Link>
+                    ))}
+                  </div>
+                )}
                 <div className="mt-2 flex flex-wrap gap-1.5">
                   {ev.source_ids.map((sid) => {
                     const src = dataset.sources.find((s) => s.id === sid);
@@ -311,7 +350,98 @@ export default async function TermPage({
           </ol>
         </section>
       )}
+      {/* Peristiwa yang menjadikan periode ini SUBJEK, dicatat di lembaga lain */}
+      {eventsAbout.length > 0 && (
+        <section className="mt-12">
+          <h2 className="text-lg font-semibold">Diperiksa oleh lembaga lain</h2>
+          <p className="mt-1 max-w-2xl text-xs leading-relaxed text-[var(--muted)]">
+            Audit, dakwaan, atau putusan yang objek pemeriksaannya jatuh di dalam masa
+            jabatan ini, tetapi dicatat pada masa jabatan lembaga yang membongkarnya
+            (BPK, MA, Kejaksaan). Sebelum ada penautan ini, perkara semacam itu hanya
+            tampil di profil pembongkarnya - sehingga hilang dari halaman pihak yang
+            diperiksa.
+          </p>
+          <ol className="mt-4 space-y-3">
+            {eventsAbout.map((ev) => {
+              const recordedIn = termsById.get(ev.term_id);
+              const recordedInst = recordedIn
+                ? institutionsById.get(recordedIn.institution_id)
+                : undefined;
+              return (
+                <li
+                  key={ev.id}
+                  className="rounded-lg border border-amber-500/25 bg-amber-950/10 px-4 py-3"
+                >
+                  <div className="flex flex-wrap items-baseline gap-x-3">
+                    <span className="font-mono text-xs text-[var(--muted)]">{ev.date}</span>
+                    <span className="text-[11px] uppercase tracking-wide text-amber-400/80">
+                      {ev.category}
+                    </span>
+                    {recordedIn && recordedInst && (
+                      <Link
+                        href={`/lembaga/${recordedInst.slug}/${recordedIn.id}`}
+                        className="text-[11px] text-sky-400 hover:text-sky-300"
+                      >
+                        dicatat di {recordedIn.label_id} &rarr;
+                      </Link>
+                    )}
+                  </div>
+                  <div className="mt-1 font-medium">{ev.title_id}</div>
+                  <p className="mt-1 text-sm text-[var(--muted)]">{ev.summary_id}</p>
+                  {ev.subject_basis_id && (
+                    <p className="mt-2 rounded border border-[var(--line)] bg-[var(--bg)] px-2.5 py-2 text-[11px] leading-relaxed text-[var(--muted)]">
+                      <strong className="text-white/80">Dasar re-atribusi: </strong>
+                      {ev.subject_basis_id}
+                    </p>
+                  )}
+                  {ev.actor_ids.length > 0 && (
+                    <div className="mt-2 flex flex-wrap items-center gap-1.5">
+                      <span className="text-[10px] uppercase tracking-wide text-[var(--muted)]">
+                        Aktor:
+                      </span>
+                      {ev.actor_ids.map((aid) => (
+                        <Link
+                          key={aid}
+                          href={`/aktor/${aid}`}
+                          className="rounded-full border border-amber-500/30 bg-amber-500/10 px-2 py-0.5 text-[11px] text-amber-200 hover:border-amber-400"
+                        >
+                          {actorsById.get(aid)?.name ?? aid}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                  <div className="mt-2 flex flex-wrap gap-1.5">
+                    {ev.source_ids.map((sid) => {
+                      const src = dataset.sources.find((s) => s.id === sid);
+                      const href = src?.resolved_url ?? src?.url;
+                      return href ? (
+                        <a
+                          key={sid}
+                          href={href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          title={src?.title_id ?? sid}
+                          className="max-w-xs truncate rounded border border-[var(--line)] bg-[var(--bg)] px-2 py-0.5 text-[11px] text-sky-400 hover:border-sky-700 hover:text-sky-300"
+                        >
+                          &#128196; {src?.title_id ?? sid} &uarr;
+                        </a>
+                      ) : (
+                        <span
+                          key={sid}
+                          className="max-w-xs truncate rounded border border-[var(--line)] bg-[var(--bg)] px-2 py-0.5 text-[11px] text-[var(--muted)]"
+                        >
+                          &#128196; {sourceTitle(sid)}
+                        </span>
+                      );
+                    })}
+                  </div>
+                </li>
+              );
+            })}
+          </ol>
+        </section>
+      )}
+
     </div>
   );
 }
-

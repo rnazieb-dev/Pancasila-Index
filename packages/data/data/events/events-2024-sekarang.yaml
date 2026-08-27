@@ -165,6 +165,7 @@
     hasil percaloan perkara dan suap vonis kasasi, menyusul OTT terhadap 3 hakim PN Surabaya (Erintuah Damanik dkk.) penerima suap vonis bebas pembunuhan Ronald Tannur.
   source_ids: [bap-kejagung-zarof-ricar-2024, laporan-icw-korupsi-penegak-hukum-2024]
   dimension_ids: [negara-hukum, sila-2]
+  actor_ids: [zarof-ricar, erintuah-damanik]
 
 - id: ev-mbg-risiko-korupsi-pengadaan-2025
   term_id: presiden-prabowo
@@ -189,6 +190,10 @@
     pencucian uang korporasi cangkang, dan keterlibatan oknum regulator lintas sektor.
   source_ids: [dakwaan-kejagung-timah-2024, uud-nri-1945]
   dimension_ids: [tujuan-2, sila-5]
+  subject_term_id: presiden-jokowi-ii
+  subject_basis_id: >-
+    Surat dakwaan menyebut tegas periode perbuatan 2015-2022, yang berakhir di dalam masa jabatan ini, meski
+    persidangannya berjalan pada masa jabatan berikutnya.
 
 - id: ev-dwifungsi-tni-polri-jabatan-sipil-2024
   term_id: presiden-prabowo
