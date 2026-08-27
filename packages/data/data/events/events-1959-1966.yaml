@@ -99,3 +99,26 @@
   source_ids: [tritura-1966]
   dimension_ids: [kedaulatan-rakyat, sila-5]
 
+- id: ev-pidato-manipol-usdek-1959
+  term_id: presiden-soekarno-ii
+  date: "1959-08-17"
+  category: kebijakan
+  title_id: Pidato Penemuan Kembali Revolusi Kita (Manifesto Politik / Manipol-USDEK)
+  summary_id: >-
+    Presiden Sukarno menyampaikan pidato kenegaraan yang kemudian ditetapkan oleh DPAS dan MPRS sebagai Garis-Garis Besar Haluan Negara,
+    memperkenalkan doktrin USDEK (UUD 1945, Sosialisme Indonesia, Demokrasi Terpimpin, Ekonomi Terpimpin, Kepribadian Indonesia).
+  source_ids: [pidato-manipol-usdek-1959]
+  dimension_ids: [sila-3, kedaulatan-rakyat]
+
+- id: ev-komando-dwikora-1964
+  term_id: presiden-soekarno-ii
+  date: "1964-05-03"
+  category: kebijakan
+  title_id: Dwi Komando Rakyat (Dwikora) - Konfrontasi Menentang Pembentukan Malaysia
+  summary_id: >-
+    Presiden Sukarno mengumumkan Komando Dwikora untuk memperhebat ketahanan revolusi Indonesia dan membantu perjuangan rakyat Malaya,
+    Singapura, Serawak, dan Sabah menggagalkan proyek neokolonialisme Federasi Malaysia.
+  source_ids: [komando-dwikora-1964]
+  dimension_ids: [tujuan-1, tujuan-4]
+
+

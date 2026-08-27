@@ -484,6 +484,40 @@
   source_ids: [laporan-audit-bpk-timah-2024]
   dimension_ids: [sila-5, checks-balances]
 
+- id: ev-dpr-uu-hpp-pps-2021
+  term_id: dpr-2019-2024
+  date: "2021-10-29"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan (UU HPP)
+  summary_id: >-
+    DPR dan Pemerintah mengesahkan reformasi perpajakan yang menaikkan tarif PPN secara bertahap, memberlakukan pajak karbon,
+    dan menyelenggarakan Program Pengungkapan Sukarela (PPS / Tax Amnesty Jilid II) guna memperluas basis penerimaan negara.
+  source_ids: [uu-7-2021]
+  dimension_ids: [sila-5, tujuan-2]
+
+- id: ev-mk-putusan-perpanjangan-kpk-2022
+  term_id: mk-2018-2023
+  date: "2023-05-25"
+  category: pengadilan
+  title_id: Putusan MK No. 112/PUU-XX/2022 Perpanjangan Masa Jabatan Pimpinan KPK Menjadi 5 Tahun
+  summary_id: >-
+    MK mengabulkan uji materiil Pasal 34 UU KPK yang diajukan pimpinan KPK Nurul Ghufron, memutuskan bahwa masa jabatan pimpinan KPK
+    diperpanjang dari 4 tahun menjadi 5 tahun untuk diselaraskan dengan masa jabatan pimpinan lembaga non-kementerian lainnya.
+  source_ids: [putusan-mk-112-puu-xx-2022]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-mk-putusan-phpu-pilpres-2024
+  term_id: mk-2023-sekarang
+  date: "2024-04-22"
+  category: pengadilan
+  title_id: Putusan MK No. 1 & 2/PHPU.PRES-XXII/2024 Sengketa Pilpres 2024
+  summary_id: >-
+    MK menolak seluruh permohonan perselisihan hasil pemilihan umum presiden dan wakil presiden yang diajukan paslon Anies-Muhaimin dan Ganjar-Mahfud
+    (dengan 3 hakim menyatakan dissenting opinion), menetapkan keabsahan kemenangan pasangan Prabowo Subianto - Gibran Rakabuming Raka.
+  source_ids: [putusan-mk-phpu-pilpres-2024]
+  dimension_ids: [kedaulatan-rakyat, negara-hukum]
+
+
 
 
 

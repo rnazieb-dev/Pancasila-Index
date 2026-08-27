@@ -5499,6 +5499,81 @@
       ]
     },
     {
+      "id": "ev-maklumat-pemerintah-1-nov-1945",
+      "term_id": "presiden-soekarno-i",
+      "date": "1945-11-01",
+      "category": "kebijakan",
+      "title_id": "Maklumat Pemerintah 1 November 1945 - Kebijakan Politik Luar Negeri dan Pengakuan Milik Asing",
+      "summary_id": "Pemerintah RI mengeluarkan manifesto politik yang menegaskan sikap damai Indonesia terhadap dunia internasional, kesiapan mengembalikan hak milik asing yang sah, dan permohonan pengakuan kedaulatan de jure dari Perserikatan Bangsa-Bangsa.",
+      "source_ids": [
+        "maklumat-pemerintah-1-nov-1945"
+      ],
+      "dimension_ids": [
+        "tujuan-4",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-maklumat-pemerintah-3-nov-1945",
+      "term_id": "presiden-soekarno-i",
+      "date": "1945-11-03",
+      "category": "kebijakan",
+      "title_id": "Maklumat Pemerintah 3 November 1945 - Peletak Dasar Sistem Multi-Partai",
+      "summary_id": "Wakil Presiden Mohammad Hatta menandatangani maklumat yang menganjurkan pembentukan partai-partai politik guna mengukur kekuatan perjuangan rakyat dan mempersiapkan pemilihan umum, mengukuhkan pluralisme politik demokrasi di Indonesia.",
+      "source_ids": [
+        "maklumat-pemerintah-3-nov-1945"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-peristiwa-madiun-1948",
+      "term_id": "presiden-soekarno-i",
+      "date": "1948-09-18",
+      "category": "krisis",
+      "title_id": "Penumpasan Pemberontakan PKI Madiun 1948 oleh TNI",
+      "summary_id": "Pemberontakan Front Demokrasi Rakyat / PKI pimpinan Musso di Madiun yang memproklamasikan Republik Soviet Indonesia berhasil dipatahkan oleh Divisi Siliwangi TNI, mempertahankan ideologi Pancasila dan keutuhan Republik di tengah Agresi Militer Belanda.",
+      "source_ids": [
+        "arsip-madiun-1948"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-serangan-umum-1949",
+      "term_id": "presiden-soekarno-i",
+      "date": "1949-03-01",
+      "category": "peristiwa",
+      "title_id": "Serangan Umum 1 Maret 1949 di Ibu Kota Yogyakarta",
+      "summary_id": "TNI di bawah pimpinan Letkol Soeharto dan restu Sri Sultan Hamengkubuwono IX melancarkan serangan 6 jam menguasai Yogyakarta, membuktikan kepada Dewan Keamanan PBB bahwa Republik Indonesia dan angkatan perangnya masih tegak berdiri.",
+      "source_ids": [
+        "arsip-serangan-umum-1949"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-kembali-ke-nkri-1950",
+      "term_id": "presiden-soekarno-i",
+      "date": "1950-08-17",
+      "category": "peristiwa",
+      "title_id": "Pembubaran RIS dan Proklamasi Kembali ke Bentuk Negara Kesatuan (NKRI)",
+      "summary_id": "Presiden Sukarno secara resmi mengumumkan pembubaran Republik Indonesia Serikat (RIS) bentukan KMB dan penyatuan kembali seluruh negara bagian menjadi satu Negara Kesatuan Republik Indonesia (NKRI) berlandaskan UUD Sementara 1950.",
+      "source_ids": [
+        "piagam-kembali-nkri-1950"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "sila-3"
+      ]
+    },
+    {
       "id": "ev-penpres-2-1959-mprs",
       "term_id": "presiden-soekarno-ii",
       "date": "1959-07-22",
@@ -5632,6 +5707,36 @@
       "dimension_ids": [
         "kedaulatan-rakyat",
         "sila-5"
+      ]
+    },
+    {
+      "id": "ev-pidato-manipol-usdek-1959",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1959-08-17",
+      "category": "kebijakan",
+      "title_id": "Pidato Penemuan Kembali Revolusi Kita (Manifesto Politik / Manipol-USDEK)",
+      "summary_id": "Presiden Sukarno menyampaikan pidato kenegaraan yang kemudian ditetapkan oleh DPAS dan MPRS sebagai Garis-Garis Besar Haluan Negara, memperkenalkan doktrin USDEK (UUD 1945, Sosialisme Indonesia, Demokrasi Terpimpin, Ekonomi Terpimpin, Kepribadian Indonesia).",
+      "source_ids": [
+        "pidato-manipol-usdek-1959"
+      ],
+      "dimension_ids": [
+        "sila-3",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-komando-dwikora-1964",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1964-05-03",
+      "category": "kebijakan",
+      "title_id": "Dwi Komando Rakyat (Dwikora) - Konfrontasi Menentang Pembentukan Malaysia",
+      "summary_id": "Presiden Sukarno mengumumkan Komando Dwikora untuk memperhebat ketahanan revolusi Indonesia dan membantu perjuangan rakyat Malaya, Singapura, Serawak, dan Sabah menggagalkan proyek neokolonialisme Federasi Malaysia.",
+      "source_ids": [
+        "komando-dwikora-1964"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "tujuan-4"
       ]
     },
     {
@@ -5798,6 +5903,96 @@
       "dimension_ids": [
         "kedaulatan-rakyat",
         "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-uu-pma-1967",
+      "term_id": "presiden-soeharto",
+      "date": "1967-01-10",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 1 Tahun 1967 tentang Penanaman Modal Asing (UU PMA)",
+      "summary_id": "Pemerintah dan DPR mengesahkan payung hukum investasi asing pertama Orde Baru yang memberikan jaminan kepastian hukum, tax holiday, dan hak transfer keuntungan, membuka gelombang investasi modal asing besar-besaran (termasuk kontrak karya Freeport di Papua).",
+      "source_ids": [
+        "uu-1-1967"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-bkkbn-kb-1970",
+      "term_id": "presiden-soeharto",
+      "date": "1970-06-29",
+      "category": "kebijakan",
+      "title_id": "Pembentukan BKKBN dan Pelaksanaan Program Keluarga Berencana (KB) Nasional",
+      "summary_id": "Pemerintah membentuk BKKBN dan meluncurkan program KB 'Dua Anak Cukup' secara masif hingga tingkat desa, berhasil menurunkan angka fertilitas total dan laju pertumbuhan penduduk secara signifikan dalam pembangunan manusia Indonesia.",
+      "source_ids": [
+        "arsip-bkkbn-kb-1970"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-permenpen-siupp-1984",
+      "term_id": "presiden-soeharto",
+      "date": "1984-10-30",
+      "category": "produk-hukum",
+      "title_id": "Penerbitan Permenpen SIUPP 1984 & Pengetatan Izin Terbit Pers",
+      "summary_id": "Kementerian Penerangan memberlakukan regulasi SIUPP yang memberikan wewenang administratif kepada pemerintah untuk mencabut izin terbit media secara sepihak (seperti pembredelan Tempo, DeTik, Editor tahun 1994), membatasi kebebasan berpendapat dan fungsi kontrol pers.",
+      "source_ids": [
+        "permenpen-siupp-1984"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-swasembada-beras-fao-1985",
+      "term_id": "presiden-soeharto",
+      "date": "1985-11-14",
+      "category": "peristiwa",
+      "title_id": "Penghargaan FAO Roma atas Keberhasilan Swasembada Beras Nasional 1984/1985",
+      "summary_id": "Organisasi Pangan dan Pertanian PBB (FAO) di Roma memberikan penghargaan internasional kepada Indonesia atas pencapaian swasembada beras nasional dari importir beras terbesar dunia menjadi negara yang mampu mencukupi kebutuhan pangan rakyatnya sendiri.",
+      "source_ids": [
+        "penghargaan-fao-swasembada-1985"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-krismon-rupiah-1997",
+      "term_id": "presiden-soeharto",
+      "date": "1997-08-14",
+      "category": "krisis",
+      "title_id": "Krisis Moneter Asia 1997 dan Anjloknya Nilai Tukar Rupiah",
+      "summary_id": "Pelepasan sistem kurs mengambang terkendali menyusul krisis finansial Asia menyebabkan depresiasi dramatis nilai tukar rupiah terhadap dolar AS hingga menembus Rp16.000/USD, memicu krisis likuiditas perbankan, penutupan puluhan ribu pabrik, dan lonjakan inflasi ekstrem.",
+      "source_ids": [
+        "arsip-krismon-1997"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-lengser-soeharto-1998",
+      "term_id": "presiden-soeharto",
+      "date": "1998-05-21",
+      "category": "peristiwa",
+      "title_id": "Pernyataan Berhenti Presiden Soeharto dan Pelantikan BJ Habibie (Awal Reformasi)",
+      "summary_id": "Menghadapi demonstrasi mahasiswa yang menduduki Gedung DPR/MPR dan gelombang kerusuhan Mei 1998, Presiden Soeharto membacakan pidato pengunduran diri di Istana Merdeka dan menyerahkan kepemimpinan nasional kepada Wapres BJ Habibie berdasarkan Pasal 8 UUD 1945.",
+      "source_ids": [
+        "pidato-mundur-soeharto-1998"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "checks-balances"
       ]
     },
     {
@@ -5979,6 +6174,67 @@
       "dimension_ids": [
         "kedaulatan-rakyat",
         "sila-4"
+      ]
+    },
+    {
+      "id": "ev-uu-ham-1999",
+      "term_id": "dpr-1999-2004",
+      "date": "1999-09-23",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 39 Tahun 1999 tentang Hak Asasi Manusia",
+      "summary_id": "DPR bersama Pemerintah mengesahkan kodifikasi hukum HAM nasional yang menjabarkan hak hidup, hak berkeluarga, hak mengembangkan diri, hak memperoleh keadilan, kebebasan pribadi, rasa aman, dan kesejahteraan bagi seluruh insan di Indonesia.",
+      "source_ids": [
+        "uu-39-1999"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-uu-pengadilan-ham-2000",
+      "term_id": "dpr-1999-2004",
+      "date": "1999-11-23",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 26 Tahun 2000 tentang Pengadilan Hak Asasi Manusia",
+      "summary_id": "DPR mengesahkan payung hukum pembentukan pengadilan khusus HAM untuk mengadili kejahatan genosida dan kejahatan terhadap kemanusiaan (crimes against humanity), termasuk mekanisme pembentukan Pengadilan HAM Ad Hoc atas pelanggaran HAM berat masa lalu.",
+      "source_ids": [
+        "uu-26-2000"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-dekrit-gus-dur-impeachment-2001",
+      "term_id": "mpr-1999-2004",
+      "date": "2001-07-23",
+      "category": "krisis",
+      "title_id": "Dekrit Presiden Gus Dur dan Sidang Istimewa Pemakzulan oleh MPR RI",
+      "summary_id": "Presiden Abdurrahman Wahid mengeluarkan dekrit pembekuan DPR/MPR dan Partai Golkar, yang langsung ditolak oleh Mahkamah Agung dan TNI/Polri, mendorong MPR menggelar Sidang Istimewa yang memakzulkan Gus Dur dan mengangkat Megawati Soekarnoputri sebagai Presiden ke-5 RI.",
+      "source_ids": [
+        "dekrit-gus-dur-2001",
+        "tap-mpr-ii-2001"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-uu-sisdiknas-2003",
+      "term_id": "dpr-1999-2004",
+      "date": "2003-07-08",
+      "category": "produk-hukum",
+      "title_id": "UU No. 20 Tahun 2003 tentang Sisdiknas (Kewajiban 20% Anggaran Pendidikan)",
+      "summary_id": "DPR mengesahkan UU Sisdiknas yang mengunci amanat konstitusi Pasal 31 ayat 4 UUD 1945 untuk mengalokasikan minimal 20% APBN dan APBD bagi sektor pendidikan nasional demi mencerdaskan kehidupan bangsa (Tujuan 3 UUD 1945).",
+      "source_ids": [
+        "uu-20-2003"
+      ],
+      "dimension_ids": [
+        "tujuan-3",
+        "sila-5"
       ]
     },
     {
@@ -6324,6 +6580,36 @@
       "dimension_ids": [
         "negara-hukum",
         "sila-2"
+      ]
+    },
+    {
+      "id": "ev-pilpres-langsung-pertama-2004",
+      "term_id": "presiden-megawati",
+      "date": "2004-09-20",
+      "category": "peristiwa",
+      "title_id": "Penyelenggaraan Pemilihan Umum Presiden dan Wakil Presiden Langsung Pertama 2004",
+      "summary_id": "Rakyat Indonesia untuk pertama kali dalam sejarah memilih langsung Presiden dan Wakil Presiden Republik Indonesia secara damai, jujur, dan adil dalam dua putaran pemilu, memenangkan pasangan Susilo Bambang Yudhoyono - Jusuf Kalla.",
+      "source_ids": [
+        "arsip-pilpres-langsung-2004"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-minerba-2009",
+      "term_id": "dpr-2004-2009",
+      "date": "2009-01-12",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 4 Tahun 2009 tentang Pertambangan Mineral dan Batubara",
+      "summary_id": "DPR dan Pemerintah mengesahkan reformasi hukum pertambangan yang menghapus rezim Kontrak Karya (KK) dan Perjanjian Karya Pengusahaan Pertambangan Batubara (PKP2B), menggantikannya dengan Izin Usaha Pertambangan (IUP) dan mewajibkan peningkatan nilai tambah mineral di dalam negeri.",
+      "source_ids": [
+        "uu-4-2009"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-2"
       ]
     },
     {
@@ -6991,6 +7277,51 @@
       ]
     },
     {
+      "id": "ev-dpr-uu-hpp-pps-2021",
+      "term_id": "dpr-2019-2024",
+      "date": "2021-10-29",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan (UU HPP)",
+      "summary_id": "DPR dan Pemerintah mengesahkan reformasi perpajakan yang menaikkan tarif PPN secara bertahap, memberlakukan pajak karbon, dan menyelenggarakan Program Pengungkapan Sukarela (PPS / Tax Amnesty Jilid II) guna memperluas basis penerimaan negara.",
+      "source_ids": [
+        "uu-7-2021"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-2"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-perpanjangan-kpk-2022",
+      "term_id": "mk-2018-2023",
+      "date": "2023-05-25",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 112/PUU-XX/2022 Perpanjangan Masa Jabatan Pimpinan KPK Menjadi 5 Tahun",
+      "summary_id": "MK mengabulkan uji materiil Pasal 34 UU KPK yang diajukan pimpinan KPK Nurul Ghufron, memutuskan bahwa masa jabatan pimpinan KPK diperpanjang dari 4 tahun menjadi 5 tahun untuk diselaraskan dengan masa jabatan pimpinan lembaga non-kementerian lainnya.",
+      "source_ids": [
+        "putusan-mk-112-puu-xx-2022"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-phpu-pilpres-2024",
+      "term_id": "mk-2023-sekarang",
+      "date": "2024-04-22",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 1 & 2/PHPU.PRES-XXII/2024 Sengketa Pilpres 2024",
+      "summary_id": "MK menolak seluruh permohonan perselisihan hasil pemilihan umum presiden dan wakil presiden yang diajukan paslon Anies-Muhaimin dan Ganjar-Mahfud (dengan 3 hakim menyatakan dissenting opinion), menetapkan keabsahan kemenangan pasangan Prabowo Subianto - Gibran Rakabuming Raka.",
+      "source_ids": [
+        "putusan-mk-phpu-pilpres-2024"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "negara-hukum"
+      ]
+    },
+    {
       "id": "ev-perpres-makan-bergizi-2024",
       "term_id": "presiden-prabowo",
       "date": "2024-08-15",
@@ -7003,6 +7334,21 @@
       "dimension_ids": [
         "tujuan-2",
         "sila-5"
+      ]
+    },
+    {
+      "id": "ev-pelantikan-presiden-prabowo-2024",
+      "term_id": "presiden-prabowo",
+      "date": "2024-10-20",
+      "category": "peristiwa",
+      "title_id": "Pengucapan Sumpah Jabatan Presiden Prabowo Subianto dan Wapres Gibran Rakabuming Raka",
+      "summary_id": "Presiden ke-8 RI Prabowo Subianto dan Wakil Presiden Gibran Rakabuming Raka mengucapkan sumpah jabatan di hadapan Sidang Paripurna MPR RI, menegaskan komitmen swasembada pangan, kemandirian energi, pemberantasan korupsi, dan politik luar negeri bebas aktif.",
+      "source_ids": [
+        "berita-acara-pelantikan-presiden-2024"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "sila-3"
       ]
     }
   ],
@@ -9499,6 +9845,205 @@
       "year": 2020,
       "citation_id": "DPD RI RUU Daerah Kepulauan 2020",
       "resolved_url": "https://duckduckgo.com/?q=Naskah%20Akademik%20dan%20RUU%20Usul%20Inisiatif%20DPD%20RI%20tentang%20Daerah%20Kepulauan"
+    },
+    {
+      "id": "maklumat-pemerintah-1-nov-1945",
+      "type": "arsip-nasional",
+      "title_id": "Maklumat Pemerintah Tanggal 1 November 1945 tentang Kebijakan Politik Luar Negeri dan Pengakuan Milik Asing",
+      "year": 1945,
+      "citation_id": "Maklumat Politik Pemerintah 1945",
+      "resolved_url": "https://duckduckgo.com/?q=Maklumat%20Pemerintah%20Tanggal%201%20November%201945%20tentang%20Kebijakan%20Politik%20Luar%20Negeri%20dan%20Pengakuan%20Milik%20Asing"
+    },
+    {
+      "id": "maklumat-pemerintah-3-nov-1945",
+      "type": "arsip-nasional",
+      "title_id": "Maklumat Pemerintah Tanggal 3 November 1945 tentang Pembentukan Partai-Partai Politik",
+      "year": 1945,
+      "citation_id": "Maklumat Pemerintah 3 November 1945",
+      "resolved_url": "https://duckduckgo.com/?q=Maklumat%20Pemerintah%20Tanggal%203%20November%201945%20tentang%20Pembentukan%20Partai-Partai%20Politik"
+    },
+    {
+      "id": "arsip-madiun-1948",
+      "type": "arsip-nasional",
+      "title_id": "Arsip Militer Penumpasan Pemberontakan PKI Madiun 1948 oleh TNI",
+      "year": 1948,
+      "citation_id": "Arsip Nasional RI Peristiwa Madiun 1948",
+      "resolved_url": "https://duckduckgo.com/?q=Arsip%20Militer%20Penumpasan%20Pemberontakan%20PKI%20Madiun%201948%20oleh%20TNI"
+    },
+    {
+      "id": "arsip-serangan-umum-1949",
+      "type": "arsip-nasional",
+      "title_id": "Laporan Komando Operasi Serangan Umum 1 Maret 1949 di Yogyakarta",
+      "year": 1949,
+      "citation_id": "Arsip Militer Serangan Umum 1 Maret 1949",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Komando%20Operasi%20Serangan%20Umum%201%20Maret%201949%20di%20Yogyakarta"
+    },
+    {
+      "id": "piagam-kembali-nkri-1950",
+      "type": "arsip-nasional",
+      "title_id": "Piagam Persetujuan Pemerintah RIS dan Pemerintah RI tentang Pembentukan Kembali Negara Kesatuan",
+      "year": 1950,
+      "citation_id": "Piagam RIS-RI 19 Mei 1950",
+      "resolved_url": "https://duckduckgo.com/?q=Piagam%20Persetujuan%20Pemerintah%20RIS%20dan%20Pemerintah%20RI%20tentang%20Pembentukan%20Kembali%20Negara%20Kesatuan"
+    },
+    {
+      "id": "pidato-manipol-usdek-1959",
+      "type": "arsip-nasional",
+      "title_id": "Pidato Presiden Sukarno 'Penemuan Kembali Revolusi Kita' (Manifesto Politik RI / Manipol-USDEK)",
+      "year": 1959,
+      "citation_id": "Manipol-USDEK 17 Agustus 1959",
+      "resolved_url": "https://duckduckgo.com/?q=Pidato%20Presiden%20Sukarno%20'Penemuan%20Kembali%20Revolusi%20Kita'%20(Manifesto%20Politik%20RI%20%2F%20Manipol-USDEK)"
+    },
+    {
+      "id": "komando-dwikora-1964",
+      "type": "arsip-nasional",
+      "title_id": "Komando Dwikora (Dwi Komando Rakyat) Konfrontasi Malaysia 3 Mei 1964",
+      "year": 1964,
+      "citation_id": "Arsip Dwikora 1964",
+      "resolved_url": "https://duckduckgo.com/?q=Komando%20Dwikora%20(Dwi%20Komando%20Rakyat)%20Konfrontasi%20Malaysia%203%20Mei%201964"
+    },
+    {
+      "id": "uu-1-1967",
+      "type": "undang-undang",
+      "title_id": "UU No. 1 Tahun 1967 tentang Penanaman Modal Asing (UU PMA)",
+      "year": 1967,
+      "citation_id": "LN No. 1 Tahun 1967, TLN No. 2818",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%201%20Tahun%201967"
+    },
+    {
+      "id": "arsip-bkkbn-kb-1970",
+      "type": "keppres",
+      "title_id": "Keppres No. 8 Tahun 1970 tentang Pembentukan Badan Koordinasi Keluarga Berencana Nasional (BKKBN)",
+      "year": 1970,
+      "citation_id": "Keppres No. 8 Tahun 1970",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=KEPPRES%208%20Tahun%201970"
+    },
+    {
+      "id": "penghargaan-fao-swasembada-1985",
+      "type": "arsip-nasional",
+      "title_id": "Piagam Penghargaan FAO Roma atas Keberhasilan Swasembada Pangan/Beras Nasional Indonesia",
+      "year": 1985,
+      "citation_id": "Arsip FAO Swasembada Beras 1985",
+      "resolved_url": "https://duckduckgo.com/?q=Piagam%20Penghargaan%20FAO%20Roma%20atas%20Keberhasilan%20Swasembada%20Pangan%2FBeras%20Nasional%20Indonesia"
+    },
+    {
+      "id": "permenpen-siupp-1984",
+      "type": "lainnya",
+      "title_id": "Permenpen No. 01/PER/MENPEN/1984 tentang Ketentuan Surat Izin Usaha Penerbitan Pers (SIUPP)",
+      "year": 1984,
+      "citation_id": "Permenpen No. 01/1984",
+      "resolved_url": "https://duckduckgo.com/?q=Permenpen%20No.%2001%2FPER%2FMENPEN%2F1984%20tentang%20Ketentuan%20Surat%20Izin%20Usaha%20Penerbitan%20Pers%20(SIUPP)"
+    },
+    {
+      "id": "arsip-krismon-1997",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Khusus Bank Indonesia atas Krisis Moneter Asia dan Depresiasi Nilai Tukar Rupiah 1997/1998",
+      "year": 1998,
+      "citation_id": "Bank Indonesia Laporan Krismon 1998",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Khusus%20Bank%20Indonesia%20atas%20Krisis%20Moneter%20Asia%20dan%20Depresiasi%20Nilai%20Tukar%20Rupiah%201997%2F1998"
+    },
+    {
+      "id": "pidato-mundur-soeharto-1998",
+      "type": "arsip-nasional",
+      "title_id": "Naskah Pidato Pernyataan Berhenti Presiden Soeharto dari Jabatan Presiden RI 21 Mei 1998",
+      "year": 1998,
+      "citation_id": "Sekretariat Negara Naskah Lengser 21 Mei 1998",
+      "resolved_url": "https://duckduckgo.com/?q=Naskah%20Pidato%20Pernyataan%20Berhenti%20Presiden%20Soeharto%20dari%20Jabatan%20Presiden%20RI%2021%20Mei%201998"
+    },
+    {
+      "id": "uu-39-1999",
+      "type": "undang-undang",
+      "title_id": "UU No. 39 Tahun 1999 tentang Hak Asasi Manusia",
+      "year": 1999,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=39&thn=1999",
+      "citation_id": "LN No. 165 Tahun 1999, TLN No. 3886",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=39&thn=1999"
+    },
+    {
+      "id": "uu-26-2000",
+      "type": "undang-undang",
+      "title_id": "UU No. 26 Tahun 2000 tentang Pengadilan Hak Asasi Manusia",
+      "year": 2000,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=26&thn=2000",
+      "citation_id": "LN No. 208 Tahun 2000, TLN No. 4026",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=26&thn=2000"
+    },
+    {
+      "id": "dekrit-gus-dur-2001",
+      "type": "arsip-nasional",
+      "title_id": "Maklumat Presiden Abdurrahman Wahid 23 Juli 2001 tentang Pembekuan Lembaga Perwakilan dan Golkar",
+      "year": 2001,
+      "citation_id": "Maklumat Presiden 23 Juli 2001",
+      "resolved_url": "https://duckduckgo.com/?q=Maklumat%20Presiden%20Abdurrahman%20Wahid%2023%20Juli%202001%20tentang%20Pembekuan%20Lembaga%20Perwakilan%20dan%20Golkar"
+    },
+    {
+      "id": "tap-mpr-ii-2001",
+      "type": "dokumen-mpr",
+      "title_id": "TAP MPR No. II/MPR/2001 tentang Pertanggungjawaban Presiden Abdurrahman Wahid dan Pemberhentian dari Jabatan Presiden",
+      "year": 2001,
+      "citation_id": "TAP MPR II/MPR/2001",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20II%2FMPR%2F2001%20tentang%20Pertanggungjawaban%20Presiden%20Abdurrahman%20Wahid%20dan%20Pemberhe"
+    },
+    {
+      "id": "uu-20-2003",
+      "type": "undang-undang",
+      "title_id": "UU No. 20 Tahun 2003 tentang Sistem Pendidikan Nasional (Alokasi 20% Anggaran Pendidikan)",
+      "year": 2003,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2003",
+      "citation_id": "LN No. 78 Tahun 2003, TLN No. 4301",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2003"
+    },
+    {
+      "id": "arsip-pilpres-langsung-2004",
+      "type": "arsip-nasional",
+      "title_id": "Laporan Hasil Pemilihan Umum Presiden dan Wakil Presiden Langsung Pertama Putaran I & II Tahun 2004",
+      "year": 2004,
+      "citation_id": "KPU Laporan Pilpres 2004",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemilihan%20Umum%20Presiden%20dan%20Wakil%20Presiden%20Langsung%20Pertama%20Putaran%20I%20%26%20II%20Tahun%202004"
+    },
+    {
+      "id": "uu-4-2009",
+      "type": "undang-undang",
+      "title_id": "UU No. 4 Tahun 2009 tentang Pertambangan Mineral dan Batubara",
+      "year": 2009,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=4&thn=2009",
+      "citation_id": "LN No. 4 Tahun 2009, TLN No. 4959",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=4&thn=2009"
+    },
+    {
+      "id": "uu-7-2021",
+      "type": "undang-undang",
+      "title_id": "UU No. 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan (UU HPP / PPS)",
+      "year": 2021,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2021",
+      "citation_id": "LN No. 246 Tahun 2021, TLN No. 6736",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2021"
+    },
+    {
+      "id": "putusan-mk-112-puu-xx-2022",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 112/PUU-XX/2022 (Perpanjangan Masa Jabatan Pimpinan KPK Menjadi 5 Tahun)",
+      "year": 2023,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=112/PUU-XX/2022",
+      "citation_id": "Putusan MKRI No. 112/PUU-XX/2022",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=112/PUU-XX/2022"
+    },
+    {
+      "id": "putusan-mk-phpu-pilpres-2024",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 1/PHPU.PRES-XXII/2024 & 2/PHPU.PRES-XXII/2024 tentang Perselisihan Hasil Pilpres 2024",
+      "year": 2024,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=1/PHPU.PRES-XXII/2024",
+      "citation_id": "Putusan MKRI PHPU Pilpres 2024",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=1/PHPU.PRES-XXII/2024"
+    },
+    {
+      "id": "berita-acara-pelantikan-presiden-2024",
+      "type": "dokumen-mpr",
+      "title_id": "Berita Acara Pengucapan Sumpah Presiden Prabowo Subianto dan Wapres Gibran Rakabuming Raka di MPR RI",
+      "year": 2024,
+      "citation_id": "MPR RI Berita Acara Pelantikan 20 Oktober 2024",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Berita%20Acara%20Pengucapan%20Sumpah%20Presiden%20Prabowo%20Subianto%20dan%20Wapres%20Gibran%20Rakabuming%20Raka"
     }
   ],
   "assessments": [

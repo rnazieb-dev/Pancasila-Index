@@ -132,5 +132,61 @@
   source_ids: [uu-80-1958]
   dimension_ids: [tujuan-2, sila-5]
 
+- id: ev-maklumat-pemerintah-1-nov-1945
+  term_id: presiden-soekarno-i
+  date: "1945-11-01"
+  category: kebijakan
+  title_id: Maklumat Pemerintah 1 November 1945 - Kebijakan Politik Luar Negeri dan Pengakuan Milik Asing
+  summary_id: >-
+    Pemerintah RI mengeluarkan manifesto politik yang menegaskan sikap damai Indonesia terhadap dunia internasional,
+    kesiapan mengembalikan hak milik asing yang sah, dan permohonan pengakuan kedaulatan de jure dari Perserikatan Bangsa-Bangsa.
+  source_ids: [maklumat-pemerintah-1-nov-1945]
+  dimension_ids: [tujuan-4, negara-hukum]
+
+- id: ev-maklumat-pemerintah-3-nov-1945
+  term_id: presiden-soekarno-i
+  date: "1945-11-03"
+  category: kebijakan
+  title_id: Maklumat Pemerintah 3 November 1945 - Peletak Dasar Sistem Multi-Partai
+  summary_id: >-
+    Wakil Presiden Mohammad Hatta menandatangani maklumat yang menganjurkan pembentukan partai-partai politik
+    guna mengukur kekuatan perjuangan rakyat dan mempersiapkan pemilihan umum, mengukuhkan pluralisme politik demokrasi di Indonesia.
+  source_ids: [maklumat-pemerintah-3-nov-1945]
+  dimension_ids: [kedaulatan-rakyat, sila-4]
+
+- id: ev-peristiwa-madiun-1948
+  term_id: presiden-soekarno-i
+  date: "1948-09-18"
+  category: krisis
+  title_id: Penumpasan Pemberontakan PKI Madiun 1948 oleh TNI
+  summary_id: >-
+    Pemberontakan Front Demokrasi Rakyat / PKI pimpinan Musso di Madiun yang memproklamasikan Republik Soviet Indonesia
+    berhasil dipatahkan oleh Divisi Siliwangi TNI, mempertahankan ideologi Pancasila dan keutuhan Republik di tengah Agresi Militer Belanda.
+  source_ids: [arsip-madiun-1948]
+  dimension_ids: [tujuan-1, sila-3]
+
+- id: ev-serangan-umum-1949
+  term_id: presiden-soekarno-i
+  date: "1949-03-01"
+  category: peristiwa
+  title_id: Serangan Umum 1 Maret 1949 di Ibu Kota Yogyakarta
+  summary_id: >-
+    TNI di bawah pimpinan Letkol Soeharto dan restu Sri Sultan Hamengkubuwono IX melancarkan serangan 6 jam menguasai Yogyakarta,
+    membuktikan kepada Dewan Keamanan PBB bahwa Republik Indonesia dan angkatan perangnya masih tegak berdiri.
+  source_ids: [arsip-serangan-umum-1949]
+  dimension_ids: [tujuan-1, kedaulatan-rakyat]
+
+- id: ev-kembali-ke-nkri-1950
+  term_id: presiden-soekarno-i
+  date: "1950-08-17"
+  category: peristiwa
+  title_id: Pembubaran RIS dan Proklamasi Kembali ke Bentuk Negara Kesatuan (NKRI)
+  summary_id: >-
+    Presiden Sukarno secara resmi mengumumkan pembubaran Republik Indonesia Serikat (RIS) bentukan KMB dan penyatuan kembali seluruh negara bagian
+    menjadi satu Negara Kesatuan Republik Indonesia (NKRI) berlandaskan UUD Sementara 1950.
+  source_ids: [piagam-kembali-nkri-1950]
+  dimension_ids: [tujuan-1, sila-3]
+
+
 
 

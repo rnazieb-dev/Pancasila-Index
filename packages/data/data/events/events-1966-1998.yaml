@@ -121,4 +121,71 @@
   source_ids: [arsip-kudatuli-1996]
   dimension_ids: [kedaulatan-rakyat, negara-hukum]
 
+- id: ev-uu-pma-1967
+  term_id: presiden-soeharto
+  date: "1967-01-10"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 1 Tahun 1967 tentang Penanaman Modal Asing (UU PMA)
+  summary_id: >-
+    Pemerintah dan DPR mengesahkan payung hukum investasi asing pertama Orde Baru yang memberikan jaminan kepastian hukum,
+    tax holiday, dan hak transfer keuntungan, membuka gelombang investasi modal asing besar-besaran (termasuk kontrak karya Freeport di Papua).
+  source_ids: [uu-1-1967]
+  dimension_ids: [tujuan-2, sila-5]
+
+- id: ev-bkkbn-kb-1970
+  term_id: presiden-soeharto
+  date: "1970-06-29"
+  category: kebijakan
+  title_id: Pembentukan BKKBN dan Pelaksanaan Program Keluarga Berencana (KB) Nasional
+  summary_id: >-
+    Pemerintah membentuk BKKBN dan meluncurkan program KB 'Dua Anak Cukup' secara masif hingga tingkat desa,
+    berhasil menurunkan angka fertilitas total dan laju pertumbuhan penduduk secara signifikan dalam pembangunan manusia Indonesia.
+  source_ids: [arsip-bkkbn-kb-1970]
+  dimension_ids: [tujuan-2, sila-5]
+
+- id: ev-permenpen-siupp-1984
+  term_id: presiden-soeharto
+  date: "1984-10-30"
+  category: produk-hukum
+  title_id: Penerbitan Permenpen SIUPP 1984 & Pengetatan Izin Terbit Pers
+  summary_id: >-
+    Kementerian Penerangan memberlakukan regulasi SIUPP yang memberikan wewenang administratif kepada pemerintah untuk mencabut izin terbit
+    media secara sepihak (seperti pembredelan Tempo, DeTik, Editor tahun 1994), membatasi kebebasan berpendapat dan fungsi kontrol pers.
+  source_ids: [permenpen-siupp-1984]
+  dimension_ids: [kedaulatan-rakyat, checks-balances]
+
+- id: ev-swasembada-beras-fao-1985
+  term_id: presiden-soeharto
+  date: "1985-11-14"
+  category: peristiwa
+  title_id: Penghargaan FAO Roma atas Keberhasilan Swasembada Beras Nasional 1984/1985
+  summary_id: >-
+    Organisasi Pangan dan Pertanian PBB (FAO) di Roma memberikan penghargaan internasional kepada Indonesia
+    atas pencapaian swasembada beras nasional dari importir beras terbesar dunia menjadi negara yang mampu mencukupi kebutuhan pangan rakyatnya sendiri.
+  source_ids: [penghargaan-fao-swasembada-1985]
+  dimension_ids: [tujuan-2, sila-5]
+
+- id: ev-krismon-rupiah-1997
+  term_id: presiden-soeharto
+  date: "1997-08-14"
+  category: krisis
+  title_id: Krisis Moneter Asia 1997 dan Anjloknya Nilai Tukar Rupiah
+  summary_id: >-
+    Pelepasan sistem kurs mengambang terkendali menyusul krisis finansial Asia menyebabkan depresiasi dramatis nilai tukar rupiah
+    terhadap dolar AS hingga menembus Rp16.000/USD, memicu krisis likuiditas perbankan, penutupan puluhan ribu pabrik, dan lonjakan inflasi ekstrem.
+  source_ids: [arsip-krismon-1997]
+  dimension_ids: [tujuan-2, sila-5]
+
+- id: ev-lengser-soeharto-1998
+  term_id: presiden-soeharto
+  date: "1998-05-21"
+  category: peristiwa
+  title_id: Pernyataan Berhenti Presiden Soeharto dan Pelantikan BJ Habibie (Awal Reformasi)
+  summary_id: >-
+    Menghadapi demonstrasi mahasiswa yang menduduki Gedung DPR/MPR dan gelombang kerusuhan Mei 1998,
+    Presiden Soeharto membacakan pidato pengunduran diri di Istana Merdeka dan menyerahkan kepemimpinan nasional kepada Wapres BJ Habibie berdasarkan Pasal 8 UUD 1945.
+  source_ids: [pidato-mundur-soeharto-1998]
+  dimension_ids: [kedaulatan-rakyat, checks-balances]
+
+
 

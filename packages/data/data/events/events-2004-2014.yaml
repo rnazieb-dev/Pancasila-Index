@@ -253,6 +253,29 @@
   source_ids: [putusan-mk-34-puu-xi-2013]
   dimension_ids: [negara-hukum, sila-2]
 
+- id: ev-pilpres-langsung-pertama-2004
+  term_id: presiden-megawati
+  date: "2004-09-20"
+  category: peristiwa
+  title_id: Penyelenggaraan Pemilihan Umum Presiden dan Wakil Presiden Langsung Pertama 2004
+  summary_id: >-
+    Rakyat Indonesia untuk pertama kali dalam sejarah memilih langsung Presiden dan Wakil Presiden Republik Indonesia
+    secara damai, jujur, dan adil dalam dua putaran pemilu, memenangkan pasangan Susilo Bambang Yudhoyono - Jusuf Kalla.
+  source_ids: [arsip-pilpres-langsung-2004]
+  dimension_ids: [kedaulatan-rakyat, sila-4]
+
+- id: ev-dpr-uu-minerba-2009
+  term_id: dpr-2004-2009
+  date: "2009-01-12"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 4 Tahun 2009 tentang Pertambangan Mineral dan Batubara
+  summary_id: >-
+    DPR dan Pemerintah mengesahkan reformasi hukum pertambangan yang menghapus rezim Kontrak Karya (KK) dan Perjanjian Karya Pengusahaan Pertambangan Batubara (PKP2B),
+    menggantikannya dengan Izin Usaha Pertambangan (IUP) dan mewajibkan peningkatan nilai tambah mineral di dalam negeri.
+  source_ids: [uu-4-2009]
+  dimension_ids: [sila-5, tujuan-2]
+
+
 
 
 

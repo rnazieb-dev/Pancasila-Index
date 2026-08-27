@@ -132,5 +132,50 @@
   source_ids: [uu-40-1999]
   dimension_ids: [kedaulatan-rakyat, sila-4]
 
+- id: ev-uu-ham-1999
+  term_id: dpr-1999-2004
+  date: "1999-09-23"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 39 Tahun 1999 tentang Hak Asasi Manusia
+  summary_id: >-
+    DPR bersama Pemerintah mengesahkan kodifikasi hukum HAM nasional yang menjabarkan hak hidup, hak berkeluarga,
+    hak mengembangkan diri, hak memperoleh keadilan, kebebasan pribadi, rasa aman, dan kesejahteraan bagi seluruh insan di Indonesia.
+  source_ids: [uu-39-1999]
+  dimension_ids: [sila-2, negara-hukum]
+
+- id: ev-uu-pengadilan-ham-2000
+  term_id: dpr-1999-2004
+  date: "1999-11-23"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 26 Tahun 2000 tentang Pengadilan Hak Asasi Manusia
+  summary_id: >-
+    DPR mengesahkan payung hukum pembentukan pengadilan khusus HAM untuk mengadili kejahatan genosida dan kejahatan terhadap kemanusiaan (crimes against humanity),
+    termasuk mekanisme pembentukan Pengadilan HAM Ad Hoc atas pelanggaran HAM berat masa lalu.
+  source_ids: [uu-26-2000]
+  dimension_ids: [sila-2, negara-hukum]
+
+- id: ev-dekrit-gus-dur-impeachment-2001
+  term_id: mpr-1999-2004
+  date: "2001-07-23"
+  category: krisis
+  title_id: Dekrit Presiden Gus Dur dan Sidang Istimewa Pemakzulan oleh MPR RI
+  summary_id: >-
+    Presiden Abdurrahman Wahid mengeluarkan dekrit pembekuan DPR/MPR dan Partai Golkar, yang langsung ditolak oleh Mahkamah Agung dan TNI/Polri,
+    mendorong MPR menggelar Sidang Istimewa yang memakzulkan Gus Dur dan mengangkat Megawati Soekarnoputri sebagai Presiden ke-5 RI.
+  source_ids: [dekrit-gus-dur-2001, tap-mpr-ii-2001]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-uu-sisdiknas-2003
+  term_id: dpr-1999-2004
+  date: "2003-07-08"
+  category: produk-hukum
+  title_id: UU No. 20 Tahun 2003 tentang Sisdiknas (Kewajiban 20% Anggaran Pendidikan)
+  summary_id: >-
+    DPR mengesahkan UU Sisdiknas yang mengunci amanat konstitusi Pasal 31 ayat 4 UUD 1945 untuk mengalokasikan minimal 20% APBN dan APBD
+    bagi sektor pendidikan nasional demi mencerdaskan kehidupan bangsa (Tujuan 3 UUD 1945).
+  source_ids: [uu-20-2003]
+  dimension_ids: [tujuan-3, sila-5]
+
+
 
 

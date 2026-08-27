@@ -10,3 +10,15 @@
     dan pencegahan stunting bagi puluhan juta anak sekolah dan ibu hamil, merealisasikan komitmen perlindungan kesejahteraan umum (Tujuan 2 UUD 1945).
   source_ids: [perpres-83-2024]
   dimension_ids: [tujuan-2, sila-5]
+
+- id: ev-pelantikan-presiden-prabowo-2024
+  term_id: presiden-prabowo
+  date: "2024-10-20"
+  category: peristiwa
+  title_id: Pengucapan Sumpah Jabatan Presiden Prabowo Subianto dan Wapres Gibran Rakabuming Raka
+  summary_id: >-
+    Presiden ke-8 RI Prabowo Subianto dan Wakil Presiden Gibran Rakabuming Raka mengucapkan sumpah jabatan di hadapan Sidang Paripurna MPR RI,
+    menegaskan komitmen swasembada pangan, kemandirian energi, pemberantasan korupsi, dan politik luar negeri bebas aktif.
+  source_ids: [berita-acara-pelantikan-presiden-2024]
+  dimension_ids: [tujuan-1, sila-3]
+
