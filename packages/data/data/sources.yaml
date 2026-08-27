@@ -1708,6 +1708,171 @@
   url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=37&thn=2008
   citation_id: LN No. 139 Tahun 2008, TLN No. 4899
 
+- id: uu-12-2011
+  type: undang-undang
+  title_id: UU No. 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (UU PPP)
+  year: 2011
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2011
+  citation_id: LN No. 82 Tahun 2011, TLN No. 5234
+
+- id: uu-13-2022
+  type: undang-undang
+  title_id: UU No. 13 Tahun 2022 tentang Perubahan Kedua atas UU No. 12 Tahun 2011 (Legalisasi Metode Omnibus Law dan Partisipasi Bermakna)
+  year: 2022
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=13&thn=2022
+  citation_id: LN No. 143 Tahun 2022, TLN No. 6801
+
+- id: uu-7-2017
+  type: undang-undang
+  title_id: UU No. 7 Tahun 2017 tentang Pemilihan Umum (Kodifikasi UU Pemilu Serentak)
+  year: 2017
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017
+  citation_id: LN No. 182 Tahun 2017, TLN No. 6109
+
+- id: uu-19-2016
+  type: undang-undang
+  title_id: UU No. 19 Tahun 2016 tentang Perubahan atas UU No. 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (UU ITE)
+  year: 2016
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2016
+  citation_id: LN No. 251 Tahun 2016, TLN No. 5952
+
+- id: uu-1-2024
+  type: undang-undang
+  title_id: UU No. 1 Tahun 2024 tentang Perubahan Kedua atas UU No. 11 Tahun 2008 tentang ITE
+  year: 2024
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2024
+  citation_id: LN No. 4 Tahun 2024, TLN No. 6909
+
+- id: putusan-mk-005-puu-iv-2006
+  type: putusan-mk
+  title_id: Putusan MK No. 005/PUU-IV/2006 (Pembatalan Wewenang Pengawasan Hakim Agung dan Hakim Mahkamah Konstitusi oleh Komisi Yudisial)
+  year: 2006
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=005/PUU-IV/2006
+  citation_id: Putusan MKRI No. 005/PUU-IV/2006
+
+- id: putusan-mk-138-puu-vii-2009
+  type: putusan-mk
+  title_id: Putusan MK No. 138/PUU-VII/2009 (Tiga Parameter Syarat Konstitusional Kegentingan yang Memaksa dalam Penerbitan Perppu)
+  year: 2009
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=138/PUU-VII/2009
+  citation_id: Putusan MKRI No. 138/PUU-VII/2009
+
+- id: putusan-mk-34-puu-xi-2013
+  type: putusan-mk
+  title_id: Putusan MK No. 34/PUU-XI/2013 (Peninjauan Kembali / PK Perkara Pidana Boleh Diajukan Lebih dari Satu Kali Demi Menemukan Keadilan Hakiki)
+  year: 2014
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=34/PUU-XI/2013
+  citation_id: Putusan MKRI No. 34/PUU-XI/2013
+
+- id: putusan-mk-69-puu-xiii-2015
+  type: putusan-mk
+  title_id: Putusan MK No. 69/PUU-XIII/2015 (Perjanjian Perkawinan / Pisah Harta Boleh Dibuat Selama Ikatan Perkawinan Berlangsung)
+  year: 2016
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=69/PUU-XIII/2015
+  citation_id: Putusan MKRI No. 69/PUU-XIII/2015
+
+- id: putusan-mk-20-puu-xiv-2016
+  type: putusan-mk
+  title_id: Putusan MK No. 20/PUU-XIV/2016 (Rekaman Rahasia Ilegal Bukan Alat Bukti yang Sah Tanpa Permintaan Aparat Penegak Hukum)
+  year: 2016
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=20/PUU-XIV/2016
+  citation_id: Putusan MKRI No. 20/PUU-XIV/2016
+
+- id: putusan-mk-53-puu-xv-2017
+  type: putusan-mk
+  title_id: Putusan MK No. 53/PUU-XV/2017 (Kewajiban Verifikasi Faktual Berlaku Adil bagi Seluruh Partai Politik Calon Peserta Pemilu)
+  year: 2018
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=53/PUU-XV/2017
+  citation_id: Putusan MKRI No. 53/PUU-XV/2017
+
+- id: perma-13-2016
+  type: putusan-ma
+  title_id: Peraturan Mahkamah Agung No. 13 Tahun 2016 tentang Tata Cara Penanganan Perkara Tindak Pidana oleh Korporasi
+  year: 2016
+  citation_id: Berita Negara RI Tahun 2016 No. 2053
+
+- id: putusan-ma-23-p-hum-2024
+  type: putusan-ma
+  title_id: Putusan MA No. 23 P/HUM/2024 (Uji Materiil PKPU No. 9/2020 tentang Syarat Usia Calon Kepala Daerah Dihitung Sejak Pelantikan)
+  year: 2024
+  citation_id: Putusan MA No. 23 P/HUM/2024
+
+- id: putusan-pk-ma-surya-darmadi-2023
+  type: putusan-ma
+  title_id: Putusan Peninjauan Kembali MA No. 57 PK/Pid.Sus/2022 atas Perkara Korupsi dan Pencucian Uang PT Duta Palma Group
+  year: 2023
+  citation_id: Putusan MA No. 57 PK/Pid.Sus/2022
+
+- id: laporan-audit-bpk-aw101-2017
+  type: laporan-lembaga
+  title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pengadaan Helikopter AgustaWestland AW-101 TNI AU Rp738 Miliar
+  year: 2017
+  citation_id: BPK RI LHP AW-101 2017
+
+- id: laporan-audit-bpk-timah-2024
+  type: laporan-lembaga
+  title_id: Laporan Hasil Audit Penghitungan Kerugian Keuangan Negara dan Kerusakan Lingkungan Tata Niaga Timah BPK RI Rp300 Triliun
+  year: 2024
+  citation_id: BPK RI LHP Tata Niaga Timah 2024
+
+- id: laporan-pansus-century-2010
+  type: laporan-lembaga
+  title_id: Laporan Akhir Panitia Angket DPR RI atas Pengusutan Kasus Bank Century
+  year: 2010
+  citation_id: DPR RI Risalah Pansus Century 2010
+
+- id: laporan-pansus-kpk-2018
+  type: laporan-lembaga
+  title_id: Laporan Hasil Pelaksanaan Tugas Panitia Khusus Hak Angket DPR RI terhadap KPK
+  year: 2018
+  citation_id: DPR RI Risalah Pansus KPK 2018
+
+- id: inpres-10-2011
+  type: keppres
+  title_id: Instruksi Presiden No. 10 Tahun 2011 tentang Moratorium Izin Baru Hutan Alam Primer dan Lahan Gambut
+  year: 2011
+  citation_id: Inpres No. 10 Tahun 2011
+
+- id: perpres-54-2018
+  type: keppres
+  title_id: Peraturan Presiden No. 54 Tahun 2018 tentang Strategi Nasional Pencegahan Korupsi (Stranas PK)
+  year: 2018
+  url: https://jdih.setneg.go.id/detailperaturan?jns=PERPRES&no=54&thn=2018
+  citation_id: LN No. 108 Tahun 2018
+
+- id: keppres-17-2022
+  type: keppres
+  title_id: Keputusan Presiden No. 17 Tahun 2022 tentang Pembentukan Tim Penyelesaian Non-Yudisial Pelanggaran HAM Berat Masa Lalu (PPHAM)
+  year: 2022
+  url: https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=17&thn=2022
+  citation_id: Keppres No. 17 Tahun 2022
+
+- id: pidato-presiden-ham-2023
+  type: arsip-nasional
+  title_id: Pernyataan Resmi Presiden RI tentang Pengakuan dan Penyesalan atas 12 Peristiwa Pelanggaran HAM Berat Masa Lalu
+  year: 2023
+  citation_id: Sekretariat Presiden Pernyataan HAM 2023
+
+- id: keppres-11-2020
+  type: keppres
+  title_id: Keputusan Presiden No. 11 Tahun 2020 tentang Penetapan Kedaruratan Kesehatan Masyarakat COVID-19
+  year: 2020
+  citation_id: Keppres No. 11 Tahun 2020
+
+- id: uu-3-2020
+  type: undang-undang
+  title_id: UU No. 3 Tahun 2020 tentang Perubahan atas UU No. 4 Tahun 2009 tentang Pertambangan Mineral dan Batubara (Hilirisasi Industri Pertambangan)
+  year: 2020
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2020
+  citation_id: LN No. 147 Tahun 2020, TLN No. 6525
+
+- id: ruu-daerah-kepulauan-dpd-2020
+  type: arsip-nasional
+  title_id: Naskah Akademik dan RUU Usul Inisiatif DPD RI tentang Daerah Kepulauan
+  year: 2020
+  citation_id: DPD RI RUU Daerah Kepulauan 2020
+
+
 
 
 

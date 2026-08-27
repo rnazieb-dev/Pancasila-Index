@@ -6237,6 +6237,96 @@
       ]
     },
     {
+      "id": "ev-mk-putusan-ky-hakim-agung-2006",
+      "term_id": "mk-2003-2008",
+      "date": "2006-08-23",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 005/PUU-IV/2006 Pembatalan Wewenang Pengawasan Hakim Agung oleh KY",
+      "summary_id": "MK membatalkan ketentuan Pasal UU KY dan UU MA yang memberikan kewenangan pengawasan perilaku kepada Komisi Yudisial terhadap hakim agung dan hakim MK, memantik perdebatan panjang ketatanegaraan mengenai batasan checks and balances versus independensi kekuasaan kehakiman.",
+      "source_ids": [
+        "putusan-mk-005-puu-iv-2006"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-kegentingan-perppu-2009",
+      "term_id": "mk-2008-2013",
+      "date": "2009-11-25",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 138/PUU-VII/2009 Batasan Syarat Kegentingan yang Memaksa dalam Perppu",
+      "summary_id": "MK menetapkan 3 parameter kumulatif syarat kegentingan memaksa bagi Presiden dalam mengeluarkan Perppu: adanya kebutuhan mendesak menyelesaikan masalah hukum, kekosongan hukum atau UU yang ada tidak memadai, dan proses pembentukan UU biasa membutuhkan waktu lama.",
+      "source_ids": [
+        "putusan-mk-138-puu-vii-2009"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-dpr-pansus-century-2010",
+      "term_id": "dpr-2009-2014",
+      "date": "2010-03-03",
+      "category": "peristiwa",
+      "title_id": "Pansus Hak Angket Kasus Bank Century DPR RI",
+      "summary_id": "Rapat Paripurna DPR RI menyetujui rekomendasi Pansus Hak Angket Century (Opsi C) yang menyatakan adanya indikasi penyimpangan dan pelanggaran hukum dalam proses pemberian Fasilitas Pendanaan Jangka Pendek (FPJP) dan Penyertaan Modal Sementara (PMS) Rp6,7 triliun.",
+      "source_ids": [
+        "laporan-pansus-century-2010"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-presiden-moratorium-hutan-2011",
+      "term_id": "presiden-sby-ii",
+      "date": "2011-05-20",
+      "category": "kebijakan",
+      "title_id": "Instruksi Presiden No. 10/2011 tentang Moratorium Izin Baru Hutan Primer & Lahan Gambut",
+      "summary_id": "Presiden SBY menerbitkan Inpres penghentian sementara penerbitan izin baru pembukaan hutan alam primer dan lahan gambut seluas lebih dari 66 juta hektar sebagai komitmen nasional penurunan emisi gas rumah kaca dan perlindungan kelestarian ekologis.",
+      "source_ids": [
+        "inpres-10-2011"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-ppp-2011",
+      "term_id": "dpr-2009-2014",
+      "date": "2011-08-12",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (UU PPP)",
+      "summary_id": "DPR dan Pemerintah mengesahkan landasan baku tata urutan hierarki peraturan perundang-undangan nasional, asas kejelasan rumusan norma, keterbukaan pembentukan hukum, dan standardisasi naskah akademik di Indonesia.",
+      "source_ids": [
+        "uu-12-2011"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-pk-berkali-kali-2013",
+      "term_id": "mk-2013-2018",
+      "date": "2014-03-06",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 34/PUU-XI/2013 Membolehkan Peninjauan Kembali (PK) Pidana Diajukan Lebih dari Sekali",
+      "summary_id": "MK membatalkan Pasal 268 ayat 3 KUHAP yang membatasi PK hanya satu kali, menegaskan bahwa dalam perkara pidana yang menyangkut nasib dan hak asasi manusia, pencarian keadilan materiel (substantive justice) harus diutamakan di atas kepastian hukum formal.",
+      "source_ids": [
+        "putusan-mk-34-puu-xi-2013"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ]
+    },
+    {
       "id": "ev-mk-putusan-spdp-2016",
       "term_id": "mk-2013-2018",
       "date": "2016-01-11",
@@ -6642,6 +6732,262 @@
       "dimension_ids": [
         "tujuan-2",
         "sila-5"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-perjanjian-kawin-2015",
+      "term_id": "mk-2013-2018",
+      "date": "2016-10-27",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 69/PUU-XIII/2015 tentang Perjanjian Perkawinan Selama Ikatan Perkawinan",
+      "summary_id": "MK mengabulkan uji materiil Pasal 29 UU Perkawinan, memperbolehkan pasangan suami-istri membuat perjanjian pisah harta sepanjang ikatan perkawinan berlangsung demi melindungi hak kepemilikan properti dan kepastian hukum perempuan (khususnya yang menikah dengan WNA).",
+      "source_ids": [
+        "putusan-mk-69-puu-xiii-2015"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-rekaman-ilegal-2016",
+      "term_id": "mk-2013-2018",
+      "date": "2016-09-07",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 20/PUU-XIV/2016 tentang Bukti Rekaman Ilegal (Kasus Papa Minta Saham)",
+      "summary_id": "MK memutuskan bahwa rekaman informasi elektronik yang dilakukan secara diam-diam tanpa permintaan resmi aparat penegak hukum (law enforcement) adalah penyadapan ilegal yang tidak sah sebagai alat bukti dalam proses peradilan pidana, memperkuat perlindungan hak privasi warga negara.",
+      "source_ids": [
+        "putusan-mk-20-puu-xiv-2016"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-ma-perma-kejahatan-korporasi-2016",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2016-12-21",
+      "category": "produk-hukum",
+      "title_id": "PERMA No. 13 Tahun 2016 tentang Tata Cara Penanganan Tindak Pidana oleh Korporasi",
+      "summary_id": "Mahkamah Agung menerbitkan pedoman penuntutan dan pemidanaan terhadap korporasi yang melakukan kejahatan korupsi, kejahatan lingkungan hidup, dan pencucian uang, mengisi kekosongan hukum acara pidana korporasi di peradilan Indonesia.",
+      "source_ids": [
+        "perma-13-2016"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-pemilu-kodifikasi-2017",
+      "term_id": "dpr-2014-2019",
+      "date": "2017-08-15",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 7 Tahun 2017 tentang Pemilihan Umum",
+      "summary_id": "DPR mengesahkan kodifikasi menyeluruh hukum pemilu Indonesia, mengatur penyelenggaraan pemilu serentak 5 kotak, ambang batas pencalonan presiden (Presidential Threshold) 20% kursi DPR / 25% suara sah nasional, dan pembentukan Bawaslu permanen hingga kabupaten/kota.",
+      "source_ids": [
+        "uu-7-2017"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-dpr-pansus-angket-kpk-2017",
+      "term_id": "dpr-2014-2019",
+      "date": "2017-06-07",
+      "category": "peristiwa",
+      "title_id": "Pembentukan Pansus Hak Angket DPR terhadap KPK RI",
+      "summary_id": "DPR RI membentuk Panitia Khusus Hak Angket untuk menyelidiki pelaksanaan tugas, kewenangan, tata kelola anggaran, dan penyidikan perkara korupsi di Komisi Pemberantasan Korupsi (KPK), memantik polemik mengenai kewenangan parlemen mengawasi lembaga independen.",
+      "source_ids": [
+        "laporan-pansus-kpk-2018"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-bpk-audit-aw101-2017",
+      "term_id": "bpk-2009-2019",
+      "date": "2017-05-26",
+      "category": "kebijakan",
+      "title_id": "Audit Investigatif BPK atas Pengadaan Helikopter AW-101 TNI AU Rp738 Miliar",
+      "summary_id": "BPK RI menyerahkan LHP investigatif kepada KPK dan POM TNI yang menemukan penyimpangan pengadaan helikopter VVIP/transport AW-101 yang dibeli tidak sesuai spesifikasi dan menimbulkan dugaan kerugian keuangan negara lebih dari Rp224 miliar.",
+      "source_ids": [
+        "laporan-audit-bpk-aw101-2017"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-verifikasi-parpol-2018",
+      "term_id": "mk-2013-2018",
+      "date": "2018-01-11",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 53/PUU-XV/2017 Kewajiban Verifikasi Faktual Berlaku bagi Semua Partai",
+      "summary_id": "MK membatalkan ketentuan Pasal 173 ayat 3 UU No. 7/2017 yang membebaskan partai politik yang telah lolos verifikasi Pemilu 2014 dari verifikasi faktual, memerintahkan KPU memverifikasi secara faktual seluruh partai politik calon peserta Pemilu 2019 demi asas keadilan dan kesetaraan kesempatan politik.",
+      "source_ids": [
+        "putusan-mk-53-puu-xv-2017"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-presiden-stranas-pk-2018",
+      "term_id": "presiden-jokowi-i",
+      "date": "2018-07-20",
+      "category": "produk-hukum",
+      "title_id": "Perpres No. 54 Tahun 2018 tentang Strategi Nasional Pencegahan Korupsi (Stranas PK)",
+      "summary_id": "Presiden Jokowi membentuk Sekretariat Nasional Tim Stranas PK lintas kementerian/lembaga (KPK, KSP, Bappenas, Kemendagri, KemenPAN-RB) untuk mendorong digitalisasi perizinan OSS, integrasi data bansos, transparansi pengadaan barang/jasa, dan pembentukan sistem utilisasi NIK.",
+      "source_ids": [
+        "perpres-54-2018"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-presiden-darurat-kesehatan-covid-2020",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2020-03-31",
+      "category": "kebijakan",
+      "title_id": "Penetapan Kedaruratan Kesehatan Masyarakat & Pembatasan Sosial Berskala Besar COVID-19",
+      "summary_id": "Presiden Jokowi menerbitkan Keppres No. 11/2020 dan PP No. 21/2020 memberlakukan Pembatasan Sosial Berskala Besar (PSBB) dan mengalokasikan ratusan triliun rupiah anggaran Pemulihan Ekonomi Nasional (PEN) untuk melindungi keselamatan jiwa rakyat dari wabah global.",
+      "source_ids": [
+        "keppres-11-2020"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "tujuan-2"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-minerba-hilirisasi-2020",
+      "term_id": "dpr-2019-2024",
+      "date": "2020-06-10",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 3 Tahun 2020 tentang Pertambangan Minerba (Kebijakan Hilirisasi)",
+      "summary_id": "DPR mengesahkan revisi UU Minerba yang mewajibkan pembangunan fasilitas pemurnian mineral (smelter) di dalam negeri, menghentikan ekspor bijih mentah nikel/bauksit guna meningkatkan nilai tambah industri nasional dan kedaulatan ekonomi Pasal 33 UUD 1945.",
+      "source_ids": [
+        "uu-3-2020"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-dpd-ruu-daerah-kepulauan-2020",
+      "term_id": "dpd-2019-2024",
+      "date": "2020-11-24",
+      "category": "peristiwa",
+      "title_id": "Inisiatif Legislasi DPD RI Mengajukan RUU Daerah Kepulauan",
+      "summary_id": "DPD RI merumuskan dan mengajukan RUU Usul Inisiatif Daerah Kepulauan ke Prolegnas Prioritas DPR untuk memastikan alokasi Dana Bagi Hasil (DBH) dan Dana Alokasi Khusus (DAK) memperhitungkan luas lautan, mengatasi kesenjangan pembangunan wilayah kepulauan 3T.",
+      "source_ids": [
+        "ruu-daerah-kepulauan-dpd-2020"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-omnibus-ppp-2022",
+      "term_id": "dpr-2019-2024",
+      "date": "2022-06-16",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 13 Tahun 2022 tentang Perubahan UU PPP (Adopsi Metode Omnibus)",
+      "summary_id": "DPR dan Pemerintah merevisi UU Pembentukan Peraturan Perundang-undangan untuk melegalkan penggunaan metode kodifikasi omnibus law serta mewajibkan pemenuhan asas partisipasi publik yang bermakna (meaningful participation) sebagai tindak lanjut Putusan MK No. 91/PUU-XVIII/2020.",
+      "source_ids": [
+        "uu-13-2022"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-presiden-pengakuan-pelanggaran-ham-2023",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2023-01-11",
+      "category": "peristiwa",
+      "title_id": "Pernyataan Resmi Pengakuan dan Penyesalan Negara atas 12 Peristiwa Pelanggaran HAM Berat Masa Lalu",
+      "summary_id": "Presiden Joko Widodo atas nama Kepala Negara secara resmi mengakui dan menyatakan penyesalan mendalam atas terjadinya 12 peristiwa pelanggaran HAM berat masa lalu (termasuk Peristiwa 1965-1966, Talangsari, Trisakti-Semanggi, Wasior, Wamena) berdasarkan rekomendasi Tim PPHAM non-yudisial.",
+      "source_ids": [
+        "keppres-17-2022",
+        "pidato-presiden-ham-2023"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-ma-kasus-surya-darmadi-2023",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2023-09-19",
+      "category": "pengadilan",
+      "title_id": "Putusan Kasasi / PK MA atas Korupsi Lahan Sawit Duta Palma Rp39 Triliun",
+      "summary_id": "Mahkamah Agung menjatuhkan vonis berkekuatan hukum tetap kepada bos Duta Palma Surya Darmadi, menetapkan preseden penegakan hukum tindak pidana korupsi izin perkebunan kelapa sawit dalam kawasan hutan yang merugikan perekonomian negara skala masif.",
+      "source_ids": [
+        "putusan-pk-ma-surya-darmadi-2023"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-ite-revisi-2024",
+      "term_id": "dpr-2019-2024",
+      "date": "2024-01-02",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 1 Tahun 2024 tentang Perubahan Kedua UU ITE",
+      "summary_id": "DPR dan Pemerintah mengesahkan revisi kedua UU ITE yang merumuskan ulang norma pasal karet pencemaran nama baik, menghapus ketentuan multitafsir penahanan preventif, dan menambahkan perlindungan hak anak di ranah digital.",
+      "source_ids": [
+        "uu-1-2024"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-ma-putusan-batas-usia-pilkada-2024",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2024-05-29",
+      "category": "pengadilan",
+      "title_id": "Putusan MA No. 23 P/HUM/2024 tentang Batas Usia Calon Kepala Daerah Sejak Pelantikan",
+      "summary_id": "Mahkamah Agung mengabulkan uji materiil PKPU No. 9/2020 dengan mengubah tafsir syarat batas usia calon kepala daerah (30 tahun untuk gubernur) dihitung sejak pelantikan pasangan calon terpilih, bukan saat penetapan paslon oleh KPU, yang kelak dikoreksi oleh Putusan MK No. 70/PUU-XXII/2024.",
+      "source_ids": [
+        "putusan-ma-23-p-hum-2024"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-bpk-audit-kasus-timah-2024",
+      "term_id": "bpk-2019-sekarang",
+      "date": "2024-05-29",
+      "category": "kebijakan",
+      "title_id": "Audit Investigatif BPK Kasus Kerusakan Lingkungan & Korupsi Timah Rp300 Triliun",
+      "summary_id": "BPK RI bersama Kejaksaan Agung mengumumkan hasil audit penghitungan kerugian keuangan negara sebesar Rp300,003 triliun pada tata niaga timah PT Timah Tbk (2015–2022), mencakup kerugian ekologis dan biaya pemulihan lingkungan akibat penambangan ilegal di kawasan hutan lindung Bangka Belitung.",
+      "source_ids": [
+        "laporan-audit-bpk-timah-2024"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "checks-balances"
       ]
     },
     {
@@ -8939,6 +9285,220 @@
       "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=37&thn=2008",
       "citation_id": "LN No. 139 Tahun 2008, TLN No. 4899",
       "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=37&thn=2008"
+    },
+    {
+      "id": "uu-12-2011",
+      "type": "undang-undang",
+      "title_id": "UU No. 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (UU PPP)",
+      "year": 2011,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2011",
+      "citation_id": "LN No. 82 Tahun 2011, TLN No. 5234",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2011"
+    },
+    {
+      "id": "uu-13-2022",
+      "type": "undang-undang",
+      "title_id": "UU No. 13 Tahun 2022 tentang Perubahan Kedua atas UU No. 12 Tahun 2011 (Legalisasi Metode Omnibus Law dan Partisipasi Bermakna)",
+      "year": 2022,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=13&thn=2022",
+      "citation_id": "LN No. 143 Tahun 2022, TLN No. 6801",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=13&thn=2022"
+    },
+    {
+      "id": "uu-7-2017",
+      "type": "undang-undang",
+      "title_id": "UU No. 7 Tahun 2017 tentang Pemilihan Umum (Kodifikasi UU Pemilu Serentak)",
+      "year": 2017,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017",
+      "citation_id": "LN No. 182 Tahun 2017, TLN No. 6109",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017"
+    },
+    {
+      "id": "uu-19-2016",
+      "type": "undang-undang",
+      "title_id": "UU No. 19 Tahun 2016 tentang Perubahan atas UU No. 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (UU ITE)",
+      "year": 2016,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2016",
+      "citation_id": "LN No. 251 Tahun 2016, TLN No. 5952",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2016"
+    },
+    {
+      "id": "uu-1-2024",
+      "type": "undang-undang",
+      "title_id": "UU No. 1 Tahun 2024 tentang Perubahan Kedua atas UU No. 11 Tahun 2008 tentang ITE",
+      "year": 2024,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2024",
+      "citation_id": "LN No. 4 Tahun 2024, TLN No. 6909",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2024"
+    },
+    {
+      "id": "putusan-mk-005-puu-iv-2006",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 005/PUU-IV/2006 (Pembatalan Wewenang Pengawasan Hakim Agung dan Hakim Mahkamah Konstitusi oleh Komisi Yudisial)",
+      "year": 2006,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=005/PUU-IV/2006",
+      "citation_id": "Putusan MKRI No. 005/PUU-IV/2006",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=005/PUU-IV/2006"
+    },
+    {
+      "id": "putusan-mk-138-puu-vii-2009",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 138/PUU-VII/2009 (Tiga Parameter Syarat Konstitusional Kegentingan yang Memaksa dalam Penerbitan Perppu)",
+      "year": 2009,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=138/PUU-VII/2009",
+      "citation_id": "Putusan MKRI No. 138/PUU-VII/2009",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=138/PUU-VII/2009"
+    },
+    {
+      "id": "putusan-mk-34-puu-xi-2013",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 34/PUU-XI/2013 (Peninjauan Kembali / PK Perkara Pidana Boleh Diajukan Lebih dari Satu Kali Demi Menemukan Keadilan Hakiki)",
+      "year": 2014,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=34/PUU-XI/2013",
+      "citation_id": "Putusan MKRI No. 34/PUU-XI/2013",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=34/PUU-XI/2013"
+    },
+    {
+      "id": "putusan-mk-69-puu-xiii-2015",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 69/PUU-XIII/2015 (Perjanjian Perkawinan / Pisah Harta Boleh Dibuat Selama Ikatan Perkawinan Berlangsung)",
+      "year": 2016,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=69/PUU-XIII/2015",
+      "citation_id": "Putusan MKRI No. 69/PUU-XIII/2015",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=69/PUU-XIII/2015"
+    },
+    {
+      "id": "putusan-mk-20-puu-xiv-2016",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 20/PUU-XIV/2016 (Rekaman Rahasia Ilegal Bukan Alat Bukti yang Sah Tanpa Permintaan Aparat Penegak Hukum)",
+      "year": 2016,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=20/PUU-XIV/2016",
+      "citation_id": "Putusan MKRI No. 20/PUU-XIV/2016",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=20/PUU-XIV/2016"
+    },
+    {
+      "id": "putusan-mk-53-puu-xv-2017",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 53/PUU-XV/2017 (Kewajiban Verifikasi Faktual Berlaku Adil bagi Seluruh Partai Politik Calon Peserta Pemilu)",
+      "year": 2018,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=53/PUU-XV/2017",
+      "citation_id": "Putusan MKRI No. 53/PUU-XV/2017",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=53/PUU-XV/2017"
+    },
+    {
+      "id": "perma-13-2016",
+      "type": "putusan-ma",
+      "title_id": "Peraturan Mahkamah Agung No. 13 Tahun 2016 tentang Tata Cara Penanganan Perkara Tindak Pidana oleh Korporasi",
+      "year": 2016,
+      "citation_id": "Berita Negara RI Tahun 2016 No. 2053",
+      "resolved_url": "https://duckduckgo.com/?q=Peraturan%20Mahkamah%20Agung%20No.%2013%20Tahun%202016%20tentang%20Tata%20Cara%20Penanganan%20Perkara%20Tindak%20Pidana%20oleh%20Korporasi"
+    },
+    {
+      "id": "putusan-ma-23-p-hum-2024",
+      "type": "putusan-ma",
+      "title_id": "Putusan MA No. 23 P/HUM/2024 (Uji Materiil PKPU No. 9/2020 tentang Syarat Usia Calon Kepala Daerah Dihitung Sejak Pelantikan)",
+      "year": 2024,
+      "citation_id": "Putusan MA No. 23 P/HUM/2024",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20MA%20No.%2023%20P%2FHUM%2F2024%20(Uji%20Materiil%20PKPU%20No.%209%2F2020%20tentang%20Syarat%20Usia%20Calon%20Kepala%20Daerah%20Dihitung%20Sejak%20Pelantikan)"
+    },
+    {
+      "id": "putusan-pk-ma-surya-darmadi-2023",
+      "type": "putusan-ma",
+      "title_id": "Putusan Peninjauan Kembali MA No. 57 PK/Pid.Sus/2022 atas Perkara Korupsi dan Pencucian Uang PT Duta Palma Group",
+      "year": 2023,
+      "citation_id": "Putusan MA No. 57 PK/Pid.Sus/2022",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20Peninjauan%20Kembali%20MA%20No.%2057%20PK%2FPid.Sus%2F2022%20atas%20Perkara%20Korupsi%20dan%20Pencucian%20Uang%20PT%20Duta%20Palma%20Group"
+    },
+    {
+      "id": "laporan-audit-bpk-aw101-2017",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pengadaan Helikopter AgustaWestland AW-101 TNI AU Rp738 Miliar",
+      "year": 2017,
+      "citation_id": "BPK RI LHP AW-101 2017",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemeriksaan%20Investigatif%20BPK%20RI%20atas%20Pengadaan%20Helikopter%20AgustaWestland%20AW-101%20TNI%20AU%20Rp738%20Miliar"
+    },
+    {
+      "id": "laporan-audit-bpk-timah-2024",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Audit Penghitungan Kerugian Keuangan Negara dan Kerusakan Lingkungan Tata Niaga Timah BPK RI Rp300 Triliun",
+      "year": 2024,
+      "citation_id": "BPK RI LHP Tata Niaga Timah 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Audit%20Penghitungan%20Kerugian%20Keuangan%20Negara%20dan%20Kerusakan%20Lingkungan%20Tata%20Niaga%20Timah%20BPK%20RI%20Rp300%20Triliun"
+    },
+    {
+      "id": "laporan-pansus-century-2010",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Akhir Panitia Angket DPR RI atas Pengusutan Kasus Bank Century",
+      "year": 2010,
+      "citation_id": "DPR RI Risalah Pansus Century 2010",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Akhir%20Panitia%20Angket%20DPR%20RI%20atas%20Pengusutan%20Kasus%20Bank%20Century"
+    },
+    {
+      "id": "laporan-pansus-kpk-2018",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Pelaksanaan Tugas Panitia Khusus Hak Angket DPR RI terhadap KPK",
+      "year": 2018,
+      "citation_id": "DPR RI Risalah Pansus KPK 2018",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pelaksanaan%20Tugas%20Panitia%20Khusus%20Hak%20Angket%20DPR%20RI%20terhadap%20KPK"
+    },
+    {
+      "id": "inpres-10-2011",
+      "type": "keppres",
+      "title_id": "Instruksi Presiden No. 10 Tahun 2011 tentang Moratorium Izin Baru Hutan Alam Primer dan Lahan Gambut",
+      "year": 2011,
+      "citation_id": "Inpres No. 10 Tahun 2011",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Instruksi%20Presiden%20No.%2010%20Tahun%202011%20tentang%20Moratorium%20Izin%20Baru%20Hutan%20Alam%20Primer%20dan%20La"
+    },
+    {
+      "id": "perpres-54-2018",
+      "type": "keppres",
+      "title_id": "Peraturan Presiden No. 54 Tahun 2018 tentang Strategi Nasional Pencegahan Korupsi (Stranas PK)",
+      "year": 2018,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=PERPRES&no=54&thn=2018",
+      "citation_id": "LN No. 108 Tahun 2018",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=PERPRES&no=54&thn=2018"
+    },
+    {
+      "id": "keppres-17-2022",
+      "type": "keppres",
+      "title_id": "Keputusan Presiden No. 17 Tahun 2022 tentang Pembentukan Tim Penyelesaian Non-Yudisial Pelanggaran HAM Berat Masa Lalu (PPHAM)",
+      "year": 2022,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=17&thn=2022",
+      "citation_id": "Keppres No. 17 Tahun 2022",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=17&thn=2022"
+    },
+    {
+      "id": "pidato-presiden-ham-2023",
+      "type": "arsip-nasional",
+      "title_id": "Pernyataan Resmi Presiden RI tentang Pengakuan dan Penyesalan atas 12 Peristiwa Pelanggaran HAM Berat Masa Lalu",
+      "year": 2023,
+      "citation_id": "Sekretariat Presiden Pernyataan HAM 2023",
+      "resolved_url": "https://duckduckgo.com/?q=Pernyataan%20Resmi%20Presiden%20RI%20tentang%20Pengakuan%20dan%20Penyesalan%20atas%2012%20Peristiwa%20Pelanggaran%20HAM%20Berat%20Masa%20Lalu"
+    },
+    {
+      "id": "keppres-11-2020",
+      "type": "keppres",
+      "title_id": "Keputusan Presiden No. 11 Tahun 2020 tentang Penetapan Kedaruratan Kesehatan Masyarakat COVID-19",
+      "year": 2020,
+      "citation_id": "Keppres No. 11 Tahun 2020",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Keputusan%20Presiden%20No.%2011%20Tahun%202020%20tentang%20Penetapan%20Kedaruratan%20Kesehatan%20Masyarakat%20CO"
+    },
+    {
+      "id": "uu-3-2020",
+      "type": "undang-undang",
+      "title_id": "UU No. 3 Tahun 2020 tentang Perubahan atas UU No. 4 Tahun 2009 tentang Pertambangan Mineral dan Batubara (Hilirisasi Industri Pertambangan)",
+      "year": 2020,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2020",
+      "citation_id": "LN No. 147 Tahun 2020, TLN No. 6525",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2020"
+    },
+    {
+      "id": "ruu-daerah-kepulauan-dpd-2020",
+      "type": "arsip-nasional",
+      "title_id": "Naskah Akademik dan RUU Usul Inisiatif DPD RI tentang Daerah Kepulauan",
+      "year": 2020,
+      "citation_id": "DPD RI RUU Daerah Kepulauan 2020",
+      "resolved_url": "https://duckduckgo.com/?q=Naskah%20Akademik%20dan%20RUU%20Usul%20Inisiatif%20DPD%20RI%20tentang%20Daerah%20Kepulauan"
     }
   ],
   "assessments": [

@@ -187,5 +187,72 @@
   source_ids: [uu-24-2011]
   dimension_ids: [tujuan-2, sila-5]
 
+- id: ev-mk-putusan-ky-hakim-agung-2006
+  term_id: mk-2003-2008
+  date: "2006-08-23"
+  category: pengadilan
+  title_id: Putusan MK No. 005/PUU-IV/2006 Pembatalan Wewenang Pengawasan Hakim Agung oleh KY
+  summary_id: >-
+    MK membatalkan ketentuan Pasal UU KY dan UU MA yang memberikan kewenangan pengawasan perilaku kepada Komisi Yudisial terhadap hakim agung dan hakim MK,
+    memantik perdebatan panjang ketatanegaraan mengenai batasan checks and balances versus independensi kekuasaan kehakiman.
+  source_ids: [putusan-mk-005-puu-iv-2006]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-mk-putusan-kegentingan-perppu-2009
+  term_id: mk-2008-2013
+  date: "2009-11-25"
+  category: pengadilan
+  title_id: Putusan MK No. 138/PUU-VII/2009 Batasan Syarat Kegentingan yang Memaksa dalam Perppu
+  summary_id: >-
+    MK menetapkan 3 parameter kumulatif syarat kegentingan memaksa bagi Presiden dalam mengeluarkan Perppu:
+    adanya kebutuhan mendesak menyelesaikan masalah hukum, kekosongan hukum atau UU yang ada tidak memadai, dan proses pembentukan UU biasa membutuhkan waktu lama.
+  source_ids: [putusan-mk-138-puu-vii-2009]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-dpr-pansus-century-2010
+  term_id: dpr-2009-2014
+  date: "2010-03-03"
+  category: peristiwa
+  title_id: Pansus Hak Angket Kasus Bank Century DPR RI
+  summary_id: >-
+    Rapat Paripurna DPR RI menyetujui rekomendasi Pansus Hak Angket Century (Opsi C) yang menyatakan adanya indikasi
+    penyimpangan dan pelanggaran hukum dalam proses pemberian Fasilitas Pendanaan Jangka Pendek (FPJP) dan Penyertaan Modal Sementara (PMS) Rp6,7 triliun.
+  source_ids: [laporan-pansus-century-2010]
+  dimension_ids: [checks-balances, kedaulatan-rakyat]
+
+- id: ev-presiden-moratorium-hutan-2011
+  term_id: presiden-sby-ii
+  date: "2011-05-20"
+  category: kebijakan
+  title_id: Instruksi Presiden No. 10/2011 tentang Moratorium Izin Baru Hutan Primer & Lahan Gambut
+  summary_id: >-
+    Presiden SBY menerbitkan Inpres penghentian sementara penerbitan izin baru pembukaan hutan alam primer dan lahan gambut
+    seluas lebih dari 66 juta hektar sebagai komitmen nasional penurunan emisi gas rumah kaca dan perlindungan kelestarian ekologis.
+  source_ids: [inpres-10-2011]
+  dimension_ids: [tujuan-1, sila-5]
+
+- id: ev-dpr-uu-ppp-2011
+  term_id: dpr-2009-2014
+  date: "2011-08-12"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (UU PPP)
+  summary_id: >-
+    DPR dan Pemerintah mengesahkan landasan baku tata urutan hierarki peraturan perundang-undangan nasional,
+    asas kejelasan rumusan norma, keterbukaan pembentukan hukum, dan standardisasi naskah akademik di Indonesia.
+  source_ids: [uu-12-2011]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-mk-putusan-pk-berkali-kali-2013
+  term_id: mk-2013-2018
+  date: "2014-03-06"
+  category: pengadilan
+  title_id: Putusan MK No. 34/PUU-XI/2013 Membolehkan Peninjauan Kembali (PK) Pidana Diajukan Lebih dari Sekali
+  summary_id: >-
+    MK membatalkan Pasal 268 ayat 3 KUHAP yang membatasi PK hanya satu kali, menegaskan bahwa dalam perkara pidana yang menyangkut nasib dan hak asasi manusia,
+    pencarian keadilan materiel (substantive justice) harus diutamakan di atas kepastian hukum formal.
+  source_ids: [putusan-mk-34-puu-xi-2013]
+  dimension_ids: [negara-hukum, sila-2]
+
+
 
 
