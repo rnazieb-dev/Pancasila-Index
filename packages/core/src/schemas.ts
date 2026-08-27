@@ -232,3 +232,37 @@ export const assessmentSchema = z
   );
 export type Assessment = z.infer<typeof assessmentSchema>;
 export type DimensionScore = z.infer<typeof dimensionScoreSchema>;
+
+// ---------------------------------------------------------------- indeks eksternal
+
+export const externalIndexTypeSchema = z.enum([
+  "hard-data",
+  "expert-coded",
+  "civil-society",
+  "official-self-assessment",
+]);
+export type ExternalIndexType = z.infer<typeof externalIndexTypeSchema>;
+
+export const externalDataPointSchema = z.object({
+  year: z.number().int().min(1945).max(2100),
+  score: z.number(),
+  rank: z.number().int().optional(),
+  total_countries: z.number().int().optional(),
+  note: z.string().optional(),
+  subscores: z.record(z.string(), z.number()).optional(),
+});
+export type ExternalDataPoint = z.infer<typeof externalDataPointSchema>;
+
+export const externalIndexSchema = z.object({
+  id: idField("external_index.id"),
+  name: z.string().min(3),
+  publisher: z.string().min(2),
+  type: externalIndexTypeSchema,
+  scale: z.string().min(3),
+  description: z.string().min(10),
+  url: z.string().url(),
+  target_dimensions: z.array(idField("external_index.target_dimensions")).default([]),
+  data: z.array(externalDataPointSchema).min(1),
+  abs_discrepancy_note: z.string().optional(),
+});
+export type ExternalIndex = z.infer<typeof externalIndexSchema>;

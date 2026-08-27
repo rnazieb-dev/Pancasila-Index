@@ -11,6 +11,7 @@ import {
 } from "@pancasila-index/data";
 
 import { RadarChart } from "@/components/radar-chart";
+import { ExternalIndicesWidget } from "@/components/external-indices-widget";
 import {
   groupName,
   indexLabel,
@@ -260,6 +261,9 @@ export default async function TermPage({
           })}
         </div>
       </section>
+
+      {/* Konteks Independen Global (Enrichment) */}
+      <ExternalIndicesWidget term={term} indices={dataset.external_indices ?? []} />
 
       {/* Peristiwa */}
       {events.length > 0 && (

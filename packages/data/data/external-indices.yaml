@@ -1,0 +1,260 @@
+# Indeks Independen Eksternal (Enrichment / Pengaya Konteks Pancasila Index)
+# Berisi data deret waktu (time series) indeks pihak ketiga yang kredibel,
+# berbasis data keras (hard data) dan peer-reviewed, bebas dari bias birokrasi ABS.
+
+- id: ipi-ercas
+  name: Index of Public Integrity (IPI)
+  publisher: European Research Centre for Anti-Corruption and State-Building (ERCAS)
+  type: hard-data
+  scale: 1.0 - 10.0 (10 = Kapasitas kontrol korupsi tertinggi)
+  description: >-
+    Mengukur kapasitas objektif masyarakat dalam mengontrol korupsi berbasis data keras:
+    Independensi Peradilan (Judicial Independence), Beban Administrasi (Administrative Burden),
+    Keterbukaan Perdagangan, Transparansi Anggaran, Layanan Publik Digital (E-Services), dan Kebebasan Pers.
+  url: https://corruptionrisk.org/country/?country=IDN#integrity
+  target_dimensions:
+    - negara-hukum
+    - checks-balances
+    - sila-5
+    - sila-4
+  data:
+    - year: 2015
+      score: 6.84
+      rank: 65
+      total_countries: 109
+      note: Penguatan awal e-procurement dan transparansi anggaran APBN.
+    - year: 2017
+      score: 6.92
+      rank: 64
+      total_countries: 109
+      note: Perluasan digitalisasi layanan perizinan terpadu.
+    - year: 2019
+      score: 6.78
+      rank: 68
+      total_countries: 114
+      note: Penurunan pada pilar independensi peradilan dan kebebasan sipil.
+    - year: 2021
+      score: 6.65
+      rank: 72
+      total_countries: 114
+      note: Tekanan terhadap ruang sipil dan dampak pelemahan kerangka antikorupsi.
+    - year: 2023
+      score: 6.58
+      rank: 75
+      total_countries: 114
+      note: Kemunduran kapasitas pengawasan independen dan transparansi proses regulasi.
+  abs_discrepancy_note: >-
+    Data IPI menunjukkan tren penurunan kapasitas kontrol korupsi riil sejak 2019,
+    sangat kontras dengan laporan internal instansi pemerintah yang rata-rata mengklaim
+    kepatuhan Zona Integritas dan Reformasi Birokrasi di atas 85%.
+
+- id: wjp-rule-of-law
+  name: WJP Rule of Law Index
+  publisher: World Justice Project (WJP)
+  type: civil-society
+  scale: 0.00 - 1.00 (1.00 = Kepatuhan supremasi hukum mutlak)
+  description: >-
+    Mengukur 8 faktor supremasi hukum dari survei independen masyarakat umum dan praktisi hukum:
+    Pembatasan Kekuasaan Pemerintah, Ketiadaan Korupsi, Keterbukaan Pemerintah, Hak-Hak Dasar,
+    Ketertiban & Keamanan, Penegakan Regulasi, Keadilan Perdata, dan Keadilan Pidana.
+  url: https://worldjusticeproject.org/rule-of-law-index/country/Indonesia
+  target_dimensions:
+    - negara-hukum
+    - checks-balances
+    - sila-2
+    - sila-4
+  data:
+    - year: 2015
+      score: 0.52
+      rank: 52
+      total_countries: 102
+    - year: 2016
+      score: 0.52
+      rank: 61
+      total_countries: 113
+    - year: 2017
+      score: 0.52
+      rank: 63
+      total_countries: 113
+    - year: 2018
+      score: 0.52
+      rank: 63
+      total_countries: 113
+    - year: 2019
+      score: 0.53
+      rank: 63
+      total_countries: 126
+    - year: 2020
+      score: 0.53
+      rank: 59
+      total_countries: 128
+    - year: 2021
+      score: 0.52
+      rank: 68
+      total_countries: 139
+    - year: 2022
+      score: 0.53
+      rank: 64
+      total_countries: 140
+    - year: 2023
+      score: 0.53
+      rank: 66
+      total_countries: 142
+    - year: 2024
+      score: 0.52
+      rank: 68
+      total_countries: 142
+  abs_discrepancy_note: >-
+    Skor faktor 'Pembatasan Kekuasaan Pemerintah' (Constraints on Government Powers) dan
+    'Keadilan Pidana' stagnan di level rendah (~0.48-0.50), membuktikan bahwa deklarasi formal
+    WBK/WBBM di peradilan belum mengubah persepsi masyarakat atas praktik impunitas dan intervensi politik.
+
+- id: vdem-deliberative
+  name: V-Dem Deliberative & Liberal Democracy Index
+  publisher: Varieties of Democracy (V-Dem) Institute, University of Gothenburg
+  type: expert-coded
+  scale: 0.00 - 1.00 (1.00 = Demokrasi deliberatif berintegritas tinggi)
+  description: >-
+    Basis data riset akademik global berbasis double-blind expert coding dan model Bayesian,
+    menilai kualitas musyawarah publik (meaningful participation), kebebasan akademik/pers,
+    serta kapasitas peradilan mengawasi tindakan inkonstitusional eksekutif.
+  url: https://v-dem.net/
+  target_dimensions:
+    - sila-4
+    - kedaulatan-rakyat
+    - checks-balances
+  data:
+    - year: 2014
+      score: 0.54
+      note: Pemilu kompetitif dan stabilitas ruang publik demokratis.
+    - year: 2016
+      score: 0.53
+      note: Polarisasi politik identitas mulai mempengaruhi deliberasi publik.
+    - year: 2018
+      score: 0.51
+      note: Pembatasan awal kebebasan berekspresi digital via pasal karet.
+    - year: 2019
+      score: 0.46
+      note: Gelombang demonstrasi Reformasi Dikorupsi dan revisi kilat legislasi kunci.
+    - year: 2020
+      score: 0.44
+      note: Pengesahan omnibus law dengan partisipasi publik bermakna yang sangat minim.
+    - year: 2021
+      score: 0.42
+      note: Penurunan skor perlindungan kebebasan sipil dan kebebasan akademik.
+    - year: 2022
+      score: 0.43
+      note: Stagnasi deliberasi legislatif dan dominasi koalisi mayoritas eksekutif-parlemen.
+    - year: 2023
+      score: 0.41
+      note: Krisis etika peradilan konstitusi dan kemunduran integritas elektoral.
+  abs_discrepancy_note: >-
+    V-Dem mengkategorikan Indonesia mengalami gejala 'democratic backsliding' (kemunduran demokrasi)
+    sejak 2019, berbanding terbalik dengan laporan kepuasan publik seremonial yang sering dirilis institusi resmi.
+
+- id: cpi-ti
+  name: Corruption Perceptions Index (CPI)
+  publisher: Transparency International
+  type: expert-coded
+  scale: 0 - 100 (100 = Sangat bersih dari korupsi)
+  description: >-
+    Komposit 13 survei independen bisnis dan penilaian pakar internasional untuk
+    mengukur tingkat korupsi di sektor publik, peradilan, dan penegakan hukum.
+  url: https://www.transparency.org/en/cpi
+  target_dimensions:
+    - negara-hukum
+    - checks-balances
+    - sila-5
+  data:
+    - year: 2014
+      score: 34
+      rank: 107
+    - year: 2015
+      score: 36
+      rank: 88
+    - year: 2016
+      score: 37
+      rank: 90
+    - year: 2017
+      score: 37
+      rank: 96
+    - year: 2018
+      score: 38
+      rank: 89
+    - year: 2019
+      score: 40
+      rank: 85
+      note: Puncak skor tertinggi pasca-penguatan OTT dan peradilan tipikor.
+    - year: 2020
+      score: 37
+      rank: 102
+      note: Penurunan drastis pasca-berlakunya UU No. 19/2019 tentang Perubahan UU KPK.
+    - year: 2021
+      score: 38
+      rank: 96
+    - year: 2022
+      score: 34
+      rank: 110
+      note: Anjlok 4 poin akibat korupsi penegak hukum dan suap perizinan sumber daya alam.
+    - year: 2023
+      score: 34
+      rank: 115
+    - year: 2024
+      score: 34
+      rank: 115
+  abs_discrepancy_note: >-
+    Anjloknya CPI dari 40 (2019) ke 34 (2022-2024) mencerminkan dampak nyata pelemahan KPK
+    dan korupsi penegak hukum, kontras dengan narasi keberhasilan survei kepatuhan internal birokrasi.
+
+- id: obi-ibp
+  name: Open Budget Index (OBI)
+  publisher: International Budget Partnership (IBP)
+  type: hard-data
+  scale: 0 - 100 (100 = Transparansi dan pengawasan anggaran sempurna)
+  description: >-
+    Audit independen terhadap publikasi 8 dokumen kunci APBN tepat waktu,
+    kekuatan pengawasan legislatif (DPR) & auditor eksternal (BPK), serta ruang partisipasi publik warga.
+  url: https://internationalbudget.org/open-budget-survey/country-results/2023/indonesia
+  target_dimensions:
+    - checks-balances
+    - sila-5
+    - kedaulatan-rakyat
+  data:
+    - year: 2012
+      score: 51
+    - year: 2015
+      score: 59
+    - year: 2017
+      score: 64
+    - year: 2019
+      score: 70
+    - year: 2021
+      score: 70
+    - year: 2023
+      score: 70
+  abs_discrepancy_note: >-
+    Meskipun transparansi publikasi dokumen formal APBN dinilai memadai (skor 70), pilar
+    'Partisipasi Publik Riil' (Public Participation) sangat rendah (skor 26/100), membuktikan bahwa
+    proses alokasi anggaran belanja negara masih bersifat teknokratis elitis dan tertutup dari masyarakat rentan.
+
+- id: oecd-pii
+  name: OECD Public Integrity Indicators (PII)
+  publisher: Organisation for Economic Co-operation and Development (OECD)
+  type: hard-data
+  scale: 0 - 100 (Kesesuaian standar rekomendasi integritas publik OECD)
+  description: >-
+    Menilai kepatuhan regulasi dan penegakan standar integritas publik: pencegahan konflik kepentingan,
+    transparansi lobi dan penyusunan kebijakan, perlindungan pelapor (whistleblower), dan akuntabilitas audit eksternal.
+  url: https://oecd-public-integrity-indicators.org/indicators
+  target_dimensions:
+    - checks-balances
+    - negara-hukum
+    - sila-4
+  data:
+    - year: 2022
+      score: 54
+    - year: 2024
+      score: 52
+  abs_discrepancy_note: >-
+    Evaluasi OECD menyoroti ketiadaan regulasi wajib transparansi lobi korporasi (lobbying disclosure)
+    dan kerentanan saksi/pelapor korupsi di tubuh aparat penegak hukum dari kriminalisasi balik.

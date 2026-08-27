@@ -2,12 +2,14 @@ import { z } from "zod";
 import {
   assessmentSchema,
   eventSchema,
+  externalIndexSchema,
   institutionSchema,
   sourceSchema,
   termSchema,
   uudSchema,
   type Assessment,
   type EventRecord,
+  type ExternalIndex,
   type Institution,
   type Source,
   type Term,
@@ -27,6 +29,7 @@ export const datasetSchema = z.object({
   events: z.array(eventSchema),
   sources: z.array(sourceSchema),
   assessments: z.array(assessmentSchema),
+  external_indices: z.array(externalIndexSchema).default([]),
 });
 export type Dataset = z.infer<typeof datasetSchema>;
 
@@ -102,4 +105,15 @@ export function getLatestAssessment(
 ): Assessment | undefined {
   const list = getAssessmentsOfTerm(dataset, termId);
   return list.at(-1);
+}
+
+export function getExternalIndices(dataset: Dataset): ExternalIndex[] {
+  return dataset.external_indices ?? [];
+}
+
+export function getExternalIndex(
+  dataset: Dataset,
+  id: string
+): ExternalIndex | undefined {
+  return (dataset.external_indices ?? []).find((idx) => idx.id === id);
 }

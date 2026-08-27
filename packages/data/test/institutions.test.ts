@@ -60,4 +60,31 @@ describe("8 Constitutional Organs Dataset Integration", () => {
       }
     }
   });
+
+  it("memuat indeks eksternal independen dengan data deret waktu dan catatan kesenjangan ABS", () => {
+    const indices = dataset.external_indices ?? [];
+    expect(indices.length).toBeGreaterThanOrEqual(6);
+
+    const dimIds = new Set(dataset.rubric.dimensions.map((d) => d.id));
+
+    for (const idx of indices) {
+      expect(idx.id).toBeDefined();
+      expect(idx.name.length).toBeGreaterThanOrEqual(3);
+      expect(idx.publisher.length).toBeGreaterThanOrEqual(2);
+      expect(["hard-data", "expert-coded", "civil-society", "official-self-assessment"]).toContain(idx.type);
+      expect(idx.data.length).toBeGreaterThanOrEqual(1);
+      expect(idx.abs_discrepancy_note).toBeDefined();
+      expect((idx.abs_discrepancy_note || "").length).toBeGreaterThan(15);
+
+      for (const dim of idx.target_dimensions) {
+        expect(dimIds.has(dim), `Dimensi target ${dim} pada indeks ${idx.id} harus terdaftar di rubrik`).toBe(true);
+      }
+
+      for (const dp of idx.data) {
+        expect(dp.year).toBeGreaterThanOrEqual(1945);
+        expect(typeof dp.score).toBe("number");
+      }
+    }
+  });
 });
+

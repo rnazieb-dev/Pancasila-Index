@@ -138,6 +138,17 @@ export function GET() {
           responses: { "200": { description: "Peta pasal UUD" } },
         },
       },
+      "/api/v1/external-indices": {
+        get: {
+          summary: "Daftar indeks independen pihak ketiga (IPI, WJP, V-Dem, CPI, OBI, OECD PII)",
+          parameters: [
+            { name: "type", in: "query", schema: { type: "string", enum: ["hard-data", "expert-coded", "civil-society"] } },
+            { name: "dimension", in: "query", schema: { type: "string" } },
+            { name: "q", in: "query", schema: { type: "string" } },
+          ],
+          responses: { "200": { description: "Daftar indeks independen pengaya" } },
+        },
+      },
     },
   };
 

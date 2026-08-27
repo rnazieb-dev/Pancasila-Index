@@ -21,6 +21,7 @@ import {
   eventSchema,
   sourceSchema,
   assessmentSchema,
+  externalIndexSchema,
 } from "@pancasila-index/core";
 
 import { applyReviews, reviewStateSchema } from "../src/review";
@@ -63,6 +64,9 @@ const terms = termFiles.flatMap((f) => loadArray(f, termSchema, `term (${f})`));
 const sourcesRaw = loadArray("sources.yaml", sourceSchema, "source");
 const events = loadArray("events.yaml", eventSchema, "event");
 const assessments = loadArray("assessments.yaml", assessmentSchema, "assessment");
+const externalIndices = existsSync(join(DATA, "external-indices.yaml"))
+  ? loadArray("external-indices.yaml", externalIndexSchema, "external_index")
+  : [];
 
 // ---- terapkan keputusan kurasi (review-state.json = jejak audit) ----
 const REVIEW_FILE = join(ROOT, "generated", "review-state.json");
@@ -142,6 +146,13 @@ for (const e of events) {
     if (!dimIds.has(d)) errors.push(`event ${e.id}: dimensi "${d}" tidak ada di rubrik`);
 }
 
+for (const idx of externalIndices) {
+  for (const dimId of idx.target_dimensions) {
+    if (!dimIds.has(dimId))
+      errors.push(`external_index ${idx.id}: target_dimension "${dimId}" tidak ada di rubrik`);
+  }
+}
+
 for (const a of assessments) {
   if (!termIds.has(a.term_id)) errors.push(`assessment ${a.id}: term_id "${a.term_id}" tidak ada`);
   if (a.rubric_version !== rubric.version)
@@ -186,6 +197,7 @@ const dataset = parseDataset({
   events,
   sources: sourcesResolved,
   assessments: assessmentsEnriched,
+  external_indices: externalIndices,
 });
 
 mkdirSync(dirname(OUT), { recursive: true });
@@ -194,5 +206,6 @@ writeFileSync(OUT, JSON.stringify(dataset, null, 2) + "\n");
 console.log(
   `OK: ${institutions.length} lembaga, ${terms.length} masa jabatan, ` +
     `${events.length} peristiwa, ${sourcesResolved.length} sumber, ` +
-    `${assessments.length} penilaian, ${uud.babs.length} bab UUD -> generated/dataset.json`
+    `${assessments.length} penilaian, ${uud.babs.length} bab UUD, ` +
+    `${externalIndices.length} indeks eksternal -> generated/dataset.json`
 );
