@@ -121,4 +121,38 @@
   source_ids: [komando-dwikora-1964]
   dimension_ids: [tujuan-1, tujuan-4]
 
+- id: ev-keppres-pembubaran-masyumi-psi-1960
+  term_id: presiden-soekarno-ii
+  date: "1960-08-17"
+  category: produk-hukum
+  title_id: Keppres No. 200/1960 tentang Pembubaran Partai Masyumi dan PSI
+  summary_id: >-
+    Presiden Sukarno membubarkan dua partai politik besar (Partai Masyumi dan Partai Sosialis Indonesia) dengan tuduhan keterlibatan tokoh-tokohnya dalam pemberontakan PRRI/Permesta,
+    mempersempit ruang oposisi politik dan kebebasan berserikat secara drastis dalam sistem Demokrasi Terpimpin.
+  source_ids: [keppres-200-1960]
+  dimension_ids: [kedaulatan-rakyat, negara-hukum]
+
+- id: ev-tap-mprs-presiden-seumur-hidup-1963
+  term_id: presiden-soekarno-ii
+  date: "1963-05-18"
+  category: produk-hukum
+  title_id: TAP MPRS No. III/MPRS/1963 Pengangkatan Bung Karno sebagai Presiden Seumur Hidup
+  summary_id: >-
+    MPRS menetapkan Sukarno sebagai Presiden Seumur Hidup dan Pemimpin Besar Revolusi,
+    menyimpang secara fundamental dari prinsip pembatasan masa jabatan presiden dan periodisasi mandat demokrasi konstitusional (Pasal 7 UUD 1945).
+  source_ids: [tap-mprs-iii-1963]
+  dimension_ids: [checks-balances, kedaulatan-rakyat]
+
+- id: ev-uu-intervensi-kehakiman-presiden-1964
+  term_id: ma-dt-orde-baru
+  date: "1964-10-31"
+  category: produk-hukum
+  title_id: UU No. 19/1964 tentang Kewenangan Presiden Mengintervensi Putusan Pengadilan
+  summary_id: >-
+    Undang-Undang Ketentuan Pokok Kekuasaan Kehakiman 1964 memberikan wewenang eksplisit kepada Presiden untuk turun tangan dalam urusan pengadilan demi kepentingan revolusi dan kepribadian nasional,
+    menundukkan independensi peradilan di bawah kekuasaan eksekutif dan menjadikan Ketua MA berkedudukan setingkat menteri kabinet.
+  source_ids: [uu-19-1964]
+  dimension_ids: [negara-hukum, checks-balances]
+
+
 

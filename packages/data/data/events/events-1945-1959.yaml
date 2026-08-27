@@ -187,6 +187,95 @@
   source_ids: [piagam-kembali-nkri-1950]
   dimension_ids: [tujuan-1, sila-3]
 
+- id: ev-maklumat-x-knip-1945
+  term_id: presiden-soekarno-i
+  date: "1945-10-16"
+  category: produk-hukum
+  title_id: Maklumat Wakil Presiden No. X Tahun 1945 Pemberian Kekuasaan Legislatif kepada KNIP
+  summary_id: >-
+    Wakil Presiden Mohammad Hatta menerbitkan Maklumat No. X yang memberikan wewenang legislatif penuh dan hak menetapkan GBHN kepada Komite Nasional Indonesia Pusat (KNIP)
+    sebelum terbentuknya DPR/MPR, meletakkan fondasi awal pemisahan kekuasaan dan checks and balances di masa awal kemerdekaan.
+  source_ids: [maklumat-x-1945]
+  dimension_ids: [checks-balances, kedaulatan-rakyat]
+
+- id: ev-maklumat-parlementer-1945
+  term_id: presiden-soekarno-i
+  date: "1945-11-14"
+  category: produk-hukum
+  title_id: Maklumat Pemerintah 14 November 1945 tentang Transformasi Sistem ke Parlementer
+  summary_id: >-
+    Pemerintah mengalihkan pertanggungjawaban menteri dari Presiden kepada Badan Pekerja KNIP (Parlemen) dengan mengangkat Sutan Sjahrir sebagai Perdana Menteri pertama,
+    mengubah sistem pemerintahan presidensial menjadi parlementer guna meyakinkan Sekutu tentang iklim demokrasi Indonesia.
+  source_ids: [maklumat-14-nov-1945]
+  dimension_ids: [checks-balances, kedaulatan-rakyat]
+
+- id: ev-pemberontakan-ditii-jabar-1949
+  term_id: presiden-soekarno-i
+  date: "1949-08-07"
+  category: krisis
+  title_id: Proklamasi Negara Islam Indonesia (NII/DI-TII) oleh SM Kartosoewirjo di Jawa Barat
+  summary_id: >-
+    Sekarmadji Maridjan Kartosoewirjo memproklamasikan berdirinya Negara Islam Indonesia di Tasikmalaya, Jawa Barat,
+    memicu konflik bersenjata berkepanjangan melawan kedaulatan NKRI dan falsafah Pancasila hingga penumpasannya melalui Operasi Pagar Betis TNI 1962.
+  source_ids: [arsip-ditii-1949]
+  dimension_ids: [tujuan-1, sila-3]
+
+- id: ev-pemberontakan-apra-bandung-1950
+  term_id: presiden-soekarno-i
+  date: "1950-01-23"
+  category: krisis
+  title_id: Kudeta Angkatan Perang Ratu Adil (APRA) Westerling di Kota Bandung
+  summary_id: >-
+    Mantan kapten KNIL Raymond Westerling melancarkan serangan bersenjata menguasai markas Divisi Siliwangi dan membunuh puluhan prajurit TNI di Bandung,
+    berupaya mempertahankan keberadaan Negara Pasundan dan menggagalkan integrasi kembali Republik Indonesia Serikat (RIS) ke NKRI.
+  source_ids: [arsip-apra-1950]
+  dimension_ids: [tujuan-1, sila-3]
+
+- id: ev-mandat-pdri-bukittinggi-1948
+  term_id: presiden-soekarno-i
+  date: "1948-12-19"
+  category: krisis
+  title_id: Pembentukan Pemerintah Darurat Republik Indonesia (PDRI) di Bukittinggi
+  summary_id: >-
+    Menyusul jatuhnya Yogyakarta dan penawanan Sukarno-Hatta dalam Agresi Militer Belanda II, Sjafruddin Prawiranegara membentuk PDRI di Sumatera Barat
+    berdasarkan radiogram mandat darurat, menyelamatkan eksistensi pemerintahan berdaulat Republik Indonesia dari klaim kepunahan oleh Belanda.
+  source_ids: [arsip-pdri-1948]
+  dimension_ids: [tujuan-1, checks-balances]
+
+- id: ev-pemberontakan-rms-ambon-1950
+  term_id: presiden-soekarno-i
+  date: "1950-04-25"
+  category: krisis
+  title_id: Proklamasi Gerakan Separatis Republik Maluku Selatan (RMS) di Ambon
+  summary_id: >-
+    Mantan Jaksa Agung Negara Indonesia Timur Christian Soumokil memproklamasikan Republik Maluku Selatan di Ambon,
+    memicu operasi militer gabungan TNI dipimpin Kolonel Alex Kawilarang dan Letkol Slamet Riyadi untuk memulihkan kedaulatan konstitusional NKRI di Maluku.
+  source_ids: [arsip-rms-1950]
+  dimension_ids: [tujuan-1, sila-3]
+
+- id: ev-uu-pembatalan-kmb-1956
+  term_id: presiden-soekarno-i
+  date: "1956-05-03"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 13 Tahun 1956 tentang Pembatalan Hubungan Indonesia-Belanda Hasil KMB
+  summary_id: >-
+    DPR hasil Pemilu 1955 bersama Pemerintah mengesahkan undang-undang pembatalan sepihak seluruh perjanjian Konferensi Meja Bundar (KMB) dan Uni Indonesia-Belanda,
+    menghapus beban utang kolonial Hindia Belanda dan menegaskan kemandirian kedaulatan ekonomi-politik nasional.
+  source_ids: [uu-13-1956]
+  dimension_ids: [kedaulatan-rakyat, tujuan-4]
+
+- id: ev-uu-keadaan-bahaya-sob-1957
+  term_id: presiden-soekarno-i
+  date: "1957-12-17"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 74 Tahun 1957 tentang Keadaan Bahaya (Staat van Oorlog en Beleg / SOB)
+  summary_id: >-
+    Parlemen mengundangkan aturan keadaan darurat perang (SOB) di seluruh wilayah RI untuk merespons ancaman disintegrasi dan pemberontakan daerah PRRI/Permesta,
+    memperluas wewenang Penguasa Militer Daerah dan Komando Tertinggi dalam menjaga pertahanan dan keamanan nasional.
+  source_ids: [uu-74-1957]
+  dimension_ids: [tujuan-1, negara-hukum]
+
+
 
 
 

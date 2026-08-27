@@ -902,6 +902,40 @@
   source_ids: [laporan-evaluasi-20-persen-anggaran-pendidikan-2024]
   dimension_ids: [tujuan-3, sila-5]
 
+- id: ev-keppres-hari-lahir-pancasila-2016
+  term_id: presiden-jokowi-i
+  date: "2016-06-01"
+  category: produk-hukum
+  title_id: Keppres No. 24 Tahun 2016 tentang Hari Lahir Pancasila 1 Juni Hari Libur Nasional
+  summary_id: >-
+    Presiden menetapkan tanggal 1 Juni 1945 sebagai Hari Lahir Pancasila dan hari libur nasional resmi,
+    mengakui pidato Bung Karno di sidang BPUPK sebagai tonggak kelahiran dasar falsafah negara dan membentuk Badan Pembinaan Ideologi Pancasila (BPIP).
+  source_ids: [keppres-24-2016]
+  dimension_ids: [sila-1, sila-3]
+
+- id: ev-tragedi-kanjuruhan-tgipf-2022
+  term_id: presiden-jokowi-ii
+  date: "2022-10-01"
+  category: krisis
+  title_id: Tragedi Stadion Kanjuruhan (135 Korban Jiwa) & Laporan Investigasi TGIPF
+  summary_id: >-
+    Penembakan gas air mata secara membabi buta di dalam tribun stadion pasca pertandingan Arema vs Persebaya menewaskan 135 suporter,
+    menghasilkan laporan investigasi Tim Gabungan Independen Pencari Fakta (TGIPF) yang merekomendasikan reformasi total PSSI dan akuntabilitas pidana komando aparat keamanan.
+  source_ids: [laporan-tgipf-kanjuruhan-2022]
+  dimension_ids: [sila-2, negara-hukum]
+
+- id: ev-inpres-pelanggaran-ham-berat-2023
+  term_id: presiden-jokowi-ii
+  date: "2023-03-15"
+  category: produk-hukum
+  title_id: Inpres No. 2/2023 tentang Pemulihan Hak Korban 12 Peristiwa Pelanggaran HAM Berat
+  summary_id: >-
+    Presiden mengeluarkan instruksi kepada 19 menteri/lembaga untuk merealisasikan pemulihan hak-hak korban (reparasi hak ekonomi, kesehatan, beasiswa, dan pengakuan status)
+    atas 12 peristiwa pelanggaran HAM berat masa lalu yang diakui secara resmi oleh negara tanpa menegasikan jalur yudisial.
+  source_ids: [inpres-2-2023]
+  dimension_ids: [sila-2, negara-hukum]
+
+
 
 
 

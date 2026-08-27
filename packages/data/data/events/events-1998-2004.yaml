@@ -286,6 +286,73 @@
   source_ids: [uu-34-2004]
   dimension_ids: [checks-balances, negara-hukum]
 
+- id: ev-tap-mpr-reformasi-1998
+  term_id: mpr-1971-1999
+  date: "1998-11-13"
+  category: produk-hukum
+  title_id: TAP MPR No. X/MPR/1998 tentang Pokok-Pokok Reformasi Pembangunan
+  summary_id: >-
+    Sidang Istimewa MPR menetapkan haluan pokok reformasi di bidang hukum, ekonomi, dan politik,
+    mengamanatkan pemberantasan korupsi, kolusi, dan nepotisme (KKN), pembatasan kekuasaan eksekutif, dan percepatan pemilu demokratis.
+  source_ids: [tap-mpr-x-1998]
+  dimension_ids: [kedaulatan-rakyat, checks-balances]
+
+- id: ev-tap-mpr-ham-1998
+  term_id: mpr-1971-1999
+  date: "1998-11-13"
+  category: produk-hukum
+  title_id: TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia (Piagam HAM Indonesia)
+  summary_id: >-
+    MPR menetapkan Piagam Hak Asasi Manusia Indonesia yang memuat 44 pasal perlindungan hak-hak sipil, politik, ekonomi, sosial, dan budaya,
+    yang kemudian menjadi cikal bakal materi muatan Bab XA (Pasal 28A–28J) Perubahan Kedua UUD 1945.
+  source_ids: [tap-mpr-xvii-1998]
+  dimension_ids: [negara-hukum, sila-2]
+
+- id: ev-uu-otonomi-daerah-1999
+  term_id: presiden-habibie
+  date: "1999-05-07"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 22/1999 & UU No. 25/1999 tentang Desentralisasi dan Otonomi Daerah Luas
+  summary_id: >-
+    Pemerintahan BJ Habibie bersama DPR mengundangkan paket undang-undang otonomi daerah yang mengalihkan kewenangan pemerintahan secara radikal
+    dari sentralisme Orde Baru ke tingkat Kabupaten/Kota, disertai formula Dana Alokasi Umum (DAU) dan Dana Alokasi Khusus (DAK).
+  source_ids: [uu-22-1999, uu-25-1999]
+  dimension_ids: [tujuan-2, sila-5]
+
+- id: ev-uu-tpu-ppatk-2002
+  term_id: dpr-1999-2004
+  date: "2002-04-17"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang dan Pembentukan PPATK
+  summary_id: >-
+    DPR dan Pemerintah mengesahkan landasan hukum rezim anti-pencucian uang Indonesia serta membentuk Pusat Pelaporan dan Analisis Transaksi Keuangan (PPATK)
+    guna melacak aliran dana hasil kejahatan, korupsi, dan pendanaan terorisme lintas batas (follow the money).
+  source_ids: [uu-15-2002]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-uu-terorisme-bom-bali-2003
+  term_id: dpr-1999-2004
+  date: "2003-04-04"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 15 Tahun 2003 tentang Pemberantasan Tindak Pidana Terorisme Pasca Bom Bali
+  summary_id: >-
+    Merespons serangan terorisme Bom Bali I yang menewaskan 202 orang, DPR mengesahkan payung hukum pemberantasan tindak pidana terorisme
+    yang memperkuat kewenangan penindakan aparat intelijen dan Detasemen Khusus 88 Polri dengan tetap mengedepankan due process of law.
+  source_ids: [uu-15-2003]
+  dimension_ids: [tujuan-1, negara-hukum]
+
+- id: ev-putusan-icj-sipadan-ligitan-2002
+  term_id: presiden-megawati
+  date: "2002-12-17"
+  category: peristiwa
+  title_id: Putusan Mahkamah Internasional atas Sengketa Kedaulatan Pulau Sipadan dan Ligitan
+  summary_id: >-
+    Mahkamah Internasional (ICJ) di Den Haag memutuskan kedaulatan atas Pulau Sipadan dan Ligitan jatuh kepada Malaysia berdasarkan prinsip efektivitas administrasi kolonial (effective occupation),
+    menjadi pelajaran historis penting bagi penguatan diplomasi batas maritim dan penjagaan pulau-pulau terluar NKRI.
+  source_ids: [putusan-icj-sipadan-ligitan-2002]
+  dimension_ids: [tujuan-1, tujuan-4]
+
+
 
 
 
