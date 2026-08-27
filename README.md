@@ -45,7 +45,7 @@ lintas sejarah* — dan setiap skor wajib bersitasi bukti primer.
 | 2 | Seed era Reformasi + MVP web (timeline, radar, evidence explorer) | ✅ |
 | 2.5 | Peta lengkap UUD (73 pasal) + peristiwa krusial tambahan | ✅ |
 | 3 | Auth GitHub + workflow kurasi + pipeline AI | ✅ |
-| 5a | Prisma/SQLite overlay + RBAC 4 peran + review write-through DB→file + AuditLog | ✅ |
+| 5a | Prisma/Postgres overlay + RBAC 4 peran + review write-through DB→file + AuditLog | ✅ |
 | 5b | Kurasi tuntas: kuorum 2 approver beda nama, halaman detail & log publik, webhook opsional | ✅ |
 | 6a | Scraper JDIH Setneg → korpus `data/raw/` (51 dokumen hukum tervalidasi) | ✅ parsial* |
 | 4a | Dataset eksekutif penuh 1945–1998 (Revolusi/Liberal, Demokrasi Terpimpin, Orde Baru) | ✅ draf |

@@ -12,7 +12,7 @@ kini — dengan setiap skor wajib bersitasi bukti primer.
 ## Keputusan arsitektur terkunci
 
 - **Hybrid YAML+Postgres**: YAML di git = kanonik penilaian (PR = telaah);
-  Prisma/SQLite(→Postgres) = overlay dinamis (User/Review/Comment/AuditLog).
+  Prisma/Postgres = overlay dinamis (User/Review/Comment/AuditLog).
   API kurasi menulis DB lalu mirror write-through ke
   `packages/data/generated/review-state.json` agar build YAML tetap jalan.
 - **Skala bukti**: hybrid scraper JDIH/MKRI + LLM klasifikasi + batch

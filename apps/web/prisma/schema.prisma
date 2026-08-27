@@ -1,14 +1,14 @@
 // Pancasila Index — lapisan dinamis (akun, review, komentar, audit).
 // Kanonik untuk PENILAIAN tetap YAML di git; tabel di sini hanya overlay
-// interaktif. SQLite untuk lokal; ganti provider ke "postgresql" + url
-// saat naik ke server tanpa mengubah model.
+// interaktif. Postgres untuk lokal & produksi (Vercel serverless tidak bisa
+// menulis ke SQLite: filesystem-nya ephemeral & read-only).
 
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
