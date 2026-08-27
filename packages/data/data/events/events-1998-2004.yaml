@@ -66,3 +66,71 @@
   source_ids: [uu-15-2002]
   dimension_ids: [negara-hukum, checks-balances]
 
+- id: ev-referendum-timtim-1999
+  term_id: mpr-1971-1999
+  date: "1999-10-19"
+  category: produk-hukum
+  title_id: TAP MPR No. V/MPR/1999 tentang Pengakuan Hasil Jajak Pendapat Timor Timur
+  summary_id: >-
+    Sidang Umum MPR secara resmi mengakui hasil jajak pendapat PBB di Timor Timur yang memilih merdeka,
+    mencabut TAP MPR No. VI/1978 dan mengakhiri status integrasi wilayah tersebut sebagai bukti ketaatan pada hukum internasional dan hak menentukan nasib sendiri.
+  source_ids: [tap-mpr-v-1999]
+  dimension_ids: [tujuan-4, kedaulatan-rakyat]
+
+- id: ev-otonomi-daerah-1999
+  term_id: dpr-1999-2004
+  date: "1999-05-07"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 22 Tahun 1999 tentang Pemerintahan Daerah (Desentralisasi)
+  summary_id: >-
+    DPR bersama Presiden BJ Habibie mengesahkan undang-undang otonomi daerah yang mengalihkan sebagian besar wewenang pemerintahan
+    dari pusat ke tingkat kabupaten/kota, membongkar sentralisme otoriter Orde Baru dan meletakkan fondasi demokrasi lokal.
+  source_ids: [uu-22-1999]
+  dimension_ids: [kedaulatan-rakyat, checks-balances]
+
+- id: ev-uu-kpk-2002
+  term_id: dpr-1999-2004
+  date: "2002-12-27"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 30 Tahun 2002 tentang Pembentukan Komisi Pemberantasan Korupsi (KPK)
+  summary_id: >-
+    DPR dan Pemerintah Megawati mendirikan Komisi Pemberantasan Tindak Pidana Korupsi (KPK) sebagai lembaga independen
+    dengan wewenang penyelidikan, penyidikan, penuntutan, dan koordinasi supervisi untuk memberantas korupsi secara luar biasa.
+  source_ids: [uu-30-2002]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-uu-mk-2003
+  term_id: dpr-1999-2004
+  date: "2003-08-13"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 24 Tahun 2003 tentang Mahkamah Konstitusi
+  summary_id: >-
+    DPR mengesahkan payung hukum operasional Mahkamah Konstitusi RI sebagai pengawal konstitusi (the guardian of constitution)
+    yang berwenang menguji undang-undang terhadap UUD 1945, memutus sengketa kewenangan lembaga negara, dan sengketa hasil pemilu.
+  source_ids: [uu-24-2003]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-uu-ky-2004
+  term_id: dpr-1999-2004
+  date: "2004-08-13"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 22 Tahun 2004 tentang Komisi Yudisial
+  summary_id: >-
+    DPR mengesahkan undang-undang pembentukan Komisi Yudisial RI untuk mengusulkan pengangkatan hakim agung kepada DPR
+    dan menegakkan kode etik serta pedoman perilaku hakim guna menjaga integritas dan keluhuran martabat peradilan.
+  source_ids: [uu-22-2004]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-dpr-uu-pers-1999
+  term_id: dpr-1999-2004
+  date: "1999-09-23"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 40 Tahun 1999 tentang Pers (Kemerdekaan Pers)
+  summary_id: >-
+    DPR dan Presiden BJ Habibie mengesahkan undang-undang kemerdekaan pers yang menghapus kewajiban SIUPP (surat izin terbit)
+    dan melarang sensor serta pembredelan oleh negara, menjamin hak warga negara untuk memperoleh dan menyebarkan informasi.
+  source_ids: [uu-40-1999]
+  dimension_ids: [kedaulatan-rakyat, sila-4]
+
+
+

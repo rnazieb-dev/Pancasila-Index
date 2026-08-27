@@ -110,3 +110,82 @@
   source_ids: [uu-17-2014]
   dimension_ids: [checks-balances, sila-4]
 
+- id: ev-mou-helsinki-damai-2005
+  term_id: presiden-sby-i
+  date: "2005-08-15"
+  category: peristiwa
+  title_id: Penandatanganan MoU Helsinki - Perdamaian Bersejarah Aceh
+  summary_id: >-
+    Pemerintah RI dan Gerakan Aceh Merdeka (GAM) menandatangani nota kesepahaman damai di Helsinki,
+    mengakhiri konflik bersenjata hampir 30 tahun, menyerahkan senjata milisi, dan memberikan status otonomi khusus berpemerintahan sendiri dalam bingkai NKRI.
+  source_ids: [mou-helsinki-2005]
+  dimension_ids: [tujuan-1, sila-3]
+
+- id: ev-dpr-uu-pemerintahan-aceh-2006
+  term_id: dpr-2004-2009
+  date: "2006-08-01"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 11 Tahun 2006 tentang Pemerintahan Aceh (UUPA)
+  summary_id: >-
+    DPR mengesahkan undang-undang implementasi MoU Helsinki yang melegalkan pembentukan partai politik lokal di Aceh
+    dan pembagian bagi hasil migas 70% untuk daerah, menjadi tonggak rekonsiliasi dan desentralisasi asimetris di Indonesia.
+  source_ids: [uu-11-2006]
+  dimension_ids: [sila-3, kedaulatan-rakyat]
+
+- id: ev-mk-putusan-calon-independen-2007
+  term_id: mk-2003-2008
+  date: "2007-07-23"
+  category: pengadilan
+  title_id: Putusan MK No. 5/PUU-V/2007 Legalisasi Calon Perseorangan dalam Pilkada
+  summary_id: >-
+    MK mengabulkan uji materiil UU Pemda yang diajukan tokoh masyarakat Lombok Tengah, memutuskan bahwa warga negara berhak mencalonkan diri
+    sebagai kepala daerah melalui jalur perseorangan/independen tanpa harus melalui pintu rekomendasi partai politik.
+  source_ids: [putusan-mk-5-puu-v-2007]
+  dimension_ids: [kedaulatan-rakyat, sila-4]
+
+- id: ev-dpr-uu-ombudsman-2008
+  term_id: dpr-2004-2009
+  date: "2008-10-07"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 37 Tahun 2008 tentang Ombudsman Republik Indonesia
+  summary_id: >-
+    DPR bersama Pemerintah mengesahkan undang-undang yang mentransformasikan Komisi Ombudsman Nasional menjadi lembaga negara independen
+    Ombudsman RI untuk mengawasi penyelenggaraan pelayanan publik dan memberantas maladministrasi, pungli, serta diskriminasi birokrasi.
+  source_ids: [uu-37-2008]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-dpr-uu-pelayanan-publik-2009
+  term_id: dpr-2004-2009
+  date: "2009-07-18"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 25 Tahun 2009 tentang Pelayanan Publik
+  summary_id: >-
+    DPR dan Pemerintah menetapkan standar baku pelayanan publik nasional, asas kepastian biaya dan waktu perizinan,
+    serta mekanisme pengaduan masyarakat dan ganti rugi maladministrasi di bawah pengawasan Ombudsman RI.
+  source_ids: [uu-25-2009]
+  dimension_ids: [tujuan-2, sila-5]
+
+- id: ev-kasus-cicak-buaya-2009
+  term_id: presiden-sby-ii
+  date: "2009-11-17"
+  category: krisis
+  title_id: Krisis Penegakan Hukum 'Cicak vs Buaya' & Pembentukan Tim 8
+  summary_id: >-
+    Kriminalisasi pimpinan KPK Bibit Samad Rianto dan Chandra M. Hamzah oleh oknum penegak hukum memicu kemarahan publik luas,
+    mendorong Presiden SBY membentuk Tim 8 Independen yang merekomendasikan penghentian penuntutan (SKP2) demi menyelamatkan integritas antikorupsi.
+  source_ids: [laporan-tim-8-kpk-2009]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-dpr-uu-bpjs-2011
+  term_id: dpr-2009-2014
+  date: "2011-11-25"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 24 Tahun 2011 tentang Badan Penyelenggara Jaminan Sosial (BPJS)
+  summary_id: >-
+    DPR bersama Pemerintah mengesahkan UU BPJS yang mentransformasikan badan usaha asuransi sosial BUMN menjadi badan hukum publik nirlaba
+    (BPJS Kesehatan dan BPJS Ketenagakerjaan) guna mewujudkan jaminan sosial semesta (universal health coverage) bagi seluruh rakyat Indonesia.
+  source_ids: [uu-24-2011]
+  dimension_ids: [tujuan-2, sila-5]
+
+
+

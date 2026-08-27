@@ -209,3 +209,93 @@
   source_ids: [laporan-tahunan-ky-2023]
   dimension_ids: [checks-balances, negara-hukum]
 
+- id: ev-mk-putusan-pemilu-serentak-2019
+  term_id: mk-2018-2023
+  date: "2020-02-26"
+  category: pengadilan
+  title_id: Putusan MK No. 55/PUU-XVII/2019 tentang Desain 6 Model Pemilu Serentak
+  summary_id: >-
+    MK merumuskan 6 model varian pemilu serentak nasional dan lokal yang konstitusional,
+    menegaskan pemilu serentak 5 kotak tetap sah namun membuka ruang bagi pembentuk UU untuk memisahkan pemilu nasional dan pemilu daerah guna mengurangi beban KPPS.
+  source_ids: [putusan-mk-55-puu-xvii-2019]
+  dimension_ids: [kedaulatan-rakyat, sila-4]
+
+- id: ev-dpr-uu-covid-2020
+  term_id: dpr-2019-2024
+  date: "2020-05-18"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 2 Tahun 2020 tentang Kebijakan Keuangan Penanganan COVID-19
+  summary_id: >-
+    DPR mengesahkan Perppu No. 1/2020 menjadi undang-undang yang memberikan fleksibilitas pelebaran defisit APBN di atas 3%
+    dan imunitas hukum perdata/pidana beritikad baik bagi pejabat pengambil kebijakan stabilitas ekonomi dalam penanganan krisis pandemi.
+  source_ids: [uu-2-2020]
+  dimension_ids: [tujuan-1, tujuan-2]
+
+- id: ev-bpk-audit-jiwasraya-2020
+  term_id: bpk-2019-sekarang
+  date: "2020-01-08"
+  category: kebijakan
+  title_id: Audit Investigatif BPK atas Skandal Investasi Saham Gorengan Jiwasraya Rp16,81 Triliun
+  summary_id: >-
+    BPK RI merampungkan penghitungan kerugian keuangan negara pada PT Asuransi Jiwasraya sebesar Rp16,81 triliun,
+    mengungkap persekongkolan investasi reksadana berkualitas rendah (saham gorengan) antara direksi asuransi BUMN dan manajer investasi swasta.
+  source_ids: [laporan-audit-bpk-jiwasraya-2020]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-mk-putusan-ciptaker-formil-2021
+  term_id: mk-2018-2023
+  date: "2021-11-25"
+  category: pengadilan
+  title_id: Putusan MK No. 91/PUU-XVIII/2020 Uji Formil UU Cipta Kerja Inkonstitusional Bersyarat
+  summary_id: >-
+    MK mengabulkan sebagian permohonan uji formil UU No. 11/2020 tentang Cipta Kerja, menyatakan metode omnibus law belum diatur
+    dalam UU Pembentukan Peraturan Perundang-undangan dan proses pembahasannya cacat asas partisipasi publik yang bermakna (meaningful participation).
+  source_ids: [putusan-mk-91-puu-xviii-2020]
+  dimension_ids: [checks-balances, kedaulatan-rakyat]
+
+- id: ev-mk-putusan-batas-usia-capres-2023
+  term_id: mk-2018-2023
+  date: "2023-10-16"
+  category: pengadilan
+  title_id: Putusan MK No. 90/PUU-XXI/2023 Batas Usia Capres-Cawapres Jalur Jabatan Terpilih
+  summary_id: >-
+    MK mengabulkan sebagian uji materiil Pasal 169 huruf q UU Pemilu dengan menambahkan syarat alternatif 'berusia paling rendah 40 tahun
+    atau pernah/sedang menduduki jabatan yang dipilih melalui pemilihan umum termasuk pemilihan kepala daerah', memicu kontroversi politik menjelang Pilpres 2024.
+  source_ids: [putusan-mk-90-puu-xxi-2023]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-mkmk-putusan-etik-ketua-mk-2023
+  term_id: mk-2023-sekarang
+  date: "2023-11-07"
+  category: pengadilan
+  title_id: Putusan Majelis Kehormatan MK Pemberhentian Anwar Usman dari Jabatan Ketua MK
+  summary_id: >-
+    Majelis Kehormatan Mahkamah Konstitusi (MKMK) pimpinan Jimly Asshiddiqie menyatakan Ketua MK Anwar Usman terbukti melakukan pelanggaran etik berat
+    terkait konflik kepentingan (benturan kepentingan keluarga) dalam penanganan Perkara No. 90/PUU-XXI/2023 dan menjatuhkan sanksi pemberhentian dari jabatan Ketua MK.
+  source_ids: [putusan-mkmk-2-2023]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-mk-putusan-ambang-batas-pilkada-2024
+  term_id: mk-2023-sekarang
+  date: "2024-08-20"
+  category: pengadilan
+  title_id: Putusan MK No. 60/PUU-XXII/2024 & 70/PUU-XXII/2024 Ambang Batas dan Syarat Usia Pilkada
+  summary_id: >-
+    MK menurunkan ambang batas pencalonan kepala daerah (diselaraskan dengan persentase DPT) sehingga membuka peluang bagi partai non-parlemen,
+    serta menegaskan syarat usia minimal calon kepala daerah dihitung saat penetapan pasangan calon oleh KPU, menggagalkan upaya revisi kilat UU Pilkada oleh DPR.
+  source_ids: [putusan-mk-60-puu-xxii-2024, putusan-mk-70-puu-xxii-2024]
+  dimension_ids: [kedaulatan-rakyat, sila-4]
+
+- id: ev-dpr-uu-desa-2014
+  term_id: dpr-2009-2014
+  date: "2014-01-15"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 6 Tahun 2014 tentang Desa
+  summary_id: >-
+    DPR bersama Pemerintah mengesahkan UU Desa yang mengakui otonomi asli kesatuan masyarakat hukum adat dan desa,
+    mentransfer Alokasi Dana Desa (ADD) langsung dari APBN triliunan rupiah per tahun untuk pembangunan infrastruktur dan pemberdayaan warga desa.
+  source_ids: [uu-6-2014]
+  dimension_ids: [tujuan-2, sila-5]
+
+
+

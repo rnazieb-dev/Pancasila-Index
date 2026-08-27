@@ -66,3 +66,59 @@
   source_ids: [inpres-5-1993]
   dimension_ids: [sila-5, tujuan-2]
 
+- id: ev-deklarasi-asean-1967
+  term_id: presiden-soeharto
+  date: "1967-08-08"
+  category: peristiwa
+  title_id: Deklarasi Bangkok Pembentukan Perhimpunan Bangsa-Bangsa Asia Tenggara (ASEAN)
+  summary_id: >-
+    Indonesia bersama 4 negara tetangga (Malaysia, Filipina, Singapura, Thailand) mendirikan ASEAN di Bangkok,
+    mengakhiri era konfrontasi militer regional dan meletakkan fondasi stabilitas, perdamaian, dan kerja sama ekonomi kawasan (Tujuan 4 UUD 1945).
+  source_ids: [deklarasi-bangkok-1967]
+  dimension_ids: [tujuan-4, tujuan-1]
+
+- id: ev-peristiwa-malari-1974
+  term_id: presiden-soeharto
+  date: "1974-01-15"
+  category: krisis
+  title_id: Peristiwa Malapetaka Lima Belas Januari (Malari) 1974
+  summary_id: >-
+    Aksi unjuk rasa mahasiswa menentang dominasi investasi modal asing (kunjungan PM Jepang Kakuei Tanaka)
+    dan menuntut transparansi tata kelola ekonomi berujung pada kerusuhan massal di Jakarta dan pengetatan kontrol politik terhadap gerakan kampus.
+  source_ids: [arsip-malari-1974]
+  dimension_ids: [sila-5, kedaulatan-rakyat]
+
+- id: ev-integrasi-timor-timur-1976
+  term_id: presiden-soeharto
+  date: "1976-07-17"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 7 Tahun 1976 tentang Integrasi Timor Timur ke NKRI
+  summary_id: >-
+    Pemerintah dan DPR mengesahkan penyatuan wilayah bekas koloni Portugis Timor Timur menjadi provinsi ke-27 Indonesia,
+    yang memicu dinamika perdebatan hukum internasional dan konflik militer berkepanjangan selama dua dekade berikutnya.
+  source_ids: [uu-7-1976]
+  dimension_ids: [tujuan-1, sila-3]
+
+- id: ev-tanjung-priok-1984
+  term_id: presiden-soeharto
+  date: "1984-09-12"
+  category: krisis
+  title_id: Peristiwa Kekerasan di Tanjung Priok Jakarta Utara 1984
+  summary_id: >-
+    Bentrokan berdarah antara aparat militer dan massa jamaah pengajian di Tanjung Priok mengakibatkan puluhan korban jiwa,
+    menjadi salah satu titik krisis hak asasi manusia dan kebebasan sipil paling kelam di era Orde Baru.
+  source_ids: [arsip-tanjung-priok-1984]
+  dimension_ids: [sila-2, sila-1]
+
+- id: ev-peristiwa-kudatuli-1996
+  term_id: presiden-soeharto
+  date: "1996-07-27"
+  category: krisis
+  title_id: Peristiwa Kerusuhan 27 Juli 1996 (Kudatuli) Penyerbuan Kantor PDI
+  summary_id: >-
+    Penyerbuan paksa kantor DPP Partai Demokrasi Indonesia (PDI) pimpinan Megawati Soekarnoputri oleh massa tandingan dengan sokongan aparat
+    memicu kerusuhan sosial di Jakarta dan menjadi simbol puncak perlawanan pro-demokrasi menjelang kejatuhan rezim Orde Baru.
+  source_ids: [arsip-kudatuli-1996]
+  dimension_ids: [kedaulatan-rakyat, negara-hukum]
+
+

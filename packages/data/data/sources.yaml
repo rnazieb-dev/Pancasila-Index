@@ -1495,5 +1495,221 @@
   year: 1999
   citation_id: TAP MPR IV/MPR/1999
 
+- id: naskah-kmb-1949
+  type: arsip-nasional
+  title_id: Piagam Penyerahan Kedaulatan Konferensi Meja Bundar (KMB) Den Haag 27 Desember 1949
+  year: 1949
+  citation_id: Arsip Nasional RI Naskah KMB 1949
+
+- id: deklarasi-djuanda-1957
+  type: arsip-nasional
+  title_id: Deklarasi Djuanda 13 Desember 1957 tentang Wilayah Perairan Republik Indonesia (Konsep Negara Kepulauan)
+  year: 1957
+  citation_id: Deklarasi Djuanda 1957
+
+- id: dasasila-bandung-1955
+  type: arsip-nasional
+  title_id: Dasasila Bandung - Komunike Bersama Konferensi Tingkat Tinggi Asia-Afrika (KAA) 1955
+  year: 1955
+  citation_id: Dokumen KAA Bandung 1955
+
+- id: arsip-pemilu-1955
+  type: arsip-nasional
+  title_id: Buku Hasil Pemilihan Umum Pertama 1955 untuk Anggota DPR dan Dewan Konstituante
+  year: 1956
+  citation_id: PPI Hasil Pemilu 1955
+
+- id: trikora-1961
+  type: arsip-nasional
+  title_id: Pidato Komando Tertinggi Pembebasan Irian Barat (Tri Komando Rakyat / Trikora) di Yogyakarta
+  year: 1961
+  citation_id: Arsip Pidato Presiden Sukarno Trikora 1961
+
+- id: dokumen-pbb-keluar-1965
+  type: arsip-nasional
+  title_id: Surat Resmi Menlu RI kepada Sekretaris Jenderal PBB tentang Pengunduran Diri RI dari Keanggotaan PBB
+  year: 1965
+  citation_id: Arsip Nasional RI Dokumen PBB 1965
+
+- id: tritura-1966
+  type: arsip-nasional
+  title_id: Naskah Tri Tuntutan Rakyat (Tritura) Kesatuan Aksi Mahasiswa Indonesia (KAMI) 10 Januari 1966
+  year: 1966
+  citation_id: Arsip Tritura 1966
+
+- id: deklarasi-bangkok-1967
+  type: arsip-nasional
+  title_id: Deklarasi Bangkok 8 Agustus 1967 tentang Pembentukan Perhimpunan Bangsa-Bangsa Asia Tenggara (ASEAN)
+  year: 1967
+  citation_id: ASEAN Declaration 1967
+
+- id: uu-7-1976
+  type: undang-undang
+  title_id: UU No. 7 Tahun 1976 tentang Pengesahan Penyatuan Timor Timur ke dalam Negara Kesatuan Republik Indonesia
+  year: 1976
+  citation_id: LN No. 35 Tahun 1976, TLN No. 3084
+
+- id: arsip-malari-1974
+  type: arsip-nasional
+  title_id: Laporan Khusus Kopkamtib atas Peristiwa Malapetaka Lima Belas Januari (Malari) 1974
+  year: 1974
+  citation_id: Arsip Malari 1974
+
+- id: arsip-tanjung-priok-1984
+  type: arsip-nasional
+  title_id: Laporan Akhir Komisi Penyelidik Pelanggaran Hak Asasi Manusia (KPP-HAM) Kasus Tanjung Priok 1984
+  year: 2000
+  citation_id: KPP-HAM Tanjung Priok 2000
+
+- id: arsip-kudatuli-1996
+  type: arsip-nasional
+  title_id: Laporan Investigasi Komisi Nasional Hak Asasi Manusia atas Peristiwa 27 Juli 1996 (Kudatuli)
+  year: 1996
+  citation_id: Komnas HAM Laporan Kudatuli 1996
+
+- id: tap-mpr-v-1999
+  type: dokumen-mpr
+  title_id: TAP MPR No. V/MPR/1999 tentang Penentuan Pendapat di Timor Timur
+  year: 1999
+  citation_id: TAP MPR V/MPR/1999
+
+- id: uu-22-1999
+  type: undang-undang
+  title_id: UU No. 22 Tahun 1999 tentang Pemerintahan Daerah (Desentralisasi dan Otonomi Daerah Era Reformasi)
+  year: 1999
+  citation_id: LN No. 60 Tahun 1999, TLN No. 3839
+
+- id: uu-30-2002
+  type: undang-undang
+  title_id: UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi (KPK)
+  year: 2002
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2002
+  citation_id: LN No. 137 Tahun 2002, TLN No. 4250
+
+- id: uu-24-2003
+  type: undang-undang
+  title_id: UU No. 24 Tahun 2003 tentang Mahkamah Konstitusi
+  year: 2003
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=24&thn=2003
+  citation_id: LN No. 98 Tahun 2003, TLN No. 4316
+
+- id: uu-22-2004
+  type: undang-undang
+  title_id: UU No. 22 Tahun 2004 tentang Komisi Yudisial
+  year: 2004
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=22&thn=2004
+  citation_id: LN No. 89 Tahun 2004, TLN No. 4415
+
+- id: mou-helsinki-2005
+  type: arsip-nasional
+  title_id: Memorandum of Understanding (MoU) Helsinki antara Pemerintah RI dan Gerakan Aceh Merdeka 15 Agustus 2005
+  year: 2005
+  citation_id: MoU Helsinki 2005
+
+- id: uu-11-2006
+  type: undang-undang
+  title_id: UU No. 11 Tahun 2006 tentang Pemerintahan Aceh (UUPA)
+  year: 2006
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2006
+  citation_id: LN No. 62 Tahun 2006, TLN No. 4633
+
+- id: putusan-mk-5-puu-v-2007
+  type: putusan-mk
+  title_id: Putusan MK No. 5/PUU-V/2007 (Legalisasi Calon Perseorangan / Independen dalam Pilkada di Seluruh Indonesia)
+  year: 2007
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=5/PUU-V/2007
+  citation_id: Putusan MKRI No. 5/PUU-V/2007
+
+- id: uu-14-2008
+  type: undang-undang
+  title_id: UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik (UU KIP)
+  year: 2008
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=14&thn=2008
+  citation_id: LN No. 61 Tahun 2008, TLN No. 4846
+
+- id: uu-25-2009
+  type: undang-undang
+  title_id: UU No. 25 Tahun 2009 tentang Pelayanan Publik
+  year: 2009
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=25&thn=2009
+  citation_id: LN No. 112 Tahun 2009, TLN No. 5038
+
+- id: laporan-tim-8-kpk-2009
+  type: laporan-lembaga
+  title_id: Laporan Akhir Tim Independen Verifikasi Fakta dan Proses Hukum Kasus Chandra M. Hamzah & Bibit Samad Rianto (Tim 8)
+  year: 2009
+  citation_id: Laporan Tim 8 Tahun 2009
+
+- id: putusan-mk-55-puu-xvii-2019
+  type: putusan-mk
+  title_id: Putusan MK No. 55/PUU-XVII/2019 (Desain Konstitusional 6 Model Pemilu Serentak Nasional dan Daerah)
+  year: 2020
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=55/PUU-XVII/2019
+  citation_id: Putusan MKRI No. 55/PUU-XVII/2019
+
+- id: uu-2-2020
+  type: undang-undang
+  title_id: UU No. 2 Tahun 2020 tentang Kebijakan Keuangan Negara dan Stabilitas Sistem Keuangan Penanganan Pandemi COVID-19
+  year: 2020
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2020
+  citation_id: LN No. 134 Tahun 2020, TLN No. 6516
+
+- id: putusan-mk-91-puu-xviii-2020
+  type: putusan-mk
+  title_id: Putusan MK No. 91/PUU-XVIII/2020 (Uji Formil UU Cipta Kerja - Inkonstitusional Bersyarat Cacat Partisipasi Publik Bermakna)
+  year: 2021
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=91/PUU-XVIII/2020
+  citation_id: Putusan MKRI No. 91/PUU-XVIII/2020
+
+- id: putusan-mk-90-puu-xxi-2023
+  type: putusan-mk
+  title_id: Putusan MK No. 90/PUU-XXI/2023 (Syarat Batas Usia Capres-Cawapres Pernah/Sedang Menduduki Jabatan Terpilih Melalui Pemilu)
+  year: 2023
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=90/PUU-XXI/2023
+  citation_id: Putusan MKRI No. 90/PUU-XXI/2023
+
+- id: putusan-mkmk-2-2023
+  type: putusan-mk
+  title_id: Putusan Majelis Kehormatan Mahkamah Konstitusi No. 2/MKMK/L/11/2023 (Pemberhentian Anwar Usman dari Jabatan Ketua MK)
+  year: 2023
+  url: https://www.mkri.id/index.php?page=web.PutusanMKMK&id=2/MKMK/L/11/2023
+  citation_id: Putusan MKMK No. 2/MKMK/L/11/2023
+
+- id: putusan-mk-60-puu-xxii-2024
+  type: putusan-mk
+  title_id: Putusan MK No. 60/PUU-XXII/2024 (Penurunan Ambang Batas Syarat Pencalonan Kepala Daerah dan Pembukaan Akses Partai Non-Seat)
+  year: 2024
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=60/PUU-XXII/2024
+  citation_id: Putusan MKRI No. 60/PUU-XXII/2024
+
+- id: putusan-mk-70-puu-xxii-2024
+  type: putusan-mk
+  title_id: Putusan MK No. 70/PUU-XXII/2024 (Penetapan Syarat Usia Calon Kepala Daerah Dihitung Saat Penetapan Pasangan Calon oleh KPU)
+  year: 2024
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=70/PUU-XXII/2024
+  citation_id: Putusan MKRI No. 70/PUU-XXII/2024
+
+- id: laporan-audit-bpk-jiwasraya-2020
+  type: laporan-lembaga
+  title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pengelolaan Investasi PT Asuransi Jiwasraya (Persero) Rp16,81 Triliun
+  year: 2020
+  citation_id: BPK RI LHP Investigatif Jiwasraya 2020
+
+- id: uu-80-1958
+  type: undang-undang
+  title_id: UU No. 80 Tahun 1958 tentang Dewan Perancang Nasional (Depernas/Bappenas)
+  year: 1958
+  citation_id: Lembaran Negara Tahun 1958 No. 144
+
+- id: uu-37-2008
+  type: undang-undang
+  title_id: UU No. 37 Tahun 2008 tentang Ombudsman Republik Indonesia
+  year: 2008
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=37&thn=2008
+  citation_id: LN No. 139 Tahun 2008, TLN No. 4899
+
+
+
+
 
 

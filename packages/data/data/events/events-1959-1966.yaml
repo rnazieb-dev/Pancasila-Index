@@ -65,3 +65,37 @@
     dan melarang setiap kegiatan menyebarkan atau mengembangkan paham/ajaran Komunisme/Marxisme-Leninisme.
   source_ids: [tap-mprs-xxv-1966]
   dimension_ids: [negara-hukum, sila-1]
+
+- id: ev-trikora-1961
+  term_id: presiden-soekarno-ii
+  date: "1961-12-19"
+  category: kebijakan
+  title_id: Komando Tertinggi Pembebasan Irian Barat (Tri Komando Rakyat / Trikora)
+  summary_id: >-
+    Presiden Sukarno mengumumkan Trikora di Yogyakarta untuk menggagalkan pembentukan negara boneka Papua buatan Belanda,
+    mengibarkan Sang Saka Merah Putih di Irian Barat, dan memobilisasi kekuatan total guna mempertahankan keutuhan wilayah NKRI (Tujuan 1 UUD 1945).
+  source_ids: [trikora-1961]
+  dimension_ids: [tujuan-1, sila-3]
+
+- id: ev-pbb-keluar-1965
+  term_id: presiden-soekarno-ii
+  date: "1965-01-20"
+  category: kebijakan
+  title_id: Penarikan Diri Indonesia dari Perserikatan Bangsa-Bangsa (PBB)
+  summary_id: >-
+    Indonesia menyatakan keluar dari keanggotaan PBB sebagai bentuk protes keras atas diterimanya Federasi Malaysia
+    sebagai anggota tidak tetap Dewan Keamanan PBB dan penolakan terhadap struktur PBB yang dinilai mendominasi kepentingan neokolonialisme.
+  source_ids: [dokumen-pbb-keluar-1965]
+  dimension_ids: [tujuan-4, sila-3]
+
+- id: ev-tritura-1966
+  term_id: presiden-soekarno-ii
+  date: "1966-01-10"
+  category: peristiwa
+  title_id: Demonstrasi Mahasiswa dan Deklarasi Tri Tuntutan Rakyat (Tritura)
+  summary_id: >-
+    Kesatuan Aksi Mahasiswa Indonesia (KAMI) dan pelajar memelopori gelombang demonstrasi massal menuntut tiga hal pokok:
+    Pembubaran PKI, Perombakan Kabinet Dwikora (Reshuffle 100 Menteri), dan Penurunan Harga/Perbaikan Ekonomi rakyat.
+  source_ids: [tritura-1966]
+  dimension_ids: [kedaulatan-rakyat, sila-5]
+
