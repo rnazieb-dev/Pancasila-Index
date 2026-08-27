@@ -25,16 +25,22 @@ enum Decision {
 }
 
 model User {
-  id        String   @id @default(cuid())
-  email     String?  @unique
-  name      String?
-  image     String?
-  githubId  String?  @unique
-  role      Role     @default(KONTRIBUTOR)
-  createdAt DateTime @default(now())
-  reviews   Review[]
-  comments  Comment[]
-  audits    AuditLog[]
+  id             String    @id @default(cuid())
+  email          String?   @unique
+  passwordHash   String?
+  name           String?
+  image          String?
+  affiliation    String?
+  title          String?   // gelar akademis / jabatan
+  funding        String?   // default funding disclosure
+  bio            String?
+  githubId       String?   @unique
+  role           Role      @default(KONTRIBUTOR)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @default(now()) @updatedAt
+  reviews        Review[]
+  comments       Comment[]
+  audits         AuditLog[]
 }
 
 /// Satu baris per keputusan kurasi; keputusan TERAKHIR per assessmentId

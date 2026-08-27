@@ -118,6 +118,24 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
   const { theme, toggleTheme } = useTheme();
   const pathname = usePathname();
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [userSession, setUserSession] = useState<{
+    name?: string | null;
+    email?: string | null;
+    role?: string | null;
+  } | null>(null);
+
+  useEffect(() => {
+    fetch("/api/auth/session")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (data?.user) {
+          setUserSession(data.user);
+        } else {
+          setUserSession(null);
+        }
+      })
+      .catch(() => setUserSession(null));
+  }, [pathname]);
 
   return (
     <>
@@ -170,6 +188,29 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
             >
               Peer Review
             </Link>
+
+            {/* Akun / Pengaturan / Masuk */}
+            {userSession ? (
+              <Link
+                href="/pengaturan"
+                title={`Akun: ${userSession.name || userSession.email} (${userSession.role})`}
+                className={`rounded-lg border px-3 py-1.5 text-xs font-semibold transition flex items-center gap-1.5 ${
+                  pathname === "/pengaturan"
+                    ? "border-sky-500 bg-sky-500/10 text-sky-400"
+                    : "border-[var(--line)] bg-[var(--panel)] text-[var(--muted)] hover:text-white hover:border-slate-500"
+                }`}
+              >
+                <span className="size-2 rounded-full bg-emerald-400" />
+                <span className="max-w-[100px] truncate">{userSession.name?.split(" ")[0] || "Pengaturan"}</span>
+              </Link>
+            ) : (
+              <Link
+                href="/masuk"
+                className="rounded-lg bg-red-600/90 px-3 py-1.5 text-xs font-semibold text-white hover:bg-red-500 transition shadow"
+              >
+                Masuk
+              </Link>
+            )}
 
             {/* Toggle Tema */}
             <button
@@ -275,6 +316,34 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               <p className="px-2 pt-3 pb-1 text-[10px] uppercase tracking-widest text-[var(--muted)] font-bold">Tinjauan Sejawat</p>
               <Link href="/peer-review" onClick={() => setDrawerOpen(false)} className="drawer-link text-red-400 font-semibold">Portal Peer Review</Link>
               <Link href="/peer-review/draf" onClick={() => setDrawerOpen(false)} className="drawer-link text-amber-400 font-semibold">📁 Draf Usulan Saya</Link>
+
+              <p className="px-2 pt-3 pb-1 text-[10px] uppercase tracking-widest text-[var(--muted)] font-bold">Akun Pengulas</p>
+              {userSession ? (
+                <Link
+                  href="/pengaturan"
+                  onClick={() => setDrawerOpen(false)}
+                  className="drawer-link text-sky-400 font-semibold"
+                >
+                  ⚙️ {userSession.name || "Pengaturan Akun"} ({userSession.role})
+                </Link>
+              ) : (
+                <div className="flex gap-2 pt-1 px-1">
+                  <Link
+                    href="/masuk"
+                    onClick={() => setDrawerOpen(false)}
+                    className="flex-1 rounded-lg bg-red-600 px-3 py-2 text-center text-xs font-semibold text-white hover:bg-red-500 transition"
+                  >
+                    Masuk
+                  </Link>
+                  <Link
+                    href="/daftar"
+                    onClick={() => setDrawerOpen(false)}
+                    className="flex-1 rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2 text-center text-xs font-semibold text-[var(--muted)] hover:text-white transition"
+                  >
+                    Daftar
+                  </Link>
+                </div>
+              )}
             </div>
 
             {/* Footer Drawer: tema & bahasa */}
