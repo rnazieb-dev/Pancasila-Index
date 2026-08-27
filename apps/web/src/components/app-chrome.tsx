@@ -20,6 +20,7 @@ const NAV_DATA = [
   { href: "/landasan-uud", label: "Peta Pasal UUD" },
   { href: "/ekspor", label: "Ekspor Dataset" },
   { href: "/api-docs", label: "REST API Docs" },
+  { href: "/peer-review/draf", label: "Draf Usulan Saya" },
 ];
 
 /* ─── Helpers ─── */
@@ -158,11 +159,11 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               </svg>
             </Link>
 
-            {/* Peer Review (bukan Kurasi) */}
+            {/* Peer Review */}
             <Link
-              href="/kurasi"
+              href="/peer-review"
               className={`rounded-lg border px-3 py-1.5 text-xs font-semibold transition ${
-                pathname?.startsWith("/kurasi")
+                pathname?.startsWith("/peer-review")
                   ? "border-red-500 bg-red-500/10 text-red-400"
                   : "border-[var(--line)] text-[var(--muted)] hover:border-slate-500 hover:text-white"
               }`}
@@ -271,8 +272,9 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                 <Link key={item.href} href={item.href} onClick={() => setDrawerOpen(false)} className="drawer-link">{item.label}</Link>
               ))}
 
-              <p className="px-2 pt-3 pb-1 text-[10px] uppercase tracking-widest text-[var(--muted)] font-bold">Tinjauan</p>
-              <Link href="/kurasi" onClick={() => setDrawerOpen(false)} className="drawer-link text-red-400 font-semibold">Peer Review</Link>
+              <p className="px-2 pt-3 pb-1 text-[10px] uppercase tracking-widest text-[var(--muted)] font-bold">Tinjauan Sejawat</p>
+              <Link href="/peer-review" onClick={() => setDrawerOpen(false)} className="drawer-link text-red-400 font-semibold">Portal Peer Review</Link>
+              <Link href="/peer-review/draf" onClick={() => setDrawerOpen(false)} className="drawer-link text-amber-400 font-semibold">📁 Draf Usulan Saya</Link>
             </div>
 
             {/* Footer Drawer: tema & bahasa */}

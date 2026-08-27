@@ -1,12 +1,29 @@
 "use client";
 
-import { useState } from "react";
+import { Suspense, useEffect, useState, useRef } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
+import Link from "next/link";
 import { dataset } from "@pancasila-index/data";
+import {
+  getUserDraft,
+  saveUserDraft,
+  deleteUserDraft,
+  getUserDrafts,
+  type UserDraft,
+} from "@/lib/user-drafts";
 
 type Step = "form" | "deklarasi" | "konfirmasi" | "terkirim";
 
-export default function UsulanPage() {
+function UsulanForm() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const draftIdParam = searchParams.get("draftId");
+
+  const [currentDraftId, setCurrentDraftId] = useState<string | null>(draftIdParam);
   const [step, setStep] = useState<Step>("form");
+  const [saveStatus, setSaveStatus] = useState<string | null>(null);
+  const [draftCount, setDraftCount] = useState<number>(0);
+
   const [formData, setFormData] = useState({
     institution_id: "",
     term_id: "",
@@ -22,21 +39,70 @@ export default function UsulanPage() {
     setuju_pakta: false,
   });
 
+  // Muat draft jika ada parameter draftId
+  useEffect(() => {
+    const all = getUserDrafts();
+    setDraftCount(all.length);
+
+    if (draftIdParam) {
+      const d = getUserDraft(draftIdParam);
+      if (d) {
+        setFormData({
+          institution_id: d.institution_id,
+          term_id: d.term_id,
+          dimension_id: d.dimension_id,
+          source_type: d.source_type,
+          source_title: d.source_title,
+          source_url: d.source_url,
+          argumentasi: d.argumentasi,
+          nama: d.nama,
+          afiliasi: d.afiliasi,
+          jabatan: d.jabatan,
+          funding: d.funding,
+          setuju_pakta: d.setuju_pakta,
+        });
+        setStep(d.step || "form");
+        setCurrentDraftId(d.id);
+      }
+    }
+  }, [draftIdParam]);
+
+  // Fungsi simpan draft manual / otomatis
+  const handleSaveDraft = (overrideStep?: "form" | "deklarasi" | "konfirmasi") => {
+    const savedStep = overrideStep || (step === "terkirim" ? "form" : step);
+    const saved = saveUserDraft({
+      id: currentDraftId || undefined,
+      ...formData,
+      step: savedStep,
+    });
+    setCurrentDraftId(saved.id);
+    const now = new Date().toLocaleTimeString("id-ID", { hour: "2-digit", minute: "2-digit" });
+    setSaveStatus(`💾 Draf tersimpan otomatis pukul ${now}`);
+    setDraftCount(getUserDrafts().length);
+    setTimeout(() => setSaveStatus(null), 3000);
+  };
+
   const availableTerms = formData.institution_id
     ? dataset.terms.filter((t) => t.institution_id === formData.institution_id)
     : [];
 
   const handleSubmit = async () => {
-    // Kirim ke endpoint /api/usulan (akan disimpan sebagai draft)
     try {
       await fetch("/api/usulan", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
+      // Hapus draf yang sudah berhasil dikirim
+      if (currentDraftId) {
+        deleteUserDraft(currentDraftId);
+      }
       setStep("terkirim");
     } catch {
-      setStep("terkirim"); // tampilkan halaman terkirim meski offline (demo)
+      if (currentDraftId) {
+        deleteUserDraft(currentDraftId);
+      }
+      setStep("terkirim");
     }
   };
 
@@ -52,26 +118,63 @@ export default function UsulanPage() {
         <p className="mt-3 text-sm text-[var(--muted)] leading-relaxed">
           Terima kasih atas kontribusi Anda. Usulan Anda kini berstatus{" "}
           <strong className="text-amber-300">Under Review</strong> dan akan ditinjau oleh Dewan
-          Editorial dalam 5–14 hari kerja. Anda dapat memantau status usulan melalui tautan yang
-          dikirimkan ke email Anda.
+          Editorial dalam 5–14 hari kerja. Draf lokal Anda telah diarsipkan.
         </p>
-        <a href="/peer-review" className="mt-6 inline-block text-xs text-sky-400 hover:text-sky-300">
-          ← Kembali ke Portal Peer Review
-        </a>
+        <div className="mt-6 flex justify-center gap-3">
+          <Link
+            href="/peer-review"
+            className="rounded-lg bg-red-600 px-4 py-2 text-xs font-semibold text-white hover:bg-red-500 transition"
+          >
+            Kembali ke Portal Peer Review
+          </Link>
+          <Link
+            href="/peer-review/draf"
+            className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-2 text-xs font-semibold text-[var(--muted)] hover:text-white transition"
+          >
+            Lihat Draf Lainnya
+          </Link>
+        </div>
       </div>
     );
   }
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-12">
-      <a href="/peer-review" className="text-xs text-[var(--muted)] hover:text-white">
-        ← Kembali ke Portal Peer Review
-      </a>
-      <h1 className="mt-4 text-2xl font-bold">Formulir Usulan Bukti & Koreksi</h1>
-      <p className="mt-1.5 text-sm text-[var(--muted)] leading-relaxed">
-        Lengkapi formulir di bawah untuk mengusulkan penambahan bukti primer, koreksi data peristiwa,
-        atau revisi skor penilaian dimensi.
-      </p>
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <Link href="/peer-review" className="text-xs text-[var(--muted)] hover:text-white">
+          ← Kembali ke Portal Peer Review
+        </Link>
+        <Link
+          href="/peer-review/draf"
+          className="text-xs text-amber-400 hover:text-amber-300 flex items-center gap-1 font-semibold"
+        >
+          📁 Draf Saya ({draftCount})
+        </Link>
+      </div>
+
+      <div className="mt-4 flex flex-wrap items-baseline justify-between gap-4">
+        <div>
+          <h1 className="text-2xl font-bold">Formulir Usulan Bukti & Koreksi</h1>
+          <p className="mt-1 text-sm text-[var(--muted)]">
+            Usulkan bukti primer baru atau ajukan koreksi skor penilaian konstitusi.
+          </p>
+        </div>
+
+        {/* Tombol Simpan Draf Cepat */}
+        <button
+          type="button"
+          onClick={() => handleSaveDraft()}
+          className="rounded-lg border border-amber-500/40 bg-amber-500/10 px-3 py-1.5 text-xs font-semibold text-amber-300 hover:bg-amber-500/20 transition flex items-center gap-1.5"
+        >
+          💾 Simpan Draf
+        </button>
+      </div>
+
+      {saveStatus && (
+        <div className="mt-3 text-xs text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-3 py-1.5 animate-fadeIn">
+          {saveStatus}
+        </div>
+      )}
 
       {/* Indikator Langkah */}
       <div className="mt-6 flex items-center gap-2 text-xs">
@@ -97,11 +200,17 @@ export default function UsulanPage() {
       </div>
 
       <div className="mt-8 rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6">
-
         {/* ── LANGKAH 1: Data Usulan ── */}
         {step === "form" && (
           <div className="space-y-5">
-            <h2 className="font-bold text-white/90">Langkah 1: Data Usulan</h2>
+            <div className="flex items-center justify-between">
+              <h2 className="font-bold text-white/90">Langkah 1: Data Usulan</h2>
+              {currentDraftId && (
+                <span className="text-[11px] text-amber-400 font-mono">
+                  [Mengedit Draf #{currentDraftId.slice(-6)}]
+                </span>
+              )}
+            </div>
 
             <div className="grid sm:grid-cols-2 gap-4">
               <div>
@@ -109,11 +218,15 @@ export default function UsulanPage() {
                 <select
                   className={inputCls}
                   value={formData.institution_id}
-                  onChange={(e) => setFormData({ ...formData, institution_id: e.target.value, term_id: "" })}
+                  onChange={(e) => {
+                    setFormData({ ...formData, institution_id: e.target.value, term_id: "" });
+                  }}
                 >
                   <option value="">— Pilih Lembaga —</option>
                   {dataset.institutions.map((i) => (
-                    <option key={i.id} value={i.id}>{i.name_id}</option>
+                    <option key={i.id} value={i.id}>
+                      {i.name_id}
+                    </option>
                   ))}
                 </select>
               </div>
@@ -127,7 +240,9 @@ export default function UsulanPage() {
                 >
                   <option value="">— Pilih Periode —</option>
                   {availableTerms.map((t) => (
-                    <option key={t.id} value={t.id}>{t.label_id}</option>
+                    <option key={t.id} value={t.id}>
+                      {t.label_id}
+                    </option>
                   ))}
                 </select>
               </div>
@@ -142,7 +257,9 @@ export default function UsulanPage() {
               >
                 <option value="">— Pilih Dimensi —</option>
                 {dataset.rubric.dimensions.map((d) => (
-                  <option key={d.id} value={d.id}>{d.name_id}</option>
+                  <option key={d.id} value={d.id}>
+                    {d.name_id}
+                  </option>
                 ))}
               </select>
             </div>
@@ -192,7 +309,7 @@ export default function UsulanPage() {
             </div>
 
             <div>
-              <label className={labelCls}>Argumentasi Normatif</label>
+              <label className={labelCls}>Argumentasi Normatif & Fakta Hukum</label>
               <textarea
                 className={`${inputCls} min-h-[120px] resize-y`}
                 placeholder="Jelaskan bagaimana dokumen ini mendukung atau mengkoreksi penilaian dimensi terkait, beserta pasal/ketentuan yang relevan..."
@@ -201,13 +318,31 @@ export default function UsulanPage() {
               />
             </div>
 
-            <button
-              disabled={!formData.institution_id || !formData.term_id || !formData.dimension_id || !formData.source_url || !formData.argumentasi}
-              onClick={() => setStep("deklarasi")}
-              className="w-full rounded-lg bg-red-600 px-4 py-3 text-sm font-semibold text-white hover:bg-red-500 transition disabled:opacity-40 disabled:cursor-not-allowed"
-            >
-              Lanjut ke Deklarasi Transparansi →
-            </button>
+            <div className="flex gap-3 pt-2">
+              <button
+                type="button"
+                onClick={() => handleSaveDraft()}
+                className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-4 py-3 text-sm font-semibold text-[var(--muted)] hover:text-white hover:border-slate-500 transition"
+              >
+                💾 Simpan Draf
+              </button>
+              <button
+                disabled={
+                  !formData.institution_id ||
+                  !formData.term_id ||
+                  !formData.dimension_id ||
+                  !formData.source_url ||
+                  !formData.argumentasi
+                }
+                onClick={() => {
+                  handleSaveDraft("deklarasi");
+                  setStep("deklarasi");
+                }}
+                className="flex-1 rounded-lg bg-red-600 px-4 py-3 text-sm font-semibold text-white hover:bg-red-500 transition disabled:opacity-40 disabled:cursor-not-allowed"
+              >
+                Lanjut ke Deklarasi Transparansi →
+              </button>
+            </div>
           </div>
         )}
 
@@ -217,16 +352,9 @@ export default function UsulanPage() {
             <div>
               <h2 className="font-bold text-white/90">Langkah 2: Deklarasi Transparansi</h2>
               <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
-                Informasi ini akan dipublikasikan secara terbuka bersama usulan Anda. Transparansi
-                afiliasi dan sumber pendanaan adalah syarat mutlak integritas peer review kami.
+                Informasi ini akan dipublikasikan secara terbuka bersama usulan Anda sesuai standar
+                COPE (Committee on Publication Ethics).
               </p>
-            </div>
-
-            <div className="rounded-lg border border-amber-500/30 bg-amber-500/8 px-4 py-3 text-xs text-amber-200/80 leading-relaxed">
-              <strong className="text-amber-300">Mengapa ini diperlukan?</strong> Penilaian lembaga
-              negara berpotensi dipengaruhi oleh kepentingan. Standar COPE (Committee on Publication
-              Ethics) mensyaratkan pengungkapan penuh afiliasi dan konflik kepentingan pada setiap
-              karya tinjauan ilmiah.
             </div>
 
             <div className="grid sm:grid-cols-2 gap-4">
@@ -272,9 +400,6 @@ export default function UsulanPage() {
                 value={formData.funding}
                 onChange={(e) => setFormData({ ...formData, funding: e.target.value })}
               />
-              <p className="mt-1 text-[11px] text-[var(--muted)]">
-                Jika riset Anda tidak didanai secara eksternal, tulis "Mandiri / Tidak Ada".
-              </p>
             </div>
 
             <label className="flex items-start gap-3 cursor-pointer group">
@@ -285,23 +410,38 @@ export default function UsulanPage() {
                 onChange={(e) => setFormData({ ...formData, setuju_pakta: e.target.checked })}
               />
               <span className="text-xs text-[var(--muted)] leading-relaxed group-hover:text-white transition">
-                Saya menyatakan bahwa informasi di atas adalah benar, bahwa saya tidak memiliki konflik
-                kepentingan yang tidak diungkapkan dengan lembaga yang dinilai, dan bahwa argumentasi
-                saya didasarkan sepenuhnya pada bukti primer yang dapat diverifikasi.{" "}
-                <strong className="text-white">Pakta Integritas ini akan dipublikasikan.</strong>
+                Saya menyatakan bahwa informasi di atas adalah benar, tidak memiliki konflik
+                kepentingan terselubung, dan bersedia mematuhi Pakta Integritas yang akan
+                dipublikasikan.
               </span>
             </label>
 
-            <div className="flex gap-3">
+            <div className="flex gap-3 pt-2">
               <button
+                type="button"
                 onClick={() => setStep("form")}
-                className="flex-1 rounded-lg border border-[var(--line)] px-4 py-3 text-sm font-semibold text-[var(--muted)] hover:text-white hover:border-slate-500 transition"
+                className="rounded-lg border border-[var(--line)] px-4 py-3 text-sm font-semibold text-[var(--muted)] hover:text-white transition"
               >
                 ← Kembali
               </button>
               <button
-                disabled={!formData.nama || !formData.afiliasi || !formData.funding || !formData.setuju_pakta}
-                onClick={() => setStep("konfirmasi")}
+                type="button"
+                onClick={() => handleSaveDraft()}
+                className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-4 py-3 text-sm font-semibold text-[var(--muted)] hover:text-white transition"
+              >
+                💾 Simpan Draf
+              </button>
+              <button
+                disabled={
+                  !formData.nama ||
+                  !formData.afiliasi ||
+                  !formData.funding ||
+                  !formData.setuju_pakta
+                }
+                onClick={() => {
+                  handleSaveDraft("konfirmasi");
+                  setStep("konfirmasi");
+                }}
                 className="flex-1 rounded-lg bg-red-600 px-4 py-3 text-sm font-semibold text-white hover:bg-red-500 transition disabled:opacity-40 disabled:cursor-not-allowed"
               >
                 Tinjau & Konfirmasi →
@@ -315,42 +455,100 @@ export default function UsulanPage() {
           <div className="space-y-5">
             <h2 className="font-bold text-white/90">Langkah 3: Konfirmasi Usulan</h2>
             <p className="text-xs text-[var(--muted)]">
-              Periksa kembali ringkasan usulan Anda sebelum dikirimkan.
+              Periksa kembali ringkasan usulan Anda sebelum dikirimkan ke Dewan Editorial.
             </p>
 
             <div className="rounded-lg border border-[var(--line)] bg-[var(--bg)] p-4 space-y-3 text-xs">
               <div className="grid grid-cols-2 gap-2">
-                <div><span className="text-[var(--muted)]">Lembaga:</span><br /><strong>{dataset.institutions.find(i => i.id === formData.institution_id)?.name_id}</strong></div>
-                <div><span className="text-[var(--muted)]">Periode:</span><br /><strong>{dataset.terms.find(t => t.id === formData.term_id)?.label_id}</strong></div>
-                <div><span className="text-[var(--muted)]">Dimensi:</span><br /><strong>{dataset.rubric.dimensions.find(d => d.id === formData.dimension_id)?.name_id}</strong></div>
-                <div><span className="text-[var(--muted)]">Jenis Sumber:</span><br /><strong>{formData.source_type}</strong></div>
+                <div>
+                  <span className="text-[var(--muted)]">Lembaga:</span>
+                  <br />
+                  <strong>
+                    {dataset.institutions.find((i) => i.id === formData.institution_id)?.name_id}
+                  </strong>
+                </div>
+                <div>
+                  <span className="text-[var(--muted)]">Periode:</span>
+                  <br />
+                  <strong>
+                    {dataset.terms.find((t) => t.id === formData.term_id)?.label_id}
+                  </strong>
+                </div>
+                <div>
+                  <span className="text-[var(--muted)]">Dimensi:</span>
+                  <br />
+                  <strong>
+                    {dataset.rubric.dimensions.find((d) => d.id === formData.dimension_id)?.name_id}
+                  </strong>
+                </div>
+                <div>
+                  <span className="text-[var(--muted)]">Jenis Sumber:</span>
+                  <br />
+                  <strong>{formData.source_type}</strong>
+                </div>
               </div>
-              <div><span className="text-[var(--muted)]">Sumber:</span><br /><strong>{formData.source_title}</strong><br /><a href={formData.source_url} target="_blank" rel="noopener noreferrer" className="text-sky-400 text-[11px]">{formData.source_url}</a></div>
-              <div><span className="text-[var(--muted)]">Argumentasi:</span><br /><span className="whitespace-pre-wrap">{formData.argumentasi}</span></div>
+              <div>
+                <span className="text-[var(--muted)]">Sumber:</span>
+                <br />
+                <strong>{formData.source_title}</strong>
+                <br />
+                <a
+                  href={formData.source_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sky-400 text-[11px]"
+                >
+                  {formData.source_url} ↗
+                </a>
+              </div>
+              <div>
+                <span className="text-[var(--muted)]">Argumentasi:</span>
+                <br />
+                <span className="whitespace-pre-wrap">{formData.argumentasi}</span>
+              </div>
               <div className="border-t border-[var(--line)] pt-3">
-                <span className="text-[var(--muted)]">Kontributor:</span><br />
-                <strong>{formData.nama}</strong> — {formData.jabatan}, {formData.afiliasi}<br />
-                <span className="text-[var(--muted)]">Funding: </span>{formData.funding}
+                <span className="text-[var(--muted)]">Kontributor:</span>
+                <br />
+                <strong>{formData.nama}</strong> — {formData.jabatan}, {formData.afiliasi}
+                <br />
+                <span className="text-[var(--muted)]">Funding: </span>
+                {formData.funding}
               </div>
             </div>
 
-            <div className="flex gap-3">
+            <div className="flex gap-3 pt-2">
               <button
+                type="button"
                 onClick={() => setStep("deklarasi")}
-                className="flex-1 rounded-lg border border-[var(--line)] px-4 py-3 text-sm font-semibold text-[var(--muted)] hover:text-white hover:border-slate-500 transition"
+                className="rounded-lg border border-[var(--line)] px-4 py-3 text-sm font-semibold text-[var(--muted)] hover:text-white transition"
               >
                 ← Kembali
               </button>
               <button
+                type="button"
                 onClick={handleSubmit}
                 className="flex-1 rounded-lg bg-emerald-600 px-4 py-3 text-sm font-semibold text-white hover:bg-emerald-500 transition"
               >
-                ✓ Kirim Usulan Resmi
+                ✓ Kirim Usulan Resmi ke Dewan Editorial
               </button>
             </div>
           </div>
         )}
       </div>
     </div>
+  );
+}
+
+export default function UsulanPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="mx-auto max-w-2xl px-4 py-20 text-center text-xs text-[var(--muted)]">
+          Memuat formulir usulan...
+        </div>
+      }
+    >
+      <UsulanForm />
+    </Suspense>
   );
 }

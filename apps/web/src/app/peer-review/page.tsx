@@ -74,29 +74,50 @@ export default function PeerReviewPage() {
       </section>
 
       {/* CTA */}
-      <section className="mt-12 grid gap-4 sm:grid-cols-2">
+      <section className="mt-12 grid gap-4 sm:grid-cols-3">
         <Link
           href="/peer-review/usulan"
-          className="group rounded-xl border border-red-500/40 bg-red-500/10 p-6 hover:border-red-400 hover:bg-red-500/20 transition"
+          className="group rounded-xl border border-red-500/40 bg-red-500/10 p-6 hover:border-red-400 hover:bg-red-500/20 transition flex flex-col justify-between"
         >
-          <div className="text-2xl mb-3">📝</div>
-          <h3 className="font-bold text-red-300 group-hover:text-red-200">Ajukan Usulan Baru</h3>
-          <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
-            Usulkan bukti primer, perbaiki data peristiwa, atau ajukan revisi skor dengan melampirkan
-            dokumen hukum resmi.
-          </p>
+          <div>
+            <div className="text-2xl mb-3">📝</div>
+            <h3 className="font-bold text-red-300 group-hover:text-red-200">Ajukan Usulan Baru</h3>
+            <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
+              Usulkan bukti primer, perbaiki data peristiwa, atau ajukan revisi skor dengan melampirkan
+              dokumen hukum resmi.
+            </p>
+          </div>
+          <span className="mt-4 text-xs font-semibold text-red-400">Buka Formulir →</span>
+        </Link>
+
+        <Link
+          href="/peer-review/draf"
+          className="group rounded-xl border border-amber-500/40 bg-amber-500/10 p-6 hover:border-amber-400 hover:bg-amber-500/20 transition flex flex-col justify-between"
+        >
+          <div>
+            <div className="text-2xl mb-3">📁</div>
+            <h3 className="font-bold text-amber-300 group-hover:text-amber-200">Draf Usulan Saya</h3>
+            <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
+              Lanjutkan draf bukti dan argumentasi yang sedang Anda susun. Tersimpan otomatis di
+              peramban Anda.
+            </p>
+          </div>
+          <span className="mt-4 text-xs font-semibold text-amber-400">Kelola Draf Lokal →</span>
         </Link>
 
         <Link
           href="/peer-review/kontributor"
-          className="group rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 hover:border-slate-500 transition"
+          className="group rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 hover:border-slate-500 transition flex flex-col justify-between"
         >
-          <div className="text-2xl mb-3">👥</div>
-          <h3 className="font-bold text-white/90 group-hover:text-white">Direktori Kontributor</h3>
-          <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
-            Lihat daftar terbuka seluruh peneliti dan pakar yang telah berkontribusi, beserta afiliasi
-            dan deklarasi transparansi mereka.
-          </p>
+          <div>
+            <div className="text-2xl mb-3">👥</div>
+            <h3 className="font-bold text-white/90 group-hover:text-white">Direktori Kontributor</h3>
+            <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
+              Lihat daftar terbuka seluruh peneliti dan pakar yang telah berkontribusi, beserta afiliasi
+              dan deklarasi transparansi mereka.
+            </p>
+          </div>
+          <span className="mt-4 text-xs font-semibold text-sky-400">Lihat Profil →</span>
         </Link>
       </section>
 
