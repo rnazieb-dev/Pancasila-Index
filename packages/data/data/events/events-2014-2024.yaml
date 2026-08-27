@@ -792,6 +792,117 @@
   source_ids: [perpres-32-2024]
   dimension_ids: [kedaulatan-rakyat, tujuan-3]
 
+- id: ev-ombudsman-komnas-twk-kpk-2021
+  term_id: presiden-jokowi-ii
+  date: "2021-07-21"
+  category: peristiwa
+  title_id: Temuan Maladministrasi Ombudsman & Pelanggaran HAM Komnas HAM dalam Asesmen TWK KPK
+  summary_id: >-
+    Ombudsman RI dan Komnas HAM menemukan maladministrasi, penyelundupan pasal, dan 11 bentuk pelanggaran HAM dalam pelaksanaan asesmen TWK yang menyingkirkan 57 pegawai KPK,
+    namun rekomendasi tindakan korektif kedua lembaga negara pengawas tersebut diabaikan oleh pimpinan KPK dan BKN (kesenjangan penegakan hukum pengawasan).
+  source_ids: [laporan-ombudsman-twk-kpk-2021, laporan-komnas-ham-twk-kpk-2021]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-perppu-ciptaker-by-pass-mk-2022
+  term_id: presiden-jokowi-ii
+  date: "2022-12-30"
+  category: produk-hukum
+  title_id: Penerbitan Perppu No. 2/2022 Cipta Kerja Menerobos Putusan Inkonstitusional Bersyarat MK
+  summary_id: >-
+    Pemerintah menerbitkan Perppu Cipta Kerja menggantikan UU No. 11/2020 yang dinyatakan inkonstitusional bersyarat oleh MK dalam Putusan No. 91/PUU-XVIII/2020,
+    memicu kritik keras akademisi hukum tata negara atas dugaan pembangkangan konstitusi dan penerobosan syarat partisipasi publik bermakna (meaningful participation).
+  source_ids: [perppu-2-2022]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-konflik-agraria-psn-wadas-2022
+  term_id: presiden-jokowi-ii
+  date: "2022-02-08"
+  category: krisis
+  title_id: Pengerahan Aparat & Konflik Agraria Pengukuran Lahan Tambang PSN Desa Wadas
+  summary_id: >-
+    Pengerahan ribuan personel kepolisian bersenjata lengkap dalam proses pengukuran lahan tambang batu andesit Proyek Strategis Nasional (PSN) Bendungan Bener
+    berujung pada pengepungan desa, kekerasan fisik, dan penangkapan sewenang-wenang puluhan warga Wadas yang menolak tambang di tanah pertanian mereka.
+  source_ids: [laporan-komnas-ham-wadas-2022]
+  dimension_ids: [sila-2, negara-hukum]
+
+- id: ev-bpk-evaluasi-kinerja-dana-desa-2022
+  term_id: bpk-2019-sekarang
+  date: "2022-10-18"
+  category: kebijakan
+  title_id: Audit Kinerja BPK Pengelolaan Dana Desa Rp468 Triliun & Kesenjangan Tata Kelola
+  summary_id: >-
+    BPK RI mengungkap tingginya angka penyimpangan pengelolaan dana desa, lemahnya kapasitas aparatur desa,
+    dan maraknya kasus tipikor kepala desa akibat minimnya sistem pengawasan terpadu di tingkat kabupaten/kota meski transfer anggaran telah menembus Rp468 triliun.
+  source_ids: [laporan-bpk-evaluasi-dana-desa-2022]
+  dimension_ids: [checks-balances, tujuan-2]
+
+- id: ev-kasasi-polusi-udara-jakarta-2023
+  term_id: ma-reformasi-sekarang
+  date: "2023-11-13"
+  category: pengadilan
+  title_id: Putusan Kasasi MA Gugatan Polusi Udara Jakarta & Kesenjangan Eksekusi Kebijakan Emisi
+  summary_id: >-
+    Mahkamah Agung menolak permohonan kasasi Presiden RI dan Menkes, menguatkan vonis bahwa pemerintah lalai dalam menjamin hak atas udara bersih bagi warga Jakarta,
+    meski implementasi riil pengetatan emisi PLTU dan standardisasi uji kendaraan di lapangan masih menghadapi kendala koordinasi lintas kementerian.
+  source_ids: [putusan-kasasi-polusi-udara-2023]
+  dimension_ids: [negara-hukum, tujuan-2]
+
+- id: ev-konflik-agraria-psn-rempang-2023
+  term_id: presiden-jokowi-ii
+  date: "2023-09-07"
+  category: krisis
+  title_id: Konflik Agraria & Tindakan Represif Pematokan Lahan PSN Rempang Eco-City
+  summary_id: >-
+    Bentrokan aparat gabungan dengan masyarakat adat 16 Kampung Tua Pulau Rempang menyusul rencana relokasi paksa demi proyek investasi PSN Rempang Eco-City,
+    menghasilkan temuan pelanggaran HAM oleh Komnas HAM atas penembakan gas air mata di dekat sekolah dan pengabaian prinsip persetujuan bebas tanpa paksaan (FPIC).
+  source_ids: [laporan-komnas-ham-rempang-2023]
+  dimension_ids: [sila-2, sila-5]
+
+- id: ev-eksekusi-ganti-rugi-karhutla-2023
+  term_id: ma-reformasi-sekarang
+  date: "2023-12-28"
+  category: pengadilan
+  title_id: Kesenjangan Eksekusi Ganti Rugi Perdata Karhutla Belasan Triliun Rupiah Korporasi Pembakar Hutan
+  summary_id: >-
+    Meski KLHK memenangkan putusan kasasi/PK di Mahkamah Agung atas gugatan perdata ganti rugi kebakaran hutan bernilai belasan triliun rupiah,
+    proses eksekusi riil pembayaran ganti rugi dan pemulihan lingkungan di pengadilan negeri mengalami kemacetan birokrasi dan resistensi hukum korporasi sawit/HTI.
+  source_ids: [laporan-eksekusi-karhutla-klhk-2023]
+  dimension_ids: [negara-hukum, sila-5]
+
+- id: ev-politisasi-bansos-pemilu-2024
+  term_id: presiden-jokowi-ii
+  date: "2024-02-10"
+  category: kebijakan
+  title_id: Penyaluran Bansos Masif Menjelang Pemilu 2024 & Dissenting Opinion Hakim Konstitusi
+  summary_id: >-
+    Penyaluran bantuan sosial senilai Rp497 triliun (termasuk bansos El Nino dan beras pangan) yang dipercepat dan didistribusikan langsung oleh menteri kabinet menjelang hari pemungutan suara
+    menjadi sorotan tajam integritas pemilu yang dicatat secara eksplisit dalam dissenting opinion 3 hakim Mahkamah Konstitusi.
+  source_ids: [laporan-dissenting-bansos-pilpres-2024]
+  dimension_ids: [kedaulatan-rakyat, checks-balances]
+
+- id: ev-baleg-dpr-ruu-pilkada-darurat-2024
+  term_id: dpr-2019-2024
+  date: "2024-08-21"
+  category: krisis
+  title_id: Upaya Kilat Baleg DPR Merevisi UU Pilkada Menerobos Putusan MK No. 60 & 70/2024
+  summary_id: >-
+    Badan Legislasi DPR menyepakati draf revisi kilat UU Pilkada dalam hitungan jam untuk mengakali Putusan MK No. 60 & 70/2024 (terkait ambang batas pencalonan dan batas usia calon),
+    yang langsung memicu gelombang unjuk rasa massal 'Peringatan Darurat' di seluruh Indonesia hingga DPR membatalkan pengesahan RUU tersebut.
+  source_ids: [risalah-baleg-dpr-pilkada-2024]
+  dimension_ids: [checks-balances, kedaulatan-rakyat]
+
+- id: ev-evaluasi-komposisi-anggaran-pendidikan-2024
+  term_id: dpr-2019-2024
+  date: "2024-07-15"
+  category: kebijakan
+  title_id: Evaluasi Kemenkeu & DPR atas Distorsi Alokasi 20% Anggaran Pendidikan Konstitusional
+  summary_id: >-
+    Pansus Anggaran DPR bersama pengamat pendidikan menyoroti praktik akuntansi anggaran di mana alokasi 20% pendidikan APBN (Rp665T)
+    banyak terserap untuk kedinasan kementerian teknis, transfer dana desa, dan belanja non-pendidikan langsung, mendistorsi amanat konstitusi Pasal 31 ayat 4 UUD 1945.
+  source_ids: [laporan-evaluasi-20-persen-anggaran-pendidikan-2024]
+  dimension_ids: [tujuan-3, sila-5]
+
+
 
 
 

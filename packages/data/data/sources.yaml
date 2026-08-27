@@ -2561,6 +2561,74 @@
   year: 2023
   citation_id: Putusan MA No. 5928 K/Pid.Sus/2022
 
+- id: perppu-2-2022
+  type: perppu
+  title_id: Perppu No. 2 Tahun 2022 tentang Cipta Kerja (Pengganti UU Cipta Kerja Inkonstitusional Bersyarat)
+  year: 2022
+  url: https://jdih.setneg.go.id/detailperaturan?jns=PERPPU&no=2&thn=2022
+  citation_id: LN No. 238 Tahun 2022, TLN No. 6841
+
+- id: laporan-ombudsman-twk-kpk-2021
+  type: laporan-lembaga
+  title_id: Laporan Akhir Pemeriksaan (LAHP) Ombudsman RI atas Maladministrasi Asesmen TWK Pegawai KPK
+  year: 2021
+  citation_id: Ombudsman RI LAHP No. 0471/LM/V/2021
+
+- id: laporan-komnas-ham-twk-kpk-2021
+  type: laporan-lembaga
+  title_id: Laporan Penyelidikan Komnas HAM tentang Pelanggaran HAM dalam Alih Status TWK Pegawai KPK
+  year: 2021
+  citation_id: Komnas HAM Laporan TWK KPK 2021
+
+- id: laporan-komnas-ham-wadas-2022
+  type: laporan-lembaga
+  title_id: Laporan Penyelidikan Komnas HAM atas Peristiwa Kekerasan Pengukuran Lahan Tambang Desa Wadas
+  year: 2022
+  citation_id: Komnas HAM Laporan Peristiwa Wadas 2022
+
+- id: laporan-komnas-ham-rempang-2023
+  type: laporan-lembaga
+  title_id: Laporan Penyelidikan Komnas HAM atas Konflik Agraria dan Relokasi Paksa Rempang Eco-City
+  year: 2023
+  citation_id: Komnas HAM Laporan Kasus Rempang 2023
+
+- id: putusan-kasasi-polusi-udara-2023
+  type: putusan-ma
+  title_id: Putusan Kasasi Mahkamah Agung No. 3641 K/PDT/2023 (Gugatan Warga Negara atas Polusi Udara Jakarta)
+  year: 2023
+  citation_id: Putusan MA No. 3641 K/PDT/2023
+
+- id: laporan-eksekusi-karhutla-klhk-2023
+  type: laporan-lembaga
+  title_id: Laporan Evaluasi Eksekusi Ganti Rugi Perdata Kebakaran Hutan dan Lahan (Karhutla) KLHK RI
+  year: 2023
+  citation_id: KLHK Laporan Eksekusi Karhutla 2023
+
+- id: laporan-bpk-evaluasi-dana-desa-2022
+  type: laporan-lembaga
+  title_id: Laporan Pemeriksaan Kinerja BPK RI atas Pengelolaan dan Pengawasan Dana Desa Rp468 Triliun
+  year: 2022
+  citation_id: BPK RI LHP Kinerja Dana Desa 2022
+
+- id: laporan-dissenting-bansos-pilpres-2024
+  type: putusan-mk
+  title_id: Pendapat Berbeda (Dissenting Opinion) Hakim MK atas Penyaluran Bansos Masif Menjelang Pemilu 2024
+  year: 2024
+  citation_id: Risalah Dissenting Opinion PHPU Pilpres 2024
+
+- id: risalah-baleg-dpr-pilkada-2024
+  type: dokumen-mpr
+  title_id: Risalah Rapat Baleg DPR RI Pembahasan RUU Pilkada Pasca Putusan MK No. 60 & 70/2024
+  year: 2024
+  citation_id: Risalah Rapat Baleg DPR 21 Agustus 2024
+
+- id: laporan-evaluasi-20-persen-anggaran-pendidikan-2024
+  type: laporan-lembaga
+  title_id: Laporan Evaluasi Fiskal Kemenkeu & DPR RI atas Realisasi Alokasi 20% Anggaran Pendidikan APBN
+  year: 2024
+  citation_id: Kemenkeu Laporan Alokasi Pendidikan 2024
+
+
 
 
 
