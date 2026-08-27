@@ -258,3 +258,94 @@
   abs_discrepancy_note: >-
     Evaluasi OECD menyoroti ketiadaan regulasi wajib transparansi lobi korporasi (lobbying disclosure)
     dan kerentanan saksi/pelapor korupsi di tubuh aparat penegak hukum dari kriminalisasi balik.
+
+- id: rsf-press-freedom
+  name: World Press Freedom Index
+  publisher: Reporters Without Borders (RSF)
+  type: expert-coded
+  scale: 0 - 100 (100 = Kebebasan pers paripurna)
+  description: >-
+    Mengukur kebebasan jurnalisme dan keselamatan pers di 180 negara: konteks politik, kerangka hukum,
+    konteks ekonomi, konteks sosiokultural, dan keselamatan fisik/digital wartawan.
+  url: https://rsf.org/en/country/indonesia
+  target_dimensions:
+    - sila-4
+    - kedaulatan-rakyat
+    - negara-hukum
+  data:
+    - year: 2018
+      score: 60.12
+      rank: 124
+      total_countries: 180
+    - year: 2020
+      score: 59.48
+      rank: 119
+      total_countries: 180
+    - year: 2022
+      score: 56.40
+      rank: 117
+      total_countries: 180
+    - year: 2023
+      score: 54.83
+      rank: 108
+      total_countries: 180
+    - year: 2024
+      score: 51.15
+      rank: 111
+      total_countries: 180
+    - year: 2025
+      score: 44.13
+      rank: 127
+      total_countries: 180
+    - year: 2026
+      score: 43.02
+      rank: 128
+      total_countries: 180
+  abs_discrepancy_note: >-
+    Anjloknya skor kebebasan pers RSF ke peringkat 128 dunia pada 2026 mencerminkan tingginya represi digital,
+    kriminalisasi via UU ITE, dan pemusatan kepemilikan media pada konglomerasi politik, berbanding terbalik
+    dengan klaim kebebasan berpendapat di forum-forum diplomatik resmi.
+
+- id: civilian-supremacy-security
+  name: Indeks Supremasi Sipil & Integritas Sektor Keamanan (Anti-Dwifungsi)
+  publisher: Koalisi Masyarakat Sipil untuk Reformasi Sektor Keamanan (Imparsial, KontraS, PBHI, ELSAM)
+  type: civil-society
+  scale: 0 - 100 (100 = Supremasi sipil mutlak dan zero-dwifungsi militer/polri)
+  description: >-
+    Mengukur 4 indikator kepatuhan konstitusional sektor pertahanan dan keamanan:
+    1. Kepatuhan larangan perwira aktif menduduki jabatan sipil ASN/BUMN (Pasal 47 UU 34/2004 & TAP MPR VII/2000),
+    2. Akuntabilitas peradilan umum bagi tindak pidana prajurit militer (Pasal 65 ayat 2 UU 34/2004),
+    3. Netralitas politik elektoral TNI-Polri,
+    4. Pengawasan anggaran pengadaan alutsista & bisnis militer.
+  url: https://imparsial.org/reformasi-sektor-keamanan
+  target_dimensions:
+    - checks-balances
+    - negara-hukum
+    - sila-4
+    - kedaulatan-rakyat
+  data:
+    - year: 2004
+      score: 68
+      note: Pengesahan UU TNI meletakkan dasar pemisahan jabatan sipil dan militer.
+    - year: 2009
+      score: 65
+      note: Pengambilalihan bisnis militer parsial berjalan bertahap.
+    - year: 2014
+      score: 62
+      note: Reformasi peradilan militer ke peradilan umum mandek.
+    - year: 2019
+      score: 55
+      note: Mulai marak penempatan perwira aktif di kementerian sipil dan BUMN.
+    - year: 2022
+      score: 48
+      note: Pengabaian putusan MK dan regulasi ASN terkait penugasan prajurit aktif.
+    - year: 2024
+      score: 42
+      note: Draf revisi UU TNI dan UU Polri memperluas wewenang dwifungsi dan penyadapan sipil.
+    - year: 2026
+      score: 38
+      note: Keterlibatan militer dalam program sipil (ketahanan pangan/MBG) dan pembiaran rangkap jabatan.
+  abs_discrepancy_note: >-
+    Anjloknya indeks supremasi sipil hingga angka 38/100 pada 2026 menjadi sinyal bahaya kembalinya
+    watak Dwifungsi ABRI era Orde Baru yang merusak prinsip dasar negara hukum demokratis pasca-Reformasi.
+

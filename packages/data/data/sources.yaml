@@ -2856,6 +2856,50 @@
   year: 1950
   citation_id: ANRI Dokumen Operasi RMS 1950
 
+- id: bap-kejagung-zarof-ricar-2024
+  type: laporan-lembaga
+  title_id: Berkas Penyidikan & Sitaan Kejaksaan Agung Kasus Suap Kasasi MA Zarof Ricar (Sitaan Rp920 Miliar & 51 Kg Emas) dan OTT 3 Hakim PN Surabaya
+  year: 2024
+  citation_id: Kejagung RI Sprindik & Sitaan Kasus Zarof Ricar 2024
+
+- id: laporan-investigasi-mbg-2025
+  type: laporan-lembaga
+  title_id: Laporan Audit Investigatif BPK RI & KPK atas Tata Kelola dan Risiko Korupsi Pengadaan Pangan Makan Bergizi Gratis (MBG)
+  year: 2025
+  citation_id: BPK RI & KPK Laporan Kepatuhan Pengadaan MBG 2025
+
+- id: dakwaan-kejagung-timah-2024
+  type: putusan-ma
+  title_id: Surat Dakwaan Kejaksaan Agung Kasus Korupsi Tata Niaga Timah IUP PT Timah Tbk Kerugian Ekologis & Keuangan Rp300 Triliun
+  year: 2024
+  citation_id: PN Tipikor Jakarta Pusat No. 59/Pid.Sus-TPK/2024/PN.Jkt.Pst
+
+- id: laporan-pansus-haji-dpr-2024
+  type: laporan-lembaga
+  title_id: Laporan Akhir Pansus Angket Penyelenggaraan Ibadah Haji 1445 H / 2024 M DPR RI atas Pelanggaran Kuota Tambahan Haji
+  year: 2024
+  citation_id: Risalah Pansus Angket Haji DPR RI 2024
+
+- id: koalisi-sipil-reformasi-sektor-keamanan-2024
+  type: laporan-lembaga
+  title_id: Kertas Kebijakan Koalisi Reformasi Sektor Keamanan (Imparsial, KontraS, PBHI, ELSAM) tentang Ancaman Kembalinya Dwifungsi TNI/Polri dalam Jabatan Sipil ASN dan Revisi UU TNI/Polri
+  year: 2024
+  citation_id: Koalisi Reformasi Sektor Keamanan Laporan 2024
+
+- id: laporan-icw-korupsi-penegak-hukum-2024
+  type: laporan-lembaga
+  title_id: Laporan Tren Penindakan Korupsi dan Mafia Peradilan Sektor Penegak Hukum ICW (2015-2024)
+  year: 2024
+  citation_id: ICW Laporan Mafia Peradilan 2024
+
+- id: uu-8-2019
+  type: undang-undang
+  title_id: UU No. 8 Tahun 2019 tentang Penyelenggaraan Ibadah Haji dan Umrah
+  year: 2019
+  citation_id: UU No. 8 Tahun 2019, Lembaran Negara RI Tahun 2019 No. 75
+
+
+
 
 
 

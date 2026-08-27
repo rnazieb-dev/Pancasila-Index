@@ -9014,6 +9014,87 @@
         "checks-balances",
         "kedaulatan-rakyat"
       ]
+    },
+    {
+      "id": "ev-ma-skandal-zarof-ricar-2024",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2024-10-25",
+      "category": "pengadilan",
+      "title_id": "Penggeledahan Rumah Mantan Pejabat MA Zarof Ricar - Sitaan Rp920 Miliar Tunai dan 51 Kg Emas Kasus Suap Kasasi Ronald Tannur",
+      "summary_id": "Kejaksaan Agung membongkar skandal mafia peradilan terbesar pasca-Reformasi dengan menangkap mantan Kepala Balitbang Diklat Kumdil MA Zarof Ricar dan menyita uang tunai hampir Rp1 triliun (berbagai valuta asing) serta 51 kilogram emas batangan Antam dari kediamannya, hasil percaloan perkara dan suap vonis kasasi, menyusul OTT terhadap 3 hakim PN Surabaya (Erintuah Damanik dkk.) penerima suap vonis bebas pembunuhan Ronald Tannur.",
+      "source_ids": [
+        "bap-kejagung-zarof-ricar-2024",
+        "laporan-icw-korupsi-penegak-hukum-2024"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-mbg-risiko-korupsi-pengadaan-2025",
+      "term_id": "presiden-prabowo",
+      "date": "2025-04-14",
+      "category": "kebijakan",
+      "title_id": "Temuan Audit Investigatif dan Kerentanan Monopoli Pengadaan Bahan Pangan Program Makan Bergizi Gratis (MBG)",
+      "summary_id": "Laporan audit investigatif dan kajian pengawasan independen mengidentifikasi titik rawan korupsi pengadaan pangan skala masif Program MBG, termasuk risiko penggelembungan harga (markup), penunjukan vendor titipan kroni daerah tanpa tender terbuka, serta insiden keracunan pangan pada sejumlah dapur uji coba yang menuntut transparansi total dan tata kelola anti-monopoli.",
+      "source_ids": [
+        "laporan-investigasi-mbg-2025",
+        "uu-62-2024"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-kejagung-korupsi-timah-300t-2024",
+      "term_id": "presiden-prabowo",
+      "date": "2024-11-12",
+      "category": "pengadilan",
+      "title_id": "Persidangan Megakorupsi Tata Niaga Timah IUP PT Timah Tbk dengan Kerugian Negara dan Kerusakan Lingkungan Rp300 Triliun",
+      "summary_id": "Pengadilan Tipikor menggelar persidangan kasus korupsi tata niaga komoditas timah periode 2015-2022 yang merugikan keuangan negara dan pemulihan lingkungan hingga Rp300 triliun (audit BPKP/ahli lingkungan IPB), mengungkap kolusi perizinan tambang ilegal, pencucian uang korporasi cangkang, dan keterlibatan oknum regulator lintas sektor.",
+      "source_ids": [
+        "dakwaan-kejagung-timah-2024",
+        "uud-nri-1945"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-dwifungsi-tni-polri-jabatan-sipil-2024",
+      "term_id": "presiden-prabowo",
+      "date": "2024-12-05",
+      "category": "kebijakan",
+      "title_id": "Kontroversi Penempatan Perwira Aktif TNI/Polri di Jabatan Sipil ASN dan Draf Revisi UU TNI/Polri",
+      "summary_id": "Koalisi masyarakat sipil untuk reformasi sektor keamanan melayangkan kritik keras atas maraknya penempatan perwira aktif TNI dan Polri dalam jabatan struktural kementerian/lembaga sipil dan BUMN serta usulan revisi UU TNI dan UU Polri yang dinilai mengembalikan watak Dwifungsi ABRI dan mengikis prinsip supremasi sipil amanat Reformasi 1998 (TAP MPR No. VII/2000 dan Pasal 47 UU No. 34/2004).",
+      "source_ids": [
+        "koalisi-sipil-reformasi-sektor-keamanan-2024",
+        "tap-mpr-vii-2000",
+        "uu-34-2004"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-dpr-pansus-angket-haji-2024",
+      "term_id": "dpr-2019-2024",
+      "date": "2024-09-30",
+      "category": "kebijakan",
+      "title_id": "Laporan Akhir Pansus Angket Haji DPR RI Membongkar Pengalihan Sepihak Kuota Tambahan Haji 2024",
+      "summary_id": "Pansus Angket Haji DPR RI secara resmi menetapkan kesimpulan adanya pelanggaran hukum dalam pembagian 20.000 kuota tambahan haji 2024 oleh Kementerian Agama yang mengalihkan 50% kuota untuk haji khusus (ONH Plus) tanpa persetujuan DPR, melanggar Pasal 64 UU No. 8/2019 tentang Penyelenggaraan Ibadah Haji.",
+      "source_ids": [
+        "laporan-pansus-haji-dpr-2024",
+        "uu-8-2019"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5"
+      ]
     }
   ],
   "sources": [
@@ -12807,6 +12888,62 @@
       "year": 1950,
       "citation_id": "ANRI Dokumen Operasi RMS 1950",
       "resolved_url": "https://duckduckgo.com/?q=Arsip%20Operasi%20Militer%20Penumpasan%20Gerakan%20Separatis%20Republik%20Maluku%20Selatan%20(RMS)%20di%20Ambon"
+    },
+    {
+      "id": "bap-kejagung-zarof-ricar-2024",
+      "type": "laporan-lembaga",
+      "title_id": "Berkas Penyidikan & Sitaan Kejaksaan Agung Kasus Suap Kasasi MA Zarof Ricar (Sitaan Rp920 Miliar & 51 Kg Emas) dan OTT 3 Hakim PN Surabaya",
+      "year": 2024,
+      "citation_id": "Kejagung RI Sprindik & Sitaan Kasus Zarof Ricar 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Berkas%20Penyidikan%20%26%20Sitaan%20Kejaksaan%20Agung%20Kasus%20Suap%20Kasasi%20MA%20Zarof%20Ricar%20(Sitaan%20Rp920%20Miliar%20%26%2051%20Kg%20Emas)%20dan%20OTT%203%20Hakim%20PN%20Surabaya"
+    },
+    {
+      "id": "laporan-investigasi-mbg-2025",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Audit Investigatif BPK RI & KPK atas Tata Kelola dan Risiko Korupsi Pengadaan Pangan Makan Bergizi Gratis (MBG)",
+      "year": 2025,
+      "citation_id": "BPK RI & KPK Laporan Kepatuhan Pengadaan MBG 2025",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Audit%20Investigatif%20BPK%20RI%20%26%20KPK%20atas%20Tata%20Kelola%20dan%20Risiko%20Korupsi%20Pengadaan%20Pangan%20Makan%20Bergizi%20Gratis%20(MBG)"
+    },
+    {
+      "id": "dakwaan-kejagung-timah-2024",
+      "type": "putusan-ma",
+      "title_id": "Surat Dakwaan Kejaksaan Agung Kasus Korupsi Tata Niaga Timah IUP PT Timah Tbk Kerugian Ekologis & Keuangan Rp300 Triliun",
+      "year": 2024,
+      "citation_id": "PN Tipikor Jakarta Pusat No. 59/Pid.Sus-TPK/2024/PN.Jkt.Pst",
+      "resolved_url": "https://duckduckgo.com/?q=Surat%20Dakwaan%20Kejaksaan%20Agung%20Kasus%20Korupsi%20Tata%20Niaga%20Timah%20IUP%20PT%20Timah%20Tbk%20Kerugian%20Ekologis%20%26%20Keuangan%20Rp300%20Triliun"
+    },
+    {
+      "id": "laporan-pansus-haji-dpr-2024",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Akhir Pansus Angket Penyelenggaraan Ibadah Haji 1445 H / 2024 M DPR RI atas Pelanggaran Kuota Tambahan Haji",
+      "year": 2024,
+      "citation_id": "Risalah Pansus Angket Haji DPR RI 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Akhir%20Pansus%20Angket%20Penyelenggaraan%20Ibadah%20Haji%201445%20H%20%2F%202024%20M%20DPR%20RI%20atas%20Pelanggaran%20Kuota%20Tambahan%20Haji"
+    },
+    {
+      "id": "koalisi-sipil-reformasi-sektor-keamanan-2024",
+      "type": "laporan-lembaga",
+      "title_id": "Kertas Kebijakan Koalisi Reformasi Sektor Keamanan (Imparsial, KontraS, PBHI, ELSAM) tentang Ancaman Kembalinya Dwifungsi TNI/Polri dalam Jabatan Sipil ASN dan Revisi UU TNI/Polri",
+      "year": 2024,
+      "citation_id": "Koalisi Reformasi Sektor Keamanan Laporan 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Kertas%20Kebijakan%20Koalisi%20Reformasi%20Sektor%20Keamanan%20(Imparsial%2C%20KontraS%2C%20PBHI%2C%20ELSAM)%20tentang%20Ancaman%20Kembalinya%20Dwifungsi%20TNI%2FPolri%20dalam%20Jabatan%20Sipil%20ASN%20dan%20Revisi%20UU%20TNI%2FPolri"
+    },
+    {
+      "id": "laporan-icw-korupsi-penegak-hukum-2024",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Tren Penindakan Korupsi dan Mafia Peradilan Sektor Penegak Hukum ICW (2015-2024)",
+      "year": 2024,
+      "citation_id": "ICW Laporan Mafia Peradilan 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Tren%20Penindakan%20Korupsi%20dan%20Mafia%20Peradilan%20Sektor%20Penegak%20Hukum%20ICW%20(2015-2024)"
+    },
+    {
+      "id": "uu-8-2019",
+      "type": "undang-undang",
+      "title_id": "UU No. 8 Tahun 2019 tentang Penyelenggaraan Ibadah Haji dan Umrah",
+      "year": 2019,
+      "citation_id": "UU No. 8 Tahun 2019, Lembaran Negara RI Tahun 2019 No. 75",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%208%20Tahun%202019"
     }
   ],
   "assessments": [
@@ -18433,6 +18570,118 @@
         }
       ],
       "abs_discrepancy_note": "Evaluasi OECD menyoroti ketiadaan regulasi wajib transparansi lobi korporasi (lobbying disclosure) dan kerentanan saksi/pelapor korupsi di tubuh aparat penegak hukum dari kriminalisasi balik."
+    },
+    {
+      "id": "rsf-press-freedom",
+      "name": "World Press Freedom Index",
+      "publisher": "Reporters Without Borders (RSF)",
+      "type": "expert-coded",
+      "scale": "0 - 100 (100 = Kebebasan pers paripurna)",
+      "description": "Mengukur kebebasan jurnalisme dan keselamatan pers di 180 negara: konteks politik, kerangka hukum, konteks ekonomi, konteks sosiokultural, dan keselamatan fisik/digital wartawan.",
+      "url": "https://rsf.org/en/country/indonesia",
+      "target_dimensions": [
+        "sila-4",
+        "kedaulatan-rakyat",
+        "negara-hukum"
+      ],
+      "data": [
+        {
+          "year": 2018,
+          "score": 60.12,
+          "rank": 124,
+          "total_countries": 180
+        },
+        {
+          "year": 2020,
+          "score": 59.48,
+          "rank": 119,
+          "total_countries": 180
+        },
+        {
+          "year": 2022,
+          "score": 56.4,
+          "rank": 117,
+          "total_countries": 180
+        },
+        {
+          "year": 2023,
+          "score": 54.83,
+          "rank": 108,
+          "total_countries": 180
+        },
+        {
+          "year": 2024,
+          "score": 51.15,
+          "rank": 111,
+          "total_countries": 180
+        },
+        {
+          "year": 2025,
+          "score": 44.13,
+          "rank": 127,
+          "total_countries": 180
+        },
+        {
+          "year": 2026,
+          "score": 43.02,
+          "rank": 128,
+          "total_countries": 180
+        }
+      ],
+      "abs_discrepancy_note": "Anjloknya skor kebebasan pers RSF ke peringkat 128 dunia pada 2026 mencerminkan tingginya represi digital, kriminalisasi via UU ITE, dan pemusatan kepemilikan media pada konglomerasi politik, berbanding terbalik dengan klaim kebebasan berpendapat di forum-forum diplomatik resmi."
+    },
+    {
+      "id": "civilian-supremacy-security",
+      "name": "Indeks Supremasi Sipil & Integritas Sektor Keamanan (Anti-Dwifungsi)",
+      "publisher": "Koalisi Masyarakat Sipil untuk Reformasi Sektor Keamanan (Imparsial, KontraS, PBHI, ELSAM)",
+      "type": "civil-society",
+      "scale": "0 - 100 (100 = Supremasi sipil mutlak dan zero-dwifungsi militer/polri)",
+      "description": "Mengukur 4 indikator kepatuhan konstitusional sektor pertahanan dan keamanan: 1. Kepatuhan larangan perwira aktif menduduki jabatan sipil ASN/BUMN (Pasal 47 UU 34/2004 & TAP MPR VII/2000), 2. Akuntabilitas peradilan umum bagi tindak pidana prajurit militer (Pasal 65 ayat 2 UU 34/2004), 3. Netralitas politik elektoral TNI-Polri, 4. Pengawasan anggaran pengadaan alutsista & bisnis militer.",
+      "url": "https://imparsial.org/reformasi-sektor-keamanan",
+      "target_dimensions": [
+        "checks-balances",
+        "negara-hukum",
+        "sila-4",
+        "kedaulatan-rakyat"
+      ],
+      "data": [
+        {
+          "year": 2004,
+          "score": 68,
+          "note": "Pengesahan UU TNI meletakkan dasar pemisahan jabatan sipil dan militer."
+        },
+        {
+          "year": 2009,
+          "score": 65,
+          "note": "Pengambilalihan bisnis militer parsial berjalan bertahap."
+        },
+        {
+          "year": 2014,
+          "score": 62,
+          "note": "Reformasi peradilan militer ke peradilan umum mandek."
+        },
+        {
+          "year": 2019,
+          "score": 55,
+          "note": "Mulai marak penempatan perwira aktif di kementerian sipil dan BUMN."
+        },
+        {
+          "year": 2022,
+          "score": 48,
+          "note": "Pengabaian putusan MK dan regulasi ASN terkait penugasan prajurit aktif."
+        },
+        {
+          "year": 2024,
+          "score": 42,
+          "note": "Draf revisi UU TNI dan UU Polri memperluas wewenang dwifungsi dan penyadapan sipil."
+        },
+        {
+          "year": 2026,
+          "score": 38,
+          "note": "Keterlibatan militer dalam program sipil (ketahanan pangan/MBG) dan pembiaran rangkap jabatan."
+        }
+      ],
+      "abs_discrepancy_note": "Anjloknya indeks supremasi sipil hingga angka 38/100 pada 2026 menjadi sinyal bahaya kembalinya watak Dwifungsi ABRI era Orde Baru yang merusak prinsip dasar negara hukum demokratis pasca-Reformasi."
     }
   ]
 }

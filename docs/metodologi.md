@@ -1,0 +1,76 @@
+# Metodologi Penelitian & Kerangka Sumber Data — Pancasila Index
+
+Dokumen ini menjabarkan fondasi epistemologis, metodologi penelitian empiris, hierarki sumber data primer, dan integrasi indeks independen eksternal dalam platform Pancasila Index.
+
+---
+
+## 1. Fondasi Metodologis: Audit Institusional Berbasis Bukti Primer
+
+Pancasila Index dirancang secara sadar untuk menolak personalisasi politik, kultus figur, dan bias partisan. Fokus evaluasi adalah **audit masa jabatan kelembagaan (*institutional tenure audit*)** terhadap 8 organ konstitusional UUD 1945 (Presiden, DPR, MPR, DPD, MK, MA, BPK, KY) dari 1945 hingga kini.
+
+---
+
+## 2. Empat Pilar Metodologi Riset
+
+### Pilar 1: Analisis Kesetiaan Teks Konstitusi (*Constitutional Fidelity & Textual Compliance*)
+Menguji keselarasan tindakan, undang-undang, keputusan presiden, dan putusan yudikatif terhadap:
+1. **Lima Sila Pancasila** (Sila 1 s.d. 5) — Bobot 40%.
+2. **Empat Tujuan Bernegara** (Pembukaan UUD 1945 Alinea IV: Melindungi segenap bangsa, Memajukan kesejahteraan umum, Mencerdaskan kehidupan bangsa, Ikut melaksanakan ketertiban dunia) — Bobot 30%.
+3. **Norma Struktural UUD 1945** (Negara Hukum Pasal 1 ayat 3, *Checks and Balances* antarlembaga, Kedaulatan Rakyat Pasal 1 ayat 2) — Bobot 30%.
+
+### Pilar 2: Analisis Kesenjangan Implementasi & Fakta Lapangan (*Empirical Law-in-Action Gap*)
+Membedakan secara tegas antara klaim teks regulasi formal (*law in the books*) dengan kenyataan penegakan hukum di lapangan (*law in action*):
+- **Contempt of Court**: Mengaudit tingkat ketidakpatuhan pejabat pemerintah terhadap putusan pengadilan yang telah berkekuatan hukum tetap (*inkracht*), seperti ketidakpatuhan ~95% atas putusan PTUN, pengabaian putusan Citizen Lawsuit Polusi Udara, dan penerbitan Perppu untuk mengakali putusan Mahkamah Konstitusi.
+- **Korupsi Sistemik di Lembaga Penegak Hukum**: Menelusuri operasi tangkap tangan (OTT) KPK dan penyidikan Kejaksaan terhadap hakim agung (Sudrajad Dimyati, Gazalba Saleh), pimpinan/sekretaris MA (Nurhadi, Hasbi Hasan, Zarof Ricar), pimpinan MK (Akil Mochtar, Patrialis Akbar), dan auditor BPK (Rochmadi Saptogiri, Ali Sadli, Rizal Djalil).
+- **Kriminalisasi Rakyat vs Impunitas Elite**: Membandingkan pemidanaan berat terhadap aktivis lingkungan/petani (kasus Budi Pego 4 tahun penjara) dengan diskon hukuman massal, remisi, dan pembebasan bersyarat koruptor kakap pasca-pembatalan PP 99/2012 oleh MA.
+
+### Pilar 3: Triangulasi Multi-Bukti Primer (*Multi-Evidence Primary Triangulation*)
+Setiap skor penilaian wajib bersitasi minimal satu instrumen bukti primer resmi:
+- **Lembaran Negara RI**: Undang-Undang, Peraturan Pemerintah Pengganti UU (Perppu), Peraturan Presiden (Perpres).
+- **Risalah Sidang Resmi**: Risalah Amandemen UUD 1945 MPR RI, Risalah Rapat Paripurna DPR RI, Risalah Pansus Angket.
+- **Direktori Putusan Pengadilan**: Putusan Mahkamah Konstitusi (MKRI), Putusan Kasasi/PK Mahkamah Agung (MA), Putusan PTUN, Putusan Pengadilan Tipikor, Putusan Majelis Kehormatan MK (MKMK).
+- **Laporan Audit & Pengawasan Resmi Negara**: Laporan Hasil Pemeriksaan (LHP/IHPS) BPK RI, Laporan Akhir Hasil Pemeriksaan (LAHP) Ombudsman RI, Laporan Penyelidikan Pelanggaran HAM Berat Komnas HAM RI, Laporan Tahunan Komisi Yudisial (KY), dan Statistik Penindakan KPK.
+- **Investigasi Koalisi Masyarakat Sipil**: Catatan Akhir Tahun Konsorsium Pembaruan Agraria (KPA), Laporan Situasi Hak Digital SAFENet, Tren Korupsi Indonesia Corruption Watch (ICW), Catatan Kritis Eksekusi Lingkungan ICEL/WALHI, dan Kertas Kebijakan Koalisi Reformasi Sektor Keamanan (Imparsial, KontraS, PBHI, ELSAM).
+
+### Pilar 4: Validasi Silang Indeks Independen Global (*Independent Global Indices Cross-Validation*)
+Mengintegrasikan 8 indeks independen pihak ketiga yang berbasis data keras (*hard data*) dan *expert-coded double-blind* guna membongkar bias birokrasi Asal Bapak Senang (ABS):
+1. **WJP Rule of Law Index (World Justice Project)**: Kepatuhan supremasi hukum, keadilan pidana, pembatasan kekuasaan pemerintah.
+2. **Corruption Perceptions Index (CPI - Transparency International)**: Komposit 13 survei independen persepsi korupsi sektor publik.
+3. **Index of Public Integrity (IPI - ERCAS)**: Kapasitas kontrol korupsi (Independensi Peradilan, Beban Administrasi, Transparansi Anggaran).
+4. **V-Dem Deliberative & Liberal Democracy Index (University of Gothenburg)**: Kualitas musyawarah publik (*meaningful participation*) dan pengawasan peradilan atas eksekutif.
+5. **Open Budget Index (OBI - IBP)**: Audit independen transparansi APBN dan partisipasi publik anggaran.
+6. **OECD Public Integrity Indicators (PII)**: Standar mitigasi konflik kepentingan dan perlindungan saksi/whistleblower.
+7. **World Press Freedom Index (Reporters Without Borders / RSF)**: Kebebasan jurnalisme dan keselamatan wartawan dari represi.
+8. **Indeks Supremasi Sipil & Integritas Sektor Keamanan (Koalisi Reformasi Sektor Keamanan)**: Pengawasan larangan Dwifungsi TNI/Polri dalam jabatan sipil ASN/BUMN dan netralitas aparat keamanan.
+
+---
+
+## 3. Skala Rubrik & Jangkar Perilaku (-2 s.d. +2)
+
+| Skala | Label Konstitusional | Definisi & Bukti Lapangan | Contoh Penerapan Nyata |
+| :---: | :--- | :--- | :--- |
+| **`+2`** | **Selaras Penuh / Teladan** | Terobosan institusional fundamental yang memperluas jaminan konstitusional, hak sipil, dan akuntabilitas publik secara berkelanjutan. | UU Pers 40/1999 (kebebasan pers mutlak), Pembentukan KPK (UU 30/2002), Pembentukan MK (UU 24/2003), Amandemen Bab XA HAM UUD 1945. |
+| **`+1`** | **Memperkuat / Positif** | Kebijakan, undang-undang, atau putusan progresif yang memajukan nilai Pancasila dan kesejahteraan rakyat secara terukur. | MoU Helsinki Damai Aceh 2005, UU Keterbukaan Informasi Publik 14/2008, UU BPJS 24/2011, Putusan MK 168/2023 klaster ketenagakerjaan. |
+| **`0`** | **Netral / Berimbang / Rutin** | Kinerja administratif rutin tanpa terobosan baru, fungsi protokoler seremonial, atau capaian positif yang terhapus oleh dampak negatif yang sebanding. | Sosialisasi seremonial 4 Pilar MPR, pelantikan rutin presiden, perumusan RUU tanpa output legislasi (DPD soft bicameralism). |
+| **`-1`** | **Menggerus / Regresi** | Kebijakan yang memperlemah checks and balances, diskriminasi kelompok rentan/minoritas, atau penurunan kualitas partisipasi publik. | SKB 3 Menteri Ahmadiyah 2008, suap cek pelawat pemilihan DGS BI (40+ anggota DPR), jual-beli opini WTP oleh oknum auditor BPK. |
+| **`-2`** | **Melanggar Berat / Inkonstitusional** | Penyimpangan fundamental terhadap norma struktural UUD 1945, *extrajudicial killings*, mafia peradilan tingkat puncak, pembangkangan putusan pengadilan, dan pembongkaran sistemik pilar antikorupsi. | Operasi Petrus (±10.000 tewas), Penyerbuan 27 Juli 1996, Tragedi Mei 1998, Revisi UU KPK 2019, Perppu Ciptaker 2022, Putusan MK 90/2023 (vonis etik berat MKMK), OTT Suap Hakim Agung MA & Skandal Zarof Ricar (Rp920M & 51kg emas). |
+
+---
+
+## 4. Algoritma Penskoran & Agregasi Indeks
+
+1. **Rata-rata Penilaian Masa Jabatan ($S_{d}$)**: Rerata nilai skor dimensi $d \in [-2, 2]$ dengan pembobotan tingkat keyakinan (*confidence level* $c_d \in [0, 1]$):
+   $$\bar{S}_d = \frac{\sum_{r} S_{d,r} \cdot c_{d,r}}{\sum_{r} c_{d,r}}$$
+2. **Skor Kelompok Landasan ($G_k$)**:
+   $$G_k = \frac{\sum_{d \in G_k} \bar{S}_d \cdot w_d}{\sum_{d \in G_k} w_d}$$
+3. **Indeks Komposit Konstitusional (Skala 0–100)**:
+   $$\text{Indeks} = 50 + 25 \times \sum_{k=1}^3 \left( G_k \times W_k \right)$$
+   di mana $W_{\text{pancasila}} = 0.4$, $W_{\text{pembukaan}} = 0.3$, $W_{\text{struktural}} = 0.3$.
+
+---
+
+## 5. Protokol Kurasi & *Double-Reviewer Quorum*
+
+- Tidak ada data asesmen yang dipublikasikan secara final tanpa persetujuan manusia (`human_confirmed: true`).
+- Status siklus hidup draf: `draft` $\rightarrow$ `pending_second` (verifikasi Reviewer 1) $\rightarrow$ `published` (kuorum $\ge 2$ approver terverifikasi independen).
+- Seluruh histori telaah, perubahan skor, dan komentar telaah terekam permanen dalam tabel `AuditLog` dan mirrored write-through ke `review-state.json`.

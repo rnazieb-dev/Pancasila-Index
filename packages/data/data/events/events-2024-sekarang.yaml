@@ -154,4 +154,64 @@
   source_ids: [risalah-sidang-mpr-2026]
   dimension_ids: [checks-balances, kedaulatan-rakyat]
 
+- id: ev-ma-skandal-zarof-ricar-2024
+  term_id: ma-reformasi-sekarang
+  date: "2024-10-25"
+  category: pengadilan
+  title_id: Penggeledahan Rumah Mantan Pejabat MA Zarof Ricar - Sitaan Rp920 Miliar Tunai dan 51 Kg Emas Kasus Suap Kasasi Ronald Tannur
+  summary_id: >-
+    Kejaksaan Agung membongkar skandal mafia peradilan terbesar pasca-Reformasi dengan menangkap mantan Kepala Balitbang Diklat Kumdil MA Zarof Ricar
+    dan menyita uang tunai hampir Rp1 triliun (berbagai valuta asing) serta 51 kilogram emas batangan Antam dari kediamannya,
+    hasil percaloan perkara dan suap vonis kasasi, menyusul OTT terhadap 3 hakim PN Surabaya (Erintuah Damanik dkk.) penerima suap vonis bebas pembunuhan Ronald Tannur.
+  source_ids: [bap-kejagung-zarof-ricar-2024, laporan-icw-korupsi-penegak-hukum-2024]
+  dimension_ids: [negara-hukum, sila-2]
+
+- id: ev-mbg-risiko-korupsi-pengadaan-2025
+  term_id: presiden-prabowo
+  date: "2025-04-14"
+  category: kebijakan
+  title_id: Temuan Audit Investigatif dan Kerentanan Monopoli Pengadaan Bahan Pangan Program Makan Bergizi Gratis (MBG)
+  summary_id: >-
+    Laporan audit investigatif dan kajian pengawasan independen mengidentifikasi titik rawan korupsi pengadaan pangan skala masif Program MBG,
+    termasuk risiko penggelembungan harga (markup), penunjukan vendor titipan kroni daerah tanpa tender terbuka,
+    serta insiden keracunan pangan pada sejumlah dapur uji coba yang menuntut transparansi total dan tata kelola anti-monopoli.
+  source_ids: [laporan-investigasi-mbg-2025, uu-62-2024]
+  dimension_ids: [sila-5, negara-hukum]
+
+- id: ev-kejagung-korupsi-timah-300t-2024
+  term_id: presiden-prabowo
+  date: "2024-11-12"
+  category: pengadilan
+  title_id: Persidangan Megakorupsi Tata Niaga Timah IUP PT Timah Tbk dengan Kerugian Negara dan Kerusakan Lingkungan Rp300 Triliun
+  summary_id: >-
+    Pengadilan Tipikor menggelar persidangan kasus korupsi tata niaga komoditas timah periode 2015-2022 yang merugikan keuangan negara
+    dan pemulihan lingkungan hingga Rp300 triliun (audit BPKP/ahli lingkungan IPB), mengungkap kolusi perizinan tambang ilegal,
+    pencucian uang korporasi cangkang, dan keterlibatan oknum regulator lintas sektor.
+  source_ids: [dakwaan-kejagung-timah-2024, uud-nri-1945]
+  dimension_ids: [tujuan-2, sila-5]
+
+- id: ev-dwifungsi-tni-polri-jabatan-sipil-2024
+  term_id: presiden-prabowo
+  date: "2024-12-05"
+  category: kebijakan
+  title_id: Kontroversi Penempatan Perwira Aktif TNI/Polri di Jabatan Sipil ASN dan Draf Revisi UU TNI/Polri
+  summary_id: >-
+    Koalisi masyarakat sipil untuk reformasi sektor keamanan melayangkan kritik keras atas maraknya penempatan perwira aktif TNI dan Polri
+    dalam jabatan struktural kementerian/lembaga sipil dan BUMN serta usulan revisi UU TNI dan UU Polri yang dinilai mengembalikan watak Dwifungsi ABRI
+    dan mengikis prinsip supremasi sipil amanat Reformasi 1998 (TAP MPR No. VII/2000 dan Pasal 47 UU No. 34/2004).
+  source_ids: [koalisi-sipil-reformasi-sektor-keamanan-2024, tap-mpr-vii-2000, uu-34-2004]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-dpr-pansus-angket-haji-2024
+  term_id: dpr-2019-2024
+  date: "2024-09-30"
+  category: kebijakan
+  title_id: Laporan Akhir Pansus Angket Haji DPR RI Membongkar Pengalihan Sepihak Kuota Tambahan Haji 2024
+  summary_id: >-
+    Pansus Angket Haji DPR RI secara resmi menetapkan kesimpulan adanya pelanggaran hukum dalam pembagian 20.000 kuota tambahan haji 2024
+    oleh Kementerian Agama yang mengalihkan 50% kuota untuk haji khusus (ONH Plus) tanpa persetujuan DPR, melanggar Pasal 64 UU No. 8/2019 tentang Penyelenggaraan Ibadah Haji.
+  source_ids: [laporan-pansus-haji-dpr-2024, uu-8-2019]
+  dimension_ids: [checks-balances, sila-5]
+
+
 
