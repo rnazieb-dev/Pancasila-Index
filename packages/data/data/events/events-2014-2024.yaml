@@ -54,6 +54,7 @@
     sebesar Rp8,032 triliun kepada Kejaksaan Agung RI, yang menjerat Menteri Kominfo dan pejabat pelaksana proyek digitalisasi daerah 3T.
   source_ids: [laporan-audit-bpk-bts-2023]
   dimension_ids: [checks-balances, negara-hukum]
+  actor_ids: [johnny-gerard-plate]
   subject_term_id: presiden-jokowi-ii
   subject_basis_id: >-
     LHP menyasar penyediaan infrastruktur BTS 4G BAKTI Kominfo yang dikerjakan di dalam
@@ -114,6 +115,7 @@
     mengungkap kerugian negara dan praktik suap lintas batas yang melibatkan pabrikan asing dan manajemen maskapai nasional.
   source_ids: [laporan-audit-bpk-garuda-2020]
   dimension_ids: [checks-balances, negara-hukum]
+  actor_ids: [emirsyah-satar]
   subject_term_id: presiden-sby-ii
   subject_basis_id: >-
     LHP memeriksa pengadaan armada Bombardier CRJ-1000 dan ATR 72-600 PT Garuda Indonesia yang dikontrak di
@@ -144,6 +146,7 @@
     menguatkan vonis pidana penjara seumur hidup dan uang pengganti belasan triliun rupiah demi kepastian hukum dan perlindungan nasabah polis.
   source_ids: [putusan-kasasi-ma-jiwasraya-2021]
   dimension_ids: [negara-hukum, sila-5]
+  actor_ids: [hendrisman-rahim, hary-prasetyo, syahmirwan, benny-tjokrosaputro, heru-hidayat]
   subject_term_id: presiden-jokowi-i
   subject_basis_id: >-
     Putusan kasasi mengadili korupsi pengelolaan investasi PT Asuransi Jiwasraya yang perbuatannya
@@ -501,6 +504,7 @@
     mencakup kerugian ekologis dan biaya pemulihan lingkungan akibat penambangan ilegal di kawasan hutan lindung Bangka Belitung.
   source_ids: [laporan-audit-bpk-timah-2024]
   dimension_ids: [sila-5, checks-balances]
+  actor_ids: [harvey-moeis]
   subject_term_id: presiden-jokowi-ii
   subject_basis_id: >-
     Audit menyebut tegas periode tata niaga timah yang diperiksa, 2015-2022, yang berakhir di dalam masa
@@ -653,6 +657,7 @@
     menegaskan delik korupsi manipulasi kuota Domestic Market Obligation (DMO) yang memicu kelangkaan minyak goreng dan penderitaan ekonomi rakyat banyak.
   source_ids: [putusan-ma-kasus-minyak-goreng-2024]
   dimension_ids: [sila-5, negara-hukum]
+  actor_ids: [indrasari-wisnu-wardhana]
   subject_term_id: presiden-jokowi-ii
   subject_basis_id: >-
     Putusan kasasi mengadili pejabat Kemendag atas manipulasi kuota DMO dan persetujuan ekspor CPO pada masa

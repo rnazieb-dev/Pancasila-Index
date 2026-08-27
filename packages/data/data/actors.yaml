@@ -1072,7 +1072,7 @@
       start_date: "2019-10"
       end_date: "2020-12"
       note_id: "Mengundurkan diri setelah operasi tangkap tangan KPK, Desember 2020."
-  source_ids: [berita-juliari-bansos-2020]
+  source_ids: [berita-juliari-bansos-2020, putusan-tipikor-juliari-2021]
 
 - id: zarof-ricar
   name: "Zarof Ricar"
@@ -1082,7 +1082,7 @@
       note_id: >-
         Tanggal menjabat tidak tercantum pada dokumen sumber; dibiarkan kosong
         alih-alih dikarang.
-  source_ids: [bap-kejagung-zarof-ricar-2024]
+  source_ids: [bap-kejagung-zarof-ricar-2024, putusan-kasasi-ma-zarof-ricar-2025]
 
 - id: erintuah-damanik
   name: "Erintuah Damanik"
@@ -1110,3 +1110,127 @@
       start_date: "2007"
       end_date: "2011"
   source_ids: [rekomendasi-tim-8-kriminalisasi-kpk-2009, skp2-kejaksaan-bibit-chandra-2009]
+
+# ----------------------------------- 2b. PELAKU TINDAK PIDANA KORUPSI
+#
+# Pejabat penyelenggara negara di luar pimpinan 8 organ konstitusional yang
+# putusan perkaranya sudah tercitasi di sources.yaml. Statusnya, pidananya, dan
+# nomor putusannya ada di actor-cases.yaml - bukan di sini.
+#
+# Rentang tanggal jabatan hanya diisi bila tercantum pada dokumen sumber.
+# Kalau sumber cuma menyebut "mantan Dirjen", tanggalnya dibiarkan kosong.
+
+- id: johnny-gerard-plate
+  name: "Johnny Gerard Plate"
+  aliases: ["Johnny G. Plate"]
+  roles:
+    - title_id: "Menteri Komunikasi dan Informatika"
+      note_id: "Diberhentikan setelah ditetapkan tersangka korupsi proyek BTS 4G BAKTI Kominfo."
+  source_ids: [putusan-tipikor-johnny-plate-2023]
+
+- id: syahrul-yasin-limpo
+  name: "Syahrul Yasin Limpo"
+  aliases: ["SYL"]
+  roles:
+    - title_id: "Menteri Pertanian"
+      start_date: "2019-10"
+      end_date: "2023-10"
+      note_id: "Mengundurkan diri Oktober 2023; perkara mencakup perbuatan 2020-2023."
+  source_ids: [putusan-kasasi-ma-syl-2025]
+
+- id: rafael-alun-trisambodo
+  name: "Rafael Alun Trisambodo"
+  roles:
+    - title_id: "Pejabat Direktorat Jenderal Pajak, Kementerian Keuangan"
+      note_id: >-
+        Sumber menyebut masa kerja sebagai PNS sekitar 30 tahun tanpa merinci
+        tanggal jabatan, sehingga tanggalnya tidak dicantumkan.
+  source_ids: [putusan-banding-rafael-alun-2024]
+
+- id: lukas-enembe
+  name: "Lukas Enembe"
+  roles:
+    - title_id: "Gubernur Papua"
+      start_date: "2013"
+      end_date: "2022"
+  source_ids: [putusan-banding-lukas-enembe-2023]
+
+- id: patrialis-akbar
+  name: "Patrialis Akbar"
+  roles:
+    - title_id: "Hakim Konstitusi, Mahkamah Konstitusi"
+      institution_id: mahkamah-konstitusi
+      note_id: >-
+        Hakim anggota, bukan Ketua MK - karena itu tidak pernah masuk daftar
+        pimpinan masa jabatan dan luput dari direktori sebelum lapisan aktor ada.
+  source_ids: [putusan-tipikor-patrialis-akbar-2017]
+
+- id: nurhadi
+  name: "Nurhadi"
+  roles:
+    - title_id: "Sekretaris Mahkamah Agung"
+      institution_id: mahkamah-agung
+  source_ids: [putusan-tipikor-nurhadi-2021]
+
+- id: indrasari-wisnu-wardhana
+  name: "Indrasari Wisnu Wardhana"
+  aliases: ["Indra Sari Wisnu Wardhana"]
+  roles:
+    - title_id: "Direktur Jenderal Perdagangan Luar Negeri, Kementerian Perdagangan"
+      note_id: "Pejabat yang menerbitkan persetujuan ekspor CPO dalam perkara minyak goreng."
+  source_ids: [putusan-kasasi-ma-wisnu-cpo-2023]
+
+- id: emirsyah-satar
+  name: "Emirsyah Satar"
+  roles:
+    - title_id: "Direktur Utama PT Garuda Indonesia (Persero) Tbk"
+      start_date: "2005"
+      end_date: "2014"
+  source_ids: [putusan-tipikor-emirsyah-satar-2020, putusan-banding-emirsyah-satar-2024]
+
+- id: hendrisman-rahim
+  name: "Hendrisman Rahim"
+  roles:
+    - title_id: "Direktur Utama PT Asuransi Jiwasraya (Persero)"
+  source_ids: [putusan-tipikor-direksi-jiwasraya-2020, putusan-banding-hendrisman-rahim-2021]
+
+- id: hary-prasetyo
+  name: "Hary Prasetyo"
+  roles:
+    - title_id: "Direktur Keuangan PT Asuransi Jiwasraya (Persero)"
+  source_ids: [putusan-tipikor-direksi-jiwasraya-2020]
+
+- id: syahmirwan
+  name: "Syahmirwan"
+  roles:
+    - title_id: "Kepala Divisi Investasi dan Keuangan PT Asuransi Jiwasraya (Persero)"
+  source_ids: [putusan-tipikor-direksi-jiwasraya-2020]
+
+# ----------------------------------- 2c. PELAKU DARI PIHAK SWASTA
+#
+# BUKAN penyelenggara negara. Dicatat karena perbuatannya menjadi inti perkara
+# kerugian keuangan negara yang sudah ada di korpus peristiwa. Pembedaan ini
+# penting: indeks ini menilai pemangku kekuasaan negara, dan pihak swasta tidak
+# boleh terbaca seolah pejabat.
+
+- id: harvey-moeis
+  name: "Harvey Moeis"
+  roles:
+    - title_id: "Pihak swasta - perwakilan PT Refined Bangka Tin"
+      note_id: "Bukan penyelenggara negara. Disebut putusan banding sebagai aktor kunci perkara timah."
+  source_ids: [putusan-banding-harvey-moeis-2025]
+
+- id: benny-tjokrosaputro
+  name: "Benny Tjokrosaputro"
+  aliases: ["Bentjok"]
+  roles:
+    - title_id: "Pihak swasta - Direktur Utama PT Hanson International Tbk"
+      note_id: "Bukan penyelenggara negara."
+  source_ids: [putusan-kasasi-ma-jiwasraya-2021, putusan-tipikor-direksi-jiwasraya-2020]
+
+- id: heru-hidayat
+  name: "Heru Hidayat"
+  roles:
+    - title_id: "Pihak swasta - Komisaris Utama PT Trada Alam Minera Tbk"
+      note_id: "Bukan penyelenggara negara."
+  source_ids: [putusan-kasasi-ma-jiwasraya-2021, putusan-tipikor-direksi-jiwasraya-2020]

@@ -2060,6 +2060,7 @@
     pertanyaan siapa pemilik kepentingan di baliknya tidak pernah benar-benar dijawab.
   source_ids: [berita-jiwasraya-2022]
   dimension_ids: [negara-hukum]
+  actor_ids: [benny-tjokrosaputro, heru-hidayat, hendrisman-rahim]
 
 - id: ev-jokowi2-revisi-ite-2024
   term_id: presiden-jokowi-ii

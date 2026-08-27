@@ -2916,3 +2916,148 @@
 
 
 
+
+# ---------------------------------------------------------------------------
+# Putusan & pemberitaan putusan atas perkara pelaku tindak pidana korupsi.
+#
+# Dipakai sebagai sitasi wajib untuk entri di actors.yaml & actor-cases.yaml.
+# Setiap entri di bawah ini punya URL langsung: sebuah nama orang tidak boleh
+# masuk dataset hanya bersandar pada pencarian web generik.
+# ---------------------------------------------------------------------------
+
+- id: putusan-tipikor-johnny-plate-2023
+  type: berita
+  title_id: >-
+    Vonis PN Tipikor Jakarta Pusat atas Menkominfo Johnny Gerard Plate - 15 tahun penjara
+    dan denda Rp1 miliar dalam korupsi proyek BTS 4G BAKTI Kominfo 2020-2022
+  year: 2023
+  url: https://nasional.kompas.com/read/2023/11/08/15432841/johnny-g-plate-divonis-15-tahun-penjara-di-kasus-bts-4g-kominfo
+  citation_id: Kompas, 8 November 2023
+
+- id: putusan-banding-harvey-moeis-2025
+  type: berita
+  title_id: >-
+    Putusan banding Pengadilan Tinggi DKI Jakarta atas Harvey Moeis - diperberat dari
+    6,5 tahun menjadi 20 tahun penjara dan uang pengganti Rp420 miliar, perkara korupsi
+    tata niaga timah PT Timah Tbk
+  year: 2025
+  url: https://www.tempo.co/hukum/kronologi-harvey-moeis-terlibat-korupsi-timah-sampai-divonis-3-kali-lebih-berat-di-pengadilan-banding-1206570
+  citation_id: Tempo, 13 Februari 2025
+
+- id: putusan-kasasi-ma-syl-2025
+  type: putusan-ma
+  title_id: >-
+    Putusan Kasasi Mahkamah Agung No. 1081 K/Pid.Sus/2025 - menolak kasasi Menteri
+    Pertanian Syahrul Yasin Limpo, menguatkan 12 tahun penjara dan uang pengganti
+    Rp44.269.777.204 serta USD30.000 atas pemerasan dan gratifikasi di Kementan 2020-2023
+  year: 2025
+  url: https://www.tempo.co/hukum/kasasi-syl-ditolak-ma-kpk-bersiap-eksekusi-syahrul-yasin-limpo-1217204
+  citation_id: Putusan MA No. 1081 K/Pid.Sus/2025, 28 Februari 2025
+
+- id: putusan-banding-rafael-alun-2024
+  type: berita
+  title_id: >-
+    Putusan banding atas mantan pejabat Direktorat Jenderal Pajak Rafael Alun Trisambodo -
+    menguatkan 14 tahun penjara dan denda Rp500 juta atas gratifikasi dan tindak pidana
+    pencucian uang
+  year: 2024
+  url: https://news.detik.com/berita/d-7241029/rafael-alun-tetap-divonis-14-tahun-penjara-di-kasus-gratifikasi-tppu
+  citation_id: Detik, 14 Maret 2024
+
+- id: putusan-banding-lukas-enembe-2023
+  type: berita
+  title_id: >-
+    Putusan banding Pengadilan Tinggi Jakarta atas Gubernur Papua Lukas Enembe -
+    diperberat dari 8 tahun menjadi 10 tahun penjara atas suap dan gratifikasi;
+    terdakwa wafat 26 Desember 2023 sebelum kasasi diputus
+  year: 2023
+  url: https://nasional.kompas.com/read/2023/12/26/16214671/profil-lukas-enembe-eks-gubernur-papua-terpidana-korupsi-yang-tutup-usia
+  citation_id: Kompas, 26 Desember 2023
+
+- id: putusan-tipikor-patrialis-akbar-2017
+  type: berita
+  title_id: >-
+    Vonis PN Tipikor Jakarta atas Hakim Konstitusi Patrialis Akbar - 8 tahun penjara dan
+    denda Rp300 juta atas suap uji materi UU Peternakan dan Kesehatan Hewan; terdakwa
+    tidak mengajukan banding
+  year: 2017
+  url: https://nasional.kompas.com/read/2017/09/04/12302181/patrialis-akbar-divonis8-tahun-penjara
+  citation_id: Kompas, 4 September 2017
+
+- id: putusan-tipikor-nurhadi-2021
+  type: berita
+  title_id: >-
+    Vonis PN Tipikor Jakarta atas mantan Sekretaris Mahkamah Agung Nurhadi - 6 tahun
+    penjara atas penerimaan suap Rp35,726 miliar terkait pengurusan perkara
+  year: 2021
+  url: https://nasional.kompas.com/read/2021/03/10/21371151/mantan-sekretaris-ma-nurhadi-dan-menantunya-divonis-6-tahun-penjara
+  citation_id: Kompas, 10 Maret 2021
+
+- id: putusan-kasasi-ma-wisnu-cpo-2023
+  type: putusan-ma
+  title_id: >-
+    Putusan Kasasi Mahkamah Agung atas Direktur Jenderal Perdagangan Luar Negeri Kemendag
+    Indrasari Wisnu Wardhana - diperberat dari 3 tahun menjadi 8 tahun penjara dan denda
+    Rp300 juta dalam korupsi penerbitan persetujuan ekspor CPO
+  year: 2023
+  url: https://nasional.kompas.com/read/2023/05/15/22214031/ma-perberat-hukuman-5-terdakwa-kasus-minyak-goreng-vonis-eks-dirjen-daglu
+  citation_id: Kompas, 15 Mei 2023 (putusan kasasi 12 Mei 2023)
+
+- id: putusan-tipikor-emirsyah-satar-2020
+  type: berita
+  title_id: >-
+    Vonis PN Tipikor Jakarta atas Direktur Utama PT Garuda Indonesia 2005-2014 Emirsyah
+    Satar - 8 tahun penjara, denda Rp1 miliar, uang pengganti SGD2,11 juta atas suap
+    pengadaan pesawat Bombardier dan ATR
+  year: 2020
+  url: https://kabar24.bisnis.com/read/20200804/16/1274720/divonis-8-tahun-terkait-kasus-suap-emirsyah-satar-ajukan-kasasi
+  citation_id: Bisnis Indonesia, 8 Mei 2020 (dikuatkan PT Jakarta, Agustus 2020)
+
+- id: putusan-banding-emirsyah-satar-2024
+  type: berita
+  title_id: >-
+    Putusan banding atas Emirsyah Satar dalam perkara kedua pengadaan pesawat PT Garuda
+    Indonesia - diperberat menjadi 10 tahun penjara
+  year: 2024
+  url: https://nasional.kompas.com/read/2024/10/28/11354701/hukuman-emirsyah-satar-diperberat-jadi-10-tahun-bui-di-kasus-kedua-pengadaan
+  citation_id: Kompas, 28 Oktober 2024
+
+- id: putusan-kasasi-ma-zarof-ricar-2025
+  type: putusan-ma
+  title_id: >-
+    Putusan Kasasi Mahkamah Agung menolak kasasi mantan Kepala Badan Litbang Diklat Kumdil
+    MA Zarof Ricar - menguatkan 18 tahun penjara dan denda Rp1 miliar; Rp915 miliar dan
+    51 kg emas dirampas untuk negara
+  year: 2025
+  url: https://nasional.kompas.com/read/2025/11/15/11023181/kasasi-zarof-ricar-kandas-di-ma-vonis-18-tahun-final
+  citation_id: Kompas, 15 November 2025 (putusan kasasi 12 November 2025)
+
+- id: putusan-tipikor-direksi-jiwasraya-2020
+  type: berita
+  title_id: >-
+    Vonis PN Tipikor Jakarta atas tiga mantan direksi PT Asuransi Jiwasraya - Dirut
+    Hendrisman Rahim, Direktur Keuangan Hary Prasetyo, dan Kepala Divisi Investasi
+    Syahmirwan divonis penjara seumur hidup; kerugian negara Rp16,8 triliun menurut BPK
+  year: 2020
+  url: https://www.kompas.com/tren/read/2020/10/13/103618365/profil-tiga-mantan-direksi-pt-asuransi-jiwasraya-yang-divonis-seumur-hidup
+  citation_id: Kompas, 13 Oktober 2020
+
+- id: putusan-banding-hendrisman-rahim-2021
+  type: berita
+  title_id: >-
+    Putusan banding Pengadilan Tinggi DKI Jakarta atas mantan Direktur Utama PT Asuransi
+    Jiwasraya Hendrisman Rahim - dipangkas dari penjara seumur hidup menjadi 20 tahun
+  year: 2021
+  url: https://news.detik.com/berita/d-5488404/pt-jakarta-pangkas-vonis-eks-dirut-jiwasraya-seumur-hidup-jadi-20-tahun-bui
+  citation_id: Detik, 12 Maret 2021
+
+- id: putusan-tipikor-juliari-2021
+  type: berita
+  title_id: >-
+    Putusan PN Tipikor Jakarta Pusat No. 29/Pid.Sus-TPK/2021/PN.JKT.PST atas Menteri
+    Sosial Juliari Peter Batubara - 12 tahun penjara, denda Rp500 juta, uang pengganti
+    Rp14.597.450.000, dan pencabutan hak dipilih 4 tahun atas suap Rp32,4 miliar dalam
+    pengadaan bansos COVID-19
+  year: 2021
+  url: https://nasional.kompas.com/read/2021/08/23/13441971/breaking-news-juliari-divonis-12-tahun-penjara-dalam-kasus-korupsi-bansos
+  citation_id: Putusan No. 29/Pid.Sus-TPK/2021/PN.JKT.PST, 23 Agustus 2021
