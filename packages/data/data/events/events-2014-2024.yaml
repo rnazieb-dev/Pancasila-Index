@@ -1,0 +1,56 @@
+# Peristiwa Konstitusional & Sejarah Tata Negara: Era Transformasi Digital & Pengujian Norma (2014–2024)
+
+- id: ev-mk-putusan-spdp-2016
+  term_id: mk-2013-2018
+  date: "2016-01-11"
+  category: pengadilan
+  title_id: Putusan MK No. 130/PUU-XIII/2015 Kewajiban SPDP 7 Hari kepada Terlapor
+  summary_id: >-
+    MK memutuskan Pasal 109 ayat 1 KUHAP inkonstitusional bersyarat dan mewajibkan penyidik kepolisian/kejaksaan
+    menyerahkan Surat Pemberitahuan Dimulainya Penyidikan (SPDP) paling lambat 7 hari kepada penuntut umum, terlapor, dan korban demi asas due process of law.
+  source_ids: [putusan-mk-130-puu-xiii-2015]
+  dimension_ids: [negara-hukum, sila-2]
+
+- id: ev-mk-putusan-penghayat-2017
+  term_id: mk-2013-2018
+  date: "2017-11-07"
+  category: pengadilan
+  title_id: Putusan MK No. 97/PUU-XIV/2016 Mengakui Hak Kolom Agama Penghayat Kepercayaan
+  summary_id: >-
+    MK mengabulkan uji materiil UU Administrasi Kependudukan yang diajukan para penghayat kepercayaan,
+    memutuskan bahwa kata 'agama' dalam Pasal 61 & 64 harus mencakup 'kepercayaan', mengakhiri diskriminasi administratif puluhan tahun terhadap penganut kepercayaan lokal.
+  source_ids: [putusan-mk-97-puu-xiv-2016]
+  dimension_ids: [sila-1, sila-2]
+
+- id: ev-mk-putusan-fidusia-2020
+  term_id: mk-2018-2023
+  date: "2020-01-06"
+  category: pengadilan
+  title_id: Putusan MK No. 18/PUU-XVII/2019 Larangan Penarikan Paksa Jaminan Fidusia
+  summary_id: >-
+    MK menegaskan bahwa frasa 'kekuatan eksekutorial' dalam UU Jaminan Fidusia tidak boleh dijadikan dasar bagi kreditur/leasing
+    untuk menyita kendaraan/aset secara sepihak di jalanan tanpa kesepakatan cedera janji (wanprestasi) atau permohonan eksekusi ke pengadilan negeri.
+  source_ids: [putusan-mk-18-puu-xvii-2019]
+  dimension_ids: [negara-hukum, sila-5]
+
+- id: ev-ma-putusan-bpjs-2020
+  term_id: ma-reformasi-sekarang
+  date: "2020-02-27"
+  category: pengadilan
+  title_id: Putusan MA No. 31 P/HUM/2019 Membatalkan Kenaikan Iuran BPJS Kesehatan
+  summary_id: >-
+    Mahkamah Agung mengabulkan permohonan uji materiil Komunitas Pasien Cuci Darah Indonesia (KPCDI) dengan membatalkan
+    Pasal 34 ayat 1 dan 2 Perpres No. 75/2019 yang menaikkan iuran BPJS Kesehatan 100%, menyatakan kenaikan tersebut mencederai hak warga atas pelayanan kesehatan layak.
+  source_ids: [putusan-ma-31-p-hum-2019]
+  dimension_ids: [tujuan-2, sila-5]
+
+- id: ev-bpk-audit-bts-2023
+  term_id: bpk-2019-sekarang
+  date: "2023-05-15"
+  category: kebijakan
+  title_id: BPK Rampungkan Audit Investigatif Korupsi Proyek BTS 4G Kominfo Rp8,03 Triliun
+  summary_id: >-
+    BPK RI menyerahkan Laporan Penghitungan Kerugian Keuangan Negara (PKKN) atas korupsi penyediaan infrastruktur BTS 4G BAKTI Kominfo
+    sebesar Rp8,032 triliun kepada Kejaksaan Agung RI, yang menjerat Menteri Kominfo dan pejabat pelaksana proyek digitalisasi daerah 3T.
+  source_ids: [laporan-audit-bpk-bts-2023]
+  dimension_ids: [checks-balances, negara-hukum]

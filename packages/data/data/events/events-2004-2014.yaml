@@ -1,0 +1,45 @@
+# Peristiwa Konstitusional & Sejarah Tata Negara: Era Pemantapan Demokrasi (2004–2014)
+
+- id: ev-mk-putusan-kkr-2006
+  term_id: mk-2003-2008
+  date: "2006-12-07"
+  category: pengadilan
+  title_id: Putusan MK No. 006/PUU-IV/2006 Membatalkan UU Komisi Kebenaran dan Rekonsiliasi
+  summary_id: >-
+    MK membatalkan seluruh isi UU No. 27/2004 tentang KKR karena Pasal 27 yang mensyaratkan pemberian amnesti Presiden
+    sebagai syarat diberikannya kompensasi dan rehabilitasi bagi korban pelanggaran HAM berat mencederai kepastian hukum yang adil.
+  source_ids: [putusan-mk-006-puu-iv-2006]
+  dimension_ids: [sila-2, negara-hukum]
+
+- id: ev-mk-putusan-anak-luar-kawin-2012
+  term_id: mk-2008-2013
+  date: "2012-02-17"
+  category: pengadilan
+  title_id: Putusan MK No. 46/PUU-VIII/2010 Mengakui Hak Keperdataan Anak Luar Kawin
+  summary_id: >-
+    MK memutuskan Pasal 43 ayat 1 UU Perkawinan inkonstitusional bersyarat dan menyatakan anak yang lahir di luar perkawinan
+    mempunyai hubungan perdata dengan laki-laki sebagai ayahnya yang dapat dibuktikan berdasarkan ilmu pengetahuan dan teknologi (tes DNA).
+  source_ids: [putusan-mk-46-puu-viii-2010]
+  dimension_ids: [sila-2, sila-5]
+
+- id: ev-mk-putusan-hutan-adat-2013
+  term_id: mk-2008-2013
+  date: "2013-05-16"
+  category: pengadilan
+  title_id: Putusan MK No. 35/PUU-X/2012 Menetapkan Hutan Adat Bukan Hutan Negara
+  summary_id: >-
+    MK mengabulkan uji materiil UU Kehutanan yang diajukan AMAN, menegaskan bahwa hutan adat berada dalam wilayah masyarakat hukum adat
+    dan bukan lagi berstatus sebagai hutan negara, memulihkan kedaulatan agraria masyarakat adat atas tanah ulayatnya.
+  source_ids: [putusan-mk-35-puu-x-2012]
+  dimension_ids: [sila-5, sila-3]
+
+- id: ev-mk-putusan-sda-2015
+  term_id: mk-2013-2018
+  date: "2015-02-18"
+  category: pengadilan
+  title_id: Putusan MK No. 85/PUU-XI/2013 Membatalkan Total UU Sumber Daya Air
+  summary_id: >-
+    MK membatalkan keseluruhan UU No. 7/2004 tentang Sumber Daya Air karena telah membuka privatisasi dan komersialisasi air
+    secara berlebihan yang membatasi hak konstitusional rakyat untuk memperoleh air bersih sebagai hak asasi mendasar.
+  source_ids: [putusan-mk-85-puu-xi-2013]
+  dimension_ids: [sila-5, tujuan-2]

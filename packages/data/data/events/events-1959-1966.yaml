@@ -1,0 +1,67 @@
+# Peristiwa Konstitusional & Sejarah Tata Negara: Era Demokrasi Terpimpin & Transisi (1959–1966)
+
+- id: ev-penpres-2-1959-mprs
+  term_id: presiden-soekarno-ii
+  date: "1959-07-22"
+  category: produk-hukum
+  title_id: Penetapan Presiden No. 2 Tahun 1959 - Pembentukan MPRS Tanpa Pemilu
+  summary_id: >-
+    Presiden Sukarno membentuk Majelis Permusyawaratan Rakyat Sementara (MPRS) dengan mengangkat
+    seluruh anggotanya berdasarkan penunjukan eksekutif, mengabaikan prinsip keterpilihan wakil rakyat melalui pemilihan umum.
+  source_ids: [penpres-2-1959]
+  dimension_ids: [checks-balances, kedaulatan-rakyat]
+
+- id: ev-penpres-3-1960-bubar-dpr
+  term_id: presiden-soekarno-ii
+  date: "1960-03-05"
+  category: produk-hukum
+  title_id: Penetapan Presiden No. 3 Tahun 1960 - Pembubaran DPR Hasil Pemilu 1955
+  summary_id: >-
+    Presiden Sukarno membubarkan Dewan Perwakilan Rakyat hasil Pemilu 1955 setelah DPR menolak
+    rancangan Anggaran Pendapatan dan Belanja Negara (RAPBN) yang diajukan pemerintah.
+  source_ids: [penpres-3-1960]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-penpres-4-1960-dpr-gr
+  term_id: presiden-soekarno-ii
+  date: "1960-06-25"
+  category: produk-hukum
+  title_id: Pembentukan DPR-GR Berdasarkan Penpres No. 4 Tahun 1960
+  summary_id: >-
+    Pemerintah melantik DPR Gotong Royong (DPR-GR) yang anggotanya diangkat langsung oleh Presiden
+    berdasarkan komposisi Nasakom dan golongan karya, menghapus fungsi oposisi dan pengawasan independen parlemen.
+  source_ids: [penpres-4-1960]
+  dimension_ids: [checks-balances, kedaulatan-rakyat]
+
+- id: ev-tap-mprs-ii-1960-pembangunan
+  term_id: presiden-soekarno-ii
+  date: "1960-12-03"
+  category: produk-hukum
+  title_id: TAP MPRS No. II/MPRS/1960 tentang Pola Pembangunan Nasional Semesta Berencana
+  summary_id: >-
+    MPRS menetapkan perencanaan pembangunan nasional berjangka pertama mencakup 8 proyek pembangunan
+    di bidang sandang, pangan, industri dasar, dan kedaulatan ekonomi nasional berdikari.
+  source_ids: [tap-mprs-ii-1960]
+  dimension_ids: [tujuan-2, sila-5]
+
+- id: ev-supersemar-1966-peralihan
+  term_id: presiden-soekarno-ii
+  date: "1966-03-11"
+  category: peristiwa
+  title_id: Surat Perintah Sebelas Maret (Supersemar) 1966
+  summary_id: >-
+    Presiden Sukarno menandatangani surat perintah kepada Letjen Soeharto untuk mengambil segala tindakan yang dianggap perlu
+    guna menjamin keamanan, ketenangan, dan kestabilan jalannya pemerintahan serta revolusi pasca-G30S.
+  source_ids: [supersemar-1966, tap-mprs-ix-1966]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-tap-mprs-xxv-1966-pembubaran-pki
+  term_id: presiden-soekarno-ii
+  date: "1966-07-05"
+  category: produk-hukum
+  title_id: TAP MPRS No. XXV/MPRS/1966 Pembubaran PKI dan Larangan Ajaran Komunisme
+  summary_id: >-
+    MPRS menetapkan pembubaran Partai Komunis Indonesia, menyatakan PKI sebagai organisasi terlarang di seluruh wilayah Indonesia,
+    dan melarang setiap kegiatan menyebarkan atau mengembangkan paham/ajaran Komunisme/Marxisme-Leninisme.
+  source_ids: [tap-mprs-xxv-1966]
+  dimension_ids: [negara-hukum, sila-1]

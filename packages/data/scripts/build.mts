@@ -62,7 +62,16 @@ const institutions = loadArray("institutions.yaml", institutionSchema, "institut
 const termFiles = readdirSync(DATA).filter((f) => f.startsWith("terms-") && f.endsWith(".yaml")).sort();
 const terms = termFiles.flatMap((f) => loadArray(f, termSchema, `term (${f})`));
 const sourcesRaw = loadArray("sources.yaml", sourceSchema, "source");
-const events = loadArray("events.yaml", eventSchema, "event");
+let events: ReturnType<typeof eventSchema.parse>[] = [];
+if (existsSync(join(DATA, "events.yaml"))) {
+  events.push(...loadArray("events.yaml", eventSchema, "event (events.yaml)"));
+}
+if (existsSync(join(DATA, "events"))) {
+  const eventFiles = readdirSync(join(DATA, "events")).filter((f) => f.endsWith(".yaml")).sort();
+  for (const f of eventFiles) {
+    events.push(...loadArray(join("events", f), eventSchema, `event (${f})`));
+  }
+}
 const assessments = loadArray("assessments.yaml", assessmentSchema, "assessment");
 const externalIndices = existsSync(join(DATA, "external-indices.yaml"))
   ? loadArray("external-indices.yaml", externalIndexSchema, "external_index")

@@ -5317,6 +5317,429 @@
         "checks-balances",
         "negara-hukum"
       ]
+    },
+    {
+      "id": "ev-maklumat-wapres-x-1945",
+      "term_id": "presiden-soekarno-i",
+      "date": "1945-11-03",
+      "category": "produk-hukum",
+      "title_id": "Maklumat Wakil Presiden No. X - Fondasi Sistem Multi-Partai Indonesia",
+      "summary_id": "Wakil Presiden Mohammad Hatta mengeluarkan maklumat yang menganjurkan pembentukan partai-partai politik guna memperkuat perjuangan kemerdekaan dan membuktikan kepada dunia internasional bahwa Indonesia adalah negara demokratis.",
+      "source_ids": [
+        "maklumat-wakil-presiden-x-1945"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-maklumat-pemerintah-14-nov-1945",
+      "term_id": "presiden-soekarno-i",
+      "date": "1945-11-14",
+      "category": "kebijakan",
+      "title_id": "Maklumat Pemerintah 14 November 1945 - Pergeseran ke Sistem Parlementer",
+      "summary_id": "Pemerintah mengumumkan pembentukan Kabinet Sutan Sjahrir I yang bertanggung jawab kepada KNIP (Badan Pekerja), mengubah praktik sistem presidensial murni UUD 1945 menjadi sistem pertanggungjawaban parlementer semu demi diplomasi internasional.",
+      "source_ids": [
+        "maklumat-pemerintah-14-nov-1945"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-perjanjian-linggajati-1946",
+      "term_id": "presiden-soekarno-i",
+      "date": "1946-11-15",
+      "category": "peristiwa",
+      "title_id": "Persetujuan Linggajati dan Pengakuan De Facto Republik Indonesia",
+      "summary_id": "Delegasi Indonesia dipimpin Sutan Sjahrir menandatangani naskah persetujuan Linggajati dengan Belanda, menghasilkan pengakuan de facto atas wilayah Jawa, Madura, dan Sumatera, serta komitmen pembentukan negara federasi RIS.",
+      "source_ids": [
+        "perjanjian-linggajati-1946"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "tujuan-4"
+      ]
+    },
+    {
+      "id": "ev-perjanjian-renville-1948",
+      "term_id": "presiden-soekarno-i",
+      "date": "1948-01-17",
+      "category": "peristiwa",
+      "title_id": "Perjanjian Renville dan Garis Van Mook",
+      "summary_id": "Indonesia menandatangani perjanjian gencatan senjata Renville di bawah mediasi Komisi Tiga Negara PBB, mengakibatkan penarikan mundur pasukan TNI dari kantong-kantong gerilya di Jawa Barat dan Jawa Timur (Hijrah Siliwangi).",
+      "source_ids": [
+        "perjanjian-renville-1948"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "tujuan-4"
+      ]
+    },
+    {
+      "id": "ev-perjanjian-roem-royen-1949",
+      "term_id": "presiden-soekarno-i",
+      "date": "1949-05-07",
+      "category": "peristiwa",
+      "title_id": "Persetujuan Roem-Roijen Membuka Jalan Pengembalian Pemerintahan RI ke Yogyakarta",
+      "summary_id": "Diplomasi Mohammad Roem dan J.H. van Roijen menyepakati penghentian perang gerilya, pemulihan pemerintahan RI di Yogyakarta, dan penyelenggaraan Konferensi Meja Bundar di Den Haag untuk penyerahan kedaulatan penuh tanpa syarat.",
+      "source_ids": [
+        "perjanjian-roem-royen-1949"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "tujuan-4"
+      ]
+    },
+    {
+      "id": "ev-penpres-2-1959-mprs",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1959-07-22",
+      "category": "produk-hukum",
+      "title_id": "Penetapan Presiden No. 2 Tahun 1959 - Pembentukan MPRS Tanpa Pemilu",
+      "summary_id": "Presiden Sukarno membentuk Majelis Permusyawaratan Rakyat Sementara (MPRS) dengan mengangkat seluruh anggotanya berdasarkan penunjukan eksekutif, mengabaikan prinsip keterpilihan wakil rakyat melalui pemilihan umum.",
+      "source_ids": [
+        "penpres-2-1959"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-penpres-3-1960-bubar-dpr",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1960-03-05",
+      "category": "produk-hukum",
+      "title_id": "Penetapan Presiden No. 3 Tahun 1960 - Pembubaran DPR Hasil Pemilu 1955",
+      "summary_id": "Presiden Sukarno membubarkan Dewan Perwakilan Rakyat hasil Pemilu 1955 setelah DPR menolak rancangan Anggaran Pendapatan dan Belanja Negara (RAPBN) yang diajukan pemerintah.",
+      "source_ids": [
+        "penpres-3-1960"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-penpres-4-1960-dpr-gr",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1960-06-25",
+      "category": "produk-hukum",
+      "title_id": "Pembentukan DPR-GR Berdasarkan Penpres No. 4 Tahun 1960",
+      "summary_id": "Pemerintah melantik DPR Gotong Royong (DPR-GR) yang anggotanya diangkat langsung oleh Presiden berdasarkan komposisi Nasakom dan golongan karya, menghapus fungsi oposisi dan pengawasan independen parlemen.",
+      "source_ids": [
+        "penpres-4-1960"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-tap-mprs-ii-1960-pembangunan",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1960-12-03",
+      "category": "produk-hukum",
+      "title_id": "TAP MPRS No. II/MPRS/1960 tentang Pola Pembangunan Nasional Semesta Berencana",
+      "summary_id": "MPRS menetapkan perencanaan pembangunan nasional berjangka pertama mencakup 8 proyek pembangunan di bidang sandang, pangan, industri dasar, dan kedaulatan ekonomi nasional berdikari.",
+      "source_ids": [
+        "tap-mprs-ii-1960"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-supersemar-1966-peralihan",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1966-03-11",
+      "category": "peristiwa",
+      "title_id": "Surat Perintah Sebelas Maret (Supersemar) 1966",
+      "summary_id": "Presiden Sukarno menandatangani surat perintah kepada Letjen Soeharto untuk mengambil segala tindakan yang dianggap perlu guna menjamin keamanan, ketenangan, dan kestabilan jalannya pemerintahan serta revolusi pasca-G30S.",
+      "source_ids": [
+        "supersemar-1966",
+        "tap-mprs-ix-1966"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-tap-mprs-xxv-1966-pembubaran-pki",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1966-07-05",
+      "category": "produk-hukum",
+      "title_id": "TAP MPRS No. XXV/MPRS/1966 Pembubaran PKI dan Larangan Ajaran Komunisme",
+      "summary_id": "MPRS menetapkan pembubaran Partai Komunis Indonesia, menyatakan PKI sebagai organisasi terlarang di seluruh wilayah Indonesia, dan melarang setiap kegiatan menyebarkan atau mengembangkan paham/ajaran Komunisme/Marxisme-Leninisme.",
+      "source_ids": [
+        "tap-mprs-xxv-1966"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-1"
+      ]
+    },
+    {
+      "id": "ev-uu-3-1975-fusi-partai",
+      "term_id": "presiden-soeharto",
+      "date": "1975-08-27",
+      "category": "produk-hukum",
+      "title_id": "UU No. 3 Tahun 1975 tentang Fusi Tiga Kontestan Pemilu Orde Baru",
+      "summary_id": "Pemerintah dan DPR mengesahkan penyederhanaan partai politik menjadi tiga kekuatan: PPP (fusi partai Islam), PDI (fusi partai nasionalis & Kristen), dan Golongan Karya, membatasi pluralisme politik sipil.",
+      "source_ids": [
+        "uu-3-1975"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-tap-mpr-ii-1978-p4",
+      "term_id": "mpr-1971-1999",
+      "date": "1978-03-22",
+      "category": "produk-hukum",
+      "title_id": "TAP MPR No. II/MPR/1978 tentang Pedoman Penghayatan dan Pengamalan Pancasila (P4)",
+      "summary_id": "MPR menetapkan 36 butir P4 (Ekaprasetia Pancakarsa) sebagai penataran wajib bagi seluruh PNS, ABRI, mahasiswa, dan masyarakat sipil, yang kelak dikritik sebagai hegemoni tafsir tunggal ideologi negara oleh kekuasaan eksekutif.",
+      "source_ids": [
+        "tap-mpr-ii-1978"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-uu-asas-tunggal-1985",
+      "term_id": "presiden-soeharto",
+      "date": "1985-06-17",
+      "category": "produk-hukum",
+      "title_id": "UU No. 3/1985 & UU No. 8/1985 tentang Kewajiban Asas Tunggal Pancasila",
+      "summary_id": "Negara mewajibkan seluruh partai politik dan organisasi kemasyarakatan (ormas) mencantumkan Pancasila sebagai satu-satunya asas organisasi, memicu ketegangan dengan sejumlah organisasi keagamaan independen.",
+      "source_ids": [
+        "uu-3-1985",
+        "uu-8-1985"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-4"
+      ]
+    },
+    {
+      "id": "ev-bpk-audit-blbi-2000",
+      "term_id": "bpk-1998-2009",
+      "date": "2000-08-04",
+      "category": "kebijakan",
+      "title_id": "Audit Investigatif BPK atas Penyimpangan BLBI Rp144,5 Triliun",
+      "summary_id": "BPK RI merampungkan dan menyerahkan audit investigatif Bantuan Likuiditas Bank Indonesia (BLBI), menemukan bahwa 95% dari dana talangan Rp144,5 triliun untuk 48 bank bermasalah saat krisis 1997/1998 disalurkan dengan indikasi kuat melawan hukum dan korupsi sistemik.",
+      "source_ids": [
+        "laporan-audit-bpk-blbi-2000"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-tap-mpr-xvii-1998-ham",
+      "term_id": "mpr-1971-1999",
+      "date": "1998-11-13",
+      "category": "produk-hukum",
+      "title_id": "TAP MPR No. XVII/MPR/1998 tentang Piagam Hak Asasi Manusia Indonesia",
+      "summary_id": "Sidang Istimewa MPR 1998 menetapkan Piagam HAM pertama di era Reformasi yang memuat 44 pasal perlindungan hak-hak sipil, politik, ekonomi, dan budaya, yang menjadi cikal bakal Bab XA Pasal 28A-28J Perubahan Kedua UUD 1945.",
+      "source_ids": [
+        "tap-mpr-xvii-1998"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-tap-mpr-xi-1998-anti-kkn",
+      "term_id": "mpr-1971-1999",
+      "date": "1998-11-13",
+      "category": "produk-hukum",
+      "title_id": "TAP MPR No. XI/MPR/1998 tentang Penyelenggara Negara Bersih dan Bebas KKN",
+      "summary_id": "MPR menetapkan landasan yuridis pemberantasan korupsi, kolusi, dan nepotisme, mewajibkan pemeriksaan kekayaan pejabat publik, dan mengamanatkan penuntasan dugaan korupsi mantan Presiden Soeharto dan kroni-kroninya.",
+      "source_ids": [
+        "tap-mpr-xi-1998"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-tap-mpr-pemisahan-tni-polri-2000",
+      "term_id": "mpr-1999-2004",
+      "date": "2000-08-18",
+      "category": "produk-hukum",
+      "title_id": "TAP MPR No. VI/2000 & VII/2000 - Pemisahan Polri dan Penghapusan Dwifungsi ABRI",
+      "summary_id": "MPR secara formal memisahkan kelembagaan TNI (pertahanan negara) dan Polri (keamanan & ketertiban masyarakat) serta menghapus doktrin Dwifungsi ABRI dalam politik praktis guna menegaskan supremasi sipil dalam negara demokrasi.",
+      "source_ids": [
+        "tap-mpr-vi-2000",
+        "tap-mpr-vii-2000"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-kelistrikan-2004",
+      "term_id": "mk-2003-2008",
+      "date": "2004-12-15",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 001-021-022/PUU-I/2003 Membatalkan UU Ketenagalistrikan",
+      "summary_id": "Mahkamah Konstitusi membatalkan UU No. 20/2002 tentang Ketenagalistrikan karena skema unbundling dan kompetisi bebas bertentangan dengan Pasal 33 ayat 2 UUD 1945 (cabang produksi penting yang menguasai hajat hidup orang banyak harus dikuasai oleh negara).",
+      "source_ids": [
+        "putusan-mk-001-021-022-puu-i-2003"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-kkr-2006",
+      "term_id": "mk-2003-2008",
+      "date": "2006-12-07",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 006/PUU-IV/2006 Membatalkan UU Komisi Kebenaran dan Rekonsiliasi",
+      "summary_id": "MK membatalkan seluruh isi UU No. 27/2004 tentang KKR karena Pasal 27 yang mensyaratkan pemberian amnesti Presiden sebagai syarat diberikannya kompensasi dan rehabilitasi bagi korban pelanggaran HAM berat mencederai kepastian hukum yang adil.",
+      "source_ids": [
+        "putusan-mk-006-puu-iv-2006"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-anak-luar-kawin-2012",
+      "term_id": "mk-2008-2013",
+      "date": "2012-02-17",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 46/PUU-VIII/2010 Mengakui Hak Keperdataan Anak Luar Kawin",
+      "summary_id": "MK memutuskan Pasal 43 ayat 1 UU Perkawinan inkonstitusional bersyarat dan menyatakan anak yang lahir di luar perkawinan mempunyai hubungan perdata dengan laki-laki sebagai ayahnya yang dapat dibuktikan berdasarkan ilmu pengetahuan dan teknologi (tes DNA).",
+      "source_ids": [
+        "putusan-mk-46-puu-viii-2010"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-hutan-adat-2013",
+      "term_id": "mk-2008-2013",
+      "date": "2013-05-16",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 35/PUU-X/2012 Menetapkan Hutan Adat Bukan Hutan Negara",
+      "summary_id": "MK mengabulkan uji materiil UU Kehutanan yang diajukan AMAN, menegaskan bahwa hutan adat berada dalam wilayah masyarakat hukum adat dan bukan lagi berstatus sebagai hutan negara, memulihkan kedaulatan agraria masyarakat adat atas tanah ulayatnya.",
+      "source_ids": [
+        "putusan-mk-35-puu-x-2012"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-3"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-sda-2015",
+      "term_id": "mk-2013-2018",
+      "date": "2015-02-18",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 85/PUU-XI/2013 Membatalkan Total UU Sumber Daya Air",
+      "summary_id": "MK membatalkan keseluruhan UU No. 7/2004 tentang Sumber Daya Air karena telah membuka privatisasi dan komersialisasi air secara berlebihan yang membatasi hak konstitusional rakyat untuk memperoleh air bersih sebagai hak asasi mendasar.",
+      "source_ids": [
+        "putusan-mk-85-puu-xi-2013"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-2"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-spdp-2016",
+      "term_id": "mk-2013-2018",
+      "date": "2016-01-11",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 130/PUU-XIII/2015 Kewajiban SPDP 7 Hari kepada Terlapor",
+      "summary_id": "MK memutuskan Pasal 109 ayat 1 KUHAP inkonstitusional bersyarat dan mewajibkan penyidik kepolisian/kejaksaan menyerahkan Surat Pemberitahuan Dimulainya Penyidikan (SPDP) paling lambat 7 hari kepada penuntut umum, terlapor, dan korban demi asas due process of law.",
+      "source_ids": [
+        "putusan-mk-130-puu-xiii-2015"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-penghayat-2017",
+      "term_id": "mk-2013-2018",
+      "date": "2017-11-07",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 97/PUU-XIV/2016 Mengakui Hak Kolom Agama Penghayat Kepercayaan",
+      "summary_id": "MK mengabulkan uji materiil UU Administrasi Kependudukan yang diajukan para penghayat kepercayaan, memutuskan bahwa kata 'agama' dalam Pasal 61 & 64 harus mencakup 'kepercayaan', mengakhiri diskriminasi administratif puluhan tahun terhadap penganut kepercayaan lokal.",
+      "source_ids": [
+        "putusan-mk-97-puu-xiv-2016"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-fidusia-2020",
+      "term_id": "mk-2018-2023",
+      "date": "2020-01-06",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 18/PUU-XVII/2019 Larangan Penarikan Paksa Jaminan Fidusia",
+      "summary_id": "MK menegaskan bahwa frasa 'kekuatan eksekutorial' dalam UU Jaminan Fidusia tidak boleh dijadikan dasar bagi kreditur/leasing untuk menyita kendaraan/aset secara sepihak di jalanan tanpa kesepakatan cedera janji (wanprestasi) atau permohonan eksekusi ke pengadilan negeri.",
+      "source_ids": [
+        "putusan-mk-18-puu-xvii-2019"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-ma-putusan-bpjs-2020",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2020-02-27",
+      "category": "pengadilan",
+      "title_id": "Putusan MA No. 31 P/HUM/2019 Membatalkan Kenaikan Iuran BPJS Kesehatan",
+      "summary_id": "Mahkamah Agung mengabulkan permohonan uji materiil Komunitas Pasien Cuci Darah Indonesia (KPCDI) dengan membatalkan Pasal 34 ayat 1 dan 2 Perpres No. 75/2019 yang menaikkan iuran BPJS Kesehatan 100%, menyatakan kenaikan tersebut mencederai hak warga atas pelayanan kesehatan layak.",
+      "source_ids": [
+        "putusan-ma-31-p-hum-2019"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-bpk-audit-bts-2023",
+      "term_id": "bpk-2019-sekarang",
+      "date": "2023-05-15",
+      "category": "kebijakan",
+      "title_id": "BPK Rampungkan Audit Investigatif Korupsi Proyek BTS 4G Kominfo Rp8,03 Triliun",
+      "summary_id": "BPK RI menyerahkan Laporan Penghitungan Kerugian Keuangan Negara (PKKN) atas korupsi penyediaan infrastruktur BTS 4G BAKTI Kominfo sebesar Rp8,032 triliun kepada Kejaksaan Agung RI, yang menjerat Menteri Kominfo dan pejabat pelaksana proyek digitalisasi daerah 3T.",
+      "source_ids": [
+        "laporan-audit-bpk-bts-2023"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
     }
   ],
   "sources": [
@@ -6798,6 +7221,270 @@
       "year": 2021,
       "citation_id": "KY RI Laporan Seleksi 2021",
       "resolved_url": "https://duckduckgo.com/?q=Laporan%20Kinerja%20Seleksi%20Calon%20Hakim%20Agung%20dan%20Calon%20Hakim%20Ad%20Hoc%20HAM%202021%20Komisi%20Yudisial%20RI"
+    },
+    {
+      "id": "maklumat-wakil-presiden-x-1945",
+      "type": "arsip-nasional",
+      "title_id": "Maklumat Wakil Presiden No. X tanggal 3 November 1945 tentang Pembentukan Partai Politik",
+      "year": 1945,
+      "citation_id": "Maklumat Wapres No. X/1945",
+      "resolved_url": "https://duckduckgo.com/?q=Maklumat%20Wakil%20Presiden%20No.%20X%20tanggal%203%20November%201945%20tentang%20Pembentukan%20Partai%20Politik"
+    },
+    {
+      "id": "maklumat-pemerintah-14-nov-1945",
+      "type": "arsip-nasional",
+      "title_id": "Maklumat Pemerintah 14 November 1945 tentang Perubahan Sistem Presidensial Menjadi Parlementer",
+      "year": 1945,
+      "citation_id": "Maklumat Pemerintah 14 Nov 1945",
+      "resolved_url": "https://duckduckgo.com/?q=Maklumat%20Pemerintah%2014%20November%201945%20tentang%20Perubahan%20Sistem%20Presidensial%20Menjadi%20Parlementer"
+    },
+    {
+      "id": "perjanjian-linggajati-1946",
+      "type": "arsip-nasional",
+      "title_id": "Naskah Persetujuan Linggajati 15 November 1946 antara Republik Indonesia dan Kerajaan Belanda",
+      "year": 1946,
+      "citation_id": "Arsip Perjanjian Linggajati 1946",
+      "resolved_url": "https://duckduckgo.com/?q=Naskah%20Persetujuan%20Linggajati%2015%20November%201946%20antara%20Republik%20Indonesia%20dan%20Kerajaan%20Belanda"
+    },
+    {
+      "id": "perjanjian-renville-1948",
+      "type": "arsip-nasional",
+      "title_id": "Naskah Perjanjian Renville 17 Januari 1948",
+      "year": 1948,
+      "citation_id": "Arsip Perjanjian Renville 1948",
+      "resolved_url": "https://duckduckgo.com/?q=Naskah%20Perjanjian%20Renville%2017%20Januari%201948"
+    },
+    {
+      "id": "perjanjian-roem-royen-1949",
+      "type": "arsip-nasional",
+      "title_id": "Naskah Persetujuan Roem-Roijen 7 Mei 1949",
+      "year": 1949,
+      "citation_id": "Arsip Perjanjian Roem-Royen 1949",
+      "resolved_url": "https://duckduckgo.com/?q=Naskah%20Persetujuan%20Roem-Roijen%207%20Mei%201949"
+    },
+    {
+      "id": "tap-mprs-ii-1960",
+      "type": "dokumen-mpr",
+      "title_id": "TAP MPRS No. II/MPRS/1960 tentang Garis-Garis Besar Pola Pembangunan Nasional Semesta Berencana 1961–1969",
+      "year": 1960,
+      "citation_id": "TAP MPRS II/MPRS/1960",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPRS%20No.%20II%2FMPRS%2F1960%20tentang%20Garis-Garis%20Besar%20Pola%20Pembangunan%20Nasional%20Semesta%20Bere"
+    },
+    {
+      "id": "penpres-2-1959",
+      "type": "keppres",
+      "title_id": "Penetapan Presiden No. 2 Tahun 1959 tentang Pembentukan Majelis Permusyawaratan Rakyat Sementara (MPRS)",
+      "year": 1959,
+      "citation_id": "Penpres No. 2 Tahun 1959",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Penetapan%20Presiden%20No.%202%20Tahun%201959%20tentang%20Pembentukan%20Majelis%20Permusyawaratan%20Rakyat%20Sem"
+    },
+    {
+      "id": "penpres-3-1960",
+      "type": "keppres",
+      "title_id": "Penetapan Presiden No. 3 Tahun 1960 tentang Pembubaran Dewan Perwakilan Rakyat Hasil Pemilu 1955",
+      "year": 1960,
+      "citation_id": "Penpres No. 3 Tahun 1960",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Penetapan%20Presiden%20No.%203%20Tahun%201960%20tentang%20Pembubaran%20Dewan%20Perwakilan%20Rakyat%20Hasil%20Pemil"
+    },
+    {
+      "id": "penpres-4-1960",
+      "type": "keppres",
+      "title_id": "Penetapan Presiden No. 4 Tahun 1960 tentang Susunan Dewan Perwakilan Rakyat Gotong Royong (DPR-GR)",
+      "year": 1960,
+      "citation_id": "Penpres No. 4 Tahun 1960",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Penetapan%20Presiden%20No.%204%20Tahun%201960%20tentang%20Susunan%20Dewan%20Perwakilan%20Rakyat%20Gotong%20Royong"
+    },
+    {
+      "id": "supersemar-1966",
+      "type": "arsip-nasional",
+      "title_id": "Surat Perintah Sebelas Maret (Supersemar) 11 Maret 1966",
+      "year": 1966,
+      "citation_id": "Arsip Nasional RI Supersemar 1966",
+      "resolved_url": "https://duckduckgo.com/?q=Surat%20Perintah%20Sebelas%20Maret%20(Supersemar)%2011%20Maret%201966"
+    },
+    {
+      "id": "tap-mprs-ix-1966",
+      "type": "dokumen-mpr",
+      "title_id": "TAP MPRS No. IX/MPRS/1966 tentang Pengukuhan Surat Perintah 11 Maret 1966",
+      "year": 1966,
+      "citation_id": "TAP MPRS IX/MPRS/1966",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPRS%20No.%20IX%2FMPRS%2F1966%20tentang%20Pengukuhan%20Surat%20Perintah%2011%20Maret%201966"
+    },
+    {
+      "id": "tap-mprs-xxv-1966",
+      "type": "dokumen-mpr",
+      "title_id": "TAP MPRS No. XXV/MPRS/1966 tentang Pembubaran Partai Komunis Indonesia dan Larangan Ajaran Komunisme/Marxisme-Leninisme",
+      "year": 1966,
+      "citation_id": "TAP MPRS XXV/MPRS/1966",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPRS%20No.%20XXV%2FMPRS%2F1966%20tentang%20Pembubaran%20Partai%20Komunis%20Indonesia%20dan%20Larangan%20Ajaran"
+    },
+    {
+      "id": "uu-3-1975",
+      "type": "undang-undang",
+      "title_id": "UU No. 3 Tahun 1975 tentang Partai Politik dan Golongan Karya (Fusi Partai Politik Orde Baru)",
+      "year": 1975,
+      "citation_id": "LN No. 32 Tahun 1975, TLN No. 3062",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%203%20Tahun%201975"
+    },
+    {
+      "id": "uu-3-1985",
+      "type": "undang-undang",
+      "title_id": "UU No. 3 Tahun 1985 tentang Perubahan atas UU No. 3 Tahun 1975 tentang Partai Politik dan Golongan Karya (Penerapan Asas Tunggal)",
+      "year": 1985,
+      "citation_id": "LN No. 12 Tahun 1985, TLN No. 3285",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%203%20Tahun%201985"
+    },
+    {
+      "id": "uu-8-1985",
+      "type": "undang-undang",
+      "title_id": "UU No. 8 Tahun 1985 tentang Organisasi Kemasyarakatan (Kewajiban Asas Tunggal Pancasila untuk Ormas)",
+      "year": 1985,
+      "citation_id": "LN No. 44 Tahun 1985, TLN No. 3298",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%208%20Tahun%201985"
+    },
+    {
+      "id": "tap-mpr-ii-1978",
+      "type": "dokumen-mpr",
+      "title_id": "TAP MPR No. II/MPR/1978 tentang Pedoman Penghayatan dan Pengamalan Pancasila (P4 / Ekaprasetia Pancakarsa)",
+      "year": 1978,
+      "citation_id": "TAP MPR II/MPR/1978",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20II%2FMPR%2F1978%20tentang%20Pedoman%20Penghayatan%20dan%20Pengamalan%20Pancasila%20(P4%20%2F%20Ekapras"
+    },
+    {
+      "id": "tap-mpr-xvii-1998",
+      "type": "dokumen-mpr",
+      "title_id": "TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dan Piagam HAM Indonesia",
+      "year": 1998,
+      "citation_id": "TAP MPR XVII/MPR/1998",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20XVII%2FMPR%2F1998%20tentang%20Hak%20Asasi%20Manusia%20dan%20Piagam%20HAM%20Indonesia"
+    },
+    {
+      "id": "tap-mpr-xi-1998",
+      "type": "dokumen-mpr",
+      "title_id": "TAP MPR No. XI/MPR/1998 tentang Penyelenggara Negara yang Bersih dan Bebas KKN",
+      "year": 1998,
+      "citation_id": "TAP MPR XI/MPR/1998",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20XI%2FMPR%2F1998%20tentang%20Penyelenggara%20Negara%20yang%20Bersih%20dan%20Bebas%20KKN"
+    },
+    {
+      "id": "tap-mpr-vi-2000",
+      "type": "dokumen-mpr",
+      "title_id": "TAP MPR No. VI/MPR/2000 tentang Pemisahan Tentara Nasional Indonesia dan Kepolisian Negara Republik Indonesia",
+      "year": 2000,
+      "citation_id": "TAP MPR VI/MPR/2000",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20VI%2FMPR%2F2000%20tentang%20Pemisahan%20Tentara%20Nasional%20Indonesia%20dan%20Kepolisian%20Negara"
+    },
+    {
+      "id": "tap-mpr-vii-2000",
+      "type": "dokumen-mpr",
+      "title_id": "TAP MPR No. VII/MPR/2000 tentang Peran TNI dan Peran POLRI (Penghapusan Dwifungsi ABRI)",
+      "year": 2000,
+      "citation_id": "TAP MPR VII/MPR/2000",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20VII%2FMPR%2F2000%20tentang%20Peran%20TNI%20dan%20Peran%20POLRI%20(Penghapusan%20Dwifungsi%20ABRI)"
+    },
+    {
+      "id": "putusan-mk-001-021-022-puu-i-2003",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 001-021-022/PUU-I/2003 (Pembatalan Skema Unbundling Sistem Kelistrikan Swasta dalam UU Ketenagalistrikan demi Penguasaan Negara)",
+      "year": 2004,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=001/PUU-I/2003",
+      "citation_id": "Putusan MKRI No. 001-021-022/PUU-I/2003",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=001/PUU-I/2003"
+    },
+    {
+      "id": "putusan-mk-006-puu-iv-2006",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 006/PUU-IV/2006 (Pembatalan UU No. 27 Tahun 2004 tentang Komisi Kebenaran dan Rekonsiliasi)",
+      "year": 2006,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=006/PUU-IV/2006",
+      "citation_id": "Putusan MKRI No. 006/PUU-IV/2006",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=006/PUU-IV/2006"
+    },
+    {
+      "id": "putusan-mk-35-puu-x-2012",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 35/PUU-X/2012 (Pengakuan Konstitusional Bahwa Hutan Adat Adalah Milik Masyarakat Adat, Bukan Hutan Negara)",
+      "year": 2013,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=35/PUU-X/2012",
+      "citation_id": "Putusan MKRI No. 35/PUU-X/2012",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=35/PUU-X/2012"
+    },
+    {
+      "id": "putusan-mk-85-puu-xi-2013",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 85/PUU-XI/2013 (Pembatalan Total UU No. 7 Tahun 2004 tentang Sumber Daya Air Karena Menghalangi Hak Konstitusional Rakyat atas Air)",
+      "year": 2015,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=85/PUU-XI/2013",
+      "citation_id": "Putusan MKRI No. 85/PUU-XI/2013",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=85/PUU-XI/2013"
+    },
+    {
+      "id": "putusan-mk-97-puu-xiv-2016",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 97/PUU-XIV/2016 (Pengakuan Hak Konstitusional Penghayat Kepercayaan Masuk dalam Kolom Agama Dokumen Kependudukan)",
+      "year": 2017,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=97/PUU-XIV/2016",
+      "citation_id": "Putusan MKRI No. 97/PUU-XIV/2016",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=97/PUU-XIV/2016"
+    },
+    {
+      "id": "putusan-mk-46-puu-viii-2010",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 46/PUU-VIII/2010 (Pengakuan Hubungan Keperdataan dan Hak Nafkah Anak Luar Kawin dengan Ayah Biologisnya Berdasarkan Uji DNA)",
+      "year": 2012,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=46/PUU-VIII/2010",
+      "citation_id": "Putusan MKRI No. 46/PUU-VIII/2010",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=46/PUU-VIII/2010"
+    },
+    {
+      "id": "putusan-mk-130-puu-xiii-2015",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 130/PUU-XIII/2015 (Kewajiban Penyidik Memberitahukan SPDP kepada Terlapor, Korban, dan Penuntut Umum Paling Lambat 7 Hari)",
+      "year": 2016,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=130/PUU-XIII/2015",
+      "citation_id": "Putusan MKRI No. 130/PUU-XIII/2015",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=130/PUU-XIII/2015"
+    },
+    {
+      "id": "putusan-mk-18-puu-xvii-2019",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 18/PUU-XVII/2019 (Eksekusi Jaminan Fidusia Tidak Boleh Sepihak dan Wajib Lewat Penetapan Pengadilan Jika Terjadi Sengketa Wanprestasi)",
+      "year": 2020,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=18/PUU-XVII/2019",
+      "citation_id": "Putusan MKRI No. 18/PUU-XVII/2019",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=18/PUU-XVII/2019"
+    },
+    {
+      "id": "laporan-audit-bpk-blbi-2000",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Pemeriksaan Investigatif BPK RI atas Penggunaan Dana Bantuan Likuiditas Bank Indonesia (BLBI) Rp144,5 Triliun",
+      "year": 2000,
+      "citation_id": "BPK RI LHP No. 01/LHP/VIII/2000",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemeriksaan%20Investigatif%20BPK%20RI%20atas%20Penggunaan%20Dana%20Bantuan%20Likuiditas%20Bank%20Indonesia%20(BLBI)%20Rp144%2C5%20Triliun"
+    },
+    {
+      "id": "laporan-audit-bpk-bts-2023",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Penghitungan Kerugian Keuangan Negara BPK RI atas Kasus Dugaan Korupsi Pengadaan BTS 4G Bakti Kominfo Rp8,03 Triliun",
+      "year": 2023,
+      "citation_id": "BPK RI LHP Kerugian Negara BTS 2023",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Penghitungan%20Kerugian%20Keuangan%20Negara%20BPK%20RI%20atas%20Kasus%20Dugaan%20Korupsi%20Pengadaan%20BTS%204G%20Bakti%20Kominfo%20Rp8%2C03%20Triliun"
+    },
+    {
+      "id": "putusan-ma-31-p-hum-2019",
+      "type": "putusan-ma",
+      "title_id": "Putusan MA No. 31 P/HUM/2019 (Pembatalan Kenaikan Iuran BPJS Kesehatan dalam Perpres No. 75/2019 Demi Melindungi Hak Jaminan Sosial Warga)",
+      "year": 2020,
+      "citation_id": "Putusan MA No. 31 P/HUM/2019",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20MA%20No.%2031%20P%2FHUM%2F2019%20(Pembatalan%20Kenaikan%20Iuran%20BPJS%20Kesehatan%20dalam%20Perpres%20No.%2075%2F2019%20Demi%20Melindungi%20Hak%20Jaminan%20Sosial%20Warga)"
+    },
+    {
+      "id": "putusan-ma-44-p-hum-2019",
+      "type": "putusan-ma",
+      "title_id": "Putusan MA No. 44 P/HUM/2019 (Uji Materiil PKPU No. 5/2019 terkait Syarat Persebaran Suara Pilpres 2 Paslon)",
+      "year": 2020,
+      "citation_id": "Putusan MA No. 44 P/HUM/2019",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20MA%20No.%2044%20P%2FHUM%2F2019%20(Uji%20Materiil%20PKPU%20No.%205%2F2019%20terkait%20Syarat%20Persebaran%20Suara%20Pilpres%202%20Paslon)"
     }
   ],
   "assessments": [

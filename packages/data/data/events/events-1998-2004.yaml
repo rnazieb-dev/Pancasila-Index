@@ -1,0 +1,45 @@
+# Peristiwa Konstitusional & Sejarah Tata Negara: Era Reformasi Awal & Transformasi UUD (1998–2004)
+
+- id: ev-tap-mpr-xvii-1998-ham
+  term_id: mpr-1971-1999
+  date: "1998-11-13"
+  category: produk-hukum
+  title_id: TAP MPR No. XVII/MPR/1998 tentang Piagam Hak Asasi Manusia Indonesia
+  summary_id: >-
+    Sidang Istimewa MPR 1998 menetapkan Piagam HAM pertama di era Reformasi yang memuat 44 pasal perlindungan hak-hak sipil,
+    politik, ekonomi, dan budaya, yang menjadi cikal bakal Bab XA Pasal 28A-28J Perubahan Kedua UUD 1945.
+  source_ids: [tap-mpr-xvii-1998]
+  dimension_ids: [sila-2, negara-hukum]
+
+- id: ev-tap-mpr-xi-1998-anti-kkn
+  term_id: mpr-1971-1999
+  date: "1998-11-13"
+  category: produk-hukum
+  title_id: TAP MPR No. XI/MPR/1998 tentang Penyelenggara Negara Bersih dan Bebas KKN
+  summary_id: >-
+    MPR menetapkan landasan yuridis pemberantasan korupsi, kolusi, dan nepotisme, mewajibkan pemeriksaan kekayaan pejabat publik,
+    dan mengamanatkan penuntasan dugaan korupsi mantan Presiden Soeharto dan kroni-kroninya.
+  source_ids: [tap-mpr-xi-1998]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-tap-mpr-pemisahan-tni-polri-2000
+  term_id: mpr-1999-2004
+  date: "2000-08-18"
+  category: produk-hukum
+  title_id: TAP MPR No. VI/2000 & VII/2000 - Pemisahan Polri dan Penghapusan Dwifungsi ABRI
+  summary_id: >-
+    MPR secara formal memisahkan kelembagaan TNI (pertahanan negara) dan Polri (keamanan & ketertiban masyarakat)
+    serta menghapus doktrin Dwifungsi ABRI dalam politik praktis guna menegaskan supremasi sipil dalam negara demokrasi.
+  source_ids: [tap-mpr-vi-2000, tap-mpr-vii-2000]
+  dimension_ids: [tujuan-1, negara-hukum]
+
+- id: ev-mk-putusan-kelistrikan-2004
+  term_id: mk-2003-2008
+  date: "2004-12-15"
+  category: pengadilan
+  title_id: Putusan MK No. 001-021-022/PUU-I/2003 Membatalkan UU Ketenagalistrikan
+  summary_id: >-
+    Mahkamah Konstitusi membatalkan UU No. 20/2002 tentang Ketenagalistrikan karena skema unbundling dan kompetisi bebas
+    bertentangan dengan Pasal 33 ayat 2 UUD 1945 (cabang produksi penting yang menguasai hajat hidup orang banyak harus dikuasai oleh negara).
+  source_ids: [putusan-mk-001-021-022-puu-i-2003]
+  dimension_ids: [sila-5, checks-balances]

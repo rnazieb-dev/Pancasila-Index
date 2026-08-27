@@ -1,0 +1,45 @@
+# Peristiwa Konstitusional & Sejarah Tata Negara: Era Orde Baru (1966–1998)
+
+- id: ev-uu-3-1975-fusi-partai
+  term_id: presiden-soeharto
+  date: "1975-08-27"
+  category: produk-hukum
+  title_id: UU No. 3 Tahun 1975 tentang Fusi Tiga Kontestan Pemilu Orde Baru
+  summary_id: >-
+    Pemerintah dan DPR mengesahkan penyederhanaan partai politik menjadi tiga kekuatan:
+    PPP (fusi partai Islam), PDI (fusi partai nasionalis & Kristen), dan Golongan Karya, membatasi pluralisme politik sipil.
+  source_ids: [uu-3-1975]
+  dimension_ids: [kedaulatan-rakyat, sila-4]
+
+- id: ev-tap-mpr-ii-1978-p4
+  term_id: mpr-1971-1999
+  date: "1978-03-22"
+  category: produk-hukum
+  title_id: TAP MPR No. II/MPR/1978 tentang Pedoman Penghayatan dan Pengamalan Pancasila (P4)
+  summary_id: >-
+    MPR menetapkan 36 butir P4 (Ekaprasetia Pancakarsa) sebagai penataran wajib bagi seluruh PNS, ABRI, mahasiswa,
+    dan masyarakat sipil, yang kelak dikritik sebagai hegemoni tafsir tunggal ideologi negara oleh kekuasaan eksekutif.
+  source_ids: [tap-mpr-ii-1978]
+  dimension_ids: [checks-balances, sila-4]
+
+- id: ev-uu-asas-tunggal-1985
+  term_id: presiden-soeharto
+  date: "1985-06-17"
+  category: produk-hukum
+  title_id: UU No. 3/1985 & UU No. 8/1985 tentang Kewajiban Asas Tunggal Pancasila
+  summary_id: >-
+    Negara mewajibkan seluruh partai politik dan organisasi kemasyarakatan (ormas) mencantumkan Pancasila
+    sebagai satu-satunya asas organisasi, memicu ketegangan dengan sejumlah organisasi keagamaan independen.
+  source_ids: [uu-3-1985, uu-8-1985]
+  dimension_ids: [sila-1, sila-4]
+
+- id: ev-bpk-audit-blbi-2000
+  term_id: bpk-1998-2009
+  date: "2000-08-04"
+  category: kebijakan
+  title_id: Audit Investigatif BPK atas Penyimpangan BLBI Rp144,5 Triliun
+  summary_id: >-
+    BPK RI merampungkan dan menyerahkan audit investigatif Bantuan Likuiditas Bank Indonesia (BLBI),
+    menemukan bahwa 95% dari dana talangan Rp144,5 triliun untuk 48 bank bermasalah saat krisis 1997/1998 disalurkan dengan indikasi kuat melawan hukum dan korupsi sistemik.
+  source_ids: [laporan-audit-bpk-blbi-2000]
+  dimension_ids: [checks-balances, negara-hukum]
