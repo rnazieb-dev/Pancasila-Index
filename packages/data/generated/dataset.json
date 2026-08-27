@@ -13452,9 +13452,9 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-1",
-          "score": 0,
+          "score": -1,
           "confidence": 0.4,
-          "rationale_id": "Tidak ada perubahan berarti pada relasi agama-negara selama periode ini.",
+          "rationale_id": "SKB 3 Menteri 2008 membatasi kebebasan beragama Ahmadiyah secara resmi. Intoleransi terhadap minoritas keagamaan meningkat tanpa respons protektif presiden. Kekerasan terhadap jemaat Ahmadiyah di Cikeusik 2011 (era SBY II) berakar dari kebijakan SKB era ini.",
           "evidence": [
             {
               "source_id": "uud-nri-1945"
@@ -13852,9 +13852,9 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-1",
-          "score": 0,
+          "score": -1,
           "confidence": 0.4,
-          "rationale_id": "Netralitas agama-negara relatif terjaga dengan insiden intoleransi sporadis.",
+          "rationale_id": "Kasus blasfemi Ahok dieksploitasi tanpa respons protektif terhadap pluralisme; SKB Ahmadiyah 2008 dipertahankan; intoleransi terhadap minoritas keagamaan meningkat tanpa kebijakan korektif.",
           "evidence": [
             {
               "source_id": "uud-nri-1945"
@@ -13900,9 +13900,9 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": -1,
+          "score": -2,
           "confidence": 0.55,
-          "rationale_id": "Revisi UU KPK melemahkan independensi antikorupsi dan ruang sipil menyempit.",
+          "rationale_id": "Revisi UU KPK 2019 dipaksakan melalui DPR meskipun jutaan warga turun ke jalan menolak. Indeks demokrasi EIU turun dari 7,03 (2015) ke 6,48 (2019). Lebih dari 500 kasus kriminalisasi ekspresi via UU ITE (data SAFENet). Musyawarah-mufakat mati.",
           "evidence": [
             {
               "source_id": "uu-19-2019"
@@ -13993,9 +13993,9 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": -1,
+          "score": -2,
           "confidence": 0.5,
-          "rationale_id": "Pelemahan KPK dan persepsi nonselektivitas merusak supremasi hukum.",
+          "rationale_id": "KPK dilumpuhkan secara sistematis: komisioner dipilih dari lingkaran dekat kekuasaan, TWK dipersiapkan sebagai alat pembersihan internal, independensi lembaga antikorupsi dihancurkan secara terencana.",
           "evidence": [
             {
               "source_id": "uu-19-2019"
@@ -14066,9 +14066,9 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": -1,
+          "score": -2,
           "confidence": 0.5,
-          "rationale_id": "Kriminalisasi aktivis dan jurnalis meningkat; RKUHP memuat pasal-pasal berpotensi membungkam kritik.",
+          "rationale_id": "TWK KPK memecat 57 pegawai berintegritas dengan temuan maladministrasi Ombudsman dan pelanggaran 11 HAM oleh Komnas HAM. Konflik agraria 295 letusan/tahun dengan 556 korban kekerasan dan 399 dikriminalisasi (KPA 2024). Kanjuruhan 135 tewas akibat gas air mata. Kemanusiaan adil dan beradab hanya di atas kertas.",
           "evidence": [
             {
               "source_id": "uu-1-2023"
@@ -14097,9 +14097,9 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": -1,
+          "score": -2,
           "confidence": 0.6,
-          "rationale_id": "Proses legislasi kilat tanpa partisipasi publik dinyatakan cacat formal oleh Mahkamah Konstitusi.",
+          "rationale_id": "UU Cipta Kerja dinyatakan cacat formal oleh MK karena tanpa partisipasi publik bermakna. RKUHP diketok tengah malam. RUU Pilkada kilat Baleg DPR 21 Agustus 2024 berusaha membatalkan putusan MK. Pola legislasi tanpa meaningful participation menjadi norma.",
           "evidence": [
             {
               "source_id": "putusan-mk-91-2021"
@@ -14124,9 +14124,9 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.35,
-          "rationale_id": "Bansos masif dan perluasan jaminan sosial nyata melindungi rentan, tapi menteri yang memimpinnya dipenjara mencuri uang pangkal bansos - capaian dicemari tata kelola.",
+          "rationale_id": "Bansos masif melindungi rentan secara nyata, namun Mensos Juliari Batubara ditangkap KPK mencuri dana bansos pandemi — capaian kesejahteraan dicemari korupsi pengelolanya sendiri. IKN dan kereta cepat dibayar utang negara dengan cost overrun masif.",
           "evidence": [
             {
               "source_id": "uu-2-2020"
@@ -14145,9 +14145,9 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 0,
+          "score": -1,
           "confidence": 0.45,
-          "rationale_id": "Pandemi dikelola besar-besaran pada akhirnya, tetapi Kanjuruhan menelan 135 nyawa lewat gas air mata di tribun - perlindungan warga gagal di momen paling dasar.",
+          "rationale_id": "Kanjuruhan menewaskan 135 penonton akibat gas air mata di stadion tertutup. Konflik agraria Wadas dan Rempang ditangani dengan kekerasan aparat. Papua mengalami shutdown internet. Perlindungan warga gagal di momen paling fundamental.",
           "evidence": [
             {
               "source_id": "uu-2-2020"
@@ -14218,9 +14218,9 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": -1,
+          "score": -2,
           "confidence": 0.55,
-          "rationale_id": "Perppu Cipta Kerja diterbitkan sebelum revisi selesai sehingga melewati amanat putusan MK.",
+          "rationale_id": "Perppu No. 2/2022 Cipta Kerja diterbitkan menerobos putusan MK 91/2020 tanpa kegentingan memaksa. SP3 BLBI Sjamsul Nursalim melenyapkan Rp4,58 triliun kerugian negara. OTT KPK runtuh dari 30 (2018) ke 6-7/tahun. Ketua KPK Firli jadi tersangka pemerasan. Negara hukum tinggal cangkang.",
           "evidence": [
             {
               "source_id": "perppu-2-2022"
@@ -14235,9 +14235,9 @@
         },
         {
           "dimension_id": "checks-balances",
-          "score": -1,
+          "score": -2,
           "confidence": 0.6,
-          "rationale_id": "DPR mengesahkan Perppu menjadi UU saat uji materi masih berjalan; kontrol antarlembaga meredup.",
+          "rationale_id": "DPR menjadi rubber stamp total — mengesahkan Perppu saat uji materi MK aktif. KPK dilumpuhkan lewat TWK dan revisi UU. Putusan MK dibangkang berulang. Tidak ada satu pun kontrol antarlembaga yang efektif terhadap konsolidasi kekuasaan eksekutif.",
           "evidence": [
             {
               "source_id": "uu-6-2023"
@@ -14252,9 +14252,9 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": -1,
+          "score": -2,
           "confidence": 0.55,
-          "rationale_id": "Konsolidasi dinasti politik keluarga petahana merusak kesetaraan kompetisi elektoral.",
+          "rationale_id": "Dinasti politik keluarga petahana terwujud melalui putusan MK No. 90/2023 yang melanggar etik berat (vonis MKMK). Gibran Rakabuming lolos sebagai cawapres berkat konflik kepentingan Ketua MK kakak iparnya. Kompetisi elektoral terdistorsi oleh nepotisme konstitusional.",
           "evidence": [
             {
               "source_id": "berita-dinasti-politik-2024"
@@ -14382,9 +14382,9 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.3,
-          "rationale_id": "Prioritas gizi dan kesejahteraan tampak kuat namun keberlanjutan fiskal sedang diuji.",
+          "rationale_id": "MBG baru berjalan beberapa bulan dan belum terukur dampaknya. Prioritas anggaran MBG memangkas pos riset dan pendidikan tinggi lainnya. Terlalu prematur untuk menilai positif.",
           "evidence": [
             {
               "source_id": "perpres-83-2024"
@@ -14396,9 +14396,9 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.3,
-          "rationale_id": "Program gizi sekolah menyasar fondasi pencerdasan generasi penerus.",
+          "rationale_id": "Program gizi sekolah adalah fondasi kesehatan, bukan program pencerdasan pendidikan langsung. Dampak terhadap mutu pembelajaran belum terukur sama sekali.",
           "evidence": [
             {
               "source_id": "perpres-83-2024"
@@ -14451,9 +14451,9 @@
         },
         {
           "dimension_id": "checks-balances",
-          "score": -1,
+          "score": -2,
           "confidence": 0.35,
-          "rationale_id": "Akomodasi legislatif terhadap eksekutif sangat tinggi pada koalisi super.",
+          "rationale_id": "Koalisi super 80%+ kursi DPR menghapus oposisi parlemen efektif. Danantara berdiri di luar struktur akuntabilitas BUMN biasa. Tidak ada satu pun mekanisme checks and balances yang berfungsi nyata terhadap konsolidasi kekuasaan eksekutif-legislatif.",
           "evidence": [
             {
               "source_id": "uu-danantara-2025"
@@ -14828,9 +14828,9 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": 1,
+          "score": 0,
           "confidence": 0.5,
-          "rationale_id": "UU KY dan Pengadilan Tipikor melengkapi infrastruktur penegakan hukum.",
+          "rationale_id": "Produk legislasi antikorupsi (UU KY, Pengadilan Tipikor) positif, namun kredibilitas lembaga legislatif sendiri runtuh oleh korupsi anggota-anggotanya — DPR memproduksi hukum yang dilanggar sendiri oleh pembuatnya.",
           "evidence": [
             {
               "source_id": "uu-27-2004"
@@ -14849,9 +14849,9 @@
         },
         {
           "dimension_id": "checks-balances",
-          "score": 1,
+          "score": -1,
           "confidence": 0.5,
-          "rationale_id": "Fungsi pengawasan aktif termasuk penyelidikan Century meski hasilnya politis.",
+          "rationale_id": "Skandal cek pelawat pemilihan Gubernur BI Miranda Goeltom menjerat 40+ anggota DPR. Korupsi massal internal menghancurkan fungsi pengawasan. Pansus Century bersifat politis, bukan substantif.",
           "evidence": [
             {
               "source_id": "laporan-bpk-century"
@@ -15139,9 +15139,9 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": -1,
+          "score": -2,
           "confidence": 0.55,
-          "rationale_id": "Revisi KPK melemahkan independensi antikorupsi di tengah protes nasional.",
+          "rationale_id": "Revisi UU KPK dipaksakan meskipun jutaan warga turun ke jalan menolak — pengkhianatan mandat rakyat paling telak sejak Reformasi. Ketua DPR Setya Novanto dipenjara dalam megakorupsi e-KTP Rp2,3 triliun.",
           "evidence": [
             {
               "source_id": "uu-19-2019"
@@ -15235,9 +15235,9 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": -1,
+          "score": -2,
           "confidence": 0.5,
-          "rationale_id": "Revisi KPK dan upaya pelemahan aparat antikorupsi merugikan supremasi hukum.",
+          "rationale_id": "Pembongkaran sistematis infrastruktur antikorupsi melalui revisi UU KPK. Ketua DPR sendiri dipidana korupsi e-KTP Rp2,3 triliun. DPR periode ini secara aktif merusak supremasi hukum.",
           "evidence": [
             {
               "source_id": "uu-19-2019"
@@ -15345,9 +15345,9 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": -1,
+          "score": -2,
           "confidence": 0.6,
-          "rationale_id": "Proses omnibus Cipta Kerja dinyatakan cacat formal karena partisipasi publik diabaikan.",
+          "rationale_id": "Omnibus Cipta Kerja, RKUHP diketok tengah malam, revisi Pilkada kilat Baleg 21 Agustus 2024 — semuanya tanpa partisipasi publik bermakna. Legislasi kilat menjadi pola normatif yang menghancurkan musyawarah-mufakat.",
           "evidence": [
             {
               "source_id": "putusan-mk-91-2021"
@@ -15441,9 +15441,9 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": -1,
+          "score": -2,
           "confidence": 0.55,
-          "rationale_id": "Pengesahan Perppu Cipta Kerja saat uji materi berjalan mengabaikan prinsip kehati-hatian konstitusional.",
+          "rationale_id": "Pengesahan Perppu Cipta Kerja saat uji materi konstitusional masih berjalan di MK. Upaya revisi kilat UU Pilkada untuk mengakali putusan MK 60/70/2024. DPR secara sistematis membangkang putusan penjaga konstitusi.",
           "evidence": [
             {
               "source_id": "uu-6-2023"
@@ -15458,9 +15458,9 @@
         },
         {
           "dimension_id": "checks-balances",
-          "score": -1,
+          "score": -2,
           "confidence": 0.55,
-          "rationale_id": "Fungsi pengawasan melemah; legislasi kilat menjadi pola periode ini.",
+          "rationale_id": "Parlemen paling akomodatif terhadap eksekutif sejak Reformasi. Mengesahkan Perppu Cipta Kerja saat uji materi MK aktif — contempt of constitutional court secara institusional. Zero pengawasan efektif.",
           "evidence": [
             {
               "source_id": "uu-11-2020"
@@ -15602,9 +15602,9 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.3,
-          "rationale_id": "Revisi UU Pemilu pasca-putusan MK menunjukkan fungsi legislasi bekerja.",
+          "rationale_id": "Revisi UU Pemilu pasca-putusan MK adalah kepatuhan paksa pada putusan konstitusional, bukan inisiatif proaktif DPR untuk memajukan kesejahteraan umum.",
           "evidence": [
             {
               "source_id": "putusan-mk-60-2024"
@@ -16058,9 +16058,9 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": -1,
+          "score": -2,
           "confidence": 0.5,
-          "rationale_id": "Putusan batas usia dinilai luas disesuaikan dengan kepentingan pencalonan keluarga petahana.",
+          "rationale_id": "Putusan No. 90/PUU-XXI/2023 membuka pintu dinasti politik dengan meloloskan keponakan Ketua MK sebagai calon wakil presiden. Kesetaraan kompetisi elektoral dihancurkan oleh konflik kepentingan paling nyata dalam sejarah konstitusi Indonesia.",
           "evidence": [
             {
               "source_id": "putusan-mk-90-2023"
@@ -16075,9 +16075,9 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": -1,
+          "score": -2,
           "confidence": 0.55,
-          "rationale_id": "Pelanggaran etik Ketua MK yang menguntungkan kakak iparnya merusak integritas lembaga.",
+          "rationale_id": "MKMK memvonis Ketua MK Anwar Usman melakukan pelanggaran etik berat dalam Putusan MKMK No. 2/MKMK/L/11/2023 — dicopot dari jabatan ketua. Krisis integritas paling parah dalam sejarah lembaga penjaga konstitusi. Penjaga terakhir negara hukum justru yang melanggar.",
           "evidence": [
             {
               "source_id": "mkmk-anwar-usman-2023"
@@ -16674,9 +16674,9 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": -1,
+          "score": -2,
           "confidence": 0.5,
-          "rationale_id": "Operasi militer Timor Timur, Petrus, dan Tanjung Priok berlangsung dengan impunitas sistemik.",
+          "rationale_id": "Operasi militer Timor Timur, Petrus (±10.000 tewas diakui dalam otobiografi), Tanjung Priok (79 korban), Talangsari Lampung (130 tewas), DOM Aceh (1.321 tewas, 1.958 hilang, 128 diperkosa) — extrajudicial killing dan pelanggaran HAM berat sistemik berskala massal tanpa proses hukum.",
           "evidence": [
             {
               "source_id": "uu-7-1976"
@@ -16697,9 +16697,9 @@
         },
         {
           "dimension_id": "sila-3",
-          "score": 0,
+          "score": -1,
           "confidence": 0.45,
-          "rationale_id": "Stabilitas tiga dekade membawa pembangunan merata sebagian namun pendekatan militer di wilayah konflik meninggalkan luka integrasi.",
+          "rationale_id": "Stabilitas tiga dekade dicapai lewat operasi militer represif yang meninggalkan luka integrasi permanen di Aceh, Papua, dan Timor Timur — persatuan yang dipaksakan bukan persatuan yang adil.",
           "evidence": [
             {
               "source_id": "uu-7-1976"
@@ -16756,9 +16756,9 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 0,
+          "score": -2,
           "confidence": 0.4,
-          "rationale_id": "Stabilitas keamanan internal kuat namun represif; akhir periode gagal melindungi warga dalam kerusuhan Mei.",
+          "rationale_id": "Negara gagal total melindungi warga — justru menjadi pelaku: Petrus ±10.000 tewas, kerusuhan Mei 1998 (1.217 tewas, 85 korban kekerasan seksual), DOM Aceh ribuan korban, Talangsari 130 tewas; perlindungan segenap bangsa hanya berlaku bagi yang tidak mengkritik rezim.",
           "evidence": [
             {
               "source_id": "tgpf-mei-1998"
@@ -16807,9 +16807,9 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": -1,
+          "score": -2,
           "confidence": 0.45,
-          "rationale_id": "Pendirian ASEAN adalah warisan diplomatik besar, namun invasi Timor Timur tanpa mandat PBB dengan korban ratusan ribu membuat neraca ketertiban dunia era ini tetap merah.",
+          "rationale_id": "Pendirian ASEAN positif, namun invasi militer Timor Timur 1975 tanpa mandat PBB menewaskan 100.000-180.000 jiwa — kejahatan perang berskala massal yang mencoreng ketertiban dunia dan bertentangan fundamental dengan politik bebas-aktif.",
           "evidence": [
             {
               "source_id": "uu-7-1976"
@@ -16941,9 +16941,9 @@
       "dimension_scores": [
         {
           "dimension_id": "negara-hukum",
-          "score": -1,
+          "score": -2,
           "confidence": 0.45,
-          "rationale_id": "Secara organisasi berada di bawah Departemen Kehakiman; karier dan pensiun hakim ditentukan eksekutif sehingga independensi runtuh.",
+          "rationale_id": "UU 19/1964 secara eksplisit memberi presiden wewenang mengintervensi pengadilan. MA organisatoris di bawah Departemen Kehakiman — karier dan pensiun hakim ditentukan eksekutif. Hukum menjadi instrumen kekuasaan murni, bukan penjaga keadilan.",
           "evidence": [
             {
               "source_id": "sejarah-ma-arsip"
@@ -16961,9 +16961,9 @@
         },
         {
           "dimension_id": "checks-balances",
-          "score": -1,
+          "score": -2,
           "confidence": 0.4,
-          "rationale_id": "Perkara yang menyentuh kekuasaan praktis tidak pernah dimenangkan warga; kontrol yudisial atas presiden kosong.",
+          "rationale_id": "Tidak ada satu pun kontrol yudisial efektif atas presiden sepanjang empat dekade. Perkara yang menyentuh kekuasaan selalu kalah di kasasi. MA menjadi subordinat total tanpa independensi.",
           "evidence": [
             {
               "source_id": "tap-mprs-iii-1967"
@@ -17009,9 +17009,9 @@
       "dimension_scores": [
         {
           "dimension_id": "negara-hukum",
-          "score": 0,
+          "score": -2,
           "confidence": 0.45,
-          "rationale_id": "Otonomi organisasi penuh tercapai 2004, tetapi gelombang OTT suap hakim menunjukkan integritas internal masih rapuh.",
+          "rationale_id": "Epidemi korupsi hakim: Hakim Agung Sudrajad Dimyati OTT (8 tahun penjara), Gazalba Saleh tersangka suap & TPPU, Sekretaris MA Nurhadi (6 tahun, gratifikasi Rp83 miliar), Hasbi Hasan (6 tahun suap kasasi). Otonomi organisasi tercapai 2004 tapi diisi oleh korupsi internal yang merusak supremasi hukum dari dalam.",
           "evidence": [
             {
               "source_id": "uu-48-2009"
@@ -17030,9 +17030,9 @@
         },
         {
           "dimension_id": "checks-balances",
-          "score": 1,
+          "score": 0,
           "confidence": 0.4,
-          "rationale_id": "Kewenangan uji peraturan di bawah undang-undang memberikan kontrol yudisial rutin atas produk eksekutif-legislatif.",
+          "rationale_id": "Kewenangan uji peraturan di bawah UU memberikan kontrol yudisial rutin, namun putusan PTUN ~95% tidak dipatuhi pejabat (data KY-Ombudsman). Eksekusi perdata karhutla Rp20 triliun+ macet total (<10% tereksekusi). MA punya otoritas tanpa daya paksa.",
           "evidence": [
             {
               "source_id": "uu-48-2009"
@@ -17047,9 +17047,9 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": -1,
+          "score": -2,
           "confidence": 0.35,
-          "rationale_id": "Impunitas aparat bertahan di tingkat kasasi untuk sejumlah pelanggaran era konflik, meski perlindungan korban umum membaik.",
+          "rationale_id": "Impunitas aparat pelanggar HAM bertahan di tingkat kasasi. Budi Pego (petani penolak tambang) justru diperberat MA dari 10 bulan ke 4 tahun penjara. Koruptor mendapat vonis ringan dan remisi massal — MA membatalkan PP 99/2012 sehingga koruptor setara napi biasa. Keadilan terbalik: rakyat kecil dihukum berat, elite dihukum ringan.",
           "evidence": [
             {
               "source_id": "laporan-ky-tahunan"
@@ -17078,9 +17078,9 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": -1,
+          "score": -2,
           "confidence": 0.4,
-          "rationale_id": "Korupsi besar naik kasus namun vonis seragam ringan dibanding kerugian negara - Jiwasraya Rp16,8 triliun contoh terkini.",
+          "rationale_id": "Eksekusi perdata karhutla Rp20 triliun+ macet total — kurang dari 10% masuk kas negara (data ICEL). Putusan polusi udara Jakarta inkracht (Kasasi MA 2560K/2023) tapi tidak dijalankan pemerintah. MA membatalkan PP 99/2012 sehingga koruptor bebas remisi dan bebas bersyarat massal (23 koruptor kakap dibebaskan sehari pada 6 September 2022). Kesejahteraan umum dikorbankan oleh lemahnya eksekusi.",
           "evidence": [
             {
               "source_id": "berita-jiwasraya-2022"
@@ -17217,9 +17217,9 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.6,
-          "rationale_id": "Mendorong pemasyarakatan nilai-nilai kebangsaan dan toleransi keberagamaan lewat sosialisasi Empat Pilar secara meluas.",
+          "rationale_id": "Sosialisasi Empat Pilar bersifat seremonial tanpa dampak terukur pada toleransi keberagamaan masyarakat. Intoleransi justru meningkat di periode ini.",
           "evidence": [
             {
               "source_id": "kep-mpr-4-pilar-2010"
@@ -17313,9 +17313,9 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.6,
-          "rationale_id": "Mengawali peletakan dasar representasi daerah di tingkat nasional dan menyerap aspirasi pemekaran serta otonomi daerah.",
+          "rationale_id": "Aspirasi daerah terserap namun nol output legislatif yang berhasil disahkan menjadi UU nasional — soft bicameralism menjadikan DPD parlemen tanpa daya legislasi nyata.",
           "evidence": [
             {
               "source_id": "uu-22-2003"
@@ -17409,9 +17409,9 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.6,
-          "rationale_id": "Mengajukan RUU Inisiatif Daerah Kepulauan dan mengawasi implementasi transfer dana desa demi pemerataan kesejahteraan kawasan 3T.",
+          "rationale_id": "RUU Daerah Kepulauan dan advokasi pemerataan 3T diajukan tetapi tidak pernah disahkan menjadi UU — zero capaian legislatif nyata sepanjang periode.",
           "evidence": [
             {
               "source_id": "ruu-daerah-kepulauan-dpd-2020"
@@ -17565,9 +17565,9 @@
       "dimension_scores": [
         {
           "dimension_id": "checks-balances",
-          "score": 1,
+          "score": -1,
           "confidence": 0.7,
-          "rationale_id": "Mengawal penerapan akuntansi berbasis akrual di seluruh kementerian/lembaga hingga LKPP meraih opini WTP pertama pada 2016.",
+          "rationale_id": "Auditor Utama BPK Rochmadi Saptogiri dan Ali Sadli OTT KPK menjual opini WTP ke Kementerian Desa. Auditor BPK Jabar Anthon OTT Rp1,9 miliar dari Bupati Bogor Ade Yasin untuk rekayasa WTP. Ketua BPK Harry Azhar Azis terungkap di Panama Papers. Badan pemeriksa keuangan yang justru memperjualbelikan integritasnya sendiri — checks and balances menjadi farsa.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -17582,9 +17582,9 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": 0,
+          "score": -1,
           "confidence": 0.6,
-          "rationale_id": "Terjadi kasus suap pemberian opini WTP oknum auditor di sejumlah daerah yang mencoreng integritas internal lembaga.",
+          "rationale_id": "Opini WTP diperjualbelikan oleh auditor-auditor BPK sendiri — integritas audit keuangan negara runtuh dari dalam. Opini audit BPK tidak lagi bisa dipercaya sebagai instrumen penegakan hukum keuangan negara.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -17610,9 +17610,9 @@
       "dimension_scores": [
         {
           "dimension_id": "checks-balances",
-          "score": 1,
+          "score": -1,
           "confidence": 0.7,
-          "rationale_id": "Melakukan audit menyeluruh terhadap belanja darurat penanganan Covid-19 dan PEN guna memitigasi risiko kebocoran dana publik.",
+          "rationale_id": "Anggota BPK Rizal Djalil divonis penjara karena suap proyek SPAM. Kepala BPK Papua Barat Daya Patrice Sihombing OTT KPK menerima suap dari Pj Bupati Sorong. Pola korupsi BPK berlanjut tanpa jeda — badan pemeriksa yang seharusnya menjadi benteng terakhir akuntabilitas justru ikut terkorupsi.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -17627,9 +17627,9 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.6,
-          "rationale_id": "Memastikan akuntabilitas program bansos dan pemulihan ekonomi nasional agar tepat sasaran bagi masyarakat terdampak.",
+          "rationale_id": "Audit bansos dan PEN dilakukan, namun kredibilitas temuan terdegradasi oleh fakta bahwa auditor-auditor BPK sendiri terus-menerus terjerat korupsi. Akuntabilitas keadilan sosial tidak bisa ditegakkan oleh lembaga yang integritasnya dipertanyakan.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -17949,9 +17949,9 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
-          "rationale_id": "Menggalakkan sosialisasi Empat Pilar Kebangsaan (Pancasila, UUD 1945, NKRI, Bhinneka Tunggal Ika) secara inklusif ke seluruh lapisan masyarakat.",
+          "rationale_id": "Sosialisasi Empat Pilar adalah kegiatan seremonial tanpa capaian legislatif atau dampak substantif terukur terhadap persatuan nasional.",
           "evidence": [
             {
               "source_id": "uud-nri-1945"
@@ -17991,9 +17991,9 @@
       "dimension_scores": [
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
-          "rationale_id": "Menyelenggarakan pelantikan Presiden dan Wakil Presiden hasil Pemilu 2024 secara khidmat, mempertegas kesinambungan mandat demokrasi rakyat.",
+          "rationale_id": "Pelantikan presiden dan wakil presiden adalah tugas konstitusional rutin yang wajib dilakukan, bukan capaian substantif kedaulatan rakyat.",
           "evidence": [
             {
               "source_id": "uud-nri-1945"
