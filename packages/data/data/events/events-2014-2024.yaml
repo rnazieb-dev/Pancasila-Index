@@ -517,6 +517,117 @@
   source_ids: [putusan-mk-phpu-pilpres-2024]
   dimension_ids: [kedaulatan-rakyat, negara-hukum]
 
+- id: ev-mk-putusan-spdp-7-hari-2015
+  term_id: mk-2013-2018
+  date: "2017-01-11"
+  category: pengadilan
+  title_id: Putusan MK No. 130/PUU-XIII/2015 Kewajiban Penyampaian SPDP Maksimal 7 Hari
+  summary_id: >-
+    MK memutuskan bahwa penyidik kepolisian dan kejaksaan wajib menyerahkan Surat Pemberitahuan Dimulainya Penyidikan (SPDP)
+    kepada penuntut umum, terlapor, dan korban paling lambat 7 hari setelah terbitnya sprindik demi mencegah kesewenang-wenangan penetapan tersangka.
+  source_ids: [putusan-mk-130-puu-xiii-2015]
+  dimension_ids: [negara-hukum, sila-2]
+
+- id: ev-dpr-uu-disabilitas-2016
+  term_id: dpr-2014-2019
+  date: "2016-04-14"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 8 Tahun 2016 tentang Penyandang Disabilitas
+  summary_id: >-
+    DPR mengesahkan undang-undang yang mengubah paradigma bantuan sosial (charity-based) menjadi pemenuhan hak asasi (human rights-based),
+    mewajibkan kuota kerja 2% di BUMN/Pemerintah dan 1% di swasta serta aksesibilitas fasilitas publik bagi penyandang disabilitas.
+  source_ids: [uu-8-2016]
+  dimension_ids: [sila-2, sila-5]
+
+- id: ev-mk-putusan-pasal-kumpul-kebo-2016
+  term_id: mk-2013-2018
+  date: "2017-12-14"
+  category: pengadilan
+  title_id: Putusan MK No. 46/PUU-XIV/2016 Menolak Kriminalisasi Delik Kesusilaan Melalui MK
+  summary_id: >-
+    MK menolak permohonan perluasan delik perzinaan dan hubungan sesama jenis dalam KUHP,
+    menegaskan bahwa kewenangan menciptakan delik pidana baru (kriminalisasi) adalah hak prerogatif pembentuk undang-undang (DPR dan Presiden), bukan Mahkamah Konstitusi.
+  source_ids: [putusan-mk-46-puu-xiv-2016]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-bpk-audit-ektp-2017
+  term_id: bpk-2009-2019
+  date: "2017-06-19"
+  category: kebijakan
+  title_id: Audit Investigatif BPK Kerugian Keuangan Negara Proyek e-KTP Rp2,31 Triliun
+  summary_id: >-
+    BPK RI merampungkan penghitungan kerugian keuangan negara pada proyek e-KTP sebesar Rp2,314 triliun (hampir 50% dari total nilai proyek Rp5,9 triliun),
+    menjadi bukti kunci persidangan tipikor yang menjerat pimpinan DPR RI dan pejabat Kemendagri.
+  source_ids: [laporan-audit-bpk-ektp-2017]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-ma-perma-gugatan-sederhana-2019
+  term_id: ma-reformasi-sekarang
+  date: "2019-08-19"
+  category: produk-hukum
+  title_id: PERMA No. 4 Tahun 2019 tentang Gugatan Sederhana (Small Claim Court) Maksimal Rp500 Juta
+  summary_id: >-
+    Mahkamah Agung memperluas batas nilai sengketa gugatan sederhana dari Rp200 juta menjadi Rp500 juta dan memperkenalkan e-court gugatan sederhana
+    demi mempermudah akses keadilan perdata bagi pelaku UMKM dan masyarakat berpenghasilan rendah tanpa proses persidangan berbelit-belit.
+  source_ids: [perma-4-2019]
+  dimension_ids: [negara-hukum, tujuan-2]
+
+- id: ev-mk-putusan-fidusia-2019
+  term_id: mk-2018-2023
+  date: "2020-01-06"
+  category: pengadilan
+  title_id: Putusan MK No. 18/PUU-XVII/2019 tentang Eksekusi Jaminan Fidusia
+  summary_id: >-
+    MK memutuskan bahwa pihak leasing / kreditur tidak boleh menarik secara paksa objek jaminan fidusia (kendaraan/aset) dari debitur secara sepihak,
+    melainkan harus melalui pengajuan permohonan eksekusi ke pengadilan negeri jika debitur tidak mengakui adanya cidera janji (wanprestasi).
+  source_ids: [putusan-mk-18-puu-xvii-2019]
+  dimension_ids: [negara-hukum, sila-2]
+
+- id: ev-dpr-uu-tpks-2022
+  term_id: dpr-2019-2024
+  date: "2022-04-12"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 12 Tahun 2022 tentang Tindak Pidana Kekerasan Seksual (UU TPKS)
+  summary_id: >-
+    DPR bersama Pemerintah mengesahkan payung hukum progresif perlindungan korban kekerasan seksual yang mengatur 9 jenis kekerasan seksual non-fisik dan fisik,
+    hak restitusi korban, dana bantuan korban (trust fund), dan larangan penyelesaian di luar proses peradilan (restorative justice untuk KS).
+  source_ids: [uu-12-2022]
+  dimension_ids: [sila-2, tujuan-1]
+
+- id: ev-presiden-uu-fir-ekstradisi-singapura-2023
+  term_id: presiden-jokowi-ii
+  date: "2023-01-03"
+  category: produk-hukum
+  title_id: Pengesahan UU Ekstradisi Buronan & Pengembalian FIR RI-Singapura (UU 3 & 5/2023)
+  summary_id: >-
+    Pemerintah dan DPR mengesahkan perjanjian bersejarah pengalihan kendali ruang udara Kepulauan Riau (FIR) dari Singapura ke Indonesia
+    serta perjanjian ekstradisi buronan korupsi dan kejahatan keuangan yang berlaku surut 18 tahun, memperkuat kedaulatan wilayah udara dan penegakan hukum lintas negara.
+  source_ids: [uu-3-2023, uu-5-2023]
+  dimension_ids: [tujuan-1, tujuan-4]
+
+- id: ev-mpr-laporan-pphn-2024
+  term_id: mpr-2019-2024
+  date: "2024-09-25"
+  category: kebijakan
+  title_id: Perumusan Dokumen Pokok-Pokok Haluan Negara (PPHN) oleh MPR RI
+  summary_id: >-
+    Badan Pengkajian MPR RI merampungkan naskah substansi Pokok-Pokok Haluan Negara (PPHN) sebagai pedoman arah pembangunan berkelanjutan jangka panjang 2025–2045,
+    merekomendasikan penguatan landasan hukum PPHN melalui konvensi ketatanegaraan atau undang-undang payung.
+  source_ids: [laporan-pphn-mpr-2024]
+  dimension_ids: [tujuan-2, kedaulatan-rakyat]
+
+- id: ev-ma-kasus-minyak-goreng-2024
+  term_id: ma-reformasi-sekarang
+  date: "2024-05-15"
+  category: pengadilan
+  title_id: Putusan Kasasi MA Perkara Korupsi Persetujuan Ekspor CPO Minyak Goreng
+  summary_id: >-
+    Mahkamah Agung menjatuhkan hukuman pidana penjara dan uang pengganti kepada pejabat Kemendag dan petinggi korporasi sawit,
+    menegaskan delik korupsi manipulasi kuota Domestic Market Obligation (DMO) yang memicu kelangkaan minyak goreng dan penderitaan ekonomi rakyat banyak.
+  source_ids: [putusan-ma-kasus-minyak-goreng-2024]
+  dimension_ids: [sila-5, negara-hukum]
+
+
 
 
 

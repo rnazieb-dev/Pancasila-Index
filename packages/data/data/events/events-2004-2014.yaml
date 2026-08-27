@@ -275,6 +275,117 @@
   source_ids: [uu-4-2009]
   dimension_ids: [sila-5, tujuan-2]
 
+- id: ev-dpr-ratifikasi-icescr-iccpr-2005
+  term_id: dpr-2004-2009
+  date: "2005-10-28"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 11/2005 (ICESCR) & UU No. 12/2005 (ICCPR) - Ratifikasi Kovenan HAM PBB
+  summary_id: >-
+    DPR mengesahkan ratifikasi dua kovenan internasional pokok HAM PBB (Kovenan Hak Sipil & Politik serta Kovenan Hak Ekonomi, Sosial, & Budaya),
+    mengintegrasikan standar perlindungan hak asasi manusia universal ke dalam tata hukum nasional Indonesia.
+  source_ids: [uu-11-2005, uu-12-2005]
+  dimension_ids: [sila-2, negara-hukum]
+
+- id: ev-dpr-ratifikasi-uncac-2006
+  term_id: dpr-2004-2009
+  date: "2006-04-18"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 7 Tahun 2006 tentang Ratifikasi Konvensi Antikorupsi PBB (UNCAC)
+  summary_id: >-
+    DPR meratifikasi United Nations Convention Against Corruption (UNCAC 2003) untuk memperkuat kerja sama ekstradisi,
+    bantuan hukum timbal balik (MLA), dan perampasan aset hasil kejahatan korupsi lintas batas yurisdiksi negara.
+  source_ids: [uu-7-2006]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-dpr-uu-lpsk-2006
+  term_id: dpr-2004-2009
+  date: "2006-08-11"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 13 Tahun 2006 tentang Perlindungan Saksi dan Korban (LPSK)
+  summary_id: >-
+    DPR mengesahkan undang-undang dan mendirikan Lembaga Perlindungan Saksi dan Korban (LPSK) independen
+    guna memberikan perlindungan fisik, hukum, dan bantuan medis/psikologis bagi saksi kunci, whistleblower, dan korban tindak pidana.
+  source_ids: [uu-13-2006]
+  dimension_ids: [sila-2, negara-hukum]
+
+- id: ev-mk-putusan-lese-majeste-2006
+  term_id: mk-2003-2008
+  date: "2006-12-06"
+  category: pengadilan
+  title_id: Putusan MK No. 013-022/PUU-IV/2006 Menghapus Pasal Penghinaan Presiden (Lese Majeste)
+  summary_id: >-
+    MK membatalkan Pasal 134, 136 bis, dan 137 KUHAP tentang penghinaan terhadap Presiden/Wapres,
+    menegaskan bahwa dalam negara hukum demokratis berdasar kedaulatan rakyat, Presiden tidak memiliki hak istimewa yang kebal kritik dari warga negara.
+  source_ids: [putusan-mk-013-022-puu-iv-2006]
+  dimension_ids: [kedaulatan-rakyat, negara-hukum]
+
+- id: ev-mk-putusan-jaksa-agung-2010
+  term_id: mk-2008-2013
+  date: "2010-09-22"
+  category: pengadilan
+  title_id: Putusan MK No. 6-13-20/PUU-VIII/2010 tentang Batas Masa Jabatan Jaksa Agung
+  summary_id: >-
+    MK mengabulkan uji materiil UU Kejaksaan yang diajukan Prof. Yusril Ihza Mahendra, memutuskan bahwa masa jabatan Jaksa Agung
+    harus berakhir bersama-sama dengan berakhirnya masa jabatan Presiden atau diberhentikan oleh Presiden dalam periode yang bersangkutan demi kepastian hukum.
+  source_ids: [putusan-mk-6-13-20-puu-viii-2010]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-mk-putusan-organisasi-advokat-2011
+  term_id: mk-2008-2013
+  date: "2011-12-13"
+  category: pengadilan
+  title_id: Putusan MK No. 49/PUU-IX/2011 tentang Penyelenggaraan PKPA dan Organisasi Advokat
+  summary_id: >-
+    MK memutuskan bahwa organisasi advokat dan perguruan tinggi berhak menyelenggarakan Pendidikan Khusus Profesi Advokat (PKPA),
+    mencegah monopoli tunggal dan membuka akses seluas-luasnya bagi sarjana hukum untuk berkarier sebagai penegak hukum yang profesional.
+  source_ids: [putusan-mk-49-puu-ix-2011]
+  dimension_ids: [negara-hukum, sila-2]
+
+- id: ev-bpk-audit-hambalang-2013
+  term_id: bpk-2009-2019
+  date: "2013-08-23"
+  category: kebijakan
+  title_id: Audit Investigatif BPK Kasus Mega Korupsi Wisma Atlet Hambalang Rp463,6 Miliar
+  summary_id: >-
+    BPK RI menyerahkan LHP investigatif tahap II proyek pembangunan P3SON Hambalang kepada DPR dan KPK,
+    mengungkap rekayasa lelang, penggelembungan anggaran tahun jamak (multiyears), dan keterlibatan menteri serta pimpinan badan anggaran DPR.
+  source_ids: [laporan-audit-bpk-hambalang-2013]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-mk-putusan-sda-air-2013
+  term_id: mk-2013-2018
+  date: "2015-02-18"
+  category: pengadilan
+  title_id: Putusan MK No. 85/PUU-XI/2013 Membatalkan UU SDA & Menegaskan Hak Rakyat atas Air
+  summary_id: >-
+    MK membatalkan keseluruhan isi UU No. 7/2004 tentang Sumber Daya Air, menegaskan bahwa privatisasi dan komersialisasi air
+    bertentangan dengan Pasal 33 UUD 1945 dan negara wajib menjamin hak asasi warga negara atas akses air minum yang terjangkau.
+  source_ids: [putusan-mk-85-puu-xi-2013]
+  dimension_ids: [sila-5, tujuan-2]
+
+- id: ev-dpr-uu-asn-2014
+  term_id: dpr-2009-2014
+  date: "2014-01-15"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 5 Tahun 2014 tentang Aparatur Sipil Negara (ASN)
+  summary_id: >-
+    DPR mengesahkan UU ASN yang menerapkan sistem merit berbasis kualifikasi, kompetensi, dan kinerja secara terbuka,
+    serta mendirikan Komisi Aparatur Sipil Negara (KASN) untuk memberantas praktik jual beli jabatan dan politisasi birokrasi.
+  source_ids: [uu-5-2014]
+  dimension_ids: [checks-balances, negara-hukum]
+
+- id: ev-ma-sema-pk-satu-kali-2014
+  term_id: ma-reformasi-sekarang
+  date: "2014-12-31"
+  category: produk-hukum
+  title_id: Penerbitan SEMA No. 07 Tahun 2014 tentang Pembatasan Peninjauan Kembali (PK) Satu Kali
+  summary_id: >-
+    Mahkamah Agung menerbitkan surat edaran yang membatasi permohonan PK hanya dapat diajukan satu kali demi kepastian hukum,
+    memicu dinamika dualisme hukum dengan Putusan Mahkamah Konstitusi No. 34/PUU-XI/2013 yang membolehkan PK lebih dari sekali demi keadilan materiil.
+  source_ids: [sema-07-2014]
+  dimension_ids: [negara-hukum, checks-balances]
+
+
 
 
 

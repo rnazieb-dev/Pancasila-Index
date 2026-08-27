@@ -5996,6 +5996,81 @@
       ]
     },
     {
+      "id": "ev-uu-kuhap-1981",
+      "term_id": "presiden-soeharto",
+      "date": "1981-12-31",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 8 Tahun 1981 tentang Hukum Acara Pidana (KUHAP)",
+      "summary_id": "Pemerintah dan DPR mengesahkan kodifikasi hukum acara pidana nasional 'Karya Agung Bangsa' yang menggantikan HIR warisan kolonial, memperkenalkan lembaga praperadilan, hak bantuan hukum sejak penyidikan, dan asas praduga tak bersalah (presumption of innocence).",
+      "source_ids": [
+        "uu-8-1981"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-uu-unclos-1985",
+      "term_id": "presiden-soeharto",
+      "date": "1985-12-31",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 17 Tahun 1985 tentang Ratifikasi UNCLOS 1982",
+      "summary_id": "Indonesia meratifikasi Konvensi PBB tentang Hukum Laut (UNCLOS 1982), memperoleh pengakuan yuridis internasional mutlak atas prinsip Negara Kepulauan (Archipelagic State Principle) yang diperjuangkan sejak Deklarasi Djuanda 1957.",
+      "source_ids": [
+        "uu-17-1985"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "tujuan-4"
+      ]
+    },
+    {
+      "id": "ev-uu-ptun-1986",
+      "term_id": "presiden-soeharto",
+      "date": "1986-12-29",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 5 Tahun 1986 tentang Peradilan Tata Usaha Negara (PTUN)",
+      "summary_id": "Pembentukan lembaga peradilan tata usaha negara untuk memberikan perlindungan hukum bagi warga masyarakat dari potensi tindakan kesewenang-wenangan atau penyalahgunaan wewenang (detournement de pouvoir) oleh pejabat administrasi negara.",
+      "source_ids": [
+        "uu-5-1986"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-jim-kamboja-1988",
+      "term_id": "presiden-soeharto",
+      "date": "1988-07-28",
+      "category": "peristiwa",
+      "title_id": "Diplomasi Damai Jakarta Informal Meeting (JIM I & II) untuk Kamboja",
+      "summary_id": "Diplomasi bebas aktif Indonesia memfasilitasi perundingan damai faksi-faksi bertikai di Kamboja di Istana Bogor dan Jakarta, membuka jalan bagi Perjanjian Damai Paris 1991 dan membuktikan peran Indonesia dalam mewujudkan perdamaian dunia (Tujuan 4 UUD 1945).",
+      "source_ids": [
+        "arsip-jim-kamboja-1988"
+      ],
+      "dimension_ids": [
+        "tujuan-4",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-ratifikasi-crc-1990",
+      "term_id": "presiden-soeharto",
+      "date": "1990-08-25",
+      "category": "produk-hukum",
+      "title_id": "Keppres No. 36 Tahun 1990 tentang Ratifikasi Konvensi Hak-Hak Anak (CRC)",
+      "summary_id": "Indonesia meratifikasi Konvensi Hak-Hak Anak PBB, mengikatkan diri pada kewajiban moral dan hukum internasional untuk melindungi hak kelangsungan hidup, tumbuh kembang, perlindungan khusus, dan partisipasi anak-anak Indonesia.",
+      "source_ids": [
+        "keppres-36-1990"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "tujuan-2"
+      ]
+    },
+    {
       "id": "ev-tap-mpr-xvii-1998-ham",
       "term_id": "mpr-1971-1999",
       "date": "1998-11-13",
@@ -6235,6 +6310,52 @@
       "dimension_ids": [
         "tujuan-3",
         "sila-5"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-kppu-1999",
+      "term_id": "dpr-1999-2004",
+      "date": "1999-03-05",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 5 Tahun 1999 tentang Larangan Praktik Monopoli dan Persaingan Usaha Tidak Sehat",
+      "summary_id": "DPR bersama Pemerintah mengesahkan regulasi antimonopoli dan mendirikan Komisi Pengawas Persaingan Usaha (KPPU) guna merombak struktur ekonomi oligopoli dan kronisme Orde Baru menuju iklim usaha yang adil, efisien, dan berkeadilan sosial (Sila ke-5).",
+      "source_ids": [
+        "uu-5-1999"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-2"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-perlindungan-konsumen-1999",
+      "term_id": "dpr-1999-2004",
+      "date": "1999-04-20",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 8 Tahun 1999 tentang Perlindungan Konsumen",
+      "summary_id": "DPR mengesahkan payung hukum perlindungan hak-hak konsumen, kewajiban pelaku usaha, standardisasi barang dan jasa berkeselamatan, serta membentuk Badan Perlindungan Konsumen Nasional (BPKN) demi menjamin harkat dan martabat konsumen Indonesia.",
+      "source_ids": [
+        "uu-8-1999"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-tipikor-1999-2001",
+      "term_id": "dpr-1999-2004",
+      "date": "2001-11-21",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 31/1999 jo. UU No. 20/2001 tentang Pemberantasan Tindak Pidana Korupsi",
+      "summary_id": "DPR dan Pemerintah mereformasi hukum materiil pemberantasan korupsi dengan merumuskan 30 bentuk tindak pidana korupsi, delik suap, gratifikasi, perluasan subjek hukum mencakup korporasi, dan pembalikan beban pembuktian secara terbatas.",
+      "source_ids": [
+        "uu-31-1999",
+        "uu-20-2001"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
       ]
     },
     {
@@ -6610,6 +6731,157 @@
       "dimension_ids": [
         "sila-5",
         "tujuan-2"
+      ]
+    },
+    {
+      "id": "ev-dpr-ratifikasi-icescr-iccpr-2005",
+      "term_id": "dpr-2004-2009",
+      "date": "2005-10-28",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 11/2005 (ICESCR) & UU No. 12/2005 (ICCPR) - Ratifikasi Kovenan HAM PBB",
+      "summary_id": "DPR mengesahkan ratifikasi dua kovenan internasional pokok HAM PBB (Kovenan Hak Sipil & Politik serta Kovenan Hak Ekonomi, Sosial, & Budaya), mengintegrasikan standar perlindungan hak asasi manusia universal ke dalam tata hukum nasional Indonesia.",
+      "source_ids": [
+        "uu-11-2005",
+        "uu-12-2005"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-dpr-ratifikasi-uncac-2006",
+      "term_id": "dpr-2004-2009",
+      "date": "2006-04-18",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 7 Tahun 2006 tentang Ratifikasi Konvensi Antikorupsi PBB (UNCAC)",
+      "summary_id": "DPR meratifikasi United Nations Convention Against Corruption (UNCAC 2003) untuk memperkuat kerja sama ekstradisi, bantuan hukum timbal balik (MLA), dan perampasan aset hasil kejahatan korupsi lintas batas yurisdiksi negara.",
+      "source_ids": [
+        "uu-7-2006"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-lpsk-2006",
+      "term_id": "dpr-2004-2009",
+      "date": "2006-08-11",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 13 Tahun 2006 tentang Perlindungan Saksi dan Korban (LPSK)",
+      "summary_id": "DPR mengesahkan undang-undang dan mendirikan Lembaga Perlindungan Saksi dan Korban (LPSK) independen guna memberikan perlindungan fisik, hukum, dan bantuan medis/psikologis bagi saksi kunci, whistleblower, dan korban tindak pidana.",
+      "source_ids": [
+        "uu-13-2006"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-lese-majeste-2006",
+      "term_id": "mk-2003-2008",
+      "date": "2006-12-06",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 013-022/PUU-IV/2006 Menghapus Pasal Penghinaan Presiden (Lese Majeste)",
+      "summary_id": "MK membatalkan Pasal 134, 136 bis, dan 137 KUHAP tentang penghinaan terhadap Presiden/Wapres, menegaskan bahwa dalam negara hukum demokratis berdasar kedaulatan rakyat, Presiden tidak memiliki hak istimewa yang kebal kritik dari warga negara.",
+      "source_ids": [
+        "putusan-mk-013-022-puu-iv-2006"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-jaksa-agung-2010",
+      "term_id": "mk-2008-2013",
+      "date": "2010-09-22",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 6-13-20/PUU-VIII/2010 tentang Batas Masa Jabatan Jaksa Agung",
+      "summary_id": "MK mengabulkan uji materiil UU Kejaksaan yang diajukan Prof. Yusril Ihza Mahendra, memutuskan bahwa masa jabatan Jaksa Agung harus berakhir bersama-sama dengan berakhirnya masa jabatan Presiden atau diberhentikan oleh Presiden dalam periode yang bersangkutan demi kepastian hukum.",
+      "source_ids": [
+        "putusan-mk-6-13-20-puu-viii-2010"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-organisasi-advokat-2011",
+      "term_id": "mk-2008-2013",
+      "date": "2011-12-13",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 49/PUU-IX/2011 tentang Penyelenggaraan PKPA dan Organisasi Advokat",
+      "summary_id": "MK memutuskan bahwa organisasi advokat dan perguruan tinggi berhak menyelenggarakan Pendidikan Khusus Profesi Advokat (PKPA), mencegah monopoli tunggal dan membuka akses seluas-luasnya bagi sarjana hukum untuk berkarier sebagai penegak hukum yang profesional.",
+      "source_ids": [
+        "putusan-mk-49-puu-ix-2011"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-bpk-audit-hambalang-2013",
+      "term_id": "bpk-2009-2019",
+      "date": "2013-08-23",
+      "category": "kebijakan",
+      "title_id": "Audit Investigatif BPK Kasus Mega Korupsi Wisma Atlet Hambalang Rp463,6 Miliar",
+      "summary_id": "BPK RI menyerahkan LHP investigatif tahap II proyek pembangunan P3SON Hambalang kepada DPR dan KPK, mengungkap rekayasa lelang, penggelembungan anggaran tahun jamak (multiyears), dan keterlibatan menteri serta pimpinan badan anggaran DPR.",
+      "source_ids": [
+        "laporan-audit-bpk-hambalang-2013"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-sda-air-2013",
+      "term_id": "mk-2013-2018",
+      "date": "2015-02-18",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 85/PUU-XI/2013 Membatalkan UU SDA & Menegaskan Hak Rakyat atas Air",
+      "summary_id": "MK membatalkan keseluruhan isi UU No. 7/2004 tentang Sumber Daya Air, menegaskan bahwa privatisasi dan komersialisasi air bertentangan dengan Pasal 33 UUD 1945 dan negara wajib menjamin hak asasi warga negara atas akses air minum yang terjangkau.",
+      "source_ids": [
+        "putusan-mk-85-puu-xi-2013"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-2"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-asn-2014",
+      "term_id": "dpr-2009-2014",
+      "date": "2014-01-15",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 5 Tahun 2014 tentang Aparatur Sipil Negara (ASN)",
+      "summary_id": "DPR mengesahkan UU ASN yang menerapkan sistem merit berbasis kualifikasi, kompetensi, dan kinerja secara terbuka, serta mendirikan Komisi Aparatur Sipil Negara (KASN) untuk memberantas praktik jual beli jabatan dan politisasi birokrasi.",
+      "source_ids": [
+        "uu-5-2014"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-ma-sema-pk-satu-kali-2014",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2014-12-31",
+      "category": "produk-hukum",
+      "title_id": "Penerbitan SEMA No. 07 Tahun 2014 tentang Pembatasan Peninjauan Kembali (PK) Satu Kali",
+      "summary_id": "Mahkamah Agung menerbitkan surat edaran yang membatasi permohonan PK hanya dapat diajukan satu kali demi kepastian hukum, memicu dinamika dualisme hukum dengan Putusan Mahkamah Konstitusi No. 34/PUU-XI/2013 yang membolehkan PK lebih dari sekali demi keadilan materiil.",
+      "source_ids": [
+        "sema-07-2014"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
       ]
     },
     {
@@ -7318,6 +7590,157 @@
       ],
       "dimension_ids": [
         "kedaulatan-rakyat",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-spdp-7-hari-2015",
+      "term_id": "mk-2013-2018",
+      "date": "2017-01-11",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 130/PUU-XIII/2015 Kewajiban Penyampaian SPDP Maksimal 7 Hari",
+      "summary_id": "MK memutuskan bahwa penyidik kepolisian dan kejaksaan wajib menyerahkan Surat Pemberitahuan Dimulainya Penyidikan (SPDP) kepada penuntut umum, terlapor, dan korban paling lambat 7 hari setelah terbitnya sprindik demi mencegah kesewenang-wenangan penetapan tersangka.",
+      "source_ids": [
+        "putusan-mk-130-puu-xiii-2015"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-disabilitas-2016",
+      "term_id": "dpr-2014-2019",
+      "date": "2016-04-14",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 8 Tahun 2016 tentang Penyandang Disabilitas",
+      "summary_id": "DPR mengesahkan undang-undang yang mengubah paradigma bantuan sosial (charity-based) menjadi pemenuhan hak asasi (human rights-based), mewajibkan kuota kerja 2% di BUMN/Pemerintah dan 1% di swasta serta aksesibilitas fasilitas publik bagi penyandang disabilitas.",
+      "source_ids": [
+        "uu-8-2016"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "sila-5"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-pasal-kumpul-kebo-2016",
+      "term_id": "mk-2013-2018",
+      "date": "2017-12-14",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 46/PUU-XIV/2016 Menolak Kriminalisasi Delik Kesusilaan Melalui MK",
+      "summary_id": "MK menolak permohonan perluasan delik perzinaan dan hubungan sesama jenis dalam KUHP, menegaskan bahwa kewenangan menciptakan delik pidana baru (kriminalisasi) adalah hak prerogatif pembentuk undang-undang (DPR dan Presiden), bukan Mahkamah Konstitusi.",
+      "source_ids": [
+        "putusan-mk-46-puu-xiv-2016"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ]
+    },
+    {
+      "id": "ev-bpk-audit-ektp-2017",
+      "term_id": "bpk-2009-2019",
+      "date": "2017-06-19",
+      "category": "kebijakan",
+      "title_id": "Audit Investigatif BPK Kerugian Keuangan Negara Proyek e-KTP Rp2,31 Triliun",
+      "summary_id": "BPK RI merampungkan penghitungan kerugian keuangan negara pada proyek e-KTP sebesar Rp2,314 triliun (hampir 50% dari total nilai proyek Rp5,9 triliun), menjadi bukti kunci persidangan tipikor yang menjerat pimpinan DPR RI dan pejabat Kemendagri.",
+      "source_ids": [
+        "laporan-audit-bpk-ektp-2017"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ]
+    },
+    {
+      "id": "ev-ma-perma-gugatan-sederhana-2019",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2019-08-19",
+      "category": "produk-hukum",
+      "title_id": "PERMA No. 4 Tahun 2019 tentang Gugatan Sederhana (Small Claim Court) Maksimal Rp500 Juta",
+      "summary_id": "Mahkamah Agung memperluas batas nilai sengketa gugatan sederhana dari Rp200 juta menjadi Rp500 juta dan memperkenalkan e-court gugatan sederhana demi mempermudah akses keadilan perdata bagi pelaku UMKM dan masyarakat berpenghasilan rendah tanpa proses persidangan berbelit-belit.",
+      "source_ids": [
+        "perma-4-2019"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "tujuan-2"
+      ]
+    },
+    {
+      "id": "ev-mk-putusan-fidusia-2019",
+      "term_id": "mk-2018-2023",
+      "date": "2020-01-06",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 18/PUU-XVII/2019 tentang Eksekusi Jaminan Fidusia",
+      "summary_id": "MK memutuskan bahwa pihak leasing / kreditur tidak boleh menarik secara paksa objek jaminan fidusia (kendaraan/aset) dari debitur secara sepihak, melainkan harus melalui pengajuan permohonan eksekusi ke pengadilan negeri jika debitur tidak mengakui adanya cidera janji (wanprestasi).",
+      "source_ids": [
+        "putusan-mk-18-puu-xvii-2019"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ]
+    },
+    {
+      "id": "ev-dpr-uu-tpks-2022",
+      "term_id": "dpr-2019-2024",
+      "date": "2022-04-12",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 12 Tahun 2022 tentang Tindak Pidana Kekerasan Seksual (UU TPKS)",
+      "summary_id": "DPR bersama Pemerintah mengesahkan payung hukum progresif perlindungan korban kekerasan seksual yang mengatur 9 jenis kekerasan seksual non-fisik dan fisik, hak restitusi korban, dana bantuan korban (trust fund), dan larangan penyelesaian di luar proses peradilan (restorative justice untuk KS).",
+      "source_ids": [
+        "uu-12-2022"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "tujuan-1"
+      ]
+    },
+    {
+      "id": "ev-presiden-uu-fir-ekstradisi-singapura-2023",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2023-01-03",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU Ekstradisi Buronan & Pengembalian FIR RI-Singapura (UU 3 & 5/2023)",
+      "summary_id": "Pemerintah dan DPR mengesahkan perjanjian bersejarah pengalihan kendali ruang udara Kepulauan Riau (FIR) dari Singapura ke Indonesia serta perjanjian ekstradisi buronan korupsi dan kejahatan keuangan yang berlaku surut 18 tahun, memperkuat kedaulatan wilayah udara dan penegakan hukum lintas negara.",
+      "source_ids": [
+        "uu-3-2023",
+        "uu-5-2023"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "tujuan-4"
+      ]
+    },
+    {
+      "id": "ev-mpr-laporan-pphn-2024",
+      "term_id": "mpr-2019-2024",
+      "date": "2024-09-25",
+      "category": "kebijakan",
+      "title_id": "Perumusan Dokumen Pokok-Pokok Haluan Negara (PPHN) oleh MPR RI",
+      "summary_id": "Badan Pengkajian MPR RI merampungkan naskah substansi Pokok-Pokok Haluan Negara (PPHN) sebagai pedoman arah pembangunan berkelanjutan jangka panjang 2025–2045, merekomendasikan penguatan landasan hukum PPHN melalui konvensi ketatanegaraan atau undang-undang payung.",
+      "source_ids": [
+        "laporan-pphn-mpr-2024"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "kedaulatan-rakyat"
+      ]
+    },
+    {
+      "id": "ev-ma-kasus-minyak-goreng-2024",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2024-05-15",
+      "category": "pengadilan",
+      "title_id": "Putusan Kasasi MA Perkara Korupsi Persetujuan Ekspor CPO Minyak Goreng",
+      "summary_id": "Mahkamah Agung menjatuhkan hukuman pidana penjara dan uang pengganti kepada pejabat Kemendag dan petinggi korporasi sawit, menegaskan delik korupsi manipulasi kuota Domestic Market Obligation (DMO) yang memicu kelangkaan minyak goreng dan penderitaan ekonomi rakyat banyak.",
+      "source_ids": [
+        "putusan-ma-kasus-minyak-goreng-2024"
+      ],
+      "dimension_ids": [
+        "sila-5",
         "negara-hukum"
       ]
     },
@@ -10314,6 +10737,280 @@
       "year": 2025,
       "citation_id": "Perpres BPI Danantara 2025",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Peraturan%20Presiden%20tentang%20Pembentukan%20Badan%20Pengelola%20Investasi%20Daya%20Anagata%20Nusantara%20(B"
+    },
+    {
+      "id": "uu-8-1981",
+      "type": "undang-undang",
+      "title_id": "UU No. 8 Tahun 1981 tentang Hukum Acara Pidana (KUHAP)",
+      "year": 1981,
+      "citation_id": "LN No. 76 Tahun 1981, TLN No. 3209",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%208%20Tahun%201981"
+    },
+    {
+      "id": "uu-17-1985",
+      "type": "undang-undang",
+      "title_id": "UU No. 17 Tahun 1985 tentang Pengesahan United Nations Convention on the Law of the Sea (UNCLOS 1982)",
+      "year": 1985,
+      "citation_id": "LN No. 76 Tahun 1985, TLN No. 3319",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2017%20Tahun%201985"
+    },
+    {
+      "id": "uu-5-1986",
+      "type": "undang-undang",
+      "title_id": "UU No. 5 Tahun 1986 tentang Peradilan Tata Usaha Negara (PTUN)",
+      "year": 1986,
+      "citation_id": "LN No. 77 Tahun 1986, TLN No. 3344",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%205%20Tahun%201986"
+    },
+    {
+      "id": "arsip-jim-kamboja-1988",
+      "type": "arsip-nasional",
+      "title_id": "Komunike Bersama Jakarta Informal Meeting (JIM I & II) 1988–1989 untuk Perdamaian Kamboja",
+      "year": 1989,
+      "citation_id": "Arsip Kemenlu RI Dokumen JIM 1989",
+      "resolved_url": "https://duckduckgo.com/?q=Komunike%20Bersama%20Jakarta%20Informal%20Meeting%20(JIM%20I%20%26%20II)%201988%E2%80%931989%20untuk%20Perdamaian%20Kamboja"
+    },
+    {
+      "id": "keppres-36-1990",
+      "type": "keppres",
+      "title_id": "Keppres No. 36 Tahun 1990 tentang Pengesahan Convention on the Rights of the Child (Konvensi Hak-Hak Anak)",
+      "year": 1990,
+      "citation_id": "Keppres No. 36 Tahun 1990",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=KEPPRES%2036%20Tahun%201990"
+    },
+    {
+      "id": "uu-5-1999",
+      "type": "undang-undang",
+      "title_id": "UU No. 5 Tahun 1999 tentang Larangan Praktik Monopoli dan Persaingan Usaha Tidak Sehat (KPPU)",
+      "year": 1999,
+      "citation_id": "LN No. 33 Tahun 1999, TLN No. 3817",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%205%20Tahun%201999"
+    },
+    {
+      "id": "uu-8-1999",
+      "type": "undang-undang",
+      "title_id": "UU No. 8 Tahun 1999 tentang Perlindungan Konsumen (BPKN)",
+      "year": 1999,
+      "citation_id": "LN No. 42 Tahun 1999, TLN No. 3821",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%208%20Tahun%201999"
+    },
+    {
+      "id": "uu-31-1999",
+      "type": "undang-undang",
+      "title_id": "UU No. 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi",
+      "year": 1999,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=31&thn=1999",
+      "citation_id": "LN No. 140 Tahun 1999, TLN No. 3874",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=31&thn=1999"
+    },
+    {
+      "id": "uu-20-2001",
+      "type": "undang-undang",
+      "title_id": "UU No. 20 Tahun 2001 tentang Perubahan atas UU No. 31 Tahun 1999 tentang Pemberantasan Tipikor",
+      "year": 2001,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2001",
+      "citation_id": "LN No. 134 Tahun 2001, TLN No. 4150",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2001"
+    },
+    {
+      "id": "uu-11-2005",
+      "type": "undang-undang",
+      "title_id": "UU No. 11 Tahun 2005 tentang Pengesahan International Covenant on Economic, Social and Cultural Rights (ICESCR)",
+      "year": 2005,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2005",
+      "citation_id": "LN No. 118 Tahun 2005, TLN No. 4557",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2005"
+    },
+    {
+      "id": "uu-12-2005",
+      "type": "undang-undang",
+      "title_id": "UU No. 12 Tahun 2005 tentang Pengesahan International Covenant on Civil and Political Rights (ICCPR)",
+      "year": 2005,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2005",
+      "citation_id": "LN No. 119 Tahun 2005, TLN No. 4558",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2005"
+    },
+    {
+      "id": "uu-7-2006",
+      "type": "undang-undang",
+      "title_id": "UU No. 7 Tahun 2006 tentang Pengesahan United Nations Convention Against Corruption (UNCAC 2003)",
+      "year": 2006,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2006",
+      "citation_id": "LN No. 32 Tahun 2006, TLN No. 4620",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2006"
+    },
+    {
+      "id": "uu-13-2006",
+      "type": "undang-undang",
+      "title_id": "UU No. 13 Tahun 2006 tentang Perlindungan Saksi dan Korban (LPSK)",
+      "year": 2006,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=13&thn=2006",
+      "citation_id": "LN No. 64 Tahun 2006, TLN No. 4635",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=13&thn=2006"
+    },
+    {
+      "id": "putusan-mk-013-022-puu-iv-2006",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 013-022/PUU-IV/2006 (Pembatalan Pasal Penghinaan Presiden / Lese Majeste dalam KUHP)",
+      "year": 2006,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=013-022/PUU-IV/2006",
+      "citation_id": "Putusan MKRI No. 013-022/PUU-IV/2006",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=013-022/PUU-IV/2006"
+    },
+    {
+      "id": "putusan-mk-6-13-20-puu-viii-2010",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 6-13-20/PUU-VIII/2010 (Masa Jabatan Jaksa Agung Berakhir Bersamaan dengan Masa Jabatan Presiden)",
+      "year": 2010,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=6-13-20/PUU-VIII/2010",
+      "citation_id": "Putusan MKRI No. 6-13-20/PUU-VIII/2010",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=6-13-20/PUU-VIII/2010"
+    },
+    {
+      "id": "putusan-mk-49-puu-ix-2011",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 49/PUU-IX/2011 (Penyelenggaraan Pendidikan Khusus Profesi Advokat dan Larangan Monopoli Organisasi Advokat)",
+      "year": 2011,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=49/PUU-IX/2011",
+      "citation_id": "Putusan MKRI No. 49/PUU-IX/2011",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=49/PUU-IX/2011"
+    },
+    {
+      "id": "putusan-mk-85-puu-xi-2013",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 85/PUU-XI/2013 (Pembatalan Seluruh UU No. 7/2004 tentang Sumber Daya Air & Pengutamaan Hak Rakyat atas Air)",
+      "year": 2015,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=85/PUU-XI/2013",
+      "citation_id": "Putusan MKRI No. 85/PUU-XI/2013",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=85/PUU-XI/2013"
+    },
+    {
+      "id": "laporan-audit-bpk-hambalang-2013",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pembangunan Pusat Olahraga Hambalang (P3SON) Rp463,6 Miliar",
+      "year": 2013,
+      "citation_id": "BPK RI LHP Investigatif Hambalang 2013",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemeriksaan%20Investigatif%20BPK%20RI%20atas%20Pembangunan%20Pusat%20Olahraga%20Hambalang%20(P3SON)%20Rp463%2C6%20Miliar"
+    },
+    {
+      "id": "uu-5-2014",
+      "type": "undang-undang",
+      "title_id": "UU No. 5 Tahun 2014 tentang Aparatur Sipil Negara (ASN)",
+      "year": 2014,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=5&thn=2014",
+      "citation_id": "LN No. 6 Tahun 2014, TLN No. 5494",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=5&thn=2014"
+    },
+    {
+      "id": "sema-07-2014",
+      "type": "putusan-ma",
+      "title_id": "Surat Edaran Mahkamah Agung No. 07 Tahun 2014 tentang Pengajuan Permohonan Peninjauan Kembali dalam Perkara Pidana",
+      "year": 2014,
+      "citation_id": "SEMA No. 07 Tahun 2014",
+      "resolved_url": "https://duckduckgo.com/?q=Surat%20Edaran%20Mahkamah%20Agung%20No.%2007%20Tahun%202014%20tentang%20Pengajuan%20Permohonan%20Peninjauan%20Kembali%20dalam%20Perkara%20Pidana"
+    },
+    {
+      "id": "putusan-mk-130-puu-xiii-2015",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 130/PUU-XIII/2015 (Kewajiban Penyidik Menyampaikan SPDP Paling Lambat 7 Hari kepada Terlapor dan Korban)",
+      "year": 2017,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=130/PUU-XIII/2015",
+      "citation_id": "Putusan MKRI No. 130/PUU-XIII/2015",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=130/PUU-XIII/2015"
+    },
+    {
+      "id": "uu-8-2016",
+      "type": "undang-undang",
+      "title_id": "UU No. 8 Tahun 2016 tentang Penyandang Disabilitas",
+      "year": 2016,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=8&thn=2016",
+      "citation_id": "LN No. 69 Tahun 2016, TLN No. 5871",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=8&thn=2016"
+    },
+    {
+      "id": "putusan-mk-46-puu-xiv-2016",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 46/PUU-XIV/2016 (Penolakan Kriminalisasi Hubungan Seksual Konsensual Melalui Mahkamah Konstitusi)",
+      "year": 2017,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=46/PUU-XIV/2016",
+      "citation_id": "Putusan MKRI No. 46/PUU-XIV/2016",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=46/PUU-XIV/2016"
+    },
+    {
+      "id": "laporan-audit-bpk-ektp-2017",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Penghitungan Kerugian Keuangan Negara BPK RI atas Pengadaan Paket e-KTP Nasional Rp2,31 Triliun",
+      "year": 2017,
+      "citation_id": "BPK RI LHP e-KTP 2017",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Penghitungan%20Kerugian%20Keuangan%20Negara%20BPK%20RI%20atas%20Pengadaan%20Paket%20e-KTP%20Nasional%20Rp2%2C31%20Triliun"
+    },
+    {
+      "id": "perma-1-2019",
+      "type": "putusan-ma",
+      "title_id": "Peraturan Mahkamah Agung No. 1 Tahun 2019 tentang Administrasi Perkara dan Persidangan Elektronik (e-Court)",
+      "year": 2019,
+      "citation_id": "Berita Negara RI Tahun 2019 No. 894",
+      "resolved_url": "https://duckduckgo.com/?q=Peraturan%20Mahkamah%20Agung%20No.%201%20Tahun%202019%20tentang%20Administrasi%20Perkara%20dan%20Persidangan%20Elektronik%20(e-Court)"
+    },
+    {
+      "id": "putusan-mk-18-puu-xvii-2019",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 18/PUU-XVII/2019 (Eksekusi Jaminan Fidusia Tidak Boleh Sepihak Tanpa Kesepakatan Cidera Janji)",
+      "year": 2020,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=18/PUU-XVII/2019",
+      "citation_id": "Putusan MKRI No. 18/PUU-XVII/2019",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=18/PUU-XVII/2019"
+    },
+    {
+      "id": "uu-12-2022",
+      "type": "undang-undang",
+      "title_id": "UU No. 12 Tahun 2022 tentang Tindak Pidana Kekerasan Seksual (UU TPKS)",
+      "year": 2022,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2022",
+      "citation_id": "LN No. 120 Tahun 2022, TLN No. 6792",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2022"
+    },
+    {
+      "id": "uu-3-2023",
+      "type": "undang-undang",
+      "title_id": "UU No. 3 Tahun 2023 tentang Pengesahan Persetujuan Batas Wilayah Informasi Penerbangan (FIR) RI-Singapura",
+      "year": 2023,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2023",
+      "citation_id": "LN No. 34 Tahun 2023, TLN No. 6853",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2023"
+    },
+    {
+      "id": "uu-5-2023",
+      "type": "undang-undang",
+      "title_id": "UU No. 5 Tahun 2023 tentang Pengesahan Perjanjian Ekstradisi Buronan RI-Singapura",
+      "year": 2023,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=5&thn=2023",
+      "citation_id": "LN No. 36 Tahun 2023, TLN No. 6855",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=5&thn=2023"
+    },
+    {
+      "id": "putusan-ma-kasus-minyak-goreng-2024",
+      "type": "putusan-ma",
+      "title_id": "Putusan Kasasi Mahkamah Agung No. 1612 K/Pid.Sus/2024 atas Perkara Korupsi Izin Ekspor CPO Minyak Goreng",
+      "year": 2024,
+      "citation_id": "Putusan MA No. 1612 K/Pid.Sus/2024",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20Kasasi%20Mahkamah%20Agung%20No.%201612%20K%2FPid.Sus%2F2024%20atas%20Perkara%20Korupsi%20Izin%20Ekspor%20CPO%20Minyak%20Goreng"
+    },
+    {
+      "id": "laporan-pphn-mpr-2024",
+      "type": "dokumen-mpr",
+      "title_id": "Laporan Hasil Kajian Pokok-Pokok Haluan Negara (PPHN) Badan Pengkajian MPR RI Periode 2019–2024",
+      "year": 2024,
+      "citation_id": "MPR RI Laporan PPHN 2024",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Laporan%20Hasil%20Kajian%20Pokok-Pokok%20Haluan%20Negara%20(PPHN)%20Badan%20Pengkajian%20MPR%20RI%20Periode%202019"
+    },
+    {
+      "id": "perma-4-2019",
+      "type": "putusan-ma",
+      "title_id": "Peraturan Mahkamah Agung No. 4 Tahun 2019 tentang Perubahan Tata Cara Penyelesaian Gugatan Sederhana (Small Claim Court)",
+      "year": 2019,
+      "citation_id": "Berita Negara RI Tahun 2019 No. 944",
+      "resolved_url": "https://duckduckgo.com/?q=Peraturan%20Mahkamah%20Agung%20No.%204%20Tahun%202019%20tentang%20Perubahan%20Tata%20Cara%20Penyelesaian%20Gugatan%20Sederhana%20(Small%20Claim%20Court)"
     }
   ],
   "assessments": [

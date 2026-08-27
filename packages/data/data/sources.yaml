@@ -2091,6 +2091,218 @@
   year: 2025
   citation_id: Perpres BPI Danantara 2025
 
+- id: uu-8-1981
+  type: undang-undang
+  title_id: UU No. 8 Tahun 1981 tentang Hukum Acara Pidana (KUHAP)
+  year: 1981
+  citation_id: LN No. 76 Tahun 1981, TLN No. 3209
+
+- id: uu-17-1985
+  type: undang-undang
+  title_id: UU No. 17 Tahun 1985 tentang Pengesahan United Nations Convention on the Law of the Sea (UNCLOS 1982)
+  year: 1985
+  citation_id: LN No. 76 Tahun 1985, TLN No. 3319
+
+- id: uu-5-1986
+  type: undang-undang
+  title_id: UU No. 5 Tahun 1986 tentang Peradilan Tata Usaha Negara (PTUN)
+  year: 1986
+  citation_id: LN No. 77 Tahun 1986, TLN No. 3344
+
+- id: arsip-jim-kamboja-1988
+  type: arsip-nasional
+  title_id: Komunike Bersama Jakarta Informal Meeting (JIM I & II) 1988–1989 untuk Perdamaian Kamboja
+  year: 1989
+  citation_id: Arsip Kemenlu RI Dokumen JIM 1989
+
+- id: keppres-36-1990
+  type: keppres
+  title_id: Keppres No. 36 Tahun 1990 tentang Pengesahan Convention on the Rights of the Child (Konvensi Hak-Hak Anak)
+  year: 1990
+  citation_id: Keppres No. 36 Tahun 1990
+
+- id: uu-5-1999
+  type: undang-undang
+  title_id: UU No. 5 Tahun 1999 tentang Larangan Praktik Monopoli dan Persaingan Usaha Tidak Sehat (KPPU)
+  year: 1999
+  citation_id: LN No. 33 Tahun 1999, TLN No. 3817
+
+- id: uu-8-1999
+  type: undang-undang
+  title_id: UU No. 8 Tahun 1999 tentang Perlindungan Konsumen (BPKN)
+  year: 1999
+  citation_id: LN No. 42 Tahun 1999, TLN No. 3821
+
+- id: uu-31-1999
+  type: undang-undang
+  title_id: UU No. 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi
+  year: 1999
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=31&thn=1999
+  citation_id: LN No. 140 Tahun 1999, TLN No. 3874
+
+- id: uu-20-2001
+  type: undang-undang
+  title_id: UU No. 20 Tahun 2001 tentang Perubahan atas UU No. 31 Tahun 1999 tentang Pemberantasan Tipikor
+  year: 2001
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2001
+  citation_id: LN No. 134 Tahun 2001, TLN No. 4150
+
+- id: uu-11-2005
+  type: undang-undang
+  title_id: UU No. 11 Tahun 2005 tentang Pengesahan International Covenant on Economic, Social and Cultural Rights (ICESCR)
+  year: 2005
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2005
+  citation_id: LN No. 118 Tahun 2005, TLN No. 4557
+
+- id: uu-12-2005
+  type: undang-undang
+  title_id: UU No. 12 Tahun 2005 tentang Pengesahan International Covenant on Civil and Political Rights (ICCPR)
+  year: 2005
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2005
+  citation_id: LN No. 119 Tahun 2005, TLN No. 4558
+
+- id: uu-7-2006
+  type: undang-undang
+  title_id: UU No. 7 Tahun 2006 tentang Pengesahan United Nations Convention Against Corruption (UNCAC 2003)
+  year: 2006
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2006
+  citation_id: LN No. 32 Tahun 2006, TLN No. 4620
+
+- id: uu-13-2006
+  type: undang-undang
+  title_id: UU No. 13 Tahun 2006 tentang Perlindungan Saksi dan Korban (LPSK)
+  year: 2006
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=13&thn=2006
+  citation_id: LN No. 64 Tahun 2006, TLN No. 4635
+
+- id: putusan-mk-013-022-puu-iv-2006
+  type: putusan-mk
+  title_id: Putusan MK No. 013-022/PUU-IV/2006 (Pembatalan Pasal Penghinaan Presiden / Lese Majeste dalam KUHP)
+  year: 2006
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=013-022/PUU-IV/2006
+  citation_id: Putusan MKRI No. 013-022/PUU-IV/2006
+
+- id: putusan-mk-6-13-20-puu-viii-2010
+  type: putusan-mk
+  title_id: Putusan MK No. 6-13-20/PUU-VIII/2010 (Masa Jabatan Jaksa Agung Berakhir Bersamaan dengan Masa Jabatan Presiden)
+  year: 2010
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=6-13-20/PUU-VIII/2010
+  citation_id: Putusan MKRI No. 6-13-20/PUU-VIII/2010
+
+- id: putusan-mk-49-puu-ix-2011
+  type: putusan-mk
+  title_id: Putusan MK No. 49/PUU-IX/2011 (Penyelenggaraan Pendidikan Khusus Profesi Advokat dan Larangan Monopoli Organisasi Advokat)
+  year: 2011
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=49/PUU-IX/2011
+  citation_id: Putusan MKRI No. 49/PUU-IX/2011
+
+- id: putusan-mk-85-puu-xi-2013
+  type: putusan-mk
+  title_id: Putusan MK No. 85/PUU-XI/2013 (Pembatalan Seluruh UU No. 7/2004 tentang Sumber Daya Air & Pengutamaan Hak Rakyat atas Air)
+  year: 2015
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=85/PUU-XI/2013
+  citation_id: Putusan MKRI No. 85/PUU-XI/2013
+
+- id: laporan-audit-bpk-hambalang-2013
+  type: laporan-lembaga
+  title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pembangunan Pusat Olahraga Hambalang (P3SON) Rp463,6 Miliar
+  year: 2013
+  citation_id: BPK RI LHP Investigatif Hambalang 2013
+
+- id: uu-5-2014
+  type: undang-undang
+  title_id: UU No. 5 Tahun 2014 tentang Aparatur Sipil Negara (ASN)
+  year: 2014
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=5&thn=2014
+  citation_id: LN No. 6 Tahun 2014, TLN No. 5494
+
+- id: sema-07-2014
+  type: putusan-ma
+  title_id: Surat Edaran Mahkamah Agung No. 07 Tahun 2014 tentang Pengajuan Permohonan Peninjauan Kembali dalam Perkara Pidana
+  year: 2014
+  citation_id: SEMA No. 07 Tahun 2014
+
+- id: putusan-mk-130-puu-xiii-2015
+  type: putusan-mk
+  title_id: Putusan MK No. 130/PUU-XIII/2015 (Kewajiban Penyidik Menyampaikan SPDP Paling Lambat 7 Hari kepada Terlapor dan Korban)
+  year: 2017
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=130/PUU-XIII/2015
+  citation_id: Putusan MKRI No. 130/PUU-XIII/2015
+
+- id: uu-8-2016
+  type: undang-undang
+  title_id: UU No. 8 Tahun 2016 tentang Penyandang Disabilitas
+  year: 2016
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=8&thn=2016
+  citation_id: LN No. 69 Tahun 2016, TLN No. 5871
+
+- id: putusan-mk-46-puu-xiv-2016
+  type: putusan-mk
+  title_id: Putusan MK No. 46/PUU-XIV/2016 (Penolakan Kriminalisasi Hubungan Seksual Konsensual Melalui Mahkamah Konstitusi)
+  year: 2017
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=46/PUU-XIV/2016
+  citation_id: Putusan MKRI No. 46/PUU-XIV/2016
+
+- id: laporan-audit-bpk-ektp-2017
+  type: laporan-lembaga
+  title_id: Laporan Penghitungan Kerugian Keuangan Negara BPK RI atas Pengadaan Paket e-KTP Nasional Rp2,31 Triliun
+  year: 2017
+  citation_id: BPK RI LHP e-KTP 2017
+
+- id: perma-1-2019
+  type: putusan-ma
+  title_id: Peraturan Mahkamah Agung No. 1 Tahun 2019 tentang Administrasi Perkara dan Persidangan Elektronik (e-Court)
+  year: 2019
+  citation_id: Berita Negara RI Tahun 2019 No. 894
+
+- id: putusan-mk-18-puu-xvii-2019
+  type: putusan-mk
+  title_id: Putusan MK No. 18/PUU-XVII/2019 (Eksekusi Jaminan Fidusia Tidak Boleh Sepihak Tanpa Kesepakatan Cidera Janji)
+  year: 2020
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=18/PUU-XVII/2019
+  citation_id: Putusan MKRI No. 18/PUU-XVII/2019
+
+- id: uu-12-2022
+  type: undang-undang
+  title_id: UU No. 12 Tahun 2022 tentang Tindak Pidana Kekerasan Seksual (UU TPKS)
+  year: 2022
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2022
+  citation_id: LN No. 120 Tahun 2022, TLN No. 6792
+
+- id: uu-3-2023
+  type: undang-undang
+  title_id: UU No. 3 Tahun 2023 tentang Pengesahan Persetujuan Batas Wilayah Informasi Penerbangan (FIR) RI-Singapura
+  year: 2023
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2023
+  citation_id: LN No. 34 Tahun 2023, TLN No. 6853
+
+- id: uu-5-2023
+  type: undang-undang
+  title_id: UU No. 5 Tahun 2023 tentang Pengesahan Perjanjian Ekstradisi Buronan RI-Singapura
+  year: 2023
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=5&thn=2023
+  citation_id: LN No. 36 Tahun 2023, TLN No. 6855
+
+- id: putusan-ma-kasus-minyak-goreng-2024
+  type: putusan-ma
+  title_id: Putusan Kasasi Mahkamah Agung No. 1612 K/Pid.Sus/2024 atas Perkara Korupsi Izin Ekspor CPO Minyak Goreng
+  year: 2024
+  citation_id: Putusan MA No. 1612 K/Pid.Sus/2024
+
+- id: laporan-pphn-mpr-2024
+  type: dokumen-mpr
+  title_id: Laporan Hasil Kajian Pokok-Pokok Haluan Negara (PPHN) Badan Pengkajian MPR RI Periode 2019–2024
+  year: 2024
+  citation_id: MPR RI Laporan PPHN 2024
+
+- id: perma-4-2019
+  type: putusan-ma
+  title_id: Peraturan Mahkamah Agung No. 4 Tahun 2019 tentang Perubahan Tata Cara Penyelesaian Gugatan Sederhana (Small Claim Court)
+  year: 2019
+  citation_id: Berita Negara RI Tahun 2019 No. 944
+
+
+
 
 
 

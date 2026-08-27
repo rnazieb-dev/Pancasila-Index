@@ -176,6 +176,40 @@
   source_ids: [uu-20-2003]
   dimension_ids: [tujuan-3, sila-5]
 
+- id: ev-dpr-uu-kppu-1999
+  term_id: dpr-1999-2004
+  date: "1999-03-05"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 5 Tahun 1999 tentang Larangan Praktik Monopoli dan Persaingan Usaha Tidak Sehat
+  summary_id: >-
+    DPR bersama Pemerintah mengesahkan regulasi antimonopoli dan mendirikan Komisi Pengawas Persaingan Usaha (KPPU)
+    guna merombak struktur ekonomi oligopoli dan kronisme Orde Baru menuju iklim usaha yang adil, efisien, dan berkeadilan sosial (Sila ke-5).
+  source_ids: [uu-5-1999]
+  dimension_ids: [sila-5, tujuan-2]
+
+- id: ev-dpr-uu-perlindungan-konsumen-1999
+  term_id: dpr-1999-2004
+  date: "1999-04-20"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 8 Tahun 1999 tentang Perlindungan Konsumen
+  summary_id: >-
+    DPR mengesahkan payung hukum perlindungan hak-hak konsumen, kewajiban pelaku usaha, standardisasi barang dan jasa berkeselamatan,
+    serta membentuk Badan Perlindungan Konsumen Nasional (BPKN) demi menjamin harkat dan martabat konsumen Indonesia.
+  source_ids: [uu-8-1999]
+  dimension_ids: [tujuan-2, sila-5]
+
+- id: ev-dpr-uu-tipikor-1999-2001
+  term_id: dpr-1999-2004
+  date: "2001-11-21"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 31/1999 jo. UU No. 20/2001 tentang Pemberantasan Tindak Pidana Korupsi
+  summary_id: >-
+    DPR dan Pemerintah mereformasi hukum materiil pemberantasan korupsi dengan merumuskan 30 bentuk tindak pidana korupsi,
+    delik suap, gratifikasi, perluasan subjek hukum mencakup korporasi, dan pembalikan beban pembuktian secara terbatas.
+  source_ids: [uu-31-1999, uu-20-2001]
+  dimension_ids: [negara-hukum, checks-balances]
+
+
 
 
 

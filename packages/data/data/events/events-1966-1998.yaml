@@ -187,5 +187,61 @@
   source_ids: [pidato-mundur-soeharto-1998]
   dimension_ids: [kedaulatan-rakyat, checks-balances]
 
+- id: ev-uu-kuhap-1981
+  term_id: presiden-soeharto
+  date: "1981-12-31"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 8 Tahun 1981 tentang Hukum Acara Pidana (KUHAP)
+  summary_id: >-
+    Pemerintah dan DPR mengesahkan kodifikasi hukum acara pidana nasional 'Karya Agung Bangsa' yang menggantikan HIR warisan kolonial,
+    memperkenalkan lembaga praperadilan, hak bantuan hukum sejak penyidikan, dan asas praduga tak bersalah (presumption of innocence).
+  source_ids: [uu-8-1981]
+  dimension_ids: [negara-hukum, sila-2]
+
+- id: ev-uu-unclos-1985
+  term_id: presiden-soeharto
+  date: "1985-12-31"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 17 Tahun 1985 tentang Ratifikasi UNCLOS 1982
+  summary_id: >-
+    Indonesia meratifikasi Konvensi PBB tentang Hukum Laut (UNCLOS 1982), memperoleh pengakuan yuridis internasional mutlak
+    atas prinsip Negara Kepulauan (Archipelagic State Principle) yang diperjuangkan sejak Deklarasi Djuanda 1957.
+  source_ids: [uu-17-1985]
+  dimension_ids: [tujuan-1, tujuan-4]
+
+- id: ev-uu-ptun-1986
+  term_id: presiden-soeharto
+  date: "1986-12-29"
+  category: produk-hukum
+  title_id: Pengesahan UU No. 5 Tahun 1986 tentang Peradilan Tata Usaha Negara (PTUN)
+  summary_id: >-
+    Pembentukan lembaga peradilan tata usaha negara untuk memberikan perlindungan hukum bagi warga masyarakat
+    dari potensi tindakan kesewenang-wenangan atau penyalahgunaan wewenang (detournement de pouvoir) oleh pejabat administrasi negara.
+  source_ids: [uu-5-1986]
+  dimension_ids: [negara-hukum, checks-balances]
+
+- id: ev-jim-kamboja-1988
+  term_id: presiden-soeharto
+  date: "1988-07-28"
+  category: peristiwa
+  title_id: Diplomasi Damai Jakarta Informal Meeting (JIM I & II) untuk Kamboja
+  summary_id: >-
+    Diplomasi bebas aktif Indonesia memfasilitasi perundingan damai faksi-faksi bertikai di Kamboja di Istana Bogor dan Jakarta,
+    membuka jalan bagi Perjanjian Damai Paris 1991 dan membuktikan peran Indonesia dalam mewujudkan perdamaian dunia (Tujuan 4 UUD 1945).
+  source_ids: [arsip-jim-kamboja-1988]
+  dimension_ids: [tujuan-4, sila-2]
+
+- id: ev-ratifikasi-crc-1990
+  term_id: presiden-soeharto
+  date: "1990-08-25"
+  category: produk-hukum
+  title_id: Keppres No. 36 Tahun 1990 tentang Ratifikasi Konvensi Hak-Hak Anak (CRC)
+  summary_id: >-
+    Indonesia meratifikasi Konvensi Hak-Hak Anak PBB, mengikatkan diri pada kewajiban moral dan hukum internasional
+    untuk melindungi hak kelangsungan hidup, tumbuh kembang, perlindungan khusus, dan partisipasi anak-anak Indonesia.
+  source_ids: [keppres-36-1990]
+  dimension_ids: [sila-2, tujuan-2]
+
+
 
 
