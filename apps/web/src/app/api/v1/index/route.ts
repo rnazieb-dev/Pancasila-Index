@@ -25,6 +25,12 @@ export function GET() {
       rubric_version: summary?.rubric_version ?? null,
       // Asal-usul angka. Konsumen API tidak melihat footer situs, jadi dasar
       // status harus ada di payload — bukan hanya di disclaimer teratas.
+      index_interval: summary?.index_interval ?? null,
+      mean_confidence: summary?.mean_confidence ?? null,
+      method_version: summary?.method_version ?? null,
+      index_capped: summary?.index_capped ?? false,
+      index_uncapped: summary?.index_uncapped ?? null,
+      non_derogable_breaches: summary?.non_derogable_breaches ?? [],
       basis: summary?.basis ?? null,
       published_assessments: summary?.published_count ?? 0,
       draft_assessments: summary?.draft_count ?? 0,

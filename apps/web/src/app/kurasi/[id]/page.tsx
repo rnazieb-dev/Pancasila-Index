@@ -5,6 +5,7 @@ import { db } from "@/lib/db";
 import { getCurrentUser, hasRole } from "@/lib/authz";
 import { dataset, getSource } from "@pancasila-index/data";
 import { KurasiActions } from "@/components/kurasi-actions";
+import { scoreColor, scoreTextColor } from "@/lib/view";
 
 export const dynamic = "force-dynamic";
 
@@ -136,9 +137,13 @@ export default async function KurasiDetailPage({
                   {ds ? (
                     (() => {
                       const v = Math.round(((ds.score + 2) / 4) * 100);
-                      const color = ds.score <= -1.5 ? "#ef4444" : ds.score < 0 ? "#fb923c" : ds.score === 0 ? "#94a3b8" : ds.score <= 1 ? "#a3e635" : "#22c55e";
+                      // Dulu skala warna skor disalin ulang di sini dengan hex
+                      // hardcoded - salinan keempat, dan tak terbaca di light mode.
                       return (
-                        <span className="rounded-md px-2 py-0.5 text-xs font-bold w-11 text-center tabular-nums" style={{ background: `${color}22`, color }}>
+                        <span
+                          className="rounded-md px-2 py-0.5 text-xs font-bold w-11 text-center tabular-nums"
+                          style={{ background: `${scoreColor(ds.score)}22`, color: scoreTextColor(ds.score) }}
+                        >
                           {v}
                         </span>
                       );

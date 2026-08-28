@@ -3,7 +3,9 @@ import { describe, expect, it } from "vitest";
 import {
   computeIndex,
   computePublicIndex,
+  MAX_UNCERTAINTY_HALFWIDTH,
   MIN_COVERAGE_FOR_INDEX,
+  NON_DEROGABLE_CAPS,
   parseDataset,
   scoreToIndex,
 } from "../src/index.js";
@@ -29,6 +31,7 @@ const testRubric: Rubric = {
       weight: 1,
       anchors: { "-2": "buruk", "0": "netral", "2": "sangat baik" },
       indicators: [],
+      non_derogable: false,
     },
     {
       id: "d2",
@@ -38,6 +41,7 @@ const testRubric: Rubric = {
       weight: 3,
       anchors: { "-2": "buruk", "0": "netral", "2": "sangat baik" },
       indicators: [],
+      non_derogable: false,
     },
     {
       id: "d3",
@@ -47,6 +51,7 @@ const testRubric: Rubric = {
       weight: 2,
       anchors: { "-2": "buruk", "0": "netral", "2": "sangat baik" },
       indicators: [],
+      non_derogable: false,
     },
   ],
 };
@@ -116,24 +121,26 @@ describe("scoreToIndex", () => {
 });
 
 describe("computeIndex (draft-preview)", () => {
-  it("menghitung rerata tertimbang bobot dimensi x keyakinan", () => {
+  it("menghitung rerata tertimbang bobot dimensi SAJA - keyakinan tidak ikut", () => {
     const summary = computeIndex([mkAssessment("a-1", "draft", false, fullScores)], "t-1", testRubric, "draft-preview")!;
 
-    // g1: efektif d1 = 1*0.8 = 0.8 ; d2 = 3*0.5 = 1.5
-    const g1Expected = (1 * 0.8 + -1 * 1.5) / 2.3;
+    // Dihitung tangan. g1: d1 (bobot 1, skor +1), d2 (bobot 3, skor -1)
+    //   -> (1*1 + (-1)*3) / (1+3) = -0.5
+    // Keyakinan (0.8 dan 0.5) TIDAK boleh muncul di sini. Versi lama
+    // menghasilkan -0.3043 karena mengalikan keyakinan ke bobot, sehingga
+    // dimensi berbukti lemah kehilangan pengaruh.
     const g1 = summary.groups.find((g) => g.group_id === "g1")!;
-    expect(g1.score).toBeCloseTo(g1Expected, 9);
+    expect(g1.score).toBeCloseTo(-0.5, 9);
     expect(g1.coverage).toBe(1);
+    // keyakinan dilaporkan terpisah, bukan dilebur ke skor
+    expect(g1.confidence).toBeCloseTo((1 * 0.8 + 3 * 0.5) / 4, 9);
 
     const g2 = summary.groups.find((g) => g.group_id === "g2")!;
     expect(g2.score).toBe(2);
 
-    // indeks keseluruhan: bobot grup 3 dan 1, cakupan penuh
-    const overallRaw = (3 * g1Expected + 1 * 2) / 4; // = 0.271739...
-    const expectedIndex =
-      Math.round((((overallRaw + 2) / 4) * 100 + Number.EPSILON) * 10) / 10;
-    expect(summary.index).toBeCloseTo(expectedIndex, 6);
-    expect(summary.index).toBeCloseTo(56.8, 1);
+    // komposit: bobot grup 3 dan 1, cakupan penuh
+    //   -> (-0.5*3 + 2*1) / 4 = 0.125  ->  ((0.125+2)/4)*100 = 53.125 -> 53.1
+    expect(summary.index).toBe(53.1);
   });
 
   it("menghormati bobot grup dan menurunkan kontribusi grup parsial", () => {
@@ -181,21 +188,17 @@ describe("computeIndex (draft-preview)", () => {
     expect(computeIndex([], "t-1", testRubric, "draft-preview")).toBeNull();
   });
 
-  it("bukti yang lebih beragam menaikkan bobot keyakinan dimensi", () => {
-    // d1: +2 dengan 3 sumber berbeda; d2: -2 dengan 1 sumber.
-    // Tanpa korelasi, rerata = 0 (indeks 50). Dengan korelasi:
-    // efektif d1 = 0.5 + 0.04*2 = 0.58 -> condong positif.
-    const scores: Assessment["dimension_scores"] = [
+  it("bukti yang lebih beragam MENYEMPITKAN rentang tanpa menggeser indeks", () => {
+    // Dulu sumber tambahan menaikkan bobot dimensi sehingga menggeser indeks.
+    // Sekarang korelasi bukti berada di tempat yang benar: ia mempersempit
+    // rentang ketidakpastian, bukan mengubah nilai tengah.
+    const tigaSumber: Assessment["dimension_scores"] = [
       {
         dimension_id: "d1",
         score: 2,
         confidence: 0.5,
         rationale_id: "Rasional yang cukup panjang untuk lolos validasi skema.",
-        evidence: [
-          { source_id: "src-a" },
-          { source_id: "src-b" },
-          { source_id: "src-c" },
-        ],
+        evidence: [{ source_id: "src-a" }, { source_id: "src-b" }, { source_id: "src-c" }],
       },
       {
         dimension_id: "d2",
@@ -205,21 +208,24 @@ describe("computeIndex (draft-preview)", () => {
         evidence: [{ source_id: "src-a" }],
       },
     ];
-    const summary = computeIndex([mkAssessment("a-12", "draft", false, scores)], "t-1", testRubric, "draft-preview")!;
-    // baseline tanpa korelasi (kedua dimensi satu sumber) lebih rendah
-    const baseline = computeIndex(
-      [
-        mkAssessment("a-13", "draft", false, [
-          { ...scores[0]!, evidence: [{ source_id: "src-a" }] },
-          { ...scores[1]! },
-        ]),
-      ],
-      "t-1",
-      testRubric,
-      "draft-preview"
-    )!;
-    expect(summary.index!).toBeGreaterThan(baseline.index!);
-    expect(summary.index).toBeCloseTo(27.9, 1);
+    const satuSumber: Assessment["dimension_scores"] = [
+      { ...tigaSumber[0]!, evidence: [{ source_id: "src-a" }] },
+      { ...tigaSumber[1]! },
+    ];
+
+    const banyak = computeIndex([mkAssessment("a-12", "draft", false, tigaSumber)], "t-1", testRubric, "draft-preview")!;
+    const sedikit = computeIndex([mkAssessment("a-13", "draft", false, satuSumber)], "t-1", testRubric, "draft-preview")!;
+
+    // Dihitung tangan: g1 = (2*1 + (-2)*3)/4 = -1.0 -> indeks 25. Sama persis
+    // untuk kedua kasus, karena jumlah sumber tidak menyentuh nilai tengah.
+    expect(banyak.index).toBe(25);
+    expect(sedikit.index).toBe(banyak.index);
+
+    // Rentangnya yang berbeda: effectiveConfidence(0.5, 3) = 0.58 vs 0.5,
+    // jadi setengah-lebar d1 turun dari 0.25 ke 0.21 satuan skor.
+    const lebar = (s: typeof banyak) => s.index_interval!.high - s.index_interval!.low;
+    expect(lebar(banyak)).toBeLessThan(lebar(sedikit));
+    expect(banyak.mean_confidence).toBeGreaterThan(sedikit.mean_confidence);
   });
 });
 
@@ -509,5 +515,199 @@ describe("regresi: ambang cakupan menahan komposit yang menyesatkan", () => {
     expect(s.coverage).toBe(1);
     expect(s.index).not.toBeNull();
     expect(s.index_suppressed_reason).toBeNull();
+  });
+});
+
+// ---------------------------------------------------------------- skenario tuduhan
+// Tiga blok di bawah mereproduksi PERSIS skenario yang dipakai untuk menuduh
+// mesin skor cacat. Angka "sebelum" dicantumkan di komentar agar perbaikannya
+// tidak bisa diam-diam mundur.
+
+/** Rubrik satu grup berisi lima dimensi setara - meniru grup Lima Sila. */
+function rubrikLimaSila(nonDerogableIds: string[] = []): Rubric {
+  const dim = (id: string) => ({
+    id,
+    group_id: "sila",
+    name_id: id,
+    question_id: `Pertanyaan ${id}?`,
+    weight: 1,
+    anchors: { "-2": "buruk", "0": "netral", "2": "baik" },
+    indicators: [],
+    non_derogable: nonDerogableIds.includes(id),
+  });
+  return {
+    version: "1.0.0",
+    name_id: "Rubrik Lima Sila",
+    description_id: "Satu grup berisi lima dimensi setara.",
+    groups: [{ id: "sila", name_id: "Lima Sila", description_id: "lima sila", weight: 0.4 }],
+    dimensions: ["sila-1", "sila-2", "sila-3", "sila-4", "sila-5"].map(dim),
+  } as unknown as Rubric;
+}
+
+const ds = (
+  dimension_id: string,
+  score: number,
+  confidence: number,
+  extra: Partial<Assessment["dimension_scores"][number]> = {}
+): Assessment["dimension_scores"][number] => ({
+  dimension_id,
+  score,
+  confidence,
+  rationale_id: "Rasional yang cukup panjang untuk lolos validasi skema.",
+  evidence: [{ source_id: "src-x" }],
+  ...extra,
+});
+
+describe("skenario tuduhan: bukti lemah tidak boleh meringankan pelanggaran", () => {
+  it("pelanggaran berat berbukti lemah tetap menekan indeks", () => {
+    // SEBELUM: keyakinan dikalikan ke bobot -> rerata +0.842, indeks 71.1.
+    // SESUDAH: rerata murni (-2 +1 +1 +1 +1)/5 = +0.4, indeks 60.
+    const scores = [
+      ds("sila-2", -2, 0.2),
+      ds("sila-1", 1, 0.9),
+      ds("sila-3", 1, 0.9),
+      ds("sila-4", 1, 0.9),
+      ds("sila-5", 1, 0.9),
+    ];
+    const s = computeIndex(
+      [mkAssessment("a-x", "draft", false, scores, { term_id: "t-1" })],
+      "t-1",
+      rubrikLimaSila(),
+      "draft-preview"
+    )!;
+    expect(s.index).toBe(scoreToIndex(0.4));
+    expect(s.index).toBe(60);
+    expect(s.index).not.toBe(71.1);
+  });
+
+  it("keyakinan rendah melebarkan rentang tanpa menggeser indeks", () => {
+    const yakin = [1, 2, 3, 4, 5].map((i) => ds(`sila-${i}`, 1, 0.9));
+    const raguRagu = [1, 2, 3, 4, 5].map((i) => ds(`sila-${i}`, 1, 0.2));
+    const a = computeIndex([mkAssessment("a", "draft", false, yakin)], "t-1", rubrikLimaSila(), "draft-preview")!;
+    const b = computeIndex([mkAssessment("b", "draft", false, raguRagu)], "t-1", rubrikLimaSila(), "draft-preview")!;
+    expect(b.index).toBe(a.index);
+    const lebar = (s: typeof a) => s.index_interval!.high - s.index_interval!.low;
+    expect(lebar(b)).toBeGreaterThan(lebar(a));
+  });
+
+  it("pemetaan MAX_UNCERTAINTY_HALFWIDTH ke poin indeks dipatok", () => {
+    // Pada keyakinan 0, setengah-lebar = MAX_UNCERTAINTY_HALFWIDTH satuan skor.
+    // 1 satuan skor = 25 poin indeks, jadi 0.5 -> +-12,5 poin.
+    const nol = [1, 2, 3, 4, 5].map((i) => ds(`sila-${i}`, 0, 0));
+    const s = computeIndex([mkAssessment("a", "draft", false, nol)], "t-1", rubrikLimaSila(), "draft-preview")!;
+    expect(s.index).toBe(50);
+    expect(s.index_interval).toEqual({
+      low: scoreToIndex(0 - MAX_UNCERTAINTY_HALFWIDTH),
+      high: scoreToIndex(0 + MAX_UNCERTAINTY_HALFWIDTH),
+    });
+    expect(s.index_interval!.high - s.index_interval!.low).toBe(25);
+  });
+
+  it("rentang tidak keluar dari [0,100] walau keyakinan nol di ujung skala", () => {
+    const ekstrem = [1, 2, 3, 4, 5].map((i) => ds(`sila-${i}`, 2, 0));
+    const s = computeIndex([mkAssessment("a", "draft", false, ekstrem)], "t-1", rubrikLimaSila(), "draft-preview")!;
+    expect(s.index_interval!.high).toBeLessThanOrEqual(100);
+    expect(s.index_interval!.low).toBeGreaterThanOrEqual(0);
+  });
+
+  it("index_interval null tepat ketika index null", () => {
+    const tipis = [ds("sila-1", 2, 0.9)];
+    const s = computeIndex([mkAssessment("a", "draft", false, tipis)], "t-1", rubrikLimaSila(), "draft-preview")!;
+    expect(s.index).toBeNull();
+    expect(s.index_interval).toBeNull();
+  });
+});
+
+describe("skenario tuduhan: pelanggaran hak tak dapat dikurangi tidak boleh ketutup", () => {
+  const rubrik = rubrikLimaSila(["sila-2"]);
+
+  it("pelanggaran berat membatasi komposit di bawah netral", () => {
+    // SEBELUM: -2 pada tiga dimensi + lima +2 -> 62.5, di ATAS netral.
+    // Di sini bentuk minimalnya: -2 pada dimensi bertanda + empat +2.
+    const scores = [ds("sila-2", -2, 0.9), ...[1, 3, 4, 5].map((i) => ds(`sila-${i}`, 2, 0.9))];
+    const s = computeIndex([mkAssessment("a", "draft", false, scores)], "t-1", rubrik, "draft-preview")!;
+    // rerata polos = (-2 +2+2+2+2)/5 = +1.2 -> indeks 80 tanpa batas
+    expect(s.index_uncapped).toBe(80);
+    expect(s.index).toBe(scoreToIndex(NON_DEROGABLE_CAPS.severe));
+    expect(s.index).toBe(25);
+    expect(s.index_capped).toBe(true);
+    expect(s.non_derogable_breaches).toEqual([{ dimension_id: "sila-2", score: -2 }]);
+  });
+
+  it("penggerusan (-1) membatasi di netral, bukan di 25", () => {
+    const scores = [ds("sila-2", -1, 0.9), ...[1, 3, 4, 5].map((i) => ds(`sila-${i}`, 2, 0.9))];
+    const s = computeIndex([mkAssessment("a", "draft", false, scores)], "t-1", rubrik, "draft-preview")!;
+    expect(s.index).toBe(scoreToIndex(NON_DEROGABLE_CAPS.erosion));
+    expect(s.index).toBe(50);
+    expect(s.index_capped).toBe(true);
+  });
+
+  it("batas tidak pernah menaikkan skor", () => {
+    const semuaBaik = [1, 2, 3, 4, 5].map((i) => ds(`sila-${i}`, 2, 0.9));
+    const s = computeIndex([mkAssessment("a", "draft", false, semuaBaik)], "t-1", rubrik, "draft-preview")!;
+    expect(s.index).toBe(100);
+    expect(s.index_capped).toBe(false);
+    expect(s.non_derogable_breaches).toEqual([]);
+  });
+
+  it("skor di bawah plafon dibiarkan apa adanya", () => {
+    // rerata (-2 -2 -2 -2 -2)/5 = -2 -> indeks 0, jauh di bawah plafon 25
+    const semuaBuruk = [1, 2, 3, 4, 5].map((i) => ds(`sila-${i}`, -2, 0.9));
+    const s = computeIndex([mkAssessment("a", "draft", false, semuaBuruk)], "t-1", rubrik, "draft-preview")!;
+    expect(s.index).toBe(0);
+    expect(s.index_capped).toBe(false);
+    expect(s.non_derogable_breaches).toHaveLength(1);
+  });
+
+  it("pelanggaran tetap dilaporkan walau indeks ditahan ambang cakupan", () => {
+    // Kasus paling umum di data nyata: cakupan tipis DAN ada pelanggaran.
+    // Kalau peringatan digantungkan ke angka, fiturnya tidak jalan sama sekali.
+    const tipis = [ds("sila-2", -2, 0.9), ds("sila-1", 1, 0.9)];
+    const s = computeIndex([mkAssessment("a", "draft", false, tipis)], "t-1", rubrik, "draft-preview")!;
+    expect(s.coverage).toBeLessThan(MIN_COVERAGE_FOR_INDEX);
+    expect(s.index).toBeNull();
+    expect(s.index_suppressed_reason).toBe("cakupan-di-bawah-ambang");
+    expect(s.non_derogable_breaches).toEqual([{ dimension_id: "sila-2", score: -2 }]);
+    // dibatasi != ditahan: jangan campur keduanya
+    expect(s.index_capped).toBe(false);
+  });
+
+  it("skor evidence_gap pada dimensi bertanda TIDAK memicu batas", () => {
+    // Harus menyambung dengan aturan pengecualian yang sudah ada: tuduhan
+    // tanpa bukti tidak boleh menghukum, sebagaimana ia tidak boleh memuji.
+    const scores = [
+      ds("sila-2", -2, 0.9, { evidence: [], evidence_gap: true }),
+      ...[1, 3, 4, 5].map((i) => ds(`sila-${i}`, 2, 0.9)),
+    ];
+    const s = computeIndex([mkAssessment("a", "draft", false, scores)], "t-1", rubrik, "draft-preview")!;
+    expect(s.excluded_no_evidence).toBe(1);
+    expect(s.non_derogable_breaches).toEqual([]);
+    expect(s.index_capped).toBe(false);
+    expect(s.index).toBe(100);
+  });
+
+  it("rentang atas ikut dibatasi supaya tidak mengklaim 'mungkin aman'", () => {
+    const scores = [ds("sila-2", -2, 0.3), ...[1, 3, 4, 5].map((i) => ds(`sila-${i}`, 2, 0.3))];
+    const s = computeIndex([mkAssessment("a", "draft", false, scores)], "t-1", rubrik, "draft-preview")!;
+    expect(s.index).toBe(25);
+    expect(s.index_interval!.high).toBeLessThanOrEqual(25);
+    // batas bawah dibiarkan: ketidakpastian ke arah lebih buruk tetap jujur
+    expect(s.index_interval!.low).toBeLessThan(25);
+  });
+});
+
+describe("regresi: skor dimensi tak dikenal dihitung, tidak senyap", () => {
+  it("dimension_id di luar rubrik dilaporkan jumlahnya", () => {
+    const scores = [
+      ds("sila-1", 2, 0.9),
+      ds("sila-2", 2, 0.9),
+      ds("sila-3", 2, 0.9),
+      ds("dimensi-yang-sudah-dihapus", -2, 0.9),
+    ];
+    const s = computeIndex([mkAssessment("a", "draft", false, scores)], "t-1", rubrikLimaSila(), "draft-preview")!;
+    expect(s.excluded_unknown_dimension).toBe(1);
+    expect(s.scored_dimensions).toBe(3);
+    // skor asing tidak boleh menyentuh angkanya
+    expect(s.index).toBe(100);
   });
 });

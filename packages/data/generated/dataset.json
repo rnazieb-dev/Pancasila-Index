@@ -8,19 +8,19 @@
         "id": "sila",
         "name_id": "Lima Sila Pancasila",
         "description_id": "Kepatuhan praktis pada kelima sila sebagai sumber segala sumber hukum negara (TAP MPRS No. XX/MPRS/1966 jo. TAP MPR No. III/MPR/1978).\n",
-        "weight": 5
+        "weight": 0.4
       },
       {
         "id": "pembukaan",
         "name_id": "Empat Tujuan Bernegara (Pembukaan alinea IV)",
         "description_id": "Melindungi segenap bangsa; memajukan kesejahteraan umum; mencerdaskan kehidupan bangsa; ikut melaksanakan ketertiban dunia.\n",
-        "weight": 4
+        "weight": 0.3
       },
       {
         "id": "struktur-uud",
         "name_id": "Norma Struktural UUD 1945",
         "description_id": "Cara kerja konstitusi: negara hukum, saling pengawasan antarlembaga, dan kedaulatan di tangan rakyat.\n",
-        "weight": 3
+        "weight": 0.3
       }
     ],
     "dimensions": [
@@ -62,7 +62,8 @@
               "Pasal 31"
             ]
           }
-        ]
+        ],
+        "non_derogable": false
       },
       {
         "id": "sila-2",
@@ -101,7 +102,8 @@
               "Pasal 28D ayat (1)"
             ]
           }
-        ]
+        ],
+        "non_derogable": true
       },
       {
         "id": "sila-3",
@@ -139,7 +141,8 @@
               "Pembukaan alinea IV"
             ]
           }
-        ]
+        ],
+        "non_derogable": false
       },
       {
         "id": "sila-4",
@@ -179,7 +182,8 @@
               "Pasal 20A ayat (1)"
             ]
           }
-        ]
+        ],
+        "non_derogable": false
       },
       {
         "id": "sila-5",
@@ -218,7 +222,8 @@
               "Pasal 28D ayat (2)"
             ]
           }
-        ]
+        ],
+        "non_derogable": false
       },
       {
         "id": "tujuan-1",
@@ -257,7 +262,8 @@
               "Pasal 25A"
             ]
           }
-        ]
+        ],
+        "non_derogable": false
       },
       {
         "id": "tujuan-2",
@@ -297,7 +303,8 @@
               "Pasal 33 ayat (1)"
             ]
           }
-        ]
+        ],
+        "non_derogable": false
       },
       {
         "id": "tujuan-3",
@@ -335,7 +342,8 @@
               "Pasal 33 ayat (5)"
             ]
           }
-        ]
+        ],
+        "non_derogable": false
       },
       {
         "id": "tujuan-4",
@@ -373,7 +381,8 @@
               "Pembukaan alinea IV"
             ]
           }
-        ]
+        ],
+        "non_derogable": false
       },
       {
         "id": "negara-hukum",
@@ -413,7 +422,8 @@
               "Pasal 1 ayat (3)"
             ]
           }
-        ]
+        ],
+        "non_derogable": false
       },
       {
         "id": "checks-balances",
@@ -454,7 +464,8 @@
               "UU No. 14/2008"
             ]
           }
-        ]
+        ],
+        "non_derogable": false
       },
       {
         "id": "kedaulatan-rakyat",
@@ -494,7 +505,8 @@
               "UU No. 14/2008"
             ]
           }
-        ]
+        ],
+        "non_derogable": false
       }
     ]
   },

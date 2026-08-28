@@ -46,6 +46,11 @@
   --score-zero: #94a3b8;
   --score-pos: #a3e635;
   --score-vpos: #22c55e;
+  --score-vneg-bg: #f8717133;
+  --score-neg-bg: #fb923c33;
+  --score-zero-bg: #94a3b833;
+  --score-pos-bg: #a3e63533;
+  --score-vpos-bg: #22c55e33;
 
   /* Warna SERI pembanding sebagai teks. PRESET_COLORS tetap vivid untuk
      geometri SVG (fill/stroke lewat rangkaian string, tak bisa var()). */
@@ -95,8 +100,13 @@
   --score-vneg: #b91c1c;
   --score-neg: #9a3412;
   --score-zero: #475569;
-  --score-pos: #4d7c0f;
+  --score-pos: #3f6212;
   --score-vpos: #166534;
+  --score-vneg-bg: #b91c1c26;
+  --score-neg-bg: #9a341226;
+  --score-zero-bg: #47556926;
+  --score-pos-bg: #3f621226;
+  --score-vpos-bg: #16653426;
 
   --series-1: #075985;
   --series-2: #9f1239;

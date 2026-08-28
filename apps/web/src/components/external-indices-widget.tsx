@@ -109,7 +109,7 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
   };
 
   return (
-    <div className="mt-8 rounded-2xl border border-sky-500/30 bg-sky-950/10 p-6 space-y-6">
+    <div className="mt-8 rounded-2xl border border-[var(--acc-sky)]/30 bg-[var(--panel)] p-6 space-y-6">
       {/* Header Widget */}
       <div className="flex flex-wrap items-start justify-between gap-4 border-b border-[var(--line)] pb-4">
         <div>
@@ -168,7 +168,7 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
               onClick={() => setSelectedIdxId(isSelected ? null : idx.id)}
               className={`cursor-pointer rounded-xl border p-4 transition flex flex-col justify-between space-y-3 ${
                 isSelected
-                  ? "border-sky-400 bg-sky-950/40 ring-1 ring-sky-400"
+                  ? "border-[var(--acc-sky)] bg-[var(--score-zero-bg)] ring-1 ring-[var(--acc-sky)]"
                   : "border-[var(--line)] bg-[var(--panel)] hover:border-slate-500 hover:bg-[var(--panel)]/80"
               }`}
             >
@@ -231,8 +231,8 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
                         key={p.year}
                         className={`rounded px-1.5 py-0.5 font-mono text-[10px] ${
                           prov
-                            ? "border border-slate-700 bg-slate-800/80 text-slate-300"
-                            : "border border-dashed border-red-500/40 bg-red-950/20 text-slate-400"
+                            ? "border border-[var(--line)] bg-[var(--line)] text-[var(--text)]"
+                            : "border border-dashed border-[var(--acc-red)] bg-[var(--score-vneg-bg)] text-[var(--muted)]"
                         }`}
                         title={
                           prov
@@ -247,7 +247,7 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
                         }
                       >
                         {p.year}:{" "}
-                        <strong className={prov ? "text-[var(--acc-sky-strong)]" : "text-slate-400"}>
+                        <strong className={prov ? "text-[var(--acc-sky-strong)]" : "text-[var(--muted)]"}>
                           {p.score ?? (p.rank ? `#${p.rank}` : "—")}
                         </strong>
                         {!prov && <span className="ml-0.5 text-[var(--acc-red)]">?</span>}

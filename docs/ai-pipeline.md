@@ -47,7 +47,7 @@ raw/index.jsonl (metadata JDIH tervalidasi)
 corpus.ts  — generator MURNI & deterministik:
       • sumber baru hanya utk instrumen yang belum bersumber
       • tanggal dari metadata resmi (ditetapkan > diundangkan > tahun)
-      • dimensi via tabel kata-kunci KONSERVATIF ke 15 dimensi rubrik;
+      • dimensi via tabel kata-kunci KONSERVATIF ke 12 dimensi rubrik;
         amendemen mewarisi topik UU yang diubahnya (rantai, anti-siklus);
         tanpa kecocokan yakin → DILEWATI, bukan ditebak
       │

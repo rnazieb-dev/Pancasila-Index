@@ -87,7 +87,7 @@ const ENDPOINTS: EndpointDoc[] = [
   {
     path: "/api/v1/rubric",
     method: "GET",
-    summary: "Spesifikasi rubrik penilaian v1.0.0 (15 dimensi dan skala jangkar).",
+    summary: "Spesifikasi rubrik penilaian v1.0.0 (12 dimensi dan skala jangkar).",
     exampleUrl: "/api/v1/rubric",
   },
   {

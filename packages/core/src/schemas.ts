@@ -267,6 +267,18 @@ export const rubricDimensionSchema = z.object({
   weight: z.number().positive(),
   anchors: anchorScaleSchema,
   indicators: z.array(rubricIndicatorSchema).default([]),
+  /**
+   * Dimensi ini memuat hak yang TIDAK DAPAT DIKURANGI dalam keadaan apa pun
+   * (Pasal 28I ayat (1) UUD 1945: hak hidup, hak bebas dari penyiksaan).
+   *
+   * Pelanggaran pada dimensi bertanda ini membatasi komposit dan tidak dapat
+   * dilunasi capaian di dimensi lain - lihat scoring.ts. Mesin skor HANYA
+   * membaca field ini; build.mts memverifikasinya terhadap
+   * `indicators[].legal_anchors_id` sebagai auditor, bukan sumber data,
+   * karena jangkar itu teks bebas dan salah tulis akan menghapus jaminan
+   * konstitusional tanpa terlihat.
+   */
+  non_derogable: z.boolean().default(false),
 });
 
 export const rubricSchema = z.object({

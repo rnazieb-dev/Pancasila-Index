@@ -128,7 +128,7 @@ export function GET() {
       },
       "/api/v1/rubric": {
         get: {
-          summary: "Spesifikasi rubrik penilaian v1.0.0 (15 dimensi & jangkar skala)",
+          summary: "Spesifikasi rubrik penilaian v1.0.0 (12 dimensi & jangkar skala)",
           responses: { "200": { description: "Objek rubrik penilaian" } },
         },
       },

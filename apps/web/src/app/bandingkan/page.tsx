@@ -164,7 +164,7 @@ export default function BandingkanPage() {
               mode === "all" ? "bg-red-600 text-white" : "text-[var(--muted)] hover:text-[var(--text)]"
             }`}
           >
-            15 Dimensi Lengkap
+            12 Dimensi Lengkap
           </button>
         </div>
       </div>

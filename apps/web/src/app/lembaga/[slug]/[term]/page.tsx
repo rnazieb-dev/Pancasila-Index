@@ -15,7 +15,7 @@ import { RadarChart } from "@/components/radar-chart";
 import { ExternalIndicesWidget } from "@/components/external-indices-widget";
 import {
   groupName,
-  indexLabel, summaryIndexLabel, summaryIndexNote,
+  indexLabel, summaryIndexLabel, summaryIndexNote, summaryQualLabel, dimensionName,
   periodLabel,
   scoreColor,
   scoreTextColor,
@@ -113,17 +113,56 @@ export default async function TermPage({
         </p>
       )}
 
+      {/* Peringatan pelanggaran hak dasar. Sengaja DI ATAS angka dan tidak
+          bergantung pada ada-tidaknya indeks: aturannya disebut sebelum
+          angkanya, dan mayoritas masa jabatan indeksnya ditahan ambang
+          cakupan sehingga peringatan yang digantungkan ke angka tak berguna. */}
+      {(summary?.non_derogable_breaches.length ?? 0) > 0 && (
+        <div className="mt-5 rounded-xl border border-[var(--acc-red)] bg-[var(--score-vneg-bg)] px-5 py-4">
+          <div className="text-xs font-bold uppercase tracking-wide text-[var(--acc-red)]">
+            Pelanggaran hak yang tidak dapat dikurangi
+          </div>
+          <p className="mt-2 text-sm leading-relaxed text-[var(--text)]">
+            Pasal 28I ayat (1) UUD 1945 menyatakan sebagian hak tidak dapat dikurangi
+            dalam keadaan apa pun — termasuk hak hidup dan hak bebas dari penyiksaan.
+            Penilaian periode ini menemukan pelanggaran pada{" "}
+            {summary!.non_derogable_breaches
+              .map((b) => `${dimensionName(b.dimension_id)} (skor ${b.score})`)
+              .join(", ")}
+            . Pelanggaran seperti ini <strong>tidak dapat dilunasi</strong> capaian di
+            dimensi lain, sehingga indeks komposit diberi batas atas.
+          </p>
+          {summary!.index_capped && (
+            <p className="mt-2 text-xs leading-relaxed text-[var(--muted)]">
+              Tanpa batas itu, komposit periode ini adalah{" "}
+              <strong className="text-[var(--text)]">{summary!.index_uncapped}</strong> —
+              dicantumkan agar batasnya dapat diperiksa, bukan disembunyikan.
+            </p>
+          )}
+        </div>
+      )}
+
       <div className="mt-5 rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 flex flex-wrap items-center gap-6">
         <div>
           <div className="text-xs uppercase tracking-wide text-[var(--muted)]">Indeks draf</div>
           <div
             className="text-4xl font-bold tabular-nums"
-            style={{ color: scoreTextColor(((summary?.index ?? 50) / 25 - 2)) }}
+            style={{ color: summaryQualLabel(summary).color }}
           >
             {summaryIndexLabel(summary)}
           </div>
+          {summary?.index_interval && (
+            <div className="mt-1 text-[11px] tabular-nums text-[var(--muted)]">
+              rentang {summary.index_interval.low}–{summary.index_interval.high}
+              <span className="ml-1.5">(keyakinan {Math.round(summary.mean_confidence * 100)}%)</span>
+            </div>
+          )}
         </div>
-        <div className="text-[11px] text-[var(--muted)]">skala 0–100 · 50 = netral</div>
+        <div className="text-[11px] text-[var(--muted)]">
+          skala 0–100 · 50 = netral
+          <br />
+          {summaryQualLabel(summary).label}
+        </div>
         {summaryIndexNote(summary) && (
           <p className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2 text-[11px] leading-relaxed text-[var(--muted)]">
             {summaryIndexNote(summary)}
@@ -134,6 +173,8 @@ export default async function TermPage({
           {summary?.total_dimensions ?? 0} dimensi rubrik v{summary?.rubric_version ?? "?"}
           <br />
           {assessments.length} penilaian · dasar: <em>{summary?.basis ?? "-"}</em>
+          <br />
+          mesin skor v{summary?.method_version ?? "?"}
           {(summary?.excluded_no_evidence ?? 0) > 0 && (
             <>
               <br />
@@ -197,8 +238,11 @@ export default async function TermPage({
             if (entries.length === 0) return null;
             const avg = entries.reduce((acc, e) => acc + e.ds.score, 0) / entries.length;
             const conf = entries.reduce((acc, e) => acc + e.ds.confidence, 0) / entries.length;
-            const first = entries[0]?.ds;
-            if (!first) return null;
+            // Rentang skor antarpenilai: ditampilkan agar rerata tidak
+            // menyembunyikan ketidaksetujuan, sesuai janji di /metodologi.
+            const skorMin = Math.min(...entries.map((e) => e.ds.score));
+            const skorMax = Math.max(...entries.map((e) => e.ds.score));
+            const adaSelisih = entries.length > 1 && skorMin !== skorMax;
             return (
               <details
                 key={dim.id}
@@ -216,80 +260,112 @@ export default async function TermPage({
                   <span className="text-xs text-[var(--muted)]">
                     keyakinan {Math.round(conf * 100)}%
                   </span>
+                  {adaSelisih && (
+                    <span
+                      className="rounded-full bg-amber-500/15 px-2 py-0.5 text-[10px] font-semibold text-[var(--acc-amber)]"
+                      title={`${entries.length} penilai berselisih: ${skorMin} s.d. ${skorMax}`}
+                    >
+                      penilai berselisih {skorMin > 0 ? "+" : ""}{skorMin} … {skorMax > 0 ? "+" : ""}{skorMax}
+                    </span>
+                  )}
                 </summary>
                 <div className="mt-3 space-y-3 border-t border-[var(--line)] pt-3">
                   <p className="text-sm italic text-[var(--muted)]">{dim.question_id.trim()}</p>
-                  <p className="text-sm">{first.rationale_id.trim()}</p>
-                  <div>
-                    <div className="text-xs uppercase tracking-wide text-[var(--muted)] mt-2">Bukti empiris</div>
-                    {first.evidence.length === 0 ? (
-                      <p className="mt-1 text-xs text-[var(--acc-amber)]">Belum ada bukti empiris - skor menunggu kurasi.</p>
-                    ) : (
-                    <ul className="mt-1.5 space-y-1">
-                      {first.evidence.map((ev) => {
-                        const src = dataset.sources.find((s) => s.id === ev.source_id);
-                        const href = src?.resolved_url ?? src?.url;
-                        return (
-                          <li key={ev.source_id} className="text-xs leading-relaxed">
-                            {href ? (
-                              <>
-                                📄{" "}
-                                <a
-                                  href={href}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)] underline decoration-dotted underline-offset-2"
-                                >
-                                  {src?.title_id ?? ev.source_id} ↗
-                                </a>
-                              </>
-                            ) : (
-                              <span className="text-[var(--muted)]">• {sourceTitle(ev.source_id)}</span>
-                            )}
-                            {ev.note_id ? <span className="text-[var(--muted)]"> — {ev.note_id}</span> : null}
-                          </li>
-                        );
-                      })}
-                    </ul>
-                    )}
-                    {(first.normative_anchors ?? []).length > 0 && (
-                      <div className="mt-2 text-[11px] leading-relaxed text-[var(--muted)]">
-                        Landasan normatif (bukan bukti faktual):{" "}
-                        {(first.normative_anchors ?? []).map((na, i, arr) => {
-                          const src = dataset.sources.find((s) => s.id === na);
-                          return (
-                            <span key={na}>
-                              {src ? (
-                                <a
-                                  href={src.resolved_url ?? src.url}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="underline decoration-dotted underline-offset-2 hover:text-[var(--text)]"
-                                >
-                                  {(src.title_id || "").replace(/\s*\([^)]*\)\s*/g, " ").slice(0, 48).trim()} ↗
-                                </a>
-                              ) : (
-                                na
-                              )}
-                              {i < arr.length - 1 ? " · " : ""}
-                            </span>
-                          );
-                        })}
+
+                  {/* SETIAP penilai ditampilkan, bukan hanya yang pertama.
+                      Sebelumnya skor dirata-ratakan tetapi rasional dan bukti
+                      diambil dari entries[0] saja, sehingga penilai kedua
+                      hilang sepenuhnya - bertentangan dengan janji di halaman
+                      Metodologi bahwa ketidaksetujuan ditampilkan publik. */}
+                  {entries.map((e, idx) => (
+                    <div
+                      key={`${e.assessmentId}-${idx}`}
+                      className={
+                        entries.length > 1
+                          ? "rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 space-y-2"
+                          : "space-y-2"
+                      }
+                    >
+                      {entries.length > 1 && (
+                        <div className="flex flex-wrap items-center gap-2 text-[11px] text-[var(--muted)]">
+                          <span className="font-mono">{e.assessmentId}</span>
+                          <span className="tabular-nums">
+                            skor {e.ds.score > 0 ? "+" : ""}
+                            {e.ds.score} · keyakinan {Math.round(e.ds.confidence * 100)}%
+                          </span>
+                        </div>
+                      )}
+                      <p className="text-sm">{e.ds.rationale_id.trim()}</p>
+                      <div>
+                        <div className="text-xs uppercase tracking-wide text-[var(--muted)] mt-2">Bukti empiris</div>
+                        {e.ds.evidence_gap === true || e.ds.evidence.length === 0 ? (
+                          <p className="mt-1 text-xs text-[var(--acc-amber)]">
+                            Belum berbukti empiris — skor ini <strong>dikeluarkan</strong> dari indeks.
+                          </p>
+                        ) : (
+                          <ul className="mt-1.5 space-y-1">
+                            {e.ds.evidence.map((ev) => {
+                              const src = dataset.sources.find((s) => s.id === ev.source_id);
+                              const href = src?.resolved_url ?? src?.url;
+                              return (
+                                <li key={ev.source_id} className="text-xs leading-relaxed">
+                                  {href ? (
+                                    <>
+                                      📄{" "}
+                                      <a
+                                        href={href}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)] underline decoration-dotted underline-offset-2"
+                                      >
+                                        {src?.title_id ?? ev.source_id} ↗
+                                      </a>
+                                    </>
+                                  ) : (
+                                    <span className="text-[var(--muted)]">• {sourceTitle(ev.source_id)}</span>
+                                  )}
+                                  {ev.note_id ? <span className="text-[var(--muted)]"> — {ev.note_id}</span> : null}
+                                </li>
+                              );
+                            })}
+                          </ul>
+                        )}
+                        {(e.ds.normative_anchors ?? []).length > 0 && (
+                          <div className="mt-2 text-[11px] leading-relaxed text-[var(--muted)]">
+                            Landasan normatif (bukan bukti faktual):{" "}
+                            {(e.ds.normative_anchors ?? []).map((na, i, arr) => {
+                              const src = dataset.sources.find((s) => s.id === na);
+                              return (
+                                <span key={na}>
+                                  {src ? (
+                                    <a
+                                      href={src.resolved_url ?? src.url}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="underline decoration-dotted underline-offset-2 hover:text-[var(--text)]"
+                                    >
+                                      {(src.title_id || "").replace(/\s*\([^)]*\)\s*/g, " ").slice(0, 48).trim()} ↗
+                                    </a>
+                                  ) : (
+                                    na
+                                  )}
+                                  {i < arr.length - 1 ? " · " : ""}
+                                </span>
+                              );
+                            })}
+                          </div>
+                        )}
                       </div>
-                    )}
-                  </div>
-                  {first.event_ids && first.event_ids.length > 0 && (
-                    <div className="text-xs text-[var(--muted)]">
-                      Peristiwa terkait:{" "}
-                      {first.event_ids
-                        .map(
-                          (id) =>
-                            dataset.events.find((e) => e.id === id)?.title_id ??
-                            id
-                        )
-                        .join(" · ")}
+                      {e.ds.event_ids && e.ds.event_ids.length > 0 && (
+                        <div className="text-xs text-[var(--muted)]">
+                          Peristiwa terkait:{" "}
+                          {e.ds.event_ids
+                            .map((id) => dataset.events.find((ev) => ev.id === id)?.title_id ?? id)
+                            .join(" · ")}
+                        </div>
+                      )}
                     </div>
-                  )}
+                  ))}
                 </div>
               </details>
             );

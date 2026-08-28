@@ -24,21 +24,21 @@ groups:
     description_id: >
       Kepatuhan praktis pada kelima sila sebagai sumber segala sumber hukum
       negara (TAP MPRS No. XX/MPRS/1966 jo. TAP MPR No. III/MPR/1978).
-    weight: 5
+    weight: 0.40
 
   - id: pembukaan
     name_id: Empat Tujuan Bernegara (Pembukaan alinea IV)
     description_id: >
       Melindungi segenap bangsa; memajukan kesejahteraan umum; mencerdaskan
       kehidupan bangsa; ikut melaksanakan ketertiban dunia.
-    weight: 4
+    weight: 0.30
 
   - id: struktur-uud
     name_id: Norma Struktural UUD 1945
     description_id: >
       Cara kerja konstitusi: negara hukum, saling pengawasan antarlembaga,
       dan kedaulatan di tangan rakyat.
-    weight: 3
+    weight: 0.30
 
 dimensions:
 
@@ -83,6 +83,7 @@ dimensions:
       Sejauh mana HAM dihormati dan dilindungi, termasuk akuntabilitas
       pelanggaran HAM masa lalu serta pemulihan korban?
     weight: 1
+    non_derogable: true
     anchors:
       "-2": >-
         Pelanggaran HAM berat/sistemik; impunitas aktif; penyiksaan,

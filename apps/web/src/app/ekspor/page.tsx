@@ -24,7 +24,10 @@ export default function EksporPage() {
     }
 
     if (type === "assessments") {
-      const headers = ["assessment_id", "term_id", "status", "dimension_id", "score", "confidence", "rationale_id", "evidence_count"];
+      // evidence_gap & normative_anchors_count ikut diekspor: tanpa keduanya,
+      // pengunduh tidak bisa tahu skor mana yang DIKELUARKAN dari indeks
+      // karena belum berbukti, dan akan salah merekonstruksi angkanya.
+      const headers = ["assessment_id", "term_id", "status", "dimension_id", "score", "confidence", "rationale_id", "evidence_count", "evidence_gap", "normative_anchors_count", "counted_in_index"];
       const rows = dataset.assessments.flatMap((a) =>
         a.dimension_scores.map((ds) => [
           `"${a.id}"`,
@@ -35,6 +38,9 @@ export default function EksporPage() {
           ds.confidence,
           `"${ds.rationale_id.replace(/"/g, '""')}"`,
           ds.evidence.length,
+          ds.evidence_gap === true,
+          (ds.normative_anchors ?? []).length,
+          !(ds.evidence_gap === true || ds.evidence.length === 0),
         ])
       );
       return [headers.join(","), ...rows.map((r) => r.join(","))].join("\n");

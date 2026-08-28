@@ -104,17 +104,43 @@ export function sourceTitle(sourceId: string): string {
  * Predikat kualitatif berdasarkan indeks 0–100.
  * Membantu masyarakat awam memahami bahwa 50 adalah posisi NETRAL, bukan "gagal".
  */
-export function scoreQualLabel(index: number | null): {
+export interface QualLabel {
   label: string;
   color: string;
   bg: string;
-} {
-  if (index === null) return { label: "Belum Dinilai", color: "#8b96ad", bg: "#8b96ad22" };
-  if (index >= 75) return { label: "Teladan / Progresif", color: "#22c55e", bg: "#22c55e22" };
-  if (index >= 56) return { label: "Penguatan Konkret", color: "#a3e635", bg: "#a3e63522" };
-  if (index >= 46) return { label: "Netral / Status Quo", color: "#94a3b8", bg: "#94a3b822" };
-  if (index >= 30) return { label: "Cenderung Menggerus", color: "#fb923c", bg: "#fb923c22" };
-  return { label: "Erosi Berat", color: "#ef4444", bg: "#ef444422" };
+}
+
+export function scoreQualLabel(index: number | null): QualLabel {
+  if (index === null)
+    return { label: "Belum Dinilai", color: "var(--score-zero)", bg: "var(--score-zero-bg)" };
+  if (index >= 75)
+    return { label: "Teladan / Progresif", color: "var(--score-vpos)", bg: "var(--score-vpos-bg)" };
+  if (index >= 56)
+    return { label: "Penguatan Konkret", color: "var(--score-pos)", bg: "var(--score-pos-bg)" };
+  if (index >= 46)
+    return { label: "Netral / Status Quo", color: "var(--score-zero)", bg: "var(--score-zero-bg)" };
+  if (index >= 30)
+    return { label: "Cenderung Menggerus", color: "var(--score-neg)", bg: "var(--score-neg-bg)" };
+  return { label: "Erosi Berat", color: "var(--score-vneg)", bg: "var(--score-vneg-bg)" };
+}
+
+/**
+ * Label kualitatif yang sadar konteks ringkasan.
+ *
+ * WAJIB dipakai di mana pun `AssessmentSummary` tersedia. `scoreQualLabel`
+ * memetakan 46-55 ke "Netral / Status Quo" - jadi masa jabatan yang komposit-
+ * nya DIBATASI ke tepat 50 karena temuan penyiksaan akan tampil sebagai
+ * "netral". Itu lebih buruk daripada cacat yang batas ini perbaiki.
+ */
+export function summaryQualLabel(summary: AssessmentSummary | null): QualLabel {
+  if (summary?.index_capped) {
+    return {
+      label: "Dibatasi: pelanggaran hak dasar",
+      color: "var(--score-vneg)",
+      bg: "var(--score-vneg-bg)",
+    };
+  }
+  return scoreQualLabel(summary?.index ?? null);
 }
 
 /** Konstanta glosarium istilah tatanegara */

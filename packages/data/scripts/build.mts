@@ -55,6 +55,17 @@ function loadArray<T>(relPath: string, schema: { parse: (v: unknown) => T }, lab
 
 // ------------------------------------------------------------------ muat
 
+// JEBAKAN: .sort() itu leksikografis per byte, BUKAN semver. Titik (0x2E)
+// lebih kecil dari huruf, jadi "v1.1.0.yaml" kalah dari "v1.yaml", dan
+// "v10.yaml" kalah dari "v2.yaml". Menambah file rubrik baru bisa diam-diam
+// tidak berpengaruh sama sekali. Nama file juga tidak pernah dicocokkan
+// dengan field `version:` di dalamnya.
+//
+// Belum diperbaiki karena rubrik saat ini ditimpa di tempat (belum ada
+// penilaian yang dipublikasi, jadi belum ada riwayat yang perlu dijaga).
+// WAJIB dibereskan sebelum file rubrik kedua ditambahkan - bareng dukungan
+// multi-versi di datasetSchema, karena build.mts juga menolak penilaian yang
+// rubric_version-nya bukan versi aktif.
 const rubricFiles = readdirSync(join(DATA, "rubric")).filter((f) => f.endsWith(".yaml")).sort();
 if (rubricFiles.length === 0) throw new Error("Tidak ada rubrik di data/rubric/");
 const rubric = rubricSchema.parse(readYaml(join("rubric", rubricFiles[rubricFiles.length - 1]!)));
@@ -288,6 +299,24 @@ for (const a of assessments) {
 for (const d of rubric.dimensions)
   if (!groupIds.has(d.group_id))
     errors.push(`dimensi ${d.id}: group_id "${d.group_id}" tidak ada`);
+
+// ---- audit hak yang tak dapat dikurangi ----
+// Penurunan otomatis dari legal_anchors_id dipakai sebagai AUDITOR, bukan
+// sumber data: mesin skor hanya membaca `non_derogable`. Kalau penurunan ini
+// jadi sumber data, salah tulis ("Pasal 28I ayat 1" tanpa tanda kurung) akan
+// menghapus jaminan konstitusional tanpa terlihat. Sebagai auditor, ia
+// menangkap kontributor yang menambah indikator penyiksaan lalu lupa flagnya.
+const NON_DEROGABLE_PASAL = /28I\s*ayat\s*\(?\s*1\s*\)?/i;
+for (const d of rubric.dimensions) {
+  const menyebut = d.indicators.some((ind) =>
+    ind.legal_anchors_id.some((a) => NON_DEROGABLE_PASAL.test(a))
+  );
+  if (menyebut && !d.non_derogable)
+    errors.push(
+      `dimensi ${d.id}: indikatornya menyebut Pasal 28I ayat (1) (hak yang tidak ` +
+        `dapat dikurangi) tetapi non_derogable belum true`
+    );
+}
 
 for (const bab of uud.babs)
   for (const p of bab.pasal)

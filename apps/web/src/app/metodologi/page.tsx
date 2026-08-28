@@ -1,4 +1,5 @@
 import { dataset } from "@pancasila-index/data";
+import { dimensionInfluence } from "@pancasila-index/core";
 import { MethodologyTabs, type Tab } from "@/components/methodology-tabs";
 
 export const metadata = {
@@ -14,6 +15,10 @@ const scale = [
 ];
 
 export default function MetodologiPage() {
+  // Porsi nyata tiap dimensi terhadap komposit, diturunkan dari rumus
+  // agregasi - bukan dari angka `weight` mentah yang pernah menyesatkan.
+  const influence = dimensionInfluence(dataset.rubric);
+
   const sectionFondasi = (
     <section className="space-y-4">
       <h2 className="text-2xl font-bold">Fondasi Metodologis</h2>
@@ -39,11 +44,22 @@ export default function MetodologiPage() {
             Menguji keselarasan tindakan, undang-undang, keputusan presiden, dan putusan yudikatif terhadap:
           </p>
           <ul className="mt-4 space-y-3 text-sm text-[var(--muted)] list-disc pl-5">
-            {dataset.rubric.groups.map((g) => (
-              <li key={g.id} className="leading-relaxed">
-                <strong className="text-[var(--text)]">{g.name_id}</strong> (bobot {g.weight}) — {g.description_id.trim()}
-              </li>
-            ))}
+            {dataset.rubric.groups.map((g) => {
+              // Porsi NYATA, bukan angka `weight` mentah. Angka bobot pernah
+              // menyesatkan: 5/4/3 kebetulan sama dengan jumlah dimensi tiap
+              // grup, sehingga hierarki yang diumumkan tidak berpengaruh sama
+              // sekali dan pembaca tetap diberi tahu "bobot 5".
+              const dims = dataset.rubric.dimensions.filter((d) => d.group_id === g.id);
+              const porsiGrup = dims.reduce((a, d) => a + (influence.get(d.id) ?? 0), 0);
+              const perDimensi = dims.length > 0 ? porsiGrup / dims.length : 0;
+              return (
+                <li key={g.id} className="leading-relaxed">
+                  <strong className="text-[var(--text)]">{g.name_id}</strong>{" "}
+                  ({(porsiGrup * 100).toFixed(0)}% dari indeks · {dims.length} dimensi ·{" "}
+                  {(perDimensi * 100).toFixed(1)}% per dimensi) — {g.description_id.trim()}
+                </li>
+              );
+            })}
           </ul>
         </div>
 
@@ -137,7 +153,7 @@ export default function MetodologiPage() {
       </div>
 
       <div className="pt-6">
-        <h3 className="text-lg font-semibold mb-4 text-[var(--text)]">Dua Belas Dimensi Penilaian</h3>
+        <h3 id="dimensi" className="text-lg font-semibold mb-4 text-[var(--text)]">Dua Belas Dimensi Penilaian</h3>
         <div className="grid gap-3 sm:grid-cols-2">
           {dataset.rubric.dimensions.map((d) => (
             <div key={d.id} className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-3 shadow-sm">
@@ -158,12 +174,17 @@ export default function MetodologiPage() {
       <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5">
         <h3 className="font-semibold text-lg text-[var(--text)]">Algoritma Penskoran</h3>
         <ol className="mt-4 space-y-3 text-sm text-[var(--muted)] list-decimal pl-5 marker:text-[var(--text)]">
-          <li className="leading-relaxed"><strong>Rata-rata Skor Dimensi:</strong> Skor dimensi dirata-rata lintas reviewer untuk masa jabatan yang sama, dibobot dengan tingkat keyakinan <em>(confidence)</em>.</li>
-          <li className="leading-relaxed"><strong>Skor Kelompok Landasan:</strong> Rerata tertimbang bobot dimensi × keyakinan reviewer.</li>
-          <li className="leading-relaxed"><strong>Indeks Komposit Konstitusional:</strong> Peta linier (0–100) dari rerata tertimbang antargrup. Cakupan penilaian yang kosong (parsial) akan menurunkan kontribusi total.</li>
+          <li className="leading-relaxed"><strong>Rata-rata Skor Dimensi:</strong> Skor dimensi dirata-rata lintas reviewer untuk masa jabatan yang sama. Skor yang belum berbukti empiris dikeluarkan, tidak dirata-ratakan.</li>
+          <li className="leading-relaxed"><strong>Skor Kelompok Landasan:</strong> Rerata tertimbang bobot dimensi. Tingkat keyakinan <em>(confidence)</em> <strong>tidak</strong> ikut membobot — ia melaporkan lebar rentang ketidakpastian. Sebelumnya keyakinan dikalikan ke bobot, sehingga pelanggaran berat yang sulit dibuktikan justru meringankan indeks.</li>
+          <li className="leading-relaxed"><strong>Indeks Komposit:</strong> Peta linier (0–100) dari rerata tertimbang antargrup, dinormalisasi sehingga porsi tiap grup tetap seperti yang diumumkan di atas terlepas dari jumlah dimensinya. Komposit ditahan bila cakupan di bawah 50%.</li>
+          <li className="leading-relaxed"><strong>Batas Hak Dasar:</strong> Pelanggaran pada dimensi yang memuat hak tak dapat dikurangi (Pasal 28I ayat (1)) memberi batas atas pada komposit dan tidak dapat dilunasi capaian di dimensi lain. Nilai sebelum dibatasi tetap diterbitkan.</li>
         </ol>
-        <div className="mt-5 p-3.5 bg-[var(--bg)] rounded-lg border border-[var(--line)] font-mono text-xs text-center text-[var(--muted)] tracking-wide">
-          Indeks = 50 + 25 &times; Σ(Grup_k &times; Bobot_k)
+        <div className="mt-5 p-3.5 bg-[var(--bg)] rounded-lg border border-[var(--line)] font-mono text-xs text-center text-[var(--muted)] tracking-wide leading-relaxed">
+          Grup_k = Σ(skor_d × bobot_d) / Σ(bobot_d)
+          <br />
+          Komposit = Σ(Grup_k × Bobot_k × cakupan_k) / Σ(Bobot_k × cakupan_k)
+          <br />
+          Indeks = min(50 + 25 × Komposit, batas hak dasar)
         </div>
       </div>
 

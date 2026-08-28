@@ -100,9 +100,19 @@ export default function TerjemahanQueuePage() {
                   <h3 className="font-bold text-base text-[var(--text)] mt-1">{dim.name_id}</h3>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="rounded-full bg-emerald-500/20 text-[var(--acc-emerald)] px-2.5 py-0.5 text-[10px] font-semibold">
-                    ✓ Lolos QA Tim
-                  </span>
+                  {/* Status nyata, bukan lencana hijau tanpa syarat. Sebelumnya
+                      "Lolos QA Tim" nempel ke SEMUA dimensi termasuk yang belum
+                      diterjemahkan sama sekali - klaim mutu yang tidak benar
+                      justru di halaman yang meminta orang mengoreksi. */}
+                  {trans?.name && trans?.question ? (
+                    <span className="rounded-full bg-emerald-500/20 text-[var(--acc-emerald)] px-2.5 py-0.5 text-[10px] font-semibold">
+                      Terjemahan tersedia
+                    </span>
+                  ) : (
+                    <span className="rounded-full bg-amber-500/20 text-[var(--acc-amber)] px-2.5 py-0.5 text-[10px] font-semibold">
+                      Belum diterjemahkan
+                    </span>
+                  )}
                   <button
                     onClick={() =>
                       setSuggestModal({
