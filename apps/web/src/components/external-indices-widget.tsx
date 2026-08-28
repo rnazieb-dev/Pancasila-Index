@@ -5,26 +5,30 @@ import type { ExternalIndex, Term } from "@pancasila-index/core";
 
 interface Props {
   term: Term;
+  /**
+   * HANYA indeks yang relevan bagi periode term, sudah dipilih di server
+   * dengan externalIndicesForPeriod(). Komponen ini perender murni: aturan
+   * periodenya tidak diulang di sini agar tidak menyimpang dari server.
+   */
   indices: ExternalIndex[];
+  /** Tahun paling awal yang tersedia di seluruh indeks; untuk keadaan kosong. */
+  earliestAvailableYear: number | null;
 }
 
-export function ExternalIndicesWidget({ term, indices }: Props) {
+export function ExternalIndicesWidget({
+  term,
+  indices,
+  earliestAvailableYear,
+}: Props) {
   const [selectedIdxId, setSelectedIdxId] = useState<string | null>(null);
-
-  if (!indices || indices.length === 0) return null;
 
   // Rentang tahun dari term
   const startYear = parseInt(term.start_date.slice(0, 4), 10);
   const endYear = term.end_date ? parseInt(term.end_date.slice(0, 4), 10) : new Date().getFullYear();
 
-  // Filter indeks yang memiliki data dalam rentang tahun atau tahun terdekat
   const relevantIndices = indices
     .map((idx) => {
-      const pointsInTerm = idx.data.filter(
-        (dp) => dp.year >= startYear && dp.year <= endYear
-      );
-      // Jika tidak ada data spesifik di rentang tahun, ambil 2 data point terbaru
-      const displayPoints = pointsInTerm.length > 0 ? pointsInTerm : idx.data.slice(-2);
+      const displayPoints = idx.data;
       // Titik tanpa skor (hanya peringkat yang terbit) tidak boleh ikut
       // dirata-ratakan - kalau ikut, angka kosong terbaca sebagai nol.
       const scored = displayPoints.filter(
@@ -38,17 +42,34 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
           : null;
       const unverified = displayPoints.filter((p) => !p.provenance).length;
 
-      return {
-        ...idx,
-        displayPoints,
-        avgScore,
-        unverified,
-        hasExactData: pointsInTerm.length > 0,
-      };
+      return { ...idx, displayPoints, avgScore, unverified };
     })
     .filter((idx) => idx.displayPoints.length > 0);
 
-  if (relevantIndices.length === 0) return null;
+  /*
+    Tidak ada indeks eksternal yang mencakup periode ini. Dinyatakan, bukan
+    dihilangkan diam-diam: ketiadaan korroborasi independen untuk sebuah era
+    adalah keterangan yang relevan bagi pembaca - ia menjelaskan mengapa era
+    tersebut sepenuhnya bersandar pada sumber primer.
+  */
+  if (relevantIndices.length === 0) {
+    const awal = earliestAvailableYear;
+    return (
+      <section className="mt-10 rounded-xl border border-dashed border-[var(--line)] bg-[var(--panel)]/50 px-5 py-4">
+        <span className="text-xs font-bold uppercase tracking-wider text-[var(--muted)]">
+          Konteks Independen Global
+        </span>
+        <p className="mt-1.5 text-xs leading-relaxed text-[var(--muted)]">
+          Tidak ada indeks pihak ketiga yang mencakup periode {startYear}–
+          {term.end_date ? endYear : "kini"}
+          {awal !== null ? `; data indeks eksternal yang tersedia baru dimulai ${awal}` : ""}.
+          Penilaian era ini sepenuhnya bersandar pada sumber primer. Angka dari
+          periode lain sengaja tidak ditampilkan di sini, karena tidak dapat
+          menjadi korroborasi bagi era ini.
+        </p>
+      </section>
+    );
+  }
 
   const totalPoints = relevantIndices.reduce((n, i) => n + i.displayPoints.length, 0);
   const totalUnverified = relevantIndices.reduce((n, i) => n + i.unverified, 0);
@@ -211,7 +232,7 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
               <div className="rounded-lg bg-[var(--bg)] p-3 border border-[var(--line)]">
                 <div className="flex items-baseline justify-between">
                   <span className="text-[10px] text-[var(--muted)] font-semibold uppercase tracking-wider">
-                    {idx.hasExactData ? `Rata-rata Era (${startYear}–${endYear})` : "Skor Terkini"}
+                    Rata-rata Era ({startYear}–{endYear})
                   </span>
                   <span className="font-mono text-base font-bold text-[var(--acc-sky-strong)]">
                     {idx.avgScore ?? "—"}{" "}

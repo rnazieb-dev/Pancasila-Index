@@ -3,12 +3,14 @@ import { notFound } from "next/navigation";
 
 import {
   dataset,
+  externalIndicesForPeriod,
   getAssessmentsOfTerm,
   getEventsAboutTerm,
   getEventsOfTerm,
   getInstitution,
   getSource,
   getTermsOfInstitution,
+  termYearRange,
 } from "@pancasila-index/data";
 
 import { RadarChart } from "@/components/radar-chart";
@@ -44,6 +46,15 @@ export default async function TermPage({
   if (!institution || !term) notFound();
 
   const summary = termSummary(term.id);
+  // Pemilihan indeks eksternal dilakukan di SERVER dengan aturan tunggal di
+  // core, sehingga payload klien tidak membawa data di luar periode - dan
+  // aturannya tidak hidup di dua tempat lalu menyimpang.
+  const { startYear, endYear } = termYearRange(term, new Date().getFullYear());
+  const eksternal = externalIndicesForPeriod(
+    dataset.external_indices ?? [],
+    startYear,
+    endYear
+  );
   const assessments = getAssessmentsOfTerm(dataset, term.id);
   const events = getEventsOfTerm(dataset, term.id);
   // Peristiwa yang menjadikan periode ini subjek pemeriksaan meski dicatat di
@@ -379,7 +390,11 @@ export default async function TermPage({
       </section>
 
       {/* Konteks Independen Global (Enrichment) */}
-      <ExternalIndicesWidget term={term} indices={dataset.external_indices ?? []} />
+      <ExternalIndicesWidget
+        term={term}
+        indices={eksternal.relevant}
+        earliestAvailableYear={eksternal.earliestAvailableYear}
+      />
 
       {/* Peristiwa */}
       {events.length > 0 && (
