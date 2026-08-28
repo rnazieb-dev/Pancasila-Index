@@ -69,7 +69,8 @@ dimensions:
       "-1": >-
         Netralitas goyah; aturan atau praktik yang memberatkan kelompok
         keyakinan tertentu tanpa dasar proporsional.
-      "0": Tidak ada tindakan signifikan yang menguatkan ataupun menggerus.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Perlindungan konkret terhadap minoritas beragama; penyelesaian
         sengketa keagamaan secara adil.
@@ -102,7 +103,8 @@ dimensions:
       "-1": >-
         Pengabaian berulang; pembatasan hak tanpa uji proporsionalitas;
         penanganan korban lambat dan setengah hati.
-      "0": Tidak ada perubahan berarti dibanding situasi sebelumnya.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Penegakan hukum HAM konkret; pemulihan korban; pembatasan hak hanya
         dengan dasar kuat, terukur, dan dapat diuji.
@@ -134,7 +136,8 @@ dimensions:
       "-1": >-
         Ketimpangan antarwilayah dibiarkan; retorika perpecahan; otonomi
         daerah digerogoti tanpa ganti mekanisme perlindungan setara.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Penguatan otonomi daerah dan keadilan antarwilayah; pengelolaan
         konflik secara adil dan damai.
@@ -166,7 +169,8 @@ dimensions:
       "-1": >-
         Erosi berulang: legislasi menghindari partisipasi; ruang sipil
         menyempit; integritas pemilu dipertanyakan.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Pemilu kredibel; partisipasi publik nyata; kebebasan pers dan
         berserikat dilindungi konsisten.
@@ -198,7 +202,8 @@ dimensions:
       "-1": >-
         Ketimpangan melebar; program kesejahteraan tidak sampai atau
         tertukar dengan kepentingan patronase.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Perluasan jaminan sosial nyata; pengentasan kemiskinan berbasis
         data; kesempatan kerja layak meningkat.
@@ -232,7 +237,8 @@ dimensions:
       "-1": >-
         Respons krisis lambat/selektif; operasi keamanan berlebihan tanpa
         akuntabilitas.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Perlindungan warga efektif dalam krisis; profesionalisme pertahanan-
         keamanan meningkat dengan kontrol sipil sehat.
@@ -264,7 +270,8 @@ dimensions:
       "-1": >-
         Kualitas layanan dasar stagnan/menurun; belanja negara kurang
         tepat sasaran dan sulit diaudit.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Layanan dasar membaik dan terjangkau; belanja tepat sasaran;
         transparansi anggaran meningkat.
@@ -296,7 +303,8 @@ dimensions:
       "-1": >-
         Mutu pendidikan stagnan; kesenjangan akses kota-desa melebar;
         kebebasan akademik tertekan.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Akses dan mutu pendidikan membaik; anggaran 20% dipenuhi dengan
         kualitas output yang terukur.
@@ -328,7 +336,8 @@ dimensions:
       "-1": >-
         Politik luar negeri reaktif/transaksional; pengabaian kewajiban
         traktat; perlindungan WNI buruk.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Diplomasi bebas-aktif produktif; partisipasi perdamaian PBB;
         ratifikasi instrumen HAM internasional.
@@ -362,7 +371,8 @@ dimensions:
       "-1": >-
         Supremasi hukum goyah: intervensi terhadap aparat penegak hukum;
         kasus besar mengendur.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Kasus penting ditangani tanpa pandang bulu; kepastian hukum
         meningkat.
@@ -394,7 +404,8 @@ dimensions:
       "-1": >-
         Pengabaian berkala terhadap fungsi pengawasan; legislasi kilat
         tanpa telaah; konflik antarlembaga diselesaikan di luar konstitusi.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Putusan MK/MA dihormati; fungsi pengawasan DPR/KY/BPK berjalan;
         proses legislasi patuh prosedur.
@@ -426,7 +437,8 @@ dimensions:
       "-1": >-
         Partisipasi rakyat formalitas; representasi dilemahkan (mis. cara
         pemilihan pimpinan lembaga yang mengunci alternatif).
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Pemilihan berkala bebas-rahasia-jujur-adil; aspirasi publik
         tercermin dalam kebijakan.

@@ -31,7 +31,7 @@
         "question_id": "Sejauh mana tindakan lembaga memperkuat jaminan kebebasan beragama dan hubungan negara-agama yang adil bagi seluruh warga?\n",
         "weight": 1,
         "anchors": {
-          "0": "Tidak ada tindakan signifikan yang menguatkan ataupun menggerus.",
+          "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
           "1": "Perlindungan konkret terhadap minoritas beragama; penyelesaian sengketa keagamaan secara adil.",
           "2": "Penguatan teladan kebebasan beragama; harmonisasi antarumat secara institusional dan berkelanjutan.",
           "-2": "Diskriminasi atau penganiayaan sistemik atas keyakinan; negara memaksakan keyakinan tertentu kepada warga.",
@@ -72,7 +72,7 @@
         "question_id": "Sejauh mana HAM dihormati dan dilindungi, termasuk akuntabilitas pelanggaran HAM masa lalu serta pemulihan korban?\n",
         "weight": 1,
         "anchors": {
-          "0": "Tidak ada perubahan berarti dibanding situasi sebelumnya.",
+          "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
           "1": "Penegakan hukum HAM konkret; pemulihan korban; pembatasan hak hanya dengan dasar kuat, terukur, dan dapat diuji.",
           "2": "Penguatan teladan perlindungan HAM; rekonsiliasi berbasis kebenaran dan keadilan yang menyentuh akar masalah.",
           "-2": "Pelanggaran HAM berat/sistemik; impunitas aktif; penyiksaan, penghilangan paksa, atau eksekusi di luar hukum oleh aparat negara.",
@@ -112,7 +112,7 @@
         "question_id": "Apakah tindakan lembaga memperkuat persatuan dalam kebinekaan - antarwilayah, suku, budaya, dan keyakinan?\n",
         "weight": 1,
         "anchors": {
-          "0": "Tidak ada perubahan berarti.",
+          "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
           "1": "Penguatan otonomi daerah dan keadilan antarwilayah; pengelolaan konflik secara adil dan damai.",
           "2": "Konsolidasi persatuan teladan: keadilan antarwilayah disertai penghargaan penuh terhadap kebinekaan.",
           "-2": "Sentralisasi paksa atau diskriminasi terhadap kelompok/wilayah tertentu; meresahkan kebinekaan demi kepentingan politik.",
@@ -151,7 +151,7 @@
         "question_id": "Sejauh mana demokrasi konstitusional berjalan: integritas pemilu, kebebasan sipil dan pers, serta partisipasi publik dalam kebijakan?\n",
         "weight": 1,
         "anchors": {
-          "0": "Tidak ada perubahan berarti.",
+          "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
           "1": "Pemilu kredibel; partisipasi publik nyata; kebebasan pers dan berserikat dilindungi konsisten.",
           "2": "Konsolidasi demokrasi teladan: akuntabilitas tinggi dan ruang sipil yang melembaga.",
           "-2": "Pembajakan kehendak rakyat; kecurangan elektoral sistemik; represi terhadap kritik, oposisi, atau media.",
@@ -192,7 +192,7 @@
         "question_id": "Apakah kebijakan ekonomi memperluas keadilan distributif sesuai Pasal 33-34: kesejahteraan merata, bukan menumpuk pada segelintir elite?\n",
         "weight": 1,
         "anchors": {
-          "0": "Tidak ada perubahan berarti.",
+          "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
           "1": "Perluasan jaminan sosial nyata; pengentasan kemiskinan berbasis data; kesempatan kerja layak meningkat.",
           "2": "Keadilan sosial teladan: distribusi merata lintas wilayah/kelompok dan berkelanjutan secara fiskal.",
           "-2": "Ekonomi politik yang memiskinkan; penguasaan aset publik oleh oligarki; pengabaian rakyat miskin secara sistemik.",
@@ -232,7 +232,7 @@
         "question_id": "Sejauh mana negara melindungi warga dan wilayah - dari ancaman militer, bencana, hingga kejahatan - secara proporsional dan tidak represif?\n",
         "weight": 1,
         "anchors": {
-          "0": "Tidak ada perubahan berarti.",
+          "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
           "1": "Perlindungan warga efektif dalam krisis; profesionalisme pertahanan- keamanan meningkat dengan kontrol sipil sehat.",
           "2": "Perlindungan teladan: tangguh terhadap ancaman nyata, tunduk pada hukum, dan berpihak pada keselamatan warga.",
           "-2": "Aparat diperlakukan sebagai instrumen represi politik terhadap warga sendiri; perlindungan warga diabaikan saat krisis.",
@@ -272,7 +272,7 @@
         "question_id": "Apakah kebijakan fiskal dan layanan dasar benar-benar memajukan kesejahteraan umum, bukan kesejahteraan kroni?\n",
         "weight": 1,
         "anchors": {
-          "0": "Tidak ada perubahan berarti.",
+          "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
           "1": "Layanan dasar membaik dan terjangkau; belanja tepat sasaran; transparansi anggaran meningkat.",
           "2": "Kesejahteraan umum teladan: hasil pembangunan dirasakan merata dan terverifikasi data independen.",
           "-2": "Penggelapan/pemborosan publik sistemik; layanan dasar runtuh; anggaran dialihkan ke kepentingan elite.",
@@ -313,7 +313,7 @@
         "question_id": "Sejauh mana akses pendidikan, mutu pembelajaran, serta budaya dan iptek benar-benar dicerdaskan?\n",
         "weight": 1,
         "anchors": {
-          "0": "Tidak ada perubahan berarti.",
+          "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
           "1": "Akses dan mutu pendidikan membaik; anggaran 20% dipenuhi dengan kualitas output yang terukur.",
           "2": "Pencerdasan teladan: hasil belajar dunia, kebebasan akademik terjaga, riset dan budaya berkembang.",
           "-2": "Anggaran konstitusional pendidikan diabaikan; kebijakan pendidikan menjadi instrumen indoktrinasi politik.",
@@ -352,7 +352,7 @@
         "question_id": "Apakah politik luar negeri bebas-aktif dan kontribusi pada perdamaian serta keadilan global dijalankan sungguh-sungguh?\n",
         "weight": 1,
         "anchors": {
-          "0": "Tidak ada perubahan berarti.",
+          "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
           "1": "Diplomasi bebas-aktif produktif; partisipasi perdamaian PBB; ratifikasi instrumen HAM internasional.",
           "2": "Teladan internasional: jangkar perdamaian regional dan advokat keadilan global yang konsisten.",
           "-2": "Agresi terhadap negara lain; kompromi kedaulatan secara rahasia; pelanggaran hukum humaniter internasional.",
@@ -391,7 +391,7 @@
         "question_id": "Apakah kekuasaan dijalankan berdasarkan hukum, setiap orang sama di depan hukum, dan penegakan hukumnya non-selektif?\n",
         "weight": 1,
         "anchors": {
-          "0": "Tidak ada perubahan berarti.",
+          "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
           "1": "Kasus penting ditangani tanpa pandang bulu; kepastian hukum meningkat.",
           "2": "Supremasi hukum teladan: siapa pun dapat diaudit/ditindak, proses hukum transparan.",
           "-2": "Rule by law: hukum menjadi senjata politik; impunitas elite; penegakan hukum selektif-flagran.",
@@ -432,7 +432,7 @@
         "question_id": "Apakah relasi eksekutif-legislatif-yudikatif berlangsung sehat: saling mengawasi, menghormati putusan, dan transparan?\n",
         "weight": 1,
         "anchors": {
-          "0": "Tidak ada perubahan berarti.",
+          "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
           "1": "Putusan MK/MA dihormati; fungsi pengawasan DPR/KY/BPK berjalan; proses legislasi patuh prosedur.",
           "2": "Checks and balances teladan: ketaatan konstitusional tinggi dan transparansi antarlembaga melembaga.",
           "-2": "Dominasi satu pusat kekuasaan; lembaga lain dilumpuhkan atau dikooptasi; putusan pengadilan diabaikan.",
@@ -474,7 +474,7 @@
         "question_id": "Apakah legitimasi dan kebijakan mencerminkan kehendak rakyat melalui mekanisme konstitusional yang jujur?\n",
         "weight": 1,
         "anchors": {
-          "0": "Tidak ada perubahan berarti.",
+          "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
           "1": "Pemilihan berkala bebas-rahasia-jujur-adil; aspirasi publik tercermin dalam kebijakan.",
           "2": "Kedaulatan rakyat teladan: keterbukaan informasi dan akuntabilitas langsung kepada publik melembaga.",
           "-2": "Legitimasi direkayasa: politik uang sistemik, manipulasi elektoral, atau pewarisan kekuasaan di luar jalur konstitusional.",

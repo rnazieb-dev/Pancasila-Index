@@ -167,11 +167,31 @@ export default async function KurasiDetailPage({
                       Rubrik v{dataset.rubric.version}
                     </div>
                     <p className="italic text-[var(--muted)]">{dim.question_id.trim()}</p>
-                    <div className="mt-2 text-xs text-[var(--muted)] leading-relaxed">
-                      Jangkar −2: {dim.anchors["-2"]}
-                      <br />
-                      Jangkar +2: {dim.anchors["2"]}
-                    </div>
+                    {/*
+                      Seluruh LIMA jangkar, bukan hanya −2 dan +2. Kurator di
+                      halaman inilah yang memutuskan skornya, jadi menyembunyikan
+                      jangkar −1/0/+1 berarti aturan terpentingnya tidak pernah
+                      terbaca — termasuk bahwa 0 BUKAN untuk kasus tarik-menarik.
+                    */}
+                    <dl className="mt-2 space-y-1 text-xs leading-relaxed text-[var(--muted)]">
+                      {(["-2", "-1", "0", "1", "2"] as const).map((k) => {
+                        const teks = dim.anchors[k];
+                        if (!teks) return null;
+                        const nol = k === "0";
+                        return (
+                          <div key={k} className="grid grid-cols-[2.2rem_1fr] gap-2">
+                            <dt
+                              className={`tabular-nums font-semibold ${
+                                nol ? "text-[var(--acc-amber)]" : "text-[var(--muted)]"
+                              }`}
+                            >
+                              {k === "0" ? "0" : k.startsWith("-") ? `−${k.slice(1)}` : `+${k}`}
+                            </dt>
+                            <dd className={nol ? "text-[var(--text)]" : ""}>{teks.trim()}</dd>
+                          </div>
+                        );
+                      })}
+                    </dl>
                     {dim.indicators.length > 0 && (
                       <ul className="mt-2 text-xs text-[var(--muted)] list-disc pl-4 space-y-0.5">
                         {dim.indicators.map((ind) => (
