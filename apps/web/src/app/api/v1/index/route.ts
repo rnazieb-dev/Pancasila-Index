@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 
 import { dataset } from "@pancasila-index/data";
-import { computeAssessmentSummary } from "@pancasila-index/core";
+import { computeIndex } from "@pancasila-index/core";
+import { INDEX_BASIS } from "@/lib/view";
 
 /**
  * API publik v1: indeks draf per masa jabatan.
@@ -9,10 +10,7 @@ import { computeAssessmentSummary } from "@pancasila-index/core";
  */
 export function GET() {
   const terms = dataset.terms.map((term) => {
-    const assessments = dataset.assessments.filter(
-      (a) => a.term_id === term.id
-    );
-    const summary = computeAssessmentSummary(assessments, dataset.rubric);
+    const summary = computeIndex(dataset.assessments, term.id, dataset.rubric, INDEX_BASIS);
     return {
       term_id: term.id,
       institution: term.institution_id,
@@ -25,7 +23,12 @@ export function GET() {
       index: summary?.index ?? null,
       coverage: summary?.coverage ?? 0,
       rubric_version: summary?.rubric_version ?? null,
-      status: "draft-belum-dikurasi",
+      // Asal-usul angka. Konsumen API tidak melihat footer situs, jadi dasar
+      // status harus ada di payload — bukan hanya di disclaimer teratas.
+      basis: summary?.basis ?? null,
+      published_assessments: summary?.published_count ?? 0,
+      draft_assessments: summary?.draft_count ?? 0,
+      excluded_no_evidence: summary?.excluded_no_evidence ?? 0,
     };
   });
 

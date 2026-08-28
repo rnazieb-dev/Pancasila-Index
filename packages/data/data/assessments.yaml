@@ -43,17 +43,23 @@
       score: -1
       confidence: 0.45
       rationale_id: Krismon memiskinkan jutaan warga dengan kapasitas fiskal negara sangat terbatas.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.45
       rationale_id: Kekerasan Mei 1998 tak tertangani, namun juga tidak ada represi sistemik baru terhadap warga.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-2
       score: -1
       confidence: 0.45
       rationale_id: Daya beli jatuh tajam; program pemulihan ekonomi baru dirintis pada akhir masa jabatan.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.4
@@ -119,17 +125,23 @@
       score: 0
       confidence: 0.4
       rationale_id: Stabilitas ekonomi belum pulih signifikan dan tidak ada pergeseran distribusi besar.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.4
       rationale_id: Perlindungan warga dari konflik komunal masih lemah di Maluku dan Poso.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-2
       score: -1
       confidence: 0.4
       rationale_id: Instabilitas politik menekan iklim usaha dan kesejahteraan umum masyarakat.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.45
@@ -140,7 +152,9 @@
       score: 1
       confidence: 0.5
       rationale_id: Diplomasi aktif dan pendekatan dialog regional dilakukan sungguh-sungguh oleh presiden.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: negara-hukum
       score: 0
       confidence: 0.45
@@ -171,7 +185,9 @@
       score: 0
       confidence: 0.45
       rationale_id: Hubungan agama-negara stabil tanpa perubahan kebijakan berarti dua arah.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: -1
       confidence: 0.4
@@ -182,7 +198,9 @@
       score: 1
       confidence: 0.5
       rationale_id: Integrasi nasional terjaga; penindakan terorisme tidak memakai framing SARA.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-4
       score: 1
       confidence: 0.55
@@ -193,7 +211,9 @@
       score: 0
       confidence: 0.4
       rationale_id: Pertumbuhan ekonomi pulih bertahap namun ketimpangan tidak berubah berarti.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.5
@@ -204,7 +224,9 @@
       score: 0
       confidence: 0.4
       rationale_id: Kebijakan ekonomi netral dengan layanan dasar yang stagnan.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.4
@@ -247,12 +269,16 @@
       score: -1
       confidence: 0.4
       rationale_id: SKB 3 Menteri 2008 membatasi kebebasan beragama Ahmadiyah secara resmi. Intoleransi terhadap minoritas keagamaan meningkat tanpa respons protektif presiden. Kekerasan terhadap jemaat Ahmadiyah di Cikeusik 2011 (era SBY II) berakar dari kebijakan SKB era ini.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: 0
       confidence: 0.45
       rationale_id: Penanganan HAM masa lalu stagnan tanpa pelanggaran baru berskala besar terdokumentasi.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-3
       score: 1
       confidence: 0.6
@@ -280,7 +306,9 @@
       score: 1
       confidence: 0.45
       rationale_id: Ekspansi belanja sosial dan infrastruktur dasar meningkatkan kesejahteraan umum.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.4
@@ -323,12 +351,16 @@
       score: 0
       confidence: 0.4
       rationale_id: Netralitas agama-negara berjalan tanpa perubahan kebijakan berarti.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: 0
       confidence: 0.4
       rationale_id: Impunitas HAM lanjut tanpa pelanggaran baru masif yang terdokumentasi.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-3
       score: 1
       confidence: 0.45
@@ -361,7 +393,9 @@
       score: 0
       confidence: 0.35
       rationale_id: Investasi nominal pendidikan naik namun hasil belajar stagnan.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.45
@@ -398,7 +432,9 @@
       score: -1
       confidence: 0.4
       rationale_id: Kasus blasfemi Ahok dieksploitasi tanpa respons protektif terhadap pluralisme; SKB Ahmadiyah 2008 dipertahankan; intoleransi terhadap minoritas keagamaan meningkat tanpa kebijakan korektif.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: -1
       confidence: 0.45
@@ -427,7 +463,9 @@
       score: 0
       confidence: 0.4
       rationale_id: Perlindungan warga standar; respons awal pandemi terjadi di akhir periode.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.5
@@ -437,12 +475,16 @@
       score: 1
       confidence: 0.4
       rationale_id: Merdeka Belajar dan KIP memperluas akses pendidikan meski mutu belum terukur.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.4
       rationale_id: Diplomasi ekonomi aktif tanpa lonjakan kontribusi perdamaian global.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: negara-hukum
       score: -2
       confidence: 0.5
@@ -513,12 +555,16 @@
       score: 0
       confidence: 0.4
       rationale_id: Program pendidikan berlanjut tanpa lonjakan mutu yang terukur.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.4
       rationale_id: Kepemimpinan ASEAN terkendala kebuntuan krisis Myanmar.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: negara-hukum
       score: -2
       confidence: 0.55
@@ -551,7 +597,9 @@
       score: 0
       confidence: 0.3
       rationale_id: Periode masih berjalan; belum ada kebijakan agama-negara signifikan yang tercatat.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: -1
       confidence: 0.3
@@ -562,7 +610,9 @@
       score: 0
       confidence: 0.3
       rationale_id: Data periode berjalan belum cukup untuk menilai arah integrasi nasional.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-4
       score: -1
       confidence: 0.35
@@ -579,7 +629,9 @@
       score: 0
       confidence: 0.3
       rationale_id: Arah perlindungan warga belum dapat dinilai tegas pada periode berjalan.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.3
@@ -626,7 +678,9 @@
       score: 0
       confidence: 0.4
       rationale_id: Isu agama-negara bukan agenda utama legislasi periode ini.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: 1
       confidence: 0.5
@@ -653,12 +707,16 @@
       score: 0
       confidence: 0.35
       rationale_id: Agenda pertahanan keamanan belum menjadi fokus legislasi periode ini.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.4
       rationale_id: Produk legislasi kesejahteraan masih dasar dan bertahap.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.45
@@ -668,7 +726,9 @@
       score: 0
       confidence: 0.35
       rationale_id: Agenda ketertiban dunia belum nyata dalam produk legislasi.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.65
@@ -701,12 +761,16 @@
       score: 0
       confidence: 0.4
       rationale_id: Tidak ada produk legislasi agama-negara yang signifikan pada periode ini.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: 0
       confidence: 0.45
       rationale_id: Legislasi HAM stagnan tanpa kemunduran berarti.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-3
       score: 1
       confidence: 0.5
@@ -727,22 +791,30 @@
       score: 0
       confidence: 0.35
       rationale_id: Legislasi pertahanan belum menjadi prioritas nyata periode ini.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.4
       rationale_id: Fungsi anggaran mulai profesional dengan dukungan kapasitas teknis dewan.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.4
       rationale_id: Agenda pendidikan hadir dalam legislasi meski hasilnya beragam.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.35
       rationale_id: Agenda internasional tidak menonjol dalam produk legislasi periode ini.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: negara-hukum
       score: 0
       confidence: 0.5
@@ -773,17 +845,23 @@
       score: 0
       confidence: 0.4
       rationale_id: Agenda agama-negara tidak dominan dalam legislasi periode ini.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: 0
       confidence: 0.4
       rationale_id: Legislasi HAM stagnan tanpa kemajuan berarti.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-3
       score: 0
       confidence: 0.45
       rationale_id: Kebijakan otonomi daerah cenderung sentralistis tanpa perbaikan berarti.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-4
       score: 0
       confidence: 0.5
@@ -800,7 +878,9 @@
       score: 0
       confidence: 0.35
       rationale_id: Pengawasan sektor keamanan tetap lemah.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.4
@@ -811,12 +891,16 @@
       score: 0
       confidence: 0.35
       rationale_id: Tidak ada terobosan legislasi pendidikan yang berdampak terukur.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.35
       rationale_id: Agenda internasional tidak menjadi sorotan legislasi.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: negara-hukum
       score: 0
       confidence: 0.45
@@ -848,7 +932,9 @@
       score: 0
       confidence: 0.4
       rationale_id: Agenda agama-negara muncul sporadis tanpa legislasi besar.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: -1
       confidence: 0.45
@@ -877,7 +963,9 @@
       score: 0
       confidence: 0.35
       rationale_id: Pengawasan sektor keamanan tidak menonjol.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.4
@@ -893,7 +981,9 @@
       score: 0
       confidence: 0.35
       rationale_id: Agenda internasional tidak menonjol dalam produk legislasi.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: negara-hukum
       score: -2
       confidence: 0.5
@@ -936,7 +1026,9 @@
       score: 0
       confidence: 0.45
       rationale_id: Isu integrasi nasional bukan sorotan utama legislasi periode ini.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-4
       score: -2
       confidence: 0.6
@@ -953,7 +1045,9 @@
       score: 0
       confidence: 0.35
       rationale_id: Pengawasan sektor keamanan tetap lemah.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.45
@@ -964,12 +1058,16 @@
       score: 0
       confidence: 0.4
       rationale_id: Tidak ada terobosan legislasi pendidikan yang signifikan.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.4
       rationale_id: Agenda internasional tidak menonjol dalam produk legislasi.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: negara-hukum
       score: -2
       confidence: 0.55
@@ -1002,7 +1100,9 @@
       score: 0
       confidence: 0.3
       rationale_id: Periode masih awal berjalan tanpa isu agama-negara besar.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: -1
       confidence: 0.3
@@ -1013,7 +1113,9 @@
       score: 0
       confidence: 0.3
       rationale_id: Data periode berjalan belum cukup untuk penilaian.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-4
       score: -1
       confidence: 0.35
@@ -1024,12 +1126,16 @@
       score: 0
       confidence: 0.3
       rationale_id: Belum ada produk kesejahteraan besar dari dewan periode ini.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.3
       rationale_id: Pengawasan pertahanan belum menonjol.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.3
@@ -1040,12 +1146,16 @@
       score: 0
       confidence: 0.3
       rationale_id: Agenda pendidikan belum menjadi sorotan.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.3
       rationale_id: Agenda internasional belum menonjol.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: negara-hukum
       score: -1
       confidence: 0.3
@@ -1078,12 +1188,16 @@
       score: 0
       confidence: 0.3
       rationale_id: Perkara kebebasan beragama belum menjadi agenda dominan majelis pertama.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: 1
       confidence: 0.4
       rationale_id: Putusan awal mulai melindungi hak warga dari pembatasan berlebihan.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-4
       score: 1
       confidence: 0.5
@@ -1094,7 +1208,9 @@
       score: 1
       confidence: 0.55
       rationale_id: Standar judicial review dan keterbukaan sidang dibangun sejak periode pertama.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: checks-balances
       score: 2
       confidence: 0.6
@@ -1105,7 +1221,9 @@
       score: 1
       confidence: 0.5
       rationale_id: Putusan pemilu memperkuat kehendak rakyat sebagai sumber legitimasi.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
 
 - id: asm-mk08
   term_id: mk-2008-2013
@@ -1120,7 +1238,9 @@
       score: 0
       confidence: 0.3
       rationale_id: Tidak ada perkara agama-negara yang menonjol pada periode ini.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: 2
       confidence: 0.5
@@ -1131,7 +1251,9 @@
       score: 1
       confidence: 0.5
       rationale_id: Aktivitas uji materi elektoral tetap produktif dan berpihak pada pemilih.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: negara-hukum
       score: -2
       confidence: 0.55
@@ -1148,7 +1270,9 @@
       score: 1
       confidence: 0.45
       rationale_id: Putusan-putusan elektoral tetap menjaga suara rakyat meski reputasi goyah.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
 
 - id: asm-mk13
   term_id: mk-2013-2018
@@ -1163,12 +1287,16 @@
       score: 0
       confidence: 0.3
       rationale_id: Agenda agama-negara belum menjadi fokus putusan periode ini.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: 0
       confidence: 0.4
       rationale_id: Perlindungan HAM dalam putusan berjalan tanpa landmark besar.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-4
       score: 2
       confidence: 0.55
@@ -1179,12 +1307,16 @@
       score: 1
       confidence: 0.5
       rationale_id: Reformasi tata kelola etik internal berjalan pasca-skandal Akil Mochtar.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: checks-balances
       score: 1
       confidence: 0.5
       rationale_id: Kemandirian majelis pulih bertahap setelah krisis integritas.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.5
@@ -1205,12 +1337,16 @@
       score: 0
       confidence: 0.35
       rationale_id: Belum ada putusan agama-negara yang mengubah lanskap periode ini.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: 0
       confidence: 0.4
       rationale_id: Perlindungan HAM dalam yurisprudensi berjalan tanpa arah baru.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-4
       score: -2
       confidence: 0.5
@@ -1249,17 +1385,23 @@
       score: 0
       confidence: 0.25
       rationale_id: Periode masih berjalan tanpa perkara agama-negara signifikan.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-2
       score: 0
       confidence: 0.25
       rationale_id: Yurisprudensi HAM berjalan normal pada periode berjalan.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: sila-4
       score: 0
       confidence: 0.3
       rationale_id: Fungsi review elektoral berjalan dengan hasil campuran.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
+      normative_anchors: [uud-nri-1945]
     - dimension_id: negara-hukum
       score: -1
       confidence: 0.35
@@ -2012,13 +2154,15 @@
       score: 1
       confidence: 0.7
       rationale_id: Mengoperasionalkan kedudukan konstitusional baru MPR sebagai lembaga perwakilan bersama DPR dan DPD pasca-Amandemen UUD 1945 dengan tata tertib modern.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
       normative_anchors: [uud-nri-1945]
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.75
       rationale_id: Menyelenggarakan sidang pelantikan Presiden dan Wakil Presiden hasil pemilihan umum langsung pertama 2004 secara tertib dan demokratis.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
       normative_anchors: [uud-nri-1945]
 
 - id: asm-mpr-2014-2019
@@ -2034,13 +2178,15 @@
       score: 0
       confidence: 0.7
       rationale_id: Sosialisasi Empat Pilar adalah kegiatan seremonial tanpa capaian legislatif atau dampak substantif terukur terhadap persatuan nasional.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
       normative_anchors: [uud-nri-1945]
     - dimension_id: checks-balances
       score: 0
       confidence: 0.65
       rationale_id: Memulai kajian mendalam Badan Pengkajian MPR terkait urgensi Pokok-Pokok Haluan Negara (PPHN) tanpa mengorbankan stabilitas sistem presidensial.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
       normative_anchors: [uud-nri-1945]
 
 - id: asm-mpr-2024-sekarang
@@ -2056,13 +2202,15 @@
       score: 0
       confidence: 0.75
       rationale_id: Pelantikan presiden dan wakil presiden adalah tugas konstitusional rutin yang wajib dilakukan, bukan capaian substantif kedaulatan rakyat.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
       normative_anchors: [uud-nri-1945]
     - dimension_id: sila-3
       score: 1
       confidence: 0.7
       rationale_id: Membangun rekonsiliasi kebangsaan lintas kekuatan politik pasca-Pilpres 2024 serta memfasilitasi Sidang Tahunan Refleksi 80 & 81 Tahun Kemerdekaan RI.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
       normative_anchors: [uud-nri-1945]
 
 - id: asm-dpd-2014-2019
@@ -2078,13 +2226,15 @@
       score: -1
       confidence: 0.7
       rationale_id: Kredibilitas kelembagaan tercederai oleh kasus hukum pimpinan terkait suap kuota impor dan sengketa kepengurusan internal pembatasan masa jabatan pimpinan.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
       normative_anchors: [uud-nri-1945]
     - dimension_id: sila-3
       score: 1
       confidence: 0.65
       rationale_id: Tetap aktif mengawal penyaluran aspirasi pemekaran daerah otonom baru dan evaluasi implementasi UU Desa di berbagai pelosok nusantara.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
       normative_anchors: [uud-nri-1945]
 
 - id: asm-dpd-2024-sekarang
@@ -2100,13 +2250,15 @@
       score: 1
       confidence: 0.7
       rationale_id: Mengadvokasi keadilan alokasi Dana Bagi Hasil (DBH) bagi daerah penghasil migas/tambang, percepatan pembangunan kawasan 3T, dan ekonomi maritim.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
       normative_anchors: [uud-nri-1945]
     - dimension_id: checks-balances
       score: 1
       confidence: 0.7
       rationale_id: Mengoptimalkan fungsi pengawasan tripartit dalam implementasi Pilkada Serentak 545 daerah dan efektivitas APBN 2025/2026 di tingkat pemerintah daerah.
-      evidence: [{source_id: uud-nri-1945}]
+      evidence: []
+      evidence_gap: true
       normative_anchors: [uud-nri-1945]
 
 

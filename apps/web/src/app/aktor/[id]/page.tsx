@@ -11,7 +11,7 @@ import {
   type LegalStatus,
 } from "@pancasila-index/data";
 
-import { indexLabel, periodLabel, scoreColor, scoreTextColor, termSummary } from "@/lib/view";
+import { indexLabel, summaryIndexLabel, periodLabel, scoreColor, scoreTextColor, termSummary } from "@/lib/view";
 
 export function generateStaticParams() {
   return dataset.actors.map((a) => ({ id: a.id }));
@@ -267,7 +267,7 @@ export default async function AktorProfilPage({
                     className="shrink-0 font-mono text-2xl font-bold tabular-nums"
                     style={{ color: scoreTextColor((summary?.index ?? 50) / 25 - 2) }}
                   >
-                    {indexLabel(summary?.index ?? null)}
+                    {summaryIndexLabel(summary)}
                   </span>
                 </Link>
               );

@@ -51,6 +51,17 @@ export type SourceType = z.infer<typeof sourceTypeSchema>;
 export const sourceSchema = z.object({
   id: idField("source.id"),
   type: sourceTypeSchema,
+  /**
+   * Sumber ini adalah ALAT UKUR rubrik, bukan perbuatan yang diukur.
+   * UUD 1945 dan dokumen yang membentuknya tidak dapat menjadi bukti
+   * empiris atas fakta apa pun: ia yang dijadikan pembanding. Sumber
+   * bertanda ini ditolak di dalam `evidence` (lihat build.mts) dan hanya
+   * boleh muncul di `normative_anchors`.
+   *
+   * Sebuah UU biasa TIDAK bertanda ini: mengesahkan UU adalah perbuatan
+   * lembaga yang dinilai, jadi sah sebagai bukti.
+   */
+  normative_baseline: z.boolean().optional(),
   title_id: z.string().min(3),
   year: z.number().int().min(1945).max(2100).optional(),
   url: z.string().url().optional(),
@@ -311,7 +322,12 @@ export const dimensionScoreSchema = z.object({
     .max(SCORE_MAX),
   confidence: z.number().min(0).max(1),
   rationale_id: z.string().min(20),
-  evidence: z.array(evidenceSchema).min(1),
+  /**
+   * Bukti empiris. Boleh kosong HANYA bila `evidence_gap: true` — dan skor
+   * seperti itu dikeluarkan dari perhitungan indeks (lihat scoring.ts),
+   * jadi mengosongkannya tidak menguntungkan siapa pun.
+   */
+  evidence: z.array(evidenceSchema),
   event_ids: z.array(idField("dimension_score.event_ids")).optional(),
   /**
    * Landasan normatif (pasal UUD) yang dinilai - BUKAN bukti empiris.
@@ -319,7 +335,18 @@ export const dimensionScoreSchema = z.object({
    * tetapi tidak boleh dibaca sebagai dukungan faktual atas skor.
    */
   normative_anchors: z.array(idField("dimension_score.normative_anchors")).optional(),
-});
+  /**
+   * Pengakuan eksplisit bahwa skor ini belum berbukti empiris. Skor
+   * bertanda ini TIDAK ikut membentuk indeks; ia tampil sebagai penilaian
+   * yang menunggu bukti. Sebelumnya celah semacam ini tersembunyi dengan
+   * mencantumkan UUD 1945 di `evidence` sehingga `min(1)` terpenuhi.
+   */
+  evidence_gap: z.boolean().optional(),
+})
+  .refine(
+    (ds) => ds.evidence.length > 0 || ds.evidence_gap === true,
+    "dimension_score tanpa evidence wajib menyatakan evidence_gap: true"
+  );
 
 export const assessmentStatusSchema = z.enum(["draft", "published"]);
 

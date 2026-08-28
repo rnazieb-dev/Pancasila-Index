@@ -15,7 +15,7 @@ import { RadarChart } from "@/components/radar-chart";
 import { ExternalIndicesWidget } from "@/components/external-indices-widget";
 import {
   groupName,
-  indexLabel,
+  indexLabel, summaryIndexLabel, summaryIndexNote,
   periodLabel,
   scoreColor,
   scoreTextColor,
@@ -120,15 +120,26 @@ export default async function TermPage({
             className="text-4xl font-bold tabular-nums"
             style={{ color: scoreTextColor(((summary?.index ?? 50) / 25 - 2)) }}
           >
-            {indexLabel(summary?.index ?? null)}
+            {summaryIndexLabel(summary)}
           </div>
         </div>
         <div className="text-[11px] text-[var(--muted)]">skala 0–100 · 50 = netral</div>
+        {summaryIndexNote(summary) && (
+          <p className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2 text-[11px] leading-relaxed text-[var(--muted)]">
+            {summaryIndexNote(summary)}
+          </p>
+        )}
         <div className="text-xs text-[var(--muted)] leading-relaxed">
           cakupan {Math.round((summary?.coverage ?? 0) * 100)}% dari{" "}
           {summary?.total_dimensions ?? 0} dimensi rubrik v{summary?.rubric_version ?? "?"}
           <br />
-          {assessments.length} penilaian · status: <em>draf belum dikurasi</em>
+          {assessments.length} penilaian · dasar: <em>{summary?.basis ?? "-"}</em>
+          {(summary?.excluded_no_evidence ?? 0) > 0 && (
+            <>
+              <br />
+              {summary!.excluded_no_evidence} skor dikeluarkan karena belum berbukti empiris
+            </>
+          )}
         </div>
       </div>
 

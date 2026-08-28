@@ -172,6 +172,22 @@ const instIds = new Set(institutions.map((i) => i.id));
 const dimIds = new Set(rubric.dimensions.map((d) => d.id));
 const groupIds = new Set(rubric.groups.map((g) => g.id));
 const srcIds = new Set(sourcesRaw.map((s) => s.id));
+/**
+ * Sumber yang merupakan ALAT UKUR rubrik. Tidak boleh muncul di `evidence`:
+ * UUD 1945 tidak dapat membuktikan fakta apa pun, ia yang jadi pembanding.
+ */
+const baselineSrcIds = new Set(
+  sourcesRaw.filter((s) => s.normative_baseline === true).map((s) => s.id)
+);
+
+// ---- sumber: registri tidak boleh punya id ganda ----
+// Tanpa uji ini, `new Set(...)` di atas menelan duplikat tanpa suara dan
+// teks kutipan yang menang bergantung urutan iterasi.
+const seenSrcIds = new Set<string>();
+for (const s of sourcesRaw) {
+  if (seenSrcIds.has(s.id)) errors.push(`source ${s.id}: id ganda di sources.yaml`);
+  seenSrcIds.add(s.id);
+}
 const eventIds = new Set(events.map((e) => e.id));
 const actorIds = new Set(actors.map((a) => a.id));
 
@@ -251,9 +267,18 @@ for (const a of assessments) {
   for (const ds of a.dimension_scores) {
     if (!dimIds.has(ds.dimension_id))
       errors.push(`assessment ${a.id}: dimensi "${ds.dimension_id}" tidak ada di rubrik`);
-    for (const ev of ds.evidence)
+    for (const ev of ds.evidence) {
       if (!srcIds.has(ev.source_id))
         errors.push(`assessment ${a.id}: bukti sumber "${ev.source_id}" tidak terdaftar`);
+      if (baselineSrcIds.has(ev.source_id))
+        errors.push(
+          `assessment ${a.id} dim ${ds.dimension_id}: "${ev.source_id}" adalah landasan ` +
+            `normatif, bukan bukti empiris - pindahkan ke normative_anchors`
+        );
+    }
+    for (const na of ds.normative_anchors ?? [])
+      if (!srcIds.has(na))
+        errors.push(`assessment ${a.id}: jangkar normatif "${na}" tidak terdaftar`);
     for (const eid of ds.event_ids ?? [])
       if (!eventIds.has(eid))
         errors.push(`assessment ${a.id}: event_id "${eid}" tidak terdaftar`);

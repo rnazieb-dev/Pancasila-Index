@@ -13,14 +13,32 @@ export interface GroupScoreResult {
   coverage: number;
 }
 
+/**
+ * Kebijakan status yang membentuk sebuah angka. WAJIB dinyatakan eksplisit
+ * oleh setiap pemanggil — tidak ada nilai default. Sebelumnya jalur produksi
+ * memakai fungsi tanpa filter status sementara fungsi yang memfilter hanya
+ * hidup di test, sehingga draf tersaji sebagai indeks tanpa ada yang memilih
+ * demikian.
+ */
+export type AssessmentBasis = "published" | "draft-preview";
+
 export interface AssessmentSummary {
   term_id: string;
   assessment_ids: string[];
   rubric_version: string;
+  /** Dasar status angka ini; ikut terbawa ke payload API dan UI. */
+  basis: AssessmentBasis;
+  /** Komposisi penilaian pembentuk angka. */
+  published_count: number;
+  draft_count: number;
+  /** Skor dimensi yang DIKELUARKAN karena belum berbukti empiris. */
+  excluded_no_evidence: number;
   /** skor per grup (sila / tujuan pembukaan / struktur UUD) */
   groups: GroupScoreResult[];
-  /** indeks komposit 0..100, null bila tidak ada dimensi yang dinilai */
+  /** indeks komposit 0..100; null bila tak ada dimensi dinilai ATAU cakupan di bawah ambang */
   index: number | null;
+  /** Alasan indeks ditahan, agar UI dapat menjelaskan alih-alih menampilkan kosong. */
+  index_suppressed_reason: "cakupan-di-bawah-ambang" | null;
   /** proporsi total dimensi rubrik yang dinilai (0..1) */
   coverage: number;
   scored_dimensions: number;
@@ -29,6 +47,17 @@ export interface AssessmentSummary {
 
 const clamp = (v: number, min: number, max: number) =>
   Math.min(max, Math.max(min, v));
+
+/**
+ * Cakupan minimum sebelum sebuah komposit 0-100 boleh diterbitkan.
+ *
+ * Tanpa ambang ini, cakupan hanya menjadi BOBOT: menilai 2 dari 12 dimensi
+ * menghasilkan angka yang tampak otoritatif (pernah terjadi: 88,9 dari
+ * cakupan 17%) padahal sepuluh dimensi lain tak diketahui. Skor grup dan
+ * cakupannya tetap dilaporkan di bawah ambang - yang ditahan hanya angka
+ * tunggal yang mudah dikutip di luar konteks.
+ */
+export const MIN_COVERAGE_FOR_INDEX = 0.5;
 
 /** Peta skala -2..+2 ke indeks 0..100 */
 export function scoreToIndex(score: number): number {
@@ -66,20 +95,27 @@ export function effectiveConfidence(
 function meanPerDimension(
   assessments: Assessment[],
   rubric: Rubric
-): Map<string, { score: number; confidence: number }> {
+): { perDim: Map<string, { score: number; confidence: number }>; excluded: number } {
   const acc = new Map<string, { sum: number; n: number }>();
   const supportByDim = new Map<string, Set<string>>();
+  let excluded = 0;
   for (const a of assessments) {
     for (const ds of a.dimension_scores) {
       if (!rubric.dimensions.some((d) => d.id === ds.dimension_id)) continue;
+      // Skor tanpa bukti empiris tidak boleh menggerakkan indeks. Ia tetap
+      // tampil di UI sebagai penilaian yang menunggu bukti.
+      if (ds.evidence_gap === true || ds.evidence.length === 0) {
+        excluded += 1;
+        continue;
+      }
       const cur = acc.get(ds.dimension_id) ?? { sum: 0, n: 0 };
       cur.sum += ds.score;
       cur.n += 1;
       acc.set(ds.dimension_id, cur);
       const set = supportByDim.get(ds.dimension_id) ?? new Set<string>();
-      // bukti empiris dan jangkar normatif sama-sama memperkuat keyakinan
+      // HANYA bukti empiris. Jangkar normatif sengaja tidak dihitung:
+      // menambah kutipan pasal tidak menambah pengetahuan tentang fakta.
       for (const ev of ds.evidence) set.add(ev.source_id);
-      for (const na of ds.normative_anchors ?? []) set.add(`#norm:${na}`);
       supportByDim.set(ds.dimension_id, set);
     }
   }
@@ -88,23 +124,30 @@ function meanPerDimension(
     let confSum = 0;
     for (const a of assessments)
       for (const ds of a.dimension_scores)
-        if (ds.dimension_id === dimId) confSum += ds.confidence;
+        if (ds.dimension_id === dimId && !(ds.evidence_gap === true || ds.evidence.length === 0))
+          confSum += ds.confidence;
     const baseConfidence = n > 0 ? confSum / n : 0;
     result.set(dimId, {
       score: sum / n,
       confidence: effectiveConfidence(baseConfidence, supportByDim.get(dimId)?.size ?? 1),
     });
   }
-  return result;
+  return { perDim: result, excluded };
 }
 
-export function computeAssessmentSummary(
+/**
+ * Hitung ringkasan dari sekumpulan penilaian yang SUDAH difilter pemanggil.
+ * Tidak diekspor: pemanggil wajib lewat `computeIndex` agar kebijakan status
+ * selalu dinyatakan. Lihat catatan pada AssessmentBasis.
+ */
+function summarize(
   assessments: Assessment[],
-  rubric: Rubric
+  rubric: Rubric,
+  basis: AssessmentBasis
 ): AssessmentSummary | null {
   if (assessments.length === 0) return null;
 
-  const perDim = meanPerDimension(assessments, rubric);
+  const { perDim, excluded } = meanPerDimension(assessments, rubric);
   const totalDimensions = rubric.dimensions.length;
 
   const groups: GroupScoreResult[] = rubric.groups.map((group) => {
@@ -139,27 +182,52 @@ export function computeAssessmentSummary(
     });
   }
   const overall = weightedMean(groupItems);
+  const belowFloor = coverage < MIN_COVERAGE_FOR_INDEX;
 
   return {
     term_id: assessments[0]?.term_id ?? "",
     assessment_ids: assessments.map((a) => a.id),
     rubric_version: assessments[0]?.rubric_version ?? "",
+    basis,
+    published_count: assessments.filter((a) => a.status === "published").length,
+    draft_count: assessments.filter((a) => a.status !== "published").length,
+    excluded_no_evidence: excluded,
     groups,
-    index: overall === null ? null : scoreToIndex(overall),
+    index: overall === null || belowFloor ? null : scoreToIndex(overall),
+    index_suppressed_reason: overall !== null && belowFloor ? "cakupan-di-bawah-ambang" : null,
     coverage,
     scored_dimensions: scoredDims,
     total_dimensions: totalDimensions,
   };
 }
 
-/** Gabungkan penilaian published saja untuk indeks publik. */
+/**
+ * SATU-SATUNYA jalan menghitung indeks sebuah masa jabatan.
+ *
+ * `basis` tidak punya nilai default dengan sengaja: setiap permukaan —
+ * halaman, REST API, ekspor — harus menyatakan apakah ia menyajikan angka
+ * terkurasi ("published") atau pratinjau draf ("draft-preview"). Dasar itu
+ * ikut terbawa di hasil sehingga tidak bisa hilang di perjalanan.
+ */
+export function computeIndex(
+  allAssessments: Assessment[],
+  termId: string,
+  rubric: Rubric,
+  basis: AssessmentBasis
+): AssessmentSummary | null {
+  const forTerm = allAssessments.filter((a) => a.term_id === termId);
+  const eligible =
+    basis === "published"
+      ? forTerm.filter((a) => a.status === "published" && a.human_confirmed)
+      : forTerm;
+  return summarize(eligible, rubric, basis);
+}
+
+/** Indeks publik: hanya penilaian terkurasi dan terkonfirmasi manusia. */
 export function computePublicIndex(
   allAssessments: Assessment[],
   termId: string,
   rubric: Rubric
 ): AssessmentSummary | null {
-  const published = allAssessments.filter(
-    (a) => a.term_id === termId && a.status === "published"
-  );
-  return computeAssessmentSummary(published, rubric);
+  return computeIndex(allAssessments, termId, rubric, "published");
 }

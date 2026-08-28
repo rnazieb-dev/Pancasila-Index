@@ -12105,6 +12105,7 @@
     {
       "id": "uud-nri-1945",
       "type": "dokumen-mpr",
+      "normative_baseline": true,
       "title_id": "Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (hasil empat amandemen)",
       "year": 2002,
       "citation_id": "UUD NRI Tahun 1945, MPR RI",
@@ -12121,10 +12122,10 @@
     {
       "id": "tap-mpr-xvii-1998",
       "type": "dokumen-mpr",
-      "title_id": "TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia",
+      "title_id": "Ketetapan MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia (Piagam HAM Indonesia)",
       "year": 1998,
-      "citation_id": "TAP MPR XVII/MPR/1998",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20XVII%2FMPR%2F1998%20tentang%20Hak%20Asasi%20Manusia"
+      "citation_id": "TAP MPR No. XVII/MPR/1998",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPR%20No.%20XVII%2FMPR%2F1998%20tentang%20Hak%20Asasi%20Manusia%20(Piagam%20HAM%20Indonesia)"
     },
     {
       "id": "tap-mpr-iii-2001",
@@ -12153,7 +12154,9 @@
       "type": "undang-undang",
       "title_id": "UU No. 39 Tahun 1999 tentang Hak Asasi Manusia",
       "year": 1999,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2039%20Tahun%201999"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=39&thn=1999",
+      "citation_id": "LN No. 165 Tahun 1999, TLN No. 3886",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=39&thn=1999"
     },
     {
       "id": "uu-40-1999",
@@ -12165,8 +12168,9 @@
     {
       "id": "uu-22-1999",
       "type": "undang-undang",
-      "title_id": "UU No. 22 Tahun 1999 tentang Pemerintahan Daerah",
+      "title_id": "UU No. 22 Tahun 1999 tentang Pemerintahan Daerah (Desentralisasi dan Otonomi Daerah Era Reformasi)",
       "year": 1999,
+      "citation_id": "LN No. 60 Tahun 1999, TLN No. 3839",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2022%20Tahun%201999"
     },
     {
@@ -12174,13 +12178,15 @@
       "type": "undang-undang",
       "title_id": "UU No. 25 Tahun 1999 tentang Perimbangan Keuangan antara Pemerintah Pusat dan Daerah",
       "year": 1999,
+      "citation_id": "LN No. 72 Tahun 1999, TLN No. 3848",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2025%20Tahun%201999"
     },
     {
       "id": "keppres-6-2000",
       "type": "keppres",
-      "title_id": "Keppres No. 6 Tahun 2000 (mencabut Inpres No. 14/1967 tentang agama, kepercayaan, dan adat istiadat Tionghoa)",
+      "title_id": "Keppres No. 6 Tahun 2000 tentang Pencabutan Inpres No. 14/1967 (Pemulihan Hak Sipil Etnis Tionghoa)",
       "year": 2000,
+      "citation_id": "Keppres No. 6 Tahun 2000",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=KEPPRES%206%20Tahun%202000"
     },
     {
@@ -12211,14 +12217,17 @@
       "type": "undang-undang",
       "title_id": "UU No. 15 Tahun 2003 tentang Pemberantasan Tindak Pidana Terorisme",
       "year": 2003,
+      "citation_id": "LN No. 45 Tahun 2003, TLN No. 4284",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2015%20Tahun%202003"
     },
     {
       "id": "uu-30-2002",
       "type": "undang-undang",
-      "title_id": "UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Korupsi",
+      "title_id": "UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi (KPK)",
       "year": 2002,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2030%20Tahun%202002"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2002",
+      "citation_id": "LN No. 137 Tahun 2002, TLN No. 4250",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2002"
     },
     {
       "id": "uu-23-2003",
@@ -12232,7 +12241,9 @@
       "type": "undang-undang",
       "title_id": "UU No. 24 Tahun 2003 tentang Mahkamah Konstitusi",
       "year": 2003,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2024%20Tahun%202003"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=24&thn=2003",
+      "citation_id": "LN No. 98 Tahun 2003, TLN No. 4316",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=24&thn=2003"
     },
     {
       "id": "uu-27-2004",
@@ -12253,9 +12264,11 @@
     {
       "id": "uu-11-2006",
       "type": "undang-undang",
-      "title_id": "UU No. 11 Tahun 2006 tentang Pemerintahan Aceh",
+      "title_id": "UU No. 11 Tahun 2006 tentang Pemerintahan Aceh (UUPA)",
       "year": 2006,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2011%20Tahun%202006"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2006",
+      "citation_id": "LN No. 62 Tahun 2006, TLN No. 4633",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2006"
     },
     {
       "id": "uu-32-2004",
@@ -12317,9 +12330,11 @@
     {
       "id": "uu-17-2014",
       "type": "undang-undang",
-      "title_id": "UU No. 17 Tahun 2014 tentang MPR, DPR, DPD, dan DPRD (MD3)",
+      "title_id": "UU No. 17 Tahun 2014 tentang MPR, DPR, DPD, dan DPRD (UU MD3)",
       "year": 2014,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2017%20Tahun%202014"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=17&thn=2014",
+      "citation_id": "LN No. 182 Tahun 2014, TLN No. 5568",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=17&thn=2014"
     },
     {
       "id": "uu-23-2014",
@@ -12338,10 +12353,11 @@
     },
     {
       "id": "inpres-10-2011",
-      "type": "lainnya",
-      "title_id": "Inpres No. 10/2011 tentang Penundaan Izin Baru Hutan Alam Primer dan Gambut",
+      "type": "keppres",
+      "title_id": "Instruksi Presiden No. 10 Tahun 2011 tentang Moratorium Izin Baru Hutan Alam Primer dan Lahan Gambut",
       "year": 2011,
-      "resolved_url": "https://duckduckgo.com/?q=Inpres%20No.%2010%2F2011%20tentang%20Penundaan%20Izin%20Baru%20Hutan%20Alam%20Primer%20dan%20Gambut"
+      "citation_id": "Inpres No. 10 Tahun 2011",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Instruksi%20Presiden%20No.%2010%20Tahun%202011%20tentang%20Moratorium%20Izin%20Baru%20Hutan%20Alam%20Primer%20dan%20La"
     },
     {
       "id": "laporan-komnas-ham-eksekusi-2015",
@@ -12376,23 +12392,29 @@
     {
       "id": "uu-16-2019",
       "type": "undang-undang",
-      "title_id": "UU No. 16 Tahun 2019 tentang Perubahan atas UU Pencalonan Presiden (pencalonan berpasangan)",
+      "title_id": "UU No. 16 Tahun 2019 tentang Perubahan atas UU No. 1 Tahun 1974 tentang Perkawinan (Penyetaraan Usia Menikah Minimum 19 Tahun)",
       "year": 2019,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2016%20Tahun%202019"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=16&thn=2019",
+      "citation_id": "LN No. 186 Tahun 2019, TLN No. 6401",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=16&thn=2019"
     },
     {
       "id": "uu-19-2019",
       "type": "undang-undang",
-      "title_id": "UU No. 19 Tahun 2019 (Perubahan Kedua UU KPK No. 30/2002)",
+      "title_id": "UU No. 19 Tahun 2019 tentang Perubahan Kedua atas UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi",
       "year": 2019,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2019%20Tahun%202019"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2019",
+      "citation_id": "LN No. 197 Tahun 2019, TLN No. 6409",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2019"
     },
     {
       "id": "uu-7-2017",
       "type": "undang-undang",
-      "title_id": "UU No. 7 Tahun 2017 tentang Pemilihan Umum",
+      "title_id": "UU No. 7 Tahun 2017 tentang Pemilihan Umum (Kodifikasi Regulasi Pemilu Serentak)",
       "year": 2017,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%207%20Tahun%202017"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017",
+      "citation_id": "LN No. 182 Tahun 2017, TLN No. 6109",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017"
     },
     {
       "id": "uu-11-2020",
@@ -12412,9 +12434,11 @@
     {
       "id": "perppu-2-2022",
       "type": "perppu",
-      "title_id": "Perppu No. 2 Tahun 2022 tentang Cipta Kerja",
+      "title_id": "Perppu No. 2 Tahun 2022 tentang Cipta Kerja (Pengganti UU Cipta Kerja Inkonstitusional Bersyarat)",
       "year": 2022,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=PERPPU%202%20Tahun%202022"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=PERPPU&no=2&thn=2022",
+      "citation_id": "LN No. 238 Tahun 2022, TLN No. 6841",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=PERPPU&no=2&thn=2022"
     },
     {
       "id": "uu-6-2023",
@@ -12426,23 +12450,29 @@
     {
       "id": "uu-3-2022",
       "type": "undang-undang",
-      "title_id": "UU No. 3 Tahun 2022 tentang Ibu Kota Negara",
+      "title_id": "UU No. 3 Tahun 2022 tentang Ibu Kota Negara (Pemindahan Ibu Kota ke IKN Nusantara di Kalimantan Timur)",
       "year": 2022,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%203%20Tahun%202022"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2022",
+      "citation_id": "LN No. 41 Tahun 2022, TLN No. 6766",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2022"
     },
     {
       "id": "uu-1-2023",
       "type": "undang-undang",
-      "title_id": "UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (RKUHP)",
+      "title_id": "UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (Kodifikasi KUHP Nasional Baru)",
       "year": 2023,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%201%20Tahun%202023"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023",
+      "citation_id": "LN No. 1 Tahun 2023, TLN No. 6842",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023"
     },
     {
       "id": "uu-27-2022",
       "type": "undang-undang",
-      "title_id": "UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi",
+      "title_id": "UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)",
       "year": 2022,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2027%20Tahun%202022"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=27&thn=2022",
+      "citation_id": "LN No. 196 Tahun 2022, TLN No. 6820",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=27&thn=2022"
     },
     {
       "id": "uu-17-2023",
@@ -12454,9 +12484,11 @@
     {
       "id": "uu-2-2020",
       "type": "undang-undang",
-      "title_id": "UU No. 2 Tahun 2020 (Perppu 1/2020 - kebijakan fiskal penanganan pandemi COVID-19 dan jaring pengaman sosial)",
+      "title_id": "UU No. 2 Tahun 2020 tentang Kebijakan Keuangan Negara dan Stabilitas Sistem Keuangan Penanganan Pandemi COVID-19",
       "year": 2020,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%202%20Tahun%202020"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2020",
+      "citation_id": "LN No. 134 Tahun 2020, TLN No. 6516",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2020"
     },
     {
       "id": "putusan-mk-90-2023",
@@ -12508,10 +12540,11 @@
     },
     {
       "id": "perpres-83-2024",
-      "type": "lainnya",
-      "title_id": "Perpres No. 83 Tahun 2024 tentang Badan Gizi Nasional (program Makan Bergizi Gratis)",
+      "type": "keppres",
+      "title_id": "Peraturan Presiden No. 83 Tahun 2024 tentang Badan Gizi Nasional (Pelaksanaan Program Makan Bergizi Gratis Nasional)",
       "year": 2024,
-      "resolved_url": "https://duckduckgo.com/?q=Perpres%20No.%2083%20Tahun%202024%20tentang%20Badan%20Gizi%20Nasional%20(program%20Makan%20Bergizi%20Gratis)"
+      "citation_id": "Lembaran Negara Tahun 2024 No. 153",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Peraturan%20Presiden%20No.%2083%20Tahun%202024%20tentang%20Badan%20Gizi%20Nasional%20(Pelaksanaan%20Program%20Maka"
     },
     {
       "id": "uu-danantara-2025",
@@ -12523,9 +12556,11 @@
     {
       "id": "uu-12-2011",
       "type": "undang-undang",
-      "title_id": "UU No. 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan",
+      "title_id": "UU No. 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (UU PPP)",
       "year": 2011,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2012%20Tahun%202011"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2011",
+      "citation_id": "LN No. 82 Tahun 2011, TLN No. 5234",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2011"
     },
     {
       "id": "putusan-mk-46-2010",
@@ -12594,11 +12629,11 @@
     },
     {
       "id": "uuds-1950",
-      "type": "lainnya",
-      "title_id": "Undang-Undang Dasar Sementara 1950 (berlaku 17 Agustus 1950)",
+      "type": "undang-undang",
+      "title_id": "UU No. 7 Tahun 1950 tentang Perubahan Konstitusi Sementara RIS Menjadi Undang-Undang Dasar Sementara Republik Indonesia",
       "year": 1950,
-      "citation_id": "Lembaran Negara RIS/UUDS 1950",
-      "resolved_url": "https://duckduckgo.com/?q=Undang-Undang%20Dasar%20Sementara%201950%20(berlaku%2017%20Agustus%201950)"
+      "citation_id": "Lembaran Negara Tahun 1950 No. 56",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%207%20Tahun%201950"
     },
     {
       "id": "pemilu-1955",
@@ -12653,10 +12688,10 @@
     {
       "id": "supersemar-1966",
       "type": "arsip-nasional",
-      "title_id": "Surat Perintah Sebelas Maret (Supersemar) 1966 - salinan Arsip Nasional",
+      "title_id": "Surat Perintah Sebelas Maret (Supersemar) 1966 dari Presiden Sukarno kepada Letjen Soeharto",
       "year": 1966,
-      "citation_id": "ANRI, Salinan Supersemar 11 Maret 1966",
-      "resolved_url": "https://duckduckgo.com/?q=Surat%20Perintah%20Sebelas%20Maret%20(Supersemar)%201966%20-%20salinan%20Arsip%20Nasional"
+      "citation_id": "Arsip Nasional Dokumen Supersemar 1966",
+      "resolved_url": "https://duckduckgo.com/?q=Surat%20Perintah%20Sebelas%20Maret%20(Supersemar)%201966%20dari%20Presiden%20Sukarno%20kepada%20Letjen%20Soeharto"
     },
     {
       "id": "tap-mprs-iii-1967",
@@ -12693,17 +12728,17 @@
     {
       "id": "uu-7-1976",
       "type": "undang-undang",
-      "title_id": "UU No. 7 Tahun 1976 tentang Penyatuan Wilayah Timor Timur",
+      "title_id": "UU No. 7 Tahun 1976 tentang Pengesahan Penyatuan Timor Timur ke dalam Negara Kesatuan Republik Indonesia",
       "year": 1976,
-      "citation_id": "LN 1976 No. 35, TLN 3085",
+      "citation_id": "LN No. 35 Tahun 1976, TLN No. 3084",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%207%20Tahun%201976"
     },
     {
       "id": "uu-8-1985",
       "type": "undang-undang",
-      "title_id": "UU No. 8 Tahun 1985 tentang Organisasi Kemasyarakatan (Pancasila sebagai asas tunggal)",
+      "title_id": "UU No. 8 Tahun 1985 tentang Organisasi Kemasyarakatan (Kewajiban Asas Tunggal Pancasila untuk Ormas)",
       "year": 1985,
-      "citation_id": "LN 1985 No. 69, TLN 3323",
+      "citation_id": "LN No. 44 Tahun 1985, TLN No. 3298",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%208%20Tahun%201985"
     },
     {
@@ -12783,7 +12818,9 @@
       "type": "undang-undang",
       "title_id": "UU No. 21 Tahun 2001 tentang Otonomi Khusus bagi Provinsi Papua",
       "year": 2001,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2021%20Tahun%202001"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=21&thn=2001",
+      "citation_id": "LN No. 135 Tahun 2001, TLN No. 4151",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=21&thn=2001"
     },
     {
       "id": "uu-11-2022-keolahragaan",
@@ -12894,7 +12931,9 @@
       "type": "undang-undang",
       "title_id": "UU No. 26 Tahun 2000 tentang Pengadilan Hak Asasi Manusia",
       "year": 2000,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2026%20Tahun%202000"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=26&thn=2000",
+      "citation_id": "LN No. 208 Tahun 2000, TLN No. 4026",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=26&thn=2000"
     },
     {
       "id": "pnps-1965",
@@ -12906,16 +12945,20 @@
     {
       "id": "uu-20-2003",
       "type": "undang-undang",
-      "title_id": "UU No. 20 Tahun 2003 tentang Sistem Pendidikan Nasional",
+      "title_id": "UU No. 20 Tahun 2003 tentang Sistem Pendidikan Nasional (Alokasi 20% Anggaran Pendidikan)",
       "year": 2003,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2020%20Tahun%202003"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2003",
+      "citation_id": "LN No. 78 Tahun 2003, TLN No. 4301",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2003"
     },
     {
       "id": "uu-11-2005",
       "type": "undang-undang",
-      "title_id": "UU No. 11 Tahun 2005 (ratifikasi International Covenant on Economic, Social and Cultural Rights)",
+      "title_id": "UU No. 11 Tahun 2005 tentang Pengesahan International Covenant on Economic, Social and Cultural Rights (ICESCR)",
       "year": 2005,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2011%20Tahun%202005"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2005",
+      "citation_id": "LN No. 118 Tahun 2005, TLN No. 4557",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2005"
     },
     {
       "id": "uu-25-2007",
@@ -12989,9 +13032,11 @@
     {
       "id": "uu-1-2024",
       "type": "undang-undang",
-      "title_id": "UU No. 1 Tahun 2024 (Perubahan Kedua UU ITE)",
+      "title_id": "UU No. 1 Tahun 2024 tentang Perubahan Kedua atas UU No. 11 Tahun 2008 tentang ITE",
       "year": 2024,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%201%20Tahun%202024"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2024",
+      "citation_id": "LN No. 4 Tahun 2024, TLN No. 6909",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2024"
     },
     {
       "id": "berita-udin-1996",
@@ -13038,15 +13083,17 @@
       "type": "undang-undang",
       "title_id": "UU No. 2 Tahun 2002 tentang Kepolisian Negara Republik Indonesia",
       "year": 2002,
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%202%20Tahun%202002"
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2002",
+      "citation_id": "LN No. 2 Tahun 2002, TLN No. 4168",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2002"
     },
     {
       "id": "tap-mprs-iii-1963",
       "type": "dokumen-mpr",
-      "title_id": "TAP MPRS No. III/MPRS/1963 (Sukarno Presiden Seumur Hidup)",
+      "title_id": "Ketetapan MPRS No. III/MPRS/1963 tentang Pengangkatan Pemimpin Besar Revolusi Bung Karno Menjadi Presiden RI Seumur Hidup",
       "year": 1963,
-      "citation_id": "Risalah Sidang Istimewa MPRS Mei 1963",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPRS%20No.%20III%2FMPRS%2F1963%20(Sukarno%20Presiden%20Seumur%20Hidup)"
+      "citation_id": "TAP MPRS No. III/MPRS/1963",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPRS%20No.%20III%2FMPRS%2F1963%20tentang%20Pengangkatan%20Pemimpin%20Besar%20Revolusi%20Bung%20Karno%20M"
     },
     {
       "id": "berita-kpk-2015",
@@ -13109,10 +13156,10 @@
     {
       "id": "uu-20-2001",
       "type": "undang-undang",
-      "title_id": "Undang-Undang Nomor 20 Tahun 2001 tentang Perubahan atas Uu Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi",
+      "title_id": "UU No. 20 Tahun 2001 tentang Perubahan atas UU No. 31 Tahun 1999 tentang Pemberantasan Tipikor",
       "year": 2001,
       "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2001",
-      "citation_id": "jdih-setneg:P01145",
+      "citation_id": "LN No. 134 Tahun 2001, TLN No. 4150",
       "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2001"
     },
     {
@@ -13252,7 +13299,7 @@
     {
       "id": "putusan-mk-92-puu-x-2012",
       "type": "putusan-mk",
-      "title_id": "Putusan MK No. 92/PUU-X/2012 (Pengujian Wewenang Legislasi DPD RI dalam UU P3 dan UU MD3)",
+      "title_id": "Putusan MK No. 92/PUU-X/2012 (Penguatan Kewenangan Legislasi DPD RI dalam Pembahasan RUU Terkait Otonomi Daerah Bersama DPR & Presiden)",
       "year": 2013,
       "url": "https://www.mkri.id/index.php?page=web.Putusan&id=92/PUU-X/2012",
       "citation_id": "Putusan MKRI No. 92/PUU-X/2012",
@@ -13365,7 +13412,7 @@
     {
       "id": "putusan-mk-005-puu-iv-2006",
       "type": "putusan-mk",
-      "title_id": "Putusan MK No. 005/PUU-IV/2006 (Uji Materi Kewenangan KY Mengawasi Hakim Mahkamah Konstitusi)",
+      "title_id": "Putusan MK No. 005/PUU-IV/2006 (Pembatalan Wewenang Pengawasan Hakim Agung dan Hakim Mahkamah Konstitusi oleh Komisi Yudisial)",
       "year": 2006,
       "url": "https://www.mkri.id/index.php?page=web.Putusan&id=005/PUU-IV/2006",
       "citation_id": "Putusan MKRI No. 005/PUU-IV/2006",
@@ -13391,7 +13438,7 @@
     {
       "id": "uu-19-1964",
       "type": "undang-undang",
-      "title_id": "UU No. 19 Tahun 1964 tentang Ketentuan-Ketentuan Pokok Kekuasaan Kehakiman (Kekuasaan Presiden Mengintervensi Pengadilan)",
+      "title_id": "UU No. 19 Tahun 1964 tentang Ketentuan-Ketentuan Pokok Kekuasaan Kehakiman (Kewenangan Intervensi Peradilan oleh Presiden)",
       "year": 1964,
       "citation_id": "LN No. 107 Tahun 1964, TLN No. 2699",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2019%20Tahun%201964"
@@ -13431,24 +13478,15 @@
     {
       "id": "tap-mprs-xxxiii-1967",
       "type": "dokumen-mpr",
-      "title_id": "TAP MPRS No. XXXIII/MPRS/1967 tentang Pencabutan Kekuasaan Pemerintahan Negara dari Presiden Sukarno",
+      "title_id": "Ketetapan MPRS No. XXXIII/MPRS/1967 tentang Pencabutan Kekuasaan Pemerintahan Negara dari Presiden Sukarno",
       "year": 1967,
-      "citation_id": "TAP MPRS XXXIII/MPRS/1967",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPRS%20No.%20XXXIII%2FMPRS%2F1967%20tentang%20Pencabutan%20Kekuasaan%20Pemerintahan%20Negara%20dari%20Presid"
-    },
-    {
-      "id": "uu-30-2002",
-      "type": "undang-undang",
-      "title_id": "UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi (KPK)",
-      "year": 2002,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2002",
-      "citation_id": "LN No. 137 Tahun 2002, TLN No. 4250",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2002"
+      "citation_id": "TAP MPRS No. XXXIII/MPRS/1967",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPRS%20No.%20XXXIII%2FMPRS%2F1967%20tentang%20Pencabutan%20Kekuasaan%20Pemerintahan%20Negara%20dari"
     },
     {
       "id": "uu-14-2008",
       "type": "undang-undang",
-      "title_id": "UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik (KIP)",
+      "title_id": "UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik (UU KIP)",
       "year": 2008,
       "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=14&thn=2008",
       "citation_id": "LN No. 61 Tahun 2008, TLN No. 4846",
@@ -13457,7 +13495,7 @@
     {
       "id": "putusan-mk-91-puu-xviii-2020",
       "type": "putusan-mk",
-      "title_id": "Putusan MK No. 91/PUU-XVIII/2020 (Uji Formil UU Cipta Kerja Inkonstitusional Bersyarat)",
+      "title_id": "Putusan MK No. 91/PUU-XVIII/2020 (Uji Formil UU Cipta Kerja - Inkonstitusional Bersyarat Cacat Partisipasi Publik Bermakna)",
       "year": 2021,
       "url": "https://www.mkri.id/index.php?page=web.Putusan&id=91/PUU-XVIII/2020",
       "citation_id": "Putusan MKRI No. 91/PUU-XVIII/2020",
@@ -13466,7 +13504,7 @@
     {
       "id": "putusan-mk-90-puu-xxi-2023",
       "type": "putusan-mk",
-      "title_id": "Putusan MK No. 90/PUU-XXI/2023 (Syarat Batas Usia Calon Presiden dan Wakil Presiden Pernah/Sedang Menjabat Kepala Daerah)",
+      "title_id": "Putusan MK No. 90/PUU-XXI/2023 (Syarat Batas Usia Capres-Cawapres Pernah/Sedang Menduduki Jabatan Terpilih Melalui Pemilu)",
       "year": 2023,
       "url": "https://www.mkri.id/index.php?page=web.Putusan&id=90/PUU-XXI/2023",
       "citation_id": "Putusan MKRI No. 90/PUU-XXI/2023",
@@ -13475,7 +13513,7 @@
     {
       "id": "putusan-mk-60-puu-xxii-2024",
       "type": "putusan-mk",
-      "title_id": "Putusan MK No. 60/PUU-XXII/2024 (Penurunan Ambang Batas Pencalonan Kepala Daerah dalam UU Pilkada)",
+      "title_id": "Putusan MK No. 60/PUU-XXII/2024 (Penurunan Ambang Batas Syarat Pencalonan Kepala Daerah dan Pembukaan Akses Partai Non-Seat)",
       "year": 2024,
       "url": "https://www.mkri.id/index.php?page=web.Putusan&id=60/PUU-XXII/2024",
       "citation_id": "Putusan MKRI No. 60/PUU-XXII/2024",
@@ -13484,20 +13522,11 @@
     {
       "id": "putusan-mk-70-puu-xxii-2024",
       "type": "putusan-mk",
-      "title_id": "Putusan MK No. 70/PUU-XXII/2024 (Penegasan Titik Hitung Syarat Usia Calon Kepala Daerah Saat Penetapan Pasangan Calon)",
+      "title_id": "Putusan MK No. 70/PUU-XXII/2024 (Penetapan Syarat Usia Calon Kepala Daerah Dihitung Saat Penetapan Pasangan Calon oleh KPU)",
       "year": 2024,
       "url": "https://www.mkri.id/index.php?page=web.Putusan&id=70/PUU-XXII/2024",
       "citation_id": "Putusan MKRI No. 70/PUU-XXII/2024",
       "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=70/PUU-XXII/2024"
-    },
-    {
-      "id": "uu-19-2019",
-      "type": "undang-undang",
-      "title_id": "UU No. 19 Tahun 2019 tentang Perubahan Kedua atas UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi",
-      "year": 2019,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2019",
-      "citation_id": "LN No. 197 Tahun 2019, TLN No. 6409",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2019"
     },
     {
       "id": "laporan-audit-bpk-century-2009",
@@ -13525,21 +13554,12 @@
       "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=14/PUU-XI/2013"
     },
     {
-      "id": "uu-7-2017",
-      "type": "undang-undang",
-      "title_id": "UU No. 7 Tahun 2017 tentang Pemilihan Umum (Kodifikasi Regulasi Pemilu Serentak)",
-      "year": 2017,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017",
-      "citation_id": "LN No. 182 Tahun 2017, TLN No. 6109",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017"
-    },
-    {
       "id": "deklarasi-djuanda-1957",
       "type": "arsip-nasional",
-      "title_id": "Deklarasi Djuanda 13 Desember 1957 tentang Batas Laut Teritorial dan Konsep Negara Kepulauan Indonesia",
+      "title_id": "Deklarasi Djuanda 13 Desember 1957 tentang Wilayah Perairan Republik Indonesia (Konsep Negara Kepulauan)",
       "year": 1957,
-      "citation_id": "Pengumuman Pemerintah tentang Wilayah Perairan RI 13 Desember 1957",
-      "resolved_url": "https://duckduckgo.com/?q=Deklarasi%20Djuanda%2013%20Desember%201957%20tentang%20Batas%20Laut%20Teritorial%20dan%20Konsep%20Negara%20Kepulauan%20Indonesia"
+      "citation_id": "Deklarasi Djuanda 1957",
+      "resolved_url": "https://duckduckgo.com/?q=Deklarasi%20Djuanda%2013%20Desember%201957%20tentang%20Wilayah%20Perairan%20Republik%20Indonesia%20(Konsep%20Negara%20Kepulauan)"
     },
     {
       "id": "konstitusi-ris-1949",
@@ -13548,14 +13568,6 @@
       "year": 1949,
       "citation_id": "Lembaran Negara RIS Tahun 1950 No. 3",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Piagam%20Persetujuan%20Konstitusi%20Republik%20Indonesia%20Serikat%20(Konstitusi%20RIS%201949)"
-    },
-    {
-      "id": "uuds-1950",
-      "type": "undang-undang",
-      "title_id": "UU No. 7 Tahun 1950 tentang Perubahan Konstitusi Sementara RIS Menjadi Undang-Undang Dasar Sementara Republik Indonesia",
-      "year": 1950,
-      "citation_id": "Lembaran Negara Tahun 1950 No. 56",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%207%20Tahun%201950"
     },
     {
       "id": "perma-1-2019",
@@ -13608,10 +13620,10 @@
     {
       "id": "perjanjian-renville-1948",
       "type": "arsip-nasional",
-      "title_id": "Naskah Perjanjian Renville 17 Januari 1948",
+      "title_id": "Naskah Perjanjian Renville 17 Januari 1948 di atas Kapal USS Renville",
       "year": 1948,
-      "citation_id": "Arsip Perjanjian Renville 1948",
-      "resolved_url": "https://duckduckgo.com/?q=Naskah%20Perjanjian%20Renville%2017%20Januari%201948"
+      "citation_id": "Arsip Nasional Perjanjian Renville 1948",
+      "resolved_url": "https://duckduckgo.com/?q=Naskah%20Perjanjian%20Renville%2017%20Januari%201948%20di%20atas%20Kapal%20USS%20Renville"
     },
     {
       "id": "perjanjian-roem-royen-1949",
@@ -13654,14 +13666,6 @@
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Penetapan%20Presiden%20No.%204%20Tahun%201960%20tentang%20Susunan%20Dewan%20Perwakilan%20Rakyat%20Gotong%20Royong"
     },
     {
-      "id": "supersemar-1966",
-      "type": "arsip-nasional",
-      "title_id": "Surat Perintah Sebelas Maret (Supersemar) 11 Maret 1966",
-      "year": 1966,
-      "citation_id": "Arsip Nasional RI Supersemar 1966",
-      "resolved_url": "https://duckduckgo.com/?q=Surat%20Perintah%20Sebelas%20Maret%20(Supersemar)%2011%20Maret%201966"
-    },
-    {
       "id": "tap-mprs-ix-1966",
       "type": "dokumen-mpr",
       "title_id": "TAP MPRS No. IX/MPRS/1966 tentang Pengukuhan Surat Perintah 11 Maret 1966",
@@ -13680,7 +13684,7 @@
     {
       "id": "uu-3-1975",
       "type": "undang-undang",
-      "title_id": "UU No. 3 Tahun 1975 tentang Partai Politik dan Golongan Karya (Fusi Partai Politik Orde Baru)",
+      "title_id": "UU No. 3 Tahun 1975 tentang Partai Politik dan Golongan Karya (Penyederhanaan/Fusi Tiga Partai)",
       "year": 1975,
       "citation_id": "LN No. 32 Tahun 1975, TLN No. 3062",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%203%20Tahun%201975"
@@ -13694,52 +13698,12 @@
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%203%20Tahun%201985"
     },
     {
-      "id": "uu-8-1985",
-      "type": "undang-undang",
-      "title_id": "UU No. 8 Tahun 1985 tentang Organisasi Kemasyarakatan (Kewajiban Asas Tunggal Pancasila untuk Ormas)",
-      "year": 1985,
-      "citation_id": "LN No. 44 Tahun 1985, TLN No. 3298",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%208%20Tahun%201985"
-    },
-    {
       "id": "tap-mpr-ii-1978",
       "type": "dokumen-mpr",
-      "title_id": "TAP MPR No. II/MPR/1978 tentang Pedoman Penghayatan dan Pengamalan Pancasila (P4 / Ekaprasetia Pancakarsa)",
+      "title_id": "Ketetapan MPR No. II/MPR/1978 tentang Pedoman Penghayatan dan Pengamalan Pancasila (P4 / Ekaprasetia Pancakarsa)",
       "year": 1978,
-      "citation_id": "TAP MPR II/MPR/1978",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20II%2FMPR%2F1978%20tentang%20Pedoman%20Penghayatan%20dan%20Pengamalan%20Pancasila%20(P4%20%2F%20Ekapras"
-    },
-    {
-      "id": "tap-mpr-xvii-1998",
-      "type": "dokumen-mpr",
-      "title_id": "TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dan Piagam HAM Indonesia",
-      "year": 1998,
-      "citation_id": "TAP MPR XVII/MPR/1998",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20XVII%2FMPR%2F1998%20tentang%20Hak%20Asasi%20Manusia%20dan%20Piagam%20HAM%20Indonesia"
-    },
-    {
-      "id": "tap-mpr-xi-1998",
-      "type": "dokumen-mpr",
-      "title_id": "TAP MPR No. XI/MPR/1998 tentang Penyelenggara Negara yang Bersih dan Bebas KKN",
-      "year": 1998,
-      "citation_id": "TAP MPR XI/MPR/1998",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20XI%2FMPR%2F1998%20tentang%20Penyelenggara%20Negara%20yang%20Bersih%20dan%20Bebas%20KKN"
-    },
-    {
-      "id": "tap-mpr-vi-2000",
-      "type": "dokumen-mpr",
-      "title_id": "TAP MPR No. VI/MPR/2000 tentang Pemisahan Tentara Nasional Indonesia dan Kepolisian Negara Republik Indonesia",
-      "year": 2000,
-      "citation_id": "TAP MPR VI/MPR/2000",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20VI%2FMPR%2F2000%20tentang%20Pemisahan%20Tentara%20Nasional%20Indonesia%20dan%20Kepolisian%20Negara"
-    },
-    {
-      "id": "tap-mpr-vii-2000",
-      "type": "dokumen-mpr",
-      "title_id": "TAP MPR No. VII/MPR/2000 tentang Peran TNI dan Peran POLRI (Penghapusan Dwifungsi ABRI)",
-      "year": 2000,
-      "citation_id": "TAP MPR VII/MPR/2000",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20VII%2FMPR%2F2000%20tentang%20Peran%20TNI%20dan%20Peran%20POLRI%20(Penghapusan%20Dwifungsi%20ABRI)"
+      "citation_id": "TAP MPR No. II/MPR/1978",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPR%20No.%20II%2FMPR%2F1978%20tentang%20Pedoman%20Penghayatan%20dan%20Pengamalan%20Pancasila%20(P4%20%2F%20E"
     },
     {
       "id": "putusan-mk-001-021-022-puu-i-2003",
@@ -13882,15 +13846,6 @@
       "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=30/PUU-XVI/2018"
     },
     {
-      "id": "putusan-mk-92-puu-x-2012",
-      "type": "putusan-mk",
-      "title_id": "Putusan MK No. 92/PUU-X/2012 (Penguatan Kewenangan Legislasi DPD RI dalam Pembahasan RUU Terkait Otonomi Daerah Bersama DPR & Presiden)",
-      "year": 2013,
-      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=92/PUU-X/2012",
-      "citation_id": "Putusan MKRI No. 92/PUU-X/2012",
-      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=92/PUU-X/2012"
-    },
-    {
       "id": "putusan-mk-012-016-019-puu-iv-2006",
       "type": "putusan-mk",
       "title_id": "Putusan MK No. 012-016-019/PUU-IV/2006 (Keabsahan Konstitusional Kewenangan Penyadapan Mandiri KPK Tanpa Izin Pengadilan)",
@@ -13958,24 +13913,6 @@
       "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=15&thn=2002"
     },
     {
-      "id": "uu-3-2022",
-      "type": "undang-undang",
-      "title_id": "UU No. 3 Tahun 2022 tentang Ibu Kota Negara (Pemindahan Ibu Kota ke IKN Nusantara di Kalimantan Timur)",
-      "year": 2022,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2022",
-      "citation_id": "LN No. 41 Tahun 2022, TLN No. 6766",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2022"
-    },
-    {
-      "id": "uu-1-2023",
-      "type": "undang-undang",
-      "title_id": "UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (Kodifikasi KUHP Nasional Baru)",
-      "year": 2023,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023",
-      "citation_id": "LN No. 1 Tahun 2023, TLN No. 6842",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023"
-    },
-    {
       "id": "uu-24-2007",
       "type": "undang-undang",
       "title_id": "UU No. 24 Tahun 2007 tentang Penanggulangan Bencana (Pembentukan Badan Nasional Penanggulangan Bencana / BNPB)",
@@ -14009,14 +13946,6 @@
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2086%20Tahun%201958"
     },
     {
-      "id": "perpres-83-2024",
-      "type": "keppres",
-      "title_id": "Peraturan Presiden No. 83 Tahun 2024 tentang Badan Gizi Nasional (Pelaksanaan Program Makan Bergizi Gratis Nasional)",
-      "year": 2024,
-      "citation_id": "Lembaran Negara Tahun 2024 No. 153",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Peraturan%20Presiden%20No.%2083%20Tahun%202024%20tentang%20Badan%20Gizi%20Nasional%20(Pelaksanaan%20Program%20Maka"
-    },
-    {
       "id": "putusan-ma-ronald-tannur-2024",
       "type": "putusan-ma",
       "title_id": "Putusan Kasasi MA No. 1466 K/Pid/2024 & Penangkapan Hakim Pengadilan Negeri Surabaya atas Kasus Suap Vonis Bebas Ronald Tannur",
@@ -14031,15 +13960,6 @@
       "year": 2024,
       "citation_id": "KY RI Laptah 2023",
       "resolved_url": "https://duckduckgo.com/?q=Laporan%20Tahunan%20Komisi%20Yudisial%20RI%20Tahun%202023%20(Penegakan%20Integritas%20Etik%20Hakim%20dan%20Seleksi%20Terbuka%20Hakim%20Agung)"
-    },
-    {
-      "id": "uu-17-2014",
-      "type": "undang-undang",
-      "title_id": "UU No. 17 Tahun 2014 tentang MPR, DPR, DPD, dan DPRD (UU MD3)",
-      "year": 2014,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=17&thn=2014",
-      "citation_id": "LN No. 182 Tahun 2014, TLN No. 5568",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=17&thn=2014"
     },
     {
       "id": "uu-11-2016",
@@ -14060,15 +13980,6 @@
       "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=105/PUU-XIV/2016"
     },
     {
-      "id": "uu-27-2022",
-      "type": "undang-undang",
-      "title_id": "UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)",
-      "year": 2022,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=27&thn=2022",
-      "citation_id": "LN No. 196 Tahun 2022, TLN No. 6820",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=27&thn=2022"
-    },
-    {
       "id": "putusan-mk-22-puu-xv-2017",
       "type": "putusan-mk",
       "title_id": "Putusan MK No. 22/PUU-XV/2017 (Perintah Revisi Batas Usia Minimal Perkawinan Perempuan Menjadi 19 Tahun Demi Perlindungan Hak Anak)",
@@ -14076,15 +13987,6 @@
       "url": "https://www.mkri.id/index.php?page=web.Putusan&id=22/PUU-XV/2017",
       "citation_id": "Putusan MKRI No. 22/PUU-XV/2017",
       "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=22/PUU-XV/2017"
-    },
-    {
-      "id": "uu-16-2019",
-      "type": "undang-undang",
-      "title_id": "UU No. 16 Tahun 2019 tentang Perubahan atas UU No. 1 Tahun 1974 tentang Perkawinan (Penyetaraan Usia Menikah Minimum 19 Tahun)",
-      "year": 2019,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=16&thn=2019",
-      "citation_id": "LN No. 186 Tahun 2019, TLN No. 6401",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=16&thn=2019"
     },
     {
       "id": "deklarasi-keadaan-perang-1957",
@@ -14109,14 +14011,6 @@
       "year": 1949,
       "citation_id": "Arsip Nasional RI Naskah KMB 1949",
       "resolved_url": "https://duckduckgo.com/?q=Piagam%20Penyerahan%20Kedaulatan%20Konferensi%20Meja%20Bundar%20(KMB)%20Den%20Haag%2027%20Desember%201949"
-    },
-    {
-      "id": "deklarasi-djuanda-1957",
-      "type": "arsip-nasional",
-      "title_id": "Deklarasi Djuanda 13 Desember 1957 tentang Wilayah Perairan Republik Indonesia (Konsep Negara Kepulauan)",
-      "year": 1957,
-      "citation_id": "Deklarasi Djuanda 1957",
-      "resolved_url": "https://duckduckgo.com/?q=Deklarasi%20Djuanda%2013%20Desember%201957%20tentang%20Wilayah%20Perairan%20Republik%20Indonesia%20(Konsep%20Negara%20Kepulauan)"
     },
     {
       "id": "dasasila-bandung-1955",
@@ -14159,22 +14053,6 @@
       "resolved_url": "https://duckduckgo.com/?q=Naskah%20Tri%20Tuntutan%20Rakyat%20(Tritura)%20Kesatuan%20Aksi%20Mahasiswa%20Indonesia%20(KAMI)%2010%20Januari%201966"
     },
     {
-      "id": "deklarasi-bangkok-1967",
-      "type": "arsip-nasional",
-      "title_id": "Deklarasi Bangkok 8 Agustus 1967 tentang Pembentukan Perhimpunan Bangsa-Bangsa Asia Tenggara (ASEAN)",
-      "year": 1967,
-      "citation_id": "ASEAN Declaration 1967",
-      "resolved_url": "https://duckduckgo.com/?q=Deklarasi%20Bangkok%208%20Agustus%201967%20tentang%20Pembentukan%20Perhimpunan%20Bangsa-Bangsa%20Asia%20Tenggara%20(ASEAN)"
-    },
-    {
-      "id": "uu-7-1976",
-      "type": "undang-undang",
-      "title_id": "UU No. 7 Tahun 1976 tentang Pengesahan Penyatuan Timor Timur ke dalam Negara Kesatuan Republik Indonesia",
-      "year": 1976,
-      "citation_id": "LN No. 35 Tahun 1976, TLN No. 3084",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%207%20Tahun%201976"
-    },
-    {
       "id": "arsip-malari-1974",
       "type": "arsip-nasional",
       "title_id": "Laporan Khusus Kopkamtib atas Peristiwa Malapetaka Lima Belas Januari (Malari) 1974",
@@ -14207,58 +14085,6 @@
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20V%2FMPR%2F1999%20tentang%20Penentuan%20Pendapat%20di%20Timor%20Timur"
     },
     {
-      "id": "uu-22-1999",
-      "type": "undang-undang",
-      "title_id": "UU No. 22 Tahun 1999 tentang Pemerintahan Daerah (Desentralisasi dan Otonomi Daerah Era Reformasi)",
-      "year": 1999,
-      "citation_id": "LN No. 60 Tahun 1999, TLN No. 3839",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2022%20Tahun%201999"
-    },
-    {
-      "id": "uu-30-2002",
-      "type": "undang-undang",
-      "title_id": "UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi (KPK)",
-      "year": 2002,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2002",
-      "citation_id": "LN No. 137 Tahun 2002, TLN No. 4250",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2002"
-    },
-    {
-      "id": "uu-24-2003",
-      "type": "undang-undang",
-      "title_id": "UU No. 24 Tahun 2003 tentang Mahkamah Konstitusi",
-      "year": 2003,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=24&thn=2003",
-      "citation_id": "LN No. 98 Tahun 2003, TLN No. 4316",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=24&thn=2003"
-    },
-    {
-      "id": "uu-22-2004",
-      "type": "undang-undang",
-      "title_id": "UU No. 22 Tahun 2004 tentang Komisi Yudisial",
-      "year": 2004,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=22&thn=2004",
-      "citation_id": "LN No. 89 Tahun 2004, TLN No. 4415",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=22&thn=2004"
-    },
-    {
-      "id": "mou-helsinki-2005",
-      "type": "arsip-nasional",
-      "title_id": "Memorandum of Understanding (MoU) Helsinki antara Pemerintah RI dan Gerakan Aceh Merdeka 15 Agustus 2005",
-      "year": 2005,
-      "citation_id": "MoU Helsinki 2005",
-      "resolved_url": "https://duckduckgo.com/?q=Memorandum%20of%20Understanding%20(MoU)%20Helsinki%20antara%20Pemerintah%20RI%20dan%20Gerakan%20Aceh%20Merdeka%2015%20Agustus%202005"
-    },
-    {
-      "id": "uu-11-2006",
-      "type": "undang-undang",
-      "title_id": "UU No. 11 Tahun 2006 tentang Pemerintahan Aceh (UUPA)",
-      "year": 2006,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2006",
-      "citation_id": "LN No. 62 Tahun 2006, TLN No. 4633",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2006"
-    },
-    {
       "id": "putusan-mk-5-puu-v-2007",
       "type": "putusan-mk",
       "title_id": "Putusan MK No. 5/PUU-V/2007 (Legalisasi Calon Perseorangan / Independen dalam Pilkada di Seluruh Indonesia)",
@@ -14266,15 +14092,6 @@
       "url": "https://www.mkri.id/index.php?page=web.Putusan&id=5/PUU-V/2007",
       "citation_id": "Putusan MKRI No. 5/PUU-V/2007",
       "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=5/PUU-V/2007"
-    },
-    {
-      "id": "uu-14-2008",
-      "type": "undang-undang",
-      "title_id": "UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik (UU KIP)",
-      "year": 2008,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=14&thn=2008",
-      "citation_id": "LN No. 61 Tahun 2008, TLN No. 4846",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=14&thn=2008"
     },
     {
       "id": "uu-25-2009",
@@ -14303,33 +14120,6 @@
       "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=55/PUU-XVII/2019"
     },
     {
-      "id": "uu-2-2020",
-      "type": "undang-undang",
-      "title_id": "UU No. 2 Tahun 2020 tentang Kebijakan Keuangan Negara dan Stabilitas Sistem Keuangan Penanganan Pandemi COVID-19",
-      "year": 2020,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2020",
-      "citation_id": "LN No. 134 Tahun 2020, TLN No. 6516",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2020"
-    },
-    {
-      "id": "putusan-mk-91-puu-xviii-2020",
-      "type": "putusan-mk",
-      "title_id": "Putusan MK No. 91/PUU-XVIII/2020 (Uji Formil UU Cipta Kerja - Inkonstitusional Bersyarat Cacat Partisipasi Publik Bermakna)",
-      "year": 2021,
-      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=91/PUU-XVIII/2020",
-      "citation_id": "Putusan MKRI No. 91/PUU-XVIII/2020",
-      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=91/PUU-XVIII/2020"
-    },
-    {
-      "id": "putusan-mk-90-puu-xxi-2023",
-      "type": "putusan-mk",
-      "title_id": "Putusan MK No. 90/PUU-XXI/2023 (Syarat Batas Usia Capres-Cawapres Pernah/Sedang Menduduki Jabatan Terpilih Melalui Pemilu)",
-      "year": 2023,
-      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=90/PUU-XXI/2023",
-      "citation_id": "Putusan MKRI No. 90/PUU-XXI/2023",
-      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=90/PUU-XXI/2023"
-    },
-    {
       "id": "putusan-mkmk-2-2023",
       "type": "putusan-mk",
       "title_id": "Putusan Majelis Kehormatan Mahkamah Konstitusi No. 2/MKMK/L/11/2023 (Pemberhentian Anwar Usman dari Jabatan Ketua MK)",
@@ -14337,24 +14127,6 @@
       "url": "https://www.mkri.id/index.php?page=web.PutusanMKMK&id=2/MKMK/L/11/2023",
       "citation_id": "Putusan MKMK No. 2/MKMK/L/11/2023",
       "resolved_url": "https://www.mkri.id/index.php?page=web.PutusanMKMK&id=2/MKMK/L/11/2023"
-    },
-    {
-      "id": "putusan-mk-60-puu-xxii-2024",
-      "type": "putusan-mk",
-      "title_id": "Putusan MK No. 60/PUU-XXII/2024 (Penurunan Ambang Batas Syarat Pencalonan Kepala Daerah dan Pembukaan Akses Partai Non-Seat)",
-      "year": 2024,
-      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=60/PUU-XXII/2024",
-      "citation_id": "Putusan MKRI No. 60/PUU-XXII/2024",
-      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=60/PUU-XXII/2024"
-    },
-    {
-      "id": "putusan-mk-70-puu-xxii-2024",
-      "type": "putusan-mk",
-      "title_id": "Putusan MK No. 70/PUU-XXII/2024 (Penetapan Syarat Usia Calon Kepala Daerah Dihitung Saat Penetapan Pasangan Calon oleh KPU)",
-      "year": 2024,
-      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=70/PUU-XXII/2024",
-      "citation_id": "Putusan MKRI No. 70/PUU-XXII/2024",
-      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=70/PUU-XXII/2024"
     },
     {
       "id": "laporan-audit-bpk-jiwasraya-2020",
@@ -14382,15 +14154,6 @@
       "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=37&thn=2008"
     },
     {
-      "id": "uu-12-2011",
-      "type": "undang-undang",
-      "title_id": "UU No. 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (UU PPP)",
-      "year": 2011,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2011",
-      "citation_id": "LN No. 82 Tahun 2011, TLN No. 5234",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2011"
-    },
-    {
       "id": "uu-13-2022",
       "type": "undang-undang",
       "title_id": "UU No. 13 Tahun 2022 tentang Perubahan Kedua atas UU No. 12 Tahun 2011 (Legalisasi Metode Omnibus Law dan Partisipasi Bermakna)",
@@ -14400,15 +14163,6 @@
       "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=13&thn=2022"
     },
     {
-      "id": "uu-7-2017",
-      "type": "undang-undang",
-      "title_id": "UU No. 7 Tahun 2017 tentang Pemilihan Umum (Kodifikasi UU Pemilu Serentak)",
-      "year": 2017,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017",
-      "citation_id": "LN No. 182 Tahun 2017, TLN No. 6109",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017"
-    },
-    {
       "id": "uu-19-2016",
       "type": "undang-undang",
       "title_id": "UU No. 19 Tahun 2016 tentang Perubahan atas UU No. 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (UU ITE)",
@@ -14416,24 +14170,6 @@
       "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2016",
       "citation_id": "LN No. 251 Tahun 2016, TLN No. 5952",
       "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2016"
-    },
-    {
-      "id": "uu-1-2024",
-      "type": "undang-undang",
-      "title_id": "UU No. 1 Tahun 2024 tentang Perubahan Kedua atas UU No. 11 Tahun 2008 tentang ITE",
-      "year": 2024,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2024",
-      "citation_id": "LN No. 4 Tahun 2024, TLN No. 6909",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2024"
-    },
-    {
-      "id": "putusan-mk-005-puu-iv-2006",
-      "type": "putusan-mk",
-      "title_id": "Putusan MK No. 005/PUU-IV/2006 (Pembatalan Wewenang Pengawasan Hakim Agung dan Hakim Mahkamah Konstitusi oleh Komisi Yudisial)",
-      "year": 2006,
-      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=005/PUU-IV/2006",
-      "citation_id": "Putusan MKRI No. 005/PUU-IV/2006",
-      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=005/PUU-IV/2006"
     },
     {
       "id": "putusan-mk-138-puu-vii-2009",
@@ -14489,14 +14225,6 @@
       "resolved_url": "https://duckduckgo.com/?q=Peraturan%20Mahkamah%20Agung%20No.%2013%20Tahun%202016%20tentang%20Tata%20Cara%20Penanganan%20Perkara%20Tindak%20Pidana%20oleh%20Korporasi"
     },
     {
-      "id": "putusan-ma-23-p-hum-2024",
-      "type": "putusan-ma",
-      "title_id": "Putusan MA No. 23 P/HUM/2024 (Uji Materiil PKPU No. 9/2020 tentang Syarat Usia Calon Kepala Daerah Dihitung Sejak Pelantikan)",
-      "year": 2024,
-      "citation_id": "Putusan MA No. 23 P/HUM/2024",
-      "resolved_url": "https://duckduckgo.com/?q=Putusan%20MA%20No.%2023%20P%2FHUM%2F2024%20(Uji%20Materiil%20PKPU%20No.%209%2F2020%20tentang%20Syarat%20Usia%20Calon%20Kepala%20Daerah%20Dihitung%20Sejak%20Pelantikan)"
-    },
-    {
       "id": "putusan-pk-ma-surya-darmadi-2023",
       "type": "putusan-ma",
       "title_id": "Putusan Peninjauan Kembali MA No. 57 PK/Pid.Sus/2022 atas Perkara Korupsi dan Pencucian Uang PT Duta Palma Group",
@@ -14535,14 +14263,6 @@
       "year": 2018,
       "citation_id": "DPR RI Risalah Pansus KPK 2018",
       "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pelaksanaan%20Tugas%20Panitia%20Khusus%20Hak%20Angket%20DPR%20RI%20terhadap%20KPK"
-    },
-    {
-      "id": "inpres-10-2011",
-      "type": "keppres",
-      "title_id": "Instruksi Presiden No. 10 Tahun 2011 tentang Moratorium Izin Baru Hutan Alam Primer dan Lahan Gambut",
-      "year": 2011,
-      "citation_id": "Inpres No. 10 Tahun 2011",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Instruksi%20Presiden%20No.%2010%20Tahun%202011%20tentang%20Moratorium%20Izin%20Baru%20Hutan%20Alam%20Primer%20dan%20La"
     },
     {
       "id": "perpres-54-2018",
@@ -14586,14 +14306,6 @@
       "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2020",
       "citation_id": "LN No. 147 Tahun 2020, TLN No. 6525",
       "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2020"
-    },
-    {
-      "id": "ruu-daerah-kepulauan-dpd-2020",
-      "type": "arsip-nasional",
-      "title_id": "Naskah Akademik dan RUU Usul Inisiatif DPD RI tentang Daerah Kepulauan",
-      "year": 2020,
-      "citation_id": "DPD RI RUU Daerah Kepulauan 2020",
-      "resolved_url": "https://duckduckgo.com/?q=Naskah%20Akademik%20dan%20RUU%20Usul%20Inisiatif%20DPD%20RI%20tentang%20Daerah%20Kepulauan"
     },
     {
       "id": "maklumat-pemerintah-1-nov-1945",
@@ -14700,24 +14412,6 @@
       "resolved_url": "https://duckduckgo.com/?q=Naskah%20Pidato%20Pernyataan%20Berhenti%20Presiden%20Soeharto%20dari%20Jabatan%20Presiden%20RI%2021%20Mei%201998"
     },
     {
-      "id": "uu-39-1999",
-      "type": "undang-undang",
-      "title_id": "UU No. 39 Tahun 1999 tentang Hak Asasi Manusia",
-      "year": 1999,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=39&thn=1999",
-      "citation_id": "LN No. 165 Tahun 1999, TLN No. 3886",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=39&thn=1999"
-    },
-    {
-      "id": "uu-26-2000",
-      "type": "undang-undang",
-      "title_id": "UU No. 26 Tahun 2000 tentang Pengadilan Hak Asasi Manusia",
-      "year": 2000,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=26&thn=2000",
-      "citation_id": "LN No. 208 Tahun 2000, TLN No. 4026",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=26&thn=2000"
-    },
-    {
       "id": "dekrit-gus-dur-2001",
       "type": "arsip-nasional",
       "title_id": "Maklumat Presiden Abdurrahman Wahid 23 Juli 2001 tentang Pembekuan Lembaga Perwakilan dan Golkar",
@@ -14732,15 +14426,6 @@
       "year": 2001,
       "citation_id": "TAP MPR II/MPR/2001",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=TAP%20MPR%20No.%20II%2FMPR%2F2001%20tentang%20Pertanggungjawaban%20Presiden%20Abdurrahman%20Wahid%20dan%20Pemberhe"
-    },
-    {
-      "id": "uu-20-2003",
-      "type": "undang-undang",
-      "title_id": "UU No. 20 Tahun 2003 tentang Sistem Pendidikan Nasional (Alokasi 20% Anggaran Pendidikan)",
-      "year": 2003,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2003",
-      "citation_id": "LN No. 78 Tahun 2003, TLN No. 4301",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2003"
     },
     {
       "id": "arsip-pilpres-langsung-2004",
@@ -14950,24 +14635,6 @@
       "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=31&thn=1999"
     },
     {
-      "id": "uu-20-2001",
-      "type": "undang-undang",
-      "title_id": "UU No. 20 Tahun 2001 tentang Perubahan atas UU No. 31 Tahun 1999 tentang Pemberantasan Tipikor",
-      "year": 2001,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2001",
-      "citation_id": "LN No. 134 Tahun 2001, TLN No. 4150",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2001"
-    },
-    {
-      "id": "uu-11-2005",
-      "type": "undang-undang",
-      "title_id": "UU No. 11 Tahun 2005 tentang Pengesahan International Covenant on Economic, Social and Cultural Rights (ICESCR)",
-      "year": 2005,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2005",
-      "citation_id": "LN No. 118 Tahun 2005, TLN No. 4557",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2005"
-    },
-    {
       "id": "uu-12-2005",
       "type": "undang-undang",
       "title_id": "UU No. 12 Tahun 2005 tentang Pengesahan International Covenant on Civil and Political Rights (ICCPR)",
@@ -15022,15 +14689,6 @@
       "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=49/PUU-IX/2011"
     },
     {
-      "id": "putusan-mk-85-puu-xi-2013",
-      "type": "putusan-mk",
-      "title_id": "Putusan MK No. 85/PUU-XI/2013 (Pembatalan Seluruh UU No. 7/2004 tentang Sumber Daya Air & Pengutamaan Hak Rakyat atas Air)",
-      "year": 2015,
-      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=85/PUU-XI/2013",
-      "citation_id": "Putusan MKRI No. 85/PUU-XI/2013",
-      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=85/PUU-XI/2013"
-    },
-    {
       "id": "laporan-audit-bpk-hambalang-2013",
       "type": "laporan-lembaga",
       "title_id": "Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pembangunan Pusat Olahraga Hambalang (P3SON) Rp463,6 Miliar",
@@ -15039,30 +14697,12 @@
       "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemeriksaan%20Investigatif%20BPK%20RI%20atas%20Pembangunan%20Pusat%20Olahraga%20Hambalang%20(P3SON)%20Rp463%2C6%20Miliar"
     },
     {
-      "id": "uu-5-2014",
-      "type": "undang-undang",
-      "title_id": "UU No. 5 Tahun 2014 tentang Aparatur Sipil Negara (ASN)",
-      "year": 2014,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=5&thn=2014",
-      "citation_id": "LN No. 6 Tahun 2014, TLN No. 5494",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=5&thn=2014"
-    },
-    {
       "id": "sema-07-2014",
       "type": "putusan-ma",
       "title_id": "Surat Edaran Mahkamah Agung No. 07 Tahun 2014 tentang Pengajuan Permohonan Peninjauan Kembali dalam Perkara Pidana",
       "year": 2014,
       "citation_id": "SEMA No. 07 Tahun 2014",
       "resolved_url": "https://duckduckgo.com/?q=Surat%20Edaran%20Mahkamah%20Agung%20No.%2007%20Tahun%202014%20tentang%20Pengajuan%20Permohonan%20Peninjauan%20Kembali%20dalam%20Perkara%20Pidana"
-    },
-    {
-      "id": "putusan-mk-130-puu-xiii-2015",
-      "type": "putusan-mk",
-      "title_id": "Putusan MK No. 130/PUU-XIII/2015 (Kewajiban Penyidik Menyampaikan SPDP Paling Lambat 7 Hari kepada Terlapor dan Korban)",
-      "year": 2017,
-      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=130/PUU-XIII/2015",
-      "citation_id": "Putusan MKRI No. 130/PUU-XIII/2015",
-      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=130/PUU-XIII/2015"
     },
     {
       "id": "uu-8-2016",
@@ -15089,23 +14729,6 @@
       "year": 2017,
       "citation_id": "BPK RI LHP e-KTP 2017",
       "resolved_url": "https://duckduckgo.com/?q=Laporan%20Penghitungan%20Kerugian%20Keuangan%20Negara%20BPK%20RI%20atas%20Pengadaan%20Paket%20e-KTP%20Nasional%20Rp2%2C31%20Triliun"
-    },
-    {
-      "id": "perma-1-2019",
-      "type": "putusan-ma",
-      "title_id": "Peraturan Mahkamah Agung No. 1 Tahun 2019 tentang Administrasi Perkara dan Persidangan Elektronik (e-Court)",
-      "year": 2019,
-      "citation_id": "Berita Negara RI Tahun 2019 No. 894",
-      "resolved_url": "https://duckduckgo.com/?q=Peraturan%20Mahkamah%20Agung%20No.%201%20Tahun%202019%20tentang%20Administrasi%20Perkara%20dan%20Persidangan%20Elektronik%20(e-Court)"
-    },
-    {
-      "id": "putusan-mk-18-puu-xvii-2019",
-      "type": "putusan-mk",
-      "title_id": "Putusan MK No. 18/PUU-XVII/2019 (Eksekusi Jaminan Fidusia Tidak Boleh Sepihak Tanpa Kesepakatan Cidera Janji)",
-      "year": 2020,
-      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=18/PUU-XVII/2019",
-      "citation_id": "Putusan MKRI No. 18/PUU-XVII/2019",
-      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=18/PUU-XVII/2019"
     },
     {
       "id": "uu-12-2022",
@@ -15249,30 +14872,12 @@
       "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=50/PUU-VI/2008"
     },
     {
-      "id": "putusan-mk-35-puu-x-2012",
-      "type": "putusan-mk",
-      "title_id": "Putusan MK No. 35/PUU-X/2012 (Hutan Adat Adalah Hutan Hak Masyarakat Adat, Bukan Hutan Negara)",
-      "year": 2013,
-      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=35/PUU-X/2012",
-      "citation_id": "Putusan MKRI No. 35/PUU-X/2012",
-      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=35/PUU-X/2012"
-    },
-    {
       "id": "skb-uu-ite-2021",
       "type": "lainnya",
       "title_id": "Keputusan Bersama Menkominfo, Jaksa Agung, dan Kapolri No. 229/2021 tentang Pedoman Implementasi Pasal UU ITE",
       "year": 2021,
       "citation_id": "SKB 3 Lembaga No. 229, 154, KB/2/VI/2021",
       "resolved_url": "https://duckduckgo.com/?q=Keputusan%20Bersama%20Menkominfo%2C%20Jaksa%20Agung%2C%20dan%20Kapolri%20No.%20229%2F2021%20tentang%20Pedoman%20Implementasi%20Pasal%20UU%20ITE"
-    },
-    {
-      "id": "uu-1-2023",
-      "type": "undang-undang",
-      "title_id": "UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (KUHP Nasional)",
-      "year": 2023,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023",
-      "citation_id": "LN No. 1 Tahun 2023, TLN No. 6842",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023"
     },
     {
       "id": "putusan-ma-budi-pego-2018",
@@ -15291,54 +14896,12 @@
       "resolved_url": "https://duckduckgo.com/?q=Resolusi%20Majelis%20Umum%20PBB%20No.%202504%20(XXIV)%20tentang%20Hasil%20Penentuan%20Pendapat%20Rakyat%20(PEPERA)%20Irian%20Barat%201969"
     },
     {
-      "id": "tap-mpr-vi-2000",
-      "type": "dokumen-mpr",
-      "title_id": "Ketetapan MPR No. VI/MPR/2000 tentang Pemisahan TNI dan Kepolisian Negara RI",
-      "year": 2000,
-      "citation_id": "TAP MPR No. VI/MPR/2000",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPR%20No.%20VI%2FMPR%2F2000%20tentang%20Pemisahan%20TNI%20dan%20Kepolisian%20Negara%20RI"
-    },
-    {
-      "id": "tap-mpr-vii-2000",
-      "type": "dokumen-mpr",
-      "title_id": "Ketetapan MPR No. VII/MPR/2000 tentang Peran TNI dan Peran Kepolisian Negara RI",
-      "year": 2000,
-      "citation_id": "TAP MPR No. VII/MPR/2000",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPR%20No.%20VII%2FMPR%2F2000%20tentang%20Peran%20TNI%20dan%20Peran%20Kepolisian%20Negara%20RI"
-    },
-    {
-      "id": "keppres-6-2000",
-      "type": "keppres",
-      "title_id": "Keppres No. 6 Tahun 2000 tentang Pencabutan Inpres No. 14/1967 (Pemulihan Hak Sipil Etnis Tionghoa)",
-      "year": 2000,
-      "citation_id": "Keppres No. 6 Tahun 2000",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=KEPPRES%206%20Tahun%202000"
-    },
-    {
-      "id": "uu-21-2001",
-      "type": "undang-undang",
-      "title_id": "UU No. 21 Tahun 2001 tentang Otonomi Khusus bagi Provinsi Papua",
-      "year": 2001,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=21&thn=2001",
-      "citation_id": "LN No. 135 Tahun 2001, TLN No. 4151",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=21&thn=2001"
-    },
-    {
       "id": "keppres-19-2002",
       "type": "keppres",
       "title_id": "Keppres No. 19 Tahun 2002 tentang Penetapan Hari Tahun Baru Imlek sebagai Hari Libur Nasional",
       "year": 2002,
       "citation_id": "Keppres No. 19 Tahun 2002",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=KEPPRES%2019%20Tahun%202002"
-    },
-    {
-      "id": "uu-2-2002",
-      "type": "undang-undang",
-      "title_id": "UU No. 2 Tahun 2002 tentang Kepolisian Negara Republik Indonesia",
-      "year": 2002,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2002",
-      "citation_id": "LN No. 2 Tahun 2002, TLN No. 4168",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2002"
     },
     {
       "id": "inpres-8-2002",
@@ -15366,38 +14929,12 @@
       "resolved_url": "https://duckduckgo.com/?q=Keputusan%20Bersama%20Menag%2C%20Jaksa%20Agung%2C%20dan%20Mendagri%20No.%203%2F2008%20tentang%20Peringatan%20Terhadap%20Jemaat%20Ahmadiyah%20Indonesia"
     },
     {
-      "id": "laporan-audit-bpk-century-2009",
-      "type": "laporan-lembaga",
-      "title_id": "Laporan Hasil Pemeriksaan Investigasi BPK RI atas Kasus Penanganan PT Bank Century Tbk Rp6,76 Triliun",
-      "year": 2009,
-      "citation_id": "BPK RI LHP Century 2009",
-      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemeriksaan%20Investigasi%20BPK%20RI%20atas%20Kasus%20Penanganan%20PT%20Bank%20Century%20Tbk%20Rp6%2C76%20Triliun"
-    },
-    {
       "id": "risalah-pansus-century-dpr-2010",
       "type": "dokumen-mpr",
       "title_id": "Risalah Keputusan Rapat Paripurna DPR RI atas Laporan Akhir Pansus Hak Angket Bank Century",
       "year": 2010,
       "citation_id": "Risalah DPR RI Paripurna Century 2010",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Risalah%20Keputusan%20Rapat%20Paripurna%20DPR%20RI%20atas%20Laporan%20Akhir%20Pansus%20Hak%20Angket%20Bank%20Century"
-    },
-    {
-      "id": "putusan-mk-92-puu-x-2012",
-      "type": "putusan-mk",
-      "title_id": "Putusan MK No. 92/PUU-X/2012 (Kewenangan Tripartit DPD RI dalam Pembentukan Undang-Undang Otonomi Daerah)",
-      "year": 2013,
-      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=92/PUU-X/2012",
-      "citation_id": "Putusan MKRI No. 92/PUU-X/2012",
-      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=92/PUU-X/2012"
-    },
-    {
-      "id": "putusan-mk-79-puu-xii-2014",
-      "type": "putusan-mk",
-      "title_id": "Putusan MK No. 79/PUU-XII/2014 (Penegasan Hak Partisipasi Penuh DPD RI dalam Tripartit Legislasi)",
-      "year": 2015,
-      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=79/PUU-XII/2014",
-      "citation_id": "Putusan MKRI No. 79/PUU-XII/2014",
-      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=79/PUU-XII/2014"
     },
     {
       "id": "perppu-2-2017",
@@ -15423,14 +14960,6 @@
       "year": 2020,
       "citation_id": "SKB 6 Kementerian/Lembaga No. 220-4780 Tahun 2020",
       "resolved_url": "https://duckduckgo.com/?q=Surat%20Keputusan%20Bersama%206%20Menteri%20dan%20Kepala%20Lembaga%20tentang%20Larangan%20Kegiatan%20dan%20Penggunaan%20Atribut%20FPI"
-    },
-    {
-      "id": "laporan-audit-bpk-asabri-2021",
-      "type": "laporan-lembaga",
-      "title_id": "Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pengelolaan Keuangan dan Dana Investasi PT ASABRI Rp22,78 Triliun",
-      "year": 2021,
-      "citation_id": "BPK RI LHP Asabri 2021",
-      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemeriksaan%20Investigatif%20BPK%20RI%20atas%20Pengelolaan%20Keuangan%20dan%20Dana%20Investasi%20PT%20ASABRI%20Rp22%2C78%20Triliun"
     },
     {
       "id": "keppres-6-2021",
@@ -15499,15 +15028,6 @@
       "year": 2023,
       "citation_id": "Putusan MA No. 5928 K/Pid.Sus/2022",
       "resolved_url": "https://duckduckgo.com/?q=Putusan%20Kasasi%20Mahkamah%20Agung%20No.%205928%20K%2FPid.Sus%2F2022%20atas%20Megakorupsi%20Pengelolaan%20Dana%20Investasi%20PT%20ASABRI%20Rp22%2C78%20Triliun"
-    },
-    {
-      "id": "perppu-2-2022",
-      "type": "perppu",
-      "title_id": "Perppu No. 2 Tahun 2022 tentang Cipta Kerja (Pengganti UU Cipta Kerja Inkonstitusional Bersyarat)",
-      "year": 2022,
-      "url": "https://jdih.setneg.go.id/detailperaturan?jns=PERPPU&no=2&thn=2022",
-      "citation_id": "LN No. 238 Tahun 2022, TLN No. 6841",
-      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=PERPPU&no=2&thn=2022"
     },
     {
       "id": "laporan-ombudsman-twk-kpk-2021",
@@ -15614,14 +15134,6 @@
       "resolved_url": "https://duckduckgo.com/?q=Naskah%20Persetujuan%20Linggarjati%2025%20Maret%201947%20antara%20Pemerintah%20RI%20dan%20Pemerintah%20Belanda"
     },
     {
-      "id": "perjanjian-renville-1948",
-      "type": "arsip-nasional",
-      "title_id": "Naskah Perjanjian Renville 17 Januari 1948 di atas Kapal USS Renville",
-      "year": 1948,
-      "citation_id": "Arsip Nasional Perjanjian Renville 1948",
-      "resolved_url": "https://duckduckgo.com/?q=Naskah%20Perjanjian%20Renville%2017%20Januari%201948%20di%20atas%20Kapal%20USS%20Renville"
-    },
-    {
       "id": "arsip-pdri-1948",
       "type": "arsip-nasional",
       "title_id": "Mandat Pembentukan Pemerintah Darurat Republik Indonesia (PDRI) di Bukittinggi 19 Desember 1948",
@@ -15662,68 +15174,12 @@
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Penetapan%20Presiden%20No.%201%20Tahun%201959%20tentang%20Manifesto%20Politik%20Republik%20Indonesia%20(Manipol)"
     },
     {
-      "id": "penpres-3-1960",
-      "type": "keppres",
-      "title_id": "Penetapan Presiden No. 3 Tahun 1960 tentang Pembubaran Dewan Perwakilan Rakyat Hasil Pemilu 1955",
-      "year": 1960,
-      "citation_id": "Penpres No. 3 Tahun 1960",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Penetapan%20Presiden%20No.%203%20Tahun%201960%20tentang%20Pembubaran%20Dewan%20Perwakilan%20Rakyat%20Hasil%20Pemil"
-    },
-    {
-      "id": "penpres-4-1960",
-      "type": "keppres",
-      "title_id": "Penetapan Presiden No. 4 Tahun 1960 tentang Susunan Dewan Perwakilan Rakyat Gotong Royong (DPR-GR)",
-      "year": 1960,
-      "citation_id": "Penpres No. 4 Tahun 1960",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Penetapan%20Presiden%20No.%204%20Tahun%201960%20tentang%20Susunan%20Dewan%20Perwakilan%20Rakyat%20Gotong%20Royong"
-    },
-    {
       "id": "keppres-200-1960",
       "type": "keppres",
       "title_id": "Keppres No. 200 Tahun 1960 tentang Pembubaran Partai Politik Masyumi dan Partai Sosialis Indonesia (PSI)",
       "year": 1960,
       "citation_id": "Keppres No. 200 Tahun 1960",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=KEPPRES%20200%20Tahun%201960"
-    },
-    {
-      "id": "tap-mprs-iii-1963",
-      "type": "dokumen-mpr",
-      "title_id": "Ketetapan MPRS No. III/MPRS/1963 tentang Pengangkatan Pemimpin Besar Revolusi Bung Karno Menjadi Presiden RI Seumur Hidup",
-      "year": 1963,
-      "citation_id": "TAP MPRS No. III/MPRS/1963",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPRS%20No.%20III%2FMPRS%2F1963%20tentang%20Pengangkatan%20Pemimpin%20Besar%20Revolusi%20Bung%20Karno%20M"
-    },
-    {
-      "id": "uu-19-1964",
-      "type": "undang-undang",
-      "title_id": "UU No. 19 Tahun 1964 tentang Ketentuan-Ketentuan Pokok Kekuasaan Kehakiman (Kewenangan Intervensi Peradilan oleh Presiden)",
-      "year": 1964,
-      "citation_id": "LN No. 107 Tahun 1964, TLN No. 2699",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2019%20Tahun%201964"
-    },
-    {
-      "id": "supersemar-1966",
-      "type": "arsip-nasional",
-      "title_id": "Surat Perintah Sebelas Maret (Supersemar) 1966 dari Presiden Sukarno kepada Letjen Soeharto",
-      "year": 1966,
-      "citation_id": "Arsip Nasional Dokumen Supersemar 1966",
-      "resolved_url": "https://duckduckgo.com/?q=Surat%20Perintah%20Sebelas%20Maret%20(Supersemar)%201966%20dari%20Presiden%20Sukarno%20kepada%20Letjen%20Soeharto"
-    },
-    {
-      "id": "tap-mprs-xxv-1966",
-      "type": "dokumen-mpr",
-      "title_id": "Ketetapan MPRS No. XXV/MPRS/1966 tentang Pembubaran PKI dan Larangan Ajaran Komunisme/Marxisme-Leninisme",
-      "year": 1966,
-      "citation_id": "TAP MPRS No. XXV/MPRS/1966",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPRS%20No.%20XXV%2FMPRS%2F1966%20tentang%20Pembubaran%20PKI%20dan%20Larangan%20Ajaran%20Komunisme%2FMarx"
-    },
-    {
-      "id": "tap-mprs-xxxiii-1967",
-      "type": "dokumen-mpr",
-      "title_id": "Ketetapan MPRS No. XXXIII/MPRS/1967 tentang Pencabutan Kekuasaan Pemerintahan Negara dari Presiden Sukarno",
-      "year": 1967,
-      "citation_id": "TAP MPRS No. XXXIII/MPRS/1967",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPRS%20No.%20XXXIII%2FMPRS%2F1967%20tentang%20Pencabutan%20Kekuasaan%20Pemerintahan%20Negara%20dari"
     },
     {
       "id": "tap-mprs-xliv-1968",
@@ -15742,46 +15198,6 @@
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2015%20Tahun%201969"
     },
     {
-      "id": "uu-3-1975",
-      "type": "undang-undang",
-      "title_id": "UU No. 3 Tahun 1975 tentang Partai Politik dan Golongan Karya (Penyederhanaan/Fusi Tiga Partai)",
-      "year": 1975,
-      "citation_id": "LN No. 32 Tahun 1975, TLN No. 3062",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%203%20Tahun%201975"
-    },
-    {
-      "id": "tap-mpr-ii-1978",
-      "type": "dokumen-mpr",
-      "title_id": "Ketetapan MPR No. II/MPR/1978 tentang Pedoman Penghayatan dan Pengamalan Pancasila (P4 / Ekaprasetia Pancakarsa)",
-      "year": 1978,
-      "citation_id": "TAP MPR No. II/MPR/1978",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPR%20No.%20II%2FMPR%2F1978%20tentang%20Pedoman%20Penghayatan%20dan%20Pengamalan%20Pancasila%20(P4%20%2F%20E"
-    },
-    {
-      "id": "uu-3-1985",
-      "type": "undang-undang",
-      "title_id": "UU No. 3 Tahun 1985 tentang Perubahan UU Parpol dan Golkar (Kewajiban Asas Tunggal Pancasila Parpol)",
-      "year": 1985,
-      "citation_id": "LN No. 12 Tahun 1985, TLN No. 3285",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%203%20Tahun%201985"
-    },
-    {
-      "id": "uu-8-1985",
-      "type": "undang-undang",
-      "title_id": "UU No. 8 Tahun 1985 tentang Organisasi Kemasyarakatan (Kewajiban Asas Tunggal Pancasila Ormas)",
-      "year": 1985,
-      "citation_id": "LN No. 44 Tahun 1985, TLN No. 3298",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%208%20Tahun%201985"
-    },
-    {
-      "id": "keppres-50-1993",
-      "type": "keppres",
-      "title_id": "Keppres No. 50 Tahun 1993 tentang Komisi Nasional Hak Asasi Manusia (Pembentukan Komnas HAM)",
-      "year": 1993,
-      "citation_id": "Keppres No. 50 Tahun 1993",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=KEPPRES%2050%20Tahun%201993"
-    },
-    {
       "id": "sk-menpen-pembredelan-1994",
       "type": "lainnya",
       "title_id": "SK Menteri Penerangan No. 123/KEP/MENPEN/1994 tentang Pencabutan SIUPP Majalah Tempo, Editor, dan Detik",
@@ -15796,46 +15212,6 @@
       "year": 1998,
       "citation_id": "TAP MPR No. X/MPR/1998",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPR%20No.%20X%2FMPR%2F1998%20tentang%20Pokok-Pokok%20Reformasi%20Pembangunan"
-    },
-    {
-      "id": "tap-mpr-xvii-1998",
-      "type": "dokumen-mpr",
-      "title_id": "Ketetapan MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia (Piagam HAM Indonesia)",
-      "year": 1998,
-      "citation_id": "TAP MPR No. XVII/MPR/1998",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPR%20No.%20XVII%2FMPR%2F1998%20tentang%20Hak%20Asasi%20Manusia%20(Piagam%20HAM%20Indonesia)"
-    },
-    {
-      "id": "uu-22-1999",
-      "type": "undang-undang",
-      "title_id": "UU No. 22 Tahun 1999 tentang Pemerintahan Daerah (Desentralisasi Luas & Otonomi Daerah)",
-      "year": 1999,
-      "citation_id": "LN No. 60 Tahun 1999, TLN No. 3839",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2022%20Tahun%201999"
-    },
-    {
-      "id": "uu-25-1999",
-      "type": "undang-undang",
-      "title_id": "UU No. 25 Tahun 1999 tentang Perimbangan Keuangan antara Pemerintah Pusat dan Daerah",
-      "year": 1999,
-      "citation_id": "LN No. 72 Tahun 1999, TLN No. 3848",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2025%20Tahun%201999"
-    },
-    {
-      "id": "uu-15-2002",
-      "type": "undang-undang",
-      "title_id": "UU No. 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang (Pembentukan PPATK)",
-      "year": 2002,
-      "citation_id": "LN No. 30 Tahun 2002, TLN No. 4191",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2015%20Tahun%202002"
-    },
-    {
-      "id": "uu-15-2003",
-      "type": "undang-undang",
-      "title_id": "UU No. 15 Tahun 2003 tentang Pemberantasan Tindak Pidana Terorisme",
-      "year": 2003,
-      "citation_id": "LN No. 45 Tahun 2003, TLN No. 4284",
-      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2015%20Tahun%202003"
     },
     {
       "id": "putusan-icj-sipadan-ligitan-2002",
@@ -16172,42 +15548,33 @@
           "score": -1,
           "confidence": 0.45,
           "rationale_id": "Krismon memiskinkan jutaan warga dengan kapasitas fiskal negara sangat terbatas.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-1",
           "score": 0,
           "confidence": 0.45,
           "rationale_id": "Kekerasan Mei 1998 tak tertangani, namun juga tidak ada represi sistemik baru terhadap warga.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-2",
           "score": -1,
           "confidence": 0.45,
           "rationale_id": "Daya beli jatuh tajam; program pemulihan ekonomi baru dirintis pada akhir masa jabatan.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-3",
@@ -16382,42 +15749,33 @@
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Stabilitas ekonomi belum pulih signifikan dan tidak ada pergeseran distribusi besar.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-1",
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Perlindungan warga dari konflik komunal masih lemah di Maluku dan Poso.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-2",
           "score": -1,
           "confidence": 0.4,
           "rationale_id": "Instabilitas politik menekan iklim usaha dan kesejahteraan umum masyarakat.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-3",
@@ -16441,14 +15799,11 @@
           "score": 1,
           "confidence": 0.5,
           "rationale_id": "Diplomasi aktif dan pendekatan dialog regional dilakukan sungguh-sungguh oleh presiden.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "negara-hukum",
@@ -16514,14 +15869,11 @@
           "score": 0,
           "confidence": 0.45,
           "rationale_id": "Hubungan agama-negara stabil tanpa perubahan kebijakan berarti dua arah.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
@@ -16549,14 +15901,11 @@
           "score": 1,
           "confidence": 0.5,
           "rationale_id": "Integrasi nasional terjaga; penindakan terorisme tidak memakai framing SARA.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-4",
@@ -16580,14 +15929,11 @@
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Pertumbuhan ekonomi pulih bertahap namun ketimpangan tidak berubah berarti.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-1",
@@ -16615,14 +15961,11 @@
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Kebijakan ekonomi netral dengan layanan dasar yang stagnan.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-3",
@@ -16722,28 +16065,22 @@
           "score": -1,
           "confidence": 0.4,
           "rationale_id": "SKB 3 Menteri 2008 membatasi kebebasan beragama Ahmadiyah secara resmi. Intoleransi terhadap minoritas keagamaan meningkat tanpa respons protektif presiden. Kekerasan terhadap jemaat Ahmadiyah di Cikeusik 2011 (era SBY II) berakar dari kebijakan SKB era ini.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
           "score": 0,
           "confidence": 0.45,
           "rationale_id": "Penanganan HAM masa lalu stagnan tanpa pelanggaran baru berskala besar terdokumentasi.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-3",
@@ -16815,14 +16152,11 @@
           "score": 1,
           "confidence": 0.45,
           "rationale_id": "Ekspansi belanja sosial dan infrastruktur dasar meningkatkan kesejahteraan umum.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-3",
@@ -16925,28 +16259,22 @@
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Netralitas agama-negara berjalan tanpa perubahan kebijakan berarti.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Impunitas HAM lanjut tanpa pelanggaran baru masif yang terdokumentasi.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-3",
@@ -17032,14 +16360,11 @@
           "score": 0,
           "confidence": 0.35,
           "rationale_id": "Investasi nominal pendidikan naik namun hasil belajar stagnan.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-4",
@@ -17122,14 +16447,11 @@
           "score": -1,
           "confidence": 0.4,
           "rationale_id": "Kasus blasfemi Ahok dieksploitasi tanpa respons protektif terhadap pluralisme; SKB Ahmadiyah 2008 dipertahankan; intoleransi terhadap minoritas keagamaan meningkat tanpa kebijakan korektif.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
@@ -17207,14 +16529,11 @@
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Perlindungan warga standar; respons awal pandemi terjadi di akhir periode.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-2",
@@ -17235,28 +16554,22 @@
           "score": 1,
           "confidence": 0.4,
           "rationale_id": "Merdeka Belajar dan KIP memperluas akses pendidikan meski mutu belum terukur.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-4",
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Diplomasi ekonomi aktif tanpa lonjakan kontribusi perdamaian global.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "negara-hukum",
@@ -17460,28 +16773,22 @@
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Program pendidikan berlanjut tanpa lonjakan mutu yang terukur.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-4",
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Kepemimpinan ASEAN terkendala kebuntuan krisis Myanmar.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "negara-hukum",
@@ -17559,14 +16866,11 @@
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Periode masih berjalan; belum ada kebijakan agama-negara signifikan yang tercatat.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
@@ -17590,14 +16894,11 @@
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Data periode berjalan belum cukup untuk menilai arah integrasi nasional.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-4",
@@ -17638,14 +16939,11 @@
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Arah perlindungan warga belum dapat dinilai tegas pada periode berjalan.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-2",
@@ -17763,14 +17061,11 @@
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Isu agama-negara bukan agenda utama legislasi periode ini.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
@@ -17845,28 +17140,22 @@
           "score": 0,
           "confidence": 0.35,
           "rationale_id": "Agenda pertahanan keamanan belum menjadi fokus legislasi periode ini.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-2",
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Produk legislasi kesejahteraan masih dasar dan bertahap.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-3",
@@ -17887,14 +17176,11 @@
           "score": 0,
           "confidence": 0.35,
           "rationale_id": "Agenda ketertiban dunia belum nyata dalam produk legislasi.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "negara-hukum",
@@ -17969,28 +17255,22 @@
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Tidak ada produk legislasi agama-negara yang signifikan pada periode ini.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
           "score": 0,
           "confidence": 0.45,
           "rationale_id": "Legislasi HAM stagnan tanpa kemunduran berarti.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-3",
@@ -18042,56 +17322,44 @@
           "score": 0,
           "confidence": 0.35,
           "rationale_id": "Legislasi pertahanan belum menjadi prioritas nyata periode ini.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-2",
           "score": 1,
           "confidence": 0.4,
           "rationale_id": "Fungsi anggaran mulai profesional dengan dukungan kapasitas teknis dewan.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-3",
           "score": 1,
           "confidence": 0.4,
           "rationale_id": "Agenda pendidikan hadir dalam legislasi meski hasilnya beragam.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-4",
           "score": 0,
           "confidence": 0.35,
           "rationale_id": "Agenda internasional tidak menonjol dalam produk legislasi periode ini.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "negara-hukum",
@@ -18161,42 +17429,33 @@
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Agenda agama-negara tidak dominan dalam legislasi periode ini.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Legislasi HAM stagnan tanpa kemajuan berarti.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-3",
           "score": 0,
           "confidence": 0.45,
           "rationale_id": "Kebijakan otonomi daerah cenderung sentralistis tanpa perbaikan berarti.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-4",
@@ -18237,14 +17496,11 @@
           "score": 0,
           "confidence": 0.35,
           "rationale_id": "Pengawasan sektor keamanan tetap lemah.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-2",
@@ -18268,28 +17524,22 @@
           "score": 0,
           "confidence": 0.35,
           "rationale_id": "Tidak ada terobosan legislasi pendidikan yang berdampak terukur.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-4",
           "score": 0,
           "confidence": 0.35,
           "rationale_id": "Agenda internasional tidak menjadi sorotan legislasi.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "negara-hukum",
@@ -18358,14 +17608,11 @@
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Agenda agama-negara muncul sporadis tanpa legislasi besar.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
@@ -18446,14 +17693,11 @@
           "score": 0,
           "confidence": 0.35,
           "rationale_id": "Pengawasan sektor keamanan tidak menonjol.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-2",
@@ -18491,14 +17735,11 @@
           "score": 0,
           "confidence": 0.35,
           "rationale_id": "Agenda internasional tidak menonjol dalam produk legislasi.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "negara-hukum",
@@ -18601,14 +17842,11 @@
           "score": 0,
           "confidence": 0.45,
           "rationale_id": "Isu integrasi nasional bukan sorotan utama legislasi periode ini.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-4",
@@ -18652,14 +17890,11 @@
           "score": 0,
           "confidence": 0.35,
           "rationale_id": "Pengawasan sektor keamanan tetap lemah.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-2",
@@ -18683,28 +17918,22 @@
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Tidak ada terobosan legislasi pendidikan yang signifikan.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-4",
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Agenda internasional tidak menonjol dalam produk legislasi.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "negara-hukum",
@@ -18782,14 +18011,11 @@
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Periode masih awal berjalan tanpa isu agama-negara besar.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
@@ -18813,14 +18039,11 @@
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Data periode berjalan belum cukup untuk penilaian.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-4",
@@ -18844,28 +18067,22 @@
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Belum ada produk kesejahteraan besar dari dewan periode ini.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-1",
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Pengawasan pertahanan belum menonjol.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-2",
@@ -18889,28 +18106,22 @@
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Agenda pendidikan belum menjadi sorotan.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "tujuan-4",
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Agenda internasional belum menonjol.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "negara-hukum",
@@ -18985,28 +18196,22 @@
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Perkara kebebasan beragama belum menjadi agenda dominan majelis pertama.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
           "score": 1,
           "confidence": 0.4,
           "rationale_id": "Putusan awal mulai melindungi hak warga dari pembatasan berlebihan.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-4",
@@ -19030,14 +18235,11 @@
           "score": 1,
           "confidence": 0.55,
           "rationale_id": "Standar judicial review dan keterbukaan sidang dibangun sejak periode pertama.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "checks-balances",
@@ -19061,14 +18263,11 @@
           "score": 1,
           "confidence": 0.5,
           "rationale_id": "Putusan pemilu memperkuat kehendak rakyat sebagai sumber legitimasi.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         }
       ]
     },
@@ -19089,14 +18288,11 @@
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Tidak ada perkara agama-negara yang menonjol pada periode ini.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
@@ -19120,14 +18316,11 @@
           "score": 1,
           "confidence": 0.5,
           "rationale_id": "Aktivitas uji materi elektoral tetap produktif dan berpihak pada pemilih.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "negara-hukum",
@@ -19168,14 +18361,11 @@
           "score": 1,
           "confidence": 0.45,
           "rationale_id": "Putusan-putusan elektoral tetap menjaga suara rakyat meski reputasi goyah.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         }
       ]
     },
@@ -19196,28 +18386,22 @@
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Agenda agama-negara belum menjadi fokus putusan periode ini.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Perlindungan HAM dalam putusan berjalan tanpa landmark besar.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-4",
@@ -19241,28 +18425,22 @@
           "score": 1,
           "confidence": 0.5,
           "rationale_id": "Reformasi tata kelola etik internal berjalan pasca-skandal Akil Mochtar.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "checks-balances",
           "score": 1,
           "confidence": 0.5,
           "rationale_id": "Kemandirian majelis pulih bertahap setelah krisis integritas.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "kedaulatan-rakyat",
@@ -19300,28 +18478,22 @@
           "score": 0,
           "confidence": 0.35,
           "rationale_id": "Belum ada putusan agama-negara yang mengubah lanskap periode ini.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
           "score": 0,
           "confidence": 0.4,
           "rationale_id": "Perlindungan HAM dalam yurisprudensi berjalan tanpa arah baru.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-4",
@@ -19410,42 +18582,33 @@
           "score": 0,
           "confidence": 0.25,
           "rationale_id": "Periode masih berjalan tanpa perkara agama-negara signifikan.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-2",
           "score": 0,
           "confidence": 0.25,
           "rationale_id": "Yurisprudensi HAM berjalan normal pada periode berjalan.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-4",
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Fungsi review elektoral berjalan dengan hasil campuran.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "negara-hukum",
@@ -21177,28 +20340,22 @@
           "score": 1,
           "confidence": 0.7,
           "rationale_id": "Mengoperasionalkan kedudukan konstitusional baru MPR sebagai lembaga perwakilan bersama DPR dan DPD pasca-Amandemen UUD 1945 dengan tata tertib modern.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
           "confidence": 0.75,
           "rationale_id": "Menyelenggarakan sidang pelantikan Presiden dan Wakil Presiden hasil pemilihan umum langsung pertama 2004 secara tertib dan demokratis.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         }
       ]
     },
@@ -21219,28 +20376,22 @@
           "score": 0,
           "confidence": 0.7,
           "rationale_id": "Sosialisasi Empat Pilar adalah kegiatan seremonial tanpa capaian legislatif atau dampak substantif terukur terhadap persatuan nasional.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "checks-balances",
           "score": 0,
           "confidence": 0.65,
           "rationale_id": "Memulai kajian mendalam Badan Pengkajian MPR terkait urgensi Pokok-Pokok Haluan Negara (PPHN) tanpa mengorbankan stabilitas sistem presidensial.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         }
       ]
     },
@@ -21261,28 +20412,22 @@
           "score": 0,
           "confidence": 0.75,
           "rationale_id": "Pelantikan presiden dan wakil presiden adalah tugas konstitusional rutin yang wajib dilakukan, bukan capaian substantif kedaulatan rakyat.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-3",
           "score": 1,
           "confidence": 0.7,
           "rationale_id": "Membangun rekonsiliasi kebangsaan lintas kekuatan politik pasca-Pilpres 2024 serta memfasilitasi Sidang Tahunan Refleksi 80 & 81 Tahun Kemerdekaan RI.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         }
       ]
     },
@@ -21303,28 +20448,22 @@
           "score": -1,
           "confidence": 0.7,
           "rationale_id": "Kredibilitas kelembagaan tercederai oleh kasus hukum pimpinan terkait suap kuota impor dan sengketa kepengurusan internal pembatasan masa jabatan pimpinan.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "sila-3",
           "score": 1,
           "confidence": 0.65,
           "rationale_id": "Tetap aktif mengawal penyaluran aspirasi pemekaran daerah otonom baru dan evaluasi implementasi UU Desa di berbagai pelosok nusantara.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         }
       ]
     },
@@ -21345,28 +20484,22 @@
           "score": 1,
           "confidence": 0.7,
           "rationale_id": "Mengadvokasi keadilan alokasi Dana Bagi Hasil (DBH) bagi daerah penghasil migas/tambang, percepatan pembangunan kawasan 3T, dan ekonomi maritim.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         },
         {
           "dimension_id": "checks-balances",
           "score": 1,
           "confidence": 0.7,
           "rationale_id": "Mengoptimalkan fungsi pengawasan tripartit dalam implementasi Pilkada Serentak 545 daerah dan efektivitas APBN 2025/2026 di tingkat pemerintah daerah.",
-          "evidence": [
-            {
-              "source_id": "uud-nri-1945"
-            }
-          ],
+          "evidence": [],
           "normative_anchors": [
             "uud-nri-1945"
-          ]
+          ],
+          "evidence_gap": true
         }
       ]
     }

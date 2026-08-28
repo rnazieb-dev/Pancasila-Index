@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { dataset } from "@pancasila-index/data";
-import { computeAssessmentSummary } from "@pancasila-index/core";
+import { computeIndex } from "@pancasila-index/core";
+import { INDEX_BASIS } from "@/lib/view";
 import { checkRateLimit } from "@/lib/rate-limit";
 
 export function GET(req: NextRequest) {
@@ -31,7 +32,7 @@ export function GET(req: NextRequest) {
     if (!term) return { term_id: termId, error: "Term not found" };
 
     const assessments = dataset.assessments.filter((a) => a.term_id === termId);
-    const summary = computeAssessmentSummary(assessments, dataset.rubric);
+    const summary = computeIndex(dataset.assessments, termId, dataset.rubric, INDEX_BASIS);
 
     // Hitung rata-rata per dimensi
     const dimensions = dataset.rubric.dimensions.map((dim) => {

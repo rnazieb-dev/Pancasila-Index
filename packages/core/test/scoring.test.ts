@@ -1,8 +1,9 @@
 import { describe, expect, it } from "vitest";
 
 import {
-  computeAssessmentSummary,
+  computeIndex,
   computePublicIndex,
+  MIN_COVERAGE_FOR_INDEX,
   parseDataset,
   scoreToIndex,
 } from "../src/index.js";
@@ -114,12 +115,9 @@ describe("scoreToIndex", () => {
   });
 });
 
-describe("computeAssessmentSummary", () => {
+describe("computeIndex (draft-preview)", () => {
   it("menghitung rerata tertimbang bobot dimensi x keyakinan", () => {
-    const summary = computeAssessmentSummary(
-      [mkAssessment("a-1", "draft", false, fullScores)],
-      testRubric
-    )!;
+    const summary = computeIndex([mkAssessment("a-1", "draft", false, fullScores)], "t-1", testRubric, "draft-preview")!;
 
     // g1: efektif d1 = 1*0.8 = 0.8 ; d2 = 3*0.5 = 1.5
     const g1Expected = (1 * 0.8 + -1 * 1.5) / 2.3;
@@ -155,10 +153,7 @@ describe("computeAssessmentSummary", () => {
         evidence: [{ source_id: "src-x" }],
       },
     ];
-    const summary = computeAssessmentSummary(
-      [mkAssessment("a-2", "draft", false, partial)],
-      testRubric
-    )!;
+    const summary = computeIndex([mkAssessment("a-2", "draft", false, partial)], "t-1", testRubric, "draft-preview")!;
 
     // g1 skor 1 cakupan 0.5 -> efektif 1.5 ; g2 skor 1 cakupan 1 -> efektif 1
     // rerata = (1.5*1 + 1*1)/2.5 = 1.0 -> indeks 75
@@ -172,24 +167,18 @@ describe("computeAssessmentSummary", () => {
         ? { ...ds, score: 1 } // bertentangan dengan penilaian pertama
         : { ...ds }
     );
-    const single = computeAssessmentSummary(
-      [mkAssessment("a-3", "draft", false, fullScores)],
-      testRubric
-    )!;
-    const both = computeAssessmentSummary(
-      [
+    const single = computeIndex([mkAssessment("a-3", "draft", false, fullScores)], "t-1", testRubric, "draft-preview")!;
+    const both = computeIndex([
         mkAssessment("a-3", "draft", false, fullScores),
         mkAssessment("a-4", "draft", false, other),
-      ],
-      testRubric
-    )!;
+      ], "t-1", testRubric, "draft-preview")!;
 
     // d2 berubah dari -1 menjadi rata-rata 0 -> indeks harus naik
     expect(both.index!).toBeGreaterThan(single.index!);
   });
 
   it("mengembalikan null tanpa penilaian", () => {
-    expect(computeAssessmentSummary([], testRubric)).toBeNull();
+    expect(computeIndex([], "t-1", testRubric, "draft-preview")).toBeNull();
   });
 
   it("bukti yang lebih beragam menaikkan bobot keyakinan dimensi", () => {
@@ -216,19 +205,18 @@ describe("computeAssessmentSummary", () => {
         evidence: [{ source_id: "src-a" }],
       },
     ];
-    const summary = computeAssessmentSummary(
-      [mkAssessment("a-12", "draft", false, scores)],
-      testRubric
-    )!;
+    const summary = computeIndex([mkAssessment("a-12", "draft", false, scores)], "t-1", testRubric, "draft-preview")!;
     // baseline tanpa korelasi (kedua dimensi satu sumber) lebih rendah
-    const baseline = computeAssessmentSummary(
+    const baseline = computeIndex(
       [
         mkAssessment("a-13", "draft", false, [
           { ...scores[0]!, evidence: [{ source_id: "src-a" }] },
           { ...scores[1]! },
         ]),
       ],
-      testRubric
+      "t-1",
+      testRubric,
+      "draft-preview"
     )!;
     expect(summary.index!).toBeGreaterThan(baseline.index!);
     expect(summary.index).toBeCloseTo(27.9, 1);
@@ -384,5 +372,142 @@ describe("validasi dataset", () => {
     const bad = structuredClone(baseDataset);
     (bad.rubric.dimensions[0] as { id: string }).id = "ID Salah";
     expect(() => parseDataset(bad)).toThrow();
+  });
+});
+
+// ------------------------------------------------------------------ regresi
+// Uji di bawah menjaga cacat yang pernah nyata terjadi, bukan perilaku umum.
+
+describe("regresi: kebijakan status wajib ditegakkan", () => {
+  it("basis published menolak draf sekalipun human_confirmed", () => {
+    const draf = mkAssessment("a-draft", "draft", true, fullScores);
+    expect(computeIndex([draf], "t-1", testRubric, "published")).toBeNull();
+    expect(computeIndex([draf], "t-1", testRubric, "draft-preview")).not.toBeNull();
+  });
+
+  it("basis published menolak published yang belum dikonfirmasi manusia", () => {
+    const tanpaKonfirmasi = mkAssessment("a-pub", "published", false, fullScores);
+    expect(computeIndex([tanpaKonfirmasi], "t-1", testRubric, "published")).toBeNull();
+  });
+
+  it("hasil selalu membawa dasar dan komposisinya", () => {
+    // Sebelumnya dasar status hilang di perjalanan: REST API menyajikan draf
+    // tanpa penanda apa pun karena API tidak punya footer seperti situs.
+    const s = computeIndex(
+      [mkAssessment("a-1", "draft", false, fullScores)],
+      "t-1",
+      testRubric,
+      "draft-preview"
+    )!;
+    expect(s.basis).toBe("draft-preview");
+    expect(s.draft_count).toBe(1);
+    expect(s.published_count).toBe(0);
+  });
+
+  it("hanya menghitung penilaian milik masa jabatan yang diminta", () => {
+    const lain = mkAssessment("a-lain", "draft", false, fullScores, { term_id: "t-2" });
+    expect(computeIndex([lain], "t-1", testRubric, "draft-preview")).toBeNull();
+  });
+});
+
+describe("regresi: skor tanpa bukti empiris tidak menggerakkan indeks", () => {
+  const tanpaBukti: Assessment["dimension_scores"] = [
+    {
+      dimension_id: "d1",
+      score: 2,
+      confidence: 0.9,
+      rationale_id: "Rasional yang cukup panjang untuk lolos validasi skema.",
+      evidence: [],
+      evidence_gap: true,
+    },
+  ];
+
+  it("skor evidence_gap tidak menggeser indeks sedikit pun", () => {
+    // tanpaBukti memberi d1 skor +2 berkeyakinan 0.9; bila ia ikut dihitung,
+    // rerata d1 akan naik dari +1 ke +1.5 dan indeks bergerak.
+    const tanpa = computeIndex(
+      [mkAssessment("a-1", "draft", false, fullScores)],
+      "t-1",
+      testRubric,
+      "draft-preview"
+    )!;
+    const dengan = computeIndex(
+      [mkAssessment("a-2", "draft", false, [...fullScores, ...tanpaBukti])],
+      "t-1",
+      testRubric,
+      "draft-preview"
+    )!;
+    expect(dengan.excluded_no_evidence).toBe(1);
+    expect(tanpa.excluded_no_evidence).toBe(0);
+    expect(dengan.index).toBe(tanpa.index);
+    expect(dengan.scored_dimensions).toBe(tanpa.scored_dimensions);
+  });
+
+  it("penilaian yang seluruhnya tanpa bukti tidak menghasilkan indeks", () => {
+    const s = computeIndex(
+      [mkAssessment("a-1", "draft", false, tanpaBukti)],
+      "t-1",
+      testRubric,
+      "draft-preview"
+    )!;
+    expect(s.index).toBeNull();
+    expect(s.scored_dimensions).toBe(0);
+  });
+});
+
+describe("regresi: jangkar normatif tidak menaikkan keyakinan faktual", () => {
+  it("menambah normative_anchors tidak mengubah indeks", () => {
+    const dasar: Assessment["dimension_scores"] = [
+      {
+        dimension_id: "d1",
+        score: 1,
+        confidence: 0.5,
+        rationale_id: "Rasional yang cukup panjang untuk lolos validasi skema.",
+        evidence: [{ source_id: "src-x" }],
+      },
+    ];
+    const berjangkar: Assessment["dimension_scores"] = [
+      { ...dasar[0]!, normative_anchors: ["uud-nri-1945", "uu-39-1999", "tap-mpr-xvii-1998"] },
+    ];
+    const a = computeIndex([mkAssessment("a", "draft", false, dasar)], "t-1", testRubric, "draft-preview")!;
+    const b = computeIndex([mkAssessment("b", "draft", false, berjangkar)], "t-1", testRubric, "draft-preview")!;
+    expect(b.index).toBe(a.index);
+  });
+});
+
+describe("regresi: ambang cakupan menahan komposit yang menyesatkan", () => {
+  it("cakupan di bawah ambang menahan indeks tetapi tetap melaporkan grup", () => {
+    // Kasus nyata: satu masa jabatan menampilkan 88,9 dari cakupan 17%.
+    const satuDimensi: Assessment["dimension_scores"] = [
+      {
+        dimension_id: "d1",
+        score: 2,
+        confidence: 0.9,
+        rationale_id: "Rasional yang cukup panjang untuk lolos validasi skema.",
+        evidence: [{ source_id: "src-x" }],
+      },
+    ];
+    const s = computeIndex(
+      [mkAssessment("a-1", "draft", false, satuDimensi)],
+      "t-1",
+      testRubric,
+      "draft-preview"
+    )!;
+    expect(s.coverage).toBeLessThan(MIN_COVERAGE_FOR_INDEX);
+    expect(s.index).toBeNull();
+    expect(s.index_suppressed_reason).toBe("cakupan-di-bawah-ambang");
+    expect(s.groups.find((g) => g.group_id === "g1")!.score).toBe(2);
+  });
+
+  it("cakupan penuh menerbitkan indeks tanpa alasan penahanan", () => {
+    const s = computeIndex(
+      [mkAssessment("a-1", "draft", false, fullScores)],
+      "t-1",
+      testRubric,
+      "draft-preview"
+    )!;
+    expect(s.coverage).toBe(1);
+    expect(s.index).not.toBeNull();
+    expect(s.index_suppressed_reason).toBeNull();
   });
 });

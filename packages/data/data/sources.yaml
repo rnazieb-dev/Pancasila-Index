@@ -3,6 +3,7 @@
 
 - id: uud-nri-1945
   type: dokumen-mpr
+  normative_baseline: true
   title_id: Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (hasil empat amandemen)
   year: 2002
   citation_id: UUD NRI Tahun 1945, MPR RI
@@ -15,9 +16,9 @@
 
 - id: tap-mpr-xvii-1998
   type: dokumen-mpr
-  title_id: TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia
+  title_id: Ketetapan MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia (Piagam HAM Indonesia)
   year: 1998
-  citation_id: TAP MPR XVII/MPR/1998
+  citation_id: TAP MPR No. XVII/MPR/1998
 
 - id: tap-mpr-iii-2001
   type: dokumen-mpr
@@ -39,6 +40,8 @@
   type: undang-undang
   title_id: UU No. 39 Tahun 1999 tentang Hak Asasi Manusia
   year: 1999
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=39&thn=1999
+  citation_id: LN No. 165 Tahun 1999, TLN No. 3886
 
 - id: uu-40-1999
   type: undang-undang
@@ -47,18 +50,21 @@
 
 - id: uu-22-1999
   type: undang-undang
-  title_id: UU No. 22 Tahun 1999 tentang Pemerintahan Daerah
+  title_id: UU No. 22 Tahun 1999 tentang Pemerintahan Daerah (Desentralisasi dan Otonomi Daerah Era Reformasi)
   year: 1999
+  citation_id: LN No. 60 Tahun 1999, TLN No. 3839
 
 - id: uu-25-1999
   type: undang-undang
   title_id: UU No. 25 Tahun 1999 tentang Perimbangan Keuangan antara Pemerintah Pusat dan Daerah
   year: 1999
+  citation_id: LN No. 72 Tahun 1999, TLN No. 3848
 
 - id: keppres-6-2000
   type: keppres
-  title_id: Keppres No. 6 Tahun 2000 (mencabut Inpres No. 14/1967 tentang agama, kepercayaan, dan adat istiadat Tionghoa)
+  title_id: Keppres No. 6 Tahun 2000 tentang Pencabutan Inpres No. 14/1967 (Pemulihan Hak Sipil Etnis Tionghoa)
   year: 2000
+  citation_id: Keppres No. 6 Tahun 2000
 
 - id: keppres-125-1999
   type: keppres
@@ -81,11 +87,14 @@
   type: undang-undang
   title_id: UU No. 15 Tahun 2003 tentang Pemberantasan Tindak Pidana Terorisme
   year: 2003
+  citation_id: LN No. 45 Tahun 2003, TLN No. 4284
 
 - id: uu-30-2002
   type: undang-undang
-  title_id: UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Korupsi
+  title_id: UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi (KPK)
   year: 2002
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2002
+  citation_id: LN No. 137 Tahun 2002, TLN No. 4250
 
 - id: uu-23-2003
   type: undang-undang
@@ -96,6 +105,8 @@
   type: undang-undang
   title_id: UU No. 24 Tahun 2003 tentang Mahkamah Konstitusi
   year: 2003
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=24&thn=2003
+  citation_id: LN No. 98 Tahun 2003, TLN No. 4316
 
 - id: uu-27-2004
   type: undang-undang
@@ -111,8 +122,10 @@
 
 - id: uu-11-2006
   type: undang-undang
-  title_id: UU No. 11 Tahun 2006 tentang Pemerintahan Aceh
+  title_id: UU No. 11 Tahun 2006 tentang Pemerintahan Aceh (UUPA)
   year: 2006
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2006
+  citation_id: LN No. 62 Tahun 2006, TLN No. 4633
 
 - id: uu-32-2004
   type: undang-undang
@@ -157,8 +170,10 @@
 
 - id: uu-17-2014
   type: undang-undang
-  title_id: UU No. 17 Tahun 2014 tentang MPR, DPR, DPD, dan DPRD (MD3)
+  title_id: UU No. 17 Tahun 2014 tentang MPR, DPR, DPD, dan DPRD (UU MD3)
   year: 2014
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=17&thn=2014
+  citation_id: LN No. 182 Tahun 2014, TLN No. 5568
 
 - id: uu-23-2014
   type: undang-undang
@@ -172,9 +187,10 @@
   url: https://putusan3.mkri.id
 
 - id: inpres-10-2011
-  type: lainnya
-  title_id: Inpres No. 10/2011 tentang Penundaan Izin Baru Hutan Alam Primer dan Gambut
+  type: keppres
+  title_id: Instruksi Presiden No. 10 Tahun 2011 tentang Moratorium Izin Baru Hutan Alam Primer dan Lahan Gambut
   year: 2011
+  citation_id: Inpres No. 10 Tahun 2011
 
 - id: laporan-komnas-ham-eksekusi-2015
   type: laporan-lembaga
@@ -200,18 +216,24 @@
 
 - id: uu-16-2019
   type: undang-undang
-  title_id: UU No. 16 Tahun 2019 tentang Perubahan atas UU Pencalonan Presiden (pencalonan berpasangan)
+  title_id: UU No. 16 Tahun 2019 tentang Perubahan atas UU No. 1 Tahun 1974 tentang Perkawinan (Penyetaraan Usia Menikah Minimum 19 Tahun)
   year: 2019
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=16&thn=2019
+  citation_id: LN No. 186 Tahun 2019, TLN No. 6401
 
 - id: uu-19-2019
   type: undang-undang
-  title_id: UU No. 19 Tahun 2019 (Perubahan Kedua UU KPK No. 30/2002)
+  title_id: UU No. 19 Tahun 2019 tentang Perubahan Kedua atas UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi
   year: 2019
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2019
+  citation_id: LN No. 197 Tahun 2019, TLN No. 6409
 
 - id: uu-7-2017
   type: undang-undang
-  title_id: UU No. 7 Tahun 2017 tentang Pemilihan Umum
+  title_id: UU No. 7 Tahun 2017 tentang Pemilihan Umum (Kodifikasi Regulasi Pemilu Serentak)
   year: 2017
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017
+  citation_id: LN No. 182 Tahun 2017, TLN No. 6109
 
 - id: uu-11-2020
   type: undang-undang
@@ -226,8 +248,10 @@
 
 - id: perppu-2-2022
   type: perppu
-  title_id: Perppu No. 2 Tahun 2022 tentang Cipta Kerja
+  title_id: Perppu No. 2 Tahun 2022 tentang Cipta Kerja (Pengganti UU Cipta Kerja Inkonstitusional Bersyarat)
   year: 2022
+  url: https://jdih.setneg.go.id/detailperaturan?jns=PERPPU&no=2&thn=2022
+  citation_id: LN No. 238 Tahun 2022, TLN No. 6841
 
 - id: uu-6-2023
   type: undang-undang
@@ -236,18 +260,24 @@
 
 - id: uu-3-2022
   type: undang-undang
-  title_id: UU No. 3 Tahun 2022 tentang Ibu Kota Negara
+  title_id: UU No. 3 Tahun 2022 tentang Ibu Kota Negara (Pemindahan Ibu Kota ke IKN Nusantara di Kalimantan Timur)
   year: 2022
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2022
+  citation_id: LN No. 41 Tahun 2022, TLN No. 6766
 
 - id: uu-1-2023
   type: undang-undang
-  title_id: UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (RKUHP)
+  title_id: UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (Kodifikasi KUHP Nasional Baru)
   year: 2023
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023
+  citation_id: LN No. 1 Tahun 2023, TLN No. 6842
 
 - id: uu-27-2022
   type: undang-undang
-  title_id: UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi
+  title_id: UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)
   year: 2022
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=27&thn=2022
+  citation_id: LN No. 196 Tahun 2022, TLN No. 6820
 
 - id: uu-17-2023
   type: undang-undang
@@ -256,8 +286,10 @@
 
 - id: uu-2-2020
   type: undang-undang
-  title_id: UU No. 2 Tahun 2020 (Perppu 1/2020 - kebijakan fiskal penanganan pandemi COVID-19 dan jaring pengaman sosial)
+  title_id: UU No. 2 Tahun 2020 tentang Kebijakan Keuangan Negara dan Stabilitas Sistem Keuangan Penanganan Pandemi COVID-19
   year: 2020
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2020
+  citation_id: LN No. 134 Tahun 2020, TLN No. 6516
 
 - id: putusan-mk-90-2023
   type: putusan-mk
@@ -296,9 +328,10 @@
   citation_id: Siaran pers Komnas HAM, Agustus 2025
 
 - id: perpres-83-2024
-  type: lainnya
-  title_id: Perpres No. 83 Tahun 2024 tentang Badan Gizi Nasional (program Makan Bergizi Gratis)
+  type: keppres
+  title_id: Peraturan Presiden No. 83 Tahun 2024 tentang Badan Gizi Nasional (Pelaksanaan Program Makan Bergizi Gratis Nasional)
   year: 2024
+  citation_id: Lembaran Negara Tahun 2024 No. 153
 
 - id: uu-danantara-2025
   type: undang-undang
@@ -307,8 +340,10 @@
 
 - id: uu-12-2011
   type: undang-undang
-  title_id: UU No. 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan
+  title_id: UU No. 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (UU PPP)
   year: 2011
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2011
+  citation_id: LN No. 82 Tahun 2011, TLN No. 5234
 
 - id: putusan-mk-46-2010
   type: putusan-mk
@@ -360,10 +395,10 @@
   citation_id: Arsip Nasional RI; dokumen KMB
 
 - id: uuds-1950
-  type: lainnya
-  title_id: Undang-Undang Dasar Sementara 1950 (berlaku 17 Agustus 1950)
+  type: undang-undang
+  title_id: UU No. 7 Tahun 1950 tentang Perubahan Konstitusi Sementara RIS Menjadi Undang-Undang Dasar Sementara Republik Indonesia
   year: 1950
-  citation_id: Lembaran Negara RIS/UUDS 1950
+  citation_id: Lembaran Negara Tahun 1950 No. 56
 
 - id: pemilu-1955
   type: lainnya
@@ -405,9 +440,9 @@
 
 - id: supersemar-1966
   type: arsip-nasional
-  title_id: Surat Perintah Sebelas Maret (Supersemar) 1966 - salinan Arsip Nasional
+  title_id: Surat Perintah Sebelas Maret (Supersemar) 1966 dari Presiden Sukarno kepada Letjen Soeharto
   year: 1966
-  citation_id: ANRI, Salinan Supersemar 11 Maret 1966
+  citation_id: Arsip Nasional Dokumen Supersemar 1966
 
 - id: tap-mprs-iii-1967
   type: dokumen-mpr
@@ -435,15 +470,15 @@
 
 - id: uu-7-1976
   type: undang-undang
-  title_id: UU No. 7 Tahun 1976 tentang Penyatuan Wilayah Timor Timur
+  title_id: UU No. 7 Tahun 1976 tentang Pengesahan Penyatuan Timor Timur ke dalam Negara Kesatuan Republik Indonesia
   year: 1976
-  citation_id: LN 1976 No. 35, TLN 3085
+  citation_id: LN No. 35 Tahun 1976, TLN No. 3084
 
 - id: uu-8-1985
   type: undang-undang
-  title_id: UU No. 8 Tahun 1985 tentang Organisasi Kemasyarakatan (Pancasila sebagai asas tunggal)
+  title_id: UU No. 8 Tahun 1985 tentang Organisasi Kemasyarakatan (Kewajiban Asas Tunggal Pancasila untuk Ormas)
   year: 1985
-  citation_id: LN 1985 No. 69, TLN 3323
+  citation_id: LN No. 44 Tahun 1985, TLN No. 3298
 
 - id: fao-swasembada-1985
   type: laporan-lembaga
@@ -503,6 +538,8 @@
   type: undang-undang
   title_id: UU No. 21 Tahun 2001 tentang Otonomi Khusus bagi Provinsi Papua
   year: 2001
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=21&thn=2001
+  citation_id: LN No. 135 Tahun 2001, TLN No. 4151
 
 - id: uu-11-2022-keolahragaan
   type: undang-undang
@@ -586,6 +623,8 @@
   type: undang-undang
   title_id: UU No. 26 Tahun 2000 tentang Pengadilan Hak Asasi Manusia
   year: 2000
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=26&thn=2000
+  citation_id: LN No. 208 Tahun 2000, TLN No. 4026
 
 - id: pnps-1965
   type: undang-undang
@@ -594,13 +633,17 @@
 
 - id: uu-20-2003
   type: undang-undang
-  title_id: UU No. 20 Tahun 2003 tentang Sistem Pendidikan Nasional
+  title_id: UU No. 20 Tahun 2003 tentang Sistem Pendidikan Nasional (Alokasi 20% Anggaran Pendidikan)
   year: 2003
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2003
+  citation_id: LN No. 78 Tahun 2003, TLN No. 4301
 
 - id: uu-11-2005
   type: undang-undang
-  title_id: UU No. 11 Tahun 2005 (ratifikasi International Covenant on Economic, Social and Cultural Rights)
+  title_id: UU No. 11 Tahun 2005 tentang Pengesahan International Covenant on Economic, Social and Cultural Rights (ICESCR)
   year: 2005
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2005
+  citation_id: LN No. 118 Tahun 2005, TLN No. 4557
 
 - id: uu-25-2007
   type: undang-undang
@@ -655,8 +698,10 @@
 
 - id: uu-1-2024
   type: undang-undang
-  title_id: UU No. 1 Tahun 2024 (Perubahan Kedua UU ITE)
+  title_id: UU No. 1 Tahun 2024 tentang Perubahan Kedua atas UU No. 11 Tahun 2008 tentang ITE
   year: 2024
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2024
+  citation_id: LN No. 4 Tahun 2024, TLN No. 6909
 
 - id: berita-udin-1996
   type: berita
@@ -692,32 +737,40 @@
   type: undang-undang
   title_id: UU No. 2 Tahun 2002 tentang Kepolisian Negara Republik Indonesia
   year: 2002
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2002
+  citation_id: LN No. 2 Tahun 2002, TLN No. 4168
+
 - id: tap-mprs-iii-1963
   type: dokumen-mpr
-  title_id: TAP MPRS No. III/MPRS/1963 (Sukarno Presiden Seumur Hidup)
+  title_id: Ketetapan MPRS No. III/MPRS/1963 tentang Pengangkatan Pemimpin Besar Revolusi Bung Karno Menjadi Presiden RI Seumur Hidup
   year: 1963
-  citation_id: Risalah Sidang Istimewa MPRS Mei 1963
+  citation_id: TAP MPRS No. III/MPRS/1963
+
 - id: berita-kpk-2015
   type: berita
   title_id: Pengepungan gedung KPK oleh aparat usai penetapan tersangka IGG Januari 2015
   year: 2015
   citation_id: Kompas/CNN Indonesia, Januari-Februari 2015
+
 - id: berita-hilirisasi-2020
   type: berita
   title_id: Larangan ekspor bijih nikel mentah Januari 2020 dan gelombang smelter
     hilirisasi
   year: 2020
   citation_id: Kompas/Reuters, 2020-2022
+
 - id: berita-kpu-2024
   type: berita
   title_id: Pemilu serentak 14 Februari 2024 - pemilihan satu hari terbesar di dunia
   year: 2024
   citation_id: KPU RI; Reuters/BBC Februari 2024
+
 - id: berita-kabinet-merah-putih-2024
   type: berita
   title_id: Pelantikan Kabinet Merah Putih - kabinet terbesar sejak Orde Baru
   year: 2024
   citation_id: Setpres/Kompas, Oktober 2024
+
 - id: berita-oecd-indonesia-2024
   type: berita
   title_id: Indonesia memulai proses aksesi keanggotaan OECD
@@ -731,19 +784,21 @@
   year: 2022
   url: https://jdih.setneg.go.id/detailperaturan?jns=PERPU&no=2&thn=2022
   citation_id: jdih-setneg:P19577
+
 - id: uu-17-2003
   type: undang-undang
   title_id: Undang-Undang Nomor 17 Tahun 2003 tentang Keuangan Negara
   year: 2003
   url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=17&thn=2003
   citation_id: jdih-setneg:P01196
+
 - id: uu-20-2001
   type: undang-undang
-  title_id: Undang-Undang Nomor 20 Tahun 2001 tentang Perubahan atas Uu Nomor 31
-    Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi
+  title_id: UU No. 20 Tahun 2001 tentang Perubahan atas UU No. 31 Tahun 1999 tentang Pemberantasan Tipikor
   year: 2001
   url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2001
-  citation_id: jdih-setneg:P01145
+  citation_id: LN No. 134 Tahun 2001, TLN No. 4150
+
 - id: uu-28-1999
   type: undang-undang
   title_id: Undang-Undang Nomor 28 Tahun 1999 tentang Penyelenggaraan Negara Yang
@@ -751,12 +806,14 @@
   year: 1999
   url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=28&thn=1999
   citation_id: jdih-setneg:P01059
+
 - id: uu-30-2014
   type: undang-undang
   title_id: Undang-Undang Nomor 30 Tahun 2014 tentang Administrasi Pemerintahan
   year: 2014
   url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2014
   citation_id: jdih-setneg:P14728
+
 - id: uu-5-2014
   type: undang-undang
   title_id: Undang-Undang Nomor 5 Tahun 2014 tentang Aparatur Sipil Negara
@@ -770,6 +827,7 @@
   year: 2011
   url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=17&thn=2011
   citation_id: jdih-setneg:P14617
+
 - id: uu-37-1999
   type: undang-undang
   title_id: Undang-Undang Nomor 37 Tahun 1999 tentang Hubungan Luar Negeri
@@ -846,7 +904,7 @@
 
 - id: putusan-mk-92-puu-x-2012
   type: putusan-mk
-  title_id: Putusan MK No. 92/PUU-X/2012 (Pengujian Wewenang Legislasi DPD RI dalam UU P3 dan UU MD3)
+  title_id: Putusan MK No. 92/PUU-X/2012 (Penguatan Kewenangan Legislasi DPD RI dalam Pembahasan RUU Terkait Otonomi Daerah Bersama DPR & Presiden)
   year: 2013
   url: https://www.mkri.id/index.php?page=web.Putusan&id=92/PUU-X/2012
   citation_id: Putusan MKRI No. 92/PUU-X/2012
@@ -933,7 +991,7 @@
 
 - id: putusan-mk-005-puu-iv-2006
   type: putusan-mk
-  title_id: Putusan MK No. 005/PUU-IV/2006 (Uji Materi Kewenangan KY Mengawasi Hakim Mahkamah Konstitusi)
+  title_id: Putusan MK No. 005/PUU-IV/2006 (Pembatalan Wewenang Pengawasan Hakim Agung dan Hakim Mahkamah Konstitusi oleh Komisi Yudisial)
   year: 2006
   url: https://www.mkri.id/index.php?page=web.Putusan&id=005/PUU-IV/2006
   citation_id: Putusan MKRI No. 005/PUU-IV/2006
@@ -953,7 +1011,7 @@
 
 - id: uu-19-1964
   type: undang-undang
-  title_id: UU No. 19 Tahun 1964 tentang Ketentuan-Ketentuan Pokok Kekuasaan Kehakiman (Kekuasaan Presiden Mengintervensi Pengadilan)
+  title_id: UU No. 19 Tahun 1964 tentang Ketentuan-Ketentuan Pokok Kekuasaan Kehakiman (Kewenangan Intervensi Peradilan oleh Presiden)
   year: 1964
   citation_id: LN No. 107 Tahun 1964, TLN No. 2699
 
@@ -983,58 +1041,44 @@
 
 - id: tap-mprs-xxxiii-1967
   type: dokumen-mpr
-  title_id: TAP MPRS No. XXXIII/MPRS/1967 tentang Pencabutan Kekuasaan Pemerintahan Negara dari Presiden Sukarno
+  title_id: Ketetapan MPRS No. XXXIII/MPRS/1967 tentang Pencabutan Kekuasaan Pemerintahan Negara dari Presiden Sukarno
   year: 1967
-  citation_id: TAP MPRS XXXIII/MPRS/1967
-
-- id: uu-30-2002
-  type: undang-undang
-  title_id: UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi (KPK)
-  year: 2002
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2002
-  citation_id: LN No. 137 Tahun 2002, TLN No. 4250
+  citation_id: TAP MPRS No. XXXIII/MPRS/1967
 
 - id: uu-14-2008
   type: undang-undang
-  title_id: UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik (KIP)
+  title_id: UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik (UU KIP)
   year: 2008
   url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=14&thn=2008
   citation_id: LN No. 61 Tahun 2008, TLN No. 4846
 
 - id: putusan-mk-91-puu-xviii-2020
   type: putusan-mk
-  title_id: Putusan MK No. 91/PUU-XVIII/2020 (Uji Formil UU Cipta Kerja Inkonstitusional Bersyarat)
+  title_id: Putusan MK No. 91/PUU-XVIII/2020 (Uji Formil UU Cipta Kerja - Inkonstitusional Bersyarat Cacat Partisipasi Publik Bermakna)
   year: 2021
   url: https://www.mkri.id/index.php?page=web.Putusan&id=91/PUU-XVIII/2020
   citation_id: Putusan MKRI No. 91/PUU-XVIII/2020
 
 - id: putusan-mk-90-puu-xxi-2023
   type: putusan-mk
-  title_id: Putusan MK No. 90/PUU-XXI/2023 (Syarat Batas Usia Calon Presiden dan Wakil Presiden Pernah/Sedang Menjabat Kepala Daerah)
+  title_id: Putusan MK No. 90/PUU-XXI/2023 (Syarat Batas Usia Capres-Cawapres Pernah/Sedang Menduduki Jabatan Terpilih Melalui Pemilu)
   year: 2023
   url: https://www.mkri.id/index.php?page=web.Putusan&id=90/PUU-XXI/2023
   citation_id: Putusan MKRI No. 90/PUU-XXI/2023
 
 - id: putusan-mk-60-puu-xxii-2024
   type: putusan-mk
-  title_id: Putusan MK No. 60/PUU-XXII/2024 (Penurunan Ambang Batas Pencalonan Kepala Daerah dalam UU Pilkada)
+  title_id: Putusan MK No. 60/PUU-XXII/2024 (Penurunan Ambang Batas Syarat Pencalonan Kepala Daerah dan Pembukaan Akses Partai Non-Seat)
   year: 2024
   url: https://www.mkri.id/index.php?page=web.Putusan&id=60/PUU-XXII/2024
   citation_id: Putusan MKRI No. 60/PUU-XXII/2024
 
 - id: putusan-mk-70-puu-xxii-2024
   type: putusan-mk
-  title_id: Putusan MK No. 70/PUU-XXII/2024 (Penegasan Titik Hitung Syarat Usia Calon Kepala Daerah Saat Penetapan Pasangan Calon)
+  title_id: Putusan MK No. 70/PUU-XXII/2024 (Penetapan Syarat Usia Calon Kepala Daerah Dihitung Saat Penetapan Pasangan Calon oleh KPU)
   year: 2024
   url: https://www.mkri.id/index.php?page=web.Putusan&id=70/PUU-XXII/2024
   citation_id: Putusan MKRI No. 70/PUU-XXII/2024
-
-- id: uu-19-2019
-  type: undang-undang
-  title_id: UU No. 19 Tahun 2019 tentang Perubahan Kedua atas UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi
-  year: 2019
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2019
-  citation_id: LN No. 197 Tahun 2019, TLN No. 6409
 
 - id: laporan-audit-bpk-century-2009
   type: laporan-lembaga
@@ -1055,30 +1099,17 @@
   url: https://www.mkri.id/index.php?page=web.Putusan&id=14/PUU-XI/2013
   citation_id: Putusan MKRI No. 14/PUU-XI/2013
 
-- id: uu-7-2017
-  type: undang-undang
-  title_id: UU No. 7 Tahun 2017 tentang Pemilihan Umum (Kodifikasi Regulasi Pemilu Serentak)
-  year: 2017
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017
-  citation_id: LN No. 182 Tahun 2017, TLN No. 6109
-
 - id: deklarasi-djuanda-1957
   type: arsip-nasional
-  title_id: Deklarasi Djuanda 13 Desember 1957 tentang Batas Laut Teritorial dan Konsep Negara Kepulauan Indonesia
+  title_id: Deklarasi Djuanda 13 Desember 1957 tentang Wilayah Perairan Republik Indonesia (Konsep Negara Kepulauan)
   year: 1957
-  citation_id: Pengumuman Pemerintah tentang Wilayah Perairan RI 13 Desember 1957
+  citation_id: Deklarasi Djuanda 1957
 
 - id: konstitusi-ris-1949
   type: dokumen-mpr
   title_id: Piagam Persetujuan Konstitusi Republik Indonesia Serikat (Konstitusi RIS 1949)
   year: 1949
   citation_id: Lembaran Negara RIS Tahun 1950 No. 3
-
-- id: uuds-1950
-  type: undang-undang
-  title_id: UU No. 7 Tahun 1950 tentang Perubahan Konstitusi Sementara RIS Menjadi Undang-Undang Dasar Sementara Republik Indonesia
-  year: 1950
-  citation_id: Lembaran Negara Tahun 1950 No. 56
 
 - id: perma-1-2019
   type: putusan-ma
@@ -1118,9 +1149,9 @@
 
 - id: perjanjian-renville-1948
   type: arsip-nasional
-  title_id: Naskah Perjanjian Renville 17 Januari 1948
+  title_id: Naskah Perjanjian Renville 17 Januari 1948 di atas Kapal USS Renville
   year: 1948
-  citation_id: Arsip Perjanjian Renville 1948
+  citation_id: Arsip Nasional Perjanjian Renville 1948
 
 - id: perjanjian-roem-royen-1949
   type: arsip-nasional
@@ -1152,12 +1183,6 @@
   year: 1960
   citation_id: Penpres No. 4 Tahun 1960
 
-- id: supersemar-1966
-  type: arsip-nasional
-  title_id: Surat Perintah Sebelas Maret (Supersemar) 11 Maret 1966
-  year: 1966
-  citation_id: Arsip Nasional RI Supersemar 1966
-
 - id: tap-mprs-ix-1966
   type: dokumen-mpr
   title_id: TAP MPRS No. IX/MPRS/1966 tentang Pengukuhan Surat Perintah 11 Maret 1966
@@ -1172,7 +1197,7 @@
 
 - id: uu-3-1975
   type: undang-undang
-  title_id: UU No. 3 Tahun 1975 tentang Partai Politik dan Golongan Karya (Fusi Partai Politik Orde Baru)
+  title_id: UU No. 3 Tahun 1975 tentang Partai Politik dan Golongan Karya (Penyederhanaan/Fusi Tiga Partai)
   year: 1975
   citation_id: LN No. 32 Tahun 1975, TLN No. 3062
 
@@ -1182,41 +1207,11 @@
   year: 1985
   citation_id: LN No. 12 Tahun 1985, TLN No. 3285
 
-- id: uu-8-1985
-  type: undang-undang
-  title_id: UU No. 8 Tahun 1985 tentang Organisasi Kemasyarakatan (Kewajiban Asas Tunggal Pancasila untuk Ormas)
-  year: 1985
-  citation_id: LN No. 44 Tahun 1985, TLN No. 3298
-
 - id: tap-mpr-ii-1978
   type: dokumen-mpr
-  title_id: TAP MPR No. II/MPR/1978 tentang Pedoman Penghayatan dan Pengamalan Pancasila (P4 / Ekaprasetia Pancakarsa)
+  title_id: Ketetapan MPR No. II/MPR/1978 tentang Pedoman Penghayatan dan Pengamalan Pancasila (P4 / Ekaprasetia Pancakarsa)
   year: 1978
-  citation_id: TAP MPR II/MPR/1978
-
-- id: tap-mpr-xvii-1998
-  type: dokumen-mpr
-  title_id: TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dan Piagam HAM Indonesia
-  year: 1998
-  citation_id: TAP MPR XVII/MPR/1998
-
-- id: tap-mpr-xi-1998
-  type: dokumen-mpr
-  title_id: TAP MPR No. XI/MPR/1998 tentang Penyelenggara Negara yang Bersih dan Bebas KKN
-  year: 1998
-  citation_id: TAP MPR XI/MPR/1998
-
-- id: tap-mpr-vi-2000
-  type: dokumen-mpr
-  title_id: TAP MPR No. VI/MPR/2000 tentang Pemisahan Tentara Nasional Indonesia dan Kepolisian Negara Republik Indonesia
-  year: 2000
-  citation_id: TAP MPR VI/MPR/2000
-
-- id: tap-mpr-vii-2000
-  type: dokumen-mpr
-  title_id: TAP MPR No. VII/MPR/2000 tentang Peran TNI dan Peran POLRI (Penghapusan Dwifungsi ABRI)
-  year: 2000
-  citation_id: TAP MPR VII/MPR/2000
+  citation_id: TAP MPR No. II/MPR/1978
 
 - id: putusan-mk-001-021-022-puu-i-2003
   type: putusan-mk
@@ -1326,13 +1321,6 @@
   url: https://www.mkri.id/index.php?page=web.Putusan&id=30/PUU-XVI/2018
   citation_id: Putusan MKRI No. 30/PUU-XVI/2018
 
-- id: putusan-mk-92-puu-x-2012
-  type: putusan-mk
-  title_id: Putusan MK No. 92/PUU-X/2012 (Penguatan Kewenangan Legislasi DPD RI dalam Pembahasan RUU Terkait Otonomi Daerah Bersama DPR & Presiden)
-  year: 2013
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=92/PUU-X/2012
-  citation_id: Putusan MKRI No. 92/PUU-X/2012
-
 - id: putusan-mk-012-016-019-puu-iv-2006
   type: putusan-mk
   title_id: Putusan MK No. 012-016-019/PUU-IV/2006 (Keabsahan Konstitusional Kewenangan Penyadapan Mandiri KPK Tanpa Izin Pengadilan)
@@ -1384,20 +1372,6 @@
   url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=15&thn=2002
   citation_id: LN No. 30 Tahun 2002, TLN No. 4191
 
-- id: uu-3-2022
-  type: undang-undang
-  title_id: UU No. 3 Tahun 2022 tentang Ibu Kota Negara (Pemindahan Ibu Kota ke IKN Nusantara di Kalimantan Timur)
-  year: 2022
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2022
-  citation_id: LN No. 41 Tahun 2022, TLN No. 6766
-
-- id: uu-1-2023
-  type: undang-undang
-  title_id: UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (Kodifikasi KUHP Nasional Baru)
-  year: 2023
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023
-  citation_id: LN No. 1 Tahun 2023, TLN No. 6842
-
 - id: uu-24-2007
   type: undang-undang
   title_id: UU No. 24 Tahun 2007 tentang Penanggulangan Bencana (Pembentukan Badan Nasional Penanggulangan Bencana / BNPB)
@@ -1423,12 +1397,6 @@
   year: 1958
   citation_id: Lembaran Negara Tahun 1958 No. 162
 
-- id: perpres-83-2024
-  type: keppres
-  title_id: Peraturan Presiden No. 83 Tahun 2024 tentang Badan Gizi Nasional (Pelaksanaan Program Makan Bergizi Gratis Nasional)
-  year: 2024
-  citation_id: Lembaran Negara Tahun 2024 No. 153
-
 - id: putusan-ma-ronald-tannur-2024
   type: putusan-ma
   title_id: Putusan Kasasi MA No. 1466 K/Pid/2024 & Penangkapan Hakim Pengadilan Negeri Surabaya atas Kasus Suap Vonis Bebas Ronald Tannur
@@ -1440,13 +1408,6 @@
   title_id: Laporan Tahunan Komisi Yudisial RI Tahun 2023 (Penegakan Integritas Etik Hakim dan Seleksi Terbuka Hakim Agung)
   year: 2024
   citation_id: KY RI Laptah 2023
-
-- id: uu-17-2014
-  type: undang-undang
-  title_id: UU No. 17 Tahun 2014 tentang MPR, DPR, DPD, dan DPRD (UU MD3)
-  year: 2014
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=17&thn=2014
-  citation_id: LN No. 182 Tahun 2014, TLN No. 5568
 
 - id: uu-11-2016
   type: undang-undang
@@ -1462,26 +1423,12 @@
   url: https://www.mkri.id/index.php?page=web.Putusan&id=105/PUU-XIV/2016
   citation_id: Putusan MKRI No. 105/PUU-XIV/2016
 
-- id: uu-27-2022
-  type: undang-undang
-  title_id: UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)
-  year: 2022
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=27&thn=2022
-  citation_id: LN No. 196 Tahun 2022, TLN No. 6820
-
 - id: putusan-mk-22-puu-xv-2017
   type: putusan-mk
   title_id: Putusan MK No. 22/PUU-XV/2017 (Perintah Revisi Batas Usia Minimal Perkawinan Perempuan Menjadi 19 Tahun Demi Perlindungan Hak Anak)
   year: 2018
   url: https://www.mkri.id/index.php?page=web.Putusan&id=22/PUU-XV/2017
   citation_id: Putusan MKRI No. 22/PUU-XV/2017
-
-- id: uu-16-2019
-  type: undang-undang
-  title_id: UU No. 16 Tahun 2019 tentang Perubahan atas UU No. 1 Tahun 1974 tentang Perkawinan (Penyetaraan Usia Menikah Minimum 19 Tahun)
-  year: 2019
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=16&thn=2019
-  citation_id: LN No. 186 Tahun 2019, TLN No. 6401
 
 - id: deklarasi-keadaan-perang-1957
   type: keppres
@@ -1500,12 +1447,6 @@
   title_id: Piagam Penyerahan Kedaulatan Konferensi Meja Bundar (KMB) Den Haag 27 Desember 1949
   year: 1949
   citation_id: Arsip Nasional RI Naskah KMB 1949
-
-- id: deklarasi-djuanda-1957
-  type: arsip-nasional
-  title_id: Deklarasi Djuanda 13 Desember 1957 tentang Wilayah Perairan Republik Indonesia (Konsep Negara Kepulauan)
-  year: 1957
-  citation_id: Deklarasi Djuanda 1957
 
 - id: dasasila-bandung-1955
   type: arsip-nasional
@@ -1537,18 +1478,6 @@
   year: 1966
   citation_id: Arsip Tritura 1966
 
-- id: deklarasi-bangkok-1967
-  type: arsip-nasional
-  title_id: Deklarasi Bangkok 8 Agustus 1967 tentang Pembentukan Perhimpunan Bangsa-Bangsa Asia Tenggara (ASEAN)
-  year: 1967
-  citation_id: ASEAN Declaration 1967
-
-- id: uu-7-1976
-  type: undang-undang
-  title_id: UU No. 7 Tahun 1976 tentang Pengesahan Penyatuan Timor Timur ke dalam Negara Kesatuan Republik Indonesia
-  year: 1976
-  citation_id: LN No. 35 Tahun 1976, TLN No. 3084
-
 - id: arsip-malari-1974
   type: arsip-nasional
   title_id: Laporan Khusus Kopkamtib atas Peristiwa Malapetaka Lima Belas Januari (Malari) 1974
@@ -1573,59 +1502,12 @@
   year: 1999
   citation_id: TAP MPR V/MPR/1999
 
-- id: uu-22-1999
-  type: undang-undang
-  title_id: UU No. 22 Tahun 1999 tentang Pemerintahan Daerah (Desentralisasi dan Otonomi Daerah Era Reformasi)
-  year: 1999
-  citation_id: LN No. 60 Tahun 1999, TLN No. 3839
-
-- id: uu-30-2002
-  type: undang-undang
-  title_id: UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi (KPK)
-  year: 2002
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=30&thn=2002
-  citation_id: LN No. 137 Tahun 2002, TLN No. 4250
-
-- id: uu-24-2003
-  type: undang-undang
-  title_id: UU No. 24 Tahun 2003 tentang Mahkamah Konstitusi
-  year: 2003
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=24&thn=2003
-  citation_id: LN No. 98 Tahun 2003, TLN No. 4316
-
-- id: uu-22-2004
-  type: undang-undang
-  title_id: UU No. 22 Tahun 2004 tentang Komisi Yudisial
-  year: 2004
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=22&thn=2004
-  citation_id: LN No. 89 Tahun 2004, TLN No. 4415
-
-- id: mou-helsinki-2005
-  type: arsip-nasional
-  title_id: Memorandum of Understanding (MoU) Helsinki antara Pemerintah RI dan Gerakan Aceh Merdeka 15 Agustus 2005
-  year: 2005
-  citation_id: MoU Helsinki 2005
-
-- id: uu-11-2006
-  type: undang-undang
-  title_id: UU No. 11 Tahun 2006 tentang Pemerintahan Aceh (UUPA)
-  year: 2006
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2006
-  citation_id: LN No. 62 Tahun 2006, TLN No. 4633
-
 - id: putusan-mk-5-puu-v-2007
   type: putusan-mk
   title_id: Putusan MK No. 5/PUU-V/2007 (Legalisasi Calon Perseorangan / Independen dalam Pilkada di Seluruh Indonesia)
   year: 2007
   url: https://www.mkri.id/index.php?page=web.Putusan&id=5/PUU-V/2007
   citation_id: Putusan MKRI No. 5/PUU-V/2007
-
-- id: uu-14-2008
-  type: undang-undang
-  title_id: UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik (UU KIP)
-  year: 2008
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=14&thn=2008
-  citation_id: LN No. 61 Tahun 2008, TLN No. 4846
 
 - id: uu-25-2009
   type: undang-undang
@@ -1647,47 +1529,12 @@
   url: https://www.mkri.id/index.php?page=web.Putusan&id=55/PUU-XVII/2019
   citation_id: Putusan MKRI No. 55/PUU-XVII/2019
 
-- id: uu-2-2020
-  type: undang-undang
-  title_id: UU No. 2 Tahun 2020 tentang Kebijakan Keuangan Negara dan Stabilitas Sistem Keuangan Penanganan Pandemi COVID-19
-  year: 2020
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2020
-  citation_id: LN No. 134 Tahun 2020, TLN No. 6516
-
-- id: putusan-mk-91-puu-xviii-2020
-  type: putusan-mk
-  title_id: Putusan MK No. 91/PUU-XVIII/2020 (Uji Formil UU Cipta Kerja - Inkonstitusional Bersyarat Cacat Partisipasi Publik Bermakna)
-  year: 2021
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=91/PUU-XVIII/2020
-  citation_id: Putusan MKRI No. 91/PUU-XVIII/2020
-
-- id: putusan-mk-90-puu-xxi-2023
-  type: putusan-mk
-  title_id: Putusan MK No. 90/PUU-XXI/2023 (Syarat Batas Usia Capres-Cawapres Pernah/Sedang Menduduki Jabatan Terpilih Melalui Pemilu)
-  year: 2023
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=90/PUU-XXI/2023
-  citation_id: Putusan MKRI No. 90/PUU-XXI/2023
-
 - id: putusan-mkmk-2-2023
   type: putusan-mk
   title_id: Putusan Majelis Kehormatan Mahkamah Konstitusi No. 2/MKMK/L/11/2023 (Pemberhentian Anwar Usman dari Jabatan Ketua MK)
   year: 2023
   url: https://www.mkri.id/index.php?page=web.PutusanMKMK&id=2/MKMK/L/11/2023
   citation_id: Putusan MKMK No. 2/MKMK/L/11/2023
-
-- id: putusan-mk-60-puu-xxii-2024
-  type: putusan-mk
-  title_id: Putusan MK No. 60/PUU-XXII/2024 (Penurunan Ambang Batas Syarat Pencalonan Kepala Daerah dan Pembukaan Akses Partai Non-Seat)
-  year: 2024
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=60/PUU-XXII/2024
-  citation_id: Putusan MKRI No. 60/PUU-XXII/2024
-
-- id: putusan-mk-70-puu-xxii-2024
-  type: putusan-mk
-  title_id: Putusan MK No. 70/PUU-XXII/2024 (Penetapan Syarat Usia Calon Kepala Daerah Dihitung Saat Penetapan Pasangan Calon oleh KPU)
-  year: 2024
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=70/PUU-XXII/2024
-  citation_id: Putusan MKRI No. 70/PUU-XXII/2024
 
 - id: laporan-audit-bpk-jiwasraya-2020
   type: laporan-lembaga
@@ -1708,13 +1555,6 @@
   url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=37&thn=2008
   citation_id: LN No. 139 Tahun 2008, TLN No. 4899
 
-- id: uu-12-2011
-  type: undang-undang
-  title_id: UU No. 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (UU PPP)
-  year: 2011
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2011
-  citation_id: LN No. 82 Tahun 2011, TLN No. 5234
-
 - id: uu-13-2022
   type: undang-undang
   title_id: UU No. 13 Tahun 2022 tentang Perubahan Kedua atas UU No. 12 Tahun 2011 (Legalisasi Metode Omnibus Law dan Partisipasi Bermakna)
@@ -1722,33 +1562,12 @@
   url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=13&thn=2022
   citation_id: LN No. 143 Tahun 2022, TLN No. 6801
 
-- id: uu-7-2017
-  type: undang-undang
-  title_id: UU No. 7 Tahun 2017 tentang Pemilihan Umum (Kodifikasi UU Pemilu Serentak)
-  year: 2017
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=2017
-  citation_id: LN No. 182 Tahun 2017, TLN No. 6109
-
 - id: uu-19-2016
   type: undang-undang
   title_id: UU No. 19 Tahun 2016 tentang Perubahan atas UU No. 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (UU ITE)
   year: 2016
   url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2016
   citation_id: LN No. 251 Tahun 2016, TLN No. 5952
-
-- id: uu-1-2024
-  type: undang-undang
-  title_id: UU No. 1 Tahun 2024 tentang Perubahan Kedua atas UU No. 11 Tahun 2008 tentang ITE
-  year: 2024
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2024
-  citation_id: LN No. 4 Tahun 2024, TLN No. 6909
-
-- id: putusan-mk-005-puu-iv-2006
-  type: putusan-mk
-  title_id: Putusan MK No. 005/PUU-IV/2006 (Pembatalan Wewenang Pengawasan Hakim Agung dan Hakim Mahkamah Konstitusi oleh Komisi Yudisial)
-  year: 2006
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=005/PUU-IV/2006
-  citation_id: Putusan MKRI No. 005/PUU-IV/2006
 
 - id: putusan-mk-138-puu-vii-2009
   type: putusan-mk
@@ -1791,12 +1610,6 @@
   year: 2016
   citation_id: Berita Negara RI Tahun 2016 No. 2053
 
-- id: putusan-ma-23-p-hum-2024
-  type: putusan-ma
-  title_id: Putusan MA No. 23 P/HUM/2024 (Uji Materiil PKPU No. 9/2020 tentang Syarat Usia Calon Kepala Daerah Dihitung Sejak Pelantikan)
-  year: 2024
-  citation_id: Putusan MA No. 23 P/HUM/2024
-
 - id: putusan-pk-ma-surya-darmadi-2023
   type: putusan-ma
   title_id: Putusan Peninjauan Kembali MA No. 57 PK/Pid.Sus/2022 atas Perkara Korupsi dan Pencucian Uang PT Duta Palma Group
@@ -1826,12 +1639,6 @@
   title_id: Laporan Hasil Pelaksanaan Tugas Panitia Khusus Hak Angket DPR RI terhadap KPK
   year: 2018
   citation_id: DPR RI Risalah Pansus KPK 2018
-
-- id: inpres-10-2011
-  type: keppres
-  title_id: Instruksi Presiden No. 10 Tahun 2011 tentang Moratorium Izin Baru Hutan Alam Primer dan Lahan Gambut
-  year: 2011
-  citation_id: Inpres No. 10 Tahun 2011
 
 - id: perpres-54-2018
   type: keppres
@@ -1865,12 +1672,6 @@
   year: 2020
   url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2020
   citation_id: LN No. 147 Tahun 2020, TLN No. 6525
-
-- id: ruu-daerah-kepulauan-dpd-2020
-  type: arsip-nasional
-  title_id: Naskah Akademik dan RUU Usul Inisiatif DPD RI tentang Daerah Kepulauan
-  year: 2020
-  citation_id: DPD RI RUU Daerah Kepulauan 2020
 
 - id: maklumat-pemerintah-1-nov-1945
   type: arsip-nasional
@@ -1950,20 +1751,6 @@
   year: 1998
   citation_id: Sekretariat Negara Naskah Lengser 21 Mei 1998
 
-- id: uu-39-1999
-  type: undang-undang
-  title_id: UU No. 39 Tahun 1999 tentang Hak Asasi Manusia
-  year: 1999
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=39&thn=1999
-  citation_id: LN No. 165 Tahun 1999, TLN No. 3886
-
-- id: uu-26-2000
-  type: undang-undang
-  title_id: UU No. 26 Tahun 2000 tentang Pengadilan Hak Asasi Manusia
-  year: 2000
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=26&thn=2000
-  citation_id: LN No. 208 Tahun 2000, TLN No. 4026
-
 - id: dekrit-gus-dur-2001
   type: arsip-nasional
   title_id: Maklumat Presiden Abdurrahman Wahid 23 Juli 2001 tentang Pembekuan Lembaga Perwakilan dan Golkar
@@ -1975,13 +1762,6 @@
   title_id: TAP MPR No. II/MPR/2001 tentang Pertanggungjawaban Presiden Abdurrahman Wahid dan Pemberhentian dari Jabatan Presiden
   year: 2001
   citation_id: TAP MPR II/MPR/2001
-
-- id: uu-20-2003
-  type: undang-undang
-  title_id: UU No. 20 Tahun 2003 tentang Sistem Pendidikan Nasional (Alokasi 20% Anggaran Pendidikan)
-  year: 2003
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2003
-  citation_id: LN No. 78 Tahun 2003, TLN No. 4301
 
 - id: arsip-pilpres-langsung-2004
   type: arsip-nasional
@@ -2140,20 +1920,6 @@
   url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=31&thn=1999
   citation_id: LN No. 140 Tahun 1999, TLN No. 3874
 
-- id: uu-20-2001
-  type: undang-undang
-  title_id: UU No. 20 Tahun 2001 tentang Perubahan atas UU No. 31 Tahun 1999 tentang Pemberantasan Tipikor
-  year: 2001
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=20&thn=2001
-  citation_id: LN No. 134 Tahun 2001, TLN No. 4150
-
-- id: uu-11-2005
-  type: undang-undang
-  title_id: UU No. 11 Tahun 2005 tentang Pengesahan International Covenant on Economic, Social and Cultural Rights (ICESCR)
-  year: 2005
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2005
-  citation_id: LN No. 118 Tahun 2005, TLN No. 4557
-
 - id: uu-12-2005
   type: undang-undang
   title_id: UU No. 12 Tahun 2005 tentang Pengesahan International Covenant on Civil and Political Rights (ICCPR)
@@ -2196,38 +1962,17 @@
   url: https://www.mkri.id/index.php?page=web.Putusan&id=49/PUU-IX/2011
   citation_id: Putusan MKRI No. 49/PUU-IX/2011
 
-- id: putusan-mk-85-puu-xi-2013
-  type: putusan-mk
-  title_id: Putusan MK No. 85/PUU-XI/2013 (Pembatalan Seluruh UU No. 7/2004 tentang Sumber Daya Air & Pengutamaan Hak Rakyat atas Air)
-  year: 2015
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=85/PUU-XI/2013
-  citation_id: Putusan MKRI No. 85/PUU-XI/2013
-
 - id: laporan-audit-bpk-hambalang-2013
   type: laporan-lembaga
   title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pembangunan Pusat Olahraga Hambalang (P3SON) Rp463,6 Miliar
   year: 2013
   citation_id: BPK RI LHP Investigatif Hambalang 2013
 
-- id: uu-5-2014
-  type: undang-undang
-  title_id: UU No. 5 Tahun 2014 tentang Aparatur Sipil Negara (ASN)
-  year: 2014
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=5&thn=2014
-  citation_id: LN No. 6 Tahun 2014, TLN No. 5494
-
 - id: sema-07-2014
   type: putusan-ma
   title_id: Surat Edaran Mahkamah Agung No. 07 Tahun 2014 tentang Pengajuan Permohonan Peninjauan Kembali dalam Perkara Pidana
   year: 2014
   citation_id: SEMA No. 07 Tahun 2014
-
-- id: putusan-mk-130-puu-xiii-2015
-  type: putusan-mk
-  title_id: Putusan MK No. 130/PUU-XIII/2015 (Kewajiban Penyidik Menyampaikan SPDP Paling Lambat 7 Hari kepada Terlapor dan Korban)
-  year: 2017
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=130/PUU-XIII/2015
-  citation_id: Putusan MKRI No. 130/PUU-XIII/2015
 
 - id: uu-8-2016
   type: undang-undang
@@ -2248,19 +1993,6 @@
   title_id: Laporan Penghitungan Kerugian Keuangan Negara BPK RI atas Pengadaan Paket e-KTP Nasional Rp2,31 Triliun
   year: 2017
   citation_id: BPK RI LHP e-KTP 2017
-
-- id: perma-1-2019
-  type: putusan-ma
-  title_id: Peraturan Mahkamah Agung No. 1 Tahun 2019 tentang Administrasi Perkara dan Persidangan Elektronik (e-Court)
-  year: 2019
-  citation_id: Berita Negara RI Tahun 2019 No. 894
-
-- id: putusan-mk-18-puu-xvii-2019
-  type: putusan-mk
-  title_id: Putusan MK No. 18/PUU-XVII/2019 (Eksekusi Jaminan Fidusia Tidak Boleh Sepihak Tanpa Kesepakatan Cidera Janji)
-  year: 2020
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=18/PUU-XVII/2019
-  citation_id: Putusan MKRI No. 18/PUU-XVII/2019
 
 - id: uu-12-2022
   type: undang-undang
@@ -2369,25 +2101,11 @@
   url: https://www.mkri.id/index.php?page=web.Putusan&id=50/PUU-VI/2008
   citation_id: Putusan MKRI No. 50/PUU-VI/2008
 
-- id: putusan-mk-35-puu-x-2012
-  type: putusan-mk
-  title_id: Putusan MK No. 35/PUU-X/2012 (Hutan Adat Adalah Hutan Hak Masyarakat Adat, Bukan Hutan Negara)
-  year: 2013
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=35/PUU-X/2012
-  citation_id: Putusan MKRI No. 35/PUU-X/2012
-
 - id: skb-uu-ite-2021
   type: lainnya
   title_id: Keputusan Bersama Menkominfo, Jaksa Agung, dan Kapolri No. 229/2021 tentang Pedoman Implementasi Pasal UU ITE
   year: 2021
   citation_id: SKB 3 Lembaga No. 229, 154, KB/2/VI/2021
-
-- id: uu-1-2023
-  type: undang-undang
-  title_id: UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (KUHP Nasional)
-  year: 2023
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023
-  citation_id: LN No. 1 Tahun 2023, TLN No. 6842
 
 - id: putusan-ma-budi-pego-2018
   type: putusan-ma
@@ -2401,43 +2119,11 @@
   year: 1969
   citation_id: UN General Assembly Resolution 2504 (XXIV)
 
-- id: tap-mpr-vi-2000
-  type: dokumen-mpr
-  title_id: Ketetapan MPR No. VI/MPR/2000 tentang Pemisahan TNI dan Kepolisian Negara RI
-  year: 2000
-  citation_id: TAP MPR No. VI/MPR/2000
-
-- id: tap-mpr-vii-2000
-  type: dokumen-mpr
-  title_id: Ketetapan MPR No. VII/MPR/2000 tentang Peran TNI dan Peran Kepolisian Negara RI
-  year: 2000
-  citation_id: TAP MPR No. VII/MPR/2000
-
-- id: keppres-6-2000
-  type: keppres
-  title_id: Keppres No. 6 Tahun 2000 tentang Pencabutan Inpres No. 14/1967 (Pemulihan Hak Sipil Etnis Tionghoa)
-  year: 2000
-  citation_id: Keppres No. 6 Tahun 2000
-
-- id: uu-21-2001
-  type: undang-undang
-  title_id: UU No. 21 Tahun 2001 tentang Otonomi Khusus bagi Provinsi Papua
-  year: 2001
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=21&thn=2001
-  citation_id: LN No. 135 Tahun 2001, TLN No. 4151
-
 - id: keppres-19-2002
   type: keppres
   title_id: Keppres No. 19 Tahun 2002 tentang Penetapan Hari Tahun Baru Imlek sebagai Hari Libur Nasional
   year: 2002
   citation_id: Keppres No. 19 Tahun 2002
-
-- id: uu-2-2002
-  type: undang-undang
-  title_id: UU No. 2 Tahun 2002 tentang Kepolisian Negara Republik Indonesia
-  year: 2002
-  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2002
-  citation_id: LN No. 2 Tahun 2002, TLN No. 4168
 
 - id: inpres-8-2002
   type: keppres
@@ -2458,31 +2144,11 @@
   year: 2008
   citation_id: SKB 3 Menteri No. 3 Tahun 2008
 
-- id: laporan-audit-bpk-century-2009
-  type: laporan-lembaga
-  title_id: Laporan Hasil Pemeriksaan Investigasi BPK RI atas Kasus Penanganan PT Bank Century Tbk Rp6,76 Triliun
-  year: 2009
-  citation_id: BPK RI LHP Century 2009
-
 - id: risalah-pansus-century-dpr-2010
   type: dokumen-mpr
   title_id: Risalah Keputusan Rapat Paripurna DPR RI atas Laporan Akhir Pansus Hak Angket Bank Century
   year: 2010
   citation_id: Risalah DPR RI Paripurna Century 2010
-
-- id: putusan-mk-92-puu-x-2012
-  type: putusan-mk
-  title_id: Putusan MK No. 92/PUU-X/2012 (Kewenangan Tripartit DPD RI dalam Pembentukan Undang-Undang Otonomi Daerah)
-  year: 2013
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=92/PUU-X/2012
-  citation_id: Putusan MKRI No. 92/PUU-X/2012
-
-- id: putusan-mk-79-puu-xii-2014
-  type: putusan-mk
-  title_id: Putusan MK No. 79/PUU-XII/2014 (Penegasan Hak Partisipasi Penuh DPD RI dalam Tripartit Legislasi)
-  year: 2015
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=79/PUU-XII/2014
-  citation_id: Putusan MKRI No. 79/PUU-XII/2014
 
 - id: perppu-2-2017
   type: perppu
@@ -2502,12 +2168,6 @@
   title_id: Surat Keputusan Bersama 6 Menteri dan Kepala Lembaga tentang Larangan Kegiatan dan Penggunaan Atribut FPI
   year: 2020
   citation_id: SKB 6 Kementerian/Lembaga No. 220-4780 Tahun 2020
-
-- id: laporan-audit-bpk-asabri-2021
-  type: laporan-lembaga
-  title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pengelolaan Keuangan dan Dana Investasi PT ASABRI Rp22,78 Triliun
-  year: 2021
-  citation_id: BPK RI LHP Asabri 2021
 
 - id: keppres-6-2021
   type: keppres
@@ -2560,13 +2220,6 @@
   title_id: Putusan Kasasi Mahkamah Agung No. 5928 K/Pid.Sus/2022 atas Megakorupsi Pengelolaan Dana Investasi PT ASABRI Rp22,78 Triliun
   year: 2023
   citation_id: Putusan MA No. 5928 K/Pid.Sus/2022
-
-- id: perppu-2-2022
-  type: perppu
-  title_id: Perppu No. 2 Tahun 2022 tentang Cipta Kerja (Pengganti UU Cipta Kerja Inkonstitusional Bersyarat)
-  year: 2022
-  url: https://jdih.setneg.go.id/detailperaturan?jns=PERPPU&no=2&thn=2022
-  citation_id: LN No. 238 Tahun 2022, TLN No. 6841
 
 - id: laporan-ombudsman-twk-kpk-2021
   type: laporan-lembaga
@@ -2646,12 +2299,6 @@
   year: 1947
   citation_id: Arsip Nasional Perjanjian Linggarjati 1947
 
-- id: perjanjian-renville-1948
-  type: arsip-nasional
-  title_id: Naskah Perjanjian Renville 17 Januari 1948 di atas Kapal USS Renville
-  year: 1948
-  citation_id: Arsip Nasional Perjanjian Renville 1948
-
 - id: arsip-pdri-1948
   type: arsip-nasional
   title_id: Mandat Pembentukan Pemerintah Darurat Republik Indonesia (PDRI) di Bukittinggi 19 Desember 1948
@@ -2682,53 +2329,11 @@
   year: 1959
   citation_id: Penpres No. 1 Tahun 1959
 
-- id: penpres-3-1960
-  type: keppres
-  title_id: Penetapan Presiden No. 3 Tahun 1960 tentang Pembubaran Dewan Perwakilan Rakyat Hasil Pemilu 1955
-  year: 1960
-  citation_id: Penpres No. 3 Tahun 1960
-
-- id: penpres-4-1960
-  type: keppres
-  title_id: Penetapan Presiden No. 4 Tahun 1960 tentang Susunan Dewan Perwakilan Rakyat Gotong Royong (DPR-GR)
-  year: 1960
-  citation_id: Penpres No. 4 Tahun 1960
-
 - id: keppres-200-1960
   type: keppres
   title_id: Keppres No. 200 Tahun 1960 tentang Pembubaran Partai Politik Masyumi dan Partai Sosialis Indonesia (PSI)
   year: 1960
   citation_id: Keppres No. 200 Tahun 1960
-
-- id: tap-mprs-iii-1963
-  type: dokumen-mpr
-  title_id: Ketetapan MPRS No. III/MPRS/1963 tentang Pengangkatan Pemimpin Besar Revolusi Bung Karno Menjadi Presiden RI Seumur Hidup
-  year: 1963
-  citation_id: TAP MPRS No. III/MPRS/1963
-
-- id: uu-19-1964
-  type: undang-undang
-  title_id: UU No. 19 Tahun 1964 tentang Ketentuan-Ketentuan Pokok Kekuasaan Kehakiman (Kewenangan Intervensi Peradilan oleh Presiden)
-  year: 1964
-  citation_id: LN No. 107 Tahun 1964, TLN No. 2699
-
-- id: supersemar-1966
-  type: arsip-nasional
-  title_id: Surat Perintah Sebelas Maret (Supersemar) 1966 dari Presiden Sukarno kepada Letjen Soeharto
-  year: 1966
-  citation_id: Arsip Nasional Dokumen Supersemar 1966
-
-- id: tap-mprs-xxv-1966
-  type: dokumen-mpr
-  title_id: Ketetapan MPRS No. XXV/MPRS/1966 tentang Pembubaran PKI dan Larangan Ajaran Komunisme/Marxisme-Leninisme
-  year: 1966
-  citation_id: TAP MPRS No. XXV/MPRS/1966
-
-- id: tap-mprs-xxxiii-1967
-  type: dokumen-mpr
-  title_id: Ketetapan MPRS No. XXXIII/MPRS/1967 tentang Pencabutan Kekuasaan Pemerintahan Negara dari Presiden Sukarno
-  year: 1967
-  citation_id: TAP MPRS No. XXXIII/MPRS/1967
 
 - id: tap-mprs-xliv-1968
   type: dokumen-mpr
@@ -2742,36 +2347,6 @@
   year: 1969
   citation_id: LN No. 58 Tahun 1969, TLN No. 2914
 
-- id: uu-3-1975
-  type: undang-undang
-  title_id: UU No. 3 Tahun 1975 tentang Partai Politik dan Golongan Karya (Penyederhanaan/Fusi Tiga Partai)
-  year: 1975
-  citation_id: LN No. 32 Tahun 1975, TLN No. 3062
-
-- id: tap-mpr-ii-1978
-  type: dokumen-mpr
-  title_id: Ketetapan MPR No. II/MPR/1978 tentang Pedoman Penghayatan dan Pengamalan Pancasila (P4 / Ekaprasetia Pancakarsa)
-  year: 1978
-  citation_id: TAP MPR No. II/MPR/1978
-
-- id: uu-3-1985
-  type: undang-undang
-  title_id: UU No. 3 Tahun 1985 tentang Perubahan UU Parpol dan Golkar (Kewajiban Asas Tunggal Pancasila Parpol)
-  year: 1985
-  citation_id: LN No. 12 Tahun 1985, TLN No. 3285
-
-- id: uu-8-1985
-  type: undang-undang
-  title_id: UU No. 8 Tahun 1985 tentang Organisasi Kemasyarakatan (Kewajiban Asas Tunggal Pancasila Ormas)
-  year: 1985
-  citation_id: LN No. 44 Tahun 1985, TLN No. 3298
-
-- id: keppres-50-1993
-  type: keppres
-  title_id: Keppres No. 50 Tahun 1993 tentang Komisi Nasional Hak Asasi Manusia (Pembentukan Komnas HAM)
-  year: 1993
-  citation_id: Keppres No. 50 Tahun 1993
-
 - id: sk-menpen-pembredelan-1994
   type: lainnya
   title_id: SK Menteri Penerangan No. 123/KEP/MENPEN/1994 tentang Pencabutan SIUPP Majalah Tempo, Editor, dan Detik
@@ -2783,36 +2358,6 @@
   title_id: Ketetapan MPR No. X/MPR/1998 tentang Pokok-Pokok Reformasi Pembangunan
   year: 1998
   citation_id: TAP MPR No. X/MPR/1998
-
-- id: tap-mpr-xvii-1998
-  type: dokumen-mpr
-  title_id: Ketetapan MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia (Piagam HAM Indonesia)
-  year: 1998
-  citation_id: TAP MPR No. XVII/MPR/1998
-
-- id: uu-22-1999
-  type: undang-undang
-  title_id: UU No. 22 Tahun 1999 tentang Pemerintahan Daerah (Desentralisasi Luas & Otonomi Daerah)
-  year: 1999
-  citation_id: LN No. 60 Tahun 1999, TLN No. 3839
-
-- id: uu-25-1999
-  type: undang-undang
-  title_id: UU No. 25 Tahun 1999 tentang Perimbangan Keuangan antara Pemerintah Pusat dan Daerah
-  year: 1999
-  citation_id: LN No. 72 Tahun 1999, TLN No. 3848
-
-- id: uu-15-2002
-  type: undang-undang
-  title_id: UU No. 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang (Pembentukan PPATK)
-  year: 2002
-  citation_id: LN No. 30 Tahun 2002, TLN No. 4191
-
-- id: uu-15-2003
-  type: undang-undang
-  title_id: UU No. 15 Tahun 2003 tentang Pemberantasan Tindak Pidana Terorisme
-  year: 2003
-  citation_id: LN No. 45 Tahun 2003, TLN No. 4284
 
 - id: putusan-icj-sipadan-ligitan-2002
   type: arsip-nasional

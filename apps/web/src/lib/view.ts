@@ -1,13 +1,25 @@
 import { dataset } from "@pancasila-index/data";
 import {
-  computeAssessmentSummary,
+  computeIndex,
+  MIN_COVERAGE_FOR_INDEX,
+  type AssessmentBasis,
   type AssessmentSummary,
 } from "@pancasila-index/core";
 
+/**
+ * Kebijakan status tunggal untuk SELURUH permukaan publik: halaman, REST
+ * API, dan ekspor. Selama fase seed belum dikurasi dewan editorial, indeks
+ * disajikan sebagai pratinjau draf — dan setiap permukaan wajib menyatakannya
+ * (UI lewat lencana, API lewat field `basis` pada payload).
+ *
+ * Ubah satu baris ini ke "published" begitu kurasi berjalan; tidak ada
+ * tempat lain yang perlu disentuh, dan test menjaga agar tidak ada permukaan
+ * yang diam-diam memakai kebijakan berbeda.
+ */
+export const INDEX_BASIS: AssessmentBasis = "draft-preview";
+
 export function termSummary(termId: string): AssessmentSummary | null {
-  const assessments = dataset.assessments.filter((a) => a.term_id === termId);
-  if (assessments.length === 0) return null;
-  return computeAssessmentSummary(assessments, dataset.rubric);
+  return computeIndex(dataset.assessments, termId, dataset.rubric, INDEX_BASIS);
 }
 
 export function scoreColor(score: number): string {
@@ -42,6 +54,31 @@ export function scoreLabel(score: number | null): string {
 export function indexLabel(index: number | null): string {
   if (index === null) return "belum dinilai";
   return String(Math.round(index));
+}
+
+/**
+ * Label indeks yang membedakan tiga keadaan berbeda yang sebelumnya
+ * bertumpuk menjadi satu "belum dinilai":
+ *   - tidak ada penilaian sama sekali
+ *   - ada penilaian, tetapi cakupannya di bawah ambang sehingga komposit
+ *     ditahan (skor grup tetap ada dan tetap ditampilkan)
+ *   - ada indeks
+ */
+export function summaryIndexLabel(summary: AssessmentSummary | null): string {
+  if (!summary) return "belum dinilai";
+  if (summary.index !== null) return String(Math.round(summary.index));
+  if (summary.index_suppressed_reason === "cakupan-di-bawah-ambang")
+    return "cakupan kurang";
+  return "belum dinilai";
+}
+
+/** Penjelasan satu kalimat untuk keadaan indeks; null bila indeks terbit normal. */
+export function summaryIndexNote(summary: AssessmentSummary | null): string | null {
+  if (!summary) return "Belum ada penilaian untuk masa jabatan ini.";
+  if (summary.index_suppressed_reason === "cakupan-di-bawah-ambang")
+    return `Indeks tunggal ditahan: baru ${summary.scored_dimensions} dari ${summary.total_dimensions} dimensi berbukti (ambang ${Math.round(MIN_COVERAGE_FOR_INDEX * 100)}%). Skor per kelompok di bawah tetap berlaku.`;
+  if (summary.index === null) return "Belum ada dimensi yang dinilai dengan bukti.";
+  return null;
 }
 
 export function periodLabel(start: string, end: string | null): string {
