@@ -443,3 +443,18 @@
     - sila-3
     - negara-hukum
     - tujuan-1
+- id: ev-ma-yurisprudensi-waris-perempuan-1956
+  term_id: ma-revolusi-liberal
+  date: 1956-11-01
+  category: pengadilan
+  title_id: "Putusan Landmark MA No. 179 K/Sip/1956: Kesetaraan Hak Waris
+    Perempuan dalam Hukum Adat"
+  summary_id: Mahkamah Agung di bawah Wirjono Prodjodikoro menetapkan terobosan
+    hukum progresif yang menyamakan kedudukan anak perempuan dan laki-laki dalam
+    pembagian waris adat.
+  source_ids:
+    - putusan-ma-179-k-sip-1956
+  dimension_ids:
+    - sila-2
+    - sila-5
+    - negara-hukum

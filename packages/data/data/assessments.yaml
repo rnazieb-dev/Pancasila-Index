@@ -3378,12 +3378,14 @@
         - source_id: sejarah-ma-arsip
         - source_id: putusan-ma-1952-onrechtmatig
         - source_id: putusan-ma-12-k-sip-1954
+        - source_id: putusan-ma-179-k-sip-1956
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-ma-pembentukan
         - ev-ma-onrechtmatig-1952
         - ev-ma-putusan-kewarganegaraan-1954
+        - ev-ma-yurisprudensi-waris-perempuan-1956
     - dimension_id: checks-balances
       score: 0
       confidence: 0.3
@@ -3787,6 +3789,7 @@
         - ev-mpr-empat-pilar-2011
         - ev-mpr-putusan-mk-34-2014
         - ev-mpr-peringatan-hari-konstitusi-2010
+        - ev-mpr-gerakan-empat-pilar-2011
     - dimension_id: sila-3
       score: 1
       confidence: 0.85
@@ -3801,6 +3804,7 @@
         - ev-mpr-sosialisasi-4-pilar
         - ev-mpr-empat-pilar-2011
         - ev-mpr-peringatan-hari-konstitusi-2010
+        - ev-mpr-gerakan-empat-pilar-2011
 - id: asm-mpr-2019-2024
   term_id: mpr-2019-2024
   rubric_version: 1.0.0
@@ -3865,23 +3869,28 @@
         - source_id: uu-22-2003
         - source_id: risalah-dpd-ruu-pesisir-2006
         - source_id: uu-20-2008
+        - source_id: uu-27-2007
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-pelantikan-2004
         - ev-dpd-ruu-pesisir-2006
         - ev-dpd-pengawasan-kur-2008
+        - ev-dpd-inisiatif-ruu-pesisir-2005
     - dimension_id: kedaulatan-rakyat
       score: 0
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Terkendala wewenang terbatas (soft bicameralism) dalam proses
         pembentukan UU sehingga aspirasi daerah belum sepenuhnya tertampung.
       evidence:
         - source_id: uu-22-2003
+        - source_id: putusan-mk-005-puu-v-2007
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-pelantikan-2004
+        - ev-dpd-uji-materi-prolegnas-2008
+        - ev-dpd-uji-materi-susduk-2006
 - id: asm-dpd-2009-2014
   term_id: dpd-2009-2014
   rubric_version: 1.0.0
@@ -3907,6 +3916,7 @@
         - ev-dpd-uji-materi-mk-92-2012
         - ev-dpd-desertada-2011
         - ev-dpd-kemenangan-mk-92-2013
+        - ev-dpd-kemenangan-putusan-mk-2013
     - dimension_id: sila-3
       score: 1
       confidence: 0.85
@@ -3921,6 +3931,7 @@
         - ev-dpd-uji-materi-mk-92-2012
         - ev-dpd-desertada-2011
         - ev-dpd-pengawasan-dbh-hutan-2010
+        - ev-dpd-pengawasan-otsus-aceh-2011
 - id: asm-dpd-2019-2024
   term_id: dpd-2019-2024
   rubric_version: 1.0.0
@@ -4243,6 +4254,8 @@
         - source_id: skb-ma-ky-kepph-2009
         - source_id: laporan-tahunan-ky-2009
         - source_id: laporan-tahunan-ky-2007
+        - source_id: putusan-mk-005-puu-iv-2006
+        - source_id: peraturan-bersama-ky-ma-2009
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -4250,18 +4263,25 @@
         - ev-ky-skb-kepph-2009
         - ev-ky-mkh-pertama-2009
         - ev-ky-laporan-mafia-peradilan-2007
+        - ev-ky-putusan-mk-pengawasan-2006
+        - ev-ky-peraturan-bersama-kepph-2009
     - dimension_id: checks-balances
       score: 0
-      confidence: 0.65
+      confidence: 0.85
       rationale_id: Kewenangan pengawasan sempat digugat dan dipangkas oleh Putusan MK
         No. 005/PUU-IV/2006 yang membatasi jangkauan pengawasan KY atas hakim
         konstitusi.
       evidence:
         - source_id: putusan-mk-005-puu-iv-2006
+        - source_id: laporan-tahunan-ky-2007
+        - source_id: peraturan-bersama-ky-ma-2009
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-ky-putusan-mk-005-2006
+        - ev-ky-laporan-mafia-peradilan-2007
+        - ev-ky-putusan-mk-pengawasan-2006
+        - ev-ky-peraturan-bersama-kepph-2009
 - id: asm-ky-2010-2015
   term_id: ky-2010-2015
   rubric_version: 1.0.0
@@ -4293,6 +4313,8 @@
         - ev-ky-mkh-hakim-tipikor-2013
         - ev-ky-putusan-mk-43-2015
         - ev-ky-kriminalisasi-sarpin-2015
+        - ev-ky-pengesahan-uu-18-2011
+        - ev-ky-seleksi-terbuka-hakim-agung-2013
     - dimension_id: checks-balances
       score: 1
       confidence: 0.85
@@ -4310,6 +4332,8 @@
         - ev-ky-seleksi-cha-2011
         - ev-ky-putusan-mk-43-2015
         - ev-ky-kriminalisasi-sarpin-2015
+        - ev-ky-pengesahan-uu-18-2011
+        - ev-ky-seleksi-terbuka-hakim-agung-2013
 - id: asm-ky-2015-2020
   term_id: ky-2015-2020
   rubric_version: 1.0.0
@@ -4330,6 +4354,7 @@
         - source_id: laporan-tahunan-ky-2019
         - source_id: laporan-tahunan-ky-2016
         - source_id: laporan-tahunan-ky-2018
+        - source_id: uu-18-2011
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -4337,18 +4362,25 @@
         - ev-ky-advokasi-independensi-hakim-2016
         - ev-ky-pemantauan-sidang-pemilu-2019
         - ev-ky-deklarasi-integritas-2018
+        - ev-ky-pemantauan-korupsi-ektp-2017
+        - ev-ky-kerjasama-kpk-2019
     - dimension_id: checks-balances
       score: 0
-      confidence: 0.6
+      confidence: 0.85
       rationale_id: Sebagian rekomendasi sanksi KY atas hakim bermasalah belum
         seluruhnya dieksekusi oleh Mahkamah Agung karena disparitas tafsir
         teknis yudisial vs etik.
       evidence:
         - source_id: laporan-tahunan-ky-2019
+        - source_id: laporan-tahunan-ky-2018
+        - source_id: uu-18-2011
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-ky-mkh-penegakan
+        - ev-ky-deklarasi-integritas-2018
+        - ev-ky-pemantauan-korupsi-ektp-2017
+        - ev-ky-kerjasama-kpk-2019
 - id: asm-ky-2020-sekarang
   term_id: ky-2020-sekarang
   rubric_version: 1.0.0
@@ -4494,6 +4526,7 @@
       event_ids:
         - ev-mpr-pelantikan-sby-2004
         - ev-mpr-sidang-tahunan-evaluasi-2008
+        - ev-mpr-pelantikan-presiden-sby-2004
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
@@ -4505,6 +4538,7 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-pelantikan-sby-2004
+        - ev-mpr-pelantikan-presiden-sby-2004
 - id: asm-mpr-2014-2019
   term_id: mpr-2014-2019
   rubric_version: 1.0.0
@@ -4528,15 +4562,17 @@
         - ev-mpr-empat-pilar-2011
     - dimension_id: checks-balances
       score: 0
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Perubahan UU MD3 yang menambah kursi pimpinan MPR mencerminkan
         kompromi politik antarfraksi.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
+        - source_id: dokumen-mpr-rekomendasi-haluan-2019
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-revisi-uu-md3-kursi-mpr-2018
+        - ev-mpr-rekomendasi-haluan-2019
 - id: asm-mpr-2024-sekarang
   term_id: mpr-2024-sekarang
   rubric_version: 1.0.0

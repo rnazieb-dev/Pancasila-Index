@@ -2219,3 +2219,58 @@
     - sila-1
     - sila-3
     - tujuan-3
+- id: ev-mpr-pelantikan-presiden-jokowi-2014
+  term_id: mpr-2014-2019
+  date: 2014-10-20
+  category: kebijakan
+  title_id: Sidang Paripurna MPR RI Melantik Presiden Joko Widodo dan Wakil
+    Presiden Jusuf Kalla
+  summary_id: MPR RI menyelenggarakan pelantikan presiden terpilih hasil pemilu
+    2014 yang dihadiri seluruh pimpinan partai politik dan kompetitor pilpres.
+  source_ids:
+    - uud-nri-1945
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+    - sila-3
+- id: ev-mpr-rekomendasi-haluan-2019
+  term_id: mpr-2014-2019
+  date: 2019-09-27
+  category: produk-hukum
+  title_id: Keputusan MPR RI No. 8/MPR/2019 tentang Rekomendasi Perlunya
+    Pokok-Pokok Haluan Negara
+  summary_id: MPR Periode 2014-2019 menyerahkan naskah hasil kajian Badan
+    Pengkajian MPR yang merekomendasikan perlunya sistem perencanaan pembangunan
+    berkesinambungan.
+  source_ids:
+    - dokumen-mpr-rekomendasi-haluan-2019
+  dimension_ids:
+    - checks-balances
+    - sila-4
+    - tujuan-2
+- id: ev-ky-pemantauan-korupsi-ektp-2017
+  term_id: ky-2015-2020
+  date: 2017-03-09
+  category: kebijakan
+  title_id: Komisi Yudisial Menerjunkan Tim Pemantau Persidangan Kasus Megakorupsi E-KTP
+  summary_id: KY memantau ketat proses persidangan tipikor E-KTP di PN Jakarta
+    Pusat untuk mencegah intervensi politik dan menjaga keamanan majelis hakim.
+  source_ids:
+    - uu-18-2011
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+- id: ev-ky-kerjasama-kpk-2019
+  term_id: ky-2015-2020
+  date: 2019-11-06
+  category: kebijakan
+  title_id: Penandatanganan Nota Kesepahaman Komisi Yudisial dan KPK tentang
+    Integritas Peradilan
+  summary_id: KY dan KPK menyepakati pertukaran informasi LHKPN dan data rekam
+    jejak guna mencegah mafia peradilan dan praktik suap penanganan perkara.
+  source_ids:
+    - uu-18-2011
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+    - sila-5

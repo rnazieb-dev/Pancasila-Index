@@ -3109,3 +3109,21 @@
   title_id: Peraturan Presiden No. 83 Tahun 2024 tentang Badan Gizi Nasional
   year: 2024
   citation_id: Lembaran Negara RI Tahun 2024 No. 148
+- id: peraturan-bersama-ky-ma-2009
+  type: dokumen-mpr
+  title_id: Peraturan Bersama Ketua Mahkamah Agung RI dan Ketua Komisi Yudisial RI
+    tentang Kode Etik dan Pedoman Perilaku Hakim (KEPPH)
+  year: 2009
+  citation_id: Peraturan Bersama MA & KY No. 047/KMA/SKB/IV/2009 - 02/SKB/P.KY/IV/2009
+- id: putusan-ma-179-k-sip-1956
+  type: putusan-ma
+  title_id: Putusan MA No. 179 K/Sip/1956 tentang Pengakuan Persamaan Hak Waris
+    Laki-laki dan Perempuan
+  year: 1956
+  citation_id: Putusan MA No. 179 K/Sip/1956
+- id: dokumen-mpr-rekomendasi-haluan-2019
+  type: dokumen-mpr
+  title_id: Keputusan MPR RI No. 8/MPR/2019 tentang Rekomendasi MPR RI Masa
+    Jabatan 2014-2019
+  year: 2019
+  citation_id: Sidang Akhir Masa Jabatan MPR RI 2014-2019

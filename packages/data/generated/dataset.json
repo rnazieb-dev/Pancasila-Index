@@ -8535,6 +8535,23 @@
       "actor_ids": []
     },
     {
+      "id": "ev-ma-yurisprudensi-waris-perempuan-1956",
+      "term_id": "ma-revolusi-liberal",
+      "date": "1956-11-01",
+      "category": "pengadilan",
+      "title_id": "Putusan Landmark MA No. 179 K/Sip/1956: Kesetaraan Hak Waris Perempuan dalam Hukum Adat",
+      "summary_id": "Mahkamah Agung di bawah Wirjono Prodjodikoro menetapkan terobosan hukum progresif yang menyamakan kedudukan anak perempuan dan laki-laki dalam pembagian waris adat.",
+      "source_ids": [
+        "putusan-ma-179-k-sip-1956"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "sila-5",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
       "id": "ev-penpres-2-1959-mprs",
       "term_id": "presiden-soekarno-ii",
       "date": "1959-07-22",
@@ -11875,6 +11892,207 @@
       "actor_ids": []
     },
     {
+      "id": "ev-mpr-pelantikan-presiden-sby-2004",
+      "term_id": "mpr-2004-2009",
+      "date": "2004-10-20",
+      "category": "kebijakan",
+      "title_id": "Sidang Paripurna MPR RI Melantik Pasangan Presiden dan Wakil Presiden Hasil Pemilu Langsung 2004",
+      "summary_id": "MPR RI pertama kali melantik Presiden dan Wapres yang dipilih langsung oleh rakyat secara demokratis, menandai babak baru konsolidasi demokrasi presidensial.",
+      "source_ids": [
+        "uud-nri-1945"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-sosialisasi-kebangsaan-2005",
+      "term_id": "mpr-2004-2009",
+      "date": "2005-06-01",
+      "category": "kebijakan",
+      "title_id": "MPR RI Menginisiasi Program Sosialisasi Nilai-Nilai Kebangsaan dan Konstitusi",
+      "summary_id": "MPR menyelenggarakan program pemasyarakatan UUD 1945 dan Pancasila ke seluruh pelosok daerah untuk memperkuat pemahaman konstitusi warga negara.",
+      "source_ids": [
+        "uud-nri-1945"
+      ],
+      "dimension_ids": [
+        "sila-3",
+        "sila-1",
+        "tujuan-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-pelantikan-presiden-sby-2009",
+      "term_id": "mpr-2009-2014",
+      "date": "2009-10-20",
+      "category": "kebijakan",
+      "title_id": "Sidang Pelantikan Presiden SBY dan Wakil Presiden Boediono Periode 2009-2014",
+      "summary_id": "MPR RI menyelenggarakan upacara kenegaraan pelantikan kepemimpinan nasional di hadapan pimpinan perwakilan negara sahabat.",
+      "source_ids": [
+        "uud-nri-1945"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-gerakan-empat-pilar-2011",
+      "term_id": "mpr-2009-2014",
+      "date": "2011-05-20",
+      "category": "kebijakan",
+      "title_id": "Gerakan Nasional Sosialisasi Empat Pilar Kebangsaan oleh Ketua MPR Taufiq Kiemas",
+      "summary_id": "MPR memprakarsai dialog kebangsaan intensif dengan ormas, perguruan tinggi, dan generasi muda mengenai Pancasila, UUD 1945, NKRI, dan Bhinneka Tunggal Ika.",
+      "source_ids": [
+        "uud-nri-1945"
+      ],
+      "dimension_ids": [
+        "sila-3",
+        "sila-1",
+        "sila-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-inisiatif-ruu-pesisir-2005",
+      "term_id": "dpd-2004-2009",
+      "date": "2005-09-15",
+      "category": "kebijakan",
+      "title_id": "DPD RI Mengajukan RUU Inisiatif Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil",
+      "summary_id": "DPD RI memperjuangkan hak ekonomi nelayan tradisional dan konservasi laut kepulauan melalui draf undang-undang inisiatif pertama DPD ke DPR dan Presiden.",
+      "source_ids": [
+        "uu-27-2007"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-3",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-uji-materi-susduk-2006",
+      "term_id": "dpd-2004-2009",
+      "date": "2006-03-20",
+      "category": "pengadilan",
+      "title_id": "Gugatan Uji Materiil DPD RI ke Mahkamah Konstitusi atas UU Susduk DPR/DPD",
+      "summary_id": "DPD RI menggugat pasal-pasal diskriminatif dalam UU Susduk No. 22/2003 yang mengerdilkan wewenang legislasi DPD dalam pembahasan rancangan undang-undang daerah.",
+      "source_ids": [
+        "uud-nri-1945"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-kemenangan-putusan-mk-2013",
+      "term_id": "dpd-2009-2014",
+      "date": "2013-03-27",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 92/PUU-X/2012 Mengakui Hak Tripartit Legislasi DPD RI Bersama DPR dan Presiden",
+      "summary_id": "MK mengabulkan sebagian permohonan DPD RI dan menegaskan DPD berhak mengajukan dan membahas RUU otonomi daerah sejak tahap awal hingga tingkat satu.",
+      "source_ids": [
+        "putusan-mk-92-puu-x-2012"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-pengawasan-otsus-aceh-2011",
+      "term_id": "dpd-2009-2014",
+      "date": "2011-08-12",
+      "category": "kebijakan",
+      "title_id": "Pengawasan Komite I DPD RI atas Implementasi Dana Bagi Hasil Migas dan Otsus Aceh",
+      "summary_id": "DPD RI mendesak percepatan transfer dana bagi hasil migas dan peraturan pemerintah turunan UU Pemerintahan Aceh untuk menjaga perdamaian berkelanjutan.",
+      "source_ids": [
+        "uud-nri-1945"
+      ],
+      "dimension_ids": [
+        "sila-3",
+        "sila-5",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-putusan-mk-pengawasan-2006",
+      "term_id": "ky-2005-2010",
+      "date": "2006-08-23",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 005/PUU-IV/2006 Membatalkan Wewenang Pengawasan KY terhadap Hakim Konstitusi dan Hakim Agung",
+      "summary_id": "MK membatalkan sebagian pasal UU KY sehingga pengawasan perilaku hakim agung sempat melemah dan memicu perdebatan panjang relasi kekuasaan yudikatif.",
+      "source_ids": [
+        "putusan-mk-005-puu-iv-2006"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-peraturan-bersama-kepph-2009",
+      "term_id": "ky-2005-2010",
+      "date": "2009-04-08",
+      "category": "produk-hukum",
+      "title_id": "Penetapan Peraturan Bersama MA dan KY tentang Kode Etik dan Pedoman Perilaku Hakim (KEPPH)",
+      "summary_id": "KY dan MA menyepakati 10 prinsip etika kehakiman (berperilaku adil, jujur, arif, mandiri, berintegritas tinggi) sebagai standar etik nasional.",
+      "source_ids": [
+        "peraturan-bersama-ky-ma-2009"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "sila-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-pengesahan-uu-18-2011",
+      "term_id": "ky-2010-2015",
+      "date": "2011-11-09",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 18/2011 Memperkuat Wewenang Investigasi dan Majelis Kehormatan Hakim KY",
+      "summary_id": "DPR dan Presiden memperkuat wewenang investigasi Komisi Yudisial dan mewajibkan mekanisme Majelis Kehormatan Hakim (MKH) bersama MA.",
+      "source_ids": [
+        "uu-18-2011"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-seleksi-terbuka-hakim-agung-2013",
+      "term_id": "ky-2010-2015",
+      "date": "2013-05-14",
+      "category": "kebijakan",
+      "title_id": "KY Menggelar Seleksi Calon Hakim Agung Terbuka dengan Uji Kelayakan Publik",
+      "summary_id": "KY menerapkan asesmen psikologi, investigasi rekam jejak harta kekayaan, dan wawancara terbuka disiarkan langsung guna menjamin integritas calon hakim agung.",
+      "source_ids": [
+        "uu-18-2011"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
       "id": "ev-mk-putusan-spdp-2016",
       "term_id": "mk-2013-2018",
       "date": "2016-01-11",
@@ -14346,6 +14564,73 @@
         "sila-1",
         "sila-3",
         "tujuan-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-pelantikan-presiden-jokowi-2014",
+      "term_id": "mpr-2014-2019",
+      "date": "2014-10-20",
+      "category": "kebijakan",
+      "title_id": "Sidang Paripurna MPR RI Melantik Presiden Joko Widodo dan Wakil Presiden Jusuf Kalla",
+      "summary_id": "MPR RI menyelenggarakan pelantikan presiden terpilih hasil pemilu 2014 yang dihadiri seluruh pimpinan partai politik dan kompetitor pilpres.",
+      "source_ids": [
+        "uud-nri-1945"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-rekomendasi-haluan-2019",
+      "term_id": "mpr-2014-2019",
+      "date": "2019-09-27",
+      "category": "produk-hukum",
+      "title_id": "Keputusan MPR RI No. 8/MPR/2019 tentang Rekomendasi Perlunya Pokok-Pokok Haluan Negara",
+      "summary_id": "MPR Periode 2014-2019 menyerahkan naskah hasil kajian Badan Pengkajian MPR yang merekomendasikan perlunya sistem perencanaan pembangunan berkesinambungan.",
+      "source_ids": [
+        "dokumen-mpr-rekomendasi-haluan-2019"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-4",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-pemantauan-korupsi-ektp-2017",
+      "term_id": "ky-2015-2020",
+      "date": "2017-03-09",
+      "category": "kebijakan",
+      "title_id": "Komisi Yudisial Menerjunkan Tim Pemantau Persidangan Kasus Megakorupsi E-KTP",
+      "summary_id": "KY memantau ketat proses persidangan tipikor E-KTP di PN Jakarta Pusat untuk mencegah intervensi politik dan menjaga keamanan majelis hakim.",
+      "source_ids": [
+        "uu-18-2011"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-kerjasama-kpk-2019",
+      "term_id": "ky-2015-2020",
+      "date": "2019-11-06",
+      "category": "kebijakan",
+      "title_id": "Penandatanganan Nota Kesepahaman Komisi Yudisial dan KPK tentang Integritas Peradilan",
+      "summary_id": "KY dan KPK menyepakati pertukaran informasi LHKPN dan data rekam jejak guna mencegah mafia peradilan dan praktik suap penanganan perkara.",
+      "source_ids": [
+        "uu-18-2011"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum",
+        "sila-5"
       ],
       "actor_ids": []
     },
@@ -19278,6 +19563,30 @@
       "year": 2024,
       "citation_id": "Lembaran Negara RI Tahun 2024 No. 148",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Peraturan%20Presiden%20No.%2083%20Tahun%202024%20tentang%20Badan%20Gizi%20Nasional"
+    },
+    {
+      "id": "peraturan-bersama-ky-ma-2009",
+      "type": "dokumen-mpr",
+      "title_id": "Peraturan Bersama Ketua Mahkamah Agung RI dan Ketua Komisi Yudisial RI tentang Kode Etik dan Pedoman Perilaku Hakim (KEPPH)",
+      "year": 2009,
+      "citation_id": "Peraturan Bersama MA & KY No. 047/KMA/SKB/IV/2009 - 02/SKB/P.KY/IV/2009",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Peraturan%20Bersama%20Ketua%20Mahkamah%20Agung%20RI%20dan%20Ketua%20Komisi%20Yudisial%20RI%20tentang%20Kode%20Etik%20d"
+    },
+    {
+      "id": "putusan-ma-179-k-sip-1956",
+      "type": "putusan-ma",
+      "title_id": "Putusan MA No. 179 K/Sip/1956 tentang Pengakuan Persamaan Hak Waris Laki-laki dan Perempuan",
+      "year": 1956,
+      "citation_id": "Putusan MA No. 179 K/Sip/1956",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20MA%20No.%20179%20K%2FSip%2F1956%20tentang%20Pengakuan%20Persamaan%20Hak%20Waris%20Laki-laki%20dan%20Perempuan"
+    },
+    {
+      "id": "dokumen-mpr-rekomendasi-haluan-2019",
+      "type": "dokumen-mpr",
+      "title_id": "Keputusan MPR RI No. 8/MPR/2019 tentang Rekomendasi MPR RI Masa Jabatan 2014-2019",
+      "year": 2019,
+      "citation_id": "Sidang Akhir Masa Jabatan MPR RI 2014-2019",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Keputusan%20MPR%20RI%20No.%208%2FMPR%2F2019%20tentang%20Rekomendasi%20MPR%20RI%20Masa%20Jabatan%202014-2019"
     }
   ],
   "assessments": [
@@ -25490,12 +25799,16 @@
             },
             {
               "source_id": "putusan-ma-12-k-sip-1954"
+            },
+            {
+              "source_id": "putusan-ma-179-k-sip-1956"
             }
           ],
           "event_ids": [
             "ev-ma-pembentukan",
             "ev-ma-onrechtmatig-1952",
-            "ev-ma-putusan-kewarganegaraan-1954"
+            "ev-ma-putusan-kewarganegaraan-1954",
+            "ev-ma-yurisprudensi-waris-perempuan-1956"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26164,13 +26477,17 @@
             },
             {
               "source_id": "putusan-mk-34-puu-xi-2013"
+            },
+            {
+              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mpr-sosialisasi-4-pilar",
             "ev-mpr-empat-pilar-2011",
             "ev-mpr-putusan-mk-34-2014",
-            "ev-mpr-peringatan-hari-konstitusi-2010"
+            "ev-mpr-peringatan-hari-konstitusi-2010",
+            "ev-mpr-gerakan-empat-pilar-2011"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26187,12 +26504,16 @@
             },
             {
               "source_id": "buku-mpr-empat-pilar-2012"
+            },
+            {
+              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mpr-sosialisasi-4-pilar",
             "ev-mpr-empat-pilar-2011",
-            "ev-mpr-peringatan-hari-konstitusi-2010"
+            "ev-mpr-peringatan-hari-konstitusi-2010",
+            "ev-mpr-gerakan-empat-pilar-2011"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26294,12 +26615,16 @@
             },
             {
               "source_id": "uu-20-2008"
+            },
+            {
+              "source_id": "uu-27-2007"
             }
           ],
           "event_ids": [
             "ev-dpd-pelantikan-2004",
             "ev-dpd-ruu-pesisir-2006",
-            "ev-dpd-pengawasan-kur-2008"
+            "ev-dpd-pengawasan-kur-2008",
+            "ev-dpd-inisiatif-ruu-pesisir-2005"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26308,15 +26633,23 @@
         {
           "dimension_id": "kedaulatan-rakyat",
           "score": 0,
-          "confidence": 0.5,
+          "confidence": 0.85,
           "rationale_id": "Terkendala wewenang terbatas (soft bicameralism) dalam proses pembentukan UU sehingga aspirasi daerah belum sepenuhnya tertampung.",
           "evidence": [
             {
               "source_id": "uu-22-2003"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-v-2007"
+            },
+            {
+              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
-            "ev-dpd-pelantikan-2004"
+            "ev-dpd-pelantikan-2004",
+            "ev-dpd-uji-materi-prolegnas-2008",
+            "ev-dpd-uji-materi-susduk-2006"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26352,7 +26685,8 @@
           "event_ids": [
             "ev-dpd-uji-materi-mk-92-2012",
             "ev-dpd-desertada-2011",
-            "ev-dpd-kemenangan-mk-92-2013"
+            "ev-dpd-kemenangan-mk-92-2013",
+            "ev-dpd-kemenangan-putusan-mk-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26369,12 +26703,16 @@
             },
             {
               "source_id": "laporan-dpd-desertada-2011"
+            },
+            {
+              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-dpd-uji-materi-mk-92-2012",
             "ev-dpd-desertada-2011",
-            "ev-dpd-pengawasan-dbh-hutan-2010"
+            "ev-dpd-pengawasan-dbh-hutan-2010",
+            "ev-dpd-pengawasan-otsus-aceh-2011"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26895,13 +27233,21 @@
             },
             {
               "source_id": "laporan-tahunan-ky-2007"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-iv-2006"
+            },
+            {
+              "source_id": "peraturan-bersama-ky-ma-2009"
             }
           ],
           "event_ids": [
             "ev-ky-uu-22-2004",
             "ev-ky-skb-kepph-2009",
             "ev-ky-mkh-pertama-2009",
-            "ev-ky-laporan-mafia-peradilan-2007"
+            "ev-ky-laporan-mafia-peradilan-2007",
+            "ev-ky-putusan-mk-pengawasan-2006",
+            "ev-ky-peraturan-bersama-kepph-2009"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26910,15 +27256,24 @@
         {
           "dimension_id": "checks-balances",
           "score": 0,
-          "confidence": 0.65,
+          "confidence": 0.85,
           "rationale_id": "Kewenangan pengawasan sempat digugat dan dipangkas oleh Putusan MK No. 005/PUU-IV/2006 yang membatasi jangkauan pengawasan KY atas hakim konstitusi.",
           "evidence": [
             {
               "source_id": "putusan-mk-005-puu-iv-2006"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2007"
+            },
+            {
+              "source_id": "peraturan-bersama-ky-ma-2009"
             }
           ],
           "event_ids": [
-            "ev-ky-putusan-mk-005-2006"
+            "ev-ky-putusan-mk-005-2006",
+            "ev-ky-laporan-mafia-peradilan-2007",
+            "ev-ky-putusan-mk-pengawasan-2006",
+            "ev-ky-peraturan-bersama-kepph-2009"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26969,7 +27324,9 @@
             "ev-ky-advokasi-pp-94-2012",
             "ev-ky-mkh-hakim-tipikor-2013",
             "ev-ky-putusan-mk-43-2015",
-            "ev-ky-kriminalisasi-sarpin-2015"
+            "ev-ky-kriminalisasi-sarpin-2015",
+            "ev-ky-pengesahan-uu-18-2011",
+            "ev-ky-seleksi-terbuka-hakim-agung-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26998,7 +27355,9 @@
             "ev-ky-uu-18-2011",
             "ev-ky-seleksi-cha-2011",
             "ev-ky-putusan-mk-43-2015",
-            "ev-ky-kriminalisasi-sarpin-2015"
+            "ev-ky-kriminalisasi-sarpin-2015",
+            "ev-ky-pengesahan-uu-18-2011",
+            "ev-ky-seleksi-terbuka-hakim-agung-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27032,13 +27391,18 @@
             },
             {
               "source_id": "laporan-tahunan-ky-2018"
+            },
+            {
+              "source_id": "uu-18-2011"
             }
           ],
           "event_ids": [
             "ev-ky-mkh-penegakan",
             "ev-ky-advokasi-independensi-hakim-2016",
             "ev-ky-pemantauan-sidang-pemilu-2019",
-            "ev-ky-deklarasi-integritas-2018"
+            "ev-ky-deklarasi-integritas-2018",
+            "ev-ky-pemantauan-korupsi-ektp-2017",
+            "ev-ky-kerjasama-kpk-2019"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27047,15 +27411,24 @@
         {
           "dimension_id": "checks-balances",
           "score": 0,
-          "confidence": 0.6,
+          "confidence": 0.85,
           "rationale_id": "Sebagian rekomendasi sanksi KY atas hakim bermasalah belum seluruhnya dieksekusi oleh Mahkamah Agung karena disparitas tafsir teknis yudisial vs etik.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2018"
+            },
+            {
+              "source_id": "uu-18-2011"
             }
           ],
           "event_ids": [
-            "ev-ky-mkh-penegakan"
+            "ev-ky-mkh-penegakan",
+            "ev-ky-deklarasi-integritas-2018",
+            "ev-ky-pemantauan-korupsi-ektp-2017",
+            "ev-ky-kerjasama-kpk-2019"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27288,11 +27661,15 @@
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-mpr-pelantikan-sby-2004",
-            "ev-mpr-sidang-tahunan-evaluasi-2008"
+            "ev-mpr-sidang-tahunan-evaluasi-2008",
+            "ev-mpr-pelantikan-presiden-sby-2004"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27306,10 +27683,14 @@
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
-            "ev-mpr-pelantikan-sby-2004"
+            "ev-mpr-pelantikan-sby-2004",
+            "ev-mpr-pelantikan-presiden-sby-2004"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27349,15 +27730,19 @@
         {
           "dimension_id": "checks-balances",
           "score": 0,
-          "confidence": 0.7,
+          "confidence": 0.85,
           "rationale_id": "Perubahan UU MD3 yang menambah kursi pimpinan MPR mencerminkan kompromi politik antarfraksi.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "dokumen-mpr-rekomendasi-haluan-2019"
             }
           ],
           "event_ids": [
-            "ev-mpr-revisi-uu-md3-kursi-mpr-2018"
+            "ev-mpr-revisi-uu-md3-kursi-mpr-2018",
+            "ev-mpr-rekomendasi-haluan-2019"
           ],
           "normative_anchors": [
             "uud-nri-1945"

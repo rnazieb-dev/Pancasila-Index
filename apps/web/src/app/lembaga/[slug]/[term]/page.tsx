@@ -254,6 +254,9 @@ export default async function TermPage({
             if (entries.length === 0) return null;
             const avg = entries.reduce((acc, e) => acc + e.ds.score, 0) / entries.length;
             const conf = entries.reduce((acc, e) => acc + e.ds.confidence, 0) / entries.length;
+            const totalEvidence = new Set(entries.flatMap((e) => (e.ds.evidence || []).map((ev) => ev.source_id))).size;
+            const totalEvents = new Set(entries.flatMap((e) => e.ds.event_ids || [])).size;
+
             // Rentang skor antarpenilai: ditampilkan agar rerata tidak
             // menyembunyikan ketidaksetujuan, sesuai janji di /metodologi.
             const skorMin = Math.min(...entries.map((e) => e.ds.score));
@@ -262,7 +265,7 @@ export default async function TermPage({
             return (
               <details
                 key={dim.id}
-                className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-3"
+                className="group rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3.5 hover:border-slate-400 transition"
               >
                 <summary className="flex flex-wrap items-center gap-3 cursor-pointer list-none">
                   <span
@@ -272,10 +275,25 @@ export default async function TermPage({
                   >
                     {Math.round(((avg + 2) / 4) * 100)}
                   </span>
-                  <span className="font-medium grow">{dim.name_id}</span>
-                  <span className="text-xs text-[var(--muted)]">
-                    keyakinan {Math.round(conf * 100)}%
-                  </span>
+                  <span className="font-bold grow text-sm sm:text-base">{dim.name_id}</span>
+                  <div className="flex items-center gap-2">
+                    {totalEvidence > 0 && (
+                      <span className="rounded-full bg-[var(--bg)] border border-[var(--line)] px-2 py-0.5 text-[10px] sm:text-[11px] text-[var(--acc-sky)] font-medium">
+                        📄 {totalEvidence} bukti
+                      </span>
+                    )}
+                    {totalEvents > 0 && (
+                      <span className="hidden sm:inline-block rounded-full bg-[var(--bg)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-[var(--muted)]">
+                        ⚡ {totalEvents} peristiwa
+                      </span>
+                    )}
+                    <span className="text-xs text-[var(--muted)] font-mono">
+                      keyakinan {Math.round(conf * 100)}%
+                    </span>
+                    <span className="text-xs text-[var(--muted)] group-open:rotate-180 transition-transform duration-200">
+                      ▼
+                    </span>
+                  </div>
                   {adaSelisih && (
                     <span
                       className="rounded-full bg-amber-500/15 px-2 py-0.5 text-[10px] font-semibold text-[var(--acc-amber)]"
@@ -285,7 +303,7 @@ export default async function TermPage({
                     </span>
                   )}
                 </summary>
-                <div className="mt-3 space-y-3 border-t border-[var(--line)] pt-3">
+                <div className="mt-3.5 space-y-3 border-t border-[var(--line)] pt-3.5">
                   <p className="text-sm italic text-[var(--muted)]">{dim.question_id.trim()}</p>
 
                   {/* SETIAP penilai ditampilkan, bukan hanya yang pertama.
