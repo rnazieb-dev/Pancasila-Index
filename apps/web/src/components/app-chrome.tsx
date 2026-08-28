@@ -148,6 +148,31 @@ function NavDropdown({
   );
 }
 
+/* ─── Dropdown bahasa untuk Mobile/Tablet ─── */
+function MobileLocaleSelect() {
+  const { locale, setLocale } = useLocale();
+
+  return (
+    <div className="relative inline-flex items-center">
+      <select
+        value={locale}
+        onChange={(e) => setLocale(e.target.value as any)}
+        aria-label="Pilih Bahasa / Language"
+        className="appearance-none rounded-lg border border-[var(--line)] bg-[var(--bg)] py-1 pl-2 pr-6 text-xs font-bold uppercase text-[var(--text)] outline-none hover:border-slate-400 cursor-pointer shadow-sm"
+      >
+        {LOCALES.map((l) => (
+          <option key={l.code} value={l.code}>
+            {l.code.toUpperCase()} · {l.native}
+          </option>
+        ))}
+      </select>
+      <div className="pointer-events-none absolute right-1.5 text-[9px] text-[var(--muted)]">
+        ▼
+      </div>
+    </div>
+  );
+}
+
 /* ─── Dropdown bahasa ─── */
 function LocaleDropdown({ align = "right" }: { align?: "left" | "right" }) {
   const { locale, setLocale, t } = useLocale();
@@ -374,6 +399,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
 
           {/* Kanan Mobile */}
           <div className="ml-auto flex items-center gap-2 md:hidden">
+            <MobileLocaleSelect />
             <Link
               href="/cari"
               aria-label={t("actSearch")}
@@ -477,11 +503,15 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                   {t("themeSwitch")}
                 </span>
               </button>
-              <LocaleDropdown align="left" />
+              <div className="flex items-center justify-between pt-1">
+                <span className="text-xs text-[var(--muted)] font-medium">🌐 {t("langChoose")}:</span>
+                <MobileLocaleSelect />
+              </div>
             </div>
           </nav>
         </>
       )}
+
 
       <style>{`
         .drawer-link {
