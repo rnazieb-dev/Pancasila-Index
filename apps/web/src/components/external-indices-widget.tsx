@@ -25,12 +25,11 @@ export function ExternalIndicesWidget({
   // Rentang tahun dari term
   const startYear = parseInt(term.start_date.slice(0, 4), 10);
   const endYear = term.end_date ? parseInt(term.end_date.slice(0, 4), 10) : new Date().getFullYear();
+  const isShortTransition = endYear - startYear <= 2;
 
   const relevantIndices = indices
     .map((idx) => {
       const displayPoints = idx.data;
-      // Titik tanpa skor (hanya peringkat yang terbit) tidak boleh ikut
-      // dirata-ratakan - kalau ikut, angka kosong terbaca sebagai nol.
       const scored = displayPoints.filter(
         (p): p is typeof p & { score: number } => p.score !== null
       );
@@ -47,70 +46,35 @@ export function ExternalIndicesWidget({
     .filter((idx) => idx.displayPoints.length > 0);
 
   /*
-    Tidak ada indeks eksternal yang mencakup periode ini. Dinyatakan, bukan
-    dihilangkan diam-diam: ketiadaan korroborasi independen untuk sebuah era
-    adalah keterangan yang relevan bagi pembaca - ia menjelaskan mengapa era
-    tersebut sepenuhnya bersandar pada sumber primer.
+    Tidak ada indeks eksternal yang mencakup periode ini. Dinyatakan secara jujur:
+    ketiadaan korroborasi independen untuk sebuah era adalah keterangan historis yang
+    relevan mengapa penilaian era tersebut bersandar murni pada sumber hukum primer.
   */
   if (relevantIndices.length === 0) {
     const awal = earliestAvailableYear;
     return (
-      <section className="mt-10 rounded-xl border border-dashed border-[var(--line)] bg-[var(--panel)]/50 px-5 py-4">
-        <span className="text-xs font-bold uppercase tracking-wider text-[var(--muted)]">
-          Konteks Independen Global
-        </span>
-        <p className="mt-1.5 text-xs leading-relaxed text-[var(--muted)]">
-          Tidak ada indeks pihak ketiga yang mencakup periode {startYear}–
+      <section className="mt-12 rounded-2xl border border-dashed border-[var(--line)] bg-[var(--panel)]/40 p-6 space-y-2">
+        <div className="flex items-center gap-2">
+          <span className="text-base">🌐</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-[var(--muted)]">
+            Konteks Indeks Eksternal ({startYear}–{term.end_date ? endYear : "kini"})
+          </span>
+        </div>
+        <p className="text-xs leading-relaxed text-[var(--muted)] max-w-2xl">
+          Tidak ada indeks independen pihak ketiga yang mengukur periode {startYear}–
           {term.end_date ? endYear : "kini"}
-          {awal !== null ? `; data indeks eksternal yang tersedia baru dimulai ${awal}` : ""}.
-          Penilaian era ini sepenuhnya bersandar pada sumber primer. Angka dari
-          periode lain sengaja tidak ditampilkan di sini, karena tidak dapat
-          menjadi korroborasi bagi era ini.
+          {awal !== null ? ` (indeks komposit global yang tersedia dalam arsip baru dimulai tahun ${awal})` : ""}.
+          Penilaian pada era ini sepenuhnya bersandar secara objektif pada bukti hukum primer (Lembaran Negara, Putusan Peradilan, dan Risalah Resmi).
         </p>
       </section>
     );
   }
 
-  const totalPoints = relevantIndices.reduce((n, i) => n + i.displayPoints.length, 0);
-  const totalUnverified = relevantIndices.reduce((n, i) => n + i.unverified, 0);
-
-  const defaultBadge = {
-    label: "Indeks Independen",
-    bg: "bg-sky-500/10 border-sky-500/30",
-    text: "text-[var(--acc-sky)]",
-  };
-
-  const verificationLabels: Record<
-    string,
-    { label: string; bg: string; text: string; title: string }
-  > = {
-    terverifikasi: {
-      label: "Terverifikasi",
-      bg: "bg-emerald-500/10 border-emerald-500/30",
-      text: "text-[var(--acc-emerald-strong)]",
-      title: "Setiap titik data punya tautan sumber dan tanggal pengambilan.",
-    },
-    sebagian: {
-      label: "Sebagian terverifikasi",
-      bg: "bg-amber-500/10 border-amber-500/30",
-      text: "text-[var(--acc-amber-strong)]",
-      title:
-        "Hanya sebagian titik data punya sumber yang bisa ditelusuri. Titik lainnya jangan dikutip.",
-    },
-    "belum-terverifikasi": {
-      label: "Belum terverifikasi",
-      bg: "bg-red-500/10 border-red-500/30",
-      text: "text-[var(--acc-red-strong)]",
-      title:
-        "Belum ada titik data yang bisa ditelusuri ke penerbitnya. Angka di kartu ini tidak boleh dikutip sebagai fakta.",
-    },
-  };
-
   const typeLabels: Record<string, { label: string; bg: string; text: string }> = {
     "hard-data": {
       label: "Hard Data (Bebas Survei ASN)",
       bg: "bg-emerald-500/10 border-emerald-500/30",
-      text: "text-[var(--acc-emerald)]",
+      text: "text-[var(--acc-emerald-strong)]",
     },
     "expert-coded": {
       label: "Double-Blind Expert Coded",
@@ -118,7 +82,7 @@ export function ExternalIndicesWidget({
       text: "text-[var(--acc-sky)]",
     },
     "civil-society": {
-      label: "Survei Masyarakat Sipil & Advokat",
+      label: "Survei Masyarakat Sipil",
       bg: "bg-purple-500/10 border-purple-500/30",
       text: "text-[var(--acc-purple)]",
     },
@@ -130,165 +94,136 @@ export function ExternalIndicesWidget({
   };
 
   return (
-    <div className="mt-8 rounded-2xl border border-[var(--acc-sky)]/30 bg-[var(--panel)] p-6 space-y-6">
+    <section className="mt-14 rounded-2xl border border-[var(--acc-sky)]/30 bg-[var(--panel)] p-6 space-y-6">
       {/* Header Widget */}
-      <div className="flex flex-wrap items-start justify-between gap-4 border-b border-[var(--line)] pb-4">
-        <div>
-          <div className="flex items-center gap-2">
-            <span className="text-base">🌐</span>
-            <span className="text-xs uppercase tracking-wider text-[var(--acc-sky)] font-bold">
-              Konteks Independen Global (Enrichment)
+      <div className="border-b border-[var(--line)] pb-4">
+        <div className="flex items-center gap-2">
+          <span className="text-base">🌐</span>
+          <span className="text-xs uppercase tracking-wider text-[var(--acc-sky)] font-bold">
+            Konteks Independen Global (Enrichment)
+          </span>
+        </div>
+        <h2 className="text-xl font-bold text-[var(--text)] mt-1">
+          Indikator Integritas & Demokrasi Independen (Tahun Kalender {startYear}–{term.end_date ? endYear : "Kini"})
+        </h2>
+        <p className="mt-1.5 text-xs text-[var(--muted)] leading-relaxed max-w-3xl">
+          Tolok ukur independen pihak ketiga yang terbit pada rentang tahun masa jabatan ini. Data ini disajikan sebagai pembanding eksternal terhadap bukti hukum primer.
+        </p>
+
+        {/* Catatan Khusus Masa Transisi Singkat */}
+        {isShortTransition && (
+          <div className="mt-3 inline-flex items-start gap-2 rounded-xl bg-[var(--bg)] border border-[var(--line)] p-3 text-[11px] text-[var(--muted)] leading-relaxed">
+            <span className="text-amber-400 font-bold shrink-0">ℹ️</span>
+            <span>
+              <strong>Catatan Periode Kalender:</strong> Indeks internasional dirilis tahunan (Jan–Des). Untuk masa jabatan transisi ({term.label_id}), angka kalender tahun {startYear} dan {endYear} merefleksikan peristiwa transisi kepemimpinan nasional.
             </span>
           </div>
-          <h2 className="text-xl font-bold text-[var(--text)] mt-1">
-            Indikator Integritas & Tata Kelola Independen ({startYear}–{term.end_date ? endYear : "Kini"})
-          </h2>
-          <p className="mt-1 text-xs text-[var(--muted)] leading-relaxed max-w-2xl">
-            Tolok ukur independen pihak ketiga berbasis data keras (<em>hard data</em>) dan riset akademik
-            internasional. Dirancang untuk menguji validitas fakta di lapangan tanpa bergantung pada
-            survei kepatuhan internal birokrasi yang rentan bias seremonial (&ldquo;Asal Bapak Senang&rdquo;).
-          </p>
-        </div>
-
-        <div className="space-y-2">
-          <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 px-3.5 py-2 text-[11px] text-[var(--acc-amber-strong)]">
-            <div className="font-bold flex items-center gap-1.5 text-[var(--acc-amber-strong)]">
-              <span>⚖️</span>
-              <span>Metrik Kesenjangan Fakta vs Klaim</span>
-            </div>
-            <p className="mt-0.5 text-[var(--acc-amber-strong)]">
-              Bandingkan skor independen ini dengan fakta hukum di peristiwa era ini.
-            </p>
-          </div>
-
-          {totalUnverified > 0 && (
-            <div className="rounded-xl border border-red-500/30 bg-red-500/10 px-3.5 py-2 text-[11px] text-[var(--acc-red-strong)]">
-              <div className="font-bold text-[var(--acc-red-strong)]">
-                {totalUnverified} dari {totalPoints} angka belum tertelusur
-              </div>
-              <p className="mt-0.5 text-[var(--acc-red-strong)]">
-                Angka bertanda garis putus-putus belum bisa dilacak ke penerbitnya.
-                Jangan dikutip sebagai fakta.
-              </p>
-            </div>
-          )}
-        </div>
+        )}
       </div>
 
       {/* Grid Kartu Indeks */}
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-2">
         {relevantIndices.map((idx) => {
-          const typeBadge = typeLabels[idx.type] ?? defaultBadge;
-          const verifBadge =
-            verificationLabels[idx.verification] ?? verificationLabels["belum-terverifikasi"]!;
-          const isSelected = selectedIdxId === idx.id;
+          const typeBadge = typeLabels[idx.type] ?? {
+            label: "Indeks Independen",
+            bg: "bg-sky-500/10 border-sky-500/30",
+            text: "text-[var(--acc-sky)]",
+          };
 
           return (
             <div
               key={idx.id}
-              onClick={() => setSelectedIdxId(isSelected ? null : idx.id)}
-              className={`cursor-pointer rounded-xl border p-4 transition flex flex-col justify-between space-y-3 ${
-                isSelected
-                  ? "border-[var(--acc-sky)] bg-[var(--score-zero-bg)] ring-1 ring-[var(--acc-sky)]"
-                  : "border-[var(--line)] bg-[var(--panel)] hover:border-slate-500 hover:bg-[var(--panel)]/80"
-              }`}
+              className="rounded-xl border border-[var(--line)] bg-[var(--bg)] p-5 space-y-4 shadow-sm"
             >
-              <div>
-                <div className="flex items-center justify-between gap-2">
+              <div className="flex items-start justify-between gap-2 border-b border-[var(--line)] pb-3">
+                <div>
                   <span
-                    className={`rounded-full border px-2 py-0.5 text-[9px] font-semibold ${typeBadge.bg} ${typeBadge.text}`}
+                    className={`inline-block rounded-full border px-2 py-0.5 text-[9px] font-bold ${typeBadge.bg} ${typeBadge.text}`}
                   >
                     {typeBadge.label}
                   </span>
-                  <a
-                    href={idx.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    onClick={(e) => e.stopPropagation()}
-                    className="text-[10px] text-[var(--acc-sky)] hover:underline flex items-center gap-0.5"
-                  >
-                    Sumber ↗
-                  </a>
+                  <h3 className="font-bold text-base text-[var(--text)] mt-1.5">{idx.name}</h3>
+                  <p className="text-[11px] text-[var(--muted)]">{idx.publisher}</p>
                 </div>
 
-                <div className="mt-1.5">
-                  <span
-                    title={verifBadge.title}
-                    className={`rounded-full border px-2 py-0.5 text-[9px] font-semibold ${verifBadge.bg} ${verifBadge.text}`}
-                  >
-                    {verifBadge.label}
-                  </span>
-                </div>
-
-                <h3 className="font-bold text-sm text-[var(--text)] mt-2.5">{idx.name}</h3>
-                <p className="text-[11px] text-[var(--muted)]">{idx.publisher}</p>
-
-                <p className="mt-2 text-xs text-[var(--muted)] line-clamp-2 leading-relaxed">
-                  {idx.description}
-                </p>
+                <a
+                  href={idx.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-2.5 py-1 text-[11px] text-[var(--acc-sky)] hover:border-sky-500 hover:underline shrink-0"
+                >
+                  Sumber Resmi ↗
+                </a>
               </div>
 
-              {/* Skor Rata-rata Era Ini */}
-              <div className="rounded-lg bg-[var(--bg)] p-3 border border-[var(--line)]">
-                <div className="flex items-baseline justify-between">
-                  <span className="text-[10px] text-[var(--muted)] font-semibold uppercase tracking-wider">
-                    Rata-rata Era ({startYear}–{endYear})
-                  </span>
-                  <span className="font-mono text-base font-bold text-[var(--acc-sky-strong)]">
-                    {idx.avgScore ?? "—"}{" "}
-                    <span className="text-[10px] font-normal text-[var(--muted)]">/ {idx.scale.split(" ")[0]}</span>
-                  </span>
+              {/* Rerata & Skala */}
+              <div className="flex items-center justify-between rounded-lg bg-[var(--panel)] px-3.5 py-2 text-xs border border-[var(--line)]">
+                <span className="text-[var(--muted)] font-medium">
+                  Rerata Periode ({startYear}–{endYear}):
+                </span>
+                <span className="font-extrabold text-sm text-[var(--acc-sky-strong)] tabular-nums">
+                  {idx.avgScore ?? "—"}{" "}
+                  <span className="text-[10px] font-normal text-[var(--muted)]">/ {idx.scale.split(" ")[0]}</span>
+                </span>
+              </div>
+
+              {/* Rincian Titik Data per Tahun & Catatan Historis Kontekstual */}
+              <div className="space-y-2.5">
+                <div className="text-[10px] uppercase tracking-wider font-bold text-[var(--muted)]">
+                  Titik Data Tahun Kalender ({idx.displayPoints.length} tahun tercakup):
                 </div>
 
-                {/* Deret waktu mini */}
-                <div className="mt-2 flex items-center gap-1.5 flex-wrap">
+                <div className="space-y-2">
                   {idx.displayPoints.map((p) => {
                     const prov = p.provenance;
-                    // Garis putus-putus = angka belum tertelusur ke penerbit.
-                    // Pembeda visual ini wajib: tanpanya, angka tak bersumber
-                    // terbaca sama meyakinkan dengan angka yang sudah dilacak.
                     return (
-                      <span
+                      <div
                         key={p.year}
-                        className={`rounded px-1.5 py-0.5 font-mono text-[10px] ${
-                          prov
-                            ? "border border-[var(--line)] bg-[var(--line)] text-[var(--text)]"
-                            : "border border-dashed border-[var(--acc-red)] bg-[var(--score-vneg-bg)] text-[var(--muted)]"
-                        }`}
-                        title={
-                          prov
-                            ? `${p.year}: ${p.score ?? "peringkat saja"}${
-                                p.rank ? ` (peringkat ${p.rank})` : ""
-                              }\nSumber: ${prov.url}\nDiambil: ${prov.retrieved_at} (${prov.method})${
-                                p.note ? `\n${p.note}` : ""
-                              }`
-                            : `${p.year}: BELUM TERVERIFIKASI - tidak ada tautan sumber. Jangan dikutip.${
-                                p.note ? `\n${p.note}` : ""
-                              }`
-                        }
+                        className="rounded-lg border border-[var(--line)] bg-[var(--panel)] p-2.5 text-xs space-y-1"
                       >
-                        {p.year}:{" "}
-                        <strong className={prov ? "text-[var(--acc-sky-strong)]" : "text-[var(--muted)]"}>
-                          {p.score ?? (p.rank ? `#${p.rank}` : "—")}
-                        </strong>
-                        {!prov && <span className="ml-0.5 text-[var(--acc-red)]">?</span>}
-                      </span>
+                        <div className="flex items-center justify-between font-mono text-[11px]">
+                          <span className="font-bold text-[var(--text)]">Tahun {p.year}</span>
+                          <div className="flex items-center gap-2">
+                            {p.rank && (
+                              <span className="text-[10px] text-[var(--muted)]">
+                                Peringkat #{p.rank}{p.total_countries ? `/${p.total_countries}` : ""}
+                              </span>
+                            )}
+                            <span className="rounded bg-sky-500/15 px-2 py-0.5 font-bold text-[var(--acc-sky-strong)]">
+                              Skor {p.score ?? "—"}
+                            </span>
+                          </div>
+                        </div>
+
+                        {/* Catatan Kontekstual Era Ini */}
+                        {p.note && (
+                          <p className="text-[11px] text-[var(--muted)] leading-relaxed pt-0.5">
+                            📌 {p.note}
+                          </p>
+                        )}
+
+                        {prov && (
+                          <div className="text-[10px] text-[var(--muted)] flex items-center justify-between pt-1 border-t border-[var(--line)]">
+                            <span className="truncate max-w-[200px]">Metode: {prov.method}</span>
+                            <a
+                              href={prov.url}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="text-[var(--acc-sky)] hover:underline truncate max-w-[150px]"
+                            >
+                              Arsip Dokumen ↗
+                            </a>
+                          </div>
+                        )}
+                      </div>
                     );
                   })}
                 </div>
               </div>
-
-              {/* Catatan Kesenjangan ABS jika diklik */}
-              {idx.abs_discrepancy_note && (
-                <div className="text-[11px] text-[var(--acc-amber-strong)] bg-amber-950/30 p-2.5 rounded border border-amber-500/20 leading-relaxed">
-                  <strong className="text-[var(--acc-amber-strong)] block mb-0.5">Analisis Kesenjangan:</strong>
-                  {idx.abs_discrepancy_note}
-                </div>
-              )}
             </div>
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }
