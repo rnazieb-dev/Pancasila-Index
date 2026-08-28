@@ -117,8 +117,8 @@ function NavDropdown({
         onClick={() => setOpen((p) => !p)}
         aria-expanded={open}
         aria-haspopup="menu"
-        className={`flex items-center gap-1 text-sm transition hover:text-white ${
-          isActive ? "text-white font-semibold" : "text-[var(--muted)]"
+        className={`flex items-center gap-1 text-sm transition hover:text-[var(--text)] ${
+          isActive ? "text-[var(--text)] font-semibold" : "text-[var(--muted)]"
         }`}
       >
         {label}
@@ -135,8 +135,8 @@ function NavDropdown({
               onClick={() => setOpen(false)}
               className={`block px-4 py-2 text-sm transition hover:bg-[var(--line)] ${
                 pathname === item.href
-                  ? "text-white font-semibold"
-                  : "text-[var(--muted)] hover:text-white"
+                  ? "text-[var(--text)] font-semibold"
+                  : "text-[var(--muted)] hover:text-[var(--text)]"
               }`}
             >
               {t(item.key)}
@@ -164,7 +164,7 @@ function LocaleDropdown({ align = "right" }: { align?: "left" | "right" }) {
         aria-haspopup="listbox"
         aria-label={t("langChoose")}
         title={t("langChoose")}
-        className="flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-white"
+        className="flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-[var(--text)]"
       >
         <svg
           width="16"
@@ -202,13 +202,13 @@ function LocaleDropdown({ align = "right" }: { align?: "left" | "right" }) {
                 }}
                 className={`flex w-full items-center gap-2.5 px-4 py-2 text-left text-sm transition hover:bg-[var(--line)] ${
                   active
-                    ? "text-white font-semibold"
-                    : "text-[var(--muted)] hover:text-white"
+                    ? "text-[var(--text)] font-semibold"
+                    : "text-[var(--muted)] hover:text-[var(--text)]"
                 }`}
               >
                 <span
                   className={`w-8 shrink-0 text-[10px] font-semibold uppercase ${
-                    active ? "text-red-400" : "text-[var(--muted)]"
+                    active ? "text-[var(--acc-red)]" : "text-[var(--muted)]"
                   }`}
                 >
                   {l.code}
@@ -217,7 +217,7 @@ function LocaleDropdown({ align = "right" }: { align?: "left" | "right" }) {
                 {l.needsReview && (
                   <span
                     title={t("langNeedsReview")}
-                    className="shrink-0 rounded bg-amber-500/15 px-1.5 py-0.5 text-[9px] font-semibold uppercase text-amber-400"
+                    className="shrink-0 rounded bg-amber-500/15 px-1.5 py-0.5 text-[9px] font-semibold uppercase text-[var(--acc-amber)]"
                   >
                     draf
                   </span>
@@ -280,16 +280,16 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
             href="/"
             className="shrink-0 whitespace-nowrap text-lg font-bold tracking-tight"
           >
-            Pancasila<span className="text-red-500">·</span>Index
+            Pancasila<span className="text-[var(--acc-red)]">·</span>Index
           </Link>
 
           {/* Nav Desktop */}
           <nav className="hidden flex-1 items-center gap-5 md:flex">
             <Link
               href="/"
-              className={`text-sm transition hover:text-white ${
+              className={`text-sm transition hover:text-[var(--text)] ${
                 pathname === "/"
-                  ? "text-white font-semibold"
+                  ? "text-[var(--text)] font-semibold"
                   : "text-[var(--muted)]"
               }`}
             >
@@ -305,7 +305,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               href="/cari"
               title={t("actSearch")}
               aria-label={t("actSearch")}
-              className="rounded-lg p-2 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-white"
+              className="rounded-lg p-2 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-[var(--text)]"
             >
               <SearchIcon />
             </Link>
@@ -314,7 +314,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               onClick={toggleTheme}
               title={themeTitle}
               aria-label={themeTitle}
-              className="rounded-lg p-2 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-white"
+              className="rounded-lg p-2 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-[var(--text)]"
             >
               {theme === "dark" ? (
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -336,8 +336,8 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               href="/peer-review"
               className={`rounded-lg border px-3 py-1.5 text-xs font-semibold transition ${
                 pathname?.startsWith("/peer-review")
-                  ? "border-red-500 bg-red-500/10 text-red-400"
-                  : "border-[var(--line)] text-[var(--muted)] hover:border-slate-500 hover:text-white"
+                  ? "border-red-500 bg-red-500/10 text-[var(--acc-red)]"
+                  : "border-[var(--line)] text-[var(--muted)] hover:border-slate-500 hover:text-[var(--text)]"
               }`}
             >
               {t("actPeerReview")}
@@ -349,8 +349,8 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                 title={`${userSession.name || userSession.email} (${userSession.role})`}
                 className={`flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-semibold transition ${
                   pathname === "/pengaturan"
-                    ? "border-sky-500 bg-sky-500/10 text-sky-400"
-                    : "border-[var(--line)] bg-[var(--panel)] text-[var(--muted)] hover:border-slate-500 hover:text-white"
+                    ? "border-sky-500 bg-sky-500/10 text-[var(--acc-sky)]"
+                    : "border-[var(--line)] bg-[var(--panel)] text-[var(--muted)] hover:border-slate-500 hover:text-[var(--text)]"
                 }`}
               >
                 <span className="size-2 rounded-full bg-emerald-400" />
@@ -373,14 +373,14 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
             <Link
               href="/cari"
               aria-label={t("actSearch")}
-              className="rounded-lg p-2 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-white"
+              className="rounded-lg p-2 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-[var(--text)]"
             >
               <SearchIcon />
             </Link>
             <button
               onClick={() => setDrawerOpen(true)}
               aria-label={t("menuOpen")}
-              className="rounded-lg p-2 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-white"
+              className="rounded-lg p-2 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-[var(--text)]"
             >
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
                 <path d="M3 5h14M3 10h14M3 15h14" />
@@ -400,12 +400,12 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
           <nav className="fixed top-0 right-0 z-50 flex h-full w-72 flex-col border-l border-[var(--line)] bg-[var(--panel)] shadow-2xl">
             <div className="flex items-center justify-between border-b border-[var(--line)] px-5 py-4">
               <span className="text-base font-bold">
-                Pancasila<span className="text-red-500">·</span>Index
+                Pancasila<span className="text-[var(--acc-red)]">·</span>Index
               </span>
               <button
                 onClick={() => setDrawerOpen(false)}
                 aria-label={t("menuClose")}
-                className="rounded-lg p-1.5 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-white"
+                className="rounded-lg p-1.5 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-[var(--text)]"
               >
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
                   <path d="M3 3l12 12M15 3L3 15" />
@@ -433,13 +433,13 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               ))}
 
               <p className="drawer-section">{t("secReview")}</p>
-              <Link href="/peer-review" onClick={() => setDrawerOpen(false)} className="drawer-link font-semibold text-red-400">
+              <Link href="/peer-review" onClick={() => setDrawerOpen(false)} className="drawer-link font-semibold text-[var(--acc-red)]">
                 {t("peerPortal")}
               </Link>
 
               <p className="drawer-section">{t("secAccount")}</p>
               {userSession ? (
-                <Link href="/pengaturan" onClick={() => setDrawerOpen(false)} className="drawer-link font-semibold text-sky-400">
+                <Link href="/pengaturan" onClick={() => setDrawerOpen(false)} className="drawer-link font-semibold text-[var(--acc-sky)]">
                   {userSession.name || t("actSettings")} ({userSession.role})
                 </Link>
               ) : (
@@ -454,7 +454,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                   <Link
                     href="/daftar"
                     onClick={() => setDrawerOpen(false)}
-                    className="flex-1 rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2 text-center text-xs font-semibold text-[var(--muted)] transition hover:text-white"
+                    className="flex-1 rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2 text-center text-xs font-semibold text-[var(--muted)] transition hover:text-[var(--text)]"
                   >
                     {t("actRegister")}
                   </Link>
@@ -466,7 +466,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
             <div className="space-y-3 border-t border-[var(--line)] px-5 py-4">
               <button
                 onClick={toggleTheme}
-                className="flex w-full items-center gap-2 text-sm text-[var(--muted)] transition hover:text-white"
+                className="flex w-full items-center gap-2 text-sm text-[var(--muted)] transition hover:text-[var(--text)]"
               >
                 {theme === "dark" ? `🌙 ${t("themeDarkLabel")}` : `☀️ ${t("themeLightLabel")}`}
                 <span className="ml-auto rounded border border-[var(--line)] px-2 py-0.5 text-xs">
@@ -490,7 +490,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
         }
         .drawer-link:hover {
           background: var(--line);
-          color: white;
+          color: var(--text);
         }
         .drawer-section {
           padding: 0.75rem 0.5rem 0.25rem;

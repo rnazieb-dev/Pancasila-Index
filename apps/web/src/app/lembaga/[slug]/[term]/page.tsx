@@ -18,6 +18,7 @@ import {
   indexLabel,
   periodLabel,
   scoreColor,
+  scoreTextColor,
   scoreLabel,
   sourceTitle,
   termSummary,
@@ -80,7 +81,7 @@ export default async function TermPage({
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-12">
-      <Link href={`/lembaga/${institution.slug}`} className="text-sm text-[var(--muted)] hover:text-white">
+      <Link href={`/lembaga/${institution.slug}`} className="text-sm text-[var(--muted)] hover:text-[var(--text)]">
         ← {institution.short_id}
       </Link>
 
@@ -117,7 +118,7 @@ export default async function TermPage({
           <div className="text-xs uppercase tracking-wide text-[var(--muted)]">Indeks draf</div>
           <div
             className="text-4xl font-bold tabular-nums"
-            style={{ color: scoreColor(((summary?.index ?? 50) / 25 - 2)) }}
+            style={{ color: scoreTextColor(((summary?.index ?? 50) / 25 - 2)) }}
           >
             {indexLabel(summary?.index ?? null)}
           </div>
@@ -196,7 +197,7 @@ export default async function TermPage({
                   <span
                     className="rounded-md px-2 py-0.5 text-xs font-bold w-11 text-center tabular-nums"
                     title={`skala rubrik: ${avg > 0 ? "+" : ""}${avg.toFixed(1)} dari -2..+2`}
-                    style={{ background: `${scoreColor(avg)}22`, color: scoreColor(avg) }}
+                    style={{ background: `${scoreColor(avg)}22`, color: scoreTextColor(avg) }}
                   >
                     {Math.round(((avg + 2) / 4) * 100)}
                   </span>
@@ -211,7 +212,7 @@ export default async function TermPage({
                   <div>
                     <div className="text-xs uppercase tracking-wide text-[var(--muted)] mt-2">Bukti empiris</div>
                     {first.evidence.length === 0 ? (
-                      <p className="mt-1 text-xs text-amber-400">Belum ada bukti empiris - skor menunggu kurasi.</p>
+                      <p className="mt-1 text-xs text-[var(--acc-amber)]">Belum ada bukti empiris - skor menunggu kurasi.</p>
                     ) : (
                     <ul className="mt-1.5 space-y-1">
                       {first.evidence.map((ev) => {
@@ -226,7 +227,7 @@ export default async function TermPage({
                                   href={href}
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                  className="text-sky-400 hover:text-sky-300 underline decoration-dotted underline-offset-2"
+                                  className="text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)] underline decoration-dotted underline-offset-2"
                                 >
                                   {src?.title_id ?? ev.source_id} ↗
                                 </a>
@@ -252,7 +253,7 @@ export default async function TermPage({
                                   href={src.resolved_url ?? src.url}
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                  className="underline decoration-dotted underline-offset-2 hover:text-white"
+                                  className="underline decoration-dotted underline-offset-2 hover:text-[var(--text)]"
                                 >
                                   {(src.title_id || "").replace(/\s*\([^)]*\)\s*/g, " ").slice(0, 48).trim()} ↗
                                 </a>
@@ -297,7 +298,7 @@ export default async function TermPage({
               <li key={ev.id} className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-3">
                 <div className="flex flex-wrap items-baseline gap-x-3">
                   <span className="text-xs font-mono text-[var(--muted)]">{ev.date}</span>
-                  <span className="text-[11px] uppercase tracking-wide text-red-400/80">
+                  <span className="text-[11px] uppercase tracking-wide text-[var(--acc-red)]">
                     {ev.category}
                   </span>
                 </div>
@@ -330,7 +331,7 @@ export default async function TermPage({
                         target="_blank"
                         rel="noopener noreferrer"
                         title={src?.title_id ?? sid}
-                        className="rounded bg-[var(--bg)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-sky-400 hover:text-sky-300 hover:border-sky-700 max-w-xs truncate"
+                        className="rounded bg-[var(--bg)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)] hover:border-sky-700 max-w-xs truncate"
                       >
                         📄 {src?.title_id ?? sid} ↗
                       </a>

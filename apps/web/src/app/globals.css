@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+/*
+ * Token warna per tema.
+ *
+ * Aksen WAJIB lewat --acc-*, jangan pakai text-red-400 dsl. langsung:
+ * shade Tailwind 300/400/500 berkontras cukup di atas panel gelap tapi
+ * jatuh ke rasio 1.2-3.5 di atas panel terang, sementara ambang WCAG AA
+ * untuk teks normal adalah 4.5. Token di bawah memakai shade terang di
+ * dark mode dan shade gelap di light mode, sehingga satu kelas benar di
+ * kedua tema.
+ *
+ * -strong = aksen paling kontras terhadap latar temanya (dipakai untuk
+ * judul/penekanan). Tanpa sufiks = aksen biasa (tautan, label). Keduanya
+ * wajib >= 4.5 di light mode; hierarki dijaga arah shade, bukan dengan
+ * mengorbankan keterbacaan.
+ */
+
 /* ===== DARK MODE (default) ===== */
 :root,
 [data-theme="dark"] {
@@ -8,6 +24,37 @@
   --line: #232c44;
   --text: #e7ecf5;
   --muted: #8b96ad;
+
+  --acc-red-strong: #fca5a5;
+  --acc-red: #f87171;
+  --acc-sky-strong: #7dd3fc;
+  --acc-sky: #38bdf8;
+  --acc-amber-strong: #fcd34d;
+  --acc-amber: #fbbf24;
+  --acc-emerald-strong: #6ee7b7;
+  --acc-emerald: #34d399;
+  --acc-purple-strong: #d8b4fe;
+  --acc-purple: #c084fc;
+  --acc-orange-strong: #fdba74;
+  --acc-orange: #fb923c;
+
+  /* Warna SKOR sebagai teks. Nilai vivid di scoreColor() dipakai untuk isi
+     bar (tanpa teks di atasnya) dan tetap; token ini khusus peran teks,
+     karena lime/orange/green vivid hanya lolos 1.4-2.3 di atas panel putih. */
+  --score-vneg: #f87171;
+  --score-neg: #fb923c;
+  --score-zero: #94a3b8;
+  --score-pos: #a3e635;
+  --score-vpos: #22c55e;
+
+  /* Warna SERI pembanding sebagai teks. PRESET_COLORS tetap vivid untuk
+     geometri SVG (fill/stroke lewat rangkaian string, tak bisa var()). */
+  --series-1: #38bdf8;
+  --series-2: #f43f5e;
+  --series-3: #34d399;
+  --series-4: #fbbf24;
+  --series-5: #a855f7;
+
   color-scheme: dark;
 }
 
@@ -17,7 +64,35 @@
   --panel: #ffffff;
   --line: #dde3ef;
   --text: #0f172a;
-  --muted: #5a6a87;
+  --muted: #4b5a75;
+
+  /* shade -800/-900: latar bertint (mis. bg-sky-500/10 di atas putih)
+     memakan kontras, jadi -700 tidak menyisakan headroom untuk 4.5 */
+  --acc-red-strong: #7f1d1d;
+  --acc-red: #991b1b;
+  --acc-sky-strong: #0c4a6e;
+  --acc-sky: #075985;
+  --acc-amber-strong: #78350f;
+  --acc-amber: #92400e;
+  --acc-emerald-strong: #064e3b;
+  --acc-emerald: #065f46;
+  --acc-purple-strong: #581c87;
+  --acc-purple: #6b21a8;
+  --acc-orange-strong: #7c2d12;
+  --acc-orange: #9a3412;
+
+  --score-vneg: #b91c1c;
+  --score-neg: #9a3412;
+  --score-zero: #475569;
+  --score-pos: #4d7c0f;
+  --score-vpos: #166534;
+
+  --series-1: #075985;
+  --series-2: #9f1239;
+  --series-3: #065f46;
+  --series-4: #92400e;
+  --series-5: #6b21a8;
+
   color-scheme: light;
 }
 

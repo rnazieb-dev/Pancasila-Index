@@ -49,7 +49,7 @@ export default async function KurasiDetailPage({
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-12">
-      <Link href={`/kurasi?tab=draft`} className="text-sm text-[var(--muted)] hover:text-white">
+      <Link href={`/kurasi?tab=draft`} className="text-sm text-[var(--muted)] hover:text-[var(--text)]">
         ← antrean kurasi
       </Link>
 
@@ -98,7 +98,7 @@ export default async function KurasiDetailPage({
           )}
         </div>
         {!quorumMet && history.some((r) => r.decision === "APPROVED") && (
-          <p className="mt-2 text-[11px] text-amber-300">
+          <p className="mt-2 text-[11px] text-[var(--acc-amber-strong)]">
             Sudah disetujui satu kurator — publikasi menunggu telaah kedua dari
             kurator berbeda.
           </p>
@@ -113,7 +113,7 @@ export default async function KurasiDetailPage({
             {[...history].reverse().map((r) => (
               <li key={r.id}>
                 {r.createdAt.toISOString().slice(0, 10)} —{" "}
-                <strong className={r.decision === "APPROVED" ? "text-green-400" : "text-red-400"}>
+                <strong className={r.decision === "APPROVED" ? "text-green-400" : "text-[var(--acc-red)]"}>
                   {r.decision}
                 </strong>{" "}
                 oleh {r.reviewerName}
@@ -158,7 +158,7 @@ export default async function KurasiDetailPage({
                 <div className="mt-3 border-t border-[var(--line)] pt-3 grid md:grid-cols-2 gap-x-8 gap-y-3 text-sm">
                   {/* kolom rubrik */}
                   <div>
-                    <div className="text-[11px] uppercase tracking-wide text-sky-400/80 mb-1">
+                    <div className="text-[11px] uppercase tracking-wide text-[var(--acc-sky)] mb-1">
                       Rubrik v{dataset.rubric.version}
                     </div>
                     <p className="italic text-[var(--muted)]">{dim.question_id.trim()}</p>
@@ -183,7 +183,7 @@ export default async function KurasiDetailPage({
 
                   {/* kolom penilaian / belum dinilai */}
                   <div>
-                    <div className="text-[11px] uppercase tracking-wide text-amber-400/80 mb-1">
+                    <div className="text-[11px] uppercase tracking-wide text-[var(--acc-amber)] mb-1">
                       Penilaian kurandidat
                     </div>
                     {ds ? (
@@ -200,7 +200,7 @@ export default async function KurasiDetailPage({
                               <li key={ev.source_id} className="text-xs">
                                 📄{" "}
                                 {href ? (
-                                  <a href={href} target="_blank" rel="noopener noreferrer" className="text-sky-400 hover:text-sky-300 underline decoration-dotted underline-offset-2">
+                                  <a href={href} target="_blank" rel="noopener noreferrer" className="text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)] underline decoration-dotted underline-offset-2">
                                     {(src?.title_id ?? ev.source_id).slice(0, 60)} ↗
                                   </a>
                                 ) : (

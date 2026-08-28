@@ -30,7 +30,7 @@ export default function Beranda() {
   return (
     <div className="mx-auto max-w-6xl px-4">
       <section className="py-14">
-        <p className="text-xs uppercase tracking-widest text-red-500 font-semibold">
+        <p className="text-xs uppercase tracking-widest text-[var(--acc-red)] font-semibold">
           Indeks Kepancasilaan Terbuka
         </p>
         <h1 className="mt-3 text-4xl md:text-5xl font-bold leading-tight">
@@ -42,7 +42,7 @@ export default function Beranda() {
           empat tujuan bernegara Pembukaan UUD 1945 alinea IV, dan norma
           struktural UUD 1945. Setiap skor wajib bersitasi bukti primer.
         </p>
-        <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-amber-500/40 bg-amber-500/10 px-3 py-1 text-xs text-amber-400">
+        <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-amber-500/40 bg-amber-500/10 px-3 py-1 text-xs text-[var(--acc-amber)]">
           <span className="size-1.5 rounded-full bg-amber-400 animate-pulse" />
           Fase seed: seluruh indeks di bawah adalah DRAF belum dikurasi
         </div>
@@ -63,7 +63,7 @@ export default function Beranda() {
       <section className="mt-12">
         <div className="flex items-baseline justify-between">
           <h2 className="text-xl font-semibold">Indeks draf per era kepresidenan</h2>
-          <Link href="/lembaga/presiden" className="text-sm text-[var(--muted)] hover:text-white">
+          <Link href="/lembaga/presiden" className="text-sm text-[var(--muted)] hover:text-[var(--text)]">
             lihat semua lembaga →
           </Link>
         </div>

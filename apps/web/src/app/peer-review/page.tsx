@@ -5,12 +5,12 @@ export default function PeerReviewPage() {
     <div className="mx-auto max-w-4xl px-4 py-12">
       {/* Header */}
       <div className="border-b border-[var(--line)] pb-8">
-        <span className="text-xs uppercase tracking-widest text-red-500 font-semibold">
+        <span className="text-xs uppercase tracking-widest text-[var(--acc-red)] font-semibold">
           Tinjauan Sejawat Terbuka
         </span>
         <h1 className="mt-2 text-3xl font-bold">Portal Peer Review</h1>
         <p className="mt-3 max-w-2xl text-sm text-[var(--muted)] leading-relaxed">
-          Pancasila Index mengadopsi model <strong className="text-white">tinjauan sejawat terbuka</strong>{" "}
+          Pancasila Index mengadopsi model <strong className="text-[var(--text)]">tinjauan sejawat terbuka</strong>{" "}
           layaknya jurnal ilmiah. Peneliti, akademisi, dan pakar hukum tatanegara dapat mengusulkan bukti
           primer baru, mengkritisi skor, atau melaporkan koreksi fakta — langsung melalui antarmuka ini,
           tanpa perlu pengetahuan teknis Git/GitHub.
@@ -41,7 +41,7 @@ export default function PeerReviewPage() {
             className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 space-y-2"
           >
             <div className="text-2xl">{p.icon}</div>
-            <h3 className="font-bold text-sm text-white/95">{p.title}</h3>
+            <h3 className="font-bold text-sm text-[var(--text)]">{p.title}</h3>
             <p className="text-xs text-[var(--muted)] leading-relaxed">{p.desc}</p>
           </div>
         ))}
@@ -61,11 +61,11 @@ export default function PeerReviewPage() {
             { n: "4", title: "Diterima / Ditolak", desc: "Putusan Dewan Editorial disertai alasan yang tercatat publik. Usulan yang diterima diintegrasikan ke dataset kanonik. Usulan yang ditolak beserta alasannya tetap dapat diakses untuk transparansi." },
           ].map((step) => (
             <li key={step.n} className="flex gap-4">
-              <span className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-full bg-red-500/20 text-xs font-bold text-red-400">
+              <span className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-full bg-red-500/20 text-xs font-bold text-[var(--acc-red)]">
                 {step.n}
               </span>
               <div>
-                <div className="font-semibold text-sm text-white/95">{step.title}</div>
+                <div className="font-semibold text-sm text-[var(--text)]">{step.title}</div>
                 <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">{step.desc}</p>
               </div>
             </li>
@@ -81,12 +81,12 @@ export default function PeerReviewPage() {
         >
           <div>
             <div className="text-2xl mb-2.5">📝</div>
-            <h3 className="font-bold text-red-300 group-hover:text-red-200">Ajukan Usulan Baru</h3>
+            <h3 className="font-bold text-[var(--acc-red-strong)] group-hover:text-[var(--acc-red-strong)]">Ajukan Usulan Baru</h3>
             <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
               Usulkan bukti primer, perbaiki data peristiwa, atau ajukan revisi skor.
             </p>
           </div>
-          <span className="mt-4 text-xs font-semibold text-red-400">Buka Formulir →</span>
+          <span className="mt-4 text-xs font-semibold text-[var(--acc-red)]">Buka Formulir →</span>
         </Link>
 
         <Link
@@ -95,12 +95,12 @@ export default function PeerReviewPage() {
         >
           <div>
             <div className="text-2xl mb-2.5">📁</div>
-            <h3 className="font-bold text-amber-300 group-hover:text-amber-200">Draf Usulan Saya</h3>
+            <h3 className="font-bold text-[var(--acc-amber-strong)] group-hover:text-[var(--acc-amber-strong)]">Draf Usulan Saya</h3>
             <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
               Lanjutkan draf bukti dan argumentasi yang tersimpan otomatis di peramban.
             </p>
           </div>
-          <span className="mt-4 text-xs font-semibold text-amber-400">Kelola Draf Lokal →</span>
+          <span className="mt-4 text-xs font-semibold text-[var(--acc-amber)]">Kelola Draf Lokal →</span>
         </Link>
 
         <Link
@@ -109,12 +109,12 @@ export default function PeerReviewPage() {
         >
           <div>
             <div className="text-2xl mb-2.5">🌐</div>
-            <h3 className="font-bold text-sky-300 group-hover:text-sky-200">Tinjauan Terjemahan</h3>
+            <h3 className="font-bold text-[var(--acc-sky-strong)] group-hover:text-[var(--acc-sky-strong)]">Tinjauan Terjemahan</h3>
             <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
               Koreksi dan validasi terjemahan substantif dalam 4 bahasa (EN, Jawa, Sunda, Minang).
             </p>
           </div>
-          <span className="mt-4 text-xs font-semibold text-sky-400">Antrean Bahasa →</span>
+          <span className="mt-4 text-xs font-semibold text-[var(--acc-sky)]">Antrean Bahasa →</span>
         </Link>
 
         <Link
@@ -123,18 +123,18 @@ export default function PeerReviewPage() {
         >
           <div>
             <div className="text-2xl mb-2.5">👥</div>
-            <h3 className="font-bold text-white/90 group-hover:text-white">Direktori Pengulas</h3>
+            <h3 className="font-bold text-[var(--text)] group-hover:text-[var(--text)]">Direktori Pengulas</h3>
             <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
               Lihat daftar terbuka seluruh peneliti beserta afiliasi dan deklarasi transparansi.
             </p>
           </div>
-          <span className="mt-4 text-xs font-semibold text-slate-300">Lihat Profil →</span>
+          <span className="mt-4 text-xs font-semibold text-[var(--muted)]">Lihat Profil →</span>
         </Link>
       </section>
 
       {/* Catatan Dewan Editorial sementara */}
-      <div className="mt-10 rounded-xl border border-amber-500/30 bg-amber-500/8 px-5 py-4 text-xs leading-relaxed text-amber-200/70">
-        <strong className="text-amber-300">Catatan:</strong> Platform Peer Review saat ini dalam fase
+      <div className="mt-10 rounded-xl border border-amber-500/30 bg-amber-500/8 px-5 py-4 text-xs leading-relaxed text-[var(--acc-amber-strong)]">
+        <strong className="text-[var(--acc-amber-strong)]">Catatan:</strong> Platform Peer Review saat ini dalam fase
         pengembangan aktif. Formulir submisi dan antrean Dewan Editorial akan sepenuhnya fungsional pada
         rilis v1.0. Untuk sementara, usulan dapat dikirimkan melalui formulir di bawah sebagai draf
         awal yang akan ditinjau tim inti.

@@ -18,6 +18,20 @@ export function scoreColor(score: number): string {
   return "#22c55e";
 }
 
+/**
+ * Warna skor untuk peran TEKS. Mengembalikan custom property yang berbalik
+ * per tema; scoreColor() di atas tetap dipakai untuk isi bar/tint karena
+ * nilai vividnya hanya lolos rasio 1.4-2.3 bila dijadikan teks di atas
+ * panel terang (ambang WCAG AA = 4.5).
+ */
+export function scoreTextColor(score: number): string {
+  if (score <= -1.5) return "var(--score-vneg)";
+  if (score < 0) return "var(--score-neg)";
+  if (score === 0) return "var(--score-zero)";
+  if (score <= 1) return "var(--score-pos)";
+  return "var(--score-vpos)";
+}
+
 export function scoreLabel(score: number | null): string {
   if (score === null) return "belum dinilai";
   const s = Math.round(score * 10) / 10;

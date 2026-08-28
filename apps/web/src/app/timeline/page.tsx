@@ -5,7 +5,7 @@ import { dataset } from "@pancasila-index/data";
 import {
   indexLabel,
   periodLabel,
-  scoreColor,
+  scoreColor, scoreTextColor,
   termSummary,
 } from "@/lib/view";
 
@@ -32,7 +32,7 @@ export default function TimelinePage() {
 
         return (
           <section key={branch.id} className="mt-12">
-            <h2 className="text-lg font-bold text-red-400 border-b border-[var(--line)] pb-2 uppercase tracking-wide">
+            <h2 className="text-lg font-bold text-[var(--acc-red)] border-b border-[var(--line)] pb-2 uppercase tracking-wide">
               {branch.label}
             </h2>
             <div className="space-y-8 mt-6">
@@ -44,10 +44,10 @@ export default function TimelinePage() {
                 return (
                   <div key={institution.id} className="space-y-3">
                     <div className="flex items-baseline justify-between gap-2">
-                      <h3 className="text-base font-semibold text-white/95">{institution.name_id}</h3>
+                      <h3 className="text-base font-semibold text-[var(--text)]">{institution.name_id}</h3>
                       <Link
                         href={`/lembaga/${institution.slug}`}
-                        className="text-xs text-sky-400 hover:text-sky-300"
+                        className="text-xs text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)]"
                       >
                         Lihat profil lembaga →
                       </Link>
@@ -77,7 +77,7 @@ export default function TimelinePage() {
                               </div>
                               <div className="mt-1.5 text-xs text-[var(--muted)]">
                                 Indeks draf{" "}
-                                <strong style={{ color: scoreColor(index === null ? 0 : index / 25 - 2) }}>
+                                <strong style={{ color: scoreTextColor(index === null ? 0 : index / 25 - 2) }}>
                                   {indexLabel(index)}/100
                                 </strong>{" "}
                                 · cakupan {Math.round((summary?.coverage ?? 0) * 100)}% dimensi ·{" "}

@@ -10,11 +10,11 @@ interface ScaleLegendProps {
  */
 export function ScaleLegend({ compact = false }: ScaleLegendProps) {
   const levels = [
-    { range: "75–100", label: "Teladan / Progresif", color: "#22c55e" },
-    { range: "56–74", label: "Penguatan Konkret", color: "#a3e635" },
-    { range: "46–55", label: "Netral / Status Quo ← titik tengah", color: "#94a3b8" },
-    { range: "30–45", label: "Cenderung Menggerus", color: "#fb923c" },
-    { range: "0–29", label: "Erosi Berat", color: "#ef4444" },
+    { range: "75–100", label: "Teladan / Progresif", color: "var(--score-vpos)" },
+    { range: "56–74", label: "Penguatan Konkret", color: "var(--score-pos)" },
+    { range: "46–55", label: "Netral / Status Quo ← titik tengah", color: "var(--score-zero)" },
+    { range: "30–45", label: "Cenderung Menggerus", color: "var(--score-neg)" },
+    { range: "0–29", label: "Erosi Berat", color: "var(--score-vneg)" },
   ];
 
   if (compact) {
@@ -40,8 +40,8 @@ export function ScaleLegend({ compact = false }: ScaleLegendProps) {
         Panduan Baca Indeks (0–100)
       </p>
       <p className="text-[11px] text-[var(--muted)] leading-relaxed">
-        Indeks <strong className="text-white">50</strong> menandai posisi{" "}
-        <strong className="text-slate-300">NETRAL</strong> — bukan nilai buruk. Angka di atas 50
+        Indeks <strong className="text-[var(--text)]">50</strong> menandai posisi{" "}
+        <strong className="text-[var(--muted)]">NETRAL</strong> — bukan nilai buruk. Angka di atas 50
         mencerminkan kepatuhan lebih dari norma dasar; di bawah 50 mengindikasikan erosi norma
         konstitusional.
       </p>

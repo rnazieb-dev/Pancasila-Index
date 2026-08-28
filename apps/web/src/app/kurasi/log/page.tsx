@@ -21,8 +21,8 @@ function actionTone(action: string): string {
   if (action.includes("approved") || action.includes("publish"))
     return "text-green-400";
   if (action.includes("rejected") || action.includes("deny"))
-    return "text-red-400";
-  if (action.includes("role")) return "text-sky-400";
+    return "text-[var(--acc-red)]";
+  if (action.includes("role")) return "text-[var(--acc-sky)]";
   return "text-[var(--muted)]";
 }
 
@@ -54,7 +54,7 @@ export default async function KurasiLogPage() {
     <div className="mx-auto max-w-4xl px-4 py-12">
       <Link
         href="/kurasi"
-        className="text-sm text-[var(--muted)] hover:text-white"
+        className="text-sm text-[var(--muted)] hover:text-[var(--text)]"
       >
         ← antrean kurasi
       </Link>
@@ -66,7 +66,7 @@ export default async function KurasiLogPage() {
       </p>
 
       {dbError && (
-        <p className="mt-6 rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-xs text-amber-300">
+        <p className="mt-6 rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-xs text-[var(--acc-amber-strong)]">
           Database lapisan dinamis belum tersedia. Jalankan{" "}
           <code>pnpm --filter web prisma migrate dev</code> lalu muat ulang.
         </p>

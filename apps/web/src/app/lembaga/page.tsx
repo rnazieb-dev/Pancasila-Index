@@ -22,7 +22,7 @@ export default function LembagaIndex() {
               href={`/lembaga/${inst.slug}`}
               className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 hover:border-slate-500 transition"
             >
-              <div className="text-xs uppercase tracking-wide text-red-500 font-semibold">
+              <div className="text-xs uppercase tracking-wide text-[var(--acc-red)] font-semibold">
                 {inst.branch}
               </div>
               <div className="mt-2 font-semibold leading-snug">{inst.name_id}</div>

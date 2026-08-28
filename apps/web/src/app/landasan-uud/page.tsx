@@ -16,7 +16,7 @@ export default function LandasanUudPage() {
       <h1 className="text-3xl font-bold">Landasan UUD</h1>
       <p className="mt-3 text-sm leading-relaxed text-[var(--muted)] max-w-2xl">
         {uud.title_id}. Setiap pasal dipetakan ke dimensi{" "}
-        <Link href="/metodologi" className="underline hover:text-white">
+        <Link href="/metodologi" className="underline hover:text-[var(--text)]">
           Rubrik Kepancasilaan
         </Link>{" "}
         sebagai jaminan bahwa tidak ada norma konstitusi yang lolos dari
@@ -49,7 +49,7 @@ export default function LandasanUudPage() {
           <section key={bab.nomor}>
             <div className="flex flex-wrap items-baseline gap-x-3">
               <h2 className="font-semibold">
-                <span className="text-red-500 mr-2">Bab {bab.nomor}</span>
+                <span className="text-[var(--acc-red)] mr-2">Bab {bab.nomor}</span>
                 {bab.nama_id}
               </h2>
               {bab.catatan_id && (
@@ -71,7 +71,7 @@ export default function LandasanUudPage() {
                     className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-3"
                   >
                     <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                      <span className="font-mono text-sm text-red-400 shrink-0">
+                      <span className="font-mono text-sm text-[var(--acc-red)] shrink-0">
                         Pasal {pasal.nomor}
                       </span>
                       <p className="text-sm grow">{pasal.ringkas_id}</p>
@@ -82,7 +82,7 @@ export default function LandasanUudPage() {
                           <Link
                             key={dimId}
                             href="/metodologi#dimensi"
-                            className="rounded bg-[var(--bg)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-[var(--muted)] hover:text-white hover:border-slate-500"
+                            className="rounded bg-[var(--bg)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500"
                           >
                             {dataset.rubric.dimensions.find(
                               (d) => d.id === dimId

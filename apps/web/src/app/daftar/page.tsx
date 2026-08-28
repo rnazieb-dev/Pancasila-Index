@@ -61,7 +61,7 @@ export default function DaftarPage() {
     <div className="mx-auto max-w-md px-4 py-16">
       <div className="text-center">
         <Link href="/" className="font-bold tracking-tight text-xl">
-          Pancasila<span className="text-red-500">·</span>Index
+          Pancasila<span className="text-[var(--acc-red)]">·</span>Index
         </Link>
         <h1 className="mt-3 text-2xl font-bold">Daftar Akun Pengulas</h1>
         <p className="mt-1 text-xs text-[var(--muted)]">
@@ -71,7 +71,7 @@ export default function DaftarPage() {
 
       <div className="mt-8 rounded-2xl border border-[var(--line)] bg-[var(--panel)] p-6 shadow-xl">
         {error && (
-          <div className="mb-4 rounded-lg border border-red-500/30 bg-red-500/10 p-3 text-xs text-red-400">
+          <div className="mb-4 rounded-lg border border-red-500/30 bg-red-500/10 p-3 text-xs text-[var(--acc-red)]">
             {error}
           </div>
         )}
@@ -79,7 +79,7 @@ export default function DaftarPage() {
         {success ? (
           <div className="py-8 text-center space-y-2">
             <div className="text-4xl">🎉</div>
-            <h2 className="text-lg font-bold text-emerald-400">Pendaftaran Berhasil!</h2>
+            <h2 className="text-lg font-bold text-[var(--acc-emerald)]">Pendaftaran Berhasil!</h2>
             <p className="text-xs text-[var(--muted)]">Mengarahkan Anda ke halaman masuk...</p>
           </div>
         ) : (
@@ -174,7 +174,7 @@ export default function DaftarPage() {
 
         <div className="mt-6 border-t border-[var(--line)] pt-4 text-center text-xs text-[var(--muted)]">
           Sudah punya akun?{" "}
-          <Link href="/masuk" className="text-sky-400 font-semibold hover:text-sky-300">
+          <Link href="/masuk" className="text-[var(--acc-sky)] font-semibold hover:text-[var(--acc-sky-strong)]">
             Masuk di sini
           </Link>
         </div>

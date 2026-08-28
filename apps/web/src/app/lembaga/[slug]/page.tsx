@@ -7,6 +7,7 @@ import {
   indexLabel,
   periodLabel,
   scoreColor,
+  scoreTextColor,
   termSummary,
 } from "@/lib/view";
 
@@ -27,7 +28,7 @@ export default async function LembagaPage({
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-12">
-      <p className="text-xs uppercase tracking-wide text-red-500 font-semibold">
+      <p className="text-xs uppercase tracking-wide text-[var(--acc-red)] font-semibold">
         {institution.branch}
       </p>
       <h1 className="mt-1 text-3xl font-bold">{institution.name_id}</h1>
@@ -55,7 +56,7 @@ export default async function LembagaPage({
                 style={{
                   background:
                     index === null ? "#1e293b" : `${scoreColor(index / 25 - 2)}22`,
-                  color: index === null ? "#94a3b8" : scoreColor(index / 25 - 2),
+                  color: index === null ? "var(--score-zero)" : scoreTextColor(index / 25 - 2),
                 }}
               >
                 {indexLabel(index)}

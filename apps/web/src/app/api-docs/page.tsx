@@ -133,7 +133,7 @@ export default function ApiDocsPage() {
             href="/api/v1/openapi.json"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3.5 py-2 text-xs font-semibold text-sky-400 hover:text-sky-300 hover:border-slate-500 transition"
+            className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3.5 py-2 text-xs font-semibold text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)] hover:border-slate-500 transition"
           >
             📄 openapi.json ↗
           </a>
@@ -155,11 +155,11 @@ export default function ApiDocsPage() {
               }}
               className={`w-full text-left rounded-lg px-3 py-2 text-xs transition flex items-center gap-2 ${
                 activeTab === ep.path
-                  ? "bg-red-500 text-white font-semibold shadow"
-                  : "text-[var(--muted)] hover:bg-[var(--panel)] hover:text-white"
+                  ? "bg-red-600 text-white font-semibold shadow"
+                  : "text-[var(--muted)] hover:bg-[var(--panel)] hover:text-[var(--text)]"
               }`}
             >
-              <span className="font-mono text-[10px] font-bold uppercase bg-slate-900/50 px-1.5 py-0.5 rounded">
+              <span className="font-mono text-[10px] font-bold uppercase bg-[var(--line)] text-[var(--text)] px-1.5 py-0.5 rounded">
                 {ep.method}
               </span>
               <span className="truncate">{ep.path}</span>
@@ -171,10 +171,10 @@ export default function ApiDocsPage() {
         <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-6">
           <div>
             <div className="flex items-center gap-3">
-              <span className="rounded bg-emerald-500/20 text-emerald-400 font-mono text-xs font-bold px-2.5 py-1">
+              <span className="rounded bg-emerald-500/20 text-[var(--acc-emerald)] font-mono text-xs font-bold px-2.5 py-1">
                 {selectedEndpoint.method}
               </span>
-              <span className="font-mono text-base font-bold text-white/95">
+              <span className="font-mono text-base font-bold text-[var(--text)]">
                 {selectedEndpoint.path}
               </span>
             </div>
@@ -202,11 +202,11 @@ export default function ApiDocsPage() {
                   <tbody className="divide-y divide-[var(--line)]">
                     {selectedEndpoint.params.map((param) => (
                       <tr key={param.name}>
-                        <td className="px-3 py-2 font-mono text-sky-400 font-semibold">{param.name}</td>
+                        <td className="px-3 py-2 font-mono text-[var(--acc-sky)] font-semibold">{param.name}</td>
                         <td className="px-3 py-2 font-mono text-[var(--muted)]">{param.type}</td>
                         <td className="px-3 py-2">
                           {param.required ? (
-                            <span className="text-red-400 font-bold">Ya</span>
+                            <span className="text-[var(--acc-red)] font-bold">Ya</span>
                           ) : (
                             <span className="text-[var(--muted)]">Opsional</span>
                           )}
@@ -230,7 +230,7 @@ export default function ApiDocsPage() {
                 type="text"
                 readOnly
                 value={selectedEndpoint.exampleUrl}
-                className="flex-1 rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2 font-mono text-xs text-sky-300 focus:outline-none"
+                className="flex-1 rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2 font-mono text-xs text-[var(--acc-sky-strong)] focus:outline-none"
               />
               <button
                 onClick={() => handleTest(selectedEndpoint.exampleUrl)}
@@ -247,12 +247,12 @@ export default function ApiDocsPage() {
                   <span>Response JSON (Status: 200 OK):</span>
                   <button
                     onClick={() => navigator.clipboard.writeText(testResponse)}
-                    className="hover:text-white"
+                    className="hover:text-[var(--text)]"
                   >
                     Salin JSON
                   </button>
                 </div>
-                <pre className="max-h-80 overflow-y-auto rounded-lg border border-[var(--line)] bg-[#0a0f1d] p-4 text-xs font-mono text-emerald-400 leading-normal">
+                <pre className="max-h-80 overflow-y-auto rounded-lg border border-[var(--line)] bg-[#0a0f1d] p-4 text-xs font-mono text-[var(--acc-emerald)] leading-normal">
                   {testResponse}
                 </pre>
               </div>

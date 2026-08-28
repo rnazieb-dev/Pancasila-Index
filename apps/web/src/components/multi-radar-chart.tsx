@@ -122,7 +122,7 @@ export function MultiRadarChart({ labels, series, size = 360 }: MultiRadarProps)
               className="inline-block size-3 rounded-full"
               style={{ backgroundColor: s.color }}
             />
-            <span className="font-medium text-white/90">{s.label}</span>
+            <span className="font-medium text-[var(--text)]">{s.label}</span>
           </div>
         ))}
       </div>

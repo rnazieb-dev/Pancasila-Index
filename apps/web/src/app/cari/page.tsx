@@ -100,13 +100,13 @@ export default function CariPage() {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Ketik kata kunci, nomor UU, tokoh, atau topik (misal: HAM, korupsi, otonomi, Bagir Manan, Pemilu)..."
-            className="w-full rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3.5 pl-11 text-sm text-white placeholder-[var(--muted)] focus:border-red-500 focus:outline-none focus:ring-1 focus:ring-red-500 transition"
+            className="w-full rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3.5 pl-11 text-sm text-[var(--text)] placeholder-[var(--muted)] focus:border-red-500 focus:outline-none focus:ring-1 focus:ring-red-500 transition"
           />
           <span className="absolute left-4 top-3.5 text-[var(--muted)]">🔍</span>
           {query && (
             <button
               onClick={() => setQuery("")}
-              className="absolute right-4 top-3.5 text-xs text-[var(--muted)] hover:text-white"
+              className="absolute right-4 top-3.5 text-xs text-[var(--muted)] hover:text-[var(--text)]"
             >
               ✕ Bersihkan
             </button>
@@ -130,8 +130,8 @@ export default function CariPage() {
               onClick={() => setCategoryFilter(cat.id)}
               className={`rounded-lg px-3 py-1.5 transition ${
                 categoryFilter === cat.id
-                  ? "bg-red-500 text-white font-semibold"
-                  : "bg-[var(--panel)] border border-[var(--line)] text-[var(--muted)] hover:text-white"
+                  ? "bg-red-600 text-white font-semibold"
+                  : "bg-[var(--panel)] border border-[var(--line)] text-[var(--muted)] hover:text-[var(--text)]"
               }`}
             >
               {cat.label}
@@ -143,7 +143,7 @@ export default function CariPage() {
         <select
           value={selectedEra}
           onChange={(e) => setSelectedEra(e.target.value)}
-          className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3 py-1.5 text-xs text-[var(--muted)] focus:text-white focus:outline-none"
+          className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3 py-1.5 text-xs text-[var(--muted)] focus:text-[var(--text)] focus:outline-none"
         >
           <option value="all">Semua Era</option>
           <option value="revolusi">Era Revolusi</option>
@@ -157,7 +157,7 @@ export default function CariPage() {
         <select
           value={selectedInstitution}
           onChange={(e) => setSelectedInstitution(e.target.value)}
-          className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3 py-1.5 text-xs text-[var(--muted)] focus:text-white focus:outline-none"
+          className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3 py-1.5 text-xs text-[var(--muted)] focus:text-[var(--text)] focus:outline-none"
         >
           <option value="all">Semua Lembaga</option>
           {dataset.institutions.map((i) => (
@@ -173,7 +173,7 @@ export default function CariPage() {
         {/* 1. Peristiwa */}
         {(categoryFilter === "all" || categoryFilter === "event") && results.events.length > 0 && (
           <section>
-            <h2 className="text-base font-bold text-red-400 uppercase tracking-wide">
+            <h2 className="text-base font-bold text-[var(--acc-red)] uppercase tracking-wide">
               Peristiwa Berbukti ({results.events.length})
             </h2>
             <div className="mt-3 space-y-3">
@@ -187,11 +187,11 @@ export default function CariPage() {
                   >
                     <div className="flex flex-wrap items-baseline justify-between gap-2">
                       <span className="text-xs font-mono text-[var(--muted)]">{ev.date}</span>
-                      <span className="text-[11px] uppercase tracking-wide font-semibold text-red-400/90">
+                      <span className="text-[11px] uppercase tracking-wide font-semibold text-[var(--acc-red)]">
                         {inst?.short_id ?? ""}: {term?.label_id ?? ev.term_id}
                       </span>
                     </div>
-                    <div className="font-semibold text-white/95">{ev.title_id}</div>
+                    <div className="font-semibold text-[var(--text)]">{ev.title_id}</div>
                     <p className="text-xs text-[var(--muted)] leading-relaxed">{ev.summary_id}</p>
                     <div className="flex flex-wrap gap-1.5 pt-1">
                       {ev.source_ids.map((sid) => {
@@ -203,7 +203,7 @@ export default function CariPage() {
                             href={href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="rounded bg-[var(--bg)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-sky-400 hover:text-sky-300"
+                            className="rounded bg-[var(--bg)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)]"
                           >
                             📄 {src?.title_id ?? sid} ↗
                           </a>
@@ -232,7 +232,7 @@ export default function CariPage() {
         {/* 2. Sumber Primer */}
         {(categoryFilter === "all" || categoryFilter === "source") && results.sources.length > 0 && (
           <section>
-            <h2 className="text-base font-bold text-sky-400 uppercase tracking-wide">
+            <h2 className="text-base font-bold text-[var(--acc-sky)] uppercase tracking-wide">
               Sumber Primer & Dokumen Hukum ({results.sources.length})
             </h2>
             <div className="mt-3 grid gap-3 sm:grid-cols-2">
@@ -254,7 +254,7 @@ export default function CariPage() {
                           </span>
                         )}
                       </div>
-                      <div className="font-semibold text-sm text-white/90 mt-1">{src.title_id}</div>
+                      <div className="font-semibold text-sm text-[var(--text)] mt-1">{src.title_id}</div>
                     </div>
                     {href && (
                       <div className="pt-2">
@@ -262,7 +262,7 @@ export default function CariPage() {
                           href={href}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-xs text-sky-400 hover:text-sky-300 underline decoration-dotted"
+                          className="text-xs text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)] underline decoration-dotted"
                         >
                           Buka rujukan dokumen ↗
                         </a>
@@ -278,7 +278,7 @@ export default function CariPage() {
         {/* 3. Masa Jabatan */}
         {(categoryFilter === "all" || categoryFilter === "term") && results.terms.length > 0 && (
           <section>
-            <h2 className="text-base font-bold text-amber-400 uppercase tracking-wide">
+            <h2 className="text-base font-bold text-[var(--acc-amber)] uppercase tracking-wide">
               Masa Jabatan & Tokoh ({results.terms.length})
             </h2>
             <div className="mt-3 grid gap-3 sm:grid-cols-2">
@@ -290,13 +290,13 @@ export default function CariPage() {
                     href={`/lembaga/${inst?.slug ?? ""}/${term.id}`}
                     className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 hover:border-slate-500 transition block"
                   >
-                    <div className="text-xs text-red-400 font-semibold uppercase">{inst?.name_id}</div>
-                    <div className="font-semibold text-base text-white/95 mt-1">{term.label_id}</div>
+                    <div className="text-xs text-[var(--acc-red)] font-semibold uppercase">{inst?.name_id}</div>
+                    <div className="font-semibold text-base text-[var(--text)] mt-1">{term.label_id}</div>
                     <div className="text-xs text-[var(--muted)] mt-1">
                       {term.start_date} s.d. {term.end_date ?? "sekarang"} · era {term.era}
                     </div>
                     {term.actors.length > 0 && (
-                      <div className="text-xs text-slate-300 mt-2">
+                      <div className="text-xs text-[var(--muted)] mt-2">
                         Tokoh: {term.actors.map((a) => `${a.name} (${a.role_id})`).join(" · ")}
                       </div>
                     )}
@@ -310,7 +310,7 @@ export default function CariPage() {
         {/* 4. Pasal UUD */}
         {(categoryFilter === "all" || categoryFilter === "pasal") && results.pasal.length > 0 && (
           <section>
-            <h2 className="text-base font-bold text-emerald-400 uppercase tracking-wide">
+            <h2 className="text-base font-bold text-[var(--acc-emerald)] uppercase tracking-wide">
               Pasal UUD 1945 ({results.pasal.length})
             </h2>
             <div className="mt-3 grid gap-3 sm:grid-cols-2">
@@ -319,10 +319,10 @@ export default function CariPage() {
                   key={`${p.babNomor}-${p.nomor}`}
                   className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 space-y-1"
                 >
-                  <div className="text-xs font-bold text-emerald-400">
+                  <div className="text-xs font-bold text-[var(--acc-emerald)]">
                     Bab {p.babNomor} · Pasal {p.nomor}
                   </div>
-                  <p className="text-xs text-white/90 leading-relaxed">{p.ringkas_id}</p>
+                  <p className="text-xs text-[var(--text)] leading-relaxed">{p.ringkas_id}</p>
                 </div>
               ))}
             </div>

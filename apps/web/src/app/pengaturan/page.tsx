@@ -116,7 +116,7 @@ export default function PengaturanPage() {
           </Link>
           <Link
             href="/daftar"
-            className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-2 text-xs font-semibold text-[var(--muted)] hover:text-white transition"
+            className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-2 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] transition"
           >
             Daftar Baru
           </Link>
@@ -129,7 +129,7 @@ export default function PengaturanPage() {
     <div className="mx-auto max-w-3xl px-4 py-12">
       <div className="flex flex-wrap items-baseline justify-between gap-4 border-b border-[var(--line)] pb-6">
         <div>
-          <span className="text-xs uppercase tracking-widest text-red-500 font-semibold">
+          <span className="text-xs uppercase tracking-widest text-[var(--acc-red)] font-semibold">
             Akun Kontributor
           </span>
           <h1 className="mt-1 text-3xl font-bold">Pengaturan Profil & Sesi</h1>
@@ -138,7 +138,7 @@ export default function PengaturanPage() {
           </p>
         </div>
         <div className="flex items-center gap-2">
-          <span className="rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-3 py-1 text-xs font-semibold">
+          <span className="rounded-full bg-emerald-500/20 text-[var(--acc-emerald)] border border-emerald-500/30 px-3 py-1 text-xs font-semibold">
             {profile.role}
           </span>
         </div>
@@ -148,14 +148,14 @@ export default function PengaturanPage() {
         {/* Formulir Profil */}
         <section className="rounded-2xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-6">
           <div>
-            <h2 className="text-base font-bold text-white/95">Data Profil & Afiliasi Publik</h2>
+            <h2 className="text-base font-bold text-[var(--text)]">Data Profil & Afiliasi Publik</h2>
             <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
               Informasi ini akan terisi otomatis saat Anda mengajukan usulan tinjauan sejawat (Peer Review).
             </p>
           </div>
 
           {saveMessage && (
-            <div className="rounded-lg border border-emerald-500/30 bg-emerald-500/10 p-3 text-xs text-emerald-400">
+            <div className="rounded-lg border border-emerald-500/30 bg-emerald-500/10 p-3 text-xs text-[var(--acc-emerald)]">
               {saveMessage}
             </div>
           )}
@@ -243,7 +243,7 @@ export default function PengaturanPage() {
         {/* Manajemen Sesi Persisten */}
         <section className="rounded-2xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-4">
           <div>
-            <h2 className="text-base font-bold text-white/95">Status Sesi Persisten</h2>
+            <h2 className="text-base font-bold text-[var(--text)]">Status Sesi Persisten</h2>
             <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
               Akun Anda menggunakan sistem sesi persisten jangka panjang (1 tahun). Sesi tidak akan
               kedaluwarsa atau keluar secara otomatis saat Anda menutup peramban atau mematikan perangkat.
@@ -252,7 +252,7 @@ export default function PengaturanPage() {
 
           <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/8 p-4 flex items-center justify-between text-xs">
             <div className="space-y-1">
-              <div className="font-bold text-emerald-300 flex items-center gap-1.5">
+              <div className="font-bold text-[var(--acc-emerald-strong)] flex items-center gap-1.5">
                 <span className="size-2 rounded-full bg-emerald-400 animate-pulse" />
                 Sesi Aktif (Persisten)
               </div>
@@ -273,7 +273,7 @@ export default function PengaturanPage() {
             <button
               type="button"
               onClick={handleLogout}
-              className="rounded-lg border border-red-500/40 bg-red-500/10 px-4 py-2 text-xs font-semibold text-red-400 hover:bg-red-500 hover:text-white transition"
+              className="rounded-lg border border-red-500/40 bg-red-500/10 px-4 py-2 text-xs font-semibold text-[var(--acc-red)] hover:bg-red-500 hover:text-white transition"
             >
               🚪 Keluar dari Akun (Logout)
             </button>

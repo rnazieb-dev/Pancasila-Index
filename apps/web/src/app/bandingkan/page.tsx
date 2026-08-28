@@ -4,8 +4,18 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { dataset } from "@pancasila-index/data";
 import { MultiRadarChart, type RadarSeries } from "@/components/multi-radar-chart";
-import { indexLabel, periodLabel, scoreColor, scoreQualLabel } from "@/lib/view";
+import { indexLabel, periodLabel, scoreColor,
+  scoreTextColor, scoreQualLabel } from "@/lib/view";
 import { ScaleLegend } from "@/components/scale-legend";
+
+/** Warna seri untuk peran TEKS; berbalik per tema. Indeks sejajar PRESET_COLORS. */
+const SERIES_TEXT_COLORS = [
+  "var(--series-1)",
+  "var(--series-2)",
+  "var(--series-3)",
+  "var(--series-4)",
+  "var(--series-5)",
+];
 
 const PRESET_COLORS = [
   "#38bdf8", // sky
@@ -143,7 +153,7 @@ export default function BandingkanPage() {
           <button
             onClick={() => setMode("sila")}
             className={`rounded-md px-3 py-1.5 transition ${
-              mode === "sila" ? "bg-red-500 text-white" : "text-[var(--muted)] hover:text-white"
+              mode === "sila" ? "bg-red-600 text-white" : "text-[var(--muted)] hover:text-[var(--text)]"
             }`}
           >
             5 Sila Pancasila
@@ -151,7 +161,7 @@ export default function BandingkanPage() {
           <button
             onClick={() => setMode("all")}
             className={`rounded-md px-3 py-1.5 transition ${
-              mode === "all" ? "bg-red-500 text-white" : "text-[var(--muted)] hover:text-white"
+              mode === "all" ? "bg-red-600 text-white" : "text-[var(--muted)] hover:text-[var(--text)]"
             }`}
           >
             15 Dimensi Lengkap
@@ -162,11 +172,11 @@ export default function BandingkanPage() {
       {/* Peringatan Komparasi Asimetris */}
       {asymmetryWarning && (
         <div className="mt-5 rounded-xl border border-amber-500/40 bg-amber-500/10 px-4 py-3 flex items-start gap-3">
-          <span className="text-amber-400 text-lg mt-0.5">⚠️</span>
+          <span className="text-[var(--acc-amber)] text-lg mt-0.5">⚠️</span>
           <div className="text-xs leading-relaxed">
-            <strong className="text-amber-300">Komparasi Asimetris</strong>
+            <strong className="text-[var(--acc-amber-strong)]">Komparasi Asimetris</strong>
             {" — "}
-            <span className="text-amber-200/80">
+            <span className="text-[var(--acc-amber-strong)]">
               Rentang cakupan dimensi antar-organ yang dipilih cukup besar (antara{" "}
               {asymmetryWarning.min}% dan {asymmetryWarning.max}%). Organ/periode dengan cakupan lebih
               rendah mungkin belum memiliki data yang cukup untuk dibandingkan secara setara.
@@ -184,7 +194,7 @@ export default function BandingkanPage() {
       {/* Selector Term / Periode */}
       <section className="mt-8 rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5">
         <div className="flex items-center justify-between">
-          <h2 className="text-sm font-semibold text-white/90">
+          <h2 className="text-sm font-semibold text-[var(--text)]">
             Pilih Periode/Organ untuk Dibandingkan (Maksimal 5):
           </h2>
           <span className="text-xs text-[var(--muted)]">
@@ -206,7 +216,7 @@ export default function BandingkanPage() {
                 className={`rounded-lg border px-3 py-1.5 text-xs transition flex items-center gap-2 ${
                   isSelected
                     ? "border-transparent bg-slate-800 text-white shadow"
-                    : "border-[var(--line)] bg-[var(--bg)] text-[var(--muted)] hover:border-slate-500 hover:text-white"
+                    : "border-[var(--line)] bg-[var(--bg)] text-[var(--muted)] hover:border-slate-500 hover:text-[var(--text)]"
                 }`}
                 style={isSelected ? { outline: `2px solid ${color}` } : undefined}
               >
@@ -233,7 +243,7 @@ export default function BandingkanPage() {
         </div>
 
         <div className="space-y-4">
-          <h3 className="text-base font-bold text-white/95">Ringkasan Komparasi</h3>
+          <h3 className="text-base font-bold text-[var(--text)]">Ringkasan Komparasi</h3>
           <p className="text-xs text-[var(--muted)] leading-relaxed">
             Grafik radar di samping memetakan skor (-2 s.d. +2) secara simultan. Pusat poligon
             menunjukkan pelanggaran norma (-2), garis putus-putus tengah menandai posisi netral (0),
@@ -267,7 +277,7 @@ export default function BandingkanPage() {
                     <span className="text-[11px] text-[var(--muted)]">Indeks Draf:</span>
                     <strong
                       className="text-lg font-bold"
-                      style={{ color: scoreColor(avgScore ?? 0) }}
+                      style={{ color: scoreTextColor(avgScore ?? 0) }}
                     >
                       {indexLabel(index)}/100
                     </strong>
@@ -289,7 +299,7 @@ export default function BandingkanPage() {
                 <th className="px-4 py-3 min-w-[200px]">Dimensi</th>
                 {selectedTermIds.map((termId, idx) => {
                   const term = termsById.get(termId);
-                  const color = PRESET_COLORS[idx % PRESET_COLORS.length];
+                  const color = SERIES_TEXT_COLORS[idx % SERIES_TEXT_COLORS.length];
                   return (
                     <th
                       key={termId}
@@ -307,7 +317,7 @@ export default function BandingkanPage() {
                 return (
                   <tr key={dim.id} className="hover:bg-slate-800/40 transition">
                     <td className="px-4 py-3.5">
-                      <div className="font-semibold text-white/90">{dim.name_id}</div>
+                      <div className="font-semibold text-[var(--text)]">{dim.name_id}</div>
                       <div className="text-xs text-[var(--muted)] line-clamp-1">{dim.question_id}</div>
                     </td>
                     {selectedTermIds.map((termId) => {
@@ -330,7 +340,7 @@ export default function BandingkanPage() {
                               className="rounded px-2 py-0.5 text-xs font-bold tabular-nums"
                               style={{
                                 background: `${scoreColor(val)}22`,
-                                color: scoreColor(val),
+                                color: scoreTextColor(val),
                               }}
                             >
                               {val > 0 ? `+${val.toFixed(1)}` : val.toFixed(1)}

@@ -74,13 +74,13 @@ export default function UserDraftsPage() {
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-12">
-      <Link href="/peer-review" className="text-xs text-[var(--muted)] hover:text-white">
+      <Link href="/peer-review" className="text-xs text-[var(--muted)] hover:text-[var(--text)]">
         ← Kembali ke Portal Peer Review
       </Link>
 
       <div className="mt-4 flex flex-wrap items-baseline justify-between gap-4 border-b border-[var(--line)] pb-6">
         <div>
-          <span className="text-xs uppercase tracking-widest text-amber-500 font-semibold">
+          <span className="text-xs uppercase tracking-widest text-[var(--acc-amber)] font-semibold">
             Penyimpanan Lokal Pengguna
           </span>
           <h1 className="mt-1 text-3xl font-bold">Draf Usulan Saya (User Drafts)</h1>
@@ -98,12 +98,12 @@ export default function UserDraftsPage() {
           {drafts.length > 0 && (
             <button
               onClick={handleExportJson}
-              className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3 py-2 text-xs font-semibold text-[var(--muted)] hover:text-white hover:border-slate-500 transition"
+              className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3 py-2 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500 transition"
             >
               📥 Cadangkan JSON
             </button>
           )}
-          <label className="cursor-pointer rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3 py-2 text-xs font-semibold text-[var(--muted)] hover:text-white hover:border-slate-500 transition">
+          <label className="cursor-pointer rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3 py-2 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500 transition">
             📤 Impor JSON
             <input
               type="file"
@@ -119,7 +119,7 @@ export default function UserDraftsPage() {
       {drafts.length === 0 ? (
         <div className="mt-12 rounded-2xl border border-dashed border-[var(--line)] p-12 text-center">
           <div className="text-4xl mb-3">📝</div>
-          <h2 className="text-lg font-bold text-white/90">Belum Ada Draf Tersimpan</h2>
+          <h2 className="text-lg font-bold text-[var(--text)]">Belum Ada Draf Tersimpan</h2>
           <p className="mt-2 text-xs text-[var(--muted)] max-w-md mx-auto leading-relaxed">
             Saat Anda mengisi formulir usulan bukti atau koreksi penilaian di portal Peer Review, Anda dapat menyimpannya sewaktu-waktu tanpa khawatir kehilangan data.
           </p>
@@ -172,7 +172,7 @@ export default function UserDraftsPage() {
                   <div className="flex flex-wrap items-start justify-between gap-2">
                     <div className="space-y-1">
                       <div className="flex flex-wrap items-center gap-2 text-[11px]">
-                        <span className="rounded bg-amber-500/20 text-amber-400 font-bold px-2 py-0.5">
+                        <span className="rounded bg-amber-500/20 text-[var(--acc-amber)] font-bold px-2 py-0.5">
                           DRAF LOKAL
                         </span>
                         {inst && (
@@ -186,13 +186,13 @@ export default function UserDraftsPage() {
                           </span>
                         )}
                       </div>
-                      <h3 className="font-bold text-base text-white/95 mt-1">
+                      <h3 className="font-bold text-base text-[var(--text)] mt-1">
                         {d.source_title || d.title}
                       </h3>
                     </div>
 
                     <div className="text-right">
-                      <span className="text-xs font-bold text-amber-400">
+                      <span className="text-xs font-bold text-[var(--acc-amber)]">
                         {pct}% Lengkap
                       </span>
                       <div className="text-[10px] text-[var(--muted)]">
@@ -219,7 +219,7 @@ export default function UserDraftsPage() {
                       </Link>
                       <button
                         onClick={() => handleDuplicate(d.id)}
-                        className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-1.5 text-xs font-medium text-[var(--muted)] hover:text-white hover:border-slate-500 transition"
+                        className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-1.5 text-xs font-medium text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500 transition"
                       >
                         📋 Duplikasi
                       </button>
@@ -229,7 +229,7 @@ export default function UserDraftsPage() {
                           setCopiedId(d.id);
                           setTimeout(() => setCopiedId(null), 2000);
                         }}
-                        className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-1.5 text-xs font-medium text-[var(--muted)] hover:text-white hover:border-slate-500 transition"
+                        className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-1.5 text-xs font-medium text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500 transition"
                       >
                         {copiedId === d.id ? "✓ Tersalin" : "Salin JSON"}
                       </button>
@@ -237,7 +237,7 @@ export default function UserDraftsPage() {
 
                     <button
                       onClick={() => handleDelete(d.id, d.source_title || d.title)}
-                      className="text-xs text-red-400/80 hover:text-red-300 transition"
+                      className="text-xs text-[var(--acc-red)] hover:text-[var(--acc-red-strong)] transition"
                     >
                       🗑️ Hapus Draf
                     </button>

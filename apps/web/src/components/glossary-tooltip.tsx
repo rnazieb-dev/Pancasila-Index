@@ -17,7 +17,7 @@ export function GlossaryTooltip({ term, children }: GlossaryTooltipProps) {
 
   return (
     <span className="relative group inline">
-      <span className="underline decoration-dotted decoration-sky-400/70 cursor-help text-sky-300">
+      <span className="underline decoration-dotted decoration-sky-400/70 cursor-help text-[var(--acc-sky-strong)]">
         {children}
       </span>
       <span
@@ -27,7 +27,7 @@ export function GlossaryTooltip({ term, children }: GlossaryTooltipProps) {
           shadow-xl opacity-0 group-hover:opacity-100 group-focus:opacity-100
           transition-opacity duration-150"
       >
-        <span className="block text-[10px] font-bold uppercase tracking-wider text-sky-400 mb-1">
+        <span className="block text-[10px] font-bold uppercase tracking-wider text-[var(--acc-sky)] mb-1">
           {term}
         </span>
         {definition}

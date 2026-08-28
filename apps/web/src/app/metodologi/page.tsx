@@ -90,14 +90,14 @@ export default function MetodologiPage() {
             Mengintegrasikan 8 indeks independen pihak ketiga yang berbasis data keras guna membongkar bias birokrasi:
           </p>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-[var(--muted)]">
-            <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✔</span> <span>WJP Rule of Law Index</span></li>
-            <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✔</span> <span>Corruption Perceptions Index</span></li>
-            <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✔</span> <span>Index of Public Integrity (IPI)</span></li>
-            <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✔</span> <span>V-Dem Democracy Index</span></li>
-            <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✔</span> <span>Open Budget Index (OBI)</span></li>
-            <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✔</span> <span>OECD Public Integrity</span></li>
-            <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✔</span> <span>RSF World Press Freedom Index</span></li>
-            <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✔</span> <span>Indeks Supremasi Sipil & Integritas</span></li>
+            <li className="flex items-start gap-2"><span className="text-[var(--acc-emerald)] mt-0.5">✔</span> <span>WJP Rule of Law Index</span></li>
+            <li className="flex items-start gap-2"><span className="text-[var(--acc-emerald)] mt-0.5">✔</span> <span>Corruption Perceptions Index</span></li>
+            <li className="flex items-start gap-2"><span className="text-[var(--acc-emerald)] mt-0.5">✔</span> <span>Index of Public Integrity (IPI)</span></li>
+            <li className="flex items-start gap-2"><span className="text-[var(--acc-emerald)] mt-0.5">✔</span> <span>V-Dem Democracy Index</span></li>
+            <li className="flex items-start gap-2"><span className="text-[var(--acc-emerald)] mt-0.5">✔</span> <span>Open Budget Index (OBI)</span></li>
+            <li className="flex items-start gap-2"><span className="text-[var(--acc-emerald)] mt-0.5">✔</span> <span>OECD Public Integrity</span></li>
+            <li className="flex items-start gap-2"><span className="text-[var(--acc-emerald)] mt-0.5">✔</span> <span>RSF World Press Freedom Index</span></li>
+            <li className="flex items-start gap-2"><span className="text-[var(--acc-emerald)] mt-0.5">✔</span> <span>Indeks Supremasi Sipil & Integritas</span></li>
           </ul>
         </div>
       </div>
@@ -118,7 +118,7 @@ export default function MetodologiPage() {
             <div key={s.v} className="flex flex-col sm:flex-row gap-3 sm:gap-5 p-4 rounded-xl border border-[var(--line)] bg-[var(--panel)]">
               <div
                 className="font-mono text-xl font-bold sm:w-12 shrink-0 flex items-center justify-center sm:justify-start"
-                style={{ color: s.v.startsWith("-") ? "#fb923c" : s.v === "0" ? "#94a3b8" : "#22c55e" }}
+                style={{ color: s.v.startsWith("-") ? "var(--score-neg)" : s.v === "0" ? "var(--score-zero)" : "var(--score-vpos)" }}
               >
                 {s.v}
               </div>
@@ -141,7 +141,7 @@ export default function MetodologiPage() {
         <div className="grid gap-3 sm:grid-cols-2">
           {dataset.rubric.dimensions.map((d) => (
             <div key={d.id} className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-3 shadow-sm">
-              <div className="text-[10px] uppercase tracking-wider text-red-500/80 font-bold mb-1.5">{groupName(d.group_id)}</div>
+              <div className="text-[10px] uppercase tracking-wider text-[var(--acc-red)] font-bold mb-1.5">{groupName(d.group_id)}</div>
               <div className="text-sm font-semibold text-[var(--text)]">{d.name_id}</div>
               <div className="text-xs text-[var(--muted)] mt-1.5 leading-relaxed">{d.question_id.trim()}</div>
             </div>
