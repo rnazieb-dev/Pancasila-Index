@@ -241,171 +241,227 @@ export default async function TermPage({
         </div>
       </section>
 
-      {/* Rincian dimensi + bukti */}
-      <section className="mt-12">
-        <h2 className="text-lg font-semibold">Rincian dimensi & bukti</h2>
-        <div className="mt-4 space-y-3">
-          {dataset.rubric.dimensions.map((dim) => {
-            const entries = assessments.flatMap((a) =>
-              a.dimension_scores
-                .filter((ds) => ds.dimension_id === dim.id)
-                .map((ds) => ({ assessmentId: a.id, ds }))
-            );
-            if (entries.length === 0) return null;
-            const avg = entries.reduce((acc, e) => acc + e.ds.score, 0) / entries.length;
-            const conf = entries.reduce((acc, e) => acc + e.ds.confidence, 0) / entries.length;
-            const totalEvidence = new Set(entries.flatMap((e) => (e.ds.evidence || []).map((ev) => ev.source_id))).size;
-            const totalEvents = new Set(entries.flatMap((e) => e.ds.event_ids || [])).size;
+      {/* Rincian dimensi + bukti terbagi per 3 Pilar Konstitusional */}
+      <section className="mt-14 space-y-10">
+        <div>
+          <h2 className="text-2xl font-extrabold">Rincian Matriks 3 Pilar Konstitusional</h2>
+          <p className="text-xs text-[var(--muted)] mt-1 max-w-2xl leading-relaxed">
+            Penilaian dipecah secara transparan ke dalam 3 landasan konstitusional: Lima Sila Pancasila, Pembukaan UUD 1945 alinea IV (Tujuan Bernegara), dan Norma Struktural UUD 1945.
+          </p>
+        </div>
 
-            // Rentang skor antarpenilai: ditampilkan agar rerata tidak
-            // menyembunyikan ketidaksetujuan, sesuai janji di /metodologi.
-            const skorMin = Math.min(...entries.map((e) => e.ds.score));
-            const skorMax = Math.max(...entries.map((e) => e.ds.score));
-            const adaSelisih = entries.length > 1 && skorMin !== skorMax;
-            return (
-              <details
-                key={dim.id}
-                className="group rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3.5 hover:border-slate-400 transition"
-              >
-                <summary className="flex flex-wrap items-center gap-3 cursor-pointer list-none">
-                  <span
-                    className="rounded-md px-2 py-0.5 text-xs font-bold w-11 text-center tabular-nums"
-                    title={`skala rubrik: ${avg > 0 ? "+" : ""}${avg.toFixed(1)} dari -2..+2`}
-                    style={{ background: `${scoreColor(avg)}22`, color: scoreTextColor(avg) }}
-                  >
-                    {Math.round(((avg + 2) / 4) * 100)}
-                  </span>
-                  <span className="font-bold grow text-sm sm:text-base">{dim.name_id}</span>
-                  <div className="flex items-center gap-2">
-                    {totalEvidence > 0 && (
-                      <span className="rounded-full bg-[var(--bg)] border border-[var(--line)] px-2 py-0.5 text-[10px] sm:text-[11px] text-[var(--acc-sky)] font-medium">
-                        📄 {totalEvidence} bukti
-                      </span>
-                    )}
-                    {totalEvents > 0 && (
-                      <span className="hidden sm:inline-block rounded-full bg-[var(--bg)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-[var(--muted)]">
-                        ⚡ {totalEvents} peristiwa
-                      </span>
-                    )}
-                    <span className="text-xs text-[var(--muted)] font-mono">
-                      keyakinan {Math.round(conf * 100)}%
-                    </span>
-                    <span className="text-xs text-[var(--muted)] group-open:rotate-180 transition-transform duration-200">
-                      ▼
-                    </span>
+        {[
+          {
+            id: "sila",
+            title: "Pilar I: Falsafah Dasar — Lima Sila Pancasila",
+            badge: "🦅 Nilai Ideologis & Falsafah",
+            description: "Menilai kesetiaan terhadap Ketuhanan Yang Maha Esa, Kemanusiaan yang Adil & Beradab, Persatuan Indonesia, Permusyawaratan/Perwakilan, dan Keadilan Sosial.",
+          },
+          {
+            id: "tujuan",
+            title: "Pilar II: Visi Kebangsaan — Pembukaan UUD 1945 Alinea IV",
+            badge: "🏛️ Mandat Konstitusi (Tujuan Bernegara)",
+            description: "Menilai kepatuhan terhadap 4 amanat luhur: Melindungi Segenap Bangsa, Memajukan Kesejahteraan Umum, Mencerdaskan Kehidupan Bangsa, dan Ketertiban Dunia.",
+          },
+          {
+            id: "struktural",
+            title: "Pilar III: Tata Kelola Kekuasaan — Norma Struktural UUD 1945",
+            badge: "⚖️ Struktur & Relasi Kekuasaan",
+            description: "Menilai kepatuhan atas prinsip Negara Hukum (Pasal 1(3)), Kedaulatan Rakyat (Pasal 1(2)), dan Mekanisme Saling Mengawasi (Checks and Balances).",
+          },
+        ].map((pillar) => {
+          const pDims = dataset.rubric.dimensions.filter((d) => d.group_id === pillar.id);
+          const gSummary = (summary?.groups ?? []).find((g) => g.group_id === pillar.id);
+          const gScore = gSummary?.score ?? 0;
+          const gCover = gSummary?.coverage ?? 0;
+
+          return (
+            <div
+              key={pillar.id}
+              className="rounded-2xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-6 space-y-4"
+            >
+              {/* Header Pilar */}
+              <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[var(--line)] pb-4">
+                <div>
+                  <div className="inline-block rounded-full bg-[var(--bg)] border border-[var(--line)] px-2.5 py-0.5 text-[10px] uppercase font-bold text-[var(--acc-red)] tracking-wider">
+                    {pillar.badge}
                   </div>
-                  {adaSelisih && (
-                    <span
-                      className="rounded-full bg-amber-500/15 px-2 py-0.5 text-[10px] font-semibold text-[var(--acc-amber)]"
-                      title={`${entries.length} penilai berselisih: ${skorMin} s.d. ${skorMax}`}
-                    >
-                      penilai berselisih {skorMin > 0 ? "+" : ""}{skorMin} … {skorMax > 0 ? "+" : ""}{skorMax}
-                    </span>
-                  )}
-                </summary>
-                <div className="mt-3.5 space-y-3 border-t border-[var(--line)] pt-3.5">
-                  <p className="text-sm italic text-[var(--muted)]">{dim.question_id.trim()}</p>
+                  <h3 className="mt-2 text-lg sm:text-xl font-bold">{pillar.title}</h3>
+                  <p className="mt-1 text-xs text-[var(--muted)] max-w-xl">{pillar.description}</p>
+                </div>
+                <div className="text-right sm:text-right">
+                  <div className="text-xs text-[var(--muted)] uppercase font-semibold">Skor Sub-Pilar</div>
+                  <div
+                    className="text-2xl font-extrabold tabular-nums"
+                    style={{ color: gCover > 0 ? scoreTextColor(gScore) : "var(--score-zero)" }}
+                  >
+                    {gCover > 0 ? `${Math.round(((gScore + 2) / 4) * 100)}/100` : "Belum dinilai"}
+                  </div>
+                  <div className="text-[10px] text-[var(--muted)]">cakupan {Math.round(gCover * 100)}%</div>
+                </div>
+              </div>
 
-                  {/* SETIAP penilai ditampilkan, bukan hanya yang pertama.
-                      Sebelumnya skor dirata-ratakan tetapi rasional dan bukti
-                      diambil dari entries[0] saja, sehingga penilai kedua
-                      hilang sepenuhnya - bertentangan dengan janji di halaman
-                      Metodologi bahwa ketidaksetujuan ditampilkan publik. */}
-                  {entries.map((e, idx) => (
-                    <div
-                      key={`${e.assessmentId}-${idx}`}
-                      className={
-                        entries.length > 1
-                          ? "rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 space-y-2"
-                          : "space-y-2"
-                      }
+              {/* Daftar Dimensi dalam Pilar ini */}
+              <div className="space-y-3 pt-2">
+                {pDims.map((dim) => {
+                  const entries = assessments.flatMap((a) =>
+                    a.dimension_scores
+                      .filter((ds) => ds.dimension_id === dim.id)
+                      .map((ds) => ({ assessmentId: a.id, ds }))
+                  );
+                  if (entries.length === 0) return null;
+                  const avg = entries.reduce((acc, e) => acc + e.ds.score, 0) / entries.length;
+                  const conf = entries.reduce((acc, e) => acc + e.ds.confidence, 0) / entries.length;
+                  const totalEvidence = new Set(entries.flatMap((e) => (e.ds.evidence || []).map((ev) => ev.source_id))).size;
+                  const totalEvents = new Set(entries.flatMap((e) => e.ds.event_ids || [])).size;
+
+                  const skorMin = Math.min(...entries.map((e) => e.ds.score));
+                  const skorMax = Math.max(...entries.map((e) => e.ds.score));
+                  const adaSelisih = entries.length > 1 && skorMin !== skorMax;
+
+                  return (
+                    <details
+                      key={dim.id}
+                      className="group rounded-xl border border-[var(--line)] bg-[var(--bg)] px-4 py-3.5 hover:border-slate-400 transition"
                     >
-                      {entries.length > 1 && (
-                        <div className="flex flex-wrap items-center gap-2 text-[11px] text-[var(--muted)]">
-                          <span className="font-mono">{e.assessmentId}</span>
-                          <span className="tabular-nums">
-                            skor {e.ds.score > 0 ? "+" : ""}
-                            {e.ds.score} · keyakinan {Math.round(e.ds.confidence * 100)}%
+                      <summary className="flex flex-wrap items-center gap-3 cursor-pointer list-none">
+                        <span
+                          className="rounded-md px-2 py-0.5 text-xs font-bold w-11 text-center tabular-nums"
+                          title={`skala rubrik: ${avg > 0 ? "+" : ""}${avg.toFixed(1)} dari -2..+2`}
+                          style={{ background: `${scoreColor(avg)}22`, color: scoreTextColor(avg) }}
+                        >
+                          {Math.round(((avg + 2) / 4) * 100)}
+                        </span>
+                        <span className="font-bold grow text-sm sm:text-base">{dim.name_id}</span>
+                        <div className="flex items-center gap-2">
+                          {totalEvidence > 0 && (
+                            <span className="rounded-full bg-[var(--panel)] border border-[var(--line)] px-2 py-0.5 text-[10px] sm:text-[11px] text-[var(--acc-sky)] font-medium">
+                              📄 {totalEvidence} bukti
+                            </span>
+                          )}
+                          {totalEvents > 0 && (
+                            <span className="hidden sm:inline-block rounded-full bg-[var(--panel)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-[var(--muted)]">
+                              ⚡ {totalEvents} peristiwa
+                            </span>
+                          )}
+                          <span className="text-xs text-[var(--muted)] font-mono">
+                            keyakinan {Math.round(conf * 100)}%
+                          </span>
+                          <span className="text-xs text-[var(--muted)] group-open:rotate-180 transition-transform duration-200">
+                            ▼
                           </span>
                         </div>
-                      )}
-                      <p className="text-sm">{e.ds.rationale_id.trim()}</p>
-                      <div>
-                        <div className="text-xs uppercase tracking-wide text-[var(--muted)] mt-2">Bukti empiris</div>
-                        {e.ds.evidence_gap === true || e.ds.evidence.length === 0 ? (
-                          <p className="mt-1 text-xs text-[var(--acc-amber)]">
-                            Belum berbukti empiris — skor ini <strong>dikeluarkan</strong> dari indeks.
-                          </p>
-                        ) : (
-                          <ul className="mt-1.5 space-y-1">
-                            {e.ds.evidence.map((ev) => {
-                              const src = dataset.sources.find((s) => s.id === ev.source_id);
-                              const href = src?.resolved_url ?? src?.url;
-                              return (
-                                <li key={ev.source_id} className="text-xs leading-relaxed">
-                                  {href ? (
-                                    <>
-                                      📄{" "}
-                                      <a
-                                        href={href}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)] underline decoration-dotted underline-offset-2"
-                                      >
-                                        {src?.title_id ?? ev.source_id} ↗
-                                      </a>
-                                    </>
-                                  ) : (
-                                    <span className="text-[var(--muted)]">• {sourceTitle(ev.source_id)}</span>
-                                  )}
-                                  {ev.note_id ? <span className="text-[var(--muted)]"> — {ev.note_id}</span> : null}
-                                </li>
-                              );
-                            })}
-                          </ul>
+                        {adaSelisih && (
+                          <span
+                            className="rounded-full bg-amber-500/15 px-2 py-0.5 text-[10px] font-semibold text-[var(--acc-amber)]"
+                            title={`${entries.length} penilai berselisih: ${skorMin} s.d. ${skorMax}`}
+                          >
+                            penilai berselisih {skorMin > 0 ? "+" : ""}{skorMin} … {skorMax > 0 ? "+" : ""}{skorMax}
+                          </span>
                         )}
-                        {(e.ds.normative_anchors ?? []).length > 0 && (
-                          <div className="mt-2 text-[11px] leading-relaxed text-[var(--muted)]">
-                            Landasan normatif (bukan bukti faktual):{" "}
-                            {(e.ds.normative_anchors ?? []).map((na, i, arr) => {
-                              const src = dataset.sources.find((s) => s.id === na);
-                              return (
-                                <span key={na}>
-                                  {src ? (
-                                    <a
-                                      href={src.resolved_url ?? src.url}
-                                      target="_blank"
-                                      rel="noopener noreferrer"
-                                      className="underline decoration-dotted underline-offset-2 hover:text-[var(--text)]"
-                                    >
-                                      {(src.title_id || "").replace(/\s*\([^)]*\)\s*/g, " ").slice(0, 48).trim()} ↗
-                                    </a>
-                                  ) : (
-                                    na
-                                  )}
-                                  {i < arr.length - 1 ? " · " : ""}
+                      </summary>
+                      <div className="mt-3.5 space-y-3 border-t border-[var(--line)] pt-3.5">
+                        <p className="text-sm italic text-[var(--muted)]">{dim.question_id.trim()}</p>
+
+                        {entries.map((e, idx) => (
+                          <div
+                            key={`${e.assessmentId}-${idx}`}
+                            className={
+                              entries.length > 1
+                                ? "rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3 py-2.5 space-y-2"
+                                : "space-y-2"
+                            }
+                          >
+                            {entries.length > 1 && (
+                              <div className="flex flex-wrap items-center gap-2 text-[11px] text-[var(--muted)]">
+                                <span className="font-mono">{e.assessmentId}</span>
+                                <span className="tabular-nums">
+                                  skor {e.ds.score > 0 ? "+" : ""}
+                                  {e.ds.score} · keyakinan {Math.round(e.ds.confidence * 100)}%
                                 </span>
-                              );
-                            })}
+                              </div>
+                            )}
+                            <p className="text-sm">{e.ds.rationale_id.trim()}</p>
+                            <div>
+                              <div className="text-xs uppercase tracking-wide text-[var(--muted)] mt-2">Bukti empiris</div>
+                              {e.ds.evidence_gap === true || e.ds.evidence.length === 0 ? (
+                                <p className="mt-1 text-xs text-[var(--acc-amber)]">
+                                  Belum berbukti empiris — skor ini <strong>dikeluarkan</strong> dari indeks.
+                                </p>
+                              ) : (
+                                <ul className="mt-1.5 space-y-1">
+                                  {e.ds.evidence.map((ev) => {
+                                    const src = dataset.sources.find((s) => s.id === ev.source_id);
+                                    const href = src?.resolved_url ?? src?.url;
+                                    return (
+                                      <li key={ev.source_id} className="text-xs leading-relaxed">
+                                        {href ? (
+                                          <>
+                                            📄{" "}
+                                            <a
+                                              href={href}
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              className="text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)] underline decoration-dotted underline-offset-2"
+                                            >
+                                              {src?.title_id ?? ev.source_id} ↗
+                                            </a>
+                                          </>
+                                        ) : (
+                                          <span className="text-[var(--muted)]">• {sourceTitle(ev.source_id)}</span>
+                                        )}
+                                        {ev.note_id ? <span className="text-[var(--muted)]"> — {ev.note_id}</span> : null}
+                                      </li>
+                                    );
+                                  })}
+                                </ul>
+                              )}
+                              {(e.ds.normative_anchors ?? []).length > 0 && (
+                                <div className="mt-2 text-[11px] leading-relaxed text-[var(--muted)]">
+                                  Landasan normatif (bukan bukti faktual):{" "}
+                                  {(e.ds.normative_anchors ?? []).map((na, i, arr) => {
+                                    const src = dataset.sources.find((s) => s.id === na);
+                                    return (
+                                      <span key={na}>
+                                        {src ? (
+                                          <a
+                                            href={src.resolved_url ?? src.url}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="underline decoration-dotted underline-offset-2 hover:text-[var(--text)]"
+                                          >
+                                            {(src.title_id || "").replace(/\s*\([^)]*\)\s*/g, " ").slice(0, 48).trim()} ↗
+                                          </a>
+                                        ) : (
+                                          na
+                                        )}
+                                        {i < arr.length - 1 ? " · " : ""}
+                                      </span>
+                                    );
+                                  })}
+                                </div>
+                              )}
+                            </div>
+                            {e.ds.event_ids && e.ds.event_ids.length > 0 && (
+                              <div className="text-xs text-[var(--muted)]">
+                                Peristiwa terkait:{" "}
+                                {e.ds.event_ids
+                                  .map((id) => dataset.events.find((ev) => ev.id === id)?.title_id ?? id)
+                                  .join(" · ")}
+                              </div>
+                            )}
                           </div>
-                        )}
+                        ))}
                       </div>
-                      {e.ds.event_ids && e.ds.event_ids.length > 0 && (
-                        <div className="text-xs text-[var(--muted)]">
-                          Peristiwa terkait:{" "}
-                          {e.ds.event_ids
-                            .map((id) => dataset.events.find((ev) => ev.id === id)?.title_id ?? id)
-                            .join(" · ")}
-                        </div>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              </details>
-            );
-          })}
-        </div>
+                    </details>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
       </section>
+
 
       {/* Konteks Independen Global (Enrichment) */}
       <ExternalIndicesWidget
