@@ -100,7 +100,7 @@ export default async function TermPage({
               {a.actor_id ? (
                 <Link
                   href={`/aktor/${a.actor_id}`}
-                  className="text-sky-400 underline decoration-dotted underline-offset-2 hover:text-sky-300"
+                  className="text-[var(--acc-sky)] underline decoration-dotted underline-offset-2 hover:text-[var(--acc-sky-strong)]"
                 >
                   {a.name}
                 </Link>
@@ -313,7 +313,7 @@ export default async function TermPage({
                       <Link
                         key={aid}
                         href={`/aktor/${aid}`}
-                        className="rounded-full border border-amber-500/30 bg-amber-500/10 px-2 py-0.5 text-[11px] text-amber-200 hover:border-amber-400"
+                        className="rounded-full border border-amber-500/30 bg-amber-500/10 px-2 py-0.5 text-[11px] text-[var(--acc-amber-strong)] hover:border-amber-400"
                       >
                         {actorsById.get(aid)?.name ?? aid}
                       </Link>
@@ -375,13 +375,13 @@ export default async function TermPage({
                 >
                   <div className="flex flex-wrap items-baseline gap-x-3">
                     <span className="font-mono text-xs text-[var(--muted)]">{ev.date}</span>
-                    <span className="text-[11px] uppercase tracking-wide text-amber-400/80">
+                    <span className="text-[11px] uppercase tracking-wide text-[var(--acc-amber)]">
                       {ev.category}
                     </span>
                     {recordedIn && recordedInst && (
                       <Link
                         href={`/lembaga/${recordedInst.slug}/${recordedIn.id}`}
-                        className="text-[11px] text-sky-400 hover:text-sky-300"
+                        className="text-[11px] text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)]"
                       >
                         dicatat di {recordedIn.label_id} &rarr;
                       </Link>
@@ -391,7 +391,7 @@ export default async function TermPage({
                   <p className="mt-1 text-sm text-[var(--muted)]">{ev.summary_id}</p>
                   {ev.subject_basis_id && (
                     <p className="mt-2 rounded border border-[var(--line)] bg-[var(--bg)] px-2.5 py-2 text-[11px] leading-relaxed text-[var(--muted)]">
-                      <strong className="text-white/80">Dasar re-atribusi: </strong>
+                      <strong className="text-[var(--muted)]">Dasar re-atribusi: </strong>
                       {ev.subject_basis_id}
                     </p>
                   )}
@@ -404,7 +404,7 @@ export default async function TermPage({
                         <Link
                           key={aid}
                           href={`/aktor/${aid}`}
-                          className="rounded-full border border-amber-500/30 bg-amber-500/10 px-2 py-0.5 text-[11px] text-amber-200 hover:border-amber-400"
+                          className="rounded-full border border-amber-500/30 bg-amber-500/10 px-2 py-0.5 text-[11px] text-[var(--acc-amber-strong)] hover:border-amber-400"
                         >
                           {actorsById.get(aid)?.name ?? aid}
                         </Link>
@@ -422,7 +422,7 @@ export default async function TermPage({
                           target="_blank"
                           rel="noopener noreferrer"
                           title={src?.title_id ?? sid}
-                          className="max-w-xs truncate rounded border border-[var(--line)] bg-[var(--bg)] px-2 py-0.5 text-[11px] text-sky-400 hover:border-sky-700 hover:text-sky-300"
+                          className="max-w-xs truncate rounded border border-[var(--line)] bg-[var(--bg)] px-2 py-0.5 text-[11px] text-[var(--acc-sky)] hover:border-sky-700 hover:text-[var(--acc-sky-strong)]"
                         >
                           &#128196; {src?.title_id ?? sid} &uarr;
                         </a>

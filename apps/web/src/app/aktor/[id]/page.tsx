@@ -11,7 +11,7 @@ import {
   type LegalStatus,
 } from "@pancasila-index/data";
 
-import { indexLabel, periodLabel, scoreColor, termSummary } from "@/lib/view";
+import { indexLabel, periodLabel, scoreColor, scoreTextColor, termSummary } from "@/lib/view";
 
 export function generateStaticParams() {
   return dataset.actors.map((a) => ({ id: a.id }));
@@ -29,43 +29,43 @@ const STATUS_VIEW: Record<
   terlapor: {
     label: "Terlapor",
     note: "Baru dilaporkan. Belum ada penetapan penyidik, apalagi putusan.",
-    color: "#94a3b8",
+    color: "var(--status-terlapor)",
     bg: "#94a3b81f",
   },
   tersangka: {
     label: "Tersangka",
     note: "Ditetapkan penyidik, BELUM diadili. Belum boleh dibaca sebagai bersalah.",
-    color: "#fbbf24",
+    color: "var(--status-tersangka)",
     bg: "#fbbf241f",
   },
   terdakwa: {
     label: "Terdakwa",
     note: "Sedang diadili. Belum ada putusan.",
-    color: "#fb923c",
+    color: "var(--status-terdakwa)",
     bg: "#fb923c1f",
   },
   terpidana: {
     label: "Terpidana",
     note: "Sudah divonis, belum berkekuatan hukum tetap (masih ada upaya hukum).",
-    color: "#f87171",
+    color: "var(--status-terpidana)",
     bg: "#f871711f",
   },
   inkracht: {
     label: "Inkracht",
     note: "Vonis sudah berkekuatan hukum tetap.",
-    color: "#ef4444",
+    color: "var(--status-inkracht)",
     bg: "#ef44441f",
   },
   bebas: {
     label: "Diputus bebas",
     note: "Diputus bebas atau lepas dari segala tuntutan hukum.",
-    color: "#22c55e",
+    color: "var(--status-bebas)",
     bg: "#22c55e1f",
   },
   dihentikan: {
     label: "Penuntutan dihentikan",
     note: "Perkara dihentikan (SP3/SKP2/deponering) - tidak pernah dibuktikan di pengadilan.",
-    color: "#38bdf8",
+    color: "var(--status-dihentikan)",
     bg: "#38bdf81f",
   },
 };
@@ -93,7 +93,7 @@ function CaseCard({ c }: { c: ActorCase }) {
         )}
       </div>
 
-      <div className="mt-2 font-semibold text-white/95">{c.title_id}</div>
+      <div className="mt-2 font-semibold text-[var(--text)]">{c.title_id}</div>
       <p className="mt-1 text-sm text-[var(--muted)] leading-relaxed">{c.summary_id}</p>
 
       <p className="mt-2 text-[11px] italic" style={{ color: view.color }}>
@@ -104,13 +104,13 @@ function CaseCard({ c }: { c: ActorCase }) {
         <div className="mt-3 flex flex-wrap gap-x-6 gap-y-1 text-xs">
           {c.sentence_id && (
             <span className="text-[var(--muted)]">
-              Pidana: <strong className="text-white/90">{c.sentence_id}</strong>
+              Pidana: <strong className="text-[var(--text)]">{c.sentence_id}</strong>
             </span>
           )}
           {c.loss_idr !== undefined && (
             <span className="text-[var(--muted)]">
               Kerugian negara (audit resmi):{" "}
-              <strong className="text-white/90">{rupiah(c.loss_idr)}</strong>
+              <strong className="text-[var(--text)]">{rupiah(c.loss_idr)}</strong>
             </span>
           )}
         </div>
@@ -127,7 +127,7 @@ function CaseCard({ c }: { c: ActorCase }) {
               target="_blank"
               rel="noopener noreferrer"
               title={src?.title_id ?? sid}
-              className="max-w-xs truncate rounded border border-[var(--line)] bg-[var(--bg)] px-2 py-0.5 text-[11px] text-sky-400 hover:border-sky-700 hover:text-sky-300"
+              className="max-w-xs truncate rounded border border-[var(--line)] bg-[var(--bg)] px-2 py-0.5 text-[11px] text-[var(--acc-sky)] hover:border-sky-700 hover:text-[var(--acc-sky-strong)]"
             >
               📄 {src?.title_id ?? sid} ↗
             </a>
@@ -163,7 +163,7 @@ export default async function AktorProfilPage({
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-12">
-      <Link href="/aktor" className="text-sm text-[var(--muted)] hover:text-white">
+      <Link href="/aktor" className="text-sm text-[var(--muted)] hover:text-[var(--text)]">
         ← Direktori tokoh
       </Link>
 
@@ -188,7 +188,7 @@ export default async function AktorProfilPage({
                 className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-3"
               >
                 <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-                  <span className="font-medium text-white/95">{r.title_id}</span>
+                  <span className="font-medium text-[var(--text)]">{r.title_id}</span>
                   <span className="font-mono text-xs text-[var(--muted)]">
                     {r.start_date
                       ? periodLabel(r.start_date, r.end_date ?? null)
@@ -202,7 +202,7 @@ export default async function AktorProfilPage({
                       {" · "}
                       <Link
                         href={`/lembaga/${institutionsById.get(term.institution_id)?.slug}/${term.id}`}
-                        className="text-sky-400 hover:text-sky-300"
+                        className="text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)]"
                       >
                         {term.label_id} →
                       </Link>
@@ -258,14 +258,14 @@ export default async function AktorProfilPage({
                   className="flex items-center justify-between rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 transition hover:border-slate-500"
                 >
                   <div className="pr-3">
-                    <div className="text-sm font-medium text-white/95">{t.label_id}</div>
+                    <div className="text-sm font-medium text-[var(--text)]">{t.label_id}</div>
                     <div className="text-xs text-[var(--muted)]">
                       {periodLabel(t.start_date, t.end_date)} · {inst?.short_id}
                     </div>
                   </div>
                   <span
                     className="shrink-0 font-mono text-2xl font-bold tabular-nums"
-                    style={{ color: scoreColor((summary?.index ?? 50) / 25 - 2) }}
+                    style={{ color: scoreTextColor((summary?.index ?? 50) / 25 - 2) }}
                   >
                     {indexLabel(summary?.index ?? null)}
                   </span>
@@ -297,13 +297,13 @@ export default async function AktorProfilPage({
                 >
                   <div className="flex flex-wrap items-baseline gap-x-3">
                     <span className="font-mono text-xs text-[var(--muted)]">{ev.date}</span>
-                    <span className="text-[11px] uppercase tracking-wide text-red-400/80">
+                    <span className="text-[11px] uppercase tracking-wide text-[var(--acc-red)]">
                       {ev.category}
                     </span>
                     {recordedIn && recordedInst && (
                       <Link
                         href={`/lembaga/${recordedInst.slug}/${recordedIn.id}`}
-                        className="text-[11px] text-sky-400 hover:text-sky-300"
+                        className="text-[11px] text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)]"
                       >
                         dicatat di {recordedIn.label_id} →
                       </Link>
@@ -333,7 +333,7 @@ export default async function AktorProfilPage({
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="max-w-md truncate rounded border border-[var(--line)] bg-[var(--bg)] px-2 py-0.5 text-[11px] text-sky-400 hover:text-sky-300"
+                  className="max-w-md truncate rounded border border-[var(--line)] bg-[var(--bg)] px-2 py-0.5 text-[11px] text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)]"
                 >
                   📄 {src?.title_id ?? sid} ↗
                 </a>

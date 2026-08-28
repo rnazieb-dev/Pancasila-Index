@@ -55,6 +55,17 @@
   --series-4: #fbbf24;
   --series-5: #a855f7;
 
+  /* Status hukum aktor. Dipakai sebagai TEKS di atas tint hue yang sama,
+     jadi wajib berbalik per tema; urutan keparahan dibawa label, bukan
+     kecerahan warna. */
+  --status-terlapor: #94a3b8;
+  --status-tersangka: #fbbf24;
+  --status-terdakwa: #fb923c;
+  --status-terpidana: #fca5a5;
+  --status-inkracht: #f87171;
+  --status-bebas: #22c55e;
+  --status-dihentikan: #38bdf8;
+
   color-scheme: dark;
 }
 
@@ -92,6 +103,14 @@
   --series-3: #065f46;
   --series-4: #92400e;
   --series-5: #6b21a8;
+
+  --status-terlapor: #475569;
+  --status-tersangka: #92400e;
+  --status-terdakwa: #9a3412;
+  --status-terpidana: #b91c1c;
+  --status-inkracht: #7f1d1d;
+  --status-bebas: #166534;
+  --status-dihentikan: #075985;
 
   color-scheme: light;
 }

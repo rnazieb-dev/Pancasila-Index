@@ -56,7 +56,7 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
   const defaultBadge = {
     label: "Indeks Independen",
     bg: "bg-sky-500/10 border-sky-500/30",
-    text: "text-sky-400",
+    text: "text-[var(--acc-sky)]",
   };
 
   const verificationLabels: Record<
@@ -66,20 +66,20 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
     terverifikasi: {
       label: "Terverifikasi",
       bg: "bg-emerald-500/10 border-emerald-500/30",
-      text: "text-emerald-300",
+      text: "text-[var(--acc-emerald-strong)]",
       title: "Setiap titik data punya tautan sumber dan tanggal pengambilan.",
     },
     sebagian: {
       label: "Sebagian terverifikasi",
       bg: "bg-amber-500/10 border-amber-500/30",
-      text: "text-amber-300",
+      text: "text-[var(--acc-amber-strong)]",
       title:
         "Hanya sebagian titik data punya sumber yang bisa ditelusuri. Titik lainnya jangan dikutip.",
     },
     "belum-terverifikasi": {
       label: "Belum terverifikasi",
       bg: "bg-red-500/10 border-red-500/30",
-      text: "text-red-300",
+      text: "text-[var(--acc-red-strong)]",
       title:
         "Belum ada titik data yang bisa ditelusuri ke penerbitnya. Angka di kartu ini tidak boleh dikutip sebagai fakta.",
     },
@@ -89,22 +89,22 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
     "hard-data": {
       label: "Hard Data (Bebas Survei ASN)",
       bg: "bg-emerald-500/10 border-emerald-500/30",
-      text: "text-emerald-400",
+      text: "text-[var(--acc-emerald)]",
     },
     "expert-coded": {
       label: "Double-Blind Expert Coded",
       bg: "bg-sky-500/10 border-sky-500/30",
-      text: "text-sky-400",
+      text: "text-[var(--acc-sky)]",
     },
     "civil-society": {
       label: "Survei Masyarakat Sipil & Advokat",
       bg: "bg-purple-500/10 border-purple-500/30",
-      text: "text-purple-400",
+      text: "text-[var(--acc-purple)]",
     },
     "official-self-assessment": {
       label: "Laporan Internal Formal",
       bg: "bg-amber-500/10 border-amber-500/30",
-      text: "text-amber-400",
+      text: "text-[var(--acc-amber)]",
     },
   };
 
@@ -115,11 +115,11 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
         <div>
           <div className="flex items-center gap-2">
             <span className="text-base">🌐</span>
-            <span className="text-xs uppercase tracking-wider text-sky-400 font-bold">
+            <span className="text-xs uppercase tracking-wider text-[var(--acc-sky)] font-bold">
               Konteks Independen Global (Enrichment)
             </span>
           </div>
-          <h2 className="text-xl font-bold text-white/95 mt-1">
+          <h2 className="text-xl font-bold text-[var(--text)] mt-1">
             Indikator Integritas & Tata Kelola Independen ({startYear}–{term.end_date ? endYear : "Kini"})
           </h2>
           <p className="mt-1 text-xs text-[var(--muted)] leading-relaxed max-w-2xl">
@@ -130,22 +130,22 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
         </div>
 
         <div className="space-y-2">
-          <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 px-3.5 py-2 text-[11px] text-amber-200">
-            <div className="font-bold flex items-center gap-1.5 text-amber-300">
+          <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 px-3.5 py-2 text-[11px] text-[var(--acc-amber-strong)]">
+            <div className="font-bold flex items-center gap-1.5 text-[var(--acc-amber-strong)]">
               <span>⚖️</span>
               <span>Metrik Kesenjangan Fakta vs Klaim</span>
             </div>
-            <p className="mt-0.5 text-amber-200/80">
+            <p className="mt-0.5 text-[var(--acc-amber-strong)]">
               Bandingkan skor independen ini dengan fakta hukum di peristiwa era ini.
             </p>
           </div>
 
           {totalUnverified > 0 && (
-            <div className="rounded-xl border border-red-500/30 bg-red-500/10 px-3.5 py-2 text-[11px] text-red-200">
-              <div className="font-bold text-red-300">
+            <div className="rounded-xl border border-red-500/30 bg-red-500/10 px-3.5 py-2 text-[11px] text-[var(--acc-red-strong)]">
+              <div className="font-bold text-[var(--acc-red-strong)]">
                 {totalUnverified} dari {totalPoints} angka belum tertelusur
               </div>
-              <p className="mt-0.5 text-red-200/80">
+              <p className="mt-0.5 text-[var(--acc-red-strong)]">
                 Angka bertanda garis putus-putus belum bisa dilacak ke penerbitnya.
                 Jangan dikutip sebagai fakta.
               </p>
@@ -184,7 +184,7 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
                     target="_blank"
                     rel="noreferrer"
                     onClick={(e) => e.stopPropagation()}
-                    className="text-[10px] text-sky-400 hover:underline flex items-center gap-0.5"
+                    className="text-[10px] text-[var(--acc-sky)] hover:underline flex items-center gap-0.5"
                   >
                     Sumber ↗
                   </a>
@@ -199,8 +199,8 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
                   </span>
                 </div>
 
-                <h3 className="font-bold text-sm text-white/90 mt-2.5">{idx.name}</h3>
-                <p className="text-[11px] text-slate-400">{idx.publisher}</p>
+                <h3 className="font-bold text-sm text-[var(--text)] mt-2.5">{idx.name}</h3>
+                <p className="text-[11px] text-[var(--muted)]">{idx.publisher}</p>
 
                 <p className="mt-2 text-xs text-[var(--muted)] line-clamp-2 leading-relaxed">
                   {idx.description}
@@ -213,9 +213,9 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
                   <span className="text-[10px] text-[var(--muted)] font-semibold uppercase tracking-wider">
                     {idx.hasExactData ? `Rata-rata Era (${startYear}–${endYear})` : "Skor Terkini"}
                   </span>
-                  <span className="font-mono text-base font-bold text-sky-300">
+                  <span className="font-mono text-base font-bold text-[var(--acc-sky-strong)]">
                     {idx.avgScore ?? "—"}{" "}
-                    <span className="text-[10px] font-normal text-slate-400">/ {idx.scale.split(" ")[0]}</span>
+                    <span className="text-[10px] font-normal text-[var(--muted)]">/ {idx.scale.split(" ")[0]}</span>
                   </span>
                 </div>
 
@@ -247,10 +247,10 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
                         }
                       >
                         {p.year}:{" "}
-                        <strong className={prov ? "text-sky-300" : "text-slate-400"}>
+                        <strong className={prov ? "text-[var(--acc-sky-strong)]" : "text-slate-400"}>
                           {p.score ?? (p.rank ? `#${p.rank}` : "—")}
                         </strong>
-                        {!prov && <span className="ml-0.5 text-red-400/70">?</span>}
+                        {!prov && <span className="ml-0.5 text-[var(--acc-red)]">?</span>}
                       </span>
                     );
                   })}
@@ -259,8 +259,8 @@ export function ExternalIndicesWidget({ term, indices }: Props) {
 
               {/* Catatan Kesenjangan ABS jika diklik */}
               {idx.abs_discrepancy_note && (
-                <div className="text-[11px] text-amber-300/90 bg-amber-950/30 p-2.5 rounded border border-amber-500/20 leading-relaxed">
-                  <strong className="text-amber-200 block mb-0.5">Analisis Kesenjangan:</strong>
+                <div className="text-[11px] text-[var(--acc-amber-strong)] bg-amber-950/30 p-2.5 rounded border border-amber-500/20 leading-relaxed">
+                  <strong className="text-[var(--acc-amber-strong)] block mb-0.5">Analisis Kesenjangan:</strong>
                   {idx.abs_discrepancy_note}
                 </div>
               )}
