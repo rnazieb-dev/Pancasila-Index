@@ -321,6 +321,28 @@ export default function Beranda() {
           </Link>
 
           <Link
+            href="/timeline/tren"
+            className="group rounded-xl border border-[var(--line)] bg-[var(--bg)] p-4 hover:border-slate-400 transition"
+          >
+            <div className="text-lg">📈</div>
+            <div className="mt-2 font-bold group-hover:text-[var(--acc-sky)]">Grafik Tren Historis (/timeline/tren)</div>
+            <p className="mt-1 text-xs text-[var(--muted)]">
+              Visualisasi grafik garis multi-dekade 1945–2024 memetakan dinamika 3 pilar konstitusi lintas rezim.
+            </p>
+          </Link>
+
+          <Link
+            href="/usulkan-bukti"
+            className="group rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-4 hover:border-emerald-400 transition"
+          >
+            <div className="text-lg">⚖️</div>
+            <div className="mt-2 font-bold text-emerald-400">Usulkan Bukti Baru (/usulkan-bukti)</div>
+            <p className="mt-1 text-xs text-[var(--muted)]">
+              Kanal keterbukaan bagi publik, peneliti, dan mahasiswa hukum untuk mengusulkan putusan pengadilan baru.
+            </p>
+          </Link>
+
+          <Link
             href="/ekspor"
             className="group rounded-xl border border-[var(--line)] bg-[var(--bg)] p-4 hover:border-slate-400 transition"
           >

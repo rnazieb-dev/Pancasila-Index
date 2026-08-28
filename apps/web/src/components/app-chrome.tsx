@@ -270,6 +270,10 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
 
   const themeTitle = theme === "dark" ? t("themeToLight") : t("themeToDark");
 
+  if (pathname?.startsWith("/embed")) {
+    return <main className="min-h-screen bg-[var(--bg)] text-[var(--text)] p-3">{children}</main>;
+  }
+
   return (
     <>
       {/* ═══ HEADER ═══ */}

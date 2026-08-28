@@ -34,10 +34,20 @@ export default function TimelinePage() {
     <div className="mx-auto max-w-5xl px-4 py-12">
       {/* Header */}
       <div className="border-b border-[var(--line)] pb-6">
-        <h1 className="text-3xl sm:text-4xl font-extrabold">Linimasa Penilaian Konstitusional</h1>
-        <p className="mt-2 text-sm sm:text-base text-[var(--muted)] max-w-3xl leading-relaxed">
-          Kronologi penilaian kesetiaan 8 organ konstitusional dari 1945 hingga kini. Gunakan tombol splitter di bawah untuk melihat rincian per pilar konstitusi.
-        </p>
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <h1 className="text-3xl sm:text-4xl font-extrabold">Linimasa Penilaian Konstitusional</h1>
+            <p className="mt-2 text-sm sm:text-base text-[var(--muted)] max-w-3xl leading-relaxed">
+              Kronologi penilaian kesetiaan 8 organ konstitusional dari 1945 hingga kini. Gunakan tombol splitter di bawah untuk melihat rincian per pilar konstitusi.
+            </p>
+          </div>
+          <Link
+            href="/timeline/tren"
+            className="rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-2.5 text-xs sm:text-sm font-bold text-[var(--acc-sky)] hover:border-sky-500 hover:shadow transition"
+          >
+            📈 Lihat Grafik Tren Lintas Dekade →
+          </Link>
+        </div>
 
         {/* 3-Pillar Interactive Splitter Tabs */}
         <div className="mt-6 flex flex-wrap items-center gap-2">

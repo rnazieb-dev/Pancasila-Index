@@ -15,6 +15,7 @@ import {
 
 import { RadarChart } from "@/components/radar-chart";
 import { ExternalIndicesWidget } from "@/components/external-indices-widget";
+import { TermActions } from "@/components/term-actions";
 import {
   groupName,
   indexLabel, summaryIndexLabel, summaryIndexNote, summaryExcludedGroupsNote, summaryQualLabel, dimensionName,
@@ -123,6 +124,13 @@ export default async function TermPage({
           ))}
         </p>
       )}
+
+      {/* Aksi Cepat: Cetak Lembar Fakta, Sematkan Widget, Usulkan Bukti */}
+      <TermActions
+        termId={term.id}
+        institutionSlug={institution.slug}
+        termLabel={term.label_id}
+      />
 
       {/* Peringatan pelanggaran hak dasar. Sengaja DI ATAS angka dan tidak
           bergantung pada ada-tidaknya indeks: aturannya disebut sebelum
