@@ -574,3 +574,30 @@
   dimension_ids:
     - checks-balances
     - sila-5
+- id: ev-mpr-tap-iv-gbhn-1978
+  term_id: mpr-1971-1999
+  date: 1978-03-22
+  category: produk-hukum
+  title_id: TAP MPR No. IV/MPR/1978 tentang Garis-Garis Besar Haluan Negara
+    (Pancasila & Trilogi Pembangunan)
+  summary_id: MPR RI menetapkan Trilogi Pembangunan (Stabilitas, Pertumbuhan, dan
+    Pemerataan) sebagai pedoman rencana pembangunan lima tahun nasional.
+  source_ids:
+    - tap-mpr-iv-1978
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+- id: ev-presiden-swasembada-fao-1984
+  term_id: presiden-soeharto
+  date: 1984-11-14
+  category: kebijakan
+  title_id: Indonesia Meraih Penghargaan Swasembada Pangan dari Organisasi Pangan
+    PBB (FAO)
+  summary_id: Presiden Soeharto berpidato di Roma memaparkan keberhasilan program
+    Bimas/Inmas yang mengubah Indonesia dari pengimpor beras terbesar menjadi
+    swasembada beras.
+  source_ids:
+    - tap-mpr-iv-1978
+  dimension_ids:
+    - tujuan-2
+    - sila-5

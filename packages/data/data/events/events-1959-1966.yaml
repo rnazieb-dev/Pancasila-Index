@@ -249,3 +249,17 @@
   dimension_ids:
     - negara-hukum
     - sila-2
+- id: ev-mprs-tap-viii-berdikari-1965
+  term_id: presiden-soekarno-ii
+  date: 1965-04-16
+  category: produk-hukum
+  title_id: TAP MPRS No. VIII/MPRS/1965 tentang Prinsip Berdikari di Bidang Ekonomi
+  summary_id: MPRS menetapkan doktrin Berdiri di Atas Kaki Sendiri (Berdikari)
+    dalam bidang ekonomi, politik, dan kebudayaan untuk mengamankan kedaulatan
+    sumber daya nasional.
+  source_ids:
+    - tap-mprs-viii-1965
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+    - kedaulatan-rakyat

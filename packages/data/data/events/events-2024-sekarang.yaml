@@ -535,3 +535,48 @@
     - sila-5
     - sila-3
     - kedaulatan-rakyat
+- id: ev-presiden-badan-gizi-2024
+  term_id: presiden-prabowo
+  date: 2024-10-25
+  category: kebijakan
+  title_id: Pemberlakuan Program Makan Bergizi Gratis Nasional di Bawah Badan Gizi
+    Nasional
+  summary_id: Pemerintahan Presiden Prabowo Subianto meluncurkan program pemenuhan
+    gizi anak sekolah dan balita untuk mencerdaskan kehidupan bangsa dan
+    menurunkan angka stunting.
+  source_ids:
+    - perpres-badan-gizi-2024
+  dimension_ids:
+    - tujuan-3
+    - sila-5
+    - tujuan-2
+- id: ev-ma-kasasi-ronald-tannur-2024
+  term_id: ma-reformasi-sekarang
+  date: 2024-10-22
+  category: pengadilan
+  title_id: Putusan Kasasi MA Membatalkan Vonis Bebas Ronald Tannur Menjadi Pidana
+    5 Tahun Penjara
+  summary_id: Majelis Kasasi MA membatalkan putusan kontroversial PN Surabaya dan
+    menjatuhkan hukuman penjara atas tindak pidana penganiayaan yang
+    mengakibatkan kematian korban Dini Sera.
+  source_ids:
+    - putusan-ma-ronald-tannur-2024
+  dimension_ids:
+    - negara-hukum
+    - sila-2
+    - checks-balances
+- id: ev-dpd-evaluasi-anggaran-pendidikan-2025
+  term_id: dpd-2024-sekarang
+  date: 2025-02-24
+  category: kebijakan
+  title_id: DPD RI Mendesak Penataan 20% Anggaran Pendidikan APBN agar Fokus ke
+    Sekolah Daerah 3T
+  summary_id: Komite III DPD RI mengkritisi pemecahan alokasi dana pendidikan ke
+    belasan kementerian dan menuntut peningkatan porsi BOS bagi madrasah dan
+    sekolah pulau terpencil.
+  source_ids:
+    - laporan-dpd-guru-honorer-2022
+  dimension_ids:
+    - tujuan-3
+    - sila-5
+    - sila-3

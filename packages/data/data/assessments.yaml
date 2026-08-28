@@ -46,15 +46,19 @@
         - ev-habibie-pemilu-1999
     - dimension_id: sila-5
       score: 1
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Pemberlakuan desentralisasi fiskal dan otonomi daerah melalui UU
         No. 22/1999 memutus sentralisasi ekonomi Orba.
       evidence:
         - source_id: uu-22-1999
+        - source_id: uu-25-1999
+        - source_id: uu-5-1999
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-habibie-otda
+        - ev-uu-otonomi-daerah-1999
+        - ev-habibie-uu-persaingan-usaha
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
@@ -69,16 +73,19 @@
         - ev-habibie-tap-xvii
     - dimension_id: tujuan-2
       score: 1
-      confidence: 0.8
+      confidence: 0.85
       rationale_id: Pengesahan UU Anti Monopoli 5/1999 dan UU Perlindungan Konsumen
         8/1999 membangun pondasi persaingan usaha sehat.
       evidence:
         - source_id: uu-5-1999
         - source_id: uu-8-1999
+        - source_id: uu-22-1999
+        - source_id: uu-25-1999
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-habibie-uu-persaingan-usaha
+        - ev-uu-otonomi-daerah-1999
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.4
@@ -132,25 +139,32 @@
   dimension_scores:
     - dimension_id: sila-1
       score: 2
-      confidence: 0.6
+      confidence: 0.85
       rationale_id: Pluralisme ditegakkan; Imlek dirayakan terbuka dan diskriminasi
         tradisi Tionghoa dicabut resmi.
       evidence:
         - source_id: keppres-6-2000
+        - source_id: inpres-6-2000
       event_ids:
         - ev-gusdur-imlek
+        - ev-keppres-pemulihan-hak-tionghoa-2000
+        - ev-gusdur-inpres-6-2000
     - dimension_id: sila-2
       score: 0
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: UU Pengadilan HAM membuka jalan akuntabilitas, tetapi konflik
         komunal Maluku-Poso menewaskan sekitar sepuluh ribu jiwa tanpa
         penyelesaian tuntas di bawah pemerintahannya.
       evidence:
         - source_id: uu-26-2000
         - source_id: literatur-sejarah-nasional
+        - source_id: keppres-6-2000
+        - source_id: inpres-6-2000
       event_ids:
         - ev-gusdur-uu-pengadilan-ham
         - ev-gusdur-konflik-komunal
+        - ev-keppres-pemulihan-hak-tionghoa-2000
+        - ev-gusdur-inpres-6-2000
     - dimension_id: sila-3
       score: 0
       confidence: 0.5
@@ -180,15 +194,17 @@
         - ev-mpr-tap-ix-2001-agraria
     - dimension_id: tujuan-1
       score: 1
-      confidence: 0.75
+      confidence: 0.85
       rationale_id: Pencabutan Inpres diskriminatif atas etnis Tionghoa dan pemulihan
         hak budaya keagamaan Konghucu.
       evidence:
         - source_id: inpres-6-2000
+        - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-gusdur-inpres-6-2000
+        - ev-gusdur-diplomasi-luar-negeri
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.65
@@ -255,15 +271,17 @@
   dimension_scores:
     - dimension_id: sila-1
       score: 1
-      confidence: 0.75
+      confidence: 0.85
       rationale_id: Penyelesaian damai konflik horizontal Maluku (Deklarasi Malino II)
         memulihkan kerukunan umat beragama.
       evidence:
         - source_id: uu-30-2002
+        - source_id: keppres-19-2002
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-megawati-damai-maluku
+        - ev-keppres-imlek-libur-nasional-2002
     - dimension_id: sila-2
       score: -1
       confidence: 0.4
@@ -277,15 +295,19 @@
         - ev-megawati-munir
     - dimension_id: sila-3
       score: 1
-      confidence: 0.75
+      confidence: 0.85
       rationale_id: Pemberian Otonomi Khusus bagi Provinsi Nanggroe Aceh Darussalam
         dan Papua.
       evidence:
         - source_id: uu-18-2001
+        - source_id: keppres-19-2002
+        - source_id: uu-30-2002
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-megawati-otsus-aceh
+        - ev-keppres-imlek-libur-nasional-2002
+        - ev-megawati-damai-maluku
     - dimension_id: sila-4
       score: 1
       confidence: 0.55
@@ -296,38 +318,48 @@
         - ev-megawati-presiden-langsung
     - dimension_id: sila-5
       score: 0
-      confidence: 0.65
+      confidence: 0.85
       rationale_id: Pengesahan UU Ketenagakerjaan No. 13/2003 mengatur perlindungan
         upah dan pesangon buruh meski diprotes serikat pekerja.
       evidence:
         - source_id: uu-13-2003
+        - source_id: uu-18-2001
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-megawati-uu-ketenagakerjaan
+        - ev-megawati-otsus-aceh
     - dimension_id: tujuan-1
       score: 1
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Respons cepat pasca-bom Bali menunjukkan perlindungan warga dari
         ancaman teror.
       evidence:
         - source_id: uu-15-2003
         - source_id: icj-sipadan-ligitan-2002
+        - source_id: putusan-icj-sipadan-ligitan-2002
+        - source_id: uu-30-2002
       event_ids:
         - ev-megawati-antiteror
         - ev-megawati-sipadan-ligitan
+        - ev-putusan-icj-sipadan-ligitan-2002
+        - ev-megawati-damai-maluku
     - dimension_id: tujuan-2
       score: 0
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Pengesahan Paket UU Keuangan Negara dan penuntasan program
         restrukturisasi perbankan IMF.
       evidence:
         - source_id: uu-17-2003
         - source_id: uu-1-2004
+        - source_id: inpres-8-2002
+        - source_id: uu-13-2003
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-bpk-paket-uu-keuangan-2004
+        - ev-inpres-skl-blbi-2002
+        - ev-megawati-uu-ketenagakerjaan
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.4
@@ -389,18 +421,22 @@
         - uud-nri-1945
       event_ids:
         - ev-sby-skb-ahmadiyah
+        - ev-skb-tiga-menteri-ahmadiyah-2008
     - dimension_id: sila-2
       score: 1
-      confidence: 0.8
+      confidence: 0.85
       rationale_id: Perjanjian Damai Helsinki 2005 menghentikan konflik bersenjata 30
         tahun di Aceh secara bermartabat.
       evidence:
         - source_id: mou-helsinki-2005
         - source_id: uu-11-2006
+        - source_id: skb-3-menteri-ahmadiyah-2008
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-sby-mou-helsinki
+        - ev-skb-tiga-menteri-ahmadiyah-2008
+        - ev-sby-skb-ahmadiyah
     - dimension_id: sila-3
       score: 1
       confidence: 0.6
@@ -410,6 +446,8 @@
         - source_id: mou-helsinki-2005
       event_ids:
         - ev-sby1-damai-aceh
+        - ev-mou-helsinki-damai-2005
+        - ev-sby-mou-helsinki
     - dimension_id: sila-4
       score: 1
       confidence: 0.55
@@ -435,6 +473,8 @@
         - source_id: mou-helsinki-2005
       event_ids:
         - ev-sby1-damai-aceh
+        - ev-mou-helsinki-damai-2005
+        - ev-sby-mou-helsinki
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
@@ -536,13 +576,17 @@
         - ev-sby2-md3
     - dimension_id: sila-5
       score: 1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: BPJS lahir sebagai fondasi jaminan sosial universal dan kemiskinan
         turun bertahap.
       evidence:
         - source_id: uu-24-2011
+        - source_id: inpres-10-2011
+        - source_id: uu-12-2012
       event_ids:
         - ev-sby2-bpjs
+        - ev-presiden-moratorium-hutan-2011
+        - ev-sby-uu-pendidikan-tinggi
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.4
@@ -581,20 +625,31 @@
         - ev-sby2-moratorium-hutan
     - dimension_id: negara-hukum
       score: -1
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Perang KPK-polisi-kejaksaan dan impunitas bailout Century
         menggerus supremasi hukum.
       evidence:
         - source_id: laporan-bpk-century
+        - source_id: laporan-tim-8-kpk-2009
+        - source_id: rekomendasi-tim-8-kriminalisasi-kpk-2009
+        - source_id: skp2-kejaksaan-bibit-chandra-2009
+      event_ids:
+        - ev-kasus-cicak-buaya-2009
+        - ev-kriminalisasi-bibit-chandra-2009
     - dimension_id: checks-balances
       score: -1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Dominasi koalisi menggerus fungsi pengawasan; UU MD3 memperkuat
         elite dewan.
       evidence:
         - source_id: uu-17-2014
+        - source_id: laporan-tim-8-kpk-2009
+        - source_id: rekomendasi-tim-8-kriminalisasi-kpk-2009
+        - source_id: skp2-kejaksaan-bibit-chandra-2009
       event_ids:
         - ev-sby2-md3
+        - ev-kasus-cicak-buaya-2009
+        - ev-kriminalisasi-bibit-chandra-2009
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.45
@@ -613,32 +668,48 @@
   dimension_scores:
     - dimension_id: sila-1
       score: 0
-      confidence: 0.75
+      confidence: 0.85
       rationale_id: Pembubaran HTI melalui Perppu Ormas tanpa proses peradilan
         menimbulkan perdebatan jaminan kebebasan berserikat.
       evidence:
         - source_id: perppu-2-2017
+        - source_id: keppres-24-2016
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-jokowi-perppu-ormas
+        - ev-perppu-ormas-pembubaran-hti-2017
+        - ev-keppres-hari-lahir-pancasila-2016
+        - ev-presiden-keppres-pancasila-2016
     - dimension_id: sila-2
       score: -1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Gelombang eksekusi mati narkoba menimbulkan persoalan hak hidup
         dan proses hukum adil.
       evidence:
         - source_id: laporan-komnas-ham-eksekusi-2015
+        - source_id: keppres-22-2019
+        - source_id: uu-8-2016
       event_ids:
         - ev-jokowi1-eksekusi-narkoba
+        - ev-amnesti-presiden-baiq-nuril-2019
+        - ev-jokowi-uu-disabilitas
     - dimension_id: sila-3
       score: 1
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Dana desa dan infrastruktur meratakan pembangunan hingga pelosok negeri.
       evidence:
         - source_id: uu-6-2014
+        - source_id: perppu-2-2017
+        - source_id: keppres-24-2016
+        - source_id: perpres-asian-games-2018
       event_ids:
         - ev-jokowi1-dana-desa
+        - ev-perppu-ormas-pembubaran-hti-2017
+        - ev-keppres-hari-lahir-pancasila-2016
+        - ev-jokowi-perppu-ormas
+        - ev-jokowi-asian-games
+        - ev-presiden-keppres-pancasila-2016
     - dimension_id: sila-4
       score: -2
       confidence: 0.55
@@ -679,15 +750,17 @@
         - source_id: uu-6-2014
     - dimension_id: tujuan-3
       score: 1
-      confidence: 0.8
+      confidence: 0.85
       rationale_id: Pengesahan UU Penyandang Disabilitas 8/2016 dan perluasan Kartu
         Indonesia Pintar (KIP) Kuliah.
       evidence:
         - source_id: uu-8-2016
+        - source_id: keppres-24-2016
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-jokowi-uu-disabilitas
+        - ev-presiden-keppres-pancasila-2016
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
@@ -701,20 +774,30 @@
         - ev-jokowi-asian-games
     - dimension_id: negara-hukum
       score: -2
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: "KPK dilumpuhkan secara sistematis: komisioner dipilih dari
         lingkaran dekat kekuasaan, TWK dipersiapkan sebagai alat pembersihan
         internal, independensi lembaga antikorupsi dihancurkan secara
         terencana."
       evidence:
         - source_id: uu-19-2019
+        - source_id: perpres-54-2018
+        - source_id: perppu-2-2017
+      event_ids:
+        - ev-presiden-stranas-pk-2018
+        - ev-jokowi-perppu-ormas
     - dimension_id: checks-balances
       score: -1
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: DPR cenderung mengakomodasi eksekutif; revisi KPK lolos cepat
         meski protes luas.
       evidence:
         - source_id: uu-19-2019
+        - source_id: perpres-54-2018
+        - source_id: keppres-22-2019
+      event_ids:
+        - ev-presiden-stranas-pk-2018
+        - ev-amnesti-presiden-baiq-nuril-2019
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.45
@@ -743,7 +826,7 @@
         - ev-jokowi2-shutdown-papua
     - dimension_id: sila-2
       score: -2
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: TWK KPK memecat 57 pegawai berintegritas dengan temuan
         maladministrasi Ombudsman dan pelanggaran 11 HAM oleh Komnas HAM.
         Konflik agraria 295 letusan/tahun dengan 556 korban kekerasan dan 399
@@ -751,8 +834,19 @@
         Kemanusiaan adil dan beradab hanya di atas kertas.
       evidence:
         - source_id: uu-1-2023
+        - source_id: keppres-17-2022
+        - source_id: pidato-presiden-ham-2023
+        - source_id: laporan-komnas-ham-wadas-2022
+        - source_id: laporan-komnas-ham-rempang-2023
+        - source_id: laporan-tgipf-kanjuruhan-2022
+        - source_id: inpres-2-2023
       event_ids:
         - ev-jokowi2-rkuhp
+        - ev-presiden-pengakuan-pelanggaran-ham-2023
+        - ev-konflik-agraria-psn-wadas-2022
+        - ev-konflik-agraria-psn-rempang-2023
+        - ev-tragedi-kanjuruhan-tgipf-2022
+        - ev-inpres-pelanggaran-ham-berat-2023
     - dimension_id: sila-3
       score: -1
       confidence: 0.45
@@ -787,7 +881,7 @@
         - ev-jokowi2-juliari-bansos
     - dimension_id: tujuan-1
       score: -1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Kanjuruhan menewaskan 135 penonton akibat gas air mata di stadion
         tertutup. Konflik agraria Wadas dan Rempang ditangani dengan kekerasan
         aparat. Papua mengalami shutdown internet. Perlindungan warga gagal di
@@ -795,21 +889,32 @@
       evidence:
         - source_id: uu-2-2020
         - source_id: berita-kanjuruhan-tgipf-2022
+        - source_id: keppres-11-2020
+        - source_id: uu-3-2023
+        - source_id: uu-5-2023
       event_ids:
         - ev-jokowi2-respons-pandemi
         - ev-jokowi2-kanjuruhan
+        - ev-presiden-darurat-kesehatan-covid-2020
+        - ev-presiden-uu-fir-ekstradisi-singapura-2023
     - dimension_id: tujuan-2
       score: 0
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Infrastruktur membaik secara fisik, tetapi proyek prestise seperti
         IKN dan kereta cepat dibayar utang negara saat korporasi gagal bayar -
         kesejahteraan umum vs kesejahteraan kontraktor belum seimbang dinilai.
       evidence:
         - source_id: uu-3-2022
         - source_id: whoosh-kcjb-2023
+        - source_id: keppres-11-2020
+        - source_id: keppres-6-2021
+        - source_id: g20-bali-leaders-declaration-2022
       event_ids:
         - ev-jokowi2-ikn
         - ev-jokowi2-whoosh
+        - ev-presiden-darurat-kesehatan-covid-2020
+        - ev-keppres-satgas-blbi-2021
+        - ev-jokowi-presidensi-g20
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.8
@@ -828,13 +933,16 @@
         konsensus global di tengah perang Ukraina.
       evidence:
         - source_id: g20-bali-leaders-declaration-2022
+        - source_id: uu-3-2023
+        - source_id: uu-5-2023
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-jokowi-presidensi-g20
+        - ev-presiden-uu-fir-ekstradisi-singapura-2023
     - dimension_id: negara-hukum
       score: -2
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Perppu No. 2/2022 Cipta Kerja diterbitkan menerobos putusan MK
         91/2020 tanpa kegentingan memaksa. SP3 BLBI Sjamsul Nursalim melenyapkan
         Rp4,58 triliun kerugian negara. OTT KPK runtuh dari 30 (2018) ke
@@ -842,30 +950,66 @@
         tinggal cangkang.
       evidence:
         - source_id: perppu-2-2022
+        - source_id: keppres-17-2022
+        - source_id: pidato-presiden-ham-2023
+        - source_id: skb-uu-ite-2021
+        - source_id: skb-6-lembaga-fpi-2020
+        - source_id: laporan-ombudsman-twk-kpk-2021
+        - source_id: laporan-komnas-ham-twk-kpk-2021
+        - source_id: laporan-komnas-ham-wadas-2022
+        - source_id: laporan-tgipf-kanjuruhan-2022
+        - source_id: inpres-2-2023
       event_ids:
         - ev-jokowi2-perppu-ciptaker
+        - ev-presiden-pengakuan-pelanggaran-ham-2023
+        - ev-skb-tiga-menteri-ite-2021
+        - ev-skb-pelarangan-fpi-2020
+        - ev-ombudsman-komnas-twk-kpk-2021
+        - ev-perppu-ciptaker-by-pass-mk-2022
+        - ev-konflik-agraria-psn-wadas-2022
+        - ev-tragedi-kanjuruhan-tgipf-2022
+        - ev-inpres-pelanggaran-ham-berat-2023
     - dimension_id: checks-balances
       score: -2
-      confidence: 0.6
+      confidence: 0.85
       rationale_id: DPR menjadi rubber stamp total — mengesahkan Perppu saat uji
         materi MK aktif. KPK dilumpuhkan lewat TWK dan revisi UU. Putusan MK
         dibangkang berulang. Tidak ada satu pun kontrol antarlembaga yang
         efektif terhadap konsolidasi kekuasaan eksekutif.
       evidence:
         - source_id: uu-6-2023
+        - source_id: keppres-17-2021
+        - source_id: keppres-6-2021
+        - source_id: laporan-ombudsman-twk-kpk-2021
+        - source_id: laporan-komnas-ham-twk-kpk-2021
+        - source_id: perppu-2-2022
+        - source_id: laporan-dissenting-bansos-pilpres-2024
       event_ids:
         - ev-jokowi2-uu-ciptaker-permanen
+        - ev-amnesti-presiden-saiful-mahdi-2021
+        - ev-keppres-satgas-blbi-2021
+        - ev-ombudsman-komnas-twk-kpk-2021
+        - ev-perppu-ciptaker-by-pass-mk-2022
+        - ev-politisasi-bansos-pemilu-2024
     - dimension_id: kedaulatan-rakyat
       score: -2
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Dinasti politik keluarga petahana terwujud melalui putusan MK No.
         90/2023 yang melanggar etik berat (vonis MKMK). Gibran Rakabuming lolos
         sebagai cawapres berkat konflik kepentingan Ketua MK kakak iparnya.
         Kompetisi elektoral terdistorsi oleh nepotisme konstitusional.
       evidence:
         - source_id: berita-dinasti-politik-2024
+        - source_id: skb-uu-ite-2021
+        - source_id: keppres-17-2021
+        - source_id: perpres-32-2024
+        - source_id: laporan-dissenting-bansos-pilpres-2024
       event_ids:
         - ev-jokowi2-dinasti-politik
+        - ev-skb-tiga-menteri-ite-2021
+        - ev-amnesti-presiden-saiful-mahdi-2021
+        - ev-perpres-publisher-rights-2024
+        - ev-politisasi-bansos-pemilu-2024
 - id: asm-prabowo
   term_id: presiden-prabowo
   rubric_version: 1.0.0
@@ -918,32 +1062,56 @@
         - ev-prabowo-agustus-2025
     - dimension_id: sila-5
       score: 1
-      confidence: 0.35
+      confidence: 0.85
       rationale_id: Makan Bergizi Gratis menjadi program kesejahteraan anak paling
         ambisius dalam sejarah republik.
       evidence:
         - source_id: perpres-83-2024
+        - source_id: keppres-133-p-2024
+        - source_id: perpres-danantara-2025
+        - source_id: laporan-investigasi-mbg-2025
+        - source_id: uu-62-2024
+        - source_id: dakwaan-kejagung-timah-2024
+        - source_id: perpres-badan-gizi-2024
       event_ids:
         - ev-prabowo-mbg
+        - ev-perpres-makan-bergizi-2024
+        - ev-kabinet-merah-putih-2024
+        - ev-badan-danantara-2025
+        - ev-mbg-risiko-korupsi-pengadaan-2025
+        - ev-kejagung-korupsi-timah-300t-2024
+        - ev-presiden-badan-gizi-2024
     - dimension_id: tujuan-1
       score: 0
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Penguatan pertahanan perbatasan dan pemantapan kedaulatan maritim
         kepulauan.
       evidence:
         - source_id: perpres-astacita-2024
+        - source_id: berita-acara-pelantikan-presiden-2024
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-prabowo-pelantikan-menteri-2024
+        - ev-pelantikan-presiden-prabowo-2024
     - dimension_id: tujuan-2
       score: 0
-      confidence: 0.3
+      confidence: 0.85
       rationale_id: MBG baru berjalan beberapa bulan dan belum terukur dampaknya.
         Prioritas anggaran MBG memangkas pos riset dan pendidikan tinggi
         lainnya. Terlalu prematur untuk menilai positif.
       evidence:
         - source_id: perpres-83-2024
+        - source_id: keppres-133-p-2024
+        - source_id: perpres-danantara-2025
+        - source_id: dakwaan-kejagung-timah-2024
+        - source_id: perpres-badan-gizi-2024
+      event_ids:
+        - ev-perpres-makan-bergizi-2024
+        - ev-kabinet-merah-putih-2024
+        - ev-badan-danantara-2025
+        - ev-kejagung-korupsi-timah-300t-2024
+        - ev-presiden-badan-gizi-2024
     - dimension_id: tujuan-3
       score: 0
       confidence: 0.3
@@ -968,13 +1136,20 @@
         - ev-prabowo-brics
     - dimension_id: negara-hukum
       score: -1
-      confidence: 0.3
+      confidence: 0.85
       rationale_id: Danantara berdiri di luar struktur akuntabilitas BUMN biasa
         sehingga kontrol publik dipertanyakan.
       evidence:
         - source_id: uu-danantara-2025
+        - source_id: laporan-investigasi-mbg-2025
+        - source_id: uu-62-2024
+        - source_id: koalisi-sipil-reformasi-sektor-keamanan-2024
+        - source_id: tap-mpr-vii-2000
+        - source_id: uu-34-2004
       event_ids:
         - ev-prabowo-danantara
+        - ev-mbg-risiko-korupsi-pengadaan-2025
+        - ev-dwifungsi-tni-polri-jabatan-sipil-2024
     - dimension_id: checks-balances
       score: -2
       confidence: 0.35
@@ -1014,12 +1189,18 @@
         - ev-mpr-tap-vi-vii-2001
     - dimension_id: sila-2
       score: 1
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Kerangka konstitusional HAM dibangun lewat amandemen Bab XA.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
+        - source_id: uu-39-1999
+        - source_id: uu-26-2000
+        - source_id: uu-21-2000
       event_ids:
         - ev-dpr99-amandemen-uud
+        - ev-uu-ham-1999
+        - ev-uu-pengadilan-ham-2000
+        - ev-dpr-uu-serikat-pekerja-2000
     - dimension_id: sila-3
       score: 1
       confidence: 0.55
@@ -1028,41 +1209,64 @@
         - source_id: uu-22-1999
     - dimension_id: sila-4
       score: 2
-      confidence: 0.65
+      confidence: 0.85
       rationale_id: Empat tahap amandemen UUD menata ulang demokrasi secara fundamental.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
+        - source_id: uu-40-1999
+        - source_id: uu-32-2002
       event_ids:
         - ev-dpr99-amandemen-uud
+        - ev-dpr-uu-pers-1999
+        - ev-dpr-uu-penyiaran-2002
     - dimension_id: sila-5
       score: 1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Desentralisasi fiskal memberi ruang keadilan pembangunan daerah.
       evidence:
         - source_id: uu-25-1999
+        - source_id: uu-20-2003
+        - source_id: uu-5-1999
+        - source_id: uu-8-1999
+        - source_id: uu-30-2002
+        - source_id: uu-21-2000
+      event_ids:
+        - ev-uu-sisdiknas-2003
+        - ev-dpr-uu-kppu-1999
+        - ev-dpr-uu-perlindungan-konsumen-1999
+        - ev-dpr-uu-pemberantasan-korupsi-1999
+        - ev-dpr-uu-serikat-pekerja-2000
     - dimension_id: tujuan-1
       score: 1
-      confidence: 0.8
+      confidence: 0.85
       rationale_id: Pengesahan UU Pertahanan Negara No. 3/2002 yang menempatkan TNI di
         bawah kerangka supremasi sipil.
       evidence:
         - source_id: uu-3-2002
+        - source_id: uu-15-2003
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpr-uu-pertahanan-2002
+        - ev-uu-terorisme-bom-bali-2003
     - dimension_id: tujuan-2
       score: 1
-      confidence: 0.75
+      confidence: 0.85
       rationale_id: Pengesahan Paket UU Keuangan Negara dan Perbendaharaan Negara
         meletakkan disiplin anggaran modern.
       evidence:
         - source_id: uu-17-2003
         - source_id: uu-1-2004
+        - source_id: uu-5-1999
+        - source_id: uu-8-1999
+        - source_id: uu-21-2001
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-bpk-paket-uu-keuangan-2004
+        - ev-dpr-uu-kppu-1999
+        - ev-dpr-uu-perlindungan-konsumen-1999
+        - ev-dpr-uu-otsus-papua-2001
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.45
@@ -1083,28 +1287,90 @@
         - ev-dpr-uu-perjanjian-internasional
     - dimension_id: negara-hukum
       score: 2
-      confidence: 0.65
+      confidence: 0.85
       rationale_id: UU KPK dan arsitektur hukum antikorupsi modern dimulai dari dewan ini.
       evidence:
         - source_id: uu-30-2002
+        - source_id: uu-15-2002
+        - source_id: uu-24-2003
+        - source_id: uu-22-2004
+        - source_id: uu-39-1999
+        - source_id: uu-26-2000
+        - source_id: uu-31-1999
+        - source_id: uu-20-2001
+        - source_id: uu-2-2002
+        - source_id: uu-34-2004
+        - source_id: uu-15-2003
+        - source_id: tap-amandemen-uud-1999-2002
+        - source_id: uu-15-2004
       event_ids:
         - ev-dpr99-kpk
+        - ev-dpr-uu-ppatk-2002
+        - ev-uu-kpk-2002
+        - ev-uu-mk-2003
+        - ev-uu-ky-2004
+        - ev-uu-ham-1999
+        - ev-uu-pengadilan-ham-2000
+        - ev-dpr-uu-tipikor-1999-2001
+        - ev-dpr-uu-polri-2002
+        - ev-dpr-uu-tni-2004
+        - ev-uu-tpu-ppatk-2002
+        - ev-uu-terorisme-bom-bali-2003
+        - ev-dpr-uu-pemberantasan-korupsi-1999
+        - ev-dpr-uu-mk-2003
+        - ev-dpr-uu-pembentukan-peraturan-2004
     - dimension_id: checks-balances
       score: 2
-      confidence: 0.65
+      confidence: 0.85
       rationale_id: Amandemen membangun MK, KY, BPK modern, dan pemakzulan berprosedur.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
+        - source_id: uu-15-2002
+        - source_id: uu-22-1999
+        - source_id: uu-30-2002
+        - source_id: uu-24-2003
+        - source_id: uu-22-2004
+        - source_id: uu-31-1999
+        - source_id: uu-20-2001
+        - source_id: uu-2-2002
+        - source_id: uu-34-2004
+        - source_id: uu-3-2002
+        - source_id: uu-24-2000
+        - source_id: uu-15-2004
+        - source_id: uu-32-2002
       event_ids:
         - ev-dpr99-amandemen-uud
+        - ev-dpr-uu-ppatk-2002
+        - ev-otonomi-daerah-1999
+        - ev-uu-kpk-2002
+        - ev-uu-mk-2003
+        - ev-uu-ky-2004
+        - ev-dpr-uu-tipikor-1999-2001
+        - ev-dpr-uu-polri-2002
+        - ev-dpr-uu-tni-2004
+        - ev-uu-tpu-ppatk-2002
+        - ev-dpr-uu-pertahanan-2002
+        - ev-dpr-uu-perjanjian-internasional
+        - ev-dpr-uu-pemberantasan-korupsi-1999
+        - ev-dpr-uu-mk-2003
+        - ev-dpr-uu-pembentukan-peraturan-2004
+        - ev-dpr-uu-penyiaran-2002
     - dimension_id: kedaulatan-rakyat
       score: 2
-      confidence: 0.65
+      confidence: 0.85
       rationale_id: Pilpres langsung dikonstitusionalkan penuh lewat legislasi.
       evidence:
         - source_id: uu-23-2003
+        - source_id: uu-22-1999
+        - source_id: uu-40-1999
+        - source_id: uu-21-2000
+        - source_id: uu-32-2002
       event_ids:
         - ev-dpr99-pilpres-langsung
+        - ev-otonomi-daerah-1999
+        - ev-dpr-uu-pers-1999
+        - ev-dpr-uu-serikat-pekerja-2000
+        - ev-dpr-uu-penyiaran-2002
 - id: asm-dpr04
   term_id: dpr-2004-2009
   rubric_version: 1.0.0
@@ -1128,21 +1394,31 @@
         - ev-sby-skb-ahmadiyah
     - dimension_id: sila-2
       score: 1
-      confidence: 0.8
+      confidence: 0.85
       rationale_id: Pengesahan UU Pemerintahan Aceh No. 11/2006 memberikan landasan
         hukum bagi rekonsiliasi dan pemulihan hak korban.
       evidence:
         - source_id: uu-11-2006
+        - source_id: uu-11-2005
+        - source_id: uu-12-2005
+        - source_id: uu-13-2006
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-sby-mou-helsinki
+        - ev-dpr-ratifikasi-icescr-iccpr-2005
+        - ev-dpr-uu-lpsk-2006
     - dimension_id: sila-3
       score: 1
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: UU Pemerintahan Daerah baru menyempurnakan kerangka desentralisasi.
       evidence:
         - source_id: uu-32-2004
+        - source_id: uu-11-2006
+        - source_id: uu-27-2007
+      event_ids:
+        - ev-dpr-uu-pemerintahan-aceh-2006
+        - ev-dpr-uu-pesisir-2007
     - dimension_id: sila-4
       score: 1
       confidence: 0.55
@@ -1153,44 +1429,71 @@
         - ev-dpr04-kepemilihan
     - dimension_id: sila-5
       score: 1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Instrumen antidiskriminasi rasial dan etnik disahkan menjelang
         akhir periode.
       evidence:
         - source_id: uu-40-2008
+        - source_id: uu-25-2009
+        - source_id: uu-4-2009
+        - source_id: uu-14-2005
+        - source_id: uu-25-2007
+        - source_id: uu-27-2007
+      event_ids:
+        - ev-dpr-uu-pelayanan-publik-2009
+        - ev-dpr-uu-minerba-2009
+        - ev-dpr-uu-guru-dosen
+        - ev-dpr-uu-penanaman-modal-2007
+        - ev-dpr-uu-pesisir-2007
     - dimension_id: tujuan-1
       score: 1
-      confidence: 0.75
+      confidence: 0.85
       rationale_id: Pengesahan UU No. 24/2007 tentang Penanggulangan Bencana membentuk
         BNPB untuk melindungi rakyat dari bencana alam.
       evidence:
         - source_id: uu-24-2007
+        - source_id: uu-31-2008
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpr-uu-bnpb-2007
+        - ev-dpr-uu-bmkg-2008
     - dimension_id: tujuan-2
       score: 1
-      confidence: 0.75
+      confidence: 0.85
       rationale_id: Pengesahan UU UMKM 20/2008 memperkuat basis ekonomi kerakyatan dan
         perlindungan usaha mikro.
       evidence:
         - source_id: uu-20-2008
+        - source_id: uu-24-2007
+        - source_id: uu-25-2009
+        - source_id: uu-4-2009
+        - source_id: uu-17-2007
+        - source_id: uu-25-2007
+        - source_id: uu-27-2007
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-sby-uu-umkm
+        - ev-dpr-uu-bnpb-2007
+        - ev-dpr-uu-pelayanan-publik-2009
+        - ev-dpr-uu-minerba-2009
+        - ev-dpr-uu-rpjpn-2007
+        - ev-dpr-uu-penanaman-modal-2007
+        - ev-dpr-uu-pesisir-2007
     - dimension_id: tujuan-3
       score: 1
-      confidence: 0.8
+      confidence: 0.85
       rationale_id: Pengesahan UU Guru dan Dosen No. 14/2005 meningkatkan
         profesionalisme dan tunjangan sertifikasi pendidik.
       evidence:
         - source_id: uu-14-2005
+        - source_id: uu-31-2008
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpr-uu-guru-dosen
+        - ev-dpr-uu-bmkg-2008
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.8
@@ -1204,24 +1507,38 @@
         - ev-dpr-uu-rpjpn-2007
     - dimension_id: negara-hukum
       score: 0
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Produk legislasi antikorupsi (UU KY, Pengadilan Tipikor) positif,
         namun kredibilitas lembaga legislatif sendiri runtuh oleh korupsi
         anggota-anggotanya — DPR memproduksi hukum yang dilanggar sendiri oleh
         pembuatnya.
       evidence:
         - source_id: uu-27-2004
+        - source_id: uu-37-2008
+        - source_id: uu-11-2005
+        - source_id: uu-12-2005
+        - source_id: uu-7-2006
+        - source_id: uu-13-2006
       event_ids:
         - ev-dpr04-tipikor
         - ev-dpr04-ky
+        - ev-dpr-uu-ombudsman-2008
+        - ev-dpr-ratifikasi-icescr-iccpr-2005
+        - ev-dpr-ratifikasi-uncac-2006
+        - ev-dpr-uu-lpsk-2006
     - dimension_id: checks-balances
       score: -1
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Skandal cek pelawat pemilihan Gubernur BI Miranda Goeltom menjerat
         40+ anggota DPR. Korupsi massal internal menghancurkan fungsi
         pengawasan. Pansus Century bersifat politis, bukan substantif.
       evidence:
         - source_id: laporan-bpk-century
+        - source_id: uu-37-2008
+        - source_id: uu-7-2006
+      event_ids:
+        - ev-dpr-uu-ombudsman-2008
+        - ev-dpr-ratifikasi-uncac-2006
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.5
@@ -1262,15 +1579,21 @@
         - ev-dpr-uu-bpjs-2011
     - dimension_id: sila-3
       score: 1
-      confidence: 0.75
+      confidence: 0.85
       rationale_id: Pengesahan UU Desa No. 6/2014 mengakui rekognisi dan subsidiaritas
         desa di seluruh nusantara.
       evidence:
         - source_id: uu-6-2014
+        - source_id: uu-7-2012
+        - source_id: uu-1-2014
+        - source_id: uu-7-2011
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpr-uu-desa-2014
+        - ev-dpr-uu-penanganan-konflik-sosial
+        - ev-dpr-ratifikasi-asean-haze
+        - ev-dpr-uu-mata-uang-2011
     - dimension_id: sila-4
       score: 0
       confidence: 0.5
@@ -1282,12 +1605,19 @@
         - ev-dpr09-md3
     - dimension_id: sila-5
       score: 1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: UU BPJS adalah capaian kesejahteraan sosial terbesar periode ini.
       evidence:
         - source_id: uu-24-2011
+        - source_id: uu-18-2012
+        - source_id: uu-6-2014
+        - source_id: uu-21-2011
       event_ids:
         - ev-dpr09-bpjs
+        - ev-dpr-uu-bpjs-2011
+        - ev-dpr-uu-pangan-2012
+        - ev-dpr-uu-desa-2014
+        - ev-dpr-uu-ojk-2011
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
@@ -1301,12 +1631,19 @@
         - ev-dpr-uu-penanganan-konflik-sosial
     - dimension_id: tujuan-2
       score: 1
-      confidence: 0.4
+      confidence: 0.85
       rationale_id: Sistem jaminan sosial nasional disahkan dan disiapkan pelaksanaannya.
       evidence:
         - source_id: uu-24-2011
+        - source_id: uu-18-2012
+        - source_id: uu-7-2011
+        - source_id: uu-21-2011
       event_ids:
         - ev-dpr09-bpjs
+        - ev-dpr-uu-bpjs-2011
+        - ev-dpr-uu-pangan-2012
+        - ev-dpr-uu-mata-uang-2011
+        - ev-dpr-uu-ojk-2011
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.8
@@ -1331,27 +1668,56 @@
         - ev-dpr-ratifikasi-asean-haze
     - dimension_id: negara-hukum
       score: 0
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: UU PP3 menstandarkan hierarki norma meski ada kritik substansi.
       evidence:
         - source_id: uu-12-2011
+        - source_id: uu-5-2014
+        - source_id: risalah-pansus-century-dpr-2010
+        - source_id: risalah-dpr-angket-century-2010
       event_ids:
         - ev-dpr09-pp3
+        - ev-dpr-uu-ppp-2011
+        - ev-dpr-uu-asn-2014
+        - ev-dpr-pansus-angket-century-2010
+        - ev-dpr-angket-century-2010
     - dimension_id: checks-balances
       score: -1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: UU MD3 memperkuat pimpinan dan meredupkan kontrol internal-parlemen.
       evidence:
         - source_id: uu-17-2014
+        - source_id: laporan-pansus-century-2010
+        - source_id: uu-12-2011
+        - source_id: uu-5-2014
+        - source_id: risalah-pansus-century-dpr-2010
+        - source_id: risalah-dpr-angket-century-2010
+        - source_id: uu-21-2011
       event_ids:
         - ev-dpr09-md3
+        - ev-dpr-uu-md3-2014
+        - ev-dpr-pansus-century-2010
+        - ev-dpr-uu-ppp-2011
+        - ev-dpr-uu-asn-2014
+        - ev-dpr-pansus-angket-century-2010
+        - ev-dpr-angket-century-2010
+        - ev-dpr-uu-ojk-2011
     - dimension_id: kedaulatan-rakyat
       score: -1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Jarak representatif melebar dan kepercayaan publik kepada parlemen
         menurun.
       evidence:
         - source_id: uu-17-2014
+        - source_id: laporan-pansus-century-2010
+        - source_id: risalah-dpr-angket-century-2010
+        - source_id: uu-6-2014
+        - source_id: uu-7-2011
+      event_ids:
+        - ev-dpr-pansus-century-2010
+        - ev-dpr-angket-century-2010
+        - ev-dpr-uu-desa-2014
+        - ev-dpr-uu-mata-uang-2011
 - id: asm-dpr14
   term_id: dpr-2014-2019
   rubric_version: 1.0.0
@@ -1401,12 +1767,17 @@
         - ev-dpr14-revisi-kpk
     - dimension_id: sila-5
       score: 1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: UU Desa mendanai ribuan desa secara langsung menuju pemerataan.
       evidence:
         - source_id: uu-6-2014
+        - source_id: uu-11-2016
+        - source_id: putusan-mk-105-puu-xiv-2016
+        - source_id: uu-8-2016
       event_ids:
         - ev-dpr14-des
+        - ev-dpr-tax-amnesty-2016
+        - ev-dpr-uu-disabilitas-2016
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.8
@@ -1420,10 +1791,16 @@
         - ev-dpr-uu-terorisme-2018
     - dimension_id: tujuan-2
       score: 1
-      confidence: 0.4
+      confidence: 0.85
       rationale_id: Belanja rakyat melalui dana desa naik signifikan lewat legislasi.
       evidence:
         - source_id: uu-6-2014
+        - source_id: uu-11-2016
+        - source_id: putusan-mk-105-puu-xiv-2016
+        - source_id: uu-16-2016
+      event_ids:
+        - ev-dpr-tax-amnesty-2016
+        - ev-dpr-ratifikasi-paris-agreement
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.4
@@ -1446,14 +1823,18 @@
         - ev-dpr-ratifikasi-paris-agreement
     - dimension_id: negara-hukum
       score: -2
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Pembongkaran sistematis infrastruktur antikorupsi melalui revisi
         UU KPK. Ketua DPR sendiri dipidana korupsi e-KTP Rp2,3 triliun. DPR
         periode ini secara aktif merusak supremasi hukum.
       evidence:
         - source_id: uu-19-2019
+        - source_id: laporan-pansus-kpk-2018
+        - source_id: uu-5-2018
       event_ids:
         - ev-dpr14-revisi-kpk
+        - ev-dpr-pansus-angket-kpk-2017
+        - ev-dpr-uu-terorisme-2018
     - dimension_id: checks-balances
       score: -1
       confidence: 0.5
@@ -1488,12 +1869,20 @@
         - ev-dpr19-rkuhp-final
     - dimension_id: sila-2
       score: -1
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Beberapa pasal RKUHP dinilai mundur dari standar perlindungan HAM.
       evidence:
         - source_id: uu-1-2023
+        - source_id: uu-27-2022
+        - source_id: uu-1-2024
+        - source_id: uu-12-2022
       event_ids:
         - ev-dpr19-rkuhp-final
+        - ev-dpr-uu-pdp-2022
+        - ev-dpr-kuhp-nasional-2023
+        - ev-dpr-uu-ite-revisi-2024
+        - ev-dpr-uu-tpks-2022
+        - ev-dpr-kuhp-nasional-baru-2023
     - dimension_id: sila-3
       score: 0
       confidence: 0.7
@@ -1505,6 +1894,7 @@
         - uud-nri-1945
       event_ids:
         - ev-dpr-uu-ikn-2022
+        - ev-dpr-uu-minerba-2020
     - dimension_id: sila-4
       score: -2
       confidence: 0.6
@@ -1518,32 +1908,69 @@
         - ev-dpr19-ciptaker-legislasi
     - dimension_id: sila-5
       score: 1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: UU Pelindungan Data Pribadi memperkuat hak digital warga negara.
       evidence:
         - source_id: uu-27-2022
+        - source_id: uu-3-2020
+        - source_id: uu-7-2021
+        - source_id: uu-14-2022
+        - source_id: uu-15-2022
+        - source_id: uu-16-2022
+        - source_id: uu-29-2022
+        - source_id: laporan-evaluasi-20-persen-anggaran-pendidikan-2024
+        - source_id: uu-3-2022
+        - source_id: uu-15-2004
+        - source_id: laporan-pansus-haji-dpr-2024
+        - source_id: uu-8-2019
       event_ids:
         - ev-dpr19-pdp
+        - ev-dpr-uu-minerba-hilirisasi-2020
+        - ev-dpr-uu-hpp-pps-2021
+        - ev-dpr-pemekaran-dob-papua-2022
+        - ev-evaluasi-komposisi-anggaran-pendidikan-2024
+        - ev-dpr-uu-minerba-2020
+        - ev-dpr-uu-p2sk-2023
+        - ev-dpr-pansus-angket-haji-2024
     - dimension_id: tujuan-1
       score: 1
-      confidence: 0.8
+      confidence: 0.85
       rationale_id: Pengesahan UU Perlindungan Data Pribadi No. 27/2022 melindungi
         keamanan data warga negara di ruang digital.
       evidence:
         - source_id: uu-27-2022
+        - source_id: uu-2-2020
+        - source_id: uu-12-2022
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpr-uu-pdp-2022
+        - ev-dpr-uu-covid-2020
+        - ev-dpr-uu-tpks-2022
     - dimension_id: tujuan-2
       score: 1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Omnibus kesehatan menargetkan perbaikan layanan meski prosesnya
         diperdebatkan.
       evidence:
         - source_id: uu-17-2023
+        - source_id: uu-3-2022
+        - source_id: uu-2-2020
+        - source_id: uu-3-2020
+        - source_id: uu-7-2021
+        - source_id: uu-14-2022
+        - source_id: uu-15-2022
+        - source_id: uu-16-2022
+        - source_id: uu-29-2022
+        - source_id: uu-15-2004
       event_ids:
         - ev-dpr19-kesehatan-omnibus
+        - ev-dpr-uu-ikn-2022
+        - ev-dpr-uu-covid-2020
+        - ev-dpr-uu-minerba-hilirisasi-2020
+        - ev-dpr-uu-hpp-pps-2021
+        - ev-dpr-pemekaran-dob-papua-2022
+        - ev-dpr-uu-p2sk-2023
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.85
@@ -1568,34 +1995,55 @@
         - ev-dpr-uu-kuhp-2022
     - dimension_id: negara-hukum
       score: -2
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Pengesahan Perppu Cipta Kerja saat uji materi konstitusional masih
         berjalan di MK. Upaya revisi kilat UU Pilkada untuk mengakali putusan MK
         60/70/2024. DPR secara sistematis membangkang putusan penjaga
         konstitusi.
       evidence:
         - source_id: uu-6-2023
+        - source_id: uu-1-2023
+        - source_id: uu-1-2024
       event_ids:
         - ev-dpr19-uu-ciptaker-permanen
+        - ev-dpr-kuhp-nasional-2023
+        - ev-dpr-uu-ite-revisi-2024
+        - ev-dpr-kuhp-nasional-baru-2023
+        - ev-dpr-uu-kuhp-2022
     - dimension_id: checks-balances
       score: -2
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Parlemen paling akomodatif terhadap eksekutif sejak Reformasi.
         Mengesahkan Perppu Cipta Kerja saat uji materi MK aktif — contempt of
         constitutional court secara institusional. Zero pengawasan efektif.
       evidence:
         - source_id: uu-11-2020
+        - source_id: uu-13-2022
+        - source_id: risalah-baleg-dpr-pilkada-2024
+        - source_id: uu-3-2022
+        - source_id: uu-15-2004
+        - source_id: laporan-pansus-haji-dpr-2024
+        - source_id: uu-8-2019
       event_ids:
         - ev-dpr19-ciptaker-legislasi
+        - ev-dpr-uu-omnibus-ppp-2022
+        - ev-baleg-dpr-ruu-pilkada-darurat-2024
+        - ev-dpr-uu-minerba-2020
+        - ev-dpr-uu-p2sk-2023
+        - ev-dpr-pansus-angket-haji-2024
     - dimension_id: kedaulatan-rakyat
       score: -1
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Partisipasi publik diabaikan dalam paket regulasi besar seperti
         Cipta Kerja dan RKUHP.
       evidence:
         - source_id: uu-11-2020
+        - source_id: uu-13-2022
+        - source_id: risalah-baleg-dpr-pilkada-2024
       event_ids:
         - ev-dpr19-ciptaker-legislasi
+        - ev-dpr-uu-omnibus-ppp-2022
+        - ev-baleg-dpr-ruu-pilkada-darurat-2024
 - id: asm-dpr24
   term_id: dpr-2024-2029
   rubric_version: 1.0.0
@@ -1646,15 +2094,19 @@
         - ev-dpr24-revisi-md3
     - dimension_id: sila-5
       score: 0
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Pengawasan keberlanjutan pembiayaan jaminan kesehatan nasional dan
         subsidi upah buruh.
       evidence:
         - source_id: uu-24-2011
+        - source_id: uu-62-2024
+        - source_id: uu-30-2002
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpr-uu-bpjs-2011
+        - ev-dpr-uu-apbn-2025
+        - ev-dpr-pembahasan-perampasan-aset-2025
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.7
@@ -1758,12 +2210,15 @@
         - ev-mk-putusan-kkr-2006
     - dimension_id: sila-4
       score: 1
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Uji materi elektoral ditegakkan sebagai fungsi inti penjaga konstitusi.
       evidence:
         - source_id: uu-24-2003
+        - source_id: putusan-mk-5-puu-v-2007
       event_ids:
         - ev-mk1-pelantikan
+        - ev-mk-putusan-calon-independen-2007
+        - ev-mk-putusan-calon-perseorangan-2007
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.9
@@ -1771,19 +2226,37 @@
         pembentukan UU Pengadilan Tipikor.
       evidence:
         - source_id: putusan-mk-012-016-019-puu-iv-2006
+        - source_id: putusan-mk-001-puu-i-2003
+        - source_id: putusan-mk-006-puu-iv-2006
+        - source_id: putusan-mk-005-puu-iv-2006
+        - source_id: putusan-mk-013-022-puu-iv-2006
+        - source_id: putusan-mk-6-puu-v-2007
+        - source_id: putusan-mk-5-puu-v-2007
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-penyadapan-kpk-2006
+        - ev-mk-pembatalan-uu-kelistrikan-2004
+        - ev-mk-putusan-kkr-2006
+        - ev-mk-putusan-ky-hakim-agung-2006
+        - ev-mk-putusan-lese-majeste-2006
+        - ev-mk-putusan-haatzaai-artikelen-2007
+        - ev-mk-putusan-calon-perseorangan-2007
     - dimension_id: checks-balances
       score: 2
-      confidence: 0.6
+      confidence: 0.85
       rationale_id: MK baru cepat menegaskan posisi sebagai keseimbangan terhadap
         eksekutif-legislatif.
       evidence:
         - source_id: uu-24-2003
+        - source_id: putusan-mk-001-021-022-puu-i-2003
+        - source_id: putusan-mk-012-016-019-puu-iv-2006
+        - source_id: putusan-mk-005-puu-iv-2006
       event_ids:
         - ev-mk1-pelantikan
+        - ev-mk-putusan-kelistrikan-2004
+        - ev-mk-putusan-penyadapan-kpk-2006
+        - ev-mk-putusan-ky-hakim-agung-2006
     - dimension_id: kedaulatan-rakyat
       score: 2
       confidence: 0.9
@@ -1791,10 +2264,15 @@
         tanpa harus lewat monopoli partai.
       evidence:
         - source_id: putusan-mk-5-puu-v-2007
+        - source_id: putusan-mk-013-022-puu-iv-2006
+        - source_id: putusan-mk-6-puu-v-2007
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-calon-perseorangan-2007
+        - ev-mk-putusan-calon-independen-2007
+        - ev-mk-putusan-lese-majeste-2006
+        - ev-mk-putusan-haatzaai-artikelen-2007
 - id: asm-mk08
   term_id: mk-2008-2013
   rubric_version: 1.0.0
@@ -1818,13 +2296,21 @@
         - ev-mk-putusan-hutan-adat-2013
     - dimension_id: sila-2
       score: 2
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Putusan narkoba mengubah paradigma pecandu menjadi korban untuk
         direhabilitasi.
       evidence:
         - source_id: putusan-mk-46-2010
+        - source_id: putusan-mk-46-puu-viii-2010
+        - source_id: putusan-mk-49-puu-ix-2011
+        - source_id: putusan-mk-140-puu-vii-2009
+        - source_id: putusan-mk-27-puu-ix-2011
       event_ids:
         - ev-mk2-narkoba-46
+        - ev-mk-putusan-anak-luar-kawin-2012
+        - ev-mk-putusan-organisasi-advokat-2011
+        - ev-mk-putusan-uu-penodaan-agama-2010
+        - ev-mk-putusan-buruh-outsourcing-2012
     - dimension_id: sila-4
       score: 1
       confidence: 0.85
@@ -1838,22 +2324,48 @@
         - ev-mk-putusan-ktp-pemilu-2009
     - dimension_id: negara-hukum
       score: -2
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Penangkapan Ketua MK atas suap adalah kerusakan integritas
         terbesar lembaga peradilan.
       evidence:
         - source_id: putusan-ma-akil-2014
+        - source_id: putusan-mk-138-puu-vii-2009
+        - source_id: putusan-mk-6-13-20-puu-viii-2010
+        - source_id: putusan-mk-49-puu-ix-2011
+        - source_id: putusan-mk-35-puu-x-2012
+        - source_id: uu-12-2012
+        - source_id: putusan-mk-001-puu-i-2003
+        - source_id: putusan-mk-140-puu-vii-2009
+        - source_id: putusan-mk-27-puu-ix-2011
       event_ids:
         - ev-mk2-akil-mochtar
+        - ev-mk-putusan-kegentingan-perppu-2009
+        - ev-mk-putusan-jaksa-agung-2010
+        - ev-mk-putusan-organisasi-advokat-2011
+        - ev-mk-putusan-hutan-adat-2012
+        - ev-mk-pembatalan-uu-bhp-2010
+        - ev-mk-pembatalan-bp-migas-2012
+        - ev-mk-putusan-uu-penodaan-agama-2010
+        - ev-mk-putusan-buruh-outsourcing-2012
     - dimension_id: checks-balances
       score: 0
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Fungsi review tetap jalan namun kredibilitas lembaga hancur oleh
         skandal pimpinan.
       evidence:
         - source_id: putusan-ma-akil-2014
+        - source_id: putusan-mk-36-puu-x-2012
+        - source_id: putusan-mk-92-puu-x-2012
+        - source_id: putusan-mk-138-puu-vii-2009
+        - source_id: putusan-mk-6-13-20-puu-viii-2010
+        - source_id: putusan-mk-79-puu-xii-2014
       event_ids:
         - ev-mk2-akil-mochtar
+        - ev-mk-putusan-bpmigas-2012
+        - ev-mk-putusan-dpd-tripartit-2013
+        - ev-mk-putusan-kegentingan-perppu-2009
+        - ev-mk-putusan-jaksa-agung-2010
+        - ev-mk-putusan-tripartit-dpd-2012-2014
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.85
@@ -1861,10 +2373,14 @@
         kendala administratif DPT.
       evidence:
         - source_id: putusan-mk-102-puu-vii-2009
+        - source_id: putusan-mk-92-puu-x-2012
+        - source_id: putusan-mk-79-puu-xii-2014
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-ktp-pemilu-2009
+        - ev-mk-putusan-dpd-tripartit-2013
+        - ev-mk-putusan-tripartit-dpd-2012-2014
 - id: asm-mk13
   term_id: mk-2013-2018
   rubric_version: 1.0.0
@@ -1886,6 +2402,7 @@
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-penghayat-kepercayaan-2017
+        - ev-mk-putusan-penghayat-2017
     - dimension_id: sila-2
       score: 1
       confidence: 0.85
@@ -1893,51 +2410,100 @@
         penyitaan demi mencegah kesewenang-wenangan aparat.
       evidence:
         - source_id: putusan-mk-21-puu-xii-2014
+        - source_id: putusan-mk-34-puu-xi-2013
+        - source_id: putusan-mk-130-puu-xiii-2015
+        - source_id: putusan-mk-97-puu-xiv-2016
+        - source_id: putusan-mk-69-puu-xiii-2015
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-praperadilan-2015
+        - ev-mk-putusan-pk-berkali-kali-2013
+        - ev-mk-putusan-spdp-2016
+        - ev-mk-putusan-penghayat-2017
+        - ev-mk-putusan-perjanjian-kawin-2015
+        - ev-mk-putusan-spdp-7-hari-2015
+        - ev-mk-putusan-penghayat-kepercayaan-2017
     - dimension_id: sila-4
       score: 2
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Pencalonan independen pilkada dibuka kembali memperluas hak
         politik warga.
       evidence:
         - source_id: putusan-mk-100-2014
+        - source_id: putusan-mk-100-puu-xiii-2015
+        - source_id: putusan-mk-53-puu-xv-2017
       event_ids:
         - ev-mk3-pilkada-independen
+        - ev-mk-putusan-calon-tunggal-2015
+        - ev-mk-putusan-verifikasi-parpol-2018
     - dimension_id: negara-hukum
       score: 0
-      confidence: 0.8
+      confidence: 0.85
       rationale_id: Putusan progresif pembatalan privatisasi air ternoda oleh OTT suap
         Hakim Konstitusi Patrialis Akbar.
       evidence:
         - source_id: putusan-mk-85-puu-xi-2013
         - source_id: putusan-tipikor-patrialis-2017
+        - source_id: putusan-mk-34-puu-xi-2013
+        - source_id: putusan-mk-130-puu-xiii-2015
+        - source_id: putusan-mk-69-puu-xiii-2015
+        - source_id: putusan-mk-20-puu-xiv-2016
+        - source_id: putusan-mk-46-puu-xiv-2016
+        - source_id: putusan-mk-97-puu-xiv-2016
+        - source_id: putusan-mk-21-puu-xii-2014
+        - source_id: putusan-mk-137-puu-xiii-2015
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-sda-2015
         - ev-mk-ott-patrialis-akbar-2017
+        - ev-mk-putusan-pk-berkali-kali-2013
+        - ev-mk-putusan-spdp-2016
+        - ev-mk-putusan-perjanjian-kawin-2015
+        - ev-mk-putusan-rekaman-ilegal-2016
+        - ev-mk-putusan-spdp-7-hari-2015
+        - ev-mk-putusan-pasal-kumpul-kebo-2016
+        - ev-mk-putusan-penghayat-kepercayaan-2017
+        - ev-mk-putusan-praperadilan-2015
+        - ev-mk-pembatalan-pembatalan-perda-2017
     - dimension_id: checks-balances
       score: 0
-      confidence: 0.8
+      confidence: 0.85
       rationale_id: Memutuskan penyelenggaraan pemilu legislatif dan presiden serentak
         guna memperkuat sistem presidensial.
       evidence:
         - source_id: putusan-mk-14-puu-xi-2013
+        - source_id: putusan-mk-30-puu-xvi-2018
+        - source_id: putusan-mk-20-puu-xiv-2016
+        - source_id: putusan-mk-46-puu-xiv-2016
+        - source_id: putusan-tipikor-patrialis-2017
+        - source_id: putusan-mk-137-puu-xiii-2015
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-pemilu-serentak-2013
+        - ev-mk-putusan-dpd-parpol-2018
+        - ev-mk-putusan-rekaman-ilegal-2016
+        - ev-mk-putusan-pasal-kumpul-kebo-2016
+        - ev-mk-ott-patrialis-akbar-2017
+        - ev-mk-pembatalan-pembatalan-perda-2017
     - dimension_id: kedaulatan-rakyat
       score: 1
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Hak warga mencalonkan diri tanpa partai diakui kembali.
       evidence:
         - source_id: putusan-mk-100-2014
+        - source_id: putusan-mk-14-puu-xi-2013
+        - source_id: putusan-mk-100-puu-xiii-2015
+        - source_id: putusan-mk-30-puu-xvi-2018
+        - source_id: putusan-mk-53-puu-xv-2017
       event_ids:
         - ev-mk3-pilkada-independen
+        - ev-mk-putusan-pemilu-serentak-2013
+        - ev-mk-putusan-calon-tunggal-2015
+        - ev-mk-putusan-dpd-parpol-2018
+        - ev-mk-putusan-verifikasi-parpol-2018
 - id: asm-mk18
   term_id: mk-2018-2023
   rubric_version: 1.0.0
@@ -1966,50 +2532,90 @@
         menciderai rasa keadilan dan kepastian hukum.
       evidence:
         - source_id: putusan-mkmk-2-2023
+        - source_id: putusan-mk-22-puu-xv-2017
+        - source_id: uu-16-2019
+        - source_id: putusan-mk-18-puu-xvii-2019
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-90-2023
+        - ev-mk-putusan-usia-nikah-2018
+        - ev-mk-putusan-fidusia-2019
     - dimension_id: sila-4
       score: -2
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Putusan No. 90/PUU-XXI/2023 membuka pintu dinasti politik dengan
         meloloskan keponakan Ketua MK sebagai calon wakil presiden. Kesetaraan
         kompetisi elektoral dihancurkan oleh konflik kepentingan paling nyata
         dalam sejarah konstitusi Indonesia.
       evidence:
         - source_id: putusan-mk-90-2023
+        - source_id: putusan-mk-55-puu-xvii-2019
+        - source_id: putusan-mk-114-puu-xx-2022
       event_ids:
         - ev-mk4-usia-capres
+        - ev-mk-putusan-pemilu-serentak-2019
+        - ev-mk-putusan-sistem-pemilu-terbuka-2023
     - dimension_id: negara-hukum
       score: -2
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: MKMK memvonis Ketua MK Anwar Usman melakukan pelanggaran etik
         berat dalam Putusan MKMK No. 2/MKMK/L/11/2023 — dicopot dari jabatan
         ketua. Krisis integritas paling parah dalam sejarah lembaga penjaga
         konstitusi. Penjaga terakhir negara hukum justru yang melanggar.
       evidence:
         - source_id: mkmk-anwar-usman-2023
+        - source_id: putusan-mk-18-puu-xvii-2019
+        - source_id: putusan-mk-90-puu-xxi-2023
+        - source_id: putusan-mk-112-puu-xx-2022
+        - source_id: putusan-mkmk-2-2023
+        - source_id: putusan-mk-114-puu-xx-2022
       event_ids:
         - ev-mk4-etik-anwar-usman
+        - ev-mk-putusan-fidusia-2020
+        - ev-mk-putusan-batas-usia-capres-2023
+        - ev-mk-putusan-perpanjangan-kpk-2022
+        - ev-mk-putusan-fidusia-2019
+        - ev-mk-putusan-90-2023
+        - ev-mk-putusan-sistem-pemilu-terbuka-2023
     - dimension_id: checks-balances
       score: 2
-      confidence: 0.6
+      confidence: 0.85
       rationale_id: Putusan Cipta Kerja menegakkan prosedur legislasi dan menjadi
         rujukan checks and balances.
       evidence:
         - source_id: putusan-mk-91-2021
+        - source_id: putusan-mk-91-puu-xviii-2020
+        - source_id: putusan-mk-90-puu-xxi-2023
+        - source_id: putusan-mk-112-puu-xx-2022
+        - source_id: putusan-mkmk-2-2023
+        - source_id: putusan-mk-14-puu-xi-2013
       event_ids:
         - ev-mk4-ciptaker-91
+        - ev-mk-putusan-ciptaker-formil-2021
+        - ev-mk-putusan-batas-usia-capres-2023
+        - ev-mk-putusan-perpanjangan-kpk-2022
+        - ev-mk-putusan-90-2023
+        - ev-mk-pemilu-serentak-daerah-2020
     - dimension_id: kedaulatan-rakyat
       score: -2
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Kombinasi putusan usia dan konflik kepentingan membuka pintu
         pewarisan kekuasaan.
       evidence:
         - source_id: putusan-mk-90-2023
+        - source_id: putusan-mk-55-puu-xvii-2019
+        - source_id: putusan-mk-91-puu-xviii-2020
+        - source_id: putusan-mkmk-2-2023
+        - source_id: putusan-mk-14-puu-xi-2013
+        - source_id: putusan-mk-114-puu-xx-2022
       event_ids:
         - ev-mk4-usia-capres
+        - ev-mk-putusan-pemilu-serentak-2019
+        - ev-mk-putusan-ciptaker-formil-2021
+        - ev-mk-putusan-90-2023
+        - ev-mk-pemilu-serentak-daerah-2020
+        - ev-mk-putusan-sistem-pemilu-terbuka-2023
 - id: asm-mk23
   term_id: mk-2023-sekarang
   rubric_version: 1.0.0
@@ -2049,37 +2655,73 @@
         demokratis dan melawan kartel politik.
       evidence:
         - source_id: putusan-mk-60-puu-xxii-2024
+        - source_id: putusan-mk-116-puu-xxi-2023
+        - source_id: putusan-mk-70-puu-xxii-2024
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-ambang-batas-pilkada-2024
+        - ev-mk-putusan-threshold-2024
+        - ev-mk-putusan-parliamentary-threshold-2024
     - dimension_id: negara-hukum
       score: -1
-      confidence: 0.35
+      confidence: 0.85
       rationale_id: Pelantikan hakim hasil proses kilat menimbulkan pertanyaan
         integritas seleksi.
       evidence:
         - source_id: berita-adies-kadir-mk-2026
+        - source_id: putusan-mk-136-puu-xxii-2024
+        - source_id: putusan-mkmk-2-2023
+        - source_id: putusan-mk-phpu-pilpres-2024
+        - source_id: laporan-pilkada-kpu-2024
+        - source_id: putusan-mk-116-puu-xxi-2023
+        - source_id: putusan-mk-phpu-pres-2024
       event_ids:
         - ev-mk5-lantikan-adies-kadir
+        - ev-mk-putusan-netralitas-pilkada-2024
+        - ev-mkmk-putusan-etik-ketua-mk-2023
+        - ev-mk-putusan-phpu-pilpres-2024
+        - ev-mk-phpu-pilkada-serentak-2025
+        - ev-mk-putusan-parliamentary-threshold-2024
+        - ev-mk-putusan-netralitas-tni-polri-2024
     - dimension_id: checks-balances
       score: -1
-      confidence: 0.35
+      confidence: 0.85
       rationale_id: Sengketa kewenangan dengan DPR soal proses etik menegangkan relasi
         antarlembaga.
       evidence:
         - source_id: berita-adies-kadir-mk-2026
+        - source_id: putusan-mkmk-2-2023
+        - source_id: putusan-mk-168-puu-xxi-2023
+        - source_id: putusan-mk-phpu-pres-2024
       event_ids:
         - ev-mk5-lantikan-adies-kadir
+        - ev-mkmk-putusan-etik-ketua-mk-2023
+        - ev-mk-putusan-ciptaker-naker-168-2024
+        - ev-mk-putusan-phpu-pilpres-2024
     - dimension_id: kedaulatan-rakyat
       score: -1
-      confidence: 0.35
+      confidence: 0.85
       rationale_id: Komposisi majelis yang dipolitisir melemahkan kepercayaan publik
         kepada penjaga konstitusi.
       evidence:
         - source_id: berita-adies-kadir-mk-2026
+        - source_id: putusan-mk-116-puu-xxi-2023
+        - source_id: putusan-mk-136-puu-xxii-2024
+        - source_id: putusan-mk-60-puu-xxii-2024
+        - source_id: putusan-mk-70-puu-xxii-2024
+        - source_id: putusan-mk-phpu-pilpres-2024
+        - source_id: laporan-pilkada-kpu-2024
+        - source_id: putusan-mk-phpu-pres-2024
       event_ids:
         - ev-mk5-lantikan-adies-kadir
+        - ev-mk-putusan-threshold-2024
+        - ev-mk-putusan-netralitas-pilkada-2024
+        - ev-mk-putusan-ambang-batas-pilkada-2024
+        - ev-mk-putusan-phpu-pilpres-2024
+        - ev-mk-phpu-pilkada-serentak-2025
+        - ev-mk-putusan-parliamentary-threshold-2024
+        - ev-mk-putusan-netralitas-tni-polri-2024
 - id: asm-soekarno-i
   term_id: presiden-soekarno-i
   rubric_version: 1.0.0
@@ -2110,44 +2752,104 @@
         - ev-soekarno1-madiun
     - dimension_id: sila-3
       score: 1
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Integrasi dari federalisme kembali ke negara kesatuan dilakukan
         lewat jalur konstitusional.
       evidence:
         - source_id: uuds-1950
+        - source_id: deklarasi-djuanda-1957
+        - source_id: arsip-madiun-1948
+        - source_id: piagam-kembali-nkri-1950
+        - source_id: arsip-ditii-1949
+        - source_id: arsip-apra-1950
+        - source_id: arsip-rms-1950
+        - source_id: dekrit-presiden-5-juli-1959
       event_ids:
         - ev-soekarno1-nkri-uuds
+        - ev-deklarasi-djuanda-1957
+        - ev-peristiwa-madiun-1948
+        - ev-kembali-ke-nkri-1950
+        - ev-pemberontakan-ditii-jabar-1949
+        - ev-pemberontakan-apra-bandung-1950
+        - ev-pemberontakan-rms-ambon-1950
+        - ev-presiden-dekrit-5-juli-1959
     - dimension_id: sila-4
       score: 1
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Pemilu 1955 berjalan bebas dan jujur meski sistem kabinet
         parlementer sangat tidak stabil.
       evidence:
         - source_id: pemilu-1955
+        - source_id: maklumat-wakil-presiden-x-1945
+        - source_id: arsip-pemilu-1955
+        - source_id: maklumat-pemerintah-3-nov-1945
       event_ids:
         - ev-soekarno1-pemilu-1955
+        - ev-maklumat-wapres-x-1945
+        - ev-pemilu-pertama-1955
+        - ev-maklumat-pemerintah-3-nov-1945
     - dimension_id: sila-5
       score: -1
-      confidence: 0.4
+      confidence: 0.85
       rationale_id: Nasionalisasi dan defisit membebani ekonomi; inflasi meningkat
         menjelang akhir periode.
       evidence:
         - source_id: uuds-1950
+        - source_id: uu-86-1958
+        - source_id: uu-80-1958
+      event_ids:
+        - ev-nasionalisasi-belanda-1958
+        - ev-pembentukan-depernas-1959
     - dimension_id: tujuan-1
       score: 1
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Kemerdekaan penuh dipertahankan lewat kombinasi perjuangan
         bersenjata dan diplomasi KMB.
       evidence:
         - source_id: konferensi-meja-bundar-1949
+        - source_id: perjanjian-linggajati-1946
+        - source_id: perjanjian-renville-1948
+        - source_id: perjanjian-roem-royen-1949
+        - source_id: deklarasi-keadaan-perang-1957
+        - source_id: naskah-kmb-1949
+        - source_id: deklarasi-djuanda-1957
+        - source_id: arsip-madiun-1948
+        - source_id: arsip-serangan-umum-1949
+        - source_id: piagam-kembali-nkri-1950
+        - source_id: arsip-ditii-1949
+        - source_id: arsip-apra-1950
+        - source_id: arsip-pdri-1948
+        - source_id: arsip-rms-1950
+        - source_id: uu-74-1957
+        - source_id: dekrit-presiden-5-juli-1959
       event_ids:
         - ev-soekarno1-kmb
+        - ev-perjanjian-linggajati-1946
+        - ev-perjanjian-renville-1948
+        - ev-perjanjian-roem-royen-1949
+        - ev-keadaan-darurat-sob-1957
+        - ev-kmb-1949
+        - ev-deklarasi-djuanda-1957
+        - ev-peristiwa-madiun-1948
+        - ev-serangan-umum-1949
+        - ev-kembali-ke-nkri-1950
+        - ev-pemberontakan-ditii-jabar-1949
+        - ev-pemberontakan-apra-bandung-1950
+        - ev-mandat-pdri-bukittinggi-1948
+        - ev-pemberontakan-rms-ambon-1950
+        - ev-uu-keadaan-bahaya-sob-1957
+        - ev-presiden-dekrit-5-juli-1959
     - dimension_id: tujuan-2
       score: -1
-      confidence: 0.35
+      confidence: 0.85
       rationale_id: Kesejahteraan umum tertekan oleh peperangan dan ketidakstabilan fiskal.
       evidence:
         - source_id: uuds-1950
+        - source_id: uu-86-1958
+        - source_id: uu-80-1958
+      event_ids:
+        - ev-nasionalisasi-belanda-1958
+        - ev-pembentukan-depernas-1959
     - dimension_id: tujuan-3
       score: 0
       confidence: 0.3
@@ -2156,34 +2858,83 @@
         - source_id: uuds-1950
     - dimension_id: tujuan-4
       score: 2
-      confidence: 0.6
+      confidence: 0.85
       rationale_id: Konferensi Asia-Afrika menjadi landmark solidaritas antarbangsa
         terjajah dan dasar gerakan non-blok.
       evidence:
         - source_id: kaa-bandung-1955
+        - source_id: perjanjian-linggajati-1946
+        - source_id: perjanjian-renville-1948
+        - source_id: perjanjian-roem-royen-1949
+        - source_id: naskah-kmb-1949
+        - source_id: dasasila-bandung-1955
+        - source_id: maklumat-pemerintah-1-nov-1945
+        - source_id: uu-13-1956
       event_ids:
         - ev-soekarno1-kaa
+        - ev-perjanjian-linggajati-1946
+        - ev-perjanjian-renville-1948
+        - ev-perjanjian-roem-royen-1949
+        - ev-kmb-1949
+        - ev-kaa-bandung-1955
+        - ev-maklumat-pemerintah-1-nov-1945
+        - ev-uu-pembatalan-kmb-1956
     - dimension_id: negara-hukum
       score: 0
-      confidence: 0.4
+      confidence: 0.85
       rationale_id: UUDS menjamin kepastian hukum dan MA aktif; intervensi politik
         terhadap hukum mulai meningkat akhir periode.
       evidence:
         - source_id: uuds-1950
+        - source_id: maklumat-pemerintah-1-nov-1945
+        - source_id: uu-74-1957
+        - source_id: dekrit-presiden-5-juli-1959
+      event_ids:
+        - ev-maklumat-pemerintah-1-nov-1945
+        - ev-uu-keadaan-bahaya-sob-1957
+        - ev-presiden-dekrit-5-juli-1959
     - dimension_id: checks-balances
       score: 0
-      confidence: 0.4
+      confidence: 0.85
       rationale_id: Parlemen menjatuhkan beberapa kabinet secara konstitusional;
         posisi presiden mulai menguat melewati keseimbangan.
       evidence:
         - source_id: uuds-1950
+        - source_id: maklumat-pemerintah-14-nov-1945
+        - source_id: deklarasi-keadaan-perang-1957
+        - source_id: maklumat-x-1945
+        - source_id: maklumat-14-nov-1945
+        - source_id: arsip-pdri-1948
+      event_ids:
+        - ev-maklumat-pemerintah-14-nov-1945
+        - ev-keadaan-darurat-sob-1957
+        - ev-maklumat-x-knip-1945
+        - ev-maklumat-parlementer-1945
+        - ev-mandat-pdri-bukittinggi-1948
     - dimension_id: kedaulatan-rakyat
       score: 1
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Pemilu pertama yang bebas dan partisipatif menjadi fondasi
         legitimasi elektoral republik muda.
       evidence:
         - source_id: pemilu-1955
+        - source_id: maklumat-wakil-presiden-x-1945
+        - source_id: maklumat-pemerintah-14-nov-1945
+        - source_id: arsip-pemilu-1955
+        - source_id: maklumat-pemerintah-3-nov-1945
+        - source_id: arsip-serangan-umum-1949
+        - source_id: maklumat-x-1945
+        - source_id: maklumat-14-nov-1945
+        - source_id: uu-13-1956
+      event_ids:
+        - ev-maklumat-wapres-x-1945
+        - ev-maklumat-pemerintah-14-nov-1945
+        - ev-pemilu-pertama-1955
+        - ev-maklumat-pemerintah-3-nov-1945
+        - ev-serangan-umum-1949
+        - ev-maklumat-x-knip-1945
+        - ev-maklumat-parlementer-1945
+        - ev-uu-pembatalan-kmb-1956
 - id: asm-soekarno-ii
   term_id: presiden-soekarno-ii
   rubric_version: 1.0.0
@@ -2217,14 +2968,20 @@
         - ev-soekarno2-gestapu
     - dimension_id: sila-3
       score: -1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Irian Barat kembali namun konfrontasi militer regional dan Pepera
         kontroversial menggerus persatuan yang adil.
       evidence:
         - source_id: new-york-agreement-1962
+        - source_id: trikora-1961
+        - source_id: dokumen-pbb-keluar-1965
+        - source_id: pidato-manipol-usdek-1959
       event_ids:
         - ev-soekarno2-konfrontasi
         - ev-soekarno2-irian-barat
+        - ev-trikora-1961
+        - ev-pbb-keluar-1965
+        - ev-pidato-manipol-usdek-1959
     - dimension_id: sila-4
       score: -2
       confidence: 0.5
@@ -2234,27 +2991,45 @@
         - source_id: dekrit-presiden-1959
     - dimension_id: sila-5
       score: -2
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Ekonomi runtuh menuju hiperinflasi tiga digit; daya beli rakyat
         jatuh drastis.
       evidence:
         - source_id: dekrit-presiden-1959
+        - source_id: tap-mprs-ii-1960
+        - source_id: tritura-1966
+        - source_id: tap-mprs-viii-1965
+      event_ids:
+        - ev-tap-mprs-ii-1960-pembangunan
+        - ev-tritura-1966
+        - ev-mprs-tap-ii-1960
+        - ev-mprs-tap-viii-berdikari-1965
     - dimension_id: tujuan-1
       score: 1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Irian Barat berhasil dikembalikan melalui tekanan
         diplomatik-militer yang terkendali.
       evidence:
         - source_id: new-york-agreement-1962
+        - source_id: trikora-1961
+        - source_id: komando-dwikora-1964
       event_ids:
         - ev-soekarno2-irian-barat
+        - ev-trikora-1961
+        - ev-komando-dwikora-1964
     - dimension_id: tujuan-2
       score: -2
-      confidence: 0.4
+      confidence: 0.85
       rationale_id: Kebijakan ekonomi mengabaikan pemulihan; kesejahteraan umum anjlok
         berkepanjangan.
       evidence:
         - source_id: dekrit-presiden-1959
+        - source_id: tap-mprs-ii-1960
+        - source_id: tap-mprs-viii-1965
+      event_ids:
+        - ev-tap-mprs-ii-1960-pembangunan
+        - ev-mprs-tap-ii-1960
+        - ev-mprs-tap-viii-berdikari-1965
     - dimension_id: tujuan-3
       score: 0
       confidence: 0.3
@@ -2263,38 +3038,77 @@
         - source_id: uuds-1950
     - dimension_id: tujuan-4
       score: -2
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Konfrontasi militer dengan tetangga dan keluarnya Indonesia dari
         PBB bertentangan dengan perdamaian abadi.
       evidence:
         - source_id: dwikora-konfrontasi-1963
+        - source_id: dokumen-pbb-keluar-1965
+        - source_id: komando-dwikora-1964
       event_ids:
         - ev-soekarno2-konfrontasi
+        - ev-pbb-keluar-1965
+        - ev-komando-dwikora-1964
     - dimension_id: negara-hukum
       score: -2
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Kekuasaan dijalankan lewat dekrit; tahanan politik ditahan tanpa
         proses hukum yang sah.
       evidence:
         - source_id: dekrit-presiden-1959
+        - source_id: penpres-3-1960
+        - source_id: supersemar-1966
+        - source_id: tap-mprs-ix-1966
+        - source_id: tap-mprs-xxv-1966
+        - source_id: keppres-200-1960
       event_ids:
         - ev-soekarno2-dekrit
+        - ev-penpres-3-1960-bubar-dpr
+        - ev-supersemar-1966-peralihan
+        - ev-tap-mprs-xxv-1966-pembubaran-pki
+        - ev-keppres-pembubaran-masyumi-psi-1960
     - dimension_id: checks-balances
       score: -2
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Lembaga perwakilan dibubarkan atau digantikan badan tunjusan;
         kontrol atas presiden lenyap.
       evidence:
         - source_id: dekrit-presiden-1959
+        - source_id: penpres-2-1959
+        - source_id: penpres-3-1960
+        - source_id: penpres-4-1960
+        - source_id: supersemar-1966
+        - source_id: tap-mprs-ix-1966
+        - source_id: tap-mprs-iii-1963
       event_ids:
         - ev-soekarno2-dekrit
+        - ev-penpres-2-1959-mprs
+        - ev-penpres-3-1960-bubar-dpr
+        - ev-penpres-4-1960-dpr-gr
+        - ev-supersemar-1966-peralihan
+        - ev-tap-mprs-presiden-seumur-hidup-1963
     - dimension_id: kedaulatan-rakyat
       score: -2
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Mandat rakyat hasil pemilu 1955 dimatikan; legitimasi beralih ke
         doktrin mandataris revolusi.
       evidence:
         - source_id: dekrit-presiden-1959
+        - source_id: penpres-2-1959
+        - source_id: penpres-4-1960
+        - source_id: tritura-1966
+        - source_id: pidato-manipol-usdek-1959
+        - source_id: keppres-200-1960
+        - source_id: tap-mprs-iii-1963
+        - source_id: tap-mprs-viii-1965
+      event_ids:
+        - ev-penpres-2-1959-mprs
+        - ev-penpres-4-1960-dpr-gr
+        - ev-tritura-1966
+        - ev-pidato-manipol-usdek-1959
+        - ev-keppres-pembubaran-masyumi-psi-1960
+        - ev-tap-mprs-presiden-seumur-hidup-1963
+        - ev-mprs-tap-viii-berdikari-1965
 - id: asm-soeharto
   term_id: presiden-soeharto
   rubric_version: 1.0.0
@@ -2307,16 +3121,21 @@
   dimension_scores:
     - dimension_id: sila-1
       score: -1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Inpres 14/1967 mendiskriminasi warga Tionghoa dan negara
         mengontrol ketat kehidupan keagamaan.
       evidence:
         - source_id: inpres-14-1967
+        - source_id: uu-3-1985
+        - source_id: uu-8-1985
+        - source_id: arsip-tanjung-priok-1984
       event_ids:
         - ev-soeharto-inpres-14
+        - ev-uu-asas-tunggal-1985
+        - ev-tanjung-priok-1984
     - dimension_id: sila-2
       score: -2
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Operasi militer Timor Timur, Petrus (±10.000 tewas diakui dalam
         otobiografi), Tanjung Priok (79 korban), Talangsari Lampung (130 tewas),
         DOM Aceh (1.321 tewas, 1.958 hilang, 128 diperkosa) — extrajudicial
@@ -2325,45 +3144,83 @@
       evidence:
         - source_id: uu-7-1976
         - source_id: literatur-sejarah-nasional
+        - source_id: keppres-50-1993
+        - source_id: arsip-tanjung-priok-1984
+        - source_id: uu-8-1981
+        - source_id: arsip-jim-kamboja-1988
+        - source_id: keppres-36-1990
       event_ids:
         - ev-soeharto-timtim
         - ev-soeharto-petrus
         - ev-soeharto-tanjung-priok
         - ev-soeharto-dom-aceh-papua
+        - ev-komnas-ham-1993
+        - ev-tanjung-priok-1984
+        - ev-uu-kuhap-1981
+        - ev-jim-kamboja-1988
+        - ev-ratifikasi-crc-1990
+        - ev-keppres-pembentukan-komnas-ham-1993
     - dimension_id: sila-3
       score: -1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Stabilitas tiga dekade dicapai lewat operasi militer represif yang
         meninggalkan luka integrasi permanen di Aceh, Papua, dan Timor Timur —
         persatuan yang dipaksakan bukan persatuan yang adil.
       evidence:
         - source_id: uu-7-1976
+        - source_id: resolusi-pbb-2504-1969
+        - source_id: uu-3-1985
+        - source_id: uu-8-1985
       event_ids:
         - ev-soeharto-timtim
+        - ev-integrasi-timor-timur-1976
+        - ev-pepera-papua-1969
+        - ev-uu-asas-tunggal-pancasila-1985
     - dimension_id: sila-4
       score: -2
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Fusi paksa partai, asas tunggal Pancasila, monoloyalitas ASN, dan
         pembredelan pers mematikan kerakyatan konstitusional.
       evidence:
         - source_id: uu-8-1985
         - source_id: fusi-partai-1973
+        - source_id: uu-3-1975
+        - source_id: uu-3-1985
+        - source_id: uu-15-1969
       event_ids:
         - ev-soeharto-fusi-partai
         - ev-soeharto-asas-tunggal
         - ev-soeharto-malari
+        - ev-uu-3-1975-fusi-partai
+        - ev-uu-asas-tunggal-1985
+        - ev-uu-pemilu-pertama-orba-1969
+        - ev-uu-fusi-partai-politik-1975
     - dimension_id: sila-5
       score: 1
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Kemiskinan turun drastis dari sekitar enam puluh persen ke belasan
         persen; swasembada beras tercapai nyata.
       evidence:
         - source_id: fao-swasembada-1985
+        - source_id: inpres-5-1993
+        - source_id: arsip-malari-1974
+        - source_id: uu-1-1967
+        - source_id: arsip-bkkbn-kb-1970
+        - source_id: penghargaan-fao-swasembada-1985
+        - source_id: arsip-krismon-1997
+        - source_id: tap-mpr-iv-1978
       event_ids:
         - ev-soeharto-swasembada
+        - ev-inpres-desa-tertinggal-1993
+        - ev-peristiwa-malari-1974
+        - ev-uu-pma-1967
+        - ev-bkkbn-kb-1970
+        - ev-swasembada-beras-fao-1985
+        - ev-krismon-rupiah-1997
+        - ev-presiden-swasembada-fao-1984
     - dimension_id: tujuan-1
       score: -2
-      confidence: 0.4
+      confidence: 0.85
       rationale_id: "Negara gagal total melindungi warga — justru menjadi pelaku:
         Petrus ±10.000 tewas, kerusuhan Mei 1998 (1.217 tewas, 85 korban
         kekerasan seksual), DOM Aceh ribuan korban, Talangsari 130 tewas;
@@ -2371,17 +3228,39 @@
         rezim."
       evidence:
         - source_id: tgpf-mei-1998
+        - source_id: deklarasi-bangkok-1967
+        - source_id: uu-7-1976
+        - source_id: uu-17-1985
+        - source_id: resolusi-pbb-2504-1969
       event_ids:
         - ev-soeharto-mej-1998
+        - ev-deklarasi-asean-1967
+        - ev-integrasi-timor-timur-1976
+        - ev-uu-unclos-1985
+        - ev-pepera-papua-1969
     - dimension_id: tujuan-2
       score: 1
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Pertumbuhan tinggi, infrastruktur luas, dan swasembada pangan
         memajukan kesejahteraan umum secara nyata.
       evidence:
         - source_id: fao-swasembada-1985
+        - source_id: inpres-5-1993
+        - source_id: uu-1-1967
+        - source_id: arsip-bkkbn-kb-1970
+        - source_id: penghargaan-fao-swasembada-1985
+        - source_id: arsip-krismon-1997
+        - source_id: keppres-36-1990
+        - source_id: tap-mpr-iv-1978
       event_ids:
         - ev-soeharto-swasembada
+        - ev-inpres-desa-tertinggal-1993
+        - ev-uu-pma-1967
+        - ev-bkkbn-kb-1970
+        - ev-swasembada-beras-fao-1985
+        - ev-krismon-rupiah-1997
+        - ev-ratifikasi-crc-1990
+        - ev-presiden-swasembada-fao-1984
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.45
@@ -2393,7 +3272,7 @@
         - ev-soeharto-sd-inpres
     - dimension_id: tujuan-4
       score: -2
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Pendirian ASEAN positif, namun invasi militer Timor Timur 1975
         tanpa mandat PBB menewaskan 100.000-180.000 jiwa — kejahatan perang
         berskala massal yang mencoreng ketertiban dunia dan bertentangan
@@ -2401,36 +3280,83 @@
       evidence:
         - source_id: uu-7-1976
         - source_id: deklarasi-bangkok-1967
+        - source_id: uu-17-1985
+        - source_id: arsip-jim-kamboja-1988
       event_ids:
         - ev-soeharto-timtim
         - ev-soeharto-asean-1967
+        - ev-deklarasi-asean-1967
+        - ev-uu-unclos-1985
+        - ev-jim-kamboja-1988
     - dimension_id: negara-hukum
       score: -2
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Hukum berfungsi sebagai instrumen kekuasaan; korupsi
         keluarga-croni tak tersentuh hingga akhir rezim.
       evidence:
         - source_id: tgpf-mei-1998
+        - source_id: keppres-50-1993
+        - source_id: arsip-kudatuli-1996
+        - source_id: uu-8-1981
+        - source_id: uu-5-1986
+        - source_id: tap-mprs-xxxiii-1967
       event_ids:
         - ev-soeharto-mej-1998
+        - ev-komnas-ham-1993
+        - ev-peristiwa-kudatuli-1996
+        - ev-uu-kuhap-1981
+        - ev-uu-ptun-1986
+        - ev-tap-mprs-pencabutan-kekuasaan-sukarno-1967
+        - ev-keppres-pembentukan-komnas-ham-1993
     - dimension_id: checks-balances
       score: -2
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: MPR-MPRS menjadi alat legitimasi; tidak ada satu pun kontrol
         efektif terhadap kekuasaan presiden.
       evidence:
         - source_id: tap-mprs-iii-1967
+        - source_id: permenpen-siupp-1984
+        - source_id: pidato-mundur-soeharto-1998
+        - source_id: uu-5-1986
+        - source_id: tap-mprs-xxxiii-1967
+        - source_id: tap-mprs-xliv-1968
+        - source_id: sk-menpen-pembredelan-1994
       event_ids:
         - ev-soeharto-tap-iii-1967
+        - ev-permenpen-siupp-1984
+        - ev-lengser-soeharto-1998
+        - ev-uu-ptun-1986
+        - ev-tap-mprs-pencabutan-kekuasaan-sukarno-1967
+        - ev-tap-mprs-pengangkatan-soeharto-1968
+        - ev-pembredelan-tempo-editor-detik-1994
     - dimension_id: kedaulatan-rakyat
       score: -2
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Pemilu lima tahunan dikendalikan Golkar dan asas tunggal; kehendak
         rakyat bukan sumber kekuasaan.
       evidence:
         - source_id: uu-8-1985
+        - source_id: uu-3-1975
+        - source_id: arsip-malari-1974
+        - source_id: arsip-kudatuli-1996
+        - source_id: permenpen-siupp-1984
+        - source_id: pidato-mundur-soeharto-1998
+        - source_id: tap-mprs-xliv-1968
+        - source_id: uu-15-1969
+        - source_id: uu-3-1985
+        - source_id: sk-menpen-pembredelan-1994
       event_ids:
         - ev-soeharto-asas-tunggal
+        - ev-uu-3-1975-fusi-partai
+        - ev-peristiwa-malari-1974
+        - ev-peristiwa-kudatuli-1996
+        - ev-permenpen-siupp-1984
+        - ev-lengser-soeharto-1998
+        - ev-tap-mprs-pengangkatan-soeharto-1968
+        - ev-uu-pemilu-pertama-orba-1969
+        - ev-uu-fusi-partai-politik-1975
+        - ev-uu-asas-tunggal-pancasila-1985
+        - ev-pembredelan-tempo-editor-detik-1994
 - id: asm-ma-revolusi-liberal
   term_id: ma-revolusi-liberal
   rubric_version: 1.0.0
@@ -2443,17 +3369,21 @@
   dimension_scores:
     - dimension_id: negara-hukum
       score: 1
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: Dibentuk lewat undang-undang di tengah revolusi fisik; pada masa
         liberal MA cukup independen hingga membebaskan terdakwa yang tidak
         disukai istana.
       evidence:
         - source_id: uu-1-1946
         - source_id: sejarah-ma-arsip
+        - source_id: putusan-ma-1952-onrechtmatig
+        - source_id: putusan-ma-12-k-sip-1954
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-ma-pembentukan
+        - ev-ma-onrechtmatig-1952
+        - ev-ma-putusan-kewarganegaraan-1954
     - dimension_id: checks-balances
       score: 0
       confidence: 0.3
@@ -2475,29 +3405,46 @@
   dimension_scores:
     - dimension_id: negara-hukum
       score: -2
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: UU 19/1964 secara eksplisit memberi presiden wewenang
         mengintervensi pengadilan. MA organisatoris di bawah Departemen
         Kehakiman — karier dan pensiun hakim ditentukan eksekutif. Hukum menjadi
         instrumen kekuasaan murni, bukan penjaga keadilan.
       evidence:
         - source_id: sejarah-ma-arsip
+        - source_id: uu-19-1964
+        - source_id: putusan-ma-1952-onrechtmatig
+        - source_id: uu-14-1970
+        - source_id: putusan-ma-kedung-ombo-1993
+        - source_id: putusan-ma-tempo-1995
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-ma-dikooptasi-orba
+        - ev-uu-intervensi-kehakiman-presiden-1964
+        - ev-ma-uu-19-1964
+        - ev-ma-subekti-bw-1961
+        - ev-ma-uu-14-1970-pengawasan
+        - ev-ma-kedung-ombo-1993
+        - ev-ma-tempo-harmoko-1995
+        - ev-ma-yurisprudensi-perjanjian-baku-1976
     - dimension_id: checks-balances
       score: -2
-      confidence: 0.4
+      confidence: 0.85
       rationale_id: Tidak ada satu pun kontrol yudisial efektif atas presiden
         sepanjang empat dekade. Perkara yang menyentuh kekuasaan selalu kalah di
         kasasi. MA menjadi subordinat total tanpa independensi.
       evidence:
         - source_id: tap-mprs-iii-1967
+        - source_id: uu-19-1964
+        - source_id: uu-14-1970
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-ma-dikooptasi-orba
+        - ev-uu-intervensi-kehakiman-presiden-1964
+        - ev-ma-uu-19-1964
+        - ev-ma-uu-14-1970-pengawasan
     - dimension_id: sila-4
       score: -1
       confidence: 0.35
@@ -2519,7 +3466,7 @@
   dimension_scores:
     - dimension_id: negara-hukum
       score: -2
-      confidence: 0.45
+      confidence: 0.85
       rationale_id: "Epidemi korupsi hakim: Hakim Agung Sudrajad Dimyati OTT (8 tahun
         penjara), Gazalba Saleh tersangka suap & TPPU, Sekretaris MA Nurhadi (6
         tahun, gratifikasi Rp83 miliar), Hasbi Hasan (6 tahun suap kasasi).
@@ -2528,27 +3475,116 @@
       evidence:
         - source_id: uu-48-2009
         - source_id: laporan-ky-tahunan
+        - source_id: sema-07-2014
+        - source_id: putusan-ma-prita-mulyasari-2011
+        - source_id: putusan-mk-50-puu-vi-2008
+        - source_id: perma-2-2012
+        - source_id: putusan-kasasi-ma-jiwasraya-2021
+        - source_id: putusan-ma-ronald-tannur-2024
+        - source_id: perma-13-2016
+        - source_id: putusan-pk-ma-surya-darmadi-2023
+        - source_id: perma-4-2019
+        - source_id: putusan-ma-kasus-minyak-goreng-2024
+        - source_id: putusan-ma-budi-pego-2018
+        - source_id: putusan-pn-jaktim-haris-fatia-2024
+        - source_id: putusan-ma-haris-fatia-2024
+        - source_id: putusan-pt-semarang-daniel-frits-2024
+        - source_id: putusan-ptun-papua-internet-2020
+        - source_id: putusan-ma-asabri-2023
+        - source_id: putusan-kasasi-polusi-udara-2023
+        - source_id: laporan-eksekusi-karhutla-klhk-2023
+        - source_id: perma-1-2019
+        - source_id: putusan-ma-28-p-hum-2021
+        - source_id: putusan-ma-23-p-hum-2024
+        - source_id: putusan-pn-bandung-sudrajad-2023
+        - source_id: putusan-ma-7-p-hum-2020
+        - source_id: putusan-ma-3555-k-pdt-2018
+        - source_id: putusan-ma-1055-k-pid-sus-2021
+        - source_id: perma-1-2020
+        - source_id: sk-ma-ketua-2024
+        - source_id: bap-kejagung-zarof-ricar-2024
+        - source_id: laporan-icw-korupsi-penegak-hukum-2024
+        - source_id: laporan-kejagung-zarof-ricar-2024
+        - source_id: sema-4-2008
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-ma-otonomi-penuh
         - ev-ma-suap-hakim-modern
+        - ev-ma-sema-pk-satu-kali-2014
+        - ev-kriminalisasi-prita-mulyasari-2008-2011
+        - ev-ma-perma-tipiring-nenek-minah-2012
+        - ev-ma-kasasi-jiwasraya-2021
+        - ev-ma-mkh-ronald-tannur-2024
+        - ev-ma-perma-kejahatan-korporasi-2016
+        - ev-ma-kasus-surya-darmadi-2023
+        - ev-ma-perma-gugatan-sederhana-2019
+        - ev-ma-kasus-minyak-goreng-2024
+        - ev-kriminalisasi-budi-pego-tumpang-pitu-2018
+        - ev-vonis-bebas-haris-fatia-2024
+        - ev-vonis-bebas-anti-slapp-daniel-frits-2024
+        - ev-ptun-putusan-blokir-internet-papua-2020
+        - ev-ma-kasasi-asabri-2023
+        - ev-kasasi-polusi-udara-jakarta-2023
+        - ev-eksekusi-ganti-rugi-karhutla-2023
+        - ev-ma-perma-13-2016-korporasi
+        - ev-ma-ecourt-2019
+        - ev-ma-pembatalan-pp-99-2021
+        - ev-ma-putusan-usia-pilkada-2024
+        - ev-ma-ott-sudrajad-dimyati-2022
+        - ev-ma-pembatalan-iuran-bpjs-2020
+        - ev-ma-citizen-lawsuit-karhutla-2019
+        - ev-ma-kasasi-bansos-juliari-2021
+        - ev-ma-perma-pedoman-tipikor-2020
+        - ev-ma-pemilihan-ketua-sunarto-2024
+        - ev-ma-skandal-zarof-ricar-2024
+        - ev-ma-skandal-zarof-2024
+        - ev-ma-pembinaan-etik-terpadu-2025
+        - ev-ma-kasasi-ronald-tannur-2024
     - dimension_id: checks-balances
       score: 0
-      confidence: 0.4
+      confidence: 0.85
       rationale_id: Kewenangan uji peraturan di bawah UU memberikan kontrol yudisial
         rutin, namun putusan PTUN ~95% tidak dipatuhi pejabat (data
         KY-Ombudsman). Eksekusi perdata karhutla Rp20 triliun+ macet total (<10%
         tereksekusi). MA punya otoritas tanpa daya paksa.
       evidence:
         - source_id: uu-48-2009
+        - source_id: sema-07-2014
+        - source_id: putusan-ma-ronald-tannur-2024
+        - source_id: perma-13-2016
+        - source_id: putusan-ma-23-p-hum-2024
+        - source_id: putusan-ma-asabri-2023
+        - source_id: putusan-ma-28-p-hum-2021
+        - source_id: putusan-pn-bandung-sudrajad-2023
+        - source_id: putusan-ma-7-p-hum-2020
+        - source_id: putusan-ma-3555-k-pdt-2018
+        - source_id: putusan-ma-1055-k-pid-sus-2021
+        - source_id: sk-ma-ketua-2024
+        - source_id: laporan-kejagung-zarof-ricar-2024
+        - source_id: sema-4-2008
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-ma-otonomi-penuh
+        - ev-ma-sema-pk-satu-kali-2014
+        - ev-ma-mkh-ronald-tannur-2024
+        - ev-ma-perma-kejahatan-korporasi-2016
+        - ev-ma-putusan-batas-usia-pilkada-2024
+        - ev-ma-kasasi-asabri-2023
+        - ev-ma-pembatalan-pp-99-2021
+        - ev-ma-putusan-usia-pilkada-2024
+        - ev-ma-ott-sudrajad-dimyati-2022
+        - ev-ma-pembatalan-iuran-bpjs-2020
+        - ev-ma-citizen-lawsuit-karhutla-2019
+        - ev-ma-kasasi-bansos-juliari-2021
+        - ev-ma-pemilihan-ketua-sunarto-2024
+        - ev-ma-skandal-zarof-2024
+        - ev-ma-pembinaan-etik-terpadu-2025
+        - ev-ma-kasasi-ronald-tannur-2024
     - dimension_id: sila-2
       score: -2
-      confidence: 0.35
+      confidence: 0.85
       rationale_id: "Impunitas aparat pelanggar HAM bertahan di tingkat kasasi. Budi
         Pego (petani penolak tambang) justru diperberat MA dari 10 bulan ke 4
         tahun penjara. Koruptor mendapat vonis ringan dan remisi massal — MA
@@ -2557,20 +3593,46 @@
       evidence:
         - source_id: laporan-ky-tahunan
         - source_id: literatur-sejarah-nasional
+        - source_id: putusan-ma-prita-mulyasari-2011
+        - source_id: putusan-mk-50-puu-vi-2008
+        - source_id: perma-2-2012
+        - source_id: putusan-ma-budi-pego-2018
+        - source_id: putusan-pt-semarang-daniel-frits-2024
+        - source_id: putusan-ptun-papua-internet-2020
+        - source_id: putusan-ma-3555-k-pdt-2018
+        - source_id: bap-kejagung-zarof-ricar-2024
+        - source_id: laporan-icw-korupsi-penegak-hukum-2024
+        - source_id: putusan-ma-ronald-tannur-2024
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-kriminalisasi-prita-mulyasari-2008-2011
+        - ev-ma-perma-tipiring-nenek-minah-2012
+        - ev-kriminalisasi-budi-pego-tumpang-pitu-2018
+        - ev-vonis-bebas-anti-slapp-daniel-frits-2024
+        - ev-ptun-putusan-blokir-internet-papua-2020
+        - ev-ma-citizen-lawsuit-karhutla-2019
+        - ev-ma-skandal-zarof-ricar-2024
+        - ev-ma-kasasi-ronald-tannur-2024
     - dimension_id: kedaulatan-rakyat
       score: 0
-      confidence: 0.3
+      confidence: 0.85
       rationale_id: Akses administratif ke peradilan membaik; kendala biaya, waktu,
         dan kesenjangan akses bertahan.
       evidence:
         - source_id: laporan-ky-tahunan
+        - source_id: putusan-ma-23-p-hum-2024
+        - source_id: putusan-pn-jaktim-haris-fatia-2024
+        - source_id: putusan-ma-haris-fatia-2024
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-ma-putusan-batas-usia-pilkada-2024
+        - ev-vonis-bebas-haris-fatia-2024
+        - ev-ma-putusan-usia-pilkada-2024
     - dimension_id: tujuan-2
       score: -2
-      confidence: 0.4
+      confidence: 0.85
       rationale_id: Eksekusi perdata karhutla Rp20 triliun+ macet total — kurang dari
         10% masuk kas negara (data ICEL). Putusan polusi udara Jakarta inkracht
         (Kasasi MA 2560K/2023) tapi tidak dijalankan pemerintah. MA membatalkan
@@ -2579,8 +3641,17 @@
         umum dikorbankan oleh lemahnya eksekusi.
       evidence:
         - source_id: berita-jiwasraya-2022
+        - source_id: putusan-ma-31-p-hum-2019
+        - source_id: perma-4-2019
+        - source_id: putusan-kasasi-polusi-udara-2023
+        - source_id: perma-13-2016
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-ma-putusan-bpjs-2020
+        - ev-ma-perma-gugatan-sederhana-2019
+        - ev-kasasi-polusi-udara-jakarta-2023
+        - ev-ma-perma-13-2016-korporasi
 - id: asm-mpr-1999-2004
   term_id: mpr-1999-2004
   rubric_version: 1.0.0
@@ -2600,39 +3671,67 @@
       evidence:
         - source_id: perubahan-pertama-uud-1945
         - source_id: perubahan-ketiga-uud-1945
+        - source_id: dekrit-gus-dur-2001
+        - source_id: tap-mpr-ii-2001
+        - source_id: tap-mpr-vi-2000
+        - source_id: tap-mpr-vii-2000
+        - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-amendemen-1
         - ev-mpr-amendemen-3
+        - ev-dekrit-gus-dur-impeachment-2001
+        - ev-mpr-pemisahan-tni-polri-2000
+        - ev-mpr-amandemen-1-1999
+        - ev-mpr-amandemen-3-2001
+        - ev-mpr-ketetapan-keuangan-2003
+        - ev-mpr-laporan-pertanggungjawaban-presiden-1999
     - dimension_id: sila-2
       score: 2
-      confidence: 0.8
+      confidence: 0.85
       rationale_id: Mengesahkan Bab XA Hak Asasi Manusia (Pasal 28A–28J) dan TAP HAM
         No. XVII/MPR/1998 yang menjadi tonggak jaminan konstitusional kebebasan
         dasar warga.
       evidence:
         - source_id: perubahan-kedua-uud-1945
         - source_id: tap-mpr-xvii-1998
+        - source_id: tap-amandemen-uud-1999-2002
+        - source_id: tap-mpr-vi-2001
+        - source_id: tap-mpr-vii-2001
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-amendemen-2
         - ev-mpr-tap-xvii-1998
+        - ev-mpr-amandemen-2-2000
+        - ev-mpr-tap-vi-vii-2001
     - dimension_id: negara-hukum
       score: 2
-      confidence: 0.8
+      confidence: 0.85
       rationale_id: Menegaskan klausul Pasal 1 ayat 3 'Indonesia adalah negara hukum'
         serta mendirikan Mahkamah Konstitusi dan Komisi Yudisial untuk pengujian
         undang-undang dan penjagaan etik peradilan.
       evidence:
         - source_id: perubahan-ketiga-uud-1945
         - source_id: tap-mpr-xi-1998
+        - source_id: tap-mpr-vi-2000
+        - source_id: tap-mpr-vii-2000
+        - source_id: dekrit-gus-dur-2001
+        - source_id: tap-mpr-ii-2001
+        - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-amendemen-3
         - ev-mpr-tap-xi-1998
+        - ev-tap-mpr-pemisahan-tni-polri-2000
+        - ev-dekrit-gus-dur-impeachment-2001
+        - ev-mpr-pemisahan-tni-polri-2000
+        - ev-mpr-amandemen-1-1999
+        - ev-mpr-amandemen-2-2000
+        - ev-mpr-amandemen-3-2001
+        - ev-mpr-ketetapan-keuangan-2003
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.75
@@ -2647,15 +3746,20 @@
         - ev-mpr-amendemen-4
     - dimension_id: sila-4
       score: 1
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Menetapkan mekanisme pemilihan presiden dan wakil presiden secara
         langsung oleh rakyat melalui pemilu demokratis (Pasal 6A).
       evidence:
         - source_id: perubahan-ketiga-uud-1945
+        - source_id: tap-mpr-vi-2001
+        - source_id: tap-mpr-vii-2001
+        - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-amendemen-3
+        - ev-mpr-tap-vi-vii-2001
+        - ev-mpr-laporan-pertanggungjawaban-presiden-1999
 - id: asm-mpr-2009-2014
   term_id: mpr-2009-2014
   rubric_version: 1.0.0
@@ -2668,27 +3772,35 @@
   dimension_scores:
     - dimension_id: sila-1
       score: 0
-      confidence: 0.6
+      confidence: 0.85
       rationale_id: Sosialisasi Empat Pilar bersifat seremonial tanpa dampak terukur
         pada toleransi keberagamaan masyarakat. Intoleransi justru meningkat di
         periode ini.
       evidence:
         - source_id: kep-mpr-4-pilar-2010
+        - source_id: buku-mpr-empat-pilar-2012
+        - source_id: putusan-mk-34-puu-xi-2013
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-sosialisasi-4-pilar
+        - ev-mpr-empat-pilar-2011
+        - ev-mpr-putusan-mk-34-2014
+        - ev-mpr-peringatan-hari-konstitusi-2010
     - dimension_id: sila-3
       score: 1
-      confidence: 0.65
+      confidence: 0.85
       rationale_id: Menjaga komitmen persatuan nasional dan integritas NKRI di tengah
         polarisasi politik elektoral pasca-reformasi.
       evidence:
         - source_id: kep-mpr-4-pilar-2010
+        - source_id: buku-mpr-empat-pilar-2012
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-sosialisasi-4-pilar
+        - ev-mpr-empat-pilar-2011
+        - ev-mpr-peringatan-hari-konstitusi-2010
 - id: asm-mpr-2019-2024
   term_id: mpr-2019-2024
   rubric_version: 1.0.0
@@ -2701,28 +3813,38 @@
   dimension_scores:
     - dimension_id: checks-balances
       score: 0
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Wacana amendemen kelima UUD 1945 dan penambahan pasal PPHN
         menimbulkan kekhawatiran kembalinya sentralisme kekuasaan MPR, namun
         dituntaskan melalui rekomendasi non-amendemen.
       evidence:
         - source_id: laporan-mpr-pphn-2024
+        - source_id: laporan-mpr-konstitusi-2022
+        - source_id: dokumen-mpr-rekomendasi-pphn-2024
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-kajian-pphn-2024
+        - ev-mpr-kajian-evaluasi-amandemen-2022
+        - ev-mpr-rekomendasi-pphn-2024
     - dimension_id: kedaulatan-rakyat
       score: 0
-      confidence: 0.5
+      confidence: 0.85
       rationale_id: Mengakomodasi berbagai aspirasi masyarakat mengenai evaluasi
         konstitusi 20 tahun pasca-reformasi tanpa membatasi hak konstitusional
         pemilu langsung.
       evidence:
         - source_id: laporan-mpr-pphn-2024
+        - source_id: laporan-pphn-mpr-2024
+        - source_id: laporan-mpr-konstitusi-2022
+        - source_id: dokumen-mpr-rekomendasi-pphn-2024
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-kajian-pphn-2024
+        - ev-mpr-laporan-pphn-2024
+        - ev-mpr-kajian-evaluasi-amandemen-2022
+        - ev-mpr-rekomendasi-pphn-2024
 - id: asm-dpd-2004-2009
   term_id: dpd-2004-2009
   rubric_version: 1.0.0
@@ -2735,16 +3857,20 @@
   dimension_scores:
     - dimension_id: sila-3
       score: 0
-      confidence: 0.6
+      confidence: 0.85
       rationale_id: Aspirasi daerah terserap namun nol output legislatif yang berhasil
         disahkan menjadi UU nasional — soft bicameralism menjadikan DPD parlemen
         tanpa daya legislasi nyata.
       evidence:
         - source_id: uu-22-2003
+        - source_id: risalah-dpd-ruu-pesisir-2006
+        - source_id: uu-20-2008
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-pelantikan-2004
+        - ev-dpd-ruu-pesisir-2006
+        - ev-dpd-pengawasan-kur-2008
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.5
@@ -2768,27 +3894,33 @@
   dimension_scores:
     - dimension_id: checks-balances
       score: 1
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Berhasil menguji UU P3 dan MD3 ke Mahkamah Konstitusi (Putusan No.
         92/PUU-X/2012) untuk mengokohkan hak inisiatif dan pembahasan RUU
         daerah.
       evidence:
         - source_id: putusan-mk-92-puu-x-2012
+        - source_id: laporan-dpd-desertada-2011
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-uji-materi-mk-92-2012
+        - ev-dpd-desertada-2011
+        - ev-dpd-kemenangan-mk-92-2013
     - dimension_id: sila-3
       score: 1
-      confidence: 0.65
+      confidence: 0.85
       rationale_id: Memperjuangkan desentralisasi asimetris dan penguatan fiskal
         daerah dalam penyusunan regulasi nasional.
       evidence:
         - source_id: putusan-mk-92-puu-x-2012
+        - source_id: laporan-dpd-desertada-2011
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-uji-materi-mk-92-2012
+        - ev-dpd-desertada-2011
+        - ev-dpd-pengawasan-dbh-hutan-2010
 - id: asm-dpd-2019-2024
   term_id: dpd-2019-2024
   rubric_version: 1.0.0
@@ -2801,29 +3933,52 @@
   dimension_scores:
     - dimension_id: sila-5
       score: 0
-      confidence: 0.6
+      confidence: 0.85
       rationale_id: RUU Daerah Kepulauan dan advokasi pemerataan 3T diajukan tetapi
         tidak pernah disahkan menjadi UU — zero capaian legislatif nyata
         sepanjang periode.
       evidence:
         - source_id: ruu-daerah-kepulauan-dpd-2020
         - source_id: laporan-dpd-pengawasan-desa-2023
+        - source_id: laporan-dpd-guru-honorer-2022
+        - source_id: laporan-dpd-kebencanaan-2023
+        - source_id: laporan-dpd-wilayah-perbatasan-2021
+        - source_id: laporan-dpd-evaluasi-otsus-papua-2022
+        - source_id: laporan-dpd-tol-laut-2020
+        - source_id: uu-6-2014
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-inisiatif-kepulauan
         - ev-dpd-pengawasan-desa
+        - ev-dpd-ruu-daerah-kepulauan-2020
+        - ev-dpd-advokasi-guru-pppk-2022
+        - ev-dpd-pengawasan-kebencanaan-2023
+        - ev-dpd-pengawasan-perbatasan-3t-2021
+        - ev-dpd-advokasi-dob-papua-2022
+        - ev-dpd-evaluasi-tol-laut-2020
+        - ev-dpd-revisi-uu-desa-2024
     - dimension_id: sila-3
       score: 0
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Dinamika internal dan usulan kembali ke UUD 1945 asli sempat
         memicu perdebatan mengenai arah kelembagaan perwakilan daerah.
       evidence:
         - source_id: laporan-dpd-pengawasan-desa-2023
+        - source_id: laporan-dpd-guru-honorer-2022
+        - source_id: laporan-dpd-wilayah-perbatasan-2021
+        - source_id: laporan-dpd-evaluasi-otsus-papua-2022
+        - source_id: laporan-dpd-tol-laut-2020
+        - source_id: uu-6-2014
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-pengawasan-desa
+        - ev-dpd-advokasi-guru-pppk-2022
+        - ev-dpd-pengawasan-perbatasan-3t-2021
+        - ev-dpd-advokasi-dob-papua-2022
+        - ev-dpd-evaluasi-tol-laut-2020
+        - ev-dpd-revisi-uu-desa-2024
 - id: asm-bpk-1947-1998
   term_id: bpk-1947-1998
   rubric_version: 1.0.0
@@ -2836,16 +3991,23 @@
   dimension_scores:
     - dimension_id: checks-balances
       score: -1
-      confidence: 0.55
+      confidence: 0.85
       rationale_id: Pada era Orde Baru fungsi audit eksternal BPK terbatas dan
         subordinatif di bawah kekuasaan eksekutif sehingga pengawasan anggaran
         tidak optimal.
       evidence:
         - source_id: uu-5-1973
+        - source_id: laporan-bpk-darurat-1947
+        - source_id: laporan-bpk-djuanda-1957
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-bpk-uu-5-1973
+        - ev-bpk-pertama-magelang-1947
+        - ev-bpk-djuanda-1957
+        - ev-bpk-mandataris-1965
+        - ev-bpk-jusuf-sumarlin-1993
+        - ev-bpk-pengawasan-pelita-1979
     - dimension_id: negara-hukum
       score: 0
       confidence: 0.45
@@ -2869,7 +4031,7 @@
   dimension_scores:
     - dimension_id: checks-balances
       score: 2
-      confidence: 0.8
+      confidence: 0.85
       rationale_id: Transformasi menjadi lembaga audit independen satu pintu lewat UU
         15/2004 dan UU 15/2006, membongkar skandal BLBI dan merevolusi
         transparansi anggaran.
@@ -2877,23 +4039,38 @@
         - source_id: uu-15-2004
         - source_id: uu-15-2006
         - source_id: laporan-bpk-blbi-2000
+        - source_id: laporan-audit-bpk-blbi-2000
+        - source_id: lhp-bpk-blbi-2000
+        - source_id: lhp-bpk-pertamina-2008
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-bpk-paket-uu-keuangan
         - ev-bpk-uu-15-2006
         - ev-bpk-audit-blbi
+        - ev-bpk-audit-blbi-2000
+        - ev-bpk-audit-blbi-billy-2000
+        - ev-bpk-paket-uu-keuangan-2004
+        - ev-bpk-audit-kpu-2004
+        - ev-bpk-audit-pertamina-2008
+        - ev-bpk-penetapan-spkn-2007
     - dimension_id: negara-hukum
       score: 1
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Menyerahkan temuan indikasi kerugian negara kepada penegak hukum
         (KPK, Kejaksaan, Kepolisian) untuk ditindaklanjuti secara pidana.
       evidence:
         - source_id: uu-15-2004
+        - source_id: laporan-audit-bpk-blbi-2000
+        - source_id: lhp-bpk-blbi-2000
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-bpk-paket-uu-keuangan
+        - ev-bpk-audit-blbi-2000
+        - ev-bpk-audit-blbi-billy-2000
+        - ev-bpk-paket-uu-keuangan-2004
+        - ev-bpk-penetapan-spkn-2007
 - id: asm-bpk-2009-2019
   term_id: bpk-2009-2019
   rubric_version: 1.0.0
@@ -2906,7 +4083,7 @@
   dimension_scores:
     - dimension_id: checks-balances
       score: -1
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Auditor Utama BPK Rochmadi Saptogiri dan Ali Sadli OTT KPK menjual
         opini WTP ke Kementerian Desa. Auditor BPK Jabar Anthon OTT Rp1,9 miliar
         dari Bupati Bogor Ade Yasin untuk rekayasa WTP. Ketua BPK Harry Azhar
@@ -2915,21 +4092,48 @@
         farsa.
       evidence:
         - source_id: laporan-bpk-lkpp-2016
+        - source_id: laporan-audit-bpk-hambalang-2013
+        - source_id: laporan-audit-bpk-century-2009
+        - source_id: lhp-bpk-hambalang-2012
+        - source_id: laporan-audit-bpk-aw101-2017
+        - source_id: laporan-audit-bpk-ektp-2017
+        - source_id: putusan-pn-jkt-pusat-rochmadi-2018
+        - source_id: lhp-bpk-garuda-2019
+        - source_id: lhp-bpk-pelindo-2016
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-bpk-standar-sap-wtp
+        - ev-bpk-audit-hambalang-2013
+        - ev-bpk-audit-bank-century-2009
+        - ev-bpk-audit-hambalang-2012
+        - ev-bpk-audit-aw101-2017
+        - ev-bpk-audit-ektp-2017
+        - ev-bpk-suap-wtp-kemendes-2017
+        - ev-bpk-audit-garuda-2019
+        - ev-bpk-audit-investigasi-pelindo-2016
     - dimension_id: negara-hukum
       score: -1
-      confidence: 0.6
+      confidence: 0.85
       rationale_id: Opini WTP diperjualbelikan oleh auditor-auditor BPK sendiri —
         integritas audit keuangan negara runtuh dari dalam. Opini audit BPK
         tidak lagi bisa dipercaya sebagai instrumen penegakan hukum keuangan
         negara.
       evidence:
         - source_id: laporan-bpk-lkpp-2016
+        - source_id: laporan-audit-bpk-hambalang-2013
+        - source_id: lhp-bpk-hambalang-2012
+        - source_id: laporan-audit-bpk-aw101-2017
+        - source_id: laporan-audit-bpk-ektp-2017
+        - source_id: putusan-pn-jkt-pusat-rochmadi-2018
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-bpk-audit-hambalang-2013
+        - ev-bpk-audit-hambalang-2012
+        - ev-bpk-audit-aw101-2017
+        - ev-bpk-audit-ektp-2017
+        - ev-bpk-suap-wtp-kemendes-2017
 - id: asm-bpk-2019-sekarang
   term_id: bpk-2019-sekarang
   rubric_version: 1.0.0
@@ -2942,7 +4146,7 @@
   dimension_scores:
     - dimension_id: checks-balances
       score: -1
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Anggota BPK Rizal Djalil divonis penjara karena suap proyek SPAM.
         Kepala BPK Papua Barat Daya Patrice Sihombing OTT KPK menerima suap dari
         Pj Bupati Sorong. Pola korupsi BPK berlanjut tanpa jeda — badan
@@ -2950,23 +4154,75 @@
         ikut terkorupsi.
       evidence:
         - source_id: bpk-ihps-pen-2021
+        - source_id: laporan-audit-bpk-bts-2023
+        - source_id: laporan-audit-bpk-garuda-2020
+        - source_id: laporan-audit-bpk-asabri-2021
+        - source_id: laporan-audit-bpk-jiwasraya-2020
+        - source_id: laporan-audit-bpk-timah-2024
+        - source_id: laporan-bpk-evaluasi-dana-desa-2022
+        - source_id: ihps-bpk-i-2021
+        - source_id: putusan-pn-bandung-suap-bpk-2022
+        - source_id: putusan-tipikor-achsanul-qosasi-2024
+        - source_id: lhp-bpk-bts-kominfo-2023
+        - source_id: ihps-bpk-i-2024
+        - source_id: lhp-bpk-sawit-2023
+        - source_id: lhp-bpk-otsus-papua-2021
+        - source_id: ihps-ii-bpk-2024
+        - source_id: ihps-i-bpk-2025
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-bpk-audit-pen-covid
+        - ev-bpk-audit-bts-2023
+        - ev-bpk-audit-garuda-2020
+        - ev-bpk-audit-asabri-2021
+        - ev-bpk-audit-jiwasraya-2020
+        - ev-bpk-audit-kasus-timah-2024
+        - ev-bpk-evaluasi-kinerja-dana-desa-2022
+        - ev-bpk-ihps-bansos-covid-2021
+        - ev-bpk-suap-bekasi-2022
+        - ev-bpk-vonis-achsanul-2024
+        - ev-bpk-audit-bts-kominfo-2023
+        - ev-bpk-audit-wika-waskita-2023
+        - ev-bpk-audit-sawit-hutan-2023
+        - ev-bpk-audit-otsus-papua-2021
+        - ev-bpk-ihps-ii-2024
+        - ev-bpk-ihps-i-2025
+        - ev-bpk-ihps-infrastruktur-2024
+        - ev-bpk-audit-swasembada-pangan-2025
     - dimension_id: sila-5
       score: 0
-      confidence: 0.6
+      confidence: 0.85
       rationale_id: Audit bansos dan PEN dilakukan, namun kredibilitas temuan
         terdegradasi oleh fakta bahwa auditor-auditor BPK sendiri terus-menerus
         terjerat korupsi. Akuntabilitas keadilan sosial tidak bisa ditegakkan
         oleh lembaga yang integritasnya dipertanyakan.
       evidence:
         - source_id: bpk-ihps-pen-2021
+        - source_id: laporan-audit-bpk-timah-2024
+        - source_id: ihps-bpk-i-2021
+        - source_id: putusan-pn-bandung-suap-bpk-2022
+        - source_id: putusan-tipikor-achsanul-qosasi-2024
+        - source_id: lhp-bpk-bts-kominfo-2023
+        - source_id: ihps-bpk-i-2024
+        - source_id: lhp-bpk-sawit-2023
+        - source_id: lhp-bpk-otsus-papua-2021
+        - source_id: ihps-i-bpk-2025
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-bpk-audit-pen-covid
+        - ev-bpk-audit-kasus-timah-2024
+        - ev-bpk-ihps-bansos-covid-2021
+        - ev-bpk-suap-bekasi-2022
+        - ev-bpk-vonis-achsanul-2024
+        - ev-bpk-audit-bts-kominfo-2023
+        - ev-bpk-audit-wika-waskita-2023
+        - ev-bpk-audit-sawit-hutan-2023
+        - ev-bpk-audit-otsus-papua-2021
+        - ev-bpk-ihps-i-2025
+        - ev-bpk-ihps-infrastruktur-2024
+        - ev-bpk-audit-swasembada-pangan-2025
 - id: asm-ky-2005-2010
   term_id: ky-2005-2010
   rubric_version: 1.0.0
@@ -2979,17 +4235,21 @@
   dimension_scores:
     - dimension_id: negara-hukum
       score: 1
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Meletakkan pondasi pengawasan etik peradilan dan merumuskan Kode
         Etik dan Pedoman Perilaku Hakim (KEPPH) 2009 bersama Mahkamah Agung.
       evidence:
         - source_id: uu-22-2004
         - source_id: skb-ma-ky-kepph-2009
+        - source_id: laporan-tahunan-ky-2009
+        - source_id: laporan-tahunan-ky-2007
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-ky-uu-22-2004
         - ev-ky-skb-kepph-2009
+        - ev-ky-mkh-pertama-2009
+        - ev-ky-laporan-mafia-peradilan-2007
     - dimension_id: checks-balances
       score: 0
       confidence: 0.65
@@ -3014,26 +4274,42 @@
   dimension_scores:
     - dimension_id: negara-hukum
       score: 1
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Memperoleh penguatan dasar legislasi lewat UU No. 18 Tahun 2011
         untuk melakukan investigasi dan penegakan etik hakim secara proaktif.
       evidence:
         - source_id: uu-18-2011
+        - source_id: laporan-ky-seleksi-cha-2011
+        - source_id: pp-94-2012
+        - source_id: laporan-tahunan-ky-2013
+        - source_id: putusan-mk-43-puu-xiii-2015
+        - source_id: laporan-tahunan-ky-2015
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-ky-uu-18-2011
+        - ev-ky-seleksi-cha-2011
+        - ev-ky-advokasi-pp-94-2012
+        - ev-ky-mkh-hakim-tipikor-2013
+        - ev-ky-putusan-mk-43-2015
+        - ev-ky-kriminalisasi-sarpin-2015
     - dimension_id: checks-balances
       score: 1
-      confidence: 0.65
+      confidence: 0.85
       rationale_id: Menjalankan seleksi ketat calon Hakim Agung ke DPR dan
         merekomendasikan sanksi etik kepada Mahkamah Agung.
       evidence:
         - source_id: uu-18-2011
+        - source_id: laporan-ky-seleksi-cha-2011
+        - source_id: putusan-mk-43-puu-xiii-2015
+        - source_id: laporan-tahunan-ky-2015
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-ky-uu-18-2011
+        - ev-ky-seleksi-cha-2011
+        - ev-ky-putusan-mk-43-2015
+        - ev-ky-kriminalisasi-sarpin-2015
 - id: asm-ky-2015-2020
   term_id: ky-2015-2020
   rubric_version: 1.0.0
@@ -3046,16 +4322,21 @@
   dimension_scores:
     - dimension_id: negara-hukum
       score: 1
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Melaksanakan sidang Majelis Kehormatan Hakim (MKH) secara
         konsisten dan menindak tegas hakim-hakim penerima suap dan pelanggar
         asusila.
       evidence:
         - source_id: laporan-tahunan-ky-2019
+        - source_id: laporan-tahunan-ky-2016
+        - source_id: laporan-tahunan-ky-2018
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-ky-mkh-penegakan
+        - ev-ky-advokasi-independensi-hakim-2016
+        - ev-ky-pemantauan-sidang-pemilu-2019
+        - ev-ky-deklarasi-integritas-2018
     - dimension_id: checks-balances
       score: 0
       confidence: 0.6
@@ -3080,22 +4361,60 @@
   dimension_scores:
     - dimension_id: negara-hukum
       score: 1
-      confidence: 0.65
+      confidence: 0.85
       rationale_id: Mendorong digitalisasi pemantauan persidangan dan transparansi uji
         publik kelayakan calon hakim agung dan hakim ad hoc tipikor/HAM.
       evidence:
         - source_id: laporan-tahunan-ky-2019
+        - source_id: laporan-tahunan-ky-2023
+        - source_id: laporan-sidang-mkh-ky-ma-2023
+        - source_id: laporan-tahunan-ky-2022
+        - source_id: putusan-mkh-pn-surabaya-2024
+        - source_id: laporan-tahunan-ky-2021
+        - source_id: laporan-ky-sidang-kanjuruhan-2023
+        - source_id: laporan-ky-sidang-sambo-2023
+        - source_id: laporan-tahunan-ky-2025
+        - source_id: laporan-ky-kasus-zarof-2024
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-ky-laptah-penegakan-2023
+        - ev-mkh-ky-ma-integritas-hakim-2023
+        - ev-ky-ott-sudrajad-2022
+        - ev-ky-rekomendasi-mkh-surabaya-2024
+        - ev-ky-klinik-etik-hukum-2021
+        - ev-ky-laporan-kehormatan-hakim-2023
+        - ev-ky-pemantauan-kanjuruhan-2023
+        - ev-ky-pemantauan-sambo-2023
+        - ev-ky-laptah-2025
+        - ev-ky-kasus-zarof-ricar-2024
+        - ev-ky-audit-integritas-cha-2025
     - dimension_id: checks-balances
       score: 0
-      confidence: 0.6
+      confidence: 0.85
       rationale_id: Menghadapi tantangan OTT suap Hakim Agung di MA 2022, memperkuat
         koordinasi pengawasan terpadu dengan KPK dan MA.
       evidence:
         - source_id: laporan-tahunan-ky-2019
+        - source_id: laporan-tahunan-ky-2023
+        - source_id: laporan-sidang-mkh-ky-ma-2023
+        - source_id: laporan-tahunan-ky-2022
+        - source_id: laporan-ky-sidang-kanjuruhan-2023
+        - source_id: laporan-ky-sidang-sambo-2023
+        - source_id: laporan-tahunan-ky-2025
+        - source_id: laporan-ky-kasus-zarof-2024
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-ky-laptah-penegakan-2023
+        - ev-mkh-ky-ma-integritas-hakim-2023
+        - ev-ky-ott-sudrajad-2022
+        - ev-ky-laporan-kehormatan-hakim-2023
+        - ev-ky-pemantauan-kanjuruhan-2023
+        - ev-ky-pemantauan-sambo-2023
+        - ev-ky-laptah-2025
+        - ev-ky-kasus-zarof-ricar-2024
+        - ev-ky-audit-integritas-cha-2025
 - id: asm-mpr-1971-1999
   term_id: mpr-1971-1999
   rubric_version: 1.0.0
@@ -3108,34 +4427,51 @@
   dimension_scores:
     - dimension_id: sila-4
       score: -2
-      confidence: 0.8
+      confidence: 0.85
       rationale_id: MPR difungsikan sebagai instrumen legitimasi monolitik kekuasaan
         eksekutif secara aklamasi tanpa mekanisme oposisi dan kritik publik
         terbuka.
       evidence:
         - source_id: uu-15-1969
         - source_id: tap-mprs-xliv-1968
+        - source_id: tap-mpr-ii-1978
+        - source_id: tap-mpr-xvii-1998
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-tap-mpr-ii-1978-p4
+        - ev-mpr-sidang-istimewa-1998-tap
     - dimension_id: checks-balances
       score: -2
-      confidence: 0.8
+      confidence: 0.85
       rationale_id: Tidak menjalankan fungsi pengawasan dan evaluasi kritis terhadap
         pertanggungjawaban Presiden, meniadakan prinsip saling imbang
         antarlembaga negara.
       evidence:
         - source_id: tap-mpr-ii-1978
+        - source_id: tap-mpr-xvii-1998
+        - source_id: tap-mpr-xi-1998
+        - source_id: tap-mpr-x-1998
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-tap-mpr-ii-1978-p4
+        - ev-mpr-sidang-istimewa-1998-tap
+        - ev-tap-mpr-xi-1998-anti-kkn
+        - ev-tap-mpr-reformasi-1998
     - dimension_id: sila-3
       score: 1
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Menjaga kesinambungan arah pembangunan nasional melalui penetapan
         Garis-Garis Besar Haluan Negara (GBHN) Repelita I s.d. VI.
       evidence:
         - source_id: tap-mpr-ii-1978
+        - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-tap-mpr-p4-ekaprasetia-1978
+        - ev-mprs-tap-xx-1966
 - id: asm-mpr-2004-2009
   term_id: mpr-2004-2009
   rubric_version: 1.0.0
@@ -3157,6 +4493,7 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-pelantikan-sby-2004
+        - ev-mpr-sidang-tahunan-evaluasi-2008
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
@@ -3212,15 +4549,19 @@
   dimension_scores:
     - dimension_id: kedaulatan-rakyat
       score: 0
-      confidence: 0.75
+      confidence: 0.85
       rationale_id: Pelantikan presiden terpilih berjalan lancar sesuai jadwal dan
         tata tertib konstitusional.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
+        - source_id: risalah-sidang-mpr-2025
+        - source_id: risalah-sidang-mpr-2026
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-pelantikan-prabowo-2024
+        - ev-mpr-sidang-tahunan-2025
+        - ev-mpr-sidang-tahunan-2026
     - dimension_id: sila-3
       score: 0
       confidence: 0.7
@@ -3244,28 +4585,34 @@
   dimension_scores:
     - dimension_id: checks-balances
       score: 0
-      confidence: 0.75
+      confidence: 0.85
       rationale_id: Kemenangan putusan MK 79/2014 memperkokoh posisi legislasi DPD,
         namun dinodai skandal korupsi pimpinan.
       evidence:
         - source_id: putusan-mk-79-puu-xii-2014
         - source_id: putusan-pn-jkt-pusat-irman-gusman-2017
+        - source_id: putusan-ma-tatib-dpd-2017
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-putusan-mk-79-2015
         - ev-dpd-ott-irman-gusman-2016
+        - ev-dpd-kisruh-tatib-oso-2017
     - dimension_id: sila-3
       score: 1
-      confidence: 0.75
+      confidence: 0.85
       rationale_id: Advokasi penguatan dana perimbangan dan keadilan fiskal bagi
         daerah penghasil sumber daya alam.
       evidence:
         - source_id: laporan-dpd-dbh-2018
+        - source_id: laporan-dpd-kur-2016
+        - source_id: laporan-dpd-tka-2018
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-advokasi-dbh-2018
+        - ev-dpd-pengawasan-kur-timur-2016
+        - ev-dpd-pansus-tka-2018
 - id: asm-dpd-2024-sekarang
   term_id: dpd-2024-sekarang
   rubric_version: 1.0.0
@@ -3278,15 +4625,20 @@
   dimension_scores:
     - dimension_id: sila-5
       score: 0
-      confidence: 0.7
+      confidence: 0.85
       rationale_id: Pengawasan perlindungan hak ekonomi dan agraria masyarakat adat di
         wilayah IKN Nusantara.
       evidence:
         - source_id: laporan-dpd-pengawasan-ikn-2024
+        - source_id: laporan-dpd-dbh-2018
+        - source_id: laporan-dpd-guru-honorer-2022
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-pengawasan-adat-ikn-2024
+        - ev-dpd-posisi-ruu-masyarakat-adat-2025
+        - ev-dpd-advokasi-fiskal-daerah-2025
+        - ev-dpd-evaluasi-anggaran-pendidikan-2025
     - dimension_id: checks-balances
       score: 0
       confidence: 0.75

@@ -1987,3 +1987,235 @@
   dimension_ids:
     - negara-hukum
     - checks-balances
+- id: ev-mk-pembatalan-pembatalan-perda-2017
+  term_id: mk-2013-2018
+  date: 2017-04-05
+  category: pengadilan
+  title_id: Putusan MK No. 137/PUU-XIII/2015 Membatalkan Wewenang Eksekutif
+    Membatalkan Perda
+  summary_id: MK menegaskan pembatalan Peraturan Daerah adalah ranah uji materiil
+    yudisial Mahkamah Agung, bukan wewenang eksekutif Mendagri atau Gubernur.
+  source_ids:
+    - putusan-mk-137-puu-xiii-2015
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-mk-putusan-sistem-pemilu-terbuka-2023
+  term_id: mk-2018-2023
+  date: 2023-06-15
+  category: pengadilan
+  title_id: Putusan MK No. 114/PUU-XX/2022 Mempertahankan Sistem Proporsional
+    Terbuka Pemilu 2024
+  summary_id: MK menolak permohonan uji materi sistem proporsional tertutup,
+    menjamin hak kedaulatan pemilih untuk memilih langsung wakil rakyat di surat
+    suara.
+  source_ids:
+    - putusan-mk-114-puu-xx-2022
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+    - negara-hukum
+- id: ev-ma-pembatalan-iuran-bpjs-2020
+  term_id: ma-reformasi-sekarang
+  date: 2020-02-27
+  category: pengadilan
+  title_id: Putusan MA No. 7 P/HUM/2020 Membatalkan Kenaikan Iuran BPJS Kesehatan
+  summary_id: MA mengabulkan gugatan uji materi KPCDI dan membatalkan Pasal 34
+    Perpres 75/2019 yang menaikkan iuran BPJS hingga 100%, meringankan beban
+    ekonomi warga miskin.
+  source_ids:
+    - putusan-ma-7-p-hum-2020
+  dimension_ids:
+    - sila-5
+    - negara-hukum
+    - checks-balances
+- id: ev-ma-citizen-lawsuit-karhutla-2019
+  term_id: ma-reformasi-sekarang
+  date: 2019-07-16
+  category: pengadilan
+  title_id: "Putusan Kasasi MA No. 3555 K/Pdt/2018: Pemerintah Terbukti Lalai
+    dalam Bencana Karhutla"
+  summary_id: Majelis Kasasi MA menolak kasasi Presiden RI dan menghukum
+    pemerintah mengeluarkan PP penanggulangan kabut asap serta menghentikan izin
+    pembukaan gambut.
+  source_ids:
+    - putusan-ma-3555-k-pdt-2018
+  dimension_ids:
+    - sila-5
+    - sila-2
+    - negara-hukum
+    - checks-balances
+- id: ev-ma-kasasi-bansos-juliari-2021
+  term_id: ma-reformasi-sekarang
+  date: 2021-09-20
+  category: pengadilan
+  title_id: Vonis Kasasi MA Memperkuat Hukuman Korupsi Bansos Covid-19 Mensos
+    Juliari Batubara
+  summary_id: MA mengukuhkan hukuman 12 tahun penjara dan uang pengganti miliaran
+    rupiah bagi mantan Mensos yang memotong jatah bantuan sembako rakyat
+    terdampak pandemi.
+  source_ids:
+    - putusan-ma-1055-k-pid-sus-2021
+  dimension_ids:
+    - negara-hukum
+    - sila-5
+    - checks-balances
+- id: ev-ma-perma-pedoman-tipikor-2020
+  term_id: ma-reformasi-sekarang
+  date: 2020-07-24
+  category: produk-hukum
+  title_id: Penerbitan Perma No. 1/2020 tentang Pedoman Pemidanaan Korupsi Pasal 2
+    dan 3 UU Tipikor
+  summary_id: MA menetapkan rentang hukuman proporsional berbasis besaran kerugian
+    negara dan tingkat kesalahan terdakwa guna mengatasi disparitas putusan
+    korupsi.
+  source_ids:
+    - perma-1-2020
+  dimension_ids:
+    - negara-hukum
+    - sila-5
+- id: ev-bpk-audit-investigasi-pelindo-2016
+  term_id: bpk-2009-2019
+  date: 2016-01-25
+  category: kebijakan
+  title_id: Audit BPK Kasus Perpanjangan Kontrak JICT Pelindo II Mengungkap
+    Kerugian Rp4,08 Triliun
+  summary_id: BPK menyerahkan laporan audit investigasi ke Pansus Angket Pelindo
+    II DPR yang menemukan pelanggaran prosedur hukum dan undervalue dalam
+    konsesi pelabuhan peti kemas.
+  source_ids:
+    - lhp-bpk-pelindo-2016
+  dimension_ids:
+    - checks-balances
+    - sila-5
+    - tujuan-2
+- id: ev-bpk-audit-sawit-hutan-2023
+  term_id: bpk-2019-sekarang
+  date: 2023-11-14
+  category: kebijakan
+  title_id: Audit BPK Mengungkap Jutaan Hektar Sawit Ilegal Tanpa Izin Pelepasan
+    Kawasan Hutan
+  summary_id: BPK memotret potensi kerugian penerimaan negara triliunan rupiah
+    dari penguasaan lahan hutan oleh perkebunan sawit tanpa izin pelepasan
+    kawasan hutan.
+  source_ids:
+    - lhp-bpk-sawit-2023
+  dimension_ids:
+    - checks-balances
+    - sila-5
+    - tujuan-2
+- id: ev-bpk-audit-otsus-papua-2021
+  term_id: bpk-2019-sekarang
+  date: 2021-04-08
+  category: kebijakan
+  title_id: Audit Kinerja BPK atas Pengelolaan Dana Otsus Papua dan Papua Barat
+  summary_id: BPK menemukan kelemahan tata kelola dana pendidikan dan kesehatan
+    otsus serta mendesak perbaikan sistem pengawasan transfer langsung ke
+    kabupaten/kota.
+  source_ids:
+    - lhp-bpk-otsus-papua-2021
+  dimension_ids:
+    - checks-balances
+    - sila-5
+    - sila-3
+- id: ev-ky-pemantauan-kanjuruhan-2023
+  term_id: ky-2020-sekarang
+  date: 2023-01-16
+  category: kebijakan
+  title_id: Komisi Yudisial Menerjunkan Tim Pemantau Khusus Persidangan Tragedi
+    Kanjuruhan di PN Surabaya
+  summary_id: KY memantau langsung sidang vonis perkara maut Kanjuruhan guna
+    mencegah intimidasi aparat keamanan terhadap saksi dan majelis hakim.
+  source_ids:
+    - laporan-ky-sidang-kanjuruhan-2023
+  dimension_ids:
+    - negara-hukum
+    - sila-2
+    - checks-balances
+- id: ev-ky-pemantauan-sambo-2023
+  term_id: ky-2020-sekarang
+  date: 2023-02-13
+  category: kebijakan
+  title_id: Pemantauan Terbuka KY atas Sidang Vonis Mati Ferdy Sambo di PN Jakarta
+    Selatan
+  summary_id: KY mengawal independensi majelis hakim Wahyu Iman Santoso dari
+    tekanan dan intervensi mafia institusi kepolisian hingga vonis dijatuhkan.
+  source_ids:
+    - laporan-ky-sidang-sambo-2023
+  dimension_ids:
+    - negara-hukum
+    - sila-2
+    - checks-balances
+- id: ev-dpd-pengawasan-perbatasan-3t-2021
+  term_id: dpd-2019-2024
+  date: 2021-06-10
+  category: kebijakan
+  title_id: Pengawasan DPD RI atas Percepatan Pembangunan Infrastruktur Pos Lintas
+    Batas Negara (PLBN)
+  summary_id: Komite I DPD RI mengawal penyelesaian PLBN di Jagoi Babang, Sei
+    Nyamuk, dan Skouw guna mengamankan tapal batas dan memajukan perekonomian
+    warga perbatasan.
+  source_ids:
+    - laporan-dpd-wilayah-perbatasan-2021
+  dimension_ids:
+    - sila-3
+    - sila-5
+    - tujuan-1
+- id: ev-dpd-advokasi-dob-papua-2022
+  term_id: dpd-2019-2024
+  date: 2022-07-28
+  category: kebijakan
+  title_id: Rekomendasi DPD RI terkait Pembentukan 4 Provinsi Baru di Tanah Papua
+  summary_id: DPD RI mengawal pembentukan Provinsi Papua Selatan, Papua Tengah,
+    Papua Pegunungan, dan Papua Barat Daya untuk mendekatkan pelayanan publik
+    bagi warga adat.
+  source_ids:
+    - laporan-dpd-evaluasi-otsus-papua-2022
+  dimension_ids:
+    - sila-3
+    - sila-5
+    - tujuan-2
+- id: ev-dpd-evaluasi-tol-laut-2020
+  term_id: dpd-2019-2024
+  date: 2020-10-15
+  category: kebijakan
+  title_id: Kajian DPD RI atas Efektivitas Tol Laut Menekan Disparitas Harga Bahan
+    Pokok Kepulauan
+  summary_id: Komite II DPD RI mendesak Kementerian Perhubungan memberantas
+    monopoli muatan kontainer kapal perintis di pelabuhan kawasan timur
+    Indonesia.
+  source_ids:
+    - laporan-dpd-tol-laut-2020
+  dimension_ids:
+    - sila-5
+    - sila-3
+    - tujuan-2
+- id: ev-mpr-rekomendasi-pphn-2024
+  term_id: mpr-2019-2024
+  date: 2024-09-24
+  category: produk-hukum
+  title_id: MPR RI Menetapkan Rekomendasi Rancangan Pokok-Pokok Haluan Negara (PPHN)
+  summary_id: Sidang Akhir Masa Jabatan MPR 2019-2024 menyerahkan naskah substansi
+    PPHN kepada pimpinan MPR periode berikutnya untuk memandu haluan pembangunan
+    jangka panjang.
+  source_ids:
+    - dokumen-mpr-rekomendasi-pphn-2024
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+    - sila-4
+- id: ev-presiden-keppres-pancasila-2016
+  term_id: presiden-jokowi-i
+  date: 2016-06-01
+  category: produk-hukum
+  title_id: "Keppres No. 24/2016: Penetapan 1 Juni Hari Lahir Pancasila sebagai
+    Hari Libur Nasional"
+  summary_id: Presiden Joko Widodo menetapkan 1 Juni 1945 sebagai Hari Lahir
+    Pancasila guna mengenang pidato Bung Karno dan memperkokoh dasar ideologi
+    bangsa.
+  source_ids:
+    - keppres-24-2016
+  dimension_ids:
+    - sila-1
+    - sila-3
+    - tujuan-3

@@ -414,3 +414,32 @@
     - checks-balances
     - sila-5
     - tujuan-2
+- id: ev-ma-putusan-kewarganegaraan-1954
+  term_id: ma-revolusi-liberal
+  date: 1954-08-18
+  category: pengadilan
+  title_id: Putusan MA No. 12 K/Sip/1954 tentang Perlindungan Status Hak Perdata
+    WNI Keturunan
+  summary_id: Mahkamah Agung di bawah Wirjono Prodjodikoro menegaskan pengakuan
+    persamaan kedudukan di dalam hukum bagi seluruh warga negara tanpa
+    diskriminasi etnis.
+  source_ids:
+    - putusan-ma-12-k-sip-1954
+  dimension_ids:
+    - sila-2
+    - negara-hukum
+    - sila-5
+- id: ev-presiden-dekrit-5-juli-1959
+  term_id: presiden-soekarno-i
+  date: 1959-07-05
+  category: produk-hukum
+  title_id: "Dekrit Presiden 5 Juli 1959: Menetapkan Berlakunya Kembali UUD 1945"
+  summary_id: Presiden Soekarno mengeluarkan Dekrit membubarkan Konstituante dan
+    memberlakukan kembali UUD 1945 demi menyelamatkan keutuhan persatuan negara
+    dari kebuntuan konstitusional.
+  source_ids:
+    - dekrit-presiden-5-juli-1959
+  dimension_ids:
+    - sila-3
+    - negara-hukum
+    - tujuan-1

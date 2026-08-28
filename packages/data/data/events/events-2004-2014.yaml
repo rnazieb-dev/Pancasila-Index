@@ -1128,3 +1128,85 @@
   dimension_ids:
     - checks-balances
     - negara-hukum
+- id: ev-mk-putusan-uu-penodaan-agama-2010
+  term_id: mk-2008-2013
+  date: 2010-04-19
+  category: pengadilan
+  title_id: Putusan MK No. 140/PUU-VII/2009 Menolak Uji Materi UU No. 1/PNPS/1965
+  summary_id: MK menolak permohonan pembatalan UU Penodaan Agama yang diajukan Gus
+    Dur dan koalisi masyarakat sipil, mempertahankan peran negara dalam menjaga
+    ketertiban kerukunan beragama.
+  source_ids:
+    - putusan-mk-140-puu-vii-2009
+  dimension_ids:
+    - sila-1
+    - sila-2
+    - negara-hukum
+- id: ev-mk-putusan-buruh-outsourcing-2012
+  term_id: mk-2008-2013
+  date: 2012-01-17
+  category: pengadilan
+  title_id: Putusan MK No. 27/PUU-IX/2011 Memberikan Jaminan Hak Pekerja Alih Daya
+  summary_id: MK memutus bahwa perjanjian kerja outsourcing wajib memuat prinsip
+    TUPE (Transfer of Undertaking Protection of Employment) agar hak masa kerja
+    dan upah buruh tidak hilang saat pergantian vendor.
+  source_ids:
+    - putusan-mk-27-puu-ix-2011
+  dimension_ids:
+    - sila-5
+    - sila-2
+    - negara-hukum
+- id: ev-dpr-uu-penanaman-modal-2007
+  term_id: dpr-2004-2009
+  date: 2007-04-26
+  category: produk-hukum
+  title_id: Pengesahan UU No. 25/2007 tentang Penanaman Modal
+  summary_id: DPR RI mengatur kepastian hukum iklim investasi dengan tetap
+    mewajibkan tanggung jawab sosial dan lingkungan (CSR) bagi korporasi penanam
+    modal.
+  source_ids:
+    - uu-25-2007
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+- id: ev-dpr-uu-pesisir-2007
+  term_id: dpr-2004-2009
+  date: 2007-07-27
+  category: produk-hukum
+  title_id: Pengesahan UU No. 27/2007 tentang Pengelolaan Wilayah Pesisir dan
+    Pulau-Pulau Kecil
+  summary_id: DPR dan Pemerintah mengesahkan RUU inisiatif DPD RI menjadi
+    undang-undang untuk memberdayakan masyarakat nelayan dan memelihara
+    ekosistem laut.
+  source_ids:
+    - uu-27-2007
+  dimension_ids:
+    - sila-5
+    - sila-3
+    - tujuan-2
+- id: ev-dpr-uu-mata-uang-2011
+  term_id: dpr-2009-2014
+  date: 2011-06-28
+  category: produk-hukum
+  title_id: Pengesahan UU No. 7/2011 tentang Mata Uang
+  summary_id: DPR RI menetapkan Rupiah sebagai satu-satunya alat pembayaran yang
+    sah dan simbol kedaulatan negara Republik Indonesia di seluruh NKRI.
+  source_ids:
+    - uu-7-2011
+  dimension_ids:
+    - sila-3
+    - tujuan-2
+    - kedaulatan-rakyat
+- id: ev-dpr-uu-ojk-2011
+  term_id: dpr-2009-2014
+  date: 2011-11-22
+  category: produk-hukum
+  title_id: Pengesahan UU No. 21/2011 tentang Otoritas Jasa Keuangan (OJK)
+  summary_id: DPR RI membentuk lembaga pengawas sektor jasa keuangan independen
+    guna melindungi dana nasabah dan stabilitas sistem perbankan nasional.
+  source_ids:
+    - uu-21-2011
+  dimension_ids:
+    - checks-balances
+    - sila-5
+    - tujuan-2

@@ -781,3 +781,46 @@
   dimension_ids:
     - negara-hukum
     - checks-balances
+- id: ev-presiden-komnas-perempuan-1998
+  term_id: presiden-habibie
+  date: 1998-10-15
+  category: produk-hukum
+  title_id: "Keppres No. 181/1998: Pembentukan Komisi Nasional Anti Kekerasan
+    terhadap Perempuan"
+  summary_id: Merespons tragedi kekerasan seksual massal Mei 1998, Presiden
+    Habibie membentuk lembaga HAM independen untuk perlindungan hak asasi
+    perempuan.
+  source_ids:
+    - keppres-181-1998
+  dimension_ids:
+    - sila-2
+    - tujuan-1
+    - negara-hukum
+- id: ev-dpr-uu-serikat-pekerja-2000
+  term_id: dpr-1999-2004
+  date: 2000-08-04
+  category: produk-hukum
+  title_id: Pengesahan UU No. 21/2000 tentang Serikat Pekerja/Serikat Buruh
+  summary_id: DPR RI mengesahkan jaminan kebebasan berserikat dan berorganisasi
+    bagi kaum buruh, mengakhiri monopoli serikat buruh tunggal bentukan Orba.
+  source_ids:
+    - uu-21-2000
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-5
+    - sila-2
+- id: ev-dpr-uu-penyiaran-2002
+  term_id: dpr-1999-2004
+  date: 2002-12-28
+  category: produk-hukum
+  title_id: Pengesahan UU No. 32/2002 tentang Penyiaran dan Pembentukan Komisi
+    Penyiaran Indonesia
+  summary_id: DPR RI menetapkan frekuensi radio dan televisi sebagai ranah publik
+    milik rakyat yang wajib diawasi komisi independen (KPI) demi kedaulatan
+    informasi.
+  source_ids:
+    - uu-32-2002
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+    - checks-balances
