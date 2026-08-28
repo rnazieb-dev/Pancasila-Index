@@ -55,20 +55,29 @@ function loadArray<T>(relPath: string, schema: { parse: (v: unknown) => T }, lab
 
 // ------------------------------------------------------------------ muat
 
-// JEBAKAN: .sort() itu leksikografis per byte, BUKAN semver. Titik (0x2E)
-// lebih kecil dari huruf, jadi "v1.1.0.yaml" kalah dari "v1.yaml", dan
-// "v10.yaml" kalah dari "v2.yaml". Menambah file rubrik baru bisa diam-diam
-// tidak berpengaruh sama sekali. Nama file juga tidak pernah dicocokkan
-// dengan field `version:` di dalamnya.
-//
-// Belum diperbaiki karena rubrik saat ini ditimpa di tempat (belum ada
-// penilaian yang dipublikasi, jadi belum ada riwayat yang perlu dijaga).
-// WAJIB dibereskan sebelum file rubrik kedua ditambahkan - bareng dukungan
-// multi-versi di datasetSchema, karena build.mts juga menolak penilaian yang
-// rubric_version-nya bukan versi aktif.
-const rubricFiles = readdirSync(join(DATA, "rubric")).filter((f) => f.endsWith(".yaml")).sort();
+function parseSemver(v: string): [number, number, number] {
+  const match = v.trim().replace(/^v/, "").match(/^(\d+)(?:\.(\d+))?(?:\.(\d+))?/);
+  if (!match) return [0, 0, 0];
+  return [parseInt(match[1] ?? "0", 10), parseInt(match[2] ?? "0", 10), parseInt(match[3] ?? "0", 10)];
+}
+
+function compareSemver(a: string, b: string): number {
+  const [aMaj, aMin, aPat] = parseSemver(a);
+  const [bMaj, bMin, bPat] = parseSemver(b);
+  if (aMaj !== bMaj) return aMaj - bMaj;
+  if (aMin !== bMin) return aMin - bMin;
+  return aPat - bPat;
+}
+
+const rubricFiles = readdirSync(join(DATA, "rubric")).filter((f) => f.endsWith(".yaml"));
 if (rubricFiles.length === 0) throw new Error("Tidak ada rubrik di data/rubric/");
-const rubric = rubricSchema.parse(readYaml(join("rubric", rubricFiles[rubricFiles.length - 1]!)));
+
+const loadedRubrics = rubricFiles.map((file) => {
+  const parsed = rubricSchema.parse(readYaml(join("rubric", file)));
+  return { file, rubric: parsed };
+});
+loadedRubrics.sort((a, b) => compareSemver(a.rubric.version, b.rubric.version));
+const rubric = loadedRubrics[loadedRubrics.length - 1]!.rubric;
 
 const uud = uudSchema.parse(readYaml("uud1945.yaml"));
 const institutions = loadArray("institutions.yaml", institutionSchema, "institution");
