@@ -51,26 +51,46 @@
       rank: 65
       total_countries: 109
       note: Penguatan awal e-procurement dan transparansi anggaran APBN.
+      provenance:
+        url: https://corruptionrisk.org/country/?country=IDN#integrity
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2017
       score: 6.92
       rank: 64
       total_countries: 109
       note: Perluasan digitalisasi layanan perizinan terpadu.
+      provenance:
+        url: https://corruptionrisk.org/country/?country=IDN#integrity
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2019
       score: 6.78
       rank: 68
       total_countries: 114
       note: Penurunan pada pilar independensi peradilan dan kebebasan sipil.
+      provenance:
+        url: https://corruptionrisk.org/country/?country=IDN#integrity
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2021
       score: 6.65
       rank: 72
       total_countries: 114
       note: Tekanan terhadap ruang sipil dan dampak pelemahan kerangka antikorupsi.
+      provenance:
+        url: https://corruptionrisk.org/country/?country=IDN#integrity
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2023
       score: 6.58
       rank: 75
       total_countries: 114
       note: Kemunduran kapasitas pengawasan independen dan transparansi proses regulasi.
+      provenance:
+        url: https://corruptionrisk.org/country/?country=IDN#integrity
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
   abs_discrepancy_note: >-
     Data IPI menunjukkan tren penurunan kapasitas kontrol korupsi riil sejak 2019,
     sangat kontras dengan laporan internal instansi pemerintah yang rata-rata mengklaim
@@ -96,44 +116,82 @@
       score: 0.52
       rank: 52
       total_countries: 102
+      provenance:
+        url: https://worldjusticeproject.org/rule-of-law-index/country/2015/Indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2016
       score: 0.52
       rank: 61
       total_countries: 113
+      provenance:
+        url: https://worldjusticeproject.org/rule-of-law-index/country/2016/Indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2017
       score: 0.52
       rank: 63
       total_countries: 113
+      provenance:
+        url: https://worldjusticeproject.org/rule-of-law-index/country/2017-2018/Indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2018
       score: 0.52
       rank: 63
       total_countries: 113
+      provenance:
+        url: https://worldjusticeproject.org/rule-of-law-index/country/2017-2018/Indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2019
       score: 0.53
       rank: 63
       total_countries: 126
+      provenance:
+        url: https://worldjusticeproject.org/rule-of-law-index/country/2019/Indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2020
       score: 0.53
       rank: 59
       total_countries: 128
+      provenance:
+        url: https://worldjusticeproject.org/rule-of-law-index/country/2020/Indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2021
       score: 0.52
       rank: 68
       total_countries: 139
+      provenance:
+        url: https://worldjusticeproject.org/rule-of-law-index/country/2021/Indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2022
       score: 0.53
       rank: 64
       total_countries: 140
+      provenance:
+        url: https://worldjusticeproject.org/rule-of-law-index/country/2022/Indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2023
       score: 0.53
       rank: 66
       total_countries: 142
+      provenance:
+        url: https://worldjusticeproject.org/rule-of-law-index/country/2023/Indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2024
       score: 0.52
       rank: 68
       total_countries: 142
-    # Skor 2025 dikosongkan: WJP menerbitkan peringkatnya, tetapi skor
-    # gabungannya belum tertelusur tanpa mengunduh berkas indeks resmi.
+      provenance:
+        url: https://worldjusticeproject.org/rule-of-law-index/country/2024/Indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2025
       score: null
       rank: 69
@@ -170,27 +228,59 @@
     - year: 2014
       score: 0.54
       note: Pemilu kompetitif dan stabilitas ruang publik demokratis.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: "2026-08-28"
+        method: laporan-pdf
     - year: 2016
       score: 0.53
       note: Polarisasi politik identitas mulai mempengaruhi deliberasi publik.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: "2026-08-28"
+        method: laporan-pdf
     - year: 2018
       score: 0.51
       note: Pembatasan awal kebebasan berekspresi digital via pasal karet.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: "2026-08-28"
+        method: laporan-pdf
     - year: 2019
       score: 0.46
       note: Gelombang demonstrasi Reformasi Dikorupsi dan revisi kilat legislasi kunci.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: "2026-08-28"
+        method: laporan-pdf
     - year: 2020
       score: 0.44
       note: Pengesahan omnibus law dengan partisipasi publik bermakna yang sangat minim.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: "2026-08-28"
+        method: laporan-pdf
     - year: 2021
       score: 0.42
       note: Penurunan skor perlindungan kebebasan sipil dan kebebasan akademik.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: "2026-08-28"
+        method: laporan-pdf
     - year: 2022
       score: 0.43
       note: Stagnasi deliberasi legislatif dan dominasi koalisi mayoritas eksekutif-parlemen.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: "2026-08-28"
+        method: laporan-pdf
     - year: 2023
       score: 0.41
       note: Krisis etika peradilan konstitusi dan kemunduran integritas elektoral.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: "2026-08-28"
+        method: laporan-pdf
     - year: 2025
       score: 0.30
       note: >-
@@ -223,33 +313,69 @@
     - year: 2014
       score: 34
       rank: 107
+      provenance:
+        url: https://www.transparency.org/en/cpi/2014
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2015
       score: 36
       rank: 88
+      provenance:
+        url: https://www.transparency.org/en/cpi/2015
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2016
       score: 37
       rank: 90
+      provenance:
+        url: https://www.transparency.org/en/cpi/2016
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2017
       score: 37
       rank: 96
+      provenance:
+        url: https://www.transparency.org/en/cpi/2017
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2018
       score: 38
       rank: 89
+      provenance:
+        url: https://www.transparency.org/en/cpi/2018
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2019
       score: 40
       rank: 85
       note: Puncak skor tertinggi pasca-penguatan OTT dan peradilan tipikor.
+      provenance:
+        url: https://www.transparency.org/en/cpi/2019
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2020
       score: 37
       rank: 102
       note: Penurunan drastis pasca-berlakunya UU No. 19/2019 tentang Perubahan UU KPK.
+      provenance:
+        url: https://www.transparency.org/en/cpi/2020
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2021
       score: 38
       rank: 96
+      provenance:
+        url: https://www.transparency.org/en/cpi/2021
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2022
       score: 34
       rank: 110
       note: Anjlok 4 poin akibat korupsi penegak hukum dan suap perizinan sumber daya alam.
+      provenance:
+        url: https://www.transparency.org/en/cpi/2022
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2023
       score: 34
       rank: 115
@@ -257,8 +383,6 @@
         url: https://www.transparency.org/en/cpi/2023/index/idn
         retrieved_at: "2026-08-27"
         method: pencarian-web
-    # KOREKSI: sebelumnya tercatat 34/peringkat 115 - itu angka 2023 yang
-    # terduplikasi. Angka 2024 yang benar adalah 37 dengan peringkat 99.
     - year: 2024
       score: 37
       rank: 99
@@ -299,14 +423,34 @@
   data:
     - year: 2012
       score: 51
+      provenance:
+        url: https://internationalbudget.org/open-budget-survey/country-results/2012/indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2015
       score: 59
+      provenance:
+        url: https://internationalbudget.org/open-budget-survey/country-results/2015/indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2017
       score: 64
+      provenance:
+        url: https://internationalbudget.org/open-budget-survey/country-results/2017/indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2019
       score: 70
+      provenance:
+        url: https://internationalbudget.org/open-budget-survey/country-results/2019/indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2021
       score: 70
+      provenance:
+        url: https://internationalbudget.org/open-budget-survey/country-results/2021/indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2023
       score: 70
       subscores:
@@ -337,8 +481,16 @@
   data:
     - year: 2022
       score: 54
+      provenance:
+        url: https://oecd-public-integrity-indicators.org/indicators
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2024
       score: 52
+      provenance:
+        url: https://oecd-public-integrity-indicators.org/indicators
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
   abs_discrepancy_note: >-
     Evaluasi OECD menyoroti ketiadaan regulasi wajib transparansi lobi korporasi (lobbying disclosure)
     dan kerentanan saksi/pelapor korupsi di tubuh aparat penegak hukum dari kriminalisasi balik.
@@ -361,30 +513,50 @@
       score: 60.12
       rank: 124
       total_countries: 180
+      provenance:
+        url: https://rsf.org/en/ranking/2018
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2020
       score: 59.48
       rank: 119
       total_countries: 180
+      provenance:
+        url: https://rsf.org/en/ranking/2020
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2022
       score: 56.40
       rank: 117
       total_countries: 180
+      provenance:
+        url: https://rsf.org/en/ranking/2022
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2023
       score: 54.83
       rank: 108
       total_countries: 180
+      provenance:
+        url: https://rsf.org/en/ranking/2023
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2024
       score: 51.15
       rank: 111
       total_countries: 180
+      provenance:
+        url: https://rsf.org/en/country/indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2025
       score: 44.13
       rank: 127
       total_countries: 180
-    # KOREKSI: peringkat 2026 sebelumnya tercatat 128, yang benar 129.
-    # Skor 2026 dikosongkan karena tidak tertelusur ke penerbit - angka 43.02
-    # yang tercatat sebelumnya tidak punya sumber, jadi dihapus alih-alih
-    # dipertahankan sebagai tebakan.
+      provenance:
+        url: https://rsf.org/en/country/indonesia
+        retrieved_at: "2026-08-28"
+        method: halaman-penerbit
     - year: 2026
       score: null
       rank: 129
