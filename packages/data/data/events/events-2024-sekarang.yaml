@@ -1,223 +1,537 @@
-# Peristiwa Konstitusional & Sejarah Tata Negara: Era Terkini (2024–Sekarang)
-
 - id: ev-perpres-makan-bergizi-2024
   term_id: presiden-prabowo
-  date: "2024-08-15"
+  date: 2024-08-15
   category: produk-hukum
-  title_id: Perpres No. 83/2024 tentang Badan Gizi Nasional untuk Program Makan Bergizi Gratis
-  summary_id: >-
-    Presiden membentuk Badan Gizi Nasional melalui Perpres No. 83/2024 guna mengeksekusi program pemenuhan gizi nasional
-    dan pencegahan stunting bagi puluhan juta anak sekolah dan ibu hamil, merealisasikan komitmen perlindungan kesejahteraan umum (Tujuan 2 UUD 1945).
-  source_ids: [perpres-83-2024]
-  dimension_ids: [tujuan-2, sila-5]
-
+  title_id: Perpres No. 83/2024 tentang Badan Gizi Nasional untuk Program Makan
+    Bergizi Gratis
+  summary_id: Presiden membentuk Badan Gizi Nasional melalui Perpres No. 83/2024
+    guna mengeksekusi program pemenuhan gizi nasional dan pencegahan stunting
+    bagi puluhan juta anak sekolah dan ibu hamil, merealisasikan komitmen
+    perlindungan kesejahteraan umum (Tujuan 2 UUD 1945).
+  source_ids:
+    - perpres-83-2024
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-pelantikan-presiden-prabowo-2024
   term_id: presiden-prabowo
-  date: "2024-10-20"
+  date: 2024-10-20
   category: peristiwa
-  title_id: Pengucapan Sumpah Jabatan Presiden Prabowo Subianto dan Wapres Gibran Rakabuming Raka
-  summary_id: >-
-    Presiden ke-8 RI Prabowo Subianto dan Wakil Presiden Gibran Rakabuming Raka mengucapkan sumpah jabatan di hadapan Sidang Paripurna MPR RI,
-    menegaskan komitmen swasembada pangan, kemandirian energi, pemberantasan korupsi, dan politik luar negeri bebas aktif.
-  source_ids: [berita-acara-pelantikan-presiden-2024]
-  dimension_ids: [tujuan-1, sila-3]
-
+  title_id: Pengucapan Sumpah Jabatan Presiden Prabowo Subianto dan Wapres Gibran
+    Rakabuming Raka
+  summary_id: Presiden ke-8 RI Prabowo Subianto dan Wakil Presiden Gibran
+    Rakabuming Raka mengucapkan sumpah jabatan di hadapan Sidang Paripurna MPR
+    RI, menegaskan komitmen swasembada pangan, kemandirian energi, pemberantasan
+    korupsi, dan politik luar negeri bebas aktif.
+  source_ids:
+    - berita-acara-pelantikan-presiden-2024
+  dimension_ids:
+    - tujuan-1
+    - sila-3
 - id: ev-kabinet-merah-putih-2024
   term_id: presiden-prabowo
-  date: "2024-10-21"
+  date: 2024-10-21
   category: kebijakan
   title_id: Pelantikan Kabinet Merah Putih Periode 2024–2029
-  summary_id: >-
-    Presiden Prabowo Subianto melantik jajaran menteri dan kepala badan Kabinet Merah Putih berdasarkan Keppres No. 133/P Tahun 2024
-    guna memperkuat fokus penanganan kedaulatan pangan, hilirisasi industri, sains teknologi, dan perlindungan sosial.
-  source_ids: [keppres-133-p-2024]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: Presiden Prabowo Subianto melantik jajaran menteri dan kepala badan
+    Kabinet Merah Putih berdasarkan Keppres No. 133/P Tahun 2024 guna memperkuat
+    fokus penanganan kedaulatan pangan, hilirisasi industri, sains teknologi,
+    dan perlindungan sosial.
+  source_ids:
+    - keppres-133-p-2024
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-ma-pemilihan-ketua-sunarto-2024
   term_id: ma-reformasi-sekarang
-  date: "2024-10-16"
+  date: 2024-10-16
   category: peristiwa
   title_id: Terpilihnya Prof. Dr. Sunarto sebagai Ketua Mahkamah Agung RI 2024–2029
-  summary_id: >-
-    Sidang Paripurna Khusus Mahkamah Agung memilih Hakim Agung Prof. Dr. H. Sunarto, S.H., M.H. sebagai Ketua MA ke-15,
-    menegaskan komitmen pembersihan mafia peradilan, penguatan integritas aparat peradilan, dan transparansi persidangan modern.
-  source_ids: [sk-ma-ketua-2024]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: Sidang Paripurna Khusus Mahkamah Agung memilih Hakim Agung Prof. Dr.
+    H. Sunarto, S.H., M.H. sebagai Ketua MA ke-15, menegaskan komitmen
+    pembersihan mafia peradilan, penguatan integritas aparat peradilan, dan
+    transparansi persidangan modern.
+  source_ids:
+    - sk-ma-ketua-2024
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-mk-putusan-ciptaker-naker-168-2024
   term_id: mk-2023-sekarang
-  date: "2024-10-31"
+  date: 2024-10-31
   category: pengadilan
-  title_id: Putusan MK No. 168/PUU-XXI/2023 tentang Klaster Ketenagakerjaan UU Cipta Kerja
-  summary_id: >-
-    MK mengabulkan sebagian permohonan uji materiil serikat buruh terhadap UU Cipta Kerja, memerintahkan pembentuk UU mengeluarkan klaster ketenagakerjaan
-    dari UU Cipta Kerja dan membentuk UU Ketenagakerjaan yang baru dalam waktu maksimal 2 tahun demi menjamin hak upah layak dan kepastian kerja.
-  source_ids: [putusan-mk-168-puu-xxi-2023]
-  dimension_ids: [sila-5, checks-balances]
-
+  title_id: Putusan MK No. 168/PUU-XXI/2023 tentang Klaster Ketenagakerjaan UU
+    Cipta Kerja
+  summary_id: MK mengabulkan sebagian permohonan uji materiil serikat buruh
+    terhadap UU Cipta Kerja, memerintahkan pembentuk UU mengeluarkan klaster
+    ketenagakerjaan dari UU Cipta Kerja dan membentuk UU Ketenagakerjaan yang
+    baru dalam waktu maksimal 2 tahun demi menjamin hak upah layak dan kepastian
+    kerja.
+  source_ids:
+    - putusan-mk-168-puu-xxi-2023
+  dimension_ids:
+    - sila-5
+    - checks-balances
 - id: ev-dpr-uu-apbn-2025
   term_id: dpr-2024-2029
-  date: "2024-10-17"
+  date: 2024-10-17
   category: produk-hukum
   title_id: Pengesahan UU No. 62 Tahun 2024 tentang APBN Tahun Anggaran 2025
-  summary_id: >-
-    DPR bersama Pemerintah mengesahkan postur APBN 2025 sebesar Rp3.621 triliun yang mengalokasikan anggaran prioritas
-    program Makan Bergizi Gratis (MBG), ketahanan pangan nasional, renovasi sekolah, dan bantalan perlindungan sosial.
-  source_ids: [uu-62-2024]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: DPR bersama Pemerintah mengesahkan postur APBN 2025 sebesar Rp3.621
+    triliun yang mengalokasikan anggaran prioritas program Makan Bergizi Gratis
+    (MBG), ketahanan pangan nasional, renovasi sekolah, dan bantalan
+    perlindungan sosial.
+  source_ids:
+    - uu-62-2024
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-dpd-pengawasan-pilkada-2024
   term_id: dpd-2024-sekarang
-  date: "2024-11-27"
+  date: 2024-11-27
   category: peristiwa
   title_id: Penyelenggaraan dan Pengawasan Pilkada Serentak Nasional 2024 di 545 Daerah
-  summary_id: >-
-    Indonesia mencatatkan sejarah ketatanegaraan dengan menyelenggarakan pemilihan kepala daerah serentak pertama di seluruh provinsi
-    dan kabupaten/kota di bawah pengawasan aktif DPD RI, KPU, dan Bawaslu untuk mengawal kedaulatan demokrasi lokal.
-  source_ids: [laporan-pilkada-kpu-2024]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
+  summary_id: Indonesia mencatatkan sejarah ketatanegaraan dengan menyelenggarakan
+    pemilihan kepala daerah serentak pertama di seluruh provinsi dan
+    kabupaten/kota di bawah pengawasan aktif DPD RI, KPU, dan Bawaslu untuk
+    mengawal kedaulatan demokrasi lokal.
+  source_ids:
+    - laporan-pilkada-kpu-2024
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-badan-danantara-2025
   term_id: presiden-prabowo
-  date: "2025-02-10"
+  date: 2025-02-10
   category: produk-hukum
   title_id: Pembentukan Badan Pengelola Investasi Daya Anagata Nusantara (BPI Danantara)
-  summary_id: >-
-    Presiden membentuk BPI Danantara sebagai superholding sovereign wealth fund yang mengkonsolidasikan aset BUMN dan dana investasi strategis
-    guna mendanai proyek industri hilirisasi, energi terbarukan, dan infrastruktur strategis nasional tanpa membebani APBN.
-  source_ids: [perpres-danantara-2025]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: Presiden membentuk BPI Danantara sebagai superholding sovereign
+    wealth fund yang mengkonsolidasikan aset BUMN dan dana investasi strategis
+    guna mendanai proyek industri hilirisasi, energi terbarukan, dan
+    infrastruktur strategis nasional tanpa membebani APBN.
+  source_ids:
+    - perpres-danantara-2025
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-mk-phpu-pilkada-serentak-2025
   term_id: mk-2023-sekarang
-  date: "2025-03-12"
+  date: 2025-03-12
   category: pengadilan
   title_id: Penyelesaian Sengketa Hasil Pilkada Serentak 2024 di Mahkamah Konstitusi
-  summary_id: >-
-    MK merampungkan penanganan ratusan permohonan perselisihan hasil pemilihan kepala daerah serentak 2024 secara transparan dan tepat waktu,
-    memberikan kepastian hukum konstitusional kepemimpinan kepala daerah definitif di seluruh pelosok tanah air.
-  source_ids: [laporan-pilkada-kpu-2024]
-  dimension_ids: [kedaulatan-rakyat, negara-hukum]
-
+  summary_id: MK merampungkan penanganan ratusan permohonan perselisihan hasil
+    pemilihan kepala daerah serentak 2024 secara transparan dan tepat waktu,
+    memberikan kepastian hukum konstitusional kepemimpinan kepala daerah
+    definitif di seluruh pelosok tanah air.
+  source_ids:
+    - laporan-pilkada-kpu-2024
+  dimension_ids:
+    - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-bpk-ihps-ii-2024
   term_id: bpk-2019-sekarang
-  date: "2025-06-18"
+  date: 2025-06-18
   category: kebijakan
   title_id: Penyerahan IHPS II Tahun 2024 oleh BPK RI kepada Lembaga Perwakilan
-  summary_id: >-
-    Ketua BPK Isma Yatun menyerahkan Ikhtisar Hasil Pemeriksaan Semester (IHPS) II 2024 yang memuat hasil evaluasi kepatuhan anggaran kementerian/lembaga
-    dan efektivitas program bantuan sosial serta perlindungan lingkungan hidup nasional.
-  source_ids: [ihps-ii-bpk-2024]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: Ketua BPK Isma Yatun menyerahkan Ikhtisar Hasil Pemeriksaan Semester
+    (IHPS) II 2024 yang memuat hasil evaluasi kepatuhan anggaran
+    kementerian/lembaga dan efektivitas program bantuan sosial serta
+    perlindungan lingkungan hidup nasional.
+  source_ids:
+    - ihps-ii-bpk-2024
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-mpr-sidang-tahunan-2025
   term_id: mpr-2024-sekarang
-  date: "2025-08-16"
+  date: 2025-08-16
   category: peristiwa
   title_id: Sidang Tahunan MPR RI dan Sidang Bersama DPR-DPD RI Tahun 2025
-  summary_id: >-
-    MPR RI menyelenggarakan Sidang Tahunan untuk memfasilitasi pertanggungjawaban dan laporan kinerja seluruh lembaga negara konstitusional
-    di hadapan wakil rakyat dan publik dalam rangka peringatan 80 Tahun Kemerdekaan Indonesia.
-  source_ids: [risalah-sidang-mpr-2025]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  summary_id: MPR RI menyelenggarakan Sidang Tahunan untuk memfasilitasi
+    pertanggungjawaban dan laporan kinerja seluruh lembaga negara konstitusional
+    di hadapan wakil rakyat dan publik dalam rangka peringatan 80 Tahun
+    Kemerdekaan Indonesia.
+  source_ids:
+    - risalah-sidang-mpr-2025
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-ky-laptah-2025
   term_id: ky-2020-sekarang
-  date: "2026-01-28"
+  date: 2026-01-28
   category: kebijakan
   title_id: Rilis Laporan Tahunan KY 2025 - Penguatan Integritas dan Kode Etik Hakim
-  summary_id: >-
-    Komisi Yudisial merilis laporan tahunan penegakan kehormatan peradilan sepanjang 2025,
-    meningkatkan investigasi terpadu bersama Badan Pengawasan MA untuk memulihkan kepercayaan publik terhadap institusi kehakiman.
-  source_ids: [laporan-tahunan-ky-2025]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: Komisi Yudisial merilis laporan tahunan penegakan kehormatan
+    peradilan sepanjang 2025, meningkatkan investigasi terpadu bersama Badan
+    Pengawasan MA untuk memulihkan kepercayaan publik terhadap institusi
+    kehakiman.
+  source_ids:
+    - laporan-tahunan-ky-2025
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-bpk-ihps-i-2025
   term_id: bpk-2019-sekarang
-  date: "2026-05-20"
+  date: 2026-05-20
   category: kebijakan
   title_id: Penyerahan IHPS I Tahun 2025 dan Audit Pengawasan Keuangan Program MBG
-  summary_id: >-
-    BPK RI menyerahkan IHPS I 2025 yang mencakup hasil audit investigatif dan kinerja atas tata kelola pengadaan bahan pangan program Makan Bergizi Gratis (MBG)
-    guna memastikan efisiensi anggaran dan zero-corruption di seluruh satuan pelayanan gizi daerah.
-  source_ids: [ihps-i-bpk-2025]
-  dimension_ids: [checks-balances, sila-5]
-
+  summary_id: BPK RI menyerahkan IHPS I 2025 yang mencakup hasil audit
+    investigatif dan kinerja atas tata kelola pengadaan bahan pangan program
+    Makan Bergizi Gratis (MBG) guna memastikan efisiensi anggaran dan
+    zero-corruption di seluruh satuan pelayanan gizi daerah.
+  source_ids:
+    - ihps-i-bpk-2025
+  dimension_ids:
+    - checks-balances
+    - sila-5
 - id: ev-mpr-sidang-tahunan-2026
   term_id: mpr-2024-sekarang
-  date: "2026-08-16"
+  date: 2026-08-16
   category: peristiwa
-  title_id: Sidang Tahunan MPR RI dan Sidang Bersama DPR-DPD RI 16 Agustus 2026 (Refleksi 81 Tahun RI)
-  summary_id: >-
-    MPR RI menggelar Sidang Tahunan 2026 menyongsong HUT RI ke-81, mengevaluasi pencapaian kemandirian ekonomi,
-    kedaulatan pangan, stabilitas demokrasi konstitusional, dan penegakan hukum berkeadilan di seluruh organ negara UUD 1945.
-  source_ids: [risalah-sidang-mpr-2026]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  title_id: Sidang Tahunan MPR RI dan Sidang Bersama DPR-DPD RI 16 Agustus 2026
+    (Refleksi 81 Tahun RI)
+  summary_id: MPR RI menggelar Sidang Tahunan 2026 menyongsong HUT RI ke-81,
+    mengevaluasi pencapaian kemandirian ekonomi, kedaulatan pangan, stabilitas
+    demokrasi konstitusional, dan penegakan hukum berkeadilan di seluruh organ
+    negara UUD 1945.
+  source_ids:
+    - risalah-sidang-mpr-2026
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-ma-skandal-zarof-ricar-2024
   term_id: ma-reformasi-sekarang
-  date: "2024-10-25"
+  date: 2024-10-25
   category: pengadilan
-  title_id: Penggeledahan Rumah Mantan Pejabat MA Zarof Ricar - Sitaan Rp920 Miliar Tunai dan 51 Kg Emas Kasus Suap Kasasi Ronald Tannur
-  summary_id: >-
-    Kejaksaan Agung membongkar skandal mafia peradilan terbesar pasca-Reformasi dengan menangkap mantan Kepala Balitbang Diklat Kumdil MA Zarof Ricar
-    dan menyita uang tunai hampir Rp1 triliun (berbagai valuta asing) serta 51 kilogram emas batangan Antam dari kediamannya,
-    hasil percaloan perkara dan suap vonis kasasi, menyusul OTT terhadap 3 hakim PN Surabaya (Erintuah Damanik dkk.) penerima suap vonis bebas pembunuhan Ronald Tannur.
-  source_ids: [bap-kejagung-zarof-ricar-2024, laporan-icw-korupsi-penegak-hukum-2024]
-  dimension_ids: [negara-hukum, sila-2]
-  actor_ids: [zarof-ricar, erintuah-damanik]
-
+  title_id: Penggeledahan Rumah Mantan Pejabat MA Zarof Ricar - Sitaan Rp920
+    Miliar Tunai dan 51 Kg Emas Kasus Suap Kasasi Ronald Tannur
+  summary_id: Kejaksaan Agung membongkar skandal mafia peradilan terbesar
+    pasca-Reformasi dengan menangkap mantan Kepala Balitbang Diklat Kumdil MA
+    Zarof Ricar dan menyita uang tunai hampir Rp1 triliun (berbagai valuta
+    asing) serta 51 kilogram emas batangan Antam dari kediamannya, hasil
+    percaloan perkara dan suap vonis kasasi, menyusul OTT terhadap 3 hakim PN
+    Surabaya (Erintuah Damanik dkk.) penerima suap vonis bebas pembunuhan Ronald
+    Tannur.
+  source_ids:
+    - bap-kejagung-zarof-ricar-2024
+    - laporan-icw-korupsi-penegak-hukum-2024
+  dimension_ids:
+    - negara-hukum
+    - sila-2
+  actor_ids:
+    - zarof-ricar
+    - erintuah-damanik
 - id: ev-mbg-risiko-korupsi-pengadaan-2025
   term_id: presiden-prabowo
-  date: "2025-04-14"
+  date: 2025-04-14
   category: kebijakan
-  title_id: Temuan Audit Investigatif dan Kerentanan Monopoli Pengadaan Bahan Pangan Program Makan Bergizi Gratis (MBG)
-  summary_id: >-
-    Laporan audit investigatif dan kajian pengawasan independen mengidentifikasi titik rawan korupsi pengadaan pangan skala masif Program MBG,
-    termasuk risiko penggelembungan harga (markup), penunjukan vendor titipan kroni daerah tanpa tender terbuka,
-    serta insiden keracunan pangan pada sejumlah dapur uji coba yang menuntut transparansi total dan tata kelola anti-monopoli.
-  source_ids: [laporan-investigasi-mbg-2025, uu-62-2024]
-  dimension_ids: [sila-5, negara-hukum]
-
+  title_id: Temuan Audit Investigatif dan Kerentanan Monopoli Pengadaan Bahan
+    Pangan Program Makan Bergizi Gratis (MBG)
+  summary_id: Laporan audit investigatif dan kajian pengawasan independen
+    mengidentifikasi titik rawan korupsi pengadaan pangan skala masif Program
+    MBG, termasuk risiko penggelembungan harga (markup), penunjukan vendor
+    titipan kroni daerah tanpa tender terbuka, serta insiden keracunan pangan
+    pada sejumlah dapur uji coba yang menuntut transparansi total dan tata
+    kelola anti-monopoli.
+  source_ids:
+    - laporan-investigasi-mbg-2025
+    - uu-62-2024
+  dimension_ids:
+    - sila-5
+    - negara-hukum
 - id: ev-kejagung-korupsi-timah-300t-2024
   term_id: presiden-prabowo
-  date: "2024-11-12"
+  date: 2024-11-12
   category: pengadilan
-  title_id: Persidangan Megakorupsi Tata Niaga Timah IUP PT Timah Tbk dengan Kerugian Negara dan Kerusakan Lingkungan Rp300 Triliun
-  summary_id: >-
-    Pengadilan Tipikor menggelar persidangan kasus korupsi tata niaga komoditas timah periode 2015-2022 yang merugikan keuangan negara
-    dan pemulihan lingkungan hingga Rp300 triliun (audit BPKP/ahli lingkungan IPB), mengungkap kolusi perizinan tambang ilegal,
-    pencucian uang korporasi cangkang, dan keterlibatan oknum regulator lintas sektor.
-  source_ids: [dakwaan-kejagung-timah-2024, uud-nri-1945]
-  dimension_ids: [tujuan-2, sila-5]
-  actor_ids: [harvey-moeis]
+  title_id: Persidangan Megakorupsi Tata Niaga Timah IUP PT Timah Tbk dengan
+    Kerugian Negara dan Kerusakan Lingkungan Rp300 Triliun
+  summary_id: Pengadilan Tipikor menggelar persidangan kasus korupsi tata niaga
+    komoditas timah periode 2015-2022 yang merugikan keuangan negara dan
+    pemulihan lingkungan hingga Rp300 triliun (audit BPKP/ahli lingkungan IPB),
+    mengungkap kolusi perizinan tambang ilegal, pencucian uang korporasi
+    cangkang, dan keterlibatan oknum regulator lintas sektor.
+  source_ids:
+    - dakwaan-kejagung-timah-2024
+    - uud-nri-1945
+  dimension_ids:
+    - tujuan-2
+    - sila-5
+  actor_ids:
+    - harvey-moeis
   subject_term_id: presiden-jokowi-ii
-  subject_basis_id: >-
-    Surat dakwaan menyebut tegas periode perbuatan 2015-2022, yang berakhir di dalam masa jabatan ini, meski
-    persidangannya berjalan pada masa jabatan berikutnya.
-
+  subject_basis_id: Surat dakwaan menyebut tegas periode perbuatan 2015-2022, yang
+    berakhir di dalam masa jabatan ini, meski persidangannya berjalan pada masa
+    jabatan berikutnya.
 - id: ev-dwifungsi-tni-polri-jabatan-sipil-2024
   term_id: presiden-prabowo
-  date: "2024-12-05"
+  date: 2024-12-05
   category: kebijakan
-  title_id: Kontroversi Penempatan Perwira Aktif TNI/Polri di Jabatan Sipil ASN dan Draf Revisi UU TNI/Polri
-  summary_id: >-
-    Koalisi masyarakat sipil untuk reformasi sektor keamanan melayangkan kritik keras atas maraknya penempatan perwira aktif TNI dan Polri
-    dalam jabatan struktural kementerian/lembaga sipil dan BUMN serta usulan revisi UU TNI dan UU Polri yang dinilai mengembalikan watak Dwifungsi ABRI
-    dan mengikis prinsip supremasi sipil amanat Reformasi 1998 (TAP MPR No. VII/2000 dan Pasal 47 UU No. 34/2004).
-  source_ids: [koalisi-sipil-reformasi-sektor-keamanan-2024, tap-mpr-vii-2000, uu-34-2004]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  title_id: Kontroversi Penempatan Perwira Aktif TNI/Polri di Jabatan Sipil ASN
+    dan Draf Revisi UU TNI/Polri
+  summary_id: Koalisi masyarakat sipil untuk reformasi sektor keamanan melayangkan
+    kritik keras atas maraknya penempatan perwira aktif TNI dan Polri dalam
+    jabatan struktural kementerian/lembaga sipil dan BUMN serta usulan revisi UU
+    TNI dan UU Polri yang dinilai mengembalikan watak Dwifungsi ABRI dan
+    mengikis prinsip supremasi sipil amanat Reformasi 1998 (TAP MPR No. VII/2000
+    dan Pasal 47 UU No. 34/2004).
+  source_ids:
+    - koalisi-sipil-reformasi-sektor-keamanan-2024
+    - tap-mpr-vii-2000
+    - uu-34-2004
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-dpr-pansus-angket-haji-2024
   term_id: dpr-2019-2024
-  date: "2024-09-30"
+  date: 2024-09-30
   category: kebijakan
-  title_id: Laporan Akhir Pansus Angket Haji DPR RI Membongkar Pengalihan Sepihak Kuota Tambahan Haji 2024
-  summary_id: >-
-    Pansus Angket Haji DPR RI secara resmi menetapkan kesimpulan adanya pelanggaran hukum dalam pembagian 20.000 kuota tambahan haji 2024
-    oleh Kementerian Agama yang mengalihkan 50% kuota untuk haji khusus (ONH Plus) tanpa persetujuan DPR, melanggar Pasal 64 UU No. 8/2019 tentang Penyelenggaraan Ibadah Haji.
-  source_ids: [laporan-pansus-haji-dpr-2024, uu-8-2019]
-  dimension_ids: [checks-balances, sila-5]
-
-
-
+  title_id: Laporan Akhir Pansus Angket Haji DPR RI Membongkar Pengalihan Sepihak
+    Kuota Tambahan Haji 2024
+  summary_id: Pansus Angket Haji DPR RI secara resmi menetapkan kesimpulan adanya
+    pelanggaran hukum dalam pembagian 20.000 kuota tambahan haji 2024 oleh
+    Kementerian Agama yang mengalihkan 50% kuota untuk haji khusus (ONH Plus)
+    tanpa persetujuan DPR, melanggar Pasal 64 UU No. 8/2019 tentang
+    Penyelenggaraan Ibadah Haji.
+  source_ids:
+    - laporan-pansus-haji-dpr-2024
+    - uu-8-2019
+  dimension_ids:
+    - checks-balances
+    - sila-5
+- id: ev-dpd-pemilihan-sultan-2024
+  term_id: dpd-2024-sekarang
+  date: 2024-10-02
+  category: pengangkatan
+  title_id: Sidang Paripurna Maraton DPD RI Memilih Sultan Bachtiar Najamudin
+    sebagai Ketua
+  summary_id: DPD RI menetapkan paket pimpinan baru periode 2024-2029 dipimpin
+    Sultan Bachtiar Najamudin, GKR Hemas, Yorrys Raweyai, dan Tamsil Linrung
+    setelah dinamika persaingan paket yang ketat.
+  source_ids:
+    - risalah-paripurna-dpd-oktober-2024
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+- id: ev-dpd-pengawasan-adat-ikn-2024
+  term_id: dpd-2024-sekarang
+  date: 2024-11-12
+  category: kebijakan
+  title_id: Pengawasan DPD RI atas Dampak Sosial Pembangunan IKN terhadap
+    Masyarakat Adat Paser
+  summary_id: Komite I DPD RI melakukan inspeksi lapangan dan mendesak Otorita IKN
+    serta Kementerian ATR/BPN menghormati tanah ulayat dan tidak menggusur
+    pemukiman adat di kawasan inti pusat pemerintahan.
+  source_ids:
+    - laporan-dpd-pengawasan-ikn-2024
+  dimension_ids:
+    - sila-5
+    - sila-3
+    - sila-2
+- id: ev-ky-kasus-zarof-ricar-2024
+  term_id: ky-2020-sekarang
+  date: 2024-11-05
+  category: pengadilan
+  title_id: Investigasi Khusus KY bersama Kejaksaan Agung Terkait Skandal Mafia
+    Peradilan Zarof Ricar
+  summary_id: Komisi Yudisial membentuk tim investigasi etik khusus menelusuri
+    dugaan keterlibatan hakim kasasi MA dalam jaringan perantara suap vonis
+    Ronald Tannur dan temuan gratifikasi uang tunai hampir Rp1 triliun.
+  source_ids:
+    - laporan-ky-kasus-zarof-2024
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - sila-5
+- id: ev-bpk-ihps-infrastruktur-2024
+  term_id: bpk-2019-sekarang
+  date: 2024-10-22
+  category: kebijakan
+  title_id: Penyampaian IHPS I 2024 BPK Memotret Kesiapan Infrastruktur dan Tata
+    Kelola Anggaran IKN
+  summary_id: BPK menyampaikan Ikhtisar Hasil Pemeriksaan Semester I 2024 kepada
+    DPR yang menekankan pentingnya mitigasi risiko pendanaan non-APBN dan
+    kepastian pembebasan lahan proyek strategis nasional.
+  source_ids:
+    - ihps-bpk-i-2024
+  dimension_ids:
+    - checks-balances
+    - sila-5
+    - tujuan-2
+- id: ev-ma-skandal-zarof-2024
+  term_id: ma-reformasi-sekarang
+  date: 2024-10-25
+  category: krisis
+  title_id: Penyitaan Rp920 Miliar dan 51 Kg Emas Milik Mantan Pejabat MA Zarof Ricar
+  summary_id: Kejaksaan Agung menyita tumpukan uang tunai berbagai valuta asing
+    dan emas batangan di rumah eks Kepala Balitbang Kumdil MA Zarof Ricar yang
+    diduga menjadi makelar perkara di Mahkamah Agung selama 10 tahun.
+  source_ids:
+    - laporan-kejagung-zarof-ricar-2024
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - sila-5
+- id: ev-mpr-pelantikan-prabowo-2024
+  term_id: mpr-2024-sekarang
+  date: 2024-10-20
+  category: pengangkatan
+  title_id: Sidang Paripurna MPR RI Melantik Presiden Prabowo Subianto dan Wapres
+    Gibran Rakabuming
+  summary_id: MPR RI menggelar Sidang Paripurna Pelantikan Presiden Prabowo
+    Subianto dan Wapres Gibran Rakabuming Raka masa jabatan 2024-2029 yang
+    dihadiri oleh puluhan kepala negara dan delegasi sahabat.
+  source_ids:
+    - tap-amandemen-uud-1999-2002
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+    - tujuan-4
+- id: ev-prabowo-pelantikan-menteri-2024
+  term_id: presiden-prabowo
+  date: 2024-10-21
+  category: pengangkatan
+  title_id: Pelantikan Menteri dan Wakil Menteri Kabinet Merah Putih
+  summary_id: Presiden Prabowo Subianto melantik jajaran menteri dan wakil menteri
+    Kabinet Merah Putih untuk melaksanakan program Asta Cita.
+  source_ids:
+    - perpres-astacita-2024
+  dimension_ids:
+    - tujuan-1
+    - sila-4
+- id: ev-mk-putusan-parliamentary-threshold-2024
+  term_id: mk-2023-sekarang
+  date: 2024-02-29
+  category: pengadilan
+  title_id: "Putusan MK No. 116/PUU-XXI/2023: Ambang Batas Parlemen 4% Wajib
+    Diubah Sebelum Pemilu 2029"
+  summary_id: MK memutus ambang batas parlemen 4% inkonstitusional bersyarat dan
+    memerintahkan pembentuk UU merumuskan batas baru berbasis kajian
+    proporsional representasi.
+  source_ids:
+    - putusan-mk-116-puu-xxi-2023
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+    - negara-hukum
+- id: ev-mk-putusan-netralitas-tni-polri-2024
+  term_id: mk-2023-sekarang
+  date: 2024-11-14
+  category: pengadilan
+  title_id: Putusan MK No. 136/PUU-XXII/2024 Menegaskan Sanksi Pidana Netralitas
+    Aparat dalam Pilkada
+  summary_id: MK memasukkan frasa TNI, Polri, dan pejabat daerah dalam Pasal 188
+    UU Pilkada yang dapat dipidana jika membuat keputusan yang menguntungkan
+    salah satu paslon.
+  source_ids:
+    - putusan-mk-136-puu-xxii-2024
+  dimension_ids:
+    - negara-hukum
+    - kedaulatan-rakyat
+    - sila-2
+- id: ev-dpd-posisi-ruu-masyarakat-adat-2025
+  term_id: dpd-2024-sekarang
+  date: 2025-02-10
+  category: produk-hukum
+  title_id: DPD RI Mengusulkan Percepatan Pengesahan RUU Masyarakat Hukum Adat ke
+    Prolegnas
+  summary_id: Komite I DPD RI menyampaikan usulan prioritas pembahasan RUU
+    Pengakuan dan Perlindungan Masyarakat Hukum Adat untuk menghentikan
+    kriminalisasi warga adat.
+  source_ids:
+    - laporan-dpd-pengawasan-ikn-2024
+  dimension_ids:
+    - sila-5
+    - sila-3
+    - sila-2
+- id: ev-dpd-advokasi-fiskal-daerah-2025
+  term_id: dpd-2024-sekarang
+  date: 2025-04-16
+  category: kebijakan
+  title_id: DPD RI Mendesak Transparansi Alokasi Transfer ke Daerah (TKD) Anggaran 2025
+  summary_id: Komite IV DPD RI mengkritisi keterlambatan transfer dana alokasi
+    umum dan khusus ke pemerintah daerah di luar Jawa.
+  source_ids:
+    - laporan-dpd-dbh-2018
+  dimension_ids:
+    - sila-5
+    - sila-3
+- id: ev-ky-audit-integritas-cha-2025
+  term_id: ky-2020-sekarang
+  date: 2025-03-14
+  category: kebijakan
+  title_id: Penerapan Skrining LHKPN Digital dan Latar Belakang Finansial Calon
+    Hakim Agung 2025
+  summary_id: KY memperketat protokol seleksi calon hakim agung dan hakim ad hoc
+    tipikor pasca-skandal makelar perkara peradilan kasasi.
+  source_ids:
+    - laporan-tahunan-ky-2023
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-bpk-audit-swasembada-pangan-2025
+  term_id: bpk-2019-sekarang
+  date: 2025-03-25
+  category: kebijakan
+  title_id: BPK Melakukan Audit Kinerja Pengadaan Sarana Pertanian dan Food Estate 2025
+  summary_id: BPK memulai pemeriksaan kinerja tata kelola distribusi pupuk subsidi
+    dan optimalisasi lahan cetak sawah nasional.
+  source_ids:
+    - ihps-bpk-i-2024
+  dimension_ids:
+    - sila-5
+    - checks-balances
+    - tujuan-2
+- id: ev-mpr-konsolidasi-kebangsaan-2025
+  term_id: mpr-2024-sekarang
+  date: 2025-01-20
+  category: kebijakan
+  title_id: Penyelenggaraan Rembuk Nasional Pimpinan MPR Bersama Tokoh Lintas Agama
+  summary_id: Pimpinan MPR RI menggelar dialog kebangsaan memperkuat harmoni
+    antarumat beragama dan pengamalan nilai-nilai luhur Pancasila.
+  source_ids:
+    - buku-mpr-empat-pilar-2012
+  dimension_ids:
+    - sila-1
+    - sila-3
+- id: ev-dpr-pembahasan-perampasan-aset-2025
+  term_id: dpr-2024-2029
+  date: 2025-03-05
+  category: produk-hukum
+  title_id: DPR Memasukkan RUU Perampasan Aset Tindak Pidana ke Prolegnas Prioritas 2025
+  summary_id: DPR RI periode 2024-2029 menyepakati pembahasan instrumen hukum
+    penyitaan aset hasil kejahatan korupsi tanpa menunggu vonis pidana inkracht
+    (non-conviction based asset forfeiture).
+  source_ids:
+    - uu-30-2002
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - sila-5
+- id: ev-ma-pembinaan-etik-terpadu-2025
+  term_id: ma-reformasi-sekarang
+  date: 2025-02-18
+  category: kebijakan
+  title_id: Pakta Integritas dan Pengawasan Melekat Hakim Agung di Bawah Ketua MA Sunarto
+  summary_id: Ketua MA Sunarto meluncurkan sistem rotasi panitera ketat dan
+    inspeksi mendadak peradilan guna membersihkan MA dari praktik mafia
+    peradilan dan perantara suap.
+  source_ids:
+    - sema-4-2008
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-dpd-revisi-uu-desa-2024
+  term_id: dpd-2019-2024
+  date: 2024-03-28
+  category: produk-hukum
+  title_id: DPD RI Memperjuangkan Hak Finansial Aparatur Desa dalam Revisi UU Desa
+    (UU No. 3/2024)
+  summary_id: Komite I DPD RI mengawal penambahan masa jabatan dan dana purnatugas
+    aparatur desa dalam pembahasan revisi UU Desa demi stabilitas pemerintahan
+    desa.
+  source_ids:
+    - uu-6-2014
+  dimension_ids:
+    - sila-5
+    - sila-3
+    - kedaulatan-rakyat

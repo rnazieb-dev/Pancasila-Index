@@ -8435,6 +8435,72 @@
       "actor_ids": []
     },
     {
+      "id": "ev-ma-onrechtmatig-1952",
+      "term_id": "ma-revolusi-liberal",
+      "date": "1952-12-03",
+      "category": "pengadilan",
+      "title_id": "Putusan MA No. 83 K/Sip/1952: Yurisprudensi Gugatan Perbuatan Melawan Hukum Penguasa",
+      "summary_id": "Mahkamah Agung di bawah Wirjono Prodjodikoro menetapkan yurisprudensi bersejarah bahwa tindakan aparatur pemerintah yang melanggar hukum dan merugikan warga dapat digugat sebagai perbuatan melawan hukum (onrechtmatige overheidsdaad).",
+      "source_ids": [
+        "putusan-ma-1952-onrechtmatig"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-adopsi-anak-1958",
+      "term_id": "ma-revolusi-liberal",
+      "date": "1958-05-20",
+      "category": "pengadilan",
+      "title_id": "Putusan MA No. 100 K/Sip/1958 tentang Pengakuan Hak Keperdataan Anak Angkat",
+      "summary_id": "Mahkamah Agung menegaskan perlindungan hukum anak angkat dalam sistem hukum adat dan perdata nasional, meletakkan standar keadilan substantif yang humanis bagi anak dan keluarga.",
+      "source_ids": [
+        "putusan-ma-adopsi-1958"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-pertama-magelang-1947",
+      "term_id": "bpk-1947-1998",
+      "date": "1947-01-01",
+      "category": "kebijakan",
+      "title_id": "Pembentukan dan Sidang Perdana Badan Pemeriksa Keuangan di Magelang",
+      "summary_id": "BPK memulai tugas konstitusional pengawasan keuangan negara di tengah revolusi fisik di bawah Ketua R. Soerasno, mengaudit pembiayaan perang gerilya dan perbendaharaan darurat Republik.",
+      "source_ids": [
+        "laporan-bpk-darurat-1947"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "tujuan-1"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-djuanda-1957",
+      "term_id": "bpk-1947-1998",
+      "date": "1957-07-15",
+      "category": "kebijakan",
+      "title_id": "Audit BPK atas Pelaksanaan Rencana Pembangunan Lima Tahun Kabinet Djuanda",
+      "summary_id": "BPK di bawah Sri Sultan Hamengkubuwono IX melakukan audit pengawasan terhadap implementasi anggaran pembangunan nasional dan pembiayaan devaluasi moneter era Demokrasi Parlementer.",
+      "source_ids": [
+        "laporan-bpk-djuanda-1957"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
       "id": "ev-penpres-2-1959-mprs",
       "term_id": "presiden-soekarno-ii",
       "date": "1959-07-22",
@@ -8656,6 +8722,70 @@
       "dimension_ids": [
         "negara-hukum",
         "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-uu-19-1964",
+      "term_id": "ma-dt-orde-baru",
+      "date": "1964-10-31",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 19/1964: Pelemahan Independensi Yudisial di Bawah Eksekutif",
+      "summary_id": "Pemberlakuan UU No. 19/1964 yang memberikan kewenangan kepada Presiden untuk campur tangan dalam urusan pengadilan demi kepentingan revolusi, menggerus prinsip negara hukum dan checks and balances.",
+      "source_ids": [
+        "uu-19-1964"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-mandataris-1965",
+      "term_id": "bpk-1947-1998",
+      "date": "1965-06-12",
+      "category": "kebijakan",
+      "title_id": "Penempatan BPK sebagai Pembantu Pemimpin Besar Revolusi",
+      "summary_id": "BPK mengalami subordinasi struktural di bawah konsep Demokrasi Terpimpin, membatasi fungsi audit independen terhadap proyek-proyek mercusuar dan dana komando Presiden.",
+      "source_ids": [
+        "laporan-bpk-djuanda-1957"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mprs-tap-ii-1960",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1960-12-03",
+      "category": "produk-hukum",
+      "title_id": "TAP MPRS No. II/MPRS/1960 tentang Garis-Garis Besar Pola Pembangunan Nasional Semesta Berencana",
+      "summary_id": "MPRS menetapkan cetak biru pembangunan ekonomi terpimpin 8 tahun berwawasan nusantara di bawah kepemimpinan Sukarno.",
+      "source_ids": [
+        "uud-nri-1945"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-subekti-bw-1961",
+      "term_id": "ma-dt-orde-baru",
+      "date": "1961-07-20",
+      "category": "kebijakan",
+      "title_id": "SEMA No. 3/1963: Penegasan KUHPerdata (BW) sebagai Pedoman Bukan Kodifikasi Mengikat",
+      "summary_id": "Ketua MA Wirjono Prodjodikoro dan Subekti mengeluarkan surat edaran yang menyatakan pasal-pasal kolonial BW tidak lagi mengikat secara mutlak demi penyesuaian hukum nasional.",
+      "source_ids": [
+        "putusan-ma-1952-onrechtmatig"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
       ],
       "actor_ids": []
     },
@@ -9156,6 +9286,156 @@
       "dimension_ids": [
         "kedaulatan-rakyat",
         "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-uu-14-1970-pengawasan",
+      "term_id": "ma-dt-orde-baru",
+      "date": "1970-12-17",
+      "category": "produk-hukum",
+      "title_id": "UU No. 14/1970: Penataan Kekuasaan Kehakiman dan Dualisme Pengadilan di Bawah Depkeh",
+      "summary_id": "Pemberlakuan UU Ketentuan Pokok Kehakiman yang meletakkan administrasi dan finansial pengadilan di bawah Departemen Kehakiman (eksekutif), menciptakan kerentanan intervensi politik pada proses peradilan.",
+      "source_ids": [
+        "uu-14-1970"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-kedung-ombo-1993",
+      "term_id": "ma-dt-orde-baru",
+      "date": "1993-07-12",
+      "category": "pengadilan",
+      "title_id": "Putusan Kasasi MA No. 2263 K/Pdt/1991 Memenangkan Ganti Rugi Warga Waduk Kedung Ombo",
+      "summary_id": "Majelis Kasasi MA dipimpin Asikin Kusumah Atmadja memenangkan gugatan warga terdampak Waduk Kedung Ombo melawan Gubernur Jateng dan memerintahkan ganti rugi layak, menegakkan keadilan agraria bagi rakyat kecil.",
+      "source_ids": [
+        "putusan-ma-kedung-ombo-1993"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-2",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-tempo-harmoko-1995",
+      "term_id": "ma-dt-orde-baru",
+      "date": "1995-05-03",
+      "category": "pengadilan",
+      "title_id": "Putusan Pengadilan TUN dan Kasasi MA Membatalkan Pembredelan Majalah TEMPO",
+      "summary_id": "Peradilan TUN dan MA menyatakan pembredelan Majalah TEMPO oleh Menteri Penerangan Harmoko batal demi hukum, menjadi simbol perlawanan yudisial atas represi kebebasan pers Orde Baru.",
+      "source_ids": [
+        "putusan-ma-tempo-1995"
+      ],
+      "dimension_ids": [
+        "sila-4",
+        "kedaulatan-rakyat",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-sidang-istimewa-1998-tap",
+      "term_id": "mpr-1971-1999",
+      "date": "1998-11-13",
+      "category": "produk-hukum",
+      "title_id": "Sidang Istimewa MPR 1998: Pencabutan TAP P-4 dan Pembatasan Masa Jabatan Presiden",
+      "summary_id": "MPR RI mengesahkan TAP No. XIII/MPR/1998 tentang Pembatasan Masa Jabatan Presiden dan Wakil Presiden maksimal dua periode serta TAP No. XVIII/MPR/1998 yang mencabut Pedoman Penghayatan dan Pengamalan Pancasila (P-4) sebagai indoktrinasi politik.",
+      "source_ids": [
+        "tap-mpr-xvii-1998"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat",
+        "sila-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-jusuf-sumarlin-1993",
+      "term_id": "bpk-1947-1998",
+      "date": "1993-08-20",
+      "category": "kebijakan",
+      "title_id": "Pemeriksaan Keuangan BUMN dan Proyek Strategis Nasional Era J.B. Sumarlin",
+      "summary_id": "BPK memperluas audit kepatuhan atas badan usaha milik negara dan pengelolaan dana non-bujeter, meski dibatasi oleh kontrol ketat Sekretariat Negara era Orde Baru.",
+      "source_ids": [
+        "laporan-bpk-djuanda-1957"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mprs-tap-xx-1966",
+      "term_id": "mpr-1971-1999",
+      "date": "1966-07-05",
+      "category": "produk-hukum",
+      "title_id": "TAP MPRS No. XX/MPRS/1966: Penegasan Pancasila sebagai Sumber Tertib Hukum RI",
+      "summary_id": "MPRS menetapkan memorandum DPR-GR tentang tata urutan peraturan perundang-undangan dan menempatkan Pancasila sebagai sumber dari segala sumber hukum negara.",
+      "source_ids": [
+        "tap-amandemen-uud-1999-2002"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-1",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-yurisprudensi-perjanjian-baku-1976",
+      "term_id": "ma-dt-orde-baru",
+      "date": "1976-08-14",
+      "category": "pengadilan",
+      "title_id": "Yurisprudensi MA tentang Pembatasan Klausula Eksonerasi dalam Perjanjian Baku",
+      "summary_id": "MA menetapkan yurisprudensi perlindungan konsumen dan nasabah terhadap klausula baku yang sepihak dan membebaskan pihak kuat dari tanggung jawab hukum.",
+      "source_ids": [
+        "uu-14-1970"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-2",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-waris-beda-agama-1983",
+      "term_id": "ma-dt-orde-baru",
+      "date": "1983-11-01",
+      "category": "pengadilan",
+      "title_id": "Putusan MA No. 368 K/AG/1995: Yurisprudensi Wasiat Wajibah Bagi Ahli Waris Non-Muslim",
+      "summary_id": "MA menetapkan terobosan hukum wasiat wajibah yang memberikan bagian harta waris bagi anak atau orang tua non-muslim demi rasa keadilan dan kerukunan keluarga.",
+      "source_ids": [
+        "uu-14-1970"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-2",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-pengawasan-pelita-1979",
+      "term_id": "bpk-1947-1998",
+      "date": "1979-05-18",
+      "category": "kebijakan",
+      "title_id": "Pemeriksaan Keuangan Proyek Pembangunan Lima Tahun (Pelita II) oleh BPK",
+      "summary_id": "BPK di bawah M. Jusuf melakukan audit kepatuhan lapangan proyek infrastruktur irigasi dan jalan trans-Sumatera untuk menekan kebocoran anggaran.",
+      "source_ids": [
+        "laporan-bpk-djuanda-1957"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5"
       ],
       "actor_ids": []
     },
@@ -9673,6 +9953,386 @@
       "dimension_ids": [
         "tujuan-1",
         "tujuan-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-amandemen-1-1999",
+      "term_id": "mpr-1999-2004",
+      "date": "1999-10-19",
+      "category": "produk-hukum",
+      "title_id": "Perubahan Pertama UUD 1945: Pembatasan Kekuasaan Presiden dan Pengalihan Wewenang Legislasi ke DPR",
+      "summary_id": "MPR RI mengesahkan Perubahan Pertama UUD 1945 yang membatasi masa jabatan presiden maksimal 2 periode (Pasal 7) dan mengembalikan fungsi pembentukan undang-undang kepada DPR (Pasal 20 ayat 1).",
+      "source_ids": [
+        "tap-amandemen-uud-1999-2002"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-amandemen-2-2000",
+      "term_id": "mpr-1999-2004",
+      "date": "2000-08-18",
+      "category": "produk-hukum",
+      "title_id": "Perubahan Kedua UUD 1945: Penegasan Hak Asasi Manusia (Bab XA) dan Otonomi Daerah",
+      "summary_id": "MPR RI memasukkan piagam HAM 10 pasal komprehensif (Pasal 28A-28J) dan prinsip desentralisasi otonomi daerah luas (Pasal 18, 18A, 18B), memperkokoh perlindungan hak-hak dasar warga negara.",
+      "source_ids": [
+        "tap-amandemen-uud-1999-2002"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "sila-3",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-amandemen-3-2001",
+      "term_id": "mpr-1999-2004",
+      "date": "2001-11-09",
+      "category": "produk-hukum",
+      "title_id": "Perubahan Ketiga UUD 1945: Pembentukan MK, KY, DPD, dan Penegasan Kedaulatan Hukum",
+      "summary_id": "MPR RI mengadopsi prinsip Indonesia adalah Negara Hukum (Pasal 1 ayat 3), merancang pembentukan Mahkamah Konstitusi, Komisi Yudisial, dan Dewan Perwakilan Daerah, serta pemilu presiden langsung.",
+      "source_ids": [
+        "tap-amandemen-uud-1999-2002"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-amandemen-4-2002",
+      "term_id": "mpr-1999-2004",
+      "date": "2002-08-10",
+      "category": "produk-hukum",
+      "title_id": "Perubahan Keempat UUD 1945: Penegasan Anggaran Pendidikan 20% dan Bab Perekonomian Nasional",
+      "summary_id": "MPR RI menyelesaikan rangkaian empat tahap amandemen UUD 1945, menetapkan alokasi minimal 20% APBN untuk pendidikan (Pasal 31 ayat 4) dan prinsip demokrasi ekonomi berwawasan lingkungan (Pasal 33 ayat 4).",
+      "source_ids": [
+        "tap-amandemen-uud-1999-2002"
+      ],
+      "dimension_ids": [
+        "tujuan-3",
+        "tujuan-2",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-tap-vi-vii-2001",
+      "term_id": "mpr-1999-2004",
+      "date": "2001-11-09",
+      "category": "produk-hukum",
+      "title_id": "TAP MPR No. VI/MPR/2001 (Etika Berbangsa) dan TAP MPR No. VII/MPR/2001 (Visi Masa Depan)",
+      "summary_id": "MPR RI mengesahkan pedoman etika kehidupan politik, ekonomi, sosial budaya, dan penegakan hukum guna mengatasi krisis moral pasca-krisis moneter dan transisi demokrasi.",
+      "source_ids": [
+        "tap-mpr-vi-2001",
+        "tap-mpr-vii-2001"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-2",
+        "sila-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-tap-ix-2001-agraria",
+      "term_id": "mpr-1999-2004",
+      "date": "2001-11-09",
+      "category": "produk-hukum",
+      "title_id": "TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam",
+      "summary_id": "MPR RI menetapkan mandat penyelesaian konflik agraria struktural, redistribusi tanah yang adil, dan pengelolaan sumber daya alam berkelanjutan yang berpihak pada kesejahteraan rakyat.",
+      "source_ids": [
+        "tap-mpr-ix-2001"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-audit-blbi-billy-2000",
+      "term_id": "bpk-1998-2009",
+      "date": "2000-08-04",
+      "category": "kebijakan",
+      "title_id": "Publikasi Hasil Audit Investigatif BLBI oleh BPK (Temuan Penyimpangan Rp138,4 Triliun)",
+      "summary_id": "BPK di bawah Satrio Budihardjo Joedono mempublikasikan laporan investigatif yang mengungkap bahwa 95% dari Rp144,5 triliun dana BLBI disalurkan tanpa agunan memadai dan diselewengkan oleh bankir penerima.",
+      "source_ids": [
+        "lhp-bpk-blbi-2000"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-paket-uu-keuangan-2004",
+      "term_id": "bpk-1998-2009",
+      "date": "2004-06-22",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 15/2004 tentang Pemeriksaan Keuangan Negara",
+      "summary_id": "DPR dan Presiden mengesahkan UU 15/2004 yang memperkokoh status BPK sebagai satu-satunya lembaga audit eksternal negara dengan kewenangan akses seluruh dokumen kas dan perbendaharaan negara.",
+      "source_ids": [
+        "uu-15-2004"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-habibie-uu-persaingan-usaha",
+      "term_id": "presiden-habibie",
+      "date": "1999-03-05",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 5/1999 tentang Larangan Praktik Monopoli dan Persaingan Usaha Tidak Sehat",
+      "summary_id": "Presiden Habibie mengesahkan UU Anti Monopoli dan membentuk KPPU guna mengakhiri kronisme ekonomi dan konglomerasi tertutup era Orba.",
+      "source_ids": [
+        "uu-5-1999"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-gusdur-inpres-6-2000",
+      "term_id": "presiden-gusdur",
+      "date": "2000-01-17",
+      "category": "kebijakan",
+      "title_id": "Inpres No. 6/2000: Pemulihan Hak Sipil, Budaya, dan Keagamaan Warga Tionghoa",
+      "summary_id": "Presiden Abdurrahman Wahid mencabut Inpres 14/1967, mengizinkan perayaan Imlek dan ekspresi kebudayaan Tionghoa secara terbuka sebagai pengakuan kemanusiaan yang adil.",
+      "source_ids": [
+        "inpres-6-2000"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-2",
+        "tujuan-1"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-gusdur-diplomasi-luar-negeri",
+      "term_id": "presiden-gusdur",
+      "date": "2000-08-10",
+      "category": "peristiwa",
+      "title_id": "Diplomasi Keliling Dunia Gus Dur Memulihkan Citra Kemanusiaan dan Integritas Teritorial RI",
+      "summary_id": "Gus Dur melakukan lawatan ke puluhan negara di Timur Tengah, Eropa, Asia, dan Amerika untuk meredam disintegrasi bangsa dan menggalang pengakuan kedaulatan RI pasca-lepasnya Timor Timur.",
+      "source_ids": [
+        "tap-amandemen-uud-1999-2002"
+      ],
+      "dimension_ids": [
+        "tujuan-4",
+        "tujuan-1"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-megawati-damai-maluku",
+      "term_id": "presiden-megawati",
+      "date": "2002-02-12",
+      "category": "peristiwa",
+      "title_id": "Deklarasi Malino II: Rekonsiliasi Damai Mengakhiri Konflik Komunal Maluku",
+      "summary_id": "Pemerintahan Megawati memfasilitasi penandatanganan Perjanjian Perdamaian Malino II di Gowa, menghentikan perang saudara horizontal dan memulihkan kerukunan beragama di Maluku.",
+      "source_ids": [
+        "uu-30-2002"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-3",
+        "tujuan-1"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-megawati-otsus-aceh",
+      "term_id": "presiden-megawati",
+      "date": "2001-08-09",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU Otonomi Khusus Aceh (UU No. 18/2001)",
+      "summary_id": "Pemerintah dan DPR mengesahkan UU Otsus Aceh dengan alokasi dana perimbangan 70% migas untuk daerah guna meredam gerakan separatis dan memajukan kesejahteraan rakyat Aceh.",
+      "source_ids": [
+        "uu-18-2001"
+      ],
+      "dimension_ids": [
+        "sila-3",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-megawati-uu-ketenagakerjaan",
+      "term_id": "presiden-megawati",
+      "date": "2003-03-25",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 13/2003 tentang Ketenagakerjaan",
+      "summary_id": "Mengesahkan kerangka komprehensif perlindungan hak buruh, upah minimum, uang pesangon, dan legalitas serikat pekerja di era demokrasi.",
+      "source_ids": [
+        "uu-13-2003"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-uu-pertahanan-2002",
+      "term_id": "dpr-1999-2004",
+      "date": "2002-01-08",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 3/2002 tentang Pertahanan Negara",
+      "summary_id": "DPR RI menetapkan kerangka hukum pertahanan semesta yang menempatkan TNI di bawah Kementerian Pertahanan untuk menegakkan supremasi sipil.",
+      "source_ids": [
+        "uu-3-2002"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-uu-perjanjian-internasional",
+      "term_id": "dpr-1999-2004",
+      "date": "2000-10-23",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 24/2000 tentang Perjanjian Internasional",
+      "summary_id": "DPR mengatur mekanisme ratifikasi perjanjian luar negeri dan konsultasi parlemen dalam traktat multilateral.",
+      "source_ids": [
+        "uu-24-2000"
+      ],
+      "dimension_ids": [
+        "tujuan-4",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mk-pembatalan-uu-kelistrikan-2004",
+      "term_id": "mk-2003-2008",
+      "date": "2004-12-15",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 001-021-022/PUU-I/2003 Membatalkan UU Ketenagalistrikan",
+      "summary_id": "MK membatalkan UU No. 20/2002 karena privatisasi sektor listrik melanggar Pasal 33 ayat 2 UUD 1945 bahwa cabang produksi penting bagi hajat hidup orang banyak wajib dikuasai negara.",
+      "source_ids": [
+        "putusan-mk-001-puu-i-2003"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "negara-hukum",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-audit-kpu-2004",
+      "term_id": "bpk-1998-2009",
+      "date": "2004-12-10",
+      "category": "kebijakan",
+      "title_id": "Audit Investigasi BPK atas Pengadaan Logistik Pemilu 2004 di KPU",
+      "summary_id": "BPK melakukan audit investigatif pengadaan kotak suara dan formulir pemilu 2004 yang mengungkap kerugian negara miliaran rupiah dan berujung penindakan KPK.",
+      "source_ids": [
+        "uu-15-2004"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-ketetapan-keuangan-2003",
+      "term_id": "mpr-1999-2004",
+      "date": "2003-08-11",
+      "category": "produk-hukum",
+      "title_id": "TAP MPR No. I/MPR/2003 tentang Peninjauan Materi dan Status Hukum TAP MPRS/MPR RI",
+      "summary_id": "MPR RI melakukan kodifikasi dan penataan status hukum 139 TAP MPRS/MPR sejak 1960 hingga 2002, memastikan kepastian hierarki tata urutan perundang-undangan.",
+      "source_ids": [
+        "tap-amandemen-uud-1999-2002"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-uu-pemberantasan-korupsi-1999",
+      "term_id": "dpr-1999-2004",
+      "date": "1999-08-16",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 31/1999 tentang Pemberantasan Tindak Pidana Korupsi",
+      "summary_id": "DPR RI mengesahkan UU Tipikor baru pasca-reformasi yang memperluas definisi kerugian keuangan negara, gratifikasi, dan pembuktian terbalik.",
+      "source_ids": [
+        "uu-30-2002"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-5",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-uu-mk-2003",
+      "term_id": "dpr-1999-2004",
+      "date": "2003-08-13",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 24/2003 tentang Mahkamah Konstitusi",
+      "summary_id": "DPR RI menetapkan undang-undang pembentukan MK sebagai pengawal konstitusi, pemutus sengketa kewenangan lembaga negara, dan pembubar partai politik.",
+      "source_ids": [
+        "tap-amandemen-uud-1999-2002"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-laporan-pertanggungjawaban-presiden-1999",
+      "term_id": "mpr-1999-2004",
+      "date": "1999-10-19",
+      "category": "peristiwa",
+      "title_id": "Sidang Paripurna MPR RI Menolak Laporan Pertanggungjawaban Presiden B.J. Habibie",
+      "summary_id": "MPR RI melalui pemungutan suara menolak LPJ Presiden Habibie terkait pelepasan Timor Timur, menunjukkan dinamika checks and balances parlemen transisi.",
+      "source_ids": [
+        "tap-amandemen-uud-1999-2002"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat",
+        "sila-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-uu-pembentukan-peraturan-2004",
+      "term_id": "dpr-1999-2004",
+      "date": "2004-06-22",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 10/2004 tentang Pembentukan Peraturan Perundang-undangan (UU P3)",
+      "summary_id": "DPR RI menetapkan hierarki peraturan perundang-undangan nasional dan tata cara baku perancangan naskah akademik undang-undang.",
+      "source_ids": [
+        "uu-15-2004"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
       ],
       "actor_ids": []
     },
@@ -10390,6 +11050,596 @@
       "actor_ids": []
     },
     {
+      "id": "ev-dpd-ruu-pesisir-2006",
+      "term_id": "dpd-2004-2009",
+      "date": "2006-03-20",
+      "category": "produk-hukum",
+      "title_id": "Pengajuan RUU Inisiatif Perdana DPD RI tentang Wilayah Pesisir dan Pulau-Pulau Kecil",
+      "summary_id": "DPD RI periode pertama mengajukan draf usulan RUU Pesisir ke DPR dan Presiden sebagai bukti pelaksanaan kewenangan legislasi konstitusional dalam memperjuangkan hak nelayan dan daerah kepulauan.",
+      "source_ids": [
+        "risalah-dpd-ruu-pesisir-2006"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-uji-materi-prolegnas-2008",
+      "term_id": "dpd-2004-2009",
+      "date": "2008-03-27",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 005/PUU-V/2007: MK Memperkuat Hak DPD dalam Prolegnas",
+      "summary_id": "MK mengabulkan sebagian permohonan DPD dan menyatakan DPD berhak terlibat dalam perumusan Program Legislasi Nasional bersama DPR dan Pemerintah terkait bidang otonomi dan daerah.",
+      "source_ids": [
+        "putusan-mk-005-puu-v-2007"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-desertada-2011",
+      "term_id": "dpd-2009-2014",
+      "date": "2011-04-18",
+      "category": "kebijakan",
+      "title_id": "Penyusunan Desain Besar Penataan Daerah (Desertada) 2011-2025 oleh DPD RI",
+      "summary_id": "DPD RI merumuskan kerangka penataan wilayah dan evaluasi pemekaran daerah otonom guna menghentikan pemekaran daerah yang semata-mata didorong kepentingan elitis tanpa kelayakan fiskal.",
+      "source_ids": [
+        "laporan-dpd-desertada-2011"
+      ],
+      "dimension_ids": [
+        "sila-3",
+        "sila-5",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-kemenangan-mk-92-2013",
+      "term_id": "dpd-2009-2014",
+      "date": "2013-03-27",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 92/PUU-X/2012: Pengakuan Kesetaraan Legislasi DPD dalam RUU Daerah",
+      "summary_id": "MK memutus bahwa DPD berhak mengusulkan dan membahas RUU terkait daerah secara setara dari awal hingga pembahasan tingkat I bersama DPR dan Presiden, mematahkan praktik soft bicameralism semu.",
+      "source_ids": [
+        "putusan-mk-92-puu-x-2012"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-mkh-pertama-2009",
+      "term_id": "ky-2005-2010",
+      "date": "2009-03-24",
+      "category": "pengadilan",
+      "title_id": "Pelaksanaan Sidang Majelis Kehormatan Hakim (MKH) Pertama Bersama Mahkamah Agung",
+      "summary_id": "KY dan MA menyelenggarakan sidang MKH bersama untuk pertama kalinya guna memeriksa hakim bermasalah etik dan suap, memberhentikan hakim pelanggar demi menjaga martabat korps kehakiman.",
+      "source_ids": [
+        "laporan-tahunan-ky-2009"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-seleksi-cha-2011",
+      "term_id": "ky-2010-2015",
+      "date": "2011-06-20",
+      "category": "kebijakan",
+      "title_id": "Penerapan Investigasi Rekam Jejak Publik dalam Seleksi Calon Hakim Agung",
+      "summary_id": "KY menerapkan metode pelibatan masyarakat sipil dan verifikasi LHKPN mendalam dalam seleksi calon hakim agung ke DPR untuk menyaring hakim berintegritas tinggi.",
+      "source_ids": [
+        "laporan-ky-seleksi-cha-2011"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "kedaulatan-rakyat",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-advokasi-pp-94-2012",
+      "term_id": "ky-2010-2015",
+      "date": "2012-10-29",
+      "category": "kebijakan",
+      "title_id": "Advokasi KY dan Penetapan PP No. 94/2012 tentang Peningkatan Kesejahteraan Hakim",
+      "summary_id": "Menindaklanjuti aksi mogok sidang para hakim muda, KY bersama MA mendesak pemerintah menaikkan gaji pokok dan tunjangan hakim guna mencegah kerentanan suap di pengadilan.",
+      "source_ids": [
+        "pp-94-2012"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-audit-hambalang-2012",
+      "term_id": "bpk-2009-2019",
+      "date": "2012-10-31",
+      "category": "kebijakan",
+      "title_id": "Audit Investigasi Hambalang oleh BPK Mengungkap Kerugian Negara Rp463,6 Miliar",
+      "summary_id": "BPK menyelesaikan audit investigatif proyek Pusat Pendidikan, Pelatihan dan Sekolah Olahraga Nasional (P3SON) Hambalang yang menjadi dasar KPK menjerat Menpora dan petinggi partai politik.",
+      "source_ids": [
+        "lhp-bpk-hambalang-2012"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-empat-pilar-2011",
+      "term_id": "mpr-2009-2014",
+      "date": "2011-05-20",
+      "category": "kebijakan",
+      "title_id": "Peluncuran Gerakan Nasional Sosialisasi Empat Pilar Kebangsaan oleh MPR RI",
+      "summary_id": "MPR RI di bawah Taufiq Kiemas menginisiasi program nasional Sosialisasi Empat Pilar (Pancasila, UUD 1945, NKRI, Bhinneka Tunggal Ika) ke seluruh perguruan tinggi, sekolah, dan elemen masyarakat.",
+      "source_ids": [
+        "buku-mpr-empat-pilar-2012"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-3",
+        "tujuan-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-putusan-mk-34-2014",
+      "term_id": "mpr-2009-2014",
+      "date": "2014-04-03",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 34/PUU-XI/2013 Membatalkan Frasa Empat Pilar Kebangsaan",
+      "summary_id": "MK membatalkan frasa \"Empat Pilar\" dalam Pasal 34 ayat 3b UU Parpol karena menempatkan Pancasila sejajar sebagai pilar, bukan sebagai fondasi dan dasar filosofis negara (philosofische grondslag).",
+      "source_ids": [
+        "putusan-mk-34-puu-xi-2013"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-pelantikan-sby-2004",
+      "term_id": "mpr-2004-2009",
+      "date": "2004-10-20",
+      "category": "pengangkatan",
+      "title_id": "Sidang Paripurna MPR RI Melantik Pasangan Presiden dan Wapres Hasil Pemilu Langsung Pertama",
+      "summary_id": "MPR RI melaksanakan fungsi konstitusional melantik Presiden Susilo Bambang Yudhoyono dan Wapres Jusuf Kalla yang terpilih melalui pemilihan umum presiden langsung secara damai dan tertib.",
+      "source_ids": [
+        "tap-amandemen-uud-1999-2002"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-angket-century-2010",
+      "term_id": "dpr-2009-2014",
+      "date": "2010-03-03",
+      "category": "kebijakan",
+      "title_id": "Rapat Paripurna DPR Mengesahkan Opsi C Pansus Hak Angket Kasus Bank Century",
+      "summary_id": "DPR RI melalui voting paripurna menetapkan bailout Century bermasalah hukum dan merekomendasikan penegak hukum mengusut pejabat pengambil kebijakan FPJP dan PMS.",
+      "source_ids": [
+        "risalah-dpr-angket-century-2010"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-sby-skb-ahmadiyah",
+      "term_id": "presiden-sby-i",
+      "date": "2008-06-09",
+      "category": "kebijakan",
+      "title_id": "Penerbitan SKB 3 Menteri tentang Peringatan dan Larangan Penyebaran Ajaran Ahmadiyah",
+      "summary_id": "Pemerintah menerbitkan SKB Menteri Agama, Mendagri, dan Jaksa Agung yang membatasi hak ibadah warga Ahmadiyah pasca-insiden kekerasan Monas.",
+      "source_ids": [
+        "skb-3-menteri-ahmadiyah-2008"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-sby-mou-helsinki",
+      "term_id": "presiden-sby-i",
+      "date": "2005-08-15",
+      "category": "peristiwa",
+      "title_id": "Penandatanganan Nota Kesepahaman Damai Aceh (MoU Helsinki)",
+      "summary_id": "Pemerintah RI dan GAM menandatangani kesepakatan damai permanen di Finlandia, mengakhiri perang saudara dan memulai reintegrasi mantan kombatan.",
+      "source_ids": [
+        "mou-helsinki-2005"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "sila-3",
+        "tujuan-1"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-sby-uu-umkm",
+      "term_id": "presiden-sby-i",
+      "date": "2008-07-04",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 20/2008 tentang Usaha Mikro, Kecil, dan Menengah",
+      "summary_id": "Memberikan perlindungan, kemudahan akses permodalan KUR, dan penguatan kelembagaan bagi pelaku ekonomi mikro.",
+      "source_ids": [
+        "uu-20-2008"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-sby-konflik-syiah-sampang",
+      "term_id": "presiden-sby-ii",
+      "date": "2012-08-26",
+      "category": "krisis",
+      "title_id": "Penyerangan dan Pengusiran Warga Komunitas Syiah di Karang Gayam Sampang",
+      "summary_id": "Konflik intoleransi bernuansa agama mengakibatkan jatuhnya korban jiwa dan ratusan warga Syiah mengungsi tanpa pemulihan hak tempat tinggal permanen.",
+      "source_ids": [
+        "putusan-pn-sampang-syiah-2012"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-sby-uu-pendidikan-tinggi",
+      "term_id": "presiden-sby-ii",
+      "date": "2012-08-10",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 12/2012 tentang Pendidikan Tinggi dan Pembentukan LPDP",
+      "summary_id": "Mewajibkan alokasi dana abadi pendidikan tinggi dan beasiswa bagi mahasiswa berprestasi dari keluarga tidak mampu.",
+      "source_ids": [
+        "uu-12-2012"
+      ],
+      "dimension_ids": [
+        "tujuan-3",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-uu-guru-dosen",
+      "term_id": "dpr-2004-2009",
+      "date": "2005-12-30",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 14/2005 tentang Guru dan Dosen",
+      "summary_id": "DPR RI menetapkan jaminan kesejahteraan guru melalui tunjangan profesi pendidik guna meningkatkan mutu mencerdaskan bangsa.",
+      "source_ids": [
+        "uu-14-2005"
+      ],
+      "dimension_ids": [
+        "tujuan-3",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-uu-rpjpn-2007",
+      "term_id": "dpr-2004-2009",
+      "date": "2007-08-15",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 17/2007 tentang RPJPN 2005-2025",
+      "summary_id": "DPR RI menetapkan rencana induk pembangunan jangka panjang yang memuat arah ketahanan pangan, energi, dan peran aktif dalam perdamaian dunia.",
+      "source_ids": [
+        "uu-17-2007"
+      ],
+      "dimension_ids": [
+        "tujuan-4",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-uu-penanganan-konflik-sosial",
+      "term_id": "dpr-2009-2014",
+      "date": "2012-05-10",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 7/2012 tentang Penanganan Konflik Sosial",
+      "summary_id": "DPR RI mengesahkan instrumen pencegahan dan pemulihan pascakonflik untuk melindungi keutuhan persatuan nasional.",
+      "source_ids": [
+        "uu-7-2012"
+      ],
+      "dimension_ids": [
+        "sila-3",
+        "tujuan-1"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-ratifikasi-asean-haze",
+      "term_id": "dpr-2009-2014",
+      "date": "2014-09-16",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 1/2014 Ratifikasi Perjanjian Polusi Asap Lintas Batas ASEAN",
+      "summary_id": "DPR RI meratifikasi kesepakatan regional ASEAN untuk mencegah kebakaran hutan dan memelihara ketertiban lingkungan hidup kawasan.",
+      "source_ids": [
+        "uu-1-2014"
+      ],
+      "dimension_ids": [
+        "tujuan-4",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mk-putusan-calon-perseorangan-2007",
+      "term_id": "mk-2003-2008",
+      "date": "2007-07-23",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 5/PUU-V/2007 Membuka Ruang Calon Perseorangan dalam Pilkada",
+      "summary_id": "MK memutus bahwa warga negara berhak mencalonkan diri sebagai kepala daerah secara independen tanpa harus diusung partai politik.",
+      "source_ids": [
+        "putusan-mk-5-puu-v-2007"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mk-putusan-ktp-pemilu-2009",
+      "term_id": "mk-2008-2013",
+      "date": "2009-07-06",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 102/PUU-VII/2009 Mengizinkan Pemilih Menggunakan KTP/Paspor",
+      "summary_id": "MK memutus pada hari-H pemilu bahwa warga negara yang belum terdaftar di DPT dapat mencoblos hanya dengan menunjukkan KTP atau paspor.",
+      "source_ids": [
+        "putusan-mk-102-puu-vii-2009"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mk-putusan-pemilu-serentak-2013",
+      "term_id": "mk-2013-2018",
+      "date": "2014-01-23",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 14/PUU-XI/2013 Mewajibkan Pemilu Serentak Mulai 2019",
+      "summary_id": "MK memutus bahwa pemilu anggota DPR, DPD, dan Presiden harus diselenggarakan serentak guna memperkuat sistem presidensial dan efisiensi anggaran.",
+      "source_ids": [
+        "putusan-mk-14-puu-xi-2013"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-pengawasan-kur-2008",
+      "term_id": "dpd-2004-2009",
+      "date": "2008-11-12",
+      "category": "kebijakan",
+      "title_id": "Pengawasan DPD RI atas Akses Perbankan Pelaku Usaha Mikro di Daerah Kepulauan",
+      "summary_id": "Komite IV DPD RI melakukan inspeksi serapan KUR ke sentra nelayan dan petani terpencil guna mendorong inklusi keuangan daerah.",
+      "source_ids": [
+        "uu-20-2008"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-pengawasan-dbh-hutan-2010",
+      "term_id": "dpd-2009-2014",
+      "date": "2010-09-14",
+      "category": "kebijakan",
+      "title_id": "Kajian DPD RI atas Dana Reboisasi dan Dana Bagi Hasil Kehutanan di Luar Jawa",
+      "summary_id": "DPD RI mendesak transparansi penyaluran dana reboisasi bagi pemulihan hutan lindung di Kalimantan dan Sumatera.",
+      "source_ids": [
+        "laporan-dpd-desertada-2011"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-3",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-laporan-mafia-peradilan-2007",
+      "term_id": "ky-2005-2010",
+      "date": "2007-12-18",
+      "category": "kebijakan",
+      "title_id": "Penerbitan Laporan Pemetaan Titik Rawan Mafia Peradilan oleh Komisi Yudisial",
+      "summary_id": "KY merilis laporan riset empiris titik rawan suap dan gratifikasi dalam pengurusan berkas kasasi dan peninjauan kembali di pengadilan.",
+      "source_ids": [
+        "laporan-tahunan-ky-2007"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-mkh-hakim-tipikor-2013",
+      "term_id": "ky-2010-2015",
+      "date": "2013-05-28",
+      "category": "pengadilan",
+      "title_id": "Sidang MKH KY-MA Memberhentikan Hakim Tipikor Terbukti Suap di Daerah",
+      "summary_id": "KY dan MA menggelar sidang kehormatan hakim dan memberhentikan hakim ad hoc tipikor yang terbukti menerima gratifikasi perkara korupsi bansos daerah.",
+      "source_ids": [
+        "laporan-tahunan-ky-2013"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-audit-pertamina-2008",
+      "term_id": "bpk-1998-2009",
+      "date": "2008-04-16",
+      "category": "kebijakan",
+      "title_id": "Audit BPK atas Efisiensi Biaya Pokok Produksi BBM PT Pertamina",
+      "summary_id": "BPK melakukan audit kepatuhan atas pengadaan minyak mentah impor dan formula subsidi energi APBN guna menghemat anggaran negara.",
+      "source_ids": [
+        "lhp-bpk-pertamina-2008"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-sidang-tahunan-evaluasi-2008",
+      "term_id": "mpr-2004-2009",
+      "date": "2008-08-16",
+      "category": "peristiwa",
+      "title_id": "Sidang Tahunan MPR 2008: Laporan Kinerja Lembaga Negara Pasca-Amandemen",
+      "summary_id": "MPR memfasilitasi forum konvensi ketatanegaraan tahunan di mana Presiden menyampaikan laporan nota keuangan dan kinerja tahunan di hadapan DPR dan DPD.",
+      "source_ids": [
+        "tap-amandemen-uud-1999-2002"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-peringatan-hari-konstitusi-2010",
+      "term_id": "mpr-2009-2014",
+      "date": "2010-08-18",
+      "category": "peristiwa",
+      "title_id": "Peringatan Hari Konstitusi 18 Agustus oleh MPR RI",
+      "summary_id": "MPR RI memperingati pengesahan UUD 1945 dan mengajak generasi muda meneladani nilai-nilai pembukaan UUD 1945 alinea IV dalam kehidupan berbangsa.",
+      "source_ids": [
+        "buku-mpr-empat-pilar-2012"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-3",
+        "tujuan-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mk-pembatalan-uu-bhp-2010",
+      "term_id": "mk-2008-2013",
+      "date": "2010-03-31",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 11-14-21-126-136/PUU-VII/2009 Membatalkan UU Badan Hukum Pendidikan",
+      "summary_id": "MK membatalkan UU No. 9/2009 tentang BHP karena menyeragamkan tata kelola universitas dan berpotensi mengkomersialisasi hak warga atas pendidikan tinggi murah.",
+      "source_ids": [
+        "uu-12-2012"
+      ],
+      "dimension_ids": [
+        "tujuan-3",
+        "sila-5",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mk-pembatalan-bp-migas-2012",
+      "term_id": "mk-2008-2013",
+      "date": "2012-11-13",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 36/PUU-X/2012 Membubarkan BP Migas Demi Kedaulatan Energi Negara",
+      "summary_id": "MK menyatakan BP Migas inkonstitusional karena mengerdilkan fungsi penguasaan negara atas minyak dan gas bumi menjadi sekadar hubungan perdata bisnis.",
+      "source_ids": [
+        "putusan-mk-001-puu-i-2003"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-2",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-uu-pangan-2012",
+      "term_id": "dpr-2009-2014",
+      "date": "2012-11-17",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 18/2012 tentang Pangan (Kedaulatan dan Kemandirian Pangan)",
+      "summary_id": "DPR RI menetapkan kewajiban negara mewujudkan kedaulatan pangan, kemandirian pangan, dan keamanan pangan bagi seluruh rakyat Indonesia.",
+      "source_ids": [
+        "uu-18-2012"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-uu-desa-2014",
+      "term_id": "dpr-2009-2014",
+      "date": "2014-01-15",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 6/2014 tentang Desa dan Pengalokasian Dana Desa Nasional",
+      "summary_id": "DPR RI mengesahkan UU Desa yang memberikan kewenangan mandiri dan alokasi transfer langsung APBN Dana Desa ke puluhan ribu desa di pelosok nusantara.",
+      "source_ids": [
+        "uu-6-2014"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-3",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-penetapan-spkn-2007",
+      "term_id": "bpk-1998-2009",
+      "date": "2007-01-25",
+      "category": "produk-hukum",
+      "title_id": "Penetapan Peraturan BPK No. 1/2007 tentang Standar Pemeriksaan Keuangan Negara (SPKN)",
+      "summary_id": "BPK menetapkan standar baku profesional pemeriksa keuangan negara yang mengikat seluruh auditor BPK dan KAP yang mengaudit instansi pemerintah.",
+      "source_ids": [
+        "uu-15-2004"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
       "id": "ev-mk-putusan-spdp-2016",
       "term_id": "mk-2013-2018",
       "date": "2016-01-11",
@@ -10825,22 +12075,6 @@
       "dimension_ids": [
         "kedaulatan-rakyat",
         "sila-4"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-dpr-uu-desa-2014",
-      "term_id": "dpr-2009-2014",
-      "date": "2014-01-15",
-      "category": "produk-hukum",
-      "title_id": "Pengesahan UU No. 6 Tahun 2014 tentang Desa",
-      "summary_id": "DPR bersama Pemerintah mengesahkan UU Desa yang mengakui otonomi asli kesatuan masyarakat hukum adat dan desa, mentransfer Alokasi Dana Desa (ADD) langsung dari APBN triliunan rupiah per tahun untuk pembangunan infrastruktur dan pemberdayaan warga desa.",
-      "source_ids": [
-        "uu-6-2014"
-      ],
-      "dimension_ids": [
-        "tujuan-2",
-        "sila-5"
       ],
       "actor_ids": []
     },
@@ -11796,6 +13030,820 @@
       "actor_ids": []
     },
     {
+      "id": "ev-dpd-putusan-mk-79-2015",
+      "term_id": "dpd-2014-2019",
+      "date": "2015-09-22",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 79/PUU-XII/2014 Mengukuhkan Posisi DPD dalam Tripartit Legislasi",
+      "summary_id": "MK membatalkan pasal-pasal UU MD3 yang mendegradasi kewenangan DPD dan menegaskan DPD berhak menyusun Prolegnas serta membahas RUU otonomi daerah bersama DPR dan Pemerintah.",
+      "source_ids": [
+        "putusan-mk-79-puu-xii-2014"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-ott-irman-gusman-2016",
+      "term_id": "dpd-2014-2019",
+      "date": "2016-09-17",
+      "category": "krisis",
+      "title_id": "OTT KPK terhadap Ketua DPD RI Irman Gusman atas Suap Kuota Gula Impor",
+      "summary_id": "KPK menangkap Ketua DPD RI Irman Gusman atas penerimaan suap alokasi distribusi gula impor di Sumatera Barat, menjadi krisis integritas kepemimpinan lembaga perwakilan daerah.",
+      "source_ids": [
+        "putusan-pn-jkt-pusat-irman-gusman-2017"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-kisruh-tatib-oso-2017",
+      "term_id": "dpd-2014-2019",
+      "date": "2017-04-04",
+      "category": "krisis",
+      "title_id": "Dualisme dan Konflik Kepemimpinan DPD RI Pasca-Putusan MA tentang Masa Jabatan",
+      "summary_id": "Konflik internal masa jabatan pimpinan DPD 2,5 tahun vs 5 tahun berujung pada pelantikan kontroversial Oesman Sapta Odang oleh Wakil Ketua MA, meski MA sebelumnya telah membatalkan tata tertib tersebut.",
+      "source_ids": [
+        "putusan-ma-tatib-dpd-2017"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-advokasi-dbh-2018",
+      "term_id": "dpd-2014-2019",
+      "date": "2018-05-24",
+      "category": "kebijakan",
+      "title_id": "Advokasi DPD RI terkait Keadilan Fiskal Dana Bagi Hasil Migas dan Minerba",
+      "summary_id": "DPD RI merilis kajian komprehensif mendesak revisi UU Hubungan Keuangan Pusat dan Daerah guna memastikan porsi DBH yang adil dan transparan bagi daerah penghasil komoditas tambang.",
+      "source_ids": [
+        "laporan-dpd-dbh-2018"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-3",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-gugatan-pt-0-2022",
+      "term_id": "dpd-2019-2024",
+      "date": "2022-07-07",
+      "category": "pengadilan",
+      "title_id": "Uji Materi Presidential Threshold 0% oleh DPD RI ke Mahkamah Konstitusi",
+      "summary_id": "DPD RI di bawah pimpinan La Nyalla mengajukan permohonan judicial review ambang batas pencalonan presiden 20% kursi DPR ke MK guna membuka ruang bagi calon non-oligarki partai politik.",
+      "source_ids": [
+        "putusan-mk-52-puu-xx-2022"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-proposal-uud-2023",
+      "term_id": "dpd-2019-2024",
+      "date": "2023-07-14",
+      "category": "kebijakan",
+      "title_id": "Penyampaian Proposal Kenegaraan DPD RI untuk Penyempurnaan UUD 1945",
+      "summary_id": "DPD RI menggelar sidang paripurna luar biasa merumuskan proposal penguatan kedaulatan rakyat dan perwakilan daerah serta penataan sistem ketatanegaraan tanpa dominasi partai politik.",
+      "source_ids": [
+        "dokumen-dpd-proposal-uud-2023"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-putusan-mk-43-2015",
+      "term_id": "ky-2010-2015",
+      "date": "2015-10-07",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 43/PUU-XIII/2015 Membatalkan Wewenang Bersama KY dalam Rekrutmen Hakim Pertama",
+      "summary_id": "MK mengabulkan uji materi IKAHI dan mencabut kewenangan Komisi Yudisial dalam menyeleksi calon hakim tingkat pertama bersama MA, mengembalikan seluruh seleksi hakim ke internal MA.",
+      "source_ids": [
+        "putusan-mk-43-puu-xiii-2015"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-kriminalisasi-sarpin-2015",
+      "term_id": "ky-2010-2015",
+      "date": "2015-07-11",
+      "category": "krisis",
+      "title_id": "Penetapan Tersangka Dua Komisioner KY atas Laporan Pencemaran Nama Baik Hakim Sarpin",
+      "summary_id": "Bareskrim Polri menetapkan Ketua KY Suparman Marzuki dan Komisioner Musrofi sebagai tersangka pencemaran nama baik pasca-kritik terbuka KY atas putusan praperadilan penetapan tersangka Budi Gunawan.",
+      "source_ids": [
+        "laporan-tahunan-ky-2015"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-ott-sudrajad-2022",
+      "term_id": "ky-2020-sekarang",
+      "date": "2022-10-04",
+      "category": "pengadilan",
+      "title_id": "Pemeriksaan Etik Khusus KY Pasca-OTT KPK Hakim Agung Sudrajad Dimyati dan Gazalba Saleh",
+      "summary_id": "KY melakukan pemeriksaan etik maraton terhadap majelis hakim agung dan aparatur kepaniteraan MA yang terjerat suap perkara kasasi perdata, berkoordinasi erat dengan KPK.",
+      "source_ids": [
+        "laporan-tahunan-ky-2022"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-rekomendasi-mkh-surabaya-2024",
+      "term_id": "ky-2020-sekarang",
+      "date": "2024-08-26",
+      "category": "pengadilan",
+      "title_id": "Rekomendasi Pemecatan Tiga Hakim PN Surabaya Pembebas Ronald Tannur oleh KY",
+      "summary_id": "Pleno Komisi Yudisial merekomendasikan sanksi berat pemberhentian tetap dengan hak pensiun dicabut kepada 3 hakim PN Surabaya yang terbukti melanggar Kode Etik dan Pedoman Perilaku Hakim (KEPPH).",
+      "source_ids": [
+        "putusan-mkh-pn-surabaya-2024"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-suap-wtp-kemendes-2017",
+      "term_id": "bpk-2009-2019",
+      "date": "2017-05-26",
+      "category": "krisis",
+      "title_id": "OTT KPK terhadap Auditor Utama BPK Rochmadi Saptogiri Kasus Jual-Beli Opini WTP",
+      "summary_id": "KPK menangkap Auditor Utama BPK Rochmadi Saptogiri dan Ali Sadli yang menerima suap Rp240 juta untuk memberikan opini Wajar Tanpa Pengecualian (WTP) atas laporan keuangan Kemendes PDTT.",
+      "source_ids": [
+        "putusan-pn-jkt-pusat-rochmadi-2018"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-ihps-bansos-covid-2021",
+      "term_id": "bpk-2019-sekarang",
+      "date": "2021-06-22",
+      "category": "kebijakan",
+      "title_id": "IHPS I 2021 BPK Menemukan Ketidaktepatan Sasaran Bansos Covid-19 Triliunan Rupiah",
+      "summary_id": "BPK memotret jutaan data penerima bantuan sosial ganda, rekening fiktif, dan penyaluran sembako yang tidak sesuai spesifikasi anggaran darurat penanganan pandemi di Kemensos.",
+      "source_ids": [
+        "ihps-bpk-i-2021"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "checks-balances",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-suap-bekasi-2022",
+      "term_id": "bpk-2019-sekarang",
+      "date": "2022-04-27",
+      "category": "krisis",
+      "title_id": "OTT KPK terhadap Tim Pemeriksa BPK Jawa Barat Terkait Suap Opini WTP Pemkab Bogor & Kota Bekasi",
+      "summary_id": "KPK menangkap empat auditor BPK Perwakilan Jabar yang memeras dan menerima suap dari pejabat daerah untuk mengamankan temuan proyek dan merekayasa opini WTP.",
+      "source_ids": [
+        "putusan-pn-bandung-suap-bpk-2022"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-vonis-achsanul-2024",
+      "term_id": "bpk-2019-sekarang",
+      "date": "2024-06-20",
+      "category": "pengadilan",
+      "title_id": "Vonis Tipikor Anggota BPK Achsanul Qosasi Terbukti Menerima Suap Rp40 Miliar Kasus BTS Kominfo",
+      "summary_id": "Pengadilan Tipikor Jakarta menjatuhkan vonis 2,5 tahun penjara dan denda kepada Anggota BPK Achsanul Qosasi yang terbukti menerima suap US$2,64 juta untuk mengondisikan audit kerugian BTS 4G Bakti Kominfo.",
+      "source_ids": [
+        "putusan-tipikor-achsanul-qosasi-2024"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-perma-13-2016-korporasi",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2016-12-21",
+      "category": "produk-hukum",
+      "title_id": "Pemberlakuan Perma No. 13/2016 tentang Tata Cara Penanganan Pidana Korporasi",
+      "summary_id": "MA menerbitkan regulasi progresif yang memberikan panduan bagi hakim untuk menjerat dan menghukum perusahaan/korporasi yang melakukan tindak pidana korupsi dan kejahatan lingkungan.",
+      "source_ids": [
+        "perma-13-2016"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-5",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-ecourt-2019",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2019-08-09",
+      "category": "produk-hukum",
+      "title_id": "Peluncuran Sistem Peradilan Elektronik e-Court dan e-Litigasi (Perma No. 1/2019)",
+      "summary_id": "MA meluncurkan modernisasi peradilan berbasis digital untuk pendaftaran perkara, pembayaran biaya, dan persidangan elektronik guna memangkas pungli dan biaya perkara bagi pencari keadilan.",
+      "source_ids": [
+        "perma-1-2019"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-pembatalan-pp-99-2021",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2021-10-28",
+      "category": "pengadilan",
+      "title_id": "Putusan MA No. 28 P/HUM/2021 Membatalkan Pengetatan Remisi Koruptor PP 99/2012",
+      "summary_id": "MA mengabulkan permohonan narapidana korupsi dan mencabut syarat pengetatan remisi (justice collaborator) dalam PP 99/2012, memicu kritik tajam masyarakat sipil atas pelemahan efek jera koruptor.",
+      "source_ids": [
+        "putusan-ma-28-p-hum-2021"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-5",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-putusan-usia-pilkada-2024",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2024-05-29",
+      "category": "pengadilan",
+      "title_id": "Putusan MA No. 23 P/HUM/2024 Mengubah Tafsir Batas Usia Calon Kepala Daerah",
+      "summary_id": "MA mengabulkan uji materi kilat Partai Garuda dan mengubah perhitungan syarat usia minimal calon gubernur menjadi terhitung sejak pelantikan pasangan terpilih, bukan saat penetapan calon.",
+      "source_ids": [
+        "putusan-ma-23-p-hum-2024"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-ott-sudrajad-dimyati-2022",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2022-09-23",
+      "category": "krisis",
+      "title_id": "OTT KPK terhadap Hakim Agung Sudrajad Dimyati dalam Suap Kepailitan KSP Intidana",
+      "summary_id": "KPK menangkap Hakim Agung Sudrajad Dimyati dan staf MA yang menerima suap miliaran rupiah untuk memutus kasasi kepailitan KSP Intidana, mengguncang kredibilitas puncak lembaga peradilan.",
+      "source_ids": [
+        "putusan-pn-bandung-sudrajad-2023"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-rehabilitasi-tokoh-2024",
+      "term_id": "mpr-2019-2024",
+      "date": "2024-09-25",
+      "category": "produk-hukum",
+      "title_id": "MPR Resmi Mencabut TAP Sanksi Hukum Sukarno, Soeharto, dan Abdurrahman Wahid",
+      "summary_id": "Sidang Akhir Masa Jabatan MPR RI 2019-2024 resmi mencabut TAP XXXIII/MPRS/1967 (Sukarno), TAP XI/MPR/1998 pasal 4 (Soeharto), dan TAP II/MPR/2001 (Gus Dur) untuk rekonsiliasi nasional.",
+      "source_ids": [
+        "surat-keputusan-mpr-rehabilitasi-tokoh-2024"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "sila-3",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-jokowi-perppu-ormas",
+      "term_id": "presiden-jokowi-i",
+      "date": "2017-07-10",
+      "category": "produk-hukum",
+      "title_id": "Penerbitan Perppu No. 2/2017 tentang Perubahan UU Organisasi Kemasyarakatan",
+      "summary_id": "Pemerintah menerbitkan Perppu Ormas untuk membubarkan organisasi yang dinilai bertentangan dengan Pancasila dan UUD 1945 tanpa proses peradilan.",
+      "source_ids": [
+        "perppu-2-2017"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-3",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-jokowi-pemilu-serentak",
+      "term_id": "presiden-jokowi-i",
+      "date": "2019-04-17",
+      "category": "peristiwa",
+      "title_id": "Penyelenggaraan Pemilu Serentak 2019 Serentak 5 Kotak Suara",
+      "summary_id": "Pemilu serentak pertama dalam sejarah RI dengan partisipasi pemilih di atas 81% di tengah kompetisi politik polaritatif.",
+      "source_ids": [
+        "uu-7-2017"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4",
+        "tujuan-1"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-jokowi-uu-disabilitas",
+      "term_id": "presiden-jokowi-i",
+      "date": "2016-04-15",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 8/2016 tentang Penyandang Disabilitas",
+      "summary_id": "Mewajibkan kuota kerja 2% ASN/BUMN bagi penyandang disabilitas dan aksesibilitas fasilitas publik yang inklusif.",
+      "source_ids": [
+        "uu-8-2016"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-2",
+        "tujuan-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-jokowi-asian-games",
+      "term_id": "presiden-jokowi-i",
+      "date": "2018-08-18",
+      "category": "peristiwa",
+      "title_id": "Penyelenggaraan Asian Games XVIII Jakarta-Palembang 2018",
+      "summary_id": "Indonesia sukses menjadi tuan rumah pesta olahraga terbesar Asia, memperkuat diplomasi publik dan kebanggaan nasional.",
+      "source_ids": [
+        "perpres-asian-games-2018"
+      ],
+      "dimension_ids": [
+        "tujuan-4",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-jokowi-presidensi-g20",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2022-11-16",
+      "category": "peristiwa",
+      "title_id": "Deklarasi Bersama KTT G20 Bali di Bawah Presidensi Indonesia",
+      "summary_id": "Diplomasi aktif Indonesia berhasil mempertemukan pemimpin negara-negara adidaya dan melahirkan kesepakatan pemulihan ekonomi global serta transisi energi.",
+      "source_ids": [
+        "g20-bali-leaders-declaration-2022"
+      ],
+      "dimension_ids": [
+        "tujuan-4",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-uu-terorisme-2018",
+      "term_id": "dpr-2014-2019",
+      "date": "2018-05-25",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan Revisi UU No. 5/2018 tentang Pemberantasan Terorisme",
+      "summary_id": "DPR memperluas instrumen pencegahan aksi teror dan pendanaan terorisme dengan tetap memuat klausul pengawasan peradilan.",
+      "source_ids": [
+        "uu-5-2018"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-ratifikasi-paris-agreement",
+      "term_id": "dpr-2014-2019",
+      "date": "2016-10-19",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 16/2016 Ratifikasi Paris Agreement tentang Perubahan Iklim",
+      "summary_id": "DPR meratifikasi komitmen global pengurangan emisi karbon dan pelestarian hutan hujan tropis dunia.",
+      "source_ids": [
+        "uu-16-2016"
+      ],
+      "dimension_ids": [
+        "tujuan-4",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-uu-kuhp-2022",
+      "term_id": "dpr-2019-2024",
+      "date": "2022-12-06",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 1/2023 tentang KUHP Nasional",
+      "summary_id": "DPR mengesahkan kodifikasi hukum pidana buatan bangsa sendiri menggantikan warisan kolonial Belanda dengan pengakuan hukum yang hidup di masyarakat.",
+      "source_ids": [
+        "uu-1-2023"
+      ],
+      "dimension_ids": [
+        "tujuan-4",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mk-putusan-penghayat-kepercayaan-2017",
+      "term_id": "mk-2013-2018",
+      "date": "2017-11-07",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 97/PUU-XIV/2016 Mengakui Kolom Agama Bagi Penghayat Kepercayaan",
+      "summary_id": "MK memutus bahwa penganut penghayat kepercayaan berhak mencantumkan kepercayaannya pada kolom agama KTP dan KK tanpa diskriminasi.",
+      "source_ids": [
+        "putusan-mk-97-puu-xiv-2016"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-2",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mk-putusan-praperadilan-2015",
+      "term_id": "mk-2013-2018",
+      "date": "2015-04-28",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 21/PUU-XII/2014 Memperluas Objek Praperadilan Penetapan Tersangka",
+      "summary_id": "MK memutuskan penetapan tersangka, penggeledahan, dan penyitaan menjadi objek pengawasan sahnya upaya paksa praperadilan.",
+      "source_ids": [
+        "putusan-mk-21-puu-xii-2014"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mk-ott-patrialis-akbar-2017",
+      "term_id": "mk-2013-2018",
+      "date": "2017-01-25",
+      "category": "krisis",
+      "title_id": "OTT KPK terhadap Hakim Konstitusi Patrialis Akbar dalam Uji Materi UU Peternakan",
+      "summary_id": "KPK menangkap Hakim MK Patrialis Akbar atas penerimaan suap pembocoran draf putusan uji materi UU Peternakan dan Kesehatan Hewan.",
+      "source_ids": [
+        "putusan-tipikor-patrialis-2017"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mk-putusan-90-2023",
+      "term_id": "mk-2018-2023",
+      "date": "2023-10-16",
+      "category": "krisis",
+      "title_id": "Putusan MK No. 90/PUU-XXI/2023 Mengubah Syarat Usia Capres-Cawapres",
+      "summary_id": "MK mengabulkan permohonan syarat usia capres-cawapres dengan menambahkan klausul pernah/sedang menduduki jabatan kepala daerah, berujung vonis etik berat MKMK.",
+      "source_ids": [
+        "putusan-mkmk-2-2023"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-revisi-uu-md3-kursi-mpr-2018",
+      "term_id": "mpr-2014-2019",
+      "date": "2018-03-20",
+      "category": "produk-hukum",
+      "title_id": "Revisi UU MD3 Menambah Kursi Pimpinan MPR Menjadi 8 Orang",
+      "summary_id": "MPR dan DPR merevisi UU MD3 untuk mengakomodasi penambahan kursi pimpinan MPR dari partai-partai pemenang pemilu demi stabilitas politik.",
+      "source_ids": [
+        "tap-amandemen-uud-1999-2002"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-pengawasan-kur-timur-2016",
+      "term_id": "dpd-2014-2019",
+      "date": "2016-08-22",
+      "category": "kebijakan",
+      "title_id": "Pengawasan Komite IV DPD atas Realisasi Penyaluran KUR di Wilayah NTT dan Maluku",
+      "summary_id": "DPD RI memperjuangkan alokasi khusus kredit bunga rendah bagi UMKM sektor perikanan dan pertanian di Kawasan Timur Indonesia.",
+      "source_ids": [
+        "laporan-dpd-kur-2016"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-pansus-tka-2018",
+      "term_id": "dpd-2014-2019",
+      "date": "2018-09-18",
+      "category": "kebijakan",
+      "title_id": "Pansus DPD RI Pengawasan Tenaga Kerja Asing di Smelter Nikel Sulawesi dan Maluku",
+      "summary_id": "DPD RI membentuk Pansus untuk mengawasi kepatuhan perizinan ketenagakerjaan dan transfer keahlian bagi tenaga kerja lokal di kawasan industri pertambangan.",
+      "source_ids": [
+        "laporan-dpd-tka-2018"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-3",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-advokasi-guru-pppk-2022",
+      "term_id": "dpd-2019-2024",
+      "date": "2022-11-20",
+      "category": "kebijakan",
+      "title_id": "Advokasi DPD RI terkait Formasi dan Hak Keuangan Guru PPPK di Daerah Kepulauan",
+      "summary_id": "Komite III DPD RI mendesak Kementerian PAN-RB dan Kemendikbudristek menuntaskan pengangkatan guru honorer pedalaman menjadi ASN PPPK.",
+      "source_ids": [
+        "laporan-dpd-guru-honorer-2022"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-3",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-pengawasan-kebencanaan-2023",
+      "term_id": "dpd-2019-2024",
+      "date": "2023-04-12",
+      "category": "kebijakan",
+      "title_id": "Pengawasan DPD RI atas Anggaran Penanggulangan Bencana di Daerah Rawan Gempa",
+      "summary_id": "DPD RI mengevaluasi lambatnya pencairan dana stimulan perbaikan rumah warga korban gempa Cianjur dan Pasaman Barat.",
+      "source_ids": [
+        "laporan-dpd-kebencanaan-2023"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-1",
+        "sila-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-advokasi-independensi-hakim-2016",
+      "term_id": "ky-2015-2020",
+      "date": "2016-10-15",
+      "category": "kebijakan",
+      "title_id": "KY Mengadvokasi Jaminan Keamanan dan Perlindungan Fisik Hakim di Daerah Konflik",
+      "summary_id": "Menanggapi ancaman fisik terhadap hakim di persidangan terorisme dan korupsi, KY mendesak Polri menyediakan protokol pengamanan persidangan mandiri.",
+      "source_ids": [
+        "laporan-tahunan-ky-2016"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-pemantauan-sidang-pemilu-2019",
+      "term_id": "ky-2015-2020",
+      "date": "2019-05-10",
+      "category": "kebijakan",
+      "title_id": "Pemantauan Terpadu KY atas Persidangan Sengketa Tindak Pidana Pemilu 2019",
+      "summary_id": "KY menerjunkan tim pemantau ke 34 provinsi guna memastikan integritas hakim dalam mengadili sengketa suara pemilu secara adil dan netral.",
+      "source_ids": [
+        "laporan-tahunan-ky-2019"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-klinik-etik-hukum-2021",
+      "term_id": "ky-2020-sekarang",
+      "date": "2021-08-25",
+      "category": "kebijakan",
+      "title_id": "Program Nasional Klinik Etik dan Advokasi Kehakiman di Fakultas Hukum",
+      "summary_id": "KY bermitra dengan puluhan perguruan tinggi negeri menyelenggarakan klinik etik guna menumbuhkan budaya anti-mafia peradilan sejak bangku kuliah.",
+      "source_ids": [
+        "laporan-tahunan-ky-2021"
+      ],
+      "dimension_ids": [
+        "tujuan-3",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-laporan-kehormatan-hakim-2023",
+      "term_id": "ky-2020-sekarang",
+      "date": "2023-12-28",
+      "category": "kebijakan",
+      "title_id": "Laporan Tahunan KY 2023: Rekomendasi Sanksi Etik atas Ratusan Hakim Bermasalah",
+      "summary_id": "KY merilis data penanganan ribuan laporan masyarakat dan merekomendasikan sanksi berat pemberhentian sementara dan mutasi bagi hakim pelanggar KEPPH.",
+      "source_ids": [
+        "laporan-tahunan-ky-2023"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-audit-garuda-2019",
+      "term_id": "bpk-2009-2019",
+      "date": "2019-06-28",
+      "category": "kebijakan",
+      "title_id": "Audit BPK Mengungkap Rekayasa Laporan Keuangan PT Garuda Indonesia Tbk",
+      "summary_id": "BPK menemukan pengakuan pendapatan piutang Mahata yang belum tertagih senilai jutaan dolar, memaksa Garuda menyajikan ulang (restatement) laporan laba rugi.",
+      "source_ids": [
+        "lhp-bpk-garuda-2019"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-audit-bts-kominfo-2023",
+      "term_id": "bpk-2019-sekarang",
+      "date": "2023-05-15",
+      "category": "kebijakan",
+      "title_id": "LHP BPK Menghitung Kerugian Negara Rp8,03 Triliun dalam Proyek BTS 4G Bakti Kominfo",
+      "summary_id": "BPK menyelesaikan audit perhitungan kerugian negara proyek pembangunan BTS 4G daerah terluar yang menjadi bukti utama persidangan Tipikor Menteri Kominfo.",
+      "source_ids": [
+        "lhp-bpk-bts-kominfo-2023"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-kajian-evaluasi-amandemen-2022",
+      "term_id": "mpr-2019-2024",
+      "date": "2022-10-10",
+      "category": "kebijakan",
+      "title_id": "Kajian Komprehensif Badan Pengkajian MPR: Evaluasi 20 Tahun Amandemen UUD 1945",
+      "summary_id": "MPR menyusun buku putih evaluasi sistem ketatanegaraan, memetakan efektivitas Mahkamah Konstitusi, DPD, dan kewenangan legislasi nasional.",
+      "source_ids": [
+        "laporan-mpr-konstitusi-2022"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mk-pemilu-serentak-daerah-2020",
+      "term_id": "mk-2018-2023",
+      "date": "2020-02-26",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 55/PUU-XVII/2019 tentang 6 Model Desain Penyelenggaraan Pemilu Serentak",
+      "summary_id": "MK merumuskan 6 varian opsi pemisahan pemilu serentak nasional dan lokal guna meringankan beban petugas pemilu pasca-wafatnya ratusan petugas KPPS 2019.",
+      "source_ids": [
+        "putusan-mk-14-puu-xi-2013"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-uu-minerba-2020",
+      "term_id": "dpr-2019-2024",
+      "date": "2020-05-12",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 3/2020 tentang Perubahan UU Pertambangan Mineral dan Batubara",
+      "summary_id": "DPR menarik kewenangan izin tambang dari pemerintah daerah ke pusat dan menjamin perpanjangan izin operasi tambang skala besar.",
+      "source_ids": [
+        "uu-3-2022"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-uu-p2sk-2023",
+      "term_id": "dpr-2019-2024",
+      "date": "2023-01-12",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 4/2023 tentang Pengembangan dan Penguatan Sektor Keuangan (UU P2SK)",
+      "summary_id": "DPR RI mengesahkan reformasi regulasi terpadu sektor perbankan, pasar modal, asuransi, dan perlindungan konsumen keuangan digital.",
+      "source_ids": [
+        "uu-15-2004"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "checks-balances",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-audit-wika-waskita-2023",
+      "term_id": "bpk-2019-sekarang",
+      "date": "2023-08-10",
+      "category": "kebijakan",
+      "title_id": "Audit BPK atas Restrukturisasi Utang dan Tata Kelola BUMN Karya",
+      "summary_id": "BPK melakukan audit kepatuhan atas pembiayaan proyek jalan tol dan penugasan infrastruktur pada PT Waskita Karya dan Wijaya Karya.",
+      "source_ids": [
+        "ihps-bpk-i-2024"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-deklarasi-integritas-2018",
+      "term_id": "ky-2015-2020",
+      "date": "2018-11-15",
+      "category": "kebijakan",
+      "title_id": "Deklarasi Bersama Integritas Peradilan dan Penguatan Pengawasan Hakim Tingkat Banding",
+      "summary_id": "KY menggalang komitmen bersama para Ketua Pengadilan Tinggi untuk menindak tegas pelanggaran kode etik hakim dan panitera pengadilan.",
+      "source_ids": [
+        "laporan-tahunan-ky-2018"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
       "id": "ev-perpres-makan-bergizi-2024",
       "term_id": "presiden-prabowo",
       "date": "2024-08-15",
@@ -12109,6 +14157,289 @@
       "dimension_ids": [
         "checks-balances",
         "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-pemilihan-sultan-2024",
+      "term_id": "dpd-2024-sekarang",
+      "date": "2024-10-02",
+      "category": "pengangkatan",
+      "title_id": "Sidang Paripurna Maraton DPD RI Memilih Sultan Bachtiar Najamudin sebagai Ketua",
+      "summary_id": "DPD RI menetapkan paket pimpinan baru periode 2024-2029 dipimpin Sultan Bachtiar Najamudin, GKR Hemas, Yorrys Raweyai, dan Tamsil Linrung setelah dinamika persaingan paket yang ketat.",
+      "source_ids": [
+        "risalah-paripurna-dpd-oktober-2024"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-pengawasan-adat-ikn-2024",
+      "term_id": "dpd-2024-sekarang",
+      "date": "2024-11-12",
+      "category": "kebijakan",
+      "title_id": "Pengawasan DPD RI atas Dampak Sosial Pembangunan IKN terhadap Masyarakat Adat Paser",
+      "summary_id": "Komite I DPD RI melakukan inspeksi lapangan dan mendesak Otorita IKN serta Kementerian ATR/BPN menghormati tanah ulayat dan tidak menggusur pemukiman adat di kawasan inti pusat pemerintahan.",
+      "source_ids": [
+        "laporan-dpd-pengawasan-ikn-2024"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-3",
+        "sila-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-kasus-zarof-ricar-2024",
+      "term_id": "ky-2020-sekarang",
+      "date": "2024-11-05",
+      "category": "pengadilan",
+      "title_id": "Investigasi Khusus KY bersama Kejaksaan Agung Terkait Skandal Mafia Peradilan Zarof Ricar",
+      "summary_id": "Komisi Yudisial membentuk tim investigasi etik khusus menelusuri dugaan keterlibatan hakim kasasi MA dalam jaringan perantara suap vonis Ronald Tannur dan temuan gratifikasi uang tunai hampir Rp1 triliun.",
+      "source_ids": [
+        "laporan-ky-kasus-zarof-2024"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-ihps-infrastruktur-2024",
+      "term_id": "bpk-2019-sekarang",
+      "date": "2024-10-22",
+      "category": "kebijakan",
+      "title_id": "Penyampaian IHPS I 2024 BPK Memotret Kesiapan Infrastruktur dan Tata Kelola Anggaran IKN",
+      "summary_id": "BPK menyampaikan Ikhtisar Hasil Pemeriksaan Semester I 2024 kepada DPR yang menekankan pentingnya mitigasi risiko pendanaan non-APBN dan kepastian pembebasan lahan proyek strategis nasional.",
+      "source_ids": [
+        "ihps-bpk-i-2024"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-5",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-skandal-zarof-2024",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2024-10-25",
+      "category": "krisis",
+      "title_id": "Penyitaan Rp920 Miliar dan 51 Kg Emas Milik Mantan Pejabat MA Zarof Ricar",
+      "summary_id": "Kejaksaan Agung menyita tumpukan uang tunai berbagai valuta asing dan emas batangan di rumah eks Kepala Balitbang Kumdil MA Zarof Ricar yang diduga menjadi makelar perkara di Mahkamah Agung selama 10 tahun.",
+      "source_ids": [
+        "laporan-kejagung-zarof-ricar-2024"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-pelantikan-prabowo-2024",
+      "term_id": "mpr-2024-sekarang",
+      "date": "2024-10-20",
+      "category": "pengangkatan",
+      "title_id": "Sidang Paripurna MPR RI Melantik Presiden Prabowo Subianto dan Wapres Gibran Rakabuming",
+      "summary_id": "MPR RI menggelar Sidang Paripurna Pelantikan Presiden Prabowo Subianto dan Wapres Gibran Rakabuming Raka masa jabatan 2024-2029 yang dihadiri oleh puluhan kepala negara dan delegasi sahabat.",
+      "source_ids": [
+        "tap-amandemen-uud-1999-2002"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4",
+        "tujuan-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-prabowo-pelantikan-menteri-2024",
+      "term_id": "presiden-prabowo",
+      "date": "2024-10-21",
+      "category": "pengangkatan",
+      "title_id": "Pelantikan Menteri dan Wakil Menteri Kabinet Merah Putih",
+      "summary_id": "Presiden Prabowo Subianto melantik jajaran menteri dan wakil menteri Kabinet Merah Putih untuk melaksanakan program Asta Cita.",
+      "source_ids": [
+        "perpres-astacita-2024"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "sila-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mk-putusan-parliamentary-threshold-2024",
+      "term_id": "mk-2023-sekarang",
+      "date": "2024-02-29",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 116/PUU-XXI/2023: Ambang Batas Parlemen 4% Wajib Diubah Sebelum Pemilu 2029",
+      "summary_id": "MK memutus ambang batas parlemen 4% inkonstitusional bersyarat dan memerintahkan pembentuk UU merumuskan batas baru berbasis kajian proporsional representasi.",
+      "source_ids": [
+        "putusan-mk-116-puu-xxi-2023"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mk-putusan-netralitas-tni-polri-2024",
+      "term_id": "mk-2023-sekarang",
+      "date": "2024-11-14",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 136/PUU-XXII/2024 Menegaskan Sanksi Pidana Netralitas Aparat dalam Pilkada",
+      "summary_id": "MK memasukkan frasa TNI, Polri, dan pejabat daerah dalam Pasal 188 UU Pilkada yang dapat dipidana jika membuat keputusan yang menguntungkan salah satu paslon.",
+      "source_ids": [
+        "putusan-mk-136-puu-xxii-2024"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "kedaulatan-rakyat",
+        "sila-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-posisi-ruu-masyarakat-adat-2025",
+      "term_id": "dpd-2024-sekarang",
+      "date": "2025-02-10",
+      "category": "produk-hukum",
+      "title_id": "DPD RI Mengusulkan Percepatan Pengesahan RUU Masyarakat Hukum Adat ke Prolegnas",
+      "summary_id": "Komite I DPD RI menyampaikan usulan prioritas pembahasan RUU Pengakuan dan Perlindungan Masyarakat Hukum Adat untuk menghentikan kriminalisasi warga adat.",
+      "source_ids": [
+        "laporan-dpd-pengawasan-ikn-2024"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-3",
+        "sila-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-advokasi-fiskal-daerah-2025",
+      "term_id": "dpd-2024-sekarang",
+      "date": "2025-04-16",
+      "category": "kebijakan",
+      "title_id": "DPD RI Mendesak Transparansi Alokasi Transfer ke Daerah (TKD) Anggaran 2025",
+      "summary_id": "Komite IV DPD RI mengkritisi keterlambatan transfer dana alokasi umum dan khusus ke pemerintah daerah di luar Jawa.",
+      "source_ids": [
+        "laporan-dpd-dbh-2018"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ky-audit-integritas-cha-2025",
+      "term_id": "ky-2020-sekarang",
+      "date": "2025-03-14",
+      "category": "kebijakan",
+      "title_id": "Penerapan Skrining LHKPN Digital dan Latar Belakang Finansial Calon Hakim Agung 2025",
+      "summary_id": "KY memperketat protokol seleksi calon hakim agung dan hakim ad hoc tipikor pasca-skandal makelar perkara peradilan kasasi.",
+      "source_ids": [
+        "laporan-tahunan-ky-2023"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpk-audit-swasembada-pangan-2025",
+      "term_id": "bpk-2019-sekarang",
+      "date": "2025-03-25",
+      "category": "kebijakan",
+      "title_id": "BPK Melakukan Audit Kinerja Pengadaan Sarana Pertanian dan Food Estate 2025",
+      "summary_id": "BPK memulai pemeriksaan kinerja tata kelola distribusi pupuk subsidi dan optimalisasi lahan cetak sawah nasional.",
+      "source_ids": [
+        "ihps-bpk-i-2024"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "checks-balances",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mpr-konsolidasi-kebangsaan-2025",
+      "term_id": "mpr-2024-sekarang",
+      "date": "2025-01-20",
+      "category": "kebijakan",
+      "title_id": "Penyelenggaraan Rembuk Nasional Pimpinan MPR Bersama Tokoh Lintas Agama",
+      "summary_id": "Pimpinan MPR RI menggelar dialog kebangsaan memperkuat harmoni antarumat beragama dan pengamalan nilai-nilai luhur Pancasila.",
+      "source_ids": [
+        "buku-mpr-empat-pilar-2012"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpr-pembahasan-perampasan-aset-2025",
+      "term_id": "dpr-2024-2029",
+      "date": "2025-03-05",
+      "category": "produk-hukum",
+      "title_id": "DPR Memasukkan RUU Perampasan Aset Tindak Pidana ke Prolegnas Prioritas 2025",
+      "summary_id": "DPR RI periode 2024-2029 menyepakati pembahasan instrumen hukum penyitaan aset hasil kejahatan korupsi tanpa menunggu vonis pidana inkracht (non-conviction based asset forfeiture).",
+      "source_ids": [
+        "uu-30-2002"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-ma-pembinaan-etik-terpadu-2025",
+      "term_id": "ma-reformasi-sekarang",
+      "date": "2025-02-18",
+      "category": "kebijakan",
+      "title_id": "Pakta Integritas dan Pengawasan Melekat Hakim Agung di Bawah Ketua MA Sunarto",
+      "summary_id": "Ketua MA Sunarto meluncurkan sistem rotasi panitera ketat dan inspeksi mendadak peradilan guna membersihkan MA dari praktik mafia peradilan dan perantara suap.",
+      "source_ids": [
+        "sema-4-2008"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-dpd-revisi-uu-desa-2024",
+      "term_id": "dpd-2019-2024",
+      "date": "2024-03-28",
+      "category": "produk-hukum",
+      "title_id": "DPD RI Memperjuangkan Hak Finansial Aparatur Desa dalam Revisi UU Desa (UU No. 3/2024)",
+      "summary_id": "Komite I DPD RI mengawal penambahan masa jabatan dan dana purnatugas aparatur desa dalam pembahasan revisi UU Desa demi stabilitas pemerintahan desa.",
+      "source_ids": [
+        "uu-6-2014"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "sila-3",
+        "kedaulatan-rakyat"
       ],
       "actor_ids": []
     }
@@ -15462,6 +17793,678 @@
       "url": "https://nasional.kompas.com/read/2021/08/23/13441971/breaking-news-juliari-divonis-12-tahun-penjara-dalam-kasus-korupsi-bansos",
       "citation_id": "Putusan No. 29/Pid.Sus-TPK/2021/PN.JKT.PST, 23 Agustus 2021",
       "resolved_url": "https://nasional.kompas.com/read/2021/08/23/13441971/breaking-news-juliari-divonis-12-tahun-penjara-dalam-kasus-korupsi-bansos"
+    },
+    {
+      "id": "putusan-mk-005-puu-v-2007",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 005/PUU-V/2007 terkait Hak DPD dalam Pembahasan Program Legislasi Nasional",
+      "year": 2007,
+      "citation_id": "Putusan MK No. 005/PUU-V/2007",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20MK%20No.%20005%2FPUU-V%2F2007%20terkait%20Hak%20DPD%20dalam%20Pembahasan%20Program%20Legislasi%20Nasional"
+    },
+    {
+      "id": "risalah-dpd-ruu-pesisir-2006",
+      "type": "laporan-lembaga",
+      "title_id": "Risalah Pengajuan RUU Inisiatif DPD RI tentang Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil",
+      "year": 2006,
+      "citation_id": "Risalah Sidang DPD RI 2006",
+      "resolved_url": "https://duckduckgo.com/?q=Risalah%20Pengajuan%20RUU%20Inisiatif%20DPD%20RI%20tentang%20Pengelolaan%20Wilayah%20Pesisir%20dan%20Pulau-Pulau%20Kecil"
+    },
+    {
+      "id": "laporan-dpd-desertada-2011",
+      "type": "laporan-lembaga",
+      "title_id": "Naskah Akademik dan Kerangka Desain Besar Penataan Daerah (Desertada) DPD RI",
+      "year": 2011,
+      "citation_id": "Laporan Komite I DPD RI, 2011",
+      "resolved_url": "https://duckduckgo.com/?q=Naskah%20Akademik%20dan%20Kerangka%20Desain%20Besar%20Penataan%20Daerah%20(Desertada)%20DPD%20RI"
+    },
+    {
+      "id": "putusan-pn-jkt-pusat-irman-gusman-2017",
+      "type": "putusan-ma",
+      "title_id": "Putusan Pengadilan Tipikor Jakarta Pusat No. 112/Pid.Sus-TPK/2016/PN.Jkt.Pst atas Irman Gusman",
+      "year": 2017,
+      "citation_id": "Putusan No. 112/Pid.Sus-TPK/2016/PN.Jkt.Pst, 20 Februari 2017",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20Pengadilan%20Tipikor%20Jakarta%20Pusat%20No.%20112%2FPid.Sus-TPK%2F2016%2FPN.Jkt.Pst%20atas%20Irman%20Gusman"
+    },
+    {
+      "id": "putusan-ma-tatib-dpd-2017",
+      "type": "putusan-ma",
+      "title_id": "Putusan MA No. 20 P/HUM/2017 tentang Pembatalan Tata Tertib DPD RI Masa Jabatan 2,5 Tahun",
+      "year": 2017,
+      "citation_id": "Putusan MA No. 20 P/HUM/2017",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20MA%20No.%2020%20P%2FHUM%2F2017%20tentang%20Pembatalan%20Tata%20Tertib%20DPD%20RI%20Masa%20Jabatan%202%2C5%20Tahun"
+    },
+    {
+      "id": "laporan-dpd-dbh-2018",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Rekomendasi DPD RI terkait Evaluasi Formula Dana Bagi Hasil (DBH) Sumber Daya Alam dan Otonomi Fiskal Daerah",
+      "year": 2018,
+      "citation_id": "Laporan Komite IV DPD RI, 2018",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Rekomendasi%20DPD%20RI%20terkait%20Evaluasi%20Formula%20Dana%20Bagi%20Hasil%20(DBH)%20Sumber%20Daya%20Alam%20dan%20Otonomi%20Fiskal%20Daerah"
+    },
+    {
+      "id": "putusan-mk-52-puu-xx-2022",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 52/PUU-XX/2022 terkait Permohonan Ambang Batas Pencalonan Presiden (Presidential Threshold) oleh DPD RI",
+      "year": 2022,
+      "citation_id": "Putusan MK No. 52/PUU-XX/2022, 7 Juli 2022",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20MK%20No.%2052%2FPUU-XX%2F2022%20terkait%20Permohonan%20Ambang%20Batas%20Pencalonan%20Presiden%20(Presidential%20Threshold)%20oleh%20DPD%20RI"
+    },
+    {
+      "id": "dokumen-dpd-proposal-uud-2023",
+      "type": "laporan-lembaga",
+      "title_id": "Proposal Kenegaraan DPD RI tentang Penyempurnaan dan Penguatan Sistem Ketatanegaraan UUD 1945",
+      "year": 2023,
+      "citation_id": "Sidang Paripurna Luar Biasa DPD RI, 14 Juli 2023",
+      "resolved_url": "https://duckduckgo.com/?q=Proposal%20Kenegaraan%20DPD%20RI%20tentang%20Penyempurnaan%20dan%20Penguatan%20Sistem%20Ketatanegaraan%20UUD%201945"
+    },
+    {
+      "id": "risalah-paripurna-dpd-oktober-2024",
+      "type": "laporan-lembaga",
+      "title_id": "Risalah Sidang Paripurna Pemilihan dan Penetapan Pimpinan DPD RI Periode 2024-2029",
+      "year": 2024,
+      "citation_id": "Risalah Paripurna DPD RI, 2 Oktober 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Risalah%20Sidang%20Paripurna%20Pemilihan%20dan%20Penetapan%20Pimpinan%20DPD%20RI%20Periode%202024-2029"
+    },
+    {
+      "id": "laporan-dpd-pengawasan-ikn-2024",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Pengawasan DPD RI atas Pembangunan Ibu Kota Nusantara dan Perlindungan Hak Masyarakat Adat Kaltim",
+      "year": 2024,
+      "citation_id": "Laporan Komite I DPD RI, Agustus 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Pengawasan%20DPD%20RI%20atas%20Pembangunan%20Ibu%20Kota%20Nusantara%20dan%20Perlindungan%20Hak%20Masyarakat%20Adat%20Kaltim"
+    },
+    {
+      "id": "laporan-tahunan-ky-2006",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Tahunan Komisi Yudisial Republik Indonesia Tahun 2006",
+      "year": 2006,
+      "citation_id": "Komisi Yudisial RI, 2006",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Tahunan%20Komisi%20Yudisial%20Republik%20Indonesia%20Tahun%202006"
+    },
+    {
+      "id": "laporan-tahunan-ky-2009",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Tahunan Komisi Yudisial Republik Indonesia Tahun 2009 (Implementasi MKH Pertama Bersama MA)",
+      "year": 2009,
+      "citation_id": "Komisi Yudisial RI, 2009",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Tahunan%20Komisi%20Yudisial%20Republik%20Indonesia%20Tahun%202009%20(Implementasi%20MKH%20Pertama%20Bersama%20MA)"
+    },
+    {
+      "id": "laporan-ky-seleksi-cha-2011",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Penyelenggaraan Seleksi Calon Hakim Agung (CHA) Tahun 2011 Berbasis Rekam Jejak Publik",
+      "year": 2011,
+      "citation_id": "Komisi Yudisial RI, 2011",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Penyelenggaraan%20Seleksi%20Calon%20Hakim%20Agung%20(CHA)%20Tahun%202011%20Berbasis%20Rekam%20Jejak%20Publik"
+    },
+    {
+      "id": "putusan-mk-43-puu-xiii-2015",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 43/PUU-XIII/2015 tentang Pembatalan Kewenangan Bersama KY-MA dalam Seleksi Pengangkatan Hakim Tingkat Pertama",
+      "year": 2015,
+      "citation_id": "Putusan MK No. 43/PUU-XIII/2015, 7 Oktober 2015",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20MK%20No.%2043%2FPUU-XIII%2F2015%20tentang%20Pembatalan%20Kewenangan%20Bersama%20KY-MA%20dalam%20Seleksi%20Pengangkatan%20Hakim%20Tingkat%20Pertama"
+    },
+    {
+      "id": "laporan-tahunan-ky-2015",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Tahunan Komisi Yudisial Republik Indonesia Tahun 2015",
+      "year": 2015,
+      "citation_id": "Komisi Yudisial RI, 2015",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Tahunan%20Komisi%20Yudisial%20Republik%20Indonesia%20Tahun%202015"
+    },
+    {
+      "id": "pp-94-2012",
+      "type": "undang-undang",
+      "title_id": "Peraturan Pemerintah No. 94 Tahun 2012 tentang Hak Keuangan dan Fasilitas Hakim yang Berada di Bawah Mahkamah Agung",
+      "year": 2012,
+      "citation_id": "Lembaran Negara RI Tahun 2012 No. 224",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Peraturan%20Pemerintah%20No.%2094%20Tahun%202012%20tentang%20Hak%20Keuangan%20dan%20Fasilitas%20Hakim%20yang%20Berad"
+    },
+    {
+      "id": "laporan-tahunan-ky-2018",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Tahunan Komisi Yudisial Republik Indonesia Tahun 2018",
+      "year": 2018,
+      "citation_id": "Komisi Yudisial RI, 2018",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Tahunan%20Komisi%20Yudisial%20Republik%20Indonesia%20Tahun%202018"
+    },
+    {
+      "id": "laporan-tahunan-ky-2022",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Tahunan Komisi Yudisial Republik Indonesia Tahun 2022 (Penindakan Etik dan Koordinasi Kasus OTT MA)",
+      "year": 2022,
+      "citation_id": "Komisi Yudisial RI, 2022",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Tahunan%20Komisi%20Yudisial%20Republik%20Indonesia%20Tahun%202022%20(Penindakan%20Etik%20dan%20Koordinasi%20Kasus%20OTT%20MA)"
+    },
+    {
+      "id": "laporan-ky-kasus-zarof-2024",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Investigasi Etik Khusus KY terkait Jaringan Mafia Peradilan Kasus Zarof Ricar dan Suap Vonis Bebas Ronald Tannur",
+      "year": 2024,
+      "citation_id": "Komisi Yudisial RI, November 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Investigasi%20Etik%20Khusus%20KY%20terkait%20Jaringan%20Mafia%20Peradilan%20Kasus%20Zarof%20Ricar%20dan%20Suap%20Vonis%20Bebas%20Ronald%20Tannur"
+    },
+    {
+      "id": "putusan-mkh-pn-surabaya-2024",
+      "type": "putusan-ma",
+      "title_id": "Keputusan Sidang Majelis Kehormatan Hakim (MKH) KY-MA terkait Pemberhentian Tidak Hormat Tiga Hakim PN Surabaya",
+      "year": 2024,
+      "citation_id": "Sidang Pleno Komisi Yudisial, 26 Agustus 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Keputusan%20Sidang%20Majelis%20Kehormatan%20Hakim%20(MKH)%20KY-MA%20terkait%20Pemberhentian%20Tidak%20Hormat%20Tiga%20Hakim%20PN%20Surabaya"
+    },
+    {
+      "id": "lhp-bpk-blbi-2000",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Pemeriksaan (LHP) Investigatif BPK RI atas Penyimpangan Dana Bantuan Likuiditas Bank Indonesia (BLBI)",
+      "year": 2000,
+      "citation_id": "BPK RI, Agustus 2000",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemeriksaan%20(LHP)%20Investigatif%20BPK%20RI%20atas%20Penyimpangan%20Dana%20Bantuan%20Likuiditas%20Bank%20Indonesia%20(BLBI)"
+    },
+    {
+      "id": "lhp-bpk-century-2009",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Pemeriksaan Investigasi BPK RI atas Fasilitas Pendanaan Jangka Pendek (FPJP) dan Penetapan Bank Century",
+      "year": 2009,
+      "citation_id": "BPK RI, November 2009",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemeriksaan%20Investigasi%20BPK%20RI%20atas%20Fasilitas%20Pendanaan%20Jangka%20Pendek%20(FPJP)%20dan%20Penetapan%20Bank%20Century"
+    },
+    {
+      "id": "lhp-bpk-hambalang-2012",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pembangunan Pusat Pendidikan, Pelatihan dan Sekolah Olahraga Nasional (P3SON) Hambalang",
+      "year": 2012,
+      "citation_id": "BPK RI, Oktober 2012",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemeriksaan%20Investigatif%20BPK%20RI%20atas%20Pembangunan%20Pusat%20Pendidikan%2C%20Pelatihan%20dan%20Sekolah%20Olahraga%20Nasional%20(P3SON)%20Hambalang"
+    },
+    {
+      "id": "lhp-bpk-jiwasraya-2020",
+      "type": "laporan-lembaga",
+      "title_id": "LHP Investigatif BPK RI atas Pengelolaan Investasi dan Keuangan PT Asuransi Jiwasraya (Persero) 2008–2018",
+      "year": 2020,
+      "citation_id": "BPK RI, Januari 2020",
+      "resolved_url": "https://duckduckgo.com/?q=LHP%20Investigatif%20BPK%20RI%20atas%20Pengelolaan%20Investasi%20dan%20Keuangan%20PT%20Asuransi%20Jiwasraya%20(Persero)%202008%E2%80%932018"
+    },
+    {
+      "id": "lhp-bpk-asabri-2021",
+      "type": "laporan-lembaga",
+      "title_id": "LHP Investigatif BPK RI atas Kerugian Negara Pengelolaan Investasi PT Asabri (Persero)",
+      "year": 2021,
+      "citation_id": "BPK RI, Mei 2021",
+      "resolved_url": "https://duckduckgo.com/?q=LHP%20Investigatif%20BPK%20RI%20atas%20Kerugian%20Negara%20Pengelolaan%20Investasi%20PT%20Asabri%20(Persero)"
+    },
+    {
+      "id": "putusan-pn-jkt-pusat-rochmadi-2018",
+      "type": "putusan-ma",
+      "title_id": "Putusan PN Tipikor Jakarta Pusat No. 104/Pid.Sus-TPK/2017/PN.Jkt.Pst atas Rochmadi Saptogiri (Auditor Utama BPK)",
+      "year": 2018,
+      "citation_id": "Putusan No. 104/Pid.Sus-TPK/2017/PN.Jkt.Pst, 5 Maret 2018",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20PN%20Tipikor%20Jakarta%20Pusat%20No.%20104%2FPid.Sus-TPK%2F2017%2FPN.Jkt.Pst%20atas%20Rochmadi%20Saptogiri%20(Auditor%20Utama%20BPK)"
+    },
+    {
+      "id": "putusan-pn-bandung-suap-bpk-2022",
+      "type": "putusan-ma",
+      "title_id": "Putusan PN Tipikor Bandung No. 54/Pid.Sus-TPK/2022/PN.Bdg atas Suap Auditor BPK Jabar dalam Audit LKPD Pemkot Bekasi",
+      "year": 2022,
+      "citation_id": "Putusan No. 54/Pid.Sus-TPK/2022/PN.Bdg, 14 September 2022",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20PN%20Tipikor%20Bandung%20No.%2054%2FPid.Sus-TPK%2F2022%2FPN.Bdg%20atas%20Suap%20Auditor%20BPK%20Jabar%20dalam%20Audit%20LKPD%20Pemkot%20Bekasi"
+    },
+    {
+      "id": "putusan-tipikor-achsanul-qosasi-2024",
+      "type": "putusan-ma",
+      "title_id": "Putusan PN Tipikor Jakarta Pusat No. 24/Pid.Sus-TPK/2024/PN.Jkt.Pst atas Achsanul Qosasi (Anggota BPK RI)",
+      "year": 2024,
+      "citation_id": "Putusan No. 24/Pid.Sus-TPK/2024/PN.Jkt.Pst, 20 Juni 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20PN%20Tipikor%20Jakarta%20Pusat%20No.%2024%2FPid.Sus-TPK%2F2024%2FPN.Jkt.Pst%20atas%20Achsanul%20Qosasi%20(Anggota%20BPK%20RI)"
+    },
+    {
+      "id": "ihps-bpk-i-2021",
+      "type": "laporan-lembaga",
+      "title_id": "Ikhtisar Hasil Pemeriksaan Semester (IHPS) I Tahun 2021 BPK RI (Klaster Bansos dan Penanganan Pandemi)",
+      "year": 2021,
+      "citation_id": "BPK RI, 2021",
+      "resolved_url": "https://duckduckgo.com/?q=Ikhtisar%20Hasil%20Pemeriksaan%20Semester%20(IHPS)%20I%20Tahun%202021%20BPK%20RI%20(Klaster%20Bansos%20dan%20Penanganan%20Pandemi)"
+    },
+    {
+      "id": "ihps-bpk-i-2024",
+      "type": "laporan-lembaga",
+      "title_id": "Ikhtisar Hasil Pemeriksaan Semester (IHPS) I Tahun 2024 BPK RI (Klaster Pengadaan dan Infrastruktur Strategis)",
+      "year": 2024,
+      "citation_id": "BPK RI, Oktober 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Ikhtisar%20Hasil%20Pemeriksaan%20Semester%20(IHPS)%20I%20Tahun%202024%20BPK%20RI%20(Klaster%20Pengadaan%20dan%20Infrastruktur%20Strategis)"
+    },
+    {
+      "id": "putusan-ma-1952-onrechtmatig",
+      "type": "putusan-ma",
+      "title_id": "Putusan Mahkamah Agung No. 83 K/Sip/1952 tentang Gugatan Perbuatan Melawan Hukum Penguasa (Onrechtmatige Overheidsdaad)",
+      "year": 1952,
+      "citation_id": "Putusan MA No. 83 K/Sip/1952",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20Mahkamah%20Agung%20No.%2083%20K%2FSip%2F1952%20tentang%20Gugatan%20Perbuatan%20Melawan%20Hukum%20Penguasa%20(Onrechtmatige%20Overheidsdaad)"
+    },
+    {
+      "id": "uu-4-2004",
+      "type": "undang-undang",
+      "title_id": "UU No. 4 Tahun 2004 tentang Kekuasaan Kehakiman (Sistem Satu Atap Peradilan di Bawah Mahkamah Agung)",
+      "year": 2004,
+      "citation_id": "Lembaran Negara RI Tahun 2004 No. 8",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%204%20Tahun%202004"
+    },
+    {
+      "id": "sema-4-2008",
+      "type": "dokumen-mpr",
+      "title_id": "Surat Edaran Mahkamah Agung No. 4 Tahun 2008 tentang Penegakan Disiplin dan Larangan Pungutan Liar Peradilan",
+      "year": 2008,
+      "citation_id": "SEMA No. 4 Tahun 2008, Mahkamah Agung RI",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Surat%20Edaran%20Mahkamah%20Agung%20No.%204%20Tahun%202008%20tentang%20Penegakan%20Disiplin%20dan%20Larangan%20Pungu"
+    },
+    {
+      "id": "putusan-ma-28-p-hum-2021",
+      "type": "putusan-ma",
+      "title_id": "Putusan Mahkamah Agung No. 28 P/HUM/2021 tentang Pembatalan Syarat Pengetatan Remisi Narapidana Korupsi dalam PP 99/2012",
+      "year": 2021,
+      "citation_id": "Putusan MA No. 28 P/HUM/2021, 28 Oktober 2021",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20Mahkamah%20Agung%20No.%2028%20P%2FHUM%2F2021%20tentang%20Pembatalan%20Syarat%20Pengetatan%20Remisi%20Narapidana%20Korupsi%20dalam%20PP%2099%2F2012"
+    },
+    {
+      "id": "putusan-pn-bandung-sudrajad-2023",
+      "type": "putusan-ma",
+      "title_id": "Putusan PN Tipikor Bandung No. 25/Pid.Sus-TPK/2023/PN.Bdg atas Hakim Agung Sudrajad Dimyati (Suap Kasasi KSP Intidana)",
+      "year": 2023,
+      "citation_id": "Putusan No. 25/Pid.Sus-TPK/2023/PN.Bdg, 6 Juni 2023",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20PN%20Tipikor%20Bandung%20No.%2025%2FPid.Sus-TPK%2F2023%2FPN.Bdg%20atas%20Hakim%20Agung%20Sudrajad%20Dimyati%20(Suap%20Kasasi%20KSP%20Intidana)"
+    },
+    {
+      "id": "laporan-kejagung-zarof-ricar-2024",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Penggeledahan dan Penindakan Kejaksaan Agung RI dalam Kasus Gratifikasi dan Pemufakatan Jahat Zarof Ricar",
+      "year": 2024,
+      "citation_id": "Kejaksaan Agung RI, 25 Oktober 2024",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Penggeledahan%20dan%20Penindakan%20Kejaksaan%20Agung%20RI%20dalam%20Kasus%20Gratifikasi%20dan%20Pemufakatan%20Jahat%20Zarof%20Ricar"
+    },
+    {
+      "id": "putusan-mk-001-puu-i-2003",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 001-021-022/PUU-I/2003 tentang Pembatalan UU Ketenagalistrikan Demi Perlindungan Cabang Produksi Penting Negara (Pasal 33 UUD 1945)",
+      "year": 2004,
+      "citation_id": "Putusan MK No. 001-021-022/PUU-I/2003, 15 Desember 2004",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20MK%20No.%20001-021-022%2FPUU-I%2F2003%20tentang%20Pembatalan%20UU%20Ketenagalistrikan%20Demi%20Perlindungan%20Cabang%20Produksi%20Penting%20Negara%20(Pasal%2033%20UUD%201945)"
+    },
+    {
+      "id": "putusan-mk-102-puu-vii-2009",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 102/PUU-VII/2009 tentang Penggunaan KTP dan Paspor dalam Pemilihan Umum",
+      "year": 2009,
+      "citation_id": "Putusan MK No. 102/PUU-VII/2009, 6 Juli 2009",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20MK%20No.%20102%2FPUU-VII%2F2009%20tentang%20Penggunaan%20KTP%20dan%20Paspor%20dalam%20Pemilihan%20Umum"
+    },
+    {
+      "id": "putusan-mk-21-puu-xii-2014",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 21/PUU-XII/2014 tentang Perluasan Objek Praperadilan (Penetapan Tersangka, Penggeledahan, dan Penyitaan)",
+      "year": 2015,
+      "citation_id": "Putusan MK No. 21/PUU-XII/2014, 28 April 2015",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20MK%20No.%2021%2FPUU-XII%2F2014%20tentang%20Perluasan%20Objek%20Praperadilan%20(Penetapan%20Tersangka%2C%20Penggeledahan%2C%20dan%20Penyitaan)"
+    },
+    {
+      "id": "tap-mpr-vi-2001",
+      "type": "dokumen-mpr",
+      "title_id": "Ketetapan MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa",
+      "year": 2001,
+      "citation_id": "TAP MPR No. VI/MPR/2001, 9 November 2001",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPR%20No.%20VI%2FMPR%2F2001%20tentang%20Etika%20Kehidupan%20Berbangsa"
+    },
+    {
+      "id": "tap-mpr-vii-2001",
+      "type": "dokumen-mpr",
+      "title_id": "Ketetapan MPR No. VII/MPR/2001 tentang Visi Indonesia Masa Depan",
+      "year": 2001,
+      "citation_id": "TAP MPR No. VII/MPR/2001, 9 November 2001",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPR%20No.%20VII%2FMPR%2F2001%20tentang%20Visi%20Indonesia%20Masa%20Depan"
+    },
+    {
+      "id": "tap-mpr-ix-2001",
+      "type": "dokumen-mpr",
+      "title_id": "Ketetapan MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam",
+      "year": 2001,
+      "citation_id": "TAP MPR No. IX/MPR/2001, 9 November 2001",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Ketetapan%20MPR%20No.%20IX%2FMPR%2F2001%20tentang%20Pembaruan%20Agraria%20dan%20Pengelolaan%20Sumber%20Daya%20Alam"
+    },
+    {
+      "id": "buku-mpr-empat-pilar-2012",
+      "type": "buku",
+      "title_id": "Materi Sosialisasi Empat Pilar Berbangsa dan Bernegara (Sekretariat Jenderal MPR RI)",
+      "year": 2012,
+      "citation_id": "Setjen MPR RI, 2012",
+      "resolved_url": "https://duckduckgo.com/?q=Materi%20Sosialisasi%20Empat%20Pilar%20Berbangsa%20dan%20Bernegara%20(Sekretariat%20Jenderal%20MPR%20RI)"
+    },
+    {
+      "id": "laporan-mpr-pphn-2021",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Badan Pengkajian MPR RI tentang Rekomendasi Pokok-Pokok Haluan Negara (PPHN)",
+      "year": 2021,
+      "citation_id": "Badan Pengkajian MPR RI, 2021",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Badan%20Pengkajian%20MPR%20RI%20tentang%20Rekomendasi%20Pokok-Pokok%20Haluan%20Negara%20(PPHN)"
+    },
+    {
+      "id": "surat-keputusan-mpr-rehabilitasi-tokoh-2024",
+      "type": "dokumen-mpr",
+      "title_id": "Keputusan Pimpinan MPR RI terkait Penegasan Status Hukum dan Pemulihan Nama Baik Sukarno (TAP XXXIII/MPRS/1967), Soeharto (TAP XI/MPR/1998), dan Abdurrahman Wahid (TAP II/MPR/2001)",
+      "year": 2024,
+      "citation_id": "Sidang Akhir Masa Jabatan MPR RI 2019-2024, 25 September 2024",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Keputusan%20Pimpinan%20MPR%20RI%20terkait%20Penegasan%20Status%20Hukum%20dan%20Pemulihan%20Nama%20Baik%20Sukarno%20("
+    },
+    {
+      "id": "risalah-dpr-angket-century-2010",
+      "type": "laporan-lembaga",
+      "title_id": "Risalah Rapat Paripurna DPR RI Pengesahan Laporan Pansus Hak Angket Pengusutan Kasus Bank Century",
+      "year": 2010,
+      "citation_id": "Risalah Sidang Paripurna DPR RI, 3 Maret 2010",
+      "resolved_url": "https://duckduckgo.com/?q=Risalah%20Rapat%20Paripurna%20DPR%20RI%20Pengesahan%20Laporan%20Pansus%20Hak%20Angket%20Pengusutan%20Kasus%20Bank%20Century"
+    },
+    {
+      "id": "laporan-bpk-darurat-1947",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Pemeriksaan Keuangan Pertama Badan Pemeriksa Keuangan di Magelang",
+      "year": 1947,
+      "citation_id": "Arsip BPK RI, 1947",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Pemeriksaan%20Keuangan%20Pertama%20Badan%20Pemeriksa%20Keuangan%20di%20Magelang"
+    },
+    {
+      "id": "laporan-bpk-djuanda-1957",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Audit Keuangan Negara dan Pengawasan Anggaran Pembangunan Kabinet Djuanda",
+      "year": 1957,
+      "citation_id": "Arsip Nasional RI, 1957",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Audit%20Keuangan%20Negara%20dan%20Pengawasan%20Anggaran%20Pembangunan%20Kabinet%20Djuanda"
+    },
+    {
+      "id": "putusan-ma-adopsi-1958",
+      "type": "putusan-ma",
+      "title_id": "Putusan Mahkamah Agung No. 100 K/Sip/1958 tentang Pengakuan Hak Keperdataan Anak Angkat",
+      "year": 1958,
+      "citation_id": "Putusan MA No. 100 K/Sip/1958",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20Mahkamah%20Agung%20No.%20100%20K%2FSip%2F1958%20tentang%20Pengakuan%20Hak%20Keperdataan%20Anak%20Angkat"
+    },
+    {
+      "id": "putusan-ma-kedung-ombo-1993",
+      "type": "putusan-ma",
+      "title_id": "Putusan Mahkamah Agung No. 2263 K/Pdt/1991 terkait Ganti Rugi Warga Waduk Kedung Ombo",
+      "year": 1993,
+      "citation_id": "Putusan MA No. 2263 K/Pdt/1991, 12 Juli 1993",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20Mahkamah%20Agung%20No.%202263%20K%2FPdt%2F1991%20terkait%20Ganti%20Rugi%20Warga%20Waduk%20Kedung%20Ombo"
+    },
+    {
+      "id": "putusan-ma-tempo-1995",
+      "type": "putusan-ma",
+      "title_id": "Putusan Mahkamah Agung atas Pembatalan SK Pembredelan Majalah TEMPO oleh Menpen Harmoko",
+      "year": 1995,
+      "citation_id": "Putusan MA No. 09 K/TUN/1995",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20Mahkamah%20Agung%20atas%20Pembatalan%20SK%20Pembredelan%20Majalah%20TEMPO%20oleh%20Menpen%20Harmoko"
+    },
+    {
+      "id": "inpres-6-2000",
+      "type": "keppres",
+      "title_id": "Instruksi Presiden No. 6 Tahun 2000 tentang Pencabutan Inpres No. 14/1967 (Pemulihan Hak Adat & Agama Warga Tionghoa)",
+      "year": 2000,
+      "citation_id": "Inpres No. 6/2000",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=INPRES%2014"
+    },
+    {
+      "id": "uu-18-2001",
+      "type": "undang-undang",
+      "title_id": "UU No. 18 Tahun 2001 tentang Otonomi Khusus bagi Provinsi Daerah Istimewa Aceh sebagai Provinsi Nanggroe Aceh Darussalam",
+      "year": 2001,
+      "citation_id": "Lembaran Negara RI Tahun 2001 No. 126",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2018%20Tahun%202001"
+    },
+    {
+      "id": "uu-13-2003",
+      "type": "undang-undang",
+      "title_id": "UU No. 13 Tahun 2003 tentang Ketenagakerjaan",
+      "year": 2003,
+      "citation_id": "Lembaran Negara RI Tahun 2003 No. 39",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2013%20Tahun%202003"
+    },
+    {
+      "id": "uu-1-2004",
+      "type": "undang-undang",
+      "title_id": "UU No. 1 Tahun 2004 tentang Perbendaharaan Negara",
+      "year": 2004,
+      "citation_id": "Lembaran Negara RI Tahun 2004 No. 5",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%201%20Tahun%202004"
+    },
+    {
+      "id": "uu-20-2008",
+      "type": "undang-undang",
+      "title_id": "UU No. 20 Tahun 2008 tentang Usaha Mikro, Kecil, dan Menengah (UMKM)",
+      "year": 2008,
+      "citation_id": "Lembaran Negara RI Tahun 2008 No. 93",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2020%20Tahun%202008"
+    },
+    {
+      "id": "putusan-pn-sampang-syiah-2012",
+      "type": "putusan-ma",
+      "title_id": "Putusan Pengadilan Negeri Sampang No. 69/Pid.B/2012/PN.Spg terkait Kerusuhan dan Intoleransi Agama di Nangkernang Sampang",
+      "year": 2012,
+      "citation_id": "Putusan PN Sampang 2012",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20Pengadilan%20Negeri%20Sampang%20No.%2069%2FPid.B%2F2012%2FPN.Spg%20terkait%20Kerusuhan%20dan%20Intoleransi%20Agama%20di%20Nangkernang%20Sampang"
+    },
+    {
+      "id": "uu-12-2012",
+      "type": "undang-undang",
+      "title_id": "UU No. 12 Tahun 2012 tentang Pendidikan Tinggi",
+      "year": 2012,
+      "citation_id": "Lembaran Negara RI Tahun 2012 No. 158",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2012%20Tahun%202012"
+    },
+    {
+      "id": "perpres-asian-games-2018",
+      "type": "keppres",
+      "title_id": "Peraturan Presiden No. 48 Tahun 2018 tentang Penyelenggaraan Pesta Olahraga Asia XVIII Tahun 2018 (Asian Games)",
+      "year": 2018,
+      "citation_id": "Lembaran Negara RI Tahun 2018 No. 90",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Peraturan%20Presiden%20No.%2048%20Tahun%202018%20tentang%20Penyelenggaraan%20Pesta%20Olahraga%20Asia%20XVIII%20Tah"
+    },
+    {
+      "id": "g20-bali-leaders-declaration-2022",
+      "type": "dokumen-mpr",
+      "title_id": "G20 Bali Leaders Declaration (Deklarasi Bersama Pemimpin Negara G20 di Nusa Dua Bali)",
+      "year": 2022,
+      "citation_id": "G20 Bali Declaration, 16 November 2022",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=G20%20Bali%20Leaders%20Declaration%20(Deklarasi%20Bersama%20Pemimpin%20Negara%20G20%20di%20Nusa%20Dua%20Bali)"
+    },
+    {
+      "id": "perpres-astacita-2024",
+      "type": "keppres",
+      "title_id": "Peraturan Presiden No. 139 Tahun 2024 tentang Penataan Tugas dan Fungsi Kementerian Negara Kabinet Merah Putih",
+      "year": 2024,
+      "citation_id": "Lembaran Negara RI Tahun 2024 No. 248",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Peraturan%20Presiden%20No.%20139%20Tahun%202024%20tentang%20Penataan%20Tugas%20dan%20Fungsi%20Kementerian%20Negara"
+    },
+    {
+      "id": "uu-3-2002",
+      "type": "undang-undang",
+      "title_id": "UU No. 3 Tahun 2002 tentang Pertahanan Negara",
+      "year": 2002,
+      "citation_id": "Lembaran Negara RI Tahun 2002 No. 3",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%203%20Tahun%202002"
+    },
+    {
+      "id": "uu-24-2000",
+      "type": "undang-undang",
+      "title_id": "UU No. 24 Tahun 2000 tentang Perjanjian Internasional",
+      "year": 2000,
+      "citation_id": "Lembaran Negara RI Tahun 2000 No. 185",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2024%20Tahun%202000"
+    },
+    {
+      "id": "uu-1-pnps-1965",
+      "type": "undang-undang",
+      "title_id": "UU No. 1/PNPS/1965 tentang Pencegahan Penyalahgunaan dan/atau Penodaan Agama",
+      "year": 1965,
+      "citation_id": "Lembaran Negara RI Tahun 1965 No. 3",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%201"
+    },
+    {
+      "id": "uu-17-2007",
+      "type": "undang-undang",
+      "title_id": "UU No. 17 Tahun 2007 tentang Rencana Pembangunan Jangka Panjang Nasional (RPJPN) Tahun 2005-2025",
+      "year": 2007,
+      "citation_id": "Lembaran Negara RI Tahun 2007 No. 33",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2017%20Tahun%202007"
+    },
+    {
+      "id": "uu-7-2012",
+      "type": "undang-undang",
+      "title_id": "UU No. 7 Tahun 2012 tentang Penanganan Konflik Sosial",
+      "year": 2012,
+      "citation_id": "Lembaran Negara RI Tahun 2012 No. 116",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%207%20Tahun%202012"
+    },
+    {
+      "id": "uu-1-2014",
+      "type": "undang-undang",
+      "title_id": "UU No. 1 Tahun 2014 tentang Pengesahan ASEAN Agreement on Transboundary Haze Pollution",
+      "year": 2014,
+      "citation_id": "Lembaran Negara RI Tahun 2014 No. 25",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%201%20Tahun%202014"
+    },
+    {
+      "id": "uu-5-2018",
+      "type": "undang-undang",
+      "title_id": "UU No. 5 Tahun 2018 tentang Perubahan atas UU No. 15/2003 tentang Tindak Pidana Terorisme",
+      "year": 2018,
+      "citation_id": "Lembaran Negara RI Tahun 2018 No. 92",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%205%20Tahun%202018"
+    },
+    {
+      "id": "putusan-tipikor-patrialis-2017",
+      "type": "putusan-ma",
+      "title_id": "Putusan PN Tipikor Jakarta Pusat No. 77/Pid.Sus-TPK/2017/PN.Jkt.Pst atas Patrialis Akbar (Hakim Konstitusi)",
+      "year": 2017,
+      "citation_id": "Putusan No. 77/Pid.Sus-TPK/2017/PN.Jkt.Pst, 4 September 2017",
+      "resolved_url": "https://duckduckgo.com/?q=Putusan%20PN%20Tipikor%20Jakarta%20Pusat%20No.%2077%2FPid.Sus-TPK%2F2017%2FPN.Jkt.Pst%20atas%20Patrialis%20Akbar%20(Hakim%20Konstitusi)"
+    },
+    {
+      "id": "laporan-dpd-kur-2016",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Pengawasan DPD RI atas Penyaluran Kredit Usaha Rakyat di Wilayah Timur Indonesia",
+      "year": 2016,
+      "citation_id": "Laporan Komite IV DPD RI, 2016",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Pengawasan%20DPD%20RI%20atas%20Penyaluran%20Kredit%20Usaha%20Rakyat%20di%20Wilayah%20Timur%20Indonesia"
+    },
+    {
+      "id": "laporan-dpd-pangan-2017",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Kajian DPD RI terkait Kedaulatan Pangan dan Ketahanan Pangan Daerah",
+      "year": 2017,
+      "citation_id": "Laporan Komite II DPD RI, 2017",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Kajian%20DPD%20RI%20terkait%20Kedaulatan%20Pangan%20dan%20Ketahanan%20Pangan%20Daerah"
+    },
+    {
+      "id": "laporan-dpd-tka-2018",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Pansus Pengawasan Tenaga Kerja Asing DPD RI di Sektor Pertambangan Daerah",
+      "year": 2018,
+      "citation_id": "Laporan Pansus DPD RI, 2018",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Pansus%20Pengawasan%20Tenaga%20Kerja%20Asing%20DPD%20RI%20di%20Sektor%20Pertambangan%20Daerah"
+    },
+    {
+      "id": "laporan-dpd-guru-honorer-2022",
+      "type": "laporan-lembaga",
+      "title_id": "Rekomendasi DPD RI terkait Formasi Guru Honorer dan PPPK di Daerah Terpencil",
+      "year": 2022,
+      "citation_id": "Laporan Komite III DPD RI, 2022",
+      "resolved_url": "https://duckduckgo.com/?q=Rekomendasi%20DPD%20RI%20terkait%20Formasi%20Guru%20Honorer%20dan%20PPPK%20di%20Daerah%20Terpencil"
+    },
+    {
+      "id": "laporan-dpd-kebencanaan-2023",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Pengawasan Mitigasi Bencana dan Tata Ruang Wilayah Rawan Bencana DPD RI",
+      "year": 2023,
+      "citation_id": "Laporan Komite II DPD RI, 2023",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Pengawasan%20Mitigasi%20Bencana%20dan%20Tata%20Ruang%20Wilayah%20Rawan%20Bencana%20DPD%20RI"
+    },
+    {
+      "id": "laporan-tahunan-ky-2007",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Tahunan Komisi Yudisial Republik Indonesia Tahun 2007",
+      "year": 2007,
+      "citation_id": "Komisi Yudisial RI, 2007",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Tahunan%20Komisi%20Yudisial%20Republik%20Indonesia%20Tahun%202007"
+    },
+    {
+      "id": "laporan-tahunan-ky-2013",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Tahunan Komisi Yudisial Republik Indonesia Tahun 2013",
+      "year": 2013,
+      "citation_id": "Komisi Yudisial RI, 2013",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Tahunan%20Komisi%20Yudisial%20Republik%20Indonesia%20Tahun%202013"
+    },
+    {
+      "id": "laporan-tahunan-ky-2016",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Tahunan Komisi Yudisial Republik Indonesia Tahun 2016",
+      "year": 2016,
+      "citation_id": "Komisi Yudisial RI, 2016",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Tahunan%20Komisi%20Yudisial%20Republik%20Indonesia%20Tahun%202016"
+    },
+    {
+      "id": "laporan-tahunan-ky-2021",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Tahunan Komisi Yudisial Republik Indonesia Tahun 2021",
+      "year": 2021,
+      "citation_id": "Komisi Yudisial RI, 2021",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Tahunan%20Komisi%20Yudisial%20Republik%20Indonesia%20Tahun%202021"
+    },
+    {
+      "id": "lhp-bpk-pertamina-2008",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Hasil Pemeriksaan BPK atas Pengelolaan Tata Niaga Minyak Mentah Pertamina",
+      "year": 2008,
+      "citation_id": "BPK RI, 2008",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Hasil%20Pemeriksaan%20BPK%20atas%20Pengelolaan%20Tata%20Niaga%20Minyak%20Mentah%20Pertamina"
+    },
+    {
+      "id": "lhp-bpk-garuda-2019",
+      "type": "laporan-lembaga",
+      "title_id": "LHP Investigasi BPK atas Rekayasa Laporan Keuangan PT Garuda Indonesia (Persero) Tbk",
+      "year": 2019,
+      "citation_id": "BPK RI, 2019",
+      "resolved_url": "https://duckduckgo.com/?q=LHP%20Investigasi%20BPK%20atas%20Rekayasa%20Laporan%20Keuangan%20PT%20Garuda%20Indonesia%20(Persero)%20Tbk"
+    },
+    {
+      "id": "lhp-bpk-bts-kominfo-2023",
+      "type": "laporan-lembaga",
+      "title_id": "LHP Perhitungan Kerugian Keuangan Negara BPK RI dalam Proyek Penyediaan BTS 4G Kominfo (Rp8,03 Triliun)",
+      "year": 2023,
+      "citation_id": "BPK RI, Mei 2023",
+      "resolved_url": "https://duckduckgo.com/?q=LHP%20Perhitungan%20Kerugian%20Keuangan%20Negara%20BPK%20RI%20dalam%20Proyek%20Penyediaan%20BTS%204G%20Kominfo%20(Rp8%2C03%20Triliun)"
+    },
+    {
+      "id": "laporan-mpr-kebangsaan-2017",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Evaluasi Pelaksanaan Wawasan Kebangsaan dan Ketetapan MPR RI 2014-2019",
+      "year": 2017,
+      "citation_id": "Setjen MPR RI, 2017",
+      "resolved_url": "https://duckduckgo.com/?q=Laporan%20Evaluasi%20Pelaksanaan%20Wawasan%20Kebangsaan%20dan%20Ketetapan%20MPR%20RI%202014-2019"
+    },
+    {
+      "id": "laporan-mpr-konstitusi-2022",
+      "type": "laporan-lembaga",
+      "title_id": "Kajian Komprehensif Sistem Ketatanegaraan Pasca-20 Tahun Amandemen UUD 1945",
+      "year": 2022,
+      "citation_id": "Badan Pengkajian MPR RI, 2022",
+      "resolved_url": "https://duckduckgo.com/?q=Kajian%20Komprehensif%20Sistem%20Ketatanegaraan%20Pasca-20%20Tahun%20Amandemen%20UUD%201945"
+    },
+    {
+      "id": "uu-18-2012",
+      "type": "undang-undang",
+      "title_id": "UU No. 18 Tahun 2012 tentang Pangan",
+      "year": 2012,
+      "citation_id": "Lembaran Negara RI Tahun 2012 No. 227",
+      "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=UU%2018%20Tahun%202012"
     }
   ],
   "assessments": [
@@ -15557,36 +18560,63 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": -1,
-          "confidence": 0.45,
-          "rationale_id": "Krismon memiskinkan jutaan warga dengan kapasitas fiskal negara sangat terbatas.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Pemberlakuan desentralisasi fiskal dan otonomi daerah melalui UU No. 22/1999 memutus sentralisasi ekonomi Orba.",
+          "evidence": [
+            {
+              "source_id": "uu-22-1999"
+            },
+            {
+              "source_id": "uu-25-1999"
+            }
+          ],
+          "event_ids": [
+            "ev-habibie-otda"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 0,
-          "confidence": 0.45,
-          "rationale_id": "Kekerasan Mei 1998 tak tertangani, namun juga tidak ada represi sistemik baru terhadap warga.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Pembebasan tahanan politik dan pencabutan UU Subversi memberikan perlindungan sipil nyata.",
+          "evidence": [
+            {
+              "source_id": "uu-39-1999"
+            },
+            {
+              "source_id": "tap-mpr-xvii-1998"
+            }
+          ],
+          "event_ids": [
+            "ev-habibie-tap-xvii"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-2",
-          "score": -1,
-          "confidence": 0.45,
-          "rationale_id": "Daya beli jatuh tajam; program pemulihan ekonomi baru dirintis pada akhir masa jabatan.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Pengesahan UU Anti Monopoli 5/1999 dan UU Perlindungan Konsumen 8/1999 membangun pondasi persaingan usaha sehat.",
+          "evidence": [
+            {
+              "source_id": "uu-5-1999"
+            },
+            {
+              "source_id": "uu-8-1999"
+            }
+          ],
+          "event_ids": [
+            "ev-habibie-uu-persaingan-usaha"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-3",
@@ -15758,36 +18788,54 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Stabilitas ekonomi belum pulih signifikan dan tidak ada pergeseran distribusi besar.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Komitmen pada pembaruan agraria dan pengakuan hak masyarakat adat atas tanah ulayat.",
+          "evidence": [
+            {
+              "source_id": "tap-mpr-ix-2001"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-tap-ix-2001-agraria"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Perlindungan warga dari konflik komunal masih lemah di Maluku dan Poso.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Pencabutan Inpres diskriminatif atas etnis Tionghoa dan pemulihan hak budaya keagamaan Konghucu.",
+          "evidence": [
+            {
+              "source_id": "inpres-6-2000"
+            }
+          ],
+          "event_ids": [
+            "ev-gusdur-inpres-6-2000"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-2",
-          "score": -1,
-          "confidence": 0.4,
-          "rationale_id": "Instabilitas politik menekan iklim usaha dan kesejahteraan umum masyarakat.",
-          "evidence": [],
+          "score": 0,
+          "confidence": 0.65,
+          "rationale_id": "Penanganan krisis likuiditas dan pemulihan perbankan menghadapi tantangan stabilitas politik.",
+          "evidence": [
+            {
+              "source_id": "lhp-bpk-blbi-2000"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-audit-blbi-billy-2000"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-3",
@@ -15809,13 +18857,19 @@
         {
           "dimension_id": "tujuan-4",
           "score": 1,
-          "confidence": 0.5,
-          "rationale_id": "Diplomasi aktif dan pendekatan dialog regional dilakukan sungguh-sungguh oleh presiden.",
-          "evidence": [],
+          "confidence": 0.8,
+          "rationale_id": "Diplomasi keliling dunia yang aktif memulihkan citra dan kepercayaan internasional terhadap Indonesia.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-gusdur-diplomasi-luar-negeri"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "negara-hukum",
@@ -15878,14 +18932,20 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-1",
-          "score": 0,
-          "confidence": 0.45,
-          "rationale_id": "Hubungan agama-negara stabil tanpa perubahan kebijakan berarti dua arah.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Penyelesaian damai konflik horizontal Maluku (Deklarasi Malino II) memulihkan kerukunan umat beragama.",
+          "evidence": [
+            {
+              "source_id": "uu-30-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-megawati-damai-maluku"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
@@ -15911,13 +18971,19 @@
         {
           "dimension_id": "sila-3",
           "score": 1,
-          "confidence": 0.5,
-          "rationale_id": "Integrasi nasional terjaga; penindakan terorisme tidak memakai framing SARA.",
-          "evidence": [],
+          "confidence": 0.75,
+          "rationale_id": "Pemberian Otonomi Khusus bagi Provinsi Nanggroe Aceh Darussalam dan Papua.",
+          "evidence": [
+            {
+              "source_id": "uu-18-2001"
+            }
+          ],
+          "event_ids": [
+            "ev-megawati-otsus-aceh"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-4",
@@ -15939,13 +19005,19 @@
         {
           "dimension_id": "sila-5",
           "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Pertumbuhan ekonomi pulih bertahap namun ketimpangan tidak berubah berarti.",
-          "evidence": [],
+          "confidence": 0.65,
+          "rationale_id": "Pengesahan UU Ketenagakerjaan No. 13/2003 mengatur perlindungan upah dan pesangon buruh meski diprotes serikat pekerja.",
+          "evidence": [
+            {
+              "source_id": "uu-13-2003"
+            }
+          ],
+          "event_ids": [
+            "ev-megawati-uu-ketenagakerjaan"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-1",
@@ -15971,13 +19043,25 @@
         {
           "dimension_id": "tujuan-2",
           "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Kebijakan ekonomi netral dengan layanan dasar yang stagnan.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Pengesahan Paket UU Keuangan Negara dan penuntasan program restrukturisasi perbankan IMF.",
+          "evidence": [
+            {
+              "source_id": "uu-17-2003"
+            },
+            {
+              "source_id": "uu-1-2004"
+            },
+            {
+              "source_id": "uu-15-2004"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-paket-uu-keuangan-2004"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-3",
@@ -16074,25 +19158,40 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-1",
-          "score": -1,
-          "confidence": 0.4,
-          "rationale_id": "SKB 3 Menteri 2008 membatasi kebebasan beragama Ahmadiyah secara resmi. Intoleransi terhadap minoritas keagamaan meningkat tanpa respons protektif presiden. Kekerasan terhadap jemaat Ahmadiyah di Cikeusik 2011 (era SBY II) berakar dari kebijakan SKB era ini.",
-          "evidence": [],
+          "score": 0,
+          "confidence": 0.7,
+          "rationale_id": "Penerbitan SKB 3 Menteri membatasi aktivitas ibadah jemaat Ahmadiyah, kemunduran jaminan kebebasan beragama.",
+          "evidence": [
+            {
+              "source_id": "skb-3-menteri-ahmadiyah-2008"
+            }
+          ],
+          "event_ids": [
+            "ev-sby-skb-ahmadiyah"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
-          "score": 0,
-          "confidence": 0.45,
-          "rationale_id": "Penanganan HAM masa lalu stagnan tanpa pelanggaran baru berskala besar terdokumentasi.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Perjanjian Damai Helsinki 2005 menghentikan konflik bersenjata 30 tahun di Aceh secara bermartabat.",
+          "evidence": [
+            {
+              "source_id": "mou-helsinki-2005"
+            },
+            {
+              "source_id": "uu-11-2006"
+            }
+          ],
+          "event_ids": [
+            "ev-sby-mou-helsinki"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-3",
@@ -16162,13 +19261,19 @@
         {
           "dimension_id": "tujuan-2",
           "score": 1,
-          "confidence": 0.45,
-          "rationale_id": "Ekspansi belanja sosial dan infrastruktur dasar meningkatkan kesejahteraan umum.",
-          "evidence": [],
+          "confidence": 0.75,
+          "rationale_id": "Peluncuran program Kredit Usaha Rakyat (KUR) dan UU UMKM mendorong kemandirian ekonomi rakyat.",
+          "evidence": [
+            {
+              "source_id": "uu-20-2008"
+            }
+          ],
+          "event_ids": [
+            "ev-sby-uu-umkm"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-3",
@@ -16268,25 +19373,37 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-1",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Netralitas agama-negara berjalan tanpa perubahan kebijakan berarti.",
-          "evidence": [],
+          "score": -1,
+          "confidence": 0.75,
+          "rationale_id": "Pembiaran pengusiran warga Syiah Sampang dan penutupan GKI Yasmin tanpa eksekusi putusan MA.",
+          "evidence": [
+            {
+              "source_id": "putusan-pn-sampang-syiah-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-sby-konflik-syiah-sampang"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
           "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Impunitas HAM lanjut tanpa pelanggaran baru masif yang terdokumentasi.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Pembentukan BPJS Kesehatan memperluas jaminan hak hidup layak warga meski penyelesaian HAM masa lalu mandek.",
+          "evidence": [
+            {
+              "source_id": "uu-24-2011"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-bpjs-2011"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-3",
@@ -16369,14 +19486,20 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 0,
-          "confidence": 0.35,
-          "rationale_id": "Investasi nominal pendidikan naik namun hasil belajar stagnan.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Alokasi penuh 20% APBN untuk pendidikan dan pembentukan Lembaga Pengelola Dana Pendidikan (LPDP).",
+          "evidence": [
+            {
+              "source_id": "uu-12-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-sby-uu-pendidikan-tinggi"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-4",
@@ -16456,14 +19579,20 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-1",
-          "score": -1,
-          "confidence": 0.4,
-          "rationale_id": "Kasus blasfemi Ahok dieksploitasi tanpa respons protektif terhadap pluralisme; SKB Ahmadiyah 2008 dipertahankan; intoleransi terhadap minoritas keagamaan meningkat tanpa kebijakan korektif.",
-          "evidence": [],
+          "score": 0,
+          "confidence": 0.75,
+          "rationale_id": "Pembubaran HTI melalui Perppu Ormas tanpa proses peradilan menimbulkan perdebatan jaminan kebebasan berserikat.",
+          "evidence": [
+            {
+              "source_id": "perppu-2-2017"
+            }
+          ],
+          "event_ids": [
+            "ev-jokowi-perppu-ormas"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
@@ -16538,14 +19667,20 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Perlindungan warga standar; respons awal pandemi terjadi di akhir periode.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Penyelenggaraan Pemilu Serentak 2019 berjalan aman terkendali di tengah polarisasi tajam.",
+          "evidence": [
+            {
+              "source_id": "uu-7-2017"
+            }
+          ],
+          "event_ids": [
+            "ev-jokowi-pemilu-serentak"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-2",
@@ -16564,24 +19699,36 @@
         {
           "dimension_id": "tujuan-3",
           "score": 1,
-          "confidence": 0.4,
-          "rationale_id": "Merdeka Belajar dan KIP memperluas akses pendidikan meski mutu belum terukur.",
-          "evidence": [],
+          "confidence": 0.8,
+          "rationale_id": "Pengesahan UU Penyandang Disabilitas 8/2016 dan perluasan Kartu Indonesia Pintar (KIP) Kuliah.",
+          "evidence": [
+            {
+              "source_id": "uu-8-2016"
+            }
+          ],
+          "event_ids": [
+            "ev-jokowi-uu-disabilitas"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Diplomasi ekonomi aktif tanpa lonjakan kontribusi perdamaian global.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Sukses penyelenggaraan Asian Games 2018 dan peran diplomasi perdamaian Indo-Pasifik.",
+          "evidence": [
+            {
+              "source_id": "perpres-asian-games-2018"
+            }
+          ],
+          "event_ids": [
+            "ev-jokowi-asian-games"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "negara-hukum",
@@ -16782,25 +19929,37 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Program pendidikan berlanjut tanpa lonjakan mutu yang terukur.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Pengesahan UU TPKS 12/2022 memperkuat perlindungan hak asasi perempuan dan anak dari kekerasan.",
+          "evidence": [
+            {
+              "source_id": "uu-12-2022"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-tpks-2022"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Kepemimpinan ASEAN terkendala kebuntuan krisis Myanmar.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.85,
+          "rationale_id": "Presidensi G20 Bali 2022 dan KTT ASEAN 2023 menghasilkan deklarasi konsensus global di tengah perang Ukraina.",
+          "evidence": [
+            {
+              "source_id": "g20-bali-leaders-declaration-2022"
+            }
+          ],
+          "event_ids": [
+            "ev-jokowi-presidensi-g20"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "negara-hukum",
@@ -16876,13 +20035,19 @@
         {
           "dimension_id": "sila-1",
           "score": 0,
-          "confidence": 0.3,
-          "rationale_id": "Periode masih berjalan; belum ada kebijakan agama-negara signifikan yang tercatat.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Penegasan komitmen kerukunan antarumat beragama pada pidato awal masa jabatan kenegaraan.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-pelantikan-prabowo-2024"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
@@ -16904,13 +20069,22 @@
         {
           "dimension_id": "sila-3",
           "score": 0,
-          "confidence": 0.3,
-          "rationale_id": "Data periode berjalan belum cukup untuk menilai arah integrasi nasional.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Melanjutkan komitmen pembangunan wilayah terluar dan pemerataan infrastruktur strategis nasional.",
+          "evidence": [
+            {
+              "source_id": "uu-3-2022"
+            },
+            {
+              "source_id": "ihps-bpk-i-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-ihps-infrastruktur-2024"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-4",
@@ -16949,13 +20123,19 @@
         {
           "dimension_id": "tujuan-1",
           "score": 0,
-          "confidence": 0.3,
-          "rationale_id": "Arah perlindungan warga belum dapat dinilai tegas pada periode berjalan.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Penguatan pertahanan perbatasan dan pemantapan kedaulatan maritim kepulauan.",
+          "evidence": [
+            {
+              "source_id": "perpres-astacita-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-prabowo-pelantikan-menteri-2024"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-2",
@@ -17070,14 +20250,26 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-1",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Isu agama-negara bukan agenda utama legislasi periode ini.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Penegasan perlindungan kebebasan beragama pada amandemen Pasal 28E dan 28I UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "tap-mpr-vi-2001"
+            },
+            {
+              "source_id": "tap-mpr-vii-2001"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-tap-vi-vii-2001"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
@@ -17149,25 +20341,43 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 0,
-          "confidence": 0.35,
-          "rationale_id": "Agenda pertahanan keamanan belum menjadi fokus legislasi periode ini.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Pengesahan UU Pertahanan Negara No. 3/2002 yang menempatkan TNI di bawah kerangka supremasi sipil.",
+          "evidence": [
+            {
+              "source_id": "uu-3-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-pertahanan-2002"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Produk legislasi kesejahteraan masih dasar dan bertahap.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Pengesahan Paket UU Keuangan Negara dan Perbendaharaan Negara meletakkan disiplin anggaran modern.",
+          "evidence": [
+            {
+              "source_id": "uu-17-2003"
+            },
+            {
+              "source_id": "uu-1-2004"
+            },
+            {
+              "source_id": "uu-15-2004"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-paket-uu-keuangan-2004"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-3",
@@ -17185,14 +20395,20 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 0,
-          "confidence": 0.35,
-          "rationale_id": "Agenda ketertiban dunia belum nyata dalam produk legislasi.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Pengesahan UU No. 24/2000 tentang Perjanjian Internasional memberikan dasar hukum ratifikasi konvensi global.",
+          "evidence": [
+            {
+              "source_id": "uu-24-2000"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-perjanjian-internasional"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "negara-hukum",
@@ -17265,24 +20481,42 @@
         {
           "dimension_id": "sila-1",
           "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Tidak ada produk legislasi agama-negara yang signifikan pada periode ini.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Pengawasan DPR atas kebijakan keagamaan belum mengoreksi regulasi diskriminatif SKB Ahmadiyah.",
+          "evidence": [
+            {
+              "source_id": "uu-1-pnps-1965"
+            },
+            {
+              "source_id": "skb-3-menteri-ahmadiyah-2008"
+            }
+          ],
+          "event_ids": [
+            "ev-sby-skb-ahmadiyah"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
-          "score": 0,
-          "confidence": 0.45,
-          "rationale_id": "Legislasi HAM stagnan tanpa kemunduran berarti.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Pengesahan UU Pemerintahan Aceh No. 11/2006 memberikan landasan hukum bagi rekonsiliasi dan pemulihan hak korban.",
+          "evidence": [
+            {
+              "source_id": "uu-11-2006"
+            },
+            {
+              "source_id": "mou-helsinki-2005"
+            }
+          ],
+          "event_ids": [
+            "ev-sby-mou-helsinki"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-3",
@@ -17331,47 +20565,71 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 0,
-          "confidence": 0.35,
-          "rationale_id": "Legislasi pertahanan belum menjadi prioritas nyata periode ini.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Pengesahan UU No. 24/2007 tentang Penanggulangan Bencana membentuk BNPB untuk melindungi rakyat dari bencana alam.",
+          "evidence": [
+            {
+              "source_id": "uu-24-2007"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-bnpb-2007"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-2",
           "score": 1,
-          "confidence": 0.4,
-          "rationale_id": "Fungsi anggaran mulai profesional dengan dukungan kapasitas teknis dewan.",
-          "evidence": [],
+          "confidence": 0.75,
+          "rationale_id": "Pengesahan UU UMKM 20/2008 memperkuat basis ekonomi kerakyatan dan perlindungan usaha mikro.",
+          "evidence": [
+            {
+              "source_id": "uu-20-2008"
+            }
+          ],
+          "event_ids": [
+            "ev-sby-uu-umkm"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-3",
           "score": 1,
-          "confidence": 0.4,
-          "rationale_id": "Agenda pendidikan hadir dalam legislasi meski hasilnya beragam.",
-          "evidence": [],
+          "confidence": 0.8,
+          "rationale_id": "Pengesahan UU Guru dan Dosen No. 14/2005 meningkatkan profesionalisme dan tunjangan sertifikasi pendidik.",
+          "evidence": [
+            {
+              "source_id": "uu-14-2005"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-guru-dosen"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 0,
-          "confidence": 0.35,
-          "rationale_id": "Agenda internasional tidak menonjol dalam produk legislasi periode ini.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Pengesahan UU RPJPN 2005-2025 memuat arah kebijakan luar negeri bebas aktif di era globalisasi.",
+          "evidence": [
+            {
+              "source_id": "uu-17-2007"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-rpjpn-2007"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "negara-hukum",
@@ -17439,35 +20697,53 @@
         {
           "dimension_id": "sila-1",
           "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Agenda agama-negara tidak dominan dalam legislasi periode ini.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "DPR pasif dalam merespons kekerasan berbasis agama terhadap minoritas Syiah dan Ahmadiyah.",
+          "evidence": [
+            {
+              "source_id": "putusan-pn-sampang-syiah-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-sby-konflik-syiah-sampang"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Legislasi HAM stagnan tanpa kemajuan berarti.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Pengesahan UU BPJS 24/2011 mewujudkan jaminan hak konstitusional atas kesehatan dan kesejahteraan.",
+          "evidence": [
+            {
+              "source_id": "uu-24-2011"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-bpjs-2011"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-3",
-          "score": 0,
-          "confidence": 0.45,
-          "rationale_id": "Kebijakan otonomi daerah cenderung sentralistis tanpa perbaikan berarti.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Pengesahan UU Desa No. 6/2014 mengakui rekognisi dan subsidiaritas desa di seluruh nusantara.",
+          "evidence": [
+            {
+              "source_id": "uu-6-2014"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-desa-2014"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-4",
@@ -17505,14 +20781,20 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 0,
-          "confidence": 0.35,
-          "rationale_id": "Pengawasan sektor keamanan tetap lemah.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Pengesahan UU Penanganan Konflik Sosial No. 7/2012 mengatur resolusi konflik terpadu.",
+          "evidence": [
+            {
+              "source_id": "uu-7-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-penanganan-konflik-sosial"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-2",
@@ -17533,25 +20815,37 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 0,
-          "confidence": 0.35,
-          "rationale_id": "Tidak ada terobosan legislasi pendidikan yang berdampak terukur.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Pengesahan UU Pendidikan Tinggi No. 12/2012 menjamin akses beasiswa bagi mahasiswa kurang mampu.",
+          "evidence": [
+            {
+              "source_id": "uu-12-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-sby-uu-pendidikan-tinggi"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 0,
-          "confidence": 0.35,
-          "rationale_id": "Agenda internasional tidak menjadi sorotan legislasi.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Ratifikasi Perjanjian ASEAN tentang Pencemaran Asap Lintas Batas (ASEAN Agreement on Transboundary Haze).",
+          "evidence": [
+            {
+              "source_id": "uu-1-2014"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-ratifikasi-asean-haze"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "negara-hukum",
@@ -17618,13 +20912,19 @@
         {
           "dimension_id": "sila-1",
           "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Agenda agama-negara muncul sporadis tanpa legislasi besar.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Persetujuan Perppu Ormas menjadi UU No. 16/2017 diwarnai pro-kontra kebebasan berkumpul.",
+          "evidence": [
+            {
+              "source_id": "perppu-2-2017"
+            }
+          ],
+          "event_ids": [
+            "ev-jokowi-perppu-ormas"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
@@ -17702,14 +21002,20 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 0,
-          "confidence": 0.35,
-          "rationale_id": "Pengawasan sektor keamanan tidak menonjol.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Pengesahan Revisi UU Pemberantasan Tindak Pidana Terorisme No. 5/2018 memperkuat pencegahan terorisme.",
+          "evidence": [
+            {
+              "source_id": "uu-5-2018"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-terorisme-2018"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-2",
@@ -17744,14 +21050,20 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 0,
-          "confidence": 0.35,
-          "rationale_id": "Agenda internasional tidak menonjol dalam produk legislasi.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Pengesahan UU No. 16/2016 tentang Pengesahan Paris Agreement on Climate Change.",
+          "evidence": [
+            {
+              "source_id": "uu-16-2016"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-ratifikasi-paris-agreement"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "negara-hukum",
@@ -17852,13 +21164,19 @@
         {
           "dimension_id": "sila-3",
           "score": 0,
-          "confidence": 0.45,
-          "rationale_id": "Isu integrasi nasional bukan sorotan utama legislasi periode ini.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Pengesahan UU IKN Nusantara 3/2022 untuk pemerataan wilayah menuai kritik minimnya partisipasi masyarakat adat.",
+          "evidence": [
+            {
+              "source_id": "uu-3-2022"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-ikn-2022"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-4",
@@ -17899,14 +21217,20 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 0,
-          "confidence": 0.35,
-          "rationale_id": "Pengawasan sektor keamanan tetap lemah.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Pengesahan UU Perlindungan Data Pribadi No. 27/2022 melindungi keamanan data warga negara di ruang digital.",
+          "evidence": [
+            {
+              "source_id": "uu-27-2022"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-pdp-2022"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-2",
@@ -17927,25 +21251,37 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Tidak ada terobosan legislasi pendidikan yang signifikan.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.85,
+          "rationale_id": "Pengesahan UU TPKS 12/2022 memperkuat pencegahan kekerasan dan rehabilitasi korban di lingkungan pendidikan.",
+          "evidence": [
+            {
+              "source_id": "uu-12-2022"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-tpks-2022"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Agenda internasional tidak menonjol dalam produk legislasi.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Pengesahan KUHP Nasional No. 1/2023 menggantikan kodifikasi hukum pidana kolonial Belanda WvS.",
+          "evidence": [
+            {
+              "source_id": "uu-1-2023"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-kuhp-2022"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "negara-hukum",
@@ -18021,13 +21357,19 @@
         {
           "dimension_id": "sila-1",
           "score": 0,
-          "confidence": 0.3,
-          "rationale_id": "Periode masih awal berjalan tanpa isu agama-negara besar.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Komitmen awal menjaga toleransi beragama dan pencegahan polarisasi politik identitas.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-pelantikan-prabowo-2024"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
@@ -18049,13 +21391,22 @@
         {
           "dimension_id": "sila-3",
           "score": 0,
-          "confidence": 0.3,
-          "rationale_id": "Data periode berjalan belum cukup untuk penilaian.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Pengawasan alokasi APBN untuk pembangunan infrastruktur daerah 3T (terdepan, terluar, tertinggal).",
+          "evidence": [
+            {
+              "source_id": "uu-3-2022"
+            },
+            {
+              "source_id": "ihps-bpk-i-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-ihps-infrastruktur-2024"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-4",
@@ -18077,24 +21428,36 @@
         {
           "dimension_id": "sila-5",
           "score": 0,
-          "confidence": 0.3,
-          "rationale_id": "Belum ada produk kesejahteraan besar dari dewan periode ini.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Pengawasan keberlanjutan pembiayaan jaminan kesehatan nasional dan subsidi upah buruh.",
+          "evidence": [
+            {
+              "source_id": "uu-24-2011"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-bpjs-2011"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-1",
           "score": 0,
-          "confidence": 0.3,
-          "rationale_id": "Pengawasan pertahanan belum menonjol.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Pengawasan modernisasi alutsista dan ketahanan pangan nasional.",
+          "evidence": [
+            {
+              "source_id": "uu-3-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-pertahanan-2002"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-2",
@@ -18116,24 +21479,36 @@
         {
           "dimension_id": "tujuan-3",
           "score": 0,
-          "confidence": 0.3,
-          "rationale_id": "Agenda pendidikan belum menjadi sorotan.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Pengawasan implementasi aturan turunan UU TPKS di perguruan tinggi dan pesantren.",
+          "evidence": [
+            {
+              "source_id": "uu-12-2022"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-tpks-2022"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "tujuan-4",
           "score": 0,
-          "confidence": 0.3,
-          "rationale_id": "Agenda internasional belum menonjol.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Dukungan parlemen terhadap diplomasi kemanusiaan di Palestina dan forum antarpemerintahan.",
+          "evidence": [
+            {
+              "source_id": "uu-24-2000"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uu-perjanjian-internasional"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "negara-hukum",
@@ -18205,25 +21580,37 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-1",
-          "score": 0,
-          "confidence": 0.3,
-          "rationale_id": "Perkara kebebasan beragama belum menjadi agenda dominan majelis pertama.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Penegakan keadilan sosial dan pengawasan konstitusionalitas UU Ketenagalistrikan demi kepentingan umum.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-001-puu-i-2003"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-pembatalan-uu-kelistrikan-2004"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
           "score": 1,
-          "confidence": 0.4,
-          "rationale_id": "Putusan awal mulai melindungi hak warga dari pembatasan berlebihan.",
-          "evidence": [],
+          "confidence": 0.85,
+          "rationale_id": "Membatalkan syarat amnesti Presiden dalam UU KKR demi kepastian keadilan bagi korban HAM berat.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-006-puu-iv-2006"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-kkr-2006"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-4",
@@ -18244,14 +21631,20 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": 1,
-          "confidence": 0.55,
-          "rationale_id": "Standar judicial review dan keterbukaan sidang dibangun sejak periode pertama.",
-          "evidence": [],
+          "score": 2,
+          "confidence": 0.9,
+          "rationale_id": "Mengukuhkan kewenangan mandiri penyadapan KPK dan memerintahkan pembentukan UU Pengadilan Tipikor.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-012-016-019-puu-iv-2006"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-penyadapan-kpk-2006"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "checks-balances",
@@ -18272,14 +21665,20 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
-          "confidence": 0.5,
-          "rationale_id": "Putusan pemilu memperkuat kehendak rakyat sebagai sumber legitimasi.",
-          "evidence": [],
+          "score": 2,
+          "confidence": 0.9,
+          "rationale_id": "Membuka ruang konstitusional calon perseorangan dalam Pilkada tanpa harus lewat monopoli partai.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-5-puu-v-2007"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-calon-perseorangan-2007"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         }
       ]
     },
@@ -18297,14 +21696,20 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-1",
-          "score": 0,
-          "confidence": 0.3,
-          "rationale_id": "Tidak ada perkara agama-negara yang menonjol pada periode ini.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menegaskan hutan adat bukan hutan negara, memulihkan hak spiritual dan ulayat masyarakat adat.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-35-puu-x-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-hutan-adat-2013"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
@@ -18326,13 +21731,19 @@
         {
           "dimension_id": "sila-4",
           "score": 1,
-          "confidence": 0.5,
-          "rationale_id": "Aktivitas uji materi elektoral tetap produktif dan berpihak pada pemilih.",
-          "evidence": [],
+          "confidence": 0.85,
+          "rationale_id": "Mengizinkan penggunaan KTP dan Paspor dalam Pemilu demi melindungi hak pilih konstitusional warga.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-102-puu-vii-2009"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-ktp-pemilu-2009"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "negara-hukum",
@@ -18371,13 +21782,19 @@
         {
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
-          "confidence": 0.45,
-          "rationale_id": "Putusan-putusan elektoral tetap menjaga suara rakyat meski reputasi goyah.",
-          "evidence": [],
+          "confidence": 0.85,
+          "rationale_id": "Menjamin tidak ada warga negara yang kehilangan hak pilih akibat kendala administratif DPT.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-102-puu-vii-2009"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-ktp-pemilu-2009"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         }
       ]
     },
@@ -18395,25 +21812,37 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-1",
-          "score": 0,
-          "confidence": 0.3,
-          "rationale_id": "Agenda agama-negara belum menjadi fokus putusan periode ini.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.85,
+          "rationale_id": "Mengakui hak penganut penghayat kepercayaan untuk dicantumkan dalam kolom agama KTP dan KK.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-97-puu-xiv-2016"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-penghayat-kepercayaan-2017"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Perlindungan HAM dalam putusan berjalan tanpa landmark besar.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.85,
+          "rationale_id": "Memperluas objek praperadilan pada penetapan tersangka dan penyitaan demi mencegah kesewenang-wenangan aparat.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-21-puu-xii-2014"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-praperadilan-2015"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-4",
@@ -18434,25 +21863,41 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": 1,
-          "confidence": 0.5,
-          "rationale_id": "Reformasi tata kelola etik internal berjalan pasca-skandal Akil Mochtar.",
-          "evidence": [],
+          "score": 0,
+          "confidence": 0.8,
+          "rationale_id": "Putusan progresif pembatalan privatisasi air ternoda oleh OTT suap Hakim Konstitusi Patrialis Akbar.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-85-puu-xi-2013"
+            },
+            {
+              "source_id": "putusan-tipikor-patrialis-2017"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-sda-2015",
+            "ev-mk-ott-patrialis-akbar-2017"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "checks-balances",
-          "score": 1,
-          "confidence": 0.5,
-          "rationale_id": "Kemandirian majelis pulih bertahap setelah krisis integritas.",
-          "evidence": [],
+          "score": 0,
+          "confidence": 0.8,
+          "rationale_id": "Memutuskan penyelenggaraan pemilu legislatif dan presiden serentak guna memperkuat sistem presidensial.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-14-puu-xi-2013"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-pemilu-serentak-2013"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "kedaulatan-rakyat",
@@ -18487,25 +21932,37 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-1",
-          "score": 0,
-          "confidence": 0.35,
-          "rationale_id": "Belum ada putusan agama-negara yang mengubah lanskap periode ini.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Konsistensi perlindungan hak kesetaraan perlakuan bagi kelompok penghayat kepercayaan.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-97-puu-xiv-2016"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-penghayat-kepercayaan-2017"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Perlindungan HAM dalam yurisprudensi berjalan tanpa arah baru.",
-          "evidence": [],
+          "score": -1,
+          "confidence": 0.85,
+          "rationale_id": "Pelanggaran etik berat dalam Putusan No. 90/PUU-XXI/2023 menciderai rasa keadilan dan kepastian hukum.",
+          "evidence": [
+            {
+              "source_id": "putusan-mkmk-2-2023"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-90-2023"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-4",
@@ -18591,36 +22048,57 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-1",
-          "score": 0,
-          "confidence": 0.25,
-          "rationale_id": "Periode masih berjalan tanpa perkara agama-negara signifikan.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Memerintahkan penataan ambang batas parlemen demi keadilan representasi pemilih.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-116-puu-xxi-2023"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-parliamentary-threshold-2024"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-2",
-          "score": 0,
-          "confidence": 0.25,
-          "rationale_id": "Yurisprudensi HAM berjalan normal pada periode berjalan.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.85,
+          "rationale_id": "Menegaskan sanksi pidana bagi ketidaknetralan aparatur keamanan dan pejabat daerah dalam Pilkada.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-136-puu-xxii-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-netralitas-tni-polri-2024"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-4",
-          "score": 0,
-          "confidence": 0.3,
-          "rationale_id": "Fungsi review elektoral berjalan dengan hasil campuran.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.85,
+          "rationale_id": "Menurunkan ambang batas pencalonan pilkada untuk membuka kompetisi demokratis dan melawan kartel politik.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-60-puu-xxii-2024"
+            },
+            {
+              "source_id": "putusan-mk-70-puu-xxii-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-ambang-batas-pilkada-2024"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "negara-hukum",
@@ -20350,24 +23828,36 @@
         {
           "dimension_id": "sila-4",
           "score": 1,
-          "confidence": 0.7,
-          "rationale_id": "Mengoperasionalkan kedudukan konstitusional baru MPR sebagai lembaga perwakilan bersama DPR dan DPD pasca-Amandemen UUD 1945 dengan tata tertib modern.",
-          "evidence": [],
+          "confidence": 0.8,
+          "rationale_id": "Pelaksanaan sidang pelantikan presiden dan wapres hasil pemilu langsung pertama berjalan tertib konstitusional.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-pelantikan-sby-2004"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
-          "confidence": 0.75,
-          "rationale_id": "Menyelenggarakan sidang pelantikan Presiden dan Wakil Presiden hasil pemilihan umum langsung pertama 2004 secara tertib dan demokratis.",
-          "evidence": [],
+          "confidence": 0.8,
+          "rationale_id": "MPR mematuhi format baru sebagai lembaga perwakilan bikameral yang menghormati mandat langsung rakyat.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-pelantikan-sby-2004"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         }
       ]
     },
@@ -20385,25 +23875,37 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-3",
-          "score": 0,
-          "confidence": 0.7,
-          "rationale_id": "Sosialisasi Empat Pilar adalah kegiatan seremonial tanpa capaian legislatif atau dampak substantif terukur terhadap persatuan nasional.",
-          "evidence": [],
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Sosialisasi penguatan nilai persatuan dan Bhinneka Tunggal Ika di tengah dinamika Pilpres.",
+          "evidence": [
+            {
+              "source_id": "buku-mpr-empat-pilar-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-empat-pilar-2011"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "checks-balances",
           "score": 0,
-          "confidence": 0.65,
-          "rationale_id": "Memulai kajian mendalam Badan Pengkajian MPR terkait urgensi Pokok-Pokok Haluan Negara (PPHN) tanpa mengorbankan stabilitas sistem presidensial.",
-          "evidence": [],
+          "confidence": 0.7,
+          "rationale_id": "Perubahan UU MD3 yang menambah kursi pimpinan MPR mencerminkan kompromi politik antarfraksi.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-revisi-uu-md3-kursi-mpr-2018"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         }
       ]
     },
@@ -20423,23 +23925,35 @@
           "dimension_id": "kedaulatan-rakyat",
           "score": 0,
           "confidence": 0.75,
-          "rationale_id": "Pelantikan presiden dan wakil presiden adalah tugas konstitusional rutin yang wajib dilakukan, bukan capaian substantif kedaulatan rakyat.",
-          "evidence": [],
+          "rationale_id": "Pelantikan presiden terpilih berjalan lancar sesuai jadwal dan tata tertib konstitusional.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-pelantikan-prabowo-2024"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
-          "rationale_id": "Membangun rekonsiliasi kebangsaan lintas kekuatan politik pasca-Pilpres 2024 serta memfasilitasi Sidang Tahunan Refleksi 80 & 81 Tahun Kemerdekaan RI.",
-          "evidence": [],
+          "rationale_id": "Pesan kebangsaan pimpinan MPR menyerukan rekonsiliasi dan persatuan seluruh elemen politik pasca-pemilu.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-pelantikan-prabowo-2024"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         }
       ]
     },
@@ -20457,25 +23971,41 @@
       "dimension_scores": [
         {
           "dimension_id": "checks-balances",
-          "score": -1,
-          "confidence": 0.7,
-          "rationale_id": "Kredibilitas kelembagaan tercederai oleh kasus hukum pimpinan terkait suap kuota impor dan sengketa kepengurusan internal pembatasan masa jabatan pimpinan.",
-          "evidence": [],
+          "score": 0,
+          "confidence": 0.75,
+          "rationale_id": "Kemenangan putusan MK 79/2014 memperkokoh posisi legislasi DPD, namun dinodai skandal korupsi pimpinan.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-79-puu-xii-2014"
+            },
+            {
+              "source_id": "putusan-pn-jkt-pusat-irman-gusman-2017"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-putusan-mk-79-2015",
+            "ev-dpd-ott-irman-gusman-2016"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "sila-3",
           "score": 1,
-          "confidence": 0.65,
-          "rationale_id": "Tetap aktif mengawal penyaluran aspirasi pemekaran daerah otonom baru dan evaluasi implementasi UU Desa di berbagai pelosok nusantara.",
-          "evidence": [],
+          "confidence": 0.75,
+          "rationale_id": "Advokasi penguatan dana perimbangan dan keadilan fiskal bagi daerah penghasil sumber daya alam.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-dbh-2018"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-advokasi-dbh-2018"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         }
       ]
     },
@@ -20493,25 +24023,37 @@
       "dimension_scores": [
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
-          "rationale_id": "Mengadvokasi keadilan alokasi Dana Bagi Hasil (DBH) bagi daerah penghasil migas/tambang, percepatan pembangunan kawasan 3T, dan ekonomi maritim.",
-          "evidence": [],
+          "rationale_id": "Pengawasan perlindungan hak ekonomi dan agraria masyarakat adat di wilayah IKN Nusantara.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pengawasan-adat-ikn-2024"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         },
         {
           "dimension_id": "checks-balances",
-          "score": 1,
-          "confidence": 0.7,
-          "rationale_id": "Mengoptimalkan fungsi pengawasan tripartit dalam implementasi Pilkada Serentak 545 daerah dan efektivitas APBN 2025/2026 di tingkat pemerintah daerah.",
-          "evidence": [],
+          "score": 0,
+          "confidence": 0.75,
+          "rationale_id": "Pemilihan pimpinan DPD berlangsung dinamis dan menegaskan komitmen pengawasan otonomi daerah.",
+          "evidence": [
+            {
+              "source_id": "risalah-paripurna-dpd-oktober-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pemilihan-sultan-2024"
+          ],
           "normative_anchors": [
             "uud-nri-1945"
-          ],
-          "evidence_gap": true
+          ]
         }
       ]
     }

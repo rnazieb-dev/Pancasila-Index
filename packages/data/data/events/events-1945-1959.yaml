@@ -1,281 +1,416 @@
-# Peristiwa Konstitusional & Sejarah Tata Negara: Era Revolusi & Parlementer (1945–1959)
-
 - id: ev-maklumat-wapres-x-1945
   term_id: presiden-soekarno-i
-  date: "1945-11-03"
+  date: 1945-11-03
   category: produk-hukum
   title_id: Maklumat Wakil Presiden No. X - Fondasi Sistem Multi-Partai Indonesia
-  summary_id: >-
-    Wakil Presiden Mohammad Hatta mengeluarkan maklumat yang menganjurkan pembentukan partai-partai politik
-    guna memperkuat perjuangan kemerdekaan dan membuktikan kepada dunia internasional bahwa Indonesia adalah negara demokratis.
-  source_ids: [maklumat-wakil-presiden-x-1945]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
+  summary_id: Wakil Presiden Mohammad Hatta mengeluarkan maklumat yang
+    menganjurkan pembentukan partai-partai politik guna memperkuat perjuangan
+    kemerdekaan dan membuktikan kepada dunia internasional bahwa Indonesia
+    adalah negara demokratis.
+  source_ids:
+    - maklumat-wakil-presiden-x-1945
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-maklumat-pemerintah-14-nov-1945
   term_id: presiden-soekarno-i
-  date: "1945-11-14"
+  date: 1945-11-14
   category: kebijakan
   title_id: Maklumat Pemerintah 14 November 1945 - Pergeseran ke Sistem Parlementer
-  summary_id: >-
-    Pemerintah mengumumkan pembentukan Kabinet Sutan Sjahrir I yang bertanggung jawab kepada KNIP (Badan Pekerja),
-    mengubah praktik sistem presidensial murni UUD 1945 menjadi sistem pertanggungjawaban parlementer semu demi diplomasi internasional.
-  source_ids: [maklumat-pemerintah-14-nov-1945]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  summary_id: Pemerintah mengumumkan pembentukan Kabinet Sutan Sjahrir I yang
+    bertanggung jawab kepada KNIP (Badan Pekerja), mengubah praktik sistem
+    presidensial murni UUD 1945 menjadi sistem pertanggungjawaban parlementer
+    semu demi diplomasi internasional.
+  source_ids:
+    - maklumat-pemerintah-14-nov-1945
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-perjanjian-linggajati-1946
   term_id: presiden-soekarno-i
-  date: "1946-11-15"
+  date: 1946-11-15
   category: peristiwa
   title_id: Persetujuan Linggajati dan Pengakuan De Facto Republik Indonesia
-  summary_id: >-
-    Delegasi Indonesia dipimpin Sutan Sjahrir menandatangani naskah persetujuan Linggajati dengan Belanda,
-    menghasilkan pengakuan de facto atas wilayah Jawa, Madura, dan Sumatera, serta komitmen pembentukan negara federasi RIS.
-  source_ids: [perjanjian-linggajati-1946]
-  dimension_ids: [tujuan-1, tujuan-4]
-
+  summary_id: Delegasi Indonesia dipimpin Sutan Sjahrir menandatangani naskah
+    persetujuan Linggajati dengan Belanda, menghasilkan pengakuan de facto atas
+    wilayah Jawa, Madura, dan Sumatera, serta komitmen pembentukan negara
+    federasi RIS.
+  source_ids:
+    - perjanjian-linggajati-1946
+  dimension_ids:
+    - tujuan-1
+    - tujuan-4
 - id: ev-perjanjian-renville-1948
   term_id: presiden-soekarno-i
-  date: "1948-01-17"
+  date: 1948-01-17
   category: peristiwa
   title_id: Perjanjian Renville dan Garis Van Mook
-  summary_id: >-
-    Indonesia menandatangani perjanjian gencatan senjata Renville di bawah mediasi Komisi Tiga Negara PBB,
-    mengakibatkan penarikan mundur pasukan TNI dari kantong-kantong gerilya di Jawa Barat dan Jawa Timur (Hijrah Siliwangi).
-  source_ids: [perjanjian-renville-1948]
-  dimension_ids: [tujuan-1, tujuan-4]
-
+  summary_id: Indonesia menandatangani perjanjian gencatan senjata Renville di
+    bawah mediasi Komisi Tiga Negara PBB, mengakibatkan penarikan mundur pasukan
+    TNI dari kantong-kantong gerilya di Jawa Barat dan Jawa Timur (Hijrah
+    Siliwangi).
+  source_ids:
+    - perjanjian-renville-1948
+  dimension_ids:
+    - tujuan-1
+    - tujuan-4
 - id: ev-perjanjian-roem-royen-1949
   term_id: presiden-soekarno-i
-  date: "1949-05-07"
+  date: 1949-05-07
   category: peristiwa
-  title_id: Persetujuan Roem-Roijen Membuka Jalan Pengembalian Pemerintahan RI ke Yogyakarta
-  summary_id: >-
-    Diplomasi Mohammad Roem dan J.H. van Roijen menyepakati penghentian perang gerilya, pemulihan pemerintahan RI di Yogyakarta,
-    dan penyelenggaraan Konferensi Meja Bundar di Den Haag untuk penyerahan kedaulatan penuh tanpa syarat.
-  source_ids: [perjanjian-roem-royen-1949]
-  dimension_ids: [tujuan-1, tujuan-4]
-
+  title_id: Persetujuan Roem-Roijen Membuka Jalan Pengembalian Pemerintahan RI ke
+    Yogyakarta
+  summary_id: Diplomasi Mohammad Roem dan J.H. van Roijen menyepakati penghentian
+    perang gerilya, pemulihan pemerintahan RI di Yogyakarta, dan penyelenggaraan
+    Konferensi Meja Bundar di Den Haag untuk penyerahan kedaulatan penuh tanpa
+    syarat.
+  source_ids:
+    - perjanjian-roem-royen-1949
+  dimension_ids:
+    - tujuan-1
+    - tujuan-4
 - id: ev-keadaan-darurat-sob-1957
   term_id: presiden-soekarno-i
-  date: "1957-03-14"
+  date: 1957-03-14
   category: kebijakan
   title_id: Pemberlakuan Keadaan Darurat Perang (SOB) di Seluruh Wilayah Indonesia
-  summary_id: >-
-    Presiden Sukarno memberlakukan Keadaan Darurat Perang (Staat van Oorlog en Beleg / SOB) melalui Keppres No. 40/1957
-    menanggapi krisis politik daerah dan pergolakan militer daerah (Dewan Banteng, Dewan Gajah, Permesta), memperluas wewenang militer dalam urusan sipil.
-  source_ids: [deklarasi-keadaan-perang-1957]
-  dimension_ids: [tujuan-1, checks-balances]
-
+  summary_id: Presiden Sukarno memberlakukan Keadaan Darurat Perang (Staat van
+    Oorlog en Beleg / SOB) melalui Keppres No. 40/1957 menanggapi krisis politik
+    daerah dan pergolakan militer daerah (Dewan Banteng, Dewan Gajah, Permesta),
+    memperluas wewenang militer dalam urusan sipil.
+  source_ids:
+    - deklarasi-keadaan-perang-1957
+  dimension_ids:
+    - tujuan-1
+    - checks-balances
 - id: ev-nasionalisasi-belanda-1958
   term_id: presiden-soekarno-i
-  date: "1958-12-27"
+  date: 1958-12-27
   category: produk-hukum
-  title_id: Pengesahan UU No. 86 Tahun 1958 tentang Nasionalisasi Perusahaan Milik Belanda
-  summary_id: >-
-    Pemerintah dan DPR mengesahkan nasionalisasi ratusan perusahaan perkebunan, pertambangan, perkapalan (KPM),
-    dan perbankan milik Belanda menjadi Badan Usaha Milik Negara (BUMN) sebagai bagian dari perjuangan pembebasan Irian Barat dan kedaulatan ekonomi Pasal 33 UUD 1945.
-  source_ids: [uu-86-1958]
-  dimension_ids: [tujuan-2, sila-5]
-
+  title_id: Pengesahan UU No. 86 Tahun 1958 tentang Nasionalisasi Perusahaan Milik
+    Belanda
+  summary_id: Pemerintah dan DPR mengesahkan nasionalisasi ratusan perusahaan
+    perkebunan, pertambangan, perkapalan (KPM), dan perbankan milik Belanda
+    menjadi Badan Usaha Milik Negara (BUMN) sebagai bagian dari perjuangan
+    pembebasan Irian Barat dan kedaulatan ekonomi Pasal 33 UUD 1945.
+  source_ids:
+    - uu-86-1958
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-kmb-1949
   term_id: presiden-soekarno-i
-  date: "1949-12-27"
+  date: 1949-12-27
   category: peristiwa
   title_id: Penyerahan Kedaulatan Hasil Konferensi Meja Bundar (KMB) Den Haag
-  summary_id: >-
-    Kerajaan Belanda secara resmi menyerahkan kedaulatan penuh dan tanpa syarat kepada Republik Indonesia Serikat (RIS)
-    di Istana Dam Amsterdam dan Jakarta, mengakhiri agresi militer Belanda dan membuka jalan kembali ke NKRI pada 17 Agustus 1950.
-  source_ids: [naskah-kmb-1949]
-  dimension_ids: [tujuan-1, tujuan-4]
-
+  summary_id: Kerajaan Belanda secara resmi menyerahkan kedaulatan penuh dan tanpa
+    syarat kepada Republik Indonesia Serikat (RIS) di Istana Dam Amsterdam dan
+    Jakarta, mengakhiri agresi militer Belanda dan membuka jalan kembali ke NKRI
+    pada 17 Agustus 1950.
+  source_ids:
+    - naskah-kmb-1949
+  dimension_ids:
+    - tujuan-1
+    - tujuan-4
 - id: ev-kaa-bandung-1955
   term_id: presiden-soekarno-i
-  date: "1955-04-24"
+  date: 1955-04-24
   category: peristiwa
   title_id: Konferensi Asia-Afrika (KAA) Bandung & Deklarasi Dasasila Bandung
-  summary_id: >-
-    Indonesia memprakarsai dan menjadi tuan rumah KAA yang dihadiri 29 negara Asia-Afrika, melahirkan Dasasila Bandung
-    yang menolak kolonialisme, mempromosikan perdamaian dunia (Tujuan 4 UUD 1945), dan menjadi cikal bakal Gerakan Non-Blok.
-  source_ids: [dasasila-bandung-1955]
-  dimension_ids: [tujuan-4, sila-2]
-
+  summary_id: Indonesia memprakarsai dan menjadi tuan rumah KAA yang dihadiri 29
+    negara Asia-Afrika, melahirkan Dasasila Bandung yang menolak kolonialisme,
+    mempromosikan perdamaian dunia (Tujuan 4 UUD 1945), dan menjadi cikal bakal
+    Gerakan Non-Blok.
+  source_ids:
+    - dasasila-bandung-1955
+  dimension_ids:
+    - tujuan-4
+    - sila-2
 - id: ev-pemilu-pertama-1955
   term_id: presiden-soekarno-i
-  date: "1955-09-29"
+  date: 1955-09-29
   category: peristiwa
   title_id: Penyelenggaraan Pemilihan Umum Pertama 1955 (DPR & Konstituante)
-  summary_id: >-
-    Indonesia menyelenggarakan pemilihan umum nasional pertama yang demokratis dan bebas diikuti puluhan partai politik
-    dan perseorangan dengan tingkat partisipasi pemilih di atas 90% tanpa insiden kekerasan politik yang berarti.
-  source_ids: [arsip-pemilu-1955]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
+  summary_id: Indonesia menyelenggarakan pemilihan umum nasional pertama yang
+    demokratis dan bebas diikuti puluhan partai politik dan perseorangan dengan
+    tingkat partisipasi pemilih di atas 90% tanpa insiden kekerasan politik yang
+    berarti.
+  source_ids:
+    - arsip-pemilu-1955
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-deklarasi-djuanda-1957
   term_id: presiden-soekarno-i
-  date: "1957-12-13"
+  date: 1957-12-13
   category: kebijakan
   title_id: Deklarasi Djuanda 1957 - Penetapan Konsep Negara Kepulauan Indonesia
-  summary_id: >-
-    Perdana Menteri Djuanda Kartawidjaja mendeklarasikan bahwa seluruh perairan di sekitar, di antara, dan yang menghubungkan
-    pulau-pulau Indonesia adalah bagian integral wilayah kedaulatan mutlak NKRI, melipatgandakan luas wilayah laut nasional menjadi 5 juta km².
-  source_ids: [deklarasi-djuanda-1957]
-  dimension_ids: [tujuan-1, sila-3]
-
+  summary_id: Perdana Menteri Djuanda Kartawidjaja mendeklarasikan bahwa seluruh
+    perairan di sekitar, di antara, dan yang menghubungkan pulau-pulau Indonesia
+    adalah bagian integral wilayah kedaulatan mutlak NKRI, melipatgandakan luas
+    wilayah laut nasional menjadi 5 juta km².
+  source_ids:
+    - deklarasi-djuanda-1957
+  dimension_ids:
+    - tujuan-1
+    - sila-3
 - id: ev-pembentukan-depernas-1959
   term_id: presiden-soekarno-i
-  date: "1958-10-23"
+  date: 1958-10-23
   category: produk-hukum
   title_id: Pembentukan Dewan Perancang Nasional (Depernas/Bappenas)
-  summary_id: >-
-    Pemerintah mengesahkan UU No. 80/1958 tentang Pembentukan Dewan Perancang Nasional (Depernas) pimpinan Mohammad Yamin,
-    peletak dasar perencanaan pembangunan nasional menyeluruh dan terencana untuk kemakmuran rakyat (Tujuan 2 UUD 1945).
-  source_ids: [uu-80-1958]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: Pemerintah mengesahkan UU No. 80/1958 tentang Pembentukan Dewan
+    Perancang Nasional (Depernas) pimpinan Mohammad Yamin, peletak dasar
+    perencanaan pembangunan nasional menyeluruh dan terencana untuk kemakmuran
+    rakyat (Tujuan 2 UUD 1945).
+  source_ids:
+    - uu-80-1958
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-maklumat-pemerintah-1-nov-1945
   term_id: presiden-soekarno-i
-  date: "1945-11-01"
+  date: 1945-11-01
   category: kebijakan
-  title_id: Maklumat Pemerintah 1 November 1945 - Kebijakan Politik Luar Negeri dan Pengakuan Milik Asing
-  summary_id: >-
-    Pemerintah RI mengeluarkan manifesto politik yang menegaskan sikap damai Indonesia terhadap dunia internasional,
-    kesiapan mengembalikan hak milik asing yang sah, dan permohonan pengakuan kedaulatan de jure dari Perserikatan Bangsa-Bangsa.
-  source_ids: [maklumat-pemerintah-1-nov-1945]
-  dimension_ids: [tujuan-4, negara-hukum]
-
+  title_id: Maklumat Pemerintah 1 November 1945 - Kebijakan Politik Luar Negeri
+    dan Pengakuan Milik Asing
+  summary_id: Pemerintah RI mengeluarkan manifesto politik yang menegaskan sikap
+    damai Indonesia terhadap dunia internasional, kesiapan mengembalikan hak
+    milik asing yang sah, dan permohonan pengakuan kedaulatan de jure dari
+    Perserikatan Bangsa-Bangsa.
+  source_ids:
+    - maklumat-pemerintah-1-nov-1945
+  dimension_ids:
+    - tujuan-4
+    - negara-hukum
 - id: ev-maklumat-pemerintah-3-nov-1945
   term_id: presiden-soekarno-i
-  date: "1945-11-03"
+  date: 1945-11-03
   category: kebijakan
   title_id: Maklumat Pemerintah 3 November 1945 - Peletak Dasar Sistem Multi-Partai
-  summary_id: >-
-    Wakil Presiden Mohammad Hatta menandatangani maklumat yang menganjurkan pembentukan partai-partai politik
-    guna mengukur kekuatan perjuangan rakyat dan mempersiapkan pemilihan umum, mengukuhkan pluralisme politik demokrasi di Indonesia.
-  source_ids: [maklumat-pemerintah-3-nov-1945]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
+  summary_id: Wakil Presiden Mohammad Hatta menandatangani maklumat yang
+    menganjurkan pembentukan partai-partai politik guna mengukur kekuatan
+    perjuangan rakyat dan mempersiapkan pemilihan umum, mengukuhkan pluralisme
+    politik demokrasi di Indonesia.
+  source_ids:
+    - maklumat-pemerintah-3-nov-1945
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-peristiwa-madiun-1948
   term_id: presiden-soekarno-i
-  date: "1948-09-18"
+  date: 1948-09-18
   category: krisis
   title_id: Penumpasan Pemberontakan PKI Madiun 1948 oleh TNI
-  summary_id: >-
-    Pemberontakan Front Demokrasi Rakyat / PKI pimpinan Musso di Madiun yang memproklamasikan Republik Soviet Indonesia
-    berhasil dipatahkan oleh Divisi Siliwangi TNI, mempertahankan ideologi Pancasila dan keutuhan Republik di tengah Agresi Militer Belanda.
-  source_ids: [arsip-madiun-1948]
-  dimension_ids: [tujuan-1, sila-3]
-
+  summary_id: Pemberontakan Front Demokrasi Rakyat / PKI pimpinan Musso di Madiun
+    yang memproklamasikan Republik Soviet Indonesia berhasil dipatahkan oleh
+    Divisi Siliwangi TNI, mempertahankan ideologi Pancasila dan keutuhan
+    Republik di tengah Agresi Militer Belanda.
+  source_ids:
+    - arsip-madiun-1948
+  dimension_ids:
+    - tujuan-1
+    - sila-3
 - id: ev-serangan-umum-1949
   term_id: presiden-soekarno-i
-  date: "1949-03-01"
+  date: 1949-03-01
   category: peristiwa
   title_id: Serangan Umum 1 Maret 1949 di Ibu Kota Yogyakarta
-  summary_id: >-
-    TNI di bawah pimpinan Letkol Soeharto dan restu Sri Sultan Hamengkubuwono IX melancarkan serangan 6 jam menguasai Yogyakarta,
-    membuktikan kepada Dewan Keamanan PBB bahwa Republik Indonesia dan angkatan perangnya masih tegak berdiri.
-  source_ids: [arsip-serangan-umum-1949]
-  dimension_ids: [tujuan-1, kedaulatan-rakyat]
-
+  summary_id: TNI di bawah pimpinan Letkol Soeharto dan restu Sri Sultan
+    Hamengkubuwono IX melancarkan serangan 6 jam menguasai Yogyakarta,
+    membuktikan kepada Dewan Keamanan PBB bahwa Republik Indonesia dan angkatan
+    perangnya masih tegak berdiri.
+  source_ids:
+    - arsip-serangan-umum-1949
+  dimension_ids:
+    - tujuan-1
+    - kedaulatan-rakyat
 - id: ev-kembali-ke-nkri-1950
   term_id: presiden-soekarno-i
-  date: "1950-08-17"
+  date: 1950-08-17
   category: peristiwa
   title_id: Pembubaran RIS dan Proklamasi Kembali ke Bentuk Negara Kesatuan (NKRI)
-  summary_id: >-
-    Presiden Sukarno secara resmi mengumumkan pembubaran Republik Indonesia Serikat (RIS) bentukan KMB dan penyatuan kembali seluruh negara bagian
-    menjadi satu Negara Kesatuan Republik Indonesia (NKRI) berlandaskan UUD Sementara 1950.
-  source_ids: [piagam-kembali-nkri-1950]
-  dimension_ids: [tujuan-1, sila-3]
-
+  summary_id: Presiden Sukarno secara resmi mengumumkan pembubaran Republik
+    Indonesia Serikat (RIS) bentukan KMB dan penyatuan kembali seluruh negara
+    bagian menjadi satu Negara Kesatuan Republik Indonesia (NKRI) berlandaskan
+    UUD Sementara 1950.
+  source_ids:
+    - piagam-kembali-nkri-1950
+  dimension_ids:
+    - tujuan-1
+    - sila-3
 - id: ev-maklumat-x-knip-1945
   term_id: presiden-soekarno-i
-  date: "1945-10-16"
+  date: 1945-10-16
   category: produk-hukum
-  title_id: Maklumat Wakil Presiden No. X Tahun 1945 Pemberian Kekuasaan Legislatif kepada KNIP
-  summary_id: >-
-    Wakil Presiden Mohammad Hatta menerbitkan Maklumat No. X yang memberikan wewenang legislatif penuh dan hak menetapkan GBHN kepada Komite Nasional Indonesia Pusat (KNIP)
-    sebelum terbentuknya DPR/MPR, meletakkan fondasi awal pemisahan kekuasaan dan checks and balances di masa awal kemerdekaan.
-  source_ids: [maklumat-x-1945]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  title_id: Maklumat Wakil Presiden No. X Tahun 1945 Pemberian Kekuasaan
+    Legislatif kepada KNIP
+  summary_id: Wakil Presiden Mohammad Hatta menerbitkan Maklumat No. X yang
+    memberikan wewenang legislatif penuh dan hak menetapkan GBHN kepada Komite
+    Nasional Indonesia Pusat (KNIP) sebelum terbentuknya DPR/MPR, meletakkan
+    fondasi awal pemisahan kekuasaan dan checks and balances di masa awal
+    kemerdekaan.
+  source_ids:
+    - maklumat-x-1945
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-maklumat-parlementer-1945
   term_id: presiden-soekarno-i
-  date: "1945-11-14"
+  date: 1945-11-14
   category: produk-hukum
-  title_id: Maklumat Pemerintah 14 November 1945 tentang Transformasi Sistem ke Parlementer
-  summary_id: >-
-    Pemerintah mengalihkan pertanggungjawaban menteri dari Presiden kepada Badan Pekerja KNIP (Parlemen) dengan mengangkat Sutan Sjahrir sebagai Perdana Menteri pertama,
-    mengubah sistem pemerintahan presidensial menjadi parlementer guna meyakinkan Sekutu tentang iklim demokrasi Indonesia.
-  source_ids: [maklumat-14-nov-1945]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  title_id: Maklumat Pemerintah 14 November 1945 tentang Transformasi Sistem ke
+    Parlementer
+  summary_id: Pemerintah mengalihkan pertanggungjawaban menteri dari Presiden
+    kepada Badan Pekerja KNIP (Parlemen) dengan mengangkat Sutan Sjahrir sebagai
+    Perdana Menteri pertama, mengubah sistem pemerintahan presidensial menjadi
+    parlementer guna meyakinkan Sekutu tentang iklim demokrasi Indonesia.
+  source_ids:
+    - maklumat-14-nov-1945
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-pemberontakan-ditii-jabar-1949
   term_id: presiden-soekarno-i
-  date: "1949-08-07"
+  date: 1949-08-07
   category: krisis
-  title_id: Proklamasi Negara Islam Indonesia (NII/DI-TII) oleh SM Kartosoewirjo di Jawa Barat
-  summary_id: >-
-    Sekarmadji Maridjan Kartosoewirjo memproklamasikan berdirinya Negara Islam Indonesia di Tasikmalaya, Jawa Barat,
-    memicu konflik bersenjata berkepanjangan melawan kedaulatan NKRI dan falsafah Pancasila hingga penumpasannya melalui Operasi Pagar Betis TNI 1962.
-  source_ids: [arsip-ditii-1949]
-  dimension_ids: [tujuan-1, sila-3]
-
+  title_id: Proklamasi Negara Islam Indonesia (NII/DI-TII) oleh SM Kartosoewirjo
+    di Jawa Barat
+  summary_id: Sekarmadji Maridjan Kartosoewirjo memproklamasikan berdirinya Negara
+    Islam Indonesia di Tasikmalaya, Jawa Barat, memicu konflik bersenjata
+    berkepanjangan melawan kedaulatan NKRI dan falsafah Pancasila hingga
+    penumpasannya melalui Operasi Pagar Betis TNI 1962.
+  source_ids:
+    - arsip-ditii-1949
+  dimension_ids:
+    - tujuan-1
+    - sila-3
 - id: ev-pemberontakan-apra-bandung-1950
   term_id: presiden-soekarno-i
-  date: "1950-01-23"
+  date: 1950-01-23
   category: krisis
   title_id: Kudeta Angkatan Perang Ratu Adil (APRA) Westerling di Kota Bandung
-  summary_id: >-
-    Mantan kapten KNIL Raymond Westerling melancarkan serangan bersenjata menguasai markas Divisi Siliwangi dan membunuh puluhan prajurit TNI di Bandung,
-    berupaya mempertahankan keberadaan Negara Pasundan dan menggagalkan integrasi kembali Republik Indonesia Serikat (RIS) ke NKRI.
-  source_ids: [arsip-apra-1950]
-  dimension_ids: [tujuan-1, sila-3]
-
+  summary_id: Mantan kapten KNIL Raymond Westerling melancarkan serangan
+    bersenjata menguasai markas Divisi Siliwangi dan membunuh puluhan prajurit
+    TNI di Bandung, berupaya mempertahankan keberadaan Negara Pasundan dan
+    menggagalkan integrasi kembali Republik Indonesia Serikat (RIS) ke NKRI.
+  source_ids:
+    - arsip-apra-1950
+  dimension_ids:
+    - tujuan-1
+    - sila-3
 - id: ev-mandat-pdri-bukittinggi-1948
   term_id: presiden-soekarno-i
-  date: "1948-12-19"
+  date: 1948-12-19
   category: krisis
   title_id: Pembentukan Pemerintah Darurat Republik Indonesia (PDRI) di Bukittinggi
-  summary_id: >-
-    Menyusul jatuhnya Yogyakarta dan penawanan Sukarno-Hatta dalam Agresi Militer Belanda II, Sjafruddin Prawiranegara membentuk PDRI di Sumatera Barat
-    berdasarkan radiogram mandat darurat, menyelamatkan eksistensi pemerintahan berdaulat Republik Indonesia dari klaim kepunahan oleh Belanda.
-  source_ids: [arsip-pdri-1948]
-  dimension_ids: [tujuan-1, checks-balances]
-
+  summary_id: Menyusul jatuhnya Yogyakarta dan penawanan Sukarno-Hatta dalam
+    Agresi Militer Belanda II, Sjafruddin Prawiranegara membentuk PDRI di
+    Sumatera Barat berdasarkan radiogram mandat darurat, menyelamatkan
+    eksistensi pemerintahan berdaulat Republik Indonesia dari klaim kepunahan
+    oleh Belanda.
+  source_ids:
+    - arsip-pdri-1948
+  dimension_ids:
+    - tujuan-1
+    - checks-balances
 - id: ev-pemberontakan-rms-ambon-1950
   term_id: presiden-soekarno-i
-  date: "1950-04-25"
+  date: 1950-04-25
   category: krisis
   title_id: Proklamasi Gerakan Separatis Republik Maluku Selatan (RMS) di Ambon
-  summary_id: >-
-    Mantan Jaksa Agung Negara Indonesia Timur Christian Soumokil memproklamasikan Republik Maluku Selatan di Ambon,
-    memicu operasi militer gabungan TNI dipimpin Kolonel Alex Kawilarang dan Letkol Slamet Riyadi untuk memulihkan kedaulatan konstitusional NKRI di Maluku.
-  source_ids: [arsip-rms-1950]
-  dimension_ids: [tujuan-1, sila-3]
-
+  summary_id: Mantan Jaksa Agung Negara Indonesia Timur Christian Soumokil
+    memproklamasikan Republik Maluku Selatan di Ambon, memicu operasi militer
+    gabungan TNI dipimpin Kolonel Alex Kawilarang dan Letkol Slamet Riyadi untuk
+    memulihkan kedaulatan konstitusional NKRI di Maluku.
+  source_ids:
+    - arsip-rms-1950
+  dimension_ids:
+    - tujuan-1
+    - sila-3
 - id: ev-uu-pembatalan-kmb-1956
   term_id: presiden-soekarno-i
-  date: "1956-05-03"
+  date: 1956-05-03
   category: produk-hukum
-  title_id: Pengesahan UU No. 13 Tahun 1956 tentang Pembatalan Hubungan Indonesia-Belanda Hasil KMB
-  summary_id: >-
-    DPR hasil Pemilu 1955 bersama Pemerintah mengesahkan undang-undang pembatalan sepihak seluruh perjanjian Konferensi Meja Bundar (KMB) dan Uni Indonesia-Belanda,
-    menghapus beban utang kolonial Hindia Belanda dan menegaskan kemandirian kedaulatan ekonomi-politik nasional.
-  source_ids: [uu-13-1956]
-  dimension_ids: [kedaulatan-rakyat, tujuan-4]
-
+  title_id: Pengesahan UU No. 13 Tahun 1956 tentang Pembatalan Hubungan
+    Indonesia-Belanda Hasil KMB
+  summary_id: DPR hasil Pemilu 1955 bersama Pemerintah mengesahkan undang-undang
+    pembatalan sepihak seluruh perjanjian Konferensi Meja Bundar (KMB) dan Uni
+    Indonesia-Belanda, menghapus beban utang kolonial Hindia Belanda dan
+    menegaskan kemandirian kedaulatan ekonomi-politik nasional.
+  source_ids:
+    - uu-13-1956
+  dimension_ids:
+    - kedaulatan-rakyat
+    - tujuan-4
 - id: ev-uu-keadaan-bahaya-sob-1957
   term_id: presiden-soekarno-i
-  date: "1957-12-17"
+  date: 1957-12-17
   category: produk-hukum
-  title_id: Pengesahan UU No. 74 Tahun 1957 tentang Keadaan Bahaya (Staat van Oorlog en Beleg / SOB)
-  summary_id: >-
-    Parlemen mengundangkan aturan keadaan darurat perang (SOB) di seluruh wilayah RI untuk merespons ancaman disintegrasi dan pemberontakan daerah PRRI/Permesta,
-    memperluas wewenang Penguasa Militer Daerah dan Komando Tertinggi dalam menjaga pertahanan dan keamanan nasional.
-  source_ids: [uu-74-1957]
-  dimension_ids: [tujuan-1, negara-hukum]
-
-
-
-
-
+  title_id: Pengesahan UU No. 74 Tahun 1957 tentang Keadaan Bahaya (Staat van
+    Oorlog en Beleg / SOB)
+  summary_id: Parlemen mengundangkan aturan keadaan darurat perang (SOB) di
+    seluruh wilayah RI untuk merespons ancaman disintegrasi dan pemberontakan
+    daerah PRRI/Permesta, memperluas wewenang Penguasa Militer Daerah dan
+    Komando Tertinggi dalam menjaga pertahanan dan keamanan nasional.
+  source_ids:
+    - uu-74-1957
+  dimension_ids:
+    - tujuan-1
+    - negara-hukum
+- id: ev-ma-onrechtmatig-1952
+  term_id: ma-revolusi-liberal
+  date: 1952-12-03
+  category: pengadilan
+  title_id: "Putusan MA No. 83 K/Sip/1952: Yurisprudensi Gugatan Perbuatan Melawan
+    Hukum Penguasa"
+  summary_id: Mahkamah Agung di bawah Wirjono Prodjodikoro menetapkan
+    yurisprudensi bersejarah bahwa tindakan aparatur pemerintah yang melanggar
+    hukum dan merugikan warga dapat digugat sebagai perbuatan melawan hukum
+    (onrechtmatige overheidsdaad).
+  source_ids:
+    - putusan-ma-1952-onrechtmatig
+  dimension_ids:
+    - negara-hukum
+    - sila-2
+    - checks-balances
+- id: ev-ma-adopsi-anak-1958
+  term_id: ma-revolusi-liberal
+  date: 1958-05-20
+  category: pengadilan
+  title_id: Putusan MA No. 100 K/Sip/1958 tentang Pengakuan Hak Keperdataan Anak Angkat
+  summary_id: Mahkamah Agung menegaskan perlindungan hukum anak angkat dalam
+    sistem hukum adat dan perdata nasional, meletakkan standar keadilan
+    substantif yang humanis bagi anak dan keluarga.
+  source_ids:
+    - putusan-ma-adopsi-1958
+  dimension_ids:
+    - sila-2
+    - sila-5
+- id: ev-bpk-pertama-magelang-1947
+  term_id: bpk-1947-1998
+  date: 1947-01-01
+  category: kebijakan
+  title_id: Pembentukan dan Sidang Perdana Badan Pemeriksa Keuangan di Magelang
+  summary_id: BPK memulai tugas konstitusional pengawasan keuangan negara di
+    tengah revolusi fisik di bawah Ketua R. Soerasno, mengaudit pembiayaan
+    perang gerilya dan perbendaharaan darurat Republik.
+  source_ids:
+    - laporan-bpk-darurat-1947
+  dimension_ids:
+    - checks-balances
+    - tujuan-1
+- id: ev-bpk-djuanda-1957
+  term_id: bpk-1947-1998
+  date: 1957-07-15
+  category: kebijakan
+  title_id: Audit BPK atas Pelaksanaan Rencana Pembangunan Lima Tahun Kabinet Djuanda
+  summary_id: BPK di bawah Sri Sultan Hamengkubuwono IX melakukan audit pengawasan
+    terhadap implementasi anggaran pembangunan nasional dan pembiayaan devaluasi
+    moneter era Demokrasi Parlementer.
+  source_ids:
+    - laporan-bpk-djuanda-1957
+  dimension_ids:
+    - checks-balances
+    - sila-5
+    - tujuan-2

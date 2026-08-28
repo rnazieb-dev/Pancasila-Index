@@ -1,498 +1,1130 @@
-# Peristiwa Konstitusional & Sejarah Tata Negara: Era Pemantapan Demokrasi (2004–2014)
-
 - id: ev-mk-putusan-kkr-2006
   term_id: mk-2003-2008
-  date: "2006-12-07"
+  date: 2006-12-07
   category: pengadilan
-  title_id: Putusan MK No. 006/PUU-IV/2006 Membatalkan UU Komisi Kebenaran dan Rekonsiliasi
-  summary_id: >-
-    MK membatalkan seluruh isi UU No. 27/2004 tentang KKR karena Pasal 27 yang mensyaratkan pemberian amnesti Presiden
-    sebagai syarat diberikannya kompensasi dan rehabilitasi bagi korban pelanggaran HAM berat mencederai kepastian hukum yang adil.
-  source_ids: [putusan-mk-006-puu-iv-2006]
-  dimension_ids: [sila-2, negara-hukum]
-
+  title_id: Putusan MK No. 006/PUU-IV/2006 Membatalkan UU Komisi Kebenaran dan
+    Rekonsiliasi
+  summary_id: MK membatalkan seluruh isi UU No. 27/2004 tentang KKR karena Pasal
+    27 yang mensyaratkan pemberian amnesti Presiden sebagai syarat diberikannya
+    kompensasi dan rehabilitasi bagi korban pelanggaran HAM berat mencederai
+    kepastian hukum yang adil.
+  source_ids:
+    - putusan-mk-006-puu-iv-2006
+  dimension_ids:
+    - sila-2
+    - negara-hukum
 - id: ev-mk-putusan-anak-luar-kawin-2012
   term_id: mk-2008-2013
-  date: "2012-02-17"
+  date: 2012-02-17
   category: pengadilan
   title_id: Putusan MK No. 46/PUU-VIII/2010 Mengakui Hak Keperdataan Anak Luar Kawin
-  summary_id: >-
-    MK memutuskan Pasal 43 ayat 1 UU Perkawinan inkonstitusional bersyarat dan menyatakan anak yang lahir di luar perkawinan
-    mempunyai hubungan perdata dengan laki-laki sebagai ayahnya yang dapat dibuktikan berdasarkan ilmu pengetahuan dan teknologi (tes DNA).
-  source_ids: [putusan-mk-46-puu-viii-2010]
-  dimension_ids: [sila-2, sila-5]
-
+  summary_id: MK memutuskan Pasal 43 ayat 1 UU Perkawinan inkonstitusional
+    bersyarat dan menyatakan anak yang lahir di luar perkawinan mempunyai
+    hubungan perdata dengan laki-laki sebagai ayahnya yang dapat dibuktikan
+    berdasarkan ilmu pengetahuan dan teknologi (tes DNA).
+  source_ids:
+    - putusan-mk-46-puu-viii-2010
+  dimension_ids:
+    - sila-2
+    - sila-5
 - id: ev-mk-putusan-hutan-adat-2013
   term_id: mk-2008-2013
-  date: "2013-05-16"
+  date: 2013-05-16
   category: pengadilan
   title_id: Putusan MK No. 35/PUU-X/2012 Menetapkan Hutan Adat Bukan Hutan Negara
-  summary_id: >-
-    MK mengabulkan uji materiil UU Kehutanan yang diajukan AMAN, menegaskan bahwa hutan adat berada dalam wilayah masyarakat hukum adat
-    dan bukan lagi berstatus sebagai hutan negara, memulihkan kedaulatan agraria masyarakat adat atas tanah ulayatnya.
-  source_ids: [putusan-mk-35-puu-x-2012]
-  dimension_ids: [sila-5, sila-3]
-
+  summary_id: MK mengabulkan uji materiil UU Kehutanan yang diajukan AMAN,
+    menegaskan bahwa hutan adat berada dalam wilayah masyarakat hukum adat dan
+    bukan lagi berstatus sebagai hutan negara, memulihkan kedaulatan agraria
+    masyarakat adat atas tanah ulayatnya.
+  source_ids:
+    - putusan-mk-35-puu-x-2012
+  dimension_ids:
+    - sila-5
+    - sila-3
 - id: ev-mk-putusan-sda-2015
   term_id: mk-2013-2018
-  date: "2015-02-18"
+  date: 2015-02-18
   category: pengadilan
   title_id: Putusan MK No. 85/PUU-XI/2013 Membatalkan Total UU Sumber Daya Air
-  summary_id: >-
-    MK membatalkan keseluruhan UU No. 7/2004 tentang Sumber Daya Air karena telah membuka privatisasi dan komersialisasi air
-    secara berlebihan yang membatasi hak konstitusional rakyat untuk memperoleh air bersih sebagai hak asasi mendasar.
-  source_ids: [putusan-mk-85-puu-xi-2013]
-  dimension_ids: [sila-5, tujuan-2]
-
+  summary_id: MK membatalkan keseluruhan UU No. 7/2004 tentang Sumber Daya Air
+    karena telah membuka privatisasi dan komersialisasi air secara berlebihan
+    yang membatasi hak konstitusional rakyat untuk memperoleh air bersih sebagai
+    hak asasi mendasar.
+  source_ids:
+    - putusan-mk-85-puu-xi-2013
+  dimension_ids:
+    - sila-5
+    - tujuan-2
 - id: ev-mk-putusan-penyadapan-kpk-2006
   term_id: mk-2003-2008
-  date: "2006-12-19"
+  date: 2006-12-19
   category: pengadilan
-  title_id: Putusan MK No. 012-016-019/PUU-IV/2006 Mengukuhkan Kewenangan Penyadapan Mandiri KPK
-  summary_id: >-
-    MK mengukuhkan keabsahan konstitusional kewenangan penyadapan mandiri KPK tanpa izin ketua pengadilan negeri,
-    menilai instrumen luar biasa tersebut sah dan proporsional untuk memberantas korupsi sebagai kejahatan luar biasa (extraordinary crime).
-  source_ids: [putusan-mk-012-016-019-puu-iv-2006]
-  dimension_ids: [negara-hukum, checks-balances]
-
+  title_id: Putusan MK No. 012-016-019/PUU-IV/2006 Mengukuhkan Kewenangan
+    Penyadapan Mandiri KPK
+  summary_id: MK mengukuhkan keabsahan konstitusional kewenangan penyadapan
+    mandiri KPK tanpa izin ketua pengadilan negeri, menilai instrumen luar biasa
+    tersebut sah dan proporsional untuk memberantas korupsi sebagai kejahatan
+    luar biasa (extraordinary crime).
+  source_ids:
+    - putusan-mk-012-016-019-puu-iv-2006
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
 - id: ev-dpr-uu-bnpb-2007
   term_id: dpr-2004-2009
-  date: "2007-04-26"
+  date: 2007-04-26
   category: produk-hukum
   title_id: UU No. 24 Tahun 2007 tentang Penanggulangan Bencana dan Pendirian BNPB
-  summary_id: >-
-    DPR bersama Pemerintah mengesahkan kerangka hukum penanggulangan bencana komprehensif pasca-Tsunami Aceh 2004
-    dan mendirikan Badan Nasional Penanggulangan Bencana (BNPB) untuk menjamin perlindungan keselamatan jiwa warga negara (Tujuan 1 UUD 1945).
-  source_ids: [uu-24-2007]
-  dimension_ids: [tujuan-1, tujuan-2]
-
+  summary_id: DPR bersama Pemerintah mengesahkan kerangka hukum penanggulangan
+    bencana komprehensif pasca-Tsunami Aceh 2004 dan mendirikan Badan Nasional
+    Penanggulangan Bencana (BNPB) untuk menjamin perlindungan keselamatan jiwa
+    warga negara (Tujuan 1 UUD 1945).
+  source_ids:
+    - uu-24-2007
+  dimension_ids:
+    - tujuan-1
+    - tujuan-2
 - id: ev-dpr-uu-bmkg-2008
   term_id: dpr-2004-2009
-  date: "2008-09-09"
+  date: 2008-09-09
   category: produk-hukum
   title_id: UU No. 31 Tahun 2008 tentang Pendirian BMKG untuk Mitigasi Bencana
-  summary_id: >-
-    Pengesahan undang-undang meteorologi, klimatologi, dan geofisika yang memperkuat kelembagaan BMKG
-    sebagai otoritas resmi peringatan dini tsunami, cuaca ekstrem, dan gempa bumi untuk melindungi segenap tumpah darah Indonesia.
-  source_ids: [uu-31-2008]
-  dimension_ids: [tujuan-1, tujuan-3]
-
+  summary_id: Pengesahan undang-undang meteorologi, klimatologi, dan geofisika
+    yang memperkuat kelembagaan BMKG sebagai otoritas resmi peringatan dini
+    tsunami, cuaca ekstrem, dan gempa bumi untuk melindungi segenap tumpah darah
+    Indonesia.
+  source_ids:
+    - uu-31-2008
+  dimension_ids:
+    - tujuan-1
+    - tujuan-3
 - id: ev-mk-putusan-bpmigas-2012
   term_id: mk-2008-2013
-  date: "2012-11-13"
+  date: 2012-11-13
   category: pengadilan
   title_id: Putusan MK No. 36/PUU-X/2012 Membubarkan BP Migas Demi Kedaulatan Energi
-  summary_id: >-
-    MK membatalkan pasal-pasal kunci UU No. 22/2001 tentang Minyak dan Gas Bumi dan membubarkan BP Migas,
-    menegaskan bahwa hubungan kontraktual langsung antara badan pengelola migas dengan korporasi asing mendegradasi kedaulatan negara atas cabang produksi migas.
-  source_ids: [putusan-mk-36-puu-x-2012]
-  dimension_ids: [sila-5, checks-balances]
-
+  summary_id: MK membatalkan pasal-pasal kunci UU No. 22/2001 tentang Minyak dan
+    Gas Bumi dan membubarkan BP Migas, menegaskan bahwa hubungan kontraktual
+    langsung antara badan pengelola migas dengan korporasi asing mendegradasi
+    kedaulatan negara atas cabang produksi migas.
+  source_ids:
+    - putusan-mk-36-puu-x-2012
+  dimension_ids:
+    - sila-5
+    - checks-balances
 - id: ev-mk-putusan-dpd-tripartit-2013
   term_id: mk-2008-2013
-  date: "2013-03-27"
+  date: 2013-03-27
   category: pengadilan
   title_id: Putusan MK No. 92/PUU-X/2012 Memulihkan Hak Legislasi Tripartit DPD RI
-  summary_id: >-
-    MK mengabulkan uji materiil UU MD3 yang diajukan DPD RI, memutuskan bahwa DPD berhak ikut serta membahas RUU
-    bidang otonomi daerah dan hubungan pusat-daerah sejak awal bersama DPR dan Presiden secara setara (tripartit).
-  source_ids: [putusan-mk-92-puu-x-2012]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  summary_id: MK mengabulkan uji materiil UU MD3 yang diajukan DPD RI, memutuskan
+    bahwa DPD berhak ikut serta membahas RUU bidang otonomi daerah dan hubungan
+    pusat-daerah sejak awal bersama DPR dan Presiden secara setara (tripartit).
+  source_ids:
+    - putusan-mk-92-puu-x-2012
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-dpr-uu-md3-2014
   term_id: dpr-2009-2014
-  date: "2014-07-08"
+  date: 2014-07-08
   category: produk-hukum
   title_id: Pengesahan UU No. 17 Tahun 2014 tentang MD3
-  summary_id: >-
-    DPR mengesahkan kodifikasi UU MD3 yang menata ulang wewenang, tata tertib, hak interpelasi, hak angket,
-    serta mekanisme penentuan pimpinan DPR dan MPR menjelang transisi hasil Pemilihan Umum 2014.
-  source_ids: [uu-17-2014]
-  dimension_ids: [checks-balances, sila-4]
-
+  summary_id: DPR mengesahkan kodifikasi UU MD3 yang menata ulang wewenang, tata
+    tertib, hak interpelasi, hak angket, serta mekanisme penentuan pimpinan DPR
+    dan MPR menjelang transisi hasil Pemilihan Umum 2014.
+  source_ids:
+    - uu-17-2014
+  dimension_ids:
+    - checks-balances
+    - sila-4
 - id: ev-mou-helsinki-damai-2005
   term_id: presiden-sby-i
-  date: "2005-08-15"
+  date: 2005-08-15
   category: peristiwa
   title_id: Penandatanganan MoU Helsinki - Perdamaian Bersejarah Aceh
-  summary_id: >-
-    Pemerintah RI dan Gerakan Aceh Merdeka (GAM) menandatangani nota kesepahaman damai di Helsinki,
-    mengakhiri konflik bersenjata hampir 30 tahun, menyerahkan senjata milisi, dan memberikan status otonomi khusus berpemerintahan sendiri dalam bingkai NKRI.
-  source_ids: [mou-helsinki-2005]
-  dimension_ids: [tujuan-1, sila-3]
-
+  summary_id: Pemerintah RI dan Gerakan Aceh Merdeka (GAM) menandatangani nota
+    kesepahaman damai di Helsinki, mengakhiri konflik bersenjata hampir 30
+    tahun, menyerahkan senjata milisi, dan memberikan status otonomi khusus
+    berpemerintahan sendiri dalam bingkai NKRI.
+  source_ids:
+    - mou-helsinki-2005
+  dimension_ids:
+    - tujuan-1
+    - sila-3
 - id: ev-dpr-uu-pemerintahan-aceh-2006
   term_id: dpr-2004-2009
-  date: "2006-08-01"
+  date: 2006-08-01
   category: produk-hukum
   title_id: Pengesahan UU No. 11 Tahun 2006 tentang Pemerintahan Aceh (UUPA)
-  summary_id: >-
-    DPR mengesahkan undang-undang implementasi MoU Helsinki yang melegalkan pembentukan partai politik lokal di Aceh
-    dan pembagian bagi hasil migas 70% untuk daerah, menjadi tonggak rekonsiliasi dan desentralisasi asimetris di Indonesia.
-  source_ids: [uu-11-2006]
-  dimension_ids: [sila-3, kedaulatan-rakyat]
-
+  summary_id: DPR mengesahkan undang-undang implementasi MoU Helsinki yang
+    melegalkan pembentukan partai politik lokal di Aceh dan pembagian bagi hasil
+    migas 70% untuk daerah, menjadi tonggak rekonsiliasi dan desentralisasi
+    asimetris di Indonesia.
+  source_ids:
+    - uu-11-2006
+  dimension_ids:
+    - sila-3
+    - kedaulatan-rakyat
 - id: ev-mk-putusan-calon-independen-2007
   term_id: mk-2003-2008
-  date: "2007-07-23"
+  date: 2007-07-23
   category: pengadilan
   title_id: Putusan MK No. 5/PUU-V/2007 Legalisasi Calon Perseorangan dalam Pilkada
-  summary_id: >-
-    MK mengabulkan uji materiil UU Pemda yang diajukan tokoh masyarakat Lombok Tengah, memutuskan bahwa warga negara berhak mencalonkan diri
-    sebagai kepala daerah melalui jalur perseorangan/independen tanpa harus melalui pintu rekomendasi partai politik.
-  source_ids: [putusan-mk-5-puu-v-2007]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
+  summary_id: MK mengabulkan uji materiil UU Pemda yang diajukan tokoh masyarakat
+    Lombok Tengah, memutuskan bahwa warga negara berhak mencalonkan diri sebagai
+    kepala daerah melalui jalur perseorangan/independen tanpa harus melalui
+    pintu rekomendasi partai politik.
+  source_ids:
+    - putusan-mk-5-puu-v-2007
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-dpr-uu-ombudsman-2008
   term_id: dpr-2004-2009
-  date: "2008-10-07"
+  date: 2008-10-07
   category: produk-hukum
   title_id: Pengesahan UU No. 37 Tahun 2008 tentang Ombudsman Republik Indonesia
-  summary_id: >-
-    DPR bersama Pemerintah mengesahkan undang-undang yang mentransformasikan Komisi Ombudsman Nasional menjadi lembaga negara independen
-    Ombudsman RI untuk mengawasi penyelenggaraan pelayanan publik dan memberantas maladministrasi, pungli, serta diskriminasi birokrasi.
-  source_ids: [uu-37-2008]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: DPR bersama Pemerintah mengesahkan undang-undang yang
+    mentransformasikan Komisi Ombudsman Nasional menjadi lembaga negara
+    independen Ombudsman RI untuk mengawasi penyelenggaraan pelayanan publik dan
+    memberantas maladministrasi, pungli, serta diskriminasi birokrasi.
+  source_ids:
+    - uu-37-2008
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-dpr-uu-pelayanan-publik-2009
   term_id: dpr-2004-2009
-  date: "2009-07-18"
+  date: 2009-07-18
   category: produk-hukum
   title_id: Pengesahan UU No. 25 Tahun 2009 tentang Pelayanan Publik
-  summary_id: >-
-    DPR dan Pemerintah menetapkan standar baku pelayanan publik nasional, asas kepastian biaya dan waktu perizinan,
-    serta mekanisme pengaduan masyarakat dan ganti rugi maladministrasi di bawah pengawasan Ombudsman RI.
-  source_ids: [uu-25-2009]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: DPR dan Pemerintah menetapkan standar baku pelayanan publik
+    nasional, asas kepastian biaya dan waktu perizinan, serta mekanisme
+    pengaduan masyarakat dan ganti rugi maladministrasi di bawah pengawasan
+    Ombudsman RI.
+  source_ids:
+    - uu-25-2009
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-kasus-cicak-buaya-2009
   term_id: presiden-sby-ii
-  date: "2009-11-17"
+  date: 2009-11-17
   category: krisis
   title_id: Krisis Penegakan Hukum 'Cicak vs Buaya' & Pembentukan Tim 8
-  summary_id: >-
-    Kriminalisasi pimpinan KPK Bibit Samad Rianto dan Chandra M. Hamzah oleh oknum penegak hukum memicu kemarahan publik luas,
-    mendorong Presiden SBY membentuk Tim 8 Independen yang merekomendasikan penghentian penuntutan (SKP2) demi menyelamatkan integritas antikorupsi.
-  source_ids: [laporan-tim-8-kpk-2009]
-  dimension_ids: [negara-hukum, checks-balances]
-
+  summary_id: Kriminalisasi pimpinan KPK Bibit Samad Rianto dan Chandra M. Hamzah
+    oleh oknum penegak hukum memicu kemarahan publik luas, mendorong Presiden
+    SBY membentuk Tim 8 Independen yang merekomendasikan penghentian penuntutan
+    (SKP2) demi menyelamatkan integritas antikorupsi.
+  source_ids:
+    - laporan-tim-8-kpk-2009
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
 - id: ev-dpr-uu-bpjs-2011
   term_id: dpr-2009-2014
-  date: "2011-11-25"
+  date: 2011-11-25
   category: produk-hukum
-  title_id: Pengesahan UU No. 24 Tahun 2011 tentang Badan Penyelenggara Jaminan Sosial (BPJS)
-  summary_id: >-
-    DPR bersama Pemerintah mengesahkan UU BPJS yang mentransformasikan badan usaha asuransi sosial BUMN menjadi badan hukum publik nirlaba
-    (BPJS Kesehatan dan BPJS Ketenagakerjaan) guna mewujudkan jaminan sosial semesta (universal health coverage) bagi seluruh rakyat Indonesia.
-  source_ids: [uu-24-2011]
-  dimension_ids: [tujuan-2, sila-5]
-
+  title_id: Pengesahan UU No. 24 Tahun 2011 tentang Badan Penyelenggara Jaminan
+    Sosial (BPJS)
+  summary_id: DPR bersama Pemerintah mengesahkan UU BPJS yang mentransformasikan
+    badan usaha asuransi sosial BUMN menjadi badan hukum publik nirlaba (BPJS
+    Kesehatan dan BPJS Ketenagakerjaan) guna mewujudkan jaminan sosial semesta
+    (universal health coverage) bagi seluruh rakyat Indonesia.
+  source_ids:
+    - uu-24-2011
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-mk-putusan-ky-hakim-agung-2006
   term_id: mk-2003-2008
-  date: "2006-08-23"
+  date: 2006-08-23
   category: pengadilan
-  title_id: Putusan MK No. 005/PUU-IV/2006 Pembatalan Wewenang Pengawasan Hakim Agung oleh KY
-  summary_id: >-
-    MK membatalkan ketentuan Pasal UU KY dan UU MA yang memberikan kewenangan pengawasan perilaku kepada Komisi Yudisial terhadap hakim agung dan hakim MK,
-    memantik perdebatan panjang ketatanegaraan mengenai batasan checks and balances versus independensi kekuasaan kehakiman.
-  source_ids: [putusan-mk-005-puu-iv-2006]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  title_id: Putusan MK No. 005/PUU-IV/2006 Pembatalan Wewenang Pengawasan Hakim
+    Agung oleh KY
+  summary_id: MK membatalkan ketentuan Pasal UU KY dan UU MA yang memberikan
+    kewenangan pengawasan perilaku kepada Komisi Yudisial terhadap hakim agung
+    dan hakim MK, memantik perdebatan panjang ketatanegaraan mengenai batasan
+    checks and balances versus independensi kekuasaan kehakiman.
+  source_ids:
+    - putusan-mk-005-puu-iv-2006
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-mk-putusan-kegentingan-perppu-2009
   term_id: mk-2008-2013
-  date: "2009-11-25"
+  date: 2009-11-25
   category: pengadilan
-  title_id: Putusan MK No. 138/PUU-VII/2009 Batasan Syarat Kegentingan yang Memaksa dalam Perppu
-  summary_id: >-
-    MK menetapkan 3 parameter kumulatif syarat kegentingan memaksa bagi Presiden dalam mengeluarkan Perppu:
-    adanya kebutuhan mendesak menyelesaikan masalah hukum, kekosongan hukum atau UU yang ada tidak memadai, dan proses pembentukan UU biasa membutuhkan waktu lama.
-  source_ids: [putusan-mk-138-puu-vii-2009]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  title_id: Putusan MK No. 138/PUU-VII/2009 Batasan Syarat Kegentingan yang
+    Memaksa dalam Perppu
+  summary_id: "MK menetapkan 3 parameter kumulatif syarat kegentingan memaksa bagi
+    Presiden dalam mengeluarkan Perppu: adanya kebutuhan mendesak menyelesaikan
+    masalah hukum, kekosongan hukum atau UU yang ada tidak memadai, dan proses
+    pembentukan UU biasa membutuhkan waktu lama."
+  source_ids:
+    - putusan-mk-138-puu-vii-2009
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-dpr-pansus-century-2010
   term_id: dpr-2009-2014
-  date: "2010-03-03"
+  date: 2010-03-03
   category: peristiwa
   title_id: Pansus Hak Angket Kasus Bank Century DPR RI
-  summary_id: >-
-    Rapat Paripurna DPR RI menyetujui rekomendasi Pansus Hak Angket Century (Opsi C) yang menyatakan adanya indikasi
-    penyimpangan dan pelanggaran hukum dalam proses pemberian Fasilitas Pendanaan Jangka Pendek (FPJP) dan Penyertaan Modal Sementara (PMS) Rp6,7 triliun.
-  source_ids: [laporan-pansus-century-2010]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  summary_id: Rapat Paripurna DPR RI menyetujui rekomendasi Pansus Hak Angket
+    Century (Opsi C) yang menyatakan adanya indikasi penyimpangan dan
+    pelanggaran hukum dalam proses pemberian Fasilitas Pendanaan Jangka Pendek
+    (FPJP) dan Penyertaan Modal Sementara (PMS) Rp6,7 triliun.
+  source_ids:
+    - laporan-pansus-century-2010
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-presiden-moratorium-hutan-2011
   term_id: presiden-sby-ii
-  date: "2011-05-20"
+  date: 2011-05-20
   category: kebijakan
-  title_id: Instruksi Presiden No. 10/2011 tentang Moratorium Izin Baru Hutan Primer & Lahan Gambut
-  summary_id: >-
-    Presiden SBY menerbitkan Inpres penghentian sementara penerbitan izin baru pembukaan hutan alam primer dan lahan gambut
-    seluas lebih dari 66 juta hektar sebagai komitmen nasional penurunan emisi gas rumah kaca dan perlindungan kelestarian ekologis.
-  source_ids: [inpres-10-2011]
-  dimension_ids: [tujuan-1, sila-5]
-
+  title_id: Instruksi Presiden No. 10/2011 tentang Moratorium Izin Baru Hutan
+    Primer & Lahan Gambut
+  summary_id: Presiden SBY menerbitkan Inpres penghentian sementara penerbitan
+    izin baru pembukaan hutan alam primer dan lahan gambut seluas lebih dari 66
+    juta hektar sebagai komitmen nasional penurunan emisi gas rumah kaca dan
+    perlindungan kelestarian ekologis.
+  source_ids:
+    - inpres-10-2011
+  dimension_ids:
+    - tujuan-1
+    - sila-5
 - id: ev-dpr-uu-ppp-2011
   term_id: dpr-2009-2014
-  date: "2011-08-12"
+  date: 2011-08-12
   category: produk-hukum
-  title_id: Pengesahan UU No. 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (UU PPP)
-  summary_id: >-
-    DPR dan Pemerintah mengesahkan landasan baku tata urutan hierarki peraturan perundang-undangan nasional,
-    asas kejelasan rumusan norma, keterbukaan pembentukan hukum, dan standardisasi naskah akademik di Indonesia.
-  source_ids: [uu-12-2011]
-  dimension_ids: [negara-hukum, checks-balances]
-
+  title_id: Pengesahan UU No. 12 Tahun 2011 tentang Pembentukan Peraturan
+    Perundang-undangan (UU PPP)
+  summary_id: DPR dan Pemerintah mengesahkan landasan baku tata urutan hierarki
+    peraturan perundang-undangan nasional, asas kejelasan rumusan norma,
+    keterbukaan pembentukan hukum, dan standardisasi naskah akademik di
+    Indonesia.
+  source_ids:
+    - uu-12-2011
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
 - id: ev-mk-putusan-pk-berkali-kali-2013
   term_id: mk-2013-2018
-  date: "2014-03-06"
+  date: 2014-03-06
   category: pengadilan
-  title_id: Putusan MK No. 34/PUU-XI/2013 Membolehkan Peninjauan Kembali (PK) Pidana Diajukan Lebih dari Sekali
-  summary_id: >-
-    MK membatalkan Pasal 268 ayat 3 KUHAP yang membatasi PK hanya satu kali, menegaskan bahwa dalam perkara pidana yang menyangkut nasib dan hak asasi manusia,
-    pencarian keadilan materiel (substantive justice) harus diutamakan di atas kepastian hukum formal.
-  source_ids: [putusan-mk-34-puu-xi-2013]
-  dimension_ids: [negara-hukum, sila-2]
-
+  title_id: Putusan MK No. 34/PUU-XI/2013 Membolehkan Peninjauan Kembali (PK)
+    Pidana Diajukan Lebih dari Sekali
+  summary_id: MK membatalkan Pasal 268 ayat 3 KUHAP yang membatasi PK hanya satu
+    kali, menegaskan bahwa dalam perkara pidana yang menyangkut nasib dan hak
+    asasi manusia, pencarian keadilan materiel (substantive justice) harus
+    diutamakan di atas kepastian hukum formal.
+  source_ids:
+    - putusan-mk-34-puu-xi-2013
+  dimension_ids:
+    - negara-hukum
+    - sila-2
 - id: ev-pilpres-langsung-pertama-2004
   term_id: presiden-megawati
-  date: "2004-09-20"
+  date: 2004-09-20
   category: peristiwa
-  title_id: Penyelenggaraan Pemilihan Umum Presiden dan Wakil Presiden Langsung Pertama 2004
-  summary_id: >-
-    Rakyat Indonesia untuk pertama kali dalam sejarah memilih langsung Presiden dan Wakil Presiden Republik Indonesia
-    secara damai, jujur, dan adil dalam dua putaran pemilu, memenangkan pasangan Susilo Bambang Yudhoyono - Jusuf Kalla.
-  source_ids: [arsip-pilpres-langsung-2004]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
+  title_id: Penyelenggaraan Pemilihan Umum Presiden dan Wakil Presiden Langsung
+    Pertama 2004
+  summary_id: Rakyat Indonesia untuk pertama kali dalam sejarah memilih langsung
+    Presiden dan Wakil Presiden Republik Indonesia secara damai, jujur, dan adil
+    dalam dua putaran pemilu, memenangkan pasangan Susilo Bambang Yudhoyono -
+    Jusuf Kalla.
+  source_ids:
+    - arsip-pilpres-langsung-2004
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-dpr-uu-minerba-2009
   term_id: dpr-2004-2009
-  date: "2009-01-12"
+  date: 2009-01-12
   category: produk-hukum
   title_id: Pengesahan UU No. 4 Tahun 2009 tentang Pertambangan Mineral dan Batubara
-  summary_id: >-
-    DPR dan Pemerintah mengesahkan reformasi hukum pertambangan yang menghapus rezim Kontrak Karya (KK) dan Perjanjian Karya Pengusahaan Pertambangan Batubara (PKP2B),
-    menggantikannya dengan Izin Usaha Pertambangan (IUP) dan mewajibkan peningkatan nilai tambah mineral di dalam negeri.
-  source_ids: [uu-4-2009]
-  dimension_ids: [sila-5, tujuan-2]
-
+  summary_id: DPR dan Pemerintah mengesahkan reformasi hukum pertambangan yang
+    menghapus rezim Kontrak Karya (KK) dan Perjanjian Karya Pengusahaan
+    Pertambangan Batubara (PKP2B), menggantikannya dengan Izin Usaha
+    Pertambangan (IUP) dan mewajibkan peningkatan nilai tambah mineral di dalam
+    negeri.
+  source_ids:
+    - uu-4-2009
+  dimension_ids:
+    - sila-5
+    - tujuan-2
 - id: ev-dpr-ratifikasi-icescr-iccpr-2005
   term_id: dpr-2004-2009
-  date: "2005-10-28"
+  date: 2005-10-28
   category: produk-hukum
-  title_id: Pengesahan UU No. 11/2005 (ICESCR) & UU No. 12/2005 (ICCPR) - Ratifikasi Kovenan HAM PBB
-  summary_id: >-
-    DPR mengesahkan ratifikasi dua kovenan internasional pokok HAM PBB (Kovenan Hak Sipil & Politik serta Kovenan Hak Ekonomi, Sosial, & Budaya),
-    mengintegrasikan standar perlindungan hak asasi manusia universal ke dalam tata hukum nasional Indonesia.
-  source_ids: [uu-11-2005, uu-12-2005]
-  dimension_ids: [sila-2, negara-hukum]
-
+  title_id: Pengesahan UU No. 11/2005 (ICESCR) & UU No. 12/2005 (ICCPR) -
+    Ratifikasi Kovenan HAM PBB
+  summary_id: DPR mengesahkan ratifikasi dua kovenan internasional pokok HAM PBB
+    (Kovenan Hak Sipil & Politik serta Kovenan Hak Ekonomi, Sosial, & Budaya),
+    mengintegrasikan standar perlindungan hak asasi manusia universal ke dalam
+    tata hukum nasional Indonesia.
+  source_ids:
+    - uu-11-2005
+    - uu-12-2005
+  dimension_ids:
+    - sila-2
+    - negara-hukum
 - id: ev-dpr-ratifikasi-uncac-2006
   term_id: dpr-2004-2009
-  date: "2006-04-18"
+  date: 2006-04-18
   category: produk-hukum
-  title_id: Pengesahan UU No. 7 Tahun 2006 tentang Ratifikasi Konvensi Antikorupsi PBB (UNCAC)
-  summary_id: >-
-    DPR meratifikasi United Nations Convention Against Corruption (UNCAC 2003) untuk memperkuat kerja sama ekstradisi,
-    bantuan hukum timbal balik (MLA), dan perampasan aset hasil kejahatan korupsi lintas batas yurisdiksi negara.
-  source_ids: [uu-7-2006]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  title_id: Pengesahan UU No. 7 Tahun 2006 tentang Ratifikasi Konvensi Antikorupsi
+    PBB (UNCAC)
+  summary_id: DPR meratifikasi United Nations Convention Against Corruption (UNCAC
+    2003) untuk memperkuat kerja sama ekstradisi, bantuan hukum timbal balik
+    (MLA), dan perampasan aset hasil kejahatan korupsi lintas batas yurisdiksi
+    negara.
+  source_ids:
+    - uu-7-2006
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-dpr-uu-lpsk-2006
   term_id: dpr-2004-2009
-  date: "2006-08-11"
+  date: 2006-08-11
   category: produk-hukum
   title_id: Pengesahan UU No. 13 Tahun 2006 tentang Perlindungan Saksi dan Korban (LPSK)
-  summary_id: >-
-    DPR mengesahkan undang-undang dan mendirikan Lembaga Perlindungan Saksi dan Korban (LPSK) independen
-    guna memberikan perlindungan fisik, hukum, dan bantuan medis/psikologis bagi saksi kunci, whistleblower, dan korban tindak pidana.
-  source_ids: [uu-13-2006]
-  dimension_ids: [sila-2, negara-hukum]
-
+  summary_id: DPR mengesahkan undang-undang dan mendirikan Lembaga Perlindungan
+    Saksi dan Korban (LPSK) independen guna memberikan perlindungan fisik,
+    hukum, dan bantuan medis/psikologis bagi saksi kunci, whistleblower, dan
+    korban tindak pidana.
+  source_ids:
+    - uu-13-2006
+  dimension_ids:
+    - sila-2
+    - negara-hukum
 - id: ev-mk-putusan-lese-majeste-2006
   term_id: mk-2003-2008
-  date: "2006-12-06"
+  date: 2006-12-06
   category: pengadilan
-  title_id: Putusan MK No. 013-022/PUU-IV/2006 Menghapus Pasal Penghinaan Presiden (Lese Majeste)
-  summary_id: >-
-    MK membatalkan Pasal 134, 136 bis, dan 137 KUHAP tentang penghinaan terhadap Presiden/Wapres,
-    menegaskan bahwa dalam negara hukum demokratis berdasar kedaulatan rakyat, Presiden tidak memiliki hak istimewa yang kebal kritik dari warga negara.
-  source_ids: [putusan-mk-013-022-puu-iv-2006]
-  dimension_ids: [kedaulatan-rakyat, negara-hukum]
-
+  title_id: Putusan MK No. 013-022/PUU-IV/2006 Menghapus Pasal Penghinaan Presiden
+    (Lese Majeste)
+  summary_id: MK membatalkan Pasal 134, 136 bis, dan 137 KUHAP tentang penghinaan
+    terhadap Presiden/Wapres, menegaskan bahwa dalam negara hukum demokratis
+    berdasar kedaulatan rakyat, Presiden tidak memiliki hak istimewa yang kebal
+    kritik dari warga negara.
+  source_ids:
+    - putusan-mk-013-022-puu-iv-2006
+  dimension_ids:
+    - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-mk-putusan-jaksa-agung-2010
   term_id: mk-2008-2013
-  date: "2010-09-22"
+  date: 2010-09-22
   category: pengadilan
   title_id: Putusan MK No. 6-13-20/PUU-VIII/2010 tentang Batas Masa Jabatan Jaksa Agung
-  summary_id: >-
-    MK mengabulkan uji materiil UU Kejaksaan yang diajukan Prof. Yusril Ihza Mahendra, memutuskan bahwa masa jabatan Jaksa Agung
-    harus berakhir bersama-sama dengan berakhirnya masa jabatan Presiden atau diberhentikan oleh Presiden dalam periode yang bersangkutan demi kepastian hukum.
-  source_ids: [putusan-mk-6-13-20-puu-viii-2010]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: MK mengabulkan uji materiil UU Kejaksaan yang diajukan Prof. Yusril
+    Ihza Mahendra, memutuskan bahwa masa jabatan Jaksa Agung harus berakhir
+    bersama-sama dengan berakhirnya masa jabatan Presiden atau diberhentikan
+    oleh Presiden dalam periode yang bersangkutan demi kepastian hukum.
+  source_ids:
+    - putusan-mk-6-13-20-puu-viii-2010
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-mk-putusan-organisasi-advokat-2011
   term_id: mk-2008-2013
-  date: "2011-12-13"
+  date: 2011-12-13
   category: pengadilan
-  title_id: Putusan MK No. 49/PUU-IX/2011 tentang Penyelenggaraan PKPA dan Organisasi Advokat
-  summary_id: >-
-    MK memutuskan bahwa organisasi advokat dan perguruan tinggi berhak menyelenggarakan Pendidikan Khusus Profesi Advokat (PKPA),
-    mencegah monopoli tunggal dan membuka akses seluas-luasnya bagi sarjana hukum untuk berkarier sebagai penegak hukum yang profesional.
-  source_ids: [putusan-mk-49-puu-ix-2011]
-  dimension_ids: [negara-hukum, sila-2]
-
+  title_id: Putusan MK No. 49/PUU-IX/2011 tentang Penyelenggaraan PKPA dan
+    Organisasi Advokat
+  summary_id: MK memutuskan bahwa organisasi advokat dan perguruan tinggi berhak
+    menyelenggarakan Pendidikan Khusus Profesi Advokat (PKPA), mencegah monopoli
+    tunggal dan membuka akses seluas-luasnya bagi sarjana hukum untuk berkarier
+    sebagai penegak hukum yang profesional.
+  source_ids:
+    - putusan-mk-49-puu-ix-2011
+  dimension_ids:
+    - negara-hukum
+    - sila-2
 - id: ev-bpk-audit-hambalang-2013
   term_id: bpk-2009-2019
-  date: "2013-08-23"
+  date: 2013-08-23
   category: kebijakan
-  title_id: Audit Investigatif BPK Kasus Mega Korupsi Wisma Atlet Hambalang Rp463,6 Miliar
-  summary_id: >-
-    BPK RI menyerahkan LHP investigatif tahap II proyek pembangunan P3SON Hambalang kepada DPR dan KPK,
-    mengungkap rekayasa lelang, penggelembungan anggaran tahun jamak (multiyears), dan keterlibatan menteri serta pimpinan badan anggaran DPR.
-  source_ids: [laporan-audit-bpk-hambalang-2013]
-  dimension_ids: [checks-balances, negara-hukum]
+  title_id: Audit Investigatif BPK Kasus Mega Korupsi Wisma Atlet Hambalang
+    Rp463,6 Miliar
+  summary_id: BPK RI menyerahkan LHP investigatif tahap II proyek pembangunan
+    P3SON Hambalang kepada DPR dan KPK, mengungkap rekayasa lelang,
+    penggelembungan anggaran tahun jamak (multiyears), dan keterlibatan menteri
+    serta pimpinan badan anggaran DPR.
+  source_ids:
+    - laporan-audit-bpk-hambalang-2013
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
   subject_term_id: presiden-sby-ii
-  subject_basis_id: >-
-    LHP memeriksa kontrak tahun jamak proyek P3SON Hambalang beserta keterlibatan menteri, yang berjalan di
-    dalam masa jabatan ini.
-
+  subject_basis_id: LHP memeriksa kontrak tahun jamak proyek P3SON Hambalang
+    beserta keterlibatan menteri, yang berjalan di dalam masa jabatan ini.
 - id: ev-mk-putusan-sda-air-2013
   term_id: mk-2013-2018
-  date: "2015-02-18"
+  date: 2015-02-18
   category: pengadilan
-  title_id: Putusan MK No. 85/PUU-XI/2013 Membatalkan UU SDA & Menegaskan Hak Rakyat atas Air
-  summary_id: >-
-    MK membatalkan keseluruhan isi UU No. 7/2004 tentang Sumber Daya Air, menegaskan bahwa privatisasi dan komersialisasi air
-    bertentangan dengan Pasal 33 UUD 1945 dan negara wajib menjamin hak asasi warga negara atas akses air minum yang terjangkau.
-  source_ids: [putusan-mk-85-puu-xi-2013]
-  dimension_ids: [sila-5, tujuan-2]
-
+  title_id: Putusan MK No. 85/PUU-XI/2013 Membatalkan UU SDA & Menegaskan Hak
+    Rakyat atas Air
+  summary_id: MK membatalkan keseluruhan isi UU No. 7/2004 tentang Sumber Daya
+    Air, menegaskan bahwa privatisasi dan komersialisasi air bertentangan dengan
+    Pasal 33 UUD 1945 dan negara wajib menjamin hak asasi warga negara atas
+    akses air minum yang terjangkau.
+  source_ids:
+    - putusan-mk-85-puu-xi-2013
+  dimension_ids:
+    - sila-5
+    - tujuan-2
 - id: ev-dpr-uu-asn-2014
   term_id: dpr-2009-2014
-  date: "2014-01-15"
+  date: 2014-01-15
   category: produk-hukum
   title_id: Pengesahan UU No. 5 Tahun 2014 tentang Aparatur Sipil Negara (ASN)
-  summary_id: >-
-    DPR mengesahkan UU ASN yang menerapkan sistem merit berbasis kualifikasi, kompetensi, dan kinerja secara terbuka,
-    serta mendirikan Komisi Aparatur Sipil Negara (KASN) untuk memberantas praktik jual beli jabatan dan politisasi birokrasi.
-  source_ids: [uu-5-2014]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: DPR mengesahkan UU ASN yang menerapkan sistem merit berbasis
+    kualifikasi, kompetensi, dan kinerja secara terbuka, serta mendirikan Komisi
+    Aparatur Sipil Negara (KASN) untuk memberantas praktik jual beli jabatan dan
+    politisasi birokrasi.
+  source_ids:
+    - uu-5-2014
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-ma-sema-pk-satu-kali-2014
   term_id: ma-reformasi-sekarang
-  date: "2014-12-31"
+  date: 2014-12-31
   category: produk-hukum
-  title_id: Penerbitan SEMA No. 07 Tahun 2014 tentang Pembatasan Peninjauan Kembali (PK) Satu Kali
-  summary_id: >-
-    Mahkamah Agung menerbitkan surat edaran yang membatasi permohonan PK hanya dapat diajukan satu kali demi kepastian hukum,
-    memicu dinamika dualisme hukum dengan Putusan Mahkamah Konstitusi No. 34/PUU-XI/2013 yang membolehkan PK lebih dari sekali demi keadilan materiil.
-  source_ids: [sema-07-2014]
-  dimension_ids: [negara-hukum, checks-balances]
-
+  title_id: Penerbitan SEMA No. 07 Tahun 2014 tentang Pembatasan Peninjauan
+    Kembali (PK) Satu Kali
+  summary_id: Mahkamah Agung menerbitkan surat edaran yang membatasi permohonan PK
+    hanya dapat diajukan satu kali demi kepastian hukum, memicu dinamika
+    dualisme hukum dengan Putusan Mahkamah Konstitusi No. 34/PUU-XI/2013 yang
+    membolehkan PK lebih dari sekali demi keadilan materiil.
+  source_ids:
+    - sema-07-2014
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
 - id: ev-mk-putusan-haatzaai-artikelen-2007
   term_id: mk-2003-2008
-  date: "2007-07-17"
+  date: 2007-07-17
   category: pengadilan
-  title_id: Putusan MK No. 6/PUU-V/2007 Menghapus Pasal Permusuhan Pemerintah (Haatzaai Artikelen)
-  summary_id: >-
-    MK membatalkan Pasal 154 dan 155 KUHP warisan kolonial Belanda tentang penyebaran perasaan permusuhan atau kebencian terhadap pemerintah,
-    mendekriminalisasi kritik warga negara dan melindungi kebebasan berpendapat di muka umum dari represi penguasa.
-  source_ids: [putusan-mk-6-puu-v-2007]
-  dimension_ids: [kedaulatan-rakyat, negara-hukum]
-
+  title_id: Putusan MK No. 6/PUU-V/2007 Menghapus Pasal Permusuhan Pemerintah
+    (Haatzaai Artikelen)
+  summary_id: MK membatalkan Pasal 154 dan 155 KUHP warisan kolonial Belanda
+    tentang penyebaran perasaan permusuhan atau kebencian terhadap pemerintah,
+    mendekriminalisasi kritik warga negara dan melindungi kebebasan berpendapat
+    di muka umum dari represi penguasa.
+  source_ids:
+    - putusan-mk-6-puu-v-2007
+  dimension_ids:
+    - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-kriminalisasi-bibit-chandra-2009
   term_id: presiden-sby-ii
-  date: "2009-11-23"
+  date: 2009-11-23
   category: krisis
-  title_id: Kriminalisasi Pimpinan KPK Bibit-Chandra, Rekomendasi Tim 8, dan Penerbitan SKP2
-  summary_id: >-
-    Penetapan tersangka dan penahanan dua pimpinan KPK Bibit Samad Rianto dan Chandra Hamzah oleh kepolisian memicu kemarahan publik
-    atas dugaan rekayasa kasus (Cicak vs Buaya I), memaksa Presiden membentuk Tim 8 Independen dan Kejaksaan menerbitkan SKP2 demi menghentikan penuntutan.
-  source_ids: [rekomendasi-tim-8-kriminalisasi-kpk-2009, skp2-kejaksaan-bibit-chandra-2009]
-  dimension_ids: [checks-balances, negara-hukum]
-  actor_ids: [bibit-samad-rianto, chandra-m-hamzah]
-
+  title_id: Kriminalisasi Pimpinan KPK Bibit-Chandra, Rekomendasi Tim 8, dan
+    Penerbitan SKP2
+  summary_id: Penetapan tersangka dan penahanan dua pimpinan KPK Bibit Samad
+    Rianto dan Chandra Hamzah oleh kepolisian memicu kemarahan publik atas
+    dugaan rekayasa kasus (Cicak vs Buaya I), memaksa Presiden membentuk Tim 8
+    Independen dan Kejaksaan menerbitkan SKP2 demi menghentikan penuntutan.
+  source_ids:
+    - rekomendasi-tim-8-kriminalisasi-kpk-2009
+    - skp2-kejaksaan-bibit-chandra-2009
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+  actor_ids:
+    - bibit-samad-rianto
+    - chandra-m-hamzah
 - id: ev-kriminalisasi-prita-mulyasari-2008-2011
   term_id: ma-reformasi-sekarang
-  date: "2011-09-17"
+  date: 2011-09-17
   category: pengadilan
-  title_id: Kriminalisasi Konsumen Prita Mulyasari dan Pembebasan Murni oleh Mahkamah Agung
-  summary_id: >-
-    Ibu rumah tangga Prita Mulyasari dipidanakan dan ditahan karena mengirim email keluhan pelayanan rumah sakit menggunakan pasal pencemaran nama baik UU ITE,
-    memicu gerakan moral koin keadilan sebelum akhirnya Mahkamah Agung membebaskan murni Prita pada tingkat Peninjauan Kembali (PK).
-  source_ids: [putusan-ma-prita-mulyasari-2011, putusan-mk-50-puu-vi-2008]
-  dimension_ids: [sila-2, negara-hukum]
-
+  title_id: Kriminalisasi Konsumen Prita Mulyasari dan Pembebasan Murni oleh
+    Mahkamah Agung
+  summary_id: Ibu rumah tangga Prita Mulyasari dipidanakan dan ditahan karena
+    mengirim email keluhan pelayanan rumah sakit menggunakan pasal pencemaran
+    nama baik UU ITE, memicu gerakan moral koin keadilan sebelum akhirnya
+    Mahkamah Agung membebaskan murni Prita pada tingkat Peninjauan Kembali (PK).
+  source_ids:
+    - putusan-ma-prita-mulyasari-2011
+    - putusan-mk-50-puu-vi-2008
+  dimension_ids:
+    - sila-2
+    - negara-hukum
 - id: ev-ma-perma-tipiring-nenek-minah-2012
   term_id: ma-reformasi-sekarang
-  date: "2012-02-27"
+  date: 2012-02-27
   category: produk-hukum
-  title_id: Penerbitan PERMA No. 2/2012 tentang Batasan Tipiring Rp2,5 Juta Pasca Kasus Nenek Minah
-  summary_id: >-
-    Merespons gelombang kritik atas pemidanaan kaum rentan miskin (seperti vonis Nenek Minah yang memetik 3 buah kakao),
-    Mahkamah Agung menerbitkan PERMA penyesuaian batasan tipiring menjadi Rp2,5 juta agar tersangka tidak ditahan dan mengutamakan penyelesaian restoratif.
-  source_ids: [perma-2-2012]
-  dimension_ids: [sila-2, negara-hukum]
-
+  title_id: Penerbitan PERMA No. 2/2012 tentang Batasan Tipiring Rp2,5 Juta Pasca
+    Kasus Nenek Minah
+  summary_id: Merespons gelombang kritik atas pemidanaan kaum rentan miskin
+    (seperti vonis Nenek Minah yang memetik 3 buah kakao), Mahkamah Agung
+    menerbitkan PERMA penyesuaian batasan tipiring menjadi Rp2,5 juta agar
+    tersangka tidak ditahan dan mengutamakan penyelesaian restoratif.
+  source_ids:
+    - perma-2-2012
+  dimension_ids:
+    - sila-2
+    - negara-hukum
 - id: ev-mk-putusan-hutan-adat-2012
   term_id: mk-2008-2013
-  date: "2013-05-16"
+  date: 2013-05-16
   category: pengadilan
-  title_id: Putusan MK No. 35/PUU-X/2012 Mengakui Hutan Adat & Mendekriminalisasi Masyarakat Hukum Adat
-  summary_id: >-
-    MK memutuskan bahwa hutan adat adalah hutan hak milik masyarakat adat dan bukan hutan negara,
-    menghentikan gelombang kriminalisasi terhadap masyarakat adat yang mengelola wilayah tanah ulayat leluhur mereka dari jeratan pasal pidana kehutanan.
-  source_ids: [putusan-mk-35-puu-x-2012]
-  dimension_ids: [sila-5, negara-hukum]
-
+  title_id: Putusan MK No. 35/PUU-X/2012 Mengakui Hutan Adat & Mendekriminalisasi
+    Masyarakat Hukum Adat
+  summary_id: MK memutuskan bahwa hutan adat adalah hutan hak milik masyarakat
+    adat dan bukan hutan negara, menghentikan gelombang kriminalisasi terhadap
+    masyarakat adat yang mengelola wilayah tanah ulayat leluhur mereka dari
+    jeratan pasal pidana kehutanan.
+  source_ids:
+    - putusan-mk-35-puu-x-2012
+  dimension_ids:
+    - sila-5
+    - negara-hukum
 - id: ev-skb-tiga-menteri-ahmadiyah-2008
   term_id: presiden-sby-i
-  date: "2008-06-09"
+  date: 2008-06-09
   category: produk-hukum
-  title_id: Penerbitan SKB 3 Menteri tentang Peringatan kepada Jemaat Ahmadiyah Indonesia (JAI)
-  summary_id: >-
-    Menteri Agama, Jaksa Agung, dan Mendagri menerbitkan Surat Keputusan Bersama yang memerintahkan JAI menghentikan penyebaran penafsiran yang menyimpang,
-    memicu perdebatan luas antara penjagaan ketertiban keagamaan mayoritas versus perlindungan hak asasi kemerdekaan beragama dan beribadah (Pasal 29 UUD 1945).
-  source_ids: [skb-3-menteri-ahmadiyah-2008]
-  dimension_ids: [sila-1, sila-2]
-
+  title_id: Penerbitan SKB 3 Menteri tentang Peringatan kepada Jemaat Ahmadiyah
+    Indonesia (JAI)
+  summary_id: Menteri Agama, Jaksa Agung, dan Mendagri menerbitkan Surat Keputusan
+    Bersama yang memerintahkan JAI menghentikan penyebaran penafsiran yang
+    menyimpang, memicu perdebatan luas antara penjagaan ketertiban keagamaan
+    mayoritas versus perlindungan hak asasi kemerdekaan beragama dan beribadah
+    (Pasal 29 UUD 1945).
+  source_ids:
+    - skb-3-menteri-ahmadiyah-2008
+  dimension_ids:
+    - sila-1
+    - sila-2
 - id: ev-bpk-audit-bank-century-2009
   term_id: bpk-2009-2019
-  date: "2009-11-23"
+  date: 2009-11-23
   category: kebijakan
   title_id: LHP Audit Investigasi BPK atas Skandal Bailout Bank Century Rp6,76 Triliun
-  summary_id: >-
-    BPK RI menyerahkan Laporan Hasil Pemeriksaan Investigasi kepada DPR RI, menyimpulkan adanya 9 ketidaktegasan dan dugaan pelanggaran hukum
-    dalam pemberian Fasilitas Pendanaan Jangka Pendek (FPJP) dan Penyertaan Modal Sementara (PMS) oleh Bank Indonesia dan KSSK.
-  source_ids: [laporan-audit-bpk-century-2009]
-  dimension_ids: [checks-balances, tujuan-2]
-
+  summary_id: BPK RI menyerahkan Laporan Hasil Pemeriksaan Investigasi kepada DPR
+    RI, menyimpulkan adanya 9 ketidaktegasan dan dugaan pelanggaran hukum dalam
+    pemberian Fasilitas Pendanaan Jangka Pendek (FPJP) dan Penyertaan Modal
+    Sementara (PMS) oleh Bank Indonesia dan KSSK.
+  source_ids:
+    - laporan-audit-bpk-century-2009
+  dimension_ids:
+    - checks-balances
+    - tujuan-2
 - id: ev-dpr-pansus-angket-century-2010
   term_id: dpr-2009-2014
-  date: "2010-03-03"
+  date: 2010-03-03
   category: peristiwa
   title_id: Paripurna DPR RI Putusan Akhir Pansus Hak Angket Century (Opsi C Bermasalah)
-  summary_id: >-
-    Sidang Paripurna DPR RI menyetujui rekomendasi Opsi C Pansus Hak Angket yang menyatakan bailout Bank Century bermasalah dan melanggar hukum,
-    merekomendasikan penegakan hukum oleh KPK/Kepolisian/Kejaksaan terhadap pejabat terkait dalam dinamika checks and balances parlemen terpanas era SBY.
-  source_ids: [risalah-pansus-century-dpr-2010]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: Sidang Paripurna DPR RI menyetujui rekomendasi Opsi C Pansus Hak
+    Angket yang menyatakan bailout Bank Century bermasalah dan melanggar hukum,
+    merekomendasikan penegakan hukum oleh KPK/Kepolisian/Kejaksaan terhadap
+    pejabat terkait dalam dinamika checks and balances parlemen terpanas era
+    SBY.
+  source_ids:
+    - risalah-pansus-century-dpr-2010
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-mk-putusan-tripartit-dpd-2012-2014
   term_id: mk-2008-2013
-  date: "2013-03-27"
+  date: 2013-03-27
   category: pengadilan
-  title_id: Putusan MK No. 92/PUU-X/2012 & 79/PUU-XII/2014 Kewenangan Tripartit Legislasi DPD RI
-  summary_id: >-
-    MK mengabulkan uji materiil UU MD3 yang diajukan DPD RI, memutuskan bahwa DPD memiliki kedudukan setara secara tripartit bersama DPR dan Presiden
-    dalam mengajukan, membahas, dan menyusun Daftar Inventarisasi Masalah (DIM) RUU yang berkaitan dengan otonomi daerah dari awal hingga Tingkat I.
-  source_ids: [putusan-mk-92-puu-x-2012, putusan-mk-79-puu-xii-2014]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
-
-
-
-
-
-
-
+  title_id: Putusan MK No. 92/PUU-X/2012 & 79/PUU-XII/2014 Kewenangan Tripartit
+    Legislasi DPD RI
+  summary_id: MK mengabulkan uji materiil UU MD3 yang diajukan DPD RI, memutuskan
+    bahwa DPD memiliki kedudukan setara secara tripartit bersama DPR dan
+    Presiden dalam mengajukan, membahas, dan menyusun Daftar Inventarisasi
+    Masalah (DIM) RUU yang berkaitan dengan otonomi daerah dari awal hingga
+    Tingkat I.
+  source_ids:
+    - putusan-mk-92-puu-x-2012
+    - putusan-mk-79-puu-xii-2014
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-dpd-ruu-pesisir-2006
+  term_id: dpd-2004-2009
+  date: 2006-03-20
+  category: produk-hukum
+  title_id: Pengajuan RUU Inisiatif Perdana DPD RI tentang Wilayah Pesisir dan
+    Pulau-Pulau Kecil
+  summary_id: DPD RI periode pertama mengajukan draf usulan RUU Pesisir ke DPR dan
+    Presiden sebagai bukti pelaksanaan kewenangan legislasi konstitusional dalam
+    memperjuangkan hak nelayan dan daerah kepulauan.
+  source_ids:
+    - risalah-dpd-ruu-pesisir-2006
+  dimension_ids:
+    - checks-balances
+    - sila-5
+    - sila-3
+- id: ev-dpd-uji-materi-prolegnas-2008
+  term_id: dpd-2004-2009
+  date: 2008-03-27
+  category: pengadilan
+  title_id: "Putusan MK No. 005/PUU-V/2007: MK Memperkuat Hak DPD dalam Prolegnas"
+  summary_id: MK mengabulkan sebagian permohonan DPD dan menyatakan DPD berhak
+    terlibat dalam perumusan Program Legislasi Nasional bersama DPR dan
+    Pemerintah terkait bidang otonomi dan daerah.
+  source_ids:
+    - putusan-mk-005-puu-v-2007
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-dpd-desertada-2011
+  term_id: dpd-2009-2014
+  date: 2011-04-18
+  category: kebijakan
+  title_id: Penyusunan Desain Besar Penataan Daerah (Desertada) 2011-2025 oleh DPD RI
+  summary_id: DPD RI merumuskan kerangka penataan wilayah dan evaluasi pemekaran
+    daerah otonom guna menghentikan pemekaran daerah yang semata-mata didorong
+    kepentingan elitis tanpa kelayakan fiskal.
+  source_ids:
+    - laporan-dpd-desertada-2011
+  dimension_ids:
+    - sila-3
+    - sila-5
+    - checks-balances
+- id: ev-dpd-kemenangan-mk-92-2013
+  term_id: dpd-2009-2014
+  date: 2013-03-27
+  category: pengadilan
+  title_id: "Putusan MK No. 92/PUU-X/2012: Pengakuan Kesetaraan Legislasi DPD
+    dalam RUU Daerah"
+  summary_id: MK memutus bahwa DPD berhak mengusulkan dan membahas RUU terkait
+    daerah secara setara dari awal hingga pembahasan tingkat I bersama DPR dan
+    Presiden, mematahkan praktik soft bicameralism semu.
+  source_ids:
+    - putusan-mk-92-puu-x-2012
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+    - negara-hukum
+- id: ev-ky-mkh-pertama-2009
+  term_id: ky-2005-2010
+  date: 2009-03-24
+  category: pengadilan
+  title_id: Pelaksanaan Sidang Majelis Kehormatan Hakim (MKH) Pertama Bersama
+    Mahkamah Agung
+  summary_id: KY dan MA menyelenggarakan sidang MKH bersama untuk pertama kalinya
+    guna memeriksa hakim bermasalah etik dan suap, memberhentikan hakim
+    pelanggar demi menjaga martabat korps kehakiman.
+  source_ids:
+    - laporan-tahunan-ky-2009
+  dimension_ids:
+    - negara-hukum
+    - sila-2
+- id: ev-ky-seleksi-cha-2011
+  term_id: ky-2010-2015
+  date: 2011-06-20
+  category: kebijakan
+  title_id: Penerapan Investigasi Rekam Jejak Publik dalam Seleksi Calon Hakim Agung
+  summary_id: KY menerapkan metode pelibatan masyarakat sipil dan verifikasi LHKPN
+    mendalam dalam seleksi calon hakim agung ke DPR untuk menyaring hakim
+    berintegritas tinggi.
+  source_ids:
+    - laporan-ky-seleksi-cha-2011
+  dimension_ids:
+    - negara-hukum
+    - kedaulatan-rakyat
+    - checks-balances
+- id: ev-ky-advokasi-pp-94-2012
+  term_id: ky-2010-2015
+  date: 2012-10-29
+  category: kebijakan
+  title_id: Advokasi KY dan Penetapan PP No. 94/2012 tentang Peningkatan
+    Kesejahteraan Hakim
+  summary_id: Menindaklanjuti aksi mogok sidang para hakim muda, KY bersama MA
+    mendesak pemerintah menaikkan gaji pokok dan tunjangan hakim guna mencegah
+    kerentanan suap di pengadilan.
+  source_ids:
+    - pp-94-2012
+  dimension_ids:
+    - sila-5
+    - negara-hukum
+- id: ev-bpk-audit-hambalang-2012
+  term_id: bpk-2009-2019
+  date: 2012-10-31
+  category: kebijakan
+  title_id: Audit Investigasi Hambalang oleh BPK Mengungkap Kerugian Negara
+    Rp463,6 Miliar
+  summary_id: BPK menyelesaikan audit investigatif proyek Pusat Pendidikan,
+    Pelatihan dan Sekolah Olahraga Nasional (P3SON) Hambalang yang menjadi dasar
+    KPK menjerat Menpora dan petinggi partai politik.
+  source_ids:
+    - lhp-bpk-hambalang-2012
+  dimension_ids:
+    - checks-balances
+    - sila-5
+    - negara-hukum
+- id: ev-mpr-empat-pilar-2011
+  term_id: mpr-2009-2014
+  date: 2011-05-20
+  category: kebijakan
+  title_id: Peluncuran Gerakan Nasional Sosialisasi Empat Pilar Kebangsaan oleh MPR RI
+  summary_id: MPR RI di bawah Taufiq Kiemas menginisiasi program nasional
+    Sosialisasi Empat Pilar (Pancasila, UUD 1945, NKRI, Bhinneka Tunggal Ika) ke
+    seluruh perguruan tinggi, sekolah, dan elemen masyarakat.
+  source_ids:
+    - buku-mpr-empat-pilar-2012
+  dimension_ids:
+    - sila-1
+    - sila-3
+    - tujuan-3
+- id: ev-mpr-putusan-mk-34-2014
+  term_id: mpr-2009-2014
+  date: 2014-04-03
+  category: pengadilan
+  title_id: Putusan MK No. 34/PUU-XI/2013 Membatalkan Frasa Empat Pilar Kebangsaan
+  summary_id: MK membatalkan frasa "Empat Pilar" dalam Pasal 34 ayat 3b UU Parpol
+    karena menempatkan Pancasila sejajar sebagai pilar, bukan sebagai fondasi
+    dan dasar filosofis negara (philosofische grondslag).
+  source_ids:
+    - putusan-mk-34-puu-xi-2013
+  dimension_ids:
+    - sila-1
+    - negara-hukum
+- id: ev-mpr-pelantikan-sby-2004
+  term_id: mpr-2004-2009
+  date: 2004-10-20
+  category: pengangkatan
+  title_id: Sidang Paripurna MPR RI Melantik Pasangan Presiden dan Wapres Hasil
+    Pemilu Langsung Pertama
+  summary_id: MPR RI melaksanakan fungsi konstitusional melantik Presiden Susilo
+    Bambang Yudhoyono dan Wapres Jusuf Kalla yang terpilih melalui pemilihan
+    umum presiden langsung secara damai dan tertib.
+  source_ids:
+    - tap-amandemen-uud-1999-2002
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+- id: ev-dpr-angket-century-2010
+  term_id: dpr-2009-2014
+  date: 2010-03-03
+  category: kebijakan
+  title_id: Rapat Paripurna DPR Mengesahkan Opsi C Pansus Hak Angket Kasus Bank Century
+  summary_id: DPR RI melalui voting paripurna menetapkan bailout Century
+    bermasalah hukum dan merekomendasikan penegak hukum mengusut pejabat
+    pengambil kebijakan FPJP dan PMS.
+  source_ids:
+    - risalah-dpr-angket-century-2010
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+    - kedaulatan-rakyat
+- id: ev-sby-skb-ahmadiyah
+  term_id: presiden-sby-i
+  date: 2008-06-09
+  category: kebijakan
+  title_id: Penerbitan SKB 3 Menteri tentang Peringatan dan Larangan Penyebaran
+    Ajaran Ahmadiyah
+  summary_id: Pemerintah menerbitkan SKB Menteri Agama, Mendagri, dan Jaksa Agung
+    yang membatasi hak ibadah warga Ahmadiyah pasca-insiden kekerasan Monas.
+  source_ids:
+    - skb-3-menteri-ahmadiyah-2008
+  dimension_ids:
+    - sila-1
+    - sila-2
+- id: ev-sby-mou-helsinki
+  term_id: presiden-sby-i
+  date: 2005-08-15
+  category: peristiwa
+  title_id: Penandatanganan Nota Kesepahaman Damai Aceh (MoU Helsinki)
+  summary_id: Pemerintah RI dan GAM menandatangani kesepakatan damai permanen di
+    Finlandia, mengakhiri perang saudara dan memulai reintegrasi mantan
+    kombatan.
+  source_ids:
+    - mou-helsinki-2005
+  dimension_ids:
+    - sila-2
+    - sila-3
+    - tujuan-1
+- id: ev-sby-uu-umkm
+  term_id: presiden-sby-i
+  date: 2008-07-04
+  category: produk-hukum
+  title_id: Pengesahan UU No. 20/2008 tentang Usaha Mikro, Kecil, dan Menengah
+  summary_id: Memberikan perlindungan, kemudahan akses permodalan KUR, dan
+    penguatan kelembagaan bagi pelaku ekonomi mikro.
+  source_ids:
+    - uu-20-2008
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+- id: ev-sby-konflik-syiah-sampang
+  term_id: presiden-sby-ii
+  date: 2012-08-26
+  category: krisis
+  title_id: Penyerangan dan Pengusiran Warga Komunitas Syiah di Karang Gayam Sampang
+  summary_id: Konflik intoleransi bernuansa agama mengakibatkan jatuhnya korban
+    jiwa dan ratusan warga Syiah mengungsi tanpa pemulihan hak tempat tinggal
+    permanen.
+  source_ids:
+    - putusan-pn-sampang-syiah-2012
+  dimension_ids:
+    - sila-1
+    - sila-2
+- id: ev-sby-uu-pendidikan-tinggi
+  term_id: presiden-sby-ii
+  date: 2012-08-10
+  category: produk-hukum
+  title_id: Pengesahan UU No. 12/2012 tentang Pendidikan Tinggi dan Pembentukan LPDP
+  summary_id: Mewajibkan alokasi dana abadi pendidikan tinggi dan beasiswa bagi
+    mahasiswa berprestasi dari keluarga tidak mampu.
+  source_ids:
+    - uu-12-2012
+  dimension_ids:
+    - tujuan-3
+    - sila-5
+- id: ev-dpr-uu-guru-dosen
+  term_id: dpr-2004-2009
+  date: 2005-12-30
+  category: produk-hukum
+  title_id: Pengesahan UU No. 14/2005 tentang Guru dan Dosen
+  summary_id: DPR RI menetapkan jaminan kesejahteraan guru melalui tunjangan
+    profesi pendidik guna meningkatkan mutu mencerdaskan bangsa.
+  source_ids:
+    - uu-14-2005
+  dimension_ids:
+    - tujuan-3
+    - sila-5
+- id: ev-dpr-uu-rpjpn-2007
+  term_id: dpr-2004-2009
+  date: 2007-08-15
+  category: produk-hukum
+  title_id: Pengesahan UU No. 17/2007 tentang RPJPN 2005-2025
+  summary_id: DPR RI menetapkan rencana induk pembangunan jangka panjang yang
+    memuat arah ketahanan pangan, energi, dan peran aktif dalam perdamaian
+    dunia.
+  source_ids:
+    - uu-17-2007
+  dimension_ids:
+    - tujuan-4
+    - tujuan-2
+- id: ev-dpr-uu-penanganan-konflik-sosial
+  term_id: dpr-2009-2014
+  date: 2012-05-10
+  category: produk-hukum
+  title_id: Pengesahan UU No. 7/2012 tentang Penanganan Konflik Sosial
+  summary_id: DPR RI mengesahkan instrumen pencegahan dan pemulihan pascakonflik
+    untuk melindungi keutuhan persatuan nasional.
+  source_ids:
+    - uu-7-2012
+  dimension_ids:
+    - sila-3
+    - tujuan-1
+- id: ev-dpr-ratifikasi-asean-haze
+  term_id: dpr-2009-2014
+  date: 2014-09-16
+  category: produk-hukum
+  title_id: Pengesahan UU No. 1/2014 Ratifikasi Perjanjian Polusi Asap Lintas Batas ASEAN
+  summary_id: DPR RI meratifikasi kesepakatan regional ASEAN untuk mencegah
+    kebakaran hutan dan memelihara ketertiban lingkungan hidup kawasan.
+  source_ids:
+    - uu-1-2014
+  dimension_ids:
+    - tujuan-4
+    - sila-3
+- id: ev-mk-putusan-calon-perseorangan-2007
+  term_id: mk-2003-2008
+  date: 2007-07-23
+  category: pengadilan
+  title_id: Putusan MK No. 5/PUU-V/2007 Membuka Ruang Calon Perseorangan dalam Pilkada
+  summary_id: MK memutus bahwa warga negara berhak mencalonkan diri sebagai kepala
+    daerah secara independen tanpa harus diusung partai politik.
+  source_ids:
+    - putusan-mk-5-puu-v-2007
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+    - negara-hukum
+- id: ev-mk-putusan-ktp-pemilu-2009
+  term_id: mk-2008-2013
+  date: 2009-07-06
+  category: pengadilan
+  title_id: Putusan MK No. 102/PUU-VII/2009 Mengizinkan Pemilih Menggunakan KTP/Paspor
+  summary_id: MK memutus pada hari-H pemilu bahwa warga negara yang belum
+    terdaftar di DPT dapat mencoblos hanya dengan menunjukkan KTP atau paspor.
+  source_ids:
+    - putusan-mk-102-puu-vii-2009
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+- id: ev-mk-putusan-pemilu-serentak-2013
+  term_id: mk-2013-2018
+  date: 2014-01-23
+  category: pengadilan
+  title_id: Putusan MK No. 14/PUU-XI/2013 Mewajibkan Pemilu Serentak Mulai 2019
+  summary_id: MK memutus bahwa pemilu anggota DPR, DPD, dan Presiden harus
+    diselenggarakan serentak guna memperkuat sistem presidensial dan efisiensi
+    anggaran.
+  source_ids:
+    - putusan-mk-14-puu-xi-2013
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-dpd-pengawasan-kur-2008
+  term_id: dpd-2004-2009
+  date: 2008-11-12
+  category: kebijakan
+  title_id: Pengawasan DPD RI atas Akses Perbankan Pelaku Usaha Mikro di Daerah Kepulauan
+  summary_id: Komite IV DPD RI melakukan inspeksi serapan KUR ke sentra nelayan
+    dan petani terpencil guna mendorong inklusi keuangan daerah.
+  source_ids:
+    - uu-20-2008
+  dimension_ids:
+    - sila-5
+    - sila-3
+- id: ev-dpd-pengawasan-dbh-hutan-2010
+  term_id: dpd-2009-2014
+  date: 2010-09-14
+  category: kebijakan
+  title_id: Kajian DPD RI atas Dana Reboisasi dan Dana Bagi Hasil Kehutanan di Luar Jawa
+  summary_id: DPD RI mendesak transparansi penyaluran dana reboisasi bagi
+    pemulihan hutan lindung di Kalimantan dan Sumatera.
+  source_ids:
+    - laporan-dpd-desertada-2011
+  dimension_ids:
+    - sila-5
+    - sila-3
+    - tujuan-2
+- id: ev-ky-laporan-mafia-peradilan-2007
+  term_id: ky-2005-2010
+  date: 2007-12-18
+  category: kebijakan
+  title_id: Penerbitan Laporan Pemetaan Titik Rawan Mafia Peradilan oleh Komisi Yudisial
+  summary_id: KY merilis laporan riset empiris titik rawan suap dan gratifikasi
+    dalam pengurusan berkas kasasi dan peninjauan kembali di pengadilan.
+  source_ids:
+    - laporan-tahunan-ky-2007
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-ky-mkh-hakim-tipikor-2013
+  term_id: ky-2010-2015
+  date: 2013-05-28
+  category: pengadilan
+  title_id: Sidang MKH KY-MA Memberhentikan Hakim Tipikor Terbukti Suap di Daerah
+  summary_id: KY dan MA menggelar sidang kehormatan hakim dan memberhentikan hakim
+    ad hoc tipikor yang terbukti menerima gratifikasi perkara korupsi bansos
+    daerah.
+  source_ids:
+    - laporan-tahunan-ky-2013
+  dimension_ids:
+    - negara-hukum
+    - sila-5
+- id: ev-bpk-audit-pertamina-2008
+  term_id: bpk-1998-2009
+  date: 2008-04-16
+  category: kebijakan
+  title_id: Audit BPK atas Efisiensi Biaya Pokok Produksi BBM PT Pertamina
+  summary_id: BPK melakukan audit kepatuhan atas pengadaan minyak mentah impor dan
+    formula subsidi energi APBN guna menghemat anggaran negara.
+  source_ids:
+    - lhp-bpk-pertamina-2008
+  dimension_ids:
+    - checks-balances
+    - sila-5
+- id: ev-mpr-sidang-tahunan-evaluasi-2008
+  term_id: mpr-2004-2009
+  date: 2008-08-16
+  category: peristiwa
+  title_id: "Sidang Tahunan MPR 2008: Laporan Kinerja Lembaga Negara Pasca-Amandemen"
+  summary_id: MPR memfasilitasi forum konvensi ketatanegaraan tahunan di mana
+    Presiden menyampaikan laporan nota keuangan dan kinerja tahunan di hadapan
+    DPR dan DPD.
+  source_ids:
+    - tap-amandemen-uud-1999-2002
+  dimension_ids:
+    - checks-balances
+    - sila-4
+- id: ev-mpr-peringatan-hari-konstitusi-2010
+  term_id: mpr-2009-2014
+  date: 2010-08-18
+  category: peristiwa
+  title_id: Peringatan Hari Konstitusi 18 Agustus oleh MPR RI
+  summary_id: MPR RI memperingati pengesahan UUD 1945 dan mengajak generasi muda
+    meneladani nilai-nilai pembukaan UUD 1945 alinea IV dalam kehidupan
+    berbangsa.
+  source_ids:
+    - buku-mpr-empat-pilar-2012
+  dimension_ids:
+    - sila-1
+    - sila-3
+    - tujuan-3
+- id: ev-mk-pembatalan-uu-bhp-2010
+  term_id: mk-2008-2013
+  date: 2010-03-31
+  category: pengadilan
+  title_id: Putusan MK No. 11-14-21-126-136/PUU-VII/2009 Membatalkan UU Badan
+    Hukum Pendidikan
+  summary_id: MK membatalkan UU No. 9/2009 tentang BHP karena menyeragamkan tata
+    kelola universitas dan berpotensi mengkomersialisasi hak warga atas
+    pendidikan tinggi murah.
+  source_ids:
+    - uu-12-2012
+  dimension_ids:
+    - tujuan-3
+    - sila-5
+    - negara-hukum
+- id: ev-mk-pembatalan-bp-migas-2012
+  term_id: mk-2008-2013
+  date: 2012-11-13
+  category: pengadilan
+  title_id: Putusan MK No. 36/PUU-X/2012 Membubarkan BP Migas Demi Kedaulatan
+    Energi Negara
+  summary_id: MK menyatakan BP Migas inkonstitusional karena mengerdilkan fungsi
+    penguasaan negara atas minyak dan gas bumi menjadi sekadar hubungan perdata
+    bisnis.
+  source_ids:
+    - putusan-mk-001-puu-i-2003
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+    - negara-hukum
+- id: ev-dpr-uu-pangan-2012
+  term_id: dpr-2009-2014
+  date: 2012-11-17
+  category: produk-hukum
+  title_id: Pengesahan UU No. 18/2012 tentang Pangan (Kedaulatan dan Kemandirian Pangan)
+  summary_id: DPR RI menetapkan kewajiban negara mewujudkan kedaulatan pangan,
+    kemandirian pangan, dan keamanan pangan bagi seluruh rakyat Indonesia.
+  source_ids:
+    - uu-18-2012
+  dimension_ids:
+    - tujuan-2
+    - sila-5
+- id: ev-dpr-uu-desa-2014
+  term_id: dpr-2009-2014
+  date: 2014-01-15
+  category: produk-hukum
+  title_id: Pengesahan UU No. 6/2014 tentang Desa dan Pengalokasian Dana Desa Nasional
+  summary_id: DPR RI mengesahkan UU Desa yang memberikan kewenangan mandiri dan
+    alokasi transfer langsung APBN Dana Desa ke puluhan ribu desa di pelosok
+    nusantara.
+  source_ids:
+    - uu-6-2014
+  dimension_ids:
+    - sila-5
+    - sila-3
+    - kedaulatan-rakyat
+- id: ev-bpk-penetapan-spkn-2007
+  term_id: bpk-1998-2009
+  date: 2007-01-25
+  category: produk-hukum
+  title_id: Penetapan Peraturan BPK No. 1/2007 tentang Standar Pemeriksaan
+    Keuangan Negara (SPKN)
+  summary_id: BPK menetapkan standar baku profesional pemeriksa keuangan negara
+    yang mengikat seluruh auditor BPK dan KAP yang mengaudit instansi
+    pemerintah.
+  source_ids:
+    - uu-15-2004
+  dimension_ids:
+    - checks-balances
+    - negara-hukum

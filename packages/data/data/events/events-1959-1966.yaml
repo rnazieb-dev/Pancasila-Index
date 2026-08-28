@@ -1,158 +1,251 @@
-# Peristiwa Konstitusional & Sejarah Tata Negara: Era Demokrasi Terpimpin & Transisi (1959–1966)
-
 - id: ev-penpres-2-1959-mprs
   term_id: presiden-soekarno-ii
-  date: "1959-07-22"
+  date: 1959-07-22
   category: produk-hukum
   title_id: Penetapan Presiden No. 2 Tahun 1959 - Pembentukan MPRS Tanpa Pemilu
-  summary_id: >-
-    Presiden Sukarno membentuk Majelis Permusyawaratan Rakyat Sementara (MPRS) dengan mengangkat
-    seluruh anggotanya berdasarkan penunjukan eksekutif, mengabaikan prinsip keterpilihan wakil rakyat melalui pemilihan umum.
-  source_ids: [penpres-2-1959]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  summary_id: Presiden Sukarno membentuk Majelis Permusyawaratan Rakyat Sementara
+    (MPRS) dengan mengangkat seluruh anggotanya berdasarkan penunjukan
+    eksekutif, mengabaikan prinsip keterpilihan wakil rakyat melalui pemilihan
+    umum.
+  source_ids:
+    - penpres-2-1959
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-penpres-3-1960-bubar-dpr
   term_id: presiden-soekarno-ii
-  date: "1960-03-05"
+  date: 1960-03-05
   category: produk-hukum
   title_id: Penetapan Presiden No. 3 Tahun 1960 - Pembubaran DPR Hasil Pemilu 1955
-  summary_id: >-
-    Presiden Sukarno membubarkan Dewan Perwakilan Rakyat hasil Pemilu 1955 setelah DPR menolak
-    rancangan Anggaran Pendapatan dan Belanja Negara (RAPBN) yang diajukan pemerintah.
-  source_ids: [penpres-3-1960]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: Presiden Sukarno membubarkan Dewan Perwakilan Rakyat hasil Pemilu
+    1955 setelah DPR menolak rancangan Anggaran Pendapatan dan Belanja Negara
+    (RAPBN) yang diajukan pemerintah.
+  source_ids:
+    - penpres-3-1960
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-penpres-4-1960-dpr-gr
   term_id: presiden-soekarno-ii
-  date: "1960-06-25"
+  date: 1960-06-25
   category: produk-hukum
   title_id: Pembentukan DPR-GR Berdasarkan Penpres No. 4 Tahun 1960
-  summary_id: >-
-    Pemerintah melantik DPR Gotong Royong (DPR-GR) yang anggotanya diangkat langsung oleh Presiden
-    berdasarkan komposisi Nasakom dan golongan karya, menghapus fungsi oposisi dan pengawasan independen parlemen.
-  source_ids: [penpres-4-1960]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  summary_id: Pemerintah melantik DPR Gotong Royong (DPR-GR) yang anggotanya
+    diangkat langsung oleh Presiden berdasarkan komposisi Nasakom dan golongan
+    karya, menghapus fungsi oposisi dan pengawasan independen parlemen.
+  source_ids:
+    - penpres-4-1960
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-tap-mprs-ii-1960-pembangunan
   term_id: presiden-soekarno-ii
-  date: "1960-12-03"
+  date: 1960-12-03
   category: produk-hukum
   title_id: TAP MPRS No. II/MPRS/1960 tentang Pola Pembangunan Nasional Semesta Berencana
-  summary_id: >-
-    MPRS menetapkan perencanaan pembangunan nasional berjangka pertama mencakup 8 proyek pembangunan
-    di bidang sandang, pangan, industri dasar, dan kedaulatan ekonomi nasional berdikari.
-  source_ids: [tap-mprs-ii-1960]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: MPRS menetapkan perencanaan pembangunan nasional berjangka pertama
+    mencakup 8 proyek pembangunan di bidang sandang, pangan, industri dasar, dan
+    kedaulatan ekonomi nasional berdikari.
+  source_ids:
+    - tap-mprs-ii-1960
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-supersemar-1966-peralihan
   term_id: presiden-soekarno-ii
-  date: "1966-03-11"
+  date: 1966-03-11
   category: peristiwa
   title_id: Surat Perintah Sebelas Maret (Supersemar) 1966
-  summary_id: >-
-    Presiden Sukarno menandatangani surat perintah kepada Letjen Soeharto untuk mengambil segala tindakan yang dianggap perlu
-    guna menjamin keamanan, ketenangan, dan kestabilan jalannya pemerintahan serta revolusi pasca-G30S.
-  source_ids: [supersemar-1966, tap-mprs-ix-1966]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: Presiden Sukarno menandatangani surat perintah kepada Letjen
+    Soeharto untuk mengambil segala tindakan yang dianggap perlu guna menjamin
+    keamanan, ketenangan, dan kestabilan jalannya pemerintahan serta revolusi
+    pasca-G30S.
+  source_ids:
+    - supersemar-1966
+    - tap-mprs-ix-1966
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-tap-mprs-xxv-1966-pembubaran-pki
   term_id: presiden-soekarno-ii
-  date: "1966-07-05"
+  date: 1966-07-05
   category: produk-hukum
   title_id: TAP MPRS No. XXV/MPRS/1966 Pembubaran PKI dan Larangan Ajaran Komunisme
-  summary_id: >-
-    MPRS menetapkan pembubaran Partai Komunis Indonesia, menyatakan PKI sebagai organisasi terlarang di seluruh wilayah Indonesia,
-    dan melarang setiap kegiatan menyebarkan atau mengembangkan paham/ajaran Komunisme/Marxisme-Leninisme.
-  source_ids: [tap-mprs-xxv-1966]
-  dimension_ids: [negara-hukum, sila-1]
-
+  summary_id: MPRS menetapkan pembubaran Partai Komunis Indonesia, menyatakan PKI
+    sebagai organisasi terlarang di seluruh wilayah Indonesia, dan melarang
+    setiap kegiatan menyebarkan atau mengembangkan paham/ajaran
+    Komunisme/Marxisme-Leninisme.
+  source_ids:
+    - tap-mprs-xxv-1966
+  dimension_ids:
+    - negara-hukum
+    - sila-1
 - id: ev-trikora-1961
   term_id: presiden-soekarno-ii
-  date: "1961-12-19"
+  date: 1961-12-19
   category: kebijakan
   title_id: Komando Tertinggi Pembebasan Irian Barat (Tri Komando Rakyat / Trikora)
-  summary_id: >-
-    Presiden Sukarno mengumumkan Trikora di Yogyakarta untuk menggagalkan pembentukan negara boneka Papua buatan Belanda,
-    mengibarkan Sang Saka Merah Putih di Irian Barat, dan memobilisasi kekuatan total guna mempertahankan keutuhan wilayah NKRI (Tujuan 1 UUD 1945).
-  source_ids: [trikora-1961]
-  dimension_ids: [tujuan-1, sila-3]
-
+  summary_id: Presiden Sukarno mengumumkan Trikora di Yogyakarta untuk
+    menggagalkan pembentukan negara boneka Papua buatan Belanda, mengibarkan
+    Sang Saka Merah Putih di Irian Barat, dan memobilisasi kekuatan total guna
+    mempertahankan keutuhan wilayah NKRI (Tujuan 1 UUD 1945).
+  source_ids:
+    - trikora-1961
+  dimension_ids:
+    - tujuan-1
+    - sila-3
 - id: ev-pbb-keluar-1965
   term_id: presiden-soekarno-ii
-  date: "1965-01-20"
+  date: 1965-01-20
   category: kebijakan
   title_id: Penarikan Diri Indonesia dari Perserikatan Bangsa-Bangsa (PBB)
-  summary_id: >-
-    Indonesia menyatakan keluar dari keanggotaan PBB sebagai bentuk protes keras atas diterimanya Federasi Malaysia
-    sebagai anggota tidak tetap Dewan Keamanan PBB dan penolakan terhadap struktur PBB yang dinilai mendominasi kepentingan neokolonialisme.
-  source_ids: [dokumen-pbb-keluar-1965]
-  dimension_ids: [tujuan-4, sila-3]
-
+  summary_id: Indonesia menyatakan keluar dari keanggotaan PBB sebagai bentuk
+    protes keras atas diterimanya Federasi Malaysia sebagai anggota tidak tetap
+    Dewan Keamanan PBB dan penolakan terhadap struktur PBB yang dinilai
+    mendominasi kepentingan neokolonialisme.
+  source_ids:
+    - dokumen-pbb-keluar-1965
+  dimension_ids:
+    - tujuan-4
+    - sila-3
 - id: ev-tritura-1966
   term_id: presiden-soekarno-ii
-  date: "1966-01-10"
+  date: 1966-01-10
   category: peristiwa
   title_id: Demonstrasi Mahasiswa dan Deklarasi Tri Tuntutan Rakyat (Tritura)
-  summary_id: >-
-    Kesatuan Aksi Mahasiswa Indonesia (KAMI) dan pelajar memelopori gelombang demonstrasi massal menuntut tiga hal pokok:
-    Pembubaran PKI, Perombakan Kabinet Dwikora (Reshuffle 100 Menteri), dan Penurunan Harga/Perbaikan Ekonomi rakyat.
-  source_ids: [tritura-1966]
-  dimension_ids: [kedaulatan-rakyat, sila-5]
-
+  summary_id: "Kesatuan Aksi Mahasiswa Indonesia (KAMI) dan pelajar memelopori
+    gelombang demonstrasi massal menuntut tiga hal pokok: Pembubaran PKI,
+    Perombakan Kabinet Dwikora (Reshuffle 100 Menteri), dan Penurunan
+    Harga/Perbaikan Ekonomi rakyat."
+  source_ids:
+    - tritura-1966
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-5
 - id: ev-pidato-manipol-usdek-1959
   term_id: presiden-soekarno-ii
-  date: "1959-08-17"
+  date: 1959-08-17
   category: kebijakan
   title_id: Pidato Penemuan Kembali Revolusi Kita (Manifesto Politik / Manipol-USDEK)
-  summary_id: >-
-    Presiden Sukarno menyampaikan pidato kenegaraan yang kemudian ditetapkan oleh DPAS dan MPRS sebagai Garis-Garis Besar Haluan Negara,
-    memperkenalkan doktrin USDEK (UUD 1945, Sosialisme Indonesia, Demokrasi Terpimpin, Ekonomi Terpimpin, Kepribadian Indonesia).
-  source_ids: [pidato-manipol-usdek-1959]
-  dimension_ids: [sila-3, kedaulatan-rakyat]
-
+  summary_id: Presiden Sukarno menyampaikan pidato kenegaraan yang kemudian
+    ditetapkan oleh DPAS dan MPRS sebagai Garis-Garis Besar Haluan Negara,
+    memperkenalkan doktrin USDEK (UUD 1945, Sosialisme Indonesia, Demokrasi
+    Terpimpin, Ekonomi Terpimpin, Kepribadian Indonesia).
+  source_ids:
+    - pidato-manipol-usdek-1959
+  dimension_ids:
+    - sila-3
+    - kedaulatan-rakyat
 - id: ev-komando-dwikora-1964
   term_id: presiden-soekarno-ii
-  date: "1964-05-03"
+  date: 1964-05-03
   category: kebijakan
   title_id: Dwi Komando Rakyat (Dwikora) - Konfrontasi Menentang Pembentukan Malaysia
-  summary_id: >-
-    Presiden Sukarno mengumumkan Komando Dwikora untuk memperhebat ketahanan revolusi Indonesia dan membantu perjuangan rakyat Malaya,
-    Singapura, Serawak, dan Sabah menggagalkan proyek neokolonialisme Federasi Malaysia.
-  source_ids: [komando-dwikora-1964]
-  dimension_ids: [tujuan-1, tujuan-4]
-
+  summary_id: Presiden Sukarno mengumumkan Komando Dwikora untuk memperhebat
+    ketahanan revolusi Indonesia dan membantu perjuangan rakyat Malaya,
+    Singapura, Serawak, dan Sabah menggagalkan proyek neokolonialisme Federasi
+    Malaysia.
+  source_ids:
+    - komando-dwikora-1964
+  dimension_ids:
+    - tujuan-1
+    - tujuan-4
 - id: ev-keppres-pembubaran-masyumi-psi-1960
   term_id: presiden-soekarno-ii
-  date: "1960-08-17"
+  date: 1960-08-17
   category: produk-hukum
   title_id: Keppres No. 200/1960 tentang Pembubaran Partai Masyumi dan PSI
-  summary_id: >-
-    Presiden Sukarno membubarkan dua partai politik besar (Partai Masyumi dan Partai Sosialis Indonesia) dengan tuduhan keterlibatan tokoh-tokohnya dalam pemberontakan PRRI/Permesta,
-    mempersempit ruang oposisi politik dan kebebasan berserikat secara drastis dalam sistem Demokrasi Terpimpin.
-  source_ids: [keppres-200-1960]
-  dimension_ids: [kedaulatan-rakyat, negara-hukum]
-
+  summary_id: Presiden Sukarno membubarkan dua partai politik besar (Partai
+    Masyumi dan Partai Sosialis Indonesia) dengan tuduhan keterlibatan
+    tokoh-tokohnya dalam pemberontakan PRRI/Permesta, mempersempit ruang oposisi
+    politik dan kebebasan berserikat secara drastis dalam sistem Demokrasi
+    Terpimpin.
+  source_ids:
+    - keppres-200-1960
+  dimension_ids:
+    - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-tap-mprs-presiden-seumur-hidup-1963
   term_id: presiden-soekarno-ii
-  date: "1963-05-18"
+  date: 1963-05-18
   category: produk-hukum
-  title_id: TAP MPRS No. III/MPRS/1963 Pengangkatan Bung Karno sebagai Presiden Seumur Hidup
-  summary_id: >-
-    MPRS menetapkan Sukarno sebagai Presiden Seumur Hidup dan Pemimpin Besar Revolusi,
-    menyimpang secara fundamental dari prinsip pembatasan masa jabatan presiden dan periodisasi mandat demokrasi konstitusional (Pasal 7 UUD 1945).
-  source_ids: [tap-mprs-iii-1963]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  title_id: TAP MPRS No. III/MPRS/1963 Pengangkatan Bung Karno sebagai Presiden
+    Seumur Hidup
+  summary_id: MPRS menetapkan Sukarno sebagai Presiden Seumur Hidup dan Pemimpin
+    Besar Revolusi, menyimpang secara fundamental dari prinsip pembatasan masa
+    jabatan presiden dan periodisasi mandat demokrasi konstitusional (Pasal 7
+    UUD 1945).
+  source_ids:
+    - tap-mprs-iii-1963
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-uu-intervensi-kehakiman-presiden-1964
   term_id: ma-dt-orde-baru
-  date: "1964-10-31"
+  date: 1964-10-31
   category: produk-hukum
   title_id: UU No. 19/1964 tentang Kewenangan Presiden Mengintervensi Putusan Pengadilan
-  summary_id: >-
-    Undang-Undang Ketentuan Pokok Kekuasaan Kehakiman 1964 memberikan wewenang eksplisit kepada Presiden untuk turun tangan dalam urusan pengadilan demi kepentingan revolusi dan kepribadian nasional,
-    menundukkan independensi peradilan di bawah kekuasaan eksekutif dan menjadikan Ketua MA berkedudukan setingkat menteri kabinet.
-  source_ids: [uu-19-1964]
-  dimension_ids: [negara-hukum, checks-balances]
-
-
-
+  summary_id: Undang-Undang Ketentuan Pokok Kekuasaan Kehakiman 1964 memberikan
+    wewenang eksplisit kepada Presiden untuk turun tangan dalam urusan
+    pengadilan demi kepentingan revolusi dan kepribadian nasional, menundukkan
+    independensi peradilan di bawah kekuasaan eksekutif dan menjadikan Ketua MA
+    berkedudukan setingkat menteri kabinet.
+  source_ids:
+    - uu-19-1964
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-ma-uu-19-1964
+  term_id: ma-dt-orde-baru
+  date: 1964-10-31
+  category: produk-hukum
+  title_id: "Pengesahan UU No. 19/1964: Pelemahan Independensi Yudisial di Bawah
+    Eksekutif"
+  summary_id: Pemberlakuan UU No. 19/1964 yang memberikan kewenangan kepada
+    Presiden untuk campur tangan dalam urusan pengadilan demi kepentingan
+    revolusi, menggerus prinsip negara hukum dan checks and balances.
+  source_ids:
+    - uu-19-1964
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-bpk-mandataris-1965
+  term_id: bpk-1947-1998
+  date: 1965-06-12
+  category: kebijakan
+  title_id: Penempatan BPK sebagai Pembantu Pemimpin Besar Revolusi
+  summary_id: BPK mengalami subordinasi struktural di bawah konsep Demokrasi
+    Terpimpin, membatasi fungsi audit independen terhadap proyek-proyek
+    mercusuar dan dana komando Presiden.
+  source_ids:
+    - laporan-bpk-djuanda-1957
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+- id: ev-mprs-tap-ii-1960
+  term_id: presiden-soekarno-ii
+  date: 1960-12-03
+  category: produk-hukum
+  title_id: TAP MPRS No. II/MPRS/1960 tentang Garis-Garis Besar Pola Pembangunan
+    Nasional Semesta Berencana
+  summary_id: MPRS menetapkan cetak biru pembangunan ekonomi terpimpin 8 tahun
+    berwawasan nusantara di bawah kepemimpinan Sukarno.
+  source_ids:
+    - uud-nri-1945
+  dimension_ids:
+    - tujuan-2
+    - sila-5
+- id: ev-ma-subekti-bw-1961
+  term_id: ma-dt-orde-baru
+  date: 1961-07-20
+  category: kebijakan
+  title_id: "SEMA No. 3/1963: Penegasan KUHPerdata (BW) sebagai Pedoman Bukan
+    Kodifikasi Mengikat"
+  summary_id: Ketua MA Wirjono Prodjodikoro dan Subekti mengeluarkan surat edaran
+    yang menyatakan pasal-pasal kolonial BW tidak lagi mengikat secara mutlak
+    demi penyesuaian hukum nasional.
+  source_ids:
+    - putusan-ma-1952-onrechtmatig
+  dimension_ids:
+    - negara-hukum
+    - sila-2
