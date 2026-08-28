@@ -22,6 +22,15 @@ const monorepoRoot = path.join(path.dirname(fileURLToPath(import.meta.url)), "..
 const nextConfig: NextConfig = {
   transpilePackages: ["@pancasila-index/core", "@pancasila-index/data"],
   outputFileTracingRoot: monorepoRoot,
+  outputFileTracingIncludes: {
+    "/**/*": [
+      "../../node_modules/.pnpm/next@*/**/node_modules/next/dist/compiled/source-map/**/*",
+      "../../node_modules/.pnpm/next@*/**/node_modules/next/dist/compiled/source-map08/**/*",
+      "./node_modules/next/dist/compiled/source-map/**/*",
+      "./node_modules/next/dist/compiled/source-map08/**/*",
+    ],
+  },
 };
 
 export default nextConfig;
+
