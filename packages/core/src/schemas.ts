@@ -35,6 +35,14 @@ export const sourceTypeSchema = z.enum([
   "undang-undang",
   "perppu",
   "keppres",
+  /**
+   * Instruksi Presiden. Sengaja dibedakan dari keppres: Inpres TIDAK termasuk
+   * jenis peraturan perundang-undangan pada Pasal 7 ayat (1) UU No. 12/2011,
+   * sehingga tidak berkekuatan mengikat umum. Membedakannya di data penting
+   * karena justru dipakainya Inpres untuk mengatur hal yang seharusnya lewat
+   * undang-undang itulah yang jadi objek penilaian dimensi negara hukum.
+   */
+  "inpres",
   "putusan-mk",
   "putusan-ma",
   "mputusan-mpd",

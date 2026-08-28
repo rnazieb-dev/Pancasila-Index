@@ -221,3 +221,92 @@
 
 
 
+
+- id: ev-inpres-1-2025-efisiensi-belanja
+  term_id: presiden-prabowo
+  date: "2025-01-22"
+  category: produk-hukum
+  title_id: Inpres No. 1/2025 Memangkas Belanja Rp306,69 Triliun atas APBN yang Sudah Disahkan DPR
+  summary_id: >-
+    Presiden menginstruksikan efisiensi belanja Rp306,69 triliun - Rp256,1 triliun dari belanja
+    kementerian/lembaga dan Rp50,59 triliun dari transfer ke daerah - atas APBN 2025 yang sudah
+    ditetapkan sebagai undang-undang. Persoalan ketatanegaraannya: APBN ditetapkan dengan undang-undang
+    menurut Pasal 23 UUD 1945, sementara Inpres tidak termasuk jenis peraturan perundang-undangan pada
+    Pasal 7 ayat (1) UU No. 12/2011 dan tidak berkekuatan mengikat umum. Perubahan material atas belanja
+    yang sudah disetujui DPR karenanya memangkas fungsi anggaran DPR sebagai pemegang hak budget.
+    Pemotongan menyentuh anggaran operasional perguruan tinggi negeri hingga 50%.
+  source_ids: [inpres-1-2025-efisiensi-belanja, jurnal-inpres-dalam-negara-hukum-2025]
+  dimension_ids: [negara-hukum, checks-balances, tujuan-3]
+
+- id: ev-mti-temuan-inpres-bermasalah-2026
+  term_id: presiden-prabowo
+  date: "2026-04"
+  category: peristiwa
+  title_id: Kajian MTI - 13 dari 21 Inpres Bermasalah Akuntabilitas, Kebijakan Fiskal Triliunan Tanpa Pembahasan DPR
+  summary_id: >-
+    Masyarakat Transparansi Indonesia menelaah 21 Instruksi Presiden yang diterbitkan Januari 2025
+    hingga April 2026 dan menemukan 13 di antaranya terindikasi bermasalah akuntabilitas. Temuannya
+    menunjuk pola, bukan insiden: kebijakan fiskal bernilai triliunan rupiah ditetapkan lewat instrumen
+    yang berada di luar hierarki peraturan perundang-undangan, sehingga lolos dari pembahasan dan
+    pengawasan DPR. Inilah pergeseran dari negara hukum ke negara kekuasaan yang dipersoalkan para ahli
+    hukum tata negara - bukan sekadar soal administratif.
+  source_ids: [laporan-mti-inpres-akuntabilitas-2026, jurnal-inpres-dalam-negara-hukum-2025]
+  dimension_ids: [negara-hukum, checks-balances, kedaulatan-rakyat]
+
+- id: ev-mk-putusan-anggaran-pendidikan-mbg-2026
+  term_id: mk-2023-sekarang
+  date: "2026-07-30"
+  category: pengadilan
+  title_id: Putusan MK No. 40/PUU-XXIV/2026 - Pembiayaan MBG dari Pos Anggaran Pendidikan Inkonstitusional Bersyarat
+  summary_id: >-
+    Mahkamah Konstitusi mengabulkan sebagian permohonan Yayasan Taman Belajar Nusantara bersama lima
+    pemohon perseorangan, menyatakan Penjelasan Pasal 22 ayat (3) UU APBN 2026 inkonstitusional
+    bersyarat sepanjang tetap dipakai membiayai Makan Bergizi Gratis dari pos anggaran pendidikan pada
+    APBN tahun-tahun berikutnya. MK menegaskan anggaran pendidikan minimal 20% wajib diprioritaskan
+    untuk komponen utama pendidikan - peserta didik, pendidik, sarana prasarana, kurikulum, evaluasi -
+    dan MBG bukan termasuk di dalamnya. APBN 2026 sendiri tetap dinyatakan konstitusional karena
+    mencabut anggaran MBG di tahun berjalan justru berpotensi membuatnya inkonstitusional. Pemisahan
+    wajib dilaksanakan paling lambat pada APBN 2028.
+  source_ids: [putusan-mk-40-puu-xxiv-2026, apbn-2026-komposisi-anggaran-pendidikan]
+  dimension_ids: [negara-hukum, tujuan-3, sila-5]
+  subject_term_id: presiden-prabowo
+  subject_basis_id: >-
+    Objek pengujian adalah UU APBN 2026 yang disusun dan dilaksanakan pemerintahan periode ini, dan
+    Rp223,55 triliun dari Rp769,1 triliun anggaran pendidikan APBN 2026 dialokasikan ke Badan Gizi
+    Nasional untuk MBG - seluruhnya di dalam masa jabatan ini.
+
+- id: ev-kejagung-korupsi-bgn-mbg-2026
+  term_id: presiden-prabowo
+  date: "2026-06-03"
+  category: krisis
+  title_id: Kejaksaan Agung Menahan Kepala Badan Gizi Nasional dan Dua Wakilnya sebagai Tersangka Korupsi MBG
+  summary_id: >-
+    Kejaksaan Agung menetapkan Kepala Badan Gizi Nasional periode Agustus 2024-Juni 2026 Dadan Hindayana
+    bersama Wakil Kepala Bidang Operasional Pemenuhan Gizi Sony Sonjaya dan Wakil Kepala Bidang
+    Pengembangan Organisasi Lodewyk Pusung sebagai tersangka dugaan korupsi tata kelola Program Makan
+    Bergizi Gratis tahun anggaran 2025-2026, sehari setelah Presiden mencopot ketiganya. Penyidik
+    mengungkap dua modus - jual beli titik Satuan Pelayanan Pemenuhan Gizi dan pengadaan barang/jasa -
+    dengan dugaan pengadaan fiktif mencakup proyek CCTV Rp300 miliar dan 21.801 unit motor listrik
+    bernilai sekitar Rp1 triliun. Anggaran program yang menjadi sasaran mencapai Rp85,27 triliun pada
+    2025. Laporan awal datang dari BPKP dan PPATK sejak 2025. Seluruh nama masih berstatus TERSANGKA
+    pada dokumen yang disitasi - belum ada putusan pengadilan.
+  source_ids: [bap-kejagung-korupsi-bgn-2026, laporan-investigasi-mbg-2025]
+  dimension_ids: [sila-5, negara-hukum, tujuan-2]
+  actor_ids: [dadan-hindayana, sony-sonjaya, lodewyk-pusung]
+
+- id: ev-klb-keracunan-mbg-2025-2026
+  term_id: presiden-prabowo
+  date: "2026-03"
+  category: krisis
+  title_id: BPOM Mencatat 288 Kejadian Luar Biasa Keracunan Pangan MBG dengan 27.467 Orang Terdampak
+  summary_id: >-
+    BPOM mencatat 219 dugaan Kejadian Luar Biasa keracunan pangan berkaitan dengan Program Makan
+    Bergizi Gratis sepanjang 2025 dengan 21.084 orang terdampak, ditambah 69 kejadian dengan 6.383
+    korban hingga 12 Maret 2026. Audit BPOM atas dapur Satuan Pelayanan Pemenuhan Gizi menghasilkan 13
+    temuan ketidakpatuhan, antara lain SPPG tanpa standar Badan Gizi Nasional dan tanpa Cara Produksi
+    Pangan Olahan yang Baik, serta tidak adanya pemantauan tahap kritis seperti suhu lemari pendingin
+    dan suhu internal produk. Catatan angka - KPAI mencatat 12.658 anak korban di 38 provinsi sepanjang
+    2025, berbeda dari hitungan BPOM karena beda cakupan dan metode pelaporan; keduanya dicantumkan
+    alih-alih dipilih satu.
+  source_ids: [laporan-bpom-klb-keracunan-mbg]
+  dimension_ids: [tujuan-2, sila-5, tujuan-1]

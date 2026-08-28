@@ -3061,3 +3061,87 @@
   year: 2021
   url: https://nasional.kompas.com/read/2021/08/23/13441971/breaking-news-juliari-divonis-12-tahun-penjara-dalam-kasus-korupsi-bansos
   citation_id: Putusan No. 29/Pid.Sus-TPK/2021/PN.JKT.PST, 23 Agustus 2021
+
+# ---------------------------------------------------------------------------
+# Program Makan Bergizi Gratis: putusan MK atas pembiayaannya dari pos
+# anggaran pendidikan, komposisi anggarannya, perkara korupsinya, dan
+# kejadian luar biasa keracunan pangannya.
+# ---------------------------------------------------------------------------
+
+- id: putusan-mk-40-puu-xxiv-2026
+  type: putusan-mk
+  title_id: >-
+    Putusan MK No. 40/PUU-XXIV/2026 - Penjelasan Pasal 22 ayat (3) UU APBN 2026
+    inkonstitusional bersyarat sepanjang tetap dipakai membiayai Makan Bergizi Gratis dari
+    pos anggaran pendidikan; MBG dinyatakan bukan komponen utama pendidikan dan wajib
+    dipisahkan paling lambat APBN 2028
+  year: 2026
+  url: https://www.mkri.id/berita/menyoal-konstitusionalitas-mbg-%E2%80%9Cpotong%E2%80%9D-anggaran-pendidikan-dalam-apbn-2026--24536
+  citation_id: Putusan MK No. 40/PUU-XXIV/2026, dibacakan 30 Juli 2026
+
+- id: apbn-2026-komposisi-anggaran-pendidikan
+  type: berita
+  title_id: >-
+    Komposisi anggaran pendidikan APBN 2026 - Rp223,55 triliun dari total Rp769,1 triliun
+    dialokasikan ke Badan Gizi Nasional untuk Makan Bergizi Gratis, pos terbesar dalam
+    fungsi pendidikan
+  year: 2026
+  url: https://nasional.kompas.com/read/2026/07/30/18285491/melihat-komponen-anggaran-pendidikan-2026-yang-capai-rp-769-triliun-rp-223-t
+  citation_id: Kompas, 30 Juli 2026
+
+- id: bap-kejagung-korupsi-bgn-2026
+  type: berita
+  title_id: >-
+    Penetapan tersangka dan penahanan Kejaksaan Agung atas Kepala Badan Gizi Nasional
+    Dadan Hindayana beserta dua wakilnya dalam dugaan korupsi tata kelola Program Makan
+    Bergizi Gratis tahun anggaran 2025-2026
+  year: 2026
+  url: https://www.hukumonline.com/berita/a/diduga-korupsi-program-mbg--kejagung-tahan-eks-kepala-bgn-lt6a2037110be47/
+  citation_id: Hukumonline, Juni 2026 (penetapan tersangka 3 Juni 2026)
+
+- id: laporan-bpom-klb-keracunan-mbg
+  type: laporan-lembaga
+  title_id: >-
+    Catatan BPOM atas Kejadian Luar Biasa keracunan pangan Program Makan Bergizi Gratis -
+    219 dugaan KLB dengan 21.084 orang terdampak sepanjang 2025, ditambah 69 kejadian
+    dengan 6.383 korban hingga 12 Maret 2026, serta 13 temuan ketidakpatuhan di dapur SPPG
+  year: 2026
+  url: https://nasional.kontan.co.id/news/13-temuan-bpom-di-dapur-mbg-terkait-klb-keracunan
+  citation_id: BPOM via Kontan, 2026
+
+# ---------------------------------------------------------------------------
+# Pemerintahan lewat Instruksi Presiden: instrumen di luar hierarki peraturan
+# perundang-undangan yang dipakai mengatur belanja negara triliunan rupiah.
+# Ini bukti untuk dimensi negara hukum (Pasal 1 ayat 3), bukan sekadar konteks.
+# ---------------------------------------------------------------------------
+
+- id: inpres-1-2025-efisiensi-belanja
+  type: inpres
+  title_id: >-
+    Inpres No. 1 Tahun 2025 tentang Efisiensi Belanja dalam Pelaksanaan APBN dan APBD
+    Tahun Anggaran 2025 - target efisiensi Rp306,69 triliun (Rp256,1 triliun belanja
+    kementerian/lembaga dan Rp50,59 triliun transfer ke daerah)
+  year: 2025
+  url: https://peraturan.bpk.go.id/Details/313401/inpres-no-1-tahun-2025
+  citation_id: Inpres No. 1/2025, ditetapkan 22 Januari 2025
+
+- id: laporan-mti-inpres-akuntabilitas-2026
+  type: laporan-lembaga
+  title_id: >-
+    Kajian Masyarakat Transparansi Indonesia atas penerbitan Instruksi Presiden Januari
+    2025-April 2026 - 13 dari 21 Inpres terindikasi bermasalah akuntabilitas dan dinilai
+    memangkas ruang pengawasan DPR atas kebijakan fiskal
+  year: 2026
+  url: https://www.tribunnews.com/nasional/7846255/mti-kritik-maraknya-inpres-era-prabowo-dinilai-pangkas-ruang-pengawasan-dpr
+  citation_id: MTI via Tribunnews, 2026
+
+- id: jurnal-inpres-dalam-negara-hukum-2025
+  type: jurnal
+  title_id: >-
+    Kajian akademik "Instruksi Presiden dalam Negara Hukum - Kewenangan Eksekutif atau
+    Pelebaran Kekuasaan?" - Inpres tidak termasuk hierarki peraturan perundang-undangan
+    Pasal 7 ayat (1) UU No. 12/2011 namun berefek normatif, sehingga membuka pelebaran
+    kekuasaan eksekutif tanpa kontrol legislatif maupun yudisial
+  year: 2025
+  url: https://jurnal.dharmawangsa.ac.id/index.php/law_jurnal/en/article/download/6741/pdf
+  citation_id: Jurnal Hukum Dharmawangsa, Vol. VI No. 1, Juli 2025

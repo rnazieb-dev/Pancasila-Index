@@ -39,6 +39,7 @@ export function resolveSourceUrl(s: {
     case "undang-undang":
     case "perppu":
     case "keppres":
+    case "inpres":
     case "dokumen-mpr":
       return BPK_SEARCH + enc(searchQuery(s.title_id));
     default:
