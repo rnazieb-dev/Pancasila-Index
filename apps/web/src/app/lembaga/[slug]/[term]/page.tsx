@@ -15,7 +15,7 @@ import { RadarChart } from "@/components/radar-chart";
 import { ExternalIndicesWidget } from "@/components/external-indices-widget";
 import {
   groupName,
-  indexLabel, summaryIndexLabel, summaryIndexNote, summaryQualLabel, dimensionName,
+  indexLabel, summaryIndexLabel, summaryIndexNote, summaryExcludedGroupsNote, summaryQualLabel, dimensionName,
   periodLabel,
   scoreColor,
   scoreTextColor,
@@ -166,6 +166,11 @@ export default async function TermPage({
         {summaryIndexNote(summary) && (
           <p className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2 text-[11px] leading-relaxed text-[var(--muted)]">
             {summaryIndexNote(summary)}
+          </p>
+        )}
+        {summaryExcludedGroupsNote(summary) && (
+          <p className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2 text-[11px] leading-relaxed text-[var(--muted)]">
+            {summaryExcludedGroupsNote(summary)}
           </p>
         )}
         <div className="text-xs text-[var(--muted)] leading-relaxed">

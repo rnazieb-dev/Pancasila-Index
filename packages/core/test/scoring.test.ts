@@ -666,7 +666,10 @@ describe("skenario tuduhan: pelanggaran hak tak dapat dikurangi tidak boleh ketu
     const s = computeIndex([mkAssessment("a", "draft", false, tipis)], "t-1", rubrik, "draft-preview")!;
     expect(s.coverage).toBeLessThan(MIN_COVERAGE_FOR_INDEX);
     expect(s.index).toBeNull();
-    expect(s.index_suppressed_reason).toBe("cakupan-di-bawah-ambang");
+    // 2 dari 5 dimensi -> grup satu-satunya juga tak memenuhi ambangnya,
+    // jadi alasan yang lebih spesifik itulah yang berlaku. Yang penting:
+    // ADA alasan, sehingga UI menjelaskan alih-alih bilang "belum dinilai".
+    expect(s.index_suppressed_reason).toBe("tak-ada-grup-memenuhi-cakupan");
     expect(s.non_derogable_breaches).toEqual([{ dimension_id: "sila-2", score: -2 }]);
     // dibatasi != ditahan: jangan campur keduanya
     expect(s.index_capped).toBe(false);

@@ -2,6 +2,7 @@ import { dataset } from "@pancasila-index/data";
 import {
   computeIndex,
   MIN_COVERAGE_FOR_INDEX,
+  MIN_GROUP_COVERAGE,
   type AssessmentBasis,
   type AssessmentSummary,
 } from "@pancasila-index/core";
@@ -77,8 +78,26 @@ export function summaryIndexNote(summary: AssessmentSummary | null): string | nu
   if (!summary) return "Belum ada penilaian untuk masa jabatan ini.";
   if (summary.index_suppressed_reason === "cakupan-di-bawah-ambang")
     return `Indeks tunggal ditahan: baru ${summary.scored_dimensions} dari ${summary.total_dimensions} dimensi berbukti (ambang ${Math.round(MIN_COVERAGE_FOR_INDEX * 100)}%). Skor per kelompok di bawah tetap berlaku.`;
+  if (summary.index_suppressed_reason === "tak-ada-grup-memenuhi-cakupan")
+    return `Indeks tunggal ditahan: ada ${summary.scored_dimensions} dimensi berbukti, tetapi tidak satu pun kelompok landasan mencapai cakupan ${Math.round(MIN_GROUP_COVERAGE * 100)}% yang diperlukan agar kelompoknya ikut dihitung.`;
   if (summary.index === null) return "Belum ada dimensi yang dinilai dengan bukti.";
   return null;
+}
+
+/**
+ * Catatan tentang kelompok yang tidak ikut membentuk komposit.
+ *
+ * Dulu kelompok bercakupan tipis tidak dikeluarkan melainkan porsinya dikali
+ * cakupan, sehingga porsi 40/30/30 yang diumumkan diam-diam tidak berlaku dan
+ * kelompok lain menyerapnya. Sekarang pengecualiannya dinyatakan.
+ */
+export function summaryExcludedGroupsNote(
+  summary: AssessmentSummary | null
+): string | null {
+  const ids = summary?.groups_excluded_low_coverage ?? [];
+  if (ids.length === 0) return null;
+  const nama = ids.map((id) => groupName(id)).join(", ");
+  return `Tidak ikut dihitung karena cakupannya di bawah ${Math.round(MIN_GROUP_COVERAGE * 100)}%: ${nama}. Porsi kelompok yang ikut memakai bobot yang diumumkan apa adanya, bukan disusutkan diam-diam.`;
 }
 
 export function periodLabel(start: string, end: string | null): string {

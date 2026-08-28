@@ -22,7 +22,7 @@ import {
  *    penilaian yang benar-benar final (published/rejected); yang
  *    pending telaah kedua sengaja tidak ditulis agar build tetap draft.
  *
- * Otorisasi: KURATOR/ADMIN, atau CURATION_DEV=1 (dev lokal).
+ * Otorisasi: KURATOR/ADMIN. CURATION_DEV=1 hanya di non-produksi.
  */
 const REVIEW_FILE = path.resolve(
   process.cwd(),
@@ -36,6 +36,9 @@ async function loadEntries(): Promise<ReviewEntry[]> {
     assessment_id: r.assessmentId,
     decision: r.decision === "APPROVED" ? ("approved" as const) : ("rejected" as const),
     reviewer: r.reviewerName,
+    // Kuorum dihitung dari identitas akun, bukan nama tampilan yang bisa
+    // diubah pemiliknya. Kolomnya sudah lama ada di DB, hanya belum dipakai.
+    ...(r.reviewerId ? { reviewer_id: r.reviewerId } : {}),
     at: r.createdAt.toISOString().slice(0, 10),
     ...(r.note ? { note_id: r.note } : {}),
   }));
@@ -67,6 +70,7 @@ async function mirrorAndStatus(assessmentId: string) {
     assessment_id: e.assessment_id,
     decision: e.decision === "approved" ? ("approved" as const) : ("rejected" as const),
     reviewer: e.reviewer,
+    ...(e.reviewer_id ? { reviewer_id: e.reviewer_id } : {}),
     at: e.at,
     ...(e.note_id ? { note_id: e.note_id } : {}),
   }));
@@ -93,7 +97,8 @@ export async function POST(req: Request) {
     return NextResponse.json(
       {
         error:
-          "Butuh peran KURATOR. Login GitHub (set GITHUB_ID/GITHUB_SECRET) atau aktifkan CURATION_DEV=1 untuk pengembangan lokal.",
+          "Butuh peran KURATOR. Login lewat GitHub. (CURATION_DEV=1 hanya " +
+          "berlaku di pengembangan lokal dan diabaikan di produksi.)",
       },
       { status: 401 }
     );

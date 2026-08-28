@@ -8,6 +8,17 @@
 # Skala per dimensi: -2 .. +2
 #   -2 = melanggar berat   -1 = menggerus   0 = netral/tidak signifikan
 #   +1 = memperkuat        +2 = selaras penuh / teladan
+#
+# ARTI 0 DIPERSEMPIT. Nilai 0 berarti TIDAK ADA TINDAKAN SIGNIFIKAN. Ia BUKAN
+# untuk kasus tarik-menarik. Bila satu masa jabatan menguatkan sekaligus
+# menggerus, beri skor NETO-nya dan nyatakan ketegangannya di rationale_id.
+#
+# Sebabnya: 0 dipetakan ke indeks 50 yang legendanya berbunyi "Netral / Status
+# Quo". Memakai 0 untuk dua temuan berlawanan membuat pelanggaran yang nyata
+# terbaca sebagai ketiadaan temuan - dua keadaan yang sangat berbeda dilebur
+# menjadi satu angka yang menenangkan. Contoh yang harus dihindari: skor 0
+# dengan rasional "kekerasan Mei 1998 tak tertangani, namun tidak ada represi
+# sistemik baru" - itu dua temuan, bukan nol temuan.
 # ============================================================
 
 version: "1.0.0"

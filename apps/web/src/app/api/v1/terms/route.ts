@@ -52,6 +52,8 @@ export function GET(req: NextRequest) {
       index_capped: summary?.index_capped ?? false,
       index_uncapped: summary?.index_uncapped ?? null,
       non_derogable_breaches: summary?.non_derogable_breaches ?? [],
+      groups_excluded_low_coverage: summary?.groups_excluded_low_coverage ?? [],
+      excluded_unknown_dimension: summary?.excluded_unknown_dimension ?? 0,
       basis: summary?.basis ?? null,
       published_assessments: summary?.published_count ?? 0,
       draft_assessments: summary?.draft_count ?? 0,

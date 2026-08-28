@@ -4,8 +4,8 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { dataset } from "@pancasila-index/data";
 import { MultiRadarChart, type RadarSeries } from "@/components/multi-radar-chart";
-import { indexLabel, periodLabel, scoreColor,
-  scoreTextColor, scoreQualLabel } from "@/lib/view";
+import { indexLabel, periodLabel, scoreColor, scoreTextColor, scoreQualLabel,
+  summaryIndexLabel, summaryQualLabel, termSummary } from "@/lib/view";
 import { ScaleLegend } from "@/components/scale-legend";
 
 /** Warna seri untuk peran TEKS; berbalik per tema. Indeks sejajar PRESET_COLORS. */
@@ -254,12 +254,15 @@ export default function BandingkanPage() {
             {selectedTermIds.map((termId, idx) => {
               const term = termsById.get(termId);
               const color = PRESET_COLORS[idx % PRESET_COLORS.length];
-              const asms = assessmentsByTerm.get(termId) ?? [];
-              const allScores = asms.flatMap((a) => a.dimension_scores.map((ds) => ds.score));
-              const avgScore = allScores.length > 0
-                ? allScores.reduce((a, b) => a + b, 0) / allScores.length
-                : null;
-              const index = avgScore !== null ? Math.round(((avgScore + 2) / 4) * 100) : null;
+              // Indeks OTORITATIF, bukan hitungan sendiri. Halaman ini dulu
+              // memakai rerata datar seluruh skor dimensi, sehingga melewati
+              // bobot grup, pengecualian skor tanpa bukti, ambang cakupan, DAN
+              // batas hak non-derogable. Selisihnya sampai 13 poin: Megawati
+              // tampil 63 di sini padahal angka otoritatifnya 50 karena
+              // pelanggaran HAM - persis di halaman yang dipakai orang untuk
+              // menarik kesimpulan lintas era.
+              const summary = termSummary(termId);
+              const index = summary?.index ?? null;
 
               return (
                 <div
@@ -277,11 +280,27 @@ export default function BandingkanPage() {
                     <span className="text-[11px] text-[var(--muted)]">Indeks Draf:</span>
                     <strong
                       className="text-lg font-bold"
-                      style={{ color: scoreTextColor(avgScore ?? 0) }}
+                      style={{ color: summaryQualLabel(summary).color }}
                     >
-                      {indexLabel(index)}/100
+                      {summaryIndexLabel(summary)}
+                      {index !== null ? "/100" : ""}
                     </strong>
                   </div>
+                  {summary?.index_interval && (
+                    <div className="text-[10px] tabular-nums text-[var(--muted)]">
+                      rentang {summary.index_interval.low}–{summary.index_interval.high}
+                    </div>
+                  )}
+                  {summary?.index_capped && (
+                    <div className="text-[10px] leading-relaxed text-[var(--acc-red)]">
+                      dibatasi pelanggaran hak dasar (tanpa batas: {summary.index_uncapped})
+                    </div>
+                  )}
+                  {(summary?.non_derogable_breaches.length ?? 0) > 0 && !summary?.index_capped && (
+                    <div className="text-[10px] leading-relaxed text-[var(--acc-red)]">
+                      ada pelanggaran hak yang tidak dapat dikurangi
+                    </div>
+                  )}
                 </div>
               );
             })}

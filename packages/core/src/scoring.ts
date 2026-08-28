@@ -38,6 +38,12 @@ export interface AssessmentSummary {
   /** Skor dimensi yang DIKELUARKAN karena belum berbukti empiris. */
   excluded_no_evidence: number;
   /**
+   * Grup yang tidak ikut membentuk komposit karena cakupannya di bawah
+   * MIN_GROUP_COVERAGE. Dilaporkan agar pembaca tahu komposit ini dihitung
+   * dari berapa grup, alih-alih porsinya diam-diam diserap grup lain.
+   */
+  groups_excluded_low_coverage: string[];
+  /**
    * Skor yang dikeluarkan karena dimension_id-nya tidak ada di rubrik aktif.
    * Dulu dilewati tanpa dihitung, sehingga matematika cakupan dan ambang
    * MIN_COVERAGE_FOR_INDEX bergeser tanpa jejak - relevan begitu rubrik
@@ -48,8 +54,16 @@ export interface AssessmentSummary {
   groups: GroupScoreResult[];
   /** indeks komposit 0..100; null bila tak ada dimensi dinilai ATAU cakupan di bawah ambang */
   index: number | null;
-  /** Alasan indeks ditahan, agar UI dapat menjelaskan alih-alih menampilkan kosong. */
-  index_suppressed_reason: "cakupan-di-bawah-ambang" | null;
+  /**
+   * Alasan indeks ditahan, agar UI dapat menjelaskan alih-alih menampilkan
+   * kosong. Penahanan berbeda dari pembatasan: lihat `index_capped`, yang
+   * SENGAJA tidak digabung ke union ini karena angka yang dibatasi tetap ada
+   * dan tetap dinyatakan.
+   */
+  index_suppressed_reason:
+    | "cakupan-di-bawah-ambang"
+    | "tak-ada-grup-memenuhi-cakupan"
+    | null;
   /**
    * Rentang indeks dari keyakinan bukti. Null tepat ketika `index` null.
    * Bukti lemah MELEBARKAN rentang, tidak menggeser nilai tengahnya.
@@ -93,6 +107,21 @@ const clamp = (v: number, min: number, max: number) =>
  * tunggal yang mudah dikutip di luar konteks.
  */
 export const MIN_COVERAGE_FOR_INDEX = 0.5;
+
+/**
+ * Cakupan minimum SEBUAH GRUP agar ia ikut membentuk komposit.
+ *
+ * Dulu cakupan grup dipakai sebagai pengali bobot (`g.weight * coverage`) -
+ * anggota keempat keluarga cacat yang sama: besaran epistemik dipakai sebagai
+ * bobot substantif. Akibatnya grup yang baru sedikit dinilai diam-diam
+ * menyusutkan porsinya dan grup lain menyerapnya, sehingga porsi 40/30/30
+ * yang diumumkan tidak lagi berlaku tanpa ada yang menyatakannya.
+ *
+ * Sekarang: grup memakai bobot yang diumumkan apa adanya, tetapi hanya ikut
+ * bila cakupannya memenuhi ambang ini. Grup yang tidak ikut DILAPORKAN, bukan
+ * dilebur. Ambangnya menahan satu dimensi berbicara untuk seluruh grupnya.
+ */
+export const MIN_GROUP_COVERAGE = 0.5;
 
 /**
  * Versi MESIN SKOR, terpisah dari versi rubrik.
@@ -329,15 +358,18 @@ function summarize(
   let compHalfWeighted = 0;
   let compConfWeighted = 0;
   let compWeightSum = 0;
+  const groupsExcluded: string[] = [];
   for (const a of aggs) {
     const gs = a.public;
     const g = rubric.groups.find((rg) => rg.id === gs.group_id);
-    if (!g || gs.coverage === 0) continue;
-    // TODO(tiket sendiri): `coverage` di sini adalah besaran epistemik yang
-    // dipakai sebagai bobot substantif - masalah sekeluarga dengan keyakinan
-    // yang baru dicabut dari bobot. Dibiarkan karena MIN_COVERAGE_FOR_INDEX
-    // sudah menahan kasus terburuk; jangan diubah tanpa tiketnya sendiri.
-    const w = g.weight * gs.coverage;
+    if (!g) continue;
+    if (gs.coverage < MIN_GROUP_COVERAGE) {
+      if (gs.coverage > 0) groupsExcluded.push(gs.group_id);
+      continue;
+    }
+    // Bobot yang DIUMUMKAN, bukan dikali cakupan. Cakupan menentukan apakah
+    // grup ikut, bukan seberapa besar porsinya - lihat MIN_GROUP_COVERAGE.
+    const w = g.weight;
     groupItems.push({ score: gs.score, effectiveWeight: w });
     compHalfWeighted += w * a.halfWidth;
     compConfWeighted += w * gs.confidence;
@@ -397,9 +429,17 @@ function summarize(
     draft_count: assessments.filter((a) => a.status !== "published").length,
     excluded_no_evidence: excluded,
     excluded_unknown_dimension: excludedUnknown,
+    groups_excluded_low_coverage: groupsExcluded,
     groups,
     index: indexOut,
-    index_suppressed_reason: overall !== null && belowFloor ? "cakupan-di-bawah-ambang" : null,
+    index_suppressed_reason:
+      overall !== null && belowFloor
+        ? "cakupan-di-bawah-ambang"
+        : // ada dimensi dinilai, tetapi tidak satu pun grup memenuhi ambang
+          // cakupannya sendiri - berbeda dari "belum dinilai sama sekali"
+          overall === null && scoredDims > 0
+          ? "tak-ada-grup-memenuhi-cakupan"
+          : null,
     index_interval: interval,
     mean_confidence: meanConfidence,
     non_derogable_breaches: breaches,

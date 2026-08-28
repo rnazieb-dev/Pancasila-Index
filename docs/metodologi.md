@@ -86,6 +86,32 @@ Mengintegrasikan 8 indeks independen pihak ketiga yang berbasis data keras (*har
 
 6. **Ambang Cakupan**: komposit tidak diterbitkan bila cakupan di bawah 50%. Skor grup dan cakupannya tetap dilaporkan; yang ditahan hanya angka tunggal yang mudah dikutip di luar konteks. Peringatan pelanggaran hak dasar tetap tampil terlepas dari ada-tidaknya angka.
 
+### 4b. Celah yang belum ditutup: peristiwa → satu bilangan bulat
+
+Dataset memuat 461 peristiwa berbukti. **Bagaimana puluhan peristiwa dalam satu
+dimensi pada satu masa jabatan diringkas menjadi satu bilangan bulat −2..+2
+belum diatur di mana pun.** Di situlah sebagian besar penilaian sebenarnya
+terjadi, dan di situlah bias masuk tanpa terlihat: dua penilai yang sama-sama
+patuh pada jangkar rubrik dapat berbeda dua poin secara sah.
+
+Ini dicatat sebagai celah terbuka, bukan diisi diam-diam. Aturannya adalah
+keputusan normatif Dewan Editorial, bukan detail implementasi. Kandidat yang
+perlu dipilih secara eksplisit:
+
+- **Peristiwa terburuk menentukan** — konservatif; cocok untuk norma yang tidak
+  dapat dikurangi, tetapi menghapus perbedaan antara satu insiden dan pola.
+- **Rerata berbobot keparahan** — membedakan pola dari insiden, tetapi
+  memerlukan skala keparahan per peristiwa yang saat ini belum ada.
+- **Frekuensi × keparahan dengan ambang** — paling ekspresif, paling banyak
+  parameter yang harus dijustifikasi.
+- **Penilaian holistik terpandu** — apa yang de facto berlaku sekarang;
+  sah asalkan dinyatakan sebagai penilaian ahli, bukan sebagai hasil hitungan.
+
+Selama belum diputuskan, angka indeks tidak boleh dipresentasikan sebagai hasil
+prosedur yang dapat direplikasi. Yang dapat direplikasi hari ini adalah
+agregasi dari skor dimensi ke indeks (bagian 4), bukan penurunan skor dimensi
+dari bukti.
+
 ---
 
 ## 5. Protokol Kurasi & *Double-Reviewer Quorum*
