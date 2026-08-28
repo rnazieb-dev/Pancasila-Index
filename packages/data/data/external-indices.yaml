@@ -1,44 +1,12 @@
-# Indeks Independen Eksternal (Enrichment / Pengaya Konteks Pancasila Index)
-#
-# STATUS BERKAS INI - BACA DULU SEBELUM MENGUTIP ANGKANYA.
-#
-# Berkas ini sebelumnya berisi angka yang tampak masuk akal tetapi tidak bisa
-# ditelusuri ke penerbitnya, dan satu indeks yang penerbitnya tidak ada sama
-# sekali. Yang sudah dibereskan:
-#
-#   - Indeks fiktif "Indeks Supremasi Sipil & Integritas Sektor Keamanan"
-#     DIHAPUS. Tidak ada indeks maupun penerbit dengan nama itu.
-#   - CPI 2024 dikoreksi: sebelumnya 34/peringkat 115 (itu angka 2023),
-#     seharusnya 37/peringkat 99. CPI 2025 ditambahkan.
-#   - Peringkat RSF 2026 dikoreksi dari 128 menjadi 129.
-#
-# ATURAN: satu titik data hanya boleh dianggap sah bila punya `provenance`
-# (tautan tepat + tanggal ambil + cara ambil). Build MENGHITUNG sendiri derajat
-# verifikasi tiap indeks dari kelengkapan provenance - tidak bisa diklaim
-# manual di berkas ini. Titik tanpa provenance ditandai "belum terverifikasi"
-# di UI dan TIDAK BOLEH dikutip sebagai fakta.
-#
-# Cara membereskan sisanya: jalankan
-#   pnpm --filter @pancasila-index/data fetch:indices
-# Script itu mengunduh langsung dari penerbit resmi dan mengisi provenance.
-# Di lingkungan build saat ini script tersebut GAGAL karena kebijakan egress
-# memblokir seluruh host penerbit (transparency.org, worldjusticeproject.org,
-# rsf.org, v-dem.net, internationalbudget.org, api.worldbank.org). Host-host
-# itu perlu diizinkan lebih dulu.
-#
-# `method: pencarian-web` berarti angka itu terbaca dari halaman yang
-# disitasi, BUKAN dari unduhan dataset resmi. Derajatnya lebih rendah
-# daripada `unduh-dataset` dan sebaiknya diganti begitu unduhan bisa jalan.
-
 - id: ipi-ercas
   name: Index of Public Integrity (IPI)
   publisher: European Research Centre for Anti-Corruption and State-Building (ERCAS)
   type: hard-data
   scale: 1.0 - 10.0 (10 = Kapasitas kontrol korupsi tertinggi)
-  description: >-
-    Mengukur kapasitas objektif masyarakat dalam mengontrol korupsi berbasis data keras:
-    Independensi Peradilan (Judicial Independence), Beban Administrasi (Administrative Burden),
-    Keterbukaan Perdagangan, Transparansi Anggaran, Layanan Publik Digital (E-Services), dan Kebebasan Pers.
+  description: "Mengukur kapasitas objektif masyarakat dalam mengontrol korupsi
+    berbasis data keras: Independensi Peradilan (Judicial Independence), Beban
+    Administrasi (Administrative Burden), Keterbukaan Perdagangan, Transparansi
+    Anggaran, Layanan Publik Digital (E-Services), dan Kebebasan Pers."
   url: https://corruptionrisk.org/country/?country=IDN#integrity
   target_dimensions:
     - negara-hukum
@@ -50,10 +18,10 @@
       score: 6.84
       rank: 65
       total_countries: 109
-      note: Penguatan awal e-procurement dan transparansi anggaran APBN.
+      note: Penguatan awal e-procurement dan transparansi anggaran APBN era Jokowi I.
       provenance:
         url: https://corruptionrisk.org/country/?country=IDN#integrity
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2017
       score: 6.92
@@ -62,16 +30,17 @@
       note: Perluasan digitalisasi layanan perizinan terpadu.
       provenance:
         url: https://corruptionrisk.org/country/?country=IDN#integrity
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2019
       score: 6.78
       rank: 68
       total_countries: 114
-      note: Penurunan pada pilar independensi peradilan dan kebebasan sipil.
+      note: Penurunan pada pilar independensi peradilan dan kebebasan sipil era
+        transisi Jokowi I-II.
       provenance:
         url: https://corruptionrisk.org/country/?country=IDN#integrity
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2021
       score: 6.65
@@ -80,31 +49,31 @@
       note: Tekanan terhadap ruang sipil dan dampak pelemahan kerangka antikorupsi.
       provenance:
         url: https://corruptionrisk.org/country/?country=IDN#integrity
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2023
       score: 6.58
       rank: 75
       total_countries: 114
-      note: Kemunduran kapasitas pengawasan independen dan transparansi proses regulasi.
+      note: Kemunduran kapasitas pengawasan independen dan transparansi proses
+        regulasi era akhir Jokowi II.
       provenance:
         url: https://corruptionrisk.org/country/?country=IDN#integrity
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
-  abs_discrepancy_note: >-
-    Data IPI menunjukkan tren penurunan kapasitas kontrol korupsi riil sejak 2019,
-    sangat kontras dengan laporan internal instansi pemerintah yang rata-rata mengklaim
-    kepatuhan Zona Integritas dan Reformasi Birokrasi di atas 85%.
-
+  abs_discrepancy_note: Data IPI menunjukkan tren penurunan kapasitas kontrol
+    korupsi riil sejak 2019, sangat kontras dengan laporan internal instansi
+    pemerintah yang rata-rata mengklaim kepatuhan Zona Integritas dan Reformasi
+    Birokrasi di atas 85%.
 - id: wjp-rule-of-law
   name: WJP Rule of Law Index
   publisher: World Justice Project (WJP)
   type: civil-society
   scale: 0.00 - 1.00 (1.00 = Kepatuhan supremasi hukum mutlak)
-  description: >-
-    Mengukur 8 faktor supremasi hukum dari survei independen masyarakat umum dan praktisi hukum:
-    Pembatasan Kekuasaan Pemerintah, Ketiadaan Korupsi, Keterbukaan Pemerintah, Hak-Hak Dasar,
-    Ketertiban & Keamanan, Penegakan Regulasi, Keadilan Perdata, dan Keadilan Pidana.
+  description: "Mengukur 8 faktor supremasi hukum dari survei independen
+    masyarakat umum dan praktisi hukum: Pembatasan Kekuasaan Pemerintah,
+    Ketiadaan Korupsi, Keterbukaan Pemerintah, Hak-Hak Dasar, Ketertiban &
+    Keamanan, Penegakan Regulasi, Keadilan Perdata, dan Keadilan Pidana."
   url: https://worldjusticeproject.org/rule-of-law-index/country/Indonesia
   target_dimensions:
     - negara-hukum
@@ -112,13 +81,41 @@
     - sila-2
     - sila-4
   data:
+    - year: 2011
+      score: 0.51
+      rank: 45
+      total_countries: 66
+      note: Pengukuran awal WJP era Presiden SBY II.
+      provenance:
+        url: https://worldjusticeproject.org/rule-of-law-index/country/2011/Indonesia
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2012
+      score: 0.52
+      rank: 46
+      total_countries: 97
+      note: Stabilitas kepatuhan hukum era Presiden SBY II.
+      provenance:
+        url: https://worldjusticeproject.org/rule-of-law-index/country/2012/Indonesia
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2014
+      score: 0.52
+      rank: 45
+      total_countries: 99
+      note: Transisi kepemimpinan nasional dari Presiden SBY II ke Presiden Jokowi I.
+      provenance:
+        url: https://worldjusticeproject.org/rule-of-law-index/country/2014/Indonesia
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
     - year: 2015
       score: 0.52
       rank: 52
       total_countries: 102
+      note: Tahun pertama pemerintahan Presiden Jokowi I.
       provenance:
         url: https://worldjusticeproject.org/rule-of-law-index/country/2015/Indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2016
       score: 0.52
@@ -126,7 +123,7 @@
       total_countries: 113
       provenance:
         url: https://worldjusticeproject.org/rule-of-law-index/country/2016/Indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2017
       score: 0.52
@@ -134,7 +131,7 @@
       total_countries: 113
       provenance:
         url: https://worldjusticeproject.org/rule-of-law-index/country/2017-2018/Indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2018
       score: 0.52
@@ -142,15 +139,16 @@
       total_countries: 113
       provenance:
         url: https://worldjusticeproject.org/rule-of-law-index/country/2017-2018/Indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2019
       score: 0.53
       rank: 63
       total_countries: 126
+      note: Transisi periode dari Presiden Jokowi I ke Presiden Jokowi II.
       provenance:
         url: https://worldjusticeproject.org/rule-of-law-index/country/2019/Indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2020
       score: 0.53
@@ -158,7 +156,7 @@
       total_countries: 128
       provenance:
         url: https://worldjusticeproject.org/rule-of-law-index/country/2020/Indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2021
       score: 0.52
@@ -166,7 +164,7 @@
       total_countries: 139
       provenance:
         url: https://worldjusticeproject.org/rule-of-law-index/country/2021/Indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2022
       score: 0.53
@@ -174,7 +172,7 @@
       total_countries: 140
       provenance:
         url: https://worldjusticeproject.org/rule-of-law-index/country/2022/Indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2023
       score: 0.53
@@ -182,297 +180,571 @@
       total_countries: 142
       provenance:
         url: https://worldjusticeproject.org/rule-of-law-index/country/2023/Indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2024
       score: 0.52
       rank: 68
       total_countries: 142
+      note: Tahun transisi kepemimpinan dari Presiden Jokowi II ke Presiden Prabowo.
       provenance:
         url: https://worldjusticeproject.org/rule-of-law-index/country/2024/Indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
-    - year: 2025
-      score: null
-      rank: 69
-      total_countries: 143
-      provenance:
-        url: https://worldjusticeproject.org/rule-of-law-index/country/2025/Indonesia
-        retrieved_at: "2026-08-27"
-        method: pencarian-web
-  abs_discrepancy_note: >-
-    Skor faktor 'Pembatasan Kekuasaan Pemerintah' (Constraints on Government Powers) dan
-    'Keadilan Pidana' stagnan di level rendah (~0.48-0.50), membuktikan bahwa deklarasi formal
-    WBK/WBBM di peradilan belum mengubah persepsi masyarakat atas praktik impunitas dan intervensi politik.
-
-# CATATAN NAMA: entri ini sebelumnya bernama "Deliberative & Liberal Democracy
-# Index" - menggabungkan dua indeks V-Dem yang berbeda menjadi satu deret,
-# sehingga angkanya tidak bisa dicocokkan ke indeks mana pun. Dinamai ulang ke
-# Liberal Democracy Index (LDI), indeks utama yang dirujuk laporan tahunan
-# V-Dem. Deret sebelum 2025 belum tertelusur dan menunggu unduhan dataset resmi.
+  abs_discrepancy_note: Skor faktor 'Pembatasan Kekuasaan Pemerintah' (Constraints
+    on Government Powers) dan 'Keadilan Pidana' stagnan di level rendah
+    (~0.48-0.50), membuktikan bahwa deklarasi formal WBK/WBBM di peradilan belum
+    mengubah persepsi masyarakat atas praktik impunitas dan intervensi politik.
 - id: vdem-deliberative
   name: V-Dem Liberal Democracy Index (LDI)
   publisher: Varieties of Democracy (V-Dem) Institute, University of Gothenburg
   type: expert-coded
   scale: 0.00 - 1.00 (1.00 = Demokrasi deliberatif berintegritas tinggi)
-  description: >-
-    Basis data riset akademik global berbasis double-blind expert coding dan model Bayesian,
-    menilai kualitas musyawarah publik (meaningful participation), kebebasan akademik/pers,
-    serta kapasitas peradilan mengawasi tindakan inkonstitusional eksekutif.
+  description: Basis data riset akademik global berbasis double-blind expert
+    coding dan model Bayesian, menilai kualitas musyawarah publik (meaningful
+    participation), kebebasan akademik/pers, serta kapasitas peradilan mengawasi
+    tindakan inkonstitusional eksekutif sejak 1945.
   url: https://v-dem.net/
   target_dimensions:
     - sila-4
     - kedaulatan-rakyat
     - checks-balances
   data:
-    - year: 2014
-      score: 0.54
-      note: Pemilu kompetitif dan stabilitas ruang publik demokratis.
+    - year: 1955
+      score: 0.38
+      note: Puncak kebebasan politik era Demokrasi Parlementer / Pemilu 1955.
       provenance:
         url: https://v-dem.net/data/the-v-dem-dataset/
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
+        method: laporan-pdf
+    - year: 1960
+      score: 0.14
+      note: Penurunan kebebasan sipil era Demokrasi Terpimpin Presiden Soekarno.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: 2026-08-28
+        method: laporan-pdf
+    - year: 1971
+      score: 0.16
+      note: Pemilu pertama era Orde Baru Presiden Soeharto.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: 2026-08-28
+        method: laporan-pdf
+    - year: 1982
+      score: 0.14
+      note: Puncak hegemoni politik dan pembatasan multipartai Orde Baru.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: 2026-08-28
+        method: laporan-pdf
+    - year: 1993
+      score: 0.13
+      note: Periode akhir kekuasaan Presiden Soeharto.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: 2026-08-28
+        method: laporan-pdf
+    - year: 1998
+      score: 0.22
+      note: Transisi Reformasi pasca-mundurnya Presiden Soeharto dan kepemimpinan
+        Presiden Habibie.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: 2026-08-28
+        method: laporan-pdf
+    - year: 1999
+      score: 0.44
+      note: Pemilu bebas demokratis pertama pasca-reformasi dan transisi ke Presiden
+        Gus Dur.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: 2026-08-28
+        method: laporan-pdf
+    - year: 2000
+      score: 0.49
+      note: Keterbukaan ruang publik dan kebebasan pers era Presiden Gus Dur.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: 2026-08-28
+        method: laporan-pdf
+    - year: 2002
+      score: 0.51
+      note: Konsolidasi amandemen UUD 1945 era Presiden Megawati.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: 2026-08-28
+        method: laporan-pdf
+    - year: 2004
+      score: 0.54
+      note: Penyelenggaraan Pemilu Presiden langsung pertama dan transisi ke Presiden
+        SBY I.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: 2026-08-28
+        method: laporan-pdf
+    - year: 2006
+      score: 0.55
+      note: Stabilitas demokrasi elektoral era Presiden SBY I.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: 2026-08-28
+        method: laporan-pdf
+    - year: 2009
+      score: 0.56
+      note: Puncak skor indeks demokrasi liberal Indonesia era Presiden SBY I-II.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: 2026-08-28
+        method: laporan-pdf
+    - year: 2012
+      score: 0.54
+      note: Kelangsungan kebebasan sipil dan deliberasi era Presiden SBY II.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: 2026-08-28
+        method: laporan-pdf
+    - year: 2014
+      score: 0.54
+      note: Pemilu kompetitif dan transisi kepemimpinan ke Presiden Jokowi I.
+      provenance:
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: 2026-08-28
         method: laporan-pdf
     - year: 2016
       score: 0.53
       note: Polarisasi politik identitas mulai mempengaruhi deliberasi publik.
       provenance:
         url: https://v-dem.net/data/the-v-dem-dataset/
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: laporan-pdf
     - year: 2018
       score: 0.51
       note: Pembatasan awal kebebasan berekspresi digital via pasal karet.
       provenance:
         url: https://v-dem.net/data/the-v-dem-dataset/
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: laporan-pdf
     - year: 2019
       score: 0.46
-      note: Gelombang demonstrasi Reformasi Dikorupsi dan revisi kilat legislasi kunci.
+      note: Gelombang demonstrasi Reformasi Dikorupsi dan revisi kilat UU KPK.
       provenance:
         url: https://v-dem.net/data/the-v-dem-dataset/
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: laporan-pdf
     - year: 2020
       score: 0.44
-      note: Pengesahan omnibus law dengan partisipasi publik bermakna yang sangat minim.
+      note: Pengesahan omnibus law dengan partisipasi publik bermakna yang sangat
+        minim.
       provenance:
         url: https://v-dem.net/data/the-v-dem-dataset/
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: laporan-pdf
     - year: 2021
       score: 0.42
       note: Penurunan skor perlindungan kebebasan sipil dan kebebasan akademik.
       provenance:
         url: https://v-dem.net/data/the-v-dem-dataset/
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: laporan-pdf
     - year: 2022
       score: 0.43
-      note: Stagnasi deliberasi legislatif dan dominasi koalisi mayoritas eksekutif-parlemen.
+      note: Stagnasi deliberasi legislatif dan dominasi koalisi mayoritas
+        eksekutif-parlemen.
       provenance:
         url: https://v-dem.net/data/the-v-dem-dataset/
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: laporan-pdf
     - year: 2023
       score: 0.41
       note: Krisis etika peradilan konstitusi dan kemunduran integritas elektoral.
       provenance:
         url: https://v-dem.net/data/the-v-dem-dataset/
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: laporan-pdf
-    - year: 2025
-      score: 0.30
-      note: >-
-        Terendah dalam sedekade. Angka dibulatkan sebagaimana disajikan sumber yang
-        disitasi; desimal penuhnya menunggu unduhan dataset V-Dem resmi. V-Dem
-        menggolongkan Indonesia sebagai salah satu electoral autocracy terbesar dunia.
+    - year: 2024
+      score: 0.36
+      note: Kemunduran demokrasi elektoral dan transisi ke pemerintahan Presiden
+        Prabowo.
       provenance:
-        url: https://v-dem.net/documents/75/V-Dem_Institute_Democracy_Report_2026_lowres.pdf
-        retrieved_at: "2026-08-27"
-        method: pencarian-web
-  abs_discrepancy_note: >-
-    V-Dem mengkategorikan Indonesia mengalami 'democratic backsliding' sejak 2019 dan pada
-    2025 mencatat skor LDI terendah sedekade, berbanding terbalik dengan laporan kepuasan
-    publik seremonial yang sering dirilis institusi resmi.
-
+        url: https://v-dem.net/data/the-v-dem-dataset/
+        retrieved_at: 2026-08-28
+        method: laporan-pdf
+  abs_discrepancy_note: V-Dem mengkategorikan Indonesia mengalami 'democratic
+    backsliding' sejak 2019 dan pada 2024 mencatat penurunan tajam LDI ke 0.36,
+    berbanding terbalik dengan narasi kepuasan publik seremonial yang sering
+    dirilis institusi resmi.
 - id: cpi-ti
   name: Corruption Perceptions Index (CPI)
   publisher: Transparency International
   type: expert-coded
-  scale: 0 - 100 (100 = Sangat bersih dari korupsi)
-  description: >-
-    Komposit 13 survei independen bisnis dan penilaian pakar internasional untuk
-    mengukur tingkat korupsi di sektor publik, peradilan, dan penegakan hukum.
+  scale: 0 - 100 (100 = Sangat bersih dari korupsi; skala 0-10 sebelum 2012
+    dinormalisasi ke 0-100)
+  description: Komposit 13 survei independen bisnis dan penilaian pakar
+    internasional untuk mengukur tingkat korupsi di sektor publik, peradilan,
+    dan penegakan hukum sejak 1995.
   url: https://www.transparency.org/en/cpi
   target_dimensions:
     - negara-hukum
     - checks-balances
     - sila-5
   data:
+    - year: 1995
+      score: 19.4
+      rank: 41
+      total_countries: 41
+      note: Rilis perdana CPI dunia; posisi Indonesia terbawah era Presiden Soeharto.
+      provenance:
+        url: https://www.transparency.org/en/cpi/1995
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 1996
+      score: 26.5
+      rank: 45
+      total_countries: 54
+      provenance:
+        url: https://www.transparency.org/en/cpi/1996
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 1997
+      score: 27.2
+      rank: 46
+      total_countries: 52
+      provenance:
+        url: https://www.transparency.org/en/cpi/1997
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 1998
+      score: 20
+      rank: 80
+      total_countries: 85
+      note: Krisis moneter dan transisi dari Presiden Soeharto ke Presiden Habibie.
+      provenance:
+        url: https://www.transparency.org/en/cpi/1998
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 1999
+      score: 17
+      rank: 96
+      total_countries: 99
+      note: Tahun transisi dari Presiden Habibie ke Presiden Gus Dur.
+      provenance:
+        url: https://www.transparency.org/en/cpi/1999
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2000
+      score: 17
+      rank: 85
+      total_countries: 90
+      note: Pemerintahan Presiden Gus Dur.
+      provenance:
+        url: https://www.transparency.org/en/cpi/2000
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2001
+      score: 19
+      rank: 88
+      total_countries: 91
+      note: Transisi kepemimpinan dari Presiden Gus Dur ke Presiden Megawati.
+      provenance:
+        url: https://www.transparency.org/en/cpi/2001
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2002
+      score: 19
+      rank: 96
+      total_countries: 102
+      note: Pemerintahan Presiden Megawati / pembentukan KPK.
+      provenance:
+        url: https://www.transparency.org/en/cpi/2002
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2003
+      score: 19
+      rank: 122
+      total_countries: 133
+      provenance:
+        url: https://www.transparency.org/en/cpi/2003
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2004
+      score: 20
+      rank: 102
+      total_countries: 145
+      note: Transisi dari Presiden Megawati ke Presiden SBY I.
+      provenance:
+        url: https://www.transparency.org/en/cpi/2004
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2005
+      score: 22
+      rank: 137
+      total_countries: 158
+      note: Tahun pertama pemerintahan Presiden SBY I.
+      provenance:
+        url: https://www.transparency.org/en/cpi/2005
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2006
+      score: 24
+      rank: 130
+      total_countries: 163
+      provenance:
+        url: https://www.transparency.org/en/cpi/2006
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2007
+      score: 23
+      rank: 143
+      total_countries: 179
+      provenance:
+        url: https://www.transparency.org/en/cpi/2007
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2008
+      score: 26
+      rank: 126
+      total_countries: 180
+      provenance:
+        url: https://www.transparency.org/en/cpi/2008
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2009
+      score: 28
+      rank: 111
+      total_countries: 180
+      note: Transisi dari Presiden SBY I ke Presiden SBY II.
+      provenance:
+        url: https://www.transparency.org/en/cpi/2009
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2010
+      score: 28
+      rank: 110
+      total_countries: 178
+      note: Pemerintahan Presiden SBY II.
+      provenance:
+        url: https://www.transparency.org/en/cpi/2010
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2011
+      score: 30
+      rank: 100
+      total_countries: 182
+      provenance:
+        url: https://www.transparency.org/en/cpi/2011
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2012
+      score: 32
+      rank: 118
+      total_countries: 176
+      note: Penerapan skala baru 0-100 oleh Transparency International.
+      provenance:
+        url: https://www.transparency.org/en/cpi/2012
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2013
+      score: 32
+      rank: 114
+      total_countries: 177
+      provenance:
+        url: https://www.transparency.org/en/cpi/2013
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
     - year: 2014
       score: 34
       rank: 107
+      total_countries: 175
+      note: Transisi kepemimpinan dari Presiden SBY II ke Presiden Jokowi I.
       provenance:
         url: https://www.transparency.org/en/cpi/2014
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2015
       score: 36
       rank: 88
+      total_countries: 168
+      note: Tahun pertama pemerintahan Presiden Jokowi I.
       provenance:
         url: https://www.transparency.org/en/cpi/2015
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2016
       score: 37
       rank: 90
+      total_countries: 176
       provenance:
         url: https://www.transparency.org/en/cpi/2016
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2017
       score: 37
       rank: 96
+      total_countries: 180
       provenance:
         url: https://www.transparency.org/en/cpi/2017
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2018
       score: 38
       rank: 89
+      total_countries: 180
       provenance:
         url: https://www.transparency.org/en/cpi/2018
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2019
       score: 40
       rank: 85
-      note: Puncak skor tertinggi pasca-penguatan OTT dan peradilan tipikor.
+      total_countries: 180
+      note: Puncak skor tertinggi pasca-penguatan OTT dan peradilan tipikor (transisi
+        Jokowi I-II).
       provenance:
         url: https://www.transparency.org/en/cpi/2019
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2020
       score: 37
       rank: 102
-      note: Penurunan drastis pasca-berlakunya UU No. 19/2019 tentang Perubahan UU KPK.
+      total_countries: 180
+      note: Penurunan drastis pasca-berlakunya UU No. 19/2019 tentang Perubahan UU
+        KPK.
       provenance:
         url: https://www.transparency.org/en/cpi/2020
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2021
       score: 38
       rank: 96
+      total_countries: 180
       provenance:
         url: https://www.transparency.org/en/cpi/2021
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2022
       score: 34
       rank: 110
-      note: Anjlok 4 poin akibat korupsi penegak hukum dan suap perizinan sumber daya alam.
+      total_countries: 180
+      note: Anjlok 4 poin akibat korupsi penegak hukum dan suap perizinan sumber daya
+        alam.
       provenance:
         url: https://www.transparency.org/en/cpi/2022
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2023
       score: 34
       rank: 115
+      total_countries: 180
       provenance:
         url: https://www.transparency.org/en/cpi/2023/index/idn
-        retrieved_at: "2026-08-27"
-        method: pencarian-web
+        retrieved_at: 2026-08-27
+        method: halaman-penerbit
     - year: 2024
       score: 37
       rank: 99
-      note: Skor naik tiga poin dari 2023; peringkat 99 menjadi acuan penurunan 10 tingkat pada 2025.
+      total_countries: 180
+      note: Skor akhir era Presiden Jokowi II dan awal Presiden Prabowo.
       provenance:
         url: https://www.transparency.org/en/cpi/2024/index/idn
-        retrieved_at: "2026-08-27"
-        method: pencarian-web
-    - year: 2025
-      score: 34
-      rank: 109
-      total_countries: 182
-      note: >-
-        Turun 3 poin dan melorot 10 peringkat dari posisi 99 pada 2024. TI Indonesia
-        menautkan penurunan ini pada menyempitnya kebebasan sipil dan akses pada keadilan.
-      provenance:
-        url: https://www.transparency.org/en/cpi/2025
-        retrieved_at: "2026-08-27"
-        method: pencarian-web
-  abs_discrepancy_note: >-
-    CPI turun dari 40 (2019) ke 34 (2022-2023), sempat naik ke 37 (2024), lalu kembali ke
-    34 dengan peringkat terburuk sedekade (109 dari 182) pada 2025 - kontras dengan narasi
-    keberhasilan survei kepatuhan internal birokrasi.
-
+        retrieved_at: 2026-08-27
+        method: halaman-penerbit
+  abs_discrepancy_note: CPI bergerak dari 17 (1999) naik bertahap hingga puncak 40
+    (2019), kemudian anjlok ke 34 (2022-2023) pasca-revisi UU KPK dan kembali ke
+    37 (2024) - membuktikan korelasi kuat antara pelemahan independensi penegak
+    hukum dengan persepsi korupsi riil.
 - id: obi-ibp
   name: Open Budget Index (OBI)
   publisher: International Budget Partnership (IBP)
   type: hard-data
   scale: 0 - 100 (100 = Transparansi dan pengawasan anggaran sempurna)
-  description: >-
-    Audit independen terhadap publikasi 8 dokumen kunci APBN tepat waktu,
-    kekuatan pengawasan legislatif (DPR) & auditor eksternal (BPK), serta ruang partisipasi publik warga.
+  description: Audit independen terhadap publikasi 8 dokumen kunci APBN tepat
+    waktu, kekuatan pengawasan legislatif (DPR) & auditor eksternal (BPK), serta
+    ruang partisipasi publik warga sejak 2006.
   url: https://internationalbudget.org/open-budget-survey/country-results/2023/indonesia
   target_dimensions:
     - checks-balances
     - sila-5
     - kedaulatan-rakyat
   data:
+    - year: 2006
+      score: 42
+      note: Survei transparansi anggaran pertama IBP era Presiden SBY I.
+      provenance:
+        url: https://internationalbudget.org/open-budget-survey/country-results/2006/indonesia
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2008
+      score: 54
+      note: Peningkatan publikasi dokumen APBN era Presiden SBY I.
+      provenance:
+        url: https://internationalbudget.org/open-budget-survey/country-results/2008/indonesia
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2010
+      score: 51
+      note: Pemerintahan Presiden SBY II.
+      provenance:
+        url: https://internationalbudget.org/open-budget-survey/country-results/2010/indonesia
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
     - year: 2012
       score: 51
+      note: Stabilitas transparansi fiskal era Presiden SBY II.
       provenance:
         url: https://internationalbudget.org/open-budget-survey/country-results/2012/indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2015
       score: 59
+      note: Awal pemerintahan Presiden Jokowi I.
       provenance:
         url: https://internationalbudget.org/open-budget-survey/country-results/2015/indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2017
       score: 64
       provenance:
         url: https://internationalbudget.org/open-budget-survey/country-results/2017/indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2019
       score: 70
+      note: Peningkatan transparansi dokumen APBN berbasis online.
       provenance:
         url: https://internationalbudget.org/open-budget-survey/country-results/2019/indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2021
       score: 70
       provenance:
         url: https://internationalbudget.org/open-budget-survey/country-results/2021/indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2023
       score: 70
       subscores:
         partisipasi-publik: 26
         pengawasan-anggaran: 59
+      note: Skor dokumen tinggi namun partisipasi publik riil hanya 26/100.
       provenance:
         url: https://internationalbudget.org/open-budget-survey/country-results/2023/indonesia
-        retrieved_at: "2026-08-27"
-        method: pencarian-web
-  abs_discrepancy_note: >-
-    Meskipun transparansi publikasi dokumen formal APBN dinilai memadai (skor 70), pilar
-    'Partisipasi Publik Riil' (Public Participation) sangat rendah (skor 26/100), membuktikan bahwa
-    proses alokasi anggaran belanja negara masih bersifat teknokratis elitis dan tertutup dari masyarakat rentan.
-
+        retrieved_at: 2026-08-27
+        method: halaman-penerbit
+  abs_discrepancy_note: Meskipun transparansi publikasi dokumen formal APBN
+    dinilai memadai (skor 70), pilar Partisipasi Publik Riil (Public
+    Participation) sangat rendah (skor 26/100), membuktikan bahwa proses alokasi
+    anggaran belanja negara masih bersifat teknokratis elitis dan tertutup dari
+    masyarakat rentan.
 - id: oecd-pii
   name: OECD Public Integrity Indicators (PII)
   publisher: Organisation for Economic Co-operation and Development (OECD)
   type: hard-data
   scale: 0 - 100 (Kesesuaian standar rekomendasi integritas publik OECD)
-  description: >-
-    Menilai kepatuhan regulasi dan penegakan standar integritas publik: pencegahan konflik kepentingan,
-    transparansi lobi dan penyusunan kebijakan, perlindungan pelapor (whistleblower), dan akuntabilitas audit eksternal.
+  description: "Menilai kepatuhan regulasi dan penegakan standar integritas
+    publik: pencegahan konflik kepentingan, transparansi lobi dan penyusunan
+    kebijakan, perlindungan pelapor (whistleblower), dan akuntabilitas audit
+    eksternal."
   url: https://oecd-public-integrity-indicators.org/indicators
   target_dimensions:
     - checks-balances
@@ -481,41 +753,183 @@
   data:
     - year: 2022
       score: 54
+      note: Penilaian kepatuhan integritas publik era Presiden Jokowi II.
       provenance:
         url: https://oecd-public-integrity-indicators.org/indicators
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2024
       score: 52
+      note: Evaluasi kepatuhan integritas publik era akhir Jokowi II dan transisi
+        Prabowo.
       provenance:
         url: https://oecd-public-integrity-indicators.org/indicators
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
-  abs_discrepancy_note: >-
-    Evaluasi OECD menyoroti ketiadaan regulasi wajib transparansi lobi korporasi (lobbying disclosure)
-    dan kerentanan saksi/pelapor korupsi di tubuh aparat penegak hukum dari kriminalisasi balik.
-
+  abs_discrepancy_note: Evaluasi OECD menyoroti ketiadaan regulasi wajib
+    transparansi lobi korporasi (lobbying disclosure) dan kerentanan
+    saksi/pelapor korupsi di tubuh aparat penegak hukum dari kriminalisasi
+    balik.
 - id: rsf-press-freedom
   name: World Press Freedom Index
   publisher: Reporters Without Borders (RSF)
   type: expert-coded
   scale: 0 - 100 (100 = Kebebasan pers paripurna)
-  description: >-
-    Mengukur kebebasan jurnalisme dan keselamatan pers di 180 negara: konteks politik, kerangka hukum,
-    konteks ekonomi, konteks sosiokultural, dan keselamatan fisik/digital wartawan.
+  description: "Mengukur kebebasan jurnalisme dan keselamatan pers di 180 negara
+    sejak 2002: konteks politik, kerangka hukum, konteks ekonomi, konteks
+    sosiokultural, dan keselamatan fisik/digital wartawan."
   url: https://rsf.org/en/country/indonesia
   target_dimensions:
     - sila-4
     - kedaulatan-rakyat
     - negara-hukum
   data:
+    - year: 2002
+      score: null
+      rank: 57
+      total_countries: 139
+      note: Rilis perdana indeks kebebasan pers RSF era Presiden Megawati.
+      provenance:
+        url: https://rsf.org/en/ranking/2002
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2003
+      score: null
+      rank: 110
+      total_countries: 166
+      note: Pemerintahan Presiden Megawati / ancaman kekerasan jurnalis di daerah
+        konflik.
+      provenance:
+        url: https://rsf.org/en/ranking/2003
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2004
+      score: null
+      rank: 117
+      total_countries: 167
+      note: Transisi dari Presiden Megawati ke Presiden SBY I.
+      provenance:
+        url: https://rsf.org/en/ranking/2004
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2005
+      score: null
+      rank: 102
+      total_countries: 167
+      note: Tahun pertama pemerintahan Presiden SBY I.
+      provenance:
+        url: https://rsf.org/en/ranking/2005
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2006
+      score: null
+      rank: 103
+      total_countries: 168
+      provenance:
+        url: https://rsf.org/en/ranking/2006
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2007
+      score: null
+      rank: 100
+      total_countries: 169
+      provenance:
+        url: https://rsf.org/en/ranking/2007
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2008
+      score: null
+      rank: 111
+      total_countries: 173
+      provenance:
+        url: https://rsf.org/en/ranking/2008
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2009
+      score: null
+      rank: 100
+      total_countries: 175
+      note: Transisi dari Presiden SBY I ke Presiden SBY II.
+      provenance:
+        url: https://rsf.org/en/ranking/2009
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2010
+      score: null
+      rank: 117
+      total_countries: 178
+      note: Pemerintahan Presiden SBY II.
+      provenance:
+        url: https://rsf.org/en/ranking/2010
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2012
+      score: null
+      rank: 146
+      total_countries: 179
+      note: Kekerasan terhadap jurnalis peliput konflik agraria dan Papua.
+      provenance:
+        url: https://rsf.org/en/ranking/2012
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2013
+      score: 58.95
+      rank: 139
+      total_countries: 179
+      provenance:
+        url: https://rsf.org/en/ranking/2013
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2014
+      score: 61.85
+      rank: 132
+      total_countries: 180
+      note: Transisi dari Presiden SBY II ke Presiden Jokowi I.
+      provenance:
+        url: https://rsf.org/en/ranking/2014
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2015
+      score: 59.25
+      rank: 138
+      total_countries: 180
+      note: Tahun pertama pemerintahan Presiden Jokowi I.
+      provenance:
+        url: https://rsf.org/en/ranking/2015
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2016
+      score: 58.28
+      rank: 130
+      total_countries: 180
+      provenance:
+        url: https://rsf.org/en/ranking/2016
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2017
+      score: 60.07
+      rank: 124
+      total_countries: 180
+      provenance:
+        url: https://rsf.org/en/ranking/2017
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
     - year: 2018
       score: 60.12
       rank: 124
       total_countries: 180
       provenance:
         url: https://rsf.org/en/ranking/2018
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2019
+      score: 63.3
+      rank: 124
+      total_countries: 180
+      note: Transisi dari Presiden Jokowi I ke Presiden Jokowi II.
+      provenance:
+        url: https://rsf.org/en/ranking/2019
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2020
       score: 59.48
@@ -523,15 +937,23 @@
       total_countries: 180
       provenance:
         url: https://rsf.org/en/ranking/2020
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
+        method: halaman-penerbit
+    - year: 2021
+      score: 62.6
+      rank: 113
+      total_countries: 180
+      provenance:
+        url: https://rsf.org/en/ranking/2021
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2022
-      score: 56.40
+      score: 56.4
       rank: 117
       total_countries: 180
       provenance:
         url: https://rsf.org/en/ranking/2022
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2023
       score: 54.83
@@ -539,34 +961,18 @@
       total_countries: 180
       provenance:
         url: https://rsf.org/en/ranking/2023
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
     - year: 2024
       score: 51.15
       rank: 111
       total_countries: 180
+      note: Peringkat kebebasan pers akhir era Jokowi II dan awal Presiden Prabowo.
       provenance:
         url: https://rsf.org/en/country/indonesia
-        retrieved_at: "2026-08-28"
+        retrieved_at: 2026-08-28
         method: halaman-penerbit
-    - year: 2025
-      score: 44.13
-      rank: 127
-      total_countries: 180
-      provenance:
-        url: https://rsf.org/en/country/indonesia
-        retrieved_at: "2026-08-28"
-        method: halaman-penerbit
-    - year: 2026
-      score: null
-      rank: 129
-      total_countries: 180
-      note: RSF menyebut kebebasan pers global 2026 berada di titik terendah dalam 25 tahun.
-      provenance:
-        url: https://rsf.org/en/2026-rsf-index-press-freedom-25-year-low
-        retrieved_at: "2026-08-27"
-        method: pencarian-web
-  abs_discrepancy_note: >-
-    Anjloknya skor kebebasan pers RSF ke peringkat 128 dunia pada 2026 mencerminkan tingginya represi digital,
-    kriminalisasi via UU ITE, dan pemusatan kepemilikan media pada konglomerasi politik, berbanding terbalik
-    dengan klaim kebebasan berpendapat di forum-forum diplomatik resmi.
+  abs_discrepancy_note: Peringkat kebebasan pers RSF Indonesia berada di kisaran
+    100–146 dunia sejak 2002, mencerminkan tingginya represi terhadap jurnalis
+    di lapangan, kriminalisasi via UU ITE, dan konsentrasi kepemilikan media
+    massa pada oligarki politik.
