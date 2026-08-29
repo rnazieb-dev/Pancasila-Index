@@ -22,6 +22,7 @@ const NAV_DATA: { href: string; key: UiKey }[] = [
   { href: "/ekspor", key: "navExport" },
   { href: "/api-docs", key: "navApiDocs" },
   { href: "/peer-review/draf", key: "navMyDrafts" },
+  { href: "/peer-review/import-data", key: "navAuditData" },
 ];
 
 /* ─── Helpers ─── */
