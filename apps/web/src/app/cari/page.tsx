@@ -4,6 +4,37 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { dataset } from "@pancasila-index/data";
 
+const AKAR_SEJARAH_DATA = [
+  {
+    "year": "1905",
+    "title": "Syarikat Dagang Islam (SDI) didirikan di Surakarta",
+    "summary": "H. Samanhudi mendirikan SDI sebagai pelopor perserikatan pribumi berbasis etika ekonomi Islam dan perlawanan terhadap monopoli kolonial.",
+    "link": "/akar-sejarah#sdi-1905",
+    "category": "Pergerakan Nasional"
+  },
+  {
+    "year": "1912",
+    "title": "Syarikat Islam (SI) di bawah H.O.S. Tjokroaminoto",
+    "summary": "Transformasi SDI menjadi SI yang menyatukan jutaan rakyat bumiputera, meletakkan fondasi kesadaran berbangsa, musyawarah, dan kedaulatan umat.",
+    "link": "/akar-sejarah#si-1912",
+    "category": "Genealogi Demokrasi"
+  },
+  {
+    "year": "1945",
+    "title": "Piagam Jakarta (Jakarta Charter) - BPUPK",
+    "summary": "Konsensus Panitia Sembilan yang menjembatani kelompok kebangsaan dan Islam, memuat kalimat Ketuhanan dan norma keadilan.",
+    "link": "/akar-sejarah#piagam-jakarta-1945",
+    "category": "Konsensus Pembukaan UUD"
+  },
+  {
+    "year": "1959",
+    "title": "Dekrit Presiden 5 Juli 1959",
+    "summary": "Kembali ke UUD 1945 dengan konsiderans bahwa Piagam Jakarta menjiwai UUD 1945 dan merupakan satu kesatuan dengan konstitusi.",
+    "link": "/akar-sejarah#dekrit-1959",
+    "category": "Landasan Konstitusi"
+  }
+];
+
 export default function CariPage() {
   const [query, setQuery] = useState("");
   const [selectedEra, setSelectedEra] = useState<string>("all");
@@ -59,7 +90,42 @@ export default function CariPage() {
       );
     });
 
-    // 4. Pasal UUD
+    
+    // 4. Tokoh Bangsa / Aktor
+    const matchingActors = (dataset.actors || []).filter((actor) => {
+      if (!q) return true;
+      const aliasesMatch = (actor.aliases || []).some(a => a.toLowerCase().includes(q));
+      const rolesMatch = (actor.roles || []).some(r => r.title_id?.toLowerCase().includes(q));
+      return (
+        actor.name.toLowerCase().includes(q) ||
+        (actor.bio_id && actor.bio_id.toLowerCase().includes(q)) ||
+        aliasesMatch ||
+        rolesMatch
+      );
+    });
+
+    // 5. Akar Sejarah
+    const matchingHistory = AKAR_SEJARAH_DATA.filter((h) => {
+      if (!q) return true;
+      return (
+        h.title.toLowerCase().includes(q) ||
+        h.summary.toLowerCase().includes(q) ||
+        h.year.includes(q) ||
+        h.category.toLowerCase().includes(q)
+      );
+    });
+
+    // 6. Dimensi Rubrik
+    const matchingDimensions = dataset.rubric.dimensions.filter((dim) => {
+      if (!q) return true;
+      return (
+        dim.name_id.toLowerCase().includes(q) ||
+        dim.question_id.toLowerCase().includes(q) ||
+        dim.id.toLowerCase().includes(q)
+      );
+    });
+
+    // 7. Pasal UUD
     const matchingPasal: Array<{ nomor: string; babNomor: string; ringkas_id: string }> = [];
     for (const bab of dataset.uud.babs) {
       for (const p of bab.pasal) {
@@ -73,6 +139,9 @@ export default function CariPage() {
       events: matchingEvents,
       sources: matchingSources,
       terms: matchingTerms,
+      actors: matchingActors,
+      history: matchingHistory,
+      dimensions: matchingDimensions,
       pasal: matchingPasal,
     };
   }, [query, selectedEra, selectedInstitution, termsById]);
@@ -303,6 +372,85 @@ export default function CariPage() {
                   </Link>
                 );
               })}
+            </div>
+          </section>
+        )}
+
+        
+        {/* Tokoh Bangsa */}
+        {(categoryFilter === "all" || categoryFilter === "actor") && results.actors.length > 0 && (
+          <section>
+            <h2 className="text-base font-bold text-amber-500 uppercase tracking-wide">
+              Tokoh Bangsa & Aktor ({results.actors.length})
+            </h2>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 md:grid-cols-3">
+              {results.actors.slice(0, 30).map((actor) => (
+                <Link
+                  key={actor.id}
+                  href={`/aktor/${actor.id}`}
+                  className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 hover:border-slate-500 transition block space-y-1"
+                >
+                  <div className="font-bold text-sm text-[var(--text)]">{actor.name}</div>
+                  {actor.roles && actor.roles.length > 0 && (
+                    <div className="text-xs text-[var(--acc-amber)]">
+                      {actor.roles.map(r => r.title_id).filter(Boolean).join(" · ")}
+                    </div>
+                  )}
+                  {actor.bio_id && (
+                    <p className="text-xs text-[var(--muted)] line-clamp-2 mt-1 leading-relaxed">
+                      {actor.bio_id}
+                    </p>
+                  )}
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Akar Sejarah */}
+        {(categoryFilter === "all" || categoryFilter === "history") && results.history.length > 0 && (
+          <section>
+            <h2 className="text-base font-bold text-emerald-500 uppercase tracking-wide">
+              Akar Sejarah & Genealogi Konstitusi ({results.history.length})
+            </h2>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2">
+              {results.history.map((h) => (
+                <Link
+                  key={h.year}
+                  href={h.link}
+                  className="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-4 hover:border-emerald-400 transition block space-y-1.5"
+                >
+                  <div className="flex justify-between items-center text-xs">
+                    <span className="font-bold text-emerald-400">{h.year} · {h.category}</span>
+                    <span className="text-[10px] text-emerald-400 underline">Lihat Linimasa &rarr;</span>
+                  </div>
+                  <div className="font-bold text-sm text-[var(--text)]">{h.title}</div>
+                  <p className="text-xs text-[var(--muted)] leading-relaxed">{h.summary}</p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Dimensi Rubrik */}
+        {(categoryFilter === "all" || categoryFilter === "dimension") && results.dimensions.length > 0 && (
+          <section>
+            <h2 className="text-base font-bold text-purple-400 uppercase tracking-wide">
+              Dimensi Rubrik UUD 1945 ({results.dimensions.length})
+            </h2>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2">
+              {results.dimensions.map((dim) => (
+                <div
+                  key={dim.id}
+                  className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 space-y-1"
+                >
+                  <div className="text-xs font-bold text-purple-400 uppercase tracking-wide">
+                    {dim.id}
+                  </div>
+                  <div className="font-bold text-sm text-[var(--text)]">{dim.name_id}</div>
+                  <p className="text-xs text-[var(--muted)] leading-relaxed mt-1">{dim.question_id}</p>
+                </div>
+              ))}
             </div>
           </section>
         )}

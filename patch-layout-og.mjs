@@ -1,12 +1,9 @@
-import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import "./globals.css";
+import fs from 'fs';
 
-import { AppChrome } from "@/components/app-chrome";
-import { LocaleProvider } from "@/components/locale-provider";
+const path = 'apps/web/src/app/layout.tsx';
+let content = fs.readFileSync(path, 'utf8');
 
-export const metadata: Metadata = {
+const newMetadata = `export const metadata: Metadata = {
   metadataBase: new URL("https://www.pancasila.site"),
   title: {
     default: "Pancasila Index — Penilaian Kepatuhan Konstitusional Berbasis Bukti",
@@ -40,22 +37,9 @@ export const metadata: Metadata = {
     title: "Pancasila Index — Penilaian Kepatuhan Konstitusional Berbasis Bukti",
     description: "Menilai kesetiaan 8 organ konstitusional Indonesia pada Pancasila dan UUD 1945 berbasis bukti primer berkuorum.",
   },
-};
+};`;
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="id">
-      <body className="min-h-screen flex flex-col antialiased">
-        <LocaleProvider>
-          <AppChrome>{children}</AppChrome>
-        </LocaleProvider>
-        <Analytics />
-        <SpeedInsights />
-      </body>
-    </html>
-  );
-}
+content = content.replace(/export const metadata: Metadata = {[\s\S]*?};/, newMetadata);
+
+fs.writeFileSync(path, content, 'utf8');
+console.log("Root layout OpenGraph metadata enhanced!");

@@ -18,6 +18,22 @@ const SERIES_TEXT_COLORS = [
   "var(--series-5)",
 ];
 
+
+const SHORT_DIMENSION_LABELS: Record<string, string> = {
+  "sila-1": "Sila 1: Ketuhanan",
+  "sila-2": "Sila 2: Kemanusiaan",
+  "sila-3": "Sila 3: Persatuan",
+  "sila-4": "Sila 4: Kerakyatan",
+  "sila-5": "Sila 5: Keadilan",
+  "tujuan-1": "T1: Lindungi Bangsa",
+  "tujuan-2": "T2: Kesejahteraan",
+  "tujuan-3": "T3: Cerdaskan",
+  "tujuan-4": "T4: Ketertiban Dunia",
+  "negara-hukum": "N1: Negara Hukum",
+  "checks-balances": "N2: Checks & Balances",
+  "kedaulatan-rakyat": "N3: Kedaulatan Rakyat",
+};
+
 const PRESET_COLORS = [
   "#38bdf8", // sky
   "#f43f5e", // rose
@@ -82,10 +98,7 @@ export default function BandingkanPage() {
         ? dataset.rubric.dimensions.filter((d) => d.group_id === "sila")
         : dataset.rubric.dimensions;
 
-    const labels =
-      mode === "sila"
-        ? dims.map((d) => `Sila ${d.id.replace("sila-", "")}`)
-        : dims.map((d) => d.name_id);
+    const labels = dims.map((d) => SHORT_DIMENSION_LABELS[d.id] || d.name_id);
 
     const series: RadarSeries[] = selectedTermIds.map((termId, idx) => {
       const term = termsById.get(termId);
@@ -240,8 +253,18 @@ export default function BandingkanPage() {
 
       {/* Radar Chart Overlay */}
       <section className="mt-10 grid grid-cols-1 lg:grid-cols-[380px_1fr] gap-6 sm:gap-8 items-center rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 sm:p-6">
-        <div className="w-full flex justify-center py-2 sm:py-4">
+        <div className="w-full flex flex-col items-center py-2">
           <MultiRadarChart labels={radarLabels} series={visibleSeries} />
+          {mode === "all" && (
+            <div className="mt-3 w-full text-[11px] text-[var(--muted)] bg-[var(--bg)] p-2.5 rounded-lg border border-[var(--line)]">
+              <div className="font-semibold text-[var(--text)] mb-1">Keterangan Kode Sumbu Radar:</div>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-1">
+                <div><strong>Sila 1–5:</strong> Nilai Pancasila</div>
+                <div><strong>T1–T4:</strong> Tujuan Bernegara (Alinea IV)</div>
+                <div><strong>N1–N3:</strong> Norma Struktural (UUD 1945)</div>
+              </div>
+            </div>
+          )}
         </div>
 
         <div className="space-y-4">
