@@ -4,7 +4,7 @@
   "private": true,
   "license": "AGPL-3.0-only",
   "type": "module",
-  "main": "./src/heuristic.ts",
+  "main": "./src/index.ts",
   "scripts": {
     "suggest": "tsx scripts/suggest.mts",
     "corpus-suggest": "tsx scripts/corpus-suggest.mts",

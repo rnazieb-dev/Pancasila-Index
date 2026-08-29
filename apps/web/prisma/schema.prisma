@@ -82,3 +82,25 @@ model AuditLog {
 
   @@index([entity, entityId])
 }
+
+enum RadarStatus {
+  PENDING
+  AUDITED
+  IGNORED
+}
+
+model CkanRadarItem {
+  id                String      @id @default(cuid())
+  resourceId        String      @unique
+  packageId         String
+  title             String
+  agency            String
+  metadata          Json?
+  aiExtractedClaim  String?
+  relevantDimension String?
+  status            RadarStatus @default(PENDING)
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @default(now()) @updatedAt
+
+  @@index([status, createdAt])
+}

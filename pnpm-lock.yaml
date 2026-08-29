@@ -20,6 +20,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@pancasila-index/ai':
+        specifier: workspace:*
+        version: link:../../packages/ai
       '@pancasila-index/core':
         specifier: workspace:*
         version: link:../../packages/core

@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@pancasila-index/core": "workspace:*",
+    "@pancasila-index/ai": "workspace:*",
     "@pancasila-index/data": "workspace:*",
     "@prisma/client": "^6.2.1",
     "@vercel/analytics": "^2.0.1",
