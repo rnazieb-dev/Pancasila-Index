@@ -55,7 +55,7 @@ export default function PeerReviewPage() {
         </p>
         <ol className="mt-6 space-y-4">
           {[
-            { n: "1", title: "Submisi Usulan", desc: "Kontributor mengisi formulir web: pilih organ & periode, lampirkan bukti primer (URL resmi JDIH/MK/MA/BPS), tulis argumentasi normatif, dan tanda tangani Pakta Integritas." },
+            { n: "1", title: "Submisi Usulan", desc: "Kontributor mengisi formulir web: pilih organ & periode, lampirkan bukti empiris (Dokumen Negara/Jurnal Akademik/Berita Kredibel), tulis argumentasi normatif, dan tanda tangani Pakta Integritas." },
             { n: "2", title: "Verifikasi Awal (Otomatis)", desc: "Sistem memvalidasi: URL sumber primer dapat diakses, format data sesuai rubrik, dan deklarasi transparansi terisi lengkap." },
             { n: "3", title: "Under Review — Kontributor Terkurasi", desc: "Usulan yang lolos verifikasi awal masuk ke antrean (≥2 kontributor independen). Proses tinjauan dilakukan oleh praktisi dan akademisi sesuai dengan kapasitas keilmuannya (misal: isu konstitusional diulas oleh pakar hukum tata negara)." },
             { n: "4", title: "Diterima / Ditolak", desc: "Putusan tim kontributor disertai alasan yang tercatat publik. Usulan yang diterima diintegrasikan ke dataset kanonik. Usulan yang ditolak beserta alasannya tetap dapat diakses untuk transparansi." },

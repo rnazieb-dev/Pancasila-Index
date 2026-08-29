@@ -41,6 +41,11 @@ export async function POST(req: NextRequest) {
     );
   }
 
+  const validTypes = ["undang-undang", "perppu", "keppres", "putusan-mk", "putusan-ma", "putusan-mpd", "dokumen-mpr", "arsip-nasional", "jurnal", "buku", "berita", "laporan-lembaga", "lainnya"];
+  if (!validTypes.includes(body.source_type as string)) {
+    return NextResponse.json({ error: "Tipe sumber (source_type) tidak valid" }, { status: 422 });
+  }
+
   // Validasi URL sumber
   try {
     new URL(body.source_url as string);

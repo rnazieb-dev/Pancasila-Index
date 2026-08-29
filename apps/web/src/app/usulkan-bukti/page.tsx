@@ -86,10 +86,15 @@ export default function UsulkanBuktiPage() {
         <span className="text-[var(--acc-red)] font-semibold">Usulkan Bukti Baru</span>
       </div>
 
-      <div className="mt-4 border-b border-[var(--line)] pb-6">
-        <h1 className="text-3xl font-extrabold">Usulkan Bukti Primer Baru</h1>
-        <p className="mt-2 text-sm text-[var(--muted)] leading-relaxed">
-          Pancasila Index menjunjung prinsip keterbukaan ilmiah. Peneliti, akademisi, mahasiswa hukum, dan masyarakat sipil dapat mengusulkan putusan pengadilan, lembaran negara, atau laporan audit resmi untuk memperkaya penilaian.
+      <div className="border-b border-[var(--line)] pb-8 mt-4">
+        <span className="text-xs uppercase tracking-widest text-[var(--acc-red)] font-semibold">
+          Repositori Publik
+        </span>
+        <h1 className="mt-2 text-3xl font-bold">Formulir Usulan Bukti Baru</h1>
+        <p className="mt-3 max-w-2xl text-sm text-[var(--muted)] leading-relaxed">
+          Bantu kami memperkuat penilaian kinerja lembaga negara dengan menyumbangkan bukti primer.
+          Anda dapat mengusulkan <strong>dokumen hukum negara</strong> (Putusan MK/MA, UU) maupun <strong>bukti empiris</strong> 
+          berupa jurnal akademik (peer-reviewed) dan liputan jurnalistik terverifikasi.
         </p>
         <div className="mt-4 inline-flex items-center gap-2 rounded-xl bg-amber-500/10 border border-amber-500/30 px-3.5 py-1.5 text-xs text-[var(--acc-amber)]">
           <span>⚖️</span>
@@ -222,13 +227,20 @@ export default function UsulkanBuktiPage() {
                   onChange={(e) => setFormData({ ...formData, sourceType: e.target.value })}
                   className="w-full rounded-xl border border-[var(--line)] bg-[var(--bg)] p-2.5 text-xs text-[var(--text)] focus:border-[var(--acc-red)] outline-none"
                 >
-                  <option value="putusan-mk">Putusan Mahkamah Konstitusi (MK)</option>
-                  <option value="putusan-ma">Putusan Mahkamah Agung (MA)</option>
-                  <option value="undang-undang">Undang-Undang / Perppu (Lembaran Negara)</option>
-                  <option value="laporan-lembaga">Laporan Hasil Pemeriksaan (LHP) BPK</option>
-                  <option value="laporan-lembaga">Laporan Rekomendasi Komisi Yudisial</option>
-                  <option value="dokumen-mpr">Ketetapan / Risalah Sidang MPR</option>
-                  <option value="keppres">Keputusan / Peraturan Presiden</option>
+                  <optgroup label="Dokumen Negara (Hukum Formal)">
+                    <option value="putusan-mk">Putusan Mahkamah Konstitusi (MK)</option>
+                    <option value="putusan-ma">Putusan Mahkamah Agung (MA)</option>
+                    <option value="undang-undang">Undang-Undang / Perppu (Lembaran Negara)</option>
+                    <option value="keppres">Keputusan / Peraturan Presiden</option>
+                    <option value="laporan-lembaga">Laporan LHP BPK / Rekomendasi KY</option>
+                    <option value="dokumen-mpr">Ketetapan / Risalah Sidang MPR</option>
+                  </optgroup>
+                  <optgroup label="Kajian Keilmuan & Fakta Empiris">
+                    <option value="jurnal">Jurnal Akademik (Peer-Reviewed)</option>
+                    <option value="buku">Buku / Monograf Akademik</option>
+                    <option value="laporan-lembaga">Laporan Kajian Praktisi / CSO (Think-Tank)</option>
+                    <option value="berita">Berita Jurnalistik Terverifikasi (Dewan Pers)</option>
+                  </optgroup>
                 </select>
               </div>
 
@@ -249,13 +261,23 @@ export default function UsulkanBuktiPage() {
             <div className="grid sm:grid-cols-2 gap-4">
               <div>
                 <label className="block text-xs font-semibold text-[var(--muted)] mb-1">
-                  Nomor / Sitasi Resmi Dokumen:
+                  {formData.sourceType === "jurnal" || formData.sourceType === "buku"
+                    ? "DOI / ISBN / Penulis & Jurnal:"
+                    : formData.sourceType === "berita"
+                    ? "Nama Media Massa & Jurnalis:"
+                    : "Nomor / Sitasi Resmi Dokumen:"}
                 </label>
                 <input
                   type="text"
                   value={formData.sourceCitation}
                   onChange={(e) => setFormData({ ...formData, sourceCitation: e.target.value })}
-                  placeholder="Contoh: Putusan MK No. 91/PUU-XVIII/2020 / LNRI No. 12/2021"
+                  placeholder={
+                    formData.sourceType === "jurnal" || formData.sourceType === "buku"
+                      ? "Contoh: 10.1234/abc, atau Penulis, Jurnal Hukum Tata Negara..."
+                      : formData.sourceType === "berita"
+                      ? "Contoh: Harian Kompas / Majalah Tempo"
+                      : "Contoh: Putusan MK No. 91/PUU-XVIII/2020 / LNRI No. 12/2021"
+                  }
                   className="w-full rounded-xl border border-[var(--line)] bg-[var(--bg)] p-2.5 text-xs text-[var(--text)] focus:border-[var(--acc-red)] outline-none"
                   required
                 />
@@ -263,13 +285,21 @@ export default function UsulkanBuktiPage() {
 
               <div>
                 <label className="block text-xs font-semibold text-[var(--muted)] mb-1">
-                  Tautan Verifikasi Resmi (JDIH / Direktori Putusan):
+                  {formData.sourceType === "jurnal" || formData.sourceType === "buku"
+                    ? "Tautan Jurnal / Repositori / DOI:"
+                    : formData.sourceType === "berita"
+                    ? "Tautan Berita (Wajib Media Kredibel):"
+                    : "Tautan Verifikasi Resmi (JDIH / Direktori Putusan):"}
                 </label>
                 <input
                   type="url"
                   value={formData.sourceUrl}
                   onChange={(e) => setFormData({ ...formData, sourceUrl: e.target.value })}
-                  placeholder="https://putusan3.mahkamahagung.go.id/... atau jdih.setneg.go.id/..."
+                  placeholder={
+                    formData.sourceType === "berita"
+                      ? "https://www.kompas.id/..."
+                      : "https://putusan3.mahkamahagung.go.id/... atau jdih.setneg.go.id/..."
+                  }
                   className="w-full rounded-xl border border-[var(--line)] bg-[var(--bg)] p-2.5 text-xs text-[var(--text)] focus:border-[var(--acc-red)] outline-none"
                   required
                 />
