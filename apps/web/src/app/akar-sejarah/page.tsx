@@ -256,7 +256,7 @@ export default function AkarSejarahPage() {
                 onClick={() => setActiveCategory(cat.id)}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition ${
                   isActive
-                    ? "bg-[var(--acc-emerald)] text-slate-950 shadow-sm"
+                    ? "bg-emerald-600 dark:bg-emerald-600 text-white font-bold shadow-md ring-1 ring-emerald-400"
                     : "bg-[var(--panel)] border border-[var(--line)] text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400"
                 }`}
               >
@@ -281,7 +281,7 @@ export default function AkarSejarahPage() {
         </div>
         <Link
           href="/arsip"
-          className="px-4 py-2 rounded-xl bg-[var(--acc-sky)] text-slate-950 font-bold text-xs hover:bg-sky-400 transition shrink-0"
+          className="px-4 py-2 rounded-xl bg-sky-600 dark:bg-sky-600 text-white font-bold text-xs hover:bg-sky-500 transition shrink-0 shadow-sm"
         >
           Buka Direktori Arsip ANRI &rarr;
         </Link>
@@ -292,7 +292,7 @@ export default function AkarSejarahPage() {
         {filteredMilestones.map((m) => (
           <div key={m.id} className="relative flex items-start gap-4 sm:gap-6 pl-1 sm:pl-2">
             {/* Year Badge */}
-            <div className="flex items-center justify-center size-8 sm:size-10 rounded-full border-2 border-[var(--bg)] bg-[var(--acc-emerald)] text-slate-950 shrink-0 font-extrabold text-[10px] sm:text-xs z-10 shadow-md">
+            <div className="flex items-center justify-center size-8 sm:size-10 rounded-full border-2 border-[var(--bg)] bg-emerald-600 dark:bg-emerald-600 text-white shrink-0 font-extrabold text-[10px] sm:text-xs z-10 shadow-md ring-2 ring-emerald-400/40">
               {m.year.split(" ")[0]}
             </div>
 

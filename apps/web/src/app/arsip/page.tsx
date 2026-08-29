@@ -114,7 +114,7 @@ export default function ArsipPage() {
                 onClick={() => setSelectedType(typeKey)}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition ${
                   isActive
-                    ? "bg-[var(--acc-sky)] text-slate-950 shadow-sm"
+                    ? "bg-sky-600 dark:bg-sky-600 text-white font-bold shadow-md ring-1 ring-sky-400"
                     : "bg-[var(--panel)] border border-[var(--line)] text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400"
                 }`}
               >
