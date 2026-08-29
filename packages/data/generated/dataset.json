@@ -115,7 +115,7 @@
           "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
           "1": "Penguatan otonomi daerah dan keadilan antarwilayah; pengelolaan konflik secara adil dan damai.",
           "2": "Konsolidasi persatuan teladan: keadilan antarwilayah disertai penghargaan penuh terhadap kebinekaan.",
-          "-2": "Sentralisasi paksa atau diskriminasi terhadap kelompok/wilayah tertentu; meresahkan kebinekaan demi kepentingan politik.",
+          "-2": "Sentralisasi paksa; meresahkan kebinekaan demi politik; ATAU penghapusan memori kolektif/sejarah pergerakan Islam dari narasi nasional (de-historisasi).",
           "-1": "Ketimpangan antarwilayah dibiarkan; retorika perpecahan; otonomi daerah digerogoti tanpa ganti mekanisme perlindungan setara."
         },
         "indicators": [
@@ -139,6 +139,14 @@
             "name_id": "Pengelolaan konflik dan integrasi nasional",
             "legal_anchors_id": [
               "Pembukaan alinea IV"
+            ]
+          },
+          {
+            "id": "sila-3-memori-sejarah",
+            "name_id": "Pelestarian memori kolektif sejarah pergerakan (Piagam Jakarta & Syarikat Islam)",
+            "legal_anchors_id": [
+              "Bhinneka Tunggal Ika",
+              "Dekrit Presiden 1959"
             ]
           }
         ],

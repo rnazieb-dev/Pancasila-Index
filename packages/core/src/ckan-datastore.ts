@@ -46,6 +46,89 @@ export interface CkanDatastoreSearchOptions {
   timeoutMs?: number;
 }
 
+/**
+ * Parser CSV ringan bawaan untuk portal yang tidak mengaktifkan DataStore extension
+ */
+export async function fetchAndParseCsvResource<T = Record<string, any>>(
+  csvUrl: string,
+  limit = 10,
+  offset = 0,
+  q?: string,
+  timeoutMs = 8000
+): Promise<CkanDatastoreResponse<T>> {
+  try {
+    const res = await fetch(csvUrl, {
+      headers: { "Accept": "text/csv, text/plain, */*" },
+      signal: AbortSignal.timeout(timeoutMs)
+    });
+
+    if (!res.ok) {
+      throw new Error(`Gagal mengunduh file CSV: HTTP ${res.status}`);
+    }
+
+    const text = await res.text();
+    const lines = text.split(/\r?\n/).filter(line => line.trim().length > 0);
+
+    if (lines.length === 0) {
+      return {
+        success: true,
+        result: {
+          resource_id: csvUrl,
+          fields: [],
+          records: [],
+          total: 0,
+          limit,
+          _links: null
+        }
+      };
+    }
+
+    // Parse header
+    const firstLine = lines[0] || "";
+    const headers = firstLine.split(",").map(h => h.replace(/^["']|["']$/g, "").trim());
+    const fields: CkanDatastoreField[] = headers.map(h => ({ id: h, type: "text" }));
+
+    // Parse all rows
+    let allRecords: Record<string, any>[] = [];
+    for (let i = 1; i < lines.length; i++) {
+      const line = lines[i] || "";
+      const values = line.split(",").map(v => v.replace(/^["']|["']$/g, "").trim());
+      const row: Record<string, any> = {};
+      headers.forEach((h, idx) => {
+        row[h] = values[idx] ?? "";
+      });
+
+      // Filter query q jika ada
+      if (q) {
+        const queryLower = q.toLowerCase();
+        const matches = Object.values(row).some(val => 
+          String(val).toLowerCase().includes(queryLower)
+        );
+        if (!matches) continue;
+      }
+
+      allRecords.push(row);
+    }
+
+    const total = allRecords.length;
+    const paginated = allRecords.slice(offset, offset + limit);
+
+    return {
+      success: true,
+      result: {
+        resource_id: csvUrl,
+        fields,
+        records: paginated as T[],
+        total,
+        limit,
+        _links: null
+      }
+    };
+  } catch (err: any) {
+    throw new Error(`CSV Parser Fallback Error: ${err.message}`);
+  }
+}
+
 export async function datastoreSearch<T = Record<string, any>>({
   resourceId,
   limit = 5,
@@ -56,6 +139,12 @@ export async function datastoreSearch<T = Record<string, any>>({
   timeoutMs = 8000
 }: CkanDatastoreSearchOptions): Promise<CkanDatastoreResponse<T>> {
   
+  // Jika resourceId adalah tautan CSV langsung
+  if (resourceId.startsWith("http://") || resourceId.startsWith("https://") || resourceId.endsWith(".csv")) {
+    const targetUrl = resourceId.startsWith("http") ? resourceId : `${baseUrl.replace(/\/+$/, "")}/${resourceId}`;
+    return fetchAndParseCsvResource<T>(targetUrl, limit, offset, q, timeoutMs);
+  }
+
   const cleanBase = baseUrl.replace(/\/+$/, "");
   const url = new URL(`${cleanBase}/api/3/action/datastore_search`);
   url.searchParams.append("resource_id", resourceId);
@@ -78,7 +167,26 @@ export async function datastoreSearch<T = Record<string, any>>({
       signal: AbortSignal.timeout(timeoutMs)
     });
 
+    // Jika gagal / tidak ada datastore, coba ambil metadata resource untuk mendapatkan CSV URL
     if (!response.ok) {
+      if (response.status === 404 || response.status === 409) {
+        try {
+          const resShowUrl = new URL(`${cleanBase}/api/3/action/resource_show`);
+          resShowUrl.searchParams.append("id", resourceId);
+          const metaRes = await fetch(resShowUrl.toString(), {
+            headers: { "Accept": "application/json" },
+            signal: AbortSignal.timeout(4000)
+          });
+          if (metaRes.ok) {
+            const metaJson = await metaRes.json() as any;
+            if (metaJson.success && metaJson.result?.url) {
+              return fetchAndParseCsvResource<T>(metaJson.result.url, limit, offset, q, timeoutMs);
+            }
+          }
+        } catch {
+          // Abaikan error resource_show dan teruskan error asli
+        }
+      }
       throw new Error(`Portal CKAN merespons dengan status HTTP ${response.status}`);
     }
 

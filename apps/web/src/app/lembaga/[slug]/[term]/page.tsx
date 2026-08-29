@@ -1,4 +1,4 @@
-import { db } from "@/lib/db";
+import { db, isDatabaseAvailable } from "@/lib/db";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -51,16 +51,21 @@ export default async function TermPage({
   const summary = termSummary(term.id);
 
   let publishedCkanAudits: any[] = [];
-  try {
-    publishedCkanAudits = await db.ckanAudit.findMany({
-      where: { status: "published" },
-      include: { contributor: { select: { name: true, affiliation: true } } },
-      orderBy: { createdAt: "desc" },
-      take: 3
-    });
-  } catch (e) {
-    // Graceful fallback if db is offline during SSG
-    publishedCkanAudits = [];
+  if (isDatabaseAvailable) {
+    try {
+      publishedCkanAudits = await db.ckanAudit.findMany({
+        where: { status: "published" },
+        include: { 
+          contributor: { 
+            select: { name: true, affiliation: true, title: true, funding: true } 
+          } 
+        },
+        orderBy: { createdAt: "desc" },
+        take: 3
+      });
+    } catch (e) {
+      publishedCkanAudits = [];
+    }
   }
 
   // Pemilihan indeks eksternal dilakukan di SERVER dengan aturan tunggal di
@@ -265,9 +270,30 @@ export default async function TermPage({
                 <p className="text-xs text-[var(--text)] leading-relaxed bg-[var(--panel)] p-2.5 rounded border-l-2 border-[var(--acc-emerald)]">
                   {item.contextNote}
                 </p>
-                <div className="flex justify-between items-center text-[11px] text-[var(--muted)] pt-1">
-                  <span>Kontributor: <strong>{item.contributor?.name || "Kontributor Terdaftar"}</strong></span>
-                  <span className="font-mono text-[10px]">Dimensi: {item.relevantDimension}</span>
+                <div className="space-y-1.5 pt-1 border-t border-[var(--line)]/50">
+                  <div className="flex flex-wrap justify-between items-center text-[11px] text-[var(--muted)]">
+                    <div>
+                      <span>Penelaah Utama: </span>
+                      <strong className="text-[var(--text)]">{item.contributor?.name || "Kontributor Terverifikasi"}</strong>
+                      {item.contributor?.title && <span className="ml-1 text-[10px]">({item.contributor.title})</span>}
+                      {item.contributor?.affiliation && (
+                        <span className="ml-1 text-[10px] text-[var(--muted)]">· {item.contributor.affiliation}</span>
+                      )}
+                    </div>
+                    <span className="font-mono text-[10px] bg-[var(--line)]/50 px-1.5 py-0.5 rounded">Dimensi: {item.relevantDimension}</span>
+                  </div>
+
+                  {item.contributor?.funding && (
+                    <div className="text-[10px] text-[var(--muted)] italic">
+                      Deklarasi Independensi: {item.contributor.funding}
+                    </div>
+                  )}
+
+                  {item.approverNames && item.approverNames.length > 0 && (
+                    <div className="text-[10px] text-[var(--muted)]">
+                      Persetujuan Kuorum: <span className="text-[var(--acc-emerald)] font-medium">{item.approverNames.join(" & ")}</span>
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
