@@ -475,7 +475,7 @@ const HISTORICAL_MILESTONES: Milestone[] = [
   // ─── ERA 3: PERUMUSAN NASKAH KONSTITUSI & KEMERDEKAAN (1945) ───
   {
     id: "sidang-bpupk-1-1945",
-    year: "1945 (Mei–Jun)",
+    year: "1945 (29 Mei–1 Jun)",
     era: "1945",
     title: "Sidang BPUPK I: Dialektika Asas Falsafah Dasar Negara Merdeka",
     subtitle: "Pidato Mr. Moh. Yamin (29 Mei), Prof. Mr. Soepomo (31 Mei), & Ir. Soekarno (1 Juni)",
@@ -502,8 +502,36 @@ const HISTORICAL_MILESTONES: Milestone[] = [
     ],
   },
   {
+    id: "piagam-jakarta-1945",
+    year: "1945 (22 Jun)",
+    era: "1945",
+    title: "Piagam Jakarta (Jakarta Charter): Sintesis Luhur Panitia Sembilan",
+    subtitle: "Konsensus Falsafah Pembukaan Konstitusi Menjembatani Golongan Kebangsaan & Islam",
+    category: "konstitusi",
+    categoryLabel: "Piagam Konstitusi",
+    icon: "🤝",
+    isMonumental: true,
+    tldr: "Sintesis agung 9 tokoh pendiri bangsa: merumuskan Pembukaan UUD 1945 yang menjembatani golongan kebangsaan dan Islam (tujuh kata piagam).",
+    quote: {
+      text: "Mukaddimah ini adalah hasil jerih payah persetujuan antara golongan kebangsaan dan golongan Islam.",
+      author: "Ir. Soekarno (Laporan Panitia Sembilan 22 Juni 1945)",
+    },
+    description:
+      "Panitia Sembilan merumuskan naskah mukadimah hukum dasar negara yang memuat kompromi agung: Sila 'Ketuhanan dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya'. Naskah ini membuktikan kemampuan para pendiri bangsa dari berbagai latar belakang keyakinan untuk menyatukan visi negara merdeka yang adil, makmur, dan berdaulat. Kelak konsiderans Dekrit 5 Juli 1959 menegaskan Piagam Jakarta menjiwai UUD 1945.",
+    figures: ["Ir. Soekarno", "Drs. Mohammad Hatta", "Mr. A.A. Maramis", "Abikoesno Tjokrosoejoso", "H. Agus Salim", "K.H. Wahid Hasyim", "Mr. Mohammad Yamin", "Mr. Achmad Soebardjo", "Prof. Abdoel Kahar Moezakkir"],
+    connectionType: "norma-positif",
+    connections: [
+      "⚖️ Naskah Dasar Pembukaan UUD 1945 Alinea I s.d. IV",
+      "⚖️ Kompromi Yuridis Sila 1 s.d. Sila 5 Pancasila",
+    ],
+    citations: [
+      "Naskah Asli Piagam Jakarta 22 Juni 1945 (ANRI Koleksi No. 17 / Pandji Soerachman)",
+      "Risalah Panitia Sembilan BPUPK (Setneg RI)",
+    ],
+  },
+  {
     id: "bpupk-islam-draft-1945",
-    year: "1945 (Jul)",
+    year: "1945 (10–16 Jul)",
     era: "1945",
     title: "Draf Rancang UUD Al-Qur'an & Sunnah BPUPK: Syura, Amanah, & Kepala Negara",
     subtitle: "Ki Bagus Hadikusumo, Wahid Hasyim, & Kahar Muzakkir Mengajukan Norma Berbasis Al-Qur'an",
@@ -535,30 +563,31 @@ const HISTORICAL_MILESTONES: Milestone[] = [
     },
   },
   {
-    id: "piagam-jakarta-1945",
-    year: "1945 (22 Jun)",
+    id: "proklamasi-kemerdekaan-1945",
+    year: "1945 (17 Agu)",
     era: "1945",
-    title: "Piagam Jakarta (Jakarta Charter): Sintesis Luhur Panitia Sembilan",
-    subtitle: "Konsensus Falsafah Pembukaan Konstitusi Menjembatani Golongan Kebangsaan & Islam",
+    title: "Proklamasi Kemerdekaan 17 Agustus 1945: Naskah Klad Bung Karno & Ketikan Otentik Sayuti Melik",
+    subtitle: "Puncak Perjuangan Bangsa Menolak Ketergantungan Kolonial & Melahirkan Negara Berdaulat",
     category: "konstitusi",
-    categoryLabel: "Piagam Konstitusi",
-    icon: "🤝",
-    tldr: "Sintesis agung 9 tokoh pendiri bangsa: merumuskan Pembukaan UUD 1945 yang menjembatani golongan kebangsaan dan Islam.",
+    categoryLabel: "Proklamasi Kemerdekaan",
+    icon: "🇮🇩",
+    isMonumental: true,
+    tldr: "Detik proklamasi kemerdekaan di Pegangsaan Timur 56: pernyataan sepihak bangsa Indonesia untuk merdeka dan menyusun kekuasaan secara sah.",
     quote: {
-      text: "Mukaddimah ini adalah hasil jerih payah persetujuan antara golongan kebangsaan dan golongan Islam.",
-      author: "Ir. Soekarno (Laporan Panitia Sembilan 22 Juni 1945)",
+      text: "Kami bangsa Indonesia dengan ini menjatakan kemerdekaan Indonesia. Hal-hal jang mengenai pemindahan kekoeasaan d.l.l., diselenggarakan dengan tjara saksama dan dalam tempo jang sesingkat-singkatnja.",
+      author: "Soekarno - Hatta (Pegangsaan Timur 56, 17 Agustus 1945)",
     },
     description:
-      "Panitia Sembilan merumuskan naskah mukadimah hukum dasar negara yang memuat kompromi agung: Sila 'Ketuhanan dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya'. Naskah ini membuktikan kemampuan para pendiri bangsa dari berbagai latar belakang keyakinan untuk menyatukan visi negara merdeka yang adil, makmur, dan berdaulat.",
-    figures: ["Ir. Soekarno", "Drs. Mohammad Hatta", "Mr. A.A. Maramis", "Abikoesno Tjokrosoejoso", "H. Agus Salim", "K.H. Wahid Hasyim"],
+      "Ditulis tangan oleh Ir. Soekarno dini hari 17 Agustus 1945 di kediaman Laksamana Maeda (dikonsep bersama Mohammad Hatta dan Achmad Soebardjo) lalu diketik oleh Sayuti Melik atas persetujuan para pemuda (Sukarni, BM Diah, Chaerul Saleh). Pembacaan Proklamasi pada pukul 10.00 WIB menjadi titik pisah historis (rechtsverwerking) yang menghapuskan tertib hukum kolonial Hindia Belanda dan mendirikan Negara Republik Indonesia yang merdeka dan berdaulat.",
+    figures: ["Ir. Soekarno", "Drs. Mohammad Hatta", "Sayuti Melik", "Sukarni Kartodiwirjo", "Mr. Achmad Soebardjo", "B.M. Diah", "Chaerul Saleh"],
     connectionType: "norma-positif",
     connections: [
-      "⚖️ Naskah Dasar Pembukaan UUD 1945 Alinea I s.d. IV",
-      "⚖️ Kompromi Yuridis Sila 1 s.d. Sila 5 Pancasila",
+      "⚖️ Dasar Yuridis Kedaulatan Negara (Pernyataan Kemerdekaan Alinea I–III Pembukaan UUD)",
+      "⚖️ Asas Tertib Hukum Nasional Baru Pengganti Tertib Kolonial",
     ],
     citations: [
-      "Naskah Asli Piagam Jakarta 22 Juni 1945 (ANRI Koleksi No. 17 / Pandji Soerachman)",
-      "Risalah Panitia Sembilan BPUPK (Setneg RI)",
+      "Naskah Klad Tulisan Tangan Bung Karno & Naskah Ketikan Otentik Sayuti Melik 17 Agustus 1945 (ANRI Koleksi Proklamasi No. 01/1945)",
+      "Risalah Detik-Detik Proklamasi Pegangsaan Timur 56 (Arsip Sekretariat Negara RI)",
     ],
   },
   {
@@ -950,6 +979,34 @@ const HISTORICAL_MILESTONES: Milestone[] = [
     ],
   },
   {
+    id: "g30s-supersemar-1965-1966",
+    year: "1965–1966",
+    era: "1950-2002",
+    title: "Krisis G30S 1965, Tritura, & Supersemar 1966: Titik Balik Ketatanegaraan & Dekrit Pembubaran PKI",
+    subtitle: "Tragedi 1 Oktober, Tuntutan Tri Tuntutan Rakyat (Tritura), & Surat Perintah Sebelas Maret",
+    category: "oposisi",
+    categoryLabel: "Krisis Ketatanegaraan",
+    icon: "⚡",
+    isMonumental: true,
+    tldr: "Krisis politik terbesar: penculikan perwira tinggi AD, aksi massa mahasiswa KAMI/KAPI menuntut Tritura (Bubarkan PKI, Bersihkan Kabinet, Turunkan Harga), dan Supersemar 11 Maret 1966 yang mengawali peralihan Orde Baru.",
+    quote: {
+      text: "Tritura adalah suara murni nurani rakyat yang menuntut penegakan hukum, keadilan bagi para pahlawan revolusi, dan perlindungan falsafah negara.",
+      author: "Eksponen KAMI/KAPI & Presidium Mahasiswa (Aksi Tritura Januari 1966)",
+    },
+    description:
+      "Penculikan dan gugurnya para Perwira Tinggi Angkatan Darat pada 1 Oktober 1965 memicu gelombang perlawanan massa mahasiswa (KAMI, KAPI) dan elemen bangsa yang melahirkan Deklarasi Tritura (Tri Tuntutan Rakyat: Bubarkan PKI, Retooling Kabinet Dwikora, dan Turunkan Harga). Presiden Soekarno mengeluarkan Surat Perintah 11 Maret 1966 (Supersemar) kepada Letjen Soeharto untuk memulihkan stabilitas negara, yang ditindaklanjuti dengan pembubaran resmi PKI melalui Keppres No. 1/3/1966 dan disahkan dalam TAP MPRS No. XXV/MPRS/1966.",
+    figures: ["Jenderal Ahmad Yani dkk.", "Letjen Soeharto", "Ir. Soekarno", "Cosmas Batubara", "Subhan Z.E.", "Sofyan Wanandi"],
+    connectionType: "norma-positif",
+    connections: [
+      "⚖️ Penegakan Falsafah Sila 1 & Penolakan Totalitarianisme Ateistik",
+      "⚖️ TAP MPRS No. XXV/MPRS/1966 tentang Pembubaran PKI & Larangan Marxisme-Leninisme",
+    ],
+    citations: [
+      "Arsip Nasional RI: Berkas Surat Perintah Sebelas Maret 1966 (Koleksi ANRI Supersemar)",
+      "TAP MPRS No. XXV/MPRS/1966 tentang Pembubaran Partai Komunis Indonesia (Sekretariat MPRS)",
+    ],
+  },
+  {
     id: "gam-helsinki-uupa-1976-2005",
     year: "1976–2005",
     era: "1950-2002",
@@ -1181,7 +1238,7 @@ export default function AkarSejarahPage() {
 
       {/* Meta Counter */}
       <div className="py-3 sm:py-4 flex items-center justify-between text-xs text-[var(--muted)] font-mono">
-        <span>Menampilkan {filteredMilestones.length} dari 33 tonggak sejarah</span>
+        <span>Menampilkan {filteredMilestones.length} dari {HISTORICAL_MILESTONES.length} tonggak sejarah</span>
         {(selectedEra !== "all" || activeCategory !== "all" || searchQuery) && (
           <button
             onClick={() => {
