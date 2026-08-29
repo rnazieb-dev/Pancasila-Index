@@ -1075,6 +1075,163 @@ const CATEGORIES = [
   { id: "konstitusi", label: "Naskah Konstitusi & Tata Negara" },
 ];
 
+function CategoryIcon({ category, className = "size-3.5" }: { category: string; className?: string }) {
+  switch (category) {
+    case "konstitusi":
+      return (
+        <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+        </svg>
+      );
+    case "islam":
+      return (
+        <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+        </svg>
+      );
+    case "pemuda":
+      return (
+        <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
+        </svg>
+      );
+    case "kebangsaan":
+      return (
+        <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-.778.099-1.533.284-2.253" />
+        </svg>
+      );
+    case "perempuan":
+      return (
+        <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v6m-3-3h6m-3-9a6 6 0 100-12 6 6 0 000 12z" />
+        </svg>
+      );
+    case "sosio-desa":
+      return (
+        <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+        </svg>
+      );
+    case "pendidikan":
+      return (
+        <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-5.25 6.557q.54.498 1.13.945m8.62-7.502A55.38 55.38 0 0112 8.443" />
+        </svg>
+      );
+    case "oposisi":
+      return (
+        <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+        </svg>
+      );
+    default:
+      return (
+        <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+        </svg>
+      );
+  }
+}
+
+const DEFAULT_CATEGORY_STYLE = {
+  badge: "bg-blue-500/10 text-blue-700 dark:text-blue-300 border-blue-500/30",
+  text: "text-blue-700 dark:text-blue-400",
+  border: "border-blue-500/30 hover:border-blue-500/60",
+  pillBg: "bg-blue-50 dark:bg-blue-950/40",
+  pillText: "text-blue-800 dark:text-blue-300",
+  pillBorder: "border-blue-200/90 dark:border-blue-800/60",
+  quoteBorder: "border-blue-500/60",
+  quoteBg: "bg-blue-50/50 dark:bg-blue-950/20",
+};
+
+const CATEGORY_STYLES: Record<string, typeof DEFAULT_CATEGORY_STYLE> = {
+  konstitusi: {
+    badge: "bg-amber-500/10 text-amber-700 dark:text-amber-300 border-amber-500/30",
+    text: "text-amber-700 dark:text-amber-400",
+    border: "border-amber-500/30 hover:border-amber-500/60",
+    pillBg: "bg-amber-50 dark:bg-amber-950/40",
+    pillText: "text-amber-800 dark:text-amber-300",
+    pillBorder: "border-amber-200/90 dark:border-amber-800/60",
+    quoteBorder: "border-amber-500/60",
+    quoteBg: "bg-amber-50/50 dark:bg-amber-950/20",
+  },
+  islam: {
+    badge: "bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border-emerald-500/30",
+    text: "text-emerald-700 dark:text-emerald-400",
+    border: "border-emerald-500/30 hover:border-emerald-500/60",
+    pillBg: "bg-emerald-50 dark:bg-emerald-950/40",
+    pillText: "text-emerald-800 dark:text-emerald-300",
+    pillBorder: "border-emerald-200/90 dark:border-emerald-800/60",
+    quoteBorder: "border-emerald-500/60",
+    quoteBg: "bg-emerald-50/50 dark:bg-emerald-950/20",
+  },
+  pemuda: {
+    badge: "bg-sky-500/10 text-sky-700 dark:text-sky-300 border-sky-500/30",
+    text: "text-sky-700 dark:text-sky-400",
+    border: "border-sky-500/30 hover:border-sky-500/60",
+    pillBg: "bg-sky-50 dark:bg-sky-950/40",
+    pillText: "text-sky-800 dark:text-sky-300",
+    pillBorder: "border-sky-200/90 dark:border-sky-800/60",
+    quoteBorder: "border-sky-500/60",
+    quoteBg: "bg-sky-50/50 dark:bg-sky-950/20",
+  },
+  kebangsaan: {
+    badge: "bg-blue-500/10 text-blue-700 dark:text-blue-300 border-blue-500/30",
+    text: "text-blue-700 dark:text-blue-400",
+    border: "border-blue-500/30 hover:border-blue-500/60",
+    pillBg: "bg-blue-50 dark:bg-blue-950/40",
+    pillText: "text-blue-800 dark:text-blue-300",
+    pillBorder: "border-blue-200/90 dark:border-blue-800/60",
+    quoteBorder: "border-blue-500/60",
+    quoteBg: "bg-blue-50/50 dark:bg-blue-950/20",
+  },
+  perempuan: {
+    badge: "bg-rose-500/10 text-rose-700 dark:text-rose-300 border-rose-500/30",
+    text: "text-rose-700 dark:text-rose-400",
+    border: "border-rose-500/30 hover:border-rose-500/60",
+    pillBg: "bg-rose-50 dark:bg-rose-950/40",
+    pillText: "text-rose-800 dark:text-rose-300",
+    pillBorder: "border-rose-200/90 dark:border-rose-800/60",
+    quoteBorder: "border-rose-500/60",
+    quoteBg: "bg-rose-50/50 dark:bg-rose-950/20",
+  },
+  "sosio-desa": {
+    badge: "bg-orange-500/10 text-orange-700 dark:text-orange-300 border-orange-500/30",
+    text: "text-orange-700 dark:text-orange-400",
+    border: "border-orange-500/30 hover:border-orange-500/60",
+    pillBg: "bg-orange-50 dark:bg-orange-950/40",
+    pillText: "text-orange-800 dark:text-orange-300",
+    pillBorder: "border-orange-200/90 dark:border-orange-800/60",
+    quoteBorder: "border-orange-500/60",
+    quoteBg: "bg-orange-50/50 dark:bg-orange-950/20",
+  },
+  pendidikan: {
+    badge: "bg-teal-500/10 text-teal-700 dark:text-teal-300 border-teal-500/30",
+    text: "text-teal-700 dark:text-teal-400",
+    border: "border-teal-500/30 hover:border-teal-500/60",
+    pillBg: "bg-teal-50 dark:bg-teal-950/40",
+    pillText: "text-teal-800 dark:text-teal-300",
+    pillBorder: "border-teal-200/90 dark:border-teal-800/60",
+    quoteBorder: "border-teal-500/60",
+    quoteBg: "bg-teal-50/50 dark:bg-teal-950/20",
+  },
+  oposisi: {
+    badge: "bg-violet-500/10 text-violet-700 dark:text-violet-300 border-violet-500/30",
+    text: "text-violet-700 dark:text-violet-400",
+    border: "border-violet-500/30 hover:border-violet-500/60",
+    pillBg: "bg-violet-50 dark:bg-violet-950/40",
+    pillText: "text-violet-800 dark:text-violet-300",
+    pillBorder: "border-violet-200/90 dark:border-violet-800/60",
+    quoteBorder: "border-violet-500/60",
+    quoteBg: "bg-violet-50/50 dark:bg-violet-950/20",
+  },
+};
+
+function getCategoryStyle(category: string) {
+  return CATEGORY_STYLES[category] ?? DEFAULT_CATEGORY_STYLE;
+}
+
 export default function AkarSejarahPage() {
   const [selectedEra, setSelectedEra] = useState<string>("all");
   const [activeCategory, setActiveCategory] = useState<string>("all");
@@ -1185,7 +1342,7 @@ export default function AkarSejarahPage() {
             <button
               onClick={() => setIsFullAcademicView(!isFullAcademicView)}
               title="Alihkan Tampilan Ringkas / Risalah Penuh"
-              className={`sm:col-span-3 px-3 py-2 rounded-lg border text-xs font-semibold transition whitespace-nowrap text-center ${
+              className={`sm:col-span-3 px-3 py-2 rounded-lg border text-xs font-semibold transition whitespace-nowrap text-center cursor-pointer ${
                 isFullAcademicView
                   ? "bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 border-slate-900 dark:border-slate-100 shadow-sm"
                   : "bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800"
@@ -1207,7 +1364,7 @@ export default function AkarSejarahPage() {
               setActiveCategory("all");
               setSearchQuery("");
             }}
-            className="text-slate-900 dark:text-slate-100 hover:underline font-semibold"
+            className="text-slate-900 dark:text-slate-100 hover:underline font-semibold cursor-pointer"
           >
             Reset Filter
           </button>
@@ -1215,7 +1372,7 @@ export default function AkarSejarahPage() {
       </div>
 
       {/* Timeline Stream (Archival Rule) */}
-      <div className="mt-4 sm:mt-6 space-y-6 sm:space-y-8 relative before:absolute before:inset-0 before:left-3.5 sm:before:left-4 before:h-full before:w-px before:bg-slate-200 dark:before:bg-slate-800">
+      <div className="mt-4 sm:mt-6 space-y-6 sm:space-y-8 relative before:absolute before:inset-0 before:left-3.5 sm:before:left-4 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-amber-500/40 before:via-slate-200 dark:before:via-slate-800 before:to-transparent">
         {filteredMilestones.length === 0 ? (
           <div className="text-center py-16 sm:py-20 rounded-xl border border-dashed border-slate-200 dark:border-slate-800">
             <p className="text-sm font-medium text-slate-500 dark:text-slate-400">
@@ -1225,18 +1382,19 @@ export default function AkarSejarahPage() {
         ) : (
           filteredMilestones.map((m, index) => {
             const isExpanded = isFullAcademicView || expandedCards.has(m.id);
+            const catStyle = getCategoryStyle(m.category);
 
             return (
               <article
                 key={m.id}
                 className="relative flex items-start gap-3 sm:gap-5 pl-0.5 sm:pl-1 group"
               >
-                {/* Minimalist Archival Node */}
+                {/* Characterful Archival Node */}
                 <div
-                  className={`flex items-center justify-center size-7 sm:size-8 rounded-full border bg-white dark:bg-slate-900 shrink-0 font-mono font-semibold text-[11px] z-10 shadow-xs transition ${
+                  className={`flex items-center justify-center size-7 sm:size-8 rounded-full border-2 bg-white dark:bg-slate-900 shrink-0 font-mono font-bold text-[11px] z-10 shadow-xs transition ${
                     m.isMonumental
-                      ? "border-amber-700/60 dark:border-amber-500/60 text-amber-800 dark:text-amber-300 bg-amber-50/50 dark:bg-amber-950/30"
-                      : "border-slate-300 dark:border-slate-700 text-slate-600 dark:text-slate-400"
+                      ? "border-amber-500 text-amber-900 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/60 ring-2 ring-amber-400/40"
+                      : `${catStyle.pillBorder} ${catStyle.pillText} ring-1 ring-slate-200 dark:ring-slate-800`
                   }`}
                   title={`Tonggak ${index + 1}: ${m.year}`}
                 >
@@ -1245,49 +1403,55 @@ export default function AkarSejarahPage() {
 
                 {/* Editorial Story Card */}
                 <div
-                  className={`flex-1 min-w-0 rounded-xl border bg-white dark:bg-slate-900/80 p-5 sm:p-7 space-y-3.5 shadow-xs transition hover:border-slate-300 dark:hover:border-slate-700 ${
+                  className={`flex-1 min-w-0 rounded-xl border bg-white dark:bg-slate-900/80 p-5 sm:p-7 space-y-4 shadow-xs transition ${
                     m.isMonumental
-                      ? "border-amber-600/30 dark:border-amber-500/20"
-                      : "border-slate-200 dark:border-slate-800"
+                      ? "border-amber-500/40 dark:border-amber-500/30 hover:border-amber-500/70"
+                      : `${catStyle.border}`
                   }`}
                 >
                   {/* Epoch & Category Headline */}
                   <div className="flex flex-wrap items-center justify-between gap-2 text-xs">
-                    <div className="flex items-center gap-2">
-                      <span className="font-sans font-bold text-slate-500 dark:text-slate-400 uppercase tracking-widest text-[10px] sm:text-[11px]">
-                        {m.categoryLabel}
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[10px] sm:text-[11px] font-sans font-bold uppercase tracking-wider border ${catStyle.badge}`}>
+                        <CategoryIcon category={m.category} className="size-3.5" />
+                        <span>{m.categoryLabel}</span>
                       </span>
                       {m.isMonumental && (
-                        <span className="text-amber-800 dark:text-amber-400 font-semibold text-[10px] uppercase tracking-wider">
-                          &bull; Tonggak Akbar
+                        <span className="inline-flex items-center gap-1 text-amber-800 dark:text-amber-400 font-extrabold text-[10px] sm:text-[11px] uppercase tracking-wider bg-amber-500/10 dark:bg-amber-500/20 px-2.5 py-1 rounded-md border border-amber-500/30">
+                          ★ Tonggak Akbar
                         </span>
                       )}
                     </div>
-                    <span className="font-mono text-xs font-semibold text-rose-900 dark:text-rose-300 bg-rose-50 dark:bg-rose-950/30 px-2 py-0.5 rounded border border-rose-200/60 dark:border-rose-900/40">
+                    <span className={`font-mono text-xs sm:text-sm font-extrabold px-2.5 py-0.5 rounded-md border shadow-2xs ${catStyle.badge}`}>
                       {m.year}
                     </span>
                   </div>
 
-                  {/* Title & Subtitle */}
+                  {/* Title & Colored Subtitle */}
                   <div>
                     <h2 className="text-lg sm:text-xl font-serif font-bold text-slate-900 dark:text-slate-100 leading-snug tracking-tight">
                       {m.title}
                     </h2>
-                    <p className="text-xs sm:text-sm font-sans font-normal text-slate-600 dark:text-slate-400 mt-1">
+                    <p className={`text-xs sm:text-sm font-sans font-bold mt-1 tracking-tight ${catStyle.text}`}>
                       {m.subtitle}
                     </p>
                   </div>
 
-                  {/* Integrated Editorial Quote Block */}
+                  {/* Integrated Editorial Heroic Quote Block */}
                   {m.quote && (
-                    <blockquote className="border-l-2 border-slate-300 dark:border-slate-700 pl-3.5 py-1 space-y-1 bg-slate-50/70 dark:bg-slate-800/30 rounded-r-md">
-                      <p className="text-xs sm:text-sm italic font-serif text-slate-800 dark:text-slate-200 leading-relaxed">
-                        &ldquo;{m.quote.text}&rdquo;
-                      </p>
-                      <footer className="text-[11px] font-sans text-slate-500 dark:text-slate-400 text-right">
-                        — {m.quote.author}
-                      </footer>
-                    </blockquote>
+                    <div className={`rounded-xl border p-4 sm:p-5 relative ${catStyle.quoteBg} ${catStyle.quoteBorder} border-l-4 shadow-2xs`}>
+                      <span className="absolute top-1.5 left-2 text-3xl sm:text-4xl font-serif opacity-30 leading-none select-none pointer-events-none">
+                        &ldquo;
+                      </span>
+                      <div className="relative pl-5 sm:pl-6 space-y-1.5">
+                        <p className="text-xs sm:text-sm font-serif italic text-slate-800 dark:text-slate-100 leading-relaxed font-medium">
+                          {m.quote.text}
+                        </p>
+                        <footer className={`text-[11px] font-sans font-bold text-right ${catStyle.text}`}>
+                          — {m.quote.author}
+                        </footer>
+                      </div>
+                    </div>
                   )}
 
                   {/* Punchy Lead Summary (TL;DR) */}
@@ -1295,13 +1459,13 @@ export default function AkarSejarahPage() {
                     {m.tldr}
                   </p>
 
-                  {/* Minimal Meta Tags & Drawer Trigger */}
+                  {/* Micro-Pills & Interactive Action Trigger */}
                   <div className="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex flex-wrap items-center justify-between gap-2.5">
                     <div className="flex flex-wrap gap-1.5">
                       {m.connections.map((c, i) => (
                         <span
                           key={i}
-                          className="px-2 py-0.5 rounded text-[11px] font-sans bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200/80 dark:border-slate-700/60"
+                          className={`px-2.5 py-1 rounded-md text-[11px] font-medium border transition ${catStyle.pillBg} ${catStyle.pillText} ${catStyle.pillBorder} shadow-2xs`}
                         >
                           {c}
                         </span>
@@ -1311,7 +1475,11 @@ export default function AkarSejarahPage() {
                     {!isFullAcademicView && (
                       <button
                         onClick={() => toggleExpand(m.id)}
-                        className="text-xs font-semibold text-slate-900 dark:text-slate-100 hover:text-rose-900 dark:hover:text-rose-300 transition underline underline-offset-4 decoration-slate-300 dark:decoration-slate-700 shrink-0 ml-auto pt-1 sm:pt-0"
+                        className={`text-xs font-bold px-3 py-1.5 rounded-lg border transition flex items-center gap-1.5 shrink-0 ml-auto shadow-2xs cursor-pointer ${
+                          isExpanded
+                            ? "bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900 border-slate-900 dark:border-slate-100"
+                            : `${catStyle.badge} hover:brightness-95 dark:hover:brightness-110`
+                        }`}
                       >
                         <span>{isExpanded ? "Tutup Risalah ▲" : "Pelajari Risalah & Bukti Arsip ▾"}</span>
                       </button>
