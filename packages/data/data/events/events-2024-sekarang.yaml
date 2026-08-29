@@ -580,3 +580,26 @@
     - tujuan-3
     - sila-5
     - sila-3
+
+- id: ev-mk-batal-pasal-penghinaan-pemerintah-2026
+  term_id: mk-2023-sekarang
+  date: 2026-08-28
+  category: pengadilan
+  title_id: MK Membatalkan Pasal 240 dan 241 KUHP tentang Penghinaan terhadap
+    Pemerintah dan Lembaga Negara
+  summary_id: Melalui Putusan No. 282/PUU-XXIII/2025 yang mengabulkan permohonan
+    sekelompok mahasiswa, MK menyatakan Pasal 240 beserta Penjelasannya dan Pasal
+    241 UU No. 1/2023 (KUHP) bertentangan dengan UUD 1945 dan tidak mempunyai
+    kekuatan hukum mengikat. Mahkamah menalar bahwa lembaga negara bukan subjek
+    berperasaan sebagaimana manusia sehingga martabatnya tidak memerlukan
+    perlindungan pidana, dan bahwa rumusan kedua pasal membuka ruang tafsir
+    subjektif dalam penegakan hukum sehingga mengancam kriminalisasi kritik,
+    evaluasi, dan pendapat yang sah serta menimbulkan efek gentar (chilling
+    effect) bagi warga.
+  source_ids:
+    - putusan-mk-282-puu-xxiii-2025
+    - berita-antara-mk-240-241-kuhp-2026
+    - berita-kompas-mk-penghinaan-pemerintah-2026
+  dimension_ids:
+    - sila-4
+    - negara-hukum

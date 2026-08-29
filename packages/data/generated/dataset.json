@@ -15284,6 +15284,24 @@
         "sila-3"
       ],
       "actor_ids": []
+    },
+    {
+      "id": "ev-mk-batal-pasal-penghinaan-pemerintah-2026",
+      "term_id": "mk-2023-sekarang",
+      "date": "2026-08-28",
+      "category": "pengadilan",
+      "title_id": "MK Membatalkan Pasal 240 dan 241 KUHP tentang Penghinaan terhadap Pemerintah dan Lembaga Negara",
+      "summary_id": "Melalui Putusan No. 282/PUU-XXIII/2025 yang mengabulkan permohonan sekelompok mahasiswa, MK menyatakan Pasal 240 beserta Penjelasannya dan Pasal 241 UU No. 1/2023 (KUHP) bertentangan dengan UUD 1945 dan tidak mempunyai kekuatan hukum mengikat. Mahkamah menalar bahwa lembaga negara bukan subjek berperasaan sebagaimana manusia sehingga martabatnya tidak memerlukan perlindungan pidana, dan bahwa rumusan kedua pasal membuka ruang tafsir subjektif dalam penegakan hukum sehingga mengancam kriminalisasi kritik, evaluasi, dan pendapat yang sah serta menimbulkan efek gentar (chilling effect) bagi warga.",
+      "source_ids": [
+        "putusan-mk-282-puu-xxiii-2025",
+        "berita-antara-mk-240-241-kuhp-2026",
+        "berita-kompas-mk-penghinaan-pemerintah-2026"
+      ],
+      "dimension_ids": [
+        "sila-4",
+        "negara-hukum"
+      ],
+      "actor_ids": []
     }
   ],
   "sources": [
@@ -19587,6 +19605,33 @@
       "year": 2019,
       "citation_id": "Sidang Akhir Masa Jabatan MPR RI 2014-2019",
       "resolved_url": "https://peraturan.bpk.go.id/Search?keywords=Keputusan%20MPR%20RI%20No.%208%2FMPR%2F2019%20tentang%20Rekomendasi%20MPR%20RI%20Masa%20Jabatan%202014-2019"
+    },
+    {
+      "id": "putusan-mk-282-puu-xxiii-2025",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 282/PUU-XXIII/2025 (Pasal 240 beserta Penjelasan dan Pasal 241 KUHP tentang Penghinaan terhadap Pemerintah dan Lembaga Negara dinyatakan bertentangan dengan UUD 1945)",
+      "year": 2026,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=282/PUU-XXIII/2025",
+      "citation_id": "Putusan MKRI No. 282/PUU-XXIII/2025, diucapkan 28 Agustus 2026",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=282/PUU-XXIII/2025"
+    },
+    {
+      "id": "berita-antara-mk-240-241-kuhp-2026",
+      "type": "berita",
+      "title_id": "ANTARA — MK nyatakan Pasal 240 dan 241 KUHP bertentangan dengan UUD",
+      "year": 2026,
+      "url": "https://www.antaranews.com/berita/5715957/mk-nyatakan-pasal-240-dan-241-kuhp-bertentangan-dengan-uud",
+      "citation_id": "ANTARA News, 28 Agustus 2026",
+      "resolved_url": "https://www.antaranews.com/berita/5715957/mk-nyatakan-pasal-240-dan-241-kuhp-bertentangan-dengan-uud"
+    },
+    {
+      "id": "berita-kompas-mk-penghinaan-pemerintah-2026",
+      "type": "berita",
+      "title_id": "Kompas — MK Hapus Pasal Penghinaan Pemerintah; Lembaga Negara Berbeda dengan Manusia",
+      "year": 2026,
+      "url": "https://nasional.kompas.com/read/2026/08/28/17554901/mk-hapus-pasal-penghinaan-pemerintah-lembaga-negara-berbeda-dengan-manusia",
+      "citation_id": "Kompas.com, 28 Agustus 2026",
+      "resolved_url": "https://nasional.kompas.com/read/2026/08/28/17554901/mk-hapus-pasal-penghinaan-pemerintah-lembaga-negara-berbeda-dengan-manusia"
     }
   ],
   "assessments": [
@@ -24413,7 +24458,7 @@
           "dimension_id": "sila-4",
           "score": 1,
           "confidence": 0.85,
-          "rationale_id": "Menurunkan ambang batas pencalonan pilkada untuk membuka kompetisi demokratis dan melawan kartel politik.",
+          "rationale_id": "Menurunkan ambang batas pencalonan pilkada untuk membuka kompetisi demokratis dan melawan kartel politik. Diperkuat Putusan 282/PUU-XXIII/2025 (28 Agustus 2026) yang membatalkan Pasal 240 beserta Penjelasan dan Pasal 241 KUHP, sehingga kritik terhadap pemerintah dan lembaga negara tidak lagi dapat dipidana. Skor ditahan di +1 dan tidak dinaikkan ke +2 karena pada masa jabatan yang sama dimensi negara-hukum, checks-balances, dan kedaulatan-rakyat masing-masing bernilai -1 sebagai warisan krisis etik 2023; penguatan kebebasan sipil ini belum cukup menjadikan keseluruhan dimensi kerakyatan bersifat teladan. Kenaikan skor adalah keputusan kurator, bukan konsekuensi otomatis satu putusan.",
           "evidence": [
             {
               "source_id": "putusan-mk-60-puu-xxii-2024"
@@ -24423,11 +24468,21 @@
             },
             {
               "source_id": "putusan-mk-70-puu-xxii-2024"
+            },
+            {
+              "source_id": "putusan-mk-282-puu-xxiii-2025"
+            },
+            {
+              "source_id": "berita-antara-mk-240-241-kuhp-2026"
+            },
+            {
+              "source_id": "berita-kompas-mk-penghinaan-pemerintah-2026"
             }
           ],
           "event_ids": [
             "ev-mk-putusan-ambang-batas-pilkada-2024",
             "ev-mk-putusan-threshold-2024",
+            "ev-mk-batal-pasal-penghinaan-pemerintah-2026",
             "ev-mk-putusan-parliamentary-threshold-2024"
           ],
           "normative_anchors": [

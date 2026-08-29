@@ -3127,3 +3127,27 @@
     Jabatan 2014-2019
   year: 2019
   citation_id: Sidang Akhir Masa Jabatan MPR RI 2014-2019
+
+- id: putusan-mk-282-puu-xxiii-2025
+  type: putusan-mk
+  title_id: Putusan MK No. 282/PUU-XXIII/2025 (Pasal 240 beserta Penjelasan dan
+    Pasal 241 KUHP tentang Penghinaan terhadap Pemerintah dan Lembaga Negara
+    dinyatakan bertentangan dengan UUD 1945)
+  year: 2026
+  citation_id: Putusan MKRI No. 282/PUU-XXIII/2025, diucapkan 28 Agustus 2026
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=282/PUU-XXIII/2025
+
+- id: berita-antara-mk-240-241-kuhp-2026
+  type: berita
+  title_id: ANTARA — MK nyatakan Pasal 240 dan 241 KUHP bertentangan dengan UUD
+  year: 2026
+  citation_id: ANTARA News, 28 Agustus 2026
+  url: https://www.antaranews.com/berita/5715957/mk-nyatakan-pasal-240-dan-241-kuhp-bertentangan-dengan-uud
+
+- id: berita-kompas-mk-penghinaan-pemerintah-2026
+  type: berita
+  title_id: Kompas — MK Hapus Pasal Penghinaan Pemerintah; Lembaga Negara Berbeda
+    dengan Manusia
+  year: 2026
+  citation_id: Kompas.com, 28 Agustus 2026
+  url: https://nasional.kompas.com/read/2026/08/28/17554901/mk-hapus-pasal-penghinaan-pemerintah-lembaga-negara-berbeda-dengan-manusia
