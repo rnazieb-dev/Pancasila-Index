@@ -1094,9 +1094,9 @@ export default function AkarSejarahPage() {
   }, [selectedEra, activeCategory, searchQuery]);
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-8 sm:py-16 pb-24">
+    <div className="mx-auto max-w-4xl px-3 sm:px-6 py-8 sm:py-16 pb-24 overflow-x-hidden">
       {/* Navigation */}
-      <div className="flex items-center gap-2 text-xs font-semibold text-[var(--muted)] mb-8">
+      <div className="flex items-center gap-2 text-xs font-semibold text-[var(--muted)] mb-6 sm:mb-8">
         <Link href="/" className="hover:text-[var(--text)] transition">
           Beranda
         </Link>
@@ -1105,27 +1105,27 @@ export default function AkarSejarahPage() {
       </div>
 
       {/* Editorial Header */}
-      <header className="space-y-4 border-b border-[var(--line)]/60 pb-10">
-        <div className="text-xs font-bold uppercase tracking-widest text-[var(--acc-emerald)]">
+      <header className="space-y-4 border-b border-[var(--line)]/60 pb-8 sm:pb-10">
+        <div className="text-[11px] sm:text-xs font-bold uppercase tracking-widest text-[var(--acc-emerald)]">
           Genealogi Intelektual & Khazanah Sejarah 1825–2002
         </div>
-        <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-[var(--text)] leading-tight">
+        <h1 className="text-2xl sm:text-5xl font-extrabold tracking-tight text-[var(--text)] leading-tight">
           Akar Sejarah & Genealogi Konstitusi
         </h1>
-        <p className="text-base sm:text-lg text-[var(--muted)] leading-relaxed max-w-2xl font-serif">
+        <p className="text-sm sm:text-lg text-[var(--muted)] leading-relaxed max-w-2xl font-serif">
           Dua abad pergulatan pemikiran bangsa: dari perlawanan moral anti-kolonial, syariat kerakyatan, tradisi musyawarah adat desa, kebangkitan intelektual pemuda, hingga dialektika sidang BPUPK-PPKI dan ujian keras berbagai arus oposisi.
         </p>
 
-        {/* Minimalist Unified Toolbar */}
-        <div className="pt-4 flex flex-col sm:flex-row gap-3">
+        {/* Minimalist Unified Toolbar (Mobile-Safe) */}
+        <div className="pt-2 sm:pt-4 flex flex-col gap-2.5">
           {/* Search Input */}
-          <div className="relative flex-1">
+          <div className="relative w-full">
             <input
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Cari tokoh (Diponegoro, Natsir, Kartini), naskah, atau peristiwa..."
-              className="w-full bg-[var(--panel)] border border-[var(--line)] rounded-xl px-4 py-2.5 text-xs sm:text-sm text-[var(--text)] placeholder-[var(--muted)] focus:outline-none focus:border-emerald-500 transition shadow-sm"
+              placeholder="Cari tokoh (Diponegoro, Kartini, Natsir), naskah arsip..."
+              className="w-full bg-[var(--panel)] border border-[var(--line)] rounded-xl pl-3.5 pr-8 py-2.5 text-xs sm:text-sm text-[var(--text)] placeholder-[var(--muted)] focus:outline-none focus:border-emerald-500 transition shadow-sm"
             />
             {searchQuery && (
               <button
@@ -1137,12 +1137,12 @@ export default function AkarSejarahPage() {
             )}
           </div>
 
-          {/* Compact Selectors */}
-          <div className="flex items-center gap-2">
+          {/* Filter Selectors Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-12 gap-2">
             <select
               value={selectedEra}
               onChange={(e) => setSelectedEra(e.target.value)}
-              className="bg-[var(--panel)] border border-[var(--line)] rounded-xl px-3 py-2.5 text-xs text-[var(--text)] font-semibold focus:outline-none focus:border-emerald-500 transition cursor-pointer"
+              className="sm:col-span-5 bg-[var(--panel)] border border-[var(--line)] rounded-xl px-3 py-2 text-xs text-[var(--text)] font-semibold focus:outline-none focus:border-emerald-500 transition cursor-pointer truncate"
             >
               {ERAS.map((e) => (
                 <option key={e.id} value={e.id}>
@@ -1154,7 +1154,7 @@ export default function AkarSejarahPage() {
             <select
               value={activeCategory}
               onChange={(e) => setActiveCategory(e.target.value)}
-              className="bg-[var(--panel)] border border-[var(--line)] rounded-xl px-3 py-2.5 text-xs text-[var(--text)] font-semibold focus:outline-none focus:border-emerald-500 transition cursor-pointer"
+              className="sm:col-span-4 bg-[var(--panel)] border border-[var(--line)] rounded-xl px-3 py-2 text-xs text-[var(--text)] font-semibold focus:outline-none focus:border-emerald-500 transition cursor-pointer truncate"
             >
               {CATEGORIES.map((c) => (
                 <option key={c.id} value={c.id}>
@@ -1167,7 +1167,7 @@ export default function AkarSejarahPage() {
             <button
               onClick={() => setIsFullAcademicView(!isFullAcademicView)}
               title="Alihkan Tampilan Ringkas / Risalah Penuh"
-              className={`px-3 py-2.5 rounded-xl border text-xs font-bold transition whitespace-nowrap ${
+              className={`sm:col-span-3 px-3 py-2 rounded-xl border text-xs font-bold transition whitespace-nowrap text-center ${
                 isFullAcademicView
                   ? "bg-sky-600 border-sky-500 text-white shadow-sm"
                   : "bg-[var(--panel)] border-[var(--line)] text-[var(--muted)] hover:text-[var(--text)]"
@@ -1180,7 +1180,7 @@ export default function AkarSejarahPage() {
       </header>
 
       {/* Meta Counter */}
-      <div className="py-4 flex items-center justify-between text-xs text-[var(--muted)] font-mono">
+      <div className="py-3 sm:py-4 flex items-center justify-between text-xs text-[var(--muted)] font-mono">
         <span>Menampilkan {filteredMilestones.length} dari 33 tonggak sejarah</span>
         {(selectedEra !== "all" || activeCategory !== "all" || searchQuery) && (
           <button
@@ -1189,7 +1189,7 @@ export default function AkarSejarahPage() {
               setActiveCategory("all");
               setSearchQuery("");
             }}
-            className="text-[var(--acc-emerald)] hover:underline"
+            className="text-[var(--acc-emerald)] hover:underline font-semibold"
           >
             Reset Filter
           </button>
@@ -1197,37 +1197,38 @@ export default function AkarSejarahPage() {
       </div>
 
       {/* Timeline Stream */}
-      <div className="mt-6 space-y-10 relative before:absolute before:inset-0 before:left-4 sm:before:left-5 before:h-full before:w-px before:bg-gradient-to-b before:from-[var(--acc-emerald)]/60 before:via-[var(--line)] before:to-transparent">
+      <div className="mt-4 sm:mt-6 space-y-8 sm:space-y-10 relative before:absolute before:inset-0 before:left-4 sm:before:left-5 before:h-full before:w-px before:bg-gradient-to-b before:from-[var(--acc-emerald)]/60 before:via-[var(--line)] before:to-transparent">
         {filteredMilestones.length === 0 ? (
-          <div className="text-center py-20 rounded-2xl border border-dashed border-[var(--line)]">
+          <div className="text-center py-16 sm:py-20 rounded-2xl border border-dashed border-[var(--line)]">
             <p className="text-sm font-semibold text-[var(--muted)]">
               Tidak ditemukan tonggak sejarah yang cocok dengan filter atau kata kunci &quot;{searchQuery}&quot;.
             </p>
           </div>
         ) : (
-          filteredMilestones.map((m) => {
+          filteredMilestones.map((m, index) => {
             const isPre1945 = m.connectionType === "embrio-nilai";
             const isExpanded = isFullAcademicView || expandedCards.has(m.id);
 
             return (
               <article
                 key={m.id}
-                className="relative flex items-start gap-4 sm:gap-6 pl-1 sm:pl-2 group"
+                className="relative flex items-start gap-3 sm:gap-6 pl-0.5 sm:pl-1 group"
               >
-                {/* Year Indicator Dot */}
+                {/* Step Number Dot (Never clipped) */}
                 <div
-                  className={`flex items-center justify-center size-8 sm:size-10 rounded-full border-2 border-[var(--bg)] shrink-0 font-bold text-[10px] sm:text-xs z-10 shadow-sm transition ${
+                  className={`flex items-center justify-center size-7 sm:size-8 rounded-full border-2 border-[var(--bg)] shrink-0 font-mono font-extrabold text-[10px] sm:text-xs z-10 shadow-sm transition ${
                     m.isMonumental
                       ? "bg-amber-500 text-slate-950 ring-2 ring-amber-400/40"
                       : "bg-emerald-700 text-white ring-1 ring-emerald-500/30"
                   }`}
+                  title={`Tonggak ${index + 1}: ${m.year}`}
                 >
-                  {m.year.split(" ")[0]}
+                  {String(index + 1).padStart(2, "0")}
                 </div>
 
                 {/* Editorial Story Card */}
                 <div
-                  className={`flex-1 rounded-2xl border p-5 sm:p-7 space-y-4 transition ${
+                  className={`flex-1 min-w-0 rounded-2xl border p-4 sm:p-7 space-y-3 sm:space-y-4 transition ${
                     m.isMonumental
                       ? "border-amber-500/30 bg-[var(--panel)] shadow-sm hover:border-amber-500/60"
                       : "border-[var(--line)] bg-[var(--panel)] hover:border-slate-400/60"
@@ -1235,39 +1236,39 @@ export default function AkarSejarahPage() {
                 >
                   {/* Epoch & Category Headline */}
                   <div className="flex flex-wrap items-center justify-between gap-2 text-xs">
-                    <div className="flex items-center gap-2">
-                      <span>{m.icon}</span>
-                      <span className="font-bold text-[var(--muted)] uppercase tracking-wider text-[11px]">
+                    <div className="flex items-center gap-1.5 sm:gap-2">
+                      <span className="text-sm">{m.icon}</span>
+                      <span className="font-bold text-[var(--muted)] uppercase tracking-wider text-[10px] sm:text-[11px]">
                         {m.categoryLabel}
                       </span>
                       {m.isMonumental && (
-                        <span className="text-amber-400 font-extrabold text-[10px] uppercase tracking-wider">
+                        <span className="text-amber-400 font-extrabold text-[9px] sm:text-[10px] uppercase tracking-wider">
                           &bull; Tonggak Akbar
                         </span>
                       )}
                     </div>
-                    <span className="font-mono text-xs font-semibold text-[var(--muted)]">
+                    <span className="font-mono text-xs font-bold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-md border border-emerald-500/20">
                       {m.year}
                     </span>
                   </div>
 
                   {/* Title & Subtitle */}
                   <div>
-                    <h2 className="text-lg sm:text-xl font-extrabold text-[var(--text)] leading-snug tracking-tight">
+                    <h2 className="text-base sm:text-xl font-extrabold text-[var(--text)] leading-snug tracking-tight">
                       {m.title}
                     </h2>
-                    <p className="text-xs sm:text-sm text-[var(--acc-sky)] font-semibold mt-1">
+                    <p className="text-xs sm:text-sm text-[var(--acc-sky)] font-semibold mt-0.5 sm:mt-1">
                       {m.subtitle}
                     </p>
                   </div>
 
                   {/* Integrated Quote Block */}
                   {m.quote && (
-                    <blockquote className="border-l-2 border-amber-500/70 pl-3.5 py-0.5 space-y-1">
+                    <blockquote className="border-l-2 border-amber-500/70 pl-3 py-0.5 space-y-0.5">
                       <p className="text-xs sm:text-sm italic text-[var(--text)] leading-relaxed font-serif">
                         &ldquo;{m.quote.text}&rdquo;
                       </p>
-                      <footer className="text-[11px] text-amber-400/90 font-semibold text-right">
+                      <footer className="text-[10px] sm:text-[11px] text-amber-400/90 font-semibold text-right">
                         — {m.quote.author}
                       </footer>
                     </blockquote>
@@ -1279,8 +1280,8 @@ export default function AkarSejarahPage() {
                   </p>
 
                   {/* Minimal Meta Badges & Drawer Trigger */}
-                  <div className="pt-2 border-t border-[var(--line)]/50 flex flex-wrap items-center justify-between gap-3">
-                    <div className="flex flex-wrap gap-1.5 text-[11px]">
+                  <div className="pt-2 border-t border-[var(--line)]/50 flex flex-wrap items-center justify-between gap-2.5">
+                    <div className="flex flex-wrap gap-1 text-[10px] sm:text-[11px]">
                       {m.connections.map((c, i) => (
                         <span
                           key={i}
@@ -1298,7 +1299,7 @@ export default function AkarSejarahPage() {
                     {!isFullAcademicView && (
                       <button
                         onClick={() => toggleExpand(m.id)}
-                        className="text-xs font-bold text-[var(--acc-sky)] hover:underline flex items-center gap-1 shrink-0 ml-auto"
+                        className="text-xs font-bold text-[var(--acc-sky)] hover:underline flex items-center gap-1 shrink-0 ml-auto pt-1 sm:pt-0"
                       >
                         <span>{isExpanded ? "Tutup Risalah ▲" : "Pelajari Risalah & Bukti Arsip ▾"}</span>
                       </button>
@@ -1307,10 +1308,10 @@ export default function AkarSejarahPage() {
 
                   {/* Expandable Academic Drawer */}
                   {isExpanded && (
-                    <div className="pt-4 border-t border-[var(--line)]/60 space-y-4 text-xs animate-fadeIn">
+                    <div className="pt-3.5 border-t border-[var(--line)]/60 space-y-3.5 text-xs animate-fadeIn">
                       {/* Deep Historical Context */}
-                      <div className="space-y-1.5">
-                        <div className="font-bold text-[var(--text)] uppercase tracking-wider text-[11px]">
+                      <div className="space-y-1">
+                        <div className="font-bold text-[var(--text)] uppercase tracking-wider text-[10px] sm:text-[11px]">
                           📖 Telaah Historis & Dialektika Naskah:
                         </div>
                         <p className="text-xs sm:text-sm text-[var(--muted)] leading-relaxed font-serif">
@@ -1320,30 +1321,30 @@ export default function AkarSejarahPage() {
 
                       {/* Quran Citation if present */}
                       {m.quranVerse && (
-                        <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-4 space-y-2">
-                          <div className="flex items-center justify-between font-bold text-emerald-400">
+                        <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-3.5 space-y-2">
+                          <div className="flex items-center justify-between font-bold text-emerald-400 text-[11px] sm:text-xs">
                             <span>📖 Rujukan Al-Qur&apos;an Fraksi Islam BPUPK:</span>
                             <span>{m.quranVerse.surah}</span>
                           </div>
                           <div className="text-sm sm:text-base font-serif text-right text-[var(--text)] leading-loose dir-rtl pt-1">
                             {m.quranVerse.arabic}
                           </div>
-                          <p className="italic text-[var(--muted)] border-t border-emerald-500/20 pt-2 text-[11px]">
+                          <p className="italic text-[var(--muted)] border-t border-emerald-500/20 pt-1.5 text-[10px] sm:text-[11px]">
                             {m.quranVerse.translation}
                           </p>
                         </div>
                       )}
 
                       {/* Figures */}
-                      <div className="space-y-1.5">
-                        <div className="font-bold text-[var(--text)]">
+                      <div className="space-y-1">
+                        <div className="font-bold text-[var(--text)] text-[11px]">
                           👤 Tokoh & Eksponen Kunci:
                         </div>
-                        <div className="flex flex-wrap gap-1.5">
+                        <div className="flex flex-wrap gap-1">
                           {m.figures.map((f) => (
                             <span
                               key={f}
-                              className="rounded-md bg-[var(--bg)] px-2 py-0.5 text-[11px] text-[var(--muted)] border border-[var(--line)]"
+                              className="rounded-md bg-[var(--bg)] px-2 py-0.5 text-[10px] sm:text-[11px] text-[var(--muted)] border border-[var(--line)]"
                             >
                               {f}
                             </span>
@@ -1352,11 +1353,11 @@ export default function AkarSejarahPage() {
                       </div>
 
                       {/* Primary Citations */}
-                      <div className="space-y-1.5">
-                        <div className="font-bold text-[var(--text)]">
+                      <div className="space-y-1">
+                        <div className="font-bold text-[var(--text)] text-[11px]">
                           🏛️ Sumber Primer & Repositori Arsip:
                         </div>
-                        <ul className="space-y-1 text-[11px] text-[var(--muted)]">
+                        <ul className="space-y-1 text-[10px] sm:text-[11px] text-[var(--muted)]">
                           {m.citations.map((c, i) => (
                             <li key={i} className="flex items-start gap-1.5">
                               <span className="text-[var(--acc-sky)] shrink-0">•</span>
@@ -1375,8 +1376,8 @@ export default function AkarSejarahPage() {
       </div>
 
       {/* Minimal Footer Note */}
-      <footer className="mt-16 pt-8 border-t border-[var(--line)]/60 text-xs text-[var(--muted)] flex flex-wrap items-center justify-between gap-4">
-        <p className="max-w-xl leading-relaxed">
+      <footer className="mt-16 pt-8 border-t border-[var(--line)]/60 text-xs text-[var(--muted)] flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p className="max-w-xl leading-relaxed text-center sm:text-left">
           Pancasila Index memegang prinsip hermeneutika sejarah obyektif: peristiwa sebelum 1945 disajikan sebagai embrio nilai kultural dan etika bangsa, bukan sebagai norma hukum positif anakronis.
         </p>
         <div className="flex gap-4">
