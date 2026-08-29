@@ -158,15 +158,15 @@ function MobileLocaleSelect() {
         value={locale}
         onChange={(e) => setLocale(e.target.value as any)}
         aria-label="Pilih Bahasa / Language"
-        className="appearance-none rounded-lg border border-[var(--line)] bg-[var(--bg)] py-1 pl-2 pr-6 text-xs font-bold uppercase text-[var(--text)] outline-none hover:border-slate-400 cursor-pointer shadow-sm"
+        className="appearance-none rounded-lg border border-[var(--line)] bg-[var(--bg)] py-1 pl-2 pr-5 text-xs font-bold uppercase text-[var(--text)] outline-none hover:border-slate-400 cursor-pointer shadow-sm"
       >
         {LOCALES.map((l) => (
           <option key={l.code} value={l.code}>
-            {l.code.toUpperCase()} · {l.native}
+            {l.short} ({l.native})
           </option>
         ))}
       </select>
-      <div className="pointer-events-none absolute right-1.5 text-[9px] text-[var(--muted)]">
+      <div className="pointer-events-none absolute right-1.5 text-[8px] text-[var(--muted)]">
         ▼
       </div>
     </div>
@@ -189,11 +189,11 @@ function LocaleDropdown({ align = "right" }: { align?: "left" | "right" }) {
         aria-haspopup="listbox"
         aria-label={t("langChoose")}
         title={t("langChoose")}
-        className="flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-[var(--text)]"
+        className="flex items-center gap-1 rounded-lg px-2 py-1.5 text-[var(--muted)] transition hover:bg-[var(--line)] hover:text-[var(--text)]"
       >
         <svg
-          width="16"
-          height="16"
+          width="15"
+          height="15"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -203,8 +203,8 @@ function LocaleDropdown({ align = "right" }: { align?: "left" | "right" }) {
           <circle cx="12" cy="12" r="9" />
           <path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18" />
         </svg>
-        <span className="text-[11px] font-semibold uppercase">
-          {current.code}
+        <span className="text-xs font-bold uppercase tracking-wide text-[var(--text)]">
+          {current.short}
         </span>
         <Chevron open={open} />
       </button>
@@ -212,7 +212,7 @@ function LocaleDropdown({ align = "right" }: { align?: "left" | "right" }) {
       {open && (
         <div
           role="listbox"
-          className={`${PANEL} ${align === "right" ? "right-0" : "left-0"} w-60`}
+          className={`${PANEL} ${align === "right" ? "right-0" : "left-0"} w-56`}
         >
           {LOCALES.map((l) => {
             const active = locale === l.code;
@@ -225,18 +225,18 @@ function LocaleDropdown({ align = "right" }: { align?: "left" | "right" }) {
                   setLocale(l.code as typeof locale);
                   setOpen(false);
                 }}
-                className={`flex w-full items-center gap-2.5 px-4 py-2 text-left text-sm transition hover:bg-[var(--line)] ${
+                className={`flex w-full items-center gap-2 px-3.5 py-2 text-left text-xs transition hover:bg-[var(--line)] ${
                   active
-                    ? "text-[var(--text)] font-semibold"
+                    ? "text-[var(--text)] font-bold bg-[var(--line)]/50"
                     : "text-[var(--muted)] hover:text-[var(--text)]"
                 }`}
               >
                 <span
-                  className={`w-8 shrink-0 text-[10px] font-semibold uppercase ${
+                  className={`w-9 shrink-0 text-xs font-bold uppercase ${
                     active ? "text-[var(--acc-red)]" : "text-[var(--muted)]"
                   }`}
                 >
-                  {l.code}
+                  {l.short}
                 </span>
                 <span className="min-w-0 flex-1 truncate">{l.native}</span>
                 {l.needsReview && (

@@ -10,18 +10,19 @@
 
 export interface LocaleMeta {
   code: string;
+  short: string;
   native: string;
   /** Terjemahan UI lengkap, tetapi belum diverifikasi penutur asli. */
   needsReview?: boolean;
 }
 
 export const LOCALES: LocaleMeta[] = [
-  { code: "id", native: "Bahasa Indonesia" },
-  { code: "en", native: "English" },
-  { code: "jv", native: "Basa Jawa", needsReview: true },
-  { code: "su", native: "Basa Sunda", needsReview: true },
-  { code: "mad", native: "Madhurâ", needsReview: true },
-  { code: "min", native: "Minangkabau", needsReview: true },
+  { code: "id", short: "ID", native: "Bahasa Indonesia" },
+  { code: "en", short: "EN", native: "English" },
+  { code: "jv", short: "JAW", native: "Basa Jawa", needsReview: true },
+  { code: "su", short: "SUN", native: "Basa Sunda", needsReview: true },
+  { code: "mad", short: "MAD", native: "Madhurâ", needsReview: true },
+  { code: "min", short: "MIN", native: "Minangkabau", needsReview: true },
 ];
 
 export type LocaleCode = (typeof LOCALES)[number]["code"];
