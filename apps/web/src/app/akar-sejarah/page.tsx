@@ -12,8 +12,8 @@ interface Milestone {
   category: "islam" | "pendidikan" | "sosio-desa" | "pemuda" | "perempuan" | "kebangsaan" | "konstitusi" | "oposisi";
   categoryLabel: string;
   icon: string;
-  tldr: string; // Intisari 1 kalimat ramah publik
-  isMonumental?: boolean; // Highlight peristiwa puncak
+  tldr: string;
+  isMonumental?: boolean;
   quote?: {
     text: string;
     author: string;
@@ -36,8 +36,8 @@ const HISTORICAL_MILESTONES: Milestone[] = [
     id: "perang-diponegoro-1825",
     year: "1825–1830",
     era: "pra-1900",
-    title: "Perang Jawa / Perang Diponegoro: Perlawanan Moral & Syariat",
-    subtitle: "Pangeran Diponegoro Memimpin Perang Melawan Kezaliman Fiskal Kolonial",
+    title: "Perang Jawa: Perlawanan Moral Diponegoro Melawan Pajak Tol",
+    subtitle: "Pangeran Diponegoro Memimpin Perang Membela Kaum Tani Tertindas",
     category: "islam",
     categoryLabel: "Perlawanan Moral & Agama",
     icon: "🗡️",
@@ -1036,32 +1036,32 @@ const HISTORICAL_MILESTONES: Milestone[] = [
 ];
 
 const ERAS = [
-  { id: "all", label: "Semua Era (1825–2002)", icon: "🌐", count: 33 },
-  { id: "pra-1900", label: "Era 0: Fondasi Adat & Moral (Pra-1900)", icon: "🗡️", count: 3 },
-  { id: "1905-1920", label: "Era 1: Fajar Organisasi Modern (1905–1920)", icon: "🌱", count: 5 },
-  { id: "1922-1938", label: "Era 2: Sosio-Demokrasi & Persatuan (1922–1938)", icon: "🤝", count: 8 },
-  { id: "1945", label: "Era 3: Perumusan Konstitusi (1945)", icon: "🏛️", count: 5 },
-  { id: "1945-1949", label: "Era 4: Revolusi & Oposisi (1945–1949)", icon: "🔥", count: 5 },
-  { id: "1950-2002", label: "Era 5: Dinamika, Konflik & Reformasi (1950–2002)", icon: "⚖️", count: 7 },
+  { id: "all", label: "Semua Babak Zaman (1825–2002)" },
+  { id: "pra-1900", label: "Era 0: Fondasi Adat & Moral (Pra-1900)" },
+  { id: "1905-1920", label: "Era 1: Fajar Organisasi Modern (1905–1920)" },
+  { id: "1922-1938", label: "Era 2: Sosio-Demokrasi & Persatuan (1922–1938)" },
+  { id: "1945", label: "Era 3: Perumusan Konstitusi (1945)" },
+  { id: "1945-1949", label: "Era 4: Revolusi Fisik & Oposisi (1945–1949)" },
+  { id: "1950-2002", label: "Era 5: Dinamika, Konflik & Reformasi (1950–2002)" },
 ];
 
 const CATEGORIES = [
-  { id: "all", label: "Semua Arus", icon: "🌐" },
-  { id: "islam", label: "Islam & Syariat Kerakyatan", icon: "🕌" },
-  { id: "oposisi", label: "Oposisi & Perlawanan Regional", icon: "⚡" },
-  { id: "kebangsaan", label: "Kebangsaan & Anti-Kolonial", icon: "🇮🇩" },
-  { id: "pendidikan", label: "Pendidikan Kritis", icon: "🎓" },
-  { id: "sosio-desa", label: "Sosio-Demokrasi Desa & Adat", icon: "🌾" },
-  { id: "pemuda", label: "Pemuda & Kebhinekaan", icon: "🤝" },
-  { id: "perempuan", label: "Gerakan Perempuan", icon: "🧕" },
-  { id: "konstitusi", label: "Naskah Konstitusi & Tata Negara", icon: "⚖️" },
+  { id: "all", label: "Semua Arus Gerakan" },
+  { id: "islam", label: "Islam & Syariat Kerakyatan" },
+  { id: "oposisi", label: "Oposisi & Perlawanan Regional" },
+  { id: "kebangsaan", label: "Kebangsaan & Anti-Kolonial" },
+  { id: "pendidikan", label: "Pendidikan Pembebasan" },
+  { id: "sosio-desa", label: "Sosio-Demokrasi & Hukum Adat" },
+  { id: "pemuda", label: "Pemuda & Kebhinekaan" },
+  { id: "perempuan", label: "Gerakan Perempuan" },
+  { id: "konstitusi", label: "Naskah Konstitusi & Tata Negara" },
 ];
 
 export default function AkarSejarahPage() {
   const [selectedEra, setSelectedEra] = useState<string>("all");
   const [activeCategory, setActiveCategory] = useState<string>("all");
   const [searchQuery, setSearchQuery] = useState<string>("");
-  const [viewMode, setViewMode] = useState<"summary" | "academic">("summary");
+  const [isFullAcademicView, setIsFullAcademicView] = useState<boolean>(false);
   const [expandedCards, setExpandedCards] = useState<Set<string>>(new Set());
 
   const toggleExpand = (id: string) => {
@@ -1071,14 +1071,6 @@ export default function AkarSejarahPage() {
       else next.add(id);
       return next;
     });
-  };
-
-  const expandAll = () => {
-    setExpandedCards(new Set(HISTORICAL_MILESTONES.map((m) => m.id)));
-  };
-
-  const collapseAll = () => {
-    setExpandedCards(new Set());
   };
 
   const filteredMilestones = useMemo(() => {
@@ -1102,9 +1094,9 @@ export default function AkarSejarahPage() {
   }, [selectedEra, activeCategory, searchQuery]);
 
   return (
-    <div className="mx-auto max-w-5xl px-4 py-8 sm:py-12 pb-24">
+    <div className="mx-auto max-w-4xl px-4 py-8 sm:py-16 pb-24">
       {/* Navigation */}
-      <div className="flex items-center gap-2 text-xs sm:text-sm font-semibold text-[var(--muted)] mb-6">
+      <div className="flex items-center gap-2 text-xs font-semibold text-[var(--muted)] mb-8">
         <Link href="/" className="hover:text-[var(--text)] transition">
           Beranda
         </Link>
@@ -1112,98 +1104,28 @@ export default function AkarSejarahPage() {
         <span className="text-[var(--text)]">Akar Sejarah & Genealogi Konstitusi</span>
       </div>
 
-      {/* Header */}
-      <div className="border-b border-[var(--line)] pb-8">
-        <div className="flex flex-wrap items-center justify-between gap-4">
-          <div>
-            <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[var(--acc-emerald)]">
-              <span>🏛️</span>
-              <span>Genealogi Intelektual, Dokumen Konstitusi & Khazanah Oposisi (1825–2002)</span>
-            </div>
-            <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[var(--text)] mt-1">
-              Akar Sejarah, Genealogi & Oposisi
-            </h1>
-            <p className="mt-3 text-sm sm:text-base text-[var(--muted)] leading-relaxed max-w-3xl">
-              Pancasila dan UUD 1945 bukan produk instan yang lahir dalam semalam pada 1945, melainkan titik temu (*kalimatun sawa*) dari ratusan tahun perlawanan moral anti-kolonial, syariat Islam kerakyatan, tradisi musyawarah adat nagari/desa, kebangkitan pendidikan kritis, emansipasi perempuan, pergerakan pemuda kebinekaan, dialektika sidang PPKI, hingga ujian keras dari berbagai arus oposisi (NII, PKI, RMS, PRRI/Permesta, GAM, Papua, Petisi 50) yang melahirkan konsensus rekonsiliasi konstitusi modern 1999–2002.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-2 p-4 rounded-xl border border-[var(--line)] bg-[var(--panel)]">
-            <div className="text-xs text-[var(--muted)]">Total Tonggak Sejarah Terverifikasi:</div>
-            <div className="text-2xl sm:text-3xl font-extrabold text-[var(--acc-emerald)]">
-              33 <span className="text-xs font-normal text-[var(--muted)]">Peristiwa Primer</span>
-            </div>
-            <div className="text-[11px] text-[var(--acc-sky)] font-semibold">
-              ✓ 6 Babakan Zaman &bull; Termasuk 6 Arus Oposisi & Rekonsiliasi
-            </div>
-          </div>
+      {/* Editorial Header */}
+      <header className="space-y-4 border-b border-[var(--line)]/60 pb-10">
+        <div className="text-xs font-bold uppercase tracking-widest text-[var(--acc-emerald)]">
+          Genealogi Intelektual & Khazanah Sejarah 1825–2002
         </div>
+        <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-[var(--text)] leading-tight">
+          Akar Sejarah & Genealogi Konstitusi
+        </h1>
+        <p className="text-base sm:text-lg text-[var(--muted)] leading-relaxed max-w-2xl font-serif">
+          Dua abad pergulatan pemikiran bangsa: dari perlawanan moral anti-kolonial, syariat kerakyatan, tradisi musyawarah adat desa, kebangkitan intelektual pemuda, hingga dialektika sidang BPUPK-PPKI dan ujian keras berbagai arus oposisi.
+        </p>
 
-        {/* Mode Membaca Segmented Control */}
-        <div className="mt-6 p-4 rounded-2xl border border-[var(--line)] bg-[var(--panel)] flex flex-wrap items-center justify-between gap-4 shadow-sm">
-          <div className="flex items-center gap-2">
-            <span className="text-xs font-bold uppercase tracking-wider text-[var(--muted)]">Pilih Mode Tampilan:</span>
-            <div className="flex rounded-xl p-1 bg-[var(--bg)] border border-[var(--line)]">
-              <button
-                onClick={() => setViewMode("summary")}
-                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
-                  viewMode === "summary"
-                    ? "bg-emerald-600 text-white shadow-sm"
-                    : "text-[var(--muted)] hover:text-[var(--text)]"
-                }`}
-              >
-                📖 Mode Intisari Publik (Ringkas)
-              </button>
-              <button
-                onClick={() => setViewMode("academic")}
-                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
-                  viewMode === "academic"
-                    ? "bg-sky-600 text-white shadow-sm"
-                    : "text-[var(--muted)] hover:text-[var(--text)]"
-                }`}
-              >
-                🔬 Mode Risalah Lengkap (Akademik)
-              </button>
-            </div>
-          </div>
-
-          {viewMode === "summary" && (
-            <div className="flex items-center gap-2 text-xs">
-              <button
-                onClick={expandAll}
-                className="px-2.5 py-1 rounded-lg border border-[var(--line)] text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400"
-              >
-                Buka Semua Telaah
-              </button>
-              <button
-                onClick={collapseAll}
-                className="px-2.5 py-1 rounded-lg border border-[var(--line)] text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400"
-              >
-                Tutup Semua Telaah
-              </button>
-            </div>
-          )}
-        </div>
-
-        {/* Catatan Hermeneutika Anti-Anakronisme */}
-        <div className="mt-4 p-4 rounded-xl border border-amber-500/30 bg-amber-500/5 text-xs text-[var(--muted)] leading-relaxed space-y-1.5">
-          <div className="font-bold text-amber-500 dark:text-amber-400 flex items-center gap-1.5">
-            <span>💡</span> Prinsip Metodologis Bebas Anakronisme Sejarah:
-          </div>
-          <div>
-            Peristiwa pada era <strong>Pra-1945 (Era 0, 1, 2)</strong> ditautkan sebagai <span className="text-emerald-400 font-semibold">🌱 Embrio Nilai & Preseden Genealogi</span> (nilai moral/sosial/adat yang <em>kelak mengilhami / dikristalisasikan oleh BPUPK-PPKI</em>). Tautan langsung sebagai <span className="text-sky-400 font-semibold">⚖️ Norma Konstitusi Positif</span> baru berlaku sejak UUD 1945 resmi disahkan pada 18 Agustus 1945 (Era 3, 4, 5).
-          </div>
-        </div>
-
-        {/* Search Bar */}
-        <div className="mt-6 flex flex-col md:flex-row gap-3">
+        {/* Minimalist Unified Toolbar */}
+        <div className="pt-4 flex flex-col sm:flex-row gap-3">
+          {/* Search Input */}
           <div className="relative flex-1">
             <input
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Cari tokoh (Diponegoro, Natsir, Kartosoewirjo, Hasan Tiro, Hatta), naskah arsip ANRI, Leiden, IISG..."
-              className="w-full bg-[var(--panel)] border border-[var(--line)] rounded-xl px-4 py-2.5 text-xs sm:text-sm text-[var(--text)] placeholder-[var(--muted)] focus:outline-none focus:border-emerald-500"
+              placeholder="Cari tokoh (Diponegoro, Natsir, Kartini), naskah, atau peristiwa..."
+              className="w-full bg-[var(--panel)] border border-[var(--line)] rounded-xl px-4 py-2.5 text-xs sm:text-sm text-[var(--text)] placeholder-[var(--muted)] focus:outline-none focus:border-emerald-500 transition shadow-sm"
             />
             {searchQuery && (
               <button
@@ -1214,271 +1136,231 @@ export default function AkarSejarahPage() {
               </button>
             )}
           </div>
-        </div>
 
-        {/* Era Filter Tabs */}
-        <div className="mt-5 space-y-2">
-          <div className="text-xs font-bold uppercase tracking-wider text-[var(--muted)]">Pilih Babakan Zaman:</div>
-          <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
-            {ERAS.map((era) => {
-              const isActive = selectedEra === era.id;
-              return (
-                <button
-                  key={era.id}
-                  onClick={() => setSelectedEra(era.id)}
-                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition ${
-                    isActive
-                      ? "bg-emerald-600 dark:bg-emerald-600 text-white font-bold shadow-md ring-1 ring-emerald-400"
-                      : "bg-[var(--panel)] border border-[var(--line)] text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400"
-                  }`}
-                >
-                  <span>{era.icon}</span>
-                  <span>{era.label}</span>
-                  <span className="opacity-70 text-[10px]">({era.count})</span>
-                </button>
-              );
-            })}
+          {/* Compact Selectors */}
+          <div className="flex items-center gap-2">
+            <select
+              value={selectedEra}
+              onChange={(e) => setSelectedEra(e.target.value)}
+              className="bg-[var(--panel)] border border-[var(--line)] rounded-xl px-3 py-2.5 text-xs text-[var(--text)] font-semibold focus:outline-none focus:border-emerald-500 transition cursor-pointer"
+            >
+              {ERAS.map((e) => (
+                <option key={e.id} value={e.id}>
+                  {e.label}
+                </option>
+              ))}
+            </select>
+
+            <select
+              value={activeCategory}
+              onChange={(e) => setActiveCategory(e.target.value)}
+              className="bg-[var(--panel)] border border-[var(--line)] rounded-xl px-3 py-2.5 text-xs text-[var(--text)] font-semibold focus:outline-none focus:border-emerald-500 transition cursor-pointer"
+            >
+              {CATEGORIES.map((c) => (
+                <option key={c.id} value={c.id}>
+                  {c.label}
+                </option>
+              ))}
+            </select>
+
+            {/* View Mode Toggle */}
+            <button
+              onClick={() => setIsFullAcademicView(!isFullAcademicView)}
+              title="Alihkan Tampilan Ringkas / Risalah Penuh"
+              className={`px-3 py-2.5 rounded-xl border text-xs font-bold transition whitespace-nowrap ${
+                isFullAcademicView
+                  ? "bg-sky-600 border-sky-500 text-white shadow-sm"
+                  : "bg-[var(--panel)] border-[var(--line)] text-[var(--muted)] hover:text-[var(--text)]"
+              }`}
+            >
+              {isFullAcademicView ? "🔬 Mode Risalah" : "📖 Ringkas"}
+            </button>
           </div>
         </div>
+      </header>
 
-        {/* Category / Arus Filter Tabs */}
-        <div className="mt-4 space-y-2">
-          <div className="text-xs font-bold uppercase tracking-wider text-[var(--muted)]">Filter Arus Gerakan & Oposisi:</div>
-          <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
-            {CATEGORIES.map((cat) => {
-              const isActive = activeCategory === cat.id;
-              const count =
-                cat.id === "all"
-                  ? HISTORICAL_MILESTONES.length
-                  : HISTORICAL_MILESTONES.filter((m) => m.category === cat.id).length;
-
-              return (
-                <button
-                  key={cat.id}
-                  onClick={() => setActiveCategory(cat.id)}
-                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition ${
-                    isActive
-                      ? "bg-emerald-600 dark:bg-emerald-600 text-white font-bold shadow-md ring-1 ring-emerald-400"
-                      : "bg-[var(--panel)] border border-[var(--line)] text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400"
-                  }`}
-                >
-                  <span>{cat.icon}</span>
-                  <span>{cat.label}</span>
-                  <span className="opacity-70 text-[10px]">({count})</span>
-                </button>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-
-      {/* Banner Khazanah Arsip ANRI & Internasional */}
-      <div className="mt-8 p-4 rounded-2xl border border-sky-500/30 bg-sky-500/10 flex flex-wrap items-center justify-between gap-4">
-        <div className="flex items-center gap-3">
-          <span className="text-2xl">🏛️</span>
-          <div>
-            <div className="font-bold text-sm text-[var(--text)]">Jelajahi Khazanah Arsip Nasional & Repositori Internasional</div>
-            <div className="text-xs text-[var(--muted)]">Telusuri 578 dokumen otentik ANRI, Nationaal Archief Nederland, IISG Amsterdam, KITLV Leiden, UN Archives, dan CMI Helsinki.</div>
-          </div>
-        </div>
-        <Link
-          href="/arsip"
-          className="px-4 py-2 rounded-xl bg-sky-600 dark:bg-sky-600 text-white font-bold text-xs hover:bg-sky-500 transition shrink-0 shadow-sm"
-        >
-          Buka Direktori Arsip Lengkap &rarr;
-        </Link>
+      {/* Meta Counter */}
+      <div className="py-4 flex items-center justify-between text-xs text-[var(--muted)] font-mono">
+        <span>Menampilkan {filteredMilestones.length} dari 33 tonggak sejarah</span>
+        {(selectedEra !== "all" || activeCategory !== "all" || searchQuery) && (
+          <button
+            onClick={() => {
+              setSelectedEra("all");
+              setActiveCategory("all");
+              setSearchQuery("");
+            }}
+            className="text-[var(--acc-emerald)] hover:underline"
+          >
+            Reset Filter
+          </button>
+        )}
       </div>
 
       {/* Timeline Stream */}
-      <div className="mt-10 space-y-8 relative before:absolute before:inset-0 before:left-4 sm:before:left-5 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-[var(--acc-emerald)] before:via-[var(--line)] before:to-transparent">
+      <div className="mt-6 space-y-10 relative before:absolute before:inset-0 before:left-4 sm:before:left-5 before:h-full before:w-px before:bg-gradient-to-b before:from-[var(--acc-emerald)]/60 before:via-[var(--line)] before:to-transparent">
         {filteredMilestones.length === 0 ? (
-          <div className="text-center py-16 rounded-2xl border border-dashed border-[var(--line)]">
+          <div className="text-center py-20 rounded-2xl border border-dashed border-[var(--line)]">
             <p className="text-sm font-semibold text-[var(--muted)]">
               Tidak ditemukan tonggak sejarah yang cocok dengan filter atau kata kunci &quot;{searchQuery}&quot;.
             </p>
           </div>
         ) : (
-          filteredMilestones.map((m, index) => {
+          filteredMilestones.map((m) => {
             const isPre1945 = m.connectionType === "embrio-nilai";
-            const isExpanded = viewMode === "academic" || expandedCards.has(m.id);
+            const isExpanded = isFullAcademicView || expandedCards.has(m.id);
 
             return (
-              <div key={m.id} className="relative flex items-start gap-4 sm:gap-6 pl-1 sm:pl-2">
-                {/* Year Badge */}
+              <article
+                key={m.id}
+                className="relative flex items-start gap-4 sm:gap-6 pl-1 sm:pl-2 group"
+              >
+                {/* Year Indicator Dot */}
                 <div
-                  className={`flex items-center justify-center size-8 sm:size-10 rounded-full border-2 border-[var(--bg)] shrink-0 font-extrabold text-[10px] sm:text-xs z-10 shadow-md ${
+                  className={`flex items-center justify-center size-8 sm:size-10 rounded-full border-2 border-[var(--bg)] shrink-0 font-bold text-[10px] sm:text-xs z-10 shadow-sm transition ${
                     m.isMonumental
-                      ? "bg-amber-500 dark:bg-amber-500 text-slate-950 ring-4 ring-amber-400/40"
-                      : "bg-emerald-600 dark:bg-emerald-600 text-white ring-2 ring-emerald-400/40"
+                      ? "bg-amber-500 text-slate-950 ring-2 ring-amber-400/40"
+                      : "bg-emerald-700 text-white ring-1 ring-emerald-500/30"
                   }`}
                 >
                   {m.year.split(" ")[0]}
                 </div>
 
-                {/* Card Content */}
+                {/* Editorial Story Card */}
                 <div
-                  className={`flex-1 rounded-2xl border p-5 sm:p-6 shadow-sm space-y-3.5 transition ${
+                  className={`flex-1 rounded-2xl border p-5 sm:p-7 space-y-4 transition ${
                     m.isMonumental
-                      ? "border-amber-500/50 bg-gradient-to-br from-amber-500/5 via-[var(--panel)] to-[var(--panel)] hover:border-amber-400 ring-1 ring-amber-500/20"
-                      : "border-[var(--line)] bg-[var(--panel)] hover:border-slate-400"
+                      ? "border-amber-500/30 bg-[var(--panel)] shadow-sm hover:border-amber-500/60"
+                      : "border-[var(--line)] bg-[var(--panel)] hover:border-slate-400/60"
                   }`}
                 >
-                  {/* Top Bar: Icon, Category, Monumental Badge, Index */}
-                  <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[var(--line)]/50 pb-3">
+                  {/* Epoch & Category Headline */}
+                  <div className="flex flex-wrap items-center justify-between gap-2 text-xs">
                     <div className="flex items-center gap-2">
-                      <span className="text-base sm:text-lg">{m.icon}</span>
-                      <span className="rounded-md bg-[var(--bg)] px-2.5 py-0.5 text-xs font-semibold text-[var(--acc-emerald)] border border-[var(--line)]">
+                      <span>{m.icon}</span>
+                      <span className="font-bold text-[var(--muted)] uppercase tracking-wider text-[11px]">
                         {m.categoryLabel}
                       </span>
                       {m.isMonumental && (
-                        <span className="rounded-md bg-amber-500/20 text-amber-400 border border-amber-500/30 px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-wider">
-                          ⭐ Tonggak Akbar
+                        <span className="text-amber-400 font-extrabold text-[10px] uppercase tracking-wider">
+                          &bull; Tonggak Akbar
                         </span>
                       )}
                     </div>
-                    <div className="flex items-center gap-2 text-xs font-mono text-[var(--muted)]">
-                      <span>Tonggak {String(index + 1).padStart(2, "0")}/33</span>
-                      <span>&bull;</span>
-                      <span className="font-bold text-[var(--text)]">{m.year}</span>
-                    </div>
+                    <span className="font-mono text-xs font-semibold text-[var(--muted)]">
+                      {m.year}
+                    </span>
                   </div>
 
                   {/* Title & Subtitle */}
                   <div>
-                    <h3 className="text-base sm:text-lg font-extrabold text-[var(--text)] leading-snug">
+                    <h2 className="text-lg sm:text-xl font-extrabold text-[var(--text)] leading-snug tracking-tight">
                       {m.title}
-                    </h3>
-                    <p className="text-xs sm:text-sm font-semibold text-[var(--acc-sky)] mt-0.5">
+                    </h2>
+                    <p className="text-xs sm:text-sm text-[var(--acc-sky)] font-semibold mt-1">
                       {m.subtitle}
                     </p>
                   </div>
 
-                  {/* TL;DR Intisari 1 Kalimat Ramah Publik */}
-                  <div className="p-3 rounded-xl bg-[var(--bg)] border border-[var(--line)]/80 text-xs sm:text-sm text-[var(--text)] leading-relaxed flex items-start gap-2.5">
-                    <span className="text-base shrink-0">💡</span>
-                    <div>
-                      <span className="font-bold text-[var(--acc-emerald)]">Intisari Peristiwa: </span>
-                      <span>{m.tldr}</span>
-                    </div>
-                  </div>
-
-                  {/* Quote of the Milestone (if present) */}
+                  {/* Integrated Quote Block */}
                   {m.quote && (
-                    <div className="rounded-xl border-l-4 border-amber-500 bg-amber-500/5 p-3 sm:p-3.5 space-y-1">
-                      <p className="text-xs sm:text-sm italic text-[var(--text)] leading-relaxed">
+                    <blockquote className="border-l-2 border-amber-500/70 pl-3.5 py-0.5 space-y-1">
+                      <p className="text-xs sm:text-sm italic text-[var(--text)] leading-relaxed font-serif">
                         &ldquo;{m.quote.text}&rdquo;
                       </p>
-                      <p className="text-[11px] font-semibold text-amber-500 dark:text-amber-400 text-right">
+                      <footer className="text-[11px] text-amber-400/90 font-semibold text-right">
                         — {m.quote.author}
-                      </p>
-                    </div>
+                      </footer>
+                    </blockquote>
                   )}
 
-                  {/* Progressive Disclosure Toggle Button (in summary mode) */}
-                  {viewMode === "summary" && (
-                    <div className="pt-1">
+                  {/* Punchy Lead Summary (TL;DR) */}
+                  <p className="text-xs sm:text-sm text-[var(--muted)] leading-relaxed">
+                    {m.tldr}
+                  </p>
+
+                  {/* Minimal Meta Badges & Drawer Trigger */}
+                  <div className="pt-2 border-t border-[var(--line)]/50 flex flex-wrap items-center justify-between gap-3">
+                    <div className="flex flex-wrap gap-1.5 text-[11px]">
+                      {m.connections.map((c, i) => (
+                        <span
+                          key={i}
+                          className={`px-2 py-0.5 rounded-md border font-medium ${
+                            isPre1945
+                              ? "bg-emerald-500/10 text-emerald-400 border-emerald-500/20"
+                              : "bg-sky-500/10 text-sky-400 border-sky-500/20"
+                          }`}
+                        >
+                          {c}
+                        </span>
+                      ))}
+                    </div>
+
+                    {!isFullAcademicView && (
                       <button
                         onClick={() => toggleExpand(m.id)}
-                        className="w-full flex items-center justify-between px-3.5 py-2 rounded-xl bg-[var(--bg)] border border-[var(--line)] text-xs font-bold text-[var(--acc-sky)] hover:border-sky-500/50 hover:bg-sky-500/5 transition"
+                        className="text-xs font-bold text-[var(--acc-sky)] hover:underline flex items-center gap-1 shrink-0 ml-auto"
                       >
-                        <span className="flex items-center gap-1.5">
-                          <span>{isExpanded ? "▲ Tutup Telaah Lengkap & Sitasi" : "▼ Buka Telaah Lengkap, Manuskrip & Sitasi"}</span>
-                          {!isExpanded && (
-                            <span className="text-[10px] text-[var(--muted)] font-normal">
-                              ({m.citations.length} Bukti Primer)
-                            </span>
-                          )}
-                        </span>
-                        <span className="text-[10px] text-[var(--muted)]">
-                          {isExpanded ? "Sembunyikan" : "Pelajari"}
-                        </span>
+                        <span>{isExpanded ? "Tutup Risalah ▲" : "Pelajari Risalah & Bukti Arsip ▾"}</span>
                       </button>
-                    </div>
-                  )}
+                    )}
+                  </div>
 
-                  {/* Expandable Section: Deep-Dive Description, Quran, Figures, Connections, Citations */}
+                  {/* Expandable Academic Drawer */}
                   {isExpanded && (
-                    <div className="space-y-3.5 pt-2 border-t border-[var(--line)]/40 animate-fadeIn">
-                      {/* Deep Historical Description */}
-                      <div>
-                        <div className="text-[11px] font-bold text-[var(--muted)] uppercase tracking-wider mb-1">
-                          📖 Telaah Historis & Konteks Peristiwa:
+                    <div className="pt-4 border-t border-[var(--line)]/60 space-y-4 text-xs animate-fadeIn">
+                      {/* Deep Historical Context */}
+                      <div className="space-y-1.5">
+                        <div className="font-bold text-[var(--text)] uppercase tracking-wider text-[11px]">
+                          📖 Telaah Historis & Dialektika Naskah:
                         </div>
-                        <p className="text-xs sm:text-sm text-[var(--muted)] leading-relaxed">
+                        <p className="text-xs sm:text-sm text-[var(--muted)] leading-relaxed font-serif">
                           {m.description}
                         </p>
                       </div>
 
                       {/* Quran Citation if present */}
                       {m.quranVerse && (
-                        <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-3.5 sm:p-4 space-y-2">
-                          <div className="flex items-center justify-between text-xs font-bold text-emerald-400">
+                        <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-4 space-y-2">
+                          <div className="flex items-center justify-between font-bold text-emerald-400">
                             <span>📖 Rujukan Al-Qur&apos;an Fraksi Islam BPUPK:</span>
                             <span>{m.quranVerse.surah}</span>
                           </div>
                           <div className="text-sm sm:text-base font-serif text-right text-[var(--text)] leading-loose dir-rtl pt-1">
                             {m.quranVerse.arabic}
                           </div>
-                          <p className="text-xs italic text-[var(--muted)] border-t border-emerald-500/20 pt-2">
+                          <p className="italic text-[var(--muted)] border-t border-emerald-500/20 pt-2 text-[11px]">
                             {m.quranVerse.translation}
                           </p>
                         </div>
                       )}
 
-                      {/* Figures & Dimensions/Connections */}
-                      <div className="grid gap-3 sm:grid-cols-2 pt-2 text-xs">
-                        <div className="space-y-1">
-                          <div className="font-bold text-[var(--text)] flex items-center gap-1.5">
-                            <span>👤</span> Tokoh & Eksponen Kunci:
-                          </div>
-                          <div className="flex flex-wrap gap-1">
-                            {m.figures.map((f) => (
-                              <span
-                                key={f}
-                                className="rounded-md bg-[var(--bg)] px-2 py-0.5 text-[11px] text-[var(--muted)] border border-[var(--line)] font-medium"
-                              >
-                                {f}
-                              </span>
-                            ))}
-                          </div>
+                      {/* Figures */}
+                      <div className="space-y-1.5">
+                        <div className="font-bold text-[var(--text)]">
+                          👤 Tokoh & Eksponen Kunci:
                         </div>
-
-                        <div className="space-y-1">
-                          <div className="font-bold text-[var(--text)] flex items-center gap-1.5">
-                            <span>{isPre1945 ? "🌱" : "⚖️"}</span>
-                            <span>
-                              {isPre1945
-                                ? "Embrio Nilai & Preseden Genealogi:"
-                                : "Norma Konstitusi Positif (UUD 1945):"}
+                        <div className="flex flex-wrap gap-1.5">
+                          {m.figures.map((f) => (
+                            <span
+                              key={f}
+                              className="rounded-md bg-[var(--bg)] px-2 py-0.5 text-[11px] text-[var(--muted)] border border-[var(--line)]"
+                            >
+                              {f}
                             </span>
-                          </div>
-                          <div className="flex flex-col gap-1">
-                            {m.connections.map((c, i) => (
-                              <span
-                                key={i}
-                                className={`rounded-md px-2 py-0.5 text-[11px] border font-medium ${
-                                  isPre1945
-                                    ? "bg-emerald-500/10 text-emerald-400 border-emerald-500/20"
-                                    : "bg-sky-500/10 text-sky-400 border-sky-500/20"
-                                }`}
-                              >
-                                {c}
-                              </span>
-                            ))}
-                          </div>
+                          ))}
                         </div>
                       </div>
 
                       {/* Primary Citations */}
-                      <div className="pt-2 border-t border-[var(--line)]/50">
-                        <div className="text-[11px] font-bold text-[var(--muted)] uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
-                          <span>🏛️</span> Bukti Primer / Repositori Arsip:
+                      <div className="space-y-1.5">
+                        <div className="font-bold text-[var(--text)]">
+                          🏛️ Sumber Primer & Repositori Arsip:
                         </div>
-                        <ul className="space-y-1 text-xs text-[var(--muted)]">
+                        <ul className="space-y-1 text-[11px] text-[var(--muted)]">
                           {m.citations.map((c, i) => (
                             <li key={i} className="flex items-start gap-1.5">
                               <span className="text-[var(--acc-sky)] shrink-0">•</span>
-                              <span className="font-mono text-[11px]">{c}</span>
+                              <span className="font-mono">{c}</span>
                             </li>
                           ))}
                         </ul>
@@ -1486,60 +1368,26 @@ export default function AkarSejarahPage() {
                     </div>
                   )}
                 </div>
-              </div>
+              </article>
             );
           })
         )}
       </div>
 
-      {/* Mobile Floating Bottom Era Rail */}
-      <div className="fixed bottom-3 inset-x-3 z-40 sm:hidden">
-        <div className="bg-slate-900/95 backdrop-blur-md border border-slate-700/80 rounded-2xl p-2 shadow-2xl flex items-center justify-between gap-1 overflow-x-auto">
-          {ERAS.map((era) => {
-            const isActive = selectedEra === era.id;
-            return (
-              <button
-                key={era.id}
-                onClick={() => setSelectedEra(era.id)}
-                className={`px-2.5 py-1 rounded-xl text-[10px] font-bold shrink-0 transition flex items-center gap-1 ${
-                  isActive
-                    ? "bg-emerald-600 text-white shadow-md ring-1 ring-emerald-400"
-                    : "text-slate-300 hover:text-white"
-                }`}
-              >
-                <span>{era.icon}</span>
-                <span>{era.id === "all" ? "Semua" : era.id}</span>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* Catatan Metodologi & Kebijakan Anti-Dehistorisasi */}
-      <div className="mt-14 rounded-2xl border border-[var(--line)] bg-[var(--panel)] p-6 sm:p-8 space-y-4">
-        <h3 className="text-base sm:text-lg font-bold text-[var(--text)] flex items-center gap-2">
-          <span>📜</span> Kebijakan Historiografi Objektif & Penilaian Ketaatan Konstitusi
-        </h3>
-        <p className="text-xs sm:text-sm text-[var(--muted)] leading-relaxed">
-          Pancasila Index memegang prinsip ketat hermeneutika sejarah: menolak anakronisme dengan mengakui bahwa peristiwa sebelum 1945 adalah akar budaya dan etika pergerakan yang mematangkan lahirnya Pancasila, bukan norma hukum positif yang sudah berlaku. Platform memberlakukan sanksi tegas <strong>skor -2 pada Sila 1 (Ketuhanan) dan Sila 3 (Persatuan)</strong> bagi setiap rezim yang memonopoli tafsir Pancasila untuk membungkam kebebasan sipil atau meminggirkan peran kelompok bangsa.
+      {/* Minimal Footer Note */}
+      <footer className="mt-16 pt-8 border-t border-[var(--line)]/60 text-xs text-[var(--muted)] flex flex-wrap items-center justify-between gap-4">
+        <p className="max-w-xl leading-relaxed">
+          Pancasila Index memegang prinsip hermeneutika sejarah obyektif: peristiwa sebelum 1945 disajikan sebagai embrio nilai kultural dan etika bangsa, bukan sebagai norma hukum positif anakronis.
         </p>
-        <div className="flex flex-wrap gap-4 pt-2 text-xs">
-          <Link
-            href="/metodologi"
-            className="text-[var(--acc-sky)] font-semibold hover:underline flex items-center gap-1"
-          >
-            <span>Pelajari Rubrik Metodologi 12 Dimensi</span>
-            <span>&rarr;</span>
+        <div className="flex gap-4">
+          <Link href="/arsip" className="text-[var(--acc-sky)] font-semibold hover:underline">
+            Direktori 578 Arsip Otentik &rarr;
           </Link>
-          <Link
-            href="/arsip"
-            className="text-[var(--acc-emerald)] font-semibold hover:underline flex items-center gap-1"
-          >
-            <span>Telusuri 578 Dokumen Primer & Naskah Internasional</span>
-            <span>&rarr;</span>
+          <Link href="/metodologi" className="text-[var(--acc-emerald)] font-semibold hover:underline">
+            Rubrik Metodologi &rarr;
           </Link>
         </div>
-      </div>
+      </footer>
     </div>
   );
 }
