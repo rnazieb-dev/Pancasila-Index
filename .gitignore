@@ -21,8 +21,9 @@ coverage/
 .vercel
 .env*
 
-# hasil unduhan indeks eksternal: artefak lokal, bukan data kurasi
+# hasil unduhan indeks eksternal & PDF arsip lokal
 packages/data/generated/external-indices-fetched.json
 packages/data/raw/external-indices/
 packages/data/raw/compressed/
+packages/data/raw/pdf/
 .wrangler/

@@ -16,6 +16,7 @@
     "typecheck": "tsc --noEmit",
     "scrape:jdih": "tsx scripts/scrape-jdih.mts",
     "fetch:indices": "tsx scripts/fetch-external-indices.mts",
+    "fetch:all-pdf": "tsx scripts/audit-and-fetch-sources.mts",
     "archive:compress": "tsx scripts/archive-r2.mts compress",
     "archive:upload": "tsx scripts/archive-r2.mts upload",
     "archive:sync": "tsx scripts/archive-r2.mts sync",

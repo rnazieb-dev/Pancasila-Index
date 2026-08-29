@@ -6,8 +6,9 @@ const BUCKET_NAME = "pancasila-arsip";
 
 /**
  * Proxy streaming arsip primer dari Cloudflare R2:
- * - Menyajikan dokumen resmi (PDF/HTML) secara mandiri dari domain pancasila.site
+ * - Menyajikan dokumen resmi PDF secara mandiri dari domain pancasila.site
  * - Memberikan header caching permanen (immutable) agar dilayani langsung oleh Edge CDN
+ * - Header Content-Disposition: inline memastikan browser langsung membuka reader PDF
  */
 export async function GET(
   req: NextRequest,
@@ -21,6 +22,7 @@ export async function GET(
   const r2Key = slug.join("/");
   const encodedKey = encodeURIComponent(r2Key);
   const token = process.env.CLOUDFLARE_API_TOKEN ?? process.env.CLOUDFLARE_R2_TOKEN;
+  const filename = slug[slug.length - 1] ?? "dokumen.pdf";
 
   try {
     // 1. Coba lewat Public R2 CDN domain
@@ -45,7 +47,7 @@ export async function GET(
     if (!res.ok) {
       if (res.status === 404) {
         return new NextResponse(
-          `<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><title>Dokumen Arsip — Pancasila Index</title><style>body{font-family:ui-sans-serif,system-ui,sans-serif;padding:3rem 1rem;max-width:600px;margin:0 auto;text-align:center;line-height:1.6;color:#0f172a;background:#ffffff;}code{background:#f1f5f9;padding:0.2rem 0.4rem;border-radius:4px;font-size:0.9em;}a{color:#d97706;font-weight:bold;text-decoration:none;}</style></head><body><h2>Arsip Primer Pancasila Index</h2><p>Dokumen <code>${r2Key}</code> telah terverifikasi dalam repositori penelitian Pancasila Index.</p><p><a href="javascript:history.back()">&larr; Kembali ke halaman sebelumnya</a></p></body></html>`,
+          `<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><title>Dokumen Arsip — Pancasila Index</title><style>body{font-family:ui-sans-serif,system-ui,sans-serif;padding:3rem 1rem;max-width:600px;margin:0 auto;text-align:center;line-height:1.6;color:#0f172a;background:#ffffff;}code{background:#f1f5f9;padding:0.2rem 0.4rem;border-radius:4px;font-size:0.9em;}a{color:#d97706;font-weight:bold;text-decoration:none;}</style></head><body><h2>Arsip Primer Pancasila Index</h2><p>Dokumen <code>${r2Key}</code> dalam proses sinkronisasi repositori penelitian Pancasila Index.</p><p><a href="javascript:history.back()">&larr; Kembali ke halaman sebelumnya</a></p></body></html>`,
           { status: 404, headers: { "Content-Type": "text/html; charset=utf-8" } }
         );
       }
@@ -56,9 +58,7 @@ export async function GET(
       res.headers.get("content-type") ||
       (r2Key.endsWith(".pdf")
         ? "application/pdf"
-        : r2Key.endsWith(".html")
-          ? "text/html; charset=utf-8"
-          : "application/octet-stream");
+        : "application/octet-stream");
 
     const body = await res.arrayBuffer();
 
@@ -66,6 +66,7 @@ export async function GET(
       status: 200,
       headers: {
         "Content-Type": contentType,
+        "Content-Disposition": `inline; filename="${filename}"`,
         "Cache-Control": "public, max-age=31536000, immutable",
         "X-Robots-Tag": "noindex, follow",
       },
