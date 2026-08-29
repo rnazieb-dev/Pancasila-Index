@@ -30,8 +30,8 @@ export default async function EmbedTermPage({
   const index = summary?.index ?? null;
 
   const gSila = (summary?.groups ?? []).find((g) => g.group_id === "sila");
-  const gTujuan = (summary?.groups ?? []).find((g) => g.group_id === "tujuan");
-  const gStruktural = (summary?.groups ?? []).find((g) => g.group_id === "struktural");
+  const gPembukaan = (summary?.groups ?? []).find((g) => g.group_id === "pembukaan");
+  const gStrukturUud = (summary?.groups ?? []).find((g) => g.group_id === "struktur-uud");
 
   return (
     <div className="mx-auto max-w-md rounded-2xl border border-[var(--line)] bg-[var(--panel)] p-5 shadow-lg text-[var(--text)] font-sans">
@@ -93,14 +93,14 @@ export default async function EmbedTermPage({
         <div className="rounded-xl bg-[var(--bg)] p-2 border border-[var(--line)]">
           <div className="text-[10px] text-[#38bdf8] font-bold">🏛️ Pembukaan</div>
           <div className="font-extrabold text-sm tabular-nums mt-0.5">
-            {gTujuan && gTujuan.coverage > 0 ? `${Math.round(((gTujuan.score + 2) / 4) * 100)}` : "-"}
+            {gPembukaan && gPembukaan.coverage > 0 ? `${Math.round(((gPembukaan.score + 2) / 4) * 100)}` : "-"}
           </div>
         </div>
 
         <div className="rounded-xl bg-[var(--bg)] p-2 border border-[var(--line)]">
           <div className="text-[10px] text-[#f59e0b] font-bold">⚖️ Norma UUD</div>
           <div className="font-extrabold text-sm tabular-nums mt-0.5">
-            {gStruktural && gStruktural.coverage > 0 ? `${Math.round(((gStruktural.score + 2) / 4) * 100)}` : "-"}
+            {gStrukturUud && gStrukturUud.coverage > 0 ? `${Math.round(((gStrukturUud.score + 2) / 4) * 100)}` : "-"}
           </div>
         </div>
       </div>

@@ -275,13 +275,13 @@ export default async function TermPage({
             description: "Menilai kesetiaan terhadap Ketuhanan Yang Maha Esa, Kemanusiaan yang Adil & Beradab, Persatuan Indonesia, Permusyawaratan/Perwakilan, dan Keadilan Sosial.",
           },
           {
-            id: "tujuan",
+            id: "pembukaan",
             title: "Pilar II: Visi Kebangsaan — Pembukaan UUD 1945 Alinea IV",
             badge: "🏛️ Mandat Konstitusi (Tujuan Bernegara)",
             description: "Menilai kepatuhan terhadap 4 amanat luhur: Melindungi Segenap Bangsa, Memajukan Kesejahteraan Umum, Mencerdaskan Kehidupan Bangsa, dan Ketertiban Dunia.",
           },
           {
-            id: "struktural",
+            id: "struktur-uud",
             title: "Pilar III: Tata Kelola Kekuasaan — Norma Struktural UUD 1945",
             badge: "⚖️ Struktur & Relasi Kekuasaan",
             description: "Menilai kepatuhan atas prinsip Negara Hukum (Pasal 1(3)), Kedaulatan Rakyat (Pasal 1(2)), dan Mekanisme Saling Mengawasi (Checks and Balances).",

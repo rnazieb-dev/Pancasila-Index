@@ -349,7 +349,7 @@ export default function UsulkanBuktiPage() {
               <div className="space-y-2 rounded-xl bg-[var(--bg)] p-3 border border-[var(--line)]">
                 <div className="font-bold text-[#38bdf8]">🏛️ Pembukaan UUD</div>
                 {dataset.rubric.dimensions
-                  .filter((d) => d.group_id === "tujuan")
+                  .filter((d) => d.group_id === "pembukaan")
                   .map((dim) => (
                     <label key={dim.id} className="flex items-start gap-2 cursor-pointer text-[11px]">
                       <input
@@ -366,7 +366,7 @@ export default function UsulkanBuktiPage() {
               <div className="space-y-2 rounded-xl bg-[var(--bg)] p-3 border border-[var(--line)]">
                 <div className="font-bold text-[#f59e0b]">⚖️ Norma Struktural</div>
                 {dataset.rubric.dimensions
-                  .filter((d) => d.group_id === "struktural")
+                  .filter((d) => d.group_id === "struktur-uud")
                   .map((dim) => (
                     <label key={dim.id} className="flex items-start gap-2 cursor-pointer text-[11px]">
                       <input

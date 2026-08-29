@@ -13,8 +13,8 @@ export interface TrendPoint {
   institutionSlug: string;
   composite: number | null;
   sila: number | null;
-  tujuan: number | null;
-  struktural: number | null;
+  pembukaan: number | null;
+  "struktur-uud": number | null;
   eventsCount: number;
   topEventTitle?: string;
 }
@@ -24,8 +24,8 @@ interface TrendLineChartProps {
   activeSeries: {
     composite: boolean;
     sila: boolean;
-    tujuan: boolean;
-    struktural: boolean;
+    pembukaan: boolean;
+    "struktur-uud": boolean;
   };
 }
 
@@ -63,7 +63,7 @@ export function TrendLineChart({ points, activeSeries }: TrendLineChartProps) {
   };
 
   // Generate SVG path strings for each series
-  const buildPath = (key: "composite" | "sila" | "tujuan" | "struktural") => {
+  const buildPath = (key: "composite" | "sila" | "pembukaan" | "struktur-uud") => {
     const valid = points
       .map((p, i) => ({ val: p[key], x: getX(i), y: getY(p[key]) }))
       .filter((p) => p.val !== null);
@@ -136,9 +136,9 @@ export function TrendLineChart({ points, activeSeries }: TrendLineChartProps) {
             />
           )}
 
-          {activeSeries.tujuan && (
+          {activeSeries.pembukaan && (
             <path
-              d={buildPath("tujuan")}
+              d={buildPath("pembukaan")}
               fill="none"
               stroke="#38bdf8"
               strokeWidth={2}
@@ -147,9 +147,9 @@ export function TrendLineChart({ points, activeSeries }: TrendLineChartProps) {
             />
           )}
 
-          {activeSeries.struktural && (
+          {activeSeries["struktur-uud"] && (
             <path
-              d={buildPath("struktural")}
+              d={buildPath("struktur-uud")}
               fill="none"
               stroke="#f59e0b"
               strokeWidth={2}
@@ -206,11 +206,11 @@ export function TrendLineChart({ points, activeSeries }: TrendLineChartProps) {
                 {activeSeries.sila && p.sila !== null && (
                   <circle cx={x} cy={getY(p.sila)} r={isHovered ? 4 : 2.5} fill="#22c55e" />
                 )}
-                {activeSeries.tujuan && p.tujuan !== null && (
-                  <circle cx={x} cy={getY(p.tujuan)} r={isHovered ? 4 : 2.5} fill="#38bdf8" />
+                {activeSeries.pembukaan && p.pembukaan !== null && (
+                  <circle cx={x} cy={getY(p.pembukaan)} r={isHovered ? 4 : 2.5} fill="#38bdf8" />
                 )}
-                {activeSeries.struktural && p.struktural !== null && (
-                  <circle cx={x} cy={getY(p.struktural)} r={isHovered ? 4 : 2.5} fill="#f59e0b" />
+                {activeSeries["struktur-uud"] && p["struktur-uud"] !== null && (
+                  <circle cx={x} cy={getY(p["struktur-uud"])} r={isHovered ? 4 : 2.5} fill="#f59e0b" />
                 )}
 
                 {/* X Axis Labels */}
@@ -273,14 +273,14 @@ export function TrendLineChart({ points, activeSeries }: TrendLineChartProps) {
               <div className="rounded-lg bg-[var(--bg)] p-2 border border-[var(--line)]">
                 <div className="text-[10px] text-[#38bdf8]">🏛️ Pembukaan UUD</div>
                 <div className="font-bold text-sm tabular-nums">
-                  {hoveredPoint.tujuan !== null ? `${hoveredPoint.tujuan}/100` : "-"}
+                  {hoveredPoint.pembukaan !== null ? `${hoveredPoint.pembukaan}/100` : "-"}
                 </div>
               </div>
 
               <div className="rounded-lg bg-[var(--bg)] p-2 border border-[var(--line)]">
                 <div className="text-[10px] text-[#f59e0b]">⚖️ Norma Struktural</div>
                 <div className="font-bold text-sm tabular-nums">
-                  {hoveredPoint.struktural !== null ? `${hoveredPoint.struktural}/100` : "-"}
+                  {hoveredPoint["struktur-uud"] !== null ? `${hoveredPoint["struktur-uud"]}/100` : "-"}
                 </div>
               </div>
             </div>

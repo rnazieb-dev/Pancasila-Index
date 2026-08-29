@@ -12,7 +12,7 @@ import {
   termSummary,
 } from "@/lib/view";
 
-type PillarFilter = "all" | "sila" | "tujuan" | "struktural";
+type PillarFilter = "all" | "sila" | "pembukaan" | "struktur-uud";
 
 export default function TimelinePage() {
   const [activePillar, setActivePillar] = useState<PillarFilter>("all");
@@ -27,8 +27,8 @@ export default function TimelinePage() {
   const pillars = [
     { id: "all", label: "Semua Pilar (12 Dimensi)", icon: "🌐" },
     { id: "sila", label: "1. Lima Sila Pancasila", icon: "🦅" },
-    { id: "tujuan", label: "2. Pembukaan UUD 1945 (Tujuan)", icon: "🏛️" },
-    { id: "struktural", label: "3. Norma Struktural UUD 1945", icon: "⚖️" },
+    { id: "pembukaan", label: "2. Pembukaan UUD 1945 (Tujuan)", icon: "🏛️" },
+    { id: "struktur-uud", label: "3. Norma Struktural UUD 1945", icon: "⚖️" },
   ] as const;
 
   return (
@@ -112,8 +112,8 @@ export default function TimelinePage() {
 
                         // Ambil subskor grup
                         const gSila = (summary?.groups ?? []).find((g) => g.group_id === "sila");
-                        const gTujuan = (summary?.groups ?? []).find((g) => g.group_id === "tujuan");
-                        const gStruktural = (summary?.groups ?? []).find((g) => g.group_id === "struktural");
+                        const gPembukaan = (summary?.groups ?? []).find((g) => g.group_id === "pembukaan");
+                        const gStrukturUud = (summary?.groups ?? []).find((g) => g.group_id === "struktur-uud");
 
                         // Tentukan skor aktif berdasarkan filter splitter
                         let displayScore = summary?.index ?? null;
@@ -124,13 +124,13 @@ export default function TimelinePage() {
                           displayScore = gSila && gSila.coverage > 0 ? Math.round(((gSila.score + 2) / 4) * 100) : null;
                           displayCoverage = gSila?.coverage ?? 0;
                           displayLabel = "Skor Lima Sila";
-                        } else if (activePillar === "tujuan") {
-                          displayScore = gTujuan && gTujuan.coverage > 0 ? Math.round(((gTujuan.score + 2) / 4) * 100) : null;
-                          displayCoverage = gTujuan?.coverage ?? 0;
+                        } else if (activePillar === "pembukaan") {
+                          displayScore = gPembukaan && gPembukaan.coverage > 0 ? Math.round(((gPembukaan.score + 2) / 4) * 100) : null;
+                          displayCoverage = gPembukaan?.coverage ?? 0;
                           displayLabel = "Skor Pembukaan UUD";
-                        } else if (activePillar === "struktural") {
-                          displayScore = gStruktural && gStruktural.coverage > 0 ? Math.round(((gStruktural.score + 2) / 4) * 100) : null;
-                          displayCoverage = gStruktural?.coverage ?? 0;
+                        } else if (activePillar === "struktur-uud") {
+                          displayScore = gStrukturUud && gStrukturUud.coverage > 0 ? Math.round(((gStrukturUud.score + 2) / 4) * 100) : null;
+                          displayCoverage = gStrukturUud?.coverage ?? 0;
                           displayLabel = "Skor Norma Struktural";
                         }
 
@@ -186,14 +186,14 @@ export default function TimelinePage() {
                                 </div>
                                 <div className="flex items-center justify-between rounded-lg bg-[var(--bg)] px-2.5 py-1.5 border border-[var(--line)]">
                                   <span className="text-[var(--muted)]">🏛️ Pembukaan</span>
-                                  <span className="font-bold tabular-nums" style={{ color: gTujuan && gTujuan.coverage > 0 ? scoreTextColor(gTujuan.score) : "var(--score-zero)" }}>
-                                    {gTujuan && gTujuan.coverage > 0 ? `${Math.round(((gTujuan.score + 2) / 4) * 100)}` : "-"}
+                                  <span className="font-bold tabular-nums" style={{ color: gPembukaan && gPembukaan.coverage > 0 ? scoreTextColor(gPembukaan.score) : "var(--score-zero)" }}>
+                                    {gPembukaan && gPembukaan.coverage > 0 ? `${Math.round(((gPembukaan.score + 2) / 4) * 100)}` : "-"}
                                   </span>
                                 </div>
                                 <div className="flex items-center justify-between rounded-lg bg-[var(--bg)] px-2.5 py-1.5 border border-[var(--line)]">
                                   <span className="text-[var(--muted)]">⚖️ Norma UUD</span>
-                                  <span className="font-bold tabular-nums" style={{ color: gStruktural && gStruktural.coverage > 0 ? scoreTextColor(gStruktural.score) : "var(--score-zero)" }}>
-                                    {gStruktural && gStruktural.coverage > 0 ? `${Math.round(((gStruktural.score + 2) / 4) * 100)}` : "-"}
+                                  <span className="font-bold tabular-nums" style={{ color: gStrukturUud && gStrukturUud.coverage > 0 ? scoreTextColor(gStrukturUud.score) : "var(--score-zero)" }}>
+                                    {gStrukturUud && gStrukturUud.coverage > 0 ? `${Math.round(((gStrukturUud.score + 2) / 4) * 100)}` : "-"}
                                   </span>
                                 </div>
                               </div>

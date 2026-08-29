@@ -11,8 +11,8 @@ export default function TrendTimelinePage() {
   const [activeSeries, setActiveSeries] = useState({
     composite: true,
     sila: true,
-    tujuan: true,
-    struktural: true,
+    pembukaan: true,
+    "struktur-uud": true,
   });
 
   const selectedInst = dataset.institutions.find((i) => i.id === selectedInstId) || dataset.institutions[0]!;
@@ -28,8 +28,8 @@ export default function TrendTimelinePage() {
     const termEvents = getEventsOfTerm(dataset, t.id);
 
     const gSila = (summary?.groups ?? []).find((g) => g.group_id === "sila");
-    const gTujuan = (summary?.groups ?? []).find((g) => g.group_id === "tujuan");
-    const gStruktural = (summary?.groups ?? []).find((g) => g.group_id === "struktural");
+    const gPembukaan = (summary?.groups ?? []).find((g) => g.group_id === "pembukaan");
+    const gStrukturUud = (summary?.groups ?? []).find((g) => g.group_id === "struktur-uud");
 
     return {
       id: t.id,
@@ -40,8 +40,8 @@ export default function TrendTimelinePage() {
       institutionSlug: selectedInst.slug,
       composite: summary?.index ?? null,
       sila: gSila && gSila.coverage > 0 ? Math.round(((gSila.score + 2) / 4) * 100) : null,
-      tujuan: gTujuan && gTujuan.coverage > 0 ? Math.round(((gTujuan.score + 2) / 4) * 100) : null,
-      struktural: gStruktural && gStruktural.coverage > 0 ? Math.round(((gStruktural.score + 2) / 4) * 100) : null,
+      pembukaan: gPembukaan && gPembukaan.coverage > 0 ? Math.round(((gPembukaan.score + 2) / 4) * 100) : null,
+      "struktur-uud": gStrukturUud && gStrukturUud.coverage > 0 ? Math.round(((gStrukturUud.score + 2) / 4) * 100) : null,
       eventsCount: termEvents.length,
       topEventTitle: termEvents[0]?.title_id,
     };
@@ -133,8 +133,8 @@ export default function TrendTimelinePage() {
           <label className="flex items-center gap-1.5 cursor-pointer font-semibold text-[#38bdf8]">
             <input
               type="checkbox"
-              checked={activeSeries.tujuan}
-              onChange={(e) => setActiveSeries({ ...activeSeries, tujuan: e.target.checked })}
+              checked={activeSeries.pembukaan}
+              onChange={(e) => setActiveSeries({ ...activeSeries, pembukaan: e.target.checked })}
               className="rounded"
             />
             <span>🏛️ Pembukaan UUD</span>
@@ -143,8 +143,8 @@ export default function TrendTimelinePage() {
           <label className="flex items-center gap-1.5 cursor-pointer font-semibold text-[#f59e0b]">
             <input
               type="checkbox"
-              checked={activeSeries.struktural}
-              onChange={(e) => setActiveSeries({ ...activeSeries, struktural: e.target.checked })}
+              checked={activeSeries["struktur-uud"]}
+              onChange={(e) => setActiveSeries({ ...activeSeries, "struktur-uud": e.target.checked })}
               className="rounded"
             />
             <span>⚖️ Norma Struktural</span>
@@ -199,10 +199,10 @@ export default function TrendTimelinePage() {
                     {p.sila !== null ? `${p.sila}` : "-"}
                   </td>
                   <td className="p-3.5 text-center font-medium tabular-nums text-[#38bdf8]">
-                    {p.tujuan !== null ? `${p.tujuan}` : "-"}
+                    {p.pembukaan !== null ? `${p.pembukaan}` : "-"}
                   </td>
                   <td className="p-3.5 text-center font-medium tabular-nums text-[#f59e0b]">
-                    {p.struktural !== null ? `${p.struktural}` : "-"}
+                    {p["struktur-uud"] !== null ? `${p["struktur-uud"]}` : "-"}
                   </td>
                   <td className="p-3.5 text-right text-[var(--muted)] font-medium">{p.eventsCount} bukti</td>
                 </tr>
