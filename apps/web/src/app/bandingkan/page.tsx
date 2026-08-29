@@ -7,6 +7,7 @@ import { MultiRadarChart, type RadarSeries } from "@/components/multi-radar-char
 import { indexLabel, periodLabel, scoreColor, scoreTextColor, scoreQualLabel,
   summaryIndexLabel, summaryQualLabel, termSummary } from "@/lib/view";
 import { ScaleLegend } from "@/components/scale-legend";
+import { InstitutionLogo } from "@/components/institution-logo";
 
 /** Warna seri untuk peran TEKS; berbalik per tema. Indeks sejajar PRESET_COLORS. */
 const SERIES_TEXT_COLORS = [
@@ -226,6 +227,7 @@ export default function BandingkanPage() {
                     style={{ backgroundColor: color }}
                   />
                 )}
+                <InstitutionLogo id={term.institution_id} size="xs" />
                 <span className="font-medium truncate max-w-[200px]">
                   {inst?.short_id ?? ""}: {term.label_id}
                 </span>
@@ -270,8 +272,11 @@ export default function BandingkanPage() {
                   className="rounded-lg border border-[var(--line)] bg-[var(--bg)] p-3 space-y-1.5"
                   style={{ borderTop: `3px solid ${color}` }}
                 >
-                  <div className="text-xs font-semibold truncate" title={term?.label_id}>
-                    {term?.label_id}
+                  <div className="flex items-center gap-2">
+                    {term && <InstitutionLogo id={term.institution_id} size="xs" />}
+                    <div className="text-xs font-semibold truncate" title={term?.label_id}>
+                      {term?.label_id}
+                    </div>
                   </div>
                   <div className="text-[11px] text-[var(--muted)]">
                     {periodLabel(term?.start_date ?? "", term?.end_date ?? null)}

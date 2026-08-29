@@ -16,6 +16,7 @@ import {
 import { RadarChart } from "@/components/radar-chart";
 import { ExternalIndicesWidget } from "@/components/external-indices-widget";
 import { TermActions } from "@/components/term-actions";
+import { InstitutionLogo } from "@/components/institution-logo";
 import {
   groupName,
   indexLabel, summaryIndexLabel, summaryIndexNote, summaryExcludedGroupsNote, summaryQualLabel, dimensionName,
@@ -97,11 +98,19 @@ export default async function TermPage({
         ← {institution.short_id}
       </Link>
 
-      <div className="mt-3 flex flex-wrap items-baseline gap-x-4 gap-y-1">
-        <h1 className="text-3xl font-bold">{term.label_id}</h1>
-        <span className="text-sm text-[var(--muted)]">
-          {periodLabel(term.start_date, term.end_date)} · {term.era}
-        </span>
+      <div className="mt-4 flex flex-col sm:flex-row sm:items-center gap-4">
+        <InstitutionLogo id={institution.id} size="lg" />
+        <div>
+          <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+            <h1 className="text-3xl font-extrabold">{term.label_id}</h1>
+            <span className="text-sm text-[var(--muted)]">
+              {periodLabel(term.start_date, term.end_date)} · {term.era}
+            </span>
+          </div>
+          <div className="text-xs uppercase tracking-wider font-semibold text-[var(--acc-red)] mt-1">
+            {institution.name_id} ({institution.branch})
+          </div>
+        </div>
       </div>
 
       {term.actors.length > 0 && (

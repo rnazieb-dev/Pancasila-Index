@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { dataset, getInstitutions } from "@pancasila-index/data";
 import { useLocale } from "@/components/locale-provider";
+import { InstitutionLogo } from "@/components/institution-logo";
 import {
   scoreColor,
   scoreTextColor,
@@ -48,10 +49,16 @@ export default function LembagaIndex() {
                     {terms.length} {t("statTerms")}
                   </span>
                 </div>
-                <h2 className="mt-2 text-lg font-bold group-hover:text-[var(--acc-red)] transition leading-snug">
-                  {inst.name_id}
-                </h2>
-                <p className="mt-2 text-xs text-[var(--muted)] line-clamp-4 leading-relaxed">
+                <div className="mt-4 flex items-center gap-3.5">
+                  <InstitutionLogo id={inst.id} size="lg" />
+                  <div>
+                    <h2 className="text-lg font-bold group-hover:text-[var(--acc-red)] transition leading-snug">
+                      {inst.short_id || inst.name_id}
+                    </h2>
+                    <div className="text-xs text-[var(--muted)] line-clamp-1">{inst.name_id}</div>
+                  </div>
+                </div>
+                <p className="mt-3 text-xs text-[var(--muted)] line-clamp-3 leading-relaxed">
                   {inst.description_id}
                 </p>
               </div>

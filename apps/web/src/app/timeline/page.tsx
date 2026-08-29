@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { dataset, getEventsOfTerm } from "@pancasila-index/data";
+import { InstitutionLogo } from "@/components/institution-logo";
 import {
   indexLabel,
   periodLabel,
@@ -91,13 +92,16 @@ export default function TimelinePage() {
 
                 return (
                   <div key={institution.id} className="space-y-3">
-                    <div className="flex items-baseline justify-between gap-2">
-                      <h3 className="text-base sm:text-lg font-bold text-[var(--text)]">{institution.name_id}</h3>
+                    <div className="flex items-center justify-between gap-3">
+                      <div className="flex items-center gap-3">
+                        <InstitutionLogo id={institution.id} size="sm" />
+                        <h3 className="text-base sm:text-lg font-bold text-[var(--text)]">{institution.name_id}</h3>
+                      </div>
                       <Link
                         href={`/lembaga/${institution.slug}`}
                         className="text-xs text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)] font-medium"
                       >
-                        Lihat profil lembaga →
+                        Lihat profil →
                       </Link>
                     </div>
 

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { dataset, getEventsOfTerm } from "@pancasila-index/data";
 import { useLocale } from "@/components/locale-provider";
+import { InstitutionLogo } from "@/components/institution-logo";
 import {
   indexLabel,
   periodLabel,
@@ -118,10 +119,16 @@ export default function Beranda() {
                       {terms.length} {t("statTerms")}
                     </span>
                   </div>
-                  <h3 className="mt-2 text-base font-bold group-hover:text-[var(--acc-red)] transition leading-snug">
-                    {inst.name_id}
-                  </h3>
-                  <p className="mt-1 text-xs text-[var(--muted)] line-clamp-3 leading-relaxed">
+                  <div className="mt-3 flex items-center gap-3">
+                    <InstitutionLogo id={inst.id} size="md" />
+                    <div>
+                      <h3 className="text-base font-bold group-hover:text-[var(--acc-red)] transition leading-snug">
+                        {inst.short_id || inst.name_id}
+                      </h3>
+                      <div className="text-[11px] text-[var(--muted)] line-clamp-1">{inst.name_id}</div>
+                    </div>
+                  </div>
+                  <p className="mt-2 text-xs text-[var(--muted)] line-clamp-2 leading-relaxed">
                     {inst.description_id}
                   </p>
                 </div>

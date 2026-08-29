@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { dataset, getEventsOfTerm, getInstitution, getTermsOfInstitution } from "@pancasila-index/data";
+import { InstitutionLogo } from "@/components/institution-logo";
 
 import {
   indexLabel,
@@ -56,11 +57,16 @@ export default async function LembagaPage({
       </div>
 
       {/* Header Utama */}
-      <div className="mt-4 border-b border-[var(--line)] pb-8">
-        <h1 className="text-3xl sm:text-4xl font-extrabold">{institution.name_id}</h1>
-        <p className="mt-3 text-base leading-relaxed text-[var(--muted)] max-w-3xl">
-          {institution.description_id}
-        </p>
+      <div className="mt-5 border-b border-[var(--line)] pb-8">
+        <div className="flex flex-col sm:flex-row sm:items-center gap-5">
+          <InstitutionLogo id={institution.id} size="xl" showBadge />
+          <div>
+            <h1 className="text-3xl sm:text-4xl font-extrabold">{institution.name_id}</h1>
+            <p className="mt-2 text-base leading-relaxed text-[var(--muted)] max-w-3xl">
+              {institution.description_id}
+            </p>
+          </div>
+        </div>
 
         {/* Stat counter */}
         <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
