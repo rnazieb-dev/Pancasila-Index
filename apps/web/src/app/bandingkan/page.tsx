@@ -203,7 +203,7 @@ export default function BandingkanPage() {
           </span>
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-3 flex flex-wrap gap-1.5 sm:gap-2 max-h-48 sm:max-h-60 overflow-y-auto p-2 border border-[var(--line)]/50 rounded-lg bg-[var(--bg)]/50">
           {dataset.terms.map((term) => {
             const isSelected = selectedTermIds.includes(term.id);
             const idx = selectedTermIds.indexOf(term.id);
@@ -228,7 +228,7 @@ export default function BandingkanPage() {
                   />
                 )}
                 <InstitutionLogo id={term.institution_id} size="xs" />
-                <span className="font-medium truncate max-w-[200px]">
+                <span className="font-medium truncate max-w-[130px] sm:max-w-[220px]">
                   {inst?.short_id ?? ""}: {term.label_id}
                 </span>
                 <span className="text-[10px] opacity-70">({term.era})</span>
@@ -239,9 +239,9 @@ export default function BandingkanPage() {
       </section>
 
       {/* Radar Chart Overlay */}
-      <section className="mt-10 grid lg:grid-cols-[440px_1fr] gap-8 items-center rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6">
-        <div className="justify-self-center py-4">
-          <MultiRadarChart labels={radarLabels} series={radarSeries} size={380} />
+      <section className="mt-10 grid grid-cols-1 lg:grid-cols-[380px_1fr] gap-6 sm:gap-8 items-center rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 sm:p-6">
+        <div className="w-full flex justify-center py-2 sm:py-4">
+          <MultiRadarChart labels={radarLabels} series={visibleSeries} />
         </div>
 
         <div className="space-y-4">
@@ -252,7 +252,7 @@ export default function BandingkanPage() {
             dan tepi luar menandakan kepatuhan penuh (+2).
           </p>
 
-          <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 pt-2">
+          <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pt-2">
             {selectedTermIds.map((termId, idx) => {
               const term = termsById.get(termId);
               const color = PRESET_COLORS[idx % PRESET_COLORS.length];
@@ -318,16 +318,16 @@ export default function BandingkanPage() {
         <h2 className="text-xl font-bold">Tabel Skor Komparatif Per Dimensi</h2>
         <div className="mt-4 overflow-x-auto rounded-xl border border-[var(--line)] bg-[var(--panel)]">
           <table className="w-full text-left text-sm">
-            <thead className="border-b border-[var(--line)] bg-[var(--bg)] text-xs text-[var(--muted)] uppercase tracking-wider">
+            <thead className="border-b border-[var(--line)] bg-[var(--bg)] text-xs text-[var(--muted)] uppercase tracking-wider sticky top-0 z-20">
               <tr>
-                <th className="px-4 py-3 min-w-[200px]">Dimensi</th>
+                <th className="px-3.5 sm:px-4 py-3 min-w-[150px] sm:min-w-[200px] sticky left-0 bg-[var(--bg)] z-30 border-r border-[var(--line)] shadow-[2px_0_5px_-2px_rgba(0,0,0,0.2)]">Dimensi</th>
                 {selectedTermIds.map((termId, idx) => {
                   const term = termsById.get(termId);
                   const color = SERIES_TEXT_COLORS[idx % SERIES_TEXT_COLORS.length];
                   return (
                     <th
                       key={termId}
-                      className="px-4 py-3 min-w-[160px]"
+                      className="px-3 sm:px-4 py-3 min-w-[130px] sm:min-w-[160px]"
                       style={{ color }}
                     >
                       {term?.label_id}
@@ -340,9 +340,9 @@ export default function BandingkanPage() {
               {activeDimensions.map((dim) => {
                 return (
                   <tr key={dim.id} className="hover:bg-slate-800/40 transition">
-                    <td className="px-4 py-3.5">
-                      <div className="font-semibold text-[var(--text)]">{dim.name_id}</div>
-                      <div className="text-xs text-[var(--muted)] line-clamp-1">{dim.question_id}</div>
+                    <td className="px-3.5 sm:px-4 py-3.5 sticky left-0 bg-[var(--panel)] z-10 border-r border-[var(--line)] shadow-[2px_0_5px_-2px_rgba(0,0,0,0.2)]">
+                      <div className="font-semibold text-xs sm:text-sm text-[var(--text)]">{dim.name_id}</div>
+                      <div className="text-[11px] sm:text-xs text-[var(--muted)] line-clamp-1">{dim.question_id}</div>
                     </td>
                     {selectedTermIds.map((termId) => {
                       const dimMap = termDimensionAverages.get(termId);
@@ -358,7 +358,7 @@ export default function BandingkanPage() {
 
                       const pct = Math.round(((val + 2) / 4) * 100);
                       return (
-                        <td key={termId} className="px-4 py-3.5">
+                        <td key={termId} className="px-3 sm:px-4 py-3.5">
                           <div className="flex items-center gap-2">
                             <span
                               className="rounded px-2 py-0.5 text-xs font-bold tabular-nums"
