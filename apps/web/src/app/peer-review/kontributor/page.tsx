@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 /**
- * Direktori kontributor & pengulas.
+ * Direktori kontributor & kontributor.
  *
  * SENGAJA KOSONG. Sebelumnya halaman ini memuat data contoh berisi nama
  * pakar hukum tata negara yang NYATA (lengkap dengan jabatan, afiliasi,
@@ -37,7 +37,7 @@ export default function KontributorPage() {
 
       <div className="mt-4 flex flex-wrap items-baseline justify-between gap-4">
         <div>
-          <h1 className="text-2xl font-bold">Direktori Kontributor &amp; Pengulas</h1>
+          <h1 className="text-2xl font-bold">Direktori Kontributor &amp; Kontributor</h1>
           <p className="mt-1.5 text-sm text-[var(--muted)]">
             Daftar peneliti dan pakar hukum tata negara yang telah berkontribusi pada
             Pancasila Index, lengkap dengan afiliasi institusi dan deklarasi sumber
@@ -126,7 +126,7 @@ export default function KontributorPage() {
       )}
 
       <p className="mt-8 text-center text-xs text-[var(--muted)]">
-        Ingin bergabung sebagai pengulas?{" "}
+        Ingin bergabung sebagai kontributor?{" "}
         <Link href="/peer-review/usulan" className="text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)]">
           Ajukan kontribusi pertama Anda
         </Link>{" "}

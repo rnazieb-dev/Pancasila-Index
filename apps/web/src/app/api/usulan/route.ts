@@ -1,7 +1,16 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { checkRateLimit } from "@/lib/rate-limit";
+import { auth } from "@/auth";
 
 export async function POST(req: NextRequest) {
+  const session = await auth();
+  if (!session?.user) {
+    return NextResponse.json(
+      { error: "Akses ditolak. Hanya Kontributor yang telah login yang dapat mengusulkan bukti." },
+      { status: 401 }
+    );
+  }
+
   const ip = req.headers.get("x-forwarded-for") ?? "local";
   const rl = checkRateLimit(ip, 10, 60_000); // Lebih ketat untuk submisi
   if (!rl.ok) {

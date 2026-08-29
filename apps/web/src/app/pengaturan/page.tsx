@@ -105,7 +105,7 @@ export default function PengaturanPage() {
         <div className="text-4xl">🔒</div>
         <h1 className="text-xl font-bold">Anda Belum Masuk</h1>
         <p className="text-xs text-[var(--muted)] leading-relaxed">
-          Silakan masuk atau daftar akun untuk mengelola profil pengulas dan pengaturan sesi Anda.
+          Silakan masuk atau daftar akun untuk mengelola profil kontributor dan pengaturan sesi Anda.
         </p>
         <div className="flex justify-center gap-3 pt-2">
           <Link

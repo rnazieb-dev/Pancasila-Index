@@ -56,7 +56,7 @@ const id = {
   menuOpen: "Buka menu",
   menuClose: "Tutup menu",
   secReview: "Tinjauan Sejawat",
-  secAccount: "Akun Pengulas",
+  secAccount: "Akun Kontributor",
   peerPortal: "Portal Peer Review",
   footerNote: "Catatan:",
   footerDisclaimer:

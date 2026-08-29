@@ -57,8 +57,8 @@ export default function PeerReviewPage() {
           {[
             { n: "1", title: "Submisi Usulan", desc: "Kontributor mengisi formulir web: pilih organ & periode, lampirkan bukti primer (URL resmi JDIH/MK/MA/BPS), tulis argumentasi normatif, dan tanda tangani Pakta Integritas." },
             { n: "2", title: "Verifikasi Awal (Otomatis)", desc: "Sistem memvalidasi: URL sumber primer dapat diakses, format data sesuai rubrik, dan deklarasi transparansi terisi lengkap." },
-            { n: "3", title: "Under Review — Dewan Editorial", desc: "Usulan yang lolos verifikasi awal masuk ke antrean Dewan Editorial (≥2 pengulas independen). Status usulan dapat dipantau secara real-time." },
-            { n: "4", title: "Diterima / Ditolak", desc: "Putusan Dewan Editorial disertai alasan yang tercatat publik. Usulan yang diterima diintegrasikan ke dataset kanonik. Usulan yang ditolak beserta alasannya tetap dapat diakses untuk transparansi." },
+            { n: "3", title: "Under Review — Kontributor Terkurasi", desc: "Usulan yang lolos verifikasi awal masuk ke antrean (≥2 kontributor independen). Proses tinjauan dilakukan oleh praktisi dan akademisi sesuai dengan kapasitas keilmuannya (misal: isu konstitusional diulas oleh pakar hukum tata negara)." },
+            { n: "4", title: "Diterima / Ditolak", desc: "Putusan tim kontributor disertai alasan yang tercatat publik. Usulan yang diterima diintegrasikan ke dataset kanonik. Usulan yang ditolak beserta alasannya tetap dapat diakses untuk transparansi." },
           ].map((step) => (
             <li key={step.n} className="flex gap-4">
               <span className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-full bg-red-500/20 text-xs font-bold text-[var(--acc-red)]">
@@ -123,7 +123,7 @@ export default function PeerReviewPage() {
         >
           <div>
             <div className="text-2xl mb-2.5">👥</div>
-            <h3 className="font-bold text-[var(--text)] group-hover:text-[var(--text)]">Direktori Pengulas</h3>
+            <h3 className="font-bold text-[var(--text)] group-hover:text-[var(--text)]">Direktori Kontributor</h3>
             <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
               Lihat daftar terbuka seluruh peneliti beserta afiliasi dan deklarasi transparansi.
             </p>

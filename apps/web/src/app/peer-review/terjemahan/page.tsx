@@ -201,13 +201,13 @@ export default function TerjemahanQueuePage() {
 
                 <div>
                   <label className="block text-[var(--muted)] font-semibold mb-1">
-                    Nama / Afiliasi Linguistik Pengulas:
+                    Nama / Afiliasi Linguistik Kontributor:
                   </label>
                   <input
                     type="text"
                     required
                     className="w-full rounded-lg border border-[var(--line)] bg-[var(--bg)] p-2.5 text-[var(--text)] focus:border-sky-500 focus:outline-none"
-                    placeholder="Nama pengulas atau institusi bahasa"
+                    placeholder="Nama kontributor atau institusi bahasa"
                     value={contributorName}
                     onChange={(e) => setContributorName(e.target.value)}
                   />

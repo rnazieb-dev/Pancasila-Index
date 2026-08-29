@@ -63,7 +63,7 @@ export default function DaftarPage() {
         <Link href="/" className="font-bold tracking-tight text-xl">
           Pancasila<span className="text-[var(--acc-red)]">·</span>Index
         </Link>
-        <h1 className="mt-3 text-2xl font-bold">Daftar Akun Pengulas</h1>
+        <h1 className="mt-3 text-2xl font-bold">Daftar Akun Kontributor</h1>
         <p className="mt-1 text-xs text-[var(--muted)]">
           Bergabung sebagai kontributor dan peninjau sejawat konstitusional terbuka.
         </p>

@@ -325,7 +325,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               {t("navHome")}
             </Link>
             <NavDropdown label={t("navExplore")} items={NAV_EXPLORE} />
-            <NavDropdown label={t("navMethodData")} items={NAV_DATA} />
+            <NavDropdown label={t("navMethodData")} items={userSession ? NAV_DATA : NAV_DATA.filter(i => i.href !== "/peer-review/draf")} />
           </nav>
 
           {/* Kanan Desktop */}
@@ -361,16 +361,18 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
 
             <span className="mx-1 h-5 w-px bg-[var(--line)]" aria-hidden="true" />
 
-            <Link
-              href="/peer-review"
-              className={`rounded-lg border px-3 py-1.5 text-xs font-semibold transition ${
-                pathname?.startsWith("/peer-review")
-                  ? "border-red-500 bg-red-500/10 text-[var(--acc-red)]"
-                  : "border-[var(--line)] text-[var(--muted)] hover:border-slate-500 hover:text-[var(--text)]"
-              }`}
-            >
-              {t("actPeerReview")}
-            </Link>
+            {userSession && (
+              <Link
+                href="/peer-review"
+                className={`rounded-lg border px-3 py-1.5 text-xs font-semibold transition ${
+                  pathname?.startsWith("/peer-review")
+                    ? "border-red-500 bg-red-500/10 text-[var(--acc-red)]"
+                    : "border-[var(--line)] text-[var(--muted)] hover:border-slate-500 hover:text-[var(--text)]"
+                }`}
+              >
+                {t("actPeerReview")}
+              </Link>
+            )}
 
             {userSession ? (
               <Link
@@ -455,16 +457,21 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               ))}
 
               <p className="drawer-section">{t("navMethodData")}</p>
-              {NAV_DATA.map((item) => (
+              {(userSession ? NAV_DATA : NAV_DATA.filter(i => i.href !== "/peer-review/draf")).map((item) => (
                 <Link key={item.href} href={item.href} onClick={() => setDrawerOpen(false)} className="drawer-link">
                   {t(item.key)}
                 </Link>
               ))}
 
-              <p className="drawer-section">{t("secReview")}</p>
-              <Link href="/peer-review" onClick={() => setDrawerOpen(false)} className="drawer-link font-semibold text-[var(--acc-red)]">
-                {t("peerPortal")}
-              </Link>
+              {userSession && (
+                <>
+                  <p className="drawer-section">{t("secReview")}</p>
+                  <Link href="/peer-review" onClick={() => setDrawerOpen(false)} className="drawer-link font-semibold text-[var(--acc-red)]">
+                    {t("peerPortal")}
+                  </Link>
+                </>
+              )}
+
 
               <p className="drawer-section">{t("secAccount")}</p>
               {userSession ? (
