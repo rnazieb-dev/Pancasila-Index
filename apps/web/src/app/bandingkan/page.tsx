@@ -18,7 +18,6 @@ const SERIES_TEXT_COLORS = [
   "var(--series-5)",
 ];
 
-
 const SHORT_DIMENSION_LABELS: Record<string, string> = {
   "sila-1": "Sila 1: Ketuhanan",
   "sila-2": "Sila 2: Kemanusiaan",
@@ -42,6 +41,39 @@ const PRESET_COLORS = [
   "#a855f7", // purple
 ];
 
+const CURATED_PRESETS = [
+  {
+    id: "presiden-reformasi",
+    label: "👑 Presiden Reformasi",
+    description: "Habibie, Gus Dur, Megawati, SBY, Jokowi",
+    termIds: ["presiden-habibie", "presiden-gusdur", "presiden-megawati", "presiden-sby-i", "presiden-jokowi-i"],
+  },
+  {
+    id: "transisi-orba-reformasi",
+    label: "⚡ Transisi Orba → Reformasi",
+    description: "Soeharto, Habibie, Gus Dur",
+    termIds: ["presiden-soeharto", "presiden-habibie", "presiden-gusdur"],
+  },
+  {
+    id: "lembaga-peradilan",
+    label: "⚖️ Peradilan & Etik (MK vs MA vs KY)",
+    description: "MK 2003-2008, MA 1998-2008, KY 2005-2010",
+    termIds: ["mk-2003-2008", "ma-1998-2008", "ky-2005-2010"],
+  },
+  {
+    id: "parlemen-rakyat",
+    label: "🏛️ Parlemen (DPR vs DPD vs MPR)",
+    description: "DPR 2014-2019, DPD 2014-2019, MPR 2014-2019",
+    termIds: ["dpr-2014-2019", "dpd-2014-2019", "mpr-2014-2019"],
+  },
+  {
+    id: "orla-vs-orba",
+    label: "⏳ Orla vs Orba",
+    description: "Soekarno vs Soeharto",
+    termIds: ["presiden-soekarno-1959-1966", "presiden-soeharto"],
+  },
+];
+
 export default function BandingkanPage() {
   const [selectedTermIds, setSelectedTermIds] = useState<string[]>([
     "presiden-soeharto",
@@ -50,7 +82,8 @@ export default function BandingkanPage() {
   ]);
   const [hiddenSeriesIds, setHiddenSeriesIds] = useState<Set<string>>(new Set());
   const [mode, setMode] = useState<"sila" | "all">("sila");
-
+  const [activeInstitutionTab, setActiveInstitutionTab] = useState<string>("all");
+  const [searchTerm, setSearchTerm] = useState<string>("");
 
   const termsById = useMemo(() => {
     return new Map(dataset.terms.map((t) => [t.id, t]));
@@ -141,23 +174,41 @@ export default function BandingkanPage() {
     }
   };
 
-  const toggleSeriesVisibility = (termId: string) => {
-    setHiddenSeriesIds((prev) => {
-      const s = new Set(prev);
-      if (s.has(termId)) s.delete(termId); else s.add(termId);
-      return s;
-    });
+  const removeTerm = (termId: string) => {
+    if (selectedTermIds.length > 1) {
+      setSelectedTermIds(selectedTermIds.filter((id) => id !== termId));
+    }
+  };
+
+  const applyPreset = (termIds: string[]) => {
+    setSelectedTermIds(termIds);
+    setHiddenSeriesIds(new Set());
   };
 
   const visibleSeries = radarSeries.filter((s) => !hiddenSeriesIds.has(s.id));
 
+  // Filtered terms for the hierarchical selector
+  const filteredTerms = useMemo(() => {
+    const q = searchTerm.trim().toLowerCase();
+    return dataset.terms.filter((term) => {
+      if (activeInstitutionTab !== "all" && term.institution_id !== activeInstitutionTab) {
+        return false;
+      }
+      if (!q) return true;
+      const inst = institutionsById.get(term.institution_id);
+      const matchesLabel = term.label_id.toLowerCase().includes(q);
+      const matchesEra = term.era.toLowerCase().includes(q);
+      const matchesInst = inst?.name_id.toLowerCase().includes(q) || inst?.short_id?.toLowerCase().includes(q);
+      return matchesLabel || matchesEra || matchesInst;
+    });
+  }, [activeInstitutionTab, searchTerm, institutionsById]);
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-12">
+    <div className="mx-auto max-w-6xl px-4 py-8 sm:py-12">
       <div className="flex flex-wrap items-baseline justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-bold">Bandingkan Era & Lembaga</h1>
-          <p className="mt-1.5 text-sm text-[var(--muted)]">
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-[var(--text)]">Bandingkan Era & Lembaga</h1>
+          <p className="mt-1 text-xs sm:text-sm text-[var(--muted)]">
             Komparasi radar visual atas kepatuhan Pancasila & UUD 1945 lintas organ kekuasaan.
           </p>
         </div>
@@ -167,7 +218,7 @@ export default function BandingkanPage() {
           <button
             onClick={() => setMode("sila")}
             className={`rounded-md px-3 py-1.5 transition ${
-              mode === "sila" ? "bg-red-600 text-white" : "text-[var(--muted)] hover:text-[var(--text)]"
+              mode === "sila" ? "bg-[var(--acc-red)] text-white shadow-sm" : "text-[var(--muted)] hover:text-[var(--text)]"
             }`}
           >
             5 Sila Pancasila
@@ -175,7 +226,7 @@ export default function BandingkanPage() {
           <button
             onClick={() => setMode("all")}
             className={`rounded-md px-3 py-1.5 transition ${
-              mode === "all" ? "bg-red-600 text-white" : "text-[var(--muted)] hover:text-[var(--text)]"
+              mode === "all" ? "bg-[var(--acc-red)] text-white shadow-sm" : "text-[var(--muted)] hover:text-[var(--text)]"
             }`}
           >
             12 Dimensi Lengkap
@@ -183,9 +234,201 @@ export default function BandingkanPage() {
         </div>
       </div>
 
+      {/* 1. Skenario Komparasi Populer (1-Klik) */}
+      <section className="mt-6 p-4 sm:p-5 rounded-2xl border border-[var(--acc-sky)]/30 bg-[var(--acc-sky)]/5 space-y-2.5">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <span className="text-base">⚡</span>
+            <h2 className="text-xs sm:text-sm font-bold text-[var(--text)] uppercase tracking-wide">
+              Skenario Komparasi Populer (1-Klik):
+            </h2>
+          </div>
+          <span className="text-[11px] text-[var(--muted)] hidden sm:inline">Pilih perbandingan siap pakai</span>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 pt-1">
+          {CURATED_PRESETS.map((preset) => {
+            const isCurrent =
+              preset.termIds.length === selectedTermIds.length &&
+              preset.termIds.every((id) => selectedTermIds.includes(id));
+
+            return (
+              <button
+                key={preset.id}
+                onClick={() => applyPreset(preset.termIds)}
+                className={`p-3 rounded-xl border text-left transition flex flex-col justify-between gap-1 ${
+                  isCurrent
+                    ? "border-[var(--acc-sky)] bg-[var(--acc-sky)]/20 shadow-sm"
+                    : "border-[var(--line)] bg-[var(--panel)] hover:border-sky-400 hover:bg-[var(--bg)]"
+                }`}
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-bold text-[var(--text)]">{preset.label}</span>
+                  {isCurrent && <span className="text-[10px] font-bold text-[var(--acc-sky)]">✓ Aktif</span>}
+                </div>
+                <p className="text-[11px] text-[var(--muted)] line-clamp-1">{preset.description}</p>
+              </button>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* 2. Active Comparison Bar (Chips) */}
+      <section className="mt-6 p-4 rounded-xl border border-[var(--line)] bg-[var(--panel)] space-y-3">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div className="flex items-center gap-2">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-[var(--muted)]">
+              Sedang Dibandingkan ({selectedTermIds.length}/5):
+            </h3>
+          </div>
+          {selectedTermIds.length > 2 && (
+            <button
+              onClick={() => setSelectedTermIds(["presiden-soeharto", "presiden-habibie"])}
+              className="text-[11px] text-[var(--muted)] hover:text-[var(--acc-red)] transition"
+            >
+              Reset ke 2 Organ
+            </button>
+          )}
+        </div>
+
+        <div className="flex flex-wrap gap-2">
+          {selectedTermIds.map((termId, idx) => {
+            const term = termsById.get(termId);
+            const color = PRESET_COLORS[idx % PRESET_COLORS.length];
+            const inst = term ? institutionsById.get(term.institution_id) : undefined;
+
+            return (
+              <div
+                key={termId}
+                className="flex items-center gap-2 px-3 py-1.5 rounded-lg border border-[var(--line)] bg-[var(--bg)] shadow-sm text-xs"
+                style={{ borderLeft: `3px solid ${color}` }}
+              >
+                <span className="size-2 rounded-full shrink-0" style={{ backgroundColor: color }} />
+                {term && <InstitutionLogo id={term.institution_id} size="xs" />}
+                <span className="font-semibold text-[var(--text)] truncate max-w-[150px] sm:max-w-[200px]">
+                  {inst?.short_id ?? ""}: {term?.label_id}
+                </span>
+                <span className="text-[10px] text-[var(--muted)]">({term?.era})</span>
+                {selectedTermIds.length > 1 && (
+                  <button
+                    onClick={() => removeTerm(termId)}
+                    className="ml-1 text-[var(--muted)] hover:text-[var(--acc-red)] font-bold text-xs p-0.5"
+                    title="Hapus dari perbandingan"
+                  >
+                    ✕
+                  </button>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* 3. Selector Organ Terstruktur (Tab & Search) */}
+      <section className="mt-4 p-4 rounded-xl border border-[var(--line)] bg-[var(--bg)] space-y-3">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="text-xs font-semibold text-[var(--muted)]">
+            + Tambah Organ / Periode Lain ke Perbandingan:
+          </div>
+
+          {/* Instant Search Bar */}
+          <div className="relative w-full sm:w-64">
+            <input
+              type="text"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              placeholder="Cari nama tokoh / era..."
+              className="w-full bg-[var(--panel)] border border-[var(--line)] rounded-lg px-3 py-1.5 text-xs text-[var(--text)] placeholder-[var(--muted)] focus:outline-none focus:border-sky-500"
+            />
+            {searchTerm && (
+              <button
+                onClick={() => setSearchTerm("")}
+                className="absolute right-2.5 top-1.5 text-xs text-[var(--muted)] hover:text-[var(--text)]"
+              >
+                ✕
+              </button>
+            )}
+          </div>
+        </div>
+
+        {/* Tab Organ */}
+        <div className="flex flex-wrap gap-1 border-b border-[var(--line)] pb-2 text-xs">
+          <button
+            onClick={() => setActiveInstitutionTab("all")}
+            className={`px-3 py-1 rounded-md font-semibold transition ${
+              activeInstitutionTab === "all"
+                ? "bg-[var(--text)] text-[var(--bg)]"
+                : "text-[var(--muted)] hover:text-[var(--text)]"
+            }`}
+          >
+            Semua ({dataset.terms.length})
+          </button>
+          {dataset.institutions.map((inst) => {
+            const count = dataset.terms.filter((t) => t.institution_id === inst.id).length;
+            const isActive = activeInstitutionTab === inst.id;
+            return (
+              <button
+                key={inst.id}
+                onClick={() => setActiveInstitutionTab(inst.id)}
+                className={`px-2.5 py-1 rounded-md font-medium transition flex items-center gap-1.5 ${
+                  isActive
+                    ? "bg-[var(--text)] text-[var(--bg)] font-semibold"
+                    : "text-[var(--muted)] hover:text-[var(--text)]"
+                }`}
+              >
+                <InstitutionLogo id={inst.id} size="xs" />
+                <span>{inst.short_id}</span>
+                <span className="text-[10px] opacity-60">({count})</span>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Pilihan Periode Terfilter */}
+        <div className="flex flex-wrap gap-1.5 sm:gap-2 max-h-44 overflow-y-auto p-1">
+          {filteredTerms.length === 0 ? (
+            <div className="text-xs text-[var(--muted)] italic py-2">
+              Tidak ada periode yang cocok dengan filter &quot;{searchTerm}&quot;.
+            </div>
+          ) : (
+            filteredTerms.map((term) => {
+              const isSelected = selectedTermIds.includes(term.id);
+              const idx = selectedTermIds.indexOf(term.id);
+              const color = isSelected ? PRESET_COLORS[idx % PRESET_COLORS.length] : undefined;
+              const inst = institutionsById.get(term.institution_id);
+
+              return (
+                <button
+                  key={term.id}
+                  onClick={() => toggleTerm(term.id)}
+                  disabled={!isSelected && selectedTermIds.length >= 5}
+                  className={`rounded-lg border px-3 py-1.5 text-xs transition flex items-center gap-2 ${
+                    isSelected
+                      ? "border-transparent bg-slate-800 text-white shadow-sm"
+                      : "border-[var(--line)] bg-[var(--panel)] text-[var(--muted)] hover:border-slate-400 hover:text-[var(--text)] disabled:opacity-40"
+                  }`}
+                  style={isSelected ? { outline: `2px solid ${color}` } : undefined}
+                >
+                  {isSelected ? (
+                    <span className="size-2 rounded-full" style={{ backgroundColor: color }} />
+                  ) : (
+                    <span className="text-xs text-[var(--muted)]">+</span>
+                  )}
+                  <InstitutionLogo id={term.institution_id} size="xs" />
+                  <span className="font-medium truncate max-w-[130px] sm:max-w-[200px]">
+                    {inst?.short_id ?? ""}: {term.label_id}
+                  </span>
+                  <span className="text-[10px] opacity-70">({term.era})</span>
+                </button>
+              );
+            })
+          )}
+        </div>
+      </section>
+
       {/* Peringatan Komparasi Asimetris */}
       {asymmetryWarning && (
-        <div className="mt-5 rounded-xl border border-amber-500/40 bg-amber-500/10 px-4 py-3 flex items-start gap-3">
+        <div className="mt-6 rounded-xl border border-amber-500/40 bg-amber-500/10 px-4 py-3 flex items-start gap-3">
           <span className="text-[var(--acc-amber)] text-lg mt-0.5">⚠️</span>
           <div className="text-xs leading-relaxed">
             <strong className="text-[var(--acc-amber-strong)]">Komparasi Asimetris</strong>
@@ -201,58 +444,12 @@ export default function BandingkanPage() {
       )}
 
       {/* Panduan Skala */}
-      <div className="mt-5">
+      <div className="mt-6">
         <ScaleLegend compact />
       </div>
 
-      {/* Selector Term / Periode */}
-      <section className="mt-8 rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5">
-        <div className="flex items-center justify-between">
-          <h2 className="text-sm font-semibold text-[var(--text)]">
-            Pilih Periode/Organ untuk Dibandingkan (Maksimal 5):
-          </h2>
-          <span className="text-xs text-[var(--muted)]">
-            {selectedTermIds.length} terpilih
-          </span>
-        </div>
-
-        <div className="mt-3 flex flex-wrap gap-1.5 sm:gap-2 max-h-48 sm:max-h-60 overflow-y-auto p-2 border border-[var(--line)]/50 rounded-lg bg-[var(--bg)]/50">
-          {dataset.terms.map((term) => {
-            const isSelected = selectedTermIds.includes(term.id);
-            const idx = selectedTermIds.indexOf(term.id);
-            const color = isSelected ? PRESET_COLORS[idx % PRESET_COLORS.length] : undefined;
-            const inst = institutionsById.get(term.institution_id);
-
-            return (
-              <button
-                key={term.id}
-                onClick={() => toggleTerm(term.id)}
-                className={`rounded-lg border px-3 py-1.5 text-xs transition flex items-center gap-2 ${
-                  isSelected
-                    ? "border-transparent bg-slate-800 text-white shadow"
-                    : "border-[var(--line)] bg-[var(--bg)] text-[var(--muted)] hover:border-slate-500 hover:text-[var(--text)]"
-                }`}
-                style={isSelected ? { outline: `2px solid ${color}` } : undefined}
-              >
-                {isSelected && (
-                  <span
-                    className="size-2 rounded-full"
-                    style={{ backgroundColor: color }}
-                  />
-                )}
-                <InstitutionLogo id={term.institution_id} size="xs" />
-                <span className="font-medium truncate max-w-[130px] sm:max-w-[220px]">
-                  {inst?.short_id ?? ""}: {term.label_id}
-                </span>
-                <span className="text-[10px] opacity-70">({term.era})</span>
-              </button>
-            );
-          })}
-        </div>
-      </section>
-
       {/* Radar Chart Overlay */}
-      <section className="mt-10 grid grid-cols-1 lg:grid-cols-[380px_1fr] gap-6 sm:gap-8 items-center rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 sm:p-6">
+      <section className="mt-8 grid grid-cols-1 lg:grid-cols-[400px_1fr] gap-6 sm:gap-8 items-center rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 sm:p-6">
         <div className="w-full flex flex-col items-center py-2">
           <MultiRadarChart labels={radarLabels} series={visibleSeries} />
           {mode === "all" && (
@@ -279,13 +476,6 @@ export default function BandingkanPage() {
             {selectedTermIds.map((termId, idx) => {
               const term = termsById.get(termId);
               const color = PRESET_COLORS[idx % PRESET_COLORS.length];
-              // Indeks OTORITATIF, bukan hitungan sendiri. Halaman ini dulu
-              // memakai rerata datar seluruh skor dimensi, sehingga melewati
-              // bobot grup, pengecualian skor tanpa bukti, ambang cakupan, DAN
-              // batas hak non-derogable. Selisihnya sampai 13 poin: Megawati
-              // tampil 63 di sini padahal angka otoritatifnya 50 karena
-              // pelanggaran HAM - persis di halaman yang dipakai orang untuk
-              // menarik kesimpulan lintas era.
               const summary = termSummary(termId);
               const index = summary?.index ?? null;
 
