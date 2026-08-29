@@ -9,7 +9,7 @@ interface Milestone {
   era: string; // "pra-1900" | "1905-1920" | "1922-1938" | "1945" | "1945-1949" | "1950-2002"
   title: string;
   subtitle: string;
-  category: "islam" | "pendidikan" | "sosio-desa" | "pemuda" | "perempuan" | "kebangsaan" | "konstitusi";
+  category: "islam" | "pendidikan" | "sosio-desa" | "pemuda" | "perempuan" | "kebangsaan" | "konstitusi" | "oposisi";
   categoryLabel: string;
   icon: string;
   description: string;
@@ -39,7 +39,7 @@ const HISTORICAL_MILESTONES: Milestone[] = [
     figures: ["Pangeran Diponegoro", "Kiai Mojo", "Sentot Alibasya Prawirodirdjo"],
     dimensions: ["Sila 2: Kemanusiaan yang Adil dan Beradab", "Sila 5: Keadilan Sosial bagi Seluruh Rakyat"],
     citations: [
-      "Babad Diponegoro (Naskah Manuskrip UNESCO Memory of the World / ANRI)",
+      "Babad Diponegoro (Naskah Manuskrip UNESCO Memory of the World / Perpusnas KBG No. 282 / KITLV Leiden)",
       "Peter Carey, 'The Power of Prophecy: Prince Diponegoro and the End of an Old Order in Java, 1785-1855' (2007)",
     ],
   },
@@ -225,6 +225,7 @@ const HISTORICAL_MILESTONES: Milestone[] = [
     citations: [
       "Tan Malaka, 'Naar de Republiek Indonesia' (Canton, 1925)",
       "Mohammad Hatta, 'Indonesia Vrij' (Pledoi Den Haag, 1928)",
+      "IISG Amsterdam ARCH01460 (Tan Malaka Papers)",
     ],
   },
   {
@@ -383,7 +384,7 @@ const HISTORICAL_MILESTONES: Milestone[] = [
     id: "ppki-konsensus-1945",
     year: "1945 (18 Agu)",
     era: "1945",
-    title: "Sidang PPKI: Konsensus Ketuhanan Yang Maha Esa (Tauhid) & Hak Warga (Pasal 28 Hatta)",
+    title: "Sidang PPKI I: Konsensus Ketuhanan Yang Maha Esa (Tauhid) & Hak Warga (Pasal 28 Hatta)",
     subtitle: "Pengorbanan Negarawan Muslim demi Keutuhan Sabang–Merauke & Jaminan Hak Asasi",
     category: "konstitusi",
     categoryLabel: "Pengesahan UUD 1945 & Hak Asasi",
@@ -394,11 +395,29 @@ const HISTORICAL_MILESTONES: Milestone[] = [
     dimensions: ["Sila 1: Ketuhanan Yang Maha Esa", "Pasal 28 UUD 1945: Hak Berserikat & Berpendapat"],
     citations: [
       "Berita Repoeblik Indonesia Tahun I No. 2 (1946; ANRI)",
-      "Kasman Singodimedjo, 'Hidup Itu Berjuang: Kasman Singodimedjo 75 Tahun' (Bulan Bintang, 1982)",
+      "Risalah Stenografis Sidang Lengkap PPKI 18 Agustus 1945 (ANRI No. 01/1945)",
+    ],
+  },
+  {
+    id: "ppki-sidang-2-3-1945",
+    year: "1945 (19–22 Agu)",
+    era: "1945",
+    title: "Sidang PPKI II & III: Penataan 8 Provinsi Pertama, 12 Kementerian, & Pembentukan KNIP",
+    subtitle: "Peletakan Struktur Lembaga Negara, Pemerintahan Daerah, & Parlemen Darurat",
+    category: "konstitusi",
+    categoryLabel: "Struktur Organ Konstitusional Awal",
+    icon: "🏛️",
+    description:
+      "Sidang PPKI tanggal 19 dan 22 Agustus 1945 menetapkan pembagian wilayah Republik Indonesia menjadi 8 Provinsi (Sumatera, Jawa Barat, Jawa Tengah, Jawa Timur, Sunda Kecil, Maluku, Sulawesi, Kalimantan), 12 Kementerian Kabinet Presidensial Pertama, serta pembentukan Komite Nasional Indonesia Pusat (KNIP) dan Badan Keamanan Rakyat (BKR) sebagai cikal bakal TNI.",
+    figures: ["Otto Iskandardinata", "Mr. Johannes Latuharhary", "Mr. Iwa Kusumasumantri", "Mr. Kasman Singodimedjo"],
+    dimensions: ["Pasal 18 UUD 1945: Pemerintahan Daerah", "Pasal 17 UUD 1945: Kementerian Negara"],
+    citations: [
+      "Risalah Sidang PPKI 19 & 22 Agustus 1945 (ANRI Koleksi PPKI No. 02–03/1945)",
+      "Berita Repoeblik Indonesia Th. I No. 2 (1946)",
     ],
   },
 
-  // ─── ERA 4: MEMPERTAHANKAN EKSISTENSI & REVOLUSI FISIK (1945–1949) ───
+  // ─── ERA 4: MEMPERTAHANKAN EKSISTENSI, OPOSISI & REVOLUSI FISIK (1945–1949) ───
   {
     id: "resolusi-jihad-1945",
     year: "1945 (22 Okt)",
@@ -436,6 +455,24 @@ const HISTORICAL_MILESTONES: Milestone[] = [
     ],
   },
   {
+    id: "pki-madiun-1948",
+    year: "1948 (Sep)",
+    era: "1945-1949",
+    title: "Peristiwa Madiun 1948: Resolusi 'Djalan Baru' Musso & Ujian Ideologi Negara",
+    subtitle: "Konfrontasi Bersenjata Front Demokrasi Rakyat Melawan Garis Politik Sukarno-Hatta",
+    category: "oposisi",
+    categoryLabel: "Oposisi Kiri & Ujian Ideologi",
+    icon: "🚩",
+    description:
+      "Kembalinya Musso dari Moskow membawa manifesto resolusi 'Djalan Baru untuk Republik Indonesia' yang menolak diplomasi Renville dan menuntut perombakan total kepemimpinan nasional. Pemberontakan FDR/PKI di Madiun menjadi ujian eksistensial pertama bagi konsensus Pancasila dan kedaulatan tentara reguler di tengah ancaman agresi Belanda.",
+    figures: ["Musso", "Amir Sjarifuddin", "Kolonel Gatot Soebroto", "Kolonel Sungkono"],
+    dimensions: ["Sila 3: Persatuan Indonesia", "Norma Struktural UUD: Kedaulatan Negara"],
+    citations: [
+      "Musso, 'Djalan Baru untuk Republik Indonesia' (Agustus 1948; IISG Amsterdam ARCH01061)",
+      "ANRI Khazanah Pemberontakan PKI Madiun 1948 / Puspen TNI",
+    ],
+  },
+  {
     id: "pdri-1948",
     year: "1948–1949",
     era: "1945-1949",
@@ -454,6 +491,24 @@ const HISTORICAL_MILESTONES: Milestone[] = [
     ],
   },
   {
+    id: "nii-proklamasi-1949",
+    year: "1949 (7 Agu)",
+    era: "1945-1949",
+    title: "Proklamasi Negara Islam Indonesia (NII) & Qanun Asasi di Cisayong",
+    subtitle: "SM Kartosoewirjo Memproklamasikan NII sebagai Respon Penolakan Perjanjian Renville",
+    category: "oposisi",
+    categoryLabel: "Oposisi Ideologis Teokratis",
+    icon: "⚡",
+    description:
+      "Kecewa terhadap Perjanjian Renville yang mengharuskan TNI hijrah mengosongkan Jawa Barat ke Yogyakarta, Sekarmadji Maridjan Kartosoewirjo bersama laskar Hizbullah-Sabilillah memproklamirkan berdirinya NII (Darul Islam) dan menetapkan Qanun Asasi 31 pasal. Peristiwa ini menjadi representasi benturan gagasan teokrasi Islam melawan negara kebangsaan Pancasila.",
+    figures: ["Sekarmadji Maridjan Kartosoewirjo", "K.H. Raden Oni", "Sanusi Partawidjaja"],
+    dimensions: ["Sila 1: Ketuhanan Yang Maha Esa", "Sila 3: Persatuan Indonesia"],
+    citations: [
+      "Naskah Asli Proklamasi NII 7 Agustus 1949 (KITLV Leiden Or. 26.850 / ANRI)",
+      "Naskah Qanun Asasi NII 1949 (KITLV Special Collections / Disjarahad)",
+    ],
+  },
+  {
     id: "kmb-1949",
     year: "1949",
     era: "1945-1949",
@@ -467,12 +522,30 @@ const HISTORICAL_MILESTONES: Milestone[] = [
     figures: ["Drs. Mohammad Hatta", "Sultan Hamid II", "Mr. Mohammad Roem", "Ide Anak Agung Gde Agung"],
     dimensions: ["Alinea I Pembukaan UUD 1945: Penjajahan Harus Dihapuskan", "Sila 3: Persatuan Indonesia"],
     citations: [
-      "Naskah Resmi Akta Penyerahan dan Pengakuan Kedaulatan KMB Den Haag (Lembaran Negara RIS 1949 No. 1; ANRI)",
+      "Naskah Resmi Akta Penyerahan dan Pengakuan Kedaulatan KMB Den Haag (Lembaran Negara RIS 1949 No. 1; Nationaal Archief Nederland)",
       "Risalah Konferensi Antar-Indonesia Juli–Agustus 1949 (ANRI)",
     ],
   },
 
-  // ─── ERA 5: DINAMIKA KONSTITUSI, DEKRIT & REFORMASI (1950–2002) ───
+  // ─── ERA 5: DINAMIKA KONSTITUSI, DEKRIT, OPOSISI & REFORMASI (1950–2002) ───
+  {
+    id: "rms-1950",
+    year: "1950 (25 Apr)",
+    era: "1950-2002",
+    title: "Proklamasi Republik Maluku Selatan (RMS) di Ambon: Penolakan Unifikasi NKRI",
+    subtitle: "Mr. Dr. Chr. Soumokil Menolak Pembubaran NIT Menjadi Negara Kesatuan",
+    category: "oposisi",
+    categoryLabel: "Oposisi Separatisme Regional",
+    icon: "🏝️",
+    description:
+      "Menolak peleburan Negara Indonesia Timur (NIT) kembali ke dalam Negara Kesatuan Republik Indonesia, Mr. Dr. Chr. Soumokil dan J.H. Manuhutu memproklamasikan RMS di Ambon. Pemerintah RI mengupayakan misi damai dr. Leimena sebelum akhirnya menggelar operasi militer pimpinan Kolonel A.E. Kawilarang dan Letkol Slamet Riyadi untuk memulihkan keutuhan wilayah.",
+    figures: ["Mr. Dr. Chr. Soumokil", "J.H. Manuhutu", "dr. J. Leimena", "Kolonel A.E. Kawilarang"],
+    dimensions: ["Sila 3: Persatuan Indonesia", "Pasal 1 ayat (1) UUD 1945: Bentuk Negara Kesatuan"],
+    citations: [
+      "Naskah Proklamasi RMS 25 April 1950 (Nationaal Archief Nederland NA NL 2.10.14)",
+      "ANRI Khazanah Penumpasan Pemberontakan RMS 1950",
+    ],
+  },
   {
     id: "kaa-1955",
     year: "1955",
@@ -489,6 +562,24 @@ const HISTORICAL_MILESTONES: Milestone[] = [
     citations: [
       "Final Communiqué of the Asian-African Conference, Bandung 24 April 1955 (Museum KAA / ANRI)",
       "Roeslan Abdulgani, 'The Bandung Connection: Konperensi Asia-Afrika' (Gunung Agung, 1980)",
+    ],
+  },
+  {
+    id: "prri-permesta-1957",
+    year: "1957–1958",
+    era: "1950-2002",
+    title: "Piagam Permesta Makassar & Proklamasi PRRI Padang: Tuntutan Otonomi Daerah Luas",
+    subtitle: "Perlawanan Daerah Terhadap Sentralisme Kekuasaan & Dominasi Politik Jakarta",
+    category: "oposisi",
+    categoryLabel: "Oposisi Otonomi Daerah & Rekonsiliasi",
+    icon: "🌾",
+    description:
+      "Piagam Permesta di Makassar (Letkol Ventje Sumual) dan Proklamasi PRRI di Padang (Letkol Ahmad Husein, Mr. Sjafruddin Prawiranegara, Dr. Sumitro Djojohadikusumo) menuntut dekonsentrasi kekuasaan, perimbangan keuangan pusat-daerah, dan penolakan pengaruh komunisme. Krisis ini diselesaikan melalui diplomasi rekonsiliasi dan Keppres Amnesti/Abolisi No. 449/1961 oleh Presiden Sukarno.",
+    figures: ["Mr. Sjafruddin Prawiranegara", "Dr. Sumitro Djojohadikusumo", "Letkol Ventje Sumual", "Kolonel Maludin Simbolon"],
+    dimensions: ["Sila 3: Persatuan Indonesia", "Pasal 18 UUD 1945: Otonomi Daerah"],
+    citations: [
+      "Piagam Permesta 2 Maret 1957 & Piagam PRRI 15 Februari 1958 (Nationaal Archief NL 2.10.36.04 / ANRI)",
+      "Keppres No. 449 Tahun 1961 tentang Amnesti & Abolisi PRRI/Permesta (Lembaran Negara RI)",
     ],
   },
   {
@@ -528,6 +619,61 @@ const HISTORICAL_MILESTONES: Milestone[] = [
     ],
   },
   {
+    id: "papua-new-york-pepera-1962-1969",
+    year: "1962–1969",
+    era: "1950-2002",
+    title: "New York Agreement 1962 & PEPERA 1969: Integrasi Final Papua Barat ke Pangkuan NKRI",
+    subtitle: "Perjanjian Bilateral PBB & Resolusi Sidang Umum PBB No. 2504 (XXIV)",
+    category: "kebangsaan",
+    categoryLabel: "Integritas Wilayah & Diplomasi PBB",
+    icon: "🗺️",
+    description:
+      "Perjanjian New York 15 Agustus 1962 mengakhiri sengketa Irian Barat antara Indonesia dan Belanda melalui administrasi transisi PBB (UNTEA). Pada 1969, diselenggarakan Penentuan Pendapat Rakyat (PEPERA) di 8 kabupaten yang memutuskan Papua tetap menjadi bagian mutlak dari NKRI, yang kemudian disahkan oleh Majelis Umum PBB lewat Resolusi No. 2504 (XXIV).",
+    figures: ["Frans Kaisiepo", "Johannes Abraham Dimara", "Subandrio", "U Thant (Sekjen PBB)"],
+    dimensions: ["Sila 3: Persatuan Indonesia", "Alinea IV Pembukaan UUD 1945: Melindungi Segenap Tumpah Darah"],
+    citations: [
+      "New York Agreement 1962 (United Nations Treaty Series Vol. 437 No. 6311)",
+      "Resolusi Majelis Umum PBB No. 2504 (XXIV) 19 November 1969 (UN Archives / ANRI)",
+    ],
+  },
+  {
+    id: "gam-helsinki-uupa-1976-2005",
+    year: "1976–2005",
+    era: "1950-2002",
+    title: "Deklarasi GAM 1976, MoU Helsinki 2005, & UU Pemerintahan Aceh (UUPA)",
+    subtitle: "Transformasi Konflik Bersenjata Menjadi Konsensus Damai Otonomi Asimetris dalam NKRI",
+    category: "oposisi",
+    categoryLabel: "Oposisi & Rekonsiliasi Damai",
+    icon: "🕊️",
+    description:
+      "Deklarasi kemerdekaan oleh Teungku Hasan di Tiro pada 1976 memicu konflik bersenjata selama hampir tiga dekade di Aceh. Pasca-tsunami 2004, Pemerintah RI (Wapres Jusuf Kalla) dan GAM menandatangani Nota Kesepahaman (MoU) Helsinki 15 Agustus 2005 yang difasilitasi CMI Martti Ahtisaari. Kesepakatan damai ini diwujudkan secara konstitusional melalui UU No. 11/2006 (UUPA) yang memberikan otonomi khusus dan partai lokal di Aceh.",
+    figures: ["Teungku Hasan di Tiro", "M. Jusuf Kalla", "Martti Ahtisaari (CMI)", "Hamid Awaludin", "Malik Mahmud"],
+    dimensions: ["Sila 3: Persatuan Indonesia", "Pasal 18B ayat (1) UUD 1945: Hubungan Khusus Daerah"],
+    citations: [
+      "Declaration of Independence of Acheh-Sumatra 1976 (KITLV Leiden D H 1426 / IISG)",
+      "MoU Helsinki 15 Agustus 2005 (Crisis Management Initiative / Setneg RI)",
+      "Undang-Undang No. 11 Tahun 2006 tentang Pemerintahan Aceh (Lembaran Negara RI No. 62/2006)",
+    ],
+  },
+  {
+    id: "petisi-50-1980",
+    year: "1980 (5 Mei)",
+    era: "1950-2002",
+    title: "Petisi 50: Oposisi Moral Konstitusional Menolak Monopoli Tafsir Pancasila",
+    subtitle: "Ali Sadikin, Natsir, Hoegeng, & Kasman Mengkritik Penggunaan Pancasila untuk Membungkam Oposisi",
+    category: "oposisi",
+    categoryLabel: "Oposisi Moral & Demokrasi Konstitusional",
+    icon: "✊",
+    description:
+      "Sebanyak 50 tokoh perintis kemerdekaan, mantan menteri, perwira tinggi militer, dan ulama menandatangani dokumen 'Pernyataan Keprihatinan' yang diserahkan ke DPR. Petisi 50 menolak pidato Presiden Soeharto yang menempatkan Pancasila sebagai alat kekuasaan untuk mencurigai dan memusuhi lawan politik, serta mengingatkan bahwa Pancasila adalah titik temu pemersatu seluruh golongan.",
+    figures: ["Letjen (Mar) Ali Sadikin", "Mohammad Natsir", "Jenderal Pol. Hoegeng Imam Santoso", "Mr. Sjafruddin Prawiranegara", "Mr. Kasman Singodimedjo"],
+    dimensions: ["Sila 4: Kerakyatan & Musyawarah", "Sila 2: Kemanusiaan yang Adil dan Beradab", "Pasal 28 UUD 1945"],
+    citations: [
+      "Naskah 'Pernyataan Keprihatinan' Petisi 50 (5 Mei 1980; ANRI / LKB)",
+      "Ali Sadikin, 'Demi Demokrasi: Catatan Penjelasan Pernyataan Keprihatinan' (LKB, 1981)",
+    ],
+  },
+  {
     id: "amandemen-uud-1999-2002",
     year: "1999–2002",
     era: "1950-2002",
@@ -548,18 +694,19 @@ const HISTORICAL_MILESTONES: Milestone[] = [
 ];
 
 const ERAS = [
-  { id: "all", label: "Semua Era (1825–2002)", icon: "🌐", count: 27 },
+  { id: "all", label: "Semua Era (1825–2002)", icon: "🌐", count: 33 },
   { id: "pra-1900", label: "Era 0: Fondasi Adat & Moral (Pra-1900)", icon: "🗡️", count: 3 },
   { id: "1905-1920", label: "Era 1: Fajar Organisasi Modern (1905–1920)", icon: "🌱", count: 5 },
   { id: "1922-1938", label: "Era 2: Sosio-Demokrasi & Persatuan (1922–1938)", icon: "🤝", count: 8 },
-  { id: "1945", label: "Era 3: Perumusan Konstitusi (1945)", icon: "🏛️", count: 4 },
-  { id: "1945-1949", label: "Era 4: Revolusi Kedaulatan (1945–1949)", icon: "🔥", count: 4 },
-  { id: "1950-2002", label: "Era 5: Dinamika & Reformasi (1950–2002)", icon: "⚖️", count: 4 },
+  { id: "1945", label: "Era 3: Perumusan Konstitusi (1945)", icon: "🏛️", count: 5 },
+  { id: "1945-1949", label: "Era 4: Revolusi & Oposisi (1945–1949)", icon: "🔥", count: 5 },
+  { id: "1950-2002", label: "Era 5: Dinamika, Konflik & Reformasi (1950–2002)", icon: "⚖️", count: 7 },
 ];
 
 const CATEGORIES = [
   { id: "all", label: "Semua Arus", icon: "🌐" },
   { id: "islam", label: "Islam & Syariat Kerakyatan", icon: "🕌" },
+  { id: "oposisi", label: "Oposisi & Perlawanan Regional", icon: "⚡" },
   { id: "kebangsaan", label: "Kebangsaan & Anti-Kolonial", icon: "🇮🇩" },
   { id: "pendidikan", label: "Pendidikan Kritis", icon: "🎓" },
   { id: "sosio-desa", label: "Sosio-Demokrasi Desa & Adat", icon: "🌾" },
@@ -609,23 +756,23 @@ export default function AkarSejarahPage() {
           <div>
             <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[var(--acc-emerald)]">
               <span>🏛️</span>
-              <span>Genealogi Intelektual & Dokumen Konstitusi (1825–2002)</span>
+              <span>Genealogi Intelektual, Dokumen Konstitusi & Khazanah Oposisi (1825–2002)</span>
             </div>
             <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[var(--text)] mt-1">
-              Akar Sejarah & Genealogi Pancasila
+              Akar Sejarah, Genealogi & Oposisi
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[var(--muted)] leading-relaxed max-w-3xl">
-              Pancasila dan UUD 1945 bukan produk instan yang lahir dalam semalam pada 1945, melainkan titik temu (*kalimatun sawa*) dari ratusan tahun perlawanan moral anti-kolonial, syariat Islam kerakyatan, tradisi musyawarah adat nagari/desa, kebangkitan pendidikan kritis, emansipasi perempuan, pergerakan pemuda kebinekaan, hingga amandemen konstitusi modern 1999–2002.
+              Pancasila dan UUD 1945 bukan produk instan yang lahir dalam semalam pada 1945, melainkan titik temu (*kalimatun sawa*) dari ratusan tahun perlawanan moral anti-kolonial, syariat Islam kerakyatan, tradisi musyawarah adat nagari/desa, kebangkitan pendidikan kritis, emansipasi perempuan, pergerakan pemuda kebinekaan, dialektika sidang PPKI, hingga ujian keras dari berbagai arus oposisi (NII, PKI, RMS, PRRI/Permesta, GAM, Papua, Petisi 50) yang melahirkan konsensus rekonsiliasi konstitusi modern 1999–2002.
             </p>
           </div>
 
           <div className="flex flex-col gap-2 p-4 rounded-xl border border-[var(--line)] bg-[var(--panel)]">
             <div className="text-xs text-[var(--muted)]">Total Tonggak Sejarah Terverifikasi:</div>
             <div className="text-2xl sm:text-3xl font-extrabold text-[var(--acc-emerald)]">
-              27 <span className="text-xs font-normal text-[var(--muted)]">Peristiwa Primer</span>
+              33 <span className="text-xs font-normal text-[var(--muted)]">Peristiwa Primer</span>
             </div>
             <div className="text-[11px] text-[var(--acc-sky)] font-semibold">
-              ✓ Terbagi dalam 6 Babakan Zaman
+              ✓ 6 Babakan Zaman &bull; Termasuk 6 Arus Oposisi & Rekonsiliasi
             </div>
           </div>
         </div>
@@ -637,7 +784,7 @@ export default function AkarSejarahPage() {
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Cari tokoh (Diponegoro, Natsir, Hatta, Kartini), tahun, naskah arsip ANRI, atau topik..."
+              placeholder="Cari tokoh (Diponegoro, Natsir, Kartosoewirjo, Hasan Tiro, Hatta), naskah arsip ANRI, Leiden, IISG..."
               className="w-full bg-[var(--panel)] border border-[var(--line)] rounded-xl px-4 py-2.5 text-xs sm:text-sm text-[var(--text)] placeholder-[var(--muted)] focus:outline-none focus:border-emerald-500"
             />
             {searchQuery && (
@@ -678,7 +825,7 @@ export default function AkarSejarahPage() {
 
         {/* Category / Arus Filter Tabs */}
         <div className="mt-4 space-y-2">
-          <div className="text-xs font-bold uppercase tracking-wider text-[var(--muted)]">Filter Arus Gerakan:</div>
+          <div className="text-xs font-bold uppercase tracking-wider text-[var(--muted)]">Filter Arus Gerakan & Oposisi:</div>
           <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
             {CATEGORIES.map((cat) => {
               const isActive = activeCategory === cat.id;
@@ -707,20 +854,20 @@ export default function AkarSejarahPage() {
         </div>
       </div>
 
-      {/* Banner Khazanah Arsip ANRI */}
+      {/* Banner Khazanah Arsip ANRI & Internasional */}
       <div className="mt-8 p-4 rounded-2xl border border-sky-500/30 bg-sky-500/10 flex flex-wrap items-center justify-between gap-4">
         <div className="flex items-center gap-3">
           <span className="text-2xl">🏛️</span>
           <div>
-            <div className="font-bold text-sm text-[var(--text)]">Jelajahi Khazanah Arsip Nasional & Sumber Primer</div>
-            <div className="text-xs text-[var(--muted)]">Telusuri 553 dokumen hukum otentik ANRI, kawat telegram sandi PDRI 1948, risalah BPUPK, hingga naskah komprehensif UUD 1945.</div>
+            <div className="font-bold text-sm text-[var(--text)]">Jelajahi Khazanah Arsip Nasional & Repositori Internasional</div>
+            <div className="text-xs text-[var(--muted)]">Telusuri 578 dokumen otentik ANRI, Nationaal Archief Nederland, IISG Amsterdam, KITLV Leiden, UN Archives, dan CMI Helsinki.</div>
           </div>
         </div>
         <Link
           href="/arsip"
           className="px-4 py-2 rounded-xl bg-sky-600 dark:bg-sky-600 text-white font-bold text-xs hover:bg-sky-500 transition shrink-0 shadow-sm"
         >
-          Buka Direktori Arsip ANRI &rarr;
+          Buka Direktori Arsip Lengkap &rarr;
         </Link>
       </div>
 
@@ -821,7 +968,7 @@ export default function AkarSejarahPage() {
                 {/* Primary Citations */}
                 <div className="pt-2 border-t border-[var(--line)]/50">
                   <div className="text-[11px] font-bold text-[var(--muted)] uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
-                    <span>🏛️</span> Bukti Primer / Naskah Arsip Nasional (ANRI):
+                    <span>🏛️</span> Bukti Primer / Repositori Arsip:
                   </div>
                   <ul className="space-y-1 text-xs text-[var(--muted)]">
                     {m.citations.map((c, i) => (
@@ -841,10 +988,10 @@ export default function AkarSejarahPage() {
       {/* Catatan Metodologi & Kebijakan Anti-Dehistorisasi */}
       <div className="mt-14 rounded-2xl border border-[var(--line)] bg-[var(--panel)] p-6 sm:p-8 space-y-4">
         <h3 className="text-base sm:text-lg font-bold text-[var(--text)] flex items-center gap-2">
-          <span>📜</span> Kebijakan Penilaian Anti-Dehistorisasi Pancasila Index
+          <span>📜</span> Kebijakan Historiografi Objektif & Penilaian Ketaatan Konstitusi
         </h3>
         <p className="text-xs sm:text-sm text-[var(--muted)] leading-relaxed">
-          Pancasila Index memberlakukan penalti tegas <strong>skor -2 pada Sila 1 (Ketuhanan) dan Sila 3 (Persatuan)</strong> bagi setiap rezim atau institusi negara yang melakukan manipulasi sejarah, monopoli tafsir Pancasila sepihak, atau penghapusan kontribusi arus Islam, sosio-demokrasi desa, peran perempuan, dan gerakan pemuda dalam genealogi konstitusi Indonesia.
+          Pancasila Index memandang sejarah bukan sebagai monolog sepihak penguasa, melainkan arena dinamis di mana kesetiaan konstitusi diuji secara nyata ketika berhadapan dengan gagasan alternatif, tuntutan otonomi daerah, maupun kritik oposisi moral. Platform memberlakukan sanksi tegas <strong>skor -2 pada Sila 1 (Ketuhanan) dan Sila 3 (Persatuan)</strong> bagi setiap rezim yang memonopoli tafsir Pancasila untuk membungkam kebebasan sipil atau meminggirkan peran kelompok bangsa.
         </p>
         <div className="flex flex-wrap gap-4 pt-2 text-xs">
           <Link
@@ -858,7 +1005,7 @@ export default function AkarSejarahPage() {
             href="/arsip"
             className="text-[var(--acc-emerald)] font-semibold hover:underline flex items-center gap-1"
           >
-            <span>Telusuri 553 Dokumen Primer & Naskah ANRI</span>
+            <span>Telusuri 578 Dokumen Primer & Naskah Internasional</span>
             <span>&rarr;</span>
           </Link>
         </div>

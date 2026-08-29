@@ -63,7 +63,7 @@ export const sourceSchema = z.object({
    */
   normative_baseline: z.boolean().optional(),
   title_id: z.string().min(3),
-  year: z.number().int().min(1945).max(2100).optional(),
+  year: z.number().int().min(1800).max(2100).optional(),
   url: z.string().url().optional(),
   citation_id: z.string().optional(),
   /** Diisi build: tautan yang pasti bisa dibuka (portal resmi/pencarian). */

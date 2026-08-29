@@ -140,10 +140,17 @@ const AKAR_SEJARAH_DATA = [
   },
   {
     "year": "1945",
-    "title": "Sidang PPKI: Konsensus Ketuhanan Yang Maha Esa (Tauhid) & Hak Warga (Pasal 28 Hatta)",
+    "title": "Sidang PPKI I: Konsensus Ketuhanan Yang Maha Esa (Tauhid) & Hak Warga (Pasal 28 Hatta)",
     "summary": "Kenegarawanan tokoh Islam PPKI menetapkan Sila 1 Tauhid dan jaminan hak asasi berserikat/berpendapat.",
     "link": "/akar-sejarah#ppki-konsensus-1945",
     "category": "Pengesahan UUD 1945 & Hak Asasi"
+  },
+  {
+    "year": "1945",
+    "title": "Sidang PPKI II & III: Penataan 8 Provinsi, 12 Kementerian, & Pembentukan KNIP",
+    "summary": "Otto Iskandardinata, Latuharhary, dan Kasman meletakkan struktur kelembagaan negara dan pembagian wilayah.",
+    "link": "/akar-sejarah#ppki-sidang-2-3-1945",
+    "category": "Struktur Organ Konstitusional Awal"
   },
   {
     "year": "1945",
@@ -160,11 +167,25 @@ const AKAR_SEJARAH_DATA = [
     "category": "Demokrasi Parlemen & Multipartai"
   },
   {
+    "year": "1948",
+    "title": "Peristiwa Madiun 1948: Resolusi 'Djalan Baru' Musso & Ujian Ideologi Negara",
+    "summary": "Konfrontasi bersenjata FDR/PKI menolak diplomasi Renville dan menguji ketahanan ideologi Pancasila.",
+    "link": "/akar-sejarah#pki-madiun-1948",
+    "category": "Oposisi Kiri & Ujian Ideologi"
+  },
+  {
     "year": "1948–1949",
     "title": "Pemerintah Darurat Republik Indonesia (PDRI): Penyelamat Nyawa Eksistensi NKRI",
     "summary": "Mr. Sjafruddin Prawiranegara di Bukittinggi menyelamatkan eksistensi kedaulatan RI saat Sukarno-Hatta ditawan.",
     "link": "/akar-sejarah#pdri-1948",
     "category": "Penyelamatan Kedaulatan Konstitusi"
+  },
+  {
+    "year": "1949",
+    "title": "Proklamasi Negara Islam Indonesia (NII) & Qanun Asasi di Cisayong",
+    "summary": "SM Kartosoewirjo memproklamasikan NII dan Qanun Asasi 31 pasal menolak hasil Perjanjian Renville.",
+    "link": "/akar-sejarah#nii-proklamasi-1949",
+    "category": "Oposisi Ideologis Teokratis"
   },
   {
     "year": "1949",
@@ -174,11 +195,25 @@ const AKAR_SEJARAH_DATA = [
     "category": "Diplomasi & Pengakuan Kedaulatan"
   },
   {
+    "year": "1950",
+    "title": "Proklamasi Republik Maluku Selatan (RMS) di Ambon: Penolakan Unifikasi NKRI",
+    "summary": "Soumokil & Manuhutu menolak pembubaran NIT dan memproklamasikan RMS di Ambon.",
+    "link": "/akar-sejarah#rms-1950",
+    "category": "Oposisi Separatisme Regional"
+  },
+  {
     "year": "1955",
     "title": "Dasa Sila Bandung (KAA 1955): Internasionalisme Anti-Kolonial & Keadilan Global",
     "summary": "Indonesia memimpin Konferensi Asia-Afrika melahirkan Dasa Sila Bandung dan Gerakan Non-Blok.",
     "link": "/akar-sejarah#kaa-1955",
     "category": "Ketertiban Dunia & Kemanusiaan"
+  },
+  {
+    "year": "1957–1958",
+    "title": "Piagam Permesta Makassar & Proklamasi PRRI Padang: Tuntutan Otonomi Daerah Luas",
+    "summary": "Perlawanan daerah Letkol Ventje Sumual & Ahmad Husein menuntut desentralisasi, diakhiri Keppres Amnesti 1961.",
+    "link": "/akar-sejarah#prri-permesta-1957",
+    "category": "Oposisi Otonomi Daerah & Rekonsiliasi"
   },
   {
     "year": "1957–1959",
@@ -193,6 +228,27 @@ const AKAR_SEJARAH_DATA = [
     "summary": "Pencabutan Domein Verklaring kolonial untuk menegakkan kedaulatan tanah kaum tani berdasar Pasal 33(3) UUD.",
     "link": "/akar-sejarah#uupa-1960",
     "category": "Keadilan Agraria & Kesejahteraan Rakyat"
+  },
+  {
+    "year": "1962–1969",
+    "title": "New York Agreement 1962 & PEPERA 1969: Integrasi Final Papua Barat ke Pangkuan NKRI",
+    "summary": "Perjanjian bilateral PBB dan Resolusi Sidang Umum PBB No. 2504 mengesahkan keutuhan wilayah Irian Barat.",
+    "link": "/akar-sejarah#papua-new-york-pepera-1962-1969",
+    "category": "Integritas Wilayah & Diplomasi PBB"
+  },
+  {
+    "year": "1976–2005",
+    "title": "Deklarasi GAM 1976, MoU Helsinki 2005, & UU Pemerintahan Aceh (UUPA)",
+    "summary": "Transformasi konflik bersenjata Hasan di Tiro menjadi konsensus damai MoU Helsinki dan otonomi asimetris UUPA.",
+    "link": "/akar-sejarah#gam-helsinki-uupa-1976-2005",
+    "category": "Oposisi & Rekonsiliasi Damai"
+  },
+  {
+    "year": "1980",
+    "title": "Petisi 50: Oposisi Moral Konstitusional Menolak Monopoli Tafsir Pancasila",
+    "summary": "Ali Sadikin, Natsir, Hoegeng, & Kasman mengkritik pidato Soeharto yang menggunakan Pancasila untuk memukul lawan politik.",
+    "link": "/akar-sejarah#petisi-50-1980",
+    "category": "Oposisi Moral & Demokrasi Konstitusional"
   },
   {
     "year": "1999–2002",
