@@ -1,0 +1,12 @@
+{
+  "name": "pancasila-arsip",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-01",
+  "account_id": "69f2a9ff4fe58ace350172f315f7feb7",
+  "r2_buckets": [
+    {
+      "binding": "ARSIP_BUCKET",
+      "bucket_name": "pancasila-arsip"
+    }
+  ]
+}

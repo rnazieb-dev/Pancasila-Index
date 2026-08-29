@@ -66,6 +66,8 @@ export const sourceSchema = z.object({
   year: z.number().int().min(1800).max(2100).optional(),
   url: z.string().url().optional(),
   citation_id: z.string().optional(),
+  r2_key: z.string().optional(),
+  archive_url: z.string().url().optional(),
   /** Diisi build: tautan yang pasti bisa dibuka (portal resmi/pencarian). */
   resolved_url: z.string().url().optional(),
 });

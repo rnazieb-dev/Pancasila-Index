@@ -92,6 +92,10 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
 - [x] **Fase 9: REST API v1 lengkap (institutions, terms, events, assessments, sources, compare) + pagination + rate-limiter + OpenAPI spec (/api/v1/openapi.json) + UI interaktif (/api-docs)** ✅
 - [x] **Fase 10: i18n konten substantif (5 bahasa: id, en, jv, su, min) + Antrean Tinjauan Bahasa (/peer-review/terjemahan)** ✅
 - [x] **Fase 12: Skala Bukti Penuh v1.0 (602 peristiwa multi-bukti & 490 sumber primer) & Penutupan Evidence Gap 8 Organ Konstitusional** ✅
+- [x] **Fase 13: Repositori Arsip Primer Mandiri Cloudflare R2 & Eliminasi Total DuckDuckGo (100% Zero-Cost Guarantee)** ✅
+  - [x] 578/578 dokumen primer terkompresi (358 MB, hanya 3.5% dari kuota gratis 10 GB) dan diunggah ke Cloudflare R2 bucket `pancasila-arsip`
+  - [x] 0 tautan DuckDuckGo di seluruh dataset; fallback dialihkan ke repositori mandiri `/api/arsip/*` dan portal resmi instansi
+  - [x] Proxy streaming Next.js dengan immutable Edge CDN caching
 
 ## Definisi Selesai v1.0 (TERCAPAI PENUH ✅)
 

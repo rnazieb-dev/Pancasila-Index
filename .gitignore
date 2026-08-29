@@ -24,3 +24,5 @@ coverage/
 # hasil unduhan indeks eksternal: artefak lokal, bukan data kurasi
 packages/data/generated/external-indices-fetched.json
 packages/data/raw/external-indices/
+packages/data/raw/compressed/
+.wrangler/
