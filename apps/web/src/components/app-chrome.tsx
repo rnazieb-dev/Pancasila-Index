@@ -28,14 +28,11 @@ const NAV_DATA: { href: string; key: UiKey }[] = [
 
 /* ─── Helpers ─── */
 function useTheme() {
-  const [theme, setThemeState] = useState<"dark" | "light">("dark");
+  const [theme, setThemeState] = useState<"dark" | "light">("light");
 
   useEffect(() => {
     const saved = localStorage.getItem("pi-theme") as "dark" | "light" | null;
-    const preferred = window.matchMedia("(prefers-color-scheme: light)").matches
-      ? "light"
-      : "dark";
-    const t = saved ?? preferred;
+    const t = saved || "light";
     setThemeState(t);
     document.documentElement.setAttribute("data-theme", t);
   }, []);

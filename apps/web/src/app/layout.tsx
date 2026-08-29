@@ -48,7 +48,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="id">
+    <html lang="id" data-theme="light">
       <body className="min-h-screen flex flex-col antialiased">
         <LocaleProvider>
           <AppChrome>{children}</AppChrome>

@@ -16,8 +16,59 @@
  * mengorbankan keterbacaan.
  */
 
-/* ===== DARK MODE (default) ===== */
+/* ===== LIGHT MODE (default) ===== */
 :root,
+[data-theme="light"] {
+  --bg: #f4f6fb;
+  --panel: #ffffff;
+  --line: #dde3ef;
+  --text: #0f172a;
+  --muted: #4b5a75;
+
+  /* shade -800/-900: latar bertint (mis. bg-sky-500/10 di atas putih)
+     memakan kontras, jadi -700 tidak menyisakan headroom untuk 4.5 */
+  --acc-red-strong: #7f1d1d;
+  --acc-red: #991b1b;
+  --acc-sky-strong: #0c4a6e;
+  --acc-sky: #075985;
+  --acc-amber-strong: #78350f;
+  --acc-amber: #92400e;
+  --acc-emerald-strong: #064e3b;
+  --acc-emerald: #065f46;
+  --acc-purple-strong: #581c87;
+  --acc-purple: #6b21a8;
+  --acc-orange-strong: #7c2d12;
+  --acc-orange: #9a3412;
+
+  --score-vneg: #b91c1c;
+  --score-neg: #9a3412;
+  --score-zero: #475569;
+  --score-pos: #3f6212;
+  --score-vpos: #166534;
+  --score-vneg-bg: #b91c1c26;
+  --score-neg-bg: #9a341226;
+  --score-zero-bg: #47556926;
+  --score-pos-bg: #3f621226;
+  --score-vpos-bg: #16653426;
+
+  --series-1: #075985;
+  --series-2: #9f1239;
+  --series-3: #065f46;
+  --series-4: #92400e;
+  --series-5: #6b21a8;
+
+  --status-terlapor: #475569;
+  --status-tersangka: #92400e;
+  --status-terdakwa: #9a3412;
+  --status-terpidana: #b91c1c;
+  --status-inkracht: #7f1d1d;
+  --status-bebas: #166534;
+  --status-dihentikan: #075985;
+
+  color-scheme: light;
+}
+
+/* ===== DARK MODE ===== */
 [data-theme="dark"] {
   --bg: #0b0f1a;
   --panel: #121828;
@@ -72,57 +123,6 @@
   --status-dihentikan: #38bdf8;
 
   color-scheme: dark;
-}
-
-/* ===== LIGHT MODE ===== */
-[data-theme="light"] {
-  --bg: #f4f6fb;
-  --panel: #ffffff;
-  --line: #dde3ef;
-  --text: #0f172a;
-  --muted: #4b5a75;
-
-  /* shade -800/-900: latar bertint (mis. bg-sky-500/10 di atas putih)
-     memakan kontras, jadi -700 tidak menyisakan headroom untuk 4.5 */
-  --acc-red-strong: #7f1d1d;
-  --acc-red: #991b1b;
-  --acc-sky-strong: #0c4a6e;
-  --acc-sky: #075985;
-  --acc-amber-strong: #78350f;
-  --acc-amber: #92400e;
-  --acc-emerald-strong: #064e3b;
-  --acc-emerald: #065f46;
-  --acc-purple-strong: #581c87;
-  --acc-purple: #6b21a8;
-  --acc-orange-strong: #7c2d12;
-  --acc-orange: #9a3412;
-
-  --score-vneg: #b91c1c;
-  --score-neg: #9a3412;
-  --score-zero: #475569;
-  --score-pos: #3f6212;
-  --score-vpos: #166534;
-  --score-vneg-bg: #b91c1c26;
-  --score-neg-bg: #9a341226;
-  --score-zero-bg: #47556926;
-  --score-pos-bg: #3f621226;
-  --score-vpos-bg: #16653426;
-
-  --series-1: #075985;
-  --series-2: #9f1239;
-  --series-3: #065f46;
-  --series-4: #92400e;
-  --series-5: #6b21a8;
-
-  --status-terlapor: #475569;
-  --status-tersangka: #92400e;
-  --status-terdakwa: #9a3412;
-  --status-terpidana: #b91c1c;
-  --status-inkracht: #7f1d1d;
-  --status-bebas: #166534;
-  --status-dihentikan: #075985;
-
-  color-scheme: light;
 }
 
 body {
