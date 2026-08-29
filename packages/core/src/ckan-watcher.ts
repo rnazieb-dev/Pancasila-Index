@@ -12,6 +12,7 @@ export interface CkanPackage {
     name: string;
     format: string;
     datastore_active: boolean;
+    url?: string;
   }>;
 }
 
@@ -25,8 +26,8 @@ export interface CkanWatcherResult {
 
 export async function fetchLatestDatasets(
   baseUrl = "https://data.go.id",
-  keywords: string[] = ["kemiskinan", "ekonomi", "hutang", "kehutanan", "pengangguran"],
-  limit = 10
+  keywords: string[] = ["kemiskinan", "ekonomi", "hutang", "kehutanan", "pengangguran", "anggaran", "sosial"],
+  limit = 8
 ): Promise<CkanPackage[]> {
   const query = keywords.join(" OR ");
   const url = new URL(`${baseUrl}/api/3/action/package_search`);

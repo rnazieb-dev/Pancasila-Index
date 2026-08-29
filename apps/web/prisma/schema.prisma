@@ -41,6 +41,7 @@ model User {
   reviews        Review[]
   comments       Comment[]
   audits         AuditLog[]
+  ckanAudits     CkanAudit[]
 }
 
 /// Satu baris per keputusan kurasi; keputusan TERAKHIR per assessmentId
@@ -101,6 +102,23 @@ model CkanRadarItem {
   status            RadarStatus @default(PENDING)
   createdAt         DateTime    @default(now())
   updatedAt         DateTime    @default(now()) @updatedAt
+
+  @@index([status, createdAt])
+}
+
+model CkanAudit {
+  id                String    @id @default(cuid())
+  resourceId        String
+  baseUrl           String
+  title             String
+  contextNote       String
+  relevantDimension String
+  contributorId     String?
+  contributor       User?     @relation(fields: [contributorId], references: [id])
+  status            String    @default("pending") // pending, pending_second, published, rejected
+  approverNames     String[]  @default([])
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
 
   @@index([status, createdAt])
 }
