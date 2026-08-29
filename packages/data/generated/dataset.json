@@ -28,14 +28,14 @@
         "id": "sila-1",
         "group_id": "sila",
         "name_id": "Ketuhanan Yang Maha Esa",
-        "question_id": "Sejauh mana tindakan lembaga memperkuat jaminan kebebasan beragama dan hubungan negara-agama yang adil bagi seluruh warga?\n",
+        "question_id": "Sejauh mana negara memfasilitasi kehidupan beragama, mengintegrasikan hukum dan etika agama (berakar pada sejarah bangsa dan inspirasi Piagam Jakarta), sekaligus menjamin kemerdekaan tiap penduduk untuk beribadah?\n",
         "weight": 1,
         "anchors": {
           "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
-          "1": "Perlindungan konkret terhadap minoritas beragama; penyelesaian sengketa keagamaan secara adil.",
-          "2": "Penguatan teladan kebebasan beragama; harmonisasi antarumat secara institusional dan berkelanjutan.",
-          "-2": "Diskriminasi atau penganiayaan sistemik atas keyakinan; negara memaksakan keyakinan tertentu kepada warga.",
-          "-1": "Netralitas goyah; aturan atau praktik yang memberatkan kelompok keyakinan tertentu tanpa dasar proporsional."
+          "1": "Fasilitasi kehidupan beragama berjalan baik (misal: peradilan agama, zakat, jaminan halal); penyelesaian sengketa secara adil.",
+          "2": "Harmoni simbiotik paripurna: nilai-nilai agama sukses diintegrasikan ke dalam hukum nasional dengan penghormatan penuh pada sejarah dan keberagaman.",
+          "-2": "Diskriminasi sistemik; peminggiran peran historis dan nilai agama dari ruang publik; atau negara berubah menjadi sekuler-represif.",
+          "-1": "Negara abai memfasilitasi umat beragama; kebijakan yang memusuhi identitas religius sejarah bangsa (seperti Islam) tanpa dasar konstitusional."
         },
         "indicators": [
           {
@@ -55,11 +55,11 @@
             ]
           },
           {
-            "id": "sila-1-layanan-netral",
-            "name_id": "Netralitas layanan publik terkait agama (pendidikan agama, rumah ibadah, administrasi kependudukan)",
+            "id": "sila-1-fasilitasi-agama",
+            "name_id": "Fasilitasi negara terhadap kehidupan beragama & pengakuan hukum/etika agama",
             "legal_anchors_id": [
-              "Pasal 29 ayat (2)",
-              "Pasal 31"
+              "Pasal 29 ayat (1)-(2)",
+              "Dekrit Presiden 1959"
             ]
           }
         ],
@@ -148,22 +148,22 @@
         "id": "sila-4",
         "group_id": "sila",
         "name_id": "Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan",
-        "question_id": "Sejauh mana demokrasi konstitusional berjalan: integritas pemilu, kebebasan sipil dan pers, serta partisipasi publik dalam kebijakan?\n",
+        "question_id": "Sejauh mana keputusan didasarkan pada musyawarah mufakat yang dijiwai hikmat kebijaksanaan (etika kenegarawanan), bukan sekadar mayoritarianisme (voting)?\n",
         "weight": 1,
         "anchors": {
           "0": "Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.",
-          "1": "Pemilu kredibel; partisipasi publik nyata; kebebasan pers dan berserikat dilindungi konsisten.",
-          "2": "Konsolidasi demokrasi teladan: akuntabilitas tinggi dan ruang sipil yang melembaga.",
-          "-2": "Pembajakan kehendak rakyat; kecurangan elektoral sistemik; represi terhadap kritik, oposisi, atau media.",
-          "-1": "Erosi berulang: legislasi menghindari partisipasi; ruang sipil menyempit; integritas pemilu dipertanyakan."
+          "1": "Praktik demokrasi berjalan baik; kebebasan sipil dilindungi; musyawarah dan partisipasi publik dalam kebijakan nyata.",
+          "2": "Konsensus beradab teladan: pertentangan tajam diselesaikan melalui musyawarah mufakat dengan kedalaman etika (hikmat kebijaksanaan) para negarawan.",
+          "-2": "Pembajakan kehendak rakyat oleh oligarki; mayoritarianisme ugal-ugalan; keputusan dipaksakan tanpa musyawarah mufakat yang bermakna.",
+          "-1": "Erosi musyawarah: legislasi dibuat terburu-buru menghindari deliberasi publik; hilangnya etika (hikmat kebijaksanaan) dalam tata kelola."
         },
         "indicators": [
           {
-            "id": "sila-4-integritas-pemilu",
-            "name_id": "Integritas pemilu dan penyelenggaraan pemilihan",
+            "id": "sila-4-musyawarah-mufakat",
+            "name_id": "Praktik musyawarah mufakat & etika kenegarawanan (hikmat kebijaksanaan)",
             "legal_anchors_id": [
-              "Pasal 22E",
-              "Pasal 23G"
+              "Pembukaan UUD 1945",
+              "Pasal 20A"
             ]
           },
           {
