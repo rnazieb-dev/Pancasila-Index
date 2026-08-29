@@ -126,8 +126,7 @@ dimensions:
     weight: 1
     anchors:
       "-2": >-
-        Sentralisasi paksa atau diskriminasi terhadap kelompok/wilayah
-        tertentu; meresahkan kebinekaan demi kepentingan politik.
+        Sentralisasi paksa; meresahkan kebinekaan demi politik; ATAU penghapusan memori kolektif/sejarah pergerakan Islam dari narasi nasional (de-historisasi).
       "-1": >-
         Ketimpangan antarwilayah dibiarkan; retorika perpecahan; otonomi
         daerah digerogoti tanpa ganti mekanisme perlindungan setara.
@@ -149,6 +148,9 @@ dimensions:
       - id: sila-3-konflik
         name_id: Pengelolaan konflik dan integrasi nasional
         legal_anchors_id: ["Pembukaan alinea IV"]
+      - id: sila-3-memori-sejarah
+        name_id: Pelestarian memori kolektif sejarah pergerakan (Piagam Jakarta & Syarikat Islam)
+        legal_anchors_id: ["Bhinneka Tunggal Ika", "Dekrit Presiden 1959"]
 
   - id: sila-4
     group_id: sila

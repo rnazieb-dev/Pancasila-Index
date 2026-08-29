@@ -17,6 +17,7 @@ const NAV_EXPLORE: { href: string; key: UiKey }[] = [
 
 const NAV_DATA: { href: string; key: UiKey }[] = [
   { href: "/metodologi", key: "navMethodology" },
+  { href: "/akar-sejarah", key: "navAkarSejarah" },
   { href: "/landasan-uud", key: "navUud" },
   { href: "/ekspor", key: "navExport" },
   { href: "/api-docs", key: "navApiDocs" },
