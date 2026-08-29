@@ -28,67 +28,67 @@ const sizeMap = {
 
 const EMBLEM_FILES: Record<string, { file: string; label: string }> = {
   "presiden-ri": {
-    file: "/emblems/presiden-ri.svg",
+    file: "/emblems/presiden-ri.png",
     label: "Lambang Negara Republik Indonesia (Garuda Pancasila)",
   },
   presiden: {
-    file: "/emblems/presiden-ri.svg",
+    file: "/emblems/presiden-ri.png",
     label: "Lambang Negara Republik Indonesia (Garuda Pancasila)",
   },
   "dpr-ri": {
-    file: "/emblems/dpr-ri.svg",
+    file: "/emblems/dpr-ri.png",
     label: "Lambang Dewan Perwakilan Rakyat Republik Indonesia",
   },
   dpr: {
-    file: "/emblems/dpr-ri.svg",
+    file: "/emblems/dpr-ri.png",
     label: "Lambang Dewan Perwakilan Rakyat Republik Indonesia",
   },
   "mpr-ri": {
-    file: "/emblems/mpr-ri.svg",
+    file: "/emblems/mpr-ri.png",
     label: "Lambang Majelis Permusyawaratan Rakyat Republik Indonesia",
   },
   mpr: {
-    file: "/emblems/mpr-ri.svg",
+    file: "/emblems/mpr-ri.png",
     label: "Lambang Majelis Permusyawaratan Rakyat Republik Indonesia",
   },
   "dpd-ri": {
-    file: "/emblems/dpd-ri.svg",
+    file: "/emblems/dpd-ri.png",
     label: "Lambang Dewan Perwakilan Daerah Republik Indonesia",
   },
   dpd: {
-    file: "/emblems/dpd-ri.svg",
+    file: "/emblems/dpd-ri.png",
     label: "Lambang Dewan Perwakilan Daerah Republik Indonesia",
   },
   "mahkamah-konstitusi": {
-    file: "/emblems/mahkamah-konstitusi.svg",
+    file: "/emblems/mahkamah-konstitusi.png",
     label: "Lambang Mahkamah Konstitusi Republik Indonesia",
   },
   mk: {
-    file: "/emblems/mahkamah-konstitusi.svg",
+    file: "/emblems/mahkamah-konstitusi.png",
     label: "Lambang Mahkamah Konstitusi Republik Indonesia",
   },
   "mahkamah-agung": {
-    file: "/emblems/mahkamah-agung.svg",
+    file: "/emblems/mahkamah-agung.png",
     label: "Lambang Mahkamah Agung Republik Indonesia",
   },
   ma: {
-    file: "/emblems/mahkamah-agung.svg",
+    file: "/emblems/mahkamah-agung.png",
     label: "Lambang Mahkamah Agung Republik Indonesia",
   },
   "bpk-ri": {
-    file: "/emblems/bpk-ri.svg",
+    file: "/emblems/bpk-ri.png",
     label: "Lambang Badan Pemeriksa Keuangan Republik Indonesia",
   },
   bpk: {
-    file: "/emblems/bpk-ri.svg",
+    file: "/emblems/bpk-ri.png",
     label: "Lambang Badan Pemeriksa Keuangan Republik Indonesia",
   },
   "komisi-yudisial": {
-    file: "/emblems/komisi-yudisial.svg",
+    file: "/emblems/komisi-yudisial.png",
     label: "Lambang Komisi Yudisial Republik Indonesia",
   },
   ky: {
-    file: "/emblems/komisi-yudisial.svg",
+    file: "/emblems/komisi-yudisial.png",
     label: "Lambang Komisi Yudisial Republik Indonesia",
   },
 };
