@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
 /*
  * Token warna per tema.
  *
@@ -23,7 +25,7 @@
   --panel: #ffffff;
   --line: #dde3ef;
   --text: #0f172a;
-  --muted: #4b5a75;
+  --muted: #475569;
 
   /* shade -800/-900: latar bertint (mis. bg-sky-500/10 di atas putih)
      memakan kontras, jadi -700 tidak menyisakan headroom untuk 4.5 */
@@ -45,11 +47,11 @@
   --score-zero: #475569;
   --score-pos: #3f6212;
   --score-vpos: #166534;
-  --score-vneg-bg: #b91c1c26;
-  --score-neg-bg: #9a341226;
-  --score-zero-bg: #47556926;
-  --score-pos-bg: #3f621226;
-  --score-vpos-bg: #16653426;
+  --score-vneg-bg: #b91c1c1a;
+  --score-neg-bg: #9a34121a;
+  --score-zero-bg: #4755691a;
+  --score-pos-bg: #3f62121a;
+  --score-vpos-bg: #1665341a;
 
   --series-1: #075985;
   --series-2: #9f1239;

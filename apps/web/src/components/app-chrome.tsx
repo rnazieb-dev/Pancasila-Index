@@ -35,6 +35,11 @@ function useTheme() {
     const t = saved || "light";
     setThemeState(t);
     document.documentElement.setAttribute("data-theme", t);
+    if (t === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
   }, []);
 
   const toggleTheme = () => {
@@ -42,6 +47,11 @@ function useTheme() {
     setThemeState(next);
     localStorage.setItem("pi-theme", next);
     document.documentElement.setAttribute("data-theme", next);
+    if (next === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
   };
 
   return { theme, toggleTheme };

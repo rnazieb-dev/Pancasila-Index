@@ -26,16 +26,16 @@ export function MethodologyTabs({ tabs }: { tabs: Tab[] }) {
               onClick={() => setActiveId(tab.id)}
               className={`text-left px-4 py-3 rounded-xl text-xs sm:text-sm transition-all whitespace-nowrap md:whitespace-normal font-sans font-semibold border flex items-center justify-between gap-3 cursor-pointer ${
                 isActive
-                  ? "bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900 border-slate-900 dark:border-slate-100 shadow-sm"
-                  : "bg-white dark:bg-slate-900/60 border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-slate-100"
+                  ? "bg-[var(--text)] text-[var(--panel)] border-[var(--text)] shadow-sm"
+                  : "bg-[var(--panel)] border-[var(--line)] text-[var(--muted)] hover:bg-[var(--bg)] hover:text-[var(--text)]"
               }`}
             >
               <div className="flex items-center gap-2.5 min-w-0">
                 <span
                   className={`size-5 rounded-full flex items-center justify-center font-mono text-[10px] font-black shrink-0 ${
                     isActive
-                      ? "bg-white/20 text-white dark:bg-slate-900/20 dark:text-slate-900"
-                      : "bg-slate-100 dark:bg-slate-800 text-slate-500"
+                      ? "bg-[var(--panel)] text-[var(--text)]"
+                      : "bg-[var(--bg)] text-[var(--muted)]"
                   }`}
                 >
                   {idx + 1}
@@ -44,10 +44,10 @@ export function MethodologyTabs({ tabs }: { tabs: Tab[] }) {
               </div>
               {tab.badge && (
                 <span
-                  className={`text-[10px] font-mono px-2 py-0.5 rounded border shrink-0 ${
+                  className={`text-[10px] font-mono px-2 py-0.5 rounded border shrink-0 font-bold ${
                     isActive
-                      ? "bg-white/20 text-white dark:bg-slate-900/20 dark:text-slate-900 border-transparent"
-                      : "bg-amber-500/10 text-amber-700 dark:text-amber-300 border-amber-500/20"
+                      ? "bg-[var(--panel)]/20 text-[var(--panel)] border-transparent"
+                      : "bg-[var(--acc-amber)]/10 text-[var(--acc-amber-strong)] border-[var(--acc-amber)]/30"
                   }`}
                 >
                   {tab.badge}

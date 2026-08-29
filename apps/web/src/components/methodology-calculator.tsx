@@ -170,33 +170,33 @@ export function MethodologyCalculator() {
   };
 
   return (
-    <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/80 p-5 sm:p-8 space-y-8 shadow-sm">
+    <div className="rounded-2xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-8 space-y-8 shadow-sm">
       {/* Header & Presets */}
       <div className="space-y-3">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
-            <h3 className="text-xl font-serif font-bold text-slate-900 dark:text-slate-100">
+            <h3 className="text-xl font-serif font-bold text-[var(--text)]">
               Simulator Penskoran Interaktif (Live Mathematical Engine)
             </h3>
-            <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1 font-serif">
+            <p className="text-xs sm:text-sm text-[var(--muted)] mt-1 font-serif">
               Uji langsung cara kerja agregasi bobot porsi nyata, normalisasi 0–100, batas hak asasi (*non-derogable*), dan rentang galat keyakinan.
             </p>
           </div>
-          <span className="font-mono text-xs px-2.5 py-1 rounded bg-amber-500/10 text-amber-700 dark:text-amber-300 border border-amber-500/30 font-bold">
+          <span className="font-mono text-xs px-2.5 py-1 rounded bg-[var(--acc-amber)]/10 text-[var(--acc-amber-strong)] border border-[var(--acc-amber)]/30 font-bold">
             Scoring Engine v2.0
           </span>
         </div>
 
         {/* Presets */}
         <div className="pt-2 flex flex-wrap items-center gap-2">
-          <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 font-sans">
+          <span className="text-xs font-semibold text-[var(--muted)] font-sans">
             Skenario Uji Cepat:
           </span>
           {presets.map((p, idx) => (
             <button
               key={idx}
               onClick={p.apply}
-              className="text-xs px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition font-medium cursor-pointer"
+              className="text-xs px-3 py-1.5 rounded-lg border border-[var(--line)] bg-[var(--bg)] text-[var(--text)] hover:bg-[var(--line)] transition font-medium cursor-pointer"
             >
               {p.name}
             </button>
@@ -207,61 +207,61 @@ export function MethodologyCalculator() {
       {/* Output KPI Board */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* Card 1: Final Index */}
-        <div className="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-900/60 space-y-2 relative overflow-hidden">
-          <div className="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+        <div className="p-5 rounded-xl border border-[var(--line)] bg-[var(--bg)] space-y-2 relative overflow-hidden">
+          <div className="text-[11px] font-bold uppercase tracking-wider text-[var(--muted)]">
             Skor Akhir Indeks Pancasila
           </div>
           <div className="flex items-baseline gap-2">
             <span
               className={`text-4xl sm:text-5xl font-mono font-black ${
                 calculation.finalIndex >= 70
-                  ? "text-emerald-700 dark:text-emerald-400"
+                  ? "text-[var(--acc-emerald-strong)]"
                   : calculation.finalIndex >= 50
-                  ? "text-blue-700 dark:text-blue-400"
+                  ? "text-[var(--acc-sky-strong)]"
                   : calculation.finalIndex >= 30
-                  ? "text-amber-700 dark:text-amber-400"
-                  : "text-rose-700 dark:text-rose-400"
+                  ? "text-[var(--acc-amber-strong)]"
+                  : "text-[var(--acc-red-strong)]"
               }`}
             >
               {calculation.finalIndex.toFixed(1)}
             </span>
-            <span className="text-xs font-mono text-slate-400 font-bold">/ 100</span>
+            <span className="text-xs font-mono text-[var(--muted)] font-bold">/ 100</span>
           </div>
-          <div className="text-xs text-slate-600 dark:text-slate-400 font-mono">
+          <div className="text-xs text-[var(--muted)] font-mono">
             Rentang Keyakinan: [{calculation.lowIndex.toFixed(1)} s.d. {calculation.highIndex.toFixed(1)}] (±{calculation.halfWidthIndex} poin)
           </div>
           {calculation.isCapped && (
-            <div className="mt-2 text-xs font-bold text-rose-700 dark:text-rose-300 bg-rose-500/10 border border-rose-500/30 rounded-md p-2">
+            <div className="mt-2 text-xs font-bold text-[var(--acc-red-strong)] bg-[var(--acc-red)]/10 border border-[var(--acc-red)]/30 rounded-md p-2.5 font-serif leading-relaxed">
               ⚠️ Skor Dibatasi Plafon {calculation.capValue} karena pelanggaran dimensi hak dasar mutlak (Pasal 28I ayat 1 UUD 1945).
             </div>
           )}
         </div>
 
         {/* Card 2: Uncapped vs Capped */}
-        <div className="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-900/60 space-y-3">
-          <div className="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+        <div className="p-5 rounded-xl border border-[var(--line)] bg-[var(--bg)] space-y-3">
+          <div className="text-[11px] font-bold uppercase tracking-wider text-[var(--muted)]">
             Audit Plafon Hak Tak Dapat Dikurangi
           </div>
           <div className="space-y-1.5 text-xs font-mono">
             <div className="flex justify-between">
-              <span className="text-slate-500">Skor Murni (Uncapped):</span>
-              <span className="font-bold text-slate-800 dark:text-slate-200">
+              <span className="text-[var(--muted)]">Skor Murni (Uncapped):</span>
+              <span className="font-bold text-[var(--text)]">
                 {calculation.uncappedIndex.toFixed(1)} / 100
               </span>
             </div>
             <div className="flex justify-between">
-              <span className="text-slate-500">Status Pembatasan:</span>
+              <span className="text-[var(--muted)]">Status Pembatasan:</span>
               <span
                 className={`font-bold ${
-                  calculation.isCapped ? "text-rose-600" : "text-emerald-600"
+                  calculation.isCapped ? "text-[var(--acc-red-strong)]" : "text-[var(--acc-emerald-strong)]"
                 }`}
               >
                 {calculation.isCapped ? "DIBATASI (CAPPED)" : "LOLOS (TIDAK DIBATASI)"}
               </span>
             </div>
             <div className="flex justify-between">
-              <span className="text-slate-500">Pelanggaran Hak Mutlak:</span>
-              <span className="font-bold text-slate-800 dark:text-slate-200">
+              <span className="text-[var(--muted)]">Pelanggaran Hak Mutlak:</span>
+              <span className="font-bold text-[var(--text)]">
                 {calculation.breaches.length} Dimensi
               </span>
             </div>
@@ -269,17 +269,17 @@ export function MethodologyCalculator() {
         </div>
 
         {/* Card 3: Group Contributions */}
-        <div className="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-900/60 space-y-2">
-          <div className="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+        <div className="p-5 rounded-xl border border-[var(--line)] bg-[var(--bg)] space-y-2">
+          <div className="text-[11px] font-bold uppercase tracking-wider text-[var(--muted)]">
             Porsi Nyata 3 Kelompok Landasan
           </div>
           <div className="space-y-1 text-xs">
             {calculation.groupResults.map((g) => (
               <div key={g.groupId} className="flex justify-between items-center">
-                <span className="text-slate-600 dark:text-slate-400 truncate pr-2">
+                <span className="text-[var(--muted)] truncate pr-2">
                   {g.groupName} ({g.groupWeight * 10}%):
                 </span>
-                <span className="font-mono font-bold text-slate-800 dark:text-slate-200">
+                <span className="font-mono font-bold text-[var(--text)]">
                   {scoreToIndex(g.score).toFixed(1)} / 100
                 </span>
               </div>
@@ -289,12 +289,12 @@ export function MethodologyCalculator() {
       </div>
 
       {/* Confidence Level Controller */}
-      <div className="p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/40 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div className="p-4 rounded-xl border border-[var(--line)] bg-[var(--bg)]/70 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div>
-          <div className="text-xs font-bold text-slate-800 dark:text-slate-200">
+          <div className="text-xs font-bold text-[var(--text)]">
             Tingkat Keyakinan Bukti Empiris (Evidence Confidence): {(confidence * 100).toFixed(0)}%
           </div>
-          <p className="text-[11px] text-slate-500 dark:text-slate-400">
+          <p className="text-[11px] text-[var(--muted)] font-serif mt-0.5">
             Keyakinan bukti hanya mengatur lebar rentang ketidakpastian [Low..High], bukan menggeser nilai tengah komposit.
           </p>
         </div>
@@ -311,7 +311,7 @@ export function MethodologyCalculator() {
 
       {/* 12 Dimensions Sliders Accordion */}
       <div className="space-y-6">
-        <div className="text-sm font-bold text-slate-900 dark:text-slate-100 uppercase tracking-wider">
+        <div className="text-sm font-bold text-[var(--text)] uppercase tracking-wider">
           Pengaturan Nilai 12 Dimensi Rubrik (-2 s.d. +2):
         </div>
 
@@ -319,13 +319,13 @@ export function MethodologyCalculator() {
           {calculation.groupResults.map((g) => (
             <div
               key={g.groupId}
-              className="rounded-xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 space-y-4 bg-slate-50/30 dark:bg-slate-900/20"
+              className="rounded-xl border border-[var(--line)] p-4 sm:p-5 space-y-4 bg-[var(--bg)]/40"
             >
-              <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-2.5">
-                <span className="font-bold text-sm text-slate-900 dark:text-slate-100">
+              <div className="flex items-center justify-between border-b border-[var(--line)] pb-2.5">
+                <span className="font-bold text-sm text-[var(--text)]">
                   {g.groupName} (Bobot Efektif {g.groupWeight * 10}%)
                 </span>
-                <span className="font-mono text-xs font-bold text-slate-600 dark:text-slate-400">
+                <span className="font-mono text-xs font-bold text-[var(--muted)]">
                   Rerata Kelompok: {g.score.toFixed(2)} ({scoreToIndex(g.score).toFixed(1)} / 100)
                 </span>
               </div>
@@ -336,34 +336,34 @@ export function MethodologyCalculator() {
                   return (
                     <div
                       key={d.id}
-                      className="p-3.5 rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 space-y-2.5 shadow-2xs"
+                      className="p-3.5 rounded-lg border border-[var(--line)] bg-[var(--panel)] space-y-2.5 shadow-2xs"
                     >
                       <div className="flex items-start justify-between gap-2">
                         <div>
                           <div className="flex items-center gap-1.5">
-                            <span className="text-xs font-bold text-slate-800 dark:text-slate-200">
+                            <span className="text-xs font-bold text-[var(--text)]">
                               {d.name_id}
                             </span>
                             {d.non_derogable && (
                               <span
-                                className="text-[9px] px-1.5 py-0.5 rounded bg-rose-500/10 text-rose-700 dark:text-rose-300 font-bold border border-rose-500/20"
+                                className="text-[9px] px-1.5 py-0.5 rounded bg-[var(--acc-red)]/10 text-[var(--acc-red-strong)] font-bold border border-[var(--acc-red)]/30"
                                 title="Pasal 28I ayat (1) UUD 1945: Hak yang tidak dapat dikurangi dalam keadaan apa pun"
                               >
                                 Hak Mutlak
                               </span>
                             )}
                           </div>
-                          <p className="text-[10px] text-slate-500 line-clamp-1 mt-0.5">
+                          <p className="text-[11px] text-[var(--muted)] line-clamp-1 mt-0.5 font-serif">
                             {d.question_id}
                           </p>
                         </div>
                         <span
                           className={`font-mono text-xs font-bold px-2 py-0.5 rounded border ${
                             currentVal > 0
-                              ? "bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border-emerald-500/30"
+                              ? "bg-[var(--acc-emerald)]/10 text-[var(--acc-emerald-strong)] border-[var(--acc-emerald)]/30"
                               : currentVal < 0
-                              ? "bg-rose-500/10 text-rose-700 dark:text-rose-300 border-rose-500/30"
-                              : "bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 border-slate-200 dark:border-slate-700"
+                              ? "bg-[var(--acc-red)]/10 text-[var(--acc-red-strong)] border-[var(--acc-red)]/30"
+                              : "bg-[var(--score-zero-bg)] text-[var(--score-zero)] border-[var(--line)]"
                           }`}
                         >
                           {currentVal > 0 ? `+${currentVal}` : currentVal}
@@ -379,11 +379,11 @@ export function MethodologyCalculator() {
                             className={`text-xs py-1 rounded font-mono font-bold transition cursor-pointer ${
                               currentVal === v
                                 ? v < 0
-                                  ? "bg-rose-600 text-white"
+                                  ? "bg-[var(--acc-red)] text-white"
                                   : v > 0
-                                  ? "bg-emerald-600 text-white"
-                                  : "bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900"
-                                : "bg-slate-100 dark:bg-slate-800/60 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700"
+                                  ? "bg-[var(--acc-emerald)] text-white"
+                                  : "bg-[var(--text)] text-[var(--panel)]"
+                                : "bg-[var(--bg)] text-[var(--muted)] hover:bg-[var(--line)] hover:text-[var(--text)]"
                             }`}
                           >
                             {v > 0 ? `+${v}` : v}
