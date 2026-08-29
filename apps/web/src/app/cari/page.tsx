@@ -6,32 +6,88 @@ import { dataset } from "@pancasila-index/data";
 
 const AKAR_SEJARAH_DATA = [
   {
-    "year": "1905",
-    "title": "Syarikat Dagang Islam (SDI) didirikan di Surakarta",
-    "summary": "H. Samanhudi mendirikan SDI sebagai pelopor perserikatan pribumi berbasis etika ekonomi Islam dan perlawanan terhadap monopoli kolonial.",
+    "year": "1905 / 1911",
+    "title": "Syarikat Dagang Islam (SDI): Solidaritas Ekonomi Pribumi",
+    "summary": "Haji Samanhudi & RM. Tirto Adhi Soerjo merintis kemandirian ekonomi pribumi dan perlawanan monopoli kolonial.",
     "link": "/akar-sejarah#sdi-1905",
-    "category": "Pergerakan Nasional"
+    "category": "Arus Islam & Kerakyatan"
+  },
+  {
+    "year": "1908",
+    "title": "Boedi Oetomo: Fajar Kesadaran Organisasi Modern",
+    "summary": "Dr. Soetomo & dr. Wahidin mempelopori persatuan kemajuan kebudayaan dan intelektual modern bangsa.",
+    "link": "/akar-sejarah#boedi-oetomo-1908",
+    "category": "Pendidikan & Kebudayaan"
   },
   {
     "year": "1912",
-    "title": "Syarikat Islam (SI) di bawah H.O.S. Tjokroaminoto",
-    "summary": "Transformasi SDI menjadi SI yang menyatukan jutaan rakyat bumiputera, meletakkan fondasi kesadaran berbangsa, musyawarah, dan kedaulatan umat.",
-    "link": "/akar-sejarah#si-1912",
-    "category": "Genealogi Demokrasi"
+    "title": "Syarikat Islam & Muhammadiyah: Demokrasi & Pelayanan Publik",
+    "summary": "Tjokroaminoto merumuskan Zelfbestuur (demokrasi kerakyatan), K.H. Ahmad Dahlan mempelopori pembaruan sekolah & PKO.",
+    "link": "/akar-sejarah#si-muhammadiyah-1912",
+    "category": "Arus Islam & Kerakyatan"
+  },
+  {
+    "year": "1922",
+    "title": "Perguruan Tamansiswa: Pendidikan Kemerdekaan Jiwa",
+    "summary": "Ki Hadjar Dewantara merumuskan filosofi Tut Wuri Handayani dan membentuk manusia merdeka lahir-batin.",
+    "link": "/akar-sejarah#tamansiswa-1922",
+    "category": "Pendidikan & Kebudayaan"
+  },
+  {
+    "year": "1925",
+    "title": "Perhimpunan Indonesia: Demokrasi Asli Desa & Republik",
+    "summary": "Mohammad Hatta & Tan Malaka menggali demokrasi musyawarah gotong royong asli nusantara.",
+    "link": "/akar-sejarah#perhimpunan-indonesia-1925",
+    "category": "Sosio-Demokrasi Desa"
+  },
+  {
+    "year": "1926",
+    "title": "Nahdlatul Ulama: Hubbul Wathan Minal Iman",
+    "summary": "K.H. Hasyim Asy'ari & ulama pesantren menegaskan cinta tanah air adalah bagian dari iman dan ukhuwah wathaniyah.",
+    "link": "/akar-sejarah#nu-1926",
+    "category": "Arus Islam & Kerakyatan"
+  },
+  {
+    "year": "1928",
+    "title": "Sumpah Pemuda: Peleburan Sukuisme Nusantara",
+    "summary": "Kongres Pemuda II menyatukan Jong Java, Sumatra, Ambon, Batak, Celebes, JIB, Betawi jadi Satu Bangsa.",
+    "link": "/akar-sejarah#sumpah-pemuda-1928",
+    "category": "Pemuda & Kebhinekaan"
+  },
+  {
+    "year": "1928",
+    "title": "Kongres Perempuan Indonesia I: Emansipasi & Keadilan Gender",
+    "summary": "30 organisasi perempuan nusantara di Yogyakarta menuntut kesetaraan hak pendidikan dan perlindungan perempuan.",
+    "link": "/akar-sejarah#kongres-perempuan-1928",
+    "category": "Gerakan Perempuan"
   },
   {
     "year": "1945",
-    "title": "Piagam Jakarta (Jakarta Charter) - BPUPK",
-    "summary": "Konsensus Panitia Sembilan yang menjembatani kelompok kebangsaan dan Islam, memuat kalimat Ketuhanan dan norma keadilan.",
-    "link": "/akar-sejarah#piagam-jakarta-1945",
-    "category": "Konsensus Pembukaan UUD"
+    "title": "Sidang BPUPK: Draf Rancang UUD Al-Qur'an & Sunnah",
+    "summary": "Ki Bagus Hadikusumo, Wahid Hasyim, Kahar Muzakkir mengajukan dalil QS. Asy-Syura 38 & draf Pasal 6(1) UUD.",
+    "link": "/akar-sejarah#bpupk-draft-islam-1945",
+    "category": "Draf Konstitusi BPUPK"
   },
   {
-    "year": "1959",
-    "title": "Dekrit Presiden 5 Juli 1959",
-    "summary": "Kembali ke UUD 1945 dengan konsiderans bahwa Piagam Jakarta menjiwai UUD 1945 dan merupakan satu kesatuan dengan konstitusi.",
-    "link": "/akar-sejarah#dekrit-1959",
-    "category": "Landasan Konstitusi"
+    "year": "1945",
+    "title": "Piagam Jakarta (22 Juni 1945): Konsensus Panitia Sembilan",
+    "summary": "Kompromi luhur merumuskan Mukaddimah UUD 1945 dan falsafah 5 Sila negara.",
+    "link": "/akar-sejarah#piagam-jakarta-1945",
+    "category": "Draf Konstitusi BPUPK"
+  },
+  {
+    "year": "1945",
+    "title": "Pengesahan UUD 1945 (18 Agustus): Ketuhanan Yang Maha Esa",
+    "summary": "Kenegarawanan tokoh Islam PPKI menetapkan Sila 1 Tauhid demi keutuhan wilayah Indonesia Timur.",
+    "link": "/akar-sejarah#ppki-konsensus-18-agustus-1945",
+    "category": "Draf Konstitusi BPUPK"
+  },
+  {
+    "year": "1957–1959",
+    "title": "Konstituante & Dekrit 5 Juli 1959: Piagam Madinah & Menjiwai UUD",
+    "summary": "Natsir memaparkan Piagam Madinah 622 M; Dekrit 1959 menyatakan Piagam Jakarta menjiwai UUD 1945.",
+    "link": "/akar-sejarah#konstituante-dekrit-1959",
+    "category": "Arus Islam & Kerakyatan"
   }
 ];
 
