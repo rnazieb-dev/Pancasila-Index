@@ -544,7 +544,6 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
             <strong className="text-[var(--text)]">{t("footerNote")}</strong>{" "}
             {t("footerDisclaimer")}
           </p>
-          <p>{t("footerLicense")}</p>
         </div>
       </footer>
     </>
