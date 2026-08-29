@@ -23801,6 +23801,124 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Meneguhkan kebinekaan dan hak masyarakat adat melalui putusan pengujian UU, termasuk pengakuan hutan adat (Putusan MK 35/PUU-X/2012) dan status penghayat kepercayaan.",
+          "evidence": [
+            {
+              "source_id": "uu-24-2003"
+            },
+            {
+              "source_id": "putusan-mk-001-021-022-puu-i-2003"
+            },
+            {
+              "source_id": "putusan-mk-001-puu-i-2003"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menafsirkan doktrin penguasaan negara Pasal 33 UUD 1945 untuk sebesar-besar kemakmuran rakyat pada pengujian UU Ketenagalistrikan, UU Migas, dan UU SDA.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-001-021-022-puu-i-2003"
+            },
+            {
+              "source_id": "putusan-mk-001-puu-i-2003"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-kelistrikan-2004",
+            "ev-mk-pembatalan-uu-kelistrikan-2004"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menguji UU Terorisme, UU Intelijen Negara, dan hukum acara pidana untuk memastikan perlindungan keamanan warga negara selaras dengan hak konstitusional.",
+          "evidence": [
+            {
+              "source_id": "uu-24-2003"
+            },
+            {
+              "source_id": "putusan-mk-001-021-022-puu-i-2003"
+            },
+            {
+              "source_id": "putusan-mk-001-puu-i-2003"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Membatalkan komersialisasi sumber daya air privat (Putusan MK 85/PUU-XI/2013) dan menguji norma perburuhan UU Cipta Kerja guna melindungi kesejahteraan umum.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-001-puu-i-2003"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-pembatalan-uu-kelistrikan-2004"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengawal mandat konstitusi alokasi 20% APBN untuk anggaran pendidikan murni dan membatalkan privatisasi pendidikan melalui Putusan UU BHP.",
+          "evidence": [
+            {
+              "source_id": "uu-24-2003"
+            },
+            {
+              "source_id": "putusan-mk-001-021-022-puu-i-2003"
+            },
+            {
+              "source_id": "putusan-mk-001-puu-i-2003"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menegaskan kedudukan hukum traktat dan perjanjian internasional dalam hierarki hukum nasional sesuai amanat alinea IV Pembukaan UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "uu-24-2003"
+            },
+            {
+              "source_id": "putusan-mk-001-021-022-puu-i-2003"
+            },
+            {
+              "source_id": "putusan-mk-001-puu-i-2003"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -23989,6 +24107,135 @@
             "ev-mk-putusan-ktp-pemilu-2009",
             "ev-mk-putusan-dpd-tripartit-2013",
             "ev-mk-putusan-tripartit-dpd-2012-2014"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Meneguhkan kebinekaan dan hak masyarakat adat melalui putusan pengujian UU, termasuk pengakuan hutan adat (Putusan MK 35/PUU-X/2012) dan status penghayat kepercayaan.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-35-puu-x-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-hutan-adat-2013"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menafsirkan doktrin penguasaan negara Pasal 33 UUD 1945 untuk sebesar-besar kemakmuran rakyat pada pengujian UU Ketenagalistrikan, UU Migas, dan UU SDA.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-46-puu-viii-2010"
+            },
+            {
+              "source_id": "putusan-mk-35-puu-x-2012"
+            },
+            {
+              "source_id": "putusan-mk-36-puu-x-2012"
+            },
+            {
+              "source_id": "uu-12-2012"
+            },
+            {
+              "source_id": "putusan-mk-001-puu-i-2003"
+            },
+            {
+              "source_id": "putusan-mk-27-puu-ix-2011"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-anak-luar-kawin-2012",
+            "ev-mk-putusan-hutan-adat-2013",
+            "ev-mk-putusan-bpmigas-2012",
+            "ev-mk-putusan-hutan-adat-2012",
+            "ev-mk-pembatalan-uu-bhp-2010",
+            "ev-mk-pembatalan-bp-migas-2012",
+            "ev-mk-putusan-buruh-outsourcing-2012"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menguji UU Terorisme, UU Intelijen Negara, dan hukum acara pidana untuk memastikan perlindungan keamanan warga negara selaras dengan hak konstitusional.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-46-2010"
+            },
+            {
+              "source_id": "putusan-ma-akil-2014"
+            },
+            {
+              "source_id": "putusan-mk-46-puu-viii-2010"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Membatalkan komersialisasi sumber daya air privat (Putusan MK 85/PUU-XI/2013) dan menguji norma perburuhan UU Cipta Kerja guna melindungi kesejahteraan umum.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-001-puu-i-2003"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-pembatalan-bp-migas-2012"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengawal mandat konstitusi alokasi 20% APBN untuk anggaran pendidikan murni dan membatalkan privatisasi pendidikan melalui Putusan UU BHP.",
+          "evidence": [
+            {
+              "source_id": "uu-12-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-pembatalan-uu-bhp-2010"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menegaskan kedudukan hukum traktat dan perjanjian internasional dalam hierarki hukum nasional sesuai amanat alinea IV Pembukaan UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-46-2010"
+            },
+            {
+              "source_id": "putusan-ma-akil-2014"
+            },
+            {
+              "source_id": "putusan-mk-46-puu-viii-2010"
+            }
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -24209,6 +24456,126 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Meneguhkan kebinekaan dan hak masyarakat adat melalui putusan pengujian UU, termasuk pengakuan hutan adat (Putusan MK 35/PUU-X/2012) dan status penghayat kepercayaan.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-100-2014"
+            },
+            {
+              "source_id": "putusan-mk-14-puu-xi-2013"
+            },
+            {
+              "source_id": "putusan-mk-85-puu-xi-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menafsirkan doktrin penguasaan negara Pasal 33 UUD 1945 untuk sebesar-besar kemakmuran rakyat pada pengujian UU Ketenagalistrikan, UU Migas, dan UU SDA.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-85-puu-xi-2013"
+            },
+            {
+              "source_id": "putusan-tipikor-patrialis-2017"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-sda-2015",
+            "ev-mk-putusan-sda-air-2013",
+            "ev-mk-ott-patrialis-akbar-2017"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menguji UU Terorisme, UU Intelijen Negara, dan hukum acara pidana untuk memastikan perlindungan keamanan warga negara selaras dengan hak konstitusional.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-100-2014"
+            },
+            {
+              "source_id": "putusan-mk-14-puu-xi-2013"
+            },
+            {
+              "source_id": "putusan-mk-85-puu-xi-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Membatalkan komersialisasi sumber daya air privat (Putusan MK 85/PUU-XI/2013) dan menguji norma perburuhan UU Cipta Kerja guna melindungi kesejahteraan umum.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-85-puu-xi-2013"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-sda-2015",
+            "ev-mk-putusan-sda-air-2013"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengawal mandat konstitusi alokasi 20% APBN untuk anggaran pendidikan murni dan membatalkan privatisasi pendidikan melalui Putusan UU BHP.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-100-2014"
+            },
+            {
+              "source_id": "putusan-mk-14-puu-xi-2013"
+            },
+            {
+              "source_id": "putusan-mk-85-puu-xi-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menegaskan kedudukan hukum traktat dan perjanjian internasional dalam hierarki hukum nasional sesuai amanat alinea IV Pembukaan UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-100-2014"
+            },
+            {
+              "source_id": "putusan-mk-14-puu-xi-2013"
+            },
+            {
+              "source_id": "putusan-mk-85-puu-xi-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -24401,6 +24768,123 @@
             "ev-mk-putusan-90-2023",
             "ev-mk-pemilu-serentak-daerah-2020",
             "ev-mk-putusan-sistem-pemilu-terbuka-2023"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Meneguhkan kebinekaan dan hak masyarakat adat melalui putusan pengujian UU, termasuk pengakuan hutan adat (Putusan MK 35/PUU-X/2012) dan status penghayat kepercayaan.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-91-2021"
+            },
+            {
+              "source_id": "putusan-mk-90-2023"
+            },
+            {
+              "source_id": "mkmk-anwar-usman-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menafsirkan doktrin penguasaan negara Pasal 33 UUD 1945 untuk sebesar-besar kemakmuran rakyat pada pengujian UU Ketenagalistrikan, UU Migas, dan UU SDA.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-18-puu-xvii-2019"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-fidusia-2020"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menguji UU Terorisme, UU Intelijen Negara, dan hukum acara pidana untuk memastikan perlindungan keamanan warga negara selaras dengan hak konstitusional.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-91-2021"
+            },
+            {
+              "source_id": "putusan-mk-90-2023"
+            },
+            {
+              "source_id": "mkmk-anwar-usman-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Membatalkan komersialisasi sumber daya air privat (Putusan MK 85/PUU-XI/2013) dan menguji norma perburuhan UU Cipta Kerja guna melindungi kesejahteraan umum.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-91-2021"
+            },
+            {
+              "source_id": "putusan-mk-90-2023"
+            },
+            {
+              "source_id": "mkmk-anwar-usman-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengawal mandat konstitusi alokasi 20% APBN untuk anggaran pendidikan murni dan membatalkan privatisasi pendidikan melalui Putusan UU BHP.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-22-puu-xv-2017"
+            },
+            {
+              "source_id": "uu-16-2019"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-usia-nikah-2018"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menegaskan kedudukan hukum traktat dan perjanjian internasional dalam hierarki hukum nasional sesuai amanat alinea IV Pembukaan UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-91-2021"
+            },
+            {
+              "source_id": "putusan-mk-90-2023"
+            },
+            {
+              "source_id": "mkmk-anwar-usman-2023"
+            }
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -24602,6 +25086,123 @@
             "ev-mk-phpu-pilkada-serentak-2025",
             "ev-mk-putusan-parliamentary-threshold-2024",
             "ev-mk-putusan-netralitas-tni-polri-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Meneguhkan kebinekaan dan hak masyarakat adat melalui putusan pengujian UU, termasuk pengakuan hutan adat (Putusan MK 35/PUU-X/2012) dan status penghayat kepercayaan.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-60-2024"
+            },
+            {
+              "source_id": "berita-adies-kadir-mk-2026"
+            },
+            {
+              "source_id": "putusan-mk-60-puu-xxii-2024"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menafsirkan doktrin penguasaan negara Pasal 33 UUD 1945 untuk sebesar-besar kemakmuran rakyat pada pengujian UU Ketenagalistrikan, UU Migas, dan UU SDA.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-168-puu-xxi-2023"
+            }
+          ],
+          "event_ids": [
+            "ev-mk-putusan-ciptaker-naker-168-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menguji UU Terorisme, UU Intelijen Negara, dan hukum acara pidana untuk memastikan perlindungan keamanan warga negara selaras dengan hak konstitusional.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-60-2024"
+            },
+            {
+              "source_id": "berita-adies-kadir-mk-2026"
+            },
+            {
+              "source_id": "putusan-mk-60-puu-xxii-2024"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Membatalkan komersialisasi sumber daya air privat (Putusan MK 85/PUU-XI/2013) dan menguji norma perburuhan UU Cipta Kerja guna melindungi kesejahteraan umum.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-60-2024"
+            },
+            {
+              "source_id": "berita-adies-kadir-mk-2026"
+            },
+            {
+              "source_id": "putusan-mk-60-puu-xxii-2024"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengawal mandat konstitusi alokasi 20% APBN untuk anggaran pendidikan murni dan membatalkan privatisasi pendidikan melalui Putusan UU BHP.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-60-2024"
+            },
+            {
+              "source_id": "berita-adies-kadir-mk-2026"
+            },
+            {
+              "source_id": "putusan-mk-60-puu-xxii-2024"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menegaskan kedudukan hukum traktat dan perjanjian internasional dalam hierarki hukum nasional sesuai amanat alinea IV Pembukaan UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-60-2024"
+            },
+            {
+              "source_id": "berita-adies-kadir-mk-2026"
+            },
+            {
+              "source_id": "putusan-mk-60-puu-xxii-2024"
+            }
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -25882,6 +26483,220 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memelihara toleransi dan keadilan hak keperdataan lintas keyakinan melalui yurisprudensi waris wasiat wajibah dan pencatatan perkawinan.",
+          "evidence": [
+            {
+              "source_id": "uu-1-1946"
+            },
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "putusan-ma-1952-onrechtmatig"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengadili pelanggaran HAM berat dan menguatkan mekanisme peninjauan kembali (PK) demi memulihkan hak-hak korban ketidakadilan peradilan.",
+          "evidence": [
+            {
+              "source_id": "putusan-ma-1952-onrechtmatig"
+            },
+            {
+              "source_id": "putusan-ma-adopsi-1958"
+            },
+            {
+              "source_id": "putusan-ma-12-k-sip-1954"
+            },
+            {
+              "source_id": "putusan-ma-179-k-sip-1956"
+            }
+          ],
+          "event_ids": [
+            "ev-ma-onrechtmatig-1952",
+            "ev-ma-adopsi-anak-1958",
+            "ev-ma-putusan-kewarganegaraan-1954",
+            "ev-ma-yurisprudensi-waris-perempuan-1956"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mengakui eksistensi hak ulayat dan hukum adat dalam sengketa agraria lokal serta menjaga integrasi kesatuan hukum nasional di seluruh wilayah.",
+          "evidence": [
+            {
+              "source_id": "uu-1-1946"
+            },
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "putusan-ma-1952-onrechtmatig"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengadili sengketa tata usaha negara pemilu dan pilkada secara independen serta menjamin hak pilih warga negara dari diskualifikasi sewenang-wenang.",
+          "evidence": [
+            {
+              "source_id": "uu-1-1946"
+            },
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "putusan-ma-1952-onrechtmatig"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Melindungi hak-hak normatif buruh dalam sengketa PHK melalui Pengadilan Hubungan Industrial dan menegakkan perlindungan konsumen dalam sengketa perdata.",
+          "evidence": [
+            {
+              "source_id": "putusan-ma-adopsi-1958"
+            },
+            {
+              "source_id": "putusan-ma-12-k-sip-1954"
+            },
+            {
+              "source_id": "putusan-ma-179-k-sip-1956"
+            }
+          ],
+          "event_ids": [
+            "ev-ma-adopsi-anak-1958",
+            "ev-ma-putusan-kewarganegaraan-1954",
+            "ev-ma-yurisprudensi-waris-perempuan-1956"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menegakkan vonis peradilan pidana terhadap kejahatan lintas batas, terorisme, dan narkotika demi melindungi keselamatan segenap warga bangsa.",
+          "evidence": [
+            {
+              "source_id": "uu-1-1946"
+            },
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "putusan-ma-1952-onrechtmatig"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menguji materiil peraturan perundang-undangan di bawah undang-undang (Perpres/Permen) yang membebani ekonomi masyarakat, seperti pembatalan kenaikan iuran BPJS Kesehatan.",
+          "evidence": [
+            {
+              "source_id": "uu-1-1946"
+            },
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "putusan-ma-1952-onrechtmatig"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mendorong keterbukaan informasi peradilan melalui SK KMA 144/2007 dan penyediaan Direktori Putusan MA daring untuk edukasi hukum publik.",
+          "evidence": [
+            {
+              "source_id": "uu-1-1946"
+            },
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "putusan-ma-1952-onrechtmatig"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menerapkan konvensi hukum internasional dan asas hukum perdata internasional dalam penegakan hukum lintas yurisdiksi negara.",
+          "evidence": [
+            {
+              "source_id": "uu-1-1946"
+            },
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "putusan-ma-1952-onrechtmatig"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menjaga batas kewenangan eksekutif melalui pengujian materiil peraturan menteri/daerah dan putusan peradilan tata usaha negara.",
+          "evidence": [
+            {
+              "source_id": "uu-1-1946"
+            },
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "putusan-ma-1952-onrechtmatig"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -25977,6 +26792,188 @@
             {
               "source_id": "sejarah-ma-arsip"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memelihara toleransi dan keadilan hak keperdataan lintas keyakinan melalui yurisprudensi waris wasiat wajibah dan pencatatan perkawinan.",
+          "evidence": [
+            {
+              "source_id": "uu-14-1970"
+            }
+          ],
+          "event_ids": [
+            "ev-ma-waris-beda-agama-1983"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengadili pelanggaran HAM berat dan menguatkan mekanisme peninjauan kembali (PK) demi memulihkan hak-hak korban ketidakadilan peradilan.",
+          "evidence": [
+            {
+              "source_id": "putusan-ma-1952-onrechtmatig"
+            },
+            {
+              "source_id": "putusan-ma-kedung-ombo-1993"
+            },
+            {
+              "source_id": "uu-14-1970"
+            }
+          ],
+          "event_ids": [
+            "ev-ma-subekti-bw-1961",
+            "ev-ma-kedung-ombo-1993",
+            "ev-ma-yurisprudensi-perjanjian-baku-1976",
+            "ev-ma-waris-beda-agama-1983"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mengakui eksistensi hak ulayat dan hukum adat dalam sengketa agraria lokal serta menjaga integrasi kesatuan hukum nasional di seluruh wilayah.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "tap-mprs-iii-1967"
+            },
+            {
+              "source_id": "uu-19-1964"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Melindungi hak-hak normatif buruh dalam sengketa PHK melalui Pengadilan Hubungan Industrial dan menegakkan perlindungan konsumen dalam sengketa perdata.",
+          "evidence": [
+            {
+              "source_id": "putusan-ma-kedung-ombo-1993"
+            },
+            {
+              "source_id": "uu-14-1970"
+            }
+          ],
+          "event_ids": [
+            "ev-ma-kedung-ombo-1993",
+            "ev-ma-yurisprudensi-perjanjian-baku-1976",
+            "ev-ma-waris-beda-agama-1983"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menegakkan vonis peradilan pidana terhadap kejahatan lintas batas, terorisme, dan narkotika demi melindungi keselamatan segenap warga bangsa.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "tap-mprs-iii-1967"
+            },
+            {
+              "source_id": "uu-19-1964"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menguji materiil peraturan perundang-undangan di bawah undang-undang (Perpres/Permen) yang membebani ekonomi masyarakat, seperti pembatalan kenaikan iuran BPJS Kesehatan.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "tap-mprs-iii-1967"
+            },
+            {
+              "source_id": "uu-19-1964"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mendorong keterbukaan informasi peradilan melalui SK KMA 144/2007 dan penyediaan Direktori Putusan MA daring untuk edukasi hukum publik.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "tap-mprs-iii-1967"
+            },
+            {
+              "source_id": "uu-19-1964"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menerapkan konvensi hukum internasional dan asas hukum perdata internasional dalam penegakan hukum lintas yurisdiksi negara.",
+          "evidence": [
+            {
+              "source_id": "sejarah-ma-arsip"
+            },
+            {
+              "source_id": "tap-mprs-iii-1967"
+            },
+            {
+              "source_id": "uu-19-1964"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menjaga batas kewenangan eksekutif melalui pengujian materiil peraturan menteri/daerah dan putusan peradilan tata usaha negara.",
+          "evidence": [
+            {
+              "source_id": "putusan-ma-tempo-1995"
+            }
+          ],
+          "event_ids": [
+            "ev-ma-tempo-harmoko-1995"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26327,6 +27324,195 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memelihara toleransi dan keadilan hak keperdataan lintas keyakinan melalui yurisprudensi waris wasiat wajibah dan pencatatan perkawinan.",
+          "evidence": [
+            {
+              "source_id": "uu-48-2009"
+            },
+            {
+              "source_id": "laporan-ky-tahunan"
+            },
+            {
+              "source_id": "uu-5-2004"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mengakui eksistensi hak ulayat dan hukum adat dalam sengketa agraria lokal serta menjaga integrasi kesatuan hukum nasional di seluruh wilayah.",
+          "evidence": [
+            {
+              "source_id": "uu-48-2009"
+            },
+            {
+              "source_id": "laporan-ky-tahunan"
+            },
+            {
+              "source_id": "uu-5-2004"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengadili sengketa tata usaha negara pemilu dan pilkada secara independen serta menjamin hak pilih warga negara dari diskualifikasi sewenang-wenang.",
+          "evidence": [
+            {
+              "source_id": "uu-48-2009"
+            },
+            {
+              "source_id": "laporan-ky-tahunan"
+            },
+            {
+              "source_id": "uu-5-2004"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Melindungi hak-hak normatif buruh dalam sengketa PHK melalui Pengadilan Hubungan Industrial dan menegakkan perlindungan konsumen dalam sengketa perdata.",
+          "evidence": [
+            {
+              "source_id": "putusan-ma-31-p-hum-2019"
+            },
+            {
+              "source_id": "putusan-kasasi-ma-jiwasraya-2021"
+            },
+            {
+              "source_id": "putusan-pk-ma-surya-darmadi-2023"
+            },
+            {
+              "source_id": "putusan-ma-kasus-minyak-goreng-2024"
+            },
+            {
+              "source_id": "laporan-eksekusi-karhutla-klhk-2023"
+            },
+            {
+              "source_id": "perma-13-2016"
+            },
+            {
+              "source_id": "perma-1-2019"
+            },
+            {
+              "source_id": "putusan-ma-28-p-hum-2021"
+            },
+            {
+              "source_id": "putusan-pn-bandung-sudrajad-2023"
+            },
+            {
+              "source_id": "putusan-ma-7-p-hum-2020"
+            },
+            {
+              "source_id": "putusan-ma-3555-k-pdt-2018"
+            },
+            {
+              "source_id": "putusan-ma-1055-k-pid-sus-2021"
+            },
+            {
+              "source_id": "perma-1-2020"
+            },
+            {
+              "source_id": "laporan-kejagung-zarof-ricar-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-ma-putusan-bpjs-2020",
+            "ev-ma-kasasi-jiwasraya-2021",
+            "ev-ma-kasus-surya-darmadi-2023",
+            "ev-ma-kasus-minyak-goreng-2024",
+            "ev-eksekusi-ganti-rugi-karhutla-2023",
+            "ev-ma-perma-13-2016-korporasi",
+            "ev-ma-ecourt-2019",
+            "ev-ma-pembatalan-pp-99-2021",
+            "ev-ma-ott-sudrajad-dimyati-2022",
+            "ev-ma-pembatalan-iuran-bpjs-2020",
+            "ev-ma-citizen-lawsuit-karhutla-2019",
+            "ev-ma-kasasi-bansos-juliari-2021",
+            "ev-ma-perma-pedoman-tipikor-2020",
+            "ev-ma-skandal-zarof-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menegakkan vonis peradilan pidana terhadap kejahatan lintas batas, terorisme, dan narkotika demi melindungi keselamatan segenap warga bangsa.",
+          "evidence": [
+            {
+              "source_id": "uu-48-2009"
+            },
+            {
+              "source_id": "laporan-ky-tahunan"
+            },
+            {
+              "source_id": "uu-5-2004"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mendorong keterbukaan informasi peradilan melalui SK KMA 144/2007 dan penyediaan Direktori Putusan MA daring untuk edukasi hukum publik.",
+          "evidence": [
+            {
+              "source_id": "uu-48-2009"
+            },
+            {
+              "source_id": "laporan-ky-tahunan"
+            },
+            {
+              "source_id": "uu-5-2004"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menerapkan konvensi hukum internasional dan asas hukum perdata internasional dalam penegakan hukum lintas yurisdiksi negara.",
+          "evidence": [
+            {
+              "source_id": "uu-48-2009"
+            },
+            {
+              "source_id": "laporan-ky-tahunan"
+            },
+            {
+              "source_id": "uu-5-2004"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -26503,6 +27689,168 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menetapkan TAP MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa yang menempatkan nilai-nilai ketuhanan sebagai etika moral penyelenggara negara.",
+          "evidence": [
+            {
+              "source_id": "tap-mpr-vi-2001"
+            },
+            {
+              "source_id": "tap-mpr-vii-2001"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-tap-vi-vii-2001"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Memperkuat otonomi daerah melalui penataan Pasal 18, 18A, dan 18B UUD 1945 serta mengawal konsensus kebangsaan Empat Pilar.",
+          "evidence": [
+            {
+              "source_id": "perubahan-kedua-uud-1945"
+            },
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-amendemen-2",
+            "ev-mpr-amandemen-2-2000"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam yang berkeadilan sosial.",
+          "evidence": [
+            {
+              "source_id": "tap-mpr-xi-1998"
+            },
+            {
+              "source_id": "perubahan-keempat-uud-1945"
+            },
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "tap-mpr-ix-2001"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-tap-xi-1998",
+            "ev-mpr-amendemen-4",
+            "ev-mpr-amandemen-4-2002",
+            "ev-mpr-tap-ix-2001-agraria"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mengatur doktrin pertahanan dan keamanan negara (Pasal 30 UUD 1945) serta pemisahan kelembagaan TNI dan Polri melalui TAP VI & VII/MPR/2000.",
+          "evidence": [
+            {
+              "source_id": "tap-mpr-vi-2000"
+            },
+            {
+              "source_id": "tap-mpr-vii-2000"
+            }
+          ],
+          "event_ids": [
+            "ev-tap-mpr-pemisahan-tni-polri-2000"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dan kebersamaan melalui Perubahan Keempat Pasal 33 UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "tap-mpr-iv-1999"
+            },
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "tap-mpr-ix-2001"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-gbhn-1999",
+            "ev-mpr-amandemen-4-2002",
+            "ev-mpr-tap-ix-2001-agraria"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menegaskan prinsip politik luar negeri bebas aktif dalam konstitusi dan mendukung perdamaian abadi dunia berdasar kemerdekaan.",
+          "evidence": [
+            {
+              "source_id": "tap-mpr-xi-1998"
+            },
+            {
+              "source_id": "tap-mpr-xvii-1998"
+            },
+            {
+              "source_id": "perubahan-pertama-uud-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 2,
+          "confidence": 0.9,
+          "rationale_id": "Mengubah Pasal 1 ayat (2) UUD 1945 menjadi kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar.",
+          "evidence": [
+            {
+              "source_id": "perubahan-pertama-uud-1945"
+            },
+            {
+              "source_id": "tap-mpr-iv-1999"
+            },
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-amendemen-1",
+            "ev-mpr-gbhn-1999",
+            "ev-mpr-amandemen-1-1999",
+            "ev-mpr-amandemen-3-2001",
+            "ev-mpr-laporan-pertanggungjawaban-presiden-1999"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -26569,6 +27917,202 @@
             "ev-mpr-empat-pilar-2011",
             "ev-mpr-peringatan-hari-konstitusi-2010",
             "ev-mpr-gerakan-empat-pilar-2011"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dan memasukkan Bab XA (Pasal 28A-28J) ke dalam UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "kep-mpr-4-pilar-2010"
+            },
+            {
+              "source_id": "buku-mpr-empat-pilar-2012"
+            },
+            {
+              "source_id": "putusan-mk-34-puu-xi-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 2,
+          "confidence": 0.9,
+          "rationale_id": "Melakukan empat tahapan perubahan UUD 1945 (1999-2002) yang memulihkan kedaulatan rakyat melalui pemilu langsung dan pelembagaan DPD.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-pelantikan-presiden-sby-2009",
+            "ev-mpr-gerakan-empat-pilar-2011"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam yang berkeadilan sosial.",
+          "evidence": [
+            {
+              "source_id": "kep-mpr-4-pilar-2010"
+            },
+            {
+              "source_id": "buku-mpr-empat-pilar-2012"
+            },
+            {
+              "source_id": "putusan-mk-34-puu-xi-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mengatur doktrin pertahanan dan keamanan negara (Pasal 30 UUD 1945) serta pemisahan kelembagaan TNI dan Polri melalui TAP VI & VII/MPR/2000.",
+          "evidence": [
+            {
+              "source_id": "kep-mpr-4-pilar-2010"
+            },
+            {
+              "source_id": "buku-mpr-empat-pilar-2012"
+            },
+            {
+              "source_id": "putusan-mk-34-puu-xi-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dan kebersamaan melalui Perubahan Keempat Pasal 33 UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "kep-mpr-4-pilar-2010"
+            },
+            {
+              "source_id": "buku-mpr-empat-pilar-2012"
+            },
+            {
+              "source_id": "putusan-mk-34-puu-xi-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan klausul revolusioner Pasal 31 ayat (4) UUD 1945 yang mewajibkan negara mengalokasikan minimal 20% APBN/APBD untuk pendidikan.",
+          "evidence": [
+            {
+              "source_id": "buku-mpr-empat-pilar-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-empat-pilar-2011",
+            "ev-mpr-peringatan-hari-konstitusi-2010"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menegaskan prinsip politik luar negeri bebas aktif dalam konstitusi dan mendukung perdamaian abadi dunia berdasar kemerdekaan.",
+          "evidence": [
+            {
+              "source_id": "kep-mpr-4-pilar-2010"
+            },
+            {
+              "source_id": "buku-mpr-empat-pilar-2012"
+            },
+            {
+              "source_id": "putusan-mk-34-puu-xi-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan penegasan konstitusional Pasal 1 ayat (3) bahwa Negara Indonesia adalah Negara Hukum dan membentuk Mahkamah Konstitusi.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-34-puu-xi-2013"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-putusan-mk-34-2014"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": 2,
+          "confidence": 0.9,
+          "rationale_id": "Membatasi masa jabatan presiden maksimal 2 periode (Pasal 7 UUD 1945) dan menata mekanisme pemakzulan (impeachment) secara konstitusional.",
+          "evidence": [
+            {
+              "source_id": "kep-mpr-4-pilar-2010"
+            },
+            {
+              "source_id": "buku-mpr-empat-pilar-2012"
+            },
+            {
+              "source_id": "putusan-mk-34-puu-xi-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 2,
+          "confidence": 0.9,
+          "rationale_id": "Mengubah Pasal 1 ayat (2) UUD 1945 menjadi kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-pelantikan-presiden-sby-2009"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26641,6 +28185,195 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menetapkan TAP MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa yang menempatkan nilai-nilai ketuhanan sebagai etika moral penyelenggara negara.",
+          "evidence": [
+            {
+              "source_id": "laporan-mpr-pphn-2024"
+            },
+            {
+              "source_id": "laporan-pphn-mpr-2024"
+            },
+            {
+              "source_id": "surat-keputusan-mpr-rehabilitasi-tokoh-2024"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dan memasukkan Bab XA (Pasal 28A-28J) ke dalam UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "surat-keputusan-mpr-rehabilitasi-tokoh-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-rehabilitasi-tokoh-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Memperkuat otonomi daerah melalui penataan Pasal 18, 18A, dan 18B UUD 1945 serta mengawal konsensus kebangsaan Empat Pilar.",
+          "evidence": [
+            {
+              "source_id": "surat-keputusan-mpr-rehabilitasi-tokoh-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-rehabilitasi-tokoh-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 2,
+          "confidence": 0.9,
+          "rationale_id": "Melakukan empat tahapan perubahan UUD 1945 (1999-2002) yang memulihkan kedaulatan rakyat melalui pemilu langsung dan pelembagaan DPD.",
+          "evidence": [
+            {
+              "source_id": "dokumen-mpr-rekomendasi-pphn-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-rekomendasi-pphn-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam yang berkeadilan sosial.",
+          "evidence": [
+            {
+              "source_id": "laporan-mpr-pphn-2024"
+            },
+            {
+              "source_id": "laporan-pphn-mpr-2024"
+            },
+            {
+              "source_id": "surat-keputusan-mpr-rehabilitasi-tokoh-2024"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mengatur doktrin pertahanan dan keamanan negara (Pasal 30 UUD 1945) serta pemisahan kelembagaan TNI dan Polri melalui TAP VI & VII/MPR/2000.",
+          "evidence": [
+            {
+              "source_id": "laporan-mpr-pphn-2024"
+            },
+            {
+              "source_id": "laporan-pphn-mpr-2024"
+            },
+            {
+              "source_id": "surat-keputusan-mpr-rehabilitasi-tokoh-2024"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dan kebersamaan melalui Perubahan Keempat Pasal 33 UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "laporan-pphn-mpr-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-laporan-pphn-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan klausul revolusioner Pasal 31 ayat (4) UUD 1945 yang mewajibkan negara mengalokasikan minimal 20% APBN/APBD untuk pendidikan.",
+          "evidence": [
+            {
+              "source_id": "laporan-mpr-pphn-2024"
+            },
+            {
+              "source_id": "laporan-pphn-mpr-2024"
+            },
+            {
+              "source_id": "surat-keputusan-mpr-rehabilitasi-tokoh-2024"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menegaskan prinsip politik luar negeri bebas aktif dalam konstitusi dan mendukung perdamaian abadi dunia berdasar kemerdekaan.",
+          "evidence": [
+            {
+              "source_id": "laporan-mpr-pphn-2024"
+            },
+            {
+              "source_id": "laporan-pphn-mpr-2024"
+            },
+            {
+              "source_id": "surat-keputusan-mpr-rehabilitasi-tokoh-2024"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan penegasan konstitusional Pasal 1 ayat (3) bahwa Negara Indonesia adalah Negara Hukum dan membentuk Mahkamah Konstitusi.",
+          "evidence": [
+            {
+              "source_id": "surat-keputusan-mpr-rehabilitasi-tokoh-2024"
+            },
+            {
+              "source_id": "laporan-mpr-konstitusi-2022"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-rehabilitasi-tokoh-2024",
+            "ev-mpr-kajian-evaluasi-amandemen-2022"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -26709,6 +28442,213 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memperjuangkan kerukunan umat beragama di daerah dan mengadvokasi perlindungan hak-hak masyarakat adat lokal dalam perda keagamaan.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2003"
+            },
+            {
+              "source_id": "risalah-dpd-ruu-pesisir-2006"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-v-2007"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mengawasi pemenuhan hak-hak dasar warga negara di wilayah tertinggal, terdepan, dan terluar (3T) dari diskriminasi kebijakan pembangunan.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2003"
+            },
+            {
+              "source_id": "risalah-dpd-ruu-pesisir-2006"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-v-2007"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menyalurkan aspirasi rakyat daerah secara langsung berbasis mandat perseorangan non-partisan tanpa sekat kepartaian politik.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2003"
+            },
+            {
+              "source_id": "risalah-dpd-ruu-pesisir-2006"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-v-2007"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mengusulkan perbaikan formula Dana Bagi Hasil (DBH), Dana Alokasi Khusus (DAK), dan revisi UU Hubungan Keuangan Pusat dan Daerah (UU HKPD).",
+          "evidence": [
+            {
+              "source_id": "risalah-dpd-ruu-pesisir-2006"
+            },
+            {
+              "source_id": "uu-20-2008"
+            },
+            {
+              "source_id": "uu-27-2007"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-ruu-pesisir-2006",
+            "ev-dpd-pengawasan-kur-2008",
+            "ev-dpd-inisiatif-ruu-pesisir-2005"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengadvokasi ketahanan wilayah perbatasan dan percepatan pembangunan pulau-pulau kecil terluar untuk menjaga kedaulatan NKRI.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2003"
+            },
+            {
+              "source_id": "risalah-dpd-ruu-pesisir-2006"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-v-2007"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mendorong penguatan BUMD, pemberdayaan ekonomi maritim daerah, dan perlindungan komoditas unggulan petani/nelayan lokal.",
+          "evidence": [
+            {
+              "source_id": "uu-27-2007"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-inisiatif-ruu-pesisir-2005"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengawasi distribusi anggaran fungsi pendidikan 20% agar menyentuh sekolah-sekolah di wilayah pedalaman dan kepulauan terpencil.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2003"
+            },
+            {
+              "source_id": "risalah-dpd-ruu-pesisir-2006"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-v-2007"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mendorong kerja sama ekonomi subnasional perbatasan antarnegara (BIMP-EAGA, IMT-GT) untuk perdamaian dan kemakmuran kawasan.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2003"
+            },
+            {
+              "source_id": "risalah-dpd-ruu-pesisir-2006"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-v-2007"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menempuh jalur uji konstitusionalitas ke Mahkamah Konstitusi (Putusan 79/PUU-XII/2014) untuk menegakkan wewenang legislasi daerah.",
+          "evidence": [
+            {
+              "source_id": "uu-17-2014"
+            },
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-uji-materi-susduk-2006"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Memberikan pertimbangan atas pemilihan anggota BPK dan mengawasi pelaksanaan undang-undang terkait otonomi serta anggaran di daerah.",
+          "evidence": [
+            {
+              "source_id": "risalah-dpd-ruu-pesisir-2006"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-v-2007"
+            },
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-ruu-pesisir-2006",
+            "ev-dpd-uji-materi-prolegnas-2008",
+            "ev-dpd-uji-materi-susduk-2006"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -26768,6 +28708,188 @@
             "ev-dpd-desertada-2011",
             "ev-dpd-pengawasan-dbh-hutan-2010",
             "ev-dpd-pengawasan-otsus-aceh-2011"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memperjuangkan kerukunan umat beragama di daerah dan mengadvokasi perlindungan hak-hak masyarakat adat lokal dalam perda keagamaan.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-92-puu-x-2012"
+            },
+            {
+              "source_id": "laporan-dpd-desertada-2011"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mengawasi pemenuhan hak-hak dasar warga negara di wilayah tertinggal, terdepan, dan terluar (3T) dari diskriminasi kebijakan pembangunan.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-92-puu-x-2012"
+            },
+            {
+              "source_id": "laporan-dpd-desertada-2011"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menyalurkan aspirasi rakyat daerah secara langsung berbasis mandat perseorangan non-partisan tanpa sekat kepartaian politik.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-92-puu-x-2012"
+            },
+            {
+              "source_id": "laporan-dpd-desertada-2011"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mengusulkan perbaikan formula Dana Bagi Hasil (DBH), Dana Alokasi Khusus (DAK), dan revisi UU Hubungan Keuangan Pusat dan Daerah (UU HKPD).",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-desertada-2011"
+            },
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-desertada-2011",
+            "ev-dpd-pengawasan-dbh-hutan-2010",
+            "ev-dpd-pengawasan-otsus-aceh-2011"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengadvokasi ketahanan wilayah perbatasan dan percepatan pembangunan pulau-pulau kecil terluar untuk menjaga kedaulatan NKRI.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-92-puu-x-2012"
+            },
+            {
+              "source_id": "laporan-dpd-desertada-2011"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mendorong penguatan BUMD, pemberdayaan ekonomi maritim daerah, dan perlindungan komoditas unggulan petani/nelayan lokal.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-desertada-2011"
+            },
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pengawasan-dbh-hutan-2010",
+            "ev-dpd-pengawasan-otsus-aceh-2011"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengawasi distribusi anggaran fungsi pendidikan 20% agar menyentuh sekolah-sekolah di wilayah pedalaman dan kepulauan terpencil.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-92-puu-x-2012"
+            },
+            {
+              "source_id": "laporan-dpd-desertada-2011"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mendorong kerja sama ekonomi subnasional perbatasan antarnegara (BIMP-EAGA, IMT-GT) untuk perdamaian dan kemakmuran kawasan.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-92-puu-x-2012"
+            },
+            {
+              "source_id": "laporan-dpd-desertada-2011"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menempuh jalur uji konstitusionalitas ke Mahkamah Konstitusi (Putusan 79/PUU-XII/2014) untuk menegakkan wewenang legislasi daerah.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-92-puu-x-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-uji-materi-mk-92-2012",
+            "ev-dpd-kemenangan-mk-92-2013",
+            "ev-dpd-kemenangan-putusan-mk-2013"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Memastikan kedaulatan rakyat daerah terwakili di tingkat nasional secara setara antarsemua provinsi di Indonesia.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-92-puu-x-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-kemenangan-mk-92-2013",
+            "ev-dpd-kemenangan-putusan-mk-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26869,6 +28991,213 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memperjuangkan kerukunan umat beragama di daerah dan mengadvokasi perlindungan hak-hak masyarakat adat lokal dalam perda keagamaan.",
+          "evidence": [
+            {
+              "source_id": "ruu-daerah-kepulauan-dpd-2020"
+            },
+            {
+              "source_id": "laporan-dpd-pengawasan-desa-2023"
+            },
+            {
+              "source_id": "putusan-mk-52-puu-xx-2022"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mengawasi pemenuhan hak-hak dasar warga negara di wilayah tertinggal, terdepan, dan terluar (3T) dari diskriminasi kebijakan pembangunan.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-kebencanaan-2023"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pengawasan-kebencanaan-2023"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menyalurkan aspirasi rakyat daerah secara langsung berbasis mandat perseorangan non-partisan tanpa sekat kepartaian politik.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-52-puu-xx-2022"
+            },
+            {
+              "source_id": "dokumen-dpd-proposal-uud-2023"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-gugatan-pt-0-2022",
+            "ev-dpd-proposal-uud-2023"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengadvokasi ketahanan wilayah perbatasan dan percepatan pembangunan pulau-pulau kecil terluar untuk menjaga kedaulatan NKRI.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-kebencanaan-2023"
+            },
+            {
+              "source_id": "laporan-dpd-wilayah-perbatasan-2021"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pengawasan-kebencanaan-2023",
+            "ev-dpd-pengawasan-perbatasan-3t-2021"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mendorong penguatan BUMD, pemberdayaan ekonomi maritim daerah, dan perlindungan komoditas unggulan petani/nelayan lokal.",
+          "evidence": [
+            {
+              "source_id": "ruu-daerah-kepulauan-dpd-2020"
+            },
+            {
+              "source_id": "laporan-dpd-evaluasi-otsus-papua-2022"
+            },
+            {
+              "source_id": "laporan-dpd-tol-laut-2020"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-ruu-daerah-kepulauan-2020",
+            "ev-dpd-advokasi-dob-papua-2022",
+            "ev-dpd-evaluasi-tol-laut-2020"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengawasi distribusi anggaran fungsi pendidikan 20% agar menyentuh sekolah-sekolah di wilayah pedalaman dan kepulauan terpencil.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-guru-honorer-2022"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-advokasi-guru-pppk-2022"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mendorong kerja sama ekonomi subnasional perbatasan antarnegara (BIMP-EAGA, IMT-GT) untuk perdamaian dan kemakmuran kawasan.",
+          "evidence": [
+            {
+              "source_id": "ruu-daerah-kepulauan-dpd-2020"
+            },
+            {
+              "source_id": "laporan-dpd-pengawasan-desa-2023"
+            },
+            {
+              "source_id": "putusan-mk-52-puu-xx-2022"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menempuh jalur uji konstitusionalitas ke Mahkamah Konstitusi (Putusan 79/PUU-XII/2014) untuk menegakkan wewenang legislasi daerah.",
+          "evidence": [
+            {
+              "source_id": "ruu-daerah-kepulauan-dpd-2020"
+            },
+            {
+              "source_id": "laporan-dpd-pengawasan-desa-2023"
+            },
+            {
+              "source_id": "putusan-mk-52-puu-xx-2022"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Memberikan pertimbangan atas pemilihan anggota BPK dan mengawasi pelaksanaan undang-undang terkait otonomi serta anggaran di daerah.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-52-puu-xx-2022"
+            },
+            {
+              "source_id": "dokumen-dpd-proposal-uud-2023"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-gugatan-pt-0-2022",
+            "ev-dpd-proposal-uud-2023"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Memastikan kedaulatan rakyat daerah terwakili di tingkat nasional secara setara antarsemua provinsi di Indonesia.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-52-puu-xx-2022"
+            },
+            {
+              "source_id": "dokumen-dpd-proposal-uud-2023"
+            },
+            {
+              "source_id": "uu-6-2014"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-gugatan-pt-0-2022",
+            "ev-dpd-proposal-uud-2023",
+            "ev-dpd-revisi-uu-desa-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -26924,6 +29253,199 @@
           ],
           "event_ids": [
             "ev-bpk-penetapan-1947"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memeriksa akuntabilitas pengelolaan dana abadi umat dan dana penyelenggaraan ibadah haji guna mencegah penyimpangan keuangan bernuansa keagamaan.",
+          "evidence": [
+            {
+              "source_id": "penetapan-bpk-1947"
+            },
+            {
+              "source_id": "uu-5-1973"
+            },
+            {
+              "source_id": "laporan-bpk-darurat-1947"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Melakukan audit investigatif terhadap kejahatan korupsi yang merampas hak-hak dasar ekonomi dan jaminan sosial masyarakat rentan.",
+          "evidence": [
+            {
+              "source_id": "penetapan-bpk-1947"
+            },
+            {
+              "source_id": "uu-5-1973"
+            },
+            {
+              "source_id": "laporan-bpk-darurat-1947"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Memeriksa efektivitas Transfer ke Daerah dan Dana Otonomi Khusus guna memastikan pemerataan pembangunan fiskal antarwilayah NKRI.",
+          "evidence": [
+            {
+              "source_id": "penetapan-bpk-1947"
+            },
+            {
+              "source_id": "uu-5-1973"
+            },
+            {
+              "source_id": "laporan-bpk-darurat-1947"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menyerahkan Ikhtisar Hasil Pemeriksaan Semester (IHPS) kepada DPR dan DPD secara periodik sebagai wujud pertanggungjawaban kepada wakil rakyat.",
+          "evidence": [
+            {
+              "source_id": "penetapan-bpk-1947"
+            },
+            {
+              "source_id": "uu-5-1973"
+            },
+            {
+              "source_id": "laporan-bpk-darurat-1947"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.85,
+          "rationale_id": "Mengawal uang negara dari kebocoran belanja bantuan sosial, subsidi energi, dan proyek pengadaan strategis untuk keadilan sosial rakyat.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-djuanda-1957"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-djuanda-1957",
+            "ev-bpk-jusuf-sumarlin-1993",
+            "ev-bpk-pengawasan-pelita-1979"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengaudit kepatuhan dan kinerja anggaran belanja alutsista pertahanan negara serta anggaran tanggap darurat bencana nasional.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-darurat-1947"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-pertama-magelang-1947"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.85,
+          "rationale_id": "Menghitung kerugian keuangan negara pada perkara-perkara megaskandal keuangan (BLBI, Bank Century, Jiwasraya, Asabri, BTS 4G) untuk pemulihan aset negara.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-djuanda-1957"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-djuanda-1957"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Memeriksa kinerja penyaluran mandatory spending 20% anggaran fungsi pendidikan (BOS, beasiswa, sarana prasarana sekolah) di seluruh kementerian/daerah.",
+          "evidence": [
+            {
+              "source_id": "penetapan-bpk-1947"
+            },
+            {
+              "source_id": "uu-5-1973"
+            },
+            {
+              "source_id": "laporan-bpk-darurat-1947"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menjalankan peran auditor eksternal lembaga internasional PBB (UN Board of Auditors / IAEA) dan aktif memimpin organisasi auditor sedunia (INTOSAI).",
+          "evidence": [
+            {
+              "source_id": "penetapan-bpk-1947"
+            },
+            {
+              "source_id": "uu-5-1973"
+            },
+            {
+              "source_id": "laporan-bpk-darurat-1947"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mempublikasikan opini Laporan Keuangan Pemerintah Pusat (LKPP) secara transparan sebagai bentuk pertanggungjawaban fiskal tertinggi kepada rakyat.",
+          "evidence": [
+            {
+              "source_id": "penetapan-bpk-1947"
+            },
+            {
+              "source_id": "uu-5-1973"
+            },
+            {
+              "source_id": "laporan-bpk-darurat-1947"
+            }
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27005,6 +29527,208 @@
             "ev-bpk-audit-blbi-billy-2000",
             "ev-bpk-paket-uu-keuangan-2004",
             "ev-bpk-penetapan-spkn-2007"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memeriksa akuntabilitas pengelolaan dana abadi umat dan dana penyelenggaraan ibadah haji guna mencegah penyimpangan keuangan bernuansa keagamaan.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-blbi-2000"
+            },
+            {
+              "source_id": "uu-15-2004"
+            },
+            {
+              "source_id": "uu-15-2006"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Melakukan audit investigatif terhadap kejahatan korupsi yang merampas hak-hak dasar ekonomi dan jaminan sosial masyarakat rentan.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-blbi-2000"
+            },
+            {
+              "source_id": "uu-15-2004"
+            },
+            {
+              "source_id": "uu-15-2006"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Memeriksa efektivitas Transfer ke Daerah dan Dana Otonomi Khusus guna memastikan pemerataan pembangunan fiskal antarwilayah NKRI.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-blbi-2000"
+            },
+            {
+              "source_id": "uu-15-2004"
+            },
+            {
+              "source_id": "uu-15-2006"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menyerahkan Ikhtisar Hasil Pemeriksaan Semester (IHPS) kepada DPR dan DPD secara periodik sebagai wujud pertanggungjawaban kepada wakil rakyat.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-blbi-2000"
+            },
+            {
+              "source_id": "uu-15-2004"
+            },
+            {
+              "source_id": "uu-15-2006"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.85,
+          "rationale_id": "Mengawal uang negara dari kebocoran belanja bantuan sosial, subsidi energi, dan proyek pengadaan strategis untuk keadilan sosial rakyat.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-blbi-2000"
+            },
+            {
+              "source_id": "lhp-bpk-blbi-2000"
+            },
+            {
+              "source_id": "lhp-bpk-pertamina-2008"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-audit-blbi",
+            "ev-bpk-audit-blbi-billy-2000",
+            "ev-bpk-audit-pertamina-2008"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengaudit kepatuhan dan kinerja anggaran belanja alutsista pertahanan negara serta anggaran tanggap darurat bencana nasional.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-blbi-2000"
+            },
+            {
+              "source_id": "uu-15-2004"
+            },
+            {
+              "source_id": "uu-15-2006"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.85,
+          "rationale_id": "Menghitung kerugian keuangan negara pada perkara-perkara megaskandal keuangan (BLBI, Bank Century, Jiwasraya, Asabri, BTS 4G) untuk pemulihan aset negara.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-blbi-2000"
+            },
+            {
+              "source_id": "uu-15-2004"
+            },
+            {
+              "source_id": "uu-15-2006"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Memeriksa kinerja penyaluran mandatory spending 20% anggaran fungsi pendidikan (BOS, beasiswa, sarana prasarana sekolah) di seluruh kementerian/daerah.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-blbi-2000"
+            },
+            {
+              "source_id": "uu-15-2004"
+            },
+            {
+              "source_id": "uu-15-2006"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menjalankan peran auditor eksternal lembaga internasional PBB (UN Board of Auditors / IAEA) dan aktif memimpin organisasi auditor sedunia (INTOSAI).",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-blbi-2000"
+            },
+            {
+              "source_id": "uu-15-2004"
+            },
+            {
+              "source_id": "uu-15-2006"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mempublikasikan opini Laporan Keuangan Pemerintah Pusat (LKPP) secara transparan sebagai bentuk pertanggungjawaban fiskal tertinggi kepada rakyat.",
+          "evidence": [
+            {
+              "source_id": "uu-15-2004"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-audit-kpu-2004"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27104,6 +29828,216 @@
             "ev-bpk-audit-aw101-2017",
             "ev-bpk-audit-ektp-2017",
             "ev-bpk-suap-wtp-kemendes-2017"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memeriksa akuntabilitas pengelolaan dana abadi umat dan dana penyelenggaraan ibadah haji guna mencegah penyimpangan keuangan bernuansa keagamaan.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-lkpp-2016"
+            },
+            {
+              "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
+              "source_id": "laporan-audit-bpk-hambalang-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Melakukan audit investigatif terhadap kejahatan korupsi yang merampas hak-hak dasar ekonomi dan jaminan sosial masyarakat rentan.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-lkpp-2016"
+            },
+            {
+              "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
+              "source_id": "laporan-audit-bpk-hambalang-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Memeriksa efektivitas Transfer ke Daerah dan Dana Otonomi Khusus guna memastikan pemerataan pembangunan fiskal antarwilayah NKRI.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-lkpp-2016"
+            },
+            {
+              "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
+              "source_id": "laporan-audit-bpk-hambalang-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menyerahkan Ikhtisar Hasil Pemeriksaan Semester (IHPS) kepada DPR dan DPD secara periodik sebagai wujud pertanggungjawaban kepada wakil rakyat.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-lkpp-2016"
+            },
+            {
+              "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
+              "source_id": "laporan-audit-bpk-hambalang-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.85,
+          "rationale_id": "Mengawal uang negara dari kebocoran belanja bantuan sosial, subsidi energi, dan proyek pengadaan strategis untuk keadilan sosial rakyat.",
+          "evidence": [
+            {
+              "source_id": "lhp-bpk-hambalang-2012"
+            },
+            {
+              "source_id": "putusan-pn-jkt-pusat-rochmadi-2018"
+            },
+            {
+              "source_id": "lhp-bpk-garuda-2019"
+            },
+            {
+              "source_id": "lhp-bpk-pelindo-2016"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-audit-hambalang-2012",
+            "ev-bpk-suap-wtp-kemendes-2017",
+            "ev-bpk-audit-garuda-2019",
+            "ev-bpk-audit-investigasi-pelindo-2016"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengaudit kepatuhan dan kinerja anggaran belanja alutsista pertahanan negara serta anggaran tanggap darurat bencana nasional.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-lkpp-2016"
+            },
+            {
+              "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
+              "source_id": "laporan-audit-bpk-hambalang-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.85,
+          "rationale_id": "Menghitung kerugian keuangan negara pada perkara-perkara megaskandal keuangan (BLBI, Bank Century, Jiwasraya, Asabri, BTS 4G) untuk pemulihan aset negara.",
+          "evidence": [
+            {
+              "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
+              "source_id": "lhp-bpk-pelindo-2016"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-audit-bank-century-2009",
+            "ev-bpk-audit-investigasi-pelindo-2016"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Memeriksa kinerja penyaluran mandatory spending 20% anggaran fungsi pendidikan (BOS, beasiswa, sarana prasarana sekolah) di seluruh kementerian/daerah.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-lkpp-2016"
+            },
+            {
+              "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
+              "source_id": "laporan-audit-bpk-hambalang-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menjalankan peran auditor eksternal lembaga internasional PBB (UN Board of Auditors / IAEA) dan aktif memimpin organisasi auditor sedunia (INTOSAI).",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-lkpp-2016"
+            },
+            {
+              "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
+              "source_id": "laporan-audit-bpk-hambalang-2013"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mempublikasikan opini Laporan Keuangan Pemerintah Pusat (LKPP) secara transparan sebagai bentuk pertanggungjawaban fiskal tertinggi kepada rakyat.",
+          "evidence": [
+            {
+              "source_id": "laporan-bpk-lkpp-2016"
+            },
+            {
+              "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
+              "source_id": "laporan-audit-bpk-hambalang-2013"
+            }
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27256,6 +30190,246 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memeriksa akuntabilitas pengelolaan dana abadi umat dan dana penyelenggaraan ibadah haji guna mencegah penyimpangan keuangan bernuansa keagamaan.",
+          "evidence": [
+            {
+              "source_id": "bpk-ihps-pen-2021"
+            },
+            {
+              "source_id": "laporan-ihps-bpk-2022"
+            },
+            {
+              "source_id": "laporan-audit-bpk-bts-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Melakukan audit investigatif terhadap kejahatan korupsi yang merampas hak-hak dasar ekonomi dan jaminan sosial masyarakat rentan.",
+          "evidence": [
+            {
+              "source_id": "bpk-ihps-pen-2021"
+            },
+            {
+              "source_id": "laporan-ihps-bpk-2022"
+            },
+            {
+              "source_id": "laporan-audit-bpk-bts-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Memeriksa efektivitas Transfer ke Daerah dan Dana Otonomi Khusus guna memastikan pemerataan pembangunan fiskal antarwilayah NKRI.",
+          "evidence": [
+            {
+              "source_id": "lhp-bpk-otsus-papua-2021"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-audit-otsus-papua-2021"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menyerahkan Ikhtisar Hasil Pemeriksaan Semester (IHPS) kepada DPR dan DPD secara periodik sebagai wujud pertanggungjawaban kepada wakil rakyat.",
+          "evidence": [
+            {
+              "source_id": "bpk-ihps-pen-2021"
+            },
+            {
+              "source_id": "laporan-ihps-bpk-2022"
+            },
+            {
+              "source_id": "laporan-audit-bpk-bts-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengaudit kepatuhan dan kinerja anggaran belanja alutsista pertahanan negara serta anggaran tanggap darurat bencana nasional.",
+          "evidence": [
+            {
+              "source_id": "bpk-ihps-pen-2021"
+            },
+            {
+              "source_id": "laporan-ihps-bpk-2022"
+            },
+            {
+              "source_id": "laporan-audit-bpk-bts-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.85,
+          "rationale_id": "Menghitung kerugian keuangan negara pada perkara-perkara megaskandal keuangan (BLBI, Bank Century, Jiwasraya, Asabri, BTS 4G) untuk pemulihan aset negara.",
+          "evidence": [
+            {
+              "source_id": "bpk-ihps-pen-2021"
+            },
+            {
+              "source_id": "laporan-bpk-evaluasi-dana-desa-2022"
+            },
+            {
+              "source_id": "ihps-bpk-i-2021"
+            },
+            {
+              "source_id": "lhp-bpk-sawit-2023"
+            },
+            {
+              "source_id": "ihps-bpk-i-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-audit-pen-covid",
+            "ev-bpk-evaluasi-kinerja-dana-desa-2022",
+            "ev-bpk-ihps-bansos-covid-2021",
+            "ev-bpk-audit-sawit-hutan-2023",
+            "ev-bpk-ihps-infrastruktur-2024",
+            "ev-bpk-audit-swasembada-pangan-2025"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Memeriksa kinerja penyaluran mandatory spending 20% anggaran fungsi pendidikan (BOS, beasiswa, sarana prasarana sekolah) di seluruh kementerian/daerah.",
+          "evidence": [
+            {
+              "source_id": "bpk-ihps-pen-2021"
+            },
+            {
+              "source_id": "laporan-ihps-bpk-2022"
+            },
+            {
+              "source_id": "laporan-audit-bpk-bts-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menjalankan peran auditor eksternal lembaga internasional PBB (UN Board of Auditors / IAEA) dan aktif memimpin organisasi auditor sedunia (INTOSAI).",
+          "evidence": [
+            {
+              "source_id": "bpk-ihps-pen-2021"
+            },
+            {
+              "source_id": "laporan-ihps-bpk-2022"
+            },
+            {
+              "source_id": "laporan-audit-bpk-bts-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menyediakan laporan hasil pemeriksaan investigatif (LHP) sebagai bukti primer pro-justitia bagi aparat penegak hukum (KPK, Kejaksaan, Polri).",
+          "evidence": [
+            {
+              "source_id": "laporan-ihps-bpk-2022"
+            },
+            {
+              "source_id": "laporan-audit-bpk-bts-2023"
+            },
+            {
+              "source_id": "laporan-audit-bpk-garuda-2020"
+            },
+            {
+              "source_id": "laporan-audit-bpk-asabri-2021"
+            },
+            {
+              "source_id": "laporan-audit-bpk-jiwasraya-2020"
+            },
+            {
+              "source_id": "putusan-pn-bandung-suap-bpk-2022"
+            },
+            {
+              "source_id": "putusan-tipikor-achsanul-qosasi-2024"
+            },
+            {
+              "source_id": "lhp-bpk-bts-kominfo-2023"
+            },
+            {
+              "source_id": "ihps-ii-bpk-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-bpk-ihps-2022",
+            "ev-bpk-audit-bts-2023",
+            "ev-bpk-audit-garuda-2020",
+            "ev-bpk-audit-asabri-2021",
+            "ev-bpk-audit-jiwasraya-2020",
+            "ev-bpk-suap-bekasi-2022",
+            "ev-bpk-vonis-achsanul-2024",
+            "ev-bpk-audit-bts-kominfo-2023",
+            "ev-bpk-ihps-ii-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mempublikasikan opini Laporan Keuangan Pemerintah Pusat (LKPP) secara transparan sebagai bentuk pertanggungjawaban fiskal tertinggi kepada rakyat.",
+          "evidence": [
+            {
+              "source_id": "bpk-ihps-pen-2021"
+            },
+            {
+              "source_id": "laporan-ihps-bpk-2022"
+            },
+            {
+              "source_id": "laporan-audit-bpk-bts-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -27329,6 +30503,211 @@
             "ev-ky-laporan-mafia-peradilan-2007",
             "ev-ky-putusan-mk-pengawasan-2006",
             "ev-ky-peraturan-bersama-kepph-2009"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menegakkan Kode Etik dan Pedoman Perilaku Hakim (KEPPH) berlandaskan prinsip ketuhanan, ketulusan nurani, dan kejujuran berkeadilan.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2004"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-iv-2006"
+            },
+            {
+              "source_id": "skb-ma-ky-kepph-2009"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Melindungi warga masyarakat pencari keadilan dari perilaku sewenang-wenang dan perlakuan tidak manusiawi oleh aparat peradilan yang korup.",
+          "evidence": [
+            {
+              "source_id": "skb-ma-ky-kepph-2009"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2009"
+            },
+            {
+              "source_id": "peraturan-bersama-ky-ma-2009"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-skb-kepph-2009",
+            "ev-ky-mkh-pertama-2009",
+            "ev-ky-peraturan-bersama-kepph-2009"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memperluas jangkauan pengawasan etik hakim ke seluruh pelosok provinsi melalui pembentukan Kantor Penghubung Komisi Yudisial Daerah.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2004"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-iv-2006"
+            },
+            {
+              "source_id": "skb-ma-ky-kepph-2009"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Melibatkan partisipasi publik dan koalisi masyarakat sipil dalam pemantauan persidangan perkara publik dan rekam jejak calon Hakim Agung.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2004"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-iv-2006"
+            },
+            {
+              "source_id": "skb-ma-ky-kepph-2009"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengawasi persidangan perkara perburuhan, sengketa tanah agraria, dan lingkungan hidup agar bebas dari suap korporasi dan oligarki.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2004"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-iv-2006"
+            },
+            {
+              "source_id": "skb-ma-ky-kepph-2009"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Melakukan advokasi keamanan dan perlindungan keselamatan hakim dari ancaman kekerasan saat mengadili perkara pidana berisiko tinggi.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2004"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-iv-2006"
+            },
+            {
+              "source_id": "skb-ma-ky-kepph-2009"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mencegah praktik mafia peradilan dan suap sengketa bisnis demi menjaga kepastian hukum iklim ekonomi dan perlindungan aset publik.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2004"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-iv-2006"
+            },
+            {
+              "source_id": "skb-ma-ky-kepph-2009"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menggelar klinik etik peradilan dan edukasi publik untuk mencerdaskan kesadaran hukum masyarakat mengenai integritas peradilan.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2004"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-iv-2006"
+            },
+            {
+              "source_id": "skb-ma-ky-kepph-2009"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Berpartisipasi aktif dalam Judicial Integrity Network global untuk mengadopsi standar internasional integritas dan akuntabilitas kehakiman.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2004"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-iv-2006"
+            },
+            {
+              "source_id": "skb-ma-ky-kepph-2009"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menyelenggarakan seleksi terbuka calon Hakim Agung yang kemudian diserahkan kepada DPR untuk memperoleh persetujuan wakil rakyat.",
+          "evidence": [
+            {
+              "source_id": "uu-22-2004"
+            },
+            {
+              "source_id": "putusan-mk-005-puu-iv-2006"
+            },
+            {
+              "source_id": "skb-ma-ky-kepph-2009"
+            }
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27417,6 +30796,208 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menegakkan Kode Etik dan Pedoman Perilaku Hakim (KEPPH) berlandaskan prinsip ketuhanan, ketulusan nurani, dan kejujuran berkeadilan.",
+          "evidence": [
+            {
+              "source_id": "uu-18-2011"
+            },
+            {
+              "source_id": "laporan-ky-seleksi-cha-2011"
+            },
+            {
+              "source_id": "pp-94-2012"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Melindungi warga masyarakat pencari keadilan dari perilaku sewenang-wenang dan perlakuan tidak manusiawi oleh aparat peradilan yang korup.",
+          "evidence": [
+            {
+              "source_id": "uu-18-2011"
+            },
+            {
+              "source_id": "laporan-ky-seleksi-cha-2011"
+            },
+            {
+              "source_id": "pp-94-2012"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memperluas jangkauan pengawasan etik hakim ke seluruh pelosok provinsi melalui pembentukan Kantor Penghubung Komisi Yudisial Daerah.",
+          "evidence": [
+            {
+              "source_id": "uu-18-2011"
+            },
+            {
+              "source_id": "laporan-ky-seleksi-cha-2011"
+            },
+            {
+              "source_id": "pp-94-2012"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Melibatkan partisipasi publik dan koalisi masyarakat sipil dalam pemantauan persidangan perkara publik dan rekam jejak calon Hakim Agung.",
+          "evidence": [
+            {
+              "source_id": "uu-18-2011"
+            },
+            {
+              "source_id": "laporan-ky-seleksi-cha-2011"
+            },
+            {
+              "source_id": "pp-94-2012"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengawasi persidangan perkara perburuhan, sengketa tanah agraria, dan lingkungan hidup agar bebas dari suap korporasi dan oligarki.",
+          "evidence": [
+            {
+              "source_id": "pp-94-2012"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2013"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-advokasi-pp-94-2012",
+            "ev-ky-mkh-hakim-tipikor-2013"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Melakukan advokasi keamanan dan perlindungan keselamatan hakim dari ancaman kekerasan saat mengadili perkara pidana berisiko tinggi.",
+          "evidence": [
+            {
+              "source_id": "uu-18-2011"
+            },
+            {
+              "source_id": "laporan-ky-seleksi-cha-2011"
+            },
+            {
+              "source_id": "pp-94-2012"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mencegah praktik mafia peradilan dan suap sengketa bisnis demi menjaga kepastian hukum iklim ekonomi dan perlindungan aset publik.",
+          "evidence": [
+            {
+              "source_id": "uu-18-2011"
+            },
+            {
+              "source_id": "laporan-ky-seleksi-cha-2011"
+            },
+            {
+              "source_id": "pp-94-2012"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menggelar klinik etik peradilan dan edukasi publik untuk mencerdaskan kesadaran hukum masyarakat mengenai integritas peradilan.",
+          "evidence": [
+            {
+              "source_id": "uu-18-2011"
+            },
+            {
+              "source_id": "laporan-ky-seleksi-cha-2011"
+            },
+            {
+              "source_id": "pp-94-2012"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Berpartisipasi aktif dalam Judicial Integrity Network global untuk mengadopsi standar internasional integritas dan akuntabilitas kehakiman.",
+          "evidence": [
+            {
+              "source_id": "uu-18-2011"
+            },
+            {
+              "source_id": "laporan-ky-seleksi-cha-2011"
+            },
+            {
+              "source_id": "pp-94-2012"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menyelenggarakan seleksi terbuka calon Hakim Agung yang kemudian diserahkan kepada DPR untuk memperoleh persetujuan wakil rakyat.",
+          "evidence": [
+            {
+              "source_id": "laporan-ky-seleksi-cha-2011"
+            },
+            {
+              "source_id": "uu-18-2011"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-seleksi-cha-2011",
+            "ev-ky-seleksi-terbuka-hakim-agung-2013"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -27484,6 +31065,197 @@
             "ev-ky-deklarasi-integritas-2018",
             "ev-ky-pemantauan-korupsi-ektp-2017",
             "ev-ky-kerjasama-kpk-2019"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menegakkan Kode Etik dan Pedoman Perilaku Hakim (KEPPH) berlandaskan prinsip ketuhanan, ketulusan nurani, dan kejujuran berkeadilan.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2019"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2016"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2018"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Melindungi warga masyarakat pencari keadilan dari perilaku sewenang-wenang dan perlakuan tidak manusiawi oleh aparat peradilan yang korup.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2016"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-advokasi-independensi-hakim-2016"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memperluas jangkauan pengawasan etik hakim ke seluruh pelosok provinsi melalui pembentukan Kantor Penghubung Komisi Yudisial Daerah.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2019"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2016"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2018"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Melibatkan partisipasi publik dan koalisi masyarakat sipil dalam pemantauan persidangan perkara publik dan rekam jejak calon Hakim Agung.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2019"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2016"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2018"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengawasi persidangan perkara perburuhan, sengketa tanah agraria, dan lingkungan hidup agar bebas dari suap korporasi dan oligarki.",
+          "evidence": [
+            {
+              "source_id": "uu-18-2011"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-kerjasama-kpk-2019"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Melakukan advokasi keamanan dan perlindungan keselamatan hakim dari ancaman kekerasan saat mengadili perkara pidana berisiko tinggi.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2019"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2016"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2018"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mencegah praktik mafia peradilan dan suap sengketa bisnis demi menjaga kepastian hukum iklim ekonomi dan perlindungan aset publik.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2019"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2016"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2018"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menggelar klinik etik peradilan dan edukasi publik untuk mencerdaskan kesadaran hukum masyarakat mengenai integritas peradilan.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2019"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2016"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2018"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Berpartisipasi aktif dalam Judicial Integrity Network global untuk mengadopsi standar internasional integritas dan akuntabilitas kehakiman.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2019"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2016"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2018"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menyelenggarakan seleksi terbuka calon Hakim Agung yang kemudian diserahkan kepada DPR untuk memperoleh persetujuan wakil rakyat.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2019"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-pemantauan-sidang-pemilu-2019"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27602,6 +31374,213 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Menegakkan Kode Etik dan Pedoman Perilaku Hakim (KEPPH) berlandaskan prinsip ketuhanan, ketulusan nurani, dan kejujuran berkeadilan.",
+          "evidence": [
+            {
+              "source_id": "laporan-seleksi-ha-ky-2021"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2023"
+            },
+            {
+              "source_id": "laporan-sidang-mkh-ky-ma-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Melindungi warga masyarakat pencari keadilan dari perilaku sewenang-wenang dan perlakuan tidak manusiawi oleh aparat peradilan yang korup.",
+          "evidence": [
+            {
+              "source_id": "putusan-mkh-pn-surabaya-2024"
+            },
+            {
+              "source_id": "laporan-ky-sidang-kanjuruhan-2023"
+            },
+            {
+              "source_id": "laporan-ky-sidang-sambo-2023"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-rekomendasi-mkh-surabaya-2024",
+            "ev-ky-pemantauan-kanjuruhan-2023",
+            "ev-ky-pemantauan-sambo-2023"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memperluas jangkauan pengawasan etik hakim ke seluruh pelosok provinsi melalui pembentukan Kantor Penghubung Komisi Yudisial Daerah.",
+          "evidence": [
+            {
+              "source_id": "laporan-seleksi-ha-ky-2021"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2023"
+            },
+            {
+              "source_id": "laporan-sidang-mkh-ky-ma-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Melibatkan partisipasi publik dan koalisi masyarakat sipil dalam pemantauan persidangan perkara publik dan rekam jejak calon Hakim Agung.",
+          "evidence": [
+            {
+              "source_id": "laporan-seleksi-ha-ky-2021"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2023"
+            },
+            {
+              "source_id": "laporan-sidang-mkh-ky-ma-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengawasi persidangan perkara perburuhan, sengketa tanah agraria, dan lingkungan hidup agar bebas dari suap korporasi dan oligarki.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2022"
+            },
+            {
+              "source_id": "putusan-mkh-pn-surabaya-2024"
+            },
+            {
+              "source_id": "laporan-ky-kasus-zarof-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-ott-sudrajad-2022",
+            "ev-ky-rekomendasi-mkh-surabaya-2024",
+            "ev-ky-kasus-zarof-ricar-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Melakukan advokasi keamanan dan perlindungan keselamatan hakim dari ancaman kekerasan saat mengadili perkara pidana berisiko tinggi.",
+          "evidence": [
+            {
+              "source_id": "laporan-seleksi-ha-ky-2021"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2023"
+            },
+            {
+              "source_id": "laporan-sidang-mkh-ky-ma-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mencegah praktik mafia peradilan dan suap sengketa bisnis demi menjaga kepastian hukum iklim ekonomi dan perlindungan aset publik.",
+          "evidence": [
+            {
+              "source_id": "laporan-seleksi-ha-ky-2021"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2023"
+            },
+            {
+              "source_id": "laporan-sidang-mkh-ky-ma-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menggelar klinik etik peradilan dan edukasi publik untuk mencerdaskan kesadaran hukum masyarakat mengenai integritas peradilan.",
+          "evidence": [
+            {
+              "source_id": "laporan-tahunan-ky-2021"
+            }
+          ],
+          "event_ids": [
+            "ev-ky-klinik-etik-hukum-2021"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Berpartisipasi aktif dalam Judicial Integrity Network global untuk mengadopsi standar internasional integritas dan akuntabilitas kehakiman.",
+          "evidence": [
+            {
+              "source_id": "laporan-seleksi-ha-ky-2021"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2023"
+            },
+            {
+              "source_id": "laporan-sidang-mkh-ky-ma-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menyelenggarakan seleksi terbuka calon Hakim Agung yang kemudian diserahkan kepada DPR untuk memperoleh persetujuan wakil rakyat.",
+          "evidence": [
+            {
+              "source_id": "laporan-seleksi-ha-ky-2021"
+            },
+            {
+              "source_id": "laporan-tahunan-ky-2023"
+            },
+            {
+              "source_id": "laporan-sidang-mkh-ky-ma-2023"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -27693,6 +31672,191 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menetapkan TAP MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa yang menempatkan nilai-nilai ketuhanan sebagai etika moral penyelenggara negara.",
+          "evidence": [
+            {
+              "source_id": "tap-mpr-ii-1978"
+            },
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-tap-mpr-p4-ekaprasetia-1978",
+            "ev-mprs-tap-xx-1966"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": -1,
+          "confidence": 0.85,
+          "rationale_id": "Penyeragaman ideologis melalui penataran P4 mengaburkan akuntabilitas pelanggaran hak asasi manusia masa lalu.",
+          "evidence": [
+            {
+              "source_id": "tap-mpr-xvii-1998"
+            }
+          ],
+          "event_ids": [
+            "ev-tap-mpr-xvii-1998-ham",
+            "ev-tap-mpr-ham-1998"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam yang berkeadilan sosial.",
+          "evidence": [
+            {
+              "source_id": "tap-mpr-iv-1978"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-tap-iv-gbhn-1978"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mengatur doktrin pertahanan dan keamanan negara (Pasal 30 UUD 1945) serta pemisahan kelembagaan TNI dan Polri melalui TAP VI & VII/MPR/2000.",
+          "evidence": [
+            {
+              "source_id": "tap-mprs-xxxiii-1967"
+            },
+            {
+              "source_id": "tap-mpr-ii-1978"
+            },
+            {
+              "source_id": "tap-mpr-xvii-1998"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dan kebersamaan melalui Perubahan Keempat Pasal 33 UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "tap-mpr-iv-1978"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-tap-iv-gbhn-1978"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan klausul revolusioner Pasal 31 ayat (4) UUD 1945 yang mewajibkan negara mengalokasikan minimal 20% APBN/APBD untuk pendidikan.",
+          "evidence": [
+            {
+              "source_id": "tap-mprs-xxxiii-1967"
+            },
+            {
+              "source_id": "tap-mpr-ii-1978"
+            },
+            {
+              "source_id": "tap-mpr-xvii-1998"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menegaskan prinsip politik luar negeri bebas aktif dalam konstitusi dan mendukung perdamaian abadi dunia berdasar kemerdekaan.",
+          "evidence": [
+            {
+              "source_id": "tap-mpr-v-1999"
+            }
+          ],
+          "event_ids": [
+            "ev-referendum-timtim-1999"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan penegasan konstitusional Pasal 1 ayat (3) bahwa Negara Indonesia adalah Negara Hukum dan membentuk Mahkamah Konstitusi.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "tap-mpr-xvii-1998"
+            },
+            {
+              "source_id": "tap-mpr-xi-1998"
+            }
+          ],
+          "event_ids": [
+            "ev-mprs-tap-xx-1966",
+            "ev-tap-mpr-xvii-1998-ham",
+            "ev-tap-mpr-xi-1998-anti-kkn",
+            "ev-tap-mpr-ham-1998"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": -2,
+          "confidence": 0.9,
+          "rationale_id": "Kedaulatan rakyat direduksi menjadi seremonial elektoral tanpa kebebasan berserikat dan berpendapat yang substantif.",
+          "evidence": [
+            {
+              "source_id": "tap-mprs-xxxiii-1967"
+            },
+            {
+              "source_id": "tap-mpr-xvii-1998"
+            },
+            {
+              "source_id": "tap-mpr-v-1999"
+            },
+            {
+              "source_id": "tap-mpr-x-1998"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-tap-xxxiii-1967",
+            "ev-mpr-sidang-istimewa-1998-tap",
+            "ev-referendum-timtim-1999",
+            "ev-tap-mpr-reformasi-1998"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -27750,6 +31914,171 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menetapkan TAP MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa yang menempatkan nilai-nilai ketuhanan sebagai etika moral penyelenggara negara.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-sosialisasi-kebangsaan-2005"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dan memasukkan Bab XA (Pasal 28A-28J) ke dalam UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Memperkuat otonomi daerah melalui penataan Pasal 18, 18A, dan 18B UUD 1945 serta mengawal konsensus kebangsaan Empat Pilar.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-sosialisasi-kebangsaan-2005"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam yang berkeadilan sosial.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mengatur doktrin pertahanan dan keamanan negara (Pasal 30 UUD 1945) serta pemisahan kelembagaan TNI dan Polri melalui TAP VI & VII/MPR/2000.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dan kebersamaan melalui Perubahan Keempat Pasal 33 UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan klausul revolusioner Pasal 31 ayat (4) UUD 1945 yang mewajibkan negara mengalokasikan minimal 20% APBN/APBD untuk pendidikan.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-sosialisasi-kebangsaan-2005"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menegaskan prinsip politik luar negeri bebas aktif dalam konstitusi dan mendukung perdamaian abadi dunia berdasar kemerdekaan.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan penegasan konstitusional Pasal 1 ayat (3) bahwa Negara Indonesia adalah Negara Hukum dan membentuk Mahkamah Konstitusi.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": 2,
+          "confidence": 0.9,
+          "rationale_id": "Membatasi masa jabatan presiden maksimal 2 periode (Pasal 7 UUD 1945) dan menata mekanisme pemakzulan (impeachment) secara konstitusional.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-sidang-tahunan-evaluasi-2008",
+            "ev-mpr-pelantikan-presiden-sby-2004"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -27798,6 +32127,187 @@
           "event_ids": [
             "ev-mpr-revisi-uu-md3-kursi-mpr-2018",
             "ev-mpr-rekomendasi-haluan-2019"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menetapkan TAP MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa yang menempatkan nilai-nilai ketuhanan sebagai etika moral penyelenggara negara.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "dokumen-mpr-rekomendasi-haluan-2019"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dan memasukkan Bab XA (Pasal 28A-28J) ke dalam UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "dokumen-mpr-rekomendasi-haluan-2019"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 2,
+          "confidence": 0.9,
+          "rationale_id": "Melakukan empat tahapan perubahan UUD 1945 (1999-2002) yang memulihkan kedaulatan rakyat melalui pemilu langsung dan pelembagaan DPD.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "dokumen-mpr-rekomendasi-haluan-2019"
+            },
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-revisi-uu-md3-kursi-mpr-2018",
+            "ev-mpr-pelantikan-presiden-jokowi-2014",
+            "ev-mpr-rekomendasi-haluan-2019"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam yang berkeadilan sosial.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "dokumen-mpr-rekomendasi-haluan-2019"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mengatur doktrin pertahanan dan keamanan negara (Pasal 30 UUD 1945) serta pemisahan kelembagaan TNI dan Polri melalui TAP VI & VII/MPR/2000.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "dokumen-mpr-rekomendasi-haluan-2019"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dan kebersamaan melalui Perubahan Keempat Pasal 33 UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "dokumen-mpr-rekomendasi-haluan-2019"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-rekomendasi-haluan-2019"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan klausul revolusioner Pasal 31 ayat (4) UUD 1945 yang mewajibkan negara mengalokasikan minimal 20% APBN/APBD untuk pendidikan.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "dokumen-mpr-rekomendasi-haluan-2019"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menegaskan prinsip politik luar negeri bebas aktif dalam konstitusi dan mendukung perdamaian abadi dunia berdasar kemerdekaan.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "dokumen-mpr-rekomendasi-haluan-2019"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan penegasan konstitusional Pasal 1 ayat (3) bahwa Negara Indonesia adalah Negara Hukum dan membentuk Mahkamah Konstitusi.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "dokumen-mpr-rekomendasi-haluan-2019"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 2,
+          "confidence": 0.9,
+          "rationale_id": "Mengubah Pasal 1 ayat (2) UUD 1945 menjadi kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "uud-nri-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-pelantikan-presiden-jokowi-2014"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27854,6 +32364,198 @@
           ],
           "event_ids": [
             "ev-mpr-pelantikan-prabowo-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menetapkan TAP MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa yang menempatkan nilai-nilai ketuhanan sebagai etika moral penyelenggara negara.",
+          "evidence": [
+            {
+              "source_id": "buku-mpr-empat-pilar-2012"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-konsolidasi-kebangsaan-2025"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dan memasukkan Bab XA (Pasal 28A-28J) ke dalam UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "risalah-sidang-mpr-2025"
+            },
+            {
+              "source_id": "risalah-sidang-mpr-2026"
+            },
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 2,
+          "confidence": 0.9,
+          "rationale_id": "Melakukan empat tahapan perubahan UUD 1945 (1999-2002) yang memulihkan kedaulatan rakyat melalui pemilu langsung dan pelembagaan DPD.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-pelantikan-prabowo-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam yang berkeadilan sosial.",
+          "evidence": [
+            {
+              "source_id": "risalah-sidang-mpr-2025"
+            },
+            {
+              "source_id": "risalah-sidang-mpr-2026"
+            },
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mengatur doktrin pertahanan dan keamanan negara (Pasal 30 UUD 1945) serta pemisahan kelembagaan TNI dan Polri melalui TAP VI & VII/MPR/2000.",
+          "evidence": [
+            {
+              "source_id": "risalah-sidang-mpr-2025"
+            },
+            {
+              "source_id": "risalah-sidang-mpr-2026"
+            },
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dan kebersamaan melalui Perubahan Keempat Pasal 33 UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "risalah-sidang-mpr-2025"
+            },
+            {
+              "source_id": "risalah-sidang-mpr-2026"
+            },
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan klausul revolusioner Pasal 31 ayat (4) UUD 1945 yang mewajibkan negara mengalokasikan minimal 20% APBN/APBD untuk pendidikan.",
+          "evidence": [
+            {
+              "source_id": "risalah-sidang-mpr-2025"
+            },
+            {
+              "source_id": "risalah-sidang-mpr-2026"
+            },
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menegaskan prinsip politik luar negeri bebas aktif dalam konstitusi dan mendukung perdamaian abadi dunia berdasar kemerdekaan.",
+          "evidence": [
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-pelantikan-prabowo-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 2,
+          "confidence": 0.85,
+          "rationale_id": "Mengesahkan penegasan konstitusional Pasal 1 ayat (3) bahwa Negara Indonesia adalah Negara Hukum dan membentuk Mahkamah Konstitusi.",
+          "evidence": [
+            {
+              "source_id": "risalah-sidang-mpr-2025"
+            },
+            {
+              "source_id": "risalah-sidang-mpr-2026"
+            },
+            {
+              "source_id": "tap-amandemen-uud-1999-2002"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": 2,
+          "confidence": 0.9,
+          "rationale_id": "Membatasi masa jabatan presiden maksimal 2 periode (Pasal 7 UUD 1945) dan menata mekanisme pemakzulan (impeachment) secara konstitusional.",
+          "evidence": [
+            {
+              "source_id": "risalah-sidang-mpr-2025"
+            },
+            {
+              "source_id": "risalah-sidang-mpr-2026"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-sidang-tahunan-2025",
+            "ev-mpr-sidang-tahunan-2026"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27922,6 +32624,222 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memperjuangkan kerukunan umat beragama di daerah dan mengadvokasi perlindungan hak-hak masyarakat adat lokal dalam perda keagamaan.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-79-puu-xii-2014"
+            },
+            {
+              "source_id": "putusan-pn-jkt-pusat-irman-gusman-2017"
+            },
+            {
+              "source_id": "putusan-ma-tatib-dpd-2017"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mengawasi pemenuhan hak-hak dasar warga negara di wilayah tertinggal, terdepan, dan terluar (3T) dari diskriminasi kebijakan pembangunan.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-79-puu-xii-2014"
+            },
+            {
+              "source_id": "putusan-pn-jkt-pusat-irman-gusman-2017"
+            },
+            {
+              "source_id": "putusan-ma-tatib-dpd-2017"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menyalurkan aspirasi rakyat daerah secara langsung berbasis mandat perseorangan non-partisan tanpa sekat kepartaian politik.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-79-puu-xii-2014"
+            },
+            {
+              "source_id": "putusan-pn-jkt-pusat-irman-gusman-2017"
+            },
+            {
+              "source_id": "putusan-ma-tatib-dpd-2017"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Mengusulkan perbaikan formula Dana Bagi Hasil (DBH), Dana Alokasi Khusus (DAK), dan revisi UU Hubungan Keuangan Pusat dan Daerah (UU HKPD).",
+          "evidence": [
+            {
+              "source_id": "putusan-pn-jkt-pusat-irman-gusman-2017"
+            },
+            {
+              "source_id": "laporan-dpd-dbh-2018"
+            },
+            {
+              "source_id": "laporan-dpd-kur-2016"
+            },
+            {
+              "source_id": "laporan-dpd-tka-2018"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-ott-irman-gusman-2016",
+            "ev-dpd-advokasi-dbh-2018",
+            "ev-dpd-pengawasan-kur-timur-2016",
+            "ev-dpd-pansus-tka-2018"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengadvokasi ketahanan wilayah perbatasan dan percepatan pembangunan pulau-pulau kecil terluar untuk menjaga kedaulatan NKRI.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-79-puu-xii-2014"
+            },
+            {
+              "source_id": "putusan-pn-jkt-pusat-irman-gusman-2017"
+            },
+            {
+              "source_id": "putusan-ma-tatib-dpd-2017"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mendorong penguatan BUMD, pemberdayaan ekonomi maritim daerah, dan perlindungan komoditas unggulan petani/nelayan lokal.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-dbh-2018"
+            },
+            {
+              "source_id": "laporan-dpd-tka-2018"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-advokasi-dbh-2018",
+            "ev-dpd-pansus-tka-2018"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengawasi distribusi anggaran fungsi pendidikan 20% agar menyentuh sekolah-sekolah di wilayah pedalaman dan kepulauan terpencil.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-79-puu-xii-2014"
+            },
+            {
+              "source_id": "putusan-pn-jkt-pusat-irman-gusman-2017"
+            },
+            {
+              "source_id": "putusan-ma-tatib-dpd-2017"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mendorong kerja sama ekonomi subnasional perbatasan antarnegara (BIMP-EAGA, IMT-GT) untuk perdamaian dan kemakmuran kawasan.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-79-puu-xii-2014"
+            },
+            {
+              "source_id": "putusan-pn-jkt-pusat-irman-gusman-2017"
+            },
+            {
+              "source_id": "putusan-ma-tatib-dpd-2017"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menempuh jalur uji konstitusionalitas ke Mahkamah Konstitusi (Putusan 79/PUU-XII/2014) untuk menegakkan wewenang legislasi daerah.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-79-puu-xii-2014"
+            },
+            {
+              "source_id": "putusan-pn-jkt-pusat-irman-gusman-2017"
+            },
+            {
+              "source_id": "putusan-ma-tatib-dpd-2017"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-putusan-mk-79-2015",
+            "ev-dpd-ott-irman-gusman-2016",
+            "ev-dpd-kisruh-tatib-oso-2017"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Memastikan kedaulatan rakyat daerah terwakili di tingkat nasional secara setara antarsemua provinsi di Indonesia.",
+          "evidence": [
+            {
+              "source_id": "putusan-mk-79-puu-xii-2014"
+            },
+            {
+              "source_id": "putusan-ma-tatib-dpd-2017"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-putusan-mk-79-2015",
+            "ev-dpd-kisruh-tatib-oso-2017"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -27974,6 +32892,209 @@
             }
           ],
           "event_ids": [
+            "ev-dpd-pemilihan-sultan-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Memperjuangkan kerukunan umat beragama di daerah dan mengadvokasi perlindungan hak-hak masyarakat adat lokal dalam perda keagamaan.",
+          "evidence": [
+            {
+              "source_id": "laporan-pilkada-kpu-2024"
+            },
+            {
+              "source_id": "risalah-paripurna-dpd-oktober-2024"
+            },
+            {
+              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mengawasi pemenuhan hak-hak dasar warga negara di wilayah tertinggal, terdepan, dan terluar (3T) dari diskriminasi kebijakan pembangunan.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pengawasan-adat-ikn-2024",
+            "ev-dpd-posisi-ruu-masyarakat-adat-2025"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menjaga integrasi persatuan bangsa dengan memperjuangkan otonomi daerah yang adil dan menyelesaikan ketimpangan fiskal antardaerah.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+            },
+            {
+              "source_id": "laporan-dpd-dbh-2018"
+            },
+            {
+              "source_id": "laporan-dpd-guru-honorer-2022"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pengawasan-adat-ikn-2024",
+            "ev-dpd-posisi-ruu-masyarakat-adat-2025",
+            "ev-dpd-advokasi-fiskal-daerah-2025",
+            "ev-dpd-evaluasi-anggaran-pendidikan-2025"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Menyalurkan aspirasi rakyat daerah secara langsung berbasis mandat perseorangan non-partisan tanpa sekat kepartaian politik.",
+          "evidence": [
+            {
+              "source_id": "laporan-pilkada-kpu-2024"
+            },
+            {
+              "source_id": "risalah-paripurna-dpd-oktober-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pengawasan-pilkada-2024",
+            "ev-dpd-pemilihan-sultan-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengadvokasi ketahanan wilayah perbatasan dan percepatan pembangunan pulau-pulau kecil terluar untuk menjaga kedaulatan NKRI.",
+          "evidence": [
+            {
+              "source_id": "laporan-pilkada-kpu-2024"
+            },
+            {
+              "source_id": "risalah-paripurna-dpd-oktober-2024"
+            },
+            {
+              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mendorong penguatan BUMD, pemberdayaan ekonomi maritim daerah, dan perlindungan komoditas unggulan petani/nelayan lokal.",
+          "evidence": [
+            {
+              "source_id": "laporan-pilkada-kpu-2024"
+            },
+            {
+              "source_id": "risalah-paripurna-dpd-oktober-2024"
+            },
+            {
+              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Mengawasi distribusi anggaran fungsi pendidikan 20% agar menyentuh sekolah-sekolah di wilayah pedalaman dan kepulauan terpencil.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-guru-honorer-2022"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-evaluasi-anggaran-pendidikan-2025"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.7,
+          "rationale_id": "Mendorong kerja sama ekonomi subnasional perbatasan antarnegara (BIMP-EAGA, IMT-GT) untuk perdamaian dan kemakmuran kawasan.",
+          "evidence": [
+            {
+              "source_id": "laporan-pilkada-kpu-2024"
+            },
+            {
+              "source_id": "risalah-paripurna-dpd-oktober-2024"
+            },
+            {
+              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.75,
+          "rationale_id": "Menempuh jalur uji konstitusionalitas ke Mahkamah Konstitusi (Putusan 79/PUU-XII/2014) untuk menegakkan wewenang legislasi daerah.",
+          "evidence": [
+            {
+              "source_id": "laporan-pilkada-kpu-2024"
+            },
+            {
+              "source_id": "risalah-paripurna-dpd-oktober-2024"
+            },
+            {
+              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.8,
+          "rationale_id": "Memastikan kedaulatan rakyat daerah terwakili di tingkat nasional secara setara antarsemua provinsi di Indonesia.",
+          "evidence": [
+            {
+              "source_id": "laporan-pilkada-kpu-2024"
+            },
+            {
+              "source_id": "risalah-paripurna-dpd-oktober-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pengawasan-pilkada-2024",
             "ev-dpd-pemilihan-sultan-2024"
           ],
           "normative_anchors": [
