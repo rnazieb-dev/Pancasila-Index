@@ -398,8 +398,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
           </div>
 
           {/* Kanan Mobile */}
-          <div className="ml-auto flex items-center gap-2 md:hidden">
-            <MobileLocaleSelect />
+          <div className="ml-auto flex items-center gap-1.5 md:hidden">
             <Link
               href="/cari"
               aria-label={t("actSearch")}
