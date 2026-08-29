@@ -1,18 +1,29 @@
 import { CkanPackage } from "@pancasila-index/core";
+import { classifyText } from "./heuristic";
 
 export interface AiClaimResult {
   aiExtractedClaim: string;
   relevantDimension: string;
 }
 
-export async function analyzeDatasetClaim(dataset: CkanPackage): Promise<AiClaimResult | null> {
+export async function analyzeDatasetClaim(dataset: CkanPackage): Promise<AiClaimResult> {
+  const combinedText = `${dataset.title || ""} ${dataset.notes || ""}`;
+  
+  // Heuristic analysis as baseline
+  const heuristicHits = classifyText(combinedText);
+  const topDimension = heuristicHits.length > 0 ? heuristicHits[0]?.dimension_id || "sila-5" : "sila-5";
+  const matchedKeywords = heuristicHits.length > 0 ? heuristicHits[0]?.hits?.join(", ") : "";
+
+  const defaultFallback: AiClaimResult = {
+    aiExtractedClaim: matchedKeywords 
+      ? `Rilis statistik mengenai ${dataset.title} terkait isu ${matchedKeywords}.`
+      : `Pemerintah mengklaim pencapaian dalam dataset: ${dataset.title}`,
+    relevantDimension: topDimension,
+  };
+
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
-    console.warn("GEMINI_API_KEY not set, using mock extraction");
-    return {
-      aiExtractedClaim: `Pemerintah mengklaim pencapaian dalam dataset: ${dataset.title}`,
-      relevantDimension: "sila-5",
-    };
+    return defaultFallback;
   }
 
   const prompt = `
@@ -40,19 +51,25 @@ export async function analyzeDatasetClaim(dataset: CkanPackage): Promise<AiClaim
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }] }]
-      })
+      }),
+      signal: AbortSignal.timeout(6000)
     });
 
     if (!res.ok) {
-      return null;
+      return defaultFallback;
     }
 
     const data = await res.json();
     const text = (data as any).candidates?.[0]?.content?.parts?.[0]?.text || "";
     const cleanText = text.replace(/```json/g, "").replace(/```/g, "").trim();
-    return JSON.parse(cleanText) as AiClaimResult;
+    const parsed = JSON.parse(cleanText) as AiClaimResult;
+    
+    return {
+      aiExtractedClaim: parsed.aiExtractedClaim || defaultFallback.aiExtractedClaim,
+      relevantDimension: parsed.relevantDimension || defaultFallback.relevantDimension
+    };
   } catch (err) {
-    console.error("AI Claim Error:", err);
-    return null;
+    console.warn("AI Claim Extraction fallback activated:", err);
+    return defaultFallback;
   }
 }

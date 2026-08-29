@@ -36,7 +36,8 @@ export async function fetchLatestDatasets(
 
   try {
     const res = await fetch(url.toString(), {
-      headers: { Accept: "application/json" }
+      headers: { Accept: "application/json" },
+      signal: AbortSignal.timeout(8000)
     });
     
     if (!res.ok) return [];
@@ -46,7 +47,7 @@ export async function fetchLatestDatasets(
       return data.result.results;
     }
   } catch (e) {
-    console.error("CKAN Watcher Error:", e);
+    console.warn("CKAN Watcher Warning (timeout/unreachable):", e);
   }
   
   return [];
