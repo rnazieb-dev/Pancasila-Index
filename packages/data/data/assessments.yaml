@@ -163,10 +163,12 @@
       evidence:
         - source_id: keppres-6-2000
         - source_id: inpres-6-2000
+        - source_id: keppres-6-2000-gusdur
       event_ids:
         - ev-gusdur-imlek
         - ev-keppres-pemulihan-hak-tionghoa-2000
         - ev-gusdur-inpres-6-2000
+        - ev-pencabutan-inpres-diskriminatif-tionghoa-2000
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-2
@@ -427,8 +429,10 @@
         memberi akuntabilitas.
       evidence:
         - source_id: uu-24-2003
+        - source_id: uu-30-2002-kpk
       event_ids:
         - ev-megawati-mk-dilantik
+        - ev-pembentukan-kpk-2002
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -655,10 +659,14 @@
         - source_id: uu-24-2011
         - source_id: inpres-10-2011
         - source_id: uu-12-2012
+        - source_id: uu-24-2011-bpjs
+        - source_id: uu-6-2014-desa
       event_ids:
         - ev-sby2-bpjs
         - ev-presiden-moratorium-hutan-2011
         - ev-sby-uu-pendidikan-tinggi
+        - ev-pembentukan-bpjs-kesehatan-ketenagakerjaan-2011
+        - ev-pengesahan-uu-desa-2014
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-1
@@ -944,6 +952,7 @@
         - source_id: laporan-komnas-ham-rempang-2023
         - source_id: laporan-tgipf-kanjuruhan-2022
         - source_id: inpres-2-2023
+        - source_id: inpres-2-2023-non-yudisial-ham
       event_ids:
         - ev-dpr19-rkuhp-final
         - ev-presiden-pengakuan-pelanggaran-ham-2023
@@ -951,6 +960,7 @@
         - ev-konflik-agraria-psn-rempang-2023
         - ev-tragedi-kanjuruhan-tgipf-2022
         - ev-inpres-pelanggaran-ham-berat-2023
+        - ev-pengakuan-pelanggaran-ham-berat-2023
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -1004,11 +1014,13 @@
         - source_id: keppres-11-2020
         - source_id: uu-3-2023
         - source_id: uu-5-2023
+        - source_id: laporan-tgipf-kanjuruhan-2022
       event_ids:
         - ev-jokowi2-respons-pandemi
         - ev-jokowi2-kanjuruhan
         - ev-presiden-darurat-kesehatan-covid-2020
         - ev-presiden-uu-fir-ekstradisi-singapura-2023
+        - ev-tragedi-kanjuruhan-malang-2022
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-2
@@ -1234,12 +1246,14 @@
         - source_id: perpres-danantara-2025
         - source_id: dakwaan-kejagung-timah-2024
         - source_id: perpres-badan-gizi-2024
+        - source_id: perpres-83-2024-badan-gizi
       event_ids:
         - ev-perpres-makan-bergizi-2024
         - ev-kabinet-merah-putih-2024
         - ev-badan-danantara-2025
         - ev-kejagung-korupsi-timah-300t-2024
         - ev-presiden-badan-gizi-2024
+        - ev-program-makan-bergizi-gratis-2024
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-3
@@ -1295,8 +1309,11 @@
         konsolidasi kekuasaan eksekutif-legislatif.
       evidence:
         - source_id: uu-danantara-2025
+        - source_id: perpres-139-2024-kementerian
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-postur-kabinet-gemuk-48-kementerian-2024
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.3
@@ -1583,8 +1600,10 @@
       rationale_id: Penyelenggara pemilu independen dilembagakan lewat legislasi.
       evidence:
         - source_id: uu-22-2007
+        - source_id: uu-14-2008-kip
       event_ids:
         - ev-dpr04-kepemilihan
+        - ev-uu-keterbukaan-informasi-publik-2008
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -2076,6 +2095,7 @@
         - source_id: uu-27-2022
         - source_id: uu-1-2024
         - source_id: uu-12-2022
+        - source_id: uu-12-2022-tpks
       event_ids:
         - ev-dpr19-rkuhp-final
         - ev-dpr-uu-pdp-2022
@@ -2083,6 +2103,7 @@
         - ev-dpr-uu-ite-revisi-2024
         - ev-dpr-uu-tpks-2022
         - ev-dpr-kuhp-nasional-baru-2023
+        - ev-pengesahan-uu-tpks-2022
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -2460,6 +2481,7 @@
         - source_id: putusan-mk-013-022-puu-iv-2006
         - source_id: putusan-mk-6-puu-v-2007
         - source_id: putusan-mk-5-puu-v-2007
+        - source_id: uu-24-2003-mk
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -2470,6 +2492,7 @@
         - ev-mk-putusan-lese-majeste-2006
         - ev-mk-putusan-haatzaai-artikelen-2007
         - ev-mk-putusan-calon-independen-2007
+        - ev-pembentukan-mahkamah-konstitusi-2003
     - dimension_id: checks-balances
       score: 2
       confidence: 0.85
@@ -2845,6 +2868,7 @@
         - source_id: putusan-mk-97-puu-xiv-2016
         - source_id: putusan-mk-21-puu-xii-2014
         - source_id: putusan-mk-137-puu-xiii-2015
+        - source_id: putusan-tipikor-akil-mochtar-2014
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -2859,6 +2883,7 @@
         - ev-mk-putusan-penghayat-2017
         - ev-mk-putusan-praperadilan-2015
         - ev-mk-pembatalan-pembatalan-perda-2017
+        - ev-kasus-suap-pilkada-akil-mochtar-2013
     - dimension_id: checks-balances
       score: 0
       confidence: 0.85
@@ -3218,6 +3243,7 @@
         - source_id: putusan-mk-70-puu-xxii-2024
         - source_id: putusan-mk-282-puu-xxiii-2025
         - source_id: berita-antara-mk-240-241-kuhp-2026
+        - source_id: putusan-mk-60-2024
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -3225,6 +3251,7 @@
         - ev-mk-putusan-threshold-2024
         - ev-mk-batal-pasal-penghinaan-pemerintah-2026
         - ev-mk-putusan-parliamentary-threshold-2024
+        - ev-putusan-mk-60-demokrasi-lokal-2024
     - dimension_id: negara-hukum
       score: -1
       confidence: 0.85
@@ -3238,6 +3265,7 @@
         - source_id: laporan-pilkada-kpu-2024
         - source_id: putusan-mk-116-puu-xxi-2023
         - source_id: putusan-mk-phpu-pres-2024
+        - source_id: putusan-mk-136-2024
       event_ids:
         - ev-mk5-lantikan-adies-kadir
         - ev-mk-putusan-netralitas-pilkada-2024
@@ -3246,6 +3274,7 @@
         - ev-mk-phpu-pilkada-serentak-2025
         - ev-mk-putusan-parliamentary-threshold-2024
         - ev-mk-putusan-netralitas-pilkada-2024
+        - ev-putusan-mk-136-netralitas-aparat-2024
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -3408,6 +3437,7 @@
         - source_id: arsip-apra-1950
         - source_id: arsip-rms-1950
         - source_id: dekrit-presiden-5-juli-1959
+        - source_id: dekl-djuanda-1957
       event_ids:
         - ev-soekarno1-nkri-uuds
         - ev-deklarasi-djuanda-1957
@@ -3429,11 +3459,13 @@
         - source_id: maklumat-wakil-presiden-x-1945
         - source_id: arsip-pemilu-1955
         - source_id: maklumat-pemerintah-3-nov-1945
+        - source_id: maklumat-x-1945
       event_ids:
         - ev-soekarno1-pemilu-1955
         - ev-maklumat-wapres-x-1945
         - ev-pemilu-pertama-1955
         - ev-maklumat-pemerintah-3-nov-1945
+        - ev-maklumat-x-multipartai-1945
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -3445,9 +3477,11 @@
         - source_id: uuds-1950
         - source_id: uu-86-1958
         - source_id: uu-80-1958
+        - source_id: uu-11-1953-bi
       event_ids:
         - ev-nasionalisasi-belanda-1958
         - ev-pembentukan-depernas-1959
+        - ev-nasionalisasi-de-javasche-bank-1953
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-1
@@ -3526,6 +3560,7 @@
         - source_id: dasasila-bandung-1955
         - source_id: maklumat-pemerintah-1-nov-1945
         - source_id: uu-13-1956
+        - source_id: dasa-sila-bandung-1955
       event_ids:
         - ev-soekarno1-kaa
         - ev-perjanjian-linggajati-1946
@@ -3535,6 +3570,8 @@
         - ev-kaa-bandung-1955
         - ev-maklumat-pemerintah-1-nov-1945
         - ev-uu-pembatalan-kmb-1956
+        - ev-kmb-pengakuan-kedaulatan-1949
+        - ev-kaa-dasa-sila-bandung-1955
       normative_anchors:
         - uud-nri-1945
     - dimension_id: negara-hukum
@@ -3839,6 +3876,7 @@
         - source_id: uu-8-1981
         - source_id: arsip-jim-kamboja-1988
         - source_id: keppres-36-1990
+        - source_id: laporan-komnas-ham-petrus
       event_ids:
         - ev-soeharto-timtim
         - ev-soeharto-petrus
@@ -3850,6 +3888,7 @@
         - ev-jim-kamboja-1988
         - ev-ratifikasi-crc-1990
         - ev-komnas-ham-1993
+        - ev-operasi-petrus-1982-1985
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -3881,6 +3920,8 @@
         - source_id: uu-3-1975
         - source_id: uu-3-1985
         - source_id: uu-15-1969
+        - source_id: tap-mpr-ii-1978-p4
+        - source_id: laporan-komnas-ham-kudatuli
       event_ids:
         - ev-soeharto-fusi-partai
         - ev-soeharto-asas-tunggal
@@ -3889,6 +3930,8 @@
         - ev-uu-asas-tunggal-1985
         - ev-uu-pemilu-pertama-orba-1969
         - ev-uu-fusi-partai-politik-1975
+        - ev-monopoli-p4-asas-tunggal-1978-1985
+        - ev-penyerbuan-kudatuli-1996
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -3992,6 +4035,7 @@
         - ev-deklarasi-asean-1967
         - ev-uu-unclos-1985
         - ev-jim-kamboja-1988
+        - ev-deklarasi-asean-bangkok-1967
       normative_anchors:
         - uud-nri-1945
     - dimension_id: negara-hukum
@@ -4256,6 +4300,7 @@
         - source_id: uu-14-1970
         - source_id: putusan-ma-kedung-ombo-1993
         - source_id: putusan-ma-tempo-1995
+        - source_id: uu-19-1964-kehakiman
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -4267,6 +4312,7 @@
         - ev-ma-kedung-ombo-1993
         - ev-ma-tempo-harmoko-1995
         - ev-ma-yurisprudensi-perjanjian-baku-1976
+        - ev-intervensi-eksekutif-peradilan-1964
     - dimension_id: checks-balances
       score: -2
       confidence: 0.85
@@ -7958,8 +8004,8 @@
       score: 1
       confidence: 0.5
       rationale_id: Dekrit Presiden 5 Juli 1959 membubarkan Konstituante dan
-        mengembalikan UUD 1945 sebagai sumber hukum, menegakkan kembali konstitusi
-        yang lama setelah periode parlementer.
+        mengembalikan UUD 1945 sebagai sumber hukum, menegakkan kembali
+        konstitusi yang lama setelah periode parlementer.
       evidence:
         - source_id: anri-dekrit-presiden-5-juli-1959
       normative_anchors:
@@ -7968,8 +8014,8 @@
       score: 0
       confidence: 0.55
       rationale_id: Supersemar 1966 dan TAP MPRS XXXIII/1967 serta XLIV/1968
-        melegitimasi peralihan kekuasaan ke Orde Baru, tetapi mekanisme MPRS yang
-        keanggotaannya ditunjuk membuat pembatasan eksekutif tidak efektif.
+        melegitimasi peralihan kekuasaan ke Orde Baru, tetapi mekanisme MPRS
+        yang keanggotaannya ditunjuk membuat pembatasan eksekutif tidak efektif.
       evidence:
         - source_id: anri-supersemar-1966
         - source_id: tap-mprs-xxxiii-1967
@@ -8009,9 +8055,9 @@
     - dimension_id: sila-4
       score: 1
       confidence: 0.5
-      rationale_id: Pergeseran dari presidensial ke sistem parlementer lewat
-        Maklumat 14 November 1945 menunjukkan negara mengadopsi musyawarah
-        perwakilan dalam merumuskan pemerintahan.
+      rationale_id: Pergeseran dari presidensial ke sistem parlementer lewat Maklumat
+        14 November 1945 menunjukkan negara mengadopsi musyawarah perwakilan
+        dalam merumuskan pemerintahan.
       evidence:
         - source_id: anri-maklumat-kabinet-parlementer-1945
       normative_anchors:
@@ -8029,9 +8075,9 @@
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.55
-      rationale_id: Persetujuan kembali ke NKRI 1950, pembentukan Konstituante,
-        dan kisi-kisi dasar negara yang dibahas di dalamnya menghidupkan
-        lembaga perwakilan dan perdebatan konstitusional secara terbuka.
+      rationale_id: Persetujuan kembali ke NKRI 1950, pembentukan Konstituante, dan
+        kisi-kisi dasar negara yang dibahas di dalamnya menghidupkan lembaga
+        perwakilan dan perdebatan konstitusional secara terbuka.
       evidence:
         - source_id: anri-piagam-persetujuan-nkri-1950
         - source_id: anri-risalah-konstituante-natsir-1957
@@ -8042,9 +8088,9 @@
     - dimension_id: sila-2
       score: 0
       confidence: 0.5
-      rationale_id: Konstituante membahas dasar negara dan hak asasi manusia,
-        tetapi Pemerintah mengakhiri proses tersebut lewat Dekrit Presiden 1959
-        sebelum kesepakatan tercapai.
+      rationale_id: Konstituante membahas dasar negara dan hak asasi manusia, tetapi
+        Pemerintah mengakhiri proses tersebut lewat Dekrit Presiden 1959 sebelum
+        kesepakatan tercapai.
       evidence:
         - source_id: anri-risalah-konstituante-ham-1958
         - source_id: anri-dekrit-presiden-5-juli-1959
@@ -8063,8 +8109,8 @@
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.5
-      rationale_id: DPR-GR melahirkan undang-undang pokok penting seperti UUPA No.
-        5 Tahun 1960 yang menata ulang struktur agraria nasional di atas dasar
+      rationale_id: DPR-GR melahirkan undang-undang pokok penting seperti UUPA No. 5
+        Tahun 1960 yang menata ulang struktur agraria nasional di atas dasar
         hukum konstitusi.
       evidence:
         - source_id: anri-uupa-5-1960
@@ -8107,9 +8153,9 @@
     - dimension_id: sila-2
       score: 1
       confidence: 0.55
-      rationale_id: TAP MPR XVII/MPR/1998 tentang Hak Asasi Manusia meletakkan
-        Piagam HAM sebagai landasan pengakuan hak-hak warga setelah
-        otoritarianisme, menjadi titik balik pasca-Orde Baru.
+      rationale_id: TAP MPR XVII/MPR/1998 tentang Hak Asasi Manusia meletakkan Piagam
+        HAM sebagai landasan pengakuan hak-hak warga setelah otoritarianisme,
+        menjadi titik balik pasca-Orde Baru.
       evidence:
         - source_id: tap-mpr-xvii-1998
       event_ids:
