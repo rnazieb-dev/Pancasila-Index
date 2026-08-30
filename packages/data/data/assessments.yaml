@@ -945,7 +945,7 @@
         - source_id: laporan-tgipf-kanjuruhan-2022
         - source_id: inpres-2-2023
       event_ids:
-        - ev-jokowi2-rkuhp
+        - ev-dpr19-rkuhp-final
         - ev-presiden-pengakuan-pelanggaran-ham-2023
         - ev-konflik-agraria-psn-wadas-2022
         - ev-konflik-agraria-psn-rempang-2023
@@ -2422,7 +2422,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-mk-pembatalan-uu-kelistrikan-2004
+        - ev-mk-putusan-kelistrikan-2004
     - dimension_id: sila-2
       score: 1
       confidence: 0.85
@@ -2464,7 +2464,7 @@
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-penyadapan-kpk-2006
-        - ev-mk-pembatalan-uu-kelistrikan-2004
+        - ev-mk-putusan-kelistrikan-2004
         - ev-mk-putusan-kkr-2006
         - ev-mk-putusan-ky-hakim-agung-2006
         - ev-mk-putusan-lese-majeste-2006
@@ -2528,7 +2528,7 @@
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-kelistrikan-2004
-        - ev-mk-pembatalan-uu-kelistrikan-2004
+        - ev-mk-putusan-kelistrikan-2004
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
@@ -2552,7 +2552,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-mk-pembatalan-uu-kelistrikan-2004
+        - ev-mk-putusan-kelistrikan-2004
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
@@ -6486,7 +6486,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-ky-uu-22-2004
+        - ev-uu-ky-2004
         - ev-ky-skb-kepph-2009
         - ev-ky-mkh-pertama-2009
         - ev-ky-laporan-mafia-peradilan-2007
@@ -7193,7 +7193,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-tap-mpr-p4-ekaprasetia-1978
+        - ev-tap-mpr-ii-1978-p4
         - ev-mprs-tap-xx-1966
     - dimension_id: sila-1
       score: 1
@@ -7207,7 +7207,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-tap-mpr-p4-ekaprasetia-1978
+        - ev-tap-mpr-ii-1978-p4
         - ev-mprs-tap-xx-1966
     - dimension_id: sila-2
       score: -1
@@ -7942,7 +7942,180 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
+        - ev-dpd-pengawasan-pilkada-2024
         - ev-dpd-pemilihan-sultan-2024
+- id: asm-mprs-1959-1971
+  term_id: mprs-1959-1971
+  rubric_version: 1.0.0
+  status: draft
+  reviewers:
+    - Pipeline AI (draf awal)
+  ai_suggested: true
+  human_confirmed: false
+  created_at: 2026-08-30
+  dimension_scores:
+    - dimension_id: negara-hukum
+      score: 1
+      confidence: 0.5
+      rationale_id: Dekrit Presiden 5 Juli 1959 membubarkan Konstituante dan
+        mengembalikan UUD 1945 sebagai sumber hukum, menegakkan kembali konstitusi
+        yang lama setelah periode parlementer.
+      evidence:
+        - source_id: anri-dekrit-presiden-5-juli-1959
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: checks-balances
+      score: 0
+      confidence: 0.55
+      rationale_id: Supersemar 1966 dan TAP MPRS XXXIII/1967 serta XLIV/1968
+        melegitimasi peralihan kekuasaan ke Orde Baru, tetapi mekanisme MPRS yang
+        keanggotaannya ditunjuk membuat pembatasan eksekutif tidak efektif.
+      evidence:
+        - source_id: anri-supersemar-1966
+        - source_id: tap-mprs-xxxiii-1967
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: sila-1
+      score: 1
+      confidence: 0.5
+      rationale_id: MPRS menegaskan Pancasila sebagai sumber tertib hukum termasuk
+        sila Ketuhanan, namun penafsirannya dikendalikan oleh kekuasaan, bukan
+        ruang tafsir bebas warga.
+      evidence:
+        - source_id: anri-risalah-sidang-mprs-1967
+      normative_anchors:
+        - uud-nri-1945
+- id: asm-dpr-knip-1945-1950
+  term_id: dpr-knip-1945-1950
+  rubric_version: 1.0.0
+  status: draft
+  reviewers:
+    - Pipeline AI (draf awal)
+  ai_suggested: true
+  human_confirmed: false
+  created_at: 2026-08-30
+  dimension_scores:
+    - dimension_id: kedaulatan-rakyat
+      score: 1
+      confidence: 0.55
+      rationale_id: PPKI membentuk KNIP sebagai badan perwakilan, dan Maklumat
+        Pemerintah X serta Maklumat 14 November 1945 memperluas partisipasi
+        politik partai dan menata kedaulatan rakyat pasca-proklamasi.
+      evidence:
+        - source_id: anri-ppki-sidang-22-agu-1945
+        - source_id: anri-maklumat-wakil-presiden-x-1945
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: sila-4
+      score: 1
+      confidence: 0.5
+      rationale_id: Pergeseran dari presidensial ke sistem parlementer lewat
+        Maklumat 14 November 1945 menunjukkan negara mengadopsi musyawarah
+        perwakilan dalam merumuskan pemerintahan.
+      evidence:
+        - source_id: anri-maklumat-kabinet-parlementer-1945
+      normative_anchors:
+        - uud-nri-1945
+- id: asm-dpr-1950-1960
+  term_id: dpr-1950-1960
+  rubric_version: 1.0.0
+  status: draft
+  reviewers:
+    - Pipeline AI (draf awal)
+  ai_suggested: true
+  human_confirmed: false
+  created_at: 2026-08-30
+  dimension_scores:
+    - dimension_id: kedaulatan-rakyat
+      score: 1
+      confidence: 0.55
+      rationale_id: Persetujuan kembali ke NKRI 1950, pembentukan Konstituante,
+        dan kisi-kisi dasar negara yang dibahas di dalamnya menghidupkan
+        lembaga perwakilan dan perdebatan konstitusional secara terbuka.
+      evidence:
+        - source_id: anri-piagam-persetujuan-nkri-1950
+        - source_id: anri-risalah-konstituante-natsir-1957
+      event_ids:
+        - ev-dpr-uuds-1950
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: sila-2
+      score: 0
+      confidence: 0.5
+      rationale_id: Konstituante membahas dasar negara dan hak asasi manusia,
+        tetapi Pemerintah mengakhiri proses tersebut lewat Dekrit Presiden 1959
+        sebelum kesepakatan tercapai.
+      evidence:
+        - source_id: anri-risalah-konstituante-ham-1958
+        - source_id: anri-dekrit-presiden-5-juli-1959
+      normative_anchors:
+        - uud-nri-1945
+- id: asm-dpr-gr-1960-1971
+  term_id: dpr-gr-1960-1971
+  rubric_version: 1.0.0
+  status: draft
+  reviewers:
+    - Pipeline AI (draf awal)
+  ai_suggested: true
+  human_confirmed: false
+  created_at: 2026-08-30
+  dimension_scores:
+    - dimension_id: negara-hukum
+      score: 1
+      confidence: 0.5
+      rationale_id: DPR-GR melahirkan undang-undang pokok penting seperti UUPA No.
+        5 Tahun 1960 yang menata ulang struktur agraria nasional di atas dasar
+        hukum konstitusi.
+      evidence:
+        - source_id: anri-uupa-5-1960
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: kedaulatan-rakyat
+      score: 0
+      confidence: 0.55
+      rationale_id: DPR-GR yang keanggotaannya banyak ditunjuk mereduksi fungsi
+        kontrol legislatif, dan Supersemar 1966 memindahkan kekuasaan ke
+        eksekutif sehingga lembaga perwakilan kehilangan kemandirian.
+      evidence:
+        - source_id: anri-supersemar-1966
+        - source_id: tap-mprs-xxv-1966
+      normative_anchors:
+        - uud-nri-1945
+- id: asm-dpr-1971-1999
+  term_id: dpr-1971-1999
+  rubric_version: 1.0.0
+  status: draft
+  reviewers:
+    - Pipeline AI (draf awal)
+  ai_suggested: true
+  human_confirmed: false
+  created_at: 2026-08-30
+  dimension_scores:
+    - dimension_id: negara-hukum
+      score: 1
+      confidence: 0.55
+      rationale_id: Pada akhir era Orde Baru, Sidang Istimewa MPR 1998 dan TAP MPR
+        XI/MPR/1998 merespons tuntutan reformasi untuk memberantas KKN dan
+        menegakkan penyelenggaraan negara yang bebas korupsi.
+      evidence:
+        - source_id: anri-risalah-si-mpr-1998
+        - source_id: tap-mpr-xi-1998
+      event_ids:
+        - ev-mpr-tap-xi-1998
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: sila-2
+      score: 1
+      confidence: 0.55
+      rationale_id: TAP MPR XVII/MPR/1998 tentang Hak Asasi Manusia meletakkan
+        Piagam HAM sebagai landasan pengakuan hak-hak warga setelah
+        otoritarianisme, menjadi titik balik pasca-Orde Baru.
+      evidence:
+        - source_id: tap-mpr-xvii-1998
+      event_ids:
+        - ev-mpr-tap-xvii-1998
+      normative_anchors:
+        - uud-nri-1945
     - dimension_id: sila-1
       score: 1
       confidence: 0.7

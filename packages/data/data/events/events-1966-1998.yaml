@@ -1,3 +1,18 @@
+- id: ev-petisi-50-1980
+  term_id: presiden-soeharto
+  date: 1980-05-05
+  category: peristiwa
+  title_id: Petisi 50 1980 - Kritik Tokoh Terhadap Orde Baru
+  summary_id: >-
+    Sejumlah tokoh nasional menandatangani Petisi 50 yang mengkritik penggunaan
+    Pancasila sebagai alat pembenaran kekuasaan, memicu pembatasan dan
+    pelarangan aktivitas para penandatangan pada era Orde Baru.
+  source_ids:
+    - anri-petisi-50-pernyataan-1980
+  dimension_ids:
+    - sila-4
+    - kedaulatan-rakyat
+
 - id: ev-uu-3-1975-fusi-partai
   term_id: presiden-soeharto
   date: 1975-08-27
@@ -323,6 +338,7 @@
     Merauke.
   source_ids:
     - resolusi-pbb-2504-1969
+    - un-pepera-resolusi-2504-1969
   dimension_ids:
     - tujuan-1
     - sila-3
@@ -384,21 +400,6 @@
   dimension_ids:
     - kedaulatan-rakyat
     - sila-4
-- id: ev-tap-mpr-p4-ekaprasetia-1978
-  term_id: mpr-1971-1999
-  date: 1978-03-22
-  category: produk-hukum
-  title_id: TAP MPR No. II/MPR/1978 tentang Pedoman Penghayatan dan Pengamalan
-    Pancasila (P4)
-  summary_id: MPR menetapkan materi baku penataran P4 (Ekaprasetia Pancakarsa)
-    sebagai pedoman resmi tafsir Pancasila bagi seluruh aparatur negara,
-    pelajar, mahasiswa, dan organisasi masyarakat melalui Badan Pembina
-    Pendidikan Pelaksanaan Pedoman Penghayatan dan Pengamalan Pancasila (BP7).
-  source_ids:
-    - tap-mpr-ii-1978
-  dimension_ids:
-    - sila-1
-    - sila-3
 - id: ev-uu-asas-tunggal-pancasila-1985
   term_id: presiden-soeharto
   date: 1985-06-17
@@ -518,7 +519,7 @@
     - checks-balances
     - sila-5
 - id: ev-mprs-tap-xx-1966
-  term_id: mpr-1971-1999
+  term_id: mprs-1959-1971
   date: 1966-07-05
   category: produk-hukum
   title_id: "TAP MPRS No. XX/MPRS/1966: Penegasan Pancasila sebagai Sumber Tertib
@@ -527,7 +528,7 @@
     perundang-undangan dan menempatkan Pancasila sebagai sumber dari segala
     sumber hukum negara.
   source_ids:
-    - tap-amandemen-uud-1999-2002
+    - anri-risalah-sidang-mprs-1967
   dimension_ids:
     - negara-hukum
     - sila-1

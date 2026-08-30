@@ -1,4 +1,14 @@
 # Periode Majelis Permusyawaratan Rakyat Republik Indonesia
+# Istilah MPRS (1959-1971) ditutup agar TAP MPRS 1966-1967 serta era Dekrit 1959
+# memiliki home; sebelumnya peristiwa itu salah diletakkan di mpr-1971-1999.
+
+- id: mprs-1959-1971
+  institution_id: mpr-ri
+  label_id: MPRS (Majelis Permusyawaratan Rakyat Sementara) 1959–1971
+  era: demokrasi-terpimpin
+  start_date: "1959-08-22"
+  end_date: "1971-10-28"
+  actors: []
 
 - id: mpr-1971-1999
   institution_id: mpr-ri

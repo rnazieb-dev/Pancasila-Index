@@ -686,20 +686,6 @@
   dimension_ids:
     - tujuan-4
     - checks-balances
-- id: ev-mk-pembatalan-uu-kelistrikan-2004
-  term_id: mk-2003-2008
-  date: 2004-12-15
-  category: pengadilan
-  title_id: Putusan MK No. 001-021-022/PUU-I/2003 Membatalkan UU Ketenagalistrikan
-  summary_id: MK membatalkan UU No. 20/2002 karena privatisasi sektor listrik
-    melanggar Pasal 33 ayat 2 UUD 1945 bahwa cabang produksi penting bagi hajat
-    hidup orang banyak wajib dikuasai negara.
-  source_ids:
-    - putusan-mk-001-puu-i-2003
-  dimension_ids:
-    - sila-5
-    - negara-hukum
-    - tujuan-2
 - id: ev-bpk-audit-kpu-2004
   term_id: bpk-1998-2009
   date: 2004-12-10

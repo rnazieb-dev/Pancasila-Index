@@ -1,3 +1,49 @@
+- id: ev-piagam-jakarta-1945
+  term_id: presiden-soekarno-i
+  date: 1945-06-22
+  category: produk-hukum
+  title_id: Piagam Jakarta (Jakarta Charter) 22 Juni 1945
+  summary_id: >-
+    Panitia Sembilan merumuskan Piagam Jakarta yang memuat dasar negara,
+    mendahului sila Ketuhanan dengan kewajiban menjalankan syariat Islam bagi
+    pemeluknya — rumusan yang kemudian pada 18 Agustus 1945 dipangkas tujuh kata
+    terakhirnya demi kesatuan nasional.
+  source_ids:
+    - anri-piagam-jakarta-1945
+  dimension_ids:
+    - sila-1
+    - sila-3
+
+- id: ev-bpupk-perancang-uud-1945
+  term_id: presiden-soekarno-i
+  date: 1945-07-11
+  category: produk-hukum
+  title_id: Notulen Sidang Panitia Perancang Undang-Undang Dasar BPUPK
+  summary_id: >-
+    Panitia Perancang Undang-Undang Dasar BPUPK menyusun pembahasan konstitusi,
+    termasuk sila-sila dasar negara, yang menjadi bahan finalisasi UUD 1945 dan
+    Pembukaannya.
+  source_ids:
+    - anri-risalah-bpupk-pringgodigdo-1945
+  dimension_ids:
+    - sila-1
+    - negara-hukum
+
+- id: ev-konstituante-ham-1958
+  term_id: presiden-soekarno-i
+  date: 1958-01-01
+  category: peristiwa
+  title_id: Komisi Hak-Hak Asasi Manusia Konstituante 1958
+  summary_id: >-
+    Konstituante membahas pengakuan hak-hak asasi manusia dan hak warga negara
+    sebagai bagian dari rancangan konstitusi pengganti UUD 1945, sebelum proses
+    itu diakhiri Dekrit Presiden 5 Juli 1959.
+  source_ids:
+    - anri-risalah-konstituante-ham-1958
+  dimension_ids:
+    - sila-2
+    - sila-5
+
 - id: ev-maklumat-wapres-x-1945
   term_id: presiden-soekarno-i
   date: 1945-11-03

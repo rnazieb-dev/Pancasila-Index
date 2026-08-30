@@ -1,3 +1,33 @@
+- id: ev-perjanjian-new-york-1962
+  term_id: presiden-soekarno-ii
+  date: 1962-08-15
+  category: kebijakan
+  title_id: Persetujuan New York 1962 tentang Papua Barat
+  summary_id: >-
+    RI dan Belanda menyepakati penyerahan administrasi Papua Barat melalui
+    Persetujuan New York, menggantikan sengketa wilayah dengan mekanisme
+    perwakilan rakyat yang kemudian dijalankan lewat Pepera 1969.
+  source_ids:
+    - un-new-york-agreement-1962
+  dimension_ids:
+    - checks-balances
+    - sila-3
+
+- id: ev-manifesto-papua-1961
+  term_id: presiden-soekarno-ii
+  date: 1961-02-21
+  category: kebijakan
+  title_id: Manifesto Papua dan Peta Ilusi Impian (Trikora)
+  summary_id: >-
+    Pemerintah Indonesia menegaskan aspirasi pembebasan Papua Barat dari
+    kekuasaan Belanda dan menyusun Trikora sebagai landasan perjuangan
+    integrasi wilayah tersebut.
+  source_ids:
+    - nanl-papua-manifesto-1961
+  dimension_ids:
+    - sila-3
+    - kedaulatan-rakyat
+
 - id: ev-penpres-2-1959-mprs
   term_id: presiden-soekarno-ii
   date: 1959-07-22

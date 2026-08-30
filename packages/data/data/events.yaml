@@ -490,21 +490,6 @@
   source_ids: [uu-6-2023]
   dimension_ids: [negara-hukum, checks-balances]
 
-- id: ev-jokowi2-rkuhp
-  term_id: presiden-jokowi-ii
-  date: "2022-12"
-  category: produk-hukum
-  title_id: RKUHP disahkan menjadi UU No. 1/2023
-  summary_id: >-
-    6 Desember 2022, DPR mengesahkan KUHP baru - yang pertama bukan warisan kolonial -
-    setelah dua kali ditunda karena protes. Pasal-pasal sensitif tetap masuk: kriminalisasi
-    kritik terhadap presiden, "hidup bersama sebagai suami-istri di luar nikah", dan
-    pengetahuan kontrasepsi oleh pihak ketiga. Presiden menandatanganinya 2 Januari
-    2023 dengan catatan bahwa berlaku baru tiga tahun lagi - memberi waktu bagi generasi
-    berikutnya untuk merevisinya.
-  source_ids: [uu-1-2023]
-  dimension_ids: [sila-4, sila-2]
-
 - id: ev-jokowi2-ikn
   term_id: presiden-jokowi-ii
   date: "2022-01"
@@ -2365,7 +2350,7 @@
 # ======================== MAJELIS PERMUSYAWARATAN RAKYAT ========================
 
 - id: ev-mpr-tap-xi-1998
-  term_id: mpr-1999-2004
+  term_id: mpr-1971-1999
   date: "1998-11-13"
   category: produk-hukum
   title_id: TAP MPR No. XI/MPR/1998 tentang Penyelenggara Negara Bebas KKN
@@ -2377,7 +2362,7 @@
   dimension_ids: [negara-hukum, sila-5, checks-balances]
 
 - id: ev-mpr-tap-xvii-1998
-  term_id: mpr-1999-2004
+  term_id: mpr-1971-1999
   date: "1998-11-13"
   category: produk-hukum
   title_id: TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia
@@ -2625,17 +2610,6 @@
 
 # ======================== KOMISI YUDISIAL ========================
 
-- id: ev-ky-uu-22-2004
-  term_id: ky-2005-2010
-  date: "2004-08-13"
-  category: produk-hukum
-  title_id: Pengesahan UU No. 22 Tahun 2004 tentang Komisi Yudisial
-  summary_id: >-
-    Pengesahan payung hukum pembentukan Komisi Yudisial sebagai lembaga independen
-    penjaga integritas martabat peradilan dan pengusul seleksi calon hakim agung ke DPR.
-  source_ids: [uu-22-2004]
-  dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-ky-putusan-mk-005-2006
   term_id: ky-2005-2010
   date: "2006-08-23"
@@ -2740,7 +2714,7 @@
   dimension_ids: [checks-balances, negara-hukum]
 
 - id: ev-mpr-tap-xxxiii-1967
-  term_id: mpr-1971-1999
+  term_id: mprs-1959-1971
   date: "1967-03-12"
   category: kebijakan
   title_id: TAP MPRS XXXIII/MPRS/1967 Pencabutan Kekuasaan Presiden Sukarno
@@ -2898,7 +2872,7 @@
   dimension_ids: [tujuan-1, negara-hukum]
 
 - id: ev-dpr-uuds-1950
-  term_id: presiden-soekarno-i
+  term_id: dpr-1950-1960
   date: "1950-08-17"
   category: produk-hukum
   title_id: Kembali ke Negara Kesatuan RI dan Pemberlakuan UUDS 1950

@@ -208,6 +208,14 @@ for (const s of sourcesRaw) {
   if (seenSrcIds.has(s.id)) errors.push(`source ${s.id}: id ganda di sources.yaml`);
   seenSrcIds.add(s.id);
 }
+// ---- peristiwa: id tidak boleh ganda (mencegah duplikat diam-diam ketika
+// events.yaml legacy dan events/*.yaml terisi entitas yang sama) ----
+const seenEventIds = new Set<string>();
+for (const e of events) {
+  if (seenEventIds.has(e.id))
+    errors.push(`event ${e.id}: id ganda (events.yaml + events/*.yaml)`);
+  seenEventIds.add(e.id);
+}
 const eventIds = new Set(events.map((e) => e.id));
 const actorIds = new Set(actors.map((a) => a.id));
 

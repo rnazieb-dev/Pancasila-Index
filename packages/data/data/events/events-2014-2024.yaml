@@ -1,3 +1,33 @@
+- id: ev-uu-pemda-23-2014
+  term_id: presiden-jokowi-i
+  date: 2014-09-30
+  category: produk-hukum
+  title_id: UU No. 23 Tahun 2014 tentang Pemerintahan Daerah
+  summary_id: >-
+    Undang-undang penataan pemerintahan daerah disahkan dengan mempertegas
+    pembagian urusan pemerintahan pusat-daerah, keuangan, dan pengawasan
+    penyelenggaraan otonomi daerah.
+  source_ids:
+    - uu-23-2014
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+
+- id: ev-uu-pilkada-19-2016
+  term_id: presiden-jokowi-i
+  date: 2016-07-15
+  category: produk-hukum
+  title_id: UU No. 19 Tahun 2016 tentang Pemilihan Kepala Daerah
+  summary_id: >-
+    Revisi UU Pilkada mengatur kembali penyelenggaraan pemilihan kepala daerah
+    langsung, termasuk penyelenggaraan serentak dan mekanisme penyelesaian
+    sengketa hasil pilkada.
+  source_ids:
+    - uu-19-2016
+  dimension_ids:
+    - kedaulatan-rakyat
+    - negara-hukum
+
 - id: ev-mk-putusan-spdp-2016
   term_id: mk-2013-2018
   date: 2016-01-11

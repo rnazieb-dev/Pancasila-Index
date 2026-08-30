@@ -1550,6 +1550,42 @@
       ]
     },
     {
+      "id": "dpr-knip-1945-1950",
+      "institution_id": "dpr-ri",
+      "label_id": "Komite Nasional Indonesia Pusat (KNIP) 1945–1950",
+      "era": "revolusi",
+      "start_date": "1945-08-22",
+      "end_date": "1950-02-16",
+      "actors": []
+    },
+    {
+      "id": "dpr-1950-1960",
+      "institution_id": "dpr-ri",
+      "label_id": "DPR RI Era Parlementer 1950–1959",
+      "era": "demokrasi-liberal",
+      "start_date": "1950-02-16",
+      "end_date": "1959-07-05",
+      "actors": []
+    },
+    {
+      "id": "dpr-gr-1960-1971",
+      "institution_id": "dpr-ri",
+      "label_id": "DPR Gotong Royong (DPR-GR) 1960–1971",
+      "era": "demokrasi-terpimpin",
+      "start_date": "1960-06-25",
+      "end_date": "1971-10-28",
+      "actors": []
+    },
+    {
+      "id": "dpr-1971-1999",
+      "institution_id": "dpr-ri",
+      "label_id": "DPR RI Era Orde Baru 1971–1999",
+      "era": "orde-baru",
+      "start_date": "1971-10-28",
+      "end_date": "1999-10-01",
+      "actors": []
+    },
+    {
       "id": "dpr-1999-2004",
       "institution_id": "dpr-ri",
       "label_id": "DPR RI Hasil Pemilu 1999",
@@ -1958,6 +1994,15 @@
           "actor_id": "saldi-isra"
         }
       ]
+    },
+    {
+      "id": "mprs-1959-1971",
+      "institution_id": "mpr-ri",
+      "label_id": "MPRS (Majelis Permusyawaratan Rakyat Sementara) 1959–1971",
+      "era": "demokrasi-terpimpin",
+      "start_date": "1959-08-22",
+      "end_date": "1971-10-28",
+      "actors": []
     },
     {
       "id": "mpr-1971-1999",
@@ -5224,22 +5269,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-jokowi2-rkuhp",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2022-12",
-      "category": "produk-hukum",
-      "title_id": "RKUHP disahkan menjadi UU No. 1/2023",
-      "summary_id": "6 Desember 2022, DPR mengesahkan KUHP baru - yang pertama bukan warisan kolonial - setelah dua kali ditunda karena protes. Pasal-pasal sensitif tetap masuk: kriminalisasi kritik terhadap presiden, \"hidup bersama sebagai suami-istri di luar nikah\", dan pengetahuan kontrasepsi oleh pihak ketiga. Presiden menandatanganinya 2 Januari 2023 dengan catatan bahwa berlaku baru tiga tahun lagi - memberi waktu bagi generasi berikutnya untuk merevisinya.",
-      "source_ids": [
-        "uu-1-2023"
-      ],
-      "dimension_ids": [
-        "sila-4",
-        "sila-2"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-jokowi2-ikn",
       "term_id": "presiden-jokowi-ii",
       "date": "2022-01",
@@ -7237,7 +7266,7 @@
     },
     {
       "id": "ev-mpr-tap-xi-1998",
-      "term_id": "mpr-1999-2004",
+      "term_id": "mpr-1971-1999",
       "date": "1998-11-13",
       "category": "produk-hukum",
       "title_id": "TAP MPR No. XI/MPR/1998 tentang Penyelenggara Negara Bebas KKN",
@@ -7254,7 +7283,7 @@
     },
     {
       "id": "ev-mpr-tap-xvii-1998",
-      "term_id": "mpr-1999-2004",
+      "term_id": "mpr-1971-1999",
       "date": "1998-11-13",
       "category": "produk-hukum",
       "title_id": "TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia",
@@ -7593,22 +7622,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-ky-uu-22-2004",
-      "term_id": "ky-2005-2010",
-      "date": "2004-08-13",
-      "category": "produk-hukum",
-      "title_id": "Pengesahan UU No. 22 Tahun 2004 tentang Komisi Yudisial",
-      "summary_id": "Pengesahan payung hukum pembentukan Komisi Yudisial sebagai lembaga independen penjaga integritas martabat peradilan dan pengusul seleksi calon hakim agung ke DPR.",
-      "source_ids": [
-        "uu-22-2004"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "checks-balances"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-ky-putusan-mk-005-2006",
       "term_id": "ky-2005-2010",
       "date": "2006-08-23",
@@ -7754,7 +7767,7 @@
     },
     {
       "id": "ev-mpr-tap-xxxiii-1967",
-      "term_id": "mpr-1971-1999",
+      "term_id": "mprs-1959-1971",
       "date": "1967-03-12",
       "category": "kebijakan",
       "title_id": "TAP MPRS XXXIII/MPRS/1967 Pencabutan Kekuasaan Presiden Sukarno",
@@ -7980,7 +7993,7 @@
     },
     {
       "id": "ev-dpr-uuds-1950",
-      "term_id": "presiden-soekarno-i",
+      "term_id": "dpr-1950-1960",
       "date": "1950-08-17",
       "category": "produk-hukum",
       "title_id": "Kembali ke Negara Kesatuan RI dan Pemberlakuan UUDS 1950",
@@ -8039,6 +8052,54 @@
       "dimension_ids": [
         "checks-balances",
         "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-piagam-jakarta-1945",
+      "term_id": "presiden-soekarno-i",
+      "date": "1945-06-22",
+      "category": "produk-hukum",
+      "title_id": "Piagam Jakarta (Jakarta Charter) 22 Juni 1945",
+      "summary_id": "Panitia Sembilan merumuskan Piagam Jakarta yang memuat dasar negara, mendahului sila Ketuhanan dengan kewajiban menjalankan syariat Islam bagi pemeluknya — rumusan yang kemudian pada 18 Agustus 1945 dipangkas tujuh kata terakhirnya demi kesatuan nasional.",
+      "source_ids": [
+        "anri-piagam-jakarta-1945"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-bpupk-perancang-uud-1945",
+      "term_id": "presiden-soekarno-i",
+      "date": "1945-07-11",
+      "category": "produk-hukum",
+      "title_id": "Notulen Sidang Panitia Perancang Undang-Undang Dasar BPUPK",
+      "summary_id": "Panitia Perancang Undang-Undang Dasar BPUPK menyusun pembahasan konstitusi, termasuk sila-sila dasar negara, yang menjadi bahan finalisasi UUD 1945 dan Pembukaannya.",
+      "source_ids": [
+        "anri-risalah-bpupk-pringgodigdo-1945"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-konstituante-ham-1958",
+      "term_id": "presiden-soekarno-i",
+      "date": "1958-01-01",
+      "category": "peristiwa",
+      "title_id": "Komisi Hak-Hak Asasi Manusia Konstituante 1958",
+      "summary_id": "Konstituante membahas pengakuan hak-hak asasi manusia dan hak warga negara sebagai bagian dari rancangan konstitusi pengganti UUD 1945, sebelum proses itu diakhiri Dekrit Presiden 5 Juli 1959.",
+      "source_ids": [
+        "anri-risalah-konstituante-ham-1958"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "sila-5"
       ],
       "actor_ids": []
     },
@@ -8560,6 +8621,38 @@
       "actor_ids": []
     },
     {
+      "id": "ev-perjanjian-new-york-1962",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1962-08-15",
+      "category": "kebijakan",
+      "title_id": "Persetujuan New York 1962 tentang Papua Barat",
+      "summary_id": "RI dan Belanda menyepakati penyerahan administrasi Papua Barat melalui Persetujuan New York, menggantikan sengketa wilayah dengan mekanisme perwakilan rakyat yang kemudian dijalankan lewat Pepera 1969.",
+      "source_ids": [
+        "un-new-york-agreement-1962"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-manifesto-papua-1961",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1961-02-21",
+      "category": "kebijakan",
+      "title_id": "Manifesto Papua dan Peta Ilusi Impian (Trikora)",
+      "summary_id": "Pemerintah Indonesia menegaskan aspirasi pembebasan Papua Barat dari kekuasaan Belanda dan menyusun Trikora sebagai landasan perjuangan integrasi wilayah tersebut.",
+      "source_ids": [
+        "nanl-papua-manifesto-1961"
+      ],
+      "dimension_ids": [
+        "sila-3",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
       "id": "ev-penpres-2-1959-mprs",
       "term_id": "presiden-soekarno-ii",
       "date": "1959-07-22",
@@ -8861,6 +8954,22 @@
       "dimension_ids": [
         "sila-5",
         "tujuan-2",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-petisi-50-1980",
+      "term_id": "presiden-soeharto",
+      "date": "1980-05-05",
+      "category": "peristiwa",
+      "title_id": "Petisi 50 1980 - Kritik Tokoh Terhadap Orde Baru",
+      "summary_id": "Sejumlah tokoh nasional menandatangani Petisi 50 yang mengkritik penggunaan Pancasila sebagai alat pembenaran kekuasaan, memicu pembatasan dan pelarangan aktivitas para penandatangan pada era Orde Baru.",
+      "source_ids": [
+        "anri-petisi-50-pernyataan-1980"
+      ],
+      "dimension_ids": [
+        "sila-4",
         "kedaulatan-rakyat"
       ],
       "actor_ids": []
@@ -9228,7 +9337,8 @@
       "title_id": "Penentuan Pendapat Rakyat (PEPERA) 1969 dan Pengesahan Resolusi PBB 2504",
       "summary_id": "Pelaksanaan Penentuan Pendapat Rakyat (Act of Free Choice) di Irian Barat menghasilkan keputusan mutlak tetap bergabung dengan NKRI, yang secara resmi dicatat dan disahkan oleh Majelis Umum PBB melalui Resolusi No. 2504 (XXIV) untuk mengukuhkan keutuhan wilayah Indonesia dari Sabang sampai Merauke.",
       "source_ids": [
-        "resolusi-pbb-2504-1969"
+        "resolusi-pbb-2504-1969",
+        "un-pepera-resolusi-2504-1969"
       ],
       "dimension_ids": [
         "tujuan-1",
@@ -9297,22 +9407,6 @@
       "dimension_ids": [
         "kedaulatan-rakyat",
         "sila-4"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-tap-mpr-p4-ekaprasetia-1978",
-      "term_id": "mpr-1971-1999",
-      "date": "1978-03-22",
-      "category": "produk-hukum",
-      "title_id": "TAP MPR No. II/MPR/1978 tentang Pedoman Penghayatan dan Pengamalan Pancasila (P4)",
-      "summary_id": "MPR menetapkan materi baku penataran P4 (Ekaprasetia Pancakarsa) sebagai pedoman resmi tafsir Pancasila bagi seluruh aparatur negara, pelajar, mahasiswa, dan organisasi masyarakat melalui Badan Pembina Pendidikan Pelaksanaan Pedoman Penghayatan dan Pengamalan Pancasila (BP7).",
-      "source_ids": [
-        "tap-mpr-ii-1978"
-      ],
-      "dimension_ids": [
-        "sila-1",
-        "sila-3"
       ],
       "actor_ids": []
     },
@@ -9450,13 +9544,13 @@
     },
     {
       "id": "ev-mprs-tap-xx-1966",
-      "term_id": "mpr-1971-1999",
+      "term_id": "mprs-1959-1971",
       "date": "1966-07-05",
       "category": "produk-hukum",
       "title_id": "TAP MPRS No. XX/MPRS/1966: Penegasan Pancasila sebagai Sumber Tertib Hukum RI",
       "summary_id": "MPRS menetapkan memorandum DPR-GR tentang tata urutan peraturan perundang-undangan dan menempatkan Pancasila sebagai sumber dari segala sumber hukum negara.",
       "source_ids": [
-        "tap-amandemen-uud-1999-2002"
+        "anri-risalah-sidang-mprs-1967"
       ],
       "dimension_ids": [
         "negara-hukum",
@@ -10326,23 +10420,6 @@
       "dimension_ids": [
         "tujuan-4",
         "checks-balances"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mk-pembatalan-uu-kelistrikan-2004",
-      "term_id": "mk-2003-2008",
-      "date": "2004-12-15",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 001-021-022/PUU-I/2003 Membatalkan UU Ketenagalistrikan",
-      "summary_id": "MK membatalkan UU No. 20/2002 karena privatisasi sektor listrik melanggar Pasal 33 ayat 2 UUD 1945 bahwa cabang produksi penting bagi hajat hidup orang banyak wajib dikuasai negara.",
-      "source_ids": [
-        "putusan-mk-001-puu-i-2003"
-      ],
-      "dimension_ids": [
-        "sila-5",
-        "negara-hukum",
-        "tujuan-2"
       ],
       "actor_ids": []
     },
@@ -12097,6 +12174,38 @@
         "checks-balances",
         "negara-hukum",
         "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-uu-pemda-23-2014",
+      "term_id": "presiden-jokowi-i",
+      "date": "2014-09-30",
+      "category": "produk-hukum",
+      "title_id": "UU No. 23 Tahun 2014 tentang Pemerintahan Daerah",
+      "summary_id": "Undang-undang penataan pemerintahan daerah disahkan dengan mempertegas pembagian urusan pemerintahan pusat-daerah, keuangan, dan pengawasan penyelenggaraan otonomi daerah.",
+      "source_ids": [
+        "uu-23-2014"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-uu-pilkada-19-2016",
+      "term_id": "presiden-jokowi-i",
+      "date": "2016-07-15",
+      "category": "produk-hukum",
+      "title_id": "UU No. 19 Tahun 2016 tentang Pemilihan Kepala Daerah",
+      "summary_id": "Revisi UU Pilkada mengatur kembali penyelenggaraan pemilihan kepala daerah langsung, termasuk penyelenggaraan serentak dan mekanisme penyelesaian sengketa hasil pilkada.",
+      "source_ids": [
+        "uu-19-2016"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -22768,7 +22877,7 @@
             }
           ],
           "event_ids": [
-            "ev-jokowi2-rkuhp",
+            "ev-dpr19-rkuhp-final",
             "ev-presiden-pengakuan-pelanggaran-ham-2023",
             "ev-konflik-agraria-psn-wadas-2022",
             "ev-konflik-agraria-psn-rempang-2023",
@@ -25272,10 +25381,13 @@
           "evidence": [
             {
               "source_id": "putusan-mk-001-puu-i-2003"
+            },
+            {
+              "source_id": "putusan-mk-001-021-022-puu-i-2003"
             }
           ],
           "event_ids": [
-            "ev-mk-pembatalan-uu-kelistrikan-2004"
+            "ev-mk-putusan-kelistrikan-2004"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -25346,11 +25458,14 @@
             },
             {
               "source_id": "putusan-mk-5-puu-v-2007"
+            },
+            {
+              "source_id": "putusan-mk-001-021-022-puu-i-2003"
             }
           ],
           "event_ids": [
             "ev-mk-putusan-penyadapan-kpk-2006",
-            "ev-mk-pembatalan-uu-kelistrikan-2004",
+            "ev-mk-putusan-kelistrikan-2004",
             "ev-mk-putusan-kkr-2006",
             "ev-mk-putusan-ky-hakim-agung-2006",
             "ev-mk-putusan-lese-majeste-2006",
@@ -25451,7 +25566,7 @@
           ],
           "event_ids": [
             "ev-mk-putusan-kelistrikan-2004",
-            "ev-mk-pembatalan-uu-kelistrikan-2004"
+            "ev-mk-putusan-kelistrikan-2004"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -25485,10 +25600,13 @@
           "evidence": [
             {
               "source_id": "putusan-mk-001-puu-i-2003"
+            },
+            {
+              "source_id": "putusan-mk-001-021-022-puu-i-2003"
             }
           ],
           "event_ids": [
-            "ev-mk-pembatalan-uu-kelistrikan-2004"
+            "ev-mk-putusan-kelistrikan-2004"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27685,6 +27803,9 @@
             },
             {
               "source_id": "uu-8-1985"
+            },
+            {
+              "source_id": "un-pepera-resolusi-2504-1969"
             }
           ],
           "event_ids": [
@@ -27800,6 +27921,9 @@
             },
             {
               "source_id": "resolusi-pbb-2504-1969"
+            },
+            {
+              "source_id": "un-pepera-resolusi-2504-1969"
             }
           ],
           "event_ids": [
@@ -32085,7 +32209,7 @@
             }
           ],
           "event_ids": [
-            "ev-ky-uu-22-2004",
+            "ev-uu-ky-2004",
             "ev-ky-skb-kepph-2009",
             "ev-ky-mkh-pertama-2009",
             "ev-ky-laporan-mafia-peradilan-2007",
@@ -33277,10 +33401,13 @@
             },
             {
               "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "anri-risalah-sidang-mprs-1967"
             }
           ],
           "event_ids": [
-            "ev-tap-mpr-p4-ekaprasetia-1978",
+            "ev-tap-mpr-ii-1978-p4",
             "ev-mprs-tap-xx-1966"
           ],
           "normative_anchors": [
@@ -33298,10 +33425,13 @@
             },
             {
               "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "anri-risalah-sidang-mprs-1967"
             }
           ],
           "event_ids": [
-            "ev-tap-mpr-p4-ekaprasetia-1978",
+            "ev-tap-mpr-ii-1978-p4",
             "ev-mprs-tap-xx-1966"
           ],
           "normative_anchors": [
@@ -33431,6 +33561,9 @@
             },
             {
               "source_id": "tap-mpr-xi-1998"
+            },
+            {
+              "source_id": "anri-risalah-sidang-mprs-1967"
             }
           ],
           "event_ids": [
@@ -34503,10 +34636,268 @@
           "evidence": [
             {
               "source_id": "risalah-paripurna-dpd-oktober-2024"
+            },
+            {
+              "source_id": "laporan-pilkada-kpu-2024"
             }
           ],
           "event_ids": [
+            "ev-dpd-pengawasan-pilkada-2024",
             "ev-dpd-pemilihan-sultan-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-mprs-1959-1971",
+      "term_id": "mprs-1959-1971",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-30",
+      "dimension_scores": [
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.5,
+          "rationale_id": "Dekrit Presiden 5 Juli 1959 membubarkan Konstituante dan mengembalikan UUD 1945 sebagai sumber hukum, menegakkan kembali konstitusi yang lama setelah periode parlementer.",
+          "evidence": [
+            {
+              "source_id": "anri-dekrit-presiden-5-juli-1959"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": 0,
+          "confidence": 0.55,
+          "rationale_id": "Supersemar 1966 dan TAP MPRS XXXIII/1967 serta XLIV/1968 melegitimasi peralihan kekuasaan ke Orde Baru, tetapi mekanisme MPRS yang keanggotaannya ditunjuk membuat pembatasan eksekutif tidak efektif.",
+          "evidence": [
+            {
+              "source_id": "anri-supersemar-1966"
+            },
+            {
+              "source_id": "tap-mprs-xxxiii-1967"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.5,
+          "rationale_id": "MPRS menegaskan Pancasila sebagai sumber tertib hukum termasuk sila Ketuhanan, namun penafsirannya dikendalikan oleh kekuasaan, bukan ruang tafsir bebas warga.",
+          "evidence": [
+            {
+              "source_id": "anri-risalah-sidang-mprs-1967"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-dpr-knip-1945-1950",
+      "term_id": "dpr-knip-1945-1950",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-30",
+      "dimension_scores": [
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.55,
+          "rationale_id": "PPKI membentuk KNIP sebagai badan perwakilan, dan Maklumat Pemerintah X serta Maklumat 14 November 1945 memperluas partisipasi politik partai dan menata kedaulatan rakyat pasca-proklamasi.",
+          "evidence": [
+            {
+              "source_id": "anri-ppki-sidang-22-agu-1945"
+            },
+            {
+              "source_id": "anri-maklumat-wakil-presiden-x-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.5,
+          "rationale_id": "Pergeseran dari presidensial ke sistem parlementer lewat Maklumat 14 November 1945 menunjukkan negara mengadopsi musyawarah perwakilan dalam merumuskan pemerintahan.",
+          "evidence": [
+            {
+              "source_id": "anri-maklumat-kabinet-parlementer-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-dpr-1950-1960",
+      "term_id": "dpr-1950-1960",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-30",
+      "dimension_scores": [
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.55,
+          "rationale_id": "Persetujuan kembali ke NKRI 1950, pembentukan Konstituante, dan kisi-kisi dasar negara yang dibahas di dalamnya menghidupkan lembaga perwakilan dan perdebatan konstitusional secara terbuka.",
+          "evidence": [
+            {
+              "source_id": "anri-piagam-persetujuan-nkri-1950"
+            },
+            {
+              "source_id": "anri-risalah-konstituante-natsir-1957"
+            },
+            {
+              "source_id": "uuds-1950"
+            }
+          ],
+          "event_ids": [
+            "ev-dpr-uuds-1950"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 0,
+          "confidence": 0.5,
+          "rationale_id": "Konstituante membahas dasar negara dan hak asasi manusia, tetapi Pemerintah mengakhiri proses tersebut lewat Dekrit Presiden 1959 sebelum kesepakatan tercapai.",
+          "evidence": [
+            {
+              "source_id": "anri-risalah-konstituante-ham-1958"
+            },
+            {
+              "source_id": "anri-dekrit-presiden-5-juli-1959"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-dpr-gr-1960-1971",
+      "term_id": "dpr-gr-1960-1971",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-30",
+      "dimension_scores": [
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.5,
+          "rationale_id": "DPR-GR melahirkan undang-undang pokok penting seperti UUPA No. 5 Tahun 1960 yang menata ulang struktur agraria nasional di atas dasar hukum konstitusi.",
+          "evidence": [
+            {
+              "source_id": "anri-uupa-5-1960"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 0,
+          "confidence": 0.55,
+          "rationale_id": "DPR-GR yang keanggotaannya banyak ditunjuk mereduksi fungsi kontrol legislatif, dan Supersemar 1966 memindahkan kekuasaan ke eksekutif sehingga lembaga perwakilan kehilangan kemandirian.",
+          "evidence": [
+            {
+              "source_id": "anri-supersemar-1966"
+            },
+            {
+              "source_id": "tap-mprs-xxv-1966"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asm-dpr-1971-1999",
+      "term_id": "dpr-1971-1999",
+      "rubric_version": "1.0.0",
+      "status": "draft",
+      "reviewers": [
+        "Pipeline AI (draf awal)"
+      ],
+      "ai_suggested": true,
+      "human_confirmed": false,
+      "created_at": "2026-08-30",
+      "dimension_scores": [
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.55,
+          "rationale_id": "Pada akhir era Orde Baru, Sidang Istimewa MPR 1998 dan TAP MPR XI/MPR/1998 merespons tuntutan reformasi untuk memberantas KKN dan menegakkan penyelenggaraan negara yang bebas korupsi.",
+          "evidence": [
+            {
+              "source_id": "anri-risalah-si-mpr-1998"
+            },
+            {
+              "source_id": "tap-mpr-xi-1998"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-tap-xi-1998"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.55,
+          "rationale_id": "TAP MPR XVII/MPR/1998 tentang Hak Asasi Manusia meletakkan Piagam HAM sebagai landasan pengakuan hak-hak warga setelah otoritarianisme, menjadi titik balik pasca-Orde Baru.",
+          "evidence": [
+            {
+              "source_id": "tap-mpr-xvii-1998"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-tap-xvii-1998"
           ],
           "normative_anchors": [
             "uud-nri-1945"
