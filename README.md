@@ -71,12 +71,33 @@ atau kebijakan baru — dan setiap tambahan ditinjau sejawat.
 ## Skala hari ini
 
 Angka-angka di bawah berasal dari hasil `pnpm build:data` terakhir dan
-bisa diaudit langsung di `packages/data/generated/dataset.json`.
+bisa diaudit langsung di `packages/data/generated/dataset.json`. Sumber
+rujukan untuk klaim UUD adalah teks otoritatif UUD 1945 dalam satu
+naskah (Wikisource, terverifikasi terhadap Risalah Rapat Paripurna ke-5
+Sidang Tahunan MPR Tahun 2002).
 
 |  |  |  |  |
 |---:|---:|---:|---:|
-| **8** organ dinilai | **50** masa jabatan | **695** peristiwa berbukti | **634** sumber primer |
-| **12** dimensi penilaian | **123** aktor tertaut | **78** pasal UUD termuat (68 termeta ke dimensi) | **7** indeks eksternal |
+| **8** organ dinilai | **50** era konstitusional tercatat | **695** peristiwa berbukti | **634** sumber primer |
+| **12** dimensi penilaian | **123** aktor tertaut | **78** pasal UUD 1945 (73 batang tubuh + 3 Peralihan + 2 Tambahan) | **7** indeks eksternal |
+
+Catatan tentang dua angka:
+
+- **78 pasal** adalah total seluruh pasal UUD 1945 setelah empat
+  amandemen (1999-2002). Bukan hanya batang tubuh (73 pasal, nomor 1
+  sampai 37 dengan sisipan A/B/C), melainkan termasuk 3 Pasal Aturan
+  Peralihan dan 2 Pasal Aturan Tambahan. Pembagian: 21 bab (16 utama + 5
+  sisipan VIIA, VIIB, VIIIA, IXA, XA). Sumber verifikasi: teks UUD
+  1945 dalam satu naskah.
+- **50 era** bukan "satu masa jabatan per periode pemilihan". Dataset
+  memilih unit per **era konstitusional** yang punya cukup peristiwa
+  untuk dinilai — mis. satu masa "Orde Baru" bisa menjadi satu term
+  meskipun di dalamnya ada beberapa periode pemilihan. Untuk pembaca
+  yang ingin tahu "ada berapa periode pemilihan", Wikipedia
+  [Daftar pemilihan legislatif Indonesia](https://id.wikipedia.org/wiki/Pemilihan_umum_legislatif_Indonesia)
+  mencantumkan 16 periode DPR sejak 1955. Pancasila Index memilih
+  unit yang lebih besar untuk menjaga signifikansi konstitusional
+  tiap kurasi.
 
 Dataset mentah untuk indeks eksternal (RSF, WGI Rule of Law, WGI Control of
 Corruption, dan empat lainnya) adalah lampiran di
