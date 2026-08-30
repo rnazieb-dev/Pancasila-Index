@@ -18,6 +18,14 @@ export function generateStaticParams() {
   return dataset.institutions.map((i) => ({ slug: i.slug }));
 }
 
+const ERA_LABEL: Record<string, string> = {
+  revolusi: "Revolusi",
+  "demokrasi-liberal": "Demokrasi Liberal",
+  "demokrasi-terpimpin": "Demokrasi Terpimpin",
+  "orde-baru": "Orde Baru",
+  reformasi: "Reformasi",
+};
+
 export default async function LembagaPage({
   params,
 }: {
@@ -104,23 +112,32 @@ export default async function LembagaPage({
             const index = summary?.index ?? null;
             const pct = index === null ? 0 : Math.min(100, Math.max(0, index));
             const termEvents = getEventsOfTerm(dataset, term.id);
+            const eraName = ERA_LABEL[term.era as keyof typeof ERA_LABEL] ?? term.era;
+            const qual = summaryQualLabel(summary);
 
             return (
               <Link
                 key={term.id}
                 href={`/lembaga/${institution.slug}/${term.id}`}
-                className="group flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-4 rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 hover:border-slate-400 hover:shadow-md transition"
+                className="group flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-5 rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3.5 hover:border-slate-400 hover:shadow-md transition"
               >
-                <div className="w-full sm:w-64 shrink-0">
-                  <div className="font-bold text-sm sm:text-base group-hover:text-[var(--acc-sky)] transition">
+                {/**** Kiri: nama masa jabatan + periode + era ****/}
+                <div className="w-full sm:w-72 shrink-0">
+                  <div className="font-bold text-sm sm:text-[15px] leading-snug group-hover:text-[var(--acc-sky)] transition">
                     {term.label_id}
                   </div>
-                  <div className="text-xs font-mono text-[var(--muted)] mt-0.5">
-                    {periodLabel(term.start_date, term.end_date)}
+                  <div className="flex items-center gap-2 mt-1">
+                    <span className="text-[11px] font-mono text-[var(--muted)] whitespace-nowrap">
+                      {periodLabel(term.start_date, term.end_date)}
+                    </span>
+                    <span className="truncate text-[10px] font-bold uppercase tracking-wide px-2 py-0.5 rounded-md bg-[var(--bg)] border border-[var(--line)]/60 text-[var(--muted)]">
+                      {eraName}
+                    </span>
                   </div>
                 </div>
 
-                <div className="w-full sm:flex-1 h-3 rounded-full bg-[var(--bg)] border border-[var(--line)] overflow-hidden">
+                {/**** Tengah: batang skor ****/}
+                <div className="w-full sm:flex-1 h-2.5 rounded-full bg-[var(--bg)] border border-[var(--line)] overflow-hidden">
                   <div
                     className="h-full rounded-full transition-all duration-500"
                     style={{
@@ -130,12 +147,13 @@ export default async function LembagaPage({
                   />
                 </div>
 
-                <div className="flex items-center justify-between sm:justify-end gap-3 w-full sm:w-auto shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-[var(--line)]">
-                  <span className="text-xs text-[var(--muted)] font-medium">
+                {/**** Kanan: jumlah peristiwa + skor + predikat ****/}
+                <div className="flex items-center gap-3 sm:gap-3.5 w-full sm:w-auto shrink-0">
+                  <span className="text-[11px] text-[var(--muted)] font-medium whitespace-nowrap">
                     {termEvents.length} peristiwa
                   </span>
                   <span
-                    className="rounded-full px-2.5 py-1 text-xs font-bold tabular-nums"
+                    className="rounded-full px-2.5 py-1 text-sm font-bold tabular-nums leading-none"
                     style={{
                       background:
                         index === null ? "#1e293b" : `${scoreColor(index / 25 - 2)}22`,
@@ -144,8 +162,11 @@ export default async function LembagaPage({
                   >
                     {summaryIndexLabel(summary)}
                   </span>
-                  <span className="text-xs text-[var(--muted)] w-20 text-right">
-                    {summary ? summaryQualLabel(summary).label : "-"}
+                  <span
+                    className="hidden sm:inline text-[10px] font-semibold whitespace-nowrap px-2 py-1 rounded-full leading-none"
+                    style={{ color: qual.color, background: qual.bg }}
+                  >
+                    {qual.label}
                   </span>
                 </div>
               </Link>

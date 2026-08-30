@@ -65,7 +65,7 @@ export default function LembagaIndex() {
 
               <div className="mt-6 pt-3 border-t border-[var(--line)] flex items-center justify-between text-xs">
                 <span className="text-[var(--muted)] font-medium">
-                  ⚡ {eventsCount} {t("eventsLabel")}
+                  {eventsCount} {t("eventsLabel")}
                 </span>
                 <span
                   className="rounded-md px-2.5 py-1 text-xs font-bold tabular-nums"

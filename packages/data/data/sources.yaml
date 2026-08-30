@@ -3361,6 +3361,15 @@
   r2_key: v2/laporan/laporan-investigasi-mbg-2025.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-investigasi-mbg-2025.pdf
   url: https://www.bpk.go.id/publikasi/laporan-pengadaan-mbg-2025
+- id: berita-mk-putusan-mbg-40-2026
+  type: berita
+  title_id: >-
+    Putusan MK No. 40/PUU-XXIV/2026 (30 Juli 2026) - anggaran program MBG wajib
+    dipisahkan dari anggaran pendidikan; dana pendidikan minimum 20% APBN/APBD
+    hanya untuk komponen utama pendidikan dan tidak lagi memuat program MBG
+  year: 2026
+  citation_id: Humas MKRI, 30 Juli 2026
+  url: https://www.mkri.id/berita/anggaran-mbg-harus-dipisahkan-dari-anggaran-pendidikan-25496
 - id: dakwaan-kejagung-timah-2024
   type: putusan-ma
   title_id: Surat Dakwaan Kejaksaan Agung Kasus Korupsi Tata Niaga Timah IUP PT
@@ -5216,3 +5225,224 @@
   year: 2024
   citation_id: Lembaran Negara RI Tahun 2024 No. 241
   url: https://jdih.setneg.go.id/detailperaturan?jns=PERPRES&no=139&thn=2024
+- id: uu-85-1958-depernas
+  title_id: Undang-Undang No. 85 Tahun 1958 tentang Pembentukan Dewan Perancang
+    Nasional (Depernas)
+  type: undang-undang
+  year: 1958
+  citation_id: LN RI No. 156/1958
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=85&thn=1958
+- id: pp-23-1958-nasionalisasi
+  title_id: Peraturan Pemerintah No. 23 Tahun 1958 tentang Penguasaan dan
+    Pengambilalihan Perusahaan-Perusahaan Belanda
+  type: keppres
+  year: 1958
+  citation_id: LN RI No. 39/1958
+  url: https://jdih.setneg.go.id/detailperaturan?jns=PP&no=23&thn=1958
+- id: uu-1-1957-pemda
+  title_id: Undang-Undang No. 1 Tahun 1957 tentang Pokok-Pokok Pemerintahan Daerah
+    (Desentralisasi Pertama)
+  type: undang-undang
+  year: 1957
+  citation_id: LN RI No. 6/1957
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=1957
+- id: penpres-3-1960-dpr-gr
+  title_id: Penetapan Presiden No. 3 Tahun 1960 tentang Pembubaran Dewan
+    Perwakilan Rakyat Hasil Pemilu 1955 dan Pembentukan DPR Gotong Royong
+  type: keppres
+  year: 1960
+  citation_id: LN RI No. 44/1960
+  url: https://jdih.setneg.go.id/detailperaturan?jns=PENPRES&no=3&thn=1960
+- id: keppres-200-1960-masyumi-psi
+  title_id: Keputusan Presiden No. 200 Tahun 1960 tentang Pembubaran Partai
+    Politik Masyumi dan PSI
+  type: keppres
+  year: 1960
+  citation_id: Keppres No. 200/1960
+  url: https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=200&thn=1960
+- id: perjanjian-new-york-1962
+  title_id: Perjanjian New York 15 Agustus 1962 tentang Penyerahan Irian Barat
+    kepada Pemerintahan Sementara PBB (UNTEA) dan Indonesia
+  type: arsip-nasional
+  year: 1962
+  citation_id: United Nations Treaty Series No. 6311
+  url: https://peacemaker.un.org/west-papua-newyorkagreement62
+- id: surat-pbb-keluar-1965
+  title_id: Surat Resmi Pemerintah Indonesia Tanggal 7 Januari 1965 tentang
+    Penarikan Diri dari Perserikatan Bangsa-Bangsa (PBB)
+  type: arsip-nasional
+  year: 1965
+  citation_id: UN Document A/5857 1965
+  url: https://digitallibrary.un.org/record/657388
+- id: keppres-1-3-1966-pembubaran-pki
+  title_id: Keputusan Presiden/Panglima Tertinggi ABRI/Mandataris MPRS No.
+    1/3/1966 tentang Pembubaran Partai Komunis Indonesia (PKI)
+  type: keppres
+  year: 1966
+  citation_id: Keppres No. 1/3/1966 jo. Tap MPRS XXV/1966
+  url: https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=1&thn=1966
+- id: uu-1-1967-pma
+  title_id: Undang-Undang No. 1 Tahun 1967 tentang Penanaman Modal Asing (PMA Orde Baru)
+  type: undang-undang
+  year: 1967
+  citation_id: LN RI No. 1/1967
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=1967
+- id: uu-3-1975-parpol-golkar
+  title_id: Undang-Undang No. 3 Tahun 1975 tentang Partai Politik dan Golongan
+    Karya (Fusi Partai Politik)
+  type: undang-undang
+  year: 1975
+  citation_id: LN RI No. 32/1975
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=1975
+- id: uu-7-1976-timtim
+  title_id: Undang-Undang No. 7 Tahun 1976 tentang Pengesahan Penyatuan Timor
+    Timur ke dalam Negara Kesatuan Republik Indonesia
+  type: undang-undang
+  year: 1976
+  citation_id: LN RI No. 35/1976
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=1976
+- id: dokumen-petisi-50-1980
+  title_id: "Pernyataan Keprihatinan (Petisi 50) Tanggal 5 Mei 1980: Gugatan Tokoh
+    Nasional atas Penggunaan Pancasila untuk Menyerang Oposisi"
+  type: arsip-nasional
+  year: 1980
+  citation_id: Dokumen Sejarah Petisi 50 / ANRI
+  url: https://anri.go.id/publikasi/arsip-tematik/petisi-50-1980
+- id: laporan-komnas-ham-priok-1984
+  title_id: Laporan Penyelidikan Pelanggaran Hak Asasi Manusia Peristiwa Tanjung
+    Priok 12 September 1984
+  type: laporan-lembaga
+  year: 2000
+  citation_id: Komnas HAM KKP-HAM Tanjung Priok 2000
+  url: https://www.komnasham.go.id/index.php/laporan-pemantauan
+- id: laporan-komnas-ham-talangsari-1989
+  title_id: Laporan Penyelidikan Pelanggaran HAM Berat Peristiwa Talangsari Lampung 1989
+  type: laporan-lembaga
+  year: 2008
+  citation_id: Komnas HAM KKP-HAM Talangsari 2008
+  url: https://www.komnasham.go.id/index.php/laporan-pemantauan
+- id: keppres-50-1993-komnas-ham
+  title_id: Keputusan Presiden No. 50 Tahun 1993 tentang Pembentukan Komisi
+    Nasional Hak Asasi Manusia (Komnas HAM)
+  type: keppres
+  year: 1993
+  citation_id: Keppres No. 50/1993
+  url: https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=50&thn=1993
+- id: tap-mpr-xi-1998-kkn
+  title_id: Ketetapan MPR No. XI/MPR/1998 tentang Penyelenggara Negara yang Bersih
+    dan Bebas Korupsi, Kolusi, dan Nepotisme
+  type: dokumen-mpr
+  year: 1998
+  citation_id: Ketetapan MPR RI No. XI/MPR/1998
+  url: https://jdih.setneg.go.id/detailperaturan?jns=TAP%20MPR&no=XI&thn=1998
+- id: keppres-27-1998-bppn
+  title_id: Keputusan Presiden No. 27 Tahun 1998 tentang Pembentukan Badan
+    Penyehatan Perbankan Nasional (BPPN)
+  type: keppres
+  year: 1998
+  citation_id: Keppres No. 27/1998
+  url: https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=27&thn=1998
+- id: uu-21-2001-otsus-papua
+  title_id: Undang-Undang No. 21 Tahun 2001 tentang Otonomi Khusus bagi Provinsi Papua
+  type: undang-undang
+  year: 2001
+  citation_id: LN RI No. 135/2001
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=21&thn=2001
+- id: uu-15-2002-ppatk
+  title_id: Undang-Undang No. 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang
+    (Pembentukan PPATK)
+  type: undang-undang
+  year: 2002
+  citation_id: LN RI No. 30/2002
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=15&thn=2002
+- id: uu-23-2003-pilpres-langsung
+  title_id: Undang-Undang No. 23 Tahun 2003 tentang Pemilihan Umum Presiden dan
+    Wakil Presiden (Pilpres Langsung Pertama)
+  type: undang-undang
+  year: 2003
+  citation_id: LN RI No. 93/2003
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=23&thn=2003
+- id: uu-22-2004-ky
+  title_id: Undang-Undang No. 22 Tahun 2004 tentang Komisi Yudisial
+  type: undang-undang
+  year: 2004
+  citation_id: LN RI No. 89/2004
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=22&thn=2004
+- id: uu-12-2006-kewarganegaraan
+  title_id: Undang-Undang No. 12 Tahun 2006 tentang Kewarganegaraan Republik
+    Indonesia (Penghapusan Diskriminasi Keturunan)
+  type: undang-undang
+  year: 2006
+  citation_id: LN RI No. 63/2006
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2006
+- id: uu-25-2009-pelayanan-publik
+  title_id: Undang-Undang No. 25 Tahun 2009 tentang Pelayanan Publik
+  type: undang-undang
+  year: 2009
+  citation_id: LN RI No. 112/2009
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=25&thn=2009
+- id: uu-16-2011-bankum
+  title_id: Undang-Undang No. 16 Tahun 2011 tentang Bantuan Hukum bagi Masyarakat Miskin
+  type: undang-undang
+  year: 2011
+  citation_id: LN RI No. 104/2011
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=16&thn=2011
+- id: uu-21-2011-ojk
+  title_id: Undang-Undang No. 21 Tahun 2011 tentang Otoritas Jasa Keuangan (OJK)
+  type: undang-undang
+  year: 2011
+  citation_id: LN RI No. 111/2011
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=21&thn=2011
+- id: uu-11-2016-tax-amnesty
+  title_id: Undang-Undang No. 11 Tahun 2016 tentang Pengampunan Pajak (Tax Amnesty)
+  type: undang-undang
+  year: 2016
+  citation_id: LN RI No. 125/2016
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2016
+- id: dokumen-divestasi-freeport-2018
+  title_id: Perjanjian Pengalihan Saham & Divestasi 51.23% PT Freeport Indonesia
+    kepada PT Indonesia Asahan Aluminium (Inalum/MIND ID)
+  type: laporan-lembaga
+  year: 2018
+  citation_id: Kementerian BUMN & Kementerian ESDM Dokumen Divestasi 2018
+  url: https://jdih.setneg.go.id/detailperaturan?jns=PP&no=47&thn=2017
+- id: uu-19-2019-kpk
+  title_id: Undang-Undang No. 19 Tahun 2019 tentang Perubahan Kedua atas UU KPK
+    (Pelemahan Status Independensi KPK)
+  type: undang-undang
+  year: 2019
+  citation_id: LN RI No. 197/2019
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2019
+- id: uu-2-2020-penanganan-covid
+  title_id: Undang-Undang No. 2 Tahun 2020 tentang Kebijakan Keuangan Negara dan
+    Stabilitas Sistem Keuangan untuk Penanganan Pandemi COVID-19
+  type: undang-undang
+  year: 2020
+  citation_id: LN RI No. 134/2020
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2020
+- id: uu-3-2022-ikn
+  title_id: Undang-Undang No. 3 Tahun 2022 tentang Ibu Kota Negara (IKN Nusantara)
+  type: undang-undang
+  year: 2022
+  citation_id: LN RI No. 41/2022
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2022
+- id: uu-1-2023-kuhp
+  title_id: Undang-Undang No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum
+    Pidana (KUHP Nasional)
+  type: undang-undang
+  year: 2023
+  citation_id: LN RI No. 1/2023
+  url: https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023
+- id: putusan-mk-18-puu-xvii-2019-fidusia
+  title_id: Putusan MK No. 18/PUU-XVII/2019 tentang Larangan Penarikan Paksa
+    Jaminan Fidusia Tanpa Putusan Pengadilan
+  type: putusan-mk
+  year: 2019
+  citation_id: Putusan MKRI No. 18/PUU-XVII/2019
+  url: https://www.mkri.id/index.php?page=web.Putusan&id=18/PUU-XVII/2019
+- id: perpres-154-2024-badan-haji
+  title_id: Peraturan Presiden No. 154 Tahun 2024 tentang Badan Penyelenggara Haji
+  type: keppres
+  year: 2024
+  citation_id: LN RI No. 256/2024
+  url: https://jdih.setneg.go.id/detailperaturan?jns=PERPRES&no=154&thn=2024

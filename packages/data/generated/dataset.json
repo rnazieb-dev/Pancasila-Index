@@ -8348,6 +8348,566 @@
       "actor_ids": []
     },
     {
+      "id": "ev-depernas-pembangunan-semesta-1958",
+      "term_id": "presiden-soekarno-i",
+      "date": "1958-10-23",
+      "category": "produk-hukum",
+      "title_id": "Pembentukan Dewan Perancang Nasional (Depernas) & Peletakan Fondasi Perencanaan Pembangunan Nasional Semesta",
+      "summary_id": "Pemerintah dan DPR mengesahkan UU No. 85/1958 yang membentuk Depernas dipimpin Mohammad Yamin untuk merancang Pola Pembangunan Nasional Semesta Berencana Delapan Tahun (1961–1969) berlandaskan ekonomi berdikari Pasal 33 UUD 1945.",
+      "source_ids": [
+        "uu-85-1958-depernas"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-nasionalisasi-perusahaan-belanda-1958",
+      "term_id": "presiden-soekarno-i",
+      "date": "1958-12-27",
+      "category": "kebijakan",
+      "title_id": "Pengambilalihan & Nasionalisasi Massal Seluruh Perusahaan Milik Belanda di Indonesia (1958)",
+      "summary_id": "Pemerintah menerbitkan PP No. 23/1958 sebagai tindak lanjut aksi buruh dan pembebasan Irian Barat untuk menasionalisasi ratusan perkebunan, bank, perusahaan pelayaran KPM, dan industri milik modal kolonial Belanda menjadi BUMN negara.",
+      "source_ids": [
+        "pp-23-1958-nasionalisasi"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-2",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-uu-pemda-desentralisasi-1957",
+      "term_id": "dpr-1950-1960",
+      "date": "1957-01-18",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 1 Tahun 1957: Peletakan Otonomi Daerah Luas dan Demokratis Pertama di Indonesia",
+      "summary_id": "DPR menyetujui UU Pokok Pemerintahan Daerah No. 1/1957 yang memberikan hak otonomi riil dan desentralisasi seluas-luasnya kepada daerah swapraja dan swatantra melalui pemilihan kepala daerah oleh DPRD lokal.",
+      "source_ids": [
+        "uu-1-1957-pemda"
+      ],
+      "dimension_ids": [
+        "sila-4",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-pembubaran-dpr-1955-pembentukan-dpr-gr-1960",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1960-03-05",
+      "category": "produk-hukum",
+      "title_id": "Pembubaran DPR Hasil Pemilu 1955 & Pengangkatan DPR Gotong Royong (DPR-GR) oleh Presiden (1960)",
+      "summary_id": "Presiden Soekarno membubarkan DPR hasil Pemilu 1955 yang menolak RAPBN pemerintah melalui Penpres No. 3/1960 dan membentuk DPR Gotong Royong (DPR-GR) beranggotakan wakil parpol Nasakom dan golongan karya yang ditunjuk langsung oleh eksekutif.",
+      "source_ids": [
+        "penpres-3-1960-dpr-gr"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "kedaulatan-rakyat",
+        "sila-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-pembubaran-masyumi-psi-1960",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1960-08-17",
+      "category": "kebijakan",
+      "title_id": "Pembubaran Partai Oposisi Masyumi dan PSI Melalui Keppres No. 200/1960",
+      "summary_id": "Presiden menerbitkan Keppres No. 200/1960 yang melarang dan membubarkan Partai Masyumi dan PSI dengan tuduhan keterlibatan pemimpinnya dalam pemberontakan PRRI/Permesta, membatasi pluralisme politik dan oposisi demokratis.",
+      "source_ids": [
+        "keppres-200-1960-masyumi-psi"
+      ],
+      "dimension_ids": [
+        "sila-4",
+        "kedaulatan-rakyat",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-perjanjian-new-york-irian-barat-1962",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1962-08-15",
+      "category": "peristiwa",
+      "title_id": "Penandatanganan Perjanjian New York 1962: Pemulihan Kedaulatan Wilayah Irian Barat ke Pangkuan RI",
+      "summary_id": "Diplomasi Indonesia dan Belanda yang difasilitasi PBB menghasilkan Persetujuan New York yang mewajibkan Belanda menyerahkan administrasi Irian Barat kepada PBB (UNTEA) untuk kemudian diserahkan kembali secara utuh ke pangkuan Republik Indonesia.",
+      "source_ids": [
+        "perjanjian-new-york-1962"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "tujuan-4",
+        "sila-3"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-indonesia-keluar-pbb-1965",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1965-01-07",
+      "category": "kebijakan",
+      "title_id": "Keputusan Penarikan Diri Republik Indonesia dari Keanggotaan Perserikatan Bangsa-Bangsa (PBB) 1965",
+      "summary_id": "Presiden Soekarno menyatakan Indonesia resmi keluar dari PBB sebagai bentuk protes keras atas masuknya Malaysia sebagai anggota tidak tetap Dewan Keamanan PBB di tengah konflik Dwikora.",
+      "source_ids": [
+        "surat-pbb-keluar-1965"
+      ],
+      "dimension_ids": [
+        "tujuan-4"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-pembubaran-pki-supersemar-1966",
+      "term_id": "presiden-soekarno-ii",
+      "date": "1966-03-12",
+      "category": "kebijakan",
+      "title_id": "Pembubaran dan Pelarangan Partai Komunis Indonesia (PKI) Berdasarkan Mandat Supersemar (1966)",
+      "summary_id": "Letjen Soeharto menggunakan mandat Surat Perintah 11 Maret 1966 untuk membubarkan PKI beserta seluruh ormas di bawah naungannya dan menyatakannya sebagai organisasi terlarang di seluruh wilayah Indonesia.",
+      "source_ids": [
+        "keppres-1-3-1966-pembubaran-pki"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-uu-pma-modal-asing-1967",
+      "term_id": "presiden-soeharto",
+      "date": "1967-01-10",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU Penanaman Modal Asing (PMA) No. 1 Tahun 1967: Pembukaan Arus Investasi Asing Orde Baru",
+      "summary_id": "Pemerintah dan DPR-GR mengesahkan UU PMA No. 1/1967 yang memberikan insentif pajak (*tax holiday*), jaminan repatriasi modal, dan konsesi pertambangan jangka panjang guna memulihkan stabilitas makroekonomi dan neraca pembayaran nasional.",
+      "source_ids": [
+        "uu-1-1967-pma"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-fusi-partai-politik-1975",
+      "term_id": "presiden-soeharto",
+      "date": "1975-08-27",
+      "category": "produk-hukum",
+      "title_id": "Pemberlakuan Fusi Tiga Partai Politik melalui UU No. 3 Tahun 1975 (PPP, PDI, Golkar)",
+      "summary_id": "Pengesahan UU No. 3/1975 membatasi kontestasi pemilu hanya pada dua partai politik (PPP dan PDI) serta satu Golongan Karya, menyederhanakan peta politik namun membatasi ruang aspirasi dan kebebasan berserikat rakyat secara masif.",
+      "source_ids": [
+        "uu-3-1975-parpol-golkar"
+      ],
+      "dimension_ids": [
+        "sila-4",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-pernyataan-petisi-50-1980",
+      "term_id": "presiden-soeharto",
+      "date": "1980-05-05",
+      "category": "peristiwa",
+      "title_id": "Pernyataan Keprihatinan Tokoh Bangsa (Petisi 50) atas Monopoli Penafsiran Pancasila oleh Rezim (1980)",
+      "summary_id": "Sebanyak 50 tokoh nasional dan purnawirawan TNI (termasuk M. Natsir, Ali Sadikin, Hoegeng) menandatangani petisi yang mengkritik pidato Presiden Soeharto yang mempersonalisasikan Pancasila untuk mendiskreditkan lawan politik.",
+      "source_ids": [
+        "dokumen-petisi-50-1980"
+      ],
+      "dimension_ids": [
+        "sila-4",
+        "sila-1",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-peristiwa-tanjung-priok-1984",
+      "term_id": "presiden-soeharto",
+      "date": "1984-09-12",
+      "category": "krisis",
+      "title_id": "Tragedi Penembakan Kerumunan Massa Tanjung Priok 12 September 1984",
+      "summary_id": "Aparat militer melepaskan tembakan peluru tajam ke arah kerumunan massa warga yang berdemonstrasi di Tanjung Priok Jakarta Utara, menewaskan puluhan warga sipil dan memicu penangkapan massal tokoh-tokoh Islam tanpa prosedur peradilan yang adil.",
+      "source_ids": [
+        "laporan-komnas-ham-priok-1984"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "sila-1",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-peristiwa-talangsari-1989",
+      "term_id": "presiden-soeharto",
+      "date": "1989-02-07",
+      "category": "krisis",
+      "title_id": "Operasi Penyerbuan Militer Talangsari Lampung 1989: Pelanggaran Hak Asasi Berat",
+      "summary_id": "Aparat keamanan melakukan penyerbuan militer terhadap komunitas warga Warsidi di Dusun Talangsari Lampung Tengah, mengakibatkan pembakaran pemukiman, tewasnya puluhan warga sipil perempuan dan anak-anak, serta penahanan sewenang-wenang.",
+      "source_ids": [
+        "laporan-komnas-ham-talangsari-1989"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-pembentukan-komnas-ham-1993",
+      "term_id": "presiden-soeharto",
+      "date": "1993-06-07",
+      "category": "produk-hukum",
+      "title_id": "Pembentukan Komisi Nasional Hak Asasi Manusia (Komnas HAM) Melalui Keppres No. 50/1993",
+      "summary_id": "Presiden Soeharto menerbitkan Keppres No. 50/1993 yang mendirikan Komnas HAM sebagai lembaga nasional independen untuk mengembangkan kondisi kondusif bagi perlindungan hak asasi manusia di Indonesia pasca Deklarasi Wina 1993.",
+      "source_ids": [
+        "keppres-50-1993-komnas-ham"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-pidato-pengunduran-diri-soeharto-1998",
+      "term_id": "presiden-soeharto",
+      "date": "1998-05-21",
+      "category": "peristiwa",
+      "title_id": "Pidato Pengunduran Diri Presiden Soeharto & Penyerahan Kekuasaan kepada B.J. Habibie (21 Mei 1998)",
+      "summary_id": "Presiden Soeharto membacakan pernyataan berhenti dari jabatannya di hadapan Pimpinan Mahkamah Agung di Istana Merdeka setelah gelombang demonstrasi mahasiswa dan pendudukan gedung DPR/MPR, menandai runtuhnya kekuasaan 32 tahun Orde Baru.",
+      "source_ids": [
+        "pidato-mundur-soeharto-1998"
+      ],
+      "dimension_ids": [
+        "sila-4",
+        "kedaulatan-rakyat",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-tap-mpr-xi-1998-pemberantasan-kkn",
+      "term_id": "mpr-1971-1999",
+      "date": "1998-11-13",
+      "category": "produk-hukum",
+      "title_id": "Ketetapan MPR No. XI/MPR/1998: Deklarasi Penyelenggara Negara Bersih dan Bebas KKN",
+      "summary_id": "Sidang Istimewa MPR menetapkan Tap No. XI/MPR/1998 yang mewajibkan seluruh pejabat negara melaporkan harta kekayaan serta memerintahkan pengusutan tuntas kasus dugaan korupsi, kolusi, dan nepotisme mantan Presiden Soeharto dan kroni-kroninya.",
+      "source_ids": [
+        "tap-mpr-xi-1998-kkn"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-pembentukan-bppn-rekapitalisasi-bank-1998",
+      "term_id": "presiden-habibie",
+      "date": "1998-01-26",
+      "category": "kebijakan",
+      "title_id": "Pembentukan Badan Penyehatan Perbankan Nasional (BPPN) & Penyelamatan Sektor Keuangan Pasca Krismon",
+      "summary_id": "Pemerintah membentuk BPPN untuk merestrukturisasi perbankan yang kolaps akibat Krisis Moneter 1997/1998, mengelola aset bermasalah senilai ratusan triliun rupiah melalui skema Bantuan Likuiditas Bank Indonesia (BLBI).",
+      "source_ids": [
+        "keppres-27-1998-bppn"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-uu-otsus-papua-2001",
+      "term_id": "presiden-megawati",
+      "date": "2001-11-21",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU Otonomi Khusus Papua No. 21 Tahun 2001: Pengakuan Hak Asasi & Afirmasi OAP",
+      "summary_id": "Presiden Megawati dan DPR mengesahkan UU Otsus Papua yang memberikan kewenangan khusus, pembentukan Majelis Rakyat Papua (MRP), pembagian dana bagi hasil migas 70%, dan perlindungan hak-hak dasar Orang Asli Papua.",
+      "source_ids": [
+        "uu-21-2001-otsus-papua"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "sila-3",
+        "sila-5",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-pembentukan-ppatk-2002",
+      "term_id": "presiden-megawati",
+      "date": "2002-04-17",
+      "category": "produk-hukum",
+      "title_id": "Pembentukan Pusat Pelaporan dan Analisis Transaksi Keuangan (PPATK) Melalui UU No. 15/2002",
+      "summary_id": "Pengesahan UU No. 15/2002 membentuk PPATK sebagai unit intelijen keuangan nasional (*Financial Intelligence Unit*) untuk melacak aliran dana hasil kejahatan korupsi, pencucian uang, dan pendanaan terorisme.",
+      "source_ids": [
+        "uu-15-2002-ppatk"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-uu-pilpres-langsung-2003",
+      "term_id": "dpr-1999-2004",
+      "date": "2003-07-31",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU Pemilihan Umum Presiden dan Wakil Presiden Langsung (UU No. 23/2003)",
+      "summary_id": "DPR mengesahkan payung hukum penyelenggaraan Pilpres langsung pertama dalam sejarah Indonesia, mengembalikan kedaulatan memilih pemimpin tertinggi eksekutif sepenuhnya ke tangan rakyat pemilih.",
+      "source_ids": [
+        "uu-23-2003-pilpres-langsung"
+      ],
+      "dimension_ids": [
+        "sila-4",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-pembentukan-komisi-yudisial-2004",
+      "term_id": "ky-2005-2010",
+      "date": "2004-08-13",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 22 Tahun 2004 tentang Komisi Yudisial: Pengawasan Etika & Martabat Kehakiman",
+      "summary_id": "Pengesahan UU No. 22/2004 membentuk Komisi Yudisial RI sebagai lembaga pengawas eksternal independen yang berwenang mengusulkan pengangkatan Hakim Agung dan menegakkan Kode Etik dan Pedoman Perilaku Hakim.",
+      "source_ids": [
+        "uu-22-2004-ky"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-uu-kewarganegaraan-anti-diskriminasi-2006",
+      "term_id": "presiden-sby-i",
+      "date": "2006-08-01",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU Kewarganegaraan No. 12/2006: Menghapus Diskriminasi Asal-Usul Keturunan",
+      "summary_id": "Pemerintah dan DPR mengesahkan UU No. 12/2006 yang mendefinisikan bangsa Indonesia asli tanpa membedakan suku dan keturunan, menghapus kewajiban SBKRI bagi WNI keturunan Tionghoa, dan memberikan kewarganegaraan ganda terbatas bagi anak perkawinan campur.",
+      "source_ids": [
+        "uu-12-2006-kewarganegaraan"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "sila-3",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-uu-pelayanan-publik-2009",
+      "term_id": "presiden-sby-i",
+      "date": "2009-07-18",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan Undang-Undang Pelayanan Publik No. 25 Tahun 2009: Standar Hak Warga atas Birokrasi",
+      "summary_id": "Pengesahan UU No. 25/2009 memberikan kepastian hukum bagi setiap warga negara untuk mendapatkan standar pelayanan publik yang layak, transparan, bebas pungli, serta mengatur ganti rugi atas kelalaian aparatur negara.",
+      "source_ids": [
+        "uu-25-2009-pelayanan-publik"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "negara-hukum",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-uu-bantuan-hukum-rakyat-miskin-2011",
+      "term_id": "presiden-sby-ii",
+      "date": "2011-10-31",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU Bantuan Hukum No. 16/2011: Jaminan Pendampingan Advokat Gratis bagi Masyarakat Miskin",
+      "summary_id": "Pengesahan UU No. 16/2011 mewajibkan negara mendanai bantuan hukum gratis melalui Organisasi Bantuan Hukum (OBH) terakreditasi bagi warga miskin yang berhadapan dengan hukum perdata, pidana, maupun tata usaha negara.",
+      "source_ids": [
+        "uu-16-2011-bankum"
+      ],
+      "dimension_ids": [
+        "sila-2",
+        "negara-hukum",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-pembentukan-ojk-terintegrasi-2011",
+      "term_id": "presiden-sby-ii",
+      "date": "2011-11-22",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 21 Tahun 2011 tentang Otoritas Jasa Keuangan (OJK)",
+      "summary_id": "Pengesahan UU OJK mengalihkan fungsi pengaturan dan pengawasan perbankan dari Bank Indonesia serta pasar modal/IKNB dari Bapepam-LK ke Otoritas Jasa Keuangan independen demi stabilitas sistem keuangan nasional.",
+      "source_ids": [
+        "uu-21-2011-ojk"
+      ],
+      "dimension_ids": [
+        "checks-balances",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-pengesahan-uu-tax-amnesty-2016",
+      "term_id": "presiden-jokowi-i",
+      "date": "2016-07-01",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU Tax Amnesty No. 11/2016: Repatriasi dan Deklarasi Harta Rp 4.800 Triliun",
+      "summary_id": "Pemerintah dan DPR memberlakukan program pengampunan pajak (Tax Amnesty) yang berhasil menghimpun deklarasi harta Rp 4.881 triliun dan uang tebusan Rp 135 triliun guna memperluas basis perpajakan dan likuiditas perbankan.",
+      "source_ids": [
+        "uu-11-2016-tax-amnesty"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-divestasi-freeport-indonesia-51-persen-2018",
+      "term_id": "presiden-jokowi-i",
+      "date": "2018-12-21",
+      "category": "kebijakan",
+      "title_id": "Pengambilalihan Mayoritas 51.23% Saham PT Freeport Indonesia ke Pangkuan Negara (2018)",
+      "summary_id": "Pemerintah Indonesia melalui Holding BUMN Tambang MIND ID/Inalum resmi menuntaskan akuisisi 51.23% saham PT Freeport Indonesia senilai USD 3.85 miliar setelah 51 tahun dikuasai modal asing Freeport-McMoRan.",
+      "source_ids": [
+        "dokumen-divestasi-freeport-2018"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-revisi-uu-kpk-pelemahan-independensi-2019",
+      "term_id": "dpr-2014-2019",
+      "date": "2019-09-17",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan Revisi UU KPK No. 19/2019: Pelemahan Status Kelembagaan dan Protes Reformasi Dikorupsi",
+      "summary_id": "DPR dan Pemerintah mengesahkan revisi UU KPK secara kilat di akhir masa jabatan yang mengubah status pegawai menjadi ASN, membentuk Dewan Pengawas penyadap, dan membatasi kemandirian KPK, memicu demonstrasi mahasiswa nasional #ReformasiDikorupsi.",
+      "source_ids": [
+        "uu-19-2019-kpk"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "checks-balances",
+        "kedaulatan-rakyat"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-uu-kebijakan-keuangan-covid-2020",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2020-05-18",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 2 Tahun 2020 tentang Penanganan COVID-19 & Pelebaran Defisit APBN di Atas 3%",
+      "summary_id": "Pemerintah dan DPR mengesahkan payung hukum darurat kesehatan dan ekonomi yang membolehkan defisit anggaran melampaui 3% PDB untuk mendanai bantuan sosial tunai, vaksinasi gratis, dan stimulus pemulihan ekonomi nasional.",
+      "source_ids": [
+        "uu-2-2020-penanganan-covid"
+      ],
+      "dimension_ids": [
+        "tujuan-1",
+        "tujuan-2",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-uu-ikn-nusantara-2022",
+      "term_id": "presiden-jokowi-ii",
+      "date": "2022-02-15",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan UU No. 3 Tahun 2022 tentang Ibu Kota Nusantara (IKN) di Kalimantan Timur",
+      "summary_id": "DPR dan Presiden menyetujui pemindahan ibu kota negara dari Jakarta ke Ibu Kota Nusantara (IKN) di Penajam Paser Utara, Kalimantan Timur guna mendorong pemerataan pembangunan berorientasi Indonesia-Sentris.",
+      "source_ids": [
+        "uu-3-2022-ikn"
+      ],
+      "dimension_ids": [
+        "sila-5",
+        "tujuan-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-pengesahan-kuhp-nasional-2023",
+      "term_id": "dpr-2019-2024",
+      "date": "2023-01-02",
+      "category": "produk-hukum",
+      "title_id": "Pengesahan KUHP Baru (UU No. 1 Tahun 2023): Dekolonisasi Hukum Pidana Indonesia",
+      "summary_id": "DPR dan Presiden mengesahkan KUHP Nasional untuk menggantikan Wetboek van Strafrecht warisan kolonial Belanda 1918, memperkenalkan pidana kerja sosial, keadilan restoratif (*restorative justice*), dan hukum yang hidup dalam masyarakat (*living law*).",
+      "source_ids": [
+        "uu-1-2023-kuhp"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-putusan-mk-larangan-tarik-paksa-fidusia-2019",
+      "term_id": "mk-2018-2023",
+      "date": "2020-01-06",
+      "category": "pengadilan",
+      "title_id": "Putusan MK No. 18/PUU-XVII/2019: Perlindungan Debitur dari Penarikan Paksa Kendaraan oleh Debt Collector",
+      "summary_id": "Mahkamah Konstitusi menetapkan bahwa eksekusi jaminan fidusia tidak boleh dilakukan sepihak tanpa kesepakatan wanprestasi sukarela dari debitur atau tanpa penetapan eksekusi dari Pengadilan Negeri.",
+      "source_ids": [
+        "putusan-mk-18-puu-xvii-2019-fidusia"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-5"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-audit-bpk-mega-skandal-jiwasraya-2020",
+      "term_id": "bpk-2019-sekarang",
+      "date": "2020-03-09",
+      "category": "krisis",
+      "title_id": "Audit Investigatif BPK RI Menemukan Kerugian Negara Rp 16.8 Triliun dalam Kasus Jiwasraya",
+      "summary_id": "BPK RI menyerahkan LHP Investigatif kepada Kejaksaan Agung yang mengungkap kerugian keuangan negara sebesar Rp 16.81 triliun akibat manipulasi investasi saham gorengan direksi PT Asuransi Jiwasraya.",
+      "source_ids": [
+        "laporan-audit-bpk-jiwasraya-2020"
+      ],
+      "dimension_ids": [
+        "tujuan-2",
+        "checks-balances",
+        "negara-hukum"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-pembentukan-badan-penyelenggara-haji-2024",
+      "term_id": "presiden-prabowo",
+      "date": "2024-11-05",
+      "category": "produk-hukum",
+      "title_id": "Pembentukan Badan Penyelenggara Haji (Perpres No. 154/2024) untuk Tata Kelola Mandiri",
+      "summary_id": "Presiden Prabowo Subianto menerbitkan Perpres No. 154/2024 yang memisahkan pengelolaan dan penyelenggaraan ibadah haji dari Kementerian Agama ke Badan Penyelenggara Haji independen demi transparansi kuota dan efisiensi biaya.",
+      "source_ids": [
+        "perpres-154-2024-badan-haji"
+      ],
+      "dimension_ids": [
+        "sila-1",
+        "tujuan-2",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
       "id": "ev-piagam-jakarta-1945",
       "term_id": "presiden-soekarno-i",
       "date": "1945-06-22",
@@ -20130,6 +20690,16 @@
       "detail_url": "/arsip/laporan-investigasi-mbg-2025"
     },
     {
+      "id": "berita-mk-putusan-mbg-40-2026",
+      "type": "berita",
+      "title_id": "Putusan MK No. 40/PUU-XXIV/2026 (30 Juli 2026) - anggaran program MBG wajib dipisahkan dari anggaran pendidikan; dana pendidikan minimum 20% APBN/APBD hanya untuk komponen utama pendidikan dan tidak lagi memuat program MBG",
+      "year": 2026,
+      "url": "https://www.mkri.id/berita/anggaran-mbg-harus-dipisahkan-dari-anggaran-pendidikan-25496",
+      "citation_id": "Humas MKRI, 30 Juli 2026",
+      "resolved_url": "https://www.mkri.id/berita/anggaran-mbg-harus-dipisahkan-dari-anggaran-pendidikan-25496",
+      "detail_url": "/arsip/berita-mk-putusan-mbg-40-2026"
+    },
+    {
       "id": "dakwaan-kejagung-timah-2024",
       "type": "putusan-ma",
       "title_id": "Surat Dakwaan Kejaksaan Agung Kasus Korupsi Tata Niaga Timah IUP PT Timah Tbk Kerugian Ekologis & Keuangan Rp300 Triliun",
@@ -22640,6 +23210,336 @@
       "citation_id": "Lembaran Negara RI Tahun 2024 No. 241",
       "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=PERPRES&no=139&thn=2024",
       "detail_url": "/arsip/perpres-139-2024-kementerian"
+    },
+    {
+      "id": "uu-85-1958-depernas",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 85 Tahun 1958 tentang Pembentukan Dewan Perancang Nasional (Depernas)",
+      "year": 1958,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=85&thn=1958",
+      "citation_id": "LN RI No. 156/1958",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=85&thn=1958",
+      "detail_url": "/arsip/uu-85-1958-depernas"
+    },
+    {
+      "id": "pp-23-1958-nasionalisasi",
+      "type": "keppres",
+      "title_id": "Peraturan Pemerintah No. 23 Tahun 1958 tentang Penguasaan dan Pengambilalihan Perusahaan-Perusahaan Belanda",
+      "year": 1958,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=PP&no=23&thn=1958",
+      "citation_id": "LN RI No. 39/1958",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=PP&no=23&thn=1958",
+      "detail_url": "/arsip/pp-23-1958-nasionalisasi"
+    },
+    {
+      "id": "uu-1-1957-pemda",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 1 Tahun 1957 tentang Pokok-Pokok Pemerintahan Daerah (Desentralisasi Pertama)",
+      "year": 1957,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=1957",
+      "citation_id": "LN RI No. 6/1957",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=1957",
+      "detail_url": "/arsip/uu-1-1957-pemda"
+    },
+    {
+      "id": "penpres-3-1960-dpr-gr",
+      "type": "keppres",
+      "title_id": "Penetapan Presiden No. 3 Tahun 1960 tentang Pembubaran Dewan Perwakilan Rakyat Hasil Pemilu 1955 dan Pembentukan DPR Gotong Royong",
+      "year": 1960,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=PENPRES&no=3&thn=1960",
+      "citation_id": "LN RI No. 44/1960",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=PENPRES&no=3&thn=1960",
+      "detail_url": "/arsip/penpres-3-1960-dpr-gr"
+    },
+    {
+      "id": "keppres-200-1960-masyumi-psi",
+      "type": "keppres",
+      "title_id": "Keputusan Presiden No. 200 Tahun 1960 tentang Pembubaran Partai Politik Masyumi dan PSI",
+      "year": 1960,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=200&thn=1960",
+      "citation_id": "Keppres No. 200/1960",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=200&thn=1960",
+      "detail_url": "/arsip/keppres-200-1960-masyumi-psi"
+    },
+    {
+      "id": "perjanjian-new-york-1962",
+      "type": "arsip-nasional",
+      "title_id": "Perjanjian New York 15 Agustus 1962 tentang Penyerahan Irian Barat kepada Pemerintahan Sementara PBB (UNTEA) dan Indonesia",
+      "year": 1962,
+      "url": "https://peacemaker.un.org/west-papua-newyorkagreement62",
+      "citation_id": "United Nations Treaty Series No. 6311",
+      "resolved_url": "https://peacemaker.un.org/west-papua-newyorkagreement62",
+      "detail_url": "/arsip/perjanjian-new-york-1962"
+    },
+    {
+      "id": "surat-pbb-keluar-1965",
+      "type": "arsip-nasional",
+      "title_id": "Surat Resmi Pemerintah Indonesia Tanggal 7 Januari 1965 tentang Penarikan Diri dari Perserikatan Bangsa-Bangsa (PBB)",
+      "year": 1965,
+      "url": "https://digitallibrary.un.org/record/657388",
+      "citation_id": "UN Document A/5857 1965",
+      "resolved_url": "https://digitallibrary.un.org/record/657388",
+      "detail_url": "/arsip/surat-pbb-keluar-1965"
+    },
+    {
+      "id": "keppres-1-3-1966-pembubaran-pki",
+      "type": "keppres",
+      "title_id": "Keputusan Presiden/Panglima Tertinggi ABRI/Mandataris MPRS No. 1/3/1966 tentang Pembubaran Partai Komunis Indonesia (PKI)",
+      "year": 1966,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=1&thn=1966",
+      "citation_id": "Keppres No. 1/3/1966 jo. Tap MPRS XXV/1966",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=1&thn=1966",
+      "detail_url": "/arsip/keppres-1-3-1966-pembubaran-pki"
+    },
+    {
+      "id": "uu-1-1967-pma",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 1 Tahun 1967 tentang Penanaman Modal Asing (PMA Orde Baru)",
+      "year": 1967,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=1967",
+      "citation_id": "LN RI No. 1/1967",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=1967",
+      "detail_url": "/arsip/uu-1-1967-pma"
+    },
+    {
+      "id": "uu-3-1975-parpol-golkar",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 3 Tahun 1975 tentang Partai Politik dan Golongan Karya (Fusi Partai Politik)",
+      "year": 1975,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=1975",
+      "citation_id": "LN RI No. 32/1975",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=1975",
+      "detail_url": "/arsip/uu-3-1975-parpol-golkar"
+    },
+    {
+      "id": "uu-7-1976-timtim",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 7 Tahun 1976 tentang Pengesahan Penyatuan Timor Timur ke dalam Negara Kesatuan Republik Indonesia",
+      "year": 1976,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=1976",
+      "citation_id": "LN RI No. 35/1976",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=7&thn=1976",
+      "detail_url": "/arsip/uu-7-1976-timtim"
+    },
+    {
+      "id": "dokumen-petisi-50-1980",
+      "type": "arsip-nasional",
+      "title_id": "Pernyataan Keprihatinan (Petisi 50) Tanggal 5 Mei 1980: Gugatan Tokoh Nasional atas Penggunaan Pancasila untuk Menyerang Oposisi",
+      "year": 1980,
+      "url": "https://anri.go.id/publikasi/arsip-tematik/petisi-50-1980",
+      "citation_id": "Dokumen Sejarah Petisi 50 / ANRI",
+      "resolved_url": "https://anri.go.id/publikasi/arsip-tematik/petisi-50-1980",
+      "detail_url": "/arsip/dokumen-petisi-50-1980"
+    },
+    {
+      "id": "laporan-komnas-ham-priok-1984",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Penyelidikan Pelanggaran Hak Asasi Manusia Peristiwa Tanjung Priok 12 September 1984",
+      "year": 2000,
+      "url": "https://www.komnasham.go.id/index.php/laporan-pemantauan",
+      "citation_id": "Komnas HAM KKP-HAM Tanjung Priok 2000",
+      "resolved_url": "https://www.komnasham.go.id/index.php/laporan-pemantauan",
+      "detail_url": "/arsip/laporan-komnas-ham-priok-1984"
+    },
+    {
+      "id": "laporan-komnas-ham-talangsari-1989",
+      "type": "laporan-lembaga",
+      "title_id": "Laporan Penyelidikan Pelanggaran HAM Berat Peristiwa Talangsari Lampung 1989",
+      "year": 2008,
+      "url": "https://www.komnasham.go.id/index.php/laporan-pemantauan",
+      "citation_id": "Komnas HAM KKP-HAM Talangsari 2008",
+      "resolved_url": "https://www.komnasham.go.id/index.php/laporan-pemantauan",
+      "detail_url": "/arsip/laporan-komnas-ham-talangsari-1989"
+    },
+    {
+      "id": "keppres-50-1993-komnas-ham",
+      "type": "keppres",
+      "title_id": "Keputusan Presiden No. 50 Tahun 1993 tentang Pembentukan Komisi Nasional Hak Asasi Manusia (Komnas HAM)",
+      "year": 1993,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=50&thn=1993",
+      "citation_id": "Keppres No. 50/1993",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=50&thn=1993",
+      "detail_url": "/arsip/keppres-50-1993-komnas-ham"
+    },
+    {
+      "id": "tap-mpr-xi-1998-kkn",
+      "type": "dokumen-mpr",
+      "title_id": "Ketetapan MPR No. XI/MPR/1998 tentang Penyelenggara Negara yang Bersih dan Bebas Korupsi, Kolusi, dan Nepotisme",
+      "year": 1998,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=TAP%20MPR&no=XI&thn=1998",
+      "citation_id": "Ketetapan MPR RI No. XI/MPR/1998",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=TAP%20MPR&no=XI&thn=1998",
+      "detail_url": "/arsip/tap-mpr-xi-1998-kkn"
+    },
+    {
+      "id": "keppres-27-1998-bppn",
+      "type": "keppres",
+      "title_id": "Keputusan Presiden No. 27 Tahun 1998 tentang Pembentukan Badan Penyehatan Perbankan Nasional (BPPN)",
+      "year": 1998,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=27&thn=1998",
+      "citation_id": "Keppres No. 27/1998",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=27&thn=1998",
+      "detail_url": "/arsip/keppres-27-1998-bppn"
+    },
+    {
+      "id": "uu-21-2001-otsus-papua",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 21 Tahun 2001 tentang Otonomi Khusus bagi Provinsi Papua",
+      "year": 2001,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=21&thn=2001",
+      "citation_id": "LN RI No. 135/2001",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=21&thn=2001",
+      "detail_url": "/arsip/uu-21-2001-otsus-papua"
+    },
+    {
+      "id": "uu-15-2002-ppatk",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang (Pembentukan PPATK)",
+      "year": 2002,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=15&thn=2002",
+      "citation_id": "LN RI No. 30/2002",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=15&thn=2002",
+      "detail_url": "/arsip/uu-15-2002-ppatk"
+    },
+    {
+      "id": "uu-23-2003-pilpres-langsung",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 23 Tahun 2003 tentang Pemilihan Umum Presiden dan Wakil Presiden (Pilpres Langsung Pertama)",
+      "year": 2003,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=23&thn=2003",
+      "citation_id": "LN RI No. 93/2003",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=23&thn=2003",
+      "detail_url": "/arsip/uu-23-2003-pilpres-langsung"
+    },
+    {
+      "id": "uu-22-2004-ky",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 22 Tahun 2004 tentang Komisi Yudisial",
+      "year": 2004,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=22&thn=2004",
+      "citation_id": "LN RI No. 89/2004",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=22&thn=2004",
+      "detail_url": "/arsip/uu-22-2004-ky"
+    },
+    {
+      "id": "uu-12-2006-kewarganegaraan",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 12 Tahun 2006 tentang Kewarganegaraan Republik Indonesia (Penghapusan Diskriminasi Keturunan)",
+      "year": 2006,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2006",
+      "citation_id": "LN RI No. 63/2006",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=12&thn=2006",
+      "detail_url": "/arsip/uu-12-2006-kewarganegaraan"
+    },
+    {
+      "id": "uu-25-2009-pelayanan-publik",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 25 Tahun 2009 tentang Pelayanan Publik",
+      "year": 2009,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=25&thn=2009",
+      "citation_id": "LN RI No. 112/2009",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=25&thn=2009",
+      "detail_url": "/arsip/uu-25-2009-pelayanan-publik"
+    },
+    {
+      "id": "uu-16-2011-bankum",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 16 Tahun 2011 tentang Bantuan Hukum bagi Masyarakat Miskin",
+      "year": 2011,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=16&thn=2011",
+      "citation_id": "LN RI No. 104/2011",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=16&thn=2011",
+      "detail_url": "/arsip/uu-16-2011-bankum"
+    },
+    {
+      "id": "uu-21-2011-ojk",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 21 Tahun 2011 tentang Otoritas Jasa Keuangan (OJK)",
+      "year": 2011,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=21&thn=2011",
+      "citation_id": "LN RI No. 111/2011",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=21&thn=2011",
+      "detail_url": "/arsip/uu-21-2011-ojk"
+    },
+    {
+      "id": "uu-11-2016-tax-amnesty",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 11 Tahun 2016 tentang Pengampunan Pajak (Tax Amnesty)",
+      "year": 2016,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2016",
+      "citation_id": "LN RI No. 125/2016",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=11&thn=2016",
+      "detail_url": "/arsip/uu-11-2016-tax-amnesty"
+    },
+    {
+      "id": "dokumen-divestasi-freeport-2018",
+      "type": "laporan-lembaga",
+      "title_id": "Perjanjian Pengalihan Saham & Divestasi 51.23% PT Freeport Indonesia kepada PT Indonesia Asahan Aluminium (Inalum/MIND ID)",
+      "year": 2018,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=PP&no=47&thn=2017",
+      "citation_id": "Kementerian BUMN & Kementerian ESDM Dokumen Divestasi 2018",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=PP&no=47&thn=2017",
+      "detail_url": "/arsip/dokumen-divestasi-freeport-2018"
+    },
+    {
+      "id": "uu-19-2019-kpk",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 19 Tahun 2019 tentang Perubahan Kedua atas UU KPK (Pelemahan Status Independensi KPK)",
+      "year": 2019,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2019",
+      "citation_id": "LN RI No. 197/2019",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=19&thn=2019",
+      "detail_url": "/arsip/uu-19-2019-kpk"
+    },
+    {
+      "id": "uu-2-2020-penanganan-covid",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 2 Tahun 2020 tentang Kebijakan Keuangan Negara dan Stabilitas Sistem Keuangan untuk Penanganan Pandemi COVID-19",
+      "year": 2020,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2020",
+      "citation_id": "LN RI No. 134/2020",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=2&thn=2020",
+      "detail_url": "/arsip/uu-2-2020-penanganan-covid"
+    },
+    {
+      "id": "uu-3-2022-ikn",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 3 Tahun 2022 tentang Ibu Kota Negara (IKN Nusantara)",
+      "year": 2022,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2022",
+      "citation_id": "LN RI No. 41/2022",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=3&thn=2022",
+      "detail_url": "/arsip/uu-3-2022-ikn"
+    },
+    {
+      "id": "uu-1-2023-kuhp",
+      "type": "undang-undang",
+      "title_id": "Undang-Undang No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (KUHP Nasional)",
+      "year": 2023,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023",
+      "citation_id": "LN RI No. 1/2023",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=UU&no=1&thn=2023",
+      "detail_url": "/arsip/uu-1-2023-kuhp"
+    },
+    {
+      "id": "putusan-mk-18-puu-xvii-2019-fidusia",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 18/PUU-XVII/2019 tentang Larangan Penarikan Paksa Jaminan Fidusia Tanpa Putusan Pengadilan",
+      "year": 2019,
+      "url": "https://www.mkri.id/index.php?page=web.Putusan&id=18/PUU-XVII/2019",
+      "citation_id": "Putusan MKRI No. 18/PUU-XVII/2019",
+      "resolved_url": "https://www.mkri.id/index.php?page=web.Putusan&id=18/PUU-XVII/2019",
+      "detail_url": "/arsip/putusan-mk-18-puu-xvii-2019-fidusia"
+    },
+    {
+      "id": "perpres-154-2024-badan-haji",
+      "type": "keppres",
+      "title_id": "Peraturan Presiden No. 154 Tahun 2024 tentang Badan Penyelenggara Haji",
+      "year": 2024,
+      "url": "https://jdih.setneg.go.id/detailperaturan?jns=PERPRES&no=154&thn=2024",
+      "citation_id": "LN RI No. 256/2024",
+      "resolved_url": "https://jdih.setneg.go.id/detailperaturan?jns=PERPRES&no=154&thn=2024",
+      "detail_url": "/arsip/perpres-154-2024-badan-haji"
     }
   ],
   "assessments": [
@@ -22795,11 +23695,15 @@
             },
             {
               "source_id": "uu-25-1999"
+            },
+            {
+              "source_id": "keppres-27-1998-bppn"
             }
           ],
           "event_ids": [
             "ev-dpr-uu-kppu-1999",
-            "ev-uu-otonomi-daerah-1999"
+            "ev-uu-otonomi-daerah-1999",
+            "ev-pembentukan-bppn-rekapitalisasi-bank-1998"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -23170,11 +24074,15 @@
             },
             {
               "source_id": "putusan-munir-2008"
+            },
+            {
+              "source_id": "uu-21-2001-otsus-papua"
             }
           ],
           "event_ids": [
             "ev-megawati-pengadilan-timtim",
-            "ev-megawati-munir"
+            "ev-megawati-munir",
+            "ev-uu-otsus-papua-2001"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -23345,11 +24253,15 @@
             },
             {
               "source_id": "uu-30-2002-kpk"
+            },
+            {
+              "source_id": "uu-15-2002-ppatk"
             }
           ],
           "event_ids": [
             "ev-megawati-mk-dilantik",
-            "ev-pembentukan-kpk-2002"
+            "ev-pembentukan-kpk-2002",
+            "ev-pembentukan-ppatk-2002"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -23432,12 +24344,16 @@
             },
             {
               "source_id": "skb-3-menteri-ahmadiyah-2008"
+            },
+            {
+              "source_id": "uu-12-2006-kewarganegaraan"
             }
           ],
           "event_ids": [
             "ev-sby-mou-helsinki",
             "ev-skb-tiga-menteri-ahmadiyah-2008",
-            "ev-sby-skb-ahmadiyah"
+            "ev-sby-skb-ahmadiyah",
+            "ev-uu-kewarganegaraan-anti-diskriminasi-2006"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -23520,10 +24436,14 @@
           "evidence": [
             {
               "source_id": "uu-20-2008"
+            },
+            {
+              "source_id": "uu-25-2009-pelayanan-publik"
             }
           ],
           "event_ids": [
-            "ev-sby-uu-umkm"
+            "ev-sby-uu-umkm",
+            "ev-uu-pelayanan-publik-2009"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -23650,10 +24570,14 @@
           "evidence": [
             {
               "source_id": "uu-24-2011"
+            },
+            {
+              "source_id": "uu-16-2011-bankum"
             }
           ],
           "event_ids": [
-            "ev-dpr-uu-bpjs-2011"
+            "ev-dpr-uu-bpjs-2011",
+            "ev-uu-bantuan-hukum-rakyat-miskin-2011"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -23832,12 +24756,16 @@
             },
             {
               "source_id": "skp2-kejaksaan-bibit-chandra-2009"
+            },
+            {
+              "source_id": "uu-21-2011-ojk"
             }
           ],
           "event_ids": [
             "ev-sby2-md3",
             "ev-kasus-cicak-buaya-2009",
-            "ev-kriminalisasi-bibit-chandra-2009"
+            "ev-kriminalisasi-bibit-chandra-2009",
+            "ev-pembentukan-ojk-terintegrasi-2011"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -23978,10 +24906,14 @@
           "evidence": [
             {
               "source_id": "perpres-63-2017"
+            },
+            {
+              "source_id": "dokumen-divestasi-freeport-2018"
             }
           ],
           "event_ids": [
-            "ev-jokowi1-perluasan-pkh"
+            "ev-jokowi1-perluasan-pkh",
+            "ev-divestasi-freeport-indonesia-51-persen-2018"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -24012,7 +24944,13 @@
           "evidence": [
             {
               "source_id": "uu-6-2014"
+            },
+            {
+              "source_id": "uu-11-2016-tax-amnesty"
             }
+          ],
+          "event_ids": [
+            "ev-pengesahan-uu-tax-amnesty-2016"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -24245,11 +25183,15 @@
             },
             {
               "source_id": "berita-juliari-bansos-2020"
+            },
+            {
+              "source_id": "uu-3-2022-ikn"
             }
           ],
           "event_ids": [
             "ev-jokowi2-respons-pandemi",
-            "ev-jokowi2-juliari-bansos"
+            "ev-jokowi2-juliari-bansos",
+            "ev-uu-ikn-nusantara-2022"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -24280,6 +25222,9 @@
               "source_id": "laporan-tgipf-kanjuruhan-2022"
             },
             {
+              "source_id": "uu-2-2020-penanganan-covid"
+            },
+            {
               "source_id": "uu-11-2022-keolahragaan"
             }
           ],
@@ -24288,7 +25233,8 @@
             "ev-jokowi2-kanjuruhan",
             "ev-presiden-darurat-kesehatan-covid-2020",
             "ev-presiden-uu-fir-ekstradisi-singapura-2023",
-            "ev-tragedi-kanjuruhan-malang-2022"
+            "ev-tragedi-kanjuruhan-malang-2022",
+            "ev-uu-kebijakan-keuangan-covid-2020"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -24521,10 +25467,14 @@
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
+            },
+            {
+              "source_id": "perpres-154-2024-badan-haji"
             }
           ],
           "event_ids": [
-            "ev-mpr-pelantikan-prabowo-2024"
+            "ev-mpr-pelantikan-prabowo-2024",
+            "ev-pembentukan-badan-penyelenggara-haji-2024"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -24586,43 +25536,27 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
-          "confidence": 0.85,
-          "rationale_id": "Makan Bergizi Gratis menjadi program kesejahteraan anak paling ambisius dalam sejarah republik.",
+          "score": -1,
+          "confidence": 0.6,
+          "rationale_id": "MBG memang program kesejahteraan berskala besar dan konstitusional secara substansi, tetapi Putusan MK No. 40/PUU-XXIV/2026 (30 Juli 2026) menyatakan program MBG wajib dipisahkan dari anggaran pendidikan. Dana pendidikan minimal 20% APBN/APBD hanya untuk komponen utama pendidikan (peserta didik, pendidik dan tenaga kependidikan, sarana prasarana, kurikulum, evaluasi) dan tidak memuat MBG, paling lambat APBN 2028. Membebankan MBG ke pos anggaran pendidikan membuat angka 20% terpenuhi secara artifisial, menggerus pembiayaan komponen utama pendidikan dan menimbulkan ketidakpastian hukum (Pasal 28D ayat 1 serta Pasal 31 ayat 2 dan 4 UUD 1945). Keadilan distributif tidak dibangun di atas penggerusan hak konstitusional warga atas pendidikan: skala program tidak menutupi cacat konstitusional cara pembiayaannya.",
           "evidence": [
             {
-              "source_id": "perpres-83-2024"
-            },
-            {
-              "source_id": "keppres-133-p-2024"
-            },
-            {
-              "source_id": "perpres-danantara-2025"
+              "source_id": "berita-mk-putusan-mbg-40-2026"
             },
             {
               "source_id": "laporan-investigasi-mbg-2025"
             },
             {
+              "source_id": "perpres-83-2024"
+            },
+            {
               "source_id": "uu-62-2024"
-            },
-            {
-              "source_id": "dakwaan-kejagung-timah-2024"
-            },
-            {
-              "source_id": "perpres-badan-gizi-2024"
-            },
-            {
-              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
             "ev-prabowo-mbg",
             "ev-perpres-makan-bergizi-2024",
-            "ev-kabinet-merah-putih-2024",
-            "ev-badan-danantara-2025",
-            "ev-mbg-risiko-korupsi-pengadaan-2025",
-            "ev-kejagung-korupsi-timah-300t-2024",
-            "ev-presiden-badan-gizi-2024"
+            "ev-mbg-risiko-korupsi-pengadaan-2025"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -24651,39 +25585,26 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 0,
-          "confidence": 0.85,
-          "rationale_id": "MBG baru berjalan beberapa bulan dan belum terukur dampaknya. Prioritas anggaran MBG memangkas pos riset dan pendidikan tinggi lainnya. Terlalu prematur untuk menilai positif.",
+          "score": -1,
+          "confidence": 0.5,
+          "rationale_id": "Pembiayaan MBG dengan membebankannya ke pos anggaran pendidikan (yang dengan cara itu dianggap memenuhi mandaat 20%) memangkas ruang fiskal untuk komponen utama pendidikan dan kesejahteraan tenaga pendidik, sehingga kesejahteraan umum dicapai dengan cara yang merusak hak konstitusional warga atas pendidikan (Putusan MK No. 40/PUU-XXIV/2026). Meski cakupan penerima MBG nyata, keberlanjutan fiskal dan keadilan distribusinya bermasalah.",
           "evidence": [
+            {
+              "source_id": "berita-mk-putusan-mbg-40-2026"
+            },
+            {
+              "source_id": "laporan-investigasi-mbg-2025"
+            },
             {
               "source_id": "perpres-83-2024"
             },
             {
-              "source_id": "keppres-133-p-2024"
-            },
-            {
-              "source_id": "perpres-danantara-2025"
-            },
-            {
-              "source_id": "dakwaan-kejagung-timah-2024"
-            },
-            {
-              "source_id": "perpres-badan-gizi-2024"
-            },
-            {
-              "source_id": "perpres-83-2024-badan-gizi"
-            },
-            {
-              "source_id": "uud-nri-1945"
+              "source_id": "uu-62-2024"
             }
           ],
           "event_ids": [
             "ev-perpres-makan-bergizi-2024",
-            "ev-kabinet-merah-putih-2024",
-            "ev-badan-danantara-2025",
-            "ev-kejagung-korupsi-timah-300t-2024",
-            "ev-presiden-badan-gizi-2024",
-            "ev-program-makan-bergizi-gratis-2024"
+            "ev-mbg-risiko-korupsi-pengadaan-2025"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -25190,6 +26111,9 @@
             },
             {
               "source_id": "uu-32-2002"
+            },
+            {
+              "source_id": "uu-23-2003-pilpres-langsung"
             }
           ],
           "event_ids": [
@@ -25197,7 +26121,8 @@
             "ev-otonomi-daerah-1999",
             "ev-dpr-uu-pers-1999",
             "ev-dpr-uu-serikat-pekerja-2000",
-            "ev-dpr-uu-penyiaran-2002"
+            "ev-dpr-uu-penyiaran-2002",
+            "ev-uu-pilpres-langsung-2003"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26046,13 +26971,17 @@
               "source_id": "uu-5-2018"
             },
             {
+              "source_id": "uu-19-2019-kpk"
+            },
+            {
               "source_id": "laporan-komnas-ham-aktivis-2019"
             }
           ],
           "event_ids": [
             "ev-dpr14-revisi-kpk",
             "ev-dpr-pansus-angket-kpk-2017",
-            "ev-dpr-uu-terorisme-2018"
+            "ev-dpr-uu-terorisme-2018",
+            "ev-revisi-uu-kpk-pelemahan-independensi-2019"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26370,6 +27299,9 @@
             },
             {
               "source_id": "uu-1-2024"
+            },
+            {
+              "source_id": "uu-1-2023-kuhp"
             }
           ],
           "event_ids": [
@@ -26377,7 +27309,8 @@
             "ev-dpr-kuhp-nasional-2023",
             "ev-dpr-uu-ite-revisi-2024",
             "ev-dpr-kuhp-nasional-baru-2023",
-            "ev-dpr-uu-kuhp-2022"
+            "ev-dpr-uu-kuhp-2022",
+            "ev-pengesahan-kuhp-nasional-2023"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27751,6 +28684,9 @@
             },
             {
               "source_id": "putusan-mk-114-puu-xx-2022"
+            },
+            {
+              "source_id": "putusan-mk-18-puu-xvii-2019-fidusia"
             }
           ],
           "event_ids": [
@@ -27760,7 +28696,8 @@
             "ev-mk-putusan-perpanjangan-kpk-2022",
             "ev-mk-putusan-fidusia-2019",
             "ev-mk-putusan-90-2023",
-            "ev-mk-putusan-sistem-pemilu-terbuka-2023"
+            "ev-mk-putusan-sistem-pemilu-terbuka-2023",
+            "ev-putusan-mk-larangan-tarik-paksa-fidusia-2019"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -28429,12 +29366,16 @@
             },
             {
               "source_id": "uu-11-1953-bi"
+            },
+            {
+              "source_id": "pp-23-1958-nasionalisasi"
             }
           ],
           "event_ids": [
             "ev-nasionalisasi-belanda-1958",
             "ev-pembentukan-depernas-1959",
-            "ev-nasionalisasi-de-javasche-bank-1953"
+            "ev-nasionalisasi-de-javasche-bank-1953",
+            "ev-nasionalisasi-perusahaan-belanda-1958"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -28531,11 +29472,15 @@
             },
             {
               "source_id": "uu-80-1958"
+            },
+            {
+              "source_id": "uu-85-1958-depernas"
             }
           ],
           "event_ids": [
             "ev-nasionalisasi-belanda-1958",
-            "ev-pembentukan-depernas-1959"
+            "ev-pembentukan-depernas-1959",
+            "ev-depernas-pembangunan-semesta-1958"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -28742,10 +29687,14 @@
             },
             {
               "source_id": "pnps-1965"
+            },
+            {
+              "source_id": "keppres-1-3-1966-pembubaran-pki"
             }
           ],
           "event_ids": [
-            "ev-soekarno2-pnps-1965"
+            "ev-soekarno2-pnps-1965",
+            "ev-pembubaran-pki-supersemar-1966"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -28809,7 +29758,13 @@
           "evidence": [
             {
               "source_id": "dekrit-presiden-1959"
+            },
+            {
+              "source_id": "keppres-200-1960-masyumi-psi"
             }
+          ],
+          "event_ids": [
+            "ev-pembubaran-masyumi-psi-1960"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -28861,12 +29816,16 @@
             },
             {
               "source_id": "komando-dwikora-1964"
+            },
+            {
+              "source_id": "perjanjian-new-york-1962"
             }
           ],
           "event_ids": [
             "ev-soekarno2-irian-barat",
             "ev-trikora-1961",
-            "ev-komando-dwikora-1964"
+            "ev-komando-dwikora-1964",
+            "ev-perjanjian-new-york-irian-barat-1962"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -28928,12 +29887,16 @@
             },
             {
               "source_id": "komando-dwikora-1964"
+            },
+            {
+              "source_id": "surat-pbb-keluar-1965"
             }
           ],
           "event_ids": [
             "ev-soekarno2-konfrontasi",
             "ev-pbb-keluar-1965",
-            "ev-komando-dwikora-1964"
+            "ev-komando-dwikora-1964",
+            "ev-indonesia-keluar-pbb-1965"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -29001,6 +29964,9 @@
             },
             {
               "source_id": "tap-mprs-iii-1963"
+            },
+            {
+              "source_id": "penpres-3-1960-dpr-gr"
             }
           ],
           "event_ids": [
@@ -29009,7 +29975,8 @@
             "ev-penpres-3-1960-bubar-dpr",
             "ev-penpres-4-1960-dpr-gr",
             "ev-supersemar-1966-peralihan",
-            "ev-tap-mprs-presiden-seumur-hidup-1963"
+            "ev-tap-mprs-presiden-seumur-hidup-1963",
+            "ev-pembubaran-dpr-1955-pembentukan-dpr-gr-1960"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -29130,6 +30097,15 @@
             },
             {
               "source_id": "laporan-komnas-ham-petrus"
+            },
+            {
+              "source_id": "laporan-komnas-ham-priok-1984"
+            },
+            {
+              "source_id": "laporan-komnas-ham-talangsari-1989"
+            },
+            {
+              "source_id": "keppres-50-1993-komnas-ham"
             }
           ],
           "event_ids": [
@@ -29143,7 +30119,10 @@
             "ev-jim-kamboja-1988",
             "ev-ratifikasi-crc-1990",
             "ev-komnas-ham-1993",
-            "ev-operasi-petrus-1982-1985"
+            "ev-operasi-petrus-1982-1985",
+            "ev-peristiwa-tanjung-priok-1984",
+            "ev-peristiwa-talangsari-1989",
+            "ev-pembentukan-komnas-ham-1993"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -29209,6 +30188,15 @@
               "source_id": "laporan-komnas-ham-kudatuli"
             },
             {
+              "source_id": "uu-3-1975-parpol-golkar"
+            },
+            {
+              "source_id": "dokumen-petisi-50-1980"
+            },
+            {
+              "source_id": "pidato-mundur-soeharto-1998"
+            },
+            {
               "source_id": "literatur-sejarah-nasional"
             },
             {
@@ -29224,7 +30212,10 @@
             "ev-uu-pemilu-pertama-orba-1969",
             "ev-uu-fusi-partai-politik-1975",
             "ev-monopoli-p4-asas-tunggal-1978-1985",
-            "ev-penyerbuan-kudatuli-1996"
+            "ev-penyerbuan-kudatuli-1996",
+            "ev-fusi-partai-politik-1975",
+            "ev-pernyataan-petisi-50-1980",
+            "ev-pidato-pengunduran-diri-soeharto-1998"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -29297,6 +30288,9 @@
               "source_id": "resolusi-pbb-2504-1969"
             },
             {
+              "source_id": "uu-7-1976-timtim"
+            },
+            {
               "source_id": "un-pepera-resolusi-2504-1969"
             }
           ],
@@ -29340,6 +30334,9 @@
             },
             {
               "source_id": "tap-mpr-iv-1978"
+            },
+            {
+              "source_id": "uu-1-1967-pma"
             }
           ],
           "event_ids": [
@@ -29350,7 +30347,8 @@
             "ev-swasembada-beras-fao-1985",
             "ev-krismon-rupiah-1997",
             "ev-ratifikasi-crc-1990",
-            "ev-presiden-swasembada-fao-1984"
+            "ev-presiden-swasembada-fao-1984",
+            "ev-uu-pma-modal-asing-1967"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -33421,6 +34419,9 @@
               "source_id": "ihps-bpk-i-2021"
             },
             {
+              "source_id": "laporan-audit-bpk-jiwasraya-2020"
+            },
+            {
               "source_id": "lhp-bpk-sawit-2023"
             },
             {
@@ -33433,7 +34434,8 @@
             "ev-bpk-ihps-bansos-covid-2021",
             "ev-bpk-audit-sawit-hutan-2023",
             "ev-bpk-ihps-infrastruktur-2024",
-            "ev-bpk-audit-swasembada-pangan-2025"
+            "ev-bpk-audit-swasembada-pangan-2025",
+            "ev-audit-bpk-mega-skandal-jiwasraya-2020"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -33585,6 +34587,9 @@
             },
             {
               "source_id": "peraturan-bersama-ky-ma-2009"
+            },
+            {
+              "source_id": "uu-22-2004-ky"
             }
           ],
           "event_ids": [
@@ -33593,7 +34598,8 @@
             "ev-ky-mkh-pertama-2009",
             "ev-ky-laporan-mafia-peradilan-2007",
             "ev-ky-putusan-mk-005-2006",
-            "ev-ky-peraturan-bersama-kepph-2009"
+            "ev-ky-peraturan-bersama-kepph-2009",
+            "ev-pembentukan-komisi-yudisial-2004"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -34942,6 +35948,9 @@
               "source_id": "tap-mpr-xi-1998"
             },
             {
+              "source_id": "tap-mpr-xi-1998-kkn"
+            },
+            {
               "source_id": "anri-risalah-sidang-mprs-1967"
             }
           ],
@@ -34949,7 +35958,8 @@
             "ev-mprs-tap-xx-1966",
             "ev-mpr-tap-xvii-1998",
             "ev-mpr-tap-xi-1998",
-            "ev-mpr-tap-xvii-1998"
+            "ev-mpr-tap-xvii-1998",
+            "ev-tap-mpr-xi-1998-pemberantasan-kkn"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -36027,6 +37037,117 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": 1,
+          "confidence": 0.6,
+          "rationale_id": "DPD menjalankan fungsi perwakilan daerah hasil pemilu dan mengawasi penyelenggaraan pilkada serentak, memastikan suara daerah tersalurkan di tingkat nasional.",
+          "evidence": [
+            {
+              "source_id": "risalah-paripurna-dpd-oktober-2024"
+            },
+            {
+              "source_id": "laporan-pilkada-kpu-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pemilihan-sultan-2024",
+            "ev-dpd-pengawasan-pilkada-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.55,
+          "rationale_id": "DPD aktif mengawasi dampak pembangunan IKN terhadap hak-hak masyarakat adat dan mengusulkan percepatan pengesahan RUU Masyarakat Hukum Adat, menegaskan perlindungan kelompok rentan dalam kerangka supremasi hukum.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pengawasan-adat-ikn-2024",
+            "ev-dpd-posisi-ruu-masyarakat-adat-2025"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.55,
+          "rationale_id": "Pengawasan pembangunan IKN dan komitmen terhadap daerah terluar/kepulauan memperkuat pemerataan pembangunan nasional dan keutuhan wilayah.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pengawasan-adat-ikn-2024"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.55,
+          "rationale_id": "DPD mendesak penataan anggaran pendidikan dan transparansi alokasi dana transfer ke daerah demi kesejahteraan dan pemerataan layanan publik di daerah.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-dbh-2018"
+            },
+            {
+              "source_id": "laporan-dpd-guru-honorer-2022"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-evaluasi-anggaran-pendidikan-2025",
+            "ev-dpd-advokasi-fiskal-daerah-2025"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.5,
+          "rationale_id": "DPD memperjuangkan pengakuan masyarakat hukum adat dan daerah-daerah kepulauan, meneguhkan persatuan dalam keberagaman se-Indonesia.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-posisi-ruu-masyarakat-adat-2025"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.5,
+          "rationale_id": "Keterlibatan DPD dalam pengusulan dan pembahasan RUU masyarakat hukum adat serta pengawasan daerah menegaskan representasi musyawarah di tingkat nasional.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-posisi-ruu-masyarakat-adat-2025"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -36086,6 +37207,88 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": -1,
+          "confidence": 0.5,
+          "rationale_id": "Pemilu umum ditunda dan keanggotaan MPRS ditunjuk, sehingga kedaulatan rakyat dijalankan tanpa konsultasi elektoral pada masa demokrasi terpimpin.",
+          "evidence": [
+            {
+              "source_id": "anri-dekrit-presiden-5-juli-1959"
+            },
+            {
+              "source_id": "tap-mprs-ii-1960"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 0,
+          "confidence": 0.45,
+          "rationale_id": "Penegasan Pancasila sebagai sumber tertib hukum menonjolkan kemanusiaan, tetapi pembubaran partai politik mengekang ruang hak sipil.",
+          "evidence": [
+            {
+              "source_id": "anri-risalah-sidang-mprs-1967"
+            },
+            {
+              "source_id": "tap-mprs-xxv-1966"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 0,
+          "confidence": 0.5,
+          "rationale_id": "Kembalinya ke UUD 1945 dan GBHN pada MPRS menjaga keutuhan negara, meski dilakukan lewat dekrit tanpa musyawarah Dewan.",
+          "evidence": [
+            {
+              "source_id": "anri-dekrit-presiden-5-juli-1959"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": -1,
+          "confidence": 0.45,
+          "rationale_id": "Perekonomian terpimpin dan inflasi tinggi pada era ini menandakan keadilan sosial jauh dari tercapai; GBHN awal belum menjamin distribusi yang adil.",
+          "evidence": [
+            {
+              "source_id": "tap-mprs-ii-1960"
+            },
+            {
+              "source_id": "penpres-1-1959"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": -1,
+          "confidence": 0.45,
+          "rationale_id": "Ekonomi terpimpin dan krisis inflasi masa demokrasi terpimpin menghambat kesejahteraan umum yang dicita-citakan.",
+          "evidence": [
+            {
+              "source_id": "penpres-1-1959"
+            },
+            {
+              "source_id": "tap-mprs-ii-1960"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -36126,6 +37329,90 @@
           "evidence": [
             {
               "source_id": "anri-maklumat-kabinet-parlementer-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 1,
+          "confidence": 0.45,
+          "rationale_id": "Pembentukan KNIP dan penetapan dasar negara melalui PPKI menegakkan persatuan segenap bangsa di tengah revolusi kemerdekaan.",
+          "evidence": [
+            {
+              "source_id": "anri-ppki-sidang-22-agu-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.45,
+          "rationale_id": "Rumusan dasar negara pasca-proklamasi menempatkan Ketuhanan sebagai sila pertama, meski tujuh kata Piagam Jakarta dipangkas demi kesatuan.",
+          "evidence": [
+            {
+              "source_id": "anri-ppki-sidang-18-agu-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.4,
+          "rationale_id": "UUD 1945 dan lembaga negara dibentuk 1945 dalam tata hukum darurat revolusi; negara hukum mulai ditegakkan walau dalam keadaan perang.",
+          "evidence": [
+            {
+              "source_id": "anri-ppki-sidang-18-agu-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.4,
+          "rationale_id": "Maklumat Pemerintah X dan pergeseran kabinet membuka ruang partisipasi politik yang menjunjung harkat kemanusiaan.",
+          "evidence": [
+            {
+              "source_id": "anri-maklumat-wakil-presiden-x-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 1,
+          "confidence": 0.4,
+          "rationale_id": "Proklamasi dan pembentukan negara melalui PPKI menegakkan kedaulatan dan melindungi segenap bangsa dari ancaman luar.",
+          "evidence": [
+            {
+              "source_id": "anri-ppki-sidang-18-agu-1945"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.4,
+          "rationale_id": "Pembentukan pemerintahan dan lembaga keuangan negara tahun 1945 membangun fondasi kesejahteraan umum di awal revolusi.",
+          "evidence": [
+            {
+              "source_id": "anri-ppki-sidang-22-agu-1945"
             }
           ],
           "normative_anchors": [
@@ -36185,6 +37472,76 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.5,
+          "rationale_id": "Konstituante dan pemilihan umum pertama 1955 menghidupkan musyawarah perwakilan dalam merumuskan konstitusi pengganti UUD 1945.",
+          "evidence": [
+            {
+              "source_id": "anri-risalah-konstituante-natsir-1957"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.5,
+          "rationale_id": "Persetujuan kembali ke NKRI dan pemberlakuan UUDS 1950 menata kembali negara hukum kesatuan setelah periode federal RIS.",
+          "evidence": [
+            {
+              "source_id": "anri-piagam-persetujuan-nkri-1950"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 0,
+          "confidence": 0.45,
+          "rationale_id": "Proses parlementer yang dinamis dengan koalisi berganti-ganti menegaskan demokrasi liberal, namun ditandai ketidakstabilan kabinet.",
+          "evidence": [
+            {
+              "source_id": "anri-risalah-konstituante-natsir-1957"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 0,
+          "confidence": 0.45,
+          "rationale_id": "Perdebatan dasar negara dalam Konstituante berlangsung terbuka termasuk ikatan keagamaan, namun tidak mencapai kesepakatan hingga dibubarkan oleh Dekrit 1959.",
+          "evidence": [
+            {
+              "source_id": "anri-risalah-konstituante-natsir-1957"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 1,
+          "confidence": 0.5,
+          "rationale_id": "Pemilihan umum 1955 dan upaya membangun ekonomi nasional pasca-federal memperkuat kesejahteraan umum warga.",
+          "evidence": [
+            {
+              "source_id": "anri-piagam-persetujuan-nkri-1950"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -36225,6 +37582,90 @@
             },
             {
               "source_id": "tap-mprs-xxv-1966"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "checks-balances",
+          "score": -1,
+          "confidence": 0.45,
+          "rationale_id": "DPR-GR yang keanggotaannya banyak ditunjuk kehilangan kemandirian kontrol, dan Supersemar 1966 memindahkan kekuasaan besar ke eksekutif.",
+          "evidence": [
+            {
+              "source_id": "anri-supersemar-1966"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 0,
+          "confidence": 0.45,
+          "rationale_id": "Sila Ketuhanan tetap ditegakkan secara formal, namun ruang kebebasan beragama dibatasi pada masa terpimpin dan awal Orde Baru.",
+          "evidence": [
+            {
+              "source_id": "tap-mprs-iii-1963"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 0,
+          "confidence": 0.45,
+          "rationale_id": "UUPA No. 5 Tahun 1960 dan penataan agraria nasional menegakkan kedaulatan atas sumber daya, meski dilakukan dalam struktur politik yang sentralistik.",
+          "evidence": [
+            {
+              "source_id": "anri-uupa-5-1960"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 0,
+          "confidence": 0.45,
+          "rationale_id": "UUPA memberikan landasan keadilan agraria bagi rakyat, namun implementasinya terhambat pada era mobilisasi politik.",
+          "evidence": [
+            {
+              "source_id": "anri-uupa-5-1960"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": -1,
+          "confidence": 0.45,
+          "rationale_id": "Musyawarah perwakilan melalui DPR-GR yang keanggotaannya ditunjuk serta dominasi eksekutif mengurangi iklim musyawarah yang berkeadaban.",
+          "evidence": [
+            {
+              "source_id": "anri-supersemar-1966"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 0,
+          "confidence": 0.4,
+          "rationale_id": "Penataan agraria nasional lewat UUPA dan pemerataan pembangunan mengurangi ketimpangan, meski di bawah struktur politik terpusat.",
+          "evidence": [
+            {
+              "source_id": "anri-uupa-5-1960"
             }
           ],
           "normative_anchors": [
