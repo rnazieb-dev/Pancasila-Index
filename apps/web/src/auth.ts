@@ -102,56 +102,83 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   ],
   callbacks: {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    async jwt({ token, user, profile }: any) {
+    async jwt({ token, user, profile, account }: any) {
       if (user) {
         // Dari credentials login
         token.uid = user.id;
+        token.name = user.name || token.name;
+        token.email = user.email || token.email;
+        token.image = user.image || token.image;
         token.role = user.role || "KONTRIBUTOR";
         token.affiliation = user.affiliation || null;
         token.title = user.title || null;
         token.funding = user.funding || null;
-      } else if (profile && profile.id != null) {
+      } else if (profile && (profile.id != null || account?.provider === "github")) {
         // Dari GitHub OAuth login
-        const githubId = String(profile.id);
+        const githubId = String(profile.id || profile.login);
         const login = String(profile.login ?? user?.email ?? "").toLowerCase();
 
-        const existing = await db.user.findUnique({ where: { githubId } });
+        // Default values from GitHub profile directly
+        token.uid = token.uid || `github_${githubId}`;
+        token.name = profile.name || profile.login || token.name || "Kontributor GitHub";
+        token.email = profile.email || token.email || `${login}@users.noreply.github.com`;
+        token.image = profile.avatar_url || profile.image || token.image;
+        token.githubUsername = login;
+        token.role = token.role || (curatorLogins.has(login) ? "KURATOR" : "KONTRIBUTOR");
 
-        let role: "ADMIN" | "KURATOR" | "KONTRIBUTOR" = "KONTRIBUTOR";
-        if (!existing) {
-          const totalUsers = await db.user.count();
-          role =
-            totalUsers === 0
-              ? "ADMIN"
-              : curatorLogins.has(login)
-              ? "KURATOR"
-              : "KONTRIBUTOR";
+        // Sync with PostgreSQL / Prisma jika database tersedia
+        try {
+          const existing = await db.user.findFirst({
+            where: {
+              OR: [
+                { githubId },
+                ...(profile.email ? [{ email: profile.email }] : []),
+              ],
+            },
+          });
+
+          let role: "ADMIN" | "KURATOR" | "KONTRIBUTOR" =
+            (existing?.role as "ADMIN" | "KURATOR" | "KONTRIBUTOR") ||
+            (curatorLogins.has(login) ? "KURATOR" : "KONTRIBUTOR");
+
+          if (!existing) {
+            const totalUsers = await db.user.count().catch(() => 1);
+            if (totalUsers === 0) role = "ADMIN";
+          }
+
+          const data = {
+            githubId,
+            name: token.name,
+            email: token.email,
+            image: token.image,
+            role,
+          };
+
+          const dbUser = existing
+            ? await db.user.update({ where: { id: existing.id }, data })
+            : await db.user.create({ data });
+
+          token.uid = dbUser.id;
+          token.role = dbUser.role;
+          token.affiliation = dbUser.affiliation || token.affiliation || null;
+          token.title = dbUser.title || token.title || null;
+          token.funding = dbUser.funding || token.funding || null;
+          token.bio = dbUser.bio || token.bio || null;
+
+          await db.auditLog
+            .create({
+              data: {
+                actorId: dbUser.id,
+                action: "auth.signin.github",
+                entity: "User",
+                entityId: dbUser.id,
+                meta: JSON.stringify({ login }),
+              },
+            })
+            .catch(() => {});
+        } catch (dbErr) {
+          console.warn("Database sync during GitHub login skipped:", dbErr);
         }
-
-        const data = {
-          name: user?.name,
-          image: user?.image,
-          email: user?.email,
-        };
-        const dbUser = existing
-          ? await db.user.update({ where: { id: existing.id }, data })
-          : await db.user.create({ data: { githubId, role, ...data } });
-
-        await db.auditLog.create({
-          data: {
-            actorId: dbUser.id,
-            action: "auth.signin.github",
-            entity: "User",
-            entityId: dbUser.id,
-            meta: JSON.stringify({ login }),
-          },
-        });
-
-        token.uid = dbUser.id;
-        token.role = dbUser.role;
-        token.affiliation = dbUser.affiliation;
-        token.title = dbUser.title;
-        token.funding = dbUser.funding;
       }
       return token;
     },
@@ -159,10 +186,15 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     async session({ session, token }: any) {
       if (session?.user) {
         session.user.id = token.uid;
-        session.user.role = token.role;
-        session.user.affiliation = token.affiliation;
-        session.user.title = token.title;
-        session.user.funding = token.funding;
+        session.user.name = token.name || session.user.name;
+        session.user.email = token.email || session.user.email;
+        session.user.image = token.image || session.user.image;
+        session.user.role = token.role || "KONTRIBUTOR";
+        session.user.githubUsername = token.githubUsername || null;
+        session.user.affiliation = token.affiliation || null;
+        session.user.title = token.title || null;
+        session.user.funding = token.funding || null;
+        session.user.bio = token.bio || null;
       }
       return session;
     },

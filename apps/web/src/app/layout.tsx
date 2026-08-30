@@ -5,6 +5,7 @@ import "./globals.css";
 
 import { AppChrome } from "@/components/app-chrome";
 import { LocaleProvider } from "@/components/locale-provider";
+import { SessionProvider } from "@/components/session-provider";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.pancasila.site"),
@@ -50,9 +51,11 @@ export default function RootLayout({
   return (
     <html lang="id" data-theme="light">
       <body className="min-h-screen flex flex-col antialiased">
-        <LocaleProvider>
-          <AppChrome>{children}</AppChrome>
-        </LocaleProvider>
+        <SessionProvider>
+          <LocaleProvider>
+            <AppChrome>{children}</AppChrome>
+          </LocaleProvider>
+        </SessionProvider>
         <Analytics />
         <SpeedInsights />
       </body>

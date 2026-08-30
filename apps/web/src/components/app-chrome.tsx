@@ -299,6 +299,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
     name?: string | null;
     email?: string | null;
     role?: string | null;
+    image?: string | null;
   } | null>(null);
 
   useEffect(() => {
@@ -417,14 +418,23 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               <Link
                 href="/pengaturan"
                 title={`${userSession.name || userSession.email} (${userSession.role})`}
-                className={`flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-bold transition ${
+                className={`flex items-center gap-1.5 rounded-lg border px-2.5 py-1 text-xs font-bold transition ${
                   pathname === "/pengaturan"
-                    ? "border-sky-500 bg-sky-500/10 text-[var(--acc-sky)]"
-                    : "border-[var(--line)] bg-[var(--panel)] text-[var(--muted)] hover:border-slate-400 hover:text-[var(--text)]"
+                    ? "border-red-500 bg-red-500/10 text-[var(--acc-red)]"
+                    : "border-[var(--line)] bg-[var(--panel)] text-[var(--text)] hover:border-slate-400"
                 }`}
               >
-                <span className="size-2 rounded-full bg-emerald-400" />
-                <span className="max-w-[100px] truncate">
+                {userSession.image ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={userSession.image}
+                    alt="Avatar"
+                    className="size-5 rounded-full object-cover border border-[var(--line)]"
+                  />
+                ) : (
+                  <span className="size-2 rounded-full bg-emerald-400" />
+                )}
+                <span className="max-w-[110px] truncate">
                   {userSession.name?.split(" ")[0] || t("actSettings")}
                 </span>
               </Link>
@@ -634,9 +644,18 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                     className="flex items-center justify-between p-3 rounded-xl border border-[var(--line)] bg-[var(--bg)] hover:border-slate-400 transition"
                   >
                     <div className="flex items-center gap-2.5 min-w-0">
-                      <div className="size-7 rounded-full bg-emerald-500/20 text-emerald-600 flex items-center justify-center font-bold text-xs uppercase shrink-0">
-                        {userSession.name?.charAt(0) || "U"}
-                      </div>
+                      {userSession.image ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          src={userSession.image}
+                          alt="Avatar"
+                          className="size-7 rounded-full object-cover border border-[var(--line)] shrink-0"
+                        />
+                      ) : (
+                        <div className="size-7 rounded-full bg-emerald-500/20 text-emerald-600 flex items-center justify-center font-bold text-xs uppercase shrink-0">
+                          {userSession.name?.charAt(0) || "U"}
+                        </div>
+                      )}
                       <div className="min-w-0">
                         <div className="text-xs font-bold text-[var(--text)] truncate">
                           {userSession.name || "Kontributor"}
