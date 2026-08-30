@@ -24,8 +24,9 @@ menggantikan.
 - Ikuti skema di `packages/core/src/schemas.ts`.
 - Skala per dimensi: `-2` (melanggar berat) … `+2` (selaras penuh),
   lengkap dengan `confidence` 0–1 dan `rationale_id`.
-- Minimal 1 reviewer; PR akan ditandai "butuh telaah kedua" hingga ada
-  reviewer lain yang menyetujui.
+- **Wajib dua reviewer berbeda nama** sebelum status `published`.
+  Branch protection di GitHub juga mensyaratkan dua approval; konsistensi
+  ini memastikan pagar sosial dan pagar teknis tak saling langepass.
 - Penilaian berstatus `draft` tampil terpisah dari indeks publik.
 
 ### 3. Perubahan rubrik (dimensi, indikator, bobot)
@@ -106,7 +107,8 @@ menggerakkan skor ke arah tertentu:
    perubahan punya riwayat, dan PR adalah telaah sejawat. Tidak ada perubahan
    diam-diam.
 6. **Laporkan koordinasi.** Bila Anda menemukan pola PR yang tampak
-   terkoordinasi, laporkan ke `tim@pancasila.site` alih-alih membalas.
+   terkoordinasi, laporkan lewat [Security Advisories](SECURITY.md)
+   alih-alih membalas.
 
 Bila Anda ingin memakai AI/agent sebagai alat bantu, silakan — tetapi
 **manusia yang mengajukan PR-lah yang memikul tanggung jawab penuh atas
