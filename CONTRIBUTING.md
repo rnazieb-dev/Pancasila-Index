@@ -117,6 +117,18 @@ kebenaran dan sumber setiap perubahan.**
 Insiden keamanan atau dugaan koordinasi: laporkan privat lewat
 [SECURITY.md](SECURITY.md) — jangan melalui *public issue*.
 
+## Protokol admin override
+
+Branch protection `main` mensyaratkan 2 reviewer + `CODEOWNERS` approval.
+Untuk kasus di mana owner tunggal harus menggabungkan perbaikan tanpa
+menunggu kontributor kedua, GitHub menyediakan **bypass_actors** — dan
+pemilik repo didaftarkan sebagai actor tersebut. **Override selalu
+dilakukan lewat PR + komentar PR yang menjelaskan alasan**, bukan lewat
+push langsung ke `main`. Jejak tercatat di audit log GitHub.
+
+Lihat [.github/ADMIN_OVERRIDE.md](.github/ADMIN_OVERRIDE.md) untuk kapan
+override boleh dipakai, kapan tidak, dan tata cara pelaporannya.
+
 ## Aturan verifikasi fakta (wajib)
 
 **Selalu lakukan pencarian web sebelum menambah fakta, tanggal, angka,
