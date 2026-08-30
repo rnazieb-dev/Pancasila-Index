@@ -72,7 +72,7 @@ const id = {
   heroBadge: "Platform Terbuka Penilaian Konstitusional",
   heroTitle: "Menilai Kesetiaan Kekuasaan pada Pancasila & UUD 1945",
   heroSubtitle:
-    "Indeks kepatuhan 8 organ konstitusional Indonesia dari 1945 hingga kini, bersitasi 525+ bukti hukum primer dan ditinjau sejawat secara terbuka.",
+    "Indeks kepatuhan 8 organ konstitusional Indonesia dari 1945 hingga kini, bersitasi bukti hukum primer dan ditinjau sejawat secara terbuka.",
   heroCtaExplore: "Jelajahi 8 Lembaga",
   heroCtaMethod: "Baca Metodologi",
   heroCtaTimeline: "Linimasa Penilaian",
@@ -96,7 +96,7 @@ const id = {
 
   // Feature Cards
   featSearchTitle: "Pencarian Terpadu",
-  featSearchDesc: "Cari 652 peristiwa berbukti, 525 sumber primer, dan 73 pasal konstitusi dengan filter instan.",
+  featSearchDesc: "Cari peristiwa berbukti dan sumber primer dengan filter instan.",
   featCompareTitle: "Bandingkan Era & Organ",
   featCompareDesc: "Komparasi radar multi-dimensi antar-presiden atau antar-organ konstitusional secara berdampingan.",
   featTrendTitle: "Grafik Tren Historis",
@@ -166,7 +166,7 @@ const en: Dict = {
   heroBadge: "Open Constitutional Assessment Platform",
   heroTitle: "Assessing State Power's Fidelity to Pancasila & Constitution",
   heroSubtitle:
-    "Compliance index of Indonesia's 8 constitutional organs from 1945 to date, backed by 525+ primary legal sources and open peer review.",
+    "Compliance index of Indonesia's 8 constitutional organs from 1945 to date, backed by primary legal sources and open peer review.",
   heroCtaExplore: "Explore 8 Institutions",
   heroCtaMethod: "Read Methodology",
   heroCtaTimeline: "Assessment Timeline",
@@ -187,7 +187,7 @@ const en: Dict = {
   secFeaturesDesc: "Access interactive analytics tools, actor directory, full-text search, and open datasets.",
 
   featSearchTitle: "Unified Search",
-  featSearchDesc: "Search 652 evidenced events, 525 primary sources, and 73 constitutional articles with instant filters.",
+  featSearchDesc: "Search evidenced events and primary sources with instant filters.",
   featCompareTitle: "Compare Eras & Organs",
   featCompareDesc: "Side-by-side multi-dimensional radar comparison between presidential terms or constitutional branches.",
   featTrendTitle: "Historical Trend Chart",
@@ -252,7 +252,7 @@ const jv: Dict = {
   heroBadge: "Platform Terbuka Penilaian Konstitusional",
   heroTitle: "Mbiji Kasetyan Panguwasa marang Pancasila & UUD 1945",
   heroSubtitle:
-    "Indeks kasetyan 8 organ konstitusi Indonesia wiwit 1945 nganti saiki, adhedhasar 525+ bukti hukum primer.",
+    "Indeks kasetyan 8 organ konstitusi Indonesia wiwit 1945 nganti saiki, adhedhasar bukti hukum primer.",
   heroCtaExplore: "Njlajah 8 Lembaga",
   heroCtaMethod: "Waca Metodologi",
   heroCtaTimeline: "Garis Wektu Penilaian",
@@ -273,7 +273,7 @@ const jv: Dict = {
   secFeaturesDesc: "Gunakake piranti analisis interaktif, direktori tokoh, lan ekspor data publik.",
 
   featSearchTitle: "Panggolekan Terpadu",
-  featSearchDesc: "Goleki 652 kedadeyan berbukti, 525 sumber primer, lan 73 pasal konstitusi.",
+  featSearchDesc: "Goleki kedadeyan berbukti lan sumber primer kanthi filter cepet.",
   featCompareTitle: "Bandingake Jaman & Organ",
   featCompareDesc: "Bandingake radar multi-dimensi antar-presiden utawa lembaga konstitusi kanthi jejer.",
   featTrendTitle: "Grafik Tren Historis",
@@ -338,7 +338,7 @@ const su: Dict = {
   heroBadge: "Platform Terbuka Penilaian Konstitusional",
   heroTitle: "Meunteun Kasatiaan Kakawasaan kana Pancasila & UUD 1945",
   heroSubtitle:
-    "Indéks kasatiaan 8 organ konstitusional Indonésia ti 1945 dugi ka kiwari, didadasaran ku 525+ bukti hukum primér.",
+    "Indéks kasatiaan 8 organ konstitusional Indonésia ti 1945 dugi ka kiwari, didadasaran ku bukti hukum primér.",
   heroCtaExplore: "Nalungtik 8 Lembaga",
   heroCtaMethod: "Baca Métodologi",
   heroCtaTimeline: "Garis Waktos Penilaian",
@@ -359,7 +359,7 @@ const su: Dict = {
   secFeaturesDesc: "Anggo alat analisis interaktif, direktori tokoh, sareng ékspor data publik.",
 
   featSearchTitle: "Panyungsi Terpadu",
-  featSearchDesc: "Milarian 652 kajadian berbukti, 525 sumber primér, sareng 73 pasal konstitusi.",
+  featSearchDesc: "Milarian kajadian berbukti sareng sumber primér kalayan saringan gancang.",
   featCompareTitle: "Bandingkeun Jaman & Organ",
   featCompareDesc: "Komparasi radar multi-diménsi antar-présidén atanapi antar-lembaga sacara sajajar.",
   featTrendTitle: "Grafik Trén Historis",
@@ -424,7 +424,7 @@ const mad: Dict = {
   heroBadge: "Platform Terbuka Penilaian Konstitusional",
   heroTitle: "Nyelèksè Kasatèya'an Kokoasa'an ka Pancasila & UUD 1945",
   heroSubtitle:
-    "Indeks kasatèya'an 8 organ konstitusi Indonesia molaè 1945 kantos samangkèn, abuktè 525+ dokumen hokom primer.",
+    "Indeks kasatèya'an 8 organ konstitusi Indonesia molaè 1945 kantos samangkèn, abuktè dokumen hokom primer.",
   heroCtaExplore: "Jelajah 8 Lembhâgâ",
   heroCtaMethod: "Bâca Metodologi",
   heroCtaTimeline: "Ghâris Bâkto Penilaian",
@@ -445,7 +445,7 @@ const mad: Dict = {
   secFeaturesDesc: "Ghuna'aghi alat analisis interaktif, direktori tokoh, bân ekspor data publik.",
 
   featSearchTitle: "Panyarè'an Terpadu",
-  featSearchDesc: "Sarè 652 kadhâddhiyân berbukti, 525 somber primer, bân 73 pasal konstitusi.",
+  featSearchDesc: "Sarè kadhâddhiyân berbukti sareng somber primer ngangghuy saringan enggal.",
   featCompareTitle: "Bhândhingaghi Jhâman & Organ",
   featCompareDesc: "Komparasi radar multi-dimensi antar-presiden otabâ organ konstitusi.",
   featTrendTitle: "Grafik Tren Historis",
@@ -510,7 +510,7 @@ const min: Dict = {
   heroBadge: "Platform Tabukak Panilaian Konstitusional",
   heroTitle: "Manilai Kasatiaan Kakuasoan pado Pancasila & UUD 1945",
   heroSubtitle:
-    "Indeks kapatuahan 8 organ konstitusional Indonesia dari 1945 sampai kini, basandik pado 525+ bukti hukum primer.",
+    "Indeks kapatuahan 8 organ konstitusional Indonesia dari 1945 sampai kini, basandik pado bukti hukum primer.",
   heroCtaExplore: "Jelajahi 8 Lambago",
   heroCtaMethod: "Baco Metodologi",
   heroCtaTimeline: "Garih Wakatu Panilaian",
@@ -531,7 +531,7 @@ const min: Dict = {
   secFeaturesDesc: "Gunoan alat analisis interaktif, direktori tokoh, dan ekspor data publik.",
 
   featSearchTitle: "Pancarian Tapadu",
-  featSearchDesc: "Cari 652 paristiwa babukti, 525 sumber primer, jo 73 pasal konstitusi.",
+  featSearchDesc: "Cari paristiwa babukti jo sumber primer pakai filter instan.",
   featCompareTitle: "Bandiangkan Maso & Organ",
   featCompareDesc: "Komparasi radar multi-dimensi antar-presiden atau antar-lambago sacaro badampiangan.",
   featTrendTitle: "Grafik Tren Historis",

@@ -67,7 +67,7 @@ export default function Beranda() {
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3.5 py-1.5 text-xs font-medium text-emerald-400">
             <span className="size-2 rounded-full bg-emerald-400 animate-pulse" />
-            652 {t("eventsLabel")} · 525 {t("sourcesLabel")} · 8 {t("statInstitutions")}
+            {dataset.events.length} {t("eventsLabel")} · {dataset.sources.length} {t("sourcesLabel")} · 8 {t("statInstitutions")}
           </div>
           <Link
             href="/metodologi"
@@ -244,7 +244,7 @@ export default function Beranda() {
             </p>
           </div>
           <Link href="/cari" className="text-sm font-medium text-[var(--acc-sky)] hover:underline">
-            {t("actSearch")} 652 {t("eventsLabel")} →
+            {t("actSearch")} {dataset.events.length} {t("eventsLabel")} →
           </Link>
         </div>
 
