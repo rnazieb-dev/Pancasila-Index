@@ -102,6 +102,13 @@ Beberapa hal yang tidak kami tawar:
 - AI membantu menyusun; manusia yang mengesahkan. Draf AI **diterbitkan sebagai pratinjau** agar dikaji para ahli — dan semua orang, termasuk Anda, adalah peninjunya. Label `ai_suggested` vs `human_confirmed` memisahkan draf mesin dari yang telah disahkan manusia.
 - Ketidaksetujuan tampil berdampingan, bukan dibuang. Penilaian reviewer berbeda ditampilkan apa adanya.
 - Bhinneka tunggal ika sampai ke antarmuka: id, en, jv, su, min — dan seterusnya.
+- **Indeks ini bukan dukungan politik.** Pancasila Index adalah audit data
+  terbuka untuk kepentingan publik, bukan alat kampanye atau
+  pencitraan. Pengelolaan dilakukan oleh [PT Aplikasi Profesi
+  Indonesia](LEGAL.md) secara pro bono dan hanya menerima pendanaan
+  dari individu. Rincian pada halaman
+  [Disclaimer](/disclaimer), [Koreksi / Hak Jawab](/koreksi), dan
+  [Transparansi](/transparansi).
 
 ## Yang bisa Anda lakukan di dalamnya
 

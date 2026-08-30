@@ -734,12 +734,25 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               <Link href="/kurasi/log" className="hover:text-[var(--text)] transition">Log Aktivitas Kurasi</Link>
               <Link href="/api-docs" className="hover:text-[var(--text)] transition">REST API</Link>
               <Link href="/ekspor" className="hover:text-[var(--text)] transition">Ekspor Data</Link>
-              <Link href="/privasi" className="hover:text-[var(--text)] transition">Kebijakan Privasi</Link>
+              <Link href="/privasi" className="hover:text-[var(--text)] transition">Privasi</Link>
+              <Link href="/disclaimer" className="hover:text-[var(--text)] transition">Disclaimer</Link>
+              <Link href="/koreksi" className="hover:text-[var(--text)] transition">Koreksi / Hak Jawab</Link>
+              <Link href="/transparansi" className="hover:text-[var(--text)] transition">Transparansi</Link>
             </div>
           </div>
           <p>
             <strong className="text-[var(--text)]">{t("footerNote")}</strong>{" "}
             {t("footerDisclaimer")}
+          </p>
+          <p>
+            Indeks ini adalah kompilasi data terbuka berdasarkan bukti
+            primer. Setiap angka bisa dikoreksi lewat{" "}
+            <Link href="/koreksi" className="underline hover:text-[var(--text)]">halaman koreksi</Link>{" "}
+            atau PR. Dikelola oleh PT Aplikasi Profesi Indonesia (pro bono) —
+            baca{" "}
+            <Link href="/disclaimer" className="underline hover:text-[var(--text)]">disclaimer</Link>{" "}
+            dan{" "}
+            <Link href="/transparansi" className="underline hover:text-[var(--text)]">transparansi pendanaan</Link>.
           </p>
         </div>
       </footer>

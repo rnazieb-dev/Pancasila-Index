@@ -82,6 +82,14 @@ belum menurutinya.
 - Dilarang menyalin konten berhak cipta panjang ke dalam rationale;
   parafrase + kutipan pendek dengan sitasi.
 - Hormati Code of Conduct standar komunitas open source.
+- **Indeks ini bukan dukungan politik.** Kontribusi pada Pancasila
+  Index merupakan **audit data berbasis bukti primer**, bukan
+  dukungan terhadap partai, kandidat, atau aktor politik tertentu.
+  Kontributor boleh mendiskusikan kebijakan publik, namun dilarang
+  menggunakan platform ini sebagai alat kampanye, agitasi partisan,
+  atau menyerang martabat pihak yang dinilai di luar ruang
+  telaah data. Pelanggaran berulang akan berakibat pada
+  pencabutan akses kontribusi.
 
 ## Integritas & anti-manipulasi (wajib dibaca)
 
