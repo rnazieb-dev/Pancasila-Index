@@ -78,7 +78,7 @@ Sidang Tahunan MPR Tahun 2002).
 
 |  |  |  |  |
 |---:|---:|---:|---:|
-| **8** organ dinilai | **50** era konstitusional tercatat | **695** peristiwa berbukti | **634** sumber primer |
+| **8** organ dinilai | **50** masa jabatan | **695** peristiwa berbukti | **634** sumber primer |
 | **12** dimensi penilaian | **123** aktor tertaut | **37** pasal UUD 1945 (batang tubuh, setelah 4 amandemen) | **7** indeks eksternal |
 
 Catatan tentang dua angka:
@@ -93,15 +93,13 @@ Catatan tentang dua angka:
   (VIIA DPD, VIIB Pemilu, VIIIA BPK, IXA Wilayah Negara, XA HAM) = 21 bab.
   Sumber verifikasi: teks UUD 1945 dalam satu naskah (Wikisource,
   Risalah Rapat Paripurna ke-5 Sidang Tahunan MPR 2002).
-- **50 era** bukan "satu masa jabatan per periode pemilihan". Dataset
-  memilih unit per **era konstitusional** yang punya cukup peristiwa
-  untuk dinilai — mis. satu masa "Orde Baru" bisa menjadi satu term
-  meskipun di dalamnya ada beberapa periode pemilihan. Untuk pembaca
-  yang ingin tahu "ada berapa periode pemilihan", Wikipedia
-  [Daftar pemilihan legislatif Indonesia](https://id.wikipedia.org/wiki/Pemilihan_umum_legislatif_Indonesia)
-  mencantumkan 16 periode DPR sejak 1955. Pancasila Index memilih
-  unit yang lebih besar untuk menjaga signifikansi konstitusional
-  tiap kurasi.
+- **50 masa jabatan** adalah jumlah `terms` (periode menjabat) yang
+  tercatat di dataset untuk 8 organ UUD. Periode yang sama untuk
+  satu aktor dihitung satu term per masa jabatan (mis. Presiden SBY
+  Periode I dan Periode II dihitung terpisah). Untuk konteks
+  pembacaan, dataset `terms` mencakup masa jabatan yang punya cukup
+  peristiwa untuk dinilai, dengan satu term = satu periode
+  menjabat.
 
 Dataset mentah untuk indeks eksternal (RSF, WGI Rule of Law, WGI Control of
 Corruption, dan empat lainnya) adalah lampiran di
