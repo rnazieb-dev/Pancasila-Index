@@ -180,6 +180,7 @@
   dimension_ids:
     - kedaulatan-rakyat
     - sila-4
+    - negara-hukum
 - id: ev-dpr-uu-ombudsman-2008
   term_id: dpr-2004-2009
   date: 2008-10-07
@@ -948,14 +949,16 @@
   date: 2014-01-23
   category: pengadilan
   title_id: Putusan MK No. 14/PUU-XI/2013 Mewajibkan Pemilu Serentak Mulai 2019
-  summary_id: MK memutus bahwa pemilu anggota DPR, DPD, dan Presiden harus
-    diselenggarakan serentak guna memperkuat sistem presidensial dan efisiensi
-    anggaran.
+  summary_id: MK memutuskan bahwa pemisahan pemilu legislatif dan pemilu presiden
+    bertentangan dengan UUD 1945, dan mewajibkan pemilihan umum diselenggarakan
+    secara serentak mulai Pemilu 2019 guna memperkuat sistem presidensial dan
+    efisiensi anggaran.
   source_ids:
     - putusan-mk-14-puu-xi-2013
   dimension_ids:
     - checks-balances
     - kedaulatan-rakyat
+    - sila-4
 - id: ev-dpd-pengawasan-kur-2008
   term_id: dpd-2004-2009
   date: 2008-11-12

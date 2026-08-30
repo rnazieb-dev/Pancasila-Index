@@ -7777,7 +7777,8 @@
       ],
       "dimension_ids": [
         "checks-balances",
-        "kedaulatan-rakyat"
+        "kedaulatan-rakyat",
+        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -8955,7 +8956,9 @@
       ],
       "dimension_ids": [
         "sila-1",
-        "sila-4"
+        "sila-4",
+        "sila-3",
+        "kedaulatan-rakyat"
       ],
       "actor_ids": []
     },
@@ -10615,7 +10618,8 @@
       ],
       "dimension_ids": [
         "kedaulatan-rakyat",
-        "sila-4"
+        "sila-4",
+        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -11490,13 +11494,14 @@
       "date": "2014-01-23",
       "category": "pengadilan",
       "title_id": "Putusan MK No. 14/PUU-XI/2013 Mewajibkan Pemilu Serentak Mulai 2019",
-      "summary_id": "MK memutus bahwa pemilu anggota DPR, DPD, dan Presiden harus diselenggarakan serentak guna memperkuat sistem presidensial dan efisiensi anggaran.",
+      "summary_id": "MK memutuskan bahwa pemisahan pemilu legislatif dan pemilu presiden bertentangan dengan UUD 1945, dan mewajibkan pemilihan umum diselenggarakan secara serentak mulai Pemilu 2019 guna memperkuat sistem presidensial dan efisiensi anggaran.",
       "source_ids": [
         "putusan-mk-14-puu-xi-2013"
       ],
       "dimension_ids": [
         "checks-balances",
-        "kedaulatan-rakyat"
+        "kedaulatan-rakyat",
+        "sila-4"
       ],
       "actor_ids": []
     },
@@ -12059,7 +12064,8 @@
       ],
       "dimension_ids": [
         "sila-1",
-        "sila-2"
+        "sila-2",
+        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -12337,7 +12343,8 @@
       ],
       "dimension_ids": [
         "kedaulatan-rakyat",
-        "negara-hukum"
+        "negara-hukum",
+        "sila-2"
       ],
       "actor_ids": []
     },
@@ -12417,7 +12424,8 @@
       ],
       "dimension_ids": [
         "checks-balances",
-        "kedaulatan-rakyat"
+        "kedaulatan-rakyat",
+        "negara-hukum"
       ],
       "actor_ids": []
     },

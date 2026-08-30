@@ -279,6 +279,47 @@ for (const e of events) {
   }
 }
 
+// ---- deteksi near-duplikat (peringatan, bukan galat) ----
+// Dua peristiwa yang berbagi sumber + tanggal + judul hampir identik hampir
+// selalu merupakan duplikat. Dibunyikan agar tidak kembali menggelembung
+// hitungan peristiwa secara diam-diam tanpa terlihat.
+const normTitle = (t: string) =>
+  t.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+const titleSim = (a: string, b: string) => {
+  const wa = new Set(normTitle(a).split(" ").filter((w) => w.length > 2));
+  const wb = new Set(normTitle(b).split(" ").filter((w) => w.length > 2));
+  if (wa.size === 0 || wb.size === 0) return 0;
+  let inter = 0;
+  for (const w of wa) if (wb.has(w)) inter++;
+  return inter / Math.min(wa.size, wb.size);
+};
+{
+  const bySourceDate = new Map<string, typeof events>();
+  for (const e of events) {
+    const key = `${[...e.source_ids].sort().join("|")}::${e.date}`;
+    if (!e.source_ids.length) continue;
+    const arr = bySourceDate.get(key) ?? [];
+    arr.push(e);
+    bySourceDate.set(key, arr);
+  }
+  const nearDup: string[] = [];
+  for (const arr of bySourceDate.values()) {
+    if (arr.length < 2) continue;
+    for (let i = 0; i < arr.length; i++) {
+      for (let j = i + 1; j < arr.length; j++) {
+        if (titleSim(arr[i]!.title_id, arr[j]!.title_id) >= 0.85) {
+          nearDup.push(`  ${arr[i]!.id} <-> ${arr[j]!.id}  (${arr[i]!.title_id})`);
+        }
+      }
+    }
+  }
+  if (nearDup.length > 0) {
+    console.warn(`\nPeringatan near-duplikat peristiwa (${nearDup.length}):`);
+    for (const l of nearDup) console.warn(l);
+    console.warn("Pertimbangkan menggabungkannya agar hitungan peristiwa tidak menggelembung.\n");
+  }
+}
+
 for (const idx of externalIndices) {
   for (const dimId of idx.target_dimensions) {
     if (!dimIds.has(dimId))
@@ -379,6 +420,33 @@ console.log(
   `Atribusi: ${reattributed} peristiwa punya subject_term_id, ` +
     `${namedCorruptionEvents} peristiwa menyebut aktor secara terstruktur`
 );
+
+// ---- laporan integritas: sumber/peristiwa yatim harus terlihat ----
+// Sumber yang tidak dipakai siapa pun, dan peristiwa yang tidak tersambung
+// ke penilaian apa pun, adalah kekosongan yang harus dipertanggungjawabkan
+// (bukan disimpan diam-diam).
+const referencedSrcIds = new Set<string>();
+for (const e of events) for (const sid of e.source_ids) referencedSrcIds.add(sid);
+for (const a of assessments)
+  for (const ds of a.dimension_scores)
+    for (const ev of ds.evidence) referencedSrcIds.add(ev.source_id);
+const orphanSources = sourcesRaw.filter(
+  (s) => !referencedSrcIds.has(s.id) && !baselineSrcIds.has(s.id)
+);
+const assessmentEventIds = new Set<string>();
+for (const a of assessments)
+  for (const ds of a.dimension_scores)
+    for (const eid of ds.event_ids ?? []) assessmentEventIds.add(eid);
+const lonelyEvents = events.filter((e) => !assessmentEventIds.has(e.id));
+console.log(
+  `Integritas: ${orphanSources.length} sumber yatim, ${lonelyEvents.length} peristiwa yatim`
+);
+if (orphanSources.length > 0) {
+  console.log(
+    `  sumber yatim: ${orphanSources.slice(0, 12).map((s) => s.id).join(", ")}` +
+      (orphanSources.length > 12 ? ` (+${orphanSources.length - 12})` : "")
+  );
+}
 
 console.log(
   `OK: ${institutions.length} lembaga, ${terms.length} masa jabatan, ` +

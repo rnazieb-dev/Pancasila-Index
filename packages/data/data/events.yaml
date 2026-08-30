@@ -2713,7 +2713,7 @@
     Sidang Istimewa MPRS mencabut kekuasaan pemerintahan negara dari Presiden Sukarno dan mengangkat
     Jenderal Soeharto sebagai Pejabat Presiden RI. Peristiwa ini menandai transisi kekuasaan resmi dari Orde Lama ke Orde Baru.
   source_ids: [tap-mprs-xxxiii-1967]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
+  dimension_ids: [checks-balances, kedaulatan-rakyat, negara-hukum]
 
 - id: ev-dpr-uu-kip-2008
   term_id: dpr-2004-2009

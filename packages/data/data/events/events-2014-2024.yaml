@@ -56,6 +56,7 @@
   dimension_ids:
     - sila-1
     - sila-2
+    - negara-hukum
 - id: ev-mk-putusan-fidusia-2020
   term_id: mk-2018-2023
   date: 2020-01-06
@@ -317,6 +318,7 @@
   dimension_ids:
     - kedaulatan-rakyat
     - negara-hukum
+    - sila-2
 - id: ev-ky-laptah-penegakan-2023
   term_id: ky-2020-sekarang
   date: 2024-01-30
@@ -390,6 +392,7 @@
   dimension_ids:
     - checks-balances
     - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-mk-putusan-batas-usia-capres-2023
   term_id: mk-2018-2023
   date: 2023-10-16
