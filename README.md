@@ -1,10 +1,27 @@
 # Pancasila Index
 
-> Indeks Kepancasilaan terbuka: menilai seberapa Pancasila para pemangku
-> kekuasaan Republik Indonesia — eksekutif, legislatif, dan yudikatif — dari
-> kemerdekaan 1945 hingga saat ini, berbasis bukti yang dapat diverifikasi.
+> **Indeks kepatuhan konstitusional Indonesia berbasis bukti.** Menilai kesetiaan
+> **8 organ konstitusional** (Presiden, DPR, MPR, DPD, MK, MA, BPK, KY) terhadap
+> Pancasila, Pembukaan UUD 1945 alinea IV, dan norma struktural UUD 1945 — dari
+> kemerdekaan 1945 hingga kini. **Setiap skor wajib bersitasi bukti primer.**
 
-[![CI](https://github.com/TODO/pancasila-index/actions/workflows/ci.yml/badge.svg)](./.github/workflows/ci.yml)
+**Produksi:** [www.pancasila.site](https://www.pancasila.site) · **REST API:** `/api/v1` (+ [OpenAPI](https://www.pancasila.site/api/v1/openapi.json)) · **Dokumen:** [docs/](docs/)
+
+[![CI](https://github.com/rnazieb-dev/Pancasila-Index/actions/workflows/ci.yml/badge.svg)](https://github.com/rnazieb-dev/Pancasila-Index/actions/workflows/ci.yml)
+[![Kode: AGPL-3.0](https://img.shields.io/badge/Kode-AGPL--3.0-blue.svg)](LICENSE)
+[![Data: CC BY-SA 4.0](https://img.shields.io/badge/Data-CC--BY--SA--4.0-lightgrey.svg)](LICENSE-DATA.md)
+[![Next.js 15](https://img.shields.io/badge/Next.js-15-black.svg)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue.svg)](https://www.typescriptlang.org)
+[![pnpm 11](https://img.shields.io/badge/pnpm-11-orange.svg)](https://pnpm.io)
+[![Release v1.0.0](https://img.shields.io/badge/Release-v1.0.0-9cf.svg)](https://github.com/rnazieb-dev/Pancasila-Index/releases)
+
+## Skala saat ini
+
+| | |
+|---|---|
+| **8** organ konstitusional | **50** masa jabatan dinilai |
+| **695** peristiwa berbukti | **634** sumber primer aktif |
+| **12** dimensi (5 sila + 4 tujuan + 3 struktur) | **0** referensi mati |
 
 ## Mengapa proyek ini ada
 
@@ -36,7 +53,7 @@ lintas sejarah* — dan setiap skor wajib bersitasi bukti primer.
 - **Bhinneka Tunggal Ika.** UI dirancang multibahasa: Indonesia lebih dahulu,
   kemudian bahasa-bahasa daerah (Jawa, Sunda, Madura, Minangkabau, Bugis, …).
 
-## Status: Fase 3–4 (kurasi, AI pipeline, dataset historis)
+## Status: v1.0 — platform lengkap (Fase 0–13)
 
 | Fase | Isi | Status |
 |------|-----|--------|
@@ -45,27 +62,29 @@ lintas sejarah* — dan setiap skor wajib bersitasi bukti primer.
 | 2 | Seed era Reformasi + MVP web (timeline, radar, evidence explorer) | ✅ |
 | 2.5 | Peta lengkap UUD (73 pasal) + peristiwa krusial tambahan | ✅ |
 | 3 | Auth GitHub + workflow kurasi + pipeline AI | ✅ |
-| 5a | Prisma/Postgres overlay + RBAC 4 peran + review write-through DB→file + AuditLog | ✅ |
-| 5b | Kurasi tuntas: kuorum 2 approver beda nama, halaman detail & log publik, webhook opsional | ✅ |
-| 6a | Scraper JDIH Setneg → korpus `data/raw/` (51 dokumen hukum tervalidasi) | ✅ parsial* |
-| 4a | Dataset eksekutif penuh 1945–1998 (Revolusi/Liberal, Demokrasi Terpimpin, Orde Baru) | ✅ draf |
-| 4b | i18n bahasa daerah UI (id/jv/su/mad/min, fallback otomatis) | ✅ beta |
-| 4c | API publik (/index, /rubric, /uud) | ✅ |
-| 7a | Lapisan aktor: entitas orang berid, perkara hukum bersitasi + status hukum eksplisit, profil `/aktor/[id]`, re-atribusi peristiwa lintas lembaga | ✅ |
-| 7b | Provenance wajib untuk indeks eksternal + script unduh dari penerbit resmi | ✅ parsial** |
-| lanjutan | Legislatif & yudikatif pra-1998, terjemahan konten substantif, dewan editorial | ⬜ |
+| 4a–c | Dataset eksekutif 1945–1998, i18n 5 bahasa, API publik | ✅ |
+| 5a–b | Prisma/Postgres overlay + RBAC 4 peran + kurasi kuorum 2 reviewer + AuditLog + webhook | ✅ |
+| 6a–b | Scraper JDIH Setneg → korpus `data/raw/` + suggest v2 & batch bertema | ✅ |
+| 7 | 8 organ konstitusional lengkap (terms, events, assessments) + lapisan aktor & provenance | ✅ |
+| 8–9 | Pencarian /bandingkan /ekspor /aktor + REST API v1 + OpenAPI + rate-limiter | ✅ |
+| 10 | i18n konten substantif 5 bahasa (id, en, jv, su, min) + tinjauan bahasa | ✅ |
+| 12–13 | Skala bukti 600+ peristiwa, arsip primer Cloudflare R2, audit data, halaman dokumen `/arsip/[id]`, kepatuhan UU PDP | ✅ |
+| lanjutan | Dewan editorial publik, terjemahan substantif penuh | ⬜ |
 
-> ⚠️ Seluruh penilaian pada fase seed berstatus **DRAF** — dihasilkan sebagai
-> demonstrasi metodologi dan *belum* dikurasi dewan editorial. Angka indeks
-> bukan vonis akhir.
->
-> \* 6a parsial: korpus dari JDIH Setneg (terbuka); portal BPK & putusan
-> MK/MA diblokir Cloudflare/jaringan dari mesin pengembangan saat ini.
->
-> \*\* 7b parsial: mekanismenya lengkap (skema `provenance`, verifikasi
-> dihitung build, script `fetch:indices`), tetapi mayoritas titik data masih
-> berstatus **belum terverifikasi** karena kebijakan egress jaringan memblokir
-> seluruh host penerbit. Lihat "Indeks eksternal" di bawah.
+> **Catatan:** Seluruh penilaian saat ini berstatus **DRAF-PRATINJAU** — dihasilkan
+> sebagai demonstrasi metodologi dan *belum* dikurasi dewan editorial. Angka indeks
+> bukan vonis akhir. Setiap perubahan skor mengikuti telaah sejawat melalui pull
+> request dan kuorum dua reviewer (lihat prinsip di bawah).
+
+## Fitur utama
+
+- **Penilaian per masa jabatan & per dimensi** — matriks skor −2..+2 per sila/tujuan/norma struktural, dengan rasional dan bukti tertaut yang dapat diverifikasi.
+- **Halaman dokumen** (`/arsip/[id]`) — setiap sumber punya halaman ber-OG berisi metadata, sitasi, dan unduhan arsip primer.
+- **Pencarian, perbandingan, ekspor** — `/cari`, `/bandingkan` (radar 8 organ), `/ekspor` (CSV/JSON), direktori aktor `/aktor`.
+- **REST API v1 + OpenAPI** — `/api/v1/institutions|terms|events|assessments|sources|compare|index` dengan pagination, rate-limiter, dan UI `/api-docs`.
+- **Kurasi dua-reviewer** — publish butuh kuorum ≥2 approver berbeda nama, dengan jejak audit (AuditLog) dan webhook opsional.
+- **i18n konten substantif** — id, en, jv, su, min (+ antrean tinjauan bahasa `/peer-review/terjemahan`).
+- **Kepatuhan UU PDP (No. 27/2022)** — halaman kebijakan privasi, hak akses/ekspor & penghapusan data, consent kuki, minimalisasi data.
 
 ### Lapisan aktor (siapa, bukan cuma lembaga apa)
 
