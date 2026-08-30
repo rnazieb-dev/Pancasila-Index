@@ -152,7 +152,7 @@ export default async function ArsipDetailPage({
               className="inline-flex items-center gap-2 rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3 text-xs font-semibold text-[var(--text)] hover:border-slate-400 transition"
             >
               <IconArchive size={16} className="text-[var(--acc-amber-strong)]" />
-              <span>Unduh Salinan Digital (Mirror R2)</span>
+              <span>Unduh Salinan Naskah Digital</span>
             </a>
           )}
         </div>

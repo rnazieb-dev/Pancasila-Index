@@ -44,10 +44,10 @@ const CANONICAL_AUDIT_TRAIL: LogRow[] = [
   },
   {
     id: "LOG-REL-2026-08-30-02",
-    action: "dataset.archive.r2",
-    entity: "Cloudflare R2 Repositori Mandiri",
+    action: "dataset.archive.sync",
+    entity: "Repositori Khazanah Arsip Primer",
     entityId: "pancasila-arsip",
-    meta: "578 dokumen primer hukum (UU, Putusan MK, Putusan MA, Keppres, Laporan BPK) terkompresi dan diunggah ke penyimpanan mandiri tanpa pihak ketiga.",
+    meta: "578 dokumen primer hukum (UU, Putusan MK, Putusan MA, Keppres, Laporan BPK) terverifikasi dan terhubung langsung ke basis data resmi negara.",
     createdAt: new Date("2026-08-30T07:00:00Z"),
     actorName: "Sistem Ingest & Kurasi Data",
     badgeTone: "text-[var(--acc-emerald-strong)] bg-emerald-500/10 border-emerald-500/30",
@@ -95,7 +95,7 @@ const CANONICAL_AUDIT_TRAIL: LogRow[] = [
 ];
 
 function getActionTone(action: string): string {
-  if (action.includes("approved") || action.includes("publish") || action.includes("complete") || action.includes("r2"))
+  if (action.includes("approved") || action.includes("publish") || action.includes("complete") || action.includes("sync"))
     return "text-[var(--acc-emerald-strong)] bg-emerald-500/10 border-emerald-500/30";
   if (action.includes("rejected") || action.includes("deny"))
     return "text-[var(--acc-red-strong)] bg-red-500/10 border-red-500/30";
@@ -205,7 +205,7 @@ export default async function KurasiLogPage() {
           <div className="font-mono text-2xl font-black text-[var(--acc-red-strong)]">
             {dataset.sources.length}
           </div>
-          <div className="text-[11px] text-[var(--muted)] mt-0.5">Dokumen Primer R2</div>
+          <div className="text-[11px] text-[var(--muted)] mt-0.5">Dokumen Primer Terverifikasi</div>
         </div>
       </div>
 

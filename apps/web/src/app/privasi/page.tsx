@@ -34,8 +34,7 @@ export default function PrivasiPage() {
               Pancasila Index adalah platform penilaian independen kesetiaan 8 organ konstitusional Indonesia
               terhadap Pancasila dan UUD 1945. Sebagai pengendali data pribadi, kami dapat dihubungi melalui
               <strong className="text-[var(--text)]"> tim@pancasila.site</strong> (petugas pelindungan data / DPO).
-              Situs ini dioperasikan dan diproses melalui infrastruktur Vercel (Amerika Serikat), penyimpanan arsip
-              Cloudflare R2, dan autentikasi GitHub (GitHub, Inc., Amerika Serikat).
+              Situs ini dioperasikan melalui infrastruktur komputasi awan berstandar keamanan tinggi dan autentikasi resmi GitHub (GitHub, Inc.).
             </>
           ),
         },
@@ -118,9 +117,9 @@ export default function PrivasiPage() {
           t: "Transfer Data Lintas Batas Negara (Pasal 56)",
           body: (
             <>
-              Data diproses pada penyedia layanan yang berada di luar Indonesia (Vercel, Cloudflare, GitHub — Amerika
-              Serikat). Negara-negara tersebut memiliki tingkat pelindungan yang memadai atau kami menerapkan
-              pengamanan kontraktual yang sesuai. Dengan menggunakan layanan ini, Anda menyetujui transfer tersebut.
+              Data diproses pada penyedia layanan komputasi awan global berstandar keamanan internasional.
+              Penyedia layanan tersebut memiliki tingkat pelindungan data yang memadai dan menerapkan
+              pengamanan kontraktual yang ketat. Dengan menggunakan platform ini, Anda menyetujui pemrosesan tersebut.
             </>
           ),
         },
