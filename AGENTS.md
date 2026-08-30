@@ -92,6 +92,9 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
 - [x] **Fase 9: REST API v1 lengkap (institutions, terms, events, assessments, sources, compare) + pagination + rate-limiter + OpenAPI spec (/api/v1/openapi.json) + UI interaktif (/api-docs)** ✅
 - [x] **Fase 10: i18n konten substantif (5 bahasa: id, en, jv, su, min) + Antrean Tinjauan Bahasa (/peer-review/terjemahan)** ✅
 - [x] **Fase 12: Skala Bukti Penuh v1.0 (602 peristiwa multi-bukti & 490 sumber primer) & Penutupan Evidence Gap 8 Organ Konstitusional** ✅
+- [x] **Fase 13a: Audit & penataan data peristiwa** ✅ (636 peristiwa, 578 sumber, 0 tautan mati, 0 id ganda, 0 near-duplikat; term DPR/MPR pra-1971 ditutup + 5 penilaian; guard `seenEventIds` + deteksi near-duplikat + laporan integritas di build; alat `scripts/dedupe-near-dups.mts` idempoten)
+- [x] **Fase 13b: Halaman dokumen `/arsip/[id]` + unduhan arsip attachment** ✅ (semua tautan bukti ke halaman ber-OG; `/api/arsip` jadi unduhan)
+- [x] **Fase 13c: Kepatuhan UU PDP (No. 27/2022)** ✅ (halaman `/privasi`, hak akses/ekspor `GET /api/user/export`, hak penghapusan `DELETE /api/user/account`, banner consent kuki + insentif analitik, minimalisasi PII di AuditLog)
 - [x] **Fase 13: Repositori Arsip Primer Mandiri Cloudflare R2 & Eliminasi Total DuckDuckGo (100% Zero-Cost Guarantee)** ✅
   - [x] 578/578 dokumen primer terkompresi (358 MB, hanya 3.5% dari kuota gratis 10 GB) dan diunggah ke Cloudflare R2 bucket `pancasila-arsip`
   - [x] 0 tautan DuckDuckGo di seluruh dataset; fallback dialihkan ke repositori mandiri `/api/arsip/*` dan portal resmi instansi
