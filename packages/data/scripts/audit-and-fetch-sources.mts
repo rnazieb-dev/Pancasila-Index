@@ -59,7 +59,7 @@ function getCloudflareToken(): string {
 function getR2Key(source: any): string {
   const typeSafe = source.type.toLowerCase().replace(/[^a-z0-9]/g, "");
   const yearStr = source.year ? `${source.year}` : "0000";
-  return `v1/${typeSafe}/${yearStr}/${source.id}.pdf`;
+  return `v2/${typeSafe}/${yearStr}/${source.id}.pdf`;
 }
 
 function loadJdihMapping() {
@@ -288,17 +288,20 @@ async function main() {
         }
         try {
           const page = await browser.newPage();
-          await page.setViewport({ width: 1280, height: 1024 });
+          await page.setViewport({ width: 768, height: 1024 });
           await page.goto(s.url, { waitUntil: "networkidle2", timeout: 30000 });
           
           // @ts-ignore
           await page.evaluate(() => { window.scrollBy(0, window.innerHeight); });
           await new Promise(r => setTimeout(r, 1000));
           
+          await page.emulateMediaType("screen");
+          const height = await page.evaluate(() => document.documentElement.scrollHeight);
+          
           const pdfBuffer = await page.pdf({ 
-            format: "A4", 
-            printBackground: true,
-            margin: { top: '1cm', right: '1cm', bottom: '1cm', left: '1cm' }
+            width: "768px", 
+            height: (height + 100) + "px",
+            printBackground: true
           });
           
           writeFileSync(pdfPath, pdfBuffer);
@@ -312,7 +315,7 @@ async function main() {
     }
 
     // 4. Susun Dokumen Legal Dummy PDF (Hanya jika TIDAK ADA URL dan GAGAL di-download)
-    if (!downloaded && !s.url) {
+    if (!downloaded) {
       const relEvs = eventsBySource.get(s.id) ?? [];
       const pdfBytes = await createFullTextLegalPdf({
         id: s.id,
@@ -341,7 +344,7 @@ async function main() {
 
   // (Lanjutkan kompresi dan upload persis seperti sebelumnya) ...
   // Biar cepat, user bisa memanggil `pnpm archive:all` langsung
-  console.log("\nMenjalankan pnpm archive:all..."); require("child_process").execSync("npx tsx scripts/archive-r2.mts all", { stdio: "inherit" });
+  console.log("\nMenjalankan pnpm archive:all..."); (await import("child_process")).execSync("npx tsx scripts/archive-r2.mts all", { stdio: "inherit" });
 }
 
 main().catch((err) => {

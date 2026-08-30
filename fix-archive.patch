@@ -1,0 +1,19 @@
+--- packages/data/scripts/archive-r2.mts
++++ packages/data/scripts/archive-r2.mts
+@@ -147,15 +147,16 @@
+   console.log(`\n📦 Memulai Kompresi Masal untuk ${sources.length} Sumber Primer...`);
+ 
+   for (const s of sources) {
+-    const localPdf = jdihMap.get(s.id);
++    let localPdf = jdihMap.get(s.id);
++    if (!localPdf || !existsSync(localPdf)) {
++       const genericPdf = join(ROOT, "raw", "pdf", `${s.id}.pdf`);
++       if (existsSync(genericPdf)) localPdf = genericPdf;
++    }
+     let targetBuffer: Uint8Array;
+     let ext: "pdf" | "html" = "pdf";
+     let mimeType = "application/pdf";
+     let origBytes = 0;
+ 
+     if (localPdf && existsSync(localPdf)) {
+       const rawBuf = readFileSync(localPdf);

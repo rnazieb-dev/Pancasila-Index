@@ -56,19 +56,19 @@ function getR2Key(source: { id: string; type: string }, ext: "pdf" | "html"): st
     case "perppu":
     case "keppres":
     case "dokumen-mpr":
-      return `peraturan/${source.id}.${ext}`;
+      return `v2/peraturan/${source.id}.${ext}`;
     case "putusan-mk":
     case "putusan-ma":
-      return `putusan/${source.id}.${ext}`;
+      return `v2/putusan/${source.id}.${ext}`;
     case "laporan-lembaga":
-      return `laporan/${source.id}.${ext}`;
+      return `v2/laporan/${source.id}.${ext}`;
     case "arsip-nasional":
-      return `sejarah/${source.id}.${ext}`;
+      return `v2/sejarah/${source.id}.${ext}`;
     case "berita":
     case "lainnya":
     case "buku":
     default:
-      return `dokumen/${source.id}.${ext}`;
+      return `v2/dokumen/${source.id}.${ext}`;
   }
 }
 
@@ -145,7 +145,14 @@ export async function compressAll() {
   console.log(`\n📦 Memulai Kompresi Masal untuk ${sources.length} Sumber Primer...`);
 
   for (const s of sources) {
-    const localPdf = jdihMap.get(s.id);
+    let localPdf = jdihMap.get(s.id);
+    if (!localPdf || !existsSync(localPdf)) {
+      const genericPdf = join(ROOT, "raw", "pdf", `${s.id}.pdf`);
+      if (existsSync(genericPdf)) {
+        localPdf = genericPdf;
+      }
+    }
+    
     let targetBuffer: Uint8Array;
     let ext: "pdf" | "html" = "pdf";
     let mimeType = "application/pdf";
@@ -216,7 +223,7 @@ export async function compressAll() {
 }
 
 /** 4. Unggah Masal ke Bucket R2 via Cloudflare R2 REST API */
-export async function uploadAll(dryRun = false, concurrency = 15) {
+export async function uploadAll(dryRun = false, concurrency = 1) {
   if (!existsSync(MANIFEST_PATH)) {
     await compressAll();
   }
@@ -250,7 +257,7 @@ export async function uploadAll(dryRun = false, concurrency = 15) {
       }
 
       if (dryRun) {
-        successCount++;
+        successCount++; await new Promise(r => setTimeout(r, 1000));
         continue;
       }
 
@@ -284,11 +291,11 @@ export async function uploadAll(dryRun = false, concurrency = 15) {
             console.error(`[X] Error upload ${item.r2_key}:`, err instanceof Error ? err.message : err);
           }
         }
-        await new Promise((r) => setTimeout(r, 200 * attempt));
+        await new Promise((r) => setTimeout(r, 5000));
       }
 
       if (uploaded) {
-        successCount++;
+        successCount++; await new Promise(r => setTimeout(r, 1000));
       } else {
         failCount++;
       }
