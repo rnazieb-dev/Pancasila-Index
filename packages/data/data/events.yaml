@@ -12,7 +12,6 @@
     pengakuan pada kertas jauh sebelum pada meja pengadilan.
   source_ids: [tap-mpr-xvii-1998]
   dimension_ids: [sila-2]
-
 - id: ev-habibie-kemerdekaan-sipil
   term_id: presiden-habibie
   date: "1998-10"
@@ -26,7 +25,6 @@
     paling terbuka sejak 1950-an.
   source_ids: [uu-9-1998]
   dimension_ids: [sila-4]
-
 - id: ev-habibie-referendum-timtim
   term_id: presiden-habibie
   date: "1999-05"
@@ -40,7 +38,6 @@
     milisi pro-integrasi. Prosedurnya damai, pelaksanaannya tragis.
   source_ids: [tripartit-timtim-1999]
   dimension_ids: [sila-3, tujuan-4]
-
 - id: ev-habibie-pemilu-1999
   term_id: presiden-habibie
   date: "1999-06"
@@ -54,7 +51,6 @@
     meninggalkan luka. Inilah fondasi legitimasi demokrasi modern Indonesia.
   source_ids: [uu-3-1999]
   dimension_ids: [sila-4, kedaulatan-rakyat]
-
 - id: ev-habibie-otda
   term_id: presiden-habibie
   date: "1999-05"
@@ -68,7 +64,6 @@
     arah desentralisasi tak pernah bisa dibalik lagi.
   source_ids: [uu-22-1999, uu-25-1999]
   dimension_ids: [sila-3]
-
 - id: ev-habibie-uu-pers-ham
   term_id: presiden-habibie
   date: "1999-09"
@@ -84,7 +79,6 @@
   dimension_ids: [sila-4, sila-2]
 
 # ------------------------- PRESIDEN GUSDUR -------------------------
-
 - id: ev-gusdur-depen
   term_id: presiden-gusdur
   date: "1999-10"
@@ -98,7 +92,6 @@
     informasi milik warga, bukan monopoli istana.
   source_ids: [keppres-125-1999]
   dimension_ids: [sila-4]
-
 - id: ev-gusdur-imlek
   term_id: presiden-gusdur
   date: "2000-01"
@@ -112,7 +105,6 @@
     budaya - bukti bahwa pelarasan bisa sesederhana itu.
   source_ids: [keppres-6-2000]
   dimension_ids: [sila-1, sila-3]
-
 - id: ev-gusdur-ssm
   term_id: presiden-gusdur
   date: "2001-07"
@@ -128,7 +120,6 @@
   dimension_ids: [checks-balances]
 
 # ------------------------ PRESIDEN MEGAWATI ------------------------
-
 - id: ev-megawati-pengadilan-timtim
   term_id: presiden-megawati
   date: "2001-12"
@@ -142,7 +133,6 @@
     bagaimana negara bisa punya pengadilan tanpa punya keinginan menghukum.
   source_ids: [keppres-53-2001]
   dimension_ids: [sila-2]
-
 - id: ev-megawati-kpk
   term_id: presiden-megawati
   date: "2002-12"
@@ -156,7 +146,6 @@
     paling ditakuti Asia Tenggara lahir dari rezim yang tidak terkenal bersih.
   source_ids: [uu-30-2002]
   dimension_ids: [negara-hukum]
-
 - id: ev-megawati-presiden-langsung
   term_id: presiden-megawati
   date: "2003-07"
@@ -170,7 +159,6 @@
     adalah yang pemimpinnya rela dikalahkan oleh aturan yang ia buat sendiri.
   source_ids: [uu-23-2003]
   dimension_ids: [kedaulatan-rakyat, sila-4]
-
 - id: ev-megawati-antiteror
   term_id: presiden-megawati
   date: "2003-04"
@@ -184,7 +172,6 @@
     Indonesia.
   source_ids: [uu-15-2003]
   dimension_ids: [tujuan-1]
-
 - id: ev-megawati-mk-dilantik
   term_id: presiden-megawati
   date: "2003-08"
@@ -201,7 +188,6 @@
   dimension_ids: [checks-balances]
 
 # ------------------------- PRESIDEN SBY I -------------------------
-
 - id: ev-sby1-damai-aceh
   term_id: presiden-sby-i
   date: "2005-08"
@@ -216,7 +202,6 @@
     dengan martabat, bukan hanya peluru.
   source_ids: [mou-helsinki-2005]
   dimension_ids: [sila-3, tujuan-1]
-
 - id: ev-sby1-log-aceh
   term_id: presiden-sby-i
   date: "2006-07"
@@ -231,7 +216,6 @@
     tentang perlindungan minoritas.
   source_ids: [uu-11-2006]
   dimension_ids: [sila-3]
-
 - id: ev-sby1-ite
   term_id: presiden-sby-i
   date: "2008-03"
@@ -245,7 +229,6 @@
     Kepastian hukum bagi e-commerce dibayar mahal oleh kebebasan berekspresi warga.
   source_ids: [uu-11-2008]
   dimension_ids: [sila-4]
-
 - id: ev-sby1-antirasial
   term_id: presiden-sby-i
   date: "2008-10"
@@ -259,7 +242,6 @@
     negara tak lagi punya dasar hukum untuk membedakan warganya.
   source_ids: [uu-40-2008]
   dimension_ids: [sila-3]
-
 - id: ev-sby1-century
   term_id: presiden-sby-i
   date: "2008-11"
@@ -276,7 +258,6 @@
   dimension_ids: [negara-hukum]
 
 # ------------------------- PRESIDEN SBY II -------------------------
-
 - id: ev-sby2-tppu
   term_id: presiden-sby-ii
   date: "2010-10"
@@ -290,7 +271,6 @@
     tertangkap tangan, melainkan karena jejak rupiahnya.
   source_ids: [uu-8-2010]
   dimension_ids: [negara-hukum]
-
 - id: ev-sby2-bpjs
   term_id: presiden-sby-ii
   date: "2011-11"
@@ -304,7 +284,6 @@
     200 juta peserta. Tulang punggung negara kesejahteraan Indonesia akhirnya ada.
   source_ids: [uu-24-2011]
   dimension_ids: [sila-5, tujuan-2]
-
 - id: ev-sby2-moratorium-hutan
   term_id: presiden-sby-ii
   date: "2011-05"
@@ -318,7 +297,6 @@
     berkembang membuktikan hutan bisa menjadi aset iklim, bukan sekadar tambang kayu.
   source_ids: [inpres-10-2011]
   dimension_ids: [tujuan-4]
-
 - id: ev-sby2-md3
   term_id: presiden-sby-ii
   date: "2014-04"
@@ -334,7 +312,6 @@
   dimension_ids: [checks-balances, kedaulatan-rakyat]
 
 # ------------------------ PRESIDEN JOKOWI I ------------------------
-
 - id: ev-jokowi1-dana-desa
   term_id: presiden-jokowi-i
   date: "2015-01"
@@ -349,7 +326,6 @@
     mengikutinya.
   source_ids: [uu-6-2014]
   dimension_ids: [sila-5]
-
 - id: ev-jokowi1-eksekusi-narkoba
   term_id: presiden-jokowi-i
   date: "2015-01"
@@ -364,7 +340,6 @@
     sempit.
   source_ids: [laporan-komnas-ham-eksekusi-2015]
   dimension_ids: [sila-2]
-
 - id: ev-jokowi1-perluasan-pkh
   term_id: presiden-jokowi-i
   date: "2017-08"
@@ -379,7 +354,6 @@
     tak terdaftar.
   source_ids: [perpres-63-2017]
   dimension_ids: [sila-5, tujuan-2]
-
 - id: ev-jokowi1-aksi-2019
   term_id: presiden-jokowi-i
   date: "2019-09"
@@ -395,7 +369,6 @@
   dimension_ids: [sila-4, sila-2]
 
 # ----------------------- PRESIDEN JOKOWI II -----------------------
-
 - id: ev-jokowi2-shutdown-papua
   term_id: presiden-jokowi-ii
   date: "2019-08"
@@ -409,7 +382,6 @@
     warga ketika cerita yang menyebar tidak sesuai versi resmi.
   source_ids: [laporan-lsm-kebebasan-sipil-2019-2024]
   dimension_ids: [sila-4, sila-3]
-
 - id: ev-jokowi2-ciptaker
   term_id: presiden-jokowi-ii
   date: "2020-02"
@@ -423,7 +395,6 @@
     bagaimana efisiensi bisa dibunuhnya prosedur demokrasi.
   source_ids: [uu-11-2020]
   dimension_ids: [checks-balances, sila-4]
-
 - id: ev-jokowi2-respons-pandemi
   term_id: presiden-jokowi-ii
   date: "2020-03"
@@ -438,21 +409,6 @@
     data awal yang buruk dan korupsi bansos daerah yang merajalela.
   source_ids: [uu-2-2020]
   dimension_ids: [tujuan-1, sila-5]
-
-- id: ev-jokowi2-putusan-mk-91
-  term_id: presiden-jokowi-ii
-  date: "2021-11"
-  category: pengadilan
-  title_id: Putusan MK No. 91/PUU-XVIII/2020
-  summary_id: >-
-    Dengan suara bulat, sembilan hakim menyatakan UU Cipta Kerja "inkonstitusional
-    bersyarat": cacat formalnya - partisipasi publik diabaikan, draf tak dipublikasikan -
-    membuat proses pembuatannya melanggar konstitusi. Putusan ini menjadi rujukan global
-    tentang pentingnya proses legislasi partisipatif. Pertanyaannya kemudian bukan lagi
-    apakah putusan dihormati, melainkan apa yang dilakukan pemerintah sesudahnya.
-  source_ids: [putusan-mk-91-2021]
-  dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-jokowi2-perppu-ciptaker
   term_id: presiden-jokowi-ii
   date: "2022-12"
@@ -466,7 +422,6 @@
     konstitusi: putusan Anda benar, tapi kami tetap jalan.
   source_ids: [perppu-2-2022]
   dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-jokowi2-uu-ciptaker-permanen
   term_id: presiden-jokowi-ii
   date: "2023-03"
@@ -480,7 +435,6 @@
     tanpa perbaikan prosedur apa pun.
   source_ids: [uu-6-2023]
   dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-jokowi2-ikn
   term_id: presiden-jokowi-ii
   date: "2022-01"
@@ -494,7 +448,6 @@
     fiskal di tengah pemulihan pandemi diperdebatkan akademisi fiskal.
   source_ids: [uu-3-2022]
   dimension_ids: [tujuan-2, kedaulatan-rakyat]
-
 - id: ev-jokowi2-whoosh
   term_id: presiden-jokowi-ii
   date: "2023-10"
@@ -508,7 +461,6 @@
     dibandingkan investasi transportasi massal Jabodetabek yang lebih menyentuh jutaan rakyat.
   source_ids: [whoosh-kcjb-2023]
   dimension_ids: [tujuan-2]
-
 - id: ev-jokowi2-dinasti-politik
   term_id: presiden-jokowi-ii
   date: "2024-02"
@@ -525,7 +477,6 @@
   dimension_ids: [kedaulatan-rakyat, negara-hukum]
 
 # ------------------------ PRESIDEN PRABOWO ------------------------
-
 - id: ev-prabowo-mbg
   term_id: presiden-prabowo
   date: "2025-01"
@@ -540,7 +491,6 @@
     biaya yang belum efisien, dan pertanyaan apakah APBN sanggup menanggungnya.
   source_ids: [perpres-83-2024]
   dimension_ids: [sila-5, tujuan-2, tujuan-3]
-
 - id: ev-prabowo-danantara
   term_id: presiden-prabowo
   date: "2025-02"
@@ -555,7 +505,6 @@
     untuk waspada.
   source_ids: [uu-danantara-2025]
   dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-prabowo-agustus-2025
   term_id: presiden-prabowo
   date: "2025-08"
@@ -572,7 +521,6 @@
   dimension_ids: [sila-2, sila-4]
 
 # ============================ DPR RI ============================
-
 - id: ev-dpr99-amandemen-uud
   term_id: dpr-1999-2004
   date: "2002-08"
@@ -587,7 +535,6 @@
     damai dan menyeluruh di dunia pasca-Soviet.
   source_ids: [tap-amandemen-uud-1999-2002, uud-nri-1945]
   dimension_ids: [checks-balances, kedaulatan-rakyat, sila-4]
-
 - id: ev-dpr99-kpk
   term_id: dpr-1999-2004
   date: "2002-12"
@@ -602,7 +549,6 @@
     parlemen yang melahirkannya.
   source_ids: [uu-30-2002]
   dimension_ids: [negara-hukum]
-
 - id: ev-dpr99-pilpres-langsung
   term_id: dpr-1999-2004
   date: "2003-07"
@@ -616,7 +562,6 @@
     Indonesia mengurangi kekuasaannya sendiri.
   source_ids: [uu-23-2003]
   dimension_ids: [kedaulatan-rakyat]
-
 - id: ev-dpr04-ky
   term_id: dpr-2004-2009
   date: "2004-08"
@@ -631,7 +576,6 @@
     sampai hari ini.
   source_ids: [uu-27-2004]
   dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-dpr04-kepemilihan
   term_id: dpr-2004-2009
   date: "2007-04"
@@ -645,7 +589,6 @@
     memperdebatkan lagi siapa yang boleh menunjuk penyelenggara.
   source_ids: [uu-22-2007]
   dimension_ids: [sila-4]
-
 - id: ev-dpr04-tipikor
   term_id: dpr-2004-2009
   date: "2009-09"
@@ -659,7 +602,6 @@
     seragam dibanding kerugian negara yang dicabut dari negara.
   source_ids: [uu-46-2009]
   dimension_ids: [negara-hukum]
-
 - id: ev-dpr04-ite-disahkan
   term_id: dpr-2004-2009
   date: "2008-03"
@@ -673,7 +615,6 @@
     pasal-pasal itu - setelah ratusan nyawa dan karier hancur.
   source_ids: [uu-11-2008]
   dimension_ids: [sila-4]
-
 - id: ev-dpr09-bpjs
   term_id: dpr-2009-2014
   date: "2011-11"
@@ -687,7 +628,6 @@
     agenda legislasi.
   source_ids: [uu-24-2011]
   dimension_ids: [sila-5, tujuan-2]
-
 - id: ev-dpr09-pp3
   term_id: dpr-2009-2014
   date: "2011-08"
@@ -701,7 +641,6 @@
     mata: alat kontrol proses sekaligus celah legalisasi legislasi kilat.
   source_ids: [uu-12-2011]
   dimension_ids: [negara-hukum]
-
 - id: ev-dpr09-md3
   term_id: dpr-2009-2014
   date: "2014-04"
@@ -715,7 +654,6 @@
     ini menjadi cetakan yang diwariskan sampai revisi MD3 2025.
   source_ids: [uu-17-2014]
   dimension_ids: [checks-balances, kedaulatan-rakyat]
-
 - id: ev-dpr14-des
   term_id: dpr-2014-2019
   date: "2014-09"
@@ -729,7 +667,6 @@
     ribuan kepala desa.
   source_ids: [uu-6-2014]
   dimension_ids: [sila-5, tujuan-2]
-
 - id: ev-dpr14-pemilu
   term_id: dpr-2014-2019
   date: "2017-08"
@@ -743,7 +680,6 @@
     gugatan ambang batas yang dimenangkan petisi di MK pada 2024.
   source_ids: [uu-7-2017]
   dimension_ids: [sila-4, kedaulatan-rakyat]
-
 - id: ev-dpr14-revisi-kpk
   term_id: dpr-2014-2019
   date: "2019-09"
@@ -758,7 +694,6 @@
     KPK anjlok tajam dalam dua tahun berikutnya.
   source_ids: [uu-19-2019, laporan-komnas-ham-aktivis-2019]
   dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-dpr19-ciptaker-legislasi
   term_id: dpr-2019-2024
   date: "2020-02"
@@ -772,7 +707,6 @@
     klasik di fakultas hukum tentang bagaimana JANGAN membuat undang-undang.
   source_ids: [uu-11-2020, putusan-mk-91-2021]
   dimension_ids: [checks-balances, kedaulatan-rakyat]
-
 - id: ev-dpr19-pdp
   term_id: dpr-2019-2024
   date: "2022-09"
@@ -786,7 +720,6 @@
     pertama lambat - tapi kerangkanya setara GDPR regional.
   source_ids: [uu-27-2022]
   dimension_ids: [sila-4]
-
 - id: ev-dpr19-rkuhp-final
   term_id: dpr-2019-2024
   date: "2022-12"
@@ -800,7 +733,6 @@
     pemberlakuan tiga tahun - de facto mengundang generasi berikutnya merevisi.
   source_ids: [uu-1-2023]
   dimension_ids: [sila-4, sila-2]
-
 - id: ev-dpr19-uu-ciptaker-permanen
   term_id: dpr-2019-2024
   date: "2023-03"
@@ -813,7 +745,6 @@
     partisipasi - pesan institusional yang mengkhawatirkan bagi kepatuhan antarlembaga.
   source_ids: [uu-6-2023]
   dimension_ids: [checks-balances, negara-hukum]
-
 - id: ev-dpr19-kesehatan-omnibus
   term_id: dpr-2019-2024
   date: "2023-08"
@@ -826,7 +757,6 @@
     efisien di atas kertas, rapuh di legitimasi profesional lapangan.
   source_ids: [uu-17-2023]
   dimension_ids: [checks-balances, tujuan-2]
-
 - id: ev-dpr24-revisi-pemilu-mk60
   term_id: dpr-2024-2029
   date: "2024-11"
@@ -840,7 +770,6 @@
     diperjuangkan di ruang-ruang komisi.
   source_ids: [putusan-mk-60-2024]
   dimension_ids: [checks-balances]
-
 - id: ev-dpr24-revisi-md3
   term_id: dpr-2024-2029
   date: "2025-03"
@@ -854,7 +783,6 @@
     tunjangan kontroversial itu oleh pimpinan DPR sendiri.
   source_ids: [revisi-md3-2025]
   dimension_ids: [kedaulatan-rakyat, checks-balances]
-
 - id: ev-dpr24-protes-tunjangan
   term_id: dpr-2024-2029
   date: "2025-08"
@@ -871,7 +799,6 @@
   dimension_ids: [kedaulatan-rakyat, sila-4]
 
 # ========================= MAHKAMAH KONSTITUSI =========================
-
 - id: ev-mk1-pelantikan
   term_id: mk-2003-2008
   date: "2003-08"
@@ -885,7 +812,6 @@
     ditulis ulang dari ruang sidang di Jalan Medan Merdeka Barat ini.
   source_ids: [uu-24-2003]
   dimension_ids: [checks-balances, negara-hukum]
-
 - id: ev-mk2-narkoba-46
   term_id: mk-2008-2013
   date: "2010-10"
@@ -899,7 +825,6 @@
     logika korban vs pelakunya sendiri sering bertabrakan.
   source_ids: [putusan-mk-46-2010]
   dimension_ids: [sila-2]
-
 - id: ev-mk2-akil-mochtar
   term_id: mk-2008-2013
   date: "2013-10"
@@ -914,7 +839,6 @@
   source_ids: [putusan-ma-akil-2014]
   dimension_ids: [negara-hukum]
   actor_ids: [akil-mochtar]
-
 - id: ev-mk3-pilkada-independen
   term_id: mk-2013-2018
   date: "2015-01"
@@ -927,20 +851,23 @@
     pintu partisipasi, penjaga konstitusi membukanya lewat jendela.
   source_ids: [putusan-mk-100-2014]
   dimension_ids: [sila-4, kedaulatan-rakyat]
-
 - id: ev-mk4-ciptaker-91
   term_id: mk-2018-2023
-  date: "2021-11"
+  date: 2021-11
   category: pengadilan
   title_id: Putusan MK 91/PUU-XVIII/2020 menegakkan prosedur legislasi
-  summary_id: >-
-    Sembilan hakim bulat menyatakan UU Cipta Kerja inkonstitusional bersyarat karena cacat
-    formal - draf tidak dipublikasikan, partisipasi publik simbolik. Putusan ini dikutip
-    pengadilan konstitusi luar negeri sebagai preseden pentingnya PROSES demokratis, bukan
-    hanya isi. Sayangnya, epilog enam belas bulan kemudian (Perppu 2/2022) menunjukkan
-    kemenangan prosedur bisa sementara.
-  source_ids: [putusan-mk-91-2021]
-  dimension_ids: [negara-hukum, checks-balances]
+  summary_id: 'Dengan suara bulat, sembilan hakim menyatakan UU Cipta Kerja
+    "inkonstitusional bersyarat": cacat formalnya - partisipasi publik
+    diabaikan, draf tak dipublikasikan - membuat proses pembuatannya melanggar
+    konstitusi. Putusan ini menjadi rujukan global tentang pentingnya proses
+    legislasi partisipatif. Pertanyaannya kemudian bukan lagi apakah putusan
+    dihormati, melainkan apa yang dilakukan pemerintah sesudahnya.'
+  source_ids:
+    - putusan-mk-91-2021
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+  actor_ids: []
 
 - id: ev-mk4-usia-capres
   term_id: mk-2018-2023
@@ -956,7 +883,6 @@
     kepentingan serius yang dilanggar.
   source_ids: [putusan-mk-90-2023]
   dimension_ids: [kedaulatan-rakyat, negara-hukum]
-
 - id: ev-mk4-etik-anwar-usman
   term_id: mk-2018-2023
   date: "2023-11"
@@ -970,7 +896,6 @@
     bisa digerogoti dari dalam oleh kepentingan keluarga.
   source_ids: [mkmk-anwar-usman-2023]
   dimension_ids: [negara-hukum, kedaulatan-rakyat]
-
 - id: ev-mk5-ambang-batas
   term_id: mk-2023-sekarang
   date: "2024-11"
@@ -984,7 +909,6 @@
     kepentingan partai penguasa dewan.
   source_ids: [putusan-mk-60-2024]
   dimension_ids: [kedaulatan-rakyat]
-
 - id: ev-mk5-lantikan-adies-kadir
   term_id: mk-2023-sekarang
   date: "2026-02"
@@ -1002,7 +926,6 @@
   dimension_ids: [negara-hukum, kedaulatan-rakyat]
 
 # ================ ERA REVOLUSI & DEMOKRASI LIBERAL ================
-
 - id: ev-soekarno1-proklamasi-uud
   term_id: presiden-soekarno-i
   date: "1945-08-18"
@@ -1016,7 +939,6 @@
     dengan konstitusi darurat dan semangat yang belum selesai diperdebatkan.
   source_ids: [proklamasi-ppki-1945]
   dimension_ids: [kedaulatan-rakyat]
-
 - id: ev-soekarno1-madiun
   term_id: presiden-soekarno-i
   date: "1948-09"
@@ -1030,7 +952,6 @@
     kekerasan besar yang saling mengunci ingatan nasional selama setengah abad.
   source_ids: [proklamasi-ppki-1945]
   dimension_ids: [sila-2]
-
 - id: ev-soekarno1-kmb
   term_id: presiden-soekarno-i
   date: "1949-12"
@@ -1044,7 +965,6 @@
     ditunda - dua bom waktu ketatanegaraan yang meledak bertahun-tahun kemudian.
   source_ids: [konferensi-meja-bundar-1949]
   dimension_ids: [tujuan-1]
-
 - id: ev-soekarno1-nkri-uuds
   term_id: presiden-soekarno-i
   date: "1950-08"
@@ -1059,7 +979,6 @@
     gagal secara stabilitas, patut dicontoh secara kebebasan.
   source_ids: [uuds-1950]
   dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-soekarno1-pemilu-1955
   term_id: presiden-soekarno-i
   date: "1955-09"
@@ -1074,7 +993,6 @@
     "tegas" - dan delapan tahun kemudian demokrasi ini dimatikan.
   source_ids: [pemilu-1955]
   dimension_ids: [sila-4, kedaulatan-rakyat]
-
 - id: ev-soekarno1-kaa
   term_id: presiden-soekarno-i
   date: "1955-04"
@@ -1091,7 +1009,6 @@
   dimension_ids: [tujuan-4]
 
 # ==================== DEMOKRASI TERPIMPIN ====================
-
 - id: ev-soekarno2-dekrit
   term_id: presiden-soekarno-ii
   date: "1959-07"
@@ -1105,7 +1022,6 @@
     dengan TNI dan PKI berebut mendekat ke pusat kekuasaan baru.
   source_ids: [dekrit-presiden-1959]
   dimension_ids: [checks-balances, negara-hukum]
-
 - id: ev-soekarno2-irian-barat
   term_id: presiden-soekarno-ii
   date: "1962-08"
@@ -1119,7 +1035,6 @@
     tangan terpilih, proses yang dipersoalkan dunia hingga kini.
   source_ids: [new-york-agreement-1962]
   dimension_ids: [tujuan-1, sila-3]
-
 - id: ev-soekarno2-konfrontasi
   term_id: presiden-soekarno-ii
   date: "1963-09"
@@ -1133,7 +1048,6 @@
     600% dan cadangan devisa nyaris kosong.
   source_ids: [dwikora-konfrontasi-1963]
   dimension_ids: [tujuan-4, sila-3]
-
 - id: ev-soekarno2-gestapu
   term_id: presiden-soekarno-ii
   date: "1965-10"
@@ -1148,7 +1062,6 @@
     demi peristiwa; kebenaran historis masih diperjuangkan korban hingga hari ini.
   source_ids: [komnas-ham-temuan-1965]
   dimension_ids: [sila-2, tujuan-1]
-
 - id: ev-soekarno2-supersemar
   term_id: presiden-soekarno-ii
   date: "1966-03"
@@ -1165,7 +1078,6 @@
   dimension_ids: [checks-balances]
 
 # ======================= ORDE BARU =======================
-
 - id: ev-soeharto-tap-iii-1967
   term_id: presiden-soeharto
   date: "1967-03"
@@ -1179,7 +1091,6 @@
     turun ke jalan.
   source_ids: [tap-mprs-iii-1967]
   dimension_ids: [checks-balances]
-
 - id: ev-soeharto-inpres-14
   term_id: presiden-soeharto
   date: "1967-12"
@@ -1193,7 +1104,6 @@
     generasi.
   source_ids: [inpres-14-1967]
   dimension_ids: [sila-1, sila-3]
-
 - id: ev-soeharto-fusi-partai
   term_id: presiden-soeharto
   date: "1973-01"
@@ -1207,7 +1117,6 @@
     tekanan, bukan musyawarah.
   source_ids: [fusi-partai-1973]
   dimension_ids: [sila-4, kedaulatan-rakyat]
-
 - id: ev-soeharto-sd-inpres
   term_id: presiden-soeharto
   date: "1973-04"
@@ -1221,7 +1130,6 @@
     tertinggal satu generasi.
   source_ids: [sd-inpres-1973]
   dimension_ids: [tujuan-3]
-
 - id: ev-soeharto-timtim
   term_id: presiden-soeharto
   date: "1976-07"
@@ -1235,7 +1143,6 @@
     terbesar dekade ini. PBB tetap mengakui Portugal sebagai kuasa pengurus sampai 2002.
   source_ids: [uu-7-1976]
   dimension_ids: [sila-2, tujuan-4]
-
 - id: ev-soeharto-asas-tunggal
   term_id: presiden-soeharto
   date: "1985-08"
@@ -1249,7 +1156,6 @@
     bisa dijadikan alat kontrol.
   source_ids: [uu-8-1985]
   dimension_ids: [sila-4, kedaulatan-rakyat]
-
 - id: ev-soeharto-swasembada
   term_id: presiden-soeharto
   date: "1984-11"
@@ -1264,7 +1170,6 @@
     di sektor-sektor sama.
   source_ids: [fao-swasembada-1985]
   dimension_ids: [sila-5, tujuan-2]
-
 - id: ev-soeharto-mej-1998
   term_id: presiden-soeharto
   date: "1998-05"
@@ -1279,7 +1184,6 @@
     akuntabilitas atas segala yang terjadi belum pernah benar-benar datang.
   source_ids: [tgpf-mei-1998]
   dimension_ids: [sila-2, kedaulatan-rakyat]
-
 - id: ev-dpr24-calon-hakim-mk
   term_id: dpr-2024-2029
   date: "2026-01"
@@ -1296,7 +1200,6 @@
   dimension_ids: [kedaulatan-rakyat, negara-hukum]
 
 # ========================= MAHKAMAH AGUNG =========================
-
 - id: ev-ma-pembentukan
   term_id: ma-revolusi-liberal
   date: "1946-08"
@@ -1310,7 +1213,6 @@
     hal serupa tak terulang.
   source_ids: [uu-1-1946, sejarah-ma-arsip]
   dimension_ids: [negara-hukum]
-
 - id: ev-ma-dikooptasi-orba
   term_id: ma-dt-orde-baru
   date: "1980-01"
@@ -1324,7 +1226,6 @@
     slogan pidato, bukan realitas persidangan.
   source_ids: [sejarah-ma-arsip, tap-mprs-iii-1967]
   dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-ma-otonomi-penuh
   term_id: ma-reformasi-sekarang
   date: "2004-03"
@@ -1338,7 +1239,6 @@
     lebih lama direformasi.
   source_ids: [uu-48-2009]
   dimension_ids: [checks-balances, negara-hukum]
-
 - id: ev-ma-suap-hakim-modern
   term_id: ma-reformasi-sekarang
   date: "2017-09"
@@ -1352,7 +1252,6 @@
     pemberhentian. Independensi sudah ada; integritas masih dalam peradilan panjang.
   source_ids: [laporan-ky-tahunan]
   dimension_ids: [negara-hukum]
-
 - id: ev-prabowo-bop
   term_id: presiden-prabowo
   date: "2026-01"
@@ -1373,7 +1272,6 @@
   dimension_ids: [tujuan-4]
 
 # ------------- TAMBAHAN HISTORIS & PERIODE BERJALAN -------------
-
 - id: ev-soekarno1-serangan-umum
   term_id: presiden-soekarno-i
   date: "1949-03"
@@ -1387,7 +1285,6 @@
     internasional bergeser dalam hitungan pekan; jalannya menuju KMB terbuka lebar.
   source_ids: [literatur-sejarah-nasional]
   dimension_ids: [tujuan-1]
-
 - id: ev-soekarno1-di-tii
   term_id: presiden-soekarno-i
   date: "1949-08"
@@ -1402,7 +1299,6 @@
     dibicarakan.
   source_ids: [literatur-sejarah-nasional]
   dimension_ids: [sila-1, sila-3]
-
 - id: ev-soekarno1-prri-permesta
   term_id: presiden-soekarno-i
   date: "1958-02"
@@ -1416,7 +1312,6 @@
     tagihan otonomi daerah yang baru dibayar Indonesia empat puluh tahun kemudian.
   source_ids: [literatur-sejarah-nasional]
   dimension_ids: [sila-3, tujuan-2]
-
 - id: ev-soeharto-transmigrasi
   term_id: presiden-soeharto
   date: "1975"
@@ -1430,7 +1325,6 @@
     Kebijakan yang menolong sekaligus merampas, tergantung Anda lahir di mana.
   source_ids: [literatur-sejarah-nasional]
   dimension_ids: [sila-3]
-
 - id: ev-soeharto-kb-program
   term_id: presiden-soeharto
   date: "1974"
@@ -1444,7 +1338,6 @@
     yang menuai kritik hak reproduksi.
   source_ids: [literatur-sejarah-nasional]
   dimension_ids: [sila-5, tujuan-2]
-
 - id: ev-soeharto-malari
   term_id: presiden-soeharto
   date: "1974-01"
@@ -1458,7 +1351,6 @@
     jalan: kritik ekonomi-politik akan dihargai dengan penjara, bukan jawaban.
   source_ids: [literatur-sejarah-nasional]
   dimension_ids: [negara-hukum, tujuan-2]
-
 - id: ev-soeharto-petrus
   term_id: presiden-soeharto
   date: "1983"
@@ -1472,7 +1364,6 @@
     presiden itu sendiri. Impunitas paling telanjang dalam sejarah republik modern.
   source_ids: [literatur-sejarah-nasional]
   dimension_ids: [sila-2]
-
 - id: ev-soeharto-tanjung-priok
   term_id: presiden-soeharto
   date: "1984-09"
@@ -1486,7 +1377,6 @@
     rapor, korban diminta berdamai tanpa keadilan.
   source_ids: [literatur-sejarah-nasional]
   dimension_ids: [sila-2]
-
 - id: ev-habibie-trisakti-semanggi
   term_id: presiden-habibie
   date: "1998-05"
@@ -1501,7 +1391,6 @@
     pasca-Reformasi.
   source_ids: [komnas-ham-trisakti-semanggi]
   dimension_ids: [sila-2]
-
 - id: ev-megawati-papua-otsus
   term_id: presiden-megawati
   date: "2001-11"
@@ -1516,7 +1405,6 @@
     memadamkan api.
   source_ids: [uu-21-2001]
   dimension_ids: [sila-3]
-
 - id: ev-megawati-munir
   term_id: presiden-megawati
   date: "2004-09"
@@ -1531,7 +1419,6 @@
     selama bukan lawan hukum itu sendiri.
   source_ids: [putusan-munir-2008]
   dimension_ids: [sila-2, negara-hukum]
-
 - id: ev-sby2-bibit-chandra
   term_id: presiden-sby-ii
   date: "2009-10"
@@ -1546,7 +1433,6 @@
   source_ids: [berita-praperadilan-kpk-2009]
   dimension_ids: [negara-hukum, checks-balances]
   actor_ids: [bibit-samad-rianto, chandra-m-hamzah]
-
 - id: ev-jokowi1-ahok-212
   term_id: presiden-jokowi-i
   date: "2016-12"
@@ -1561,7 +1447,6 @@
     menjatuhkan pejabat tertinggi daerah, dan preseden pidana blasfemi menguat.
   source_ids: [berita-ahok-blasfemi-2017]
   dimension_ids: [sila-1]
-
 - id: ev-jokowi1-ektp-setnov
   term_id: presiden-jokowi-i
   date: "2018-04"
@@ -1576,7 +1461,6 @@
   source_ids: [berita-ektp-setnov-2018]
   dimension_ids: [negara-hukum, checks-balances]
   actor_ids: [setya-novanto]
-
 - id: ev-jokowi2-fpi-dibubarkan
   term_id: presiden-jokowi-ii
   date: "2020-12"
@@ -1592,7 +1476,6 @@
     sipil lewat rapat meja.
   source_ids: [berita-fpi-skb-2020]
   dimension_ids: [negara-hukum, sila-4]
-
 - id: ev-jokowi2-juliari-bansos
   term_id: presiden-jokowi-ii
   date: "2020-12"
@@ -1607,7 +1490,6 @@
   source_ids: [berita-juliari-bansos-2020]
   dimension_ids: [sila-5, negara-hukum]
   actor_ids: [juliari-batubara]
-
 - id: ev-jokowi2-kanjuruhan
   term_id: presiden-jokowi-ii
   date: "2022-10"
@@ -1622,7 +1504,6 @@
     dengan UU Keolahragaan baru - setelah, seperti biasa, nyawa sudah hilang lebih dahulu.
   source_ids: [berita-kanjuruhan-tgipf-2022, uu-11-2022-keolahragaan]
   dimension_ids: [tujuan-1, sila-2]
-
 - id: ev-jokowi2-g20-bali
   term_id: presiden-jokowi-ii
   date: "2022-11"
@@ -1636,7 +1517,6 @@
     meski komitmen hasil KTT banyak yang tinggal dokumen.
   source_ids: [berita-g20-bali-2022]
   dimension_ids: [tujuan-4]
-
 - id: ev-jokowi2-pemekaran-papua
   term_id: presiden-jokowi-ii
   date: "2022-07"
@@ -1650,7 +1530,6 @@
     otonomi khusus dilanggar oleh undang-undang yang seharusnya melindunginya.
   source_ids: [berita-pemekaran-papua-2022]
   dimension_ids: [sila-3]
-
 - id: ev-prabowo-brics
   term_id: presiden-prabowo
   date: "2025-01"
@@ -1667,7 +1546,6 @@
   dimension_ids: [tujuan-4]
 
 # --------- GELOMBANG PERLUASAN: DIMENSI YANG MASIH TIPIS ---------
-
 - id: ev-soekarno1-pasukan-garuda
   term_id: presiden-soekarno-i
   date: "1957-09"
@@ -1681,7 +1559,6 @@
     pernah punya kaki di lapangan, bukan cuma di mimbar.
   source_ids: [literatur-sejarah-nasional]
   dimension_ids: [tujuan-4]
-
 - id: ev-soeharto-asean-1967
   term_id: presiden-soeharto
   date: "1967-08"
@@ -1695,7 +1572,6 @@
     warisan positif Orde Baru yang tak terbantahkan.
   source_ids: [deklarasi-bangkok-1967]
   dimension_ids: [tujuan-4, sila-3]
-
 - id: ev-soeharto-dom-aceh-papua
   term_id: presiden-soeharto
   date: "1989"
@@ -1709,7 +1585,6 @@
     MoU Helsinki hanya sebagian menyembuhkan.
   source_ids: [literatur-sejarah-nasional]
   dimension_ids: [sila-2]
-
 - id: ev-soekarno2-pnps-1965
   term_id: presiden-soekarno-ii
   date: "1966-01"
@@ -1724,7 +1599,6 @@
     beragama Indonesia.
   source_ids: [pnps-1965]
   dimension_ids: [sila-1]
-
 - id: ev-gusdur-uu-pengadilan-ham
   term_id: presiden-gusdur
   date: "2000-11"
@@ -1738,7 +1612,6 @@
     keberanian politiknya tidak pernah ikut disahkan.
   source_ids: [uu-26-2000]
   dimension_ids: [sila-2, negara-hukum]
-
 - id: ev-gusdur-konflik-komunal
   term_id: presiden-gusdur
   date: "1999-01"
@@ -1752,7 +1625,6 @@
     Ika Gus Dur tidak cukup kuat mengalahkan mesin provokasi di lapangan.
   source_ids: [literatur-sejarah-nasional]
   dimension_ids: [sila-2, sila-3]
-
 - id: ev-megawati-sisdiknas
   term_id: presiden-megawati
   date: "2003-07"
@@ -1766,7 +1638,6 @@
     selesai dua dekade kemudian.
   source_ids: [uu-20-2003]
   dimension_ids: [tujuan-3]
-
 - id: ev-megawati-sipadan-ligitan
   term_id: presiden-megawati
   date: "2002-12"
@@ -1780,7 +1651,6 @@
     diplomasi hukum adalah senjata negara kepulauan.
   source_ids: [icj-sipadan-ligitan-2002]
   dimension_ids: [tujuan-1]
-
 - id: ev-sby1-ratifisasi-icescr
   term_id: presiden-sby-i
   date: "2005-09"
@@ -1794,7 +1664,6 @@
     resmi mengaku bisa diaudit soal hak-hak dasar rakyatnya.
   source_ids: [uu-11-2005]
   dimension_ids: [tujuan-4, sila-2]
-
 - id: ev-sby1-blt-perdana
   term_id: presiden-sby-i
   date: "2005-10"
@@ -1808,7 +1677,6 @@
     tebusan sosial. Fondasi bagi PKH, bansos pandemi, sampai MBG hari ini.
   source_ids: [literatur-sejarah-nasional]
   dimension_ids: [sila-5, tujuan-2]
-
 - id: ev-sby1-dana-bos
   term_id: presiden-sby-i
   date: "2005"
@@ -1822,7 +1690,6 @@
     kantong yang naik.
   source_ids: [dana-bos-2005]
   dimension_ids: [tujuan-3]
-
 - id: ev-sby1-penanaman-modal
   term_id: presiden-sby-i
   date: "2007-03"
@@ -1836,7 +1703,6 @@
     dan hak buruh yang memadai.
   source_ids: [uu-25-2007]
   dimension_ids: [tujuan-2]
-
 - id: ev-jokowi1-perppu-ormas-hti
   term_id: presiden-jokowi-i
   date: "2017-07"
@@ -1851,7 +1717,6 @@
     berkuasa.
   source_ids: [berita-fpi-skb-2020]
   dimension_ids: [negara-hukum, sila-4]
-
 - id: ev-jokowi2-revisi-uumk
   term_id: presiden-jokowi-ii
   date: "2020-07"
@@ -1865,7 +1730,6 @@
     sempurna bagaimana revisi teknis kecil bisa mengubah nasib konstitusi.
   source_ids: [uu-7-2020, mkmk-anwar-usman-2023]
   dimension_ids: [checks-balances]
-
 - id: ev-soeharto-skb-1969
   term_id: presiden-soeharto
   date: "1969"
@@ -1879,7 +1743,6 @@
     Konflik yang terlihat sebagai intoleransi warga sering kali lahir dari satu lembar SKB.
   source_ids: [skb-rumah-ibadah-1969]
   dimension_ids: [sila-1]
-
 - id: ev-soeharto-uuperkawinan-1974
   term_id: presiden-soeharto
   date: "1974"
@@ -1893,7 +1756,6 @@
     keragaman ke dalam ambiguitas daripada menyelesaikannya.
   source_ids: [uu-1-1974]
   dimension_ids: [sila-1]
-
 - id: ev-soeharto-krismon-blbi
   term_id: presiden-soeharto
   date: "1998-01"
@@ -1907,7 +1769,6 @@
     dituntaskan hingga kini.
   source_ids: [literatur-sejarah-nasional]
   dimension_ids: [negara-hukum, sila-5]
-
 - id: ev-soeharto-udin-jurnalis
   term_id: presiden-soeharto
   date: "1996-08"
@@ -1921,7 +1782,6 @@
     bisa berarti mati, dan negara melindungi pembunuhnya lebih baik daripada saksi.
   source_ids: [berita-udin-1996]
   dimension_ids: [sila-4, sila-2]
-
 - id: ev-megawati-sampit-sambas
   term_id: presiden-megawati
   date: "2001-02"
@@ -1935,7 +1795,6 @@
     perdamaian tanpa keadilan yang menjadi template konflik agraria-etnis berikutnya.
   source_ids: [literatur-sejarah-nasional]
   dimension_ids: [sila-2, sila-3]
-
 - id: ev-sby1-tsunami-aceh-respons
   term_id: presiden-sby-i
   date: "2004-12"
@@ -1949,7 +1808,6 @@
     bencana yang sama-sama diderita membuka jalan MoU Helsinki tujuh bulan kemudian.
   source_ids: [literatur-sejarah-nasional, mou-helsinki-2005]
   dimension_ids: [tujuan-1]
-
 - id: ev-sby1-uuguru-dosen
   term_id: presiden-sby-i
   date: "2005-12"
@@ -1964,7 +1822,6 @@
     birokrasi baru.
   source_ids: [uu-14-2005]
   dimension_ids: [tujuan-3]
-
 - id: ev-sby2-gayus-pajak
   term_id: presiden-sby-ii
   date: "2010"
@@ -1978,7 +1835,6 @@
     penegakan hukum tidak pernah benar-benar pulih.
   source_ids: [berita-gayus-2010]
   dimension_ids: [negara-hukum]
-
 - id: ev-sby2-hambalang
   term_id: presiden-sby-ii
   date: "2013-01"
@@ -1992,7 +1848,6 @@
     rakusnya pengelolanya sendiri - dua dekade kemudian hasilnya masih kita tanggung.
   source_ids: [berita-hambalang-2013]
   dimension_ids: [negara-hukum]
-
 - id: ev-jokowi1-paris-agreement
   term_id: presiden-jokowi-i
   date: "2016-10"
@@ -2007,7 +1862,6 @@
     global.
   source_ids: [uu-16-2016]
   dimension_ids: [tujuan-4]
-
 - id: ev-jokowi2-kip-kuliah
   term_id: presiden-jokowi-ii
   date: "2020"
@@ -2022,7 +1876,6 @@
     naik bersama kuotanya.
   source_ids: [kip-kuliah-2020]
   dimension_ids: [tujuan-3]
-
 - id: ev-jokowi2-jiwasraya-vonis
   term_id: presiden-jokowi-ii
   date: "2022-03"
@@ -2037,7 +1890,6 @@
   source_ids: [berita-jiwasraya-2022]
   dimension_ids: [negara-hukum]
   actor_ids: [benny-tjokrosaputro, heru-hidayat, hendrisman-rahim]
-
 - id: ev-jokowi2-revisi-ite-2024
   term_id: presiden-jokowi-ii
   date: "2024-01"
@@ -2196,7 +2048,6 @@
   dimension_ids:
     - sila-4
     - kedaulatan-rakyat
-
 - id: ev-prabowo-kabinet-merah-putih
   term_id: presiden-prabowo
   date: 2024-10
@@ -2225,8 +2076,6 @@
     - berita-oecd-indonesia-2024
   dimension_ids:
     - tujuan-4
-
-
 - id: ev-uu-17-2011
   term_id: presiden-sby-ii
   date: 2011-11-07
@@ -2253,7 +2102,6 @@
     - uu-37-1999
   dimension_ids:
     - tujuan-4
-
 - id: ev-perpu-2-2022
   term_id: presiden-jokowi-ii
   date: 2022-12-30
@@ -2339,7 +2187,6 @@
     - checks-balances
 
 # ======================== MAJELIS PERMUSYAWARATAN RAKYAT ========================
-
 - id: ev-mpr-tap-xi-1998
   term_id: mpr-1971-1999
   date: "1998-11-13"
@@ -2351,18 +2198,21 @@
     pejabat negara dan kroni kekuasaan masa lalu demi tegaknya keadilan sosial.
   source_ids: [tap-mpr-xi-1998]
   dimension_ids: [negara-hukum, sila-5, checks-balances]
-
 - id: ev-mpr-tap-xvii-1998
   term_id: mpr-1971-1999
-  date: "1998-11-13"
+  date: 1998-11-13
   category: produk-hukum
   title_id: TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia
-  summary_id: >-
-    Ketetapan monumental MPR yang memuat Piagam Hak Asasi Manusia sebagai landasan
-    pengakuan hak-hak sipil, politik, ekonomi, sosial, dan budaya bangsa Indonesia
-    pasca-otoritarianisme Orde Baru.
-  source_ids: [tap-mpr-xvii-1998]
-  dimension_ids: [sila-2, negara-hukum]
+  summary_id: Sidang Istimewa MPR 1998 menetapkan Piagam HAM pertama di era
+    Reformasi yang memuat 44 pasal perlindungan hak-hak sipil, politik, ekonomi,
+    dan budaya, yang menjadi cikal bakal Bab XA Pasal 28A-28J Perubahan Kedua
+    UUD 1945.
+  source_ids:
+    - tap-mpr-xvii-1998
+  dimension_ids:
+    - sila-2
+    - negara-hukum
+  actor_ids: []
 
 - id: ev-mpr-amendemen-1
   term_id: mpr-1999-2004
@@ -2375,7 +2225,6 @@
     ke DPR (Pasal 20), mengakhiri sistem pemerintahan berpusat pada eksekutif (executive heavy).
   source_ids: [perubahan-pertama-uud-1945]
   dimension_ids: [checks-balances, kedaulatan-rakyat]
-
 - id: ev-mpr-amendemen-2
   term_id: mpr-1999-2004
   date: "2000-08-18"
@@ -2387,19 +2236,6 @@
     dan tata pemerintahan daerah (Pasal 18, 18A, 18B).
   source_ids: [perubahan-kedua-uud-1945]
   dimension_ids: [sila-2, sila-3]
-
-- id: ev-mpr-tap-vi-2000
-  term_id: mpr-1999-2004
-  date: "2000-08-18"
-  category: produk-hukum
-  title_id: TAP MPR No. VI/MPR/2000 tentang Pemisahan TNI dan Polri
-  summary_id: >-
-    MPR memisahkan secara kelembagaan dan doktrinal peran Tentara Nasional Indonesia
-    sebagai alat pertahanan negara dan Kepolisian Negara RI sebagai alat keamanan
-    serta penegakan hukum dan pengayom masyarakat.
-  source_ids: [tap-mpr-vi-2000, tap-mpr-vii-2000]
-  dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-mpr-amendemen-3
   term_id: mpr-1999-2004
   date: "2001-11-09"
@@ -2411,7 +2247,6 @@
     Mahkamah Konstitusi, Komisi Yudisial, dan Dewan Perwakilan Daerah (DPD).
   source_ids: [perubahan-ketiga-uud-1945]
   dimension_ids: [negara-hukum, checks-balances, sila-4]
-
 - id: ev-mpr-amendemen-4
   term_id: mpr-1999-2004
   date: "2002-08-10"
@@ -2423,7 +2258,6 @@
     penghapusan DPA, dan pembentukan bank sentral independen.
   source_ids: [perubahan-keempat-uud-1945]
   dimension_ids: [tujuan-3, sila-5, checks-balances]
-
 - id: ev-mpr-tap-i-2003
   term_id: mpr-1999-2004
   date: "2003-08-07"
@@ -2434,7 +2268,6 @@
     memberikan kepastian hukum transisional dalam hierarki peraturan perundang-undangan nasional.
   source_ids: [tap-mpr-i-2003]
   dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-mpr-sosialisasi-4-pilar
   term_id: mpr-2009-2014
   date: "2010-05-20"
@@ -2445,7 +2278,6 @@
     Empat Pilar: Pancasila, UUD 1945, NKRI, dan Bhinneka Tunggal Ika ke seluruh pelosok tanah air.
   source_ids: [kep-mpr-4-pilar-2010]
   dimension_ids: [sila-1, sila-3]
-
 - id: ev-mpr-kajian-pphn-2024
   term_id: mpr-2019-2024
   date: "2024-09-25"
@@ -2459,7 +2291,6 @@
   dimension_ids: [kedaulatan-rakyat, checks-balances]
 
 # ======================== DEWAN PERWAKILAN DAERAH ========================
-
 - id: ev-dpd-pelantikan-2004
   term_id: dpd-2004-2009
   date: "2004-10-01"
@@ -2471,7 +2302,6 @@
     guna memperjuangkan kepentingan daerah di tingkat nasional.
   source_ids: [uu-22-2003]
   dimension_ids: [sila-3, kedaulatan-rakyat]
-
 - id: ev-dpd-uji-materi-mk-92-2012
   term_id: dpd-2009-2014
   date: "2013-03-27"
@@ -2483,7 +2313,6 @@
     dan Presiden, serta menyusun program legislasi nasional (Prolegnas) terkait otonomi daerah.
   source_ids: [putusan-mk-92-puu-x-2012]
   dimension_ids: [sila-3, checks-balances, negara-hukum]
-
 - id: ev-dpd-putusan-mk-79-2014
   term_id: dpd-2014-2019
   date: "2015-09-22"
@@ -2494,7 +2323,6 @@
     terkait otonomi dan keuangan daerah secara setara dan bermartabat bersama DPR dan Presiden.
   source_ids: [putusan-mk-79-puu-xii-2014]
   dimension_ids: [sila-3, checks-balances]
-
 - id: ev-dpd-inisiatif-kepulauan
   term_id: dpd-2019-2024
   date: "2020-02-18"
@@ -2505,7 +2333,6 @@
     alokasi anggaran DAU/DBH berbasis luas laut wilayah bagi 8 provinsi kepulauan dan kawasan 3T.
   source_ids: [ruu-daerah-kepulauan-dpd-2020]
   dimension_ids: [sila-5, sila-3]
-
 - id: ev-dpd-pengawasan-desa
   term_id: dpd-2019-2024
   date: "2023-08-15"
@@ -2519,7 +2346,6 @@
   dimension_ids: [sila-5, sila-3]
 
 # ======================== BADAN PEMERIKSA KEUANGAN ========================
-
 - id: ev-bpk-penetapan-1947
   term_id: bpk-1947-1998
   date: "1947-01-01"
@@ -2531,7 +2357,6 @@
     di tengah revolusi fisik kemerdekaan.
   source_ids: [penetapan-bpk-1947]
   dimension_ids: [checks-balances, negara-hukum]
-
 - id: ev-bpk-uu-5-1973
   term_id: bpk-1947-1998
   date: "1973-12-28"
@@ -2542,7 +2367,6 @@
     di era Orde Baru, kendati dalam praktiknya ruang gerak pemeriksaan dibatasi oleh hegemoni eksekutif.
   source_ids: [uu-5-1973]
   dimension_ids: [checks-balances]
-
 - id: ev-bpk-audit-blbi
   term_id: bpk-1998-2009
   date: "2000-08-01"
@@ -2554,7 +2378,6 @@
     membongkar skandal keuangan terbesar dalam sejarah republik.
   source_ids: [laporan-bpk-blbi-2000]
   dimension_ids: [checks-balances, sila-5]
-
 - id: ev-bpk-paket-uu-keuangan
   term_id: bpk-1998-2009
   date: "2004-07-26"
@@ -2565,7 +2388,6 @@
     memberi wewenang audit komprehensif atas pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu.
   source_ids: [uu-15-2004]
   dimension_ids: [checks-balances, negara-hukum]
-
 - id: ev-bpk-uu-15-2006
   term_id: bpk-1998-2009
   date: "2006-10-30"
@@ -2576,7 +2398,6 @@
     dan mandiri, berkedudukan di ibukota negara dan memiliki perwakilan di setiap provinsi.
   source_ids: [uu-15-2006]
   dimension_ids: [checks-balances, negara-hukum]
-
 - id: ev-bpk-standar-sap-wtp
   term_id: bpk-2009-2019
   date: "2016-05-30"
@@ -2587,7 +2408,6 @@
     opini Wajar Tanpa Pengecualian (WTP) pertama dalam sejarah untuk Laporan Keuangan Pemerintah Pusat (LKPP).
   source_ids: [laporan-bpk-lkpp-2016]
   dimension_ids: [checks-balances, negara-hukum]
-
 - id: ev-bpk-audit-pen-covid
   term_id: bpk-2019-sekarang
   date: "2021-06-22"
@@ -2600,17 +2420,20 @@
   dimension_ids: [checks-balances, sila-5, tujuan-2]
 
 # ======================== KOMISI YUDISIAL ========================
-
 - id: ev-ky-putusan-mk-005-2006
   term_id: ky-2005-2010
-  date: "2006-08-23"
+  date: 2006-08-23
   category: pengadilan
   title_id: Putusan MK No. 005/PUU-IV/2006 Membatalkan Pengawasan KY atas Hakim MK
-  summary_id: >-
-    Mahkamah Konstitusi memutus permohonan 31 Hakim Agung, menyatakan hakim konstitusi tidak
-    termasuk objek pengawasan KY dan membatalkan sejumlah pasal kewenangan pengawasan perilaku hakim.
-  source_ids: [putusan-mk-005-puu-iv-2006]
-  dimension_ids: [checks-balances, negara-hukum]
+  summary_id: Mahkamah Konstitusi memutus permohonan 31 Hakim Agung, menyatakan
+    hakim konstitusi tidak termasuk objek pengawasan KY dan membatalkan sejumlah
+    pasal kewenangan pengawasan perilaku hakim.
+  source_ids:
+    - putusan-mk-005-puu-iv-2006
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+  actor_ids: []
 
 - id: ev-ky-skb-kepph-2009
   term_id: ky-2005-2010
@@ -2623,7 +2446,6 @@
     berdisiplin, rendah hati, dan profesional) sebagai standar etik seragam hakim Indonesia.
   source_ids: [skb-ma-ky-kepph-2009]
   dimension_ids: [negara-hukum, sila-2]
-
 - id: ev-ky-uu-18-2011
   term_id: ky-2010-2015
   date: "2011-11-09"
@@ -2634,7 +2456,6 @@
     pemberian rekomendasi sanksi etik, perlindungan dan advokasi hakim dari ancaman peradilan (contempt of court).
   source_ids: [uu-18-2011]
   dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-ky-mkh-penegakan
   term_id: ky-2015-2020
   date: "2019-07-10"
@@ -2647,7 +2468,6 @@
   dimension_ids: [negara-hukum, checks-balances]
 
 # ======================== MAHKAMAH AGUNG ========================
-
 - id: ev-ma-uu-19-1964-intervensi
   term_id: ma-dt-orde-baru
   date: "1964-10-31"
@@ -2658,7 +2478,6 @@
     mencampuri urusan pengadilan demi kepentingan revolusi, mencederai prinsip negara hukum dan kemandirian peradilan.
   source_ids: [uu-19-1964]
   dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-ma-uu-14-1970
   term_id: ma-dt-orde-baru
   date: "1970-12-17"
@@ -2669,7 +2488,6 @@
     dan bebas dari campur tangan pihak lain, kendati administrasi dan finansial pengadilan masih berada di bawah kementerian eksekutif (sistem dua atap).
   source_ids: [uu-14-1970]
   dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-ma-uu-14-1985
   term_id: ma-dt-orde-baru
   date: "1985-12-30"
@@ -2680,7 +2498,6 @@
     peninjauan kembali, serta wewenang hak uji materiil terhadap peraturan perundang-undangan di bawah undang-undang.
   source_ids: [uu-14-1985]
   dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-ma-satu-atap-2004
   term_id: ma-reformasi-sekarang
   date: "2004-03-23"
@@ -2691,19 +2508,6 @@
     peradilan militer, dan peradilan tata usaha negara dari departemen eksekutif ke bawah satu atap Mahkamah Agung RI.
   source_ids: [uu-5-2004]
   dimension_ids: [negara-hukum, checks-balances]
-
-- id: ev-presiden-dekrit-1959
-  term_id: presiden-soekarno-i
-  date: "1959-07-05"
-  category: krisis
-  title_id: Dekrit Presiden 5 Juli 1959 Kembali ke UUD 1945
-  summary_id: >-
-    5 Juli 1959, Presiden Sukarno mengeluarkan dekrit membubarkan Dewan Konstituante dan menyatakan
-    kembali berlakunya UUD 1945. Langkah darurat ini mengakhiri masa Demokrasi Liberal dan kebuntuan sidang konstitusi,
-    sekaligus membuka jalan bagi era Demokrasi Terpimpin yang sentralistik.
-  source_ids: [dekrit-presiden-5-juli-1959]
-  dimension_ids: [checks-balances, negara-hukum]
-
 - id: ev-mpr-tap-xxxiii-1967
   term_id: mprs-1959-1971
   date: "1967-03-12"
@@ -2714,7 +2518,6 @@
     Jenderal Soeharto sebagai Pejabat Presiden RI. Peristiwa ini menandai transisi kekuasaan resmi dari Orde Lama ke Orde Baru.
   source_ids: [tap-mprs-xxxiii-1967]
   dimension_ids: [checks-balances, kedaulatan-rakyat, negara-hukum]
-
 - id: ev-dpr-uu-kip-2008
   term_id: dpr-2004-2009
   date: "2008-04-30"
@@ -2725,7 +2528,6 @@
     dan mewajibkan seluruh badan publik menyelenggarakan tata kelola yang transparan dan akuntabel.
   source_ids: [uu-14-2008]
   dimension_ids: [kedaulatan-rakyat, sila-4]
-
 - id: ev-mk-putusan-90-capres
   term_id: mk-2018-2023
   date: "2023-10-16"
@@ -2736,7 +2538,6 @@
     atau pernah/sedang menduduki jabatan yang dipilih melalui pemilihan umum termasuk pemilihan kepala daerah.
   source_ids: [putusan-mk-90-puu-xxi-2023]
   dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-mk-putusan-60-pilkada
   term_id: mk-2023-sekarang
   date: "2024-08-20"
@@ -2747,7 +2548,6 @@
     dengan perolehan suara sah pemilu legislatif, memulihkan kompetisi elektoral yang inklusif dan mencegah calon tunggal kotak kosong secara buatan.
   source_ids: [putusan-mk-60-puu-xxii-2024]
   dimension_ids: [kedaulatan-rakyat, sila-4]
-
 - id: ev-mk-putusan-70-usia-pilkada
   term_id: mk-2023-sekarang
   date: "2024-08-20"
@@ -2758,7 +2558,6 @@
     harus dipenuhi pada saat penetapan pasangan calon oleh KPU, bukan pada saat pelantikan.
   source_ids: [putusan-mk-70-puu-xxii-2024]
   dimension_ids: [negara-hukum, kedaulatan-rakyat]
-
 - id: ev-dpr-revisi-uu-kpk-2019
   term_id: dpr-2014-2019
   date: "2019-09-17"
@@ -2769,7 +2568,6 @@
     dan pembatasan penyadapan serta SP3, yang memicu aksi demonstrasi mahasiswa Reformasi Dikorupsi di berbagai kota.
   source_ids: [uu-19-2019]
   dimension_ids: [checks-balances, negara-hukum]
-
 - id: ev-bpk-audit-century-2009
   term_id: bpk-2009-2019
   date: "2009-11-23"
@@ -2784,7 +2582,6 @@
   subject_basis_id: >-
     Objek pemeriksaan LHP adalah penetapan bank gagal berdampak sistemik dan pemberian FPJP Bank Century
     pada November 2008, yang jatuh di dalam masa jabatan ini.
-
 - id: ev-dpr-uu-pemilu-7-2017
   term_id: dpr-2014-2019
   date: "2017-07-21"
@@ -2795,7 +2592,6 @@
     dan penyelenggara pemilu (KPU, Bawaslu, DKPP) dalam satu payung hukum menjelang Pemilu Serentak 2019.
   source_ids: [uu-7-2017]
   dimension_ids: [kedaulatan-rakyat, sila-4]
-
 - id: ev-presiden-deklarasi-djuanda
   term_id: presiden-soekarno-i
   date: "1957-12-13"
@@ -2806,7 +2602,6 @@
     di antara, dan yang menghubungkan pulau-pulau Indonesia adalah bagian integral dari kedaulatan mutlak NKRI (Wawasan Nusantara).
   source_ids: [deklarasi-djuanda-1957]
   dimension_ids: [tujuan-1, sila-3]
-
 - id: ev-mpr-konstitusi-ris-1949
   term_id: presiden-soekarno-i
   date: "1949-12-27"
@@ -2817,7 +2612,6 @@
     dan sistem pemerintahan menjadi parlementer semu, sebagai hasil kompromi diplomatik pengakuan kedaulatan dari Belanda.
   source_ids: [konstitusi-ris-1949]
   dimension_ids: [tujuan-1, negara-hukum]
-
 - id: ev-dpr-uuds-1950
   term_id: dpr-1950-1960
   date: "1950-08-17"
@@ -2828,7 +2622,6 @@
     Negara Kesatuan Republik Indonesia dengan memberlakukan Undang-Undang Dasar Sementara 1950.
   source_ids: [uuds-1950]
   dimension_ids: [tujuan-1, sila-3]
-
 - id: ev-ma-perma-ecourt-2019
   term_id: ma-reformasi-sekarang
   date: "2019-08-19"
@@ -2839,7 +2632,6 @@
     pembayaran panjar (e-Payment), pemanggilan pihak (e-Summons), dan persidangan elektronik (e-Litigation) guna mewujudkan peradilan sederhana, cepat, dan biaya ringan.
   source_ids: [perma-1-2019]
   dimension_ids: [negara-hukum, tujuan-2]
-
 - id: ev-bpk-ihps-2022
   term_id: bpk-2019-sekarang
   date: "2023-06-20"
@@ -2850,7 +2642,6 @@
     mengungkapkan pemulihan dan penyelamatan aset serta penyetoran kas negara senilai Rp13,66 triliun dari rekomendasi audit tata kelola belanja negara.
   source_ids: [laporan-ihps-bpk-2022]
   dimension_ids: [checks-balances, negara-hukum]
-
 - id: ev-ky-seleksi-ha-2021
   term_id: ky-2020-sekarang
   date: "2021-09-21"
@@ -2861,5 +2652,3 @@
     melibatkan rekam jejak integritas KPK, PPATK, dan masukan masyarakat sipil untuk diusulkan ke DPR RI.
   source_ids: [laporan-seleksi-ha-ky-2021]
   dimension_ids: [checks-balances, negara-hukum]
-
-

@@ -13,7 +13,6 @@
   dimension_ids:
     - sila-1
     - sila-3
-
 - id: ev-bpupk-perancang-uud-1945
   term_id: presiden-soekarno-i
   date: 1945-07-11
@@ -28,7 +27,6 @@
   dimension_ids:
     - sila-1
     - negara-hukum
-
 - id: ev-konstituante-ham-1958
   term_id: presiden-soekarno-i
   date: 1958-01-01
@@ -43,7 +41,6 @@
   dimension_ids:
     - sila-2
     - sila-5
-
 - id: ev-maklumat-wapres-x-1945
   term_id: presiden-soekarno-i
   date: 1945-11-03
@@ -480,15 +477,19 @@
   date: 1959-07-05
   category: produk-hukum
   title_id: "Dekrit Presiden 5 Juli 1959: Menetapkan Berlakunya Kembali UUD 1945"
-  summary_id: Presiden Soekarno mengeluarkan Dekrit membubarkan Konstituante dan
-    memberlakukan kembali UUD 1945 demi menyelamatkan keutuhan persatuan negara
-    dari kebuntuan konstitusional.
+  summary_id: 5 Juli 1959, Presiden Sukarno mengeluarkan dekrit membubarkan Dewan
+    Konstituante dan menyatakan kembali berlakunya UUD 1945. Langkah darurat ini
+    mengakhiri masa Demokrasi Liberal dan kebuntuan sidang konstitusi, sekaligus
+    membuka jalan bagi era Demokrasi Terpimpin yang sentralistik.
   source_ids:
     - dekrit-presiden-5-juli-1959
   dimension_ids:
     - sila-3
     - negara-hukum
     - tujuan-1
+    - checks-balances
+  actor_ids: []
+
 - id: ev-ma-yurisprudensi-waris-perempuan-1956
   term_id: ma-revolusi-liberal
   date: 1956-11-01

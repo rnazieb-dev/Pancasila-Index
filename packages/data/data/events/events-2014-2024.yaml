@@ -12,7 +12,6 @@
   dimension_ids:
     - checks-balances
     - kedaulatan-rakyat
-
 - id: ev-uu-pilkada-19-2016
   term_id: presiden-jokowi-i
   date: 2016-07-15
@@ -27,7 +26,6 @@
   dimension_ids:
     - kedaulatan-rakyat
     - negara-hukum
-
 - id: ev-mk-putusan-spdp-2016
   term_id: mk-2013-2018
   date: 2016-01-11
@@ -486,6 +484,10 @@
   dimension_ids:
     - negara-hukum
     - checks-balances
+    - sila-5
+    - tujuan-2
+  actor_ids: []
+
 - id: ev-dpr-uu-pemilu-kodifikasi-2017
   term_id: dpr-2014-2019
   date: 2017-08-15
@@ -1547,20 +1549,6 @@
     - negara-hukum
     - checks-balances
     - sila-5
-- id: ev-ma-perma-13-2016-korporasi
-  term_id: ma-reformasi-sekarang
-  date: 2016-12-21
-  category: produk-hukum
-  title_id: Pemberlakuan Perma No. 13/2016 tentang Tata Cara Penanganan Pidana Korporasi
-  summary_id: MA menerbitkan regulasi progresif yang memberikan panduan bagi hakim
-    untuk menjerat dan menghukum perusahaan/korporasi yang melakukan tindak
-    pidana korupsi dan kejahatan lingkungan.
-  source_ids:
-    - perma-13-2016
-  dimension_ids:
-    - negara-hukum
-    - sila-5
-    - tujuan-2
 - id: ev-ma-ecourt-2019
   term_id: ma-reformasi-sekarang
   date: 2019-08-09
@@ -2293,4 +2281,3 @@
     - checks-balances
     - negara-hukum
     - sila-5
-

@@ -3849,7 +3849,7 @@
         - ev-uu-kuhap-1981
         - ev-jim-kamboja-1988
         - ev-ratifikasi-crc-1990
-        - ev-keppres-pembentukan-komnas-ham-1993
+        - ev-komnas-ham-1993
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -4013,7 +4013,7 @@
         - ev-uu-kuhap-1981
         - ev-uu-ptun-1986
         - ev-mpr-tap-xxxiii-1967
-        - ev-keppres-pembentukan-komnas-ham-1993
+        - ev-komnas-ham-1993
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -4478,7 +4478,7 @@
         - ev-ma-kasasi-asabri-2023
         - ev-kasasi-polusi-udara-jakarta-2023
         - ev-eksekusi-ganti-rugi-karhutla-2023
-        - ev-ma-perma-13-2016-korporasi
+        - ev-ma-perma-kejahatan-korporasi-2016
         - ev-ma-ecourt-2019
         - ev-ma-pembatalan-pp-99-2021
         - ev-ma-putusan-usia-pilkada-2024
@@ -4602,7 +4602,7 @@
         - ev-ma-putusan-bpjs-2020
         - ev-ma-perma-gugatan-sederhana-2019
         - ev-kasasi-polusi-udara-jakarta-2023
-        - ev-ma-perma-13-2016-korporasi
+        - ev-ma-perma-kejahatan-korporasi-2016
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
@@ -4656,7 +4656,7 @@
         - ev-ma-kasus-surya-darmadi-2023
         - ev-ma-kasus-minyak-goreng-2024
         - ev-eksekusi-ganti-rugi-karhutla-2023
-        - ev-ma-perma-13-2016-korporasi
+        - ev-ma-perma-kejahatan-korporasi-2016
         - ev-ma-ecourt-2019
         - ev-ma-pembatalan-pp-99-2021
         - ev-ma-ott-sudrajad-dimyati-2022
@@ -5408,7 +5408,7 @@
         - ev-dpd-uji-materi-mk-92-2012
         - ev-dpd-desertada-2011
         - ev-dpd-kemenangan-mk-92-2013
-        - ev-dpd-kemenangan-putusan-mk-2013
+        - ev-mk-putusan-dpd-tripartit-2013
     - dimension_id: sila-3
       score: 1
       confidence: 0.85
@@ -5523,7 +5523,7 @@
       event_ids:
         - ev-dpd-uji-materi-mk-92-2012
         - ev-dpd-kemenangan-mk-92-2013
-        - ev-dpd-kemenangan-putusan-mk-2013
+        - ev-mk-putusan-dpd-tripartit-2013
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
@@ -5535,7 +5535,7 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-kemenangan-mk-92-2013
-        - ev-dpd-kemenangan-putusan-mk-2013
+        - ev-mk-putusan-dpd-tripartit-2013
 - id: asm-dpd-2019-2024
   term_id: dpd-2019-2024
   rubric_version: 1.0.0
@@ -6490,7 +6490,7 @@
         - ev-ky-skb-kepph-2009
         - ev-ky-mkh-pertama-2009
         - ev-ky-laporan-mafia-peradilan-2007
-        - ev-ky-putusan-mk-pengawasan-2006
+        - ev-ky-putusan-mk-005-2006
         - ev-ky-peraturan-bersama-kepph-2009
     - dimension_id: checks-balances
       score: 0
@@ -6507,7 +6507,7 @@
       event_ids:
         - ev-ky-putusan-mk-005-2006
         - ev-ky-laporan-mafia-peradilan-2007
-        - ev-ky-putusan-mk-pengawasan-2006
+        - ev-ky-putusan-mk-005-2006
         - ev-ky-peraturan-bersama-kepph-2009
     - dimension_id: sila-1
       score: 1
@@ -7219,8 +7219,8 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-tap-mpr-xvii-1998-ham
-        - ev-tap-mpr-xvii-1998-ham
+        - ev-mpr-tap-xvii-1998
+        - ev-mpr-tap-xvii-1998
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
@@ -7290,9 +7290,9 @@
         - uud-nri-1945
       event_ids:
         - ev-mprs-tap-xx-1966
-        - ev-tap-mpr-xvii-1998-ham
+        - ev-mpr-tap-xvii-1998
         - ev-mpr-tap-xi-1998
-        - ev-tap-mpr-xvii-1998-ham
+        - ev-mpr-tap-xvii-1998
     - dimension_id: kedaulatan-rakyat
       score: -2
       confidence: 0.9

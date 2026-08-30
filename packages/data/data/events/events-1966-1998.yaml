@@ -12,7 +12,6 @@
   dimension_ids:
     - sila-4
     - kedaulatan-rakyat
-
 - id: ev-uu-3-1975-fusi-partai
   term_id: presiden-soeharto
   date: 1975-08-27
@@ -90,6 +89,8 @@
   dimension_ids:
     - sila-2
     - negara-hukum
+  actor_ids: []
+
 - id: ev-inpres-desa-tertinggal-1993
   term_id: presiden-soeharto
   date: 1993-12-27
@@ -388,20 +389,6 @@
   dimension_ids:
     - kedaulatan-rakyat
     - sila-4
-- id: ev-keppres-pembentukan-komnas-ham-1993
-  term_id: presiden-soeharto
-  date: 1993-06-07
-  category: produk-hukum
-  title_id: Keppres No. 50 Tahun 1993 tentang Pembentukan Komisi Nasional Hak
-    Asasi Manusia (Komnas HAM)
-  summary_id: Presiden membentuk Komisi Nasional Hak Asasi Manusia sebagai lembaga
-    mandiri pertama untuk memantau, menyelidiki, dan memajukan perlindungan hak
-    asasi manusia di Indonesia di bawah kepemimpinan mantan Ketua MA Ali Said.
-  source_ids:
-    - keppres-50-1993
-  dimension_ids:
-    - negara-hukum
-    - sila-2
 - id: ev-pembredelan-tempo-editor-detik-1994
   term_id: presiden-soeharto
   date: 1994-06-21
@@ -574,4 +561,3 @@
   dimension_ids:
     - tujuan-2
     - sila-5
-

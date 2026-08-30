@@ -5221,22 +5221,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-jokowi2-putusan-mk-91",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2021-11",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 91/PUU-XVIII/2020",
-      "summary_id": "Dengan suara bulat, sembilan hakim menyatakan UU Cipta Kerja \"inkonstitusional bersyarat\": cacat formalnya - partisipasi publik diabaikan, draf tak dipublikasikan - membuat proses pembuatannya melanggar konstitusi. Putusan ini menjadi rujukan global tentang pentingnya proses legislasi partisipatif. Pertanyaannya kemudian bukan lagi apakah putusan dihormati, melainkan apa yang dilakukan pemerintah sesudahnya.",
-      "source_ids": [
-        "putusan-mk-91-2021"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "checks-balances"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-jokowi2-perppu-ciptaker",
       "term_id": "presiden-jokowi-ii",
       "date": "2022-12",
@@ -5768,7 +5752,7 @@
       "date": "2021-11",
       "category": "pengadilan",
       "title_id": "Putusan MK 91/PUU-XVIII/2020 menegakkan prosedur legislasi",
-      "summary_id": "Sembilan hakim bulat menyatakan UU Cipta Kerja inkonstitusional bersyarat karena cacat formal - draf tidak dipublikasikan, partisipasi publik simbolik. Putusan ini dikutip pengadilan konstitusi luar negeri sebagai preseden pentingnya PROSES demokratis, bukan hanya isi. Sayangnya, epilog enam belas bulan kemudian (Perppu 2/2022) menunjukkan kemenangan prosedur bisa sementara.",
+      "summary_id": "Dengan suara bulat, sembilan hakim menyatakan UU Cipta Kerja \"inkonstitusional bersyarat\": cacat formalnya - partisipasi publik diabaikan, draf tak dipublikasikan - membuat proses pembuatannya melanggar konstitusi. Putusan ini menjadi rujukan global tentang pentingnya proses legislasi partisipatif. Pertanyaannya kemudian bukan lagi apakah putusan dihormati, melainkan apa yang dilakukan pemerintah sesudahnya.",
       "source_ids": [
         "putusan-mk-91-2021"
       ],
@@ -7287,7 +7271,7 @@
       "date": "1998-11-13",
       "category": "produk-hukum",
       "title_id": "TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia",
-      "summary_id": "Ketetapan monumental MPR yang memuat Piagam Hak Asasi Manusia sebagai landasan pengakuan hak-hak sipil, politik, ekonomi, sosial, dan budaya bangsa Indonesia pasca-otoritarianisme Orde Baru.",
+      "summary_id": "Sidang Istimewa MPR 1998 menetapkan Piagam HAM pertama di era Reformasi yang memuat 44 pasal perlindungan hak-hak sipil, politik, ekonomi, dan budaya, yang menjadi cikal bakal Bab XA Pasal 28A-28J Perubahan Kedua UUD 1945.",
       "source_ids": [
         "tap-mpr-xvii-1998"
       ],
@@ -7326,23 +7310,6 @@
       "dimension_ids": [
         "sila-2",
         "sila-3"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mpr-tap-vi-2000",
-      "term_id": "mpr-1999-2004",
-      "date": "2000-08-18",
-      "category": "produk-hukum",
-      "title_id": "TAP MPR No. VI/MPR/2000 tentang Pemisahan TNI dan Polri",
-      "summary_id": "MPR memisahkan secara kelembagaan dan doktrinal peran Tentara Nasional Indonesia sebagai alat pertahanan negara dan Kepolisian Negara RI sebagai alat keamanan serta penegakan hukum dan pengayom masyarakat.",
-      "source_ids": [
-        "tap-mpr-vi-2000",
-        "tap-mpr-vii-2000"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "checks-balances"
       ],
       "actor_ids": []
     },
@@ -7746,22 +7713,6 @@
       "dimension_ids": [
         "negara-hukum",
         "checks-balances"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-presiden-dekrit-1959",
-      "term_id": "presiden-soekarno-i",
-      "date": "1959-07-05",
-      "category": "krisis",
-      "title_id": "Dekrit Presiden 5 Juli 1959 Kembali ke UUD 1945",
-      "summary_id": "5 Juli 1959, Presiden Sukarno mengeluarkan dekrit membubarkan Dewan Konstituante dan menyatakan kembali berlakunya UUD 1945. Langkah darurat ini mengakhiri masa Demokrasi Liberal dan kebuntuan sidang konstitusi, sekaligus membuka jalan bagi era Demokrasi Terpimpin yang sentralistik.",
-      "source_ids": [
-        "dekrit-presiden-5-juli-1959"
-      ],
-      "dimension_ids": [
-        "checks-balances",
-        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -8529,14 +8480,15 @@
       "date": "1959-07-05",
       "category": "produk-hukum",
       "title_id": "Dekrit Presiden 5 Juli 1959: Menetapkan Berlakunya Kembali UUD 1945",
-      "summary_id": "Presiden Soekarno mengeluarkan Dekrit membubarkan Konstituante dan memberlakukan kembali UUD 1945 demi menyelamatkan keutuhan persatuan negara dari kebuntuan konstitusional.",
+      "summary_id": "5 Juli 1959, Presiden Sukarno mengeluarkan dekrit membubarkan Dewan Konstituante dan menyatakan kembali berlakunya UUD 1945. Langkah darurat ini mengakhiri masa Demokrasi Liberal dan kebuntuan sidang konstitusi, sekaligus membuka jalan bagi era Demokrasi Terpimpin yang sentralistik.",
       "source_ids": [
         "dekrit-presiden-5-juli-1959"
       ],
       "dimension_ids": [
         "sila-3",
         "negara-hukum",
-        "tujuan-1"
+        "tujuan-1",
+        "checks-balances"
       ],
       "actor_ids": []
     },
@@ -9334,22 +9286,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-keppres-pembentukan-komnas-ham-1993",
-      "term_id": "presiden-soeharto",
-      "date": "1993-06-07",
-      "category": "produk-hukum",
-      "title_id": "Keppres No. 50 Tahun 1993 tentang Pembentukan Komisi Nasional Hak Asasi Manusia (Komnas HAM)",
-      "summary_id": "Presiden membentuk Komisi Nasional Hak Asasi Manusia sebagai lembaga mandiri pertama untuk memantau, menyelidiki, dan memajukan perlindungan hak asasi manusia di Indonesia di bawah kepemimpinan mantan Ketua MA Ali Said.",
-      "source_ids": [
-        "keppres-50-1993"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "sila-2"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-pembredelan-tempo-editor-detik-1994",
       "term_id": "presiden-soeharto",
       "date": "1994-06-21",
@@ -9544,22 +9480,6 @@
       "dimension_ids": [
         "tujuan-2",
         "sila-5"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-tap-mpr-xvii-1998-ham",
-      "term_id": "mpr-1971-1999",
-      "date": "1998-11-13",
-      "category": "produk-hukum",
-      "title_id": "TAP MPR No. XVII/MPR/1998 tentang Piagam Hak Asasi Manusia Indonesia",
-      "summary_id": "Sidang Istimewa MPR 1998 menetapkan Piagam HAM pertama di era Reformasi yang memuat 44 pasal perlindungan hak-hak sipil, politik, ekonomi, dan budaya, yang menjadi cikal bakal Bab XA Pasal 28A-28J Perubahan Kedua UUD 1945.",
-      "source_ids": [
-        "tap-mpr-xvii-1998"
-      ],
-      "dimension_ids": [
-        "sila-2",
-        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -10554,7 +10474,8 @@
       ],
       "dimension_ids": [
         "checks-balances",
-        "kedaulatan-rakyat"
+        "kedaulatan-rakyat",
+        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -11905,23 +11826,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-dpd-kemenangan-putusan-mk-2013",
-      "term_id": "dpd-2009-2014",
-      "date": "2013-03-27",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 92/PUU-X/2012 Mengakui Hak Tripartit Legislasi DPD RI Bersama DPR dan Presiden",
-      "summary_id": "MK mengabulkan sebagian permohonan DPD RI dan menegaskan DPD berhak mengajukan dan membahas RUU otonomi daerah sejak tahap awal hingga tingkat satu.",
-      "source_ids": [
-        "putusan-mk-92-puu-x-2012"
-      ],
-      "dimension_ids": [
-        "checks-balances",
-        "kedaulatan-rakyat",
-        "negara-hukum"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-dpd-pengawasan-otsus-aceh-2011",
       "term_id": "dpd-2009-2014",
       "date": "2011-08-12",
@@ -11935,22 +11839,6 @@
         "sila-3",
         "sila-5",
         "tujuan-2"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-ky-putusan-mk-pengawasan-2006",
-      "term_id": "ky-2005-2010",
-      "date": "2006-08-23",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 005/PUU-IV/2006 Membatalkan Wewenang Pengawasan KY terhadap Hakim Konstitusi dan Hakim Agung",
-      "summary_id": "MK membatalkan sebagian pasal UU KY sehingga pengawasan perilaku hakim agung sempat melemah dan memicu perdebatan panjang relasi kekuasaan yudikatif.",
-      "source_ids": [
-        "putusan-mk-005-puu-iv-2006"
-      ],
-      "dimension_ids": [
-        "checks-balances",
-        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -12522,7 +12410,9 @@
       ],
       "dimension_ids": [
         "negara-hukum",
-        "checks-balances"
+        "checks-balances",
+        "sila-5",
+        "tujuan-2"
       ],
       "actor_ids": []
     },
@@ -13662,23 +13552,6 @@
         "negara-hukum",
         "checks-balances",
         "sila-5"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-ma-perma-13-2016-korporasi",
-      "term_id": "ma-reformasi-sekarang",
-      "date": "2016-12-21",
-      "category": "produk-hukum",
-      "title_id": "Pemberlakuan Perma No. 13/2016 tentang Tata Cara Penanganan Pidana Korporasi",
-      "summary_id": "MA menerbitkan regulasi progresif yang memberikan panduan bagi hakim untuk menjerat dan menghukum perusahaan/korporasi yang melakukan tindak pidana korupsi dan kejahatan lingkungan.",
-      "source_ids": [
-        "perma-13-2016"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "sila-5",
-        "tujuan-2"
       ],
       "actor_ids": []
     },
@@ -27576,7 +27449,7 @@
             "ev-uu-kuhap-1981",
             "ev-jim-kamboja-1988",
             "ev-ratifikasi-crc-1990",
-            "ev-keppres-pembentukan-komnas-ham-1993"
+            "ev-komnas-ham-1993"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27857,7 +27730,7 @@
             "ev-uu-kuhap-1981",
             "ev-uu-ptun-1986",
             "ev-mpr-tap-xxxiii-1967",
-            "ev-keppres-pembentukan-komnas-ham-1993"
+            "ev-komnas-ham-1993"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -28652,7 +28525,7 @@
             "ev-ma-kasasi-asabri-2023",
             "ev-kasasi-polusi-udara-jakarta-2023",
             "ev-eksekusi-ganti-rugi-karhutla-2023",
-            "ev-ma-perma-13-2016-korporasi",
+            "ev-ma-perma-kejahatan-korporasi-2016",
             "ev-ma-ecourt-2019",
             "ev-ma-pembatalan-pp-99-2021",
             "ev-ma-putusan-usia-pilkada-2024",
@@ -28853,7 +28726,7 @@
             "ev-ma-putusan-bpjs-2020",
             "ev-ma-perma-gugatan-sederhana-2019",
             "ev-kasasi-polusi-udara-jakarta-2023",
-            "ev-ma-perma-13-2016-korporasi"
+            "ev-ma-perma-kejahatan-korporasi-2016"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -28974,7 +28847,7 @@
             "ev-ma-kasus-surya-darmadi-2023",
             "ev-ma-kasus-minyak-goreng-2024",
             "ev-eksekusi-ganti-rugi-karhutla-2023",
-            "ev-ma-perma-13-2016-korporasi",
+            "ev-ma-perma-kejahatan-korporasi-2016",
             "ev-ma-ecourt-2019",
             "ev-ma-pembatalan-pp-99-2021",
             "ev-ma-ott-sudrajad-dimyati-2022",
@@ -30215,7 +30088,7 @@
             "ev-dpd-uji-materi-mk-92-2012",
             "ev-dpd-desertada-2011",
             "ev-dpd-kemenangan-mk-92-2013",
-            "ev-dpd-kemenangan-putusan-mk-2013"
+            "ev-mk-putusan-dpd-tripartit-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -30405,7 +30278,7 @@
           "event_ids": [
             "ev-dpd-uji-materi-mk-92-2012",
             "ev-dpd-kemenangan-mk-92-2013",
-            "ev-dpd-kemenangan-putusan-mk-2013"
+            "ev-mk-putusan-dpd-tripartit-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -30423,7 +30296,7 @@
           ],
           "event_ids": [
             "ev-dpd-kemenangan-mk-92-2013",
-            "ev-dpd-kemenangan-putusan-mk-2013"
+            "ev-mk-putusan-dpd-tripartit-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -32009,7 +31882,7 @@
             "ev-ky-skb-kepph-2009",
             "ev-ky-mkh-pertama-2009",
             "ev-ky-laporan-mafia-peradilan-2007",
-            "ev-ky-putusan-mk-pengawasan-2006",
+            "ev-ky-putusan-mk-005-2006",
             "ev-ky-peraturan-bersama-kepph-2009"
           ],
           "normative_anchors": [
@@ -32035,7 +31908,7 @@
           "event_ids": [
             "ev-ky-putusan-mk-005-2006",
             "ev-ky-laporan-mafia-peradilan-2007",
-            "ev-ky-putusan-mk-pengawasan-2006",
+            "ev-ky-putusan-mk-005-2006",
             "ev-ky-peraturan-bersama-kepph-2009"
           ],
           "normative_anchors": [
@@ -33245,8 +33118,8 @@
             }
           ],
           "event_ids": [
-            "ev-tap-mpr-xvii-1998-ham",
-            "ev-tap-mpr-xvii-1998-ham"
+            "ev-mpr-tap-xvii-1998",
+            "ev-mpr-tap-xvii-1998"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -33364,9 +33237,9 @@
           ],
           "event_ids": [
             "ev-mprs-tap-xx-1966",
-            "ev-tap-mpr-xvii-1998-ham",
+            "ev-mpr-tap-xvii-1998",
             "ev-mpr-tap-xi-1998",
-            "ev-tap-mpr-xvii-1998-ham"
+            "ev-mpr-tap-xvii-1998"
           ],
           "normative_anchors": [
             "uud-nri-1945"

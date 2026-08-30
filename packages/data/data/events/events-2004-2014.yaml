@@ -125,6 +125,9 @@
   dimension_ids:
     - checks-balances
     - kedaulatan-rakyat
+    - negara-hukum
+  actor_ids: []
+
 - id: ev-dpr-uu-md3-2014
   term_id: dpr-2009-2014
   date: 2014-07-08
@@ -1285,21 +1288,6 @@
     - checks-balances
     - kedaulatan-rakyat
     - negara-hukum
-- id: ev-dpd-kemenangan-putusan-mk-2013
-  term_id: dpd-2009-2014
-  date: 2013-03-27
-  category: pengadilan
-  title_id: Putusan MK No. 92/PUU-X/2012 Mengakui Hak Tripartit Legislasi DPD RI
-    Bersama DPR dan Presiden
-  summary_id: MK mengabulkan sebagian permohonan DPD RI dan menegaskan DPD berhak
-    mengajukan dan membahas RUU otonomi daerah sejak tahap awal hingga tingkat
-    satu.
-  source_ids:
-    - putusan-mk-92-puu-x-2012
-  dimension_ids:
-    - checks-balances
-    - kedaulatan-rakyat
-    - negara-hukum
 - id: ev-dpd-pengawasan-otsus-aceh-2011
   term_id: dpd-2009-2014
   date: 2011-08-12
@@ -1315,20 +1303,6 @@
     - sila-3
     - sila-5
     - tujuan-2
-- id: ev-ky-putusan-mk-pengawasan-2006
-  term_id: ky-2005-2010
-  date: 2006-08-23
-  category: pengadilan
-  title_id: Putusan MK No. 005/PUU-IV/2006 Membatalkan Wewenang Pengawasan KY
-    terhadap Hakim Konstitusi dan Hakim Agung
-  summary_id: MK membatalkan sebagian pasal UU KY sehingga pengawasan perilaku
-    hakim agung sempat melemah dan memicu perdebatan panjang relasi kekuasaan
-    yudikatif.
-  source_ids:
-    - putusan-mk-005-puu-iv-2006
-  dimension_ids:
-    - checks-balances
-    - negara-hukum
 - id: ev-ky-peraturan-bersama-kepph-2009
   term_id: ky-2005-2010
   date: 2009-04-08
@@ -1370,4 +1344,3 @@
     - checks-balances
     - negara-hukum
     - kedaulatan-rakyat
-
