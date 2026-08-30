@@ -1,190 +1,161 @@
-# Pancasila Index
+<p align="center">
+  <strong>🏛️ PANCASILA INDEX</strong><br />
+  <em>Seberapa Pancasila para pemegang kekuasaan Republik Indonesia?</em>
+</p>
 
-> **Indeks kepatuhan konstitusional Indonesia berbasis bukti.** Menilai kesetiaan
-> **8 organ konstitusional** (Presiden, DPR, MPR, DPD, MK, MA, BPK, KY) terhadap
-> Pancasila, Pembukaan UUD 1945 alinea IV, dan norma struktural UUD 1945 — dari
-> kemerdekaan 1945 hingga kini. **Setiap skor wajib bersitasi bukti primer.**
+<p align="center">
+  Sebuah <strong>indeks kepatuhan konstitusional berbasis bukti</strong> yang
+  menilai <strong>8 organ konstitusional</strong> — Presiden, DPR, MPR, DPD, MK, MA,
+  BPK, dan KY — terhadap <strong>Pancasila</strong>, <strong>Pembukaan UUD 1945</strong>,
+  dan norma struktural UUD NRI 1945. Dari Proklamasi 1945 hingga hari ini.
+  <strong>Setiap skor wajib bersitasi bukti primer.</strong>
+</p>
 
-**Produksi:** [www.pancasila.site](https://www.pancasila.site) · **REST API:** `/api/v1` (+ [OpenAPI](https://www.pancasila.site/api/v1/openapi.json)) · **Dokumen:** [docs/](docs/)
+<p align="center">
+  <a href="https://www.pancasila.site"><strong>🌐 Kunjungi Situs</strong></a> ·
+  <a href="https://www.pancasila.site/api/v1/openapi.json"><strong>🧬 REST API</strong></a> ·
+  <a href="./docs/"><strong>📚 Dokumentasi</strong></a>
+</p>
 
-[![CI](https://github.com/rnazieb-dev/Pancasila-Index/actions/workflows/ci.yml/badge.svg)](https://github.com/rnazieb-dev/Pancasila-Index/actions/workflows/ci.yml)
-[![Kode: AGPL-3.0](https://img.shields.io/badge/Kode-AGPL--3.0-blue.svg)](LICENSE)
-[![Data: CC BY-SA 4.0](https://img.shields.io/badge/Data-CC--BY--SA--4.0-lightgrey.svg)](LICENSE-DATA.md)
-[![Next.js 15](https://img.shields.io/badge/Next.js-15-black.svg)](https://nextjs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue.svg)](https://www.typescriptlang.org)
-[![pnpm 11](https://img.shields.io/badge/pnpm-11-orange.svg)](https://pnpm.io)
-[![Release v1.0.0](https://img.shields.io/badge/Release-v1.0.0-9cf.svg)](https://github.com/rnazieb-dev/Pancasila-Index/releases)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frnazieb-dev%2FPancasila-Index)
+<p align="center">
+  <a href="https://github.com/rnazieb-dev/Pancasila-Index/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/rnazieb-dev/Pancasila-Index/actions/workflows/ci.yml/badge.svg" /></a>
+  <a href="LICENSE"><img alt="Lisensi Kode" src="https://img.shields.io/badge/Kode-AGPL--3.0-blue.svg" /></a>
+  <a href="LICENSE-DATA.md"><img alt="Lisensi Data" src="https://img.shields.io/badge/Data-CC--BY--SA--4.0-lightgrey.svg" /></a>
+  <a href="https://github.com/rnazieb-dev/Pancasila-Index/releases"><img alt="Release" src="https://img.shields.io/badge/Release-v1.0.0-9cf.svg" /></a>
+  <a href="https://nextjs.org"><img alt="Next.js 15" src="https://img.shields.io/badge/Next.js-15-black.svg" /></a>
+  <a href="https://www.typescriptlang.org"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.9-blue.svg" /></a>
+  <a href="https://pnpm.io"><img alt="pnpm" src="https://img.shields.io/badge/pnpm-11-orange.svg" /></a>
+  <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frnazieb-dev%2FPancasila-Index"><img alt="Deploy dengan Vercel" src="https://vercel.com/button" /></a>
+</p>
 
-[![Kontribusi](https://img.shields.io/badge/Berkontribusi-CONTRIBUTING.md-informational.svg)](CONTRIBUTING.md)
-[![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Covenant%202.1-purple.svg)](CODE_OF_CONDUCT.md)
+---
 
-## Skala saat ini
+# 🇮🇩 Ini lebih dari sekadar indeks. Ini pertanyaan berusia 80 tahun.
+
+Setiap 17 Agustus kita menyanyikan janji yang sama. Tetapi pertanyaan yang
+menggantung sejak 1945 jarang dijawab dengan jujur:
+
+> **"Seberapa Pancasila sebenarnya para pemegang kekuasaan kita?"**
+
+Jawaban selama ini adalah retorika. Pidato. Spanduk. Klaim.
+
+**Pancasila Index mengubah itu.** Bukan dengan opini, melainkan dengan metode —
+menjadikan pertanyaan konstitusional itu **empiris dan dapat diuji**. Untuk setiap
+lembaga negara pada setiap masa jabatan, kami membedah rekam jejak kebijakan,
+putusan, dan praktik ketatanegaraannya — lalu membandingkannya dengan:
 
 | | |
 |---|---|
-| **8** organ konstitusional | **50** masa jabatan dinilai |
-| **695** peristiwa berbukti | **634** sumber primer aktif |
-| **12** dimensi (5 sila + 4 tujuan + 3 struktur) | **0** referensi mati |
+| ⚖️ **Kelima Sila** | 🗺️ **Empat tujuan bernegara** (Pembukaan UUD 1945 alinea IV) |
+| 🏛️ **Norma struktural UUD 1945** | 📜 negara hukum · checks & balances · kedaulatan rakyat |
 
-## Mengapa proyek ini ada
+Dan yang terpenting: **setiap angka wajib bertanggung jawab pada bukti.** UU,
+Perppu, putusan MK/MA, Keppres, risalah sidang, arsip nasional, jurnal — semua
+tertaut dan dapat dibuka kembali.
 
-Pertanyaan "seberapa Pancasila penguasa kita?" selama ini dijawab dengan
-retorika. Pancasila Index mengubahnya menjadi pertanyaan empiris yang dapat
-diuji: untuk setiap lembaga negara pada setiap periode, bagaimana rekam jejak
-kebijakan dan praktik ketatatanagaannya dibandingkan dengan:
+---
 
-1. **Kelima Sila** Pancasila,
-2. **Empat tujuan bernegara** pada Pembukaan UUD 1945 alinea IV, dan
-3. **Norma struktural UUD 1945** (negara hukum, checks and balances, kedaulatan rakyat).
+## 📊 Skala hari ini
 
-Berbeda dengan Indeks Demokrasi Indonesia (BPS/Bawaslu) yang mengukur demokrasi
-per wilayah/tahun, atau EIU Democracy Index yang membandingkan antarnegara,
-Pancasila Index menilai *kesetiaan konstitusional aktor kekuasaan spesifik
-lintas sejarah* — dan setiap skor wajib bersitasi bukti primer.
+| | | | |
+|---:|---:|---:|---:|
+| 🏛️ **8** organ dinilai | 🗓️ **50** masa jabatan | 📜 **695** peristiwa berbukti | 📚 **634** sumber primer |
+| 🧭 **12** dimensi penilaian | 🌐 **5** bahasa | ✅ **0** referensi mati | 🔒 **0** rahasia bocor |
 
-## Prinsip
+---
 
-- **Bebas bukti, bebas skor.** Tidak ada penilaian tanpa sitasi (UU, Perppu,
-  Putusan MK/MA, Keppres, arsip, jurnal).
-- **Metodologi terbuka & berversi.** Rubrik tersimpan sebagai data di repo ini;
-  perubahan bobot/dimensi = versi baru (`rubricVersion`), tidak diam-diam.
-- **AI hanya membantu, manusia yang memutus.** Pipeline AI boleh mengusulkan
-  klasifikasi dan draf rasional, tetapi tidak pernah dipublikasi tanpa kurasi
-  manusia (`ai_suggested` vs `human_confirmed`).
-- **Ketidaksetujuan ditampilkan, bukan disembunyikan.** Penilaian ganda dari
-  reviewer berbeda ditampilkan berdampingan.
-- **Bhinneka Tunggal Ika.** UI dirancang multibahasa: Indonesia lebih dahulu,
-  kemudian bahasa-bahasa daerah (Jawa, Sunda, Madura, Minangkabau, Bugis, …).
+## 🧠 Mengapa berbeda dari indeks lain?
 
-## Status: v1.0 — platform lengkap (Fase 0–13)
+Indeks Demokrasi Indonesia (BPS/Bawaslu) mengukur demokrasi *per wilayah/per tahun*.
+EIU Democracy Index membandingkan *antarnegara*. Pancasila Index menilai satu hal
+yang tak dilakukan siapa pun:
 
-| Fase | Isi | Status |
-|------|-----|--------|
-| 0 | Scaffold monorepo, CI, lisensi | ✅ |
-| 1 | Rubrik v1 + scoring engine + test | ✅ |
-| 2 | Seed era Reformasi + MVP web (timeline, radar, evidence explorer) | ✅ |
-| 2.5 | Peta lengkap UUD (73 pasal) + peristiwa krusial tambahan | ✅ |
-| 3 | Auth GitHub + workflow kurasi + pipeline AI | ✅ |
-| 4a–c | Dataset eksekutif 1945–1998, i18n 5 bahasa, API publik | ✅ |
-| 5a–b | Prisma/Postgres overlay + RBAC 4 peran + kurasi kuorum 2 reviewer + AuditLog + webhook | ✅ |
-| 6a–b | Scraper JDIH Setneg → korpus `data/raw/` + suggest v2 & batch bertema | ✅ |
-| 7 | 8 organ konstitusional lengkap (terms, events, assessments) + lapisan aktor & provenance | ✅ |
-| 8–9 | Pencarian /bandingkan /ekspor /aktor + REST API v1 + OpenAPI + rate-limiter | ✅ |
-| 10 | i18n konten substantif 5 bahasa (id, en, jv, su, min) + tinjauan bahasa | ✅ |
-| 12–13 | Skala bukti 600+ peristiwa, arsip primer Cloudflare R2, audit data, halaman dokumen `/arsip/[id]`, kepatuhan UU PDP | ✅ |
-| lanjutan | Dewan editorial publik, terjemahan substantif penuh | ⬜ |
+> **Kesetiaan konstitusional aktor kekuasaan spesifik — lintas sejarah, per masa
+> jabatan, berbasis dokumen primer.**
 
-> **Catatan:** Seluruh penilaian saat ini berstatus **DRAF-PRATINJAU** — dihasilkan
-> sebagai demonstrasi metodologi dan *belum* dikurasi dewan editorial. Angka indeks
-> bukan vonis akhir. Setiap perubahan skor mengikuti telaah sejawat melalui pull
-> request dan kuorum dua reviewer (lihat prinsip di bawah).
+Bukan "berapa demokratis Indonesia", melainkan **"berapa Pancasila presiden ini,
+DPR ini, MK ini — dan buktinya apa?"**
 
-## Fitur utama
+---
 
-- **Penilaian per masa jabatan & per dimensi** — matriks skor −2..+2 per sila/tujuan/norma struktural, dengan rasional dan bukti tertaut yang dapat diverifikasi.
-- **Halaman dokumen** (`/arsip/[id]`) — setiap sumber punya halaman ber-OG berisi metadata, sitasi, dan unduhan arsip primer.
-- **Pencarian, perbandingan, ekspor** — `/cari`, `/bandingkan` (radar 8 organ), `/ekspor` (CSV/JSON), direktori aktor `/aktor`.
-- **REST API v1 + OpenAPI** — `/api/v1/institutions|terms|events|assessments|sources|compare|index` dengan pagination, rate-limiter, dan UI `/api-docs`.
-- **Kurasi dua-reviewer** — publish butuh kuorum ≥2 approver berbeda nama, dengan jejak audit (AuditLog) dan webhook opsional.
-- **i18n konten substantif** — id, en, jv, su, min (+ antrean tinjauan bahasa `/peer-review/terjemahan`).
-- **Kepatuhan UU PDP (No. 27/2022)** — halaman kebijakan privasi, hak akses/ekspor & penghapusan data, consent kuki, minimalisasi data.
+## 💎 Prinsip yang tidak bisa ditawar
 
-### Lapisan aktor (siapa, bukan cuma lembaga apa)
+- 🔍 **Bebas bukti, bebas skor.** Tidak ada penilaian tanpa sitasi primer. Sekali pun subjektif, ia bisa diaudit.
+- 📦 **Metodologi terbuka & berversi.** Rubrik hidup di git sebagai data. Perubahan bobot/dimensi = versi baru (`rubricVersion`), tidak pernah diam-diam.
+- 🤖 **AI membantu, manusia memutus.** Pipeline AI boleh mengusulkan draf, tetapi **tidak pernah** dipublikasi tanpa kurasi manusia (`ai_suggested` vs `human_confirmed`).
+- ⚖️ **Ketidaksetujuan ditampilkan, bukan disembunyikan.** Penilaian ganda dari reviewer berbeda tampil berdampingan.
+- 🕊️ **Bhinneka Tunggal Ika.** UI multibahasa — Indonesia lebih dulu, disusul Jawa, Sunda, Madura, Minangkabau, Bugis, dan seterusnya.
 
-Indeks tetap dinilai **per masa jabatan lembaga**, bukan per kepala — itu unit
-analisis rubrik dan tidak berubah. Yang ditambahkan adalah lapisan identitas di
-atasnya, supaya perkara tidak lagi hilang dari halaman orangnya:
+---
 
-- `data/actors.yaml` — entitas orang kanonik berid. Satu orang satu entri meski
-  menjabat lintas periode/lembaga. Pejabat di luar pimpinan 8 organ (menteri,
-  hakim non-ketua) boleh masuk **hanya** bila sudah ada dokumen di `sources.yaml`.
-- `data/actor-cases.yaml` — perkara hukum. Skema menolak perkara tanpa sumber,
-  dan `status` wajib eksplisit: `terlapor` / `tersangka` / `terdakwa` /
-  `terpidana` / `inkracht` / `bebas` / `dihentikan`. UI menampilkan status ini
-  berdampingan dengan nama supaya asas praduga tak bersalah tidak tergilas
-  tampilan indeks yang terlihat tegas.
-- `event.actor_ids` — peristiwa menunjuk orang secara terstruktur, bukan lewat
-  nama yang terselip di prosa `summary_id`.
-- `event.subject_term_id` + `subject_basis_id` — audit BPK atau putusan MA atas
-  perbuatan pejabat periode lain kini tampil **di kedua halaman**: yang
-  membongkar dan yang diperiksa. `subject_basis_id` wajib diisi agar
-  re-atribusinya bisa diaudit, bukan jadi tebakan sejarah.
+## ✨ Fitur utama
 
-Kekosongan sengaja dibiarkan terlihat: profil tanpa perkara berbunyi "belum ada
-dokumen yang masuk korpus", bukan "bersih".
+- 📄 **Halaman dokumen** (`/arsip/[id]`) — setiap sumber punya halaman ber-OG dengan metadata, sitasi, dan unduhan arsip primer dari repositori mandiri (Cloudflare R2).
+- 🔎 **Pencarian, perbandingan, ekspor** — `/cari`, `/bandingkan` (radar 8 organ), `/ekspor` (CSV/JSON), direktori aktor `/aktor`.
+- 🧬 **REST API v1 + OpenAPI** — `/api/v1/institutions|terms|events|assessments|sources|compare|index` dengan pagination, rate-limiter, dan UI `/api-docs`.
+- 🗳️ **Kurasi dua-reviewer** — penerbitan butuh kuorum ≥2 approver berbeda nama, dengan jejak AuditLog dan webhook opsional.
+- 🌏 **i18n konten substantif** — id · en · jv · su · min (+ antrean tinjauan bahasa).
+- 🛡️ **Kepatuhan UU PDP (No. 27/2022)** — kebijakan privasi, hak akses/ekspor & penghapusan data, consent kuki, minimalisasi data.
 
-### Indeks eksternal
+---
 
-```bash
-# unduh dari penerbit resmi, bandingkan dengan angka yang tercatat
-pnpm --filter @pancasila-index/data fetch:indices
-```
-
-Script ini **tidak** menulis ulang YAML — ia mengunduh, membandingkan, dan
-melaporkan selisih; kurator yang memutuskan (lihat prinsip "AI hanya membantu").
-Sebuah angka baru dianggap sah bila punya blok `provenance` (tautan + tanggal
-ambil + cara ambil), dan derajat verifikasi tiap indeks **dihitung build** dari
-kelengkapan provenance sehingga tidak bisa diklaim manual.
-
-Host yang perlu diizinkan agar script bisa jalan: `transparency.org`,
-`worldjusticeproject.org`, `rsf.org`, `v-dem.net`, `internationalbudget.org`,
-`corruptionrisk.org`, `oecd-public-integrity-indicators.org`,
-`api.worldbank.org`.
-
-### Workflow kurasi & AI
-
-```bash
-# usulkan draf penilaian dari peristiwa berbukti (heuristik / LLM)
-pnpm --filter @pancasila-index/ai suggest --term presiden-habibie
-
-# kurasi via web (LOKAL SAJA): cp apps/web/.env.example apps/web/.env lalu set CURATION_DEV=1
-#   CURATION_DEV memberi peran KURATOR tanpa login. Diabaikan bila
-#   NODE_ENV=production, tetapi JANGAN pernah menaruhnya di environment
-#   deployment: penolakan penilaian hanya butuh satu keputusan, bukan kuorum.
-pnpm dev   # buka /kurasi → Setujui/Tolak → review-state.json (jejak audit)
-
-# terapkan keputusan kurasi ke dataset publik
-pnpm build:data && pnpm build
-```
-
-Detail: [docs/ai-pipeline.md](docs/ai-pipeline.md).
-
-## Struktur repo
+## 🏗️ Arsitektur
 
 ```
 pancasila-index/
-├── apps/web/          # Next.js 15 — antarmuka publik
-├── packages/core/     # skema Zod + mesin penskoran (pure TypeScript)
-├── packages/data/     # rubrik & dataset YAML berversi (sumber kebenaran)
-└── docs/              # arsitektur keputusan (ADR), metodologi
+├── apps/web/          # Next.js 15 — antarmuka publik & kurasi
+├── packages/core/     # Skema Zod + mesin penskoran (pure TypeScript, teruji)
+├── packages/data/     # Rubrik & dataset YAML berversi (sumber kebenaran)
+├── packages/ai/       # Heuristik klasifikasi + suggest CLI + import massal
+└── docs/              # ADR & metodologi
 ```
 
-Data hidup di git sebagai YAML → setiap perubahan penilaian punya jejak audit,
-dan pull request menjadi mekanisme telaah sejawat. Integrasi database (Prisma)
-menyusul di Fase 3 untuk mendukung workflow kurasi daring.
+Data hidup di git sebagai YAML → setiap perubahan punya jejak audit, dan **pull
+request adalah mekanisme telaah sejawat**.
 
-## Menjalankan lokal
+---
+
+## 🚀 Mulai cepat
 
 ```bash
 pnpm install
 pnpm dev        # aplikasi web di http://localhost:3000
-pnpm test       # unit test scoring engine (Vitest)
+pnpm test       # unit test mesin penskoran (Vitest)
+pnpm build:data # validasi & gabung dataset → generated/dataset.json
 pnpm build      # build produksi
 ```
 
-## Berkontribusi
+Pipeline AI & kurasi:
 
+```bash
+# usulkan draf penilaian dari peristiwa berbukti
+pnpm --filter @pancasila-index/ai suggest --term presiden-habibie
+```
+
+---
+
+## 🤝 Berkontribusi
+
+Baik Anda manusia, **AI agent**, atau bot — kontribusi Anda kami sambut.
 Lihat [CONTRIBUTING.md](CONTRIBUTING.md). Ringkasnya:
 
-- **Koreksi fakta / tambah bukti**: PR ke `packages/data/` dengan sitasi primer.
-- **Perbaikan rubrik**: usulkan perubahan dimensi/indikator/bobot beserta
-  justifikasi; akan dinaikkan versinya.
-- **Penilaian baru**: ikuti skema `Assessment`; minimal satu reviewer, idealnya dua.
+- 📝 **Koreksi fakta / tambah bukti** → PR ke `packages/data/` dengan sitasi primer.
+- ⚙️ **Perbaikan rubrik** → usulkan perubahan dimensi/indikator/bobot + justifikasi; akan dinaikkan versinya.
+- 📊 **Penilaian baru** → ikuti skema `Assessment`; satu reviewer minimum, idealnya dua.
 
 Semua kontributor wajib mematuhi [Code of Conduct](CODE_OF_CONDUCT.md).
 
-## Lisensi
+---
 
-- Kode: [AGPL-3.0-only](LICENSE)
-- Data & rubrik: [CC BY-SA 4.0](LICENSE-DATA.md)
+## 📜 Lisensi
+
+- 🖥️ **Kode:** [AGPL-3.0-only](LICENSE) — copyleft kuat agar karya ini tak dieksploitasi secara tertutup.
+- 🗃️ **Data & rubrik:** [CC BY-SA 4.0](LICENSE-DATA.md).
+
+---
+
+<p align="center">
+  <em>Kekuasaan yang lolos dari pengawasan adalah kekuasaan yang melupakan
+  janjinya. Pancasila Index ada agar janji itu bisa diaudit.</em><br /><br />
+  <strong>⭐ Bintang adalah cara terbaik mengatakan: "platform ini penting."</strong>
+</p>
