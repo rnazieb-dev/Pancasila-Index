@@ -295,8 +295,8 @@ async function main() {
           await page.evaluate(() => { window.scrollBy(0, window.innerHeight); });
           await new Promise(r => setTimeout(r, 1000));
           
-          await page.emulateMediaType("screen");
-          const height = await page.evaluate(() => document.documentElement.scrollHeight);
+          // @ts-ignore
+          const height = await page.evaluate(() => (globalThis as any).document?.documentElement?.scrollHeight || 1200);
           
           const pdfBuffer = await page.pdf({ 
             width: "768px", 

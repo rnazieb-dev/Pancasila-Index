@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type ReactNode } from "react";
+import { useState, useEffect, type ReactNode } from "react";
 
 export interface Tab {
   id: string;
@@ -11,6 +11,15 @@ export interface Tab {
 
 export function MethodologyTabs({ tabs }: { tabs: Tab[] }) {
   const [activeId, setActiveId] = useState(tabs[0]?.id || "");
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const hash = window.location.hash.replace("#", "");
+      if (hash && tabs.some((t) => t.id === hash)) {
+        setActiveId(hash);
+      }
+    }
+  }, [tabs]);
 
   if (!tabs.length) return null;
 

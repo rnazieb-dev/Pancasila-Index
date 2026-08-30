@@ -81,7 +81,7 @@ export default function LandasanUudPage() {
                         {pasal.dimension_ids.map((dimId) => (
                           <Link
                             key={dimId}
-                            href="/metodologi#dimensi"
+                            href="/metodologi#skala"
                             className="rounded bg-[var(--bg)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500"
                           >
                             {dataset.rubric.dimensions.find(
