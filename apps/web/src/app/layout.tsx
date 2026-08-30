@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 import { AppChrome } from "@/components/app-chrome";
 import { LocaleProvider } from "@/components/locale-provider";
 import { SessionProvider } from "@/components/session-provider";
+import { CookieConsent } from "@/components/cookie-consent";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.pancasila.site"),
@@ -56,8 +55,7 @@ export default function RootLayout({
             <AppChrome>{children}</AppChrome>
           </LocaleProvider>
         </SessionProvider>
-        <Analytics />
-        <SpeedInsights />
+        <CookieConsent />
       </body>
     </html>
   );

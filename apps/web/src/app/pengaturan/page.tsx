@@ -174,6 +174,53 @@ export default function PengaturanPage() {
     }
   };
 
+  const handleExportData = async () => {
+    try {
+      const res = await fetch("/api/user/export");
+      if (!res.ok) {
+        alert("Gagal mengekspor data. Silakan coba kembali.");
+        return;
+      }
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "pancasila-index-data-saya.json";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch {
+      alert("Terjadi kesalahan saat mengekspor data.");
+    }
+  };
+
+  const handleDeleteAccount = async () => {
+    if (
+      !confirm(
+        "Hapus akun dan data pribadi Anda secara permanen?\n\n" +
+          "Ini akan menghapus akun, email, dan data pribadi Anda. Kontribusi kurasi yang bersifat publik dipertahankan dalam bentuk anonim demi integritas ilmiah.\n\nTindakan ini tidak dapat dibatalkan."
+      )
+    ) {
+      return;
+    }
+    if (!confirm("Anda yakin? Ketik konfirmasi kedua ini menandakan persetujuan akhir.")) {
+      return;
+    }
+    try {
+      const res = await fetch("/api/user/account", { method: "DELETE" });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok) {
+        alert(data.message || "Akun Anda telah dihapus.");
+        await signOut({ callbackUrl: "/" });
+      } else {
+        alert(data.error || "Gagal menghapus akun.");
+      }
+    } catch {
+      alert("Terjadi kesalahan saat menghapus akun.");
+    }
+  };
+
   const handleDeleteDraft = (id: string, title: string) => {
     if (confirm(`Hapus draf "${title}"?`)) {
       deleteUserDraft(id);
@@ -827,6 +874,34 @@ export default function PengaturanPage() {
             <span className="rounded-lg bg-[var(--bg)] text-[var(--text)] border border-[var(--line)] font-mono text-[10px] px-3 py-1.5 w-fit">
               Durasi Token: 365 Hari
             </span>
+          </div>
+
+          <div className="rounded-2xl border border-sky-500/30 bg-sky-500/5 p-5 space-y-4 text-xs">
+            <div>
+              <h3 className="font-bold text-[var(--text)]">Pelindungan Data Pribadi (UU No. 27/2022)</h3>
+              <p className="text-[11px] text-[var(--muted)] mt-1 leading-relaxed">
+                Anda berhak mengakses, mengoreksi, mengekspor, dan menghapus data pribadi Anda. Detail lengkap:{" "}
+                <Link href="/privasi" className="text-[var(--acc-sky)] font-semibold hover:underline">
+                  Kebijakan Privasi
+                </Link>.
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <button
+                type="button"
+                onClick={handleExportData}
+                className="rounded-xl border border-[var(--line)] bg-[var(--bg)] px-4 py-2.5 text-xs font-semibold text-[var(--text)] hover:border-slate-400 transition"
+              >
+                Ekspor Data Saya (JSON)
+              </button>
+              <button
+                type="button"
+                onClick={handleDeleteAccount}
+                className="rounded-xl border border-red-500/40 bg-red-500/10 px-4 py-2.5 text-xs font-semibold text-[var(--acc-red)] hover:bg-red-500 hover:text-white transition"
+              >
+                Hapus Akun &amp; Data Pribadi
+              </button>
+            </div>
           </div>
 
           <div className="pt-4 border-t border-[var(--line)] flex flex-col sm:flex-row sm:items-center justify-between gap-4">

@@ -736,6 +736,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               <Link href="/kurasi/log" className="hover:text-[var(--text)] transition">Log Aktivitas Kurasi</Link>
               <Link href="/api-docs" className="hover:text-[var(--text)] transition">REST API</Link>
               <Link href="/ekspor" className="hover:text-[var(--text)] transition">Ekspor Data</Link>
+              <Link href="/privasi" className="hover:text-[var(--text)] transition">Kebijakan Privasi</Link>
             </div>
           </div>
           <p>

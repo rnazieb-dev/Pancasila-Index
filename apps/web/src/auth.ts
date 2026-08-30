@@ -76,14 +76,14 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           return null;
         }
 
-        // Catat AuditLog
+        // Catat AuditLog (tanpa menyimpan email di meta demi minimalisasi data pribadi)
         await db.auditLog.create({
           data: {
             actorId: user.id,
             action: "auth.signin.credentials",
             entity: "User",
             entityId: user.id,
-            meta: JSON.stringify({ email: user.email }),
+            meta: null,
           },
         });
 
@@ -172,7 +172,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
                 action: "auth.signin.github",
                 entity: "User",
                 entityId: dbUser.id,
-                meta: JSON.stringify({ login }),
+                meta: null,
               },
             })
             .catch(() => {});
