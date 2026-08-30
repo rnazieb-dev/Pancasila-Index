@@ -146,6 +146,9 @@ Pagar integritasnya:
 
 Situs ini milik publik — bukan satu kekuasaan, dan tidak boleh diisi satu suara saja.
 
+Temukan celah keamanan atau pola koordinasi? Lihat [SECURITY.md](SECURITY.md) untuk
+jalur pelaporan privat.
+
 ## Lisensi
 
 - **Kode:** [AGPL-3.0-only](LICENSE) — copyleft kuat agar karya ini tak dieksploitasi tertutup.

@@ -112,6 +112,9 @@ Bila Anda ingin memakai AI/agent sebagai alat bantu, silakan — tetapi
 **manusia yang mengajukan PR-lah yang memikul tanggung jawab penuh atas
 kebenaran dan sumber setiap perubahan.**
 
+Insiden keamanan atau dugaan koordinasi: laporkan privat lewat
+[SECURITY.md](SECURITY.md) — jangan melalui *public issue*.
+
 ## Aturan verifikasi fakta (wajib)
 
 **Selalu lakukan pencarian web sebelum menambah fakta, tanggal, angka,
