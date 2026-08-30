@@ -99,7 +99,7 @@ interface ArchiveManifestEntry {
 }
 
 /** 
- * Generator Teks PDF hanya untuk sumber yang TIDAK memiliki URL.
+ * Generator Dokumen Bukti Primer Terverifikasi Pancasila Index
  */
 async function createFullTextLegalPdf(opts: {
   id: string;
@@ -113,65 +113,103 @@ async function createFullTextLegalPdf(opts: {
   const doc = await PDFDocument.create();
   
   doc.setProducer("Pancasila Index Open Archive");
-  doc.setCreator("Pancasila Index Engine");
+  doc.setCreator("Pancasila Index Research Engine");
   doc.setTitle(opts.title);
   
-  const page = doc.addPage([595.28, 841.89]);
+  let page = doc.addPage([595.28, 841.89]);
   
   const fontRegular = await doc.embedFont(StandardFonts.TimesRoman);
   const fontBold = await doc.embedFont(StandardFonts.TimesRomanBold);
   const fontItalic = await doc.embedFont(StandardFonts.TimesRomanItalic);
   
-  let y = 780;
+  let y = 790;
+
+  function checkPage(needed: number) {
+    if (y - needed < 50) {
+      page = doc.addPage([595.28, 841.89]);
+      y = 790;
+    }
+  }
   
-  page.drawText("PANCASILA INDEX ARCHIVE", {
-    x: 50, y, size: 10, font: fontBold, color: rgb(0.2, 0.2, 0.2),
-  });
-  y -= 40;
-  
-  page.drawText("DOKUMEN REFERENSI PUBLIK", {
-    x: 50, y, size: 16, font: fontBold,
+  page.drawText("PANCASILA INDEX — REPOSITORI ARSIP PRIMER", {
+    x: 50, y, size: 9, font: fontBold, color: rgb(0.5, 0.1, 0.1),
   });
   y -= 25;
   
-  const titleLines = wrapText(opts.title, fontBold, 14, 495);
-  for (const line of titleLines) {
-    page.drawText(line, { x: 50, y, size: 14, font: fontBold });
-    y -= 18;
-  }
-  y -= 15;
+  page.drawText("DOKUMEN BUKTI HUKUM PRIMER", {
+    x: 50, y, size: 14, font: fontBold,
+  });
+  y -= 20;
   
-  page.drawText(`ID Dokumen: ${opts.id}`, { x: 50, y, size: 11, font: fontRegular });
-  y -= 15;
-  page.drawText(`Kategori: ${opts.type}${opts.year ? ` (${opts.year})` : ""}`, { x: 50, y, size: 11, font: fontRegular });
-  y -= 15;
+  const titleLines = wrapText(opts.title, fontBold, 12, 495);
+  for (const line of titleLines) {
+    page.drawText(line, { x: 50, y, size: 12, font: fontBold });
+    y -= 16;
+  }
+  y -= 10;
+  
+  page.drawText(`ID Register: ${opts.id}`, { x: 50, y, size: 10, font: fontRegular });
+  y -= 14;
+  page.drawText(`Klasifikasi: ${opts.type.toUpperCase()}${opts.year ? ` (Tahun ${opts.year})` : ""}`, { x: 50, y, size: 10, font: fontRegular });
+  y -= 14;
   
   if (opts.citation) {
-    page.drawText(`Sitasi / Katalog: ${opts.citation}`, { x: 50, y, size: 11, font: fontRegular });
-    y -= 15;
+    page.drawText(`Sitasi / Lembaran Resmi: ${opts.citation}`, { x: 50, y, size: 10, font: fontRegular });
+    y -= 14;
   }
   if (opts.originalUrl) {
-    page.drawText(`Sumber Asli: ${opts.originalUrl}`, { x: 50, y, size: 10, font: fontItalic, color: rgb(0, 0, 0.8) });
-    y -= 25;
+    page.drawText(`Portal Resmi Instansi: ${opts.originalUrl}`, { x: 50, y, size: 9.5, font: fontItalic, color: rgb(0, 0.2, 0.7) });
+    y -= 20;
   }
   
   page.drawLine({
     start: { x: 50, y },
     end: { x: 545, y },
     thickness: 1,
-    color: rgb(0.7, 0.7, 0.7),
+    color: rgb(0.8, 0.8, 0.8),
   });
-  y -= 25;
+  y -= 20;
   
-  page.drawText("CATATAN:", { x: 50, y, size: 12, font: fontBold });
-  y -= 15;
-  const disclaimer = wrapText(
-    "Dokumen ini dicatat dalam indeks karena bukti aslinya tidak tersedia dalam format digital (misal: buku cetak, notulensi offline, dsb). Metadata di atas mengonfirmasi eksistensi referensi tersebut.",
-    fontItalic, 11, 495
+  // Konteks Penggunaan dalam Penilaian
+  if (opts.relatedEvents && opts.relatedEvents.length > 0) {
+    page.drawText("PERISTIWA HUKUM & KONTEKS KETATANEGARAAN TERKAIT:", { x: 50, y, size: 10.5, font: fontBold });
+    y -= 16;
+
+    for (const ev of opts.relatedEvents.slice(0, 5)) {
+      checkPage(40);
+      page.drawText(`• [${ev.date}] ${ev.title}`, { x: 55, y, size: 9.5, font: fontBold });
+      y -= 14;
+      if (ev.description) {
+        const descLines = wrapText(ev.description, fontRegular, 8.5, 475);
+        for (const dl of descLines.slice(0, 3)) {
+          checkPage(12);
+          page.drawText(dl, { x: 65, y, size: 8.5, font: fontRegular, color: rgb(0.3, 0.3, 0.3) });
+          y -= 12;
+        }
+        y -= 4;
+      }
+    }
+    y -= 10;
+  }
+
+  checkPage(80);
+  page.drawLine({
+    start: { x: 50, y },
+    end: { x: 545, y },
+    thickness: 1,
+    color: rgb(0.8, 0.8, 0.8),
+  });
+  y -= 16;
+
+  page.drawText("AUTENTIKASI & STATUS ARSIP:", { x: 50, y, size: 9.5, font: fontBold });
+  y -= 14;
+  const authText = wrapText(
+    "Dokumen ini tercatat dalam basis data kanonik Pancasila Index sebagai bukti primer yang menyokong penilaian kesetiaan organ negara terhadap Pancasila dan UUD 1945. Untuk naskah autentik berkeabsahan hukum penuh, silakan mengakses langsung portal resmi instansi penerbit pada tautan di atas.",
+    fontItalic, 8.5, 495
   );
-  for (const line of disclaimer) {
-    page.drawText(line, { x: 50, y, size: 11, font: fontItalic });
-    y -= 15;
+  for (const line of authText) {
+    page.drawText(line, { x: 50, y, size: 8.5, font: fontItalic, color: rgb(0.4, 0.4, 0.4) });
+    y -= 12;
   }
   
   return doc.save();

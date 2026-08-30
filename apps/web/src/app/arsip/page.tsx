@@ -316,30 +316,28 @@ export default function ArsipPage() {
                     )}
                   </div>
 
-                  {href && (
-                    <div className="pt-2 border-t border-[var(--line)]/40 flex items-center justify-between">
-                      {href.startsWith("/") ? (
-                        <Link
-                          href={href}
-                          className="text-xs text-[var(--acc-sky)] hover:underline flex items-center gap-1 font-semibold"
-                        >
-                          <span>Lihat Halaman Dokumen</span>
-                          <span>↗</span>
-                        </Link>
-                      ) : (
-                        <a
-                          href={href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-xs text-[var(--acc-sky)] hover:underline flex items-center gap-1 font-semibold"
-                        >
-                          <span>Buka Repositori Naskah</span>
-                          <span>↗</span>
-                        </a>
-                      )}
-                      <span className="text-[10px] text-[var(--muted)] font-mono">{src.id}</span>
-                    </div>
-                  )}
+                  <div className="pt-3 border-t border-[var(--line)] flex flex-wrap items-center justify-between gap-2 text-xs">
+                    <Link
+                      href={`/arsip/${src.id}`}
+                      className="text-xs text-[var(--acc-red)] hover:underline font-semibold flex items-center gap-1"
+                    >
+                      <span>Lihat Detail</span>
+                      <span>&rarr;</span>
+                    </Link>
+
+                    {src.url && (
+                      <a
+                        href={src.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs text-[var(--acc-sky-strong)] hover:underline flex items-center gap-1 font-semibold"
+                      >
+                        <IconGlobe size={13} />
+                        <span>Sumber Resmi</span>
+                        <span>↗</span>
+                      </a>
+                    )}
+                  </div>
                 </div>
               );
             })}
