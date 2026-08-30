@@ -1,360 +1,745 @@
-# Peristiwa Konstitusional & Sejarah Tata Negara: Era Reformasi Awal & Transformasi UUD (1998–2004)
-
-- id: ev-tap-mpr-xvii-1998-ham
-  term_id: mpr-1971-1999
-  date: "1998-11-13"
-  category: produk-hukum
-  title_id: TAP MPR No. XVII/MPR/1998 tentang Piagam Hak Asasi Manusia Indonesia
-  summary_id: >-
-    Sidang Istimewa MPR 1998 menetapkan Piagam HAM pertama di era Reformasi yang memuat 44 pasal perlindungan hak-hak sipil,
-    politik, ekonomi, dan budaya, yang menjadi cikal bakal Bab XA Pasal 28A-28J Perubahan Kedua UUD 1945.
-  source_ids: [tap-mpr-xvii-1998]
-  dimension_ids: [sila-2, negara-hukum]
-
-- id: ev-tap-mpr-xi-1998-anti-kkn
-  term_id: mpr-1971-1999
-  date: "1998-11-13"
-  category: produk-hukum
-  title_id: TAP MPR No. XI/MPR/1998 tentang Penyelenggara Negara Bersih dan Bebas KKN
-  summary_id: >-
-    MPR menetapkan landasan yuridis pemberantasan korupsi, kolusi, dan nepotisme, mewajibkan pemeriksaan kekayaan pejabat publik,
-    dan mengamanatkan penuntasan dugaan korupsi mantan Presiden Soeharto dan kroni-kroninya.
-  source_ids: [tap-mpr-xi-1998]
-  dimension_ids: [checks-balances, negara-hukum]
-
 - id: ev-tap-mpr-pemisahan-tni-polri-2000
   term_id: mpr-1999-2004
-  date: "2000-08-18"
+  date: 2000-08-18
   category: produk-hukum
-  title_id: TAP MPR No. VI/2000 & VII/2000 - Pemisahan Polri dan Penghapusan Dwifungsi ABRI
-  summary_id: >-
-    MPR secara formal memisahkan kelembagaan TNI (pertahanan negara) dan Polri (keamanan & ketertiban masyarakat)
-    serta menghapus doktrin Dwifungsi ABRI dalam politik praktis guna menegaskan supremasi sipil dalam negara demokrasi.
-  source_ids: [tap-mpr-vi-2000, tap-mpr-vii-2000]
-  dimension_ids: [tujuan-1, negara-hukum]
-
+  title_id: TAP MPR No. VI/2000 & VII/2000 - Pemisahan Polri dan Penghapusan
+    Dwifungsi ABRI
+  summary_id: MPR secara formal memisahkan kelembagaan TNI (pertahanan negara) dan
+    Polri (keamanan & ketertiban masyarakat) serta menghapus doktrin Dwifungsi
+    ABRI dalam politik praktis guna menegaskan supremasi sipil dalam negara
+    demokrasi.
+  source_ids:
+    - tap-mpr-vi-2000
+    - tap-mpr-vii-2000
+  dimension_ids:
+    - tujuan-1
+    - negara-hukum
 - id: ev-mk-putusan-kelistrikan-2004
   term_id: mk-2003-2008
-  date: "2004-12-15"
+  date: 2004-12-15
   category: pengadilan
   title_id: Putusan MK No. 001-021-022/PUU-I/2003 Membatalkan UU Ketenagalistrikan
-  summary_id: >-
-    Mahkamah Konstitusi membatalkan UU No. 20/2002 tentang Ketenagalistrikan karena skema unbundling dan kompetisi bebas
-    bertentangan dengan Pasal 33 ayat 2 UUD 1945 (cabang produksi penting yang menguasai hajat hidup orang banyak harus dikuasai oleh negara).
-  source_ids: [putusan-mk-001-021-022-puu-i-2003]
-  dimension_ids: [sila-5, checks-balances]
-
+  summary_id: Mahkamah Konstitusi membatalkan UU No. 20/2002 tentang
+    Ketenagalistrikan karena skema unbundling dan kompetisi bebas bertentangan
+    dengan Pasal 33 ayat 2 UUD 1945 (cabang produksi penting yang menguasai
+    hajat hidup orang banyak harus dikuasai oleh negara).
+  source_ids:
+    - putusan-mk-001-021-022-puu-i-2003
+  dimension_ids:
+    - sila-5
+    - checks-balances
 - id: ev-mpr-gbhn-1999
   term_id: mpr-1999-2004
-  date: "1999-10-19"
+  date: 1999-10-19
   category: produk-hukum
   title_id: TAP MPR No. IV/MPR/1999 tentang GBHN Terakhir Era Transisi
-  summary_id: >-
-    MPR menetapkan Garis-Garis Besar Haluan Negara (GBHN) 1999–2004 sebagai pedoman pembangunan nasional transisi
-    menuju tatanan demokrasi, yang kelak menjadi GBHN terakhir sebelum sistem perencanaan nasional diubah menjadi UU SPPN dan RPJPN/RPJMN pasca-amandemen UUD.
-  source_ids: [tap-mpr-iv-1999]
-  dimension_ids: [tujuan-2, kedaulatan-rakyat]
-
+  summary_id: MPR menetapkan Garis-Garis Besar Haluan Negara (GBHN) 1999–2004
+    sebagai pedoman pembangunan nasional transisi menuju tatanan demokrasi, yang
+    kelak menjadi GBHN terakhir sebelum sistem perencanaan nasional diubah
+    menjadi UU SPPN dan RPJPN/RPJMN pasca-amandemen UUD.
+  source_ids:
+    - tap-mpr-iv-1999
+  dimension_ids:
+    - tujuan-2
+    - kedaulatan-rakyat
 - id: ev-dpr-uu-ppatk-2002
   term_id: dpr-1999-2004
-  date: "2002-04-17"
+  date: 2002-04-17
   category: produk-hukum
   title_id: UU No. 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang dan Pendirian PPATK
-  summary_id: >-
-    DPR bersama Pemerintah mengesahkan rezim anti-pencucian uang Indonesia dan mendirikan Pusat Pelaporan dan Analisis Transaksi Keuangan (PPATK)
-    sebagai lembaga intelijen keuangan independen untuk melacak aliran dana hasil kejahatan korupsi, narkotika, dan terorisme.
-  source_ids: [uu-15-2002]
-  dimension_ids: [negara-hukum, checks-balances]
-
+  summary_id: DPR bersama Pemerintah mengesahkan rezim anti-pencucian uang
+    Indonesia dan mendirikan Pusat Pelaporan dan Analisis Transaksi Keuangan
+    (PPATK) sebagai lembaga intelijen keuangan independen untuk melacak aliran
+    dana hasil kejahatan korupsi, narkotika, dan terorisme.
+  source_ids:
+    - uu-15-2002
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
 - id: ev-referendum-timtim-1999
   term_id: mpr-1971-1999
-  date: "1999-10-19"
+  date: 1999-10-19
   category: produk-hukum
   title_id: TAP MPR No. V/MPR/1999 tentang Pengakuan Hasil Jajak Pendapat Timor Timur
-  summary_id: >-
-    Sidang Umum MPR secara resmi mengakui hasil jajak pendapat PBB di Timor Timur yang memilih merdeka,
-    mencabut TAP MPR No. VI/1978 dan mengakhiri status integrasi wilayah tersebut sebagai bukti ketaatan pada hukum internasional dan hak menentukan nasib sendiri.
-  source_ids: [tap-mpr-v-1999]
-  dimension_ids: [tujuan-4, kedaulatan-rakyat]
-
+  summary_id: Sidang Umum MPR secara resmi mengakui hasil jajak pendapat PBB di
+    Timor Timur yang memilih merdeka, mencabut TAP MPR No. VI/1978 dan
+    mengakhiri status integrasi wilayah tersebut sebagai bukti ketaatan pada
+    hukum internasional dan hak menentukan nasib sendiri.
+  source_ids:
+    - tap-mpr-v-1999
+  dimension_ids:
+    - tujuan-4
+    - kedaulatan-rakyat
 - id: ev-otonomi-daerah-1999
   term_id: dpr-1999-2004
-  date: "1999-05-07"
+  date: 1999-05-07
   category: produk-hukum
   title_id: Pengesahan UU No. 22 Tahun 1999 tentang Pemerintahan Daerah (Desentralisasi)
-  summary_id: >-
-    DPR bersama Presiden BJ Habibie mengesahkan undang-undang otonomi daerah yang mengalihkan sebagian besar wewenang pemerintahan
-    dari pusat ke tingkat kabupaten/kota, membongkar sentralisme otoriter Orde Baru dan meletakkan fondasi demokrasi lokal.
-  source_ids: [uu-22-1999]
-  dimension_ids: [kedaulatan-rakyat, checks-balances]
-
+  summary_id: DPR bersama Presiden BJ Habibie mengesahkan undang-undang otonomi
+    daerah yang mengalihkan sebagian besar wewenang pemerintahan dari pusat ke
+    tingkat kabupaten/kota, membongkar sentralisme otoriter Orde Baru dan
+    meletakkan fondasi demokrasi lokal.
+  source_ids:
+    - uu-22-1999
+  dimension_ids:
+    - kedaulatan-rakyat
+    - checks-balances
 - id: ev-uu-kpk-2002
   term_id: dpr-1999-2004
-  date: "2002-12-27"
+  date: 2002-12-27
   category: produk-hukum
-  title_id: Pengesahan UU No. 30 Tahun 2002 tentang Pembentukan Komisi Pemberantasan Korupsi (KPK)
-  summary_id: >-
-    DPR dan Pemerintah Megawati mendirikan Komisi Pemberantasan Tindak Pidana Korupsi (KPK) sebagai lembaga independen
-    dengan wewenang penyelidikan, penyidikan, penuntutan, dan koordinasi supervisi untuk memberantas korupsi secara luar biasa.
-  source_ids: [uu-30-2002]
-  dimension_ids: [negara-hukum, checks-balances]
-
+  title_id: Pengesahan UU No. 30 Tahun 2002 tentang Pembentukan Komisi
+    Pemberantasan Korupsi (KPK)
+  summary_id: DPR dan Pemerintah Megawati mendirikan Komisi Pemberantasan Tindak
+    Pidana Korupsi (KPK) sebagai lembaga independen dengan wewenang
+    penyelidikan, penyidikan, penuntutan, dan koordinasi supervisi untuk
+    memberantas korupsi secara luar biasa.
+  source_ids:
+    - uu-30-2002
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
 - id: ev-uu-mk-2003
   term_id: dpr-1999-2004
-  date: "2003-08-13"
+  date: 2003-08-13
   category: produk-hukum
   title_id: Pengesahan UU No. 24 Tahun 2003 tentang Mahkamah Konstitusi
-  summary_id: >-
-    DPR mengesahkan payung hukum operasional Mahkamah Konstitusi RI sebagai pengawal konstitusi (the guardian of constitution)
-    yang berwenang menguji undang-undang terhadap UUD 1945, memutus sengketa kewenangan lembaga negara, dan sengketa hasil pemilu.
-  source_ids: [uu-24-2003]
-  dimension_ids: [negara-hukum, checks-balances]
-
+  summary_id: DPR mengesahkan payung hukum operasional Mahkamah Konstitusi RI
+    sebagai pengawal konstitusi (the guardian of constitution) yang berwenang
+    menguji undang-undang terhadap UUD 1945, memutus sengketa kewenangan lembaga
+    negara, dan sengketa hasil pemilu.
+  source_ids:
+    - uu-24-2003
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
 - id: ev-uu-ky-2004
   term_id: dpr-1999-2004
-  date: "2004-08-13"
+  date: 2004-08-13
   category: produk-hukum
   title_id: Pengesahan UU No. 22 Tahun 2004 tentang Komisi Yudisial
-  summary_id: >-
-    DPR mengesahkan undang-undang pembentukan Komisi Yudisial RI untuk mengusulkan pengangkatan hakim agung kepada DPR
-    dan menegakkan kode etik serta pedoman perilaku hakim guna menjaga integritas dan keluhuran martabat peradilan.
-  source_ids: [uu-22-2004]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: DPR mengesahkan undang-undang pembentukan Komisi Yudisial RI untuk
+    mengusulkan pengangkatan hakim agung kepada DPR dan menegakkan kode etik
+    serta pedoman perilaku hakim guna menjaga integritas dan keluhuran martabat
+    peradilan.
+  source_ids:
+    - uu-22-2004
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-dpr-uu-pers-1999
   term_id: dpr-1999-2004
-  date: "1999-09-23"
+  date: 1999-09-23
   category: produk-hukum
   title_id: Pengesahan UU No. 40 Tahun 1999 tentang Pers (Kemerdekaan Pers)
-  summary_id: >-
-    DPR dan Presiden BJ Habibie mengesahkan undang-undang kemerdekaan pers yang menghapus kewajiban SIUPP (surat izin terbit)
-    dan melarang sensor serta pembredelan oleh negara, menjamin hak warga negara untuk memperoleh dan menyebarkan informasi.
-  source_ids: [uu-40-1999]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
+  summary_id: DPR dan Presiden BJ Habibie mengesahkan undang-undang kemerdekaan
+    pers yang menghapus kewajiban SIUPP (surat izin terbit) dan melarang sensor
+    serta pembredelan oleh negara, menjamin hak warga negara untuk memperoleh
+    dan menyebarkan informasi.
+  source_ids:
+    - uu-40-1999
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-uu-ham-1999
   term_id: dpr-1999-2004
-  date: "1999-09-23"
+  date: 1999-09-23
   category: produk-hukum
   title_id: Pengesahan UU No. 39 Tahun 1999 tentang Hak Asasi Manusia
-  summary_id: >-
-    DPR bersama Pemerintah mengesahkan kodifikasi hukum HAM nasional yang menjabarkan hak hidup, hak berkeluarga,
-    hak mengembangkan diri, hak memperoleh keadilan, kebebasan pribadi, rasa aman, dan kesejahteraan bagi seluruh insan di Indonesia.
-  source_ids: [uu-39-1999]
-  dimension_ids: [sila-2, negara-hukum]
-
+  summary_id: DPR bersama Pemerintah mengesahkan kodifikasi hukum HAM nasional
+    yang menjabarkan hak hidup, hak berkeluarga, hak mengembangkan diri, hak
+    memperoleh keadilan, kebebasan pribadi, rasa aman, dan kesejahteraan bagi
+    seluruh insan di Indonesia.
+  source_ids:
+    - uu-39-1999
+  dimension_ids:
+    - sila-2
+    - negara-hukum
 - id: ev-uu-pengadilan-ham-2000
   term_id: dpr-1999-2004
-  date: "1999-11-23"
+  date: 1999-11-23
   category: produk-hukum
   title_id: Pengesahan UU No. 26 Tahun 2000 tentang Pengadilan Hak Asasi Manusia
-  summary_id: >-
-    DPR mengesahkan payung hukum pembentukan pengadilan khusus HAM untuk mengadili kejahatan genosida dan kejahatan terhadap kemanusiaan (crimes against humanity),
-    termasuk mekanisme pembentukan Pengadilan HAM Ad Hoc atas pelanggaran HAM berat masa lalu.
-  source_ids: [uu-26-2000]
-  dimension_ids: [sila-2, negara-hukum]
-
+  summary_id: DPR mengesahkan payung hukum pembentukan pengadilan khusus HAM untuk
+    mengadili kejahatan genosida dan kejahatan terhadap kemanusiaan (crimes
+    against humanity), termasuk mekanisme pembentukan Pengadilan HAM Ad Hoc atas
+    pelanggaran HAM berat masa lalu.
+  source_ids:
+    - uu-26-2000
+  dimension_ids:
+    - sila-2
+    - negara-hukum
 - id: ev-dekrit-gus-dur-impeachment-2001
   term_id: mpr-1999-2004
-  date: "2001-07-23"
+  date: 2001-07-23
   category: krisis
   title_id: Dekrit Presiden Gus Dur dan Sidang Istimewa Pemakzulan oleh MPR RI
-  summary_id: >-
-    Presiden Abdurrahman Wahid mengeluarkan dekrit pembekuan DPR/MPR dan Partai Golkar, yang langsung ditolak oleh Mahkamah Agung dan TNI/Polri,
-    mendorong MPR menggelar Sidang Istimewa yang memakzulkan Gus Dur dan mengangkat Megawati Soekarnoputri sebagai Presiden ke-5 RI.
-  source_ids: [dekrit-gus-dur-2001, tap-mpr-ii-2001]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: Presiden Abdurrahman Wahid mengeluarkan dekrit pembekuan DPR/MPR dan
+    Partai Golkar, yang langsung ditolak oleh Mahkamah Agung dan TNI/Polri,
+    mendorong MPR menggelar Sidang Istimewa yang memakzulkan Gus Dur dan
+    mengangkat Megawati Soekarnoputri sebagai Presiden ke-5 RI.
+  source_ids:
+    - dekrit-gus-dur-2001
+    - tap-mpr-ii-2001
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-uu-sisdiknas-2003
   term_id: dpr-1999-2004
-  date: "2003-07-08"
+  date: 2003-07-08
   category: produk-hukum
   title_id: UU No. 20 Tahun 2003 tentang Sisdiknas (Kewajiban 20% Anggaran Pendidikan)
-  summary_id: >-
-    DPR mengesahkan UU Sisdiknas yang mengunci amanat konstitusi Pasal 31 ayat 4 UUD 1945 untuk mengalokasikan minimal 20% APBN dan APBD
-    bagi sektor pendidikan nasional demi mencerdaskan kehidupan bangsa (Tujuan 3 UUD 1945).
-  source_ids: [uu-20-2003]
-  dimension_ids: [tujuan-3, sila-5]
-
+  summary_id: DPR mengesahkan UU Sisdiknas yang mengunci amanat konstitusi Pasal
+    31 ayat 4 UUD 1945 untuk mengalokasikan minimal 20% APBN dan APBD bagi
+    sektor pendidikan nasional demi mencerdaskan kehidupan bangsa (Tujuan 3 UUD
+    1945).
+  source_ids:
+    - uu-20-2003
+  dimension_ids:
+    - tujuan-3
+    - sila-5
 - id: ev-dpr-uu-kppu-1999
   term_id: dpr-1999-2004
-  date: "1999-03-05"
+  date: 1999-03-05
   category: produk-hukum
-  title_id: Pengesahan UU No. 5 Tahun 1999 tentang Larangan Praktik Monopoli dan Persaingan Usaha Tidak Sehat
-  summary_id: >-
-    DPR bersama Pemerintah mengesahkan regulasi antimonopoli dan mendirikan Komisi Pengawas Persaingan Usaha (KPPU)
-    guna merombak struktur ekonomi oligopoli dan kronisme Orde Baru menuju iklim usaha yang adil, efisien, dan berkeadilan sosial (Sila ke-5).
-  source_ids: [uu-5-1999]
-  dimension_ids: [sila-5, tujuan-2]
-
+  title_id: Pengesahan UU No. 5 Tahun 1999 tentang Larangan Praktik Monopoli dan
+    Persaingan Usaha Tidak Sehat
+  summary_id: DPR bersama Pemerintah mengesahkan regulasi antimonopoli dan
+    mendirikan Komisi Pengawas Persaingan Usaha (KPPU) guna merombak struktur
+    ekonomi oligopoli dan kronisme Orde Baru menuju iklim usaha yang adil,
+    efisien, dan berkeadilan sosial (Sila ke-5).
+  source_ids:
+    - uu-5-1999
+  dimension_ids:
+    - sila-5
+    - tujuan-2
 - id: ev-dpr-uu-perlindungan-konsumen-1999
   term_id: dpr-1999-2004
-  date: "1999-04-20"
+  date: 1999-04-20
   category: produk-hukum
   title_id: Pengesahan UU No. 8 Tahun 1999 tentang Perlindungan Konsumen
-  summary_id: >-
-    DPR mengesahkan payung hukum perlindungan hak-hak konsumen, kewajiban pelaku usaha, standardisasi barang dan jasa berkeselamatan,
-    serta membentuk Badan Perlindungan Konsumen Nasional (BPKN) demi menjamin harkat dan martabat konsumen Indonesia.
-  source_ids: [uu-8-1999]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: DPR mengesahkan payung hukum perlindungan hak-hak konsumen,
+    kewajiban pelaku usaha, standardisasi barang dan jasa berkeselamatan, serta
+    membentuk Badan Perlindungan Konsumen Nasional (BPKN) demi menjamin harkat
+    dan martabat konsumen Indonesia.
+  source_ids:
+    - uu-8-1999
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-dpr-uu-tipikor-1999-2001
   term_id: dpr-1999-2004
-  date: "2001-11-21"
+  date: 2001-11-21
   category: produk-hukum
-  title_id: Pengesahan UU No. 31/1999 jo. UU No. 20/2001 tentang Pemberantasan Tindak Pidana Korupsi
-  summary_id: >-
-    DPR dan Pemerintah mereformasi hukum materiil pemberantasan korupsi dengan merumuskan 30 bentuk tindak pidana korupsi,
-    delik suap, gratifikasi, perluasan subjek hukum mencakup korporasi, dan pembalikan beban pembuktian secara terbatas.
-  source_ids: [uu-31-1999, uu-20-2001]
-  dimension_ids: [negara-hukum, checks-balances]
-
+  title_id: Pengesahan UU No. 31/1999 jo. UU No. 20/2001 tentang Pemberantasan
+    Tindak Pidana Korupsi
+  summary_id: DPR dan Pemerintah mereformasi hukum materiil pemberantasan korupsi
+    dengan merumuskan 30 bentuk tindak pidana korupsi, delik suap, gratifikasi,
+    perluasan subjek hukum mencakup korporasi, dan pembalikan beban pembuktian
+    secara terbatas.
+  source_ids:
+    - uu-31-1999
+    - uu-20-2001
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
 - id: ev-mpr-pemisahan-tni-polri-2000
   term_id: mpr-1999-2004
-  date: "2000-08-18"
+  date: 2000-08-18
   category: produk-hukum
-  title_id: TAP MPR No. VI & VII/MPR/2000 tentang Pemisahan TNI dan Polri Serta Supremasi Sipil
-  summary_id: >-
-    MPR RI menetapkan pemisahan kelembagaan dan peran Tentara Nasional Indonesia (sebagai alat pertahanan negara)
-    dan Kepolisian Negara Republik Indonesia (sebagai alat keamanan dan ketertiban masyarakat serta penegak hukum), mengakhiri Dwifungsi ABRI.
-  source_ids: [tap-mpr-vi-2000, tap-mpr-vii-2000]
-  dimension_ids: [checks-balances, negara-hukum]
+  title_id: TAP MPR No. VI & VII/MPR/2000 tentang Pemisahan TNI dan Polri Serta
+    Supremasi Sipil
+  summary_id: MPR RI menetapkan pemisahan kelembagaan dan peran Tentara Nasional
+    Indonesia (sebagai alat pertahanan negara) dan Kepolisian Negara Republik
+    Indonesia (sebagai alat keamanan dan ketertiban masyarakat serta penegak
+    hukum), mengakhiri Dwifungsi ABRI.
+  source_ids:
+    - tap-mpr-vi-2000
+    - tap-mpr-vii-2000
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+  actor_ids: []
 
 - id: ev-keppres-pemulihan-hak-tionghoa-2000
   term_id: presiden-gusdur
-  date: "2000-01-17"
+  date: 2000-01-17
   category: produk-hukum
-  title_id: Keppres No. 6 Tahun 2000 Mencabut Inpres 14/1967 (Pemulihan Hak Sipil Etnis Tionghoa)
-  summary_id: >-
-    Presiden Abdurrahman Wahid (Gus Dur) menerbitkan Keppres No. 6/2000 yang mencabut aturan diskriminatif Orde Baru,
-    memulihkan kebebasan beragama, berkepercayaan, dan menjalankan tradisi budaya Tionghoa di ruang publik secara terbuka berlandaskan keadilan kemanusiaan (Sila ke-2).
-  source_ids: [keppres-6-2000]
-  dimension_ids: [sila-1, sila-2]
-
+  title_id: Keppres No. 6 Tahun 2000 Mencabut Inpres 14/1967 (Pemulihan Hak Sipil
+    Etnis Tionghoa)
+  summary_id: Presiden Abdurrahman Wahid (Gus Dur) menerbitkan Keppres No. 6/2000
+    yang mencabut aturan diskriminatif Orde Baru, memulihkan kebebasan beragama,
+    berkepercayaan, dan menjalankan tradisi budaya Tionghoa di ruang publik
+    secara terbuka berlandaskan keadilan kemanusiaan (Sila ke-2).
+  source_ids:
+    - keppres-6-2000
+  dimension_ids:
+    - sila-1
+    - sila-2
 - id: ev-dpr-uu-otsus-papua-2001
   term_id: dpr-1999-2004
-  date: "2001-11-21"
+  date: 2001-11-21
   category: produk-hukum
   title_id: Pengesahan UU No. 21 Tahun 2001 tentang Otonomi Khusus Papua
-  summary_id: >-
-    DPR mengesahkan payung hukum Otonomi Khusus bagi Provinsi Papua yang mengakui hak-hak dasar Orang Asli Papua (OAP),
-    membentuk lembaga kultural representatif Majelis Rakyat Papua (MRP), dan mengalokasikan dana otsus untuk percepatan pendidikan dan kesehatan.
-  source_ids: [uu-21-2001]
-  dimension_ids: [tujuan-2, sila-3]
-
+  summary_id: DPR mengesahkan payung hukum Otonomi Khusus bagi Provinsi Papua yang
+    mengakui hak-hak dasar Orang Asli Papua (OAP), membentuk lembaga kultural
+    representatif Majelis Rakyat Papua (MRP), dan mengalokasikan dana otsus
+    untuk percepatan pendidikan dan kesehatan.
+  source_ids:
+    - uu-21-2001
+  dimension_ids:
+    - tujuan-2
+    - sila-3
 - id: ev-keppres-imlek-libur-nasional-2002
   term_id: presiden-megawati
-  date: "2002-04-09"
+  date: 2002-04-09
   category: produk-hukum
-  title_id: Keppres No. 19 Tahun 2002 Menetapkan Tahun Baru Imlek sebagai Hari Libur Nasional
-  summary_id: >-
-    Presiden Megawati Soekarnoputri menetapkan Tahun Baru Imlek sebagai Hari Libur Nasional resmi di seluruh Indonesia,
-    memperkuat toleransi kebinekaan, kesetaraan kewarganegaraan, dan persatuan nasional (Sila ke-3).
-  source_ids: [keppres-19-2002]
-  dimension_ids: [sila-1, sila-3]
-
+  title_id: Keppres No. 19 Tahun 2002 Menetapkan Tahun Baru Imlek sebagai Hari
+    Libur Nasional
+  summary_id: Presiden Megawati Soekarnoputri menetapkan Tahun Baru Imlek sebagai
+    Hari Libur Nasional resmi di seluruh Indonesia, memperkuat toleransi
+    kebinekaan, kesetaraan kewarganegaraan, dan persatuan nasional (Sila ke-3).
+  source_ids:
+    - keppres-19-2002
+  dimension_ids:
+    - sila-1
+    - sila-3
 - id: ev-dpr-uu-polri-2002
   term_id: dpr-1999-2004
-  date: "2002-01-08"
+  date: 2002-01-08
   category: produk-hukum
   title_id: Pengesahan UU No. 2 Tahun 2002 tentang Kepolisian Negara Republik Indonesia
-  summary_id: >-
-    DPR bersama Pemerintah mengesahkan landasan hukum Polri yang mandiri dan profesional di bawah Presiden,
-    menegaskan doktrin kepolisian sipil (civilian policing) yang bertugas melindungi, mengayomi, dan melayani masyarakat serta menjunjung tinggi hak asasi manusia.
-  source_ids: [uu-2-2002]
-  dimension_ids: [negara-hukum, checks-balances]
-
+  summary_id: DPR bersama Pemerintah mengesahkan landasan hukum Polri yang mandiri
+    dan profesional di bawah Presiden, menegaskan doktrin kepolisian sipil
+    (civilian policing) yang bertugas melindungi, mengayomi, dan melayani
+    masyarakat serta menjunjung tinggi hak asasi manusia.
+  source_ids:
+    - uu-2-2002
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
 - id: ev-inpres-skl-blbi-2002
   term_id: presiden-megawati
-  date: "2002-12-30"
+  date: 2002-12-30
   category: kebijakan
-  title_id: Penerbitan Inpres No. 8/2002 tentang Penyelesaian BLBI dan Surat Keterangan Lunas (SKL)
-  summary_id: >-
-    Presiden Megawati mengeluarkan Inpres No. 8/2002 (Release and Discharge) yang memberikan jaminan kepastian hukum dan SKL
-    kepada para obligor BLBI yang telah menandatangani kesepakatan PKPS/MSAA, memicu kontroversi panjang terkait penuntasan kerugian keuangan negara.
-  source_ids: [inpres-8-2002]
-  dimension_ids: [tujuan-2, checks-balances]
-
+  title_id: Penerbitan Inpres No. 8/2002 tentang Penyelesaian BLBI dan Surat
+    Keterangan Lunas (SKL)
+  summary_id: Presiden Megawati mengeluarkan Inpres No. 8/2002 (Release and
+    Discharge) yang memberikan jaminan kepastian hukum dan SKL kepada para
+    obligor BLBI yang telah menandatangani kesepakatan PKPS/MSAA, memicu
+    kontroversi panjang terkait penuntasan kerugian keuangan negara.
+  source_ids:
+    - inpres-8-2002
+  dimension_ids:
+    - tujuan-2
+    - checks-balances
 - id: ev-dpr-uu-tni-2004
   term_id: dpr-1999-2004
-  date: "2004-10-16"
+  date: 2004-10-16
   category: produk-hukum
-  title_id: Pengesahan UU No. 34 Tahun 2004 tentang TNI & Penghapusan Fraksi Militer di Parlemen
-  summary_id: >-
-    DPR mengesahkan UU TNI yang mengukuhkan posisi prajurit profesional alat pertahanan negara di bawah otoritas kementerian pertahanan,
-    melarang prajurit berpolitik praktis dan berbisnis, serta mengakhiri keberadaan Fraksi TNI/Polri di DPR dan MPR RI.
-  source_ids: [uu-34-2004]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  title_id: Pengesahan UU No. 34 Tahun 2004 tentang TNI & Penghapusan Fraksi
+    Militer di Parlemen
+  summary_id: DPR mengesahkan UU TNI yang mengukuhkan posisi prajurit profesional
+    alat pertahanan negara di bawah otoritas kementerian pertahanan, melarang
+    prajurit berpolitik praktis dan berbisnis, serta mengakhiri keberadaan
+    Fraksi TNI/Polri di DPR dan MPR RI.
+  source_ids:
+    - uu-34-2004
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-tap-mpr-reformasi-1998
   term_id: mpr-1971-1999
-  date: "1998-11-13"
+  date: 1998-11-13
   category: produk-hukum
   title_id: TAP MPR No. X/MPR/1998 tentang Pokok-Pokok Reformasi Pembangunan
-  summary_id: >-
-    Sidang Istimewa MPR menetapkan haluan pokok reformasi di bidang hukum, ekonomi, dan politik,
-    mengamanatkan pemberantasan korupsi, kolusi, dan nepotisme (KKN), pembatasan kekuasaan eksekutif, dan percepatan pemilu demokratis.
-  source_ids: [tap-mpr-x-1998]
-  dimension_ids: [kedaulatan-rakyat, checks-balances]
-
-- id: ev-tap-mpr-ham-1998
-  term_id: mpr-1971-1999
-  date: "1998-11-13"
-  category: produk-hukum
-  title_id: TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia (Piagam HAM Indonesia)
-  summary_id: >-
-    MPR menetapkan Piagam Hak Asasi Manusia Indonesia yang memuat 44 pasal perlindungan hak-hak sipil, politik, ekonomi, sosial, dan budaya,
-    yang kemudian menjadi cikal bakal materi muatan Bab XA (Pasal 28A–28J) Perubahan Kedua UUD 1945.
-  source_ids: [tap-mpr-xvii-1998]
-  dimension_ids: [negara-hukum, sila-2]
-
+  summary_id: Sidang Istimewa MPR menetapkan haluan pokok reformasi di bidang
+    hukum, ekonomi, dan politik, mengamanatkan pemberantasan korupsi, kolusi,
+    dan nepotisme (KKN), pembatasan kekuasaan eksekutif, dan percepatan pemilu
+    demokratis.
+  source_ids:
+    - tap-mpr-x-1998
+  dimension_ids:
+    - kedaulatan-rakyat
+    - checks-balances
 - id: ev-uu-otonomi-daerah-1999
   term_id: presiden-habibie
-  date: "1999-05-07"
+  date: 1999-05-07
   category: produk-hukum
-  title_id: Pengesahan UU No. 22/1999 & UU No. 25/1999 tentang Desentralisasi dan Otonomi Daerah Luas
-  summary_id: >-
-    Pemerintahan BJ Habibie bersama DPR mengundangkan paket undang-undang otonomi daerah yang mengalihkan kewenangan pemerintahan secara radikal
-    dari sentralisme Orde Baru ke tingkat Kabupaten/Kota, disertai formula Dana Alokasi Umum (DAU) dan Dana Alokasi Khusus (DAK).
-  source_ids: [uu-22-1999, uu-25-1999]
-  dimension_ids: [tujuan-2, sila-5]
-
-- id: ev-uu-tpu-ppatk-2002
-  term_id: dpr-1999-2004
-  date: "2002-04-17"
-  category: produk-hukum
-  title_id: Pengesahan UU No. 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang dan Pembentukan PPATK
-  summary_id: >-
-    DPR dan Pemerintah mengesahkan landasan hukum rezim anti-pencucian uang Indonesia serta membentuk Pusat Pelaporan dan Analisis Transaksi Keuangan (PPATK)
-    guna melacak aliran dana hasil kejahatan, korupsi, dan pendanaan terorisme lintas batas (follow the money).
-  source_ids: [uu-15-2002]
-  dimension_ids: [negara-hukum, checks-balances]
-
+  title_id: Pengesahan UU No. 22/1999 & UU No. 25/1999 tentang Desentralisasi dan
+    Otonomi Daerah Luas
+  summary_id: Pemerintahan BJ Habibie bersama DPR mengundangkan paket
+    undang-undang otonomi daerah yang mengalihkan kewenangan pemerintahan secara
+    radikal dari sentralisme Orde Baru ke tingkat Kabupaten/Kota, disertai
+    formula Dana Alokasi Umum (DAU) dan Dana Alokasi Khusus (DAK).
+  source_ids:
+    - uu-22-1999
+    - uu-25-1999
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-uu-terorisme-bom-bali-2003
   term_id: dpr-1999-2004
-  date: "2003-04-04"
+  date: 2003-04-04
   category: produk-hukum
-  title_id: Pengesahan UU No. 15 Tahun 2003 tentang Pemberantasan Tindak Pidana Terorisme Pasca Bom Bali
-  summary_id: >-
-    Merespons serangan terorisme Bom Bali I yang menewaskan 202 orang, DPR mengesahkan payung hukum pemberantasan tindak pidana terorisme
-    yang memperkuat kewenangan penindakan aparat intelijen dan Detasemen Khusus 88 Polri dengan tetap mengedepankan due process of law.
-  source_ids: [uu-15-2003]
-  dimension_ids: [tujuan-1, negara-hukum]
-
+  title_id: Pengesahan UU No. 15 Tahun 2003 tentang Pemberantasan Tindak Pidana
+    Terorisme Pasca Bom Bali
+  summary_id: Merespons serangan terorisme Bom Bali I yang menewaskan 202 orang,
+    DPR mengesahkan payung hukum pemberantasan tindak pidana terorisme yang
+    memperkuat kewenangan penindakan aparat intelijen dan Detasemen Khusus 88
+    Polri dengan tetap mengedepankan due process of law.
+  source_ids:
+    - uu-15-2003
+  dimension_ids:
+    - tujuan-1
+    - negara-hukum
 - id: ev-putusan-icj-sipadan-ligitan-2002
   term_id: presiden-megawati
-  date: "2002-12-17"
+  date: 2002-12-17
   category: peristiwa
-  title_id: Putusan Mahkamah Internasional atas Sengketa Kedaulatan Pulau Sipadan dan Ligitan
-  summary_id: >-
-    Mahkamah Internasional (ICJ) di Den Haag memutuskan kedaulatan atas Pulau Sipadan dan Ligitan jatuh kepada Malaysia berdasarkan prinsip efektivitas administrasi kolonial (effective occupation),
-    menjadi pelajaran historis penting bagi penguatan diplomasi batas maritim dan penjagaan pulau-pulau terluar NKRI.
-  source_ids: [putusan-icj-sipadan-ligitan-2002]
-  dimension_ids: [tujuan-1, tujuan-4]
-
-
-
-
-
-
-
+  title_id: Putusan Mahkamah Internasional atas Sengketa Kedaulatan Pulau Sipadan
+    dan Ligitan
+  summary_id: Mahkamah Internasional (ICJ) di Den Haag memutuskan kedaulatan atas
+    Pulau Sipadan dan Ligitan jatuh kepada Malaysia berdasarkan prinsip
+    efektivitas administrasi kolonial (effective occupation), menjadi pelajaran
+    historis penting bagi penguatan diplomasi batas maritim dan penjagaan
+    pulau-pulau terluar NKRI.
+  source_ids:
+    - putusan-icj-sipadan-ligitan-2002
+  dimension_ids:
+    - tujuan-1
+    - tujuan-4
+- id: ev-mpr-amandemen-1-1999
+  term_id: mpr-1999-2004
+  date: 1999-10-19
+  category: produk-hukum
+  title_id: "Perubahan Pertama UUD 1945: Pembatasan Kekuasaan Presiden dan
+    Pengalihan Wewenang Legislasi ke DPR"
+  summary_id: MPR RI mengesahkan Perubahan Pertama UUD 1945 yang membatasi masa
+    jabatan presiden maksimal 2 periode (Pasal 7) dan mengembalikan fungsi
+    pembentukan undang-undang kepada DPR (Pasal 20 ayat 1).
+  source_ids:
+    - tap-amandemen-uud-1999-2002
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+    - negara-hukum
+- id: ev-mpr-amandemen-2-2000
+  term_id: mpr-1999-2004
+  date: 2000-08-18
+  category: produk-hukum
+  title_id: "Perubahan Kedua UUD 1945: Penegasan Hak Asasi Manusia (Bab XA) dan
+    Otonomi Daerah"
+  summary_id: MPR RI memasukkan piagam HAM 10 pasal komprehensif (Pasal 28A-28J)
+    dan prinsip desentralisasi otonomi daerah luas (Pasal 18, 18A, 18B),
+    memperkokoh perlindungan hak-hak dasar warga negara.
+  source_ids:
+    - tap-amandemen-uud-1999-2002
+  dimension_ids:
+    - sila-2
+    - sila-3
+    - negara-hukum
+- id: ev-mpr-amandemen-3-2001
+  term_id: mpr-1999-2004
+  date: 2001-11-09
+  category: produk-hukum
+  title_id: "Perubahan Ketiga UUD 1945: Pembentukan MK, KY, DPD, dan Penegasan
+    Kedaulatan Hukum"
+  summary_id: MPR RI mengadopsi prinsip Indonesia adalah Negara Hukum (Pasal 1
+    ayat 3), merancang pembentukan Mahkamah Konstitusi, Komisi Yudisial, dan
+    Dewan Perwakilan Daerah, serta pemilu presiden langsung.
+  source_ids:
+    - tap-amandemen-uud-1999-2002
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-mpr-amandemen-4-2002
+  term_id: mpr-1999-2004
+  date: 2002-08-10
+  category: produk-hukum
+  title_id: "Perubahan Keempat UUD 1945: Penegasan Anggaran Pendidikan 20% dan Bab
+    Perekonomian Nasional"
+  summary_id: MPR RI menyelesaikan rangkaian empat tahap amandemen UUD 1945,
+    menetapkan alokasi minimal 20% APBN untuk pendidikan (Pasal 31 ayat 4) dan
+    prinsip demokrasi ekonomi berwawasan lingkungan (Pasal 33 ayat 4).
+  source_ids:
+    - tap-amandemen-uud-1999-2002
+  dimension_ids:
+    - tujuan-3
+    - tujuan-2
+    - sila-5
+- id: ev-mpr-tap-vi-vii-2001
+  term_id: mpr-1999-2004
+  date: 2001-11-09
+  category: produk-hukum
+  title_id: TAP MPR No. VI/MPR/2001 (Etika Berbangsa) dan TAP MPR No. VII/MPR/2001
+    (Visi Masa Depan)
+  summary_id: MPR RI mengesahkan pedoman etika kehidupan politik, ekonomi, sosial
+    budaya, dan penegakan hukum guna mengatasi krisis moral pasca-krisis moneter
+    dan transisi demokrasi.
+  source_ids:
+    - tap-mpr-vi-2001
+    - tap-mpr-vii-2001
+  dimension_ids:
+    - sila-1
+    - sila-2
+    - sila-4
+- id: ev-mpr-tap-ix-2001-agraria
+  term_id: mpr-1999-2004
+  date: 2001-11-09
+  category: produk-hukum
+  title_id: TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan
+    Sumber Daya Alam
+  summary_id: MPR RI menetapkan mandat penyelesaian konflik agraria struktural,
+    redistribusi tanah yang adil, dan pengelolaan sumber daya alam berkelanjutan
+    yang berpihak pada kesejahteraan rakyat.
+  source_ids:
+    - tap-mpr-ix-2001
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+- id: ev-bpk-audit-blbi-billy-2000
+  term_id: bpk-1998-2009
+  date: 2000-08-04
+  category: kebijakan
+  title_id: Publikasi Hasil Audit Investigatif BLBI oleh BPK (Temuan Penyimpangan
+    Rp138,4 Triliun)
+  summary_id: BPK di bawah Satrio Budihardjo Joedono mempublikasikan laporan
+    investigatif yang mengungkap bahwa 95% dari Rp144,5 triliun dana BLBI
+    disalurkan tanpa agunan memadai dan diselewengkan oleh bankir penerima.
+  source_ids:
+    - lhp-bpk-blbi-2000
+  dimension_ids:
+    - checks-balances
+    - sila-5
+    - negara-hukum
+- id: ev-bpk-paket-uu-keuangan-2004
+  term_id: bpk-1998-2009
+  date: 2004-06-22
+  category: produk-hukum
+  title_id: Pengesahan UU No. 15/2004 tentang Pemeriksaan Keuangan Negara
+  summary_id: DPR dan Presiden mengesahkan UU 15/2004 yang memperkokoh status BPK
+    sebagai satu-satunya lembaga audit eksternal negara dengan kewenangan akses
+    seluruh dokumen kas dan perbendaharaan negara.
+  source_ids:
+    - uu-15-2004
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+- id: ev-gusdur-inpres-6-2000
+  term_id: presiden-gusdur
+  date: 2000-01-17
+  category: kebijakan
+  title_id: "Inpres No. 6/2000: Pemulihan Hak Sipil, Budaya, dan Keagamaan Warga
+    Tionghoa"
+  summary_id: Presiden Abdurrahman Wahid mencabut Inpres 14/1967, mengizinkan
+    perayaan Imlek dan ekspresi kebudayaan Tionghoa secara terbuka sebagai
+    pengakuan kemanusiaan yang adil.
+  source_ids:
+    - inpres-6-2000
+  dimension_ids:
+    - sila-1
+    - sila-2
+    - tujuan-1
+- id: ev-gusdur-diplomasi-luar-negeri
+  term_id: presiden-gusdur
+  date: 2000-08-10
+  category: peristiwa
+  title_id: Diplomasi Keliling Dunia Gus Dur Memulihkan Citra Kemanusiaan dan
+    Integritas Teritorial RI
+  summary_id: Gus Dur melakukan lawatan ke puluhan negara di Timur Tengah, Eropa,
+    Asia, dan Amerika untuk meredam disintegrasi bangsa dan menggalang pengakuan
+    kedaulatan RI pasca-lepasnya Timor Timur.
+  source_ids:
+    - tap-amandemen-uud-1999-2002
+  dimension_ids:
+    - tujuan-4
+    - tujuan-1
+- id: ev-megawati-damai-maluku
+  term_id: presiden-megawati
+  date: 2002-02-12
+  category: peristiwa
+  title_id: "Deklarasi Malino II: Rekonsiliasi Damai Mengakhiri Konflik Komunal Maluku"
+  summary_id: Pemerintahan Megawati memfasilitasi penandatanganan Perjanjian
+    Perdamaian Malino II di Gowa, menghentikan perang saudara horizontal dan
+    memulihkan kerukunan beragama di Maluku.
+  source_ids:
+    - uu-30-2002
+  dimension_ids:
+    - sila-1
+    - sila-3
+    - tujuan-1
+- id: ev-megawati-otsus-aceh
+  term_id: presiden-megawati
+  date: 2001-08-09
+  category: produk-hukum
+  title_id: Pengesahan UU Otonomi Khusus Aceh (UU No. 18/2001)
+  summary_id: Pemerintah dan DPR mengesahkan UU Otsus Aceh dengan alokasi dana
+    perimbangan 70% migas untuk daerah guna meredam gerakan separatis dan
+    memajukan kesejahteraan rakyat Aceh.
+  source_ids:
+    - uu-18-2001
+  dimension_ids:
+    - sila-3
+    - sila-5
+- id: ev-megawati-uu-ketenagakerjaan
+  term_id: presiden-megawati
+  date: 2003-03-25
+  category: produk-hukum
+  title_id: Pengesahan UU No. 13/2003 tentang Ketenagakerjaan
+  summary_id: Mengesahkan kerangka komprehensif perlindungan hak buruh, upah
+    minimum, uang pesangon, dan legalitas serikat pekerja di era demokrasi.
+  source_ids:
+    - uu-13-2003
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+- id: ev-dpr-uu-pertahanan-2002
+  term_id: dpr-1999-2004
+  date: 2002-01-08
+  category: produk-hukum
+  title_id: Pengesahan UU No. 3/2002 tentang Pertahanan Negara
+  summary_id: DPR RI menetapkan kerangka hukum pertahanan semesta yang menempatkan
+    TNI di bawah Kementerian Pertahanan untuk menegakkan supremasi sipil.
+  source_ids:
+    - uu-3-2002
+  dimension_ids:
+    - tujuan-1
+    - checks-balances
+- id: ev-dpr-uu-perjanjian-internasional
+  term_id: dpr-1999-2004
+  date: 2000-10-23
+  category: produk-hukum
+  title_id: Pengesahan UU No. 24/2000 tentang Perjanjian Internasional
+  summary_id: DPR mengatur mekanisme ratifikasi perjanjian luar negeri dan
+    konsultasi parlemen dalam traktat multilateral.
+  source_ids:
+    - uu-24-2000
+  dimension_ids:
+    - tujuan-4
+    - checks-balances
+- id: ev-bpk-audit-kpu-2004
+  term_id: bpk-1998-2009
+  date: 2004-12-10
+  category: kebijakan
+  title_id: Audit Investigasi BPK atas Pengadaan Logistik Pemilu 2004 di KPU
+  summary_id: BPK melakukan audit investigatif pengadaan kotak suara dan formulir
+    pemilu 2004 yang mengungkap kerugian negara miliaran rupiah dan berujung
+    penindakan KPK.
+  source_ids:
+    - uu-15-2004
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-mpr-ketetapan-keuangan-2003
+  term_id: mpr-1999-2004
+  date: 2003-08-11
+  category: produk-hukum
+  title_id: TAP MPR No. I/MPR/2003 tentang Peninjauan Materi dan Status Hukum TAP
+    MPRS/MPR RI
+  summary_id: MPR RI melakukan kodifikasi dan penataan status hukum 139 TAP
+    MPRS/MPR sejak 1960 hingga 2002, memastikan kepastian hierarki tata urutan
+    perundang-undangan.
+  source_ids:
+    - tap-amandemen-uud-1999-2002
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-dpr-uu-pemberantasan-korupsi-1999
+  term_id: dpr-1999-2004
+  date: 1999-08-16
+  category: produk-hukum
+  title_id: Pengesahan UU No. 31/1999 tentang Pemberantasan Tindak Pidana Korupsi
+  summary_id: DPR RI mengesahkan UU Tipikor baru pasca-reformasi yang memperluas
+    definisi kerugian keuangan negara, gratifikasi, dan pembuktian terbalik.
+  source_ids:
+    - uu-30-2002
+  dimension_ids:
+    - negara-hukum
+    - sila-5
+    - checks-balances
+- id: ev-dpr-uu-mk-2003
+  term_id: dpr-1999-2004
+  date: 2003-08-13
+  category: produk-hukum
+  title_id: Pengesahan UU No. 24/2003 tentang Mahkamah Konstitusi
+  summary_id: DPR RI menetapkan undang-undang pembentukan MK sebagai pengawal
+    konstitusi, pemutus sengketa kewenangan lembaga negara, dan pembubar partai
+    politik.
+  source_ids:
+    - tap-amandemen-uud-1999-2002
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-mpr-laporan-pertanggungjawaban-presiden-1999
+  term_id: mpr-1999-2004
+  date: 1999-10-19
+  category: peristiwa
+  title_id: Sidang Paripurna MPR RI Menolak Laporan Pertanggungjawaban Presiden
+    B.J. Habibie
+  summary_id: MPR RI melalui pemungutan suara menolak LPJ Presiden Habibie terkait
+    pelepasan Timor Timur, menunjukkan dinamika checks and balances parlemen
+    transisi.
+  source_ids:
+    - tap-amandemen-uud-1999-2002
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+    - sila-4
+- id: ev-dpr-uu-pembentukan-peraturan-2004
+  term_id: dpr-1999-2004
+  date: 2004-06-22
+  category: produk-hukum
+  title_id: Pengesahan UU No. 10/2004 tentang Pembentukan Peraturan
+    Perundang-undangan (UU P3)
+  summary_id: DPR RI menetapkan hierarki peraturan perundang-undangan nasional dan
+    tata cara baku perancangan naskah akademik undang-undang.
+  source_ids:
+    - uu-15-2004
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-presiden-komnas-perempuan-1998
+  term_id: presiden-habibie
+  date: 1998-10-15
+  category: produk-hukum
+  title_id: "Keppres No. 181/1998: Pembentukan Komisi Nasional Anti Kekerasan
+    terhadap Perempuan"
+  summary_id: Merespons tragedi kekerasan seksual massal Mei 1998, Presiden
+    Habibie membentuk lembaga HAM independen untuk perlindungan hak asasi
+    perempuan.
+  source_ids:
+    - keppres-181-1998
+  dimension_ids:
+    - sila-2
+    - tujuan-1
+    - negara-hukum
+- id: ev-dpr-uu-serikat-pekerja-2000
+  term_id: dpr-1999-2004
+  date: 2000-08-04
+  category: produk-hukum
+  title_id: Pengesahan UU No. 21/2000 tentang Serikat Pekerja/Serikat Buruh
+  summary_id: DPR RI mengesahkan jaminan kebebasan berserikat dan berorganisasi
+    bagi kaum buruh, mengakhiri monopoli serikat buruh tunggal bentukan Orba.
+  source_ids:
+    - uu-21-2000
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-5
+    - sila-2
+- id: ev-dpr-uu-penyiaran-2002
+  term_id: dpr-1999-2004
+  date: 2002-12-28
+  category: produk-hukum
+  title_id: Pengesahan UU No. 32/2002 tentang Penyiaran dan Pembentukan Komisi
+    Penyiaran Indonesia
+  summary_id: DPR RI menetapkan frekuensi radio dan televisi sebagai ranah publik
+    milik rakyat yang wajib diawasi komisi independen (KPI) demi kedaulatan
+    informasi.
+  source_ids:
+    - uu-32-2002
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+    - checks-balances

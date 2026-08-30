@@ -9,12 +9,15 @@ interface ScaleLegendProps {
  * Menegaskan bahwa 50 = NETRAL, bukan buruk.
  */
 export function ScaleLegend({ compact = false }: ScaleLegendProps) {
+  // Latar TIDAK boleh dirangkai dari warna + hex alpha (`${color}18`): begitu
+  // warnanya jadi var(), `var(--x)18` adalah CSS invalid dan latarnya hilang
+  // tanpa suara. Pakai token latar tersendiri.
   const levels = [
-    { range: "75–100", label: "Teladan / Progresif", color: "#22c55e" },
-    { range: "56–74", label: "Penguatan Konkret", color: "#a3e635" },
-    { range: "46–55", label: "Netral / Status Quo ← titik tengah", color: "#94a3b8" },
-    { range: "30–45", label: "Cenderung Menggerus", color: "#fb923c" },
-    { range: "0–29", label: "Erosi Berat", color: "#ef4444" },
+    { range: "75–100", label: "Teladan / Progresif", color: "var(--score-vpos)", bg: "var(--score-vpos-bg)" },
+    { range: "56–74", label: "Penguatan Konkret", color: "var(--score-pos)", bg: "var(--score-pos-bg)" },
+    { range: "46–55", label: "Netral / Status Quo ← titik tengah", color: "var(--score-zero)", bg: "var(--score-zero-bg)" },
+    { range: "30–45", label: "Cenderung Menggerus", color: "var(--score-neg)", bg: "var(--score-neg-bg)" },
+    { range: "0–29", label: "Erosi Berat", color: "var(--score-vneg)", bg: "var(--score-vneg-bg)" },
   ];
 
   if (compact) {
@@ -24,7 +27,7 @@ export function ScaleLegend({ compact = false }: ScaleLegendProps) {
           <span
             key={l.range}
             className="inline-flex items-center gap-1.5 rounded-full px-2 py-0.5"
-            style={{ background: `${l.color}18`, color: l.color }}
+            style={{ background: l.bg, color: l.color }}
           >
             <span className="size-1.5 rounded-full" style={{ background: l.color }} />
             {l.range}: {l.label}
@@ -40,8 +43,8 @@ export function ScaleLegend({ compact = false }: ScaleLegendProps) {
         Panduan Baca Indeks (0–100)
       </p>
       <p className="text-[11px] text-[var(--muted)] leading-relaxed">
-        Indeks <strong className="text-white">50</strong> menandai posisi{" "}
-        <strong className="text-slate-300">NETRAL</strong> — bukan nilai buruk. Angka di atas 50
+        Indeks <strong className="text-[var(--text)]">50</strong> menandai posisi{" "}
+        <strong className="text-[var(--muted)]">NETRAL</strong> — bukan nilai buruk. Angka di atas 50
         mencerminkan kepatuhan lebih dari norma dasar; di bawah 50 mengindikasikan erosi norma
         konstitusional.
       </p>
@@ -56,7 +59,7 @@ export function ScaleLegend({ compact = false }: ScaleLegendProps) {
             </span>
             <span
               className="flex-1 h-2 rounded-full"
-              style={{ background: `${l.color}40` }}
+              style={{ background: l.color }}
             />
             <span className="text-[11px] text-[var(--muted)] w-48 shrink-0">
               {l.label}

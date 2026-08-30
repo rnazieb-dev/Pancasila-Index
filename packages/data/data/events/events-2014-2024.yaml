@@ -1,989 +1,2283 @@
-# Peristiwa Konstitusional & Sejarah Tata Negara: Era Transformasi Digital & Pengujian Norma (2014–2024)
-
+- id: ev-uu-pemda-23-2014
+  term_id: presiden-jokowi-i
+  date: 2014-09-30
+  category: produk-hukum
+  title_id: UU No. 23 Tahun 2014 tentang Pemerintahan Daerah
+  summary_id: >-
+    Undang-undang penataan pemerintahan daerah disahkan dengan mempertegas
+    pembagian urusan pemerintahan pusat-daerah, keuangan, dan pengawasan
+    penyelenggaraan otonomi daerah.
+  source_ids:
+    - uu-23-2014
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-uu-pilkada-19-2016
+  term_id: presiden-jokowi-i
+  date: 2016-07-15
+  category: produk-hukum
+  title_id: UU No. 19 Tahun 2016 tentang Pemilihan Kepala Daerah
+  summary_id: >-
+    Revisi UU Pilkada mengatur kembali penyelenggaraan pemilihan kepala daerah
+    langsung, termasuk penyelenggaraan serentak dan mekanisme penyelesaian
+    sengketa hasil pilkada.
+  source_ids:
+    - uu-19-2016
+  dimension_ids:
+    - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-mk-putusan-spdp-2016
   term_id: mk-2013-2018
-  date: "2016-01-11"
+  date: 2016-01-11
   category: pengadilan
   title_id: Putusan MK No. 130/PUU-XIII/2015 Kewajiban SPDP 7 Hari kepada Terlapor
-  summary_id: >-
-    MK memutuskan Pasal 109 ayat 1 KUHAP inkonstitusional bersyarat dan mewajibkan penyidik kepolisian/kejaksaan
-    menyerahkan Surat Pemberitahuan Dimulainya Penyidikan (SPDP) paling lambat 7 hari kepada penuntut umum, terlapor, dan korban demi asas due process of law.
-  source_ids: [putusan-mk-130-puu-xiii-2015]
-  dimension_ids: [negara-hukum, sila-2]
-
+  summary_id: MK memutuskan Pasal 109 ayat 1 KUHAP inkonstitusional bersyarat dan
+    mewajibkan penyidik kepolisian/kejaksaan menyerahkan Surat Pemberitahuan
+    Dimulainya Penyidikan (SPDP) paling lambat 7 hari kepada penuntut umum,
+    terlapor, dan korban demi asas due process of law.
+  source_ids:
+    - putusan-mk-130-puu-xiii-2015
+  dimension_ids:
+    - negara-hukum
+    - sila-2
 - id: ev-mk-putusan-penghayat-2017
   term_id: mk-2013-2018
-  date: "2017-11-07"
+  date: 2017-11-07
   category: pengadilan
   title_id: Putusan MK No. 97/PUU-XIV/2016 Mengakui Hak Kolom Agama Penghayat Kepercayaan
-  summary_id: >-
-    MK mengabulkan uji materiil UU Administrasi Kependudukan yang diajukan para penghayat kepercayaan,
-    memutuskan bahwa kata 'agama' dalam Pasal 61 & 64 harus mencakup 'kepercayaan', mengakhiri diskriminasi administratif puluhan tahun terhadap penganut kepercayaan lokal.
-  source_ids: [putusan-mk-97-puu-xiv-2016]
-  dimension_ids: [sila-1, sila-2]
-
+  summary_id: MK mengabulkan uji materiil UU Administrasi Kependudukan yang
+    diajukan para penghayat kepercayaan, memutuskan bahwa kata 'agama' dalam
+    Pasal 61 & 64 harus mencakup 'kepercayaan', mengakhiri diskriminasi
+    administratif puluhan tahun terhadap penganut kepercayaan lokal.
+  source_ids:
+    - putusan-mk-97-puu-xiv-2016
+  dimension_ids:
+    - sila-1
+    - sila-2
+    - negara-hukum
 - id: ev-mk-putusan-fidusia-2020
   term_id: mk-2018-2023
-  date: "2020-01-06"
+  date: 2020-01-06
   category: pengadilan
   title_id: Putusan MK No. 18/PUU-XVII/2019 Larangan Penarikan Paksa Jaminan Fidusia
-  summary_id: >-
-    MK menegaskan bahwa frasa 'kekuatan eksekutorial' dalam UU Jaminan Fidusia tidak boleh dijadikan dasar bagi kreditur/leasing
-    untuk menyita kendaraan/aset secara sepihak di jalanan tanpa kesepakatan cedera janji (wanprestasi) atau permohonan eksekusi ke pengadilan negeri.
-  source_ids: [putusan-mk-18-puu-xvii-2019]
-  dimension_ids: [negara-hukum, sila-5]
-
+  summary_id: MK menegaskan bahwa frasa 'kekuatan eksekutorial' dalam UU Jaminan
+    Fidusia tidak boleh dijadikan dasar bagi kreditur/leasing untuk menyita
+    kendaraan/aset secara sepihak di jalanan tanpa kesepakatan cedera janji
+    (wanprestasi) atau permohonan eksekusi ke pengadilan negeri.
+  source_ids:
+    - putusan-mk-18-puu-xvii-2019
+  dimension_ids:
+    - negara-hukum
+    - sila-5
 - id: ev-ma-putusan-bpjs-2020
   term_id: ma-reformasi-sekarang
-  date: "2020-02-27"
+  date: 2020-02-27
   category: pengadilan
   title_id: Putusan MA No. 31 P/HUM/2019 Membatalkan Kenaikan Iuran BPJS Kesehatan
-  summary_id: >-
-    Mahkamah Agung mengabulkan permohonan uji materiil Komunitas Pasien Cuci Darah Indonesia (KPCDI) dengan membatalkan
-    Pasal 34 ayat 1 dan 2 Perpres No. 75/2019 yang menaikkan iuran BPJS Kesehatan 100%, menyatakan kenaikan tersebut mencederai hak warga atas pelayanan kesehatan layak.
-  source_ids: [putusan-ma-31-p-hum-2019]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: Mahkamah Agung mengabulkan permohonan uji materiil Komunitas Pasien
+    Cuci Darah Indonesia (KPCDI) dengan membatalkan Pasal 34 ayat 1 dan 2
+    Perpres No. 75/2019 yang menaikkan iuran BPJS Kesehatan 100%, menyatakan
+    kenaikan tersebut mencederai hak warga atas pelayanan kesehatan layak.
+  source_ids:
+    - putusan-ma-31-p-hum-2019
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-bpk-audit-bts-2023
   term_id: bpk-2019-sekarang
-  date: "2023-05-15"
+  date: 2023-05-15
   category: kebijakan
-  title_id: BPK Rampungkan Audit Investigatif Korupsi Proyek BTS 4G Kominfo Rp8,03 Triliun
-  summary_id: >-
-    BPK RI menyerahkan Laporan Penghitungan Kerugian Keuangan Negara (PKKN) atas korupsi penyediaan infrastruktur BTS 4G BAKTI Kominfo
-    sebesar Rp8,032 triliun kepada Kejaksaan Agung RI, yang menjerat Menteri Kominfo dan pejabat pelaksana proyek digitalisasi daerah 3T.
-  source_ids: [laporan-audit-bpk-bts-2023]
-  dimension_ids: [checks-balances, negara-hukum]
-  actor_ids: [johnny-gerard-plate]
+  title_id: BPK Rampungkan Audit Investigatif Korupsi Proyek BTS 4G Kominfo Rp8,03
+    Triliun
+  summary_id: BPK RI menyerahkan Laporan Penghitungan Kerugian Keuangan Negara
+    (PKKN) atas korupsi penyediaan infrastruktur BTS 4G BAKTI Kominfo sebesar
+    Rp8,032 triliun kepada Kejaksaan Agung RI, yang menjerat Menteri Kominfo dan
+    pejabat pelaksana proyek digitalisasi daerah 3T.
+  source_ids:
+    - laporan-audit-bpk-bts-2023
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+  actor_ids:
+    - johnny-gerard-plate
   subject_term_id: presiden-jokowi-ii
-  subject_basis_id: >-
-    LHP menyasar penyediaan infrastruktur BTS 4G BAKTI Kominfo yang dikerjakan di dalam
-    masa jabatan ini dan menjerat Menteri Kominfo beserta pejabat pelaksananya, meski
-    laporan penghitungan kerugian negaranya diserahkan pada 2023.
-
+  subject_basis_id: LHP menyasar penyediaan infrastruktur BTS 4G BAKTI Kominfo
+    yang dikerjakan di dalam masa jabatan ini dan menjerat Menteri Kominfo
+    beserta pejabat pelaksananya, meski laporan penghitungan kerugian negaranya
+    diserahkan pada 2023.
 - id: ev-mk-putusan-calon-tunggal-2015
   term_id: mk-2013-2018
-  date: "2015-09-29"
+  date: 2015-09-29
   category: pengadilan
-  title_id: Putusan MK No. 100/PUU-XIII/2015 Legalisasi Calon Tunggal Pilkada Melawan Kolom Kosong
-  summary_id: >-
-    MK memutuskan bahwa pilkada dengan pasangan calon tunggal tetap sah diselenggarakan dengan memberikan opsi 'Setuju' atau 'Tidak Setuju'
-    (surat suara kolom kosong) guna menjamin hak pemilih dan kepastian suksesi kepemimpinan daerah.
-  source_ids: [putusan-mk-100-puu-xiii-2015]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
+  title_id: Putusan MK No. 100/PUU-XIII/2015 Legalisasi Calon Tunggal Pilkada
+    Melawan Kolom Kosong
+  summary_id: MK memutuskan bahwa pilkada dengan pasangan calon tunggal tetap sah
+    diselenggarakan dengan memberikan opsi 'Setuju' atau 'Tidak Setuju' (surat
+    suara kolom kosong) guna menjamin hak pemilih dan kepastian suksesi
+    kepemimpinan daerah.
+  source_ids:
+    - putusan-mk-100-puu-xiii-2015
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-dpr-tax-amnesty-2016
   term_id: dpr-2014-2019
-  date: "2016-06-28"
+  date: 2016-06-28
   category: produk-hukum
   title_id: UU No. 11/2016 tentang Pengampunan Pajak dan Putusan MK No. 105/PUU-XIV/2016
-  summary_id: >-
-    DPR mengesahkan UU Tax Amnesty dan Mahkamah Konstitusi menolak gugatan pembatalannya,
-    menilai pengampunan pajak bertujuan menghimpun likuiditas repatriasi aset untuk pembangunan infrastruktur dan pembiayaan kesejahteraan umum.
-  source_ids: [uu-11-2016, putusan-mk-105-puu-xiv-2016]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: DPR mengesahkan UU Tax Amnesty dan Mahkamah Konstitusi menolak
+    gugatan pembatalannya, menilai pengampunan pajak bertujuan menghimpun
+    likuiditas repatriasi aset untuk pembangunan infrastruktur dan pembiayaan
+    kesejahteraan umum.
+  source_ids:
+    - uu-11-2016
+    - putusan-mk-105-puu-xiv-2016
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-mk-putusan-dpd-parpol-2018
   term_id: mk-2013-2018
-  date: "2018-07-23"
+  date: 2018-07-23
   category: pengadilan
   title_id: Putusan MK No. 30/PUU-XVI/2018 Larangan Pengurus Parpol Menjadi Anggota DPD
-  summary_id: >-
-    MK menegaskan hakikat konstitusional DPD sebagai perwakilan daerah non-partisan, melarang fungsionaris/pengurus partai politik
-    mencalonkan diri sebagai anggota DPD RI demi mencegah dominasi dan konflik kepentingan partai politik di kamar senator.
-  source_ids: [putusan-mk-30-puu-xvi-2018]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  summary_id: MK menegaskan hakikat konstitusional DPD sebagai perwakilan daerah
+    non-partisan, melarang fungsionaris/pengurus partai politik mencalonkan diri
+    sebagai anggota DPD RI demi mencegah dominasi dan konflik kepentingan partai
+    politik di kamar senator.
+  source_ids:
+    - putusan-mk-30-puu-xvi-2018
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-mk-putusan-usia-nikah-2018
   term_id: mk-2018-2023
-  date: "2018-12-13"
+  date: 2018-12-13
   category: pengadilan
-  title_id: Putusan MK No. 22/PUU-XV/2017 & UU No. 16/2019 Penyetaraan Batas Usia Nikah 19 Tahun
-  summary_id: >-
-    MK memerintahkan pembentuk undang-undang merevisi batas usia menikah perempuan 16 tahun karena diskriminatif dan mencederai hak tumbuh kembang anak,
-    yang ditindaklanjuti DPR dengan mengesahkan UU No. 16/2019 yang menyetarakan batas usia minimal menikah pria dan wanita menjadi 19 tahun.
-  source_ids: [putusan-mk-22-puu-xv-2017, uu-16-2019]
-  dimension_ids: [sila-2, tujuan-3]
-
+  title_id: Putusan MK No. 22/PUU-XV/2017 & UU No. 16/2019 Penyetaraan Batas Usia
+    Nikah 19 Tahun
+  summary_id: MK memerintahkan pembentuk undang-undang merevisi batas usia menikah
+    perempuan 16 tahun karena diskriminatif dan mencederai hak tumbuh kembang
+    anak, yang ditindaklanjuti DPR dengan mengesahkan UU No. 16/2019 yang
+    menyetarakan batas usia minimal menikah pria dan wanita menjadi 19 tahun.
+  source_ids:
+    - putusan-mk-22-puu-xv-2017
+    - uu-16-2019
+  dimension_ids:
+    - sila-2
+    - tujuan-3
 - id: ev-bpk-audit-garuda-2020
   term_id: bpk-2019-sekarang
-  date: "2020-07-10"
+  date: 2020-07-10
   category: kebijakan
   title_id: Audit Investigatif BPK atas Korupsi Pengadaan Pesawat Garuda Indonesia
-  summary_id: >-
-    BPK RI menyerahkan LHP Investigatif atas pengadaan pesawat Bombardier CRJ-1000 dan ATR 72-600 PT Garuda Indonesia Tbk,
-    mengungkap kerugian negara dan praktik suap lintas batas yang melibatkan pabrikan asing dan manajemen maskapai nasional.
-  source_ids: [laporan-audit-bpk-garuda-2020]
-  dimension_ids: [checks-balances, negara-hukum]
-  actor_ids: [emirsyah-satar]
+  summary_id: BPK RI menyerahkan LHP Investigatif atas pengadaan pesawat
+    Bombardier CRJ-1000 dan ATR 72-600 PT Garuda Indonesia Tbk, mengungkap
+    kerugian negara dan praktik suap lintas batas yang melibatkan pabrikan asing
+    dan manajemen maskapai nasional.
+  source_ids:
+    - laporan-audit-bpk-garuda-2020
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+  actor_ids:
+    - emirsyah-satar
   subject_term_id: presiden-sby-ii
-  subject_basis_id: >-
-    LHP memeriksa pengadaan armada Bombardier CRJ-1000 dan ATR 72-600 PT Garuda Indonesia yang dikontrak di
-    dalam masa jabatan ini, meski laporannya keluar 2020.
-
+  subject_basis_id: LHP memeriksa pengadaan armada Bombardier CRJ-1000 dan ATR
+    72-600 PT Garuda Indonesia yang dikontrak di dalam masa jabatan ini, meski
+    laporannya keluar 2020.
 - id: ev-bpk-audit-asabri-2021
   term_id: bpk-2019-sekarang
-  date: "2021-05-31"
+  date: 2021-05-31
   category: kebijakan
   title_id: Audit Investigatif BPK atas Mega Korupsi Investasi ASABRI Rp22,78 Triliun
-  summary_id: >-
-    BPK RI merampungkan penghitungan kerugian keuangan negara dalam kasus korupsi pengelolaan dana investasi PT ASABRI (Persero)
-    sebesar Rp22,78 triliun, salah satu skandal korupsi terbesar di sektor asuransi prajurit TNI, Polri, dan ASN Kemenhan.
-  source_ids: [laporan-audit-bpk-asabri-2021]
-  dimension_ids: [checks-balances, negara-hukum]
+  summary_id: BPK RI merampungkan penghitungan kerugian keuangan negara dalam
+    kasus korupsi pengelolaan dana investasi PT ASABRI (Persero) sebesar Rp22,78
+    triliun, salah satu skandal korupsi terbesar di sektor asuransi prajurit
+    TNI, Polri, dan ASN Kemenhan.
+  source_ids:
+    - laporan-audit-bpk-asabri-2021
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
   subject_term_id: presiden-jokowi-i
-  subject_basis_id: >-
-    Penghitungan kerugian negara menyasar pengelolaan dana investasi PT ASABRI yang berlangsung lintas
-    periode dan berakhir di dalam masa jabatan ini.
-
+  subject_basis_id: Penghitungan kerugian negara menyasar pengelolaan dana
+    investasi PT ASABRI yang berlangsung lintas periode dan berakhir di dalam
+    masa jabatan ini.
 - id: ev-ma-kasasi-jiwasraya-2021
   term_id: ma-reformasi-sekarang
-  date: "2021-08-24"
+  date: 2021-08-24
   category: pengadilan
   title_id: Putusan Kasasi MA Memvonis Seumur Hidup Terdakwa Mega Korupsi Jiwasraya
-  summary_id: >-
-    Mahkamah Agung menolak permohonan kasasi para terdakwa kasus korupsi dan tindak pidana pencucian uang PT Asuransi Jiwasraya (Persero),
-    menguatkan vonis pidana penjara seumur hidup dan uang pengganti belasan triliun rupiah demi kepastian hukum dan perlindungan nasabah polis.
-  source_ids: [putusan-kasasi-ma-jiwasraya-2021]
-  dimension_ids: [negara-hukum, sila-5]
-  actor_ids: [hendrisman-rahim, hary-prasetyo, syahmirwan, benny-tjokrosaputro, heru-hidayat]
+  summary_id: Mahkamah Agung menolak permohonan kasasi para terdakwa kasus korupsi
+    dan tindak pidana pencucian uang PT Asuransi Jiwasraya (Persero), menguatkan
+    vonis pidana penjara seumur hidup dan uang pengganti belasan triliun rupiah
+    demi kepastian hukum dan perlindungan nasabah polis.
+  source_ids:
+    - putusan-kasasi-ma-jiwasraya-2021
+  dimension_ids:
+    - negara-hukum
+    - sila-5
+  actor_ids:
+    - hendrisman-rahim
+    - hary-prasetyo
+    - syahmirwan
+    - benny-tjokrosaputro
+    - heru-hidayat
   subject_term_id: presiden-jokowi-i
-  subject_basis_id: >-
-    Putusan kasasi mengadili korupsi pengelolaan investasi PT Asuransi Jiwasraya yang perbuatannya
-    berlangsung lintas periode dan terbongkar di dalam masa jabatan ini.
-
+  subject_basis_id: Putusan kasasi mengadili korupsi pengelolaan investasi PT
+    Asuransi Jiwasraya yang perbuatannya berlangsung lintas periode dan
+    terbongkar di dalam masa jabatan ini.
 - id: ev-dpr-uu-ikn-2022
   term_id: dpr-2019-2024
-  date: "2022-01-18"
+  date: 2022-01-18
   category: produk-hukum
   title_id: Pengesahan UU No. 3 Tahun 2022 tentang Ibu Kota Negara (IKN Nusantara)
-  summary_id: >-
-    DPR bersama Pemerintah mengesahkan landasan hukum pemindahan ibu kota negara dari Jakarta ke Ibu Kota Nusantara (IKN)
-    di Penajam Paser Utara, Kalimantan Timur, dengan visi pemerataan pembangunan Indonesia-sentris dan keberlanjutan lingkungan.
-  source_ids: [uu-3-2022]
-  dimension_ids: [tujuan-2, sila-3]
-
+  summary_id: DPR bersama Pemerintah mengesahkan landasan hukum pemindahan ibu
+    kota negara dari Jakarta ke Ibu Kota Nusantara (IKN) di Penajam Paser Utara,
+    Kalimantan Timur, dengan visi pemerataan pembangunan Indonesia-sentris dan
+    keberlanjutan lingkungan.
+  source_ids:
+    - uu-3-2022
+  dimension_ids:
+    - tujuan-2
+    - sila-3
 - id: ev-dpr-uu-pdp-2022
   term_id: dpr-2019-2024
-  date: "2022-09-20"
+  date: 2022-09-20
   category: produk-hukum
   title_id: Pengesahan UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)
-  summary_id: >-
-    DPR mengesahkan payung hukum perlindungan data pribadi komprehensif pertama di Indonesia yang menjamin hak privasi konstitusional warga negara,
-    mengatur kewajiban pengendali data, dan menetapkan sanksi administratif hingga pidana atas kebocoran dan penyalahgunaan data.
-  source_ids: [uu-27-2022]
-  dimension_ids: [tujuan-1, sila-2]
-
+  summary_id: DPR mengesahkan payung hukum perlindungan data pribadi komprehensif
+    pertama di Indonesia yang menjamin hak privasi konstitusional warga negara,
+    mengatur kewajiban pengendali data, dan menetapkan sanksi administratif
+    hingga pidana atas kebocoran dan penyalahgunaan data.
+  source_ids:
+    - uu-27-2022
+  dimension_ids:
+    - tujuan-1
+    - sila-2
 - id: ev-dpr-kuhp-nasional-2023
   term_id: dpr-2019-2024
-  date: "2023-01-02"
+  date: 2023-01-02
   category: produk-hukum
-  title_id: Pengesahan UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (KUHP Nasional)
-  summary_id: >-
-    DPR dan Pemerintah mengesahkan kodifikasi hukum pidana nasional menggantikan Wetboek van Strafrecht (WvS) warisan kolonial Belanda,
-    memperkenalkan konsep keadilan restoratif, pidana kerja sosial, dan penyesuaian nilai-nilai hukum yang hidup dalam masyarakat Indonesia.
-  source_ids: [uu-1-2023]
-  dimension_ids: [negara-hukum, sila-2]
-
+  title_id: Pengesahan UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum
+    Pidana (KUHP Nasional)
+  summary_id: DPR dan Pemerintah mengesahkan kodifikasi hukum pidana nasional
+    menggantikan Wetboek van Strafrecht (WvS) warisan kolonial Belanda,
+    memperkenalkan konsep keadilan restoratif, pidana kerja sosial, dan
+    penyesuaian nilai-nilai hukum yang hidup dalam masyarakat Indonesia.
+  source_ids:
+    - uu-1-2023
+  dimension_ids:
+    - negara-hukum
+    - sila-2
 - id: ev-mk-putusan-threshold-2024
   term_id: mk-2023-sekarang
-  date: "2024-02-29"
+  date: 2024-02-29
   category: pengadilan
   title_id: Putusan MK No. 116/PUU-XXI/2023 Menghapus Ambang Batas Parlemen 4% Mulai 2029
-  summary_id: >-
-    MK memutuskan Pasal 414 ayat 1 UU Pemilu tentang Parliamentary Threshold 4% inkonstitusional bersyarat untuk diberlakukan pada Pemilu 2029,
-    memerintahkan pembentuk undang-undang mendesain ulang ambang batas berbasis metode rasional demi meminimalkan suara rakyat yang terbuang sia-sia.
-  source_ids: [putusan-mk-116-puu-xxi-2023]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
+  summary_id: MK memutuskan Pasal 414 ayat 1 UU Pemilu tentang Parliamentary
+    Threshold 4% inkonstitusional bersyarat untuk diberlakukan pada Pemilu 2029,
+    memerintahkan pembentuk undang-undang mendesain ulang ambang batas berbasis
+    metode rasional demi meminimalkan suara rakyat yang terbuang sia-sia.
+  source_ids:
+    - putusan-mk-116-puu-xxi-2023
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-ma-mkh-ronald-tannur-2024
   term_id: ma-reformasi-sekarang
-  date: "2024-10-23"
+  date: 2024-10-23
   category: pengadilan
   title_id: Kasasi MA Batalkan Vonis Bebas Ronald Tannur & Pembongkaran Mafia Peradilan
-  summary_id: >-
-    Mahkamah Agung mengabulkan kasasi jaksa dan menjatuhkan vonis 5 tahun penjara kepada Ronald Tannur,
-    disusul operasi tangkap tangan Kejaksaan Agung terhadap tiga hakim PN Surabaya dan mantan pejabat MA atas dugaan suap suap pengondisian perkara.
-  source_ids: [putusan-ma-ronald-tannur-2024]
-  dimension_ids: [negara-hukum, checks-balances]
-  actor_ids: [erintuah-damanik]
-
+  summary_id: Mahkamah Agung mengabulkan kasasi jaksa dan menjatuhkan vonis 5
+    tahun penjara kepada Ronald Tannur, disusul operasi tangkap tangan Kejaksaan
+    Agung terhadap tiga hakim PN Surabaya dan mantan pejabat MA atas dugaan suap
+    suap pengondisian perkara.
+  source_ids:
+    - putusan-ma-ronald-tannur-2024
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+  actor_ids:
+    - erintuah-damanik
 - id: ev-mk-putusan-netralitas-pilkada-2024
   term_id: mk-2023-sekarang
-  date: "2024-11-14"
+  date: 2024-11-14
   category: pengadilan
-  title_id: Putusan MK No. 136/PUU-XXII/2024 Menegaskan Sanksi Pidana Netralitas TNI/Polri dalam Pilkada
-  summary_id: >-
-    MK mengabulkan uji materiil Pasal 188 UU Pilkada dengan memasukkan frasa 'pejabat daerah' dan 'anggota TNI/Kepolisian Negara Republik Indonesia'
-    sebagai subjek yang dapat dipidana penjara jika terbukti melanggar netralitas dan menguntungkan/merugikan salah satu pasangan calon kepala daerah.
-  source_ids: [putusan-mk-136-puu-xxii-2024]
-  dimension_ids: [kedaulatan-rakyat, negara-hukum]
-
+  title_id: Putusan MK No. 136/PUU-XXII/2024 Menegaskan Sanksi Pidana Netralitas
+    TNI/Polri dalam Pilkada
+  summary_id: MK mengabulkan uji materiil Pasal 188 UU Pilkada dengan memasukkan
+    frasa 'pejabat daerah' dan 'anggota TNI/Kepolisian Negara Republik
+    Indonesia' sebagai subjek yang dapat dipidana penjara jika terbukti
+    melanggar netralitas dan menguntungkan/merugikan salah satu pasangan calon
+    kepala daerah.
+  source_ids:
+    - putusan-mk-136-puu-xxii-2024
+  dimension_ids:
+    - kedaulatan-rakyat
+    - negara-hukum
+    - sila-2
 - id: ev-ky-laptah-penegakan-2023
   term_id: ky-2020-sekarang
-  date: "2024-01-30"
+  date: 2024-01-30
   category: kebijakan
-  title_id: Laporan Kinerja Komisi Yudisial 2023 - Rekomendasi Sanksi Puluhan Hakim Terbukti Langgar Etik
-  summary_id: >-
-    Komisi Yudisial RI merilis laporan penegakan etik dan perilaku hakim sepanjang 2023,
-    merekomendasikan penjatuhan sanksi kepada puluhan hakim dan mengusulkan sidang Majelis Kehormatan Hakim (MKH) untuk memelihara kehormatan dan martabat peradilan.
-  source_ids: [laporan-tahunan-ky-2023]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  title_id: Laporan Kinerja Komisi Yudisial 2023 - Rekomendasi Sanksi Puluhan
+    Hakim Terbukti Langgar Etik
+  summary_id: Komisi Yudisial RI merilis laporan penegakan etik dan perilaku hakim
+    sepanjang 2023, merekomendasikan penjatuhan sanksi kepada puluhan hakim dan
+    mengusulkan sidang Majelis Kehormatan Hakim (MKH) untuk memelihara
+    kehormatan dan martabat peradilan.
+  source_ids:
+    - laporan-tahunan-ky-2023
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-mk-putusan-pemilu-serentak-2019
   term_id: mk-2018-2023
-  date: "2020-02-26"
+  date: 2020-02-26
   category: pengadilan
   title_id: Putusan MK No. 55/PUU-XVII/2019 tentang Desain 6 Model Pemilu Serentak
-  summary_id: >-
-    MK merumuskan 6 model varian pemilu serentak nasional dan lokal yang konstitusional,
-    menegaskan pemilu serentak 5 kotak tetap sah namun membuka ruang bagi pembentuk UU untuk memisahkan pemilu nasional dan pemilu daerah guna mengurangi beban KPPS.
-  source_ids: [putusan-mk-55-puu-xvii-2019]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
+  summary_id: MK merumuskan 6 model varian pemilu serentak nasional dan lokal yang
+    konstitusional, menegaskan pemilu serentak 5 kotak tetap sah namun membuka
+    ruang bagi pembentuk UU untuk memisahkan pemilu nasional dan pemilu daerah
+    guna mengurangi beban KPPS.
+  source_ids:
+    - putusan-mk-55-puu-xvii-2019
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-dpr-uu-covid-2020
   term_id: dpr-2019-2024
-  date: "2020-05-18"
+  date: 2020-05-18
   category: produk-hukum
   title_id: Pengesahan UU No. 2 Tahun 2020 tentang Kebijakan Keuangan Penanganan COVID-19
-  summary_id: >-
-    DPR mengesahkan Perppu No. 1/2020 menjadi undang-undang yang memberikan fleksibilitas pelebaran defisit APBN di atas 3%
-    dan imunitas hukum perdata/pidana beritikad baik bagi pejabat pengambil kebijakan stabilitas ekonomi dalam penanganan krisis pandemi.
-  source_ids: [uu-2-2020]
-  dimension_ids: [tujuan-1, tujuan-2]
-
+  summary_id: DPR mengesahkan Perppu No. 1/2020 menjadi undang-undang yang
+    memberikan fleksibilitas pelebaran defisit APBN di atas 3% dan imunitas
+    hukum perdata/pidana beritikad baik bagi pejabat pengambil kebijakan
+    stabilitas ekonomi dalam penanganan krisis pandemi.
+  source_ids:
+    - uu-2-2020
+  dimension_ids:
+    - tujuan-1
+    - tujuan-2
 - id: ev-bpk-audit-jiwasraya-2020
   term_id: bpk-2019-sekarang
-  date: "2020-01-08"
+  date: 2020-01-08
   category: kebijakan
-  title_id: Audit Investigatif BPK atas Skandal Investasi Saham Gorengan Jiwasraya Rp16,81 Triliun
-  summary_id: >-
-    BPK RI merampungkan penghitungan kerugian keuangan negara pada PT Asuransi Jiwasraya sebesar Rp16,81 triliun,
-    mengungkap persekongkolan investasi reksadana berkualitas rendah (saham gorengan) antara direksi asuransi BUMN dan manajer investasi swasta.
-  source_ids: [laporan-audit-bpk-jiwasraya-2020]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  title_id: Audit Investigatif BPK atas Skandal Investasi Saham Gorengan Jiwasraya
+    Rp16,81 Triliun
+  summary_id: BPK RI merampungkan penghitungan kerugian keuangan negara pada PT
+    Asuransi Jiwasraya sebesar Rp16,81 triliun, mengungkap persekongkolan
+    investasi reksadana berkualitas rendah (saham gorengan) antara direksi
+    asuransi BUMN dan manajer investasi swasta.
+  source_ids:
+    - laporan-audit-bpk-jiwasraya-2020
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-mk-putusan-ciptaker-formil-2021
   term_id: mk-2018-2023
-  date: "2021-11-25"
+  date: 2021-11-25
   category: pengadilan
-  title_id: Putusan MK No. 91/PUU-XVIII/2020 Uji Formil UU Cipta Kerja Inkonstitusional Bersyarat
-  summary_id: >-
-    MK mengabulkan sebagian permohonan uji formil UU No. 11/2020 tentang Cipta Kerja, menyatakan metode omnibus law belum diatur
-    dalam UU Pembentukan Peraturan Perundang-undangan dan proses pembahasannya cacat asas partisipasi publik yang bermakna (meaningful participation).
-  source_ids: [putusan-mk-91-puu-xviii-2020]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  title_id: Putusan MK No. 91/PUU-XVIII/2020 Uji Formil UU Cipta Kerja
+    Inkonstitusional Bersyarat
+  summary_id: MK mengabulkan sebagian permohonan uji formil UU No. 11/2020 tentang
+    Cipta Kerja, menyatakan metode omnibus law belum diatur dalam UU Pembentukan
+    Peraturan Perundang-undangan dan proses pembahasannya cacat asas partisipasi
+    publik yang bermakna (meaningful participation).
+  source_ids:
+    - putusan-mk-91-puu-xviii-2020
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-mk-putusan-batas-usia-capres-2023
   term_id: mk-2018-2023
-  date: "2023-10-16"
+  date: 2023-10-16
   category: pengadilan
-  title_id: Putusan MK No. 90/PUU-XXI/2023 Batas Usia Capres-Cawapres Jalur Jabatan Terpilih
-  summary_id: >-
-    MK mengabulkan sebagian uji materiil Pasal 169 huruf q UU Pemilu dengan menambahkan syarat alternatif 'berusia paling rendah 40 tahun
-    atau pernah/sedang menduduki jabatan yang dipilih melalui pemilihan umum termasuk pemilihan kepala daerah', memicu kontroversi politik menjelang Pilpres 2024.
-  source_ids: [putusan-mk-90-puu-xxi-2023]
-  dimension_ids: [negara-hukum, checks-balances]
-
+  title_id: Putusan MK No. 90/PUU-XXI/2023 Batas Usia Capres-Cawapres Jalur
+    Jabatan Terpilih
+  summary_id: MK mengabulkan sebagian uji materiil Pasal 169 huruf q UU Pemilu
+    dengan menambahkan syarat alternatif 'berusia paling rendah 40 tahun atau
+    pernah/sedang menduduki jabatan yang dipilih melalui pemilihan umum termasuk
+    pemilihan kepala daerah', memicu kontroversi politik menjelang Pilpres 2024.
+  source_ids:
+    - putusan-mk-90-puu-xxi-2023
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
 - id: ev-mkmk-putusan-etik-ketua-mk-2023
   term_id: mk-2023-sekarang
-  date: "2023-11-07"
+  date: 2023-11-07
   category: pengadilan
   title_id: Putusan Majelis Kehormatan MK Pemberhentian Anwar Usman dari Jabatan Ketua MK
-  summary_id: >-
-    Majelis Kehormatan Mahkamah Konstitusi (MKMK) pimpinan Jimly Asshiddiqie menyatakan Ketua MK Anwar Usman terbukti melakukan pelanggaran etik berat
-    terkait konflik kepentingan (benturan kepentingan keluarga) dalam penanganan Perkara No. 90/PUU-XXI/2023 dan menjatuhkan sanksi pemberhentian dari jabatan Ketua MK.
-  source_ids: [putusan-mkmk-2-2023]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: Majelis Kehormatan Mahkamah Konstitusi (MKMK) pimpinan Jimly
+    Asshiddiqie menyatakan Ketua MK Anwar Usman terbukti melakukan pelanggaran
+    etik berat terkait konflik kepentingan (benturan kepentingan keluarga) dalam
+    penanganan Perkara No. 90/PUU-XXI/2023 dan menjatuhkan sanksi pemberhentian
+    dari jabatan Ketua MK.
+  source_ids:
+    - putusan-mkmk-2-2023
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-mk-putusan-ambang-batas-pilkada-2024
   term_id: mk-2023-sekarang
-  date: "2024-08-20"
+  date: 2024-08-20
   category: pengadilan
-  title_id: Putusan MK No. 60/PUU-XXII/2024 & 70/PUU-XXII/2024 Ambang Batas dan Syarat Usia Pilkada
-  summary_id: >-
-    MK menurunkan ambang batas pencalonan kepala daerah (diselaraskan dengan persentase DPT) sehingga membuka peluang bagi partai non-parlemen,
-    serta menegaskan syarat usia minimal calon kepala daerah dihitung saat penetapan pasangan calon oleh KPU, menggagalkan upaya revisi kilat UU Pilkada oleh DPR.
-  source_ids: [putusan-mk-60-puu-xxii-2024, putusan-mk-70-puu-xxii-2024]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
-- id: ev-dpr-uu-desa-2014
-  term_id: dpr-2009-2014
-  date: "2014-01-15"
-  category: produk-hukum
-  title_id: Pengesahan UU No. 6 Tahun 2014 tentang Desa
-  summary_id: >-
-    DPR bersama Pemerintah mengesahkan UU Desa yang mengakui otonomi asli kesatuan masyarakat hukum adat dan desa,
-    mentransfer Alokasi Dana Desa (ADD) langsung dari APBN triliunan rupiah per tahun untuk pembangunan infrastruktur dan pemberdayaan warga desa.
-  source_ids: [uu-6-2014]
-  dimension_ids: [tujuan-2, sila-5]
-
+  title_id: Putusan MK No. 60/PUU-XXII/2024 & 70/PUU-XXII/2024 Ambang Batas dan
+    Syarat Usia Pilkada
+  summary_id: MK menurunkan ambang batas pencalonan kepala daerah (diselaraskan
+    dengan persentase DPT) sehingga membuka peluang bagi partai non-parlemen,
+    serta menegaskan syarat usia minimal calon kepala daerah dihitung saat
+    penetapan pasangan calon oleh KPU, menggagalkan upaya revisi kilat UU
+    Pilkada oleh DPR.
+  source_ids:
+    - putusan-mk-60-puu-xxii-2024
+    - putusan-mk-70-puu-xxii-2024
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-mk-putusan-perjanjian-kawin-2015
   term_id: mk-2013-2018
-  date: "2016-10-27"
+  date: 2016-10-27
   category: pengadilan
-  title_id: Putusan MK No. 69/PUU-XIII/2015 tentang Perjanjian Perkawinan Selama Ikatan Perkawinan
-  summary_id: >-
-    MK mengabulkan uji materiil Pasal 29 UU Perkawinan, memperbolehkan pasangan suami-istri membuat perjanjian pisah harta
-    sepanjang ikatan perkawinan berlangsung demi melindungi hak kepemilikan properti dan kepastian hukum perempuan (khususnya yang menikah dengan WNA).
-  source_ids: [putusan-mk-69-puu-xiii-2015]
-  dimension_ids: [negara-hukum, sila-2]
-
+  title_id: Putusan MK No. 69/PUU-XIII/2015 tentang Perjanjian Perkawinan Selama
+    Ikatan Perkawinan
+  summary_id: MK mengabulkan uji materiil Pasal 29 UU Perkawinan, memperbolehkan
+    pasangan suami-istri membuat perjanjian pisah harta sepanjang ikatan
+    perkawinan berlangsung demi melindungi hak kepemilikan properti dan
+    kepastian hukum perempuan (khususnya yang menikah dengan WNA).
+  source_ids:
+    - putusan-mk-69-puu-xiii-2015
+  dimension_ids:
+    - negara-hukum
+    - sila-2
 - id: ev-mk-putusan-rekaman-ilegal-2016
   term_id: mk-2013-2018
-  date: "2016-09-07"
+  date: 2016-09-07
   category: pengadilan
-  title_id: Putusan MK No. 20/PUU-XIV/2016 tentang Bukti Rekaman Ilegal (Kasus Papa Minta Saham)
-  summary_id: >-
-    MK memutuskan bahwa rekaman informasi elektronik yang dilakukan secara diam-diam tanpa permintaan resmi aparat penegak hukum (law enforcement)
-    adalah penyadapan ilegal yang tidak sah sebagai alat bukti dalam proses peradilan pidana, memperkuat perlindungan hak privasi warga negara.
-  source_ids: [putusan-mk-20-puu-xiv-2016]
-  dimension_ids: [negara-hukum, checks-balances]
-
+  title_id: Putusan MK No. 20/PUU-XIV/2016 tentang Bukti Rekaman Ilegal (Kasus
+    Papa Minta Saham)
+  summary_id: MK memutuskan bahwa rekaman informasi elektronik yang dilakukan
+    secara diam-diam tanpa permintaan resmi aparat penegak hukum (law
+    enforcement) adalah penyadapan ilegal yang tidak sah sebagai alat bukti
+    dalam proses peradilan pidana, memperkuat perlindungan hak privasi warga
+    negara.
+  source_ids:
+    - putusan-mk-20-puu-xiv-2016
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
 - id: ev-ma-perma-kejahatan-korporasi-2016
   term_id: ma-reformasi-sekarang
-  date: "2016-12-21"
+  date: 2016-12-21
   category: produk-hukum
-  title_id: PERMA No. 13 Tahun 2016 tentang Tata Cara Penanganan Tindak Pidana oleh Korporasi
-  summary_id: >-
-    Mahkamah Agung menerbitkan pedoman penuntutan dan pemidanaan terhadap korporasi yang melakukan kejahatan korupsi,
-    kejahatan lingkungan hidup, dan pencucian uang, mengisi kekosongan hukum acara pidana korporasi di peradilan Indonesia.
-  source_ids: [perma-13-2016]
-  dimension_ids: [negara-hukum, checks-balances]
+  title_id: PERMA No. 13 Tahun 2016 tentang Tata Cara Penanganan Tindak Pidana
+    oleh Korporasi
+  summary_id: Mahkamah Agung menerbitkan pedoman penuntutan dan pemidanaan
+    terhadap korporasi yang melakukan kejahatan korupsi, kejahatan lingkungan
+    hidup, dan pencucian uang, mengisi kekosongan hukum acara pidana korporasi
+    di peradilan Indonesia.
+  source_ids:
+    - perma-13-2016
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - sila-5
+    - tujuan-2
+  actor_ids: []
 
 - id: ev-dpr-uu-pemilu-kodifikasi-2017
   term_id: dpr-2014-2019
-  date: "2017-08-15"
+  date: 2017-08-15
   category: produk-hukum
   title_id: Pengesahan UU No. 7 Tahun 2017 tentang Pemilihan Umum
-  summary_id: >-
-    DPR mengesahkan kodifikasi menyeluruh hukum pemilu Indonesia, mengatur penyelenggaraan pemilu serentak 5 kotak,
-    ambang batas pencalonan presiden (Presidential Threshold) 20% kursi DPR / 25% suara sah nasional, dan pembentukan Bawaslu permanen hingga kabupaten/kota.
-  source_ids: [uu-7-2017]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
+  summary_id: DPR mengesahkan kodifikasi menyeluruh hukum pemilu Indonesia,
+    mengatur penyelenggaraan pemilu serentak 5 kotak, ambang batas pencalonan
+    presiden (Presidential Threshold) 20% kursi DPR / 25% suara sah nasional,
+    dan pembentukan Bawaslu permanen hingga kabupaten/kota.
+  source_ids:
+    - uu-7-2017
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-dpr-pansus-angket-kpk-2017
   term_id: dpr-2014-2019
-  date: "2017-06-07"
+  date: 2017-06-07
   category: peristiwa
   title_id: Pembentukan Pansus Hak Angket DPR terhadap KPK RI
-  summary_id: >-
-    DPR RI membentuk Panitia Khusus Hak Angket untuk menyelidiki pelaksanaan tugas, kewenangan, tata kelola anggaran,
-    dan penyidikan perkara korupsi di Komisi Pemberantasan Korupsi (KPK), memantik polemik mengenai kewenangan parlemen mengawasi lembaga independen.
-  source_ids: [laporan-pansus-kpk-2018]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: DPR RI membentuk Panitia Khusus Hak Angket untuk menyelidiki
+    pelaksanaan tugas, kewenangan, tata kelola anggaran, dan penyidikan perkara
+    korupsi di Komisi Pemberantasan Korupsi (KPK), memantik polemik mengenai
+    kewenangan parlemen mengawasi lembaga independen.
+  source_ids:
+    - laporan-pansus-kpk-2018
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-bpk-audit-aw101-2017
   term_id: bpk-2009-2019
-  date: "2017-05-26"
+  date: 2017-05-26
   category: kebijakan
   title_id: Audit Investigatif BPK atas Pengadaan Helikopter AW-101 TNI AU Rp738 Miliar
-  summary_id: >-
-    BPK RI menyerahkan LHP investigatif kepada KPK dan POM TNI yang menemukan penyimpangan pengadaan helikopter VVIP/transport AW-101
-    yang dibeli tidak sesuai spesifikasi dan menimbulkan dugaan kerugian keuangan negara lebih dari Rp224 miliar.
-  source_ids: [laporan-audit-bpk-aw101-2017]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: BPK RI menyerahkan LHP investigatif kepada KPK dan POM TNI yang
+    menemukan penyimpangan pengadaan helikopter VVIP/transport AW-101 yang
+    dibeli tidak sesuai spesifikasi dan menimbulkan dugaan kerugian keuangan
+    negara lebih dari Rp224 miliar.
+  source_ids:
+    - laporan-audit-bpk-aw101-2017
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-mk-putusan-verifikasi-parpol-2018
   term_id: mk-2013-2018
-  date: "2018-01-11"
+  date: 2018-01-11
   category: pengadilan
-  title_id: Putusan MK No. 53/PUU-XV/2017 Kewajiban Verifikasi Faktual Berlaku bagi Semua Partai
-  summary_id: >-
-    MK membatalkan ketentuan Pasal 173 ayat 3 UU No. 7/2017 yang membebaskan partai politik yang telah lolos verifikasi Pemilu 2014 dari verifikasi faktual,
-    memerintahkan KPU memverifikasi secara faktual seluruh partai politik calon peserta Pemilu 2019 demi asas keadilan dan kesetaraan kesempatan politik.
-  source_ids: [putusan-mk-53-puu-xv-2017]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
+  title_id: Putusan MK No. 53/PUU-XV/2017 Kewajiban Verifikasi Faktual Berlaku
+    bagi Semua Partai
+  summary_id: MK membatalkan ketentuan Pasal 173 ayat 3 UU No. 7/2017 yang
+    membebaskan partai politik yang telah lolos verifikasi Pemilu 2014 dari
+    verifikasi faktual, memerintahkan KPU memverifikasi secara faktual seluruh
+    partai politik calon peserta Pemilu 2019 demi asas keadilan dan kesetaraan
+    kesempatan politik.
+  source_ids:
+    - putusan-mk-53-puu-xv-2017
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-presiden-stranas-pk-2018
   term_id: presiden-jokowi-i
-  date: "2018-07-20"
+  date: 2018-07-20
   category: produk-hukum
-  title_id: Perpres No. 54 Tahun 2018 tentang Strategi Nasional Pencegahan Korupsi (Stranas PK)
-  summary_id: >-
-    Presiden Jokowi membentuk Sekretariat Nasional Tim Stranas PK lintas kementerian/lembaga (KPK, KSP, Bappenas, Kemendagri, KemenPAN-RB)
-    untuk mendorong digitalisasi perizinan OSS, integrasi data bansos, transparansi pengadaan barang/jasa, dan pembentukan sistem utilisasi NIK.
-  source_ids: [perpres-54-2018]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  title_id: Perpres No. 54 Tahun 2018 tentang Strategi Nasional Pencegahan Korupsi
+    (Stranas PK)
+  summary_id: Presiden Jokowi membentuk Sekretariat Nasional Tim Stranas PK lintas
+    kementerian/lembaga (KPK, KSP, Bappenas, Kemendagri, KemenPAN-RB) untuk
+    mendorong digitalisasi perizinan OSS, integrasi data bansos, transparansi
+    pengadaan barang/jasa, dan pembentukan sistem utilisasi NIK.
+  source_ids:
+    - perpres-54-2018
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-presiden-darurat-kesehatan-covid-2020
   term_id: presiden-jokowi-ii
-  date: "2020-03-31"
+  date: 2020-03-31
   category: kebijakan
-  title_id: Penetapan Kedaruratan Kesehatan Masyarakat & Pembatasan Sosial Berskala Besar COVID-19
-  summary_id: >-
-    Presiden Jokowi menerbitkan Keppres No. 11/2020 dan PP No. 21/2020 memberlakukan Pembatasan Sosial Berskala Besar (PSBB)
-    dan mengalokasikan ratusan triliun rupiah anggaran Pemulihan Ekonomi Nasional (PEN) untuk melindungi keselamatan jiwa rakyat dari wabah global.
-  source_ids: [keppres-11-2020]
-  dimension_ids: [tujuan-1, tujuan-2]
-
+  title_id: Penetapan Kedaruratan Kesehatan Masyarakat & Pembatasan Sosial
+    Berskala Besar COVID-19
+  summary_id: Presiden Jokowi menerbitkan Keppres No. 11/2020 dan PP No. 21/2020
+    memberlakukan Pembatasan Sosial Berskala Besar (PSBB) dan mengalokasikan
+    ratusan triliun rupiah anggaran Pemulihan Ekonomi Nasional (PEN) untuk
+    melindungi keselamatan jiwa rakyat dari wabah global.
+  source_ids:
+    - keppres-11-2020
+  dimension_ids:
+    - tujuan-1
+    - tujuan-2
 - id: ev-dpr-uu-minerba-hilirisasi-2020
   term_id: dpr-2019-2024
-  date: "2020-06-10"
+  date: 2020-06-10
   category: produk-hukum
-  title_id: Pengesahan UU No. 3 Tahun 2020 tentang Pertambangan Minerba (Kebijakan Hilirisasi)
-  summary_id: >-
-    DPR mengesahkan revisi UU Minerba yang mewajibkan pembangunan fasilitas pemurnian mineral (smelter) di dalam negeri,
-    menghentikan ekspor bijih mentah nikel/bauksit guna meningkatkan nilai tambah industri nasional dan kedaulatan ekonomi Pasal 33 UUD 1945.
-  source_ids: [uu-3-2020]
-  dimension_ids: [tujuan-2, sila-5]
-
+  title_id: Pengesahan UU No. 3 Tahun 2020 tentang Pertambangan Minerba (Kebijakan
+    Hilirisasi)
+  summary_id: DPR mengesahkan revisi UU Minerba yang mewajibkan pembangunan
+    fasilitas pemurnian mineral (smelter) di dalam negeri, menghentikan ekspor
+    bijih mentah nikel/bauksit guna meningkatkan nilai tambah industri nasional
+    dan kedaulatan ekonomi Pasal 33 UUD 1945.
+  source_ids:
+    - uu-3-2020
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-dpd-ruu-daerah-kepulauan-2020
   term_id: dpd-2019-2024
-  date: "2020-11-24"
+  date: 2020-11-24
   category: peristiwa
   title_id: Inisiatif Legislasi DPD RI Mengajukan RUU Daerah Kepulauan
-  summary_id: >-
-    DPD RI merumuskan dan mengajukan RUU Usul Inisiatif Daerah Kepulauan ke Prolegnas Prioritas DPR untuk memastikan
-    alokasi Dana Bagi Hasil (DBH) dan Dana Alokasi Khusus (DAK) memperhitungkan luas lautan, mengatasi kesenjangan pembangunan wilayah kepulauan 3T.
-  source_ids: [ruu-daerah-kepulauan-dpd-2020]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: DPD RI merumuskan dan mengajukan RUU Usul Inisiatif Daerah Kepulauan
+    ke Prolegnas Prioritas DPR untuk memastikan alokasi Dana Bagi Hasil (DBH)
+    dan Dana Alokasi Khusus (DAK) memperhitungkan luas lautan, mengatasi
+    kesenjangan pembangunan wilayah kepulauan 3T.
+  source_ids:
+    - ruu-daerah-kepulauan-dpd-2020
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-dpr-uu-omnibus-ppp-2022
   term_id: dpr-2019-2024
-  date: "2022-06-16"
+  date: 2022-06-16
   category: produk-hukum
-  title_id: Pengesahan UU No. 13 Tahun 2022 tentang Perubahan UU PPP (Adopsi Metode Omnibus)
-  summary_id: >-
-    DPR dan Pemerintah merevisi UU Pembentukan Peraturan Perundang-undangan untuk melegalkan penggunaan metode kodifikasi omnibus law
-    serta mewajibkan pemenuhan asas partisipasi publik yang bermakna (meaningful participation) sebagai tindak lanjut Putusan MK No. 91/PUU-XVIII/2020.
-  source_ids: [uu-13-2022]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  title_id: Pengesahan UU No. 13 Tahun 2022 tentang Perubahan UU PPP (Adopsi
+    Metode Omnibus)
+  summary_id: DPR dan Pemerintah merevisi UU Pembentukan Peraturan
+    Perundang-undangan untuk melegalkan penggunaan metode kodifikasi omnibus law
+    serta mewajibkan pemenuhan asas partisipasi publik yang bermakna (meaningful
+    participation) sebagai tindak lanjut Putusan MK No. 91/PUU-XVIII/2020.
+  source_ids:
+    - uu-13-2022
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-presiden-pengakuan-pelanggaran-ham-2023
   term_id: presiden-jokowi-ii
-  date: "2023-01-11"
+  date: 2023-01-11
   category: peristiwa
-  title_id: Pernyataan Resmi Pengakuan dan Penyesalan Negara atas 12 Peristiwa Pelanggaran HAM Berat Masa Lalu
-  summary_id: >-
-    Presiden Joko Widodo atas nama Kepala Negara secara resmi mengakui dan menyatakan penyesalan mendalam atas terjadinya 12 peristiwa pelanggaran HAM berat masa lalu
-    (termasuk Peristiwa 1965-1966, Talangsari, Trisakti-Semanggi, Wasior, Wamena) berdasarkan rekomendasi Tim PPHAM non-yudisial.
-  source_ids: [keppres-17-2022, pidato-presiden-ham-2023]
-  dimension_ids: [sila-2, negara-hukum]
-
+  title_id: Pernyataan Resmi Pengakuan dan Penyesalan Negara atas 12 Peristiwa
+    Pelanggaran HAM Berat Masa Lalu
+  summary_id: Presiden Joko Widodo atas nama Kepala Negara secara resmi mengakui
+    dan menyatakan penyesalan mendalam atas terjadinya 12 peristiwa pelanggaran
+    HAM berat masa lalu (termasuk Peristiwa 1965-1966, Talangsari,
+    Trisakti-Semanggi, Wasior, Wamena) berdasarkan rekomendasi Tim PPHAM
+    non-yudisial.
+  source_ids:
+    - keppres-17-2022
+    - pidato-presiden-ham-2023
+  dimension_ids:
+    - sila-2
+    - negara-hukum
 - id: ev-ma-kasus-surya-darmadi-2023
   term_id: ma-reformasi-sekarang
-  date: "2023-09-19"
+  date: 2023-09-19
   category: pengadilan
   title_id: Putusan Kasasi / PK MA atas Korupsi Lahan Sawit Duta Palma Rp39 Triliun
-  summary_id: >-
-    Mahkamah Agung menjatuhkan vonis berkekuatan hukum tetap kepada bos Duta Palma Surya Darmadi,
-    menetapkan preseden penegakan hukum tindak pidana korupsi izin perkebunan kelapa sawit dalam kawasan hutan yang merugikan perekonomian negara skala masif.
-  source_ids: [putusan-pk-ma-surya-darmadi-2023]
-  dimension_ids: [negara-hukum, sila-5]
-
+  summary_id: Mahkamah Agung menjatuhkan vonis berkekuatan hukum tetap kepada bos
+    Duta Palma Surya Darmadi, menetapkan preseden penegakan hukum tindak pidana
+    korupsi izin perkebunan kelapa sawit dalam kawasan hutan yang merugikan
+    perekonomian negara skala masif.
+  source_ids:
+    - putusan-pk-ma-surya-darmadi-2023
+  dimension_ids:
+    - negara-hukum
+    - sila-5
 - id: ev-dpr-uu-ite-revisi-2024
   term_id: dpr-2019-2024
-  date: "2024-01-02"
+  date: 2024-01-02
   category: produk-hukum
   title_id: Pengesahan UU No. 1 Tahun 2024 tentang Perubahan Kedua UU ITE
-  summary_id: >-
-    DPR dan Pemerintah mengesahkan revisi kedua UU ITE yang merumuskan ulang norma pasal karet pencemaran nama baik,
-    menghapus ketentuan multitafsir penahanan preventif, dan menambahkan perlindungan hak anak di ranah digital.
-  source_ids: [uu-1-2024]
-  dimension_ids: [negara-hukum, sila-2]
-
+  summary_id: DPR dan Pemerintah mengesahkan revisi kedua UU ITE yang merumuskan
+    ulang norma pasal karet pencemaran nama baik, menghapus ketentuan
+    multitafsir penahanan preventif, dan menambahkan perlindungan hak anak di
+    ranah digital.
+  source_ids:
+    - uu-1-2024
+  dimension_ids:
+    - negara-hukum
+    - sila-2
 - id: ev-ma-putusan-batas-usia-pilkada-2024
   term_id: ma-reformasi-sekarang
-  date: "2024-05-29"
+  date: 2024-05-29
   category: pengadilan
-  title_id: Putusan MA No. 23 P/HUM/2024 tentang Batas Usia Calon Kepala Daerah Sejak Pelantikan
-  summary_id: >-
-    Mahkamah Agung mengabulkan uji materiil PKPU No. 9/2020 dengan mengubah tafsir syarat batas usia calon kepala daerah (30 tahun untuk gubernur)
-    dihitung sejak pelantikan pasangan calon terpilih, bukan saat penetapan paslon oleh KPU, yang kelak dikoreksi oleh Putusan MK No. 70/PUU-XXII/2024.
-  source_ids: [putusan-ma-23-p-hum-2024]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  title_id: Putusan MA No. 23 P/HUM/2024 tentang Batas Usia Calon Kepala Daerah
+    Sejak Pelantikan
+  summary_id: Mahkamah Agung mengabulkan uji materiil PKPU No. 9/2020 dengan
+    mengubah tafsir syarat batas usia calon kepala daerah (30 tahun untuk
+    gubernur) dihitung sejak pelantikan pasangan calon terpilih, bukan saat
+    penetapan paslon oleh KPU, yang kelak dikoreksi oleh Putusan MK No.
+    70/PUU-XXII/2024.
+  source_ids:
+    - putusan-ma-23-p-hum-2024
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-bpk-audit-kasus-timah-2024
   term_id: bpk-2019-sekarang
-  date: "2024-05-29"
+  date: 2024-05-29
   category: kebijakan
-  title_id: Audit Investigatif BPK Kasus Kerusakan Lingkungan & Korupsi Timah Rp300 Triliun
-  summary_id: >-
-    BPK RI bersama Kejaksaan Agung mengumumkan hasil audit penghitungan kerugian keuangan negara sebesar Rp300,003 triliun pada tata niaga timah PT Timah Tbk (2015–2022),
-    mencakup kerugian ekologis dan biaya pemulihan lingkungan akibat penambangan ilegal di kawasan hutan lindung Bangka Belitung.
-  source_ids: [laporan-audit-bpk-timah-2024]
-  dimension_ids: [sila-5, checks-balances]
-  actor_ids: [harvey-moeis]
+  title_id: Audit Investigatif BPK Kasus Kerusakan Lingkungan & Korupsi Timah
+    Rp300 Triliun
+  summary_id: BPK RI bersama Kejaksaan Agung mengumumkan hasil audit penghitungan
+    kerugian keuangan negara sebesar Rp300,003 triliun pada tata niaga timah PT
+    Timah Tbk (2015–2022), mencakup kerugian ekologis dan biaya pemulihan
+    lingkungan akibat penambangan ilegal di kawasan hutan lindung Bangka
+    Belitung.
+  source_ids:
+    - laporan-audit-bpk-timah-2024
+  dimension_ids:
+    - sila-5
+    - checks-balances
+  actor_ids:
+    - harvey-moeis
   subject_term_id: presiden-jokowi-ii
-  subject_basis_id: >-
-    Audit menyebut tegas periode tata niaga timah yang diperiksa, 2015-2022, yang berakhir di dalam masa
-    jabatan ini.
-
+  subject_basis_id: Audit menyebut tegas periode tata niaga timah yang diperiksa,
+    2015-2022, yang berakhir di dalam masa jabatan ini.
 - id: ev-dpr-uu-hpp-pps-2021
   term_id: dpr-2019-2024
-  date: "2021-10-29"
+  date: 2021-10-29
   category: produk-hukum
-  title_id: Pengesahan UU No. 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan (UU HPP)
-  summary_id: >-
-    DPR dan Pemerintah mengesahkan reformasi perpajakan yang menaikkan tarif PPN secara bertahap, memberlakukan pajak karbon,
-    dan menyelenggarakan Program Pengungkapan Sukarela (PPS / Tax Amnesty Jilid II) guna memperluas basis penerimaan negara.
-  source_ids: [uu-7-2021]
-  dimension_ids: [sila-5, tujuan-2]
-
+  title_id: Pengesahan UU No. 7 Tahun 2021 tentang Harmonisasi Peraturan
+    Perpajakan (UU HPP)
+  summary_id: DPR dan Pemerintah mengesahkan reformasi perpajakan yang menaikkan
+    tarif PPN secara bertahap, memberlakukan pajak karbon, dan menyelenggarakan
+    Program Pengungkapan Sukarela (PPS / Tax Amnesty Jilid II) guna memperluas
+    basis penerimaan negara.
+  source_ids:
+    - uu-7-2021
+  dimension_ids:
+    - sila-5
+    - tujuan-2
 - id: ev-mk-putusan-perpanjangan-kpk-2022
   term_id: mk-2018-2023
-  date: "2023-05-25"
+  date: 2023-05-25
   category: pengadilan
-  title_id: Putusan MK No. 112/PUU-XX/2022 Perpanjangan Masa Jabatan Pimpinan KPK Menjadi 5 Tahun
-  summary_id: >-
-    MK mengabulkan uji materiil Pasal 34 UU KPK yang diajukan pimpinan KPK Nurul Ghufron, memutuskan bahwa masa jabatan pimpinan KPK
-    diperpanjang dari 4 tahun menjadi 5 tahun untuk diselaraskan dengan masa jabatan pimpinan lembaga non-kementerian lainnya.
-  source_ids: [putusan-mk-112-puu-xx-2022]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  title_id: Putusan MK No. 112/PUU-XX/2022 Perpanjangan Masa Jabatan Pimpinan KPK
+    Menjadi 5 Tahun
+  summary_id: MK mengabulkan uji materiil Pasal 34 UU KPK yang diajukan pimpinan
+    KPK Nurul Ghufron, memutuskan bahwa masa jabatan pimpinan KPK diperpanjang
+    dari 4 tahun menjadi 5 tahun untuk diselaraskan dengan masa jabatan pimpinan
+    lembaga non-kementerian lainnya.
+  source_ids:
+    - putusan-mk-112-puu-xx-2022
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-mk-putusan-phpu-pilpres-2024
   term_id: mk-2023-sekarang
-  date: "2024-04-22"
+  date: 2024-04-22
   category: pengadilan
   title_id: Putusan MK No. 1 & 2/PHPU.PRES-XXII/2024 Sengketa Pilpres 2024
-  summary_id: >-
-    MK menolak seluruh permohonan perselisihan hasil pemilihan umum presiden dan wakil presiden yang diajukan paslon Anies-Muhaimin dan Ganjar-Mahfud
-    (dengan 3 hakim menyatakan dissenting opinion), menetapkan keabsahan kemenangan pasangan Prabowo Subianto - Gibran Rakabuming Raka.
-  source_ids: [putusan-mk-phpu-pilpres-2024]
-  dimension_ids: [kedaulatan-rakyat, negara-hukum]
-
+  summary_id: MK menolak seluruh permohonan perselisihan hasil pemilihan umum
+    presiden dan wakil presiden yang diajukan paslon Anies-Muhaimin dan
+    Ganjar-Mahfud (dengan 3 hakim menyatakan dissenting opinion), menetapkan
+    keabsahan kemenangan pasangan Prabowo Subianto - Gibran Rakabuming Raka.
+  source_ids:
+    - putusan-mk-phpu-pilpres-2024
+  dimension_ids:
+    - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-mk-putusan-spdp-7-hari-2015
   term_id: mk-2013-2018
-  date: "2017-01-11"
+  date: 2017-01-11
   category: pengadilan
   title_id: Putusan MK No. 130/PUU-XIII/2015 Kewajiban Penyampaian SPDP Maksimal 7 Hari
-  summary_id: >-
-    MK memutuskan bahwa penyidik kepolisian dan kejaksaan wajib menyerahkan Surat Pemberitahuan Dimulainya Penyidikan (SPDP)
-    kepada penuntut umum, terlapor, dan korban paling lambat 7 hari setelah terbitnya sprindik demi mencegah kesewenang-wenangan penetapan tersangka.
-  source_ids: [putusan-mk-130-puu-xiii-2015]
-  dimension_ids: [negara-hukum, sila-2]
-
+  summary_id: MK memutuskan bahwa penyidik kepolisian dan kejaksaan wajib
+    menyerahkan Surat Pemberitahuan Dimulainya Penyidikan (SPDP) kepada penuntut
+    umum, terlapor, dan korban paling lambat 7 hari setelah terbitnya sprindik
+    demi mencegah kesewenang-wenangan penetapan tersangka.
+  source_ids:
+    - putusan-mk-130-puu-xiii-2015
+  dimension_ids:
+    - negara-hukum
+    - sila-2
 - id: ev-dpr-uu-disabilitas-2016
   term_id: dpr-2014-2019
-  date: "2016-04-14"
+  date: 2016-04-14
   category: produk-hukum
   title_id: Pengesahan UU No. 8 Tahun 2016 tentang Penyandang Disabilitas
-  summary_id: >-
-    DPR mengesahkan undang-undang yang mengubah paradigma bantuan sosial (charity-based) menjadi pemenuhan hak asasi (human rights-based),
-    mewajibkan kuota kerja 2% di BUMN/Pemerintah dan 1% di swasta serta aksesibilitas fasilitas publik bagi penyandang disabilitas.
-  source_ids: [uu-8-2016]
-  dimension_ids: [sila-2, sila-5]
-
+  summary_id: DPR mengesahkan undang-undang yang mengubah paradigma bantuan sosial
+    (charity-based) menjadi pemenuhan hak asasi (human rights-based), mewajibkan
+    kuota kerja 2% di BUMN/Pemerintah dan 1% di swasta serta aksesibilitas
+    fasilitas publik bagi penyandang disabilitas.
+  source_ids:
+    - uu-8-2016
+  dimension_ids:
+    - sila-2
+    - sila-5
 - id: ev-mk-putusan-pasal-kumpul-kebo-2016
   term_id: mk-2013-2018
-  date: "2017-12-14"
+  date: 2017-12-14
   category: pengadilan
-  title_id: Putusan MK No. 46/PUU-XIV/2016 Menolak Kriminalisasi Delik Kesusilaan Melalui MK
-  summary_id: >-
-    MK menolak permohonan perluasan delik perzinaan dan hubungan sesama jenis dalam KUHP,
-    menegaskan bahwa kewenangan menciptakan delik pidana baru (kriminalisasi) adalah hak prerogatif pembentuk undang-undang (DPR dan Presiden), bukan Mahkamah Konstitusi.
-  source_ids: [putusan-mk-46-puu-xiv-2016]
-  dimension_ids: [negara-hukum, checks-balances]
-
+  title_id: Putusan MK No. 46/PUU-XIV/2016 Menolak Kriminalisasi Delik Kesusilaan
+    Melalui MK
+  summary_id: MK menolak permohonan perluasan delik perzinaan dan hubungan sesama
+    jenis dalam KUHP, menegaskan bahwa kewenangan menciptakan delik pidana baru
+    (kriminalisasi) adalah hak prerogatif pembentuk undang-undang (DPR dan
+    Presiden), bukan Mahkamah Konstitusi.
+  source_ids:
+    - putusan-mk-46-puu-xiv-2016
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
 - id: ev-bpk-audit-ektp-2017
   term_id: bpk-2009-2019
-  date: "2017-06-19"
+  date: 2017-06-19
   category: kebijakan
   title_id: Audit Investigatif BPK Kerugian Keuangan Negara Proyek e-KTP Rp2,31 Triliun
-  summary_id: >-
-    BPK RI merampungkan penghitungan kerugian keuangan negara pada proyek e-KTP sebesar Rp2,314 triliun (hampir 50% dari total nilai proyek Rp5,9 triliun),
-    menjadi bukti kunci persidangan tipikor yang menjerat pimpinan DPR RI dan pejabat Kemendagri.
-  source_ids: [laporan-audit-bpk-ektp-2017]
-  dimension_ids: [checks-balances, negara-hukum]
-  actor_ids: [setya-novanto]
+  summary_id: BPK RI merampungkan penghitungan kerugian keuangan negara pada
+    proyek e-KTP sebesar Rp2,314 triliun (hampir 50% dari total nilai proyek
+    Rp5,9 triliun), menjadi bukti kunci persidangan tipikor yang menjerat
+    pimpinan DPR RI dan pejabat Kemendagri.
+  source_ids:
+    - laporan-audit-bpk-ektp-2017
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+  actor_ids:
+    - setya-novanto
   subject_term_id: presiden-sby-ii
-  subject_basis_id: >-
-    Penghitungan kerugian negara BPK menyasar pengadaan paket e-KTP nasional yang dilaksanakan Kemendagri di
-    dalam masa jabatan ini, meski laporannya keluar 2017.
-
+  subject_basis_id: Penghitungan kerugian negara BPK menyasar pengadaan paket
+    e-KTP nasional yang dilaksanakan Kemendagri di dalam masa jabatan ini, meski
+    laporannya keluar 2017.
 - id: ev-ma-perma-gugatan-sederhana-2019
   term_id: ma-reformasi-sekarang
-  date: "2019-08-19"
+  date: 2019-08-19
   category: produk-hukum
-  title_id: PERMA No. 4 Tahun 2019 tentang Gugatan Sederhana (Small Claim Court) Maksimal Rp500 Juta
-  summary_id: >-
-    Mahkamah Agung memperluas batas nilai sengketa gugatan sederhana dari Rp200 juta menjadi Rp500 juta dan memperkenalkan e-court gugatan sederhana
-    demi mempermudah akses keadilan perdata bagi pelaku UMKM dan masyarakat berpenghasilan rendah tanpa proses persidangan berbelit-belit.
-  source_ids: [perma-4-2019]
-  dimension_ids: [negara-hukum, tujuan-2]
-
+  title_id: PERMA No. 4 Tahun 2019 tentang Gugatan Sederhana (Small Claim Court)
+    Maksimal Rp500 Juta
+  summary_id: Mahkamah Agung memperluas batas nilai sengketa gugatan sederhana
+    dari Rp200 juta menjadi Rp500 juta dan memperkenalkan e-court gugatan
+    sederhana demi mempermudah akses keadilan perdata bagi pelaku UMKM dan
+    masyarakat berpenghasilan rendah tanpa proses persidangan berbelit-belit.
+  source_ids:
+    - perma-4-2019
+  dimension_ids:
+    - negara-hukum
+    - tujuan-2
 - id: ev-mk-putusan-fidusia-2019
   term_id: mk-2018-2023
-  date: "2020-01-06"
+  date: 2020-01-06
   category: pengadilan
   title_id: Putusan MK No. 18/PUU-XVII/2019 tentang Eksekusi Jaminan Fidusia
-  summary_id: >-
-    MK memutuskan bahwa pihak leasing / kreditur tidak boleh menarik secara paksa objek jaminan fidusia (kendaraan/aset) dari debitur secara sepihak,
-    melainkan harus melalui pengajuan permohonan eksekusi ke pengadilan negeri jika debitur tidak mengakui adanya cidera janji (wanprestasi).
-  source_ids: [putusan-mk-18-puu-xvii-2019]
-  dimension_ids: [negara-hukum, sila-2]
-
+  summary_id: MK memutuskan bahwa pihak leasing / kreditur tidak boleh menarik
+    secara paksa objek jaminan fidusia (kendaraan/aset) dari debitur secara
+    sepihak, melainkan harus melalui pengajuan permohonan eksekusi ke pengadilan
+    negeri jika debitur tidak mengakui adanya cidera janji (wanprestasi).
+  source_ids:
+    - putusan-mk-18-puu-xvii-2019
+  dimension_ids:
+    - negara-hukum
+    - sila-2
 - id: ev-dpr-uu-tpks-2022
   term_id: dpr-2019-2024
-  date: "2022-04-12"
+  date: 2022-04-12
   category: produk-hukum
-  title_id: Pengesahan UU No. 12 Tahun 2022 tentang Tindak Pidana Kekerasan Seksual (UU TPKS)
-  summary_id: >-
-    DPR bersama Pemerintah mengesahkan payung hukum progresif perlindungan korban kekerasan seksual yang mengatur 9 jenis kekerasan seksual non-fisik dan fisik,
-    hak restitusi korban, dana bantuan korban (trust fund), dan larangan penyelesaian di luar proses peradilan (restorative justice untuk KS).
-  source_ids: [uu-12-2022]
-  dimension_ids: [sila-2, tujuan-1]
-
+  title_id: Pengesahan UU No. 12 Tahun 2022 tentang Tindak Pidana Kekerasan
+    Seksual (UU TPKS)
+  summary_id: DPR bersama Pemerintah mengesahkan payung hukum progresif
+    perlindungan korban kekerasan seksual yang mengatur 9 jenis kekerasan
+    seksual non-fisik dan fisik, hak restitusi korban, dana bantuan korban
+    (trust fund), dan larangan penyelesaian di luar proses peradilan
+    (restorative justice untuk KS).
+  source_ids:
+    - uu-12-2022
+  dimension_ids:
+    - sila-2
+    - tujuan-1
 - id: ev-presiden-uu-fir-ekstradisi-singapura-2023
   term_id: presiden-jokowi-ii
-  date: "2023-01-03"
+  date: 2023-01-03
   category: produk-hukum
-  title_id: Pengesahan UU Ekstradisi Buronan & Pengembalian FIR RI-Singapura (UU 3 & 5/2023)
-  summary_id: >-
-    Pemerintah dan DPR mengesahkan perjanjian bersejarah pengalihan kendali ruang udara Kepulauan Riau (FIR) dari Singapura ke Indonesia
-    serta perjanjian ekstradisi buronan korupsi dan kejahatan keuangan yang berlaku surut 18 tahun, memperkuat kedaulatan wilayah udara dan penegakan hukum lintas negara.
-  source_ids: [uu-3-2023, uu-5-2023]
-  dimension_ids: [tujuan-1, tujuan-4]
-
+  title_id: Pengesahan UU Ekstradisi Buronan & Pengembalian FIR RI-Singapura (UU 3
+    & 5/2023)
+  summary_id: Pemerintah dan DPR mengesahkan perjanjian bersejarah pengalihan
+    kendali ruang udara Kepulauan Riau (FIR) dari Singapura ke Indonesia serta
+    perjanjian ekstradisi buronan korupsi dan kejahatan keuangan yang berlaku
+    surut 18 tahun, memperkuat kedaulatan wilayah udara dan penegakan hukum
+    lintas negara.
+  source_ids:
+    - uu-3-2023
+    - uu-5-2023
+  dimension_ids:
+    - tujuan-1
+    - tujuan-4
 - id: ev-mpr-laporan-pphn-2024
   term_id: mpr-2019-2024
-  date: "2024-09-25"
+  date: 2024-09-25
   category: kebijakan
   title_id: Perumusan Dokumen Pokok-Pokok Haluan Negara (PPHN) oleh MPR RI
-  summary_id: >-
-    Badan Pengkajian MPR RI merampungkan naskah substansi Pokok-Pokok Haluan Negara (PPHN) sebagai pedoman arah pembangunan berkelanjutan jangka panjang 2025–2045,
-    merekomendasikan penguatan landasan hukum PPHN melalui konvensi ketatanegaraan atau undang-undang payung.
-  source_ids: [laporan-pphn-mpr-2024]
-  dimension_ids: [tujuan-2, kedaulatan-rakyat]
-
+  summary_id: Badan Pengkajian MPR RI merampungkan naskah substansi Pokok-Pokok
+    Haluan Negara (PPHN) sebagai pedoman arah pembangunan berkelanjutan jangka
+    panjang 2025–2045, merekomendasikan penguatan landasan hukum PPHN melalui
+    konvensi ketatanegaraan atau undang-undang payung.
+  source_ids:
+    - laporan-pphn-mpr-2024
+  dimension_ids:
+    - tujuan-2
+    - kedaulatan-rakyat
 - id: ev-ma-kasus-minyak-goreng-2024
   term_id: ma-reformasi-sekarang
-  date: "2024-05-15"
+  date: 2024-05-15
   category: pengadilan
   title_id: Putusan Kasasi MA Perkara Korupsi Persetujuan Ekspor CPO Minyak Goreng
-  summary_id: >-
-    Mahkamah Agung menjatuhkan hukuman pidana penjara dan uang pengganti kepada pejabat Kemendag dan petinggi korporasi sawit,
-    menegaskan delik korupsi manipulasi kuota Domestic Market Obligation (DMO) yang memicu kelangkaan minyak goreng dan penderitaan ekonomi rakyat banyak.
-  source_ids: [putusan-ma-kasus-minyak-goreng-2024]
-  dimension_ids: [sila-5, negara-hukum]
-  actor_ids: [indrasari-wisnu-wardhana]
+  summary_id: Mahkamah Agung menjatuhkan hukuman pidana penjara dan uang pengganti
+    kepada pejabat Kemendag dan petinggi korporasi sawit, menegaskan delik
+    korupsi manipulasi kuota Domestic Market Obligation (DMO) yang memicu
+    kelangkaan minyak goreng dan penderitaan ekonomi rakyat banyak.
+  source_ids:
+    - putusan-ma-kasus-minyak-goreng-2024
+  dimension_ids:
+    - sila-5
+    - negara-hukum
+  actor_ids:
+    - indrasari-wisnu-wardhana
   subject_term_id: presiden-jokowi-ii
-  subject_basis_id: >-
-    Putusan kasasi mengadili pejabat Kemendag atas manipulasi kuota DMO dan persetujuan ekspor CPO pada masa
-    kelangkaan minyak goreng di dalam masa jabatan ini.
-
+  subject_basis_id: Putusan kasasi mengadili pejabat Kemendag atas manipulasi
+    kuota DMO dan persetujuan ekspor CPO pada masa kelangkaan minyak goreng di
+    dalam masa jabatan ini.
 - id: ev-kriminalisasi-budi-pego-tumpang-pitu-2018
   term_id: ma-reformasi-sekarang
-  date: "2018-10-16"
+  date: 2018-10-16
   category: pengadilan
-  title_id: Kriminalisasi Aktivis Tolak Tambang Tumpang Pitu Budi Pego Menggunakan Pasal Komunisme
-  summary_id: >-
-    Pejuang lingkungan hidup Banyuwangi Heri Budiawan (Budi Pego) dipidana penjara 4 tahun melalui penerapan Pasal 107a KUHP (ajaran komunisme),
-    meski pembentangan spanduk berlogo palu arit dalam aksi unjuk rasa tolak tambang emas diduga kuat merupakan bentuk provokasi dan rekayasa kriminalisasi (SLAPP).
-  source_ids: [putusan-ma-budi-pego-2018]
-  dimension_ids: [negara-hukum, sila-2]
-
+  title_id: Kriminalisasi Aktivis Tolak Tambang Tumpang Pitu Budi Pego Menggunakan
+    Pasal Komunisme
+  summary_id: Pejuang lingkungan hidup Banyuwangi Heri Budiawan (Budi Pego)
+    dipidana penjara 4 tahun melalui penerapan Pasal 107a KUHP (ajaran
+    komunisme), meski pembentangan spanduk berlogo palu arit dalam aksi unjuk
+    rasa tolak tambang emas diduga kuat merupakan bentuk provokasi dan rekayasa
+    kriminalisasi (SLAPP).
+  source_ids:
+    - putusan-ma-budi-pego-2018
+  dimension_ids:
+    - negara-hukum
+    - sila-2
 - id: ev-amnesti-presiden-baiq-nuril-2019
   term_id: presiden-jokowi-i
-  date: "2019-07-29"
+  date: 2019-07-29
   category: peristiwa
-  title_id: Pemberian Amnesti Kepresidenan kepada Baiq Nuril Maknun Pasca Kriminalisasi UU ITE
-  summary_id: >-
-    Presiden Joko Widodo menggunakan hak prerogatif amnesti konstitusional (Pasal 14 ayat 2 UUD 1945) dengan persetujuan bulat DPR RI
-    untuk membebaskan Baiq Nuril Maknun dari vonis pidana UU ITE, memulihkan keadilan substantif bagi korban pelecehan seksual di tempat kerja.
-  source_ids: [keppres-22-2019]
-  dimension_ids: [sila-2, checks-balances]
-
+  title_id: Pemberian Amnesti Kepresidenan kepada Baiq Nuril Maknun Pasca
+    Kriminalisasi UU ITE
+  summary_id: Presiden Joko Widodo menggunakan hak prerogatif amnesti
+    konstitusional (Pasal 14 ayat 2 UUD 1945) dengan persetujuan bulat DPR RI
+    untuk membebaskan Baiq Nuril Maknun dari vonis pidana UU ITE, memulihkan
+    keadilan substantif bagi korban pelecehan seksual di tempat kerja.
+  source_ids:
+    - keppres-22-2019
+  dimension_ids:
+    - sila-2
+    - checks-balances
 - id: ev-skb-tiga-menteri-ite-2021
   term_id: presiden-jokowi-ii
-  date: "2021-06-23"
+  date: 2021-06-23
   category: produk-hukum
-  title_id: Penerbitan SKB Pedoman Implementasi Pasal Karet UU ITE Demi Mencegah Kriminalisasi
-  summary_id: >-
-    Pemerintah melalui Menkominfo, Jaksa Agung, dan Kapolri menerbitkan Keputusan Bersama Pedoman Kriteria Implementasi Pasal 27, 28, 29 UU ITE
-    guna mencegah disparitas penegakan hukum, menghentikan saling lapor antar-warga, dan mengedepankan pendekatan mediasi restorative justice.
-  source_ids: [skb-uu-ite-2021]
-  dimension_ids: [negara-hukum, kedaulatan-rakyat]
-
+  title_id: Penerbitan SKB Pedoman Implementasi Pasal Karet UU ITE Demi Mencegah
+    Kriminalisasi
+  summary_id: Pemerintah melalui Menkominfo, Jaksa Agung, dan Kapolri menerbitkan
+    Keputusan Bersama Pedoman Kriteria Implementasi Pasal 27, 28, 29 UU ITE guna
+    mencegah disparitas penegakan hukum, menghentikan saling lapor antar-warga,
+    dan mengedepankan pendekatan mediasi restorative justice.
+  source_ids:
+    - skb-uu-ite-2021
+  dimension_ids:
+    - negara-hukum
+    - kedaulatan-rakyat
 - id: ev-amnesti-presiden-saiful-mahdi-2021
   term_id: presiden-jokowi-ii
-  date: "2021-10-12"
+  date: 2021-10-12
   category: peristiwa
-  title_id: Pemberian Amnesti Kepresidenan kepada Dr. Saiful Mahdi atas Kriminalisasi Kritik Akademik
-  summary_id: >-
-    Presiden memberikan amnesti melalui Keppres No. 17/2021 kepada dosen Unsyiah Dr. Saiful Mahdi yang divonis 3 bulan penjara akibat mengkritik proses seleksi CPNS di grup percakapan dosen,
-    menegaskan perlindungan terhadap kebebasan mimbar akademik dan hak bersuara warga negara.
-  source_ids: [keppres-17-2021]
-  dimension_ids: [kedaulatan-rakyat, checks-balances]
-
+  title_id: Pemberian Amnesti Kepresidenan kepada Dr. Saiful Mahdi atas
+    Kriminalisasi Kritik Akademik
+  summary_id: Presiden memberikan amnesti melalui Keppres No. 17/2021 kepada dosen
+    Unsyiah Dr. Saiful Mahdi yang divonis 3 bulan penjara akibat mengkritik
+    proses seleksi CPNS di grup percakapan dosen, menegaskan perlindungan
+    terhadap kebebasan mimbar akademik dan hak bersuara warga negara.
+  source_ids:
+    - keppres-17-2021
+  dimension_ids:
+    - kedaulatan-rakyat
+    - checks-balances
 - id: ev-dpr-kuhp-nasional-baru-2023
   term_id: dpr-2019-2024
-  date: "2023-01-02"
+  date: 2023-01-02
   category: produk-hukum
-  title_id: Pengesahan UU No. 1 Tahun 2023 tentang KUHP Nasional (Dekriminalisasi & Pemaafan Hakim)
-  summary_id: >-
-    DPR dan Pemerintah mengesahkan KUHP Nasional baru menggantikan Wetboek van Strafrecht warisan Hindia Belanda,
-    memperkenalkan pidana kerja sosial dan pidana pengawasan sebagai alternatif penjara, serta mengadopsi asas pemaafan hakim (judicial pardon) untuk mencegah kriminalisasi berlebihan.
-  source_ids: [uu-1-2023]
-  dimension_ids: [negara-hukum, sila-2]
-
+  title_id: Pengesahan UU No. 1 Tahun 2023 tentang KUHP Nasional (Dekriminalisasi
+    & Pemaafan Hakim)
+  summary_id: DPR dan Pemerintah mengesahkan KUHP Nasional baru menggantikan
+    Wetboek van Strafrecht warisan Hindia Belanda, memperkenalkan pidana kerja
+    sosial dan pidana pengawasan sebagai alternatif penjara, serta mengadopsi
+    asas pemaafan hakim (judicial pardon) untuk mencegah kriminalisasi
+    berlebihan.
+  source_ids:
+    - uu-1-2023
+  dimension_ids:
+    - negara-hukum
+    - sila-2
 - id: ev-vonis-bebas-haris-fatia-2024
   term_id: ma-reformasi-sekarang
-  date: "2024-01-08"
+  date: 2024-01-08
   category: pengadilan
-  title_id: Vonis Bebas Murni Haris Azhar dan Fatia Maulidiyanti oleh Pengadilan Negeri & Kasasi MA
-  summary_id: >-
-    Majelis Hakim memvonis bebas murni dua aktivis HAM Haris Azhar dan Fatia Maulidiyanti dari dakwaan pencemaran nama baik pejabat negara (Luhut Binsar Pandjaitan),
-    menegaskan bahwa riset keterkaitan oligarki dan eksploitasi militer-tambang di Intan Jaya Papua adalah bagian sah dari partisipasi publik dan bukan tindak pidana.
-  source_ids: [putusan-pn-jaktim-haris-fatia-2024, putusan-ma-haris-fatia-2024]
-  dimension_ids: [kedaulatan-rakyat, negara-hukum]
-
+  title_id: Vonis Bebas Murni Haris Azhar dan Fatia Maulidiyanti oleh Pengadilan
+    Negeri & Kasasi MA
+  summary_id: Majelis Hakim memvonis bebas murni dua aktivis HAM Haris Azhar dan
+    Fatia Maulidiyanti dari dakwaan pencemaran nama baik pejabat negara (Luhut
+    Binsar Pandjaitan), menegaskan bahwa riset keterkaitan oligarki dan
+    eksploitasi militer-tambang di Intan Jaya Papua adalah bagian sah dari
+    partisipasi publik dan bukan tindak pidana.
+  source_ids:
+    - putusan-pn-jaktim-haris-fatia-2024
+    - putusan-ma-haris-fatia-2024
+  dimension_ids:
+    - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-vonis-bebas-anti-slapp-daniel-frits-2024
   term_id: ma-reformasi-sekarang
-  date: "2024-05-21"
+  date: 2024-05-21
   category: pengadilan
-  title_id: Putusan Bebas PT Semarang Kasus Daniel Frits Menegaskan Perlindungan Anti-SLAPP Pejuang Lingkungan
-  summary_id: >-
-    Pengadilan Tinggi Semarang membatalkan vonis bersalah dan membebaskan aktivis lingkungan Karimunjawa Daniel Frits Tangkilisan,
-    menerapkan norma Anti-SLAPP Pasal 66 UU PPLH yang menegaskan setiap orang yang memperjuangkan hak atas lingkungan hidup yang baik dan sehat tidak dapat dituntut secara pidana maupun digugat perdata.
-  source_ids: [putusan-pt-semarang-daniel-frits-2024]
-  dimension_ids: [negara-hukum, sila-2]
-
+  title_id: Putusan Bebas PT Semarang Kasus Daniel Frits Menegaskan Perlindungan
+    Anti-SLAPP Pejuang Lingkungan
+  summary_id: Pengadilan Tinggi Semarang membatalkan vonis bersalah dan
+    membebaskan aktivis lingkungan Karimunjawa Daniel Frits Tangkilisan,
+    menerapkan norma Anti-SLAPP Pasal 66 UU PPLH yang menegaskan setiap orang
+    yang memperjuangkan hak atas lingkungan hidup yang baik dan sehat tidak
+    dapat dituntut secara pidana maupun digugat perdata.
+  source_ids:
+    - putusan-pt-semarang-daniel-frits-2024
+  dimension_ids:
+    - negara-hukum
+    - sila-2
 - id: ev-perppu-ormas-pembubaran-hti-2017
   term_id: presiden-jokowi-i
-  date: "2017-07-10"
+  date: 2017-07-10
   category: produk-hukum
   title_id: Perppu No. 2/2017 tentang Ormas dan Pembubaran Hizbut Tahrir Indonesia (HTI)
-  summary_id: >-
-    Pemerintah menerbitkan Perppu Ormas yang menghapus mekanisme pembubaran ormas melalui pengadilan (contrarius actus),
-    mencabut status badan hukum HTI atas dasar ideologi khilafah yang bertentangan dengan Pancasila dan kedaulatan NKRI.
-  source_ids: [perppu-2-2017]
-  dimension_ids: [sila-1, sila-3]
-
+  summary_id: Pemerintah menerbitkan Perppu Ormas yang menghapus mekanisme
+    pembubaran ormas melalui pengadilan (contrarius actus), mencabut status
+    badan hukum HTI atas dasar ideologi khilafah yang bertentangan dengan
+    Pancasila dan kedaulatan NKRI.
+  source_ids:
+    - perppu-2-2017
+  dimension_ids:
+    - sila-1
+    - sila-3
 - id: ev-ptun-putusan-blokir-internet-papua-2020
   term_id: ma-reformasi-sekarang
-  date: "2020-06-03"
+  date: 2020-06-03
   category: pengadilan
   title_id: Putusan PTUN Jakarta Pemblokiran Internet di Papua Melanggar Hukum
-  summary_id: >-
-    PTUN Jakarta mengabulkan gugatan koalisi masyarakat sipil, menyatakan tindakan Presiden dan Menkominfo yang memperlambat dan memutus akses internet di Papua dan Papua Barat
-    pasca kerusuhan 2019 adalah perbuatan melanggar hukum oleh badan/pejabat pemerintahan (Onrechtmatige Overheidsdaad).
-  source_ids: [putusan-ptun-papua-internet-2020]
-  dimension_ids: [negara-hukum, sila-2]
-
+  summary_id: PTUN Jakarta mengabulkan gugatan koalisi masyarakat sipil,
+    menyatakan tindakan Presiden dan Menkominfo yang memperlambat dan memutus
+    akses internet di Papua dan Papua Barat pasca kerusuhan 2019 adalah
+    perbuatan melanggar hukum oleh badan/pejabat pemerintahan (Onrechtmatige
+    Overheidsdaad).
+  source_ids:
+    - putusan-ptun-papua-internet-2020
+  dimension_ids:
+    - negara-hukum
+    - sila-2
 - id: ev-skb-pelarangan-fpi-2020
   term_id: presiden-jokowi-ii
-  date: "2020-12-30"
+  date: 2020-12-30
   category: kebijakan
-  title_id: Surat Keputusan Bersama 6 Menteri/Lembaga Pelarangan Kegiatan Front Pembela Islam (FPI)
-  summary_id: >-
-    Pemerintah menghentikan kegiatan dan melarang penggunaan simbol Front Pembela Islam (FPI) sebagai organisasi terlarang,
-    menegaskan komitmen penegakan ketertiban umum, kepatuhan hukum, dan pencegahan tindakan sweeping/main hakim sendiri yang mengancam kebinekaan.
-  source_ids: [skb-6-lembaga-fpi-2020]
-  dimension_ids: [sila-3, negara-hukum]
-
+  title_id: Surat Keputusan Bersama 6 Menteri/Lembaga Pelarangan Kegiatan Front
+    Pembela Islam (FPI)
+  summary_id: Pemerintah menghentikan kegiatan dan melarang penggunaan simbol
+    Front Pembela Islam (FPI) sebagai organisasi terlarang, menegaskan komitmen
+    penegakan ketertiban umum, kepatuhan hukum, dan pencegahan tindakan
+    sweeping/main hakim sendiri yang mengancam kebinekaan.
+  source_ids:
+    - skb-6-lembaga-fpi-2020
+  dimension_ids:
+    - sila-3
+    - negara-hukum
 - id: ev-ma-kasasi-asabri-2023
   term_id: ma-reformasi-sekarang
-  date: "2023-02-15"
+  date: 2023-02-15
   category: pengadilan
-  title_id: Putusan Kasasi MA Memvonis Pidana Penjara & Uang Pengganti Kasus Mega Korupsi ASABRI Rp22,78 Triliun
-  summary_id: >-
-    Mahkamah Agung menjatuhkan vonis pidana penjara hingga 20 tahun dan kewajiban membayar uang pengganti belasan triliun rupiah kepada para terpidana megakorupsi ASABRI,
-    menegaskan ketegasan yudisial dalam melindungi integritas dana pensiun prajurit pertahanan dan keamanan negara.
-  source_ids: [putusan-ma-asabri-2023]
-  dimension_ids: [checks-balances, negara-hukum]
+  title_id: Putusan Kasasi MA Memvonis Pidana Penjara & Uang Pengganti Kasus Mega
+    Korupsi ASABRI Rp22,78 Triliun
+  summary_id: Mahkamah Agung menjatuhkan vonis pidana penjara hingga 20 tahun dan
+    kewajiban membayar uang pengganti belasan triliun rupiah kepada para
+    terpidana megakorupsi ASABRI, menegaskan ketegasan yudisial dalam melindungi
+    integritas dana pensiun prajurit pertahanan dan keamanan negara.
+  source_ids:
+    - putusan-ma-asabri-2023
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
   subject_term_id: presiden-jokowi-i
-  subject_basis_id: >-
-    Perkara yang diadili adalah megakorupsi pengelolaan dana investasi PT ASABRI, objek audit yang sama
-    dengan LHP BPK 2021.
-
+  subject_basis_id: Perkara yang diadili adalah megakorupsi pengelolaan dana
+    investasi PT ASABRI, objek audit yang sama dengan LHP BPK 2021.
 - id: ev-keppres-satgas-blbi-2021
   term_id: presiden-jokowi-ii
-  date: "2021-04-06"
+  date: 2021-04-06
   category: produk-hukum
-  title_id: Keppres No. 6 Tahun 2021 tentang Pembentukan Satuan Tugas Hak Tagih BLBI (Satgas BLBI)
-  summary_id: >-
-    Presiden membentuk Satgas BLBI antar-kementerian/lembaga untuk memburu dan menyita aset obligor/debitur BLBI senilai total hak tagih negara Rp110,45 triliun,
-    menggunakan instrumen pemblokiran rekening, pencegahan ke luar negeri, dan penyitaan aset properti secara masif.
-  source_ids: [keppres-6-2021]
-  dimension_ids: [tujuan-2, checks-balances]
-
+  title_id: Keppres No. 6 Tahun 2021 tentang Pembentukan Satuan Tugas Hak Tagih
+    BLBI (Satgas BLBI)
+  summary_id: Presiden membentuk Satgas BLBI antar-kementerian/lembaga untuk
+    memburu dan menyita aset obligor/debitur BLBI senilai total hak tagih negara
+    Rp110,45 triliun, menggunakan instrumen pemblokiran rekening, pencegahan ke
+    luar negeri, dan penyitaan aset properti secara masif.
+  source_ids:
+    - keppres-6-2021
+  dimension_ids:
+    - tujuan-2
+    - checks-balances
 - id: ev-dpr-pemekaran-dob-papua-2022
   term_id: dpr-2019-2024
-  date: "2022-06-30"
+  date: 2022-06-30
   category: produk-hukum
   title_id: Pengesahan 4 UU Pembentukan Provinsi Baru Pemekaran Papua (DOB Papua)
-  summary_id: >-
-    DPR bersama Pemerintah mengesahkan UU pembentukan Provinsi Papua Selatan, Papua Tengah, Papua Pegunungan, dan Papua Barat Daya
-    guna memperpendek rentang kendali pelayanan publik, mempercepat pemerataan pembangunan kesejahteraan, dan mengangkat harkat martabat Orang Asli Papua (OAP).
-  source_ids: [uu-14-2022, uu-15-2022, uu-16-2022, uu-29-2022]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: DPR bersama Pemerintah mengesahkan UU pembentukan Provinsi Papua
+    Selatan, Papua Tengah, Papua Pegunungan, dan Papua Barat Daya guna
+    memperpendek rentang kendali pelayanan publik, mempercepat pemerataan
+    pembangunan kesejahteraan, dan mengangkat harkat martabat Orang Asli Papua
+    (OAP).
+  source_ids:
+    - uu-14-2022
+    - uu-15-2022
+    - uu-16-2022
+    - uu-29-2022
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-mkh-ky-ma-integritas-hakim-2023
   term_id: ky-2020-sekarang
-  date: "2023-08-10"
+  date: 2023-08-10
   category: kebijakan
-  title_id: Sidang Majelis Kehormatan Hakim KY-MA dan Reformasi Penugasan Perkara Peradilan Pasca OTT MA
-  summary_id: >-
-    Komisi Yudisial dan Mahkamah Agung menggelar serangkaian sidang MKH yang menjatuhkan sanksi pemberhentian tidak dengan hormat kepada hakim yang terbukti suap,
-    serta memberlakukan sistem penunjukan majelis hakim kasasi berbasis robotik/kecerdasan buatan (e-Court lotting) untuk memutus rantai mafia peradilan.
-  source_ids: [laporan-sidang-mkh-ky-ma-2023]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  title_id: Sidang Majelis Kehormatan Hakim KY-MA dan Reformasi Penugasan Perkara
+    Peradilan Pasca OTT MA
+  summary_id: Komisi Yudisial dan Mahkamah Agung menggelar serangkaian sidang MKH
+    yang menjatuhkan sanksi pemberhentian tidak dengan hormat kepada hakim yang
+    terbukti suap, serta memberlakukan sistem penunjukan majelis hakim kasasi
+    berbasis robotik/kecerdasan buatan (e-Court lotting) untuk memutus rantai
+    mafia peradilan.
+  source_ids:
+    - laporan-sidang-mkh-ky-ma-2023
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-perpres-publisher-rights-2024
   term_id: presiden-jokowi-ii
-  date: "2024-02-20"
+  date: 2024-02-20
   category: produk-hukum
   title_id: Perpres No. 32/2024 tentang Publisher Rights untuk Jurnalisme Berkualitas
-  summary_id: >-
-    Presiden mengesahkan Perpres Tanggung Jawab Platform Digital untuk Jurnalisme Berkualitas,
-    mewajibkan platform digital global bermitra dengan perusahaan pers nasional guna memastikan bagi hasil yang adil dan menjaga keberlanjutan media massa independen.
-  source_ids: [perpres-32-2024]
-  dimension_ids: [kedaulatan-rakyat, tujuan-3]
-
+  summary_id: Presiden mengesahkan Perpres Tanggung Jawab Platform Digital untuk
+    Jurnalisme Berkualitas, mewajibkan platform digital global bermitra dengan
+    perusahaan pers nasional guna memastikan bagi hasil yang adil dan menjaga
+    keberlanjutan media massa independen.
+  source_ids:
+    - perpres-32-2024
+  dimension_ids:
+    - kedaulatan-rakyat
+    - tujuan-3
 - id: ev-ombudsman-komnas-twk-kpk-2021
   term_id: presiden-jokowi-ii
-  date: "2021-07-21"
+  date: 2021-07-21
   category: peristiwa
-  title_id: Temuan Maladministrasi Ombudsman & Pelanggaran HAM Komnas HAM dalam Asesmen TWK KPK
-  summary_id: >-
-    Ombudsman RI dan Komnas HAM menemukan maladministrasi, penyelundupan pasal, dan 11 bentuk pelanggaran HAM dalam pelaksanaan asesmen TWK yang menyingkirkan 57 pegawai KPK,
-    namun rekomendasi tindakan korektif kedua lembaga negara pengawas tersebut diabaikan oleh pimpinan KPK dan BKN (kesenjangan penegakan hukum pengawasan).
-  source_ids: [laporan-ombudsman-twk-kpk-2021, laporan-komnas-ham-twk-kpk-2021]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  title_id: Temuan Maladministrasi Ombudsman & Pelanggaran HAM Komnas HAM dalam
+    Asesmen TWK KPK
+  summary_id: Ombudsman RI dan Komnas HAM menemukan maladministrasi, penyelundupan
+    pasal, dan 11 bentuk pelanggaran HAM dalam pelaksanaan asesmen TWK yang
+    menyingkirkan 57 pegawai KPK, namun rekomendasi tindakan korektif kedua
+    lembaga negara pengawas tersebut diabaikan oleh pimpinan KPK dan BKN
+    (kesenjangan penegakan hukum pengawasan).
+  source_ids:
+    - laporan-ombudsman-twk-kpk-2021
+    - laporan-komnas-ham-twk-kpk-2021
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-perppu-ciptaker-by-pass-mk-2022
   term_id: presiden-jokowi-ii
-  date: "2022-12-30"
+  date: 2022-12-30
   category: produk-hukum
-  title_id: Penerbitan Perppu No. 2/2022 Cipta Kerja Menerobos Putusan Inkonstitusional Bersyarat MK
-  summary_id: >-
-    Pemerintah menerbitkan Perppu Cipta Kerja menggantikan UU No. 11/2020 yang dinyatakan inkonstitusional bersyarat oleh MK dalam Putusan No. 91/PUU-XVIII/2020,
-    memicu kritik keras akademisi hukum tata negara atas dugaan pembangkangan konstitusi dan penerobosan syarat partisipasi publik bermakna (meaningful participation).
-  source_ids: [perppu-2-2022]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  title_id: Penerbitan Perppu No. 2/2022 Cipta Kerja Menerobos Putusan
+    Inkonstitusional Bersyarat MK
+  summary_id: Pemerintah menerbitkan Perppu Cipta Kerja menggantikan UU No.
+    11/2020 yang dinyatakan inkonstitusional bersyarat oleh MK dalam Putusan No.
+    91/PUU-XVIII/2020, memicu kritik keras akademisi hukum tata negara atas
+    dugaan pembangkangan konstitusi dan penerobosan syarat partisipasi publik
+    bermakna (meaningful participation).
+  source_ids:
+    - perppu-2-2022
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
 - id: ev-konflik-agraria-psn-wadas-2022
   term_id: presiden-jokowi-ii
-  date: "2022-02-08"
+  date: 2022-02-08
   category: krisis
   title_id: Pengerahan Aparat & Konflik Agraria Pengukuran Lahan Tambang PSN Desa Wadas
-  summary_id: >-
-    Pengerahan ribuan personel kepolisian bersenjata lengkap dalam proses pengukuran lahan tambang batu andesit Proyek Strategis Nasional (PSN) Bendungan Bener
-    berujung pada pengepungan desa, kekerasan fisik, dan penangkapan sewenang-wenang puluhan warga Wadas yang menolak tambang di tanah pertanian mereka.
-  source_ids: [laporan-komnas-ham-wadas-2022]
-  dimension_ids: [sila-2, negara-hukum]
-
+  summary_id: Pengerahan ribuan personel kepolisian bersenjata lengkap dalam
+    proses pengukuran lahan tambang batu andesit Proyek Strategis Nasional (PSN)
+    Bendungan Bener berujung pada pengepungan desa, kekerasan fisik, dan
+    penangkapan sewenang-wenang puluhan warga Wadas yang menolak tambang di
+    tanah pertanian mereka.
+  source_ids:
+    - laporan-komnas-ham-wadas-2022
+  dimension_ids:
+    - sila-2
+    - negara-hukum
 - id: ev-bpk-evaluasi-kinerja-dana-desa-2022
   term_id: bpk-2019-sekarang
-  date: "2022-10-18"
+  date: 2022-10-18
   category: kebijakan
-  title_id: Audit Kinerja BPK Pengelolaan Dana Desa Rp468 Triliun & Kesenjangan Tata Kelola
-  summary_id: >-
-    BPK RI mengungkap tingginya angka penyimpangan pengelolaan dana desa, lemahnya kapasitas aparatur desa,
-    dan maraknya kasus tipikor kepala desa akibat minimnya sistem pengawasan terpadu di tingkat kabupaten/kota meski transfer anggaran telah menembus Rp468 triliun.
-  source_ids: [laporan-bpk-evaluasi-dana-desa-2022]
-  dimension_ids: [checks-balances, tujuan-2]
+  title_id: Audit Kinerja BPK Pengelolaan Dana Desa Rp468 Triliun & Kesenjangan
+    Tata Kelola
+  summary_id: BPK RI mengungkap tingginya angka penyimpangan pengelolaan dana
+    desa, lemahnya kapasitas aparatur desa, dan maraknya kasus tipikor kepala
+    desa akibat minimnya sistem pengawasan terpadu di tingkat kabupaten/kota
+    meski transfer anggaran telah menembus Rp468 triliun.
+  source_ids:
+    - laporan-bpk-evaluasi-dana-desa-2022
+  dimension_ids:
+    - checks-balances
+    - tujuan-2
   subject_term_id: presiden-jokowi-ii
-  subject_basis_id: >-
-    Pemeriksaan kinerja menyasar pengelolaan dana desa yang berjalan di dalam masa jabatan ini.
-
+  subject_basis_id: Pemeriksaan kinerja menyasar pengelolaan dana desa yang
+    berjalan di dalam masa jabatan ini.
 - id: ev-kasasi-polusi-udara-jakarta-2023
   term_id: ma-reformasi-sekarang
-  date: "2023-11-13"
+  date: 2023-11-13
   category: pengadilan
-  title_id: Putusan Kasasi MA Gugatan Polusi Udara Jakarta & Kesenjangan Eksekusi Kebijakan Emisi
-  summary_id: >-
-    Mahkamah Agung menolak permohonan kasasi Presiden RI dan Menkes, menguatkan vonis bahwa pemerintah lalai dalam menjamin hak atas udara bersih bagi warga Jakarta,
-    meski implementasi riil pengetatan emisi PLTU dan standardisasi uji kendaraan di lapangan masih menghadapi kendala koordinasi lintas kementerian.
-  source_ids: [putusan-kasasi-polusi-udara-2023]
-  dimension_ids: [negara-hukum, tujuan-2]
-
+  title_id: Putusan Kasasi MA Gugatan Polusi Udara Jakarta & Kesenjangan Eksekusi
+    Kebijakan Emisi
+  summary_id: Mahkamah Agung menolak permohonan kasasi Presiden RI dan Menkes,
+    menguatkan vonis bahwa pemerintah lalai dalam menjamin hak atas udara bersih
+    bagi warga Jakarta, meski implementasi riil pengetatan emisi PLTU dan
+    standardisasi uji kendaraan di lapangan masih menghadapi kendala koordinasi
+    lintas kementerian.
+  source_ids:
+    - putusan-kasasi-polusi-udara-2023
+  dimension_ids:
+    - negara-hukum
+    - tujuan-2
 - id: ev-konflik-agraria-psn-rempang-2023
   term_id: presiden-jokowi-ii
-  date: "2023-09-07"
+  date: 2023-09-07
   category: krisis
   title_id: Konflik Agraria & Tindakan Represif Pematokan Lahan PSN Rempang Eco-City
-  summary_id: >-
-    Bentrokan aparat gabungan dengan masyarakat adat 16 Kampung Tua Pulau Rempang menyusul rencana relokasi paksa demi proyek investasi PSN Rempang Eco-City,
-    menghasilkan temuan pelanggaran HAM oleh Komnas HAM atas penembakan gas air mata di dekat sekolah dan pengabaian prinsip persetujuan bebas tanpa paksaan (FPIC).
-  source_ids: [laporan-komnas-ham-rempang-2023]
-  dimension_ids: [sila-2, sila-5]
-
+  summary_id: Bentrokan aparat gabungan dengan masyarakat adat 16 Kampung Tua
+    Pulau Rempang menyusul rencana relokasi paksa demi proyek investasi PSN
+    Rempang Eco-City, menghasilkan temuan pelanggaran HAM oleh Komnas HAM atas
+    penembakan gas air mata di dekat sekolah dan pengabaian prinsip persetujuan
+    bebas tanpa paksaan (FPIC).
+  source_ids:
+    - laporan-komnas-ham-rempang-2023
+  dimension_ids:
+    - sila-2
+    - sila-5
 - id: ev-eksekusi-ganti-rugi-karhutla-2023
   term_id: ma-reformasi-sekarang
-  date: "2023-12-28"
+  date: 2023-12-28
   category: pengadilan
-  title_id: Kesenjangan Eksekusi Ganti Rugi Perdata Karhutla Belasan Triliun Rupiah Korporasi Pembakar Hutan
-  summary_id: >-
-    Meski KLHK memenangkan putusan kasasi/PK di Mahkamah Agung atas gugatan perdata ganti rugi kebakaran hutan bernilai belasan triliun rupiah,
-    proses eksekusi riil pembayaran ganti rugi dan pemulihan lingkungan di pengadilan negeri mengalami kemacetan birokrasi dan resistensi hukum korporasi sawit/HTI.
-  source_ids: [laporan-eksekusi-karhutla-klhk-2023]
-  dimension_ids: [negara-hukum, sila-5]
-
+  title_id: Kesenjangan Eksekusi Ganti Rugi Perdata Karhutla Belasan Triliun
+    Rupiah Korporasi Pembakar Hutan
+  summary_id: Meski KLHK memenangkan putusan kasasi/PK di Mahkamah Agung atas
+    gugatan perdata ganti rugi kebakaran hutan bernilai belasan triliun rupiah,
+    proses eksekusi riil pembayaran ganti rugi dan pemulihan lingkungan di
+    pengadilan negeri mengalami kemacetan birokrasi dan resistensi hukum
+    korporasi sawit/HTI.
+  source_ids:
+    - laporan-eksekusi-karhutla-klhk-2023
+  dimension_ids:
+    - negara-hukum
+    - sila-5
 - id: ev-politisasi-bansos-pemilu-2024
   term_id: presiden-jokowi-ii
-  date: "2024-02-10"
+  date: 2024-02-10
   category: kebijakan
-  title_id: Penyaluran Bansos Masif Menjelang Pemilu 2024 & Dissenting Opinion Hakim Konstitusi
-  summary_id: >-
-    Penyaluran bantuan sosial senilai Rp497 triliun (termasuk bansos El Nino dan beras pangan) yang dipercepat dan didistribusikan langsung oleh menteri kabinet menjelang hari pemungutan suara
-    menjadi sorotan tajam integritas pemilu yang dicatat secara eksplisit dalam dissenting opinion 3 hakim Mahkamah Konstitusi.
-  source_ids: [laporan-dissenting-bansos-pilpres-2024]
-  dimension_ids: [kedaulatan-rakyat, checks-balances]
-
+  title_id: Penyaluran Bansos Masif Menjelang Pemilu 2024 & Dissenting Opinion
+    Hakim Konstitusi
+  summary_id: Penyaluran bantuan sosial senilai Rp497 triliun (termasuk bansos El
+    Nino dan beras pangan) yang dipercepat dan didistribusikan langsung oleh
+    menteri kabinet menjelang hari pemungutan suara menjadi sorotan tajam
+    integritas pemilu yang dicatat secara eksplisit dalam dissenting opinion 3
+    hakim Mahkamah Konstitusi.
+  source_ids:
+    - laporan-dissenting-bansos-pilpres-2024
+  dimension_ids:
+    - kedaulatan-rakyat
+    - checks-balances
 - id: ev-baleg-dpr-ruu-pilkada-darurat-2024
   term_id: dpr-2019-2024
-  date: "2024-08-21"
+  date: 2024-08-21
   category: krisis
-  title_id: Upaya Kilat Baleg DPR Merevisi UU Pilkada Menerobos Putusan MK No. 60 & 70/2024
-  summary_id: >-
-    Badan Legislasi DPR menyepakati draf revisi kilat UU Pilkada dalam hitungan jam untuk mengakali Putusan MK No. 60 & 70/2024 (terkait ambang batas pencalonan dan batas usia calon),
-    yang langsung memicu gelombang unjuk rasa massal 'Peringatan Darurat' di seluruh Indonesia hingga DPR membatalkan pengesahan RUU tersebut.
-  source_ids: [risalah-baleg-dpr-pilkada-2024]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  title_id: Upaya Kilat Baleg DPR Merevisi UU Pilkada Menerobos Putusan MK No. 60
+    & 70/2024
+  summary_id: Badan Legislasi DPR menyepakati draf revisi kilat UU Pilkada dalam
+    hitungan jam untuk mengakali Putusan MK No. 60 & 70/2024 (terkait ambang
+    batas pencalonan dan batas usia calon), yang langsung memicu gelombang unjuk
+    rasa massal 'Peringatan Darurat' di seluruh Indonesia hingga DPR membatalkan
+    pengesahan RUU tersebut.
+  source_ids:
+    - risalah-baleg-dpr-pilkada-2024
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-evaluasi-komposisi-anggaran-pendidikan-2024
   term_id: dpr-2019-2024
-  date: "2024-07-15"
+  date: 2024-07-15
   category: kebijakan
-  title_id: Evaluasi Kemenkeu & DPR atas Distorsi Alokasi 20% Anggaran Pendidikan Konstitusional
-  summary_id: >-
-    Pansus Anggaran DPR bersama pengamat pendidikan menyoroti praktik akuntansi anggaran di mana alokasi 20% pendidikan APBN (Rp665T)
-    banyak terserap untuk kedinasan kementerian teknis, transfer dana desa, dan belanja non-pendidikan langsung, mendistorsi amanat konstitusi Pasal 31 ayat 4 UUD 1945.
-  source_ids: [laporan-evaluasi-20-persen-anggaran-pendidikan-2024]
-  dimension_ids: [tujuan-3, sila-5]
-
+  title_id: Evaluasi Kemenkeu & DPR atas Distorsi Alokasi 20% Anggaran Pendidikan
+    Konstitusional
+  summary_id: Pansus Anggaran DPR bersama pengamat pendidikan menyoroti praktik
+    akuntansi anggaran di mana alokasi 20% pendidikan APBN (Rp665T) banyak
+    terserap untuk kedinasan kementerian teknis, transfer dana desa, dan belanja
+    non-pendidikan langsung, mendistorsi amanat konstitusi Pasal 31 ayat 4 UUD
+    1945.
+  source_ids:
+    - laporan-evaluasi-20-persen-anggaran-pendidikan-2024
+  dimension_ids:
+    - tujuan-3
+    - sila-5
 - id: ev-keppres-hari-lahir-pancasila-2016
   term_id: presiden-jokowi-i
-  date: "2016-06-01"
+  date: 2016-06-01
   category: produk-hukum
-  title_id: Keppres No. 24 Tahun 2016 tentang Hari Lahir Pancasila 1 Juni Hari Libur Nasional
-  summary_id: >-
-    Presiden menetapkan tanggal 1 Juni 1945 sebagai Hari Lahir Pancasila dan hari libur nasional resmi,
-    mengakui pidato Bung Karno di sidang BPUPK sebagai tonggak kelahiran dasar falsafah negara dan membentuk Badan Pembinaan Ideologi Pancasila (BPIP).
-  source_ids: [keppres-24-2016]
-  dimension_ids: [sila-1, sila-3]
-
+  title_id: Keppres No. 24 Tahun 2016 tentang Hari Lahir Pancasila 1 Juni Hari
+    Libur Nasional
+  summary_id: Presiden menetapkan tanggal 1 Juni 1945 sebagai Hari Lahir Pancasila
+    dan hari libur nasional resmi, mengakui pidato Bung Karno di sidang BPUPK
+    sebagai tonggak kelahiran dasar falsafah negara dan membentuk Badan
+    Pembinaan Ideologi Pancasila (BPIP).
+  source_ids:
+    - keppres-24-2016
+  dimension_ids:
+    - sila-1
+    - sila-3
 - id: ev-tragedi-kanjuruhan-tgipf-2022
   term_id: presiden-jokowi-ii
-  date: "2022-10-01"
+  date: 2022-10-01
   category: krisis
   title_id: Tragedi Stadion Kanjuruhan (135 Korban Jiwa) & Laporan Investigasi TGIPF
-  summary_id: >-
-    Penembakan gas air mata secara membabi buta di dalam tribun stadion pasca pertandingan Arema vs Persebaya menewaskan 135 suporter,
-    menghasilkan laporan investigasi Tim Gabungan Independen Pencari Fakta (TGIPF) yang merekomendasikan reformasi total PSSI dan akuntabilitas pidana komando aparat keamanan.
-  source_ids: [laporan-tgipf-kanjuruhan-2022]
-  dimension_ids: [sila-2, negara-hukum]
-
+  summary_id: Penembakan gas air mata secara membabi buta di dalam tribun stadion
+    pasca pertandingan Arema vs Persebaya menewaskan 135 suporter, menghasilkan
+    laporan investigasi Tim Gabungan Independen Pencari Fakta (TGIPF) yang
+    merekomendasikan reformasi total PSSI dan akuntabilitas pidana komando
+    aparat keamanan.
+  source_ids:
+    - laporan-tgipf-kanjuruhan-2022
+  dimension_ids:
+    - sila-2
+    - negara-hukum
 - id: ev-inpres-pelanggaran-ham-berat-2023
   term_id: presiden-jokowi-ii
-  date: "2023-03-15"
+  date: 2023-03-15
   category: produk-hukum
-  title_id: Inpres No. 2/2023 tentang Pemulihan Hak Korban 12 Peristiwa Pelanggaran HAM Berat
-  summary_id: >-
-    Presiden mengeluarkan instruksi kepada 19 menteri/lembaga untuk merealisasikan pemulihan hak-hak korban (reparasi hak ekonomi, kesehatan, beasiswa, dan pengakuan status)
-    atas 12 peristiwa pelanggaran HAM berat masa lalu yang diakui secara resmi oleh negara tanpa menegasikan jalur yudisial.
-  source_ids: [inpres-2-2023]
-  dimension_ids: [sila-2, negara-hukum]
-
-
-
-
-
-
-
-
-
-
+  title_id: Inpres No. 2/2023 tentang Pemulihan Hak Korban 12 Peristiwa
+    Pelanggaran HAM Berat
+  summary_id: Presiden mengeluarkan instruksi kepada 19 menteri/lembaga untuk
+    merealisasikan pemulihan hak-hak korban (reparasi hak ekonomi, kesehatan,
+    beasiswa, dan pengakuan status) atas 12 peristiwa pelanggaran HAM berat masa
+    lalu yang diakui secara resmi oleh negara tanpa menegasikan jalur yudisial.
+  source_ids:
+    - inpres-2-2023
+  dimension_ids:
+    - sila-2
+    - negara-hukum
+- id: ev-dpd-putusan-mk-79-2015
+  term_id: dpd-2014-2019
+  date: 2015-09-22
+  category: pengadilan
+  title_id: Putusan MK No. 79/PUU-XII/2014 Mengukuhkan Posisi DPD dalam Tripartit
+    Legislasi
+  summary_id: MK membatalkan pasal-pasal UU MD3 yang mendegradasi kewenangan DPD
+    dan menegaskan DPD berhak menyusun Prolegnas serta membahas RUU otonomi
+    daerah bersama DPR dan Pemerintah.
+  source_ids:
+    - putusan-mk-79-puu-xii-2014
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+    - kedaulatan-rakyat
+- id: ev-dpd-ott-irman-gusman-2016
+  term_id: dpd-2014-2019
+  date: 2016-09-17
+  category: krisis
+  title_id: OTT KPK terhadap Ketua DPD RI Irman Gusman atas Suap Kuota Gula Impor
+  summary_id: KPK menangkap Ketua DPD RI Irman Gusman atas penerimaan suap alokasi
+    distribusi gula impor di Sumatera Barat, menjadi krisis integritas
+    kepemimpinan lembaga perwakilan daerah.
+  source_ids:
+    - putusan-pn-jkt-pusat-irman-gusman-2017
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - sila-5
+- id: ev-dpd-kisruh-tatib-oso-2017
+  term_id: dpd-2014-2019
+  date: 2017-04-04
+  category: krisis
+  title_id: Dualisme dan Konflik Kepemimpinan DPD RI Pasca-Putusan MA tentang Masa
+    Jabatan
+  summary_id: Konflik internal masa jabatan pimpinan DPD 2,5 tahun vs 5 tahun
+    berujung pada pelantikan kontroversial Oesman Sapta Odang oleh Wakil Ketua
+    MA, meski MA sebelumnya telah membatalkan tata tertib tersebut.
+  source_ids:
+    - putusan-ma-tatib-dpd-2017
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-dpd-advokasi-dbh-2018
+  term_id: dpd-2014-2019
+  date: 2018-05-24
+  category: kebijakan
+  title_id: Advokasi DPD RI terkait Keadilan Fiskal Dana Bagi Hasil Migas dan Minerba
+  summary_id: DPD RI merilis kajian komprehensif mendesak revisi UU Hubungan
+    Keuangan Pusat dan Daerah guna memastikan porsi DBH yang adil dan transparan
+    bagi daerah penghasil komoditas tambang.
+  source_ids:
+    - laporan-dpd-dbh-2018
+  dimension_ids:
+    - sila-5
+    - sila-3
+    - tujuan-2
+- id: ev-dpd-gugatan-pt-0-2022
+  term_id: dpd-2019-2024
+  date: 2022-07-07
+  category: pengadilan
+  title_id: Uji Materi Presidential Threshold 0% oleh DPD RI ke Mahkamah Konstitusi
+  summary_id: DPD RI di bawah pimpinan La Nyalla mengajukan permohonan judicial
+    review ambang batas pencalonan presiden 20% kursi DPR ke MK guna membuka
+    ruang bagi calon non-oligarki partai politik.
+  source_ids:
+    - putusan-mk-52-puu-xx-2022
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+    - checks-balances
+- id: ev-dpd-proposal-uud-2023
+  term_id: dpd-2019-2024
+  date: 2023-07-14
+  category: kebijakan
+  title_id: Penyampaian Proposal Kenegaraan DPD RI untuk Penyempurnaan UUD 1945
+  summary_id: DPD RI menggelar sidang paripurna luar biasa merumuskan proposal
+    penguatan kedaulatan rakyat dan perwakilan daerah serta penataan sistem
+    ketatanegaraan tanpa dominasi partai politik.
+  source_ids:
+    - dokumen-dpd-proposal-uud-2023
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+    - checks-balances
+- id: ev-ky-putusan-mk-43-2015
+  term_id: ky-2010-2015
+  date: 2015-10-07
+  category: pengadilan
+  title_id: Putusan MK No. 43/PUU-XIII/2015 Membatalkan Wewenang Bersama KY dalam
+    Rekrutmen Hakim Pertama
+  summary_id: MK mengabulkan uji materi IKAHI dan mencabut kewenangan Komisi
+    Yudisial dalam menyeleksi calon hakim tingkat pertama bersama MA,
+    mengembalikan seluruh seleksi hakim ke internal MA.
+  source_ids:
+    - putusan-mk-43-puu-xiii-2015
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+- id: ev-ky-kriminalisasi-sarpin-2015
+  term_id: ky-2010-2015
+  date: 2015-07-11
+  category: krisis
+  title_id: Penetapan Tersangka Dua Komisioner KY atas Laporan Pencemaran Nama
+    Baik Hakim Sarpin
+  summary_id: Bareskrim Polri menetapkan Ketua KY Suparman Marzuki dan Komisioner
+    Musrofi sebagai tersangka pencemaran nama baik pasca-kritik terbuka KY atas
+    putusan praperadilan penetapan tersangka Budi Gunawan.
+  source_ids:
+    - laporan-tahunan-ky-2015
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-ky-ott-sudrajad-2022
+  term_id: ky-2020-sekarang
+  date: 2022-10-04
+  category: pengadilan
+  title_id: Pemeriksaan Etik Khusus KY Pasca-OTT KPK Hakim Agung Sudrajad Dimyati
+    dan Gazalba Saleh
+  summary_id: KY melakukan pemeriksaan etik maraton terhadap majelis hakim agung
+    dan aparatur kepaniteraan MA yang terjerat suap perkara kasasi perdata,
+    berkoordinasi erat dengan KPK.
+  source_ids:
+    - laporan-tahunan-ky-2022
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - sila-5
+- id: ev-ky-rekomendasi-mkh-surabaya-2024
+  term_id: ky-2020-sekarang
+  date: 2024-08-26
+  category: pengadilan
+  title_id: Rekomendasi Pemecatan Tiga Hakim PN Surabaya Pembebas Ronald Tannur oleh KY
+  summary_id: Pleno Komisi Yudisial merekomendasikan sanksi berat pemberhentian
+    tetap dengan hak pensiun dicabut kepada 3 hakim PN Surabaya yang terbukti
+    melanggar Kode Etik dan Pedoman Perilaku Hakim (KEPPH).
+  source_ids:
+    - putusan-mkh-pn-surabaya-2024
+  dimension_ids:
+    - negara-hukum
+    - sila-2
+    - sila-5
+- id: ev-bpk-suap-wtp-kemendes-2017
+  term_id: bpk-2009-2019
+  date: 2017-05-26
+  category: krisis
+  title_id: OTT KPK terhadap Auditor Utama BPK Rochmadi Saptogiri Kasus Jual-Beli
+    Opini WTP
+  summary_id: KPK menangkap Auditor Utama BPK Rochmadi Saptogiri dan Ali Sadli
+    yang menerima suap Rp240 juta untuk memberikan opini Wajar Tanpa
+    Pengecualian (WTP) atas laporan keuangan Kemendes PDTT.
+  source_ids:
+    - putusan-pn-jkt-pusat-rochmadi-2018
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - sila-5
+- id: ev-bpk-ihps-bansos-covid-2021
+  term_id: bpk-2019-sekarang
+  date: 2021-06-22
+  category: kebijakan
+  title_id: IHPS I 2021 BPK Menemukan Ketidaktepatan Sasaran Bansos Covid-19
+    Triliunan Rupiah
+  summary_id: BPK memotret jutaan data penerima bantuan sosial ganda, rekening
+    fiktif, dan penyaluran sembako yang tidak sesuai spesifikasi anggaran
+    darurat penanganan pandemi di Kemensos.
+  source_ids:
+    - ihps-bpk-i-2021
+  dimension_ids:
+    - sila-5
+    - checks-balances
+    - tujuan-2
+- id: ev-bpk-suap-bekasi-2022
+  term_id: bpk-2019-sekarang
+  date: 2022-04-27
+  category: krisis
+  title_id: OTT KPK terhadap Tim Pemeriksa BPK Jawa Barat Terkait Suap Opini WTP
+    Pemkab Bogor & Kota Bekasi
+  summary_id: KPK menangkap empat auditor BPK Perwakilan Jabar yang memeras dan
+    menerima suap dari pejabat daerah untuk mengamankan temuan proyek dan
+    merekayasa opini WTP.
+  source_ids:
+    - putusan-pn-bandung-suap-bpk-2022
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - sila-5
+- id: ev-bpk-vonis-achsanul-2024
+  term_id: bpk-2019-sekarang
+  date: 2024-06-20
+  category: pengadilan
+  title_id: Vonis Tipikor Anggota BPK Achsanul Qosasi Terbukti Menerima Suap Rp40
+    Miliar Kasus BTS Kominfo
+  summary_id: Pengadilan Tipikor Jakarta menjatuhkan vonis 2,5 tahun penjara dan
+    denda kepada Anggota BPK Achsanul Qosasi yang terbukti menerima suap US$2,64
+    juta untuk mengondisikan audit kerugian BTS 4G Bakti Kominfo.
+  source_ids:
+    - putusan-tipikor-achsanul-qosasi-2024
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - sila-5
+- id: ev-ma-ecourt-2019
+  term_id: ma-reformasi-sekarang
+  date: 2019-08-09
+  category: produk-hukum
+  title_id: Peluncuran Sistem Peradilan Elektronik e-Court dan e-Litigasi (Perma
+    No. 1/2019)
+  summary_id: MA meluncurkan modernisasi peradilan berbasis digital untuk
+    pendaftaran perkara, pembayaran biaya, dan persidangan elektronik guna
+    memangkas pungli dan biaya perkara bagi pencari keadilan.
+  source_ids:
+    - perma-1-2019
+  dimension_ids:
+    - negara-hukum
+    - sila-5
+- id: ev-ma-pembatalan-pp-99-2021
+  term_id: ma-reformasi-sekarang
+  date: 2021-10-28
+  category: pengadilan
+  title_id: Putusan MA No. 28 P/HUM/2021 Membatalkan Pengetatan Remisi Koruptor PP
+    99/2012
+  summary_id: MA mengabulkan permohonan narapidana korupsi dan mencabut syarat
+    pengetatan remisi (justice collaborator) dalam PP 99/2012, memicu kritik
+    tajam masyarakat sipil atas pelemahan efek jera koruptor.
+  source_ids:
+    - putusan-ma-28-p-hum-2021
+  dimension_ids:
+    - negara-hukum
+    - sila-5
+    - checks-balances
+- id: ev-ma-putusan-usia-pilkada-2024
+  term_id: ma-reformasi-sekarang
+  date: 2024-05-29
+  category: pengadilan
+  title_id: Putusan MA No. 23 P/HUM/2024 Mengubah Tafsir Batas Usia Calon Kepala Daerah
+  summary_id: MA mengabulkan uji materi kilat Partai Garuda dan mengubah
+    perhitungan syarat usia minimal calon gubernur menjadi terhitung sejak
+    pelantikan pasangan terpilih, bukan saat penetapan calon.
+  source_ids:
+    - putusan-ma-23-p-hum-2024
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-ma-ott-sudrajad-dimyati-2022
+  term_id: ma-reformasi-sekarang
+  date: 2022-09-23
+  category: krisis
+  title_id: OTT KPK terhadap Hakim Agung Sudrajad Dimyati dalam Suap Kepailitan
+    KSP Intidana
+  summary_id: KPK menangkap Hakim Agung Sudrajad Dimyati dan staf MA yang menerima
+    suap miliaran rupiah untuk memutus kasasi kepailitan KSP Intidana,
+    mengguncang kredibilitas puncak lembaga peradilan.
+  source_ids:
+    - putusan-pn-bandung-sudrajad-2023
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - sila-5
+- id: ev-mpr-rehabilitasi-tokoh-2024
+  term_id: mpr-2019-2024
+  date: 2024-09-25
+  category: produk-hukum
+  title_id: MPR Resmi Mencabut TAP Sanksi Hukum Sukarno, Soeharto, dan Abdurrahman Wahid
+  summary_id: Sidang Akhir Masa Jabatan MPR RI 2019-2024 resmi mencabut TAP
+    XXXIII/MPRS/1967 (Sukarno), TAP XI/MPR/1998 pasal 4 (Soeharto), dan TAP
+    II/MPR/2001 (Gus Dur) untuk rekonsiliasi nasional.
+  source_ids:
+    - surat-keputusan-mpr-rehabilitasi-tokoh-2024
+  dimension_ids:
+    - sila-2
+    - sila-3
+    - negara-hukum
+- id: ev-jokowi-perppu-ormas
+  term_id: presiden-jokowi-i
+  date: 2017-07-10
+  category: produk-hukum
+  title_id: Penerbitan Perppu No. 2/2017 tentang Perubahan UU Organisasi Kemasyarakatan
+  summary_id: Pemerintah menerbitkan Perppu Ormas untuk membubarkan organisasi
+    yang dinilai bertentangan dengan Pancasila dan UUD 1945 tanpa proses
+    peradilan.
+  source_ids:
+    - perppu-2-2017
+  dimension_ids:
+    - sila-1
+    - sila-3
+    - negara-hukum
+- id: ev-jokowi-pemilu-serentak
+  term_id: presiden-jokowi-i
+  date: 2019-04-17
+  category: peristiwa
+  title_id: Penyelenggaraan Pemilu Serentak 2019 Serentak 5 Kotak Suara
+  summary_id: Pemilu serentak pertama dalam sejarah RI dengan partisipasi pemilih
+    di atas 81% di tengah kompetisi politik polaritatif.
+  source_ids:
+    - uu-7-2017
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+    - tujuan-1
+- id: ev-jokowi-uu-disabilitas
+  term_id: presiden-jokowi-i
+  date: 2016-04-15
+  category: produk-hukum
+  title_id: Pengesahan UU No. 8/2016 tentang Penyandang Disabilitas
+  summary_id: Mewajibkan kuota kerja 2% ASN/BUMN bagi penyandang disabilitas dan
+    aksesibilitas fasilitas publik yang inklusif.
+  source_ids:
+    - uu-8-2016
+  dimension_ids:
+    - sila-5
+    - sila-2
+    - tujuan-3
+- id: ev-jokowi-asian-games
+  term_id: presiden-jokowi-i
+  date: 2018-08-18
+  category: peristiwa
+  title_id: Penyelenggaraan Asian Games XVIII Jakarta-Palembang 2018
+  summary_id: Indonesia sukses menjadi tuan rumah pesta olahraga terbesar Asia,
+    memperkuat diplomasi publik dan kebanggaan nasional.
+  source_ids:
+    - perpres-asian-games-2018
+  dimension_ids:
+    - tujuan-4
+    - sila-3
+- id: ev-jokowi-presidensi-g20
+  term_id: presiden-jokowi-ii
+  date: 2022-11-16
+  category: peristiwa
+  title_id: Deklarasi Bersama KTT G20 Bali di Bawah Presidensi Indonesia
+  summary_id: Diplomasi aktif Indonesia berhasil mempertemukan pemimpin
+    negara-negara adidaya dan melahirkan kesepakatan pemulihan ekonomi global
+    serta transisi energi.
+  source_ids:
+    - g20-bali-leaders-declaration-2022
+  dimension_ids:
+    - tujuan-4
+    - tujuan-2
+- id: ev-dpr-uu-terorisme-2018
+  term_id: dpr-2014-2019
+  date: 2018-05-25
+  category: produk-hukum
+  title_id: Pengesahan Revisi UU No. 5/2018 tentang Pemberantasan Terorisme
+  summary_id: DPR memperluas instrumen pencegahan aksi teror dan pendanaan
+    terorisme dengan tetap memuat klausul pengawasan peradilan.
+  source_ids:
+    - uu-5-2018
+  dimension_ids:
+    - tujuan-1
+    - negara-hukum
+- id: ev-dpr-ratifikasi-paris-agreement
+  term_id: dpr-2014-2019
+  date: 2016-10-19
+  category: produk-hukum
+  title_id: Pengesahan UU No. 16/2016 Ratifikasi Paris Agreement tentang Perubahan Iklim
+  summary_id: DPR meratifikasi komitmen global pengurangan emisi karbon dan
+    pelestarian hutan hujan tropis dunia.
+  source_ids:
+    - uu-16-2016
+  dimension_ids:
+    - tujuan-4
+    - tujuan-2
+- id: ev-dpr-uu-kuhp-2022
+  term_id: dpr-2019-2024
+  date: 2022-12-06
+  category: produk-hukum
+  title_id: Pengesahan UU No. 1/2023 tentang KUHP Nasional
+  summary_id: DPR mengesahkan kodifikasi hukum pidana buatan bangsa sendiri
+    menggantikan warisan kolonial Belanda dengan pengakuan hukum yang hidup di
+    masyarakat.
+  source_ids:
+    - uu-1-2023
+  dimension_ids:
+    - tujuan-4
+    - negara-hukum
+- id: ev-mk-putusan-praperadilan-2015
+  term_id: mk-2013-2018
+  date: 2015-04-28
+  category: pengadilan
+  title_id: Putusan MK No. 21/PUU-XII/2014 Memperluas Objek Praperadilan Penetapan
+    Tersangka
+  summary_id: MK memutuskan penetapan tersangka, penggeledahan, dan penyitaan
+    menjadi objek pengawasan sahnya upaya paksa praperadilan.
+  source_ids:
+    - putusan-mk-21-puu-xii-2014
+  dimension_ids:
+    - negara-hukum
+    - sila-2
+- id: ev-mk-ott-patrialis-akbar-2017
+  term_id: mk-2013-2018
+  date: 2017-01-25
+  category: krisis
+  title_id: OTT KPK terhadap Hakim Konstitusi Patrialis Akbar dalam Uji Materi UU
+    Peternakan
+  summary_id: KPK menangkap Hakim MK Patrialis Akbar atas penerimaan suap
+    pembocoran draf putusan uji materi UU Peternakan dan Kesehatan Hewan.
+  source_ids:
+    - putusan-tipikor-patrialis-2017
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - sila-5
+- id: ev-mk-putusan-90-2023
+  term_id: mk-2018-2023
+  date: 2023-10-16
+  category: krisis
+  title_id: Putusan MK No. 90/PUU-XXI/2023 Mengubah Syarat Usia Capres-Cawapres
+  summary_id: MK mengabulkan permohonan syarat usia capres-cawapres dengan
+    menambahkan klausul pernah/sedang menduduki jabatan kepala daerah, berujung
+    vonis etik berat MKMK.
+  source_ids:
+    - putusan-mkmk-2-2023
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-mpr-revisi-uu-md3-kursi-mpr-2018
+  term_id: mpr-2014-2019
+  date: 2018-03-20
+  category: produk-hukum
+  title_id: Revisi UU MD3 Menambah Kursi Pimpinan MPR Menjadi 8 Orang
+  summary_id: MPR dan DPR merevisi UU MD3 untuk mengakomodasi penambahan kursi
+    pimpinan MPR dari partai-partai pemenang pemilu demi stabilitas politik.
+  source_ids:
+    - tap-amandemen-uud-1999-2002
+  dimension_ids:
+    - checks-balances
+    - sila-4
+- id: ev-dpd-pengawasan-kur-timur-2016
+  term_id: dpd-2014-2019
+  date: 2016-08-22
+  category: kebijakan
+  title_id: Pengawasan Komite IV DPD atas Realisasi Penyaluran KUR di Wilayah NTT
+    dan Maluku
+  summary_id: DPD RI memperjuangkan alokasi khusus kredit bunga rendah bagi UMKM
+    sektor perikanan dan pertanian di Kawasan Timur Indonesia.
+  source_ids:
+    - laporan-dpd-kur-2016
+  dimension_ids:
+    - sila-5
+    - sila-3
+- id: ev-dpd-pansus-tka-2018
+  term_id: dpd-2014-2019
+  date: 2018-09-18
+  category: kebijakan
+  title_id: Pansus DPD RI Pengawasan Tenaga Kerja Asing di Smelter Nikel Sulawesi
+    dan Maluku
+  summary_id: DPD RI membentuk Pansus untuk mengawasi kepatuhan perizinan
+    ketenagakerjaan dan transfer keahlian bagi tenaga kerja lokal di kawasan
+    industri pertambangan.
+  source_ids:
+    - laporan-dpd-tka-2018
+  dimension_ids:
+    - sila-5
+    - sila-3
+    - tujuan-2
+- id: ev-dpd-advokasi-guru-pppk-2022
+  term_id: dpd-2019-2024
+  date: 2022-11-20
+  category: kebijakan
+  title_id: Advokasi DPD RI terkait Formasi dan Hak Keuangan Guru PPPK di Daerah
+    Kepulauan
+  summary_id: Komite III DPD RI mendesak Kementerian PAN-RB dan Kemendikbudristek
+    menuntaskan pengangkatan guru honorer pedalaman menjadi ASN PPPK.
+  source_ids:
+    - laporan-dpd-guru-honorer-2022
+  dimension_ids:
+    - sila-5
+    - tujuan-3
+    - sila-3
+- id: ev-dpd-pengawasan-kebencanaan-2023
+  term_id: dpd-2019-2024
+  date: 2023-04-12
+  category: kebijakan
+  title_id: Pengawasan DPD RI atas Anggaran Penanggulangan Bencana di Daerah Rawan Gempa
+  summary_id: DPD RI mengevaluasi lambatnya pencairan dana stimulan perbaikan
+    rumah warga korban gempa Cianjur dan Pasaman Barat.
+  source_ids:
+    - laporan-dpd-kebencanaan-2023
+  dimension_ids:
+    - sila-5
+    - tujuan-1
+    - sila-2
+- id: ev-ky-advokasi-independensi-hakim-2016
+  term_id: ky-2015-2020
+  date: 2016-10-15
+  category: kebijakan
+  title_id: KY Mengadvokasi Jaminan Keamanan dan Perlindungan Fisik Hakim di
+    Daerah Konflik
+  summary_id: Menanggapi ancaman fisik terhadap hakim di persidangan terorisme dan
+    korupsi, KY mendesak Polri menyediakan protokol pengamanan persidangan
+    mandiri.
+  source_ids:
+    - laporan-tahunan-ky-2016
+  dimension_ids:
+    - negara-hukum
+    - sila-2
+- id: ev-ky-pemantauan-sidang-pemilu-2019
+  term_id: ky-2015-2020
+  date: 2019-05-10
+  category: kebijakan
+  title_id: Pemantauan Terpadu KY atas Persidangan Sengketa Tindak Pidana Pemilu 2019
+  summary_id: KY menerjunkan tim pemantau ke 34 provinsi guna memastikan
+    integritas hakim dalam mengadili sengketa suara pemilu secara adil dan
+    netral.
+  source_ids:
+    - laporan-tahunan-ky-2019
+  dimension_ids:
+    - kedaulatan-rakyat
+    - negara-hukum
+- id: ev-ky-klinik-etik-hukum-2021
+  term_id: ky-2020-sekarang
+  date: 2021-08-25
+  category: kebijakan
+  title_id: Program Nasional Klinik Etik dan Advokasi Kehakiman di Fakultas Hukum
+  summary_id: KY bermitra dengan puluhan perguruan tinggi negeri menyelenggarakan
+    klinik etik guna menumbuhkan budaya anti-mafia peradilan sejak bangku
+    kuliah.
+  source_ids:
+    - laporan-tahunan-ky-2021
+  dimension_ids:
+    - tujuan-3
+    - negara-hukum
+- id: ev-ky-laporan-kehormatan-hakim-2023
+  term_id: ky-2020-sekarang
+  date: 2023-12-28
+  category: kebijakan
+  title_id: "Laporan Tahunan KY 2023: Rekomendasi Sanksi Etik atas Ratusan Hakim
+    Bermasalah"
+  summary_id: KY merilis data penanganan ribuan laporan masyarakat dan
+    merekomendasikan sanksi berat pemberhentian sementara dan mutasi bagi hakim
+    pelanggar KEPPH.
+  source_ids:
+    - laporan-tahunan-ky-2023
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-bpk-audit-garuda-2019
+  term_id: bpk-2009-2019
+  date: 2019-06-28
+  category: kebijakan
+  title_id: Audit BPK Mengungkap Rekayasa Laporan Keuangan PT Garuda Indonesia Tbk
+  summary_id: BPK menemukan pengakuan pendapatan piutang Mahata yang belum
+    tertagih senilai jutaan dolar, memaksa Garuda menyajikan ulang (restatement)
+    laporan laba rugi.
+  source_ids:
+    - lhp-bpk-garuda-2019
+  dimension_ids:
+    - checks-balances
+    - sila-5
+- id: ev-bpk-audit-bts-kominfo-2023
+  term_id: bpk-2019-sekarang
+  date: 2023-05-15
+  category: kebijakan
+  title_id: LHP BPK Menghitung Kerugian Negara Rp8,03 Triliun dalam Proyek BTS 4G
+    Bakti Kominfo
+  summary_id: BPK menyelesaikan audit perhitungan kerugian negara proyek
+    pembangunan BTS 4G daerah terluar yang menjadi bukti utama persidangan
+    Tipikor Menteri Kominfo.
+  source_ids:
+    - lhp-bpk-bts-kominfo-2023
+  dimension_ids:
+    - checks-balances
+    - sila-5
+    - negara-hukum
+- id: ev-mpr-kajian-evaluasi-amandemen-2022
+  term_id: mpr-2019-2024
+  date: 2022-10-10
+  category: kebijakan
+  title_id: "Kajian Komprehensif Badan Pengkajian MPR: Evaluasi 20 Tahun Amandemen
+    UUD 1945"
+  summary_id: MPR menyusun buku putih evaluasi sistem ketatanegaraan, memetakan
+    efektivitas Mahkamah Konstitusi, DPD, dan kewenangan legislasi nasional.
+  source_ids:
+    - laporan-mpr-konstitusi-2022
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-mk-pemilu-serentak-daerah-2020
+  term_id: mk-2018-2023
+  date: 2020-02-26
+  category: pengadilan
+  title_id: Putusan MK No. 55/PUU-XVII/2019 tentang 6 Model Desain Penyelenggaraan
+    Pemilu Serentak
+  summary_id: MK merumuskan 6 varian opsi pemisahan pemilu serentak nasional dan
+    lokal guna meringankan beban petugas pemilu pasca-wafatnya ratusan petugas
+    KPPS 2019.
+  source_ids:
+    - putusan-mk-14-puu-xi-2013
+  dimension_ids:
+    - kedaulatan-rakyat
+    - checks-balances
+- id: ev-dpr-uu-minerba-2020
+  term_id: dpr-2019-2024
+  date: 2020-05-12
+  category: produk-hukum
+  title_id: Pengesahan UU No. 3/2020 tentang Perubahan UU Pertambangan Mineral dan
+    Batubara
+  summary_id: DPR menarik kewenangan izin tambang dari pemerintah daerah ke pusat
+    dan menjamin perpanjangan izin operasi tambang skala besar.
+  source_ids:
+    - uu-3-2022
+  dimension_ids:
+    - checks-balances
+    - sila-5
+    - sila-3
+- id: ev-dpr-uu-p2sk-2023
+  term_id: dpr-2019-2024
+  date: 2023-01-12
+  category: produk-hukum
+  title_id: Pengesahan UU No. 4/2023 tentang Pengembangan dan Penguatan Sektor
+    Keuangan (UU P2SK)
+  summary_id: DPR RI mengesahkan reformasi regulasi terpadu sektor perbankan,
+    pasar modal, asuransi, dan perlindungan konsumen keuangan digital.
+  source_ids:
+    - uu-15-2004
+  dimension_ids:
+    - sila-5
+    - checks-balances
+    - tujuan-2
+- id: ev-bpk-audit-wika-waskita-2023
+  term_id: bpk-2019-sekarang
+  date: 2023-08-10
+  category: kebijakan
+  title_id: Audit BPK atas Restrukturisasi Utang dan Tata Kelola BUMN Karya
+  summary_id: BPK melakukan audit kepatuhan atas pembiayaan proyek jalan tol dan
+    penugasan infrastruktur pada PT Waskita Karya dan Wijaya Karya.
+  source_ids:
+    - ihps-bpk-i-2024
+  dimension_ids:
+    - checks-balances
+    - sila-5
+- id: ev-ky-deklarasi-integritas-2018
+  term_id: ky-2015-2020
+  date: 2018-11-15
+  category: kebijakan
+  title_id: Deklarasi Bersama Integritas Peradilan dan Penguatan Pengawasan Hakim
+    Tingkat Banding
+  summary_id: KY menggalang komitmen bersama para Ketua Pengadilan Tinggi untuk
+    menindak tegas pelanggaran kode etik hakim dan panitera pengadilan.
+  source_ids:
+    - laporan-tahunan-ky-2018
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-mk-pembatalan-pembatalan-perda-2017
+  term_id: mk-2013-2018
+  date: 2017-04-05
+  category: pengadilan
+  title_id: Putusan MK No. 137/PUU-XIII/2015 Membatalkan Wewenang Eksekutif
+    Membatalkan Perda
+  summary_id: MK menegaskan pembatalan Peraturan Daerah adalah ranah uji materiil
+    yudisial Mahkamah Agung, bukan wewenang eksekutif Mendagri atau Gubernur.
+  source_ids:
+    - putusan-mk-137-puu-xiii-2015
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-mk-putusan-sistem-pemilu-terbuka-2023
+  term_id: mk-2018-2023
+  date: 2023-06-15
+  category: pengadilan
+  title_id: Putusan MK No. 114/PUU-XX/2022 Mempertahankan Sistem Proporsional
+    Terbuka Pemilu 2024
+  summary_id: MK menolak permohonan uji materi sistem proporsional tertutup,
+    menjamin hak kedaulatan pemilih untuk memilih langsung wakil rakyat di surat
+    suara.
+  source_ids:
+    - putusan-mk-114-puu-xx-2022
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+    - negara-hukum
+- id: ev-ma-pembatalan-iuran-bpjs-2020
+  term_id: ma-reformasi-sekarang
+  date: 2020-02-27
+  category: pengadilan
+  title_id: Putusan MA No. 7 P/HUM/2020 Membatalkan Kenaikan Iuran BPJS Kesehatan
+  summary_id: MA mengabulkan gugatan uji materi KPCDI dan membatalkan Pasal 34
+    Perpres 75/2019 yang menaikkan iuran BPJS hingga 100%, meringankan beban
+    ekonomi warga miskin.
+  source_ids:
+    - putusan-ma-7-p-hum-2020
+  dimension_ids:
+    - sila-5
+    - negara-hukum
+    - checks-balances
+- id: ev-ma-citizen-lawsuit-karhutla-2019
+  term_id: ma-reformasi-sekarang
+  date: 2019-07-16
+  category: pengadilan
+  title_id: "Putusan Kasasi MA No. 3555 K/Pdt/2018: Pemerintah Terbukti Lalai
+    dalam Bencana Karhutla"
+  summary_id: Majelis Kasasi MA menolak kasasi Presiden RI dan menghukum
+    pemerintah mengeluarkan PP penanggulangan kabut asap serta menghentikan izin
+    pembukaan gambut.
+  source_ids:
+    - putusan-ma-3555-k-pdt-2018
+  dimension_ids:
+    - sila-5
+    - sila-2
+    - negara-hukum
+    - checks-balances
+- id: ev-ma-kasasi-bansos-juliari-2021
+  term_id: ma-reformasi-sekarang
+  date: 2021-09-20
+  category: pengadilan
+  title_id: Vonis Kasasi MA Memperkuat Hukuman Korupsi Bansos Covid-19 Mensos
+    Juliari Batubara
+  summary_id: MA mengukuhkan hukuman 12 tahun penjara dan uang pengganti miliaran
+    rupiah bagi mantan Mensos yang memotong jatah bantuan sembako rakyat
+    terdampak pandemi.
+  source_ids:
+    - putusan-ma-1055-k-pid-sus-2021
+  dimension_ids:
+    - negara-hukum
+    - sila-5
+    - checks-balances
+- id: ev-ma-perma-pedoman-tipikor-2020
+  term_id: ma-reformasi-sekarang
+  date: 2020-07-24
+  category: produk-hukum
+  title_id: Penerbitan Perma No. 1/2020 tentang Pedoman Pemidanaan Korupsi Pasal 2
+    dan 3 UU Tipikor
+  summary_id: MA menetapkan rentang hukuman proporsional berbasis besaran kerugian
+    negara dan tingkat kesalahan terdakwa guna mengatasi disparitas putusan
+    korupsi.
+  source_ids:
+    - perma-1-2020
+  dimension_ids:
+    - negara-hukum
+    - sila-5
+- id: ev-bpk-audit-investigasi-pelindo-2016
+  term_id: bpk-2009-2019
+  date: 2016-01-25
+  category: kebijakan
+  title_id: Audit BPK Kasus Perpanjangan Kontrak JICT Pelindo II Mengungkap
+    Kerugian Rp4,08 Triliun
+  summary_id: BPK menyerahkan laporan audit investigasi ke Pansus Angket Pelindo
+    II DPR yang menemukan pelanggaran prosedur hukum dan undervalue dalam
+    konsesi pelabuhan peti kemas.
+  source_ids:
+    - lhp-bpk-pelindo-2016
+  dimension_ids:
+    - checks-balances
+    - sila-5
+    - tujuan-2
+- id: ev-bpk-audit-sawit-hutan-2023
+  term_id: bpk-2019-sekarang
+  date: 2023-11-14
+  category: kebijakan
+  title_id: Audit BPK Mengungkap Jutaan Hektar Sawit Ilegal Tanpa Izin Pelepasan
+    Kawasan Hutan
+  summary_id: BPK memotret potensi kerugian penerimaan negara triliunan rupiah
+    dari penguasaan lahan hutan oleh perkebunan sawit tanpa izin pelepasan
+    kawasan hutan.
+  source_ids:
+    - lhp-bpk-sawit-2023
+  dimension_ids:
+    - checks-balances
+    - sila-5
+    - tujuan-2
+- id: ev-bpk-audit-otsus-papua-2021
+  term_id: bpk-2019-sekarang
+  date: 2021-04-08
+  category: kebijakan
+  title_id: Audit Kinerja BPK atas Pengelolaan Dana Otsus Papua dan Papua Barat
+  summary_id: BPK menemukan kelemahan tata kelola dana pendidikan dan kesehatan
+    otsus serta mendesak perbaikan sistem pengawasan transfer langsung ke
+    kabupaten/kota.
+  source_ids:
+    - lhp-bpk-otsus-papua-2021
+  dimension_ids:
+    - checks-balances
+    - sila-5
+    - sila-3
+- id: ev-ky-pemantauan-kanjuruhan-2023
+  term_id: ky-2020-sekarang
+  date: 2023-01-16
+  category: kebijakan
+  title_id: Komisi Yudisial Menerjunkan Tim Pemantau Khusus Persidangan Tragedi
+    Kanjuruhan di PN Surabaya
+  summary_id: KY memantau langsung sidang vonis perkara maut Kanjuruhan guna
+    mencegah intimidasi aparat keamanan terhadap saksi dan majelis hakim.
+  source_ids:
+    - laporan-ky-sidang-kanjuruhan-2023
+  dimension_ids:
+    - negara-hukum
+    - sila-2
+    - checks-balances
+- id: ev-ky-pemantauan-sambo-2023
+  term_id: ky-2020-sekarang
+  date: 2023-02-13
+  category: kebijakan
+  title_id: Pemantauan Terbuka KY atas Sidang Vonis Mati Ferdy Sambo di PN Jakarta
+    Selatan
+  summary_id: KY mengawal independensi majelis hakim Wahyu Iman Santoso dari
+    tekanan dan intervensi mafia institusi kepolisian hingga vonis dijatuhkan.
+  source_ids:
+    - laporan-ky-sidang-sambo-2023
+  dimension_ids:
+    - negara-hukum
+    - sila-2
+    - checks-balances
+- id: ev-dpd-pengawasan-perbatasan-3t-2021
+  term_id: dpd-2019-2024
+  date: 2021-06-10
+  category: kebijakan
+  title_id: Pengawasan DPD RI atas Percepatan Pembangunan Infrastruktur Pos Lintas
+    Batas Negara (PLBN)
+  summary_id: Komite I DPD RI mengawal penyelesaian PLBN di Jagoi Babang, Sei
+    Nyamuk, dan Skouw guna mengamankan tapal batas dan memajukan perekonomian
+    warga perbatasan.
+  source_ids:
+    - laporan-dpd-wilayah-perbatasan-2021
+  dimension_ids:
+    - sila-3
+    - sila-5
+    - tujuan-1
+- id: ev-dpd-advokasi-dob-papua-2022
+  term_id: dpd-2019-2024
+  date: 2022-07-28
+  category: kebijakan
+  title_id: Rekomendasi DPD RI terkait Pembentukan 4 Provinsi Baru di Tanah Papua
+  summary_id: DPD RI mengawal pembentukan Provinsi Papua Selatan, Papua Tengah,
+    Papua Pegunungan, dan Papua Barat Daya untuk mendekatkan pelayanan publik
+    bagi warga adat.
+  source_ids:
+    - laporan-dpd-evaluasi-otsus-papua-2022
+  dimension_ids:
+    - sila-3
+    - sila-5
+    - tujuan-2
+- id: ev-dpd-evaluasi-tol-laut-2020
+  term_id: dpd-2019-2024
+  date: 2020-10-15
+  category: kebijakan
+  title_id: Kajian DPD RI atas Efektivitas Tol Laut Menekan Disparitas Harga Bahan
+    Pokok Kepulauan
+  summary_id: Komite II DPD RI mendesak Kementerian Perhubungan memberantas
+    monopoli muatan kontainer kapal perintis di pelabuhan kawasan timur
+    Indonesia.
+  source_ids:
+    - laporan-dpd-tol-laut-2020
+  dimension_ids:
+    - sila-5
+    - sila-3
+    - tujuan-2
+- id: ev-mpr-rekomendasi-pphn-2024
+  term_id: mpr-2019-2024
+  date: 2024-09-24
+  category: produk-hukum
+  title_id: MPR RI Menetapkan Rekomendasi Rancangan Pokok-Pokok Haluan Negara (PPHN)
+  summary_id: Sidang Akhir Masa Jabatan MPR 2019-2024 menyerahkan naskah substansi
+    PPHN kepada pimpinan MPR periode berikutnya untuk memandu haluan pembangunan
+    jangka panjang.
+  source_ids:
+    - dokumen-mpr-rekomendasi-pphn-2024
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+    - sila-4
+- id: ev-presiden-keppres-pancasila-2016
+  term_id: presiden-jokowi-i
+  date: 2016-06-01
+  category: produk-hukum
+  title_id: "Keppres No. 24/2016: Penetapan 1 Juni Hari Lahir Pancasila sebagai
+    Hari Libur Nasional"
+  summary_id: Presiden Joko Widodo menetapkan 1 Juni 1945 sebagai Hari Lahir
+    Pancasila guna mengenang pidato Bung Karno dan memperkokoh dasar ideologi
+    bangsa.
+  source_ids:
+    - keppres-24-2016
+  dimension_ids:
+    - sila-1
+    - sila-3
+    - tujuan-3
+- id: ev-mpr-pelantikan-presiden-jokowi-2014
+  term_id: mpr-2014-2019
+  date: 2014-10-20
+  category: kebijakan
+  title_id: Sidang Paripurna MPR RI Melantik Presiden Joko Widodo dan Wakil
+    Presiden Jusuf Kalla
+  summary_id: MPR RI menyelenggarakan pelantikan presiden terpilih hasil pemilu
+    2014 yang dihadiri seluruh pimpinan partai politik dan kompetitor pilpres.
+  source_ids:
+    - uud-nri-1945
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+    - sila-3
+- id: ev-mpr-rekomendasi-haluan-2019
+  term_id: mpr-2014-2019
+  date: 2019-09-27
+  category: produk-hukum
+  title_id: Keputusan MPR RI No. 8/MPR/2019 tentang Rekomendasi Perlunya
+    Pokok-Pokok Haluan Negara
+  summary_id: MPR Periode 2014-2019 menyerahkan naskah hasil kajian Badan
+    Pengkajian MPR yang merekomendasikan perlunya sistem perencanaan pembangunan
+    berkesinambungan.
+  source_ids:
+    - dokumen-mpr-rekomendasi-haluan-2019
+  dimension_ids:
+    - checks-balances
+    - sila-4
+    - tujuan-2
+- id: ev-ky-pemantauan-korupsi-ektp-2017
+  term_id: ky-2015-2020
+  date: 2017-03-09
+  category: kebijakan
+  title_id: Komisi Yudisial Menerjunkan Tim Pemantau Persidangan Kasus Megakorupsi E-KTP
+  summary_id: KY memantau ketat proses persidangan tipikor E-KTP di PN Jakarta
+    Pusat untuk mencegah intervensi politik dan menjaga keamanan majelis hakim.
+  source_ids:
+    - uu-18-2011
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+- id: ev-ky-kerjasama-kpk-2019
+  term_id: ky-2015-2020
+  date: 2019-11-06
+  category: kebijakan
+  title_id: Penandatanganan Nota Kesepahaman Komisi Yudisial dan KPK tentang
+    Integritas Peradilan
+  summary_id: KY dan KPK menyepakati pertukaran informasi LHKPN dan data rekam
+    jejak guna mencegah mafia peradilan dan praktik suap penanganan perkara.
+  source_ids:
+    - uu-18-2011
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+    - sila-5

@@ -115,7 +115,10 @@ Host yang perlu diizinkan agar script bisa jalan: `transparency.org`,
 # usulkan draf penilaian dari peristiwa berbukti (heuristik / LLM)
 pnpm --filter @pancasila-index/ai suggest --term presiden-habibie
 
-# kurasi via web: cp apps/web/.env.example apps/web/.env lalu set CURATION_DEV=1
+# kurasi via web (LOKAL SAJA): cp apps/web/.env.example apps/web/.env lalu set CURATION_DEV=1
+#   CURATION_DEV memberi peran KURATOR tanpa login. Diabaikan bila
+#   NODE_ENV=production, tetapi JANGAN pernah menaruhnya di environment
+#   deployment: penolakan penilaian hanya butuh satu keputusan, bukan kuorum.
 pnpm dev   # buka /kurasi → Setujui/Tolak → review-state.json (jejak audit)
 
 # terapkan keputusan kurasi ke dataset publik

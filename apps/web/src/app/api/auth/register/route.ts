@@ -69,14 +69,14 @@ export async function POST(req: NextRequest) {
     },
   });
 
-  // Catat AuditLog
+  // Catat AuditLog (tanpa menyimpan email di meta demi minimalisasi data pribadi)
   await db.auditLog.create({
     data: {
       actorId: newUser.id,
       action: "auth.register",
       entity: "User",
       entityId: newUser.id,
-      meta: JSON.stringify({ email: newUser.email, role: newUser.role }),
+      meta: JSON.stringify({ role: newUser.role }),
     },
   });
 

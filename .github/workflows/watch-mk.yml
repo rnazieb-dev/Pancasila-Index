@@ -1,0 +1,114 @@
+name: Pantau Putusan MK
+
+# Pengumpan antrean kurasi, BUKAN penilai otomatis.
+#
+# Alur ini hanya menemukan putusan MK yang belum ada di sources.yaml lalu
+# membuka issue untuk ditinjau manusia. Ia sengaja tidak menyentuh assessments:
+# status `published` menuntut kuorum dua approver berbeda identitas, dan indeks
+# publik hanya boleh terbentuk dari penilaian yang lolos gerbang itu.
+
+on:
+  schedule:
+    # 23:00 UTC = 06:00 WIB setiap hari
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: watch-mk
+  cancel-in-progress: false
+
+jobs:
+  pantau:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Periksa putusan MK baru
+        id: pantau
+        continue-on-error: true
+        # `pnpm --filter ... exec` MENULIS ULANG kode keluar menjadi 1, sehingga
+        # seluruh percabangan di bawah akan salah arah. `pnpm exec` dari dalam
+        # direktori paket meneruskan kode aslinya (diuji: 4 tetap 4).
+        working-directory: packages/data
+        run: |
+          set +e
+          pnpm exec tsx scripts/watch-mk.mts > hasil.json 2> ringkasan.txt
+          echo "kode=$?" >> "$GITHUB_OUTPUT"
+          set -e
+          cat ringkasan.txt
+
+      - name: Laporkan putusan baru
+        if: steps.pantau.outputs.kode == '3'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "Pemantau menemukan putusan MK yang belum ada di \`sources.yaml\`."
+            echo
+            echo "**Ini bukan penilaian.** Kurator perlu menambahkan sumber, membuat"
+            echo "peristiwa di \`packages/data/data/events/\`, lalu menautkannya sebagai"
+            echo "bukti pada dimensi yang relevan. Skor tidak boleh naik otomatis."
+            echo
+            echo '```'
+            cat packages/data/ringkasan.txt
+            echo '```'
+            echo
+            echo "<details><summary>Keluaran mentah</summary>"
+            echo
+            echo '```json'
+            cat packages/data/hasil.json
+            echo '```'
+            echo
+            echo "</details>"
+          } > isu.md
+          gh issue create \
+            --title "Putusan MK baru menunggu kurasi ($(date -u +%Y-%m-%d))" \
+            --body-file isu.md \
+            --label "kurasi" \
+            --repo "${{ github.repository }}"
+
+      # Cron yang diam saat sumbernya mati adalah cron yang berbohong.
+      # Ketidakterjangkauan dilaporkan, bukan diperlakukan sebagai "aman".
+      - name: Laporkan pemantau buta
+        if: steps.pantau.outputs.kode == '4'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "Pemantau **tidak dapat menjangkau** satu pun endpoint MK, sehingga"
+            echo "hari ini ia buta. Ini BUKAN pernyataan bahwa tidak ada putusan baru."
+            echo
+            echo "mkri.id berada di balik Cloudflare dan membalas 403 dari sebagian"
+            echo "jaringan. Bila ini berulang, pemantauan perlu jalur lain."
+            echo
+            echo '```'
+            cat packages/data/ringkasan.txt
+            echo '```'
+          } > isu.md
+          gh issue create \
+            --title "Pemantau MK buta: sumber tak terjangkau ($(date -u +%Y-%m-%d))" \
+            --body-file isu.md \
+            --label "infrastruktur" \
+            --repo "${{ github.repository }}"
+
+      - name: Gagalkan job bila pemantau error tak terduga
+        if: steps.pantau.outputs.kode == '1'
+        run: |
+          cat packages/data/ringkasan.txt
+          exit 1

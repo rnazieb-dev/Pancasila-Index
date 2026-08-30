@@ -66,8 +66,8 @@ export default function AktorPage() {
         <p className="mt-1.5 text-sm text-[var(--muted)]">
           Daftar pemimpin 8 organ konstitusional Republik Indonesia lintas generasi, dari 1945 hingga kini.
         </p>
-        <p className="mt-3 max-w-3xl rounded-lg border border-amber-500/30 bg-amber-500/5 px-4 py-3 text-xs leading-relaxed text-amber-200/90">
-          <strong className="text-amber-300">Batas cakupan.</strong> Unit penilaian indeks adalah{" "}
+        <p className="mt-3 max-w-3xl rounded-lg border border-amber-500/30 bg-amber-500/5 px-4 py-3 text-xs leading-relaxed text-[var(--acc-amber-strong)]">
+          <strong className="text-[var(--acc-amber-strong)]">Batas cakupan.</strong> Unit penilaian indeks adalah{" "}
           <em>masa jabatan lembaga</em>, sehingga direktori ini lengkap hanya untuk pimpinan
           8 organ konstitusional. Pejabat di luar itu - menteri, kepala daerah, hakim
           non-ketua, direksi BUMN - baru muncul di sini bila sudah ada dokumen
@@ -84,14 +84,14 @@ export default function AktorPage() {
             <section key={inst.id} className="space-y-4">
               <div className="flex items-baseline justify-between border-b border-[var(--line)] pb-2">
                 <div>
-                  <span className="text-xs uppercase tracking-wide text-red-500 font-semibold">
+                  <span className="text-xs uppercase tracking-wide text-[var(--acc-red)] font-semibold">
                     {inst.branch}
                   </span>
-                  <h2 className="text-xl font-bold text-white/95">{inst.name_id}</h2>
+                  <h2 className="text-xl font-bold text-[var(--text)]">{inst.name_id}</h2>
                 </div>
                 <Link
                   href={`/lembaga/${inst.slug}`}
-                  className="text-xs text-sky-400 hover:text-sky-300"
+                  className="text-xs text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)]"
                 >
                   Profil lembaga →
                 </Link>
@@ -111,10 +111,10 @@ export default function AktorPage() {
                       className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 hover:border-slate-500 transition flex flex-col justify-between"
                     >
                       <div>
-                        <div className="font-semibold text-base text-white/95">{actor.name}</div>
-                        <div className="text-xs text-red-400/90 mt-0.5">{actor.role_id}</div>
+                        <div className="font-semibold text-base text-[var(--text)]">{actor.name}</div>
+                        <div className="text-xs text-[var(--acc-red)] mt-0.5">{actor.role_id}</div>
                         {cases > 0 && (
-                          <div className="mt-2 inline-block rounded-full bg-amber-500/10 px-2 py-0.5 text-[10px] font-semibold text-amber-300">
+                          <div className="mt-2 inline-block rounded-full bg-amber-500/10 px-2 py-0.5 text-[10px] font-semibold text-[var(--acc-amber-strong)]">
                             {cases} perkara bersitasi
                           </div>
                         )}
@@ -134,10 +134,10 @@ export default function AktorPage() {
         {nonSeated.length > 0 && (
           <section className="space-y-4">
             <div className="border-b border-[var(--line)] pb-2">
-              <span className="text-xs uppercase tracking-wide text-red-500 font-semibold">
+              <span className="text-xs uppercase tracking-wide text-[var(--acc-red)] font-semibold">
                 di luar pimpinan 8 organ
               </span>
-              <h2 className="text-xl font-bold text-white/95">
+              <h2 className="text-xl font-bold text-[var(--text)]">
                 Pejabat lain yang menjadi subjek peristiwa berbukti
               </h2>
               <p className="mt-1 text-xs leading-relaxed text-[var(--muted)]">
@@ -157,10 +157,10 @@ export default function AktorPage() {
                     className="flex flex-col justify-between rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 transition hover:border-slate-500"
                   >
                     <div>
-                      <div className="text-base font-semibold text-white/95">{a.name}</div>
-                      <div className="mt-0.5 text-xs text-red-400/90">{first?.title_id}</div>
+                      <div className="text-base font-semibold text-[var(--text)]">{a.name}</div>
+                      <div className="mt-0.5 text-xs text-[var(--acc-red)]">{first?.title_id}</div>
                       {cases > 0 && (
-                        <div className="mt-2 inline-block rounded-full bg-amber-500/10 px-2 py-0.5 text-[10px] font-semibold text-amber-300">
+                        <div className="mt-2 inline-block rounded-full bg-amber-500/10 px-2 py-0.5 text-[10px] font-semibold text-[var(--acc-amber-strong)]">
                           {cases} perkara bersitasi
                         </div>
                       )}

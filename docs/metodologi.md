@@ -59,13 +59,58 @@ Mengintegrasikan 8 indeks independen pihak ketiga yang berbasis data keras (*har
 
 ## 4. Algoritma Penskoran & Agregasi Indeks
 
-1. **Rata-rata Penilaian Masa Jabatan ($S_{d}$)**: Rerata nilai skor dimensi $d \in [-2, 2]$ dengan pembobotan tingkat keyakinan (*confidence level* $c_d \in [0, 1]$):
-   $$\bar{S}_d = \frac{\sum_{r} S_{d,r} \cdot c_{d,r}}{\sum_{r} c_{d,r}}$$
+1. **Rata-rata Penilaian Masa Jabatan ($\bar{S}_d$)**: Rerata **polos** skor dimensi $d \in [-2, 2]$ lintas penilai $r$:
+   $$\bar{S}_d = \frac{1}{|R_d|}\sum_{r \in R_d} S_{d,r}$$
+   Tingkat keyakinan **tidak** membobot rerata ini. Ketidaksetujuan antarpenilai ditampilkan sebagai rentang di antarmuka, bukan dilebur menjadi satu angka. Skor tanpa bukti empiris (`evidence_gap`) dikeluarkan dari $R_d$ — tuduhan tanpa bukti tidak menghukum, sebagaimana ia tidak memuji.
+
 2. **Skor Kelompok Landasan ($G_k$)**:
    $$G_k = \frac{\sum_{d \in G_k} \bar{S}_d \cdot w_d}{\sum_{d \in G_k} w_d}$$
-3. **Indeks Komposit Konstitusional (Skala 0–100)**:
-   $$\text{Indeks} = 50 + 25 \times \sum_{k=1}^3 \left( G_k \times W_k \right)$$
-   di mana $W_{\text{pancasila}} = 0.4$, $W_{\text{pembukaan}} = 0.3$, $W_{\text{struktural}} = 0.3$.
+
+3. **Indeks Komposit Konstitusional (Skala 0–100)**: rerata tertimbang antargrup yang **dinormalisasi**, sehingga porsi tiap grup tetap seperti yang diumumkan terlepas dari jumlah dimensinya:
+   $$K = \frac{\sum_k G_k \cdot W_k \cdot c_k}{\sum_k W_k \cdot c_k}, \qquad \text{Indeks} = \min\!\left(50 + 25K,\; \text{batas}\right)$$
+   di mana $W_{\text{pancasila}} = 0.4$, $W_{\text{pembukaan}} = 0.3$, $W_{\text{struktural}} = 0.3$, dan $c_k$ adalah cakupan grup $k$.
+
+   > **Catatan penting.** Bobot grup harus dibaca sebagai **porsi indeks**, dan dipilih terlepas dari jumlah dimensi di dalamnya. Versi sebelumnya memakai 5/4/3 — kebetulan sama dengan jumlah dimensi tiap grup (5, 4, dan 3), sehingga $W_k/\sum W \times 1/n_k$ selalu $1/12$ dan **seluruh dimensi berpengaruh identik**. Hierarki normatif yang diumumkan rubrik tidak berpengaruh sama sekali. Porsi nyata sekarang: sila 8,0% per dimensi, tujuan bernegara 7,5%, norma struktural 10,0%.
+
+4. **Rentang Ketidakpastian**: keyakinan bukti melaporkan lebar rentang, bukan menggeser nilai tengah:
+   $$H = \frac{\sum w \cdot (1 - c) \cdot h_{\max}}{\sum w}, \qquad h_{\max} = 0{,}5 \text{ satuan skor } (\pm 12{,}5 \text{ poin indeks})$$
+   Digabung **linear**, bukan kuadratur: kuadratur mengasumsikan galat tiap dimensi saling bebas, dan itu tidak dapat dipertahankan ketika satu penulis menghasilkan seluruh skor dari kumpulan sumber yang tumpang-tindih.
+
+   > Versi sebelumnya mengalikan keyakinan ke **bobot**, sehingga pelanggaran berat yang sulit dibuktikan justru meringankan indeks — terukur: skor $-2$ pada keyakinan 0,20 bersama empat $+1$ pada 0,90 menghasilkan 71,1 alih-alih 60,0. Bagi indeks yang mengukur pemegang kekuasaan, itu insentif terbalik: makin rapi jejak ditutup, makin baik nilainya.
+
+5. **Batas Hak yang Tidak Dapat Dikurangi**: Pasal 28I ayat (1) UUD 1945 menyatakan sebagian hak tidak dapat dikurangi dalam keadaan apa pun. Pelanggaran pada dimensi bertanda `non_derogable` memberi **batas atas** pada indeks:
+   - skor $-2$ → batas indeks 25
+   - skor $\le -1$ → batas indeks 50 (netral)
+
+   Ini **batas, bukan veto**: angkanya tetap terbit dan tetap dinyatakan. Nilai sebelum dibatasi (`index_uncapped`) selalu diterbitkan agar batasnya dapat diperiksa. Menahan angka akan menyembunyikan pelanggaran; membatasi menyatakannya.
+
+6. **Ambang Cakupan**: komposit tidak diterbitkan bila cakupan di bawah 50%. Skor grup dan cakupannya tetap dilaporkan; yang ditahan hanya angka tunggal yang mudah dikutip di luar konteks. Peringatan pelanggaran hak dasar tetap tampil terlepas dari ada-tidaknya angka.
+
+### 4b. Celah yang belum ditutup: peristiwa → satu bilangan bulat
+
+Dataset memuat 461 peristiwa berbukti. **Bagaimana puluhan peristiwa dalam satu
+dimensi pada satu masa jabatan diringkas menjadi satu bilangan bulat −2..+2
+belum diatur di mana pun.** Di situlah sebagian besar penilaian sebenarnya
+terjadi, dan di situlah bias masuk tanpa terlihat: dua penilai yang sama-sama
+patuh pada jangkar rubrik dapat berbeda dua poin secara sah.
+
+Ini dicatat sebagai celah terbuka, bukan diisi diam-diam. Aturannya adalah
+keputusan normatif Dewan Editorial, bukan detail implementasi. Kandidat yang
+perlu dipilih secara eksplisit:
+
+- **Peristiwa terburuk menentukan** — konservatif; cocok untuk norma yang tidak
+  dapat dikurangi, tetapi menghapus perbedaan antara satu insiden dan pola.
+- **Rerata berbobot keparahan** — membedakan pola dari insiden, tetapi
+  memerlukan skala keparahan per peristiwa yang saat ini belum ada.
+- **Frekuensi × keparahan dengan ambang** — paling ekspresif, paling banyak
+  parameter yang harus dijustifikasi.
+- **Penilaian holistik terpandu** — apa yang de facto berlaku sekarang;
+  sah asalkan dinyatakan sebagai penilaian ahli, bukan sebagai hasil hitungan.
+
+Selama belum diputuskan, angka indeks tidak boleh dipresentasikan sebagai hasil
+prosedur yang dapat direplikasi. Yang dapat direplikasi hari ini adalah
+agregasi dari skor dimensi ke indeks (bagian 4), bukan penurunan skor dimensi
+dari bukti.
 
 ---
 

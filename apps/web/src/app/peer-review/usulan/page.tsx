@@ -117,7 +117,7 @@ function UsulanForm() {
         <h1 className="text-2xl font-bold">Usulan Berhasil Dikirim</h1>
         <p className="mt-3 text-sm text-[var(--muted)] leading-relaxed">
           Terima kasih atas kontribusi Anda. Usulan Anda kini berstatus{" "}
-          <strong className="text-amber-300">Under Review</strong> dan akan ditinjau oleh Dewan
+          <strong className="text-[var(--acc-amber-strong)]">Under Review</strong> dan akan ditinjau oleh Dewan
           Editorial dalam 5–14 hari kerja. Draf lokal Anda telah diarsipkan.
         </p>
         <div className="mt-6 flex justify-center gap-3">
@@ -129,7 +129,7 @@ function UsulanForm() {
           </Link>
           <Link
             href="/peer-review/draf"
-            className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-2 text-xs font-semibold text-[var(--muted)] hover:text-white transition"
+            className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-2 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] transition"
           >
             Lihat Draf Lainnya
           </Link>
@@ -141,12 +141,12 @@ function UsulanForm() {
   return (
     <div className="mx-auto max-w-2xl px-4 py-12">
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <Link href="/peer-review" className="text-xs text-[var(--muted)] hover:text-white">
+        <Link href="/peer-review" className="text-xs text-[var(--muted)] hover:text-[var(--text)]">
           ← Kembali ke Portal Peer Review
         </Link>
         <Link
           href="/peer-review/draf"
-          className="text-xs text-amber-400 hover:text-amber-300 flex items-center gap-1 font-semibold"
+          className="text-xs text-[var(--acc-amber)] hover:text-[var(--acc-amber-strong)] flex items-center gap-1 font-semibold"
         >
           📁 Draf Saya ({draftCount})
         </Link>
@@ -164,14 +164,14 @@ function UsulanForm() {
         <button
           type="button"
           onClick={() => handleSaveDraft()}
-          className="rounded-lg border border-amber-500/40 bg-amber-500/10 px-3 py-1.5 text-xs font-semibold text-amber-300 hover:bg-amber-500/20 transition flex items-center gap-1.5"
+          className="rounded-lg border border-amber-500/40 bg-amber-500/10 px-3 py-1.5 text-xs font-semibold text-[var(--acc-amber-strong)] hover:bg-amber-500/20 transition flex items-center gap-1.5"
         >
           💾 Simpan Draf
         </button>
       </div>
 
       {saveStatus && (
-        <div className="mt-3 text-xs text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-3 py-1.5 animate-fadeIn">
+        <div className="mt-3 text-xs text-[var(--acc-emerald)] bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-3 py-1.5 animate-fadeIn">
           {saveStatus}
         </div>
       )}
@@ -183,15 +183,15 @@ function UsulanForm() {
             <span
               className={`flex size-6 items-center justify-center rounded-full text-[10px] font-bold ${
                 step === s
-                  ? "bg-red-500 text-white"
+                  ? "bg-red-600 text-white"
                   : ["form", "deklarasi", "konfirmasi"].indexOf(step) > i
-                  ? "bg-emerald-500/30 text-emerald-300"
+                  ? "bg-emerald-500/30 text-[var(--acc-emerald-strong)]"
                   : "bg-[var(--line)] text-[var(--muted)]"
               }`}
             >
               {i + 1}
             </span>
-            <span className={step === s ? "text-white font-semibold" : "text-[var(--muted)]"}>
+            <span className={step === s ? "text-[var(--text)] font-semibold" : "text-[var(--muted)]"}>
               {s === "form" ? "Data Usulan" : s === "deklarasi" ? "Deklarasi Transparansi" : "Konfirmasi"}
             </span>
             {i < 2 && <span className="text-[var(--muted)]">›</span>}
@@ -204,9 +204,9 @@ function UsulanForm() {
         {step === "form" && (
           <div className="space-y-5">
             <div className="flex items-center justify-between">
-              <h2 className="font-bold text-white/90">Langkah 1: Data Usulan</h2>
+              <h2 className="font-bold text-[var(--text)]">Langkah 1: Data Usulan</h2>
               {currentDraftId && (
-                <span className="text-[11px] text-amber-400 font-mono">
+                <span className="text-[11px] text-[var(--acc-amber)] font-mono">
                   [Mengedit Draf #{currentDraftId.slice(-6)}]
                 </span>
               )}
@@ -322,7 +322,7 @@ function UsulanForm() {
               <button
                 type="button"
                 onClick={() => handleSaveDraft()}
-                className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-4 py-3 text-sm font-semibold text-[var(--muted)] hover:text-white hover:border-slate-500 transition"
+                className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-4 py-3 text-sm font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500 transition"
               >
                 💾 Simpan Draf
               </button>
@@ -350,7 +350,7 @@ function UsulanForm() {
         {step === "deklarasi" && (
           <div className="space-y-5">
             <div>
-              <h2 className="font-bold text-white/90">Langkah 2: Deklarasi Transparansi</h2>
+              <h2 className="font-bold text-[var(--text)]">Langkah 2: Deklarasi Transparansi</h2>
               <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
                 Informasi ini akan dipublikasikan secara terbuka bersama usulan Anda sesuai standar
                 COPE (Committee on Publication Ethics).
@@ -409,7 +409,7 @@ function UsulanForm() {
                 checked={formData.setuju_pakta}
                 onChange={(e) => setFormData({ ...formData, setuju_pakta: e.target.checked })}
               />
-              <span className="text-xs text-[var(--muted)] leading-relaxed group-hover:text-white transition">
+              <span className="text-xs text-[var(--muted)] leading-relaxed group-hover:text-[var(--text)] transition">
                 Saya menyatakan bahwa informasi di atas adalah benar, tidak memiliki konflik
                 kepentingan terselubung, dan bersedia mematuhi Pakta Integritas yang akan
                 dipublikasikan.
@@ -420,14 +420,14 @@ function UsulanForm() {
               <button
                 type="button"
                 onClick={() => setStep("form")}
-                className="rounded-lg border border-[var(--line)] px-4 py-3 text-sm font-semibold text-[var(--muted)] hover:text-white transition"
+                className="rounded-lg border border-[var(--line)] px-4 py-3 text-sm font-semibold text-[var(--muted)] hover:text-[var(--text)] transition"
               >
                 ← Kembali
               </button>
               <button
                 type="button"
                 onClick={() => handleSaveDraft()}
-                className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-4 py-3 text-sm font-semibold text-[var(--muted)] hover:text-white transition"
+                className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-4 py-3 text-sm font-semibold text-[var(--muted)] hover:text-[var(--text)] transition"
               >
                 💾 Simpan Draf
               </button>
@@ -453,7 +453,7 @@ function UsulanForm() {
         {/* ── LANGKAH 3: Konfirmasi ── */}
         {step === "konfirmasi" && (
           <div className="space-y-5">
-            <h2 className="font-bold text-white/90">Langkah 3: Konfirmasi Usulan</h2>
+            <h2 className="font-bold text-[var(--text)]">Langkah 3: Konfirmasi Usulan</h2>
             <p className="text-xs text-[var(--muted)]">
               Periksa kembali ringkasan usulan Anda sebelum dikirimkan ke Dewan Editorial.
             </p>
@@ -496,7 +496,7 @@ function UsulanForm() {
                   href={formData.source_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sky-400 text-[11px]"
+                  className="text-[var(--acc-sky)] text-[11px]"
                 >
                   {formData.source_url} ↗
                 </a>
@@ -520,7 +520,7 @@ function UsulanForm() {
               <button
                 type="button"
                 onClick={() => setStep("deklarasi")}
-                className="rounded-lg border border-[var(--line)] px-4 py-3 text-sm font-semibold text-[var(--muted)] hover:text-white transition"
+                className="rounded-lg border border-[var(--line)] px-4 py-3 text-sm font-semibold text-[var(--muted)] hover:text-[var(--text)] transition"
               >
                 ← Kembali
               </button>

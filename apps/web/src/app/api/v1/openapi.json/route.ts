@@ -20,6 +20,19 @@ export function GET() {
       },
     ],
     paths: {
+      "/api/v1/ckan-audits": {
+        get: {
+          summary: "Daftar hasil audit data terbuka pemerintah (CKAN DataStore) yang terverifikasi kuorum",
+          parameters: [
+            { name: "dimension", in: "query", schema: { type: "string" }, description: "Filter ID dimensi UUD 1945" },
+            { name: "status", in: "query", schema: { type: "string", enum: ["published", "pending", "pending_second", "rejected", "all"] } },
+            { name: "page", in: "query", schema: { type: "integer", default: 1 } },
+            { name: "limit", in: "query", schema: { type: "integer", default: 20 } },
+          ],
+          responses: { "200": { description: "Daftar audit data terbuka terverifikasi" } },
+        },
+      },
+
       "/api/v1/index": {
         get: {
           summary: "Daftar indeks ringkas per masa jabatan",
@@ -128,7 +141,7 @@ export function GET() {
       },
       "/api/v1/rubric": {
         get: {
-          summary: "Spesifikasi rubrik penilaian v1.0.0 (15 dimensi & jangkar skala)",
+          summary: "Spesifikasi rubrik penilaian v1.0.0 (12 dimensi & jangkar skala)",
           responses: { "200": { description: "Objek rubrik penilaian" } },
         },
       },

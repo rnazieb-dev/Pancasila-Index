@@ -24,6 +24,14 @@ enum Decision {
   REJECTED
 }
 
+enum UsulanStatus {
+  DRAFT
+  PENDING_REVIEW
+  PENDING_SECOND
+  PUBLISHED
+  REJECTED
+}
+
 model User {
   id             String    @id @default(cuid())
   email          String?   @unique
@@ -41,6 +49,8 @@ model User {
   reviews        Review[]
   comments       Comment[]
   audits         AuditLog[]
+  ckanAudits     CkanAudit[]
+  usulan         Usulan[]
 }
 
 /// Satu baris per keputusan kurasi; keputusan TERAKHIR per assessmentId
@@ -81,4 +91,70 @@ model AuditLog {
   createdAt DateTime @default(now())
 
   @@index([entity, entityId])
+}
+
+enum RadarStatus {
+  PENDING
+  AUDITED
+  IGNORED
+}
+
+model CkanRadarItem {
+  id                String      @id @default(cuid())
+  resourceId        String      @unique
+  packageId         String
+  title             String
+  agency            String
+  metadata          Json?
+  aiExtractedClaim  String?
+  relevantDimension String?
+  status            RadarStatus @default(PENDING)
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @default(now()) @updatedAt
+
+  @@index([status, createdAt])
+}
+
+/// Usulan bukti primer yang diajukan kontributor. Disimpan di DB (overlay
+/// interaktif) dan di-mirror ke fallback JSON agar tetap tampil saat
+/// DATABASE_URL belum aktif di lingkungan lokal/dev.
+model Usulan {
+  id            String       @id @default(cuid())
+  publicId      String       @unique
+  institutionId String
+  termId        String
+  dimensionId   String
+  sourceType    String
+  sourceTitle   String?
+  sourceUrl     String
+  argumentasi   String
+  nama          String
+  afiliasi      String?
+  funding       String?
+  pakta         Boolean      @default(false)
+  status        UsulanStatus @default(PENDING_REVIEW)
+  reviewerNames String[]     @default([])
+  author        User?        @relation(fields: [authorId], references: [id])
+  authorId      String?
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @default(now()) @updatedAt
+
+  @@index([authorId, createdAt])
+}
+
+model CkanAudit {
+  id                String    @id @default(cuid())
+  resourceId        String
+  baseUrl           String
+  title             String
+  contextNote       String
+  relevantDimension String
+  contributorId     String?
+  contributor       User?     @relation(fields: [contributorId], references: [id])
+  status            String    @default("pending") // pending, pending_second, published, rejected
+  approverNames     String[]  @default([])
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  @@index([status, createdAt])
 }

@@ -1,4 +1,38 @@
 # Periode keanggotaan DPR RI hasil pemilu (era Reformasi).
+# Era founding (pra-1999) ditutup agar cakupan lembaga legislatif tidak bolong:
+# KNIP (prekursor DPR), DPR era parlementer, DPR-GR, dan DPR era Orde Baru.
+
+- id: dpr-knip-1945-1950
+  institution_id: dpr-ri
+  label_id: Komite Nasional Indonesia Pusat (KNIP) 1945–1950
+  era: revolusi
+  start_date: "1945-08-22"
+  end_date: "1950-02-16"
+  actors: []
+
+- id: dpr-1950-1960
+  institution_id: dpr-ri
+  label_id: DPR RI Era Parlementer 1950–1959
+  era: demokrasi-liberal
+  start_date: "1950-02-16"
+  end_date: "1959-07-05"
+  actors: []
+
+- id: dpr-gr-1960-1971
+  institution_id: dpr-ri
+  label_id: DPR Gotong Royong (DPR-GR) 1960–1971
+  era: demokrasi-terpimpin
+  start_date: "1960-06-25"
+  end_date: "1971-10-28"
+  actors: []
+
+- id: dpr-1971-1999
+  institution_id: dpr-ri
+  label_id: DPR RI Era Orde Baru 1971–1999
+  era: orde-baru
+  start_date: "1971-10-28"
+  end_date: "1999-10-01"
+  actors: []
 
 - id: dpr-1999-2004
   institution_id: dpr-ri

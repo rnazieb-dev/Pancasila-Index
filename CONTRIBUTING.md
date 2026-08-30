@@ -36,8 +36,38 @@ Rubrik adalah inti intelektual proyek. Perubahan besar wajib:
 2. Usulkan versi rubrik baru (semver: ubah bobot = minor, ubah struktur =
    major).
 3. Jangan mengubah rubrik lama secara in-place; buat `data/rubric/vN.yaml`.
-4. Penilaian lama tetap terikat `rubricVersion` masing-masing — riwayat tidak
+4. Penilaian lama tetap terikat `rubric_version` masing-masing — riwayat tidak
    ditulis ulang.
+
+**Kapan aturan 3 dan 4 mulai berlaku.** Keduanya melindungi riwayat yang
+sudah *dipublikasikan*. Selama belum ada satu pun penilaian berstatus
+`published`, tidak ada riwayat yang bisa ditulis ulang, dan rubrik boleh
+ditimpa di tempat. Begitu penilaian pertama dipublikasikan, aturan 3 dan 4
+berlaku penuh dan **tidak** boleh dilanggar lagi.
+
+Perlu diketahui: penegakannya belum ada di kode. `build.mts` hanya memuat
+SATU file rubrik (yang terakhir secara abjad — dan `.sort()` itu per byte,
+bukan semver, sehingga `v1.yaml` menang dari `v1.1.0.yaml`), `datasetSchema`
+hanya punya satu slot rubrik, dan build menolak penilaian yang
+`rubric_version`-nya bukan versi aktif. Menambahkan file rubrik kedua hari
+ini akan mematikan build, bukan memulai migrasi. Dukungan multi-versi wajib
+dikerjakan sebelum publikasi pertama.
+
+### 3b. Perubahan cara menghitung (bukan isi rubrik)
+
+Mengubah rumus agregasi tidak memindahkan dimensi, indikator, maupun bobot,
+jadi tidak menaikkan versi rubrik — tetapi mengubah **setiap angka** yang
+diterbitkan. Naikkan `SCORING_METHOD_VERSION` di
+`packages/core/src/scoring.ts`, dan sebutkan perubahannya di changelog.
+Angka yang diterbitkan selalu membawa `method_version` agar dua nilai dari
+rubrik yang sama tidak bisa berbeda tanpa jejak sebabnya.
+
+**Catatan riwayat.** Pada perubahan ke `SCORING_METHOD_VERSION` 2.0.0, bobot
+grup rubrik 1.0.0 diubah di tempat dari 5/4/3 menjadi 0.40/0.30/0.30. Sah
+menurut ketentuan di atas karena seluruh 45 penilaian saat itu berstatus
+`draft` dan `human_confirmed: false`. Angka 40/30/30 bukan penilaian normatif
+baru: `docs/metodologi.md` sudah menerbitkannya sejak lama, dan kodenya yang
+belum menurutinya.
 
 ## Gaya teknis
 

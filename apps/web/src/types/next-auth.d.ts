@@ -8,6 +8,8 @@ declare module "next-auth" {
       affiliation?: string | null;
       title?: string | null;
       funding?: string | null;
+      bio?: string | null;
+      githubUsername?: string | null;
     } & DefaultSession["user"];
   }
 }
@@ -19,6 +21,8 @@ declare module "next-auth/jwt" {
     affiliation?: string | null;
     title?: string | null;
     funding?: string | null;
+    bio?: string | null;
+    githubUsername?: string | null;
   }
 }
 

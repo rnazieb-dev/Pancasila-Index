@@ -55,9 +55,29 @@ function loadArray<T>(relPath: string, schema: { parse: (v: unknown) => T }, lab
 
 // ------------------------------------------------------------------ muat
 
-const rubricFiles = readdirSync(join(DATA, "rubric")).filter((f) => f.endsWith(".yaml")).sort();
+function parseSemver(v: string): [number, number, number] {
+  const match = v.trim().replace(/^v/, "").match(/^(\d+)(?:\.(\d+))?(?:\.(\d+))?/);
+  if (!match) return [0, 0, 0];
+  return [parseInt(match[1] ?? "0", 10), parseInt(match[2] ?? "0", 10), parseInt(match[3] ?? "0", 10)];
+}
+
+function compareSemver(a: string, b: string): number {
+  const [aMaj, aMin, aPat] = parseSemver(a);
+  const [bMaj, bMin, bPat] = parseSemver(b);
+  if (aMaj !== bMaj) return aMaj - bMaj;
+  if (aMin !== bMin) return aMin - bMin;
+  return aPat - bPat;
+}
+
+const rubricFiles = readdirSync(join(DATA, "rubric")).filter((f) => f.endsWith(".yaml"));
 if (rubricFiles.length === 0) throw new Error("Tidak ada rubrik di data/rubric/");
-const rubric = rubricSchema.parse(readYaml(join("rubric", rubricFiles[rubricFiles.length - 1]!)));
+
+const loadedRubrics = rubricFiles.map((file) => {
+  const parsed = rubricSchema.parse(readYaml(join("rubric", file)));
+  return { file, rubric: parsed };
+});
+loadedRubrics.sort((a, b) => compareSemver(a.rubric.version, b.rubric.version));
+const rubric = loadedRubrics[loadedRubrics.length - 1]!.rubric;
 
 const uud = uudSchema.parse(readYaml("uud1945.yaml"));
 const institutions = loadArray("institutions.yaml", institutionSchema, "institution");
@@ -126,6 +146,7 @@ if (reviews.length > 0) {
 const sourcesResolved = sourcesRaw.map((s) => ({
   ...s,
   resolved_url: resolveSourceUrl(s),
+  detail_url: `/arsip/${s.id}`,
 }));
 
 // ---- korelasi bukti: sumber dari peristiwa terkait ikut menguatkan ----
@@ -172,6 +193,30 @@ const instIds = new Set(institutions.map((i) => i.id));
 const dimIds = new Set(rubric.dimensions.map((d) => d.id));
 const groupIds = new Set(rubric.groups.map((g) => g.id));
 const srcIds = new Set(sourcesRaw.map((s) => s.id));
+/**
+ * Sumber yang merupakan ALAT UKUR rubrik. Tidak boleh muncul di `evidence`:
+ * UUD 1945 tidak dapat membuktikan fakta apa pun, ia yang jadi pembanding.
+ */
+const baselineSrcIds = new Set(
+  sourcesRaw.filter((s) => s.normative_baseline === true).map((s) => s.id)
+);
+
+// ---- sumber: registri tidak boleh punya id ganda ----
+// Tanpa uji ini, `new Set(...)` di atas menelan duplikat tanpa suara dan
+// teks kutipan yang menang bergantung urutan iterasi.
+const seenSrcIds = new Set<string>();
+for (const s of sourcesRaw) {
+  if (seenSrcIds.has(s.id)) errors.push(`source ${s.id}: id ganda di sources.yaml`);
+  seenSrcIds.add(s.id);
+}
+// ---- peristiwa: id tidak boleh ganda (mencegah duplikat diam-diam ketika
+// events.yaml legacy dan events/*.yaml terisi entitas yang sama) ----
+const seenEventIds = new Set<string>();
+for (const e of events) {
+  if (seenEventIds.has(e.id))
+    errors.push(`event ${e.id}: id ganda (events.yaml + events/*.yaml)`);
+  seenEventIds.add(e.id);
+}
 const eventIds = new Set(events.map((e) => e.id));
 const actorIds = new Set(actors.map((a) => a.id));
 
@@ -235,6 +280,47 @@ for (const e of events) {
   }
 }
 
+// ---- deteksi near-duplikat (peringatan, bukan galat) ----
+// Dua peristiwa yang berbagi sumber + tanggal + judul hampir identik hampir
+// selalu merupakan duplikat. Dibunyikan agar tidak kembali menggelembung
+// hitungan peristiwa secara diam-diam tanpa terlihat.
+const normTitle = (t: string) =>
+  t.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+const titleSim = (a: string, b: string) => {
+  const wa = new Set(normTitle(a).split(" ").filter((w) => w.length > 2));
+  const wb = new Set(normTitle(b).split(" ").filter((w) => w.length > 2));
+  if (wa.size === 0 || wb.size === 0) return 0;
+  let inter = 0;
+  for (const w of wa) if (wb.has(w)) inter++;
+  return inter / Math.min(wa.size, wb.size);
+};
+{
+  const bySourceDate = new Map<string, typeof events>();
+  for (const e of events) {
+    const key = `${[...e.source_ids].sort().join("|")}::${e.date}`;
+    if (!e.source_ids.length) continue;
+    const arr = bySourceDate.get(key) ?? [];
+    arr.push(e);
+    bySourceDate.set(key, arr);
+  }
+  const nearDup: string[] = [];
+  for (const arr of bySourceDate.values()) {
+    if (arr.length < 2) continue;
+    for (let i = 0; i < arr.length; i++) {
+      for (let j = i + 1; j < arr.length; j++) {
+        if (titleSim(arr[i]!.title_id, arr[j]!.title_id) >= 0.85) {
+          nearDup.push(`  ${arr[i]!.id} <-> ${arr[j]!.id}  (${arr[i]!.title_id})`);
+        }
+      }
+    }
+  }
+  if (nearDup.length > 0) {
+    console.warn(`\nPeringatan near-duplikat peristiwa (${nearDup.length}):`);
+    for (const l of nearDup) console.warn(l);
+    console.warn("Pertimbangkan menggabungkannya agar hitungan peristiwa tidak menggelembung.\n");
+  }
+}
+
 for (const idx of externalIndices) {
   for (const dimId of idx.target_dimensions) {
     if (!dimIds.has(dimId))
@@ -251,9 +337,18 @@ for (const a of assessments) {
   for (const ds of a.dimension_scores) {
     if (!dimIds.has(ds.dimension_id))
       errors.push(`assessment ${a.id}: dimensi "${ds.dimension_id}" tidak ada di rubrik`);
-    for (const ev of ds.evidence)
+    for (const ev of ds.evidence) {
       if (!srcIds.has(ev.source_id))
         errors.push(`assessment ${a.id}: bukti sumber "${ev.source_id}" tidak terdaftar`);
+      if (baselineSrcIds.has(ev.source_id))
+        errors.push(
+          `assessment ${a.id} dim ${ds.dimension_id}: "${ev.source_id}" adalah landasan ` +
+            `normatif, bukan bukti empiris - pindahkan ke normative_anchors`
+        );
+    }
+    for (const na of ds.normative_anchors ?? [])
+      if (!srcIds.has(na))
+        errors.push(`assessment ${a.id}: jangkar normatif "${na}" tidak terdaftar`);
     for (const eid of ds.event_ids ?? [])
       if (!eventIds.has(eid))
         errors.push(`assessment ${a.id}: event_id "${eid}" tidak terdaftar`);
@@ -263,6 +358,24 @@ for (const a of assessments) {
 for (const d of rubric.dimensions)
   if (!groupIds.has(d.group_id))
     errors.push(`dimensi ${d.id}: group_id "${d.group_id}" tidak ada`);
+
+// ---- audit hak yang tak dapat dikurangi ----
+// Penurunan otomatis dari legal_anchors_id dipakai sebagai AUDITOR, bukan
+// sumber data: mesin skor hanya membaca `non_derogable`. Kalau penurunan ini
+// jadi sumber data, salah tulis ("Pasal 28I ayat 1" tanpa tanda kurung) akan
+// menghapus jaminan konstitusional tanpa terlihat. Sebagai auditor, ia
+// menangkap kontributor yang menambah indikator penyiksaan lalu lupa flagnya.
+const NON_DEROGABLE_PASAL = /28I\s*ayat\s*\(?\s*1\s*\)?/i;
+for (const d of rubric.dimensions) {
+  const menyebut = d.indicators.some((ind) =>
+    ind.legal_anchors_id.some((a) => NON_DEROGABLE_PASAL.test(a))
+  );
+  if (menyebut && !d.non_derogable)
+    errors.push(
+      `dimensi ${d.id}: indikatornya menyebut Pasal 28I ayat (1) (hak yang tidak ` +
+        `dapat dikurangi) tetapi non_derogable belum true`
+    );
+}
 
 for (const bab of uud.babs)
   for (const p of bab.pasal)
@@ -308,6 +421,33 @@ console.log(
   `Atribusi: ${reattributed} peristiwa punya subject_term_id, ` +
     `${namedCorruptionEvents} peristiwa menyebut aktor secara terstruktur`
 );
+
+// ---- laporan integritas: sumber/peristiwa yatim harus terlihat ----
+// Sumber yang tidak dipakai siapa pun, dan peristiwa yang tidak tersambung
+// ke penilaian apa pun, adalah kekosongan yang harus dipertanggungjawabkan
+// (bukan disimpan diam-diam).
+const referencedSrcIds = new Set<string>();
+for (const e of events) for (const sid of e.source_ids) referencedSrcIds.add(sid);
+for (const a of assessments)
+  for (const ds of a.dimension_scores)
+    for (const ev of ds.evidence) referencedSrcIds.add(ev.source_id);
+const orphanSources = sourcesRaw.filter(
+  (s) => !referencedSrcIds.has(s.id) && !baselineSrcIds.has(s.id)
+);
+const assessmentEventIds = new Set<string>();
+for (const a of assessments)
+  for (const ds of a.dimension_scores)
+    for (const eid of ds.event_ids ?? []) assessmentEventIds.add(eid);
+const lonelyEvents = events.filter((e) => !assessmentEventIds.has(e.id));
+console.log(
+  `Integritas: ${orphanSources.length} sumber yatim, ${lonelyEvents.length} peristiwa yatim`
+);
+if (orphanSources.length > 0) {
+  console.log(
+    `  sumber yatim: ${orphanSources.slice(0, 12).map((s) => s.id).join(", ")}` +
+      (orphanSources.length > 12 ? ` (+${orphanSources.length - 12})` : "")
+  );
+}
 
 console.log(
   `OK: ${institutions.length} lembaga, ${terms.length} masa jabatan, ` +

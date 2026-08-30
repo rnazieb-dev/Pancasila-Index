@@ -8,6 +8,17 @@
 # Skala per dimensi: -2 .. +2
 #   -2 = melanggar berat   -1 = menggerus   0 = netral/tidak signifikan
 #   +1 = memperkuat        +2 = selaras penuh / teladan
+#
+# ARTI 0 DIPERSEMPIT. Nilai 0 berarti TIDAK ADA TINDAKAN SIGNIFIKAN. Ia BUKAN
+# untuk kasus tarik-menarik. Bila satu masa jabatan menguatkan sekaligus
+# menggerus, beri skor NETO-nya dan nyatakan ketegangannya di rationale_id.
+#
+# Sebabnya: 0 dipetakan ke indeks 50 yang legendanya berbunyi "Netral / Status
+# Quo". Memakai 0 untuk dua temuan berlawanan membuat pelanggaran yang nyata
+# terbaca sebagai ketiadaan temuan - dua keadaan yang sangat berbeda dilebur
+# menjadi satu angka yang menenangkan. Contoh yang harus dihindari: skor 0
+# dengan rasional "kekerasan Mei 1998 tak tertangani, namun tidak ada represi
+# sistemik baru" - itu dua temuan, bukan nol temuan.
 # ============================================================
 
 version: "1.0.0"
@@ -24,21 +35,21 @@ groups:
     description_id: >
       Kepatuhan praktis pada kelima sila sebagai sumber segala sumber hukum
       negara (TAP MPRS No. XX/MPRS/1966 jo. TAP MPR No. III/MPR/1978).
-    weight: 5
+    weight: 0.40
 
   - id: pembukaan
     name_id: Empat Tujuan Bernegara (Pembukaan alinea IV)
     description_id: >
       Melindungi segenap bangsa; memajukan kesejahteraan umum; mencerdaskan
       kehidupan bangsa; ikut melaksanakan ketertiban dunia.
-    weight: 4
+    weight: 0.30
 
   - id: struktur-uud
     name_id: Norma Struktural UUD 1945
     description_id: >
       Cara kerja konstitusi: negara hukum, saling pengawasan antarlembaga,
       dan kedaulatan di tangan rakyat.
-    weight: 3
+    weight: 0.30
 
 dimensions:
 
@@ -48,23 +59,19 @@ dimensions:
     group_id: sila
     name_id: Ketuhanan Yang Maha Esa
     question_id: >
-      Sejauh mana tindakan lembaga memperkuat jaminan kebebasan beragama dan
-      hubungan negara-agama yang adil bagi seluruh warga?
+      Sejauh mana negara memfasilitasi kehidupan beragama, mengintegrasikan hukum dan etika agama (berakar pada sejarah bangsa dan inspirasi Piagam Jakarta), sekaligus menjamin kemerdekaan tiap penduduk untuk beribadah?
     weight: 1
     anchors:
       "-2": >-
-        Diskriminasi atau penganiayaan sistemik atas keyakinan; negara
-        memaksakan keyakinan tertentu kepada warga.
+        Diskriminasi sistemik; peminggiran peran historis dan nilai agama dari ruang publik; atau negara berubah menjadi sekuler-represif.
       "-1": >-
-        Netralitas goyah; aturan atau praktik yang memberatkan kelompok
-        keyakinan tertentu tanpa dasar proporsional.
-      "0": Tidak ada tindakan signifikan yang menguatkan ataupun menggerus.
+        Negara abai memfasilitasi umat beragama; kebijakan yang memusuhi identitas religius sejarah bangsa (seperti Islam) tanpa dasar konstitusional.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
-        Perlindungan konkret terhadap minoritas beragama; penyelesaian
-        sengketa keagamaan secara adil.
+        Fasilitasi kehidupan beragama berjalan baik (misal: peradilan agama, zakat, jaminan halal); penyelesaian sengketa secara adil.
       "2": >-
-        Penguatan teladan kebebasan beragama; harmonisasi antarumat secara
-        institusional dan berkelanjutan.
+        Harmoni simbiotik paripurna: nilai-nilai agama sukses diintegrasikan ke dalam hukum nasional dengan penghormatan penuh pada sejarah dan keberagaman.
     indicators:
       - id: sila-1-kebebasan-beragama
         name_id: Jaminan kebebasan memeluk dan menjalankan agama
@@ -72,9 +79,9 @@ dimensions:
       - id: sila-1-kesetaraan-keyakinan
         name_id: Kesetaraan warga tanpa diskriminasi keyakinan
         legal_anchors_id: ["Pasal 28D ayat (1)", "Pasal 28I ayat (2)"]
-      - id: sila-1-layanan-netral
-        name_id: Netralitas layanan publik terkait agama (pendidikan agama, rumah ibadah, administrasi kependudukan)
-        legal_anchors_id: ["Pasal 29 ayat (2)", "Pasal 31"]
+      - id: sila-1-fasilitasi-agama
+        name_id: Fasilitasi negara terhadap kehidupan beragama & pengakuan hukum/etika agama
+        legal_anchors_id: ["Pasal 29 ayat (1)-(2)", "Dekrit Presiden 1959"]
 
   - id: sila-2
     group_id: sila
@@ -83,6 +90,7 @@ dimensions:
       Sejauh mana HAM dihormati dan dilindungi, termasuk akuntabilitas
       pelanggaran HAM masa lalu serta pemulihan korban?
     weight: 1
+    non_derogable: true
     anchors:
       "-2": >-
         Pelanggaran HAM berat/sistemik; impunitas aktif; penyiksaan,
@@ -90,7 +98,8 @@ dimensions:
       "-1": >-
         Pengabaian berulang; pembatasan hak tanpa uji proporsionalitas;
         penanganan korban lambat dan setengah hati.
-      "0": Tidak ada perubahan berarti dibanding situasi sebelumnya.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Penegakan hukum HAM konkret; pemulihan korban; pembatasan hak hanya
         dengan dasar kuat, terukur, dan dapat diuji.
@@ -117,12 +126,12 @@ dimensions:
     weight: 1
     anchors:
       "-2": >-
-        Sentralisasi paksa atau diskriminasi terhadap kelompok/wilayah
-        tertentu; meresahkan kebinekaan demi kepentingan politik.
+        Sentralisasi paksa; meresahkan kebinekaan demi politik; ATAU penghapusan memori kolektif/sejarah pergerakan Islam dari narasi nasional (de-historisasi).
       "-1": >-
         Ketimpangan antarwilayah dibiarkan; retorika perpecahan; otonomi
         daerah digerogoti tanpa ganti mekanisme perlindungan setara.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Penguatan otonomi daerah dan keadilan antarwilayah; pengelolaan
         konflik secara adil dan damai.
@@ -139,32 +148,31 @@ dimensions:
       - id: sila-3-konflik
         name_id: Pengelolaan konflik dan integrasi nasional
         legal_anchors_id: ["Pembukaan alinea IV"]
+      - id: sila-3-memori-sejarah
+        name_id: Pelestarian memori kolektif sejarah pergerakan (Piagam Jakarta & Syarikat Islam)
+        legal_anchors_id: ["Bhinneka Tunggal Ika", "Dekrit Presiden 1959"]
 
   - id: sila-4
     group_id: sila
     name_id: Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan
     question_id: >
-      Sejauh mana demokrasi konstitusional berjalan: integritas pemilu,
-      kebebasan sipil dan pers, serta partisipasi publik dalam kebijakan?
+      Sejauh mana keputusan didasarkan pada musyawarah mufakat yang dijiwai hikmat kebijaksanaan (etika kenegarawanan), bukan sekadar mayoritarianisme (voting)?
     weight: 1
     anchors:
       "-2": >-
-        Pembajakan kehendak rakyat; kecurangan elektoral sistemik; represi
-        terhadap kritik, oposisi, atau media.
+        Pembajakan kehendak rakyat oleh oligarki; mayoritarianisme ugal-ugalan; keputusan dipaksakan tanpa musyawarah mufakat yang bermakna.
       "-1": >-
-        Erosi berulang: legislasi menghindari partisipasi; ruang sipil
-        menyempit; integritas pemilu dipertanyakan.
-      "0": Tidak ada perubahan berarti.
+        Erosi musyawarah: legislasi dibuat terburu-buru menghindari deliberasi publik; hilangnya etika (hikmat kebijaksanaan) dalam tata kelola.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
-        Pemilu kredibel; partisipasi publik nyata; kebebasan pers dan
-        berserikat dilindungi konsisten.
+        Praktik demokrasi berjalan baik; kebebasan sipil dilindungi; musyawarah dan partisipasi publik dalam kebijakan nyata.
       "2": >-
-        Konsolidasi demokrasi teladan: akuntabilitas tinggi dan ruang
-        sipil yang melembaga.
+        Konsensus beradab teladan: pertentangan tajam diselesaikan melalui musyawarah mufakat dengan kedalaman etika (hikmat kebijaksanaan) para negarawan.
     indicators:
-      - id: sila-4-integritas-pemilu
-        name_id: Integritas pemilu dan penyelenggaraan pemilihan
-        legal_anchors_id: ["Pasal 22E", "Pasal 23G"]
+      - id: sila-4-musyawarah-mufakat
+        name_id: Praktik musyawarah mufakat & etika kenegarawanan (hikmat kebijaksanaan)
+        legal_anchors_id: ["Pembukaan UUD 1945", "Pasal 20A"]
       - id: sila-4-kebebasan-sipil
         name_id: Kebebasan berekspresi, berkumpul, dan pers
         legal_anchors_id: ["Pasal 28E ayat (3)", "Pasal 28F", "Pasal 28"]
@@ -186,7 +194,8 @@ dimensions:
       "-1": >-
         Ketimpangan melebar; program kesejahteraan tidak sampai atau
         tertukar dengan kepentingan patronase.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Perluasan jaminan sosial nyata; pengentasan kemiskinan berbasis
         data; kesempatan kerja layak meningkat.
@@ -220,7 +229,8 @@ dimensions:
       "-1": >-
         Respons krisis lambat/selektif; operasi keamanan berlebihan tanpa
         akuntabilitas.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Perlindungan warga efektif dalam krisis; profesionalisme pertahanan-
         keamanan meningkat dengan kontrol sipil sehat.
@@ -252,7 +262,8 @@ dimensions:
       "-1": >-
         Kualitas layanan dasar stagnan/menurun; belanja negara kurang
         tepat sasaran dan sulit diaudit.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Layanan dasar membaik dan terjangkau; belanja tepat sasaran;
         transparansi anggaran meningkat.
@@ -284,7 +295,8 @@ dimensions:
       "-1": >-
         Mutu pendidikan stagnan; kesenjangan akses kota-desa melebar;
         kebebasan akademik tertekan.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Akses dan mutu pendidikan membaik; anggaran 20% dipenuhi dengan
         kualitas output yang terukur.
@@ -316,7 +328,8 @@ dimensions:
       "-1": >-
         Politik luar negeri reaktif/transaksional; pengabaian kewajiban
         traktat; perlindungan WNI buruk.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Diplomasi bebas-aktif produktif; partisipasi perdamaian PBB;
         ratifikasi instrumen HAM internasional.
@@ -350,7 +363,8 @@ dimensions:
       "-1": >-
         Supremasi hukum goyah: intervensi terhadap aparat penegak hukum;
         kasus besar mengendur.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Kasus penting ditangani tanpa pandang bulu; kepastian hukum
         meningkat.
@@ -382,7 +396,8 @@ dimensions:
       "-1": >-
         Pengabaian berkala terhadap fungsi pengawasan; legislasi kilat
         tanpa telaah; konflik antarlembaga diselesaikan di luar konstitusi.
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Putusan MK/MA dihormati; fungsi pengawasan DPR/KY/BPK berjalan;
         proses legislasi patuh prosedur.
@@ -414,7 +429,8 @@ dimensions:
       "-1": >-
         Partisipasi rakyat formalitas; representasi dilemahkan (mis. cara
         pemilihan pimpinan lembaga yang mengunci alternatif).
-      "0": Tidak ada perubahan berarti.
+      "0": >-
+        Tidak ada tindakan signifikan yang mengubah keadaan. BUKAN untuk tarik-menarik: bila ada penguatan DAN penggerusan, beri skor neto dan nyatakan ketegangannya di rationale_id.
       "1": >-
         Pemilihan berkala bebas-rahasia-jujur-adil; aspirasi publik
         tercermin dalam kebijakan.

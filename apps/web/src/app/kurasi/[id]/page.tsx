@@ -5,6 +5,7 @@ import { db } from "@/lib/db";
 import { getCurrentUser, hasRole } from "@/lib/authz";
 import { dataset, getSource } from "@pancasila-index/data";
 import { KurasiActions } from "@/components/kurasi-actions";
+import { scoreColor, scoreTextColor } from "@/lib/view";
 
 export const dynamic = "force-dynamic";
 
@@ -49,7 +50,7 @@ export default async function KurasiDetailPage({
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-12">
-      <Link href={`/kurasi?tab=draft`} className="text-sm text-[var(--muted)] hover:text-white">
+      <Link href={`/kurasi?tab=draft`} className="text-sm text-[var(--muted)] hover:text-[var(--text)]">
         ← antrean kurasi
       </Link>
 
@@ -98,7 +99,7 @@ export default async function KurasiDetailPage({
           )}
         </div>
         {!quorumMet && history.some((r) => r.decision === "APPROVED") && (
-          <p className="mt-2 text-[11px] text-amber-300">
+          <p className="mt-2 text-[11px] text-[var(--acc-amber-strong)]">
             Sudah disetujui satu kurator — publikasi menunggu telaah kedua dari
             kurator berbeda.
           </p>
@@ -113,7 +114,7 @@ export default async function KurasiDetailPage({
             {[...history].reverse().map((r) => (
               <li key={r.id}>
                 {r.createdAt.toISOString().slice(0, 10)} —{" "}
-                <strong className={r.decision === "APPROVED" ? "text-green-400" : "text-red-400"}>
+                <strong className={r.decision === "APPROVED" ? "text-green-400" : "text-[var(--acc-red)]"}>
                   {r.decision}
                 </strong>{" "}
                 oleh {r.reviewerName}
@@ -136,9 +137,13 @@ export default async function KurasiDetailPage({
                   {ds ? (
                     (() => {
                       const v = Math.round(((ds.score + 2) / 4) * 100);
-                      const color = ds.score <= -1.5 ? "#ef4444" : ds.score < 0 ? "#fb923c" : ds.score === 0 ? "#94a3b8" : ds.score <= 1 ? "#a3e635" : "#22c55e";
+                      // Dulu skala warna skor disalin ulang di sini dengan hex
+                      // hardcoded - salinan keempat, dan tak terbaca di light mode.
                       return (
-                        <span className="rounded-md px-2 py-0.5 text-xs font-bold w-11 text-center tabular-nums" style={{ background: `${color}22`, color }}>
+                        <span
+                          className="rounded-md px-2 py-0.5 text-xs font-bold w-11 text-center tabular-nums"
+                          style={{ background: `${scoreColor(ds.score)}22`, color: scoreTextColor(ds.score) }}
+                        >
                           {v}
                         </span>
                       );
@@ -158,15 +163,35 @@ export default async function KurasiDetailPage({
                 <div className="mt-3 border-t border-[var(--line)] pt-3 grid md:grid-cols-2 gap-x-8 gap-y-3 text-sm">
                   {/* kolom rubrik */}
                   <div>
-                    <div className="text-[11px] uppercase tracking-wide text-sky-400/80 mb-1">
+                    <div className="text-[11px] uppercase tracking-wide text-[var(--acc-sky)] mb-1">
                       Rubrik v{dataset.rubric.version}
                     </div>
                     <p className="italic text-[var(--muted)]">{dim.question_id.trim()}</p>
-                    <div className="mt-2 text-xs text-[var(--muted)] leading-relaxed">
-                      Jangkar −2: {dim.anchors["-2"]}
-                      <br />
-                      Jangkar +2: {dim.anchors["2"]}
-                    </div>
+                    {/*
+                      Seluruh LIMA jangkar, bukan hanya −2 dan +2. Kurator di
+                      halaman inilah yang memutuskan skornya, jadi menyembunyikan
+                      jangkar −1/0/+1 berarti aturan terpentingnya tidak pernah
+                      terbaca — termasuk bahwa 0 BUKAN untuk kasus tarik-menarik.
+                    */}
+                    <dl className="mt-2 space-y-1 text-xs leading-relaxed text-[var(--muted)]">
+                      {(["-2", "-1", "0", "1", "2"] as const).map((k) => {
+                        const teks = dim.anchors[k];
+                        if (!teks) return null;
+                        const nol = k === "0";
+                        return (
+                          <div key={k} className="grid grid-cols-[2.2rem_1fr] gap-2">
+                            <dt
+                              className={`tabular-nums font-semibold ${
+                                nol ? "text-[var(--acc-amber)]" : "text-[var(--muted)]"
+                              }`}
+                            >
+                              {k === "0" ? "0" : k.startsWith("-") ? `−${k.slice(1)}` : `+${k}`}
+                            </dt>
+                            <dd className={nol ? "text-[var(--text)]" : ""}>{teks.trim()}</dd>
+                          </div>
+                        );
+                      })}
+                    </dl>
                     {dim.indicators.length > 0 && (
                       <ul className="mt-2 text-xs text-[var(--muted)] list-disc pl-4 space-y-0.5">
                         {dim.indicators.map((ind) => (
@@ -183,7 +208,7 @@ export default async function KurasiDetailPage({
 
                   {/* kolom penilaian / belum dinilai */}
                   <div>
-                    <div className="text-[11px] uppercase tracking-wide text-amber-400/80 mb-1">
+                    <div className="text-[11px] uppercase tracking-wide text-[var(--acc-amber)] mb-1">
                       Penilaian kurandidat
                     </div>
                     {ds ? (
@@ -195,12 +220,12 @@ export default async function KurasiDetailPage({
                         <ul className="mt-1 space-y-1">
                           {ds.evidence.map((ev) => {
                             const src = getSource(dataset, ev.source_id);
-                            const href = src?.resolved_url ?? src?.url;
+                            const href = src?.detail_url ?? src?.resolved_url ?? src?.url;
                             return (
                               <li key={ev.source_id} className="text-xs">
                                 📄{" "}
                                 {href ? (
-                                  <a href={href} target="_blank" rel="noopener noreferrer" className="text-sky-400 hover:text-sky-300 underline decoration-dotted underline-offset-2">
+                                  <a href={href} target="_blank" rel="noopener noreferrer" className="text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)] underline decoration-dotted underline-offset-2">
                                     {(src?.title_id ?? ev.source_id).slice(0, 60)} ↗
                                   </a>
                                 ) : (

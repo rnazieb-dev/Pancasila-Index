@@ -24,7 +24,10 @@ export default function EksporPage() {
     }
 
     if (type === "assessments") {
-      const headers = ["assessment_id", "term_id", "status", "dimension_id", "score", "confidence", "rationale_id", "evidence_count"];
+      // evidence_gap & normative_anchors_count ikut diekspor: tanpa keduanya,
+      // pengunduh tidak bisa tahu skor mana yang DIKELUARKAN dari indeks
+      // karena belum berbukti, dan akan salah merekonstruksi angkanya.
+      const headers = ["assessment_id", "term_id", "status", "dimension_id", "score", "confidence", "rationale_id", "evidence_count", "evidence_gap", "normative_anchors_count", "counted_in_index"];
       const rows = dataset.assessments.flatMap((a) =>
         a.dimension_scores.map((ds) => [
           `"${a.id}"`,
@@ -35,19 +38,24 @@ export default function EksporPage() {
           ds.confidence,
           `"${ds.rationale_id.replace(/"/g, '""')}"`,
           ds.evidence.length,
+          ds.evidence_gap === true,
+          (ds.normative_anchors ?? []).length,
+          !(ds.evidence_gap === true || ds.evidence.length === 0),
         ])
       );
       return [headers.join(","), ...rows.map((r) => r.join(","))].join("\n");
     }
 
     if (type === "sources") {
-      const headers = ["id", "type", "title_id", "year", "citation_id", "resolved_url"];
+      const headers = ["id", "type", "title_id", "year", "citation_id", "detail_url", "archive_url", "resolved_url"];
       const rows = dataset.sources.map((s) => [
         `"${s.id}"`,
         `"${s.type}"`,
         `"${s.title_id.replace(/"/g, '""')}"`,
         s.year ?? "",
         `"${(s.citation_id ?? "").replace(/"/g, '""')}"`,
+        `"${s.detail_url ?? ""}"`,
+        `"${s.archive_url ?? ""}"`,
         `"${s.resolved_url ?? s.url ?? ""}"`,
       ]);
       return [headers.join(","), ...rows.map((r) => r.join(","))].join("\n");
@@ -101,10 +109,10 @@ export default function EksporPage() {
         <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-3 flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between">
-              <span className="text-xs uppercase tracking-wide text-sky-400 font-bold">Format JSON</span>
+              <span className="text-xs uppercase tracking-wide text-[var(--acc-sky)] font-bold">Format JSON</span>
               <span className="text-xs text-[var(--muted)]">~250 KB</span>
             </div>
-            <h2 className="text-lg font-bold text-white/95 mt-1">Dataset Kanonik Lengkap</h2>
+            <h2 className="text-lg font-bold text-[var(--text)] mt-1">Dataset Kanonik Lengkap</h2>
             <p className="text-xs text-[var(--muted)] leading-relaxed mt-2">
               Berisi seluruh objek data: 8 lembaga, 45 masa jabatan, {dataset.events.length} peristiwa, {dataset.sources.length} sumber primer, {dataset.assessments.length} lembar penilaian, dan peta 73 pasal UUD 1945.
             </p>
@@ -118,7 +126,7 @@ export default function EksporPage() {
             </button>
             <button
               onClick={() => handleCopy("json", JSON.stringify(dataset, null, 2))}
-              className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-xs font-semibold text-[var(--muted)] hover:text-white hover:border-slate-500 transition"
+              className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500 transition"
             >
               {copiedType === "json" ? "✓ Tersalin" : "Salin"}
             </button>
@@ -129,10 +137,10 @@ export default function EksporPage() {
         <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-3 flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between">
-              <span className="text-xs uppercase tracking-wide text-emerald-400 font-bold">Format CSV</span>
+              <span className="text-xs uppercase tracking-wide text-[var(--acc-emerald)] font-bold">Format CSV</span>
               <span className="text-xs text-[var(--muted)]">{dataset.events.length} baris</span>
             </div>
-            <h2 className="text-lg font-bold text-white/95 mt-1">Tabel Peristiwa Berbukti (Events)</h2>
+            <h2 className="text-lg font-bold text-[var(--text)] mt-1">Tabel Peristiwa Berbukti (Events)</h2>
             <p className="text-xs text-[var(--muted)] leading-relaxed mt-2">
               Daftar kronologis peristiwa hukum, kebijakan, dan dinamika ketatanegaraan beserta tanggal, kategori, ringkasan, dan tautan dimensi/sumber.
             </p>
@@ -140,13 +148,13 @@ export default function EksporPage() {
           <div className="flex gap-2 pt-3">
             <button
               onClick={() => handleDownload("events.csv", generateCsv("events"), "text/csv")}
-              className="flex-1 rounded-lg bg-emerald-600 px-4 py-2.5 text-xs font-semibold text-white hover:bg-emerald-500 transition text-center shadow"
+              className="flex-1 rounded-lg bg-emerald-700 px-4 py-2.5 text-xs font-semibold text-white hover:bg-emerald-600 transition text-center shadow"
             >
               📥 Unduh CSV Peristiwa
             </button>
             <button
               onClick={() => handleCopy("events", generateCsv("events"))}
-              className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-xs font-semibold text-[var(--muted)] hover:text-white hover:border-slate-500 transition"
+              className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500 transition"
             >
               {copiedType === "events" ? "✓ Tersalin" : "Salin"}
             </button>
@@ -157,10 +165,10 @@ export default function EksporPage() {
         <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-3 flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between">
-              <span className="text-xs uppercase tracking-wide text-amber-400 font-bold">Format CSV</span>
+              <span className="text-xs uppercase tracking-wide text-[var(--acc-amber)] font-bold">Format CSV</span>
               <span className="text-xs text-[var(--muted)]">{dataset.assessments.length} lembar</span>
             </div>
-            <h2 className="text-lg font-bold text-white/95 mt-1">Tabel Skor Penilaian (Assessments)</h2>
+            <h2 className="text-lg font-bold text-[var(--text)] mt-1">Tabel Skor Penilaian (Assessments)</h2>
             <p className="text-xs text-[var(--muted)] leading-relaxed mt-2">
               Rincian skor dimensi (-2 .. +2), rasional penilaian, tingkat keyakinan, dan jumlah bukti empiris per periode kepemimpinan lembaga.
             </p>
@@ -168,27 +176,53 @@ export default function EksporPage() {
           <div className="flex gap-2 pt-3">
             <button
               onClick={() => handleDownload("assessments.csv", generateCsv("assessments"), "text/csv")}
-              className="flex-1 rounded-lg bg-amber-600 px-4 py-2.5 text-xs font-semibold text-white hover:bg-amber-500 transition text-center shadow"
+              className="flex-1 rounded-lg bg-amber-700 px-4 py-2.5 text-xs font-semibold text-white hover:bg-amber-600 transition text-center shadow"
             >
               📥 Unduh CSV Skor
             </button>
             <button
               onClick={() => handleCopy("assessments", generateCsv("assessments"))}
-              className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-xs font-semibold text-[var(--muted)] hover:text-white hover:border-slate-500 transition"
+              className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500 transition"
             >
               {copiedType === "assessments" ? "✓ Tersalin" : "Salin"}
             </button>
           </div>
         </div>
 
+        
+        {/* 5. Audit Data Terbuka CKAN */}
+        <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-3 flex flex-col justify-between">
+          <div>
+            <div className="flex items-center justify-between">
+              <span className="text-xs uppercase tracking-wide text-emerald-500 font-bold">Data Terbuka / CKAN</span>
+              <span className="text-xs text-[var(--muted)]">API / JSON</span>
+            </div>
+            <h2 className="text-lg font-bold text-[var(--text)] mt-1">Audit Data Terbuka (CKAN DataStore)</h2>
+            <p className="text-xs text-[var(--muted)] leading-relaxed mt-2">
+              Koleksi hasil audit kritis atas dataset resmi kementerian/lembaga yang telah lolos pengujian independen melalui kuorum 2 peninjau.
+            </p>
+          </div>
+          <div className="flex gap-2 pt-3">
+            <a
+              href="/api/v1/ckan-audits?status=published"
+              target="_blank"
+              rel="noreferrer"
+              className="flex-1 rounded-lg bg-emerald-600 px-4 py-2.5 text-xs font-semibold text-white hover:bg-emerald-500 transition text-center shadow"
+            >
+              🌐 Buka REST API v1
+            </a>
+          </div>
+        </div>
+
+
         {/* 4. Sumber Primer CSV */}
         <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-3 flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between">
-              <span className="text-xs uppercase tracking-wide text-purple-400 font-bold">Format CSV</span>
+              <span className="text-xs uppercase tracking-wide text-[var(--acc-purple)] font-bold">Format CSV</span>
               <span className="text-xs text-[var(--muted)]">{dataset.sources.length} instrumen</span>
             </div>
-            <h2 className="text-lg font-bold text-white/95 mt-1">Tabel Sumber Primer & Sitasi</h2>
+            <h2 className="text-lg font-bold text-[var(--text)] mt-1">Tabel Sumber Primer & Sitasi</h2>
             <p className="text-xs text-[var(--muted)] leading-relaxed mt-2">
               Koleksi instrumen hukum, UU, Putusan MK, Putusan MA, TAP MPR, dan arsip resmi lengkap dengan nomor lembaran negara dan URL rujukan JDIH/BPK.
             </p>
@@ -196,13 +230,13 @@ export default function EksporPage() {
           <div className="flex gap-2 pt-3">
             <button
               onClick={() => handleDownload("sources.csv", generateCsv("sources"), "text/csv")}
-              className="flex-1 rounded-lg bg-purple-600 px-4 py-2.5 text-xs font-semibold text-white hover:bg-purple-500 transition text-center shadow"
+              className="flex-1 rounded-lg bg-purple-700 px-4 py-2.5 text-xs font-semibold text-white hover:bg-purple-600 transition text-center shadow"
             >
               📥 Unduh CSV Sumber
             </button>
             <button
               onClick={() => handleCopy("sources", generateCsv("sources"))}
-              className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-xs font-semibold text-[var(--muted)] hover:text-white hover:border-slate-500 transition"
+              className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500 transition"
             >
               {copiedType === "sources" ? "✓ Tersalin" : "Salin"}
             </button>
@@ -212,11 +246,11 @@ export default function EksporPage() {
 
       {/* Lisensi Terbuka */}
       <section className="mt-12 rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6">
-        <h3 className="text-base font-bold text-white/95">Lisensi Data Terbuka</h3>
+        <h3 className="text-base font-bold text-[var(--text)]">Lisensi Data Terbuka</h3>
         <p className="mt-2 text-xs leading-relaxed text-[var(--muted)]">
           Seluruh data yang dipublikasikan di Pancasila Index dilisensikan di bawah{" "}
-          <strong className="text-white">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</strong>.
-          Kode sumber platform berlisensi <strong className="text-white">AGPL-3.0</strong>. Anda bebas mengutip,
+          <strong className="text-[var(--text)]">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</strong>.
+          Kode sumber platform berlisensi <strong className="text-[var(--text)]">AGPL-3.0</strong>. Anda bebas mengutip,
           mengolah ulang, dan mendistribusikan dataset ini untuk keperluan akademis, jurnalistik, maupun edukasi publik dengan mencantumkan atribusi ke Pancasila Index.
         </p>
       </section>

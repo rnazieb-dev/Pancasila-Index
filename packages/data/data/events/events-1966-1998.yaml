@@ -1,352 +1,563 @@
-# Peristiwa Konstitusional & Sejarah Tata Negara: Era Orde Baru (1966–1998)
-
+- id: ev-petisi-50-1980
+  term_id: presiden-soeharto
+  date: 1980-05-05
+  category: peristiwa
+  title_id: Petisi 50 1980 - Kritik Tokoh Terhadap Orde Baru
+  summary_id: >-
+    Sejumlah tokoh nasional menandatangani Petisi 50 yang mengkritik penggunaan
+    Pancasila sebagai alat pembenaran kekuasaan, memicu pembatasan dan
+    pelarangan aktivitas para penandatangan pada era Orde Baru.
+  source_ids:
+    - anri-petisi-50-pernyataan-1980
+  dimension_ids:
+    - sila-4
+    - kedaulatan-rakyat
 - id: ev-uu-3-1975-fusi-partai
   term_id: presiden-soeharto
-  date: "1975-08-27"
+  date: 1975-08-27
   category: produk-hukum
   title_id: UU No. 3 Tahun 1975 tentang Fusi Tiga Kontestan Pemilu Orde Baru
-  summary_id: >-
-    Pemerintah dan DPR mengesahkan penyederhanaan partai politik menjadi tiga kekuatan:
-    PPP (fusi partai Islam), PDI (fusi partai nasionalis & Kristen), dan Golongan Karya, membatasi pluralisme politik sipil.
-  source_ids: [uu-3-1975]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
+  summary_id: "Pemerintah dan DPR mengesahkan penyederhanaan partai politik
+    menjadi tiga kekuatan: PPP (fusi partai Islam), PDI (fusi partai nasionalis
+    & Kristen), dan Golongan Karya, membatasi pluralisme politik sipil."
+  source_ids:
+    - uu-3-1975
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-tap-mpr-ii-1978-p4
   term_id: mpr-1971-1999
-  date: "1978-03-22"
+  date: 1978-03-22
   category: produk-hukum
-  title_id: TAP MPR No. II/MPR/1978 tentang Pedoman Penghayatan dan Pengamalan Pancasila (P4)
-  summary_id: >-
-    MPR menetapkan 36 butir P4 (Ekaprasetia Pancakarsa) sebagai penataran wajib bagi seluruh PNS, ABRI, mahasiswa,
-    dan masyarakat sipil, yang kelak dikritik sebagai hegemoni tafsir tunggal ideologi negara oleh kekuasaan eksekutif.
-  source_ids: [tap-mpr-ii-1978]
-  dimension_ids: [checks-balances, sila-4]
-
+  title_id: TAP MPR No. II/MPR/1978 tentang Pedoman Penghayatan dan Pengamalan
+    Pancasila (P4)
+  summary_id: MPR menetapkan 36 butir P4 (Ekaprasetia Pancakarsa) sebagai
+    penataran wajib bagi seluruh PNS, ABRI, mahasiswa, dan masyarakat sipil,
+    yang kelak dikritik sebagai hegemoni tafsir tunggal ideologi negara oleh
+    kekuasaan eksekutif.
+  source_ids:
+    - tap-mpr-ii-1978
+  dimension_ids:
+    - checks-balances
+    - sila-4
 - id: ev-uu-asas-tunggal-1985
   term_id: presiden-soeharto
-  date: "1985-06-17"
+  date: 1985-06-17
   category: produk-hukum
   title_id: UU No. 3/1985 & UU No. 8/1985 tentang Kewajiban Asas Tunggal Pancasila
-  summary_id: >-
-    Negara mewajibkan seluruh partai politik dan organisasi kemasyarakatan (ormas) mencantumkan Pancasila
-    sebagai satu-satunya asas organisasi, memicu ketegangan dengan sejumlah organisasi keagamaan independen.
-  source_ids: [uu-3-1985, uu-8-1985]
-  dimension_ids: [sila-1, sila-4]
-
+  summary_id: Negara mewajibkan seluruh partai politik dan organisasi
+    kemasyarakatan (ormas) mencantumkan Pancasila sebagai satu-satunya asas
+    organisasi, memicu ketegangan dengan sejumlah organisasi keagamaan
+    independen.
+  source_ids:
+    - uu-3-1985
+    - uu-8-1985
+  dimension_ids:
+    - sila-1
+    - sila-4
+    - sila-3
+    - kedaulatan-rakyat
 - id: ev-bpk-audit-blbi-2000
   term_id: bpk-1998-2009
-  date: "2000-08-04"
+  date: 2000-08-04
   category: kebijakan
   title_id: Audit Investigatif BPK atas Penyimpangan BLBI Rp144,5 Triliun
-  summary_id: >-
-    BPK RI merampungkan dan menyerahkan audit investigatif Bantuan Likuiditas Bank Indonesia (BLBI),
-    menemukan bahwa 95% dari dana talangan Rp144,5 triliun untuk 48 bank bermasalah saat krisis 1997/1998 disalurkan dengan indikasi kuat melawan hukum dan korupsi sistemik.
-  source_ids: [laporan-audit-bpk-blbi-2000]
-  dimension_ids: [checks-balances, negara-hukum]
+  summary_id: BPK RI merampungkan dan menyerahkan audit investigatif Bantuan
+    Likuiditas Bank Indonesia (BLBI), menemukan bahwa 95% dari dana talangan
+    Rp144,5 triliun untuk 48 bank bermasalah saat krisis 1997/1998 disalurkan
+    dengan indikasi kuat melawan hukum dan korupsi sistemik.
+  source_ids:
+    - laporan-audit-bpk-blbi-2000
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
   subject_term_id: presiden-soeharto
-  subject_basis_id: >-
-    Dana talangan BLBI Rp144,5 triliun disalurkan pada krisis 1997/1998 sebagaimana disebut dalam LHP
-    investigatif BPK yang disitasi - seluruhnya di dalam masa jabatan ini.
-
+  subject_basis_id: Dana talangan BLBI Rp144,5 triliun disalurkan pada krisis
+    1997/1998 sebagaimana disebut dalam LHP investigatif BPK yang disitasi -
+    seluruhnya di dalam masa jabatan ini.
 - id: ev-komnas-ham-1993
   term_id: presiden-soeharto
-  date: "1993-06-07"
+  date: 1993-06-07
   category: produk-hukum
   title_id: Keppres No. 50 Tahun 1993 tentang Pembentukan Komnas HAM
-  summary_id: >-
-    Pemerintah membentuk Komisi Nasional Hak Asasi Manusia (Komnas HAM) pasca-sorotan internasional atas Insiden Santa Cruz Dili 1991,
-    menjadi lembaga independen pertama di Indonesia yang bertugas menyelidiki pelanggaran HAM dan memajukan penegakan martabat kemanusiaan.
-  source_ids: [keppres-50-1993]
-  dimension_ids: [sila-2, negara-hukum]
+  summary_id: Pemerintah membentuk Komisi Nasional Hak Asasi Manusia (Komnas HAM)
+    pasca-sorotan internasional atas Insiden Santa Cruz Dili 1991, menjadi
+    lembaga independen pertama di Indonesia yang bertugas menyelidiki
+    pelanggaran HAM dan memajukan penegakan martabat kemanusiaan.
+  source_ids:
+    - keppres-50-1993
+  dimension_ids:
+    - sila-2
+    - negara-hukum
+  actor_ids: []
 
 - id: ev-inpres-desa-tertinggal-1993
   term_id: presiden-soeharto
-  date: "1993-12-27"
+  date: 1993-12-27
   category: kebijakan
   title_id: Peluncuran Program Inpres Desa Tertinggal (IDT) untuk Pengentasan Kemiskinan
-  summary_id: >-
-    Pemerintah meluncurkan Inpres No. 5/1993 yang mengalokasikan dana hibah modal bergulir langsung Rp20 juta per desa
-    ke lebih dari 20.000 desa tertinggal di seluruh Indonesia untuk mendorong pemerataan ekonomi dan keadilan sosial pedesaan.
-  source_ids: [inpres-5-1993]
-  dimension_ids: [sila-5, tujuan-2]
-
+  summary_id: Pemerintah meluncurkan Inpres No. 5/1993 yang mengalokasikan dana
+    hibah modal bergulir langsung Rp20 juta per desa ke lebih dari 20.000 desa
+    tertinggal di seluruh Indonesia untuk mendorong pemerataan ekonomi dan
+    keadilan sosial pedesaan.
+  source_ids:
+    - inpres-5-1993
+  dimension_ids:
+    - sila-5
+    - tujuan-2
 - id: ev-deklarasi-asean-1967
   term_id: presiden-soeharto
-  date: "1967-08-08"
+  date: 1967-08-08
   category: peristiwa
   title_id: Deklarasi Bangkok Pembentukan Perhimpunan Bangsa-Bangsa Asia Tenggara (ASEAN)
-  summary_id: >-
-    Indonesia bersama 4 negara tetangga (Malaysia, Filipina, Singapura, Thailand) mendirikan ASEAN di Bangkok,
-    mengakhiri era konfrontasi militer regional dan meletakkan fondasi stabilitas, perdamaian, dan kerja sama ekonomi kawasan (Tujuan 4 UUD 1945).
-  source_ids: [deklarasi-bangkok-1967]
-  dimension_ids: [tujuan-4, tujuan-1]
-
+  summary_id: Indonesia bersama 4 negara tetangga (Malaysia, Filipina, Singapura,
+    Thailand) mendirikan ASEAN di Bangkok, mengakhiri era konfrontasi militer
+    regional dan meletakkan fondasi stabilitas, perdamaian, dan kerja sama
+    ekonomi kawasan (Tujuan 4 UUD 1945).
+  source_ids:
+    - deklarasi-bangkok-1967
+  dimension_ids:
+    - tujuan-4
+    - tujuan-1
 - id: ev-peristiwa-malari-1974
   term_id: presiden-soeharto
-  date: "1974-01-15"
+  date: 1974-01-15
   category: krisis
   title_id: Peristiwa Malapetaka Lima Belas Januari (Malari) 1974
-  summary_id: >-
-    Aksi unjuk rasa mahasiswa menentang dominasi investasi modal asing (kunjungan PM Jepang Kakuei Tanaka)
-    dan menuntut transparansi tata kelola ekonomi berujung pada kerusuhan massal di Jakarta dan pengetatan kontrol politik terhadap gerakan kampus.
-  source_ids: [arsip-malari-1974]
-  dimension_ids: [sila-5, kedaulatan-rakyat]
-
+  summary_id: Aksi unjuk rasa mahasiswa menentang dominasi investasi modal asing
+    (kunjungan PM Jepang Kakuei Tanaka) dan menuntut transparansi tata kelola
+    ekonomi berujung pada kerusuhan massal di Jakarta dan pengetatan kontrol
+    politik terhadap gerakan kampus.
+  source_ids:
+    - arsip-malari-1974
+  dimension_ids:
+    - sila-5
+    - kedaulatan-rakyat
 - id: ev-integrasi-timor-timur-1976
   term_id: presiden-soeharto
-  date: "1976-07-17"
+  date: 1976-07-17
   category: produk-hukum
   title_id: Pengesahan UU No. 7 Tahun 1976 tentang Integrasi Timor Timur ke NKRI
-  summary_id: >-
-    Pemerintah dan DPR mengesahkan penyatuan wilayah bekas koloni Portugis Timor Timur menjadi provinsi ke-27 Indonesia,
-    yang memicu dinamika perdebatan hukum internasional dan konflik militer berkepanjangan selama dua dekade berikutnya.
-  source_ids: [uu-7-1976]
-  dimension_ids: [tujuan-1, sila-3]
-
+  summary_id: Pemerintah dan DPR mengesahkan penyatuan wilayah bekas koloni
+    Portugis Timor Timur menjadi provinsi ke-27 Indonesia, yang memicu dinamika
+    perdebatan hukum internasional dan konflik militer berkepanjangan selama dua
+    dekade berikutnya.
+  source_ids:
+    - uu-7-1976
+  dimension_ids:
+    - tujuan-1
+    - sila-3
 - id: ev-tanjung-priok-1984
   term_id: presiden-soeharto
-  date: "1984-09-12"
+  date: 1984-09-12
   category: krisis
   title_id: Peristiwa Kekerasan di Tanjung Priok Jakarta Utara 1984
-  summary_id: >-
-    Bentrokan berdarah antara aparat militer dan massa jamaah pengajian di Tanjung Priok mengakibatkan puluhan korban jiwa,
-    menjadi salah satu titik krisis hak asasi manusia dan kebebasan sipil paling kelam di era Orde Baru.
-  source_ids: [arsip-tanjung-priok-1984]
-  dimension_ids: [sila-2, sila-1]
-
+  summary_id: Bentrokan berdarah antara aparat militer dan massa jamaah pengajian
+    di Tanjung Priok mengakibatkan puluhan korban jiwa, menjadi salah satu titik
+    krisis hak asasi manusia dan kebebasan sipil paling kelam di era Orde Baru.
+  source_ids:
+    - arsip-tanjung-priok-1984
+  dimension_ids:
+    - sila-2
+    - sila-1
 - id: ev-peristiwa-kudatuli-1996
   term_id: presiden-soeharto
-  date: "1996-07-27"
+  date: 1996-07-27
   category: krisis
   title_id: Peristiwa Kerusuhan 27 Juli 1996 (Kudatuli) Penyerbuan Kantor PDI
-  summary_id: >-
-    Penyerbuan paksa kantor DPP Partai Demokrasi Indonesia (PDI) pimpinan Megawati Soekarnoputri oleh massa tandingan dengan sokongan aparat
-    memicu kerusuhan sosial di Jakarta dan menjadi simbol puncak perlawanan pro-demokrasi menjelang kejatuhan rezim Orde Baru.
-  source_ids: [arsip-kudatuli-1996]
-  dimension_ids: [kedaulatan-rakyat, negara-hukum]
-
+  summary_id: Penyerbuan paksa kantor DPP Partai Demokrasi Indonesia (PDI)
+    pimpinan Megawati Soekarnoputri oleh massa tandingan dengan sokongan aparat
+    memicu kerusuhan sosial di Jakarta dan menjadi simbol puncak perlawanan
+    pro-demokrasi menjelang kejatuhan rezim Orde Baru.
+  source_ids:
+    - arsip-kudatuli-1996
+  dimension_ids:
+    - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-uu-pma-1967
   term_id: presiden-soeharto
-  date: "1967-01-10"
+  date: 1967-01-10
   category: produk-hukum
   title_id: Pengesahan UU No. 1 Tahun 1967 tentang Penanaman Modal Asing (UU PMA)
-  summary_id: >-
-    Pemerintah dan DPR mengesahkan payung hukum investasi asing pertama Orde Baru yang memberikan jaminan kepastian hukum,
-    tax holiday, dan hak transfer keuntungan, membuka gelombang investasi modal asing besar-besaran (termasuk kontrak karya Freeport di Papua).
-  source_ids: [uu-1-1967]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: Pemerintah dan DPR mengesahkan payung hukum investasi asing pertama
+    Orde Baru yang memberikan jaminan kepastian hukum, tax holiday, dan hak
+    transfer keuntungan, membuka gelombang investasi modal asing besar-besaran
+    (termasuk kontrak karya Freeport di Papua).
+  source_ids:
+    - uu-1-1967
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-bkkbn-kb-1970
   term_id: presiden-soeharto
-  date: "1970-06-29"
+  date: 1970-06-29
   category: kebijakan
   title_id: Pembentukan BKKBN dan Pelaksanaan Program Keluarga Berencana (KB) Nasional
-  summary_id: >-
-    Pemerintah membentuk BKKBN dan meluncurkan program KB 'Dua Anak Cukup' secara masif hingga tingkat desa,
-    berhasil menurunkan angka fertilitas total dan laju pertumbuhan penduduk secara signifikan dalam pembangunan manusia Indonesia.
-  source_ids: [arsip-bkkbn-kb-1970]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: Pemerintah membentuk BKKBN dan meluncurkan program KB 'Dua Anak
+    Cukup' secara masif hingga tingkat desa, berhasil menurunkan angka
+    fertilitas total dan laju pertumbuhan penduduk secara signifikan dalam
+    pembangunan manusia Indonesia.
+  source_ids:
+    - arsip-bkkbn-kb-1970
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-permenpen-siupp-1984
   term_id: presiden-soeharto
-  date: "1984-10-30"
+  date: 1984-10-30
   category: produk-hukum
   title_id: Penerbitan Permenpen SIUPP 1984 & Pengetatan Izin Terbit Pers
-  summary_id: >-
-    Kementerian Penerangan memberlakukan regulasi SIUPP yang memberikan wewenang administratif kepada pemerintah untuk mencabut izin terbit
-    media secara sepihak (seperti pembredelan Tempo, DeTik, Editor tahun 1994), membatasi kebebasan berpendapat dan fungsi kontrol pers.
-  source_ids: [permenpen-siupp-1984]
-  dimension_ids: [kedaulatan-rakyat, checks-balances]
-
+  summary_id: Kementerian Penerangan memberlakukan regulasi SIUPP yang memberikan
+    wewenang administratif kepada pemerintah untuk mencabut izin terbit media
+    secara sepihak (seperti pembredelan Tempo, DeTik, Editor tahun 1994),
+    membatasi kebebasan berpendapat dan fungsi kontrol pers.
+  source_ids:
+    - permenpen-siupp-1984
+  dimension_ids:
+    - kedaulatan-rakyat
+    - checks-balances
 - id: ev-swasembada-beras-fao-1985
   term_id: presiden-soeharto
-  date: "1985-11-14"
+  date: 1985-11-14
   category: peristiwa
   title_id: Penghargaan FAO Roma atas Keberhasilan Swasembada Beras Nasional 1984/1985
-  summary_id: >-
-    Organisasi Pangan dan Pertanian PBB (FAO) di Roma memberikan penghargaan internasional kepada Indonesia
-    atas pencapaian swasembada beras nasional dari importir beras terbesar dunia menjadi negara yang mampu mencukupi kebutuhan pangan rakyatnya sendiri.
-  source_ids: [penghargaan-fao-swasembada-1985]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: Organisasi Pangan dan Pertanian PBB (FAO) di Roma memberikan
+    penghargaan internasional kepada Indonesia atas pencapaian swasembada beras
+    nasional dari importir beras terbesar dunia menjadi negara yang mampu
+    mencukupi kebutuhan pangan rakyatnya sendiri.
+  source_ids:
+    - penghargaan-fao-swasembada-1985
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-krismon-rupiah-1997
   term_id: presiden-soeharto
-  date: "1997-08-14"
+  date: 1997-08-14
   category: krisis
   title_id: Krisis Moneter Asia 1997 dan Anjloknya Nilai Tukar Rupiah
-  summary_id: >-
-    Pelepasan sistem kurs mengambang terkendali menyusul krisis finansial Asia menyebabkan depresiasi dramatis nilai tukar rupiah
-    terhadap dolar AS hingga menembus Rp16.000/USD, memicu krisis likuiditas perbankan, penutupan puluhan ribu pabrik, dan lonjakan inflasi ekstrem.
-  source_ids: [arsip-krismon-1997]
-  dimension_ids: [tujuan-2, sila-5]
-
+  summary_id: Pelepasan sistem kurs mengambang terkendali menyusul krisis
+    finansial Asia menyebabkan depresiasi dramatis nilai tukar rupiah terhadap
+    dolar AS hingga menembus Rp16.000/USD, memicu krisis likuiditas perbankan,
+    penutupan puluhan ribu pabrik, dan lonjakan inflasi ekstrem.
+  source_ids:
+    - arsip-krismon-1997
+  dimension_ids:
+    - tujuan-2
+    - sila-5
 - id: ev-lengser-soeharto-1998
   term_id: presiden-soeharto
-  date: "1998-05-21"
+  date: 1998-05-21
   category: peristiwa
-  title_id: Pernyataan Berhenti Presiden Soeharto dan Pelantikan BJ Habibie (Awal Reformasi)
-  summary_id: >-
-    Menghadapi demonstrasi mahasiswa yang menduduki Gedung DPR/MPR dan gelombang kerusuhan Mei 1998,
-    Presiden Soeharto membacakan pidato pengunduran diri di Istana Merdeka dan menyerahkan kepemimpinan nasional kepada Wapres BJ Habibie berdasarkan Pasal 8 UUD 1945.
-  source_ids: [pidato-mundur-soeharto-1998]
-  dimension_ids: [kedaulatan-rakyat, checks-balances]
-
+  title_id: Pernyataan Berhenti Presiden Soeharto dan Pelantikan BJ Habibie (Awal
+    Reformasi)
+  summary_id: Menghadapi demonstrasi mahasiswa yang menduduki Gedung DPR/MPR dan
+    gelombang kerusuhan Mei 1998, Presiden Soeharto membacakan pidato
+    pengunduran diri di Istana Merdeka dan menyerahkan kepemimpinan nasional
+    kepada Wapres BJ Habibie berdasarkan Pasal 8 UUD 1945.
+  source_ids:
+    - pidato-mundur-soeharto-1998
+  dimension_ids:
+    - kedaulatan-rakyat
+    - checks-balances
 - id: ev-uu-kuhap-1981
   term_id: presiden-soeharto
-  date: "1981-12-31"
+  date: 1981-12-31
   category: produk-hukum
   title_id: Pengesahan UU No. 8 Tahun 1981 tentang Hukum Acara Pidana (KUHAP)
-  summary_id: >-
-    Pemerintah dan DPR mengesahkan kodifikasi hukum acara pidana nasional 'Karya Agung Bangsa' yang menggantikan HIR warisan kolonial,
-    memperkenalkan lembaga praperadilan, hak bantuan hukum sejak penyidikan, dan asas praduga tak bersalah (presumption of innocence).
-  source_ids: [uu-8-1981]
-  dimension_ids: [negara-hukum, sila-2]
-
+  summary_id: Pemerintah dan DPR mengesahkan kodifikasi hukum acara pidana
+    nasional 'Karya Agung Bangsa' yang menggantikan HIR warisan kolonial,
+    memperkenalkan lembaga praperadilan, hak bantuan hukum sejak penyidikan, dan
+    asas praduga tak bersalah (presumption of innocence).
+  source_ids:
+    - uu-8-1981
+  dimension_ids:
+    - negara-hukum
+    - sila-2
 - id: ev-uu-unclos-1985
   term_id: presiden-soeharto
-  date: "1985-12-31"
+  date: 1985-12-31
   category: produk-hukum
   title_id: Pengesahan UU No. 17 Tahun 1985 tentang Ratifikasi UNCLOS 1982
-  summary_id: >-
-    Indonesia meratifikasi Konvensi PBB tentang Hukum Laut (UNCLOS 1982), memperoleh pengakuan yuridis internasional mutlak
-    atas prinsip Negara Kepulauan (Archipelagic State Principle) yang diperjuangkan sejak Deklarasi Djuanda 1957.
-  source_ids: [uu-17-1985]
-  dimension_ids: [tujuan-1, tujuan-4]
-
+  summary_id: Indonesia meratifikasi Konvensi PBB tentang Hukum Laut (UNCLOS
+    1982), memperoleh pengakuan yuridis internasional mutlak atas prinsip Negara
+    Kepulauan (Archipelagic State Principle) yang diperjuangkan sejak Deklarasi
+    Djuanda 1957.
+  source_ids:
+    - uu-17-1985
+  dimension_ids:
+    - tujuan-1
+    - tujuan-4
 - id: ev-uu-ptun-1986
   term_id: presiden-soeharto
-  date: "1986-12-29"
+  date: 1986-12-29
   category: produk-hukum
   title_id: Pengesahan UU No. 5 Tahun 1986 tentang Peradilan Tata Usaha Negara (PTUN)
-  summary_id: >-
-    Pembentukan lembaga peradilan tata usaha negara untuk memberikan perlindungan hukum bagi warga masyarakat
-    dari potensi tindakan kesewenang-wenangan atau penyalahgunaan wewenang (detournement de pouvoir) oleh pejabat administrasi negara.
-  source_ids: [uu-5-1986]
-  dimension_ids: [negara-hukum, checks-balances]
-
+  summary_id: Pembentukan lembaga peradilan tata usaha negara untuk memberikan
+    perlindungan hukum bagi warga masyarakat dari potensi tindakan
+    kesewenang-wenangan atau penyalahgunaan wewenang (detournement de pouvoir)
+    oleh pejabat administrasi negara.
+  source_ids:
+    - uu-5-1986
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
 - id: ev-jim-kamboja-1988
   term_id: presiden-soeharto
-  date: "1988-07-28"
+  date: 1988-07-28
   category: peristiwa
   title_id: Diplomasi Damai Jakarta Informal Meeting (JIM I & II) untuk Kamboja
-  summary_id: >-
-    Diplomasi bebas aktif Indonesia memfasilitasi perundingan damai faksi-faksi bertikai di Kamboja di Istana Bogor dan Jakarta,
-    membuka jalan bagi Perjanjian Damai Paris 1991 dan membuktikan peran Indonesia dalam mewujudkan perdamaian dunia (Tujuan 4 UUD 1945).
-  source_ids: [arsip-jim-kamboja-1988]
-  dimension_ids: [tujuan-4, sila-2]
-
+  summary_id: Diplomasi bebas aktif Indonesia memfasilitasi perundingan damai
+    faksi-faksi bertikai di Kamboja di Istana Bogor dan Jakarta, membuka jalan
+    bagi Perjanjian Damai Paris 1991 dan membuktikan peran Indonesia dalam
+    mewujudkan perdamaian dunia (Tujuan 4 UUD 1945).
+  source_ids:
+    - arsip-jim-kamboja-1988
+  dimension_ids:
+    - tujuan-4
+    - sila-2
 - id: ev-ratifikasi-crc-1990
   term_id: presiden-soeharto
-  date: "1990-08-25"
+  date: 1990-08-25
   category: produk-hukum
   title_id: Keppres No. 36 Tahun 1990 tentang Ratifikasi Konvensi Hak-Hak Anak (CRC)
-  summary_id: >-
-    Indonesia meratifikasi Konvensi Hak-Hak Anak PBB, mengikatkan diri pada kewajiban moral dan hukum internasional
-    untuk melindungi hak kelangsungan hidup, tumbuh kembang, perlindungan khusus, dan partisipasi anak-anak Indonesia.
-  source_ids: [keppres-36-1990]
-  dimension_ids: [sila-2, tujuan-2]
-
+  summary_id: Indonesia meratifikasi Konvensi Hak-Hak Anak PBB, mengikatkan diri
+    pada kewajiban moral dan hukum internasional untuk melindungi hak
+    kelangsungan hidup, tumbuh kembang, perlindungan khusus, dan partisipasi
+    anak-anak Indonesia.
+  source_ids:
+    - keppres-36-1990
+  dimension_ids:
+    - sila-2
+    - tujuan-2
 - id: ev-pepera-papua-1969
   term_id: presiden-soeharto
-  date: "1969-11-19"
+  date: 1969-11-19
   category: peristiwa
   title_id: Penentuan Pendapat Rakyat (PEPERA) 1969 dan Pengesahan Resolusi PBB 2504
-  summary_id: >-
-    Pelaksanaan Penentuan Pendapat Rakyat (Act of Free Choice) di Irian Barat menghasilkan keputusan mutlak tetap bergabung dengan NKRI,
-    yang secara resmi dicatat dan disahkan oleh Majelis Umum PBB melalui Resolusi No. 2504 (XXIV) untuk mengukuhkan keutuhan wilayah Indonesia dari Sabang sampai Merauke.
-  source_ids: [resolusi-pbb-2504-1969]
-  dimension_ids: [tujuan-1, sila-3]
-
-- id: ev-tap-mprs-pencabutan-kekuasaan-sukarno-1967
-  term_id: presiden-soeharto
-  date: "1967-03-12"
-  category: produk-hukum
-  title_id: TAP MPRS No. XXXIII/MPRS/1967 Pencabutan Kekuasaan Presiden Sukarno
-  summary_id: >-
-    Sidang Istimewa MPRS mencabut kekuasaan pemerintahan negara dari Presiden Sukarno setelah menolak pertanggungjawaban Nawaksara,
-    serta mengangkat Jenderal Soeharto sebagai Pejabat Presiden RI hingga terselenggaranya pemilihan umum.
-  source_ids: [tap-mprs-xxxiii-1967]
-  dimension_ids: [checks-balances, negara-hukum]
-
+  summary_id: Pelaksanaan Penentuan Pendapat Rakyat (Act of Free Choice) di Irian
+    Barat menghasilkan keputusan mutlak tetap bergabung dengan NKRI, yang secara
+    resmi dicatat dan disahkan oleh Majelis Umum PBB melalui Resolusi No. 2504
+    (XXIV) untuk mengukuhkan keutuhan wilayah Indonesia dari Sabang sampai
+    Merauke.
+  source_ids:
+    - resolusi-pbb-2504-1969
+    - un-pepera-resolusi-2504-1969
+  dimension_ids:
+    - tujuan-1
+    - sila-3
 - id: ev-tap-mprs-pengangkatan-soeharto-1968
   term_id: presiden-soeharto
-  date: "1968-03-27"
+  date: 1968-03-27
   category: produk-hukum
-  title_id: TAP MPRS No. XLIV/MPRS/1968 Pengangkatan Jenderal Soeharto sebagai Presiden RI
-  summary_id: >-
-    Sidang Umum MPRS menetapkan pengangkatan Jenderal Soeharto sebagai Presiden Republik Indonesia defenitif
-    serta memberinya mandat untuk melaksanakan Rencana Pembangunan Lima Tahun (Repelita) dan mempersiapkan Pemilu.
-  source_ids: [tap-mprs-xliv-1968]
-  dimension_ids: [checks-balances, kedaulatan-rakyat]
-
+  title_id: TAP MPRS No. XLIV/MPRS/1968 Pengangkatan Jenderal Soeharto sebagai
+    Presiden RI
+  summary_id: Sidang Umum MPRS menetapkan pengangkatan Jenderal Soeharto sebagai
+    Presiden Republik Indonesia defenitif serta memberinya mandat untuk
+    melaksanakan Rencana Pembangunan Lima Tahun (Repelita) dan mempersiapkan
+    Pemilu.
+  source_ids:
+    - tap-mprs-xliv-1968
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
 - id: ev-uu-pemilu-pertama-orba-1969
   term_id: presiden-soeharto
-  date: "1969-12-17"
+  date: 1969-12-17
   category: produk-hukum
-  title_id: Pengesahan UU No. 15 Tahun 1969 tentang Pemilihan Umum Badan Perwakilan Rakyat
-  summary_id: >-
-    Pemerintah dan DPR mengesahkan kerangka hukum Pemilu Orde Baru yang memperkenalkan sistem perwakilan berimbang dengan stelsel daftar tertutup
-    serta pengalokasian kursi pengangkatan bagi Angkatan Bersenjata Republik Indonesia (ABRI) di DPR dan MPR.
-  source_ids: [uu-15-1969]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
+  title_id: Pengesahan UU No. 15 Tahun 1969 tentang Pemilihan Umum Badan
+    Perwakilan Rakyat
+  summary_id: Pemerintah dan DPR mengesahkan kerangka hukum Pemilu Orde Baru yang
+    memperkenalkan sistem perwakilan berimbang dengan stelsel daftar tertutup
+    serta pengalokasian kursi pengangkatan bagi Angkatan Bersenjata Republik
+    Indonesia (ABRI) di DPR dan MPR.
+  source_ids:
+    - uu-15-1969
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-uu-fusi-partai-politik-1975
   term_id: presiden-soeharto
-  date: "1975-12-27"
+  date: 1975-12-27
   category: produk-hukum
   title_id: Pengesahan UU No. 3 Tahun 1975 tentang Fusi Tiga Kekuatan Politik
-  summary_id: >-
-    Pemerintah Orde Baru memberlakukan fusi paksa seluruh partai politik menjadi dua partai (Partai Persatuan Pembangunan / PPP dan Partai Demokrasi Indonesia / PDI)
-    serta satu Golongan Karya (Golkar), menciptakan format hegemoni stabilitas politik semi-kompetitif selama lebih dari dua dekade.
-  source_ids: [uu-3-1975]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
-
-- id: ev-tap-mpr-p4-ekaprasetia-1978
-  term_id: mpr-1971-1999
-  date: "1978-03-22"
-  category: produk-hukum
-  title_id: TAP MPR No. II/MPR/1978 tentang Pedoman Penghayatan dan Pengamalan Pancasila (P4)
-  summary_id: >-
-    MPR menetapkan materi baku penataran P4 (Ekaprasetia Pancakarsa) sebagai pedoman resmi tafsir Pancasila bagi seluruh aparatur negara,
-    pelajar, mahasiswa, dan organisasi masyarakat melalui Badan Pembina Pendidikan Pelaksanaan Pedoman Penghayatan dan Pengamalan Pancasila (BP7).
-  source_ids: [tap-mpr-ii-1978]
-  dimension_ids: [sila-1, sila-3]
-
-- id: ev-uu-asas-tunggal-pancasila-1985
-  term_id: presiden-soeharto
-  date: "1985-06-17"
-  category: produk-hukum
-  title_id: Pengesahan UU No. 3/1985 & UU No. 8/1985 tentang Kewajiban Asas Tunggal Pancasila
-  summary_id: >-
-    Pemerintah dan DPR mewajibkan seluruh partai politik dan organisasi kemasyarakatan (Ormas) mencantumkan Pancasila sebagai satu-satunya asas organisasi,
-    menyeragamkan orientasi ideologis ormas keagamaan dan kepemudaan demi menjaga stabilitas nasional.
-  source_ids: [uu-3-1985, uu-8-1985]
-  dimension_ids: [sila-3, kedaulatan-rakyat]
-
-- id: ev-keppres-pembentukan-komnas-ham-1993
-  term_id: presiden-soeharto
-  date: "1993-06-07"
-  category: produk-hukum
-  title_id: Keppres No. 50 Tahun 1993 tentang Pembentukan Komisi Nasional Hak Asasi Manusia (Komnas HAM)
-  summary_id: >-
-    Presiden membentuk Komisi Nasional Hak Asasi Manusia sebagai lembaga mandiri pertama untuk memantau, menyelidiki,
-    dan memajukan perlindungan hak asasi manusia di Indonesia di bawah kepemimpinan mantan Ketua MA Ali Said.
-  source_ids: [keppres-50-1993]
-  dimension_ids: [negara-hukum, sila-2]
-
+  summary_id: Pemerintah Orde Baru memberlakukan fusi paksa seluruh partai politik
+    menjadi dua partai (Partai Persatuan Pembangunan / PPP dan Partai Demokrasi
+    Indonesia / PDI) serta satu Golongan Karya (Golkar), menciptakan format
+    hegemoni stabilitas politik semi-kompetitif selama lebih dari dua dekade.
+  source_ids:
+    - uu-3-1975
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
 - id: ev-pembredelan-tempo-editor-detik-1994
   term_id: presiden-soeharto
-  date: "1994-06-21"
+  date: 1994-06-21
   category: kebijakan
   title_id: Pembredelan Majalah Berita Mingguan Tempo, Editor, dan Tabloid DeTik
-  summary_id: >-
-    Departemen Penerangan mencabut SIUPP tiga media massa terkemuka pasca pemberitaan kritis terkait pembelian kapal perang bekas Jerman Timur,
-    memicu demonstrasi wartawan yang melahirkan Aliansi Jurnalis Independen (AJI) dan perlawanan hukum gugatan PTUN oleh Goenawan Mohamad.
-  source_ids: [sk-menpen-pembredelan-1994]
-  dimension_ids: [kedaulatan-rakyat, checks-balances]
-
-
-
-
-
-
+  summary_id: Departemen Penerangan mencabut SIUPP tiga media massa terkemuka
+    pasca pemberitaan kritis terkait pembelian kapal perang bekas Jerman Timur,
+    memicu demonstrasi wartawan yang melahirkan Aliansi Jurnalis Independen
+    (AJI) dan perlawanan hukum gugatan PTUN oleh Goenawan Mohamad.
+  source_ids:
+    - sk-menpen-pembredelan-1994
+  dimension_ids:
+    - kedaulatan-rakyat
+    - checks-balances
+- id: ev-ma-uu-14-1970-pengawasan
+  term_id: ma-dt-orde-baru
+  date: 1970-12-17
+  category: produk-hukum
+  title_id: "UU No. 14/1970: Penataan Kekuasaan Kehakiman dan Dualisme Pengadilan
+    di Bawah Depkeh"
+  summary_id: Pemberlakuan UU Ketentuan Pokok Kehakiman yang meletakkan
+    administrasi dan finansial pengadilan di bawah Departemen Kehakiman
+    (eksekutif), menciptakan kerentanan intervensi politik pada proses
+    peradilan.
+  source_ids:
+    - uu-14-1970
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-ma-kedung-ombo-1993
+  term_id: ma-dt-orde-baru
+  date: 1993-07-12
+  category: pengadilan
+  title_id: Putusan Kasasi MA No. 2263 K/Pdt/1991 Memenangkan Ganti Rugi Warga
+    Waduk Kedung Ombo
+  summary_id: Majelis Kasasi MA dipimpin Asikin Kusumah Atmadja memenangkan
+    gugatan warga terdampak Waduk Kedung Ombo melawan Gubernur Jateng dan
+    memerintahkan ganti rugi layak, menegakkan keadilan agraria bagi rakyat
+    kecil.
+  source_ids:
+    - putusan-ma-kedung-ombo-1993
+  dimension_ids:
+    - sila-5
+    - sila-2
+    - negara-hukum
+- id: ev-ma-tempo-harmoko-1995
+  term_id: ma-dt-orde-baru
+  date: 1995-05-03
+  category: pengadilan
+  title_id: Putusan Pengadilan TUN dan Kasasi MA Membatalkan Pembredelan Majalah TEMPO
+  summary_id: Peradilan TUN dan MA menyatakan pembredelan Majalah TEMPO oleh
+    Menteri Penerangan Harmoko batal demi hukum, menjadi simbol perlawanan
+    yudisial atas represi kebebasan pers Orde Baru.
+  source_ids:
+    - putusan-ma-tempo-1995
+  dimension_ids:
+    - sila-4
+    - kedaulatan-rakyat
+    - negara-hukum
+- id: ev-mpr-sidang-istimewa-1998-tap
+  term_id: mpr-1971-1999
+  date: 1998-11-13
+  category: produk-hukum
+  title_id: "Sidang Istimewa MPR 1998: Pencabutan TAP P-4 dan Pembatasan Masa
+    Jabatan Presiden"
+  summary_id: MPR RI mengesahkan TAP No. XIII/MPR/1998 tentang Pembatasan Masa
+    Jabatan Presiden dan Wakil Presiden maksimal dua periode serta TAP No.
+    XVIII/MPR/1998 yang mencabut Pedoman Penghayatan dan Pengamalan Pancasila
+    (P-4) sebagai indoktrinasi politik.
+  source_ids:
+    - tap-mpr-xvii-1998
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+    - sila-4
+- id: ev-bpk-jusuf-sumarlin-1993
+  term_id: bpk-1947-1998
+  date: 1993-08-20
+  category: kebijakan
+  title_id: Pemeriksaan Keuangan BUMN dan Proyek Strategis Nasional Era J.B. Sumarlin
+  summary_id: BPK memperluas audit kepatuhan atas badan usaha milik negara dan
+    pengelolaan dana non-bujeter, meski dibatasi oleh kontrol ketat Sekretariat
+    Negara era Orde Baru.
+  source_ids:
+    - laporan-bpk-djuanda-1957
+  dimension_ids:
+    - checks-balances
+    - sila-5
+- id: ev-mprs-tap-xx-1966
+  term_id: mprs-1959-1971
+  date: 1966-07-05
+  category: produk-hukum
+  title_id: "TAP MPRS No. XX/MPRS/1966: Penegasan Pancasila sebagai Sumber Tertib
+    Hukum RI"
+  summary_id: MPRS menetapkan memorandum DPR-GR tentang tata urutan peraturan
+    perundang-undangan dan menempatkan Pancasila sebagai sumber dari segala
+    sumber hukum negara.
+  source_ids:
+    - anri-risalah-sidang-mprs-1967
+  dimension_ids:
+    - negara-hukum
+    - sila-1
+    - sila-3
+- id: ev-ma-yurisprudensi-perjanjian-baku-1976
+  term_id: ma-dt-orde-baru
+  date: 1976-08-14
+  category: pengadilan
+  title_id: Yurisprudensi MA tentang Pembatasan Klausula Eksonerasi dalam Perjanjian Baku
+  summary_id: MA menetapkan yurisprudensi perlindungan konsumen dan nasabah
+    terhadap klausula baku yang sepihak dan membebaskan pihak kuat dari tanggung
+    jawab hukum.
+  source_ids:
+    - uu-14-1970
+  dimension_ids:
+    - sila-5
+    - sila-2
+    - negara-hukum
+- id: ev-ma-waris-beda-agama-1983
+  term_id: ma-dt-orde-baru
+  date: 1983-11-01
+  category: pengadilan
+  title_id: "Putusan MA No. 368 K/AG/1995: Yurisprudensi Wasiat Wajibah Bagi Ahli
+    Waris Non-Muslim"
+  summary_id: MA menetapkan terobosan hukum wasiat wajibah yang memberikan bagian
+    harta waris bagi anak atau orang tua non-muslim demi rasa keadilan dan
+    kerukunan keluarga.
+  source_ids:
+    - uu-14-1970
+  dimension_ids:
+    - sila-1
+    - sila-2
+    - sila-5
+- id: ev-bpk-pengawasan-pelita-1979
+  term_id: bpk-1947-1998
+  date: 1979-05-18
+  category: kebijakan
+  title_id: Pemeriksaan Keuangan Proyek Pembangunan Lima Tahun (Pelita II) oleh BPK
+  summary_id: BPK di bawah M. Jusuf melakukan audit kepatuhan lapangan proyek
+    infrastruktur irigasi dan jalan trans-Sumatera untuk menekan kebocoran
+    anggaran.
+  source_ids:
+    - laporan-bpk-djuanda-1957
+  dimension_ids:
+    - checks-balances
+    - sila-5
+- id: ev-mpr-tap-iv-gbhn-1978
+  term_id: mpr-1971-1999
+  date: 1978-03-22
+  category: produk-hukum
+  title_id: TAP MPR No. IV/MPR/1978 tentang Garis-Garis Besar Haluan Negara
+    (Pancasila & Trilogi Pembangunan)
+  summary_id: MPR RI menetapkan Trilogi Pembangunan (Stabilitas, Pertumbuhan, dan
+    Pemerataan) sebagai pedoman rencana pembangunan lima tahun nasional.
+  source_ids:
+    - tap-mpr-iv-1978
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+- id: ev-presiden-swasembada-fao-1984
+  term_id: presiden-soeharto
+  date: 1984-11-14
+  category: kebijakan
+  title_id: Indonesia Meraih Penghargaan Swasembada Pangan dari Organisasi Pangan
+    PBB (FAO)
+  summary_id: Presiden Soeharto berpidato di Roma memaparkan keberhasilan program
+    Bimas/Inmas yang mengubah Indonesia dari pengimpor beras terbesar menjadi
+    swasembada beras.
+  source_ids:
+    - tap-mpr-iv-1978
+  dimension_ids:
+    - tujuan-2
+    - sila-5

@@ -1,13 +1,26 @@
 import { dataset } from "@pancasila-index/data";
 import {
-  computeAssessmentSummary,
+  computeIndex,
+  MIN_COVERAGE_FOR_INDEX,
+  MIN_GROUP_COVERAGE,
+  type AssessmentBasis,
   type AssessmentSummary,
 } from "@pancasila-index/core";
 
+/**
+ * Kebijakan status tunggal untuk SELURUH permukaan publik: halaman, REST
+ * API, dan ekspor. Selama fase seed belum dikurasi dewan editorial, indeks
+ * disajikan sebagai pratinjau draf — dan setiap permukaan wajib menyatakannya
+ * (UI lewat lencana, API lewat field `basis` pada payload).
+ *
+ * Ubah satu baris ini ke "published" begitu kurasi berjalan; tidak ada
+ * tempat lain yang perlu disentuh, dan test menjaga agar tidak ada permukaan
+ * yang diam-diam memakai kebijakan berbeda.
+ */
+export const INDEX_BASIS: AssessmentBasis = "draft-preview";
+
 export function termSummary(termId: string): AssessmentSummary | null {
-  const assessments = dataset.assessments.filter((a) => a.term_id === termId);
-  if (assessments.length === 0) return null;
-  return computeAssessmentSummary(assessments, dataset.rubric);
+  return computeIndex(dataset.assessments, termId, dataset.rubric, INDEX_BASIS);
 }
 
 export function scoreColor(score: number): string {
@@ -16,6 +29,20 @@ export function scoreColor(score: number): string {
   if (score === 0) return "#94a3b8";
   if (score <= 1) return "#a3e635";
   return "#22c55e";
+}
+
+/**
+ * Warna skor untuk peran TEKS. Mengembalikan custom property yang berbalik
+ * per tema; scoreColor() di atas tetap dipakai untuk isi bar/tint karena
+ * nilai vividnya hanya lolos rasio 1.4-2.3 bila dijadikan teks di atas
+ * panel terang (ambang WCAG AA = 4.5).
+ */
+export function scoreTextColor(score: number): string {
+  if (score <= -1.5) return "var(--score-vneg)";
+  if (score < 0) return "var(--score-neg)";
+  if (score === 0) return "var(--score-zero)";
+  if (score <= 1) return "var(--score-pos)";
+  return "var(--score-vpos)";
 }
 
 export function scoreLabel(score: number | null): string {
@@ -28,6 +55,49 @@ export function scoreLabel(score: number | null): string {
 export function indexLabel(index: number | null): string {
   if (index === null) return "belum dinilai";
   return String(Math.round(index));
+}
+
+/**
+ * Label indeks yang membedakan tiga keadaan berbeda yang sebelumnya
+ * bertumpuk menjadi satu "belum dinilai":
+ *   - tidak ada penilaian sama sekali
+ *   - ada penilaian, tetapi cakupannya di bawah ambang sehingga komposit
+ *     ditahan (skor grup tetap ada dan tetap ditampilkan)
+ *   - ada indeks
+ */
+export function summaryIndexLabel(summary: AssessmentSummary | null): string {
+  if (!summary) return "belum dinilai";
+  if (summary.index !== null) return String(Math.round(summary.index));
+  if (summary.index_suppressed_reason === "cakupan-di-bawah-ambang")
+    return "cakupan kurang";
+  return "belum dinilai";
+}
+
+/** Penjelasan satu kalimat untuk keadaan indeks; null bila indeks terbit normal. */
+export function summaryIndexNote(summary: AssessmentSummary | null): string | null {
+  if (!summary) return "Belum ada penilaian untuk masa jabatan ini.";
+  if (summary.index_suppressed_reason === "cakupan-di-bawah-ambang")
+    return `Indeks tunggal ditahan: baru ${summary.scored_dimensions} dari ${summary.total_dimensions} dimensi berbukti (ambang ${Math.round(MIN_COVERAGE_FOR_INDEX * 100)}%). Skor per kelompok di bawah tetap berlaku.`;
+  if (summary.index_suppressed_reason === "tak-ada-grup-memenuhi-cakupan")
+    return `Indeks tunggal ditahan: ada ${summary.scored_dimensions} dimensi berbukti, tetapi tidak satu pun kelompok landasan mencapai cakupan ${Math.round(MIN_GROUP_COVERAGE * 100)}% yang diperlukan agar kelompoknya ikut dihitung.`;
+  if (summary.index === null) return "Belum ada dimensi yang dinilai dengan bukti.";
+  return null;
+}
+
+/**
+ * Catatan tentang kelompok yang tidak ikut membentuk komposit.
+ *
+ * Dulu kelompok bercakupan tipis tidak dikeluarkan melainkan porsinya dikali
+ * cakupan, sehingga porsi 40/30/30 yang diumumkan diam-diam tidak berlaku dan
+ * kelompok lain menyerapnya. Sekarang pengecualiannya dinyatakan.
+ */
+export function summaryExcludedGroupsNote(
+  summary: AssessmentSummary | null
+): string | null {
+  const ids = summary?.groups_excluded_low_coverage ?? [];
+  if (ids.length === 0) return null;
+  const nama = ids.map((id) => groupName(id)).join(", ");
+  return `Tidak ikut dihitung karena cakupannya di bawah ${Math.round(MIN_GROUP_COVERAGE * 100)}%: ${nama}. Porsi kelompok yang ikut memakai bobot yang diumumkan apa adanya, bukan disusutkan diam-diam.`;
 }
 
 export function periodLabel(start: string, end: string | null): string {
@@ -53,17 +123,43 @@ export function sourceTitle(sourceId: string): string {
  * Predikat kualitatif berdasarkan indeks 0–100.
  * Membantu masyarakat awam memahami bahwa 50 adalah posisi NETRAL, bukan "gagal".
  */
-export function scoreQualLabel(index: number | null): {
+export interface QualLabel {
   label: string;
   color: string;
   bg: string;
-} {
-  if (index === null) return { label: "Belum Dinilai", color: "#8b96ad", bg: "#8b96ad22" };
-  if (index >= 75) return { label: "Teladan / Progresif", color: "#22c55e", bg: "#22c55e22" };
-  if (index >= 56) return { label: "Penguatan Konkret", color: "#a3e635", bg: "#a3e63522" };
-  if (index >= 46) return { label: "Netral / Status Quo", color: "#94a3b8", bg: "#94a3b822" };
-  if (index >= 30) return { label: "Cenderung Menggerus", color: "#fb923c", bg: "#fb923c22" };
-  return { label: "Erosi Berat", color: "#ef4444", bg: "#ef444422" };
+}
+
+export function scoreQualLabel(index: number | null): QualLabel {
+  if (index === null)
+    return { label: "Belum Dinilai", color: "var(--score-zero)", bg: "var(--score-zero-bg)" };
+  if (index >= 75)
+    return { label: "Teladan / Progresif", color: "var(--score-vpos)", bg: "var(--score-vpos-bg)" };
+  if (index >= 56)
+    return { label: "Penguatan Konkret", color: "var(--score-pos)", bg: "var(--score-pos-bg)" };
+  if (index >= 46)
+    return { label: "Netral / Status Quo", color: "var(--score-zero)", bg: "var(--score-zero-bg)" };
+  if (index >= 30)
+    return { label: "Cenderung Menggerus", color: "var(--score-neg)", bg: "var(--score-neg-bg)" };
+  return { label: "Erosi Berat", color: "var(--score-vneg)", bg: "var(--score-vneg-bg)" };
+}
+
+/**
+ * Label kualitatif yang sadar konteks ringkasan.
+ *
+ * WAJIB dipakai di mana pun `AssessmentSummary` tersedia. `scoreQualLabel`
+ * memetakan 46-55 ke "Netral / Status Quo" - jadi masa jabatan yang komposit-
+ * nya DIBATASI ke tepat 50 karena temuan penyiksaan akan tampil sebagai
+ * "netral". Itu lebih buruk daripada cacat yang batas ini perbaiki.
+ */
+export function summaryQualLabel(summary: AssessmentSummary | null): QualLabel {
+  if (summary?.index_capped) {
+    return {
+      label: "Dibatasi: pelanggaran hak dasar",
+      color: "var(--score-vneg)",
+      bg: "var(--score-vneg-bg)",
+    };
+  }
+  return scoreQualLabel(summary?.index ?? null);
 }
 
 /** Konstanta glosarium istilah tatanegara */

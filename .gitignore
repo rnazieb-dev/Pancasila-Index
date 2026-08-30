@@ -31,3 +31,12 @@ packages/data/generated/external-indices-fetched.json
 # yang memang dikomit. Ini juga satu-satunya jalan mengisi provenance ketika
 # kebijakan egress memblokir host penerbit: unduh di mesin yang tidak
 # terblokir, commit berkas mentahnya, lalu kurasi dari situ.
+
+# Artefak turunan arsip (kompresi unduh lokal & PDF) - bisa dibangun ulang.
+packages/data/raw/compressed/
+packages/data/raw/pdf/
+.wrangler/
+
+# fallback lokal usulan bila DATABASE_URL belum aktif
+usulan-fallback.json
+

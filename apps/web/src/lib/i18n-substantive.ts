@@ -1,6 +1,6 @@
 /**
  * Terjemahan Substantif Multibahasa (Fase 10) untuk Pancasila Index.
- * Memetakan 15 dimensi rubrik, 3 kelompok landasan, dan istilah konstitusional ke 5 bahasa:
+ * Memetakan 12 dimensi rubrik, 3 kelompok landasan, dan istilah konstitusional ke 5 bahasa:
  * - id: Bahasa Indonesia (Kanonik)
  * - en: English (Internasional)
  * - jv: Basa Jawa (Krama Inggil / Daerah)

@@ -32,7 +32,7 @@ export default async function KurasiPage({
           .env, atau aktifkan mode pengembangan dengan{" "}
           <code className="text-[var(--text)]">CURATION_DEV=1</code>.
         </p>
-        <Link href="/" className="mt-6 inline-block text-sm underline hover:text-white">
+        <Link href="/" className="mt-6 inline-block text-sm underline hover:text-[var(--text)]">
           ← kembali ke beranda
         </Link>
       </div>
@@ -77,8 +77,8 @@ export default async function KurasiPage({
             href={`/kurasi?tab=${tb.key}`}
             className={`rounded-full px-3 py-1 border transition ${
               tab === tb.key
-                ? "border-red-500/60 bg-red-500/10 text-red-300"
-                : "border-[var(--line)] text-[var(--muted)] hover:text-white"
+                ? "border-red-500/60 bg-red-500/10 text-[var(--acc-red-strong)]"
+                : "border-[var(--line)] text-[var(--muted)] hover:text-[var(--text)]"
             }`}
           >
             {tb.label}
@@ -86,13 +86,13 @@ export default async function KurasiPage({
         ))}
         <Link
           href="/kurasi/log"
-          className="ml-auto rounded-full border border-[var(--line)] px-3 py-1 text-[var(--muted)] hover:text-white"
+          className="ml-auto rounded-full border border-[var(--line)] px-3 py-1 text-[var(--muted)] hover:text-[var(--text)]"
         >
           Log aktivitas →
         </Link>
       </div>
 
-      <div className="mt-4 rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-xs leading-relaxed text-amber-300">
+      <div className="mt-4 rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-xs leading-relaxed text-[var(--acc-amber-strong)]">
         Publikasi butuh <strong>dua approver berbeda nama</strong>. Satu approval
         menandai penilaian sebagai <em>menunggu telaah kedua</em>; penolakan wajib
         beralasan dan langsung mengeluarkannya dari dataset publik setelah build.
@@ -129,15 +129,15 @@ export default async function KurasiPage({
                   isPublished
                     ? "bg-green-500/15 text-green-400"
                     : covPct < 50
-                      ? "bg-orange-500/15 text-orange-300"
-                      : "bg-slate-500/15 text-slate-300"
+                      ? "bg-orange-500/15 text-[var(--acc-orange-strong)]"
+                      : "bg-slate-500/15 text-[var(--muted)]"
                 }`}
               >
                 {isPublished ? "✓ published" : covPct < 50 ? "cakupan rendah" : "draf"}
               </span>
               <Link
                 href={`/kurasi/${a.id}`}
-                className="text-xs underline text-[var(--muted)] hover:text-white"
+                className="text-xs underline text-[var(--muted)] hover:text-[var(--text)]"
               >
                 tinjau →
               </Link>

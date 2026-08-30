@@ -1,15 +1,45 @@
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 import { AppChrome } from "@/components/app-chrome";
 import { LocaleProvider } from "@/components/locale-provider";
+import { SessionProvider } from "@/components/session-provider";
+import { CookieConsent } from "@/components/cookie-consent";
 
 export const metadata: Metadata = {
-  title: "Pancasila Index",
+  metadataBase: new URL("https://www.pancasila.site"),
+  title: {
+    default: "Pancasila Index — Penilaian Kepatuhan Konstitusional Berbasis Bukti",
+    template: "%s | Pancasila Index"
+  },
   description:
-    "Indeks Kepancasilaan terbuka: menilai kesetiaan pemangku kekuasaan Indonesia pada Pancasila, Pembukaan UUD 1945, dan UUD 1945 — berbasis bukti.",
+    "Platform penilaian independen kesetiaan 8 organ kekuasaan Indonesia terhadap Pancasila, Pembukaan UUD 1945 alinea IV, dan norma struktural UUD 1945 (1945–kini) berbasis bukti primer berkuorum.",
+  keywords: [
+    "Pancasila Index",
+    "UUD 1945",
+    "Konstitusi",
+    "Presiden",
+    "DPR",
+    "Mahkamah Konstitusi",
+    "Audit Data Terbuka",
+    "Akar Sejarah",
+    "Syarikat Islam",
+    "Piagam Jakarta"
+  ],
+  authors: [{ name: "Pancasila Index Contributors" }],
+  openGraph: {
+    type: "website",
+    locale: "id_ID",
+    url: "https://www.pancasila.site",
+    siteName: "Pancasila Index",
+    title: "Pancasila Index — Penilaian Kepatuhan Konstitusional Berbasis Bukti",
+    description: "Menilai kesetiaan 8 organ konstitusional Indonesia pada Pancasila dan UUD 1945 (1945–kini) dengan setiap skor wajib bersitasi bukti primer.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pancasila Index — Penilaian Kepatuhan Konstitusional Berbasis Bukti",
+    description: "Menilai kesetiaan 8 organ konstitusional Indonesia pada Pancasila dan UUD 1945 berbasis bukti primer berkuorum.",
+  },
 };
 
 export default function RootLayout({
@@ -18,13 +48,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="id">
+    <html lang="id" data-theme="light">
       <body className="min-h-screen flex flex-col antialiased">
-        <LocaleProvider>
-          <AppChrome>{children}</AppChrome>
-        </LocaleProvider>
-        <Analytics />
-        <SpeedInsights />
+        <SessionProvider>
+          <LocaleProvider>
+            <AppChrome>{children}</AppChrome>
+          </LocaleProvider>
+        </SessionProvider>
+        <CookieConsent />
       </body>
     </html>
   );
