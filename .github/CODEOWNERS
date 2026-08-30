@@ -1,0 +1,9 @@
+# CODEOWNERS
+# Setiap PR yang menyentuh jalur di bawah ini memerlukan persetujuan (approval)
+# dari pemilik yang tercantum sebelum dapat di-merge ke main. Dipasangkan
+# dengan branch protection `require_code_owner_reviews: true` agar pagar
+# sosial (siapa yang boleh approve) sinkron dengan pagar teknis (2 approval
+# + CI hijau).
+
+# Default: hanya pemilik repo.
+*       @rnazieb-dev

@@ -54,3 +54,40 @@ jobs:
 
       - name: Build web
         run: pnpm build
+
+  # Pemindai kerentanan dependensi. Tidak memblokir MR: hanya lapor
+  # kerentanan yang diketahui, agar tim bisa menentukan prioritas.
+  # `pnpm audit` adalah perintah resmi pnpm yang membaca pnpm-lock.yaml
+  # dan mencocokkannya dengan database advisori (npm advisory + pnpm).
+  # Untuk audit yang lebih dalam (transitive), ganti ke `osv-scanner`.
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Audit dependencies
+        # --audit-level=high hanya gagal pada kerentanan high/critical.
+        # moderate/low dicatat tapi tidak menggagalkan build.
+        run: pnpm audit --audit-level=high || true
+        # `|| true` disengaja: ini sinyal, bukan gerbang. Ganti ke fail-on-high
+        # bila siap menunda rilis demi kerentanan moderate.
+
+  # Pemindai rahasia yang dikomit. gitleaks memindai pola umum (AWS keys,
+  # GitHub PAT, dsb.). Wajib sejak SECURITY.md menyatakan "kebocoran token
+  # pada riwayat git" sebagai lingkup kerentanan.
+  secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
