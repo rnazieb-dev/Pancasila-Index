@@ -154,27 +154,27 @@ export default function ArsipPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:py-12">
       {/* Navigation */}
-      <div className="flex items-center gap-2 text-xs sm:text-sm font-semibold text-[var(--muted)] mb-6">
+      <div className="flex items-center gap-2 text-xs font-semibold text-[var(--muted)] mb-6">
         <Link href="/" className="hover:text-[var(--text)] transition">
           Beranda
         </Link>
         <span>&rsaquo;</span>
-        <span className="text-[var(--text)]">Khazanah Arsip & Dokumen Hukum</span>
+        <span className="text-[var(--text)]">Khazanah Arsip</span>
       </div>
 
       {/* Header */}
       <div className="border-b border-[var(--line)] pb-8">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
-            <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[var(--acc-sky)]">
-              <IconArchive size={16} />
-              <span>Arsip Nasional (ANRI), Repositori Internasional & Dokumen Oposisi</span>
+            <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[var(--acc-sky-strong)]">
+              <IconArchive size={15} />
+              <span>Repositori Dokumen Primer</span>
             </div>
-            <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[var(--text)] mt-1">
-              Khazanah Arsip Konstitusi & Oposisi
+            <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[var(--text)] mt-1.5">
+              Khazanah Arsip Konstitusi
             </h1>
-            <p className="mt-3 text-sm sm:text-base text-[var(--muted)] leading-relaxed max-w-3xl">
-              Direktori sitasi dokumen primer otentik: membedah risalah stenografis PPKI 18–22 Agustus 1945, naskah Proklamasi & Qanun Asasi NII 1949, resolusi PKI & notulen Mahmillub 1966, piagam PRRI/Permesta 1957–1958, Deklarasi GAM & MoU Helsinki 2005, Manifesto Papua & PEPERA 1969, hingga dokumen Petisi 50 (1980) dari repositori ANRI, Nationaal Archief Nederland, IISG Amsterdam, KITLV Leiden, UN Archives, dan CMI Helsinki.
+            <p className="mt-2.5 text-sm sm:text-base text-[var(--muted)] leading-relaxed max-w-3xl">
+              Direktori 578 dokumen primer otentik yang menyokong penilaian: risalah PPKI, naskah undang-undang, putusan mahkamah, laporan audit negara, serta dokumen rekonsiliasi dan arsip sejarah.
             </p>
           </div>
 

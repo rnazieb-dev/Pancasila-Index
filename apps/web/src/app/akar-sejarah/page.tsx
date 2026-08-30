@@ -1276,19 +1276,19 @@ export default function AkarSejarahPage() {
           Beranda
         </Link>
         <span>&rsaquo;</span>
-        <span className="text-slate-800 dark:text-slate-200">Akar Sejarah & Genealogi Konstitusi</span>
+        <span className="text-slate-800 dark:text-slate-200">Akar Sejarah</span>
       </div>
 
       {/* Editorial Header */}
-      <header className="space-y-4 border-b border-slate-200 dark:border-slate-800 pb-8 sm:pb-10">
+      <header className="space-y-3 border-b border-slate-200 dark:border-slate-800 pb-8 sm:pb-10">
         <div className="text-[11px] sm:text-xs font-sans font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400">
-          Khazanah Sejarah & Genealogi Intelektual 1825–2002
+          Genealogi Intelektual 1825–2002
         </div>
         <h1 className="text-2xl sm:text-4xl font-serif font-bold tracking-tight text-slate-900 dark:text-slate-100 leading-tight">
-          Akar Sejarah & Genealogi Konstitusi
+          Akar Sejarah &amp; Genealogi Konstitusi
         </h1>
         <p className="text-sm sm:text-base text-slate-600 dark:text-slate-400 leading-relaxed max-w-3xl font-serif">
-          Dua abad pergulatan pemikiran bangsa: dari perlawanan moral anti-kolonial, syariat kerakyatan, tradisi musyawarah adat desa, kebangkitan intelektual pemuda, hingga dialektika sidang BPUPK-PPKI dan ujian keras berbagai arus oposisi.
+          Dua abad pergulatan pemikiran bangsa: dari perlawanan moral anti-kolonial, syariat kerakyatan, tradisi musyawarah adat desa, kebangkitan intelektual pemuda, hingga dialektika sidang BPUPK-PPKI dan rekonsiliasi kebangsaan.
         </p>
 
         {/* Minimalist Unified Toolbar (Editorial Style) */}
