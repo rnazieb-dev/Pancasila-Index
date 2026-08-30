@@ -14,9 +14,17 @@ import { verifyPassword } from "@/lib/password";
  * - Mendukung pendaftaran mandiri (Credentials: Email & Password) + GitHub OAuth.
  */
 
-const githubConfigured = Boolean(
-  process.env.GITHUB_ID && process.env.GITHUB_SECRET
-);
+const githubClientId =
+  process.env.AUTH_GITHUB_ID ||
+  process.env.GITHUB_ID ||
+  process.env.GITHUB_CLIENT_ID;
+
+const githubClientSecret =
+  process.env.AUTH_GITHUB_SECRET ||
+  process.env.GITHUB_SECRET ||
+  process.env.GITHUB_CLIENT_SECRET;
+
+const githubConfigured = Boolean(githubClientId && githubClientSecret);
 
 const curatorLogins = new Set(
   (process.env.CURATOR_GITHUB_LOGINS ?? "")
@@ -26,14 +34,21 @@ const curatorLogins = new Set(
 );
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
-  secret: process.env.AUTH_SECRET ?? "dev-secret-pancasila-index-auth-2026",
+  secret: process.env.AUTH_SECRET ?? process.env.NEXTAUTH_SECRET ?? "dev-secret-pancasila-index-auth-2026",
   trustHost: true,
   session: {
     strategy: "jwt",
     maxAge: 365 * 24 * 60 * 60, // 1 tahun persisten
   },
   providers: [
-    ...(githubConfigured ? [GitHub] : []),
+    ...(githubConfigured
+      ? [
+          GitHub({
+            clientId: githubClientId,
+            clientSecret: githubClientSecret,
+          }),
+        ]
+      : []),
     Credentials({
       name: "Email dan Sandi",
       credentials: {
