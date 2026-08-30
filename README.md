@@ -79,16 +79,20 @@ Sidang Tahunan MPR Tahun 2002).
 |  |  |  |  |
 |---:|---:|---:|---:|
 | **8** organ dinilai | **50** era konstitusional tercatat | **695** peristiwa berbukti | **634** sumber primer |
-| **12** dimensi penilaian | **123** aktor tertaut | **78** pasal UUD 1945 (73 batang tubuh + 3 Peralihan + 2 Tambahan) | **7** indeks eksternal |
+| **12** dimensi penilaian | **123** aktor tertaut | **37** pasal UUD 1945 (batang tubuh, setelah 4 amandemen) | **7** indeks eksternal |
 
 Catatan tentang dua angka:
 
-- **78 pasal** adalah total seluruh pasal UUD 1945 setelah empat
-  amandemen (1999-2002). Bukan hanya batang tubuh (73 pasal, nomor 1
-  sampai 37 dengan sisipan A/B/C), melainkan termasuk 3 Pasal Aturan
-  Peralihan dan 2 Pasal Aturan Tambahan. Pembagian: 21 bab (16 utama + 5
-  sisipan VIIA, VIIB, VIIIA, IXA, XA). Sumber verifikasi: teks UUD
-  1945 dalam satu naskah.
+- **37 pasal** adalah penyebutan lazim untuk UUD 1945 setelah empat
+  amandemen (1999-2002). Pasal 37 adalah pasal terakhir di batang
+  tubuh (Bab XVI — Perubahan Undang-Undang Dasar). Bila dihitung
+  per unit bernomor, batang tubuh sebenarnya memuat **73 pasal**
+  (Pasal 1-37 dengan sisipan A/B/C), ditambah 3 Pasal Aturan
+  Peralihan (I, II, III) dan 2 Pasal Aturan Tambahan (I, II) menjadi
+  total **78 pasal**. Pembagian per bab: 16 bab utama + 5 bab sisipan
+  (VIIA DPD, VIIB Pemilu, VIIIA BPK, IXA Wilayah Negara, XA HAM) = 21 bab.
+  Sumber verifikasi: teks UUD 1945 dalam satu naskah (Wikisource,
+  Risalah Rapat Paripurna ke-5 Sidang Tahunan MPR 2002).
 - **50 era** bukan "satu masa jabatan per periode pemilihan". Dataset
   memilih unit per **era konstitusional** yang punya cukup peristiwa
   untuk dinilai — mis. satu masa "Orde Baru" bisa menjadi satu term
