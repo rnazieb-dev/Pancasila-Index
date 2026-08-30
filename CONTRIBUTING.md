@@ -82,6 +82,36 @@ belum menurutinya.
   parafrase + kutipan pendek dengan sitasi.
 - Hormati Code of Conduct standar komunitas open source.
 
+## Integritas & anti-manipulasi (wajib dibaca)
+
+Indeks ini punya kekuatan politik: ia dipakai untuk menilai kekuasaan. Karena
+itu, integritasnya lebih penting daripada jumlah kontribusi. Aturan berikut
+melindungi indeks dari koordinasi akun, bot, dan AI agent yang berupaya
+menggerakkan skor ke arah tertentu:
+
+1. **Manusia yang bertanggung jawab, bukan mesin.** Setiap perubahan data
+   harus bisa dipertanggungjawabkan oleh manusia yang mengajukannya. PR yang
+   jelas dihasilkan otomatis untuk membanjiri skor (tanpa konteks, tanpa
+   sitasi primer yang dapat diperiksa) akan ditutup.
+2. **Satu PR = satu topik = satu sitasi.** PR besar yang mengubah banyak skor
+   sekaligus tanpa memilah bukti dianggap manipulatif dan ditolak.
+3. **Kuorum, bukan mayoritas kilat.** Penilaian yang dipublikasikan butuh
+   persetujuan **dua reviewer berbeda nama**. Akun-akun baru yang muncul
+   serentak untuk menyetujui PR yang sama adalah sinyal koordinasi, bukan
+   telaah sejawat.
+4. **Sitasi primer wajib; tanpa itu skor tidak masuk.** `build:data` menolak
+   referensi yang tidak terdaftar, dan skor tanpa bukti empiris dikeluarkan
+   dari perhitungan indeks.
+5. **Jejak tidak bisa ditulis ulang.** Data hidup di git sebagai YAML — setiap
+   perubahan punya riwayat, dan PR adalah telaah sejawat. Tidak ada perubahan
+   diam-diam.
+6. **Laporkan koordinasi.** Bila Anda menemukan pola PR yang tampak
+   terkoordinasi, laporkan ke `tim@pancasila.site` alih-alih membalas.
+
+Bila Anda ingin memakai AI/agent sebagai alat bantu, silakan — tetapi
+**manusia yang mengajukan PR-lah yang memikul tanggung jawab penuh atas
+kebenaran dan sumber setiap perubahan.**
+
 ## Aturan verifikasi fakta (wajib)
 
 **Selalu lakukan pencarian web sebelum menambah fakta, tanggal, angka,

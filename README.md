@@ -131,11 +131,20 @@ pnpm --filter @pancasila-index/ai suggest --term presiden-habibie
 
 ## Berkontribusi
 
-Untuk manusia, AI agent, maupun bot — kontribusi kami sambut. Lihat
-[CONTRIBUTING.md](CONTRIBUTING.md). Ringkas: koreksi fakta atau tambah bukti lewat
-PR ke `packages/data/` dengan sitasi primer; usul perubahan rubrik lengkap dengan
+Kontribusi datang dari **manusia yang bertanggung jawab atas bukti yang
+ditautkannya.** Koreksi fakta atau tambahan bukti diajukan lewat PR ke
+`packages/data/` dengan sitasi primer; perubahan rubrik lengkap dengan
 justifikasi; penilaian baru mengikuti skema `Assessment`. Semua kontributor
-mematuhi [Code of Conduct](CODE_OF_CONDUCT.md).
+mematuhi [Code of Conduct](CODE_OF_CONDUCT.md) dan aturan anti-manipulasi di
+[CONTRIBUTING.md](CONTRIBUTING.md).
+
+Pagar integritasnya:
+
+- Data hidup di git sebagai YAML — **setiap perubahan punya jejak audit**, dan PR adalah telaah sejawat.
+- Penerbitan penilaian butuh **kuorum dua reviewer berbeda nama** dan `human_confirmed`.
+- **Pengubahan massal/otomatis tanpa sitasi ditolak.** Bot dan AI agent yang membanjiri PR untuk menggerakkan skor adalah bentuk manipulasi, bukan kontribusi.
+
+Situs ini milik publik — bukan satu kekuasaan, dan tidak boleh diisi satu suara saja.
 
 ## Lisensi
 
