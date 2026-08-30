@@ -27,3 +27,6 @@ packages/data/raw/external-indices/
 packages/data/raw/compressed/
 packages/data/raw/pdf/
 .wrangler/
+
+# fallback lokal usulan bila DATABASE_URL belum aktif
+usulan-fallback.json
