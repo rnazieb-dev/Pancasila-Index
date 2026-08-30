@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { signOut, useSession } from "next-auth/react";
+import { signOut } from "next-auth/react";
 import { dataset } from "@pancasila-index/data";
 import {
   getUserDrafts,
@@ -52,7 +52,6 @@ interface UsulanItem {
 type TabType = "usulan" | "draf" | "profil" | "keamanan";
 
 export default function PengaturanPage() {
-  const { data: session, status: sessionStatus } = useSession();
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
@@ -79,48 +78,57 @@ export default function PengaturanPage() {
   useEffect(() => {
     refreshDrafts();
 
-    // Fetch user profile
+    // Fetch user profile and session
     fetch("/api/user/profile")
-      .then((res) => {
-        if (!res.ok) throw new Error("Unauthorized");
-        return res.json();
-      })
-      .then((data) => {
-        if (data.data) {
-          setProfile(data.data);
-          setFormData({
-            name: data.data.name || "",
-            affiliation: data.data.affiliation || "",
-            title: data.data.title || "",
-            funding: data.data.funding || "",
-            bio: data.data.bio || "",
-          });
+      .then(async (res) => {
+        if (res.ok) {
+          const data = await res.json();
+          if (data.data) {
+            setProfile(data.data);
+            setFormData({
+              name: data.data.name || "",
+              affiliation: data.data.affiliation || "",
+              title: data.data.title || "",
+              funding: data.data.funding || "",
+              bio: data.data.bio || "",
+            });
+            return;
+          }
         }
+
+        // Fallback to session endpoint
+        const sRes = await fetch("/api/auth/session");
+        if (sRes.ok) {
+          const sData = await sRes.json();
+          if (sData?.user) {
+            const u = sData.user;
+            setProfile({
+              id: u.id || "user",
+              name: u.name || null,
+              email: u.email || null,
+              image: u.image || null,
+              role: u.role || "KONTRIBUTOR",
+              githubUsername: u.githubUsername || null,
+              affiliation: u.affiliation || null,
+              title: u.title || null,
+              funding: u.funding || null,
+              bio: u.bio || null,
+              createdAt: new Date().toISOString(),
+            });
+            setFormData({
+              name: u.name || "",
+              affiliation: u.affiliation || "",
+              title: u.title || "",
+              funding: u.funding || "",
+              bio: u.bio || "",
+            });
+            return;
+          }
+        }
+        setProfile(null);
       })
       .catch(() => {
-        // If profile endpoint fails, fallback to session data
-        if (session?.user) {
-          setProfile({
-            id: session.user.id || "user",
-            name: session.user.name || null,
-            email: session.user.email || null,
-            image: session.user.image || null,
-            role: session.user.role || "KONTRIBUTOR",
-            githubUsername: session.user.githubUsername || null,
-            affiliation: session.user.affiliation || null,
-            title: session.user.title || null,
-            funding: session.user.funding || null,
-            bio: session.user.bio || null,
-            createdAt: new Date().toISOString(),
-          });
-          setFormData({
-            name: session.user.name || "",
-            affiliation: session.user.affiliation || "",
-            title: session.user.title || "",
-            funding: session.user.funding || "",
-            bio: session.user.bio || "",
-          });
-        }
+        setProfile(null);
       })
       .finally(() => {
         setLoading(false);
@@ -135,7 +143,7 @@ export default function PengaturanPage() {
         }
       })
       .catch(() => {});
-  }, [session]);
+  }, []);
 
   const handleSave = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -271,7 +279,7 @@ export default function PengaturanPage() {
     "w-full rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3.5 py-2.5 text-sm text-[var(--text)] placeholder-[var(--muted)] focus:border-red-500 focus:outline-none focus:ring-1 focus:ring-red-500 transition";
   const labelCls = "block text-xs font-semibold text-[var(--muted)] uppercase tracking-wide mb-1.5";
 
-  if (loading || sessionStatus === "loading") {
+  if (loading) {
     return (
       <div className="mx-auto max-w-4xl px-4 py-20 text-center text-xs text-[var(--muted)]">
         <div className="inline-block size-6 animate-spin rounded-full border-2 border-[var(--line)] border-t-red-600 mb-3" />
@@ -280,21 +288,9 @@ export default function PengaturanPage() {
     );
   }
 
-  const currentUser = profile || (session?.user ? {
-    id: session.user.id || "user",
-    name: session.user.name || "Kontributor",
-    email: session.user.email || null,
-    image: session.user.image || null,
-    role: session.user.role || "KONTRIBUTOR",
-    githubUsername: session.user.githubUsername || null,
-    affiliation: session.user.affiliation || null,
-    title: session.user.title || null,
-    funding: session.user.funding || null,
-    bio: session.user.bio || null,
-    createdAt: new Date().toISOString(),
-  } : null);
+  const currentUser = profile;
 
-  if (!currentUser && sessionStatus === "unauthenticated") {
+  if (!currentUser) {
     return (
       <div className="mx-auto max-w-md px-4 py-20 text-center space-y-4">
         <div className="mx-auto flex size-14 items-center justify-center rounded-2xl border border-[var(--line)] bg-[var(--panel)] text-[var(--acc-amber)]">
