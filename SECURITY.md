@@ -21,10 +21,9 @@ Kami memperlakukan hal-hal berikut sebagai masalah keamanan:
 ## Cara melaporkan
 
 Jangan membuka *public issue* untuk masalah keamanan yang dapat dieksploitasi.
-Kirim laporan privat ke:
 
-- **Email:** `tim@pancasila.site`
-- **Subjek:** `[SECURITY] <ringkasan singkat>`
+**Saluran utama — GitHub Security Advisories (privat, terenkripsi):**
+<https://github.com/rnazieb-dev/Pancasila-Index/security/advisories/new>
 
 Sertakan sebanyak mungkin:
 
@@ -32,6 +31,12 @@ Sertakan sebanyak mungkin:
 2. Langkah reproduksi (URL, permintaan, payload) — tanpa menyertakan data pribadi nyata.
 3. Yang terdampak (endpoint, rute, tabel data).
 4. Bukti/screenshot (bila aman).
+
+**Catatan tentang email.** Kontak `tim@pancasila.site` tidak dipasang —
+domain `pancasila.site` saat ini tidak memiliki MX record dan tidak dapat
+menerima surel. Bila GitHub Advisories tidak dapat dipakai (mis. pelapor
+tanpa akun GitHub), buka *issue* ber-label `[SECURITY, privat]` dan pin
+tim; namun saluran ini tidak seaman Advisories.
 
 ## Yang kami janjikan
 
