@@ -220,7 +220,7 @@ export default async function KurasiDetailPage({
                         <ul className="mt-1 space-y-1">
                           {ds.evidence.map((ev) => {
                             const src = getSource(dataset, ev.source_id);
-                            const href = src?.resolved_url ?? src?.url;
+                            const href = src?.detail_url ?? src?.resolved_url ?? src?.url;
                             return (
                               <li key={ev.source_id} className="text-xs">
                                 📄{" "}

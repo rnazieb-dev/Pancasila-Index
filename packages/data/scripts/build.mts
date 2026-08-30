@@ -146,6 +146,7 @@ if (reviews.length > 0) {
 const sourcesResolved = sourcesRaw.map((s) => ({
   ...s,
   resolved_url: resolveSourceUrl(s),
+  detail_url: `/arsip/${s.id}`,
 }));
 
 // ---- korelasi bukti: sumber dari peristiwa terkait ikut menguatkan ----

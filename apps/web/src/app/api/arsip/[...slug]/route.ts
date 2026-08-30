@@ -66,7 +66,7 @@ export async function GET(
       status: 200,
       headers: {
         "Content-Type": contentType,
-        "Content-Disposition": `inline; filename="${filename}"`,
+        "Content-Disposition": `attachment; filename="${filename}"`,
         "Cache-Control": "public, max-age=31536000, immutable",
         "X-Robots-Tag": "noindex, follow",
       },

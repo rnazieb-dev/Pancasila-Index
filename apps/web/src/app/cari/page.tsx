@@ -489,7 +489,7 @@ export default function CariPage() {
                     <div className="flex flex-wrap gap-1.5 pt-1">
                       {ev.source_ids.map((sid) => {
                         const src = dataset.sources.find((s) => s.id === sid);
-                        const href = src?.resolved_url ?? src?.url;
+                        const href = src?.detail_url ?? src?.resolved_url ?? src?.url;
                         return href ? (
                           <a
                             key={sid}
@@ -530,7 +530,7 @@ export default function CariPage() {
             </h2>
             <div className="mt-3 grid gap-3 sm:grid-cols-2">
               {results.sources.slice(0, 30).map((src) => {
-                const href = src.resolved_url ?? src.url;
+                const href = src.detail_url ?? src.resolved_url ?? src.url;
                 return (
                   <div
                     key={src.id}

@@ -70,6 +70,8 @@ export const sourceSchema = z.object({
   archive_url: z.string().url().optional(),
   /** Diisi build: tautan yang pasti bisa dibuka (portal resmi/pencarian). */
   resolved_url: z.string().url().optional(),
+  /** Diisi build: path halaman dokumen di situs ini (/arsip/<id>). */
+  detail_url: z.string().min(1).optional(),
 });
 export type Source = z.infer<typeof sourceSchema>;
 

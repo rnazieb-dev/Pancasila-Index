@@ -119,7 +119,7 @@ function CaseCard({ c }: { c: ActorCase }) {
       <div className="mt-3 flex flex-wrap gap-1.5">
         {c.source_ids.map((sid) => {
           const src = dataset.sources.find((s) => s.id === sid);
-          const href = src?.resolved_url ?? src?.url;
+              const href = src?.detail_url ?? src?.resolved_url ?? src?.url;
           return href ? (
             <a
               key={sid}
@@ -326,7 +326,7 @@ export default async function AktorProfilPage({
           <div className="mt-2 flex flex-wrap gap-1.5">
             {actor.source_ids.map((sid) => {
               const src = dataset.sources.find((s) => s.id === sid);
-              const href = src?.resolved_url ?? src?.url;
+          const href = src?.detail_url ?? src?.resolved_url ?? src?.url;
               return href ? (
                 <a
                   key={sid}

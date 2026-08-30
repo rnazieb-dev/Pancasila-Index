@@ -261,7 +261,7 @@ export default function ArsipPage() {
         ) : (
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {filteredSources.map((src) => {
-              const href = src.resolved_url ?? src.url;
+              const href = src.detail_url ?? src.resolved_url ?? src.url;
               const repoBadge = getRepositoryBadge(src);
               const isOpposition = CLUSTERS["oposisi"]?.match(src) ?? false;
 
@@ -318,15 +318,25 @@ export default function ArsipPage() {
 
                   {href && (
                     <div className="pt-2 border-t border-[var(--line)]/40 flex items-center justify-between">
-                      <a
-                        href={href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-xs text-[var(--acc-sky)] hover:underline flex items-center gap-1 font-semibold"
-                      >
-                        <span>Buka Repositori Naskah</span>
-                        <span>↗</span>
-                      </a>
+                      {href.startsWith("/") ? (
+                        <Link
+                          href={href}
+                          className="text-xs text-[var(--acc-sky)] hover:underline flex items-center gap-1 font-semibold"
+                        >
+                          <span>Lihat Halaman Dokumen</span>
+                          <span>↗</span>
+                        </Link>
+                      ) : (
+                        <a
+                          href={href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs text-[var(--acc-sky)] hover:underline flex items-center gap-1 font-semibold"
+                        >
+                          <span>Buka Repositori Naskah</span>
+                          <span>↗</span>
+                        </a>
+                      )}
                       <span className="text-[10px] text-[var(--muted)] font-mono">{src.id}</span>
                     </div>
                   )}

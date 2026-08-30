@@ -47,13 +47,15 @@ export default function EksporPage() {
     }
 
     if (type === "sources") {
-      const headers = ["id", "type", "title_id", "year", "citation_id", "resolved_url"];
+      const headers = ["id", "type", "title_id", "year", "citation_id", "detail_url", "archive_url", "resolved_url"];
       const rows = dataset.sources.map((s) => [
         `"${s.id}"`,
         `"${s.type}"`,
         `"${s.title_id.replace(/"/g, '""')}"`,
         s.year ?? "",
         `"${(s.citation_id ?? "").replace(/"/g, '""')}"`,
+        `"${s.detail_url ?? ""}"`,
+        `"${s.archive_url ?? ""}"`,
         `"${s.resolved_url ?? s.url ?? ""}"`,
       ]);
       return [headers.join(","), ...rows.map((r) => r.join(","))].join("\n");

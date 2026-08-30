@@ -499,7 +499,7 @@ export default async function TermPage({
                                 <ul className="mt-1.5 space-y-1">
                                   {e.ds.evidence.map((ev) => {
                                     const src = dataset.sources.find((s) => s.id === ev.source_id);
-                                    const href = src?.resolved_url ?? src?.url;
+                                    const href = src?.detail_url ?? src?.resolved_url ?? src?.url;
                                     return (
                                       <li key={ev.source_id} className="text-xs leading-relaxed">
                                         {href ? (
@@ -532,7 +532,7 @@ export default async function TermPage({
                                       <span key={na}>
                                         {src ? (
                                           <a
-                                            href={src.resolved_url ?? src.url}
+                                            href={src.detail_url ?? src.resolved_url ?? src.url}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="underline decoration-dotted underline-offset-2 hover:text-[var(--text)]"
@@ -611,7 +611,7 @@ export default async function TermPage({
                 <div className="mt-2 flex flex-wrap gap-1.5">
                   {ev.source_ids.map((sid) => {
                     const src = dataset.sources.find((s) => s.id === sid);
-                    const href = src?.resolved_url ?? src?.url;
+                      const href = src?.detail_url ?? src?.resolved_url ?? src?.url;
                     return href ? (
                       <a
                         key={sid}
@@ -702,7 +702,7 @@ export default async function TermPage({
                   <div className="mt-2 flex flex-wrap gap-1.5">
                     {ev.source_ids.map((sid) => {
                       const src = dataset.sources.find((s) => s.id === sid);
-                      const href = src?.resolved_url ?? src?.url;
+                    const href = src?.detail_url ?? src?.resolved_url ?? src?.url;
                       return href ? (
                         <a
                           key={sid}
