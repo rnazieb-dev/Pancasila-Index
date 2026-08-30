@@ -3,6 +3,8 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { dataset } from "@pancasila-index/data";
+import { useLocale } from "@/components/locale-provider";
+import { pickI18n } from "@/lib/i18n";
 
 const AKAR_SEJARAH_DATA = [
   {
@@ -260,6 +262,7 @@ const AKAR_SEJARAH_DATA = [
 ];
 
 export default function CariPage() {
+  const { t, locale } = useLocale();
   const [query, setQuery] = useState("");
   const [selectedEra, setSelectedEra] = useState<string>("all");
   const [selectedInstitution, setSelectedInstitution] = useState<string>("all");
@@ -379,7 +382,7 @@ export default function CariPage() {
   return (
     <div className="mx-auto max-w-5xl px-4 py-12">
       <div>
-        <h1 className="text-3xl font-bold">Pencarian Konstitusional</h1>
+        <h1 className="text-3xl font-bold">{t("cariPageTitle")}</h1>
         <p className="mt-1.5 text-sm text-[var(--muted)]">
           Telusuri ratusan peristiwa berbukti, instrumen hukum primer, masa jabatan, dan pasal UUD 1945.
         </p>
@@ -392,10 +395,10 @@ export default function CariPage() {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Ketik kata kunci, nomor UU, tokoh, atau topik (misal: HAM, korupsi, otonomi, Bagir Manan, Pemilu)..."
+            placeholder={t("cariPlaceholder")}
             className="w-full rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3.5 pl-11 text-sm text-[var(--text)] placeholder-[var(--muted)] focus:border-red-500 focus:outline-none focus:ring-1 focus:ring-red-500 transition"
           />
-          <span className="absolute left-4 top-3.5 text-[var(--muted)]">🔍</span>
+          <span className="absolute left-4 top-3.5 text-[var(--muted)] text-base">⌕</span>
           {query && (
             <button
               onClick={() => setQuery("")}
@@ -438,12 +441,12 @@ export default function CariPage() {
           onChange={(e) => setSelectedEra(e.target.value)}
           className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3 py-1.5 text-xs text-[var(--muted)] focus:text-[var(--text)] focus:outline-none"
         >
-          <option value="all">Semua Era</option>
-          <option value="revolusi">Era Revolusi</option>
-          <option value="demokrasi-liberal">Demokrasi Liberal</option>
-          <option value="demokrasi-terpimpin">Demokrasi Terpimpin</option>
-          <option value="orde-baru">Orde Baru</option>
-          <option value="reformasi">Era Reformasi</option>
+          <option value="all">{t("cariFilterEra")}</option>
+          <option value="revolusi">{t("cariEraRevolusi")}</option>
+          <option value="demokrasi-liberal">{t("cariEraDemokrasiLiberal")}</option>
+          <option value="demokrasi-terpimpin">{t("cariEraDemokrasiTerpimpin")}</option>
+          <option value="orde-baru">{t("cariEraOrdeBaru")}</option>
+          <option value="reformasi">{t("cariEraReformasi")}</option>
         </select>
 
         {/* Filter Lembaga */}
@@ -452,7 +455,7 @@ export default function CariPage() {
           onChange={(e) => setSelectedInstitution(e.target.value)}
           className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3 py-1.5 text-xs text-[var(--muted)] focus:text-[var(--text)] focus:outline-none"
         >
-          <option value="all">Semua Lembaga</option>
+          <option value="all">{t("cariFilterLembaga")}</option>
           {dataset.institutions.map((i) => (
             <option key={i.id} value={i.id}>
               {i.short_id}
@@ -646,7 +649,7 @@ export default function CariPage() {
                 >
                   <div className="flex justify-between items-center text-xs">
                     <span className="font-bold text-emerald-400">{h.year} · {h.category}</span>
-                    <span className="text-[10px] text-emerald-400 underline">Lihat Linimasa &rarr;</span>
+                    <span className="text-[10px] text-emerald-400 underline">{t("cariSeeTimeline")} &rarr;</span>
                   </div>
                   <div className="font-bold text-sm text-[var(--text)]">{h.title}</div>
                   <p className="text-xs text-[var(--muted)] leading-relaxed">{h.summary}</p>
@@ -704,7 +707,7 @@ export default function CariPage() {
         {totalMatches === 0 && (
           <div className="text-center py-16 rounded-xl border border-dashed border-[var(--line)]">
             <p className="text-base font-medium text-[var(--muted)]">
-              Tidak ditemukan hasil yang cocok dengan &quot;{query}&quot;
+              {t("cariNoResults")} &quot;{query}&quot;
             </p>
             <p className="text-xs text-[var(--muted)] mt-1">
               Coba gunakan kata kunci lain atau ubah filter era/lembaga.

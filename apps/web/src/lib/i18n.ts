@@ -117,6 +117,56 @@ const id = {
   sourcesLabel: "sumber",
   draftIndexLabel: "Indeks draf",
   coverageLabel: "cakupan",
+
+  // Ekspor
+  exportPageTitle: "Ekspor & Data Terbuka",
+  exportPageSubtitle:
+    "Unduh seluruh dataset Pancasila Index dalam format terstruktur CSV atau JSON untuk riset, analisis data, dan visualisasi independen.",
+  exportFormatJson: "Format JSON",
+  exportFormatCsv: "Format CSV",
+  exportFormatApi: "API / JSON",
+  exportCkanLabel: "Data Terbuka / CKAN",
+  exportCardJsonTitle: "Dataset Kanonik Lengkap",
+  exportCardEventsTitle: "Tabel Peristiwa Berbukti (Events)",
+  exportCardAssessTitle: "Tabel Skor Penilaian (Assessments)",
+  exportCardSourcesTitle: "Tabel Sumber Primer & Sitasi",
+  exportCardCkanTitle: "Audit Data Terbuka (CKAN DataStore)",
+  exportCardInstitutionsTitle: "Tabel Lembaga & Masa Jabatan",
+  exportDownloadJson: "Unduh JSON",
+  exportDownloadCsvEvents: "Unduh CSV Peristiwa",
+  exportDownloadCsvAssess: "Unduh CSV Penilaian",
+  exportDownloadCsvSources: "Unduh CSV Sumber",
+  exportDownloadCsvInstitutions: "Unduh CSV Lembaga",
+  exportCopy: "Salin",
+  exportCopied: "Tersalin",
+  exportLicenseTitle: "Lisensi Data Terbuka",
+  exportLicenseBody: "Seluruh dataset Pancasila Index dilisensikan di bawah",
+  exportLicenseCode:
+    "Kode sumber platform berlisensi AGPL-3.0. Anda bebas mengutip, menyebarluaskan, dan membuat karya turunan dengan syarat menyebutkan sumber.",
+
+  // Cari / Search
+  cariPageTitle: "Pencarian Konstitusional",
+  cariPlaceholder:
+    "Ketik kata kunci, nomor UU, tokoh, atau topik (misal: HAM, korupsi, otonomi, Bagir Manan, Pemilu)...",
+  cariFilterAll: "Semua",
+  cariFilterEra: "Semua Era",
+  cariFilterLembaga: "Semua Lembaga",
+  cariEraRevolusi: "Era Revolusi",
+  cariEraDemokrasiLiberal: "Demokrasi Liberal",
+  cariEraDemokrasiTerpimpin: "Demokrasi Terpimpin",
+  cariEraOrdeBaru: "Orde Baru",
+  cariEraReformasi: "Era Reformasi",
+  cariNoResults: "Tidak ada hasil yang cocok dengan filter Anda.",
+  cariResultsCount: "hasil",
+  cariSeeTimeline: "Lihat Linimasa",
+  cariViewProfile: "Lihat profil",
+  cariViewEvents: "Lihat peristiwa",
+
+  // Bandingkan
+  bandingkanPageTitle: "Bandingkan Era & Lembaga",
+  bandingkanPlaceholder: "Cari nama tokoh / era...",
+  bandingkanTableTitle: "Tabel Skor Komparatif Per Dimensi",
+  bandingkanSummaryTitle: "Ringkasan Komparasi",
 } satisfies Record<string, string>;
 
 /** Semua dict wajib memenuhi bentuk ini — kunci hilang = error kompilasi. */
@@ -207,6 +257,56 @@ const en: Dict = {
   sourcesLabel: "sources",
   draftIndexLabel: "Draft index",
   coverageLabel: "coverage",
+
+  // Ekspor / Export
+  exportPageTitle: "Export & Open Data",
+  exportPageSubtitle:
+    "Download the full Pancasila Index dataset in structured CSV or JSON for research, data analysis, and independent visualization.",
+  exportFormatJson: "JSON format",
+  exportFormatCsv: "CSV format",
+  exportFormatApi: "API / JSON",
+  exportCkanLabel: "Open Data / CKAN",
+  exportCardJsonTitle: "Full canonical dataset",
+  exportCardEventsTitle: "Evidenced events table",
+  exportCardAssessTitle: "Assessment scores table",
+  exportCardSourcesTitle: "Primary sources & citations table",
+  exportCardCkanTitle: "Open data audit (CKAN DataStore)",
+  exportCardInstitutionsTitle: "Institutions & terms table",
+  exportDownloadJson: "Download JSON",
+  exportDownloadCsvEvents: "Download events CSV",
+  exportDownloadCsvAssess: "Download assessments CSV",
+  exportDownloadCsvSources: "Download sources CSV",
+  exportDownloadCsvInstitutions: "Download institutions CSV",
+  exportCopy: "Copy",
+  exportCopied: "Copied",
+  exportLicenseTitle: "Open data licence",
+  exportLicenseBody: "The full Pancasila Index dataset is licensed under",
+  exportLicenseCode:
+    "Platform source code is licensed under AGPL-3.0. You are free to cite, redistribute, and create derivative works provided you credit the source.",
+
+  // Cari / Search
+  cariPageTitle: "Constitutional Search",
+  cariPlaceholder:
+    "Type a keyword, law number, public figure, or topic (e.g. human rights, corruption, regional autonomy, Bagir Manan, elections)...",
+  cariFilterAll: "All",
+  cariFilterEra: "All eras",
+  cariFilterLembaga: "All institutions",
+  cariEraRevolusi: "Revolution era",
+  cariEraDemokrasiLiberal: "Liberal democracy",
+  cariEraDemokrasiTerpimpin: "Guided democracy",
+  cariEraOrdeBaru: "New Order",
+  cariEraReformasi: "Reform era",
+  cariNoResults: "No results match your filters.",
+  cariResultsCount: "results",
+  cariSeeTimeline: "View timeline",
+  cariViewProfile: "View profile",
+  cariViewEvents: "View events",
+
+  // Bandingkan
+  bandingkanPageTitle: "Compare Eras & Institutions",
+  bandingkanPlaceholder: "Search figure / era...",
+  bandingkanTableTitle: "Comparative dimension score table",
+  bandingkanSummaryTitle: "Comparison summary",
 };
 
 const jv: Dict = {
@@ -293,6 +393,56 @@ const jv: Dict = {
   sourcesLabel: "sumber",
   draftIndexLabel: "Indeks draf",
   coverageLabel: "cakupan",
+
+  // Ekspor (terjemahan generik, akan diperbaiki penutur asli)
+  exportPageTitle: "Ékspor & Data Terbuka",
+  exportPageSubtitle:
+    "Unduh seluruh dataset Pancasila Index ing format CSV utawi JSON kanggo riset, analisis data, lan visualisasi independen.",
+  exportFormatJson: "Format JSON",
+  exportFormatCsv: "Format CSV",
+  exportFormatApi: "API / JSON",
+  exportCkanLabel: "Data Terbuka / CKAN",
+  exportCardJsonTitle: "Dataset Kanonik Lengkep",
+  exportCardEventsTitle: "Tabel Peristiwa Berbukti",
+  exportCardAssessTitle: "Tabel Skor Penilaian",
+  exportCardSourcesTitle: "Tabel Sumber Primer & Sitasi",
+  exportCardCkanTitle: "Audit Data Terbuka (CKAN)",
+  exportCardInstitutionsTitle: "Tabel Lembaga & Masa Jabatan",
+  exportDownloadJson: "Unduh JSON",
+  exportDownloadCsvEvents: "Unduh CSV Peristiwa",
+  exportDownloadCsvAssess: "Unduh CSV Penilaian",
+  exportDownloadCsvSources: "Unduh CSV Sumber",
+  exportDownloadCsvInstitutions: "Unduh CSV Lembaga",
+  exportCopy: "Salin",
+  exportCopied: "Tersalin",
+  exportLicenseTitle: "Lisénsi Data Terbuka",
+  exportLicenseBody: "Sedaya dataset Pancasila Index dilisénsi ing ngisor",
+  exportLicenseCode:
+    "Kode sumber platform dilisénsi AGPL-3.0. Panjenengan bebas ngutip, nyebarnaake, lan damel karya turunan kanthi nyebut sumber.",
+
+  // Cari / Search
+  cariPageTitle: "Panelusuran Konstitusional",
+  cariPlaceholder:
+    "Ketik tembung kunci, nomor UU, tokoh, utawi topik (umpamane: HAM, korupsi, otonomi, Bagir Manan, Pemilu)...",
+  cariFilterAll: "Sedaya",
+  cariFilterEra: "Sedaya Jaman",
+  cariFilterLembaga: "Sedaya Lembaga",
+  cariEraRevolusi: "Jaman Revolusi",
+  cariEraDemokrasiLiberal: "Demokrasi Liberal",
+  cariEraDemokrasiTerpimpin: "Demokrasi Terpimpin",
+  cariEraOrdeBaru: "Orde Baru",
+  cariEraReformasi: "Jaman Reformasi",
+  cariNoResults: "Ora ana asil sing cocog karo panyaring panjenengan.",
+  cariResultsCount: "asil",
+  cariSeeTimeline: "Deleng Garis Waktos",
+  cariViewProfile: "Deleng profil",
+  cariViewEvents: "Deleng kedadéyan",
+
+  // Bandingkan
+  bandingkanPageTitle: "Bandingake Jaman & Lembaga",
+  bandingkanPlaceholder: "Goleki tokoh / jaman...",
+  bandingkanTableTitle: "Tabel Skor Komparatif Per Dimensi",
+  bandingkanSummaryTitle: "Ringkesan Komparasi",
 };
 
 const su: Dict = {
@@ -379,6 +529,56 @@ const su: Dict = {
   sourcesLabel: "sumber",
   draftIndexLabel: "Indéks draf",
   coverageLabel: "cakupan",
+
+  // Ekspor (terjemahan generik, akan diperbaiki penutur asli)
+  exportPageTitle: "Ékspor & Data Terbuka",
+  exportPageSubtitle:
+    "Unduh dataset Pancasila Index dina format CSV atanapi JSON pikeun panalungtik, analisis data, sareng visualisasi mandiri.",
+  exportFormatJson: "Format JSON",
+  exportFormatCsv: "Format CSV",
+  exportFormatApi: "API / JSON",
+  exportCkanLabel: "Data Terbuka / CKAN",
+  exportCardJsonTitle: "Dataset Kanonik Lengkep",
+  exportCardEventsTitle: "Tabel Kajadian Berbukti",
+  exportCardAssessTitle: "Tabel Skor Panilaian",
+  exportCardSourcesTitle: "Tabel Sumber Primér & Sitasi",
+  exportCardCkanTitle: "Audit Data Terbuka (CKAN)",
+  exportCardInstitutionsTitle: "Tabel Lembhâgâ & Masa Jabatan",
+  exportDownloadJson: "Unduh JSON",
+  exportDownloadCsvEvents: "Unduh CSV Kajadian",
+  exportDownloadCsvAssess: "Unduh CSV Panilaian",
+  exportDownloadCsvSources: "Unduh CSV Sumber",
+  exportDownloadCsvInstitutions: "Unduh CSV Lembhâgâ",
+  exportCopy: "Salin",
+  exportCopied: "Tersalin",
+  exportLicenseTitle: "Lisénsi Data Terbuka",
+  exportLicenseBody: "Sadayana dataset Pancasila Index dilisénsi di handapeun",
+  exportLicenseCode:
+    "Kode sumber platform dilisénsi AGPL-3.0. Anjeun bebas ngutip, nyebarkeun, sareng nyieun karya turunan kalawan nyebut sumber.",
+
+  // Cari / Search
+  cariPageTitle: "Sungsi Konstitusional",
+  cariPlaceholder:
+    "Ketik kecap konci, nomor UU, tokoh, atanapi topik (conto: HAM, korupsi, otonomi, Bagir Manan, Pemilu)...",
+  cariFilterAll: "Sadaya",
+  cariFilterEra: "Sadaya Jaman",
+  cariFilterLembaga: "Sadaya Lembhâgâ",
+  cariEraRevolusi: "Jaman Revolusi",
+  cariEraDemokrasiLiberal: "Démokrasi Liberal",
+  cariEraDemokrasiTerpimpin: "Démokrasi Térpimpin",
+  cariEraOrdeBaru: "Orde Baru",
+  cariEraReformasi: "Jaman Reformasi",
+  cariNoResults: "Teu aya hasil nu cocog jeung saringan anjeun.",
+  cariResultsCount: "hasil",
+  cariSeeTimeline: "Tingal Garis Waktu",
+  cariViewProfile: "Tingal profil",
+  cariViewEvents: "Tingal kajadian",
+
+  // Bandingkan
+  bandingkanPageTitle: "Bandingkeun Jaman & Lembhâgâ",
+  bandingkanPlaceholder: "Sungsi tokoh / jaman...",
+  bandingkanTableTitle: "Tabel Skor Komparatif Pér Dimensi",
+  bandingkanSummaryTitle: "Ringkesan Komparasi",
 };
 
 const mad: Dict = {
@@ -465,6 +665,56 @@ const mad: Dict = {
   sourcesLabel: "somber",
   draftIndexLabel: "Indeks draf",
   coverageLabel: "cakupan",
+
+  // Ekspor (terjemahan generik, akan diperbaiki penutur asli)
+  exportPageTitle: "Ekspor & Data Tabukak",
+  exportPageSubtitle:
+    "Unduah dataset Pancasila Index e format CSV otabâ JSON kaangghuy riset, analisis data, sareng visualisasi independen.",
+  exportFormatJson: "Format JSON",
+  exportFormatCsv: "Format CSV",
+  exportFormatApi: "API / JSON",
+  exportCkanLabel: "Data Tabukak / CKAN",
+  exportCardJsonTitle: "Dataset Kanonik Lengkep",
+  exportCardEventsTitle: "Tabel Kadhâddhiyân Berbukti",
+  exportCardAssessTitle: "Tabel Skor Panilaian",
+  exportCardSourcesTitle: "Tabel Somber Primér & Sitasi",
+  exportCardCkanTitle: "Audit Data Tabukak (CKAN)",
+  exportCardInstitutionsTitle: "Tabel Lembhâgâ & Maso Jâbâtan",
+  exportDownloadJson: "Unduah JSON",
+  exportDownloadCsvEvents: "Unduah CSV Kadhâddhiyân",
+  exportDownloadCsvAssess: "Unduah CSV Panilaian",
+  exportDownloadCsvSources: "Unduah CSV Somber",
+  exportDownloadCsvInstitutions: "Unduah CSV Lembhâgâ",
+  exportCopy: "Salèn",
+  exportCopied: "Tersalèn",
+  exportLicenseTitle: "Lisènsi Data Tabukak",
+  exportLicenseBody: "Sadâjâ dataset Pancasila Index èlisènsi è bâbâna",
+  exportLicenseCode:
+    "Kode sumber platform èlisènsi AGPL-3.0. Bâdâ bebas ngotè, nyebâraghân, sareng mabdus karya turunan ngangghuy nyebut sumber.",
+
+  // Cari / Search
+  cariPageTitle: "Sareán Konstitusional",
+  cariPlaceholder:
+    "Ketik kato kunci, nomor UU, tokoh, otabâ topik (contoh: HAM, korupsi, otonomi, Bagir Manan, Pemilu)...",
+  cariFilterAll: "Sadâjâ",
+  cariFilterEra: "Sadâjâ Jaman",
+  cariFilterLembaga: "Sadâjâ Lembhâgâ",
+  cariEraRevolusi: "Jaman Revolusi",
+  cariEraDemokrasiLiberal: "Démokrasi Liberal",
+  cariEraDemokrasiTerpimpin: "Démokrasi Tèrpimpin",
+  cariEraOrdeBaru: "Orde Baru",
+  cariEraReformasi: "Jaman Reformasi",
+  cariNoResults: "Ta' ada hasèl sè cocok sareng saringan bâna.",
+  cariResultsCount: "hasèl",
+  cariSeeTimeline: "Ghâlis Ghâris Bâkto",
+  cariViewProfile: "Ghâlis profil",
+  cariViewEvents: "Ghâlis kadhâddhiyân",
+
+  // Bandingkan
+  bandingkanPageTitle: "Bandinghân Jaman & Lembhâgâ",
+  bandingkanPlaceholder: "Sareân tokoh / jaman...",
+  bandingkanTableTitle: "Tabel Skor Komparatif Per Dimensi",
+  bandingkanSummaryTitle: "Rèngkesan Komparasi",
 };
 
 const min: Dict = {
@@ -551,6 +801,56 @@ const min: Dict = {
   sourcesLabel: "sumber",
   draftIndexLabel: "Indeks draf",
   coverageLabel: "cakupan",
+
+  // Ekspor (terjemahan generik, akan diperbaiki penutur asli)
+  exportPageTitle: "Ekspor & Data Tabukak",
+  exportPageSubtitle:
+    "Unduah dataset Pancasila Index dalam format CSV atau JSON untuak riset, analisis data, jo visualisasi independen.",
+  exportFormatJson: "Format JSON",
+  exportFormatCsv: "Format CSV",
+  exportFormatApi: "API / JSON",
+  exportCkanLabel: "Data Tabukak / CKAN",
+  exportCardJsonTitle: "Dataset Kanonik Langkok",
+  exportCardEventsTitle: "Tabel Paristiwa Babukti",
+  exportCardAssessTitle: "Tabel Skor Panilaian",
+  exportCardSourcesTitle: "Tabel Sumber Primér & Sitasi",
+  exportCardCkanTitle: "Audit Data Tabukak (CKAN)",
+  exportCardInstitutionsTitle: "Tabel Lambago & Maso Jabatan",
+  exportDownloadJson: "Unduah JSON",
+  exportDownloadCsvEvents: "Unduah CSV Paristiwa",
+  exportDownloadCsvAssess: "Unduah CSV Panilaian",
+  exportDownloadCsvSources: "Unduah CSV Sumber",
+  exportDownloadCsvInstitutions: "Unduah CSV Lambago",
+  exportCopy: "Salin",
+  exportCopied: "Tasalin",
+  exportLicenseTitle: "Lisensi Data Tabukak",
+  exportLicenseBody: "Sadonyo dataset Pancasila Index dilisensikan di bawah",
+  exportLicenseCode:
+    "Kode sumber platform berlisensi AGPL-3.0. Anda bebas mengutip, menyebarluaskan, dan membuat karya turunan dengan syarat menyebutkan sumber.",
+
+  // Cari / Search
+  cariPageTitle: "Pencarian Konstitusional",
+  cariPlaceholder:
+    "Ketik kato kun-ci, nomor UU, tokoh, atau topik (contoh: HAM, korupsi, otonomi, Bagir Manan, Pemilu)...",
+  cariFilterAll: "Sadonyo",
+  cariFilterEra: "Sadonyo Maso",
+  cariFilterLembaga: "Sadonyo Lambago",
+  cariEraRevolusi: "Maso Revolusi",
+  cariEraDemokrasiLiberal: "Demokrasi Liberal",
+  cariEraDemokrasiTerpimpin: "Demokrasi Tarpimpin",
+  cariEraOrdeBaru: "Orde Baru",
+  cariEraReformasi: "Maso Reformasi",
+  cariNoResults: "Indak ado hasia nan cocok jo filter Sanak.",
+  cariResultsCount: "hasia",
+  cariSeeTimeline: "Caliak Garik Wakatu",
+  cariViewProfile: "Caliak profil",
+  cariViewEvents: "Caliak paristiwa",
+
+  // Bandingkan
+  bandingkanPageTitle: "Bandinkan Maso & Lambago",
+  bandingkanPlaceholder: "Caliak tokoh / maso...",
+  bandingkanTableTitle: "Tabel Skor Komparatif Per Dimensi",
+  bandingkanSummaryTitle: "Ringkasan Komparasi",
 };
 
 const DICTS: Record<string, Dict> = { id, en, jv, su, mad, min };
@@ -566,4 +866,38 @@ export function localeMeta(code: string): LocaleMeta {
 
 export function isLocale(value: unknown): value is LocaleCode {
   return LOCALES.some((l) => l.code === value);
+}
+
+/**
+ * Locale yang didukung untuk field data opsional. Bila `id`, tidak ada
+ * suffix (`title_id`, `summary_id`). Untuk locale lain, sufiks adalah
+ * `_<loc>` (mis. `title_en`, `summary_jv`).
+ */
+export const I18N_DATA_LOCALES = ["id", "en", "jv", "su", "mad", "min"] as const;
+export type I18nDataLocale = (typeof I18N_DATA_LOCALES)[number];
+
+/**
+ * Pilih field data yang sesuai dengan locale saat ini, dengan fallback ke
+ * `title_id` (atau `summary_id`). Bila `locale` adalah `id` atau tidak
+ * diterjemahkan, kembalikan field Indonesia.
+ *
+ * Contoh:
+ *   pickI18n(event, "title", locale) -> event.title_en ?? event.title_id
+ *   pickI18n(source, "summary", locale) -> source.summary_jv ?? source.summary_id
+ */
+export function pickI18n<T extends Record<string, unknown>>(
+  obj: T,
+  base: "title" | "summary" | "name" | "description" | "label",
+  locale: string,
+): string {
+  if (!obj || typeof obj !== "object") return "";
+  const idField = obj[`${base}_id`];
+  if (locale === "id" || !I18N_DATA_LOCALES.includes(locale as I18nDataLocale)) {
+    return typeof idField === "string" ? idField : "";
+  }
+  const localized = obj[`${base}_${locale}`];
+  if (typeof localized === "string" && localized.trim().length > 0) {
+    return localized;
+  }
+  return typeof idField === "string" ? idField : "";
 }
