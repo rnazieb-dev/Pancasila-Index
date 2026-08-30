@@ -5,6 +5,13 @@ import Link from "next/link";
 import { dataset, getEventsOfTerm } from "@pancasila-index/data";
 import { InstitutionLogo } from "@/components/institution-logo";
 import {
+  IconGlobe,
+  IconShieldCheck,
+  IconInstitution,
+  IconScale,
+  IconTimeline,
+} from "@/components/icons";
+import {
   indexLabel,
   periodLabel,
   scoreColor,
@@ -25,10 +32,10 @@ export default function TimelinePage() {
   ] as const;
 
   const pillars = [
-    { id: "all", label: "Semua Pilar (12 Dimensi)", icon: "🌐" },
-    { id: "sila", label: "1. Lima Sila Pancasila", icon: "🦅" },
-    { id: "pembukaan", label: "2. Pembukaan UUD 1945 (Tujuan)", icon: "🏛️" },
-    { id: "struktur-uud", label: "3. Norma Struktural UUD 1945", icon: "⚖️" },
+    { id: "all", label: "Semua Pilar (12 Dimensi)", icon: IconGlobe },
+    { id: "sila", label: "1. Lima Sila Pancasila", icon: IconShieldCheck },
+    { id: "pembukaan", label: "2. Pembukaan UUD 1945 (Tujuan)", icon: IconInstitution },
+    { id: "struktur-uud", label: "3. Norma Struktural UUD 1945", icon: IconScale },
   ] as const;
 
   return (
@@ -44,9 +51,10 @@ export default function TimelinePage() {
           </div>
           <Link
             href="/timeline/tren"
-            className="rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-2.5 text-xs sm:text-sm font-bold text-[var(--acc-sky)] hover:border-sky-500 hover:shadow transition"
+            className="flex items-center gap-1.5 rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-2.5 text-xs sm:text-sm font-bold text-[var(--acc-sky)] hover:border-sky-500 hover:shadow transition"
           >
-            📈 Lihat Grafik Tren Lintas Dekade →
+            <IconTimeline size={16} />
+            <span>Lihat Grafik Tren Lintas Dekade →</span>
           </Link>
         </div>
 
@@ -54,17 +62,18 @@ export default function TimelinePage() {
         <div className="mt-6 flex flex-wrap items-center gap-2">
           {pillars.map((p) => {
             const isActive = activePillar === p.id;
+            const Icon = p.icon;
             return (
               <button
                 key={p.id}
                 onClick={() => setActivePillar(p.id as PillarFilter)}
-                className={`flex items-center gap-2 rounded-xl px-4 py-2 text-xs sm:text-sm font-semibold transition ${
+                className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition cursor-pointer ${
                   isActive
-                    ? "bg-[var(--acc-red)] text-white shadow-md"
+                    ? "bg-[var(--text)] text-[var(--panel)] shadow-sm font-bold"
                     : "bg-[var(--panel)] border border-[var(--line)] text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400"
                 }`}
               >
-                <span>{p.icon}</span>
+                <Icon size={15} className="shrink-0" />
                 <span>{p.label}</span>
               </button>
             );
@@ -172,26 +181,35 @@ export default function TimelinePage() {
                                   </span>
                                 </div>
                                 <span className="text-[11px] text-[var(--muted)] font-medium">
-                                  ⚡ {termEvents.length} peristiwa berbukti
+                                  {termEvents.length} peristiwa berbukti
                                 </span>
                               </div>
 
                               {/* 3-Pillar Splitter Breakdown Bar */}
                               <div className="mt-4 pt-3 border-t border-[var(--line)] grid grid-cols-1 sm:grid-cols-3 gap-2 text-[11px]">
                                 <div className="flex items-center justify-between rounded-lg bg-[var(--bg)] px-2.5 py-1.5 border border-[var(--line)]">
-                                  <span className="text-[var(--muted)]">🦅 Pancasila</span>
+                                  <span className="text-[var(--muted)] flex items-center gap-1">
+                                    <IconShieldCheck size={13} />
+                                    <span>Pancasila</span>
+                                  </span>
                                   <span className="font-bold tabular-nums" style={{ color: gSila && gSila.coverage > 0 ? scoreTextColor(gSila.score) : "var(--score-zero)" }}>
                                     {gSila && gSila.coverage > 0 ? `${Math.round(((gSila.score + 2) / 4) * 100)}` : "-"}
                                   </span>
                                 </div>
                                 <div className="flex items-center justify-between rounded-lg bg-[var(--bg)] px-2.5 py-1.5 border border-[var(--line)]">
-                                  <span className="text-[var(--muted)]">🏛️ Pembukaan</span>
+                                  <span className="text-[var(--muted)] flex items-center gap-1">
+                                    <IconInstitution size={13} />
+                                    <span>Pembukaan</span>
+                                  </span>
                                   <span className="font-bold tabular-nums" style={{ color: gPembukaan && gPembukaan.coverage > 0 ? scoreTextColor(gPembukaan.score) : "var(--score-zero)" }}>
                                     {gPembukaan && gPembukaan.coverage > 0 ? `${Math.round(((gPembukaan.score + 2) / 4) * 100)}` : "-"}
                                   </span>
                                 </div>
                                 <div className="flex items-center justify-between rounded-lg bg-[var(--bg)] px-2.5 py-1.5 border border-[var(--line)]">
-                                  <span className="text-[var(--muted)]">⚖️ Norma UUD</span>
+                                  <span className="text-[var(--muted)] flex items-center gap-1">
+                                    <IconScale size={13} />
+                                    <span>Norma UUD</span>
+                                  </span>
                                   <span className="font-bold tabular-nums" style={{ color: gStrukturUud && gStrukturUud.coverage > 0 ? scoreTextColor(gStrukturUud.score) : "var(--score-zero)" }}>
                                     {gStrukturUud && gStrukturUud.coverage > 0 ? `${Math.round(((gStrukturUud.score + 2) / 4) * 100)}` : "-"}
                                   </span>

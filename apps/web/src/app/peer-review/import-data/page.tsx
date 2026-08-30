@@ -214,7 +214,7 @@ export default function ImportDataPage() {
               activeTab === "curation" ? "bg-[var(--text)] text-[var(--bg)]" : "text-[var(--muted)] hover:text-[var(--text)]"
             }`}
           >
-            ⚖️ Antrean Kuorum ({pendingAudits.filter(a => a.status !== "published" && a.status !== "rejected").length})
+            Antrean Kuorum ({pendingAudits.filter(a => a.status !== "published" && a.status !== "rejected").length})
           </button>
         </div>
       </div>

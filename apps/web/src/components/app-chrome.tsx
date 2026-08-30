@@ -6,37 +6,62 @@ import { useState, useEffect, useRef } from "react";
 
 import { LOCALES, type UiKey } from "@/lib/i18n";
 import { useLocale } from "@/components/locale-provider";
+import {
+  IconHome,
+  IconInstitution,
+  IconTimeline,
+  IconCompare,
+  IconUsers,
+  IconMethodology,
+  IconHistory,
+  IconArchive,
+  IconScale,
+  IconExport,
+  IconApi,
+  IconAuditLog,
+  IconSearch,
+  IconSun,
+  IconMoon,
+  IconGlobe,
+  IconFilePlus,
+  IconShieldCheck,
+  IconInbox,
+  IconEdit,
+  IconLanguages,
+  IconDatabase,
+  IconSettings,
+} from "@/components/icons";
 
-/* ─── Struktur navigasi: label sebagai kunci i18n dengan ikon pendukung ─── */
+/* ─── Struktur navigasi: label sebagai kunci i18n dengan ikon SVG pendukung ─── */
 interface NavItem {
   href: string;
   key: UiKey;
-  icon: string;
+  icon: React.ComponentType<{ size?: number; className?: string }>;
 }
 
 const NAV_EXPLORE: NavItem[] = [
-  { href: "/lembaga", key: "navInstitutions", icon: "🏛️" },
-  { href: "/timeline", key: "navTimeline", icon: "⏳" },
-  { href: "/bandingkan", key: "navCompare", icon: "📊" },
-  { href: "/aktor", key: "navActors", icon: "👥" },
+  { href: "/lembaga", key: "navInstitutions", icon: IconInstitution },
+  { href: "/timeline", key: "navTimeline", icon: IconTimeline },
+  { href: "/bandingkan", key: "navCompare", icon: IconCompare },
+  { href: "/aktor", key: "navActors", icon: IconUsers },
 ];
 
 const NAV_DATA: NavItem[] = [
-  { href: "/metodologi", key: "navMethodology", icon: "📖" },
-  { href: "/akar-sejarah", key: "navAkarSejarah", icon: "📜" },
-  { href: "/arsip", key: "navArsip", icon: "🏛️" },
-  { href: "/landasan-uud", key: "navUud", icon: "⚖️" },
-  { href: "/ekspor", key: "navExport", icon: "📥" },
-  { href: "/api-docs", key: "navApiDocs", icon: "⚡" },
-  { href: "/kurasi/log", key: "navAuditLog", icon: "📋" },
+  { href: "/metodologi", key: "navMethodology", icon: IconMethodology },
+  { href: "/akar-sejarah", key: "navAkarSejarah", icon: IconHistory },
+  { href: "/arsip", key: "navArsip", icon: IconArchive },
+  { href: "/landasan-uud", key: "navUud", icon: IconScale },
+  { href: "/ekspor", key: "navExport", icon: IconExport },
+  { href: "/api-docs", key: "navApiDocs", icon: IconApi },
+  { href: "/kurasi/log", key: "navAuditLog", icon: IconAuditLog },
 ];
 
-const NAV_PEER_REVIEW: { href: string; label: string; icon: string }[] = [
-  { href: "/peer-review", label: "Portal Peer Review", icon: "⚖️" },
-  { href: "/peer-review/usulan", label: "Antrean Usulan Bukti", icon: "📑" },
-  { href: "/peer-review/draf", label: "Draf Usulan Saya", icon: "📝" },
-  { href: "/peer-review/terjemahan", label: "Tinjauan Bahasa", icon: "🌐" },
-  { href: "/peer-review/import-data", label: "Audit Data CKAN", icon: "🗄️" },
+const NAV_PEER_REVIEW = [
+  { href: "/peer-review", label: "Portal Peer Review", icon: IconShieldCheck },
+  { href: "/peer-review/usulan", label: "Antrean Usulan Bukti", icon: IconInbox },
+  { href: "/peer-review/draf", label: "Draf Usulan Saya", icon: IconEdit },
+  { href: "/peer-review/terjemahan", label: "Tinjauan Bahasa", icon: IconLanguages },
+  { href: "/peer-review/import-data", label: "Audit Data CKAN", icon: IconDatabase },
 ];
 
 /* ─── Helpers ─── */
@@ -152,6 +177,7 @@ function NavDropdown({
         <div role="menu" className={`${PANEL} left-0 w-60 py-2`}>
           {items.map((item) => {
             const isItemActive = pathname === item.href || (item.href !== "/" && pathname?.startsWith(item.href));
+            const Icon = item.icon;
             return (
               <Link
                 key={item.href}
@@ -164,7 +190,7 @@ function NavDropdown({
                     : "text-[var(--muted)] hover:text-[var(--text)]"
                 }`}
               >
-                <span className="text-sm shrink-0">{item.icon}</span>
+                <Icon size={16} className={isItemActive ? "text-[var(--acc-red)]" : "text-[var(--muted)]"} />
                 <span className="truncate">{t(item.key)}</span>
               </Link>
             );
@@ -263,24 +289,6 @@ function LocaleDropdown({ align = "right" }: { align?: "left" | "right" }) {
   );
 }
 
-function SearchIcon() {
-  return (
-    <svg
-      width="16"
-      height="16"
-      viewBox="0 0 18 18"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.8"
-      strokeLinecap="round"
-      aria-hidden="true"
-    >
-      <circle cx="7.5" cy="7.5" r="5" />
-      <path d="M13 13l2.5 2.5" />
-    </svg>
-  );
-}
-
 /* ─── Komponen utama ─── */
 export function AppChrome({ children }: { children: React.ReactNode }) {
   const { t } = useLocale();
@@ -349,13 +357,14 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
             <NavDropdown label={t("navMethodData")} items={NAV_DATA} />
             <Link
               href="/usulkan-bukti"
-              className={`text-xs sm:text-sm py-1 px-2.5 rounded-md transition hover:bg-[var(--line)]/50 hover:text-[var(--text)] ${
+              className={`flex items-center gap-1.5 text-xs sm:text-sm py-1 px-2.5 rounded-md transition hover:bg-[var(--line)]/50 hover:text-[var(--text)] ${
                 pathname === "/usulkan-bukti"
                   ? "text-[var(--acc-emerald-strong)] font-bold bg-emerald-500/10"
                   : "text-[var(--muted)]"
               }`}
             >
-              ⚖️ Usulkan Bukti
+              <IconScale size={15} />
+              <span>Usulkan Bukti</span>
             </Link>
           </nav>
 
@@ -367,7 +376,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               aria-label={t("actSearch")}
               className="flex items-center gap-1.5 rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3 py-1.5 text-xs text-[var(--muted)] transition hover:border-slate-400 hover:text-[var(--text)]"
             >
-              <SearchIcon />
+              <IconSearch size={14} />
               <span className="font-medium">Cari...</span>
               <kbd className="rounded bg-[var(--bg)] px-1.5 py-0.5 text-[10px] font-mono text-[var(--muted)] border border-[var(--line)]">
                 /
@@ -381,14 +390,9 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               className="rounded-lg border border-[var(--line)] bg-[var(--panel)] p-2 text-[var(--muted)] transition hover:border-slate-400 hover:text-[var(--text)] cursor-pointer"
             >
               {theme === "dark" ? (
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
-                </svg>
+                <IconMoon size={15} />
               ) : (
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
-                  <circle cx="12" cy="12" r="4" />
-                  <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
-                </svg>
+                <IconSun size={15} />
               )}
             </button>
 
@@ -441,7 +445,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               aria-label={t("actSearch")}
               className="rounded-lg border border-[var(--line)] bg-[var(--panel)] p-2 text-[var(--muted)] transition hover:text-[var(--text)]"
             >
-              <SearchIcon />
+              <IconSearch size={16} />
             </Link>
             <button
               onClick={() => setDrawerOpen(true)}
@@ -456,7 +460,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
         </div>
       </header>
 
-      {/* ═══ MOBILE NAVIGATION DRAWER (Rapi & Lengkap) ═══ */}
+      {/* ═══ MOBILE NAVIGATION DRAWER (Rapi & Lengkap Tanpa Emot) ═══ */}
       {drawerOpen && (
         <>
           <div
@@ -493,7 +497,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                 onClick={() => setDrawerOpen(false)}
                 className="flex items-center gap-2.5 rounded-xl border border-[var(--line)] bg-[var(--bg)] px-3.5 py-2.5 text-xs text-[var(--muted)] hover:border-slate-400 hover:text-[var(--text)] transition shadow-2xs"
               >
-                <SearchIcon />
+                <IconSearch size={15} />
                 <span className="flex-1 truncate">Cari 650+ peristiwa & arsip...</span>
                 <span className="text-[10px] font-mono opacity-60">/</span>
               </Link>
@@ -512,7 +516,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                       : "text-[var(--muted)] hover:bg-[var(--bg)] hover:text-[var(--text)]"
                   }`}
                 >
-                  <span className="text-base">🏠</span>
+                  <IconHome size={17} className={pathname === "/" ? "text-[var(--text)]" : "text-[var(--muted)]"} />
                   <span>{t("navHome")}</span>
                 </Link>
                 <Link
@@ -524,7 +528,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                       : "text-[var(--muted)] hover:bg-[var(--bg)] hover:text-[var(--text)]"
                   }`}
                 >
-                  <span className="text-base">⚖️</span>
+                  <IconFilePlus size={17} className="text-emerald-500" />
                   <span>Usulkan Bukti Primer</span>
                 </Link>
               </div>
@@ -536,6 +540,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                 </div>
                 {NAV_EXPLORE.map((item) => {
                   const isActive = pathname === item.href || pathname?.startsWith(item.href + "/");
+                  const Icon = item.icon;
                   return (
                     <Link
                       key={item.href}
@@ -548,7 +553,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                       }`}
                     >
                       <div className="flex items-center gap-3 min-w-0">
-                        <span className="text-base shrink-0">{item.icon}</span>
+                        <Icon size={17} className={isActive ? "text-[var(--acc-red)]" : "text-[var(--muted)]"} />
                         <span className="truncate">{t(item.key)}</span>
                       </div>
                       {isActive && <span className="size-1.5 rounded-full bg-[var(--acc-red)] shrink-0" />}
@@ -564,6 +569,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                 </div>
                 {NAV_DATA.map((item) => {
                   const isActive = pathname === item.href || (item.href !== "/" && pathname?.startsWith(item.href + "/"));
+                  const Icon = item.icon;
                   return (
                     <Link
                       key={item.href}
@@ -576,7 +582,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                       }`}
                     >
                       <div className="flex items-center gap-3 min-w-0">
-                        <span className="text-base shrink-0">{item.icon}</span>
+                        <Icon size={17} className={isActive ? "text-[var(--acc-red)]" : "text-[var(--muted)]"} />
                         <span className="truncate">{t(item.key)}</span>
                       </div>
                       {isActive && <span className="size-1.5 rounded-full bg-[var(--acc-red)] shrink-0" />}
@@ -593,6 +599,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                   </div>
                   {NAV_PEER_REVIEW.map((item) => {
                     const isActive = pathname === item.href;
+                    const Icon = item.icon;
                     return (
                       <Link
                         key={item.href}
@@ -605,7 +612,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                         }`}
                       >
                         <div className="flex items-center gap-3 min-w-0">
-                          <span className="text-base shrink-0">{item.icon}</span>
+                          <Icon size={17} className={isActive ? "text-[var(--acc-red)]" : "text-[var(--muted)]"} />
                           <span className="truncate">{item.label}</span>
                         </div>
                         {isActive && <span className="size-1.5 rounded-full bg-[var(--acc-red)] shrink-0" />}
@@ -639,7 +646,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                         </div>
                       </div>
                     </div>
-                    <span className="text-xs text-[var(--muted)]">⚙️</span>
+                    <IconSettings size={16} className="text-[var(--muted)]" />
                   </Link>
                 ) : (
                   <div className="grid grid-cols-2 gap-2">
@@ -670,7 +677,11 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                 className="flex w-full items-center justify-between rounded-xl border border-[var(--line)] bg-[var(--panel)] px-3.5 py-2 text-xs text-[var(--text)] transition hover:border-slate-400 cursor-pointer shadow-2xs font-semibold"
               >
                 <div className="flex items-center gap-2">
-                  <span>{theme === "dark" ? "🌙" : "☀️"}</span>
+                  {theme === "dark" ? (
+                    <IconMoon size={16} className="text-amber-400" />
+                  ) : (
+                    <IconSun size={16} className="text-amber-600" />
+                  )}
                   <span>{theme === "dark" ? t("themeDarkLabel") : t("themeLightLabel")}</span>
                 </div>
                 <span className="text-[10px] uppercase font-bold text-[var(--acc-sky)] bg-[var(--bg)] px-2 py-0.5 rounded border border-[var(--line)]">
@@ -681,7 +692,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               {/* Language Selector */}
               <div className="flex items-center justify-between rounded-xl border border-[var(--line)] bg-[var(--panel)] px-3.5 py-1.5 shadow-2xs">
                 <span className="text-xs text-[var(--muted)] font-medium flex items-center gap-1.5">
-                  <span>🌐</span>
+                  <IconGlobe size={15} className="text-[var(--muted)]" />
                   <span>{t("langChoose")}:</span>
                 </span>
                 <MobileLocaleSelect />

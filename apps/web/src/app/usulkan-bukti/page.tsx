@@ -3,6 +3,14 @@
 import { useState } from "react";
 import Link from "next/link";
 import { dataset } from "@pancasila-index/data";
+import {
+  IconScale,
+  IconInstitution,
+  IconShieldCheck,
+  IconHistory,
+  IconFilePlus,
+  IconAuditLog,
+} from "@/components/icons";
 
 export default function UsulkanBuktiPage() {
   const [formData, setFormData] = useState({
@@ -38,73 +46,67 @@ export default function UsulkanBuktiPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setLoading(true);
+    if (!formData.title || !formData.date || !formData.sourceTitle || formData.selectedDimensions.length === 0) {
+      alert("Harap lengkapi judul peristiwa, tanggal, rujukan sumber primer, dan minimal 1 dimensi terkait.");
+      return;
+    }
 
+    setLoading(true);
     try {
       const res = await fetch("/api/usulan", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          term_id: formData.termId || currentInstTerms[0]?.id,
-          dimension_id: formData.selectedDimensions[0] || "negara-hukum",
-          score: 0,
-          rationale_id: `[Usulan Publik] ${formData.title}\n\nRingkasan: ${formData.summary}\n\nSumber: ${formData.sourceTitle} (${formData.sourceCitation})\nURL: ${formData.sourceUrl}\nPengusul: ${formData.submitterName || "Anonim"} (${formData.submitterAffiliation || "-"})`,
-          evidence: [
-            {
-              source_id: "uud-nri-1945",
-              note_id: `${formData.sourceTitle} — ${formData.sourceCitation}`,
-            },
-          ],
-        }),
+        body: JSON.stringify(formData),
       });
 
-      if (res.ok) {
-        setSubmitted(true);
-      } else {
-        // Fallback for offline/local simulation
-        setSubmitted(true);
+      if (!res.ok) {
+        throw new Error("Gagal mengirimkan usulan");
       }
-    } catch {
+
       setSubmitted(true);
+    } catch (err) {
+      alert("Terjadi kesalahan saat mengirim usulan. Silakan coba lagi.");
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10">
+    <div className="mx-auto max-w-4xl px-4 py-8 sm:py-12">
       {/* Breadcrumb */}
-      <div className="flex items-center gap-2 text-xs text-[var(--muted)]">
-        <Link href="/" className="hover:text-[var(--text)]">
+      <div className="flex items-center gap-2 text-xs sm:text-sm font-semibold text-[var(--muted)] mb-6">
+        <Link href="/" className="hover:text-[var(--text)] transition">
           Beranda
         </Link>
-        <span>/</span>
-        <Link href="/peer-review" className="hover:text-[var(--text)]">
-          Peer Review
-        </Link>
-        <span>/</span>
-        <span className="text-[var(--acc-red)] font-semibold">Usulkan Bukti Baru</span>
+        <span>&rsaquo;</span>
+        <span className="text-[var(--text)]">Usulkan Bukti Primer</span>
       </div>
 
-      <div className="border-b border-[var(--line)] pb-8 mt-4">
-        <span className="text-xs uppercase tracking-widest text-[var(--acc-red)] font-semibold">
-          Repositori Publik
-        </span>
-        <h1 className="mt-2 text-3xl font-bold">Formulir Usulan Bukti Baru</h1>
-        <p className="mt-3 max-w-2xl text-sm text-[var(--muted)] leading-relaxed">
+      {/* Header */}
+      <div className="border-b border-[var(--line)] pb-8">
+        <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-500">
+          <IconFilePlus size={16} />
+          <span>Partisipasi Publik & Peer Review</span>
+        </div>
+        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[var(--text)] mt-1">
+          Usulkan Bukti Primer & Peristiwa
+        </h1>
+        <p className="mt-3 text-sm sm:text-base text-[var(--muted)] leading-relaxed max-w-2xl">
           Bantu kami memperkuat penilaian kinerja lembaga negara dengan menyumbangkan bukti primer.
           Anda dapat mengusulkan <strong>dokumen hukum negara</strong> (Putusan MK/MA, UU) maupun <strong>bukti empiris</strong> 
           berupa jurnal akademik (peer-reviewed) dan liputan jurnalistik terverifikasi.
         </p>
         <div className="mt-4 inline-flex items-center gap-2 rounded-xl bg-amber-500/10 border border-amber-500/30 px-3.5 py-1.5 text-xs text-[var(--acc-amber)]">
-          <span>⚖️</span>
+          <IconScale size={15} className="shrink-0" />
           <span>Setiap usulan wajib melalui proses telaah sejawat dua-reviewer (*two-reviewer quorum*) sebelum diterbitkan.</span>
         </div>
       </div>
 
       {submitted ? (
         <div className="mt-8 rounded-2xl border border-emerald-500/40 bg-emerald-500/10 p-6 text-center space-y-4">
-          <div className="text-4xl">✅</div>
+          <div className="size-12 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto">
+            <IconShieldCheck size={24} />
+          </div>
           <h2 className="text-xl font-bold text-emerald-400">Usulan Berhasil Dikirimkan!</h2>
           <p className="text-xs sm:text-sm text-[var(--text)] max-w-lg mx-auto leading-relaxed">
             Terima kasih atas kontribusi Anda. Bukti primer <strong>{formData.title}</strong> telah masuk ke antrean kurasi terbuka untuk diverifikasi oleh para kurator dan penelaah independen.
@@ -145,7 +147,7 @@ export default function UsulkanBuktiPage() {
           {/* Section 1: Target Organ & Masa Jabatan */}
           <div className="rounded-2xl border border-[var(--line)] bg-[var(--panel)] p-5 space-y-4">
             <h2 className="text-base font-bold flex items-center gap-2">
-              <span>🏛️</span>
+              <IconInstitution size={18} className="text-[var(--acc-sky)]" />
               <span>1. Organ Konstitusional & Periode Terkait</span>
             </h2>
 
@@ -324,13 +326,16 @@ export default function UsulkanBuktiPage() {
           {/* Section 3: Pemetaan ke 3 Pilar Konstitusi */}
           <div className="rounded-2xl border border-[var(--line)] bg-[var(--panel)] p-5 space-y-4">
             <h2 className="text-base font-bold flex items-center gap-2">
-              <span>⚖️</span>
+              <IconScale size={18} className="text-[var(--acc-red)]" />
               <span>3. Kaitan Dimensi Konstitusional (Pilih Minimal 1)</span>
             </h2>
 
             <div className="grid gap-3 sm:grid-cols-3 text-xs">
               <div className="space-y-2 rounded-xl bg-[var(--bg)] p-3 border border-[var(--line)]">
-                <div className="font-bold text-[#22c55e]">🦅 Lima Sila</div>
+                <div className="font-bold text-[#22c55e] flex items-center gap-1.5">
+                  <IconShieldCheck size={14} />
+                  <span>Lima Sila</span>
+                </div>
                 {dataset.rubric.dimensions
                   .filter((d) => d.group_id === "sila")
                   .map((dim) => (
@@ -347,7 +352,10 @@ export default function UsulkanBuktiPage() {
               </div>
 
               <div className="space-y-2 rounded-xl bg-[var(--bg)] p-3 border border-[var(--line)]">
-                <div className="font-bold text-[#38bdf8]">🏛️ Pembukaan UUD</div>
+                <div className="font-bold text-[#38bdf8] flex items-center gap-1.5">
+                  <IconInstitution size={14} />
+                  <span>Pembukaan UUD</span>
+                </div>
                 {dataset.rubric.dimensions
                   .filter((d) => d.group_id === "pembukaan")
                   .map((dim) => (
@@ -364,7 +372,10 @@ export default function UsulkanBuktiPage() {
               </div>
 
               <div className="space-y-2 rounded-xl bg-[var(--bg)] p-3 border border-[var(--line)]">
-                <div className="font-bold text-[#f59e0b]">⚖️ Norma Struktural</div>
+                <div className="font-bold text-[#f59e0b] flex items-center gap-1.5">
+                  <IconScale size={14} />
+                  <span>Norma Struktural</span>
+                </div>
                 {dataset.rubric.dimensions
                   .filter((d) => d.group_id === "struktur-uud")
                   .map((dim) => (

@@ -44,31 +44,31 @@ const PRESET_COLORS = [
 const CURATED_PRESETS = [
   {
     id: "presiden-reformasi",
-    label: "👑 Presiden Reformasi",
+    label: "Presiden Era Reformasi",
     description: "Habibie, Gus Dur, Megawati, SBY, Jokowi",
     termIds: ["presiden-habibie", "presiden-gusdur", "presiden-megawati", "presiden-sby-i", "presiden-jokowi-i"],
   },
   {
     id: "transisi-orba-reformasi",
-    label: "⚡ Transisi Orba → Reformasi",
+    label: "Transisi Orba → Reformasi",
     description: "Soeharto, Habibie, Gus Dur",
     termIds: ["presiden-soeharto", "presiden-habibie", "presiden-gusdur"],
   },
   {
     id: "lembaga-peradilan",
-    label: "⚖️ Peradilan & Etik (MK vs MA vs KY)",
+    label: "Peradilan & Etik (MK vs MA vs KY)",
     description: "MK 2003-2008, MA 1998-2008, KY 2005-2010",
     termIds: ["mk-2003-2008", "ma-1998-2008", "ky-2005-2010"],
   },
   {
     id: "parlemen-rakyat",
-    label: "🏛️ Parlemen (DPR vs DPD vs MPR)",
+    label: "Parlemen (DPR vs DPD vs MPR)",
     description: "DPR 2014-2019, DPD 2014-2019, MPR 2014-2019",
     termIds: ["dpr-2014-2019", "dpd-2014-2019", "mpr-2014-2019"],
   },
   {
     id: "orla-vs-orba",
-    label: "⏳ Orla vs Orba",
+    label: "Orde Lama vs Orde Baru",
     description: "Soekarno vs Soeharto",
     termIds: ["presiden-soekarno-1959-1966", "presiden-soeharto"],
   },

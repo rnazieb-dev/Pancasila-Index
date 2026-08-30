@@ -5,6 +5,17 @@ import { dataset, getEventsOfTerm } from "@pancasila-index/data";
 import { useLocale } from "@/components/locale-provider";
 import { InstitutionLogo } from "@/components/institution-logo";
 import {
+  IconSearch,
+  IconCompare,
+  IconTimeline,
+  IconUsers,
+  IconScale,
+  IconFilePlus,
+  IconExport,
+  IconArchive,
+  IconMethodology,
+} from "@/components/icons";
+import {
   indexLabel,
   periodLabel,
   scoreColor,
@@ -135,7 +146,7 @@ export default function Beranda() {
 
                 <div className="mt-4 pt-3 border-t border-[var(--line)] flex items-center justify-between text-xs">
                   <span className="text-[var(--muted)] font-medium text-[11px]">
-                    ⚡ {eventsCount} {t("eventsLabel")}
+                    {eventsCount} {t("eventsLabel")}
                   </span>
                   <span
                     className="rounded-md px-2 py-0.5 text-xs font-bold tabular-nums"
@@ -256,7 +267,10 @@ export default function Beranda() {
                 </div>
 
                 <div className="mt-4 pt-3 border-t border-[var(--line)] flex items-center justify-between text-[11px]">
-                  <span className="text-[var(--acc-sky)] font-semibold">📄 {ev.source_ids.length} {t("sourcesLabel")}</span>
+                  <span className="text-[var(--acc-sky)] font-semibold flex items-center gap-1">
+                    <IconArchive size={13} />
+                    <span>{ev.source_ids.length} {t("sourcesLabel")}</span>
+                  </span>
                   {term && (
                     <Link
                       href={`/lembaga/${inst?.slug ?? "presiden"}/${term.id}`}
@@ -284,8 +298,10 @@ export default function Beranda() {
             href="/cari"
             className="group rounded-xl border border-[var(--line)] bg-[var(--bg)] p-4 hover:border-slate-400 transition"
           >
-            <div className="text-lg">🔍</div>
-            <div className="mt-2 font-bold group-hover:text-[var(--acc-sky)]">{t("featSearchTitle")} (/cari)</div>
+            <div className="p-2 w-fit rounded-lg bg-[var(--panel)] border border-[var(--line)] text-[var(--acc-sky)]">
+              <IconSearch size={20} />
+            </div>
+            <div className="mt-3 font-bold group-hover:text-[var(--acc-sky)]">{t("featSearchTitle")} (/cari)</div>
             <p className="mt-1 text-xs text-[var(--muted)]">{t("featSearchDesc")}</p>
           </Link>
 
@@ -293,8 +309,10 @@ export default function Beranda() {
             href="/bandingkan"
             className="group rounded-xl border border-[var(--line)] bg-[var(--bg)] p-4 hover:border-slate-400 transition"
           >
-            <div className="text-lg">📊</div>
-            <div className="mt-2 font-bold group-hover:text-[var(--acc-sky)]">{t("featCompareTitle")} (/bandingkan)</div>
+            <div className="p-2 w-fit rounded-lg bg-[var(--panel)] border border-[var(--line)] text-[var(--acc-sky)]">
+              <IconCompare size={20} />
+            </div>
+            <div className="mt-3 font-bold group-hover:text-[var(--acc-sky)]">{t("featCompareTitle")} (/bandingkan)</div>
             <p className="mt-1 text-xs text-[var(--muted)]">{t("featCompareDesc")}</p>
           </Link>
 
@@ -302,8 +320,10 @@ export default function Beranda() {
             href="/timeline/tren"
             className="group rounded-xl border border-[var(--line)] bg-[var(--bg)] p-4 hover:border-slate-400 transition"
           >
-            <div className="text-lg">📈</div>
-            <div className="mt-2 font-bold group-hover:text-[var(--acc-sky)]">{t("featTrendTitle")} (/timeline/tren)</div>
+            <div className="p-2 w-fit rounded-lg bg-[var(--panel)] border border-[var(--line)] text-[var(--acc-sky)]">
+              <IconTimeline size={20} />
+            </div>
+            <div className="mt-3 font-bold group-hover:text-[var(--acc-sky)]">{t("featTrendTitle")} (/timeline/tren)</div>
             <p className="mt-1 text-xs text-[var(--muted)]">{t("featTrendDesc")}</p>
           </Link>
 
@@ -311,8 +331,10 @@ export default function Beranda() {
             href="/aktor"
             className="group rounded-xl border border-[var(--line)] bg-[var(--bg)] p-4 hover:border-slate-400 transition"
           >
-            <div className="text-lg">👥</div>
-            <div className="mt-2 font-bold group-hover:text-[var(--acc-sky)]">{t("featActorsTitle")} (/aktor)</div>
+            <div className="p-2 w-fit rounded-lg bg-[var(--panel)] border border-[var(--line)] text-[var(--acc-sky)]">
+              <IconUsers size={20} />
+            </div>
+            <div className="mt-3 font-bold group-hover:text-[var(--acc-sky)]">{t("featActorsTitle")} (/aktor)</div>
             <p className="mt-1 text-xs text-[var(--muted)]">{t("featActorsDesc")}</p>
           </Link>
 
@@ -320,8 +342,10 @@ export default function Beranda() {
             href="/landasan-uud"
             className="group rounded-xl border border-[var(--line)] bg-[var(--bg)] p-4 hover:border-slate-400 transition"
           >
-            <div className="text-lg">📜</div>
-            <div className="mt-2 font-bold group-hover:text-[var(--acc-sky)]">{t("featUudTitle")} (/landasan-uud)</div>
+            <div className="p-2 w-fit rounded-lg bg-[var(--panel)] border border-[var(--line)] text-[var(--acc-sky)]">
+              <IconScale size={20} />
+            </div>
+            <div className="mt-3 font-bold group-hover:text-[var(--acc-sky)]">{t("featUudTitle")} (/landasan-uud)</div>
             <p className="mt-1 text-xs text-[var(--muted)]">{t("featUudDesc")}</p>
           </Link>
 
@@ -329,8 +353,10 @@ export default function Beranda() {
             href="/usulkan-bukti"
             className="group rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-4 hover:border-emerald-400 transition"
           >
-            <div className="text-lg">⚖️</div>
-            <div className="mt-2 font-bold text-emerald-400">{t("featProposeTitle")} (/usulkan-bukti)</div>
+            <div className="p-2 w-fit rounded-lg bg-[var(--panel)] border border-emerald-500/30 text-emerald-500">
+              <IconFilePlus size={20} />
+            </div>
+            <div className="mt-3 font-bold text-emerald-400">{t("featProposeTitle")} (/usulkan-bukti)</div>
             <p className="mt-1 text-xs text-[var(--muted)]">{t("featProposeDesc")}</p>
           </Link>
 
@@ -338,8 +364,10 @@ export default function Beranda() {
             href="/timeline"
             className="group rounded-xl border border-[var(--line)] bg-[var(--bg)] p-4 hover:border-slate-400 transition"
           >
-            <div className="text-lg">⏳</div>
-            <div className="mt-2 font-bold group-hover:text-[var(--acc-sky)]">{t("navTimeline")} (/timeline)</div>
+            <div className="p-2 w-fit rounded-lg bg-[var(--panel)] border border-[var(--line)] text-[var(--acc-sky)]">
+              <IconTimeline size={20} />
+            </div>
+            <div className="mt-3 font-bold group-hover:text-[var(--acc-sky)]">{t("navTimeline")} (/timeline)</div>
             <p className="mt-1 text-xs text-[var(--muted)]">
               Kronologi penilaian lintas cabang eksekutif, legislatif, yudikatif, dan eksaminatif dari 1945 s/d kini.
             </p>
@@ -349,8 +377,10 @@ export default function Beranda() {
             href="/ekspor"
             className="group rounded-xl border border-[var(--line)] bg-[var(--bg)] p-4 hover:border-slate-400 transition"
           >
-            <div className="text-lg">📥</div>
-            <div className="mt-2 font-bold group-hover:text-[var(--acc-sky)]">{t("featExportTitle")} (/ekspor)</div>
+            <div className="p-2 w-fit rounded-lg bg-[var(--panel)] border border-[var(--line)] text-[var(--acc-sky)]">
+              <IconExport size={20} />
+            </div>
+            <div className="mt-3 font-bold group-hover:text-[var(--acc-sky)]">{t("featExportTitle")} (/ekspor)</div>
             <p className="mt-1 text-xs text-[var(--muted)]">{t("featExportDesc")}</p>
           </Link>
         </div>

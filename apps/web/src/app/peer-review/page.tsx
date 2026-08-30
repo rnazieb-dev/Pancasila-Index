@@ -1,4 +1,10 @@
 import Link from "next/link";
+import {
+  IconScale,
+  IconInstitution,
+  IconShieldCheck,
+  IconAuditLog,
+} from "@/components/icons";
 
 export default function PeerReviewPage() {
   return (
@@ -21,30 +27,35 @@ export default function PeerReviewPage() {
       <section className="mt-10 grid gap-4 sm:grid-cols-3">
         {[
           {
-            icon: "⚖️",
+            icon: IconScale,
             title: "Kenetralan & Keadilan",
             desc: "Setiap kontributor wajib mendeklarasikan bahwa tidak ada konflik kepentingan personal, politik, atau finansial terhadap lembaga/peristiwa yang dinilai.",
           },
           {
-            icon: "🏛️",
+            icon: IconInstitution,
             title: "Transparansi Afiliasi",
             desc: "Nama institusi dan jabatan akademis/profesional kontributor dipublikasikan secara terbuka bersama setiap usulan yang diterima.",
           },
           {
-            icon: "💰",
+            icon: IconShieldCheck,
             title: "Keterbukaan Funding",
             desc: "Sumber pendanaan riset yang berkaitan wajib diungkapkan. Usulan dari pihak yang memiliki hubungan finansial langsung dengan organ yang dinilai akan ditandai secara khusus.",
           },
-        ].map((p) => (
-          <div
-            key={p.title}
-            className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 space-y-2"
-          >
-            <div className="text-2xl">{p.icon}</div>
-            <h3 className="font-bold text-sm text-[var(--text)]">{p.title}</h3>
-            <p className="text-xs text-[var(--muted)] leading-relaxed">{p.desc}</p>
-          </div>
-        ))}
+        ].map((p) => {
+          const Icon = p.icon;
+          return (
+            <div
+              key={p.title}
+              className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 space-y-3"
+            >
+              <div className="p-2 w-fit rounded-lg bg-[var(--bg)] border border-[var(--line)] text-[var(--acc-sky)]">
+                <Icon size={20} />
+              </div>
+              <h3 className="font-bold text-sm text-[var(--text)]">{p.title}</h3>
+              <p className="text-xs text-[var(--muted)] leading-relaxed">{p.desc}</p>
+            </div>
+          );
+        })}
       </section>
 
       {/* Alur Review */}

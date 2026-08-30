@@ -3,24 +3,35 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { dataset } from "@pancasila-index/data";
+import {
+  IconArchive,
+  IconGlobe,
+  IconHistory,
+  IconInstitution,
+  IconScale,
+  IconFilePlus,
+  IconAuditLog,
+  IconSearch,
+  IconShieldCheck,
+} from "@/components/icons";
 
 type SourceItem = (typeof dataset.sources)[number];
 
 interface ClusterDef {
   label: string;
-  icon: string;
+  icon: React.ComponentType<{ size?: number; className?: string }>;
   match: (src: SourceItem) => boolean;
 }
 
 const CLUSTERS: Record<string, ClusterDef> = {
   all: {
     label: "Semua Dokumen",
-    icon: "📚",
+    icon: IconArchive,
     match: () => true,
   },
   oposisi: {
     label: "Oposisi & Rekonsiliasi",
-    icon: "⚡",
+    icon: IconShieldCheck,
     match: (s: SourceItem) =>
       s.id.includes("nii") ||
       s.id.includes("pki") ||
@@ -41,7 +52,7 @@ const CLUSTERS: Record<string, ClusterDef> = {
   },
   internasional: {
     label: "Repositori Internasional",
-    icon: "🌐",
+    icon: IconGlobe,
     match: (s: SourceItem) =>
       s.id.startsWith("nanl-") ||
       s.id.startsWith("iisg-") ||
@@ -57,7 +68,7 @@ const CLUSTERS: Record<string, ClusterDef> = {
   },
   anri: {
     label: "Khazanah ANRI & PPKI",
-    icon: "🏛️",
+    icon: IconArchive,
     match: (s: SourceItem) =>
       s.type === "arsip-nasional" &&
       !s.id.startsWith("nanl-") &&
@@ -67,27 +78,27 @@ const CLUSTERS: Record<string, ClusterDef> = {
   },
   uu: {
     label: "Undang-Undang (UU)",
-    icon: "📜",
+    icon: IconHistory,
     match: (s: SourceItem) => s.type === "undang-undang" || s.type === "perppu",
   },
   mpr: {
     label: "Ketetapan & Risalah MPR",
-    icon: "🏛️",
+    icon: IconInstitution,
     match: (s: SourceItem) => s.type === "dokumen-mpr",
   },
   mk: {
     label: "Putusan Mahkamah Konstitusi",
-    icon: "⚖️",
+    icon: IconScale,
     match: (s: SourceItem) => s.type === "putusan-mk",
   },
   ma: {
     label: "Putusan Mahkamah Agung",
-    icon: "⚖️",
+    icon: IconScale,
     match: (s: SourceItem) => s.type === "putusan-ma",
   },
   keppres: {
     label: "Keppres / Dekrit",
-    icon: "📑",
+    icon: IconAuditLog,
     match: (s: SourceItem) => s.type === "keppres",
   },
 };
@@ -100,7 +111,7 @@ export default function ArsipPage() {
 
   const filteredSources = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
-    const activeCluster: ClusterDef = CLUSTERS[selectedCluster] ?? CLUSTERS.all ?? { label: "Semua", icon: "📚", match: () => true };
+    const activeCluster: ClusterDef = CLUSTERS[selectedCluster] ?? CLUSTERS.all ?? { label: "Semua", icon: IconArchive, match: () => true };
 
     return sources.filter((src) => {
       if (!activeCluster.match(src)) {
@@ -156,7 +167,7 @@ export default function ArsipPage() {
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
             <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[var(--acc-sky)]">
-              <span>🏛️</span>
+              <IconArchive size={16} />
               <span>Arsip Nasional (ANRI), Repositori Internasional & Dokumen Oposisi</span>
             </div>
             <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[var(--text)] mt-1">
@@ -204,6 +215,7 @@ export default function ArsipPage() {
           {Object.entries(CLUSTERS).map(([clusterKey, config]) => {
             const isActive = selectedCluster === clusterKey;
             const count = sources.filter((s) => config.match(s)).length;
+            const Icon = config.icon;
 
             if (count === 0 && clusterKey !== "all") return null;
 
@@ -217,7 +229,7 @@ export default function ArsipPage() {
                     : "bg-[var(--panel)] border border-[var(--line)] text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400"
                 }`}
               >
-                <span>{config.icon}</span>
+                <Icon size={14} className="shrink-0" />
                 <span>{config.label}</span>
                 <span className="opacity-70 text-[10px]">({count})</span>
               </button>
@@ -291,7 +303,7 @@ export default function ArsipPage() {
                     {repoBadge && (
                       <div className="pt-1">
                         <span className={`inline-block text-[10px] font-semibold px-2 py-0.5 rounded border ${repoBadge.color}`}>
-                          📍 {repoBadge.name}
+                          {repoBadge.name}
                         </span>
                       </div>
                     )}
@@ -328,7 +340,8 @@ export default function ArsipPage() {
       {/* Standar Verifikasi Arsip */}
       <div className="mt-14 p-6 rounded-2xl border border-[var(--line)] bg-[var(--panel)] space-y-3">
         <h3 className="text-base font-bold text-[var(--text)] flex items-center gap-2">
-          <span>🏛️</span> Standar Validasi Dokumen Primer & Khazanah Oposisi
+          <IconInstitution size={18} className="text-[var(--acc-sky)]" />
+          <span>Standar Validasi Dokumen Primer & Khazanah Oposisi</span>
         </h3>
         <p className="text-xs sm:text-sm text-[var(--muted)] leading-relaxed">
           Pancasila Index memegang prinsip integritas historiografi ilmiah: menilai kesetiaan konstitusi tidak hanya dari narasi pemenang kekuasaan, melainkan juga menelaah naskah perlawanan dan konsensus rekonsiliasi yang tersimpan dalam arsip nasional dan perpustakaan internasional independen (Nationaal Archief Den Haag, IISG Amsterdam, KITLV Leiden, PBB, dan CMI Helsinki).

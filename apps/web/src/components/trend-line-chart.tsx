@@ -264,21 +264,21 @@ export function TrendLineChart({ points, activeSeries }: TrendLineChartProps) {
               </div>
 
               <div className="rounded-lg bg-[var(--bg)] p-2 border border-[var(--line)]">
-                <div className="text-[10px] text-[#22c55e]">🦅 Lima Sila</div>
+                <div className="text-[10px] text-[#22c55e] font-semibold">Lima Sila</div>
                 <div className="font-bold text-sm tabular-nums">
                   {hoveredPoint.sila !== null ? `${hoveredPoint.sila}/100` : "-"}
                 </div>
               </div>
 
               <div className="rounded-lg bg-[var(--bg)] p-2 border border-[var(--line)]">
-                <div className="text-[10px] text-[#38bdf8]">🏛️ Pembukaan UUD</div>
+                <div className="text-[10px] text-[#38bdf8] font-semibold">Pembukaan UUD</div>
                 <div className="font-bold text-sm tabular-nums">
                   {hoveredPoint.pembukaan !== null ? `${hoveredPoint.pembukaan}/100` : "-"}
                 </div>
               </div>
 
               <div className="rounded-lg bg-[var(--bg)] p-2 border border-[var(--line)]">
-                <div className="text-[10px] text-[#f59e0b]">⚖️ Norma Struktural</div>
+                <div className="text-[10px] text-[#f59e0b] font-semibold">Norma Struktural</div>
                 <div className="font-bold text-sm tabular-nums">
                   {hoveredPoint["struktur-uud"] !== null ? `${hoveredPoint["struktur-uud"]}/100` : "-"}
                 </div>

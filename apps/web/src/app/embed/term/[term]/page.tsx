@@ -84,21 +84,21 @@ export default async function EmbedTermPage({
       {/* 3-Pillar Splitter Badges */}
       <div className="mt-4 grid grid-cols-3 gap-2 text-center text-xs">
         <div className="rounded-xl bg-[var(--bg)] p-2 border border-[var(--line)]">
-          <div className="text-[10px] text-[#22c55e] font-bold">🦅 Sila</div>
+          <div className="text-[10px] text-[#22c55e] font-bold">Pancasila</div>
           <div className="font-extrabold text-sm tabular-nums mt-0.5">
             {gSila && gSila.coverage > 0 ? `${Math.round(((gSila.score + 2) / 4) * 100)}` : "-"}
           </div>
         </div>
 
         <div className="rounded-xl bg-[var(--bg)] p-2 border border-[var(--line)]">
-          <div className="text-[10px] text-[#38bdf8] font-bold">🏛️ Pembukaan</div>
+          <div className="text-[10px] text-[#38bdf8] font-bold">Pembukaan</div>
           <div className="font-extrabold text-sm tabular-nums mt-0.5">
             {gPembukaan && gPembukaan.coverage > 0 ? `${Math.round(((gPembukaan.score + 2) / 4) * 100)}` : "-"}
           </div>
         </div>
 
         <div className="rounded-xl bg-[var(--bg)] p-2 border border-[var(--line)]">
-          <div className="text-[10px] text-[#f59e0b] font-bold">⚖️ Norma UUD</div>
+          <div className="text-[10px] text-[#f59e0b] font-bold">Norma UUD</div>
           <div className="font-extrabold text-sm tabular-nums mt-0.5">
             {gStrukturUud && gStrukturUud.coverage > 0 ? `${Math.round(((gStrukturUud.score + 2) / 4) * 100)}` : "-"}
           </div>
