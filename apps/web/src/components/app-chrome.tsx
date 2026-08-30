@@ -335,11 +335,9 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
           {/* Logo */}
           <Link
             href="/"
-            className="shrink-0 whitespace-nowrap text-base sm:text-lg font-extrabold tracking-tight flex items-center gap-1"
+            className="shrink-0 font-bold tracking-tight text-base sm:text-lg"
           >
-            <span>Pancasila</span>
-            <span className="text-[var(--acc-red)]">·</span>
-            <span>Index</span>
+            Pancasila<span className="text-[var(--acc-red)]">·</span>Index
           </Link>
 
           {/* Nav Desktop */}
