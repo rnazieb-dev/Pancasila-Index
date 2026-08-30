@@ -413,21 +413,6 @@
     - kedaulatan-rakyat
     - sila-4
     - negara-hukum
-- id: ev-mk-putusan-netralitas-tni-polri-2024
-  term_id: mk-2023-sekarang
-  date: 2024-11-14
-  category: pengadilan
-  title_id: Putusan MK No. 136/PUU-XXII/2024 Menegaskan Sanksi Pidana Netralitas
-    Aparat dalam Pilkada
-  summary_id: MK memasukkan frasa TNI, Polri, dan pejabat daerah dalam Pasal 188
-    UU Pilkada yang dapat dipidana jika membuat keputusan yang menguntungkan
-    salah satu paslon.
-  source_ids:
-    - putusan-mk-136-puu-xxii-2024
-  dimension_ids:
-    - negara-hukum
-    - kedaulatan-rakyat
-    - sila-2
 - id: ev-dpd-posisi-ruu-masyarakat-adat-2025
   term_id: dpd-2024-sekarang
   date: 2025-02-10
@@ -603,3 +588,4 @@
   dimension_ids:
     - sila-4
     - negara-hukum
+

@@ -342,20 +342,6 @@
   dimension_ids:
     - tujuan-1
     - sila-3
-- id: ev-tap-mprs-pencabutan-kekuasaan-sukarno-1967
-  term_id: presiden-soeharto
-  date: 1967-03-12
-  category: produk-hukum
-  title_id: TAP MPRS No. XXXIII/MPRS/1967 Pencabutan Kekuasaan Presiden Sukarno
-  summary_id: Sidang Istimewa MPRS mencabut kekuasaan pemerintahan negara dari
-    Presiden Sukarno setelah menolak pertanggungjawaban Nawaksara, serta
-    mengangkat Jenderal Soeharto sebagai Pejabat Presiden RI hingga
-    terselenggaranya pemilihan umum.
-  source_ids:
-    - tap-mprs-xxxiii-1967
-  dimension_ids:
-    - checks-balances
-    - negara-hukum
 - id: ev-tap-mprs-pengangkatan-soeharto-1968
   term_id: presiden-soeharto
   date: 1968-03-27
@@ -400,22 +386,6 @@
   dimension_ids:
     - kedaulatan-rakyat
     - sila-4
-- id: ev-uu-asas-tunggal-pancasila-1985
-  term_id: presiden-soeharto
-  date: 1985-06-17
-  category: produk-hukum
-  title_id: Pengesahan UU No. 3/1985 & UU No. 8/1985 tentang Kewajiban Asas
-    Tunggal Pancasila
-  summary_id: Pemerintah dan DPR mewajibkan seluruh partai politik dan organisasi
-    kemasyarakatan (Ormas) mencantumkan Pancasila sebagai satu-satunya asas
-    organisasi, menyeragamkan orientasi ideologis ormas keagamaan dan kepemudaan
-    demi menjaga stabilitas nasional.
-  source_ids:
-    - uu-3-1985
-    - uu-8-1985
-  dimension_ids:
-    - sila-3
-    - kedaulatan-rakyat
 - id: ev-keppres-pembentukan-komnas-ham-1993
   term_id: presiden-soeharto
   date: 1993-06-07
@@ -602,3 +572,4 @@
   dimension_ids:
     - tujuan-2
     - sila-5
+

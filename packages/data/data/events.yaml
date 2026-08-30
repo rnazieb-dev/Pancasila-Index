@@ -1,12 +1,3 @@
-# ============================================================
-# PERISTIWA & KEBIJAKAN — naratif lengkap 1945-sekarang
-# ============================================================
-# Gaya penulisan: prosa sejarah yang tajam dan berdetail - tanggal,
-# aktor, angka, akibat. Setiap entri wajib merujuk sumber di
-# sources.yaml.
-
-# ------------------------- PRESIDEN HABIBIE -------------------------
-
 - id: ev-habibie-tap-xvii
   term_id: presiden-habibie
   date: "1998-11"
@@ -2724,17 +2715,6 @@
   source_ids: [tap-mprs-xxxiii-1967]
   dimension_ids: [checks-balances, kedaulatan-rakyat]
 
-- id: ev-dpr-uu-kpk-2002
-  term_id: dpr-1999-2004
-  date: "2002-12-27"
-  category: produk-hukum
-  title_id: Pengesahan UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Korupsi (KPK)
-  summary_id: >-
-    DPR bersama Pemerintah mengesahkan UU KPK sebagai lembaga negara independen pemicu (trigger mechanism)
-    untuk memberantas korupsi yang terstruktur, sistematis, dan masif pasca-Reformasi.
-  source_ids: [uu-30-2002]
-  dimension_ids: [negara-hukum, checks-balances]
-
 - id: ev-dpr-uu-kip-2008
   term_id: dpr-2004-2009
   date: "2008-04-30"
@@ -2745,17 +2725,6 @@
     dan mewajibkan seluruh badan publik menyelenggarakan tata kelola yang transparan dan akuntabel.
   source_ids: [uu-14-2008]
   dimension_ids: [kedaulatan-rakyat, sila-4]
-
-- id: ev-mk-putusan-91-ciptaker
-  term_id: mk-2018-2023
-  date: "2021-11-25"
-  category: pengadilan
-  title_id: Putusan MK No. 91/PUU-XVIII/2020 UU Cipta Kerja Inkonstitusional Bersyarat
-  summary_id: >-
-    Mahkamah Konstitusi memutuskan pembentukan UU Cipta Kerja bertentangan dengan UUD 1945 karena cacat formil
-    dalam asas pembentukan peraturan dan minim partisipasi publik yang bermakna (meaningful participation).
-  source_ids: [putusan-mk-91-puu-xviii-2020]
-  dimension_ids: [negara-hukum, checks-balances]
 
 - id: ev-mk-putusan-90-capres
   term_id: mk-2018-2023
@@ -2815,28 +2784,6 @@
   subject_basis_id: >-
     Objek pemeriksaan LHP adalah penetapan bank gagal berdampak sistemik dan pemberian FPJP Bank Century
     pada November 2008, yang jatuh di dalam masa jabatan ini.
-
-- id: ev-ma-putusan-23-pilkada
-  term_id: ma-reformasi-sekarang
-  date: "2024-05-29"
-  category: pengadilan
-  title_id: Putusan MA No. 23 P/HUM/2024 Mengubah Titik Hitung Usia Calon Kepala Daerah
-  summary_id: >-
-    MA mengabulkan permohonan hak uji materiil terhadap PKPU No. 9 Tahun 2020 dengan menyatakan syarat usia minimum
-    calon kepala daerah dihitung sejak pelantikan pasangan calon terpilih, bukan saat penetapan paslon.
-  source_ids: [putusan-ma-23-p-hum-2024]
-  dimension_ids: [negara-hukum, checks-balances]
-
-- id: ev-mk-putusan-14-pemilu-serentak
-  term_id: mk-2013-2018
-  date: "2014-01-23"
-  category: pengadilan
-  title_id: Putusan MK No. 14/PUU-XI/2013 Kewajiban Pemilu Serentak 5 Kotak Mulai 2019
-  summary_id: >-
-    MK memutuskan bahwa pemisahan pemilu legislatif dan pemilu presiden bertentangan dengan UUD 1945,
-    dan mewajibkan pemilihan umum diselenggarakan secara serentak mulai Pemilu 2019 guna memperkuat sistem presidensial.
-  source_ids: [putusan-mk-14-puu-xi-2013]
-  dimension_ids: [kedaulatan-rakyat, sila-4]
 
 - id: ev-dpr-uu-pemilu-7-2017
   term_id: dpr-2014-2019
@@ -2914,4 +2861,5 @@
     melibatkan rekam jejak integritas KPK, PPATK, dan masukan masyarakat sipil untuk diusulkan ke DPR RI.
   source_ids: [laporan-seleksi-ha-ky-2021]
   dimension_ids: [checks-balances, negara-hukum]
+
 

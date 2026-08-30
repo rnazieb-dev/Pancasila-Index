@@ -931,19 +931,6 @@
   dimension_ids:
     - tujuan-4
     - sila-3
-- id: ev-mk-putusan-calon-perseorangan-2007
-  term_id: mk-2003-2008
-  date: 2007-07-23
-  category: pengadilan
-  title_id: Putusan MK No. 5/PUU-V/2007 Membuka Ruang Calon Perseorangan dalam Pilkada
-  summary_id: MK memutus bahwa warga negara berhak mencalonkan diri sebagai kepala
-    daerah secara independen tanpa harus diusung partai politik.
-  source_ids:
-    - putusan-mk-5-puu-v-2007
-  dimension_ids:
-    - kedaulatan-rakyat
-    - sila-4
-    - negara-hukum
 - id: ev-mk-putusan-ktp-pemilu-2009
   term_id: mk-2008-2013
   date: 2009-07-06
@@ -1380,3 +1367,4 @@
     - checks-balances
     - negara-hukum
     - kedaulatan-rakyat
+

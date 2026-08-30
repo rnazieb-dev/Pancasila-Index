@@ -7782,22 +7782,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-dpr-uu-kpk-2002",
-      "term_id": "dpr-1999-2004",
-      "date": "2002-12-27",
-      "category": "produk-hukum",
-      "title_id": "Pengesahan UU No. 30 Tahun 2002 tentang Komisi Pemberantasan Korupsi (KPK)",
-      "summary_id": "DPR bersama Pemerintah mengesahkan UU KPK sebagai lembaga negara independen pemicu (trigger mechanism) untuk memberantas korupsi yang terstruktur, sistematis, dan masif pasca-Reformasi.",
-      "source_ids": [
-        "uu-30-2002"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "checks-balances"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-dpr-uu-kip-2008",
       "term_id": "dpr-2004-2009",
       "date": "2008-04-30",
@@ -7810,22 +7794,6 @@
       "dimension_ids": [
         "kedaulatan-rakyat",
         "sila-4"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mk-putusan-91-ciptaker",
-      "term_id": "mk-2018-2023",
-      "date": "2021-11-25",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 91/PUU-XVIII/2020 UU Cipta Kerja Inkonstitusional Bersyarat",
-      "summary_id": "Mahkamah Konstitusi memutuskan pembentukan UU Cipta Kerja bertentangan dengan UUD 1945 karena cacat formil dalam asas pembentukan peraturan dan minim partisipasi publik yang bermakna (meaningful participation).",
-      "source_ids": [
-        "putusan-mk-91-puu-xviii-2020"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "checks-balances"
       ],
       "actor_ids": []
     },
@@ -7910,38 +7878,6 @@
       "actor_ids": [],
       "subject_term_id": "presiden-sby-i",
       "subject_basis_id": "Objek pemeriksaan LHP adalah penetapan bank gagal berdampak sistemik dan pemberian FPJP Bank Century pada November 2008, yang jatuh di dalam masa jabatan ini."
-    },
-    {
-      "id": "ev-ma-putusan-23-pilkada",
-      "term_id": "ma-reformasi-sekarang",
-      "date": "2024-05-29",
-      "category": "pengadilan",
-      "title_id": "Putusan MA No. 23 P/HUM/2024 Mengubah Titik Hitung Usia Calon Kepala Daerah",
-      "summary_id": "MA mengabulkan permohonan hak uji materiil terhadap PKPU No. 9 Tahun 2020 dengan menyatakan syarat usia minimum calon kepala daerah dihitung sejak pelantikan pasangan calon terpilih, bukan saat penetapan paslon.",
-      "source_ids": [
-        "putusan-ma-23-p-hum-2024"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "checks-balances"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mk-putusan-14-pemilu-serentak",
-      "term_id": "mk-2013-2018",
-      "date": "2014-01-23",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 14/PUU-XI/2013 Kewajiban Pemilu Serentak 5 Kotak Mulai 2019",
-      "summary_id": "MK memutuskan bahwa pemisahan pemilu legislatif dan pemilu presiden bertentangan dengan UUD 1945, dan mewajibkan pemilihan umum diselenggarakan secara serentak mulai Pemilu 2019 guna memperkuat sistem presidensial.",
-      "source_ids": [
-        "putusan-mk-14-puu-xi-2013"
-      ],
-      "dimension_ids": [
-        "kedaulatan-rakyat",
-        "sila-4"
-      ],
-      "actor_ids": []
     },
     {
       "id": "ev-dpr-uu-pemilu-7-2017",
@@ -9347,22 +9283,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-tap-mprs-pencabutan-kekuasaan-sukarno-1967",
-      "term_id": "presiden-soeharto",
-      "date": "1967-03-12",
-      "category": "produk-hukum",
-      "title_id": "TAP MPRS No. XXXIII/MPRS/1967 Pencabutan Kekuasaan Presiden Sukarno",
-      "summary_id": "Sidang Istimewa MPRS mencabut kekuasaan pemerintahan negara dari Presiden Sukarno setelah menolak pertanggungjawaban Nawaksara, serta mengangkat Jenderal Soeharto sebagai Pejabat Presiden RI hingga terselenggaranya pemilihan umum.",
-      "source_ids": [
-        "tap-mprs-xxxiii-1967"
-      ],
-      "dimension_ids": [
-        "checks-balances",
-        "negara-hukum"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-tap-mprs-pengangkatan-soeharto-1968",
       "term_id": "presiden-soeharto",
       "date": "1968-03-27",
@@ -9407,23 +9327,6 @@
       "dimension_ids": [
         "kedaulatan-rakyat",
         "sila-4"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-uu-asas-tunggal-pancasila-1985",
-      "term_id": "presiden-soeharto",
-      "date": "1985-06-17",
-      "category": "produk-hukum",
-      "title_id": "Pengesahan UU No. 3/1985 & UU No. 8/1985 tentang Kewajiban Asas Tunggal Pancasila",
-      "summary_id": "Pemerintah dan DPR mewajibkan seluruh partai politik dan organisasi kemasyarakatan (Ormas) mencantumkan Pancasila sebagai satu-satunya asas organisasi, menyeragamkan orientasi ideologis ormas keagamaan dan kepemudaan demi menjaga stabilitas nasional.",
-      "source_ids": [
-        "uu-3-1985",
-        "uu-8-1985"
-      ],
-      "dimension_ids": [
-        "sila-3",
-        "kedaulatan-rakyat"
       ],
       "actor_ids": []
     },
@@ -9653,22 +9556,6 @@
       ],
       "dimension_ids": [
         "sila-2",
-        "negara-hukum"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-tap-mpr-xi-1998-anti-kkn",
-      "term_id": "mpr-1971-1999",
-      "date": "1998-11-13",
-      "category": "produk-hukum",
-      "title_id": "TAP MPR No. XI/MPR/1998 tentang Penyelenggara Negara Bersih dan Bebas KKN",
-      "summary_id": "MPR menetapkan landasan yuridis pemberantasan korupsi, kolusi, dan nepotisme, mewajibkan pemeriksaan kekayaan pejabat publik, dan mengamanatkan penuntasan dugaan korupsi mantan Presiden Soeharto dan kroni-kroninya.",
-      "source_ids": [
-        "tap-mpr-xi-1998"
-      ],
-      "dimension_ids": [
-        "checks-balances",
         "negara-hukum"
       ],
       "actor_ids": []
@@ -10078,22 +9965,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-tap-mpr-ham-1998",
-      "term_id": "mpr-1971-1999",
-      "date": "1998-11-13",
-      "category": "produk-hukum",
-      "title_id": "TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia (Piagam HAM Indonesia)",
-      "summary_id": "MPR menetapkan Piagam Hak Asasi Manusia Indonesia yang memuat 44 pasal perlindungan hak-hak sipil, politik, ekonomi, sosial, dan budaya, yang kemudian menjadi cikal bakal materi muatan Bab XA (Pasal 28A–28J) Perubahan Kedua UUD 1945.",
-      "source_ids": [
-        "tap-mpr-xvii-1998"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "sila-2"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-uu-otonomi-daerah-1999",
       "term_id": "presiden-habibie",
       "date": "1999-05-07",
@@ -10107,22 +9978,6 @@
       "dimension_ids": [
         "tujuan-2",
         "sila-5"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-uu-tpu-ppatk-2002",
-      "term_id": "dpr-1999-2004",
-      "date": "2002-04-17",
-      "category": "produk-hukum",
-      "title_id": "Pengesahan UU No. 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang dan Pembentukan PPATK",
-      "summary_id": "DPR dan Pemerintah mengesahkan landasan hukum rezim anti-pencucian uang Indonesia serta membentuk Pusat Pelaporan dan Analisis Transaksi Keuangan (PPATK) guna melacak aliran dana hasil kejahatan, korupsi, dan pendanaan terorisme lintas batas (follow the money).",
-      "source_ids": [
-        "uu-15-2002"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "checks-balances"
       ],
       "actor_ids": []
     },
@@ -10290,22 +10145,6 @@
       "dimension_ids": [
         "checks-balances",
         "negara-hukum"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-habibie-uu-persaingan-usaha",
-      "term_id": "presiden-habibie",
-      "date": "1999-03-05",
-      "category": "produk-hukum",
-      "title_id": "Pengesahan UU No. 5/1999 tentang Larangan Praktik Monopoli dan Persaingan Usaha Tidak Sehat",
-      "summary_id": "Presiden Habibie mengesahkan UU Anti Monopoli dan membentuk KPPU guna mengakhiri kronisme ekonomi dan konglomerasi tertutup era Orba.",
-      "source_ids": [
-        "uu-5-1999"
-      ],
-      "dimension_ids": [
-        "sila-5",
-        "tujuan-2"
       ],
       "actor_ids": []
     },
@@ -11626,23 +11465,6 @@
       "dimension_ids": [
         "tujuan-4",
         "sila-3"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mk-putusan-calon-perseorangan-2007",
-      "term_id": "mk-2003-2008",
-      "date": "2007-07-23",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 5/PUU-V/2007 Membuka Ruang Calon Perseorangan dalam Pilkada",
-      "summary_id": "MK memutus bahwa warga negara berhak mencalonkan diri sebagai kepala daerah secara independen tanpa harus diusung partai politik.",
-      "source_ids": [
-        "putusan-mk-5-puu-v-2007"
-      ],
-      "dimension_ids": [
-        "kedaulatan-rakyat",
-        "sila-4",
-        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -14068,23 +13890,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-mk-putusan-penghayat-kepercayaan-2017",
-      "term_id": "mk-2013-2018",
-      "date": "2017-11-07",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 97/PUU-XIV/2016 Mengakui Kolom Agama Bagi Penghayat Kepercayaan",
-      "summary_id": "MK memutus bahwa penganut penghayat kepercayaan berhak mencantumkan kepercayaannya pada kolom agama KTP dan KK tanpa diskriminasi.",
-      "source_ids": [
-        "putusan-mk-97-puu-xiv-2016"
-      ],
-      "dimension_ids": [
-        "sila-1",
-        "sila-2",
-        "negara-hukum"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-mk-putusan-praperadilan-2015",
       "term_id": "mk-2013-2018",
       "date": "2015-04-28",
@@ -15203,23 +15008,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-mk-putusan-netralitas-tni-polri-2024",
-      "term_id": "mk-2023-sekarang",
-      "date": "2024-11-14",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 136/PUU-XXII/2024 Menegaskan Sanksi Pidana Netralitas Aparat dalam Pilkada",
-      "summary_id": "MK memasukkan frasa TNI, Polri, dan pejabat daerah dalam Pasal 188 UU Pilkada yang dapat dipidana jika membuat keputusan yang menguntungkan salah satu paslon.",
-      "source_ids": [
-        "putusan-mk-136-puu-xxii-2024"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "kedaulatan-rakyat",
-        "sila-2"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-dpd-posisi-ruu-masyarakat-adat-2025",
       "term_id": "dpd-2024-sekarang",
       "date": "2025-02-10",
@@ -15617,9 +15405,9 @@
       "year": 2005,
       "url": "https://www.cmi.fi/wp-content/uploads/sites/2/2010/02/MOU_ACEH1.pdf",
       "citation_id": "Memorandum of Understanding Helsinki, Crisis Management Initiative",
-      "r2_key": "v2/sejarah/mou-helsinki-2005.html",
-      "archive_url": "https://www.pancasila.site/api/arsip/v2/sejarah/mou-helsinki-2005.html",
-      "resolved_url": "https://www.pancasila.site/api/arsip/v2/sejarah/mou-helsinki-2005.html"
+      "r2_key": "v2/sejarah/mou-helsinki-2005.pdf",
+      "archive_url": "https://www.pancasila.site/api/arsip/v2/sejarah/mou-helsinki-2005.pdf",
+      "resolved_url": "https://www.pancasila.site/api/arsip/v2/sejarah/mou-helsinki-2005.pdf"
     },
     {
       "id": "uu-11-2006",
@@ -15731,9 +15519,9 @@
       "title_id": "Putusan MK No. 73/PUU-XII/2014 (memulihkan pilkada langsung)",
       "year": 2014,
       "url": "https://putusan3.mkri.id",
-      "r2_key": "v2/putusan/putusan-mk-73-2014.html",
-      "archive_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-73-2014.html",
-      "resolved_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-73-2014.html"
+      "r2_key": "v2/putusan/putusan-mk-73-2014.pdf",
+      "archive_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-73-2014.pdf",
+      "resolved_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-73-2014.pdf"
     },
     {
       "id": "inpres-10-2011",
@@ -15831,9 +15619,9 @@
       "title_id": "Putusan MK No. 91/PUU-XVIII/2020 (UU Cipta Kerja inkonstitusional bersyarat)",
       "year": 2021,
       "url": "https://putusan3.mkri.id",
-      "r2_key": "v2/putusan/putusan-mk-91-2021.html",
-      "archive_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-91-2021.html",
-      "resolved_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-91-2021.html"
+      "r2_key": "v2/putusan/putusan-mk-91-2021.pdf",
+      "archive_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-91-2021.pdf",
+      "resolved_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-91-2021.pdf"
     },
     {
       "id": "perppu-2-2022",
@@ -15914,9 +15702,9 @@
       "title_id": "Putusan MK No. 90/PUU-XI/2023 (batas usia calon presiden/wakil presiden)",
       "year": 2023,
       "url": "https://putusan3.mkri.id",
-      "r2_key": "v2/putusan/putusan-mk-90-2023.html",
-      "archive_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-90-2023.html",
-      "resolved_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-90-2023.html"
+      "r2_key": "v2/putusan/putusan-mk-90-2023.pdf",
+      "archive_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-90-2023.pdf",
+      "resolved_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-90-2023.pdf"
     },
     {
       "id": "mkmk-anwar-usman-2023",
@@ -15944,9 +15732,9 @@
       "title_id": "Putusan MK No. 60/PUU-XI/2024 (ambang batas parlemen pada pemilihan umum)",
       "year": 2024,
       "url": "https://putusan3.mkri.id",
-      "r2_key": "v2/putusan/putusan-mk-60-2024.html",
-      "archive_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-60-2024.html",
-      "resolved_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-60-2024.html"
+      "r2_key": "v2/putusan/putusan-mk-60-2024.pdf",
+      "archive_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-60-2024.pdf",
+      "resolved_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-60-2024.pdf"
     },
     {
       "id": "revisi-md3-2025",
@@ -16004,9 +15792,9 @@
       "title_id": "Putusan MK No. 46/PUU-VIII/2010 (penyalahguna narkotika sebagai korban untuk direhabilitasi)",
       "year": 2010,
       "url": "https://putusan3.mkri.id",
-      "r2_key": "v2/putusan/putusan-mk-46-2010.html",
-      "archive_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-46-2010.html",
-      "resolved_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-46-2010.html"
+      "r2_key": "v2/putusan/putusan-mk-46-2010.pdf",
+      "archive_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-46-2010.pdf",
+      "resolved_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-46-2010.pdf"
     },
     {
       "id": "putusan-mk-100-2014",
@@ -16014,9 +15802,9 @@
       "title_id": "Putusan MK No. 100/PUU-XII/2014 (pencalonan independen pada pilkada)",
       "year": 2015,
       "url": "https://putusan3.mkri.id",
-      "r2_key": "v2/putusan/putusan-mk-100-2014.html",
-      "archive_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-100-2014.html",
-      "resolved_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-100-2014.html"
+      "r2_key": "v2/putusan/putusan-mk-100-2014.pdf",
+      "archive_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-100-2014.pdf",
+      "resolved_url": "https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-100-2014.pdf"
     },
     {
       "id": "putusan-ma-akil-2014",
@@ -21467,7 +21255,7 @@
           "event_ids": [
             "ev-habibie-otda",
             "ev-uu-otonomi-daerah-1999",
-            "ev-habibie-uu-persaingan-usaha"
+            "ev-dpr-uu-kppu-1999"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -21513,7 +21301,7 @@
             }
           ],
           "event_ids": [
-            "ev-habibie-uu-persaingan-usaha",
+            "ev-dpr-uu-kppu-1999",
             "ev-uu-otonomi-daerah-1999"
           ],
           "normative_anchors": [
@@ -23767,7 +23555,7 @@
             "ev-dpr-uu-tipikor-1999-2001",
             "ev-dpr-uu-polri-2002",
             "ev-dpr-uu-tni-2004",
-            "ev-uu-tpu-ppatk-2002",
+            "ev-dpr-uu-ppatk-2002",
             "ev-uu-terorisme-bom-bali-2003",
             "ev-dpr-uu-pemberantasan-korupsi-1999",
             "ev-dpr-uu-mk-2003",
@@ -23839,7 +23627,7 @@
             "ev-dpr-uu-tipikor-1999-2001",
             "ev-dpr-uu-polri-2002",
             "ev-dpr-uu-tni-2004",
-            "ev-uu-tpu-ppatk-2002",
+            "ev-dpr-uu-ppatk-2002",
             "ev-dpr-uu-pertahanan-2002",
             "ev-dpr-uu-perjanjian-internasional",
             "ev-dpr-uu-pemberantasan-korupsi-1999",
@@ -25426,7 +25214,7 @@
           "event_ids": [
             "ev-mk1-pelantikan",
             "ev-mk-putusan-calon-independen-2007",
-            "ev-mk-putusan-calon-perseorangan-2007"
+            "ev-mk-putusan-calon-independen-2007"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -25470,7 +25258,7 @@
             "ev-mk-putusan-ky-hakim-agung-2006",
             "ev-mk-putusan-lese-majeste-2006",
             "ev-mk-putusan-haatzaai-artikelen-2007",
-            "ev-mk-putusan-calon-perseorangan-2007"
+            "ev-mk-putusan-calon-independen-2007"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -25522,7 +25310,7 @@
             }
           ],
           "event_ids": [
-            "ev-mk-putusan-calon-perseorangan-2007",
+            "ev-mk-putusan-calon-independen-2007",
             "ev-mk-putusan-calon-independen-2007",
             "ev-mk-putusan-lese-majeste-2006",
             "ev-mk-putusan-haatzaai-artikelen-2007"
@@ -25998,7 +25786,7 @@
             }
           ],
           "event_ids": [
-            "ev-mk-putusan-penghayat-kepercayaan-2017",
+            "ev-mk-putusan-penghayat-2017",
             "ev-mk-putusan-penghayat-2017"
           ],
           "normative_anchors": [
@@ -26034,7 +25822,7 @@
             "ev-mk-putusan-penghayat-2017",
             "ev-mk-putusan-perjanjian-kawin-2015",
             "ev-mk-putusan-spdp-7-hari-2015",
-            "ev-mk-putusan-penghayat-kepercayaan-2017"
+            "ev-mk-putusan-penghayat-2017"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26111,7 +25899,7 @@
             "ev-mk-putusan-rekaman-ilegal-2016",
             "ev-mk-putusan-spdp-7-hari-2015",
             "ev-mk-putusan-pasal-kumpul-kebo-2016",
-            "ev-mk-putusan-penghayat-kepercayaan-2017",
+            "ev-mk-putusan-penghayat-2017",
             "ev-mk-putusan-praperadilan-2015",
             "ev-mk-pembatalan-pembatalan-perda-2017"
           ],
@@ -26334,7 +26122,7 @@
             }
           ],
           "event_ids": [
-            "ev-mk-putusan-penghayat-kepercayaan-2017"
+            "ev-mk-putusan-penghayat-2017"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26664,7 +26452,7 @@
             }
           ],
           "event_ids": [
-            "ev-mk-putusan-netralitas-tni-polri-2024"
+            "ev-mk-putusan-netralitas-pilkada-2024"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26740,7 +26528,7 @@
             "ev-mk-putusan-phpu-pilpres-2024",
             "ev-mk-phpu-pilkada-serentak-2025",
             "ev-mk-putusan-parliamentary-threshold-2024",
-            "ev-mk-putusan-netralitas-tni-polri-2024"
+            "ev-mk-putusan-netralitas-pilkada-2024"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -26817,7 +26605,7 @@
             "ev-mk-putusan-phpu-pilpres-2024",
             "ev-mk-phpu-pilkada-serentak-2025",
             "ev-mk-putusan-parliamentary-threshold-2024",
-            "ev-mk-putusan-netralitas-tni-polri-2024"
+            "ev-mk-putusan-netralitas-pilkada-2024"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -27812,7 +27600,7 @@
             "ev-soeharto-timtim",
             "ev-integrasi-timor-timur-1976",
             "ev-pepera-papua-1969",
-            "ev-uu-asas-tunggal-pancasila-1985"
+            "ev-uu-asas-tunggal-1985"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -28060,7 +27848,7 @@
             "ev-peristiwa-kudatuli-1996",
             "ev-uu-kuhap-1981",
             "ev-uu-ptun-1986",
-            "ev-tap-mprs-pencabutan-kekuasaan-sukarno-1967",
+            "ev-mpr-tap-xxxiii-1967",
             "ev-keppres-pembentukan-komnas-ham-1993"
           ],
           "normative_anchors": [
@@ -28100,7 +27888,7 @@
             "ev-permenpen-siupp-1984",
             "ev-lengser-soeharto-1998",
             "ev-uu-ptun-1986",
-            "ev-tap-mprs-pencabutan-kekuasaan-sukarno-1967",
+            "ev-mpr-tap-xxxiii-1967",
             "ev-tap-mprs-pengangkatan-soeharto-1968",
             "ev-pembredelan-tempo-editor-detik-1994"
           ],
@@ -28155,7 +27943,7 @@
             "ev-tap-mprs-pengangkatan-soeharto-1968",
             "ev-uu-pemilu-pertama-orba-1969",
             "ev-uu-fusi-partai-politik-1975",
-            "ev-uu-asas-tunggal-pancasila-1985",
+            "ev-uu-asas-tunggal-1985",
             "ev-pembredelan-tempo-editor-detik-1994"
           ],
           "normative_anchors": [
@@ -33383,7 +33171,7 @@
           "event_ids": [
             "ev-tap-mpr-ii-1978-p4",
             "ev-mpr-sidang-istimewa-1998-tap",
-            "ev-tap-mpr-xi-1998-anti-kkn",
+            "ev-mpr-tap-xi-1998",
             "ev-tap-mpr-reformasi-1998"
           ],
           "normative_anchors": [
@@ -33450,7 +33238,7 @@
           ],
           "event_ids": [
             "ev-tap-mpr-xvii-1998-ham",
-            "ev-tap-mpr-ham-1998"
+            "ev-tap-mpr-xvii-1998-ham"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -33569,8 +33357,8 @@
           "event_ids": [
             "ev-mprs-tap-xx-1966",
             "ev-tap-mpr-xvii-1998-ham",
-            "ev-tap-mpr-xi-1998-anti-kkn",
-            "ev-tap-mpr-ham-1998"
+            "ev-mpr-tap-xi-1998",
+            "ev-tap-mpr-xvii-1998-ham"
           ],
           "normative_anchors": [
             "uud-nri-1945"

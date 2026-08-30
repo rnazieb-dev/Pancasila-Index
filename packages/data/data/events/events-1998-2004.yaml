@@ -12,19 +12,6 @@
   dimension_ids:
     - sila-2
     - negara-hukum
-- id: ev-tap-mpr-xi-1998-anti-kkn
-  term_id: mpr-1971-1999
-  date: 1998-11-13
-  category: produk-hukum
-  title_id: TAP MPR No. XI/MPR/1998 tentang Penyelenggara Negara Bersih dan Bebas KKN
-  summary_id: MPR menetapkan landasan yuridis pemberantasan korupsi, kolusi, dan
-    nepotisme, mewajibkan pemeriksaan kekayaan pejabat publik, dan mengamanatkan
-    penuntasan dugaan korupsi mantan Presiden Soeharto dan kroni-kroninya.
-  source_ids:
-    - tap-mpr-xi-1998
-  dimension_ids:
-    - checks-balances
-    - negara-hukum
 - id: ev-tap-mpr-pemisahan-tni-polri-2000
   term_id: mpr-1999-2004
   date: 2000-08-18
@@ -387,20 +374,6 @@
   dimension_ids:
     - kedaulatan-rakyat
     - checks-balances
-- id: ev-tap-mpr-ham-1998
-  term_id: mpr-1971-1999
-  date: 1998-11-13
-  category: produk-hukum
-  title_id: TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia (Piagam HAM Indonesia)
-  summary_id: MPR menetapkan Piagam Hak Asasi Manusia Indonesia yang memuat 44
-    pasal perlindungan hak-hak sipil, politik, ekonomi, sosial, dan budaya, yang
-    kemudian menjadi cikal bakal materi muatan Bab XA (Pasal 28A–28J) Perubahan
-    Kedua UUD 1945.
-  source_ids:
-    - tap-mpr-xvii-1998
-  dimension_ids:
-    - negara-hukum
-    - sila-2
 - id: ev-uu-otonomi-daerah-1999
   term_id: presiden-habibie
   date: 1999-05-07
@@ -417,21 +390,6 @@
   dimension_ids:
     - tujuan-2
     - sila-5
-- id: ev-uu-tpu-ppatk-2002
-  term_id: dpr-1999-2004
-  date: 2002-04-17
-  category: produk-hukum
-  title_id: Pengesahan UU No. 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang
-    dan Pembentukan PPATK
-  summary_id: DPR dan Pemerintah mengesahkan landasan hukum rezim anti-pencucian
-    uang Indonesia serta membentuk Pusat Pelaporan dan Analisis Transaksi
-    Keuangan (PPATK) guna melacak aliran dana hasil kejahatan, korupsi, dan
-    pendanaan terorisme lintas batas (follow the money).
-  source_ids:
-    - uu-15-2002
-  dimension_ids:
-    - negara-hukum
-    - checks-balances
 - id: ev-uu-terorisme-bom-bali-2003
   term_id: dpr-1999-2004
   date: 2003-04-04
@@ -581,19 +539,6 @@
   dimension_ids:
     - checks-balances
     - negara-hukum
-- id: ev-habibie-uu-persaingan-usaha
-  term_id: presiden-habibie
-  date: 1999-03-05
-  category: produk-hukum
-  title_id: Pengesahan UU No. 5/1999 tentang Larangan Praktik Monopoli dan
-    Persaingan Usaha Tidak Sehat
-  summary_id: Presiden Habibie mengesahkan UU Anti Monopoli dan membentuk KPPU
-    guna mengakhiri kronisme ekonomi dan konglomerasi tertutup era Orba.
-  source_ids:
-    - uu-5-1999
-  dimension_ids:
-    - sila-5
-    - tujuan-2
 - id: ev-gusdur-inpres-6-2000
   term_id: presiden-gusdur
   date: 2000-01-17
@@ -810,3 +755,4 @@
     - kedaulatan-rakyat
     - sila-4
     - checks-balances
+

@@ -1732,20 +1732,6 @@
   dimension_ids:
     - tujuan-4
     - negara-hukum
-- id: ev-mk-putusan-penghayat-kepercayaan-2017
-  term_id: mk-2013-2018
-  date: 2017-11-07
-  category: pengadilan
-  title_id: Putusan MK No. 97/PUU-XIV/2016 Mengakui Kolom Agama Bagi Penghayat
-    Kepercayaan
-  summary_id: MK memutus bahwa penganut penghayat kepercayaan berhak mencantumkan
-    kepercayaannya pada kolom agama KTP dan KK tanpa diskriminasi.
-  source_ids:
-    - putusan-mk-97-puu-xiv-2016
-  dimension_ids:
-    - sila-1
-    - sila-2
-    - negara-hukum
 - id: ev-mk-putusan-praperadilan-2015
   term_id: mk-2013-2018
   date: 2015-04-28
@@ -2304,3 +2290,4 @@
     - checks-balances
     - negara-hukum
     - sila-5
+

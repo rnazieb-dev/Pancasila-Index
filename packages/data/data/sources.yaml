@@ -142,8 +142,8 @@
   year: 2005
   url: https://www.cmi.fi/wp-content/uploads/sites/2/2010/02/MOU_ACEH1.pdf
   citation_id: Memorandum of Understanding Helsinki, Crisis Management Initiative
-  r2_key: v2/sejarah/mou-helsinki-2005.html
-  archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/mou-helsinki-2005.html
+  r2_key: v2/sejarah/mou-helsinki-2005.pdf
+  archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/mou-helsinki-2005.pdf
 - id: uu-11-2006
   type: undang-undang
   title_id: UU No. 11 Tahun 2006 tentang Pemerintahan Aceh (UUPA)
@@ -221,8 +221,8 @@
   title_id: Putusan MK No. 73/PUU-XII/2014 (memulihkan pilkada langsung)
   year: 2014
   url: https://putusan3.mkri.id
-  r2_key: v2/putusan/putusan-mk-73-2014.html
-  archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-73-2014.html
+  r2_key: v2/putusan/putusan-mk-73-2014.pdf
+  archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-73-2014.pdf
 - id: inpres-10-2011
   type: keppres
   title_id: Instruksi Presiden No. 10 Tahun 2011 tentang Moratorium Izin Baru
@@ -298,8 +298,8 @@
   title_id: Putusan MK No. 91/PUU-XVIII/2020 (UU Cipta Kerja inkonstitusional bersyarat)
   year: 2021
   url: https://putusan3.mkri.id
-  r2_key: v2/putusan/putusan-mk-91-2021.html
-  archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-91-2021.html
+  r2_key: v2/putusan/putusan-mk-91-2021.pdf
+  archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-91-2021.pdf
 - id: perppu-2-2022
   type: perppu
   title_id: Perppu No. 2 Tahun 2022 tentang Cipta Kerja (Pengganti UU Cipta Kerja
@@ -361,8 +361,8 @@
   title_id: Putusan MK No. 90/PUU-XI/2023 (batas usia calon presiden/wakil presiden)
   year: 2023
   url: https://putusan3.mkri.id
-  r2_key: v2/putusan/putusan-mk-90-2023.html
-  archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-90-2023.html
+  r2_key: v2/putusan/putusan-mk-90-2023.pdf
+  archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-90-2023.pdf
 - id: mkmk-anwar-usman-2023
   type: laporan-lembaga
   title_id: Putusan Majelis Kehormatan Etik MK No. 2/MKMK/LKA/PL/11/2023
@@ -384,8 +384,8 @@
   title_id: Putusan MK No. 60/PUU-XI/2024 (ambang batas parlemen pada pemilihan umum)
   year: 2024
   url: https://putusan3.mkri.id
-  r2_key: v2/putusan/putusan-mk-60-2024.html
-  archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-60-2024.html
+  r2_key: v2/putusan/putusan-mk-60-2024.pdf
+  archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-60-2024.pdf
 - id: revisi-md3-2025
   type: undang-undang
   title_id: Revisi UU MD3 yang disahkan DPR pada 20 Maret 2025
@@ -430,15 +430,15 @@
     untuk direhabilitasi)
   year: 2010
   url: https://putusan3.mkri.id
-  r2_key: v2/putusan/putusan-mk-46-2010.html
-  archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-46-2010.html
+  r2_key: v2/putusan/putusan-mk-46-2010.pdf
+  archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-46-2010.pdf
 - id: putusan-mk-100-2014
   type: putusan-mk
   title_id: Putusan MK No. 100/PUU-XII/2014 (pencalonan independen pada pilkada)
   year: 2015
   url: https://putusan3.mkri.id
-  r2_key: v2/putusan/putusan-mk-100-2014.html
-  archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-100-2014.html
+  r2_key: v2/putusan/putusan-mk-100-2014.pdf
+  archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-100-2014.pdf
 - id: putusan-ma-akil-2014
   type: putusan-ma
   title_id: Putusan MA kasus suap Akil Mochtar (vonis seumur hidup) dan putusan

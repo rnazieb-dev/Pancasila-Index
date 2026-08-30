@@ -66,7 +66,7 @@
       event_ids:
         - ev-habibie-otda
         - ev-uu-otonomi-daerah-1999
-        - ev-habibie-uu-persaingan-usaha
+        - ev-dpr-uu-kppu-1999
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
@@ -92,7 +92,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-habibie-uu-persaingan-usaha
+        - ev-dpr-uu-kppu-1999
         - ev-uu-otonomi-daerah-1999
     - dimension_id: tujuan-3
       score: 1
@@ -1464,7 +1464,7 @@
         - ev-dpr-uu-tipikor-1999-2001
         - ev-dpr-uu-polri-2002
         - ev-dpr-uu-tni-2004
-        - ev-uu-tpu-ppatk-2002
+        - ev-dpr-uu-ppatk-2002
         - ev-uu-terorisme-bom-bali-2003
         - ev-dpr-uu-pemberantasan-korupsi-1999
         - ev-dpr-uu-mk-2003
@@ -1500,7 +1500,7 @@
         - ev-dpr-uu-tipikor-1999-2001
         - ev-dpr-uu-polri-2002
         - ev-dpr-uu-tni-2004
-        - ev-uu-tpu-ppatk-2002
+        - ev-dpr-uu-ppatk-2002
         - ev-dpr-uu-pertahanan-2002
         - ev-dpr-uu-perjanjian-internasional
         - ev-dpr-uu-pemberantasan-korupsi-1999
@@ -2444,7 +2444,7 @@
       event_ids:
         - ev-mk1-pelantikan
         - ev-mk-putusan-calon-independen-2007
-        - ev-mk-putusan-calon-perseorangan-2007
+        - ev-mk-putusan-calon-independen-2007
       normative_anchors:
         - uud-nri-1945
     - dimension_id: negara-hukum
@@ -2469,7 +2469,7 @@
         - ev-mk-putusan-ky-hakim-agung-2006
         - ev-mk-putusan-lese-majeste-2006
         - ev-mk-putusan-haatzaai-artikelen-2007
-        - ev-mk-putusan-calon-perseorangan-2007
+        - ev-mk-putusan-calon-independen-2007
     - dimension_id: checks-balances
       score: 2
       confidence: 0.85
@@ -2499,7 +2499,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-mk-putusan-calon-perseorangan-2007
+        - ev-mk-putusan-calon-independen-2007
         - ev-mk-putusan-calon-independen-2007
         - ev-mk-putusan-lese-majeste-2006
         - ev-mk-putusan-haatzaai-artikelen-2007
@@ -2791,7 +2791,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-mk-putusan-penghayat-kepercayaan-2017
+        - ev-mk-putusan-penghayat-2017
         - ev-mk-putusan-penghayat-2017
     - dimension_id: sila-2
       score: 1
@@ -2813,7 +2813,7 @@
         - ev-mk-putusan-penghayat-2017
         - ev-mk-putusan-perjanjian-kawin-2015
         - ev-mk-putusan-spdp-7-hari-2015
-        - ev-mk-putusan-penghayat-kepercayaan-2017
+        - ev-mk-putusan-penghayat-2017
     - dimension_id: sila-4
       score: 2
       confidence: 0.85
@@ -2856,7 +2856,7 @@
         - ev-mk-putusan-rekaman-ilegal-2016
         - ev-mk-putusan-spdp-7-hari-2015
         - ev-mk-putusan-pasal-kumpul-kebo-2016
-        - ev-mk-putusan-penghayat-kepercayaan-2017
+        - ev-mk-putusan-penghayat-2017
         - ev-mk-putusan-praperadilan-2015
         - ev-mk-pembatalan-pembatalan-perda-2017
     - dimension_id: checks-balances
@@ -2994,7 +2994,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-mk-putusan-penghayat-kepercayaan-2017
+        - ev-mk-putusan-penghayat-2017
     - dimension_id: sila-2
       score: -1
       confidence: 0.85
@@ -3198,7 +3198,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-mk-putusan-netralitas-tni-polri-2024
+        - ev-mk-putusan-netralitas-pilkada-2024
     - dimension_id: sila-4
       score: 1
       confidence: 0.85
@@ -3245,7 +3245,7 @@
         - ev-mk-putusan-phpu-pilpres-2024
         - ev-mk-phpu-pilkada-serentak-2025
         - ev-mk-putusan-parliamentary-threshold-2024
-        - ev-mk-putusan-netralitas-tni-polri-2024
+        - ev-mk-putusan-netralitas-pilkada-2024
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -3287,7 +3287,7 @@
         - ev-mk-putusan-phpu-pilpres-2024
         - ev-mk-phpu-pilkada-serentak-2025
         - ev-mk-putusan-parliamentary-threshold-2024
-        - ev-mk-putusan-netralitas-tni-polri-2024
+        - ev-mk-putusan-netralitas-pilkada-2024
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -3867,7 +3867,7 @@
         - ev-soeharto-timtim
         - ev-integrasi-timor-timur-1976
         - ev-pepera-papua-1969
-        - ev-uu-asas-tunggal-pancasila-1985
+        - ev-uu-asas-tunggal-1985
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-4
@@ -4012,7 +4012,7 @@
         - ev-peristiwa-kudatuli-1996
         - ev-uu-kuhap-1981
         - ev-uu-ptun-1986
-        - ev-tap-mprs-pencabutan-kekuasaan-sukarno-1967
+        - ev-mpr-tap-xxxiii-1967
         - ev-keppres-pembentukan-komnas-ham-1993
       normative_anchors:
         - uud-nri-1945
@@ -4034,7 +4034,7 @@
         - ev-permenpen-siupp-1984
         - ev-lengser-soeharto-1998
         - ev-uu-ptun-1986
-        - ev-tap-mprs-pencabutan-kekuasaan-sukarno-1967
+        - ev-mpr-tap-xxxiii-1967
         - ev-tap-mprs-pengangkatan-soeharto-1968
         - ev-pembredelan-tempo-editor-detik-1994
       normative_anchors:
@@ -4065,7 +4065,7 @@
         - ev-tap-mprs-pengangkatan-soeharto-1968
         - ev-uu-pemilu-pertama-orba-1969
         - ev-uu-fusi-partai-politik-1975
-        - ev-uu-asas-tunggal-pancasila-1985
+        - ev-uu-asas-tunggal-1985
         - ev-pembredelan-tempo-editor-detik-1994
       normative_anchors:
         - uud-nri-1945
@@ -7180,7 +7180,7 @@
       event_ids:
         - ev-tap-mpr-ii-1978-p4
         - ev-mpr-sidang-istimewa-1998-tap
-        - ev-tap-mpr-xi-1998-anti-kkn
+        - ev-mpr-tap-xi-1998
         - ev-tap-mpr-reformasi-1998
     - dimension_id: sila-3
       score: 1
@@ -7220,7 +7220,7 @@
         - uud-nri-1945
       event_ids:
         - ev-tap-mpr-xvii-1998-ham
-        - ev-tap-mpr-ham-1998
+        - ev-tap-mpr-xvii-1998-ham
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
@@ -7291,8 +7291,8 @@
       event_ids:
         - ev-mprs-tap-xx-1966
         - ev-tap-mpr-xvii-1998-ham
-        - ev-tap-mpr-xi-1998-anti-kkn
-        - ev-tap-mpr-ham-1998
+        - ev-mpr-tap-xi-1998
+        - ev-tap-mpr-xvii-1998-ham
     - dimension_id: kedaulatan-rakyat
       score: -2
       confidence: 0.9
