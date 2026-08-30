@@ -1234,29 +1234,3 @@
     - title_id: "Pihak swasta - Komisaris Utama PT Trada Alam Minera Tbk"
       note_id: "Bukan penyelenggara negara."
   source_ids: [putusan-kasasi-ma-jiwasraya-2021, putusan-tipikor-direksi-jiwasraya-2020]
-
-# Pejabat Badan Gizi Nasional dalam perkara korupsi Program Makan Bergizi
-# Gratis. Ketiganya masih TERSANGKA pada dokumen yang disitasi.
-
-- id: dadan-hindayana
-  name: "Dadan Hindayana"
-  roles:
-    - title_id: "Kepala Badan Gizi Nasional"
-      start_date: "2024-08"
-      end_date: "2026-06"
-      note_id: "Dicopot dari jabatan struktural 2 Juni 2026, sehari sebelum ditetapkan tersangka."
-  source_ids: [bap-kejagung-korupsi-bgn-2026]
-
-- id: sony-sonjaya
-  name: "Sony Sonjaya"
-  roles:
-    - title_id: "Wakil Kepala Badan Gizi Nasional Bidang Operasional Pemenuhan Gizi"
-      end_date: "2026-06"
-  source_ids: [bap-kejagung-korupsi-bgn-2026]
-
-- id: lodewyk-pusung
-  name: "Lodewyk Pusung"
-  roles:
-    - title_id: "Wakil Kepala Badan Gizi Nasional Bidang Pengembangan Organisasi"
-      end_date: "2026-06"
-  source_ids: [bap-kejagung-korupsi-bgn-2026]

@@ -35,16 +35,10 @@ export const sourceTypeSchema = z.enum([
   "undang-undang",
   "perppu",
   "keppres",
-  /**
-   * Instruksi Presiden. Sengaja dibedakan dari keppres: Inpres TIDAK termasuk
-   * jenis peraturan perundang-undangan pada Pasal 7 ayat (1) UU No. 12/2011,
-   * sehingga tidak berkekuatan mengikat umum. Membedakannya di data penting
-   * karena justru dipakainya Inpres untuk mengatur hal yang seharusnya lewat
-   * undang-undang itulah yang jadi objek penilaian dimensi negara hukum.
-   */
   "inpres",
   "putusan-mk",
   "putusan-ma",
+  "putusan-mpd",
   "mputusan-mpd",
   "dokumen-mpr",
   "arsip-nasional",
@@ -59,12 +53,27 @@ export type SourceType = z.infer<typeof sourceTypeSchema>;
 export const sourceSchema = z.object({
   id: idField("source.id"),
   type: sourceTypeSchema,
+  /**
+   * Sumber ini adalah ALAT UKUR rubrik, bukan perbuatan yang diukur.
+   * UUD 1945 dan dokumen yang membentuknya tidak dapat menjadi bukti
+   * empiris atas fakta apa pun: ia yang dijadikan pembanding. Sumber
+   * bertanda ini ditolak di dalam `evidence` (lihat build.mts) dan hanya
+   * boleh muncul di `normative_anchors`.
+   *
+   * Sebuah UU biasa TIDAK bertanda ini: mengesahkan UU adalah perbuatan
+   * lembaga yang dinilai, jadi sah sebagai bukti.
+   */
+  normative_baseline: z.boolean().optional(),
   title_id: z.string().min(3),
-  year: z.number().int().min(1945).max(2100).optional(),
+  year: z.number().int().min(1800).max(2100).optional(),
   url: z.string().url().optional(),
   citation_id: z.string().optional(),
+  r2_key: z.string().optional(),
+  archive_url: z.string().url().optional(),
   /** Diisi build: tautan yang pasti bisa dibuka (portal resmi/pencarian). */
   resolved_url: z.string().url().optional(),
+  /** Diisi build: path halaman dokumen di situs ini (/arsip/<id>). */
+  detail_url: z.string().min(1).optional(),
 });
 export type Source = z.infer<typeof sourceSchema>;
 
@@ -264,6 +273,18 @@ export const rubricDimensionSchema = z.object({
   weight: z.number().positive(),
   anchors: anchorScaleSchema,
   indicators: z.array(rubricIndicatorSchema).default([]),
+  /**
+   * Dimensi ini memuat hak yang TIDAK DAPAT DIKURANGI dalam keadaan apa pun
+   * (Pasal 28I ayat (1) UUD 1945: hak hidup, hak bebas dari penyiksaan).
+   *
+   * Pelanggaran pada dimensi bertanda ini membatasi komposit dan tidak dapat
+   * dilunasi capaian di dimensi lain - lihat scoring.ts. Mesin skor HANYA
+   * membaca field ini; build.mts memverifikasinya terhadap
+   * `indicators[].legal_anchors_id` sebagai auditor, bukan sumber data,
+   * karena jangkar itu teks bebas dan salah tulis akan menghapus jaminan
+   * konstitusional tanpa terlihat.
+   */
+  non_derogable: z.boolean().default(false),
 });
 
 export const rubricSchema = z.object({
@@ -319,7 +340,12 @@ export const dimensionScoreSchema = z.object({
     .max(SCORE_MAX),
   confidence: z.number().min(0).max(1),
   rationale_id: z.string().min(20),
-  evidence: z.array(evidenceSchema).min(1),
+  /**
+   * Bukti empiris. Boleh kosong HANYA bila `evidence_gap: true` — dan skor
+   * seperti itu dikeluarkan dari perhitungan indeks (lihat scoring.ts),
+   * jadi mengosongkannya tidak menguntungkan siapa pun.
+   */
+  evidence: z.array(evidenceSchema),
   event_ids: z.array(idField("dimension_score.event_ids")).optional(),
   /**
    * Landasan normatif (pasal UUD) yang dinilai - BUKAN bukti empiris.
@@ -327,7 +353,18 @@ export const dimensionScoreSchema = z.object({
    * tetapi tidak boleh dibaca sebagai dukungan faktual atas skor.
    */
   normative_anchors: z.array(idField("dimension_score.normative_anchors")).optional(),
-});
+  /**
+   * Pengakuan eksplisit bahwa skor ini belum berbukti empiris. Skor
+   * bertanda ini TIDAK ikut membentuk indeks; ia tampil sebagai penilaian
+   * yang menunggu bukti. Sebelumnya celah semacam ini tersembunyi dengan
+   * mencantumkan UUD 1945 di `evidence` sehingga `min(1)` terpenuhi.
+   */
+  evidence_gap: z.boolean().optional(),
+})
+  .refine(
+    (ds) => ds.evidence.length > 0 || ds.evidence_gap === true,
+    "dimension_score tanpa evidence wajib menyatakan evidence_gap: true"
+  );
 
 export const assessmentStatusSchema = z.enum(["draft", "published"]);
 
