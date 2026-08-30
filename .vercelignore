@@ -1,0 +1,4 @@
+packages/data/raw
+.git
+node_modules
+.next
