@@ -3459,3 +3459,515 @@
   dimension_ids:
     - checks-balances
     - tujuan-2
+- id: ev-depernas-pembangunan-semesta-1958
+  term_id: presiden-soekarno-i
+  date: 1958-10-23
+  category: produk-hukum
+  title_id: Pembentukan Dewan Perancang Nasional (Depernas) & Peletakan Fondasi
+    Perencanaan Pembangunan Nasional Semesta
+  summary_id: Pemerintah dan DPR mengesahkan UU No. 85/1958 yang membentuk
+    Depernas dipimpin Mohammad Yamin untuk merancang Pola Pembangunan Nasional
+    Semesta Berencana Delapan Tahun (1961–1969) berlandaskan ekonomi berdikari
+    Pasal 33 UUD 1945.
+  source_ids:
+    - uu-85-1958-depernas
+  dimension_ids:
+    - tujuan-2
+    - sila-5
+- id: ev-nasionalisasi-perusahaan-belanda-1958
+  term_id: presiden-soekarno-i
+  date: 1958-12-27
+  category: kebijakan
+  title_id: Pengambilalihan & Nasionalisasi Massal Seluruh Perusahaan Milik
+    Belanda di Indonesia (1958)
+  summary_id: Pemerintah menerbitkan PP No. 23/1958 sebagai tindak lanjut aksi
+    buruh dan pembebasan Irian Barat untuk menasionalisasi ratusan perkebunan,
+    bank, perusahaan pelayaran KPM, dan industri milik modal kolonial Belanda
+    menjadi BUMN negara.
+  source_ids:
+    - pp-23-1958-nasionalisasi
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+    - sila-3
+- id: ev-uu-pemda-desentralisasi-1957
+  term_id: dpr-1950-1960
+  date: 1957-01-18
+  category: produk-hukum
+  title_id: "Pengesahan UU No. 1 Tahun 1957: Peletakan Otonomi Daerah Luas dan
+    Demokratis Pertama di Indonesia"
+  summary_id: DPR menyetujui UU Pokok Pemerintahan Daerah No. 1/1957 yang
+    memberikan hak otonomi riil dan desentralisasi seluas-luasnya kepada daerah
+    swapraja dan swatantra melalui pemilihan kepala daerah oleh DPRD lokal.
+  source_ids:
+    - uu-1-1957-pemda
+  dimension_ids:
+    - sila-4
+    - kedaulatan-rakyat
+- id: ev-pembubaran-dpr-1955-pembentukan-dpr-gr-1960
+  term_id: presiden-soekarno-ii
+  date: 1960-03-05
+  category: produk-hukum
+  title_id: Pembubaran DPR Hasil Pemilu 1955 & Pengangkatan DPR Gotong Royong
+    (DPR-GR) oleh Presiden (1960)
+  summary_id: Presiden Soekarno membubarkan DPR hasil Pemilu 1955 yang menolak
+    RAPBN pemerintah melalui Penpres No. 3/1960 dan membentuk DPR Gotong Royong
+    (DPR-GR) beranggotakan wakil parpol Nasakom dan golongan karya yang ditunjuk
+    langsung oleh eksekutif.
+  source_ids:
+    - penpres-3-1960-dpr-gr
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+    - sila-4
+- id: ev-pembubaran-masyumi-psi-1960
+  term_id: presiden-soekarno-ii
+  date: 1960-08-17
+  category: kebijakan
+  title_id: Pembubaran Partai Oposisi Masyumi dan PSI Melalui Keppres No. 200/1960
+  summary_id: Presiden menerbitkan Keppres No. 200/1960 yang melarang dan
+    membubarkan Partai Masyumi dan PSI dengan tuduhan keterlibatan pemimpinnya
+    dalam pemberontakan PRRI/Permesta, membatasi pluralisme politik dan oposisi
+    demokratis.
+  source_ids:
+    - keppres-200-1960-masyumi-psi
+  dimension_ids:
+    - sila-4
+    - kedaulatan-rakyat
+    - negara-hukum
+- id: ev-perjanjian-new-york-irian-barat-1962
+  term_id: presiden-soekarno-ii
+  date: 1962-08-15
+  category: peristiwa
+  title_id: "Penandatanganan Perjanjian New York 1962: Pemulihan Kedaulatan
+    Wilayah Irian Barat ke Pangkuan RI"
+  summary_id: Diplomasi Indonesia dan Belanda yang difasilitasi PBB menghasilkan
+    Persetujuan New York yang mewajibkan Belanda menyerahkan administrasi Irian
+    Barat kepada PBB (UNTEA) untuk kemudian diserahkan kembali secara utuh ke
+    pangkuan Republik Indonesia.
+  source_ids:
+    - perjanjian-new-york-1962
+  dimension_ids:
+    - tujuan-1
+    - tujuan-4
+    - sila-3
+- id: ev-indonesia-keluar-pbb-1965
+  term_id: presiden-soekarno-ii
+  date: 1965-01-07
+  category: kebijakan
+  title_id: Keputusan Penarikan Diri Republik Indonesia dari Keanggotaan
+    Perserikatan Bangsa-Bangsa (PBB) 1965
+  summary_id: Presiden Soekarno menyatakan Indonesia resmi keluar dari PBB sebagai
+    bentuk protes keras atas masuknya Malaysia sebagai anggota tidak tetap Dewan
+    Keamanan PBB di tengah konflik Dwikora.
+  source_ids:
+    - surat-pbb-keluar-1965
+  dimension_ids:
+    - tujuan-4
+- id: ev-pembubaran-pki-supersemar-1966
+  term_id: presiden-soekarno-ii
+  date: 1966-03-12
+  category: kebijakan
+  title_id: Pembubaran dan Pelarangan Partai Komunis Indonesia (PKI) Berdasarkan
+    Mandat Supersemar (1966)
+  summary_id: Letjen Soeharto menggunakan mandat Surat Perintah 11 Maret 1966
+    untuk membubarkan PKI beserta seluruh ormas di bawah naungannya dan
+    menyatakannya sebagai organisasi terlarang di seluruh wilayah Indonesia.
+  source_ids:
+    - keppres-1-3-1966-pembubaran-pki
+  dimension_ids:
+    - sila-1
+    - negara-hukum
+- id: ev-uu-pma-modal-asing-1967
+  term_id: presiden-soeharto
+  date: 1967-01-10
+  category: produk-hukum
+  title_id: "Pengesahan UU Penanaman Modal Asing (PMA) No. 1 Tahun 1967: Pembukaan
+    Arus Investasi Asing Orde Baru"
+  summary_id: Pemerintah dan DPR-GR mengesahkan UU PMA No. 1/1967 yang memberikan
+    insentif pajak (*tax holiday*), jaminan repatriasi modal, dan konsesi
+    pertambangan jangka panjang guna memulihkan stabilitas makroekonomi dan
+    neraca pembayaran nasional.
+  source_ids:
+    - uu-1-1967-pma
+  dimension_ids:
+    - tujuan-2
+    - sila-5
+- id: ev-fusi-partai-politik-1975
+  term_id: presiden-soeharto
+  date: 1975-08-27
+  category: produk-hukum
+  title_id: Pemberlakuan Fusi Tiga Partai Politik melalui UU No. 3 Tahun 1975
+    (PPP, PDI, Golkar)
+  summary_id: Pengesahan UU No. 3/1975 membatasi kontestasi pemilu hanya pada dua
+    partai politik (PPP dan PDI) serta satu Golongan Karya, menyederhanakan peta
+    politik namun membatasi ruang aspirasi dan kebebasan berserikat rakyat
+    secara masif.
+  source_ids:
+    - uu-3-1975-parpol-golkar
+  dimension_ids:
+    - sila-4
+    - kedaulatan-rakyat
+- id: ev-pernyataan-petisi-50-1980
+  term_id: presiden-soeharto
+  date: 1980-05-05
+  category: peristiwa
+  title_id: Pernyataan Keprihatinan Tokoh Bangsa (Petisi 50) atas Monopoli
+    Penafsiran Pancasila oleh Rezim (1980)
+  summary_id: Sebanyak 50 tokoh nasional dan purnawirawan TNI (termasuk M. Natsir,
+    Ali Sadikin, Hoegeng) menandatangani petisi yang mengkritik pidato Presiden
+    Soeharto yang mempersonalisasikan Pancasila untuk mendiskreditkan lawan
+    politik.
+  source_ids:
+    - dokumen-petisi-50-1980
+  dimension_ids:
+    - sila-4
+    - sila-1
+    - kedaulatan-rakyat
+- id: ev-peristiwa-tanjung-priok-1984
+  term_id: presiden-soeharto
+  date: 1984-09-12
+  category: krisis
+  title_id: Tragedi Penembakan Kerumunan Massa Tanjung Priok 12 September 1984
+  summary_id: Aparat militer melepaskan tembakan peluru tajam ke arah kerumunan
+    massa warga yang berdemonstrasi di Tanjung Priok Jakarta Utara, menewaskan
+    puluhan warga sipil dan memicu penangkapan massal tokoh-tokoh Islam tanpa
+    prosedur peradilan yang adil.
+  source_ids:
+    - laporan-komnas-ham-priok-1984
+  dimension_ids:
+    - sila-2
+    - sila-1
+    - negara-hukum
+- id: ev-peristiwa-talangsari-1989
+  term_id: presiden-soeharto
+  date: 1989-02-07
+  category: krisis
+  title_id: "Operasi Penyerbuan Militer Talangsari Lampung 1989: Pelanggaran Hak
+    Asasi Berat"
+  summary_id: Aparat keamanan melakukan penyerbuan militer terhadap komunitas
+    warga Warsidi di Dusun Talangsari Lampung Tengah, mengakibatkan pembakaran
+    pemukiman, tewasnya puluhan warga sipil perempuan dan anak-anak, serta
+    penahanan sewenang-wenang.
+  source_ids:
+    - laporan-komnas-ham-talangsari-1989
+  dimension_ids:
+    - sila-2
+    - negara-hukum
+- id: ev-pembentukan-komnas-ham-1993
+  term_id: presiden-soeharto
+  date: 1993-06-07
+  category: produk-hukum
+  title_id: Pembentukan Komisi Nasional Hak Asasi Manusia (Komnas HAM) Melalui
+    Keppres No. 50/1993
+  summary_id: Presiden Soeharto menerbitkan Keppres No. 50/1993 yang mendirikan
+    Komnas HAM sebagai lembaga nasional independen untuk mengembangkan kondisi
+    kondusif bagi perlindungan hak asasi manusia di Indonesia pasca Deklarasi
+    Wina 1993.
+  source_ids:
+    - keppres-50-1993-komnas-ham
+  dimension_ids:
+    - sila-2
+    - negara-hukum
+- id: ev-pidato-pengunduran-diri-soeharto-1998
+  term_id: presiden-soeharto
+  date: 1998-05-21
+  category: peristiwa
+  title_id: Pidato Pengunduran Diri Presiden Soeharto & Penyerahan Kekuasaan
+    kepada B.J. Habibie (21 Mei 1998)
+  summary_id: Presiden Soeharto membacakan pernyataan berhenti dari jabatannya di
+    hadapan Pimpinan Mahkamah Agung di Istana Merdeka setelah gelombang
+    demonstrasi mahasiswa dan pendudukan gedung DPR/MPR, menandai runtuhnya
+    kekuasaan 32 tahun Orde Baru.
+  source_ids:
+    - pidato-mundur-soeharto-1998
+  dimension_ids:
+    - sila-4
+    - kedaulatan-rakyat
+    - checks-balances
+- id: ev-tap-mpr-xi-1998-pemberantasan-kkn
+  term_id: mpr-1971-1999
+  date: 1998-11-13
+  category: produk-hukum
+  title_id: "Ketetapan MPR No. XI/MPR/1998: Deklarasi Penyelenggara Negara Bersih
+    dan Bebas KKN"
+  summary_id: Sidang Istimewa MPR menetapkan Tap No. XI/MPR/1998 yang mewajibkan
+    seluruh pejabat negara melaporkan harta kekayaan serta memerintahkan
+    pengusutan tuntas kasus dugaan korupsi, kolusi, dan nepotisme mantan
+    Presiden Soeharto dan kroni-kroninya.
+  source_ids:
+    - tap-mpr-xi-1998-kkn
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - sila-5
+- id: ev-pembentukan-bppn-rekapitalisasi-bank-1998
+  term_id: presiden-habibie
+  date: 1998-01-26
+  category: kebijakan
+  title_id: Pembentukan Badan Penyehatan Perbankan Nasional (BPPN) & Penyelamatan
+    Sektor Keuangan Pasca Krismon
+  summary_id: Pemerintah membentuk BPPN untuk merestrukturisasi perbankan yang
+    kolaps akibat Krisis Moneter 1997/1998, mengelola aset bermasalah senilai
+    ratusan triliun rupiah melalui skema Bantuan Likuiditas Bank Indonesia
+    (BLBI).
+  source_ids:
+    - keppres-27-1998-bppn
+  dimension_ids:
+    - tujuan-2
+    - sila-5
+- id: ev-uu-otsus-papua-2001
+  term_id: presiden-megawati
+  date: 2001-11-21
+  category: produk-hukum
+  title_id: "Pengesahan UU Otonomi Khusus Papua No. 21 Tahun 2001: Pengakuan Hak
+    Asasi & Afirmasi OAP"
+  summary_id: Presiden Megawati dan DPR mengesahkan UU Otsus Papua yang memberikan
+    kewenangan khusus, pembentukan Majelis Rakyat Papua (MRP), pembagian dana
+    bagi hasil migas 70%, dan perlindungan hak-hak dasar Orang Asli Papua.
+  source_ids:
+    - uu-21-2001-otsus-papua
+  dimension_ids:
+    - sila-2
+    - sila-3
+    - sila-5
+    - tujuan-2
+- id: ev-pembentukan-ppatk-2002
+  term_id: presiden-megawati
+  date: 2002-04-17
+  category: produk-hukum
+  title_id: Pembentukan Pusat Pelaporan dan Analisis Transaksi Keuangan (PPATK)
+    Melalui UU No. 15/2002
+  summary_id: Pengesahan UU No. 15/2002 membentuk PPATK sebagai unit intelijen
+    keuangan nasional (*Financial Intelligence Unit*) untuk melacak aliran dana
+    hasil kejahatan korupsi, pencucian uang, dan pendanaan terorisme.
+  source_ids:
+    - uu-15-2002-ppatk
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-uu-pilpres-langsung-2003
+  term_id: dpr-1999-2004
+  date: 2003-07-31
+  category: produk-hukum
+  title_id: Pengesahan UU Pemilihan Umum Presiden dan Wakil Presiden Langsung (UU
+    No. 23/2003)
+  summary_id: DPR mengesahkan payung hukum penyelenggaraan Pilpres langsung
+    pertama dalam sejarah Indonesia, mengembalikan kedaulatan memilih pemimpin
+    tertinggi eksekutif sepenuhnya ke tangan rakyat pemilih.
+  source_ids:
+    - uu-23-2003-pilpres-langsung
+  dimension_ids:
+    - sila-4
+    - kedaulatan-rakyat
+- id: ev-pembentukan-komisi-yudisial-2004
+  term_id: ky-2005-2010
+  date: 2004-08-13
+  category: produk-hukum
+  title_id: "Pengesahan UU No. 22 Tahun 2004 tentang Komisi Yudisial: Pengawasan
+    Etika & Martabat Kehakiman"
+  summary_id: Pengesahan UU No. 22/2004 membentuk Komisi Yudisial RI sebagai
+    lembaga pengawas eksternal independen yang berwenang mengusulkan
+    pengangkatan Hakim Agung dan menegakkan Kode Etik dan Pedoman Perilaku
+    Hakim.
+  source_ids:
+    - uu-22-2004-ky
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-uu-kewarganegaraan-anti-diskriminasi-2006
+  term_id: presiden-sby-i
+  date: 2006-08-01
+  category: produk-hukum
+  title_id: "Pengesahan UU Kewarganegaraan No. 12/2006: Menghapus Diskriminasi
+    Asal-Usul Keturunan"
+  summary_id: Pemerintah dan DPR mengesahkan UU No. 12/2006 yang mendefinisikan
+    bangsa Indonesia asli tanpa membedakan suku dan keturunan, menghapus
+    kewajiban SBKRI bagi WNI keturunan Tionghoa, dan memberikan kewarganegaraan
+    ganda terbatas bagi anak perkawinan campur.
+  source_ids:
+    - uu-12-2006-kewarganegaraan
+  dimension_ids:
+    - sila-2
+    - sila-3
+    - negara-hukum
+- id: ev-uu-pelayanan-publik-2009
+  term_id: presiden-sby-i
+  date: 2009-07-18
+  category: produk-hukum
+  title_id: "Pengesahan Undang-Undang Pelayanan Publik No. 25 Tahun 2009: Standar
+    Hak Warga atas Birokrasi"
+  summary_id: Pengesahan UU No. 25/2009 memberikan kepastian hukum bagi setiap
+    warga negara untuk mendapatkan standar pelayanan publik yang layak,
+    transparan, bebas pungli, serta mengatur ganti rugi atas kelalaian aparatur
+    negara.
+  source_ids:
+    - uu-25-2009-pelayanan-publik
+  dimension_ids:
+    - tujuan-2
+    - negara-hukum
+    - sila-5
+- id: ev-uu-bantuan-hukum-rakyat-miskin-2011
+  term_id: presiden-sby-ii
+  date: 2011-10-31
+  category: produk-hukum
+  title_id: "Pengesahan UU Bantuan Hukum No. 16/2011: Jaminan Pendampingan Advokat
+    Gratis bagi Masyarakat Miskin"
+  summary_id: Pengesahan UU No. 16/2011 mewajibkan negara mendanai bantuan hukum
+    gratis melalui Organisasi Bantuan Hukum (OBH) terakreditasi bagi warga
+    miskin yang berhadapan dengan hukum perdata, pidana, maupun tata usaha
+    negara.
+  source_ids:
+    - uu-16-2011-bankum
+  dimension_ids:
+    - sila-2
+    - negara-hukum
+    - sila-5
+- id: ev-pembentukan-ojk-terintegrasi-2011
+  term_id: presiden-sby-ii
+  date: 2011-11-22
+  category: produk-hukum
+  title_id: Pengesahan UU No. 21 Tahun 2011 tentang Otoritas Jasa Keuangan (OJK)
+  summary_id: Pengesahan UU OJK mengalihkan fungsi pengaturan dan pengawasan
+    perbankan dari Bank Indonesia serta pasar modal/IKNB dari Bapepam-LK ke
+    Otoritas Jasa Keuangan independen demi stabilitas sistem keuangan nasional.
+  source_ids:
+    - uu-21-2011-ojk
+  dimension_ids:
+    - checks-balances
+    - tujuan-2
+- id: ev-pengesahan-uu-tax-amnesty-2016
+  term_id: presiden-jokowi-i
+  date: 2016-07-01
+  category: produk-hukum
+  title_id: "Pengesahan UU Tax Amnesty No. 11/2016: Repatriasi dan Deklarasi Harta
+    Rp 4.800 Triliun"
+  summary_id: Pemerintah dan DPR memberlakukan program pengampunan pajak (Tax
+    Amnesty) yang berhasil menghimpun deklarasi harta Rp 4.881 triliun dan uang
+    tebusan Rp 135 triliun guna memperluas basis perpajakan dan likuiditas
+    perbankan.
+  source_ids:
+    - uu-11-2016-tax-amnesty
+  dimension_ids:
+    - tujuan-2
+    - sila-5
+- id: ev-divestasi-freeport-indonesia-51-persen-2018
+  term_id: presiden-jokowi-i
+  date: 2018-12-21
+  category: kebijakan
+  title_id: Pengambilalihan Mayoritas 51.23% Saham PT Freeport Indonesia ke
+    Pangkuan Negara (2018)
+  summary_id: Pemerintah Indonesia melalui Holding BUMN Tambang MIND ID/Inalum
+    resmi menuntaskan akuisisi 51.23% saham PT Freeport Indonesia senilai USD
+    3.85 miliar setelah 51 tahun dikuasai modal asing Freeport-McMoRan.
+  source_ids:
+    - dokumen-divestasi-freeport-2018
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+- id: ev-revisi-uu-kpk-pelemahan-independensi-2019
+  term_id: dpr-2014-2019
+  date: 2019-09-17
+  category: produk-hukum
+  title_id: "Pengesahan Revisi UU KPK No. 19/2019: Pelemahan Status Kelembagaan
+    dan Protes Reformasi Dikorupsi"
+  summary_id: "DPR dan Pemerintah mengesahkan revisi UU KPK secara kilat di akhir
+    masa jabatan yang mengubah status pegawai menjadi ASN, membentuk Dewan
+    Pengawas penyadap, dan membatasi kemandirian KPK, memicu demonstrasi
+    mahasiswa nasional #ReformasiDikorupsi."
+  source_ids:
+    - uu-19-2019-kpk
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-uu-kebijakan-keuangan-covid-2020
+  term_id: presiden-jokowi-ii
+  date: 2020-05-18
+  category: produk-hukum
+  title_id: Pengesahan UU No. 2 Tahun 2020 tentang Penanganan COVID-19 & Pelebaran
+    Defisit APBN di Atas 3%
+  summary_id: Pemerintah dan DPR mengesahkan payung hukum darurat kesehatan dan
+    ekonomi yang membolehkan defisit anggaran melampaui 3% PDB untuk mendanai
+    bantuan sosial tunai, vaksinasi gratis, dan stimulus pemulihan ekonomi
+    nasional.
+  source_ids:
+    - uu-2-2020-penanganan-covid
+  dimension_ids:
+    - tujuan-1
+    - tujuan-2
+    - sila-5
+- id: ev-uu-ikn-nusantara-2022
+  term_id: presiden-jokowi-ii
+  date: 2022-02-15
+  category: produk-hukum
+  title_id: Pengesahan UU No. 3 Tahun 2022 tentang Ibu Kota Nusantara (IKN) di
+    Kalimantan Timur
+  summary_id: DPR dan Presiden menyetujui pemindahan ibu kota negara dari Jakarta
+    ke Ibu Kota Nusantara (IKN) di Penajam Paser Utara, Kalimantan Timur guna
+    mendorong pemerataan pembangunan berorientasi Indonesia-Sentris.
+  source_ids:
+    - uu-3-2022-ikn
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+- id: ev-pengesahan-kuhp-nasional-2023
+  term_id: dpr-2019-2024
+  date: 2023-01-02
+  category: produk-hukum
+  title_id: "Pengesahan KUHP Baru (UU No. 1 Tahun 2023): Dekolonisasi Hukum Pidana
+    Indonesia"
+  summary_id: DPR dan Presiden mengesahkan KUHP Nasional untuk menggantikan
+    Wetboek van Strafrecht warisan kolonial Belanda 1918, memperkenalkan pidana
+    kerja sosial, keadilan restoratif (*restorative justice*), dan hukum yang
+    hidup dalam masyarakat (*living law*).
+  source_ids:
+    - uu-1-2023-kuhp
+  dimension_ids:
+    - negara-hukum
+    - sila-2
+- id: ev-putusan-mk-larangan-tarik-paksa-fidusia-2019
+  term_id: mk-2018-2023
+  date: 2020-01-06
+  category: pengadilan
+  title_id: "Putusan MK No. 18/PUU-XVII/2019: Perlindungan Debitur dari Penarikan
+    Paksa Kendaraan oleh Debt Collector"
+  summary_id: Mahkamah Konstitusi menetapkan bahwa eksekusi jaminan fidusia tidak
+    boleh dilakukan sepihak tanpa kesepakatan wanprestasi sukarela dari debitur
+    atau tanpa penetapan eksekusi dari Pengadilan Negeri.
+  source_ids:
+    - putusan-mk-18-puu-xvii-2019-fidusia
+  dimension_ids:
+    - negara-hukum
+    - sila-5
+- id: ev-audit-bpk-mega-skandal-jiwasraya-2020
+  term_id: bpk-2019-sekarang
+  date: 2020-03-09
+  category: krisis
+  title_id: Audit Investigatif BPK RI Menemukan Kerugian Negara Rp 16.8 Triliun
+    dalam Kasus Jiwasraya
+  summary_id: BPK RI menyerahkan LHP Investigatif kepada Kejaksaan Agung yang
+    mengungkap kerugian keuangan negara sebesar Rp 16.81 triliun akibat
+    manipulasi investasi saham gorengan direksi PT Asuransi Jiwasraya.
+  source_ids:
+    - laporan-audit-bpk-jiwasraya-2020
+  dimension_ids:
+    - tujuan-2
+    - checks-balances
+    - negara-hukum
+- id: ev-pembentukan-badan-penyelenggara-haji-2024
+  term_id: presiden-prabowo
+  date: 2024-11-05
+  category: produk-hukum
+  title_id: Pembentukan Badan Penyelenggara Haji (Perpres No. 154/2024) untuk Tata
+    Kelola Mandiri
+  summary_id: Presiden Prabowo Subianto menerbitkan Perpres No. 154/2024 yang
+    memisahkan pengelolaan dan penyelenggaraan ibadah haji dari Kementerian
+    Agama ke Badan Penyelenggara Haji independen demi transparansi kuota dan
+    efisiensi biaya.
+  source_ids:
+    - perpres-154-2024-badan-haji
+  dimension_ids:
+    - sila-1
+    - tujuan-2
+    - checks-balances

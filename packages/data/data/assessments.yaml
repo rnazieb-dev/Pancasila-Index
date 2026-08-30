@@ -89,11 +89,13 @@
         - source_id: uu-8-1999
         - source_id: uu-22-1999
         - source_id: uu-25-1999
+        - source_id: keppres-27-1998-bppn
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpr-uu-kppu-1999
         - ev-uu-otonomi-daerah-1999
+        - ev-pembentukan-bppn-rekapitalisasi-bank-1998
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.4
@@ -326,9 +328,11 @@
       evidence:
         - source_id: keppres-53-2001
         - source_id: putusan-munir-2008
+        - source_id: uu-21-2001-otsus-papua
       event_ids:
         - ev-megawati-pengadilan-timtim
         - ev-megawati-munir
+        - ev-uu-otsus-papua-2001
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -430,9 +434,11 @@
       evidence:
         - source_id: uu-24-2003
         - source_id: uu-30-2002-kpk
+        - source_id: uu-15-2002-ppatk
       event_ids:
         - ev-megawati-mk-dilantik
         - ev-pembentukan-kpk-2002
+        - ev-pembentukan-ppatk-2002
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -485,12 +491,14 @@
         - source_id: mou-helsinki-2005
         - source_id: uu-11-2006
         - source_id: skb-3-menteri-ahmadiyah-2008
+        - source_id: uu-12-2006-kewarganegaraan
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-sby-mou-helsinki
         - ev-skb-tiga-menteri-ahmadiyah-2008
         - ev-sby-skb-ahmadiyah
+        - ev-uu-kewarganegaraan-anti-diskriminasi-2006
     - dimension_id: sila-3
       score: 1
       confidence: 0.6
@@ -544,10 +552,12 @@
         kemandirian ekonomi rakyat.
       evidence:
         - source_id: uu-20-2008
+        - source_id: uu-25-2009-pelayanan-publik
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-sby-uu-umkm
+        - ev-uu-pelayanan-publik-2009
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.4
@@ -626,10 +636,12 @@
         warga meski penyelesaian HAM masa lalu mandek.
       evidence:
         - source_id: uu-24-2011
+        - source_id: uu-16-2011-bankum
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpr-uu-bpjs-2011
+        - ev-uu-bantuan-hukum-rakyat-miskin-2011
     - dimension_id: sila-3
       score: 1
       confidence: 0.45
@@ -736,10 +748,12 @@
         - source_id: laporan-tim-8-kpk-2009
         - source_id: rekomendasi-tim-8-kriminalisasi-kpk-2009
         - source_id: skp2-kejaksaan-bibit-chandra-2009
+        - source_id: uu-21-2011-ojk
       event_ids:
         - ev-sby2-md3
         - ev-kasus-cicak-buaya-2009
         - ev-kriminalisasi-bibit-chandra-2009
+        - ev-pembentukan-ojk-terintegrasi-2011
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -828,8 +842,10 @@
         sosial nyata.
       evidence:
         - source_id: perpres-63-2017
+        - source_id: dokumen-divestasi-freeport-2018
       event_ids:
         - ev-jokowi1-perluasan-pkh
+        - ev-divestasi-freeport-indonesia-51-persen-2018
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-1
@@ -850,8 +866,11 @@
         layanan publik.
       evidence:
         - source_id: uu-6-2014
+        - source_id: uu-11-2016-tax-amnesty
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-pengesahan-uu-tax-amnesty-2016
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.85
@@ -996,9 +1015,11 @@
       evidence:
         - source_id: uu-2-2020
         - source_id: berita-juliari-bansos-2020
+        - source_id: uu-3-2022-ikn
       event_ids:
         - ev-jokowi2-respons-pandemi
         - ev-jokowi2-juliari-bansos
+        - ev-uu-ikn-nusantara-2022
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-1
@@ -1015,12 +1036,14 @@
         - source_id: uu-3-2023
         - source_id: uu-5-2023
         - source_id: laporan-tgipf-kanjuruhan-2022
+        - source_id: uu-2-2020-penanganan-covid
       event_ids:
         - ev-jokowi2-respons-pandemi
         - ev-jokowi2-kanjuruhan
         - ev-presiden-darurat-kesehatan-covid-2020
         - ev-presiden-uu-fir-ekstradisi-singapura-2023
         - ev-tragedi-kanjuruhan-malang-2022
+        - ev-uu-kebijakan-keuangan-covid-2020
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-2
@@ -1161,10 +1184,12 @@
         masa jabatan kenegaraan.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
+        - source_id: perpres-154-2024-badan-haji
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-pelantikan-prabowo-2024
+        - ev-pembentukan-badan-penyelenggara-haji-2024
     - dimension_id: sila-2
       score: -1
       confidence: 0.3
@@ -1199,26 +1224,27 @@
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
-      score: 1
-      confidence: 0.85
-      rationale_id: Makan Bergizi Gratis menjadi program kesejahteraan anak paling
-        ambisius dalam sejarah republik.
+      score: -1
+      confidence: 0.6
+      rationale_id: >-
+        MBG memang program kesejahteraan berskala besar dan konstitusional secara substansi,
+        tetapi Putusan MK No. 40/PUU-XXIV/2026 (30 Juli 2026) menyatakan program MBG wajib
+        dipisahkan dari anggaran pendidikan. Dana pendidikan minimal 20% APBN/APBD hanya untuk
+        komponen utama pendidikan (peserta didik, pendidik dan tenaga kependidikan, sarana
+        prasarana, kurikulum, evaluasi) dan tidak memuat MBG, paling lambat APBN 2028. Membebankan
+        MBG ke pos anggaran pendidikan membuat angka 20% terpenuhi secara artifisial, menggerus
+        pembiayaan komponen utama pendidikan dan menimbulkan ketidakpastian hukum (Pasal 28D
+        ayat 1 serta Pasal 31 ayat 2 dan 4 UUD 1945). Keadilan distributif tidak dibangun di atas
+        penggerusan hak konstitusional warga atas pendidikan: skala program tidak menutupi cacat
+        konstitusional cara pembiayaannya.
       evidence:
-        - source_id: perpres-83-2024
-        - source_id: keppres-133-p-2024
-        - source_id: perpres-danantara-2025
+        - source_id: berita-mk-putusan-mbg-40-2026
         - source_id: laporan-investigasi-mbg-2025
-        - source_id: uu-62-2024
-        - source_id: dakwaan-kejagung-timah-2024
-        - source_id: perpres-badan-gizi-2024
+        - source_id: perpres-83-2024
       event_ids:
         - ev-prabowo-mbg
         - ev-perpres-makan-bergizi-2024
-        - ev-kabinet-merah-putih-2024
-        - ev-badan-danantara-2025
         - ev-mbg-risiko-korupsi-pengadaan-2025
-        - ev-kejagung-korupsi-timah-300t-2024
-        - ev-presiden-badan-gizi-2024
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-1
@@ -1235,25 +1261,22 @@
         - ev-prabowo-pelantikan-menteri-2024
         - ev-pelantikan-presiden-prabowo-2024
     - dimension_id: tujuan-2
-      score: 0
-      confidence: 0.85
-      rationale_id: MBG baru berjalan beberapa bulan dan belum terukur dampaknya.
-        Prioritas anggaran MBG memangkas pos riset dan pendidikan tinggi
-        lainnya. Terlalu prematur untuk menilai positif.
+      score: -1
+      confidence: 0.5
+      rationale_id: >-
+        Pembiayaan MBG dengan membebankannya ke pos anggaran pendidikan (yang dengan cara itu
+        dianggap memenuhi mandaat 20%) memangkas ruang fiskal untuk komponen utama pendidikan
+        dan kesejahteraan tenaga pendidik, sehingga kesejahteraan umum dicapai dengan cara yang
+        merusak hak konstitusional warga atas pendidikan (Putusan MK No. 40/PUU-XXIV/2026).
+        Meski cakupan penerima MBG nyata, keberlanjutan fiskal dan keadilan distribusinya
+        bermasalah.
       evidence:
+        - source_id: berita-mk-putusan-mbg-40-2026
+        - source_id: laporan-investigasi-mbg-2025
         - source_id: perpres-83-2024
-        - source_id: keppres-133-p-2024
-        - source_id: perpres-danantara-2025
-        - source_id: dakwaan-kejagung-timah-2024
-        - source_id: perpres-badan-gizi-2024
-        - source_id: perpres-83-2024-badan-gizi
       event_ids:
         - ev-perpres-makan-bergizi-2024
-        - ev-kabinet-merah-putih-2024
-        - ev-badan-danantara-2025
-        - ev-kejagung-korupsi-timah-300t-2024
-        - ev-presiden-badan-gizi-2024
-        - ev-program-makan-bergizi-gratis-2024
+        - ev-mbg-risiko-korupsi-pengadaan-2025
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-3
@@ -1536,12 +1559,14 @@
         - source_id: uu-40-1999
         - source_id: uu-21-2000
         - source_id: uu-32-2002
+        - source_id: uu-23-2003-pilpres-langsung
       event_ids:
         - ev-dpr99-pilpres-langsung
         - ev-otonomi-daerah-1999
         - ev-dpr-uu-pers-1999
         - ev-dpr-uu-serikat-pekerja-2000
         - ev-dpr-uu-penyiaran-2002
+        - ev-uu-pilpres-langsung-2003
       normative_anchors:
         - uud-nri-1945
 - id: asm-dpr04
@@ -2042,10 +2067,12 @@
         - source_id: uu-19-2019
         - source_id: laporan-pansus-kpk-2018
         - source_id: uu-5-2018
+        - source_id: uu-19-2019-kpk
       event_ids:
         - ev-dpr14-revisi-kpk
         - ev-dpr-pansus-angket-kpk-2017
         - ev-dpr-uu-terorisme-2018
+        - ev-revisi-uu-kpk-pelemahan-independensi-2019
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -2233,12 +2260,14 @@
         - source_id: uu-6-2023
         - source_id: uu-1-2023
         - source_id: uu-1-2024
+        - source_id: uu-1-2023-kuhp
       event_ids:
         - ev-dpr19-uu-ciptaker-permanen
         - ev-dpr-kuhp-nasional-2023
         - ev-dpr-uu-ite-revisi-2024
         - ev-dpr-kuhp-nasional-baru-2023
         - ev-dpr-uu-kuhp-2022
+        - ev-pengesahan-kuhp-nasional-2023
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -3067,6 +3096,7 @@
         - source_id: putusan-mk-112-puu-xx-2022
         - source_id: putusan-mkmk-2-2023
         - source_id: putusan-mk-114-puu-xx-2022
+        - source_id: putusan-mk-18-puu-xvii-2019-fidusia
       event_ids:
         - ev-mk4-etik-anwar-usman
         - ev-mk-putusan-fidusia-2020
@@ -3075,6 +3105,7 @@
         - ev-mk-putusan-fidusia-2019
         - ev-mk-putusan-90-2023
         - ev-mk-putusan-sistem-pemilu-terbuka-2023
+        - ev-putusan-mk-larangan-tarik-paksa-fidusia-2019
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -3478,10 +3509,12 @@
         - source_id: uu-86-1958
         - source_id: uu-80-1958
         - source_id: uu-11-1953-bi
+        - source_id: pp-23-1958-nasionalisasi
       event_ids:
         - ev-nasionalisasi-belanda-1958
         - ev-pembentukan-depernas-1959
         - ev-nasionalisasi-de-javasche-bank-1953
+        - ev-nasionalisasi-perusahaan-belanda-1958
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-1
@@ -3533,9 +3566,11 @@
         - source_id: uuds-1950
         - source_id: uu-86-1958
         - source_id: uu-80-1958
+        - source_id: uu-85-1958-depernas
       event_ids:
         - ev-nasionalisasi-belanda-1958
         - ev-pembentukan-depernas-1959
+        - ev-depernas-pembangunan-semesta-1958
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-3
@@ -3655,8 +3690,10 @@
       evidence:
         - source_id: dekrit-presiden-1959
         - source_id: pnps-1965
+        - source_id: keppres-1-3-1966-pembubaran-pki
       event_ids:
         - ev-soekarno2-pnps-1965
+        - ev-pembubaran-pki-supersemar-1966
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-2
@@ -3696,8 +3733,11 @@
         pemilu selama delapan tahun demokrasi terpimpin.
       evidence:
         - source_id: dekrit-presiden-1959
+        - source_id: keppres-200-1960-masyumi-psi
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-pembubaran-masyumi-psi-1960
     - dimension_id: sila-5
       score: -2
       confidence: 0.85
@@ -3724,10 +3764,12 @@
         - source_id: new-york-agreement-1962
         - source_id: trikora-1961
         - source_id: komando-dwikora-1964
+        - source_id: perjanjian-new-york-1962
       event_ids:
         - ev-soekarno2-irian-barat
         - ev-trikora-1961
         - ev-komando-dwikora-1964
+        - ev-perjanjian-new-york-irian-barat-1962
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-2
@@ -3762,10 +3804,12 @@
         - source_id: dwikora-konfrontasi-1963
         - source_id: dokumen-pbb-keluar-1965
         - source_id: komando-dwikora-1964
+        - source_id: surat-pbb-keluar-1965
       event_ids:
         - ev-soekarno2-konfrontasi
         - ev-pbb-keluar-1965
         - ev-komando-dwikora-1964
+        - ev-indonesia-keluar-pbb-1965
       normative_anchors:
         - uud-nri-1945
     - dimension_id: negara-hukum
@@ -3801,6 +3845,7 @@
         - source_id: supersemar-1966
         - source_id: tap-mprs-ix-1966
         - source_id: tap-mprs-iii-1963
+        - source_id: penpres-3-1960-dpr-gr
       event_ids:
         - ev-soekarno2-dekrit
         - ev-penpres-2-1959-mprs
@@ -3808,6 +3853,7 @@
         - ev-penpres-4-1960-dpr-gr
         - ev-supersemar-1966-peralihan
         - ev-tap-mprs-presiden-seumur-hidup-1963
+        - ev-pembubaran-dpr-1955-pembentukan-dpr-gr-1960
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -3877,6 +3923,9 @@
         - source_id: arsip-jim-kamboja-1988
         - source_id: keppres-36-1990
         - source_id: laporan-komnas-ham-petrus
+        - source_id: laporan-komnas-ham-priok-1984
+        - source_id: laporan-komnas-ham-talangsari-1989
+        - source_id: keppres-50-1993-komnas-ham
       event_ids:
         - ev-soeharto-timtim
         - ev-soeharto-petrus
@@ -3889,6 +3938,9 @@
         - ev-ratifikasi-crc-1990
         - ev-komnas-ham-1993
         - ev-operasi-petrus-1982-1985
+        - ev-peristiwa-tanjung-priok-1984
+        - ev-peristiwa-talangsari-1989
+        - ev-pembentukan-komnas-ham-1993
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -3922,6 +3974,9 @@
         - source_id: uu-15-1969
         - source_id: tap-mpr-ii-1978-p4
         - source_id: laporan-komnas-ham-kudatuli
+        - source_id: uu-3-1975-parpol-golkar
+        - source_id: dokumen-petisi-50-1980
+        - source_id: pidato-mundur-soeharto-1998
       event_ids:
         - ev-soeharto-fusi-partai
         - ev-soeharto-asas-tunggal
@@ -3932,6 +3987,9 @@
         - ev-uu-fusi-partai-politik-1975
         - ev-monopoli-p4-asas-tunggal-1978-1985
         - ev-penyerbuan-kudatuli-1996
+        - ev-fusi-partai-politik-1975
+        - ev-pernyataan-petisi-50-1980
+        - ev-pidato-pengunduran-diri-soeharto-1998
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -3973,6 +4031,7 @@
         - source_id: uu-7-1976
         - source_id: uu-17-1985
         - source_id: resolusi-pbb-2504-1969
+        - source_id: uu-7-1976-timtim
       event_ids:
         - ev-soeharto-mej-1998
         - ev-deklarasi-asean-1967
@@ -3995,6 +4054,7 @@
         - source_id: arsip-krismon-1997
         - source_id: keppres-36-1990
         - source_id: tap-mpr-iv-1978
+        - source_id: uu-1-1967-pma
       event_ids:
         - ev-soeharto-swasembada
         - ev-inpres-desa-tertinggal-1993
@@ -4004,6 +4064,7 @@
         - ev-krismon-rupiah-1997
         - ev-ratifikasi-crc-1990
         - ev-presiden-swasembada-fao-1984
+        - ev-uu-pma-modal-asing-1967
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-3
@@ -6440,6 +6501,7 @@
         - source_id: bpk-ihps-pen-2021
         - source_id: laporan-bpk-evaluasi-dana-desa-2022
         - source_id: ihps-bpk-i-2021
+        - source_id: laporan-audit-bpk-jiwasraya-2020
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -6449,6 +6511,7 @@
         - ev-bpk-audit-sawit-hutan-2023
         - ev-bpk-ihps-infrastruktur-2024
         - ev-bpk-audit-swasembada-pangan-2025
+        - ev-audit-bpk-mega-skandal-jiwasraya-2020
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.8
@@ -6529,6 +6592,7 @@
         - source_id: laporan-tahunan-ky-2007
         - source_id: putusan-mk-005-puu-iv-2006
         - source_id: peraturan-bersama-ky-ma-2009
+        - source_id: uu-22-2004-ky
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -6538,6 +6602,7 @@
         - ev-ky-laporan-mafia-peradilan-2007
         - ev-ky-putusan-mk-005-2006
         - ev-ky-peraturan-bersama-kepph-2009
+        - ev-pembentukan-komisi-yudisial-2004
     - dimension_id: checks-balances
       score: 0
       confidence: 0.85
@@ -7332,6 +7397,7 @@
         - source_id: tap-amandemen-uud-1999-2002
         - source_id: tap-mpr-xvii-1998
         - source_id: tap-mpr-xi-1998
+        - source_id: tap-mpr-xi-1998-kkn
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -7339,6 +7405,7 @@
         - ev-mpr-tap-xvii-1998
         - ev-mpr-tap-xi-1998
         - ev-mpr-tap-xvii-1998
+        - ev-tap-mpr-xi-1998-pemberantasan-kkn
     - dimension_id: kedaulatan-rakyat
       score: -2
       confidence: 0.9
@@ -7990,6 +8057,82 @@
       event_ids:
         - ev-dpd-pengawasan-pilkada-2024
         - ev-dpd-pemilihan-sultan-2024
+    - dimension_id: kedaulatan-rakyat
+      score: 1
+      confidence: 0.6
+      rationale_id: DPD menjalankan fungsi perwakilan daerah hasil pemilu dan
+        mengawasi penyelenggaraan pilkada serentak, memastikan suara daerah
+        tersalurkan di tingkat nasional.
+      evidence:
+        - source_id: risalah-paripurna-dpd-oktober-2024
+        - source_id: laporan-pilkada-kpu-2024
+      normative_anchors:
+        - uud-nri-1945
+      event_ids:
+        - ev-dpd-pemilihan-sultan-2024
+        - ev-dpd-pengawasan-pilkada-2024
+    - dimension_id: negara-hukum
+      score: 1
+      confidence: 0.55
+      rationale_id: DPD aktif mengawasi dampak pembangunan IKN terhadap hak-hak
+        masyarakat adat dan mengusulkan percepatan pengesahan RUU Masyarakat
+        Hukum Adat, menegaskan perlindungan kelompok rentan dalam kerangka
+        supremasi hukum.
+      evidence:
+        - source_id: laporan-dpd-pengawasan-ikn-2024
+      normative_anchors:
+        - uud-nri-1945
+      event_ids:
+        - ev-dpd-pengawasan-adat-ikn-2024
+        - ev-dpd-posisi-ruu-masyarakat-adat-2025
+    - dimension_id: tujuan-1
+      score: 1
+      confidence: 0.55
+      rationale_id: Pengawasan pembangunan IKN dan komitmen terhadap daerah
+        terluar/kepulauan memperkuat pemerataan pembangunan nasional dan
+        keutuhan wilayah.
+      evidence:
+        - source_id: laporan-dpd-pengawasan-ikn-2024
+      normative_anchors:
+        - uud-nri-1945
+      event_ids:
+        - ev-dpd-pengawasan-adat-ikn-2024
+    - dimension_id: tujuan-2
+      score: 1
+      confidence: 0.55
+      rationale_id: DPD mendesak penataan anggaran pendidikan dan transparansi
+        alokasi dana transfer ke daerah demi kesejahteraan dan pemerataan
+        layanan publik di daerah.
+      evidence:
+        - source_id: laporan-dpd-dbh-2018
+      normative_anchors:
+        - uud-nri-1945
+      event_ids:
+        - ev-dpd-evaluasi-anggaran-pendidikan-2025
+        - ev-dpd-advokasi-fiskal-daerah-2025
+    - dimension_id: sila-3
+      score: 1
+      confidence: 0.5
+      rationale_id: DPD memperjuangkan pengakuan masyarakat hukum adat dan
+        daerah-daerah kepulauan, meneguhkan persatuan dalam keberagaman
+        se-Indonesia.
+      evidence:
+        - source_id: laporan-dpd-pengawasan-ikn-2024
+      normative_anchors:
+        - uud-nri-1945
+      event_ids:
+        - ev-dpd-posisi-ruu-masyarakat-adat-2025
+    - dimension_id: sila-4
+      score: 1
+      confidence: 0.5
+      rationale_id: Keterlibatan DPD dalam pengusulan dan pembahasan RUU masyarakat hukum adat serta pengawasan daerah menegaskan representasi musyawarah di tingkat nasional.
+      evidence:
+        - source_id: laporan-dpd-pengawasan-ikn-2024
+      normative_anchors:
+        - uud-nri-1945
+      event_ids:
+        - ev-dpd-posisi-ruu-masyarakat-adat-2025
+
 - id: asm-mprs-1959-1971
   term_id: mprs-1959-1971
   rubric_version: 1.0.0
@@ -8031,6 +8174,52 @@
         - source_id: anri-risalah-sidang-mprs-1967
       normative_anchors:
         - uud-nri-1945
+    - dimension_id: kedaulatan-rakyat
+      score: -1
+      confidence: 0.5
+      rationale_id: Pemilu umum ditunda dan keanggotaan MPRS ditunjuk, sehingga kedaulatan rakyat dijalankan tanpa konsultasi elektoral pada masa demokrasi terpimpin.
+      evidence:
+        - source_id: anri-dekrit-presiden-5-juli-1959
+        - source_id: tap-mprs-ii-1960
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: sila-2
+      score: 0
+      confidence: 0.45
+      rationale_id: Penegasan Pancasila sebagai sumber tertib hukum menonjolkan kemanusiaan, tetapi pembubaran partai politik mengekang ruang hak sipil.
+      evidence:
+        - source_id: anri-risalah-sidang-mprs-1967
+        - source_id: tap-mprs-xxv-1966
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: tujuan-1
+      score: 0
+      confidence: 0.5
+      rationale_id: Kembalinya ke UUD 1945 dan GBHN pada MPRS menjaga keutuhan negara, meski dilakukan lewat dekrit tanpa musyawarah Dewan.
+      evidence:
+        - source_id: anri-dekrit-presiden-5-juli-1959
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: sila-5
+      score: -1
+      confidence: 0.45
+      rationale_id: Perekonomian terpimpin dan inflasi tinggi pada era ini menandakan keadilan sosial jauh dari tercapai; GBHN awal belum menjamin distribusi yang adil.
+      evidence:
+        - source_id: tap-mprs-ii-1960
+        - source_id: penpres-1-1959
+      normative_anchors:
+        - uud-nri-1945
+
+    - dimension_id: tujuan-2
+      score: -1
+      confidence: 0.45
+      rationale_id: Ekonomi terpimpin dan krisis inflasi masa demokrasi terpimpin menghambat kesejahteraan umum yang dicita-citakan.
+      evidence:
+        - source_id: penpres-1-1959
+        - source_id: tap-mprs-ii-1960
+      normative_anchors:
+        - uud-nri-1945
+
 - id: asm-dpr-knip-1945-1950
   term_id: dpr-knip-1945-1950
   rubric_version: 1.0.0
@@ -8062,6 +8251,56 @@
         - source_id: anri-maklumat-kabinet-parlementer-1945
       normative_anchors:
         - uud-nri-1945
+    - dimension_id: sila-3
+      score: 1
+      confidence: 0.45
+      rationale_id: Pembentukan KNIP dan penetapan dasar negara melalui PPKI menegakkan persatuan segenap bangsa di tengah revolusi kemerdekaan.
+      evidence:
+        - source_id: anri-ppki-sidang-22-agu-1945
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: sila-1
+      score: 1
+      confidence: 0.45
+      rationale_id: Rumusan dasar negara pasca-proklamasi menempatkan Ketuhanan sebagai sila pertama, meski tujuh kata Piagam Jakarta dipangkas demi kesatuan.
+      evidence:
+        - source_id: anri-ppki-sidang-18-agu-1945
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: negara-hukum
+      score: 1
+      confidence: 0.4
+      rationale_id: UUD 1945 dan lembaga negara dibentuk 1945 dalam tata hukum darurat revolusi; negara hukum mulai ditegakkan walau dalam keadaan perang.
+      evidence:
+        - source_id: anri-ppki-sidang-18-agu-1945
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: sila-2
+      score: 1
+      confidence: 0.4
+      rationale_id: Maklumat Pemerintah X dan pergeseran kabinet membuka ruang partisipasi politik yang menjunjung harkat kemanusiaan.
+      evidence:
+        - source_id: anri-maklumat-wakil-presiden-x-1945
+      normative_anchors:
+        - uud-nri-1945
+
+    - dimension_id: tujuan-1
+      score: 1
+      confidence: 0.4
+      rationale_id: Proklamasi dan pembentukan negara melalui PPKI menegakkan kedaulatan dan melindungi segenap bangsa dari ancaman luar.
+      evidence:
+        - source_id: anri-ppki-sidang-18-agu-1945
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: tujuan-2
+      score: 1
+      confidence: 0.4
+      rationale_id: Pembentukan pemerintahan dan lembaga keuangan negara tahun 1945 membangun fondasi kesejahteraan umum di awal revolusi.
+      evidence:
+        - source_id: anri-ppki-sidang-22-agu-1945
+      normative_anchors:
+        - uud-nri-1945
+
 - id: asm-dpr-1950-1960
   term_id: dpr-1950-1960
   rubric_version: 1.0.0
@@ -8096,6 +8335,48 @@
         - source_id: anri-dekrit-presiden-5-juli-1959
       normative_anchors:
         - uud-nri-1945
+    - dimension_id: sila-4
+      score: 1
+      confidence: 0.5
+      rationale_id: Konstituante dan pemilihan umum pertama 1955 menghidupkan musyawarah perwakilan dalam merumuskan konstitusi pengganti UUD 1945.
+      evidence:
+        - source_id: anri-risalah-konstituante-natsir-1957
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: negara-hukum
+      score: 1
+      confidence: 0.5
+      rationale_id: Persetujuan kembali ke NKRI dan pemberlakuan UUDS 1950 menata kembali negara hukum kesatuan setelah periode federal RIS.
+      evidence:
+        - source_id: anri-piagam-persetujuan-nkri-1950
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: tujuan-1
+      score: 0
+      confidence: 0.45
+      rationale_id: Proses parlementer yang dinamis dengan koalisi berganti-ganti menegaskan demokrasi liberal, namun ditandai ketidakstabilan kabinet.
+      evidence:
+        - source_id: anri-risalah-konstituante-natsir-1957
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: sila-1
+      score: 0
+      confidence: 0.45
+      rationale_id: Perdebatan dasar negara dalam Konstituante berlangsung terbuka termasuk ikatan keagamaan, namun tidak mencapai kesepakatan hingga dibubarkan oleh Dekrit 1959.
+      evidence:
+        - source_id: anri-risalah-konstituante-natsir-1957
+      normative_anchors:
+        - uud-nri-1945
+
+    - dimension_id: tujuan-2
+      score: 1
+      confidence: 0.5
+      rationale_id: Pemilihan umum 1955 dan upaya membangun ekonomi nasional pasca-federal memperkuat kesejahteraan umum warga.
+      evidence:
+        - source_id: anri-piagam-persetujuan-nkri-1950
+      normative_anchors:
+        - uud-nri-1945
+
 - id: asm-dpr-gr-1960-1971
   term_id: dpr-gr-1960-1971
   rubric_version: 1.0.0
@@ -8127,6 +8408,56 @@
         - source_id: tap-mprs-xxv-1966
       normative_anchors:
         - uud-nri-1945
+    - dimension_id: checks-balances
+      score: -1
+      confidence: 0.45
+      rationale_id: DPR-GR yang keanggotaannya banyak ditunjuk kehilangan kemandirian kontrol, dan Supersemar 1966 memindahkan kekuasaan besar ke eksekutif.
+      evidence:
+        - source_id: anri-supersemar-1966
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: sila-1
+      score: 0
+      confidence: 0.45
+      rationale_id: Sila Ketuhanan tetap ditegakkan secara formal, namun ruang kebebasan beragama dibatasi pada masa terpimpin dan awal Orde Baru.
+      evidence:
+        - source_id: tap-mprs-iii-1963
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: tujuan-1
+      score: 0
+      confidence: 0.45
+      rationale_id: UUPA No. 5 Tahun 1960 dan penataan agraria nasional menegakkan kedaulatan atas sumber daya, meski dilakukan dalam struktur politik yang sentralistik.
+      evidence:
+        - source_id: anri-uupa-5-1960
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: sila-5
+      score: 0
+      confidence: 0.45
+      rationale_id: UUPA memberikan landasan keadilan agraria bagi rakyat, namun implementasinya terhambat pada era mobilisasi politik.
+      evidence:
+        - source_id: anri-uupa-5-1960
+      normative_anchors:
+        - uud-nri-1945
+
+    - dimension_id: sila-4
+      score: -1
+      confidence: 0.45
+      rationale_id: Musyawarah perwakilan melalui DPR-GR yang keanggotaannya ditunjuk serta dominasi eksekutif mengurangi iklim musyawarah yang berkeadaban.
+      evidence:
+        - source_id: anri-supersemar-1966
+      normative_anchors:
+        - uud-nri-1945
+    - dimension_id: tujuan-2
+      score: 0
+      confidence: 0.4
+      rationale_id: Penataan agraria nasional lewat UUPA dan pemerataan pembangunan mengurangi ketimpangan, meski di bawah struktur politik terpusat.
+      evidence:
+        - source_id: anri-uupa-5-1960
+      normative_anchors:
+        - uud-nri-1945
+
 - id: asm-dpr-1971-1999
   term_id: dpr-1971-1999
   rubric_version: 1.0.0
