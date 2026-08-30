@@ -45,17 +45,23 @@ Setiap angka di sini punya alamat. Bukan opini yang menggantung — melainkan UU
 Perppu, putusan MK/MA, keppres, risalah sidang, arsip nasional, jurnal. Bisa
 dibuka ulang, bisa diperiksa.
 
-**Dan berjalan itu nyata.** Beberapa keputusan paling baru yang masuk korpus:
+**Dan berjalan itu nyata.** Beberapa keputusan paling baru yang masuk korpus
+(dengan rujukan ke peristiwa di `dataset.json`):
 
 - **MK, 28 Agustus 2026** — Putusan No. 282/PUU-XXIII/2025 membatalkan Pasal 240
   dan 241 KUHP (UU 1/2023) yang mengkriminalisasi penghinaan terhadap pemerintah
   dan lembaga negara, karena menciptakan efek gentar bagi kritik dan pendapat yang sah.
+  (Peristiwa tercatat di korpus; cari `mk-282-puu-xxiii-2025` di `/cari`.)
 - **MK, 30 Juli 2026** — Putusan No. 40/PUU-XXIV/2026: anggaran pendidikan minimum
   20% APBN/APBD hanya untuk komponen utama pendidikan; program makan bergizi gratis
-  (MBG) wajib dipisahkan darinya, paling lambat APBN 2028.
+  (MBG) wajib dipisahkan darinya, paling lambat APBN 2028. Skor sila-5
+  (Keadilan Sosial) untuk masa jabatan Presiden saat ini teregang ke bawah karena
+  keputusan ini.
 - **MA, Oktober 2024** — kasasi membatalkan vonis bebas Ronald Tannur menjadi 5 tahun,
   merespons kritik publik atas praktik peradilan.
 - **Presiden, 2024–kini** — peluncuran program MBG nasional di bawah Badan Gizi Nasional.
+  Penilaian Presidencya masa jabatan ini di korpus membawa trade-off: inisiatif sosial
+  vs. tekanan fiskal yang kini menjadi konstitusional setelah Putusan MK 40/PUU-XXIV/2026.
 
 Korpus ini tidak diam. Ia tumbuh setiap kali ada pengujian konstitusional, putusan,
 atau kebijakan baru — dan setiap tambahan ditinjau sejawat.
@@ -64,10 +70,18 @@ atau kebijakan baru — dan setiap tambahan ditinjau sejawat.
 
 ## Skala hari ini
 
+Angka-angka di bawah berasal dari hasil `pnpm build:data` terakhir dan
+bisa diaudit langsung di `packages/data/generated/dataset.json`.
+
 |  |  |  |  |
 |---:|---:|---:|---:|
 | **8** organ dinilai | **50** masa jabatan | **695** peristiwa berbukti | **634** sumber primer |
-| **12** dimensi penilaian | **103** indeks independen | **78** pasal UUD dipetakan | **123** aktor tertaut |
+| **12** dimensi penilaian | **123** aktor tertaut | **78** pasal UUD termuat (68 termeta ke dimensi) | **7** indeks eksternal |
+
+Dataset mentah untuk indeks eksternal (RSF, WGI Rule of Law, WGI Control of
+Corruption, dan empat lainnya) adalah lampiran di
+`packages/data/raw/external-indices/`. Lihat [metodologi.md](docs/metodologi.md)
+untuk bagaimana indeks eksternal dirangkai ke peristiwa.
 
 ## Mengapa berbeda
 
