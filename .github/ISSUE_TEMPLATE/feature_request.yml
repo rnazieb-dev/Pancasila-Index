@@ -1,0 +1,34 @@
+name: Feature request
+description: Usulkan fitur atau perbaikan metodologi baru
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Ide / masalah yang diselesaikan
+      description: Deskripsikan permintaan dan mengapa berguna bagi platform.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Antarmuka web
+        - Data & rubrik
+        - API
+        - Pipeline AI / kurasi
+        - Aksesibilitas / bahasa daerah
+        - Keamanan / kepatuhan UU PDP
+        - Lainnya
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Usulan solusi
+      description: Bagaimana sebaiknya diimplementasikan?
+  - type: checkboxes
+    id: willing
+    attributes:
+      label: Kesediaan
+      options:
+        - label: Saya bersedia membantu mengimplementasikan fitur ini

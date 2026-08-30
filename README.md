@@ -14,6 +14,10 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue.svg)](https://www.typescriptlang.org)
 [![pnpm 11](https://img.shields.io/badge/pnpm-11-orange.svg)](https://pnpm.io)
 [![Release v1.0.0](https://img.shields.io/badge/Release-v1.0.0-9cf.svg)](https://github.com/rnazieb-dev/Pancasila-Index/releases)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frnazieb-dev%2FPancasila-Index)
+
+[![Kontribusi](https://img.shields.io/badge/Berkontribusi-CONTRIBUTING.md-informational.svg)](CONTRIBUTING.md)
+[![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Covenant%202.1-purple.svg)](CODE_OF_CONDUCT.md)
 
 ## Skala saat ini
 
@@ -177,6 +181,8 @@ Lihat [CONTRIBUTING.md](CONTRIBUTING.md). Ringkasnya:
 - **Perbaikan rubrik**: usulkan perubahan dimensi/indikator/bobot beserta
   justifikasi; akan dinaikkan versinya.
 - **Penilaian baru**: ikuti skema `Assessment`; minimal satu reviewer, idealnya dua.
+
+Semua kontributor wajib mematuhi [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Lisensi
 

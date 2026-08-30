@@ -1,0 +1,50 @@
+name: Bug report
+description: Laporkan perilaku yang tidak sesuai atau galat pada Pancasila Index
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih atas laporan Anda. Sertakan detail agar kami bisa mereproduksi.
+
+  - type: textarea
+    id: what
+    attributes:
+      label: Apa yang terjadi?
+      description: Perilaku aktual vs. yang diharapkan.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Langkah mereproduksi
+      placeholder: |
+        1. Buka ...
+        2. Klik ...
+        3. Terjadi ...
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL / halaman
+      description: Halaman (mis. https://www.pancasila.site/...) tempat galat terjadi.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Web (UI)
+        - Data (penilaian / peristiwa)
+        - API
+        - Pipeline AI / kurasi
+        - Lainnya
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Konteks tambahan
+      description: Screenshot, log, atau lingkungan (peramban, perangkat).
