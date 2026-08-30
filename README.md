@@ -85,7 +85,7 @@ Beberapa hal yang tidak kami tawar:
 
 - Tanpa bukti primer, tanpa skor. Klaim bisa diaudit atau tidak masuk.
 - Rubrik adalah data di repo ini. Mengubah bobot atau dimensi berarti versi baru — bukan amandemen diam-diam.
-- AI boleh mengusulkan draf, tidak pernah menerbitkan. `ai_suggested` dan `human_confirmed` dipisahkan tegas.
+- AI membantu menyusun; manusia yang mengesahkan. Draf AI **diterbitkan sebagai pratinjau** agar dikaji para ahli — dan semua orang, termasuk Anda, adalah peninjunya. Label `ai_suggested` vs `human_confirmed` memisahkan draf mesin dari yang telah disahkan manusia.
 - Ketidaksetujuan tampil berdampingan, bukan dibuang. Penilaian reviewer berbeda ditampilkan apa adanya.
 - Bhinneka tunggal ika sampai ke antarmuka: id, en, jv, su, min — dan seterusnya.
 
