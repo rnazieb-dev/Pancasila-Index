@@ -93,6 +93,15 @@ export default async function ArsipDetailPage({
   // tersedia (atau ke halaman "tidak ditemukan" milik Wayback sendiri kalau
   // memang belum pernah diarsipkan - itu jujur, bukan klaim salah).
   const waybackHref = officialHref ? `https://web.archive.org/web/2/${officialHref}` : null;
+  // Salinan cadangan sungguhan di R2 (lihat scripts/archive-r2.mts). Tidak
+  // ditawarkan untuk source yang eksplisit ditandai archive_ok: false -
+  // arsipnya terkonfirmasi rusak (snapshot halaman blokir-bot, bukan
+  // dokumen asli), lihat docs/audit-source-url-mati-2026-09.md.
+  const archiveHref =
+    source.r2_key && source.archive_ok !== false
+      ? `https://www.pancasila.site/api/arsip/${source.r2_key}`
+      : null;
+  const archiveBroken = source.archive_ok === false;
 
   const isUud1945 = source.id === "uud-nri-1945";
 
@@ -147,6 +156,18 @@ export default async function ArsipDetailPage({
             </a>
           )}
 
+          {archiveHref && (
+            <a
+              href={archiveHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3 text-xs font-semibold text-[var(--text)] hover:border-slate-400 transition"
+            >
+              <IconArchive size={16} className="text-[var(--acc-amber-strong)]" />
+              <span>Unduh Salinan Arsip Pancasila Index</span>
+            </a>
+          )}
+
           {waybackHref && (
             <a
               href={waybackHref}
@@ -159,6 +180,14 @@ export default async function ArsipDetailPage({
             </a>
           )}
         </div>
+
+        {archiveBroken && (
+          <div className="rounded-xl border border-amber-500/30 bg-amber-500/5 px-4 py-3 text-xs text-[var(--muted)] leading-relaxed">
+            Arsip cadangan otomatis untuk dokumen ini gagal diambil karena situs
+            sumber memblokir akses otomatis (bot/WAF). Gunakan tautan sumber asli
+            atau Wayback Machine di atas.
+          </div>
+        )}
 
         {/* Metadata Registry Box */}
         <div className="rounded-3xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-4 shadow-2xs">

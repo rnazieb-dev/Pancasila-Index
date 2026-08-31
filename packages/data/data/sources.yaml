@@ -8,6 +8,7 @@
   r2_key: v2/peraturan/uud-nri-1945.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/uud-nri-1945.pdf
   url: https://anri.go.id/publikasi/arsip-tematik/uud-nri-1945
+  archive_ok: false
 - id: tap-amandemen-uud-1999-2002
   type: dokumen-mpr
   title_id: Perubahan Pertama sampai Keempat UUD 1945 (Sidang Umum/Sidang Tahunan
@@ -262,6 +263,7 @@
   url: https://www.mkri.id/index.php?page=web.Putusan&id=73/PUU-/2014
   r2_key: v2/putusan/putusan-mk-73-2014.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-73-2014.pdf
+  archive_ok: false
 - id: inpres-10-2011
   type: keppres
   title_id: Instruksi Presiden No. 10 Tahun 2011 tentang Moratorium Izin Baru
@@ -348,6 +350,7 @@
   url: https://www.mkri.id/index.php?page=web.Putusan&id=91/PUU-/2021
   r2_key: v2/putusan/putusan-mk-91-2021.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-91-2021.pdf
+  archive_ok: false
 - id: perppu-2-2022
   type: perppu
   title_id: Perppu No. 2 Tahun 2022 tentang Cipta Kerja (Pengganti UU Cipta Kerja
@@ -415,6 +418,7 @@
   url: https://www.mkri.id/index.php?page=web.Putusan&id=90/PUU-/2023
   r2_key: v2/putusan/putusan-mk-90-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-90-2023.pdf
+  archive_ok: false
 - id: mkmk-anwar-usman-2023
   type: laporan-lembaga
   title_id: Putusan Majelis Kehormatan Etik MK No. 2/MKMK/LKA/PL/11/2023
@@ -440,6 +444,7 @@
   url: https://www.mkri.id/index.php?page=web.Putusan&id=60/PUU-/2024
   r2_key: v2/putusan/putusan-mk-60-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-60-2024.pdf
+  archive_ok: false
 - id: revisi-md3-2025
   type: undang-undang
   title_id: Revisi UU MD3 yang disahkan DPR pada 20 Maret 2025
@@ -490,6 +495,7 @@
   url: https://www.mkri.id/index.php?page=web.Putusan&id=46/PUU-/2010
   r2_key: v2/putusan/putusan-mk-46-2010.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-46-2010.pdf
+  archive_ok: false
 - id: putusan-mk-100-2014
   type: putusan-mk
   title_id: Putusan MK No. 100/PUU-XII/2014 (pencalonan independen pada pilkada)
@@ -497,6 +503,7 @@
   url: https://www.mkri.id/index.php?page=web.Putusan&id=100/PUU-/2014
   r2_key: v2/putusan/putusan-mk-100-2014.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-100-2014.pdf
+  archive_ok: false
 - id: putusan-ma-akil-2014
   type: putusan-ma
   title_id: Putusan MA kasus suap Akil Mochtar (vonis seumur hidup) dan putusan
@@ -3363,10 +3370,10 @@
   url: https://www.bpk.go.id/publikasi/laporan-pengadaan-mbg-2025
 - id: berita-mk-putusan-mbg-40-2026
   type: berita
-  title_id: >-
-    Putusan MK No. 40/PUU-XXIV/2026 (30 Juli 2026) - anggaran program MBG wajib
-    dipisahkan dari anggaran pendidikan; dana pendidikan minimum 20% APBN/APBD
-    hanya untuk komponen utama pendidikan dan tidak lagi memuat program MBG
+  title_id: Putusan MK No. 40/PUU-XXIV/2026 (30 Juli 2026) - anggaran program MBG
+    wajib dipisahkan dari anggaran pendidikan; dana pendidikan minimum 20%
+    APBN/APBD hanya untuk komponen utama pendidikan dan tidak lagi memuat
+    program MBG
   year: 2026
   citation_id: Humas MKRI, 30 Juli 2026
   url: https://www.mkri.id/berita/anggaran-mbg-harus-dipisahkan-dari-anggaran-pendidikan-25496
@@ -4920,6 +4927,7 @@
   url: https://search.iisg.amsterdam/Record/pki-musso-djalan-baru-1948
   r2_key: v2/sejarah/iisg-pki-musso-djalan-baru-1948.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/iisg-pki-musso-djalan-baru-1948.pdf
+  archive_ok: false
 - id: iisg-pki-aidit-djalan-rakjat-1954
   type: arsip-nasional
   title_id: Naskah Pidato Kongres Nasional Ke-V PKI 'Menempuh Djalan Rakjat' (D.N.
@@ -4929,6 +4937,7 @@
   url: https://search.iisg.amsterdam/Record/pki-aidit-djalan-rakjat-1954
   r2_key: v2/sejarah/iisg-pki-aidit-djalan-rakjat-1954.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/iisg-pki-aidit-djalan-rakjat-1954.pdf
+  archive_ok: false
 - id: anri-mahmillub-untung-1966
   type: arsip-nasional
   title_id: Risalah Stenografis Sidang Mahkamah Militer Luar Biasa (Mahmillub)
@@ -5064,6 +5073,7 @@
   url: https://search.iisg.amsterdam/Record/tan-malaka-gerpolek-1948
   r2_key: v2/sejarah/iisg-tan-malaka-gerpolek-1948.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/iisg-tan-malaka-gerpolek-1948.pdf
+  archive_ok: false
 - id: kitlv-diponegoro-manuskrip-1831
   type: arsip-nasional
   title_id: Naskah Asli Babad Diponegoro Tulisan Tangan di Manado/Makassar 1831–1832

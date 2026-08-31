@@ -101,6 +101,14 @@ export const sourceSchema = z.object({
   citation_id: z.string().optional(),
   r2_key: z.string().optional(),
   archive_url: z.string().url().optional(),
+  /**
+   * false = arsip di R2 untuk sumber ini terkonfirmasi rusak (snapshot
+   * halaman blokir-bot situs sumber, bukan dokumen asli - lihat
+   * docs/audit-source-url-mati-2026-09.md). Sengaja tidak dihapus dari
+   * dataset - ditandai eksplisit agar UI tidak menyajikannya seolah valid.
+   * Default (tidak diisi) = dianggap valid.
+   */
+  archive_ok: z.boolean().optional(),
   /** Diisi build: tautan yang pasti bisa dibuka (portal resmi/pencarian). */
   resolved_url: z.string().url().optional(),
   /** Diisi build: path halaman dokumen di situs ini (/arsip/<id>). */
