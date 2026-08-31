@@ -106,12 +106,12 @@ export default function MetodologiPage() {
         <div className="text-[11px] font-mono font-bold uppercase tracking-wider text-[var(--acc-amber-strong)]">
           Fondasi Epistemologis
         </div>
-        <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[var(--text)]">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text)]">
           Audit Masa Jabatan Kelembagaan & Genealogi Konstitusi
         </h2>
       </div>
 
-      <p className="text-sm sm:text-base text-[var(--text)] leading-relaxed font-serif">
+      <p className="text-sm sm:text-base text-[var(--text)] leading-relaxed">
         Pancasila Index dirancang secara sadar untuk menolak <strong>personalisasi politik, kultus figur, dan bias partisan</strong>. Fokus evaluasi platform ini adalah <strong>audit masa jabatan kelembagaan (*institutional tenure audit*)</strong> terhadap 8 organ konstitusional UUD 1945 (Presiden, DPR, MPR, DPD, MK, MA, BPK, KY) dari 1945 hingga era kontemporer.
       </p>
 
@@ -119,30 +119,30 @@ export default function MetodologiPage() {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
         <div className="p-4 rounded-xl border border-[var(--line)] bg-[var(--panel)] text-center shadow-2xs">
           <div className="font-mono text-2xl sm:text-3xl font-black text-[var(--acc-amber-strong)]">8</div>
-          <div className="text-xs text-[var(--muted)] font-sans mt-1">Organ Konstitusional</div>
+          <div className="text-xs text-[var(--muted)] mt-1">Organ Konstitusional</div>
         </div>
         <div className="p-4 rounded-xl border border-[var(--line)] bg-[var(--panel)] text-center shadow-2xs">
-          <div className="font-mono text-2xl sm:text-3xl font-black text-[var(--acc-sky-strong)]">45</div>
-          <div className="text-xs text-[var(--muted)] font-sans mt-1">Masa Jabatan Diaudit</div>
+          <div className="font-mono text-2xl sm:text-3xl font-black text-[var(--acc-sky-strong)]">{dataset.terms.length}</div>
+          <div className="text-xs text-[var(--muted)] mt-1">Masa Jabatan Diaudit</div>
         </div>
         <div className="p-4 rounded-xl border border-[var(--line)] bg-[var(--panel)] text-center shadow-2xs">
-          <div className="font-mono text-2xl sm:text-3xl font-black text-[var(--acc-emerald-strong)]">653</div>
-          <div className="text-xs text-[var(--muted)] font-sans mt-1">Peristiwa Multi-Bukti</div>
+          <div className="font-mono text-2xl sm:text-3xl font-black text-[var(--acc-emerald-strong)]">{dataset.events.length}</div>
+          <div className="text-xs text-[var(--muted)] mt-1">Peristiwa Multi-Bukti</div>
         </div>
         <div className="p-4 rounded-xl border border-[var(--line)] bg-[var(--panel)] text-center shadow-2xs">
-          <div className="font-mono text-2xl sm:text-3xl font-black text-[var(--acc-red-strong)]">578</div>
-          <div className="text-xs text-[var(--muted)] font-sans mt-1">Sumber Primer Aktif</div>
+          <div className="font-mono text-2xl sm:text-3xl font-black text-[var(--acc-red-strong)]">{dataset.sources.length}</div>
+          <div className="text-xs text-[var(--muted)] mt-1">Sumber Primer Aktif</div>
         </div>
       </div>
 
       <div className="rounded-xl border border-[var(--acc-amber)]/30 bg-[var(--acc-amber)]/10 p-5 sm:p-7 space-y-4">
-        <h3 className="font-serif font-bold text-lg text-[var(--text)]">
+        <h3 className=" font-bold text-lg text-[var(--text)]">
           Hermeneutika Sejarah & Harmoni Simbiotik Agama-Negara
         </h3>
-        <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed font-serif">
+        <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
           Pancasila Index menolak de-historisasi. Republik Indonesia tidak lahir dari ruang hampa pada 17 Agustus 1945, melainkan berakar dari genealogi pergerakan dua abad yang digerakkan oleh napas keagamaan, perlawanan anti-kolonial, dan tradisi kerakyatan nusantara:
         </p>
-        <ul className="space-y-2.5 text-xs sm:text-sm text-[var(--text)] list-disc pl-5 font-serif">
+        <ul className="space-y-2.5 text-xs sm:text-sm text-[var(--text)] list-disc pl-5">
           <li>
             <strong className="text-[var(--text)]">Syarikat Dagang Islam (1905) & Syarikat Islam (1912):</strong> Titik nol kesadaran kedaulatan mandiri (*Zelfbestuur*) yang menentang penindasan ekonomi feodal-kolonial dengan etika tauhid kerakyatan.
           </li>
@@ -175,7 +175,7 @@ export default function MetodologiPage() {
         <div className="text-[11px] font-mono font-bold uppercase tracking-wider text-[var(--acc-sky-strong)]">
           Kerangka Riset Empiris
         </div>
-        <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[var(--text)]">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text)]">
           Empat Pilar Riset & Hierarki 5 Strata Bukti Primer
         </h2>
       </div>
@@ -187,14 +187,14 @@ export default function MetodologiPage() {
             <span className="font-mono text-xs font-bold px-2 py-0.5 rounded bg-[var(--acc-sky)]/10 text-[var(--acc-sky-strong)] border border-[var(--acc-sky)]/30">
               Pilar 1
             </span>
-            <h3 className="font-serif font-bold text-base sm:text-lg text-[var(--text)]">
+            <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
               Analisis Kesetiaan Teks Konstitusi (*Constitutional Fidelity*)
             </h3>
           </div>
-          <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed font-serif">
+          <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
             Menguji keselarasan tindakan, legislasi, keputusan pejabat, dan putusan peradilan terhadap tiga hierarki konstitusional:
           </p>
-          <ul className="space-y-2 text-xs sm:text-sm text-[var(--text)] list-disc pl-5 font-serif">
+          <ul className="space-y-2 text-xs sm:text-sm text-[var(--text)] list-disc pl-5">
             {dataset.rubric.groups.map((g) => {
               const dims = dataset.rubric.dimensions.filter((d) => d.group_id === g.id);
               const porsiGrup = dims.reduce((a, d) => a + (influence.get(d.id) ?? 0), 0);
@@ -218,29 +218,29 @@ export default function MetodologiPage() {
             <span className="font-mono text-xs font-bold px-2 py-0.5 rounded bg-[var(--acc-red)]/10 text-[var(--acc-red-strong)] border border-[var(--acc-red)]/30">
               Pilar 2
             </span>
-            <h3 className="font-serif font-bold text-base sm:text-lg text-[var(--text)]">
+            <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
               Analisis Kesenjangan Implementasi (*Law-in-Books vs Law-in-Action Gap*)
             </h3>
           </div>
-          <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed font-serif">
+          <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
             Membedakan secara tegas antara klaim teks regulasi formal (*law in the books*) dengan kenyataan penegakan hukum di lapangan (*law in action*):
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
             <div className="p-3.5 rounded-lg border border-[var(--line)] bg-[var(--bg)]">
               <div className="font-bold text-xs text-[var(--acc-red-strong)]">Contempt of Court</div>
-              <div className="text-[11px] text-[var(--muted)] mt-1 leading-relaxed font-serif">
+              <div className="text-[11px] text-[var(--muted)] mt-1 leading-relaxed">
                 Mengaudit ketidakpatuhan pejabat pemerintah terhadap putusan pengadilan yang inkracht (PTUN, MK, CLS).
               </div>
             </div>
             <div className="p-3.5 rounded-lg border border-[var(--line)] bg-[var(--bg)]">
               <div className="font-bold text-xs text-[var(--acc-red-strong)]">Korupsi Sistemik</div>
-              <div className="text-[11px] text-[var(--muted)] mt-1 leading-relaxed font-serif">
+              <div className="text-[11px] text-[var(--muted)] mt-1 leading-relaxed">
                 Menelusuri keterlibatan elite peradilan, pimpinan kementerian, dan auditor negara dalam mafia hukum.
               </div>
             </div>
             <div className="p-3.5 rounded-lg border border-[var(--line)] bg-[var(--bg)]">
               <div className="font-bold text-xs text-[var(--acc-red-strong)]">Kriminalisasi vs Impunitas</div>
-              <div className="text-[11px] text-[var(--muted)] mt-1 leading-relaxed font-serif">
+              <div className="text-[11px] text-[var(--muted)] mt-1 leading-relaxed">
                 Membandingkan pemidanaan aktivis/petani dengan remisi massal dan diskon hukuman koruptor kakap.
               </div>
             </div>
@@ -253,41 +253,41 @@ export default function MetodologiPage() {
             <span className="font-mono text-xs font-bold px-2 py-0.5 rounded bg-[var(--acc-emerald)]/10 text-[var(--acc-emerald-strong)] border border-[var(--acc-emerald)]/30">
               Pilar 3
             </span>
-            <h3 className="font-serif font-bold text-base sm:text-lg text-[var(--text)]">
+            <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
               Hierarki 5 Strata Bukti Primer (*Primary Evidence Triangulation*)
             </h3>
           </div>
-          <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed font-serif">
+          <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
             Setiap penilaian wajib memiliki minimal satu sitasi bukti primer ber-URL permanen (*provenance-backed*):
           </p>
           <div className="space-y-2 text-xs">
             <div className="p-3 rounded-lg border border-[var(--line)] bg-[var(--bg)] flex items-start gap-3">
               <span className="font-mono font-black text-[var(--acc-amber-strong)] shrink-0">STRATA I</span>
-              <div className="text-[var(--text)] font-serif">
+              <div className="text-[var(--text)]">
                 <strong className="text-[var(--text)]">Lembaran Negara RI:</strong> UU, Perppu, Perpres, Keppres, Peraturan Pemerintah resmi.
               </div>
             </div>
             <div className="p-3 rounded-lg border border-[var(--line)] bg-[var(--bg)] flex items-start gap-3">
               <span className="font-mono font-black text-[var(--acc-sky-strong)] shrink-0">STRATA II</span>
-              <div className="text-[var(--text)] font-serif">
+              <div className="text-[var(--text)]">
                 <strong className="text-[var(--text)]">Risalah Sidang Resmi:</strong> Risalah Amandemen UUD 1945 MPR RI, Risalah Rapat Paripurna DPR RI, Risalah Pansus Angket.
               </div>
             </div>
             <div className="p-3 rounded-lg border border-[var(--line)] bg-[var(--bg)] flex items-start gap-3">
               <span className="font-mono font-black text-[var(--acc-emerald-strong)] shrink-0">STRATA III</span>
-              <div className="text-[var(--text)] font-serif">
+              <div className="text-[var(--text)]">
                 <strong className="text-[var(--text)]">Direktori Putusan Pengadilan:</strong> Putusan Mahkamah Konstitusi (MKRI), Putusan Kasasi/PK Mahkamah Agung (MA), Putusan PTUN, Tipikor, MKMK.
               </div>
             </div>
             <div className="p-3 rounded-lg border border-[var(--line)] bg-[var(--bg)] flex items-start gap-3">
               <span className="font-mono font-black text-[var(--acc-purple-strong)] shrink-0">STRATA IV</span>
-              <div className="text-[var(--text)] font-serif">
+              <div className="text-[var(--text)]">
                 <strong className="text-[var(--text)]">Laporan Audit Lembaga Negara:</strong> LHP BPK RI, LAHP Ombudsman RI, Laporan Penyelidikan Komnas HAM, Laporan Komisi Yudisial, Statistik KPK.
               </div>
             </div>
             <div className="p-3 rounded-lg border border-[var(--line)] bg-[var(--bg)] flex items-start gap-3">
               <span className="font-mono font-black text-[var(--acc-red-strong)] shrink-0">STRATA V</span>
-              <div className="text-[var(--text)] font-serif">
+              <div className="text-[var(--text)]">
                 <strong className="text-[var(--text)]">Investigasi Masyarakat Sipil:</strong> Catatan Akhir Tahun KPA, Catatan ICEL/WALHI, Tren Korupsi ICW, Laporan Hak Digital SAFENet, Kertas Kebijakan Koalisi Reformasi Keamanan.
               </div>
             </div>
@@ -300,11 +300,11 @@ export default function MetodologiPage() {
             <span className="font-mono text-xs font-bold px-2 py-0.5 rounded bg-[var(--acc-amber)]/10 text-[var(--acc-amber-strong)] border border-[var(--acc-amber)]/30">
               Pilar 4
             </span>
-            <h3 className="font-serif font-bold text-base sm:text-lg text-[var(--text)]">
+            <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
               Triangulasi 8 Indeks Independen Pihak Ketiga
             </h3>
           </div>
-          <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed font-serif">
+          <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
             Untuk membongkar bias birokrasi dan laporan seremonial, platform mengintegrasikan 8 indeks independen berbasis data keras (*hard data*) dan *expert-coded double-blind*:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
@@ -315,7 +315,7 @@ export default function MetodologiPage() {
               >
                 <div className="font-bold text-xs text-[var(--text)]">{idx.name}</div>
                 <div className="text-[10px] text-[var(--acc-amber-strong)] font-semibold">{idx.provider}</div>
-                <p className="text-[11px] text-[var(--muted)] leading-relaxed font-serif">{idx.focus}</p>
+                <p className="text-[11px] text-[var(--muted)] leading-relaxed">{idx.focus}</p>
               </div>
             ))}
           </div>
@@ -331,14 +331,14 @@ export default function MetodologiPage() {
         <div className="text-[11px] font-mono font-bold uppercase tracking-wider text-[var(--acc-emerald-strong)]">
           Instrumen Penilaian
         </div>
-        <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[var(--text)]">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text)]">
           Rubrik 12 Dimensi & Jangkar Perilaku (-2 s.d. +2)
         </h2>
       </div>
 
       {/* Skala -2 s.d. +2 */}
       <div className="space-y-3">
-        <h3 className="font-serif font-bold text-lg text-[var(--text)]">
+        <h3 className=" font-bold text-lg text-[var(--text)]">
           Jangkar Perilaku Kuantitatif (-2 s.d. +2)
         </h3>
         <div className="space-y-3">
@@ -357,10 +357,10 @@ export default function MetodologiPage() {
                   </span>
                 </div>
               </div>
-              <p className="text-xs sm:text-sm text-[var(--text)] font-serif leading-relaxed">
+              <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
                 {s.desc}
               </p>
-              <div className="p-3 rounded-lg border border-[var(--line)] bg-[var(--bg)] text-xs text-[var(--muted)] font-serif">
+              <div className="p-3 rounded-lg border border-[var(--line)] bg-[var(--bg)] text-xs text-[var(--muted)]">
                 <strong className="text-[var(--text)]">Preseden Empiris:</strong> {s.example}
               </div>
             </div>
@@ -370,7 +370,7 @@ export default function MetodologiPage() {
 
       {/* Matriks 12 Dimensi */}
       <div className="space-y-4 pt-6 border-t border-[var(--line)]">
-        <h3 className="font-serif font-bold text-lg text-[var(--text)]">
+        <h3 className=" font-bold text-lg text-[var(--text)]">
           Matriks Lengkap 12 Dimensi Konstitusional
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
@@ -396,10 +396,10 @@ export default function MetodologiPage() {
                     </span>
                   </div>
                 </div>
-                <h4 className="font-serif font-bold text-sm text-[var(--text)]">
+                <h4 className=" font-bold text-sm text-[var(--text)]">
                   {d.name_id}
                 </h4>
-                <p className="text-xs text-[var(--muted)] leading-relaxed font-serif">
+                <p className="text-xs text-[var(--muted)] leading-relaxed">
                   {d.question_id}
                 </p>
               </div>
@@ -417,17 +417,17 @@ export default function MetodologiPage() {
         <div className="text-[11px] font-mono font-bold uppercase tracking-wider text-[var(--acc-purple-strong)]">
           Formulasi Matematis
         </div>
-        <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[var(--text)]">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text)]">
           Algoritma Penskoran, Normalisasi & Rentang Galat
         </h2>
       </div>
 
       {/* Formula 1 */}
       <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-6 space-y-3 shadow-2xs">
-        <h3 className="font-serif font-bold text-base sm:text-lg text-[var(--text)]">
+        <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
           1. Rata-Rata Skor Dimensi Polos ($S_d$)
         </h3>
-        <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed font-serif">
+        <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
           Skor dimensi dirata-rata polos lintas penilai independen $r \in R_d$. Skor tanpa bukti empiris (*evidence gap*) dikeluarkan dari himpunan $R_d$:
         </p>
         <div className="p-4 rounded-lg bg-[var(--bg)] border border-[var(--line)] font-mono text-xs sm:text-sm text-center text-[var(--text)] font-semibold">
@@ -437,10 +437,10 @@ export default function MetodologiPage() {
 
       {/* Formula 2 */}
       <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-6 space-y-3 shadow-2xs">
-        <h3 className="font-serif font-bold text-base sm:text-lg text-[var(--text)]">
+        <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
           2. Skor Kelompok Landasan ($G_k$)
         </h3>
-        <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed font-serif">
+        <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
           Rerata tertimbang dari dimensi dalam kelompok landasan $G_k$. Keyakinan bukti tidak membobot nilai ini:
         </p>
         <div className="p-4 rounded-lg bg-[var(--bg)] border border-[var(--line)] font-mono text-xs sm:text-sm text-center text-[var(--text)] font-semibold">
@@ -450,33 +450,33 @@ export default function MetodologiPage() {
 
       {/* Formula 3 */}
       <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-6 space-y-3 shadow-2xs">
-        <h3 className="font-serif font-bold text-base sm:text-lg text-[var(--text)]">
+        <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
           3. Indeks Komposit Konstitusional 0–100 ($K$)
         </h3>
-        <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed font-serif">
+        <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
           Rerata tertimbang antarkelompok landasan yang dinormalisasi dengan porsi tetap:
         </p>
         <div className="p-4 rounded-lg bg-[var(--bg)] border border-[var(--line)] font-mono text-xs sm:text-sm text-center text-[var(--text)] font-semibold space-y-1">
           <div>{"K = (∑_k G_k · W_k · c_k) / (∑_k W_k · c_k)"}</div>
           <div>{"Indeks = min(50 + 25 · K, Batas_Hak_Dasar)"}</div>
         </div>
-        <p className="text-xs text-[var(--muted)] leading-relaxed font-serif">
+        <p className="text-xs text-[var(--muted)] leading-relaxed">
           Dengan bobot kelompok tetap: Pancasila = 40%, Pembukaan UUD = 30%, Norma Struktural = 30%.
         </p>
       </div>
 
       {/* Formula 4 */}
       <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-6 space-y-3 shadow-2xs">
-        <h3 className="font-serif font-bold text-base sm:text-lg text-[var(--text)]">
+        <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
           4. Rentang Ketidakpastian Linear ($H$) & Batas Hak Mutlak
         </h3>
-        <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed font-serif">
+        <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
           Keyakinan bukti melaporkan lebar interval ketidakpastian secara linear (bukan kuadratur), dengan rentang maksimal $\pm 12.5$ poin indeks pada keyakinan 0:
         </p>
         <div className="p-4 rounded-lg bg-[var(--bg)] border border-[var(--line)] font-mono text-xs sm:text-sm text-center text-[var(--text)] font-semibold">
           {"H = (∑ w · (1 - c) · h_max) / ∑ w,   h_max = 0.5 (±12.5 poin indeks)"}
         </div>
-        <div className="p-3.5 rounded-lg border border-[var(--acc-red)]/30 bg-[var(--acc-red)]/10 text-xs text-[var(--text)] space-y-1 font-serif">
+        <div className="p-3.5 rounded-lg border border-[var(--acc-red)]/30 bg-[var(--acc-red)]/10 text-xs text-[var(--text)] space-y-1">
           <strong className="text-[var(--acc-red-strong)]">Plafon Hak yang Tidak Dapat Dikurangi (Pasal 28I ayat 1 UUD 1945):</strong>
           <div>• Skor $-2$ pada dimensi hak asasi mutlak $\implies$ Plafon Indeks Maksimal = 25.</div>
           <div>• Skor $\le -1$ pada dimensi hak asasi mutlak $\implies$ Plafon Indeks Maksimal = 50.</div>
@@ -484,12 +484,12 @@ export default function MetodologiPage() {
       </div>
 
       {/* Catatan Celah Terbuka */}
-      <div className="rounded-xl border border-[var(--acc-amber)]/30 bg-[var(--acc-amber)]/10 p-5 space-y-2 text-xs font-serif text-[var(--text)]">
-        <div className="font-bold text-[var(--acc-amber-strong)] uppercase tracking-wider text-[11px] font-sans">
+      <div className="rounded-xl border border-[var(--acc-amber)]/30 bg-[var(--acc-amber)]/10 p-5 space-y-2 text-xs text-[var(--text)]">
+        <div className="font-bold text-[var(--acc-amber-strong)] uppercase tracking-wider text-[11px]">
           Deklarasi Transparansi Metodologi: Agregasi Multi-Peristiwa ke Bilangan Bulat
         </div>
         <p className="leading-relaxed">
-          Pancasila Index memuat 653 peristiwa empiris. Bagaimana puluhan peristiwa dalam satu dimensi diringkas menjadi satu bilangan bulat $-2..+2$ adalah telaah kualitatif dewan kurator (expert judgment) yang didukung bukti primer ber-URL permanen. Angka indeks komposit dihitung 100% secara deterministik dari skor dimensi tersebut.
+          Pancasila Index memuat {dataset.events.length} peristiwa empiris. Bagaimana puluhan peristiwa dalam satu dimensi diringkas menjadi satu bilangan bulat $-2..+2$ adalah telaah kualitatif dewan kurator (expert judgment) yang didukung bukti primer ber-URL permanen. Angka indeks komposit dihitung 100% secara deterministik dari skor dimensi tersebut.
         </p>
       </div>
     </section>
@@ -502,16 +502,16 @@ export default function MetodologiPage() {
         <div className="text-[11px] font-mono font-bold uppercase tracking-wider text-[var(--acc-red-strong)]">
           Tata Kelola Peer-Review
         </div>
-        <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[var(--text)]">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text)]">
           Protokol Kurasi Kuorum Ganda & Deklarasi Etika AI
         </h2>
       </div>
 
       <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-6 space-y-4 shadow-2xs">
-        <h3 className="font-serif font-bold text-base sm:text-lg text-[var(--text)]">
+        <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
           Siklus Hidup Penilaian (*Double-Reviewer Quorum*)
         </h3>
-        <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed font-serif">
+        <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
           Tidak ada skor atau narasi yang dapat dipublikasikan secara resmi ke publik tanpa persetujuan manual minimal dua orang penelaah independen:
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
@@ -520,7 +520,7 @@ export default function MetodologiPage() {
               Tahap 1
             </span>
             <div className="font-bold text-[var(--text)] pt-1">Draf Asesmen</div>
-            <p className="text-[var(--muted)] text-[11px] leading-relaxed font-serif">
+            <p className="text-[var(--muted)] text-[11px] leading-relaxed">
               Dibuat oleh periset / diusulkan publik / dibantu kecerdasan buatan (`human_confirmed: false`).
             </p>
           </div>
@@ -529,7 +529,7 @@ export default function MetodologiPage() {
               Tahap 2
             </span>
             <div className="font-bold text-[var(--text)] pt-1">Verifikasi Reviewer 1</div>
-            <p className="text-[var(--muted)] text-[11px] leading-relaxed font-serif">
+            <p className="text-[var(--muted)] text-[11px] leading-relaxed">
               Status beralih ke `pending_second`. Penelaah 1 memverifikasi keaslian sitasi berkas primer.
             </p>
           </div>
@@ -538,7 +538,7 @@ export default function MetodologiPage() {
               Tahap 3
             </span>
             <div className="font-bold text-[var(--text)] pt-1">Konsensus Reviewer 2</div>
-            <p className="text-[var(--muted)] text-[11px] leading-relaxed font-serif">
+            <p className="text-[var(--muted)] text-[11px] leading-relaxed">
               Status `published` tercapai. Kuorum $\ge 2$ approver manusia independen (`human_confirmed: true`).
             </p>
           </div>
@@ -546,10 +546,10 @@ export default function MetodologiPage() {
       </div>
 
       <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-6 space-y-3 shadow-2xs">
-        <h3 className="font-serif font-bold text-base sm:text-lg text-[var(--text)]">
+        <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
           Deklarasi Etika AI & Audit Trail Terbuka
         </h3>
-        <ul className="space-y-2.5 text-xs sm:text-sm text-[var(--text)] list-disc pl-5 font-serif">
+        <ul className="space-y-2.5 text-xs sm:text-sm text-[var(--text)] list-disc pl-5">
           <li>
             <strong className="text-[var(--text)]">Peran AI:</strong> Large Language Model hanya bertindak sebagai asisten pencari sitasi dan perangkum dokumen formal. AI tidak memiliki hak menentukan skor final atau mempublikasikan data secara otonom.
           </li>
@@ -571,7 +571,7 @@ export default function MetodologiPage() {
         <div className="text-[11px] font-mono font-bold uppercase tracking-wider text-[var(--acc-amber-strong)]">
           Laboratorium Interaktif
         </div>
-        <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[var(--text)]">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text)]">
           Simulator & Kalkulator Penskoran Interaktif
         </h2>
       </div>
@@ -587,16 +587,16 @@ export default function MetodologiPage() {
         <div className="text-[11px] font-mono font-bold uppercase tracking-wider text-[var(--acc-emerald-strong)]">
           Sains Terbuka & Integrasi
         </div>
-        <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[var(--text)]">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text)]">
           Open Science, Unduh Data & REST API Publik
         </h2>
       </div>
 
       <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-6 space-y-4 shadow-2xs">
-        <h3 className="font-serif font-bold text-base sm:text-lg text-[var(--text)]">
+        <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
           Akses Dataset Terbuka (*Open Access Datasets*)
         </h3>
-        <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed font-serif">
+        <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
           Seluruh dataset Pancasila Index dapat diunduh secara bebas untuk keperluan riset akademis, jurnalisme data, dan advokasi publik:
         </p>
         <div className="flex flex-wrap gap-2.5 pt-1">
@@ -626,13 +626,13 @@ export default function MetodologiPage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div className="p-5 rounded-xl border border-[var(--line)] bg-[var(--panel)] space-y-2 shadow-2xs">
           <div className="font-bold text-xs text-[var(--text)]">Lisensi Konten & Data</div>
-          <p className="text-xs text-[var(--muted)] leading-relaxed font-serif">
+          <p className="text-xs text-[var(--muted)] leading-relaxed">
             Seluruh data dan narasi berlisensi <strong>Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</strong>. Anda bebas mengutip dan memodifikasi dengan mencantumkan atribusi.
           </p>
         </div>
         <div className="p-5 rounded-xl border border-[var(--line)] bg-[var(--panel)] space-y-2 shadow-2xs">
           <div className="font-bold text-xs text-[var(--text)]">Lisensi Kode Sumber</div>
-          <p className="text-xs text-[var(--muted)] leading-relaxed font-serif">
+          <p className="text-xs text-[var(--muted)] leading-relaxed">
             Kode sumber platform dan scoring engine berlisensi <strong>GNU Affero General Public License v3.0 (AGPL-3.0)</strong> guna menjamin keterbukaan perangkat lunak secara berkelanjutan.
           </p>
         </div>
@@ -653,7 +653,7 @@ export default function MetodologiPage() {
   return (
     <div className="mx-auto max-w-6xl px-3 sm:px-6 py-8 sm:py-16 pb-24 overflow-x-hidden">
       {/* Breadcrumb Navigation */}
-      <div className="flex items-center gap-2 text-xs font-medium text-[var(--muted)] mb-6 sm:mb-8 font-sans">
+      <div className="flex items-center gap-2 text-xs font-medium text-[var(--muted)] mb-6 sm:mb-8">
         <Link href="/" className="hover:text-[var(--text)] transition">
           Beranda
         </Link>
@@ -663,13 +663,13 @@ export default function MetodologiPage() {
 
       {/* Header */}
       <header className="space-y-4 border-b border-[var(--line)] pb-8 sm:pb-10">
-        <div className="text-[11px] sm:text-xs font-sans font-bold uppercase tracking-widest text-[var(--muted)]">
+        <div className="text-[11px] sm:text-xs font-bold uppercase tracking-widest text-[var(--muted)]">
           Standar Metodologi Penelitian & Agregasi Indeks v2.0
         </div>
-        <h1 className="text-2xl sm:text-4xl font-serif font-bold tracking-tight text-[var(--text)] leading-tight">
+        <h1 className="text-2xl sm:text-4xl font-bold tracking-tight text-[var(--text)] leading-tight">
           Metodologi & Kerangka Epistemologis
         </h1>
-        <p className="text-sm sm:text-base text-[var(--muted)] leading-relaxed max-w-4xl font-serif">
+        <p className="text-sm sm:text-base text-[var(--muted)] leading-relaxed max-w-4xl">
           Menilai kesetiaan 8 organ konstitusional Indonesia (1945–kini) terhadap Pancasila dan norma struktural UUD 1945 melalui audit masa jabatan kelembagaan berbasis 5 strata bukti primer, formula matematika teruji, validasi silang 8 indeks independen global, dan kuorum ganda kurasi manusia.
         </p>
       </header>
@@ -679,10 +679,10 @@ export default function MetodologiPage() {
 
       {/* Footer Citation */}
       <footer className="mt-16 pt-8 border-t border-[var(--line)] text-xs text-[var(--muted)] flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p className="max-w-xl leading-relaxed text-center sm:text-left font-serif">
+        <p className="max-w-xl leading-relaxed text-center sm:text-left">
           Pancasila Index berkomitmen pada prinsip integritas akademis dan transparansi audit terbuka. Seluruh data asesmen dapat diunduh dan diverifikasi secara mandiri.
         </p>
-        <div className="flex gap-4 font-sans font-semibold">
+        <div className="flex gap-4 font-semibold">
           <Link href="/api-docs" className="text-[var(--text)] hover:underline">
             REST API OpenAPI &rarr;
           </Link>

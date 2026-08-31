@@ -64,3 +64,13 @@ Bila Anda menemukan lubang kecil, Anda tetap dipersilakan membuka *issue* atau P
 biasa — dengan satu topik dan sitasi yang dapat diperiksa. Kami menyambut telaah
 yang membangun dari siapa pun, termasuk AI agent — selama **manusia yang
 mengajukan tetap bertanggung jawab penuh** atas kebenaran setiap perubahan.
+
+## Klarifikasi skor (bukan kerentanan keamanan)
+
+Jika Anda adalah subjek yang dinilai dalam indeks dan ingin
+mengajukan klarifikasi, koreksi, atau hak jawab, **jangan gunakan
+jalur ini**. Gunakan jalur khusus di
+[`/koreksi`](https://www.pancasila.site/koreksi) (templat tersedia)
+atau lewat [GitHub Pull Request](https://github.com/rnazieb-dev/Pancasila-Index/compare).
+Hak jawab adalah bagian dari praktik media profesional dan UU No. 40
+Tahun 1999 tentang Pers, Pasal 11.

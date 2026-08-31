@@ -2,9 +2,12 @@
 
 import { useState } from "react";
 import { dataset } from "@pancasila-index/data";
+import { useLocale } from "@/components/locale-provider";
+import { pickI18n } from "@/lib/i18n";
 
 export default function EksporPage() {
   const [copiedType, setCopiedType] = useState<string | null>(null);
+  const { t, locale } = useLocale();
 
   // Helper untuk mengubah array of objects menjadi CSV string
   const generateCsv = (type: "events" | "assessments" | "sources" | "institutions") => {
@@ -98,9 +101,9 @@ export default function EksporPage() {
   return (
     <div className="mx-auto max-w-5xl px-4 py-12">
       <div>
-        <h1 className="text-3xl font-bold">Ekspor & Data Terbuka</h1>
+        <h1 className="text-3xl font-bold">{t("exportPageTitle")}</h1>
         <p className="mt-1.5 text-sm text-[var(--muted)]">
-          Unduh seluruh dataset Pancasila Index dalam format terstruktur CSV atau JSON untuk riset, analisis data, dan visualisasi independen.
+          {t("exportPageSubtitle")}
         </p>
       </div>
 
@@ -109,12 +112,12 @@ export default function EksporPage() {
         <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-3 flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between">
-              <span className="text-xs uppercase tracking-wide text-[var(--acc-sky)] font-bold">Format JSON</span>
+              <span className="text-xs uppercase tracking-wide text-[var(--acc-sky)] font-bold">{t("exportFormatJson")}</span>
               <span className="text-xs text-[var(--muted)]">~250 KB</span>
             </div>
-            <h2 className="text-lg font-bold text-[var(--text)] mt-1">Dataset Kanonik Lengkap</h2>
+            <h2 className="text-lg font-bold text-[var(--text)] mt-1">{t("exportCardJsonTitle")}</h2>
             <p className="text-xs text-[var(--muted)] leading-relaxed mt-2">
-              Berisi seluruh objek data: 8 lembaga, 45 masa jabatan, {dataset.events.length} peristiwa, {dataset.sources.length} sumber primer, {dataset.assessments.length} lembar penilaian, dan peta 73 pasal UUD 1945.
+              Berisi seluruh objek data: 8 lembaga, 50 masa jabatan, {dataset.events.length} {t("eventsLabel")}, {dataset.sources.length} {t("sourcesLabel")}, {dataset.assessments.length} lembar penilaian, dan peta 37 pasal UUD 1945.
             </p>
           </div>
           <div className="flex gap-2 pt-3">
@@ -122,13 +125,13 @@ export default function EksporPage() {
               onClick={() => handleDownload("pancasila-index-dataset.json", JSON.stringify(dataset, null, 2), "application/json")}
               className="flex-1 rounded-lg bg-red-600 px-4 py-2.5 text-xs font-semibold text-white hover:bg-red-500 transition text-center shadow"
             >
-              📥 Unduh JSON
+              {t("exportDownloadJson")}
             </button>
             <button
               onClick={() => handleCopy("json", JSON.stringify(dataset, null, 2))}
               className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500 transition"
             >
-              {copiedType === "json" ? "✓ Tersalin" : "Salin"}
+              {copiedType === "json" ? t("exportCopied") : t("exportCopy")}
             </button>
           </div>
         </div>
@@ -137,10 +140,10 @@ export default function EksporPage() {
         <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-3 flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between">
-              <span className="text-xs uppercase tracking-wide text-[var(--acc-emerald)] font-bold">Format CSV</span>
+              <span className="text-xs uppercase tracking-wide text-[var(--acc-emerald)] font-bold">{t("exportFormatCsv")}</span>
               <span className="text-xs text-[var(--muted)]">{dataset.events.length} baris</span>
             </div>
-            <h2 className="text-lg font-bold text-[var(--text)] mt-1">Tabel Peristiwa Berbukti (Events)</h2>
+            <h2 className="text-lg font-bold text-[var(--text)] mt-1">{t("exportCardEventsTitle")}</h2>
             <p className="text-xs text-[var(--muted)] leading-relaxed mt-2">
               Daftar kronologis peristiwa hukum, kebijakan, dan dinamika ketatanegaraan beserta tanggal, kategori, ringkasan, dan tautan dimensi/sumber.
             </p>
@@ -150,13 +153,13 @@ export default function EksporPage() {
               onClick={() => handleDownload("events.csv", generateCsv("events"), "text/csv")}
               className="flex-1 rounded-lg bg-emerald-700 px-4 py-2.5 text-xs font-semibold text-white hover:bg-emerald-600 transition text-center shadow"
             >
-              📥 Unduh CSV Peristiwa
+              {t("exportDownloadCsvEvents")}
             </button>
             <button
               onClick={() => handleCopy("events", generateCsv("events"))}
               className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500 transition"
             >
-              {copiedType === "events" ? "✓ Tersalin" : "Salin"}
+              {copiedType === "events" ? t("exportCopied") : t("exportCopy")}
             </button>
           </div>
         </div>
@@ -165,10 +168,10 @@ export default function EksporPage() {
         <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-3 flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between">
-              <span className="text-xs uppercase tracking-wide text-[var(--acc-amber)] font-bold">Format CSV</span>
+              <span className="text-xs uppercase tracking-wide text-[var(--acc-amber)] font-bold">{t("exportFormatCsv")}</span>
               <span className="text-xs text-[var(--muted)]">{dataset.assessments.length} lembar</span>
             </div>
-            <h2 className="text-lg font-bold text-[var(--text)] mt-1">Tabel Skor Penilaian (Assessments)</h2>
+            <h2 className="text-lg font-bold text-[var(--text)] mt-1">{t("exportCardAssessTitle")}</h2>
             <p className="text-xs text-[var(--muted)] leading-relaxed mt-2">
               Rincian skor dimensi (-2 .. +2), rasional penilaian, tingkat keyakinan, dan jumlah bukti empiris per periode kepemimpinan lembaga.
             </p>
@@ -178,26 +181,26 @@ export default function EksporPage() {
               onClick={() => handleDownload("assessments.csv", generateCsv("assessments"), "text/csv")}
               className="flex-1 rounded-lg bg-amber-700 px-4 py-2.5 text-xs font-semibold text-white hover:bg-amber-600 transition text-center shadow"
             >
-              📥 Unduh CSV Skor
+              {t("exportDownloadCsvAssess")}
             </button>
             <button
               onClick={() => handleCopy("assessments", generateCsv("assessments"))}
               className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500 transition"
             >
-              {copiedType === "assessments" ? "✓ Tersalin" : "Salin"}
+              {copiedType === "assessments" ? t("exportCopied") : t("exportCopy")}
             </button>
           </div>
         </div>
 
-        
+
         {/* 5. Audit Data Terbuka CKAN */}
         <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-3 flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between">
-              <span className="text-xs uppercase tracking-wide text-emerald-500 font-bold">Data Terbuka / CKAN</span>
-              <span className="text-xs text-[var(--muted)]">API / JSON</span>
+              <span className="text-xs uppercase tracking-wide text-emerald-500 font-bold">{t("exportCkanLabel")}</span>
+              <span className="text-xs text-[var(--muted)]">{t("exportFormatApi")}</span>
             </div>
-            <h2 className="text-lg font-bold text-[var(--text)] mt-1">Audit Data Terbuka (CKAN DataStore)</h2>
+            <h2 className="text-lg font-bold text-[var(--text)] mt-1">{t("exportCardCkanTitle")}</h2>
             <p className="text-xs text-[var(--muted)] leading-relaxed mt-2">
               Koleksi hasil audit kritis atas dataset resmi kementerian/lembaga yang telah lolos pengujian independen melalui kuorum 2 peninjau.
             </p>
@@ -209,7 +212,7 @@ export default function EksporPage() {
               rel="noreferrer"
               className="flex-1 rounded-lg bg-emerald-600 px-4 py-2.5 text-xs font-semibold text-white hover:bg-emerald-500 transition text-center shadow"
             >
-              🌐 Buka REST API v1
+              Buka REST API v1
             </a>
           </div>
         </div>
@@ -219,10 +222,10 @@ export default function EksporPage() {
         <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-3 flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between">
-              <span className="text-xs uppercase tracking-wide text-[var(--acc-purple)] font-bold">Format CSV</span>
+              <span className="text-xs uppercase tracking-wide text-[var(--acc-purple)] font-bold">{t("exportFormatCsv")}</span>
               <span className="text-xs text-[var(--muted)]">{dataset.sources.length} instrumen</span>
             </div>
-            <h2 className="text-lg font-bold text-[var(--text)] mt-1">Tabel Sumber Primer & Sitasi</h2>
+            <h2 className="text-lg font-bold text-[var(--text)] mt-1">{t("exportCardSourcesTitle")}</h2>
             <p className="text-xs text-[var(--muted)] leading-relaxed mt-2">
               Koleksi instrumen hukum, UU, Putusan MK, Putusan MA, TAP MPR, dan arsip resmi lengkap dengan nomor lembaran negara dan URL rujukan JDIH/BPK.
             </p>
@@ -232,13 +235,13 @@ export default function EksporPage() {
               onClick={() => handleDownload("sources.csv", generateCsv("sources"), "text/csv")}
               className="flex-1 rounded-lg bg-purple-700 px-4 py-2.5 text-xs font-semibold text-white hover:bg-purple-600 transition text-center shadow"
             >
-              📥 Unduh CSV Sumber
+              {t("exportDownloadCsvSources")}
             </button>
             <button
               onClick={() => handleCopy("sources", generateCsv("sources"))}
               className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-500 transition"
             >
-              {copiedType === "sources" ? "✓ Tersalin" : "Salin"}
+              {copiedType === "sources" ? t("exportCopied") : t("exportCopy")}
             </button>
           </div>
         </div>
@@ -246,12 +249,11 @@ export default function EksporPage() {
 
       {/* Lisensi Terbuka */}
       <section className="mt-12 rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6">
-        <h3 className="text-base font-bold text-[var(--text)]">Lisensi Data Terbuka</h3>
+        <h3 className="text-base font-bold text-[var(--text)]">{t("exportLicenseTitle")}</h3>
         <p className="mt-2 text-xs leading-relaxed text-[var(--muted)]">
-          Seluruh data yang dipublikasikan di Pancasila Index dilisensikan di bawah{" "}
-          <strong className="text-[var(--text)]">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</strong>.
-          Kode sumber platform berlisensi <strong className="text-[var(--text)]">AGPL-3.0</strong>. Anda bebas mengutip,
-          mengolah ulang, dan mendistribusikan dataset ini untuk keperluan akademis, jurnalistik, maupun edukasi publik dengan mencantumkan atribusi ke Pancasila Index.
+          {t("exportLicenseBody")}{" "}
+          <strong className="text-[var(--text)]">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</strong>.{" "}
+          {t("exportLicenseCode")}
         </p>
       </section>
     </div>

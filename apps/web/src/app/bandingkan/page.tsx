@@ -8,6 +8,8 @@ import { indexLabel, periodLabel, scoreColor, scoreTextColor, scoreQualLabel,
   summaryIndexLabel, summaryQualLabel, termSummary } from "@/lib/view";
 import { ScaleLegend } from "@/components/scale-legend";
 import { InstitutionLogo } from "@/components/institution-logo";
+import { useLocale } from "@/components/locale-provider";
+import { pickI18n } from "@/lib/i18n";
 
 /** Warna seri untuk peran TEKS; berbalik per tema. Indeks sejajar PRESET_COLORS. */
 const SERIES_TEXT_COLORS = [
@@ -75,6 +77,7 @@ const CURATED_PRESETS = [
 ];
 
 export default function BandingkanPage() {
+  const { t, locale } = useLocale();
   const [selectedTermIds, setSelectedTermIds] = useState<string[]>([
     "presiden-soeharto",
     "presiden-habibie",
@@ -207,7 +210,7 @@ export default function BandingkanPage() {
     <div className="mx-auto max-w-6xl px-4 py-8 sm:py-12">
       <div className="flex flex-wrap items-baseline justify-between gap-4">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-[var(--text)]">Bandingkan Era & Lembaga</h1>
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-[var(--text)]">{t("bandingkanPageTitle")}</h1>
           <p className="mt-1 text-xs sm:text-sm text-[var(--muted)]">
             Komparasi radar visual atas kepatuhan Pancasila & UUD 1945 lintas organ kekuasaan.
           </p>
@@ -337,7 +340,7 @@ export default function BandingkanPage() {
               type="text"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Cari nama tokoh / era..."
+              placeholder={t("bandingkanPlaceholder")}
               className="w-full bg-[var(--panel)] border border-[var(--line)] rounded-lg px-3 py-1.5 text-xs text-[var(--text)] placeholder-[var(--muted)] focus:outline-none focus:border-sky-500"
             />
             {searchTerm && (
@@ -465,7 +468,7 @@ export default function BandingkanPage() {
         </div>
 
         <div className="space-y-4">
-          <h3 className="text-base font-bold text-[var(--text)]">Ringkasan Komparasi</h3>
+          <h3 className="text-base font-bold text-[var(--text)]">{t("bandingkanSummaryTitle")}</h3>
           <p className="text-xs text-[var(--muted)] leading-relaxed">
             Grafik radar di samping memetakan skor (-2 s.d. +2) secara simultan. Pusat poligon
             menunjukkan pelanggaran norma (-2), garis putus-putus tengah menandai posisi netral (0),
@@ -528,7 +531,7 @@ export default function BandingkanPage() {
 
       {/* Tabel Rincian Skor Berdampingan */}
       <section className="mt-12">
-        <h2 className="text-xl font-bold">Tabel Skor Komparatif Per Dimensi</h2>
+        <h2 className="text-xl font-bold">{t("bandingkanTableTitle")}</h2>
         <div className="mt-4 overflow-x-auto rounded-xl border border-[var(--line)] bg-[var(--panel)]">
           <table className="w-full text-left text-sm">
             <thead className="border-b border-[var(--line)] bg-[var(--bg)] text-xs text-[var(--muted)] uppercase tracking-wider sticky top-0 z-20">

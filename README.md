@@ -71,12 +71,35 @@ atau kebijakan baru — dan setiap tambahan ditinjau sejawat.
 ## Skala hari ini
 
 Angka-angka di bawah berasal dari hasil `pnpm build:data` terakhir dan
-bisa diaudit langsung di `packages/data/generated/dataset.json`.
+bisa diaudit langsung di `packages/data/generated/dataset.json`. Sumber
+rujukan untuk klaim UUD adalah teks otoritatif UUD 1945 dalam satu
+naskah (Wikisource, terverifikasi terhadap Risalah Rapat Paripurna ke-5
+Sidang Tahunan MPR Tahun 2002).
 
 |  |  |  |  |
 |---:|---:|---:|---:|
 | **8** organ dinilai | **50** masa jabatan | **695** peristiwa berbukti | **634** sumber primer |
-| **12** dimensi penilaian | **123** aktor tertaut | **78** pasal UUD termuat (68 termeta ke dimensi) | **7** indeks eksternal |
+| **12** dimensi penilaian | **123** aktor tertaut | **37** pasal UUD 1945 (batang tubuh, setelah 4 amandemen) | **7** indeks eksternal |
+
+Catatan tentang dua angka:
+
+- **37 pasal** adalah penyebutan lazim untuk UUD 1945 setelah empat
+  amandemen (1999-2002). Pasal 37 adalah pasal terakhir di batang
+  tubuh (Bab XVI — Perubahan Undang-Undang Dasar). Bila dihitung
+  per unit bernomor, batang tubuh sebenarnya memuat **73 pasal**
+  (Pasal 1-37 dengan sisipan A/B/C), ditambah 3 Pasal Aturan
+  Peralihan (I, II, III) dan 2 Pasal Aturan Tambahan (I, II) menjadi
+  total **78 pasal**. Pembagian per bab: 16 bab utama + 5 bab sisipan
+  (VIIA DPD, VIIB Pemilu, VIIIA BPK, IXA Wilayah Negara, XA HAM) = 21 bab.
+  Sumber verifikasi: teks UUD 1945 dalam satu naskah (Wikisource,
+  Risalah Rapat Paripurna ke-5 Sidang Tahunan MPR 2002).
+- **50 masa jabatan** adalah jumlah `terms` (periode menjabat) yang
+  tercatat di dataset untuk 8 organ UUD. Periode yang sama untuk
+  satu aktor dihitung satu term per masa jabatan (mis. Presiden SBY
+  Periode I dan Periode II dihitung terpisah). Untuk konteks
+  pembacaan, dataset `terms` mencakup masa jabatan yang punya cukup
+  peristiwa untuk dinilai, dengan satu term = satu periode
+  menjabat.
 
 Dataset mentah untuk indeks eksternal (RSF, WGI Rule of Law, WGI Control of
 Corruption, dan empat lainnya) adalah lampiran di
@@ -102,6 +125,13 @@ Beberapa hal yang tidak kami tawar:
 - AI membantu menyusun; manusia yang mengesahkan. Draf AI **diterbitkan sebagai pratinjau** agar dikaji para ahli — dan semua orang, termasuk Anda, adalah peninjunya. Label `ai_suggested` vs `human_confirmed` memisahkan draf mesin dari yang telah disahkan manusia.
 - Ketidaksetujuan tampil berdampingan, bukan dibuang. Penilaian reviewer berbeda ditampilkan apa adanya.
 - Bhinneka tunggal ika sampai ke antarmuka: id, en, jv, su, min — dan seterusnya.
+- **Indeks ini bukan dukungan politik.** Pancasila Index adalah audit data
+  terbuka untuk kepentingan publik, bukan alat kampanye atau
+  pencitraan. Pengelolaan dilakukan oleh [PT Aplikasi Profesi
+  Indonesia](LEGAL.md) secara pro bono dan hanya menerima pendanaan
+  dari individu. Rincian pada halaman
+  [Disclaimer](/disclaimer), [Koreksi / Hak Jawab](/koreksi), dan
+  [Transparansi](/transparansi).
 
 ## Yang bisa Anda lakukan di dalamnya
 

@@ -29,6 +29,36 @@ const idField = (what: string) =>
     .min(1, `${what}: wajib diisi`)
     .regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, `${what}: format slug kecil-dengan-strip`);
 
+/**
+ * Field terjemahan opsional untuk selain Bahasa Indonesia.
+ * Locale yang didukung: en, jv (Jawa), su (Sunda), mad (Madura), min (Minang).
+ * Bila tidak diisi, tampilan jatuh kembali ke `*_id` (Bahasa Indonesia).
+ *
+ * Field i18n tidak wajib untuk seluruh entitas — kontributor yang
+ * mampu menerjemahkan akan menambahkan bila tersedia, dan yang belum
+ * akan tetap muncul dalam Bahasa Indonesia. Prinsip: "lebih baik
+ * satu bahasa lengkap daripada setengah-setengah".
+ */
+const I18N_LOCALES = ["en", "jv", "su", "mad", "min"] as const;
+export type I18nLocale = (typeof I18N_LOCALES)[number];
+
+/** Helper: tambahkan field i18n (title/summary/description) opsional ke schema. */
+export const i18nString = (what: string) =>
+  z.string().min(3, `${what}: minimal 3 karakter`).optional();
+
+/** Helper: tambahkan sekumpulan field i18n (title + summary) ke schema. */
+export const i18nFields = (key: string) =>
+  z
+    .object(
+      Object.fromEntries(
+        I18N_LOCALES.flatMap((loc) => [
+          [`title_${loc}`, i18nString(`${key}.title_${loc}`)],
+          [`summary_${loc}`, i18nString(`${key}.summary_${loc}`)],
+        ]),
+      ),
+    )
+    .partial();
+
 // ---------------------------------------------------------------- sumber
 
 export const sourceTypeSchema = z.enum([
@@ -65,6 +95,7 @@ export const sourceSchema = z.object({
    */
   normative_baseline: z.boolean().optional(),
   title_id: z.string().min(3),
+  ...i18nFields("source").shape,
   year: z.number().int().min(1800).max(2100).optional(),
   url: z.string().url().optional(),
   citation_id: z.string().optional(),
@@ -84,6 +115,7 @@ export const institutionSchema = z.object({
   slug: idField("institution.slug"),
   branch: branchSchema,
   name_id: z.string().min(3),
+  ...i18nFields("institution").shape,
   short_id: z.string().min(1),
   description_id: z.string().min(10),
 });
@@ -109,6 +141,7 @@ export const termSchema = z.object({
   id: idField("term.id"),
   institution_id: idField("term.institution_id"),
   label_id: z.string().min(3),
+  ...i18nFields("term").shape,
   era: eraSchema,
   start_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   end_date: z
@@ -189,6 +222,7 @@ export const actorCaseSchema = z.object({
   id: idField("actor_case.id"),
   actor_id: idField("actor_case.actor_id"),
   title_id: z.string().min(5),
+  ...i18nFields("actor_case").shape,
   status: legalStatusSchema,
   status_date: z.string().regex(/^\d{4}(-\d{2})?(-\d{2})?$/),
   /** Nomor putusan / register perkara bila sudah masuk pengadilan. */
@@ -222,6 +256,9 @@ export const eventSchema = z.object({
   category: eventCategorySchema,
   title_id: z.string().min(5),
   summary_id: z.string().min(15),
+  // Terjemahan opsional (lihat I18N_LOCALES). Bila kosong, tampilan
+  // tetap memakai title_id/summary_id (Bahasa Indonesia).
+  ...i18nFields("event").shape,
   source_ids: z.array(idField("event.source_ids")).default([]),
   dimension_ids: z.array(idField("event.dimension_ids")).default([]),
   /** Orang-orang yang menjadi subjek peristiwa ini (data/actors.yaml). */

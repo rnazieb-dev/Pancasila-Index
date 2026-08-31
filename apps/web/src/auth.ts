@@ -40,6 +40,57 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     strategy: "jwt",
     maxAge: 365 * 24 * 60 * 60, // 1 tahun persisten
   },
+  // Harden cookie sesi:
+  // - SameSite=strict (sebelumnya default 'lax'): cookie tidak terkirim
+  //   pada cross-site request, mitigasi CSRF.
+  // - HttpOnly: tidak bisa diakses JavaScript, mitigasi XSS exfiltration.
+  // - Secure saat HTTPS: hanya dikirim via HTTPS.
+  // - Prefix __Host- di production: lebih ketat dari __Secure-, browser
+  //   mengharuskan Secure flag, Path=/, dan tidak ada Domain attribute.
+  //   Mencegah subdomain attacker menulis cookie dengan nama yang bentrok.
+  //
+  // Pelengkap dari middleware:
+  // - Origin/Referer check: tolak mutation cross-origin.
+  // - CSP nonce: blokir script inline berbahaya.
+  // - auth() di route handler: wajib sesi valid.
+  cookies: {
+    sessionToken: {
+      name:
+        process.env.NODE_ENV === "production"
+          ? "__Host-authjs.session-token"
+          : "authjs.session-token",
+      options: {
+        httpOnly: true,
+        sameSite: "strict",
+        path: "/",
+        secure: process.env.NODE_ENV === "production",
+      },
+    },
+    callbackUrl: {
+      name:
+        process.env.NODE_ENV === "production"
+          ? "__Host-authjs.callback-url"
+          : "authjs.callback-url",
+      options: {
+        httpOnly: true,
+        sameSite: "strict",
+        path: "/",
+        secure: process.env.NODE_ENV === "production",
+      },
+    },
+    csrfToken: {
+      name:
+        process.env.NODE_ENV === "production"
+          ? "__Host-authjs.csrf-token"
+          : "authjs.csrf-token",
+      options: {
+        httpOnly: true,
+        sameSite: "strict",
+        path: "/",
+        secure: process.env.NODE_ENV === "production",
+      },
+    },
+  },
   providers: [
     ...(githubConfigured
       ? [

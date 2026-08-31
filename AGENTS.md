@@ -99,6 +99,17 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
   - [x] 578/578 dokumen primer terkompresi (358 MB, hanya 3.5% dari kuota gratis 10 GB) dan diunggah ke Cloudflare R2 bucket `pancasila-arsip`
   - [x] 0 tautan DuckDuckGo di seluruh dataset; fallback dialihkan ke repositori mandiri `/api/arsip/*` dan portal resmi instansi
   - [x] Proxy streaming Next.js dengan immutable Edge CDN caching
+  - [x] **Pagar hukum berlapis**: halaman publik `/disclaimer`, `/koreksi`
+    (hak jawab), `/transparansi` (pendanaan); `LEGAL.md` di root
+    (identitas PT Aplikasi Profesi Indonesia pro bono);
+    `docs/legal-aspek.md` (analisis KUHPerdata, UU ITE 19/2016,
+    UU 28/2014, UU PDP 27/2022, UU 40/1999, UU 40/2007);
+    `CONTRIBUTING.md` aturan anti-kampanye partisan;
+    `SECURITY.md` memisahkan jalur right of reply dari pelaporan
+    kerentanan; footer global merujuk 3 halaman hukum.
+    `enforce_admins: true` di branch protection + 2 review + 3 status
+    check (`verify`, `audit`, `secrets`) + `CODEOWNERS`; dokumentasi
+    `[.github/ADMIN_OVERRIDE.md](.github/ADMIN_OVERRIDE.md)`.
 
 ## Definisi Selesai v1.0 (TERCAPAI PENUH ✅)
 
