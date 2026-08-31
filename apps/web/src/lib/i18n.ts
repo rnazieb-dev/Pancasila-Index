@@ -69,12 +69,13 @@ const id = {
     "Kode AGPL-3.0 · Data CC BY-SA 4.0 · kontribusi via Peer Review",
 
   // Hero & General UI
-  heroBadge: "Sebuah pertanyaan yang tidak pernah selesai dijawab",
-  heroTitle: "Seberapa Pancasila para P̶e̶n̶g̶u̶a̶s̶a̶ pelayan rakyat kita?",
+  heroBadge: "Merebut kembali Pancasila dari monopoli tafsir penguasa",
+  heroTitle: "Seberapa Pancasila para P̶e̶n̶g̶u̶a̶s̶a̶ Pelayan Rakyat kita?",
   heroSubtitle:
-    "Pancasila Index menilai kesetiaan 8 organ konstitusional Indonesia pada Pancasila dan UUD 1945 — dari 1945 hingga hari ini, dengan setiap angka bersitasi bukti primer dan ditinjau dua peninjau berbeda identitas sebelum dipublikasikan.",
+    "Pancasila Index menguji kesetiaan 8 organ konstitusional Indonesia terhadap Pancasila dan UUD sejak 1945 hingga hari ini. Setiap skor didukung oleh sitasi bukti primer serta divalidasi oleh dua peninjau berbeda latar belakang sebelum rilis.",
   heroCtaExplore: "Jelajahi 8 Lembaga",
-  heroCtaMethod: "Baca Metodologi",
+  heroCtaMethod: "Baca Metodenya",
+  heroCtaAkarSejarah: "Lacak Sejarahnya",
   heroCtaTimeline: "Linimasa Penilaian",
 
   // Aggregate Stats
@@ -270,6 +271,7 @@ const en: Dict = {
   heroSubtitle: "Pancasila Index assesses the fidelity of the 8 Indonesia constitutional organs to Pancasila and the 1945 Constitution — from 1945 to today, with every figure backed by primary sources and reviewed by two independent reviewers before publication.",
   heroCtaExplore: "Explore 8 Institutions",
   heroCtaMethod: "Read Methodology",
+  heroCtaAkarSejarah: "Read Historical Roots",
   heroCtaTimeline: "Assessment Timeline",
 
   statInstitutions: "Constitutional Organs",
@@ -456,6 +458,7 @@ const jv: Dict = {
     "Indeks kasetyan 8 organ konstitusi Indonesia wiwit 1945 nganti saiki, adhedhasar bukti hukum primer lan ditinjau dening loro paninjau sing beda identitas sadurunge dipublikasikake.",
   heroCtaExplore: "Njlajah 8 Lembaga",
   heroCtaMethod: "Waca Metodologi",
+  heroCtaAkarSejarah: "Waca Oyod Sejarah",
   heroCtaTimeline: "Garis Wektu Penilaian",
 
   statInstitutions: "Organ Konstitusi",
@@ -642,6 +645,7 @@ const su: Dict = {
     "Indéks kasatiaan 8 organ konstitusional Indonésia ti 1945 dugi ka kiwari, didadasaran ku bukti hukum primér sarta ditinjau ku dua paninjau anu béda identitas saacan dipublikasikeun.",
   heroCtaExplore: "Nalungtik 8 Lembaga",
   heroCtaMethod: "Baca Métodologi",
+  heroCtaAkarSejarah: "Baca Akar Sajarah",
   heroCtaTimeline: "Garis Waktos Penilaian",
 
   statInstitutions: "Organ Konstitusi",
@@ -828,6 +832,7 @@ const mad: Dict = {
     "Indeks kasatèya'an 8 organ konstitusi Indonesia molaè 1945 kantos samangkèn, abuktè dokumen hokom primer sareng ètinjau sareng loro panerrebhès sè bedâ èdèntitas sajhân èpoblesikasè.",
   heroCtaExplore: "Jelajah 8 Lembhâgâ",
   heroCtaMethod: "Bâca Metodologi",
+  heroCtaAkarSejarah: "Bâca Akar Sajhârâ",
   heroCtaTimeline: "Ghâris Bâkto Penilaian",
 
   statInstitutions: "Organ Konstitusi",
@@ -1014,6 +1019,7 @@ const min: Dict = {
     "Indeks kapatuahan 8 organ konstitusional Indonesia dari 1945 sampai kini, basandik pado bukti hukum primer sarang ditinjau dek duo panilaiek nan bidaik idenitas sabalun dipublikasi.",
   heroCtaExplore: "Jelajahi 8 Lambago",
   heroCtaMethod: "Baco Metodologi",
+  heroCtaAkarSejarah: "Baco Aka Sajarah",
   heroCtaTimeline: "Garih Wakatu Panilaian",
 
   statInstitutions: "Organ Konstitusi",

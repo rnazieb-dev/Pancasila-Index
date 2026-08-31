@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { dataset, getEventsOfTerm } from "@pancasila-index/data";
 import { useLocale } from "@/components/locale-provider";
@@ -24,8 +25,38 @@ import {
   termSummary,
 } from "@/lib/view";
 
+/**
+ * Judul hero menandai satu kata (mis. "Penguasa") lewat karakter penggabung
+ * Unicode U+0336 di tiap locale (lihat lib/i18n.ts) - dipakai HANYA sebagai
+ * penanda kata mana yang harus dicoret, bukan sebagai coretannya sendiri.
+ * Karakter penggabung per-huruf itu tipis dan sering terputus antar huruf
+ * tergantung font; render sungguhannya memakai <del> + text-decoration CSS
+ * asli agar garisnya satu garis utuh yang tersambung, dan warnanya bisa
+ * diatur (merah) lepas dari warna teks di sekitarnya.
+ */
+function HeroTitle({ title }: { title: string }) {
+  const tokens = title.split(/(\s+)/);
+  return (
+    <>
+      {tokens.map((tok, i) =>
+        tok.includes("̶") ? (
+          <del
+            key={i}
+            className="line-through decoration-red-600 decoration-[3px]"
+          >
+            {tok.replace(/̶/g, "")}
+          </del>
+        ) : (
+          <span key={i}>{tok}</span>
+        ),
+      )}
+    </>
+  );
+}
+
 export default function Beranda() {
   const { t, locale } = useLocale();
+  const [activeStat, setActiveStat] = useState<number | null>(null);
 
   const presidents = dataset.terms
     .filter((t) => t.institution_id === "presiden-ri")
@@ -37,12 +68,57 @@ export default function Beranda() {
   );
 
   const stats = [
-    { value: dataset.institutions.length, label: t("statInstitutions") },
-    { value: dataset.terms.length, label: t("statTerms") },
-    { value: dataset.events.length, label: t("statEvents") },
-    { value: dataset.sources.length, label: t("statSources") },
-    { value: dataset.external_indices?.reduce((a, b) => a + b.data.length, 0) ?? 0, label: "Indeks Independen" },
-    { value: pasalCount, label: t("statArticles") },
+    {
+      value: dataset.institutions.length,
+      label: t("statInstitutions"),
+      explain:
+        "8 organ konstitusional yang kesetiaannya dinilai: Presiden, DPR, MPR, DPD, MK, MA, BPK, dan KY.",
+      href: "/lembaga",
+      hrefLabel: "Jelajahi 8 lembaga",
+    },
+    {
+      value: dataset.terms.length,
+      label: t("statTerms"),
+      explain:
+        "50 periode jabatan individual di 8 lembaga tersebut, dari 1945 hingga masa jabatan yang sedang berjalan.",
+      href: "/lembaga",
+      hrefLabel: "Lihat daftar masa jabatan",
+    },
+    {
+      value: dataset.events.length,
+      label: t("statEvents"),
+      explain:
+        "695 peristiwa terdokumentasi yang dipakai sebagai bukti penilaian, masing-masing bersitasi sumber primer.",
+      href: "/timeline",
+      hrefLabel: "Jelajahi linimasa peristiwa",
+    },
+    {
+      value: dataset.sources.length,
+      label: t("statSources"),
+      explain:
+        "634 dokumen sumber primer — undang-undang, putusan pengadilan, risalah sidang, laporan resmi lembaga negara — yang disitir sebagai bukti.",
+      href: "/ekspor",
+      hrefLabel: "Unduh daftar sumber",
+    },
+    {
+      // Sebelumnya menjumlahkan seluruh titik data historis (103) tapi
+      // labelnya "Indeks Independen" - menyiratkan jumlah indeks, bukan
+      // jumlah titik data. Diperbaiki ke jumlah indeks yang sebenarnya (7).
+      value: dataset.external_indices?.length ?? 0,
+      label: "Indeks Independen",
+      explain:
+        "7 indeks independen pihak ketiga (WJP Rule of Law, CPI, V-Dem, dan lainnya) dipakai memvalidasi silang penilaian internal, bukan sekadar dikutip.",
+      href: "/metodologi#pilar",
+      hrefLabel: "Lihat 7 indeks pembanding",
+    },
+    {
+      value: pasalCount,
+      label: t("statArticles"),
+      explain:
+        "73 pasal utama (dari 37 semula, akibat pemekaran pasal seperti 28A–28J) + 3 pasal Aturan Peralihan + 2 pasal Aturan Tambahan, pasca 4 kali amandemen 1999–2002.",
+      href: "/landasan-uud",
+      hrefLabel: "Telusuri per pasal",
+    },
   ];
 
   // Ambil peristiwa-peristiwa kunci penting lintas masa
@@ -53,38 +129,78 @@ export default function Beranda() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
-      {/* Hero Section */}
-      <section className="py-10 border-b border-[var(--line)]">
-        <p className="text-xs uppercase tracking-widest text-[var(--acc-red)] font-semibold">
+      {/* Hero Section — neo-brutalism: border tebal, bayangan keras, tanpa gradasi */}
+      <section className="relative my-6 border-[3px] border-[var(--text)] bg-[var(--panel)] p-6 md:p-8 shadow-[8px_8px_0_0_var(--acc-red)]">
+        <p className="inline-block bg-[var(--acc-red)] px-3 py-1 text-xs font-black uppercase tracking-widest text-white">
           {t("heroBadge")}
         </p>
-        <h1 className="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">
-          {t("heroTitle")}
+        <h1 className="mt-4 text-4xl font-black leading-tight md:text-5xl">
+          <HeroTitle title={t("heroTitle")} />
         </h1>
-        <p className="mt-5 max-w-3xl text-[var(--muted)] text-base md:text-lg leading-relaxed">
+        <p className="mt-5 max-w-3xl text-base leading-relaxed text-[var(--muted)] md:text-lg">
           {t("heroSubtitle")}
         </p>
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <Link
             href="/metodologi"
-            className="text-xs text-[var(--muted)] hover:text-[var(--text)] underline decoration-dotted underline-offset-4"
+            className="border-[3px] border-[var(--text)] bg-[var(--panel)] px-4 py-2 text-xs font-bold uppercase tracking-wide text-[var(--text)] shadow-[4px_4px_0_0_var(--text)] transition-transform hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_0_var(--text)]"
           >
             {t("heroCtaMethod")} →
+          </Link>
+          <Link
+            href="/akar-sejarah"
+            className="border-[3px] border-[var(--text)] bg-[var(--acc-red)] px-4 py-2 text-xs font-bold uppercase tracking-wide text-white shadow-[4px_4px_0_0_var(--text)] transition-transform hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_0_var(--text)]"
+          >
+            {t("heroCtaAkarSejarah")} →
           </Link>
         </div>
       </section>
 
-      {/* Stats Counter Bar */}
-      <section className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-        {stats.map((stat) => (
+      {/*
+        Stats Counter Bar - tiap kartu adalah tombol (bukan navigasi):
+        mengeklik membuka penjelasan singkat di panel bawah tanpa
+        meninggalkan halaman. Panel itu sendiri berisi tautan opsional
+        bagi yang ingin melihat rincian lengkapnya di halaman lain.
+      */}
+      <section className="mt-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+          {stats.map((stat, i) => {
+            const isActive = activeStat === i;
+            return (
+              <button
+                key={stat.label}
+                type="button"
+                onClick={() => setActiveStat(isActive ? null : i)}
+                aria-expanded={isActive}
+                aria-controls="stat-explain-panel"
+                className={`rounded-xl border p-4 text-center sm:text-left shadow-sm transition-colors cursor-pointer ${
+                  isActive
+                    ? "border-[var(--acc-red)] bg-[var(--panel)] ring-1 ring-[var(--acc-red)]"
+                    : "border-[var(--line)] bg-[var(--panel)] hover:border-slate-400"
+                }`}
+              >
+                <div className="text-2xl lg:text-3xl font-extrabold text-[var(--text)]">{stat.value}</div>
+                <div className="text-[11px] text-[var(--muted)] mt-1 font-medium">{stat.label}</div>
+              </button>
+            );
+          })}
+        </div>
+
+        {activeStat !== null && stats[activeStat] && (
           <div
-            key={stat.label}
-            className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 text-center sm:text-left shadow-sm"
+            id="stat-explain-panel"
+            role="region"
+            className="mt-3 animate-in fade-in slide-in-from-top-1 duration-200 rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 text-sm leading-relaxed text-[var(--text)]"
           >
-            <div className="text-2xl lg:text-3xl font-extrabold text-[var(--text)]">{stat.value}</div>
-            <div className="text-[11px] text-[var(--muted)] mt-1 font-medium">{stat.label}</div>
+            <p>{stats[activeStat].explain}</p>
+            <Link
+              href={stats[activeStat].href}
+              className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-[var(--acc-sky)] hover:underline"
+            >
+              {stats[activeStat].hrefLabel} →
+            </Link>
           </div>
-        ))}
+        )}
       </section>
 
       {/* 8 Organ Konstitusional Grid */}
@@ -174,33 +290,64 @@ export default function Beranda() {
           </Link>
         </div>
 
-        <div className="mt-6 space-y-3">
+        {/*
+          Judul kolom hanya tampil sm ke atas: pada mobile tiap baris tetap
+          bertumpuk vertikal (grid-cols-1), sehingga label kolom tidak
+          relevan di sana.
+        */}
+        <div className="mt-6 hidden gap-4 px-4 pb-1 text-[10px] font-semibold uppercase tracking-wider text-[var(--muted)] sm:grid sm:grid-cols-[220px_140px_1fr_140px]">
+          <span>Presiden &amp; Periode</span>
+          <span>Era</span>
+          <span>Indeks Kepatuhan (Draf)</span>
+          <span className="text-right">Peristiwa &amp; Skor</span>
+        </div>
+
+        {/*
+          Grid dengan lebar kolom TETAP (bukan flex + min-w), agar semua
+          baris sejajar terlepas dari panjang nama presiden. Sebelumnya nama
+          hanya diberi min-width, sehingga nama yang panjang (mis. "Susilo
+          Bambang Yudhoyono (Periode Pertama)") mendorong seluruh kolom di
+          kanannya - termasuk titik awal progress bar - bergeser per baris.
+        */}
+        <div className="mt-2 space-y-3">
           {presidents.map((tItem) => {
             const summary = termSummary(tItem.id);
             const index = summary?.index ?? null;
             const evs = getEventsOfTerm(dataset, tItem.id);
             const pct = index !== null ? Math.max(0, Math.min(100, index)) : 50;
 
+            // Nama presiden (label_id) kadang punya keterangan tambahan
+            // dalam kurung di ujung - "(Revolusi & Demokrasi Liberal)",
+            // "(Periode Pertama)", "(berjalan)", dst. Keterangan itu sudah
+            // terwakili di tempat lain pada baris yang sama: era di kolom
+            // Era, dan status "masih berjalan" di baris periode yang
+            // menampilkan "kini" sebagai tanggal akhir. Jadi khusus untuk
+            // tampilan di sini, kurungnya dipangkas agar Era tidak perlu
+            // disembunyikan dan namanya tetap ringkas.
+            const namaTanpaKurung = tItem.label_id
+              .replace(/\s*\([^)]*\)\s*$/, "")
+              .trim();
+
             return (
               <Link
                 key={tItem.id}
                 href={`/lembaga/presiden/${tItem.id}`}
-                className="group flex flex-col sm:flex-row sm:items-center justify-between gap-3 rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 hover:border-slate-400 hover:shadow transition"
+                className="group grid grid-cols-1 gap-2 rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 transition hover:border-slate-400 hover:shadow sm:grid-cols-[220px_140px_1fr_140px] sm:items-center sm:gap-4"
               >
-                <div className="min-w-[180px]">
-                  <div className="font-bold text-sm text-[var(--text)] group-hover:text-[var(--acc-sky)] transition">
-                    {tItem.label_id}
+                <div>
+                  <div className="font-bold text-sm text-[var(--text)] transition group-hover:text-[var(--acc-sky)]">
+                    {namaTanpaKurung}
                   </div>
                   <div className="text-xs font-mono text-[var(--muted)]">
                     {periodLabel(tItem.start_date, tItem.end_date)}
                   </div>
                 </div>
 
-                <span className="text-[11px] text-[var(--muted)] uppercase font-semibold w-24 shrink-0">
+                <span className="text-[11px] font-semibold uppercase text-[var(--muted)]">
                   {tItem.era}
                 </span>
 
-                <div className="w-full sm:flex-1 h-3 rounded-full bg-[var(--bg)] border border-[var(--line)] overflow-hidden">
+                <div className="h-3 overflow-hidden rounded-full border border-[var(--line)] bg-[var(--bg)]">
                   <div
                     className="h-full rounded-full transition-all duration-500"
                     style={{
@@ -210,12 +357,12 @@ export default function Beranda() {
                   />
                 </div>
 
-                <div className="flex items-center gap-3 shrink-0">
+                <div className="flex items-center gap-3 sm:justify-end">
                   <span className="text-[11px] text-[var(--muted)]">
                     {evs.length} {t("eventsLabel")}
                   </span>
                   <span
-                    className="w-14 rounded-md py-0.5 text-center text-xs font-bold tabular-nums"
+                    className="w-14 shrink-0 rounded-md py-0.5 text-center text-xs font-bold tabular-nums"
                     style={{
                       background: index === null ? "#1e293b" : `${scoreColor(index / 25 - 2)}22`,
                       color: index === null ? "var(--score-zero)" : scoreTextColor(index / 25 - 2),
