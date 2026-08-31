@@ -106,7 +106,23 @@ export default async function LembagaPage({
           </span>
         </div>
 
-        <div className="mt-4 space-y-3">
+        {/*
+          Judul kolom hanya tampil sm ke atas: pada mobile tiap baris tetap
+          bertumpuk vertikal (grid-cols-1), sehingga label kolom tidak
+          relevan di sana.
+        */}
+        <div className="mt-4 hidden gap-4 px-4 pb-1 text-[10px] font-semibold uppercase tracking-wider text-[var(--muted)] sm:grid sm:grid-cols-[minmax(0,280px)_1fr_minmax(0,340px)]">
+          <span>Masa Jabatan & Periode</span>
+          <span>Indeks Kepatuhan</span>
+          <span className="text-right">Peristiwa &amp; Skor</span>
+        </div>
+
+        {/*
+          Grid dengan lebar kolom TETAP (bukan flex + wrap), agar semua
+          baris sejajar terlepas dari panjang nama masa jabatan atau apakah
+          nama itu membungkus jadi dua baris.
+        */}
+        <div className="mt-2 space-y-3">
           {terms.map((term) => {
             const summary = termSummary(term.id);
             const index = summary?.index ?? null;
@@ -119,10 +135,10 @@ export default async function LembagaPage({
               <Link
                 key={term.id}
                 href={`/lembaga/${institution.slug}/${term.id}`}
-                className="group flex flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-5 rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3.5 hover:border-slate-400 hover:shadow-md transition"
+                className="group grid grid-cols-1 gap-3 rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4 transition hover:border-slate-400 hover:shadow-md sm:grid-cols-[minmax(0,280px)_1fr_minmax(0,340px)] sm:items-center sm:gap-4 sm:px-4 sm:py-3.5"
               >
                 {/**** Kiri: nama masa jabatan + periode + era ****/}
-                <div className="w-full sm:w-72 shrink-0">
+                <div>
                   <div className="font-bold text-sm sm:text-[15px] leading-snug group-hover:text-[var(--acc-sky)] transition">
                     {term.label_id}
                   </div>
@@ -137,7 +153,7 @@ export default async function LembagaPage({
                 </div>
 
                 {/**** Tengah: batang skor ****/}
-                <div className="w-full sm:flex-1 h-2.5 rounded-full bg-[var(--bg)] border border-[var(--line)] overflow-hidden">
+                <div className="h-2.5 rounded-full bg-[var(--bg)] border border-[var(--line)] overflow-hidden">
                   <div
                     className="h-full rounded-full transition-all duration-500"
                     style={{
@@ -148,7 +164,7 @@ export default async function LembagaPage({
                 </div>
 
                 {/**** Kanan: jumlah peristiwa + skor + predikat ****/}
-                <div className="flex items-center gap-3 sm:gap-3.5 w-full sm:w-auto shrink-0">
+                <div className="flex items-center gap-3 sm:gap-3.5 sm:justify-end">
                   <span className="text-[11px] text-[var(--muted)] font-medium whitespace-nowrap">
                     {termEvents.length} peristiwa
                   </span>
