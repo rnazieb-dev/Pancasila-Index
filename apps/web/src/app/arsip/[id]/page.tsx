@@ -176,16 +176,33 @@ export default async function ArsipDetailPage({
               className="inline-flex items-center gap-2 rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3 text-xs font-semibold text-[var(--text)] hover:border-slate-400 transition"
             >
               <IconArchive size={16} className="text-[var(--acc-amber-strong)]" />
-              <span>Cadangan di Wayback Machine</span>
+              <span>Cari Salinan di Arsip Internet</span>
             </a>
           )}
         </div>
+
+        {waybackHref && (
+          <p className="text-[11px] text-[var(--muted)] leading-relaxed">
+            "Arsip Internet" ({" "}
+            <a
+              href="https://web.archive.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-[var(--text)]"
+            >
+              Wayback Machine
+            </a>
+            {" "}oleh Internet Archive) adalah layanan nirlaba yang menyimpan
+            salinan halaman web dari waktu ke waktu - berguna kalau tautan
+            resmi di atas sudah pindah atau dihapus.
+          </p>
+        )}
 
         {archiveBroken && (
           <div className="rounded-xl border border-amber-500/30 bg-amber-500/5 px-4 py-3 text-xs text-[var(--muted)] leading-relaxed">
             Arsip cadangan otomatis untuk dokumen ini gagal diambil karena situs
             sumber memblokir akses otomatis (bot/WAF). Gunakan tautan sumber asli
-            atau Wayback Machine di atas.
+            atau "Cari Salinan di Arsip Internet" di atas.
           </div>
         )}
 
