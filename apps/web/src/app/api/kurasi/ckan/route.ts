@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { auth } from "@/auth";
+import { getCurrentUser, hasRole } from "@/lib/authz";
 import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
@@ -28,14 +29,37 @@ export async function GET() {
 
 export async function POST(req: NextRequest) {
   try {
-    const session = await auth();
-    if (!session?.user?.name) {
-      return NextResponse.json({ error: "Akses ditolak. Butuh akun Kurator/Kontributor." }, { status: 401 });
+    // Menerbitkan data adalah tindakan kurasi. Sebelumnya endpoint ini hanya
+    // memeriksa keberadaan nama pengguna, sehingga setiap akun yang baru
+    // mendaftar (peran bawaan KONTRIBUTOR) dapat menerbitkan atau menolak.
+    // Disamakan dengan gerbang di /api/kurasi.
+    const user = await getCurrentUser();
+    if (!hasRole(user, "KURATOR")) {
+      return NextResponse.json(
+        { error: "Akses ditolak. Tindakan kurasi membutuhkan peran Kurator." },
+        { status: 403 },
+      );
     }
 
-    const { auditId, decision } = await req.json();
+    const reviewerId = user!.id;
+    if (!reviewerId) {
+      return NextResponse.json(
+        { error: "Sesi tidak memuat identitas pengguna yang stabil." },
+        { status: 401 },
+      );
+    }
+
+    const { auditId, decision, note } = await req.json();
     if (!auditId || (decision !== "approved" && decision !== "rejected")) {
       return NextResponse.json({ error: "auditId dan decision (approved|rejected) wajib diisi." }, { status: 400 });
+    }
+
+    // Penolakan wajib beralasan, sama seperti /api/kurasi.
+    if (decision === "rejected" && !String(note || "").trim()) {
+      return NextResponse.json(
+        { error: "Alasan penolakan (note) wajib diisi." },
+        { status: 422 },
+      );
     }
 
     const audit = await prisma.ckanAudit.findUnique({ where: { id: auditId } });
@@ -43,7 +67,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Audit tidak ditemukan." }, { status: 404 });
     }
 
-    const reviewerName = session.user.name;
+    const reviewerName = user!.name || "Kurator";
 
     if (decision === "rejected") {
       const updated = await prisma.ckanAudit.update({
@@ -53,21 +77,24 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ success: true, status: updated.status });
     }
 
-    // Cek approver unik
-    const currentApprovers = audit.approverNames || [];
-    if (currentApprovers.includes(reviewerName)) {
-      return NextResponse.json({ 
-        error: "Anda sudah memberikan persetujuan untuk usulan audit ini. Publikasi membutuhkan peninjau kedua yang berbeda." 
+    // Keunikan penyetuju ditentukan oleh User.id, BUKAN nama tampilan.
+    // Nama dapat diubah pemiliknya, sehingga satu akun bisa lolos dua kali.
+    const currentApproverIds = audit.approverIds || [];
+    if (currentApproverIds.includes(reviewerId)) {
+      return NextResponse.json({
+        error: "Anda sudah memberikan persetujuan untuk usulan audit ini. Publikasi membutuhkan peninjau kedua yang berbeda."
       }, { status: 400 });
     }
 
-    const newApprovers = [...currentApprovers, reviewerName];
-    const newStatus = newApprovers.length >= 2 ? "published" : "pending_second";
+    const newApproverIds = [...currentApproverIds, reviewerId];
+    const newApprovers = [...(audit.approverNames || []), reviewerName];
+    const newStatus = newApproverIds.length >= 2 ? "published" : "pending_second";
 
     const updated = await prisma.ckanAudit.update({
       where: { id: auditId },
       data: {
         approverNames: newApprovers,
+        approverIds: newApproverIds,
         status: newStatus
       }
     });

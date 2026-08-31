@@ -116,14 +116,18 @@ export default function ImportDataPage() {
           relevantDimension
         })
       });
-      const resData = await res.json();
-      if (resData.success) {
+      const resData = await res.json().catch(() => null);
+      if (!res.ok) {
+        setError(resData?.error || `Gagal menyimpan usulan (kode ${res.status}).`);
+        return;
+      }
+      if (resData?.success) {
         setSaveSuccess(true);
         setContextNote("");
         fetchRadar();
         fetchPendingAudits();
       } else {
-        setError(resData.error || "Gagal menyimpan usulan.");
+        setError(resData?.error || "Gagal menyimpan usulan.");
       }
     } catch (err: any) {
       setError(err.message || "Gagal mengirim data.");
@@ -134,18 +138,34 @@ export default function ImportDataPage() {
 
   const handleVoteAudit = async (auditId: string, decision: "approved" | "rejected") => {
     setCurationActionMsg("");
+
+    // Penolakan wajib beralasan di sisi server; alasannya ikut tercatat di
+    // jejak audit agar pengusul tahu mengapa usulannya ditolak.
+    let note = "";
+    if (decision === "rejected") {
+      note = (window.prompt("Alasan penolakan (wajib diisi):") ?? "").trim();
+      if (!note) {
+        setCurationActionMsg("Penolakan dibatalkan: alasan wajib diisi.");
+        return;
+      }
+    }
+
     try {
       const res = await fetch("/api/kurasi/ckan", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ auditId, decision })
+        body: JSON.stringify({ auditId, decision, note })
       });
-      const d = await res.json();
-      if (d.success) {
+      const d = await res.json().catch(() => null);
+      if (!res.ok) {
+        setCurationActionMsg(d?.error || `Gagal memproses keputusan (kode ${res.status}).`);
+        return;
+      }
+      if (d?.success) {
         setCurationActionMsg(d.message || "Keputusan kurasi berhasil dicatat.");
         fetchPendingAudits();
       } else {
-        setCurationActionMsg(d.error || "Gagal memproses keputusan.");
+        setCurationActionMsg(d?.error || "Gagal memproses keputusan.");
       }
     } catch (e: any) {
       setCurationActionMsg(e.message);
