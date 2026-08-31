@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Disclaimer & Tanggung Jawab Hukum — Pancasila Index",
+  title: "Disclaimer & Tanggung Jawab Hukum",
   description:
     "Disclaimer publik, identitas pengelola (PT Aplikasi Profesi Indonesia), dan dasar hukum perlindungan pengelola Pancasila Index sesuai peraturan perundangan Republik Indonesia.",
 };

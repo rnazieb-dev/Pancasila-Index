@@ -6,7 +6,6 @@ import {
   scoreToIndex,
   NON_DEROGABLE_CAPS,
   MAX_UNCERTAINTY_HALFWIDTH,
-  MIN_COVERAGE_FOR_INDEX,
   MIN_GROUP_COVERAGE,
 } from "@pancasila-index/core";
 
@@ -37,10 +36,9 @@ export function MethodologyCalculator() {
       apply: () => {
         const s: Record<string, number> = {};
         for (const d of rubric.dimensions) s[d.id] = 1;
-        s["sila_2"] = 2;
-        s["hak_asasi"] = 2;
-        s["checks_balances"] = 2;
-        s["peradilan_independen"] = 2;
+        s["sila-2"] = 2; // Kemanusiaan yang adil dan beradab (hak mutlak)
+        s["checks-balances"] = 2;
+        s["negara-hukum"] = 2;
         setScores(s);
         setConfidence(0.92);
       },
@@ -50,10 +48,10 @@ export function MethodologyCalculator() {
       apply: () => {
         const s: Record<string, number> = {};
         for (const d of rubric.dimensions) s[d.id] = 1; // Ekonomi & infrastruktur bagus
-        s["sila_5"] = 2; // Keadilan sosial ekonomi
-        s["kesejahteraan_umum"] = 2;
-        s["sila_2"] = -2; // Extrajudicial killings (Non-derogable)
-        s["peradilan_independen"] = -2;
+        s["sila-5"] = 2; // Keadilan sosial ekonomi
+        s["tujuan-2"] = 2; // Memajukan kesejahteraan umum
+        s["sila-2"] = -2; // Extrajudicial killings (hak mutlak / non-derogable)
+        s["negara-hukum"] = -2;
         setScores(s);
         setConfidence(0.88);
       },
@@ -103,19 +101,13 @@ export function MethodologyCalculator() {
     // 2. Composite aggregation
     let totalCompWeight = 0;
     let weightedCompScore = 0;
-    let includedGroups = 0;
 
     for (const g of groupResults) {
       if (g.coverage >= MIN_GROUP_COVERAGE) {
-        includedGroups++;
         totalCompWeight += g.groupWeight;
         weightedCompScore += g.score * g.groupWeight;
       }
     }
-
-    const totalDims = rubric.dimensions.length;
-    const scoredTotal = Object.keys(scores).length;
-    const totalCoverage = totalDims > 0 ? scoredTotal / totalDims : 0;
 
     const uncappedOverall =
       totalCompWeight > 0 ? weightedCompScore / totalCompWeight : 0;
@@ -151,7 +143,6 @@ export function MethodologyCalculator() {
 
     return {
       groupResults,
-      totalCoverage,
       uncappedOverall,
       uncappedIndex,
       finalOverall,
@@ -179,7 +170,7 @@ export function MethodologyCalculator() {
               Simulator Penskoran Interaktif (Live Mathematical Engine)
             </h3>
             <p className="text-xs sm:text-sm text-[var(--muted)] mt-1 font-serif">
-              Uji langsung cara kerja agregasi bobot porsi nyata, normalisasi 0–100, batas hak asasi (*non-derogable*), dan rentang galat keyakinan.
+              Uji langsung cara kerja agregasi bobot porsi nyata, normalisasi 0–100, batas hak asasi (<em>non-derogable</em>), dan rentang galat keyakinan.
             </p>
           </div>
           <span className="font-mono text-xs px-2.5 py-1 rounded bg-[var(--acc-amber)]/10 text-[var(--acc-amber-strong)] border border-[var(--acc-amber)]/30 font-bold">
@@ -277,7 +268,7 @@ export function MethodologyCalculator() {
             {calculation.groupResults.map((g) => (
               <div key={g.groupId} className="flex justify-between items-center">
                 <span className="text-[var(--muted)] truncate pr-2">
-                  {g.groupName} ({g.groupWeight * 10}%):
+                  {g.groupName} ({Math.round(g.groupWeight * 100)}%):
                 </span>
                 <span className="font-mono font-bold text-[var(--text)]">
                   {scoreToIndex(g.score).toFixed(1)} / 100
@@ -323,7 +314,7 @@ export function MethodologyCalculator() {
             >
               <div className="flex items-center justify-between border-b border-[var(--line)] pb-2.5">
                 <span className="font-bold text-sm text-[var(--text)]">
-                  {g.groupName} (Bobot Efektif {g.groupWeight * 10}%)
+                  {g.groupName} (Bobot Efektif {Math.round(g.groupWeight * 100)}%)
                 </span>
                 <span className="font-mono text-xs font-bold text-[var(--muted)]">
                   Rerata Kelompok: {g.score.toFixed(2)} ({scoreToIndex(g.score).toFixed(1)} / 100)

@@ -10,7 +10,7 @@ import {
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "Direktori Kontributor Terverifikasi — Pancasila Index",
+  title: "Direktori Kontributor Terverifikasi",
   description:
     "Daftar akademisi, peneliti, dan kontributor ilmiah terverifikasi Pancasila Index dengan deklarasi transparansi standar COPE.",
 };

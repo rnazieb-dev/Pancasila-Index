@@ -5,7 +5,7 @@ import { getCurrentUser, hasRole } from "@/lib/authz";
 
 export const dynamic = "force-dynamic";
 
-export const metadata = { title: "Kurasi — Pancasila Index" };
+export const metadata = { title: "Kurasi" };
 
 const TABS = [
   { key: "draft", label: "Antrean draf" },

@@ -1,13 +1,21 @@
 import Link from "next/link";
 import { dataset } from "@pancasila-index/data";
-import { dimensionInfluence } from "@pancasila-index/core";
+import {
+  dimensionInfluence,
+  scoreToIndex,
+  MAX_UNCERTAINTY_HALFWIDTH,
+  NON_DEROGABLE_CAPS,
+  MIN_GROUP_COVERAGE,
+  MIN_COVERAGE_FOR_INDEX,
+} from "@pancasila-index/core";
+import { Tex } from "@/components/tex";
 import { MethodologyTabs, type Tab } from "@/components/methodology-tabs";
 import { MethodologyCalculator } from "@/components/methodology-calculator";
 
 export const metadata = {
-  title: "Metodologi & Kerangka Epistemologis — Pancasila Index",
+  title: "Metodologi & Kerangka Epistemologis",
   description:
-    "Metodologi penelitian, formulasi matematis, hierarki 5 strata bukti primer, 8 triangulasi indeks independen global, protokol kurasi kuorum ganda, dan simulator penskoran interaktif Pancasila Index.",
+    "Metodologi penelitian, formulasi matematis, hierarki 5 strata bukti primer, 7 triangulasi indeks independen global, protokol kurasi kuorum ganda, dan simulator penskoran interaktif Pancasila Index.",
 };
 
 const scaleAnchors = [
@@ -53,51 +61,16 @@ const scaleAnchors = [
   },
 ];
 
-const externalIndices = [
-  {
-    name: "WJP Rule of Law Index",
-    provider: "World Justice Project (Washington, D.C.)",
-    focus: "Batasan kekuasaan pemerintah, ketiadaan korupsi, hak dasar, ketertiban, keadilan perdata & pidana.",
-  },
-  {
-    name: "Corruption Perceptions Index (CPI)",
-    provider: "Transparency International (Berlin)",
-    focus: "Tingkat persepsi korupsi sektor publik dan penegakan integritas pejabat negara.",
-  },
-  {
-    name: "Index of Public Integrity (IPI)",
-    provider: "ERCAS (European Research Centre for Anti-Corruption)",
-    focus: "Kapasitas masyarakat mengendalikan korupsi: independensi peradilan, transparansi anggaran, kebebasan pers.",
-  },
-  {
-    name: "V-Dem Democracy Indices",
-    provider: "V-Dem Institute (University of Gothenburg)",
-    focus: "Kualitas musyawarah publik (deliberative democracy), kontrol yudisial atas eksekutif, integritas elektoral.",
-  },
-  {
-    name: "Open Budget Index (OBI)",
-    provider: "International Budget Partnership (IBP)",
-    focus: "Keterbukaan dokumen APBN, pengawasan legislatif, dan partisipasi publik dalam anggaran.",
-  },
-  {
-    name: "OECD Public Integrity Indicators",
-    provider: "OECD Directorate for Public Governance",
-    focus: "Mitigasi konflik kepentingan, transparansi lobi, perlindungan pelapor (whistleblower), audit internal.",
-  },
-  {
-    name: "World Press Freedom Index",
-    provider: "Reporters Without Borders (RSF, Paris)",
-    focus: "Kebebasan jurnalis, pluralisme media, represi hukum, dan keamanan fisik wartawan.",
-  },
-  {
-    name: "Indeks Supremasi Sipil & Sektor Keamanan",
-    provider: "Koalisi Masyarakat Sipil Reformasi Sektor Keamanan (Imparsial, KontraS, PBHI, ELSAM)",
-    focus: "Pengawasan dwifungsi aparat militer/kepolisian dalam jabatan sipil ASN/BUMN dan netralitas keamanan.",
-  },
-];
 
 export default function MetodologiPage() {
   const influence = dimensionInfluence(dataset.rubric);
+  const externalIndices = dataset.external_indices;
+
+  // Angka pada narasi rumus diturunkan dari konstanta scoring engine, bukan
+  // ditulis ulang sebagai literal, agar teks tidak bisa menyimpang dari mesin.
+  const maxHalfwidthPoints = scoreToIndex(0) - scoreToIndex(-MAX_UNCERTAINTY_HALFWIDTH);
+  const severeCapIndex = scoreToIndex(NON_DEROGABLE_CAPS.severe);
+  const erosionCapIndex = scoreToIndex(NON_DEROGABLE_CAPS.erosion);
 
   // Tab 1: Fondasi & Genealogi Intelektual
   const sectionFondasi = (
@@ -112,13 +85,13 @@ export default function MetodologiPage() {
       </div>
 
       <p className="text-sm sm:text-base text-[var(--text)] leading-relaxed">
-        Pancasila Index dirancang secara sadar untuk menolak <strong>personalisasi politik, kultus figur, dan bias partisan</strong>. Fokus evaluasi platform ini adalah <strong>audit masa jabatan kelembagaan (*institutional tenure audit*)</strong> terhadap 8 organ konstitusional UUD 1945 (Presiden, DPR, MPR, DPD, MK, MA, BPK, KY) dari 1945 hingga era kontemporer.
+        Pancasila Index dirancang secara sadar untuk menolak <strong>personalisasi politik, kultus figur, dan bias partisan</strong>. Fokus evaluasi platform ini adalah <strong>audit masa jabatan kelembagaan (<em>institutional tenure audit</em>)</strong> terhadap {dataset.institutions.length} organ konstitusional UUD 1945 (Presiden, DPR, MPR, DPD, MK, MA, BPK, KY) dari 1945 hingga era kontemporer.
       </p>
 
       {/* Dataset Metrics Bar */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
         <div className="p-4 rounded-xl border border-[var(--line)] bg-[var(--panel)] text-center shadow-2xs">
-          <div className="font-mono text-2xl sm:text-3xl font-black text-[var(--acc-amber-strong)]">8</div>
+          <div className="font-mono text-2xl sm:text-3xl font-black text-[var(--acc-amber-strong)]">{dataset.institutions.length}</div>
           <div className="text-xs text-[var(--muted)] mt-1">Organ Konstitusional</div>
         </div>
         <div className="p-4 rounded-xl border border-[var(--line)] bg-[var(--panel)] text-center shadow-2xs">
@@ -144,7 +117,7 @@ export default function MetodologiPage() {
         </p>
         <ul className="space-y-2.5 text-xs sm:text-sm text-[var(--text)] list-disc pl-5">
           <li>
-            <strong className="text-[var(--text)]">Syarikat Dagang Islam (1905) & Syarikat Islam (1912):</strong> Titik nol kesadaran kedaulatan mandiri (*Zelfbestuur*) yang menentang penindasan ekonomi feodal-kolonial dengan etika tauhid kerakyatan.
+            <strong className="text-[var(--text)]">Syarikat Dagang Islam (1905) & Syarikat Islam (1912):</strong> Titik nol kesadaran kedaulatan mandiri (<em>Zelfbestuur</em>) yang menentang penindasan ekonomi feodal-kolonial dengan etika tauhid kerakyatan.
           </li>
           <li>
             <strong className="text-[var(--text)]">Fusi Nasionalis-Religius:</strong> Gagasan musyawarah mufakat, perikemanusiaan, dan keadilan sosial berakar dari saripati tradisi rembug desa adat dan nilai teologis universal, bukan sekadar saduran demokrasi liberal Barat.
@@ -188,7 +161,7 @@ export default function MetodologiPage() {
               Pilar 1
             </span>
             <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
-              Analisis Kesetiaan Teks Konstitusi (*Constitutional Fidelity*)
+              Analisis Kesetiaan Teks Konstitusi (<em>Constitutional Fidelity</em>)
             </h3>
           </div>
           <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
@@ -219,11 +192,11 @@ export default function MetodologiPage() {
               Pilar 2
             </span>
             <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
-              Analisis Kesenjangan Implementasi (*Law-in-Books vs Law-in-Action Gap*)
+              Analisis Kesenjangan Implementasi (<em>Law-in-Books vs Law-in-Action Gap</em>)
             </h3>
           </div>
           <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
-            Membedakan secara tegas antara klaim teks regulasi formal (*law in the books*) dengan kenyataan penegakan hukum di lapangan (*law in action*):
+            Membedakan secara tegas antara klaim teks regulasi formal (<em>law in the books</em>) dengan kenyataan penegakan hukum di lapangan (<em>law in action</em>):
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
             <div className="p-3.5 rounded-lg border border-[var(--line)] bg-[var(--bg)]">
@@ -254,11 +227,11 @@ export default function MetodologiPage() {
               Pilar 3
             </span>
             <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
-              Hierarki 5 Strata Bukti Primer (*Primary Evidence Triangulation*)
+              Hierarki 5 Strata Bukti Primer (<em>Primary Evidence Triangulation</em>)
             </h3>
           </div>
           <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
-            Setiap penilaian wajib memiliki minimal satu sitasi bukti primer ber-URL permanen (*provenance-backed*):
+            Setiap penilaian wajib memiliki minimal satu sitasi bukti primer ber-URL permanen (<em>provenance-backed</em>):
           </p>
           <div className="space-y-2 text-xs">
             <div className="p-3 rounded-lg border border-[var(--line)] bg-[var(--bg)] flex items-start gap-3">
@@ -301,21 +274,31 @@ export default function MetodologiPage() {
               Pilar 4
             </span>
             <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
-              Triangulasi 8 Indeks Independen Pihak Ketiga
+              Triangulasi {externalIndices.length} Indeks Independen Pihak Ketiga
             </h3>
           </div>
           <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
-            Untuk membongkar bias birokrasi dan laporan seremonial, platform mengintegrasikan 8 indeks independen berbasis data keras (*hard data*) dan *expert-coded double-blind*:
+            Untuk membongkar bias birokrasi dan laporan seremonial, platform mengintegrasikan {externalIndices.length} indeks independen berbasis data keras (<em>hard data</em>) dan <em>expert-coded double-blind</em>. Setiap indeks tertaut ke sumber penerbitnya agar dapat diverifikasi mandiri:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-            {externalIndices.map((idx, i) => (
+            {externalIndices.map((idx) => (
               <div
-                key={i}
+                key={idx.id}
                 className="p-3.5 rounded-lg border border-[var(--line)] bg-[var(--bg)] space-y-1"
               >
                 <div className="font-bold text-xs text-[var(--text)]">{idx.name}</div>
-                <div className="text-[10px] text-[var(--acc-amber-strong)] font-semibold">{idx.provider}</div>
-                <p className="text-[11px] text-[var(--muted)] leading-relaxed">{idx.focus}</p>
+                <div className="text-[10px] text-[var(--acc-amber-strong)] font-semibold">{idx.publisher}</div>
+                <p className="text-[11px] text-[var(--muted)] leading-relaxed">{idx.description}</p>
+                {idx.url && (
+                  <a
+                    href={idx.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block text-[10px] font-mono font-bold text-[var(--acc-sky-strong)] hover:underline pt-0.5"
+                  >
+                    Sumber penerbit →
+                  </a>
+                )}
               </div>
             ))}
           </div>
@@ -425,61 +408,82 @@ export default function MetodologiPage() {
       {/* Formula 1 */}
       <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-6 space-y-3 shadow-2xs">
         <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
-          1. Rata-Rata Skor Dimensi Polos ($S_d$)
+          1. Rata-Rata Skor Dimensi Polos (<Tex>{String.raw`\bar S_d`}</Tex>)
         </h3>
         <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
-          Skor dimensi dirata-rata polos lintas penilai independen $r \in R_d$. Skor tanpa bukti empiris (*evidence gap*) dikeluarkan dari himpunan $R_d$:
+          Skor dimensi dirata-rata polos lintas penilai independen <Tex>{String.raw`r \in R_d`}</Tex>. Skor tanpa bukti empiris (<em>evidence gap</em>) dikeluarkan dari himpunan <Tex>{String.raw`R_d`}</Tex>:
         </p>
-        <div className="p-4 rounded-lg bg-[var(--bg)] border border-[var(--line)] font-mono text-xs sm:text-sm text-center text-[var(--text)] font-semibold">
-          {"S̄_d = (1 / |R_d|) · ∑_{r ∈ R_d} S_{d,r}"}
+        <div className="p-4 rounded-lg bg-[var(--bg)] border border-[var(--line)] text-center text-[var(--text)]">
+          <Tex block>{String.raw`\bar S_d = \frac{1}{|R_d|} \sum_{r \in R_d} S_{d,r}`}</Tex>
         </div>
       </div>
 
       {/* Formula 2 */}
       <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-6 space-y-3 shadow-2xs">
         <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
-          2. Skor Kelompok Landasan ($G_k$)
+          2. Skor Kelompok Landasan (<Tex>{String.raw`G_k`}</Tex>)
         </h3>
         <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
-          Rerata tertimbang dari dimensi dalam kelompok landasan $G_k$. Keyakinan bukti tidak membobot nilai ini:
+          Rerata tertimbang dari dimensi dalam kelompok landasan <Tex>{String.raw`G_k`}</Tex>. Keyakinan bukti tidak membobot nilai ini:
         </p>
-        <div className="p-4 rounded-lg bg-[var(--bg)] border border-[var(--line)] font-mono text-xs sm:text-sm text-center text-[var(--text)] font-semibold">
-          {"G_k = (∑_{d ∈ G_k} S̄_d · w_d) / (∑_{d ∈ G_k} w_d)"}
+        <div className="p-4 rounded-lg bg-[var(--bg)] border border-[var(--line)] text-center text-[var(--text)]">
+          <Tex block>{String.raw`G_k = \frac{\sum_{d \in G_k} \bar S_d \cdot w_d}{\sum_{d \in G_k} w_d}`}</Tex>
         </div>
       </div>
 
       {/* Formula 3 */}
       <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-6 space-y-3 shadow-2xs">
         <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
-          3. Indeks Komposit Konstitusional 0–100 ($K$)
+          3. Komposit Tertimbang (<Tex>{String.raw`K`}</Tex>) &amp; Normalisasi Indeks 0–100
         </h3>
         <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
-          Rerata tertimbang antarkelompok landasan yang dinormalisasi dengan porsi tetap:
+          Rerata tertimbang antarkelompok landasan menghasilkan komposit <Tex>{String.raw`K`}</Tex> pada rentang
+          asli rubrik <Tex>{String.raw`[-2, +2]`}</Tex>, yang kemudian dipetakan linear ke skala indeks 0–100:
         </p>
-        <div className="p-4 rounded-lg bg-[var(--bg)] border border-[var(--line)] font-mono text-xs sm:text-sm text-center text-[var(--text)] font-semibold space-y-1">
-          <div>{"K = (∑_k G_k · W_k · c_k) / (∑_k W_k · c_k)"}</div>
-          <div>{"Indeks = min(50 + 25 · K, Batas_Hak_Dasar)"}</div>
+        <div className="p-4 rounded-lg bg-[var(--bg)] border border-[var(--line)] text-center text-[var(--text)] space-y-1">
+          <Tex block>{String.raw`K = \frac{\sum_k G_k \cdot W_k}{\sum_k W_k}`}</Tex>
+          <Tex block>{String.raw`\text{Indeks} = \min(50 + 25K,\ \text{Batas Hak Dasar})`}</Tex>
         </div>
         <p className="text-xs text-[var(--muted)] leading-relaxed">
-          Dengan bobot kelompok tetap: Pancasila = 40%, Pembukaan UUD = 30%, Norma Struktural = 30%.
+          Bobot kelompok:{" "}
+          {dataset.rubric.groups
+            .map((g) => `${g.name_id} = ${Math.round(g.weight * 100)}%`)
+            .join(", ")}
+          .
         </p>
+        <div className="p-3.5 rounded-lg border border-[var(--acc-sky)]/30 bg-[var(--acc-sky)]/10 text-xs text-[var(--text)] leading-relaxed">
+          <strong className="text-[var(--acc-sky-strong)]">Mengapa keyakinan bukti tidak ikut membobot:</strong>{" "}
+          bobot menyatakan <em>seberapa penting</em> sebuah landasan secara normatif, sedangkan keyakinan menyatakan{" "}
+          <em>seberapa kuat buktinya</em>. Keduanya tidak boleh dicampur. Jika keyakinan ikut membobot, sebuah lembaga
+          dapat memperbaiki skornya cukup dengan membiarkan bukti pada dimensi terburuknya tetap langka — dan itu
+          insentif yang salah. Karena itu keyakinan hanya melebarkan rentang ketidakpastian (Bagian 4), tidak pernah
+          menggeser nilai tengahnya.
+        </div>
       </div>
 
       {/* Formula 4 */}
       <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-6 space-y-3 shadow-2xs">
         <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
-          4. Rentang Ketidakpastian Linear ($H$) & Batas Hak Mutlak
+          4. Rentang Ketidakpastian Linear (<Tex>{String.raw`H`}</Tex>) &amp; Batas Hak Mutlak
         </h3>
         <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
-          Keyakinan bukti melaporkan lebar interval ketidakpastian secara linear (bukan kuadratur), dengan rentang maksimal $\pm 12.5$ poin indeks pada keyakinan 0:
+          Keyakinan bukti melaporkan lebar interval ketidakpastian secara linear (bukan kuadratur), dengan rentang
+          maksimal <Tex>{String.raw`\pm ` + maxHalfwidthPoints}</Tex> poin indeks pada keyakinan 0:
         </p>
-        <div className="p-4 rounded-lg bg-[var(--bg)] border border-[var(--line)] font-mono text-xs sm:text-sm text-center text-[var(--text)] font-semibold">
-          {"H = (∑ w · (1 - c) · h_max) / ∑ w,   h_max = 0.5 (±12.5 poin indeks)"}
+        <div className="p-4 rounded-lg bg-[var(--bg)] border border-[var(--line)] text-center text-[var(--text)] space-y-1">
+          <Tex block>{String.raw`H = \frac{\sum w \cdot (1 - c) \cdot h_{\max}}{\sum w}`}</Tex>
+          <Tex block>{String.raw`h_{\max} = ` + MAX_UNCERTAINTY_HALFWIDTH + String.raw`\quad (\pm ` + maxHalfwidthPoints + String.raw`\text{ poin indeks})`}</Tex>
         </div>
         <div className="p-3.5 rounded-lg border border-[var(--acc-red)]/30 bg-[var(--acc-red)]/10 text-xs text-[var(--text)] space-y-1">
           <strong className="text-[var(--acc-red-strong)]">Plafon Hak yang Tidak Dapat Dikurangi (Pasal 28I ayat 1 UUD 1945):</strong>
-          <div>• Skor $-2$ pada dimensi hak asasi mutlak $\implies$ Plafon Indeks Maksimal = 25.</div>
-          <div>• Skor $\le -1$ pada dimensi hak asasi mutlak $\implies$ Plafon Indeks Maksimal = 50.</div>
+          <div>
+            • Skor <Tex>{String.raw`-2`}</Tex> pada dimensi hak asasi mutlak{" "}
+            <Tex>{String.raw`\implies`}</Tex> Plafon Indeks Maksimal = {severeCapIndex}.
+          </div>
+          <div>
+            • Skor <Tex>{String.raw`\le -1`}</Tex> pada dimensi hak asasi mutlak{" "}
+            <Tex>{String.raw`\implies`}</Tex> Plafon Indeks Maksimal = {erosionCapIndex}.
+          </div>
         </div>
       </div>
 
@@ -489,7 +493,20 @@ export default function MetodologiPage() {
           Deklarasi Transparansi Metodologi: Agregasi Multi-Peristiwa ke Bilangan Bulat
         </div>
         <p className="leading-relaxed">
-          Pancasila Index memuat {dataset.events.length} peristiwa empiris. Bagaimana puluhan peristiwa dalam satu dimensi diringkas menjadi satu bilangan bulat $-2..+2$ adalah telaah kualitatif dewan kurator (expert judgment) yang didukung bukti primer ber-URL permanen. Angka indeks komposit dihitung 100% secara deterministik dari skor dimensi tersebut.
+          Pancasila Index memuat {dataset.events.length} peristiwa empiris. Bagaimana puluhan peristiwa dalam satu
+          dimensi diringkas menjadi satu bilangan bulat <Tex>{String.raw`-2 \ldots +2`}</Tex> adalah telaah kualitatif
+          dewan kurator (<em>expert judgment</em>) yang didukung bukti primer ber-URL permanen. Yang dapat direplikasi
+          sepenuhnya adalah langkah sesudahnya: dari skor dimensi ke indeks komposit (Bagian 1–4). Penurunan skor
+          dimensi dari bukti belum merupakan prosedur yang dapat direplikasi, dan dinyatakan sebagai penilaian ahli.
+        </p>
+        <p className="leading-relaxed pt-1">
+          <strong className="text-[var(--acc-amber-strong)]">Dua ambang cakupan yang ikut menentukan angka:</strong>{" "}
+          sebuah kelompok landasan hanya ikut membentuk komposit bila minimal{" "}
+          {Math.round(MIN_GROUP_COVERAGE * 100)}% dimensinya sudah dinilai; kelompok di bawah ambang itu dikeluarkan
+          seluruhnya dan porsinya tidak dialihkan diam-diam ke kelompok lain. Selain itu, indeks tidak diterbitkan
+          sama sekali bila kurang dari {Math.round(MIN_COVERAGE_FOR_INDEX * 100)}% dari seluruh{" "}
+          {dataset.rubric.dimensions.length} dimensi memiliki penilaian. Karena itu banyak masa jabatan sengaja
+          ditampilkan tanpa angka, bukan dengan angka yang dipaksakan.
         </p>
       </div>
     </section>
@@ -509,7 +526,7 @@ export default function MetodologiPage() {
 
       <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-6 space-y-4 shadow-2xs">
         <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
-          Siklus Hidup Penilaian (*Double-Reviewer Quorum*)
+          Siklus Hidup Penilaian (<em>Double-Reviewer Quorum</em>)
         </h3>
         <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
           Tidak ada skor atau narasi yang dapat dipublikasikan secara resmi ke publik tanpa persetujuan manual minimal dua orang penelaah independen:
@@ -521,7 +538,7 @@ export default function MetodologiPage() {
             </span>
             <div className="font-bold text-[var(--text)] pt-1">Draf Asesmen</div>
             <p className="text-[var(--muted)] text-[11px] leading-relaxed">
-              Dibuat oleh periset / diusulkan publik / dibantu kecerdasan buatan (`human_confirmed: false`).
+              Dibuat oleh periset / diusulkan publik / dibantu kecerdasan buatan (<code className="font-mono text-[0.9em] px-1 py-0.5 rounded bg-[var(--bg)] border border-[var(--line)] text-[var(--text)]">human_confirmed: false</code>).
             </p>
           </div>
           <div className="p-4 rounded-lg border border-[var(--line)] bg-[var(--bg)] space-y-1">
@@ -530,7 +547,7 @@ export default function MetodologiPage() {
             </span>
             <div className="font-bold text-[var(--text)] pt-1">Verifikasi Reviewer 1</div>
             <p className="text-[var(--muted)] text-[11px] leading-relaxed">
-              Status beralih ke `pending_second`. Penelaah 1 memverifikasi keaslian sitasi berkas primer.
+              Status beralih ke <code className="font-mono text-[0.9em] px-1 py-0.5 rounded bg-[var(--bg)] border border-[var(--line)] text-[var(--text)]">pending_second</code>. Penelaah 1 memverifikasi keaslian sitasi berkas primer.
             </p>
           </div>
           <div className="p-4 rounded-lg border border-[var(--line)] bg-[var(--bg)] space-y-1">
@@ -539,7 +556,7 @@ export default function MetodologiPage() {
             </span>
             <div className="font-bold text-[var(--text)] pt-1">Konsensus Reviewer 2</div>
             <p className="text-[var(--muted)] text-[11px] leading-relaxed">
-              Status `published` tercapai. Kuorum $\ge 2$ approver manusia independen (`human_confirmed: true`).
+              Status <code className="font-mono text-[0.9em] px-1 py-0.5 rounded bg-[var(--bg)] border border-[var(--line)] text-[var(--text)]">published</code> tercapai. Kuorum <Tex>{String.raw`\ge 2`}</Tex> approver manusia independen (<code className="font-mono text-[0.9em] px-1 py-0.5 rounded bg-[var(--bg)] border border-[var(--line)] text-[var(--text)]">human_confirmed: true</code>).
             </p>
           </div>
         </div>
@@ -557,7 +574,7 @@ export default function MetodologiPage() {
             <strong className="text-[var(--text)]">Audit Log Permanen:</strong> Setiap aksi peninjauan, penolakan, maupun perubahan skor tercatat permanen di <Link href="/kurasi/log" className="text-[var(--acc-sky-strong)] underline">Log Aktivitas Kurasi Publik</Link>.
           </li>
           <li>
-            <strong className="text-[var(--text)]">Mirroring Write-Through:</strong> Keputusan final dari database PostgreSQL langsung dicerminkan ke berkas kanonik Git `review-state.json` agar build open-source tetap dapat direplikasi secara mandiri oleh siapa pun.
+            <strong className="text-[var(--text)]">Mirroring Write-Through:</strong> Keputusan final dari database PostgreSQL langsung dicerminkan ke berkas kanonik Git <code className="font-mono text-[0.9em] px-1 py-0.5 rounded bg-[var(--bg)] border border-[var(--line)] text-[var(--text)]">review-state.json</code> agar build open-source tetap dapat direplikasi secara mandiri oleh siapa pun.
           </li>
         </ul>
       </div>
@@ -594,7 +611,7 @@ export default function MetodologiPage() {
 
       <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 sm:p-6 space-y-4 shadow-2xs">
         <h3 className=" font-bold text-base sm:text-lg text-[var(--text)]">
-          Akses Dataset Terbuka (*Open Access Datasets*)
+          Akses Dataset Terbuka (<em>Open Access Datasets</em>)
         </h3>
         <p className="text-xs sm:text-sm text-[var(--text)] leading-relaxed">
           Seluruh dataset Pancasila Index dapat diunduh secara bebas untuk keperluan riset akademis, jurnalisme data, dan advokasi publik:
@@ -670,7 +687,7 @@ export default function MetodologiPage() {
           Metodologi & Kerangka Epistemologis
         </h1>
         <p className="text-sm sm:text-base text-[var(--muted)] leading-relaxed max-w-4xl">
-          Menilai kesetiaan 8 organ konstitusional Indonesia (1945–kini) terhadap Pancasila dan norma struktural UUD 1945 melalui audit masa jabatan kelembagaan berbasis 5 strata bukti primer, formula matematika teruji, validasi silang 8 indeks independen global, dan kuorum ganda kurasi manusia.
+          Menilai kesetiaan {dataset.institutions.length} organ konstitusional Indonesia (1945–kini) terhadap Pancasila dan norma struktural UUD 1945 melalui audit masa jabatan kelembagaan berbasis 5 strata bukti primer, agregasi matematis yang terbuka dan dapat direplikasi, pembanding {externalIndices.length} indeks independen global, dan kuorum ganda kurasi manusia.
         </p>
       </header>
 

@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
+import { AudioPlayer } from "@/components/audio-player";
 
 interface Milestone {
   id: string;
@@ -1429,9 +1430,12 @@ export default function AkarSejarahPage() {
 
                   {/* Title & Colored Subtitle */}
                   <div>
-                    <h2 className="text-lg sm:text-xl font-serif font-bold text-slate-900 dark:text-slate-100 leading-snug tracking-tight">
-                      {m.title}
-                    </h2>
+                    <div className="flex flex-wrap items-center gap-2">
+                      <h2 className="text-lg sm:text-xl font-serif font-bold text-slate-900 dark:text-slate-100 leading-snug tracking-tight">
+                        {m.title}
+                      </h2>
+                      <AudioPlayer slug={m.id} type="root" label={m.title} />
+                    </div>
                     <p className={`text-xs sm:text-sm font-sans font-bold mt-1 tracking-tight ${catStyle.text}`}>
                       {m.subtitle}
                     </p>

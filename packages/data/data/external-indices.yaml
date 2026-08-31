@@ -199,7 +199,7 @@
   name: V-Dem Liberal Democracy Index (LDI)
   publisher: Varieties of Democracy (V-Dem) Institute, University of Gothenburg
   type: expert-coded
-  scale: 0.00 - 1.00 (1.00 = Demokrasi deliberatif berintegritas tinggi)
+  scale: 0.00 - 1.00 (1.00 = Demokrasi liberal berintegritas tinggi)
   description: Basis data riset akademik global berbasis double-blind expert
     coding dan model Bayesian, menilai kualitas musyawarah publik (meaningful
     participation), kebebasan akademik/pers, serta kapasitas peradilan mengawasi

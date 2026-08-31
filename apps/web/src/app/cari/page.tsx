@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { dataset } from "@pancasila-index/data";
+import { AudioPlayer } from "@/components/audio-player";
 import { useLocale } from "@/components/locale-provider";
 import { pickI18n } from "@/lib/i18n";
 
@@ -489,6 +490,9 @@ export default function CariPage() {
                     </div>
                     <div className="font-semibold text-[var(--text)]">{ev.title_id}</div>
                     <p className="text-xs text-[var(--muted)] leading-relaxed">{ev.summary_id}</p>
+                    <div className="flex flex-wrap items-center gap-2 pt-1">
+                      <AudioPlayer slug={ev.id} type="event" label={ev.title_id} />
+                    </div>
                     <div className="flex flex-wrap gap-1.5 pt-1">
                       {ev.source_ids.map((sid) => {
                         const src = dataset.sources.find((s) => s.id === sid);

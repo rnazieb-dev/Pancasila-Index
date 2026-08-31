@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Kebijakan Privasi — Pancasila Index",
+  title: "Kebijakan Privasi",
   description:
     "Kebijakan privasi dan pelindungan data pribadi Pancasila Index sesuai UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi.",
 };

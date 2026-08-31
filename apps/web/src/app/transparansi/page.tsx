@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Transparansi Pendanaan — Pancasila Index",
+  title: "Transparansi Pendanaan",
   description:
     "Pernyataan independensi dan transparansi pendanaan Pancasila Index: hanya menerima sumbangan individu, tidak dari partai/BUMN/pihak yang dinilai.",
 };

@@ -37,7 +37,7 @@ export async function generateMetadata({
   const { id } = await params;
   const source = dataset.sources.find((s) => s.id === id);
   if (!source) {
-    return { title: "Dokumen Tidak Ditemukan | Pancasila Index" };
+    return { title: "Dokumen Tidak Ditemukan" };
   }
   const title = `${source.title_id} | Khazanah Arsip Pancasila Index`;
   const description = source.citation_id

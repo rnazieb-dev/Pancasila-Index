@@ -14,7 +14,7 @@ import {
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "Log Aktivitas Kurasi & Jejak Audit — Pancasila Index",
+  title: "Log Aktivitas Kurasi & Jejak Audit",
   description:
     "Transparansi jejak audit, riwayat verifikasi dataset kanonik 636 peristiwa, dan log kurasi real-time Pancasila Index.",
 };
@@ -75,7 +75,7 @@ const CANONICAL_AUDIT_TRAIL: LogRow[] = [
   {
     id: "LOG-REL-2026-08-29-01",
     action: "dataset.external.validate",
-    entity: "Triangulasi 8 Indeks Global",
+    entity: "Triangulasi 7 Indeks Global",
     entityId: "external-indices.json",
     meta: "Verifikasi 103 titik data historis berprovenance (WJP Rule of Law, CPI Transparency International, V-Dem, OBI Budget, RSF Press Freedom).",
     createdAt: new Date("2026-08-29T14:30:00Z"),

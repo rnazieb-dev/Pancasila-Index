@@ -212,6 +212,13 @@ const id = {
     "Donasi sukarela, tidak ada imbalan. Donasi tidak memberikan hak istimewa atas isi indeks. Setelah yayasan berdiri, pengelolaan Pancasila Index dialihkan ke yayasan dan PT kembali ke aktivitas komersialnya yang tidak terkait platform ini.",
   donasiCtaOpen: "Buka halaman donasi",
   footerDonate: "Dukung",
+
+  // Audio (TTS)
+  audioPlay: "Dengarkan",
+  audioPlayTitle: "Dengarkan audio",
+  audioLoading: "Memuat…",
+  audioPlaying: "Berhenti",
+  audioError: "Gagal",
 } satisfies Record<string, string>;
 
 /** Semua dict wajib memenuhi bentuk ini — kunci hilang = error kompilasi. */
@@ -395,6 +402,13 @@ const en: Dict = {
     "Donations are voluntary with no reward. Donations do not grant any privileged rights over the index's content. After the foundation is established, management of Pancasila Index is transferred to it and the company returns to its commercial activities unrelated to this platform.",
   donasiCtaOpen: "Open the donation page",
   footerDonate: "Support",
+
+  // Audio (TTS)
+  audioPlay: "Listen",
+  audioPlayTitle: "Listen to audio",
+  audioLoading: "Loading…",
+  audioPlaying: "Stop",
+  audioError: "Failed",
 };
 
 const jv: Dict = {
@@ -574,6 +588,13 @@ const jv: Dict = {
     "Sumbangan sukarela, ora ana upa-upa. Ora maringi hak istimewa maring isi indeks. Sawise yayasan madeg, pangaturan Pancasila Index dialihake maring yayasan lan PT bali maring aktivitas komersial sing ora ana gandhengane karo platform iki.",
   donasiCtaOpen: "Bukak kaca sumbang",
   footerDonate: "Sumbang",
+
+  // Audio (TTS)
+  audioPlay: "Ngrungokake",
+  audioPlayTitle: "Ngrungokake audio",
+  audioLoading: "Ngemot…",
+  audioPlaying: "Mandheg",
+  audioError: "Gagal",
 };
 
 const su: Dict = {
@@ -753,6 +774,13 @@ const su: Dict = {
     "Sungi sukarela, henteu aya upa-upa. Henteu masihan hak istimewa kana eusi indeks. Saatos yayasan ngadeg, pangaturan Pancasila Index dipindahkeun ka yayasan sareng PT balik kana aktivitas komersial anu henteu aya hubunganana jeung platform ieu.",
   donasiCtaOpen: "Buka kaca sungi",
   footerDonate: "Sungi",
+
+  // Audio (TTS)
+  audioPlay: "Ngadangdang",
+  audioPlayTitle: "Ngadangdang audio",
+  audioLoading: "Ngamusu…",
+  audioPlaying: "Eureun",
+  audioError: "Gagal",
 };
 
 const mad: Dict = {
@@ -932,6 +960,13 @@ const mad: Dict = {
     "Sèdhekah sukarela, ta' ana opa-upa. Ta' aghili hak istimewa ka isi indeks. Saos yayasan deddhi, ngola Pancasila Index èalihaghi ka yayasan sareng PT abâli ka aktivitas komersial sè ta' aghiliyaghi platform panèka.",
   donasiCtaOpen: "Buka kaca sèdhekah",
   footerDonate: "Sèdhekah",
+
+  // Audio (TTS)
+  audioPlay: "Ngenneng",
+  audioPlayTitle: "Ngenneng audio",
+  audioLoading: "Ngobhet…",
+  audioPlaying: "Aso",
+  audioError: "Gagal",
 };
 
 const min: Dict = {
@@ -1111,6 +1146,13 @@ const min: Dict = {
     "Donor sukarela, indak ado imbalan. Indak maaghia hak istimewa ats isi indeks. Sasudah yayasan tabanniak, pangalolaan Pancasila Index dipindahan ka yayasan jo PT baliak ka aktivitas komersial nan indak basangkutan jo platform ko.",
   donasiCtaOpen: "Bukak halaman donor",
   footerDonate: "Dukuang",
+
+  // Audio (TTS)
+  audioPlay: "Caliak",
+  audioPlayTitle: "Caliak audio",
+  audioLoading: "Maapkan…",
+  audioPlaying: "Barek",
+  audioError: "Gagal",
 };
 
 const DICTS: Record<string, Dict> = { id, en, jv, su, mad, min };

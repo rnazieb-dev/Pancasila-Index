@@ -52,7 +52,11 @@ function buildCsp(): string {
     `style-src 'self' 'unsafe-inline'`,
     `img-src 'self' data: https: blob:`,
     `font-src 'self' data:`,
-    `connect-src 'self'`,
+    // connect-src: 'self' (same-origin) + Vercel AI Gateway untuk
+    // text-to-speech (endpoint ai-gateway.vercel.sh). Endpoint lain
+    // (GitHub OAuth, Prisma) ditangani via Server Actions, tidak lewat
+    // fetch dari browser.
+    `connect-src 'self' https://ai-gateway.vercel.sh`,
     `frame-ancestors 'none'`,
     `form-action 'self'`,
     `base-uri 'self'`,
@@ -60,9 +64,28 @@ function buildCsp(): string {
   ].join("; ");
 }
 
+/**
+ * Rute yang pindah permanen. Dijalankan di middleware, bukan di komponen
+ * halaman, karena layout /peer-review memasang gerbang autentikasi yang
+ * mencegat lebih dulu dan mengalihkan ke /masuk?callbackUrl=/peer-review —
+ * membuang parameter kueri, sehingga pengguna anonim yang mengeklik tautan
+ * lama berisi ?draftId= kehilangan drafnya setelah login.
+ */
+const REDIRECTED_ROUTES: Record<string, string> = {
+  "/peer-review/usulan": "/usulkan-bukti",
+};
+
 export function middleware(req: NextRequest) {
   const method = req.method.toUpperCase();
   const isUnsafe = UNSAFE_METHODS.has(method);
+
+  const movedTo = REDIRECTED_ROUTES[req.nextUrl.pathname];
+  if (!isUnsafe && movedTo) {
+    const target = req.nextUrl.clone();
+    target.pathname = movedTo;
+    // Parameter kueri (draftId, dimensi, masa) sengaja dipertahankan.
+    return NextResponse.redirect(target, 308);
+  }
 
   // CSRF: untuk non-GET, validasi Origin/Referer cocok dengan host.
   if (isUnsafe) {
@@ -100,7 +123,14 @@ export function middleware(req: NextRequest) {
     }
   }
 
-  const response = NextResponse.next();
+  // Teruskan path asli agar gerbang autentikasi di layout dapat menyusun
+  // callbackUrl yang tepat. Tanpa ini layout hanya tahu rute statisnya dan
+  // memakai callbackUrl hardcoded, sehingga parameter kueri (?dimensi=,
+  // ?masa=, ?draftId=) hilang setelah pengguna login.
+  const forwarded = new Headers(req.headers);
+  forwarded.set("x-pathname", req.nextUrl.pathname + req.nextUrl.search);
+
+  const response = NextResponse.next({ request: { headers: forwarded } });
   response.headers.set("Content-Security-Policy", buildCsp());
   response.headers.set("X-Content-Type-Options", "nosniff");
   response.headers.set("Referrer-Policy", "strict-origin-when-cross-origin");

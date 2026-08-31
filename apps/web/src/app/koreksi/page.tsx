@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Koreksi & Hak Jawab — Pancasila Index",
+  title: "Koreksi & Hak Jawab",
   description:
     "Mekanisme koreksi skor dan hak jawab (right of reply) untuk subjek yang dinilai dalam Pancasila Index.",
 };

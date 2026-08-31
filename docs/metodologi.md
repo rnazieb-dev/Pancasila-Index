@@ -33,15 +33,16 @@ Setiap skor penilaian wajib bersitasi minimal satu instrumen bukti primer resmi:
 - **Investigasi Koalisi Masyarakat Sipil**: Catatan Akhir Tahun Konsorsium Pembaruan Agraria (KPA), Laporan Situasi Hak Digital SAFENet, Tren Korupsi Indonesia Corruption Watch (ICW), Catatan Kritis Eksekusi Lingkungan ICEL/WALHI, dan Kertas Kebijakan Koalisi Reformasi Sektor Keamanan (Imparsial, KontraS, PBHI, ELSAM).
 
 ### Pilar 4: Validasi Silang Indeks Independen Global (*Independent Global Indices Cross-Validation*)
-Mengintegrasikan 8 indeks independen pihak ketiga yang berbasis data keras (*hard data*) dan *expert-coded double-blind* guna membongkar bias birokrasi Asal Bapak Senang (ABS):
+Mengintegrasikan 7 indeks independen pihak ketiga yang berbasis data keras (*hard data*) dan *expert-coded double-blind* guna membongkar bias birokrasi Asal Bapak Senang (ABS):
 1. **WJP Rule of Law Index (World Justice Project)**: Kepatuhan supremasi hukum, keadilan pidana, pembatasan kekuasaan pemerintah.
 2. **Corruption Perceptions Index (CPI - Transparency International)**: Komposit 13 survei independen persepsi korupsi sektor publik.
 3. **Index of Public Integrity (IPI - ERCAS)**: Kapasitas kontrol korupsi (Independensi Peradilan, Beban Administrasi, Transparansi Anggaran).
-4. **V-Dem Deliberative & Liberal Democracy Index (University of Gothenburg)**: Kualitas musyawarah publik (*meaningful participation*) dan pengawasan peradilan atas eksekutif.
+4. **V-Dem Liberal Democracy Index / LDI (V-Dem Institute, University of Gothenburg)**: Kualitas musyawarah publik (*meaningful participation*) dan pengawasan peradilan atas eksekutif.
 5. **Open Budget Index (OBI - IBP)**: Audit independen transparansi APBN dan partisipasi publik anggaran.
 6. **OECD Public Integrity Indicators (PII)**: Standar mitigasi konflik kepentingan dan perlindungan saksi/whistleblower.
 7. **World Press Freedom Index (Reporters Without Borders / RSF)**: Kebebasan jurnalisme dan keselamatan wartawan dari represi.
-8. **Indeks Supremasi Sipil & Integritas Sektor Keamanan (Koalisi Reformasi Sektor Keamanan)**: Pengawasan larangan Dwifungsi TNI/Polri dalam jabatan sipil ASN/BUMN dan netralitas aparat keamanan.
+
+> Daftar ini adalah cerminan `dataset.external_indices` dan dirender langsung dari sana di halaman `/metodologi`. Laporan Koalisi Reformasi Sektor Keamanan (Imparsial, KontraS, PBHI, ELSAM) dipakai sebagai bukti primer Strata V, bukan sebagai indeks triangulasi tersendiri.
 
 ---
 

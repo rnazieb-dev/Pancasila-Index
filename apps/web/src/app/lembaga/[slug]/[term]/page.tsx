@@ -1,6 +1,7 @@
 import { db, isDatabaseAvailable } from "@/lib/db";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { AudioPlayerClient } from "@/components/audio-player-client";
 
 import {
   dataset,
@@ -592,6 +593,9 @@ export default async function TermPage({
                 </div>
                 <div className="mt-1 font-medium">{ev.title_id}</div>
                 <p className="mt-1 text-sm text-[var(--muted)]">{ev.summary_id}</p>
+                <div className="mt-2">
+                  <AudioPlayerClient slug={ev.id} type="event" label={ev.title_id} />
+                </div>
                 {ev.actor_ids.length > 0 && (
                   <div className="mt-2 flex flex-wrap items-center gap-1.5">
                     <span className="text-[10px] uppercase tracking-wide text-[var(--muted)]">
