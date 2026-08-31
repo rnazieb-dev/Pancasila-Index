@@ -40,15 +40,24 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     strategy: "jwt",
     maxAge: 365 * 24 * 60 * 60, // 1 tahun persisten
   },
-  // Harden cookie sesi: SameSite=Strict + httpOnly + secure (saat HTTPS).
-  // Pagar pelengkap dari validasi Origin/Referer di middleware.
-  // Catatan: NextAuth v5 membaca opsi `cookies` sebagai
-  // `Record<string, CookieOption>` dengan key sesuai nama cookie.
+  // Harden cookie sesi:
+  // - SameSite=strict (sebelumnya default 'lax'): cookie tidak terkirim
+  //   pada cross-site request, mitigasi CSRF.
+  // - HttpOnly: tidak bisa diakses JavaScript, mitigasi XSS exfiltration.
+  // - Secure saat HTTPS: hanya dikirim via HTTPS.
+  // - Prefix __Host- di production: lebih ketat dari __Secure-, browser
+  //   mengharuskan Secure flag, Path=/, dan tidak ada Domain attribute.
+  //   Mencegah subdomain attacker menulis cookie dengan nama yang bentrok.
+  //
+  // Pelengkap dari middleware:
+  // - Origin/Referer check: tolak mutation cross-origin.
+  // - CSP nonce: blokir script inline berbahaya.
+  // - auth() di route handler: wajib sesi valid.
   cookies: {
     sessionToken: {
       name:
         process.env.NODE_ENV === "production"
-          ? "__Secure-authjs.session-token"
+          ? "__Host-authjs.session-token"
           : "authjs.session-token",
       options: {
         httpOnly: true,
@@ -60,7 +69,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     callbackUrl: {
       name:
         process.env.NODE_ENV === "production"
-          ? "__Secure-authjs.callback-url"
+          ? "__Host-authjs.callback-url"
           : "authjs.callback-url",
       options: {
         httpOnly: true,
