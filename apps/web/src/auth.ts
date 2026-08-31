@@ -40,6 +40,48 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     strategy: "jwt",
     maxAge: 365 * 24 * 60 * 60, // 1 tahun persisten
   },
+  // Harden cookie sesi: SameSite=Strict + httpOnly + secure (saat HTTPS).
+  // Pagar pelengkap dari validasi Origin/Referer di middleware.
+  // Catatan: NextAuth v5 membaca opsi `cookies` sebagai
+  // `Record<string, CookieOption>` dengan key sesuai nama cookie.
+  cookies: {
+    sessionToken: {
+      name:
+        process.env.NODE_ENV === "production"
+          ? "__Secure-authjs.session-token"
+          : "authjs.session-token",
+      options: {
+        httpOnly: true,
+        sameSite: "strict",
+        path: "/",
+        secure: process.env.NODE_ENV === "production",
+      },
+    },
+    callbackUrl: {
+      name:
+        process.env.NODE_ENV === "production"
+          ? "__Secure-authjs.callback-url"
+          : "authjs.callback-url",
+      options: {
+        httpOnly: true,
+        sameSite: "strict",
+        path: "/",
+        secure: process.env.NODE_ENV === "production",
+      },
+    },
+    csrfToken: {
+      name:
+        process.env.NODE_ENV === "production"
+          ? "__Host-authjs.csrf-token"
+          : "authjs.csrf-token",
+      options: {
+        httpOnly: true,
+        sameSite: "strict",
+        path: "/",
+        secure: process.env.NODE_ENV === "production",
+      },
+    },
+  },
   providers: [
     ...(githubConfigured
       ? [
