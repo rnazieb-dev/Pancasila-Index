@@ -88,8 +88,11 @@ export default async function ArsipDetailPage({
 
   // Authoritative Direct Official URL
   const officialHref = source.url ?? source.resolved_url;
-  // Mirror Archive URL
-  const downloadHref = source.archive_url ?? source.resolved_url ?? (source.r2_key ? `https://www.pancasila.site/api/arsip/${source.r2_key}` : null);
+  // Wayback Machine sebagai cadangan independen kalau tautan resmi mati.
+  // "web/2/" membuat Wayback otomatis mengarah ke snapshot terdekat yang
+  // tersedia (atau ke halaman "tidak ditemukan" milik Wayback sendiri kalau
+  // memang belum pernah diarsipkan - itu jujur, bukan klaim salah).
+  const waybackHref = officialHref ? `https://web.archive.org/web/2/${officialHref}` : null;
 
   const isUud1945 = source.id === "uud-nri-1945";
 
@@ -144,15 +147,15 @@ export default async function ArsipDetailPage({
             </a>
           )}
 
-          {downloadHref && (
+          {waybackHref && (
             <a
-              href={downloadHref}
+              href={waybackHref}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3 text-xs font-semibold text-[var(--text)] hover:border-slate-400 transition"
             >
               <IconArchive size={16} className="text-[var(--acc-amber-strong)]" />
-              <span>Unduh Salinan Naskah Digital</span>
+              <span>Cadangan di Wayback Machine</span>
             </a>
           )}
         </div>

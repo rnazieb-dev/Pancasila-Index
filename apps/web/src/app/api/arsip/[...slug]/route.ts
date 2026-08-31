@@ -3,9 +3,15 @@ import { dataset } from "@pancasila-index/data";
 
 /**
  * Resolver Arsip Primer Resmi Pancasila Index:
- * - Menghubungkan pembaca langsung ke portal hukum primer terverifikasi
+ * - Menghubungkan pembaca langsung ke portal hukum primer institusi
  *   (JDIH Setneg, MKRI, Mahkamah Agung, BPK, ANRI, dll.)
- * - Menjamin 100% tautan tidak pernah mati atau mengembalikan berkas kosong.
+ *
+ * PENTING: ini hanya redirect ke `source.url` - TIDAK ada salinan cadangan
+ * tersimpan di R2 atau di mana pun (`r2_key`/`archive_url` di dataset belum
+ * benar-benar terhubung ke storage apa pun). Kalau portal resminya sudah
+ * pindah/dihapus, redirect ini akan 404 juga. Audit 2026-09 menemukan 72
+ * dari 634 `source.url` sudah mati (lihat /arsip/[id] untuk cadangan
+ * Wayback Machine per-dokumen).
  */
 export async function GET(
   req: NextRequest,
