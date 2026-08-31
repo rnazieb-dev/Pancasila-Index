@@ -23,19 +23,119 @@ import { buildUsulanPatch } from "@/lib/usulan-patch";
 
 const API = "https://api.github.com";
 
-export interface GithubConfig {
-  repo: string;
-  token: string;
-  baseBranch: string;
-}
+/**
+ * Dua cara mengotentikasi diri sengaja didukung berdampingan:
+ *
+ * - "app": token instalasi diterbitkan sendiri dari App ID + kunci privat,
+ *   berlaku ~1 jam dan diperbarui otomatis. Ini jalur yang dipakai produksi -
+ *   tidak ada token statis yang bisa kedaluwarsa diam-diam atau perlu diputar
+ *   manual tiap jam.
+ * - "token": token statis (mis. classic PAT) lewat GITHUB_PR_TOKEN, disimpan
+ *   untuk pengujian cepat sebelum GitHub App dipasang. TIDAK disarankan untuk
+ *   produksi: token begini biasanya melekat pada satu akun pribadi, bukan
+ *   pada instalasi yang scoped ke repo tunggal.
+ */
+export type GithubConfig =
+  | { mode: "app"; repo: string; baseBranch: string; appId: string; privateKey: string; installationId: string }
+  | { mode: "token"; repo: string; baseBranch: string; token: string };
 
 /** Konfigurasi aktif, atau null bila integrasi belum dipasang. */
 export function githubConfig(): GithubConfig | null {
   const repo = process.env.GITHUB_CANONICAL_REPO;
+  if (!repo || !/^[\w.-]+\/[\w.-]+$/.test(repo)) return null;
+  const baseBranch = process.env.GITHUB_BASE_BRANCH || "main";
+
+  const appId = process.env.GITHUB_APP_ID;
+  const installationId = process.env.GITHUB_APP_INSTALLATION_ID;
+  // Kunci privat GitHub App berbentuk PEM multi-baris; di banyak dashboard
+  // env var (termasuk Vercel bila ditempel sebagai satu baris) baris barunya
+  // ter-escape jadi literal "\n". Keduanya diterima.
+  const privateKeyRaw = process.env.GITHUB_APP_PRIVATE_KEY;
+  const privateKey = privateKeyRaw?.includes("\\n")
+    ? privateKeyRaw.replace(/\\n/g, "\n")
+    : privateKeyRaw;
+
+  if (appId && installationId && privateKey) {
+    return { mode: "app", repo, baseBranch, appId, privateKey, installationId };
+  }
+
   const token = process.env.GITHUB_PR_TOKEN;
-  if (!repo || !token) return null;
-  if (!/^[\w.-]+\/[\w.-]+$/.test(repo)) return null;
-  return { repo, token, baseBranch: process.env.GITHUB_BASE_BRANCH || "main" };
+  if (token) return { mode: "token", repo, baseBranch, token };
+
+  return null;
+}
+
+// ---- Otentikasi GitHub App: JWT App -> token instalasi ----
+
+/**
+ * Cache token instalasi per proses. Instans serverless yang "hangat" akan
+ * memakai ulang token yang sama sampai mendekati kedaluwarsa, alih-alih
+ * meminta token baru di setiap panggilan API dalam satu permintaan.
+ * Kosong lagi tiap cold start - itu sengaja, token tidak pernah dipersist.
+ */
+let cachedInstallationToken: { token: string; expiresAtMs: number } | null = null;
+
+function base64url(input: Buffer | string): string {
+  return (typeof input === "string" ? Buffer.from(input) : input)
+    .toString("base64")
+    .replace(/\+/g, "-")
+    .replace(/\//g, "_")
+    .replace(/=+$/, "");
+}
+
+/** JWT App (RS256), berumur pendek - dipakai HANYA untuk menukar token instalasi. */
+async function buatAppJwt(appId: string, privateKey: string): Promise<string> {
+  const { createSign } = await import("node:crypto");
+  const now = Math.floor(Date.now() / 1000);
+  const header = base64url(JSON.stringify({ alg: "RS256", typ: "JWT" }));
+  const payload = base64url(
+    JSON.stringify({
+      iat: now - 60, // toleransi jam server tidak sinkron
+      exp: now + 9 * 60, // maksimum GitHub adalah 10 menit
+      iss: appId,
+    }),
+  );
+  const signingInput = `${header}.${payload}`;
+  const signer = createSign("RSA-SHA256");
+  signer.update(signingInput);
+  signer.end();
+  const signature = base64url(signer.sign(privateKey));
+  return `${signingInput}.${signature}`;
+}
+
+/** Menukar JWT App dengan token instalasi berumur ~1 jam, scoped ke repo terpasang. */
+async function tokenInstalasi(cfg: Extract<GithubConfig, { mode: "app" }>): Promise<string> {
+  if (cachedInstallationToken && cachedInstallationToken.expiresAtMs - Date.now() > 60_000) {
+    return cachedInstallationToken.token;
+  }
+
+  const jwt = await buatAppJwt(cfg.appId, cfg.privateKey);
+  const res = await fetch(`${API}/app/installations/${cfg.installationId}/access_tokens`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${jwt}`,
+      Accept: "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28",
+    },
+    cache: "no-store",
+  });
+  if (!res.ok) {
+    const detail = await res.text().catch(() => "");
+    throw new Error(
+      `Gagal menerbitkan token instalasi GitHub App (${res.status}): ${detail.slice(0, 300)}. ` +
+        `Periksa GITHUB_APP_ID, GITHUB_APP_INSTALLATION_ID, dan GITHUB_APP_PRIVATE_KEY.`,
+    );
+  }
+  const data = (await res.json()) as { token: string; expires_at: string };
+  cachedInstallationToken = {
+    token: data.token,
+    expiresAtMs: new Date(data.expires_at).getTime(),
+  };
+  return data.token;
+}
+
+async function tokenAktif(cfg: GithubConfig): Promise<string> {
+  return cfg.mode === "app" ? tokenInstalasi(cfg) : cfg.token;
 }
 
 async function gh<T>(
@@ -43,10 +143,11 @@ async function gh<T>(
   path: string,
   init?: RequestInit,
 ): Promise<T> {
+  const token = await tokenAktif(cfg);
   const res = await fetch(`${API}${path}`, {
     ...init,
     headers: {
-      Authorization: `Bearer ${cfg.token}`,
+      Authorization: `Bearer ${token}`,
       Accept: "application/vnd.github+json",
       "X-GitHub-Api-Version": "2022-11-28",
       "Content-Type": "application/json",
