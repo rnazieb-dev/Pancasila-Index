@@ -69,10 +69,10 @@ const id = {
     "Kode AGPL-3.0 · Data CC BY-SA 4.0 · kontribusi via Peer Review",
 
   // Hero & General UI
-  heroBadge: "Platform Terbuka Penilaian Konstitusional",
-  heroTitle: "Menilai Kesetiaan Kekuasaan pada Pancasila & UUD 1945",
+  heroBadge: "Sebuah pertanyaan yang tidak pernah selesai dijawab",
+  heroTitle: "Seberapa Pancasila para P̶e̶n̶g̶u̶a̶s̶a̶ pelayan rakyat kita?",
   heroSubtitle:
-    "Indeks kepatuhan 8 organ konstitusional Indonesia dari 1945 hingga kini, bersitasi bukti hukum primer dan ditinjau sejawat secara terbuka.",
+    "Pancasila Index menilai kesetiaan 8 organ konstitusional Indonesia pada Pancasila dan UUD 1945 — dari 1945 hingga hari ini, dengan setiap angka bersitasi bukti primer dan ditinjau dua peninjau berbeda identitas sebelum dipublikasikan.",
   heroCtaExplore: "Jelajahi 8 Lembaga",
   heroCtaMethod: "Baca Metodologi",
   heroCtaTimeline: "Linimasa Penilaian",
@@ -265,10 +265,9 @@ const en: Dict = {
   footerLicense:
     "Code AGPL-3.0 · Data CC BY-SA 4.0 · contribute via Peer Review",
 
-  heroBadge: "Open Constitutional Assessment Platform",
-  heroTitle: "Assessing State Power's Fidelity to Pancasila & Constitution",
-  heroSubtitle:
-    "Compliance index of Indonesia's 8 constitutional organs from 1945 to date, backed by primary legal sources and open peer review.",
+  heroBadge: "A question that has never been fully answered",
+  heroTitle: "How Pancasila are our r̶u̶l̶e̶r̶s̶ leaders (servants of the people)?",
+  heroSubtitle: "Pancasila Index assesses the fidelity of the 8 Indonesia constitutional organs to Pancasila and the 1945 Constitution — from 1945 to today, with every figure backed by primary sources and reviewed by two independent reviewers before publication.",
   heroCtaExplore: "Explore 8 Institutions",
   heroCtaMethod: "Read Methodology",
   heroCtaTimeline: "Assessment Timeline",
@@ -451,10 +450,10 @@ const jv: Dict = {
   footerLicense:
     "Kode AGPL-3.0 · Data CC BY-SA 4.0 · kontribusi liwat Tinjauan Sejawat",
 
-  heroBadge: "Platform Terbuka Penilaian Konstitusional",
-  heroTitle: "Mbiji Kasetyan Panguwasa marang Pancasila & UUD 1945",
+  heroBadge: "Pitakonan sing ora tau rampung dijawab",
+  heroTitle: "Sepira Pancasila para p̶a̶n̶g̶u̶w̶a̶s̶a̶ abdi rakyat kita?",
   heroSubtitle:
-    "Indeks kasetyan 8 organ konstitusi Indonesia wiwit 1945 nganti saiki, adhedhasar bukti hukum primer.",
+    "Indeks kasetyan 8 organ konstitusi Indonesia wiwit 1945 nganti saiki, adhedhasar bukti hukum primer lan ditinjau dening loro paninjau sing beda identitas sadurunge dipublikasikake.",
   heroCtaExplore: "Njlajah 8 Lembaga",
   heroCtaMethod: "Waca Metodologi",
   heroCtaTimeline: "Garis Wektu Penilaian",
@@ -637,10 +636,10 @@ const su: Dict = {
   footerLicense:
     "Kode AGPL-3.0 · Data CC BY-SA 4.0 · kontribusi via Tinjauan Sasama",
 
-  heroBadge: "Platform Terbuka Penilaian Konstitusional",
-  heroTitle: "Meunteun Kasatiaan Kakawasaan kana Pancasila & UUD 1945",
+  heroBadge: "Suatu patarosan anu teu acan kabérés",
+  heroTitle: "Sacara Pancasila para p̶a̶n̶g̶u̶a̶s̶a̶ abdi rakyat urang?",
   heroSubtitle:
-    "Indéks kasatiaan 8 organ konstitusional Indonésia ti 1945 dugi ka kiwari, didadasaran ku bukti hukum primér.",
+    "Indéks kasatiaan 8 organ konstitusional Indonésia ti 1945 dugi ka kiwari, didadasaran ku bukti hukum primér sarta ditinjau ku dua paninjau anu béda identitas saacan dipublikasikeun.",
   heroCtaExplore: "Nalungtik 8 Lembaga",
   heroCtaMethod: "Baca Métodologi",
   heroCtaTimeline: "Garis Waktos Penilaian",
@@ -823,10 +822,10 @@ const mad: Dict = {
   footerLicense:
     "Kode AGPL-3.0 · Data CC BY-SA 4.0 · kontribusi via Tinjauan Sajhâbât",
 
-  heroBadge: "Platform Terbuka Penilaian Konstitusional",
-  heroTitle: "Nyelèksè Kasatèya'an Kokoasa'an ka Pancasila & UUD 1945",
+  heroBadge: "Sokaduwa' perrtanyaan sè ta' pernah epatosè",
+  heroTitle: "Sacara Pancasila para p̶a̶n̶g̶o̶w̶a̶s̶a̶ abdi oreng ka'dinto?",
   heroSubtitle:
-    "Indeks kasatèya'an 8 organ konstitusi Indonesia molaè 1945 kantos samangkèn, abuktè dokumen hokom primer.",
+    "Indeks kasatèya'an 8 organ konstitusi Indonesia molaè 1945 kantos samangkèn, abuktè dokumen hokom primer sareng ètinjau sareng loro panerrebhès sè bedâ èdèntitas sajhân èpoblesikasè.",
   heroCtaExplore: "Jelajah 8 Lembhâgâ",
   heroCtaMethod: "Bâca Metodologi",
   heroCtaTimeline: "Ghâris Bâkto Penilaian",
@@ -1009,10 +1008,10 @@ const min: Dict = {
   footerLicense:
     "Kode AGPL-3.0 · Data CC BY-SA 4.0 · kontribusi via Tinjauan Sajawat",
 
-  heroBadge: "Platform Tabukak Panilaian Konstitusional",
-  heroTitle: "Manilai Kasatiaan Kakuasoan pado Pancasila & UUD 1945",
+  heroBadge: "Sabuah patanyaan nan indak pernah salasai",
+  heroTitle: "Sacara Pancasila para p̶a̶n̶g̶u̶a̶s̶o̶ palayan rayek kito?",
   heroSubtitle:
-    "Indeks kapatuahan 8 organ konstitusional Indonesia dari 1945 sampai kini, basandik pado bukti hukum primer.",
+    "Indeks kapatuahan 8 organ konstitusional Indonesia dari 1945 sampai kini, basandik pado bukti hukum primer sarang ditinjau dek duo panilaiek nan bidaik idenitas sabalun dipublikasi.",
   heroCtaExplore: "Jelajahi 8 Lambago",
   heroCtaMethod: "Baco Metodologi",
   heroCtaTimeline: "Garih Wakatu Panilaian",
