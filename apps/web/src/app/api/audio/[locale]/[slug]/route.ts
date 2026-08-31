@@ -4,7 +4,7 @@ import { dataset } from "@pancasila-index/data";
 import { checkRateLimit } from "@/lib/rate-limit";
 
 /**
- * Endpoint text-to-speech via Vercel AI Gateway (Fish Audio).
+ * Endpoint text-to-speech via OpenRouter (Fish Audio).
  *
  * URL: /api/audio/[locale]/[slug]
  * - locale: id | en | jv | su | mad | min
@@ -16,8 +16,7 @@ import { checkRateLimit } from "@/lib/rate-limit";
  * Response: audio/mpeg binary stream.
  *
  * Cache: in-memory per proses server (Map di lib/audio.ts).
- * Selama 30 hari, audio di-cache; miss akan re-generate via Vercel
- * AI Gateway.
+ * Selama 30 hari, audio di-cache; miss akan re-generate via OpenRouter.
  */
 
 const SUPPORTED_LOCALES = new Set(["id", "en", "jv", "su", "mad", "min"]);
@@ -27,7 +26,9 @@ function audioNotConfigured() {
     {
       error: "TTS belum di-setup.",
       detail:
-        "AI_GATEWAY_API_KEY belum diset. Pada Vercel, AI Gateway ter-setup otomatis bila fitur diaktifkan di project settings. Untuk lokal: set env var.",
+        "Variabel lingkungan OPENROUTER_API_KEY belum diset. Buat API key di " +
+        "https://openrouter.ai/settings/keys lalu tambahkan sebagai env var " +
+        "OPENROUTER_API_KEY di Vercel (Production).",
     },
     { status: 503 }
   );
@@ -136,7 +137,7 @@ export async function GET(
       },
     });
   } catch (err) {
-    if (err instanceof Error && err.message.includes("AI_GATEWAY_API_KEY")) {
+    if (err instanceof Error && err.message.includes("OPENROUTER_API_KEY")) {
       return audioNotConfigured();
     }
     console.error("[/api/audio]", err);

@@ -647,7 +647,12 @@ export default function CariPage() {
             <div className="mt-3 grid gap-3 sm:grid-cols-2">
               {results.history.map((h) => (
                 <Link
-                  key={h.year}
+                  // h.link (bukan h.year) - beberapa peristiwa berbeda
+                  // terjadi di tahun yang sama (mis. 1912, 1928, 1945, 1949),
+                  // sehingga h.year bukan kunci yang unik. h.link berbentuk
+                  // anchor hash per peristiwa (/akar-sejarah#slug-tahun) dan
+                  // memang wajib unik agar tautannya berfungsi.
+                  key={h.link}
                   href={h.link}
                   className="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-4 hover:border-emerald-400 transition block space-y-1.5"
                 >

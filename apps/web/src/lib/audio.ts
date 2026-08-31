@@ -1,7 +1,7 @@
 /**
- * Helper text-to-speech via Vercel AI Gateway (Fish Audio model).
+ * Helper text-to-speech via OpenRouter (Fish Audio model).
  *
- * - Pakai suffix `-free` (fish-audio/s2.1-pro-free) agar otomatis stop
+ * - Pakai suffix `:free` (fish-audio/s2.1-pro-free:free) agar otomatis stop
  *   setelah masa promo 30 hari (sampai 18 September 2026).
  * - Cache di memory (Map) — hilang antar cold start Vercel, tapi
  *   cukup untuk demo & mengurangi biaya selama 30 hari.
@@ -13,20 +13,18 @@
  * - s1-free: text-to-speech, emosional (untuk narasi).
  */
 
-import { experimental_generateSpeech, type SpeechModel } from "ai";
-import { gateway } from "@ai-sdk/gateway";
+const OPENROUTER_URL = "https://openrouter.ai/api/v1/audio/speech";
 
-const DEFAULT_MODEL = "fish-audio/s2.1-pro-free";
+const DEFAULT_MODEL = "fish-audio/s2.1-pro-free:free";
 const MODEL_BY_LOCALE: Record<string, string> = {
-  id: "fish-audio/s2.1-pro-free",
-  en: "fish-audio/s2.1-pro-free",
-  jv: "fish-audio/s2-pro-free",
-  su: "fish-audio/s2-pro-free",
-  mad: "fish-audio/s2-pro-free",
-  min: "fish-audio/s2-pro-free",
+  id: "fish-audio/s2.1-pro-free:free",
+  en: "fish-audio/s2.1-pro-free:free",
+  jv: "fish-audio/s2-pro-free:free",
+  su: "fish-audio/s2-pro-free:free",
+  mad: "fish-audio/s2-pro-free:free",
+  min: "fish-audio/s2-pro-free:free",
 };
 
-const DEFAULT_VOICE = "alloy";
 const MAX_TEXT_LENGTH = 1500;
 
 interface CacheEntry {
@@ -66,12 +64,18 @@ export interface TTSResult {
 }
 
 /**
- * Hasilkan audio untuk teks via Fish Audio. Cache di memory.
+ * Hasilkan audio untuk teks via Fish Audio (lewat OpenRouter). Cache di
+ * memory.
+ *
+ * response_format OpenRouter default ke `pcm`, bukan `mp3` — harus di-set
+ * eksplisit agar sesuai `Content-Type: audio/mpeg` yang diasumsikan
+ * downstream di route.ts.
  *
  * @param text Teks sumber (boleh markdown — akan disanitasi).
  * @param locale Kode locale (id/en/jv/su/mad/min).
  * @returns Audio buffer + metadata.
- * @throws Error jika env var AI_GATEWAY_API_KEY tidak diset.
+ * @throws Error bila OPENROUTER_API_KEY tidak diset, atau OpenRouter
+ *   mengembalikan status non-200.
  */
 export async function generateTTS(
   text: string,
@@ -93,26 +97,37 @@ export async function generateTTS(
     };
   }
 
-  const apiKey = process.env.AI_GATEWAY_API_KEY;
+  const apiKey = process.env.OPENROUTER_API_KEY;
   if (!apiKey) {
-    throw new Error(
-      "AI_GATEWAY_API_KEY belum diset. Pada Vercel, AI Gateway ter-setup otomatis. Untuk lokal, set env var di .env.local."
-    );
+    throw new Error("OPENROUTER_API_KEY belum diset.");
   }
 
   const modelId = MODEL_BY_LOCALE[locale] ?? DEFAULT_MODEL;
-  const model: SpeechModel = gateway(modelId) as unknown as SpeechModel;
 
-  const result = await experimental_generateSpeech({
-    model,
-    text: sanitized,
-    voice: DEFAULT_VOICE,
-    outputFormat: "mp3",
+  const response = await fetch(OPENROUTER_URL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${apiKey}`,
+      "HTTP-Referer": "https://www.pancasila.site",
+      "X-Title": "Pancasila Index",
+    },
+    body: JSON.stringify({
+      model: modelId,
+      input: sanitized,
+      response_format: "mp3",
+    }),
   });
 
-  // Hasil.audio adalah GeneratedAudioFile dengan base64 string atau Uint8Array.
-  const audioData = result.audio.uint8Array;
-  const mimeType = result.audio.mediaType ?? "audio/mpeg";
+  if (!response.ok) {
+    const detail = await response.text();
+    throw new Error(
+      `OpenRouter TTS gagal (${response.status}): ${detail.slice(0, 500)}`
+    );
+  }
+
+  const audioData = new Uint8Array(await response.arrayBuffer());
+  const mimeType = response.headers.get("content-type") ?? "audio/mpeg";
 
   audioCache.set(cacheKey, {
     audio: audioData,

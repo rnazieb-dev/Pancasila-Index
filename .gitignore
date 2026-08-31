@@ -13,6 +13,7 @@ dist/
 # env
 .env
 .env*.local
+.env.production.local
 
 # misc
 .DS_Store
