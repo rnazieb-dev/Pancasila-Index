@@ -738,6 +738,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
               <Link href="/disclaimer" className="hover:text-[var(--text)] transition">Disclaimer</Link>
               <Link href="/koreksi" className="hover:text-[var(--text)] transition">Koreksi / Hak Jawab</Link>
               <Link href="/transparansi" className="hover:text-[var(--text)] transition">Transparansi</Link>
+              <Link href="/donasi" className="hover:text-[var(--text)] transition">{t("footerDonate")}</Link>
             </div>
           </div>
           <p>

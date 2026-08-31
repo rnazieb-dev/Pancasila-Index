@@ -167,6 +167,51 @@ const id = {
   bandingkanPlaceholder: "Cari nama tokoh / era...",
   bandingkanTableTitle: "Tabel Skor Komparatif Per Dimensi",
   bandingkanSummaryTitle: "Ringkasan Komparasi",
+
+  // Donasi
+  donasiPageTitle: "Dukung Pancasila Index",
+  donasiPageSubtitle:
+    "Donasi individu untuk pendirian yayasan/think tank yang akan mengelola Pancasila Index. 100% transparan, sesuai hukum.",
+  donasiUseOfFundTitle: "Penggunaan dana",
+  donasiUseOfFundBody:
+    "Donasi yang masuk ke PT Aplikasi Profesi Indonesia (PT Perorangan, badan hukum) akan digunakan untuk:",
+  donasiUseOfFund1Title: "Pembukaan yayasan / think tank",
+  donasiUseOfFund1Body:
+    "Biaya notaris, SK Kemenkumham, NPWP badan hukum baru, izin operasional.",
+  donasiUseOfFund2Title: "Pengalihan kepemilikan",
+  donasiUseOfFund2Body:
+    "Setelah yayasan berdiri, kepemilikan dan pengelolaan Pancasila Index dialihkan ke yayasan.",
+  donasiUseOfFund3Title: "Operasional yayasan",
+  donasiUseOfFund3Body:
+    "Riset, audit independen, hosting (Vercel, Cloudflare R2), penerjemahan, tinjauan sejawat.",
+
+  donasiUseOfFund4Title: "Ngedegake dewan editorial",
+  donasiUseOfFund4Body:
+    "Honorarium anggota dewan editorial, rapat pleno, lan proses rekrutmen.",
+  donasiUseOfFund5Title: "Ngedegake kepengurusan & anggota",
+  donasiUseOfFund5Body:
+    "Administrasi kepengurusan yayasan, rekrutmen anggota, pelatihan metodologi.",
+  donasiUseOfFund6Title: "Operasional & risiko hukum",
+  donasiUseOfFund6Body:
+    "Konsultan hukum, audit internal, biaya notaris lanjutan, dan operasional harian.",
+
+  donasiMethodsTitle: "Metode donasi",
+  donasiMethodKitabisaLabel: "Kitabisa",
+  donasiMethodKitabisaBody:
+    "Donasi lewat Kitabisa: terverifikasi, terlapor, transparan. Donasi akan di-bridge ke rekening PT.",
+  donasiMethodOpenCollectiveLabel: "Open Collective",
+  donasiMethodOpenCollectiveBody:
+    "Donasi lewat Open Collective: transparansi penuh internasional, dashboard publik, laporan otomatis.",
+  donasiMethodBankLabel: "Transfer bank ke rekening PT",
+  donasiMethodBankBody:
+    "Rekening PT Aplikasi Profesi Indonesia: [Bank] [Nomor] a.n. [Nama]. Akan diisi setelah Anda menyediakannya.",
+  donasiTransparencyTitle: "Transparansi",
+  donasiTransparencyBody:
+    "Setiap donasi yang masuk akan tercatat di halaman /transparansi. Audit publik dilakukan setiap akhir tahun fiskal.",
+  donasiDisclaimer:
+    "Donasi sukarela, tidak ada imbalan. Donasi tidak memberikan hak istimewa atas isi indeks. Setelah yayasan berdiri, pengelolaan Pancasila Index dialihkan ke yayasan dan PT kembali ke aktivitas komersialnya yang tidak terkait platform ini.",
+  donasiCtaOpen: "Buka halaman donasi",
+  footerDonate: "Dukung",
 } satisfies Record<string, string>;
 
 /** Semua dict wajib memenuhi bentuk ini — kunci hilang = error kompilasi. */
@@ -307,6 +352,49 @@ const en: Dict = {
   bandingkanPlaceholder: "Search figure / era...",
   bandingkanTableTitle: "Comparative dimension score table",
   bandingkanSummaryTitle: "Comparison summary",
+
+  // Donasi / Donate
+  donasiPageTitle: "Support Pancasila Index",
+  donasiPageSubtitle:
+    "Individual donations to establish a foundation/think tank that will manage Pancasila Index. 100% transparent, lawful.",
+  donasiUseOfFundTitle: "Use of funds",
+  donasiUseOfFundBody:
+    "Donations received by PT Aplikasi Profesi Indonesia (a one-person company, a legal entity) will be used for:",
+  donasiUseOfFund1Title: "Establishing a foundation / think tank",
+  donasiUseOfFund1Body:
+    "Notary fees, Ministry of Law and HAM registration, new entity tax ID, operating permits.",
+  donasiUseOfFund2Title: "Transfer of ownership",
+  donasiUseOfFund2Body:
+    "After the foundation is established, ownership and management of Pancasila Index are transferred to it.",
+  donasiUseOfFund3Title: "Foundation operations",
+  donasiUseOfFund3Body:
+    "Research, independent audits, hosting (Vercel, Cloudflare R2), translation, peer review.",
+  donasiUseOfFund4Title: "Establishing an editorial board",
+  donasiUseOfFund4Body:
+    "Honoraria for board members, plenary sessions, and recruitment process.",
+  donasiUseOfFund5Title: "Establishing board & membership",
+  donasiUseOfFund5Body:
+    "Board administration, member recruitment, methodology training.",
+  donasiUseOfFund6Title: "Operations & legal risk",
+  donasiUseOfFund6Body:
+    "Legal counsel, internal audit, ongoing notary fees, and daily operations.",
+  donasiMethodsTitle: "Donation methods",
+  donasiMethodKitabisaLabel: "Kitabisa",
+  donasiMethodKitabisaBody:
+    "Donate via Kitabisa: verified, reported, transparent. Donations are bridged to the company's bank account.",
+  donasiMethodOpenCollectiveLabel: "Open Collective",
+  donasiMethodOpenCollectiveBody:
+    "Donate via Open Collective: full international transparency, public dashboard, automatic reports.",
+  donasiMethodBankLabel: "Bank transfer to the company account",
+  donasiMethodBankBody:
+    "Bank OCBC Indonesia, Account No. 693800145668 a.n. PT Aplikasi Profesi Indonesia. Confirm via Security Advisories after transfer.",
+  donasiTransparencyTitle: "Transparency",
+  donasiTransparencyBody:
+    "Every donation received will be recorded on the /transparansi page. Public audit is performed at the end of each fiscal year.",
+  donasiDisclaimer:
+    "Donations are voluntary with no reward. Donations do not grant any privileged rights over the index's content. After the foundation is established, management of Pancasila Index is transferred to it and the company returns to its commercial activities unrelated to this platform.",
+  donasiCtaOpen: "Open the donation page",
+  footerDonate: "Support",
 };
 
 const jv: Dict = {
@@ -443,6 +531,49 @@ const jv: Dict = {
   bandingkanPlaceholder: "Goleki tokoh / jaman...",
   bandingkanTableTitle: "Tabel Skor Komparatif Per Dimensi",
   bandingkanSummaryTitle: "Ringkesan Komparasi",
+
+  // Donasi / Sumbang
+  donasiPageTitle: "Sumbangana Pancasila Index",
+  donasiPageSubtitle:
+    "Sumbangane ti individu kanggo ngedegake yayasan utawa think tank sing bakal ngatur Pancasila Index. Transparan 100%, miturut ukum.",
+  donasiUseOfFundTitle: "Panganggone dana",
+  donasiUseOfFundBody:
+    "Sumbangan sing mlebu ing PT Aplikasi Profesi Indonesia (PT Perorangan, badan hukum) bakal dianggo kanggo:",
+  donasiUseOfFund1Title: "Ngedegake yayasan utawa think tank",
+  donasiUseOfFund1Body:
+    "Biaya notaris, SK Kemenkumham, NPWP badan hukum anyar, idin operasional.",
+  donasiUseOfFund2Title: "Owah kepemilikan",
+  donasiUseOfFund2Body:
+    "Sawise yayasan madeg, kepemilikan lan pangaturan Pancasila Index dialihake maring yayasan.",
+  donasiUseOfFund3Title: "Operasional yayasan",
+  donasiUseOfFund3Body:
+    "Riset, audit independen, hosting (Vercel, Cloudflare R2), panerjemahan, tinjauan sejawat.",
+  donasiUseOfFund4Title: "Ngedegake dewan editorial",
+  donasiUseOfFund4Body:
+    "Honorarium anggota dewan editorial, rapat pleno, lan proses rekrutmen.",
+  donasiUseOfFund5Title: "Ngedegake kepengurusan & anggota",
+  donasiUseOfFund5Body:
+    "Administrasi kepengurusan yayasan, rekrutmen anggota, pelatihan metodologi.",
+  donasiUseOfFund6Title: "Operasional & risiko hukum",
+  donasiUseOfFund6Body:
+    "Konsultan hukum, audit internal, biaya notaris lanjutan, lan operasional harian.",
+  donasiMethodsTitle: "Cara nyumbang",
+  donasiMethodKitabisaLabel: "Kitabisa",
+  donasiMethodKitabisaBody:
+    "Sumbang liwat Kitabisa: diverifikasi, dilapurake, transparan. Sumbangan bakal di-bridge maring rekening PT.",
+  donasiMethodOpenCollectiveLabel: "Open Collective",
+  donasiMethodOpenCollectiveBody:
+    "Sumbang liwat Open Collective: transparansi internasional kebak, dashboard publik, laporan otomatis.",
+  donasiMethodBankLabel: "Transfer bank maring rekening PT",
+  donasiMethodBankBody:
+    "Rekening PT Aplikasi Profesi Indonesia: [Bank] [Nomor] a.n. [Nama]. Bakal diisi sawise Panjenengan nyediani.",
+  donasiTransparencyTitle: "Transparansi",
+  donasiTransparencyBody:
+    "Saben sumbangan sing mlebu bakal kacathet ing kaca /transparansi. Audit publik dilakokake saben akhir taun fiskal.",
+  donasiDisclaimer:
+    "Sumbangan sukarela, ora ana upa-upa. Ora maringi hak istimewa maring isi indeks. Sawise yayasan madeg, pangaturan Pancasila Index dialihake maring yayasan lan PT bali maring aktivitas komersial sing ora ana gandhengane karo platform iki.",
+  donasiCtaOpen: "Bukak kaca sumbang",
+  footerDonate: "Sumbang",
 };
 
 const su: Dict = {
@@ -579,6 +710,49 @@ const su: Dict = {
   bandingkanPlaceholder: "Sungsi tokoh / jaman...",
   bandingkanTableTitle: "Tabel Skor Komparatif Pér Dimensi",
   bandingkanSummaryTitle: "Ringkesan Komparasi",
+
+  // Donasi / Sungsi
+  donasiPageTitle: "Sungi Pancasila Index",
+  donasiPageSubtitle:
+    "Sungi ti individu pikeun ngadegkeun yayasan atawa think tank anu bakal ngatur Pancasila Index. 100% transparan, nurut kana hukum.",
+  donasiUseOfFundTitle: "Panganggaran dana",
+  donasiUseOfFundBody:
+    "Sungi anu asup ka PT Aplikasi Profesi Indonesia (PT Perorangan, badan hukum) bakal dianggo pikeun:",
+  donasiUseOfFund1Title: "Ngadegkeun yayasan / think tank",
+  donasiUseOfFund1Body:
+    "Biaya notaris, SK Kemenkumham, NPWP badan hukum anyar, idin operasional.",
+  donasiUseOfFund2Title: "Mindahkeun kapamilikan",
+  donasiUseOfFund2Body:
+    "Saatos yayasan ngadeg, kapamilikan sareng pangaturan Pancasila Index dipindahkeun ka yayasan.",
+  donasiUseOfFund3Title: "Operasional yayasan",
+  donasiUseOfFund3Body:
+    "Riset, audit independen, hosting (Vercel, Cloudflare R2), panarjamahan, tinjauan sajerabat.",
+  donasiUseOfFund4Title: "Ngadegkeun dewan editorial",
+  donasiUseOfFund4Body:
+    "Honorarium anggota dewan editorial, rapat pleno, sareng prosés rekrutmen.",
+  donasiUseOfFund5Title: "Ngadegkeun kepengurusan & anggota",
+  donasiUseOfFund5Body:
+    "Administrasi kepengurusan yayasan, rekrutmen anggota, pelatihan metodologi.",
+  donasiUseOfFund6Title: "Operasional & risiko hukum",
+  donasiUseOfFund6Body:
+    "Konsultan hukum, audit internal, biaya notaris lanjutan, sareng operasional harian.",
+  donasiMethodsTitle: "Cara nyung",
+  donasiMethodKitabisaLabel: "Kitabisa",
+  donasiMethodKitabisaBody:
+    "Sungi liwat Kitabisa: diverifikasi, dilaporkeun, transparan. Sungi bakal di-bridge ka rekening PT.",
+  donasiMethodOpenCollectiveLabel: "Open Collective",
+  donasiMethodOpenCollectiveBody:
+    "Sungi liwat Open Collective: transparansi internasional pinuh, dashboard publik, laporan otomatis.",
+  donasiMethodBankLabel: "Transfer bank ka rekening PT",
+  donasiMethodBankBody:
+    "Rekening PT Aplikasi Profesi Indonesia: [Bank] [Nomor] a.n. [Ngaran]. Bakal dieusian saatos Anjeun nyadiakeunana.",
+  donasiTransparencyTitle: "Transparansi",
+  donasiTransparencyBody:
+    "Unggal sungi anu asup bakal kacatet dina kaca /transparansi. Audit publik dilaksanakeun tiap ahir taun fiskal.",
+  donasiDisclaimer:
+    "Sungi sukarela, henteu aya upa-upa. Henteu masihan hak istimewa kana eusi indeks. Saatos yayasan ngadeg, pangaturan Pancasila Index dipindahkeun ka yayasan sareng PT balik kana aktivitas komersial anu henteu aya hubunganana jeung platform ieu.",
+  donasiCtaOpen: "Buka kaca sungi",
+  footerDonate: "Sungi",
 };
 
 const mad: Dict = {
@@ -715,6 +889,49 @@ const mad: Dict = {
   bandingkanPlaceholder: "Sareân tokoh / jaman...",
   bandingkanTableTitle: "Tabel Skor Komparatif Per Dimensi",
   bandingkanSummaryTitle: "Rèngkesan Komparasi",
+
+  // Donasi / Sèdhekah
+  donasiPageTitle: "Sèdhekah Pancasila Index",
+  donasiPageSubtitle:
+    "Sèdhekah dhari orèng ènggi' kaangguy ngadiriyaghi yayasan otabâ think tank arèng bakal ngola Pancasila Index. 100% transparan, nurut'aghi ka'angkan hukum.",
+  donasiUseOfFundTitle: "Angangghuy dâna",
+  donasiUseOfFundBody:
+    "Sèdhekah sè maso' ka PT Aplikasi Profesi Indonesia (PT Perorangan, badan hukum) bakal èangghuy kaangguy:",
+  donasiUseOfFund1Title: "Ngadiriyaghi yayasan / think tank",
+  donasiUseOfFund1Body:
+    "Biaa notaris, SK Kemenkumham, NPWP badan hukum anyar, idin operasional.",
+  donasiUseOfFund2Title: "Mingalihaghi kapemilik",
+  donasiUseOfFund2Body:
+    "Saos yayasan deddhi, kapemilik sareng ngola Pancasila Index èalihaghi ka yayasan.",
+  donasiUseOfFund3Title: "Operasional yayasan",
+  donasiUseOfFund3Body:
+    "Riset, audit independen, hosting (Vercel, Cloudflare R2), panarjamahan, tinjauan sajerabat.",
+  donasiUseOfFund4Title: "Pembentukan dewan editorial",
+  donasiUseOfFund4Body:
+    "Honorarium anggota dewan editorial, rapat pleno, dan proses rekrutmen.",
+  donasiUseOfFund5Title: "Pembentukan kepengurusan & anggota",
+  donasiUseOfFund5Body:
+    "Administrasi kepengurusan yayasan, rekrutmen anggota, pelatihan metodologi.",
+  donasiUseOfFund6Title: "Operasional & risiko hukum",
+  donasiUseOfFund6Body:
+    "Konsultan hukum, audit internal, biaya notaris lanjutan, dan operasional harian.",
+  donasiMethodsTitle: "Cara masèdhekah",
+  donasiMethodKitabisaLabel: "Kitabisa",
+  donasiMethodKitabisaBody:
+    "Sèdhekah liwat Kitabisa: diverifikasi, èlapoeraghi, transparan. Sèdhekah bakal e-bridge ka rekening PT.",
+  donasiMethodOpenCollectiveLabel: "Open Collective",
+  donasiMethodOpenCollectiveBody:
+    "Sèdhekah liwat Open Collective: transparansi internasional kèbhus, dashboard publik, laporan otomatis.",
+  donasiMethodBankLabel: "Transfer bank ka rekening PT",
+  donasiMethodBankBody:
+    "Bank OCBC Indonesia, No. Rekening 693800145668 a.n. PT Aplikasi Profesi Indonesia. Konfirmasi via Security Advisories setelah transfer.",
+  donasiTransparencyTitle: "Transparansi",
+  donasiTransparencyBody:
+    "Sabbhek sèdhekah sè maso' bakal ècatet è kaca /transparansi. Audit publik èlaksanaaghi sabbhun aèri taon fiskal.",
+  donasiDisclaimer:
+    "Sèdhekah sukarela, ta' ana opa-upa. Ta' aghili hak istimewa ka isi indeks. Saos yayasan deddhi, ngola Pancasila Index èalihaghi ka yayasan sareng PT abâli ka aktivitas komersial sè ta' aghiliyaghi platform panèka.",
+  donasiCtaOpen: "Buka kaca sèdhekah",
+  footerDonate: "Sèdhekah",
 };
 
 const min: Dict = {
@@ -851,6 +1068,49 @@ const min: Dict = {
   bandingkanPlaceholder: "Caliak tokoh / maso...",
   bandingkanTableTitle: "Tabel Skor Komparatif Per Dimensi",
   bandingkanSummaryTitle: "Ringkasan Komparasi",
+
+  // Donasi / Sadonyo
+  donasiPageTitle: "Dukuang Pancasila Index",
+  donasiPageSubtitle:
+    "Sadonyo donor dari individu untuak mandirian yayasan atau think tank nan akan mangalola Pancasila Index. 100% transparan, sasuai hukum.",
+  donasiUseOfFundTitle: "Panggunoan dana",
+  donasiUseOfFundBody:
+    "Sadonyo donor nan masuak ka PT Aplikasi Profesi Indonesia (PT Perorangan, badan hukum) akan dipakai untuak:",
+  donasiUseOfFund1Title: "Mandirian yayasan / think tank",
+  donasiUseOfFund1Body:
+    "Biaya notaris, SK Kemenkumham, NPWP badan hukum baru, izin operasional.",
+  donasiUseOfFund2Title: "Pindahan kapamilikan",
+  donasiUseOfFund2Body:
+    "Sasudah yayasan tabanniak, kapamilikan jo pangalolaan Pancasila Index dipindahan ka yayasan.",
+  donasiUseOfFund3Title: "Operasional yayasan",
+  donasiUseOfFund3Body:
+    "Riset, audit independen, hosting (Vercel, Cloudflare R2), panerjemahan, tinjauan sejawat.",
+  donasiUseOfFund4Title: "Pambentukan dewan editorial",
+  donasiUseOfFund4Body:
+    "Honorarium anggota dewan editorial, rapat pleno, jo proses rekrutmen.",
+  donasiUseOfFund5Title: "Pambentukan kepengurusan & anggota",
+  donasiUseOfFund5Body:
+    "Administrasi kepengurusan yayasan, rekrutmen anggota, pelatihan metodologi.",
+  donasiUseOfFund6Title: "Operasional & risiko hukum",
+  donasiUseOfFund6Body:
+    "Konsultan hukum, audit internal, biaya notaris lanjutan, jo operasional harian.",
+  donasiMethodsTitle: "Caro manjadi donor",
+  donasiMethodKitabisaLabel: "Kitabisa",
+  donasiMethodKitabisaBody:
+    "Donor lewat Kitabisa: diverifikasi, dilapokan, transparan. Donor akan di-bridge ka rekening PT.",
+  donasiMethodOpenCollectiveLabel: "Open Collective",
+  donasiMethodOpenCollectiveBody:
+    "Donor lewat Open Collective: transparansi internasional tujuih, dashboard publik, laporan otomatis.",
+  donasiMethodBankLabel: "Transfer bank ka rekening PT",
+  donasiMethodBankBody:
+    "Bank OCBC Indonesia, No. Rekening 693800145668 a.n. PT Aplikasi Profesi Indonesia. Konfirmasi via Security Advisories sasudah transfer.",
+  donasiTransparencyTitle: "Transparansi",
+  donasiTransparencyBody:
+    "Sadonyo donor nan masuak akan tacatat di halaman /transparansi. Audit publik dilakuan satiok ahir tahun fiskal.",
+  donasiDisclaimer:
+    "Donor sukarela, indak ado imbalan. Indak maaghia hak istimewa ats isi indeks. Sasudah yayasan tabanniak, pangalolaan Pancasila Index dipindahan ka yayasan jo PT baliak ka aktivitas komersial nan indak basangkutan jo platform ko.",
+  donasiCtaOpen: "Bukak halaman donor",
+  footerDonate: "Dukuang",
 };
 
 const DICTS: Record<string, Dict> = { id, en, jv, su, mad, min };

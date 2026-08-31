@@ -102,12 +102,15 @@ export default function TransparansiPage() {
         </p>
       </Section>
 
-      <Section n="4" title="Saluran donasi (kalau ada)">
+      <Section n="4" title="Saluran donasi">
         <p>
-          Saluran donasi akan dipublikasikan hanya setelah kebijakan
-          ini diterapkan secara penuh. Untuk saat ini, sumbangan
-          dilakukan secara langsung dengan konfirmasi manual ke
-          kontak pengelola yang tercantum di{" "}
+          Saluran donasi resmi tersedia di halaman{" "}
+          <Link href="/donasi" className="font-semibold underline hover:text-[var(--text)]">/donasi</Link>{" "}
+          (Kitabisa, Open Collective, dan transfer bank ke rekening PT
+          Aplikasi Profesi Indonesia di OCBC Indonesia). Setiap donasi
+          yang masuk akan dicatat di sini. Untuk saat ini, sumbangan
+          dapat dilakukan dengan konfirmasi manual ke kontak
+          pengelola yang tercantum di{" "}
           <Link href="/legal" className="underline hover:text-[var(--text)]">LEGAL.md</Link>.
         </p>
       </Section>
