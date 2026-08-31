@@ -92,8 +92,18 @@ export async function GET() {
       createdAt: a.createdAt.toISOString(),
       updatedAt: a.updatedAt.toISOString(),
     }));
-  } catch {
-    // DB belum tersedia: tetap kembalikan data sesi sebagai portabilitas minimum.
+  } catch (err) {
+    // DB belum tersedia: tetap kembalikan data sesi sebagai portabilitas
+    // minimum, TETAPI tandai bahwa ekspornya tidak lengkap. Dulu kegagalan ini
+    // senyap, sehingga pengguna menerima berkas yang tampak utuh padahal
+    // riwayat usulan dan auditnya hilang - masalah serius untuk hak
+    // portabilitas data.
+    console.error("[ekspor] gagal membaca data pengguna dari basis data:", err);
+    data.incomplete = true;
+    data.incompleteReason =
+      "Basis data tidak dapat dihubungi saat ekspor dibuat. Berkas ini hanya " +
+      "memuat data sesi; riwayat usulan, audit, dan telaah TIDAK termasuk. " +
+      "Silakan ulangi ekspor nanti untuk memperoleh salinan lengkap.";
   }
 
   return new NextResponse(JSON.stringify(data, null, 2), {

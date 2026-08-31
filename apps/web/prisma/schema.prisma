@@ -133,7 +133,14 @@ model Usulan {
   funding       String?
   pakta         Boolean      @default(false)
   status        UsulanStatus @default(PENDING_REVIEW)
+  /// Nama penelaah — untuk DITAMPILKAN saja.
+  /// JANGAN dipakai menghitung kuorum: nama dapat diubah pemiliknya, sehingga
+  /// satu akun bisa lolos sebagai dua penelaah.
   reviewerNames String[]     @default([])
+  /// Identitas stabil penelaah (User.id) — INI yang menentukan kuorum.
+  reviewerIds   String[]     @default([])
+  /// Catatan kurator. Wajib terisi ketika usulan ditolak.
+  reviewNote    String?
   author        User?        @relation(fields: [authorId], references: [id])
   authorId      String?
   createdAt     DateTime     @default(now())
@@ -152,7 +159,13 @@ model CkanAudit {
   contributorId     String?
   contributor       User?     @relation(fields: [contributorId], references: [id])
   status            String    @default("pending") // pending, pending_second, published, rejected
+  /// Nama tampilan penyetuju — untuk DITAMPILKAN ke publik saja.
+  /// JANGAN dipakai menghitung kuorum: nama bisa diubah pemiliknya, sehingga
+  /// satu akun dapat menyetujui dua kali dengan mengganti namanya.
   approverNames     String[]  @default([])
+  /// Identitas stabil penyetuju (User.id) — INI yang menentukan kuorum.
+  /// Tidak pernah ditampilkan ke publik.
+  approverIds       String[]  @default([])
   createdAt         DateTime  @default(now())
   updatedAt         DateTime  @updatedAt
 

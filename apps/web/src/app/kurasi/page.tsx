@@ -85,8 +85,14 @@ export default async function KurasiPage({
           </Link>
         ))}
         <Link
+          href="/kurasi/usulan"
+          className="ml-auto rounded-full border border-[var(--acc-sky)]/50 px-3 py-1 font-semibold text-[var(--acc-sky-strong)] hover:bg-[var(--acc-sky)]/10"
+        >
+          Antrean usulan bukti →
+        </Link>
+        <Link
           href="/kurasi/log"
-          className="ml-auto rounded-full border border-[var(--line)] px-3 py-1 text-[var(--muted)] hover:text-[var(--text)]"
+          className="rounded-full border border-[var(--line)] px-3 py-1 text-[var(--muted)] hover:text-[var(--text)]"
         >
           Log aktivitas →
         </Link>

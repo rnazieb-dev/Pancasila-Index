@@ -23,13 +23,19 @@ export type UsulanRow = {
   pakta: boolean;
   status: string;
   reviewerNames: string[];
+  reviewerIds: string[];
+  reviewNote: string | null;
   authorId: string | null;
   authorIdent: string | null;
   createdAt: string;
   updatedAt: string;
 };
 
-type NewUsulan = Omit<UsulanRow, "id" | "authorId" | "createdAt" | "updatedAt">;
+type NewUsulan = Omit<
+  UsulanRow,
+  "id" | "authorId" | "createdAt" | "updatedAt" | "reviewerIds" | "reviewNote"
+> &
+  Partial<Pick<UsulanRow, "reviewerIds" | "reviewNote">>;
 
 async function readFallback(): Promise<UsulanRow[]> {
   try {
@@ -81,6 +87,8 @@ export async function persistUsulan(
     ...data,
     publicId,
     authorId,
+    reviewerIds: data.reviewerIds ?? [],
+    reviewNote: data.reviewNote ?? null,
     createdAt: now,
     updatedAt: now,
   };
@@ -109,6 +117,8 @@ export async function persistUsulan(
           | "PUBLISHED"
           | "REJECTED",
         reviewerNames: row.reviewerNames ?? [],
+        reviewerIds: row.reviewerIds ?? [],
+        reviewNote: row.reviewNote ?? null,
         authorId,
       },
     });
@@ -153,6 +163,8 @@ export async function listUsulanBy(authorKey: string, authorId: string | null): 
         pakta: u.pakta,
         status: u.status,
         reviewerNames: u.reviewerNames,
+        reviewerIds: u.reviewerIds,
+        reviewNote: u.reviewNote,
         authorId: u.authorId,
         authorIdent: authorKey,
         createdAt: u.createdAt.toISOString(),
@@ -177,4 +189,143 @@ export async function listUsulanBy(authorKey: string, authorId: string | null): 
   return rows.sort(
     (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(),
   );
+}
+
+/**
+ * Baca antrean usulan untuk kurator (DB dulu, lalu fallback JSON).
+ *
+ * Sebelumnya tidak ada satu pun pembaca antrean ini. Usulan kontributor masuk
+ * berstatus PENDING_REVIEW dan berhenti selamanya karena tak ada permukaan
+ * yang menampilkannya.
+ */
+export async function listUsulanForCuration(
+  status?: string,
+): Promise<UsulanRow[]> {
+  const rows: UsulanRow[] = [];
+
+  try {
+    const dbRows = await db.usulan.findMany({
+      where: status ? { status: status as never } : undefined,
+      orderBy: { createdAt: "desc" },
+      take: 200,
+    });
+    rows.push(
+      ...dbRows.map((u) => ({
+        id: u.id,
+        publicId: u.publicId,
+        institutionId: u.institutionId,
+        termId: u.termId,
+        dimensionId: u.dimensionId,
+        sourceType: u.sourceType,
+        sourceTitle: u.sourceTitle,
+        sourceUrl: u.sourceUrl,
+        argumentasi: u.argumentasi,
+        nama: u.nama,
+        afiliasi: u.afiliasi,
+        funding: u.funding,
+        pakta: u.pakta,
+        status: u.status,
+        reviewerNames: u.reviewerNames,
+        reviewerIds: u.reviewerIds,
+        reviewNote: u.reviewNote,
+        authorId: u.authorId,
+        authorIdent: null,
+        createdAt: u.createdAt.toISOString(),
+        updatedAt: u.updatedAt.toISOString(),
+      })),
+    );
+  } catch {
+    // fallback ke JSON
+  }
+
+  const seen = new Set(rows.map((r) => r.id));
+  for (const r of await readFallback()) {
+    if (seen.has(r.id)) continue;
+    if (status && r.status !== status) continue;
+    rows.push(r);
+    seen.add(r.id);
+  }
+
+  return rows.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+}
+
+export async function getUsulanByPublicId(publicId: string): Promise<UsulanRow | null> {
+  const all = await listUsulanForCuration();
+  return all.find((u) => u.publicId === publicId) ?? null;
+}
+
+/**
+ * Catat satu keputusan kurator dan hitung ulang statusnya.
+ *
+ * Kuorum ditentukan `reviewerIds` (User.id), BUKAN nama tampilan — nama dapat
+ * diubah pemiliknya sehingga satu akun bisa lolos sebagai dua penelaah.
+ *
+ * PENTING: status PUBLISHED di sini berarti "disetujui untuk dijadikan patch
+ * YAML", BUKAN "skor sudah terbit". Skor hanya menjadi nyata setelah patch-nya
+ * masuk ke git dan lolos build. Basis data tetap lapisan overlay.
+ */
+export async function recordUsulanDecision(params: {
+  publicId: string;
+  decision: "approve" | "reject";
+  reviewerId: string;
+  reviewerName: string;
+  note?: string;
+}): Promise<
+  | { ok: true; row: UsulanRow }
+  | { ok: false; reason: "not-found" | "already-reviewed" | "final" }
+> {
+  const row = await getUsulanByPublicId(params.publicId);
+  if (!row) return { ok: false, reason: "not-found" };
+  if (row.status === "PUBLISHED" || row.status === "REJECTED") {
+    return { ok: false, reason: "final" };
+  }
+
+  const reviewerIds = row.reviewerIds ?? [];
+  if (reviewerIds.includes(params.reviewerId)) {
+    return { ok: false, reason: "already-reviewed" };
+  }
+
+  let nextStatus: UsulanRow["status"];
+  let nextIds = reviewerIds;
+  let nextNames = row.reviewerNames ?? [];
+
+  if (params.decision === "reject") {
+    // Penolakan bersifat final dan wajib beralasan; alasannya ikut tercatat
+    // agar pengusul tahu mengapa, bukan sekadar melihat status berubah.
+    nextStatus = "REJECTED";
+    nextIds = [...reviewerIds, params.reviewerId];
+    nextNames = [...nextNames, params.reviewerName];
+  } else {
+    nextIds = [...reviewerIds, params.reviewerId];
+    nextNames = [...nextNames, params.reviewerName];
+    nextStatus = nextIds.length >= 2 ? "PUBLISHED" : "PENDING_SECOND";
+  }
+
+  const updated: UsulanRow = {
+    ...row,
+    status: nextStatus,
+    reviewerIds: nextIds,
+    reviewerNames: nextNames,
+    reviewNote: params.note?.trim() || row.reviewNote,
+    updatedAt: new Date().toISOString(),
+  };
+
+  try {
+    await db.usulan.update({
+      where: { publicId: params.publicId },
+      data: {
+        status: nextStatus as never,
+        reviewerIds: nextIds,
+        reviewerNames: nextNames,
+        reviewNote: updated.reviewNote,
+      },
+    });
+  } catch (e) {
+    console.warn("usulan decision DB write skipped:", e);
+  }
+
+  const fallback = await readFallback();
+  await writeFallback([updated, ...fallback.filter((u) => u.id !== updated.id)]);
+
+  return { ok: true, row: updated };
 }

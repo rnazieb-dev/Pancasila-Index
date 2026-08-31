@@ -1,5 +1,6 @@
 import { redirect } from "next/navigation";
 import { getCurrentUser } from "@/lib/authz";
+import { currentPath } from "@/lib/current-path";
 
 export default async function PeerReviewLayout({
   children,
@@ -9,7 +10,8 @@ export default async function PeerReviewLayout({
   const user = await getCurrentUser();
 
   if (!user) {
-    redirect("/masuk?callbackUrl=/peer-review");
+    const tujuan = await currentPath("/peer-review");
+    redirect(`/masuk?callbackUrl=${encodeURIComponent(tujuan)}`);
   }
 
   return <>{children}</>;

@@ -173,7 +173,14 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         const githubId = String(profile.id || profile.login);
         const login = String(profile.login ?? user?.email ?? "").toLowerCase();
 
-        // Default values from GitHub profile directly
+        // Nilai bawaan dari profil GitHub.
+        //
+        // `github_<id>` BUKAN id baris basis data. Ia hanya penanda sementara
+        // agar sesi tetap terbentuk ketika sinkron basis data gagal. Setiap
+        // penulisan harus tahu bahwa id ini tidak dapat dipakai sebagai kunci
+        // - lihat `dbSynced` di bawah. Dulu tidak ada penanda apa pun,
+        // sehingga token cacat beredar berhari-hari dan setiap penyimpanan
+        // profil gagal diam-diam.
         token.uid = token.uid || `github_${githubId}`;
         token.name = profile.name || profile.login || token.name || "Kontributor GitHub";
         token.email = profile.email || token.email || `${login}@users.noreply.github.com`;
@@ -214,6 +221,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
             : await db.user.create({ data });
 
           token.uid = dbUser.id;
+          token.dbSynced = true;
           token.role = dbUser.role;
           token.affiliation = dbUser.affiliation || token.affiliation || null;
           token.title = dbUser.title || token.title || null;
@@ -232,7 +240,13 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
             })
             .catch(() => {});
         } catch (dbErr) {
-          console.warn("Database sync during GitHub login skipped:", dbErr);
+          token.dbSynced = false;
+          console.error(
+            "[auth] Sinkron basis data saat login GitHub GAGAL. Sesi terbentuk " +
+              "dengan id sementara dan penyimpanan profil tidak akan berhasil " +
+              "sampai pengguna masuk ulang saat basis data tersedia:",
+            dbErr,
+          );
         }
       }
       return token;

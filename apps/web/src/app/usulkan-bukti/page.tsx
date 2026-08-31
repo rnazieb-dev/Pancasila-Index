@@ -4,6 +4,8 @@ import { Suspense, useEffect, useState, useRef } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { dataset } from "@pancasila-index/data";
+import { SOURCE_TYPES, type SourceTypeSlug } from "@/lib/source-types";
+import type { UsulanPayload } from "@/lib/usulan-payload";
 import {
   getUserDraft,
   saveUserDraft,
@@ -19,15 +21,29 @@ function UsulanForm() {
   const router = useRouter();
   const draftIdParam = searchParams.get("draftId");
 
+  // Deep link dari halaman lain: rubrik metodologi, halaman masa jabatan,
+  // dsb. Sebelumnya term-actions.tsx sudah menaut `?term=` ke sini, tetapi
+  // parameternya tidak pernah dibaca — kontributor mendarat di formulir
+  // kosong dan harus memilih ulang lembaga serta masa jabatannya.
+  const prefillTerm = searchParams.get("masa") || searchParams.get("term") || "";
+  const prefillDimension = searchParams.get("dimensi") || "";
+  const prefillInstitution =
+    searchParams.get("lembaga") ||
+    (prefillTerm
+      ? (dataset.terms.find((t) => t.id === prefillTerm)?.institution_id ?? "")
+      : "");
+
   const [currentDraftId, setCurrentDraftId] = useState<string | null>(draftIdParam);
   const [step, setStep] = useState<Step>("form");
   const [saveStatus, setSaveStatus] = useState<string | null>(null);
+  const [submitError, setSubmitError] = useState<string | null>(null);
+  const [submitting, setSubmitting] = useState(false);
   const [draftCount, setDraftCount] = useState<number>(0);
 
   const [formData, setFormData] = useState({
-    institution_id: "",
-    term_id: "",
-    dimension_id: "",
+    institution_id: prefillInstitution,
+    term_id: prefillTerm,
+    dimension_id: prefillDimension,
     source_type: "",
     source_title: "",
     source_url: "",
@@ -86,23 +102,62 @@ function UsulanForm() {
     ? dataset.terms.filter((t) => t.institution_id === formData.institution_id)
     : [];
 
+  /**
+   * Draf HANYA boleh dihapus setelah server benar-benar menerima usulan.
+   *
+   * Sebelumnya `res.ok` tidak pernah diperiksa dan draf dihapus baik di blok
+   * `try` maupun `catch`, lalu layar tetap menampilkan "berhasil dikirim".
+   * Akibatnya setiap kegagalan - validasi 422, jaringan putus, server mati -
+   * menghapus pekerjaan kontributor tanpa jejak sambil menyatakan sukses.
+   */
   const handleSubmit = async () => {
+    setSubmitError(null);
+    setSubmitting(true);
     try {
-      await fetch("/api/usulan", {
+      const payload: UsulanPayload = {
+        institution_id: formData.institution_id,
+        term_id: formData.term_id,
+        dimension_id: formData.dimension_id,
+        source_type: formData.source_type as SourceTypeSlug,
+        source_title: formData.source_title,
+        source_url: formData.source_url,
+        argumentasi: formData.argumentasi,
+        nama: formData.nama,
+        afiliasi: formData.afiliasi,
+        funding: formData.funding,
+        setuju_pakta: formData.setuju_pakta,
+      };
+
+      const res = await fetch("/api/usulan", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(payload),
       });
-      // Hapus draf yang sudah berhasil dikirim
+
+      if (!res.ok) {
+        const pesan = await res
+          .json()
+          .then((d: { error?: string }) => d?.error)
+          .catch(() => null);
+        setSubmitError(
+          pesan ||
+            `Server menolak usulan (kode ${res.status}). Draf Anda tetap tersimpan.`,
+        );
+        return;
+      }
+
+      // Hanya di sini draf boleh dihapus.
       if (currentDraftId) {
         deleteUserDraft(currentDraftId);
       }
       setStep("terkirim");
     } catch {
-      if (currentDraftId) {
-        deleteUserDraft(currentDraftId);
-      }
-      setStep("terkirim");
+      setSubmitError(
+        "Usulan gagal terkirim karena masalah jaringan. Draf Anda tetap tersimpan " +
+          "dan dapat dikirim ulang.",
+      );
+    } finally {
+      setSubmitting(false);
     }
   };
 
@@ -273,13 +328,11 @@ function UsulanForm() {
                   onChange={(e) => setFormData({ ...formData, source_type: e.target.value })}
                 >
                   <option value="">— Pilih Jenis —</option>
-                  <option>Undang-Undang</option>
-                  <option>Putusan MK</option>
-                  <option>Putusan MA</option>
-                  <option>TAP MPR</option>
-                  <option>Peraturan Pemerintah</option>
-                  <option>Laporan Resmi BPK</option>
-                  <option>Dokumen Resmi Lainnya</option>
+                  {SOURCE_TYPES.map((t) => (
+                    <option key={t.slug} value={t.slug}>
+                      {t.label}
+                    </option>
+                  ))}
                 </select>
               </div>
               <div>
@@ -527,11 +580,22 @@ function UsulanForm() {
               <button
                 type="button"
                 onClick={handleSubmit}
-                className="flex-1 rounded-lg bg-emerald-600 px-4 py-3 text-sm font-semibold text-white hover:bg-emerald-500 transition"
+                disabled={submitting}
+                className="flex-1 rounded-lg bg-emerald-600 px-4 py-3 text-sm font-semibold text-white hover:bg-emerald-500 transition disabled:opacity-60 disabled:cursor-not-allowed"
               >
-                ✓ Kirim Usulan Resmi ke Dewan Editorial
+                {submitting ? "Mengirim…" : "✓ Kirim Usulan Resmi ke Dewan Editorial"}
               </button>
             </div>
+
+            {submitError && (
+              <div
+                role="alert"
+                className="mt-3 rounded-lg border border-[var(--acc-red)]/40 bg-[var(--acc-red)]/10 p-3.5 text-sm text-[var(--text)]"
+              >
+                <strong className="text-[var(--acc-red-strong)]">Usulan belum terkirim.</strong>{" "}
+                {submitError}
+              </div>
+            )}
           </div>
         )}
       </div>

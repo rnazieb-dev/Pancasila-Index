@@ -356,6 +356,21 @@ export default function MetodologiPage() {
         <h3 className=" font-bold text-lg text-[var(--text)]">
           Matriks Lengkap 12 Dimensi Konstitusional
         </h3>
+        <div className="rounded-xl border border-[var(--acc-sky)]/30 bg-[var(--acc-sky)]/10 p-4 text-xs leading-relaxed text-[var(--text)]">
+          <strong className="text-[var(--acc-sky-strong)]">Punya bukti primer untuk salah satu dimensi ini?</strong>{" "}
+          Rubrik ini bukan bacaan tertutup. Siapa pun dapat mengusulkan bukti primer beserta
+          argumentasinya untuk sebuah dimensi pada masa jabatan tertentu. Usulan ditelaah dua
+          kurator independen, lalu dituangkan menjadi perubahan pada berkas kanonik di
+          repositori — sehingga angkanya tetap dapat direplikasi siapa pun.
+          <div className="pt-2.5">
+            <Link
+              href="/usulkan-bukti"
+              className="inline-flex items-center gap-1.5 rounded-lg border border-[var(--acc-sky)]/40 bg-[var(--acc-sky)]/15 px-3.5 py-2 text-xs font-bold text-[var(--acc-sky-strong)] transition hover:bg-[var(--acc-sky)]/25"
+            >
+              <span>Usulkan Bukti Primer &rarr;</span>
+            </Link>
+          </div>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
           {dataset.rubric.dimensions.map((d) => {
             const share = influence.get(d.id) ?? 0;
@@ -385,6 +400,15 @@ export default function MetodologiPage() {
                 <p className="text-xs text-[var(--muted)] leading-relaxed">
                   {d.question_id}
                 </p>
+                {/* Jembatan langsung dari rubrik ke jalur bukti: kontributor
+                    yang baru membaca sebuah dimensi dapat menyumbang bukti
+                    untuk dimensi itu juga tanpa memilih ulang dari awal. */}
+                <Link
+                  href={`/usulkan-bukti?dimensi=${d.id}`}
+                  className="inline-flex items-center gap-1 text-[11px] font-bold text-[var(--acc-sky-strong)] hover:underline"
+                >
+                  Usulkan bukti primer untuk dimensi ini &rarr;
+                </Link>
               </div>
             );
           })}

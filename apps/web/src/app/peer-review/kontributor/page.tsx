@@ -48,6 +48,9 @@ export default async function KontributorPage() {
           select: {
             reviews: true,
             ckanAudits: true,
+            // Pengusul bukti sebelumnya tidak pernah terhitung, padahal halaman
+            // ini mengajak "ajukan usulan bukti pertama Anda".
+            usulan: true,
           },
         },
       },
@@ -64,7 +67,10 @@ export default async function KontributorPage() {
         afiliasi: u.affiliation || "Independen",
         funding: u.funding || "Mandiri / COPE Disclosed",
         role: u.role,
-        kontribusi: (u._count?.reviews || 0) + (u._count?.ckanAudits || 0),
+        kontribusi:
+          (u._count?.reviews || 0) +
+          (u._count?.ckanAudits || 0) +
+          (u._count?.usulan || 0),
         image: u.image,
       }));
   } catch {
