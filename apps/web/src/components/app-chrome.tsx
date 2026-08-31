@@ -58,7 +58,10 @@ const NAV_DATA: NavItem[] = [
 
 const NAV_PEER_REVIEW = [
   { href: "/peer-review", label: "Portal Peer Review", icon: IconShieldCheck },
-  { href: "/peer-review/usulan", label: "Antrean Usulan Bukti", icon: IconInbox },
+  // Label lama "Antrean Usulan Bukti" keliru: rute itu formulir kiriman,
+  // bukan antrean. Antrean sesungguhnya ada di /kurasi/usulan (khusus Kurator).
+  { href: "/usulkan-bukti", label: "Usulkan Bukti Primer", icon: IconInbox },
+  { href: "/kurasi/usulan", label: "Antrean Telaah Usulan", icon: IconAuditLog, minRole: "KURATOR" as const },
   { href: "/peer-review/draf", label: "Draf Usulan Saya", icon: IconEdit },
   { href: "/peer-review/terjemahan", label: "Tinjauan Bahasa", icon: IconLanguages },
   { href: "/peer-review/import-data", label: "Audit Data CKAN", icon: IconDatabase },
@@ -341,7 +344,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
           </Link>
 
           {/* Nav Desktop */}
-          <nav className="hidden flex-1 items-center gap-2 md:flex">
+          <nav className="hidden flex-1 items-center gap-2 lg:flex">
             <Link
               href="/"
               className={`text-xs sm:text-sm py-1 px-2.5 rounded-md transition hover:bg-[var(--line)]/50 hover:text-[var(--text)] ${
@@ -368,7 +371,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
           </nav>
 
           {/* Kanan Desktop */}
-          <div className="ml-auto hidden items-center gap-2 md:flex">
+          <div className="ml-auto hidden items-center gap-2 lg:flex">
             <Link
               href="/cari"
               title={t("actSearch")}
@@ -447,7 +450,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
           </div>
 
           {/* Kanan Mobile */}
-          <div className="ml-auto flex items-center gap-2 md:hidden">
+          <div className="ml-auto flex items-center gap-2 lg:hidden">
             <Link
               href="/cari"
               aria-label={t("actSearch")}
@@ -605,7 +608,13 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                   <div className="px-3 pb-1 text-[10px] font-bold uppercase tracking-wider text-[var(--acc-red)]">
                     {t("secReview")} ({userSession.role})
                   </div>
-                  {NAV_PEER_REVIEW.map((item) => {
+                  {NAV_PEER_REVIEW.filter(
+                    // Jangan tampilkan pintu yang akan menolak penggunanya.
+                    (item) =>
+                      !("minRole" in item) ||
+                      userSession.role === item.minRole ||
+                      userSession.role === "ADMIN",
+                  ).map((item) => {
                     const isActive = pathname === item.href;
                     const Icon = item.icon;
                     return (
