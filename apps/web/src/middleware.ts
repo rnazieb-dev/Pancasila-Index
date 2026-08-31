@@ -1,55 +1,57 @@
 import { NextResponse, type NextRequest } from "next/server";
 
 /**
- * Middleware: generator nonce CSP + pelindung CSRF.
+ * Middleware: header keamanan + pelindung CSRF.
  *
- * Untuk setiap permintaan:
- * 1. Generate nonce acak (base64) untuk Content-Security-Policy.
- * 2. Set nonce ke request header `x-nonce` agar Server Component / Next.js
- *    Script component bisa membaca dan menempelkannya ke tag <script>.
- * 3. Set nonce ke response header `Content-Security-Policy`.
- * 4. Untuk permintaan non-GET ke /api/*, validasi Origin/Referer.
+ * KENAPA TIDAK MEMAKAI NONCE CSP.
  *
- * Tiga lapis pagar (CSP nonce + SameSite=Strict di auth.ts + validasi
- * sesi di route handler) memastikan:
- * - Script inline berbahaya tanpa nonce ditolak browser.
- * - Cookie sesi tidak terkirim pada cross-site request (SameSite).
- * - Permintaan POST/PUT/DELETE wajib Origin cocok dengan host.
+ * Upaya pertama memakai `script-src 'nonce-<acak>'` yang di-generate
+ * per-permintaan. Itu MEMATIKAN situs di produksi: 254 halaman di sini
+ * di-prerender statis (SSG), HTML-nya dibekukan saat build sehingga tidak
+ * memuat nonce apa pun, sementara middleware mengirim nonce baru setiap
+ * permintaan. Browser memblokir SELURUH inline script Next (bootstrap +
+ * hidrasi) - halaman tetap membalas HTTP 200 tetapi nol JavaScript berjalan.
+ * Tidak ada error server, jadi curl tampak sehat dan hanya browser sungguhan
+ * yang menunjukkannya.
+ *
+ * Nonce dan prerender statis pada dasarnya tidak dapat disatukan: nonce
+ * berubah tiap permintaan, HTML statis beku. Hash (`'sha256-...'`) juga tidak
+ * bisa: inline script Next memuat data per-halaman sehingga hash-nya berbeda
+ * tiap rute, dan middleware tidak tahu rute mana yang akan dilayani.
+ *
+ * Yang DIPERTAHANKAN dan benar-benar berlaku pada halaman statis:
+ * - `default-src 'self'`, `object-src 'none'`, `base-uri 'self'`
+ * - `frame-ancestors 'none'` + X-Frame-Options: DENY (anti clickjacking)
+ * - `form-action 'self'` (form tidak bisa submit ke domain lain)
+ * - `connect-src 'self'` (tidak ada exfiltrasi via fetch ke domain lain)
+ * - Referrer-Policy, Permissions-Policy, X-Content-Type-Options
+ *
+ * Yang HILANG dan jangan diklaim ada: perlindungan terhadap inline script.
+ * `script-src` memuat 'unsafe-inline' karena itulah satu-satunya cara
+ * halaman prerender dapat berjalan. Mitigasi XSS karena itu bersandar pada
+ * escaping bawaan React dan validasi masukan di sisi server, bukan pada CSP.
+ *
+ * Lapis lain yang tetap utuh:
+ * - SameSite=Strict (auth.ts): cookie sesi tak terkirim cross-site.
+ * - Origin/Referer check di bawah: mutation cross-origin ditolak.
+ * - auth() di setiap route handler: wajib sesi valid.
  */
 
 const UNSAFE_METHODS = new Set(["POST", "PUT", "DELETE", "PATCH"]);
 
-function generateNonce(): string {
-  // Web Crypto API tersedia di Node 19+ dan Edge runtime; tidak butuh
-  // import `node:crypto` (yang akan memecah webpack build).
-  const bytes = new Uint8Array(16);
-  globalThis.crypto.getRandomValues(bytes);
-  return btoa(String.fromCharCode(...bytes));
-}
-
-function buildCsp(nonce: string): string {
+function buildCsp(): string {
   const isProd = process.env.NODE_ENV === "production";
-  const scriptSrc = [
-    "'self'",
-    `'nonce-${nonce}'`,
-    // Dev butuh 'unsafe-inline' + 'unsafe-eval' untuk HMR Next.js.
-    // Produksi ketat: hanya nonce + 'self'.
-    ...(isProd ? [] : ["'unsafe-inline'", "'unsafe-eval'"]),
-  ];
   return [
     `default-src 'self'`,
-    `script-src ${scriptSrc.join(" ")}`,
-    // style-src tetap 'unsafe-inline': React inline style={} untuk warna
-    // dinamis + library pihak ketiga (Tailwind v4) yang inject inline style.
-    // Risiko inline style jauh lebih kecil dari inline script (tidak
-    // bisa execute JS). Untuk produksi ketat: gunakan style-src-attr
-    // 'unsafe-inline' + style-src-elem 'self' (browser support modern).
+    // 'unsafe-inline' WAJIB: lihat catatan nonce di atas. Halaman prerender
+    // statis tidak dapat membawa nonce per-permintaan. Dev tambahan
+    // 'unsafe-eval' untuk HMR.
+    `script-src 'self' 'unsafe-inline'${isProd ? "" : " 'unsafe-eval'"}`,
+    // React menyisipkan style={} inline untuk warna dinamis; Tailwind v4 juga
+    // meng-inject inline style. Inline style tidak dapat mengeksekusi JS.
     `style-src 'self' 'unsafe-inline'`,
     `img-src 'self' data: https: blob:`,
     `font-src 'self' data:`,
-    // connect-src: hanya ke origin sendiri + Vercel (kalau ada analytics
-    // diaktifkan). Saat ini tidak ada telemetry, jadi bisa dikecualikan
-    // 'self' saja; namun disiapkan untuk fleksibilitas.
     `connect-src 'self'`,
     `frame-ancestors 'none'`,
     `form-action 'self'`,
@@ -98,18 +100,8 @@ export function middleware(req: NextRequest) {
     }
   }
 
-  // CSP nonce per-request. Propagasi ke request header agar server
-  // components (mis. layout.tsx untuk Vercel Analytics <Script>) bisa
-  // membaca via `headers().get("x-nonce")`.
-  const nonce = generateNonce();
-  const requestHeaders = new Headers(req.headers);
-  requestHeaders.set("x-nonce", nonce);
-
-  const csp = buildCsp(nonce);
-  const response = NextResponse.next({
-    request: { headers: requestHeaders },
-  });
-  response.headers.set("Content-Security-Policy", csp);
+  const response = NextResponse.next();
+  response.headers.set("Content-Security-Policy", buildCsp());
   response.headers.set("X-Content-Type-Options", "nosniff");
   response.headers.set("Referrer-Policy", "strict-origin-when-cross-origin");
   response.headers.set("X-XSS-Protection", "1; mode=block");

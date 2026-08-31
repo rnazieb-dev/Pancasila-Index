@@ -51,7 +51,11 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   //
   // Pelengkap dari middleware:
   // - Origin/Referer check: tolak mutation cross-origin.
-  // - CSP nonce: blokir script inline berbahaya.
+  // - CSP: object-src/base-uri/form-action/frame-ancestors/connect-src ketat.
+  //   CATATAN: script-src memakai 'unsafe-inline' (halaman prerender statis
+  //   tidak bisa membawa nonce), jadi CSP di sini TIDAK melindungi dari
+  //   inline script. Itu sebabnya SameSite=Strict + HttpOnly di bawah
+  //   menjadi lapis yang menanggung beban mitigasi pencurian sesi.
   // - auth() di route handler: wajib sesi valid.
   cookies: {
     sessionToken: {
