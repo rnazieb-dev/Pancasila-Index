@@ -1,5 +1,6 @@
 import { redirect } from "next/navigation";
 import { getCurrentUser } from "@/lib/authz";
+import { currentPath } from "@/lib/current-path";
 
 export default async function UsulkanBuktiLayout({
   children,
@@ -9,7 +10,8 @@ export default async function UsulkanBuktiLayout({
   const user = await getCurrentUser();
 
   if (!user) {
-    redirect("/masuk?callbackUrl=/usulkan-bukti");
+    const tujuan = await currentPath("/usulkan-bukti");
+    redirect(`/masuk?callbackUrl=${encodeURIComponent(tujuan)}`);
   }
 
   return <>{children}</>;

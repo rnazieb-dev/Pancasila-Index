@@ -47,7 +47,7 @@ export function TermActions({ termId, institutionSlug, termLabel }: TermActionsP
 
       {/* Tombol Usulkan Bukti */}
       <Link
-        href={`/usulkan-bukti?term=${termId}`}
+        href={`/usulkan-bukti?masa=${termId}`}
         className="inline-flex items-center gap-1.5 rounded-xl border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-400 hover:border-emerald-400 transition"
       >
         <span>➕</span>

@@ -24,15 +24,29 @@ export default function TerjemahanQueuePage() {
     min: "Baso Minang",
   };
 
+  /**
+   * Belum ada antrean tinjauan bahasa di server.
+   *
+   * Sebelumnya fungsi ini hanya memanggil setSubmitted(true) lalu menampilkan
+   * "berhasil dikirim" — padahal tidak ada permintaan jaringan sama sekali dan
+   * usulan kontributor langsung hilang. Selama antreannya belum ada, jangan
+   * mengaku terkirim: arahkan ke jalur yang benar-benar sampai.
+   */
   const handleSendSuggestion = (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
-      setSuggestModal(null);
-      setSuggestion("");
-    }, 2000);
   };
+
+  const issueUrl = suggestModal
+    ? "https://github.com/rnazieb-dev/Pancasila-Index/issues/new?" +
+      new URLSearchParams({
+        title: `Usulan terjemahan: ${suggestModal.dimNameId}`,
+        body:
+          `**Dimensi:** ${suggestModal.dimNameId}\n` +
+          `**Usulan terjemahan:**\n\n${suggestion}\n\n` +
+          `**Kontributor:** ${contributorName}`,
+      }).toString()
+    : "";
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-12">
@@ -169,8 +183,29 @@ export default function TerjemahanQueuePage() {
             </div>
 
             {submitted ? (
-              <div className="py-6 text-center text-xs text-[var(--acc-emerald)]">
-                ✓ Usulan terjemahan berhasil dikirim ke antrean tinjauan bahasa. Terima kasih!
+              <div className="space-y-3 py-4 text-xs text-[var(--text)]">
+                <div className="rounded-lg border border-[var(--acc-amber)]/40 bg-[var(--acc-amber)]/10 p-3.5 leading-relaxed">
+                  <strong className="text-[var(--acc-amber-strong)]">
+                    Antrean tinjauan bahasa otomatis belum tersedia.
+                  </strong>{" "}
+                  Agar usulan Anda tidak hilang, kirimkan melalui repositori publik. Isian Anda sudah
+                  disalin ke tautan di bawah ini.
+                </div>
+                <a
+                  href={issueUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block rounded-lg bg-sky-600 py-2.5 text-center font-semibold text-white hover:bg-sky-500 transition"
+                >
+                  Buka isu terjemahan di GitHub →
+                </a>
+                <button
+                  type="button"
+                  onClick={() => setSubmitted(false)}
+                  className="w-full rounded-lg border border-[var(--line)] py-2 text-[var(--muted)] hover:text-[var(--text)] transition"
+                >
+                  ← Kembali menyunting usulan
+                </button>
               </div>
             ) : (
               <form onSubmit={handleSendSuggestion} className="space-y-3 text-xs">

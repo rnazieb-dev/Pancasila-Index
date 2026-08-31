@@ -87,7 +87,7 @@ export default function PeerReviewPage() {
       {/* CTA */}
       <section className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <Link
-          href="/peer-review/usulan"
+          href="/usulkan-bukti"
           className="group rounded-xl border border-red-500/40 bg-red-500/10 p-5 hover:border-red-400 hover:bg-red-500/20 transition flex flex-col justify-between"
         >
           <div>

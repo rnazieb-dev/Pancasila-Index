@@ -90,7 +90,7 @@ export default function UserDraftsPage() {
         </div>
         <div className="flex flex-wrap items-center gap-2">
           <Link
-            href="/peer-review/usulan"
+            href="/usulkan-bukti"
             className="rounded-lg bg-red-600 px-4 py-2 text-xs font-semibold text-white hover:bg-red-500 transition shadow"
           >
             + Buat Draf Baru
@@ -124,7 +124,7 @@ export default function UserDraftsPage() {
             Saat Anda mengisi formulir usulan bukti atau koreksi penilaian di portal Peer Review, Anda dapat menyimpannya sewaktu-waktu tanpa khawatir kehilangan data.
           </p>
           <Link
-            href="/peer-review/usulan"
+            href="/usulkan-bukti"
             className="mt-6 inline-block rounded-lg bg-red-600 px-5 py-2.5 text-xs font-semibold text-white hover:bg-red-500 transition"
           >
             Mulai Tulis Usulan Pertama →
@@ -212,7 +212,7 @@ export default function UserDraftsPage() {
                   <div className="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-[var(--line)]">
                     <div className="flex items-center gap-2">
                       <Link
-                        href={`/peer-review/usulan?draftId=${d.id}`}
+                        href={`/usulkan-bukti?draftId=${d.id}`}
                         className="rounded-lg bg-red-600 px-3.5 py-1.5 text-xs font-semibold text-white hover:bg-red-500 transition"
                       >
                         ✏️ Lanjutkan Edit

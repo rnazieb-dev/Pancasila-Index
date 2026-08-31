@@ -2,6 +2,8 @@ import { NextResponse, type NextRequest } from "next/server";
 import { checkRateLimit } from "@/lib/rate-limit";
 import { auth } from "@/auth";
 import { persistUsulan } from "@/lib/usulan-store";
+import { isValidSourceType, SOURCE_TYPE_SLUGS } from "@/lib/source-types";
+import { USULAN_REQUIRED_FIELDS } from "@/lib/usulan-payload";
 
 export async function POST(req: NextRequest) {
   const session = await auth();
@@ -28,13 +30,9 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Format JSON tidak valid" }, { status: 400 });
   }
 
-  // Validasi field wajib
-  const required = [
-    "institution_id", "term_id", "dimension_id",
-    "source_type", "source_url", "argumentasi",
-    "nama", "afiliasi", "funding",
-  ];
-  const missing = required.filter((f) => !body[f]);
+  // Validasi field wajib. Daftarnya diturunkan dari kontrak bersama
+  // lib/usulan-payload.ts agar formulir dan API tidak dapat berbeda.
+  const missing = USULAN_REQUIRED_FIELDS.filter((f) => !body[f]);
   if (missing.length > 0) {
     return NextResponse.json(
       { error: `Field wajib tidak terisi: ${missing.join(", ")}` },
@@ -42,9 +40,16 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  const validTypes = ["undang-undang", "perppu", "keppres", "putusan-mk", "putusan-ma", "putusan-mpd", "dokumen-mpr", "arsip-nasional", "jurnal", "buku", "berita", "laporan-lembaga", "lainnya"];
-  if (!validTypes.includes(body.source_type as string)) {
-    return NextResponse.json({ error: "Tipe sumber (source_type) tidak valid" }, { status: 422 });
+  // Daftar kanonik dipakai bersama formulir; lihat lib/source-types.ts.
+  if (!isValidSourceType(body.source_type)) {
+    return NextResponse.json(
+      {
+        error:
+          `Tipe sumber (source_type) tidak valid. Nilai yang diterima: ` +
+          SOURCE_TYPE_SLUGS.join(", "),
+      },
+      { status: 422 },
+    );
   }
 
   // Validasi URL sumber
