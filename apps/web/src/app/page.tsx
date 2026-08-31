@@ -65,10 +65,6 @@ export default function Beranda() {
           {t("heroSubtitle")}
         </p>
         <div className="mt-6 flex flex-wrap items-center gap-3">
-          <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3.5 py-1.5 text-xs font-medium text-emerald-400">
-            <span className="size-2 rounded-full bg-emerald-400 animate-pulse" />
-            {dataset.events.length} {t("eventsLabel")} · {dataset.sources.length} {t("sourcesLabel")} · 8 {t("statInstitutions")}
-          </div>
           <Link
             href="/metodologi"
             className="text-xs text-[var(--muted)] hover:text-[var(--text)] underline decoration-dotted underline-offset-4"
