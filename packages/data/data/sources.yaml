@@ -167,6 +167,7 @@
   citation_id: Memorandum of Understanding Helsinki, Crisis Management Initiative
   r2_key: v2/sejarah/mou-helsinki-2005.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/mou-helsinki-2005.pdf
+  archive_ok: false
 - id: uu-11-2006
   type: undang-undang
   title_id: UU No. 11 Tahun 2006 tentang Pemerintahan Aceh (UUPA)
