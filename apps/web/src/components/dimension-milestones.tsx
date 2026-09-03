@@ -1,6 +1,6 @@
 "use client";
 
-import type { ReactNode } from "react";
+import { useState, useMemo, type ReactNode } from "react";
 import Link from "next/link";
 import type { EventRecord, Source, ActorProfile } from "@pancasila-index/core";
 import {
@@ -103,6 +103,8 @@ function formatDateIndo(dateStr: string): string {
   return dateStr;
 }
 
+const INITIAL_VISIBLE_COUNT = 4;
+
 export function DimensionMilestones({
   dimensionId,
   dimensionName,
@@ -110,9 +112,35 @@ export function DimensionMilestones({
   sources,
   actorsById,
 }: Props) {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState<string>("semua");
+
   // Urutkan peristiwa secara kronologis (tanggal terlama ke terbaru)
-  const sortedEvents = [...events].sort((a, b) => a.date.localeCompare(b.date));
+  const sortedEvents = useMemo(
+    () => [...events].sort((a, b) => a.date.localeCompare(b.date)),
+    [events]
+  );
   const count = sortedEvents.length;
+
+  // Dapatkan daftar kategori yang ada pada peristiwa-peristiwa ini
+  const categoriesPresent = useMemo(() => {
+    const cats = new Set<string>();
+    for (const ev of sortedEvents) {
+      if (ev.category) cats.add(ev.category);
+    }
+    return Array.from(cats);
+  }, [sortedEvents]);
+
+  // Filter peristiwa berdasarkan kategori yang dipilih
+  const filteredEvents = useMemo(() => {
+    if (selectedCategory === "semua") return sortedEvents;
+    return sortedEvents.filter((e) => e.category === selectedCategory);
+  }, [sortedEvents, selectedCategory]);
+
+  const visibleEvents = isExpanded
+    ? filteredEvents
+    : filteredEvents.slice(0, INITIAL_VISIBLE_COUNT);
+  const hasMore = filteredEvents.length > INITIAL_VISIBLE_COUNT;
 
   if (count === 0) {
     return (
@@ -153,9 +181,45 @@ export function DimensionMilestones({
         </span>
       </div>
 
+      {/* Filter Kategori (hanya jika ada lebih dari 1 kategori) */}
+      {categoriesPresent.length > 1 && (
+        <div className="flex flex-wrap items-center gap-1.5 pt-1">
+          <button
+            type="button"
+            onClick={() => setSelectedCategory("semua")}
+            className={`rounded-full px-2.5 py-0.5 text-[10px] font-semibold transition cursor-pointer ${
+              selectedCategory === "semua"
+                ? "bg-[var(--text)] text-[var(--bg)]"
+                : "border border-[var(--line)] bg-[var(--panel)] text-[var(--muted)] hover:border-slate-400"
+            }`}
+          >
+            Semua ({sortedEvents.length})
+          </button>
+          {categoriesPresent.map((cat) => {
+            const meta = CATEGORY_META[cat] ?? { label: cat };
+            const catCount = sortedEvents.filter((e) => e.category === cat).length;
+            const active = selectedCategory === cat;
+            return (
+              <button
+                key={cat}
+                type="button"
+                onClick={() => setSelectedCategory(cat)}
+                className={`rounded-full px-2.5 py-0.5 text-[10px] font-semibold transition cursor-pointer ${
+                  active
+                    ? "bg-[var(--acc-sky)] text-white shadow-2xs"
+                    : "border border-[var(--line)] bg-[var(--panel)] text-[var(--muted)] hover:border-slate-400"
+                }`}
+              >
+                {meta.label} ({catCount})
+              </button>
+            );
+          })}
+        </div>
+      )}
+
       {/* Track Milestones Vertikal */}
       <div className="relative pl-6 space-y-4 before:absolute before:left-2.5 before:top-2 before:bottom-2 before:w-0.5 before:bg-[var(--line)]">
-        {sortedEvents.map((ev, index) => {
+        {visibleEvents.map((ev, index) => {
           const meta = CATEGORY_META[ev.category] ?? {
             label: "Peristiwa",
             badge: "border-slate-500/30 text-slate-500 bg-slate-500/10",
@@ -266,6 +330,28 @@ export function DimensionMilestones({
           );
         })}
       </div>
+
+      {hasMore && (
+        <div className="pt-2 flex justify-center">
+          <button
+            type="button"
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="inline-flex items-center gap-1.5 rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3.5 py-1.5 text-xs font-semibold text-[var(--acc-sky)] hover:border-sky-500 hover:bg-[var(--bg)] transition cursor-pointer shadow-2xs"
+          >
+            {isExpanded ? (
+              <>
+                <span>Ciutkan Linimasa</span>
+                <span>↑</span>
+              </>
+            ) : (
+              <>
+                <span>Tampilkan {filteredEvents.length - INITIAL_VISIBLE_COUNT} Peristiwa Lainnya</span>
+                <span>↓</span>
+              </>
+            )}
+          </button>
+        </div>
+      )}
     </div>
   );
 }

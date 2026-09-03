@@ -825,3 +825,325 @@ export function IconQuote({ size = 16, className = "", ...props }: IconProps) {
   );
 }
 
+/* =========================================================================
+ * 12 IKON SEMANTIK MATRIKS TIGA PILAR KONSTITUSIONAL
+ * ========================================================================= */
+
+/** Sila 1: Bintang Emas Ketuhanan */
+export function IconSilaBintang({ size = 18, className = "", ...props }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...props}
+    >
+      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+    </svg>
+  );
+}
+
+/** Sila 2: Rantai Kemanusiaan yang Adil & Beradab */
+export function IconSilaRantai({ size = 18, className = "", ...props }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+      <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+    </svg>
+  );
+}
+
+/** Sila 3: Pohon Beringin Persatuan Indonesia */
+export function IconSilaBeringin({ size = 18, className = "", ...props }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M12 22v-7" />
+      <path d="M8 22h8" />
+      <path d="M7 15c-3 0-4-2-4-4.5 0-2 1.5-3.5 3-3.5 0-3 2.5-5 6-5s6 2 6 5c1.5 0 3 1.5 3 3.5 0 2.5-1 4.5-4 4.5" />
+    </svg>
+  );
+}
+
+/** Sila 4: Kepala Banteng & Musyawarah Permusyawaratan */
+export function IconSilaBanteng({ size = 18, className = "", ...props }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M4 6c0 3.5 2 6 5 6.5v2.5a3 3 0 0 0 6 0v-2.5c3-.5 5-3 5-6.5" />
+      <path d="M2 5c2-1 4 1 5 4" />
+      <path d="M22 5c-2-1-4 1-5 4" />
+      <circle cx="12" cy="14" r="1.5" />
+    </svg>
+  );
+}
+
+/** Sila 5: Padi dan Kapas Keadilan Sosial */
+export function IconSilaPadiKapas({ size = 18, className = "", ...props }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M2 22 16 8" />
+      <path d="M3.5 12.5c2.5 0 4-1.5 4.5-4C6 8.5 4 10 3.5 12.5z" />
+      <path d="M11.5 20.5c0-2.5 1.5-4 4-4.5-0.5 2-2 4-4 4.5z" />
+      <path d="M8.5 7.5c2.5 0 4-1.5 4.5-4C11 3.5 9 5 8.5 7.5z" />
+      <path d="M16.5 15.5c0-2.5 1.5-4 4-4.5-0.5 2-2 4-4 4.5z" />
+    </svg>
+  );
+}
+
+/** Tujuan 1: Melindungi Segenap Bangsa */
+export function IconTujuanLindungi({ size = 18, className = "", ...props }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+      <path d="m9 12 2 2 4-4" />
+    </svg>
+  );
+}
+
+/** Tujuan 2: Memajukan Kesejahteraan Umum */
+export function IconTujuanSejahtera({ size = 18, className = "", ...props }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...props}
+    >
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 6v12" />
+      <path d="M16 9.5a2.5 2.5 0 0 0-2.5-2.5H10a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4h-4a2.5 2.5 0 0 1-2.5-2.5" />
+    </svg>
+  );
+}
+
+/** Tujuan 3: Mencerdaskan Kehidupan Bangsa */
+export function IconTujuanCerdas({ size = 18, className = "", ...props }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+      <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+      <path d="M12 7V3" />
+    </svg>
+  );
+}
+
+/** Tujuan 4: Ketertiban Dunia & Perdamaian Abadi */
+export function IconTujuanDunia({ size = 18, className = "", ...props }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...props}
+    >
+      <circle cx="12" cy="12" r="10" />
+      <line x1="2" y1="12" x2="22" y2="12" />
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+    </svg>
+  );
+}
+
+/** Norma 1: Negara Hukum & Independensi Peradilan */
+export function IconNormaHukum({ size = 18, className = "", ...props }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="m16 16 3-8 3 8a3 3 0 0 1-6 0v0z" />
+      <path d="m2 16 3-8 3 8a3 3 0 0 1-6 0v0z" />
+      <path d="M7 21h10" />
+      <path d="M12 3v18" />
+      <path d="M3 7h18" />
+    </svg>
+  );
+}
+
+/** Norma 2: Kedaulatan Rakyat & Integritas Demokrasi */
+export function IconNormaKedaulatan({ size = 18, className = "", ...props }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="m9 12 2 2 4-4" />
+      <path d="M5 7c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v12H5V7z" />
+      <path d="M22 19H2" />
+    </svg>
+  );
+}
+
+/** Norma 3: Sistem Saling Mengawasi (Checks and Balances) */
+export function IconNormaChecksBalances({ size = 18, className = "", ...props }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...props}
+    >
+      <rect x="3" y="4" width="4" height="16" rx="1" />
+      <rect x="10" y="4" width="4" height="16" rx="1" />
+      <rect x="17" y="4" width="4" height="16" rx="1" />
+      <path d="M1 4h22" />
+      <path d="M1 20h22" />
+    </svg>
+  );
+}
+
+/**
+ * Resolver Ikon Semantik Dimensi Konstitusional
+ */
+export function renderDimensionIcon(
+  dimensionId: string,
+  size = 18,
+  className = ""
+) {
+  switch (dimensionId) {
+    case "sila-1":
+      return <IconSilaBintang size={size} className={className} />;
+    case "sila-2":
+      return <IconSilaRantai size={size} className={className} />;
+    case "sila-3":
+      return <IconSilaBeringin size={size} className={className} />;
+    case "sila-4":
+      return <IconSilaBanteng size={size} className={className} />;
+    case "sila-5":
+      return <IconSilaPadiKapas size={size} className={className} />;
+    case "tujuan-1":
+      return <IconTujuanLindungi size={size} className={className} />;
+    case "tujuan-2":
+      return <IconTujuanSejahtera size={size} className={className} />;
+    case "tujuan-3":
+      return <IconTujuanCerdas size={size} className={className} />;
+    case "tujuan-4":
+      return <IconTujuanDunia size={size} className={className} />;
+    case "negara-hukum":
+      return <IconNormaHukum size={size} className={className} />;
+    case "kedaulatan-rakyat":
+      return <IconNormaKedaulatan size={size} className={className} />;
+    case "checks-balances":
+      return <IconNormaChecksBalances size={size} className={className} />;
+    default:
+      return <IconScale size={size} className={className} />;
+  }
+}
+
+
