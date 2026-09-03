@@ -352,8 +352,21 @@ for (const a of assessments) {
     for (const eid of ds.event_ids ?? [])
       if (!eventIds.has(eid))
         errors.push(`assessment ${a.id}: event_id "${eid}" tidak terdaftar`);
+    for (const eq of ds.expert_quotes ?? [])
+      if (eq.source_id && !srcIds.has(eq.source_id))
+        errors.push(`assessment ${a.id}: expert_quote sumber "${eq.source_id}" (${eq.author}) tidak terdaftar`);
   }
 }
+
+let totalExpertQuotes = 0;
+let dialecticDimensions = 0;
+for (const a of assessments) {
+  for (const ds of a.dimension_scores) {
+    if (ds.expert_quotes?.length) totalExpertQuotes += ds.expert_quotes.length;
+    if (ds.thesis_id || ds.antithesis_id) dialecticDimensions++;
+  }
+}
+console.log(`Analisis ilmiah: ${totalExpertQuotes} kutipan langsung pakar terverifikasi, ${dialecticDimensions} skor berdialektika tesis-antitesis`);
 
 for (const d of rubric.dimensions)
   if (!groupIds.has(d.group_id))

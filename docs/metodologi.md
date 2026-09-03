@@ -44,6 +44,13 @@ Mengintegrasikan 7 indeks independen pihak ketiga yang berbasis data keras (*har
 
 > Daftar ini adalah cerminan `dataset.external_indices` dan dirender langsung dari sana di halaman `/metodologi`. Setiap indeks eksternal hanya diterapkan pada rentang waktu publikasi kontemporernya (misalnya V-Dem diterapkan untuk era 2016–kini sesuai rilis perdana dataset pada 2016) guna mencegah anakronisme estimasi retrospektif pada masa jabatan historis pra-publikasi. Laporan Koalisi Reformasi Sektor Keamanan (Imparsial, KontraS, PBHI, ELSAM) dipakai sebagai bukti primer Strata V, bukan sebagai indeks triangulasi tersendiri.
 
+### Pilar 5: Dialektika Konstitusional & Doktrin Pakar (Tesis vs Antitesis)
+Setiap pertimbangan dan analisis ilmiah pada asesmen dimensi tidak dirumuskan sebagai klaim monolitik sepihak, melainkan dibangun melalui dialektika ketatanegaraan yang mempertemukan:
+1. **Tesis Formal Institusi (`thesis_id`)**: Dalil hukum, konsiderans menimbang, atau klaim resmi pemerintah/pembuat undang-undang/lembaga yang dinilai.
+2. **Antitesis & Fakta Lapangan (`antithesis_id`)**: Kritik tandingan doktriner dari pakar hukum tata negara (HTN), *dissenting opinion* hakim peradilan, hasil audit independen, dan anomali empiris lapangan.
+3. **Kutipan Langsung Pakar Terverifikasi (`expert_quotes`)**: Kutipan perkataan kata-demi-kata dari pakar terkemuka (seperti Mohammad Hatta, Soepomo, Ismail Suny, Daniel S. Lev, Jimly Asshiddiqie, Mahfud MD, Bagir Manan, Saldi Isra, Bivitri Susanti, Maria Farida Indrati, dsb.) yang wajib bersitasi dokumen primer/monograf ilmiah di `sources.yaml`.
+4. **Sintesis Konstitusional (`synthesis_id`)**: Penimbangan objektif terhadap dua kutub argumentasi untuk menetapkan bobot skor (-2 s.d. +2) berdasarkan norma konstitusi tertinggi.
+
 ---
 
 ## 3. Skala Rubrik & Jangkar Perilaku (-2 s.d. +2)

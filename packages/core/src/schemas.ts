@@ -402,6 +402,15 @@ export const evidenceSchema = z.object({
   note_id: z.string().optional(),
 });
 
+export const expertQuoteSchema = z.object({
+  quote: z.string().min(5),
+  author: z.string().min(2),
+  role: z.string().min(2),
+  source_id: idField("expert_quote.source_id").optional(),
+  year: z.number().int().optional(),
+});
+export type ExpertQuote = z.infer<typeof expertQuoteSchema>;
+
 export const dimensionScoreSchema = z.object({
   dimension_id: idField("dimension_score.dimension_id"),
   score: z
@@ -411,6 +420,14 @@ export const dimensionScoreSchema = z.object({
     .max(SCORE_MAX),
   confidence: z.number().min(0).max(1),
   rationale_id: z.string().min(20),
+  /** Dalil yuridis formal / pembelaan kebijakan resmi lembaga pembuat keputusan. */
+  thesis_id: z.string().optional(),
+  /** Sanggahan kritis doktriner para pakar, dissenting opinion, dan realitas empiris lapangan. */
+  antithesis_id: z.string().optional(),
+  /** Pertimbangan penimbangan konstitusional penentu skor indeks. */
+  synthesis_id: z.string().optional(),
+  /** Kutipan langsung perkataan pakar hukum tata negara, hakim, atau sejarawan terpercaya. */
+  expert_quotes: z.array(expertQuoteSchema).optional(),
   /**
    * Bukti empiris. Boleh kosong HANYA bila `evidence_gap: true` — dan skor
    * seperti itu dikeluarkan dari perhitungan indeks (lihat scoring.ts),

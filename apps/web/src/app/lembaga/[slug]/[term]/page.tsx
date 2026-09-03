@@ -23,6 +23,7 @@ import { ScoreGauge, DimensionScoreBadge } from "@/components/score-gauge";
 import { ScaleLegend } from "@/components/scale-legend";
 import { DimensionMilestones } from "@/components/dimension-milestones";
 import { AiTransparencyBadge } from "@/components/ai-transparency-badge";
+import { DialecticalRationale } from "@/components/dialectical-rationale";
 import { IconFileText, IconTimeline, IconExternalLink, IconArchive } from "@/components/icons";
 import type { EventRecord } from "@pancasila-index/core";
 import {
@@ -483,9 +484,10 @@ export default async function TermPage({
                                 compact
                               />
                             </div>
-                            <p className="text-sm leading-relaxed text-[var(--text)] bg-[var(--bg)]/50 p-3 rounded-lg border border-[var(--line)]">
-                              {e.ds.rationale_id.trim()}
-                            </p>
+                            <DialecticalRationale
+                              dimensionScore={e.ds}
+                              sources={dataset.sources}
+                            />
                             <div>
                               <div className="text-xs uppercase tracking-wide text-[var(--muted)] mt-2 font-semibold">Bukti empiris</div>
                               {e.ds.evidence_gap === true || e.ds.evidence.length === 0 ? (

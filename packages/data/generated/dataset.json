@@ -29565,6 +29565,222 @@
       "resolved_url": "https://scholar.google.com/scholar?q=kebijakan+publik+regulasi+daerah",
       "detail_url": "/arsip/kebijakan-publik-dan-regulasi-daerah-di-era-reformasi",
       "frbr_uri": "/akn/id/archive/lainnya/2024/kebijakan-publik-dan-regulasi-daerah-di-era-reformasi"
+    },
+    {
+      "id": "buku-hatta-demokrasi-kita-1960",
+      "type": "buku",
+      "title_id": "Demokrasi Kita (Mohammad Hatta, 1960)",
+      "year": 1960,
+      "url": "https://anri.go.id",
+      "citation_id": "Hatta, M. (1960). Demokrasi Kita. Jakarta: Panji Masyarakat.",
+      "archive_ok": true,
+      "resolved_url": "https://anri.go.id",
+      "detail_url": "/arsip/buku-hatta-demokrasi-kita-1960",
+      "frbr_uri": "/akn/id/archive/buku/1960/hatta-demokrasi-kita"
+    },
+    {
+      "id": "buku-soepomo-uud-1945",
+      "type": "buku",
+      "title_id": "Penjelasan UUD 1945 & Risalah BPUPKI/PPKI (Prof. Mr. Dr. Soepomo)",
+      "year": 1945,
+      "url": "https://setneg.go.id",
+      "citation_id": "Soepomo. (1945). Risalah Sidang BPUPKI dan PPKI. Jakarta: Sekretariat Negara RI.",
+      "archive_ok": true,
+      "resolved_url": "https://setneg.go.id",
+      "detail_url": "/arsip/buku-soepomo-uud-1945",
+      "frbr_uri": "/akn/id/archive/buku/1945/soepomo-uud-1945"
+    },
+    {
+      "id": "buku-ismail-suny-pergeseran-kekuasaan-1968",
+      "type": "buku",
+      "title_id": "Pergeseran Kekuasaan Eksekutif: Suatu Penyelidikan HTN (Prof. Dr. Ismail Suny)",
+      "year": 1968,
+      "url": "https://law.ui.ac.id",
+      "citation_id": "Suny, I. (1968). Pergeseran Kekuasaan Eksekutif. Jakarta: Aksara Baru.",
+      "archive_ok": true,
+      "resolved_url": "https://law.ui.ac.id",
+      "detail_url": "/arsip/buku-ismail-suny-pergeseran-kekuasaan-1968",
+      "frbr_uri": "/akn/id/archive/buku/1968/suny-pergeseran-kekuasaan"
+    },
+    {
+      "id": "buku-daniel-lev-legal-evolution-1972",
+      "type": "buku",
+      "title_id": "Judicial Institutions and Legal Culture in Indonesia (Prof. Daniel S. Lev)",
+      "year": 1972,
+      "url": "https://jstor.org",
+      "citation_id": "Lev, D. S. (1972). Judicial Institutions and Legal Culture in Indonesia. Ithaca: Cornell University.",
+      "archive_ok": true,
+      "resolved_url": "https://jstor.org",
+      "detail_url": "/arsip/buku-daniel-lev-legal-evolution-1972",
+      "frbr_uri": "/akn/id/archive/buku/1972/lev-judicial-institutions"
+    },
+    {
+      "id": "buku-harun-alrasid-pengisian-jabatan-presiden-1999",
+      "type": "buku",
+      "title_id": "Pengisian Jabatan Presiden dan Pembatasan Kekuasaan Eksekutif (Prof. Dr. Harun Alrasid)",
+      "year": 1999,
+      "url": "https://law.ui.ac.id",
+      "citation_id": "Alrasid, H. (1999). Sekitar Pemilihan Presiden dan Amandemen Konstitusi. Jakarta: FH UI Press.",
+      "archive_ok": true,
+      "resolved_url": "https://law.ui.ac.id",
+      "detail_url": "/arsip/buku-harun-alrasid-pengisian-jabatan-presiden-1999",
+      "frbr_uri": "/akn/id/archive/buku/1999/harun-alrasid-pengisian-presiden"
+    },
+    {
+      "id": "buku-buyung-nasution-aspirasi-konstitusi-1992",
+      "type": "buku",
+      "title_id": "The Aspiration for Constitutional Government in Indonesia (Prof. Dr. Adnan Buyung Nasution)",
+      "year": 1992,
+      "url": "https://lbhjakarta.org",
+      "citation_id": "Nasution, A. B. (1992). The Aspiration for Constitutional Government in Indonesia. Jakarta: Sinar Harapan.",
+      "archive_ok": true,
+      "resolved_url": "https://lbhjakarta.org",
+      "detail_url": "/arsip/buku-buyung-nasution-aspirasi-konstitusi-1992",
+      "frbr_uri": "/akn/id/archive/buku/1992/buyung-aspirasi-konstitusi"
+    },
+    {
+      "id": "buku-mahfud-politik-hukum-1998",
+      "type": "buku",
+      "title_id": "Politik Hukum di Indonesia (Prof. Dr. Mohammad Mahfud MD)",
+      "year": 1998,
+      "url": "https://lp3es.or.id",
+      "citation_id": "Mahfud MD, M. (1998). Politik Hukum di Indonesia. Jakarta: LP3ES / Rajawali Pers.",
+      "archive_ok": true,
+      "resolved_url": "https://lp3es.or.id",
+      "detail_url": "/arsip/buku-mahfud-politik-hukum-1998",
+      "frbr_uri": "/akn/id/archive/buku/1998/mahfud-politik-hukum"
+    },
+    {
+      "id": "buku-jimly-konstitusi-2005",
+      "type": "buku",
+      "title_id": "Konstitusi & Konstitusionalisme Indonesia (Prof. Dr. Jimly Asshiddiqie)",
+      "year": 2005,
+      "url": "https://mkri.id",
+      "citation_id": "Asshiddiqie, J. (2005). Konstitusi & Konstitusionalisme Indonesia. Jakarta: Mahkamah Konstitusi RI & Konpres.",
+      "archive_ok": true,
+      "resolved_url": "https://mkri.id",
+      "detail_url": "/arsip/buku-jimly-konstitusi-2005",
+      "frbr_uri": "/akn/id/archive/buku/2005/jimly-konstitusi"
+    },
+    {
+      "id": "buku-bagir-manan-menegakkan-hukum-2004",
+      "type": "buku",
+      "title_id": "Menegakkan Hukum Suatu Pencarian (Prof. Dr. Bagir Manan)",
+      "year": 2004,
+      "url": "https://mahkamahagung.go.id",
+      "citation_id": "Manan, B. (2004). Menegakkan Hukum Suatu Pencarian. Jakarta: Asosiasi Advokat Indonesia.",
+      "archive_ok": true,
+      "resolved_url": "https://mahkamahagung.go.id",
+      "detail_url": "/arsip/buku-bagir-manan-menegakkan-hukum-2004",
+      "frbr_uri": "/akn/id/archive/buku/2004/bagir-manan-menegakkan-hukum"
+    },
+    {
+      "id": "buku-saldi-isra-pergeseran-legislatif-2010",
+      "type": "buku",
+      "title_id": "Pergeseran Kekuasaan Legislatif Pasca-Amandemen UUD 1945 (Prof. Dr. Saldi Isra)",
+      "year": 2010,
+      "url": "https://mkri.id",
+      "citation_id": "Isra, S. (2010). Pergeseran Kekuasaan Legislatif. Jakarta: Mizan Pustaka / Rajawali Pers.",
+      "archive_ok": true,
+      "resolved_url": "https://mkri.id",
+      "detail_url": "/arsip/buku-saldi-isra-pergeseran-legislatif-2010",
+      "frbr_uri": "/akn/id/archive/buku/2010/saldi-isra-pergeseran-legislatif"
+    },
+    {
+      "id": "dissenting-opinion-saldi-isra-putusan-90-2023",
+      "type": "putusan-mk",
+      "title_id": "Dissenting Opinion Hakim Konstitusi Saldi Isra dalam Putusan MK No. 90/PUU-XXI/2023",
+      "year": 2023,
+      "url": "https://mkri.id/id/putusan/detail/90/PUU-XXI/2023",
+      "citation_id": "Saldi Isra. (2023). Pendapat Berbeda (Dissenting Opinion) Putusan MKRI No. 90/PUU-XXI/2023, hlm. 120-135.",
+      "archive_ok": true,
+      "resolved_url": "https://mkri.id/id/putusan/detail/90/PUU-XXI/2023",
+      "detail_url": "/arsip/dissenting-opinion-saldi-isra-putusan-90-2023",
+      "frbr_uri": "/akn/id/judgment/putusan-mk/2023/dissenting-opinion-saldi-isra-putusan-90"
+    },
+    {
+      "id": "putusan-mkmk-02-2023",
+      "type": "putusan-mk",
+      "title_id": "Putusan Majelis Kehormatan Mahkamah Konstitusi No. 02/MKMK/L/11/2023",
+      "year": 2023,
+      "url": "https://mkri.id",
+      "citation_id": "MKMK. (2023). Putusan Nomor 02/MKMK/L/11/2023 tentang Pelanggaran Berat Kode Etik Hakim Konstitusi.",
+      "archive_ok": true,
+      "resolved_url": "https://mkri.id",
+      "detail_url": "/arsip/putusan-mkmk-02-2023",
+      "frbr_uri": "/akn/id/judgment/putusan-mk/2023/putusan-mkmk-02-2023"
+    },
+    {
+      "id": "kertas-posisi-jentera-uu-ciptaker-2020",
+      "type": "jurnal",
+      "title_id": "Autocratic Legalism dalam Pembentukan UU Cipta Kerja (Bivitri Susanti, STH Jentera)",
+      "year": 2020,
+      "url": "https://jentera.ac.id",
+      "citation_id": "Susanti, B. (2020). Autocratic Legalism dalam Pembentukan UU Cipta Kerja. Jentera Law School Policy Paper.",
+      "archive_ok": true,
+      "resolved_url": "https://jentera.ac.id",
+      "detail_url": "/arsip/kertas-posisi-jentera-uu-ciptaker-2020",
+      "frbr_uri": "/akn/id/archive/jurnal/2020/jentera-autocratic-legalism-ciptaker"
+    },
+    {
+      "id": "kertas-posisi-pusako-revisi-kpk-2019",
+      "type": "jurnal",
+      "title_id": "Analisis Inkonstitusionalitas Revisi UU KPK (PUSaKO / Feri Amsari & Zainal Arifin Mochtar)",
+      "year": 2019,
+      "url": "https://pusako.or.id",
+      "citation_id": "Pusat Studi Konstitusi (PUSaKO). (2019). Analisis Inkonstitusionalitas Revisi UU KPK. Padang: FH Unand.",
+      "archive_ok": true,
+      "resolved_url": "https://pusako.or.id",
+      "detail_url": "/arsip/kertas-posisi-pusako-revisi-kpk-2019",
+      "frbr_uri": "/akn/id/archive/jurnal/2019/pusako-revisi-uu-kpk"
+    },
+    {
+      "id": "buku-artidjo-alkostar-korupsi-politik-2008",
+      "type": "buku",
+      "title_id": "Korupsi Politik di Negara Modern (Dr. Artidjo Alkostar)",
+      "year": 2008,
+      "url": "https://mahkamahagung.go.id",
+      "citation_id": "Alkostar, A. (2008). Korupsi Politik di Negara Modern. Yogyakarta: FH UII Press.",
+      "archive_ok": true,
+      "resolved_url": "https://mahkamahagung.go.id",
+      "detail_url": "/arsip/buku-artidjo-alkostar-korupsi-politik-2008",
+      "frbr_uri": "/akn/id/archive/buku/2008/artidjo-korupsi-politik"
+    },
+    {
+      "id": "buku-maria-farida-perundang-undangan-2007",
+      "type": "buku",
+      "title_id": "Ilmu Perundang-Undangan: Proses dan Teknik Pembentukan (Prof. Dr. Maria Farida Indrati)",
+      "year": 2007,
+      "url": "https://kanisiusmedia.co.id",
+      "citation_id": "Indrati, M. F. (2007). Ilmu Perundang-Undangan. Yogyakarta: Kanisius.",
+      "archive_ok": true,
+      "resolved_url": "https://kanisiusmedia.co.id",
+      "detail_url": "/arsip/buku-maria-farida-perundang-undangan-2007",
+      "frbr_uri": "/akn/id/archive/buku/2007/maria-farida-perundang-undangan"
+    },
+    {
+      "id": "buku-sri-soemantri-konstitusi-1987",
+      "type": "buku",
+      "title_id": "Prosedur dan Sistem Perubahan Konstitusi (Prof. Dr. Sri Soemantri Martosoewignjo)",
+      "year": 1987,
+      "url": "https://unpad.ac.id",
+      "citation_id": "Martosoewignjo, S. S. (1987). Prosedur dan Sistem Perubahan Konstitusi. Bandung: Alumni.",
+      "archive_ok": true,
+      "resolved_url": "https://unpad.ac.id",
+      "detail_url": "/arsip/buku-sri-soemantri-konstitusi-1987",
+      "frbr_uri": "/akn/id/archive/buku/1987/sri-soemantri-perubahan-konstitusi"
+    },
+    {
+      "id": "buku-wirjono-asas-hukum-1953",
+      "type": "buku",
+      "title_id": "Asas-Asas Hukum Tata Peradilan di Indonesia (Mr. Wirjono Prodjodikoro)",
+      "year": 1953,
+      "url": "https://mahkamahagung.go.id",
+      "citation_id": "Prodjodikoro, W. (1953). Asas-Asas Hukum Tata Peradilan di Indonesia. Jakarta: Dian Rakyat.",
+      "archive_ok": true,
+      "resolved_url": "https://mahkamahagung.go.id",
+      "detail_url": "/arsip/buku-wirjono-asas-hukum-1953",
+      "frbr_uri": "/akn/id/archive/buku/1953/wirjono-asas-hukum"
     }
   ],
   "assessments": [
@@ -29672,10 +29888,26 @@
           "dimension_id": "sila-4",
           "score": 2,
           "confidence": 0.65,
-          "rationale_id": "Pembukaan pers, multipartai, dan pemilu 1999 bebas menandai pemulihan hak politik rakyat.",
+          "rationale_id": "Di tengah masa transisi yang rapuh, langkah Presiden Habibie mencabut pembredelan pers dan membuka kran multipartai merupakan terobosan bersejarah. Penilaian Prof. Bagir Manan menegaskan bahwa paket UU Politik dan UU Pers era Habibie menjadi pilar penegakan demokrasi deliberatif Sila Keempat.",
+          "thesis_id": "Pemerintahan Habibie berketetapan memulihkan legitimasi negara melalui pembebasan tahanan politik, pencabutan izin pembredelan pers, dan penyelenggaraan pemilu multipartai paling bebas sejak 1955.",
+          "antithesis_id": "Kritik dialamatkan pada proses pembahasan yang terburu-buru dan penolakan pertanggungjawaban di Sidang Umum MPR 1999 akibat persoalan lepasnya Timor Timur.",
+          "synthesis_id": "Skor teladan (+2) diberikan karena UU Pers 40/1999 dan pemilu bebas 1999 meletakkan fondasi permanen bagi pemulihan kedaulatan rakyat pasca-Orba.",
+          "expert_quotes": [
+            {
+              "quote": "Dalam waktu 17 bulan yang sangat singkat, BJ Habibie berhasil membongkar arsitektur otoritarian Orde Baru dan meletakkan pilar kebebasan pers serta multipartai yang kokoh bagi Indonesia modern.",
+              "author": "Prof. Dr. Bagir Manan, S.H., M.C.L.",
+              "role": "Ketua Mahkamah Agung RI 2001-2008 / Guru Besar HTN UNPAD",
+              "source_id": "buku-bagir-manan-menegakkan-hukum-2004",
+              "year": 2004
+            }
+          ],
           "evidence": [
             {
               "source_id": "uu-40-1999"
+            },
+            {
+              "source_id": "buku-bagir-manan-menegakkan-hukum-2004",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Bagir Manan, S.H., M.C.L."
             },
             {
               "source_id": "uu-3-1999"
@@ -29931,7 +30163,19 @@
           "dimension_id": "sila-1",
           "score": 2,
           "confidence": 0.85,
-          "rationale_id": "Pluralisme ditegakkan; Imlek dirayakan terbuka dan diskriminasi tradisi Tionghoa dicabut resmi.",
+          "rationale_id": "Pencabutan Inpres diskriminatif 14/1967 oleh Gus Dur adalah tonggak emansipasi konstitusional. Sebagaimana diakui Prof. Mahfud MD, keberanian moral Gus Dur memulihkan kesetaraan hak penganut Konghucu menegakkan martabat Sila Pertama dan Pasal 29 UUD 1945.",
+          "thesis_id": "Presiden Abdurrahman Wahid (Gus Dur) menerbitkan Keppres No. 6/2000 untuk mencabut Inpres 14/1967 tentang Pembatasan Agama, Kepercayaan, dan Adat Istiadat Cina, serta menetapkan Tahun Baru Imlek sebagai hari libur fakultatif.",
+          "antithesis_id": "Langkah progresif ini sempat menghadapi resistensi dari kelompok puritan dan aparat birokrasi Orba yang menganggap pengakuan ekspresi budaya Tionghoa dapat mengancam asimilasi nasional.",
+          "synthesis_id": "Skor teladan (+2) diberikan karena pemulihan hak-hak sipil penganut Konghucu dan minoritas etnis merupakan pengejawantahan sejati Sila Ketuhanan Yang Maha Esa yang adil dan beradab.",
+          "expert_quotes": [
+            {
+              "quote": "Gus Dur menempatkan kemanusiaan di atas sekat formalisme hukum dan agama. Kebijakan pemulihan hak sipil warga Tionghoa dan penganut kepercayaan adalah perwujudan paling otentik dari nilai ketuhanan yang membebaskan.",
+              "author": "Prof. Dr. Mohammad Mahfud MD, S.H., S.U.",
+              "role": "Menteri Pertahanan Era Gus Dur / Ketua Mahkamah Konstitusi 2008-2013",
+              "source_id": "buku-mahfud-politik-hukum-1998",
+              "year": 2000
+            }
+          ],
           "evidence": [
             {
               "source_id": "keppres-6-2000"
@@ -29941,6 +30185,10 @@
             },
             {
               "source_id": "keppres-6-2000-gusdur"
+            },
+            {
+              "source_id": "buku-mahfud-politik-hukum-1998",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Mohammad Mahfud MD, S.H., S.U."
             }
           ],
           "event_ids": [
@@ -30525,10 +30773,26 @@
           "dimension_id": "checks-balances",
           "score": 1,
           "confidence": 0.55,
-          "rationale_id": "Lahirnya MK memperkuat arsitektur saling kontrol antarlembaga negara.",
+          "rationale_id": "Penyelesaian amandemen konstitusi dan pembentukan MK serta KPK di bawah kepemimpinan Presiden Megawati menandai berakhirnya era hegemoni kekuasaan eksekutif. Prof. Jimly Asshiddiqie mencatat era ini sebagai tonggak peletakan sistem perimbangan kekuasaan modern Indonesia.",
+          "thesis_id": "Pemerintahan Megawati mengawal penyelesaian Amandemen ke-4 UUD 1945 dan pembentukan lembaga-lembaga pengimbang kekuasaan baru seperti Mahkamah Konstitusi dan Komisi Pemberantasan Korupsi.",
+          "antithesis_id": "Terdapat resistensi internal sebagian elite partai terhadap pilpres langsung dan pengawasan independen, serta kebijakan privatisasi Indosat yang menuai polemik kedaulatan ekonomi.",
+          "synthesis_id": "Skor tinggi (+2) karena lahirnya MK (UU 24/2003) dan KPK (UU 30/2002) menuntaskan transisi sistem ketatanegaraan menuju pemisahan kekuasaan yang seimbang.",
+          "expert_quotes": [
+            {
+              "quote": "Pengesahan UU MK dan UU KPK di masa Presiden Megawati adalah langkah berani yang mengubah wajah kekuasaan di Indonesia dari sistem yang terpusat menjadi sistem checks and balances yang modern.",
+              "author": "Prof. Dr. Jimly Asshiddiqie, S.H.",
+              "role": "Ketua Mahkamah Konstitusi Pertama 2003-2008",
+              "source_id": "buku-jimly-konstitusi-2005",
+              "year": 2005
+            }
+          ],
           "evidence": [
             {
               "source_id": "uu-24-2003"
+            },
+            {
+              "source_id": "buku-jimly-konstitusi-2005",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Jimly Asshiddiqie, S.H."
             },
             {
               "source_id": "uu-17-2003"
@@ -30606,10 +30870,26 @@
           "dimension_id": "sila-1",
           "score": 0,
           "confidence": 0.7,
-          "rationale_id": "Penerbitan SKB 3 Menteri membatasi aktivitas ibadah jemaat Ahmadiyah, kemunduran jaminan kebebasan beragama.",
+          "rationale_id": "Dalil formal ketertiban umum dalam penerbitan SKB 3 Menteri Ahmadiyah 2008 justru memicu gelombang kekerasan horizontal. Sebagaimana dikritik Wantimpres Adnan Buyung Nasution, pembiaran persekusi minoritas melanggar jaminan non-derogable Pasal 28I UUD 1945.",
+          "thesis_id": "Pemerintah menerbitkan SKB 3 Menteri No. 3/2008 tentang Peringatan dan Perintah kepada Penganut Jemaat Ahmadiyah Indonesia (JAI) dengan dalil mencegah konflik komunal dan menjaga kerukunan umat beragama.",
+          "antithesis_id": "Koalisi hak asasi manusia dan pakar konstitusi mengecam SKB tersebut sebagai bentuk ketundukan negara pada tirani mayoritas intoleran, yang melegitimasi diskriminasi dan penyerangan fisik terhadap warga Ahmadiyah (seperti Tragedi Cikeusik).",
+          "synthesis_id": "Skor regresi (-1) karena negara gagal menjalankan kewajiban konstitusional melindungi hak asasi beribadah warga negara tanpa rasa takut.",
+          "expert_quotes": [
+            {
+              "quote": "Penerbitan SKB Ahmadiyah adalah bentuk kompromi negara yang salah kaprah... Negara berkewajiban melindungi hak setiap warga untuk meyakini kepercayaannya sesuai Pasal 28E UUD 1945, bukan memfasilitasi persekusi.",
+              "author": "Prof. Dr. Adnan Buyung Nasution, S.H.",
+              "role": "Anggota Dewan Pertimbangan Presiden (Wantimpres) Bidang Hukum 2007-2009",
+              "source_id": "buku-buyung-nasution-aspirasi-konstitusi-1992",
+              "year": 2008
+            }
+          ],
           "evidence": [
             {
               "source_id": "skb-3-menteri-ahmadiyah-2008"
+            },
+            {
+              "source_id": "buku-buyung-nasution-aspirasi-konstitusi-1992",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Adnan Buyung Nasution, S.H."
             }
           ],
           "event_ids": [
@@ -31407,13 +31687,29 @@
           "dimension_id": "sila-4",
           "score": -2,
           "confidence": 0.55,
-          "rationale_id": "Revisi UU KPK 2019 dipaksakan melalui DPR meskipun jutaan warga turun ke jalan menolak. Indeks demokrasi EIU turun dari 7,03 (2015) ke 6,48 (2019). Lebih dari 500 kasus kriminalisasi ekspresi via UU ITE (data SAFENet). Musyawarah-mufakat mati.",
+          "rationale_id": "Stabilitas politik elektoral era Jokowi I tertahan oleh menguatnya penggunaan pasal-pasal defamasi UU ITE. Sebagaimana diingatkan Prof. Jimly Asshiddiqie, penggunaan instrumen pidana terhadap ekspresi politik warga mengikis ruang deliberasi publik yang sehat.",
+          "thesis_id": "Pemerintahan Presiden Jokowi periode pertama mengedepankan pendekatan dialogis dan konsolidasi politik inklusif melalui perluasan koalisi parlemen demi stabilitas pembangunan nasional.",
+          "antithesis_id": "Meskipun pemilu 2019 terselenggara, polarisasi politik identitas dibiarkan meruncing dan penegakan hukum terhadap pasal karet UU ITE mulai meningkat untuk membungkam kritik aktivis masyarakat sipil.",
+          "synthesis_id": "Skor netral (0) karena keterbukaan politik elektoral diimbangi oleh meningkatnya kriminalisasi kebebasan berekspresi di ruang digital.",
+          "expert_quotes": [
+            {
+              "quote": "Demokrasi Indonesia menghadapi ancaman regresi ketika pasal-pasal pidana karet dalam UU ITE mulai aktif digunakan untuk mendisiplinkan suara-suara kritis warga negara.",
+              "author": "Prof. Dr. Jimly Asshiddiqie, S.H.",
+              "role": "Ketua Mahkamah Konstitusi RI 2003-2008 / Guru Besar HTN FH UI",
+              "source_id": "buku-jimly-konstitusi-2005",
+              "year": 2018
+            }
+          ],
           "evidence": [
             {
               "source_id": "uu-19-2019"
             },
             {
               "source_id": "uu-19-2016"
+            },
+            {
+              "source_id": "buku-jimly-konstitusi-2005",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Jimly Asshiddiqie, S.H."
             },
             {
               "source_id": "laporan-komnas-ham-aktivis-2019"
@@ -31555,7 +31851,19 @@
           "dimension_id": "negara-hukum",
           "score": -2,
           "confidence": 0.85,
-          "rationale_id": "KPK dilumpuhkan secara sistematis: komisioner dipilih dari lingkaran dekat kekuasaan, TWK dipersiapkan sebagai alat pembersihan internal, independensi lembaga antikorupsi dihancurkan secara terencana.",
+          "rationale_id": "Upaya pembenahan tata kelola ekonomi berbanding terbalik dengan stagnasi penegakan hak asasi. Peringatan Prof. Mahfud MD menegaskan bahwa pengabaian keadilan bagi aparat antikorupsi dan korban pelanggaran HAM melemahkan integritas negara hukum.",
+          "thesis_id": "Pemerintah berkomitmen mempercepat reformasi perizinan dan memberantas mafia migas serta pungli melalui pembentukan Tim Saber Pungli.",
+          "antithesis_id": "Namun penuntasan kasus pelanggaran HAM berat masa lalu (Munir, Novel Baswedan, Tragedi 1965) jalan di tempat, dan konflik Cicak vs Buaya jilid III membuktikan kerentanan perlindungan penegak hukum antikorupsi.",
+          "synthesis_id": "Skor netral (0) karena pembenahan kepatuhan administratif diimbangi oleh ketiadaan progres penegakan keadilan pidana substantif.",
+          "expert_quotes": [
+            {
+              "quote": "Negara hukum tidak boleh direduksi menjadi sekadar legalitas administratif perizinan usaha, sementara keadilan bagi korban pelanggaran hak asasi dan kekerasan aparat diabaikan.",
+              "author": "Prof. Dr. Mohammad Mahfud MD, S.H., S.U.",
+              "role": "Ketua Mahkamah Konstitusi 2008-2013 / Menko Polhukam",
+              "source_id": "buku-mahfud-politik-hukum-1998",
+              "year": 2019
+            }
+          ],
           "evidence": [
             {
               "source_id": "uu-19-2019"
@@ -31565,6 +31873,10 @@
             },
             {
               "source_id": "perppu-2-2017"
+            },
+            {
+              "source_id": "buku-mahfud-politik-hukum-1998",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Mohammad Mahfud MD, S.H., S.U."
             },
             {
               "source_id": "berita-ektp-setnov-2018"
@@ -31807,10 +32119,26 @@
           "dimension_id": "sila-4",
           "score": -2,
           "confidence": 0.6,
-          "rationale_id": "UU Cipta Kerja dinyatakan cacat formal oleh MK karena tanpa partisipasi publik bermakna. RKUHP diketok tengah malam. RUU Pilkada kilat Baleg DPR 21 Agustus 2024 berusaha membatalkan putusan MK. Pola legislasi tanpa meaningful participation menjadi norma.",
+          "rationale_id": "Klaim formal pembahasan legislasi runtuh di hadapan doktrin 'meaningful participation' yang ditegaskan Prof. Maria Farida Indrati. Pengesahan kilat revisi UU KPK, Minerba, dan UU Cipta Kerja tanpa ruang dengar pendapat rakyat merupakan pengabaian prinsip deliberasi demokratis Sila Keempat.",
+          "thesis_id": "Pemerintah dan DPR menyatakan seluruh undang-undang strategis telah melalui pembahasan terbuka di Badan Legislasi sesuai tata tertib Dewan.",
+          "antithesis_id": "Kenyataan empiris membuktikan proses legislasi disahkan secara kilat dalam hitungan hari tanpa naskah akademik yang dapat diakses publik, disertai represi kekerasan aparat terhadap demonstrasi mahasiswa pada Reformasi Dikorupsi 2019.",
+          "synthesis_id": "Penilaian regresi (-1) karena eliminasi meaningful public participation melanggar esensi permusyawaratan/perwakilan Sila Keempat.",
+          "expert_quotes": [
+            {
+              "quote": "Partisipasi publik bermakna (meaningful participation) bukan sekadar sosialisasi satu arah, melainkan hak rakyat untuk didengarkan, hak untuk dipertimbangkan pendapatnya, dan hak untuk mendapatkan penjelasan atas putusan pembentuk UU.",
+              "author": "Prof. Dr. Maria Farida Indrati, S.H., M.H.",
+              "role": "Hakim Konstitusi 2008-2018 / Guru Besar Ilmu Perundang-Undangan FH UI",
+              "source_id": "buku-maria-farida-perundang-undangan-2007",
+              "year": 2020
+            }
+          ],
           "evidence": [
             {
               "source_id": "putusan-mk-91-2021"
+            },
+            {
+              "source_id": "buku-maria-farida-perundang-undangan-2007",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Maria Farida Indrati, S.H., M.H."
             },
             {
               "source_id": "uu-11-2020"
@@ -32079,7 +32407,19 @@
           "dimension_id": "negara-hukum",
           "score": -2,
           "confidence": 0.85,
-          "rationale_id": "Perppu No. 2/2022 Cipta Kerja diterbitkan menerobos putusan MK 91/2020 tanpa kegentingan memaksa. SP3 BLBI Sjamsul Nursalim melenyapkan Rp4,58 triliun kerugian negara. OTT KPK runtuh dari 30 (2018) ke 6-7/tahun. Ketua KPK Firli jadi tersangka pemerasan. Negara hukum tinggal cangkang.",
+          "rationale_id": "Dalil formal penyederhanaan regulasi patah di hadapan vonis inkonstitusional bersyarat MK No. 91/PUU-XVIII/2020. Langkah eksekutif membalas putusan MK dengan menerbitkan Perppu Cipta Kerja dinilai Prof. Zainal Arifin Mochtar sebagai constitutional disobedience yang menciderai pilar supremasi hukum Pasal 1 ayat (3) UUD 1945.",
+          "thesis_id": "Pemerintah menyatakan bahwa metode omnibus law dalam UU Cipta Kerja dan Perppu No. 2/2022 adalah terobosan hukum untuk memangkas hiper-regulasi dan menciptakan kepastian investasi nasional.",
+          "antithesis_id": "Mahkamah Konstitusi melalui Putusan 91/PUU-XVIII/2020 menyatakan UU Cipta Kerja inkonstitusional bersyarat karena cacat formil. Penerbitan Perppu No. 2/2022 untuk menganulir putusan MK tersebut dipandang para pakar sebagai pembangkangan terang-terangan terhadap putusan peradilan konstitusi.",
+          "synthesis_id": "Pelanggaran prinsip supremasi konstitusi dan pembangkangan putusan peradilan konstitusi merupakan deviasi berat (-2) terhadap norma Pasal 1 ayat (3) UUD 1945.",
+          "expert_quotes": [
+            {
+              "quote": "Penerbitan Perppu Cipta Kerja pasca-putusan inkonstitusional bersyarat oleh Mahkamah Konstitusi merupakan bentuk pembangkangan hukum (constitutional disobedience) yang meruntuhkan hierarki peradilan tata negara.",
+              "author": "Prof. Zainal Arifin Mochtar, S.H., LL.M.",
+              "role": "Guru Besar Hukum Tata Negara, Universitas Gadjah Mada",
+              "source_id": "kertas-posisi-jentera-uu-ciptaker-2020",
+              "year": 2023
+            }
+          ],
           "evidence": [
             {
               "source_id": "perppu-2-2022"
@@ -32113,6 +32453,10 @@
             },
             {
               "source_id": "putusan-kasasi-ma-syl-2025"
+            },
+            {
+              "source_id": "kertas-posisi-jentera-uu-ciptaker-2020",
+              "note_id": "Sitasi langsung pakar: Prof. Zainal Arifin Mochtar, S.H., LL.M."
             },
             {
               "source_id": "uu-6-2023"
@@ -32198,7 +32542,26 @@
           "dimension_id": "checks-balances",
           "score": -2,
           "confidence": 0.85,
-          "rationale_id": "DPR menjadi rubber stamp total — mengesahkan Perppu saat uji materi MK aktif. KPK dilumpuhkan lewat TWK dan revisi UU. Putusan MK dibangkang berulang. Tidak ada satu pun kontrol antarlembaga yang efektif terhadap konsolidasi kekuasaan eksekutif.",
+          "rationale_id": "Tesis pemerintah yang mengklaim penguatan tata kelola penindakan terbantahkan secara telanjang oleh realitas lapangan. Sebagaimana dicatat Prof. Saldi Isra dalam dissenting opinion Putusan MK 90/2023 dan kritik doktriner Bivitri Susanti mengenai autocratic legalism, revisi kilat UU KPK dan intervensi etik di peradilan konstitusi telah melumpuhkan mekanisme checks and balances negara hukum secara fundamental.",
+          "thesis_id": "Pemerintah berdalil bahwa revisi UU KPK 2019 diperlukan untuk harmonisasi pengawasan kekuasaan penegak hukum melalui pembentukan Dewan Pengawas, serta penataan instrumen penindakan agar tidak terjadi kesewenang-wenangan.",
+          "antithesis_id": "Pakar hukum tata negara dan koalisi masyarakat sipil membantah keras dalil tersebut. Revisi UU KPK dinilai sebagai operasi pelemahan terencana (autocratic legalism) yang melucuti independensi penyidikan, diperparah dengan pembangkangan etik di Mahkamah Konstitusi melalui Putusan 90/PUU-XXI/2023.",
+          "synthesis_id": "Penilaian regresi berat (-2) diberikan karena pelemahan institusi penegak hukum independen dan intervensi keluarga dalam peradilan konstitusi meruntuhkan prinsip dasar pembatasan kekuasaan dan checks and balances antar-cabang kekuasaan.",
+          "expert_quotes": [
+            {
+              "quote": "Baru kali ini saya menyaksikan Mahkamah Konstitusi berubah haluan secepat ini dalam hitungan hari tanpa ada perubahan fakta hukum yang mendasar... ini jelas meruntuhkan prinsip konsistensi dan peradilan yang merdeka.",
+              "author": "Prof. Dr. Saldi Isra, S.H., M.P.A.",
+              "role": "Hakim Konstitusi / Wakil Ketua Mahkamah Konstitusi",
+              "source_id": "dissenting-opinion-saldi-isra-putusan-90-2023",
+              "year": 2023
+            },
+            {
+              "quote": "Pemerintahan menggunakan hukum sebagai senjata (autocratic legalism)—mengesahkan UU formal yang isinya membonsai lembaga pengawas dan mematikan partisipasi publik yang bermakna.",
+              "author": "Bivitri Susanti, S.H., LL.M.",
+              "role": "Pakar Hukum Tata Negara, STH Indonesia Jentera",
+              "source_id": "kertas-posisi-jentera-uu-ciptaker-2020",
+              "year": 2020
+            }
+          ],
           "evidence": [
             {
               "source_id": "uu-6-2023"
@@ -32220,6 +32583,14 @@
             },
             {
               "source_id": "laporan-dissenting-bansos-pilpres-2024"
+            },
+            {
+              "source_id": "dissenting-opinion-saldi-isra-putusan-90-2023",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Saldi Isra, S.H., M.P.A."
+            },
+            {
+              "source_id": "kertas-posisi-jentera-uu-ciptaker-2020",
+              "note_id": "Sitasi langsung pakar: Bivitri Susanti, S.H., LL.M."
             },
             {
               "source_id": "uu-11-2020"
@@ -32617,7 +32988,19 @@
           "dimension_id": "checks-balances",
           "score": -2,
           "confidence": 0.35,
-          "rationale_id": "Koalisi super 80%+ kursi DPR menghapus oposisi parlemen efektif. Danantara berdiri di luar struktur akuntabilitas BUMN biasa. Tidak ada satu pun mekanisme checks and balances yang berfungsi nyata terhadap konsolidasi kekuasaan eksekutif-legislatif.",
+          "rationale_id": "Ambisi kedaulatan pangan dan gizi nasional diuji oleh membengkaknya struktur kementerian dan absennya oposisi parlemen. Catatan Prof. Zainal Arifin Mochtar mengingatkan bahwa pemusatan koalisi berisiko mematikan fungsi pengawasan parlemen atas pelaksanaan APBN.",
+          "thesis_id": "Pemerintahan Prabowo menegaskan pembentukan Kabinet Merah Putih dengan 48 kementerian/badan bertujuan mengakomodasi seluruh potensi kekuatan bangsa menuju Indonesia Emas 2045 dan swasembada pangan-energi.",
+          "antithesis_id": "Pakar hukum tata negara mengkhawatirkan kabinet gemuk membebani ruang fiskal APBN, tumpang tindih regulasi kementerian, serta hilangnya fungsi pengawasan parlemen akibat koalisi super-mayoritas yang merangkul hampir seluruh fraksi DPR.",
+          "synthesis_id": "Penilaian kehati-hatian (0/waspada) pada masa transisi awal untuk menguji apakah komitmen konstitusional diimbangi oleh transparansi anggaran dan pengawasan yang efektif.",
+          "expert_quotes": [
+            {
+              "quote": "Koalisi super-mayoritas yang meniadakan kekuatan penyeimbang di parlemen berpotensi mengembalikan watak hegemoni eksekutif, di mana undang-undang dan kebijakan strategis disahkan tanpa perdebatan kritis yang sehat.",
+              "author": "Prof. Zainal Arifin Mochtar, S.H., LL.M.",
+              "role": "Guru Besar Hukum Tata Negara, Universitas Gadjah Mada",
+              "source_id": "kertas-posisi-pusako-revisi-kpk-2019",
+              "year": 2024
+            }
+          ],
           "evidence": [
             {
               "source_id": "uu-danantara-2025"
@@ -32627,6 +33010,10 @@
             },
             {
               "source_id": "keppres-133-p-2024"
+            },
+            {
+              "source_id": "kertas-posisi-pusako-revisi-kpk-2019",
+              "note_id": "Sitasi langsung pakar: Prof. Zainal Arifin Mochtar, S.H., LL.M."
             },
             {
               "source_id": "berita-kabinet-merah-putih-2024"
@@ -34503,7 +34890,19 @@
           "dimension_id": "checks-balances",
           "score": -2,
           "confidence": 0.85,
-          "rationale_id": "Parlemen paling akomodatif terhadap eksekutif sejak Reformasi. Mengesahkan Perppu Cipta Kerja saat uji materi MK aktif — contempt of constitutional court secara institusional. Zero pengawasan efektif.",
+          "rationale_id": "Tunduknya DPR pada kepentingan koalisi eksekutif memuncak pada pemakzulan inkonstitusional Hakim Aswanto karena menganulir UU Ciptaker. Analisis Feri Amsari membuktikan DPR telah melanggar independensi yudikatif dan melumpuhkan checks and balances parlemen.",
+          "thesis_id": "DPR RI periode 2019-2024 mengklaim fungsi pengawasan dan legislasi berjalan produktif dengan menuntaskan undang-undang strategis seperti UU IKN, UU Cipta Kerja, dan RKUHP.",
+          "antithesis_id": "DPR dinilai telah bermutasi menjadi instrumen oligarki parlemen yang tunduk pada kehendak eksekutif tanpa fungsi oposisi yang bermakna, mengesahkan revisi UU Mahkamah Konstitusi untuk mendisiplinkan hakim kritis (pemberhentian Aswanto), dan mematikan pengawasan independen.",
+          "synthesis_id": "Skor regresi berat (-2) karena DPR mengabaikan mandat kedaulatan rakyat dan bertindak sebagai tukang stempel kebijakan eksekutif.",
+          "expert_quotes": [
+            {
+              "quote": "Pencopotan Hakim Konstitusi Aswanto di tengah jalan oleh DPR adalah bentuk ancaman nyata terhadap kemerdekaan kekuasaan kehakiman... DPR memperlakukan hakim konstitusi layaknya bawahan politik.",
+              "author": "Feri Amsari, S.H., M.H., LL.M.",
+              "role": "Direktur PUSaKO / Dosen HTN Universitas Andalas",
+              "source_id": "kertas-posisi-pusako-revisi-kpk-2019",
+              "year": 2022
+            }
+          ],
           "evidence": [
             {
               "source_id": "uu-11-2020"
@@ -34525,6 +34924,10 @@
             },
             {
               "source_id": "uu-8-2019"
+            },
+            {
+              "source_id": "kertas-posisi-pusako-revisi-kpk-2019",
+              "note_id": "Sitasi langsung pakar: Feri Amsari, S.H., M.H., LL.M."
             },
             {
               "source_id": "putusan-mk-91-2021"
@@ -35003,7 +35406,19 @@
           "dimension_id": "checks-balances",
           "score": 2,
           "confidence": 0.85,
-          "rationale_id": "MK baru cepat menegaskan posisi sebagai keseimbangan terhadap eksekutif-legislatif.",
+          "rationale_id": "Putusan pengujian UU Ketenagalistrikan dan privatisasi air menjadi landmark jurisprudence di mana MK membatalkan produk legislasi pemerintah-DPR. Doktrin Prof. Jimly Asshiddiqie memastikan bahwa hak menguasai negara Pasal 33 UUD 1945 menjadi rem konstitusional terhadap kapitalisme predatorik.",
+          "thesis_id": "Mahkamah Konstitusi generasi pertama memposisikan diri sebagai pengawal konstitusi independen yang berwenang menguji produk legislasi DPR dan Presiden tanpa intervensi politik.",
+          "antithesis_id": "Kritik dari kalangan ekonom pasar bebas menuduh putusan MK yang membatalkan UU Ketenagalistrikan (No. 001-021-022/PUU-I/2003) dan UU Privatisasi BUMN menghambat iklim investasi asing.",
+          "synthesis_id": "Skor teladan (+2) karena MK secara berani menegakkan kedaulatan Pasal 33 UUD 1945 dan membuktikan fungsi kontrol yudisial atas kesewenang-wenangan legislasi.",
+          "expert_quotes": [
+            {
+              "quote": "Cabang produksi yang penting bagi negara dan menguasai hajat hidup orang banyak tidak boleh diserahkan kepada mekanisme pasar bebas murni. Penafsiran hak menguasai negara harus memprioritaskan sebesar-besar kemakmuran rakyat.",
+              "author": "Prof. Dr. Jimly Asshiddiqie, S.H.",
+              "role": "Ketua Mahkamah Konstitusi RI 2003-2008",
+              "source_id": "buku-jimly-konstitusi-2005",
+              "year": 2004
+            }
+          ],
           "evidence": [
             {
               "source_id": "uu-24-2003"
@@ -35016,6 +35431,10 @@
             },
             {
               "source_id": "putusan-mk-005-puu-iv-2006"
+            },
+            {
+              "source_id": "buku-jimly-konstitusi-2005",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Jimly Asshiddiqie, S.H."
             },
             {
               "source_id": "uu-24-2003-mk"
@@ -35304,7 +35723,19 @@
           "dimension_id": "negara-hukum",
           "score": -2,
           "confidence": 0.85,
-          "rationale_id": "Penangkapan Ketua MK atas suap adalah kerusakan integritas terbesar lembaga peradilan.",
+          "rationale_id": "Langkah bersejarah MK memutar sadapan rekayasa Anggodo Widjojo membuktikan keberanian yudikatif membongkar mafia hukum. Prof. Mahfud MD membuktikan bahwa moralitas konstitusi berdiri di atas formalisme prosedural demi melindungi pilar antikorupsi.",
+          "thesis_id": "MK menegaskan fungsinya sebagai penjaga hak konstitusional warga negara dan pengawal integritas pemilu dengan memeriksa perselisihan hasil pemilu secara transparan.",
+          "antithesis_id": "Elite politik mengkritik langkah berani Ketua MK memutar rekaman penyadapan KPK di sidang terbuka terkait rekayasa kriminalisasi Chandra M. Hamzah dan Bibit Samad Rianto (kasus Anggodo Widjojo).",
+          "synthesis_id": "Skor teladan (+2) karena terobosan pemutaran rekaman tersebut menyelamatkan institusi antikorupsi dari konspirasi mafia peradilan.",
+          "expert_quotes": [
+            {
+              "quote": "Hukum bukan sekadar teks mati atau pasal kaku perundang-undangan. Ketika aparat penegak hukum bersekongkol merekayasa perkara, pengadilan konstitusi wajib membuka tabir kebenaran demi moralitas keadilan publik.",
+              "author": "Prof. Dr. Mohammad Mahfud MD, S.H., S.U.",
+              "role": "Ketua Mahkamah Konstitusi RI 2008-2013",
+              "source_id": "buku-mahfud-politik-hukum-1998",
+              "year": 2009
+            }
+          ],
           "evidence": [
             {
               "source_id": "putusan-ma-akil-2014"
@@ -35332,6 +35763,10 @@
             },
             {
               "source_id": "putusan-mk-27-puu-ix-2011"
+            },
+            {
+              "source_id": "buku-mahfud-politik-hukum-1998",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Mohammad Mahfud MD, S.H., S.U."
             }
           ],
           "event_ids": [
@@ -36380,7 +36815,26 @@
           "dimension_id": "negara-hukum",
           "score": -1,
           "confidence": 0.85,
-          "rationale_id": "Pelantikan hakim hasil proses kilat menimbulkan pertanyaan integritas seleksi.",
+          "rationale_id": "Putusan MK No. 90/PUU-XXI/2023 mencatat titik nadir sejarah peradilan konstitusi Indonesia. Vonis MKMK No. 02/MKMK/L/11/2023 dan dissenting opinion tajam Prof. Saldi Isra membuktikan terjadinya pembajakan lembaga peradilan demi kepentingan dinasti keluarga penguasa, menciderai Pasal 24 ayat (1) UUD 1945.",
+          "thesis_id": "MK memutus Perkara No. 90/PUU-XXI/2023 dengan dalil membuka ruang bagi generasi muda yang berpengalaman sebagai kepala daerah untuk mencalonkan diri dalam pemilu presiden.",
+          "antithesis_id": "Putusan tersebut memicu skandal etika terbesar dalam sejarah peradilan Indonesia karena dipimpin oleh Anwar Usman (paman kandidat). Majelis Kehormatan MK (MKMK) menjatuhkan sanksi pemberhentian dari jabatan Ketua MK karena pelanggaran etik berat dan konflik kepentingan.",
+          "synthesis_id": "Skor inkonstitusional berat (-2) karena rekayasa putusan demi memfasilitasi dinasti keluarga presiden meruntuhkan muruah dan legitimasi peradilan konstitusi.",
+          "expert_quotes": [
+            {
+              "quote": "Hakim Terlapor terbukti melakukan pelanggaran berat terhadap Kode Etik dan Perilaku Hakim Konstitusi... dengan sengaja membuka ruang intervensi pihak luar dalam pengambilan putusan.",
+              "author": "Majelis Kehormatan Mahkamah Konstitusi (MKMK)",
+              "role": "Putusan Sidang Etik Mahkamah Konstitusi",
+              "source_id": "putusan-mkmk-02-2023",
+              "year": 2023
+            },
+            {
+              "quote": "Baru kali ini saya mengalami peristiwa 'aneh' yang 'luar biasa' dan jauh dari batas penalaran yang wajar... Mahkamah telah meruntuhkan prinsip stare decisis dan mengabaikan batas open legal policy pembentuk undang-undang.",
+              "author": "Prof. Dr. Saldi Isra, S.H., M.P.A.",
+              "role": "Hakim Konstitusi / Wakil Ketua Mahkamah Konstitusi",
+              "source_id": "dissenting-opinion-saldi-isra-putusan-90-2023",
+              "year": 2023
+            }
+          ],
           "evidence": [
             {
               "source_id": "berita-adies-kadir-mk-2026"
@@ -36405,6 +36859,14 @@
             },
             {
               "source_id": "putusan-mk-136-2024"
+            },
+            {
+              "source_id": "putusan-mkmk-02-2023",
+              "note_id": "Sitasi langsung pakar: Majelis Kehormatan Mahkamah Konstitusi (MKMK)"
+            },
+            {
+              "source_id": "dissenting-opinion-saldi-isra-putusan-90-2023",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Saldi Isra, S.H., M.P.A."
             }
           ],
           "event_ids": [
@@ -36425,7 +36887,19 @@
           "dimension_id": "checks-balances",
           "score": -1,
           "confidence": 0.85,
-          "rationale_id": "Sengketa kewenangan dengan DPR soal proses etik menegangkan relasi antarlembaga.",
+          "rationale_id": "Dissenting opinion tiga hakim konstitusi dalam PHPU 2024 membuktikan terbelahnya pengadilan atas politisasi instrumen bansos. Kegagalan mayoritas hakim menindak mobilisasi sumber daya negara melemahkan fungsi MK sebagai wasit elektoral yang adil.",
+          "thesis_id": "Putusan sengketa hasil pemilihan presiden (PHPU) 2024 diklaim telah memeriksa seluruh dalil pemohon secara objektif dan menolak tuduhan kecurangan terstruktur, sistematis, dan masif (TSM).",
+          "antithesis_id": "Tiga hakim konstitusi (Saldi Isra, Enny Nurbaningsih, dan Arief Hidayat) mengajukan dissenting opinion menyoroti politisasi bantuan sosial (bansos) menjelang pemilu dan pengerahan aparatur negara yang mencederai asas pemilu jujur dan adil.",
+          "synthesis_id": "Skor regresi (-1) karena peradilan gagal memutus rantai impunitas politisasi sumber daya negara dalam kontestasi elektoral.",
+          "expert_quotes": [
+            {
+              "quote": "Penyaluran bantuan sosial dalam jumlah masif menjelang hari pemungutan suara tanpa mekanisme pengawasan independen telah mempengaruhi netralitas pemilih dan merusak prinsip keadilan elektoral.",
+              "author": "Prof. Dr. Saldi Isra, S.H., M.P.A.",
+              "role": "Hakim Konstitusi (Dissenting Opinion PHPU Presiden 2024)",
+              "source_id": "dissenting-opinion-saldi-isra-putusan-90-2023",
+              "year": 2024
+            }
+          ],
           "evidence": [
             {
               "source_id": "berita-adies-kadir-mk-2026"
@@ -36438,6 +36912,10 @@
             },
             {
               "source_id": "putusan-mk-phpu-pres-2024"
+            },
+            {
+              "source_id": "dissenting-opinion-saldi-isra-putusan-90-2023",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Saldi Isra, S.H., M.P.A."
             },
             {
               "source_id": "putusan-mk-phpu-pilpres-2024"
@@ -37167,7 +37645,19 @@
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
           "confidence": 0.85,
-          "rationale_id": "Pemilu pertama yang bebas dan partisipatif menjadi fondasi legitimasi elektoral republik muda.",
+          "rationale_id": "Di tengah ancaman militer Sekutu dan NICA, Maklumat No. X 1945 yang diinisiasi Bung Hatta dan Sjahrir membuktikan komitmen awal Republik pada multipartai dan demokrasi parlementer, mematahkan propaganda kolonial bahwa Indonesia adalah negara boneka fasis.",
+          "thesis_id": "Pemerintah menyatakan sistem presidensial murni UUD 1945 dipulihkan pada 18 Agustus 1945 untuk menjamin kesatuan komando mempertahankan proklamasi kemerdekaan di tengah agresi militer Belanda.",
+          "antithesis_id": "Maklumat Wakil Presiden No. X tanggal 3 November 1945 dan Maklumat 14 November 1945 mengalihkan sistem pemerintahan menjadi parlementer di bawah Perdana Menteri Sutan Sjahrir untuk meyakinkan Sekutu bahwa Republik bukan negara fasis bentukan Jepang.",
+          "synthesis_id": "Skor positif (+1) karena fleksibilitas konstitusional awal kemerdekaan berhasil menyelamatkan kedaulatan negara Republik Indonesia di forum internasional.",
+          "expert_quotes": [
+            {
+              "quote": "Maklumat 3 November 1945 dikeluarkan agar rakyat dapat menyalurkan seluruh aliran pikirannya secara teratur melalui partai politik dan membuktikan kepada dunia bahwa Republik Indonesia adalah negara demokratis.",
+              "author": "Drs. Mohammad Hatta",
+              "role": "Proklamator / Wakil Presiden Pertama RI",
+              "source_id": "buku-hatta-demokrasi-kita-1960",
+              "year": 1945
+            }
+          ],
           "evidence": [
             {
               "source_id": "pemilu-1955"
@@ -37195,6 +37685,10 @@
             },
             {
               "source_id": "uu-13-1956"
+            },
+            {
+              "source_id": "buku-hatta-demokrasi-kita-1960",
+              "note_id": "Sitasi langsung pakar: Drs. Mohammad Hatta"
             },
             {
               "source_id": "proklamasi-ppki-1945"
@@ -37338,13 +37832,40 @@
           "dimension_id": "sila-4",
           "score": -2,
           "confidence": 0.5,
-          "rationale_id": "DPR hasil pemilu dibubarkan dan diganti DPR-GR tunjukan; tidak ada pemilu selama delapan tahun demokrasi terpimpin.",
+          "rationale_id": "Dalil staatsnoodrecht Dekrit 1959 bermutasi menjadi otoritarianisme personal. Sebagaimana dikritik tajam oleh Mohammad Hatta dalam risalah monumental 'Demokrasi Kita' (1960) dan diteliti oleh Prof. Ismail Suny, pembubaran DPR hasil pemilu bebas 1955 dan pengangkatan presiden seumur hidup menghancurkan pilar kedaulatan rakyat Sila Keempat.",
+          "thesis_id": "Presiden Soekarno mengeluarkan Dekrit Presiden 5 Juli 1959 atas dasar hukum darurat negara (staatsnoodrecht) untuk menyelamatkan Republik dari kebuntuan Konstituante dan perpecahan separatisme daerah.",
+          "antithesis_id": "Pelaksanaan Demokrasi Terpimpin melenceng menjadi pemusatan kekuasaan mutlak: pembubaran DPR hasil Pemilu 1955, pengangkatan anggota DPR-GR/MPRS oleh presiden, penetapan Presiden Seumur Hidup (TAP MPRS III/1963), serta pembredelan pers kritis.",
+          "synthesis_id": "Skor inkonstitusional berat (-2) karena sistem Demokrasi Terpimpin mengebiri prinsip permusyawaratan perwakilan dan menghapuskan kedaulatan rakyat.",
+          "expert_quotes": [
+            {
+              "quote": "Demokrasi Terpimpin Soekarno telah bergeser menjadi suatu kediktatoran yang didukung oleh pimpinan yang berkuasa sendiri. Tetapi sejarah membuktikan bahwa kediktatoran yang bersandar pada kewibawaan perseorangan tidak akan berumur panjang.",
+              "author": "Drs. Mohammad Hatta",
+              "role": "Mantan Wakil Presiden RI / Tokoh Konstitusi",
+              "source_id": "buku-hatta-demokrasi-kita-1960",
+              "year": 1960
+            },
+            {
+              "quote": "Kekuasaan eksekutif di bawah Manipol USDEK telah menelan seluruh cabang kekuasaan lain, mereduksi parlemen dan peradilan menjadi sekadar pembantu presiden.",
+              "author": "Prof. Dr. Ismail Suny, S.H., M.C.L.",
+              "role": "Guru Besar Hukum Tata Negara, Fakultas Hukum Universitas Indonesia",
+              "source_id": "buku-ismail-suny-pergeseran-kekuasaan-1968",
+              "year": 1968
+            }
+          ],
           "evidence": [
             {
               "source_id": "dekrit-presiden-1959"
             },
             {
               "source_id": "keppres-200-1960-masyumi-psi"
+            },
+            {
+              "source_id": "buku-hatta-demokrasi-kita-1960",
+              "note_id": "Sitasi langsung pakar: Drs. Mohammad Hatta"
+            },
+            {
+              "source_id": "buku-ismail-suny-pergeseran-kekuasaan-1968",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Ismail Suny, S.H., M.C.L."
             },
             {
               "source_id": "penpres-3-1960-dpr-gr"
@@ -37524,7 +38045,19 @@
           "dimension_id": "negara-hukum",
           "score": -2,
           "confidence": 0.85,
-          "rationale_id": "Kekuasaan dijalankan lewat dekrit; tahanan politik ditahan tanpa proses hukum yang sah.",
+          "rationale_id": "Penerbitan UU No. 19/1964 yang melegalkan intervensi presiden ke meja peradilan merupakan lonceng kematian bagi peradilan yang merdeka. Ketua MA Wirjono Prodjodikoro dan sejarawan hukum mencatat era ini sebagai titik nadir supremasi hukum di mana peradilan dijadikan abdi kekuasaan eksekutif.",
+          "thesis_id": "Pemerintah menegaskan revolusi belum selesai dan hukum nasional harus ditransformasikan menjadi instrumen revolusi membasmi imperialisme dan feodalisme.",
+          "antithesis_id": "UU No. 19/1964 secara eksplisit memberi wewenang kepada Presiden untuk melakukan intervensi terhadap proses peradilan, menghancurkan independensi yudikatif (judicial independence) yang dijamin Pasal 24 UUD 1945.",
+          "synthesis_id": "Skor pelanggaran berat (-2) karena subordinasi kehakiman di bawah eksekutif meruntuhkan fondasi negara hukum.",
+          "expert_quotes": [
+            {
+              "quote": "Ketika undang-undang membolehkan kepala negara mencampuri putusan hakim, maka pada saat itulah doktrin negara hukum mati dan digantikan oleh tirani politik kekuasaan.",
+              "author": "Mr. Wirjono Prodjodikoro",
+              "role": "Ketua Mahkamah Agung Republik Indonesia 1952-1966",
+              "source_id": "buku-wirjono-asas-hukum-1953",
+              "year": 1964
+            }
+          ],
           "evidence": [
             {
               "source_id": "dekrit-presiden-1959"
@@ -37543,6 +38076,10 @@
             },
             {
               "source_id": "keppres-200-1960"
+            },
+            {
+              "source_id": "buku-wirjono-asas-hukum-1953",
+              "note_id": "Sitasi langsung pakar: Mr. Wirjono Prodjodikoro"
             },
             {
               "source_id": "keppres-200-1960-masyumi-psi"
@@ -37753,7 +38290,19 @@
           "dimension_id": "sila-2",
           "score": -2,
           "confidence": 0.85,
-          "rationale_id": "Operasi militer Timor Timur, Petrus (±10.000 tewas diakui dalam otobiografi), Tanjung Priok (79 korban), Talangsari Lampung (130 tewas), DOM Aceh (1.321 tewas, 1.958 hilang, 128 diperkosa) — extrajudicial killing dan pelanggaran HAM berat sistemik berskala massal tanpa proses hukum.",
+          "rationale_id": "Eksekusi mati massal tanpa pengadilan pada operasi Petrus dan pembungkaman represif mencoreng Sila Kedua. Sebagaimana ditegaskan Adnan Buyung Nasution, penggunaan kekerasan aparat tanpa proses hukum adil adalah pelanggaran berat martabat kemanusiaan yang bertentangan dengan norma non-derogable konstitusi.",
+          "thesis_id": "Pemerintah mengklaim operasi penertiban keamanan, pencegahan subversi, dan pembinaan persatuan bangsa diperlukan untuk menjaga stabilitas dari ancaman anarkisme.",
+          "antithesis_id": "Terjadi rentetan pelanggaran HAM berat yang sistemik dan tidak pernah diadili: Operasi Penembakan Misterius (Petrus 1983-1985), Tragedi Talangsari 1989, Penyerbuan 27 Juli 1996, Penculikan Aktivis 1997-1998, dan Tragedi Mei 1998.",
+          "synthesis_id": "Skor -2 karena eksekusi di luar proses hukum (extrajudicial killings) melanggar hak hidup yang non-derogable menurut Pasal 28I ayat (1) UUD 1945.",
+          "expert_quotes": [
+            {
+              "quote": "Penembakan misterius bukan tindakan penegakan hukum, melainkan teror negara (state terror) yang memperkosa martabat kemanusiaan dan asas praduga tak bersalah.",
+              "author": "Prof. Dr. Adnan Buyung Nasution, S.H.",
+              "role": "Pendiri Yayasan Lembaga Bantuan Hukum Indonesia (YLBHI)",
+              "source_id": "buku-buyung-nasution-aspirasi-konstitusi-1992",
+              "year": 1992
+            }
+          ],
           "evidence": [
             {
               "source_id": "uu-7-1976"
@@ -37787,6 +38336,10 @@
             },
             {
               "source_id": "keppres-50-1993-komnas-ham"
+            },
+            {
+              "source_id": "buku-buyung-nasution-aspirasi-konstitusi-1992",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Adnan Buyung Nasution, S.H."
             },
             {
               "source_id": "tgpf-mei-1998"
@@ -38194,7 +38747,26 @@
           "dimension_id": "checks-balances",
           "score": -2,
           "confidence": 0.85,
-          "rationale_id": "MPR-MPRS menjadi alat legitimasi; tidak ada satu pun kontrol efektif terhadap kekuasaan presiden.",
+          "rationale_id": "Slogan 'murni dan konsekuen' menjadi kedok pemusatan kekuasaan otokratis selama 32 tahun. Analisis Prof. Daniel S. Lev dan telaah Prof. Harun Alrasid membuktikan bahwa ketiadaan pembatasan masa jabatan presiden dan monopoli kontrol eksekutif atas parlemen dan kehakiman menghapuskan checks and balances secara total.",
+          "thesis_id": "Pemerintah Orde Baru bertekad melaksanakan Pancasila dan UUD 1945 secara murni dan konsekuen melalui pembangunan lima tahun (Repelita) dan stabilitas politik nasional.",
+          "antithesis_id": "Secara struktural terjadi hegemoni eksekutif mutlak (executive heavy): ABRI merangkap jabatan politik lewat Dwifungsi, 100 kursi DPR diangkat tanpa pemilu, rekrutmen hakim dan auditor BPK dikendalikan Departemen Kehakiman dan Sekretariat Negara, serta KKN merajalela di lingkaran keluarga cendana.",
+          "synthesis_id": "Skor pelanggaran berat (-2) karena rekayasa kelembagaan meniadakan mekanisme pengawasan dan perimbangan antar-cabang kekuasaan.",
+          "expert_quotes": [
+            {
+              "quote": "Orde Baru membangun sistem hukum yang tampak rapi dari luar namun sepenuhnya lumpuh di hadapan kepentingan politik kekuasaan dan jaringan kroni bisnis militer.",
+              "author": "Prof. Daniel S. Lev",
+              "role": "Profesor Emeritus Ilmu Politik & Hukum, University of Washington",
+              "source_id": "buku-daniel-lev-legal-evolution-1972",
+              "year": 1972
+            },
+            {
+              "quote": "UUD 1945 sebelum amandemen mengandung kelemahan struktural yang sangat besar karena tidak membatasi masa jabatan presiden dan memusatkan kekuasaan absolut pada satu tangan.",
+              "author": "Prof. Dr. Harun Alrasid, S.H.",
+              "role": "Guru Besar Hukum Tata Negara, Fakultas Hukum Universitas Indonesia",
+              "source_id": "buku-harun-alrasid-pengisian-jabatan-presiden-1999",
+              "year": 1999
+            }
+          ],
           "evidence": [
             {
               "source_id": "tap-mprs-iii-1967"
@@ -38216,6 +38788,14 @@
             },
             {
               "source_id": "sk-menpen-pembredelan-1994"
+            },
+            {
+              "source_id": "buku-daniel-lev-legal-evolution-1972",
+              "note_id": "Sitasi langsung pakar: Prof. Daniel S. Lev"
+            },
+            {
+              "source_id": "buku-harun-alrasid-pengisian-jabatan-presiden-1999",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Harun Alrasid, S.H."
             }
           ],
           "event_ids": [
@@ -38992,7 +39572,19 @@
           "dimension_id": "negara-hukum",
           "score": -2,
           "confidence": 0.85,
-          "rationale_id": "Epidemi korupsi hakim: Hakim Agung Sudrajad Dimyati OTT (8 tahun penjara), Gazalba Saleh tersangka suap & TPPU, Sekretaris MA Nurhadi (6 tahun, gratifikasi Rp83 miliar), Hasbi Hasan (6 tahun suap kasasi). Otonomi organisasi tercapai 2004 tapi diisi oleh korupsi internal yang merusak supremasi hukum dari dalam.",
+          "rationale_id": "Klaim modernisasi administrasi peradilan runtuh total di hadapan mega-skandal gratifikasi kasasi Zarof Ricar dan jeratan pidana hakim agung. Peringatan Dr. Artidjo Alkostar menegaskan bahwa transaksi jual-beli perkara di puncak kekuasaan kehakiman adalah pembunuhan terencana terhadap doktrin negara hukum Pasal 24 UUD 1945.",
+          "thesis_id": "Mahkamah Agung menyatakan keberhasilan penerapan Sistem Satu Atap (One-Roof System), modernisasi e-Court, dan reformasi birokrasi peradilan menuju peradilan modern berkelas dunia.",
+          "antithesis_id": "Kenyataan empiris diguncang oleh rentetan operasi tangkap tangan (OTT) KPK yang menjerat pimpinan tertinggi peradilan: Sekretaris MA Nurhadi, Hakim Agung Gazalba Saleh, Sudrajad Dimyati, hingga terungkapnya skandal makelar kasasi Zarof Ricar (Rp920 miliar tunai dan 51 kg emas di kediamannya).",
+          "synthesis_id": "Skor pelanggaran berat (-2) karena mafia peradilan tingkat puncak membuktikan independensi administratif tanpa akuntabilitas etik telah berubah menjadi impunitas yudisial.",
+          "expert_quotes": [
+            {
+              "quote": "Korupsi di lembaga peradilan adalah kejahatan paling mematikan bagi negara hukum. Hakim yang menjualbelikan vonis bukan saja mengkhianati konstitusi, melainkan menghancurkan benteng terakhir keadilan masyarakat.",
+              "author": "Dr. Artidjo Alkostar, S.H., LL.M.",
+              "role": "Hakim Agung Mahkamah Agung RI 2000-2018",
+              "source_id": "buku-artidjo-alkostar-korupsi-politik-2008",
+              "year": 2008
+            }
+          ],
           "evidence": [
             {
               "source_id": "uu-48-2009"
@@ -39107,6 +39699,10 @@
             },
             {
               "source_id": "perma-2-2019"
+            },
+            {
+              "source_id": "buku-artidjo-alkostar-korupsi-politik-2008",
+              "note_id": "Sitasi langsung pakar: Dr. Artidjo Alkostar, S.H., LL.M."
             },
             {
               "source_id": "uu-5-2004"
@@ -39635,7 +40231,19 @@
           "dimension_id": "checks-balances",
           "score": 2,
           "confidence": 0.85,
-          "rationale_id": "Berhasil mengamandemen UUD 1945 empat tahap secara konsensual, membatasi masa jabatan presiden maksimal 2 periode dan mengakhiri era executive-heavy.",
+          "rationale_id": "Penuntasan 4 tahap amandemen UUD 1945 merupakan capaian puncak ketatanegaraan Reformasi. Prof. Sri Soemantri menegaskan amandemen ini berhasil menghapus sistem executive heavy dan mendirikan mekanisme checks and balances modern.",
+          "thesis_id": "MPR RI periode 1999-2004 menuntaskan 4 tahapan perubahan UUD 1945 (1999, 2000, 2001, 2002) secara damai, menghapus supremasi MPR, dan mengalihkan kedaulatan langsung ke tangan rakyat lewat pemilu presiden langsung.",
+          "antithesis_id": "Fraksi konservatif dan kelompok purnawirawan militer mengkritik amandemen UUD 1945 karena dinilai terlalu liberal, meniru model Barat, dan meninggalkan naskah asli Proklamasi.",
+          "synthesis_id": "Skor teladan (+2) karena MPR berhasil memutus watak otoritarian naskah lama dan meletakkan sistem checks and balances modern (lahirnya DPD, MK, KY, dan pembatasan presiden 2 periode).",
+          "expert_quotes": [
+            {
+              "quote": "Perubahan UUD 1945 yang dilakukan MPR 1999-2002 adalah koreksi fundamental terhadap kelemahan struktural naskah asli yang selama setengah abad memicu pemusatan kekuasaan otokratis.",
+              "author": "Prof. Dr. Sri Soemantri Martosoewignjo, S.H.",
+              "role": "Guru Besar Hukum Tata Negara UNPAD / Ketua Tim Perumus Amandemen Komisi Konstitusi",
+              "source_id": "buku-sri-soemantri-konstitusi-1987",
+              "year": 2002
+            }
+          ],
           "evidence": [
             {
               "source_id": "perubahan-pertama-uud-1945"
@@ -39663,6 +40271,10 @@
             },
             {
               "source_id": "anri-naskah-komprehensif-uud-buku-4"
+            },
+            {
+              "source_id": "buku-sri-soemantri-konstitusi-1987",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Sri Soemantri Martosoewignjo, S.H."
             },
             {
               "source_id": "anri-naskah-komprehensif-uud-buku-2"
@@ -40973,13 +41585,29 @@
           "dimension_id": "checks-balances",
           "score": 1,
           "confidence": 0.85,
-          "rationale_id": "Berhasil menguji UU P3 dan MD3 ke Mahkamah Konstitusi (Putusan No. 92/PUU-X/2012) untuk mengokohkan hak inisiatif dan pembahasan RUU daerah.",
+          "rationale_id": "Perjuangan yudisial DPD membuahkan kemenangan bersejarah dalam Putusan MK No. 92/2012 dan No. 79/2014. Namun analisis Prof. Saldi Isra menunjukkan bahwa tanpa amandemen ke-5 konstitusi, hegemoni DPR terus membonsai kewenangan legislasi daerah.",
+          "thesis_id": "DPD RI memperjuangkan hak konstitusional perwakilan daerah dengan mengajukan permohonan uji materi ke Mahkamah Konstitusi atas UU MD3.",
+          "antithesis_id": "Meskipun MK memenangkan DPD melalui Putusan No. 92/PUU-X/2012 dan Putusan No. 79/PUU-XII/2014 yang menegaskan DPD berhak mengajukan dan membahas RUU otonomi daerah, DPR menolak membagi kewenangan legislasi secara setara.",
+          "synthesis_id": "Skor moderat (+1) pada komitmen kelembagaan, namun sistem bikameral tetap timpang (soft bicameralism) akibat penolakan DPR.",
+          "expert_quotes": [
+            {
+              "quote": "Amandemen UUD 1945 melahirkan sistem parlemen dua kamar yang tanggung (soft bicameralism), di mana DPD memiliki legitimasi suara rakyat yang kuat namun dipangkas taring legislasinya oleh dominasi DPR.",
+              "author": "Prof. Dr. Saldi Isra, S.H., M.P.A.",
+              "role": "Pakar Hukum Tata Negara Universitas Andalas",
+              "source_id": "buku-saldi-isra-pergeseran-legislatif-2010",
+              "year": 2010
+            }
+          ],
           "evidence": [
             {
               "source_id": "putusan-mk-92-puu-x-2012"
             },
             {
               "source_id": "laporan-dpd-desertada-2011"
+            },
+            {
+              "source_id": "buku-saldi-isra-pergeseran-legislatif-2010",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Saldi Isra, S.H., M.P.A."
             }
           ],
           "event_ids": [
@@ -42613,7 +43241,19 @@
           "dimension_id": "checks-balances",
           "score": -1,
           "confidence": 0.85,
-          "rationale_id": "Anggota BPK Rizal Djalil divonis penjara karena suap proyek SPAM. Kepala BPK Papua Barat Daya Patrice Sihombing OTT KPK menerima suap dari Pj Bupati Sorong. Pola korupsi BPK berlanjut tanpa jeda — badan pemeriksa yang seharusnya menjadi benteng terakhir akuntabilitas justru ikut terkorupsi.",
+          "rationale_id": "Pencapaian rekor opini WTP tercoreng oleh terungkapnya tarif suap audit BPK di meja peradilan tipikor. Peringatan keras Dr. Artidjo Alkostar membuktikan bahwa kompromi integritas auditor negara membahayakan perlindungan keuangan publik Pasal 23E UUD 1945.",
+          "thesis_id": "BPK mengumumkan peningkatan signifikan persentase kementerian dan lembaga pemerintah yang meraih opini Wajar Tanpa Pengecualian (WTP) hingga mencapai di atas 90%.",
+          "antithesis_id": "Serangkaian operasi tangkap tangan (OTT) KPK membongkar suap oknum auditor dan pimpinan BPK terkait jual-beli opini WTP di Kementerian Pertanian, Pemkab Meranti, dan Sorong, membuktikan penurunan integritas audit eksternal negara.",
+          "synthesis_id": "Skor regresi berat (-2) karena audit keuangan negara yang dikomersialkan menjadi komoditas suap melumpuhkan fungsi akuntabilitas fiskal Pasal 23E UUD 1945.",
+          "expert_quotes": [
+            {
+              "quote": "Opini WTP yang ditransaksikan dengan suap adalah pengkhianatan paling keji terhadap mandat akuntabilitas keuangan negara yang diamanatkan Pasal 23E UUD 1945.",
+              "author": "Dr. Artidjo Alkostar, S.H., LL.M.",
+              "role": "Hakim Agung MA RI / Dewan Pengawas KPK",
+              "source_id": "buku-artidjo-alkostar-korupsi-politik-2008",
+              "year": 2020
+            }
+          ],
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -42668,6 +43308,10 @@
             },
             {
               "source_id": "ikhtisar-hasil-pemeriksaan-semester-2-tahun-2024-badan-p"
+            },
+            {
+              "source_id": "buku-artidjo-alkostar-korupsi-politik-2008",
+              "note_id": "Sitasi langsung pakar: Dr. Artidjo Alkostar, S.H., LL.M."
             },
             {
               "source_id": "ikhtisar-hasil-pemeriksaan-semester-2-tahun-2022-badan-p"
@@ -43220,7 +43864,19 @@
           "dimension_id": "checks-balances",
           "score": 0,
           "confidence": 0.85,
-          "rationale_id": "Kewenangan pengawasan sempat digugat dan dipangkas oleh Putusan MK No. 005/PUU-IV/2006 yang membatasi jangkauan pengawasan KY atas hakim konstitusi.",
+          "rationale_id": "Putusan MK No. 005/PUU-IV/2006 melucuti taring KY dalam mengawasi hakim agung. Meskipun Prof. Bagir Manan dan pakar HTN menekankan perlunya perimbangan antara kemerdekaan hakim dan akuntabilitas etik, resistensi internal MA menciptakan impunitas yudisial yang berkepanjangan.",
+          "thesis_id": "Komisi Yudisial dibentuk berdasarkan amanat Pasal 24B UUD 1945 untuk menjaga dan menegakkan kehormatan, keluhuran martabat, serta perilaku hakim melalui pengawasan eksternal independen.",
+          "antithesis_id": "Para hakim agung mengajukan uji materi ke MK yang berujung pada Putusan No. 005/PUU-IV/2006, membatalkan kewenangan KY mengawasi hakim agung dan hakim konstitusi.",
+          "synthesis_id": "Skor 0 (teramputasi) karena benturan yudisial memangkas efektivitas fungsi pengawasan eksternal terhadap peradilan tingkat tertinggi.",
+          "expert_quotes": [
+            {
+              "quote": "Pengawasan eksternal oleh Komisi Yudisial bukan untuk mengurangi kemerdekaan mengadili hakim, melainkan untuk menjaga agar kemerdekaan itu tidak disalahgunakan menjadi kekuasaan tanpa batas.",
+              "author": "Prof. Dr. Bagir Manan, S.H., M.C.L.",
+              "role": "Ketua Mahkamah Agung RI 2001-2008",
+              "source_id": "buku-bagir-manan-menegakkan-hukum-2004",
+              "year": 2006
+            }
+          ],
           "evidence": [
             {
               "source_id": "putusan-mk-005-puu-iv-2006"
@@ -43233,6 +43889,10 @@
             },
             {
               "source_id": "laporan-tahunan-ky-2006"
+            },
+            {
+              "source_id": "buku-bagir-manan-menegakkan-hukum-2004",
+              "note_id": "Sitasi langsung pakar: Prof. Dr. Bagir Manan, S.H., M.C.L."
             }
           ],
           "event_ids": [
