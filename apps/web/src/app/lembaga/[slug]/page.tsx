@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 
 import { dataset, getEventsOfTerm, getInstitution, getTermsOfInstitution } from "@pancasila-index/data";
 import { InstitutionLogo } from "@/components/institution-logo";
+import { ScaleLegend } from "@/components/scale-legend";
 
 import {
   indexLabel,
@@ -106,6 +107,10 @@ export default async function LembagaPage({
           </span>
         </div>
 
+        <div className="mt-3">
+          <ScaleLegend compact />
+        </div>
+
         {/*
           Judul kolom hanya tampil sm ke atas: pada mobile tiap baris tetap
           bertumpuk vertikal (grid-cols-1), sehingga label kolom tidak
@@ -113,7 +118,7 @@ export default async function LembagaPage({
         */}
         <div className="mt-4 hidden gap-4 px-4 pb-1 text-[10px] font-semibold uppercase tracking-wider text-[var(--muted)] sm:grid sm:grid-cols-[minmax(0,280px)_1fr_minmax(0,340px)]">
           <span>Masa Jabatan & Periode</span>
-          <span>Indeks Kepatuhan</span>
+          <span>Indeks Kepatuhan (0–100 · 50 = Netral)</span>
           <span className="text-right">Peristiwa &amp; Skor</span>
         </div>
 
@@ -152,15 +157,19 @@ export default async function LembagaPage({
                   </div>
                 </div>
 
-                {/**** Tengah: batang skor ****/}
-                <div className="h-2.5 rounded-full bg-[var(--bg)] border border-[var(--line)] overflow-hidden">
-                  <div
-                    className="h-full rounded-full transition-all duration-500"
-                    style={{
-                      width: `${pct}%`,
-                      background: scoreColor((pct / 100) * 4 - 2),
-                    }}
-                  />
+                {/**** Tengah: batang skor dengan garis tengah netral 50% ****/}
+                <div className="relative">
+                  <div className="h-3 rounded-full bg-[var(--bg)] border border-[var(--line)] overflow-hidden relative">
+                    {/* Garis tengah 50% menandai titik netral */}
+                    <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-[var(--muted)]/50 z-10" title="Titik Netral: 50" />
+                    <div
+                      className="h-full rounded-full transition-all duration-500"
+                      style={{
+                        width: `${pct}%`,
+                        background: scoreColor((pct / 100) * 4 - 2),
+                      }}
+                    />
+                  </div>
                 </div>
 
                 {/**** Kanan: jumlah peristiwa + skor + predikat ****/}
@@ -169,17 +178,18 @@ export default async function LembagaPage({
                     {termEvents.length} peristiwa
                   </span>
                   <span
-                    className="rounded-full px-2.5 py-1 text-sm font-bold tabular-nums leading-none"
+                    className="rounded-full px-2.5 py-1 text-sm font-bold tabular-nums leading-none border shadow-2xs"
                     style={{
                       background:
-                        index === null ? "#1e293b" : `${scoreColor(index / 25 - 2)}22`,
+                        index === null ? "#1e293b" : `${scoreColor(index / 25 - 2)}1f`,
+                      borderColor: index === null ? "transparent" : `${scoreColor(index / 25 - 2)}40`,
                       color: index === null ? "var(--score-zero)" : scoreTextColor(index / 25 - 2),
                     }}
                   >
-                    {summaryIndexLabel(summary)}
+                    {summaryIndexLabel(summary)}{index !== null ? "/100" : ""}
                   </span>
                   <span
-                    className="hidden sm:inline text-[10px] font-semibold whitespace-nowrap px-2 py-1 rounded-full leading-none"
+                    className="hidden sm:inline text-[10px] font-semibold whitespace-nowrap px-2.5 py-1 rounded-full leading-none"
                     style={{ color: qual.color, background: qual.bg }}
                   >
                     {qual.label}

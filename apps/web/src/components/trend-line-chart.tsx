@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { scoreColor, scoreTextColor, indexLabel } from "@/lib/view";
+import { scoreColor, scoreTextColor, indexLabel, scoreQualLabel } from "@/lib/view";
 
 export interface TrendPoint {
   id: string;
@@ -100,9 +100,9 @@ export function TrendLineChart({ points, activeSeries }: TrendLineChartProps) {
                   x={padLeft - 8}
                   y={y + 4}
                   textAnchor="end"
-                  className="text-[10px] font-mono fill-[var(--muted)]"
+                  className={`text-[10px] font-mono ${isMid ? "fill-[var(--text)] font-bold" : "fill-[var(--muted)]"}`}
                 >
-                  {v}
+                  {isMid ? "50 (Netral)" : v}
                 </text>
               </g>
             );
@@ -261,6 +261,11 @@ export function TrendLineChart({ points, activeSeries }: TrendLineChartProps) {
                 >
                   {indexLabel(hoveredPoint.composite)}/100
                 </div>
+                {hoveredPoint.composite !== null && (
+                  <div className="text-[9px] font-semibold truncate" style={{ color: scoreQualLabel(hoveredPoint.composite).color }}>
+                    {scoreQualLabel(hoveredPoint.composite).label}
+                  </div>
+                )}
               </div>
 
               <div className="rounded-lg bg-[var(--bg)] p-2 border border-[var(--line)]">

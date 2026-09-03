@@ -19,9 +19,11 @@ import { RadarChart } from "@/components/radar-chart";
 import { ExternalIndicesWidget } from "@/components/external-indices-widget";
 import { TermActions } from "@/components/term-actions";
 import { InstitutionLogo } from "@/components/institution-logo";
+import { ScoreGauge, DimensionScoreBadge } from "@/components/score-gauge";
+import { ScaleLegend } from "@/components/scale-legend";
 import {
   groupName,
-  indexLabel, summaryIndexLabel, summaryIndexNote, summaryExcludedGroupsNote, summaryQualLabel, dimensionName,
+  indexLabel, summaryIndexLabel, summaryIndexNote, summaryExcludedGroupsNote, summaryQualLabel, scoreQualLabel, dimensionName,
   periodLabel,
   scoreColor,
   scoreTextColor,
@@ -191,51 +193,55 @@ export default async function TermPage({
         </div>
       )}
 
-      <div className="mt-5 rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 flex flex-wrap items-center gap-6">
-        <div>
-          <div className="text-xs uppercase tracking-wide text-[var(--muted)]">Indeks draf</div>
-          <div
-            className="text-4xl font-bold tabular-nums"
-            style={{ color: summaryQualLabel(summary).color }}
-          >
-            {summaryIndexLabel(summary)}
+      {/* Score Gauge Visual Diverging Spectrum (0–100 dengan Titik Netral 50) */}
+      <div className="mt-6 space-y-3">
+        <ScoreGauge
+          score={summary?.index ?? null}
+          interval={summary?.index_interval ?? null}
+          confidence={summary?.mean_confidence}
+          qual={summaryQualLabel(summary)}
+          isCapped={summary?.index_capped}
+          uncappedScore={summary?.index_uncapped}
+        />
+
+        {/* Metadata Metodologis & Cakupan */}
+        <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3 text-xs text-[var(--muted)]">
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+            <span>
+              Cakupan dimensi:{" "}
+              <strong className="text-[var(--text)]">
+                {Math.round((summary?.coverage ?? 0) * 100)}%
+              </strong>{" "}
+              ({summary?.scored_dimensions ?? 0}/{summary?.total_dimensions ?? 12} dimensi)
+            </span>
+            <span>·</span>
+            <span>
+              Dasar telaah:{" "}
+              <strong className="text-[var(--text)] font-mono">{summary?.basis ?? "draft-preview"}</strong>
+            </span>
+            <span>·</span>
+            <span>
+              Versi rubrik: <strong className="text-[var(--text)] font-mono">v{summary?.rubric_version ?? "1.0"}</strong>
+            </span>
           </div>
-          {summary?.index_interval && (
-            <div className="mt-1 text-[11px] tabular-nums text-[var(--muted)]">
-              rentang {summary.index_interval.low}–{summary.index_interval.high}
-              <span className="ml-1.5">(keyakinan {Math.round(summary.mean_confidence * 100)}%)</span>
+
+          {(summary?.excluded_no_evidence ?? 0) > 0 && (
+            <div className="rounded bg-[var(--bg)] px-2 py-1 text-[11px] text-amber-500 font-medium border border-amber-500/20">
+              {summary!.excluded_no_evidence} dimensi belum berbukti (tidak menghukum)
             </div>
           )}
         </div>
-        <div className="text-[11px] text-[var(--muted)]">
-          skala 0–100 · 50 = netral
-          <br />
-          {summaryQualLabel(summary).label}
-        </div>
+
         {summaryIndexNote(summary) && (
-          <p className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2 text-[11px] leading-relaxed text-[var(--muted)]">
+          <p className="rounded-xl border border-[var(--line)] bg-[var(--bg)] px-4 py-3 text-xs leading-relaxed text-[var(--muted)]">
             {summaryIndexNote(summary)}
           </p>
         )}
         {summaryExcludedGroupsNote(summary) && (
-          <p className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-2 text-[11px] leading-relaxed text-[var(--muted)]">
+          <p className="rounded-xl border border-[var(--line)] bg-[var(--bg)] px-4 py-3 text-xs leading-relaxed text-[var(--muted)]">
             {summaryExcludedGroupsNote(summary)}
           </p>
         )}
-        <div className="text-xs text-[var(--muted)] leading-relaxed">
-          cakupan {Math.round((summary?.coverage ?? 0) * 100)}% dari{" "}
-          {summary?.total_dimensions ?? 0} dimensi rubrik v{summary?.rubric_version ?? "?"}
-          <br />
-          {assessments.length} penilaian · dasar: <em>{summary?.basis ?? "-"}</em>
-          <br />
-          mesin skor v{summary?.method_version ?? "?"}
-          {(summary?.excluded_no_evidence ?? 0) > 0 && (
-            <>
-              <br />
-              {summary!.excluded_no_evidence} skor dikeluarkan karena belum berbukti empiris
-            </>
-          )}
-        </div>
       </div>
 
 
@@ -399,11 +405,24 @@ export default async function TermPage({
                 </div>
                 <div className="text-right sm:text-right">
                   <div className="text-xs text-[var(--muted)] uppercase font-semibold">Skor Sub-Pilar</div>
-                  <div
-                    className="text-2xl font-extrabold tabular-nums"
-                    style={{ color: gCover > 0 ? scoreTextColor(gScore) : "var(--score-zero)" }}
-                  >
-                    {gCover > 0 ? `${Math.round(((gScore + 2) / 4) * 100)}/100` : "Belum dinilai"}
+                  <div className="flex items-center gap-2 justify-end mt-1">
+                    <span
+                      className="text-2xl font-extrabold tabular-nums"
+                      style={{ color: gCover > 0 ? scoreTextColor(gScore) : "var(--score-zero)" }}
+                    >
+                      {gCover > 0 ? `${Math.round(((gScore + 2) / 4) * 100)}/100` : "Belum dinilai"}
+                    </span>
+                    {gCover > 0 && (
+                      <span
+                        className="rounded-full px-2 py-0.5 text-[10px] font-bold"
+                        style={{
+                          background: scoreQualLabel(((gScore + 2) / 4) * 100).bg,
+                          color: scoreQualLabel(((gScore + 2) / 4) * 100).color,
+                        }}
+                      >
+                        {scoreQualLabel(((gScore + 2) / 4) * 100).label}
+                      </span>
+                    )}
                   </div>
                   <div className="text-[10px] text-[var(--muted)]">cakupan {Math.round(gCover * 100)}%</div>
                 </div>
@@ -433,13 +452,7 @@ export default async function TermPage({
                       className="group rounded-xl border border-[var(--line)] bg-[var(--bg)] px-4 py-3.5 hover:border-slate-400 transition"
                     >
                       <summary className="flex flex-wrap items-center gap-3 cursor-pointer list-none">
-                        <span
-                          className="rounded-md px-2 py-0.5 text-xs font-bold w-11 text-center tabular-nums"
-                          title={`skala rubrik: ${avg > 0 ? "+" : ""}${avg.toFixed(1)} dari -2..+2`}
-                          style={{ background: `${scoreColor(avg)}22`, color: scoreTextColor(avg) }}
-                        >
-                          {Math.round(((avg + 2) / 4) * 100)}
-                        </span>
+                        <DimensionScoreBadge score={avg} />
                         <span className="font-bold grow text-sm sm:text-base">{dim.name_id}</span>
                         <div className="flex items-center gap-2">
                           {totalEvidence > 0 && (

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { dataset, getEventsOfTerm, termYearRange } from "@pancasila-index/data";
 import { termSummary } from "@/lib/view";
 import { TrendLineChart, TrendPoint } from "@/components/trend-line-chart";
+import { ScaleLegend } from "@/components/scale-legend";
 
 export default function TrendTimelinePage() {
   const [selectedInstId, setSelectedInstId] = useState<string>("presiden-ri");
@@ -152,8 +153,13 @@ export default function TrendTimelinePage() {
         </div>
       </div>
 
+      {/* Panduan Warna Skala */}
+      <div className="mt-4">
+        <ScaleLegend compact />
+      </div>
+
       {/* Komponen Visual Grafik Tren */}
-      <div className="mt-8 rounded-3xl border border-[var(--line)] bg-gradient-to-b from-[var(--panel)] to-[var(--bg)] p-6 shadow-sm">
+      <div className="mt-6 rounded-3xl border border-[var(--line)] bg-gradient-to-b from-[var(--panel)] to-[var(--bg)] p-6 shadow-sm">
         <div className="flex items-center justify-between border-b border-[var(--line)] pb-4 mb-4">
           <div>
             <h2 className="text-lg font-bold">{selectedInst.name_id}</h2>
