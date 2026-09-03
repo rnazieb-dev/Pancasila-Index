@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { ExternalIndex, Term } from "@pancasila-index/core";
+import { IconGlobe, IconBarChart, IconInfo, IconPin, IconExternalLink } from "./icons";
 
 interface Props {
   term: Term;
@@ -132,7 +133,7 @@ export function ExternalIndicesWidget({
     return (
       <section className="mt-12 rounded-2xl border border-dashed border-[var(--line)] bg-[var(--panel)]/40 p-6 space-y-2">
         <div className="flex items-center gap-2">
-          <span className="text-base">🌐</span>
+          <IconGlobe size={16} className="text-[var(--muted)]" />
           <span className="text-xs font-bold uppercase tracking-wider text-[var(--muted)]">
             Konteks Indeks Eksternal ({startYear}–{term.end_date ? endYear : "kini"})
           </span>
@@ -176,7 +177,9 @@ export function ExternalIndicesWidget({
       <div className="border-b border-[var(--line)] pb-5">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-2">
-            <span className="text-lg">🌐</span>
+            <span className="p-1 rounded-md bg-[var(--acc-sky)]/10 text-[var(--acc-sky)]">
+              <IconGlobe size={16} />
+            </span>
             <span className="text-xs uppercase tracking-wider text-[var(--acc-sky)] font-bold">
               Validasi Silang Independen Global
             </span>
@@ -197,7 +200,7 @@ export function ExternalIndicesWidget({
         {/* Catatan Khusus Masa Transisi Singkat */}
         {isShortTransition && (
           <div className="mt-4 flex items-start gap-2.5 rounded-xl bg-[var(--bg)] border border-[var(--line)] p-3.5 text-xs text-[var(--muted)] leading-relaxed">
-            <span className="text-amber-400 font-bold text-base shrink-0">ℹ️</span>
+            <IconInfo size={18} className="text-amber-500 shrink-0 mt-0.5" />
             <span>
               <strong>Catatan Masa Transisi Kepemimpinan:</strong> Indeks internasional dirilis tahunan (Januari–Desember). Untuk masa jabatan transisi ({term.label_id}), angka kalender tahun {startYear} dan {endYear} merefleksikan peristiwa transisi kepemimpinan nasional secara gabungan.
             </span>
@@ -210,7 +213,9 @@ export function ExternalIndicesWidget({
         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[var(--line)]/60 pb-3">
           <div>
             <h3 className="font-bold text-sm text-[var(--text)] flex items-center gap-2">
-              <span>📊</span>
+              <span className="p-1 rounded-md bg-[var(--acc-sky)]/10 text-[var(--acc-sky)]">
+                <IconBarChart size={15} />
+              </span>
               <span>Ikhtisar Komparatif Terstandardisasi (Skala Setara 0–100%)</span>
             </h3>
             <p className="text-[11px] text-[var(--muted)] mt-0.5">
@@ -398,8 +403,9 @@ export function ExternalIndicesWidget({
 
                             {/* Catatan Kontekstual Era Ini */}
                             {p.note && (
-                              <p className="text-[11px] text-[var(--muted)] leading-relaxed pt-0.5">
-                                📌 {p.note}
+                              <p className="text-[11px] text-[var(--muted)] leading-relaxed pt-0.5 flex items-start gap-1">
+                                <IconPin size={11} className="shrink-0 mt-0.5 text-[var(--muted)]" />
+                                <span>{p.note}</span>
                               </p>
                             )}
 
@@ -410,9 +416,10 @@ export function ExternalIndicesWidget({
                                   href={prov.url}
                                   target="_blank"
                                   rel="noreferrer"
-                                  className="text-[var(--acc-sky)] hover:underline truncate max-w-[140px]"
+                                  className="inline-flex items-center gap-1 text-[var(--acc-sky)] hover:underline truncate max-w-[140px]"
                                 >
-                                  Arsip Laporan ↗
+                                  <span>Arsip Laporan</span>
+                                  <IconExternalLink size={10} className="shrink-0" />
                                 </a>
                               </div>
                             )}

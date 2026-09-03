@@ -23,6 +23,7 @@ import { ScoreGauge, DimensionScoreBadge } from "@/components/score-gauge";
 import { ScaleLegend } from "@/components/scale-legend";
 import { DimensionMilestones } from "@/components/dimension-milestones";
 import { AiTransparencyBadge } from "@/components/ai-transparency-badge";
+import { IconFileText, IconTimeline, IconExternalLink, IconArchive } from "@/components/icons";
 import type { EventRecord } from "@pancasila-index/core";
 import {
   groupName,
@@ -424,13 +425,15 @@ export default async function TermPage({
                         <span className="font-bold grow text-sm sm:text-base">{dim.name_id}</span>
                         <div className="flex items-center gap-2">
                           {totalEvidence > 0 && (
-                            <span className="rounded-full bg-[var(--panel)] border border-[var(--line)] px-2 py-0.5 text-[10px] sm:text-[11px] text-[var(--acc-sky)] font-medium">
-                              📄 {totalEvidence} bukti
+                            <span className="inline-flex items-center gap-1 rounded-full bg-[var(--panel)] border border-[var(--line)] px-2 py-0.5 text-[10px] sm:text-[11px] text-[var(--acc-sky)] font-medium">
+                              <IconFileText size={11} className="shrink-0" />
+                              <span>{totalEvidence} bukti</span>
                             </span>
                           )}
                           {totalEvents > 0 && (
-                            <span className="hidden sm:inline-block rounded-full bg-[var(--panel)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-[var(--muted)]">
-                              ⚡ {totalEvents} peristiwa
+                            <span className="hidden sm:inline-flex items-center gap-1 rounded-full bg-[var(--panel)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-[var(--muted)]">
+                              <IconTimeline size={11} className="shrink-0" />
+                              <span>{totalEvents} peristiwa</span>
                             </span>
                           )}
                           <span className="text-xs text-[var(--muted)] font-mono">
@@ -497,19 +500,21 @@ export default async function TermPage({
                                     return (
                                       <li key={ev.source_id} className="text-xs leading-relaxed">
                                         {href ? (
-                                          <>
-                                            📄{" "}
-                                            <a
-                                              href={href}
-                                              target="_blank"
-                                              rel="noopener noreferrer"
-                                              className="text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)] underline decoration-dotted underline-offset-2"
-                                            >
-                                              {src?.title_id ?? ev.source_id} ↗
-                                            </a>
-                                          </>
+                                          <a
+                                            href={href}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="inline-flex items-center gap-1 text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)] underline decoration-dotted underline-offset-2"
+                                          >
+                                            <IconFileText size={11} className="shrink-0" />
+                                            <span>{src?.title_id ?? ev.source_id}</span>
+                                            <IconExternalLink size={10} className="shrink-0 ml-0.5" />
+                                          </a>
                                         ) : (
-                                          <span className="text-[var(--muted)]">• {sourceTitle(ev.source_id)}</span>
+                                          <span className="inline-flex items-center gap-1 text-[var(--muted)]">
+                                            <IconFileText size={11} className="shrink-0" />
+                                            <span>{src?.title_id ?? ev.source_id}</span>
+                                          </span>
                                         )}
                                         {ev.note_id ? <span className="text-[var(--muted)]"> — {ev.note_id}</span> : null}
                                       </li>
@@ -708,16 +713,19 @@ export default async function TermPage({
                           target="_blank"
                           rel="noopener noreferrer"
                           title={src?.title_id ?? sid}
-                          className="max-w-xs truncate rounded border border-[var(--line)] bg-[var(--bg)] px-2 py-0.5 text-[11px] text-[var(--acc-sky)] hover:border-sky-700 hover:text-[var(--acc-sky-strong)]"
+                          className="inline-flex items-center gap-1 max-w-xs truncate rounded border border-[var(--line)] bg-[var(--bg)] px-2 py-0.5 text-[11px] text-[var(--acc-sky)] hover:border-sky-700 hover:text-[var(--acc-sky-strong)]"
                         >
-                          &#128196; {src?.title_id ?? sid} &uarr;
+                          <IconFileText size={11} className="shrink-0" />
+                          <span className="truncate">{src?.title_id ?? sid}</span>
+                          <IconExternalLink size={10} className="shrink-0 ml-0.5" />
                         </a>
                       ) : (
                         <span
                           key={sid}
-                          className="max-w-xs truncate rounded border border-[var(--line)] bg-[var(--bg)] px-2 py-0.5 text-[11px] text-[var(--muted)]"
+                          className="inline-flex items-center gap-1 max-w-xs truncate rounded border border-[var(--line)] bg-[var(--bg)] px-2 py-0.5 text-[11px] text-[var(--muted)]"
                         >
-                          &#128196; {sourceTitle(sid)}
+                          <IconFileText size={11} className="shrink-0" />
+                          <span className="truncate">{sourceTitle(sid)}</span>
                         </span>
                       );
                     })}
@@ -735,7 +743,9 @@ export default async function TermPage({
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-[var(--line)] pb-4">
             <div>
               <h3 className="font-bold text-lg text-[var(--text)] flex items-center gap-2">
-                <span>🗄️</span>
+                <span className="p-1 rounded-md bg-emerald-500/10 text-emerald-500">
+                  <IconArchive size={18} />
+                </span>
                 <span>Audit Data Terbuka Pemerintah Terverifikasi ({publishedCkanAudits.length})</span>
               </h3>
               <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">

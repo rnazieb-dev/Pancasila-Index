@@ -6,6 +6,13 @@ import { dataset, getEventsOfTerm, termYearRange } from "@pancasila-index/data";
 import { termSummary } from "@/lib/view";
 import { TrendLineChart, TrendPoint } from "@/components/trend-line-chart";
 import { ScaleLegend } from "@/components/scale-legend";
+import {
+  IconTimeline,
+  IconCompare,
+  IconScale,
+  IconInstitution,
+  IconAuditLog,
+} from "@/components/icons";
 
 export default function TrendTimelinePage() {
   const [selectedInstId, setSelectedInstId] = useState<string>("presiden-ri");
@@ -69,15 +76,17 @@ export default function TrendTimelinePage() {
         <div className="flex items-center gap-2">
           <Link
             href="/timeline"
-            className="rounded-xl border border-[var(--line)] bg-[var(--panel)] px-3.5 py-2 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400 transition"
+            className="inline-flex items-center gap-1.5 rounded-xl border border-[var(--line)] bg-[var(--panel)] px-3.5 py-2 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400 transition"
           >
-            📋 Mode Linimasa
+            <IconTimeline size={14} className="shrink-0" />
+            <span>Mode Linimasa</span>
           </Link>
           <Link
             href="/bandingkan"
-            className="rounded-xl border border-[var(--line)] bg-[var(--panel)] px-3.5 py-2 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400 transition"
+            className="inline-flex items-center gap-1.5 rounded-xl border border-[var(--line)] bg-[var(--panel)] px-3.5 py-2 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400 transition"
           >
-            📊 Mode Radar
+            <IconCompare size={14} className="shrink-0" />
+            <span>Mode Radar</span>
           </Link>
         </div>
       </div>
@@ -121,14 +130,17 @@ export default function TrendTimelinePage() {
             <span>● Komposit Utama</span>
           </label>
 
-          <label className="flex items-center gap-1.5 cursor-pointer font-semibold text-[#22c55e]">
+          <label className="flex items-center gap-1.5 cursor-pointer font-semibold text-[#a3e635]">
             <input
               type="checkbox"
               checked={activeSeries.sila}
               onChange={(e) => setActiveSeries({ ...activeSeries, sila: e.target.checked })}
               className="rounded"
             />
-            <span>🦅 Lima Sila</span>
+            <span className="inline-flex items-center gap-1">
+              <IconScale size={13} className="shrink-0" />
+              <span>Lima Sila</span>
+            </span>
           </label>
 
           <label className="flex items-center gap-1.5 cursor-pointer font-semibold text-[#38bdf8]">
@@ -138,7 +150,10 @@ export default function TrendTimelinePage() {
               onChange={(e) => setActiveSeries({ ...activeSeries, pembukaan: e.target.checked })}
               className="rounded"
             />
-            <span>🏛️ Pembukaan UUD</span>
+            <span className="inline-flex items-center gap-1">
+              <IconInstitution size={13} className="shrink-0" />
+              <span>Pembukaan UUD</span>
+            </span>
           </label>
 
           <label className="flex items-center gap-1.5 cursor-pointer font-semibold text-[#f59e0b]">
@@ -148,7 +163,10 @@ export default function TrendTimelinePage() {
               onChange={(e) => setActiveSeries({ ...activeSeries, "struktur-uud": e.target.checked })}
               className="rounded"
             />
-            <span>⚖️ Norma Struktural</span>
+            <span className="inline-flex items-center gap-1">
+              <IconAuditLog size={13} className="shrink-0" />
+              <span>Norma Struktural</span>
+            </span>
           </label>
         </div>
       </div>
