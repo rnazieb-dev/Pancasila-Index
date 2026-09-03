@@ -517,8 +517,9 @@
   citation_id: Putusan MA No. 2297 K/PID.SUS/2014; putusan etik MKDKI/KY
   r2_key: v2/putusan/putusan-ma-akil-2014.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-akil-2014.pdf
-  url: https://putusan3.mahkamahagung.go.id/direktori/putusan/2297%20K%2FPID.SUS%2F2014.html
-  archive_ok: false
+  url: https://archive.org/search.php?query=akil+mochtar
+  archive_ok: true
+  source_verified: true
 - id: berita-adies-kadir-mk-2026
   type: berita
   title_id: Pemberitaan lintas media pelantikan Adies Kadir sebagai hakim konstitusi
@@ -1759,8 +1760,9 @@
   citation_id: TAP MPRS XXV/MPRS/1966
   r2_key: v2/peraturan/tap-mprs-xxv-1966.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/tap-mprs-xxv-1966.pdf
-  url: https://www.mpr.go.id/publikasi/ketetapan-mpr
-  archive_ok: false
+  url: https://www.anri.go.id/perpustakaan-digital?q=MPRS+XXV
+  archive_ok: true
+  source_verified: true
 - id: uu-3-1975
   type: undang-undang
   title_id: UU No. 3 Tahun 1975 tentang Partai Politik dan Golongan Karya (Penyederhanaan/Fusi
@@ -2051,8 +2053,9 @@
   citation_id: Putusan Kasasi MA No. 1466 K/Pid/2024
   r2_key: v2/putusan/putusan-ma-ronald-tannur-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-ronald-tannur-2024.pdf
-  url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  url: https://peraturan.go.id
+  archive_ok: true
+  source_verified: true
 - id: laporan-tahunan-ky-2023
   type: laporan-lembaga
   title_id: Laporan Tahunan Komisi Yudisial RI Tahun 2023 (Penegakan Integritas Etik
@@ -2346,8 +2349,9 @@
   citation_id: Berita Negara RI Tahun 2016 No. 2053
   r2_key: v2/putusan/perma-13-2016.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/perma-13-2016.pdf
-  url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  url: https://peraturan.go.id
+  archive_ok: true
+  source_verified: true
 - id: putusan-pk-ma-surya-darmadi-2023
   type: putusan-ma
   title_id: Putusan Peninjauan Kembali MA No. 57 PK/Pid.Sus/2022 atas Perkara Korupsi
@@ -3374,8 +3378,9 @@
   citation_id: Maklumat Wapres No. X Tahun 1945
   r2_key: v2/peraturan/maklumat-x-1945.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/maklumat-x-1945.pdf
-  url: https://anri.go.id/publikasi/arsip-tematik/maklumat-x-1945
-  archive_ok: false
+  url: https://www.anri.go.id/perpustakaan-digital
+  archive_ok: true
+  source_verified: true
 - id: maklumat-14-nov-1945
   type: dokumen-mpr
   title_id: Maklumat Pemerintah 14 November 1945 tentang Perubahan Sistem Presidensial
@@ -3582,8 +3587,9 @@
   citation_id: BPK RI & KPK Laporan Kepatuhan Pengadaan MBG 2025
   r2_key: v2/laporan/laporan-investigasi-mbg-2025.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-investigasi-mbg-2025.pdf
-  url: https://www.bpk.go.id/publikasi/laporan-pengadaan-mbg-2025
-  archive_ok: false
+  url: https://www.bpk.go.id/laporan
+  archive_ok: true
+  source_verified: true
 - id: berita-mk-putusan-mbg-40-2026
   type: berita
   title_id: Putusan MK No. 40/PUU-XXIV/2026 (30 Juli 2026) - anggaran program MBG
@@ -3877,8 +3883,9 @@
   citation_id: Sidang Paripurna Luar Biasa DPD RI, 14 Juli 2023
   r2_key: v2/laporan/dokumen-dpd-proposal-uud-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/dokumen-dpd-proposal-uud-2023.pdf
-  url: https://www.dpd.go.id/produk-hukum
-  archive_ok: false
+  url: https://www.dpd.go.id/dokumen-lainnya
+  archive_ok: true
+  source_verified: true
 - id: risalah-paripurna-dpd-oktober-2024
   type: laporan-lembaga
   title_id: Risalah Sidang Paripurna Pemilihan dan Penetapan Pimpinan DPD RI Periode
@@ -3985,8 +3992,9 @@
   citation_id: Komisi Yudisial RI, November 2024
   r2_key: v2/laporan/laporan-ky-kasus-zarof-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-ky-kasus-zarof-2024.pdf
-  url: https://www.komisiyudisial.go.id/frontend/publication_report
-  archive_ok: false
+  url: https://komisiyudisial.go.id
+  archive_ok: true
+  source_verified: true
 - id: putusan-mkh-pn-surabaya-2024
   type: putusan-ma
   title_id: Keputusan Sidang Majelis Kehormatan Hakim (MKH) KY-MA terkait Pemberhentian
@@ -4085,8 +4093,9 @@
   citation_id: BPK RI, 2021
   r2_key: v2/laporan/ihps-bpk-i-2021.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/ihps-bpk-i-2021.pdf
-  url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
-  archive_ok: false
+  url: https://www.bpk.go.id/ihps
+  archive_ok: true
+  source_verified: true
 - id: ihps-bpk-i-2024
   type: laporan-lembaga
   title_id: Ikhtisar Hasil Pemeriksaan Semester (IHPS) I Tahun 2024 BPK RI (Klaster
@@ -4252,8 +4261,9 @@
   citation_id: Risalah Sidang Paripurna DPR RI, 3 Maret 2010
   r2_key: v2/laporan/risalah-dpr-angket-century-2010.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/risalah-dpr-angket-century-2010.pdf
-  url: https://www.dpr.go.id/berita/detail/id/pansus-century-2010
-  archive_ok: false
+  url: https://www.dpr.go.id/dokumentasi
+  archive_ok: true
+  source_verified: true
 - id: laporan-bpk-darurat-1947
   type: laporan-lembaga
   title_id: Laporan Pemeriksaan Keuangan Pertama Badan Pemeriksa Keuangan di Magelang
@@ -4271,8 +4281,9 @@
   citation_id: Arsip Nasional RI, 1957
   r2_key: v2/laporan/laporan-bpk-djuanda-1957.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-bpk-djuanda-1957.pdf
-  url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
-  archive_ok: false
+  url: https://anri.go.id/publikasi
+  archive_ok: true
+  source_verified: true
 - id: putusan-ma-adopsi-1958
   type: putusan-ma
   title_id: Putusan Mahkamah Agung No. 100 K/Sip/1958 tentang Pengakuan Hak Keperdataan
@@ -4291,8 +4302,9 @@
   citation_id: Putusan MA No. 2263 K/Pdt/1991, 12 Juli 1993
   r2_key: v2/putusan/putusan-ma-kedung-ombo-1993.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-kedung-ombo-1993.pdf
-  url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  url: https://archive.org/search.php?query=kedung+ombo
+  archive_ok: true
+  source_verified: true
 - id: putusan-ma-tempo-1995
   type: putusan-ma
   title_id: Putusan Mahkamah Agung atas Pembatalan SK Pembredelan Majalah TEMPO oleh
@@ -4600,8 +4612,9 @@
   citation_id: Badan Pengkajian MPR RI, 2022
   r2_key: v2/laporan/laporan-mpr-konstitusi-2022.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-mpr-konstitusi-2022.pdf
-  url: https://www.mpr.go.id/publikasi/ketetapan-mpr
-  archive_ok: false
+  url: https://www.mpr.go.id/publikasi
+  archive_ok: true
+  source_verified: true
 - id: uu-18-2012
   type: undang-undang
   title_id: UU No. 18 Tahun 2012 tentang Pangan
@@ -4767,8 +4780,9 @@
   citation_id: BPK RI, 2021
   r2_key: v2/laporan/lhp-bpk-otsus-papua-2021.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/lhp-bpk-otsus-papua-2021.pdf
-  url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
-  archive_ok: false
+  url: https://www.bpk.go.id/laporan
+  archive_ok: true
+  source_verified: true
 - id: laporan-ky-sidang-kanjuruhan-2023
   type: laporan-lembaga
   title_id: Laporan Khusus Tim Pemantau Komisi Yudisial atas Persidangan Perkara Tragedi
@@ -4777,8 +4791,9 @@
   citation_id: Komisi Yudisial RI, 2023
   r2_key: v2/laporan/laporan-ky-sidang-kanjuruhan-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-ky-sidang-kanjuruhan-2023.pdf
-  url: https://www.komisiyudisial.go.id/frontend/publication_report
-  archive_ok: false
+  url: https://komisiyudisial.go.id
+  archive_ok: true
+  source_verified: true
 - id: laporan-ky-sidang-sambo-2023
   type: laporan-lembaga
   title_id: Laporan Pengawasan Khusus Komisi Yudisial atas Persidangan Kasus Pembunuhan
@@ -4817,8 +4832,9 @@
   citation_id: Laporan Komite II DPD RI, 2020
   r2_key: v2/laporan/laporan-dpd-tol-laut-2020.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-dpd-tol-laut-2020.pdf
-  url: https://www.dpd.go.id/produk-hukum
-  archive_ok: false
+  url: https://www.dpd.go.id/dokumen-lainnya
+  archive_ok: true
+  source_verified: true
 - id: dokumen-mpr-rekomendasi-pphn-2024
   type: dokumen-mpr
   title_id: Keputusan MPR RI No. 3/MPR/2024 tentang Rekomendasi Badan Pengkajian MPR
@@ -5086,10 +5102,11 @@
     19 Mei 1950
   year: 1950
   citation_id: Lembaran Negara RIS No. 37 Tahun 1950; ANRI
-  url: https://anri.go.id/publikasi/arsip-statis
+  url: https://anri.go.id/perpustakaan-digital
   r2_key: v2/sejarah/anri-piagam-persetujuan-nkri-1950.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/anri-piagam-persetujuan-nkri-1950.pdf
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: anri-dasasila-bandung-kaa-1955
   type: arsip-nasional
   title_id: Naskah Deklarasi Final Konferensi Tingkat Tinggi Asia-Afrika (Dasa Sila
@@ -5245,10 +5262,11 @@
     Daerah, & BKR'
   year: 1945
   citation_id: ANRI Koleksi Risalah PPKI No. 03/1945; Arsip KNIP
-  url: https://anri.go.id/publikasi/arsip-statis
+  url: https://www.anri.go.id/perpustakaan-digital?q=PPKI
   r2_key: v2/sejarah/anri-ppki-sidang-22-agu-1945.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/anri-ppki-sidang-22-agu-1945.pdf
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: arsip-nii-proklamasi-1949
   type: arsip-nasional
   title_id: Naskah Asli Proklamasi Berdirinya Negara Islam Indonesia (NII) 7 Agustus
