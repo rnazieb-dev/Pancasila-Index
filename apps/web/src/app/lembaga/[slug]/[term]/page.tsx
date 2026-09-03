@@ -21,6 +21,9 @@ import { TermActions } from "@/components/term-actions";
 import { InstitutionLogo } from "@/components/institution-logo";
 import { ScoreGauge, DimensionScoreBadge } from "@/components/score-gauge";
 import { ScaleLegend } from "@/components/scale-legend";
+import { DimensionMilestones } from "@/components/dimension-milestones";
+import { AiTransparencyBadge } from "@/components/ai-transparency-badge";
+import type { EventRecord } from "@pancasila-index/core";
 import {
   groupName,
   indexLabel, summaryIndexLabel, summaryIndexNote, summaryExcludedGroupsNote, summaryQualLabel, scoreQualLabel, dimensionName,
@@ -37,6 +40,31 @@ export function generateStaticParams() {
     const inst = dataset.institutions.find((i) => i.id === t.institution_id);
     return inst ? [{ slug: inst.slug, term: t.id }] : [];
   });
+}
+
+function getDimensionEvents(
+  termId: string,
+  dimensionId: string,
+  explicitEventIds: string[] | undefined,
+  allEvents: EventRecord[]
+): EventRecord[] {
+  const eventMap = new Map<string, EventRecord>();
+  if (explicitEventIds) {
+    for (const id of explicitEventIds) {
+      const ev = allEvents.find((item) => item.id === id);
+      if (ev) eventMap.set(ev.id, ev);
+    }
+  }
+  for (const ev of allEvents) {
+    if (
+      (ev.term_id === termId || ev.subject_term_id === termId) &&
+      ev.dimension_ids &&
+      ev.dimension_ids.includes(dimensionId)
+    ) {
+      eventMap.set(ev.id, ev);
+    }
+  }
+  return Array.from(eventMap.values()).sort((a, b) => a.date.localeCompare(b.date));
 }
 
 export default async function TermPage({
@@ -81,6 +109,7 @@ export default async function TermPage({
     endYear
   );
   const assessments = getAssessmentsOfTerm(dataset, term.id);
+  const assessment = assessments[0];
   const events = getEventsOfTerm(dataset, term.id);
   // Peristiwa yang menjadikan periode ini subjek pemeriksaan meski dicatat di
   // lembaga lain - tanpa ini, audit BPK atau putusan MA atas perkara pejabat
@@ -225,11 +254,18 @@ export default async function TermPage({
             </span>
           </div>
 
-          {(summary?.excluded_no_evidence ?? 0) > 0 && (
-            <div className="rounded bg-[var(--bg)] px-2 py-1 text-[11px] text-amber-500 font-medium border border-amber-500/20">
-              {summary!.excluded_no_evidence} dimensi belum berbukti (tidak menghukum)
-            </div>
-          )}
+          <div className="flex flex-wrap items-center gap-2">
+            <AiTransparencyBadge
+              disclosure={assessment?.ai_disclosure}
+              reviewers={assessment?.reviewers}
+            />
+
+            {(summary?.excluded_no_evidence ?? 0) > 0 && (
+              <div className="rounded bg-[var(--bg)] px-2 py-1 text-[11px] text-amber-500 font-medium border border-amber-500/20">
+                {summary!.excluded_no_evidence} dimensi belum berbukti (tidak menghukum)
+              </div>
+            )}
+          </div>
         </div>
 
         {summaryIndexNote(summary) && (
@@ -434,9 +470,21 @@ export default async function TermPage({
                                 </span>
                               </div>
                             )}
-                            <p className="text-sm">{e.ds.rationale_id.trim()}</p>
+                            <div className="flex flex-wrap items-center justify-between gap-2 pt-1">
+                              <div className="text-xs uppercase tracking-wide text-[var(--muted)] font-semibold">
+                                Pertimbangan &amp; Analisis Ilmiah
+                              </div>
+                              <AiTransparencyBadge
+                                disclosure={e.ds.ai_disclosure || assessment?.ai_disclosure}
+                                reviewers={assessment?.reviewers}
+                                compact
+                              />
+                            </div>
+                            <p className="text-sm leading-relaxed text-[var(--text)] bg-[var(--bg)]/50 p-3 rounded-lg border border-[var(--line)]">
+                              {e.ds.rationale_id.trim()}
+                            </p>
                             <div>
-                              <div className="text-xs uppercase tracking-wide text-[var(--muted)] mt-2">Bukti empiris</div>
+                              <div className="text-xs uppercase tracking-wide text-[var(--muted)] mt-2 font-semibold">Bukti empiris</div>
                               {e.ds.evidence_gap === true || e.ds.evidence.length === 0 ? (
                                 <p className="mt-1 text-xs text-[var(--acc-amber)]">
                                   Belum berbukti empiris — skor ini <strong>dikeluarkan</strong> dari indeks.
@@ -495,14 +543,15 @@ export default async function TermPage({
                                 </div>
                               )}
                             </div>
-                            {e.ds.event_ids && e.ds.event_ids.length > 0 && (
-                              <div className="text-xs text-[var(--muted)]">
-                                Peristiwa terkait:{" "}
-                                {e.ds.event_ids
-                                  .map((id) => dataset.events.find((ev) => ev.id === id)?.title_id ?? id)
-                                  .join(" · ")}
-                              </div>
-                            )}
+
+                            {/* Linimasa Trajektori Ilmiah Multi-Peristiwa */}
+                            <DimensionMilestones
+                              dimensionId={dim.id}
+                              dimensionName={dim.name_id}
+                              events={getDimensionEvents(term.id, dim.id, e.ds.event_ids, dataset.events)}
+                              sources={dataset.sources}
+                              actorsById={actorsById}
+                            />
                           </div>
                         ))}
                       </div>

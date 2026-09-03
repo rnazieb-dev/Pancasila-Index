@@ -14,6 +14,7 @@
     - tap-mpr-xvii-1998
   dimension_ids:
     - sila-2
+    - negara-hukum
 - id: ev-habibie-kemerdekaan-sipil
   term_id: presiden-habibie
   date: 1998-10
@@ -28,6 +29,7 @@
     - uu-9-1998
   dimension_ids:
     - sila-4
+    - negara-hukum
 - id: ev-habibie-referendum-timtim
   term_id: presiden-habibie
   date: 1999-05
@@ -44,6 +46,7 @@
   dimension_ids:
     - sila-3
     - tujuan-4
+    - kedaulatan-rakyat
 - id: ev-habibie-pemilu-1999
   term_id: presiden-habibie
   date: 1999-06
@@ -75,6 +78,7 @@
     - uu-25-1999
   dimension_ids:
     - sila-3
+    - tujuan-3
 - id: ev-habibie-uu-pers-ham
   term_id: presiden-habibie
   date: 1999-09
@@ -91,6 +95,7 @@
   dimension_ids:
     - sila-4
     - sila-2
+    - tujuan-3
 - id: ev-gusdur-depen
   term_id: presiden-gusdur
   date: 1999-10
@@ -105,6 +110,7 @@
     - keppres-125-1999
   dimension_ids:
     - sila-4
+    - negara-hukum
 - id: ev-gusdur-imlek
   term_id: presiden-gusdur
   date: 2000-01
@@ -120,6 +126,8 @@
   dimension_ids:
     - sila-1
     - sila-3
+    - tujuan-3
+    - negara-hukum
 - id: ev-gusdur-ssm
   term_id: presiden-gusdur
   date: 2001-07
@@ -134,6 +142,8 @@
     - tap-mpr-iii-2001
   dimension_ids:
     - checks-balances
+    - sila-4
+    - kedaulatan-rakyat
 - id: ev-megawati-pengadilan-timtim
   term_id: presiden-megawati
   date: 2001-12
@@ -149,6 +159,7 @@
     - keppres-53-2001
   dimension_ids:
     - sila-2
+    - tujuan-4
 - id: ev-megawati-kpk
   term_id: presiden-megawati
   date: 2002-12
@@ -241,6 +252,8 @@
     - uu-11-2006
   dimension_ids:
     - sila-3
+    - sila-4
+    - kedaulatan-rakyat
 - id: ev-sby1-ite
   term_id: presiden-sby-i
   date: 2008-03
@@ -256,6 +269,7 @@
     - uu-11-2008
   dimension_ids:
     - sila-4
+    - kedaulatan-rakyat
 - id: ev-sby1-antirasial
   term_id: presiden-sby-i
   date: 2008-10
@@ -287,6 +301,7 @@
     - laporan-bpk-century
   dimension_ids:
     - negara-hukum
+    - sila-4
 - id: ev-sby2-tppu
   term_id: presiden-sby-ii
   date: 2010-10
@@ -318,6 +333,7 @@
   dimension_ids:
     - sila-5
     - tujuan-2
+    - tujuan-1
 - id: ev-sby2-moratorium-hutan
   term_id: presiden-sby-ii
   date: 2011-05
@@ -333,6 +349,7 @@
     - inpres-10-2011
   dimension_ids:
     - tujuan-4
+    - tujuan-3
 - id: ev-sby2-md3
   term_id: presiden-sby-ii
   date: 2014-04
@@ -576,6 +593,7 @@
   dimension_ids:
     - negara-hukum
     - checks-balances
+    - sila-3
 - id: ev-prabowo-agustus-2025
   term_id: presiden-prabowo
   date: 2025-08
@@ -612,6 +630,7 @@
     - checks-balances
     - kedaulatan-rakyat
     - sila-4
+    - sila-3
 - id: ev-dpr99-kpk
   term_id: dpr-1999-2004
   date: 2002-12
@@ -672,6 +691,7 @@
     - uu-22-2007
   dimension_ids:
     - sila-4
+    - sila-1
 - id: ev-dpr04-tipikor
   term_id: dpr-2004-2009
   date: 2009-09
@@ -717,6 +737,8 @@
   dimension_ids:
     - sila-5
     - tujuan-2
+    - sila-2
+    - sila-4
 - id: ev-dpr09-pp3
   term_id: dpr-2009-2014
   date: 2011-08
@@ -732,6 +754,7 @@
     - uu-12-2011
   dimension_ids:
     - negara-hukum
+    - sila-4
 - id: ev-dpr09-md3
   term_id: dpr-2009-2014
   date: 2014-04
@@ -797,6 +820,7 @@
   dimension_ids:
     - negara-hukum
     - checks-balances
+    - tujuan-3
 - id: ev-dpr19-ciptaker-legislasi
   term_id: dpr-2019-2024
   date: 2020-02
@@ -890,6 +914,7 @@
     - putusan-mk-60-puu-xxii-2024
   dimension_ids:
     - checks-balances
+    - negara-hukum
 - id: ev-dpr24-revisi-md3
   term_id: dpr-2024-2029
   date: 2025-03
@@ -906,6 +931,7 @@
   dimension_ids:
     - kedaulatan-rakyat
     - checks-balances
+    - negara-hukum
 - id: ev-dpr24-protes-tunjangan
   term_id: dpr-2024-2029
   date: 2025-08
@@ -954,6 +980,7 @@
     - putusan-mk-46-puu-viii-2010
   dimension_ids:
     - sila-2
+    - sila-1
 - id: ev-mk2-akil-mochtar
   term_id: mk-2008-2013
   date: 2013-10
@@ -969,6 +996,9 @@
     - putusan-ma-akil-2014
   dimension_ids:
     - negara-hukum
+    - sila-1
+    - sila-4
+    - tujuan-1
   actor_ids:
     - akil-mochtar
 - id: ev-mk3-pilkada-independen
@@ -986,6 +1016,7 @@
   dimension_ids:
     - sila-4
     - kedaulatan-rakyat
+    - tujuan-3
 - id: ev-mk4-ciptaker-91
   term_id: mk-2018-2023
   date: 2021-11
@@ -1051,6 +1082,8 @@
     - putusan-mk-60-puu-xxii-2024
   dimension_ids:
     - kedaulatan-rakyat
+    - sila-3
+    - tujuan-1
 - id: ev-mk5-lantikan-adies-kadir
   term_id: mk-2023-sekarang
   date: 2026-02
@@ -1131,6 +1164,7 @@
   dimension_ids:
     - negara-hukum
     - checks-balances
+    - tujuan-3
 - id: ev-soekarno1-pemilu-1955
   term_id: presiden-soekarno-i
   date: 1955-09
@@ -1196,6 +1230,7 @@
   dimension_ids:
     - tujuan-1
     - sila-3
+    - tujuan-3
 - id: ev-soekarno2-konfrontasi
   term_id: presiden-soekarno-ii
   date: 1963-09
@@ -1244,6 +1279,7 @@
     - supersemar-1966
   dimension_ids:
     - checks-balances
+    - tujuan-3
 - id: ev-soeharto-tap-iii-1967
   term_id: presiden-soeharto
   date: 1967-03
@@ -1273,6 +1309,7 @@
   dimension_ids:
     - sila-1
     - sila-3
+    - tujuan-3
 - id: ev-soeharto-fusi-partai
   term_id: presiden-soeharto
   date: 1973-01
@@ -1320,6 +1357,7 @@
   dimension_ids:
     - sila-2
     - tujuan-4
+    - tujuan-3
 - id: ev-soeharto-asas-tunggal
   term_id: presiden-soeharto
   date: 1985-08
@@ -1420,6 +1458,8 @@
   dimension_ids:
     - negara-hukum
     - checks-balances
+    - sila-4
+    - tujuan-3
 - id: ev-ma-otonomi-penuh
   term_id: ma-reformasi-sekarang
   date: 2004-03
@@ -1435,6 +1475,7 @@
   dimension_ids:
     - checks-balances
     - negara-hukum
+    - sila-4
 - id: ev-ma-suap-hakim-modern
   term_id: ma-reformasi-sekarang
   date: 2017-09
@@ -1450,6 +1491,7 @@
     - laporan-ky-tahunan
   dimension_ids:
     - negara-hukum
+    - sila-4
 - id: ev-prabowo-bop
   term_id: presiden-prabowo
   date: 2026-01
@@ -1472,6 +1514,7 @@
     - kritik-bop-pakar-2026
   dimension_ids:
     - tujuan-4
+    - sila-3
 - id: ev-soekarno1-serangan-umum
   term_id: presiden-soekarno-i
   date: 1949-03
@@ -1628,6 +1671,7 @@
     - uu-21-2001
   dimension_ids:
     - sila-3
+    - tujuan-3
 - id: ev-megawati-munir
   term_id: presiden-megawati
   date: 2004-09
@@ -1661,6 +1705,7 @@
   dimension_ids:
     - negara-hukum
     - checks-balances
+    - sila-4
   actor_ids:
     - bibit-samad-rianto
     - chandra-m-hamzah
@@ -1681,6 +1726,8 @@
     - berita-ahok-blasfemi-2017
   dimension_ids:
     - sila-1
+    - tujuan-1
+    - kedaulatan-rakyat
 - id: ev-jokowi1-ektp-setnov
   term_id: presiden-jokowi-i
   date: 2018-04
@@ -1717,6 +1764,7 @@
   dimension_ids:
     - negara-hukum
     - sila-4
+    - sila-1
 - id: ev-jokowi2-juliari-bansos
   term_id: presiden-jokowi-ii
   date: 2020-12
@@ -1734,6 +1782,7 @@
   dimension_ids:
     - sila-5
     - negara-hukum
+    - sila-1
   actor_ids:
     - juliari-batubara
 - id: ev-jokowi2-kanjuruhan
@@ -1817,6 +1866,7 @@
     - literatur-sejarah-nasional
   dimension_ids:
     - tujuan-4
+    - tujuan-3
 - id: ev-soeharto-asean-1967
   term_id: presiden-soeharto
   date: 1967-08
@@ -1880,6 +1930,8 @@
   dimension_ids:
     - sila-2
     - negara-hukum
+    - tujuan-2
+    - tujuan-4
 - id: ev-gusdur-konflik-komunal
   term_id: presiden-gusdur
   date: 1999-01
@@ -1926,6 +1978,7 @@
     - icj-sipadan-ligitan-2002
   dimension_ids:
     - tujuan-1
+    - tujuan-4
 - id: ev-sby1-ratifisasi-icescr
   term_id: presiden-sby-i
   date: 2005-09
@@ -1973,6 +2026,7 @@
     - dana-bos-2005
   dimension_ids:
     - tujuan-3
+    - kedaulatan-rakyat
 - id: ev-sby1-penanaman-modal
   term_id: presiden-sby-i
   date: 2007-03
@@ -2146,6 +2200,7 @@
     - berita-gayus-2010
   dimension_ids:
     - negara-hukum
+    - sila-1
 - id: ev-sby2-hambalang
   term_id: presiden-sby-ii
   date: 2013-01
@@ -2257,6 +2312,7 @@
   dimension_ids:
     - checks-balances
     - kedaulatan-rakyat
+    - tujuan-3
 - id: ev-dpr99-uu-polri
   term_id: dpr-1999-2004
   date: 2002-01
@@ -2408,6 +2464,7 @@
     - uu-17-2011
   dimension_ids:
     - checks-balances
+    - sila-4
 - id: ev-uu-37-1999
   term_id: presiden-habibie
   date: 1999-09-14
@@ -2519,6 +2576,7 @@
     - negara-hukum
     - sila-5
     - checks-balances
+    - sila-2
 - id: ev-mpr-tap-xvii-1998
   term_id: mpr-1971-1999
   date: 1998-11-13
@@ -2533,6 +2591,8 @@
   dimension_ids:
     - sila-2
     - negara-hukum
+    - tujuan-1
+    - tujuan-2
   actor_ids: []
 - id: ev-mpr-amendemen-1
   term_id: mpr-1999-2004
@@ -2618,6 +2678,7 @@
   dimension_ids:
     - sila-1
     - sila-3
+    - negara-hukum
 - id: ev-mpr-kajian-pphn-2024
   term_id: mpr-2019-2024
   date: 2024-09-25
@@ -2646,6 +2707,8 @@
   dimension_ids:
     - sila-3
     - kedaulatan-rakyat
+    - sila-4
+    - negara-hukum
 - id: ev-dpd-uji-materi-mk-92-2012
   term_id: dpd-2009-2014
   date: 2013-03-27
@@ -2661,6 +2724,7 @@
     - sila-3
     - checks-balances
     - negara-hukum
+    - sila-4
 - id: ev-dpd-putusan-mk-79-2014
   term_id: dpd-2014-2019
   date: 2015-09-22
@@ -2674,6 +2738,7 @@
   dimension_ids:
     - sila-3
     - checks-balances
+    - sila-4
 - id: ev-dpd-inisiatif-kepulauan
   term_id: dpd-2019-2024
   date: 2020-02-18
@@ -2687,6 +2752,8 @@
   dimension_ids:
     - sila-5
     - sila-3
+    - sila-2
+    - negara-hukum
 - id: ev-dpd-pengawasan-desa
   term_id: dpd-2019-2024
   date: 2023-08-15
@@ -2700,6 +2767,7 @@
   dimension_ids:
     - sila-5
     - sila-3
+    - negara-hukum
 - id: ev-bpk-penetapan-1947
   term_id: bpk-1947-1998
   date: 1947-01-01
@@ -2725,6 +2793,7 @@
     - uu-5-1973
   dimension_ids:
     - checks-balances
+    - negara-hukum
 - id: ev-bpk-audit-blbi
   term_id: bpk-1998-2009
   date: 2000-08-01
@@ -2739,6 +2808,7 @@
   dimension_ids:
     - checks-balances
     - sila-5
+    - tujuan-2
 - id: ev-bpk-paket-uu-keuangan
   term_id: bpk-1998-2009
   date: 2004-07-26
@@ -2792,6 +2862,7 @@
     - checks-balances
     - sila-5
     - tujuan-2
+    - tujuan-1
 - id: ev-ky-putusan-mk-005-2006
   term_id: ky-2005-2010
   date: 2006-08-23
@@ -2820,6 +2891,7 @@
   dimension_ids:
     - negara-hukum
     - sila-2
+    - sila-1
 - id: ev-ky-uu-18-2011
   term_id: ky-2010-2015
   date: 2011-11-09
@@ -2833,6 +2905,8 @@
   dimension_ids:
     - negara-hukum
     - checks-balances
+    - sila-4
+    - tujuan-1
 - id: ev-ky-mkh-penegakan
   term_id: ky-2015-2020
   date: 2019-07-10
@@ -2900,6 +2974,8 @@
   dimension_ids:
     - negara-hukum
     - checks-balances
+    - sila-1
+    - sila-4
 - id: ev-mpr-tap-xxxiii-1967
   term_id: mprs-1959-1971
   date: 1967-03-12
@@ -2957,6 +3033,7 @@
   dimension_ids:
     - kedaulatan-rakyat
     - sila-4
+    - tujuan-3
 - id: ev-mk-putusan-70-usia-pilkada
   term_id: mk-2023-sekarang
   date: 2024-08-20
@@ -3000,6 +3077,7 @@
   dimension_ids:
     - checks-balances
     - negara-hukum
+    - sila-4
   subject_term_id: presiden-sby-i
   subject_basis_id: Objek pemeriksaan LHP adalah penetapan bank gagal berdampak
     sistemik dan pemberian FPJP Bank Century pada November 2008, yang jatuh di
@@ -3045,6 +3123,7 @@
   dimension_ids:
     - tujuan-1
     - negara-hukum
+    - tujuan-3
 - id: ev-dpr-uuds-1950
   term_id: dpr-1950-1960
   date: 1950-08-17
@@ -3058,6 +3137,7 @@
   dimension_ids:
     - tujuan-1
     - sila-3
+    - negara-hukum
 - id: ev-ma-perma-ecourt-2019
   term_id: ma-reformasi-sekarang
   date: 2019-08-19
@@ -3072,6 +3152,7 @@
   dimension_ids:
     - negara-hukum
     - tujuan-2
+    - tujuan-3
 - id: ev-bpk-ihps-2022
   term_id: bpk-2019-sekarang
   date: 2023-06-20
@@ -3087,6 +3168,7 @@
   dimension_ids:
     - checks-balances
     - negara-hukum
+    - sila-4
 - id: ev-ky-seleksi-ha-2021
   term_id: ky-2020-sekarang
   date: 2021-09-21
@@ -3100,6 +3182,8 @@
   dimension_ids:
     - checks-balances
     - negara-hukum
+    - sila-4
+    - kedaulatan-rakyat
 - id: ev-maklumat-x-multipartai-1945
   term_id: presiden-soekarno-i
   date: 1945-11-03
@@ -3129,6 +3213,7 @@
   dimension_ids:
     - checks-balances
     - tujuan-2
+    - negara-hukum
 - id: ev-kmb-pengakuan-kedaulatan-1949
   term_id: presiden-soekarno-i
   date: 1949-11-02
@@ -3173,6 +3258,7 @@
   dimension_ids:
     - sila-4
     - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-nasionalisasi-de-javasche-bank-1953
   term_id: presiden-soekarno-i
   date: 1953-07-01
@@ -3275,6 +3361,8 @@
     - sila-1
     - sila-2
     - sila-3
+    - tujuan-3
+    - kedaulatan-rakyat
 - id: ev-pembentukan-kpk-2002
   term_id: presiden-megawati
   date: 2002-12-27
@@ -3332,6 +3420,7 @@
   dimension_ids:
     - sila-5
     - tujuan-2
+    - tujuan-1
 - id: ev-pengesahan-uu-desa-2014
   term_id: presiden-sby-ii
   date: 2014-01-15
@@ -3432,6 +3521,7 @@
   dimension_ids:
     - sila-4
     - negara-hukum
+    - tujuan-1
 - id: ev-program-makan-bergizi-gratis-2024
   term_id: presiden-prabowo
   date: 2024-10-21
@@ -3504,6 +3594,7 @@
   dimension_ids:
     - sila-4
     - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-pembubaran-dpr-1955-pembentukan-dpr-gr-1960
   term_id: presiden-soekarno-ii
   date: 1960-03-05
@@ -3760,6 +3851,7 @@
   dimension_ids:
     - sila-4
     - kedaulatan-rakyat
+    - sila-3
 - id: ev-pembentukan-komisi-yudisial-2004
   term_id: ky-2005-2010
   date: 2004-08-13
@@ -3775,6 +3867,7 @@
   dimension_ids:
     - negara-hukum
     - checks-balances
+    - sila-1
 - id: ev-uu-kewarganegaraan-anti-diskriminasi-2006
   term_id: presiden-sby-i
   date: 2006-08-01
@@ -3940,6 +4033,7 @@
   dimension_ids:
     - negara-hukum
     - sila-5
+    - tujuan-1
 - id: ev-audit-bpk-mega-skandal-jiwasraya-2020
   term_id: bpk-2019-sekarang
   date: 2020-03-09
@@ -3955,6 +4049,7 @@
     - tujuan-2
     - checks-balances
     - negara-hukum
+    - sila-2
 - id: ev-pembentukan-badan-penyelenggara-haji-2024
   term_id: presiden-prabowo
   date: 2024-11-05
@@ -4031,6 +4126,7 @@
   dimension_ids:
     - negara-hukum
     - checks-balances
+    - sila-1
 - id: ev-pengawasan-integritas-kehakiman-ky-2006
   term_id: ky-2005-2010
   date: 2006-12-31
@@ -4045,6 +4141,7 @@
   dimension_ids:
     - checks-balances
     - negara-hukum
+    - sila-1
 - id: ev-audit-investigasi-bpk-bank-century-2009
   term_id: bpk-1998-2009
   date: 2009-11-23
@@ -4060,6 +4157,7 @@
   dimension_ids:
     - checks-balances
     - tujuan-2
+    - sila-4
 - id: ev-putusan-mk-pemulihan-pilkada-langsung-2014
   term_id: mk-2013-2018
   date: 2014-10-09
@@ -4088,6 +4186,7 @@
   dimension_ids:
     - sila-4
     - negara-hukum
+    - kedaulatan-rakyat
 - id: ev-vonis-suap-pesawat-garuda-emirsyah-satar-2020
   term_id: presiden-sby-ii
   date: 2020-05-08
@@ -4133,6 +4232,7 @@
   dimension_ids:
     - kedaulatan-rakyat
     - negara-hukum
+    - tujuan-3
 - id: ev-vonis-suap-pengurusan-perkara-nurhadi-2021
   term_id: ma-reformasi-sekarang
   date: 2021-03-10
@@ -4178,6 +4278,9 @@
   dimension_ids:
     - tujuan-2
     - checks-balances
+    - sila-2
+    - sila-3
+    - tujuan-1
 - id: ev-vonis-kasasi-ekspor-cpo-wisnu-wardhana-2023
   term_id: presiden-jokowi-ii
   date: 2023-05-16
@@ -4265,6 +4368,7 @@
   dimension_ids:
     - negara-hukum
     - checks-balances
+    - tujuan-3
 - id: ev-vonis-korupsi-timah-harvey-moeis-2025
   term_id: presiden-prabowo
   date: 2025-02-13
@@ -4309,6 +4413,8 @@
   dimension_ids:
     - tujuan-2
     - checks-balances
+    - sila-2
+    - tujuan-3
 - id: ev-pembentukan-bpi-danantara-investasi-2025
   term_id: presiden-prabowo
   date: 2025-01-15
@@ -4341,6 +4447,7 @@
   dimension_ids:
     - checks-balances
     - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-mandat-darurat-kawat-pdri-1948
   term_id: presiden-soekarno-i
   date: 1948-12-19
@@ -4386,6 +4493,7 @@
   dimension_ids:
     - sila-3
     - tujuan-3
+    - negara-hukum
 - id: ev-pengawasan-kedaulatan-pangan-dpd-2017
   term_id: dpd-2014-2019
   date: 2017-10-12
@@ -4400,6 +4508,7 @@
   dimension_ids:
     - tujuan-2
     - sila-5
+    - sila-4
 - id: ev-penerbitan-sema-perma-reformasi-peradilan-2017-2019
   term_id: ma-reformasi-sekarang
   date: 2019-08-19
@@ -4450,6 +4559,7 @@
   dimension_ids:
     - checks-balances
     - tujuan-2
+    - sila-4
 - id: ev-audit-bpk-laporan-keuangan-kementerian-2023-2024
   term_id: bpk-2019-sekarang
   date: 2024-07-15
@@ -4523,6 +4633,9 @@
   dimension_ids:
     - kedaulatan-rakyat
     - checks-balances
+    - sila-4
+    - negara-hukum
+    - sila-2
 - id: ev-anri-perjanjian-renville-1948
   term_id: presiden-soekarno-i
   date: 1948-01-17
@@ -4581,6 +4694,7 @@
   dimension_ids:
     - sila-3
     - kedaulatan-rakyat
+    - sila-2
 - id: ev-anri-risalah-konstituante-dasar-negara-1957-1958
   term_id: dpr-1950-1960
   date: 1957-11-12
@@ -4598,6 +4712,7 @@
     - sila-1
     - sila-2
     - kedaulatan-rakyat
+    - tujuan-2
 - id: ev-anri-uupa-reforma-agraria-1960
   term_id: presiden-soekarno-ii
   date: 1960-09-24
@@ -4640,6 +4755,7 @@
   dimension_ids:
     - checks-balances
     - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-anri-naskah-komprehensif-perubahan-uud-1999-2002
   term_id: mpr-1999-2004
   date: 2002-08-10

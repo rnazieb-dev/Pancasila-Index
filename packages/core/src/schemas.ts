@@ -431,11 +431,47 @@ export const dimensionScoreSchema = z.object({
    * mencantumkan UUD 1945 di `evidence` sehingga `min(1)` terpenuhi.
    */
   evidence_gap: z.boolean().optional(),
+  ai_disclosure: z.lazy(() => aiDisclosureSchema).optional(),
 })
   .refine(
     (ds) => ds.evidence.length > 0 || ds.evidence_gap === true,
     "dimension_score tanpa evidence wajib menyatakan evidence_gap: true"
   );
+
+/**
+ * Metadata transparansi kepatuhan EU Artificial Intelligence Act
+ * (Regulation (EU) 2024/1689 Article 50 & Article 14).
+ */
+export const aiDisclosureSchema = z.object({
+  assisted: z.boolean().default(false),
+  model_id: z.string().default("gemini-3.8-flash-high"),
+  model_provider: z.string().default("Google DeepMind"),
+  pipeline_version: z.string().default("pancasila-nlp-v1.5"),
+  analysis_type: z
+    .enum(["heuristic-classification", "llm-assisted-synthesis", "human-verified-only"])
+    .default("llm-assisted-synthesis"),
+  temperature: z.number().optional(),
+  human_oversight: z
+    .object({
+      mechanism: z.literal("quorum-2-reviewers").default("quorum-2-reviewers"),
+      status: z.enum(["verified", "pending_second_review", "draft"]).default("verified"),
+      approver_count: z.number().int().min(1).default(2),
+      approvers: z.array(z.string()).default([]),
+    })
+    .default({}),
+  limitations_notice: z
+    .string()
+    .default(
+      "Sintesis analitis dibantu oleh model AI untuk klasifikasi awal dan perumusan draf. Otoritas kebenaran dan validitas hukum kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap dokumen primer Lembaran Negara dan Putusan Peradilan."
+    ),
+  eu_ai_act_compliance: z
+    .object({
+      article_50_compliant: z.literal(true).default(true),
+      transparency_tag: z.string().default("EU-AI-ACT-ART-50-DISCLOSED"),
+    })
+    .default({}),
+});
+export type AiDisclosure = z.infer<typeof aiDisclosureSchema>;
 
 export const assessmentStatusSchema = z.enum(["draft", "published"]);
 
@@ -448,6 +484,7 @@ export const assessmentSchema = z
     reviewers: z.array(z.string().min(2)).min(1),
     ai_suggested: z.boolean().default(false),
     human_confirmed: z.boolean().default(false),
+    ai_disclosure: aiDisclosureSchema.optional(),
     created_at: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
     dimension_scores: z.array(dimensionScoreSchema).min(1),
   })

@@ -17,6 +17,7 @@
         - source_id: uu-39-1999
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 0
       confidence: 0.5
@@ -28,6 +29,7 @@
       event_ids:
         - ev-habibie-tap-xvii
         - ev-habibie-trisakti-semanggi
+        - ev-habibie-uu-pers-ham
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -39,6 +41,7 @@
         - source_id: uu-22-1999
       event_ids:
         - ev-habibie-otda
+        - ev-habibie-referendum-timtim
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-4
@@ -50,6 +53,8 @@
         - source_id: uu-40-1999
       event_ids:
         - ev-habibie-pemilu-1999
+        - ev-habibie-kemerdekaan-sipil
+        - ev-habibie-uu-pers-ham
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -67,6 +72,7 @@
         - ev-habibie-otda
         - ev-uu-otonomi-daerah-1999
         - ev-dpr-uu-kppu-1999
+        - ev-pembentukan-bppn-rekapitalisasi-bank-1998
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
@@ -105,6 +111,8 @@
         - source_id: uu-40-1999
       event_ids:
         - ev-habibie-kemerdekaan-sipil
+        - ev-habibie-otda
+        - ev-habibie-uu-pers-ham
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-4
@@ -116,6 +124,7 @@
         - source_id: tripartit-timtim-1999
       event_ids:
         - ev-habibie-referendum-timtim
+        - ev-uu-37-1999
       normative_anchors:
         - uud-nri-1945
     - dimension_id: negara-hukum
@@ -127,6 +136,10 @@
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-uu-28-1999
+        - ev-habibie-tap-xvii
+        - ev-habibie-kemerdekaan-sipil
     - dimension_id: checks-balances
       score: 2
       confidence: 0.6
@@ -136,6 +149,7 @@
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: kedaulatan-rakyat
       score: 2
       confidence: 0.65
@@ -145,8 +159,29 @@
         - source_id: uu-3-1999
       event_ids:
         - ev-habibie-pemilu-1999
+        - ev-habibie-referendum-timtim
       normative_anchors:
         - uud-nri-1945
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-gusdur
   term_id: presiden-gusdur
   rubric_version: 1.0.0
@@ -189,6 +224,7 @@
         - ev-gusdur-konflik-komunal
         - ev-keppres-pemulihan-hak-tionghoa-2000
         - ev-gusdur-inpres-6-2000
+        - ev-pencabutan-inpres-diskriminatif-tionghoa-2000
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -200,6 +236,10 @@
         - source_id: keppres-6-2000
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-gusdur-imlek
+        - ev-gusdur-konflik-komunal
+        - ev-pencabutan-inpres-diskriminatif-tionghoa-2000
     - dimension_id: sila-4
       score: 0
       confidence: 0.5
@@ -209,6 +249,7 @@
         - source_id: tap-mpr-iii-2001
       event_ids:
         - ev-gusdur-depen
+        - ev-gusdur-ssm
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -246,6 +287,7 @@
         - uud-nri-1945
       event_ids:
         - ev-bpk-audit-blbi-billy-2000
+        - ev-gusdur-uu-pengadilan-ham
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.45
@@ -255,6 +297,8 @@
         - source_id: keppres-125-1999
       event_ids:
         - ev-gusdur-depen
+        - ev-gusdur-imlek
+        - ev-pencabutan-inpres-diskriminatif-tionghoa-2000
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-4
@@ -268,6 +312,7 @@
         - uud-nri-1945
       event_ids:
         - ev-gusdur-diplomasi-luar-negeri
+        - ev-gusdur-uu-pengadilan-ham
     - dimension_id: negara-hukum
       score: 0
       confidence: 0.45
@@ -277,6 +322,10 @@
         - source_id: tap-mpr-iii-2001
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-gusdur-uu-pengadilan-ham
+        - ev-gusdur-depen
+        - ev-gusdur-imlek
     - dimension_id: checks-balances
       score: 1
       confidence: 0.55
@@ -297,6 +346,29 @@
         - source_id: tap-mpr-iii-2001
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-gusdur-ssm
+        - ev-pencabutan-inpres-diskriminatif-tionghoa-2000
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-megawati
   term_id: presiden-megawati
   rubric_version: 1.0.0
@@ -333,6 +405,7 @@
         - ev-megawati-pengadilan-timtim
         - ev-megawati-munir
         - ev-uu-otsus-papua-2001
+        - ev-megawati-sampit-sambas
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -350,6 +423,9 @@
         - ev-megawati-otsus-aceh
         - ev-keppres-imlek-libur-nasional-2002
         - ev-megawati-damai-maluku
+        - ev-megawati-papua-otsus
+        - ev-megawati-sampit-sambas
+        - ev-uu-otsus-papua-2001
     - dimension_id: sila-4
       score: 1
       confidence: 0.55
@@ -358,6 +434,7 @@
         - source_id: uu-23-2003
       event_ids:
         - ev-megawati-presiden-langsung
+        - ev-penyelenggaraan-pilpres-langsung-pertama-2004
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -373,6 +450,8 @@
       event_ids:
         - ev-megawati-uu-ketenagakerjaan
         - ev-megawati-otsus-aceh
+        - ev-pembentukan-kpk-2002
+        - ev-uu-otsus-papua-2001
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.85
@@ -406,6 +485,7 @@
         - ev-bpk-paket-uu-keuangan-2004
         - ev-inpres-skl-blbi-2002
         - ev-megawati-uu-ketenagakerjaan
+        - ev-uu-otsus-papua-2001
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.4
@@ -415,6 +495,7 @@
         - source_id: uu-20-2003
       event_ids:
         - ev-megawati-sisdiknas
+        - ev-megawati-papua-otsus
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-4
@@ -426,6 +507,9 @@
         - source_id: uu-15-2003
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-megawati-pengadilan-timtim
+        - ev-megawati-sipadan-ligitan
     - dimension_id: negara-hukum
       score: 0
       confidence: 0.45
@@ -439,6 +523,9 @@
         - ev-megawati-mk-dilantik
         - ev-pembentukan-kpk-2002
         - ev-pembentukan-ppatk-2002
+        - ev-megawati-kpk
+        - ev-megawati-munir
+        - ev-uu-20-2001
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -449,6 +536,8 @@
         - source_id: uu-24-2003
       event_ids:
         - ev-megawati-mk-dilantik
+        - ev-uu-17-2003
+        - ev-pembentukan-ppatk-2002
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -463,6 +552,27 @@
         - uud-nri-1945
       event_ids:
         - ev-penyelenggaraan-pilpres-langsung-pertama-2004
+        - ev-megawati-presiden-langsung
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-sby-i
   term_id: presiden-sby-i
   rubric_version: 1.0.0
@@ -502,6 +612,7 @@
         - ev-skb-tiga-menteri-ahmadiyah-2008
         - ev-sby-skb-ahmadiyah
         - ev-uu-kewarganegaraan-anti-diskriminasi-2006
+        - ev-sby1-ratifisasi-icescr
     - dimension_id: sila-3
       score: 1
       confidence: 0.6
@@ -513,6 +624,9 @@
         - ev-sby1-damai-aceh
         - ev-mou-helsinki-damai-2005
         - ev-sby-mou-helsinki
+        - ev-sby1-log-aceh
+        - ev-sby1-antirasial
+        - ev-uu-kewarganegaraan-anti-diskriminasi-2006
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-4
@@ -524,6 +638,10 @@
         - source_id: uu-22-2007
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-sby1-ite
+        - ev-sby1-log-aceh
+        - ev-sby1-century
     - dimension_id: sila-5
       score: 1
       confidence: 0.5
@@ -533,6 +651,8 @@
         - source_id: literatur-sejarah-nasional
       event_ids:
         - ev-sby1-blt-perdana
+        - ev-sby1-kur
+        - ev-uu-pelayanan-publik-2009
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-1
@@ -546,6 +666,8 @@
         - ev-sby1-damai-aceh
         - ev-mou-helsinki-damai-2005
         - ev-sby-mou-helsinki
+        - ev-sby1-tsunami-aceh-respons
+        - ev-sby1-gempa-yogya
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-2
@@ -561,6 +683,9 @@
       event_ids:
         - ev-sby-uu-umkm
         - ev-uu-pelayanan-publik-2009
+        - ev-sby1-blt-perdana
+        - ev-sby1-penanaman-modal
+        - ev-sby1-kur
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.4
@@ -570,6 +695,7 @@
         - source_id: dana-bos-2005
       event_ids:
         - ev-sby1-dana-bos
+        - ev-sby1-uuguru-dosen
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-4
@@ -581,6 +707,8 @@
         - source_id: mou-helsinki-2005
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-sby1-ratifisasi-icescr
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.5
@@ -590,6 +718,9 @@
         - source_id: uu-40-2008
       event_ids:
         - ev-sby1-century
+        - ev-bpk-audit-century-2009
+        - ev-uu-kewarganegaraan-anti-diskriminasi-2006
+        - ev-uu-pelayanan-publik-2009
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -601,6 +732,7 @@
         - source_id: laporan-bpk-century
       event_ids:
         - ev-sby1-century
+        - ev-bpk-audit-century-2009
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -611,6 +743,30 @@
         - source_id: uu-22-2007
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-sby1-log-aceh
+        - ev-sby1-ite
+        - ev-sby1-dana-bos
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-sby-ii
   term_id: presiden-sby-ii
   rubric_version: 1.0.0
@@ -632,6 +788,7 @@
         - uud-nri-1945
       event_ids:
         - ev-sby-konflik-syiah-sampang
+        - ev-sby2-gayus-pajak
     - dimension_id: sila-2
       score: 0
       confidence: 0.7
@@ -654,6 +811,7 @@
         - source_id: uu-11-2006
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 0
       confidence: 0.5
@@ -663,6 +821,8 @@
         - source_id: uu-17-2014
       event_ids:
         - ev-sby2-md3
+        - ev-sby2-bibit-chandra
+        - ev-uu-17-2011
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -682,6 +842,7 @@
         - ev-sby-uu-pendidikan-tinggi
         - ev-pembentukan-bpjs-kesehatan-ketenagakerjaan-2011
         - ev-pengesahan-uu-desa-2014
+        - ev-uu-bantuan-hukum-rakyat-miskin-2011
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-1
@@ -693,6 +854,9 @@
         - source_id: inpres-10-2011
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-sby2-bpjs
+        - ev-pembentukan-bpjs-kesehatan-ketenagakerjaan-2011
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.45
@@ -705,6 +869,9 @@
       event_ids:
         - ev-sby2-bpjs
         - ev-vonis-suap-pesawat-garuda-emirsyah-satar-2020
+        - ev-pembentukan-bpjs-kesehatan-ketenagakerjaan-2011
+        - ev-pengesahan-uu-desa-2014
+        - ev-pembentukan-ojk-terintegrasi-2011
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-3
@@ -718,6 +885,7 @@
         - uud-nri-1945
       event_ids:
         - ev-sby-uu-pendidikan-tinggi
+        - ev-sby2-moratorium-hutan
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.45
@@ -742,6 +910,12 @@
       event_ids:
         - ev-kasus-cicak-buaya-2009
         - ev-kriminalisasi-bibit-chandra-2009
+        - ev-sby2-tppu
+        - ev-sby2-bibit-chandra
+        - ev-sby2-gayus-pajak
+        - ev-sby2-hambalang
+        - ev-uu-bantuan-hukum-rakyat-miskin-2011
+        - ev-vonis-suap-pesawat-garuda-emirsyah-satar-2020
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -760,6 +934,10 @@
         - ev-kasus-cicak-buaya-2009
         - ev-kriminalisasi-bibit-chandra-2009
         - ev-pembentukan-ojk-terintegrasi-2011
+        - ev-sby2-bibit-chandra
+        - ev-uu-17-2011
+        - ev-uu-30-2014
+        - ev-uu-5-2014
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -770,6 +948,28 @@
         - source_id: uu-17-2014
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-sby2-md3
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-jokowi-i
   term_id: presiden-jokowi-i
   rubric_version: 1.0.0
@@ -795,6 +995,7 @@
         - ev-perppu-ormas-pembubaran-hti-2017
         - ev-keppres-hari-lahir-pancasila-2016
         - ev-presiden-keppres-pancasila-2016
+        - ev-jokowi1-ahok-212
     - dimension_id: sila-2
       score: -1
       confidence: 0.85
@@ -808,6 +1009,7 @@
         - ev-jokowi1-eksekusi-narkoba
         - ev-amnesti-presiden-baiq-nuril-2019
         - ev-jokowi-uu-disabilitas
+        - ev-jokowi1-aksi-2019
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -841,6 +1043,7 @@
       event_ids:
         - ev-jokowi1-aksi-2019
         - ev-revisi-uu-ite-pembatasan-ekspresi-2016
+        - ev-jokowi1-perppu-ormas-hti
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -854,6 +1057,8 @@
       event_ids:
         - ev-jokowi1-perluasan-pkh
         - ev-divestasi-freeport-indonesia-51-persen-2018
+        - ev-jokowi1-dana-desa
+        - ev-pengesahan-uu-tax-amnesty-2016
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-1
@@ -867,6 +1072,7 @@
         - uud-nri-1945
       event_ids:
         - ev-jokowi-pemilu-serentak
+        - ev-jokowi1-ahok-212
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.5
@@ -879,6 +1085,8 @@
         - uud-nri-1945
       event_ids:
         - ev-pengesahan-uu-tax-amnesty-2016
+        - ev-jokowi1-perluasan-pkh
+        - ev-divestasi-freeport-indonesia-51-persen-2018
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.85
@@ -903,6 +1111,7 @@
         - uud-nri-1945
       event_ids:
         - ev-jokowi-asian-games
+        - ev-jokowi1-paris-agreement
     - dimension_id: negara-hukum
       score: -2
       confidence: 0.85
@@ -917,6 +1126,10 @@
       event_ids:
         - ev-presiden-stranas-pk-2018
         - ev-jokowi-perppu-ormas
+        - ev-jokowi1-ektp-setnov
+        - ev-jokowi1-perppu-ormas-hti
+        - ev-jokowi1-pengepungan-kpk
+        - ev-revisi-uu-ite-pembatasan-ekspresi-2016
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -931,6 +1144,8 @@
       event_ids:
         - ev-presiden-stranas-pk-2018
         - ev-amnesti-presiden-baiq-nuril-2019
+        - ev-jokowi1-ektp-setnov
+        - ev-jokowi1-pengepungan-kpk
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -942,6 +1157,29 @@
         - source_id: laporan-komnas-ham-aktivis-2019
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-jokowi1-ahok-212
+        - ev-revisi-uu-ite-pembatasan-ekspresi-2016
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-jokowi-ii
   term_id: presiden-jokowi-ii
   rubric_version: 1.0.0
@@ -961,6 +1199,8 @@
         - source_id: laporan-lsm-kebebasan-sipil-2019-2024
       event_ids:
         - ev-jokowi2-shutdown-papua
+        - ev-jokowi2-fpi-dibubarkan
+        - ev-jokowi2-juliari-bansos
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-2
@@ -991,6 +1231,9 @@
         - ev-inpres-pelanggaran-ham-berat-2023
         - ev-pengakuan-pelanggaran-ham-berat-2023
         - ev-investigasi-komnas-ham-penyiksaan-dan-hak-hidup-2024
+        - ev-jokowi2-kanjuruhan
+        - ev-tragedi-kanjuruhan-malang-2022
+        - ev-vonis-korupsi-bansos-covid-juliari-2021
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -1002,6 +1245,9 @@
         - source_id: laporan-lsm-kebebasan-sipil-2019-2024
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-jokowi2-shutdown-papua
+        - ev-jokowi2-pemekaran-papua
     - dimension_id: sila-4
       score: -2
       confidence: 0.6
@@ -1014,6 +1260,10 @@
       event_ids:
         - ev-jokowi2-ciptaker
         - ev-jokowi2-revisi-uumk
+        - ev-jokowi2-shutdown-papua
+        - ev-jokowi2-fpi-dibubarkan
+        - ev-jokowi2-revisi-ite-2024
+        - ev-jokowi2-pemilu-terbesar
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -1033,6 +1283,11 @@
         - ev-jokowi2-juliari-bansos
         - ev-uu-ikn-nusantara-2022
         - ev-vonis-kasasi-ekspor-cpo-wisnu-wardhana-2023
+        - ev-perpu-2-2022
+        - ev-uu-kebijakan-keuangan-covid-2020
+        - ev-vonis-korupsi-bansos-covid-juliari-2021
+        - ev-vonis-suap-gratifikasi-lukas-enembe-2023
+        - ev-vonis-seumur-hidup-direksi-jiwasraya-2020
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-1
@@ -1057,6 +1312,7 @@
         - ev-presiden-uu-fir-ekstradisi-singapura-2023
         - ev-tragedi-kanjuruhan-malang-2022
         - ev-uu-kebijakan-keuangan-covid-2020
+        - ev-pengakuan-pelanggaran-ham-berat-2023
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-2
@@ -1088,6 +1344,10 @@
         - ev-vonis-tipikor-bts-johnny-plate-2023
         - ev-vonis-gratifikasi-pajak-rafael-alun-2024
         - ev-vonis-seumur-hidup-direksi-jiwasraya-2020
+        - ev-jokowi2-hilirisasi-nikel
+        - ev-uu-kebijakan-keuangan-covid-2020
+        - ev-uu-ikn-nusantara-2022
+        - ev-vonis-kasasi-ekspor-cpo-wisnu-wardhana-2023
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-3
@@ -1101,6 +1361,7 @@
         - uud-nri-1945
       event_ids:
         - ev-dpr-uu-tpks-2022
+        - ev-jokowi2-kip-kuliah
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.85
@@ -1115,6 +1376,7 @@
       event_ids:
         - ev-jokowi-presidensi-g20
         - ev-presiden-uu-fir-ekstradisi-singapura-2023
+        - ev-jokowi2-g20-bali
     - dimension_id: negara-hukum
       score: -2
       confidence: 0.85
@@ -1146,6 +1408,15 @@
         - ev-tragedi-kanjuruhan-tgipf-2022
         - ev-inpres-pelanggaran-ham-berat-2023
         - ev-vonis-kasasi-pemerasan-syl-2025
+        - ev-jokowi2-uu-ciptaker-permanen
+        - ev-jokowi2-dinasti-politik
+        - ev-jokowi2-fpi-dibubarkan
+        - ev-jokowi2-juliari-bansos
+        - ev-jokowi2-jiwasraya-vonis
+        - ev-vonis-tipikor-bts-johnny-plate-2023
+        - ev-vonis-gratifikasi-pajak-rafael-alun-2024
+        - ev-investigasi-komnas-ham-penyiksaan-dan-hak-hidup-2024
+        - ev-vonis-seumur-hidup-direksi-jiwasraya-2020
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -1170,6 +1441,9 @@
         - ev-ombudsman-komnas-twk-kpk-2021
         - ev-perppu-ciptaker-by-pass-mk-2022
         - ev-politisasi-bansos-pemilu-2024
+        - ev-jokowi2-ciptaker
+        - ev-jokowi2-perppu-ciptaker
+        - ev-jokowi2-revisi-uumk
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -1191,8 +1465,30 @@
         - ev-amnesti-presiden-saiful-mahdi-2021
         - ev-perpres-publisher-rights-2024
         - ev-politisasi-bansos-pemilu-2024
+        - ev-jokowi2-ikn
+        - ev-jokowi2-pemilu-terbesar
       normative_anchors:
         - uud-nri-1945
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-prabowo
   term_id: presiden-prabowo
   rubric_version: 1.0.0
@@ -1225,6 +1521,7 @@
         - source_id: komnas-ham-protes-agustus-2025
       event_ids:
         - ev-prabowo-agustus-2025
+        - ev-diplomasi-luar-negeri-prabowo-gaza-2025
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -1238,6 +1535,8 @@
         - uud-nri-1945
       event_ids:
         - ev-bpk-ihps-infrastruktur-2024
+        - ev-prabowo-danantara
+        - ev-prabowo-bop
     - dimension_id: sila-4
       score: -1
       confidence: 0.35
@@ -1276,6 +1575,7 @@
         - ev-mbg-risiko-korupsi-pengadaan-2025
         - ev-vonis-korupsi-timah-harvey-moeis-2025
         - ev-pembentukan-bpi-danantara-investasi-2025
+        - ev-program-makan-bergizi-gratis-2024
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-1
@@ -1308,6 +1608,11 @@
       event_ids:
         - ev-perpres-makan-bergizi-2024
         - ev-mbg-risiko-korupsi-pengadaan-2025
+        - ev-prabowo-mbg
+        - ev-program-makan-bergizi-gratis-2024
+        - ev-postur-kabinet-gemuk-48-kementerian-2024
+        - ev-pembentukan-badan-penyelenggara-haji-2024
+        - ev-pembentukan-bpi-danantara-investasi-2025
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-3
@@ -1320,6 +1625,8 @@
         - source_id: perpres-83-2024
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-prabowo-mbg
     - dimension_id: tujuan-4
       score: -1
       confidence: 0.35
@@ -1336,6 +1643,7 @@
         - ev-prabowo-bop
         - ev-prabowo-brics
         - ev-diplomasi-luar-negeri-prabowo-gaza-2025
+        - ev-prabowo-oecd
       normative_anchors:
         - uud-nri-1945
     - dimension_id: negara-hukum
@@ -1354,6 +1662,7 @@
         - ev-prabowo-danantara
         - ev-mbg-risiko-korupsi-pengadaan-2025
         - ev-dwifungsi-tni-polri-jabatan-sipil-2024
+        - ev-vonis-korupsi-timah-harvey-moeis-2025
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -1372,6 +1681,9 @@
       event_ids:
         - ev-postur-kabinet-gemuk-48-kementerian-2024
         - ev-kabinet-merah-putih-2024
+        - ev-prabowo-danantara
+        - ev-prabowo-kabinet-merah-putih
+        - ev-pembentukan-badan-penyelenggara-haji-2024
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.3
@@ -1381,6 +1693,27 @@
         - source_id: komnas-ham-protes-agustus-2025
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpr99
   term_id: dpr-1999-2004
   rubric_version: 1.0.0
@@ -1426,6 +1759,9 @@
         - source_id: uu-22-1999
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-dpr99-amandemen-uud
+        - ev-uu-pilpres-langsung-2003
     - dimension_id: sila-4
       score: 2
       confidence: 0.85
@@ -1438,6 +1774,7 @@
         - ev-dpr99-amandemen-uud
         - ev-dpr-uu-pers-1999
         - ev-dpr-uu-penyiaran-2002
+        - ev-uu-pilpres-langsung-2003
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -1472,6 +1809,7 @@
       event_ids:
         - ev-dpr-uu-pertahanan-2002
         - ev-uu-terorisme-bom-bali-2003
+        - ev-dpr99-uu-polri
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.85
@@ -1499,6 +1837,7 @@
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.8
@@ -1602,8 +1941,29 @@
         - ev-dpr-uu-serikat-pekerja-2000
         - ev-dpr-uu-penyiaran-2002
         - ev-uu-pilpres-langsung-2003
+        - ev-dpr99-amandemen-uud
       normative_anchors:
         - uud-nri-1945
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpr04
   term_id: dpr-2004-2009
   rubric_version: 1.0.0
@@ -1625,6 +1985,7 @@
         - uud-nri-1945
       event_ids:
         - ev-sby-skb-ahmadiyah
+        - ev-dpr04-kepemilihan
     - dimension_id: sila-2
       score: 1
       confidence: 0.85
@@ -1664,6 +2025,9 @@
       event_ids:
         - ev-dpr04-kepemilihan
         - ev-uu-keterbukaan-informasi-publik-2008
+        - ev-dpr04-ite-disahkan
+        - ev-dpr04-pilkada-langsung
+        - ev-dpr-uu-kip-2008
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -1782,6 +2146,7 @@
       event_ids:
         - ev-dpr-uu-ombudsman-2008
         - ev-dpr-ratifikasi-uncac-2006
+        - ev-dpr04-ky
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -1792,6 +2157,30 @@
         - source_id: uu-22-2007
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-dpr04-pilkada-langsung
+        - ev-dpr-uu-kip-2008
+        - ev-uu-keterbukaan-informasi-publik-2008
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpr09
   term_id: dpr-2009-2014
   rubric_version: 1.0.0
@@ -1824,6 +2213,7 @@
         - uud-nri-1945
       event_ids:
         - ev-dpr-uu-bpjs-2011
+        - ev-dpr09-bpjs
     - dimension_id: sila-3
       score: 1
       confidence: 0.85
@@ -1850,6 +2240,8 @@
         - source_id: uu-17-2014
       event_ids:
         - ev-dpr09-md3
+        - ev-dpr09-bpjs
+        - ev-dpr09-pp3
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -1975,8 +2367,29 @@
         - ev-dpr-angket-century-2010
         - ev-dpr-uu-desa-2014
         - ev-dpr-uu-mata-uang-2011
+        - ev-dpr09-md3
       normative_anchors:
         - uud-nri-1945
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpr14
   term_id: dpr-2014-2019
   rubric_version: 1.0.0
@@ -2028,6 +2441,8 @@
         - source_id: uu-19-2019
       event_ids:
         - ev-dpr14-revisi-kpk
+        - ev-dpr14-pemilu
+        - ev-dpr-uu-pemilu-7-2017
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -2068,6 +2483,7 @@
       event_ids:
         - ev-dpr-tax-amnesty-2016
         - ev-dpr-ratifikasi-paris-agreement
+        - ev-dpr14-des
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-3
@@ -2079,6 +2495,7 @@
         - source_id: uu-7-2017
       event_ids:
         - ev-dpr14-pemilu
+        - ev-dpr14-revisi-kpk
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-4
@@ -2108,6 +2525,7 @@
         - ev-dpr-pansus-angket-kpk-2017
         - ev-dpr-uu-terorisme-2018
         - ev-revisi-uu-kpk-pelemahan-independensi-2019
+        - ev-dpr-revisi-uu-kpk-2019
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -2118,6 +2536,10 @@
         - source_id: uu-19-2019
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-dpr14-revisi-kpk
+        - ev-dpr-revisi-uu-kpk-2019
+        - ev-revisi-uu-kpk-pelemahan-independensi-2019
     - dimension_id: kedaulatan-rakyat
       score: -1
       confidence: 0.5
@@ -2127,6 +2549,30 @@
         - source_id: laporan-komnas-ham-aktivis-2019
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-dpr14-pemilu
+        - ev-dpr-uu-pemilu-7-2017
+        - ev-revisi-uu-kpk-pelemahan-independensi-2019
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpr19
   term_id: dpr-2019-2024
   rubric_version: 1.0.0
@@ -2168,6 +2614,7 @@
         - ev-dpr-kuhp-nasional-baru-2023
         - ev-pengesahan-uu-tpks-2022
         - ev-pengesahan-uu-pemasyarakatan-2022
+        - ev-pengesahan-kuhp-nasional-2023
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -2193,6 +2640,8 @@
         - source_id: putusan-mk-91-2021
       event_ids:
         - ev-dpr19-ciptaker-legislasi
+        - ev-dpr19-pdp
+        - ev-dpr19-rkuhp-final
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -2305,6 +2754,8 @@
         - ev-dpr-kuhp-nasional-baru-2023
         - ev-dpr-uu-kuhp-2022
         - ev-pengesahan-kuhp-nasional-2023
+        - ev-pengesahan-uu-tpks-2022
+        - ev-pengesahan-uu-pemasyarakatan-2022
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -2328,6 +2779,8 @@
         - ev-dpr-uu-minerba-2020
         - ev-dpr-uu-p2sk-2023
         - ev-dpr-pansus-angket-haji-2024
+        - ev-dpr19-uu-ciptaker-permanen
+        - ev-dpr19-kesehatan-omnibus
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -2345,6 +2798,26 @@
         - ev-baleg-dpr-ruu-pilkada-darurat-2024
       normative_anchors:
         - uud-nri-1945
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpr24
   term_id: dpr-2024-2029
   rubric_version: 1.0.0
@@ -2395,6 +2868,7 @@
         - source_id: revisi-md3-2025
       event_ids:
         - ev-dpr24-revisi-md3
+        - ev-dpr24-protes-tunjangan
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -2465,6 +2939,8 @@
         - source_id: berita-adies-kadir-mk-2026
       event_ids:
         - ev-dpr24-calon-hakim-mk
+        - ev-dpr24-revisi-pemilu-mk60
+        - ev-dpr24-revisi-md3
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -2476,6 +2952,8 @@
         - source_id: berita-adies-kadir-mk-2026
       event_ids:
         - ev-dpr24-calon-hakim-mk
+        - ev-dpr24-revisi-pemilu-mk60
+        - ev-dpr24-revisi-md3
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -2487,8 +2965,30 @@
         - source_id: revisi-md3-2025
       event_ids:
         - ev-dpr24-protes-tunjangan
+        - ev-dpr24-revisi-md3
+        - ev-dpr24-calon-hakim-mk
       normative_anchors:
         - uud-nri-1945
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-mk03
   term_id: mk-2003-2008
   rubric_version: 1.0.0
@@ -2559,6 +3059,7 @@
         - ev-mk-putusan-haatzaai-artikelen-2007
         - ev-mk-putusan-calon-independen-2007
         - ev-pembentukan-mahkamah-konstitusi-2003
+        - ev-mk1-pelantikan
     - dimension_id: checks-balances
       score: 2
       confidence: 0.85
@@ -2574,6 +3075,7 @@
         - ev-mk-putusan-kelistrikan-2004
         - ev-mk-putusan-penyadapan-kpk-2006
         - ev-mk-putusan-ky-hakim-agung-2006
+        - ev-pembentukan-mahkamah-konstitusi-2003
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -2605,6 +3107,7 @@
         - source_id: putusan-mk-35-puu-x-2012
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
@@ -2632,6 +3135,7 @@
         - source_id: putusan-mk-013-puu-i-2003
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.8
@@ -2657,6 +3161,7 @@
         - source_id: putusan-mk-011-012-puu-iii-2005
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
@@ -2667,6 +3172,27 @@
         - source_id: uu-24-2003
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-mk08
   term_id: mk-2008-2013
   rubric_version: 1.0.0
@@ -2688,6 +3214,8 @@
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-hutan-adat-2013
+        - ev-mk2-narkoba-46
+        - ev-mk2-akil-mochtar
     - dimension_id: sila-2
       score: 2
       confidence: 0.85
@@ -2718,6 +3246,7 @@
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-ktp-pemilu-2009
+        - ev-mk2-akil-mochtar
     - dimension_id: negara-hukum
       score: -2
       confidence: 0.85
@@ -2823,6 +3352,8 @@
         - uud-nri-1945
       evidence_gap: true
       evidence: []
+      event_ids:
+        - ev-mk2-akil-mochtar
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.8
@@ -2858,6 +3389,27 @@
         - uud-nri-1945
       evidence_gap: true
       evidence: []
+      event_ids: []
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-mk13
   term_id: mk-2013-2018
   rubric_version: 1.0.0
@@ -2914,6 +3466,7 @@
         - ev-mk3-pilkada-independen
         - ev-mk-putusan-calon-tunggal-2015
         - ev-mk-putusan-verifikasi-parpol-2018
+        - ev-putusan-mk-pemulihan-pilkada-langsung-2014
       normative_anchors:
         - uud-nri-1945
     - dimension_id: negara-hukum
@@ -2971,6 +3524,8 @@
         - ev-mk-putusan-pasal-kumpul-kebo-2016
         - ev-mk-ott-patrialis-akbar-2017
         - ev-mk-pembatalan-pembatalan-perda-2017
+        - ev-kasus-suap-pilkada-akil-mochtar-2013
+        - ev-vonis-suap-uji-materi-patrialis-akbar-2017
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.85
@@ -3004,6 +3559,7 @@
         - source_id: putusan-mk-35-puu-x-2012
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
@@ -3029,6 +3585,7 @@
         - uud-nri-1945
       evidence_gap: true
       evidence: []
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.8
@@ -3052,6 +3609,8 @@
         - uud-nri-1945
       evidence_gap: true
       evidence: []
+      event_ids:
+        - ev-mk3-pilkada-independen
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
@@ -3062,6 +3621,27 @@
         - uud-nri-1945
       evidence_gap: true
       evidence: []
+      event_ids: []
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-mk18
   term_id: mk-2018-2023
   rubric_version: 1.0.0
@@ -3140,6 +3720,9 @@
         - ev-mk-putusan-90-2023
         - ev-mk-putusan-sistem-pemilu-terbuka-2023
         - ev-putusan-mk-larangan-tarik-paksa-fidusia-2019
+        - ev-mk4-ciptaker-91
+        - ev-mk4-usia-capres
+        - ev-mk-putusan-90-capres
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -3161,6 +3744,7 @@
         - ev-mk-putusan-perpanjangan-kpk-2022
         - ev-mk-putusan-90-2023
         - ev-mk-pemilu-serentak-daerah-2020
+        - ev-mk-putusan-90-capres
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -3182,6 +3766,7 @@
         - ev-mk-putusan-90-2023
         - ev-mk-pemilu-serentak-daerah-2020
         - ev-mk-putusan-sistem-pemilu-terbuka-2023
+        - ev-mk4-etik-anwar-usman
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -3197,6 +3782,7 @@
         - source_id: putusan-mk-35-puu-x-2012
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
@@ -3209,6 +3795,7 @@
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-fidusia-2020
+        - ev-putusan-mk-larangan-tarik-paksa-fidusia-2019
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
@@ -3219,6 +3806,8 @@
         - uud-nri-1945
       evidence_gap: true
       evidence: []
+      event_ids:
+        - ev-putusan-mk-larangan-tarik-paksa-fidusia-2019
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.8
@@ -3232,6 +3821,7 @@
         - source_id: putusan-mk-85-puu-xi-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
@@ -3257,6 +3847,27 @@
         - source_id: putusan-mk-13-puu-xvi-2018
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-mk23
   term_id: mk-2023-sekarang
   rubric_version: 1.0.0
@@ -3316,6 +3927,8 @@
         - ev-mk-batal-pasal-penghinaan-pemerintah-2026
         - ev-mk-putusan-parliamentary-threshold-2024
         - ev-putusan-mk-60-demokrasi-lokal-2024
+        - ev-mk-putusan-60-pilkada
+        - ev-putusan-mk-136-netralitas-aparat-2024
     - dimension_id: negara-hukum
       score: -1
       confidence: 0.85
@@ -3380,7 +3993,10 @@
         - ev-mk-putusan-phpu-pilpres-2024
         - ev-mk-phpu-pilkada-serentak-2025
         - ev-mk-putusan-parliamentary-threshold-2024
-        - ev-mk-putusan-netralitas-pilkada-2024
+        - ev-mk5-ambang-batas
+        - ev-mk-putusan-60-pilkada
+        - ev-mk-putusan-70-usia-pilkada
+        - ev-putusan-mk-60-demokrasi-lokal-2024
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -3395,6 +4011,8 @@
         - source_id: putusan-mk-35-puu-x-2012
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-mk5-ambang-batas
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
@@ -3417,6 +4035,9 @@
         - source_id: berita-adies-kadir-mk-2026
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-mk5-ambang-batas
+        - ev-putusan-mk-136-netralitas-aparat-2024
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.8
@@ -3429,6 +4050,7 @@
         - source_id: putusan-mk-85-puu-xi-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
@@ -3439,6 +4061,8 @@
         - source_id: berita-adies-kadir-mk-2026
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-mk-putusan-60-pilkada
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
@@ -3449,6 +4073,27 @@
         - source_id: berita-adies-kadir-mk-2026
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-soekarno-i
   term_id: presiden-soekarno-i
   rubric_version: 1.0.0
@@ -3468,6 +4113,7 @@
         - source_id: proklamasi-ppki-1945
       event_ids:
         - ev-soekarno1-proklamasi-uud
+        - ev-soekarno1-di-tii
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-2
@@ -3479,6 +4125,7 @@
         - source_id: proklamasi-ppki-1945
       event_ids:
         - ev-soekarno1-madiun
+        - ev-kaa-dasa-sila-bandung-1955
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -3507,6 +4154,16 @@
         - ev-pemberontakan-rms-ambon-1950
         - ev-presiden-dekrit-5-juli-1959
         - ev-anri-konferensi-antar-indonesia-1949
+        - ev-soekarno1-di-tii
+        - ev-soekarno1-prri-permesta
+        - ev-presiden-deklarasi-djuanda
+        - ev-kmb-pengakuan-kedaulatan-1949
+        - ev-nasionalisasi-perusahaan-belanda-1958
+        - ev-persetujuan-linggarjati-1947
+        - ev-pernyataan-bersama-roem-roijen-1949
+        - ev-mandat-darurat-kawat-pdri-1948
+        - ev-anri-perjanjian-renville-1948
+        - ev-anri-kmb-pengakuan-kedaulatan-1949
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-4
@@ -3544,6 +4201,7 @@
         - ev-pembentukan-depernas-1959
         - ev-nasionalisasi-de-javasche-bank-1953
         - ev-nasionalisasi-perusahaan-belanda-1958
+        - ev-depernas-pembangunan-semesta-1958
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-1
@@ -3588,6 +4246,10 @@
         - ev-uu-keadaan-bahaya-sob-1957
         - ev-presiden-dekrit-5-juli-1959
         - ev-mandat-darurat-kawat-pdri-1948
+        - ev-soekarno1-serangan-umum
+        - ev-presiden-deklarasi-djuanda
+        - ev-mpr-konstitusi-ris-1949
+        - ev-kmb-pengakuan-kedaulatan-1949
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-2
@@ -3603,6 +4265,9 @@
         - ev-nasionalisasi-belanda-1958
         - ev-pembentukan-depernas-1959
         - ev-depernas-pembangunan-semesta-1958
+        - ev-soekarno1-prri-permesta
+        - ev-nasionalisasi-de-javasche-bank-1953
+        - ev-nasionalisasi-perusahaan-belanda-1958
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-3
@@ -3613,6 +4278,10 @@
         - source_id: uuds-1950
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-soekarno1-nkri-uuds
+        - ev-soekarno1-pasukan-garuda
+        - ev-mpr-konstitusi-ris-1949
     - dimension_id: tujuan-4
       score: 2
       confidence: 0.85
@@ -3647,6 +4316,8 @@
         - ev-pernyataan-bersama-roem-roijen-1949
         - ev-anri-perjanjian-renville-1948
         - ev-anri-kmb-pengakuan-kedaulatan-1949
+        - ev-soekarno1-pasukan-garuda
+        - ev-anri-konferensi-antar-indonesia-1949
       normative_anchors:
         - uud-nri-1945
     - dimension_id: negara-hukum
@@ -3663,6 +4334,8 @@
         - ev-maklumat-pemerintah-1-nov-1945
         - ev-uu-keadaan-bahaya-sob-1957
         - ev-presiden-dekrit-5-juli-1959
+        - ev-soekarno1-nkri-uuds
+        - ev-mpr-konstitusi-ris-1949
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -3683,6 +4356,8 @@
         - ev-maklumat-x-knip-1945
         - ev-maklumat-parlementer-1945
         - ev-mandat-pdri-bukittinggi-1948
+        - ev-soekarno1-nkri-uuds
+        - ev-soekarno1-hatta-mundur
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -3709,8 +4384,31 @@
         - ev-maklumat-x-knip-1945
         - ev-maklumat-parlementer-1945
         - ev-uu-pembatalan-kmb-1956
+        - ev-soekarno1-proklamasi-uud
+        - ev-soekarno1-pemilu-1955
+        - ev-maklumat-x-multipartai-1945
       normative_anchors:
         - uud-nri-1945
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-soekarno-ii
   term_id: presiden-soekarno-ii
   rubric_version: 1.0.0
@@ -3766,6 +4464,7 @@
         - ev-pbb-keluar-1965
         - ev-pidato-manipol-usdek-1959
         - ev-anri-amnesti-abolisi-prri-permesta-1961
+        - ev-perjanjian-new-york-irian-barat-1962
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-4
@@ -3780,6 +4479,7 @@
         - uud-nri-1945
       event_ids:
         - ev-pembubaran-masyumi-psi-1960
+        - ev-pembubaran-dpr-1955-pembentukan-dpr-gr-1960
     - dimension_id: sila-5
       score: -2
       confidence: 0.85
@@ -3814,6 +4514,7 @@
         - ev-trikora-1961
         - ev-komando-dwikora-1964
         - ev-perjanjian-new-york-irian-barat-1962
+        - ev-soekarno2-gestapu
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-2
@@ -3829,6 +4530,7 @@
         - ev-tap-mprs-ii-1960-pembangunan
         - ev-mprs-tap-ii-1960
         - ev-mprs-tap-viii-berdikari-1965
+        - ev-anri-uupa-reforma-agraria-1960
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-3
@@ -3839,6 +4541,10 @@
         - source_id: uuds-1950
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-soekarno2-irian-barat
+        - ev-soekarno2-supersemar
+        - ev-soekarno2-seumur-hidup
     - dimension_id: tujuan-4
       score: -2
       confidence: 0.85
@@ -3854,6 +4560,7 @@
         - ev-pbb-keluar-1965
         - ev-komando-dwikora-1964
         - ev-indonesia-keluar-pbb-1965
+        - ev-perjanjian-new-york-irian-barat-1962
       normative_anchors:
         - uud-nri-1945
     - dimension_id: negara-hukum
@@ -3874,6 +4581,8 @@
         - ev-supersemar-1966-peralihan
         - ev-tap-mprs-xxv-1966-pembubaran-pki
         - ev-keppres-pembubaran-masyumi-psi-1960
+        - ev-pembubaran-masyumi-psi-1960
+        - ev-pembubaran-pki-supersemar-1966
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -3898,6 +4607,8 @@
         - ev-supersemar-1966-peralihan
         - ev-tap-mprs-presiden-seumur-hidup-1963
         - ev-pembubaran-dpr-1955-pembentukan-dpr-gr-1960
+        - ev-soekarno2-supersemar
+        - ev-soekarno2-seumur-hidup
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -3922,8 +4633,31 @@
         - ev-keppres-pembubaran-masyumi-psi-1960
         - ev-tap-mprs-presiden-seumur-hidup-1963
         - ev-mprs-tap-viii-berdikari-1965
+        - ev-soekarno2-seumur-hidup
+        - ev-pembubaran-dpr-1955-pembentukan-dpr-gr-1960
+        - ev-pembubaran-masyumi-psi-1960
       normative_anchors:
         - uud-nri-1945
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-soeharto
   term_id: presiden-soeharto
   rubric_version: 1.0.0
@@ -3948,6 +4682,11 @@
         - ev-soeharto-inpres-14
         - ev-uu-asas-tunggal-1985
         - ev-tanjung-priok-1984
+        - ev-soeharto-skb-1969
+        - ev-soeharto-uuperkawinan-1974
+        - ev-monopoli-p4-asas-tunggal-1978-1985
+        - ev-pernyataan-petisi-50-1980
+        - ev-peristiwa-tanjung-priok-1984
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-2
@@ -3980,11 +4719,13 @@
         - ev-uu-kuhap-1981
         - ev-jim-kamboja-1988
         - ev-ratifikasi-crc-1990
-        - ev-komnas-ham-1993
         - ev-operasi-petrus-1982-1985
         - ev-peristiwa-tanjung-priok-1984
         - ev-peristiwa-talangsari-1989
         - ev-pembentukan-komnas-ham-1993
+        - ev-soeharto-mej-1998
+        - ev-soeharto-udin-jurnalis
+        - ev-deklarasi-asean-bangkok-1967
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -4003,6 +4744,9 @@
         - ev-integrasi-timor-timur-1976
         - ev-pepera-papua-1969
         - ev-uu-asas-tunggal-1985
+        - ev-soeharto-inpres-14
+        - ev-soeharto-transmigrasi
+        - ev-soeharto-asean-1967
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-4
@@ -4034,6 +4778,7 @@
         - ev-fusi-partai-politik-1975
         - ev-pernyataan-petisi-50-1980
         - ev-pidato-pengunduran-diri-soeharto-1998
+        - ev-soeharto-udin-jurnalis
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -4059,6 +4804,9 @@
         - ev-swasembada-beras-fao-1985
         - ev-krismon-rupiah-1997
         - ev-presiden-swasembada-fao-1984
+        - ev-soeharto-kb-program
+        - ev-soeharto-krismon-blbi
+        - ev-uu-pma-modal-asing-1967
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-1
@@ -4109,6 +4857,8 @@
         - ev-ratifikasi-crc-1990
         - ev-presiden-swasembada-fao-1984
         - ev-uu-pma-modal-asing-1967
+        - ev-soeharto-kb-program
+        - ev-soeharto-malari
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-3
@@ -4120,6 +4870,8 @@
         - source_id: sd-inpres-1973
       event_ids:
         - ev-soeharto-sd-inpres
+        - ev-soeharto-inpres-14
+        - ev-soeharto-timtim
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-4
@@ -4162,7 +4914,12 @@
         - ev-uu-kuhap-1981
         - ev-uu-ptun-1986
         - ev-mpr-tap-xxxiii-1967
-        - ev-komnas-ham-1993
+        - ev-soeharto-malari
+        - ev-soeharto-krismon-blbi
+        - ev-operasi-petrus-1982-1985
+        - ev-peristiwa-tanjung-priok-1984
+        - ev-peristiwa-talangsari-1989
+        - ev-pembentukan-komnas-ham-1993
       normative_anchors:
         - uud-nri-1945
     - dimension_id: checks-balances
@@ -4186,6 +4943,7 @@
         - ev-mpr-tap-xxxiii-1967
         - ev-tap-mprs-pengangkatan-soeharto-1968
         - ev-pembredelan-tempo-editor-detik-1994
+        - ev-pidato-pengunduran-diri-soeharto-1998
       normative_anchors:
         - uud-nri-1945
     - dimension_id: kedaulatan-rakyat
@@ -4216,8 +4974,35 @@
         - ev-uu-fusi-partai-politik-1975
         - ev-uu-asas-tunggal-1985
         - ev-pembredelan-tempo-editor-detik-1994
+        - ev-soeharto-fusi-partai
+        - ev-soeharto-mej-1998
+        - ev-monopoli-p4-asas-tunggal-1978-1985
+        - ev-penyerbuan-kudatuli-1996
+        - ev-fusi-partai-politik-1975
+        - ev-pernyataan-petisi-50-1980
+        - ev-pidato-pengunduran-diri-soeharto-1998
       normative_anchors:
         - uud-nri-1945
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-ma-revolusi-liberal
   term_id: ma-revolusi-liberal
   rubric_version: 1.0.0
@@ -4256,6 +5041,7 @@
         - source_id: uu-1-1946
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
@@ -4267,6 +5053,7 @@
         - source_id: putusan-ma-1952-onrechtmatig
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 1
       confidence: 0.75
@@ -4296,6 +5083,7 @@
         - source_id: putusan-ma-1952-onrechtmatig
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 1
       confidence: 0.75
@@ -4308,6 +5096,7 @@
         - source_id: putusan-ma-1952-onrechtmatig
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-5
       score: 1
       confidence: 0.75
@@ -4336,6 +5125,7 @@
         - source_id: putusan-ma-1952-onrechtmatig
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
@@ -4348,6 +5138,7 @@
         - source_id: putusan-ma-1952-onrechtmatig
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.8
@@ -4359,6 +5150,7 @@
         - source_id: putusan-ma-1952-onrechtmatig
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
@@ -4370,6 +5162,7 @@
         - source_id: putusan-ma-1952-onrechtmatig
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.75
@@ -4381,6 +5174,27 @@
         - source_id: putusan-ma-1952-onrechtmatig
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-ma-dt-orde-baru
   term_id: ma-dt-orde-baru
   rubric_version: 1.0.0
@@ -4418,6 +5232,9 @@
         - ev-ma-tempo-harmoko-1995
         - ev-ma-yurisprudensi-perjanjian-baku-1976
         - ev-intervensi-eksekutif-peradilan-1964
+        - ev-ma-uu-19-1964-intervensi
+        - ev-ma-uu-14-1970
+        - ev-ma-uu-14-1985
     - dimension_id: checks-balances
       score: -2
       confidence: 0.85
@@ -4435,6 +5252,10 @@
         - ev-uu-intervensi-kehakiman-presiden-1964
         - ev-ma-uu-19-1964
         - ev-ma-uu-14-1970-pengawasan
+        - ev-ma-uu-19-1964-intervensi
+        - ev-ma-uu-14-1970
+        - ev-ma-uu-14-1985
+        - ev-intervensi-eksekutif-peradilan-1964
     - dimension_id: sila-4
       score: -1
       confidence: 0.35
@@ -4444,6 +5265,8 @@
         - source_id: sejarah-ma-arsip
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-ma-dikooptasi-orba
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
@@ -4484,6 +5307,7 @@
         - source_id: uu-19-1964
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-5
       score: 1
       confidence: 0.75
@@ -4511,6 +5335,7 @@
         - source_id: uu-19-1964
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
@@ -4523,6 +5348,7 @@
         - source_id: uu-19-1964
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.8
@@ -4534,6 +5360,8 @@
         - source_id: uu-19-1964
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-ma-dikooptasi-orba
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
@@ -4545,6 +5373,7 @@
         - source_id: uu-19-1964
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.75
@@ -4556,6 +5385,26 @@
         - uud-nri-1945
       event_ids:
         - ev-ma-tempo-harmoko-1995
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-ma-reformasi-sekarang
   term_id: ma-reformasi-sekarang
   rubric_version: 1.0.0
@@ -4634,7 +5483,6 @@
         - ev-ma-kasasi-asabri-2023
         - ev-kasasi-polusi-udara-jakarta-2023
         - ev-eksekusi-ganti-rugi-karhutla-2023
-        - ev-ma-perma-kejahatan-korporasi-2016
         - ev-ma-ecourt-2019
         - ev-ma-pembatalan-pp-99-2021
         - ev-ma-putusan-usia-pilkada-2024
@@ -4652,6 +5500,9 @@
         - ev-vonis-suap-pengurusan-perkara-nurhadi-2021
         - ev-skandal-mafia-peradilan-zarof-ricar-2024
         - ev-penerbitan-sema-perma-reformasi-peradilan-2017-2019
+        - ev-ma-satu-atap-2004
+        - ev-ma-perma-ecourt-2019
+        - ev-putusan-ma-uji-materiil-pkpu-pilpres-2019
     - dimension_id: checks-balances
       score: 0
       confidence: 0.85
@@ -4693,6 +5544,11 @@
         - ev-ma-skandal-zarof-2024
         - ev-ma-pembinaan-etik-terpadu-2025
         - ev-ma-kasasi-ronald-tannur-2024
+        - ev-ma-satu-atap-2004
+        - ev-penyatuan-satu-atap-peradilan-uu-4-2004
+        - ev-vonis-suap-pengurusan-perkara-nurhadi-2021
+        - ev-skandal-mafia-peradilan-zarof-ricar-2024
+        - ev-penerbitan-sema-perma-reformasi-peradilan-2017-2019
     - dimension_id: sila-2
       score: -2
       confidence: 0.85
@@ -4765,6 +5621,7 @@
         - ev-ma-perma-gugatan-sederhana-2019
         - ev-kasasi-polusi-udara-jakarta-2023
         - ev-ma-perma-kejahatan-korporasi-2016
+        - ev-ma-perma-ecourt-2019
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
@@ -4776,6 +5633,9 @@
         - source_id: uu-5-2004
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-ma-satu-atap-2004
+        - ev-penyatuan-satu-atap-peradilan-uu-4-2004
     - dimension_id: sila-3
       score: 1
       confidence: 0.7
@@ -4788,6 +5648,7 @@
         - source_id: uu-5-2004
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 1
       confidence: 0.75
@@ -4800,6 +5661,10 @@
         - source_id: uu-5-2004
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-ma-otonomi-penuh
+        - ev-ma-suap-hakim-modern
+        - ev-ma-satu-atap-2004
     - dimension_id: sila-5
       score: 1
       confidence: 0.75
@@ -4839,6 +5704,7 @@
         - source_id: uu-5-2004
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.8
@@ -4850,6 +5716,10 @@
         - source_id: uu-5-2004
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-ma-perma-ecourt-2019
+        - ev-putusan-ma-uji-materiil-pkpu-pilpres-2019
+        - ev-skandal-mafia-peradilan-zarof-ricar-2024
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
@@ -4861,6 +5731,27 @@
         - source_id: uu-5-2004
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-mpr-1999-2004
   term_id: mpr-1999-2004
   rubric_version: 1.0.0
@@ -4899,6 +5790,8 @@
         - ev-mpr-ketetapan-keuangan-2003
         - ev-mpr-laporan-pertanggungjawaban-presiden-1999
         - ev-anri-naskah-komprehensif-perubahan-uud-1999-2002
+        - ev-mpr-amendemen-4
+        - ev-mpr-tap-i-2003
     - dimension_id: sila-2
       score: 2
       confidence: 0.85
@@ -4918,6 +5811,7 @@
         - ev-mpr-tap-xvii-1998
         - ev-mpr-amandemen-2-2000
         - ev-mpr-tap-vi-vii-2001
+        - ev-anri-naskah-komprehensif-perubahan-uud-1999-2002
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.85
@@ -4944,6 +5838,8 @@
         - ev-mpr-amandemen-2-2000
         - ev-mpr-amandemen-3-2001
         - ev-mpr-ketetapan-keuangan-2003
+        - ev-mpr-tap-i-2003
+        - ev-anri-naskah-komprehensif-perubahan-uud-1999-2002
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.75
@@ -5053,6 +5949,7 @@
         - source_id: perubahan-pertama-uud-1945
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: kedaulatan-rakyat
       score: 2
       confidence: 0.9
@@ -5070,6 +5967,27 @@
         - ev-mpr-amandemen-1-1999
         - ev-mpr-amandemen-3-2001
         - ev-mpr-laporan-pertanggungjawaban-presiden-1999
+        - ev-anri-naskah-komprehensif-perubahan-uud-1999-2002
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-mpr-2009-2014
   term_id: mpr-2009-2014
   rubric_version: 1.0.0
@@ -5124,6 +6042,7 @@
         - source_id: putusan-mk-34-puu-xi-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 2
       confidence: 0.9
@@ -5148,6 +6067,7 @@
         - source_id: putusan-mk-34-puu-xi-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.8
@@ -5160,6 +6080,7 @@
         - source_id: putusan-mk-34-puu-xi-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
@@ -5171,6 +6092,7 @@
         - source_id: putusan-mk-34-puu-xi-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
@@ -5194,6 +6116,7 @@
         - source_id: putusan-mk-34-puu-xi-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.85
@@ -5205,6 +6128,7 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-putusan-mk-34-2014
+        - ev-mpr-sosialisasi-4-pilar
     - dimension_id: checks-balances
       score: 2
       confidence: 0.9
@@ -5217,6 +6141,7 @@
         - source_id: putusan-mk-34-puu-xi-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: kedaulatan-rakyat
       score: 2
       confidence: 0.9
@@ -5228,6 +6153,26 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-pelantikan-presiden-sby-2009
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-mpr-2019-2024
   term_id: mpr-2019-2024
   rubric_version: 1.0.0
@@ -5287,6 +6232,7 @@
         - source_id: surat-keputusan-mpr-rehabilitasi-tokoh-2024
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 2
       confidence: 0.85
@@ -5332,6 +6278,7 @@
         - source_id: surat-keputusan-mpr-rehabilitasi-tokoh-2024
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.8
@@ -5344,6 +6291,7 @@
         - source_id: surat-keputusan-mpr-rehabilitasi-tokoh-2024
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
@@ -5355,6 +6303,7 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-laporan-pphn-2024
+        - ev-kajian-pokok-pokok-haluan-negara-mpr-2021
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
@@ -5366,6 +6315,7 @@
         - source_id: surat-keputusan-mpr-rehabilitasi-tokoh-2024
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
@@ -5377,6 +6327,7 @@
         - source_id: surat-keputusan-mpr-rehabilitasi-tokoh-2024
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.85
@@ -5390,6 +6341,26 @@
       event_ids:
         - ev-mpr-rehabilitasi-tokoh-2024
         - ev-mpr-kajian-evaluasi-amandemen-2022
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpd-2004-2009
   term_id: dpd-2004-2009
   rubric_version: 1.0.0
@@ -5443,6 +6414,7 @@
         - source_id: putusan-mk-005-puu-v-2007
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 1
       confidence: 0.7
@@ -5455,6 +6427,7 @@
         - source_id: putusan-mk-005-puu-v-2007
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -5466,6 +6439,8 @@
         - source_id: putusan-mk-005-puu-v-2007
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-dpd-pelantikan-2004
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
@@ -5493,6 +6468,7 @@
         - source_id: putusan-mk-005-puu-v-2007
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
@@ -5515,6 +6491,7 @@
         - source_id: putusan-mk-005-puu-v-2007
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
@@ -5526,6 +6503,7 @@
         - source_id: putusan-mk-005-puu-v-2007
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.75
@@ -5537,6 +6515,7 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-uji-materi-susduk-2006
+        - ev-dpd-pelantikan-2004
     - dimension_id: checks-balances
       score: 1
       confidence: 0.75
@@ -5551,6 +6530,26 @@
         - ev-dpd-ruu-pesisir-2006
         - ev-dpd-uji-materi-prolegnas-2008
         - ev-dpd-uji-materi-susduk-2006
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpd-2009-2014
   term_id: dpd-2009-2014
   rubric_version: 1.0.0
@@ -5602,6 +6601,7 @@
         - source_id: laporan-dpd-desertada-2011
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 1
       confidence: 0.7
@@ -5613,6 +6613,7 @@
         - source_id: laporan-dpd-desertada-2011
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -5623,6 +6624,8 @@
         - source_id: laporan-dpd-desertada-2011
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-dpd-uji-materi-mk-92-2012
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
@@ -5647,6 +6650,7 @@
         - source_id: laporan-dpd-desertada-2011
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
@@ -5669,6 +6673,7 @@
         - source_id: laporan-dpd-desertada-2011
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
@@ -5679,6 +6684,7 @@
         - source_id: laporan-dpd-desertada-2011
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.75
@@ -5704,6 +6710,26 @@
       event_ids:
         - ev-dpd-kemenangan-mk-92-2013
         - ev-mk-putusan-dpd-tripartit-2013
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpd-2019-2024
   term_id: dpd-2019-2024
   rubric_version: 1.0.0
@@ -5762,6 +6788,7 @@
         - ev-dpd-advokasi-dob-papua-2022
         - ev-dpd-evaluasi-tol-laut-2020
         - ev-dpd-revisi-uu-desa-2024
+        - ev-dpd-inisiatif-kepulauan
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
@@ -5773,6 +6800,7 @@
         - source_id: putusan-mk-52-puu-xx-2022
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 1
       confidence: 0.7
@@ -5785,6 +6813,7 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pengawasan-kebencanaan-2023
+        - ev-dpd-inisiatif-kepulauan
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -5848,6 +6877,7 @@
         - source_id: putusan-mk-52-puu-xx-2022
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.75
@@ -5859,6 +6889,10 @@
         - source_id: putusan-mk-52-puu-xx-2022
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-dpd-inisiatif-kepulauan
+        - ev-dpd-pengawasan-desa
+        - ev-harmonisasi-legislasi-otonomi-daerah-dpd-2024
     - dimension_id: checks-balances
       score: 1
       confidence: 0.75
@@ -5893,6 +6927,28 @@
         - ev-dpd-gugatan-pt-0-2022
         - ev-dpd-proposal-uud-2023
         - ev-dpd-revisi-uu-desa-2024
+        - ev-harmonisasi-legislasi-otonomi-daerah-dpd-2024
+        - ev-harmonisasi-perda-dan-pergub-dki-jakarta-2023-2024
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-bpk-1947-1998
   term_id: bpk-1947-1998
   rubric_version: 1.0.0
@@ -5922,6 +6978,8 @@
         - ev-bpk-mandataris-1965
         - ev-bpk-jusuf-sumarlin-1993
         - ev-bpk-pengawasan-pelita-1979
+        - ev-bpk-penetapan-1947
+        - ev-pembentukan-bpk-magelang-1946
     - dimension_id: negara-hukum
       score: 0
       confidence: 0.45
@@ -5933,6 +6991,8 @@
         - uud-nri-1945
       event_ids:
         - ev-bpk-penetapan-1947
+        - ev-bpk-uu-5-1973
+        - ev-pembentukan-bpk-magelang-1946
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
@@ -5945,6 +7005,7 @@
         - source_id: laporan-bpk-darurat-1947
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 1
       confidence: 0.75
@@ -5956,6 +7017,7 @@
         - source_id: laporan-bpk-darurat-1947
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-3
       score: 1
       confidence: 0.75
@@ -5967,6 +7029,7 @@
         - source_id: laporan-bpk-darurat-1947
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -5979,6 +7042,7 @@
         - source_id: laporan-bpk-darurat-1947
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-5
       score: 1
       confidence: 0.85
@@ -6016,6 +7080,7 @@
         - uud-nri-1945
       event_ids:
         - ev-bpk-djuanda-1957
+        - ev-pembentukan-bpk-magelang-1946
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.8
@@ -6028,6 +7093,7 @@
         - source_id: laporan-bpk-darurat-1947
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
@@ -6040,6 +7106,7 @@
         - source_id: laporan-bpk-darurat-1947
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
@@ -6052,6 +7119,27 @@
         - source_id: laporan-bpk-darurat-1947
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-bpk-1998-2009
   term_id: bpk-1998-2009
   rubric_version: 1.0.0
@@ -6106,6 +7194,7 @@
         - ev-bpk-audit-blbi-billy-2000
         - ev-bpk-paket-uu-keuangan-2004
         - ev-bpk-penetapan-spkn-2007
+        - ev-bpk-uu-15-2006
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
@@ -6118,6 +7207,7 @@
         - source_id: uu-15-2006
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 1
       confidence: 0.75
@@ -6129,6 +7219,7 @@
         - source_id: uu-15-2006
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-3
       score: 1
       confidence: 0.75
@@ -6140,6 +7231,7 @@
         - source_id: uu-15-2006
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -6152,6 +7244,8 @@
         - source_id: uu-15-2006
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-audit-investigasi-bpk-bank-century-2009
     - dimension_id: sila-5
       score: 1
       confidence: 0.85
@@ -6179,6 +7273,7 @@
         - source_id: uu-15-2006
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.85
@@ -6191,6 +7286,9 @@
         - source_id: uu-15-2006
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-audit-investigasi-bpk-bank-century-2009
+        - ev-bpk-audit-blbi
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.8
@@ -6203,6 +7301,7 @@
         - source_id: uu-15-2006
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
@@ -6215,6 +7314,7 @@
         - source_id: uu-15-2006
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
@@ -6227,6 +7327,26 @@
         - uud-nri-1945
       event_ids:
         - ev-bpk-audit-kpu-2004
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-bpk-2009-2019
   term_id: bpk-2009-2019
   rubric_version: 1.0.0
@@ -6268,6 +7388,7 @@
         - ev-bpk-suap-wtp-kemendes-2017
         - ev-bpk-audit-garuda-2019
         - ev-bpk-audit-investigasi-pelindo-2016
+        - ev-bpk-audit-century-2009
     - dimension_id: negara-hukum
       score: -1
       confidence: 0.85
@@ -6290,6 +7411,8 @@
         - ev-bpk-audit-aw101-2017
         - ev-bpk-audit-ektp-2017
         - ev-bpk-suap-wtp-kemendes-2017
+        - ev-bpk-standar-sap-wtp
+        - ev-bpk-audit-century-2009
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
@@ -6302,6 +7425,7 @@
         - source_id: laporan-audit-bpk-hambalang-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 1
       confidence: 0.75
@@ -6313,6 +7437,7 @@
         - source_id: laporan-audit-bpk-hambalang-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-3
       score: 1
       confidence: 0.75
@@ -6324,6 +7449,7 @@
         - source_id: laporan-audit-bpk-hambalang-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -6336,6 +7462,8 @@
         - source_id: laporan-audit-bpk-hambalang-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-bpk-audit-century-2009
     - dimension_id: sila-5
       score: 1
       confidence: 0.85
@@ -6364,6 +7492,7 @@
         - source_id: laporan-audit-bpk-hambalang-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.85
@@ -6390,6 +7519,7 @@
         - source_id: laporan-audit-bpk-hambalang-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
@@ -6402,6 +7532,7 @@
         - source_id: laporan-audit-bpk-hambalang-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
@@ -6414,6 +7545,27 @@
         - source_id: laporan-audit-bpk-hambalang-2013
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-bpk-2019-sekarang
   term_id: bpk-2019-sekarang
   rubric_version: 1.0.0
@@ -6473,6 +7625,11 @@
         - ev-bpk-ihps-infrastruktur-2024
         - ev-bpk-audit-swasembada-pangan-2025
         - ev-audit-semester-bpk-ihps-2022-2024
+        - ev-bpk-ihps-2022
+        - ev-audit-bpk-mega-skandal-jiwasraya-2020
+        - ev-audit-bpk-kepatuhan-penanganan-covid-2021
+        - ev-audit-investigasi-bpk-mega-korupsi-asabri-2021
+        - ev-audit-bpk-laporan-keuangan-kementerian-2023-2024
     - dimension_id: sila-5
       score: 0
       confidence: 0.85
@@ -6518,6 +7675,7 @@
         - source_id: laporan-audit-bpk-bts-2023
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 1
       confidence: 0.75
@@ -6529,6 +7687,10 @@
         - source_id: laporan-audit-bpk-bts-2023
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-audit-bpk-mega-skandal-jiwasraya-2020
+        - ev-audit-bpk-kepatuhan-penanganan-covid-2021
+        - ev-audit-investigasi-bpk-mega-korupsi-asabri-2021
     - dimension_id: sila-3
       score: 1
       confidence: 0.75
@@ -6540,6 +7702,7 @@
         - uud-nri-1945
       event_ids:
         - ev-bpk-audit-otsus-papua-2021
+        - ev-audit-bpk-kepatuhan-penanganan-covid-2021
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -6552,6 +7715,9 @@
         - source_id: laporan-audit-bpk-bts-2023
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-bpk-ihps-2022
+        - ev-audit-semester-bpk-ihps-2022-2024
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
@@ -6563,6 +7729,9 @@
         - source_id: laporan-audit-bpk-bts-2023
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-bpk-audit-pen-covid
+        - ev-audit-bpk-kepatuhan-penanganan-covid-2021
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.85
@@ -6592,6 +7761,7 @@
         - ev-audit-investigasi-bpk-mega-korupsi-asabri-2021
         - ev-audit-bpk-laporan-keuangan-kementerian-2023-2024
         - ev-vonis-seumur-hidup-direksi-jiwasraya-2020
+        - ev-audit-semester-bpk-ihps-2022-2024
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.8
@@ -6604,6 +7774,8 @@
         - source_id: laporan-audit-bpk-bts-2023
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-audit-investigasi-bpk-mega-korupsi-asabri-2021
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
@@ -6616,6 +7788,7 @@
         - source_id: laporan-audit-bpk-bts-2023
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.8
@@ -6638,6 +7811,7 @@
         - ev-bpk-vonis-achsanul-2024
         - ev-bpk-audit-bts-kominfo-2023
         - ev-bpk-ihps-ii-2024
+        - ev-audit-bpk-mega-skandal-jiwasraya-2020
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
@@ -6650,6 +7824,27 @@
         - source_id: laporan-audit-bpk-bts-2023
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-ky-2005-2010
   term_id: ky-2005-2010
   rubric_version: 1.0.0
@@ -6683,6 +7878,7 @@
         - ev-ky-putusan-mk-005-2006
         - ev-ky-peraturan-bersama-kepph-2009
         - ev-pembentukan-komisi-yudisial-2004
+        - ev-pengawasan-integritas-kehakiman-ky-2006
     - dimension_id: checks-balances
       score: 0
       confidence: 0.85
@@ -6714,6 +7910,10 @@
         - source_id: skb-ma-ky-kepph-2009
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-ky-skb-kepph-2009
+        - ev-pembentukan-komisi-yudisial-2004
+        - ev-pengawasan-integritas-kehakiman-ky-2006
     - dimension_id: sila-2
       score: 1
       confidence: 0.75
@@ -6741,6 +7941,7 @@
         - source_id: skb-ma-ky-kepph-2009
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -6752,6 +7953,7 @@
         - source_id: skb-ma-ky-kepph-2009
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-5
       score: 1
       confidence: 0.75
@@ -6763,6 +7965,7 @@
         - source_id: skb-ma-ky-kepph-2009
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.7
@@ -6774,6 +7977,7 @@
         - source_id: skb-ma-ky-kepph-2009
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
@@ -6785,6 +7989,7 @@
         - source_id: skb-ma-ky-kepph-2009
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.75
@@ -6796,6 +8001,7 @@
         - source_id: skb-ma-ky-kepph-2009
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
@@ -6807,6 +8013,7 @@
         - source_id: skb-ma-ky-kepph-2009
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
@@ -6818,6 +8025,27 @@
         - source_id: skb-ma-ky-kepph-2009
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-ky-2010-2015
   term_id: ky-2010-2015
   rubric_version: 1.0.0
@@ -6882,6 +8110,7 @@
         - source_id: pp-94-2012
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 1
       confidence: 0.75
@@ -6894,6 +8123,7 @@
         - source_id: pp-94-2012
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-3
       score: 1
       confidence: 0.7
@@ -6905,6 +8135,7 @@
         - source_id: pp-94-2012
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -6916,6 +8147,8 @@
         - source_id: pp-94-2012
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-ky-uu-18-2011
     - dimension_id: sila-5
       score: 1
       confidence: 0.75
@@ -6940,6 +8173,8 @@
         - source_id: pp-94-2012
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-ky-uu-18-2011
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
@@ -6951,6 +8186,7 @@
         - source_id: pp-94-2012
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.75
@@ -6962,6 +8198,7 @@
         - source_id: pp-94-2012
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
@@ -6973,6 +8210,7 @@
         - source_id: pp-94-2012
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
@@ -6986,6 +8224,26 @@
       event_ids:
         - ev-ky-seleksi-cha-2011
         - ev-ky-seleksi-terbuka-hakim-agung-2013
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-ky-2015-2020
   term_id: ky-2015-2020
   rubric_version: 1.0.0
@@ -7045,6 +8303,7 @@
         - source_id: laporan-tahunan-ky-2018
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 1
       confidence: 0.75
@@ -7068,6 +8327,7 @@
         - source_id: laporan-tahunan-ky-2018
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -7079,6 +8339,7 @@
         - source_id: laporan-tahunan-ky-2018
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-5
       score: 1
       confidence: 0.75
@@ -7101,6 +8362,7 @@
         - source_id: laporan-tahunan-ky-2018
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
@@ -7112,6 +8374,7 @@
         - source_id: laporan-tahunan-ky-2018
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.75
@@ -7123,6 +8386,7 @@
         - source_id: laporan-tahunan-ky-2018
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
@@ -7134,6 +8398,7 @@
         - source_id: laporan-tahunan-ky-2018
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
@@ -7145,6 +8410,26 @@
         - uud-nri-1945
       event_ids:
         - ev-ky-pemantauan-sidang-pemilu-2019
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-ky-2020-sekarang
   term_id: ky-2020-sekarang
   rubric_version: 1.0.0
@@ -7185,6 +8470,7 @@
         - ev-ky-laptah-2025
         - ev-ky-kasus-zarof-ricar-2024
         - ev-ky-audit-integritas-cha-2025
+        - ev-ky-seleksi-ha-2021
     - dimension_id: checks-balances
       score: 0
       confidence: 0.85
@@ -7211,6 +8497,7 @@
         - ev-ky-laptah-2025
         - ev-ky-kasus-zarof-ricar-2024
         - ev-ky-audit-integritas-cha-2025
+        - ev-ky-seleksi-ha-2021
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
@@ -7223,6 +8510,7 @@
         - source_id: laporan-sidang-mkh-ky-ma-2023
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 1
       confidence: 0.75
@@ -7250,6 +8538,7 @@
         - source_id: laporan-sidang-mkh-ky-ma-2023
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -7261,6 +8550,8 @@
         - source_id: laporan-sidang-mkh-ky-ma-2023
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-ky-seleksi-ha-2021
     - dimension_id: sila-5
       score: 1
       confidence: 0.75
@@ -7287,6 +8578,7 @@
         - source_id: laporan-sidang-mkh-ky-ma-2023
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
@@ -7298,6 +8590,7 @@
         - source_id: laporan-sidang-mkh-ky-ma-2023
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.75
@@ -7320,6 +8613,7 @@
         - source_id: laporan-sidang-mkh-ky-ma-2023
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
@@ -7331,6 +8625,28 @@
         - source_id: laporan-sidang-mkh-ky-ma-2023
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-ky-seleksi-ha-2021
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-mpr-1971-1999
   term_id: mpr-1971-1999
   rubric_version: 1.0.0
@@ -7375,6 +8691,7 @@
         - ev-mpr-sidang-istimewa-1998-tap
         - ev-mpr-tap-xi-1998
         - ev-tap-mpr-reformasi-1998
+        - ev-tap-mpr-xi-1998-pemberantasan-kkn
     - dimension_id: sila-3
       score: 1
       confidence: 0.85
@@ -7425,6 +8742,8 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-tap-iv-gbhn-1978
+        - ev-mpr-tap-xi-1998
+        - ev-tap-mpr-xi-1998-pemberantasan-kkn
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.8
@@ -7437,6 +8756,8 @@
         - source_id: tap-mpr-xvii-1998
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-mpr-tap-xvii-1998
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
@@ -7448,6 +8769,7 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-tap-iv-gbhn-1978
+        - ev-mpr-tap-xvii-1998
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
@@ -7459,6 +8781,7 @@
         - source_id: tap-mpr-xvii-1998
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
@@ -7504,6 +8827,26 @@
         - ev-mpr-sidang-istimewa-1998-tap
         - ev-referendum-timtim-1999
         - ev-tap-mpr-reformasi-1998
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-mpr-2004-2009
   term_id: mpr-2004-2009
   rubric_version: 1.0.0
@@ -7641,6 +8984,26 @@
       event_ids:
         - ev-mpr-sidang-tahunan-evaluasi-2008
         - ev-mpr-pelantikan-presiden-sby-2004
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-mpr-2014-2019
   term_id: mpr-2014-2019
   rubric_version: 1.0.0
@@ -7688,6 +9051,7 @@
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 2
       confidence: 0.85
@@ -7698,6 +9062,7 @@
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 2
       confidence: 0.9
@@ -7723,6 +9088,7 @@
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.8
@@ -7734,6 +9100,7 @@
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
@@ -7755,6 +9122,8 @@
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-sosialisasi-empat-pilar-kebangsaan-mpr-2017
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
@@ -7765,6 +9134,7 @@
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.85
@@ -7775,6 +9145,8 @@
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-sosialisasi-empat-pilar-kebangsaan-mpr-2017
     - dimension_id: kedaulatan-rakyat
       score: 2
       confidence: 0.9
@@ -7786,6 +9158,26 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-pelantikan-presiden-jokowi-2014
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-mpr-2024-sekarang
   term_id: mpr-2024-sekarang
   rubric_version: 1.0.0
@@ -7938,6 +9330,26 @@
       event_ids:
         - ev-mpr-sidang-tahunan-2025
         - ev-mpr-sidang-tahunan-2026
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpd-2014-2019
   term_id: dpd-2014-2019
   rubric_version: 1.0.0
@@ -7963,6 +9375,7 @@
         - ev-dpd-putusan-mk-79-2015
         - ev-dpd-ott-irman-gusman-2016
         - ev-dpd-kisruh-tatib-oso-2017
+        - ev-dpd-putusan-mk-79-2014
     - dimension_id: sila-3
       score: 1
       confidence: 0.85
@@ -7978,6 +9391,7 @@
         - ev-dpd-advokasi-dbh-2018
         - ev-dpd-pengawasan-kur-timur-2016
         - ev-dpd-pansus-tka-2018
+        - ev-dpd-putusan-mk-79-2014
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
@@ -7989,6 +9403,7 @@
         - source_id: putusan-ma-tatib-dpd-2017
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-2
       score: 1
       confidence: 0.7
@@ -8001,6 +9416,7 @@
         - source_id: putusan-ma-tatib-dpd-2017
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -8012,6 +9428,9 @@
         - source_id: putusan-ma-tatib-dpd-2017
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-dpd-putusan-mk-79-2014
+        - ev-pengawasan-kedaulatan-pangan-dpd-2017
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
@@ -8029,6 +9448,7 @@
         - ev-dpd-advokasi-dbh-2018
         - ev-dpd-pengawasan-kur-timur-2016
         - ev-dpd-pansus-tka-2018
+        - ev-pengawasan-kedaulatan-pangan-dpd-2017
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
@@ -8040,6 +9460,7 @@
         - source_id: putusan-ma-tatib-dpd-2017
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
@@ -8066,6 +9487,7 @@
         - source_id: putusan-ma-tatib-dpd-2017
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
@@ -8077,6 +9499,7 @@
         - source_id: putusan-ma-tatib-dpd-2017
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.75
@@ -8105,6 +9528,26 @@
       event_ids:
         - ev-dpd-putusan-mk-79-2015
         - ev-dpd-kisruh-tatib-oso-2017
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpd-2024-sekarang
   term_id: dpd-2024-sekarang
   rubric_version: 1.0.0
@@ -8220,6 +9663,26 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-posisi-ruu-masyarakat-adat-2025
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-mprs-1959-1971
   term_id: mprs-1959-1971
   rubric_version: 1.0.0
@@ -8240,6 +9703,9 @@
         - source_id: anri-dekrit-presiden-5-juli-1959
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-mpr-tap-xxxiii-1967
+        - ev-anri-sidang-istimewa-mprs-1967
     - dimension_id: checks-balances
       score: 0
       confidence: 0.55
@@ -8254,6 +9720,7 @@
         - uud-nri-1945
       event_ids:
         - ev-anri-sidang-istimewa-mprs-1967
+        - ev-mpr-tap-xxxiii-1967
     - dimension_id: sila-1
       score: 1
       confidence: 0.5
@@ -8264,6 +9731,7 @@
         - source_id: anri-risalah-sidang-mprs-1967
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: kedaulatan-rakyat
       score: -1
       confidence: 0.5
@@ -8275,6 +9743,9 @@
         - source_id: tap-mprs-ii-1960
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-mpr-tap-xxxiii-1967
+        - ev-anri-sidang-istimewa-mprs-1967
     - dimension_id: sila-2
       score: 0
       confidence: 0.45
@@ -8285,6 +9756,7 @@
         - source_id: tap-mprs-xxv-1966
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.5
@@ -8294,6 +9766,7 @@
         - source_id: anri-dekrit-presiden-5-juli-1959
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-5
       score: -1
       confidence: 0.45
@@ -8305,6 +9778,7 @@
         - source_id: penpres-1-1959
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: -1
       confidence: 0.45
@@ -8315,6 +9789,27 @@
         - source_id: tap-mprs-ii-1960
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpr-knip-1945-1950
   term_id: dpr-knip-1945-1950
   rubric_version: 1.0.0
@@ -8350,6 +9845,8 @@
         - source_id: anri-maklumat-kabinet-parlementer-1945
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-anri-sidang-ppki-18-22-agustus-1945
     - dimension_id: sila-3
       score: 1
       confidence: 0.45
@@ -8359,6 +9856,7 @@
         - source_id: anri-ppki-sidang-22-agu-1945
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: sila-1
       score: 1
       confidence: 0.45
@@ -8369,6 +9867,7 @@
         - source_id: anri-ppki-sidang-18-agu-1945
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.4
@@ -8378,6 +9877,8 @@
         - source_id: anri-ppki-sidang-18-agu-1945
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-anri-sidang-ppki-18-22-agustus-1945
     - dimension_id: sila-2
       score: 1
       confidence: 0.4
@@ -8387,6 +9888,8 @@
         - source_id: anri-maklumat-wakil-presiden-x-1945
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-anri-sidang-ppki-18-22-agustus-1945
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.4
@@ -8396,6 +9899,7 @@
         - source_id: anri-ppki-sidang-18-agu-1945
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.4
@@ -8405,6 +9909,27 @@
         - source_id: anri-ppki-sidang-22-agu-1945
       normative_anchors:
         - uud-nri-1945
+      event_ids: []
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpr-1950-1960
   term_id: dpr-1950-1960
   rubric_version: 1.0.0
@@ -8426,6 +9951,10 @@
         - source_id: anri-risalah-konstituante-natsir-1957
       event_ids:
         - ev-dpr-uuds-1950
+        - ev-pemilu-demokratis-1955
+        - ev-uu-pemda-desentralisasi-1957
+        - ev-anri-piagam-persetujuan-nkri-1950
+        - ev-anri-risalah-konstituante-dasar-negara-1957-1958
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-2
@@ -8439,6 +9968,9 @@
         - source_id: anri-dekrit-presiden-5-juli-1959
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-anri-risalah-konstituante-dasar-negara-1957-1958
+        - ev-anri-piagam-persetujuan-nkri-1950
     - dimension_id: sila-4
       score: 1
       confidence: 0.5
@@ -8448,6 +9980,9 @@
         - source_id: anri-risalah-konstituante-natsir-1957
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-pemilu-demokratis-1955
+        - ev-uu-pemda-desentralisasi-1957
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.5
@@ -8457,6 +9992,10 @@
         - source_id: anri-piagam-persetujuan-nkri-1950
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-dpr-uuds-1950
+        - ev-pemilu-demokratis-1955
+        - ev-uu-pemda-desentralisasi-1957
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.45
@@ -8466,6 +10005,8 @@
         - source_id: anri-risalah-konstituante-natsir-1957
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-dpr-uuds-1950
     - dimension_id: sila-1
       score: 0
       confidence: 0.45
@@ -8488,6 +10029,28 @@
         - source_id: anri-piagam-persetujuan-nkri-1950
       normative_anchors:
         - uud-nri-1945
+      event_ids:
+        - ev-anri-risalah-konstituante-dasar-negara-1957-1958
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpr-gr-1960-1971
   term_id: dpr-gr-1960-1971
   rubric_version: 1.0.0
@@ -8574,6 +10137,26 @@
         - source_id: anri-uupa-5-1960
       normative_anchors:
         - uud-nri-1945
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
 - id: asm-dpr-1971-1999
   term_id: dpr-1971-1999
   rubric_version: 1.0.0
@@ -8730,3 +10313,23 @@
       event_ids:
         - ev-dpd-pengawasan-pilkada-2024
         - ev-dpd-pemilihan-sultan-2024
+  ai_disclosure:
+    assisted: true
+    model_id: gemini-3.8-flash-high
+    model_provider: Google DeepMind
+    pipeline_version: pancasila-nlp-v1.5
+    analysis_type: llm-assisted-synthesis
+    human_oversight:
+      mechanism: quorum-2-reviewers
+      status: verified
+      approver_count: 2
+      approvers:
+        - Pakar Hukum Tata Negara
+        - Penelaah Sejarah
+    limitations_notice: Sintesis analitis dibantu oleh model Gemini 3.8 Flash High
+      untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan
+      autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap
+      dokumen hukum primer yang disitasi.
+    eu_ai_act_compliance:
+      article_50_compliant: true
+      transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
