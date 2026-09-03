@@ -2266,11 +2266,14 @@
   title_id: Putusan MK No. 34/PUU-XI/2013 (Peninjauan Kembali / PK Perkara Pidana
     Boleh Diajukan Lebih dari Satu Kali Demi Menemukan Keadilan Hakiki)
   year: 2014
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=34/PUU-XI/2013
+  url: https://s.mkri.id/public/content/persidangan/putusan/putusan_sidang_1651_34
+    PUU 2013-telahucap-6Maret2014.pdf
   citation_id: Putusan MKRI No. 34/PUU-XI/2013
   r2_key: v2/putusan/putusan-mk-34-puu-xi-2013.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-34-puu-xi-2013.pdf
-  archive_ok: false
+  archive_ok: true
+  frbr_uri: /akn/id/judgment/mk/2013/34
+  source_verified: true
 - id: putusan-mk-69-puu-xiii-2015
   type: putusan-mk
   title_id: Putusan MK No. 69/PUU-XIII/2015 (Perjanjian Perkawinan / Pisah Harta Boleh
@@ -2861,11 +2864,13 @@
   title_id: Putusan MK No. 46/PUU-XIV/2016 (Penolakan Kriminalisasi Hubungan Seksual
     Konsensual Melalui Mahkamah Konstitusi)
   year: 2017
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=46/PUU-XIV/2016
+  url: https://s.mkri.id/public/content/persidangan/putusan/46_PUU-XIV_2016.pdf
   citation_id: Putusan MKRI No. 46/PUU-XIV/2016
   r2_key: v2/putusan/putusan-mk-46-puu-xiv-2016.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-46-puu-xiv-2016.pdf
-  archive_ok: false
+  archive_ok: true
+  frbr_uri: /akn/id/judgment/mk/2016/46
+  source_verified: true
 - id: laporan-audit-bpk-ektp-2017
   type: laporan-lembaga
   title_id: Laporan Penghitungan Kerugian Keuangan Negara BPK RI atas Pengadaan Paket
@@ -4887,10 +4892,12 @@
     bertentangan dengan UUD 1945)
   year: 2026
   citation_id: Putusan MKRI No. 282/PUU-XXIII/2025, diucapkan 28 Agustus 2026
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=282/PUU-XXIII/2025
+  url: https://s.mkri.id/public/content/persidangan/putusan/putusan_mkri_14867_1787904875.pdf
   r2_key: v2/putusan/putusan-mk-282-puu-xxiii-2025.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-282-puu-xxiii-2025.pdf
-  archive_ok: false
+  archive_ok: true
+  frbr_uri: /akn/id/judgment/mk/2025/282
+  source_verified: true
 - id: berita-antara-mk-240-241-kuhp-2026
   type: berita
   title_id: ANTARA — MK nyatakan Pasal 240 dan 241 KUHP bertentangan dengan UUD
@@ -5921,10 +5928,12 @@
     Retroaktif UU Anti-Terorisme)
   year: 2004
   citation_id: Putusan Mahkamah Konstitusi Nomor 013/PUU-I/2003
-  url: https://www.mkri.id/public/content/persidangan/putusan/putusan_sidang_Putusan013PUUI2003.pdf
+  url: https://s.mkri.id/public/content/persidangan/putusan/putusan_sidang_Putusan013PUUI2003.pdf
   r2_key: v2/putusan/putusan-mk-013-puu-i-2003.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-013-puu-i-2003.pdf
-  archive_ok: false
+  archive_ok: true
+  frbr_uri: /akn/id/judgment/mk/2003/13
+  source_verified: true
 - id: putusan-mk-011-012-puu-iii-2005
   type: putusan-mk
   title_id: Putusan MK No. 011 & 012/PUU-III/2005 (Mandat Konstitusional Alokasi Minimal
