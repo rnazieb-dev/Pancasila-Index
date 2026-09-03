@@ -84,8 +84,8 @@ export default function PeerReviewPage() {
         </ol>
       </section>
 
-      {/* CTA */}
-      <section className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {/* CTA Tools */}
+      <section className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
         <Link
           href="/usulkan-bukti"
           className="group rounded-xl border border-red-500/40 bg-red-500/10 p-5 hover:border-red-400 hover:bg-red-500/20 transition flex flex-col justify-between"
@@ -98,6 +98,22 @@ export default function PeerReviewPage() {
             </p>
           </div>
           <span className="mt-4 text-xs font-semibold text-[var(--acc-red)]">Buka Formulir →</span>
+        </Link>
+
+        <Link
+          href="/peer-review/import-data"
+          className="group rounded-xl border border-emerald-500/40 bg-emerald-500/10 p-5 hover:border-emerald-400 hover:bg-emerald-500/20 transition flex flex-col justify-between"
+        >
+          <div>
+            <div className="text-2xl mb-2.5">🗄️</div>
+            <h3 className="font-bold text-emerald-600 dark:text-emerald-400 group-hover:underline">
+              Audit Data Terbuka (CKAN)
+            </h3>
+            <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
+              Laboratorium uji kritis data resmi kementerian/lembaga dengan verifikasi Kuorum 2 Reviewer.
+            </p>
+          </div>
+          <span className="mt-4 text-xs font-semibold text-emerald-600 dark:text-emerald-400">Laboratorium Data →</span>
         </Link>
 
         <Link

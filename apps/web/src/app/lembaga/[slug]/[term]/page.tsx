@@ -245,74 +245,6 @@ export default async function TermPage({
       </div>
 
 
-      
-      <section className="mt-14 rounded-xl border border-[var(--acc-emerald)]/30 bg-[var(--acc-emerald)]/5 p-6 space-y-4">
-        <div className="flex flex-col md:flex-row gap-6 items-start justify-between">
-          <div>
-            <h2 className="text-xl font-bold text-[var(--acc-emerald)] flex items-center gap-2">
-              <span className="text-xl">🗄️</span> Audit Data Terbuka Pemerintah (CKAN DataStore)
-            </h2>
-            <p className="mt-1 text-sm text-[var(--muted)] leading-relaxed max-w-2xl">
-              Hasil uji kritis terhadap data resmi yang dipublikasikan kementerian/lembaga. Setiap temuan telah melalui pengujian independen dengan <strong>Kuorum 2 Reviewer</strong>.
-            </p>
-          </div>
-          <Link
-            href="/peer-review/import-data"
-            className="shrink-0 bg-[var(--acc-emerald)] text-white px-5 py-2.5 rounded-lg text-xs font-semibold hover:opacity-90 transition-opacity"
-          >
-            Uji Data Pemerintah &rarr;
-          </Link>
-        </div>
-
-        {publishedCkanAudits.length > 0 ? (
-          <div className="grid gap-3 pt-2">
-            {publishedCkanAudits.map((item) => (
-              <div key={item.id} className="p-4 rounded-lg border border-[var(--line)] bg-[var(--bg)] shadow-sm space-y-2">
-                <div className="flex justify-between items-start text-xs">
-                  <span className="font-bold text-[var(--text)]">{item.title}</span>
-                  <span className="bg-[var(--acc-emerald)]/10 text-[var(--acc-emerald)] px-2 py-0.5 rounded-full text-[10px] font-semibold">
-                    Terverifikasi Kuorum (2 Reviewer)
-                  </span>
-                </div>
-                <p className="text-xs text-[var(--text)] leading-relaxed bg-[var(--panel)] p-2.5 rounded border-l-2 border-[var(--acc-emerald)]">
-                  {item.contextNote}
-                </p>
-                <div className="space-y-1.5 pt-1 border-t border-[var(--line)]/50">
-                  <div className="flex flex-wrap justify-between items-center text-[11px] text-[var(--muted)]">
-                    <div>
-                      <span>Penelaah Utama: </span>
-                      <strong className="text-[var(--text)]">{item.contributor?.name || "Kontributor Terverifikasi"}</strong>
-                      {item.contributor?.title && <span className="ml-1 text-[10px]">({item.contributor.title})</span>}
-                      {item.contributor?.affiliation && (
-                        <span className="ml-1 text-[10px] text-[var(--muted)]">· {item.contributor.affiliation}</span>
-                      )}
-                    </div>
-                    <span className="font-mono text-[10px] bg-[var(--line)]/50 px-1.5 py-0.5 rounded">Dimensi: {item.relevantDimension}</span>
-                  </div>
-
-                  {item.contributor?.funding && (
-                    <div className="text-[10px] text-[var(--muted)] italic">
-                      Deklarasi Independensi: {item.contributor.funding}
-                    </div>
-                  )}
-
-                  {item.approverNames && item.approverNames.length > 0 && (
-                    <div className="text-[10px] text-[var(--muted)]">
-                      Persetujuan Kuorum: <span className="text-[var(--acc-emerald)] font-medium">{item.approverNames.join(" & ")}</span>
-                    </div>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div className="p-3 bg-[var(--bg)]/50 rounded-lg border border-[var(--line)] text-xs text-[var(--muted)] italic">
-            Belum ada audit CKAN yang dipublikasikan untuk periode ini. Jadilah Kontributor pertama yang menguji data resmi melalui tautan di atas.
-          </div>
-        )}
-      </section>
-
-
 
       {/* Radar lima sila */}
       <section className="mt-10 grid md:grid-cols-[320px_1fr] gap-8 items-center">
@@ -748,6 +680,52 @@ export default async function TermPage({
         </section>
       )}
 
+      {/* Hasil Audit Data Terbuka Pemerintah (Hanya tampil jika ada audit terverifikasi kuorum untuk periode ini) */}
+      {publishedCkanAudits.length > 0 && (
+        <section className="mt-14 rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 space-y-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-[var(--line)] pb-4">
+            <div>
+              <h3 className="font-bold text-lg text-[var(--text)] flex items-center gap-2">
+                <span>🗄️</span>
+                <span>Audit Data Terbuka Pemerintah Terverifikasi ({publishedCkanAudits.length})</span>
+              </h3>
+              <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
+                Temuan audit data resmi kementerian/lembaga (CKAN DataStore) yang telah melalui telaah sejawat independen dengan <strong>Kuorum 2 Reviewer</strong>.
+              </p>
+            </div>
+            <Link
+              href="/peer-review/import-data"
+              className="text-xs font-semibold text-[var(--acc-sky)] hover:underline shrink-0"
+            >
+              Laboratorium Audit Data →
+            </Link>
+          </div>
+
+          <div className="grid gap-3 pt-2">
+            {publishedCkanAudits.map((item) => (
+              <div key={item.id} className="p-4 rounded-lg border border-[var(--line)] bg-[var(--bg)] shadow-xs space-y-2">
+                <div className="flex justify-between items-start text-xs">
+                  <span className="font-bold text-[var(--text)]">{item.title}</span>
+                  <span className="bg-emerald-500/10 text-emerald-500 border border-emerald-500/20 px-2 py-0.5 rounded-full text-[10px] font-semibold">
+                    Terverifikasi Kuorum (2 Reviewer)
+                  </span>
+                </div>
+                <p className="text-xs text-[var(--text)] leading-relaxed bg-[var(--panel)] p-2.5 rounded border-l-2 border-emerald-500">
+                  {item.contextNote}
+                </p>
+                <div className="space-y-1.5 pt-1 border-t border-[var(--line)]/50 text-[11px] text-[var(--muted)] flex flex-wrap justify-between items-center">
+                  <div>
+                    <span>Penelaah: </span>
+                    <strong className="text-[var(--text)]">{item.contributor?.name || "Kontributor Terverifikasi"}</strong>
+                    {item.contributor?.affiliation && <span> · {item.contributor.affiliation}</span>}
+                  </div>
+                  <span className="font-mono text-[10px] bg-[var(--line)]/50 px-1.5 py-0.5 rounded">Dimensi: {item.relevantDimension}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }
