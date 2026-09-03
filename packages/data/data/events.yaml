@@ -3971,3 +3971,710 @@
     - sila-1
     - tujuan-2
     - checks-balances
+- id: ev-persetujuan-linggarjati-1947
+  term_id: presiden-soekarno-i
+  date: 1947-03-25
+  category: peristiwa
+  title_id: "Penandatanganan Naskah Persetujuan Linggarjati (1947): Pengakuan De
+    Facto Wilayah Republik"
+  summary_id: Pemerintah RI yang dipimpin Sutan Sjahrir dan Pemerintah Belanda
+    menandatangani Perjanjian Linggarjati yang mengakui kedaulatan de facto RI
+    atas Jawa, Madura, dan Sumatera, serta menyepakati pembentukan Republik
+    Indonesia Serikat.
+  source_ids:
+    - perjanjian-linggarjati-1947
+  dimension_ids:
+    - tujuan-4
+    - sila-3
+- id: ev-pernyataan-bersama-roem-roijen-1949
+  term_id: presiden-soekarno-i
+  date: 1949-05-07
+  category: peristiwa
+  title_id: "Pernyataan Bersama Perundingan Roem-Roijen 1949: Pengembalian
+    Pemerintahan RI ke Yogyakarta"
+  summary_id: Delegasi Indonesia dipimpin Mohammad Roem dan Belanda dipimpin
+    Herman van Roijen mencapai kesepakatan penghentian perang gerilya,
+    pembebasan para pemimpin RI dari pengasingan Bangka, serta pengembalian
+    ibukota Republik ke Yogyakarta.
+  source_ids:
+    - perjanjian-roem-roijen-1949
+  dimension_ids:
+    - tujuan-4
+    - sila-3
+- id: ev-penyelenggaraan-pilpres-langsung-pertama-2004
+  term_id: presiden-megawati
+  date: 2004-07-05
+  category: peristiwa
+  title_id: Penyelenggaraan Pemilihan Umum Presiden dan Wakil Presiden Secara
+    Langsung Pertama Kali (2004)
+  summary_id: Indonesia mencatat sejarah konstitusional dengan menyelenggarakan
+    pemilihan presiden secara langsung oleh rakyat dalam suasana damai, tertib,
+    dan demokratis, mengukuhkan peralihan kedaulatan rakyat dari MPR ke bilik
+    suara.
+  source_ids:
+    - arsip-pilpres-langsung-2004
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+- id: ev-penyatuan-satu-atap-peradilan-uu-4-2004
+  term_id: ma-reformasi-sekarang
+  date: 2004-01-15
+  category: produk-hukum
+  title_id: "Pengesahan UU Kekuasaan Kehakiman No. 4/2004: Penyatuan Sistem
+    Peradilan Satu Atap di Bawah Mahkamah Agung"
+  summary_id: Pengesahan UU No. 4/2004 menuntaskan pengalihan organisasi,
+    administrasi, dan finansial seluruh badan peradilan (Umum, Agama, Militer,
+    dan TUN) dari kementerian eksekutif ke bawah satu atap Mahkamah Agung guna
+    menjamin kemerdekaan kehakiman.
+  source_ids:
+    - uu-4-2004
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-pengawasan-integritas-kehakiman-ky-2006
+  term_id: ky-2005-2010
+  date: 2006-12-31
+  category: kebijakan
+  title_id: Penerbitan Laporan Tahunan Pertama Komisi Yudisial RI 2006 tentang
+    Pengawasan Etika Hakim
+  summary_id: Komisi Yudisial mempublikasikan laporan pemantauan dan pengawasan
+    perilaku hakim perdana pasca dibentuk, memproses ratusan laporan masyarakat
+    terkait dugaan pelanggaran kode etik di lembaga peradilan.
+  source_ids:
+    - laporan-tahunan-ky-2006
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+- id: ev-audit-investigasi-bpk-bank-century-2009
+  term_id: bpk-1998-2009
+  date: 2009-11-23
+  category: krisis
+  title_id: Penyerahan LHP Investigasi BPK RI atas Fasilitas Pendanaan Jangka
+    Pendek (FPJP) Bank Century ke DPR RI
+  summary_id: BPK RI menyerahkan Laporan Hasil Pemeriksaan Investigasi kasus Bank
+    Century senilai Rp 6,7 triliun kepada DPR, menemukan dugaan rekayasa aturan
+    BI dan ketidaktegasan KSSK dalam penetapan status bank gagal berdampak
+    sistemik.
+  source_ids:
+    - lhp-bpk-century-2009
+  dimension_ids:
+    - checks-balances
+    - tujuan-2
+- id: ev-putusan-mk-pemulihan-pilkada-langsung-2014
+  term_id: mk-2013-2018
+  date: 2014-10-09
+  category: pengadilan
+  title_id: "Putusan MK No. 73/PUU-XII/2014: Pemulihan Pilkada Langsung oleh
+    Rakyat Pasca Pembatalan UU Pilkada via DPRD"
+  summary_id: Mahkamah Konstitusi mengabulkan uji materiil dan menegaskan prinsip
+    pemilihan kepala daerah secara demokratis dan langsung oleh rakyat,
+    mengakhiri kontroversi pengalihan pemilihan kepala daerah ke DPRD.
+  source_ids:
+    - putusan-mk-73-2014
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+- id: ev-revisi-uu-ite-pembatasan-ekspresi-2016
+  term_id: presiden-jokowi-i
+  date: 2016-11-25
+  category: produk-hukum
+  title_id: "Pengesahan Revisi UU ITE No. 19 Tahun 2016: Kontroversi Kriminalisasi
+    Kebebasan Berekspresi Digital"
+  summary_id: Pemerintah dan DPR mengesahkan UU No. 19/2016 tentang Perubahan atas
+    UU ITE yang mempertahankan pasal karet pencemaran nama baik (Pasal 27 ayat
+    3), memicu gelombang kriminalisasi terhadap aktivis dan warganet.
+  source_ids:
+    - uu-19-2016
+  dimension_ids:
+    - sila-4
+    - negara-hukum
+- id: ev-vonis-suap-pesawat-garuda-emirsyah-satar-2020
+  term_id: presiden-sby-ii
+  date: 2020-05-08
+  category: pengadilan
+  title_id: Vonis Tipikor Kasus Suap Pengadaan Pesawat Garuda Indonesia oleh
+    Mantan Dirut Emirsyah Satar
+  summary_id: Pengadilan Tipikor menjatuhkan vonis pidana penjara dan denda
+    terhadap mantan Direktur Utama PT Garuda Indonesia Emirsyah Satar atas
+    penerimaan suap jutaan dolar terkait pengadaan mesin pesawat Rolls-Royce dan
+    pesawat Airbus/ATR.
+  source_ids:
+    - putusan-tipikor-emirsyah-satar-2020
+    - putusan-banding-emirsyah-satar-2024
+  dimension_ids:
+    - tujuan-2
+    - negara-hukum
+- id: ev-vonis-suap-uji-materi-patrialis-akbar-2017
+  term_id: mk-2013-2018
+  date: 2017-09-04
+  category: pengadilan
+  title_id: Vonis Pidana Penjara 8 Tahun atas Hakim Konstitusi Patrialis Akbar
+    dalam Kasus Suap Uji Materi UU Peternakan
+  summary_id: Pengadilan Tipikor memvonis Hakim Konstitusi Patrialis Akbar
+    bersalah menerima suap untuk membocorkan draf putusan uji materi UU
+    Peternakan, mencoreng integritas kemerdekaan peradilan yudisial.
+  source_ids:
+    - putusan-tipikor-patrialis-akbar-2017
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-putusan-ma-uji-materiil-pkpu-pilpres-2019
+  term_id: ma-reformasi-sekarang
+  date: 2020-07-07
+  category: pengadilan
+  title_id: "Putusan MA No. 44 P/HUM/2019: Uji Materiil PKPU No. 5/2019 tentang
+    Syarat Kemenangan Pilpres Dua Pasangan Calon"
+  summary_id: Mahkamah Agung mengabulkan sebagian uji materiil regulasi KPU
+    terkait persebaran perolehan suara minimal 20% di lebih dari separuh
+    provinsi untuk kontestasi pilpres yang hanya diikuti oleh dua pasangan
+    calon.
+  source_ids:
+    - putusan-ma-44-p-hum-2019
+  dimension_ids:
+    - kedaulatan-rakyat
+    - negara-hukum
+- id: ev-vonis-suap-pengurusan-perkara-nurhadi-2021
+  term_id: ma-reformasi-sekarang
+  date: 2021-03-10
+  category: pengadilan
+  title_id: Vonis Tipikor Mantan Sekretaris Mahkamah Agung Nurhadi atas Penerimaan
+    Suap Perkara Kasasi dan PK
+  summary_id: PN Tipikor memvonis mantan Sekretaris Mahkamah Agung Nurhadi
+    bersalah menerima suap puluhan miliar rupiah untuk mengatur penanganan
+    perkara di tingkat kasasi dan peninjauan kembali, membuktikan mafia
+    peradilan di pucuk administrasi peradilan.
+  source_ids:
+    - putusan-tipikor-nurhadi-2021
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-vonis-korupsi-bansos-covid-juliari-2021
+  term_id: presiden-jokowi-ii
+  date: 2021-08-23
+  category: pengadilan
+  title_id: Vonis 12 Tahun Penjara Menteri Sosial Juliari Batubara atas Korupsi
+    Paket Bansos Sembako COVID-19
+  summary_id: Pengadilan Tipikor memvonis Menteri Sosial Juliari Batubara 12 tahun
+    penjara dan uang pengganti Rp 14,5 miliar atas pemotongan fee paket bantuan
+    sosial sembako COVID-19 di saat rakyat mengalami krisis kesehatan dan
+    kelaparan.
+  source_ids:
+    - putusan-tipikor-juliari-2021
+  dimension_ids:
+    - sila-2
+    - sila-5
+    - tujuan-2
+- id: ev-audit-bpk-kepatuhan-penanganan-covid-2021
+  term_id: bpk-2019-sekarang
+  date: 2021-12-15
+  category: kebijakan
+  title_id: Penyerahan LHP BPK Pemeriksaan Kepatuhan Penanganan Pandemi COVID-19
+    dan Program PEN
+  summary_id: BPK RI menyelesaikan audit komprehensif atas pengelolaan anggaran
+    PEN dan belanja bansos kesehatan COVID-19, menemukan ketidaktertiban
+    administrasi penyaluran bantuan dan kelemahan integrasi DTKS.
+  source_ids:
+    - laporan-audit-bpk-covid-2021
+  dimension_ids:
+    - tujuan-2
+    - checks-balances
+- id: ev-vonis-kasasi-ekspor-cpo-wisnu-wardhana-2023
+  term_id: presiden-jokowi-ii
+  date: 2023-05-16
+  category: pengadilan
+  title_id: Putusan Kasasi MA Memperberat Vonis Dirjen Perdagangan Luar Negeri
+    dalam Kasus Kelangkaan Minyak Goreng
+  summary_id: Mahkamah Agung memperberat hukuman mantan Dirjen Daglu Kemendag
+    Indrasari Wisnu Wardhana menjadi 8 tahun penjara atas persetujuan ekspor CPO
+    melawan hukum yang memicu krisis kelangkaan minyak goreng bagi rakyat kecil.
+  source_ids:
+    - putusan-kasasi-ma-wisnu-cpo-2023
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+- id: ev-vonis-suap-gratifikasi-lukas-enembe-2023
+  term_id: presiden-jokowi-ii
+  date: 2023-12-07
+  category: pengadilan
+  title_id: Putusan Banding Pengadilan Tinggi Memperberat Hukuman Gubernur Papua
+    Lukas Enembe Menjadi 10 Tahun
+  summary_id: Pengadilan Tinggi DKI memperberat hukuman mantan Gubernur Papua
+    Lukas Enembe menjadi 10 tahun penjara dan pencabutan hak politik atas suap
+    dan gratifikasi proyek APBD Provinsi Papua.
+  source_ids:
+    - putusan-banding-lukas-enembe-2023
+  dimension_ids:
+    - tujuan-2
+    - sila-5
+- id: ev-vonis-tipikor-bts-johnny-plate-2023
+  term_id: presiden-jokowi-ii
+  date: 2023-11-08
+  category: pengadilan
+  title_id: Vonis 15 Tahun Penjara Menkominfo Johnny G. Plate atas Kasus Korupsi
+    Menara BTS 4G BAKTI Kominfo
+  summary_id: Pengadilan Tipikor memvonis mantan Menteri Komunikasi dan
+    Informatika Johnny G. Plate 15 tahun penjara dan uang pengganti Rp 15,5
+    miliar atas kerugian keuangan negara Rp 8 triliun dalam penyediaan
+    infrastruktur BTS 4G di daerah 3T.
+  source_ids:
+    - putusan-tipikor-johnny-plate-2023
+  dimension_ids:
+    - tujuan-2
+    - negara-hukum
+- id: ev-vonis-gratifikasi-pajak-rafael-alun-2024
+  term_id: presiden-jokowi-ii
+  date: 2024-03-14
+  category: pengadilan
+  title_id: Penguatan Vonis 14 Tahun Penjara Pejabat Pajak Rafael Alun Trisambodo
+    atas Gratifikasi dan TPPU
+  summary_id: Pengadilan Tinggi menguatkan vonis 14 tahun penjara dan uang
+    pengganti Rp 10 miliar atas pejabat Ditjen Pajak Rafael Alun yang memperkaya
+    diri secara tidak sah dari wajib pajak melalui perusahaan konsultan
+    miliknya.
+  source_ids:
+    - putusan-banding-rafael-alun-2024
+  dimension_ids:
+    - tujuan-2
+    - negara-hukum
+- id: ev-vonis-kasasi-pemerasan-syl-2025
+  term_id: presiden-jokowi-ii
+  date: 2025-01-20
+  category: pengadilan
+  title_id: Putusan Kasasi MA Menguatkan Hukuman 12 Tahun Penjara Mantan Menteri
+    Pertanian Syahrul Yasin Limpo
+  summary_id: Mahkamah Agung menolak kasasi mantan Mentan SYL dan menguatkan vonis
+    12 tahun penjara serta uang pengganti Rp 44,2 miliar atas pemerasan dan
+    pungutan paksa terhadap pejabat eselon I di Kementerian Pertanian untuk
+    kepentingan pribadi dan keluarga.
+  source_ids:
+    - putusan-kasasi-ma-syl-2025
+  dimension_ids:
+    - negara-hukum
+- id: ev-skandal-mafia-peradilan-zarof-ricar-2024
+  term_id: ma-reformasi-sekarang
+  date: 2024-10-25
+  category: krisis
+  title_id: "Pengungkapan Skandal Mafia Kasasi MA: Penyitaan Uang Tunai Rp 920
+    Miliar dan 51 Kg Emas dari Zarof Ricar"
+  summary_id: Kejaksaan Agung menangkap mantan pejabat MA Zarof Ricar dan menyita
+    uang tunai Rp 920 miliar serta 51 kilogram emas batangan di kediamannya,
+    yang diakui sebagai hasil pengurusan perkara di Mahkamah Agung selama lebih
+    dari satu dekade.
+  source_ids:
+    - putusan-kasasi-ma-zarof-ricar-2025
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-vonis-korupsi-timah-harvey-moeis-2025
+  term_id: presiden-prabowo
+  date: 2025-02-13
+  category: pengadilan
+  title_id: Putusan Banding Memperberat Hukuman Harvey Moeis Menjadi 20 Tahun
+    Penjara Kasus Tata Niaga Timah PT Timah
+  summary_id: Pengadilan Tinggi memperberat hukuman Harvey Moeis menjadi 20 tahun
+    penjara dan uang pengganti Rp 420 miliar dalam kasus korupsi tata niaga
+    komoditas timah IUP PT Timah Tbk yang merugikan keuangan negara dan
+    kerusakan lingkungan hidup Rp 300 triliun.
+  source_ids:
+    - putusan-banding-harvey-moeis-2025
+  dimension_ids:
+    - sila-5
+    - negara-hukum
+- id: ev-diplomasi-luar-negeri-prabowo-gaza-2025
+  term_id: presiden-prabowo
+  date: 2025-02-10
+  category: kebijakan
+  title_id: Manuver Diplomasi Kemanusiaan Presiden Prabowo Subianto Terkait Krisis
+    Gaza & Pasukan Perdamaian PBB
+  summary_id: Presiden Prabowo Subianto memimpin diplomasi aktif Indonesia dengan
+    menawarkan pengiriman rumah sakit lapangan, evakuasi korban luka anak-anak,
+    dan kesiapan penempatan kontingen pasukan penjaga perdamaian Garuda di bawah
+    mandat PBB.
+  source_ids:
+    - berita-diplomasi-prabowo-2025
+  dimension_ids:
+    - tujuan-4
+    - sila-2
+- id: ev-audit-investigasi-bpk-mega-korupsi-asabri-2021
+  term_id: bpk-2019-sekarang
+  date: 2021-05-31
+  category: krisis
+  title_id: Audit Investigasi BPK RI Ungkap Kerugian Negara Rp 22.78 Triliun dalam
+    Kasus Investasi PT Asabri
+  summary_id: Ketua BPK RI menyerahkan LHP Investigatif kepada Jaksa Agung yang
+    menyatakan kerugian keuangan negara dalam pengelolaan investasi saham dan
+    reksa dana PT Asabri (Persero) periode 2012-2019 mencapai Rp 22,78 triliun.
+  source_ids:
+    - lhp-bpk-asabri-2021
+  dimension_ids:
+    - tujuan-2
+    - checks-balances
+- id: ev-pembentukan-bpi-danantara-investasi-2025
+  term_id: presiden-prabowo
+  date: 2025-01-15
+  category: produk-hukum
+  title_id: Pembentukan Badan Pengelola Investasi Danantara (BPI Danantara)
+    sebagai Sovereign Wealth Fund Nasional
+  summary_id: Pemerintah membentuk Badan Pengelola Investasi Danantara melalui
+    Perpres untuk mengonsolidasikan dan mengoptimalkan aset-aset BUMN serta
+    devisa negara menjadi sovereign wealth fund berskala global guna mendanai
+    industrialisasi nasional.
+  source_ids:
+    - perpres-danantara-2025
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+- id: ev-harmonisasi-legislasi-otonomi-daerah-dpd-2024
+  term_id: dpd-2019-2024
+  date: 2024-03-20
+  category: kebijakan
+  title_id: Pengawasan dan Harmonisasi Peraturan Daerah (Perda) oleh DPD RI
+    Bersama Pemerintah Provinsi
+  summary_id: Komite I DPD RI melaksanakan uji kepatuhan dan pengawasan
+    harmonisasi ratusan peraturan daerah dan peraturan gubernur di pulau Jawa
+    dan luar Jawa guna memastikan peraturan daerah selaras dengan norma hak
+    asasi dan kemudahan usaha.
+  source_ids:
+    - regional-jawa-tengah-0023
+    - regional-jawa-tengah-0030
+    - regional-jawa-tengah-0040
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-mandat-darurat-kawat-pdri-1948
+  term_id: presiden-soekarno-i
+  date: 1948-12-19
+  category: krisis
+  title_id: Pemberian Mandat Kawat Pembentukan Pemerintah Darurat Republik
+    Indonesia (PDRI) di Bukittinggi & Luar Negeri (1948)
+  summary_id: Saat Agresi Militer Belanda II mengepung Yogyakarta dan menawan
+    Soekarno-Hatta, Presiden mengirim kawat mandat kepada Sjafruddin
+    Prawiranegara di Bukittinggi dan A.A. Maramis di New Delhi untuk membentuk
+    PDRI, menyelamatkan eksistensi kedaulatan negara.
+  source_ids:
+    - anri-mandat-kawat-pdri-1948
+    - anri-mandat-diplomasi-maramis-1948
+  dimension_ids:
+    - tujuan-1
+    - sila-3
+- id: ev-kajian-pokok-pokok-haluan-negara-mpr-2021
+  term_id: mpr-2019-2024
+  date: 2021-08-16
+  category: kebijakan
+  title_id: Penyusunan Naskah Komprehensif Pokok-Pokok Haluan Negara (PPHN) oleh
+    MPR RI Periode 2019–2024
+  summary_id: Badan Pengkajian MPR RI merumuskan rancangan PPHN sebagai pedoman
+    pembangunan nasional jangka panjang lintas rezim agar pembangunan
+    berkelanjutan dan tidak terfragmentasi oleh siklus elektoral lima tahunan.
+  source_ids:
+    - laporan-mpr-pphn-2021
+    - dokumen-mpr-kajian-bikameral-2023
+  dimension_ids:
+    - checks-balances
+    - tujuan-2
+- id: ev-sosialisasi-empat-pilar-kebangsaan-mpr-2017
+  term_id: mpr-2014-2019
+  date: 2017-06-01
+  category: kebijakan
+  title_id: Pelaksanaan Program Sosialisasi Empat Pilar Kebangsaan oleh MPR RI
+    Periode 2014–2019
+  summary_id: MPR RI mengintensifkan sosialisasi Empat Pilar (Pancasila, UUD 1945,
+    NKRI, Bhinneka Tunggal Ika) ke seluruh pelosok tanah air guna memperkuat
+    kohesi sosial dan ketahanan ideologi konstitusional di tengah polarisasi.
+  source_ids:
+    - laporan-mpr-kebangsaan-2017
+  dimension_ids:
+    - sila-3
+    - tujuan-3
+- id: ev-pengawasan-kedaulatan-pangan-dpd-2017
+  term_id: dpd-2014-2019
+  date: 2017-10-12
+  category: kebijakan
+  title_id: Pengawasan Implementasi Kebijakan Kedaulatan Pangan dan Pertanian
+    Daerah oleh DPD RI
+  summary_id: Komite II DPD RI menyusun laporan pengawasan atas pelaksanaan UU
+    Pangan di daerah-daerah sentra beras dan lumbung jagung, menyoroti masalah
+    alih fungsi lahan pertanian produktif dan distribusi pupuk subsidi.
+  source_ids:
+    - laporan-dpd-pangan-2017
+  dimension_ids:
+    - tujuan-2
+    - sila-5
+- id: ev-penerbitan-sema-perma-reformasi-peradilan-2017-2019
+  term_id: ma-reformasi-sekarang
+  date: 2019-08-19
+  category: produk-hukum
+  title_id: Penerbitan SEMA dan PERMA oleh Mahkamah Agung untuk Standardisasi Tata
+    Kelola Peradilan dan Gugatan Sederhana
+  summary_id: Mahkamah Agung menerbitkan SEMA No. 1/2017 tentang pemberlakuan
+    rumusan hukum kamar dan Perma No. 2/2019 guna mempercepat penyelesaian
+    sengketa hukum (*small claims court*), meningkatkan akses keadilan yang
+    murah, cepat, dan transparan.
+  source_ids:
+    - sema-1-2017
+    - perma-2-2019
+  dimension_ids:
+    - negara-hukum
+    - checks-balances
+- id: ev-pengesahan-uu-pemasyarakatan-2022
+  term_id: dpr-2019-2024
+  date: 2022-08-03
+  category: produk-hukum
+  title_id: "Pengesahan UU Pemasyarakatan No. 22 Tahun 2022: Restorasi Hak Asasi
+    Warga Binaan"
+  summary_id: DPR dan Presiden mengesahkan UU No. 22/2022 yang menggantikan UU
+    12/1995 dengan mempertegas pendekatan keadilan restoratif dan reintegrasi
+    sosial, menjamin hak remisi dan perlakuan manusiawi bagi warga binaan
+    pemasyarakatan.
+  source_ids:
+    - uu-22-2022
+  dimension_ids:
+    - sila-2
+    - negara-hukum
+- id: ev-audit-semester-bpk-ihps-2022-2024
+  term_id: bpk-2019-sekarang
+  date: 2024-06-04
+  category: kebijakan
+  title_id: Publikasi Ikhtisar Hasil Pemeriksaan Semester (IHPS) BPK RI Periode
+    2022–2024 Menemukan Ribuan Masalah Ketidakpatuhan APBN
+  summary_id: BPK RI menyampaikan IHPS I dan II tahun 2022, 2023, dan 2024 kepada
+    DPR dan DPD RI, memuat rekomendasi penertiban belanja barang, efisiensi
+    transfer ke daerah, dan pemulihan kerugian keuangan negara senilai puluhan
+    triliun rupiah.
+  source_ids:
+    - ikhtisar-hasil-pemeriksaan-semester-1-tahun-2022-badan-p
+    - ikhtisar-hasil-pemeriksaan-semester-2-tahun-2022-badan-p
+    - ikhtisar-hasil-pemeriksaan-semester-1-tahun-2023-badan-p
+    - ikhtisar-hasil-pemeriksaan-semester-2-tahun-2023-badan-p
+    - ikhtisar-hasil-pemeriksaan-semester-2-tahun-2024-badan-p
+  dimension_ids:
+    - checks-balances
+    - tujuan-2
+- id: ev-audit-bpk-laporan-keuangan-kementerian-2023-2024
+  term_id: bpk-2019-sekarang
+  date: 2024-07-15
+  category: kebijakan
+  title_id: Pemeriksaan atas Laporan Keuangan Kementerian Negara (Kemenkeu,
+    Kemendikbud, Kemenkes, Kementan, Kemenhub)
+  summary_id: BPK RI menyelesaikan audit tahunan atas kepatuhan anggaran
+    kementerian-kementerian strategis, memberikan opini WTP dengan sejumlah
+    catatan perbaikan sistem pengendalian intern (SPI) dan belanja program
+    prioritas nasional.
+  source_ids:
+    - laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenkeu-tah
+    - laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendikbud
+    - laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemekes-tahu
+    - laporan-hasil-pemeriksaan-atas-laporan-keuangan-kementan-tah
+    - laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenhub-tah
+  dimension_ids:
+    - checks-balances
+    - tujuan-2
+- id: ev-investigasi-komnas-ham-penyiksaan-dan-hak-hidup-2024
+  term_id: presiden-jokowi-ii
+  date: 2024-08-30
+  category: krisis
+  title_id: Laporan Investigasi Komnas HAM RI atas Dugaan Penyiksaan, Pembunuhan
+    Ekstrajudisial, dan Pemenuhan HAM (2024)
+  summary_id: Komnas HAM menerbitkan rangkaian laporan investigasi pemantauan
+    independen mengenai dugaan praktik penyiksaan dalam tahanan aparat penegak
+    hukum, pembunuhan di luar putusan pengadilan, dan hambatan pemenuhan hak-hak
+    asasi kelompok rentan.
+  source_ids:
+    - laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo
+    - laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst
+    - laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or
+    - laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak
+    - laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no
+    - laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas
+  dimension_ids:
+    - sila-2
+    - negara-hukum
+- id: ev-harmonisasi-perda-dan-pergub-dki-jakarta-2023-2024
+  term_id: dpd-2019-2024
+  date: 2024-04-18
+  category: produk-hukum
+  title_id: Penetapan dan Harmonisasi Peraturan Daerah dan Peraturan Gubernur DKI
+    Jakarta Terkait Tata Kelola Anggaran & Pelayanan Publik
+  summary_id: Pemerintah Provinsi bersama DPRD DKI Jakarta menetapkan paket
+    regulasi daerah tahun 2023-2024 mengenai pengelolaan anggaran, retribusi
+    daerah, dan standar mutu pelayanan publik ibu kota yang diawasi DPD RI dan
+    Kemendagri.
+  source_ids:
+    - peraturan-daerah-provinsi-dki-jakarta-nomor-1-tahun-2024-ten-730
+    - peraturan-gubernur-provinsi-dki-jakarta-nomor-13-tahun-2024
+    - peraturan-gubernur-provinsi-dki-jakarta-nomor-150-tahun-2023
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-anri-sidang-ppki-18-22-agustus-1945
+  term_id: dpr-knip-1945-1950
+  date: 1945-08-18
+  category: peristiwa
+  title_id: "Sidang PPKI 18–22 Agustus 1945: Pengesahan UUD 1945, Pembagian 8
+    Provinsi, dan Pembentukan KNIP"
+  summary_id: Panitia Persiapan Kemerdekaan Indonesia mengesahkan UUD 1945,
+    memilih Soekarno dan Mohammad Hatta sebagai Presiden dan Wakil Presiden,
+    membentuk 12 kementerian serta 8 provinsi, dan membentuk Komite Nasional
+    Indonesia Pusat (KNIP) sebagai cikal bakal parlemen.
+  source_ids:
+    - anri-ppki-sidang-18-agu-1945
+    - anri-ppki-sidang-19-agu-1945
+    - anri-ppki-sidang-22-agu-1945
+  dimension_ids:
+    - kedaulatan-rakyat
+    - checks-balances
+- id: ev-anri-perjanjian-renville-1948
+  term_id: presiden-soekarno-i
+  date: 1948-01-17
+  category: peristiwa
+  title_id: Penandatanganan Perjanjian Renville 1948 di Atas Kapal Perang USS Renville
+  summary_id: Delegasi Indonesia yang dipimpin Amir Sjarifuddin menandatangani
+    gencatan senjata dan persetujuan politik Renville dengan Belanda di bawah
+    pengawasan Komisi Tiga Negara (KTN) PBB, mempertahankan legitimasi
+    diplomatik internasional RI.
+  source_ids:
+    - anri-perjanjian-renville-1948
+  dimension_ids:
+    - tujuan-4
+    - sila-3
+- id: ev-anri-konferensi-antar-indonesia-1949
+  term_id: presiden-soekarno-i
+  date: 1949-08-02
+  category: peristiwa
+  title_id: "Penyelenggaraan Konferensi Antar-Indonesia (KAI) 1949: Konsensus RI
+    dan Negara-Negara BFO"
+  summary_id: Pemimpin Republik Indonesia dan Bijeenkomst voor Federaal Overleg
+    (BFO) menyelenggarakan Konferensi Antar-Indonesia di Kaliurang dan Batavia,
+    menyepakati pembentukan Republik Indonesia Serikat (RIS) dan konsensus
+    persatuan nasional menghadapi KMB.
+  source_ids:
+    - anri-konferensi-antar-indonesia-1949
+  dimension_ids:
+    - sila-3
+    - tujuan-4
+- id: ev-anri-kmb-pengakuan-kedaulatan-1949
+  term_id: presiden-soekarno-i
+  date: 1949-12-27
+  category: peristiwa
+  title_id: Penyerahan & Pengakuan Kedaulatan Konferensi Meja Bundar (KMB) Den
+    Haag 27 Desember 1949
+  summary_id: Ratu Juliana di Amsterdam dan Wakil Presiden Mohammad Hatta
+    menandatangani piagam penyerahan kedaulatan tanpa syarat kepada Republik
+    Indonesia Serikat, mengakhiri kolonialisme Hindia Belanda di nusantara.
+  source_ids:
+    - anri-kmb-den-haag-1949
+  dimension_ids:
+    - tujuan-4
+    - sila-3
+- id: ev-anri-piagam-persetujuan-nkri-1950
+  term_id: dpr-1950-1960
+  date: 1950-05-19
+  category: produk-hukum
+  title_id: Piagam Persetujuan Pembentukan Kembali Negara Kesatuan Republik
+    Indonesia (NKRI) 19 Mei 1950
+  summary_id: Perdana Menteri RIS Mohammad Hatta dan Presiden Negara Indonesia
+    Timur (NIT) Sukawati menandatangani persetujuan pembubaran negara-negara
+    bagian federal bentukan Belanda dan pengembalian seluruh nusantara ke bentuk
+    Negara Kesatuan Republik Indonesia.
+  source_ids:
+    - anri-piagam-persetujuan-nkri-1950
+  dimension_ids:
+    - sila-3
+    - kedaulatan-rakyat
+- id: ev-anri-risalah-konstituante-dasar-negara-1957-1958
+  term_id: dpr-1950-1960
+  date: 1957-11-12
+  category: peristiwa
+  title_id: Perdebatan Majelis Konstituante tentang Dasar Negara dan Hak Asasi
+    Manusia (1956–1958)
+  summary_id: Sidang pleno Konstituante di Bandung memperdebatkan fondasi
+    ideologis negara (Pancasila, Islam, dan Sosial-Ekonomi) serta menyepakati
+    rancangan komprehensif Bab Hak Asasi Manusia dan Hak Warga Negara yang
+    melampaui Deklarasi Universal HAM PBB 1948.
+  source_ids:
+    - anri-risalah-konstituante-natsir-1957
+    - anri-risalah-konstituante-ham-1958
+  dimension_ids:
+    - sila-1
+    - sila-2
+    - kedaulatan-rakyat
+- id: ev-anri-uupa-reforma-agraria-1960
+  term_id: presiden-soekarno-ii
+  date: 1960-09-24
+  category: produk-hukum
+  title_id: "Pengesahan Undang-Undang Pokok Agraria (UUPA No. 5 Tahun 1960):
+    Nasionalisasi Hukum Tanah Kolonial"
+  summary_id: Pemerintah dan DPR-GR mengesahkan UUPA 1960 yang mencabut
+    *Agrarische Wet 1870* warisan kolonial dan menetapkan fungsi sosial tanah
+    serta pembatasan kepemilikan tanah absentee demi kesejahteraan petani
+    marhaen.
+  source_ids:
+    - anri-uupa-5-1960
+  dimension_ids:
+    - sila-5
+    - tujuan-2
+- id: ev-anri-amnesti-abolisi-prri-permesta-1961
+  term_id: presiden-soekarno-ii
+  date: 1961-08-17
+  category: kebijakan
+  title_id: Pemberian Amnesti dan Abolisi Nasional Tokoh PRRI/Permesta Melalui
+    Keppres No. 449/1961
+  summary_id: Presiden Soekarno memberikan amnesti umum dan abolisi kepada ribuan
+    prajurit dan tokoh politik PRRI/Permesta yang kembali ke pangkuan Ibu
+    Pertiwi guna memulihkan persatuan dan kesatuan nasional.
+  source_ids:
+    - anri-prri-keppres-amnesti-1961
+  dimension_ids:
+    - sila-3
+- id: ev-anri-sidang-istimewa-mprs-1967
+  term_id: mprs-1959-1971
+  date: 1967-03-12
+  category: produk-hukum
+  title_id: "Sidang Istimewa MPRS 1967: Pencabutan Kekuasaan Pemerintahan Negara
+    dari Presiden Soekarno"
+  summary_id: MPRS menetapkan Ketetapan No. XXXIII/MPRS/1967 yang mencabut mandat
+    kekuasaan pemerintahan dari Presiden Soekarno dan menunjuk Jenderal Soeharto
+    sebagai Pejabat Presiden RI hingga terpilih presiden definitif.
+  source_ids:
+    - anri-risalah-sidang-mprs-1967
+  dimension_ids:
+    - checks-balances
+    - kedaulatan-rakyat
+- id: ev-anri-naskah-komprehensif-perubahan-uud-1999-2002
+  term_id: mpr-1999-2004
+  date: 2002-08-10
+  category: produk-hukum
+  title_id: Penyelesaian Empat Tahap Perubahan UUD 1945 & Dokumentasi Naskah
+    Komprehensif BP MPR (1999–2002)
+  summary_id: MPR RI menuntaskan rangkaian amandemen UUD 1945 yang membatasi masa
+    jabatan presiden, memisahkan kekuasaan kehakiman, membentuk MK dan KY,
+    memasukkan piagam HAM Pasal 28A–28J, dan mendirikan DPD RI.
+  source_ids:
+    - anri-naskah-komprehensif-uud-buku-1
+    - anri-naskah-komprehensif-uud-buku-2
+    - anri-naskah-komprehensif-uud-buku-4
+    - anri-naskah-komprehensif-uud-buku-8
+    - anri-naskah-komprehensif-uud-buku-10
+  dimension_ids:
+    - checks-balances
+    - negara-hukum
+    - kedaulatan-rakyat
+    - sila-2
+- id: ev-vonis-seumur-hidup-direksi-jiwasraya-2020
+  term_id: presiden-jokowi-ii
+  date: 2020-10-12
+  category: pengadilan
+  title_id: Vonis Penjara Seumur Hidup Tiga Mantan Direksi PT Asuransi Jiwasraya
+    atas Mega Korupsi Rp 16.8 Triliun
+  summary_id: Pengadilan Tipikor Jakarta memvonis mantan Dirut Hendrisman Rahim,
+    Direktur Keuangan Hary Prasetyo, dan Kepala Divisi Investasi Syahmirwan
+    dengan pidana penjara seumur hidup atas pembobolan dana nasabah pensiunan
+    dan manipulasi saham gorengan.
+  source_ids:
+    - putusan-tipikor-direksi-jiwasraya-2020
+    - putusan-banding-hendrisman-rahim-2021
+    - lhp-bpk-jiwasraya-2020
+  dimension_ids:
+    - tujuan-2
+    - sila-5
+    - negara-hukum
