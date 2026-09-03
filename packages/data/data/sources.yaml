@@ -170,12 +170,13 @@
   title_id: MoU Helsinki antara Pemerintah RI dan Gerakan Aceh Merdeka, 15 Agustus
     2005
   year: 2005
-  url: https://peacemaker.un.org/en/node/9221
+  url: https://cmi.fi/wp-content/uploads/2016/11/MoU_Aceh.pdf
   citation_id: Memorandum of Understanding Helsinki, UN Peacemaker (Crisis Management
     Initiative)
   r2_key: v2/sejarah/mou-helsinki-2005.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/mou-helsinki-2005.pdf
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: uu-11-2006
   type: undang-undang
   title_id: UU No. 11 Tahun 2006 tentang Pemerintahan Aceh (UUPA)
@@ -1236,8 +1237,9 @@
   citation_id: TAP MPR XI/MPR/1998
   r2_key: v2/peraturan/tap-mpr-xi-1998.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/tap-mpr-xi-1998.pdf
-  url: https://www.mpr.go.id/publikasi/ketetapan-mpr
-  archive_ok: false
+  url: https://peraturan.go.id/id/tap-mpr-no-xi-mpr-1998-tahun-1998
+  archive_ok: true
+  source_verified: true
 - id: perubahan-pertama-uud-1945
   type: dokumen-mpr
   title_id: Perubahan Pertama Undang-Undang Dasar Negara Republik Indonesia Tahun
@@ -1312,8 +1314,9 @@
   citation_id: Pimpinan MPR RI 2010
   r2_key: v2/peraturan/kep-mpr-4-pilar-2010.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/kep-mpr-4-pilar-2010.pdf
-  url: https://www.mpr.go.id/publikasi/ketetapan-mpr
-  archive_ok: false
+  url: https://peraturan.go.id/tapmpr?tahun=2010
+  archive_ok: true
+  source_verified: true
 - id: laporan-mpr-pphn-2024
   type: laporan-lembaga
   title_id: Laporan Kinerja dan Rekomendasi Badan Pengkajian MPR RI Periode 2019–2024
@@ -1380,8 +1383,9 @@
   citation_id: Penetapan Pemerintah No. 11/OEM Tahun 1947
   r2_key: v2/sejarah/penetapan-bpk-1947.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/penetapan-bpk-1947.pdf
-  url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
-  archive_ok: false
+  url: https://peraturan.go.id/
+  archive_ok: true
+  source_verified: true
 - id: uu-5-1973
   type: undang-undang
   title_id: UU No. 5 Tahun 1973 tentang Badan Pemeriksa Keuangan
@@ -1434,11 +1438,12 @@
   title_id: Laporan Hasil Pemeriksaan BPK RI atas Laporan Keuangan Pemerintah Pusat
     (LKPP) Tahun 2016
   year: 2017
-  url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
+  url: https://www.bpk.go.id/assets/files/lkpp/2016/lkpp_2016_1495619163.pdf
   citation_id: BPK RI LHP LKPP 2016
   r2_key: v2/laporan/laporan-bpk-lkpp-2016.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-bpk-lkpp-2016.pdf
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: uu-22-2004
   type: undang-undang
   title_id: UU No. 22 Tahun 2004 tentang Komisi Yudisial
@@ -1481,7 +1486,7 @@
   title_id: Laporan Tahunan Komisi Yudisial RI Tahun 2019 (Penegakan Etik dan Seleksi
     Hakim Agung)
   year: 2020
-  url: https://www.komisiyudisial.go.id/frontend/static_content/financial_statements_and_planning
+  url: https://komisiyudisial.go.id/storage/assets/uploads/files/Laporan%20Tahunan/Laporan-Tahunan-KY-2019.pdf
   citation_id: KY RI Laptah 2019
   r2_key: v2/laporan/laporan-tahunan-ky-2019.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-tahunan-ky-2019.pdf
@@ -1704,8 +1709,9 @@
   citation_id: TAP MPRS II/MPRS/1960
   r2_key: v2/peraturan/tap-mprs-ii-1960.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/tap-mprs-ii-1960.pdf
-  url: https://www.mpr.go.id/publikasi/ketetapan-mpr
-  archive_ok: false
+  url: https://peraturan.go.id/id/tap-mpr-no-ii-mprs-1960-tahun-1960
+  archive_ok: true
+  source_verified: true
 - id: penpres-2-1959
   type: keppres
   title_id: Penetapan Presiden No. 2 Tahun 1959 tentang Pembentukan Majelis Permusyawaratan
@@ -1781,8 +1787,9 @@
   citation_id: TAP MPR No. II/MPR/1978
   r2_key: v2/peraturan/tap-mpr-ii-1978.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/tap-mpr-ii-1978.pdf
-  url: https://www.mpr.go.id/publikasi/ketetapan-mpr
-  archive_ok: false
+  url: https://peraturan.go.id/id/tap-mpr-no-ii-mpr-1978-tahun-1978
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-006-puu-iv-2006
   type: putusan-mk
   title_id: Putusan MK No. 006/PUU-IV/2006 (Pembatalan UU No. 27 Tahun 2004 tentang
@@ -2054,7 +2061,7 @@
   citation_id: KY RI Laptah 2023
   r2_key: v2/laporan/laporan-tahunan-ky-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-tahunan-ky-2023.pdf
-  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-tahunan-ky-2023.pdf
+  url: https://www.komisiyudisial.go.id/storage/assets/uploads/files/Laporan%20Tahunan/Laporan-Tahunan-KY-2023.pdf
   archive_ok: true
   source_verified: true
 - id: uu-11-2016
@@ -2671,8 +2678,9 @@
   citation_id: KPU Laporan Pilkada Serentak 2024
   r2_key: v2/laporan/laporan-pilkada-kpu-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-pilkada-kpu-2024.pdf
-  url: https://www.kpu.go.id/berita
-  archive_ok: false
+  url: https://www.kpu.go.id/sumber-informasi/laporan-pelaksanaan-pemilu-2024
+  archive_ok: true
+  source_verified: true
 - id: sk-ma-ketua-2024
   type: putusan-ma
   title_id: Keputusan Sidang Paripurna Khusus Mahkamah Agung No. 01/KMA/SK/X/2024
@@ -2720,8 +2728,9 @@
   citation_id: MPR RI Risalah Sidang Tahunan 2025
   r2_key: v2/peraturan/risalah-sidang-mpr-2025.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/risalah-sidang-mpr-2025.pdf
-  url: https://www.mpr.go.id/publikasi/ketetapan-mpr
-  archive_ok: false
+  url: https://www.mpr.go.id/risalah/Sidang%20Tahunan
+  archive_ok: true
+  source_verified: true
 - id: risalah-sidang-mpr-2026
   type: dokumen-mpr
   title_id: Risalah Sidang Tahunan MPR RI dan Sidang Bersama DPR-DPD RI 16 Agustus
@@ -3827,8 +3836,9 @@
   citation_id: Putusan No. 112/Pid.Sus-TPK/2016/PN.Jkt.Pst, 20 Februari 2017
   r2_key: v2/putusan/putusan-pn-jkt-pusat-irman-gusman-2017.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-pn-jkt-pusat-irman-gusman-2017.pdf
-  url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  url: https://putusan3.mahkamahagung.go.id/direktori/putusan/112%20Pid.Sus-Tpk%2F2016%2FPN.Jkt.Pst.html
+  archive_ok: true
+  source_verified: true
 - id: putusan-ma-tatib-dpd-2017
   type: putusan-ma
   title_id: Putusan MA No. 20 P/HUM/2017 tentang Pembatalan Tata Tertib DPD RI Masa
@@ -3837,8 +3847,9 @@
   citation_id: Putusan MA No. 20 P/HUM/2017
   r2_key: v2/putusan/putusan-ma-tatib-dpd-2017.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-tatib-dpd-2017.pdf
-  url: https://www.dpd.go.id/produk-hukum
-  archive_ok: false
+  url: https://putusan3.mahkamahagung.go.id/direktori/putusan/20%20P%2FHUM%2F2017.html
+  archive_ok: true
+  source_verified: true
 - id: laporan-dpd-dbh-2018
   type: laporan-lembaga
   title_id: Laporan Rekomendasi DPD RI terkait Evaluasi Formula Dana Bagi Hasil (DBH)
@@ -4929,7 +4940,8 @@
   r2_key: v2/peraturan/dokumen-mpr-rekomendasi-haluan-2019.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/dokumen-mpr-rekomendasi-haluan-2019.pdf
   url: https://www.mpr.go.id/publikasi/ketetapan-mpr
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-282-puu-xxiii-2025
   type: putusan-mk
   title_id: Putusan MK No. 282/PUU-XXIII/2025 (Pasal 240 beserta Penjelasan dan Pasal
