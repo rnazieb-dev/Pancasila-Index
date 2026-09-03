@@ -90,7 +90,10 @@ export function addEvidence(
   }
 
   const evidenceLine = lines.findIndex(
-    (l, i) => i > dimLine && i < dimEnd && l.trim() === "evidence:",
+    (l, i) =>
+      i > dimLine &&
+      i < dimEnd &&
+      (l.trim() === "evidence:" || l.trim() === "evidence: []"),
   );
   if (evidenceLine === -1) {
     return {
@@ -98,6 +101,12 @@ export function addEvidence(
       applied: false,
       reason: `dimensi "${dimensionId}" tidak memiliki blok evidence`,
     };
+  }
+
+  // `evidence: []` menandai evidence_gap - tidak punya butir untuk dipindai,
+  // tulis ulang jadi bentuk blok sebelum menyisipkan butir pertama.
+  if (lines[evidenceLine]!.trim() === "evidence: []") {
+    lines[evidenceLine] = lines[evidenceLine]!.replace(/evidence:\s*\[\]/, "evidence:");
   }
 
   // Kumpulkan butir evidence yang sudah ada, sekaligus menentukan indentasinya.

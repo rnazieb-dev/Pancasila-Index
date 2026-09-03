@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Arsip Pancasila Document Schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique UUID identifier"
+    },
+    "dokumen": {
+      "type": "string",
+      "description": "Judul lengkap dokumen"
+    },
+    "tahun": {
+      "type": "integer",
+      "description": "Tahun dokumen"
+    },
+    "tanggal": {
+      "type": "string",
+      "format": "date",
+      "description": "Tanggal dokumen (YYYY-MM-DD)"
+    },
+    "sumber": {
+      "type": "string",
+      "enum": ["ANRI", "BPIP", "MK", "MA", "Pasal.id", "Perpusnas", "Wikisource", "JDIH Lokal"],
+      "description": "Lembaga sumber dokumen"
+    },
+    "portal": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL portal sumber"
+    },
+    "tipe_dokumen": {
+      "type": "string",
+      "enum": ["regulation", "decision", "historical", "publication", "archive"],
+      "description": "Kategori dokumen"
+    },
+    "kategori": {
+      "type": "string",
+      "description": "Klasifikasi (UUD, UU, PP, Putusan_MK, Kasasi_MA, PERDA, etc)"
+    },
+    "deskripsi": {
+      "type": "string",
+      "description": "Ringkas deskripsi konten"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "nomor_dokumen": { "type": "string" },
+        "institusi": { "type": "string" },
+        "tahun_berlaku": { "type": "integer" },
+        "status": { "type": "string", "enum": ["berlaku", "diubah", "dicabut", "unknown"] },
+        "format": { "type": "string", "enum": ["PDF", "HTML", "Image", "TXT", "XML"] }
+      }
+    },
+    "download": {
+      "type": "object",
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "format": { "type": "string" },
+        "size_bytes": { "type": "integer" },
+        "accessible": { "type": "boolean" },
+        "last_checked": { "type": "string", "format": "date" }
+      }
+    },
+    "sumber_alternatif": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "portal": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "status": { "type": "string" }
+        }
+      }
+    },
+    "catatan": {
+      "type": "string"
+    }
+  },
+  "required": ["id", "dokumen", "sumber", "tipe_dokumen", "download"]
+}

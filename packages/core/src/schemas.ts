@@ -113,6 +113,32 @@ export const sourceSchema = z.object({
   resolved_url: z.string().url().optional(),
   /** Diisi build: path halaman dokumen di situs ini (/arsip/<id>). */
   detail_url: z.string().min(1).optional(),
+  /**
+   * URI kanonik ala Akoma Ntoso, mengikuti konvensi pasal.id
+   * (/akn/id/act/{jenis}/{tahun}/{nomor} untuk UU/PP/dst,
+   * /akn/id/judgment/{lane}/{tahun}/{nomor} untuk putusan MK - format asli
+   * yang dipakai pasal.id sendiri).
+   *
+   * pasal.id TIDAK mencakup putusan MA individual maupun arsip ANRI, jadi
+   * untuk dua kelas sumber itu kita definisikan namespace sendiri yang
+   * konsisten dengan pola yang sama, supaya integrasi ke penyedia lain di
+   * masa depan (kalau ada yang mencakup MA/ANRI dengan skema akn serupa)
+   * tinggal cocok tanpa migrasi ulang:
+   * - /akn/id/judgment/putusan-ma/{tahun}/{slug} untuk putusan MA
+   * - /akn/id/archive/anri/{tahun}/{slug} untuk arsip ANRI
+   */
+  frbr_uri: z.string().optional(),
+  /** true = isi sumber sudah diverifikasi manusia terhadap dokumen resmi asli. */
+  content_verified: z.boolean().optional(),
+  /**
+   * Tingkat verifikasi ala pasal.id (verification.tier):
+   * - human_verified: ditinjau manusia terhadap naskah resmi
+   * - official_source: diambil langsung dari domain resmi, belum ditinjau manusia
+   * - unverified: belum diverifikasi sama sekali
+   */
+  verification_tier: z
+    .enum(["human_verified", "official_source", "unverified"])
+    .optional(),
 });
 export type Source = z.infer<typeof sourceSchema>;
 
