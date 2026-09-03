@@ -1776,11 +1776,13 @@
   title_id: Putusan MK No. 35/PUU-X/2012 (Pengakuan Konstitusional Bahwa Hutan Adat
     Adalah Milik Masyarakat Adat, Bukan Hutan Negara)
   year: 2013
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=35/PUU-X/2012
+  url: https://pasal.id/peraturan/putusan-mk/puu-mk-35-2012
   citation_id: Putusan MKRI No. 35/PUU-X/2012
   r2_key: v2/putusan/putusan-mk-35-puu-x-2012.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-35-puu-x-2012.pdf
-  archive_ok: false
+  archive_ok: true
+  frbr_uri: /akn/id/judgment/mk/2012/35
+  source_verified: true
 - id: putusan-mk-85-puu-xi-2013
   type: putusan-mk
   title_id: Putusan MK No. 85/PUU-XI/2013 (Pembatalan Total UU No. 7 Tahun 2004 tentang
@@ -1871,11 +1873,13 @@
   title_id: Putusan MK No. 36/PUU-X/2012 (Pembubaran BP Migas dan Pengembalian Penguasaan
     Hulu Migas ke Kementerian demi Pasal 33 UUD 1945)
   year: 2012
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=36/PUU-X/2012
+  url: https://pasal.id/peraturan/putusan-mk/puu-mk-36-2012
   citation_id: Putusan MKRI No. 36/PUU-X/2012
   r2_key: v2/putusan/putusan-mk-36-puu-x-2012.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-36-puu-x-2012.pdf
-  archive_ok: false
+  archive_ok: true
+  frbr_uri: /akn/id/judgment/mk/2012/36
+  source_verified: true
 - id: putusan-mk-116-puu-xxi-2023
   type: putusan-mk
   title_id: Putusan MK No. 116/PUU-XXI/2023 (Penghapusan Ambang Batas Parlemen / Parliamentary
@@ -2826,11 +2830,13 @@
   title_id: Putusan MK No. 49/PUU-IX/2011 (Penyelenggaraan Pendidikan Khusus Profesi
     Advokat dan Larangan Monopoli Organisasi Advokat)
   year: 2011
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=49/PUU-IX/2011
+  url: https://pasal.id/peraturan/putusan-mk/puu-mk-49-2011
   citation_id: Putusan MKRI No. 49/PUU-IX/2011
   r2_key: v2/putusan/putusan-mk-49-puu-ix-2011.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-49-puu-ix-2011.pdf
-  archive_ok: false
+  archive_ok: true
+  frbr_uri: /akn/id/judgment/mk/2011/49
+  source_verified: true
 - id: laporan-audit-bpk-hambalang-2013
   type: laporan-lembaga
   title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pembangunan Pusat Olahraga
@@ -5598,10 +5604,12 @@
   type: putusan-mk
   year: 2024
   citation_id: Putusan MKRI No. 136/PUU-XXII/2024
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=136/PUU-XXII/2024
+  url: https://s.mkri.id/public/content/persidangan/putusan/putusan_mkri_11248_1731561635.pdf
   r2_key: v2/putusan/putusan-mk-136-2024.html
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-136-2024.html
-  archive_ok: false
+  archive_ok: true
+  frbr_uri: /akn/id/judgment/mk/2024/136
+  source_verified: true
 - id: perpres-83-2024-badan-gizi
   title_id: Peraturan Presiden No. 83 Tahun 2024 tentang Badan Gizi Nasional (Pelaksanaan
     Program Makan Bergizi Gratis)
@@ -5910,10 +5918,12 @@
   type: putusan-mk
   year: 2019
   citation_id: Putusan MKRI No. 18/PUU-XVII/2019
-  url: https://www.mkri.id/index.php?page=web.Putusan&id=18/PUU-XVII/2019
+  url: https://pasal.id/peraturan/putusan-mk/puu-mk-18-2019
   r2_key: v2/putusan/putusan-mk-18-puu-xvii-2019-fidusia.html
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-18-puu-xvii-2019-fidusia.html
-  archive_ok: false
+  archive_ok: true
+  frbr_uri: /akn/id/judgment/mk/2019/18
+  source_verified: true
 - id: perpres-154-2024-badan-haji
   title_id: Peraturan Presiden No. 154 Tahun 2024 tentang Badan Penyelenggara Haji
   type: keppres
@@ -5940,27 +5950,33 @@
     20% APBN untuk Pendidikan)
   year: 2005
   citation_id: Putusan Mahkamah Konstitusi Nomor 011 dan 012/PUU-III/2005
-  url: https://s.mkri.id/public/content/persidangan/putusan/putusan_sidang_Putusan026PUU-IV06ttgAPBN2007tgl010507.pdf
+  url: https://s.mkri.id/public/content/persidangan/putusan/Putusan011PUUIII2005tgl191005ttgSisdiknas.pdf
   r2_key: v2/putusan/putusan-mk-011-012-puu-iii-2005.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-011-012-puu-iii-2005.pdf
-  archive_ok: false
+  archive_ok: true
+  frbr_uri: /akn/id/judgment/mk/2005/11
+  source_verified: true
 - id: putusan-mk-11-14-21-126-136-puu-vii-2009
   type: putusan-mk
   title_id: Putusan MK No. 11-14-21-126-136/PUU-VII/2009 (Pembatalan Total UU No.
     9 Tahun 2009 tentang Badan Hukum Pendidikan)
   year: 2010
   citation_id: Putusan Mahkamah Konstitusi Nomor 11-14-21-126-136/PUU-VII/2009
-  url: https://peraturan.bpk.go.id/DownloadUjiMateri/67/PUTUSAN%20UU%20BHP_baca_31%20Maret%202010.pdf
+  url: https://pasal.id/peraturan/putusan-mk/puu-mk-11-2009
   r2_key: v2/putusan/putusan-mk-11-14-21-126-136-puu-vii-2009.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-11-14-21-126-136-puu-vii-2009.pdf
-  archive_ok: false
+  archive_ok: true
+  frbr_uri: /akn/id/judgment/mk/2009/11
+  source_verified: true
 - id: putusan-mk-13-puu-xvi-2018
   type: putusan-mk
   title_id: Putusan MK No. 13/PUU-XVI/2018 (Kedudukan Perjanjian Internasional dalam
     Hierarki Hukum Nasional - Uji Materi UU No. 24 Tahun 2000)
   year: 2018
   citation_id: Putusan Mahkamah Konstitusi Nomor 13/PUU-XVI/2018
-  url: https://igj.or.id/wp-content/uploads/2018/12/13_PUU-XVI_2018.pdf
+  url: https://pasal.id/peraturan/putusan-mk/puu-mk-13-2018
   r2_key: v2/putusan/putusan-mk-13-puu-xvi-2018.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-13-puu-xvi-2018.pdf
-  archive_ok: false
+  archive_ok: true
+  frbr_uri: /akn/id/judgment/mk/2018/13
+  source_verified: true
