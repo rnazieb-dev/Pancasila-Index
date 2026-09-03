@@ -264,7 +264,7 @@ export async function uploadAll(dryRun = false, concurrency = 1) {
       const url = `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/r2/buckets/${BUCKET_NAME}/objects/${encodedKey}`;
 
       let uploaded = false;
-      for (let attempt = 1; attempt <= 3; attempt++) {
+      for (let attempt = 1; attempt <= 5; attempt++) {
         try {
           const res = await fetch(url, {
             method: "PUT",
@@ -280,16 +280,35 @@ export async function uploadAll(dryRun = false, concurrency = 1) {
             break;
           } else {
             const errText = await res.text();
-            if (attempt === 3) {
-              console.error(`[X] HTTP ${res.status} upload ${item.r2_key}: ${errText.slice(0, 100)}`);
+            const status = res.status;
+
+            // Exponential backoff for rate limiting (429)
+            if (status === 429) {
+              const backoffMs = Math.min(30000, 1000 * Math.pow(2, attempt - 1));
+              if (attempt <= 5) {
+                console.warn(`⏱️  Rate limited, retrying in ${backoffMs}ms (attempt ${attempt}/5)...`);
+                await new Promise((r) => setTimeout(r, backoffMs));
+                continue;
+              }
+            }
+
+            if (attempt === 5) {
+              console.error(`[X] HTTP ${status} upload ${item.r2_key}: ${errText.slice(0, 100)}`);
+            }
+
+            // Delay between retries
+            if (attempt < 5) {
+              await new Promise((r) => setTimeout(r, 3000 * attempt));
             }
           }
         } catch (err) {
-          if (attempt === 3) {
+          if (attempt === 5) {
             console.error(`[X] Error upload ${item.r2_key}:`, err instanceof Error ? err.message : err);
           }
+          if (attempt < 5) {
+            await new Promise((r) => setTimeout(r, 3000 * attempt));
+          }
         }
-        await new Promise((r) => setTimeout(r, 5000));
       }
 
       if (uploaded) {
