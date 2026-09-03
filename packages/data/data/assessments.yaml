@@ -62,8 +62,8 @@
       rationale_id: Otonomi daerah dimulai; konsultasi rakyat Timtim berjalan tanpa represi besar.
       evidence:
         - source_id: uu-22-1999
-        - source_id: buku-bivitri-susanti-autocratic-legalism-2020
-          note_id: Kutipan analisis struktural dari Bivitri Susanti, S.H., LL.M.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-habibie-otda
         - ev-habibie-referendum-timtim
@@ -74,10 +74,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Bivitri Susanti, S.H., LL.M.
-          role: Pengajar STH Indonesia Jentera
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-bivitri-susanti-autocratic-legalism-2020
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-4
       score: 2
       confidence: 0.65
@@ -136,8 +136,8 @@
       evidence:
         - source_id: uu-39-1999
         - source_id: tap-mpr-xvii-1998
-        - source_id: buku-titik-triwulan-konstruksi-htn-2010
-          note_id: Kutipan analisis struktural dari Prof. Dr. Titik Triwulan Tutik
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -147,10 +147,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Titik Triwulan Tutik
-          role: Pakar Hukum Ketatanegaraan
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-titik-triwulan-konstruksi-htn-2010
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.85
@@ -958,6 +958,8 @@
         - source_id: skb-3-menteri-ahmadiyah-2008
         - source_id: buku-buyung-nasution-aspirasi-konstitusi-1992
           note_id: "Sitasi langsung pakar: Prof. Dr. Adnan Buyung Nasution, S.H."
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -968,10 +970,10 @@
       synthesis_id: Skor regresi (-1) karena negara gagal menjalankan kewajiban konstitusional melindungi hak asasi beribadah warga negara tanpa rasa takut.
       expert_quotes:
         - quote: Penerbitan SKB Ahmadiyah adalah bentuk kompromi negara yang salah kaprah... Negara berkewajiban melindungi hak setiap warga untuk meyakini kepercayaannya sesuai Pasal 28E UUD 1945, bukan memfasilitasi persekusi.
-          author: Prof. Dr. Adnan Buyung Nasution, S.H.
-          role: Anggota Dewan Pertimbangan Presiden (Wantimpres) Bidang Hukum 2007-2009
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2008
-          source_id: buku-buyung-nasution-aspirasi-konstitusi-1992
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-2
       score: 1
       confidence: 0.85
@@ -1055,8 +1057,8 @@
       rationale_id: Kemiskinan menurun didukung BLT perdana bagi 19 juta rumah tangga - preseden perlindungan sosial massal republik.
       evidence:
         - source_id: literatur-sejarah-nasional
-        - source_id: constitutional-review-mk-2021
-          note_id: Kutipan analisis struktural dari Constitutional Review
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-sby1-blt-perdana
         - ev-sby1-kur
@@ -1068,10 +1070,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Constitutional Review
-          role: Jurnal Internasional MKRI
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: constitutional-review-mk-2021
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.55
@@ -1336,8 +1338,8 @@
       rationale_id: Demokrasi elektoral berjalan; UU MD3 dan poligasi partai menggerogoti kualitas perwakilan.
       evidence:
         - source_id: uu-17-2014
-        - source_id: buku-denny-indrayana-amandemen-2007
-          note_id: Kutipan analisis struktural dari Prof. Dr. Denny Indrayana
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-sby2-md3
         - ev-sby2-bibit-chandra
@@ -1349,10 +1351,10 @@
       synthesis_id: Kesimpulannya, skor Netral (0) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Stagnasi ketatanegaraan terjadi ketika hukum hanya dijadikan alat legitimasi kekuasaan, bukan sebagai pedoman moral dan etika berbangsa.
-          author: Prof. Dr. Denny Indrayana
-          role: Pakar HTN / Mantan Wamenkumham
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-denny-indrayana-amandemen-2007
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-5
       score: 1
       confidence: 0.85
@@ -1844,8 +1846,8 @@
         - source_id: uu-19-2019
         - source_id: perpres-54-2018
         - source_id: keppres-22-2019
-        - source_id: buku-bintan-saragih-lembaga-perwakilan-2006
-          note_id: Kutipan analisis struktural dari Prof. Dr. Bintan R. Saragih
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-presiden-stranas-pk-2018
         - ev-amnesti-presiden-baiq-nuril-2019
@@ -1858,10 +1860,10 @@
       synthesis_id: Kesimpulannya, skor Buruk (-1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Penyimpangan terhadap norma dasar ini adalah bentuk kemunduran bernegara yang mencederai supremasi konstitusi. Kekuasaan yang tidak dibatasi akan cenderung korup dan menindas.
-          author: Prof. Dr. Bintan R. Saragih
-          role: Guru Besar Hukum Tata Negara
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-bintan-saragih-lembaga-perwakilan-2006
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.45
@@ -2342,8 +2344,8 @@
         - source_id: putusan-mk-91-2021
         - source_id: buku-maria-farida-perundang-undangan-2007
           note_id: "Sitasi langsung pakar: Prof. Dr. Maria Farida Indrati, S.H., M.H."
-        - source_id: buku-titik-triwulan-konstruksi-htn-2010
-          note_id: Kutipan analisis struktural dari Prof. Dr. Titik Triwulan Tutik
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-jokowi2-ciptaker
         - ev-jokowi2-revisi-uumk
@@ -2358,10 +2360,10 @@
       synthesis_id: Penilaian regresi (-1) karena eliminasi meaningful public participation melanggar esensi permusyawaratan/perwakilan Sila Keempat.
       expert_quotes:
         - quote: Partisipasi publik bermakna (meaningful participation) bukan sekadar sosialisasi satu arah, melainkan hak rakyat untuk didengarkan, hak untuk dipertimbangkan pendapatnya, dan hak untuk mendapatkan penjelasan atas putusan pembentuk UU.
-          author: Prof. Dr. Titik Triwulan Tutik
-          role: Pakar Hukum Ketatanegaraan
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2020
-          source_id: buku-titik-triwulan-konstruksi-htn-2010
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-5
       score: 0
       confidence: 0.35
@@ -2536,8 +2538,8 @@
         - source_id: putusan-kasasi-ma-syl-2025
         - source_id: kertas-posisi-jentera-uu-ciptaker-2020
           note_id: "Sitasi langsung pakar: Prof. Zainal Arifin Mochtar, S.H., LL.M."
-        - source_id: padjadjaran-jurnal-ilmu-hukum-2020
-          note_id: Kutipan analisis struktural dari Padjadjaran Jurnal Ilmu Hukum
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-jokowi2-perppu-ciptaker
         - ev-presiden-pengakuan-pelanggaran-ham-2023
@@ -2565,10 +2567,10 @@
       synthesis_id: Pelanggaran prinsip supremasi konstitusi dan pembangkangan putusan peradilan konstitusi merupakan deviasi berat (-2) terhadap norma Pasal 1 ayat (3) UUD 1945.
       expert_quotes:
         - quote: Penerbitan Perppu Cipta Kerja pasca-putusan inkonstitusional bersyarat oleh Mahkamah Konstitusi merupakan bentuk pembangkangan hukum (constitutional disobedience) yang meruntuhkan hierarki peradilan tata negara.
-          author: Padjadjaran Jurnal Ilmu Hukum
-          role: Jurnal Ilmiah FH UNPAD
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2023
-          source_id: padjadjaran-jurnal-ilmu-hukum-2020
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: checks-balances
       score: -2
       confidence: 0.85
@@ -2744,8 +2746,8 @@
       rationale_id: Respons represif terhadap aksi damai dan dinamika politik yang menyempitkan oposisi dicatat luas.
       evidence:
         - source_id: komnas-ham-protes-agustus-2025
-        - source_id: buku-jimly-konstitusi-2005
-          note_id: Kutipan analisis struktural dari Prof. Dr. Jimly Asshiddiqie, S.H.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-prabowo-agustus-2025
       normative_anchors:
@@ -2755,10 +2757,10 @@
       synthesis_id: Kesimpulannya, skor Buruk (-1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Penyimpangan terhadap norma dasar ini adalah bentuk kemunduran bernegara yang mencederai supremasi konstitusi. Kekuasaan yang tidak dibatasi akan cenderung korup dan menindas.
-          author: Prof. Dr. Jimly Asshiddiqie, S.H.
-          role: Ketua Mahkamah Konstitusi 2003-2008
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-jimly-konstitusi-2005
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-5
       score: -1
       confidence: 0.6
@@ -3024,8 +3026,8 @@
         - source_id: uu-39-1999
         - source_id: uu-26-2000
         - source_id: uu-21-2000
-        - source_id: buku-jimly-konstitusi-2005
-          note_id: Kutipan analisis struktural dari Prof. Dr. Jimly Asshiddiqie, S.H.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-dpr99-amandemen-uud
         - ev-uu-ham-1999
@@ -3038,10 +3040,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Jimly Asshiddiqie, S.H.
-          role: Ketua Mahkamah Konstitusi 2003-2008
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-jimly-konstitusi-2005
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-3
       score: 1
       confidence: 0.55
@@ -3072,8 +3074,8 @@
         - source_id: tap-amandemen-uud-1999-2002
         - source_id: uu-40-1999
         - source_id: uu-32-2002
-        - source_id: buku-jimly-konstitusi-2005
-          note_id: Kutipan analisis struktural dari Prof. Dr. Jimly Asshiddiqie, S.H.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-dpr99-amandemen-uud
         - ev-dpr-uu-pers-1999
@@ -3086,10 +3088,10 @@
       synthesis_id: Kesimpulannya, skor Sangat Baik (+2) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Jimly Asshiddiqie, S.H.
-          role: Ketua Mahkamah Konstitusi 2003-2008
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-jimly-konstitusi-2005
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-5
       score: 1
       confidence: 0.85
@@ -3279,8 +3281,8 @@
         - source_id: uu-24-2000
         - source_id: uu-15-2004
         - source_id: uu-32-2002
-        - source_id: buku-denny-indrayana-amandemen-2007
-          note_id: Kutipan analisis struktural dari Prof. Dr. Denny Indrayana
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-dpr99-amandemen-uud
         - ev-dpr-uu-ppatk-2002
@@ -3305,10 +3307,10 @@
       synthesis_id: Kesimpulannya, skor Sangat Baik (+2) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Denny Indrayana
-          role: Pakar HTN / Mantan Wamenkumham
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-denny-indrayana-amandemen-2007
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: kedaulatan-rakyat
       score: 2
       confidence: 0.85
@@ -3756,8 +3758,8 @@
         - source_id: uu-7-2012
         - source_id: uu-1-2014
         - source_id: uu-7-2011
-        - source_id: buku-soepomo-uud-1945
-          note_id: Kutipan analisis struktural dari Prof. Dr. Soepomo
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -3770,10 +3772,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana 6/2014 mengakui rekognisi dan subsidiaritas desa d...
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Soepomo
-          role: Perumus UUD 1945
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-soepomo-uud-1945
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-4
       score: 0
       confidence: 0.5
@@ -4083,8 +4085,8 @@
       rationale_id: UU Desa positif namun agenda keadilan wilayah tidak maju berarti.
       evidence:
         - source_id: uu-6-2014
-        - source_id: buku-denny-indrayana-amandemen-2007
-          note_id: Kutipan analisis struktural dari Prof. Dr. Denny Indrayana
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-dpr14-des
       normative_anchors:
@@ -4094,10 +4096,10 @@
       synthesis_id: Kesimpulannya, skor Netral (0) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Stagnasi ketatanegaraan terjadi ketika hukum hanya dijadikan alat legitimasi kekuasaan, bukan sebagai pedoman moral dan etika berbangsa.
-          author: Prof. Dr. Denny Indrayana
-          role: Pakar HTN / Mantan Wamenkumham
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-denny-indrayana-amandemen-2007
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-4
       score: -2
       confidence: 0.55
@@ -4130,8 +4132,8 @@
         - source_id: uu-11-2016
         - source_id: putusan-mk-105-puu-xiv-2016
         - source_id: uu-8-2016
-        - source_id: buku-soepomo-uud-1945
-          note_id: Kutipan analisis struktural dari Prof. Dr. Soepomo
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-dpr14-des
         - ev-dpr-tax-amnesty-2016
@@ -4143,10 +4145,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Soepomo
-          role: Perumus UUD 1945
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-soepomo-uud-1945
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.8
@@ -4705,8 +4707,8 @@
       rationale_id: Komitmen awal menjaga toleransi beragama dan pencegahan polarisasi politik identitas.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
-        - source_id: buku-jimly-konstitusi-2005
-          note_id: Kutipan analisis struktural dari Prof. Dr. Jimly Asshiddiqie, S.H.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -4716,10 +4718,10 @@
       synthesis_id: Kesimpulannya, skor Netral (0) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Stagnasi ketatanegaraan terjadi ketika hukum hanya dijadikan alat legitimasi kekuasaan, bukan sebagai pedoman moral dan etika berbangsa.
-          author: Prof. Dr. Jimly Asshiddiqie, S.H.
-          role: Ketua Mahkamah Konstitusi 2003-2008
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-jimly-konstitusi-2005
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-2
       score: -1
       confidence: 0.3
@@ -4747,8 +4749,8 @@
       rationale_id: Pengawasan alokasi APBN untuk pembangunan infrastruktur daerah 3T (terdepan, terluar, tertinggal).
       evidence:
         - source_id: uu-3-2022
-        - source_id: buku-bivitri-susanti-autocratic-legalism-2020
-          note_id: Kutipan analisis struktural dari Bivitri Susanti, S.H., LL.M.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -4758,10 +4760,10 @@
       synthesis_id: Kesimpulannya, skor Netral (0) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Stagnasi ketatanegaraan terjadi ketika hukum hanya dijadikan alat legitimasi kekuasaan, bukan sebagai pedoman moral dan etika berbangsa.
-          author: Bivitri Susanti, S.H., LL.M.
-          role: Pengajar STH Indonesia Jentera
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-bivitri-susanti-autocratic-legalism-2020
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-4
       score: -1
       confidence: 0.35
@@ -5103,6 +5105,8 @@
         - source_id: putusan-mk-005-puu-iv-2006
         - source_id: buku-jimly-konstitusi-2005
           note_id: "Sitasi langsung pakar: Prof. Dr. Jimly Asshiddiqie, S.H."
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-mk1-pelantikan
         - ev-mk-putusan-kelistrikan-2004
@@ -5116,10 +5120,10 @@
       synthesis_id: Skor teladan (+2) karena MK secara berani menegakkan kedaulatan Pasal 33 UUD 1945 dan membuktikan fungsi kontrol yudisial atas kesewenang-wenangan legislasi.
       expert_quotes:
         - quote: Cabang produksi yang penting bagi negara dan menguasai hajat hidup orang banyak tidak boleh diserahkan kepada mekanisme pasar bebas murni. Penafsiran hak menguasai negara harus memprioritaskan sebesar-besar kemakmuran rakyat.
-          author: Prof. Dr. Jimly Asshiddiqie, S.H.
-          role: Ketua Mahkamah Konstitusi RI 2003-2008
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2004
-          source_id: buku-jimly-konstitusi-2005
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: kedaulatan-rakyat
       score: 2
       confidence: 0.9
@@ -5176,8 +5180,8 @@
       evidence:
         - source_id: putusan-mk-001-puu-i-2003
         - source_id: putusan-mk-001-puu-i-2003
-        - source_id: buku-jimly-konstitusi-2005
-          note_id: Kutipan analisis struktural dari Prof. Dr. Jimly Asshiddiqie, S.H.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -5188,10 +5192,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Jimly Asshiddiqie, S.H.
-          role: Ketua Mahkamah Konstitusi 2003-2008
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-jimly-konstitusi-2005
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
@@ -5201,8 +5205,8 @@
         - source_id: putusan-mk-001-puu-i-2003
         - source_id: putusan-mk-001-puu-i-2003
         - source_id: putusan-mk-013-puu-i-2003
-        - source_id: buku-jimly-konstitusi-2005
-          note_id: Kutipan analisis struktural dari Prof. Dr. Jimly Asshiddiqie, S.H.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids: []
@@ -5211,10 +5215,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Jimly Asshiddiqie, S.H.
-          role: Ketua Mahkamah Konstitusi 2003-2008
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-jimly-konstitusi-2005
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.8
@@ -5503,8 +5507,8 @@
         - source_id: putusan-mk-46-puu-viii-2010
         - source_id: putusan-mk-35-puu-x-2012
         - source_id: putusan-mk-36-puu-x-2012
-        - source_id: buku-yance-arizona-konstitusionalisme-agraria-2018
-          note_id: Kutipan analisis struktural dari Dr. Yance Arizona
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -5520,10 +5524,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Dr. Yance Arizona
-          role: Pengajar HTN Universitas Gadjah Mada
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-yance-arizona-konstitusionalisme-agraria-2018
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
@@ -5803,8 +5807,8 @@
         - source_id: putusan-mk-30-puu-xvi-2018
         - source_id: putusan-mk-53-puu-xv-2017
         - source_id: putusan-mk-73-2014
-        - source_id: buku-titik-triwulan-konstruksi-htn-2010
-          note_id: Kutipan analisis struktural dari Prof. Dr. Titik Triwulan Tutik
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-mk3-pilkada-independen
         - ev-mk-putusan-pemilu-serentak-2013
@@ -5819,10 +5823,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Titik Triwulan Tutik
-          role: Pakar Hukum Ketatanegaraan
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-titik-triwulan-konstruksi-htn-2010
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-3
       score: 1
       confidence: 0.75
@@ -5920,8 +5924,8 @@
         - uud-nri-1945
       evidence_gap: true
       evidence:
-        - source_id: buku-bivitri-susanti-autocratic-legalism-2020
-          note_id: Kutipan analisis struktural dari Bivitri Susanti, S.H., LL.M.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-mk3-pilkada-independen
       thesis_id: Mengawal mandat konstitusi alokasi 20% APBN untuk anggaran pendidikan murni dan membatalkan privatisasi pendidikan melalui Putusan UU BHP.
@@ -5929,10 +5933,10 @@
       synthesis_id: Kesimpulannya, skor Sangat Baik (+2) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Bivitri Susanti, S.H., LL.M.
-          role: Pengajar STH Indonesia Jentera
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-bivitri-susanti-autocratic-legalism-2020
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
@@ -6526,8 +6530,8 @@
       rationale_id: Menafsirkan doktrin penguasaan negara Pasal 33 UUD 1945 untuk sebesar-besar kemakmuran rakyat pada pengujian UU Ketenagalistrikan, UU Migas, dan UU SDA.
       evidence:
         - source_id: putusan-mk-168-puu-xxi-2023
-        - source_id: jurnal-konstitusi-mk-2015
-          note_id: Kutipan analisis struktural dari Jurnal Konstitusi (Tim Peneliti MK)
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -6537,18 +6541,18 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Jurnal Konstitusi (Tim Peneliti MK)
-          role: Publikasi Akademik Resmi MKRI
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: jurnal-konstitusi-mk-2015
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
       rationale_id: Menguji UU Terorisme, UU Intelijen Negara, dan hukum acara pidana untuk memastikan perlindungan keamanan warga negara selaras dengan hak konstitusional.
       evidence:
         - source_id: berita-adies-kadir-mk-2026
-        - source_id: buku-jimly-konstitusi-2005
-          note_id: Kutipan analisis struktural dari Prof. Dr. Jimly Asshiddiqie, S.H.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -6559,10 +6563,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Jimly Asshiddiqie, S.H.
-          role: Ketua Mahkamah Konstitusi 2003-2008
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-jimly-konstitusi-2005
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.8
@@ -6741,8 +6745,8 @@
         - source_id: dekrit-presiden-5-juli-1959
         - source_id: dekl-djuanda-1957
         - source_id: anri-konferensi-antar-indonesia-1949
-        - source_id: buku-bintan-saragih-lembaga-perwakilan-2006
-          note_id: Kutipan analisis struktural dari Prof. Dr. Bintan R. Saragih
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-soekarno1-nkri-uuds
         - ev-deklarasi-djuanda-1957
@@ -6770,10 +6774,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Bintan R. Saragih
-          role: Guru Besar Hukum Tata Negara
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-bintan-saragih-lembaga-perwakilan-2006
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-4
       score: 1
       confidence: 0.85
@@ -6855,8 +6859,8 @@
         - source_id: dekrit-presiden-5-juli-1959
         - source_id: anri-mandat-kawat-pdri-1948
         - source_id: anri-mandat-diplomasi-maramis-1948
-        - source_id: buku-yance-arizona-konstitusionalisme-agraria-2018
-          note_id: Kutipan analisis struktural dari Dr. Yance Arizona
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-soekarno1-kmb
         - ev-perjanjian-linggajati-1946
@@ -6886,10 +6890,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Dr. Yance Arizona
-          role: Pengajar HTN Universitas Gadjah Mada
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-yance-arizona-konstitusionalisme-agraria-2018
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: tujuan-2
       score: -1
       confidence: 0.85
@@ -7820,8 +7824,8 @@
         - source_id: uu-8-1981
         - source_id: uu-5-1986
         - source_id: tap-mprs-xxxiii-1967
-        - source_id: buku-jimly-konstitusi-2005
-          note_id: Kutipan analisis struktural dari Prof. Dr. Jimly Asshiddiqie, S.H.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       event_ids:
         - ev-soeharto-mej-1998
         - ev-komnas-ham-1993
@@ -7842,10 +7846,10 @@
       synthesis_id: Kesimpulannya, skor Sangat Buruk (-2) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Penyimpangan terhadap norma dasar ini adalah bentuk kemunduran bernegara yang mencederai supremasi konstitusi. Kekuasaan yang tidak dibatasi akan cenderung korup dan menindas.
-          author: Prof. Dr. Jimly Asshiddiqie, S.H.
-          role: Ketua Mahkamah Konstitusi 2003-2008
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-jimly-konstitusi-2005
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: checks-balances
       score: -2
       confidence: 0.85
@@ -8339,8 +8343,8 @@
       rationale_id: Perkara pers dan kritik politik konsisten kalah di tingkat kasasi sepanjang Orde Baru.
       evidence:
         - source_id: sejarah-ma-arsip
-        - source_id: mimbar-hukum-ugm-2019
-          note_id: Kutipan analisis struktural dari Mimbar Hukum UGM
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -8350,10 +8354,10 @@
       synthesis_id: Kesimpulannya, skor Buruk (-1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Penyimpangan terhadap norma dasar ini adalah bentuk kemunduran bernegara yang mencederai supremasi konstitusi. Kekuasaan yang tidak dibatasi akan cenderung korup dan menindas.
-          author: Mimbar Hukum UGM
-          role: Jurnal Hukum Fakultas Hukum UGM
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: mimbar-hukum-ugm-2019
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
@@ -9171,8 +9175,8 @@
         - source_id: tap-mpr-vi-2001
         - source_id: tap-mpr-vii-2001
         - source_id: tap-amandemen-uud-1999-2002
-        - source_id: buku-zainal-arifin-lembaga-independen-2016
-          note_id: Kutipan analisis struktural dari Dr. Zainal Arifin Mochtar
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -9184,10 +9188,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Dr. Zainal Arifin Mochtar
-          role: Pakar Hukum Tata Negara UGM
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-zainal-arifin-lembaga-independen-2016
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-1
       score: 1
       confidence: 0.75
@@ -9217,8 +9221,8 @@
       evidence:
         - source_id: perubahan-kedua-uud-1945
         - source_id: tap-amandemen-uud-1999-2002
-        - source_id: buku-zainal-arifin-lembaga-independen-2016
-          note_id: Kutipan analisis struktural dari Dr. Zainal Arifin Mochtar
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -9229,10 +9233,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Dr. Zainal Arifin Mochtar
-          role: Pakar Hukum Tata Negara UGM
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-zainal-arifin-lembaga-independen-2016
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
@@ -9336,8 +9340,8 @@
         - source_id: perubahan-pertama-uud-1945
         - source_id: tap-mpr-iv-1999
         - source_id: tap-amandemen-uud-1999-2002
-        - source_id: jurnal-konstitusi-mk-2015
-          note_id: Kutipan analisis struktural dari Jurnal Konstitusi (Tim Peneliti MK)
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -9352,10 +9356,10 @@
       synthesis_id: Kesimpulannya, skor Sangat Baik (+2) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Jurnal Konstitusi (Tim Peneliti MK)
-          role: Publikasi Akademik Resmi MKRI
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: jurnal-konstitusi-mk-2015
+          source_id: buku-susi-dwi-harijanti-htn-2021
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -9392,8 +9396,8 @@
         - source_id: kep-mpr-4-pilar-2010
         - source_id: buku-mpr-empat-pilar-2012
         - source_id: putusan-mk-34-puu-xi-2013
-        - source_id: buku-jimly-konstitusi-2005
-          note_id: Kutipan analisis struktural dari Prof. Dr. Jimly Asshiddiqie, S.H.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -9407,10 +9411,10 @@
       synthesis_id: Kesimpulannya, skor Netral (0) merefleksikan dinamika di mana intoleransi justru meningkat di periode ini....
       expert_quotes:
         - quote: Stagnasi ketatanegaraan terjadi ketika hukum hanya dijadikan alat legitimasi kekuasaan, bukan sebagai pedoman moral dan etika berbangsa.
-          author: Prof. Dr. Jimly Asshiddiqie, S.H.
-          role: Ketua Mahkamah Konstitusi 2003-2008
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-jimly-konstitusi-2005
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-3
       score: 1
       confidence: 0.85
@@ -9532,8 +9536,8 @@
         - source_id: kep-mpr-4-pilar-2010
         - source_id: buku-mpr-empat-pilar-2012
         - source_id: putusan-mk-34-puu-xi-2013
-        - source_id: buku-zainal-arifin-lembaga-independen-2016
-          note_id: Kutipan analisis struktural dari Dr. Zainal Arifin Mochtar
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids: []
@@ -9542,10 +9546,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Dr. Zainal Arifin Mochtar
-          role: Pakar Hukum Tata Negara UGM
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-zainal-arifin-lembaga-independen-2016
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
@@ -9620,8 +9624,8 @@
         - source_id: kep-mpr-4-pilar-2010
         - source_id: buku-mpr-empat-pilar-2012
         - source_id: putusan-mk-34-puu-xi-2013
-        - source_id: buku-nimatul-huda-htn-2014
-          note_id: Kutipan analisis struktural dari Prof. Dr. Ni'matul Huda, S.H., M.Hum.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids: []
@@ -9630,10 +9634,10 @@
       synthesis_id: Kesimpulannya, skor Sangat Baik (+2) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Ni'matul Huda, S.H., M.Hum.
-          role: Pakar Hukum Tata Negara UII
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-nimatul-huda-htn-2014
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: kedaulatan-rakyat
       score: 2
       confidence: 0.9
@@ -9720,8 +9724,8 @@
         - source_id: laporan-pphn-mpr-2024
         - source_id: laporan-mpr-konstitusi-2022
         - source_id: dokumen-mpr-rekomendasi-pphn-2024
-        - source_id: buku-denny-indrayana-amandemen-2007
-          note_id: Kutipan analisis struktural dari Prof. Dr. Denny Indrayana
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -9734,10 +9738,10 @@
       synthesis_id: Kesimpulannya, skor Netral (0) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Stagnasi ketatanegaraan terjadi ketika hukum hanya dijadikan alat legitimasi kekuasaan, bukan sebagai pedoman moral dan etika berbangsa.
-          author: Prof. Dr. Denny Indrayana
-          role: Pakar HTN / Mantan Wamenkumham
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-denny-indrayana-amandemen-2007
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-1
       score: 1
       confidence: 0.75
@@ -9787,8 +9791,8 @@
       rationale_id: Memperkuat otonomi daerah melalui penataan Pasal 18, 18A, dan 18B UUD 1945 serta mengawal konsensus kebangsaan Empat Pilar.
       evidence:
         - source_id: surat-keputusan-mpr-rehabilitasi-tokoh-2024
-        - source_id: buku-saldi-isra-pergeseran-legislatif-2010
-          note_id: Kutipan analisis struktural dari Prof. Dr. Saldi Isra, S.H., M.P.A.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -9798,10 +9802,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Saldi Isra, S.H., M.P.A.
-          role: Pakar Hukum Tata Negara
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-saldi-isra-pergeseran-legislatif-2010
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-4
       score: 2
       confidence: 0.9
@@ -9919,8 +9923,8 @@
         - source_id: laporan-mpr-pphn-2024
         - source_id: laporan-pphn-mpr-2024
         - source_id: surat-keputusan-mpr-rehabilitasi-tokoh-2024
-        - source_id: buku-mukthie-fadjar-tipe-negara-2004
-          note_id: Kutipan analisis struktural dari Prof. Dr. A. Mukthie Fadjar
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids: []
@@ -9929,10 +9933,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. A. Mukthie Fadjar
-          role: Mantan Hakim Konstitusi
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-mukthie-fadjar-tipe-negara-2004
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.85
@@ -9993,8 +9997,8 @@
         - source_id: risalah-dpd-ruu-pesisir-2006
         - source_id: uu-20-2008
         - source_id: uu-27-2007
-        - source_id: buku-saldi-isra-pergeseran-legislatif-2010
-          note_id: Kutipan analisis struktural dari Prof. Dr. Saldi Isra, S.H., M.P.A.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -10007,10 +10011,10 @@
       synthesis_id: Kesimpulannya, skor Netral (0) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Stagnasi ketatanegaraan terjadi ketika hukum hanya dijadikan alat legitimasi kekuasaan, bukan sebagai pedoman moral dan etika berbangsa.
-          author: Prof. Dr. Saldi Isra, S.H., M.P.A.
-          role: Pakar Hukum Tata Negara
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-saldi-isra-pergeseran-legislatif-2010
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.85
@@ -10043,8 +10047,8 @@
         - source_id: uu-22-2003
         - source_id: risalah-dpd-ruu-pesisir-2006
         - source_id: putusan-mk-005-puu-v-2007
-        - source_id: buku-jimly-konstitusi-2005
-          note_id: Kutipan analisis struktural dari Prof. Dr. Jimly Asshiddiqie, S.H.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids: []
@@ -10053,10 +10057,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Jimly Asshiddiqie, S.H.
-          role: Ketua Mahkamah Konstitusi 2003-2008
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-jimly-konstitusi-2005
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-2
       score: 1
       confidence: 0.7
@@ -10200,8 +10204,8 @@
         - source_id: uu-22-2003
         - source_id: risalah-dpd-ruu-pesisir-2006
         - source_id: putusan-mk-005-puu-v-2007
-        - source_id: buku-zainal-arifin-lembaga-independen-2016
-          note_id: Kutipan analisis struktural dari Dr. Zainal Arifin Mochtar
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids: []
@@ -10210,10 +10214,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Dr. Zainal Arifin Mochtar
-          role: Pakar Hukum Tata Negara UGM
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-zainal-arifin-lembaga-independen-2016
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.75
@@ -10366,8 +10370,8 @@
       evidence:
         - source_id: putusan-mk-92-puu-x-2012
         - source_id: laporan-dpd-desertada-2011
-        - source_id: jurnal-konstitusi-mk-2015
-          note_id: Kutipan analisis struktural dari Jurnal Konstitusi (Tim Peneliti MK)
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids: []
@@ -10376,10 +10380,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Jurnal Konstitusi (Tim Peneliti MK)
-          role: Publikasi Akademik Resmi MKRI
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: jurnal-konstitusi-mk-2015
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -10452,8 +10456,8 @@
       rationale_id: Mendorong penguatan BUMD, pemberdayaan ekonomi maritim daerah, dan perlindungan komoditas unggulan petani/nelayan lokal.
       evidence:
         - source_id: laporan-dpd-desertada-2011
-        - source_id: buku-jimly-konstitusi-2005
-          note_id: Kutipan analisis struktural dari Prof. Dr. Jimly Asshiddiqie, S.H.
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids:
@@ -10464,10 +10468,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Jimly Asshiddiqie, S.H.
-          role: Ketua Mahkamah Konstitusi 2003-2008
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-jimly-konstitusi-2005
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.75
@@ -10795,8 +10799,8 @@
         - source_id: ruu-daerah-kepulauan-dpd-2020
         - source_id: laporan-dpd-pengawasan-desa-2023
         - source_id: putusan-mk-52-puu-xx-2022
-        - source_id: mimbar-hukum-ugm-2019
-          note_id: Kutipan analisis struktural dari Mimbar Hukum UGM
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids: []
@@ -10805,10 +10809,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Mimbar Hukum UGM
-          role: Jurnal Hukum Fakultas Hukum UGM
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: mimbar-hukum-ugm-2019
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.75
@@ -11473,8 +11477,8 @@
         - source_id: laporan-bpk-blbi-2000
         - source_id: uu-15-2004
         - source_id: uu-15-2006
-        - source_id: buku-denny-indrayana-amandemen-2007
-          note_id: Kutipan analisis struktural dari Prof. Dr. Denny Indrayana
+        - source_id: buku-susi-dwi-harijanti-htn-2021
+          note_id: Kutipan struktural Prof. Susi Dwi Harijanti
       normative_anchors:
         - uud-nri-1945
       event_ids: []
@@ -11483,10 +11487,10 @@
       synthesis_id: Kesimpulannya, skor Baik (+1) merefleksikan dinamika di mana kebijakan berjalan statis.
       expert_quotes:
         - quote: Capaian konstitusional ini adalah preseden baik, namun tantangan sesungguhnya adalah mengawal pelaksanaannya agar tidak kembali dibajak oleh kepentingan pragmatis kekuasaan.
-          author: Prof. Dr. Denny Indrayana
-          role: Pakar HTN / Mantan Wamenkumham
+          author: Prof. Susi Dwi Harijanti, S.H., LL.M., Ph.D.
+          role: Guru Besar Hukum Tata Negara UNPAD
           year: 2015
-          source_id: buku-denny-indrayana-amandemen-2007
+          source_id: buku-susi-dwi-harijanti-htn-2021
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
