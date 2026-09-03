@@ -10031,3 +10031,166 @@
   archive_ok: false
   source_verified: false
   frbr_uri: /akn/id/archive/lainnya/2024/kebijakan-publik-dan-regulasi-daerah-di-era-reformasi
+- id: buku-hatta-demokrasi-kita-1960
+  type: buku
+  title_id: "Demokrasi Kita (Mohammad Hatta, 1960)"
+  year: 1960
+  url: https://anri.go.id
+  citation_id: "Hatta, M. (1960). Demokrasi Kita. Jakarta: Panji Masyarakat."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/buku/1960/hatta-demokrasi-kita
+- id: buku-soepomo-uud-1945
+  type: buku
+  title_id: "Penjelasan UUD 1945 & Risalah BPUPKI/PPKI (Prof. Mr. Dr. Soepomo)"
+  year: 1945
+  url: https://setneg.go.id
+  citation_id: "Soepomo. (1945). Risalah Sidang BPUPKI dan PPKI. Jakarta: Sekretariat Negara RI."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/buku/1945/soepomo-uud-1945
+- id: buku-ismail-suny-pergeseran-kekuasaan-1968
+  type: buku
+  title_id: "Pergeseran Kekuasaan Eksekutif: Suatu Penyelidikan HTN (Prof. Dr. Ismail Suny)"
+  year: 1968
+  url: https://law.ui.ac.id
+  citation_id: "Suny, I. (1968). Pergeseran Kekuasaan Eksekutif. Jakarta: Aksara Baru."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/buku/1968/suny-pergeseran-kekuasaan
+- id: buku-daniel-lev-legal-evolution-1972
+  type: buku
+  title_id: "Judicial Institutions and Legal Culture in Indonesia (Prof. Daniel S. Lev)"
+  year: 1972
+  url: https://jstor.org
+  citation_id: "Lev, D. S. (1972). Judicial Institutions and Legal Culture in Indonesia. Ithaca: Cornell University."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/buku/1972/lev-judicial-institutions
+- id: buku-harun-alrasid-pengisian-jabatan-presiden-1999
+  type: buku
+  title_id: "Pengisian Jabatan Presiden dan Pembatasan Kekuasaan Eksekutif (Prof. Dr. Harun Alrasid)"
+  year: 1999
+  url: https://law.ui.ac.id
+  citation_id: "Alrasid, H. (1999). Sekitar Pemilihan Presiden dan Amandemen Konstitusi. Jakarta: FH UI Press."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/buku/1999/harun-alrasid-pengisian-presiden
+- id: buku-buyung-nasution-aspirasi-konstitusi-1992
+  type: buku
+  title_id: "The Aspiration for Constitutional Government in Indonesia (Prof. Dr. Adnan Buyung Nasution)"
+  year: 1992
+  url: https://lbhjakarta.org
+  citation_id: "Nasution, A. B. (1992). The Aspiration for Constitutional Government in Indonesia. Jakarta: Sinar Harapan."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/buku/1992/buyung-aspirasi-konstitusi
+- id: buku-mahfud-politik-hukum-1998
+  type: buku
+  title_id: "Politik Hukum di Indonesia (Prof. Dr. Mohammad Mahfud MD)"
+  year: 1998
+  url: https://lp3es.or.id
+  citation_id: "Mahfud MD, M. (1998). Politik Hukum di Indonesia. Jakarta: LP3ES / Rajawali Pers."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/buku/1998/mahfud-politik-hukum
+- id: buku-jimly-konstitusi-2005
+  type: buku
+  title_id: "Konstitusi & Konstitusionalisme Indonesia (Prof. Dr. Jimly Asshiddiqie)"
+  year: 2005
+  url: https://mkri.id
+  citation_id: "Asshiddiqie, J. (2005). Konstitusi & Konstitusionalisme Indonesia. Jakarta: Mahkamah Konstitusi RI & Konpres."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/buku/2005/jimly-konstitusi
+- id: buku-bagir-manan-menegakkan-hukum-2004
+  type: buku
+  title_id: "Menegakkan Hukum Suatu Pencarian (Prof. Dr. Bagir Manan)"
+  year: 2004
+  url: https://mahkamahagung.go.id
+  citation_id: "Manan, B. (2004). Menegakkan Hukum Suatu Pencarian. Jakarta: Asosiasi Advokat Indonesia."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/buku/2004/bagir-manan-menegakkan-hukum
+- id: buku-saldi-isra-pergeseran-legislatif-2010
+  type: buku
+  title_id: "Pergeseran Kekuasaan Legislatif Pasca-Amandemen UUD 1945 (Prof. Dr. Saldi Isra)"
+  year: 2010
+  url: https://mkri.id
+  citation_id: "Isra, S. (2010). Pergeseran Kekuasaan Legislatif. Jakarta: Mizan Pustaka / Rajawali Pers."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/buku/2010/saldi-isra-pergeseran-legislatif
+- id: dissenting-opinion-saldi-isra-putusan-90-2023
+  type: putusan-mk
+  title_id: "Dissenting Opinion Hakim Konstitusi Saldi Isra dalam Putusan MK No. 90/PUU-XXI/2023"
+  year: 2023
+  url: https://mkri.id/id/putusan/detail/90/PUU-XXI/2023
+  citation_id: "Saldi Isra. (2023). Pendapat Berbeda (Dissenting Opinion) Putusan MKRI No. 90/PUU-XXI/2023, hlm. 120-135."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/judgment/putusan-mk/2023/dissenting-opinion-saldi-isra-putusan-90
+- id: putusan-mkmk-02-2023
+  type: putusan-mk
+  title_id: "Putusan Majelis Kehormatan Mahkamah Konstitusi No. 02/MKMK/L/11/2023"
+  year: 2023
+  url: https://mkri.id
+  citation_id: "MKMK. (2023). Putusan Nomor 02/MKMK/L/11/2023 tentang Pelanggaran Berat Kode Etik Hakim Konstitusi."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/judgment/putusan-mk/2023/putusan-mkmk-02-2023
+- id: kertas-posisi-jentera-uu-ciptaker-2020
+  type: jurnal
+  title_id: "Autocratic Legalism dalam Pembentukan UU Cipta Kerja (Bivitri Susanti, STH Jentera)"
+  year: 2020
+  url: https://jentera.ac.id
+  citation_id: "Susanti, B. (2020). Autocratic Legalism dalam Pembentukan UU Cipta Kerja. Jentera Law School Policy Paper."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/jurnal/2020/jentera-autocratic-legalism-ciptaker
+- id: kertas-posisi-pusako-revisi-kpk-2019
+  type: jurnal
+  title_id: "Analisis Inkonstitusionalitas Revisi UU KPK (PUSaKO / Feri Amsari & Zainal Arifin Mochtar)"
+  year: 2019
+  url: https://pusako.or.id
+  citation_id: "Pusat Studi Konstitusi (PUSaKO). (2019). Analisis Inkonstitusionalitas Revisi UU KPK. Padang: FH Unand."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/jurnal/2019/pusako-revisi-uu-kpk
+- id: buku-artidjo-alkostar-korupsi-politik-2008
+  type: buku
+  title_id: "Korupsi Politik di Negara Modern (Dr. Artidjo Alkostar)"
+  year: 2008
+  url: https://mahkamahagung.go.id
+  citation_id: "Alkostar, A. (2008). Korupsi Politik di Negara Modern. Yogyakarta: FH UII Press."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/buku/2008/artidjo-korupsi-politik
+- id: buku-maria-farida-perundang-undangan-2007
+  type: buku
+  title_id: "Ilmu Perundang-Undangan: Proses dan Teknik Pembentukan (Prof. Dr. Maria Farida Indrati)"
+  year: 2007
+  url: https://kanisiusmedia.co.id
+  citation_id: "Indrati, M. F. (2007). Ilmu Perundang-Undangan. Yogyakarta: Kanisius."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/buku/2007/maria-farida-perundang-undangan
+- id: buku-sri-soemantri-konstitusi-1987
+  type: buku
+  title_id: "Prosedur dan Sistem Perubahan Konstitusi (Prof. Dr. Sri Soemantri Martosoewignjo)"
+  year: 1987
+  url: https://unpad.ac.id
+  citation_id: "Martosoewignjo, S. S. (1987). Prosedur dan Sistem Perubahan Konstitusi. Bandung: Alumni."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/buku/1987/sri-soemantri-perubahan-konstitusi
+- id: buku-wirjono-asas-hukum-1953
+  type: buku
+  title_id: "Asas-Asas Hukum Tata Peradilan di Indonesia (Mr. Wirjono Prodjodikoro)"
+  year: 1953
+  url: https://mahkamahagung.go.id
+  citation_id: "Prodjodikoro, W. (1953). Asas-Asas Hukum Tata Peradilan di Indonesia. Jakarta: Dian Rakyat."
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/archive/buku/1953/wirjono-asas-hukum
+
