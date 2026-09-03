@@ -98,6 +98,8 @@
   r2_key: v2/peraturan/keppres-6-2000.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-6-2000.pdf
   url: https://peraturan.go.id/files/kp6-2000.pdf
+  archive_ok: true
+  source_verified: true
 - id: keppres-125-1999
   type: keppres
   title_id: Keppres No. 125 Tahun 1999 (pembubaran Departemen Penerangan)
@@ -106,6 +108,8 @@
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-125-1999.pdf
   url: https://peraturan.go.id/files/kp125-1999.pdf
   citation_id: Keputusan Presiden RI No. 125 Tahun 1999
+  archive_ok: true
+  source_verified: true
 - id: tripartit-timtim-1999
   type: arsip-nasional
   title_id: Kesepakatan Tripartit Indonesia-Portugal-PBB tentang Konsultasi Rakyat
@@ -124,6 +128,8 @@
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-53-2001.pdf
   url: https://peraturan.go.id/files/kp53-2001.pdf
   citation_id: Keputusan Presiden RI No. 53 Tahun 2001
+  archive_ok: true
+  source_verified: true
 - id: uu-15-2003
   type: undang-undang
   title_id: UU No. 15 Tahun 2003 tentang Pemberantasan Tindak Pidana Terorisme
@@ -277,7 +283,8 @@
   url: https://www.mkri.id/index.php?page=web.Putusan&id=73/PUU-/2014
   r2_key: v2/putusan/putusan-mk-73-2014.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-73-2014.pdf
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: inpres-10-2011
   type: keppres
   title_id: Instruksi Presiden No. 10 Tahun 2011 tentang Moratorium Izin Baru Hutan
@@ -287,6 +294,8 @@
   r2_key: v2/peraturan/inpres-10-2011.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/inpres-10-2011.pdf
   url: https://peraturan.go.id/files/ips10-2011.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-komnas-ham-eksekusi-2015
   type: laporan-lembaga
   title_id: Komnas HAM - pernyataan dan pemantauan terkait eksekusi mati narkotika
@@ -368,6 +377,8 @@
   url: https://www.mkri.id/public/content/persidangan/putusan/putusan_mkri_8240_1637822490.pdf
   r2_key: v2/putusan/putusan-mk-91-2021.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-91-2021.pdf
+  archive_ok: true
+  source_verified: true
 - id: perppu-2-2022
   type: perppu
   title_id: Perppu No. 2 Tahun 2022 tentang Cipta Kerja (Pengganti UU Cipta Kerja
@@ -436,6 +447,8 @@
   url: https://www.mkri.id/public/content/persidangan/putusan/putusan_mkri_9332_1697427438.pdf
   r2_key: v2/putusan/putusan-mk-90-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-90-2023.pdf
+  archive_ok: true
+  source_verified: true
 - id: mkmk-anwar-usman-2023
   type: laporan-lembaga
   title_id: Putusan Majelis Kehormatan Etik MK No. 2/MKMK/LKA/PL/11/2023 (pelanggaran
@@ -482,6 +495,8 @@
   r2_key: v2/peraturan/perpres-83-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/perpres-83-2024.pdf
   url: https://peraturan.go.id/files/perpres-no-83-tahun-2024.pdf
+  archive_ok: true
+  source_verified: true
 - id: uu-danantara-2025
   type: undang-undang
   title_id: UU No. 1 Tahun 2025 tentang Badan Pengelola Investasi Daya Anagata Nusantara
@@ -509,6 +524,8 @@
   url: https://www.mkri.id/public/content/persidangan/putusan/100_PUU-XIII_2015.pdf
   r2_key: v2/putusan/putusan-mk-100-2014.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-100-2014.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-ma-akil-2014
   type: putusan-ma
   title_id: Putusan MA kasus suap Akil Mochtar (vonis seumur hidup) dan putusan terkait
@@ -834,7 +851,8 @@
   r2_key: v2/putusan/putusan-munir-2008.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-munir-2008.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: berita-praperadilan-kpk-2009
   type: berita
   title_id: Praperadilan Bibit-Chandra 2009 - perang KPK vs Polri-Kejaksaan dan kemenangan
@@ -1347,6 +1365,8 @@
   citation_id: Putusan MKRI No. 92/PUU-X/2012
   r2_key: v2/putusan/putusan-mk-92-puu-x-2012.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-92-puu-x-2012.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-79-puu-xii-2014
   type: putusan-mk
   title_id: Putusan MK No. 79/PUU-XII/2014 (Penegasan Hak DPD RI Mengusulkan dan Membahas
@@ -1356,6 +1376,8 @@
   citation_id: Putusan MKRI No. 79/PUU-XII/2014
   r2_key: v2/putusan/putusan-mk-79-puu-xii-2014.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-79-puu-xii-2014.pdf
+  archive_ok: true
+  source_verified: true
 - id: ruu-daerah-kepulauan-dpd-2020
   type: dokumen-mpr
   title_id: Draft Naskah Akademik dan RUU Usul Inisiatif DPD RI tentang Daerah Kepulauan
@@ -1471,6 +1493,8 @@
   citation_id: Putusan MKRI No. 005/PUU-IV/2006
   r2_key: v2/putusan/putusan-mk-005-puu-iv-2006.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-005-puu-iv-2006.pdf
+  archive_ok: true
+  source_verified: true
 - id: skb-ma-ky-kepph-2009
   type: laporan-lembaga
   title_id: Surat Keputusan Bersama Ketua MA dan Ketua KY No. 047/KMA/SKB/IV/2009
@@ -1535,7 +1559,8 @@
   r2_key: v2/peraturan/dekrit-presiden-5-juli-1959.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/dekrit-presiden-5-juli-1959.pdf
   url: https://anri.go.id/publikasi/arsip-tematik/dekrit-presiden-5-juli-1959
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: tap-mprs-xxxiii-1967
   type: dokumen-mpr
   title_id: Ketetapan MPRS No. XXXIII/MPRS/1967 tentang Pencabutan Kekuasaan Pemerintahan
@@ -1564,6 +1589,8 @@
   citation_id: Putusan MKRI No. 60/PUU-XXII/2024
   r2_key: v2/putusan/putusan-mk-60-puu-xxii-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-60-puu-xxii-2024.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-70-puu-xxii-2024
   type: putusan-mk
   title_id: Putusan MK No. 70/PUU-XXII/2024 (Penetapan Syarat Usia Calon Kepala Daerah
@@ -1573,6 +1600,8 @@
   citation_id: Putusan MKRI No. 70/PUU-XXII/2024
   r2_key: v2/putusan/putusan-mk-70-puu-xxii-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-70-puu-xxii-2024.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-audit-bpk-century-2009
   type: laporan-lembaga
   title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Penanganan Kasus PT
@@ -1593,7 +1622,8 @@
   r2_key: v2/putusan/putusan-ma-23-p-hum-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-23-p-hum-2024.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/putusan/23%20P%2FHUM%2F2024.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-14-puu-xi-2013
   type: putusan-mk
   title_id: Putusan MK No. 14/PUU-XI/2013 (Kewajiban Penyelenggaraan Pemilihan Umum
@@ -1603,6 +1633,8 @@
   citation_id: Putusan MKRI No. 14/PUU-XI/2013
   r2_key: v2/putusan/putusan-mk-14-puu-xi-2013.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-14-puu-xi-2013.pdf
+  archive_ok: true
+  source_verified: true
 - id: deklarasi-djuanda-1957
   type: arsip-nasional
   title_id: Deklarasi Djuanda 13 Desember 1957 tentang Wilayah Perairan Republik Indonesia
@@ -1631,7 +1663,8 @@
   r2_key: v2/putusan/perma-1-2019.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/perma-1-2019.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: laporan-ihps-bpk-2022
   type: laporan-lembaga
   title_id: Ikhtisar Hasil Pemeriksaan Semester (IHPS) II Tahun 2022 Badan Pemeriksa
@@ -1722,7 +1755,8 @@
   r2_key: v2/peraturan/penpres-2-1959.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/penpres-2-1959.pdf
   url: https://jdih.setneg.go.id/detailperaturan?jns=PENPRES&no=2&thn=1959
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: penpres-3-1960
   type: keppres
   title_id: Penetapan Presiden No. 3 Tahun 1960 tentang Pembubaran Dewan Perwakilan
@@ -1732,7 +1766,8 @@
   r2_key: v2/peraturan/penpres-3-1960.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/penpres-3-1960.pdf
   url: https://jdih.setneg.go.id/detailperaturan?jns=PENPRES&no=3&thn=1960
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: penpres-4-1960
   type: keppres
   title_id: Penetapan Presiden No. 4 Tahun 1960 tentang Susunan Dewan Perwakilan Rakyat
@@ -1742,7 +1777,8 @@
   r2_key: v2/peraturan/penpres-4-1960.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/penpres-4-1960.pdf
   url: https://jdih.setneg.go.id/detailperaturan?jns=PENPRES&no=4&thn=1960
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: tap-mprs-ix-1966
   type: dokumen-mpr
   title_id: TAP MPRS No. IX/MPRS/1966 tentang Pengukuhan Surat Perintah 11 Maret 1966
@@ -1801,6 +1837,8 @@
   citation_id: Putusan MKRI No. 006/PUU-IV/2006
   r2_key: v2/putusan/putusan-mk-006-puu-iv-2006.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-006-puu-iv-2006.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-35-puu-x-2012
   type: putusan-mk
   title_id: Putusan MK No. 35/PUU-X/2012 (Pengakuan Konstitusional Bahwa Hutan Adat
@@ -1822,6 +1860,8 @@
   citation_id: Putusan MKRI No. 85/PUU-XI/2013
   r2_key: v2/putusan/putusan-mk-85-puu-xi-2013.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-85-puu-xi-2013.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-97-puu-xiv-2016
   type: putusan-mk
   title_id: Putusan MK No. 97/PUU-XIV/2016 (Pengakuan Hak Konstitusional Penghayat
@@ -1831,6 +1871,8 @@
   citation_id: Putusan MKRI No. 97/PUU-XIV/2016
   r2_key: v2/putusan/putusan-mk-97-puu-xiv-2016.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-97-puu-xiv-2016.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-46-puu-viii-2010
   type: putusan-mk
   title_id: Putusan MK No. 46/PUU-VIII/2010 (Pengakuan Hubungan Keperdataan dan Hak
@@ -1840,6 +1882,8 @@
   citation_id: Putusan MKRI No. 46/PUU-VIII/2010
   r2_key: v2/putusan/putusan-mk-46-puu-viii-2010.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-46-puu-viii-2010.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-130-puu-xiii-2015
   type: putusan-mk
   title_id: Putusan MK No. 130/PUU-XIII/2015 (Kewajiban Penyidik Memberitahukan SPDP
@@ -1849,6 +1893,8 @@
   citation_id: Putusan MKRI No. 130/PUU-XIII/2015
   r2_key: v2/putusan/putusan-mk-130-puu-xiii-2015.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-130-puu-xiii-2015.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-18-puu-xvii-2019
   type: putusan-mk
   title_id: Putusan MK No. 18/PUU-XVII/2019 (Eksekusi Jaminan Fidusia Tidak Boleh
@@ -1858,6 +1904,8 @@
   citation_id: Putusan MKRI No. 18/PUU-XVII/2019
   r2_key: v2/putusan/putusan-mk-18-puu-xvii-2019.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-18-puu-xvii-2019.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-audit-bpk-blbi-2000
   type: laporan-lembaga
   title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Penggunaan Dana Bantuan
@@ -1887,7 +1935,8 @@
   r2_key: v2/putusan/putusan-ma-31-p-hum-2019.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-31-p-hum-2019.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/putusan/31%20P%2FHUM%2F2019.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-ma-44-p-hum-2019
   type: putusan-ma
   title_id: Putusan MA No. 44 P/HUM/2019 (Uji Materiil PKPU No. 5/2019 terkait Syarat
@@ -1897,7 +1946,8 @@
   r2_key: v2/putusan/putusan-ma-44-p-hum-2019.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-44-p-hum-2019.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/putusan/44%20P%2FHUM%2F2019.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-36-puu-x-2012
   type: putusan-mk
   title_id: Putusan MK No. 36/PUU-X/2012 (Pembubaran BP Migas dan Pengembalian Penguasaan
@@ -1919,6 +1969,8 @@
   citation_id: Putusan MKRI No. 116/PUU-XXI/2023
   r2_key: v2/putusan/putusan-mk-116-puu-xxi-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-116-puu-xxi-2023.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-30-puu-xvi-2018
   type: putusan-mk
   title_id: Putusan MK No. 30/PUU-XVI/2018 (Larangan Pengurus Partai Politik Menjadi
@@ -1928,6 +1980,8 @@
   citation_id: Putusan MKRI No. 30/PUU-XVI/2018
   r2_key: v2/putusan/putusan-mk-30-puu-xvi-2018.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-30-puu-xvi-2018.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-012-016-019-puu-iv-2006
   type: putusan-mk
   title_id: Putusan MK No. 012-016-019/PUU-IV/2006 (Keabsahan Konstitusional Kewenangan
@@ -1937,6 +1991,8 @@
   citation_id: Putusan MKRI No. 012-016-019/PUU-IV/2006
   r2_key: v2/putusan/putusan-mk-012-016-019-puu-iv-2006.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-012-016-019-puu-iv-2006.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-136-puu-xxii-2024
   type: putusan-mk
   title_id: Putusan MK No. 136/PUU-XXII/2024 (Penegasan Sanksi Pidana Netralitas bagi
@@ -1946,6 +2002,8 @@
   citation_id: Putusan MKRI No. 136/PUU-XXII/2024
   r2_key: v2/putusan/putusan-mk-136-puu-xxii-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-136-puu-xxii-2024.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-audit-bpk-asabri-2021
   type: laporan-lembaga
   title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pengelolaan Keuangan
@@ -1988,7 +2046,8 @@
   r2_key: v2/putusan/putusan-kasasi-ma-jiwasraya-2021.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-kasasi-ma-jiwasraya-2021.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: keppres-50-1993
   type: keppres
   title_id: Keputusan Presiden No. 50 Tahun 1993 tentang Pembentukan Komisi Nasional
@@ -1998,7 +2057,8 @@
   r2_key: v2/peraturan/keppres-50-1993.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-50-1993.pdf
   url: https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=50&thn=1993
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: uu-15-2002
   type: undang-undang
   title_id: UU No. 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang & Pendirian
@@ -2035,7 +2095,8 @@
   r2_key: v2/peraturan/inpres-5-1993.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/inpres-5-1993.pdf
   url: https://jdih.setneg.go.id/detailperaturan?jns=INPRES&no=5&thn=1993
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: uu-86-1958
   type: undang-undang
   title_id: UU No. 86 Tahun 1958 tentang Nasionalisasi Perusahaan-Perusahaan Milik
@@ -2085,6 +2146,8 @@
   citation_id: Putusan MKRI No. 105/PUU-XIV/2016
   r2_key: v2/putusan/putusan-mk-105-puu-xiv-2016.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-105-puu-xiv-2016.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-22-puu-xv-2017
   type: putusan-mk
   title_id: Putusan MK No. 22/PUU-XV/2017 (Perintah Revisi Batas Usia Minimal Perkawinan
@@ -2094,6 +2157,8 @@
   citation_id: Putusan MKRI No. 22/PUU-XV/2017
   r2_key: v2/putusan/putusan-mk-22-puu-xv-2017.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-22-puu-xv-2017.pdf
+  archive_ok: true
+  source_verified: true
 - id: deklarasi-keadaan-perang-1957
   type: keppres
   title_id: Keputusan Presiden No. 40 Tahun 1957 tentang Pemberlakuan Keadaan Darurat
@@ -2103,7 +2168,8 @@
   r2_key: v2/peraturan/deklarasi-keadaan-perang-1957.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/deklarasi-keadaan-perang-1957.pdf
   url: https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=40&thn=1957
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: tap-mpr-iv-1999
   type: dokumen-mpr
   title_id: TAP MPR No. IV/MPR/1999 tentang Garis-Garis Besar Haluan Negara (GBHN)
@@ -2238,6 +2304,8 @@
   citation_id: Putusan MKRI No. 55/PUU-XVII/2019
   r2_key: v2/putusan/putusan-mk-55-puu-xvii-2019.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-55-puu-xvii-2019.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mkmk-2-2023
   type: putusan-mk
   title_id: Putusan Majelis Kehormatan Mahkamah Konstitusi No. 2/MKMK/L/11/2023 (Pemberhentian
@@ -2247,6 +2315,8 @@
   citation_id: Putusan MKMK No. 2/MKMK/L/11/2023
   r2_key: v2/putusan/putusan-mkmk-2-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mkmk-2-2023.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-audit-bpk-jiwasraya-2020
   type: laporan-lembaga
   title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pengelolaan Investasi
@@ -2301,6 +2371,8 @@
   citation_id: Putusan MKRI No. 138/PUU-VII/2009
   r2_key: v2/putusan/putusan-mk-138-puu-vii-2009.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-138-puu-vii-2009.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-34-puu-xi-2013
   type: putusan-mk
   title_id: Putusan MK No. 34/PUU-XI/2013 (Peninjauan Kembali / PK Perkara Pidana
@@ -2323,6 +2395,8 @@
   citation_id: Putusan MKRI No. 69/PUU-XIII/2015
   r2_key: v2/putusan/putusan-mk-69-puu-xiii-2015.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-69-puu-xiii-2015.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-20-puu-xiv-2016
   type: putusan-mk
   title_id: Putusan MK No. 20/PUU-XIV/2016 (Rekaman Rahasia Ilegal Bukan Alat Bukti
@@ -2332,6 +2406,8 @@
   citation_id: Putusan MKRI No. 20/PUU-XIV/2016
   r2_key: v2/putusan/putusan-mk-20-puu-xiv-2016.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-20-puu-xiv-2016.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-53-puu-xv-2017
   type: putusan-mk
   title_id: Putusan MK No. 53/PUU-XV/2017 (Kewajiban Verifikasi Faktual Berlaku Adil
@@ -2341,6 +2417,8 @@
   citation_id: Putusan MKRI No. 53/PUU-XV/2017
   r2_key: v2/putusan/putusan-mk-53-puu-xv-2017.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-53-puu-xv-2017.pdf
+  archive_ok: true
+  source_verified: true
 - id: perma-13-2016
   type: putusan-ma
   title_id: Peraturan Mahkamah Agung No. 13 Tahun 2016 tentang Tata Cara Penanganan
@@ -2361,7 +2439,8 @@
   r2_key: v2/putusan/putusan-pk-ma-surya-darmadi-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-pk-ma-surya-darmadi-2023.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: laporan-audit-bpk-aw101-2017
   type: laporan-lembaga
   title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pengadaan Helikopter
@@ -2412,6 +2491,8 @@
   citation_id: LN No. 108 Tahun 2018
   r2_key: v2/peraturan/perpres-54-2018.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/perpres-54-2018.pdf
+  archive_ok: true
+  source_verified: true
 - id: keppres-17-2022
   type: keppres
   title_id: Keputusan Presiden No. 17 Tahun 2022 tentang Pembentukan Tim Penyelesaian
@@ -2421,6 +2502,8 @@
   citation_id: Keppres No. 17 Tahun 2022
   r2_key: v2/peraturan/keppres-17-2022.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-17-2022.pdf
+  archive_ok: true
+  source_verified: true
 - id: pidato-presiden-ham-2023
   type: arsip-nasional
   title_id: Pernyataan Resmi Presiden RI tentang Pengakuan dan Penyesalan atas 12
@@ -2439,6 +2522,8 @@
   r2_key: v2/peraturan/keppres-11-2020.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-11-2020.pdf
   url: https://peraturan.go.id/files/keppres-no-11-tahun-2020.pdf
+  archive_ok: true
+  source_verified: true
 - id: uu-3-2020
   type: undang-undang
   title_id: UU No. 3 Tahun 2020 tentang Perubahan atas UU No. 4 Tahun 2009 tentang
@@ -2532,7 +2617,8 @@
   r2_key: v2/peraturan/arsip-bkkbn-kb-1970.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/arsip-bkkbn-kb-1970.pdf
   url: https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=8&thn=1970
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: penghargaan-fao-swasembada-1985
   type: arsip-nasional
   title_id: Piagam Penghargaan FAO Roma atas Keberhasilan Swasembada Pangan/Beras
@@ -2627,6 +2713,8 @@
   citation_id: Putusan MKRI No. 112/PUU-XX/2022
   r2_key: v2/putusan/putusan-mk-112-puu-xx-2022.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-112-puu-xx-2022.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-phpu-pilpres-2024
   type: putusan-mk
   title_id: Putusan MK No. 1/PHPU.PRES-XXII/2024 & 2/PHPU.PRES-XXII/2024 tentang Perselisihan
@@ -2636,6 +2724,8 @@
   citation_id: Putusan MKRI PHPU Pilpres 2024
   r2_key: v2/putusan/putusan-mk-phpu-pilpres-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-phpu-pilpres-2024.pdf
+  archive_ok: true
+  source_verified: true
 - id: berita-acara-pelantikan-presiden-2024
   type: dokumen-mpr
   title_id: Berita Acara Pengucapan Sumpah Presiden Prabowo Subianto dan Wapres Gibran
@@ -2655,7 +2745,8 @@
   r2_key: v2/peraturan/keppres-133-p-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-133-p-2024.pdf
   url: https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=133&thn=2024
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-168-puu-xxi-2023
   type: putusan-mk
   title_id: Putusan MK No. 168/PUU-XXI/2023 (Pengujian UU Cipta Kerja Klaster Ketenagakerjaan
@@ -2665,6 +2756,8 @@
   citation_id: Putusan MKRI No. 168/PUU-XXI/2023
   r2_key: v2/putusan/putusan-mk-168-puu-xxi-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-168-puu-xxi-2023.pdf
+  archive_ok: true
+  source_verified: true
 - id: uu-62-2024
   type: undang-undang
   title_id: UU No. 62 Tahun 2024 tentang Anggaran Pendapatan dan Belanja Negara Tahun
@@ -2694,7 +2787,8 @@
   r2_key: v2/putusan/sk-ma-ketua-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/sk-ma-ketua-2024.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: ihps-ii-bpk-2024
   type: laporan-lembaga
   title_id: Ikhtisar Hasil Pemeriksaan Semester (IHPS) II Tahun 2024 BPK RI
@@ -2754,7 +2848,8 @@
   r2_key: v2/peraturan/perpres-danantara-2025.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/perpres-danantara-2025.pdf
   url: https://jdih.setneg.go.id/detailperaturan?jns=PERPRES&no=1&thn=2025
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: uu-8-1981
   type: undang-undang
   title_id: UU No. 8 Tahun 1981 tentang Hukum Acara Pidana (KUHAP)
@@ -2798,6 +2893,8 @@
   r2_key: v2/peraturan/keppres-36-1990.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-36-1990.pdf
   url: https://peraturan.go.id/files/kp36-1990.pdf
+  archive_ok: true
+  source_verified: true
 - id: uu-5-1999
   type: undang-undang
   title_id: UU No. 5 Tahun 1999 tentang Larangan Praktik Monopoli dan Persaingan Usaha
@@ -2858,6 +2955,8 @@
   citation_id: Putusan MKRI No. 013-022/PUU-IV/2006
   r2_key: v2/putusan/putusan-mk-013-022-puu-iv-2006.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-013-022-puu-iv-2006.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-6-13-20-puu-viii-2010
   type: putusan-mk
   title_id: Putusan MK No. 6-13-20/PUU-VIII/2010 (Masa Jabatan Jaksa Agung Berakhir
@@ -2867,6 +2966,8 @@
   citation_id: Putusan MKRI No. 6-13-20/PUU-VIII/2010
   r2_key: v2/putusan/putusan-mk-6-13-20-puu-viii-2010.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-6-13-20-puu-viii-2010.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-49-puu-ix-2011
   type: putusan-mk
   title_id: Putusan MK No. 49/PUU-IX/2011 (Penyelenggaraan Pendidikan Khusus Profesi
@@ -2898,7 +2999,8 @@
   r2_key: v2/putusan/sema-07-2014.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/sema-07-2014.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: uu-8-2016
   type: undang-undang
   title_id: UU No. 8 Tahun 2016 tentang Penyandang Disabilitas
@@ -2963,7 +3065,8 @@
   r2_key: v2/putusan/putusan-ma-kasus-minyak-goreng-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-kasus-minyak-goreng-2024.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: laporan-pphn-mpr-2024
   type: dokumen-mpr
   title_id: Laporan Hasil Kajian Pokok-Pokok Haluan Negara (PPHN) Badan Pengkajian
@@ -2983,7 +3086,8 @@
   r2_key: v2/putusan/perma-4-2019.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/perma-4-2019.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-ma-prita-mulyasari-2011
   type: putusan-ma
   title_id: Putusan PK Mahkamah Agung No. 225 PK/Pid.Sus/2011 (Pembebasan Murni Prita
@@ -2993,7 +3097,8 @@
   r2_key: v2/putusan/putusan-ma-prita-mulyasari-2011.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-prita-mulyasari-2011.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: skp2-kejaksaan-bibit-chandra-2009
   type: laporan-lembaga
   title_id: Surat Ketetapan Penghentian Penuntutan (SKP2) Kejaksaan Negeri Jaksel
@@ -3022,6 +3127,8 @@
   r2_key: v2/peraturan/keppres-22-2019.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-22-2019.pdf
   url: https://peraturan.go.id/files/keppres-no-22-tahun-2019.pdf
+  archive_ok: true
+  source_verified: true
 - id: keppres-17-2021
   type: keppres
   title_id: Keppres No. 17 Tahun 2021 tentang Pemberian Amnesti kepada Dr. Saiful
@@ -3031,7 +3138,8 @@
   r2_key: v2/peraturan/keppres-17-2021.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-17-2021.pdf
   url: https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=17&thn=2021
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-pn-jaktim-haris-fatia-2024
   type: putusan-ma
   title_id: Putusan PN Jakarta Timur No. 202/Pid.Sus/2023/PN.Jkt.Tim (Vonis Bebas
@@ -3041,7 +3149,8 @@
   r2_key: v2/putusan/putusan-pn-jaktim-haris-fatia-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-pn-jaktim-haris-fatia-2024.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-ma-haris-fatia-2024
   type: putusan-ma
   title_id: Putusan Kasasi Mahkamah Agung No. 5712 K/Pid.Sus/2024 (Menolak Kasasi
@@ -3051,7 +3160,8 @@
   r2_key: v2/putusan/putusan-ma-haris-fatia-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-haris-fatia-2024.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-pt-semarang-daniel-frits-2024
   type: putusan-ma
   title_id: Putusan PT Semarang No. 374/PID.SUS/2024/PT SMG (Pembebasan Aktivis Lingkungan
@@ -3061,7 +3171,8 @@
   r2_key: v2/putusan/putusan-pt-semarang-daniel-frits-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-pt-semarang-daniel-frits-2024.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: perma-2-2012
   type: putusan-ma
   title_id: Peraturan Mahkamah Agung No. 2 Tahun 2012 tentang Penyesuaian Batasan
@@ -3071,7 +3182,8 @@
   r2_key: v2/putusan/perma-2-2012.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/perma-2-2012.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-6-puu-v-2007
   type: putusan-mk
   title_id: Putusan MK No. 6/PUU-V/2007 (Pembatalan Pasal 154 & 155 KUHP tentang Permusuhan
@@ -3081,6 +3193,8 @@
   citation_id: Putusan MKRI No. 6/PUU-V/2007
   r2_key: v2/putusan/putusan-mk-6-puu-v-2007.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-6-puu-v-2007.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-50-puu-vi-2008
   type: putusan-mk
   title_id: Putusan MK No. 50/PUU-VI/2008 (Penafsiran Konstitusional Pasal 27 ayat
@@ -3090,6 +3204,8 @@
   citation_id: Putusan MKRI No. 50/PUU-VI/2008
   r2_key: v2/putusan/putusan-mk-50-puu-vi-2008.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-50-puu-vi-2008.pdf
+  archive_ok: true
+  source_verified: true
 - id: skb-uu-ite-2021
   type: lainnya
   title_id: Keputusan Bersama Menkominfo, Jaksa Agung, dan Kapolri No. 229/2021 tentang
@@ -3109,7 +3225,8 @@
   r2_key: v2/putusan/putusan-ma-budi-pego-2018.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-budi-pego-2018.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: resolusi-pbb-2504-1969
   type: arsip-nasional
   title_id: Resolusi Majelis Umum PBB No. 2504 (XXIV) tentang Hasil Penentuan Pendapat
@@ -3128,6 +3245,8 @@
   r2_key: v2/peraturan/keppres-19-2002.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-19-2002.pdf
   url: https://peraturan.go.id/files/kp19-2002.pdf
+  archive_ok: true
+  source_verified: true
 - id: inpres-8-2002
   type: keppres
   title_id: Inpres No. 8 Tahun 2002 tentang Pemberian Jaminan Kepastian Hukum kepada
@@ -3137,6 +3256,8 @@
   r2_key: v2/peraturan/inpres-8-2002.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/inpres-8-2002.pdf
   url: https://peraturan.go.id/files/ip8-2002.pdf
+  archive_ok: true
+  source_verified: true
 - id: uu-34-2004
   type: undang-undang
   title_id: UU No. 34 Tahun 2004 tentang Tentara Nasional Indonesia (TNI)
@@ -3184,7 +3305,8 @@
   r2_key: v2/putusan/putusan-ptun-papua-internet-2020.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ptun-papua-internet-2020.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: skb-6-lembaga-fpi-2020
   type: lainnya
   title_id: Surat Keputusan Bersama 6 Menteri dan Kepala Lembaga tentang Larangan
@@ -3258,6 +3380,8 @@
   r2_key: v2/peraturan/perpres-32-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/perpres-32-2024.pdf
   url: https://peraturan.go.id/files/perpres-no-32-tahun-2024.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-ma-asabri-2023
   type: putusan-ma
   title_id: Putusan Kasasi Mahkamah Agung No. 5928 K/Pid.Sus/2022 atas Megakorupsi
@@ -3267,7 +3391,8 @@
   r2_key: v2/putusan/putusan-ma-asabri-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-asabri-2023.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: laporan-ombudsman-twk-kpk-2021
   type: laporan-lembaga
   title_id: Laporan Akhir Pemeriksaan (LAHP) Ombudsman RI atas Maladministrasi Asesmen
@@ -3319,7 +3444,8 @@
   r2_key: v2/putusan/putusan-kasasi-polusi-udara-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-kasasi-polusi-udara-2023.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/putusan/3641%20K%2FPDT%2F2023.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: laporan-eksekusi-karhutla-klhk-2023
   type: laporan-lembaga
   title_id: Laporan Evaluasi Eksekusi Ganti Rugi Perdata Kebakaran Hutan dan Lahan
@@ -3448,7 +3574,8 @@
   r2_key: v2/peraturan/penpres-1-1959.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/penpres-1-1959.pdf
   url: https://jdih.setneg.go.id/detailperaturan?jns=PENPRES&no=1&thn=1959
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: keppres-200-1960
   type: keppres
   title_id: Keppres No. 200 Tahun 1960 tentang Pembubaran Partai Politik Masyumi dan
@@ -3458,7 +3585,8 @@
   r2_key: v2/peraturan/keppres-200-1960.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-200-1960.pdf
   url: https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=200&thn=1960
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: tap-mprs-xliv-1968
   type: dokumen-mpr
   title_id: Ketetapan MPRS No. XLIV/MPRS/1968 tentang Pengangkatan Jenderal Soeharto
@@ -3539,6 +3667,8 @@
   r2_key: v2/peraturan/inpres-2-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/inpres-2-2023.pdf
   url: https://peraturan.go.id/files/inpres-no-2-tahun-2023.pdf
+  archive_ok: true
+  source_verified: true
 - id: arsip-ditii-1949
   type: arsip-nasional
   title_id: Arsip Penumpasan Pemberontakan DI/TII Kartosoewirjo dan Operasi Pagar
@@ -3610,7 +3740,8 @@
   r2_key: v2/putusan/dakwaan-kejagung-timah-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/dakwaan-kejagung-timah-2024.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: laporan-pansus-haji-dpr-2024
   type: laporan-lembaga
   title_id: Laporan Akhir Pansus Angket Penyelenggaraan Ibadah Haji 1445 H / 2024
@@ -3682,7 +3813,8 @@
   citation_id: Putusan MA No. 1081 K/Pid.Sus/2025, 28 Februari 2025
   r2_key: v2/putusan/putusan-kasasi-ma-syl-2025.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-kasasi-ma-syl-2025.pdf
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-banding-rafael-alun-2024
   type: berita
   title_id: Putusan banding atas mantan pejabat Direktorat Jenderal Pajak Rafael Alun
@@ -3736,7 +3868,8 @@
   citation_id: Kompas, 15 Mei 2023 (putusan kasasi 12 Mei 2023)
   r2_key: v2/putusan/putusan-kasasi-ma-wisnu-cpo-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-kasasi-ma-wisnu-cpo-2023.pdf
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-tipikor-emirsyah-satar-2020
   type: berita
   title_id: Vonis PN Tipikor Jakarta atas Direktur Utama PT Garuda Indonesia 2005-2014
@@ -3768,7 +3901,8 @@
   citation_id: Kompas, 15 November 2025 (putusan kasasi 12 November 2025)
   r2_key: v2/putusan/putusan-kasasi-ma-zarof-ricar-2025.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-kasasi-ma-zarof-ricar-2025.pdf
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-tipikor-direksi-jiwasraya-2020
   type: berita
   title_id: Vonis PN Tipikor Jakarta atas tiga mantan direksi PT Asuransi Jiwasraya
@@ -3813,6 +3947,8 @@
   r2_key: v2/putusan/putusan-mk-005-puu-v-2007.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-005-puu-v-2007.pdf
   url: https://www.mkri.id/public/content/persidangan/putusan/putusan_sidang_Putusan5PUUV2007ttgPilkadaIndependenTgl23072007.pdf
+  archive_ok: true
+  source_verified: true
 - id: risalah-dpd-ruu-pesisir-2006
   type: laporan-lembaga
   title_id: Risalah Pengajuan RUU Inisiatif DPD RI tentang Pengelolaan Wilayah Pesisir
@@ -3875,6 +4011,8 @@
   r2_key: v2/putusan/putusan-mk-52-puu-xx-2022.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-52-puu-xx-2022.pdf
   url: https://s.mkri.id/public/content/persidangan/putusan/putusan_mkri_8573_1657169594.pdf
+  archive_ok: true
+  source_verified: true
 - id: dokumen-dpd-proposal-uud-2023
   type: laporan-lembaga
   title_id: Proposal Kenegaraan DPD RI tentang Penyempurnaan dan Penguatan Sistem
@@ -3945,6 +4083,8 @@
   r2_key: v2/putusan/putusan-mk-43-puu-xiii-2015.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-43-puu-xiii-2015.pdf
   url: https://peraturan.bpk.go.id/DownloadUjiMateri/45/43_PUU-XIII_2015.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-tahunan-ky-2015
   type: laporan-lembaga
   title_id: Laporan Tahunan Komisi Yudisial Republik Indonesia Tahun 2015
@@ -4004,7 +4144,8 @@
   r2_key: v2/putusan/putusan-mkh-pn-surabaya-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mkh-pn-surabaya-2024.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: lhp-bpk-blbi-2000
   type: laporan-lembaga
   title_id: Laporan Hasil Pemeriksaan (LHP) Investigatif BPK RI atas Penyimpangan
@@ -4064,7 +4205,8 @@
   r2_key: v2/putusan/putusan-pn-jkt-pusat-rochmadi-2018.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-pn-jkt-pusat-rochmadi-2018.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-pn-bandung-suap-bpk-2022
   type: putusan-ma
   title_id: Putusan PN Tipikor Bandung No. 54/Pid.Sus-TPK/2022/PN.Bdg atas Suap Auditor
@@ -4074,7 +4216,8 @@
   r2_key: v2/putusan/putusan-pn-bandung-suap-bpk-2022.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-pn-bandung-suap-bpk-2022.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-tipikor-achsanul-qosasi-2024
   type: putusan-ma
   title_id: Putusan PN Tipikor Jakarta Pusat No. 24/Pid.Sus-TPK/2024/PN.Jkt.Pst atas
@@ -4084,7 +4227,8 @@
   r2_key: v2/putusan/putusan-tipikor-achsanul-qosasi-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-tipikor-achsanul-qosasi-2024.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: ihps-bpk-i-2021
   type: laporan-lembaga
   title_id: Ikhtisar Hasil Pemeriksaan Semester (IHPS) I Tahun 2021 BPK RI (Klaster
@@ -4145,7 +4289,8 @@
   r2_key: v2/putusan/putusan-ma-28-p-hum-2021.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-28-p-hum-2021.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/putusan/28%20P%2FHUM%2F2021.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-pn-bandung-sudrajad-2023
   type: putusan-ma
   title_id: Putusan PN Tipikor Bandung No. 25/Pid.Sus-TPK/2023/PN.Bdg atas Hakim Agung
@@ -4155,7 +4300,8 @@
   r2_key: v2/putusan/putusan-pn-bandung-sudrajad-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-pn-bandung-sudrajad-2023.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: laporan-kejagung-zarof-ricar-2024
   type: laporan-lembaga
   title_id: Laporan Penggeledahan dan Penindakan Kejaksaan Agung RI dalam Kasus Gratifikasi
@@ -4175,6 +4321,8 @@
   r2_key: v2/putusan/putusan-mk-001-puu-i-2003.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-001-puu-i-2003.pdf
   url: https://www.mkri.id/public/content/persidangan/putusan/Putusan001PUUI2003.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-102-puu-vii-2009
   type: putusan-mk
   title_id: Putusan MK No. 102/PUU-VII/2009 tentang Penggunaan KTP dan Paspor dalam
@@ -4184,6 +4332,8 @@
   r2_key: v2/putusan/putusan-mk-102-puu-vii-2009.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-102-puu-vii-2009.pdf
   url: https://www.mkri.id/public/content/persidangan/putusan/putusan_sidang_102PUU-VII2009.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-21-puu-xii-2014
   type: putusan-mk
   title_id: Putusan MK No. 21/PUU-XII/2014 tentang Perluasan Objek Praperadilan (Penetapan
@@ -4193,6 +4343,8 @@
   r2_key: v2/putusan/putusan-mk-21-puu-xii-2014.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-21-puu-xii-2014.pdf
   url: https://www.mkri.id/public/content/persidangan/putusan/21_PUU-XII_2014.pdf
+  archive_ok: true
+  source_verified: true
 - id: tap-mpr-vi-2001
   type: dokumen-mpr
   title_id: Ketetapan MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa
@@ -4293,7 +4445,8 @@
   r2_key: v2/putusan/putusan-ma-adopsi-1958.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-adopsi-1958.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-ma-kedung-ombo-1993
   type: putusan-ma
   title_id: Putusan Mahkamah Agung No. 2263 K/Pdt/1991 terkait Ganti Rugi Warga Waduk
@@ -4314,7 +4467,8 @@
   r2_key: v2/putusan/putusan-ma-tempo-1995.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-tempo-1995.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/putusan/09%20K%2FTUN%2F1995.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: inpres-6-2000
   type: keppres
   title_id: Instruksi Presiden No. 6 Tahun 2000 tentang Pencabutan Inpres No. 14/1967
@@ -4324,6 +4478,8 @@
   r2_key: v2/peraturan/inpres-6-2000.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/inpres-6-2000.pdf
   url: https://peraturan.go.id/files/ip6-2000.pdf
+  archive_ok: true
+  source_verified: true
 - id: uu-18-2001
   type: undang-undang
   title_id: UU No. 18 Tahun 2001 tentang Otonomi Khusus bagi Provinsi Daerah Istimewa
@@ -4366,7 +4522,8 @@
   r2_key: v2/putusan/putusan-pn-sampang-syiah-2012.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-pn-sampang-syiah-2012.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: uu-12-2012
   type: undang-undang
   title_id: UU No. 12 Tahun 2012 tentang Pendidikan Tinggi
@@ -4479,7 +4636,8 @@
   r2_key: v2/putusan/putusan-tipikor-patrialis-2017.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-tipikor-patrialis-2017.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: laporan-dpd-kur-2016
   type: laporan-lembaga
   title_id: Laporan Pengawasan DPD RI atas Penyaluran Kredit Usaha Rakyat di Wilayah
@@ -4632,6 +4790,9 @@
   r2_key: v2/putusan/putusan-mk-140-puu-vii-2009.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-140-puu-vii-2009.pdf
   url: https://www.mkri.id/public/content/persidangan/putusan/putusan_sidang_Putusan%20PUU%20140_Senin%2019%20April%202010.pdf
+  archive_ok: true
+  source_verified: true
+  frbr_uri: /akn/id/judgment/mk/1965/1
 - id: putusan-mk-27-puu-ix-2011
   type: putusan-mk
   title_id: Putusan MK No. 27/PUU-IX/2011 tentang Perlindungan Hak Pekerja Alih Daya
@@ -4641,6 +4802,8 @@
   r2_key: v2/putusan/putusan-mk-27-puu-ix-2011.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-27-puu-ix-2011.pdf
   url: https://www.mkri.id/public/content/persidangan/putusan/putusan_sidang_27%20PUU%202011-TELAH%20BACA.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-137-puu-xiii-2015
   type: putusan-mk
   title_id: Putusan MK No. 137/PUU-XIII/2015 Membatalkan Wewenang Mendagri Membatalkan
@@ -4650,6 +4813,8 @@
   r2_key: v2/putusan/putusan-mk-137-puu-xiii-2015.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-137-puu-xiii-2015.pdf
   url: https://www.mkri.id/public/content/persidangan/putusan/137_PUU-XIII_2015.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-114-puu-xx-2022
   type: putusan-mk
   title_id: Putusan MK No. 114/PUU-XX/2022 Mempertahankan Sistem Pemilu Proporsional
@@ -4659,6 +4824,8 @@
   r2_key: v2/putusan/putusan-mk-114-puu-xx-2022.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-114-puu-xx-2022.pdf
   url: https://www.mkri.id/public/content/persidangan/putusan/putusan_mkri_9055_1686802727.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-ma-7-p-hum-2020
   type: putusan-ma
   title_id: Putusan MA No. 7 P/HUM/2020 Membatalkan Kenaikan Iuran BPJS Kesehatan
@@ -4668,7 +4835,8 @@
   r2_key: v2/putusan/putusan-ma-7-p-hum-2020.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-7-p-hum-2020.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/putusan/7%20P%2FHUM%2F2020.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-ma-3555-k-pdt-2018
   type: putusan-ma
   title_id: Putusan MA No. 3555 K/Pdt/2018 Memenangkan Gugatan Citizen Lawsuit Karhutla
@@ -4678,7 +4846,8 @@
   r2_key: v2/putusan/putusan-ma-3555-k-pdt-2018.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-3555-k-pdt-2018.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-ma-1055-k-pid-sus-2021
   type: putusan-ma
   title_id: Putusan Kasasi MA atas Perkara Korupsi Pengadaan Bantuan Sosial Covid-19
@@ -4688,7 +4857,8 @@
   r2_key: v2/putusan/putusan-ma-1055-k-pid-sus-2021.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-1055-k-pid-sus-2021.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: sema-1-2017
   type: dokumen-mpr
   title_id: SEMA No. 1 Tahun 2017 tentang Tata Kelola Penitipan Ganti Kerugian Pengadaan
@@ -4863,7 +5033,8 @@
   r2_key: v2/putusan/putusan-ma-12-k-sip-1954.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-12-k-sip-1954.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: tap-mprs-viii-1965
   type: dokumen-mpr
   title_id: TAP MPRS No. VIII/MPRS/1965 tentang Prinsip Berdikari di Bidang Ekonomi
@@ -4891,6 +5062,8 @@
   r2_key: v2/peraturan/keppres-181-1998.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-181-1998.pdf
   url: https://peraturan.go.id/files/kp181-1998.pdf
+  archive_ok: true
+  source_verified: true
 - id: uu-21-2000
   type: undang-undang
   title_id: UU No. 21 Tahun 2000 tentang Serikat Pekerja/Serikat Buruh
@@ -4916,6 +5089,8 @@
   r2_key: v2/putusan/putusan-mk-phpu-pres-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-mk-phpu-pres-2024.pdf
   url: https://s.mkri.id/public/content/persidangan/putusan/putusan_mkri_9730_1713780273.pdf
+  archive_ok: true
+  source_verified: true
 - id: perpres-badan-gizi-2024
   type: keppres
   title_id: Peraturan Presiden No. 83 Tahun 2024 tentang Badan Gizi Nasional
@@ -4946,7 +5121,8 @@
   r2_key: v2/putusan/putusan-ma-179-k-sip-1956.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-179-k-sip-1956.pdf
   url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: dokumen-mpr-rekomendasi-haluan-2019
   type: dokumen-mpr
   title_id: Keputusan MPR RI No. 8/MPR/2019 tentang Rekomendasi MPR RI Masa Jabatan
@@ -5500,7 +5676,8 @@
   url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
   r2_key: v2/peraturan/penetapan-pemerintah-bpk-1946.html
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/penetapan-pemerintah-bpk-1946.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: dasa-sila-bandung-1955
   title_id: Deklarasi Bersama Konferensi Tingkat Tinggi Asia-Afrika (KAA) — Dasa Sila
     Bandung 1955
@@ -5538,7 +5715,8 @@
   url: https://anri.go.id/publikasi/arsip-tematik/deklarasi-djuanda-1957
   r2_key: v2/peraturan/dekl-djuanda-1957.html
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/dekl-djuanda-1957.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: uu-19-1964-kehakiman
   title_id: Undang-Undang No. 19 Tahun 1964 tentang Ketentuan Pokok Kekuasaan Kehakiman
     (Intervensi Presiden dalam Peradilan)
@@ -5596,6 +5774,8 @@
   url: https://peraturan.go.id/files/kp6-2000.pdf
   r2_key: v2/peraturan/keppres-6-2000-gusdur.html
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-6-2000-gusdur.html
+  archive_ok: true
+  source_verified: true
 - id: uu-30-2002-kpk
   title_id: Undang-Undang No. 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana
     Korupsi
@@ -5688,6 +5868,8 @@
   url: https://peraturan.go.id/files/perpres-no-83-tahun-2024.pdf
   r2_key: v2/peraturan/perpres-83-2024-badan-gizi.html
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/perpres-83-2024-badan-gizi.html
+  archive_ok: true
+  source_verified: true
 - id: perpres-139-2024-kementerian
   title_id: Peraturan Presiden No. 139 Tahun 2024 tentang Penataan Tugas dan Fungsi
     Kementerian Negara Kabinet Merah Putih (48 Kementerian)
@@ -5697,6 +5879,8 @@
   url: https://peraturan.go.id/files/perpres-no-139-tahun-2024.pdf
   r2_key: v2/peraturan/perpres-139-2024-kementerian.html
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/perpres-139-2024-kementerian.html
+  archive_ok: true
+  source_verified: true
 - id: uu-85-1958-depernas
   title_id: Undang-Undang No. 85 Tahun 1958 tentang Pembentukan Dewan Perancang Nasional
     (Depernas)
@@ -5715,6 +5899,8 @@
   url: https://peraturan.go.id/files/pp23-1958.pdf
   r2_key: v2/peraturan/pp-23-1958-nasionalisasi.html
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/pp-23-1958-nasionalisasi.html
+  archive_ok: true
+  source_verified: true
 - id: uu-1-1957-pemda
   title_id: Undang-Undang No. 1 Tahun 1957 tentang Pokok-Pokok Pemerintahan Daerah
     (Desentralisasi Pertama)
@@ -5733,7 +5919,8 @@
   url: https://jdih.setneg.go.id/detailperaturan?jns=PENPRES&no=3&thn=1960
   r2_key: v2/peraturan/penpres-3-1960-dpr-gr.html
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/penpres-3-1960-dpr-gr.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: keppres-200-1960-masyumi-psi
   title_id: Keputusan Presiden No. 200 Tahun 1960 tentang Pembubaran Partai Politik
     Masyumi dan PSI
@@ -5743,7 +5930,8 @@
   url: https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=200&thn=1960
   r2_key: v2/peraturan/keppres-200-1960-masyumi-psi.html
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-200-1960-masyumi-psi.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: perjanjian-new-york-1962
   title_id: Perjanjian New York 15 Agustus 1962 tentang Penyerahan Irian Barat kepada
     Pemerintahan Sementara PBB (UNTEA) dan Indonesia
@@ -5773,7 +5961,8 @@
   url: https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=1&thn=1966
   r2_key: v2/peraturan/keppres-1-3-1966-pembubaran-pki.html
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-1-3-1966-pembubaran-pki.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: uu-1-1967-pma
   title_id: Undang-Undang No. 1 Tahun 1967 tentang Penanaman Modal Asing (PMA Orde
     Baru)
@@ -5840,7 +6029,8 @@
   url: https://jdih.setneg.go.id/detailperaturan?jns=KEPPRES&no=50&thn=1993
   r2_key: v2/peraturan/keppres-50-1993-komnas-ham.html
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-50-1993-komnas-ham.html
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: tap-mpr-xi-1998-kkn
   title_id: Ketetapan MPR No. XI/MPR/1998 tentang Penyelenggara Negara yang Bersih
     dan Bebas Korupsi, Kolusi, dan Nepotisme
@@ -5860,6 +6050,8 @@
   url: https://peraturan.go.id/files/kp27-1998.pdf
   r2_key: v2/peraturan/keppres-27-1998-bppn.html
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/keppres-27-1998-bppn.html
+  archive_ok: true
+  source_verified: true
 - id: uu-21-2001-otsus-papua
   title_id: Undang-Undang No. 21 Tahun 2001 tentang Otonomi Khusus bagi Provinsi Papua
   type: undang-undang
@@ -6001,6 +6193,8 @@
   url: https://peraturan.go.id/files/perpres-no-154-tahun-2024.pdf
   r2_key: v2/peraturan/perpres-154-2024-badan-haji.html
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/perpres-154-2024-badan-haji.html
+  archive_ok: true
+  source_verified: true
 - id: putusan-mk-013-puu-i-2003
   type: putusan-mk
   title_id: Putusan MK No. 013/PUU-I/2003 (Putusan Bom Bali I - Pembatalan Penerapan
