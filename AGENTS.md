@@ -110,6 +110,11 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
     `enforce_admins: true` di branch protection + 2 review + 3 status
     check (`verify`, `audit`, `secrets`) + `CODEOWNERS`; dokumentasi
     `[.github/ADMIN_OVERRIDE.md](.github/ADMIN_OVERRIDE.md)`.
+- [x] **Fase 14: Trajektori Ilmiah Multi-Peristiwa (Scientific Milestones) & Kepatuhan EU AI Act (Gemini 3.8 Flash High)** ✅
+  - [x] Komponen `DimensionMilestones`: Menampilkan linimasa peristiwa ilmiah kronologis di setiap akordion dimensi dengan lencana kategori, ringkasan analisis kausalitas, aktor terkait, dan sitasi primer resmi.
+  - [x] Resolusi multi-peristiwa terpadu: 335 skor dimensi kini memiliki trajektori multi-peristiwa empiris (≥2 peristiwa berbukti per dimensi).
+  - [x] Kepatuhan penuh EU AI Act (Regulation (EU) 2024/1689 Pasal 50 & 14): Metadata `ai_disclosure` baku dengan model `Gemini 3.8 Flash High` (Google DeepMind), pengawasan manusia Kuorum 2 Reviewer, serta komponen `AiTransparencyBadge` & dialog hak koreksi.
+  - [x] Uji otomatis `apps/web/test/dimension-milestones-ai-act.test.ts` memvalidasi skema EU AI Act dan integritas 50 asesmen.
 
 ## Definisi Selesai v1.0 (TERCAPAI PENUH ✅)
 
