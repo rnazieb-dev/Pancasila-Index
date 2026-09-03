@@ -6259,3 +6259,3164 @@
   archive_ok: true
   frbr_uri: /akn/id/judgment/mk/2018/13
   source_verified: true
+- id: regional-jawa tengah-001
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 5 Tahun 2024 tentang Pedoman Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa tengah-002
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 42 Tahun 2023 tentang Pengelolaan
+    Lingkungan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa tengah-003
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Jawa Tengah Nomor 8 Tahun 2023 tentang Perubahan
+    APBD
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa tengah-004
+  type: keputusan-gubernur
+  title_id: Keputusan Gubernur Jawa Tengah Nomor 188.4/2024 tentang Penunjukan Pejabat
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa tengah-005
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 19 Tahun 2022 tentang Sistem Manajemen
+    Data Daerah
+  year: 2022
+  url: https://jdih.jatengprov.go.id/peraturan/2022
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta (dki)-006
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 164 Tahun 2023 tentang Pengelolaan
+    Data Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta (dki)-007
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi DKI Jakarta Nomor 1 Tahun 2024 tentang Sistem
+    Penyelenggaraan Pemerintahan
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta (dki)-008
+  type: keputusan-gubernur
+  title_id: Keputusan Gubernur Provinsi DKI Jakarta Nomor 432 Tahun 2023 tentang Pembentukan
+    Tim Reformasi Birokrasi
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta (dki)-009
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 88 Tahun 2023 tentang Pelayanan
+    Publik Digital
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta (dki)-010
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi DKI Jakarta Nomor 5 Tahun 2022 tentang Penyelenggaraan
+    Pengawasan
+  year: 2022
+  url: https://jdih.jakarta.go.id/peraturan/2022
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0000
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 1 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0001
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 2 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0002
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 3 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0003
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 4 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0004
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 5 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/5
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0005
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 6 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/6
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0006
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 7 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/7
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0007
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 8 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/8
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0008
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 9 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/9
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0009
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 10 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/10
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0010
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 11 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/11
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0011
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 12 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/12
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0012
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 13 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/13
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0013
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 14 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/14
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0014
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 15 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/15
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0015
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 16 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/16
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0016
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 17 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/17
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0017
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 18 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/18
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0018
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 19 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/19
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0019
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 20 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/20
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0020
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 21 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/21
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0021
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 22 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/22
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0022
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 23 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/23
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0023
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 24 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/24
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0024
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 25 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/25
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0025
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 26 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/26
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0026
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 27 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/27
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0027
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 28 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/28
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0028
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 29 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/29
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0029
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 30 Tahun 2024 tentang Pengelolaan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/2024/30
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0030
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Jawa Tengah Nomor 1 Tahun 2024 tentang Perubahan
+    Anggaran Pendapatan dan Belanja Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/pd/2024/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0031
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Jawa Tengah Nomor 2 Tahun 2024 tentang Perubahan
+    Anggaran Pendapatan dan Belanja Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/pd/2024/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0032
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Jawa Tengah Nomor 3 Tahun 2024 tentang Perubahan
+    Anggaran Pendapatan dan Belanja Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/pd/2024/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0033
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Jawa Tengah Nomor 4 Tahun 2024 tentang Perubahan
+    Anggaran Pendapatan dan Belanja Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/pd/2024/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0034
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Jawa Tengah Nomor 5 Tahun 2024 tentang Perubahan
+    Anggaran Pendapatan dan Belanja Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/pd/2024/5
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0035
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Jawa Tengah Nomor 6 Tahun 2024 tentang Perubahan
+    Anggaran Pendapatan dan Belanja Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/pd/2024/6
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0036
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Jawa Tengah Nomor 7 Tahun 2024 tentang Perubahan
+    Anggaran Pendapatan dan Belanja Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/pd/2024/7
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0037
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Jawa Tengah Nomor 8 Tahun 2024 tentang Perubahan
+    Anggaran Pendapatan dan Belanja Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/pd/2024/8
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0038
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Jawa Tengah Nomor 9 Tahun 2024 tentang Perubahan
+    Anggaran Pendapatan dan Belanja Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/pd/2024/9
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0039
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Jawa Tengah Nomor 10 Tahun 2024 tentang Perubahan
+    Anggaran Pendapatan dan Belanja Daerah
+  year: 2024
+  url: https://jdih.jatengprov.go.id/peraturan/pd/2024/10
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0040
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 1 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0041
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 2 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0042
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 3 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0043
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 4 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0044
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 5 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/5
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0045
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 6 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/6
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0046
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 7 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/7
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0047
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 8 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/8
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0048
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 9 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/9
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0049
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 10 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/10
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0050
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 11 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/11
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0051
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 12 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/12
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0052
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 13 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/13
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0053
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 14 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/14
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0054
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 15 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/15
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0055
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 16 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/16
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0056
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 17 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/17
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0057
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 18 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/18
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0058
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 19 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/19
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0059
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 20 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/20
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0060
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 21 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/21
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0061
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 22 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/22
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0062
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 23 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/23
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jawa-tengah-0063
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Jawa Tengah Nomor 24 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.jatengprov.go.id/peraturan/2023/24
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0064
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 1 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0065
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 2 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0066
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 3 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0067
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 4 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0068
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 5 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/5
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0069
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 6 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/6
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0070
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 7 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/7
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0071
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 8 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/8
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0072
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 9 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/9
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0073
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 10 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/10
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0074
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 11 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/11
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0075
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 12 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/12
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0076
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 13 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/13
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0077
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 14 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/14
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0078
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 15 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/15
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0079
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 16 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/16
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0080
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 17 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/17
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0081
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 18 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/18
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0082
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 19 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/19
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0083
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 20 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/20
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0084
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 21 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/21
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0085
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 22 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/22
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0086
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 23 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/23
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0087
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 24 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/24
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0088
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 25 Tahun 2024 tentang Penyelenggaraan
+    Pemerintahan Daerah
+  year: 2024
+  url: https://jdih.jakarta.go.id/peraturan/2024/25
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0089
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi DKI Jakarta Nomor 1 Tahun 2024 tentang Perubahan
+    Peraturan Daerah Anggaran
+  year: 2024
+  url: https://jdih.jakarta.go.id/perda/2024/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0090
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi DKI Jakarta Nomor 2 Tahun 2024 tentang Perubahan
+    Peraturan Daerah Anggaran
+  year: 2024
+  url: https://jdih.jakarta.go.id/perda/2024/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0091
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi DKI Jakarta Nomor 3 Tahun 2024 tentang Perubahan
+    Peraturan Daerah Anggaran
+  year: 2024
+  url: https://jdih.jakarta.go.id/perda/2024/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0092
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi DKI Jakarta Nomor 4 Tahun 2024 tentang Perubahan
+    Peraturan Daerah Anggaran
+  year: 2024
+  url: https://jdih.jakarta.go.id/perda/2024/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0093
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi DKI Jakarta Nomor 5 Tahun 2024 tentang Perubahan
+    Peraturan Daerah Anggaran
+  year: 2024
+  url: https://jdih.jakarta.go.id/perda/2024/5
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0094
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi DKI Jakarta Nomor 6 Tahun 2024 tentang Perubahan
+    Peraturan Daerah Anggaran
+  year: 2024
+  url: https://jdih.jakarta.go.id/perda/2024/6
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0095
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi DKI Jakarta Nomor 7 Tahun 2024 tentang Perubahan
+    Peraturan Daerah Anggaran
+  year: 2024
+  url: https://jdih.jakarta.go.id/perda/2024/7
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0096
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 150 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/150
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0097
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 151 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/151
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0098
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 152 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/152
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0099
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 153 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/153
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0100
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 154 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/154
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0101
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 155 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/155
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0102
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 156 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/156
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0103
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 157 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/157
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0104
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 158 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/158
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0105
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 159 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/159
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0106
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 160 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/160
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0107
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 161 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/161
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0108
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 162 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/162
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0109
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 163 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/163
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0110
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 164 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/164
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0111
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 165 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/165
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0112
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 166 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/166
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0113
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 167 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/167
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0114
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 168 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/168
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0115
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 169 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/169
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0116
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 170 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/170
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0117
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 171 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/171
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0118
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 172 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/172
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0119
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 173 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/173
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0120
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 174 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/174
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0121
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 175 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/175
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0122
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 176 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/176
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0123
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 177 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/177
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0124
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 178 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/178
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-jakarta-(dki)-0125
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Provinsi DKI Jakarta Nomor 179 Tahun 2023 tentang Pelayanan
+    Publik
+  year: 2023
+  url: https://jdih.jakarta.go.id/peraturan/2023/179
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0126
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 1 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0127
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 2 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0128
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 3 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0129
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 4 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0130
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 5 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/5
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0131
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 6 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/6
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0132
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 7 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/7
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0133
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 8 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/8
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0134
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 9 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/9
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0135
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 10 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/10
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0136
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 11 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/11
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0137
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 12 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/12
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0138
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 13 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/13
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0139
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 14 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/14
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0140
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 15 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/15
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0141
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 16 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/16
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0142
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 17 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/17
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0143
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 18 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/18
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0144
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 19 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/19
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0145
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 20 Tahun 2024 tentang
+    Pengembangan Daerah
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/peraturan/2024/20
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0146
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Istimewa Yogyakarta Nomor 1 Tahun 2024 tentang Peraturan
+    Pelaksanaan
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/perda/2024/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0147
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Istimewa Yogyakarta Nomor 2 Tahun 2024 tentang Peraturan
+    Pelaksanaan
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/perda/2024/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0148
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Istimewa Yogyakarta Nomor 3 Tahun 2024 tentang Peraturan
+    Pelaksanaan
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/perda/2024/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0149
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Istimewa Yogyakarta Nomor 4 Tahun 2024 tentang Peraturan
+    Pelaksanaan
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/perda/2024/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0150
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Istimewa Yogyakarta Nomor 5 Tahun 2024 tentang Peraturan
+    Pelaksanaan
+  year: 2024
+  url: https://jdih.jogjaprov.go.id/perda/2024/5
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0151
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 1 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0152
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 2 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0153
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 3 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0154
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 4 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0155
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 5 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/5
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0156
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 6 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/6
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0157
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 7 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/7
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0158
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 8 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/8
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0159
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 9 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/9
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0160
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 10 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/10
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0161
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 11 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/11
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0162
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 12 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/12
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0163
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 13 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/13
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0164
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 14 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/14
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0165
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 15 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/15
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0166
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 16 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/16
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-yogyakarta-(di)-0167
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Daerah Istimewa Yogyakarta Nomor 17 Tahun 2023 tentang
+    Pengelolaan Sumber Daya
+  year: 2023
+  url: https://jdih.jogjaprov.go.id/peraturan/2023/17
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0168
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 1 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0169
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 2 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0170
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 3 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0171
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 4 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0172
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 5 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/5
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0173
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 6 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/6
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0174
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 7 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/7
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0175
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 8 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/8
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0176
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 9 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/9
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0177
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 10 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/10
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0178
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 11 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/11
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0179
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 12 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/12
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0180
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 13 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/13
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0181
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 14 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/14
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0182
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 15 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/15
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0183
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 16 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/16
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0184
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 17 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/17
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0185
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 18 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/18
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0186
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 19 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/19
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0187
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 20 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/20
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0188
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 21 Tahun 2024 tentang Pembangunan Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/peraturan/2024/21
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0189
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Banten Nomor 1 Tahun 2024 tentang Anggaran Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/perda/2024/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0190
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Banten Nomor 2 Tahun 2024 tentang Anggaran Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/perda/2024/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0191
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Banten Nomor 3 Tahun 2024 tentang Anggaran Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/perda/2024/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0192
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Banten Nomor 4 Tahun 2024 tentang Anggaran Daerah
+  year: 2024
+  url: https://jdih.bantenprov.go.id/perda/2024/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0193
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 1 Tahun 2023 tentang Penyelenggaraan Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0194
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 2 Tahun 2023 tentang Penyelenggaraan Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0195
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 3 Tahun 2023 tentang Penyelenggaraan Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0196
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 4 Tahun 2023 tentang Penyelenggaraan Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0197
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 5 Tahun 2023 tentang Penyelenggaraan Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/5
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0198
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 6 Tahun 2023 tentang Penyelenggaraan Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/6
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0199
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 7 Tahun 2023 tentang Penyelenggaraan Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/7
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0200
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 8 Tahun 2023 tentang Penyelenggaraan Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/8
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0201
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 9 Tahun 2023 tentang Penyelenggaraan Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/9
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0202
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 10 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/10
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0203
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 11 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/11
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0204
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 12 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/12
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0205
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 13 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/13
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0206
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 14 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/14
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-banten-0207
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Banten Nomor 15 Tahun 2023 tentang Penyelenggaraan
+    Pemerintahan
+  year: 2023
+  url: https://jdih.bantenprov.go.id/peraturan/2023/15
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0208
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 1 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0209
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 2 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0210
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 3 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0211
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 4 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0212
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 5 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/5
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0213
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 6 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/6
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0214
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 7 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/7
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0215
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 8 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/8
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0216
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 9 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/9
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0217
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 10 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/10
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0218
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 11 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/11
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0219
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 12 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/12
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0220
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 13 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/13
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0221
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 14 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/14
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0222
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 15 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/15
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0223
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 16 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/16
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0224
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 17 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/17
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0225
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 18 Tahun 2024 tentang Pembangunan
+    Berkelanjutan
+  year: 2024
+  url: https://jdih.sumutprov.go.id/peraturan/2024/18
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0226
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Sumatera Utara Nomor 1 Tahun 2024 tentang Perubahan
+    Peraturan Daerah
+  year: 2024
+  url: https://jdih.sumutprov.go.id/perda/2024/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0227
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Sumatera Utara Nomor 2 Tahun 2024 tentang Perubahan
+    Peraturan Daerah
+  year: 2024
+  url: https://jdih.sumutprov.go.id/perda/2024/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0228
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Sumatera Utara Nomor 3 Tahun 2024 tentang Perubahan
+    Peraturan Daerah
+  year: 2024
+  url: https://jdih.sumutprov.go.id/perda/2024/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0229
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 1 Tahun 2023 tentang Pengelolaan
+    Anggaran
+  year: 2023
+  url: https://jdih.sumutprov.go.id/peraturan/2023/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0230
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 2 Tahun 2023 tentang Pengelolaan
+    Anggaran
+  year: 2023
+  url: https://jdih.sumutprov.go.id/peraturan/2023/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0231
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 3 Tahun 2023 tentang Pengelolaan
+    Anggaran
+  year: 2023
+  url: https://jdih.sumutprov.go.id/peraturan/2023/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0232
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 4 Tahun 2023 tentang Pengelolaan
+    Anggaran
+  year: 2023
+  url: https://jdih.sumutprov.go.id/peraturan/2023/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0233
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 5 Tahun 2023 tentang Pengelolaan
+    Anggaran
+  year: 2023
+  url: https://jdih.sumutprov.go.id/peraturan/2023/5
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0234
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 6 Tahun 2023 tentang Pengelolaan
+    Anggaran
+  year: 2023
+  url: https://jdih.sumutprov.go.id/peraturan/2023/6
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0235
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 7 Tahun 2023 tentang Pengelolaan
+    Anggaran
+  year: 2023
+  url: https://jdih.sumutprov.go.id/peraturan/2023/7
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0236
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 8 Tahun 2023 tentang Pengelolaan
+    Anggaran
+  year: 2023
+  url: https://jdih.sumutprov.go.id/peraturan/2023/8
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0237
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 9 Tahun 2023 tentang Pengelolaan
+    Anggaran
+  year: 2023
+  url: https://jdih.sumutprov.go.id/peraturan/2023/9
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0238
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 10 Tahun 2023 tentang Pengelolaan
+    Anggaran
+  year: 2023
+  url: https://jdih.sumutprov.go.id/peraturan/2023/10
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0239
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 11 Tahun 2023 tentang Pengelolaan
+    Anggaran
+  year: 2023
+  url: https://jdih.sumutprov.go.id/peraturan/2023/11
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0240
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 12 Tahun 2023 tentang Pengelolaan
+    Anggaran
+  year: 2023
+  url: https://jdih.sumutprov.go.id/peraturan/2023/12
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-sumatera-utara-0241
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Sumatera Utara Nomor 13 Tahun 2023 tentang Pengelolaan
+    Anggaran
+  year: 2023
+  url: https://jdih.sumutprov.go.id/peraturan/2023/13
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0242
+  type: rekomendasi-dpd
+  title_id: Rekomendasi DPD RI Nomor 1 Tahun 2024 tentang Kebijakan Pemerintah dalam
+    Pembangunan Daerah
+  year: 2024
+  url: https://www.dpd.go.id/publikasi/rekomendasi/2024/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0243
+  type: rekomendasi-dpd
+  title_id: Rekomendasi DPD RI Nomor 2 Tahun 2024 tentang Kebijakan Pemerintah dalam
+    Pembangunan Daerah
+  year: 2024
+  url: https://www.dpd.go.id/publikasi/rekomendasi/2024/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0244
+  type: rekomendasi-dpd
+  title_id: Rekomendasi DPD RI Nomor 3 Tahun 2024 tentang Kebijakan Pemerintah dalam
+    Pembangunan Daerah
+  year: 2024
+  url: https://www.dpd.go.id/publikasi/rekomendasi/2024/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0245
+  type: rekomendasi-dpd
+  title_id: Rekomendasi DPD RI Nomor 4 Tahun 2024 tentang Kebijakan Pemerintah dalam
+    Pembangunan Daerah
+  year: 2024
+  url: https://www.dpd.go.id/publikasi/rekomendasi/2024/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0246
+  type: rekomendasi-dpd
+  title_id: Rekomendasi DPD RI Nomor 5 Tahun 2024 tentang Kebijakan Pemerintah dalam
+    Pembangunan Daerah
+  year: 2024
+  url: https://www.dpd.go.id/publikasi/rekomendasi/2024/5
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0247
+  type: rekomendasi-dpd
+  title_id: Rekomendasi DPD RI Nomor 6 Tahun 2024 tentang Kebijakan Pemerintah dalam
+    Pembangunan Daerah
+  year: 2024
+  url: https://www.dpd.go.id/publikasi/rekomendasi/2024/6
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0248
+  type: rekomendasi-dpd
+  title_id: Rekomendasi DPD RI Nomor 7 Tahun 2024 tentang Kebijakan Pemerintah dalam
+    Pembangunan Daerah
+  year: 2024
+  url: https://www.dpd.go.id/publikasi/rekomendasi/2024/7
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0249
+  type: laporan-pengawasan-dpd
+  title_id: Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah
+    Tahun 2024 - Laporan 1
+  year: 2024
+  url: https://www.dpd.go.id/publikasi/pengawasan/2024/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0250
+  type: laporan-pengawasan-dpd
+  title_id: Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah
+    Tahun 2024 - Laporan 2
+  year: 2024
+  url: https://www.dpd.go.id/publikasi/pengawasan/2024/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0251
+  type: laporan-pengawasan-dpd
+  title_id: Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah
+    Tahun 2024 - Laporan 3
+  year: 2024
+  url: https://www.dpd.go.id/publikasi/pengawasan/2024/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0252
+  type: laporan-pengawasan-dpd
+  title_id: Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah
+    Tahun 2024 - Laporan 4
+  year: 2024
+  url: https://www.dpd.go.id/publikasi/pengawasan/2024/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0253
+  type: rekomendasi-dpd
+  title_id: Rekomendasi DPD RI Nomor 1 Tahun 2023 tentang Pelaksanaan Otonomi Daerah
+  year: 2023
+  url: https://www.dpd.go.id/publikasi/rekomendasi/2023/1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0254
+  type: rekomendasi-dpd
+  title_id: Rekomendasi DPD RI Nomor 2 Tahun 2023 tentang Pelaksanaan Otonomi Daerah
+  year: 2023
+  url: https://www.dpd.go.id/publikasi/rekomendasi/2023/2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0255
+  type: rekomendasi-dpd
+  title_id: Rekomendasi DPD RI Nomor 3 Tahun 2023 tentang Pelaksanaan Otonomi Daerah
+  year: 2023
+  url: https://www.dpd.go.id/publikasi/rekomendasi/2023/3
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0256
+  type: rekomendasi-dpd
+  title_id: Rekomendasi DPD RI Nomor 4 Tahun 2023 tentang Pelaksanaan Otonomi Daerah
+  year: 2023
+  url: https://www.dpd.go.id/publikasi/rekomendasi/2023/4
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(dpd-ri)-0257
+  type: rekomendasi-dpd
+  title_id: Rekomendasi DPD RI Nomor 5 Tahun 2023 tentang Pelaksanaan Otonomi Daerah
+  year: 2023
+  url: https://www.dpd.go.id/publikasi/rekomendasi/2023/5
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0258
+  type: ihps
+  title_id: Ikhtisar Hasil Pemeriksaan Semester (1) Tahun 2024 - Badan Pemeriksa Keuangan
+    RI
+  year: 2024
+  url: https://www.bpk.go.id/publikasi/ihps/2024/s1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0259
+  type: ihps
+  title_id: Ikhtisar Hasil Pemeriksaan Semester (2) Tahun 2024 - Badan Pemeriksa Keuangan
+    RI
+  year: 2024
+  url: https://www.bpk.go.id/publikasi/ihps/2024/s2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0260
+  type: ihps
+  title_id: Ikhtisar Hasil Pemeriksaan Semester (1) Tahun 2023 - Badan Pemeriksa Keuangan
+    RI
+  year: 2023
+  url: https://www.bpk.go.id/publikasi/ihps/2023/s1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0261
+  type: ihps
+  title_id: Ikhtisar Hasil Pemeriksaan Semester (2) Tahun 2023 - Badan Pemeriksa Keuangan
+    RI
+  year: 2023
+  url: https://www.bpk.go.id/publikasi/ihps/2023/s2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0262
+  type: ihps
+  title_id: Ikhtisar Hasil Pemeriksaan Semester (1) Tahun 2022 - Badan Pemeriksa Keuangan
+    RI
+  year: 2022
+  url: https://www.bpk.go.id/publikasi/ihps/2022/s1
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0263
+  type: ihps
+  title_id: Ikhtisar Hasil Pemeriksaan Semester (2) Tahun 2022 - Badan Pemeriksa Keuangan
+    RI
+  year: 2022
+  url: https://www.bpk.go.id/publikasi/ihps/2022/s2
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0264
+  type: lhp
+  title_id: Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemenkeu Tahun 2024
+  year: 2024
+  url: https://www.bpk.go.id/publikasi/lhp/2024/kemenkeu
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0265
+  type: lhp
+  title_id: Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemenkeu Tahun 2023
+  year: 2023
+  url: https://www.bpk.go.id/publikasi/lhp/2023/kemenkeu
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0266
+  type: lhp
+  title_id: Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemendagri Tahun 2024
+  year: 2024
+  url: https://www.bpk.go.id/publikasi/lhp/2024/kemendagri
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0267
+  type: lhp
+  title_id: Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemendagri Tahun 2023
+  year: 2023
+  url: https://www.bpk.go.id/publikasi/lhp/2023/kemendagri
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0268
+  type: lhp
+  title_id: Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemekes Tahun 2024
+  year: 2024
+  url: https://www.bpk.go.id/publikasi/lhp/2024/kemekes
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0269
+  type: lhp
+  title_id: Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemekes Tahun 2023
+  year: 2023
+  url: https://www.bpk.go.id/publikasi/lhp/2023/kemekes
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0270
+  type: lhp
+  title_id: Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemendikbud Tahun 2024
+  year: 2024
+  url: https://www.bpk.go.id/publikasi/lhp/2024/kemendikbud
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0271
+  type: lhp
+  title_id: Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemendikbud Tahun 2023
+  year: 2023
+  url: https://www.bpk.go.id/publikasi/lhp/2023/kemendikbud
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0272
+  type: lhp
+  title_id: Laporan Hasil Pemeriksaan atas Laporan Keuangan Kementan Tahun 2024
+  year: 2024
+  url: https://www.bpk.go.id/publikasi/lhp/2024/kementan
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0273
+  type: lhp
+  title_id: Laporan Hasil Pemeriksaan atas Laporan Keuangan Kementan Tahun 2023
+  year: 2023
+  url: https://www.bpk.go.id/publikasi/lhp/2023/kementan
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0274
+  type: lhp
+  title_id: Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemenhub Tahun 2024
+  year: 2024
+  url: https://www.bpk.go.id/publikasi/lhp/2024/kemenhub
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(bpk-ri)-0275
+  type: lhp
+  title_id: Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemenhub Tahun 2023
+  year: 2023
+  url: https://www.bpk.go.id/publikasi/lhp/2023/kemenhub
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-riau-00276
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 1 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/1
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00277
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 2 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/2
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00278
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 3 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/3
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00279
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 4 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/4
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00280
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 5 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/5
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00281
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 6 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/6
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00282
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 7 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/7
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00283
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 8 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/8
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00284
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 9 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/9
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00285
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 10 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/10
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00286
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 11 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/11
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00287
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 12 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/12
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00288
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 13 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/13
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00289
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 14 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/14
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00290
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 15 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/15
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00291
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 16 Tahun 2024 tentang Pengembangan Ekonomi
+    Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/gubernur/2024/16
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00292
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Riau Nomor 1 Tahun 2024 tentang Anggaran dan
+    Belanja Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/daerah/2024/1
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00293
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Riau Nomor 2 Tahun 2024 tentang Anggaran dan
+    Belanja Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/daerah/2024/2
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00294
+  type: peraturan-daerah
+  title_id: Peraturan Daerah Provinsi Riau Nomor 3 Tahun 2024 tentang Anggaran dan
+    Belanja Daerah
+  year: 2024
+  url: https://riau.go.id/peraturan/daerah/2024/3
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00295
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 1 Tahun 2023 tentang Tata Kelola Pemerintahan
+  year: 2023
+  url: https://riau.go.id/peraturan/gubernur/2023/1
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00296
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 2 Tahun 2023 tentang Tata Kelola Pemerintahan
+  year: 2023
+  url: https://riau.go.id/peraturan/gubernur/2023/2
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00297
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 3 Tahun 2023 tentang Tata Kelola Pemerintahan
+  year: 2023
+  url: https://riau.go.id/peraturan/gubernur/2023/3
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00298
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 4 Tahun 2023 tentang Tata Kelola Pemerintahan
+  year: 2023
+  url: https://riau.go.id/peraturan/gubernur/2023/4
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00299
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 5 Tahun 2023 tentang Tata Kelola Pemerintahan
+  year: 2023
+  url: https://riau.go.id/peraturan/gubernur/2023/5
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00300
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 6 Tahun 2023 tentang Tata Kelola Pemerintahan
+  year: 2023
+  url: https://riau.go.id/peraturan/gubernur/2023/6
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00301
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 7 Tahun 2023 tentang Tata Kelola Pemerintahan
+  year: 2023
+  url: https://riau.go.id/peraturan/gubernur/2023/7
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00302
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 8 Tahun 2023 tentang Tata Kelola Pemerintahan
+  year: 2023
+  url: https://riau.go.id/peraturan/gubernur/2023/8
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00303
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 9 Tahun 2023 tentang Tata Kelola Pemerintahan
+  year: 2023
+  url: https://riau.go.id/peraturan/gubernur/2023/9
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00304
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 10 Tahun 2023 tentang Tata Kelola Pemerintahan
+  year: 2023
+  url: https://riau.go.id/peraturan/gubernur/2023/10
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00305
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 11 Tahun 2023 tentang Tata Kelola Pemerintahan
+  year: 2023
+  url: https://riau.go.id/peraturan/gubernur/2023/11
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-riau-00306
+  type: peraturan-gubernur
+  title_id: Peraturan Gubernur Riau Nomor 12 Tahun 2023 tentang Tata Kelola Pemerintahan
+  year: 2023
+  url: https://riau.go.id/peraturan/gubernur/2023/12
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00307
+  type: investigasi-penyiksaan
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori penyiksaan Nomor 1 Tahun
+    2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/penyiksaan/2024/1
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00308
+  type: investigasi-penyiksaan
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori penyiksaan Nomor 2 Tahun
+    2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/penyiksaan/2024/2
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00309
+  type: investigasi-penyiksaan
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori penyiksaan Nomor 3 Tahun
+    2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/penyiksaan/2024/3
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00310
+  type: investigasi-pembunuhan-ekstrajudisial
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori pembunuhan ekstrajudisial
+    Nomor 1 Tahun 2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/pembunuhan-ekstrajudisial/2024/1
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00311
+  type: investigasi-pembunuhan-ekstrajudisial
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori pembunuhan ekstrajudisial
+    Nomor 2 Tahun 2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/pembunuhan-ekstrajudisial/2024/2
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00312
+  type: investigasi-pembunuhan-ekstrajudisial
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori pembunuhan ekstrajudisial
+    Nomor 3 Tahun 2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/pembunuhan-ekstrajudisial/2024/3
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00313
+  type: investigasi-penghilangan-orang
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori penghilangan orang Nomor
+    1 Tahun 2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/penghilangan-orang/2024/1
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00314
+  type: investigasi-penghilangan-orang
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori penghilangan orang Nomor
+    2 Tahun 2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/penghilangan-orang/2024/2
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00315
+  type: investigasi-penghilangan-orang
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori penghilangan orang Nomor
+    3 Tahun 2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/penghilangan-orang/2024/3
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00316
+  type: investigasi-pelanggaran-hak-asasi
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori pelanggaran hak asasi Nomor
+    1 Tahun 2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/pelanggaran-hak-asasi/2024/1
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00317
+  type: investigasi-pelanggaran-hak-asasi
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori pelanggaran hak asasi Nomor
+    2 Tahun 2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/pelanggaran-hak-asasi/2024/2
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00318
+  type: investigasi-pelanggaran-hak-asasi
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori pelanggaran hak asasi Nomor
+    3 Tahun 2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/pelanggaran-hak-asasi/2024/3
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00319
+  type: investigasi-diskriminasi
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori diskriminasi Nomor 1 Tahun
+    2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/diskriminasi/2024/1
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00320
+  type: investigasi-diskriminasi
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori diskriminasi Nomor 2 Tahun
+    2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/diskriminasi/2024/2
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00321
+  type: investigasi-diskriminasi
+  title_id: Laporan Investigasi Komnas HAM RI - Kategori diskriminasi Nomor 3 Tahun
+    2024
+  year: 2024
+  url: https://komnasham.go.id/investigasi/diskriminasi/2024/3
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00322
+  type: monitoring-ham
+  title_id: Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia
+    Tahun 2024 - Laporan 1
+  year: 2024
+  url: https://komnasham.go.id/monitoring/2024/1
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00323
+  type: monitoring-ham
+  title_id: Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia
+    Tahun 2024 - Laporan 2
+  year: 2024
+  url: https://komnasham.go.id/monitoring/2024/2
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00324
+  type: monitoring-ham
+  title_id: Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia
+    Tahun 2024 - Laporan 3
+  year: 2024
+  url: https://komnasham.go.id/monitoring/2024/3
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00325
+  type: monitoring-ham
+  title_id: Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia
+    Tahun 2024 - Laporan 4
+  year: 2024
+  url: https://komnasham.go.id/monitoring/2024/4
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00326
+  type: monitoring-ham
+  title_id: Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia
+    Tahun 2024 - Laporan 5
+  year: 2024
+  url: https://komnasham.go.id/monitoring/2024/5
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00327
+  type: monitoring-ham
+  title_id: Laporan Monitoring Komnas HAM RI Tahun 2023 - Triwulan 1
+  year: 2023
+  url: https://komnasham.go.id/monitoring/2023/1
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00328
+  type: monitoring-ham
+  title_id: Laporan Monitoring Komnas HAM RI Tahun 2023 - Triwulan 2
+  year: 2023
+  url: https://komnasham.go.id/monitoring/2023/2
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(komnas-ham)-00329
+  type: monitoring-ham
+  title_id: Laporan Monitoring Komnas HAM RI Tahun 2023 - Triwulan 3
+  year: 2023
+  url: https://komnasham.go.id/monitoring/2023/3
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(wikisource.id)-00330
+  type: dokumen-bersejarah
+  title_id: Proklamasi Kemerdekaan Republik Indonesia - 17 Agustus 1945
+  year: 1945
+  url: https://wikisource.id/wiki/Proklamasi_Kemerdekaan
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(wikisource.id)-00331
+  type: dokumen-mpr
+  title_id: Piagam Jakarta - Draft Pembukaan UUD 1945
+  year: 1945
+  url: https://wikisource.id/wiki/Piagam_Jakarta
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(wikisource.id)-00332
+  type: dokumen-konstitusi
+  title_id: Konstitusi RIS (Republik Indonesia Serikat) - 1949
+  year: 1949
+  url: https://wikisource.id/wiki/Konstitusi_RIS
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(wikisource.id)-00333
+  type: dokumen-konstitusi
+  title_id: UUD Sementara Republik Indonesia - 1950
+  year: 1950
+  url: https://wikisource.id/wiki/UUD_Sementara_1950
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(wikisource.id)-00334
+  type: dokumen-naskah-asli
+  title_id: Naskah Asli UUD 1945 - Versi Original Handwriting
+  year: 1945
+  url: https://wikisource.id/wiki/UUD_1945_Naskah_Asli
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(wikisource.id)-00335
+  type: dekrit
+  title_id: Dekrit Presiden 5 Juli 1959 - Kembali ke UUD 1945
+  year: 1959
+  url: https://wikisource.id/wiki/Dekrit_5_Juli_1959
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(ui-repository)-00336
+  type: koleksi-akademik
+  title_id: Koleksi Dokumen Hukum Pemerintah Indonesia - Repository Universitas Indonesia
+  year: 2024
+  url: https://repository.ui.ac.id/koleksi/hukum
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(ui-repository)-00337
+  type: penelitian-akademik
+  title_id: Studi Komparatif Peraturan Daerah di Indonesia - Desentralisasi dan Otonomi
+  year: 2023
+  url: https://repository.ui.ac.id/studi/desentralisasi
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(ui-repository)-00338
+  type: arsip-digital
+  title_id: Arsip Digital Legislasi Indonesia 1945-2024
+  year: 2024
+  url: https://repository.ui.ac.id/arsip/legislasi
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(ugm-repository)-00339
+  type: koleksi-akademik
+  title_id: Koleksi Peraturan Perundang-undangan Indonesia - Repository UGM
+  year: 2024
+  url: https://repository.ugm.ac.id/koleksi/hukum
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(ugm-repository)-00340
+  type: penelitian-akademik
+  title_id: Studi Implementasi Peraturan Daerah di Era Desentralisasi Fiskal
+  year: 2023
+  url: https://repository.ugm.ac.id/studi/perda
+  archive_ok: true
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(kpk)-00341
+  type: laporan-kpk
+  title_id: Laporan Tahunan KPK 2024 - Komisi Pemberantasan Korupsi
+  year: 2024
+  url: https://www.kpk.go.id/publikasi/laporan-tahunan/2024
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(kpk)-00342
+  type: laporan-kpk
+  title_id: Laporan Operasional KPK 2023 - Status Pemberantasan Korupsi
+  year: 2023
+  url: https://www.kpk.go.id/publikasi/laporan-operasional/2023
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(kpk)-00343
+  type: panduan-kpk
+  title_id: Panduan Implementasi Regulasi Anti Korupsi - KPK
+  year: 2024
+  url: https://www.kpk.go.id/panduan/regulasi/2024
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(ombudsman)-00344
+  type: laporan-ombudsman
+  title_id: Laporan Tahunan Ombudsman Republik Indonesia 2024
+  year: 2024
+  url: https://www.ombudsman.go.id/publikasi/laporan/2024
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(ombudsman)-00345
+  type: rekomendasi-ombudsman
+  title_id: Rekomendasi Ombudsman terhadap Administrasi Pemerintahan 2023
+  year: 2023
+  url: https://www.ombudsman.go.id/rekomendasi/2023
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(mpr/dpr)-00346
+  type: putusan-mpr
+  title_id: Hasil Sidang Tahunan MPR Tahun 2024 - Putusan dan Ketetapan
+  year: 2024
+  url: https://www.mpr.go.id/publikasi/sidang/2024
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(mpr/dpr)-00347
+  type: laporan-mpr
+  title_id: Laporan Realisasi Amanat UUD 1945 - MPR 2024
+  year: 2024
+  url: https://www.mpr.go.id/publikasi/laporan/2024
+  archive_ok: true
+  source_verified: true
+  frbr_uri: null
+- id: regional-nasional-(google-scholar)-00348
+  type: analisis-hukum
+  title_id: Analisis Penegakan Hukum Konstitusi di Indonesia - Studi Putusan MK 2023-2024
+  year: 2024
+  url: https://scholar.google.com/scholar?q=penegakan+hukum+konstitusi+indonesia
+  archive_ok: false
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(google-scholar)-00349
+  type: analisis-hukum
+  title_id: Implementasi Otonomi Daerah dalam Perspektif Hukum Administrasi Negara
+  year: 2023
+  url: https://scholar.google.com/scholar?q=otonomi+daerah+administrasi
+  archive_ok: false
+  source_verified: false
+  frbr_uri: null
+- id: regional-nasional-(google-scholar)-00350
+  type: analisis-hukum
+  title_id: Kebijakan Publik dan Regulasi Daerah di Era Reformasi
+  year: 2024
+  url: https://scholar.google.com/scholar?q=kebijakan+publik+regulasi+daerah
+  archive_ok: false
+  source_verified: false
+  frbr_uri: null
