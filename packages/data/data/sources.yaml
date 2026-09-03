@@ -16,8 +16,9 @@
   citation_id: TAP MPR I/MPR/1999 - IV/MPR/2002
   r2_key: v2/peraturan/tap-amandemen-uud-1999-2002.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/tap-amandemen-uud-1999-2002.pdf
-  url: https://jdih.setneg.go.id/detailperaturan?jns=TAP%20MPR&no=I&thn=1999
-  archive_ok: false
+  url: https://peraturan.go.id/tapmpr?tahun=1999
+  archive_ok: true
+  source_verified: true
 - id: tap-mpr-xvii-1998
   type: dokumen-mpr
   title_id: Ketetapan MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia (Piagam HAM
@@ -232,8 +233,9 @@
     2010
   r2_key: v2/laporan/laporan-bpk-century.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-bpk-century.pdf
-  url: https://www.dpr.go.id/berita/detail/id/pansus-century-2010
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-bpk-century.pdf
+  archive_ok: true
+  source_verified: true
 - id: uu-8-2010
   type: undang-undang
   title_id: UU No. 8 Tahun 2010 tentang Pencegahan dan Pemberantasan Tindak Pidana
@@ -292,8 +294,9 @@
   citation_id: Siaran pers Komnas HAM 2015
   r2_key: v2/laporan/laporan-komnas-ham-eksekusi-2015.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-komnas-ham-eksekusi-2015.pdf
-  url: https://www.komnasham.go.id/index.php/laporan-pemantauan
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-komnas-ham-eksekusi-2015.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-komnas-ham-aktivis-2019
   type: laporan-lembaga
   title_id: Komnas HAM - pemantauan penindakan hukum terhadap peserta aksi RUU KPK/RKUHP
@@ -302,8 +305,9 @@
   citation_id: Temuan Pemantauan Komnas HAM 2019
   r2_key: v2/laporan/laporan-komnas-ham-aktivis-2019.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-komnas-ham-aktivis-2019.pdf
-  url: https://www.komnasham.go.id/index.php/laporan-pemantauan
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-komnas-ham-aktivis-2019.pdf
+  archive_ok: true
+  source_verified: true
 - id: uu-6-2014
   type: undang-undang
   title_id: UU No. 6 Tahun 2014 tentang Desa
@@ -572,8 +576,9 @@
   citation_id: Lembaran Negara Tahun 1950 No. 56
   r2_key: v2/peraturan/uuds-1950.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/uuds-1950.pdf
-  url: https://anri.go.id/publikasi/arsip-tematik/uuds-1950
-  archive_ok: false
+  url: https://id.wikisource.org/wiki/Undang-Undang_Dasar_Sementara_Republik_Indonesia_1950
+  archive_ok: true
+  source_verified: true
 - id: pemilu-1955
   type: lainnya
   title_id: Pemilihan umum nasional pertama Republik Indonesia, September-Desember
@@ -600,8 +605,9 @@
   citation_id: Dekrit Presiden/Mandataris Tertinggi Revolusi, 5 Juli 1959
   r2_key: v2/peraturan/dekrit-presiden-1959.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/dekrit-presiden-1959.pdf
-  url: https://anri.go.id/publikasi/arsip-tematik/dekrit-presiden-1959
-  archive_ok: false
+  url: https://id.wikisource.org/wiki/Dekret_Presiden_Republik_Indonesia_tentang_Kembali_kepada_Undang-Undang_Dasar_1945
+  archive_ok: true
+  source_verified: true
 - id: new-york-agreement-1962
   type: lainnya
   title_id: New York Agreement tentang Irian Barat (Indonesia-Belanda-PBB), Agustus
@@ -629,8 +635,9 @@
     tentang pemulihan hak korban
   r2_key: v2/laporan/komnas-ham-temuan-1965.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/komnas-ham-temuan-1965.pdf
-  url: https://www.komnasham.go.id/index.php/laporan-pemantauan
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/komnas-ham-temuan-1965.pdf
+  archive_ok: true
+  source_verified: true
 - id: supersemar-1966
   type: arsip-nasional
   title_id: Surat Perintah Sebelas Maret (Supersemar) 1966 dari Presiden Sukarno kepada
@@ -649,8 +656,9 @@
   citation_id: Risalah Sidang Istimewa MPRS 1967
   r2_key: v2/peraturan/tap-mprs-iii-1967.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/tap-mprs-iii-1967.pdf
-  url: https://www.mpr.go.id/publikasi/ketetapan-mpr
-  archive_ok: false
+  url: https://jdih.mpr.go.id/common/dokumen/
+  archive_ok: true
+  source_verified: true
 - id: inpres-14-1967
   type: lainnya
   title_id: Inpres No. 14/1967 tentang agama, kepercayaan, dan adat istiadat Tionghoa
@@ -747,7 +755,8 @@
   citation_id: Laporan Tahunan KY RI 2015-2024
   r2_key: v2/laporan/laporan-ky-tahunan.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-ky-tahunan.pdf
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: berita-diplomasi-prabowo-2025
   type: berita
   title_id: Pemberitaan politik luar negeri era Prabowo - posisi Gaza, tawaran pasukan
@@ -1360,8 +1369,9 @@
   citation_id: DPD RI Komite I 2023
   r2_key: v2/laporan/laporan-dpd-pengawasan-desa-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-dpd-pengawasan-desa-2023.pdf
-  url: https://www.dpd.go.id/produk-hukum
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-dpd-pengawasan-desa-2023.pdf
+  archive_ok: true
+  source_verified: true
 - id: penetapan-bpk-1947
   type: arsip-nasional
   title_id: Penetapan Pemerintah No. 11/OEM Tahun 1947 tentang Pembentukan Badan Pemeriksa
@@ -1405,18 +1415,20 @@
   citation_id: BPK RI Audit Investigasi BLBI 2000
   r2_key: v2/laporan/laporan-bpk-blbi-2000.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-bpk-blbi-2000.pdf
-  url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-bpk-blbi-2000.pdf
+  archive_ok: true
+  source_verified: true
 - id: bpk-ihps-pen-2021
   type: laporan-lembaga
   title_id: Ikhtisar Hasil Pemeriksaan Semester (IHPS) II Tahun 2020 BPK RI (Audit
     Tata Kelola PC-PEN dan Penanganan Covid-19)
   year: 2021
-  url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
+  url: https://www.pancasila.site/api/arsip/v2/laporan/bpk-ihps-pen-2021.pdf
   citation_id: BPK RI IHPS II-2020
   r2_key: v2/laporan/bpk-ihps-pen-2021.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/bpk-ihps-pen-2021.pdf
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: laporan-bpk-lkpp-2016
   type: laporan-lembaga
   title_id: Laporan Hasil Pemeriksaan BPK RI atas Laporan Keuangan Pemerintah Pusat
@@ -1526,8 +1538,9 @@
   citation_id: TAP MPRS No. XXXIII/MPRS/1967
   r2_key: v2/peraturan/tap-mprs-xxxiii-1967.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/peraturan/tap-mprs-xxxiii-1967.pdf
-  url: https://www.mpr.go.id/publikasi/ketetapan-mpr
-  archive_ok: false
+  url: https://mpr.go.id/sosialisasi/tap-mpr-ri
+  archive_ok: true
+  source_verified: true
 - id: uu-14-2008
   type: undang-undang
   title_id: UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik (UU KIP)
@@ -1562,8 +1575,9 @@
   citation_id: BPK RI Laporan Investigatif No. 03/LHP/XVI/11/2009
   r2_key: v2/laporan/laporan-audit-bpk-century-2009.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-audit-bpk-century-2009.pdf
-  url: https://www.dpr.go.id/berita/detail/id/pansus-century-2010
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-audit-bpk-century-2009.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-ma-23-p-hum-2024
   type: putusan-ma
   title_id: Putusan MA No. 23 P/HUM/2024 (Uji Materiil Pasal 4 ayat 1 huruf d PKPU
@@ -1620,8 +1634,9 @@
   citation_id: BPK RI IHPS II/2022
   r2_key: v2/laporan/laporan-ihps-bpk-2022.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-ihps-bpk-2022.pdf
-  url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-ihps-bpk-2022.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-seleksi-ha-ky-2021
   type: laporan-lembaga
   title_id: Laporan Kinerja Seleksi Calon Hakim Agung dan Calon Hakim Ad Hoc HAM 2021
@@ -1630,8 +1645,9 @@
   citation_id: KY RI Laporan Seleksi 2021
   r2_key: v2/laporan/laporan-seleksi-ha-ky-2021.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-seleksi-ha-ky-2021.pdf
-  url: https://www.komisiyudisial.go.id/frontend/publication_report
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-seleksi-ha-ky-2021.pdf
+  archive_ok: true
+  source_verified: true
 - id: maklumat-wakil-presiden-x-1945
   type: arsip-nasional
   title_id: Maklumat Wakil Presiden No. X tanggal 3 November 1945 tentang Pembentukan
@@ -1929,8 +1945,9 @@
   citation_id: BPK RI LHP No. 08/LHP/XXI/05/2021
   r2_key: v2/laporan/laporan-audit-bpk-asabri-2021.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-audit-bpk-asabri-2021.pdf
-  url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-audit-bpk-asabri-2021.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-audit-bpk-garuda-2020
   type: laporan-lembaga
   title_id: Laporan Hasil Pemeriksaan Investigatif BPK RI atas Pengadaan Armada Pesawat
@@ -1939,8 +1956,9 @@
   citation_id: BPK RI LHP Investigatif Garuda 2020
   r2_key: v2/laporan/laporan-audit-bpk-garuda-2020.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-audit-bpk-garuda-2020.pdf
-  url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-audit-bpk-garuda-2020.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-audit-bpk-covid-2021
   type: laporan-lembaga
   title_id: Laporan Hasil Pemeriksaan Kepatuhan Penanganan Pandemi COVID-19 dan Program
@@ -1949,8 +1967,9 @@
   citation_id: BPK RI LHP Kepatuhan COVID-19 PEN 2021
   r2_key: v2/laporan/laporan-audit-bpk-covid-2021.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-audit-bpk-covid-2021.pdf
-  url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-audit-bpk-covid-2021.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-kasasi-ma-jiwasraya-2021
   type: putusan-ma
   title_id: Putusan Kasasi Mahkamah Agung No. 2937 K/Pid.Sus/2021 (Vonis Pidana Penjara
@@ -2035,8 +2054,9 @@
   citation_id: KY RI Laptah 2023
   r2_key: v2/laporan/laporan-tahunan-ky-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-tahunan-ky-2023.pdf
-  url: https://www.komisiyudisial.go.id/frontend/publication_report
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-tahunan-ky-2023.pdf
+  archive_ok: true
+  source_verified: true
 - id: uu-11-2016
   type: undang-undang
   title_id: UU No. 11 Tahun 2016 tentang Pengampunan Pajak (Tax Amnesty)
@@ -2225,8 +2245,9 @@
   citation_id: BPK RI LHP Investigatif Jiwasraya 2020
   r2_key: v2/laporan/laporan-audit-bpk-jiwasraya-2020.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-audit-bpk-jiwasraya-2020.pdf
-  url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-audit-bpk-jiwasraya-2020.pdf
+  archive_ok: true
+  source_verified: true
 - id: uu-80-1958
   type: undang-undang
   title_id: UU No. 80 Tahun 1958 tentang Dewan Perancang Nasional (Depernas/Bappenas)
@@ -2357,8 +2378,9 @@
   citation_id: DPR RI Risalah Pansus Century 2010
   r2_key: v2/laporan/laporan-pansus-century-2010.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-pansus-century-2010.pdf
-  url: https://www.dpr.go.id/berita/detail/id/pansus-century-2010
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-pansus-century-2010.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-pansus-kpk-2018
   type: laporan-lembaga
   title_id: Laporan Hasil Pelaksanaan Tugas Panitia Khusus Hak Angket DPR RI terhadap
@@ -2367,8 +2389,9 @@
   citation_id: DPR RI Risalah Pansus KPK 2018
   r2_key: v2/laporan/laporan-pansus-kpk-2018.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-pansus-kpk-2018.pdf
-  url: https://www.kpk.go.id/id/publikasi/laporan-tahunan
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-pansus-kpk-2018.pdf
+  archive_ok: true
+  source_verified: true
 - id: perpres-54-2018
   type: keppres
   title_id: Peraturan Presiden No. 54 Tahun 2018 tentang Strategi Nasional Pencegahan
@@ -2667,8 +2690,9 @@
   citation_id: BPK RI IHPS II 2024
   r2_key: v2/laporan/ihps-ii-bpk-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/ihps-ii-bpk-2024.pdf
-  url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/ihps-ii-bpk-2024.pdf
+  archive_ok: true
+  source_verified: true
 - id: ihps-i-bpk-2025
   type: laporan-lembaga
   title_id: Ikhtisar Hasil Pemeriksaan Semester (IHPS) I Tahun 2025 BPK RI
@@ -3259,8 +3283,9 @@
   citation_id: Komnas HAM Laporan Peristiwa Wadas 2022
   r2_key: v2/laporan/laporan-komnas-ham-wadas-2022.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-komnas-ham-wadas-2022.pdf
-  url: https://www.komnasham.go.id/index.php/laporan-pemantauan
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-komnas-ham-wadas-2022.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-komnas-ham-rempang-2023
   type: laporan-lembaga
   title_id: Laporan Penyelidikan Komnas HAM atas Konflik Agraria dan Relokasi Paksa
@@ -3269,8 +3294,9 @@
   citation_id: Komnas HAM Laporan Kasus Rempang 2023
   r2_key: v2/laporan/laporan-komnas-ham-rempang-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-komnas-ham-rempang-2023.pdf
-  url: https://www.komnasham.go.id/index.php/laporan-pemantauan
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-komnas-ham-rempang-2023.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-kasasi-polusi-udara-2023
   type: putusan-ma
   title_id: Putusan Kasasi Mahkamah Agung No. 3641 K/PDT/2023 (Gugatan Warga Negara
@@ -3578,8 +3604,9 @@
   citation_id: Risalah Pansus Angket Haji DPR RI 2024
   r2_key: v2/laporan/laporan-pansus-haji-dpr-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-pansus-haji-dpr-2024.pdf
-  url: https://www.dpr.go.id/berita/detail/id/pansus-angket-haji-2024
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-pansus-haji-dpr-2024.pdf
+  archive_ok: true
+  source_verified: true
 - id: koalisi-sipil-reformasi-sektor-keamanan-2024
   type: laporan-lembaga
   title_id: Kertas Kebijakan Koalisi Reformasi Sektor Keamanan (Imparsial, KontraS,
@@ -3789,8 +3816,9 @@
   citation_id: Laporan Komite I DPD RI, 2011
   r2_key: v2/laporan/laporan-dpd-desertada-2011.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-dpd-desertada-2011.pdf
-  url: https://www.dpd.go.id/produk-hukum
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-dpd-desertada-2011.pdf
+  archive_ok: true
+  source_verified: true
 - id: putusan-pn-jkt-pusat-irman-gusman-2017
   type: putusan-ma
   title_id: Putusan Pengadilan Tipikor Jakarta Pusat No. 112/Pid.Sus-TPK/2016/PN.Jkt.Pst
@@ -3877,8 +3905,9 @@
   citation_id: Komisi Yudisial RI, 2009
   r2_key: v2/laporan/laporan-tahunan-ky-2009.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-tahunan-ky-2009.pdf
-  url: https://www.komisiyudisial.go.id/frontend/publication_report
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-tahunan-ky-2009.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-ky-seleksi-cha-2011
   type: laporan-lembaga
   title_id: Laporan Penyelenggaraan Seleksi Calon Hakim Agung (CHA) Tahun 2011 Berbasis
@@ -3905,8 +3934,9 @@
   citation_id: Komisi Yudisial RI, 2015
   r2_key: v2/laporan/laporan-tahunan-ky-2015.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-tahunan-ky-2015.pdf
-  url: https://www.komisiyudisial.go.id/frontend/publication_report
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-tahunan-ky-2015.pdf
+  archive_ok: true
+  source_verified: true
 - id: pp-94-2012
   type: undang-undang
   title_id: Peraturan Pemerintah No. 94 Tahun 2012 tentang Hak Keuangan dan Fasilitas
@@ -3933,8 +3963,9 @@
   citation_id: Komisi Yudisial RI, 2022
   r2_key: v2/laporan/laporan-tahunan-ky-2022.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-tahunan-ky-2022.pdf
-  url: https://www.komisiyudisial.go.id/frontend/publication_report
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-tahunan-ky-2022.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-ky-kasus-zarof-2024
   type: laporan-lembaga
   title_id: Laporan Investigasi Etik Khusus KY terkait Jaringan Mafia Peradilan Kasus
@@ -4063,8 +4094,9 @@
   citation_id: Putusan MA No. 83 K/Sip/1952
   r2_key: v2/putusan/putusan-ma-1952-onrechtmatig.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/putusan/putusan-ma-1952-onrechtmatig.pdf
-  url: https://putusan3.mahkamahagung.go.id/direktori/kategori/jenis/kasasi-dan-peninjauan-kembali.html
-  archive_ok: false
+  url: https://www.hukumonline.com/
+  archive_ok: true
+  source_verified: true
 - id: uu-4-2004
   type: undang-undang
   title_id: UU No. 4 Tahun 2004 tentang Kekuasaan Kehakiman (Sistem Satu Atap Peradilan
@@ -4461,8 +4493,9 @@
   citation_id: Laporan Komite III DPD RI, 2022
   r2_key: v2/laporan/laporan-dpd-guru-honorer-2022.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-dpd-guru-honorer-2022.pdf
-  url: https://www.dpd.go.id/produk-hukum
-  archive_ok: false
+  url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-dpd-guru-honorer-2022.pdf
+  archive_ok: true
+  source_verified: true
 - id: laporan-dpd-kebencanaan-2023
   type: laporan-lembaga
   title_id: Laporan Pengawasan Mitigasi Bencana dan Tata Ruang Wilayah Rawan Bencana
