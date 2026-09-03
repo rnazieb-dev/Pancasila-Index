@@ -4,6 +4,11 @@ import {
   IconInstitution,
   IconShieldCheck,
   IconAuditLog,
+  IconEdit,
+  IconArchive,
+  IconFilePlus,
+  IconLanguages,
+  IconUsers,
 } from "@/components/icons";
 
 export default function PeerReviewPage() {
@@ -58,25 +63,50 @@ export default function PeerReviewPage() {
         })}
       </section>
 
-      {/* Alur Review */}
+      {/* Alur Tinjauan Sejawat */}
       <section className="mt-12">
-        <h2 className="text-xl font-bold">Alur Tinjauan Sejawat</h2>
+        <h2 className="text-xl font-bold">Alur Kerja Tinjauan Sejawat</h2>
         <p className="mt-2 text-sm text-[var(--muted)]">
-          Proses usulan mengikuti standar jurnal ilmiah — transparan, terstruktur, dan berdasarkan bukti.
+          Proses usulan mengikuti standar jurnal ilmiah — transparan, terstruktur, dan berbasis bukti primer.
         </p>
-        <ol className="mt-6 space-y-4">
+        <ol className="mt-6 grid gap-4 sm:grid-cols-2">
           {[
-            { n: "1", title: "Submisi Usulan", desc: "Kontributor mengisi formulir web: pilih organ & periode, lampirkan bukti empiris (Dokumen Negara/Jurnal Akademik/Berita Kredibel), tulis argumentasi normatif, dan tanda tangani Pakta Integritas." },
-            { n: "2", title: "Verifikasi Awal (Otomatis)", desc: "Sistem memvalidasi: URL sumber primer dapat diakses, format data sesuai rubrik, dan deklarasi transparansi terisi lengkap." },
-            { n: "3", title: "Under Review — Kontributor Terkurasi", desc: "Usulan yang lolos verifikasi awal masuk ke antrean (≥2 kontributor independen). Proses tinjauan dilakukan oleh praktisi dan akademisi sesuai dengan kapasitas keilmuannya (misal: isu konstitusional diulas oleh pakar hukum tata negara)." },
-            { n: "4", title: "Diterima / Ditolak", desc: "Putusan tim kontributor disertai alasan yang tercatat publik. Usulan yang diterima diintegrasikan ke dataset kanonik. Usulan yang ditolak beserta alasannya tetap dapat diakses untuk transparansi." },
+            {
+              step: "1",
+              title: "Pengajuan Usulan",
+              desc: "Peneliti mengajukan draf usulan berisi bukti primer baru atau koreksi skor dengan landasan normatif yang jelas.",
+              icon: IconScale,
+            },
+            {
+              step: "2",
+              title: "Verifikasi Otomatis",
+              desc: "Pipeline AI mengecek format sitasi, keberadaan tautan dokumen, dan memeriksa kesesuaian rubrik awal.",
+              icon: IconShieldCheck,
+            },
+            {
+              step: "3",
+              title: "Telaah Dewan Editorial",
+              desc: "Minimal 2 penelaah independen (kuorum) memeriksa keabsahan bukti primer sebelum keputusan final.",
+              icon: IconInstitution,
+            },
+            {
+              step: "4",
+              title: "Publikasi Transparan",
+              desc: "Usulan yang disetujui otomatis tercatat dalam Audit Log publik dan tercermin langsung pada indeks.",
+              icon: IconAuditLog,
+            },
           ].map((step) => (
-            <li key={step.n} className="flex gap-4">
-              <span className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-full bg-red-500/20 text-xs font-bold text-[var(--acc-red)]">
-                {step.n}
-              </span>
+            <li
+              key={step.step}
+              className="flex gap-3.5 rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4"
+            >
+              <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[var(--bg)] border border-[var(--line)] text-sm font-mono font-bold text-[var(--acc-red)]">
+                {step.step}
+              </div>
               <div>
-                <div className="font-semibold text-sm text-[var(--text)]">{step.title}</div>
+                <div className="flex items-center gap-2">
+                  <span className="font-semibold text-sm">{step.title}</span>
+                </div>
                 <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">{step.desc}</p>
               </div>
             </li>
@@ -91,7 +121,9 @@ export default function PeerReviewPage() {
           className="group rounded-xl border border-red-500/40 bg-red-500/10 p-5 hover:border-red-400 hover:bg-red-500/20 transition flex flex-col justify-between"
         >
           <div>
-            <div className="text-2xl mb-2.5">📝</div>
+            <div className="mb-3 text-[var(--acc-red)]">
+              <IconEdit size={22} />
+            </div>
             <h3 className="font-bold text-[var(--acc-red-strong)] group-hover:text-[var(--acc-red-strong)]">Ajukan Usulan Baru</h3>
             <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
               Usulkan bukti primer, perbaiki data peristiwa, atau ajukan revisi skor.
@@ -105,7 +137,9 @@ export default function PeerReviewPage() {
           className="group rounded-xl border border-emerald-500/40 bg-emerald-500/10 p-5 hover:border-emerald-400 hover:bg-emerald-500/20 transition flex flex-col justify-between"
         >
           <div>
-            <div className="text-2xl mb-2.5">🗄️</div>
+            <div className="mb-3 text-emerald-500">
+              <IconArchive size={22} />
+            </div>
             <h3 className="font-bold text-emerald-600 dark:text-emerald-400 group-hover:underline">
               Audit Data Terbuka (CKAN)
             </h3>
@@ -121,7 +155,9 @@ export default function PeerReviewPage() {
           className="group rounded-xl border border-amber-500/40 bg-amber-500/10 p-5 hover:border-amber-400 hover:bg-amber-500/20 transition flex flex-col justify-between"
         >
           <div>
-            <div className="text-2xl mb-2.5">📁</div>
+            <div className="mb-3 text-amber-500">
+              <IconFilePlus size={22} />
+            </div>
             <h3 className="font-bold text-[var(--acc-amber-strong)] group-hover:text-[var(--acc-amber-strong)]">Draf Usulan Saya</h3>
             <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
               Lanjutkan draf bukti dan argumentasi yang tersimpan otomatis di peramban.
@@ -135,7 +171,9 @@ export default function PeerReviewPage() {
           className="group rounded-xl border border-sky-500/40 bg-sky-500/10 p-5 hover:border-sky-400 hover:bg-sky-500/20 transition flex flex-col justify-between"
         >
           <div>
-            <div className="text-2xl mb-2.5">🌐</div>
+            <div className="mb-3 text-sky-500">
+              <IconLanguages size={22} />
+            </div>
             <h3 className="font-bold text-[var(--acc-sky-strong)] group-hover:text-[var(--acc-sky-strong)]">Tinjauan Terjemahan</h3>
             <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
               Koreksi dan validasi terjemahan substantif dalam 4 bahasa (EN, Jawa, Sunda, Minang).
@@ -149,7 +187,9 @@ export default function PeerReviewPage() {
           className="group rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5 hover:border-slate-500 transition flex flex-col justify-between"
         >
           <div>
-            <div className="text-2xl mb-2.5">👥</div>
+            <div className="mb-3 text-[var(--muted)]">
+              <IconUsers size={22} />
+            </div>
             <h3 className="font-bold text-[var(--text)] group-hover:text-[var(--text)]">Direktori Kontributor</h3>
             <p className="text-xs text-[var(--muted)] mt-1 leading-relaxed">
               Lihat daftar terbuka seluruh peneliti beserta afiliasi dan deklarasi transparansi.

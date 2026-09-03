@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { IconPrinter, IconLink, IconPlus } from "./icons";
 
 interface TermActionsProps {
   termId: string;
@@ -32,7 +33,7 @@ export function TermActions({ termId, institutionSlug, termLabel }: TermActionsP
         onClick={() => window.print()}
         className="inline-flex items-center gap-1.5 rounded-xl border border-[var(--line)] bg-[var(--panel)] px-3 py-1.5 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400 transition"
       >
-        <span>🖨️</span>
+        <IconPrinter size={14} className="shrink-0" />
         <span>Cetak Lembar Fakta (PDF)</span>
       </button>
 
@@ -41,7 +42,7 @@ export function TermActions({ termId, institutionSlug, termLabel }: TermActionsP
         onClick={() => setShowEmbed(!showEmbed)}
         className="inline-flex items-center gap-1.5 rounded-xl border border-[var(--line)] bg-[var(--panel)] px-3 py-1.5 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400 transition"
       >
-        <span>🔗</span>
+        <IconLink size={14} className="shrink-0" />
         <span>Sematkan Widget (Embed)</span>
       </button>
 
@@ -50,7 +51,7 @@ export function TermActions({ termId, institutionSlug, termLabel }: TermActionsP
         href={`/usulkan-bukti?masa=${termId}`}
         className="inline-flex items-center gap-1.5 rounded-xl border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-400 hover:border-emerald-400 transition"
       >
-        <span>➕</span>
+        <IconPlus size={14} className="shrink-0" />
         <span>Usulkan Bukti Baru</span>
       </Link>
 

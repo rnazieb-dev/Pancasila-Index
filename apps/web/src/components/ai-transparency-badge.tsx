@@ -3,6 +3,14 @@
 import { useState } from "react";
 import Link from "next/link";
 import type { AiDisclosure } from "@pancasila-index/core";
+import {
+  IconBot,
+  IconInfo,
+  IconScale,
+  IconShieldCheck,
+  IconAlertTriangle,
+  IconExternalLink,
+} from "./icons";
 
 interface Props {
   disclosure?: AiDisclosure;
@@ -49,7 +57,7 @@ export function AiTransparencyBadge({
         title="Klik untuk melihat lembar transparansi kepatuhan EU AI Act Pasal 50"
         className={`inline-flex items-center gap-1.5 rounded-md border border-sky-500/30 bg-sky-500/10 px-2 py-0.5 text-[10px] font-mono font-medium text-[var(--acc-sky-strong)] hover:border-sky-400 hover:bg-sky-500/20 transition cursor-pointer text-left ${className}`}
       >
-        <span>🤖</span>
+        <IconBot size={13} className="shrink-0 text-[var(--acc-sky-strong)]" />
         <span>
           {compact ? (
             <>AI: <strong>{modelDisplay}</strong> (EU AI Act)</>
@@ -59,7 +67,10 @@ export function AiTransparencyBadge({
             </>
           )}
         </span>
-        <span className="text-[9px] opacity-70 underline ml-0.5">Rincian ℹ️</span>
+        <span className="inline-flex items-center gap-0.5 text-[9px] opacity-70 underline ml-0.5">
+          Rincian
+          <IconInfo size={11} className="inline shrink-0" />
+        </span>
       </button>
 
       {/* Modal Dialog Transparansi Kepatuhan EU AI Act */}
@@ -78,7 +89,9 @@ export function AiTransparencyBadge({
             <div className="flex items-start justify-between border-b border-[var(--line)] pb-4">
               <div>
                 <div className="flex items-center gap-2">
-                  <span className="text-xl">⚖️</span>
+                  <span className="p-1 rounded-md bg-[var(--acc-sky)]/10 text-[var(--acc-sky)]">
+                    <IconScale size={18} />
+                  </span>
                   <span className="text-[10px] uppercase tracking-wider font-bold text-[var(--acc-sky)]">
                     Kepatuhan Regulasi EU AI Act (Pasal 50 &amp; 14)
                   </span>
@@ -125,7 +138,7 @@ export function AiTransparencyBadge({
             {/* Protokol Human-in-the-Loop (Pasal 14 EU AI Act) */}
             <div className="space-y-2 rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-4">
               <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-bold text-xs">
-                <span>🛡️</span>
+                <IconShieldCheck size={16} />
                 <span>Pengawasan Manusia (Human Oversight — Pasal 14)</span>
               </div>
               <p className="text-[11px] text-[var(--muted)] leading-relaxed">
@@ -140,7 +153,7 @@ export function AiTransparencyBadge({
             {/* Peringatan Keterbatasan & Batas Bias (Pasal 50 & 53) */}
             <div className="space-y-2 rounded-xl border border-amber-500/30 bg-amber-500/5 p-4">
               <div className="flex items-center gap-2 text-amber-600 dark:text-amber-400 font-bold text-xs">
-                <span>⚠️</span>
+                <IconAlertTriangle size={16} />
                 <span>Batasan Reliabilitas &amp; Pencegahan Halusinasi</span>
               </div>
               <p className="text-[11px] text-[var(--muted)] leading-relaxed">
@@ -157,15 +170,17 @@ export function AiTransparencyBadge({
               <div className="flex items-center gap-2">
                 <Link
                   href="/koreksi"
-                  className="rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-1.5 text-xs font-semibold hover:border-red-500 hover:text-red-500 transition"
+                  className="inline-flex items-center gap-1 rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3 py-1.5 text-xs font-semibold hover:border-red-500 hover:text-red-500 transition"
                 >
-                  Hak Jawab / Koreksi ↗
+                  Hak Jawab / Koreksi
+                  <IconExternalLink size={12} />
                 </Link>
                 <Link
                   href="/usulkan-bukti"
-                  className="rounded-lg bg-[var(--acc-sky)] text-white px-3 py-1.5 text-xs font-semibold hover:opacity-90 transition"
+                  className="inline-flex items-center gap-1 rounded-lg bg-[var(--acc-sky)] text-white px-3 py-1.5 text-xs font-semibold hover:opacity-90 transition"
                 >
-                  Ajukan Bukti Primer ↗
+                  Ajukan Bukti Primer
+                  <IconExternalLink size={12} />
                 </Link>
               </div>
             </div>

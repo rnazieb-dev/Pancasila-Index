@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { scoreColor, scoreTextColor, scoreQualLabel, type QualLabel } from "@/lib/view";
+import { IconInfo, IconAlertTriangle } from "./icons";
 
 interface ScoreGaugeProps {
   score: number | null;
@@ -107,7 +108,7 @@ export function ScoreGauge({
             onClick={() => setShowInfo(!showInfo)}
             className="inline-flex items-center gap-1.5 rounded-xl border border-[var(--line)] bg-[var(--bg)] px-3 py-2 text-xs font-semibold text-[var(--muted)] hover:text-[var(--text)] hover:border-slate-400 transition"
           >
-            <span>💡</span>
+            <IconInfo size={14} className="shrink-0" />
             <span>{showInfo ? "Tutup Panduan Skala" : "Mengapa 50 = Netral?"}</span>
           </button>
         )}
@@ -216,7 +217,7 @@ export function ScoreGauge({
       {isCapped && (
         <div className="rounded-xl border border-red-500/40 bg-red-500/10 p-3.5 text-xs text-red-400 space-y-1">
           <div className="font-bold flex items-center gap-1.5 text-red-300">
-            <span>⚠️</span>
+            <IconAlertTriangle size={15} className="shrink-0 text-red-400" />
             <span>Peringatan Pembatasan Konstitusional (Pasal 28I ayat 1 UUD 1945)</span>
           </div>
           <p className="leading-relaxed">

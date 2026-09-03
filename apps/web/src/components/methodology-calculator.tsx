@@ -8,6 +8,7 @@ import {
   MAX_UNCERTAINTY_HALFWIDTH,
   MIN_GROUP_COVERAGE,
 } from "@pancasila-index/core";
+import { IconAlertTriangle } from "./icons";
 
 export function MethodologyCalculator() {
   const rubric = dataset.rubric;
@@ -222,8 +223,9 @@ export function MethodologyCalculator() {
             Rentang Keyakinan: [{calculation.lowIndex.toFixed(1)} s.d. {calculation.highIndex.toFixed(1)}] (±{calculation.halfWidthIndex} poin)
           </div>
           {calculation.isCapped && (
-            <div className="mt-2 text-xs font-bold text-[var(--acc-red-strong)] bg-[var(--acc-red)]/10 border border-[var(--acc-red)]/30 rounded-md p-2.5 font-serif leading-relaxed">
-              ⚠️ Skor Dibatasi Plafon {calculation.capValue} karena pelanggaran dimensi hak dasar mutlak (Pasal 28I ayat 1 UUD 1945).
+            <div className="mt-2 text-xs font-bold text-[var(--acc-red-strong)] bg-[var(--acc-red)]/10 border border-[var(--acc-red)]/30 rounded-md p-2.5 font-serif leading-relaxed flex items-start gap-1.5">
+              <IconAlertTriangle size={15} className="text-red-500 shrink-0 mt-0.5" />
+              <span>Skor Dibatasi Plafon {calculation.capValue} karena pelanggaran dimensi hak dasar mutlak (Pasal 28I ayat 1 UUD 1945).</span>
             </div>
           )}
         </div>

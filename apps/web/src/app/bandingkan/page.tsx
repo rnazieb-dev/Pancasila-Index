@@ -10,6 +10,7 @@ import { ScaleLegend } from "@/components/scale-legend";
 import { InstitutionLogo } from "@/components/institution-logo";
 import { useLocale } from "@/components/locale-provider";
 import { pickI18n } from "@/lib/i18n";
+import { IconCompare, IconAlertTriangle } from "@/components/icons";
 
 /** Warna seri untuk peran TEKS; berbalik per tema. Indeks sejajar PRESET_COLORS. */
 const SERIES_TEXT_COLORS = [
@@ -241,7 +242,9 @@ export default function BandingkanPage() {
       <section className="mt-6 p-4 sm:p-5 rounded-2xl border border-[var(--acc-sky)]/30 bg-[var(--acc-sky)]/5 space-y-2.5">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <span className="text-base">⚡</span>
+            <span className="p-1 rounded-md bg-[var(--acc-sky)]/10 text-[var(--acc-sky)]">
+              <IconCompare size={15} />
+            </span>
             <h2 className="text-xs sm:text-sm font-bold text-[var(--text)] uppercase tracking-wide">
               Skenario Komparasi Populer (1-Klik):
             </h2>
@@ -432,7 +435,7 @@ export default function BandingkanPage() {
       {/* Peringatan Komparasi Asimetris */}
       {asymmetryWarning && (
         <div className="mt-6 rounded-xl border border-amber-500/40 bg-amber-500/10 px-4 py-3 flex items-start gap-3">
-          <span className="text-[var(--acc-amber)] text-lg mt-0.5">⚠️</span>
+          <IconAlertTriangle size={18} className="text-[var(--acc-amber)] mt-0.5 shrink-0" />
           <div className="text-xs leading-relaxed">
             <strong className="text-[var(--acc-amber-strong)]">Komparasi Asimetris</strong>
             {" — "}

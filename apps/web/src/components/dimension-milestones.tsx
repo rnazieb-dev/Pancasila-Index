@@ -1,7 +1,20 @@
 "use client";
 
+import type { ReactNode } from "react";
 import Link from "next/link";
 import type { EventRecord, Source, ActorProfile } from "@pancasila-index/core";
+import {
+  IconScale,
+  IconFileText,
+  IconAlertCircle,
+  IconInstitution,
+  IconUsers,
+  IconPin,
+  IconSearch,
+  IconCompass,
+  IconUser,
+  IconExternalLink,
+} from "./icons";
 
 interface Props {
   dimensionId: string;
@@ -11,38 +24,49 @@ interface Props {
   actorsById: Map<string, ActorProfile>;
 }
 
-const CATEGORY_META: Record<string, { label: string; icon: string; badge: string }> = {
+const CATEGORY_META: Record<string, { label: string; badge: string }> = {
   "produk-hukum": {
     label: "Produk Hukum / UU",
-    icon: "⚖️",
     badge: "border-sky-500/30 text-sky-600 dark:text-sky-400 bg-sky-500/10",
   },
   kebijakan: {
     label: "Kebijakan Publik",
-    icon: "📜",
     badge: "border-indigo-500/30 text-indigo-600 dark:text-indigo-400 bg-indigo-500/10",
   },
   krisis: {
     label: "Krisis Penegakan & HAM",
-    icon: "🚨",
     badge: "border-red-500/30 text-red-600 dark:text-red-400 bg-red-500/10",
   },
   pengadilan: {
     label: "Putusan Peradilan",
-    icon: "🏛️",
     badge: "border-purple-500/30 text-purple-600 dark:text-purple-400 bg-purple-500/10",
   },
   pengangkatan: {
     label: "Suksesi & Jabatan",
-    icon: "👥",
     badge: "border-amber-500/30 text-amber-600 dark:text-amber-400 bg-amber-500/10",
   },
   peristiwa: {
     label: "Peristiwa Sejarah",
-    icon: "📌",
     badge: "border-emerald-500/30 text-emerald-600 dark:text-emerald-400 bg-emerald-500/10",
   },
 };
+
+function renderCategoryIcon(category: string): ReactNode {
+  switch (category) {
+    case "produk-hukum":
+      return <IconScale size={13} className="shrink-0" />;
+    case "kebijakan":
+      return <IconFileText size={13} className="shrink-0" />;
+    case "krisis":
+      return <IconAlertCircle size={13} className="shrink-0" />;
+    case "pengadilan":
+      return <IconInstitution size={13} className="shrink-0" />;
+    case "pengangkatan":
+      return <IconUsers size={13} className="shrink-0" />;
+    default:
+      return <IconPin size={13} className="shrink-0" />;
+  }
+}
 
 const BULAN_ID = [
   "Januari",
@@ -95,7 +119,7 @@ export function DimensionMilestones({
       <div className="rounded-xl border border-dashed border-[var(--line)] bg-[var(--bg)]/50 p-4 space-y-2 text-xs">
         <div className="flex items-center justify-between">
           <span className="font-semibold text-[var(--muted)] flex items-center gap-1.5">
-            <span>🔍</span>
+            <IconSearch size={14} className="text-[var(--muted)] shrink-0" />
             <span>Trajektori Empiris Belum Terpetakan</span>
           </span>
           <Link
@@ -117,7 +141,9 @@ export function DimensionMilestones({
       {/* Header Trajektori */}
       <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[var(--line)]/50 pb-2">
         <div className="flex items-center gap-2">
-          <span className="text-sm">🧭</span>
+          <span className="p-1 rounded-md bg-[var(--acc-sky)]/10 text-[var(--acc-sky)]">
+            <IconCompass size={15} />
+          </span>
           <span className="font-bold text-xs text-[var(--text)]">
             Linimasa Trajektori Ilmiah ({count} Peristiwa Berbukti Primer)
           </span>
@@ -132,7 +158,6 @@ export function DimensionMilestones({
         {sortedEvents.map((ev, index) => {
           const meta = CATEGORY_META[ev.category] ?? {
             label: "Peristiwa",
-            icon: "📌",
             badge: "border-slate-500/30 text-slate-500 bg-slate-500/10",
           };
 
@@ -153,9 +178,9 @@ export function DimensionMilestones({
                 <div className="flex flex-wrap items-center justify-between gap-2 text-xs">
                   <div className="flex items-center gap-2">
                     <span
-                      className={`inline-flex items-center gap-1 rounded px-2 py-0.5 text-[10px] font-semibold border ${meta.badge}`}
+                      className={`inline-flex items-center gap-1.5 rounded px-2 py-0.5 text-[10px] font-semibold border ${meta.badge}`}
                     >
-                      <span>{meta.icon}</span>
+                      {renderCategoryIcon(ev.category)}
                       <span>{meta.label}</span>
                     </span>
                     <span className="font-mono text-[11px] font-bold text-[var(--text)]">
@@ -164,8 +189,9 @@ export function DimensionMilestones({
                   </div>
 
                   {eventSources.length > 0 && (
-                    <span className="text-[10px] font-mono text-[var(--acc-sky)] bg-[var(--panel)] px-2 py-0.5 rounded border border-[var(--line)]">
-                      📄 {eventSources.length} Dokumen Primer
+                    <span className="inline-flex items-center gap-1 text-[10px] font-mono text-[var(--acc-sky)] bg-[var(--panel)] px-2 py-0.5 rounded border border-[var(--line)]">
+                      <IconFileText size={11} className="shrink-0" />
+                      <span>{eventSources.length} Dokumen Primer</span>
                     </span>
                   )}
                 </div>
@@ -190,9 +216,10 @@ export function DimensionMilestones({
                         <Link
                           key={aid}
                           href={`/aktor/${aid}`}
-                          className="inline-block rounded-md border border-amber-500/30 bg-amber-500/10 px-2 py-0.5 text-[10px] font-medium text-[var(--acc-amber-strong)] hover:border-amber-400 hover:underline"
+                          className="inline-flex items-center gap-1 rounded-md border border-amber-500/30 bg-amber-500/10 px-2 py-0.5 text-[10px] font-medium text-[var(--acc-amber-strong)] hover:border-amber-400 hover:underline"
                         >
-                          👤 {actor?.name || aid}
+                          <IconUser size={10} className="shrink-0" />
+                          <span>{actor?.name || aid}</span>
                         </Link>
                       );
                     })}
@@ -214,17 +241,20 @@ export function DimensionMilestones({
                             href={href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="max-w-md truncate rounded border border-[var(--line)] bg-[var(--panel)] px-2 py-1 text-[11px] text-[var(--acc-sky)] hover:border-sky-500 hover:underline font-mono"
+                            className="inline-flex items-center gap-1 max-w-md truncate rounded border border-[var(--line)] bg-[var(--panel)] px-2 py-1 text-[11px] text-[var(--acc-sky)] hover:border-sky-500 hover:underline font-mono"
                             title={src.title_id}
                           >
-                            📄 {src.title_id} ↗
+                            <IconFileText size={11} className="shrink-0" />
+                            <span className="truncate">{src.title_id}</span>
+                            <IconExternalLink size={10} className="shrink-0 ml-0.5" />
                           </a>
                         ) : (
                           <span
                             key={src.id}
-                            className="max-w-md truncate rounded border border-[var(--line)] bg-[var(--panel)] px-2 py-1 text-[11px] text-[var(--muted)] font-mono"
+                            className="inline-flex items-center gap-1 max-w-md truncate rounded border border-[var(--line)] bg-[var(--panel)] px-2 py-1 text-[11px] text-[var(--muted)] font-mono"
                           >
-                            📄 {src.title_id}
+                            <IconFileText size={11} className="shrink-0" />
+                            <span className="truncate">{src.title_id}</span>
                           </span>
                         );
                       })}
