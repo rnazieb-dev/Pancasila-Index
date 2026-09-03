@@ -116,7 +116,7 @@
     suara kolom kosong) guna menjamin hak pemilih dan kepastian suksesi
     kepemimpinan daerah.
   source_ids:
-    - putusan-mk-100-puu-xiii-2015
+    - putusan-mk-100-2014
   dimension_ids:
     - kedaulatan-rakyat
     - sila-4
@@ -386,7 +386,7 @@
     Peraturan Perundang-undangan dan proses pembahasannya cacat asas partisipasi
     publik yang bermakna (meaningful participation).
   source_ids:
-    - putusan-mk-91-puu-xviii-2020
+    - putusan-mk-91-2021
   dimension_ids:
     - checks-balances
     - kedaulatan-rakyat
@@ -402,7 +402,7 @@
     pernah/sedang menduduki jabatan yang dipilih melalui pemilihan umum termasuk
     pemilihan kepala daerah', memicu kontroversi politik menjelang Pilpres 2024.
   source_ids:
-    - putusan-mk-90-puu-xxi-2023
+    - putusan-mk-90-2023
   dimension_ids:
     - negara-hukum
     - checks-balances

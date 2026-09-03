@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { dataset } from "@pancasila-index/data";
 
 const CLOUDFLARE_ACCOUNT_ID = "69f2a9ff4fe58ace350172f315f7feb7";
-const R2_BUCKET_NAME = "pancasila-arsip";
+const R2_BUCKET_NAME = "pancasila-arsip-v3";
 
 /**
  * Resolver Arsip Primer Pancasila Index:

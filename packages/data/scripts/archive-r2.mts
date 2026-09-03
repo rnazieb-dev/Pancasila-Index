@@ -21,10 +21,10 @@ import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import { homedir } from "node:os";
 import { parse, stringify } from "yaml";
-import { compressPdf, createHtmlArchive } from "../src/compressor";
+import { compressPdf } from "../src/compressor";
 
 const ACCOUNT_ID = "69f2a9ff4fe58ace350172f315f7feb7";
-const BUCKET_NAME = "pancasila-arsip";
+const BUCKET_NAME = "pancasila-arsip-v3";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA_DIR = join(ROOT, "data");
@@ -141,6 +141,7 @@ export async function compressAll() {
   let totalOrigBytes = 0;
   let totalCompBytes = 0;
   let processedCount = 0;
+  const skippedNoContent: string[] = [];
 
   console.log(`\n📦 Memulai Kompresi Masal untuk ${sources.length} Sumber Primer...`);
 
@@ -153,34 +154,25 @@ export async function compressAll() {
       }
     }
     
-    let targetBuffer: Uint8Array;
-    let ext: "pdf" | "html" = "pdf";
-    let mimeType = "application/pdf";
-    let origBytes = 0;
-
-    if (localPdf && existsSync(localPdf)) {
-      const rawBuf = readFileSync(localPdf);
-      origBytes = rawBuf.byteLength;
-      const res = await compressPdf(rawBuf);
-      targetBuffer = res.compressed;
-    } else {
-      ext = "html";
-      mimeType = "text/html; charset=utf-8";
-      const htmlStr = createHtmlArchive({
-        id: s.id,
-        title: s.title_id,
-        type: s.type,
-        year: s.year,
-        originalUrl: s.url,
-        citation: s.citation_id,
-        fetchedAt: new Date().toISOString().slice(0, 10),
-      });
-      targetBuffer = Buffer.from(htmlStr, "utf8");
-      origBytes = targetBuffer.byteLength;
+    if (!localPdf || !existsSync(localPdf)) {
+      // Tidak ada PDF asli lokal - JANGAN buat placeholder HTML palsu (ini
+      // akar bug yang mencemari R2 dengan dokumen karangan). Lewati sumber
+      // ini dan buang entri manifest lama miliknya kalau ada; harus
+      // ditandai archive_ok: false di sources.yaml sampai konten asli
+      // ditemukan lewat riset manual.
+      skippedNoContent.push(s.id);
+      delete manifest[s.id];
+      continue;
     }
 
+    const rawBuf = readFileSync(localPdf);
+    const origBytes = rawBuf.byteLength;
+    const res = await compressPdf(rawBuf);
+    const targetBuffer = res.compressed;
+    const mimeType = "application/pdf";
+
     const compBytes = targetBuffer.byteLength;
-    const r2Key = getR2Key(s, ext);
+    const r2Key = getR2Key(s, "pdf");
     const compressedFilePath = join(COMPRESSED_DIR, r2Key.replace(/\//g, "_"));
 
     writeFileSync(compressedFilePath, targetBuffer);
@@ -220,6 +212,12 @@ export async function compressAll() {
   console.log(`- Ukuran Terkompresi: ${totalCompMb} MB (Hanya ${(Number(totalCompMb) / 102.4).toFixed(2)}% dari Kuota Gratis 10 GB!)`);
   console.log(`- Ruang Dihemat: ${totalSavingsMb} MB (${pct}% efisiensi)`);
   console.log(`- Manifest Tersimpan: generated/r2-archive-manifest.json`);
+  if (skippedNoContent.length > 0) {
+    console.log(
+      `\n⚠️  ${skippedNoContent.length} sumber dilewati (tidak ada PDF asli lokal, TIDAK dibuatkan placeholder):`,
+    );
+    console.log(skippedNoContent.join(", "));
+  }
 }
 
 /** 4. Unggah Masal ke Bucket R2 via Cloudflare R2 REST API */
