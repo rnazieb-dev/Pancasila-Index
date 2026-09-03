@@ -42,7 +42,7 @@ Mengintegrasikan 7 indeks independen pihak ketiga yang berbasis data keras (*har
 6. **OECD Public Integrity Indicators (PII)**: Standar mitigasi konflik kepentingan dan perlindungan saksi/whistleblower.
 7. **World Press Freedom Index (Reporters Without Borders / RSF)**: Kebebasan jurnalisme dan keselamatan wartawan dari represi.
 
-> Daftar ini adalah cerminan `dataset.external_indices` dan dirender langsung dari sana di halaman `/metodologi`. Laporan Koalisi Reformasi Sektor Keamanan (Imparsial, KontraS, PBHI, ELSAM) dipakai sebagai bukti primer Strata V, bukan sebagai indeks triangulasi tersendiri.
+> Daftar ini adalah cerminan `dataset.external_indices` dan dirender langsung dari sana di halaman `/metodologi`. Setiap indeks eksternal hanya diterapkan pada rentang waktu publikasi kontemporernya (misalnya V-Dem diterapkan untuk era 2016–kini sesuai rilis perdana dataset pada 2016) guna mencegah anakronisme estimasi retrospektif pada masa jabatan historis pra-publikasi. Laporan Koalisi Reformasi Sektor Keamanan (Imparsial, KontraS, PBHI, ELSAM) dipakai sebagai bukti primer Strata V, bukan sebagai indeks triangulasi tersendiri.
 
 ---
 
