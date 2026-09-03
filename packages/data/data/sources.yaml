@@ -119,7 +119,8 @@
   citation_id: UN Peacemaker, Agreement on the Question of East Timor
   r2_key: v2/sejarah/tripartit-timtim-1999.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/tripartit-timtim-1999.pdf
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: keppres-53-2001
   type: keppres
   title_id: Keppres No. 53 Tahun 2001 (Pengadilan HAM Ad Hoc untuk Timor Timur)
@@ -467,7 +468,8 @@
   r2_key: v2/laporan/laporan-lsm-kebebasan-sipil-2019-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-lsm-kebebasan-sipil-2019-2024.pdf
   url: https://anri.go.id/publikasi/arsip-tematik/laporan-lsm-kebebasan-sipil-2019-2024
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: revisi-md3-2025
   type: undang-undang
   title_id: Revisi UU MD3 yang disahkan DPR pada 20 Maret 2025
@@ -577,6 +579,8 @@
   r2_key: v2/sejarah/proklamasi-ppki-1945.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/proklamasi-ppki-1945.pdf
   url: https://luk.staff.ugm.ac.id/atur/RisalahSidangBPUPKI-PPKU-UUD1945.pdf
+  archive_ok: true
+  source_verified: true
 - id: konferensi-meja-bundar-1949
   type: arsip-nasional
   title_id: Hasil Konferensi Meja Bundar Den Haag; pengakuan kedaulatan 27 Desember
@@ -586,7 +590,8 @@
   r2_key: v2/sejarah/konferensi-meja-bundar-1949.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/konferensi-meja-bundar-1949.pdf
   url: https://peacemaker.un.org/indonesia-roundtableconference49
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: uuds-1950
   type: undang-undang
   title_id: UU No. 7 Tahun 1950 tentang Perubahan Konstitusi Sementara RIS Menjadi
@@ -616,7 +621,8 @@
   citation_id: Final Communique of the Asian-African Conference, April 1955
   r2_key: v2/sejarah/kaa-bandung-1955.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/kaa-bandung-1955.pdf
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: dekrit-presiden-1959
   type: keppres
   title_id: Dekrit Presiden 5 Juli 1959 (pembubaran Konstituante, kembali ke UUD 1945)
@@ -666,7 +672,8 @@
   r2_key: v2/sejarah/supersemar-1966.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/supersemar-1966.pdf
   url: https://anri.go.id/publikasi/arsip-statis
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: tap-mprs-iii-1967
   type: dokumen-mpr
   title_id: TAP MPRS No. III/MPRS/1967 (menunjuk Jenderal Suharto sebagai Pejabat
@@ -1004,7 +1011,8 @@
   citation_id: ASEAN Secretariat, Bangkok Declaration 1967
   r2_key: v2/sejarah/deklarasi-bangkok-1967.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/deklarasi-bangkok-1967.pdf
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: icj-sipadan-ligitan-2002
   type: lainnya
   title_id: Putusan Mahkamah Internasional Sipadan-Ligitan (Malaysia v. Indonesia),
@@ -1345,7 +1353,8 @@
   r2_key: v2/laporan/laporan-mpr-pphn-2024.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-mpr-pphn-2024.pdf
   url: https://www.mpr.go.id/publikasi/ketetapan-mpr
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: uu-22-2003
   type: undang-undang
   title_id: UU No. 22 Tahun 2003 tentang Susunan dan Kedudukan Majelis Permusyawaratan
@@ -1644,6 +1653,8 @@
   r2_key: v2/sejarah/deklarasi-djuanda-1957.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/deklarasi-djuanda-1957.pdf
   url: https://id.wikisource.org/wiki/Halaman:Deklarasi_Djuanda.djvu/1
+  archive_ok: true
+  source_verified: true
 - id: konstitusi-ris-1949
   type: dokumen-mpr
   title_id: Piagam Persetujuan Konstitusi Republik Indonesia Serikat (Konstitusi RIS
@@ -1696,7 +1707,8 @@
   r2_key: v2/sejarah/maklumat-wakil-presiden-x-1945.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/maklumat-wakil-presiden-x-1945.pdf
   url: https://anri.go.id/publikasi/arsip-statis
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: maklumat-pemerintah-14-nov-1945
   type: arsip-nasional
   title_id: Maklumat Pemerintah 14 November 1945 tentang Perubahan Sistem Presidensial
@@ -1706,7 +1718,8 @@
   r2_key: v2/sejarah/maklumat-pemerintah-14-nov-1945.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/maklumat-pemerintah-14-nov-1945.pdf
   url: https://anri.go.id/publikasi/arsip-statis
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: perjanjian-linggajati-1946
   type: arsip-nasional
   title_id: Naskah Persetujuan Linggajati 15 November 1946 antara Republik Indonesia
@@ -1716,7 +1729,8 @@
   r2_key: v2/sejarah/perjanjian-linggajati-1946.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/sejarah/perjanjian-linggajati-1946.pdf
   url: https://anri.go.id/publikasi/arsip-statis
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: perjanjian-renville-1948
   type: arsip-nasional
   title_id: Naskah Perjanjian Renville 17 Januari 1948 di atas Kapal USS Renville
@@ -1915,7 +1929,8 @@
   r2_key: v2/laporan/laporan-audit-bpk-blbi-2000.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-audit-bpk-blbi-2000.pdf
   url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: laporan-audit-bpk-bts-2023
   type: laporan-lembaga
   title_id: Laporan Hasil Penghitungan Kerugian Keuangan Negara BPK RI atas Kasus
@@ -1925,7 +1940,8 @@
   r2_key: v2/laporan/laporan-audit-bpk-bts-2023.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/laporan/laporan-audit-bpk-bts-2023.pdf
   url: https://www.bpk.go.id/page/ikhtisar-hasil-pemeriksaan-semester-ihps
-  archive_ok: false
+  archive_ok: true
+  source_verified: true
 - id: putusan-ma-31-p-hum-2019
   type: putusan-ma
   title_id: Putusan MA No. 31 P/HUM/2019 (Pembatalan Kenaikan Iuran BPJS Kesehatan
