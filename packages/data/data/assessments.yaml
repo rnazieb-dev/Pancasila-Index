@@ -6319,6 +6319,8 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-inisiatif-ruu-pesisir-2005
+      antithesis_id: RUU inisiatif pengelolaan wilayah pesisir yang diajukan DPD pada 2005 tetap memengaruhi substansi undang-undang yang kemudian disahkan DPR, sehingga pengaruhnya ada meski tidak tercatat sebagai produk sendiri.
+      synthesis_id: Skor Netral (0) karena aspirasi daerah terserap dan disalurkan, tepat sebanding dengan nol undang-undang yang berhasil disahkan atas inisiatif DPD sepanjang periode pertamanya.
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.85
@@ -6330,10 +6332,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pelantikan-2004
+      antithesis_id: Meski kewenangannya terbatas, DPD menempuh jalur uji materi ke Mahkamah Konstitusi pada 2006 untuk memperjuangkan kewenangan legislasinya - memilih koreksi konstitusional alih-alih menerima keterbatasan.
+      synthesis_id: Skor Netral (0) karena anggota DPD dipilih langsung dengan suara terbanyak di setiap provinsi, tetapi mandat sebesar itu tidak dapat diterjemahkan menjadi keputusan karena kewenangannya dibatasi konstitusi.
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
-      rationale_id: Memperjuangkan kerukunan umat beragama di daerah dan mengadvokasi perlindungan hak-hak masyarakat adat lokal dalam perda keagamaan.
+      rationale_id: Mengawasi akses perbankan bagi pelaku usaha daerah pada 2008 sebagai wujud keberpihakan pada kesejahteraan warga di wilayah yang jauh dari pusat, menjalankan amanah perwakilan daerah pada periode pertamanya.
       evidence:
         - source_id: uu-22-2003
         - source_id: risalah-dpd-ruu-pesisir-2006
@@ -6342,10 +6346,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pengawasan-kur-2008
+      antithesis_id: Pengawasan atas akses perbankan daerah menghasilkan rekomendasi tanpa daya ikat, sehingga hasilnya bergantung sepenuhnya pada kesediaan pemerintah dan otoritas perbankan menindaklanjutinya.
+      synthesis_id: Skor Baik (+1) karena persoalan akses keuangan pelaku usaha daerah diangkat ke tingkat nasional oleh lembaga yang khusus mewakili daerah.
     - dimension_id: sila-2
       score: 1
       confidence: 0.7
-      rationale_id: Mengawasi pemenuhan hak-hak dasar warga negara di wilayah tertinggal, terdepan, dan terluar (3T) dari diskriminasi kebijakan pembangunan.
+      rationale_id: Mengajukan RUU inisiatif perdana pada 2006 sebagai lembaga yang baru berdiri dua tahun, menegaskan hak konstitusional daerah untuk mengusulkan norma yang menyangkut kepentingan warganya sendiri.
       evidence:
         - source_id: uu-22-2003
         - source_id: risalah-dpd-ruu-pesisir-2006
@@ -6354,10 +6360,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-ruu-pesisir-2006
+      antithesis_id: RUU inisiatif perdana diajukan tetapi tidak pernah dibahas DPR, sehingga hak mengusulkan yang dijamin konstitusi berhenti sebagai hak menyerahkan dokumen tanpa kewajiban pihak lain menanggapinya.
+      synthesis_id: Skor Baik (+1) karena hak inisiatif legislasi daerah digunakan sejak periode pertama, menetapkan preseden bahwa daerah berhak mengusulkan norma nasional.
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
-      rationale_id: Menyalurkan aspirasi rakyat daerah secara langsung berbasis mandat perseorangan non-partisan tanpa sekat kepartaian politik.
+      rationale_id: Memperoleh penguatan kedudukan lewat Putusan MK No. 005/PUU-V/2007 pada 2008, putusan yang menegaskan DPD sebagai lembaga negara dengan kewenangan konstitusional yang tidak boleh dipersempit undang-undang.
       evidence:
         - source_id: uu-22-2003
         - source_id: risalah-dpd-ruu-pesisir-2006
@@ -6366,10 +6374,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-uji-materi-prolegnas-2008
+      antithesis_id: Penguatan lewat putusan MK menegaskan kedudukan formal DPD, tetapi tidak mengubah struktur soft bicameralism dalam UUD 1945 yang menempatkan DPD tanpa hak memutus dalam pembentukan undang-undang.
+      synthesis_id: Skor Baik (+1) karena kedudukan DPD sebagai lembaga negara dengan kewenangan konstitusional ditegaskan pengadilan, melindunginya dari pemangkasan lewat undang-undang biasa.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Mengusulkan perbaikan formula Dana Bagi Hasil (DBH), Dana Alokasi Khusus (DAK), dan revisi UU Hubungan Keuangan Pusat dan Daerah (UU HKPD).
+      rationale_id: Mengajukan gugatan uji materiil ke Mahkamah Konstitusi pada 2006 untuk memperjuangkan kewenangan legislasi daerah, menempuh jalur konstitusional demi keadilan kedudukan antara pusat dan daerah.
       evidence:
         - source_id: risalah-dpd-ruu-pesisir-2006
         - source_id: uu-20-2008
@@ -6378,10 +6388,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-uji-materi-susduk-2006
+      antithesis_id: Jalur uji materi ditempuh karena kanal politik tertutup, tetapi hasilnya tidak dapat mengubah rumusan konstitusi itu sendiri sehingga ketimpangan kedudukan yang menjadi akar persoalan tetap berdiri.
+      synthesis_id: Skor Baik (+1) karena ketimpangan kewenangan antara wakil daerah dan wakil partai diperjuangkan lewat pengadilan konstitusi alih-alih dibiarkan sebagai keadaan yang diterima.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
-      rationale_id: Mengadvokasi ketahanan wilayah perbatasan dan percepatan pembangunan pulau-pulau kecil terluar untuk menjaga kedaulatan NKRI.
+      rationale_id: Menyelenggarakan sidang perdana pada Oktober 2004 sebagai kamar kedua parlemen hasil Pemilu 2004, membawa kepentingan seluruh provinsi termasuk wilayah perbatasan ke dalam pengambilan keputusan nasional.
       evidence:
         - source_id: uu-22-2003
         - source_id: risalah-dpd-ruu-pesisir-2006
@@ -6390,20 +6402,24 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pelantikan-2004
+      antithesis_id: Kehadiran wakil dari seluruh provinsi menjamin keterwakilan geografis, tetapi tanpa kewenangan memutus keterwakilan itu tidak berpengaruh pada alokasi anggaran maupun kebijakan yang menyangkut wilayah perbatasan.
+      synthesis_id: Skor Baik (+1) karena seluruh provinsi termasuk wilayah terluar memperoleh wakil dengan jumlah setara di parlemen nasional untuk pertama kalinya sejak kemerdekaan.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
-      rationale_id: Mendorong penguatan BUMD, pemberdayaan ekonomi maritim daerah, dan perlindungan komoditas unggulan petani/nelayan lokal.
+      rationale_id: Mengajukan RUU inisiatif tentang pengelolaan wilayah pesisir dan pulau-pulau kecil pada 2005, mendorong pemanfaatan sumber daya maritim daerah sebagai basis kesejahteraan warga pesisir.
       evidence:
         - source_id: uu-27-2007
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-pelantikan-2004
+      antithesis_id: Usulan pengelolaan wilayah pesisir diajukan tetapi pembahasannya diambil alih DPR sehingga rumusan akhirnya tidak sepenuhnya mencerminkan kepentingan daerah yang mengusulkannya.
+      synthesis_id: Skor Baik (+1) karena pengelolaan sumber daya pesisir diangkat sebagai agenda legislasi nasional atas inisiatif wakil daerah.
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.75
-      rationale_id: Mengawasi distribusi anggaran fungsi pendidikan 20% agar menyentuh sekolah-sekolah di wilayah pedalaman dan kepulauan terpencil.
+      rationale_id: Menjalankan fungsi pengawasan atas pelaksanaan undang-undang yang menyangkut daerah sejak sidang perdana 2004, termasuk penyelenggaraan pendidikan yang menjadi kewenangan pemerintah daerah pasca-desentralisasi.
       evidence:
         - source_id: uu-22-2003
         - source_id: risalah-dpd-ruu-pesisir-2006
@@ -6412,10 +6428,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pelantikan-2004
+      antithesis_id: Fungsi pengawasan dijalankan tanpa kewenangan menindaklanjuti temuan, sehingga hasil pengawasan hanya dapat disampaikan kepada DPR yang tidak berkewajiban membahasnya.
+      synthesis_id: Skor Baik (+1) karena pelaksanaan undang-undang di daerah mulai diawasi oleh lembaga yang anggotanya berasal dari daerah itu sendiri.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
-      rationale_id: Mendorong kerja sama ekonomi subnasional perbatasan antarnegara (BIMP-EAGA, IMT-GT) untuk perdamaian dan kemakmuran kawasan.
+      rationale_id: Membangun kerja sama antarlembaga perwakilan daerah di kawasan sejak periode pertamanya, memperkenalkan model kamar kedua Indonesia dalam forum parlemen regional.
       evidence:
         - source_id: uu-22-2003
         - source_id: risalah-dpd-ruu-pesisir-2006
@@ -6424,20 +6442,24 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pelantikan-2004
+      antithesis_id: Perkenalan kelembagaan di forum regional berlangsung sementara kewenangan yang dimiliki jauh lebih lemah daripada kamar kedua di negara pembanding, sehingga posisi tawarnya terbatas.
+      synthesis_id: Skor Baik (+1) karena Indonesia memperkenalkan kamar perwakilan daerah dalam forum parlemen kawasan, memperluas kanal diplomasi parlementer.
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.75
-      rationale_id: Menempuh jalur uji konstitusionalitas ke Mahkamah Konstitusi (Putusan 79/PUU-XII/2014) untuk menegakkan wewenang legislasi daerah.
+      rationale_id: Menempuh jalur uji konstitusionalitas ke Mahkamah Konstitusi pada 2006 dan memperoleh Putusan MK No. 005/PUU-V/2007, memilih koreksi lewat pengadilan ketika kewenangannya dipersempit undang-undang.
       evidence:
         - source_id: uu-17-2014
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-pelantikan-2004
+      antithesis_id: Pilihan menempuh jalur hukum menegakkan supremasi konstitusi, tetapi juga memperlihatkan DPD tidak memiliki daya politik untuk memperjuangkan kewenangannya lewat proses legislasi biasa.
+      synthesis_id: Skor Baik (+1) karena sengketa kewenangan antarlembaga diselesaikan lewat pengadilan konstitusi dan bukan lewat tekanan politik, menegakkan supremasi konstitusi.
     - dimension_id: checks-balances
       score: 1
       confidence: 0.75
-      rationale_id: Memberikan pertimbangan atas pemilihan anggota BPK dan mengawasi pelaksanaan undang-undang terkait otonomi serta anggaran di daerah.
+      rationale_id: Menjalankan kewenangan memberikan pertimbangan atas calon anggota BPK sejak periode pertamanya, menempatkan wakil daerah dalam rantai pengisian jabatan lembaga pemeriksa keuangan negara.
       evidence:
         - source_id: risalah-dpd-ruu-pesisir-2006
         - source_id: putusan-mk-005-puu-v-2007
@@ -6445,6 +6467,8 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pelantikan-2004
+      antithesis_id: Pertimbangan atas calon anggota BPK bersifat tidak mengikat dan dapat diabaikan DPR, sehingga peran DPD dalam pengisian jabatan pemeriksa keuangan negara bergantung pada kesediaan kamar pertama mendengarnya.
+      synthesis_id: Skor Baik (+1) karena wakil daerah memperoleh peran resmi dalam pengisian jabatan lembaga pemeriksa keuangan negara, memperluas basis legitimasi lembaga itu.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -6491,8 +6515,8 @@
       event_ids:
         - ev-dpd-kemenangan-mk-92-2013
       thesis_id: DPD RI memperjuangkan hak konstitusional perwakilan daerah dengan mengajukan permohonan uji materi ke Mahkamah Konstitusi atas UU MD3.
-      antithesis_id: Meskipun MK memenangkan DPD melalui Putusan No. 92/PUU-X/2012 dan Putusan No. 79/PUU-XII/2014 yang menegaskan DPD berhak mengajukan dan membahas RUU otonomi daerah, DPR menolak membagi kewenangan legislasi secara setara.
-      synthesis_id: Skor moderat (+1) pada komitmen kelembagaan, namun sistem bikameral tetap timpang (soft bicameralism) akibat penolakan DPR.
+      antithesis_id: Kemenangan lewat Putusan MK No. 92/PUU-X/2012 mengukuhkan hak DPD ikut membahas rancangan undang-undang tertentu, tetapi tanpa hak memutus sehingga pembahasan itu tetap dapat diabaikan pada tahap pengambilan keputusan.
+      synthesis_id: Skor Baik (+1) karena DPD memenangkan sengketa kewenangan di Mahkamah Konstitusi dan memperoleh pengakuan kesetaraan dalam pembahasan legislasi yang menyangkut daerah.
       expert_quotes:
         - quote: Amandemen UUD 1945 melahirkan sistem parlemen dua kamar yang tanggung (soft bicameralism), di mana DPD memiliki legitimasi suara rakyat yang kuat namun dipangkas taring legislasinya oleh dominasi DPR.
           author: Prof. Dr. Arief Hidayat, S.H., M.S.
@@ -6510,10 +6534,12 @@
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-tripartit-dpd-2012-2014
+      antithesis_id: Perjuangan desentralisasi asimetris berjalan lewat kajian dan rekomendasi, tetapi penataan daerah yang benar-benar terjadi pada periode ini didorong kepentingan elite lokal alih-alih desain yang disusun DPD.
+      synthesis_id: Skor Baik (+1) karena desain penataan daerah dan penguatan fiskal daerah disusun secara sistematis oleh lembaga yang mewakili daerah itu sendiri.
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
-      rationale_id: Memperjuangkan kerukunan umat beragama di daerah dan mengadvokasi perlindungan hak-hak masyarakat adat lokal dalam perda keagamaan.
+      rationale_id: Memperoleh pengakuan kesetaraan legislasi lewat Putusan MK No. 92/PUU-X/2012 pada 2013, menegaskan wakil daerah berhak ikut membahas norma yang menyangkut kehidupan warga di wilayahnya termasuk urusan keagamaan daerah.
       evidence:
         - source_id: putusan-mk-92-puu-x-2012
         - source_id: laporan-dpd-desertada-2011
@@ -6521,10 +6547,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-kemenangan-mk-92-2013
+      antithesis_id: Pengakuan kesetaraan dalam pembahasan tidak disertai hak memutus, sehingga pada rancangan undang-undang yang paling menyentuh kehidupan warga daerah, suara DPD tetap dapat diabaikan pada tahap akhir.
+      synthesis_id: Skor Baik (+1) karena hak wakil daerah ikut membahas rancangan undang-undang yang menyangkut daerahnya ditegakkan lewat putusan pengadilan konstitusi.
     - dimension_id: sila-2
       score: 1
       confidence: 0.7
-      rationale_id: Mengawasi pemenuhan hak-hak dasar warga negara di wilayah tertinggal, terdepan, dan terluar (3T) dari diskriminasi kebijakan pembangunan.
+      rationale_id: Menyusun Desain Besar Penataan Daerah pada 2011 sebagai kerangka menilai kelayakan pembentukan daerah otonom baru, melindungi warga dari pemekaran yang dipaksakan tanpa kapasitas fiskal untuk melayani mereka.
       evidence:
         - source_id: putusan-mk-92-puu-x-2012
         - source_id: laporan-dpd-desertada-2011
@@ -6532,10 +6560,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-desertada-2011
+      antithesis_id: Desain besar penataan daerah disusun sebagai rujukan, tetapi tidak mengikat DPR maupun pemerintah sehingga pemekaran yang tidak memenuhi kriteria di dalamnya tetap berjalan atas dorongan politik.
+      synthesis_id: Skor Baik (+1) karena kriteria kelayakan pembentukan daerah otonom disusun secara sistematis untuk melindungi warga dari pemekaran tanpa kapasitas layanan.
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
-      rationale_id: Menyalurkan aspirasi rakyat daerah secara langsung berbasis mandat perseorangan non-partisan tanpa sekat kepartaian politik.
+      rationale_id: Mengkaji pengelolaan Dana Reboisasi dan Dana Bagi Hasil pada 2010 sebagai penyaluran aspirasi daerah penghasil sumber daya alam, membawa keberatan yang selama ini tidak terwakili dalam pembahasan anggaran nasional.
       evidence:
         - source_id: putusan-mk-92-puu-x-2012
         - source_id: laporan-dpd-desertada-2011
@@ -6543,20 +6573,24 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pengawasan-dbh-hutan-2010
+      antithesis_id: Kajian atas dana bagi hasil menyuarakan keberatan daerah penghasil, tetapi formula pembagiannya tetap ditentukan pemerintah pusat dan DPR tanpa kewajiban mempertimbangkan kajian tersebut.
+      synthesis_id: Skor Baik (+1) karena keberatan daerah penghasil sumber daya alam atas formula bagi hasil disuarakan secara terlembaga di tingkat nasional.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Mengusulkan perbaikan formula Dana Bagi Hasil (DBH), Dana Alokasi Khusus (DAK), dan revisi UU Hubungan Keuangan Pusat dan Daerah (UU HKPD).
+      rationale_id: Mengawasi implementasi kebijakan fiskal daerah lewat Komite I pada 2011 dan mengkaji Dana Reboisasi serta Dana Bagi Hasil pada 2010, memperjuangkan keadilan pembagian hasil sumber daya alam bagi daerah penghasil.
       evidence:
         - source_id: laporan-dpd-desertada-2011
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-pengawasan-otsus-aceh-2011
+      antithesis_id: Pengawasan dan kajian menghasilkan rekomendasi perbaikan formula, tetapi tidak satu pun dari periode ini yang diadopsi menjadi perubahan undang-undang perimbangan keuangan.
+      synthesis_id: Skor Baik (+1) karena ketimpangan pembagian hasil sumber daya alam antara pusat dan daerah penghasil diangkat menjadi persoalan nasional secara sistematis.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
-      rationale_id: Mengadvokasi ketahanan wilayah perbatasan dan percepatan pembangunan pulau-pulau kecil terluar untuk menjaga kedaulatan NKRI.
+      rationale_id: Memperoleh kewenangan ikut membahas rancangan undang-undang yang menyangkut otonomi daerah dan hubungan pusat-daerah lewat Putusan MK No. 92/PUU-X/2012, memperkuat suara wilayah perbatasan dalam kebijakan nasional.
       evidence:
         - source_id: putusan-mk-92-puu-x-2012
         - source_id: laporan-dpd-desertada-2011
@@ -6564,20 +6598,24 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-kemenangan-mk-92-2013
+      antithesis_id: Kewenangan ikut membahas diperoleh di ujung periode sehingga penggunaannya bagi kepentingan wilayah perbatasan baru dapat diuji pada periode berikutnya.
+      synthesis_id: Skor Baik (+1) karena wakil wilayah terluar dan perbatasan memperoleh hak konstitusional ikut membahas undang-undang yang menentukan nasib wilayahnya.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
-      rationale_id: Mendorong penguatan BUMD, pemberdayaan ekonomi maritim daerah, dan perlindungan komoditas unggulan petani/nelayan lokal.
+      rationale_id: Mengawasi implementasi kebijakan ekonomi daerah lewat Komite I pada 2011 dan mengkaji pengelolaan dana bagi hasil pada 2010, mendorong sumber daya daerah kembali menjadi belanja kesejahteraan di wilayah asalnya.
       evidence:
         - source_id: laporan-dpd-desertada-2011
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-kemenangan-mk-92-2013
+      antithesis_id: Pengawasan atas kebijakan ekonomi daerah dijalankan tanpa kewenangan anggaran, sehingga temuan tentang ketimpangan alokasi tidak dapat diterjemahkan menjadi koreksi pada APBN.
+      synthesis_id: Skor Baik (+1) karena aliran sumber daya dari daerah penghasil ke pusat diawasi secara terlembaga oleh wakil daerah sendiri.
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.75
-      rationale_id: Mengawasi distribusi anggaran fungsi pendidikan 20% agar menyentuh sekolah-sekolah di wilayah pedalaman dan kepulauan terpencil.
+      rationale_id: Menjalankan pengawasan atas pelaksanaan undang-undang pendidikan di daerah sepanjang periode, memastikan desentralisasi kewenangan pendidikan tidak berujung kesenjangan mutu antarwilayah.
       evidence:
         - source_id: putusan-mk-92-puu-x-2012
         - source_id: laporan-dpd-desertada-2011
@@ -6585,10 +6623,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-kemenangan-mk-92-2013
+      antithesis_id: Pengawasan pendidikan daerah dijalankan dengan sumber daya terbatas dan tanpa kewenangan menindak, sehingga kesenjangan mutu antarwilayah yang ditemukan tetap berlanjut tanpa koreksi kebijakan.
+      synthesis_id: Skor Baik (+1) karena pelaksanaan kewenangan pendidikan yang didesentralisasi diawasi oleh lembaga yang mewakili daerah penerima kewenangan itu.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
-      rationale_id: Mendorong kerja sama ekonomi subnasional perbatasan antarnegara (BIMP-EAGA, IMT-GT) untuk perdamaian dan kemakmuran kawasan.
+      rationale_id: Memperkuat kedudukan konstitusional lewat Putusan MK No. 92/PUU-X/2012 yang menjadi rujukan bagi lembaga perwakilan daerah di kawasan, menunjukkan kamar kedua dapat memperjuangkan kewenangannya lewat jalur hukum.
       evidence:
         - source_id: putusan-mk-92-puu-x-2012
         - source_id: laporan-dpd-desertada-2011
@@ -6596,26 +6636,32 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-kemenangan-mk-92-2013
+      antithesis_id: Kemenangan konstitusional menjadi rujukan bagi lembaga sejenis, tetapi kedudukan DPD dalam struktur parlemen Indonesia tetap paling lemah dibandingkan kamar kedua di negara mana pun yang menjadi pembandingnya.
+      synthesis_id: Skor Baik (+1) karena Indonesia menunjukkan sengketa kewenangan antarkamar parlemen dapat diselesaikan lewat pengadilan konstitusi, model yang dapat dirujuk kawasan.
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.75
-      rationale_id: Menempuh jalur uji konstitusionalitas ke Mahkamah Konstitusi (Putusan 79/PUU-XII/2014) untuk menegakkan wewenang legislasi daerah.
+      rationale_id: Memenangkan sengketa kewenangan lewat Putusan MK No. 92/PUU-X/2012 pada 2013 setelah menempuh jalur uji materi, menegakkan prinsip bahwa kewenangan konstitusional tidak dapat dipersempit lewat undang-undang.
       evidence:
         - source_id: putusan-mk-92-puu-x-2012
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-kemenangan-mk-92-2013
+      antithesis_id: Putusan dimenangkan tetapi pelaksanaannya bergantung pada revisi tata tertib DPR yang berlarut, memperlihatkan kemenangan hukum tidak otomatis menjadi kewenangan yang berjalan.
+      synthesis_id: Skor Baik (+1) karena prinsip kewenangan konstitusional tidak boleh dipersempit undang-undang ditegakkan lewat putusan pengadilan yang mengikat.
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
-      rationale_id: Memastikan kedaulatan rakyat daerah terwakili di tingkat nasional secara setara antarsemua provinsi di Indonesia.
+      rationale_id: Memperjuangkan hak ikut membahas legislasi lewat Putusan MK No. 92/PUU-X/2012, memastikan suara 132 wakil daerah yang dipilih langsung rakyat tidak berhenti sebagai formalitas kelembagaan.
       evidence:
         - source_id: putusan-mk-92-puu-x-2012
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-kemenangan-mk-92-2013
+      antithesis_id: Hak ikut membahas diperoleh, tetapi tanpa hak memutus sehingga mandat langsung dari pemilih di setiap provinsi tetap tidak dapat diterjemahkan menjadi keputusan yang mengikat.
+      synthesis_id: Skor Baik (+1) karena mandat langsung pemilih di setiap provinsi memperoleh saluran nyata dalam pembahasan legislasi nasional.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -6666,6 +6712,8 @@
       event_ids:
         - ev-dpd-advokasi-dob-papua-2022
         - ev-dpd-inisiatif-kepulauan
+      antithesis_id: RUU Daerah Kepulauan diajukan sebagai inisiatif dan diperjuangkan konsisten sepanjang periode, menjaga agenda keadilan bagi wilayah kepulauan tetap hidup dalam pembahasan nasional.
+      synthesis_id: Skor Netral (0) karena advokasi pemerataan bagi wilayah kepulauan dan daerah tertinggal dijalankan penuh, tepat sebanding dengan tidak satu pun usulan itu yang berhasil disahkan menjadi undang-undang.
     - dimension_id: sila-3
       score: 0
       confidence: 0.85
@@ -6682,10 +6730,12 @@
       event_ids:
         - ev-dpd-advokasi-guru-pppk-2022
         - ev-dpd-pengawasan-desa
+      antithesis_id: Pengawasan Komite I atas efektivitas pemerintahan daerah pada 2023 dan rekomendasi pembentukan provinsi baru 2022 memperlihatkan fungsi perwakilan daerah tetap dijalankan secara substantif.
+      synthesis_id: Skor Netral (0) karena kerja perwakilan daerah berjalan tepat sebanding dengan perdebatan internal tentang usulan kembali ke UUD 1945 asli yang justru mengaburkan arah kelembagaan DPD sendiri.
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
-      rationale_id: Memperjuangkan kerukunan umat beragama di daerah dan mengadvokasi perlindungan hak-hak masyarakat adat lokal dalam perda keagamaan.
+      rationale_id: Menyampaikan proposal kenegaraan pada 2023 dan mengawasi anggaran penanggulangan bencana daerah pada 2023, membawa kepentingan warga di wilayah rawan bencana ke dalam pembahasan nasional.
       evidence:
         - source_id: ruu-daerah-kepulauan-dpd-2020
         - source_id: laporan-dpd-pengawasan-desa-2023
@@ -6695,20 +6745,24 @@
       event_ids:
         - ev-dpd-pengawasan-kebencanaan-2023
         - ev-dpd-proposal-uud-2023
+      antithesis_id: Proposal kenegaraan yang disampaikan justru memuat usulan perubahan mendasar sistem ketatanegaraan yang tidak memiliki dukungan politik, sehingga energi lembaga tersedot dari agenda yang lebih dapat dicapai.
+      synthesis_id: Skor Baik (+1) karena kepentingan warga di wilayah rawan bencana diangkat lewat pengawasan anggaran penanggulangan bencana daerah.
     - dimension_id: sila-2
       score: 1
       confidence: 0.7
-      rationale_id: Mengawasi pemenuhan hak-hak dasar warga negara di wilayah tertinggal, terdepan, dan terluar (3T) dari diskriminasi kebijakan pembangunan.
+      rationale_id: Mengajukan RUU Daerah Kepulauan sebagai inisiatif legislasi pada 2020, memperjuangkan pengakuan kekhususan wilayah kepulauan yang selama ini dirugikan formula pembangunan berbasis daratan.
       evidence:
         - source_id: laporan-dpd-kebencanaan-2023
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-dpd-ruu-daerah-kepulauan-2020
+      antithesis_id: RUU Daerah Kepulauan diajukan pada 2020 dan tetap tidak disahkan hingga periode berakhir, mengulang pola inisiatif DPD yang berhenti sebagai dokumen tanpa pembahasan yang berarti di DPR.
+      synthesis_id: Skor Baik (+1) karena kekhususan wilayah kepulauan yang dirugikan formula pembangunan berbasis daratan diangkat menjadi usulan undang-undang tersendiri.
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
-      rationale_id: Menyalurkan aspirasi rakyat daerah secara langsung berbasis mandat perseorangan non-partisan tanpa sekat kepartaian politik.
+      rationale_id: Mengawasi percepatan pembangunan daerah tertinggal pada 2021 dan merekomendasikan pembentukan empat provinsi baru pada 2022, menyalurkan aspirasi wilayah yang menuntut penataan pemerintahan sendiri.
       evidence:
         - source_id: putusan-mk-52-puu-xx-2022
         - source_id: dokumen-dpd-proposal-uud-2023
@@ -6716,10 +6770,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pengawasan-perbatasan-3t-2021
+      antithesis_id: Rekomendasi pemekaran disampaikan, tetapi pembentukan provinsi baru Papua yang akhirnya terjadi berlangsung tanpa konsultasi dengan Majelis Rakyat Papua sebagaimana disyaratkan undang-undang otonomi khusus.
+      synthesis_id: Skor Baik (+1) karena aspirasi wilayah atas penataan pemerintahan disalurkan lewat kajian dan rekomendasi resmi wakil daerah.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
-      rationale_id: Mengadvokasi ketahanan wilayah perbatasan dan percepatan pembangunan pulau-pulau kecil terluar untuk menjaga kedaulatan NKRI.
+      rationale_id: Mengkaji efektivitas program tol laut pada 2020 dan mengajukan RUU Daerah Kepulauan, memperjuangkan konektivitas wilayah kepulauan sebagai syarat kehadiran negara di daerah terluar.
       evidence:
         - source_id: laporan-dpd-kebencanaan-2023
         - source_id: laporan-dpd-wilayah-perbatasan-2021
@@ -6728,10 +6784,12 @@
       event_ids:
         - ev-dpd-evaluasi-tol-laut-2020
         - ev-dpd-inisiatif-kepulauan
+      antithesis_id: Kajian tol laut mengungkap ketimpangan efektivitas antartrayek, tetapi kebijakan penetapan trayek tetap berada di kementerian tanpa kewajiban mempertimbangkan temuan DPD.
+      synthesis_id: Skor Baik (+1) karena efektivitas program konektivitas wilayah kepulauan diuji secara independen oleh wakil daerah penerima programnya.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
-      rationale_id: Mendorong penguatan BUMD, pemberdayaan ekonomi maritim daerah, dan perlindungan komoditas unggulan petani/nelayan lokal.
+      rationale_id: Memperjuangkan hak finansial aparatur daerah pada 2024 dan mengadvokasi formasi serta hak keuangan pegawai daerah pada 2022, mendorong kapasitas pemerintahan daerah yang menjadi ujung tombak layanan warga.
       evidence:
         - source_id: ruu-daerah-kepulauan-dpd-2020
         - source_id: laporan-dpd-evaluasi-otsus-papua-2022
@@ -6740,10 +6798,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-revisi-uu-desa-2024
+      antithesis_id: Advokasi hak keuangan aparatur daerah menyentuh kapasitas birokrasi, tetapi tidak menjawab persoalan yang lebih mendasar yaitu ketimpangan kemampuan fiskal antardaerah yang menentukan mutu layanan.
+      synthesis_id: Skor Baik (+1) karena kapasitas aparatur pemerintahan daerah sebagai penyelenggara layanan warga diperjuangkan secara terlembaga di tingkat nasional.
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.75
-      rationale_id: Mengawasi distribusi anggaran fungsi pendidikan 20% agar menyentuh sekolah-sekolah di wilayah pedalaman dan kepulauan terpencil.
+      rationale_id: Mengawasi efektivitas penyelenggaraan pemerintahan daerah pada 2023 termasuk layanan pendidikan yang menjadi kewenangan daerah, menyuarakan kesenjangan mutu yang dialami warga di wilayah terpencil.
       evidence:
         - source_id: laporan-dpd-guru-honorer-2022
       normative_anchors:
@@ -6751,10 +6811,12 @@
       event_ids:
         - ev-dpd-inisiatif-kepulauan
         - ev-dpd-pengawasan-desa
+      antithesis_id: Pengawasan mengungkap kesenjangan layanan pendidikan antardaerah, tetapi tanpa kewenangan anggaran maupun legislasi temuan itu berhenti sebagai laporan yang tidak mengikat siapa pun.
+      synthesis_id: Skor Baik (+1) karena kesenjangan mutu layanan pendidikan antardaerah diawasi dan dilaporkan oleh lembaga yang mewakili daerah bersangkutan.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
-      rationale_id: Mendorong kerja sama ekonomi subnasional perbatasan antarnegara (BIMP-EAGA, IMT-GT) untuk perdamaian dan kemakmuran kawasan.
+      rationale_id: Mengajukan uji materi ambang batas pencalonan presiden ke Mahkamah Konstitusi pada 2022, memperjuangkan pembukaan kompetisi elektoral sebagai bagian penegakan prinsip demokrasi yang dianut Indonesia.
       evidence:
         - source_id: ruu-daerah-kepulauan-dpd-2020
         - source_id: laporan-dpd-pengawasan-desa-2023
@@ -6763,10 +6825,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-gugatan-pt-0-2022
+      antithesis_id: Uji materi ambang batas pencalonan presiden ditolak dengan alasan DPD tidak memiliki kedudukan hukum sebagai pemohon, memperlihatkan keterbatasan lembaga ini bahkan dalam memperjuangkan agenda demokrasi.
+      synthesis_id: Skor Baik (+1) karena pembukaan kompetisi pencalonan presiden diperjuangkan lewat jalur konstitusional oleh lembaga perwakilan daerah.
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.75
-      rationale_id: Menempuh jalur uji konstitusionalitas ke Mahkamah Konstitusi (Putusan 79/PUU-XII/2014) untuk menegakkan wewenang legislasi daerah.
+      rationale_id: Menempuh uji materi ambang batas pencalonan presiden ke Mahkamah Konstitusi pada 2022 dan mengawasi efektivitas penyelenggaraan pemerintahan daerah pada 2023, konsisten memilih jalur hukum dalam memperjuangkan agendanya.
       evidence:
         - source_id: ruu-daerah-kepulauan-dpd-2020
         - source_id: laporan-dpd-pengawasan-desa-2023
@@ -6775,10 +6839,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pengawasan-desa
+      antithesis_id: Jalur hukum ditempuh berulang tetapi permohonannya ditolak karena kedudukan hukum, sehingga konsistensi menggunakan mekanisme konstitusional tidak berbuah perubahan norma apa pun pada periode ini.
+      synthesis_id: Skor Baik (+1) karena agenda kelembagaan diperjuangkan lewat pengadilan konstitusi dan bukan lewat tekanan politik, menjaga supremasi hukum sebagai jalan penyelesaian.
     - dimension_id: checks-balances
       score: 1
       confidence: 0.75
-      rationale_id: Memberikan pertimbangan atas pemilihan anggota BPK dan mengawasi pelaksanaan undang-undang terkait otonomi serta anggaran di daerah.
+      rationale_id: Menjalankan fungsi pertimbangan atas calon anggota BPK dan pengawasan pelaksanaan undang-undang yang menyangkut daerah sepanjang periode, termasuk pengawasan Komite I atas efektivitas pemerintahan daerah 2023.
       evidence:
         - source_id: putusan-mk-52-puu-xx-2022
         - source_id: dokumen-dpd-proposal-uud-2023
@@ -6786,10 +6852,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-inisiatif-kepulauan
+      antithesis_id: Fungsi pertimbangan dan pengawasan dijalankan rutin, tetapi keduanya bersifat tidak mengikat sehingga peran DPD dalam keseimbangan kekuasaan tetap bergantung pada kesediaan lembaga lain mendengarnya.
+      synthesis_id: Skor Baik (+1) karena wakil daerah menjalankan peran resmi dalam pengisian jabatan pemeriksa keuangan negara dan pengawasan pelaksanaan undang-undang di daerah.
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
-      rationale_id: Memastikan kedaulatan rakyat daerah terwakili di tingkat nasional secara setara antarsemua provinsi di Indonesia.
+      rationale_id: Menjaga keterwakilan setiap provinsi hasil Pemilu 2019 dalam pengawasan penyelenggaraan pemerintahan daerah 2023, menyalurkan mandat langsung pemilih di wilayah masing-masing ke tingkat nasional.
       evidence:
         - source_id: putusan-mk-52-puu-xx-2022
         - source_id: dokumen-dpd-proposal-uud-2023
@@ -6798,6 +6866,8 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pengawasan-desa
+      antithesis_id: Mandat langsung pemilih disalurkan lewat pengawasan, tetapi tidak satu pun inisiatif legislasi periode ini yang berhasil disahkan sehingga kedaulatan yang diwakilinya tidak berubah menjadi norma yang mengikat.
+      synthesis_id: Skor Baik (+1) karena mandat pemilih di setiap provinsi disalurkan secara konsisten lewat fungsi pengawasan atas penyelenggaraan pemerintahan daerah.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -9195,6 +9265,8 @@
       event_ids:
         - ev-dpd-putusan-mk-79-2015
         - ev-pengawasan-kedaulatan-pangan-dpd-2017
+      antithesis_id: Putusan MK No. 79/PUU-XII/2014 mengukuhkan posisi DPD dalam tripartit legislasi, memperkuat kedudukan yang diperjuangkan sejak periode sebelumnya lewat jalur konstitusional.
+      synthesis_id: Skor Netral (0) karena penguatan kedudukan legislasi lewat putusan pengadilan sebanding beratnya dengan operasi tangkap tangan atas ketua DPD sendiri dan dualisme kepemimpinan yang melumpuhkan lembaga.
     - dimension_id: sila-3
       score: 1
       confidence: 0.85
@@ -9207,10 +9279,12 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-putusan-mk-79-2015
+      antithesis_id: Advokasi keadilan fiskal bagi daerah penghasil dijalankan konsisten, tetapi berlangsung ketika kredibilitas lembaga runtuh oleh perkara korupsi pimpinannya sehingga daya tawarnya di hadapan pemerintah melemah.
+      synthesis_id: Skor Baik (+1) karena ketimpangan dana perimbangan bagi daerah penghasil sumber daya alam diperjuangkan secara terlembaga sepanjang periode.
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
-      rationale_id: Memperjuangkan kerukunan umat beragama di daerah dan mengadvokasi perlindungan hak-hak masyarakat adat lokal dalam perda keagamaan.
+      rationale_id: Mengawasi implementasi kebijakan kedaulatan pangan di daerah pada 2017, menjalankan amanah perwakilan atas urusan yang menyentuh kebutuhan paling dasar warga di wilayah masing-masing.
       evidence:
         - source_id: putusan-mk-79-puu-xii-2014
         - source_id: putusan-pn-jkt-pusat-irman-gusman-2017
@@ -9220,10 +9294,12 @@
       event_ids:
         - ev-pengawasan-kedaulatan-pangan-dpd-2017
         - ev-dpd-putusan-mk-79-2015
+      antithesis_id: Pengawasan kedaulatan pangan dijalankan pada periode ketika ketua lembaga tertangkap tangan menerima suap kuota gula impor - amanah yang diawasi justru dilanggar dari pucuk pimpinannya sendiri.
+      synthesis_id: Skor Baik (+1) karena pelaksanaan kebijakan pangan di daerah diawasi secara terlembaga oleh wakil daerah, menjaga kebutuhan paling dasar warga tetap dalam pengawasan.
     - dimension_id: sila-2
       score: 1
       confidence: 0.7
-      rationale_id: Mengawasi pemenuhan hak-hak dasar warga negara di wilayah tertinggal, terdepan, dan terluar (3T) dari diskriminasi kebijakan pembangunan.
+      rationale_id: Melanjutkan fungsi pengawasan atas pelaksanaan undang-undang di daerah di tengah dualisme dan konflik kepemimpinan yang mengguncang lembaga pada 2017, menjaga hak warga daerah tetap terwakili meski lembaganya terbelah.
       evidence:
         - source_id: putusan-mk-79-puu-xii-2014
         - source_id: putusan-pn-jkt-pusat-irman-gusman-2017
@@ -9233,10 +9309,12 @@
       event_ids:
         - ev-dpd-kisruh-tatib-oso-2017
         - ev-pengawasan-kedaulatan-pangan-dpd-2017
+      antithesis_id: Fungsi pengawasan tetap berjalan secara formal, tetapi konflik kepemimpinan yang berlarut menyerap perhatian dan sumber daya lembaga sehingga mutu pengawasan atas hak warga daerah ikut merosot.
+      synthesis_id: Skor Baik (+1) karena fungsi perwakilan daerah tetap dijalankan dan tidak terhenti meski lembaganya mengalami krisis kepemimpinan.
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
-      rationale_id: Menyalurkan aspirasi rakyat daerah secara langsung berbasis mandat perseorangan non-partisan tanpa sekat kepartaian politik.
+      rationale_id: Menghadapi operasi tangkap tangan KPK atas Ketua DPD Irman Gusman pada 2016 dalam perkara suap kuota gula impor, pukulan integritas terberat bagi lembaga yang mengklaim mewakili aspirasi murni daerah.
       evidence:
         - source_id: putusan-mk-79-puu-xii-2014
         - source_id: putusan-pn-jkt-pusat-irman-gusman-2017
@@ -9246,10 +9324,12 @@
       event_ids:
         - ev-dpd-ott-irman-gusman-2016
         - ev-dpd-putusan-mk-79-2015
+      antithesis_id: Putusan MK No. 79/PUU-XII/2014 yang mengukuhkan posisi tripartit legislasi DPD diperoleh pada periode yang sama, memperlihatkan perjuangan kelembagaan tetap berjalan di luar persoalan personal pimpinannya.
+      synthesis_id: Skor Baik (+1) karena mandat perseorangan non-partisan tetap menjadi dasar keterwakilan daerah, meski penyalahgunaannya oleh ketua lembaga mencederai klaim moral yang menyertainya.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Mengusulkan perbaikan formula Dana Bagi Hasil (DBH), Dana Alokasi Khusus (DAK), dan revisi UU Hubungan Keuangan Pusat dan Daerah (UU HKPD).
+      rationale_id: Mengadvokasi keadilan fiskal dana perimbangan bagi daerah pada 2018 dan mengawasi realisasi penyaluran kredit usaha rakyat di wilayah timur pada 2016, memperjuangkan pemerataan akses ekonomi antarwilayah.
       evidence:
         - source_id: putusan-pn-jkt-pusat-irman-gusman-2017
         - source_id: laporan-dpd-dbh-2018
@@ -9259,10 +9339,12 @@
       event_ids:
         - ev-dpd-advokasi-dbh-2018
         - ev-pengawasan-kedaulatan-pangan-dpd-2017
+      antithesis_id: Advokasi keadilan fiskal berjalan tanpa kewenangan mengubah formula dana perimbangan, sehingga kesenjangan yang diperjuangkan tetap ditentukan pemerintah pusat dan DPR.
+      synthesis_id: Skor Baik (+1) karena ketimpangan akses pembiayaan dan dana perimbangan bagi wilayah timur diangkat menjadi agenda nasional oleh wakil daerahnya sendiri.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
-      rationale_id: Mengadvokasi ketahanan wilayah perbatasan dan percepatan pembangunan pulau-pulau kecil terluar untuk menjaga kedaulatan NKRI.
+      rationale_id: Mengawasi realisasi penyaluran kredit usaha rakyat di Nusa Tenggara Timur dan Maluku pada 2016 lewat Komite IV, memastikan kebijakan pembiayaan menjangkau wilayah kepulauan yang paling sulit diakses.
       evidence:
         - source_id: putusan-mk-79-puu-xii-2014
         - source_id: putusan-pn-jkt-pusat-irman-gusman-2017
@@ -9272,10 +9354,12 @@
       event_ids:
         - ev-dpd-pengawasan-kur-timur-2016
         - ev-pengawasan-kedaulatan-pangan-dpd-2017
+      antithesis_id: Pengawasan menjangkau wilayah kepulauan terluar, tetapi rekomendasinya tidak mengikat perbankan maupun pemerintah sehingga hambatan struktural penyaluran kredit di wilayah itu tidak berubah.
+      synthesis_id: Skor Baik (+1) karena penyaluran pembiayaan usaha rakyat di wilayah kepulauan terluar diawasi langsung di lokasinya oleh wakil daerah.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
-      rationale_id: Mendorong penguatan BUMD, pemberdayaan ekonomi maritim daerah, dan perlindungan komoditas unggulan petani/nelayan lokal.
+      rationale_id: Membentuk panitia khusus pengawasan tenaga kerja asing di kawasan smelter nikel Sulawesi dan Maluku pada 2018, menyuarakan kepentingan tenaga kerja lokal di wilayah investasi sumber daya alam.
       evidence:
         - source_id: laporan-dpd-dbh-2018
         - source_id: laporan-dpd-tka-2018
@@ -9285,10 +9369,12 @@
       event_ids:
         - ev-dpd-putusan-mk-79-2015
         - ev-pengawasan-kedaulatan-pangan-dpd-2017
+      antithesis_id: Panitia khusus menghasilkan temuan dan rekomendasi, tetapi kebijakan perizinan tenaga kerja asing tetap berada di tangan pemerintah pusat yang tidak berkewajiban menindaklanjuti rekomendasi DPD.
+      synthesis_id: Skor Baik (+1) karena kepentingan tenaga kerja lokal di kawasan investasi sumber daya alam diperjuangkan lewat instrumen pengawasan resmi.
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.75
-      rationale_id: Mengawasi distribusi anggaran fungsi pendidikan 20% agar menyentuh sekolah-sekolah di wilayah pedalaman dan kepulauan terpencil.
+      rationale_id: Mengawasi pelaksanaan kebijakan pembangunan di daerah termasuk pemenuhan layanan dasar pendidikan di wilayah kepulauan dan perbatasan sepanjang periode, menyuarakan kesenjangan yang tidak tampak dari pusat.
       evidence:
         - source_id: putusan-mk-79-puu-xii-2014
         - source_id: putusan-pn-jkt-pusat-irman-gusman-2017
@@ -9298,10 +9384,12 @@
       event_ids:
         - ev-dpd-pansus-tka-2018
         - ev-dpd-putusan-mk-79-2015
+      antithesis_id: Pengawasan menyuarakan kesenjangan layanan pendidikan antarwilayah, tetapi tanpa kewenangan anggaran temuan itu tidak dapat diterjemahkan menjadi realokasi belanja yang mengoreksinya.
+      synthesis_id: Skor Baik (+1) karena kesenjangan layanan dasar pendidikan di wilayah kepulauan dan perbatasan diangkat secara terlembaga ke tingkat nasional.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
-      rationale_id: Mendorong kerja sama ekonomi subnasional perbatasan antarnegara (BIMP-EAGA, IMT-GT) untuk perdamaian dan kemakmuran kawasan.
+      rationale_id: Mengawasi pelaksanaan kebijakan kedaulatan pangan pada 2017 yang bersinggungan dengan kebijakan impor dan perdagangan internasional, menempatkan kepentingan produsen daerah dalam perumusan posisi Indonesia.
       evidence:
         - source_id: putusan-mk-79-puu-xii-2014
         - source_id: putusan-pn-jkt-pusat-irman-gusman-2017
@@ -9311,10 +9399,12 @@
       event_ids:
         - ev-pengawasan-kedaulatan-pangan-dpd-2017
         - ev-dpd-putusan-mk-79-2015
+      antithesis_id: Pengawasan atas kebijakan pangan yang bersinggungan perdagangan internasional dijalankan, tetapi ketua lembaga justru terjerat perkara suap kuota impor pada wilayah kebijakan yang sama.
+      synthesis_id: Skor Baik (+1) karena kepentingan produsen daerah dalam kebijakan pangan yang bersinggungan dengan perdagangan internasional disuarakan secara terlembaga.
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.75
-      rationale_id: Menempuh jalur uji konstitusionalitas ke Mahkamah Konstitusi (Putusan 79/PUU-XII/2014) untuk menegakkan wewenang legislasi daerah.
+      rationale_id: Memperoleh pengukuhan posisi tripartit legislasi lewat Putusan MK No. 79/PUU-XII/2014 pada 2015, melanjutkan penyelesaian sengketa kewenangan antarlembaga lewat jalur pengadilan konstitusi.
       evidence:
         - source_id: putusan-mk-79-puu-xii-2014
         - source_id: putusan-pn-jkt-pusat-irman-gusman-2017
@@ -9324,10 +9414,12 @@
       event_ids:
         - ev-pengawasan-kedaulatan-pangan-dpd-2017
         - ev-dpd-putusan-mk-79-2015
+      antithesis_id: Pengukuhan kewenangan lewat putusan berjalan sementara dualisme kepemimpinan 2017 diselesaikan lewat manuver internal yang mengabaikan tata tertib lembaga sendiri, memperlihatkan supremasi hukum tidak konsisten diterapkan ke dalam.
+      synthesis_id: Skor Baik (+1) karena kedudukan DPD dalam pembahasan legislasi dikukuhkan lewat putusan pengadilan konstitusi yang mengikat seluruh lembaga negara.
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
-      rationale_id: Memastikan kedaulatan rakyat daerah terwakili di tingkat nasional secara setara antarsemua provinsi di Indonesia.
+      rationale_id: Mempertahankan keterwakilan daerah hasil Pemilu 2014 di tengah krisis dualisme kepemimpinan 2017, menjaga mandat langsung pemilih di setiap provinsi tetap tersalurkan meski lembaganya terbelah.
       evidence:
         - source_id: putusan-mk-79-puu-xii-2014
         - source_id: putusan-ma-tatib-dpd-2017
@@ -9336,6 +9428,8 @@
       event_ids:
         - ev-pengawasan-kedaulatan-pangan-dpd-2017
         - ev-dpd-putusan-mk-79-2015
+      antithesis_id: Mandat pemilih tetap tersalurkan secara formal, tetapi konflik perebutan kursi pimpinan memperlihatkan energi lembaga tersedot ke urusan internal alih-alih ke kepentingan pemilih yang memberi mandat.
+      synthesis_id: Skor Baik (+1) karena keterwakilan setiap provinsi di parlemen nasional tetap berjalan tanpa terputus melewati krisis kepemimpinan lembaga.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -9381,6 +9475,8 @@
       event_ids:
         - ev-dpd-pengawasan-adat-ikn-2024
         - ev-dpd-advokasi-fiskal-daerah-2025
+      antithesis_id: Pengawasan atas hak masyarakat adat di wilayah IKN dan desakan transparansi transfer ke daerah pada 2025 memperlihatkan lembaga ini bekerja pada persoalan agraria yang paling menyentuh warga terdampak.
+      synthesis_id: Skor Netral (0) karena pengawasan hak ekonomi dan agraria masyarakat adat dijalankan sejak awal masa jabatan, tetapi belum menghasilkan koreksi kebijakan yang terukur bagi warga terdampak.
     - dimension_id: checks-balances
       score: 0
       confidence: 0.75
@@ -9391,6 +9487,8 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-posisi-ruu-masyarakat-adat-2025
+      antithesis_id: Usulan percepatan pengesahan RUU Masyarakat Hukum Adat ke Prolegnas pada 2025 menunjukkan fungsi inisiatif dijalankan sejak awal masa jabatan pada agenda yang tertunda lebih dari satu dasawarsa.
+      synthesis_id: Skor Netral (0) karena komitmen pengawasan otonomi daerah ditegaskan sejak pemilihan pimpinan, tetapi belum diterjemahkan menjadi capaian pengawasan yang dapat diukur.
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.6
@@ -9400,6 +9498,8 @@
         - source_id: laporan-pilkada-kpu-2024
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Fungsi perwakilan dijalankan dan pilkada serentak 2024 di 545 daerah diawasi, tetapi kewenangan DPD atas hasil maupun penyelenggaraannya tetap nihil sehingga pengawasan itu tidak berkonsekuensi.
+      synthesis_id: Skor Baik (+1) karena wakil daerah hasil Pemilu 2024 menjalankan fungsi perwakilan dan mengawasi penyelenggaraan pilkada serentak di ratusan daerah.
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.55
@@ -9408,6 +9508,8 @@
         - source_id: laporan-dpd-pengawasan-ikn-2024
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Pengawasan dampak IKN atas hak masyarakat adat dijalankan setelah pembangunan berjalan dan penetapan lokasinya sudah final, sehingga koreksi yang mungkin dilakukan terbatas pada mitigasi alih-alih pencegahan.
+      synthesis_id: Skor Baik (+1) karena hak masyarakat hukum adat di wilayah pembangunan ibu kota diawasi secara resmi dan pengakuannya didorong lewat usulan undang-undang tersendiri.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.55
@@ -9418,6 +9520,8 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-evaluasi-anggaran-pendidikan-2025
+      antithesis_id: Pengawasan IKN dan komitmen pada daerah terluar dijalankan lewat kunjungan dan rekomendasi, tetapi tanpa kewenangan anggaran maupun legislasi sehingga pengaruhnya pada alokasi pembangunan belum terbukti.
+      synthesis_id: Skor Baik (+1) karena pemerataan pembangunan bagi wilayah terluar dan kepulauan diawasi sejak awal masa jabatan oleh lembaga yang mewakilinya.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.55
@@ -9426,6 +9530,8 @@
         - source_id: laporan-dpd-dbh-2018
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Desakan penataan anggaran pendidikan dan transparansi transfer ke daerah disampaikan sebagai rekomendasi, sementara keputusan alokasinya tetap berada pada pemerintah dan DPR tanpa kewajiban menanggapi.
+      synthesis_id: Skor Baik (+1) karena distorsi alokasi anggaran pendidikan dan ketertutupan transfer ke daerah diangkat menjadi persoalan publik oleh wakil daerah.
     - dimension_id: sila-3
       score: 1
       confidence: 0.5
@@ -9436,6 +9542,8 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pengawasan-pilkada-2024
+      antithesis_id: Perjuangan pengakuan masyarakat hukum adat dan daerah kepulauan mengulang agenda yang telah diajukan periode-periode sebelumnya tanpa pernah disahkan, sehingga tantangannya bukan pada usulan melainkan pada kewenangan.
+      synthesis_id: Skor Baik (+1) karena pengakuan masyarakat hukum adat dan kekhususan daerah kepulauan tetap diperjuangkan sebagai agenda persatuan yang mengakui keragaman wilayah.
     - dimension_id: sila-4
       score: 1
       confidence: 0.5
@@ -9446,6 +9554,8 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pemilihan-sultan-2024
+      antithesis_id: Keterlibatan dalam pembahasan RUU Masyarakat Hukum Adat berlangsung tanpa hak memutus, dan sidang paripurna maraton pemilihan pimpinan pada awal masa jabatan memperlihatkan energi lembaga tersedot urusan internal.
+      synthesis_id: Skor Baik (+1) karena aspirasi masyarakat hukum adat disalurkan lewat pengusulan dan pembahasan rancangan undang-undang oleh wakil daerah.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
