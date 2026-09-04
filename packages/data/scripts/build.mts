@@ -396,6 +396,322 @@ for (const bab of uud.babs)
       if (!dimIds.has(dimId))
         errors.push(`pasal ${p.nomor} (bab ${bab.nomor}): dimensi "${dimId}" tidak ada di rubrik`);
 
+// ---------------------------------------------------------------- pagar anti-halusinasi
+//
+// Audit integritas 4 September 2026 menemukan 554 dari 579 skor dimensi berisi
+// dialektika, kutipan pakar, dan sitasi hasil pembangkitan template - termasuk
+// tokoh yang telah wafat "mengomentari" peristiwa puluhan tahun setelah
+// kematiannya. Pagar di bawah ini membuat pola tersebut mustahil lolos build
+// lagi. Ambangnya sengaja ketat: kalimat analitis yang sah tidak akan pernah
+// terulang identik di puluhan penilaian berbeda.
+
+/** Satu kalimat analisis boleh dipakai ulang paling banyak sekian kali. */
+const AMBANG_PENGULANGAN = 3;
+
+const sourceYearById = new Map(sourcesRaw.map((s) => [s.id, s.year]));
+
+function catatPengulangan(map: Map<string, string[]>, teks: string | undefined, di: string) {
+  if (!teks) return;
+  const kunci = teks.trim().toLowerCase();
+  if (kunci.length < 40) return;
+  const list = map.get(kunci) ?? [];
+  list.push(di);
+  map.set(kunci, list);
+}
+
+const antitesisTerpakai = new Map<string, string[]>();
+const sintesisTerpakai = new Map<string, string[]>();
+const kutipanTerpakai = new Map<string, string[]>();
+
+/** Catatan bukti hasil penempelan massal skrip pengayaan. */
+const CATATAN_TEMPLATE = /^Kutipan (analisis )?struktural/i;
+
+/**
+ * Label skor kanonik pada teks sintesis, mis. "skor Baik (+1)" atau
+ * "Penilaian regresi (-2)". Sengaja ditambatkan pada kata "skor"/"penilaian"
+ * agar rujukan pasal seperti "Pasal 28I ayat (1)" tidak salah tangkap.
+ */
+const LABEL_SKOR = /\b(?:skor|penilaian)\b[^.]{0,48}?\(([+-][0-2]|0)\)/i;
+
+for (const a of assessments) {
+  for (const ds of a.dimension_scores) {
+    const di = `${a.id}/${ds.dimension_id}`;
+    catatPengulangan(antitesisTerpakai, ds.antithesis_id, di);
+    catatPengulangan(sintesisTerpakai, ds.synthesis_id, di);
+    for (const ev of ds.evidence) {
+      if (ev.note_id && CATATAN_TEMPLATE.test(ev.note_id.trim())) {
+        errors.push(
+          `${di}: evidence "${ev.source_id}" bercatatan template "${ev.note_id.slice(0, 40)}..." - ` +
+            `buku ajar umum yang ditempel massal bukan bukti empiris bagi skor spesifik`
+        );
+      }
+    }
+
+    // (1) Label skor pada sintesis wajib cocok dengan angka `score`.
+    const label = ds.synthesis_id?.match(LABEL_SKOR);
+    if (label && Number(label[1]) !== ds.score) {
+      errors.push(
+        `${di}: synthesis_id menulis skor (${label[1]}) sedangkan score = ${ds.score}`
+      );
+    }
+
+    for (const q of ds.expert_quotes ?? []) {
+      catatPengulangan(kutipanTerpakai, q.quote, di);
+
+      // (2) Anti-anakronisme: kutipan disitasi DARI sebuah terbitan, maka
+      //     tahunnya tidak boleh menyimpang dari tahun terbit sumber itu.
+      if (q.source_id && q.year !== undefined) {
+        const tahunSumber = sourceYearById.get(q.source_id);
+        if (typeof tahunSumber === "number" && q.year !== tahunSumber) {
+          errors.push(
+            `${di}: expert_quote tahun ${q.year} tidak cocok dengan tahun terbit ` +
+              `sumber ${q.source_id} (${tahunSumber}) - kutipan wajib bertahun terbitannya`
+          );
+        }
+      }
+
+      // (3) Penutur kutipan harus orang, bukan nama jurnal atau lembaga.
+      if (/^(jurnal|constitutional review|mimbar hukum|masalah-masalah hukum|padjadjaran)/i.test(q.author)) {
+        errors.push(
+          `${di}: expert_quote beratribusi "${q.author}" - nama terbitan tidak bisa ` +
+            `mengucapkan kutipan lisan; isi nama penulisnya`
+        );
+      }
+    }
+
+    // (4) Kalimat tesis tidak boleh terpotong di tengah nomor dokumen hukum.
+    for (const [field, teks] of [
+      ["thesis_id", ds.thesis_id],
+      ["antithesis_id", ds.antithesis_id],
+      ["synthesis_id", ds.synthesis_id],
+    ] as const) {
+      if (teks && /\b(No|Nomor|Pasal|UU|TAP|Perppu)\.?$/.test(teks.trim())) {
+        errors.push(`${di}: ${field} terpotong di tengah nomor dokumen ("...${teks.trim().slice(-24)}")`);
+      }
+    }
+  }
+}
+
+for (const [label, map] of [
+  ["antithesis_id", antitesisTerpakai],
+  ["synthesis_id", sintesisTerpakai],
+  ["expert_quote", kutipanTerpakai],
+] as const) {
+  for (const [teks, dipakai] of map) {
+    if (dipakai.length <= AMBANG_PENGULANGAN) continue;
+    errors.push(
+      `${label} identik dipakai ${dipakai.length}x (ambang ${AMBANG_PENGULANGAN}) di ` +
+        `${dipakai.slice(0, 4).join(", ")}${dipakai.length > 4 ? ", ..." : ""}: ` +
+        `"${teks.slice(0, 70)}..." - kalimat analitis wajib ditulis per dimensi, ` +
+        `bukan ditempel massal`
+    );
+  }
+}
+
+// (5) Dokumen administratif daerah tidak boleh jadi bukti peristiwa bagi
+//     penilaian organ konstitusional nasional (metric stuffing).
+const eventById = new Map(events.map((e) => [e.id, e]));
+const POLA_DAERAH = /^ev-rescue-(regional|peraturan-gubernur|peraturan-daerah|keputusan-gubernur)-/;
+for (const a of assessments) {
+  for (const ds of a.dimension_scores) {
+    for (const eid of ds.event_ids ?? []) {
+      if (POLA_DAERAH.test(eid)) {
+        errors.push(
+          `${a.id}/${ds.dimension_id}: peristiwa "${eid}" adalah dokumen administratif ` +
+            `daerah dan tidak boleh menjadi bukti penilaian organ nasional`
+        );
+      }
+      const ev = eventById.get(eid);
+      if (ev && /^Dokumentasi Historis:/.test(ev.title_id)) {
+        errors.push(
+          `${a.id}/${ds.dimension_id}: peristiwa "${eid}" masih berboilerplate ` +
+            `"Dokumentasi Historis:" - bukan peristiwa ketatanegaraan`
+        );
+      }
+    }
+  }
+}
+
+// (5b) Ringkasan peristiwa tidak boleh boilerplate massal: satu paragraf yang
+//      sama pada puluhan "peristiwa" berbeda adalah pengisi metrik.
+const ringkasanTerpakai = new Map<string, string[]>();
+for (const e of events) {
+  const kunci = e.summary_id.trim().toLowerCase();
+  const list = ringkasanTerpakai.get(kunci) ?? [];
+  list.push(e.id);
+  ringkasanTerpakai.set(kunci, list);
+}
+for (const [teks, ids] of ringkasanTerpakai) {
+  if (ids.length < 2) continue;
+  errors.push(
+    `ringkasan peristiwa identik dipakai ${ids.length}x (${ids.slice(0, 3).join(", ")}` +
+      `${ids.length > 3 ? ", ..." : ""}): "${teks.slice(0, 60)}..." - setiap peristiwa ` +
+      `wajib punya uraian sendiri`
+  );
+}
+
+// (5c) Judul peristiwa yang nyaris sama dalam satu masa jabatan & tanggal
+//      adalah duplikat, sekalipun tidak menyebut nomor dokumen hukum.
+const judulTerpakai = new Map<string, string[]>();
+for (const e of events) {
+  const inti = e.title_id
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]/g, " ")
+    .split(/\s+/)
+    .filter((w) => w.length > 3)
+    .sort()
+    .join(" ");
+  const kunci = `${e.term_id}::${e.date}::${inti}`;
+  judulTerpakai.set(kunci, [...(judulTerpakai.get(kunci) ?? []), e.id]);
+}
+for (const [kunci, ids] of judulTerpakai) {
+  if (ids.length < 2) continue;
+  errors.push(
+    `peristiwa duplikat: ${ids.join(", ")} berjudul sama pada masa jabatan & tanggal ` +
+      `yang sama (${kunci.split("::").slice(0, 2).join(" ")}) - gabungkan`
+  );
+}
+
+// (5d) Label pabrikan pada judul peristiwa.
+for (const e of events) {
+  if (/^(Dokumentasi Historis|Penerbitan Kebijakan Eksekutif|Putusan Peradilan):/.test(e.title_id)) {
+    errors.push(
+      `peristiwa ${e.id}: judul berlabel pabrikan "${e.title_id.split(":")[0]}:" - ` +
+        `tulis judul peristiwanya, bukan kategori generatornya`
+    );
+  }
+}
+
+// (6) Dua peristiwa dalam satu masa jabatan yang menunjuk nomor dokumen hukum
+//     yang sama adalah duplikat - `source::date` saja tidak cukup karena
+//     tanggal beda satu hari sudah lolos.
+const NOMOR_DOKUMEN = /\b(?:UU|TAP MPR|Perppu|PP|Perpres|Keppres|Putusan(?: MK| MA| MKMK)?)\s*(?:No\.?|Nomor)?\s*(\d{1,3})[\/ ](?:PUU-[A-Z]+\/)?(\d{4})/gi;
+const sidikJari = new Map<string, string[]>();
+for (const e of events) {
+  const cocok = [...e.title_id.matchAll(NOMOR_DOKUMEN)];
+  for (const m of cocok) {
+    // Tanggal ikut jadi kunci: satu produk hukum yang sah dicatat dua kali
+    // pada tanggal berbeda (pengesahan vs perubahan) bukan duplikat.
+    const kunci = `${e.term_id}::${e.date}::${m[0].replace(/\s+/g, "").toLowerCase()}`;
+    const list = sidikJari.get(kunci) ?? [];
+    list.push(e.id);
+    sidikJari.set(kunci, list);
+  }
+}
+for (const [kunci, ids] of sidikJari) {
+  if (ids.length < 2) continue;
+  errors.push(
+    `peristiwa duplikat: ${ids.join(", ")} sama-sama menunjuk dokumen "${kunci.split("::")[1]}" ` +
+      `pada masa jabatan yang sama - gabungkan menjadi satu catatan kanonik`
+  );
+}
+
+// (6b) Klaim provenance sumber harus dapat ditagih.
+//      `archive_ok` hanya bermakna bersama `r2_key`; dan beranda lembaga atau
+//      penerbit tidak membuktikan keberadaan dokumen yang disitasi.
+function hanyaBeranda(url: string | undefined): boolean {
+  if (!url) return false;
+  try {
+    const u = new URL(url);
+    return (u.pathname === "/" || u.pathname === "") && !u.search;
+  } catch {
+    return false;
+  }
+}
+for (const s of sourcesRaw) {
+  if (s.archive_ok !== undefined && !s.r2_key) {
+    errors.push(
+      `sumber ${s.id}: menyatakan archive_ok tanpa r2_key - medan itu hanya bermakna ` +
+        `bila ada salinan arsip R2`
+    );
+  }
+  if (
+    s.verification_tier === "official_source" &&
+    !s.r2_key &&
+    (!s.url || hanyaBeranda(s.url))
+  ) {
+    errors.push(
+      `sumber ${s.id}: verification_tier "official_source" tanpa salinan arsip dan ` +
+        `tanpa tautan dokumen (${s.url ?? "tanpa url"}) - beranda lembaga tidak ` +
+        `membuktikan dokumennya; pakai "unverified"`
+    );
+  }
+  if (s.verification_tier === undefined) {
+    errors.push(
+      `sumber ${s.id}: verification_tier wajib diisi - derajat verifikasi tidak ` +
+        `boleh dibiarkan tersirat`
+    );
+  }
+}
+
+// (6c) Satu dimensi hanya boleh dinilai sekali per masa jabatan, dan rasional
+//      tidak boleh dipakai ulang lintas masa jabatan. Rasional yang sama pada
+//      beberapa periode berarti yang ditulis adalah uraian tugas lembaga,
+//      bukan penilaian atas periode tertentu - dan itu memaksa anakronisme
+//      (mis. MK 2003-2008 "menghasilkan" putusan tahun 2013).
+for (const a of assessments) {
+  const terlihat = new Set<string>();
+  for (const ds of a.dimension_scores) {
+    if (terlihat.has(ds.dimension_id)) {
+      errors.push(`${a.id}: dimensi "${ds.dimension_id}" dinilai lebih dari sekali`);
+    }
+    terlihat.add(ds.dimension_id);
+  }
+}
+
+const rasionalTerpakai = new Map<string, string[]>();
+for (const a of assessments) {
+  for (const ds of a.dimension_scores) {
+    const kunci = ds.rationale_id.trim().toLowerCase();
+    rasionalTerpakai.set(kunci, [...(rasionalTerpakai.get(kunci) ?? []), `${a.id}/${ds.dimension_id}`]);
+  }
+}
+/*
+ * Rasional wajib menilai masa jabatan yang bersangkutan. Audit lanjutan
+ * 4 September 2026 menemukan 59 klaster rasional kembar yang menjangkiti 248
+ * skor - uraian tugas lembaga disalin ke setiap masa jabatan organ yang sama,
+ * memaksa anakronisme seperti MK 2003-2008 yang "menghasilkan" Putusan
+ * 85/PUU-XI/2013. Seluruhnya sudah ditulis ulang per periode, sehingga pagar
+ * ini kini berstatus error dan menjaga pola itu tidak kembali.
+ */
+for (const [teks, dipakai] of rasionalTerpakai) {
+  if (dipakai.length < 2) continue;
+  errors.push(
+    `rationale_id identik dipakai ${dipakai.length}x di ${dipakai.slice(0, 4).join(", ")}` +
+      `${dipakai.length > 4 ? ", ..." : ""}: "${teks.slice(0, 60)}..." - rasional wajib ` +
+      `menilai masa jabatan yang bersangkutan, bukan menguraikan tugas lembaganya`
+  );
+}
+
+// (6d) Skor positif atau negatif yang seragam pada seluruh dimensi adalah tanda
+//      penilaian template: satu masa jabatan hampir tidak mungkin berprestasi
+//      atau gagal persis sama pada dua belas dimensi yang berbeda.
+//      Seragam NOL dikecualikan - "tidak ada tindakan signifikan yang mengubah
+//      keadaan" (anchor rubrik untuk 0) memang dapat berlaku pada seluruh
+//      dimensi bagi lembaga yang kewenangannya nyaris nihil.
+for (const a of assessments) {
+  if (a.dimension_scores.length < 8) continue;
+  const nilai = new Set(a.dimension_scores.map((d) => d.score));
+  if (nilai.size === 1 && [...nilai][0] !== 0) {
+    errors.push(
+      `${a.id}: seluruh ${a.dimension_scores.length} dimensi berskor sama (${[...nilai][0]}) - ` +
+        `itu penilaian template, bukan penilaian per dimensi`
+    );
+  }
+}
+
+// (7) Klaim pengawasan manusia EU AI Act Pasal 14 harus punya penelaah nyata.
+for (const a of assessments) {
+  const ho = a.ai_disclosure?.human_oversight;
+  if (!ho) continue;
+  if (ho.status === "verified" && ho.approvers.length === 0) {
+    errors.push(`${a.id}: human_oversight berstatus "verified" tanpa satu pun approver bernama`);
+  }
+  if (a.human_confirmed && ho.status === "draft") {
+    errors.push(`${a.id}: human_confirmed=true tetapi human_oversight masih berstatus draft`);
+  }
+}
+
 if (errors.length > 0) {
   console.error("Referensi silang tidak konsisten:");
   for (const err of errors) console.error(`  - ${err}`);

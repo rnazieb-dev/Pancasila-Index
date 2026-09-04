@@ -38,7 +38,21 @@ describe("EU AI Act & Dimension Milestones Integrity", () => {
       expect(asm.ai_disclosure?.model_provider).toBe("Google DeepMind");
       expect(asm.ai_disclosure?.eu_ai_act_compliance?.article_50_compliant).toBe(true);
       expect(asm.ai_disclosure?.human_oversight?.mechanism).toBe("quorum-2-reviewers");
+
+      // Pasal 14: klaim pengawasan manusia hanya sah bila ada penelaah nyata.
+      const ho = asm.ai_disclosure!.human_oversight;
+      expect(ho.approver_count).toBe(ho.approvers.length);
+      if (ho.status === "verified") expect(ho.approvers.length).toBeGreaterThan(0);
+      if (asm.human_confirmed) expect(ho.status).not.toBe("draft");
     }
+  });
+
+  it("aiDisclosureSchema menolak klaim terverifikasi tanpa penelaah bernama", () => {
+    expect(() =>
+      aiDisclosureSchema.parse({
+        human_oversight: { status: "verified", approver_count: 2, approvers: [] },
+      })
+    ).toThrow();
   });
 
   it("setiap asesmen masa jabatan memiliki trajektori multi-peristiwa ilmiah", () => {

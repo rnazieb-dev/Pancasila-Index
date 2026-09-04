@@ -30,12 +30,11 @@ export function AiTransparencyBadge({
   const modelId = disclosure?.model_id || "gemini-3.8-flash-high";
   const modelProvider = disclosure?.model_provider || "Google DeepMind";
   const pipelineVersion = disclosure?.pipeline_version || "pancasila-nlp-v1.5";
-  const approvers =
-    disclosure?.human_oversight?.approvers?.length
-      ? disclosure.human_oversight.approvers
-      : reviewers.length
-      ? reviewers
-      : ["Penelaah Terverifikasi 1", "Penelaah Terverifikasi 2"];
+  // Jangan pernah mengarang nama penelaah. Bila tidak ada approver bernama,
+  // status pengawasan manusia ditampilkan apa adanya: belum ditelaah.
+  const approvers = disclosure?.human_oversight?.approvers ?? [];
+  const oversightVerified =
+    disclosure?.human_oversight?.status === "verified" && approvers.length > 0;
 
   const modelDisplay =
     modelId === "gemini-3.8-flash-high"
@@ -46,6 +45,8 @@ export function AiTransparencyBadge({
       ? "Gemini 1.5 Pro"
       : modelId === "claude-3-5-sonnet"
       ? "Claude 3.5 Sonnet"
+      : modelId === "claude-opus-5"
+      ? "Claude Opus 5"
       : modelId;
 
   return (
@@ -55,15 +56,21 @@ export function AiTransparencyBadge({
         type="button"
         onClick={() => setIsOpen(true)}
         title="Klik untuk melihat lembar transparansi kepatuhan EU AI Act Pasal 50"
-        className={`inline-flex items-center gap-1.5 rounded-md border border-sky-500/30 bg-sky-500/10 px-2 py-0.5 text-[10px] font-mono font-medium text-[var(--acc-sky-strong)] hover:border-sky-400 hover:bg-sky-500/20 transition cursor-pointer text-left ${className}`}
+        className={`inline-flex items-center gap-1.5 rounded-md border px-2 py-0.5 text-[10px] font-mono font-medium transition cursor-pointer text-left ${
+          oversightVerified
+            ? "border-sky-500/30 bg-sky-500/10 text-[var(--acc-sky-strong)] hover:border-sky-400 hover:bg-sky-500/20"
+            : "border-amber-500/40 bg-amber-500/10 text-amber-600 dark:text-amber-400 hover:border-amber-400 hover:bg-amber-500/20"
+        } ${className}`}
       >
-        <IconBot size={13} className="shrink-0 text-[var(--acc-sky-strong)]" />
+        <IconBot size={13} className="shrink-0" />
         <span>
           {compact ? (
             <>AI: <strong>{modelDisplay}</strong> (EU AI Act)</>
           ) : (
             <>
-              Sintesis Berbantuan AI: <strong>{modelDisplay}</strong> · Kuorum 2 Reviewer
+              Analisis &amp; Skor Disusun AI: <strong>{modelDisplay}</strong>
+              {" · "}
+              {oversightVerified ? "Ditinjau 2 penelaah" : "Belum ditinjau manusia"}
             </>
           )}
         </span>
@@ -135,18 +142,70 @@ export function AiTransparencyBadge({
               </div>
             </div>
 
+            {/* Jejak remediasi otomatis oleh model pembersih */}
+            {disclosure?.remediation && (
+              <div className="space-y-1.5 rounded-xl border border-sky-500/30 bg-sky-500/5 p-4">
+                <div className="flex items-center gap-2 text-[var(--acc-sky-strong)] font-bold text-xs">
+                  <IconBot size={16} />
+                  <span>Remediasi Integritas Data</span>
+                </div>
+                <p className="text-[11px] text-[var(--muted)] leading-relaxed">
+                  Draf awal dibangkitkan <strong>{modelDisplay}</strong>, lalu diaudit dan
+                  dibersihkan oleh model lain:{" "}
+                  <strong className="text-[var(--text)]">
+                    {disclosure.remediation.model_id === "claude-opus-5"
+                      ? "Claude Opus 5"
+                      : disclosure.remediation.model_id}
+                  </strong>{" "}
+                  ({disclosure.remediation.model_provider}) pada{" "}
+                  <span className="font-mono">{disclosure.remediation.performed_at}</span>.
+                  {disclosure.remediation.notes_id ? ` ${disclosure.remediation.notes_id}` : null}
+                </p>
+              </div>
+            )}
+
             {/* Protokol Human-in-the-Loop (Pasal 14 EU AI Act) */}
-            <div className="space-y-2 rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-4">
-              <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-bold text-xs">
-                <IconShieldCheck size={16} />
+            <div
+              className={`space-y-2 rounded-xl border p-4 ${
+                oversightVerified
+                  ? "border-emerald-500/30 bg-emerald-500/5"
+                  : "border-amber-500/30 bg-amber-500/5"
+              }`}
+            >
+              <div
+                className={`flex items-center gap-2 font-bold text-xs ${
+                  oversightVerified
+                    ? "text-emerald-600 dark:text-emerald-400"
+                    : "text-amber-600 dark:text-amber-400"
+                }`}
+              >
+                {oversightVerified ? <IconShieldCheck size={16} /> : <IconAlertTriangle size={16} />}
                 <span>Pengawasan Manusia (Human Oversight — Pasal 14)</span>
               </div>
               <p className="text-[11px] text-[var(--muted)] leading-relaxed">
-                Sistem AI pada Pancasila Index <strong>hanya digunakan sebagai alat bantu klasifikasi heuristik dan sintesis awal dokumen</strong>. Sesuai prinsip *Human-in-the-Loop*, tidak ada skor atau analisis yang diterbitkan secara otonom. Setiap penilaian wajib diverifikasi dan disetujui secara independen oleh minimal <strong>2 Penelaah Manusia (Kuorum Ganda)</strong> tanpa konflik kepentingan.
+                Sistem AI pada Pancasila Index <strong>hanya digunakan sebagai alat bantu klasifikasi heuristik dan sintesis awal dokumen</strong>. Sesuai prinsip *Human-in-the-Loop*, penilaian baru boleh berstatus <em>published</em> setelah diverifikasi dan disetujui secara independen oleh minimal <strong>2 Penelaah Manusia (Kuorum Ganda)</strong> tanpa konflik kepentingan.
               </p>
-              <div className="pt-2 border-t border-emerald-500/20 text-[11px]">
-                <span className="text-[var(--muted)]">Penelaah yang menandatangani verifikasi: </span>
-                <strong className="text-[var(--text)]">{approvers.join(" & ")}</strong>
+              <div
+                className={`pt-2 border-t text-[11px] ${
+                  oversightVerified ? "border-emerald-500/20" : "border-amber-500/20"
+                }`}
+              >
+                {oversightVerified ? (
+                  <>
+                    <span className="text-[var(--muted)]">Penelaah yang menandatangani verifikasi: </span>
+                    <strong className="text-[var(--text)]">{approvers.join(" & ")}</strong>
+                  </>
+                ) : (
+                  <span className="text-[var(--muted)]">
+                    <strong className="text-amber-600 dark:text-amber-400">
+                      Belum ada penelaah manusia yang menandatangani verifikasi.
+                    </strong>{" "}
+                    Penilaian ini berstatus draf dan menunggu kuorum dua penelaah.
+                    {reviewers.length > 0 && (
+                      <> Pihak yang menyusun draf: {reviewers.join(", ")}.</>
+                    )}
+                  </span>
+                )}
               </div>
             </div>
 

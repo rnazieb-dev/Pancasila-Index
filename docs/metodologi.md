@@ -51,6 +51,25 @@ Setiap pertimbangan dan analisis ilmiah pada asesmen dimensi tidak dirumuskan se
 3. **Kutipan Langsung Pakar Terverifikasi (`expert_quotes`)**: Kutipan perkataan kata-demi-kata dari pakar terkemuka (seperti Mohammad Hatta, Soepomo, Ismail Suny, Daniel S. Lev, Jimly Asshiddiqie, Mahfud MD, Bagir Manan, Saldi Isra, Bivitri Susanti, Maria Farida Indrati, dsb.) yang wajib bersitasi dokumen primer/monograf ilmiah di `sources.yaml`.
 4. **Sintesis Konstitusional (`synthesis_id`)**: Penimbangan objektif terhadap dua kutub argumentasi untuk menetapkan bobot skor (-2 s.d. +2) berdasarkan norma konstitusi tertinggi.
 
+> [!IMPORTANT]
+> **Cakupan dialektika sengaja parsial.** Audit integritas 4 September 2026
+> menemukan bahwa 554 dari 579 skor dimensi berisi dialektika dan kutipan
+> pakar hasil pembangkitan template — satu kalimat yang sama diatribusikan ke
+> belasan akademisi, bahkan kepada tokoh yang sudah wafat puluhan tahun
+> sebelum peristiwa yang "dikomentarinya". Seluruh materi tersebut telah
+> **dicabut**, bukan ditulis ulang. Per hari ini hanya **25 skor** yang
+> memiliki dialektika substantif dan **21 kutipan** yang benar-benar
+> bersitasi terbitan nyata; sisanya menampilkan `rationale_id` bersitasi
+> dokumen primer apa adanya. Sesuai AGENTS.md: cakupan parsial yang jujur
+> lebih baik daripada tabel penuh dengan bukti tempelan.
+>
+> Empat pagar otomatis di `scripts/build.mts` (dan uji regresi
+> `packages/data/test/integritas-anti-halusinasi.test.ts`) kini menolak
+> build bila: satu kalimat analitis dipakai ulang lebih dari 3 kali; tahun
+> `expert_quotes` menyimpang dari tahun terbit sumbernya (anti-anakronisme);
+> label skor pada `synthesis_id` tidak cocok dengan angka `score`; atau
+> `human_oversight` mengklaim `verified` tanpa penelaah bernama.
+
 ---
 
 ## 3. Skala Rubrik & Jangkar Perilaku (-2 s.d. +2)

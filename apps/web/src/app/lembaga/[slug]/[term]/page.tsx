@@ -21,6 +21,7 @@ import { TermActions } from "@/components/term-actions";
 import { InstitutionLogo } from "@/components/institution-logo";
 import { ScoreGauge, DimensionScoreBadge } from "@/components/score-gauge";
 import { ScaleLegend } from "@/components/scale-legend";
+import { DimensionCard } from "@/components/dimension-card";
 import { DimensionMilestones } from "@/components/dimension-milestones";
 import { AiTransparencyBadge } from "@/components/ai-transparency-badge";
 import { DialecticalRationale } from "@/components/dialectical-rationale";
@@ -407,162 +408,18 @@ export default async function TermPage({
                       .map((ds) => ({ assessmentId: a.id, ds }))
                   );
                   if (entries.length === 0) return null;
-                  const avg = entries.reduce((acc, e) => acc + e.ds.score, 0) / entries.length;
-                  const conf = entries.reduce((acc, e) => acc + e.ds.confidence, 0) / entries.length;
-                  const totalEvidence = new Set(entries.flatMap((e) => (e.ds.evidence || []).map((ev) => ev.source_id))).size;
-                  const totalEvents = new Set(entries.flatMap((e) => e.ds.event_ids || [])).size;
-
-                  const skorMin = Math.min(...entries.map((e) => e.ds.score));
-                  const skorMax = Math.max(...entries.map((e) => e.ds.score));
-                  const adaSelisih = entries.length > 1 && skorMin !== skorMax;
 
                   return (
-                    <details
+                    <DimensionCard
                       key={dim.id}
-                      className="group rounded-xl border border-[var(--line)] bg-[var(--bg)] px-4 py-3.5 hover:border-slate-400 transition"
-                    >
-                      <summary className="flex flex-wrap items-center gap-3 cursor-pointer list-none">
-                        <DimensionScoreBadge score={avg} />
-                        <span className="font-bold grow text-sm sm:text-base">{dim.name_id}</span>
-                        <div className="flex items-center gap-2">
-                          {totalEvidence > 0 && (
-                            <span className="inline-flex items-center gap-1 rounded-full bg-[var(--panel)] border border-[var(--line)] px-2 py-0.5 text-[10px] sm:text-[11px] text-[var(--acc-sky)] font-medium">
-                              <IconFileText size={11} className="shrink-0" />
-                              <span>{totalEvidence} bukti</span>
-                            </span>
-                          )}
-                          {totalEvents > 0 && (
-                            <span className="hidden sm:inline-flex items-center gap-1 rounded-full bg-[var(--panel)] border border-[var(--line)] px-2 py-0.5 text-[11px] text-[var(--muted)]">
-                              <IconTimeline size={11} className="shrink-0" />
-                              <span>{totalEvents} peristiwa</span>
-                            </span>
-                          )}
-                          <span className="text-xs text-[var(--muted)] font-mono">
-                            keyakinan {Math.round(conf * 100)}%
-                          </span>
-                          <span className="text-xs text-[var(--muted)] group-open:rotate-180 transition-transform duration-200">
-                            ▼
-                          </span>
-                        </div>
-                        {adaSelisih && (
-                          <span
-                            className="rounded-full bg-amber-500/15 px-2 py-0.5 text-[10px] font-semibold text-[var(--acc-amber)]"
-                            title={`${entries.length} penilai berselisih: ${skorMin} s.d. ${skorMax}`}
-                          >
-                            penilai berselisih {skorMin > 0 ? "+" : ""}{skorMin} … {skorMax > 0 ? "+" : ""}{skorMax}
-                          </span>
-                        )}
-                      </summary>
-                      <div className="mt-3.5 space-y-3 border-t border-[var(--line)] pt-3.5">
-                        <p className="text-sm italic text-[var(--muted)]">{dim.question_id.trim()}</p>
-
-                        {entries.map((e, idx) => (
-                          <div
-                            key={`${e.assessmentId}-${idx}`}
-                            className={
-                              entries.length > 1
-                                ? "rounded-lg border border-[var(--line)] bg-[var(--panel)] px-3 py-2.5 space-y-2"
-                                : "space-y-2"
-                            }
-                          >
-                            {entries.length > 1 && (
-                              <div className="flex flex-wrap items-center gap-2 text-[11px] text-[var(--muted)]">
-                                <span className="font-mono">{e.assessmentId}</span>
-                                <span className="tabular-nums">
-                                  skor {e.ds.score > 0 ? "+" : ""}
-                                  {e.ds.score} · keyakinan {Math.round(e.ds.confidence * 100)}%
-                                </span>
-                              </div>
-                            )}
-                            <div className="flex flex-wrap items-center justify-between gap-2 pt-1">
-                              <div className="text-xs uppercase tracking-wide text-[var(--muted)] font-semibold">
-                                Pertimbangan &amp; Analisis Ilmiah
-                              </div>
-                              <AiTransparencyBadge
-                                disclosure={e.ds.ai_disclosure || assessment?.ai_disclosure}
-                                reviewers={assessment?.reviewers}
-                                compact
-                              />
-                            </div>
-                            <DialecticalRationale
-                              dimensionScore={e.ds}
-                              sources={dataset.sources}
-                            />
-                            <div>
-                              <div className="text-xs uppercase tracking-wide text-[var(--muted)] mt-2 font-semibold">Bukti empiris</div>
-                              {e.ds.evidence_gap === true || e.ds.evidence.length === 0 ? (
-                                <p className="mt-1 text-xs text-[var(--acc-amber)]">
-                                  Belum berbukti empiris — skor ini <strong>dikeluarkan</strong> dari indeks.
-                                </p>
-                              ) : (
-                                <ul className="mt-1.5 space-y-1">
-                                  {e.ds.evidence.map((ev) => {
-                                    const src = dataset.sources.find((s) => s.id === ev.source_id);
-                                    const href = src?.detail_url ?? src?.resolved_url ?? src?.url;
-                                    return (
-                                      <li key={ev.source_id} className="text-xs leading-relaxed">
-                                        {href ? (
-                                          <a
-                                            href={href}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="inline-flex items-center gap-1 text-[var(--acc-sky)] hover:text-[var(--acc-sky-strong)] underline decoration-dotted underline-offset-2"
-                                          >
-                                            <IconFileText size={11} className="shrink-0" />
-                                            <span>{src?.title_id ?? ev.source_id}</span>
-                                            <IconExternalLink size={10} className="shrink-0 ml-0.5" />
-                                          </a>
-                                        ) : (
-                                          <span className="inline-flex items-center gap-1 text-[var(--muted)]">
-                                            <IconFileText size={11} className="shrink-0" />
-                                            <span>{src?.title_id ?? ev.source_id}</span>
-                                          </span>
-                                        )}
-                                        {ev.note_id ? <span className="text-[var(--muted)]"> — {ev.note_id}</span> : null}
-                                      </li>
-                                    );
-                                  })}
-                                </ul>
-                              )}
-                              {(e.ds.normative_anchors ?? []).length > 0 && (
-                                <div className="mt-2 text-[11px] leading-relaxed text-[var(--muted)]">
-                                  Landasan normatif (bukan bukti faktual):{" "}
-                                  {(e.ds.normative_anchors ?? []).map((na, i, arr) => {
-                                    const src = dataset.sources.find((s) => s.id === na);
-                                    return (
-                                      <span key={na}>
-                                        {src ? (
-                                          <a
-                                            href={src.detail_url ?? src.resolved_url ?? src.url}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="underline decoration-dotted underline-offset-2 hover:text-[var(--text)]"
-                                          >
-                                            {(src.title_id || "").replace(/\s*\([^)]*\)\s*/g, " ").slice(0, 48).trim()} ↗
-                                          </a>
-                                        ) : (
-                                          na
-                                        )}
-                                        {i < arr.length - 1 ? " · " : ""}
-                                      </span>
-                                    );
-                                  })}
-                                </div>
-                              )}
-                            </div>
-
-                            {/* Linimasa Trajektori Ilmiah Multi-Peristiwa */}
-                            <DimensionMilestones
-                              dimensionId={dim.id}
-                              dimensionName={dim.name_id}
-                              events={getDimensionEvents(term.id, dim.id, e.ds.event_ids, dataset.events)}
-                              sources={dataset.sources}
-                              actorsById={actorsById}
-                            />
-                          </div>
-                        ))}
-                      </div>
-                    </details>
+                      dimension={dim}
+                      entries={entries}
+                      assessment={assessment}
+                      sources={dataset.sources}
+                      allEvents={dataset.events}
+                      actorsById={actorsById}
+                      termId={term.id}
+                    />
                   );
                 })}
               </div>

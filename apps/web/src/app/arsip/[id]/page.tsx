@@ -6,6 +6,7 @@ import {
   IconArchive,
   IconGlobe,
   IconShieldCheck,
+  IconAlertTriangle,
   IconInstitution,
   IconScale,
   IconHistory,
@@ -212,9 +213,25 @@ export default async function ArsipDetailPage({
             <span className="text-xs font-bold uppercase tracking-widest text-[var(--muted)]">
               Informasi Provenansi &amp; Keabsahan Bukti
             </span>
-            <span className="text-[11px] text-emerald-400 font-semibold flex items-center gap-1">
-              <IconShieldCheck size={14} /> Terverifikasi
-            </span>
+            {/*
+              Derajat verifikasi ditampilkan apa adanya. Sebelum audit
+              integritas September 2026, lencana hijau "Terverifikasi" tampil
+              pada SETIAP dokumen tanpa memandang keadaannya - klaim yang tidak
+              berdasar. Kini ia mengikuti `verification_tier`.
+            */}
+            {source.verification_tier === "human_verified" ? (
+              <span className="text-[11px] text-emerald-500 font-semibold flex items-center gap-1">
+                <IconShieldCheck size={14} /> Ditinjau penelaah manusia
+              </span>
+            ) : source.verification_tier === "official_source" ? (
+              <span className="text-[11px] text-sky-500 font-semibold flex items-center gap-1">
+                <IconShieldCheck size={14} /> Sumber resmi, belum ditinjau manusia
+              </span>
+            ) : (
+              <span className="text-[11px] text-amber-500 font-semibold flex items-center gap-1">
+                <IconAlertTriangle size={14} /> Belum terverifikasi
+              </span>
+            )}
           </div>
 
           <div className="grid gap-4 sm:grid-cols-2 text-xs">
