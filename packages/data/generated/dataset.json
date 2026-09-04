@@ -39544,6 +39544,8 @@
           "score": -1,
           "confidence": 0.85,
           "rationale_id": "Pada era Orde Baru fungsi audit eksternal BPK terbatas dan subordinatif di bawah kekuasaan eksekutif sehingga pengawasan anggaran tidak optimal.",
+          "antithesis_id": "BPK tetap berdiri dan memeriksa sepanjang periode, dan UU No. 5 Tahun 1973 memberinya dasar undang-undang tersendiri sehingga kelembagaannya bertahan melewati dua rezim yang sangat berbeda.",
+          "synthesis_id": "Skor Buruk (-1) karena audit eksternal berjalan subordinatif di bawah eksekutif dan temuannya tidak pernah menjadi dasar pertanggungjawaban politik, sehingga pengawasan anggaran kehilangan daya koreksinya.",
           "evidence": [
             {
               "source_id": "uu-5-1973"
@@ -39571,6 +39573,8 @@
           "score": 0,
           "confidence": 0.45,
           "rationale_id": "Dasar konstitusional pemeriksaan tetap dipertahankan sejak berdirinya 1947 kendati daya dorong penegakan hukum temuan audit lemah.",
+          "antithesis_id": "Penempatan BPK sebagai pembantu Pemimpin Besar Revolusi pada 1965 memperlihatkan kemandirian konstitusionalnya pernah dicabut sepenuhnya, sehingga kesinambungan yang dipertahankan bersifat kelembagaan alih-alih fungsional.",
+          "synthesis_id": "Skor Netral (0) karena dasar konstitusional pemeriksaan keuangan negara dipertahankan tanpa terputus sejak 1947, tepat sebanding dengan hilangnya daya dorong temuan audit terhadap penegakan hukum.",
           "evidence": [
             {
               "source_id": "penetapan-bpk-1947"
@@ -39594,7 +39598,9 @@
           "dimension_id": "sila-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Memeriksa akuntabilitas pengelolaan dana abadi umat dan dana penyelenggaraan ibadah haji guna mencegah penyimpangan keuangan bernuansa keagamaan.",
+          "rationale_id": "Menjalankan pemeriksaan perbendaharaan negara sejak sidang perdana di Magelang pada 1 Januari 1947 di bawah Ketua R. Soerasno, menegakkan amanah pengelolaan uang rakyat sebagai kewajiban moral penyelenggara negara di tengah revolusi.",
+          "antithesis_id": "Pemeriksaan pada masa revolusi berjalan dengan sumber daya yang nyaris tidak ada dan jangkauan yang terbatas pada wilayah yang dikuasai republik, sehingga fungsinya lebih bersifat penegasan kelembagaan daripada pengawasan efektif.",
+          "synthesis_id": "Skor Baik (+1) karena republik mendirikan pemeriksa keuangan negara di tengah perang kemerdekaan, menegaskan amanah atas uang rakyat sejak hari-hari pertama berdirinya.",
           "evidence": [
             {
               "source_id": "penetapan-bpk-1947"
@@ -39618,7 +39624,9 @@
           "dimension_id": "sila-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Melakukan audit investigatif terhadap kejahatan korupsi yang merampas hak-hak dasar ekonomi dan jaminan sosial masyarakat rentan.",
+          "rationale_id": "Memeriksa pelaksanaan rencana pembangunan negara sejak 1957 sebagai pengawasan atas belanja yang menyangkut hajat hidup rakyat, menjaga sumber daya publik tidak berpindah ke kepentingan pribadi penyelenggara.",
+          "antithesis_id": "Pemeriksaan atas rencana pembangunan dilakukan tanpa kewenangan menindaklanjuti temuan, dan pada periode yang sama negara menjalankan Petrus serta operasi militer yang biayanya tidak pernah masuk objek pemeriksaan mana pun.",
+          "synthesis_id": "Skor Baik (+1) karena belanja pembangunan yang menyangkut hajat hidup rakyat mulai diperiksa secara terlembaga sejak akhir 1950-an.",
           "evidence": [
             {
               "source_id": "penetapan-bpk-1947"
@@ -39648,7 +39656,9 @@
           "dimension_id": "sila-3",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Memeriksa efektivitas Transfer ke Daerah dan Dana Otonomi Khusus guna memastikan pemerataan pembangunan fiskal antarwilayah NKRI.",
+          "rationale_id": "Memeriksa keuangan BUMN dan proyek strategis nasional pada 1993 yang tersebar di berbagai daerah, menjaga sumber daya pembangunan yang dialokasikan ke wilayah benar-benar sampai pada peruntukannya.",
+          "antithesis_id": "Pemeriksaan proyek strategis berlangsung ketika alokasi pembangunan sangat terpusat di Jawa dan konsesi sumber daya alam di luar Jawa diberikan kepada kroni penguasa, wilayah yang justru tidak tersentuh pemeriksaan.",
+          "synthesis_id": "Skor Baik (+1) karena keuangan BUMN dan proyek strategis mulai diperiksa secara sistematis, membuka jejak akuntabilitas atas belanja pembangunan daerah.",
           "evidence": [
             {
               "source_id": "penetapan-bpk-1947"
@@ -39675,7 +39685,9 @@
           "dimension_id": "sila-4",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Menyerahkan Ikhtisar Hasil Pemeriksaan Semester (IHPS) kepada DPR dan DPD secara periodik sebagai wujud pertanggungjawaban kepada wakil rakyat.",
+          "rationale_id": "Memperoleh dasar undang-undang tersendiri lewat UU No. 5 Tahun 1973 tentang Badan Pemeriksa Keuangan, menegaskan kedudukannya sebagai lembaga yang menyampaikan hasil pemeriksaan kepada lembaga perwakilan.",
+          "antithesis_id": "Kewajiban menyampaikan hasil pemeriksaan kepada DPR berjalan formal, tetapi DPR pada periode itu tidak memiliki kemerdekaan menindaklanjutinya sehingga rantai pertanggungjawaban terputus di ujungnya.",
+          "synthesis_id": "Skor Baik (+1) karena kedudukan BPK dan kewajibannya melapor kepada lembaga perwakilan ditetapkan lewat undang-undang tersendiri.",
           "evidence": [
             {
               "source_id": "penetapan-bpk-1947"
@@ -39702,7 +39714,9 @@
           "dimension_id": "sila-5",
           "score": 1,
           "confidence": 0.85,
-          "rationale_id": "Mengawal uang negara dari kebocoran belanja bantuan sosial, subsidi energi, dan proyek pengadaan strategis untuk keadilan sosial rakyat.",
+          "rationale_id": "Memeriksa keuangan proyek Pembangunan Lima Tahun sejak 1979 yang menjadi tulang punggung belanja kesejahteraan Orde Baru, mengawasi agar dana pembangunan sampai pada sasarannya.",
+          "antithesis_id": "Pemeriksaan proyek Repelita berjalan sementara kebocoran anggaran pembangunan yang ditaksir berbagai kajian mencapai puluhan persen tidak pernah menjadi temuan yang berkonsekuensi, karena penerimanya berada di lingkaran kekuasaan.",
+          "synthesis_id": "Skor Baik (+1) karena belanja pembangunan berskala nasional diperiksa secara berkala, memberi jejak audit atas program yang menopang penurunan kemiskinan periode ini.",
           "evidence": [
             {
               "source_id": "laporan-bpk-djuanda-1957"
@@ -39723,7 +39737,9 @@
           "dimension_id": "tujuan-1",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mengaudit kepatuhan dan kinerja anggaran belanja alutsista pertahanan negara serta anggaran tanggap darurat bencana nasional.",
+          "rationale_id": "Menjalankan pemeriksaan perbendaharaan darurat pada masa perang gerilya dan pemberontakan daerah, menjaga pembiayaan pertahanan republik tetap tercatat dan dapat dipertanggungjawabkan.",
+          "antithesis_id": "Pencatatan pembiayaan pertahanan berjalan pada masa revolusi, tetapi sepanjang Orde Baru anggaran keamanan dan operasi militer di Aceh, Papua, serta Timor Timur berada di luar jangkauan pemeriksaan publik.",
+          "synthesis_id": "Skor Baik (+1) karena pembiayaan pertahanan republik pada masa perang tetap dicatat dan diperiksa, menegakkan disiplin keuangan di situasi paling darurat.",
           "evidence": [
             {
               "source_id": "laporan-bpk-darurat-1947"
@@ -39747,7 +39763,9 @@
           "dimension_id": "tujuan-2",
           "score": 1,
           "confidence": 0.85,
-          "rationale_id": "Menghitung kerugian keuangan negara pada perkara-perkara megaskandal keuangan (BLBI, Bank Century, Jiwasraya, Asabri, BTS 4G) untuk pemulihan aset negara.",
+          "rationale_id": "Memeriksa pelaksanaan anggaran pembangunan nasional sepanjang Repelita, memberi gambaran atas efektivitas belanja negara yang menopang pertumbuhan dan penurunan kemiskinan periode ini.",
+          "antithesis_id": "Gambaran efektivitas belanja yang dihasilkan tidak pernah dipublikasikan secara terbuka kepada rakyat yang uangnya dibelanjakan, sehingga akuntabilitasnya berhenti pada lingkaran birokrasi.",
+          "synthesis_id": "Skor Baik (+1) karena efektivitas belanja pembangunan nasional diperiksa secara berkala sepanjang periode, memberi dasar evaluasi bagi kebijakan fiskal negara.",
           "evidence": [
             {
               "source_id": "laporan-bpk-djuanda-1957"
@@ -39778,7 +39796,9 @@
           "dimension_id": "tujuan-3",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Memeriksa kinerja penyaluran mandatory spending 20% anggaran fungsi pendidikan (BOS, beasiswa, sarana prasarana sekolah) di seluruh kementerian/daerah.",
+          "rationale_id": "Memeriksa belanja pembangunan sarana pendidikan pada program SD Inpres yang membangun puluhan ribu sekolah, mengawasi mutu penggunaan anggaran perluasan akses pendidikan dasar.",
+          "antithesis_id": "Pemeriksaan menyasar kepatuhan administratif pembangunan fisik sekolah dan tidak menyentuh mutu pembelajaran yang dihasilkannya, sehingga temuan audit tidak berkorelasi dengan capaian pendidikan.",
+          "synthesis_id": "Skor Baik (+1) karena belanja perluasan sekolah dasar berskala nasional diperiksa, menjaga program yang menaikkan partisipasi pendidikan tetap terkendali secara fiskal.",
           "evidence": [
             {
               "source_id": "penetapan-bpk-1947"
@@ -39805,7 +39825,9 @@
           "dimension_id": "tujuan-4",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Menjalankan peran auditor eksternal lembaga internasional PBB (UN Board of Auditors / IAEA) dan aktif memimpin organisasi auditor sedunia (INTOSAI).",
+          "rationale_id": "Menegakkan tertib pemeriksaan keuangan negara sesuai kaidah yang berlaku umum sejak berdirinya, prasyarat kepercayaan mitra internasional atas pengelolaan pinjaman dan bantuan luar negeri yang diterima Indonesia.",
+          "antithesis_id": "Kepercayaan mitra internasional dijaga lewat tertib pencatatan, tetapi pinjaman luar negeri yang membiayai pembangunan Orde Baru tetap menumpuk menjadi beban yang meledak pada krisis 1997 tanpa peringatan dini dari pemeriksa.",
+          "synthesis_id": "Skor Baik (+1) karena kaidah pemeriksaan keuangan negara ditegakkan secara tertib, menjaga kelayakan Indonesia sebagai penerima pinjaman dan bantuan internasional.",
           "evidence": [
             {
               "source_id": "penetapan-bpk-1947"
@@ -39832,7 +39854,9 @@
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Mempublikasikan opini Laporan Keuangan Pemerintah Pusat (LKPP) secara transparan sebagai bentuk pertanggungjawaban fiskal tertinggi kepada rakyat.",
+          "rationale_id": "Mempertahankan keberadaan lembaga pemeriksa keuangan yang diamanatkan Pasal 23 UUD 1945 sepanjang lima dekade, menjaga prinsip bahwa uang rakyat harus diperiksa oleh lembaga di luar yang membelanjakannya.",
+          "antithesis_id": "Prinsip itu dipertahankan secara kelembagaan tetapi dikosongkan isinya ketika BPK pada 1965 ditempatkan sebagai pembantu Pemimpin Besar Revolusi, dan hasil pemeriksaannya tidak pernah dapat diakses rakyat yang diwakilinya.",
+          "synthesis_id": "Skor Baik (+1) karena amanat konstitusional pemeriksaan keuangan oleh lembaga di luar pembelanja dipertahankan tanpa terputus sepanjang lima dasawarsa.",
           "evidence": [
             {
               "source_id": "penetapan-bpk-1947"
@@ -39897,6 +39921,8 @@
           "score": 2,
           "confidence": 0.85,
           "rationale_id": "Transformasi menjadi lembaga audit independen satu pintu lewat UU 15/2004 dan UU 15/2006, membongkar skandal BLBI dan merevolusi transparansi anggaran.",
+          "antithesis_id": "Independensi baru diperoleh setelah tiga dekade subordinasi, dan temuan BLBI senilai ratusan triliun rupiah yang dibongkar pada 2000 tidak berujung pemulihan kerugian negara maupun penuntutan terhadap obligor utamanya.",
+          "synthesis_id": "Skor Sangat Baik (+2) karena UU 15/2004 dan UU 15/2006 mengubah BPK menjadi pemeriksa independen satu pintu dengan kewenangan penuh, transformasi kelembagaan terbesar sejak 1947.",
           "evidence": [
             {
               "source_id": "uu-15-2004"
@@ -39933,6 +39959,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Menyerahkan temuan indikasi kerugian negara kepada penegak hukum (KPK, Kejaksaan, Kepolisian) untuk ditindaklanjuti secara pidana.",
+          "antithesis_id": "Penyerahan temuan kepada penegak hukum melembagakan jalur pidana atas kerugian negara, tetapi tindak lanjutnya sepenuhnya berada di luar kendali BPK sehingga sebagian besar temuan mengendap tanpa kepastian.",
+          "synthesis_id": "Skor Baik (+1) karena hasil pemeriksaan investigatif ditetapkan sebagai bukti yang diserahkan langsung kepada penegak hukum, menghubungkan audit keuangan dengan penegakan pidana.",
           "evidence": [
             {
               "source_id": "uu-15-2004"
@@ -39959,7 +39987,9 @@
           "dimension_id": "sila-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Memeriksa akuntabilitas pengelolaan dana abadi umat dan dana penyelenggaraan ibadah haji guna mencegah penyimpangan keuangan bernuansa keagamaan.",
+          "rationale_id": "Menetapkan Standar Pemeriksaan Keuangan Negara lewat Peraturan BPK No. 1 Tahun 2007, mengikat seluruh pemeriksa pada kaidah profesional dan etika yang seragam dalam mengelola amanah pemeriksaan uang rakyat.",
+          "antithesis_id": "Standar profesional ditetapkan di atas kertas tanpa mekanisme penegakan etik yang independen terhadap pemeriksanya sendiri, kelemahan yang terbukti fatal ketika auditor BPK mulai tertangkap menjual opini pada periode berikutnya.",
+          "synthesis_id": "Skor Baik (+1) karena seluruh pemeriksaan keuangan negara diikat pada satu standar profesional yang mengikat, menutup keleluasaan metode yang sebelumnya terbuka.",
           "evidence": [
             {
               "source_id": "laporan-bpk-blbi-2000"
@@ -39989,7 +40019,9 @@
           "dimension_id": "sila-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Melakukan audit investigatif terhadap kejahatan korupsi yang merampas hak-hak dasar ekonomi dan jaminan sosial masyarakat rentan.",
+          "rationale_id": "Membongkar penyimpangan dana Bantuan Likuiditas Bank Indonesia senilai Rp138,4 triliun lewat audit investigatif 2000, memperlihatkan beban krisis yang ditanggung rakyat berasal dari penyalahgunaan dana talangan perbankan.",
+          "antithesis_id": "Temuan sebesar itu tidak berujung pemulihan kerugian negara: penerbitan Surat Keterangan Lunas justru menutup jalur penagihan terhadap obligor, sehingga audit yang berani berakhir sebagai dokumen tanpa konsekuensi.",
+          "synthesis_id": "Skor Baik (+1) karena penyimpangan keuangan terbesar dalam sejarah republik dibongkar dan diangkat ke ruang publik oleh lembaga pemeriksa negara sendiri.",
           "evidence": [
             {
               "source_id": "laporan-bpk-blbi-2000"
@@ -40016,7 +40048,9 @@
           "dimension_id": "sila-3",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Memeriksa efektivitas Transfer ke Daerah dan Dana Otonomi Khusus guna memastikan pemerataan pembangunan fiskal antarwilayah NKRI.",
+          "rationale_id": "Memeriksa pengelolaan keuangan daerah pada masa awal desentralisasi setelah kewenangan dan anggaran berpindah ke ratusan pemerintah daerah, menjaga pemerataan fiskal tidak berubah menjadi kebocoran terdesentralisasi.",
+          "antithesis_id": "Kapasitas pemeriksaan tidak tumbuh secepat jumlah entitas yang harus diperiksa setelah otonomi daerah, sehingga cakupan audit atas ratusan pemerintah daerah pada periode ini masih sangat terbatas.",
+          "synthesis_id": "Skor Baik (+1) karena pemeriksaan diperluas mengikuti perpindahan kewenangan fiskal ke daerah, menjaga desentralisasi tetap berada dalam kerangka akuntabilitas.",
           "evidence": [
             {
               "source_id": "laporan-bpk-blbi-2000"
@@ -40043,7 +40077,9 @@
           "dimension_id": "sila-4",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Menyerahkan Ikhtisar Hasil Pemeriksaan Semester (IHPS) kepada DPR dan DPD secara periodik sebagai wujud pertanggungjawaban kepada wakil rakyat.",
+          "rationale_id": "Memperoleh kewajiban menyampaikan hasil pemeriksaan kepada DPR, DPD, dan DPRD lewat UU No. 15 Tahun 2004, menempatkan lembaga perwakilan di semua tingkatan sebagai penerima pertanggungjawaban keuangan negara.",
+          "antithesis_id": "Kewajiban melapor kepada tiga jenis lembaga perwakilan ditetapkan tanpa kewajiban lembaga penerima menindaklanjutinya, sehingga laporan pemeriksaan kerap berhenti sebagai dokumen yang diterima tanpa dibahas.",
+          "synthesis_id": "Skor Baik (+1) karena hasil pemeriksaan keuangan negara wajib disampaikan kepada lembaga perwakilan di seluruh tingkatan, membuka rantai pertanggungjawaban yang sebelumnya tertutup.",
           "evidence": [
             {
               "source_id": "laporan-bpk-blbi-2000"
@@ -40067,7 +40103,9 @@
           "dimension_id": "sila-5",
           "score": 1,
           "confidence": 0.85,
-          "rationale_id": "Mengawal uang negara dari kebocoran belanja bantuan sosial, subsidi energi, dan proyek pengadaan strategis untuk keadilan sosial rakyat.",
+          "rationale_id": "Menyerahkan laporan hasil pemeriksaan investigatif atas bailout Bank Century senilai Rp6,76 triliun pada November 2009, membongkar penyelamatan bank yang membebani keuangan negara di tengah krisis.",
+          "antithesis_id": "Laporan itu diserahkan tepat waktu dan lengkap, tetapi tindak lanjutnya di DPR berubah menjadi manuver politik sehingga tidak seorang pun bertanggung jawab dan dana yang dikeluarkan tidak pulih.",
+          "synthesis_id": "Skor Baik (+1) karena penyelamatan bank yang membebani keuangan negara dibongkar lewat audit investigatif dan diserahkan kepada lembaga perwakilan untuk ditindaklanjuti.",
           "evidence": [
             {
               "source_id": "laporan-bpk-blbi-2000"
@@ -40097,7 +40135,9 @@
           "dimension_id": "tujuan-1",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mengaudit kepatuhan dan kinerja anggaran belanja alutsista pertahanan negara serta anggaran tanggap darurat bencana nasional.",
+          "rationale_id": "Menegaskan independensi penuh BPK lewat UU No. 15 Tahun 2006 termasuk kewenangan memeriksa seluruh entitas pengelola keuangan negara tanpa pengecualian, menutup wilayah anggaran yang sebelumnya kebal pemeriksaan.",
+          "antithesis_id": "Kewenangan tanpa pengecualian ditetapkan dalam undang-undang, tetapi akses atas anggaran pertahanan dan intelijen dalam praktik tetap terbatas karena alasan kerahasiaan negara yang penilaiannya ada pada pihak yang diperiksa.",
+          "synthesis_id": "Skor Baik (+1) karena seluruh entitas pengelola keuangan negara ditetapkan sebagai objek pemeriksaan tanpa pengecualian, menghapus wilayah anggaran yang kebal audit.",
           "evidence": [
             {
               "source_id": "laporan-bpk-blbi-2000"
@@ -40121,7 +40161,9 @@
           "dimension_id": "tujuan-2",
           "score": 1,
           "confidence": 0.85,
-          "rationale_id": "Menghitung kerugian keuangan negara pada perkara-perkara megaskandal keuangan (BLBI, Bank Century, Jiwasraya, Asabri, BTS 4G) untuk pemulihan aset negara.",
+          "rationale_id": "Memeriksa efisiensi biaya pokok produksi bahan bakar minyak pada 2008 ketika subsidi energi membebani APBN secara ekstrem, memberi dasar faktual bagi kebijakan subsidi yang menyangkut daya beli seluruh rumah tangga.",
+          "antithesis_id": "Pemeriksaan menghasilkan gambaran biaya yang lebih jernih, tetapi keputusan besaran subsidi tetap ditentukan pertimbangan politik jangka pendek sehingga temuan audit tidak mengubah struktur belanja energi.",
+          "synthesis_id": "Skor Baik (+1) karena struktur biaya subsidi energi yang membebani APBN diperiksa secara independen, memberi dasar faktual bagi perdebatan kebijakan publik.",
           "evidence": [
             {
               "source_id": "laporan-bpk-blbi-2000"
@@ -40153,7 +40195,9 @@
           "dimension_id": "tujuan-3",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Memeriksa kinerja penyaluran mandatory spending 20% anggaran fungsi pendidikan (BOS, beasiswa, sarana prasarana sekolah) di seluruh kementerian/daerah.",
+          "rationale_id": "Memeriksa penyaluran dana Bantuan Operasional Sekolah sejak diluncurkan pada 2005 yang menjadikan pendidikan dasar praktis gratis, mengawasi agar dana sampai ke satuan pendidikan penerimanya.",
+          "antithesis_id": "Pemeriksaan menyasar kepatuhan penyaluran sementara pungutan tidak resmi di sekolah berlanjut di luar jangkauan audit, sehingga temuan bersih tidak berarti biaya pendidikan benar-benar hilang bagi orang tua.",
+          "synthesis_id": "Skor Baik (+1) karena dana yang menggratiskan pendidikan dasar sembilan tahun diperiksa penyalurannya, menjaga program pemerataan terbesar periode ini tetap akuntabel.",
           "evidence": [
             {
               "source_id": "laporan-bpk-blbi-2000"
@@ -40183,7 +40227,9 @@
           "dimension_id": "tujuan-4",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Menjalankan peran auditor eksternal lembaga internasional PBB (UN Board of Auditors / IAEA) dan aktif memimpin organisasi auditor sedunia (INTOSAI).",
+          "rationale_id": "Menyesuaikan praktik pemeriksaan Indonesia dengan standar organisasi lembaga pemeriksa keuangan sedunia lewat UU 15/2004 dan Standar Pemeriksaan Keuangan Negara 2007, menempatkan Indonesia dalam tertib audit yang diakui internasional.",
+          "antithesis_id": "Penyesuaian dengan standar internasional berlangsung di tingkat metodologi, sementara tingkat tindak lanjut temuan yang menjadi ukuran sesungguhnya efektivitas pemeriksaan tetap jauh di bawah praktik terbaik yang dirujuk.",
+          "synthesis_id": "Skor Baik (+1) karena metodologi pemeriksaan keuangan negara Indonesia diselaraskan dengan standar yang diakui komunitas pemeriksa internasional.",
           "evidence": [
             {
               "source_id": "laporan-bpk-blbi-2000"
@@ -40210,7 +40256,9 @@
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Mempublikasikan opini Laporan Keuangan Pemerintah Pusat (LKPP) secara transparan sebagai bentuk pertanggungjawaban fiskal tertinggi kepada rakyat.",
+          "rationale_id": "Membuka hasil pemeriksaan keuangan negara kepada publik seiring UU 15/2004 dan UU 15/2006, menjadikan laporan yang sebelumnya tertutup sebagai dokumen yang dapat diperiksa rakyat pemilik uangnya.",
+          "antithesis_id": "Keterbukaan hasil pemeriksaan tidak diikuti kemampuan publik menuntut tindak lanjut, sehingga akses atas informasi tersedia sementara mekanisme menagih pertanggungjawaban atasnya tidak.",
+          "synthesis_id": "Skor Baik (+1) karena laporan hasil pemeriksaan keuangan negara berubah dari dokumen tertutup menjadi informasi publik yang dapat diperiksa siapa pun.",
           "evidence": [
             {
               "source_id": "uu-15-2004"
@@ -40278,6 +40326,8 @@
           "score": -1,
           "confidence": 0.85,
           "rationale_id": "Auditor Utama BPK Rochmadi Saptogiri dan Ali Sadli OTT KPK menjual opini WTP ke Kementerian Desa. Auditor BPK Jabar Anthon OTT Rp1,9 miliar dari Bupati Bogor Ade Yasin untuk rekayasa WTP. Ketua BPK Harry Azhar Azis terungkap di Panama Papers. Badan pemeriksa keuangan yang justru memperjualbelikan integritasnya sendiri — checks and balances menjadi farsa.",
+          "antithesis_id": "Pada periode yang sama BPK menghasilkan audit investigatif Hambalang, Wisma Atlet, helikopter AW-101, dan e-KTP yang menjadi dasar penuntutan pejabat tinggi negara termasuk ketua DPR.",
+          "synthesis_id": "Skor Buruk (-1) karena Auditor Utama BPK tertangkap tangan menjual opini WTP kepada kementerian, sehingga instrumen pengawasan itu sendiri berubah menjadi komoditas yang diperjualbelikan.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40323,6 +40373,8 @@
           "score": -1,
           "confidence": 0.85,
           "rationale_id": "Opini WTP diperjualbelikan oleh auditor-auditor BPK sendiri — integritas audit keuangan negara runtuh dari dalam. Opini audit BPK tidak lagi bisa dipercaya sebagai instrumen penegakan hukum keuangan negara.",
+          "antithesis_id": "Audit investigatif periode ini menjadi bukti primer dalam perkara korupsi terbesar dalam sejarah republik, memperlihatkan fungsi penghitungan kerugian negara tetap bekerja dan diandalkan penegak hukum.",
+          "synthesis_id": "Skor Buruk (-1) karena opini wajar tanpa pengecualian diperjualbelikan oleh pemeriksanya sendiri, meruntuhkan nilai opini audit sebagai penanda kepatuhan pengelolaan keuangan negara.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40358,7 +40410,9 @@
           "dimension_id": "sila-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Memeriksa akuntabilitas pengelolaan dana abadi umat dan dana penyelenggaraan ibadah haji guna mencegah penyimpangan keuangan bernuansa keagamaan.",
+          "rationale_id": "Menerapkan akuntansi berbasis akrual pada seluruh entitas pemerintah sejak 2015-2016, mengubah pelaporan keuangan negara dari pencatatan kas menjadi gambaran utuh hak dan kewajiban yang menjadi amanah penyelenggara.",
+          "antithesis_id": "Peralihan ke akuntansi akrual memperbaiki mutu pelaporan, tetapi lonjakan opini WTP yang menyertainya sebagian diperoleh lewat perbaikan administratif alih-alih perbaikan substansi pengelolaan, dan sebagian lagi terbukti dibeli.",
+          "synthesis_id": "Skor Baik (+1) karena laporan keuangan seluruh entitas pemerintah berpindah ke basis akrual, memberi gambaran posisi keuangan negara yang jauh lebih utuh.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40385,7 +40439,9 @@
           "dimension_id": "sila-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Melakukan audit investigatif terhadap kejahatan korupsi yang merampas hak-hak dasar ekonomi dan jaminan sosial masyarakat rentan.",
+          "rationale_id": "Menghitung kerugian negara dalam mega korupsi Wisma Atlet pada 2013 dan proyek Hambalang pada 2012, membongkar penjarahan anggaran olahraga dan pemuda yang seharusnya menjadi belanja bagi generasi muda.",
+          "antithesis_id": "Penghitungan kerugian dituntaskan dan menjadi dasar pemidanaan, tetapi pemulihan aset negara dari kedua perkara itu berjalan jauh di bawah nilai kerugian yang ditetapkan sehingga uang rakyat sebagian besar tidak kembali.",
+          "synthesis_id": "Skor Baik (+1) karena penjarahan anggaran pada dua proyek besar dibongkar lewat audit investigatif dan menjadi dasar pemidanaan pejabat yang bertanggung jawab.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40412,7 +40468,9 @@
           "dimension_id": "sila-3",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Memeriksa efektivitas Transfer ke Daerah dan Dana Otonomi Khusus guna memastikan pemerataan pembangunan fiskal antarwilayah NKRI.",
+          "rationale_id": "Memeriksa perpanjangan kontrak Jakarta International Container Terminal pada Pelindo II tahun 2016 dan menemukan kerugian negara pada pengelolaan aset pelabuhan yang menjadi simpul konektivitas antarwilayah.",
+          "antithesis_id": "Temuan atas perpanjangan kontrak JICT dipersoalkan balik oleh pihak yang diperiksa dan tindak lanjutnya berlarut tanpa kepastian hukum, memperlihatkan kewenangan audit atas BUMN besar mudah dilawan.",
+          "synthesis_id": "Skor Baik (+1) karena pengelolaan aset pelabuhan strategis yang menghubungkan wilayah diperiksa dan kerugiannya diangkat ke ruang publik.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40439,7 +40497,9 @@
           "dimension_id": "sila-4",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Menyerahkan Ikhtisar Hasil Pemeriksaan Semester (IHPS) kepada DPR dan DPD secara periodik sebagai wujud pertanggungjawaban kepada wakil rakyat.",
+          "rationale_id": "Menyerahkan audit investigatif Hambalang kepada DPR pada 2012 yang mengungkap kerugian negara pada proyek yang melibatkan pimpinan partai berkuasa, menjadikan hasil pemeriksaan bahan pertanggungjawaban politik di lembaga perwakilan.",
+          "antithesis_id": "Penyerahan hasil audit ke DPR menjadikan temuan bahan perdebatan politik, tetapi juga membuat tindak lanjutnya bergantung pada peta koalisi sehingga kedalaman pengusutan ditentukan kalkulasi partai alih-alih bukti.",
+          "synthesis_id": "Skor Baik (+1) karena hasil audit atas proyek yang melibatkan lingkaran kekuasaan diserahkan terbuka kepada lembaga perwakilan dan menjadi bahan pertanggungjawaban publik.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40469,7 +40529,9 @@
           "dimension_id": "sila-5",
           "score": 1,
           "confidence": 0.85,
-          "rationale_id": "Mengawal uang negara dari kebocoran belanja bantuan sosial, subsidi energi, dan proyek pengadaan strategis untuk keadilan sosial rakyat.",
+          "rationale_id": "Melakukan audit investigatif pengadaan helikopter AW-101 pada 2017 dan menemukan kerugian negara pada belanja yang dialihkan dari kebutuhan dasar, menegakkan keadilan alokasi sumber daya publik.",
+          "antithesis_id": "Audit atas pengadaan pertahanan tuntas dilakukan, tetapi tindak lanjut pidananya tersendat oleh dualisme peradilan militer dan umum sehingga pertanggungjawabannya tidak pernah utuh.",
+          "synthesis_id": "Skor Baik (+1) karena belanja pengadaan alat utama sistem persenjataan yang selama ini kebal diperiksa dan kerugiannya diungkap ke publik.",
           "evidence": [
             {
               "source_id": "lhp-bpk-hambalang-2012"
@@ -40499,7 +40561,9 @@
           "dimension_id": "tujuan-1",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mengaudit kepatuhan dan kinerja anggaran belanja alutsista pertahanan negara serta anggaran tanggap darurat bencana nasional.",
+          "rationale_id": "Menghitung kerugian keuangan negara proyek kartu tanda penduduk elektronik sebesar Rp2,31 triliun pada 2017, membongkar penjarahan pada proyek identitas kependudukan yang menjadi dasar perlindungan hak seluruh warga.",
+          "antithesis_id": "Penghitungan kerugian menjadi dasar pemidanaan hingga ketua DPR, tetapi kerusakan pada sistem identitas kependudukan yang ditimbulkannya berlangsung bertahun-tahun dan memengaruhi layanan dasar bagi jutaan warga.",
+          "synthesis_id": "Skor Baik (+1) karena korupsi pada proyek identitas kependudukan nasional dibongkar dan kerugiannya dihitung, menjadi dasar pemidanaan pejabat tertinggi lembaga legislatif.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40529,7 +40593,9 @@
           "dimension_id": "tujuan-2",
           "score": 1,
           "confidence": 0.85,
-          "rationale_id": "Menghitung kerugian keuangan negara pada perkara-perkara megaskandal keuangan (BLBI, Bank Century, Jiwasraya, Asabri, BTS 4G) untuk pemulihan aset negara.",
+          "rationale_id": "Mengungkap rekayasa laporan keuangan PT Garuda Indonesia pada 2019 dengan menolak pengakuan pendapatan yang belum diterima, menegakkan kejujuran pelaporan keuangan badan usaha milik negara.",
+          "antithesis_id": "Pengungkapan rekayasa laporan keuangan menunjukkan pengawasan berjalan, tetapi terjadi setelah laporan yang menyesatkan sempat dipublikasikan dan memengaruhi keputusan pemangku kepentingan selama satu tahun buku penuh.",
+          "synthesis_id": "Skor Baik (+1) karena rekayasa pengakuan pendapatan pada laporan keuangan BUMN penerbangan nasional ditolak dan dikoreksi secara terbuka.",
           "evidence": [
             {
               "source_id": "laporan-audit-bpk-century-2009"
@@ -40560,7 +40626,9 @@
           "dimension_id": "tujuan-3",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Memeriksa kinerja penyaluran mandatory spending 20% anggaran fungsi pendidikan (BOS, beasiswa, sarana prasarana sekolah) di seluruh kementerian/daerah.",
+          "rationale_id": "Memeriksa kinerja belanja fungsi pendidikan pada periode ketika mandat 20 persen APBN telah dipenuhi secara nominal, menguji apakah besaran anggaran itu benar-benar sampai pada komponen utama pendidikan.",
+          "antithesis_id": "Pemeriksaan kinerja mengungkap sebagian besar anggaran pendidikan terserap gaji dan tunjangan alih-alih mutu pembelajaran, tetapi temuan itu tidak berkonsekuensi karena pemenuhan mandat 20 persen dihitung secara nominal.",
+          "synthesis_id": "Skor Baik (+1) karena kualitas penggunaan anggaran pendidikan diperiksa dan bukan sekadar pemenuhan angkanya, membuka persoalan yang selama ini tertutup oleh capaian nominal.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40587,7 +40655,9 @@
           "dimension_id": "tujuan-4",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Menjalankan peran auditor eksternal lembaga internasional PBB (UN Board of Auditors / IAEA) dan aktif memimpin organisasi auditor sedunia (INTOSAI).",
+          "rationale_id": "Menjalankan pemeriksaan sesuai standar internasional pada entitas yang mengelola pinjaman dan hibah luar negeri sepanjang periode ini, menjaga kepercayaan mitra pembangunan atas akuntabilitas keuangan Indonesia.",
+          "antithesis_id": "Kepercayaan mitra internasional dijaga lewat kepatuhan metodologi, tetapi tertangkapnya auditor BPK menjual opini pada 2017 merusak reputasi profesional yang dibangun bertahun-tahun dalam sekali peristiwa.",
+          "synthesis_id": "Skor Baik (+1) karena pemeriksaan atas pengelolaan pinjaman dan hibah luar negeri dijalankan sesuai standar yang diakui mitra pembangunan internasional.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40614,7 +40684,9 @@
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Mempublikasikan opini Laporan Keuangan Pemerintah Pusat (LKPP) secara transparan sebagai bentuk pertanggungjawaban fiskal tertinggi kepada rakyat.",
+          "rationale_id": "Mempublikasikan capaian opini laporan keuangan pemerintah pusat dan daerah secara terbuka sejak penerapan akuntansi akrual 2016, menjadikan mutu pengelolaan keuangan setiap entitas dapat diperiksa warga.",
+          "antithesis_id": "Publikasi opini memberi warga penanda mutu pengelolaan keuangan, tetapi nilai penanda itu runtuh ketika terbukti sebagian opini WTP diperoleh lewat suap kepada pemeriksanya.",
+          "synthesis_id": "Skor Baik (+1) karena opini atas laporan keuangan seluruh entitas pemerintah dipublikasikan terbuka, memberi warga alat menilai pengelolaan uangnya sendiri.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40761,6 +40833,8 @@
           "score": 0,
           "confidence": 0.85,
           "rationale_id": "Audit bansos dan PEN dilakukan, namun kredibilitas temuan terdegradasi oleh fakta bahwa auditor-auditor BPK sendiri terus-menerus terjerat korupsi. Akuntabilitas keadilan sosial tidak bisa ditegakkan oleh lembaga yang integritasnya dipertanyakan.",
+          "antithesis_id": "Audit atas program Pemulihan Ekonomi Nasional dan bantuan sosial pandemi dituntaskan pada saat belanja negara melonjak paling cepat sepanjang sejarah, menjaga jejak akuntabilitas di masa paling rawan penyimpangan.",
+          "synthesis_id": "Skor Netral (0) karena pemeriksaan atas belanja perlindungan sosial berjalan penuh, tepat sebanding dengan degradasi kredibilitasnya akibat auditor BPK yang terus tertangkap memperjualbelikan hasil pemeriksaan.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -40811,7 +40885,9 @@
           "dimension_id": "sila-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Memeriksa akuntabilitas pengelolaan dana abadi umat dan dana penyelenggaraan ibadah haji guna mencegah penyimpangan keuangan bernuansa keagamaan.",
+          "rationale_id": "Melakukan audit kinerja pengadaan sarana pertanian pada 2025 dan memeriksa restrukturisasi utang badan usaha milik negara pada 2023, menjaga amanah pengelolaan sumber daya publik pada sektor yang menyangkut hajat hidup orang banyak.",
+          "antithesis_id": "Audit kinerja atas pengadaan dan restrukturisasi berjalan rutin, tetapi rekomendasinya tidak mengikat dan tingkat tindak lanjutnya oleh entitas yang diperiksa tetap menjadi persoalan yang berulang dalam setiap ikhtisar.",
+          "synthesis_id": "Skor Baik (+1) karena pengelolaan sumber daya publik pada sektor pangan dan badan usaha negara diperiksa dari sisi kinerja, bukan sekadar kepatuhan administratif.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -40842,7 +40918,9 @@
           "dimension_id": "sila-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Melakukan audit investigatif terhadap kejahatan korupsi yang merampas hak-hak dasar ekonomi dan jaminan sosial masyarakat rentan.",
+          "rationale_id": "Membongkar mega korupsi investasi Jiwasraya pada 2020 dan Asabri pada 2021 yang menguras dana pensiun serta asuransi prajurit dan pegawai negeri, memulihkan hak ekonomi kelompok yang paling bergantung pada jaminan itu.",
+          "antithesis_id": "Kerugian dihitung dan pelakunya dipidana, tetapi pemulihan dana bagi peserta Jiwasraya dan Asabri berlangsung lewat restrukturisasi yang memangkas nilai manfaat, sehingga korban tetap menanggung sebagian kerugian.",
+          "synthesis_id": "Skor Baik (+1) karena penjarahan dana pensiun dan asuransi prajurit serta pegawai negeri dibongkar lewat audit investigatif dan menjadi dasar pemidanaan.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -40869,7 +40947,9 @@
           "dimension_id": "sila-3",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Memeriksa efektivitas Transfer ke Daerah dan Dana Otonomi Khusus guna memastikan pemerataan pembangunan fiskal antarwilayah NKRI.",
+          "rationale_id": "Melakukan audit kinerja pengelolaan Dana Otonomi Khusus Papua pada 2021 dan memotret kesiapan infrastruktur serta tata kelola anggaran Ibu Kota Nusantara dalam IHPS I 2024, menguji efektivitas belanja pemerataan antarwilayah.",
+          "antithesis_id": "Audit atas dana otonomi khusus mengungkap persoalan penyerapan dan tata kelola, tetapi tidak menyentuh persoalan politik yang mendasarinya sehingga temuan fiskal tidak menjawab akar ketimpangan di wilayah yang diperiksa.",
+          "synthesis_id": "Skor Baik (+1) karena belanja pemerataan antarwilayah terbesar - Otsus Papua dan pembangunan ibu kota baru - diperiksa efektivitasnya secara independen.",
           "evidence": [
             {
               "source_id": "lhp-bpk-otsus-papua-2021"
@@ -40897,7 +40977,9 @@
           "dimension_id": "sila-4",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Menyerahkan Ikhtisar Hasil Pemeriksaan Semester (IHPS) kepada DPR dan DPD secara periodik sebagai wujud pertanggungjawaban kepada wakil rakyat.",
+          "rationale_id": "Mengungkap jutaan hektare perkebunan sawit ilegal tanpa izin yang merugikan penerimaan negara pada audit 2023, menempatkan hasil pemeriksaan sebagai bahan pertanggungjawaban publik atas penguasaan sumber daya alam.",
+          "antithesis_id": "Temuan sawit ilegal berskala jutaan hektare diangkat ke publik, tetapi penyelesaiannya dialihkan ke skema pemutihan administratif sehingga pelanggaran justru memperoleh legalisasi alih-alih sanksi.",
+          "synthesis_id": "Skor Baik (+1) karena penguasaan lahan tanpa izin berskala masif yang merugikan penerimaan negara dibongkar dan diangkat menjadi persoalan publik.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -40927,7 +41009,9 @@
           "dimension_id": "tujuan-1",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mengaudit kepatuhan dan kinerja anggaran belanja alutsista pertahanan negara serta anggaran tanggap darurat bencana nasional.",
+          "rationale_id": "Melakukan audit investigatif yang mengungkap kerugian negara pada pengadaan darurat penanganan COVID-19 dan memeriksa kepatuhan penanganan pandemi pada 2021, mengawasi belanja perlindungan warga di masa krisis kesehatan.",
+          "antithesis_id": "Pemeriksaan atas belanja darurat dituntaskan, tetapi dilakukan setelah pengadaan berlangsung dengan relaksasi aturan yang ditetapkan UU 2/2020, sehingga audit hanya dapat mencatat kerugian yang sudah terjadi.",
+          "synthesis_id": "Skor Baik (+1) karena belanja darurat penanganan pandemi yang dikeluarkan dengan relaksasi aturan tetap diperiksa dan kerugiannya diungkap.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -40957,7 +41041,9 @@
           "dimension_id": "tujuan-2",
           "score": 1,
           "confidence": 0.85,
-          "rationale_id": "Menghitung kerugian keuangan negara pada perkara-perkara megaskandal keuangan (BLBI, Bank Century, Jiwasraya, Asabri, BTS 4G) untuk pemulihan aset negara.",
+          "rationale_id": "Merampungkan audit investigatif korupsi proyek BTS 4G pada 2023 dan pengadaan pesawat Garuda pada 2020, menghitung kerugian negara pada belanja yang seharusnya memperluas konektivitas dan layanan publik.",
+          "antithesis_id": "Kerugian dihitung dan pelakunya dipidana, tetapi proyek BTS 4G yang seharusnya menghadirkan sinyal di daerah tertinggal tertunda bertahun-tahun sehingga warga yang menjadi sasarannya menanggung akibatnya.",
+          "synthesis_id": "Skor Baik (+1) karena korupsi pada dua proyek layanan publik berskala besar dibongkar lewat audit investigatif dan menjadi dasar pemidanaan.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -41001,7 +41087,9 @@
           "dimension_id": "tujuan-3",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Memeriksa kinerja penyaluran mandatory spending 20% anggaran fungsi pendidikan (BOS, beasiswa, sarana prasarana sekolah) di seluruh kementerian/daerah.",
+          "rationale_id": "Menyerahkan Ikhtisar Hasil Pemeriksaan Semester II 2024 kepada lembaga perwakilan pada 2025 yang memuat pemeriksaan atas belanja fungsi pendidikan, menjaga pengawasan mandat anggaran pendidikan tetap berkala.",
+          "antithesis_id": "Penyerahan ikhtisar berjalan berkala, tetapi pada periode yang sama tim pemeriksa BPK Jawa Barat tertangkap tangan menerima suap sehingga keandalan temuan yang disampaikan ikut dipersoalkan.",
+          "synthesis_id": "Skor Baik (+1) karena pemeriksaan atas belanja fungsi pendidikan disampaikan secara berkala kepada lembaga perwakilan sebagai bahan pengawasan mandat konstitusional.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -41031,7 +41119,9 @@
           "dimension_id": "tujuan-4",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Menjalankan peran auditor eksternal lembaga internasional PBB (UN Board of Auditors / IAEA) dan aktif memimpin organisasi auditor sedunia (INTOSAI).",
+          "rationale_id": "Melakukan audit investigatif kerusakan lingkungan dan kerugian negara pada tata niaga timah pada 2024 dengan menghitung kerugian ekologis sebagai bagian kerugian negara, memperluas tanggung jawab lintas generasi atas kerusakan alam.",
+          "antithesis_id": "Penghitungan kerugian ekologis membuka metodologi baru yang berani, tetapi metodenya dipersoalkan di persidangan dan menjadi titik lemah pembuktian sehingga terobosan itu belum menjadi yurisprudensi yang mapan.",
+          "synthesis_id": "Skor Baik (+1) karena kerugian ekologis dihitung sebagai bagian kerugian negara untuk pertama kalinya, memperluas tanggung jawab hukum atas kerusakan lingkungan lintas batas generasi.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -41058,6 +41148,8 @@
           "score": 1,
           "confidence": 0.8,
           "rationale_id": "Menyediakan laporan hasil pemeriksaan investigatif (LHP) sebagai bukti primer pro-justitia bagi aparat penegak hukum (KPK, Kejaksaan, Polri).",
+          "antithesis_id": "Nilai laporan investigatif sebagai bukti pro justitia bergantung pada integritas pemeriksanya, dan vonis tipikor terhadap anggota BPK Achsanul Qosasi pada 2024 memperlihatkan integritas itu tidak terjamin pada tingkat pimpinan sekalipun.",
+          "synthesis_id": "Skor Baik (+1) karena laporan hasil pemeriksaan investigatif dilembagakan sebagai bukti primer yang diserahkan langsung kepada penegak hukum, menopang pengusutan korupsi berskala besar.",
           "evidence": [
             {
               "source_id": "laporan-ihps-bpk-2022"
@@ -41101,7 +41193,9 @@
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Mempublikasikan opini Laporan Keuangan Pemerintah Pusat (LKPP) secara transparan sebagai bentuk pertanggungjawaban fiskal tertinggi kepada rakyat.",
+          "rationale_id": "Menyerahkan Ikhtisar Hasil Pemeriksaan Semester I 2025 dan hasil audit pengawasan kepada lembaga perwakilan pada 2026, menjaga siklus pertanggungjawaban keuangan negara kepada rakyat tetap berjalan tanpa terputus.",
+          "antithesis_id": "Siklus pertanggungjawaban berjalan tertib secara prosedural, tetapi rangkaian penangkapan auditor dan vonis terhadap anggota BPK sendiri membuat laporan yang disampaikan tidak lagi otomatis dipercaya publik.",
+          "synthesis_id": "Skor Baik (+1) karena siklus penyampaian hasil pemeriksaan kepada lembaga perwakilan dijaga tetap berjalan berkala tanpa terputus.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
