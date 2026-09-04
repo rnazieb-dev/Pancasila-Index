@@ -550,6 +550,38 @@ for (const [teks, ids] of ringkasanTerpakai) {
   );
 }
 
+// (5c) Judul peristiwa yang nyaris sama dalam satu masa jabatan & tanggal
+//      adalah duplikat, sekalipun tidak menyebut nomor dokumen hukum.
+const judulTerpakai = new Map<string, string[]>();
+for (const e of events) {
+  const inti = e.title_id
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]/g, " ")
+    .split(/\s+/)
+    .filter((w) => w.length > 3)
+    .sort()
+    .join(" ");
+  const kunci = `${e.term_id}::${e.date}::${inti}`;
+  judulTerpakai.set(kunci, [...(judulTerpakai.get(kunci) ?? []), e.id]);
+}
+for (const [kunci, ids] of judulTerpakai) {
+  if (ids.length < 2) continue;
+  errors.push(
+    `peristiwa duplikat: ${ids.join(", ")} berjudul sama pada masa jabatan & tanggal ` +
+      `yang sama (${kunci.split("::").slice(0, 2).join(" ")}) - gabungkan`
+  );
+}
+
+// (5d) Label pabrikan pada judul peristiwa.
+for (const e of events) {
+  if (/^(Dokumentasi Historis|Penerbitan Kebijakan Eksekutif|Putusan Peradilan):/.test(e.title_id)) {
+    errors.push(
+      `peristiwa ${e.id}: judul berlabel pabrikan "${e.title_id.split(":")[0]}:" - ` +
+        `tulis judul peristiwanya, bukan kategori generatornya`
+    );
+  }
+}
+
 // (6) Dua peristiwa dalam satu masa jabatan yang menunjuk nomor dokumen hukum
 //     yang sama adalah duplikat - `source::date` saja tidak cukup karena
 //     tanggal beda satu hari sudah lolos.

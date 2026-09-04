@@ -1888,13 +1888,15 @@
   term_id: bpk-1947-1998
   date: 1947-01-01
   category: peristiwa
-  title_id: Pembentukan Badan Pemeriksa Keuangan di Magelang
+  title_id: Pembentukan dan Sidang Perdana Badan Pemeriksa Keuangan di Magelang
   summary_id: Pemerintah RI menetapkan berdirinya BPK di Magelang berdasarkan amanat Pasal 23 ayat 5 UUD 1945 asli dengan ketua pertama R. Soerasno, guna memeriksa perbendaharaan negara di tengah revolusi fisik kemerdekaan.
   source_ids:
     - penetapan-bpk-1947
+    - laporan-bpk-darurat-1947
   dimension_ids:
     - checks-balances
     - negara-hukum
+    - tujuan-1
 - id: ev-bpk-uu-5-1973
   term_id: bpk-1947-1998
   date: 1973-12-28
@@ -3262,8 +3264,8 @@
     - sila-5
     - negara-hukum
 - id: ev-rescue-uu-23-2014
-  term_id: presiden-jokowi-ii
-  date: 2014-01-01
+  term_id: presiden-sby-ii
+  date: 2014-10-02
   title_id: Pengesahan UU No. 23 Tahun 2014 tentang Pemerintahan Daerah
   summary_id: Pemerintah dan DPR RI secara resmi mengesahkan UU No. 23 Tahun 2014 tentang Pemerintahan Daerah. Undang-undang ini menjadi instrumen hukum positif yang mendefinisikan ulang tata kelola spesifik dalam sistem ketatanegaraan Indonesia, serta memberikan kepastian regulasi bagi lembaga negara terkait.
   source_ids:
@@ -3271,31 +3273,31 @@
   category: produk-hukum
 - id: ev-rescue-dakwaan-kejagung-timah-2024
   term_id: presiden-jokowi-ii
-  date: 2024-01-01
+  date: "2024"
   title_id: Surat Dakwaan Kejaksaan Agung dalam Perkara Korupsi Tata Niaga Timah IUP PT Timah Tbk (2024)
-  summary_id: Lembaga peradilan membacakan putusan/dakwaan resmi terkait Surat Dakwaan Kejaksaan Agung Kasus Korupsi Tata Niaga Timah IUP PT Timah Tbk Kerugian Ekologis & Keuangan Rp300 Triliun. Putusan yurisprudensial ini menegaskan tafsir konstitusional dan memiliki dampak mengikat bagi penegakan hukum di Indonesia.
+  summary_id: Kejaksaan Agung melimpahkan perkara korupsi tata niaga komoditas timah di wilayah IUP PT Timah Tbk ke pengadilan tindak pidana korupsi, dengan dakwaan kerugian negara dan kerugian ekologis yang ditaksir mencapai Rp300 triliun.
   source_ids:
     - dakwaan-kejagung-timah-2024
   category: peristiwa
 - id: ev-rescue-keppres-181-1998
   term_id: presiden-habibie
-  date: 1998-01-01
-  title_id: "Penerbitan Kebijakan Eksekutif: Keppres No. 181 Tahun 1998 tentang Komisi Nasional Anti Kekerasan terhadap Perempuan"
-  summary_id: Presiden RI mengeluarkan regulasi Keppres No. 181 Tahun 1998 tentang Komisi Nasional Anti Kekerasan terhadap Perempuan sebagai instrumen eksekutif. Kebijakan ini merepresentasikan wewenang atribusi presiden dalam merespons dinamika pemerintahan negara.
+  date: 1998-10-09
+  title_id: Keppres No. 181 Tahun 1998 tentang Komisi Nasional Anti Kekerasan terhadap Perempuan
+  summary_id: Presiden Habibie menetapkan Keppres No. 181 Tahun 1998 yang membentuk Komisi Nasional Anti Kekerasan terhadap Perempuan (Komnas Perempuan) sebagai lembaga independen. Keppres ini merupakan respons negara atas kekerasan seksual massal dalam kerusuhan Mei 1998.
   source_ids:
     - keppres-181-1998
   category: kebijakan
 - id: ev-rescue-perpres-badan-gizi-2024
   term_id: presiden-jokowi-ii
-  date: 2024-01-01
-  title_id: "Penerbitan Kebijakan Eksekutif: Peraturan Presiden No. 83 Tahun 2024 tentang Badan Gizi Nasional"
-  summary_id: Presiden RI mengeluarkan regulasi Peraturan Presiden No. 83 Tahun 2024 tentang Badan Gizi Nasional sebagai instrumen eksekutif. Kebijakan ini merepresentasikan wewenang atribusi presiden dalam merespons dinamika pemerintahan negara.
+  date: 2024-08-15
+  title_id: Peraturan Presiden No. 83 Tahun 2024 tentang Badan Gizi Nasional
+  summary_id: Presiden Joko Widodo menetapkan Perpres No. 83 Tahun 2024 yang membentuk Badan Gizi Nasional sebagai lembaga pemerintah di bawah dan bertanggung jawab kepada Presiden, menjadi landasan kelembagaan program pemenuhan gizi nasional.
   source_ids:
     - perpres-badan-gizi-2024
   category: kebijakan
 - id: ev-rescue-anri-piagam-jakarta-1945
   term_id: presiden-soekarno-i
-  date: 1945-01-01
+  date: 1945-06-22
   title_id: Perumusan Naskah Piagam Jakarta 22 Juni 1945
   summary_id: Panitia Sembilan BPUPK menyepakati draf Pembukaan UUD yang memuat kewajiban menjalankan syariat Islam. Kompromi historis ini menjadi cikal bakal perdebatan panjang mengenai relasi agama dan negara dalam konstitusi Indonesia.
   source_ids:
@@ -3303,7 +3305,7 @@
   category: peristiwa
 - id: ev-rescue-arsip-nii-proklamasi-1949
   term_id: presiden-soekarno-i
-  date: 1949-01-01
+  date: 1949-08-07
   title_id: Proklamasi Negara Islam Indonesia (DI/TII) 1949
   summary_id: S.M. Kartosoewirjo memproklamasikan berdirinya Negara Islam Indonesia di Jawa Barat. Gerakan separatis ini menantang fondasi ideologis Pancasila dan memicu krisis keamanan dalam negeri yang panjang.
   source_ids:
@@ -3311,15 +3313,15 @@
   category: krisis
 - id: ev-rescue-arsip-nii-vonis-mahadper-1962
   term_id: presiden-soekarno-i
-  date: 1962-01-01
+  date: 1962-08-16
   title_id: Putusan Mahkamah Darurat Perang (Mahadper) atas Perkara Sekarmadji Maridjan Kartosoewirjo (1962)
-  summary_id: Lembaga peradilan membacakan putusan/dakwaan resmi terkait Berkas Pemeriksaan & Putusan Mahkamah Darurat Perang (Mahadper) Kasus SM Kartosoewirjo 1962. Putusan yurisprudensial ini menegaskan tafsir konstitusional dan memiliki dampak mengikat bagi penegakan hukum di Indonesia.
+  summary_id: Mahkamah Darurat Perang (Mahadper) menyatakan gerakan Sekarmadji Maridjan Kartosoewirjo menegakkan Negara Islam Indonesia selama 13 tahun sebagai pemberontakan dan menjatuhkan hukuman mati. Eksekusi dilaksanakan 5 September 1962.
   source_ids:
     - arsip-nii-vonis-mahadper-1962
   category: pengadilan
 - id: ev-rescue-iisg-pki-musso-djalan-baru-1948
   term_id: presiden-soekarno-i
-  date: 1948-01-01
+  date: 1948-09-18
   title_id: Pemberontakan PKI Madiun dan Resolusi 'Djalan Baru' 1948
   summary_id: Musso membawa doktrin 'Djalan Baru untuk Republik Indonesia' yang memicu pemberontakan komunis di Madiun. Krisis ini mengancam keutuhan NKRI dan dijawab dengan tindakan tegas militer oleh pemerintah.
   source_ids:
@@ -3335,7 +3337,7 @@
   category: produk-hukum
 - id: ev-rescue-anri-petisi-50-pernyataan-1980
   term_id: presiden-soeharto
-  date: 1980-01-01
+  date: 1980-05-05
   title_id: Pernyataan Keprihatinan Nasional (Petisi 50) 1980
   summary_id: 50 tokoh nasional, termasuk purnawirawan dan tokoh politik, menandatangani petisi yang mengkritik Presiden Soeharto atas penggunaan Pancasila sebagai alat penekan politik. Ini adalah manifestasi oposisi sipil terbesar pada era Orde Baru.
   source_ids:
