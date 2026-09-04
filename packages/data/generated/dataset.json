@@ -41262,6 +41262,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Meletakkan pondasi pengawasan etik peradilan dan merumuskan Kode Etik dan Pedoman Perilaku Hakim (KEPPH) 2009 bersama Mahkamah Agung.",
+          "antithesis_id": "KEPPH lahir sebagai kesepakatan bersama dengan Mahkamah Agung sehingga penegakannya bergantung pada kesediaan lembaga yang diawasi, dan Putusan MK 005/PUU-IV/2006 sudah lebih dulu mencabut kewenangan KY mengawasi hakim agung.",
+          "synthesis_id": "Skor Baik (+1) karena Kode Etik dan Pedoman Perilaku Hakim ditetapkan sebagai standar tunggal yang mengikat seluruh hakim Indonesia untuk pertama kalinya.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41299,8 +41301,8 @@
           "confidence": 0.85,
           "rationale_id": "Putusan MK No. 005/PUU-IV/2006 melucuti taring KY dalam mengawasi hakim agung. Meskipun Prof. Bagir Manan dan pakar HTN menekankan perlunya perimbangan antara kemerdekaan hakim dan akuntabilitas etik, resistensi internal MA menciptakan impunitas yudisial yang berkepanjangan.",
           "thesis_id": "Komisi Yudisial dibentuk berdasarkan amanat Pasal 24B UUD 1945 untuk menjaga dan menegakkan kehormatan, keluhuran martabat, serta perilaku hakim melalui pengawasan eksternal independen.",
-          "antithesis_id": "Para hakim agung mengajukan uji materi ke MK yang berujung pada Putusan No. 005/PUU-IV/2006, membatalkan kewenangan KY mengawasi hakim agung dan hakim konstitusi.",
-          "synthesis_id": "Skor 0 (teramputasi) karena benturan yudisial memangkas efektivitas fungsi pengawasan eksternal terhadap peradilan tingkat tertinggi.",
+          "antithesis_id": "Meski kewenangannya dipangkas, KY tetap menyelenggarakan Majelis Kehormatan Hakim pada 2009 dan menghasilkan rekomendasi sanksi, membuktikan fungsi pengawasan tidak sepenuhnya lumpuh.",
+          "synthesis_id": "Skor Netral (0) karena lembaga pengawas hakim berdiri dan bekerja tepat sebanding dengan dicabutnya kewenangan intinya oleh pengadilan yang seharusnya diawasinya.",
           "evidence": [
             {
               "source_id": "putusan-mk-005-puu-iv-2006"
@@ -41334,7 +41336,9 @@
           "dimension_id": "sila-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Menegakkan Kode Etik dan Pedoman Perilaku Hakim (KEPPH) berlandaskan prinsip ketuhanan, ketulusan nurani, dan kejujuran berkeadilan.",
+          "rationale_id": "Berdiri lewat UU No. 22 Tahun 2004 tentang Komisi Yudisial dan menerbitkan laporan tahunan pertamanya pada 2006, meletakkan pengawasan perilaku hakim sebagai kewajiban kelembagaan yang baru dalam sistem peradilan Indonesia.",
+          "antithesis_id": "Kelembagaan pengawasan didirikan tetapi tanpa kewenangan menjatuhkan sanksi sendiri, sehingga seluruh temuan perilaku hakim berhenti sebagai rekomendasi kepada Mahkamah Agung yang boleh mengabaikannya.",
+          "synthesis_id": "Skor Baik (+1) karena pengawasan eksternal atas perilaku hakim didirikan sebagai lembaga negara tersendiri, mengakhiri keadaan ketika peradilan hanya diawasi oleh dirinya sendiri.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41364,7 +41368,9 @@
           "dimension_id": "sila-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Melindungi warga masyarakat pencari keadilan dari perilaku sewenang-wenang dan perlakuan tidak manusiawi oleh aparat peradilan yang korup.",
+          "rationale_id": "Menerbitkan laporan pemetaan titik rawan mafia peradilan pada 2007 yang mengidentifikasi simpul-simpul penyimpangan dalam proses perkara, membuka persoalan yang selama ini dialami pencari keadilan tanpa saluran pengaduan.",
+          "antithesis_id": "Pemetaan titik rawan diterbitkan sebagai dokumen tanpa kewenangan menindak, sehingga simpul penyimpangan yang diidentifikasi tetap bekerja dan sebagian besarnya masih ditemukan pada pemetaan bertahun-tahun kemudian.",
+          "synthesis_id": "Skor Baik (+1) karena praktik mafia peradilan dipetakan secara sistematis oleh lembaga negara untuk pertama kalinya, mengangkatnya dari desas-desus menjadi temuan resmi.",
           "evidence": [
             {
               "source_id": "skb-ma-ky-kepph-2009"
@@ -41391,7 +41397,9 @@
           "dimension_id": "sila-3",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Memperluas jangkauan pengawasan etik hakim ke seluruh pelosok provinsi melalui pembentukan Kantor Penghubung Komisi Yudisial Daerah.",
+          "rationale_id": "Membangun sistem pengaduan masyarakat atas perilaku hakim yang dapat diakses dari seluruh wilayah sejak berdirinya 2005, menyediakan satu saluran nasional bagi pencari keadilan di mana pun mereka berperkara.",
+          "antithesis_id": "Saluran pengaduan tersedia secara nasional tetapi kantor penghubung di daerah belum dibentuk pada periode ini, sehingga akses nyata bagi pengadu di luar Jakarta masih sangat terbatas.",
+          "synthesis_id": "Skor Baik (+1) karena warga di seluruh wilayah memperoleh satu saluran resmi mengadukan perilaku hakim, hak yang sebelumnya tidak pernah ada.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41421,7 +41429,9 @@
           "dimension_id": "sila-4",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Melibatkan partisipasi publik dan koalisi masyarakat sipil dalam pemantauan persidangan perkara publik dan rekam jejak calon Hakim Agung.",
+          "rationale_id": "Menyelenggarakan seleksi calon hakim agung secara terbuka sejak 2005 dengan melibatkan masukan publik, memindahkan pengisian jabatan hakim agung dari proses tertutup Mahkamah Agung ke proses yang dapat diikuti masyarakat.",
+          "antithesis_id": "Keterbukaan seleksi berhenti di tahap KY: nama yang diusulkan tetap ditentukan lewat uji kelayakan tertutup di DPR yang sarat pertimbangan politik, sehingga transparansi di hulu tidak menjamin hasil di hilir.",
+          "synthesis_id": "Skor Baik (+1) karena pengisian jabatan hakim agung berubah dari kooptasi internal menjadi seleksi terbuka yang dapat diawasi publik.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41445,7 +41455,9 @@
           "dimension_id": "sila-5",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mengawasi persidangan perkara perburuhan, sengketa tanah agraria, dan lingkungan hidup agar bebas dari suap korporasi dan oligarki.",
+          "rationale_id": "Menyelenggarakan sidang Majelis Kehormatan Hakim bersama Mahkamah Agung pada 2009 sebagai forum pertama yang memeriksa hakim atas dugaan pelanggaran etik secara terbuka, memberi pencari keadilan jalur koreksi atas ketidakadilan proses.",
+          "antithesis_id": "Forum Majelis Kehormatan Hakim baru terbentuk empat tahun setelah KY berdiri dan hanya dapat digelar atas kesepakatan dengan Mahkamah Agung, sehingga jumlah perkara yang diperiksa jauh di bawah jumlah pengaduan yang masuk.",
+          "synthesis_id": "Skor Baik (+1) karena hakim yang diduga melanggar etik untuk pertama kalinya diperiksa dalam forum yang melibatkan pengawas dari luar lembaga peradilan.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41472,7 +41484,9 @@
           "dimension_id": "tujuan-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Melakukan advokasi keamanan dan perlindungan keselamatan hakim dari ancaman kekerasan saat mengadili perkara pidana berisiko tinggi.",
+          "rationale_id": "Menetapkan Peraturan Bersama Mahkamah Agung dan Komisi Yudisial tentang kode etik pada 2009, memberi hakim standar perilaku yang jelas sekaligus melindungi mereka dari tuduhan yang tidak berdasar.",
+          "antithesis_id": "Peraturan bersama memberi kepastian standar, tetapi tidak disertai jaminan keamanan bagi hakim yang mengadili perkara berisiko maupun bagi pengadu yang melaporkan penyimpangan.",
+          "synthesis_id": "Skor Baik (+1) karena hakim memperoleh standar perilaku yang pasti sekaligus perlindungan dari tuduhan sewenang-wenang lewat peraturan yang mengikat dua lembaga.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41502,7 +41516,9 @@
           "dimension_id": "tujuan-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mencegah praktik mafia peradilan dan suap sengketa bisnis demi menjaga kepastian hukum iklim ekonomi dan perlindungan aset publik.",
+          "rationale_id": "Memetakan praktik suap dalam sengketa perdata dan bisnis lewat laporan pemetaan mafia peradilan 2007, mengangkat biaya tersembunyi berperkara yang membebani pelaku usaha dan warga sebagai persoalan kelembagaan.",
+          "antithesis_id": "Pemetaan mengangkat persoalan ke ruang publik tetapi tidak berlanjut ke penindakan karena kewenangan KY atas hakim agung sudah dicabut, sehingga simpul tertinggi rantai penyimpangan tetap tidak tersentuh.",
+          "synthesis_id": "Skor Baik (+1) karena biaya tersembunyi berperkara yang selama ini dianggap kelaziman diangkat menjadi temuan resmi lembaga negara.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41536,7 +41552,9 @@
           "dimension_id": "tujuan-3",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Menggelar klinik etik peradilan dan edukasi publik untuk mencerdaskan kesadaran hukum masyarakat mengenai integritas peradilan.",
+          "rationale_id": "Menerbitkan laporan tahunan sejak 2006 yang memuat data pengaduan masyarakat dan rekomendasi sanksi secara terbuka, menjadikan kinerja pengawasan peradilan bahan belajar publik atas cara kerja lembaga kehakiman.",
+          "antithesis_id": "Laporan tahunan membuka data pengaduan tetapi tidak dapat mengungkap tindak lanjut yang dilakukan Mahkamah Agung, sehingga publik mengetahui persoalannya tanpa mengetahui penyelesaiannya.",
+          "synthesis_id": "Skor Baik (+1) karena data pengaduan dan rekomendasi sanksi atas hakim dipublikasikan terbuka, membuka kerja lembaga peradilan kepada pengetahuan publik.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41563,7 +41581,9 @@
           "dimension_id": "tujuan-4",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Berpartisipasi aktif dalam Judicial Integrity Network global untuk mengadopsi standar internasional integritas dan akuntabilitas kehakiman.",
+          "rationale_id": "Mengadopsi prinsip Bangalore tentang perilaku yudisial ke dalam Kode Etik dan Pedoman Perilaku Hakim 2009, menyelaraskan standar integritas peradilan Indonesia dengan kaidah yang diakui komunitas hukum internasional.",
+          "antithesis_id": "Prinsip internasional diadopsi ke dalam teks kode etik, tetapi mekanisme penegakannya jauh lebih lemah daripada model yang menjadi rujukan karena kewenangan sanksi tetap berada di lembaga yang diawasi.",
+          "synthesis_id": "Skor Baik (+1) karena standar integritas yudisial yang diakui internasional diadopsi menjadi norma yang mengikat seluruh hakim Indonesia.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41590,7 +41610,9 @@
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Menyelenggarakan seleksi terbuka calon Hakim Agung yang kemudian diserahkan kepada DPR untuk memperoleh persetujuan wakil rakyat.",
+          "rationale_id": "Membuka partisipasi masyarakat dalam seleksi calon hakim agung sejak 2005 lewat masukan dan rekam jejak publik, memberi rakyat peran dalam pengisian jabatan kehakiman yang sebelumnya tertutup sepenuhnya.",
+          "antithesis_id": "Peran publik terbatas pada penyampaian masukan tanpa bobot yang mengikat, dan keputusan akhir tetap berada pada DPR yang menilai berdasarkan pertimbangan di luar rekam jejak yang disampaikan masyarakat.",
+          "synthesis_id": "Skor Baik (+1) karena masyarakat memperoleh peran resmi dalam pengisian jabatan hakim agung, membuka kanal kedaulatan rakyat ke cabang kekuasaan yang paling tertutup.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41658,6 +41680,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Memperoleh penguatan dasar legislasi lewat UU No. 18 Tahun 2011 untuk melakukan investigasi dan penegakan etik hakim secara proaktif.",
+          "antithesis_id": "Penguatan lewat UU No. 18 Tahun 2011 memberi kewenangan investigasi, tetapi Putusan MK No. 43/PUU-XIII/2015 kembali memangkas wewenang KY dalam seleksi hakim sehingga penguatan itu bertahan kurang dari empat tahun.",
+          "synthesis_id": "Skor Baik (+1) karena KY memperoleh dasar hukum untuk melakukan investigasi dan penegakan etik secara mandiri, memulihkan sebagian daya yang dicabut pada 2006.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -41690,6 +41714,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Menjalankan seleksi ketat calon Hakim Agung ke DPR dan merekomendasikan sanksi etik kepada Mahkamah Agung.",
+          "antithesis_id": "Rekomendasi sanksi disampaikan secara konsisten tetapi eksekusinya tetap berada di tangan Mahkamah Agung, dan penetapan dua komisioner KY sebagai tersangka pada 2015 memperlihatkan pengawas pun dapat dijerat balik.",
+          "synthesis_id": "Skor Baik (+1) karena seleksi hakim agung dan rekomendasi sanksi etik dijalankan konsisten, menjadikan KY penyeimbang nyata bagi kekuasaan kehakiman.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -41715,7 +41741,9 @@
           "dimension_id": "sila-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Menegakkan Kode Etik dan Pedoman Perilaku Hakim (KEPPH) berlandaskan prinsip ketuhanan, ketulusan nurani, dan kejujuran berkeadilan.",
+          "rationale_id": "Menerapkan investigasi rekam jejak publik dalam seleksi hakim sejak 2011, menempatkan integritas personal calon sebagai syarat yang diperiksa dan bukan sekadar dinyatakan.",
+          "antithesis_id": "Investigasi rekam jejak diterapkan dengan sumber daya terbatas dan tanpa akses ke data keuangan calon, sehingga kedalamannya bergantung pada informasi yang bersedia diberikan pihak lain.",
+          "synthesis_id": "Skor Baik (+1) karena integritas calon hakim mulai diperiksa lewat penelusuran rekam jejak nyata, bukan hanya lewat pernyataan dan berkas administratif.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -41738,7 +41766,9 @@
           "dimension_id": "sila-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Melindungi warga masyarakat pencari keadilan dari perilaku sewenang-wenang dan perlakuan tidak manusiawi oleh aparat peradilan yang korup.",
+          "rationale_id": "Mengadvokasi penetapan PP No. 94 Tahun 2012 tentang hak keuangan dan fasilitas hakim, memperbaiki kesejahteraan hakim sebagai upaya menutup celah struktural yang mendorong penyimpangan dalam mengadili perkara warga.",
+          "antithesis_id": "Perbaikan kesejahteraan hakim ditempuh sebagai jalan mencegah suap, tetapi pada periode yang sama hakim tipikor tetap diberhentikan karena menerima suap, memperlihatkan penyebabnya tidak semata kesejahteraan.",
+          "synthesis_id": "Skor Baik (+1) karena hak keuangan hakim ditetapkan lewat peraturan pemerintah setelah bertahun-tahun tidak diperbaiki, menutup salah satu celah struktural penyimpangan.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -41761,7 +41791,9 @@
           "dimension_id": "sila-3",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Memperluas jangkauan pengawasan etik hakim ke seluruh pelosok provinsi melalui pembentukan Kantor Penghubung Komisi Yudisial Daerah.",
+          "rationale_id": "Menggelar sidang Majelis Kehormatan Hakim bersama Mahkamah Agung pada 2013 yang memberhentikan hakim pengadilan tipikor daerah, menegakkan standar integritas yang sama bagi peradilan di seluruh wilayah.",
+          "antithesis_id": "Pemberhentian hakim daerah menegakkan standar tetapi menyasar simpul terlemah rantai peradilan, sementara pengawasan atas hakim agung tetap tertutup akibat putusan MK 2006 yang belum dipulihkan.",
+          "synthesis_id": "Skor Baik (+1) karena hakim yang terbukti melanggar etik berat diberhentikan lewat forum resmi, menegaskan standar integritas berlaku sama di pengadilan daerah maupun pusat.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -41787,7 +41819,9 @@
           "dimension_id": "sila-4",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Melibatkan partisipasi publik dan koalisi masyarakat sipil dalam pemantauan persidangan perkara publik dan rekam jejak calon Hakim Agung.",
+          "rationale_id": "Kehilangan kewenangan turut menyeleksi hakim tingkat pertama lewat Putusan MK No. 43/PUU-XIII/2015, putusan yang mempersempit peran pengawas eksternal dalam pengisian jabatan kehakiman.",
+          "antithesis_id": "Mahkamah Konstitusi beralasan seleksi hakim adalah bagian kemandirian kekuasaan kehakiman yang tidak boleh dicampuri lembaga lain, argumen yang secara doktriner memiliki dasar konstitusional.",
+          "synthesis_id": "Skor Baik (+1) karena sepanjang periode ini KY tetap menjalankan seleksi terbuka dan pemantauan partisipatif, meski kewenangannya dipersempit di ujung masa jabatan.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -41813,7 +41847,9 @@
           "dimension_id": "sila-5",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mengawasi persidangan perkara perburuhan, sengketa tanah agraria, dan lingkungan hidup agar bebas dari suap korporasi dan oligarki.",
+          "rationale_id": "Menghadapi penetapan dua komisionernya sebagai tersangka pada 2015 atas laporan pihak yang diawasi, memperlihatkan risiko kriminalisasi balik yang dihadapi pengawas peradilan ketika menyentuh kepentingan besar.",
+          "antithesis_id": "Penetapan tersangka atas komisioner KY dapat dibaca sebagai penegakan hukum yang berlaku bagi siapa pun termasuk pengawas, prinsip yang secara normatif tidak boleh dikecualikan.",
+          "synthesis_id": "Skor Baik (+1) karena KY tetap menjalankan fungsi pengawasan atas perkara yang menyangkut hak buruh, tanah, dan lingkungan meski komisionernya sendiri menghadapi jeratan pidana.",
           "evidence": [
             {
               "source_id": "pp-94-2012"
@@ -41836,7 +41872,9 @@
           "dimension_id": "tujuan-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Melakukan advokasi keamanan dan perlindungan keselamatan hakim dari ancaman kekerasan saat mengadili perkara pidana berisiko tinggi.",
+          "rationale_id": "Memperoleh kewenangan investigasi mandiri lewat UU No. 18 Tahun 2011 termasuk memanggil dan memeriksa saksi, memberi KY alat menelusuri dugaan pelanggaran etik tanpa bergantung pada keterangan pihak yang diawasi.",
+          "antithesis_id": "Kewenangan investigasi diberikan tanpa daya paksa, sehingga pihak yang menolak memenuhi panggilan tidak dapat dikenai konsekuensi apa pun dan penelusuran bergantung pada kerja sama sukarela.",
+          "synthesis_id": "Skor Baik (+1) karena KY memperoleh kewenangan menelusuri dugaan pelanggaran etik secara mandiri, mengakhiri ketergantungan penuh pada keterangan lembaga yang diawasinya.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -41859,7 +41897,9 @@
           "dimension_id": "tujuan-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mencegah praktik mafia peradilan dan suap sengketa bisnis demi menjaga kepastian hukum iklim ekonomi dan perlindungan aset publik.",
+          "rationale_id": "Menggunakan kewenangan investigasi baru dari UU No. 18 Tahun 2011 untuk menelusuri dugaan suap dalam perkara bisnis dan kepailitan, menjaga kepastian hukum yang menjadi prasyarat kegiatan ekonomi.",
+          "antithesis_id": "Penelusuran dugaan suap perkara bisnis terhambat oleh ketiadaan akses ke data transaksi keuangan, sehingga sebagian besar dugaan berhenti pada tahap yang tidak dapat dibuktikan secara etik maupun pidana.",
+          "synthesis_id": "Skor Baik (+1) karena dugaan penyimpangan dalam perkara bisnis mulai ditelusuri secara mandiri, menjaga kepastian hukum yang menopang kegiatan ekonomi.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -41883,7 +41923,9 @@
           "dimension_id": "tujuan-3",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Menggelar klinik etik peradilan dan edukasi publik untuk mencerdaskan kesadaran hukum masyarakat mengenai integritas peradilan.",
+          "rationale_id": "Menggelar seleksi calon hakim agung secara terbuka pada 2013 dengan uji publik yang dapat disaksikan masyarakat, menjadikan proses pengisian jabatan tertinggi kehakiman sarana pendidikan hukum bagi warga.",
+          "antithesis_id": "Uji publik terbuka digelar KY, tetapi sebagian besar calon yang diloloskannya kemudian ditolak DPR tanpa alasan yang dijelaskan kepada publik, sehingga nilai edukatifnya terputus di tahap akhir.",
+          "synthesis_id": "Skor Baik (+1) karena uji kelayakan calon hakim agung dibuka untuk disaksikan publik, menjadikan pengisian jabatan kehakiman tertinggi proses yang dapat dipelajari warga.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -41906,7 +41948,9 @@
           "dimension_id": "tujuan-4",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Berpartisipasi aktif dalam Judicial Integrity Network global untuk mengadopsi standar internasional integritas dan akuntabilitas kehakiman.",
+          "rationale_id": "Menyelaraskan kewenangan investigasi dalam UU No. 18 Tahun 2011 dengan praktik lembaga pengawas peradilan di berbagai negara, memperkuat posisi Indonesia dalam jaringan integritas yudisial internasional.",
+          "antithesis_id": "Penyelarasan berlangsung pada tataran kewenangan formal, sementara ukuran yang dipakai jaringan internasional yaitu tingkat eksekusi rekomendasi sanksi tetap rendah karena berada di luar kendali KY.",
+          "synthesis_id": "Skor Baik (+1) karena kewenangan pengawas peradilan Indonesia disejajarkan dengan praktik yang berlaku di negara lain, memperkuat kedudukan Indonesia dalam kerja sama integritas yudisial.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -41929,7 +41973,9 @@
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Menyelenggarakan seleksi terbuka calon Hakim Agung yang kemudian diserahkan kepada DPR untuk memperoleh persetujuan wakil rakyat.",
+          "rationale_id": "Melibatkan masyarakat dalam investigasi rekam jejak calon hakim agung sejak 2011 dan menggelar uji publik terbuka pada 2013, memperluas peran warga dalam menentukan siapa yang mengadili perkaranya.",
+          "antithesis_id": "Peran warga diperluas di tahap seleksi tetapi dipangkas kembali oleh Putusan MK No. 43/PUU-XIII/2015 yang mencabut keterlibatan KY dalam seleksi hakim tingkat pertama, memutus akses publik ke jenjang yang paling sering ditemui warga.",
+          "synthesis_id": "Skor Baik (+1) karena rekam jejak calon hakim agung ditelusuri dengan melibatkan masukan masyarakat, memperkuat peran warga dalam pengisian jabatan kehakiman.",
           "evidence": [
             {
               "source_id": "laporan-ky-seleksi-cha-2011"
@@ -41990,6 +42036,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Melaksanakan sidang Majelis Kehormatan Hakim (MKH) secara konsisten dan menindak tegas hakim-hakim penerima suap dan pelanggar asusila.",
+          "antithesis_id": "Sidang Majelis Kehormatan Hakim digelar konsisten dan menghasilkan pemberhentian hakim penerima suap, tetapi jumlah perkara yang diperiksa tetap jauh di bawah jumlah pengaduan karena penyelenggaraannya memerlukan persetujuan Mahkamah Agung.",
+          "synthesis_id": "Skor Baik (+1) karena hakim penerima suap diberhentikan lewat forum resmi secara berulang, menegakkan konsekuensi nyata atas pelanggaran etik berat.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42016,6 +42064,8 @@
           "score": 0,
           "confidence": 0.85,
           "rationale_id": "Sebagian rekomendasi sanksi KY atas hakim bermasalah belum seluruhnya dieksekusi oleh Mahkamah Agung karena disparitas tafsir teknis yudisial vs etik.",
+          "antithesis_id": "KY tetap menerbitkan rekomendasi sanksi secara konsisten dan memantau persidangan perkara yang menarik perhatian publik, menjaga fungsi pengawasan tetap terlihat meski hasilnya tidak selalu dieksekusi.",
+          "synthesis_id": "Skor Netral (0) karena rekomendasi sanksi dihasilkan secara berkelanjutan tepat sebanding dengan tingkat eksekusinya oleh Mahkamah Agung yang tetap rendah akibat perbedaan tafsir kewenangan.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42038,7 +42088,9 @@
           "dimension_id": "sila-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Menegakkan Kode Etik dan Pedoman Perilaku Hakim (KEPPH) berlandaskan prinsip ketuhanan, ketulusan nurani, dan kejujuran berkeadilan.",
+          "rationale_id": "Menegakkan Kode Etik dan Pedoman Perilaku Hakim lewat sidang Majelis Kehormatan Hakim 2019 yang memberhentikan hakim terbukti melanggar berat, menegaskan integritas personal sebagai syarat memangku jabatan mengadili.",
+          "antithesis_id": "Penegakan etik berjalan pada perkara yang sudah terbukti secara pidana, sementara pelanggaran yang tidak sampai ke ranah pidana umumnya berhenti pada sanksi ringan yang tidak mengubah perilaku.",
+          "synthesis_id": "Skor Baik (+1) karena hakim yang melanggar etik berat diberhentikan dari jabatannya, menegaskan integritas sebagai syarat yang tidak dapat ditawar bagi pemangku kekuasaan mengadili.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42061,7 +42113,9 @@
           "dimension_id": "sila-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Melindungi warga masyarakat pencari keadilan dari perilaku sewenang-wenang dan perlakuan tidak manusiawi oleh aparat peradilan yang korup.",
+          "rationale_id": "Mengadvokasi jaminan keamanan dan perlindungan hakim pada 2016 setelah rangkaian ancaman dan kekerasan terhadap hakim yang menangani perkara sensitif, menjaga martabat dan keselamatan penegak keadilan.",
+          "antithesis_id": "Advokasi perlindungan hakim berjalan sementara perlindungan bagi pelapor dan saksi yang mengadukan perilaku hakim tidak dibangun setara, sehingga risiko justru ditanggung pihak yang paling lemah kedudukannya.",
+          "synthesis_id": "Skor Baik (+1) karena keselamatan hakim yang mengadili perkara berisiko diangkat menjadi persoalan kelembagaan yang diadvokasikan secara resmi.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2016"
@@ -42078,7 +42132,9 @@
           "dimension_id": "sila-3",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Memperluas jangkauan pengawasan etik hakim ke seluruh pelosok provinsi melalui pembentukan Kantor Penghubung Komisi Yudisial Daerah.",
+          "rationale_id": "Melakukan pemantauan terpadu atas persidangan sengketa di daerah pada 2019 dengan menurunkan tim ke lokasi perkara, memastikan standar peradilan yang sama berlaku di luar pusat pemerintahan.",
+          "antithesis_id": "Pemantauan terpadu dilakukan secara selektif pada perkara yang mendapat sorotan, sementara ribuan persidangan lain di daerah berlangsung tanpa pengawasan karena keterbatasan personel dan kantor penghubung.",
+          "synthesis_id": "Skor Baik (+1) karena pemantauan persidangan dibawa langsung ke daerah tempat perkara diadili, menjaga standar peradilan tidak berbeda antara pusat dan wilayah.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42101,7 +42157,9 @@
           "dimension_id": "sila-4",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Melibatkan partisipasi publik dan koalisi masyarakat sipil dalam pemantauan persidangan perkara publik dan rekam jejak calon Hakim Agung.",
+          "rationale_id": "Menandatangani deklarasi bersama integritas peradilan pada 2018 yang melibatkan lembaga penegak hukum dan organisasi masyarakat sipil, membangun komitmen pengawasan yang dimusyawarahkan lintas pemangku kepentingan.",
+          "antithesis_id": "Deklarasi bersama menghasilkan komitmen tanpa mekanisme penegakan, sehingga nilainya bergantung pada kesediaan masing-masing penanda tangan dan tidak dapat ditagih ketika komitmen itu diabaikan.",
+          "synthesis_id": "Skor Baik (+1) karena komitmen integritas peradilan disepakati bersama lintas lembaga dan masyarakat sipil, memperluas pengawasan di luar mekanisme negara semata.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42124,7 +42182,9 @@
           "dimension_id": "sila-5",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mengawasi persidangan perkara perburuhan, sengketa tanah agraria, dan lingkungan hidup agar bebas dari suap korporasi dan oligarki.",
+          "rationale_id": "Menerjunkan tim pemantau persidangan pada 2017 untuk perkara yang menyangkut hak masyarakat kecil, memastikan ketimpangan kedudukan para pihak tidak berlanjut menjadi ketimpangan perlakuan di ruang sidang.",
+          "antithesis_id": "Kehadiran pemantau mengubah perilaku di ruang sidang selama pemantauan berlangsung, tetapi tidak dapat menjangkau tahap penyusunan putusan tempat penyimpangan yang paling menentukan biasanya terjadi.",
+          "synthesis_id": "Skor Baik (+1) karena persidangan yang melibatkan pihak dengan kedudukan lemah memperoleh pemantauan resmi, mengurangi ruang perlakuan yang tidak setara.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -42141,7 +42201,9 @@
           "dimension_id": "tujuan-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Melakukan advokasi keamanan dan perlindungan keselamatan hakim dari ancaman kekerasan saat mengadili perkara pidana berisiko tinggi.",
+          "rationale_id": "Menandatangani nota kesepahaman dengan aparat keamanan pada 2019 tentang perlindungan hakim dan pengamanan persidangan, membangun kerangka kerja sama menjaga keselamatan proses peradilan.",
+          "antithesis_id": "Kerangka kerja sama disepakati di tingkat pusat tetapi penerapannya di pengadilan daerah bergantung pada inisiatif aparat setempat, sehingga perlindungan yang dijanjikan tidak merata.",
+          "synthesis_id": "Skor Baik (+1) karena pengamanan persidangan dan perlindungan hakim memperoleh kerangka kerja sama resmi antarlembaga.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42167,7 +42229,9 @@
           "dimension_id": "tujuan-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mencegah praktik mafia peradilan dan suap sengketa bisnis demi menjaga kepastian hukum iklim ekonomi dan perlindungan aset publik.",
+          "rationale_id": "Memberhentikan hakim penerima suap lewat sidang Majelis Kehormatan Hakim 2019, menegakkan kepastian bahwa putusan tidak dapat dibeli sebagai prasyarat kepercayaan dalam kegiatan ekonomi.",
+          "antithesis_id": "Pemberhentian dilakukan atas perkara yang sudah terungkap lewat operasi tangkap tangan lembaga lain, sehingga fungsi pencegahan KY sendiri belum terbukti mampu mendeteksi sebelum penyimpangan terjadi.",
+          "synthesis_id": "Skor Baik (+1) karena hakim yang menerima suap dalam perkara diberhentikan, menegaskan konsekuensi bagi praktik yang merusak kepastian hukum kegiatan usaha.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42190,7 +42254,9 @@
           "dimension_id": "tujuan-3",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Menggelar klinik etik peradilan dan edukasi publik untuk mencerdaskan kesadaran hukum masyarakat mengenai integritas peradilan.",
+          "rationale_id": "Mempublikasikan hasil sidang Majelis Kehormatan Hakim dan rekomendasi sanksi secara terbuka sepanjang periode, menjadikan penegakan etik peradilan bahan belajar publik tentang standar perilaku pemangku kekuasaan.",
+          "antithesis_id": "Publikasi hasil sidang etik terbuka bagi publik, tetapi rekomendasi sanksi yang tidak dieksekusi Mahkamah Agung tidak dilaporkan dengan sama terbukanya sehingga gambaran yang diterima publik tidak utuh.",
+          "synthesis_id": "Skor Baik (+1) karena hasil penegakan etik peradilan dibuka kepada publik, menjadikannya rujukan tentang standar perilaku yang berlaku bagi pemangku kekuasaan mengadili.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42213,7 +42279,9 @@
           "dimension_id": "tujuan-4",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Berpartisipasi aktif dalam Judicial Integrity Network global untuk mengadopsi standar internasional integritas dan akuntabilitas kehakiman.",
+          "rationale_id": "Menyelaraskan praktik pemantauan persidangan dan penegakan etik dengan standar integritas yudisial internasional lewat kerja sama dan deklarasi bersama 2018, menjaga kredibilitas peradilan Indonesia di mata mitra global.",
+          "antithesis_id": "Penyelarasan berlangsung pada tataran komitmen dan metode, sementara indikator yang paling diperhatikan mitra internasional yaitu tingkat eksekusi sanksi tetap menjadi kelemahan yang berulang dilaporkan.",
+          "synthesis_id": "Skor Baik (+1) karena praktik pengawasan peradilan Indonesia diselaraskan dengan standar integritas yudisial yang diakui secara internasional.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42236,7 +42304,9 @@
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Menyelenggarakan seleksi terbuka calon Hakim Agung yang kemudian diserahkan kepada DPR untuk memperoleh persetujuan wakil rakyat.",
+          "rationale_id": "Membuka pengaduan masyarakat atas perilaku hakim dan menindaklanjutinya hingga sidang Majelis Kehormatan Hakim 2019, memberi warga jalur nyata menuntut pertanggungjawaban pemangku kekuasaan mengadili.",
+          "antithesis_id": "Jalur pengaduan terbuka dan sebagian berujung sidang etik, tetapi rasio antara pengaduan yang masuk dan yang berujung sanksi tetap sangat kecil sehingga sebagian besar pengadu tidak memperoleh penyelesaian.",
+          "synthesis_id": "Skor Baik (+1) karena pengaduan warga atas perilaku hakim ditindaklanjuti hingga forum pemberhentian, membuktikan jalur pertanggungjawaban itu dapat berfungsi.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42294,6 +42364,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Mendorong digitalisasi pemantauan persidangan dan transparansi uji publik kelayakan calon hakim agung dan hakim ad hoc tipikor/HAM.",
+          "antithesis_id": "Digitalisasi pemantauan dan uji publik terbuka memperluas jangkauan pengawasan, tetapi berlangsung pada periode ketika hakim agung tertangkap tangan menerima suap - wilayah yang justru berada di luar kewenangan KY sejak 2006.",
+          "synthesis_id": "Skor Baik (+1) karena pemantauan persidangan didigitalkan dan uji kelayakan calon hakim dibuka kepada publik, memperluas jangkauan pengawasan dengan sumber daya yang tetap terbatas.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42342,6 +42414,8 @@
           "score": 0,
           "confidence": 0.85,
           "rationale_id": "Menghadapi tantangan OTT suap Hakim Agung di MA 2022, memperkuat koordinasi pengawasan terpadu dengan KPK dan MA.",
+          "antithesis_id": "Koordinasi dengan KPK dan Kejaksaan diperkuat setelah operasi tangkap tangan hakim agung 2022, dan investigasi khusus atas skandal Zarof Ricar dijalankan bersama Kejaksaan Agung pada 2024.",
+          "synthesis_id": "Skor Netral (0) karena penguatan koordinasi pengawasan terpadu berjalan tepat sebanding dengan tetap tertutupnya kewenangan KY atas hakim agung, simpul tempat penyimpangan terbesar justru terjadi.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42379,7 +42453,9 @@
           "dimension_id": "sila-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Menegakkan Kode Etik dan Pedoman Perilaku Hakim (KEPPH) berlandaskan prinsip ketuhanan, ketulusan nurani, dan kejujuran berkeadilan.",
+          "rationale_id": "Menjalankan investigasi khusus bersama Kejaksaan Agung pada 2024 atas skandal mafia peradilan Zarof Ricar, menegakkan pertanggungjawaban etik atas praktik yang merusak amanah jabatan mengadili.",
+          "antithesis_id": "Investigasi dijalankan bersama penegak hukum lain karena KY sendiri tidak berwenang memeriksa hakim agung, sehingga perannya bergantung pada kesediaan lembaga lain membuka akses.",
+          "synthesis_id": "Skor Baik (+1) karena skandal mafia peradilan berskala terbesar ditelusuri dari sisi etik bersama penegak hukum, menutup celah yang selama ini dibiarkan.",
           "evidence": [
             {
               "source_id": "laporan-seleksi-ha-ky-2021"
@@ -42405,7 +42481,9 @@
           "dimension_id": "sila-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Melindungi warga masyarakat pencari keadilan dari perilaku sewenang-wenang dan perlakuan tidak manusiawi oleh aparat peradilan yang korup.",
+          "rationale_id": "Menyelenggarakan seleksi calon hakim agung dan hakim ad hoc hak asasi manusia pada 2021, mengisi jabatan yang menentukan penanganan perkara pelanggaran HAM berat yang lama terbengkalai.",
+          "antithesis_id": "Seleksi hakim ad hoc HAM diselenggarakan, tetapi pengadilan HAM yang menjadi tempat mereka bertugas nyaris tidak menerima perkara karena penyidikan pelanggaran HAM berat mandek di kejaksaan.",
+          "synthesis_id": "Skor Baik (+1) karena jabatan hakim ad hoc HAM diisi lewat seleksi terbuka, menyiapkan kelembagaan peradilan bagi perkara pelanggaran hak asasi berat.",
           "evidence": [
             {
               "source_id": "putusan-mkh-pn-surabaya-2024"
@@ -42431,7 +42509,9 @@
           "dimension_id": "sila-3",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Memperluas jangkauan pengawasan etik hakim ke seluruh pelosok provinsi melalui pembentukan Kantor Penghubung Komisi Yudisial Daerah.",
+          "rationale_id": "Menerbitkan Laporan Kinerja 2023 yang memuat rekomendasi sanksi atas hakim dari berbagai wilayah, menegakkan standar integritas yang seragam bagi peradilan di seluruh daerah.",
+          "antithesis_id": "Rekomendasi menjangkau hakim di berbagai wilayah, tetapi sebagian besar tidak dieksekusi Mahkamah Agung sehingga keseragaman standar yang dituju tidak terwujud dalam konsekuensi nyata.",
+          "synthesis_id": "Skor Baik (+1) karena pengawasan etik dijalankan merata atas hakim di seluruh wilayah dan hasilnya dilaporkan terbuka setiap tahun.",
           "evidence": [
             {
               "source_id": "laporan-seleksi-ha-ky-2021"
@@ -42454,7 +42534,9 @@
           "dimension_id": "sila-4",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Melibatkan partisipasi publik dan koalisi masyarakat sipil dalam pemantauan persidangan perkara publik dan rekam jejak calon Hakim Agung.",
+          "rationale_id": "Menggelar sidang Majelis Kehormatan Hakim bersama Mahkamah Agung pada 2023 sebagai forum yang mempertemukan pengawas internal dan eksternal dalam memutus nasib hakim yang diadukan.",
+          "antithesis_id": "Forum bersama mensyaratkan kesepakatan dua lembaga untuk digelar, sehingga perkara yang tidak disetujui Mahkamah Agung tidak pernah sampai ke sidang meski rekomendasi KY sudah keluar.",
+          "synthesis_id": "Skor Baik (+1) karena keputusan atas pelanggaran etik hakim diambil dalam forum yang mempertemukan pengawas dari dalam dan luar lembaga peradilan.",
           "evidence": [
             {
               "source_id": "laporan-seleksi-ha-ky-2021"
@@ -42477,7 +42559,9 @@
           "dimension_id": "sila-5",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mengawasi persidangan perkara perburuhan, sengketa tanah agraria, dan lingkungan hidup agar bebas dari suap korporasi dan oligarki.",
+          "rationale_id": "Melakukan pemeriksaan etik khusus pada 2022 setelah operasi tangkap tangan terhadap hakim agung dalam perkara koperasi simpan pinjam, menelusuri penyimpangan pada perkara yang menyangkut dana masyarakat kecil.",
+          "antithesis_id": "Pemeriksaan etik dilakukan setelah penangkapan oleh lembaga lain dan terbatas pada aspek yang dapat diakses KY, karena kewenangan memeriksa hakim agung telah dicabut Mahkamah Konstitusi sejak 2006.",
+          "synthesis_id": "Skor Baik (+1) karena penyimpangan dalam perkara yang menyangkut dana anggota koperasi ditelusuri dari sisi etik, menegaskan perkara rakyat kecil tidak boleh diperjualbelikan.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2022"
@@ -42500,7 +42584,9 @@
           "dimension_id": "tujuan-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Melakukan advokasi keamanan dan perlindungan keselamatan hakim dari ancaman kekerasan saat mengadili perkara pidana berisiko tinggi.",
+          "rationale_id": "Merekomendasikan pemecatan tiga hakim Pengadilan Negeri Surabaya pada 2024 setelah terbukti melanggar berat dalam perkara yang menyangkut nyawa korban, menegakkan perlindungan warga dari putusan yang diperjualbelikan.",
+          "antithesis_id": "Rekomendasi pemecatan dikeluarkan setelah perkaranya menjadi sorotan nasional dan setelah vonis bebas sempat dijatuhkan, sehingga koreksi datang terlambat bagi keluarga korban.",
+          "synthesis_id": "Skor Baik (+1) karena hakim yang memutus atas dasar suap dalam perkara kematian direkomendasikan dipecat, menegakkan perlindungan warga atas keadilan yang tidak dapat dibeli.",
           "evidence": [
             {
               "source_id": "laporan-seleksi-ha-ky-2021"
@@ -42526,7 +42612,9 @@
           "dimension_id": "tujuan-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mencegah praktik mafia peradilan dan suap sengketa bisnis demi menjaga kepastian hukum iklim ekonomi dan perlindungan aset publik.",
+          "rationale_id": "Menyelenggarakan Program Nasional Klinik Etik dan Advokasi Kehakiman sejak 2021 yang membekali warga dan pelaku usaha memahami jalur pengaduan perilaku hakim, memperkuat kepastian hukum dalam berperkara.",
+          "antithesis_id": "Program klinik etik memperluas pengetahuan tentang jalur pengaduan, tetapi tidak mengubah kenyataan bahwa sebagian besar pengaduan berakhir tanpa sanksi sehingga pengetahuan itu tidak selalu berujung pemulihan.",
+          "synthesis_id": "Skor Baik (+1) karena warga dan pelaku usaha dibekali pengetahuan mengadukan penyimpangan perilaku hakim, memperkuat pengawasan yang datang dari pengguna peradilan sendiri.",
           "evidence": [
             {
               "source_id": "laporan-seleksi-ha-ky-2021"
@@ -42552,7 +42640,9 @@
           "dimension_id": "tujuan-3",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Menggelar klinik etik peradilan dan edukasi publik untuk mencerdaskan kesadaran hukum masyarakat mengenai integritas peradilan.",
+          "rationale_id": "Menerbitkan Laporan Tahunan 2023 yang memuat rekomendasi sanksi etik beserta data pengaduan secara terbuka, menjadikan kinerja pengawasan peradilan bahan pembelajaran publik yang dapat diperiksa.",
+          "antithesis_id": "Laporan tahunan memuat data rekomendasi tetapi tidak dapat melaporkan alasan Mahkamah Agung menolak sebagian besarnya, sehingga bagian paling penting bagi pembelajaran publik justru tidak tersedia.",
+          "synthesis_id": "Skor Baik (+1) karena data pengaduan dan rekomendasi sanksi dipublikasikan terbuka setiap tahun, menjaga kinerja pengawasan peradilan dapat diperiksa siapa pun.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2021"
@@ -42572,7 +42662,9 @@
           "dimension_id": "tujuan-4",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Berpartisipasi aktif dalam Judicial Integrity Network global untuk mengadopsi standar internasional integritas dan akuntabilitas kehakiman.",
+          "rationale_id": "Menerjunkan tim pemantau khusus pada 2023 untuk persidangan perkara yang menarik perhatian internasional termasuk perkara vonis mati, menjaga standar peradilan Indonesia sesuai kaidah yang diakui komunitas global.",
+          "antithesis_id": "Pemantauan menjaga standar prosedural dalam persidangan yang disorot, tetapi tidak menyentuh persoalan substantif yang paling dipersoalkan dunia internasional yaitu pemberlakuan pidana mati itu sendiri.",
+          "synthesis_id": "Skor Baik (+1) karena persidangan yang menjadi perhatian internasional dipantau secara resmi, menjaga proses peradilan Indonesia berlangsung sesuai standar yang dapat dipertanggungjawabkan.",
           "evidence": [
             {
               "source_id": "laporan-seleksi-ha-ky-2021"
@@ -42598,7 +42690,9 @@
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Menyelenggarakan seleksi terbuka calon Hakim Agung yang kemudian diserahkan kepada DPR untuk memperoleh persetujuan wakil rakyat.",
+          "rationale_id": "Merilis Laporan Tahunan 2025 pada 2026 tentang penguatan integritas peradilan dan menerapkan skrining LHKPN digital serta penelusuran latar belakang calon hakim sejak 2025, memperluas akses publik menilai pemangku kekuasaan mengadili.",
+          "antithesis_id": "Skrining kekayaan dan rekam jejak diperkuat pada tahap seleksi, tetapi keputusan akhir pengisian jabatan hakim agung tetap berada pada uji kelayakan DPR yang pertimbangannya tidak dibuka kepada publik.",
+          "synthesis_id": "Skor Baik (+1) karena penelusuran kekayaan dan rekam jejak calon hakim dilembagakan secara digital, memperkuat kemampuan publik menilai integritas pemangku kekuasaan kehakiman.",
           "evidence": [
             {
               "source_id": "laporan-seleksi-ha-ky-2021"
