@@ -84,6 +84,24 @@ describe("integritas anti-halusinasi dataset", () => {
     expect(dataset.events.filter((e) => /^Dokumentasi Historis:/.test(e.title_id))).toEqual([]);
   });
 
+  it("rationale_id tidak pernah kembar antarmasa jabatan", () => {
+    const hitung = new Map<string, string[]>();
+    for (const d of skor) {
+      const k = d.rationale_id.trim().toLowerCase();
+      hitung.set(k, [...(hitung.get(k) ?? []), `${d.asm}/${d.dimension_id}`]);
+    }
+    expect(
+      [...hitung].filter(([, ids]) => ids.length > 1).map(([t]) => t.slice(0, 60))
+    ).toEqual([]);
+  });
+
+  it("setiap skor dimensi memiliki antitesis dan sintesis", () => {
+    const kosong = skor
+      .filter((d) => !d.antithesis_id || !d.synthesis_id)
+      .map((d) => `${d.asm}/${d.dimension_id}`);
+    expect(kosong).toEqual([]);
+  });
+
   it("tidak ada ringkasan peristiwa boilerplate yang dipakai berulang", () => {
     const hitung = new Map<string, string[]>();
     for (const e of dataset.events) {

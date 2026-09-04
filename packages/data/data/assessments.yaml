@@ -648,6 +648,7 @@
         - ev-mou-helsinki-damai-2005
       thesis_id: Pemerintah menerbitkan SKB 3 Menteri No. 3/2008 tentang Peringatan dan Perintah kepada Penganut Jemaat Ahmadiyah Indonesia (JAI) dengan dalil mencegah konflik komunal dan menjaga kerukunan umat beragama.
       antithesis_id: Koalisi hak asasi manusia dan pakar konstitusi mengecam SKB tersebut sebagai bentuk ketundukan negara pada tirani mayoritas intoleran, yang melegitimasi diskriminasi dan penyerangan fisik terhadap warga Ahmadiyah (seperti Tragedi Cikeusik).
+      synthesis_id: Skor Netral (0) karena kebebasan beragama tidak dibatasi lewat undang-undang baru pada periode ini, tepat sebanding dengan negara yang justru menerbitkan surat keputusan bersama yang memicu kekerasan terhadap kelompok yang seharusnya dilindunginya.
     - dimension_id: sila-2
       score: 1
       confidence: 0.85
@@ -1107,6 +1108,7 @@
           role: Ketua Mahkamah Konstitusi RI 2003-2008 / Guru Besar HTN FH UI
           year: 2005
           source_id: buku-jimly-konstitusi-2005
+      synthesis_id: Skor Sangat Buruk (-2) karena pasal defamasi UU ITE dipakai memidanakan ekspresi politik warga secara meluas, sehingga kebebasan berpendapat yang menjadi syarat permusyawaratan justru dikriminalkan oleh negara sendiri.
     - dimension_id: sila-5
       score: 1
       confidence: 0.55
@@ -1205,6 +1207,7 @@
           role: Ketua Mahkamah Konstitusi 2008-2013 / Menko Polhukam
           year: 1998
           source_id: buku-mahfud-politik-hukum-1998
+      synthesis_id: Skor Sangat Buruk (-2) karena penyerangan terhadap penyidik antikorupsi dibiarkan tanpa penuntasan dan perkara pelanggaran HAM berat mandek total, sehingga hukum berhenti berlaku persis pada titik ia berhadapan dengan kekuasaan.
     - dimension_id: checks-balances
       score: -1
       confidence: 0.85
@@ -5771,8 +5774,8 @@
         - ev-dekrit-gus-dur-impeachment-2001
         - ev-mpr-amendemen-1
       thesis_id: MPR RI periode 1999-2004 menuntaskan 4 tahapan perubahan UUD 1945 (1999, 2000, 2001, 2002) secara damai, menghapus supremasi MPR, dan mengalihkan kedaulatan langsung ke tangan rakyat lewat pemilu presiden langsung.
-      antithesis_id: Fraksi konservatif dan kelompok purnawirawan militer mengkritik amandemen UUD 1945 karena dinilai terlalu liberal, meniru model Barat, dan meninggalkan naskah asli Proklamasi.
-      synthesis_id: Skor teladan (+2) karena MPR berhasil memutus watak otoritarian naskah lama dan meletakkan sistem checks and balances modern (lahirnya DPD, MK, KY, dan pembatasan presiden 2 periode).
+      antithesis_id: Amandemen dirumuskan oleh politisi yang duduk di MPR itu sendiri tanpa komisi konstitusi independen yang diusulkan banyak kalangan, sehingga sebagian rancangan mencerminkan kompromi antarfraksi alih-alih desain ketatanegaraan yang utuh.
+      synthesis_id: Skor Sangat Baik (+2) karena empat tahap perubahan UUD 1945 menata ulang seluruh arsitektur kekuasaan - pembatasan masa jabatan, peradilan konstitusi, dan pemilihan langsung - tanpa kekerasan.
     - dimension_id: sila-2
       score: 2
       confidence: 0.85
@@ -5789,6 +5792,8 @@
         - ev-anri-naskah-komprehensif-perubahan-uud-1999-2002
         - ev-mpr-amandemen-2-2000
         - ev-mpr-amandemen-1-1999
+      antithesis_id: Bab XA memasukkan katalog hak asasi ke dalam konstitusi, tetapi memuat pasal pembatasan yang membuka ruang pengurangan hak lewat undang-undang, celah yang kemudian dipakai membenarkan berbagai pembatasan kebebasan sipil.
+      synthesis_id: Skor Sangat Baik (+2) karena hak asasi manusia diangkat menjadi materi muatan konstitusi yang mengikat seluruh penyelenggara negara dan tidak dapat dicabut undang-undang biasa.
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.85
@@ -5810,6 +5815,8 @@
         - ev-mpr-tap-xvii-1998
         - ev-mpr-tap-xi-1998
         - ev-mpr-gbhn-1999
+      antithesis_id: Penegasan negara hukum dan pendirian Mahkamah Konstitusi tidak disertai penataan sistem peradilan di bawahnya, sehingga puncak arsitektur negara hukum dibangun di atas peradilan umum yang persoalannya belum dibereskan.
+      synthesis_id: Skor Sangat Baik (+2) karena Pasal 1 ayat (3) menegaskan Indonesia sebagai negara hukum dan Mahkamah Konstitusi didirikan sebagai penjaganya, perubahan paling mendasar pada tertib konstitusional sejak 1945.
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.75
@@ -5822,6 +5829,8 @@
         - ev-mpr-laporan-pertanggungjawaban-presiden-1999
         - ev-mpr-amendemen-4
         - ev-mpr-tap-ix-2001-agraria
+      antithesis_id: Kewajiban anggaran pendidikan 20 persen dicantumkan dalam konstitusi tanpa mekanisme pemaksa maupun definisi komponen yang termasuk di dalamnya, sehingga pemenuhannya kemudian dicapai secara nominal dengan memasukkan gaji dan tunjangan.
+      synthesis_id: Skor Baik (+1) karena kewajiban negara mengalokasikan seperlima anggaran bagi pendidikan diangkat menjadi norma konstitusional yang tidak dapat ditawar pemerintah mana pun.
     - dimension_id: sila-4
       score: 1
       confidence: 0.85
@@ -5836,10 +5845,12 @@
       event_ids:
         - ev-mpr-amandemen-3-2001
         - ev-mpr-amendemen-2
+      antithesis_id: Pemilihan presiden dipindahkan kepada rakyat, tetapi MPR mempertahankan syarat pencalonan lewat partai atau gabungan partai sehingga permusyawaratan pada tahap penentuan kandidat tetap dikuasai pengurus partai.
+      synthesis_id: Skor Baik (+1) karena penentuan kepala negara dipindahkan dari 700 anggota MPR ke seluruh pemilih dewasa, perubahan paling mendasar pada letak kedaulatan sejak proklamasi.
     - dimension_id: sila-1
       score: 1
       confidence: 0.75
-      rationale_id: Menetapkan TAP MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa yang menempatkan nilai-nilai ketuhanan sebagai etika moral penyelenggara negara.
+      rationale_id: Menetapkan TAP MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa pada Sidang Tahunan 2001 dan menegaskan kebebasan beragama sebagai hak yang tidak dapat dikurangi dalam Pasal 28I Perubahan Kedua UUD 1945.
       evidence:
         - source_id: tap-mpr-vi-2001
         - source_id: tap-mpr-vii-2001
@@ -5848,10 +5859,12 @@
       event_ids:
         - ev-mpr-tap-vi-vii-2001
         - ev-mpr-amendemen-3
+      antithesis_id: Kebebasan beragama ditetapkan sebagai hak yang tidak dapat dikurangi, tetapi MPR tidak mencabut TAP maupun mendorong pencabutan UU No. 1/PNPS/1965 yang membatasi agama yang diakui negara.
+      synthesis_id: Skor Baik (+1) karena kebebasan beragama diangkat menjadi hak konstitusional yang tidak dapat dikurangi dalam keadaan apa pun, jaminan tertinggi yang belum pernah ada sebelumnya.
     - dimension_id: sila-3
       score: 1
       confidence: 0.8
-      rationale_id: Memperkuat otonomi daerah melalui penataan Pasal 18, 18A, dan 18B UUD 1945 serta mengawal konsensus kebangsaan Empat Pilar.
+      rationale_id: Menata ulang hubungan pusat dan daerah lewat Pasal 18, 18A, dan 18B Perubahan Kedua UUD 1945 serta menetapkan TAP MPR No. VI dan VII/MPR/2000 tentang pemisahan TNI dan Polri, membongkar sentralisme dan dwifungsi sekaligus.
       evidence:
         - source_id: perubahan-kedua-uud-1945
         - source_id: tap-amandemen-uud-1999-2002
@@ -5860,10 +5873,12 @@
       event_ids:
         - ev-tap-mpr-pemisahan-tni-polri-2000
         - ev-mpr-amendemen-4
+      antithesis_id: Pengakuan kesatuan masyarakat hukum adat dalam Pasal 18B dirumuskan dengan syarat 'sepanjang masih hidup' yang penilaiannya diserahkan pemerintah daerah, sehingga pengakuan itu bergantung pada kemauan politik lokal.
+      synthesis_id: Skor Baik (+1) karena otonomi daerah dan pengakuan masyarakat hukum adat diangkat ke tingkat konstitusi, dan pemisahan TNI dari Polri ditetapkan lewat ketetapan yang mengikat.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam yang berkeadilan sosial.
+      rationale_id: Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam pada Sidang Tahunan 2001, memberi mandat kepada pemerintah dan DPR menata ulang penguasaan tanah dan kekayaan alam.
       evidence:
         - source_id: tap-mpr-xi-1998
         - source_id: perubahan-keempat-uud-1945
@@ -5873,10 +5888,12 @@
       event_ids:
         - ev-mpr-amandemen-4-2002
         - ev-mpr-tap-i-2003
+      antithesis_id: Mandat pembaruan agraria ditetapkan tetapi tidak pernah dijalankan pemerintah mana pun sesudahnya, dan MPR tidak memiliki mekanisme menagih pelaksanaan ketetapannya sendiri sehingga mandat itu menjadi dokumen tanpa daya.
+      synthesis_id: Skor Baik (+1) karena pembaruan agraria ditetapkan sebagai mandat konstitusional lewat ketetapan yang hingga kini menjadi rujukan utama gerakan keadilan agraria Indonesia.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.8
-      rationale_id: Mengatur doktrin pertahanan dan keamanan negara (Pasal 30 UUD 1945) serta pemisahan kelembagaan TNI dan Polri melalui TAP VI & VII/MPR/2000.
+      rationale_id: Menetapkan TAP MPR No. VI dan VII/MPR/2000 tentang pemisahan TNI dan Polri serta menata doktrin pertahanan dalam Pasal 30 Perubahan Kedua UUD 1945, mengembalikan perlindungan warga ke tangan kepolisian sipil.
       evidence:
         - source_id: tap-mpr-vi-2000
         - source_id: tap-mpr-vii-2000
@@ -5885,10 +5902,12 @@
       event_ids:
         - ev-mpr-ketetapan-keuangan-2003
         - ev-anri-naskah-komprehensif-perubahan-uud-1999-2002
+      antithesis_id: Pemisahan kelembagaan ditetapkan, tetapi MPR tidak menuntaskan penataan peradilan militer sehingga prajurit yang melakukan pidana umum terhadap warga tetap diadili di luar peradilan sipil.
+      synthesis_id: Skor Baik (+1) karena dwifungsi dibongkar lewat pemisahan TNI dan Polri yang ditetapkan MPR, memindahkan tugas keamanan warga kepada institusi sipil.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
-      rationale_id: Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dan kebersamaan melalui Perubahan Keempat Pasal 33 UUD 1945.
+      rationale_id: Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dalam Pasal 33 Perubahan Keempat UUD 1945 dan menetapkan TAP MPR No. I/MPR/2003 tentang peninjauan materi hukum ketetapan MPR, menata ulang landasan ekonomi konstitusional.
       evidence:
         - source_id: tap-mpr-iv-1999
         - source_id: tap-amandemen-uud-1999-2002
@@ -5898,10 +5917,12 @@
       event_ids:
         - ev-mpr-tap-i-2003
         - ev-mpr-amendemen-1
+      antithesis_id: Penambahan ayat tentang efisiensi berkeadilan pada Pasal 33 dinilai banyak ahli membuka pintu tafsir pasar bebas ke dalam pasal yang semula tegas menempatkan penguasaan negara, melemahkan sendi ekonomi kerakyatannya.
+      synthesis_id: Skor Baik (+1) karena asas demokrasi ekonomi dan penguasaan negara atas cabang produksi penting dipertahankan dalam konstitusi hasil amandemen.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
-      rationale_id: Menegaskan prinsip politik luar negeri bebas aktif dalam konstitusi dan mendukung perdamaian abadi dunia berdasar kemerdekaan.
+      rationale_id: Menegaskan prinsip politik luar negeri bebas aktif dan kewajiban ikut melaksanakan ketertiban dunia dalam rangkaian Perubahan UUD 1945, mengukuhkan mandat Pembukaan sebagai norma yang mengikat penyelenggara negara.
       evidence:
         - source_id: tap-mpr-xi-1998
         - source_id: tap-mpr-xvii-1998
@@ -5911,10 +5932,12 @@
       event_ids:
         - ev-mpr-amendemen-2
         - ev-mpr-amendemen-3
+      antithesis_id: Prinsip bebas aktif dikukuhkan dalam konstitusi tanpa mekanisme yang mengikat pemerintah mempertanggungjawabkan penyimpangan darinya, sehingga penerapannya sepenuhnya bergantung pada tafsir eksekutif yang sedang berkuasa.
+      synthesis_id: Skor Baik (+1) karena mandat Pembukaan tentang ketertiban dunia dan perdamaian abadi dikukuhkan sebagai norma konstitusional yang mengikat penyelenggara negara.
     - dimension_id: kedaulatan-rakyat
       score: 2
       confidence: 0.9
-      rationale_id: Mengubah Pasal 1 ayat (2) UUD 1945 menjadi kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar.
+      rationale_id: Mengubah Pasal 1 ayat (2) UUD 1945 sehingga kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar, mencabut kedudukan MPR sebagai lembaga tertinggi negara pelaksana kedaulatan rakyat.
       evidence:
         - source_id: perubahan-pertama-uud-1945
         - source_id: tap-mpr-iv-1999
@@ -5924,6 +5947,8 @@
       event_ids:
         - ev-tap-mpr-pemisahan-tni-polri-2000
         - ev-mpr-amendemen-4
+      antithesis_id: MPR menghapus kedudukannya sendiri sebagai lembaga tertinggi tanpa membangun mekanisme pengganti bagi pertanggungjawaban presiden di luar pemakzulan, sehingga ruang kontrol antarpemilu justru menyempit.
+      synthesis_id: Skor Sangat Baik (+2) karena kedaulatan rakyat dipindahkan dari pelaksanaan oleh MPR menjadi dijalankan menurut konstitusi, perubahan paling mendasar pada letak kekuasaan sejak 1945.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -5968,6 +5993,8 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-sosialisasi-4-pilar
+      antithesis_id: Sosialisasi Empat Pilar menjangkau ratusan ribu peserta di seluruh provinsi dan menjadi satu-satunya program MPR yang memiliki jangkauan nyata pasca-amandemen.
+      synthesis_id: Skor Netral (0) karena penyebarluasan nilai kebangsaan dijalankan berskala besar, tepat sebanding dengan ketiadaan dampak terukur pada toleransi keberagamaan yang menjadi tujuannya.
     - dimension_id: sila-3
       score: 1
       confidence: 0.85
@@ -5980,10 +6007,12 @@
       event_ids:
         - ev-mpr-sosialisasi-4-pilar
         - ev-mpr-empat-pilar-2011
+      antithesis_id: Sosialisasi Empat Pilar menyasar penguatan persatuan tetapi tidak menyentuh sumber ketegangan yang nyata pada periode ini, yaitu kekerasan terhadap minoritas keagamaan yang justru meningkat.
+      synthesis_id: Skor Baik (+1) karena komitmen persatuan dan keutuhan negara disuarakan secara terlembaga lewat gerakan nasional yang menjangkau seluruh provinsi.
     - dimension_id: sila-2
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dan memasukkan Bab XA (Pasal 28A-28J) ke dalam UUD 1945.
+      rationale_id: Menjaga Bab XA UUD 1945 dan TAP MPR No. XVII/MPR/1998 tetap berlaku sebagai rujukan hak asasi dalam sosialisasi Empat Pilar sejak 2010, menyebarluaskan pemahaman hak konstitusional kepada masyarakat luas.
       evidence:
         - source_id: kep-mpr-4-pilar-2010
         - source_id: buku-mpr-empat-pilar-2012
@@ -5992,20 +6021,24 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-putusan-mk-34-2014
+      antithesis_id: Penyebarluasan pemahaman hak asasi berjalan sementara MPR tidak bersuara atas pengusiran warga Syiah Sampang dan penyegelan rumah ibadah yang terjadi pada periode yang sama.
+      synthesis_id: Skor Sangat Baik (+2) karena katalog hak asasi dalam konstitusi dijaga utuh dan disebarluaskan sebagai pengetahuan publik lewat program berskala nasional.
     - dimension_id: sila-4
       score: 2
       confidence: 0.9
-      rationale_id: Melakukan empat tahapan perubahan UUD 1945 (1999-2002) yang memulihkan kedaulatan rakyat melalui pemilu langsung dan pelembagaan DPD.
+      rationale_id: Menyelenggarakan Peringatan Hari Konstitusi setiap 18 Agustus sejak 2010 dan sidang pelantikan Presiden 2009, memelihara tradisi permusyawaratan kenegaraan sebagai forum yang mempertemukan seluruh lembaga negara.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-peringatan-hari-konstitusi-2010
+      antithesis_id: Peringatan Hari Konstitusi dan sidang pelantikan bersifat seremonial; MPR pada periode ini tidak memiliki forum permusyawaratan yang menghasilkan keputusan mengikat karena kewenangan itu dicabut amandemen.
+      synthesis_id: Skor Sangat Baik (+2) karena hasil amandemen yang memindahkan kedaulatan kepada rakyat dipelihara dan diperingati sebagai capaian yang tidak dipersoalkan kembali.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam yang berkeadilan sosial.
+      rationale_id: Menyebarluaskan pemahaman Pasal 33 UUD 1945 dan mandat keadilan sosial lewat Gerakan Nasional Sosialisasi Empat Pilar sejak 2011, menjadikan asas keadilan sosial pengetahuan yang menjangkau masyarakat luas.
       evidence:
         - source_id: kep-mpr-4-pilar-2010
         - source_id: buku-mpr-empat-pilar-2012
@@ -6014,10 +6047,12 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-gerakan-empat-pilar-2011
+      antithesis_id: Penyebarluasan asas keadilan sosial berjalan sebagai program penyuluhan tanpa menagih pelaksanaan TAP IX/MPR/2001 tentang pembaruan agraria yang mandek sejak ditetapkan satu dasawarsa sebelumnya.
+      synthesis_id: Skor Baik (+1) karena asas keadilan sosial dalam konstitusi disebarluaskan sebagai pengetahuan publik lewat gerakan nasional yang menjangkau seluruh provinsi.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.8
-      rationale_id: Mengatur doktrin pertahanan dan keamanan negara (Pasal 30 UUD 1945) serta pemisahan kelembagaan TNI dan Polri melalui TAP VI & VII/MPR/2000.
+      rationale_id: Menyelenggarakan sidang pelantikan Presiden dan Wakil Presiden hasil Pemilu 2009 pada Oktober 2009, menjaga peralihan kekuasaan berlangsung tertib sesuai konstitusi sebagai syarat stabilitas dan keamanan negara.
       evidence:
         - source_id: kep-mpr-4-pilar-2010
         - source_id: buku-mpr-empat-pilar-2012
@@ -6026,10 +6061,12 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-pelantikan-presiden-sby-2009
+      antithesis_id: Peralihan kekuasaan berlangsung tertib, tetapi tugas itu bersifat administratif dan MPR tidak memiliki peran apa pun dalam kebijakan pertahanan maupun keamanan yang menjadi substansi dimensi ini.
+      synthesis_id: Skor Baik (+1) karena peralihan dan pengukuhan kekuasaan eksekutif berlangsung tertib menurut konstitusi, menjaga kesinambungan negara tanpa gejolak.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
-      rationale_id: Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dan kebersamaan melalui Perubahan Keempat Pasal 33 UUD 1945.
+      rationale_id: Menyebarluaskan pemahaman asas perekonomian nasional berdasar demokrasi ekonomi dalam Pasal 33 UUD 1945 lewat sosialisasi Empat Pilar sejak 2010, menjadikan landasan ekonomi konstitusional pengetahuan publik.
       evidence:
         - source_id: kep-mpr-4-pilar-2010
         - source_id: buku-mpr-empat-pilar-2012
@@ -6038,20 +6075,24 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-sosialisasi-4-pilar
+      antithesis_id: Sosialisasi menyebarkan pemahaman tanpa mekanisme menagih penerapannya, sehingga pada periode yang sama kebijakan ekonomi yang bertentangan dengan asas itu berjalan tanpa koreksi dari MPR.
+      synthesis_id: Skor Baik (+1) karena asas demokrasi ekonomi dalam konstitusi disebarluaskan sebagai pengetahuan publik yang menjadi dasar warga menilai kebijakan ekonomi.
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan klausul revolusioner Pasal 31 ayat (4) UUD 1945 yang mewajibkan negara mengalokasikan minimal 20% APBN/APBD untuk pendidikan.
+      rationale_id: Menyebarluaskan pemahaman kewajiban konstitusional alokasi 20 persen anggaran pendidikan lewat sosialisasi Empat Pilar sejak 2010, memperkuat pengetahuan publik atas hak konstitusional yang dapat ditagih dari negara.
       evidence:
         - source_id: buku-mpr-empat-pilar-2012
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-sosialisasi-4-pilar
+      antithesis_id: Pengetahuan publik atas mandat anggaran pendidikan diperkuat, tetapi MPR tidak memiliki kewenangan menagih pemenuhannya sehingga penegakannya tetap bergantung pada gugatan warga ke Mahkamah Konstitusi.
+      synthesis_id: Skor Sangat Baik (+2) karena kewajiban konstitusional anggaran pendidikan dijaga utuh dan disebarluaskan sebagai hak yang dapat ditagih warga dari negara.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
-      rationale_id: Menegaskan prinsip politik luar negeri bebas aktif dalam konstitusi dan mendukung perdamaian abadi dunia berdasar kemerdekaan.
+      rationale_id: Menyebarluaskan prinsip politik luar negeri bebas aktif sebagai bagian sosialisasi Empat Pilar sejak 2010 dan menjalankan diplomasi parlementer, memperkenalkan pemahaman konstitusional Indonesia pada forum antarparlemen.
       evidence:
         - source_id: kep-mpr-4-pilar-2010
         - source_id: buku-mpr-empat-pilar-2012
@@ -6060,20 +6101,24 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-sosialisasi-4-pilar
+      antithesis_id: Prinsip bebas aktif disebarluaskan sebagai materi penyuluhan tanpa evaluasi atas penerapannya, sehingga sosialisasi berjalan terlepas dari praktik kebijakan luar negeri yang sedang dijalankan pemerintah.
+      synthesis_id: Skor Baik (+1) karena prinsip politik luar negeri bebas aktif dipelihara dan disebarluaskan sebagai bagian pemahaman kebangsaan warga.
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan penegasan konstitusional Pasal 1 ayat (3) bahwa Negara Indonesia adalah Negara Hukum dan membentuk Mahkamah Konstitusi.
+      rationale_id: Menyebarluaskan penegasan Pasal 1 ayat (3) bahwa Indonesia adalah negara hukum lewat sosialisasi Empat Pilar sejak 2010, menjadikan asas negara hukum pengetahuan yang menjangkau masyarakat luas.
       evidence:
         - source_id: putusan-mk-34-puu-xi-2013
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-sosialisasi-4-pilar
+      antithesis_id: Asas negara hukum disebarluaskan sebagai materi penyuluhan, sementara MPR tidak bersuara atas konflik terbuka antarpenegak hukum dan impunitas perkara besar yang berlangsung pada periode yang sama.
+      synthesis_id: Skor Sangat Baik (+2) karena penegasan Indonesia sebagai negara hukum dijaga sebagai norma tertinggi dan disebarluaskan menjadi pengetahuan publik.
     - dimension_id: checks-balances
       score: 2
       confidence: 0.9
-      rationale_id: Membatasi masa jabatan presiden maksimal 2 periode (Pasal 7 UUD 1945) dan menata mekanisme pemakzulan (impeachment) secara konstitusional.
+      rationale_id: Menjaga berlakunya pembatasan masa jabatan presiden dua periode dan mekanisme pemakzulan berbasis putusan Mahkamah Konstitusi dalam UUD 1945, mempertahankan pilar pembatasan kekuasaan tanpa membuka wacana perubahannya.
       evidence:
         - source_id: kep-mpr-4-pilar-2010
         - source_id: buku-mpr-empat-pilar-2012
@@ -6082,16 +6127,20 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-sosialisasi-4-pilar
+      antithesis_id: Pilar pembatasan kekuasaan dijaga secara pasif; MPR tidak menggunakan sidang tahunannya untuk mengevaluasi kinerja lembaga negara meski forum itu tersedia dan hanya menjadi ajang laporan sepihak.
+      synthesis_id: Skor Sangat Baik (+2) karena pembatasan masa jabatan presiden dan mekanisme pemakzulan berbasis putusan pengadilan dipertahankan utuh tanpa upaya pelonggaran.
     - dimension_id: kedaulatan-rakyat
       score: 2
       confidence: 0.9
-      rationale_id: Mengubah Pasal 1 ayat (2) UUD 1945 menjadi kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar.
+      rationale_id: Menjaga Pasal 1 ayat (2) UUD 1945 tentang kedaulatan rakyat yang dilaksanakan menurut konstitusi tetap utuh dan menyelenggarakan pelantikan presiden hasil pemilihan langsung 2009 tanpa mempersoalkan mandat pemilih.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-sosialisasi-4-pilar
+      antithesis_id: Kedaulatan rakyat dijaga dalam rumusan konstitusi, tetapi MPR tidak membangun satu pun kanal partisipasi warga di antara dua pemilu meski memiliki forum tahunan yang dapat dipakai untuk itu.
+      synthesis_id: Skor Sangat Baik (+2) karena letak kedaulatan pada rakyat yang dilaksanakan menurut konstitusi dipertahankan utuh dan dijalankan lewat pelantikan presiden hasil pemilihan langsung.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -6139,6 +6188,8 @@
       event_ids:
         - ev-mpr-kajian-pphn-2024
         - ev-kajian-pokok-pokok-haluan-negara-mpr-2021
+      antithesis_id: Badan Pengkajian MPR menyusun naskah komprehensif secara terbuka dan hasilnya berhenti sebagai rekomendasi tanpa diajukan menjadi usul perubahan resmi, sehingga kekhawatiran itu tidak terwujud.
+      synthesis_id: Skor Netral (0) karena kajian ketatanegaraan dijalankan secara terbuka dan tidak berlanjut menjadi usul perubahan, tepat sebanding dengan kekhawatiran yang ditimbulkannya atas pemulihan kedudukan MPR sebagai lembaga tertinggi.
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.85
@@ -6153,10 +6204,12 @@
       event_ids:
         - ev-mpr-kajian-pphn-2024
         - ev-kajian-pokok-pokok-haluan-negara-mpr-2021
+      antithesis_id: Evaluasi konstitusi dua dasawarsa pasca-reformasi dijalankan dengan mengakomodasi berbagai aspirasi masyarakat, membuka ruang perdebatan ketatanegaraan yang selama ini tertutup.
+      synthesis_id: Skor Netral (0) karena aspirasi masyarakat atas evaluasi konstitusi diakomodasi, tepat sebanding dengan tidak adanya mekanisme yang memastikan aspirasi itu berpengaruh pada keputusan apa pun.
     - dimension_id: sila-1
       score: 1
       confidence: 0.75
-      rationale_id: Menetapkan TAP MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa yang menempatkan nilai-nilai ketuhanan sebagai etika moral penyelenggara negara.
+      rationale_id: Menjalankan kajian komprehensif Badan Pengkajian MPR pada 2022 atas evaluasi dua puluh tahun amandemen UUD 1945, memeriksa kembali kedudukan nilai ketuhanan dan dasar negara dalam konstitusi hasil perubahan.
       evidence:
         - source_id: laporan-mpr-pphn-2024
         - source_id: laporan-pphn-mpr-2024
@@ -6166,10 +6219,12 @@
       event_ids:
         - ev-mpr-kajian-evaluasi-amandemen-2022
         - ev-mpr-kajian-pphn-2024
+      antithesis_id: Kajian menghasilkan rekomendasi akademik tanpa tindak lanjut kelembagaan, dan tidak menyentuh persoalan nyata kebebasan beragama yang menurut catatan organisasi sipil justru memburuk pada periode yang sama.
+      synthesis_id: Skor Baik (+1) karena kedudukan dasar negara dalam konstitusi hasil amandemen dievaluasi secara terbuka dan sistematis setelah dua dasawarsa berjalan.
     - dimension_id: sila-2
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dan memasukkan Bab XA (Pasal 28A-28J) ke dalam UUD 1945.
+      rationale_id: Menetapkan rekomendasi rancangan Pokok-Pokok Haluan Negara pada September 2024 dan menyusun naskah komprehensifnya sejak 2021, memuat penegasan kembali hak asasi sebagai bagian haluan pembangunan nasional.
       evidence:
         - source_id: surat-keputusan-mpr-rehabilitasi-tokoh-2024
       normative_anchors:
@@ -6177,10 +6232,12 @@
       event_ids:
         - ev-mpr-rekomendasi-pphn-2024
         - ev-kajian-pokok-pokok-haluan-negara-mpr-2021
+      antithesis_id: Penegasan hak asasi dalam rancangan haluan negara berhenti sebagai rekomendasi, sementara MPR tidak menggunakan forum tahunannya untuk mempersoalkan Kanjuruhan maupun kekerasan agraria yang terjadi pada periode yang sama.
+      synthesis_id: Skor Sangat Baik (+2) karena Bab XA UUD 1945 dipertahankan utuh dan hak asasi ditegaskan kembali sebagai bagian rancangan haluan pembangunan nasional.
     - dimension_id: sila-3
       score: 1
       confidence: 0.8
-      rationale_id: Memperkuat otonomi daerah melalui penataan Pasal 18, 18A, dan 18B UUD 1945 serta mengawal konsensus kebangsaan Empat Pilar.
+      rationale_id: Merumuskan dokumen Pokok-Pokok Haluan Negara pada 2024 yang memuat arah pemerataan pembangunan antarwilayah, menempatkan keadilan antardaerah sebagai agenda ketatanegaraan jangka panjang.
       evidence:
         - source_id: surat-keputusan-mpr-rehabilitasi-tokoh-2024
       normative_anchors:
@@ -6188,10 +6245,12 @@
       event_ids:
         - ev-mpr-laporan-pphn-2024
         - ev-mpr-kajian-pphn-2024
+      antithesis_id: Rumusan haluan negara memuat arah pemerataan tetapi tidak memiliki kekuatan mengikat, dan MPR tidak bersuara atas pemekaran provinsi Papua yang berlangsung tanpa konsultasi sebagaimana disyaratkan undang-undang otonomi khusus.
+      synthesis_id: Skor Baik (+1) karena pemerataan pembangunan antarwilayah dirumuskan sebagai arah ketatanegaraan jangka panjang lewat kajian kelembagaan yang sistematis.
     - dimension_id: sila-4
       score: 2
       confidence: 0.9
-      rationale_id: Melakukan empat tahapan perubahan UUD 1945 (1999-2002) yang memulihkan kedaulatan rakyat melalui pemilu langsung dan pelembagaan DPD.
+      rationale_id: Mencabut ketetapan MPRS yang memuat sanksi hukum terhadap Presiden Sukarno pada September 2024, memulihkan kedudukan hukum proklamator lewat mekanisme permusyawaratan lembaga yang dulu menjatuhkannya.
       evidence:
         - source_id: dokumen-mpr-rekomendasi-pphn-2024
       normative_anchors:
@@ -6199,10 +6258,12 @@
       event_ids:
         - ev-mpr-rehabilitasi-tokoh-2024
         - ev-kajian-pokok-pokok-haluan-negara-mpr-2021
+      antithesis_id: Pemulihan kedudukan hukum dilakukan enam dasawarsa setelah ketetapan itu dijatuhkan dan puluhan tahun setelah tokohnya wafat, sehingga koreksi bersifat simbolik tanpa konsekuensi hukum bagi siapa pun.
+      synthesis_id: Skor Sangat Baik (+2) karena MPR mengoreksi ketetapannya sendiri yang menjatuhkan sanksi hukum tanpa proses peradilan, menegakkan prinsip bahwa lembaga permusyawaratan dapat memperbaiki kekeliruannya.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam yang berkeadilan sosial.
+      rationale_id: Memuat arah keadilan sosial dan pengelolaan sumber daya alam dalam rancangan Pokok-Pokok Haluan Negara yang disusun sejak 2021 dan direkomendasikan pada 2024, menghidupkan kembali perencanaan pembangunan jangka panjang.
       evidence:
         - source_id: laporan-mpr-pphn-2024
         - source_id: laporan-pphn-mpr-2024
@@ -6212,10 +6273,12 @@
       event_ids:
         - ev-mpr-kajian-pphn-2024
         - ev-kajian-pokok-pokok-haluan-negara-mpr-2021
+      antithesis_id: Rancangan haluan negara memuat arah keadilan sosial tetapi menghidupkan model perencanaan terpusat yang dikritik banyak ahli berpotensi mengembalikan kedudukan MPR di atas lembaga lain.
+      synthesis_id: Skor Baik (+1) karena arah keadilan sosial dan pengelolaan sumber daya alam dirumuskan kembali sebagai agenda jangka panjang setelah dua dasawarsa tanpa haluan negara.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.8
-      rationale_id: Mengatur doktrin pertahanan dan keamanan negara (Pasal 30 UUD 1945) serta pemisahan kelembagaan TNI dan Polri melalui TAP VI & VII/MPR/2000.
+      rationale_id: Memuat arah kebijakan pertahanan dan keamanan negara dalam rancangan Pokok-Pokok Haluan Negara yang disusun Badan Pengkajian sejak 2021, menempatkan perlindungan warga sebagai agenda ketatanegaraan jangka panjang.
       evidence:
         - source_id: laporan-mpr-pphn-2024
         - source_id: laporan-pphn-mpr-2024
@@ -6225,10 +6288,12 @@
       event_ids:
         - ev-mpr-kajian-pphn-2024
         - ev-kajian-pokok-pokok-haluan-negara-mpr-2021
+      antithesis_id: Arah pertahanan dirumuskan dalam rancangan yang tidak mengikat, sementara MPR tidak bersikap atas draf revisi UU TNI dan penempatan perwira aktif di jabatan sipil yang mulai dipersoalkan pada akhir periode.
+      synthesis_id: Skor Baik (+1) karena arah kebijakan pertahanan dan perlindungan warga dirumuskan sebagai bagian haluan negara jangka panjang lewat kajian kelembagaan.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
-      rationale_id: Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dan kebersamaan melalui Perubahan Keempat Pasal 33 UUD 1945.
+      rationale_id: Memuat arah pembangunan ekonomi berdasar Pasal 33 UUD 1945 dalam rancangan Pokok-Pokok Haluan Negara 2021-2024, menghidupkan kembali kerangka perencanaan ekonomi jangka panjang yang hilang sejak GBHN dihapus.
       evidence:
         - source_id: laporan-pphn-mpr-2024
       normative_anchors:
@@ -6236,10 +6301,12 @@
       event_ids:
         - ev-mpr-kajian-pphn-2024
         - ev-kajian-pokok-pokok-haluan-negara-mpr-2021
+      antithesis_id: Kerangka perencanaan jangka panjang dirumuskan, tetapi rancangannya tidak pernah ditetapkan menjadi ketetapan yang mengikat sehingga tidak berpengaruh pada satu pun keputusan anggaran periode ini.
+      synthesis_id: Skor Baik (+1) karena kerangka perencanaan ekonomi jangka panjang berdasar asas konstitusional dirumuskan kembali setelah dua dasawarsa absen.
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan klausul revolusioner Pasal 31 ayat (4) UUD 1945 yang mewajibkan negara mengalokasikan minimal 20% APBN/APBD untuk pendidikan.
+      rationale_id: Menegaskan kembali kewajiban konstitusional alokasi 20 persen anggaran pendidikan dalam rancangan Pokok-Pokok Haluan Negara dan menjaga Pasal 31 ayat (4) UUD 1945 tetap utuh tanpa wacana pelunakan.
       evidence:
         - source_id: laporan-mpr-pphn-2024
         - source_id: laporan-pphn-mpr-2024
@@ -6249,10 +6316,12 @@
       event_ids:
         - ev-mpr-kajian-pphn-2024
         - ev-kajian-pokok-pokok-haluan-negara-mpr-2021
+      antithesis_id: Penegasan kembali dilakukan dalam dokumen yang tidak mengikat, sementara distorsi pemenuhan mandat 20 persen lewat pemasukan komponen di luar pendidikan berlangsung tanpa dipersoalkan MPR.
+      synthesis_id: Skor Sangat Baik (+2) karena kewajiban konstitusional anggaran pendidikan dipertahankan utuh dan ditegaskan kembali sebagai agenda haluan negara jangka panjang.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
-      rationale_id: Menegaskan prinsip politik luar negeri bebas aktif dalam konstitusi dan mendukung perdamaian abadi dunia berdasar kemerdekaan.
+      rationale_id: Memuat prinsip politik luar negeri bebas aktif dalam rancangan Pokok-Pokok Haluan Negara yang disusun sejak 2021, menegaskan kembali mandat Pembukaan UUD 1945 tentang ketertiban dunia sebagai arah jangka panjang.
       evidence:
         - source_id: laporan-mpr-pphn-2024
         - source_id: laporan-pphn-mpr-2024
@@ -6262,10 +6331,12 @@
       event_ids:
         - ev-mpr-kajian-pphn-2024
         - ev-kajian-pokok-pokok-haluan-negara-mpr-2021
+      antithesis_id: Prinsip bebas aktif ditegaskan dalam dokumen kajian tanpa kekuatan mengikat, dan MPR tidak memiliki kewenangan mengawasi pelaksanaannya sehingga penegasan itu terlepas dari praktik kebijakan luar negeri.
+      synthesis_id: Skor Baik (+1) karena mandat Pembukaan tentang ketertiban dunia ditegaskan kembali sebagai arah ketatanegaraan jangka panjang lewat kajian kelembagaan.
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan penegasan konstitusional Pasal 1 ayat (3) bahwa Negara Indonesia adalah Negara Hukum dan membentuk Mahkamah Konstitusi.
+      rationale_id: Menjaga Pasal 1 ayat (3) UUD 1945 tetap utuh dalam seluruh kajian evaluasi amandemen 2022-2024 dan mencabut ketetapan MPRS yang menjatuhkan sanksi hukum tanpa peradilan pada 2024, menegakkan asas negara hukum ke dalam lembaganya sendiri.
       evidence:
         - source_id: surat-keputusan-mpr-rehabilitasi-tokoh-2024
         - source_id: laporan-mpr-konstitusi-2022
@@ -6274,6 +6345,8 @@
       event_ids:
         - ev-mpr-kajian-pphn-2024
         - ev-kajian-pokok-pokok-haluan-negara-mpr-2021
+      antithesis_id: Asas negara hukum ditegakkan ke dalam lewat pencabutan ketetapan lama, tetapi MPR tidak bersuara atas pembangkangan DPR terhadap putusan Mahkamah Konstitusi pada Agustus 2024 yang terjadi di depan matanya.
+      synthesis_id: Skor Sangat Baik (+2) karena MPR mencabut ketetapannya sendiri yang menjatuhkan sanksi hukum tanpa proses peradilan, menerapkan asas negara hukum pada kekeliruan lembaganya sendiri.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -8633,6 +8706,8 @@
       event_ids:
         - ev-mprs-tap-xx-1966
         - ev-mpr-tap-xi-1998
+      antithesis_id: Sidang Istimewa MPR November 1998 menghasilkan TAP XI/MPR/1998 tentang penyelenggara negara bebas KKN dan TAP XVII/MPR/1998 tentang HAM, memperlihatkan lembaga ini akhirnya mampu merespons tuntutan rakyat di ujung periodenya.
+      synthesis_id: Skor Sangat Buruk (-2) karena selama hampir tiga dasawarsa MPR berfungsi sebagai instrumen legitimasi aklamasi bagi eksekutif tanpa mekanisme pertanggungjawaban yang berarti.
     - dimension_id: checks-balances
       score: -2
       confidence: 0.85
@@ -8647,6 +8722,8 @@
       event_ids:
         - ev-mpr-tap-xvii-1998
         - ev-tap-mpr-xi-1998-pemberantasan-kkn
+      antithesis_id: Pada 1998 MPR mencabut ketetapan tentang pemberian kekuasaan khusus kepada Presiden dan menetapkan pembatasan masa jabatan, membuktikan kapasitas mengoreksi tetap ada ketika tekanan politik berubah.
+      synthesis_id: Skor Sangat Buruk (-2) karena pertanggungjawaban Presiden diterima secara aklamasi tanpa evaluasi kritis selama enam kali sidang umum berturut-turut, meniadakan fungsi pengawasan tertinggi lembaga perwakilan.
     - dimension_id: sila-3
       score: 1
       confidence: 0.85
@@ -8659,10 +8736,12 @@
       event_ids:
         - ev-mpr-sidang-istimewa-1998-tap
         - ev-mpr-tap-xi-1998
+      antithesis_id: GBHN memberi arah pembangunan yang berkesinambungan lintas periode, tetapi disusun tanpa partisipasi daerah dan menjadi instrumen penyeragaman yang menghapus kekhususan wilayah seperti Aceh dan Papua.
+      synthesis_id: Skor Baik (+1) karena arah pembangunan nasional ditetapkan secara berkesinambungan lewat GBHN, memberi kepastian perencanaan lintas pemerintahan.
     - dimension_id: sila-1
       score: 1
       confidence: 0.75
-      rationale_id: Menetapkan TAP MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa yang menempatkan nilai-nilai ketuhanan sebagai etika moral penyelenggara negara.
+      rationale_id: Menetapkan TAP MPR No. X/MPR/1998 tentang pokok-pokok reformasi pembangunan dan TAP XVII/MPR/1998 tentang HAM pada Sidang Istimewa November 1998, memuat jaminan kebebasan beragama sebagai bagian pengakuan hak asasi pasca-Orde Baru.
       evidence:
         - source_id: tap-mpr-ii-1978
         - source_id: tap-amandemen-uud-1999-2002
@@ -8671,6 +8750,8 @@
       event_ids:
         - ev-tap-mpr-reformasi-1998
         - ev-mpr-tap-xvii-1998
+      antithesis_id: Jaminan kebebasan beragama dalam Piagam HAM 1998 ditetapkan di ujung periode setelah tiga dasawarsa MPR mengesahkan asas tunggal Pancasila yang justru memaksa keseragaman ideologis pada seluruh organisasi keagamaan.
+      synthesis_id: Skor Baik (+1) karena kebebasan beragama dicantumkan dalam Piagam HAM yang ditetapkan MPR, meletakkan dasar bagi jaminan konstitusionalnya pada amandemen berikutnya.
     - dimension_id: sila-2
       score: -1
       confidence: 0.85
@@ -8682,10 +8763,12 @@
       event_ids:
         - ev-tap-mpr-ii-1978-p4
         - ev-tap-mpr-xi-1998-pemberantasan-kkn
+      antithesis_id: TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia yang ditetapkan pada Sidang Istimewa 1998 menjadi Piagam HAM pertama Indonesia dan dasar bagi UU 39/1999 serta Bab XA UUD 1945.
+      synthesis_id: Skor Buruk (-1) karena penataran P4 yang diwajibkan MPR menyeragamkan tafsir ideologi selama dua dasawarsa dan menutup akuntabilitas atas pelanggaran hak asasi yang berlangsung pada periode yang sama.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam yang berkeadilan sosial.
+      rationale_id: Menetapkan TAP MPR No. IV/MPR/1978 tentang Garis-Garis Besar Haluan Negara yang merumuskan pemerataan pembangunan sebagai salah satu asas, memberi arah normatif bagi keadilan sosial dalam kebijakan Orde Baru.
       evidence:
         - source_id: tap-mpr-iv-1978
       normative_anchors:
@@ -8693,10 +8776,12 @@
       event_ids:
         - ev-mpr-tap-iv-gbhn-1978
         - ev-mpr-tap-xi-1998
+      antithesis_id: Asas pemerataan dirumuskan dalam GBHN, tetapi MPR tidak pernah mengevaluasi pelaksanaannya sehingga konsentrasi aset pada keluarga dan kroni penguasa berlangsung tanpa koreksi dari lembaga tertinggi negara.
+      synthesis_id: Skor Baik (+1) karena pemerataan pembangunan ditetapkan sebagai asas yang mengikat penyelenggara negara lewat GBHN, memberi dasar normatif bagi kebijakan pengentasan kemiskinan.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.8
-      rationale_id: Mengatur doktrin pertahanan dan keamanan negara (Pasal 30 UUD 1945) serta pemisahan kelembagaan TNI dan Polri melalui TAP VI & VII/MPR/2000.
+      rationale_id: Menetapkan TAP MPR No. V/MPR/1999 tentang pengakuan hasil jajak pendapat Timor Timur, menuntaskan status wilayah lewat ketetapan lembaga tertinggi negara alih-alih membiarkannya menjadi sengketa berkepanjangan.
       evidence:
         - source_id: tap-mprs-xxxiii-1967
         - source_id: tap-mpr-ii-1978
@@ -8706,10 +8791,12 @@
       event_ids:
         - ev-referendum-timtim-1999
         - ev-mpr-tap-xvii-1998
+      antithesis_id: Pengakuan hasil jajak pendapat ditetapkan setelah kekerasan pasca-pemungutan suara terjadi tanpa MPR mempersoalkan pertanggungjawaban atasnya, sehingga penuntasan status wilayah dicapai tanpa penuntasan tanggung jawab.
+      synthesis_id: Skor Baik (+1) karena status Timor Timur diselesaikan lewat ketetapan lembaga tertinggi negara berdasarkan hasil jajak pendapat, menutup sengketa wilayah secara konstitusional.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
-      rationale_id: Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dan kebersamaan melalui Perubahan Keempat Pasal 33 UUD 1945.
+      rationale_id: Menetapkan TAP MPR No. XI/MPR/1998 tentang penyelenggara negara yang bersih dan bebas korupsi, kolusi, dan nepotisme pada Sidang Istimewa 1998, meletakkan dasar normatif pembersihan pengelolaan ekonomi negara.
       evidence:
         - source_id: tap-mpr-iv-1978
       normative_anchors:
@@ -8717,10 +8804,12 @@
       event_ids:
         - ev-tap-mpr-xi-1998-pemberantasan-kkn
         - ev-mpr-tap-xi-1998
+      antithesis_id: Ketetapan itu lahir setelah tiga dasawarsa MPR mengesahkan pertanggungjawaban Presiden tanpa mempersoalkan konsentrasi kekayaan pada lingkaran kekuasaan, sehingga koreksinya datang ketika kerusakannya sudah terjadi.
+      synthesis_id: Skor Baik (+1) karena penyelenggaraan negara yang bebas korupsi, kolusi, dan nepotisme ditetapkan sebagai norma yang mengikat, menjadi dasar seluruh legislasi antikorupsi sesudahnya.
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan klausul revolusioner Pasal 31 ayat (4) UUD 1945 yang mewajibkan negara mengalokasikan minimal 20% APBN/APBD untuk pendidikan.
+      rationale_id: Menetapkan TAP MPR No. X/MPR/1998 tentang pokok-pokok reformasi pembangunan yang memuat agenda pembenahan pendidikan nasional, membuka jalan bagi reformasi sektor pendidikan pasca-Orde Baru.
       evidence:
         - source_id: tap-mprs-xxxiii-1967
         - source_id: tap-mpr-ii-1978
@@ -8730,10 +8819,12 @@
       event_ids:
         - ev-mpr-tap-xvii-1998
         - ev-tap-mpr-xi-1998-pemberantasan-kkn
+      antithesis_id: Agenda pembenahan pendidikan dirumuskan di ujung periode, sementara sepanjang tiga dasawarsa sebelumnya MPR justru mengesahkan penataran P4 yang menjadikan pendidikan sarana penyeragaman ideologi.
+      synthesis_id: Skor Sangat Baik (+2) karena pembenahan menyeluruh sektor pendidikan ditetapkan sebagai agenda reformasi yang mengikat, membuka jalan bagi UU Sisdiknas dan mandat anggaran pendidikan.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
-      rationale_id: Menegaskan prinsip politik luar negeri bebas aktif dalam konstitusi dan mendukung perdamaian abadi dunia berdasar kemerdekaan.
+      rationale_id: Menetapkan haluan politik luar negeri bebas aktif dalam GBHN sepanjang periode dan menegaskan pengakuan hasil jajak pendapat Timor Timur pada 1999, menempatkan penyelesaian sengketa internasional dalam kerangka ketetapan lembaga tertinggi negara.
       evidence:
         - source_id: tap-mpr-v-1999
       normative_anchors:
@@ -8741,10 +8832,12 @@
       event_ids:
         - ev-mpr-tap-xi-1998
         - ev-mpr-tap-xvii-1998
+      antithesis_id: Haluan bebas aktif ditetapkan dalam GBHN sementara MPR tidak pernah mempersoalkan pendudukan Timor Timur yang berlangsung dua puluh empat tahun dan bertentangan langsung dengan prinsip yang ditetapkannya sendiri.
+      synthesis_id: Skor Baik (+1) karena politik luar negeri bebas aktif ditetapkan sebagai haluan yang mengikat penyelenggara negara dan status Timor Timur diselesaikan lewat ketetapan resmi.
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan penegasan konstitusional Pasal 1 ayat (3) bahwa Negara Indonesia adalah Negara Hukum dan membentuk Mahkamah Konstitusi.
+      rationale_id: Menetapkan TAP MPR No. XI/MPR/1998 tentang penyelenggara negara bebas KKN dan mencabut ketetapan pemberian kekuasaan khusus kepada Presiden pada Sidang Istimewa November 1998, memulihkan pembatasan kekuasaan yang selama ini ditiadakan.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
         - source_id: tap-mpr-xvii-1998
@@ -8757,6 +8850,8 @@
         - ev-tap-mpr-xi-1998-pemberantasan-kkn
         - ev-mpr-tap-xvii-1998
         - ev-mpr-tap-xxxiii-1967
+      antithesis_id: Pemulihan pembatasan kekuasaan datang setelah Presiden yang dibatasi sudah lengser, sehingga MPR mengoreksi ketika koreksi itu tidak lagi berisiko - bukti bahwa lembaga ini mengikuti alih-alih memimpin perubahan.
+      synthesis_id: Skor Sangat Baik (+2) karena ketetapan yang selama ini memberi kekuasaan tak terbatas kepada Presiden dicabut dan asas penyelenggara negara bebas KKN ditetapkan, membuka pintu reformasi konstitusional.
     - dimension_id: kedaulatan-rakyat
       score: -2
       confidence: 0.9
@@ -8770,6 +8865,8 @@
       event_ids:
         - ev-tap-mpr-xi-1998-pemberantasan-kkn
         - ev-mpr-tap-xi-1998
+      antithesis_id: Sidang Istimewa 1998 menetapkan pembatasan masa jabatan presiden dan agenda pemilu yang dipercepat, mengembalikan penentuan kekuasaan kepada rakyat setelah tiga dasawarsa dikunci.
+      synthesis_id: Skor Sangat Buruk (-2) karena selama hampir tiga dasawarsa MPR mengesahkan pemilihan presiden secara aklamasi dari pemilu yang kontestasinya dikunci fusi partai dan asas tunggal.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -8812,6 +8909,8 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-pelantikan-presiden-sby-2004
+      antithesis_id: Pelantikan berjalan tertib, tetapi itu adalah tugas seremonial yang tersisa setelah amandemen mencabut kewenangan MPR memilih presiden - permusyawaratan yang dulu menjadi inti lembaga ini berpindah ke bilik suara.
+      synthesis_id: Skor Baik (+1) karena MPR menjalankan peran barunya sebagai pelantik presiden hasil pemilihan langsung tanpa mempersoalkan hilangnya kewenangan memilih, menerima pengurangan kekuasaannya sendiri.
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
@@ -8820,92 +8919,114 @@
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Kepatuhan pada format bikameral berarti MPR tidak lagi menjadi penjelmaan kedaulatan rakyat, dan lembaga ini tidak membangun mekanisme baru untuk menyalurkan aspirasi rakyat di antara dua pemilu.
+      synthesis_id: Skor Baik (+1) karena MPR menghormati mandat langsung pemilih dan tidak berupaya memulihkan kewenangannya memilih presiden, menjaga hasil amandemen tetap berjalan.
     - dimension_id: sila-1
       score: 1
       confidence: 0.75
-      rationale_id: Menetapkan TAP MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa yang menempatkan nilai-nilai ketuhanan sebagai etika moral penyelenggara negara.
+      rationale_id: Menginisiasi program sosialisasi nilai-nilai kebangsaan pada 2005 sebagai peran baru MPR pasca-amandemen, menyebarkan pemahaman Pancasila termasuk sila Ketuhanan kepada masyarakat luas.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-sosialisasi-kebangsaan-2005
+      antithesis_id: Program sosialisasi berjalan tanpa indikator dampak, dan MPR tidak menggunakan wewenangnya membahas TAP yang masih berlaku untuk mengoreksi peraturan yang membatasi kebebasan beragama pada periode yang sama.
+      synthesis_id: Skor Baik (+1) karena MPR mengisi peran barunya pasca-amandemen dengan penyebarluasan nilai kebangsaan, menjaga relevansi kelembagaannya setelah kewenangan utamanya dicabut.
     - dimension_id: sila-2
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dan memasukkan Bab XA (Pasal 28A-28J) ke dalam UUD 1945.
+      rationale_id: Mempertahankan berlakunya TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dalam penataan status hukum ketetapan MPR pasca-amandemen, menjaga Piagam HAM tetap menjadi rujukan meski MPR tidak lagi berwenang menetapkan TAP baru.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-pelantikan-sby-2004
+      antithesis_id: Piagam HAM dipertahankan sebagai dokumen yang masih berlaku, tetapi capaian normatifnya adalah pekerjaan MPR 1998 dan 1999-2004; periode ini tidak menambahkan apa pun pada perlindungan hak asasi selain memelihara warisan itu.
+      synthesis_id: Skor Sangat Baik (+2) karena Piagam HAM dan Bab XA UUD 1945 tetap berlaku sebagai norma tertinggi hak asasi, capaian yang dijaga MPR agar tidak dipersoalkan kembali.
     - dimension_id: sila-3
       score: 1
       confidence: 0.8
-      rationale_id: Memperkuat otonomi daerah melalui penataan Pasal 18, 18A, dan 18B UUD 1945 serta mengawal konsensus kebangsaan Empat Pilar.
+      rationale_id: Menyelenggarakan Sidang Tahunan 2008 yang memuat laporan kinerja lembaga negara pasca-amandemen, mempertemukan seluruh lembaga negara dalam satu forum sebagai wujud kesatuan penyelenggaraan negara.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-sidang-tahunan-evaluasi-2008
+      antithesis_id: Sidang tahunan mempertemukan lembaga negara tetapi bersifat laporan sepihak tanpa mekanisme tanya jawab maupun tindak lanjut, sehingga forum itu lebih menyerupai upacara daripada pertanggungjawaban.
+      synthesis_id: Skor Baik (+1) karena MPR menghidupkan forum tahunan yang mempertemukan seluruh lembaga negara, menjaga kesatuan penyelenggaraan negara pasca-amandemen tetap terlihat.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam yang berkeadilan sosial.
+      rationale_id: Memelihara berlakunya TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dalam penataan status ketetapan MPR, menjaga mandat keadilan agraria tetap hidup sebagai rujukan hukum meski tidak dijalankan pemerintah.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Mandat pembaruan agraria dipelihara sebagai dokumen, tetapi MPR tidak pernah menagih pelaksanaannya kepada pemerintah maupun DPR sehingga pemeliharaan itu tidak berbuah tindakan apa pun bagi petani dan masyarakat adat.
+      synthesis_id: Skor Baik (+1) karena mandat konstitusional pembaruan agraria dijaga tetap berlaku dan tidak dicabut, mempertahankan rujukan hukum bagi gerakan keadilan agraria.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.8
-      rationale_id: Mengatur doktrin pertahanan dan keamanan negara (Pasal 30 UUD 1945) serta pemisahan kelembagaan TNI dan Polri melalui TAP VI & VII/MPR/2000.
+      rationale_id: Memelihara berlakunya TAP MPR No. VI dan VII/MPR/2000 tentang pemisahan TNI dan Polri dalam penataan status ketetapan MPR, menjaga supremasi sipil atas alat negara tetap berdasar hukum yang mengikat.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Pemeliharaan ketetapan pemisahan TNI-Polri bersifat pasif; MPR tidak menggunakan forum tahunannya untuk mengevaluasi pelaksanaan supremasi sipil maupun persoalan peradilan militer yang belum tuntas.
+      synthesis_id: Skor Baik (+1) karena dasar hukum pemisahan TNI dan Polri dijaga tetap berlaku, mempertahankan supremasi sipil sebagai norma yang tidak dapat ditawar.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
-      rationale_id: Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dan kebersamaan melalui Perubahan Keempat Pasal 33 UUD 1945.
+      rationale_id: Menjaga berlakunya Pasal 33 UUD 1945 hasil Perubahan Keempat sebagai landasan perekonomian nasional tanpa membuka kembali wacana perubahannya, memberi kepastian bagi tertib ekonomi konstitusional pasca-amandemen.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Kepastian dijaga dengan tidak membuka wacana perubahan, tetapi MPR juga tidak menggunakan forum tahunannya untuk mengevaluasi apakah asas demokrasi ekonomi itu benar-benar dijalankan pemerintah dan DPR.
+      synthesis_id: Skor Baik (+1) karena landasan konstitusional perekonomian nasional dijaga stabil pada periode konsolidasi pasca-amandemen, memberi kepastian bagi tertib ekonomi.
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan klausul revolusioner Pasal 31 ayat (4) UUD 1945 yang mewajibkan negara mengalokasikan minimal 20% APBN/APBD untuk pendidikan.
+      rationale_id: Menjaga berlakunya Pasal 31 ayat (4) UUD 1945 tentang kewajiban alokasi minimal 20 persen anggaran pendidikan tanpa upaya melunakkannya, mempertahankan mandat yang pada periode ini mulai ditagih lewat putusan Mahkamah Konstitusi.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Mandat 20 persen dipertahankan dalam konstitusi, tetapi penagihannya kepada pemerintah dilakukan Mahkamah Konstitusi lewat serangkaian putusan - bukan oleh MPR yang menetapkannya.
+      synthesis_id: Skor Sangat Baik (+2) karena kewajiban konstitusional anggaran pendidikan dipertahankan utuh tanpa pelunakan, menjadi dasar bagi pemenuhannya yang dipaksakan lewat pengadilan.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
-      rationale_id: Menegaskan prinsip politik luar negeri bebas aktif dalam konstitusi dan mendukung perdamaian abadi dunia berdasar kemerdekaan.
+      rationale_id: Menjaga rumusan politik luar negeri bebas aktif dalam konstitusi hasil amandemen tetap utuh dan menyelenggarakan diplomasi parlementer sebagai lembaga permusyawaratan pada forum internasional.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Rumusan bebas aktif dijaga tetap utuh, tetapi MPR tidak memiliki kewenangan mengawasi pelaksanaannya oleh pemerintah sehingga penjagaan itu terbatas pada teks konstitusi.
+      synthesis_id: Skor Baik (+1) karena prinsip politik luar negeri bebas aktif dipertahankan dalam konstitusi dan diperkenalkan lewat diplomasi parlementer.
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan penegasan konstitusional Pasal 1 ayat (3) bahwa Negara Indonesia adalah Negara Hukum dan membentuk Mahkamah Konstitusi.
+      rationale_id: Menata status hukum ketetapan MPR terdahulu sesuai TAP No. I/MPR/2003 sepanjang periode ini, memberi kepastian mana ketetapan yang masih berlaku dan mana yang sudah tidak, membereskan tumpukan norma warisan enam dasawarsa.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Penataan status ketetapan memberi kepastian formal, tetapi merupakan pelaksanaan keputusan yang diambil MPR periode sebelumnya; periode ini tidak menambahkan penguatan apa pun pada arsitektur negara hukum.
+      synthesis_id: Skor Sangat Baik (+2) karena tumpukan ketetapan MPR dari enam dasawarsa ditata status hukumnya sehingga tidak lagi menimbulkan ketidakpastian dalam tertib perundang-undangan.
     - dimension_id: checks-balances
       score: 2
       confidence: 0.9
-      rationale_id: Membatasi masa jabatan presiden maksimal 2 periode (Pasal 7 UUD 1945) dan menata mekanisme pemakzulan (impeachment) secara konstitusional.
+      rationale_id: Menjaga berlakunya pembatasan masa jabatan presiden maksimal dua periode dalam Pasal 7 UUD 1945 tanpa membuka wacana perubahannya, mempertahankan pembatasan kekuasaan yang menjadi inti reformasi konstitusional.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Pembatasan masa jabatan dijaga, tetapi MPR pada periode ini tidak menjalankan satu pun fungsi pengawasan aktif atas lembaga negara lain karena kewenangan itu memang sudah tidak dimilikinya pasca-amandemen.
+      synthesis_id: Skor Sangat Baik (+2) karena pembatasan masa jabatan presiden dipertahankan tanpa celah, menjaga pilar utama pencegahan kekuasaan tak terbatas tetap berdiri.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -8950,6 +9071,8 @@
       event_ids:
         - ev-sosialisasi-empat-pilar-kebangsaan-mpr-2017
         - ev-mpr-empat-pilar-2011
+      antithesis_id: Sosialisasi penguatan Bhinneka Tunggal Ika dijalankan justru ketika polarisasi politik identitas mencapai puncaknya pada Pilkada DKI 2017 dan Pilpres 2019, tanpa dampak yang dapat diukur pada ketegangan itu.
+      synthesis_id: Skor Baik (+1) karena nilai persatuan dan kebinekaan tetap disuarakan secara terlembaga pada periode ketika politik identitas paling menajam.
     - dimension_id: checks-balances
       score: 0
       confidence: 0.85
@@ -8961,10 +9084,12 @@
         - uud-nri-1945
       event_ids:
         - ev-sosialisasi-empat-pilar-kebangsaan-mpr-2017
+      antithesis_id: MPR tetap menjaga pembatasan masa jabatan presiden dan mekanisme pemakzulan dalam konstitusi tanpa membuka wacana pelonggarannya sepanjang periode.
+      synthesis_id: Skor Netral (0) karena pilar pembatasan kekuasaan dipertahankan, tepat sebanding dengan revisi UU MD3 yang menambah kursi pimpinan MPR semata untuk mengakomodasi kompromi antarfraksi.
     - dimension_id: sila-1
       score: 1
       confidence: 0.75
-      rationale_id: Menetapkan TAP MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa yang menempatkan nilai-nilai ketuhanan sebagai etika moral penyelenggara negara.
+      rationale_id: Melaksanakan program sosialisasi Empat Pilar sejak 2017 yang memuat penyebarluasan nilai Ketuhanan Yang Maha Esa sebagai sila pertama, menjangkau masyarakat di seluruh daerah pemilihan anggota MPR.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
@@ -8972,10 +9097,12 @@
         - uud-nri-1945
       event_ids:
         - ev-sosialisasi-empat-pilar-kebangsaan-mpr-2017
+      antithesis_id: Sosialisasi berjalan sebagai program rutin yang dianggarkan per anggota tanpa evaluasi dampak, dan MPR tidak bersuara atas meningkatnya penyegelan rumah ibadah pada periode yang sama.
+      synthesis_id: Skor Baik (+1) karena nilai Ketuhanan sebagai sila pertama disebarluaskan lewat program yang menjangkau seluruh daerah, menjaga pemahaman dasar negara tetap hidup.
     - dimension_id: sila-2
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dan memasukkan Bab XA (Pasal 28A-28J) ke dalam UUD 1945.
+      rationale_id: Menjaga Bab XA UUD 1945 dan Piagam HAM tetap berlaku sebagai norma tertinggi hak asasi sepanjang periode, termasuk ketika revisi UU MD3 pada 2018 memuat pasal yang dipersoalkan mengancam kebebasan berpendapat.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
@@ -8983,10 +9110,12 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-revisi-uu-md3-kursi-mpr-2018
+      antithesis_id: Norma hak asasi dijaga dalam konstitusi, tetapi MPR tidak mempersoalkan pasal revisi UU MD3 2018 yang memberi kewenangan memanggil paksa pengkritik dewan - ancaman langsung pada hak yang dijaganya.
+      synthesis_id: Skor Sangat Baik (+2) karena katalog hak asasi dalam konstitusi dipertahankan utuh sebagai norma tertinggi yang tidak dapat dikurangi undang-undang.
     - dimension_id: sila-4
       score: 2
       confidence: 0.9
-      rationale_id: Melakukan empat tahapan perubahan UUD 1945 (1999-2002) yang memulihkan kedaulatan rakyat melalui pemilu langsung dan pelembagaan DPD.
+      rationale_id: Menetapkan Keputusan MPR RI No. 8/MPR/2019 tentang rekomendasi MPR periode 2014-2019 kepada periode berikutnya, memindahkan agenda ketatanegaraan lewat mekanisme permusyawaratan antarperiode.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
@@ -8994,10 +9123,12 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-rekomendasi-haluan-2019
+      antithesis_id: Rekomendasi antarperiode disusun tanpa keterlibatan publik dan memuat usulan menghidupkan kembali haluan negara yang berpotensi memulihkan kedudukan MPR sebagai lembaga tertinggi - arah yang justru bertentangan dengan hasil amandemen.
+      synthesis_id: Skor Sangat Baik (+2) karena hasil amandemen yang memulihkan kedaulatan rakyat dipertahankan dan agenda ketatanegaraan dialihkan lewat mekanisme permusyawaratan yang tertib.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam yang berkeadilan sosial.
+      rationale_id: Menyelenggarakan sidang paripurna pelantikan Presiden dan Wakil Presiden hasil Pemilu 2014 pada Oktober 2014 dan memelihara berlakunya TAP IX/MPR/2001 tentang pembaruan agraria sebagai mandat yang belum dijalankan.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
@@ -9005,10 +9136,12 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-pelantikan-presiden-jokowi-2014
+      antithesis_id: Mandat pembaruan agraria dipelihara sebagai dokumen sementara konflik agraria meningkat tajam sepanjang periode ini, dan MPR tidak sekali pun menagih pelaksanaannya kepada pemerintah maupun DPR.
+      synthesis_id: Skor Baik (+1) karena mandat konstitusional pembaruan agraria dijaga tetap berlaku sebagai rujukan hukum yang tidak dicabut.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.8
-      rationale_id: Mengatur doktrin pertahanan dan keamanan negara (Pasal 30 UUD 1945) serta pemisahan kelembagaan TNI dan Polri melalui TAP VI & VII/MPR/2000.
+      rationale_id: Menyebarluaskan pemahaman Pasal 30 UUD 1945 tentang pertahanan dan keamanan negara lewat program sosialisasi Empat Pilar sejak 2017, menjadikan doktrin pertahanan semesta pengetahuan publik.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
@@ -9016,20 +9149,24 @@
         - uud-nri-1945
       event_ids:
         - ev-sosialisasi-empat-pilar-kebangsaan-mpr-2017
+      antithesis_id: Doktrin pertahanan disebarluaskan sebagai materi penyuluhan tanpa evaluasi atas pelaksanaannya, sementara wacana menghidupkan kembali peran militer di ranah sipil mulai muncul tanpa disikapi MPR.
+      synthesis_id: Skor Baik (+1) karena doktrin pertahanan dan keamanan yang menempatkan warga sebagai komponen utama disebarluaskan menjadi pengetahuan publik.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
-      rationale_id: Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dan kebersamaan melalui Perubahan Keempat Pasal 33 UUD 1945.
+      rationale_id: Menyebarluaskan asas perekonomian nasional berdasar demokrasi ekonomi dalam Pasal 33 UUD 1945 lewat sosialisasi Empat Pilar 2017, menjaga landasan ekonomi konstitusional tetap dipahami masyarakat.
       evidence:
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-sosialisasi-empat-pilar-kebangsaan-mpr-2017
+      antithesis_id: Penyebarluasan berjalan tanpa menyentuh persoalan konkret periode ini, ketika sejumlah undang-undang sektor sumber daya alam dipersoalkan bertentangan dengan asas yang disosialisasikan itu.
+      synthesis_id: Skor Baik (+1) karena asas demokrasi ekonomi dalam konstitusi dipelihara dan disebarluaskan sebagai dasar warga menilai kebijakan ekonomi negara.
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan klausul revolusioner Pasal 31 ayat (4) UUD 1945 yang mewajibkan negara mengalokasikan minimal 20% APBN/APBD untuk pendidikan.
+      rationale_id: Menyebarluaskan kewajiban konstitusional alokasi 20 persen anggaran pendidikan lewat program sosialisasi Empat Pilar sejak 2017, memperkuat pengetahuan warga atas hak yang dapat ditagih dari negara.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
@@ -9037,10 +9174,12 @@
         - uud-nri-1945
       event_ids:
         - ev-sosialisasi-empat-pilar-kebangsaan-mpr-2017
+      antithesis_id: Sosialisasi memperkuat pengetahuan atas mandat 20 persen, tetapi tidak menyentuh persoalan yang mulai muncul yaitu pemenuhan nominal yang dicapai dengan memasukkan komponen di luar pendidikan.
+      synthesis_id: Skor Sangat Baik (+2) karena kewajiban konstitusional anggaran pendidikan dijaga utuh dan disebarluaskan sebagai hak warga yang dapat ditagih.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
-      rationale_id: Menegaskan prinsip politik luar negeri bebas aktif dalam konstitusi dan mendukung perdamaian abadi dunia berdasar kemerdekaan.
+      rationale_id: Menyebarluaskan prinsip politik luar negeri bebas aktif lewat sosialisasi Empat Pilar 2017 dan menjalankan diplomasi antarparlemen, memperkenalkan pemahaman konstitusional Indonesia di forum internasional.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
@@ -9048,10 +9187,12 @@
         - uud-nri-1945
       event_ids:
         - ev-sosialisasi-empat-pilar-kebangsaan-mpr-2017
+      antithesis_id: Diplomasi parlementer dijalankan sebagai kegiatan kelembagaan tanpa mandat pengawasan atas kebijakan luar negeri, sehingga tidak berpengaruh pada posisi Indonesia dalam isu internasional apa pun.
+      synthesis_id: Skor Baik (+1) karena prinsip politik luar negeri bebas aktif dipelihara dalam konstitusi dan diperkenalkan lewat forum antarparlemen.
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan penegasan konstitusional Pasal 1 ayat (3) bahwa Negara Indonesia adalah Negara Hukum dan membentuk Mahkamah Konstitusi.
+      rationale_id: Menyebarluaskan penegasan Pasal 1 ayat (3) tentang Indonesia sebagai negara hukum lewat sosialisasi Empat Pilar 2017 dan menjaga rumusan itu tetap utuh tanpa wacana perubahan.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
         - source_id: dokumen-mpr-rekomendasi-haluan-2019
@@ -9059,16 +9200,20 @@
         - uud-nri-1945
       event_ids:
         - ev-sosialisasi-empat-pilar-kebangsaan-mpr-2017
+      antithesis_id: Asas negara hukum disebarluaskan sementara MPR tidak bersikap atas revisi UU KPK yang disahkan menjelang akhir periode dan menuai penolakan nasional, membiarkan pelemahan lembaga antikorupsi berjalan tanpa suara.
+      synthesis_id: Skor Sangat Baik (+2) karena penegasan Indonesia sebagai negara hukum dijaga utuh sebagai norma tertinggi dan disebarluaskan sebagai pengetahuan publik.
     - dimension_id: kedaulatan-rakyat
       score: 2
       confidence: 0.9
-      rationale_id: Mengubah Pasal 1 ayat (2) UUD 1945 menjadi kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar.
+      rationale_id: Menyelenggarakan pelantikan Presiden dan Wakil Presiden hasil Pemilu 2014 dan menjaga Pasal 1 ayat (2) UUD 1945 tetap utuh, mengukuhkan mandat langsung pemilih sebagai sumber kekuasaan.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-sosialisasi-empat-pilar-kebangsaan-mpr-2017
+      antithesis_id: Mandat pemilih dikukuhkan lewat pelantikan, tetapi revisi UU MD3 2018 yang menambah kursi pimpinan MPR memperlihatkan lembaga ini mengubah aturannya sendiri untuk kepentingan elite alih-alih pemilih.
+      synthesis_id: Skor Sangat Baik (+2) karena letak kedaulatan pada rakyat dipertahankan utuh dan mandat pemilih dikukuhkan lewat pelantikan yang tertib menurut konstitusi.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -9111,6 +9256,8 @@
         - source_id: risalah-sidang-mpr-2026
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Pelantikan presiden terpilih dijalankan tepat waktu menurut tata tertib konstitusional, menjaga peralihan kekuasaan berlangsung tanpa gejolak sebagaimana amanat pemilih.
+      synthesis_id: Skor Netral (0) karena mandat pemilih dikukuhkan lewat pelantikan yang tertib, tetapi MPR belum menunjukkan peran apa pun dalam menyalurkan kedaulatan rakyat di luar tugas seremonial itu.
     - dimension_id: sila-3
       score: 0
       confidence: 0.7
@@ -9121,20 +9268,24 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-sidang-tahunan-2025
+      antithesis_id: Seruan rekonsiliasi dan persatuan disampaikan lewat sidang tahunan, forum resmi tertinggi yang mempertemukan seluruh lembaga negara dan didengar publik luas.
+      synthesis_id: Skor Netral (0) karena pesan kebangsaan disuarakan dari forum kenegaraan tertinggi, tetapi belum diterjemahkan menjadi tindakan kelembagaan yang menyentuh sumber ketegangan yang nyata.
     - dimension_id: sila-1
       score: 1
       confidence: 0.75
-      rationale_id: Menetapkan TAP MPR No. VI/MPR/2001 tentang Etika Kehidupan Berbangsa yang menempatkan nilai-nilai ketuhanan sebagai etika moral penyelenggara negara.
+      rationale_id: Menyelenggarakan Sidang Tahunan MPR RI dan Sidang Bersama DPR-DPD pada 2026 yang memuat pesan kebangsaan tentang nilai ketuhanan dan kerukunan, memelihara forum kenegaraan tertinggi tetap berjalan berkala.
       evidence:
         - source_id: buku-mpr-empat-pilar-2012
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-sidang-tahunan-2026
+      antithesis_id: Sidang tahunan memuat pesan kebangsaan tanpa mekanisme tindak lanjut, dan MPR belum bersikap atas pasal penodaan agama dalam KUHP Nasional yang akan berlaku dan dipersoalkan banyak kelompok keagamaan.
+      synthesis_id: Skor Baik (+1) karena forum kenegaraan tertinggi yang mempertemukan seluruh lembaga negara dipelihara berjalan berkala dengan pesan kerukunan sebagai agendanya.
     - dimension_id: sila-2
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dan memasukkan Bab XA (Pasal 28A-28J) ke dalam UUD 1945.
+      rationale_id: Menyelenggarakan sidang paripurna pelantikan Presiden dan Wakil Presiden pada Oktober 2024 dan menjaga Bab XA UUD 1945 tetap utuh sebagai norma tertinggi hak asasi pada awal masa jabatan.
       evidence:
         - source_id: risalah-sidang-mpr-2025
         - source_id: risalah-sidang-mpr-2026
@@ -9143,83 +9294,101 @@
         - uud-nri-1945
       event_ids:
         - ev-mpr-pelantikan-prabowo-2024
+      antithesis_id: Norma hak asasi dijaga dalam konstitusi, tetapi MPR tidak bersikap atas catatan Komnas HAM mengenai korban jiwa dan kekerasan aparat dalam aksi nasional Agustus 2025 yang terjadi pada masa jabatannya.
+      synthesis_id: Skor Sangat Baik (+2) karena katalog hak asasi dalam konstitusi dipertahankan utuh sebagai norma tertinggi yang tidak dapat dikurangi undang-undang.
     - dimension_id: sila-4
       score: 2
       confidence: 0.9
-      rationale_id: Melakukan empat tahapan perubahan UUD 1945 (1999-2002) yang memulihkan kedaulatan rakyat melalui pemilu langsung dan pelembagaan DPD.
+      rationale_id: Menyelenggarakan Rembuk Nasional pimpinan lembaga negara pada Januari 2025 sebagai forum permusyawaratan antarlembaga di awal masa pemerintahan baru, menghidupkan tradisi konsultasi kenegaraan.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mpr-konsolidasi-kebangsaan-2025
+      antithesis_id: Rembuk nasional mempertemukan pimpinan lembaga negara tetapi tidak menghasilkan kesepakatan yang mengikat, dan formatnya tertutup sehingga rakyat yang diwakili tidak mengetahui apa yang dimusyawarahkan atas namanya.
+      synthesis_id: Skor Sangat Baik (+2) karena hasil amandemen yang memulihkan kedaulatan rakyat dipertahankan dan forum permusyawaratan antarlembaga dihidupkan pada awal masa pemerintahan baru.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Menetapkan TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dan Pengelolaan Sumber Daya Alam yang berkeadilan sosial.
+      rationale_id: Memelihara berlakunya TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria sebagai mandat yang belum dijalankan pada awal masa jabatan ini, menjaga rujukan hukum keadilan agraria tetap hidup.
       evidence:
         - source_id: risalah-sidang-mpr-2025
         - source_id: risalah-sidang-mpr-2026
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Mandat pembaruan agraria kembali dipelihara secara pasif tanpa penagihan, mengulang pola lima periode MPR sebelumnya yang membiarkan ketetapan itu menjadi dokumen tanpa pelaksanaan selama lebih dari dua dasawarsa.
+      synthesis_id: Skor Baik (+1) karena mandat konstitusional pembaruan agraria dijaga tetap berlaku dan tidak dicabut, mempertahankan rujukan hukumnya.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.8
-      rationale_id: Mengatur doktrin pertahanan dan keamanan negara (Pasal 30 UUD 1945) serta pemisahan kelembagaan TNI dan Polri melalui TAP VI & VII/MPR/2000.
+      rationale_id: Menjaga Pasal 30 UUD 1945 tentang pertahanan dan keamanan negara tetap utuh pada awal masa jabatan dan menyelenggarakan sidang tahunan yang menghadirkan laporan seluruh lembaga negara termasuk bidang pertahanan.
       evidence:
         - source_id: risalah-sidang-mpr-2025
         - source_id: risalah-sidang-mpr-2026
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Norma pertahanan dijaga utuh, tetapi MPR belum bersikap atas penempatan perwira aktif TNI dan Polri di jabatan sipil yang dipersoalkan sebagai penerobosan batas dwifungsi yang dibongkar reformasi.
+      synthesis_id: Skor Baik (+1) karena doktrin pertahanan dan keamanan dalam konstitusi dijaga utuh dan pelaksanaannya dilaporkan dalam forum kenegaraan tahunan.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.75
-      rationale_id: Mengukuhkan asas perekonomian nasional berdasar demokrasi ekonomi dan kebersamaan melalui Perubahan Keempat Pasal 33 UUD 1945.
+      rationale_id: Menjaga Pasal 33 UUD 1945 tentang perekonomian nasional tetap utuh pada awal masa jabatan dan menyelenggarakan sidang tahunan yang menghadirkan laporan kinerja lembaga negara di bidang ekonomi.
       evidence:
         - source_id: risalah-sidang-mpr-2025
         - source_id: risalah-sidang-mpr-2026
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Asas perekonomian konstitusional dijaga utuh, tetapi MPR belum mempersoalkan pembentukan Danantara yang mengelola aset negara di luar rezim akuntabilitas biasa - persoalan yang menyentuh langsung penguasaan negara atas kekayaan.
+      synthesis_id: Skor Baik (+1) karena asas perekonomian nasional dalam konstitusi dipertahankan utuh dan pelaksanaannya dilaporkan dalam forum kenegaraan tahunan.
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan klausul revolusioner Pasal 31 ayat (4) UUD 1945 yang mewajibkan negara mengalokasikan minimal 20% APBN/APBD untuk pendidikan.
+      rationale_id: Menjaga Pasal 31 ayat (4) UUD 1945 tentang kewajiban alokasi 20 persen anggaran pendidikan tetap utuh pada awal masa jabatan, mempertahankan mandat yang sedang dipersoalkan lewat pengujian ke Mahkamah Konstitusi.
       evidence:
         - source_id: risalah-sidang-mpr-2025
         - source_id: risalah-sidang-mpr-2026
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Mandat 20 persen dijaga dalam teks konstitusi, tetapi persoalan pembebanan Makan Bergizi Gratis ke pos anggaran pendidikan diselesaikan Mahkamah Konstitusi lewat Putusan 40/PUU-XXIV/2026 - bukan oleh MPR yang menetapkan normanya.
+      synthesis_id: Skor Sangat Baik (+2) karena kewajiban konstitusional anggaran pendidikan dipertahankan utuh tanpa pelunakan, menjadi dasar koreksi atas cara pembiayaan program yang menggerusnya.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
-      rationale_id: Menegaskan prinsip politik luar negeri bebas aktif dalam konstitusi dan mendukung perdamaian abadi dunia berdasar kemerdekaan.
+      rationale_id: Menjaga prinsip politik luar negeri bebas aktif dalam konstitusi tetap utuh pada awal masa jabatan dan menyelenggarakan sidang tahunan yang menghadirkan laporan kebijakan luar negeri pemerintah.
       evidence:
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Prinsip bebas aktif dijaga dalam teks, tetapi MPR tidak bersikap atas keikutsertaan Indonesia dalam Board of Peace yang dinilai banyak ahli bertentangan dengan mandat Pembukaan tentang penghapusan penjajahan.
+      synthesis_id: Skor Baik (+1) karena prinsip politik luar negeri bebas aktif dipertahankan utuh dalam konstitusi sebagai norma yang mengikat penyelenggara negara.
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.85
-      rationale_id: Mengesahkan penegasan konstitusional Pasal 1 ayat (3) bahwa Negara Indonesia adalah Negara Hukum dan membentuk Mahkamah Konstitusi.
+      rationale_id: Menjaga Pasal 1 ayat (3) UUD 1945 tentang Indonesia sebagai negara hukum tetap utuh pada awal masa jabatan dan menyelenggarakan sidang tahunan yang menghadirkan laporan seluruh lembaga penegak hukum.
       evidence:
         - source_id: risalah-sidang-mpr-2025
         - source_id: risalah-sidang-mpr-2026
         - source_id: tap-amandemen-uud-1999-2002
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Asas negara hukum dijaga dalam teks konstitusi, tetapi MPR tidak bersikap atas seleksi calon hakim konstitusi lewat proses kilat yang menyentuh langsung independensi penjaga konstitusi.
+      synthesis_id: Skor Sangat Baik (+2) karena penegasan Indonesia sebagai negara hukum dijaga utuh sebagai norma tertinggi yang tidak dapat dikurangi undang-undang.
     - dimension_id: checks-balances
       score: 2
       confidence: 0.9
-      rationale_id: Membatasi masa jabatan presiden maksimal 2 periode (Pasal 7 UUD 1945) dan menata mekanisme pemakzulan (impeachment) secara konstitusional.
+      rationale_id: Menjaga pembatasan masa jabatan presiden dua periode dalam Pasal 7 UUD 1945 tetap utuh pada awal masa jabatan tanpa membuka wacana perubahannya, mempertahankan pilar utama pembatasan kekuasaan.
       evidence:
         - source_id: risalah-sidang-mpr-2025
         - source_id: risalah-sidang-mpr-2026
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Pembatasan masa jabatan dijaga secara pasif, sementara MPR tidak menggunakan forum tahunannya untuk mengevaluasi ketegangan antara DPR dan Mahkamah Konstitusi yang berlangsung pada masa jabatannya.
+      synthesis_id: Skor Sangat Baik (+2) karena pembatasan masa jabatan presiden dipertahankan tanpa celah, menjaga pilar utama pencegahan kekuasaan tak terbatas tetap berdiri.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -9599,6 +9768,8 @@
       event_ids:
         - ev-mpr-tap-xxxiii-1967
         - ev-anri-sidang-istimewa-mprs-1967
+      antithesis_id: Pengembalian UUD 1945 sebagai sumber hukum dilakukan lewat dekrit presiden tanpa prosedur perubahan konstitusi yang sah, sehingga tertib hukum yang dipulihkan berdiri di atas tindakan yang menerobos konstitusi yang sedang berlaku.
+      synthesis_id: Skor Baik (+1) karena MPRS menuntaskan peralihan kekuasaan lewat ketetapan yang terdokumentasi dan bukan lewat kekerasan, menjaga bentuk tertib konstitusional tetap berjalan.
     - dimension_id: checks-balances
       score: 0
       confidence: 0.55
@@ -9612,6 +9783,8 @@
       event_ids:
         - ev-mpr-tap-xxxiii-1967
         - ev-anri-sidang-istimewa-mprs-1967
+      antithesis_id: TAP MPRS XXXIII/1967 mencabut kekuasaan Presiden Soekarno lewat sidang istimewa, satu-satunya kali lembaga perwakilan pada era itu menjalankan fungsi meminta pertanggungjawaban kepala negara.
+      synthesis_id: Skor Netral (0) karena kemampuan mencabut mandat Presiden ditunjukkan sekali, tepat sebanding dengan hilangnya fungsi pengawasan rutin akibat keanggotaan MPRS yang seluruhnya diangkat.
     - dimension_id: sila-1
       score: 1
       confidence: 0.5
@@ -9623,6 +9796,8 @@
       event_ids:
         - ev-mpr-tap-xxxiii-1967
         - ev-anri-sidang-istimewa-mprs-1967
+      antithesis_id: Penegasan Pancasila sebagai sumber tertib hukum berjalan bersamaan dengan pelarangan ajaran komunisme lewat TAP MPRS XXV/1966 yang menjadikan keyakinan politik dasar pemidanaan, mempersempit kebebasan berkeyakinan atas nama sila pertama.
+      synthesis_id: Skor Baik (+1) karena Pancasila ditegaskan sebagai sumber tertib hukum negara lewat ketetapan yang mengikat, meletakkan dasar normatif yang bertahan hingga kini.
     - dimension_id: kedaulatan-rakyat
       score: -1
       confidence: 0.5
@@ -9635,6 +9810,8 @@
       event_ids:
         - ev-mpr-tap-xxxiii-1967
         - ev-anri-sidang-istimewa-mprs-1967
+      antithesis_id: MPRS tetap menjadi forum yang secara formal dapat mencabut mandat Presiden dan menetapkan haluan negara, mempertahankan gagasan kedaulatan rakyat sebagai bentuk kelembagaan meski isinya kosong.
+      synthesis_id: Skor Buruk (-1) karena pemilihan umum ditunda lebih dari satu dasawarsa dan seluruh anggota MPRS diangkat, sehingga kedaulatan rakyat dijalankan tanpa satu pun konsultasi kepada rakyat.
     - dimension_id: sila-2
       score: 0
       confidence: 0.45
@@ -9647,6 +9824,8 @@
       event_ids:
         - ev-mpr-tap-xxxiii-1967
         - ev-anri-sidang-istimewa-mprs-1967
+      antithesis_id: Penegasan Pancasila sebagai sumber tertib hukum menempatkan kemanusiaan sebagai norma tertinggi negara, kerangka yang kemudian menjadi dasar seluruh instrumen hak asasi Indonesia.
+      synthesis_id: Skor Netral (0) karena penegasan normatif atas kemanusiaan diimbangi persis oleh pembubaran partai politik lewat ketetapan dan pembiaran kekerasan massal 1965-1966 yang tidak pernah dipersoalkan MPRS.
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.5
@@ -9658,6 +9837,8 @@
       event_ids:
         - ev-mpr-tap-xxxiii-1967
         - ev-anri-sidang-istimewa-mprs-1967
+      antithesis_id: Keutuhan negara dijaga lewat pengembalian UUD 1945 dan penetapan haluan negara, tetapi caranya menerobos konstitusi yang berlaku sehingga preseden yang ditinggalkan justru melemahkan perlindungan konstitusional warga.
+      synthesis_id: Skor Netral (0) karena keutuhan negara terjaga melalui peralihan kekuasaan yang terdokumentasi, tepat sebanding dengan rusaknya prosedur konstitusional yang menjadi harga pembayarannya.
     - dimension_id: sila-5
       score: -1
       confidence: 0.45
@@ -9670,6 +9851,8 @@
       event_ids:
         - ev-mpr-tap-xxxiii-1967
         - ev-anri-sidang-istimewa-mprs-1967
+      antithesis_id: TAP MPRS VIII/MPRS/1965 tentang prinsip berdikari dan penetapan haluan pembangunan semesta merumuskan cita-cita kemandirian ekonomi yang berpihak pada rakyat, kerangka yang secara normatif progresif.
+      synthesis_id: Skor Buruk (-1) karena haluan ekonomi terpimpin yang ditetapkan MPRS berujung inflasi tiga digit, sehingga keadilan sosial yang dirumuskan justru berbalik menjadi kemerosotan daya beli rakyat.
     - dimension_id: tujuan-2
       score: -1
       confidence: 0.45
@@ -9682,6 +9865,8 @@
       event_ids:
         - ev-mpr-tap-xxxiii-1967
         - ev-anri-sidang-istimewa-mprs-1967
+      antithesis_id: MPRS menetapkan Pola Pembangunan Nasional Semesta Berencana sebagai upaya pertama menyusun perencanaan pembangunan jangka panjang secara menyeluruh dalam sejarah republik.
+      synthesis_id: Skor Buruk (-1) karena rencana pembangunan yang ditetapkan tidak pernah dibiayai secara realistis dan anggaran dialihkan ke konfrontasi, sehingga kesejahteraan umum justru merosot berkepanjangan.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -9727,6 +9912,8 @@
         - uud-nri-1945
       event_ids:
         - ev-anri-sidang-ppki-18-22-agustus-1945
+      antithesis_id: KNIP dibentuk PPKI dan anggotanya diangkat, bukan dipilih; perluasan partisipasi lewat Maklumat X membuka sistem multipartai tanpa pernah diuji lewat pemilihan umum sepanjang periode revolusi.
+      synthesis_id: Skor Baik (+1) karena badan perwakilan dibentuk hanya sehari setelah proklamasi dan segera diberi kekuasaan legislatif lewat Maklumat X, meletakkan kedaulatan rakyat sebagai asas sejak hari pertama republik.
     - dimension_id: sila-4
       score: 1
       confidence: 0.5
@@ -9737,6 +9924,8 @@
         - uud-nri-1945
       event_ids:
         - ev-anri-sidang-ppki-18-22-agustus-1945
+      antithesis_id: Peralihan ke sistem parlementer ditempuh lewat maklumat pemerintah dan bukan lewat perubahan UUD, sehingga perubahan mendasar sistem ketatanegaraan diputuskan tanpa mekanisme konstitusional yang tersedia.
+      synthesis_id: Skor Baik (+1) karena tanggung jawab pemerintahan dialihkan kepada menteri yang bertanggung jawab pada badan perwakilan, memperkenalkan permusyawaratan sebagai dasar pemerintahan sejak awal republik.
     - dimension_id: sila-3
       score: 1
       confidence: 0.45
@@ -9747,6 +9936,8 @@
         - uud-nri-1945
       event_ids:
         - ev-anri-sidang-ppki-18-22-agustus-1945
+      antithesis_id: Pembentukan KNIP dan penetapan delapan provinsi menegakkan kesatuan di atas kertas, sementara wilayah yang benar-benar dikuasai republik menyusut terus akibat agresi militer dan pembentukan negara-negara bagian bentukan Belanda.
+      synthesis_id: Skor Baik (+1) karena badan perwakilan nasional dan pembagian wilayah ditetapkan dalam hitungan hari setelah proklamasi, menegakkan klaim kesatuan bangsa di tengah kekosongan kekuasaan.
     - dimension_id: sila-1
       score: 1
       confidence: 0.45
@@ -9757,6 +9948,8 @@
         - uud-nri-1945
       event_ids:
         - ev-anri-sidang-ppki-18-22-agustus-1945
+      antithesis_id: Penghapusan tujuh kata Piagam Jakarta dilakukan lewat kesepakatan cepat sehari setelah proklamasi tanpa forum permusyawaratan yang luas, dan ketidakpuasan atasnya kemudian meletus menjadi pemberontakan bersenjata.
+      synthesis_id: Skor Baik (+1) karena rumusan Ketuhanan Yang Maha Esa yang dapat diterima seluruh golongan disepakati sebagai sila pertama, menjaga negara baru tidak pecah pada hari pertamanya.
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.4
@@ -9767,6 +9960,8 @@
         - uud-nri-1945
       event_ids:
         - ev-anri-sidang-ppki-18-22-agustus-1945
+      antithesis_id: Tertib hukum ditegakkan lewat pengesahan UUD dan pembentukan lembaga, tetapi dalam praktik revolusi banyak keputusan diambil lewat maklumat dan tindakan darurat di luar kerangka konstitusi yang baru disahkan.
+      synthesis_id: Skor Baik (+1) karena konstitusi disahkan dan lembaga negara dibentuk sebagai dasar hukum republik dalam waktu empat hari setelah proklamasi, di tengah kekosongan kekuasaan total.
     - dimension_id: sila-2
       score: 1
       confidence: 0.4
@@ -9777,6 +9972,8 @@
         - uud-nri-1945
       event_ids:
         - ev-anri-sidang-ppki-18-22-agustus-1945
+      antithesis_id: Ruang partisipasi politik dibuka lewat Maklumat X, tetapi kekerasan revolusi sosial di berbagai daerah pada 1945-1946 berlangsung tanpa perlindungan hukum bagi korbannya dan tanpa dipersoalkan badan perwakilan.
+      synthesis_id: Skor Baik (+1) karena kebebasan berserikat dan mendirikan partai dijamin lewat maklumat, menempatkan warga sebagai subjek politik dan bukan sekadar objek pemerintahan.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.4
@@ -9787,6 +9984,8 @@
         - uud-nri-1945
       event_ids:
         - ev-anri-sidang-ppki-18-22-agustus-1945
+      antithesis_id: Kedaulatan diperjuangkan dan dipertahankan, tetapi badan perwakilan tidak dapat melindungi warga dari agresi militer Belanda maupun dari kekerasan antargolongan yang menyertai revolusi di banyak daerah.
+      synthesis_id: Skor Baik (+1) karena negara dibentuk lengkap dengan konstitusi dan lembaga perwakilannya di tengah upaya kembalinya kekuasaan kolonial, mempertahankan eksistensi republik.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.4
@@ -9797,6 +9996,8 @@
         - uud-nri-1945
       event_ids:
         - ev-anri-sidang-ppki-18-22-agustus-1945
+      antithesis_id: Fondasi pemerintahan dan keuangan negara dibentuk, tetapi perekonomian sepanjang periode ini hancur oleh blokade, inflasi mata uang pendudukan, dan pembiayaan perang sehingga kesejahteraan umum tidak bergerak.
+      synthesis_id: Skor Baik (+1) karena kelembagaan pemerintahan dan keuangan negara dibentuk dari titik nol, menyediakan kerangka yang menopang seluruh pembangunan sesudahnya.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -9841,6 +10042,8 @@
         - ev-dpr-uuds-1950
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Konstituante hasil Pemilu 1955 memiliki legitimasi terkuat dalam sejarah republik, tetapi dibubarkan lewat dekrit presiden sebelum menyelesaikan mandatnya - kedaulatan rakyat yang dipulihkan dicabut oleh eksekutif.
+      synthesis_id: Skor Baik (+1) karena kembalinya bentuk negara kesatuan disepakati lewat persetujuan dan Konstituante dibentuk dari pemilu yang jujur, memulihkan kedaulatan rakyat sebagai sumber konstitusi.
     - dimension_id: sila-2
       score: 0
       confidence: 0.5
@@ -9853,6 +10056,8 @@
       event_ids:
         - ev-uu-pemda-desentralisasi-1957
         - ev-anri-piagam-persetujuan-nkri-1950
+      antithesis_id: Perdebatan hak asasi manusia di Konstituante berlangsung terbuka dan mendalam, menghasilkan rumusan yang oleh banyak ahli dinilai lebih maju daripada Bab XA hasil amandemen empat dasawarsa kemudian.
+      synthesis_id: Skor Netral (0) karena pembahasan hak asasi berlangsung paling substantif sepanjang sejarah ketatanegaraan Indonesia, tepat sebanding dengan dibubarkannya forum itu sebelum kesepakatan dicapai.
     - dimension_id: sila-4
       score: 1
       confidence: 0.5
@@ -9864,6 +10069,8 @@
       event_ids:
         - ev-pemilu-demokratis-1955
         - ev-uu-pemda-desentralisasi-1957
+      antithesis_id: Musyawarah perwakilan berjalan penuh, tetapi kebuntuan Konstituante atas dasar negara memperlihatkan permusyawaratan tanpa kesediaan berkompromi dapat berujung pada pembenaran bagi penyelesaian di luar mekanisme demokratis.
+      synthesis_id: Skor Baik (+1) karena Konstituante hasil pemilu bebas membahas konstitusi secara terbuka, dan Pemilu 1955 diselenggarakan tanpa rekayasa dengan hasil diterima seluruh kontestan.
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.5
@@ -9875,6 +10082,8 @@
       event_ids:
         - ev-anri-risalah-konstituante-dasar-negara-1957-1958
         - ev-anri-piagam-persetujuan-nkri-1950
+      antithesis_id: UUDS 1950 menata negara hukum kesatuan dengan jaminan hak yang kuat, tetapi konstitusi itu sendiri berstatus sementara dan berakhir dibatalkan lewat dekrit di luar prosedur perubahan yang diaturnya.
+      synthesis_id: Skor Baik (+1) karena kembalinya bentuk kesatuan dan pemberlakuan UUDS 1950 menata tertib hukum nasional lewat kesepakatan, bukan lewat paksaan bersenjata.
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.45
@@ -9886,6 +10095,8 @@
       event_ids:
         - ev-anri-risalah-konstituante-dasar-negara-1957-1958
         - ev-dpr-uuds-1950
+      antithesis_id: Sistem parlementer menjaga pemerintahan tetap bertanggung jawab kepada wakil rakyat, tetapi tujuh kali pergantian kabinet dalam sembilan tahun melemahkan kemampuan negara menangani pemberontakan daerah yang mengancam keutuhan wilayah.
+      synthesis_id: Skor Netral (0) karena pertanggungjawaban pemerintahan kepada lembaga perwakilan berjalan penuh, tepat sebanding dengan ketidakstabilan kabinet yang menggerus kemampuan negara melindungi warganya.
     - dimension_id: sila-1
       score: 0
       confidence: 0.45
@@ -9898,6 +10109,8 @@
       event_ids:
         - ev-pemilu-demokratis-1955
         - ev-uu-pemda-desentralisasi-1957
+      antithesis_id: Perdebatan dasar negara berlangsung terbuka dan setara antara pendukung Pancasila, Islam, dan sosial-ekonomi, kebebasan berdebat tentang fondasi negara yang tidak pernah terulang dalam sejarah Indonesia sesudahnya.
+      synthesis_id: Skor Netral (0) karena kebebasan penuh memperdebatkan dasar negara diimbangi persis oleh kegagalan mencapai kesepakatan yang kemudian dipakai membenarkan pembubaran forumnya lewat dekrit.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.5
@@ -9909,6 +10122,8 @@
       event_ids:
         - ev-dpr-uuds-1950
         - ev-anri-piagam-persetujuan-nkri-1950
+      antithesis_id: Upaya membangun ekonomi nasional pasca-federal berjalan, tetapi terhambat beban utang warisan Konferensi Meja Bundar, pemberontakan daerah, dan pergantian kabinet yang membuat kebijakan ekonomi tidak pernah berjalan tuntas.
+      synthesis_id: Skor Baik (+1) karena UU No. 1 Tahun 1957 meletakkan otonomi daerah yang luas dan demokratis, dan Pemilu 1955 memberi pemerintahan legitimasi untuk menyusun kebijakan ekonomi nasional.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -9949,6 +10164,8 @@
         - source_id: anri-uupa-5-1960
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: UUPA No. 5 Tahun 1960 lahir dari DPR-GR yang seluruh anggotanya diangkat Presiden setelah DPR hasil Pemilu 1955 dibubarkan, sehingga undang-undang pokok terpenting periode ini disahkan tanpa mandat rakyat.
+      synthesis_id: Skor Baik (+1) karena UUPA membongkar hukum tanah kolonial dan meletakkan dasar keadilan agraria, undang-undang yang hingga kini menjadi rujukan utama hukum agraria Indonesia.
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.55
@@ -9958,6 +10175,8 @@
         - source_id: tap-mprs-xxv-1966
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: DPR-GR tetap menjadi forum yang mengesahkan undang-undang pokok seperti UUPA, mempertahankan bentuk kelembagaan pembentukan hukum meski legitimasinya kosong.
+      synthesis_id: Skor Netral (0) karena fungsi legislasi tetap berjalan dan menghasilkan undang-undang yang bertahan, tepat sebanding dengan hilangnya mandat rakyat akibat pembubaran DPR hasil pemilu dan pengangkatan anggota oleh Presiden.
     - dimension_id: checks-balances
       score: -1
       confidence: 0.45
@@ -9966,6 +10185,8 @@
         - source_id: anri-supersemar-1966
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: DPR-GR sempat menjadi forum yang mengesahkan peralihan kekuasaan pasca-Supersemar secara terdokumentasi, menjaga perubahan kekuasaan tetap melewati lembaga perwakilan meski tanpa daya menolaknya.
+      synthesis_id: Skor Buruk (-1) karena lembaga perwakilan yang anggotanya diangkat Presiden tidak dapat mengawasi Presiden yang mengangkatnya, meniadakan fungsi pengimbang kekuasaan eksekutif.
     - dimension_id: sila-1
       score: 0
       confidence: 0.45
@@ -9974,6 +10195,8 @@
         - source_id: tap-mprs-iii-1963
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Sila Ketuhanan ditegakkan secara formal dalam seluruh produk hukum, tetapi UU No. 1/PNPS/1965 yang lahir pada periode ini justru mengunci tafsir keagamaan yang sah dan menjadi dasar kriminalisasi keyakinan selama enam dasawarsa.
+      synthesis_id: Skor Netral (0) karena kedudukan formal sila Ketuhanan dipertahankan dalam tertib hukum, tepat sebanding dengan lahirnya instrumen yang membatasi kebebasan beragama pada periode yang sama.
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.45
@@ -9982,6 +10205,8 @@
         - source_id: anri-uupa-5-1960
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: UUPA menegakkan kedaulatan atas tanah dan sumber daya, tetapi pelaksanaan landreform-nya berlangsung lewat aksi sepihak yang memicu kekerasan antargolongan di pedesaan tanpa perlindungan hukum bagi korbannya.
+      synthesis_id: Skor Netral (0) karena kedaulatan negara atas tanah dan kekayaan alam ditegakkan lewat undang-undang pokok, tepat sebanding dengan kekerasan yang menyertai pelaksanaannya tanpa perlindungan warga.
     - dimension_id: sila-5
       score: 0
       confidence: 0.45
@@ -9990,6 +10215,8 @@
         - source_id: anri-uupa-5-1960
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: UUPA meletakkan landasan redistribusi tanah bagi petani, tetapi pelaksanaannya terhenti oleh gejolak politik 1965 dan sebagian besar mandat redistribusinya tidak pernah dijalankan hingga hari ini.
+      synthesis_id: Skor Netral (0) karena landasan hukum keadilan agraria yang progresif ditetapkan, tepat sebanding dengan terhentinya pelaksanaan redistribusi yang menjadi tujuannya.
     - dimension_id: sila-4
       score: -1
       confidence: 0.45
@@ -9998,6 +10225,8 @@
         - source_id: anri-supersemar-1966
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: DPR-GR tetap menyelenggarakan pembahasan undang-undang secara formal dan menghasilkan produk hukum yang bertahan puluhan tahun, sehingga bentuk permusyawaratan tidak sepenuhnya hilang.
+      synthesis_id: Skor Buruk (-1) karena anggota lembaga perwakilan diangkat Presiden setelah DPR hasil Pemilu 1955 dibubarkan, meniadakan syarat dasar permusyawaratan yaitu wakil yang dipilih rakyat.
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.4
@@ -10006,6 +10235,8 @@
         - source_id: anri-uupa-5-1960
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Penataan agraria nasional lewat UUPA memberi kerangka pemerataan penguasaan tanah, tetapi periode yang sama ditandai hiperinflasi tiga digit yang menghapus daya beli rakyat lebih cepat daripada manfaat penataan itu.
+      synthesis_id: Skor Netral (0) karena kerangka pemerataan penguasaan sumber daya ditetapkan lewat undang-undang pokok, tepat sebanding dengan runtuhnya perekonomian yang menghapus manfaatnya bagi rakyat.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -10050,6 +10281,8 @@
         - ev-mpr-tap-xvii-1998
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: TAP MPR XI/MPR/1998 lahir dari Sidang Istimewa MPR, forum yang anggotanya sebagian besar berasal dari DPR periode ini - lembaga yang selama tiga dasawarsa justru mengesahkan seluruh produk hukum yang melanggengkan KKN.
+      synthesis_id: Skor Baik (+1) karena asas penyelenggara negara yang bersih dan bebas KKN akhirnya ditetapkan sebagai norma yang mengikat, menjadi dasar seluruh legislasi antikorupsi sesudahnya.
     - dimension_id: sila-2
       score: 1
       confidence: 0.55
@@ -10060,6 +10293,8 @@
         - ev-dpd-posisi-ruu-masyarakat-adat-2025
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Piagam HAM 1998 ditetapkan pada bulan-bulan terakhir periode setelah rezim yang didukung DPR ini lengser, sehingga koreksi datang ketika tidak lagi berisiko - bukan sebagai perlawanan melainkan sebagai penyesuaian.
+      synthesis_id: Skor Baik (+1) karena Piagam HAM pertama Indonesia ditetapkan dan menjadi dasar UU 39/1999 serta Bab XA UUD 1945, titik balik pengakuan hak asasi pasca-otoritarianisme.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high

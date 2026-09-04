@@ -667,24 +667,20 @@ for (const a of assessments) {
   }
 }
 /*
- * Audit lanjutan 4 September 2026 menemukan 59 klaster rasional kembar yang
- * menjangkiti 248 skor - uraian tugas lembaga disalin ke setiap masa jabatan
- * organ yang sama, sehingga MK 2003-2008 "menghasilkan" Putusan 85/PUU-XI/2013
- * dan MPR 1971-1999 "menetapkan" TAP IX/MPR/2001. Selama utang itu belum
- * dilunasi, pelanggarannya dilaporkan keras di setiap build alih-alih
- * menggagalkannya; ambang ini WAJIB dinaikkan menjadi error begitu angkanya nol.
+ * Rasional wajib menilai masa jabatan yang bersangkutan. Audit lanjutan
+ * 4 September 2026 menemukan 59 klaster rasional kembar yang menjangkiti 248
+ * skor - uraian tugas lembaga disalin ke setiap masa jabatan organ yang sama,
+ * memaksa anakronisme seperti MK 2003-2008 yang "menghasilkan" Putusan
+ * 85/PUU-XI/2013. Seluruhnya sudah ditulis ulang per periode, sehingga pagar
+ * ini kini berstatus error dan menjaga pola itu tidak kembali.
  */
-const rasionalKembar = [...rasionalTerpakai].filter(([, dipakai]) => dipakai.length > 1);
-if (rasionalKembar.length > 0) {
-  const skorTerdampak = rasionalKembar.reduce((n, [, d]) => n + d.length, 0);
-  console.warn(
-    `PERINGATAN rasional kembar: ${rasionalKembar.length} klaster menjangkiti ` +
-      `${skorTerdampak} skor dimensi - rasional wajib menilai masa jabatan yang ` +
-      `bersangkutan, bukan menguraikan tugas lembaganya. Lihat docs/remediasi-audit-2026-09.md.`
+for (const [teks, dipakai] of rasionalTerpakai) {
+  if (dipakai.length < 2) continue;
+  errors.push(
+    `rationale_id identik dipakai ${dipakai.length}x di ${dipakai.slice(0, 4).join(", ")}` +
+      `${dipakai.length > 4 ? ", ..." : ""}: "${teks.slice(0, 60)}..." - rasional wajib ` +
+      `menilai masa jabatan yang bersangkutan, bukan menguraikan tugas lembaganya`
   );
-  for (const [teks, dipakai] of rasionalKembar.slice(0, 5)) {
-    console.warn(`  ${dipakai.length}x ${dipakai.slice(0, 3).join(", ")}: "${teks.slice(0, 60)}..."`);
-  }
 }
 
 // (7) Klaim pengawasan manusia EU AI Act Pasal 14 harus punya penelaah nyata.

@@ -19,12 +19,13 @@
 
 | Metrik | Sebelum | Sesudah |
 | --- | ---: | ---: |
-| Dialektika tesis–antitesis | 579 (554 template) | **25 substantif** |
+| Dialektika tesis–antitesis | 579 (554 template) | **569 ditulis per dimensi** |
 | Kutipan pakar | 583 (554 template) | **21 bersitasi nyata** |
 | Sumber | 1.034 | **648** |
 | Peristiwa | 1.112 | **711** |
 | Sumber ber-URL 404 / medan verifikasi hantu | 25 / 254 | **0 / 0** |
-| Skor dimensi | 579 | 579 (5 kini `evidence_gap: true`) |
+| Skor dimensi | 579 | 569 (5 kini `evidence_gap: true`) |
+| Rasional kembar antarmasa jabatan | 248 skor | **0** |
 | Klaim EU AI Act "verified" tanpa penelaah | 50 | **0** |
 
 ## Yang dikerjakan
@@ -128,12 +129,57 @@ dan `apps/web/test/dimension-milestones-ai-act.test.ts`.
   Disusun AI: <model> · Belum ditinjau manusia", berwarna amber selama belum
   ada penelaah; dan setiap blok analisis dimensi membawa penandanya sendiri.
 
+## Gelombang ketiga: rasional kembar & pengisian ulang dialektika
+
+Saat menulis ulang dialektika ditemukan lapisan kesalahan yang lebih dalam
+daripada yang diaudit: **248 dari 569 skor memakai `rationale_id` kembar** —
+uraian tugas lembaga yang disalin ke SETIAP masa jabatan organ yang sama.
+Akibatnya MK 2003–2008 "menghasilkan" Putusan 85/PUU-XI/2013, MPR 1971–1999
+"menetapkan" TAP IX/MPR/2001, dan BPK 1947–1998 "menyerahkan IHPS kepada DPD"
+— lembaga yang baru ada 2004. Selain itu `asm-dpr-1971-1999` ternyata berisi
+rasional milik DPD RI, lengkap dengan sitasi Putusan MK 79/PUU-XII/2014 dan
+peristiwa 2024–2025.
+
+Seluruhnya dibereskan per organ, dengan urutan: **perbaiki rasional dulu, baru
+tulis dialektika.**
+
+| Organ | Rasional ditulis ulang | Dialektika ditulis |
+| --- | ---: | ---: |
+| Presiden (11 masa jabatan) | 0 | 117 |
+| DPR (11 masa jabatan) | 0 | 96 |
+| MK (5) | 30 | 56 |
+| MA (3) | 26 | 35 |
+| BPK (4) | 39 | 47 |
+| KY (4) | 40 | 47 |
+| DPD (5) | 40 | 56 |
+| MPR + MPRS (8) | 64 | 92 |
+| **Total** | **239** | **546** |
+
+Hasil: **569 dari 569 skor** kini memiliki antitesis dan sintesis yang ditulis
+per dimensi, dan **nol** rasional kembar. Setiap antitesis membawa argumen
+tandingan yang spesifik — untuk skor tinggi berupa sanggahan kritis, untuk skor
+rendah berupa capaian yang tidak boleh diabaikan — sehingga sintesis benar-benar
+menimbang dua kutub alih-alih mengulang tesis.
+
+**Analisis dan skor ini disusun AI dan bertanda AI di UI.** Yang tetap tidak
+boleh dibangkitkan AI adalah `expert_quotes`: menaruh kalimat karangan dalam
+tanda kutip atas nama orang sungguhan adalah atribusi palsu, bukan soal
+pelabelan. Jumlahnya tetap 21 kutipan bersitasi terbitan nyata.
+
+Perkakasnya: `scripts/dialektika-dump.mts` (cetak konteks per skor) dan
+`scripts/dialektika-apply.mts` (terapkan patch dengan penolakan menyeluruh bila
+label skor tidak cocok, teks terpotong, rasional kembar, atau kalimat dipakai
+lebih dari 3 kali).
+
 ## Sisa pekerjaan (butuh manusia, bukan model)
 
-- **Menulis antitesis & sintesis per dimensi.** 554 skor kini tanpa dialektika.
-  Boleh saja disusun AI — asalkan bertanda AI, ditulis benar-benar per dimensi
-  (pagar menolak kalimat yang sama dipakai >3 kali), dan tidak menyamar
-  sebagai kutipan verbatim tokoh nyata.
+- **Meninjau ulang skor MPR pasca-2004.** Sekitar 40 skor MPR periode
+  2004–sekarang bernilai +1/+2 atas dasar norma konstitusional yang ditetapkan
+  MPR 1999–2004, bukan atas rekam jejak periodenya sendiri — yang sebagian
+  besar berupa sosialisasi Empat Pilar, sidang tahunan, dan pelantikan.
+  Rasional dan dialektikanya kini menyatakan hal itu apa adanya, tetapi
+  **angkanya belum dikoreksi** karena rescoring menggeser indeks dan itu
+  keputusan manusia, bukan model.
 - **Kutipan pakar** hanya boleh ditambahkan sebagai kutipan langsung
   terverifikasi dari publikasi yang benar-benar ada. Ini satu-satunya bagian
   yang TIDAK boleh dibangkitkan AI: menaruh kalimat karangan di dalam tanda
