@@ -2,6 +2,15 @@
 
 > Tindak lanjut atas `audit-kritik-total.md` (4 September 2026).
 > Prinsip kerja: **integritas > kuantitas. Lebih baik kosong daripada fiktif.**
+>
+> **Yang dipersoalkan di sini bukan AI yang menganalisis dan memberi skor.**
+> Analisis dan skor pada indeks ini memang disusun model AI, dan itu sah
+> selama pembacanya tahu — karena itu setiap blok analisis kini membawa
+> penanda "Analisis & skor disusun AI" di tempat analisisnya dibaca, bukan
+> hanya di dialog transparansi. Yang dicabut adalah **fabrikasi**: sumber
+> yang tidak ada, kutipan verbatim yang diatribusikan ke akademisi nyata
+> padahal tidak pernah diucapkan, tanggal dan URL yang dikarang, serta satu
+> kalimat template yang diulang ratusan kali seolah analisis per dimensi.
 > Model pembersih: **Claude Opus 5** (Anthropic). Draf terdahulu dibangkitkan
 > Gemini 3.8 Flash High (Google DeepMind) — pembagian peran ini dicatat pada
 > `ai_disclosure.remediation` setiap asesmen dan tampil di lencana transparansi.
@@ -12,8 +21,9 @@
 | --- | ---: | ---: |
 | Dialektika tesis–antitesis | 579 (554 template) | **25 substantif** |
 | Kutipan pakar | 583 (554 template) | **21 bersitasi nyata** |
-| Sumber | 1.034 | **673** |
-| Peristiwa | 1.112 | **718** |
+| Sumber | 1.034 | **648** |
+| Peristiwa | 1.112 | **711** |
+| Sumber ber-URL 404 / medan verifikasi hantu | 25 / 254 | **0 / 0** |
 | Skor dimensi | 579 | 579 (5 kini `evidence_gap: true`) |
 | Klaim EU AI Act "verified" tanpa penelaah | 50 | **0** |
 
@@ -89,13 +99,46 @@ menghitungnya sebagai duplikat, di sini tidak.
 Uji regresi: `packages/data/test/integritas-anti-halusinasi.test.ts` (9 invarian)
 dan `apps/web/test/dimension-milestones-ai-act.test.ts`.
 
+## Gelombang lanjutan (setelah laporan pertama)
+
+- **25 sumber ber-URL fabrikasi dicabut.** Pemeriksaan tautan langsung atas
+  seluruh sumber menemukan URL hasil tebakan pola yang semuanya HTTP 404 —
+  `https://www.bpk.go.id/publikasi/lhp/2024/kemenkeu`,
+  `https://komnasham.go.id/investigasi/penyiksaan/2024/1`,
+  `https://jdih.jatengprov.go.id/peraturan/2024/24`, dan sejenisnya — dengan
+  judul serta nomor dokumen yang ikut dibangkitkan. Enam peristiwa yang
+  seluruh sumbernya fabrikasi semacam itu ikut dihapus.
+- **`source_verified` ternyata medan hantu**: dipakai 254 sumber tetapi tidak
+  ada di `sourceSchema`, jadi selalu dibuang saat build — klaim verifikasi
+  yang tidak pernah sampai ke UI mana pun. Diganti `verification_tier` yang
+  memang ada di skema (615 `official_source`, 33 `unverified`, nol
+  `human_verified`). Halaman `/arsip/[id]` dulu menampilkan lencana hijau
+  "Terverifikasi" pada SETIAP dokumen tanpa memandang keadaannya; kini
+  lencana itu mengikuti `verification_tier`.
+- **10 tanggal placeholder `YYYY-01-01` diperbaiki** lewat verifikasi web
+  (Keppres 181/1998 → 9 Okt 1998; Perpres 83/2024 → 15 Agu 2024; Piagam
+  Jakarta → 22 Jun 1945; Proklamasi NII → 7 Agu 1949; vonis Mahadper atas
+  Kartosoewirjo → 16 Agu 1962; PKI Madiun → 18 Sep 1948; Petisi 50 → 5 Mei
+  1980). Dua yang tidak dapat dipastikan diturunkan presisinya menjadi tahun.
+- **Satu salah atribusi masa jabatan**: UU 23/2014 tercatat pada
+  presiden-jokowi-ii padahal diundangkan 2 Oktober 2014, sebelum pelantikan
+  Jokowi 20 Oktober — dikoreksi ke presiden-sby-ii.
+- **Penanda AI diperjelas**: lencana tingkat penilaian tidak lagi berbunyi
+  "Kuorum 2 Reviewer" (tidak pernah terjadi) melainkan "Analisis & Skor
+  Disusun AI: <model> · Belum ditinjau manusia", berwarna amber selama belum
+  ada penelaah; dan setiap blok analisis dimensi membawa penandanya sendiri.
+
 ## Sisa pekerjaan (butuh manusia, bukan model)
 
 - **Menulis antitesis & sintesis per dimensi.** 554 skor kini tanpa dialektika.
-  Pengisian ulang wajib manual dan bersitasi terbitan nyata — jangan
-  dibangkitkan massal lagi.
+  Boleh saja disusun AI — asalkan bertanda AI, ditulis benar-benar per dimensi
+  (pagar menolak kalimat yang sama dipakai >3 kali), dan tidak menyamar
+  sebagai kutipan verbatim tokoh nyata.
 - **Kutipan pakar** hanya boleh ditambahkan sebagai kutipan langsung
-  terverifikasi dari publikasi yang benar-benar ada.
+  terverifikasi dari publikasi yang benar-benar ada. Ini satu-satunya bagian
+  yang TIDAK boleh dibangkitkan AI: menaruh kalimat karangan di dalam tanda
+  kutip atas nama orang sungguhan bukan lagi soal pelabelan, melainkan
+  atribusi palsu.
 - **Kuorum dua penelaah manusia** belum terpenuhi untuk 50 asesmen; seluruhnya
   masih berstatus draf.
 - 16 sumber yatim (buku akademik nyata) dibiarkan di bibliografi; hapus atau

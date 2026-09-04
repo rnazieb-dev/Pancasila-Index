@@ -56,15 +56,21 @@ export function AiTransparencyBadge({
         type="button"
         onClick={() => setIsOpen(true)}
         title="Klik untuk melihat lembar transparansi kepatuhan EU AI Act Pasal 50"
-        className={`inline-flex items-center gap-1.5 rounded-md border border-sky-500/30 bg-sky-500/10 px-2 py-0.5 text-[10px] font-mono font-medium text-[var(--acc-sky-strong)] hover:border-sky-400 hover:bg-sky-500/20 transition cursor-pointer text-left ${className}`}
+        className={`inline-flex items-center gap-1.5 rounded-md border px-2 py-0.5 text-[10px] font-mono font-medium transition cursor-pointer text-left ${
+          oversightVerified
+            ? "border-sky-500/30 bg-sky-500/10 text-[var(--acc-sky-strong)] hover:border-sky-400 hover:bg-sky-500/20"
+            : "border-amber-500/40 bg-amber-500/10 text-amber-600 dark:text-amber-400 hover:border-amber-400 hover:bg-amber-500/20"
+        } ${className}`}
       >
-        <IconBot size={13} className="shrink-0 text-[var(--acc-sky-strong)]" />
+        <IconBot size={13} className="shrink-0" />
         <span>
           {compact ? (
             <>AI: <strong>{modelDisplay}</strong> (EU AI Act)</>
           ) : (
             <>
-              Sintesis Berbantuan AI: <strong>{modelDisplay}</strong> · Kuorum 2 Reviewer
+              Analisis &amp; Skor Disusun AI: <strong>{modelDisplay}</strong>
+              {" · "}
+              {oversightVerified ? "Ditinjau 2 penelaah" : "Belum ditinjau manusia"}
             </>
           )}
         </span>

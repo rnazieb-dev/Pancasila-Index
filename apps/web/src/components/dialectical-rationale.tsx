@@ -7,6 +7,7 @@ import {
   IconAlertTriangle,
   IconFileText,
   IconExternalLink,
+  IconBot,
 } from "./icons";
 
 interface Props {
@@ -26,16 +27,31 @@ export function DialecticalRationale({ dimensionScore, sources }: Props) {
   const hasStructuredDialectic =
     Boolean(thesis_id) || Boolean(antithesis_id) || expert_quotes.length > 0;
 
+  /*
+   * Penanda AI menempel pada blok analisisnya sendiri, bukan hanya tersembunyi
+   * di dialog transparansi tingkat penilaian. Analisis dan skor pada indeks ini
+   * memang disusun model AI - yang wajib adalah pembacanya tahu itu di tempat
+   * ia membaca analisisnya.
+   */
+  const aiMarker = (
+    <div className="flex items-center gap-1.5 text-[10px] font-mono uppercase tracking-wider text-[var(--muted)]">
+      <IconBot size={12} className="shrink-0" />
+      <span>Analisis &amp; skor disusun AI · belum ditinjau penelaah manusia</span>
+    </div>
+  );
+
   if (!hasStructuredDialectic) {
     return (
-      <div className="rounded-lg border border-[var(--line)] bg-[var(--bg)]/60 p-3.5 text-sm leading-relaxed text-[var(--text)]">
-        {rationale_id.trim()}
+      <div className="rounded-lg border border-[var(--line)] bg-[var(--bg)]/60 p-3.5 space-y-2">
+        <div className="text-sm leading-relaxed text-[var(--text)]">{rationale_id.trim()}</div>
+        {aiMarker}
       </div>
     );
   }
 
   return (
     <div className="space-y-3.5">
+      {aiMarker}
       {/* Grid Dialektika Tesis vs Antitesis */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
         {/* Kolom Tesis: Dalil Yuridis & Klaim Kebijakan Formal */}
