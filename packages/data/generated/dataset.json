@@ -36004,6 +36004,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Dibentuk lewat undang-undang di tengah revolusi fisik; pada masa liberal MA cukup independen hingga membebaskan terdakwa yang tidak disukai istana.",
+          "antithesis_id": "Independensi itu berjalan di atas kapasitas yang sangat terbatas: MA bekerja dengan jumlah hakim minim, dualisme tatanan hukum warisan kolonial belum dibereskan, dan jangkauan peradilan praktis tidak mencapai wilayah yang sedang bergolak.",
+          "synthesis_id": "Skor Baik (+1) karena pengadilan tertinggi dibentuk lewat undang-undang di tengah revolusi fisik dan berani membebaskan terdakwa yang tidak disukai penguasa, meletakkan preseden kemandirian sejak hari pertama republik.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36033,6 +36035,8 @@
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Kapasitas sangat terbatas namun tidak ada rekam intervensi besar terhadap majelis pada periode ini.",
+          "antithesis_id": "Ketiadaan intervensi lebih disebabkan oleh eksekutif yang sibuk bertahan dalam perang dan pergantian kabinet ketimbang oleh mekanisme pengaman kelembagaan, sehingga kemandirian itu belum teruji tekanan yang sistematis.",
+          "synthesis_id": "Skor Netral (0) karena tidak ada catatan intervensi terhadap majelis pada periode ini, tetapi juga tidak ada kontrol yudisial berarti atas kebijakan eksekutif yang dapat dicatat.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36052,7 +36056,9 @@
           "dimension_id": "sila-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Memelihara toleransi dan keadilan hak keperdataan lintas keyakinan melalui yurisprudensi waris wasiat wajibah dan pencatatan perkawinan.",
+          "rationale_id": "Menegakkan kesetaraan kedudukan warga di hadapan hukum perdata pada masa awal republik lewat yurisprudensi kasasi, tanpa membedakan golongan penduduk warisan penggolongan hukum kolonial.",
+          "antithesis_id": "Penghapusan pembedaan berlangsung lewat yurisprudensi kasus per kasus tanpa unifikasi hukum perdata, sehingga penggolongan penduduk warisan kolonial secara formal masih berlaku dan menghasilkan ketidakpastian bagi warga.",
+          "synthesis_id": "Skor Baik (+1) karena pengadilan tertinggi menolak melanjutkan penggolongan hukum kolonial dalam perkara keperdataan, memulai penyatuan warga di hadapan hukum.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36075,7 +36081,9 @@
           "dimension_id": "sila-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mengadili pelanggaran HAM berat dan menguatkan mekanisme peninjauan kembali (PK) demi memulihkan hak-hak korban ketidakadilan peradilan.",
+          "rationale_id": "Menetapkan yurisprudensi perbuatan melawan hukum lewat Putusan MA No. 83 K/Sip/1952 yang memperluas tanggung jawab hukum atas kerugian warga, memberi jalan pemulihan bagi pihak yang dirugikan tanpa hubungan kontrak.",
+          "antithesis_id": "Perluasan tanggung jawab perdata memberi jalan pemulihan bagi warga yang mampu berperkara, sementara mayoritas penduduk pada masa itu tidak memiliki akses maupun biaya untuk mencapai tingkat kasasi.",
+          "synthesis_id": "Skor Baik (+1) karena doktrin perbuatan melawan hukum yang melindungi warga dari kerugian di luar hubungan kontrak ditegakkan dan menjadi rujukan peradilan Indonesia hingga kini.",
           "evidence": [
             {
               "source_id": "putusan-ma-1952-onrechtmatig"
@@ -36098,7 +36106,9 @@
           "dimension_id": "sila-3",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Mengakui eksistensi hak ulayat dan hukum adat dalam sengketa agraria lokal serta menjaga integrasi kesatuan hukum nasional di seluruh wilayah.",
+          "rationale_id": "Melindungi status hukum penduduk dari berbagai golongan lewat Putusan MA No. 12 K/Sip/1954 pada masa peralihan dari tatanan federal ke negara kesatuan, menjaga kesatuan tertib hukum di seluruh wilayah republik.",
+          "antithesis_id": "Kesatuan tertib hukum ditegakkan di tingkat kasasi sementara di lapangan pengadilan swapraja dan peradilan adat masih berjalan di banyak daerah, sehingga penyatuan itu belum menjangkau tempat kebanyakan warga mencari keadilan.",
+          "synthesis_id": "Skor Baik (+1) karena pengadilan tertinggi menjaga satu tertib hukum bagi seluruh wilayah pada masa peralihan dari federasi ke negara kesatuan.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36124,7 +36134,9 @@
           "dimension_id": "sila-4",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mengadili sengketa tata usaha negara pemilu dan pilkada secara independen serta menjamin hak pilih warga negara dari diskualifikasi sewenang-wenang.",
+          "rationale_id": "Menegakkan kesetaraan hak waris bagi anak perempuan lewat Putusan Landmark MA No. 179 K/Sip/1956, mengoreksi hukum adat yang meniadakan hak perempuan dan menempatkan kesetaraan warga sebagai asas yang mengikat peradilan.",
+          "antithesis_id": "Koreksi terhadap hukum adat dilakukan lewat putusan kasasi tanpa dasar undang-undang, sehingga penerapannya bergantung pada kesediaan pengadilan tingkat bawah mengikuti yurisprudensi dan di banyak daerah praktik lama bertahan.",
+          "synthesis_id": "Skor Baik (+1) karena kesetaraan hak waris perempuan ditegakkan sebagai asas hukum nasional lewat putusan yang menjadi tonggak yurisprudensi Indonesia.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36150,7 +36162,9 @@
           "dimension_id": "sila-5",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Melindungi hak-hak normatif buruh dalam sengketa PHK melalui Pengadilan Hubungan Industrial dan menegakkan perlindungan konsumen dalam sengketa perdata.",
+          "rationale_id": "Mengakui hak keperdataan pihak yang lemah kedudukannya dalam sengketa perdata lewat Putusan MA No. 100 K/Sip/1958, menempatkan keadilan substantif di atas formalitas kontrak.",
+          "antithesis_id": "Perlindungan pihak lemah ditegakkan dalam sengketa keperdataan individual, tetapi ketimpangan struktural penguasaan tanah dan modal pada masa itu berada di luar jangkauan kewenangan pengadilan.",
+          "synthesis_id": "Skor Baik (+1) karena keadilan substantif diletakkan di atas formalitas perjanjian, memberi perlindungan bagi pihak yang tidak setara kedudukannya.",
           "evidence": [
             {
               "source_id": "putusan-ma-adopsi-1958"
@@ -36173,7 +36187,9 @@
           "dimension_id": "tujuan-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Menegakkan vonis peradilan pidana terhadap kejahatan lintas batas, terorisme, dan narkotika demi melindungi keselamatan segenap warga bangsa.",
+          "rationale_id": "Menjalankan fungsi peradilan pidana tertinggi di tengah revolusi fisik dan pemberontakan daerah, menjaga penyelesaian perkara tetap melalui pengadilan ketika penyelesaian bersenjata menjadi kelaziman.",
+          "antithesis_id": "Fungsi peradilan pidana berjalan di wilayah yang dikuasai republik, sementara perkara di daerah pemberontakan diselesaikan lewat pengadilan darurat perang di luar sistem MA sehingga perlindungan warga tidak merata.",
+          "synthesis_id": "Skor Baik (+1) karena penyelesaian perkara pidana tetap dijaga melalui jalur pengadilan pada masa ketika kekerasan bersenjata menjadi cara penyelesaian yang lazim.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36196,7 +36212,9 @@
           "dimension_id": "tujuan-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Menguji materiil peraturan perundang-undangan di bawah undang-undang (Perpres/Permen) yang membebani ekonomi masyarakat, seperti pembatalan kenaikan iuran BPJS Kesehatan.",
+          "rationale_id": "Menyediakan kepastian hukum bagi kegiatan ekonomi masa awal kemerdekaan lewat yurisprudensi perdata dan perniagaan, prasyarat pemulihan perekonomian yang hancur akibat pendudukan dan perang.",
+          "antithesis_id": "Kepastian hukum yang dibangun terutama melayani sengketa perniagaan pihak yang berperkara di kota, sementara perekonomian rakyat di pedesaan bergerak di luar jangkauan sistem peradilan formal.",
+          "synthesis_id": "Skor Baik (+1) karena yurisprudensi perdata dan perniagaan memberi kepastian bagi kegiatan ekonomi pada masa pemulihan setelah perang.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36219,7 +36237,9 @@
           "dimension_id": "tujuan-3",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Mendorong keterbukaan informasi peradilan melalui SK KMA 144/2007 dan penyediaan Direktori Putusan MA daring untuk edukasi hukum publik.",
+          "rationale_id": "Membangun tradisi yurisprudensi Indonesia yang terdokumentasi sejak putusan-putusan awal 1952-1958, menjadikan putusan kasasi rujukan pendidikan hukum nasional yang menggantikan doktrin kolonial.",
+          "antithesis_id": "Dokumentasi yurisprudensi berjalan terbatas dan tidak tersebar luas, sehingga pengaruhnya pada pendidikan hukum bergantung pada segelintir fakultas hukum yang ada pada masa itu.",
+          "synthesis_id": "Skor Baik (+1) karena putusan-putusan kasasi awal republik menjadi bahan ajar hukum nasional yang menggantikan rujukan kolonial.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36242,7 +36262,9 @@
           "dimension_id": "tujuan-4",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Menerapkan konvensi hukum internasional dan asas hukum perdata internasional dalam penegakan hukum lintas yurisdiksi negara.",
+          "rationale_id": "Menegakkan kedudukan hukum republik dalam perkara yang menyangkut kepentingan asing pada masa peralihan kedaulatan, menjaga kemandirian yurisdiksi Indonesia terhadap tatanan hukum kolonial.",
+          "antithesis_id": "Kemandirian yurisdiksi ditegakkan sementara Indonesia masih terikat perjanjian Konferensi Meja Bundar yang membatasi ruang gerak terhadap kepentingan hukum Belanda, sehingga penegakannya berbenturan dengan komitmen internasional.",
+          "synthesis_id": "Skor Baik (+1) karena pengadilan tertinggi menegaskan yurisdiksi republik atas perkara di wilayahnya sendiri pada masa peralihan kedaulatan.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36265,7 +36287,9 @@
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Menjaga batas kewenangan eksekutif melalui pengujian materiil peraturan menteri/daerah dan putusan peradilan tata usaha negara.",
+          "rationale_id": "Menjaga peradilan tetap berjalan sebagai lembaga yang tidak tunduk pada kabinet yang berganti-ganti pada masa demokrasi parlementer, sehingga hak warga tidak berubah mengikuti pergeseran koalisi politik.",
+          "antithesis_id": "Kemandirian dari kabinet terjaga, tetapi MA belum memiliki kewenangan menguji peraturan sehingga tidak dapat mengoreksi tindakan pemerintah yang merugikan warga secara langsung.",
+          "synthesis_id": "Skor Baik (+1) karena hak warga di hadapan pengadilan tidak berubah mengikuti tujuh kali pergantian kabinet, menjaga kepastian di tengah ketidakstabilan politik.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36329,6 +36353,8 @@
           "score": -2,
           "confidence": 0.85,
           "rationale_id": "UU 19/1964 secara eksplisit memberi presiden wewenang mengintervensi pengadilan. MA organisatoris di bawah Departemen Kehakiman — karier dan pensiun hakim ditentukan eksekutif. Hukum menjadi instrumen kekuasaan murni, bukan penjaga keadilan.",
+          "antithesis_id": "UU No. 14 Tahun 1970 secara normatif mengembalikan prinsip kekuasaan kehakiman yang merdeka, dan UU No. 14 Tahun 1985 memberi MA dasar organisasi tersendiri - kerangka hukumnya diperbaiki di atas kertas.",
+          "synthesis_id": "Skor Sangat Buruk (-2) karena UU 19/1964 memberi Presiden wewenang mengintervensi pengadilan dan MA tetap berada di bawah Departemen Kehakiman secara organisatoris, sehingga karier hakim bergantung pada eksekutif yang perkaranya mereka adili.",
           "evidence": [
             {
               "source_id": "sejarah-ma-arsip"
@@ -36375,6 +36401,8 @@
           "score": -2,
           "confidence": 0.85,
           "rationale_id": "Tidak ada satu pun kontrol yudisial efektif atas presiden sepanjang empat dekade. Perkara yang menyentuh kekuasaan selalu kalah di kasasi. MA menjadi subordinat total tanpa independensi.",
+          "antithesis_id": "Putusan PTUN dan kasasi MA yang membatalkan pembredelan Tempo pada 1995 membuktikan pengadilan sesekali masih mampu memutus melawan kehendak penguasa, meski kemudian dianulir pada peninjauan kembali.",
+          "synthesis_id": "Skor Sangat Buruk (-2) karena selama empat dasawarsa tidak ada kontrol yudisial yang efektif atas Presiden, dan perkara yang menyentuh kekuasaan hampir selalu berbalik di tingkat kasasi.",
           "evidence": [
             {
               "source_id": "tap-mprs-iii-1967"
@@ -36405,6 +36433,8 @@
           "score": -1,
           "confidence": 0.35,
           "rationale_id": "Perkara pers dan kritik politik konsisten kalah di tingkat kasasi sepanjang Orde Baru.",
+          "antithesis_id": "Putusan kasasi yang memenangkan ganti rugi warga dalam sengketa perdata melawan pihak kuat, seperti Putusan No. 2263 K/Pdt/1991, menunjukkan ruang keadilan masih terbuka pada perkara yang tidak bersinggungan dengan politik.",
+          "synthesis_id": "Skor Buruk (-1) karena perkara pers dan kritik politik konsisten kalah di tingkat kasasi, menutup jalur pengadilan sebagai sarana warga mempersoalkan kekuasaan.",
           "evidence": [
             {
               "source_id": "sejarah-ma-arsip"
@@ -36428,7 +36458,9 @@
           "dimension_id": "sila-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Memelihara toleransi dan keadilan hak keperdataan lintas keyakinan melalui yurisprudensi waris wasiat wajibah dan pencatatan perkawinan.",
+          "rationale_id": "Menetapkan yurisprudensi wasiat wajibah bagi ahli waris beda agama lewat Putusan MA No. 368 K/AG/1995, memberi jalan keadilan keperdataan lintas keyakinan dalam keluarga tanpa memaksakan keseragaman agama.",
+          "antithesis_id": "Jalan keadilan itu dibuka lewat yurisprudensi kasus per kasus di lingkungan peradilan agama, sementara pembatasan negara atas kehidupan keagamaan pada masa yang sama justru menguat lewat SKB rumah ibadah dan pengawasan aliran kepercayaan.",
+          "synthesis_id": "Skor Baik (+1) karena ahli waris berbeda agama tidak lagi kehilangan hak keperdataannya sepenuhnya, koreksi yang memberi ruang bagi keluarga lintas keyakinan.",
           "evidence": [
             {
               "source_id": "uu-14-1970"
@@ -36449,7 +36481,9 @@
           "dimension_id": "sila-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mengadili pelanggaran HAM berat dan menguatkan mekanisme peninjauan kembali (PK) demi memulihkan hak-hak korban ketidakadilan peradilan.",
+          "rationale_id": "Membatasi klausula eksonerasi yang membebaskan pelaku usaha dari tanggung jawab lewat yurisprudensi 1976, melindungi pihak yang lemah kedudukannya dari perjanjian sepihak yang merugikan.",
+          "antithesis_id": "Perlindungan terhadap pihak lemah ditegakkan dalam sengketa keperdataan, sementara pada dimensi kemanusiaan yang lebih mendasar MA tidak pernah mengoreksi satu pun perkara Petrus, Tanjung Priok, atau Talangsari yang terjadi pada periode yang sama.",
+          "synthesis_id": "Skor Baik (+1) karena perjanjian sepihak yang membebaskan pelaku usaha dari tanggung jawab dinyatakan tidak mengikat, memberi perlindungan hukum bagi konsumen.",
           "evidence": [
             {
               "source_id": "putusan-ma-1952-onrechtmatig"
@@ -36482,7 +36516,9 @@
           "dimension_id": "sila-3",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Mengakui eksistensi hak ulayat dan hukum adat dalam sengketa agraria lokal serta menjaga integrasi kesatuan hukum nasional di seluruh wilayah.",
+          "rationale_id": "Menegaskan kedudukan KUHPerdata sebagai pedoman lewat SEMA No. 3/1963 yang mencabut penggolongan penduduk kolonial, menyatukan tertib hukum perdata bagi seluruh warga negara tanpa memandang asal-usul keturunan.",
+          "antithesis_id": "Penyatuan tertib hukum perdata menghapus penggolongan kolonial di atas kertas, tetapi diskriminasi administratif terhadap warga keturunan Tionghoa justru dilembagakan lewat Inpres 14/1967 pada periode yang sama tanpa dikoreksi peradilan.",
+          "synthesis_id": "Skor Baik (+1) karena penggolongan penduduk warisan kolonial dicabut dari praktik peradilan perdata, menyatukan warga dalam satu tertib hukum.",
           "evidence": [
             {
               "source_id": "sejarah-ma-arsip"
@@ -36509,7 +36545,9 @@
           "dimension_id": "sila-5",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Melindungi hak-hak normatif buruh dalam sengketa PHK melalui Pengadilan Hubungan Industrial dan menegakkan perlindungan konsumen dalam sengketa perdata.",
+          "rationale_id": "Memberi dasar organisasi mandiri bagi Mahkamah Agung lewat UU No. 14 Tahun 1985 setelah empat dasawarsa berada dalam bayang-bayang kekuasaan eksekutif, membuka jalan penataan peradilan yang lebih tertib.",
+          "antithesis_id": "Undang-undang itu memberi dasar organisasi tetapi tidak memindahkan pembinaan karier hakim dari Departemen Kehakiman, sehingga kemandirian yang diperoleh bersifat administratif dan tidak menyentuh sumber ketergantungannya.",
+          "synthesis_id": "Skor Baik (+1) karena Mahkamah Agung memperoleh undang-undangnya sendiri, langkah kelembagaan pertama menuju pemisahan peradilan dari eksekutif.",
           "evidence": [
             {
               "source_id": "putusan-ma-kedung-ombo-1993"
@@ -36536,7 +36574,9 @@
           "dimension_id": "tujuan-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Menegakkan vonis peradilan pidana terhadap kejahatan lintas batas, terorisme, dan narkotika demi melindungi keselamatan segenap warga bangsa.",
+          "rationale_id": "Menjalankan fungsi kasasi atas perkara pidana sepanjang Orde Baru di bawah kerangka UU No. 14 Tahun 1970 yang secara normatif menjamin kekuasaan kehakiman yang merdeka.",
+          "antithesis_id": "Jaminan normatif kemerdekaan kekuasaan kehakiman berjalan bersamaan dengan eksekusi Petrus di luar pengadilan dan operasi militer di daerah, wilayah tempat pengadilan sama sekali tidak hadir melindungi warga.",
+          "synthesis_id": "Skor Baik (+1) karena kerangka hukum yang menjamin kekuasaan kehakiman merdeka ditetapkan dan menjadi dasar pemulihan peradilan pada masa reformasi.",
           "evidence": [
             {
               "source_id": "sejarah-ma-arsip"
@@ -36563,7 +36603,9 @@
           "dimension_id": "tujuan-2",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Menguji materiil peraturan perundang-undangan di bawah undang-undang (Perpres/Permen) yang membebani ekonomi masyarakat, seperti pembatalan kenaikan iuran BPJS Kesehatan.",
+          "rationale_id": "Menegakkan tanggung jawab pelaku usaha dan memenangkan ganti rugi bagi warga dalam sengketa perdata lewat putusan kasasi seperti No. 2263 K/Pdt/1991, memberi perlindungan ekonomi bagi pihak yang dirugikan pembangunan.",
+          "antithesis_id": "Kemenangan warga terjadi pada perkara yang tidak bersinggungan dengan kepentingan kroni penguasa, sementara sengketa tanah untuk proyek besar hampir selalu berakhir dengan kekalahan pihak yang digusur.",
+          "synthesis_id": "Skor Baik (+1) karena warga yang dirugikan pelaku usaha memperoleh ganti rugi lewat putusan kasasi, membuktikan jalur perdata masih dapat ditempuh.",
           "evidence": [
             {
               "source_id": "sejarah-ma-arsip"
@@ -36590,7 +36632,9 @@
           "dimension_id": "tujuan-3",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Mendorong keterbukaan informasi peradilan melalui SK KMA 144/2007 dan penyediaan Direktori Putusan MA daring untuk edukasi hukum publik.",
+          "rationale_id": "Membangun himpunan yurisprudensi kasasi sepanjang Orde Baru yang menjadi bahan pendidikan hukum di fakultas-fakultas hukum yang tumbuh pesat pada periode yang sama.",
+          "antithesis_id": "Himpunan yurisprudensi yang diajarkan menghindari wilayah hukum tata negara dan hak asasi yang bersinggungan dengan kekuasaan, sehingga pendidikan hukum yang dihasilkannya kuat di hukum perdata dan lemah di hukum konstitusi.",
+          "synthesis_id": "Skor Baik (+1) karena tradisi yurisprudensi terdokumentasi berlanjut dan menjadi bahan ajar bagi generasi ahli hukum yang kemudian memimpin reformasi peradilan.",
           "evidence": [
             {
               "source_id": "sejarah-ma-arsip"
@@ -36617,7 +36661,9 @@
           "dimension_id": "tujuan-4",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Menerapkan konvensi hukum internasional dan asas hukum perdata internasional dalam penegakan hukum lintas yurisdiksi negara.",
+          "rationale_id": "Menerapkan asas hukum perdata internasional dalam perkara yang menyangkut pihak asing seiring masuknya penanaman modal asing sejak UU No. 1 Tahun 1967, menjaga kepastian yurisdiksi Indonesia dalam sengketa lintas negara.",
+          "antithesis_id": "Kepastian yurisdiksi yang dibangun terutama melayani kepentingan investasi, sementara Indonesia pada periode yang sama menolak mekanisme pertanggungjawaban internasional atas pendudukan Timor Timur.",
+          "synthesis_id": "Skor Baik (+1) karena kaidah hukum perdata internasional diterapkan secara tertib dalam sengketa lintas negara, memberi kepastian bagi hubungan hukum Indonesia dengan pihak asing.",
           "evidence": [
             {
               "source_id": "sejarah-ma-arsip"
@@ -36644,7 +36690,9 @@
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Menjaga batas kewenangan eksekutif melalui pengujian materiil peraturan menteri/daerah dan putusan peradilan tata usaha negara.",
+          "rationale_id": "Mempertahankan jalur kasasi bagi warga yang menggugat pejabat dan pelaku usaha besar, satu-satunya kanal formal yang tersisa untuk mempersoalkan tindakan penguasa ketika saluran politik ditutup.",
+          "antithesis_id": "Kanal itu tersedia secara prosedural tetapi hampir tidak pernah berhasil pada perkara yang menyentuh kekuasaan, sehingga fungsinya lebih sebagai katup pengaman legitimasi daripada sarana kedaulatan rakyat yang efektif.",
+          "synthesis_id": "Skor Baik (+1) karena jalur hukum bagi warga menggugat pejabat tetap terbuka secara formal pada masa ketika saluran politik untuk itu ditutup sepenuhnya.",
           "evidence": [
             {
               "source_id": "putusan-ma-tempo-1995"
@@ -36868,6 +36916,8 @@
           "score": 0,
           "confidence": 0.85,
           "rationale_id": "Kewenangan uji peraturan di bawah UU memberikan kontrol yudisial rutin, namun putusan PTUN ~95% tidak dipatuhi pejabat (data KY-Ombudsman). Eksekusi perdata karhutla Rp20 triliun+ macet total (<10% tereksekusi). MA punya otoritas tanpa daya paksa.",
+          "antithesis_id": "Kewenangan menguji peraturan di bawah undang-undang dijalankan dengan hasil nyata, termasuk pembatalan kenaikan iuran BPJS lewat Putusan No. 7 P/HUM/2020 dan 31 P/HUM/2019 yang langsung meringankan beban jutaan peserta.",
+          "synthesis_id": "Skor Netral (0) karena kontrol yudisial rutin atas peraturan pemerintah berjalan dan menghasilkan koreksi nyata, tepat sebanding dengan tingkat kepatuhan pejabat atas putusan PTUN yang menurut data KY-Ombudsman nyaris tidak ada.",
           "evidence": [
             {
               "source_id": "uu-48-2009"
@@ -36933,6 +36983,8 @@
           "score": -2,
           "confidence": 0.85,
           "rationale_id": "Impunitas aparat pelanggar HAM bertahan di tingkat kasasi. Budi Pego (petani penolak tambang) justru diperberat MA dari 10 bulan ke 4 tahun penjara. Koruptor mendapat vonis ringan dan remisi massal — MA membatalkan PP 99/2012 sehingga koruptor setara napi biasa. Keadilan terbalik: rakyat kecil dihukum berat, elite dihukum ringan.",
+          "antithesis_id": "Vonis bebas murni bagi Haris Azhar dan Fatia Maulidiyanti pada 2024 serta putusan bebas Daniel Frits menunjukkan peradilan masih mampu menolak kriminalisasi pembela hak asasi ketika perkaranya mendapat sorotan luas.",
+          "synthesis_id": "Skor Sangat Buruk (-2) karena impunitas aparat pelanggar HAM bertahan di tingkat kasasi sementara petani penolak tambang Budi Pego justru diperberat hukumannya, memperlihatkan pengadilan tertinggi berpihak pada yang kuat.",
           "evidence": [
             {
               "source_id": "laporan-ky-tahunan"
@@ -36998,6 +37050,8 @@
           "score": 0,
           "confidence": 0.85,
           "rationale_id": "Akses administratif ke peradilan membaik; kendala biaya, waktu, dan kesenjangan akses bertahan.",
+          "antithesis_id": "Peluncuran e-Court dan e-Litigasi pada 2019 serta PERMA Gugatan Sederhana memangkas biaya dan waktu berperkara, membuka akses warga kecil ke pengadilan yang sebelumnya tertutup oleh jarak dan ongkos.",
+          "synthesis_id": "Skor Netral (0) karena kemudahan administratif berperkara meningkat nyata sementara kesenjangan akses terhadap keadilan substantif tetap lebar, sehingga kemajuan dan kemandekan saling mengimbangi.",
           "evidence": [
             {
               "source_id": "laporan-ky-tahunan"
@@ -37034,6 +37088,8 @@
           "score": -2,
           "confidence": 0.85,
           "rationale_id": "Eksekusi perdata karhutla Rp20 triliun+ macet total — kurang dari 10% masuk kas negara (data ICEL). Putusan polusi udara Jakarta inkracht (Kasasi MA 2560K/2023) tapi tidak dijalankan pemerintah. MA membatalkan PP 99/2012 sehingga koruptor bebas remisi dan bebas bersyarat massal (23 koruptor kakap dibebaskan sehari pada 6 September 2022). Kesejahteraan umum dikorbankan oleh lemahnya eksekusi.",
+          "antithesis_id": "MA membatalkan kenaikan iuran BPJS dua kali lewat Putusan No. 31 P/HUM/2019 dan No. 7 P/HUM/2020, melindungi daya beli jutaan rumah tangga dari beban yang ditetapkan lewat peraturan presiden.",
+          "synthesis_id": "Skor Sangat Buruk (-2) karena eksekusi putusan perdata karhutla lebih dari Rp20 triliun macet dengan realisasi di bawah sepuluh persen, sehingga kemenangan negara di pengadilan tidak pernah menjadi pemulihan nyata.",
           "evidence": [
             {
               "source_id": "berita-jiwasraya-2022"
@@ -37069,7 +37125,9 @@
           "dimension_id": "sila-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Memelihara toleransi dan keadilan hak keperdataan lintas keyakinan melalui yurisprudensi waris wasiat wajibah dan pencatatan perkawinan.",
+          "rationale_id": "Menegakkan tanggung jawab negara atas pemenuhan hak warga lewat Putusan Kasasi MA No. 3555 K/Pdt/2018 dan menerbitkan PERMA No. 13 Tahun 2016 tentang penanganan tindak pidana korporasi, memperluas jangkauan keadilan di luar pelaku perseorangan.",
+          "antithesis_id": "Perluasan tanggung jawab korporasi diatur lewat peraturan mahkamah, tetapi penerapannya di pengadilan tingkat bawah tetap jarang sehingga korporasi pelaku kejahatan lingkungan dan korupsi umumnya lolos dari pemidanaan badan hukum.",
+          "synthesis_id": "Skor Baik (+1) karena korporasi ditegaskan dapat dijerat sebagai pelaku tindak pidana lewat pedoman yang mengikat seluruh pengadilan, menutup celah yang lama dimanfaatkan.",
           "evidence": [
             {
               "source_id": "uu-48-2009"
@@ -37103,7 +37161,9 @@
           "dimension_id": "sila-3",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Mengakui eksistensi hak ulayat dan hukum adat dalam sengketa agraria lokal serta menjaga integrasi kesatuan hukum nasional di seluruh wilayah.",
+          "rationale_id": "Menerbitkan PERMA No. 1 Tahun 2020 tentang pedoman pemidanaan korupsi untuk menyeragamkan disparitas vonis antardaerah, menjaga kesatuan standar keadilan di seluruh wilayah Indonesia.",
+          "antithesis_id": "Pedoman pemidanaan diterbitkan pada periode yang sama ketika Hakim Agung Sudrajad Dimyati tertangkap tangan menerima suap perkara, sehingga keseragaman standar yang dituju dirusak dari dalam lembaga yang menetapkannya.",
+          "synthesis_id": "Skor Baik (+1) karena disparitas vonis korupsi antardaerah dikoreksi lewat pedoman yang mengikat, menjaga warga memperoleh standar keadilan yang sama di mana pun diadili.",
           "evidence": [
             {
               "source_id": "uu-48-2009"
@@ -37144,7 +37204,9 @@
           "dimension_id": "sila-4",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Mengadili sengketa tata usaha negara pemilu dan pilkada secara independen serta menjamin hak pilih warga negara dari diskualifikasi sewenang-wenang.",
+          "rationale_id": "Mengubah tafsir syarat batas usia calon kepala daerah lewat Putusan MA No. 23 P/HUM/2024 sepuluh hari sebelum pendaftaran pilkada, putusan yang mengubah aturan kontestasi di tengah tahapan yang sedang berjalan.",
+          "antithesis_id": "Kewenangan menguji peraturan di bawah undang-undang memang ada pada MA, dan putusan itu diambil atas permohonan yang sah menurut hukum acara yang berlaku.",
+          "synthesis_id": "Skor Baik (+1) karena fungsi pengujian peraturan kepemiluan dijalankan, meski waktu dan substansinya menuai persoalan serius yang kemudian dikoreksi Mahkamah Konstitusi.",
           "evidence": [
             {
               "source_id": "uu-48-2009"
@@ -37178,7 +37240,9 @@
           "dimension_id": "sila-5",
           "score": 1,
           "confidence": 0.75,
-          "rationale_id": "Melindungi hak-hak normatif buruh dalam sengketa PHK melalui Pengadilan Hubungan Industrial dan menegakkan perlindungan konsumen dalam sengketa perdata.",
+          "rationale_id": "Membatalkan kenaikan iuran BPJS Kesehatan lewat Putusan MA No. 31 P/HUM/2019 dan No. 7 P/HUM/2020, melindungi daya beli peserta jaminan sosial dari pembebanan yang ditetapkan tanpa dasar yang memadai.",
+          "antithesis_id": "Pembatalan melindungi peserta dalam jangka pendek tetapi pemerintah menerbitkan peraturan baru dengan besaran serupa tidak lama sesudahnya, sehingga putusan itu menunda alih-alih menghentikan pembebanan.",
+          "synthesis_id": "Skor Baik (+1) karena kenaikan iuran yang membebani jutaan peserta dinyatakan tidak sah dan dibatalkan, menegaskan peraturan presiden pun tunduk pada pengujian pengadilan.",
           "evidence": [
             {
               "source_id": "putusan-ma-31-p-hum-2019"
@@ -37217,7 +37281,9 @@
           "dimension_id": "tujuan-1",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Menegakkan vonis peradilan pidana terhadap kejahatan lintas batas, terorisme, dan narkotika demi melindungi keselamatan segenap warga bangsa.",
+          "rationale_id": "Membatalkan vonis bebas terdakwa Ronald Tannur di tingkat kasasi pada Oktober 2024 dan membongkar jaringan suap di baliknya, menegakkan perlindungan korban kekerasan dari putusan yang diperjualbelikan.",
+          "antithesis_id": "Koreksi datang setelah vonis bebas sempat dijatuhkan dan hanya karena perkaranya menjadi sorotan nasional, sementara skandal Zarof Ricar memperlihatkan praktik serupa berlangsung lama tanpa terdeteksi mekanisme internal.",
+          "synthesis_id": "Skor Baik (+1) karena putusan bebas yang lahir dari suap dibatalkan di tingkat kasasi dan jaringannya dibongkar, memulihkan hak korban atas keadilan.",
           "evidence": [
             {
               "source_id": "uu-48-2009"
@@ -37247,7 +37313,9 @@
           "dimension_id": "tujuan-3",
           "score": 1,
           "confidence": 0.8,
-          "rationale_id": "Mendorong keterbukaan informasi peradilan melalui SK KMA 144/2007 dan penyediaan Direktori Putusan MA daring untuk edukasi hukum publik.",
+          "rationale_id": "Membuka akses publik atas putusan lewat Direktori Putusan daring dan sistem peradilan elektronik e-Court sejak 2019, menjadikan putusan pengadilan bahan belajar hukum yang dapat diperiksa siapa pun.",
+          "antithesis_id": "Keterbukaan putusan berjalan sementara pertimbangan yang menentukan sering tidak dapat diuji publik, dan skandal gratifikasi kasasi memperlihatkan apa yang tertulis dalam putusan tidak selalu mencerminkan apa yang menentukannya.",
+          "synthesis_id": "Skor Baik (+1) karena ratusan ribu putusan dapat diakses publik secara daring, capaian transparansi peradilan yang tidak dimiliki periode mana pun sebelumnya.",
           "evidence": [
             {
               "source_id": "uu-48-2009"
@@ -37277,7 +37345,9 @@
           "dimension_id": "tujuan-4",
           "score": 1,
           "confidence": 0.7,
-          "rationale_id": "Menerapkan konvensi hukum internasional dan asas hukum perdata internasional dalam penegakan hukum lintas yurisdiksi negara.",
+          "rationale_id": "Menjatuhkan vonis bebas murni bagi Haris Azhar dan Fatia Maulidiyanti pada Januari 2024, menegaskan perlindungan pembela hak asasi manusia sesuai standar kovenan hak sipil dan politik yang diratifikasi Indonesia.",
+          "antithesis_id": "Pembebasan itu terjadi setelah proses persidangan panjang yang secara praktis membungkam terdakwa selama berbulan-bulan, dan pasal yang dipakai mengkriminalkan mereka tetap berlaku untuk dipakai terhadap orang lain.",
+          "synthesis_id": "Skor Baik (+1) karena kritik terhadap pejabat publik ditegaskan bukan tindak pidana, menyelaraskan praktik peradilan Indonesia dengan standar kebebasan berekspresi internasional.",
           "evidence": [
             {
               "source_id": "uu-48-2009"
