@@ -5596,22 +5596,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-dpr19-rkuhp-final",
-      "term_id": "dpr-2019-2024",
-      "date": "2022-12",
-      "category": "produk-hukum",
-      "title_id": "RKUHP disahkan menjadi UU No. 1/2023",
-      "summary_id": "6 Desember 2022, delapan fraksi mengangkat tangan mengesahkan KUHP baru - pertama kali bukan warisan kolonial. Kemajuan substansi nyata (hukum adat diakui, pidana mati jadi \"ancaman alternatif\"), tapi pasal-pasal sensitif lolos: kritik presiden, kohabitasi di luar nikah, promosi kontrasepsi. Presiden menandatanganinya dengan penundaan pemberlakuan tiga tahun - de facto mengundang generasi berikutnya merevisi.",
-      "source_ids": [
-        "uu-1-2023"
-      ],
-      "dimension_ids": [
-        "sila-4",
-        "sila-2"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-dpr19-uu-ciptaker-permanen",
       "term_id": "dpr-2019-2024",
       "date": "2023-03",
@@ -5705,22 +5689,6 @@
       "dimension_ids": [
         "checks-balances",
         "negara-hukum"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mk2-narkoba-46",
-      "term_id": "mk-2008-2013",
-      "date": "2010-10",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 46/PUU-VIII/2010",
-      "summary_id": "Gugatan dua mantan pecandu mengubah paradigma narkotika Indonesia: pecandu adalah korban penyakit yang wajib direhabilitasi, bukan penjahat yang dipenjara. Dasar bagi UU Narkotika revisi dan jutaan kasus rehabilitasi. Putusan paling humanis dalam sejarah MK ini juga menjadi bantalan hukum ketika eksekusi mati terpidana narkoba diperdebatkan - logika korban vs pelakunya sendiri sering bertabrakan.",
-      "source_ids": [
-        "putusan-mk-46-puu-viii-2010"
-      ],
-      "dimension_ids": [
-        "sila-2",
-        "sila-1"
       ],
       "actor_ids": []
     },
@@ -7477,41 +7445,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-dpd-uji-materi-mk-92-2012",
-      "term_id": "dpd-2009-2014",
-      "date": "2013-03-27",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 92/PUU-X/2012 Memperkuat Kewenangan Legislasi DPD",
-      "summary_id": "Mahkamah Konstitusi mengabulkan uji materi DPD RI terhadap UU P3 dan UU MD3, menegaskan bahwa DPD berhak mengusulkan RUU, membahas RUU sejak awal bersama DPR dan Presiden, serta menyusun program legislasi nasional (Prolegnas) terkait otonomi daerah.",
-      "source_ids": [
-        "putusan-mk-92-puu-x-2012"
-      ],
-      "dimension_ids": [
-        "sila-3",
-        "checks-balances",
-        "negara-hukum",
-        "sila-4"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-dpd-putusan-mk-79-2014",
-      "term_id": "dpd-2014-2019",
-      "date": "2015-09-22",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 79/PUU-XII/2014 atas Kedudukan Tripartit Legislasi DPD",
-      "summary_id": "MK menegaskan kembali hak konstitusional DPD dalam proses pembentukan undang-undang terkait otonomi dan keuangan daerah secara setara dan bermartabat bersama DPR dan Presiden.",
-      "source_ids": [
-        "putusan-mk-79-puu-xii-2014"
-      ],
-      "dimension_ids": [
-        "sila-3",
-        "checks-balances",
-        "sila-4"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-dpd-inisiatif-kepulauan",
       "term_id": "dpd-2019-2024",
       "date": "2020-02-18",
@@ -7824,39 +7757,6 @@
       "dimension_ids": [
         "kedaulatan-rakyat",
         "sila-4"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mk-putusan-90-capres",
-      "term_id": "mk-2018-2023",
-      "date": "2023-10-16",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 90/PUU-XXI/2023 tentang Syarat Batas Usia Capres-Cawapres",
-      "summary_id": "MK mengabulkan sebagian uji materi Pasal 169 huruf q UU Pemilu dengan menambahkan frasa syarat berusia paling rendah 40 tahun atau pernah/sedang menduduki jabatan yang dipilih melalui pemilihan umum termasuk pemilihan kepala daerah.",
-      "source_ids": [
-        "putusan-mk-90-2023"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "checks-balances"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mk-putusan-60-pilkada",
-      "term_id": "mk-2023-sekarang",
-      "date": "2024-08-20",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 60/PUU-XXII/2024 Menurunkan Ambang Batas Pencalonan Kepala Daerah",
-      "summary_id": "MK mengubah persentase ambang batas (threshold) pengusulan pasangan calon kepala daerah diselaraskan dengan perolehan suara sah pemilu legislatif, memulihkan kompetisi elektoral yang inklusif dan mencegah calon tunggal kotak kosong secara buatan.",
-      "source_ids": [
-        "putusan-mk-60-puu-xxii-2024"
-      ],
-      "dimension_ids": [
-        "kedaulatan-rakyat",
-        "sila-4",
-        "tujuan-3"
       ],
       "actor_ids": []
     },
@@ -8358,39 +8258,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-putusan-mk-60-demokrasi-lokal-2024",
-      "term_id": "mk-2023-sekarang",
-      "date": "2024-08-20",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 60/PUU-XXII/2024: Penurunan Ambang Batas Pencalonan Pilkada & Penggagalan Skenario Kotak Kosong",
-      "summary_id": "Mahkamah Konstitusi memutus perkara uji materi UU Pilkada yang menurunkan ambang batas pencalonan kepala daerah setara suara sah parpol di pemilu, membuka kembali kompetisi multipartai dan menyelamatkan demokrasi lokal.",
-      "source_ids": [
-        "putusan-mk-60-puu-xxii-2024"
-      ],
-      "dimension_ids": [
-        "sila-4",
-        "kedaulatan-rakyat"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-putusan-mk-136-netralitas-aparat-2024",
-      "term_id": "mk-2023-sekarang",
-      "date": "2024-11-14",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 136/PUU-XXII/2024: Penegasan Sanksi Pidana atas Ketidaknetralan TNI, Polri, dan Pejabat Daerah dalam Pilkada",
-      "summary_id": "Mahkamah Konstitusi mengabulkan permohonan uji materi Pasal 188 UU Pilkada dengan memasukkan frasa TNI/Polri dan Pejabat Daerah ke dalam ketentuan ancaman pidana penjara jika terbukti cawe-cawe dalam pilkada.",
-      "source_ids": [
-        "putusan-mk-136-2024"
-      ],
-      "dimension_ids": [
-        "sila-4",
-        "negara-hukum",
-        "tujuan-1"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-program-makan-bergizi-gratis-2024",
       "term_id": "presiden-prabowo",
       "date": "2024-10-21",
@@ -8486,23 +8353,6 @@
         "checks-balances",
         "kedaulatan-rakyat",
         "sila-4"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-pembubaran-masyumi-psi-1960",
-      "term_id": "presiden-soekarno-ii",
-      "date": "1960-08-17",
-      "category": "kebijakan",
-      "title_id": "Pembubaran Partai Oposisi Masyumi dan PSI Melalui Keppres No. 200/1960",
-      "summary_id": "Presiden menerbitkan Keppres No. 200/1960 yang melarang dan membubarkan Partai Masyumi dan PSI dengan tuduhan keterlibatan pemimpinnya dalam pemberontakan PRRI/Permesta, membatasi pluralisme politik dan oposisi demokratis.",
-      "source_ids": [
-        "keppres-200-1960-masyumi-psi"
-      ],
-      "dimension_ids": [
-        "sila-4",
-        "kedaulatan-rakyat",
-        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -8899,23 +8749,6 @@
       "dimension_ids": [
         "negara-hukum",
         "sila-2"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-putusan-mk-larangan-tarik-paksa-fidusia-2019",
-      "term_id": "mk-2018-2023",
-      "date": "2020-01-06",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 18/PUU-XVII/2019: Perlindungan Debitur dari Penarikan Paksa Kendaraan oleh Debt Collector",
-      "summary_id": "Mahkamah Konstitusi menetapkan bahwa eksekusi jaminan fidusia tidak boleh dilakukan sepihak tanpa kesepakatan wanprestasi sukarela dari debitur atau tanpa penetapan eksekusi dari Pengadilan Negeri.",
-      "source_ids": [
-        "putusan-mk-18-puu-xvii-2019-fidusia"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "sila-5",
-        "tujuan-1"
       ],
       "actor_ids": []
     },
@@ -11222,11 +11055,13 @@
       "title_id": "Keppres No. 200/1960 tentang Pembubaran Partai Masyumi dan PSI",
       "summary_id": "Presiden Sukarno membubarkan dua partai politik besar (Partai Masyumi dan Partai Sosialis Indonesia) dengan tuduhan keterlibatan tokoh-tokohnya dalam pemberontakan PRRI/Permesta, mempersempit ruang oposisi politik dan kebebasan berserikat secara drastis dalam sistem Demokrasi Terpimpin.",
       "source_ids": [
-        "keppres-200-1960"
+        "keppres-200-1960",
+        "keppres-200-1960-masyumi-psi"
       ],
       "dimension_ids": [
         "kedaulatan-rakyat",
-        "negara-hukum"
+        "negara-hukum",
+        "sila-4"
       ],
       "actor_ids": []
     },
@@ -11253,22 +11088,6 @@
       "category": "produk-hukum",
       "title_id": "UU No. 19/1964 tentang Kewenangan Presiden Mengintervensi Putusan Pengadilan",
       "summary_id": "Undang-Undang Ketentuan Pokok Kekuasaan Kehakiman 1964 memberikan wewenang eksplisit kepada Presiden untuk turun tangan dalam urusan pengadilan demi kepentingan revolusi dan kepribadian nasional, menundukkan independensi peradilan di bawah kekuasaan eksekutif dan menjadikan Ketua MA berkedudukan setingkat menteri kabinet.",
-      "source_ids": [
-        "uu-19-1964"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "checks-balances"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-ma-uu-19-1964",
-      "term_id": "ma-dt-orde-baru",
-      "date": "1964-10-31",
-      "category": "produk-hukum",
-      "title_id": "Pengesahan UU No. 19/1964: Pelemahan Independensi Yudisial di Bawah Eksekutif",
-      "summary_id": "Pemberlakuan UU No. 19/1964 yang memberikan kewenangan kepada Presiden untuk campur tangan dalam urusan pengadilan demi kepentingan revolusi, menggerus prinsip negara hukum dan checks and balances.",
       "source_ids": [
         "uu-19-1964"
       ],
@@ -12806,13 +12625,14 @@
       "date": "2012-02-17",
       "category": "pengadilan",
       "title_id": "Putusan MK No. 46/PUU-VIII/2010 Mengakui Hak Keperdataan Anak Luar Kawin",
-      "summary_id": "MK memutuskan Pasal 43 ayat 1 UU Perkawinan inkonstitusional bersyarat dan menyatakan anak yang lahir di luar perkawinan mempunyai hubungan perdata dengan laki-laki sebagai ayahnya yang dapat dibuktikan berdasarkan ilmu pengetahuan dan teknologi (tes DNA).",
+      "summary_id": "Gugatan dua mantan pecandu mengubah paradigma narkotika Indonesia: pecandu adalah korban penyakit yang wajib direhabilitasi, bukan penjahat yang dipenjara. Dasar bagi UU Narkotika revisi dan jutaan kasus rehabilitasi. Putusan paling humanis dalam sejarah MK ini juga menjadi bantalan hukum ketika eksekusi mati terpidana narkoba diperdebatkan - logika korban vs pelakunya sendiri sering bertabrakan.",
       "source_ids": [
         "putusan-mk-46-puu-viii-2010"
       ],
       "dimension_ids": [
         "sila-2",
-        "sila-5"
+        "sila-5",
+        "sila-1"
       ],
       "actor_ids": []
     },
@@ -12830,22 +12650,6 @@
         "sila-5",
         "sila-3",
         "negara-hukum"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mk-putusan-sda-2015",
-      "term_id": "mk-2013-2018",
-      "date": "2015-02-18",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 85/PUU-XI/2013 Membatalkan Total UU Sumber Daya Air",
-      "summary_id": "MK membatalkan keseluruhan UU No. 7/2004 tentang Sumber Daya Air karena telah membuka privatisasi dan komersialisasi air secara berlebihan yang membatasi hak konstitusional rakyat untuk memperoleh air bersih sebagai hak asasi mendasar.",
-      "source_ids": [
-        "putusan-mk-85-puu-xi-2013"
-      ],
-      "dimension_ids": [
-        "sila-5",
-        "tujuan-2"
       ],
       "actor_ids": []
     },
@@ -12905,27 +12709,13 @@
       "title_id": "Putusan MK No. 36/PUU-X/2012 Membubarkan BP Migas Demi Kedaulatan Energi",
       "summary_id": "MK membatalkan pasal-pasal kunci UU No. 22/2001 tentang Minyak dan Gas Bumi dan membubarkan BP Migas, menegaskan bahwa hubungan kontraktual langsung antara badan pengelola migas dengan korporasi asing mendegradasi kedaulatan negara atas cabang produksi migas.",
       "source_ids": [
-        "putusan-mk-36-puu-x-2012"
+        "putusan-mk-36-puu-x-2012",
+        "putusan-mk-001-puu-i-2003"
       ],
       "dimension_ids": [
         "sila-5",
-        "checks-balances"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mk-putusan-dpd-tripartit-2013",
-      "term_id": "mk-2008-2013",
-      "date": "2013-03-27",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 92/PUU-X/2012 Memulihkan Hak Legislasi Tripartit DPD RI",
-      "summary_id": "MK mengabulkan uji materiil UU MD3 yang diajukan DPD RI, memutuskan bahwa DPD berhak ikut serta membahas RUU bidang otonomi daerah dan hubungan pusat-daerah sejak awal bersama DPR dan Presiden secara setara (tripartit).",
-      "source_ids": [
-        "putusan-mk-92-puu-x-2012"
-      ],
-      "dimension_ids": [
         "checks-balances",
-        "kedaulatan-rakyat",
+        "tujuan-2",
         "negara-hukum"
       ],
       "actor_ids": []
@@ -13471,7 +13261,8 @@
       ],
       "dimension_ids": [
         "checks-balances",
-        "kedaulatan-rakyat"
+        "kedaulatan-rakyat",
+        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -13531,14 +13322,16 @@
       "date": "2013-03-27",
       "category": "pengadilan",
       "title_id": "Putusan MK No. 92/PUU-X/2012: Pengakuan Kesetaraan Legislasi DPD dalam RUU Daerah",
-      "summary_id": "MK memutus bahwa DPD berhak mengusulkan dan membahas RUU terkait daerah secara setara dari awal hingga pembahasan tingkat I bersama DPR dan Presiden, mematahkan praktik soft bicameralism semu.",
+      "summary_id": "Mahkamah Konstitusi mengabulkan uji materi DPD RI terhadap UU P3 dan UU MD3, menegaskan bahwa DPD berhak mengusulkan RUU, membahas RUU sejak awal bersama DPR dan Presiden, serta menyusun program legislasi nasional (Prolegnas) terkait otonomi daerah.",
       "source_ids": [
         "putusan-mk-92-puu-x-2012"
       ],
       "dimension_ids": [
         "checks-balances",
         "kedaulatan-rakyat",
-        "negara-hukum"
+        "negara-hukum",
+        "sila-3",
+        "sila-4"
       ],
       "actor_ids": []
     },
@@ -13950,23 +13743,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-mk-pembatalan-bp-migas-2012",
-      "term_id": "mk-2008-2013",
-      "date": "2012-11-13",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 36/PUU-X/2012 Membubarkan BP Migas Demi Kedaulatan Energi Negara",
-      "summary_id": "MK menyatakan BP Migas inkonstitusional karena mengerdilkan fungsi penguasaan negara atas minyak dan gas bumi menjadi sekadar hubungan perdata bisnis.",
-      "source_ids": [
-        "putusan-mk-001-puu-i-2003"
-      ],
-      "dimension_ids": [
-        "sila-5",
-        "tujuan-2",
-        "negara-hukum"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-dpr-uu-pangan-2012",
       "term_id": "dpr-2009-2014",
       "date": "2012-11-17",
@@ -14317,22 +14093,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-mk-putusan-spdp-2016",
-      "term_id": "mk-2013-2018",
-      "date": "2016-01-11",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 130/PUU-XIII/2015 Kewajiban SPDP 7 Hari kepada Terlapor",
-      "summary_id": "MK memutuskan Pasal 109 ayat 1 KUHAP inkonstitusional bersyarat dan mewajibkan penyidik kepolisian/kejaksaan menyerahkan Surat Pemberitahuan Dimulainya Penyidikan (SPDP) paling lambat 7 hari kepada penuntut umum, terlapor, dan korban demi asas due process of law.",
-      "source_ids": [
-        "putusan-mk-130-puu-xiii-2015"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "sila-2"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-mk-putusan-penghayat-2017",
       "term_id": "mk-2013-2018",
       "date": "2017-11-07",
@@ -14346,22 +14106,6 @@
         "sila-1",
         "sila-2",
         "negara-hukum"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mk-putusan-fidusia-2020",
-      "term_id": "mk-2018-2023",
-      "date": "2020-01-06",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 18/PUU-XVII/2019 Larangan Penarikan Paksa Jaminan Fidusia",
-      "summary_id": "MK menegaskan bahwa frasa 'kekuatan eksekutorial' dalam UU Jaminan Fidusia tidak boleh dijadikan dasar bagi kreditur/leasing untuk menyita kendaraan/aset secara sepihak di jalanan tanpa kesepakatan cedera janji (wanprestasi) atau permohonan eksekusi ke pengadilan negeri.",
-      "source_ids": [
-        "putusan-mk-18-puu-xvii-2019"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "sila-5"
       ],
       "actor_ids": []
     },
@@ -14589,7 +14333,8 @@
       ],
       "dimension_ids": [
         "kedaulatan-rakyat",
-        "sila-4"
+        "sila-4",
+        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -14619,12 +14364,15 @@
       "title_id": "Putusan MK No. 136/PUU-XXII/2024 Menegaskan Sanksi Pidana Netralitas TNI/Polri dalam Pilkada",
       "summary_id": "MK mengabulkan uji materiil Pasal 188 UU Pilkada dengan memasukkan frasa 'pejabat daerah' dan 'anggota TNI/Kepolisian Negara Republik Indonesia' sebagai subjek yang dapat dipidana penjara jika terbukti melanggar netralitas dan menguntungkan/merugikan salah satu pasangan calon kepala daerah.",
       "source_ids": [
-        "putusan-mk-136-puu-xxii-2024"
+        "putusan-mk-136-puu-xxii-2024",
+        "putusan-mk-136-2024"
       ],
       "dimension_ids": [
         "kedaulatan-rakyat",
         "negara-hukum",
-        "sila-2"
+        "sila-2",
+        "sila-4",
+        "tujuan-1"
       ],
       "actor_ids": []
     },
@@ -14652,11 +14400,13 @@
       "title_id": "Putusan MK No. 55/PUU-XVII/2019 tentang Desain 6 Model Pemilu Serentak",
       "summary_id": "MK merumuskan 6 model varian pemilu serentak nasional dan lokal yang konstitusional, menegaskan pemilu serentak 5 kotak tetap sah namun membuka ruang bagi pembentuk UU untuk memisahkan pemilu nasional dan pemilu daerah guna mengurangi beban KPPS.",
       "source_ids": [
-        "putusan-mk-55-puu-xvii-2019"
+        "putusan-mk-55-puu-xvii-2019",
+        "putusan-mk-14-puu-xi-2013"
       ],
       "dimension_ids": [
         "kedaulatan-rakyat",
-        "sila-4"
+        "sila-4",
+        "checks-balances"
       ],
       "actor_ids": []
     },
@@ -14717,11 +14467,13 @@
       "title_id": "Putusan MK No. 90/PUU-XXI/2023 Batas Usia Capres-Cawapres Jalur Jabatan Terpilih",
       "summary_id": "MK mengabulkan sebagian uji materiil Pasal 169 huruf q UU Pemilu dengan menambahkan syarat alternatif 'berusia paling rendah 40 tahun atau pernah/sedang menduduki jabatan yang dipilih melalui pemilihan umum termasuk pemilihan kepala daerah', memicu kontroversi politik menjelang Pilpres 2024.",
       "source_ids": [
-        "putusan-mk-90-2023"
+        "putusan-mk-90-2023",
+        "putusan-mkmk-2-2023"
       ],
       "dimension_ids": [
         "negara-hukum",
-        "checks-balances"
+        "checks-balances",
+        "kedaulatan-rakyat"
       ],
       "actor_ids": []
     },
@@ -14754,7 +14506,8 @@
       ],
       "dimension_ids": [
         "kedaulatan-rakyat",
-        "sila-4"
+        "sila-4",
+        "tujuan-3"
       ],
       "actor_ids": []
     },
@@ -15177,11 +14930,14 @@
       "title_id": "Putusan MK No. 18/PUU-XVII/2019 tentang Eksekusi Jaminan Fidusia",
       "summary_id": "MK memutuskan bahwa pihak leasing / kreditur tidak boleh menarik secara paksa objek jaminan fidusia (kendaraan/aset) dari debitur secara sepihak, melainkan harus melalui pengajuan permohonan eksekusi ke pengadilan negeri jika debitur tidak mengakui adanya cidera janji (wanprestasi).",
       "source_ids": [
-        "putusan-mk-18-puu-xvii-2019"
+        "putusan-mk-18-puu-xvii-2019",
+        "putusan-mk-18-puu-xvii-2019-fidusia"
       ],
       "dimension_ids": [
         "negara-hukum",
-        "sila-2"
+        "sila-2",
+        "sila-5",
+        "tujuan-1"
       ],
       "actor_ids": []
     },
@@ -15379,7 +15135,8 @@
       ],
       "dimension_ids": [
         "sila-1",
-        "sila-3"
+        "sila-3",
+        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -15717,14 +15474,16 @@
       "date": "2015-09-22",
       "category": "pengadilan",
       "title_id": "Putusan MK No. 79/PUU-XII/2014 Mengukuhkan Posisi DPD dalam Tripartit Legislasi",
-      "summary_id": "MK membatalkan pasal-pasal UU MD3 yang mendegradasi kewenangan DPD dan menegaskan DPD berhak menyusun Prolegnas serta membahas RUU otonomi daerah bersama DPR dan Pemerintah.",
+      "summary_id": "MK menegaskan kembali hak konstitusional DPD dalam proses pembentukan undang-undang terkait otonomi dan keuangan daerah secara setara dan bermartabat bersama DPR dan Presiden.",
       "source_ids": [
         "putusan-mk-79-puu-xii-2014"
       ],
       "dimension_ids": [
         "checks-balances",
         "negara-hukum",
-        "kedaulatan-rakyat"
+        "kedaulatan-rakyat",
+        "sila-3",
+        "sila-4"
       ],
       "actor_ids": []
     },
@@ -16032,23 +15791,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-jokowi-perppu-ormas",
-      "term_id": "presiden-jokowi-i",
-      "date": "2017-07-10",
-      "category": "produk-hukum",
-      "title_id": "Penerbitan Perppu No. 2/2017 tentang Perubahan UU Organisasi Kemasyarakatan",
-      "summary_id": "Pemerintah menerbitkan Perppu Ormas untuk membubarkan organisasi yang dinilai bertentangan dengan Pancasila dan UUD 1945 tanpa proses peradilan.",
-      "source_ids": [
-        "perppu-2-2017"
-      ],
-      "dimension_ids": [
-        "sila-1",
-        "sila-3",
-        "negara-hukum"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-jokowi-pemilu-serentak",
       "term_id": "presiden-jokowi-i",
       "date": "2019-04-17",
@@ -16152,13 +15894,15 @@
       "date": "2022-12-06",
       "category": "produk-hukum",
       "title_id": "Pengesahan UU No. 1/2023 tentang KUHP Nasional",
-      "summary_id": "DPR mengesahkan kodifikasi hukum pidana buatan bangsa sendiri menggantikan warisan kolonial Belanda dengan pengakuan hukum yang hidup di masyarakat.",
+      "summary_id": "6 Desember 2022, delapan fraksi mengangkat tangan mengesahkan KUHP baru - pertama kali bukan warisan kolonial. Kemajuan substansi nyata (hukum adat diakui, pidana mati jadi \"ancaman alternatif\"), tapi pasal-pasal sensitif lolos: kritik presiden, kohabitasi di luar nikah, promosi kontrasepsi. Presiden menandatanganinya dengan penundaan pemberlakuan tiga tahun - de facto mengundang generasi berikutnya merevisi.",
       "source_ids": [
         "uu-1-2023"
       ],
       "dimension_ids": [
         "tujuan-4",
-        "negara-hukum"
+        "negara-hukum",
+        "sila-4",
+        "sila-2"
       ],
       "actor_ids": []
     },
@@ -16192,23 +15936,6 @@
         "negara-hukum",
         "checks-balances",
         "sila-5"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mk-putusan-90-2023",
-      "term_id": "mk-2018-2023",
-      "date": "2023-10-16",
-      "category": "krisis",
-      "title_id": "Putusan MK No. 90/PUU-XXI/2023 Mengubah Syarat Usia Capres-Cawapres",
-      "summary_id": "MK mengabulkan permohonan syarat usia capres-cawapres dengan menambahkan klausul pernah/sedang menduduki jabatan kepala daerah, berujung vonis etik berat MKMK.",
-      "source_ids": [
-        "putusan-mkmk-2-2023"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "checks-balances",
-        "kedaulatan-rakyat"
       ],
       "actor_ids": []
     },
@@ -16406,22 +16133,6 @@
         "negara-hukum",
         "checks-balances",
         "kedaulatan-rakyat"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mk-pemilu-serentak-daerah-2020",
-      "term_id": "mk-2018-2023",
-      "date": "2020-02-26",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 55/PUU-XVII/2019 tentang 6 Model Desain Penyelenggaraan Pemilu Serentak",
-      "summary_id": "MK merumuskan 6 varian opsi pemisahan pemilu serentak nasional dan lokal guna meringankan beban petugas pemilu pasca-wafatnya ratusan petugas KPPS 2019.",
-      "source_ids": [
-        "putusan-mk-14-puu-xi-2013"
-      ],
-      "dimension_ids": [
-        "kedaulatan-rakyat",
-        "checks-balances"
       ],
       "actor_ids": []
     },
@@ -17248,23 +16959,6 @@
       "dimension_ids": [
         "tujuan-1",
         "sila-4"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mk-putusan-parliamentary-threshold-2024",
-      "term_id": "mk-2023-sekarang",
-      "date": "2024-02-29",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 116/PUU-XXI/2023: Ambang Batas Parlemen 4% Wajib Diubah Sebelum Pemilu 2029",
-      "summary_id": "MK memutus ambang batas parlemen 4% inkonstitusional bersyarat dan memerintahkan pembentuk UU merumuskan batas baru berbasis kajian proporsional representasi.",
-      "source_ids": [
-        "putusan-mk-116-puu-xxi-2023"
-      ],
-      "dimension_ids": [
-        "kedaulatan-rakyat",
-        "sila-4",
-        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -28061,7 +27755,7 @@
               "author": "Prof. Dr. Achmad Ruslan, S.H., M.H.",
               "role": "Guru Besar Hukum Tata Negara FH UNHAS",
               "source_id": "buku-achmad-ruslan-pembentukan-uu-2014",
-              "year": 2014
+              "year": 2013
             }
           ],
           "evidence": [
@@ -28908,7 +28602,7 @@
             }
           ],
           "event_ids": [
-            "ev-jokowi-perppu-ormas",
+            "ev-perppu-ormas-pembubaran-hti-2017",
             "ev-jokowi1-dana-desa"
           ],
           "normative_anchors": [
@@ -29771,7 +29465,7 @@
             "ev-rescue-laporan-tahunan-ombudsman-republik-indonesia-2024",
             "ev-rescue-rekomendasi-ombudsman-terhadap-administrasi-pemerintahan-202",
             "ev-rescue-laporan-realisasi-amanat-uud-1945-mpr-2024",
-            "ev-dpr19-rkuhp-final",
+            "ev-dpr-uu-kuhp-2022",
             "ev-jokowi2-revisi-ite-2024",
             "ev-perpu-2-2022",
             "ev-uu-kebijakan-keuangan-covid-2020",
@@ -31852,7 +31546,7 @@
             }
           ],
           "event_ids": [
-            "ev-jokowi-perppu-ormas",
+            "ev-perppu-ormas-pembubaran-hti-2017",
             "ev-dpr14-des"
           ],
           "normative_anchors": [
@@ -32308,7 +32002,7 @@
             }
           ],
           "event_ids": [
-            "ev-dpr19-rkuhp-final",
+            "ev-dpr-uu-kuhp-2022",
             "ev-dpr19-uu-ciptaker-permanen"
           ],
           "normative_anchors": [
@@ -32450,7 +32144,7 @@
           ],
           "event_ids": [
             "ev-dpr-uu-hpp-pps-2021",
-            "ev-dpr19-rkuhp-final",
+            "ev-dpr-uu-kuhp-2022",
             "ev-pengesahan-kuhp-nasional-2023",
             "ev-dpr19-ciptaker-legislasi",
             "ev-dpr19-kesehatan-omnibus",
@@ -33416,12 +33110,15 @@
               "source_id": "putusan-mk-27-puu-ix-2011"
             },
             {
+              "source_id": "putusan-mk-36-puu-x-2012"
+            },
+            {
               "source_id": "putusan-mk-001-puu-i-2003"
             }
           ],
           "event_ids": [
-            "ev-mk-pembatalan-bp-migas-2012",
-            "ev-mk2-narkoba-46",
+            "ev-mk-putusan-bpmigas-2012",
+            "ev-mk-putusan-anak-luar-kawin-2012",
             "ev-mk-putusan-buruh-outsourcing-2012"
           ],
           "normative_anchors": [
@@ -33439,6 +33136,9 @@
             },
             {
               "source_id": "putusan-mk-36-puu-x-2012"
+            },
+            {
+              "source_id": "putusan-mk-001-puu-i-2003"
             },
             {
               "source_id": "putusan-mk-138-puu-vii-2009"
@@ -33542,7 +33242,7 @@
           ],
           "event_ids": [
             "ev-mk-putusan-organisasi-advokat-2011",
-            "ev-mk2-narkoba-46"
+            "ev-mk-putusan-anak-luar-kawin-2012"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -33568,7 +33268,7 @@
             }
           ],
           "event_ids": [
-            "ev-mk-putusan-dpd-tripartit-2013",
+            "ev-mk-putusan-tripartit-dpd-2012-2014",
             "ev-mk2-akil-mochtar"
           ],
           "normative_anchors": [
@@ -33593,7 +33293,7 @@
           ],
           "event_ids": [
             "ev-mk-putusan-ktp-pemilu-2009",
-            "ev-mk2-narkoba-46"
+            "ev-mk-putusan-anak-luar-kawin-2012"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -33644,7 +33344,7 @@
           ],
           "event_ids": [
             "ev-mk-putusan-tripartit-dpd-2012-2014",
-            "ev-mk2-narkoba-46"
+            "ev-mk-putusan-anak-luar-kawin-2012"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -33669,7 +33369,7 @@
           ],
           "event_ids": [
             "ev-mk2-akil-mochtar",
-            "ev-mk2-narkoba-46"
+            "ev-mk-putusan-anak-luar-kawin-2012"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -33717,7 +33417,7 @@
           ],
           "event_ids": [
             "ev-mk-pembatalan-uu-bhp-2010",
-            "ev-mk2-narkoba-46"
+            "ev-mk-putusan-anak-luar-kawin-2012"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -33966,7 +33666,7 @@
           ],
           "event_ids": [
             "ev-mk3-pilkada-independen",
-            "ev-mk-putusan-sda-2015"
+            "ev-mk-putusan-sda-air-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -34025,7 +33725,7 @@
             }
           ],
           "event_ids": [
-            "ev-mk-putusan-spdp-2016",
+            "ev-mk-putusan-spdp-7-hari-2015",
             "ev-mk-putusan-dpd-parpol-2018"
           ],
           "normative_anchors": [
@@ -34170,6 +33870,9 @@
             },
             {
               "source_id": "putusan-mk-55-puu-xvii-2019"
+            },
+            {
+              "source_id": "putusan-mk-14-puu-xi-2013"
             }
           ],
           "event_ids": [
@@ -34199,11 +33902,14 @@
               "source_id": "putusan-mk-18-puu-xvii-2019"
             },
             {
+              "source_id": "putusan-mk-90-2023"
+            },
+            {
               "source_id": "putusan-mk-114-puu-xx-2022"
             }
           ],
           "event_ids": [
-            "ev-mk-putusan-90-2023",
+            "ev-mk-putusan-batas-usia-capres-2023",
             "ev-mk-putusan-sistem-pemilu-terbuka-2023"
           ],
           "normative_anchors": [
@@ -34230,11 +33936,14 @@
             },
             {
               "source_id": "putusan-mk-18-puu-xvii-2019"
+            },
+            {
+              "source_id": "putusan-mk-18-puu-xvii-2019-fidusia"
             }
           ],
           "event_ids": [
-            "ev-mk-pemilu-serentak-daerah-2020",
-            "ev-mk-putusan-fidusia-2020"
+            "ev-mk-putusan-pemilu-serentak-2019",
+            "ev-mk-putusan-fidusia-2019"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -34272,7 +33981,7 @@
             }
           ],
           "event_ids": [
-            "ev-putusan-mk-larangan-tarik-paksa-fidusia-2019",
+            "ev-mk-putusan-fidusia-2019",
             "ev-mk4-ciptaker-91"
           ],
           "normative_anchors": [
@@ -34343,7 +34052,7 @@
           "event_ids": [
             "ev-mk4-usia-capres",
             "ev-mk4-ciptaker-91",
-            "ev-mk-putusan-90-capres",
+            "ev-mk-putusan-batas-usia-capres-2023",
             "ev-mk-putusan-usia-nikah-2018"
           ],
           "normative_anchors": [
@@ -34370,6 +34079,9 @@
             },
             {
               "source_id": "putusan-mk-18-puu-xvii-2019"
+            },
+            {
+              "source_id": "putusan-mk-18-puu-xvii-2019-fidusia"
             }
           ],
           "event_ids": [
@@ -34391,11 +34103,13 @@
             },
             {
               "source_id": "putusan-mk-90-2023"
+            },
+            {
+              "source_id": "putusan-mkmk-2-2023"
             }
           ],
           "event_ids": [
-            "ev-mk-putusan-batas-usia-capres-2023",
-            "ev-mk-putusan-90-capres"
+            "ev-mk-putusan-batas-usia-capres-2023"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -34412,6 +34126,9 @@
               "note_id": "Putusan perlindungan hak pilih dan pemilu serentak"
             },
             {
+              "source_id": "putusan-mk-18-puu-xvii-2019"
+            },
+            {
               "source_id": "putusan-mk-18-puu-xvii-2019-fidusia"
             },
             {
@@ -34419,7 +34136,7 @@
             }
           ],
           "event_ids": [
-            "ev-putusan-mk-larangan-tarik-paksa-fidusia-2019",
+            "ev-mk-putusan-fidusia-2019",
             "ev-mk4-ciptaker-91"
           ],
           "normative_anchors": [
@@ -34497,12 +34214,18 @@
               "source_id": "putusan-mk-13-puu-xvi-2018"
             },
             {
+              "source_id": "putusan-mkmk-2-2023"
+            },
+            {
+              "source_id": "putusan-mk-18-puu-xvii-2019"
+            },
+            {
               "source_id": "putusan-mk-18-puu-xvii-2019-fidusia"
             }
           ],
           "event_ids": [
-            "ev-mk-putusan-90-capres",
-            "ev-putusan-mk-larangan-tarik-paksa-fidusia-2019"
+            "ev-mk-putusan-batas-usia-capres-2023",
+            "ev-mk-putusan-fidusia-2019"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -34562,7 +34285,7 @@
             }
           ],
           "event_ids": [
-            "ev-mk-putusan-parliamentary-threshold-2024",
+            "ev-mk-putusan-threshold-2024",
             "ev-mk5-ambang-batas"
           ],
           "normative_anchors": [
@@ -34688,11 +34411,14 @@
             },
             {
               "source_id": "putusan-mk-60-puu-xxii-2024"
+            },
+            {
+              "source_id": "putusan-mk-70-puu-xxii-2024"
             }
           ],
           "event_ids": [
-            "ev-putusan-mk-60-demokrasi-lokal-2024",
-            "ev-putusan-mk-136-netralitas-aparat-2024"
+            "ev-mk-putusan-ambang-batas-pilkada-2024",
+            "ev-mk-putusan-netralitas-pilkada-2024"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -34712,7 +34438,7 @@
               "author": "Prof. Dr. Achmad Ruslan, S.H., M.H.",
               "role": "Guru Besar Hukum Tata Negara FH UNHAS",
               "source_id": "buku-achmad-ruslan-pembentukan-uu-2014",
-              "year": 2014
+              "year": 2013
             }
           ],
           "evidence": [
@@ -34740,7 +34466,7 @@
             }
           ],
           "event_ids": [
-            "ev-mk-putusan-60-pilkada",
+            "ev-mk-putusan-ambang-batas-pilkada-2024",
             "ev-mk-putusan-70-usia-pilkada"
           ],
           "normative_anchors": [
@@ -34779,7 +34505,7 @@
             }
           ],
           "event_ids": [
-            "ev-mk-putusan-60-pilkada",
+            "ev-mk-putusan-ambang-batas-pilkada-2024",
             "ev-mk5-lantikan-adies-kadir",
             "ev-mk-putusan-phpu-pilpres-2024",
             "ev-mk5-ambang-batas",
@@ -34806,6 +34532,9 @@
             },
             {
               "source_id": "putusan-mk-136-puu-xxii-2024"
+            },
+            {
+              "source_id": "putusan-mk-136-2024"
             },
             {
               "source_id": "putusan-mk-282-puu-xxiii-2025"
@@ -34838,12 +34567,18 @@
               "source_id": "putusan-mk-60-puu-xxii-2024"
             },
             {
+              "source_id": "putusan-mk-70-puu-xxii-2024"
+            },
+            {
+              "source_id": "putusan-mk-136-puu-xxii-2024"
+            },
+            {
               "source_id": "putusan-mk-136-2024"
             }
           ],
           "event_ids": [
-            "ev-putusan-mk-60-demokrasi-lokal-2024",
-            "ev-putusan-mk-136-netralitas-aparat-2024"
+            "ev-mk-putusan-ambang-batas-pilkada-2024",
+            "ev-mk-putusan-netralitas-pilkada-2024"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -34887,11 +34622,14 @@
             },
             {
               "source_id": "putusan-mkmk-2-2023"
+            },
+            {
+              "source_id": "putusan-mk-70-puu-xxii-2024"
             }
           ],
           "event_ids": [
             "ev-mkmk-putusan-etik-ketua-mk-2023",
-            "ev-mk-putusan-60-pilkada"
+            "ev-mk-putusan-ambang-batas-pilkada-2024"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -34934,12 +34672,18 @@
               "source_id": "putusan-mk-60-puu-xxii-2024"
             },
             {
+              "source_id": "putusan-mk-70-puu-xxii-2024"
+            },
+            {
+              "source_id": "putusan-mk-136-puu-xxii-2024"
+            },
+            {
               "source_id": "putusan-mk-136-2024"
             }
           ],
           "event_ids": [
-            "ev-putusan-mk-60-demokrasi-lokal-2024",
-            "ev-putusan-mk-136-netralitas-aparat-2024"
+            "ev-mk-putusan-ambang-batas-pilkada-2024",
+            "ev-mk-putusan-netralitas-pilkada-2024"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -35763,6 +35507,9 @@
               "source_id": "keppres-200-1960"
             },
             {
+              "source_id": "keppres-200-1960-masyumi-psi"
+            },
+            {
               "source_id": "komando-dwikora-1964"
             },
             {
@@ -36052,7 +35799,7 @@
             "ev-supersemar-1966-peralihan",
             "ev-soekarno2-pnps-1965",
             "ev-pembubaran-pki-supersemar-1966",
-            "ev-pembubaran-masyumi-psi-1960",
+            "ev-keppres-pembubaran-masyumi-psi-1960",
             "ev-pembubaran-dpr-1955-pembentukan-dpr-gr-1960",
             "ev-soekarno2-dekrit"
           ],
@@ -37440,7 +37187,7 @@
             }
           ],
           "event_ids": [
-            "ev-ma-uu-19-1964",
+            "ev-uu-intervensi-kehakiman-presiden-1964",
             "ev-ma-uu-14-1985"
           ],
           "normative_anchors": [
@@ -39656,7 +39403,7 @@
             }
           ],
           "event_ids": [
-            "ev-dpd-uji-materi-mk-92-2012"
+            "ev-dpd-kemenangan-mk-92-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -39673,10 +39420,13 @@
             },
             {
               "source_id": "laporan-dpd-desertada-2011"
+            },
+            {
+              "source_id": "putusan-mk-79-puu-xii-2014"
             }
           ],
           "event_ids": [
-            "ev-mk-putusan-dpd-tripartit-2013"
+            "ev-mk-putusan-tripartit-dpd-2012-2014"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -39776,7 +39526,7 @@
             }
           ],
           "event_ids": [
-            "ev-dpd-uji-materi-mk-92-2012"
+            "ev-dpd-kemenangan-mk-92-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -39796,7 +39546,7 @@
             }
           ],
           "event_ids": [
-            "ev-dpd-uji-materi-mk-92-2012"
+            "ev-dpd-kemenangan-mk-92-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -39816,7 +39566,7 @@
             }
           ],
           "event_ids": [
-            "ev-dpd-uji-materi-mk-92-2012"
+            "ev-dpd-kemenangan-mk-92-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -39836,7 +39586,7 @@
             }
           ],
           "event_ids": [
-            "ev-dpd-uji-materi-mk-92-2012"
+            "ev-dpd-kemenangan-mk-92-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -39853,7 +39603,7 @@
             }
           ],
           "event_ids": [
-            "ev-dpd-uji-materi-mk-92-2012"
+            "ev-dpd-kemenangan-mk-92-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -39870,7 +39620,7 @@
             }
           ],
           "event_ids": [
-            "ev-dpd-uji-materi-mk-92-2012"
+            "ev-dpd-kemenangan-mk-92-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -44631,7 +44381,7 @@
             }
           ],
           "event_ids": [
-            "ev-dpd-putusan-mk-79-2014",
+            "ev-dpd-putusan-mk-79-2015",
             "ev-pengawasan-kedaulatan-pangan-dpd-2017"
           ],
           "normative_anchors": [
@@ -44658,8 +44408,7 @@
             }
           ],
           "event_ids": [
-            "ev-dpd-putusan-mk-79-2015",
-            "ev-dpd-putusan-mk-79-2014"
+            "ev-dpd-putusan-mk-79-2015"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -44686,7 +44435,7 @@
           ],
           "event_ids": [
             "ev-pengawasan-kedaulatan-pangan-dpd-2017",
-            "ev-dpd-putusan-mk-79-2014"
+            "ev-dpd-putusan-mk-79-2015"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -44737,7 +44486,7 @@
           ],
           "event_ids": [
             "ev-dpd-ott-irman-gusman-2016",
-            "ev-dpd-putusan-mk-79-2014"
+            "ev-dpd-putusan-mk-79-2015"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -44820,7 +44569,7 @@
             }
           ],
           "event_ids": [
-            "ev-dpd-putusan-mk-79-2014",
+            "ev-dpd-putusan-mk-79-2015",
             "ev-pengawasan-kedaulatan-pangan-dpd-2017"
           ],
           "normative_anchors": [
@@ -44848,7 +44597,7 @@
           ],
           "event_ids": [
             "ev-dpd-pansus-tka-2018",
-            "ev-dpd-putusan-mk-79-2014"
+            "ev-dpd-putusan-mk-79-2015"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -44875,7 +44624,7 @@
           ],
           "event_ids": [
             "ev-pengawasan-kedaulatan-pangan-dpd-2017",
-            "ev-dpd-putusan-mk-79-2014"
+            "ev-dpd-putusan-mk-79-2015"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -44902,7 +44651,7 @@
           ],
           "event_ids": [
             "ev-pengawasan-kedaulatan-pangan-dpd-2017",
-            "ev-dpd-putusan-mk-79-2014"
+            "ev-dpd-putusan-mk-79-2015"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -44926,7 +44675,7 @@
           ],
           "event_ids": [
             "ev-pengawasan-kedaulatan-pangan-dpd-2017",
-            "ev-dpd-putusan-mk-79-2014"
+            "ev-dpd-putusan-mk-79-2015"
           ],
           "normative_anchors": [
             "uud-nri-1945"

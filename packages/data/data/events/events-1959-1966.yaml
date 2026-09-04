@@ -150,9 +150,11 @@
   summary_id: Presiden Sukarno membubarkan dua partai politik besar (Partai Masyumi dan Partai Sosialis Indonesia) dengan tuduhan keterlibatan tokoh-tokohnya dalam pemberontakan PRRI/Permesta, mempersempit ruang oposisi politik dan kebebasan berserikat secara drastis dalam sistem Demokrasi Terpimpin.
   source_ids:
     - keppres-200-1960
+    - keppres-200-1960-masyumi-psi
   dimension_ids:
     - kedaulatan-rakyat
     - negara-hukum
+    - sila-4
 - id: ev-tap-mprs-presiden-seumur-hidup-1963
   term_id: presiden-soekarno-ii
   date: 1963-05-18
@@ -170,17 +172,6 @@
   category: produk-hukum
   title_id: UU No. 19/1964 tentang Kewenangan Presiden Mengintervensi Putusan Pengadilan
   summary_id: Undang-Undang Ketentuan Pokok Kekuasaan Kehakiman 1964 memberikan wewenang eksplisit kepada Presiden untuk turun tangan dalam urusan pengadilan demi kepentingan revolusi dan kepribadian nasional, menundukkan independensi peradilan di bawah kekuasaan eksekutif dan menjadikan Ketua MA berkedudukan setingkat menteri kabinet.
-  source_ids:
-    - uu-19-1964
-  dimension_ids:
-    - negara-hukum
-    - checks-balances
-- id: ev-ma-uu-19-1964
-  term_id: ma-dt-orde-baru
-  date: 1964-10-31
-  category: produk-hukum
-  title_id: "Pengesahan UU No. 19/1964: Pelemahan Independensi Yudisial di Bawah Eksekutif"
-  summary_id: Pemberlakuan UU No. 19/1964 yang memberikan kewenangan kepada Presiden untuk campur tangan dalam urusan pengadilan demi kepentingan revolusi, menggerus prinsip negara hukum dan checks and balances.
   source_ids:
     - uu-19-1964
   dimension_ids:

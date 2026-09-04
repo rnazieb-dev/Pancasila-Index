@@ -578,17 +578,6 @@
     - uu-27-2022
   dimension_ids:
     - sila-4
-- id: ev-dpr19-rkuhp-final
-  term_id: dpr-2019-2024
-  date: 2022-12
-  category: produk-hukum
-  title_id: RKUHP disahkan menjadi UU No. 1/2023
-  summary_id: '6 Desember 2022, delapan fraksi mengangkat tangan mengesahkan KUHP baru - pertama kali bukan warisan kolonial. Kemajuan substansi nyata (hukum adat diakui, pidana mati jadi "ancaman alternatif"), tapi pasal-pasal sensitif lolos: kritik presiden, kohabitasi di luar nikah, promosi kontrasepsi. Presiden menandatanganinya dengan penundaan pemberlakuan tiga tahun - de facto mengundang generasi berikutnya merevisi.'
-  source_ids:
-    - uu-1-2023
-  dimension_ids:
-    - sila-4
-    - sila-2
 - id: ev-dpr19-uu-ciptaker-permanen
   term_id: dpr-2019-2024
   date: 2023-03
@@ -656,17 +645,6 @@
   dimension_ids:
     - checks-balances
     - negara-hukum
-- id: ev-mk2-narkoba-46
-  term_id: mk-2008-2013
-  date: 2010-10
-  category: pengadilan
-  title_id: Putusan MK No. 46/PUU-VIII/2010
-  summary_id: "Gugatan dua mantan pecandu mengubah paradigma narkotika Indonesia: pecandu adalah korban penyakit yang wajib direhabilitasi, bukan penjahat yang dipenjara. Dasar bagi UU Narkotika revisi dan jutaan kasus rehabilitasi. Putusan paling humanis dalam sejarah MK ini juga menjadi bantalan hukum ketika eksekusi mati terpidana narkoba diperdebatkan - logika korban vs pelakunya sendiri sering bertabrakan."
-  source_ids:
-    - putusan-mk-46-puu-viii-2010
-  dimension_ids:
-    - sila-2
-    - sila-1
 - id: ev-mk2-akil-mochtar
   term_id: mk-2008-2013
   date: 2013-10
@@ -1881,31 +1859,6 @@
     - kedaulatan-rakyat
     - sila-4
     - negara-hukum
-- id: ev-dpd-uji-materi-mk-92-2012
-  term_id: dpd-2009-2014
-  date: 2013-03-27
-  category: pengadilan
-  title_id: Putusan MK No. 92/PUU-X/2012 Memperkuat Kewenangan Legislasi DPD
-  summary_id: Mahkamah Konstitusi mengabulkan uji materi DPD RI terhadap UU P3 dan UU MD3, menegaskan bahwa DPD berhak mengusulkan RUU, membahas RUU sejak awal bersama DPR dan Presiden, serta menyusun program legislasi nasional (Prolegnas) terkait otonomi daerah.
-  source_ids:
-    - putusan-mk-92-puu-x-2012
-  dimension_ids:
-    - sila-3
-    - checks-balances
-    - negara-hukum
-    - sila-4
-- id: ev-dpd-putusan-mk-79-2014
-  term_id: dpd-2014-2019
-  date: 2015-09-22
-  category: pengadilan
-  title_id: Putusan MK No. 79/PUU-XII/2014 atas Kedudukan Tripartit Legislasi DPD
-  summary_id: MK menegaskan kembali hak konstitusional DPD dalam proses pembentukan undang-undang terkait otonomi dan keuangan daerah secara setara dan bermartabat bersama DPR dan Presiden.
-  source_ids:
-    - putusan-mk-79-puu-xii-2014
-  dimension_ids:
-    - sila-3
-    - checks-balances
-    - sila-4
 - id: ev-dpd-inisiatif-kepulauan
   term_id: dpd-2019-2024
   date: 2020-02-18
@@ -2128,29 +2081,6 @@
   dimension_ids:
     - kedaulatan-rakyat
     - sila-4
-- id: ev-mk-putusan-90-capres
-  term_id: mk-2018-2023
-  date: 2023-10-16
-  category: pengadilan
-  title_id: Putusan MK No. 90/PUU-XXI/2023 tentang Syarat Batas Usia Capres-Cawapres
-  summary_id: MK mengabulkan sebagian uji materi Pasal 169 huruf q UU Pemilu dengan menambahkan frasa syarat berusia paling rendah 40 tahun atau pernah/sedang menduduki jabatan yang dipilih melalui pemilihan umum termasuk pemilihan kepala daerah.
-  source_ids:
-    - putusan-mk-90-2023
-  dimension_ids:
-    - negara-hukum
-    - checks-balances
-- id: ev-mk-putusan-60-pilkada
-  term_id: mk-2023-sekarang
-  date: 2024-08-20
-  category: pengadilan
-  title_id: Putusan MK No. 60/PUU-XXII/2024 Menurunkan Ambang Batas Pencalonan Kepala Daerah
-  summary_id: MK mengubah persentase ambang batas (threshold) pengusulan pasangan calon kepala daerah diselaraskan dengan perolehan suara sah pemilu legislatif, memulihkan kompetisi elektoral yang inklusif dan mencegah calon tunggal kotak kosong secara buatan.
-  source_ids:
-    - putusan-mk-60-puu-xxii-2024
-  dimension_ids:
-    - kedaulatan-rakyat
-    - sila-4
-    - tujuan-3
 - id: ev-mk-putusan-70-usia-pilkada
   term_id: mk-2023-sekarang
   date: 2024-08-20
@@ -2498,29 +2428,6 @@
   dimension_ids:
     - sila-2
     - tujuan-1
-- id: ev-putusan-mk-60-demokrasi-lokal-2024
-  term_id: mk-2023-sekarang
-  date: 2024-08-20
-  category: pengadilan
-  title_id: "Putusan MK No. 60/PUU-XXII/2024: Penurunan Ambang Batas Pencalonan Pilkada & Penggagalan Skenario Kotak Kosong"
-  summary_id: Mahkamah Konstitusi memutus perkara uji materi UU Pilkada yang menurunkan ambang batas pencalonan kepala daerah setara suara sah parpol di pemilu, membuka kembali kompetisi multipartai dan menyelamatkan demokrasi lokal.
-  source_ids:
-    - putusan-mk-60-puu-xxii-2024
-  dimension_ids:
-    - sila-4
-    - kedaulatan-rakyat
-- id: ev-putusan-mk-136-netralitas-aparat-2024
-  term_id: mk-2023-sekarang
-  date: 2024-11-14
-  category: pengadilan
-  title_id: "Putusan MK No. 136/PUU-XXII/2024: Penegasan Sanksi Pidana atas Ketidaknetralan TNI, Polri, dan Pejabat Daerah dalam Pilkada"
-  summary_id: Mahkamah Konstitusi mengabulkan permohonan uji materi Pasal 188 UU Pilkada dengan memasukkan frasa TNI/Polri dan Pejabat Daerah ke dalam ketentuan ancaman pidana penjara jika terbukti cawe-cawe dalam pilkada.
-  source_ids:
-    - putusan-mk-136-2024
-  dimension_ids:
-    - sila-4
-    - negara-hukum
-    - tujuan-1
 - id: ev-program-makan-bergizi-gratis-2024
   term_id: presiden-prabowo
   date: 2024-10-21
@@ -2590,18 +2497,6 @@
     - checks-balances
     - kedaulatan-rakyat
     - sila-4
-- id: ev-pembubaran-masyumi-psi-1960
-  term_id: presiden-soekarno-ii
-  date: 1960-08-17
-  category: kebijakan
-  title_id: Pembubaran Partai Oposisi Masyumi dan PSI Melalui Keppres No. 200/1960
-  summary_id: Presiden menerbitkan Keppres No. 200/1960 yang melarang dan membubarkan Partai Masyumi dan PSI dengan tuduhan keterlibatan pemimpinnya dalam pemberontakan PRRI/Permesta, membatasi pluralisme politik dan oposisi demokratis.
-  source_ids:
-    - keppres-200-1960-masyumi-psi
-  dimension_ids:
-    - sila-4
-    - kedaulatan-rakyat
-    - negara-hukum
 - id: ev-perjanjian-new-york-irian-barat-1962
   term_id: presiden-soekarno-ii
   date: 1962-08-15
@@ -2878,18 +2773,6 @@
   dimension_ids:
     - negara-hukum
     - sila-2
-- id: ev-putusan-mk-larangan-tarik-paksa-fidusia-2019
-  term_id: mk-2018-2023
-  date: 2020-01-06
-  category: pengadilan
-  title_id: "Putusan MK No. 18/PUU-XVII/2019: Perlindungan Debitur dari Penarikan Paksa Kendaraan oleh Debt Collector"
-  summary_id: Mahkamah Konstitusi menetapkan bahwa eksekusi jaminan fidusia tidak boleh dilakukan sepihak tanpa kesepakatan wanprestasi sukarela dari debitur atau tanpa penetapan eksekusi dari Pengadilan Negeri.
-  source_ids:
-    - putusan-mk-18-puu-xvii-2019-fidusia
-  dimension_ids:
-    - negara-hukum
-    - sila-5
-    - tujuan-1
 - id: ev-audit-bpk-mega-skandal-jiwasraya-2020
   term_id: bpk-2019-sekarang
   date: 2020-03-09

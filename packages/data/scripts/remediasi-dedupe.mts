@@ -35,6 +35,36 @@ const KLASTER: Record<string, string[]> = {
   ],
   "ev-dpr-pansus-century-2010": ["ev-dpr-pansus-angket-century-2010", "ev-dpr-angket-century-2010"],
   "ev-persetujuan-linggarjati-1947": ["ev-rescue-anri-perjanjian-linggarjati-1947"],
+
+  // Gelombang kedua: klaster yang tertangkap pagar sidik-jari nomor dokumen
+  // hukum di build.mts (kunci lama `source::date` melewatkannya).
+  "ev-dpr-uu-kuhp-2022": ["ev-dpr19-rkuhp-final"],
+  // Putusan 46/PUU-VIII/2010 diucapkan 17 Februari 2012; salinan bertanggal
+  // 2010-10 dan ber-id "narkoba" adalah catatan keliru.
+  "ev-mk-putusan-anak-luar-kawin-2012": ["ev-mk2-narkoba-46"],
+  "ev-dpd-kemenangan-mk-92-2013": ["ev-dpd-uji-materi-mk-92-2012"],
+  "ev-dpd-putusan-mk-79-2015": ["ev-dpd-putusan-mk-79-2014"],
+  "ev-mk-putusan-batas-usia-capres-2023": ["ev-mk-putusan-90-capres", "ev-mk-putusan-90-2023"],
+  "ev-mk-putusan-ambang-batas-pilkada-2024": [
+    "ev-mk-putusan-60-pilkada",
+    "ev-putusan-mk-60-demokrasi-lokal-2024",
+  ],
+  "ev-mk-putusan-netralitas-pilkada-2024": ["ev-putusan-mk-136-netralitas-aparat-2024"],
+  "ev-keppres-pembubaran-masyumi-psi-1960": ["ev-pembubaran-masyumi-psi-1960"],
+  "ev-mk-putusan-fidusia-2019": [
+    "ev-mk-putusan-fidusia-2020",
+    "ev-putusan-mk-larangan-tarik-paksa-fidusia-2019",
+  ],
+  "ev-uu-intervensi-kehakiman-presiden-1964": ["ev-ma-uu-19-1964"],
+  "ev-mk-putusan-sda-air-2013": ["ev-mk-putusan-sda-2015"],
+  "ev-mk-putusan-bpmigas-2012": ["ev-mk-pembatalan-bp-migas-2012"],
+  "ev-mk-putusan-tripartit-dpd-2012-2014": ["ev-mk-putusan-dpd-tripartit-2013"],
+  // Putusan 130/PUU-XIII/2015 diucapkan 11 Januari 2017 (mkri.id); salinan
+  // bertanggal 2016-01-11 keliru satu tahun.
+  "ev-mk-putusan-spdp-7-hari-2015": ["ev-mk-putusan-spdp-2016"],
+  "ev-mk-putusan-threshold-2024": ["ev-mk-putusan-parliamentary-threshold-2024"],
+  "ev-mk-putusan-pemilu-serentak-2019": ["ev-mk-pemilu-serentak-daerah-2020"],
+  "ev-perppu-ormas-pembubaran-hti-2017": ["ev-jokowi-perppu-ormas"],
 };
 
 type Ev = {
@@ -71,10 +101,10 @@ for (const [kanonik, lebur] of Object.entries(KLASTER)) {
   stat.klaster++;
   for (const id of lebur) {
     const src = byId.get(id);
-    if (!src) throw new Error(`duplikat ${id} tidak ada`);
+    if (!src) continue; // sudah dilebur pada jalannya terdahulu (skrip idempoten)
     if (src.term_id !== target.term_id) {
       // Beda masa jabatan hanya boleh dilebur bila memang salah atribusi.
-      if (id !== "ev-audit-investigasi-bpk-bank-century-2009") {
+      if (!["ev-audit-investigasi-bpk-bank-century-2009"].includes(id)) {
         throw new Error(`${id} beda term_id dengan ${kanonik} - bukan duplikat`);
       }
     }

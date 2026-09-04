@@ -295,18 +295,6 @@
   dimension_ids:
     - tujuan-1
     - sila-4
-- id: ev-mk-putusan-parliamentary-threshold-2024
-  term_id: mk-2023-sekarang
-  date: 2024-02-29
-  category: pengadilan
-  title_id: "Putusan MK No. 116/PUU-XXI/2023: Ambang Batas Parlemen 4% Wajib Diubah Sebelum Pemilu 2029"
-  summary_id: MK memutus ambang batas parlemen 4% inkonstitusional bersyarat dan memerintahkan pembentuk UU merumuskan batas baru berbasis kajian proporsional representasi.
-  source_ids:
-    - putusan-mk-116-puu-xxi-2023
-  dimension_ids:
-    - kedaulatan-rakyat
-    - sila-4
-    - negara-hukum
 - id: ev-dpd-posisi-ruu-masyarakat-adat-2025
   term_id: dpd-2024-sekarang
   date: 2025-02-10

@@ -20,17 +20,6 @@
   dimension_ids:
     - kedaulatan-rakyat
     - negara-hukum
-- id: ev-mk-putusan-spdp-2016
-  term_id: mk-2013-2018
-  date: 2016-01-11
-  category: pengadilan
-  title_id: Putusan MK No. 130/PUU-XIII/2015 Kewajiban SPDP 7 Hari kepada Terlapor
-  summary_id: MK memutuskan Pasal 109 ayat 1 KUHAP inkonstitusional bersyarat dan mewajibkan penyidik kepolisian/kejaksaan menyerahkan Surat Pemberitahuan Dimulainya Penyidikan (SPDP) paling lambat 7 hari kepada penuntut umum, terlapor, dan korban demi asas due process of law.
-  source_ids:
-    - putusan-mk-130-puu-xiii-2015
-  dimension_ids:
-    - negara-hukum
-    - sila-2
 - id: ev-mk-putusan-penghayat-2017
   term_id: mk-2013-2018
   date: 2017-11-07
@@ -43,17 +32,6 @@
     - sila-1
     - sila-2
     - negara-hukum
-- id: ev-mk-putusan-fidusia-2020
-  term_id: mk-2018-2023
-  date: 2020-01-06
-  category: pengadilan
-  title_id: Putusan MK No. 18/PUU-XVII/2019 Larangan Penarikan Paksa Jaminan Fidusia
-  summary_id: MK menegaskan bahwa frasa 'kekuatan eksekutorial' dalam UU Jaminan Fidusia tidak boleh dijadikan dasar bagi kreditur/leasing untuk menyita kendaraan/aset secara sepihak di jalanan tanpa kesepakatan cedera janji (wanprestasi) atau permohonan eksekusi ke pengadilan negeri.
-  source_ids:
-    - putusan-mk-18-puu-xvii-2019
-  dimension_ids:
-    - negara-hukum
-    - sila-5
 - id: ev-ma-putusan-bpjs-2020
   term_id: ma-reformasi-sekarang
   date: 2020-02-27
@@ -217,6 +195,7 @@
   dimension_ids:
     - kedaulatan-rakyat
     - sila-4
+    - negara-hukum
 - id: ev-ma-mkh-ronald-tannur-2024
   term_id: ma-reformasi-sekarang
   date: 2024-10-23
@@ -238,10 +217,13 @@
   summary_id: MK mengabulkan uji materiil Pasal 188 UU Pilkada dengan memasukkan frasa 'pejabat daerah' dan 'anggota TNI/Kepolisian Negara Republik Indonesia' sebagai subjek yang dapat dipidana penjara jika terbukti melanggar netralitas dan menguntungkan/merugikan salah satu pasangan calon kepala daerah.
   source_ids:
     - putusan-mk-136-puu-xxii-2024
+    - putusan-mk-136-2024
   dimension_ids:
     - kedaulatan-rakyat
     - negara-hukum
     - sila-2
+    - sila-4
+    - tujuan-1
 - id: ev-ky-laptah-penegakan-2023
   term_id: ky-2020-sekarang
   date: 2024-01-30
@@ -261,9 +243,11 @@
   summary_id: MK merumuskan 6 model varian pemilu serentak nasional dan lokal yang konstitusional, menegaskan pemilu serentak 5 kotak tetap sah namun membuka ruang bagi pembentuk UU untuk memisahkan pemilu nasional dan pemilu daerah guna mengurangi beban KPPS.
   source_ids:
     - putusan-mk-55-puu-xvii-2019
+    - putusan-mk-14-puu-xi-2013
   dimension_ids:
     - kedaulatan-rakyat
     - sila-4
+    - checks-balances
 - id: ev-dpr-uu-covid-2020
   term_id: dpr-2019-2024
   date: 2020-05-18
@@ -306,9 +290,11 @@
   summary_id: MK mengabulkan sebagian uji materiil Pasal 169 huruf q UU Pemilu dengan menambahkan syarat alternatif 'berusia paling rendah 40 tahun atau pernah/sedang menduduki jabatan yang dipilih melalui pemilihan umum termasuk pemilihan kepala daerah', memicu kontroversi politik menjelang Pilpres 2024.
   source_ids:
     - putusan-mk-90-2023
+    - putusan-mkmk-2-2023
   dimension_ids:
     - negara-hukum
     - checks-balances
+    - kedaulatan-rakyat
 - id: ev-mkmk-putusan-etik-ketua-mk-2023
   term_id: mk-2023-sekarang
   date: 2023-11-07
@@ -332,6 +318,7 @@
   dimension_ids:
     - kedaulatan-rakyat
     - sila-4
+    - tujuan-3
 - id: ev-mk-putusan-perjanjian-kawin-2015
   term_id: mk-2013-2018
   date: 2016-10-27
@@ -627,9 +614,12 @@
   summary_id: MK memutuskan bahwa pihak leasing / kreditur tidak boleh menarik secara paksa objek jaminan fidusia (kendaraan/aset) dari debitur secara sepihak, melainkan harus melalui pengajuan permohonan eksekusi ke pengadilan negeri jika debitur tidak mengakui adanya cidera janji (wanprestasi).
   source_ids:
     - putusan-mk-18-puu-xvii-2019
+    - putusan-mk-18-puu-xvii-2019-fidusia
   dimension_ids:
     - negara-hukum
     - sila-2
+    - sila-5
+    - tujuan-1
 - id: ev-dpr-uu-tpks-2022
   term_id: dpr-2019-2024
   date: 2022-04-12
@@ -768,6 +758,7 @@
   dimension_ids:
     - sila-1
     - sila-3
+    - negara-hukum
 - id: ev-ptun-putusan-blokir-internet-papua-2020
   term_id: ma-reformasi-sekarang
   date: 2020-06-03
@@ -1001,13 +992,15 @@
   date: 2015-09-22
   category: pengadilan
   title_id: Putusan MK No. 79/PUU-XII/2014 Mengukuhkan Posisi DPD dalam Tripartit Legislasi
-  summary_id: MK membatalkan pasal-pasal UU MD3 yang mendegradasi kewenangan DPD dan menegaskan DPD berhak menyusun Prolegnas serta membahas RUU otonomi daerah bersama DPR dan Pemerintah.
+  summary_id: MK menegaskan kembali hak konstitusional DPD dalam proses pembentukan undang-undang terkait otonomi dan keuangan daerah secara setara dan bermartabat bersama DPR dan Presiden.
   source_ids:
     - putusan-mk-79-puu-xii-2014
   dimension_ids:
     - checks-balances
     - negara-hukum
     - kedaulatan-rakyat
+    - sila-3
+    - sila-4
 - id: ev-dpd-ott-irman-gusman-2016
   term_id: dpd-2014-2019
   date: 2016-09-17
@@ -1221,18 +1214,6 @@
     - sila-2
     - sila-3
     - negara-hukum
-- id: ev-jokowi-perppu-ormas
-  term_id: presiden-jokowi-i
-  date: 2017-07-10
-  category: produk-hukum
-  title_id: Penerbitan Perppu No. 2/2017 tentang Perubahan UU Organisasi Kemasyarakatan
-  summary_id: Pemerintah menerbitkan Perppu Ormas untuk membubarkan organisasi yang dinilai bertentangan dengan Pancasila dan UUD 1945 tanpa proses peradilan.
-  source_ids:
-    - perppu-2-2017
-  dimension_ids:
-    - sila-1
-    - sila-3
-    - negara-hukum
 - id: ev-jokowi-pemilu-serentak
   term_id: presiden-jokowi-i
   date: 2019-04-17
@@ -1306,12 +1287,14 @@
   date: 2022-12-06
   category: produk-hukum
   title_id: Pengesahan UU No. 1/2023 tentang KUHP Nasional
-  summary_id: DPR mengesahkan kodifikasi hukum pidana buatan bangsa sendiri menggantikan warisan kolonial Belanda dengan pengakuan hukum yang hidup di masyarakat.
+  summary_id: '6 Desember 2022, delapan fraksi mengangkat tangan mengesahkan KUHP baru - pertama kali bukan warisan kolonial. Kemajuan substansi nyata (hukum adat diakui, pidana mati jadi "ancaman alternatif"), tapi pasal-pasal sensitif lolos: kritik presiden, kohabitasi di luar nikah, promosi kontrasepsi. Presiden menandatanganinya dengan penundaan pemberlakuan tiga tahun - de facto mengundang generasi berikutnya merevisi.'
   source_ids:
     - uu-1-2023
   dimension_ids:
     - tujuan-4
     - negara-hukum
+    - sila-4
+    - sila-2
 - id: ev-mk-putusan-praperadilan-2015
   term_id: mk-2013-2018
   date: 2015-04-28
@@ -1335,18 +1318,6 @@
     - negara-hukum
     - checks-balances
     - sila-5
-- id: ev-mk-putusan-90-2023
-  term_id: mk-2018-2023
-  date: 2023-10-16
-  category: krisis
-  title_id: Putusan MK No. 90/PUU-XXI/2023 Mengubah Syarat Usia Capres-Cawapres
-  summary_id: MK mengabulkan permohonan syarat usia capres-cawapres dengan menambahkan klausul pernah/sedang menduduki jabatan kepala daerah, berujung vonis etik berat MKMK.
-  source_ids:
-    - putusan-mkmk-2-2023
-  dimension_ids:
-    - negara-hukum
-    - checks-balances
-    - kedaulatan-rakyat
 - id: ev-mpr-revisi-uu-md3-kursi-mpr-2018
   term_id: mpr-2014-2019
   date: 2018-03-20
@@ -1484,17 +1455,6 @@
     - negara-hukum
     - checks-balances
     - kedaulatan-rakyat
-- id: ev-mk-pemilu-serentak-daerah-2020
-  term_id: mk-2018-2023
-  date: 2020-02-26
-  category: pengadilan
-  title_id: Putusan MK No. 55/PUU-XVII/2019 tentang 6 Model Desain Penyelenggaraan Pemilu Serentak
-  summary_id: MK merumuskan 6 varian opsi pemisahan pemilu serentak nasional dan lokal guna meringankan beban petugas pemilu pasca-wafatnya ratusan petugas KPPS 2019.
-  source_ids:
-    - putusan-mk-14-puu-xi-2013
-  dimension_ids:
-    - kedaulatan-rakyat
-    - checks-balances
 - id: ev-dpr-uu-minerba-2020
   term_id: dpr-2019-2024
   date: 2020-05-12
