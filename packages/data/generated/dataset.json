@@ -29376,6 +29376,8 @@
           "score": 1,
           "confidence": 0.75,
           "rationale_id": "Penegasan perlindungan kebebasan beragama pada amandemen Pasal 28E dan 28I UUD 1945.",
+          "antithesis_id": "Jaminan konstitusional kebebasan beragama dirumuskan tanpa menyentuh UU No. 1/PNPS/1965 yang membatasi agama yang diakui, sehingga norma tertinggi menjamin kebebasan sementara undang-undang di bawahnya tetap membatasinya.",
+          "synthesis_id": "Skor Baik (+1) karena kebebasan beragama untuk pertama kalinya dijamin langsung oleh konstitusi sebagai hak yang tidak dapat dikurangi, meski peraturan pembatas di bawahnya dibiarkan berlaku.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -29396,6 +29398,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Kerangka konstitusional HAM dibangun lewat amandemen Bab XA.",
+          "antithesis_id": "Bab XA memasukkan katalog HAM ke dalam konstitusi, tetapi dewan yang sama mengesahkan UU Antiterorisme dengan kewenangan penahanan luas dan tidak pernah menggunakan hak penyelidikannya atas kegagalan Pengadilan HAM Ad Hoc.",
+          "synthesis_id": "Skor Baik (+1) karena hak asasi diangkat menjadi materi muatan konstitusi yang mengikat seluruh penyelenggara negara, capaian normatif yang tidak dapat dicabut oleh undang-undang biasa.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -29432,6 +29436,8 @@
           "score": 1,
           "confidence": 0.55,
           "rationale_id": "UU Otonomi Daerah lahir dari dewan ini membuka desentralisasi luas.",
+          "antithesis_id": "Desentralisasi luas dan pemisahan Polri dari militer memperkuat integrasi, tetapi otonomi tanpa pengendalian pemekaran memicu pembentukan daerah baru yang tidak layak secara fiskal dan menumbuhkan politik identitas lokal.",
+          "synthesis_id": "Skor Baik (+1) karena kerangka hukum desentralisasi menggantikan sentralisme Orde Baru dan memberi wilayah ruang mengurus dirinya di dalam negara kesatuan.",
           "evidence": [
             {
               "source_id": "uu-22-1999"
@@ -29456,6 +29462,8 @@
           "score": 2,
           "confidence": 0.85,
           "rationale_id": "Empat tahap amandemen UUD menata ulang demokrasi secara fundamental.",
+          "antithesis_id": "Amandemen dirancang lewat kompromi antarfraksi yang meninggalkan pekerjaan setengah jadi: DPD dibentuk tanpa kewenangan legislasi yang setara, dan usul membentuk komisi konstitusi independen ditolak agar perumusan tetap di tangan politisi.",
+          "synthesis_id": "Skor Sangat Baik (+2) karena empat tahap perubahan UUD 1945 menata ulang seluruh arsitektur kekuasaan - pembatasan masa jabatan, pemilihan langsung, dan peradilan konstitusi - tanpa satu pun tembakan.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -29487,6 +29495,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Desentralisasi fiskal memberi ruang keadilan pembangunan daerah.",
+          "antithesis_id": "Perimbangan keuangan pusat-daerah memindahkan sumber daya tanpa formula yang mengoreksi kesenjangan awal, sehingga daerah kaya sumber daya alam melaju sementara daerah miskin tetap bergantung dana alokasi umum.",
+          "synthesis_id": "Skor Baik (+1) karena desentralisasi fiskal memberi daerah kendali atas belanja pembangunannya sendiri, membuka ruang keadilan antarwilayah yang tertutup selama tiga dasawarsa.",
           "evidence": [
             {
               "source_id": "uu-25-1999"
@@ -29530,6 +29540,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Pengesahan UU Pertahanan Negara No. 3/2002 yang menempatkan TNI di bawah kerangka supremasi sipil.",
+          "antithesis_id": "Supremasi sipil ditegakkan di atas kertas melalui UU Pertahanan dan UU Kepolisian, tetapi peradilan militer tetap berwenang mengadili prajurit atas pidana umum sehingga akuntabilitas aparat terhadap warga belum sepenuhnya berpindah ke peradilan sipil.",
+          "synthesis_id": "Skor Baik (+1) karena TNI ditempatkan di bawah kebijakan pertahanan yang ditetapkan otoritas sipil dan Polri dipisahkan dari struktur militer, membongkar dwifungsi secara hukum.",
           "evidence": [
             {
               "source_id": "uu-3-2002"
@@ -29561,6 +29573,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Pengesahan Paket UU Keuangan Negara dan Perbendaharaan Negara meletakkan disiplin anggaran modern.",
+          "antithesis_id": "Paket UU Keuangan Negara menertibkan siklus anggaran tetapi tidak menyentuh penyelesaian BLBI yang sedang berjalan, sehingga disiplin fiskal baru dibangun sambil kerugian negara terbesar dalam sejarah dibiarkan tanpa pemulihan.",
+          "synthesis_id": "Skor Baik (+1) karena tata kelola keuangan negara modern - perencanaan, perbendaharaan, dan pemeriksaan - dilembagakan dan menjadi rujukan seluruh pemerintahan sesudahnya.",
           "evidence": [
             {
               "source_id": "uu-17-2003"
@@ -29600,6 +29614,8 @@
           "score": 1,
           "confidence": 0.45,
           "rationale_id": "Jaminan konstitusional anggaran pendidikan dua puluh persen lahir dari amandemen.",
+          "antithesis_id": "Mandat 20 persen anggaran pendidikan ditulis ke dalam konstitusi tanpa mekanisme pemaksa, sehingga selama bertahun-tahun tidak dipenuhi dan pemenuhannya harus dikejar lewat serangkaian gugatan ke Mahkamah Konstitusi.",
+          "synthesis_id": "Skor Baik (+1) karena kewajiban anggaran pendidikan diangkat menjadi norma konstitusional yang tidak dapat ditawar pemerintah mana pun, dasar bagi seluruh perluasan akses pendidikan sesudahnya.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -29624,6 +29640,8 @@
           "score": 1,
           "confidence": 0.8,
           "rationale_id": "Pengesahan UU No. 24/2000 tentang Perjanjian Internasional memberikan dasar hukum ratifikasi konvensi global.",
+          "antithesis_id": "UU Perjanjian Internasional mengatur prosedur ratifikasi tetapi memberi pemerintah keleluasaan menentukan perjanjian mana yang cukup lewat peraturan presiden, sehingga kontrol parlemen atas komitmen internasional tetap terbatas.",
+          "synthesis_id": "Skor Baik (+1) karena Indonesia memperoleh dasar hukum yang tertib untuk mengikatkan diri pada perjanjian internasional, prasyarat keikutsertaan yang kredibel dalam tata dunia.",
           "evidence": [
             {
               "source_id": "uu-24-2000"
@@ -29651,6 +29669,8 @@
           "score": 2,
           "confidence": 0.85,
           "rationale_id": "UU KPK dan arsitektur hukum antikorupsi modern dimulai dari dewan ini.",
+          "antithesis_id": "Arsitektur antikorupsi dibangun oleh dewan yang sebagian anggotanya kemudian menjadi terdakwa lembaga yang mereka dirikan sendiri, dan UU KPK memuat ketentuan pimpinan kolektif yang belakangan menjadi celah pelumpuhan dari dalam.",
+          "synthesis_id": "Skor Sangat Baik (+2) karena KPK, Mahkamah Konstitusi, dan Komisi Yudisial didirikan sekaligus dalam satu periode - fondasi kelembagaan negara hukum pasca-otoritarian yang paling menentukan.",
           "evidence": [
             {
               "source_id": "uu-30-2002"
@@ -29713,6 +29733,8 @@
           "score": 2,
           "confidence": 0.85,
           "rationale_id": "Amandemen membangun MK, KY, BPK modern, dan pemakzulan berprosedur.",
+          "antithesis_id": "Mekanisme pemakzulan yang dirancang mensyaratkan putusan Mahkamah Konstitusi lebih dulu, tetapi keputusan akhir tetap berada di tangan MPR sehingga pertimbangan politik masih dapat mengalahkan putusan hukum.",
+          "synthesis_id": "Skor Sangat Baik (+2) karena Mahkamah Konstitusi, Komisi Yudisial, dan BPK yang independen dibentuk sekaligus dengan prosedur pemakzulan yang berbasis putusan pengadilan, bukan lagi selera politik semata.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -29773,6 +29795,8 @@
           "score": 2,
           "confidence": 0.85,
           "rationale_id": "Pilpres langsung dikonstitusionalkan penuh lewat legislasi.",
+          "antithesis_id": "Pemilihan presiden dipindahkan kepada rakyat tetapi jalur pencalonan dikunci bagi partai atau gabungan partai, sehingga kedaulatan rakyat pada tahap penentuan kandidat tetap berada di tangan pengurus partai.",
+          "synthesis_id": "Skor Sangat Baik (+2) karena hak memilih presiden dipindahkan dari 700 anggota MPR ke seluruh pemilih dewasa, perubahan paling mendasar pada letak kedaulatan sejak 1945.",
           "evidence": [
             {
               "source_id": "uu-23-2003"
@@ -29847,6 +29871,8 @@
           "score": 0,
           "confidence": 0.7,
           "rationale_id": "Pengawasan DPR atas kebijakan keagamaan belum mengoreksi regulasi diskriminatif SKB Ahmadiyah.",
+          "antithesis_id": "Dewan memiliki hak interpelasi dan angket untuk mempersoalkan SKB Ahmadiyah yang memicu kekerasan, tetapi tidak satu pun digunakan; fungsi pengawasan justru absen persis pada kebijakan yang menyangkut hak yang tidak dapat dikurangi.",
+          "synthesis_id": "Skor Netral (0) karena dewan tidak menerbitkan legislasi yang memperburuk kebebasan beragama, tetapi juga tidak menggunakan satu pun instrumen pengawasannya untuk mengoreksi kebijakan diskriminatif eksekutif.",
           "evidence": [
             {
               "source_id": "uu-1-pnps-1965"
@@ -29871,6 +29897,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Pengesahan UU Pemerintahan Aceh No. 11/2006 memberikan landasan hukum bagi rekonsiliasi dan pemulihan hak korban.",
+          "antithesis_id": "UU Pemerintahan Aceh memberi landasan rekonsiliasi tetapi menghapus ketentuan pengadilan HAM untuk pelanggaran sebelum 2006, sehingga korban darurat militer kehilangan jalur peradilan yang dijanjikan MoU Helsinki.",
+          "synthesis_id": "Skor Baik (+1) karena perdamaian Aceh memperoleh dasar undang-undang yang memungkinkan bekas kombatan berpolitik secara sah, mengakhiri konflik bersenjata tiga dekade.",
           "evidence": [
             {
               "source_id": "uu-11-2006"
@@ -29904,6 +29932,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "UU Pemerintahan Daerah baru menyempurnakan kerangka desentralisasi.",
+          "antithesis_id": "Penyempurnaan kerangka desentralisasi berjalan bersamaan dengan ledakan pemekaran daerah yang sebagian besar didorong kepentingan elite lokal dan berujung ketergantungan fiskal pada pusat.",
+          "synthesis_id": "Skor Baik (+1) karena kerangka hukum pemerintahan daerah disempurnakan dengan pengaturan pemilihan kepala daerah langsung yang memperkuat ikatan antara warga dan pemerintahannya.",
           "evidence": [
             {
               "source_id": "uu-32-2004"
@@ -29934,6 +29964,8 @@
           "score": 1,
           "confidence": 0.55,
           "rationale_id": "Penyelenggara pemilu independen dilembagakan lewat legislasi.",
+          "antithesis_id": "Penyelenggara pemilu dilembagakan sebagai badan independen, tetapi undang-undang yang sama memberi DPR kewenangan menyeleksi komisionernya sehingga independensi itu bergantung pada proses politik di dewan.",
+          "synthesis_id": "Skor Baik (+1) karena KPU dan Bawaslu dikukuhkan sebagai lembaga tetap yang mandiri, memindahkan penyelenggaraan pemilu keluar dari kendali pemerintah.",
           "evidence": [
             {
               "source_id": "uu-22-2007"
@@ -29961,6 +29993,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Instrumen antidiskriminasi rasial dan etnik disahkan menjelang akhir periode.",
+          "antithesis_id": "UU Penghapusan Diskriminasi Rasial dan Etnik disahkan di ujung periode, sementara sepanjang periode yang sama dewan meloloskan UU Penanaman Modal yang memberi hak guna usaha berjangka sangat panjang tanpa pengaman bagi masyarakat terdampak.",
+          "synthesis_id": "Skor Baik (+1) karena diskriminasi rasial dan etnik akhirnya dilarang lewat undang-undang tersendiri dengan sanksi pidana, menutup celah yang dibiarkan terbuka sejak Orde Baru.",
           "evidence": [
             {
               "source_id": "uu-40-2008"
@@ -29997,6 +30031,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Pengesahan UU No. 24/2007 tentang Penanggulangan Bencana membentuk BNPB untuk melindungi rakyat dari bencana alam.",
+          "antithesis_id": "UU Penanggulangan Bencana disahkan dua setengah tahun setelah tsunami Aceh, memperlihatkan dewan bekerja reaktif; kerangka kelembagaan yang dibangun pun tidak disertai kewajiban anggaran mitigasi yang mengikat daerah.",
+          "synthesis_id": "Skor Baik (+1) karena penanggulangan bencana berubah dari respons darurat ad hoc menjadi sistem kelembagaan permanen dengan BNPB dan kewajiban kesiapsiagaan.",
           "evidence": [
             {
               "source_id": "uu-24-2007"
@@ -30027,6 +30063,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Pengesahan UU UMKM 20/2008 memperkuat basis ekonomi kerakyatan dan perlindungan usaha mikro.",
+          "antithesis_id": "UU UMKM dan UU Keterbukaan Informasi Publik memperkuat ekonomi rakyat dan hak tahu warga, tetapi pada periode yang sama dewan mengesahkan UU ITE dengan pasal pencemaran nama baik yang kemudian dipakai membungkam kritik konsumen dan warga.",
+          "synthesis_id": "Skor Baik (+1) karena usaha mikro memperoleh definisi hukum, keberpihakan pembiayaan, dan perlindungan kemitraan yang sebelumnya tidak ada.",
           "evidence": [
             {
               "source_id": "uu-20-2008"
@@ -30082,6 +30120,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Pengesahan UU Guru dan Dosen No. 14/2005 meningkatkan profesionalisme dan tunjangan sertifikasi pendidik.",
+          "antithesis_id": "Sertifikasi guru menaikkan penghasilan pendidik secara signifikan tetapi dikaitkan pada pemenuhan jam mengajar administratif alih-alih pada mutu pembelajaran, sehingga anggaran besar tidak berkorelasi dengan hasil belajar siswa.",
+          "synthesis_id": "Skor Baik (+1) karena profesi guru dan dosen diakui sebagai jabatan profesional dengan standar kualifikasi dan jaminan kesejahteraan yang diatur undang-undang.",
           "evidence": [
             {
               "source_id": "uu-14-2005"
@@ -30109,6 +30149,8 @@
           "score": 1,
           "confidence": 0.8,
           "rationale_id": "Pengesahan UU RPJPN 2005-2025 memuat arah kebijakan luar negeri bebas aktif di era globalisasi.",
+          "antithesis_id": "Arah kebijakan luar negeri dalam RPJPN dirumuskan sangat umum tanpa target terukur, sehingga dokumen dua puluh tahun itu lebih berfungsi sebagai pernyataan niat daripada instrumen pengendali kebijakan.",
+          "synthesis_id": "Skor Baik (+1) karena Indonesia memiliki rencana pembangunan jangka panjang yang memuat arah politik luar negeri bebas aktif sebagai komitmen lintas pemerintahan.",
           "evidence": [
             {
               "source_id": "uu-17-2007"
@@ -30133,6 +30175,8 @@
           "score": 0,
           "confidence": 0.85,
           "rationale_id": "Produk legislasi antikorupsi (UU KY, Pengadilan Tipikor) positif, namun kredibilitas lembaga legislatif sendiri runtuh oleh korupsi anggota-anggotanya — DPR memproduksi hukum yang dilanggar sendiri oleh pembuatnya.",
+          "antithesis_id": "Komisi Yudisial dan Pengadilan Tipikor didirikan lewat undang-undang dewan ini, dan kerangka pemberantasan korupsi diperkuat justru ketika lembaga itu akan menjerat anggotanya sendiri.",
+          "synthesis_id": "Skor Netral (0) karena produk legislasi antikorupsi yang kuat dinetralkan oleh runtuhnya integritas pembuatnya sendiri - dewan memproduksi hukum yang kemudian dilanggar oleh puluhan anggotanya.",
           "evidence": [
             {
               "source_id": "uu-27-2004"
@@ -30172,6 +30216,8 @@
           "score": -1,
           "confidence": 0.85,
           "rationale_id": "Skandal cek pelawat pemilihan Gubernur BI Miranda Goeltom menjerat 40+ anggota DPR. Korupsi massal internal menghancurkan fungsi pengawasan. Pansus Century bersifat politis, bukan substantif.",
+          "antithesis_id": "Dewan mengesahkan UU Keterbukaan Informasi Publik yang memberi warga hak menuntut informasi dari badan publik, instrumen pengawasan dari luar parlemen yang berlaku permanen.",
+          "synthesis_id": "Skor Buruk (-1) karena skandal suap cek pelawat yang menjerat puluhan anggota melumpuhkan otoritas moral dewan untuk mengawasi, dan hak angket yang digunakan berhenti sebagai manuver politik.",
           "evidence": [
             {
               "source_id": "laporan-bpk-century"
@@ -30202,6 +30248,8 @@
           "score": 1,
           "confidence": 0.5,
           "rationale_id": "Pemilu 2004 multipartai tertib memperkuat legitimasi representasi.",
+          "antithesis_id": "Legitimasi elektoral yang kuat tidak diterjemahkan menjadi keterbukaan proses legislasi: pembahasan undang-undang penting berlangsung di panitia kerja yang tertutup, dan naskah akademik kerap tidak dapat diakses publik.",
+          "synthesis_id": "Skor Baik (+1) karena Pemilu 2004 menghasilkan dewan multipartai yang tertib dan pilkada langsung mulai diberlakukan, memperluas hak pilih rakyat hingga tingkat daerah.",
           "evidence": [
             {
               "source_id": "uu-22-2007"
@@ -30271,6 +30319,8 @@
           "score": 0,
           "confidence": 0.7,
           "rationale_id": "DPR pasif dalam merespons kekerasan berbasis agama terhadap minoritas Syiah dan Ahmadiyah.",
+          "antithesis_id": "Dewan mengesahkan UU BPJS dan UU Pangan yang menjangkau seluruh warga tanpa membedakan keyakinan, menunjukkan legislasi yang inklusif masih dihasilkan pada periode yang sama.",
+          "synthesis_id": "Skor Netral (0) karena tiadanya legislasi yang memperburuk kebebasan beragama diimbangi oleh kepasifan total dewan terhadap kekerasan berulang atas komunitas Syiah dan Ahmadiyah.",
           "evidence": [
             {
               "source_id": "putusan-pn-sampang-syiah-2012"
@@ -30292,6 +30342,8 @@
           "score": 1,
           "confidence": 0.8,
           "rationale_id": "Pengesahan UU BPJS 24/2011 mewujudkan jaminan hak konstitusional atas kesehatan dan kesejahteraan.",
+          "antithesis_id": "UU BPJS menjamin hak atas kesehatan tetapi menetapkan sistem iuran wajib yang membebani pekerja informal, dan dewan tidak menyertakan mekanisme perlindungan bagi kelompok yang tidak mampu membayar di luar skema penerima bantuan iuran.",
+          "synthesis_id": "Skor Baik (+1) karena hak konstitusional atas jaminan kesehatan dan sosial diwujudkan menjadi kelembagaan yang menjangkau seluruh penduduk, capaian kemanusiaan terbesar periode ini.",
           "evidence": [
             {
               "source_id": "uu-24-2011"
@@ -30313,6 +30365,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Pengesahan UU Desa No. 6/2014 mengakui rekognisi dan subsidiaritas desa di seluruh nusantara.",
+          "antithesis_id": "UU Desa mengakui otonomi desa dan mengalirkan dana langsung, tetapi tanpa penguatan pengawasan sepadan sehingga penyalahgunaan dana desa menjadi salah satu perkara korupsi terbanyak pada dekade sesudahnya.",
+          "synthesis_id": "Skor Baik (+1) karena desa diakui sebagai kesatuan masyarakat hukum yang berhak mengatur dirinya, memindahkan pusat pembangunan ke unit pemerintahan terdekat dengan warga.",
           "evidence": [
             {
               "source_id": "uu-6-2014"
@@ -30346,6 +30400,8 @@
           "score": 0,
           "confidence": 0.5,
           "rationale_id": "Fungsi legislasi berjalan; MD3 di akhir periode mulai mengkonsolidasi elite.",
+          "antithesis_id": "UU MD3 2014 mengubah tata cara pemilihan pimpinan dewan menjelang pergantian periode untuk menguntungkan koalisi tertentu, memakai fungsi legislasi bagi kepentingan internal alih-alih bagi permusyawaratan rakyat.",
+          "synthesis_id": "Skor Netral (0) karena fungsi legislasi berjalan produktif sepanjang periode, tetapi ditutup oleh perubahan aturan main dewan yang dirancang untuk kepentingan elitenya sendiri.",
           "evidence": [
             {
               "source_id": "uu-17-2014"
@@ -30371,6 +30427,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "UU BPJS adalah capaian kesejahteraan sosial terbesar periode ini.",
+          "antithesis_id": "UU BPJS menetapkan jaminan sosial universal tetapi menunda operasionalisasinya hingga setelah periode dewan ini berakhir, sehingga pertanggungjawaban atas pelaksanaannya berpindah ke dewan berikutnya.",
+          "synthesis_id": "Skor Baik (+1) karena sistem jaminan sosial nasional yang menjangkau seluruh penduduk memperoleh badan penyelenggara dan dasar hukumnya, keputusan struktural terbesar bagi keadilan sosial pasca-reformasi.",
           "evidence": [
             {
               "source_id": "uu-24-2011"
@@ -30410,6 +30468,8 @@
           "score": 1,
           "confidence": 0.75,
           "rationale_id": "Pengesahan UU Penanganan Konflik Sosial No. 7/2012 mengatur resolusi konflik terpadu.",
+          "antithesis_id": "UU Penanganan Konflik Sosial memberi kerangka resolusi terpadu tetapi juga membuka kewenangan pengerahan kekuatan TNI atas permintaan kepala daerah, menghidupkan kembali peran militer dalam urusan keamanan dalam negeri.",
+          "synthesis_id": "Skor Baik (+1) karena penanganan konflik sosial memperoleh kerangka hukum yang mengatur pencegahan, penghentian, dan pemulihan pascakonflik secara terpadu.",
           "evidence": [
             {
               "source_id": "uu-7-2012"
@@ -30434,6 +30494,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Sistem jaminan sosial nasional disahkan dan disiapkan pelaksanaannya.",
+          "antithesis_id": "Sistem jaminan sosial dan Otoritas Jasa Keuangan dibentuk bersamaan, tetapi pemindahan pengawasan perbankan dari Bank Indonesia ke lembaga baru berlangsung tanpa masa transisi yang memadai dan menimbulkan celah pengawasan.",
+          "synthesis_id": "Skor Baik (+1) karena arsitektur kesejahteraan dan pengawasan sektor keuangan dilembagakan sekaligus, dua pilar yang menopang stabilitas ekonomi rumah tangga dan negara.",
           "evidence": [
             {
               "source_id": "uu-24-2011"
@@ -30467,6 +30529,8 @@
           "score": 1,
           "confidence": 0.8,
           "rationale_id": "Pengesahan UU Pendidikan Tinggi No. 12/2012 menjamin akses beasiswa bagi mahasiswa kurang mampu.",
+          "antithesis_id": "UU Pendidikan Tinggi mewajibkan perguruan tinggi menyediakan kuota bagi mahasiswa kurang mampu, tetapi juga membuka otonomi pengelolaan yang mendorong kenaikan biaya kuliah sehingga hambatan finansial bergeser alih-alih hilang.",
+          "synthesis_id": "Skor Baik (+1) karena kewajiban afirmasi bagi mahasiswa tidak mampu ditetapkan dalam undang-undang dan menjadi dasar hukum program beasiswa negara yang berjalan hingga kini.",
           "evidence": [
             {
               "source_id": "uu-12-2012"
@@ -30497,6 +30561,8 @@
           "score": 1,
           "confidence": 0.8,
           "rationale_id": "Ratifikasi Perjanjian ASEAN tentang Pencemaran Asap Lintas Batas (ASEAN Agreement on Transboundary Haze).",
+          "antithesis_id": "Ratifikasi perjanjian asap lintas batas ASEAN dilakukan setelah tertunda dua belas tahun, dan Indonesia menjadi negara terakhir yang meratifikasi padahal merupakan sumber utama asap yang diatur perjanjian itu.",
+          "synthesis_id": "Skor Baik (+1) karena Indonesia akhirnya mengikatkan diri pada kewajiban regional penanggulangan pencemaran asap lintas batas, menutup kesenjangan komitmen yang lama dipersoalkan negara tetangga.",
           "evidence": [
             {
               "source_id": "uu-1-2014"
@@ -30521,6 +30587,8 @@
           "score": 0,
           "confidence": 0.85,
           "rationale_id": "UU PP3 menstandarkan hierarki norma meski ada kritik substansi.",
+          "antithesis_id": "UU Pembentukan Peraturan Perundang-undangan menstandarkan hierarki norma dan mewajibkan naskah akademik, tetapi kewajiban partisipasi publik dirumuskan tanpa sanksi sehingga dapat dipenuhi secara formalitas.",
+          "synthesis_id": "Skor Netral (0) karena tertibnya hierarki dan prosedur pembentukan undang-undang diimbangi oleh kualitas partisipasi yang tetap seremonial dan tingginya undang-undang yang kemudian dibatalkan Mahkamah Konstitusi.",
           "evidence": [
             {
               "source_id": "uu-12-2011"
@@ -30554,6 +30622,8 @@
           "score": -1,
           "confidence": 0.85,
           "rationale_id": "UU MD3 memperkuat pimpinan dan meredupkan kontrol internal-parlemen.",
+          "antithesis_id": "Pansus Hak Angket Century memperlihatkan dewan masih berani menggunakan instrumen pengawasan tertinggi terhadap kebijakan eksekutif yang melibatkan pejabat tinggi negara.",
+          "synthesis_id": "Skor Buruk (-1) karena UU MD3 memusatkan kewenangan pada pimpinan dewan dan melemahkan kontrol internal, sementara hak angket yang digunakan berakhir tanpa konsekuensi hukum apa pun.",
           "evidence": [
             {
               "source_id": "uu-17-2014"
@@ -30590,6 +30660,8 @@
           "score": -1,
           "confidence": 0.85,
           "rationale_id": "Jarak representatif melebar dan kepercayaan publik kepada parlemen menurun.",
+          "antithesis_id": "Dewan mengesahkan UU Desa yang memindahkan kewenangan dan anggaran ke tingkat pemerintahan terdekat dengan warga, memperluas ruang partisipasi di luar siklus pemilu nasional.",
+          "synthesis_id": "Skor Buruk (-1) karena jarak antara wakil dan yang diwakili melebar seiring rangkaian perkara korupsi anggota dewan, dan kepercayaan publik kepada parlemen jatuh ke titik terendah pasca-reformasi.",
           "evidence": [
             {
               "source_id": "uu-17-2014"
@@ -30666,6 +30738,8 @@
           "score": 0,
           "confidence": 0.7,
           "rationale_id": "Persetujuan Perppu Ormas menjadi UU No. 16/2017 diwarnai pro-kontra kebebasan berkumpul.",
+          "antithesis_id": "Menerima Perppu Ormas menjadi undang-undang berarti dewan mengesahkan penghapusan proses peradilan sebagai syarat pembubaran organisasi, menyerahkan penilaian atas keyakinan berorganisasi kepada penilaian sepihak eksekutif.",
+          "synthesis_id": "Skor Netral (0) karena kewajiban negara menjaga dasar negara diakui, tetapi dewan gagal mempertahankan syarat putusan pengadilan yang selama ini melindungi kebebasan berserikat.",
           "evidence": [
             {
               "source_id": "perppu-2-2017"
@@ -30687,6 +30761,8 @@
           "score": -1,
           "confidence": 0.45,
           "rationale_id": "Kekerasan terhadap peserta aksi September 2019 tercatat Komnas HAM.",
+          "antithesis_id": "Dewan mengesahkan UU Penyandang Disabilitas yang mengangkat hak kelompok rentan dari belas kasih menjadi kewajiban hukum negara, kemajuan kemanusiaan yang nyata pada periode yang sama.",
+          "synthesis_id": "Skor Buruk (-1) karena dewan tidak menggunakan satu pun instrumen pengawasannya atas kekerasan aparat terhadap peserta aksi September 2019 yang dicatat Komnas HAM, padahal aksi itu ditujukan pada produk legislasinya sendiri.",
           "evidence": [
             {
               "source_id": "laporan-komnas-ham-aktivis-2019"
@@ -30714,6 +30790,8 @@
           "score": 0,
           "confidence": 0.45,
           "rationale_id": "UU Desa positif namun agenda keadilan wilayah tidak maju berarti.",
+          "antithesis_id": "Pelaksanaan UU Desa mengalirkan dana ke seluruh desa di Indonesia termasuk di wilayah terluar, memperkecil kesenjangan pembangunan antarwilayah lewat mekanisme yang berjalan otomatis.",
+          "synthesis_id": "Skor Netral (0) karena pemerataan fiskal ke desa berjalan sementara agenda keadilan wilayah yang lebih mendasar - status Papua dan sengketa agraria - tidak dibahas dewan sama sekali.",
           "evidence": [
             {
               "source_id": "uu-6-2014"
@@ -30741,6 +30819,8 @@
           "score": -2,
           "confidence": 0.55,
           "rationale_id": "Revisi UU KPK dipaksakan meskipun jutaan warga turun ke jalan menolak — pengkhianatan mandat rakyat paling telak sejak Reformasi. Ketua DPR Setya Novanto dipenjara dalam megakorupsi e-KTP Rp2,3 triliun.",
+          "antithesis_id": "UU Pemilu 7/2017 mengodifikasi seluruh aturan kepemiluan yang sebelumnya tersebar dan menyiapkan penyelenggaraan pemilu serentak, pekerjaan legislasi teknis berskala besar yang dituntaskan tepat waktu.",
+          "synthesis_id": "Skor Sangat Buruk (-2) karena revisi UU KPK diketok di tengah penolakan jutaan warga dan ketua dewannya sendiri dipidana dalam korupsi e-KTP - permusyawaratan digantikan kalkulasi elite yang berhadapan dengan rakyatnya.",
           "evidence": [
             {
               "source_id": "uu-19-2019"
@@ -30765,6 +30845,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "UU Desa mendanai ribuan desa secara langsung menuju pemerataan.",
+          "antithesis_id": "Dana desa mengalir dalam jumlah besar tanpa penguatan kapasitas pengawasan di tingkat desa, sehingga penyalahgunaannya menjadi salah satu jenis perkara korupsi terbanyak pada periode berikutnya.",
+          "synthesis_id": "Skor Baik (+1) karena pembiayaan langsung ke puluhan ribu desa dilanjutkan dan diperbesar, memindahkan sumber daya pembangunan ke unit pemerintahan terdekat dengan warga miskin.",
           "evidence": [
             {
               "source_id": "uu-6-2014"
@@ -30798,6 +30880,8 @@
           "score": 1,
           "confidence": 0.8,
           "rationale_id": "Pengesahan Revisi UU Pemberantasan Tindak Pidana Terorisme No. 5/2018 memperkuat pencegahan terorisme.",
+          "antithesis_id": "Revisi UU Terorisme memperluas masa penahanan tanpa dakwaan dan memasukkan peran TNI dalam penanggulangan terorisme, sehingga perlindungan dari teror diperoleh dengan mengurangi jaminan proses hukum yang adil.",
+          "synthesis_id": "Skor Baik (+1) karena pencegahan terorisme memperoleh dasar hukum yang mencakup deradikalisasi dan perlindungan korban, bukan lagi hanya penindakan setelah serangan terjadi.",
           "evidence": [
             {
               "source_id": "uu-5-2018"
@@ -30825,6 +30909,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Belanja rakyat melalui dana desa naik signifikan lewat legislasi.",
+          "antithesis_id": "Kenaikan belanja transfer ke desa berjalan bersamaan dengan pengesahan pengampunan pajak yang memutihkan harta tidak dilaporkan, sehingga penerimaan negara yang seharusnya membiayai belanja itu justru dikompromikan.",
+          "synthesis_id": "Skor Baik (+1) karena alokasi anggaran yang langsung dinikmati desa naik signifikan lewat undang-undang, memperluas jangkauan belanja negara ke tingkat paling bawah.",
           "evidence": [
             {
               "source_id": "uu-6-2014"
@@ -30861,6 +30947,8 @@
           "score": 1,
           "confidence": 0.4,
           "rationale_id": "Kodifikasi elektoral menyeluruh memperkuat tata kelola pendidikan politik.",
+          "antithesis_id": "Kodifikasi elektoral menyeluruh mengatur teknis penyelenggaraan tetapi tidak menyentuh pendidikan politik pemilih maupun transparansi dana kampanye, sehingga kualitas kontestasi tidak ikut terangkat.",
+          "synthesis_id": "Skor Baik (+1) karena seluruh aturan kepemiluan disatukan dalam satu undang-undang yang memberi kepastian bagi penyelenggara, peserta, dan pemilih.",
           "evidence": [
             {
               "source_id": "uu-7-2017"
@@ -30888,6 +30976,8 @@
           "score": 1,
           "confidence": 0.8,
           "rationale_id": "Pengesahan UU No. 16/2016 tentang Pengesahan Paris Agreement on Climate Change.",
+          "antithesis_id": "Ratifikasi Perjanjian Paris dilakukan cepat tetapi dewan tidak menindaklanjutinya dengan penyesuaian undang-undang sektoral kehutanan dan energi, sehingga komitmen internasional tidak diterjemahkan ke kewajiban domestik yang mengikat.",
+          "synthesis_id": "Skor Baik (+1) karena Indonesia mengikatkan diri pada rezim iklim global melalui undang-undang, menempatkan target penurunan emisi sebagai kewajiban negara.",
           "evidence": [
             {
               "source_id": "uu-16-2016"
@@ -30915,6 +31005,8 @@
           "score": -2,
           "confidence": 0.85,
           "rationale_id": "Pembongkaran sistematis infrastruktur antikorupsi melalui revisi UU KPK. Ketua DPR sendiri dipidana korupsi e-KTP Rp2,3 triliun. DPR periode ini secara aktif merusak supremasi hukum.",
+          "antithesis_id": "Dewan mengesahkan UU Pemilu dan UU Penyandang Disabilitas yang memperkuat kepastian hukum di bidangnya masing-masing, menunjukkan fungsi legislasi tidak sepenuhnya berhenti.",
+          "synthesis_id": "Skor Sangat Buruk (-2) karena revisi UU KPK membongkar independensi lembaga antikorupsi secara sistematis dan ketua dewannya sendiri dipidana dalam korupsi e-KTP - pembuat hukum menjadi perusak utamanya.",
           "evidence": [
             {
               "source_id": "uu-19-2019"
@@ -30949,6 +31041,8 @@
           "score": -1,
           "confidence": 0.5,
           "rationale_id": "Fungsi pengawasan tunduk pada kepentingan koalisi pendukung pemerintah.",
+          "antithesis_id": "Pansus Hak Angket terhadap KPK pada 2017 memperlihatkan dewan mampu menggunakan instrumen pengawasan tertinggi, meski kali ini diarahkan kepada lembaga pengawas alih-alih kepada eksekutif.",
+          "synthesis_id": "Skor Buruk (-1) karena fungsi pengawasan diarahkan melemahkan lembaga antikorupsi dan bukan mengontrol pemerintah, membalik arah checks and balances yang dimaksud konstitusi.",
           "evidence": [
             {
               "source_id": "uu-19-2019"
@@ -30973,6 +31067,8 @@
           "score": -1,
           "confidence": 0.5,
           "rationale_id": "Protes nasional menolak revisi KPK menunjukkan jurang antara dewan dan rakyat.",
+          "antithesis_id": "Dewan menuntaskan UU Pemilu yang menjadi dasar Pemilu 2019 dengan partisipasi pemilih tertinggi pasca-reformasi, memastikan hak pilih rakyat terselenggara tepat waktu.",
+          "synthesis_id": "Skor Buruk (-1) karena protes nasional menolak revisi UU KPK yang tetap diketok memperlihatkan dewan memilih bertindak melawan kehendak rakyat yang diwakilinya.",
           "evidence": [
             {
               "source_id": "laporan-komnas-ham-aktivis-2019"
@@ -31034,6 +31130,8 @@
           "score": -1,
           "confidence": 0.5,
           "rationale_id": "RKUHP memuat pasal yang membuka ruang kriminalisasi ekspresi keberagamaan minoritas.",
+          "antithesis_id": "KUHP Nasional menghapus pasal penghinaan presiden warisan kolonial dalam bentuk delik biasa dan mempersempit sebagian rumusan lama, menunjukkan tidak seluruh perubahan bergerak mundur.",
+          "synthesis_id": "Skor Buruk (-1) karena pasal penodaan agama dipertahankan dan diperluas rumusannya, membuka ruang kriminalisasi ekspresi keberagamaan minoritas yang selama ini sudah rentan.",
           "evidence": [
             {
               "source_id": "uu-1-2023"
@@ -31058,6 +31156,8 @@
           "score": -1,
           "confidence": 0.85,
           "rationale_id": "Beberapa pasal RKUHP dinilai mundur dari standar perlindungan HAM.",
+          "antithesis_id": "Dewan mengesahkan UU TPKS setelah tertunda enam tahun dan UU Pelindungan Data Pribadi, dua instrumen yang secara langsung memperkuat perlindungan martabat dan privasi warga.",
+          "synthesis_id": "Skor Buruk (-1) karena capaian itu berdampingan dengan KUHP yang mempertahankan pidana bagi ekspresi damai dan memperluas delik yang dapat menjerat pembela hak asasi.",
           "evidence": [
             {
               "source_id": "uu-1-2023"
@@ -31092,6 +31192,8 @@
           "score": 0,
           "confidence": 0.7,
           "rationale_id": "Pengesahan UU IKN Nusantara 3/2022 untuk pemerataan wilayah menuai kritik minimnya partisipasi masyarakat adat.",
+          "antithesis_id": "Pemindahan ibu kota dirancang sebagai koreksi atas pemusatan pembangunan di Jawa yang berlangsung sejak kemerdekaan, agenda pemerataan wilayah yang tidak pernah diambil pemerintahan sebelumnya.",
+          "synthesis_id": "Skor Netral (0) karena tujuan pemerataan antarwilayah sah, tetapi ditetapkan lewat pembahasan cepat tanpa persetujuan masyarakat adat pemilik wilayah yang menjadi lokasinya.",
           "evidence": [
             {
               "source_id": "uu-3-2022"
@@ -31119,6 +31221,8 @@
           "score": -2,
           "confidence": 0.6,
           "rationale_id": "Omnibus Cipta Kerja, RKUHP diketok tengah malam, revisi Pilkada kilat Baleg 21 Agustus 2024 — semuanya tanpa partisipasi publik bermakna. Legislasi kilat menjadi pola normatif yang menghancurkan musyawarah-mufakat.",
+          "antithesis_id": "Dewan menuntaskan KUHP Nasional yang menggantikan kodifikasi kolonial setelah diupayakan lebih dari setengah abad, pekerjaan legislasi yang gagal diselesaikan seluruh dewan sebelumnya.",
+          "synthesis_id": "Skor Sangat Buruk (-2) karena omnibus Cipta Kerja, KUHP, dan revisi Pilkada kilat yang menerobos Putusan MK 60/70/2024 menjadikan legislasi tanpa partisipasi bermakna sebagai pola normal, meniadakan musyawarah.",
           "evidence": [
             {
               "source_id": "putusan-mk-91-2021"
@@ -31143,6 +31247,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "UU Pelindungan Data Pribadi memperkuat hak digital warga negara.",
+          "antithesis_id": "UU Pelindungan Data Pribadi menempatkan otoritas pengawasnya di bawah presiden alih-alih sebagai lembaga independen, sehingga perlindungan warga bergantung pada kesediaan pemerintah mengawasi dirinya sendiri.",
+          "synthesis_id": "Skor Baik (+1) karena warga untuk pertama kali memiliki hak yang dapat dituntut atas data pribadinya beserta sanksi bagi pengendali data yang lalai.",
           "evidence": [
             {
               "source_id": "uu-27-2022"
@@ -31194,6 +31300,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Pengesahan UU Perlindungan Data Pribadi No. 27/2022 melindungi keamanan data warga negara di ruang digital.",
+          "antithesis_id": "Perlindungan data pribadi diberlakukan dengan masa transisi dua tahun tanpa kesiapan lembaga pengawas, sementara pada periode yang sama kebocoran data berskala nasional berulang tanpa pertanggungjawaban penyelenggara sistem elektronik.",
+          "synthesis_id": "Skor Baik (+1) karena keamanan data warga di ruang digital memperoleh dasar hukum dengan kewajiban dan sanksi yang mengikat pengendali data.",
           "evidence": [
             {
               "source_id": "uu-27-2022"
@@ -31224,6 +31332,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Omnibus kesehatan menargetkan perbaikan layanan meski prosesnya diperdebatkan.",
+          "antithesis_id": "Omnibus kesehatan mencabut belasan undang-undang sekaligus termasuk ketentuan alokasi anggaran kesehatan minimal, sehingga perbaikan tata kelola diperoleh dengan melepas jaminan pembiayaan yang sebelumnya mengikat.",
+          "synthesis_id": "Skor Baik (+1) karena hambatan regulasi pada pemenuhan tenaga kesehatan dan penyelenggaraan layanan disederhanakan lewat satu kerangka hukum terpadu.",
           "evidence": [
             {
               "source_id": "uu-17-2023"
@@ -31288,6 +31398,8 @@
           "score": 1,
           "confidence": 0.85,
           "rationale_id": "Pengesahan UU TPKS 12/2022 memperkuat pencegahan kekerasan dan rehabilitasi korban di lingkungan pendidikan.",
+          "antithesis_id": "UU TPKS mewajibkan satuan pendidikan menyediakan mekanisme pencegahan, tetapi dewan tidak menyertakan sanksi bagi institusi yang menutupi kasus sehingga penegakannya bergantung pada niat baik lembaga yang selama ini justru menutupi.",
+          "synthesis_id": "Skor Baik (+1) karena kekerasan seksual diatur sebagai tindak pidana tersendiri dengan hak korban atas pendampingan dan restitusi, membuat ruang belajar lebih aman.",
           "evidence": [
             {
               "source_id": "uu-12-2022"
@@ -31312,6 +31424,8 @@
           "score": 1,
           "confidence": 0.8,
           "rationale_id": "Pengesahan KUHP Nasional No. 1/2023 menggantikan kodifikasi hukum pidana kolonial Belanda WvS.",
+          "antithesis_id": "KUHP Nasional menutup ketergantungan pada teks kolonial tetapi memuat pasal yang dipersoalkan pelapor khusus PBB sebagai tidak sesuai standar hak asasi, sehingga kemandirian hukum diperoleh dengan biaya reputasi internasional.",
+          "synthesis_id": "Skor Baik (+1) karena Indonesia mengakhiri pemberlakuan hukum pidana warisan kolonial setelah 78 tahun merdeka, langkah dekolonisasi hukum yang berdampak lintas generasi.",
           "evidence": [
             {
               "source_id": "uu-1-2023"
@@ -31345,6 +31459,8 @@
           "score": -2,
           "confidence": 0.85,
           "rationale_id": "Pengesahan Perppu Cipta Kerja saat uji materi konstitusional masih berjalan di MK. Upaya revisi kilat UU Pilkada untuk mengakali putusan MK 60/70/2024. DPR secara sistematis membangkang putusan penjaga konstitusi.",
+          "antithesis_id": "Dewan mengesahkan UU Pelindungan Data Pribadi dan UU TPKS yang menambah perlindungan hukum bagi warga, membuktikan kapasitas legislasi yang menguatkan hak masih ada ketika kehendak politiknya cukup.",
+          "synthesis_id": "Skor Sangat Buruk (-2) karena Perppu Cipta Kerja disahkan saat uji materi masih berjalan dan revisi Pilkada kilat menerobos putusan MK - dewan membangkang penjaga konstitusi secara sistematis.",
           "evidence": [
             {
               "source_id": "uu-6-2023"
@@ -31430,6 +31546,8 @@
           "score": -1,
           "confidence": 0.85,
           "rationale_id": "Partisipasi publik diabaikan dalam paket regulasi besar seperti Cipta Kerja dan RKUHP.",
+          "antithesis_id": "Pansus Angket Haji 2024 membongkar pengalihan sepihak kuota haji tambahan, memperlihatkan dewan masih dapat memakai instrumen pengawasan untuk membela kepentingan warga.",
+          "synthesis_id": "Skor Buruk (-1) karena paket regulasi terbesar periode ini disusun tanpa partisipasi bermakna, sehingga kedaulatan rakyat berhenti pada pemberian mandat dan hilang pada pelaksanaannya.",
           "evidence": [
             {
               "source_id": "uu-11-2020"
@@ -31501,6 +31619,8 @@
           "score": 0,
           "confidence": 0.7,
           "rationale_id": "Komitmen awal menjaga toleransi beragama dan pencegahan polarisasi politik identitas.",
+          "antithesis_id": "Komitmen menjaga toleransi disampaikan sebagai pernyataan awal masa jabatan tanpa agenda legislasi yang menindaklanjutinya, dan pasal penodaan agama dalam KUHP Nasional yang akan berlaku tidak masuk daftar peninjauan.",
+          "synthesis_id": "Skor Netral (0) karena belum ada legislasi yang memperburuk maupun memperbaiki kebebasan beragama pada awal masa jabatan ini.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -31522,6 +31642,8 @@
           "score": -1,
           "confidence": 0.3,
           "rationale_id": "Konteks kekerasan pada aksi Agustus 2025 melibatkan dinamika parlemen.",
+          "antithesis_id": "Dewan memasukkan RUU Perampasan Aset ke Prolegnas Prioritas 2025, agenda yang berulang kali gagal masuk pada periode sebelumnya dan berdampak langsung pada pemulihan kerugian rakyat.",
+          "synthesis_id": "Skor Buruk (-1) karena kekerasan pada aksi Agustus 2025 dipicu oleh kebijakan tunjangan dewan sendiri, dan tidak ada instrumen pengawasan yang digunakan untuk mempertanggungjawabkan korbannya.",
           "evidence": [
             {
               "source_id": "komnas-ham-protes-agustus-2025"
@@ -31546,6 +31668,8 @@
           "score": 0,
           "confidence": 0.7,
           "rationale_id": "Pengawasan alokasi APBN untuk pembangunan infrastruktur daerah 3T (terdepan, terluar, tertinggal).",
+          "antithesis_id": "Pengawasan alokasi anggaran wilayah terdepan dan tertinggal berjalan sebagai fungsi budgeting rutin tanpa inisiatif legislasi yang mengoreksi formula ketimpangan antardaerah yang sudah lama dipersoalkan.",
+          "synthesis_id": "Skor Netral (0) karena fungsi anggaran untuk wilayah tertinggal dijalankan sebagaimana mestinya tanpa terobosan maupun kemunduran pada agenda keadilan antarwilayah.",
           "evidence": [
             {
               "source_id": "uu-3-2022"
@@ -31570,6 +31694,8 @@
           "score": -1,
           "confidence": 0.35,
           "rationale_id": "Revisi MD3 disahkan di tengah protes dan memperluas hak anggota.",
+          "antithesis_id": "Dewan merevisi UU Pemilu untuk mematuhi Putusan MK No. 60/PUU-XXII/2024, memulihkan ambang batas pencalonan kepala daerah sesuai perintah pengadilan setelah upaya menerobosnya pada periode sebelumnya gagal.",
+          "synthesis_id": "Skor Buruk (-1) karena revisi UU MD3 yang memperluas hak anggota diketok di tengah protes publik, mengulang pola menempatkan kepentingan internal dewan di atas permusyawaratan.",
           "evidence": [
             {
               "source_id": "revisi-md3-2025"
@@ -31594,6 +31720,8 @@
           "score": 0,
           "confidence": 0.85,
           "rationale_id": "Pengawasan keberlanjutan pembiayaan jaminan kesehatan nasional dan subsidi upah buruh.",
+          "antithesis_id": "Pengawasan keberlanjutan pembiayaan jaminan kesehatan dijalankan lewat pembahasan anggaran, tetapi belum ada inisiatif legislasi yang menjawab defisit struktural program maupun perlindungan upah pekerja informal.",
+          "synthesis_id": "Skor Netral (0) karena fungsi pengawasan atas program kesejahteraan berjalan rutin tanpa capaian maupun kemunduran yang menonjol pada awal masa jabatan ini.",
           "evidence": [
             {
               "source_id": "uu-24-2011"
@@ -31624,6 +31752,8 @@
           "score": 0,
           "confidence": 0.7,
           "rationale_id": "Pengawasan modernisasi alutsista dan ketahanan pangan nasional.",
+          "antithesis_id": "Masuknya RUU Perampasan Aset ke Prolegnas Prioritas belum diikuti pembahasan, dan pengawasan alutsista serta ketahanan pangan berjalan tanpa temuan yang ditindaklanjuti secara terbuka.",
+          "synthesis_id": "Skor Netral (0) karena fungsi pengawasan atas pertahanan dan ketahanan pangan dijalankan dalam batas rutin, belum menghasilkan koreksi kebijakan yang terukur.",
           "evidence": [
             {
               "source_id": "uu-3-2002"
@@ -31648,6 +31778,8 @@
           "score": 0,
           "confidence": 0.3,
           "rationale_id": "Revisi UU Pemilu pasca-putusan MK adalah kepatuhan paksa pada putusan konstitusional, bukan inisiatif proaktif DPR untuk memajukan kesejahteraan umum.",
+          "antithesis_id": "Kepatuhan pada putusan Mahkamah Konstitusi tetap merupakan pemulihan tertib konstitusional setelah periode sebelumnya berusaha menerobosnya, dan itu memiliki nilai tersendiri bagi kepastian hukum ekonomi.",
+          "synthesis_id": "Skor Netral (0) karena dewan menjalankan kewajiban mematuhi putusan pengadilan tanpa inisiatif sendiri yang memajukan kesejahteraan umum.",
           "evidence": [
             {
               "source_id": "putusan-mk-116-puu-xxi-2023"
@@ -31672,6 +31804,8 @@
           "score": 0,
           "confidence": 0.7,
           "rationale_id": "Pengawasan implementasi aturan turunan UU TPKS di perguruan tinggi dan pesantren.",
+          "antithesis_id": "Pengawasan atas aturan turunan UU TPKS di perguruan tinggi dan pesantren baru berjalan sebagai agenda komisi tanpa laporan hasil yang dipublikasikan, sehingga dampaknya belum dapat dinilai.",
+          "synthesis_id": "Skor Netral (0) karena fungsi pengawasan atas pelaksanaan perlindungan di lingkungan pendidikan dimulai tetapi belum menghasilkan temuan maupun koreksi.",
           "evidence": [
             {
               "source_id": "uu-12-2022"
@@ -31696,6 +31830,8 @@
           "score": 0,
           "confidence": 0.7,
           "rationale_id": "Dukungan parlemen terhadap diplomasi kemanusiaan di Palestina dan forum antarpemerintahan.",
+          "antithesis_id": "Dukungan parlemen pada diplomasi kemanusiaan Palestina bersifat pernyataan politik, sementara dewan tidak mempersoalkan keikutsertaan Indonesia dalam badan internasional yang keanggotaannya dipertanyakan banyak ahli.",
+          "synthesis_id": "Skor Netral (0) karena sikap parlemen mendukung penyelesaian damai disuarakan tanpa instrumen pengawasan yang menguji konsistensinya dengan politik bebas-aktif.",
           "evidence": [
             {
               "source_id": "uu-24-2000"
@@ -31720,6 +31856,8 @@
           "score": -1,
           "confidence": 0.3,
           "rationale_id": "Proses pencalonan hakim MK yang kilat merusak legitimasi seleksi yudikatif.",
+          "antithesis_id": "Dewan mematuhi Putusan MK No. 60/PUU-XXII/2024 dalam revisi UU Pemilu, memulihkan tertib konstitusional yang sempat hendak diterobos pada Agustus 2024.",
+          "synthesis_id": "Skor Buruk (-1) karena seleksi calon hakim konstitusi lewat proses kilat merusak legitimasi pengisian jabatan yudisial, menyentuh langsung independensi penjaga konstitusi.",
           "evidence": [
             {
               "source_id": "berita-adies-kadir-mk-2026"
@@ -31741,6 +31879,8 @@
           "score": -1,
           "confidence": 0.3,
           "rationale_id": "DPR menolak proses MKMK atas calon hakim usulannya; relasi antarlembaga memanas.",
+          "antithesis_id": "Ketegangan antara dewan dan Mahkamah Konstitusi setidaknya menunjukkan lembaga-lembaga itu tidak saling melebur; perbedaan sikap yang terbuka masih lebih baik daripada penyeragaman diam-diam.",
+          "synthesis_id": "Skor Buruk (-1) karena dewan menolak proses Majelis Kehormatan atas calon hakim usulannya sendiri, menempatkan diri di luar mekanisme akuntabilitas yang dibentuk konstitusi.",
           "evidence": [
             {
               "source_id": "berita-adies-kadir-mk-2026"
@@ -31765,6 +31905,8 @@
           "score": -1,
           "confidence": 0.35,
           "rationale_id": "Gelombang protes soal tunjangan menunjukkan jurang representasi dengan rakyat.",
+          "antithesis_id": "Dewan hasil Pemilu 2024 memperoleh mandat elektoral yang sah dengan partisipasi tinggi, dan menjalankan revisi UU Pemilu sesuai perintah pengadilan konstitusi.",
+          "synthesis_id": "Skor Buruk (-1) karena gelombang protes nasional atas tunjangan anggota memperlihatkan jarak antara dewan dan rakyat yang diwakilinya melebar sejak awal masa jabatan.",
           "evidence": [
             {
               "source_id": "revisi-md3-2025"
@@ -44837,225 +44979,6 @@
           ],
           "event_ids": [
             "ev-dpd-posisi-ruu-masyarakat-adat-2025"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "sila-1",
-          "score": 1,
-          "confidence": 0.7,
-          "rationale_id": "Memperjuangkan kerukunan umat beragama di daerah dan mengadvokasi perlindungan hak-hak masyarakat adat lokal dalam perda keagamaan.",
-          "evidence": [
-            {
-              "source_id": "laporan-pilkada-kpu-2024"
-            },
-            {
-              "source_id": "risalah-paripurna-dpd-oktober-2024"
-            },
-            {
-              "source_id": "laporan-dpd-pengawasan-ikn-2024"
-            }
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "sila-2",
-          "score": 1,
-          "confidence": 0.7,
-          "rationale_id": "Mengawasi pemenuhan hak-hak dasar warga negara di wilayah tertinggal, terdepan, dan terluar (3T) dari diskriminasi kebijakan pembangunan.",
-          "evidence": [
-            {
-              "source_id": "laporan-dpd-pengawasan-ikn-2024"
-            }
-          ],
-          "event_ids": [
-            "ev-dpd-posisi-ruu-masyarakat-adat-2025"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "sila-3",
-          "score": 1,
-          "confidence": 0.8,
-          "rationale_id": "Menjaga integrasi persatuan bangsa dengan memperjuangkan otonomi daerah yang adil dan menyelesaikan ketimpangan fiskal antardaerah.",
-          "evidence": [
-            {
-              "source_id": "laporan-dpd-pengawasan-ikn-2024"
-            },
-            {
-              "source_id": "laporan-dpd-dbh-2018"
-            },
-            {
-              "source_id": "laporan-dpd-guru-honorer-2022"
-            }
-          ],
-          "event_ids": [
-            "ev-dpd-advokasi-fiskal-daerah-2025"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "sila-4",
-          "score": 1,
-          "confidence": 0.8,
-          "rationale_id": "Menyalurkan aspirasi rakyat daerah secara langsung berbasis mandat perseorangan non-partisan tanpa sekat kepartaian politik.",
-          "evidence": [
-            {
-              "source_id": "laporan-pilkada-kpu-2024"
-            },
-            {
-              "source_id": "risalah-paripurna-dpd-oktober-2024"
-            },
-            {
-              "source_id": "laporan-dpd-pengawasan-ikn-2024"
-            }
-          ],
-          "event_ids": [
-            "ev-dpd-pengawasan-adat-ikn-2024"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "tujuan-1",
-          "score": 1,
-          "confidence": 0.75,
-          "rationale_id": "Mengadvokasi ketahanan wilayah perbatasan dan percepatan pembangunan pulau-pulau kecil terluar untuk menjaga kedaulatan NKRI.",
-          "evidence": [
-            {
-              "source_id": "laporan-pilkada-kpu-2024"
-            },
-            {
-              "source_id": "risalah-paripurna-dpd-oktober-2024"
-            },
-            {
-              "source_id": "laporan-dpd-pengawasan-ikn-2024"
-            },
-            {
-              "source_id": "laporan-dpd-guru-honorer-2022"
-            }
-          ],
-          "event_ids": [
-            "ev-dpd-evaluasi-anggaran-pendidikan-2025"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "tujuan-2",
-          "score": 1,
-          "confidence": 0.75,
-          "rationale_id": "Mendorong penguatan BUMD, pemberdayaan ekonomi maritim daerah, dan perlindungan komoditas unggulan petani/nelayan lokal.",
-          "evidence": [
-            {
-              "source_id": "laporan-pilkada-kpu-2024"
-            },
-            {
-              "source_id": "risalah-paripurna-dpd-oktober-2024"
-            },
-            {
-              "source_id": "laporan-dpd-pengawasan-ikn-2024"
-            }
-          ],
-          "event_ids": [
-            "ev-dpd-pengawasan-pilkada-2024"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "tujuan-3",
-          "score": 1,
-          "confidence": 0.75,
-          "rationale_id": "Mengawasi distribusi anggaran fungsi pendidikan 20% agar menyentuh sekolah-sekolah di wilayah pedalaman dan kepulauan terpencil.",
-          "evidence": [
-            {
-              "source_id": "laporan-dpd-guru-honorer-2022"
-            },
-            {
-              "source_id": "risalah-paripurna-dpd-oktober-2024"
-            }
-          ],
-          "event_ids": [
-            "ev-dpd-pemilihan-sultan-2024"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "tujuan-4",
-          "score": 1,
-          "confidence": 0.7,
-          "rationale_id": "Mendorong kerja sama ekonomi subnasional perbatasan antarnegara (BIMP-EAGA, IMT-GT) untuk perdamaian dan kemakmuran kawasan.",
-          "evidence": [
-            {
-              "source_id": "laporan-pilkada-kpu-2024"
-            },
-            {
-              "source_id": "risalah-paripurna-dpd-oktober-2024"
-            },
-            {
-              "source_id": "laporan-dpd-pengawasan-ikn-2024"
-            }
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "negara-hukum",
-          "score": 1,
-          "confidence": 0.75,
-          "rationale_id": "Menempuh jalur uji konstitusionalitas ke Mahkamah Konstitusi (Putusan 79/PUU-XII/2014) untuk menegakkan wewenang legislasi daerah.",
-          "evidence": [
-            {
-              "source_id": "laporan-pilkada-kpu-2024"
-            },
-            {
-              "source_id": "risalah-paripurna-dpd-oktober-2024"
-            },
-            {
-              "source_id": "laporan-dpd-pengawasan-ikn-2024"
-            },
-            {
-              "source_id": "tap-mpr-xi-1998"
-            },
-            {
-              "source_id": "tap-mpr-xvii-1998"
-            }
-          ],
-          "event_ids": [
-            "ev-mpr-tap-xi-1998",
-            "ev-mpr-tap-xvii-1998"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
-          "confidence": 0.8,
-          "rationale_id": "Memastikan kedaulatan rakyat daerah terwakili di tingkat nasional secara setara antarsemua provinsi di Indonesia.",
-          "evidence": [
-            {
-              "source_id": "laporan-pilkada-kpu-2024"
-            },
-            {
-              "source_id": "risalah-paripurna-dpd-oktober-2024"
-            }
           ],
           "normative_anchors": [
             "uud-nri-1945"
