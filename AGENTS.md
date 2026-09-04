@@ -127,6 +127,18 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
       `scripts/build.mts` + uji regresi
       `packages/data/test/integritas-anti-halusinasi.test.ts` mencegah
       pengulangan. Laporan: `docs/remediasi-audit-2026-09.md`.
+- [x] **Fase 16: Pengisian ulang dialektika 8 organ & pembersihan rasional kembar** ✅
+      Ditemukan lapisan kesalahan yang lebih dalam dari audit: 248 skor memakai
+      `rationale_id` kembar — uraian tugas lembaga disalin ke setiap masa jabatan
+      organ yang sama, memaksa anakronisme (MK 2003-2008 "menghasilkan" Putusan
+      85/PUU-XI/2013; BPK 1947-1998 "menyerahkan IHPS kepada DPD"). 239 rasional
+      ditulis ulang per periode dan 546 antitesis-sintesis ditulis per dimensi:
+      **569/569 skor berdialektika, nol rasional kembar**. Pagar rationale_id
+      kembar dinaikkan menjadi error. Analisis & skor disusun AI dan bertanda AI
+      di UI (lencana penilaian + penanda pada tiap blok analisis dimensi);
+      `expert_quotes` tetap tidak boleh dibangkitkan — 21 kutipan bersitasi
+      terbitan nyata. Perkakas: `scripts/dialektika-dump.mts` &
+      `scripts/dialektika-apply.mts`.
 
 ## Definisi Selesai v1.0 (TERCAPAI PENUH ✅)
 
