@@ -116,6 +116,18 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
   - [x] Kepatuhan penuh EU AI Act (Regulation (EU) 2024/1689 Pasal 50 & 14): Metadata `ai_disclosure` baku dengan model `Gemini 3.8 Flash High` (Google DeepMind), pengawasan manusia Kuorum 2 Reviewer, serta komponen `AiTransparencyBadge` & dialog hak koreksi.
   - [x] Uji otomatis `apps/web/test/dimension-milestones-ai-act.test.ts` memvalidasi skema EU AI Act dan integritas 50 asesmen.
 
+- [x] **Fase 15: Remediasi audit integritas data (Claude Opus 5)** ✅
+      Audit 4 Sep 2026 menemukan 554/579 skor dimensi berisi dialektika,
+      kutipan pakar, dan sitasi hasil halusinasi model — termasuk tokoh yang
+      telah wafat "mengomentari" peristiwa setelah kematiannya, 10 sumber
+      akademik fiktif, 359 peristiwa sintetis, dan klaim pengawasan manusia
+      EU AI Act dengan penelaah dummy. Seluruhnya **dicabut, bukan ditulis
+      ulang**: tersisa 25 dialektika substantif, 21 kutipan bersitasi nyata,
+      718 peristiwa, dan 673 sumber. 10 pagar anti-halusinasi di
+      `scripts/build.mts` + uji regresi
+      `packages/data/test/integritas-anti-halusinasi.test.ts` mencegah
+      pengulangan. Laporan: `docs/remediasi-audit-2026-09.md`.
+
 ## Definisi Selesai v1.0 (TERCAPAI PENUH ✅)
 
 - [x] 8 organ UUD masing-masing punya assessment (cakupan substantif lengkap/parsial jujur, 0 evidence gap)
