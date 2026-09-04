@@ -36107,11 +36107,11 @@
         },
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Melindungi status hukum penduduk dari berbagai golongan lewat Putusan MA No. 12 K/Sip/1954 pada masa peralihan dari tatanan federal ke negara kesatuan, menjaga kesatuan tertib hukum di seluruh wilayah republik.",
           "antithesis_id": "Kesatuan tertib hukum ditegakkan di tingkat kasasi sementara di lapangan pengadilan swapraja dan peradilan adat masih berjalan di banyak daerah, sehingga penyatuan itu belum menjangkau tempat kebanyakan warga mencari keadilan.",
-          "synthesis_id": "Skor Baik (+1) karena pengadilan tertinggi menjaga satu tertib hukum bagi seluruh wilayah pada masa peralihan dari federasi ke negara kesatuan.",
+          "synthesis_id": "Skor Netral (0) karena kesatuan tertib hukum ditegakkan di tingkat kasasi sementara pengadilan swapraja dan peradilan adat masih berjalan di tempat kebanyakan warga mencari keadilan.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36163,11 +36163,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Mengakui hak keperdataan pihak yang lemah kedudukannya dalam sengketa perdata lewat Putusan MA No. 100 K/Sip/1958, menempatkan keadilan substantif di atas formalitas kontrak.",
           "antithesis_id": "Perlindungan pihak lemah ditegakkan dalam sengketa keperdataan individual, tetapi ketimpangan struktural penguasaan tanah dan modal pada masa itu berada di luar jangkauan kewenangan pengadilan.",
-          "synthesis_id": "Skor Baik (+1) karena keadilan substantif diletakkan di atas formalitas perjanjian, memberi perlindungan bagi pihak yang tidak setara kedudukannya.",
+          "synthesis_id": "Skor Netral (0) karena keadilan substantif ditegakkan dalam sengketa individual sementara ketimpangan struktural penguasaan tanah dan modal berada di luar jangkauan pengadilan.",
           "evidence": [
             {
               "source_id": "putusan-ma-adopsi-1958"
@@ -36188,11 +36188,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Menjalankan fungsi peradilan pidana tertinggi di tengah revolusi fisik dan pemberontakan daerah, menjaga penyelesaian perkara tetap melalui pengadilan ketika penyelesaian bersenjata menjadi kelaziman.",
           "antithesis_id": "Fungsi peradilan pidana berjalan di wilayah yang dikuasai republik, sementara perkara di daerah pemberontakan diselesaikan lewat pengadilan darurat perang di luar sistem MA sehingga perlindungan warga tidak merata.",
-          "synthesis_id": "Skor Baik (+1) karena penyelesaian perkara pidana tetap dijaga melalui jalur pengadilan pada masa ketika kekerasan bersenjata menjadi cara penyelesaian yang lazim.",
+          "synthesis_id": "Skor Netral (0) karena fungsi peradilan pidana berjalan di wilayah yang dikuasai republik sementara perkara di daerah pemberontakan diselesaikan pengadilan darurat perang di luar sistem MA.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36213,11 +36213,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menyediakan kepastian hukum bagi kegiatan ekonomi masa awal kemerdekaan lewat yurisprudensi perdata dan perniagaan, prasyarat pemulihan perekonomian yang hancur akibat pendudukan dan perang.",
           "antithesis_id": "Kepastian hukum yang dibangun terutama melayani sengketa perniagaan pihak yang berperkara di kota, sementara perekonomian rakyat di pedesaan bergerak di luar jangkauan sistem peradilan formal.",
-          "synthesis_id": "Skor Baik (+1) karena yurisprudensi perdata dan perniagaan memberi kepastian bagi kegiatan ekonomi pada masa pemulihan setelah perang.",
+          "synthesis_id": "Skor Netral (0) karena kepastian hukum yang dibangun terutama melayani sengketa perniagaan di kota sementara perekonomian rakyat di pedesaan berada di luar jangkauan peradilan formal.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36238,11 +36238,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Membangun tradisi yurisprudensi Indonesia yang terdokumentasi sejak putusan-putusan awal 1952-1958, menjadikan putusan kasasi rujukan pendidikan hukum nasional yang menggantikan doktrin kolonial.",
           "antithesis_id": "Dokumentasi yurisprudensi berjalan terbatas dan tidak tersebar luas, sehingga pengaruhnya pada pendidikan hukum bergantung pada segelintir fakultas hukum yang ada pada masa itu.",
-          "synthesis_id": "Skor Baik (+1) karena putusan-putusan kasasi awal republik menjadi bahan ajar hukum nasional yang menggantikan rujukan kolonial.",
+          "synthesis_id": "Skor Netral (0) karena dokumentasi yurisprudensi berjalan terbatas dan tidak tersebar luas, sehingga pengaruhnya bergantung pada segelintir fakultas hukum yang ada.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36263,11 +36263,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Menegakkan kedudukan hukum republik dalam perkara yang menyangkut kepentingan asing pada masa peralihan kedaulatan, menjaga kemandirian yurisdiksi Indonesia terhadap tatanan hukum kolonial.",
           "antithesis_id": "Kemandirian yurisdiksi ditegakkan sementara Indonesia masih terikat perjanjian Konferensi Meja Bundar yang membatasi ruang gerak terhadap kepentingan hukum Belanda, sehingga penegakannya berbenturan dengan komitmen internasional.",
-          "synthesis_id": "Skor Baik (+1) karena pengadilan tertinggi menegaskan yurisdiksi republik atas perkara di wilayahnya sendiri pada masa peralihan kedaulatan.",
+          "synthesis_id": "Skor Netral (0) karena kemandirian yurisdiksi ditegakkan sementara Indonesia masih terikat perjanjian Konferensi Meja Bundar yang membatasi ruang geraknya.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36288,11 +36288,11 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menjaga peradilan tetap berjalan sebagai lembaga yang tidak tunduk pada kabinet yang berganti-ganti pada masa demokrasi parlementer, sehingga hak warga tidak berubah mengikuti pergeseran koalisi politik.",
           "antithesis_id": "Kemandirian dari kabinet terjaga, tetapi MA belum memiliki kewenangan menguji peraturan sehingga tidak dapat mengoreksi tindakan pemerintah yang merugikan warga secara langsung.",
-          "synthesis_id": "Skor Baik (+1) karena hak warga di hadapan pengadilan tidak berubah mengikuti tujuh kali pergantian kabinet, menjaga kepastian di tengah ketidakstabilan politik.",
+          "synthesis_id": "Skor Netral (0) karena kemandirian dari kabinet terjaga, tetapi MA belum memiliki kewenangan menguji peraturan sehingga tidak dapat mengoreksi tindakan pemerintah yang merugikan warga.",
           "evidence": [
             {
               "source_id": "uu-1-1946"
@@ -36482,11 +36482,11 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Membatasi klausula eksonerasi yang membebaskan pelaku usaha dari tanggung jawab lewat yurisprudensi 1976, melindungi pihak yang lemah kedudukannya dari perjanjian sepihak yang merugikan.",
           "antithesis_id": "Perlindungan terhadap pihak lemah ditegakkan dalam sengketa keperdataan, sementara pada dimensi kemanusiaan yang lebih mendasar MA tidak pernah mengoreksi satu pun perkara Petrus, Tanjung Priok, atau Talangsari yang terjadi pada periode yang sama.",
-          "synthesis_id": "Skor Baik (+1) karena perjanjian sepihak yang membebaskan pelaku usaha dari tanggung jawab dinyatakan tidak mengikat, memberi perlindungan hukum bagi konsumen.",
+          "synthesis_id": "Skor Netral (0) karena perlindungan konsumen ditegakkan dalam sengketa keperdataan sementara tidak satu pun perkara Petrus, Tanjung Priok, atau Talangsari dikoreksi peradilan.",
           "evidence": [
             {
               "source_id": "putusan-ma-1952-onrechtmatig"
@@ -36546,11 +36546,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Memberi dasar organisasi mandiri bagi Mahkamah Agung lewat UU No. 14 Tahun 1985 setelah empat dasawarsa berada dalam bayang-bayang kekuasaan eksekutif, membuka jalan penataan peradilan yang lebih tertib.",
           "antithesis_id": "Undang-undang itu memberi dasar organisasi tetapi tidak memindahkan pembinaan karier hakim dari Departemen Kehakiman, sehingga kemandirian yang diperoleh bersifat administratif dan tidak menyentuh sumber ketergantungannya.",
-          "synthesis_id": "Skor Baik (+1) karena Mahkamah Agung memperoleh undang-undangnya sendiri, langkah kelembagaan pertama menuju pemisahan peradilan dari eksekutif.",
+          "synthesis_id": "Skor Netral (0) karena UU No. 14 Tahun 1985 memberi dasar organisasi mandiri tanpa memindahkan pembinaan karier hakim dari Departemen Kehakiman, sumber ketergantungan yang sesungguhnya.",
           "evidence": [
             {
               "source_id": "putusan-ma-kedung-ombo-1993"
@@ -36575,11 +36575,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Menjalankan fungsi kasasi atas perkara pidana sepanjang Orde Baru di bawah kerangka UU No. 14 Tahun 1970 yang secara normatif menjamin kekuasaan kehakiman yang merdeka.",
           "antithesis_id": "Jaminan normatif kemerdekaan kekuasaan kehakiman berjalan bersamaan dengan eksekusi Petrus di luar pengadilan dan operasi militer di daerah, wilayah tempat pengadilan sama sekali tidak hadir melindungi warga.",
-          "synthesis_id": "Skor Baik (+1) karena kerangka hukum yang menjamin kekuasaan kehakiman merdeka ditetapkan dan menjadi dasar pemulihan peradilan pada masa reformasi.",
+          "synthesis_id": "Skor Netral (0) karena jaminan normatif kemerdekaan kekuasaan kehakiman ditetapkan sementara eksekusi Petrus dan operasi militer berlangsung di wilayah tempat pengadilan sama sekali tidak hadir.",
           "evidence": [
             {
               "source_id": "sejarah-ma-arsip"
@@ -36604,11 +36604,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menegakkan tanggung jawab pelaku usaha dan memenangkan ganti rugi bagi warga dalam sengketa perdata lewat putusan kasasi seperti No. 2263 K/Pdt/1991, memberi perlindungan ekonomi bagi pihak yang dirugikan pembangunan.",
           "antithesis_id": "Kemenangan warga terjadi pada perkara yang tidak bersinggungan dengan kepentingan kroni penguasa, sementara sengketa tanah untuk proyek besar hampir selalu berakhir dengan kekalahan pihak yang digusur.",
-          "synthesis_id": "Skor Baik (+1) karena warga yang dirugikan pelaku usaha memperoleh ganti rugi lewat putusan kasasi, membuktikan jalur perdata masih dapat ditempuh.",
+          "synthesis_id": "Skor Netral (0) karena warga memenangkan ganti rugi pada perkara yang tidak bersinggungan kepentingan kroni penguasa, sementara sengketa tanah proyek besar hampir selalu berakhir dengan kekalahan yang digusur.",
           "evidence": [
             {
               "source_id": "sejarah-ma-arsip"
@@ -36633,11 +36633,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Membangun himpunan yurisprudensi kasasi sepanjang Orde Baru yang menjadi bahan pendidikan hukum di fakultas-fakultas hukum yang tumbuh pesat pada periode yang sama.",
           "antithesis_id": "Himpunan yurisprudensi yang diajarkan menghindari wilayah hukum tata negara dan hak asasi yang bersinggungan dengan kekuasaan, sehingga pendidikan hukum yang dihasilkannya kuat di hukum perdata dan lemah di hukum konstitusi.",
-          "synthesis_id": "Skor Baik (+1) karena tradisi yurisprudensi terdokumentasi berlanjut dan menjadi bahan ajar bagi generasi ahli hukum yang kemudian memimpin reformasi peradilan.",
+          "synthesis_id": "Skor Netral (0) karena himpunan yurisprudensi yang diajarkan menghindari wilayah hukum tata negara dan hak asasi, menghasilkan pendidikan hukum yang timpang.",
           "evidence": [
             {
               "source_id": "sejarah-ma-arsip"
@@ -36662,11 +36662,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Menerapkan asas hukum perdata internasional dalam perkara yang menyangkut pihak asing seiring masuknya penanaman modal asing sejak UU No. 1 Tahun 1967, menjaga kepastian yurisdiksi Indonesia dalam sengketa lintas negara.",
           "antithesis_id": "Kepastian yurisdiksi yang dibangun terutama melayani kepentingan investasi, sementara Indonesia pada periode yang sama menolak mekanisme pertanggungjawaban internasional atas pendudukan Timor Timur.",
-          "synthesis_id": "Skor Baik (+1) karena kaidah hukum perdata internasional diterapkan secara tertib dalam sengketa lintas negara, memberi kepastian bagi hubungan hukum Indonesia dengan pihak asing.",
+          "synthesis_id": "Skor Netral (0) karena kaidah hukum perdata internasional diterapkan tertib untuk melayani investasi, sementara Indonesia menolak pertanggungjawaban internasional atas pendudukan Timor Timur.",
           "evidence": [
             {
               "source_id": "sejarah-ma-arsip"
@@ -36691,11 +36691,11 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Mempertahankan jalur kasasi bagi warga yang menggugat pejabat dan pelaku usaha besar, satu-satunya kanal formal yang tersisa untuk mempersoalkan tindakan penguasa ketika saluran politik ditutup.",
           "antithesis_id": "Kanal itu tersedia secara prosedural tetapi hampir tidak pernah berhasil pada perkara yang menyentuh kekuasaan, sehingga fungsinya lebih sebagai katup pengaman legitimasi daripada sarana kedaulatan rakyat yang efektif.",
-          "synthesis_id": "Skor Baik (+1) karena jalur hukum bagi warga menggugat pejabat tetap terbuka secara formal pada masa ketika saluran politik untuk itu ditutup sepenuhnya.",
+          "synthesis_id": "Skor Netral (0) karena jalur kasasi bagi warga menggugat pejabat tersedia secara prosedural tetapi hampir tidak pernah berhasil pada perkara yang menyentuh kekuasaan.",
           "evidence": [
             {
               "source_id": "putusan-ma-tempo-1995"
@@ -37936,7 +37936,7 @@
           "confidence": 0.85,
           "rationale_id": "Menjaga komitmen persatuan nasional dan integritas NKRI di tengah polarisasi politik elektoral pasca-reformasi.",
           "antithesis_id": "Sosialisasi Empat Pilar menyasar penguatan persatuan tetapi tidak menyentuh sumber ketegangan yang nyata pada periode ini, yaitu kekerasan terhadap minoritas keagamaan yang justru meningkat.",
-          "synthesis_id": "Skor Baik (+1) karena komitmen persatuan dan keutuhan negara disuarakan secara terlembaga lewat gerakan nasional yang menjangkau seluruh provinsi.",
+          "synthesis_id": "Skor Baik (+1) karena komitmen persatuan disuarakan lewat gerakan nasional yang benar-benar menjangkau seluruh provinsi, satu-satunya program MPR pasca-amandemen dengan jangkauan nyata.",
           "evidence": [
             {
               "source_id": "kep-mpr-4-pilar-2010"
@@ -37955,11 +37955,11 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": 2,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Menjaga Bab XA UUD 1945 dan TAP MPR No. XVII/MPR/1998 tetap berlaku sebagai rujukan hak asasi dalam sosialisasi Empat Pilar sejak 2010, menyebarluaskan pemahaman hak konstitusional kepada masyarakat luas.",
           "antithesis_id": "Penyebarluasan pemahaman hak asasi berjalan sementara MPR tidak bersuara atas pengusiran warga Syiah Sampang dan penyegelan rumah ibadah yang terjadi pada periode yang sama.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena katalog hak asasi dalam konstitusi dijaga utuh dan disebarluaskan sebagai pengetahuan publik lewat program berskala nasional.",
+          "synthesis_id": "Skor Netral (0) karena katalog hak asasi disebarluaskan sebagai pengetahuan publik, tetapi MPR tidak bersuara atas pengusiran warga Syiah Sampang dan penyegelan rumah ibadah pada periode yang sama.",
           "evidence": [
             {
               "source_id": "kep-mpr-4-pilar-2010"
@@ -37980,11 +37980,11 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": 2,
+          "score": 0,
           "confidence": 0.9,
           "rationale_id": "Menyelenggarakan Peringatan Hari Konstitusi setiap 18 Agustus sejak 2010 dan sidang pelantikan Presiden 2009, memelihara tradisi permusyawaratan kenegaraan sebagai forum yang mempertemukan seluruh lembaga negara.",
           "antithesis_id": "Peringatan Hari Konstitusi dan sidang pelantikan bersifat seremonial; MPR pada periode ini tidak memiliki forum permusyawaratan yang menghasilkan keputusan mengikat karena kewenangan itu dicabut amandemen.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena hasil amandemen yang memindahkan kedaulatan kepada rakyat dipelihara dan diperingati sebagai capaian yang tidak dipersoalkan kembali.",
+          "synthesis_id": "Skor Netral (0) karena Peringatan Hari Konstitusi dan sidang pelantikan bersifat seremonial tanpa forum permusyawaratan yang menghasilkan keputusan mengikat.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -38002,11 +38002,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Menyebarluaskan pemahaman Pasal 33 UUD 1945 dan mandat keadilan sosial lewat Gerakan Nasional Sosialisasi Empat Pilar sejak 2011, menjadikan asas keadilan sosial pengetahuan yang menjangkau masyarakat luas.",
           "antithesis_id": "Penyebarluasan asas keadilan sosial berjalan sebagai program penyuluhan tanpa menagih pelaksanaan TAP IX/MPR/2001 tentang pembaruan agraria yang mandek sejak ditetapkan satu dasawarsa sebelumnya.",
-          "synthesis_id": "Skor Baik (+1) karena asas keadilan sosial dalam konstitusi disebarluaskan sebagai pengetahuan publik lewat gerakan nasional yang menjangkau seluruh provinsi.",
+          "synthesis_id": "Skor Netral (0) karena asas keadilan sosial disebarluaskan sebagai materi penyuluhan tanpa menagih pelaksanaan mandat pembaruan agraria yang mandek satu dasawarsa.",
           "evidence": [
             {
               "source_id": "kep-mpr-4-pilar-2010"
@@ -38030,11 +38030,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Menyelenggarakan sidang pelantikan Presiden dan Wakil Presiden hasil Pemilu 2009 pada Oktober 2009, menjaga peralihan kekuasaan berlangsung tertib sesuai konstitusi sebagai syarat stabilitas dan keamanan negara.",
           "antithesis_id": "Peralihan kekuasaan berlangsung tertib, tetapi tugas itu bersifat administratif dan MPR tidak memiliki peran apa pun dalam kebijakan pertahanan maupun keamanan yang menjadi substansi dimensi ini.",
-          "synthesis_id": "Skor Baik (+1) karena peralihan dan pengukuhan kekuasaan eksekutif berlangsung tertib menurut konstitusi, menjaga kesinambungan negara tanpa gejolak.",
+          "synthesis_id": "Skor Netral (0) karena peralihan kekuasaan dikukuhkan secara tertib, tetapi tugas itu administratif dan MPR tidak berperan dalam kebijakan pertahanan maupun keamanan.",
           "evidence": [
             {
               "source_id": "kep-mpr-4-pilar-2010"
@@ -38058,11 +38058,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menyebarluaskan pemahaman asas perekonomian nasional berdasar demokrasi ekonomi dalam Pasal 33 UUD 1945 lewat sosialisasi Empat Pilar sejak 2010, menjadikan landasan ekonomi konstitusional pengetahuan publik.",
           "antithesis_id": "Sosialisasi menyebarkan pemahaman tanpa mekanisme menagih penerapannya, sehingga pada periode yang sama kebijakan ekonomi yang bertentangan dengan asas itu berjalan tanpa koreksi dari MPR.",
-          "synthesis_id": "Skor Baik (+1) karena asas demokrasi ekonomi dalam konstitusi disebarluaskan sebagai pengetahuan publik yang menjadi dasar warga menilai kebijakan ekonomi.",
+          "synthesis_id": "Skor Netral (0) karena asas demokrasi ekonomi disebarluaskan tanpa mekanisme menagih penerapannya pada kebijakan yang sedang berjalan.",
           "evidence": [
             {
               "source_id": "kep-mpr-4-pilar-2010"
@@ -38083,11 +38083,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 2,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Menyebarluaskan pemahaman kewajiban konstitusional alokasi 20 persen anggaran pendidikan lewat sosialisasi Empat Pilar sejak 2010, memperkuat pengetahuan publik atas hak konstitusional yang dapat ditagih dari negara.",
           "antithesis_id": "Pengetahuan publik atas mandat anggaran pendidikan diperkuat, tetapi MPR tidak memiliki kewenangan menagih pemenuhannya sehingga penegakannya tetap bergantung pada gugatan warga ke Mahkamah Konstitusi.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena kewajiban konstitusional anggaran pendidikan dijaga utuh dan disebarluaskan sebagai hak yang dapat ditagih warga dari negara.",
+          "synthesis_id": "Skor Netral (0) karena mandat anggaran pendidikan dijaga utuh dan disosialisasikan, sementara penegakannya tetap bergantung pada gugatan warga ke Mahkamah Konstitusi.",
           "evidence": [
             {
               "source_id": "buku-mpr-empat-pilar-2012"
@@ -38105,11 +38105,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menyebarluaskan prinsip politik luar negeri bebas aktif sebagai bagian sosialisasi Empat Pilar sejak 2010 dan menjalankan diplomasi parlementer, memperkenalkan pemahaman konstitusional Indonesia pada forum antarparlemen.",
           "antithesis_id": "Prinsip bebas aktif disebarluaskan sebagai materi penyuluhan tanpa evaluasi atas penerapannya, sehingga sosialisasi berjalan terlepas dari praktik kebijakan luar negeri yang sedang dijalankan pemerintah.",
-          "synthesis_id": "Skor Baik (+1) karena prinsip politik luar negeri bebas aktif dipelihara dan disebarluaskan sebagai bagian pemahaman kebangsaan warga.",
+          "synthesis_id": "Skor Netral (0) karena prinsip bebas aktif disebarluaskan sebagai materi penyuluhan, terlepas dari praktik kebijakan luar negeri yang sedang dijalankan pemerintah.",
           "evidence": [
             {
               "source_id": "kep-mpr-4-pilar-2010"
@@ -38130,11 +38130,11 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": 2,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Menyebarluaskan penegasan Pasal 1 ayat (3) bahwa Indonesia adalah negara hukum lewat sosialisasi Empat Pilar sejak 2010, menjadikan asas negara hukum pengetahuan yang menjangkau masyarakat luas.",
           "antithesis_id": "Asas negara hukum disebarluaskan sebagai materi penyuluhan, sementara MPR tidak bersuara atas konflik terbuka antarpenegak hukum dan impunitas perkara besar yang berlangsung pada periode yang sama.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena penegasan Indonesia sebagai negara hukum dijaga sebagai norma tertinggi dan disebarluaskan menjadi pengetahuan publik.",
+          "synthesis_id": "Skor Netral (0) karena asas negara hukum disosialisasikan sementara MPR tidak bersuara atas konflik antarpenegak hukum dan impunitas perkara besar pada periode yang sama.",
           "evidence": [
             {
               "source_id": "putusan-mk-34-puu-xi-2013"
@@ -38152,11 +38152,11 @@
         },
         {
           "dimension_id": "checks-balances",
-          "score": 2,
+          "score": 0,
           "confidence": 0.9,
           "rationale_id": "Menjaga berlakunya pembatasan masa jabatan presiden dua periode dan mekanisme pemakzulan berbasis putusan Mahkamah Konstitusi dalam UUD 1945, mempertahankan pilar pembatasan kekuasaan tanpa membuka wacana perubahannya.",
           "antithesis_id": "Pilar pembatasan kekuasaan dijaga secara pasif; MPR tidak menggunakan sidang tahunannya untuk mengevaluasi kinerja lembaga negara meski forum itu tersedia dan hanya menjadi ajang laporan sepihak.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena pembatasan masa jabatan presiden dan mekanisme pemakzulan berbasis putusan pengadilan dipertahankan utuh tanpa upaya pelonggaran.",
+          "synthesis_id": "Skor Netral (0) karena pilar pembatasan kekuasaan dijaga secara pasif dan sidang tahunan yang tersedia tidak dipakai mengevaluasi kinerja lembaga negara.",
           "evidence": [
             {
               "source_id": "kep-mpr-4-pilar-2010"
@@ -38177,11 +38177,11 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 2,
+          "score": 0,
           "confidence": 0.9,
           "rationale_id": "Menjaga Pasal 1 ayat (2) UUD 1945 tentang kedaulatan rakyat yang dilaksanakan menurut konstitusi tetap utuh dan menyelenggarakan pelantikan presiden hasil pemilihan langsung 2009 tanpa mempersoalkan mandat pemilih.",
           "antithesis_id": "Kedaulatan rakyat dijaga dalam rumusan konstitusi, tetapi MPR tidak membangun satu pun kanal partisipasi warga di antara dua pemilu meski memiliki forum tahunan yang dapat dipakai untuk itu.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena letak kedaulatan pada rakyat yang dilaksanakan menurut konstitusi dipertahankan utuh dan dijalankan lewat pelantikan presiden hasil pemilihan langsung.",
+          "synthesis_id": "Skor Netral (0) karena letak kedaulatan dipertahankan dalam rumusan konstitusi tanpa satu pun kanal partisipasi warga yang dibangun di antara dua pemilu.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -38243,7 +38243,7 @@
           "confidence": 0.85,
           "rationale_id": "Wacana amendemen kelima UUD 1945 dan penambahan pasal PPHN menimbulkan kekhawatiran kembalinya sentralisme kekuasaan MPR, namun dituntaskan melalui rekomendasi non-amendemen.",
           "antithesis_id": "Badan Pengkajian MPR menyusun naskah komprehensif secara terbuka dan hasilnya berhenti sebagai rekomendasi tanpa diajukan menjadi usul perubahan resmi, sehingga kekhawatiran itu tidak terwujud.",
-          "synthesis_id": "Skor Netral (0) karena kajian ketatanegaraan dijalankan secara terbuka dan tidak berlanjut menjadi usul perubahan, tepat sebanding dengan kekhawatiran yang ditimbulkannya atas pemulihan kedudukan MPR sebagai lembaga tertinggi.",
+          "synthesis_id": "Skor Netral (0) karena kajian ketatanegaraan dijalankan terbuka dan tidak berlanjut menjadi usul perubahan, tepat sebanding dengan kekhawatiran yang ditimbulkannya atas pemulihan kedudukan MPR sebagai lembaga tertinggi.",
           "evidence": [
             {
               "source_id": "laporan-mpr-pphn-2024"
@@ -38306,11 +38306,11 @@
         },
         {
           "dimension_id": "sila-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menjalankan kajian komprehensif Badan Pengkajian MPR pada 2022 atas evaluasi dua puluh tahun amandemen UUD 1945, memeriksa kembali kedudukan nilai ketuhanan dan dasar negara dalam konstitusi hasil perubahan.",
           "antithesis_id": "Kajian menghasilkan rekomendasi akademik tanpa tindak lanjut kelembagaan, dan tidak menyentuh persoalan nyata kebebasan beragama yang menurut catatan organisasi sipil justru memburuk pada periode yang sama.",
-          "synthesis_id": "Skor Baik (+1) karena kedudukan dasar negara dalam konstitusi hasil amandemen dievaluasi secara terbuka dan sistematis setelah dua dasawarsa berjalan.",
+          "synthesis_id": "Skor Netral (0) karena kajian evaluasi amandemen berhenti sebagai rekomendasi akademik tanpa menyentuh persoalan kebebasan beragama yang justru memburuk pada periode yang sama.",
           "evidence": [
             {
               "source_id": "laporan-mpr-pphn-2024"
@@ -38335,11 +38335,11 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": 2,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Menetapkan rekomendasi rancangan Pokok-Pokok Haluan Negara pada September 2024 dan menyusun naskah komprehensifnya sejak 2021, memuat penegasan kembali hak asasi sebagai bagian haluan pembangunan nasional.",
           "antithesis_id": "Penegasan hak asasi dalam rancangan haluan negara berhenti sebagai rekomendasi, sementara MPR tidak menggunakan forum tahunannya untuk mempersoalkan Kanjuruhan maupun kekerasan agraria yang terjadi pada periode yang sama.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena Bab XA UUD 1945 dipertahankan utuh dan hak asasi ditegaskan kembali sebagai bagian rancangan haluan pembangunan nasional.",
+          "synthesis_id": "Skor Netral (0) karena penegasan hak asasi dalam rancangan haluan negara berhenti sebagai rekomendasi, sementara MPR tidak mempersoalkan Kanjuruhan maupun kekerasan agraria yang terjadi pada masa jabatannya.",
           "evidence": [
             {
               "source_id": "surat-keputusan-mpr-rehabilitasi-tokoh-2024"
@@ -38364,11 +38364,11 @@
         },
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Merumuskan dokumen Pokok-Pokok Haluan Negara pada 2024 yang memuat arah pemerataan pembangunan antarwilayah, menempatkan keadilan antardaerah sebagai agenda ketatanegaraan jangka panjang.",
           "antithesis_id": "Rumusan haluan negara memuat arah pemerataan tetapi tidak memiliki kekuatan mengikat, dan MPR tidak bersuara atas pemekaran provinsi Papua yang berlangsung tanpa konsultasi sebagaimana disyaratkan undang-undang otonomi khusus.",
-          "synthesis_id": "Skor Baik (+1) karena pemerataan pembangunan antarwilayah dirumuskan sebagai arah ketatanegaraan jangka panjang lewat kajian kelembagaan yang sistematis.",
+          "synthesis_id": "Skor Netral (0) karena arah pemerataan dirumuskan dalam dokumen yang tidak mengikat, dan MPR tidak bersuara atas pemekaran provinsi Papua yang berlangsung tanpa konsultasi.",
           "evidence": [
             {
               "source_id": "surat-keputusan-mpr-rehabilitasi-tokoh-2024"
@@ -38390,11 +38390,11 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": 2,
+          "score": 1,
           "confidence": 0.9,
           "rationale_id": "Mencabut ketetapan MPRS yang memuat sanksi hukum terhadap Presiden Sukarno pada September 2024, memulihkan kedudukan hukum proklamator lewat mekanisme permusyawaratan lembaga yang dulu menjatuhkannya.",
           "antithesis_id": "Pemulihan kedudukan hukum dilakukan enam dasawarsa setelah ketetapan itu dijatuhkan dan puluhan tahun setelah tokohnya wafat, sehingga koreksi bersifat simbolik tanpa konsekuensi hukum bagi siapa pun.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena MPR mengoreksi ketetapannya sendiri yang menjatuhkan sanksi hukum tanpa proses peradilan, menegakkan prinsip bahwa lembaga permusyawaratan dapat memperbaiki kekeliruannya.",
+          "synthesis_id": "Skor Baik (+1) karena MPR mencabut ketetapannya sendiri yang menjatuhkan sanksi hukum kepada Presiden Sukarno tanpa proses peradilan, menegakkan prinsip bahwa lembaga permusyawaratan dapat memperbaiki kekeliruannya.",
           "evidence": [
             {
               "source_id": "dokumen-mpr-rekomendasi-pphn-2024"
@@ -38419,11 +38419,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Memuat arah keadilan sosial dan pengelolaan sumber daya alam dalam rancangan Pokok-Pokok Haluan Negara yang disusun sejak 2021 dan direkomendasikan pada 2024, menghidupkan kembali perencanaan pembangunan jangka panjang.",
           "antithesis_id": "Rancangan haluan negara memuat arah keadilan sosial tetapi menghidupkan model perencanaan terpusat yang dikritik banyak ahli berpotensi mengembalikan kedudukan MPR di atas lembaga lain.",
-          "synthesis_id": "Skor Baik (+1) karena arah keadilan sosial dan pengelolaan sumber daya alam dirumuskan kembali sebagai agenda jangka panjang setelah dua dasawarsa tanpa haluan negara.",
+          "synthesis_id": "Skor Netral (0) karena arah keadilan sosial dirumuskan kembali dalam rancangan haluan negara yang tidak pernah ditetapkan menjadi ketetapan mengikat.",
           "evidence": [
             {
               "source_id": "laporan-mpr-pphn-2024"
@@ -38451,11 +38451,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Memuat arah kebijakan pertahanan dan keamanan negara dalam rancangan Pokok-Pokok Haluan Negara yang disusun Badan Pengkajian sejak 2021, menempatkan perlindungan warga sebagai agenda ketatanegaraan jangka panjang.",
           "antithesis_id": "Arah pertahanan dirumuskan dalam rancangan yang tidak mengikat, sementara MPR tidak bersikap atas draf revisi UU TNI dan penempatan perwira aktif di jabatan sipil yang mulai dipersoalkan pada akhir periode.",
-          "synthesis_id": "Skor Baik (+1) karena arah kebijakan pertahanan dan perlindungan warga dirumuskan sebagai bagian haluan negara jangka panjang lewat kajian kelembagaan.",
+          "synthesis_id": "Skor Netral (0) karena arah pertahanan dirumuskan dalam rancangan tidak mengikat, dan MPR tidak bersikap atas draf revisi UU TNI serta penempatan perwira aktif di jabatan sipil.",
           "evidence": [
             {
               "source_id": "laporan-mpr-pphn-2024"
@@ -38483,11 +38483,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Memuat arah pembangunan ekonomi berdasar Pasal 33 UUD 1945 dalam rancangan Pokok-Pokok Haluan Negara 2021-2024, menghidupkan kembali kerangka perencanaan ekonomi jangka panjang yang hilang sejak GBHN dihapus.",
           "antithesis_id": "Kerangka perencanaan jangka panjang dirumuskan, tetapi rancangannya tidak pernah ditetapkan menjadi ketetapan yang mengikat sehingga tidak berpengaruh pada satu pun keputusan anggaran periode ini.",
-          "synthesis_id": "Skor Baik (+1) karena kerangka perencanaan ekonomi jangka panjang berdasar asas konstitusional dirumuskan kembali setelah dua dasawarsa absen.",
+          "synthesis_id": "Skor Netral (0) karena kerangka perencanaan ekonomi jangka panjang dirumuskan tetapi tidak pernah ditetapkan sehingga tidak berpengaruh pada satu pun keputusan anggaran.",
           "evidence": [
             {
               "source_id": "laporan-pphn-mpr-2024"
@@ -38512,11 +38512,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 2,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Menegaskan kembali kewajiban konstitusional alokasi 20 persen anggaran pendidikan dalam rancangan Pokok-Pokok Haluan Negara dan menjaga Pasal 31 ayat (4) UUD 1945 tetap utuh tanpa wacana pelunakan.",
           "antithesis_id": "Penegasan kembali dilakukan dalam dokumen yang tidak mengikat, sementara distorsi pemenuhan mandat 20 persen lewat pemasukan komponen di luar pendidikan berlangsung tanpa dipersoalkan MPR.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena kewajiban konstitusional anggaran pendidikan dipertahankan utuh dan ditegaskan kembali sebagai agenda haluan negara jangka panjang.",
+          "synthesis_id": "Skor Netral (0) karena mandat anggaran pendidikan dipertahankan utuh sementara distorsi pemenuhannya berlangsung tanpa dipersoalkan MPR.",
           "evidence": [
             {
               "source_id": "laporan-mpr-pphn-2024"
@@ -38544,11 +38544,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Memuat prinsip politik luar negeri bebas aktif dalam rancangan Pokok-Pokok Haluan Negara yang disusun sejak 2021, menegaskan kembali mandat Pembukaan UUD 1945 tentang ketertiban dunia sebagai arah jangka panjang.",
           "antithesis_id": "Prinsip bebas aktif ditegaskan dalam dokumen kajian tanpa kekuatan mengikat, dan MPR tidak memiliki kewenangan mengawasi pelaksanaannya sehingga penegasan itu terlepas dari praktik kebijakan luar negeri.",
-          "synthesis_id": "Skor Baik (+1) karena mandat Pembukaan tentang ketertiban dunia ditegaskan kembali sebagai arah ketatanegaraan jangka panjang lewat kajian kelembagaan.",
+          "synthesis_id": "Skor Netral (0) karena prinsip bebas aktif ditegaskan dalam dokumen kajian tanpa kekuatan mengikat dan tanpa kewenangan mengawasi pelaksanaannya.",
           "evidence": [
             {
               "source_id": "laporan-mpr-pphn-2024"
@@ -38576,11 +38576,11 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": 2,
+          "score": 1,
           "confidence": 0.85,
           "rationale_id": "Menjaga Pasal 1 ayat (3) UUD 1945 tetap utuh dalam seluruh kajian evaluasi amandemen 2022-2024 dan mencabut ketetapan MPRS yang menjatuhkan sanksi hukum tanpa peradilan pada 2024, menegakkan asas negara hukum ke dalam lembaganya sendiri.",
           "antithesis_id": "Asas negara hukum ditegakkan ke dalam lewat pencabutan ketetapan lama, tetapi MPR tidak bersuara atas pembangkangan DPR terhadap putusan Mahkamah Konstitusi pada Agustus 2024 yang terjadi di depan matanya.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena MPR mencabut ketetapannya sendiri yang menjatuhkan sanksi hukum tanpa proses peradilan, menerapkan asas negara hukum pada kekeliruan lembaganya sendiri.",
+          "synthesis_id": "Skor Baik (+1) karena MPR mencabut ketetapannya sendiri yang menjatuhkan sanksi hukum tanpa proses peradilan, menerapkan asas negara hukum pada kekeliruan lembaganya sendiri.",
           "evidence": [
             {
               "source_id": "surat-keputusan-mpr-rehabilitasi-tokoh-2024"
@@ -38698,11 +38698,11 @@
         },
         {
           "dimension_id": "sila-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Mengawasi akses perbankan bagi pelaku usaha daerah pada 2008 sebagai wujud keberpihakan pada kesejahteraan warga di wilayah yang jauh dari pusat, menjalankan amanah perwakilan daerah pada periode pertamanya.",
           "antithesis_id": "Pengawasan atas akses perbankan daerah menghasilkan rekomendasi tanpa daya ikat, sehingga hasilnya bergantung sepenuhnya pada kesediaan pemerintah dan otoritas perbankan menindaklanjutinya.",
-          "synthesis_id": "Skor Baik (+1) karena persoalan akses keuangan pelaku usaha daerah diangkat ke tingkat nasional oleh lembaga yang khusus mewakili daerah.",
+          "synthesis_id": "Skor Netral (0) karena pengawasan akses perbankan daerah menghasilkan rekomendasi tanpa daya ikat, sehingga keadaan yang diawasinya tidak berubah.",
           "evidence": [
             {
               "source_id": "uu-22-2003"
@@ -38776,11 +38776,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Mengajukan gugatan uji materiil ke Mahkamah Konstitusi pada 2006 untuk memperjuangkan kewenangan legislasi daerah, menempuh jalur konstitusional demi keadilan kedudukan antara pusat dan daerah.",
           "antithesis_id": "Jalur uji materi ditempuh karena kanal politik tertutup, tetapi hasilnya tidak dapat mengubah rumusan konstitusi itu sendiri sehingga ketimpangan kedudukan yang menjadi akar persoalan tetap berdiri.",
-          "synthesis_id": "Skor Baik (+1) karena ketimpangan kewenangan antara wakil daerah dan wakil partai diperjuangkan lewat pengadilan konstitusi alih-alih dibiarkan sebagai keadaan yang diterima.",
+          "synthesis_id": "Skor Netral (0) karena jalur uji materi ditempuh demi keadilan kedudukan pusat-daerah, tetapi hasilnya tidak dapat mengubah rumusan konstitusi yang menjadi akar ketimpangannya.",
           "evidence": [
             {
               "source_id": "risalah-dpd-ruu-pesisir-2006"
@@ -38829,11 +38829,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Mengajukan RUU inisiatif tentang pengelolaan wilayah pesisir dan pulau-pulau kecil pada 2005, mendorong pemanfaatan sumber daya maritim daerah sebagai basis kesejahteraan warga pesisir.",
           "antithesis_id": "Usulan pengelolaan wilayah pesisir diajukan tetapi pembahasannya diambil alih DPR sehingga rumusan akhirnya tidak sepenuhnya mencerminkan kepentingan daerah yang mengusulkannya.",
-          "synthesis_id": "Skor Baik (+1) karena pengelolaan sumber daya pesisir diangkat sebagai agenda legislasi nasional atas inisiatif wakil daerah.",
+          "synthesis_id": "Skor Netral (0) karena usulan pengelolaan wilayah pesisir diajukan tetapi pembahasannya diambil alih DPR sehingga rumusan akhirnya tidak mencerminkan kepentingan daerah pengusul.",
           "evidence": [
             {
               "source_id": "uu-27-2007"
@@ -38851,11 +38851,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menjalankan fungsi pengawasan atas pelaksanaan undang-undang yang menyangkut daerah sejak sidang perdana 2004, termasuk penyelenggaraan pendidikan yang menjadi kewenangan pemerintah daerah pasca-desentralisasi.",
           "antithesis_id": "Fungsi pengawasan dijalankan tanpa kewenangan menindaklanjuti temuan, sehingga hasil pengawasan hanya dapat disampaikan kepada DPR yang tidak berkewajiban membahasnya.",
-          "synthesis_id": "Skor Baik (+1) karena pelaksanaan undang-undang di daerah mulai diawasi oleh lembaga yang anggotanya berasal dari daerah itu sendiri.",
+          "synthesis_id": "Skor Netral (0) karena fungsi pengawasan dijalankan tanpa kewenangan menindaklanjuti temuan, sehingga hasilnya hanya dapat disampaikan kepada DPR yang tidak wajib membahasnya.",
           "evidence": [
             {
               "source_id": "uu-22-2003"
@@ -38876,11 +38876,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Membangun kerja sama antarlembaga perwakilan daerah di kawasan sejak periode pertamanya, memperkenalkan model kamar kedua Indonesia dalam forum parlemen regional.",
           "antithesis_id": "Perkenalan kelembagaan di forum regional berlangsung sementara kewenangan yang dimiliki jauh lebih lemah daripada kamar kedua di negara pembanding, sehingga posisi tawarnya terbatas.",
-          "synthesis_id": "Skor Baik (+1) karena Indonesia memperkenalkan kamar perwakilan daerah dalam forum parlemen kawasan, memperluas kanal diplomasi parlementer.",
+          "synthesis_id": "Skor Netral (0) karena kamar perwakilan daerah diperkenalkan di forum regional dengan kewenangan yang jauh lebih lemah daripada pembandingnya, sehingga posisi tawarnya terbatas.",
           "evidence": [
             {
               "source_id": "uu-22-2003"
@@ -38923,11 +38923,11 @@
         },
         {
           "dimension_id": "checks-balances",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menjalankan kewenangan memberikan pertimbangan atas calon anggota BPK sejak periode pertamanya, menempatkan wakil daerah dalam rantai pengisian jabatan lembaga pemeriksa keuangan negara.",
           "antithesis_id": "Pertimbangan atas calon anggota BPK bersifat tidak mengikat dan dapat diabaikan DPR, sehingga peran DPD dalam pengisian jabatan pemeriksa keuangan negara bergantung pada kesediaan kamar pertama mendengarnya.",
-          "synthesis_id": "Skor Baik (+1) karena wakil daerah memperoleh peran resmi dalam pengisian jabatan lembaga pemeriksa keuangan negara, memperluas basis legitimasi lembaga itu.",
+          "synthesis_id": "Skor Netral (0) karena pertimbangan atas calon anggota BPK bersifat tidak mengikat dan dapat diabaikan DPR, sehingga peran DPD bergantung pada kesediaan kamar pertama mendengarnya.",
           "evidence": [
             {
               "source_id": "risalah-dpd-ruu-pesisir-2006"
@@ -39049,11 +39049,11 @@
         },
         {
           "dimension_id": "sila-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Memperoleh pengakuan kesetaraan legislasi lewat Putusan MK No. 92/PUU-X/2012 pada 2013, menegaskan wakil daerah berhak ikut membahas norma yang menyangkut kehidupan warga di wilayahnya termasuk urusan keagamaan daerah.",
           "antithesis_id": "Pengakuan kesetaraan dalam pembahasan tidak disertai hak memutus, sehingga pada rancangan undang-undang yang paling menyentuh kehidupan warga daerah, suara DPD tetap dapat diabaikan pada tahap akhir.",
-          "synthesis_id": "Skor Baik (+1) karena hak wakil daerah ikut membahas rancangan undang-undang yang menyangkut daerahnya ditegakkan lewat putusan pengadilan konstitusi.",
+          "synthesis_id": "Skor Netral (0) karena pengakuan kesetaraan dalam pembahasan tidak disertai hak memutus, sehingga suara daerah pada rancangan yang menyentuh warganya tetap dapat diabaikan di tahap akhir.",
           "evidence": [
             {
               "source_id": "putusan-mk-92-puu-x-2012"
@@ -39093,11 +39093,11 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Mengkaji pengelolaan Dana Reboisasi dan Dana Bagi Hasil pada 2010 sebagai penyaluran aspirasi daerah penghasil sumber daya alam, membawa keberatan yang selama ini tidak terwakili dalam pembahasan anggaran nasional.",
           "antithesis_id": "Kajian atas dana bagi hasil menyuarakan keberatan daerah penghasil, tetapi formula pembagiannya tetap ditentukan pemerintah pusat dan DPR tanpa kewajiban mempertimbangkan kajian tersebut.",
-          "synthesis_id": "Skor Baik (+1) karena keberatan daerah penghasil sumber daya alam atas formula bagi hasil disuarakan secara terlembaga di tingkat nasional.",
+          "synthesis_id": "Skor Netral (0) karena keberatan daerah penghasil atas formula bagi hasil disuarakan lewat kajian, sementara formulanya tetap ditentukan pusat tanpa kewajiban mempertimbangkannya.",
           "evidence": [
             {
               "source_id": "putusan-mk-92-puu-x-2012"
@@ -39115,11 +39115,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Mengawasi implementasi kebijakan fiskal daerah lewat Komite I pada 2011 dan mengkaji Dana Reboisasi serta Dana Bagi Hasil pada 2010, memperjuangkan keadilan pembagian hasil sumber daya alam bagi daerah penghasil.",
           "antithesis_id": "Pengawasan dan kajian menghasilkan rekomendasi perbaikan formula, tetapi tidak satu pun dari periode ini yang diadopsi menjadi perubahan undang-undang perimbangan keuangan.",
-          "synthesis_id": "Skor Baik (+1) karena ketimpangan pembagian hasil sumber daya alam antara pusat dan daerah penghasil diangkat menjadi persoalan nasional secara sistematis.",
+          "synthesis_id": "Skor Netral (0) karena ketimpangan bagi hasil sumber daya alam diangkat secara sistematis, tetapi tidak satu pun rekomendasi periode ini diadopsi menjadi perubahan undang-undang.",
           "evidence": [
             {
               "source_id": "laporan-dpd-desertada-2011"
@@ -39137,11 +39137,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Memperoleh kewenangan ikut membahas rancangan undang-undang yang menyangkut otonomi daerah dan hubungan pusat-daerah lewat Putusan MK No. 92/PUU-X/2012, memperkuat suara wilayah perbatasan dalam kebijakan nasional.",
           "antithesis_id": "Kewenangan ikut membahas diperoleh di ujung periode sehingga penggunaannya bagi kepentingan wilayah perbatasan baru dapat diuji pada periode berikutnya.",
-          "synthesis_id": "Skor Baik (+1) karena wakil wilayah terluar dan perbatasan memperoleh hak konstitusional ikut membahas undang-undang yang menentukan nasib wilayahnya.",
+          "synthesis_id": "Skor Netral (0) karena kewenangan ikut membahas diperoleh di ujung periode sehingga penggunaannya bagi kepentingan wilayah perbatasan baru dapat diuji pada periode berikutnya.",
           "evidence": [
             {
               "source_id": "putusan-mk-92-puu-x-2012"
@@ -39159,11 +39159,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Mengawasi implementasi kebijakan ekonomi daerah lewat Komite I pada 2011 dan mengkaji pengelolaan dana bagi hasil pada 2010, mendorong sumber daya daerah kembali menjadi belanja kesejahteraan di wilayah asalnya.",
           "antithesis_id": "Pengawasan atas kebijakan ekonomi daerah dijalankan tanpa kewenangan anggaran, sehingga temuan tentang ketimpangan alokasi tidak dapat diterjemahkan menjadi koreksi pada APBN.",
-          "synthesis_id": "Skor Baik (+1) karena aliran sumber daya dari daerah penghasil ke pusat diawasi secara terlembaga oleh wakil daerah sendiri.",
+          "synthesis_id": "Skor Netral (0) karena pengawasan kebijakan ekonomi daerah dijalankan tanpa kewenangan anggaran, sehingga temuan ketimpangan alokasi tidak dapat diterjemahkan menjadi koreksi APBN.",
           "evidence": [
             {
               "source_id": "laporan-dpd-desertada-2011"
@@ -39181,11 +39181,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menjalankan pengawasan atas pelaksanaan undang-undang pendidikan di daerah sepanjang periode, memastikan desentralisasi kewenangan pendidikan tidak berujung kesenjangan mutu antarwilayah.",
           "antithesis_id": "Pengawasan pendidikan daerah dijalankan dengan sumber daya terbatas dan tanpa kewenangan menindak, sehingga kesenjangan mutu antarwilayah yang ditemukan tetap berlanjut tanpa koreksi kebijakan.",
-          "synthesis_id": "Skor Baik (+1) karena pelaksanaan kewenangan pendidikan yang didesentralisasi diawasi oleh lembaga yang mewakili daerah penerima kewenangan itu.",
+          "synthesis_id": "Skor Netral (0) karena pengawasan pendidikan daerah dijalankan dengan sumber daya terbatas dan tanpa kewenangan menindak, sehingga kesenjangan mutu yang ditemukan tetap berlanjut.",
           "evidence": [
             {
               "source_id": "putusan-mk-92-puu-x-2012"
@@ -39203,11 +39203,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Memperkuat kedudukan konstitusional lewat Putusan MK No. 92/PUU-X/2012 yang menjadi rujukan bagi lembaga perwakilan daerah di kawasan, menunjukkan kamar kedua dapat memperjuangkan kewenangannya lewat jalur hukum.",
           "antithesis_id": "Kemenangan konstitusional menjadi rujukan bagi lembaga sejenis, tetapi kedudukan DPD dalam struktur parlemen Indonesia tetap paling lemah dibandingkan kamar kedua di negara mana pun yang menjadi pembandingnya.",
-          "synthesis_id": "Skor Baik (+1) karena Indonesia menunjukkan sengketa kewenangan antarkamar parlemen dapat diselesaikan lewat pengadilan konstitusi, model yang dapat dirujuk kawasan.",
+          "synthesis_id": "Skor Netral (0) karena kemenangan konstitusional menjadi rujukan lembaga sejenis, sementara kedudukan DPD tetap paling lemah dibanding kamar kedua di negara mana pun yang menjadi pembandingnya.",
           "evidence": [
             {
               "source_id": "putusan-mk-92-puu-x-2012"
@@ -39244,11 +39244,11 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Memperjuangkan hak ikut membahas legislasi lewat Putusan MK No. 92/PUU-X/2012, memastikan suara 132 wakil daerah yang dipilih langsung rakyat tidak berhenti sebagai formalitas kelembagaan.",
           "antithesis_id": "Hak ikut membahas diperoleh, tetapi tanpa hak memutus sehingga mandat langsung dari pemilih di setiap provinsi tetap tidak dapat diterjemahkan menjadi keputusan yang mengikat.",
-          "synthesis_id": "Skor Baik (+1) karena mandat langsung pemilih di setiap provinsi memperoleh saluran nyata dalam pembahasan legislasi nasional.",
+          "synthesis_id": "Skor Netral (0) karena hak ikut membahas diperoleh tanpa hak memutus, sehingga mandat langsung pemilih di setiap provinsi tetap tidak dapat menjadi keputusan yang mengikat.",
           "evidence": [
             {
               "source_id": "putusan-mk-92-puu-x-2012"
@@ -39379,11 +39379,11 @@
         },
         {
           "dimension_id": "sila-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Menyampaikan proposal kenegaraan pada 2023 dan mengawasi anggaran penanggulangan bencana daerah pada 2023, membawa kepentingan warga di wilayah rawan bencana ke dalam pembahasan nasional.",
           "antithesis_id": "Proposal kenegaraan yang disampaikan justru memuat usulan perubahan mendasar sistem ketatanegaraan yang tidak memiliki dukungan politik, sehingga energi lembaga tersedot dari agenda yang lebih dapat dicapai.",
-          "synthesis_id": "Skor Baik (+1) karena kepentingan warga di wilayah rawan bencana diangkat lewat pengawasan anggaran penanggulangan bencana daerah.",
+          "synthesis_id": "Skor Netral (0) karena pengawasan anggaran bencana daerah dijalankan sementara proposal kenegaraan yang disampaikan justru menyedot energi lembaga ke usulan tanpa dukungan politik.",
           "evidence": [
             {
               "source_id": "ruu-daerah-kepulauan-dpd-2020"
@@ -39411,11 +39411,11 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Mengajukan RUU Daerah Kepulauan sebagai inisiatif legislasi pada 2020, memperjuangkan pengakuan kekhususan wilayah kepulauan yang selama ini dirugikan formula pembangunan berbasis daratan.",
           "antithesis_id": "RUU Daerah Kepulauan diajukan pada 2020 dan tetap tidak disahkan hingga periode berakhir, mengulang pola inisiatif DPD yang berhenti sebagai dokumen tanpa pembahasan yang berarti di DPR.",
-          "synthesis_id": "Skor Baik (+1) karena kekhususan wilayah kepulauan yang dirugikan formula pembangunan berbasis daratan diangkat menjadi usulan undang-undang tersendiri.",
+          "synthesis_id": "Skor Netral (0) karena RUU Daerah Kepulauan diajukan pada 2020 dan tetap tidak disahkan hingga periode berakhir, mengulang pola inisiatif yang berhenti sebagai dokumen.",
           "evidence": [
             {
               "source_id": "laporan-dpd-kebencanaan-2023"
@@ -39433,11 +39433,11 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Mengawasi percepatan pembangunan daerah tertinggal pada 2021 dan merekomendasikan pembentukan empat provinsi baru pada 2022, menyalurkan aspirasi wilayah yang menuntut penataan pemerintahan sendiri.",
           "antithesis_id": "Rekomendasi pemekaran disampaikan, tetapi pembentukan provinsi baru Papua yang akhirnya terjadi berlangsung tanpa konsultasi dengan Majelis Rakyat Papua sebagaimana disyaratkan undang-undang otonomi khusus.",
-          "synthesis_id": "Skor Baik (+1) karena aspirasi wilayah atas penataan pemerintahan disalurkan lewat kajian dan rekomendasi resmi wakil daerah.",
+          "synthesis_id": "Skor Netral (0) karena rekomendasi pemekaran disampaikan, sementara pembentukan provinsi baru Papua yang akhirnya terjadi berlangsung tanpa konsultasi yang disyaratkan undang-undang otonomi khusus.",
           "evidence": [
             {
               "source_id": "putusan-mk-52-puu-xx-2022"
@@ -39458,11 +39458,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Mengkaji efektivitas program tol laut pada 2020 dan mengajukan RUU Daerah Kepulauan, memperjuangkan konektivitas wilayah kepulauan sebagai syarat kehadiran negara di daerah terluar.",
           "antithesis_id": "Kajian tol laut mengungkap ketimpangan efektivitas antartrayek, tetapi kebijakan penetapan trayek tetap berada di kementerian tanpa kewajiban mempertimbangkan temuan DPD.",
-          "synthesis_id": "Skor Baik (+1) karena efektivitas program konektivitas wilayah kepulauan diuji secara independen oleh wakil daerah penerima programnya.",
+          "synthesis_id": "Skor Netral (0) karena kajian tol laut mengungkap ketimpangan antartrayek, sementara penetapan trayek tetap di kementerian tanpa kewajiban mempertimbangkan temuan DPD.",
           "evidence": [
             {
               "source_id": "laporan-dpd-kebencanaan-2023"
@@ -39487,11 +39487,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Memperjuangkan hak finansial aparatur daerah pada 2024 dan mengadvokasi formasi serta hak keuangan pegawai daerah pada 2022, mendorong kapasitas pemerintahan daerah yang menjadi ujung tombak layanan warga.",
           "antithesis_id": "Advokasi hak keuangan aparatur daerah menyentuh kapasitas birokrasi, tetapi tidak menjawab persoalan yang lebih mendasar yaitu ketimpangan kemampuan fiskal antardaerah yang menentukan mutu layanan.",
-          "synthesis_id": "Skor Baik (+1) karena kapasitas aparatur pemerintahan daerah sebagai penyelenggara layanan warga diperjuangkan secara terlembaga di tingkat nasional.",
+          "synthesis_id": "Skor Netral (0) karena advokasi hak keuangan aparatur daerah menyentuh kapasitas birokrasi tanpa menjawab ketimpangan kemampuan fiskal antardaerah yang menentukan mutu layanan.",
           "evidence": [
             {
               "source_id": "ruu-daerah-kepulauan-dpd-2020"
@@ -39515,11 +39515,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Mengawasi efektivitas penyelenggaraan pemerintahan daerah pada 2023 termasuk layanan pendidikan yang menjadi kewenangan daerah, menyuarakan kesenjangan mutu yang dialami warga di wilayah terpencil.",
           "antithesis_id": "Pengawasan mengungkap kesenjangan layanan pendidikan antardaerah, tetapi tanpa kewenangan anggaran maupun legislasi temuan itu berhenti sebagai laporan yang tidak mengikat siapa pun.",
-          "synthesis_id": "Skor Baik (+1) karena kesenjangan mutu layanan pendidikan antardaerah diawasi dan dilaporkan oleh lembaga yang mewakili daerah bersangkutan.",
+          "synthesis_id": "Skor Netral (0) karena kesenjangan layanan pendidikan antardaerah diawasi dan dilaporkan tanpa kewenangan anggaran maupun legislasi untuk mengoreksinya.",
           "evidence": [
             {
               "source_id": "laporan-dpd-guru-honorer-2022"
@@ -39541,11 +39541,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Mengajukan uji materi ambang batas pencalonan presiden ke Mahkamah Konstitusi pada 2022, memperjuangkan pembukaan kompetisi elektoral sebagai bagian penegakan prinsip demokrasi yang dianut Indonesia.",
           "antithesis_id": "Uji materi ambang batas pencalonan presiden ditolak dengan alasan DPD tidak memiliki kedudukan hukum sebagai pemohon, memperlihatkan keterbatasan lembaga ini bahkan dalam memperjuangkan agenda demokrasi.",
-          "synthesis_id": "Skor Baik (+1) karena pembukaan kompetisi pencalonan presiden diperjuangkan lewat jalur konstitusional oleh lembaga perwakilan daerah.",
+          "synthesis_id": "Skor Netral (0) karena uji materi ambang batas pencalonan presiden ditolak atas dasar kedudukan hukum, sehingga perjuangan itu tidak mengubah norma apa pun.",
           "evidence": [
             {
               "source_id": "ruu-daerah-kepulauan-dpd-2020"
@@ -39566,11 +39566,11 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menempuh uji materi ambang batas pencalonan presiden ke Mahkamah Konstitusi pada 2022 dan mengawasi efektivitas penyelenggaraan pemerintahan daerah pada 2023, konsisten memilih jalur hukum dalam memperjuangkan agendanya.",
           "antithesis_id": "Jalur hukum ditempuh berulang tetapi permohonannya ditolak karena kedudukan hukum, sehingga konsistensi menggunakan mekanisme konstitusional tidak berbuah perubahan norma apa pun pada periode ini.",
-          "synthesis_id": "Skor Baik (+1) karena agenda kelembagaan diperjuangkan lewat pengadilan konstitusi dan bukan lewat tekanan politik, menjaga supremasi hukum sebagai jalan penyelesaian.",
+          "synthesis_id": "Skor Netral (0) karena jalur hukum ditempuh berulang secara konsisten, tepat sebanding dengan permohonan yang ditolak karena kedudukan hukum sehingga tidak berbuah perubahan norma.",
           "evidence": [
             {
               "source_id": "ruu-daerah-kepulauan-dpd-2020"
@@ -39591,11 +39591,11 @@
         },
         {
           "dimension_id": "checks-balances",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menjalankan fungsi pertimbangan atas calon anggota BPK dan pengawasan pelaksanaan undang-undang yang menyangkut daerah sepanjang periode, termasuk pengawasan Komite I atas efektivitas pemerintahan daerah 2023.",
           "antithesis_id": "Fungsi pertimbangan dan pengawasan dijalankan rutin, tetapi keduanya bersifat tidak mengikat sehingga peran DPD dalam keseimbangan kekuasaan tetap bergantung pada kesediaan lembaga lain mendengarnya.",
-          "synthesis_id": "Skor Baik (+1) karena wakil daerah menjalankan peran resmi dalam pengisian jabatan pemeriksa keuangan negara dan pengawasan pelaksanaan undang-undang di daerah.",
+          "synthesis_id": "Skor Netral (0) karena fungsi pertimbangan dan pengawasan dijalankan rutin, tetapi keduanya tidak mengikat sehingga peran DPD bergantung pada kesediaan lembaga lain mendengarnya.",
           "evidence": [
             {
               "source_id": "putusan-mk-52-puu-xx-2022"
@@ -39616,11 +39616,11 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Menjaga keterwakilan setiap provinsi hasil Pemilu 2019 dalam pengawasan penyelenggaraan pemerintahan daerah 2023, menyalurkan mandat langsung pemilih di wilayah masing-masing ke tingkat nasional.",
           "antithesis_id": "Mandat langsung pemilih disalurkan lewat pengawasan, tetapi tidak satu pun inisiatif legislasi periode ini yang berhasil disahkan sehingga kedaulatan yang diwakilinya tidak berubah menjadi norma yang mengikat.",
-          "synthesis_id": "Skor Baik (+1) karena mandat pemilih di setiap provinsi disalurkan secara konsisten lewat fungsi pengawasan atas penyelenggaraan pemerintahan daerah.",
+          "synthesis_id": "Skor Netral (0) karena mandat pemilih disalurkan lewat pengawasan, tetapi tidak satu pun inisiatif legislasi periode ini disahkan sehingga tidak menjadi norma yang mengikat.",
           "evidence": [
             {
               "source_id": "putusan-mk-52-puu-xx-2022"
@@ -39765,11 +39765,11 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Memeriksa pelaksanaan rencana pembangunan negara sejak 1957 sebagai pengawasan atas belanja yang menyangkut hajat hidup rakyat, menjaga sumber daya publik tidak berpindah ke kepentingan pribadi penyelenggara.",
           "antithesis_id": "Pemeriksaan atas rencana pembangunan dilakukan tanpa kewenangan menindaklanjuti temuan, dan pada periode yang sama negara menjalankan Petrus serta operasi militer yang biayanya tidak pernah masuk objek pemeriksaan mana pun.",
-          "synthesis_id": "Skor Baik (+1) karena belanja pembangunan yang menyangkut hajat hidup rakyat mulai diperiksa secara terlembaga sejak akhir 1950-an.",
+          "synthesis_id": "Skor Netral (0) karena pemeriksaan rencana pembangunan dijalankan tanpa kewenangan menindaklanjuti temuan, sementara biaya operasi keamanan sama sekali tidak menjadi objek pemeriksaan.",
           "evidence": [
             {
               "source_id": "penetapan-bpk-1947"
@@ -39797,11 +39797,11 @@
         },
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Memeriksa keuangan BUMN dan proyek strategis nasional pada 1993 yang tersebar di berbagai daerah, menjaga sumber daya pembangunan yang dialokasikan ke wilayah benar-benar sampai pada peruntukannya.",
           "antithesis_id": "Pemeriksaan proyek strategis berlangsung ketika alokasi pembangunan sangat terpusat di Jawa dan konsesi sumber daya alam di luar Jawa diberikan kepada kroni penguasa, wilayah yang justru tidak tersentuh pemeriksaan.",
-          "synthesis_id": "Skor Baik (+1) karena keuangan BUMN dan proyek strategis mulai diperiksa secara sistematis, membuka jejak akuntabilitas atas belanja pembangunan daerah.",
+          "synthesis_id": "Skor Netral (0) karena pemeriksaan proyek strategis berjalan sementara konsesi sumber daya alam di luar Jawa yang diberikan kepada kroni penguasa tidak tersentuh.",
           "evidence": [
             {
               "source_id": "penetapan-bpk-1947"
@@ -39830,7 +39830,7 @@
           "confidence": 0.8,
           "rationale_id": "Memperoleh dasar undang-undang tersendiri lewat UU No. 5 Tahun 1973 tentang Badan Pemeriksa Keuangan, menegaskan kedudukannya sebagai lembaga yang menyampaikan hasil pemeriksaan kepada lembaga perwakilan.",
           "antithesis_id": "Kewajiban menyampaikan hasil pemeriksaan kepada DPR berjalan formal, tetapi DPR pada periode itu tidak memiliki kemerdekaan menindaklanjutinya sehingga rantai pertanggungjawaban terputus di ujungnya.",
-          "synthesis_id": "Skor Baik (+1) karena kedudukan BPK dan kewajibannya melapor kepada lembaga perwakilan ditetapkan lewat undang-undang tersendiri.",
+          "synthesis_id": "Skor Baik (+1) karena kedudukan BPK dan kewajibannya melapor kepada lembaga perwakilan ditetapkan lewat undang-undang tersendiri, memberi dasar hukum yang bertahan melewati dua rezim.",
           "evidence": [
             {
               "source_id": "penetapan-bpk-1947"
@@ -39855,11 +39855,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Memeriksa keuangan proyek Pembangunan Lima Tahun sejak 1979 yang menjadi tulang punggung belanja kesejahteraan Orde Baru, mengawasi agar dana pembangunan sampai pada sasarannya.",
           "antithesis_id": "Pemeriksaan proyek Repelita berjalan sementara kebocoran anggaran pembangunan yang ditaksir berbagai kajian mencapai puluhan persen tidak pernah menjadi temuan yang berkonsekuensi, karena penerimanya berada di lingkaran kekuasaan.",
-          "synthesis_id": "Skor Baik (+1) karena belanja pembangunan berskala nasional diperiksa secara berkala, memberi jejak audit atas program yang menopang penurunan kemiskinan periode ini.",
+          "synthesis_id": "Skor Netral (0) karena belanja Repelita diperiksa berkala tanpa satu pun temuan berkonsekuensi, sebab penerimanya berada di lingkaran kekuasaan.",
           "evidence": [
             {
               "source_id": "laporan-bpk-djuanda-1957"
@@ -39878,11 +39878,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menjalankan pemeriksaan perbendaharaan darurat pada masa perang gerilya dan pemberontakan daerah, menjaga pembiayaan pertahanan republik tetap tercatat dan dapat dipertanggungjawabkan.",
           "antithesis_id": "Pencatatan pembiayaan pertahanan berjalan pada masa revolusi, tetapi sepanjang Orde Baru anggaran keamanan dan operasi militer di Aceh, Papua, serta Timor Timur berada di luar jangkauan pemeriksaan publik.",
-          "synthesis_id": "Skor Baik (+1) karena pembiayaan pertahanan republik pada masa perang tetap dicatat dan diperiksa, menegakkan disiplin keuangan di situasi paling darurat.",
+          "synthesis_id": "Skor Netral (0) karena pembiayaan pertahanan tercatat pada masa revolusi, tetapi sepanjang Orde Baru anggaran keamanan dan operasi militer berada di luar jangkauan pemeriksaan publik.",
           "evidence": [
             {
               "source_id": "laporan-bpk-darurat-1947"
@@ -39904,11 +39904,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Memeriksa pelaksanaan anggaran pembangunan nasional sepanjang Repelita, memberi gambaran atas efektivitas belanja negara yang menopang pertumbuhan dan penurunan kemiskinan periode ini.",
           "antithesis_id": "Gambaran efektivitas belanja yang dihasilkan tidak pernah dipublikasikan secara terbuka kepada rakyat yang uangnya dibelanjakan, sehingga akuntabilitasnya berhenti pada lingkaran birokrasi.",
-          "synthesis_id": "Skor Baik (+1) karena efektivitas belanja pembangunan nasional diperiksa secara berkala sepanjang periode, memberi dasar evaluasi bagi kebijakan fiskal negara.",
+          "synthesis_id": "Skor Netral (0) karena efektivitas belanja pembangunan diperiksa berkala tanpa pernah dipublikasikan kepada rakyat yang uangnya dibelanjakan.",
           "evidence": [
             {
               "source_id": "laporan-bpk-djuanda-1957"
@@ -39937,11 +39937,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Memeriksa belanja pembangunan sarana pendidikan pada program SD Inpres yang membangun puluhan ribu sekolah, mengawasi mutu penggunaan anggaran perluasan akses pendidikan dasar.",
           "antithesis_id": "Pemeriksaan menyasar kepatuhan administratif pembangunan fisik sekolah dan tidak menyentuh mutu pembelajaran yang dihasilkannya, sehingga temuan audit tidak berkorelasi dengan capaian pendidikan.",
-          "synthesis_id": "Skor Baik (+1) karena belanja perluasan sekolah dasar berskala nasional diperiksa, menjaga program yang menaikkan partisipasi pendidikan tetap terkendali secara fiskal.",
+          "synthesis_id": "Skor Netral (0) karena belanja perluasan sekolah diperiksa dari sisi kepatuhan administratif tanpa menyentuh mutu yang dihasilkannya.",
           "evidence": [
             {
               "source_id": "penetapan-bpk-1947"
@@ -39966,11 +39966,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menegakkan tertib pemeriksaan keuangan negara sesuai kaidah yang berlaku umum sejak berdirinya, prasyarat kepercayaan mitra internasional atas pengelolaan pinjaman dan bantuan luar negeri yang diterima Indonesia.",
           "antithesis_id": "Kepercayaan mitra internasional dijaga lewat tertib pencatatan, tetapi pinjaman luar negeri yang membiayai pembangunan Orde Baru tetap menumpuk menjadi beban yang meledak pada krisis 1997 tanpa peringatan dini dari pemeriksa.",
-          "synthesis_id": "Skor Baik (+1) karena kaidah pemeriksaan keuangan negara ditegakkan secara tertib, menjaga kelayakan Indonesia sebagai penerima pinjaman dan bantuan internasional.",
+          "synthesis_id": "Skor Netral (0) karena tertib pencatatan menjaga kelayakan Indonesia menerima pinjaman, tetapi tumpukan utang yang meledak pada krisis 1997 berlangsung tanpa peringatan dini dari pemeriksa.",
           "evidence": [
             {
               "source_id": "penetapan-bpk-1947"
@@ -39995,11 +39995,11 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Mempertahankan keberadaan lembaga pemeriksa keuangan yang diamanatkan Pasal 23 UUD 1945 sepanjang lima dekade, menjaga prinsip bahwa uang rakyat harus diperiksa oleh lembaga di luar yang membelanjakannya.",
           "antithesis_id": "Prinsip itu dipertahankan secara kelembagaan tetapi dikosongkan isinya ketika BPK pada 1965 ditempatkan sebagai pembantu Pemimpin Besar Revolusi, dan hasil pemeriksaannya tidak pernah dapat diakses rakyat yang diwakilinya.",
-          "synthesis_id": "Skor Baik (+1) karena amanat konstitusional pemeriksaan keuangan oleh lembaga di luar pembelanja dipertahankan tanpa terputus sepanjang lima dasawarsa.",
+          "synthesis_id": "Skor Netral (0) karena amanat konstitusional pemeriksaan dipertahankan secara kelembagaan, tetapi dikosongkan isinya ketika BPK ditempatkan sebagai pembantu Pemimpin Besar Revolusi dan hasilnya tak pernah dapat diakses rakyat.",
           "evidence": [
             {
               "source_id": "penetapan-bpk-1947"
@@ -40189,11 +40189,11 @@
         },
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Memeriksa pengelolaan keuangan daerah pada masa awal desentralisasi setelah kewenangan dan anggaran berpindah ke ratusan pemerintah daerah, menjaga pemerataan fiskal tidak berubah menjadi kebocoran terdesentralisasi.",
           "antithesis_id": "Kapasitas pemeriksaan tidak tumbuh secepat jumlah entitas yang harus diperiksa setelah otonomi daerah, sehingga cakupan audit atas ratusan pemerintah daerah pada periode ini masih sangat terbatas.",
-          "synthesis_id": "Skor Baik (+1) karena pemeriksaan diperluas mengikuti perpindahan kewenangan fiskal ke daerah, menjaga desentralisasi tetap berada dalam kerangka akuntabilitas.",
+          "synthesis_id": "Skor Netral (0) karena kapasitas pemeriksaan tidak tumbuh secepat jumlah entitas yang harus diperiksa setelah otonomi daerah, sehingga cakupan audit atas ratusan pemerintah daerah masih sangat terbatas.",
           "evidence": [
             {
               "source_id": "laporan-bpk-blbi-2000"
@@ -40302,11 +40302,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Memeriksa efisiensi biaya pokok produksi bahan bakar minyak pada 2008 ketika subsidi energi membebani APBN secara ekstrem, memberi dasar faktual bagi kebijakan subsidi yang menyangkut daya beli seluruh rumah tangga.",
           "antithesis_id": "Pemeriksaan menghasilkan gambaran biaya yang lebih jernih, tetapi keputusan besaran subsidi tetap ditentukan pertimbangan politik jangka pendek sehingga temuan audit tidak mengubah struktur belanja energi.",
-          "synthesis_id": "Skor Baik (+1) karena struktur biaya subsidi energi yang membebani APBN diperiksa secara independen, memberi dasar faktual bagi perdebatan kebijakan publik.",
+          "synthesis_id": "Skor Netral (0) karena struktur biaya subsidi energi diperiksa secara independen, sementara besaran subsidinya tetap ditentukan pertimbangan politik jangka pendek tanpa mengubah struktur belanja.",
           "evidence": [
             {
               "source_id": "laporan-bpk-blbi-2000"
@@ -40336,11 +40336,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Memeriksa penyaluran dana Bantuan Operasional Sekolah sejak diluncurkan pada 2005 yang menjadikan pendidikan dasar praktis gratis, mengawasi agar dana sampai ke satuan pendidikan penerimanya.",
           "antithesis_id": "Pemeriksaan menyasar kepatuhan penyaluran sementara pungutan tidak resmi di sekolah berlanjut di luar jangkauan audit, sehingga temuan bersih tidak berarti biaya pendidikan benar-benar hilang bagi orang tua.",
-          "synthesis_id": "Skor Baik (+1) karena dana yang menggratiskan pendidikan dasar sembilan tahun diperiksa penyalurannya, menjaga program pemerataan terbesar periode ini tetap akuntabel.",
+          "synthesis_id": "Skor Netral (0) karena penyaluran dana BOS diperiksa dari sisi kepatuhan sementara pungutan tidak resmi di sekolah berlanjut di luar jangkauan audit.",
           "evidence": [
             {
               "source_id": "laporan-bpk-blbi-2000"
@@ -40368,11 +40368,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menyesuaikan praktik pemeriksaan Indonesia dengan standar organisasi lembaga pemeriksa keuangan sedunia lewat UU 15/2004 dan Standar Pemeriksaan Keuangan Negara 2007, menempatkan Indonesia dalam tertib audit yang diakui internasional.",
           "antithesis_id": "Penyesuaian dengan standar internasional berlangsung di tingkat metodologi, sementara tingkat tindak lanjut temuan yang menjadi ukuran sesungguhnya efektivitas pemeriksaan tetap jauh di bawah praktik terbaik yang dirujuk.",
-          "synthesis_id": "Skor Baik (+1) karena metodologi pemeriksaan keuangan negara Indonesia diselaraskan dengan standar yang diakui komunitas pemeriksa internasional.",
+          "synthesis_id": "Skor Netral (0) karena metodologi pemeriksaan diselaraskan dengan standar internasional, sementara tingkat tindak lanjut temuan yang menjadi ukuran efektivitasnya tetap jauh di bawah praktik terbaik yang dirujuk.",
           "evidence": [
             {
               "source_id": "laporan-bpk-blbi-2000"
@@ -40551,11 +40551,11 @@
         },
         {
           "dimension_id": "sila-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Menerapkan akuntansi berbasis akrual pada seluruh entitas pemerintah sejak 2015-2016, mengubah pelaporan keuangan negara dari pencatatan kas menjadi gambaran utuh hak dan kewajiban yang menjadi amanah penyelenggara.",
           "antithesis_id": "Peralihan ke akuntansi akrual memperbaiki mutu pelaporan, tetapi lonjakan opini WTP yang menyertainya sebagian diperoleh lewat perbaikan administratif alih-alih perbaikan substansi pengelolaan, dan sebagian lagi terbukti dibeli.",
-          "synthesis_id": "Skor Baik (+1) karena laporan keuangan seluruh entitas pemerintah berpindah ke basis akrual, memberi gambaran posisi keuangan negara yang jauh lebih utuh.",
+          "synthesis_id": "Skor Netral (0) karena peralihan ke akuntansi akrual memperbaiki mutu pelaporan, tepat sebanding dengan lonjakan opini WTP yang sebagiannya diperoleh lewat perbaikan administratif dan sebagian lagi terbukti dibeli.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40609,11 +40609,11 @@
         },
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Memeriksa perpanjangan kontrak Jakarta International Container Terminal pada Pelindo II tahun 2016 dan menemukan kerugian negara pada pengelolaan aset pelabuhan yang menjadi simpul konektivitas antarwilayah.",
           "antithesis_id": "Temuan atas perpanjangan kontrak JICT dipersoalkan balik oleh pihak yang diperiksa dan tindak lanjutnya berlarut tanpa kepastian hukum, memperlihatkan kewenangan audit atas BUMN besar mudah dilawan.",
-          "synthesis_id": "Skor Baik (+1) karena pengelolaan aset pelabuhan strategis yang menghubungkan wilayah diperiksa dan kerugiannya diangkat ke ruang publik.",
+          "synthesis_id": "Skor Netral (0) karena temuan atas perpanjangan kontrak JICT dipersoalkan balik oleh pihak yang diperiksa dan tindak lanjutnya berlarut tanpa kepastian hukum.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40638,11 +40638,11 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Menyerahkan audit investigatif Hambalang kepada DPR pada 2012 yang mengungkap kerugian negara pada proyek yang melibatkan pimpinan partai berkuasa, menjadikan hasil pemeriksaan bahan pertanggungjawaban politik di lembaga perwakilan.",
           "antithesis_id": "Penyerahan hasil audit ke DPR menjadikan temuan bahan perdebatan politik, tetapi juga membuat tindak lanjutnya bergantung pada peta koalisi sehingga kedalaman pengusutan ditentukan kalkulasi partai alih-alih bukti.",
-          "synthesis_id": "Skor Baik (+1) karena hasil audit atas proyek yang melibatkan lingkaran kekuasaan diserahkan terbuka kepada lembaga perwakilan dan menjadi bahan pertanggungjawaban publik.",
+          "synthesis_id": "Skor Netral (0) karena hasil audit diserahkan terbuka kepada DPR, tetapi tindak lanjutnya bergantung pada peta koalisi sehingga kedalaman pengusutan ditentukan kalkulasi partai alih-alih bukti.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40670,11 +40670,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Melakukan audit investigatif pengadaan helikopter AW-101 pada 2017 dan menemukan kerugian negara pada belanja yang dialihkan dari kebutuhan dasar, menegakkan keadilan alokasi sumber daya publik.",
           "antithesis_id": "Audit atas pengadaan pertahanan tuntas dilakukan, tetapi tindak lanjut pidananya tersendat oleh dualisme peradilan militer dan umum sehingga pertanggungjawabannya tidak pernah utuh.",
-          "synthesis_id": "Skor Baik (+1) karena belanja pengadaan alat utama sistem persenjataan yang selama ini kebal diperiksa dan kerugiannya diungkap ke publik.",
+          "synthesis_id": "Skor Netral (0) karena belanja pengadaan pertahanan yang selama ini kebal berhasil diperiksa, sementara tindak lanjut pidananya tersendat dualisme peradilan militer dan umum.",
           "evidence": [
             {
               "source_id": "lhp-bpk-hambalang-2012"
@@ -40767,11 +40767,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Memeriksa kinerja belanja fungsi pendidikan pada periode ketika mandat 20 persen APBN telah dipenuhi secara nominal, menguji apakah besaran anggaran itu benar-benar sampai pada komponen utama pendidikan.",
           "antithesis_id": "Pemeriksaan kinerja mengungkap sebagian besar anggaran pendidikan terserap gaji dan tunjangan alih-alih mutu pembelajaran, tetapi temuan itu tidak berkonsekuensi karena pemenuhan mandat 20 persen dihitung secara nominal.",
-          "synthesis_id": "Skor Baik (+1) karena kualitas penggunaan anggaran pendidikan diperiksa dan bukan sekadar pemenuhan angkanya, membuka persoalan yang selama ini tertutup oleh capaian nominal.",
+          "synthesis_id": "Skor Netral (0) karena kualitas penggunaan anggaran pendidikan diperiksa dan bukan sekadar angkanya, tetapi temuannya tidak berkonsekuensi karena pemenuhan mandat 20 persen tetap dihitung nominal.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40796,11 +40796,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menjalankan pemeriksaan sesuai standar internasional pada entitas yang mengelola pinjaman dan hibah luar negeri sepanjang periode ini, menjaga kepercayaan mitra pembangunan atas akuntabilitas keuangan Indonesia.",
           "antithesis_id": "Kepercayaan mitra internasional dijaga lewat kepatuhan metodologi, tetapi tertangkapnya auditor BPK menjual opini pada 2017 merusak reputasi profesional yang dibangun bertahun-tahun dalam sekali peristiwa.",
-          "synthesis_id": "Skor Baik (+1) karena pemeriksaan atas pengelolaan pinjaman dan hibah luar negeri dijalankan sesuai standar yang diakui mitra pembangunan internasional.",
+          "synthesis_id": "Skor Netral (0) karena kepatuhan metodologi menjaga kepercayaan mitra internasional, tepat sebanding dengan reputasi profesional yang runtuh oleh auditor BPK yang tertangkap menjual opini.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -40825,11 +40825,11 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Mempublikasikan capaian opini laporan keuangan pemerintah pusat dan daerah secara terbuka sejak penerapan akuntansi akrual 2016, menjadikan mutu pengelolaan keuangan setiap entitas dapat diperiksa warga.",
           "antithesis_id": "Publikasi opini memberi warga penanda mutu pengelolaan keuangan, tetapi nilai penanda itu runtuh ketika terbukti sebagian opini WTP diperoleh lewat suap kepada pemeriksanya.",
-          "synthesis_id": "Skor Baik (+1) karena opini atas laporan keuangan seluruh entitas pemerintah dipublikasikan terbuka, memberi warga alat menilai pengelolaan uangnya sendiri.",
+          "synthesis_id": "Skor Netral (0) karena opini atas laporan keuangan seluruh entitas dipublikasikan terbuka, tetapi nilainya sebagai penanda bagi warga runtuh ketika sebagian opini WTP terbukti diperoleh lewat suap.",
           "evidence": [
             {
               "source_id": "laporan-bpk-lkpp-2016"
@@ -41026,11 +41026,11 @@
         },
         {
           "dimension_id": "sila-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Melakukan audit kinerja pengadaan sarana pertanian pada 2025 dan memeriksa restrukturisasi utang badan usaha milik negara pada 2023, menjaga amanah pengelolaan sumber daya publik pada sektor yang menyangkut hajat hidup orang banyak.",
           "antithesis_id": "Audit kinerja atas pengadaan dan restrukturisasi berjalan rutin, tetapi rekomendasinya tidak mengikat dan tingkat tindak lanjutnya oleh entitas yang diperiksa tetap menjadi persoalan yang berulang dalam setiap ikhtisar.",
-          "synthesis_id": "Skor Baik (+1) karena pengelolaan sumber daya publik pada sektor pangan dan badan usaha negara diperiksa dari sisi kinerja, bukan sekadar kepatuhan administratif.",
+          "synthesis_id": "Skor Netral (0) karena audit kinerja pengadaan dan restrukturisasi berjalan rutin, sementara rekomendasinya tidak mengikat dan tingkat tindak lanjutnya tetap menjadi persoalan berulang dalam setiap ikhtisar.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -41088,11 +41088,11 @@
         },
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Melakukan audit kinerja pengelolaan Dana Otonomi Khusus Papua pada 2021 dan memotret kesiapan infrastruktur serta tata kelola anggaran Ibu Kota Nusantara dalam IHPS I 2024, menguji efektivitas belanja pemerataan antarwilayah.",
           "antithesis_id": "Audit atas dana otonomi khusus mengungkap persoalan penyerapan dan tata kelola, tetapi tidak menyentuh persoalan politik yang mendasarinya sehingga temuan fiskal tidak menjawab akar ketimpangan di wilayah yang diperiksa.",
-          "synthesis_id": "Skor Baik (+1) karena belanja pemerataan antarwilayah terbesar - Otsus Papua dan pembangunan ibu kota baru - diperiksa efektivitasnya secara independen.",
+          "synthesis_id": "Skor Netral (0) karena belanja Otsus Papua dan IKN diperiksa efektivitasnya, tetapi temuan fiskal tidak menjawab akar ketimpangan politik di wilayah yang diperiksa.",
           "evidence": [
             {
               "source_id": "lhp-bpk-otsus-papua-2021"
@@ -41118,11 +41118,11 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Mengungkap jutaan hektare perkebunan sawit ilegal tanpa izin yang merugikan penerimaan negara pada audit 2023, menempatkan hasil pemeriksaan sebagai bahan pertanggungjawaban publik atas penguasaan sumber daya alam.",
           "antithesis_id": "Temuan sawit ilegal berskala jutaan hektare diangkat ke publik, tetapi penyelesaiannya dialihkan ke skema pemutihan administratif sehingga pelanggaran justru memperoleh legalisasi alih-alih sanksi.",
-          "synthesis_id": "Skor Baik (+1) karena penguasaan lahan tanpa izin berskala masif yang merugikan penerimaan negara dibongkar dan diangkat menjadi persoalan publik.",
+          "synthesis_id": "Skor Netral (0) karena temuan sawit ilegal jutaan hektare diangkat ke publik, tetapi penyelesaiannya dialihkan ke pemutihan administratif sehingga pelanggaran justru memperoleh legalisasi.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -41150,11 +41150,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Melakukan audit investigatif yang mengungkap kerugian negara pada pengadaan darurat penanganan COVID-19 dan memeriksa kepatuhan penanganan pandemi pada 2021, mengawasi belanja perlindungan warga di masa krisis kesehatan.",
           "antithesis_id": "Pemeriksaan atas belanja darurat dituntaskan, tetapi dilakukan setelah pengadaan berlangsung dengan relaksasi aturan yang ditetapkan UU 2/2020, sehingga audit hanya dapat mencatat kerugian yang sudah terjadi.",
-          "synthesis_id": "Skor Baik (+1) karena belanja darurat penanganan pandemi yang dikeluarkan dengan relaksasi aturan tetap diperiksa dan kerugiannya diungkap.",
+          "synthesis_id": "Skor Netral (0) karena belanja darurat pandemi tetap diperiksa, tetapi audit dilakukan setelah pengadaan berlangsung dengan relaksasi aturan sehingga hanya dapat mencatat kerugian yang sudah terjadi.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -41228,11 +41228,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Menyerahkan Ikhtisar Hasil Pemeriksaan Semester II 2024 kepada lembaga perwakilan pada 2025 yang memuat pemeriksaan atas belanja fungsi pendidikan, menjaga pengawasan mandat anggaran pendidikan tetap berkala.",
           "antithesis_id": "Penyerahan ikhtisar berjalan berkala, tetapi pada periode yang sama tim pemeriksa BPK Jawa Barat tertangkap tangan menerima suap sehingga keandalan temuan yang disampaikan ikut dipersoalkan.",
-          "synthesis_id": "Skor Baik (+1) karena pemeriksaan atas belanja fungsi pendidikan disampaikan secara berkala kepada lembaga perwakilan sebagai bahan pengawasan mandat konstitusional.",
+          "synthesis_id": "Skor Netral (0) karena pemeriksaan belanja pendidikan disampaikan berkala, tepat sebanding dengan tim pemeriksa BPK Jawa Barat yang tertangkap tangan menerima suap pada periode yang sama.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -41334,11 +41334,11 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Menyerahkan Ikhtisar Hasil Pemeriksaan Semester I 2025 dan hasil audit pengawasan kepada lembaga perwakilan pada 2026, menjaga siklus pertanggungjawaban keuangan negara kepada rakyat tetap berjalan tanpa terputus.",
           "antithesis_id": "Siklus pertanggungjawaban berjalan tertib secara prosedural, tetapi rangkaian penangkapan auditor dan vonis terhadap anggota BPK sendiri membuat laporan yang disampaikan tidak lagi otomatis dipercaya publik.",
-          "synthesis_id": "Skor Baik (+1) karena siklus penyampaian hasil pemeriksaan kepada lembaga perwakilan dijaga tetap berjalan berkala tanpa terputus.",
+          "synthesis_id": "Skor Netral (0) karena siklus penyampaian hasil pemeriksaan berjalan tertib secara prosedural, tetapi rangkaian penangkapan auditor dan vonis atas anggota BPK sendiri membuat laporannya tidak lagi otomatis dipercaya publik.",
           "evidence": [
             {
               "source_id": "bpk-ihps-pen-2021"
@@ -41538,11 +41538,11 @@
         },
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Membangun sistem pengaduan masyarakat atas perilaku hakim yang dapat diakses dari seluruh wilayah sejak berdirinya 2005, menyediakan satu saluran nasional bagi pencari keadilan di mana pun mereka berperkara.",
           "antithesis_id": "Saluran pengaduan tersedia secara nasional tetapi kantor penghubung di daerah belum dibentuk pada periode ini, sehingga akses nyata bagi pengadu di luar Jakarta masih sangat terbatas.",
-          "synthesis_id": "Skor Baik (+1) karena warga di seluruh wilayah memperoleh satu saluran resmi mengadukan perilaku hakim, hak yang sebelumnya tidak pernah ada.",
+          "synthesis_id": "Skor Netral (0) karena saluran pengaduan nasional tersedia di atas kertas sementara kantor penghubung daerah belum dibentuk, sehingga akses nyata bagi pengadu di luar Jakarta tidak berubah.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41625,11 +41625,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Menetapkan Peraturan Bersama Mahkamah Agung dan Komisi Yudisial tentang kode etik pada 2009, memberi hakim standar perilaku yang jelas sekaligus melindungi mereka dari tuduhan yang tidak berdasar.",
           "antithesis_id": "Peraturan bersama memberi kepastian standar, tetapi tidak disertai jaminan keamanan bagi hakim yang mengadili perkara berisiko maupun bagi pengadu yang melaporkan penyimpangan.",
-          "synthesis_id": "Skor Baik (+1) karena hakim memperoleh standar perilaku yang pasti sekaligus perlindungan dari tuduhan sewenang-wenang lewat peraturan yang mengikat dua lembaga.",
+          "synthesis_id": "Skor Netral (0) karena peraturan bersama memberi kepastian standar perilaku tanpa jaminan keamanan bagi hakim maupun pengadu, sehingga keadaan perlindungan tidak berubah.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41657,11 +41657,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Memetakan praktik suap dalam sengketa perdata dan bisnis lewat laporan pemetaan mafia peradilan 2007, mengangkat biaya tersembunyi berperkara yang membebani pelaku usaha dan warga sebagai persoalan kelembagaan.",
           "antithesis_id": "Pemetaan mengangkat persoalan ke ruang publik tetapi tidak berlanjut ke penindakan karena kewenangan KY atas hakim agung sudah dicabut, sehingga simpul tertinggi rantai penyimpangan tetap tidak tersentuh.",
-          "synthesis_id": "Skor Baik (+1) karena biaya tersembunyi berperkara yang selama ini dianggap kelaziman diangkat menjadi temuan resmi lembaga negara.",
+          "synthesis_id": "Skor Netral (0) karena biaya tersembunyi berperkara diangkat menjadi temuan resmi tanpa penindakan, sebab kewenangan atas hakim agung sudah dicabut lebih dulu.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41693,11 +41693,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menerbitkan laporan tahunan sejak 2006 yang memuat data pengaduan masyarakat dan rekomendasi sanksi secara terbuka, menjadikan kinerja pengawasan peradilan bahan belajar publik atas cara kerja lembaga kehakiman.",
           "antithesis_id": "Laporan tahunan membuka data pengaduan tetapi tidak dapat mengungkap tindak lanjut yang dilakukan Mahkamah Agung, sehingga publik mengetahui persoalannya tanpa mengetahui penyelesaiannya.",
-          "synthesis_id": "Skor Baik (+1) karena data pengaduan dan rekomendasi sanksi atas hakim dipublikasikan terbuka, membuka kerja lembaga peradilan kepada pengetahuan publik.",
+          "synthesis_id": "Skor Netral (0) karena laporan tahunan membuka data pengaduan tanpa dapat mengungkap tindak lanjutnya, sehingga pengetahuan publik yang dihasilkan tidak utuh.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41722,11 +41722,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Mengadopsi prinsip Bangalore tentang perilaku yudisial ke dalam Kode Etik dan Pedoman Perilaku Hakim 2009, menyelaraskan standar integritas peradilan Indonesia dengan kaidah yang diakui komunitas hukum internasional.",
           "antithesis_id": "Prinsip internasional diadopsi ke dalam teks kode etik, tetapi mekanisme penegakannya jauh lebih lemah daripada model yang menjadi rujukan karena kewenangan sanksi tetap berada di lembaga yang diawasi.",
-          "synthesis_id": "Skor Baik (+1) karena standar integritas yudisial yang diakui internasional diadopsi menjadi norma yang mengikat seluruh hakim Indonesia.",
+          "synthesis_id": "Skor Netral (0) karena prinsip integritas yudisial internasional diadopsi ke dalam teks kode etik tanpa mekanisme penegakan yang setara dengan modelnya.",
           "evidence": [
             {
               "source_id": "uu-22-2004"
@@ -41882,11 +41882,11 @@
         },
         {
           "dimension_id": "sila-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Menerapkan investigasi rekam jejak publik dalam seleksi hakim sejak 2011, menempatkan integritas personal calon sebagai syarat yang diperiksa dan bukan sekadar dinyatakan.",
           "antithesis_id": "Investigasi rekam jejak diterapkan dengan sumber daya terbatas dan tanpa akses ke data keuangan calon, sehingga kedalamannya bergantung pada informasi yang bersedia diberikan pihak lain.",
-          "synthesis_id": "Skor Baik (+1) karena integritas calon hakim mulai diperiksa lewat penelusuran rekam jejak nyata, bukan hanya lewat pernyataan dan berkas administratif.",
+          "synthesis_id": "Skor Netral (0) karena penelusuran rekam jejak diterapkan dengan sumber daya terbatas dan tanpa akses data keuangan calon, sehingga kedalaman pemeriksaan integritas belum berubah.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -41960,11 +41960,11 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Kehilangan kewenangan turut menyeleksi hakim tingkat pertama lewat Putusan MK No. 43/PUU-XIII/2015, putusan yang mempersempit peran pengawas eksternal dalam pengisian jabatan kehakiman.",
           "antithesis_id": "Mahkamah Konstitusi beralasan seleksi hakim adalah bagian kemandirian kekuasaan kehakiman yang tidak boleh dicampuri lembaga lain, argumen yang secara doktriner memiliki dasar konstitusional.",
-          "synthesis_id": "Skor Baik (+1) karena sepanjang periode ini KY tetap menjalankan seleksi terbuka dan pemantauan partisipatif, meski kewenangannya dipersempit di ujung masa jabatan.",
+          "synthesis_id": "Skor Netral (0) karena seleksi terbuka dan pemantauan partisipatif dijalankan penuh, tepat sebanding dengan dipangkasnya kewenangan KY dalam seleksi hakim lewat Putusan MK No. 43/PUU-XIII/2015 di ujung periode.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -41988,11 +41988,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menghadapi penetapan dua komisionernya sebagai tersangka pada 2015 atas laporan pihak yang diawasi, memperlihatkan risiko kriminalisasi balik yang dihadapi pengawas peradilan ketika menyentuh kepentingan besar.",
           "antithesis_id": "Penetapan tersangka atas komisioner KY dapat dibaca sebagai penegakan hukum yang berlaku bagi siapa pun termasuk pengawas, prinsip yang secara normatif tidak boleh dikecualikan.",
-          "synthesis_id": "Skor Baik (+1) karena KY tetap menjalankan fungsi pengawasan atas perkara yang menyangkut hak buruh, tanah, dan lingkungan meski komisionernya sendiri menghadapi jeratan pidana.",
+          "synthesis_id": "Skor Netral (0) karena pengawasan atas perkara hak buruh, tanah, dan lingkungan tetap berjalan, tepat sebanding dengan dua komisionernya sendiri yang ditetapkan tersangka atas laporan pihak yang diawasi.",
           "evidence": [
             {
               "source_id": "pp-94-2012"
@@ -42017,7 +42017,7 @@
           "confidence": 0.7,
           "rationale_id": "Memperoleh kewenangan investigasi mandiri lewat UU No. 18 Tahun 2011 termasuk memanggil dan memeriksa saksi, memberi KY alat menelusuri dugaan pelanggaran etik tanpa bergantung pada keterangan pihak yang diawasi.",
           "antithesis_id": "Kewenangan investigasi diberikan tanpa daya paksa, sehingga pihak yang menolak memenuhi panggilan tidak dapat dikenai konsekuensi apa pun dan penelusuran bergantung pada kerja sama sukarela.",
-          "synthesis_id": "Skor Baik (+1) karena KY memperoleh kewenangan menelusuri dugaan pelanggaran etik secara mandiri, mengakhiri ketergantungan penuh pada keterangan lembaga yang diawasinya.",
+          "synthesis_id": "Skor Baik (+1) karena KY memperoleh kewenangan menelusuri dugaan pelanggaran etik secara mandiri lewat UU No. 18 Tahun 2011, mengakhiri ketergantungan penuh pada keterangan lembaga yang diawasinya.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -42038,11 +42038,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menggunakan kewenangan investigasi baru dari UU No. 18 Tahun 2011 untuk menelusuri dugaan suap dalam perkara bisnis dan kepailitan, menjaga kepastian hukum yang menjadi prasyarat kegiatan ekonomi.",
           "antithesis_id": "Penelusuran dugaan suap perkara bisnis terhambat oleh ketiadaan akses ke data transaksi keuangan, sehingga sebagian besar dugaan berhenti pada tahap yang tidak dapat dibuktikan secara etik maupun pidana.",
-          "synthesis_id": "Skor Baik (+1) karena dugaan penyimpangan dalam perkara bisnis mulai ditelusuri secara mandiri, menjaga kepastian hukum yang menopang kegiatan ekonomi.",
+          "synthesis_id": "Skor Netral (0) karena penelusuran dugaan suap perkara bisnis terhambat ketiadaan akses data transaksi keuangan, sehingga sebagian besar berhenti tanpa dapat dibuktikan.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -42089,11 +42089,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Menyelaraskan kewenangan investigasi dalam UU No. 18 Tahun 2011 dengan praktik lembaga pengawas peradilan di berbagai negara, memperkuat posisi Indonesia dalam jaringan integritas yudisial internasional.",
           "antithesis_id": "Penyelarasan berlangsung pada tataran kewenangan formal, sementara ukuran yang dipakai jaringan internasional yaitu tingkat eksekusi rekomendasi sanksi tetap rendah karena berada di luar kendali KY.",
-          "synthesis_id": "Skor Baik (+1) karena kewenangan pengawas peradilan Indonesia disejajarkan dengan praktik yang berlaku di negara lain, memperkuat kedudukan Indonesia dalam kerja sama integritas yudisial.",
+          "synthesis_id": "Skor Netral (0) karena penyelarasan dengan praktik internasional berlangsung pada tataran kewenangan formal sementara tingkat eksekusi rekomendasi sanksi tetap rendah.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -42114,11 +42114,11 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Melibatkan masyarakat dalam investigasi rekam jejak calon hakim agung sejak 2011 dan menggelar uji publik terbuka pada 2013, memperluas peran warga dalam menentukan siapa yang mengadili perkaranya.",
           "antithesis_id": "Peran warga diperluas di tahap seleksi tetapi dipangkas kembali oleh Putusan MK No. 43/PUU-XIII/2015 yang mencabut keterlibatan KY dalam seleksi hakim tingkat pertama, memutus akses publik ke jenjang yang paling sering ditemui warga.",
-          "synthesis_id": "Skor Baik (+1) karena rekam jejak calon hakim agung ditelusuri dengan melibatkan masukan masyarakat, memperkuat peran warga dalam pengisian jabatan kehakiman.",
+          "synthesis_id": "Skor Netral (0) karena peran warga diperluas pada seleksi hakim agung, tepat sebanding dengan dicabutnya keterlibatan KY pada seleksi hakim tingkat pertama yang paling sering ditemui warga.",
           "evidence": [
             {
               "source_id": "laporan-ky-seleksi-cha-2011"
@@ -42254,11 +42254,11 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Mengadvokasi jaminan keamanan dan perlindungan hakim pada 2016 setelah rangkaian ancaman dan kekerasan terhadap hakim yang menangani perkara sensitif, menjaga martabat dan keselamatan penegak keadilan.",
           "antithesis_id": "Advokasi perlindungan hakim berjalan sementara perlindungan bagi pelapor dan saksi yang mengadukan perilaku hakim tidak dibangun setara, sehingga risiko justru ditanggung pihak yang paling lemah kedudukannya.",
-          "synthesis_id": "Skor Baik (+1) karena keselamatan hakim yang mengadili perkara berisiko diangkat menjadi persoalan kelembagaan yang diadvokasikan secara resmi.",
+          "synthesis_id": "Skor Netral (0) karena keselamatan hakim diadvokasikan sementara perlindungan bagi pelapor dan saksi yang mengadukan hakim tidak dibangun setara.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2016"
@@ -42273,11 +42273,11 @@
         },
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Melakukan pemantauan terpadu atas persidangan sengketa di daerah pada 2019 dengan menurunkan tim ke lokasi perkara, memastikan standar peradilan yang sama berlaku di luar pusat pemerintahan.",
           "antithesis_id": "Pemantauan terpadu dilakukan secara selektif pada perkara yang mendapat sorotan, sementara ribuan persidangan lain di daerah berlangsung tanpa pengawasan karena keterbatasan personel dan kantor penghubung.",
-          "synthesis_id": "Skor Baik (+1) karena pemantauan persidangan dibawa langsung ke daerah tempat perkara diadili, menjaga standar peradilan tidak berbeda antara pusat dan wilayah.",
+          "synthesis_id": "Skor Netral (0) karena pemantauan terpadu dibawa ke daerah secara selektif pada perkara yang disorot, sementara ribuan persidangan lain berlangsung tanpa pengawasan.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42298,11 +42298,11 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Menandatangani deklarasi bersama integritas peradilan pada 2018 yang melibatkan lembaga penegak hukum dan organisasi masyarakat sipil, membangun komitmen pengawasan yang dimusyawarahkan lintas pemangku kepentingan.",
           "antithesis_id": "Deklarasi bersama menghasilkan komitmen tanpa mekanisme penegakan, sehingga nilainya bergantung pada kesediaan masing-masing penanda tangan dan tidak dapat ditagih ketika komitmen itu diabaikan.",
-          "synthesis_id": "Skor Baik (+1) karena komitmen integritas peradilan disepakati bersama lintas lembaga dan masyarakat sipil, memperluas pengawasan di luar mekanisme negara semata.",
+          "synthesis_id": "Skor Netral (0) karena deklarasi bersama integritas peradilan menghasilkan komitmen lintas lembaga tanpa mekanisme penegakan yang dapat ditagih.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42323,11 +42323,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menerjunkan tim pemantau persidangan pada 2017 untuk perkara yang menyangkut hak masyarakat kecil, memastikan ketimpangan kedudukan para pihak tidak berlanjut menjadi ketimpangan perlakuan di ruang sidang.",
           "antithesis_id": "Kehadiran pemantau mengubah perilaku di ruang sidang selama pemantauan berlangsung, tetapi tidak dapat menjangkau tahap penyusunan putusan tempat penyimpangan yang paling menentukan biasanya terjadi.",
-          "synthesis_id": "Skor Baik (+1) karena persidangan yang melibatkan pihak dengan kedudukan lemah memperoleh pemantauan resmi, mengurangi ruang perlakuan yang tidak setara.",
+          "synthesis_id": "Skor Netral (0) karena kehadiran pemantau mengubah perilaku selama persidangan berlangsung tetapi tidak menjangkau tahap penyusunan putusan tempat penyimpangan paling menentukan terjadi.",
           "evidence": [
             {
               "source_id": "uu-18-2011"
@@ -42342,11 +42342,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Menandatangani nota kesepahaman dengan aparat keamanan pada 2019 tentang perlindungan hakim dan pengamanan persidangan, membangun kerangka kerja sama menjaga keselamatan proses peradilan.",
           "antithesis_id": "Kerangka kerja sama disepakati di tingkat pusat tetapi penerapannya di pengadilan daerah bergantung pada inisiatif aparat setempat, sehingga perlindungan yang dijanjikan tidak merata.",
-          "synthesis_id": "Skor Baik (+1) karena pengamanan persidangan dan perlindungan hakim memperoleh kerangka kerja sama resmi antarlembaga.",
+          "synthesis_id": "Skor Netral (0) karena kerangka kerja sama pengamanan persidangan disepakati di tingkat pusat sementara penerapannya di daerah bergantung pada inisiatif aparat setempat.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42370,11 +42370,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Memberhentikan hakim penerima suap lewat sidang Majelis Kehormatan Hakim 2019, menegakkan kepastian bahwa putusan tidak dapat dibeli sebagai prasyarat kepercayaan dalam kegiatan ekonomi.",
           "antithesis_id": "Pemberhentian dilakukan atas perkara yang sudah terungkap lewat operasi tangkap tangan lembaga lain, sehingga fungsi pencegahan KY sendiri belum terbukti mampu mendeteksi sebelum penyimpangan terjadi.",
-          "synthesis_id": "Skor Baik (+1) karena hakim yang menerima suap dalam perkara diberhentikan, menegaskan konsekuensi bagi praktik yang merusak kepastian hukum kegiatan usaha.",
+          "synthesis_id": "Skor Netral (0) karena hakim penerima suap diberhentikan setelah perkaranya terungkap lembaga lain, sehingga fungsi pencegahan KY sendiri belum terbukti bekerja.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42395,11 +42395,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Mempublikasikan hasil sidang Majelis Kehormatan Hakim dan rekomendasi sanksi secara terbuka sepanjang periode, menjadikan penegakan etik peradilan bahan belajar publik tentang standar perilaku pemangku kekuasaan.",
           "antithesis_id": "Publikasi hasil sidang etik terbuka bagi publik, tetapi rekomendasi sanksi yang tidak dieksekusi Mahkamah Agung tidak dilaporkan dengan sama terbukanya sehingga gambaran yang diterima publik tidak utuh.",
-          "synthesis_id": "Skor Baik (+1) karena hasil penegakan etik peradilan dibuka kepada publik, menjadikannya rujukan tentang standar perilaku yang berlaku bagi pemangku kekuasaan mengadili.",
+          "synthesis_id": "Skor Netral (0) karena hasil sidang etik dipublikasikan sementara rekomendasi yang ditolak Mahkamah Agung tidak dilaporkan sama terbukanya, sehingga gambaran publik tidak utuh.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42420,11 +42420,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Menyelaraskan praktik pemantauan persidangan dan penegakan etik dengan standar integritas yudisial internasional lewat kerja sama dan deklarasi bersama 2018, menjaga kredibilitas peradilan Indonesia di mata mitra global.",
           "antithesis_id": "Penyelarasan berlangsung pada tataran komitmen dan metode, sementara indikator yang paling diperhatikan mitra internasional yaitu tingkat eksekusi sanksi tetap menjadi kelemahan yang berulang dilaporkan.",
-          "synthesis_id": "Skor Baik (+1) karena praktik pengawasan peradilan Indonesia diselaraskan dengan standar integritas yudisial yang diakui secara internasional.",
+          "synthesis_id": "Skor Netral (0) karena penyelarasan dengan standar integritas internasional berjalan pada tataran komitmen sementara tingkat eksekusi sanksi tetap menjadi kelemahan yang berulang.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42445,11 +42445,11 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Membuka pengaduan masyarakat atas perilaku hakim dan menindaklanjutinya hingga sidang Majelis Kehormatan Hakim 2019, memberi warga jalur nyata menuntut pertanggungjawaban pemangku kekuasaan mengadili.",
           "antithesis_id": "Jalur pengaduan terbuka dan sebagian berujung sidang etik, tetapi rasio antara pengaduan yang masuk dan yang berujung sanksi tetap sangat kecil sehingga sebagian besar pengadu tidak memperoleh penyelesaian.",
-          "synthesis_id": "Skor Baik (+1) karena pengaduan warga atas perilaku hakim ditindaklanjuti hingga forum pemberhentian, membuktikan jalur pertanggungjawaban itu dapat berfungsi.",
+          "synthesis_id": "Skor Netral (0) karena pengaduan warga ditindaklanjuti hingga forum pemberhentian, tepat sebanding dengan rasio pengaduan berujung sanksi yang tetap sangat kecil.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2019"
@@ -42594,11 +42594,11 @@
         },
         {
           "dimension_id": "sila-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Menjalankan investigasi khusus bersama Kejaksaan Agung pada 2024 atas skandal mafia peradilan Zarof Ricar, menegakkan pertanggungjawaban etik atas praktik yang merusak amanah jabatan mengadili.",
           "antithesis_id": "Investigasi dijalankan bersama penegak hukum lain karena KY sendiri tidak berwenang memeriksa hakim agung, sehingga perannya bergantung pada kesediaan lembaga lain membuka akses.",
-          "synthesis_id": "Skor Baik (+1) karena skandal mafia peradilan berskala terbesar ditelusuri dari sisi etik bersama penegak hukum, menutup celah yang selama ini dibiarkan.",
+          "synthesis_id": "Skor Netral (0) karena investigasi skandal mafia peradilan dijalankan bersama penegak hukum lain, sebab KY sendiri tidak berwenang memeriksa hakim agung yang menjadi pusat perkaranya.",
           "evidence": [
             {
               "source_id": "laporan-seleksi-ha-ky-2021"
@@ -42622,11 +42622,11 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menyelenggarakan seleksi calon hakim agung dan hakim ad hoc hak asasi manusia pada 2021, mengisi jabatan yang menentukan penanganan perkara pelanggaran HAM berat yang lama terbengkalai.",
           "antithesis_id": "Seleksi hakim ad hoc HAM diselenggarakan, tetapi pengadilan HAM yang menjadi tempat mereka bertugas nyaris tidak menerima perkara karena penyidikan pelanggaran HAM berat mandek di kejaksaan.",
-          "synthesis_id": "Skor Baik (+1) karena jabatan hakim ad hoc HAM diisi lewat seleksi terbuka, menyiapkan kelembagaan peradilan bagi perkara pelanggaran hak asasi berat.",
+          "synthesis_id": "Skor Netral (0) karena jabatan hakim ad hoc HAM diisi lewat seleksi terbuka sementara pengadilan tempat mereka bertugas nyaris tidak menerima perkara karena penyidikan mandek di kejaksaan.",
           "evidence": [
             {
               "source_id": "putusan-mkh-pn-surabaya-2024"
@@ -42650,11 +42650,11 @@
         },
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Menerbitkan Laporan Kinerja 2023 yang memuat rekomendasi sanksi atas hakim dari berbagai wilayah, menegakkan standar integritas yang seragam bagi peradilan di seluruh daerah.",
           "antithesis_id": "Rekomendasi menjangkau hakim di berbagai wilayah, tetapi sebagian besar tidak dieksekusi Mahkamah Agung sehingga keseragaman standar yang dituju tidak terwujud dalam konsekuensi nyata.",
-          "synthesis_id": "Skor Baik (+1) karena pengawasan etik dijalankan merata atas hakim di seluruh wilayah dan hasilnya dilaporkan terbuka setiap tahun.",
+          "synthesis_id": "Skor Netral (0) karena rekomendasi sanksi menjangkau hakim di berbagai wilayah tetapi sebagian besar tidak dieksekusi Mahkamah Agung, sehingga keseragaman standar tidak terwujud.",
           "evidence": [
             {
               "source_id": "laporan-seleksi-ha-ky-2021"
@@ -42675,11 +42675,11 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Menggelar sidang Majelis Kehormatan Hakim bersama Mahkamah Agung pada 2023 sebagai forum yang mempertemukan pengawas internal dan eksternal dalam memutus nasib hakim yang diadukan.",
           "antithesis_id": "Forum bersama mensyaratkan kesepakatan dua lembaga untuk digelar, sehingga perkara yang tidak disetujui Mahkamah Agung tidak pernah sampai ke sidang meski rekomendasi KY sudah keluar.",
-          "synthesis_id": "Skor Baik (+1) karena keputusan atas pelanggaran etik hakim diambil dalam forum yang mempertemukan pengawas dari dalam dan luar lembaga peradilan.",
+          "synthesis_id": "Skor Netral (0) karena forum bersama pemeriksa etik tetap mensyaratkan persetujuan Mahkamah Agung untuk digelar, sehingga perkara yang tidak disetujui tidak pernah sampai ke sidang.",
           "evidence": [
             {
               "source_id": "laporan-seleksi-ha-ky-2021"
@@ -42700,11 +42700,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Melakukan pemeriksaan etik khusus pada 2022 setelah operasi tangkap tangan terhadap hakim agung dalam perkara koperasi simpan pinjam, menelusuri penyimpangan pada perkara yang menyangkut dana masyarakat kecil.",
           "antithesis_id": "Pemeriksaan etik dilakukan setelah penangkapan oleh lembaga lain dan terbatas pada aspek yang dapat diakses KY, karena kewenangan memeriksa hakim agung telah dicabut Mahkamah Konstitusi sejak 2006.",
-          "synthesis_id": "Skor Baik (+1) karena penyimpangan dalam perkara yang menyangkut dana anggota koperasi ditelusuri dari sisi etik, menegaskan perkara rakyat kecil tidak boleh diperjualbelikan.",
+          "synthesis_id": "Skor Netral (0) karena pemeriksaan etik dilakukan setelah penangkapan oleh lembaga lain dan terbatas pada aspek yang dapat diakses KY.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2022"
@@ -42753,11 +42753,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menyelenggarakan Program Nasional Klinik Etik dan Advokasi Kehakiman sejak 2021 yang membekali warga dan pelaku usaha memahami jalur pengaduan perilaku hakim, memperkuat kepastian hukum dalam berperkara.",
           "antithesis_id": "Program klinik etik memperluas pengetahuan tentang jalur pengaduan, tetapi tidak mengubah kenyataan bahwa sebagian besar pengaduan berakhir tanpa sanksi sehingga pengetahuan itu tidak selalu berujung pemulihan.",
-          "synthesis_id": "Skor Baik (+1) karena warga dan pelaku usaha dibekali pengetahuan mengadukan penyimpangan perilaku hakim, memperkuat pengawasan yang datang dari pengguna peradilan sendiri.",
+          "synthesis_id": "Skor Netral (0) karena klinik etik memperluas pengetahuan tentang jalur pengaduan tanpa mengubah kenyataan bahwa sebagian besar pengaduan berakhir tanpa sanksi.",
           "evidence": [
             {
               "source_id": "laporan-seleksi-ha-ky-2021"
@@ -42781,11 +42781,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menerbitkan Laporan Tahunan 2023 yang memuat rekomendasi sanksi etik beserta data pengaduan secara terbuka, menjadikan kinerja pengawasan peradilan bahan pembelajaran publik yang dapat diperiksa.",
           "antithesis_id": "Laporan tahunan memuat data rekomendasi tetapi tidak dapat melaporkan alasan Mahkamah Agung menolak sebagian besarnya, sehingga bagian paling penting bagi pembelajaran publik justru tidak tersedia.",
-          "synthesis_id": "Skor Baik (+1) karena data pengaduan dan rekomendasi sanksi dipublikasikan terbuka setiap tahun, menjaga kinerja pengawasan peradilan dapat diperiksa siapa pun.",
+          "synthesis_id": "Skor Netral (0) karena data rekomendasi dipublikasikan tanpa dapat melaporkan alasan penolakannya oleh Mahkamah Agung, bagian yang justru paling penting bagi pembelajaran publik.",
           "evidence": [
             {
               "source_id": "laporan-tahunan-ky-2021"
@@ -42803,11 +42803,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Menerjunkan tim pemantau khusus pada 2023 untuk persidangan perkara yang menarik perhatian internasional termasuk perkara vonis mati, menjaga standar peradilan Indonesia sesuai kaidah yang diakui komunitas global.",
           "antithesis_id": "Pemantauan menjaga standar prosedural dalam persidangan yang disorot, tetapi tidak menyentuh persoalan substantif yang paling dipersoalkan dunia internasional yaitu pemberlakuan pidana mati itu sendiri.",
-          "synthesis_id": "Skor Baik (+1) karena persidangan yang menjadi perhatian internasional dipantau secara resmi, menjaga proses peradilan Indonesia berlangsung sesuai standar yang dapat dipertanggungjawabkan.",
+          "synthesis_id": "Skor Netral (0) karena pemantauan menjaga standar prosedural persidangan yang disorot tanpa menyentuh persoalan substantif yang paling dipersoalkan dunia internasional.",
           "evidence": [
             {
               "source_id": "laporan-seleksi-ha-ky-2021"
@@ -42831,11 +42831,11 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Merilis Laporan Tahunan 2025 pada 2026 tentang penguatan integritas peradilan dan menerapkan skrining LHKPN digital serta penelusuran latar belakang calon hakim sejak 2025, memperluas akses publik menilai pemangku kekuasaan mengadili.",
           "antithesis_id": "Skrining kekayaan dan rekam jejak diperkuat pada tahap seleksi, tetapi keputusan akhir pengisian jabatan hakim agung tetap berada pada uji kelayakan DPR yang pertimbangannya tidak dibuka kepada publik.",
-          "synthesis_id": "Skor Baik (+1) karena penelusuran kekayaan dan rekam jejak calon hakim dilembagakan secara digital, memperkuat kemampuan publik menilai integritas pemangku kekuasaan kehakiman.",
+          "synthesis_id": "Skor Netral (0) karena penelusuran kekayaan dan rekam jejak calon hakim diperkuat pada tahap seleksi, sementara keputusan akhir tetap pada uji kelayakan DPR yang pertimbangannya tidak dibuka.",
           "evidence": [
             {
               "source_id": "laporan-seleksi-ha-ky-2021"
@@ -43293,7 +43293,7 @@
           "confidence": 0.8,
           "rationale_id": "Pelaksanaan sidang pelantikan presiden dan wapres hasil pemilu langsung pertama berjalan tertib konstitusional.",
           "antithesis_id": "Pelantikan berjalan tertib, tetapi itu adalah tugas seremonial yang tersisa setelah amandemen mencabut kewenangan MPR memilih presiden - permusyawaratan yang dulu menjadi inti lembaga ini berpindah ke bilik suara.",
-          "synthesis_id": "Skor Baik (+1) karena MPR menjalankan peran barunya sebagai pelantik presiden hasil pemilihan langsung tanpa mempersoalkan hilangnya kewenangan memilih, menerima pengurangan kekuasaannya sendiri.",
+          "synthesis_id": "Skor Baik (+1) karena MPR menjalankan peran barunya sebagai pelantik presiden hasil pemilihan langsung dan menerima pencabutan kewenangannya sendiri tanpa perlawanan, mengukuhkan hasil amandemen.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43327,11 +43327,11 @@
         },
         {
           "dimension_id": "sila-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menginisiasi program sosialisasi nilai-nilai kebangsaan pada 2005 sebagai peran baru MPR pasca-amandemen, menyebarkan pemahaman Pancasila termasuk sila Ketuhanan kepada masyarakat luas.",
           "antithesis_id": "Program sosialisasi berjalan tanpa indikator dampak, dan MPR tidak menggunakan wewenangnya membahas TAP yang masih berlaku untuk mengoreksi peraturan yang membatasi kebebasan beragama pada periode yang sama.",
-          "synthesis_id": "Skor Baik (+1) karena MPR mengisi peran barunya pasca-amandemen dengan penyebarluasan nilai kebangsaan, menjaga relevansi kelembagaannya setelah kewenangan utamanya dicabut.",
+          "synthesis_id": "Skor Netral (0) karena sosialisasi nilai kebangsaan berjalan sebagai program penyuluhan tanpa tindakan kelembagaan yang mengubah keadaan kebebasan beragama di periode ini.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43349,11 +43349,11 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": 2,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Mempertahankan berlakunya TAP MPR No. XVII/MPR/1998 tentang Hak Asasi Manusia dalam penataan status hukum ketetapan MPR pasca-amandemen, menjaga Piagam HAM tetap menjadi rujukan meski MPR tidak lagi berwenang menetapkan TAP baru.",
           "antithesis_id": "Piagam HAM dipertahankan sebagai dokumen yang masih berlaku, tetapi capaian normatifnya adalah pekerjaan MPR 1998 dan 1999-2004; periode ini tidak menambahkan apa pun pada perlindungan hak asasi selain memelihara warisan itu.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena Piagam HAM dan Bab XA UUD 1945 tetap berlaku sebagai norma tertinggi hak asasi, capaian yang dijaga MPR agar tidak dipersoalkan kembali.",
+          "synthesis_id": "Skor Netral (0) karena Piagam HAM dan Bab XA dipelihara tetap berlaku tanpa satu pun tindakan baru yang menambah maupun mengurangi perlindungan hak asasi.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43368,11 +43368,11 @@
         },
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Menyelenggarakan Sidang Tahunan 2008 yang memuat laporan kinerja lembaga negara pasca-amandemen, mempertemukan seluruh lembaga negara dalam satu forum sebagai wujud kesatuan penyelenggaraan negara.",
           "antithesis_id": "Sidang tahunan mempertemukan lembaga negara tetapi bersifat laporan sepihak tanpa mekanisme tanya jawab maupun tindak lanjut, sehingga forum itu lebih menyerupai upacara daripada pertanggungjawaban.",
-          "synthesis_id": "Skor Baik (+1) karena MPR menghidupkan forum tahunan yang mempertemukan seluruh lembaga negara, menjaga kesatuan penyelenggaraan negara pasca-amandemen tetap terlihat.",
+          "synthesis_id": "Skor Netral (0) karena sidang tahunan mempertemukan lembaga negara sebagai forum laporan sepihak, tanpa keputusan yang mengubah keadaan kesatuan penyelenggaraan negara.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43387,11 +43387,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Memelihara berlakunya TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria dalam penataan status ketetapan MPR, menjaga mandat keadilan agraria tetap hidup sebagai rujukan hukum meski tidak dijalankan pemerintah.",
           "antithesis_id": "Mandat pembaruan agraria dipelihara sebagai dokumen, tetapi MPR tidak pernah menagih pelaksanaannya kepada pemerintah maupun DPR sehingga pemeliharaan itu tidak berbuah tindakan apa pun bagi petani dan masyarakat adat.",
-          "synthesis_id": "Skor Baik (+1) karena mandat konstitusional pembaruan agraria dijaga tetap berlaku dan tidak dicabut, mempertahankan rujukan hukum bagi gerakan keadilan agraria.",
+          "synthesis_id": "Skor Netral (0) karena mandat pembaruan agraria dijaga tetap berlaku tanpa satu pun upaya menagih pelaksanaannya kepada pemerintah maupun DPR.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43403,11 +43403,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Memelihara berlakunya TAP MPR No. VI dan VII/MPR/2000 tentang pemisahan TNI dan Polri dalam penataan status ketetapan MPR, menjaga supremasi sipil atas alat negara tetap berdasar hukum yang mengikat.",
           "antithesis_id": "Pemeliharaan ketetapan pemisahan TNI-Polri bersifat pasif; MPR tidak menggunakan forum tahunannya untuk mengevaluasi pelaksanaan supremasi sipil maupun persoalan peradilan militer yang belum tuntas.",
-          "synthesis_id": "Skor Baik (+1) karena dasar hukum pemisahan TNI dan Polri dijaga tetap berlaku, mempertahankan supremasi sipil sebagai norma yang tidak dapat ditawar.",
+          "synthesis_id": "Skor Netral (0) karena dasar hukum pemisahan TNI dan Polri dipelihara secara pasif tanpa evaluasi atas pelaksanaan supremasi sipil yang menjadi isinya.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43419,11 +43419,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menjaga berlakunya Pasal 33 UUD 1945 hasil Perubahan Keempat sebagai landasan perekonomian nasional tanpa membuka kembali wacana perubahannya, memberi kepastian bagi tertib ekonomi konstitusional pasca-amandemen.",
           "antithesis_id": "Kepastian dijaga dengan tidak membuka wacana perubahan, tetapi MPR juga tidak menggunakan forum tahunannya untuk mengevaluasi apakah asas demokrasi ekonomi itu benar-benar dijalankan pemerintah dan DPR.",
-          "synthesis_id": "Skor Baik (+1) karena landasan konstitusional perekonomian nasional dijaga stabil pada periode konsolidasi pasca-amandemen, memberi kepastian bagi tertib ekonomi.",
+          "synthesis_id": "Skor Netral (0) karena landasan ekonomi konstitusional dijaga stabil tanpa tindakan yang memajukan maupun menggerus kesejahteraan umum.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43435,11 +43435,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 2,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Menjaga berlakunya Pasal 31 ayat (4) UUD 1945 tentang kewajiban alokasi minimal 20 persen anggaran pendidikan tanpa upaya melunakkannya, mempertahankan mandat yang pada periode ini mulai ditagih lewat putusan Mahkamah Konstitusi.",
           "antithesis_id": "Mandat 20 persen dipertahankan dalam konstitusi, tetapi penagihannya kepada pemerintah dilakukan Mahkamah Konstitusi lewat serangkaian putusan - bukan oleh MPR yang menetapkannya.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena kewajiban konstitusional anggaran pendidikan dipertahankan utuh tanpa pelunakan, menjadi dasar bagi pemenuhannya yang dipaksakan lewat pengadilan.",
+          "synthesis_id": "Skor Netral (0) karena mandat 20 persen anggaran pendidikan dipertahankan tanpa pelunakan, tetapi penagihannya kepada pemerintah dilakukan Mahkamah Konstitusi dan bukan oleh MPR.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43451,11 +43451,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menjaga rumusan politik luar negeri bebas aktif dalam konstitusi hasil amandemen tetap utuh dan menyelenggarakan diplomasi parlementer sebagai lembaga permusyawaratan pada forum internasional.",
           "antithesis_id": "Rumusan bebas aktif dijaga tetap utuh, tetapi MPR tidak memiliki kewenangan mengawasi pelaksanaannya oleh pemerintah sehingga penjagaan itu terbatas pada teks konstitusi.",
-          "synthesis_id": "Skor Baik (+1) karena prinsip politik luar negeri bebas aktif dipertahankan dalam konstitusi dan diperkenalkan lewat diplomasi parlementer.",
+          "synthesis_id": "Skor Netral (0) karena rumusan politik luar negeri bebas aktif dijaga utuh tanpa kewenangan maupun tindakan mengawasi pelaksanaannya.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43467,11 +43467,11 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": 2,
+          "score": 1,
           "confidence": 0.85,
           "rationale_id": "Menata status hukum ketetapan MPR terdahulu sesuai TAP No. I/MPR/2003 sepanjang periode ini, memberi kepastian mana ketetapan yang masih berlaku dan mana yang sudah tidak, membereskan tumpukan norma warisan enam dasawarsa.",
           "antithesis_id": "Penataan status ketetapan memberi kepastian formal, tetapi merupakan pelaksanaan keputusan yang diambil MPR periode sebelumnya; periode ini tidak menambahkan penguatan apa pun pada arsitektur negara hukum.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena tumpukan ketetapan MPR dari enam dasawarsa ditata status hukumnya sehingga tidak lagi menimbulkan ketidakpastian dalam tertib perundang-undangan.",
+          "synthesis_id": "Skor Baik (+1) karena tumpukan ketetapan MPR dari enam dasawarsa ditata status hukumnya sehingga tidak lagi menimbulkan ketidakpastian dalam tertib perundang-undangan.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43483,11 +43483,11 @@
         },
         {
           "dimension_id": "checks-balances",
-          "score": 2,
+          "score": 0,
           "confidence": 0.9,
           "rationale_id": "Menjaga berlakunya pembatasan masa jabatan presiden maksimal dua periode dalam Pasal 7 UUD 1945 tanpa membuka wacana perubahannya, mempertahankan pembatasan kekuasaan yang menjadi inti reformasi konstitusional.",
           "antithesis_id": "Pembatasan masa jabatan dijaga, tetapi MPR pada periode ini tidak menjalankan satu pun fungsi pengawasan aktif atas lembaga negara lain karena kewenangan itu memang sudah tidak dimilikinya pasca-amandemen.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena pembatasan masa jabatan presiden dipertahankan tanpa celah, menjaga pilar utama pencegahan kekuasaan tak terbatas tetap berdiri.",
+          "synthesis_id": "Skor Netral (0) karena pembatasan masa jabatan presiden dijaga secara pasif sementara MPR tidak menjalankan satu pun fungsi pengawasan aktif atas lembaga negara lain.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43587,11 +43587,11 @@
         },
         {
           "dimension_id": "sila-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Melaksanakan program sosialisasi Empat Pilar sejak 2017 yang memuat penyebarluasan nilai Ketuhanan Yang Maha Esa sebagai sila pertama, menjangkau masyarakat di seluruh daerah pemilihan anggota MPR.",
           "antithesis_id": "Sosialisasi berjalan sebagai program rutin yang dianggarkan per anggota tanpa evaluasi dampak, dan MPR tidak bersuara atas meningkatnya penyegelan rumah ibadah pada periode yang sama.",
-          "synthesis_id": "Skor Baik (+1) karena nilai Ketuhanan sebagai sila pertama disebarluaskan lewat program yang menjangkau seluruh daerah, menjaga pemahaman dasar negara tetap hidup.",
+          "synthesis_id": "Skor Netral (0) karena sosialisasi nilai Ketuhanan berjalan sebagai program rutin beranggaran per anggota tanpa evaluasi dampak maupun sikap atas meningkatnya penyegelan rumah ibadah.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43612,11 +43612,11 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": 2,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Menjaga Bab XA UUD 1945 dan Piagam HAM tetap berlaku sebagai norma tertinggi hak asasi sepanjang periode, termasuk ketika revisi UU MD3 pada 2018 memuat pasal yang dipersoalkan mengancam kebebasan berpendapat.",
           "antithesis_id": "Norma hak asasi dijaga dalam konstitusi, tetapi MPR tidak mempersoalkan pasal revisi UU MD3 2018 yang memberi kewenangan memanggil paksa pengkritik dewan - ancaman langsung pada hak yang dijaganya.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena katalog hak asasi dalam konstitusi dipertahankan utuh sebagai norma tertinggi yang tidak dapat dikurangi undang-undang.",
+          "synthesis_id": "Skor Netral (0) karena norma hak asasi dijaga utuh dalam konstitusi, tetapi MPR tidak mempersoalkan pasal revisi UU MD3 2018 yang memberi kewenangan memanggil paksa pengkritik dewan.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43634,11 +43634,11 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": 2,
+          "score": 0,
           "confidence": 0.9,
           "rationale_id": "Menetapkan Keputusan MPR RI No. 8/MPR/2019 tentang rekomendasi MPR periode 2014-2019 kepada periode berikutnya, memindahkan agenda ketatanegaraan lewat mekanisme permusyawaratan antarperiode.",
           "antithesis_id": "Rekomendasi antarperiode disusun tanpa keterlibatan publik dan memuat usulan menghidupkan kembali haluan negara yang berpotensi memulihkan kedudukan MPR sebagai lembaga tertinggi - arah yang justru bertentangan dengan hasil amandemen.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena hasil amandemen yang memulihkan kedaulatan rakyat dipertahankan dan agenda ketatanegaraan dialihkan lewat mekanisme permusyawaratan yang tertib.",
+          "synthesis_id": "Skor Netral (0) karena hasil amandemen dipertahankan, tetapi rekomendasi antarperiode disusun tanpa keterlibatan publik dan memuat usulan yang justru berlawanan arah dengannya.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43656,11 +43656,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Menyelenggarakan sidang paripurna pelantikan Presiden dan Wakil Presiden hasil Pemilu 2014 pada Oktober 2014 dan memelihara berlakunya TAP IX/MPR/2001 tentang pembaruan agraria sebagai mandat yang belum dijalankan.",
           "antithesis_id": "Mandat pembaruan agraria dipelihara sebagai dokumen sementara konflik agraria meningkat tajam sepanjang periode ini, dan MPR tidak sekali pun menagih pelaksanaannya kepada pemerintah maupun DPR.",
-          "synthesis_id": "Skor Baik (+1) karena mandat konstitusional pembaruan agraria dijaga tetap berlaku sebagai rujukan hukum yang tidak dicabut.",
+          "synthesis_id": "Skor Netral (0) karena mandat pembaruan agraria dipelihara sebagai dokumen sementara konflik agraria meningkat tajam tanpa sekali pun ditagih MPR.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43681,11 +43681,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Menyebarluaskan pemahaman Pasal 30 UUD 1945 tentang pertahanan dan keamanan negara lewat program sosialisasi Empat Pilar sejak 2017, menjadikan doktrin pertahanan semesta pengetahuan publik.",
           "antithesis_id": "Doktrin pertahanan disebarluaskan sebagai materi penyuluhan tanpa evaluasi atas pelaksanaannya, sementara wacana menghidupkan kembali peran militer di ranah sipil mulai muncul tanpa disikapi MPR.",
-          "synthesis_id": "Skor Baik (+1) karena doktrin pertahanan dan keamanan yang menempatkan warga sebagai komponen utama disebarluaskan menjadi pengetahuan publik.",
+          "synthesis_id": "Skor Netral (0) karena doktrin pertahanan disebarluaskan sebagai materi penyuluhan tanpa evaluasi atas pelaksanaannya.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43706,11 +43706,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menyebarluaskan asas perekonomian nasional berdasar demokrasi ekonomi dalam Pasal 33 UUD 1945 lewat sosialisasi Empat Pilar 2017, menjaga landasan ekonomi konstitusional tetap dipahami masyarakat.",
           "antithesis_id": "Penyebarluasan berjalan tanpa menyentuh persoalan konkret periode ini, ketika sejumlah undang-undang sektor sumber daya alam dipersoalkan bertentangan dengan asas yang disosialisasikan itu.",
-          "synthesis_id": "Skor Baik (+1) karena asas demokrasi ekonomi dalam konstitusi dipelihara dan disebarluaskan sebagai dasar warga menilai kebijakan ekonomi negara.",
+          "synthesis_id": "Skor Netral (0) karena asas demokrasi ekonomi disosialisasikan tanpa menyentuh undang-undang sektor sumber daya alam yang dipersoalkan bertentangan dengannya.",
           "evidence": [
             {
               "source_id": "dokumen-mpr-rekomendasi-haluan-2019"
@@ -43728,11 +43728,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 2,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Menyebarluaskan kewajiban konstitusional alokasi 20 persen anggaran pendidikan lewat program sosialisasi Empat Pilar sejak 2017, memperkuat pengetahuan warga atas hak yang dapat ditagih dari negara.",
           "antithesis_id": "Sosialisasi memperkuat pengetahuan atas mandat 20 persen, tetapi tidak menyentuh persoalan yang mulai muncul yaitu pemenuhan nominal yang dicapai dengan memasukkan komponen di luar pendidikan.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena kewajiban konstitusional anggaran pendidikan dijaga utuh dan disebarluaskan sebagai hak warga yang dapat ditagih.",
+          "synthesis_id": "Skor Netral (0) karena mandat anggaran pendidikan dijaga utuh dan disosialisasikan tanpa menyentuh distorsi pemenuhan nominal yang mulai muncul.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43753,11 +43753,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menyebarluaskan prinsip politik luar negeri bebas aktif lewat sosialisasi Empat Pilar 2017 dan menjalankan diplomasi antarparlemen, memperkenalkan pemahaman konstitusional Indonesia di forum internasional.",
           "antithesis_id": "Diplomasi parlementer dijalankan sebagai kegiatan kelembagaan tanpa mandat pengawasan atas kebijakan luar negeri, sehingga tidak berpengaruh pada posisi Indonesia dalam isu internasional apa pun.",
-          "synthesis_id": "Skor Baik (+1) karena prinsip politik luar negeri bebas aktif dipelihara dalam konstitusi dan diperkenalkan lewat forum antarparlemen.",
+          "synthesis_id": "Skor Netral (0) karena diplomasi antarparlemen dijalankan sebagai kegiatan kelembagaan tanpa mandat pengawasan atas kebijakan luar negeri.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43778,11 +43778,11 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": 2,
+          "score": -1,
           "confidence": 0.85,
           "rationale_id": "Menyebarluaskan penegasan Pasal 1 ayat (3) tentang Indonesia sebagai negara hukum lewat sosialisasi Empat Pilar 2017 dan menjaga rumusan itu tetap utuh tanpa wacana perubahan.",
           "antithesis_id": "Asas negara hukum disebarluaskan sementara MPR tidak bersikap atas revisi UU KPK yang disahkan menjelang akhir periode dan menuai penolakan nasional, membiarkan pelemahan lembaga antikorupsi berjalan tanpa suara.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena penegasan Indonesia sebagai negara hukum dijaga utuh sebagai norma tertinggi dan disebarluaskan sebagai pengetahuan publik.",
+          "synthesis_id": "Skor Buruk (-1) karena MPR membiarkan revisi UU KPK yang menuai penolakan nasional berjalan tanpa suara, padahal Sidang Tahunan menjelang akhir periode adalah forum yang tersedia untuk menyikapinya.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43803,11 +43803,11 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 2,
+          "score": 0,
           "confidence": 0.9,
           "rationale_id": "Menyelenggarakan pelantikan Presiden dan Wakil Presiden hasil Pemilu 2014 dan menjaga Pasal 1 ayat (2) UUD 1945 tetap utuh, mengukuhkan mandat langsung pemilih sebagai sumber kekuasaan.",
           "antithesis_id": "Mandat pemilih dikukuhkan lewat pelantikan, tetapi revisi UU MD3 2018 yang menambah kursi pimpinan MPR memperlihatkan lembaga ini mengubah aturannya sendiri untuk kepentingan elite alih-alih pemilih.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena letak kedaulatan pada rakyat dipertahankan utuh dan mandat pemilih dikukuhkan lewat pelantikan yang tertib menurut konstitusi.",
+          "synthesis_id": "Skor Netral (0) karena mandat pemilih dikukuhkan lewat pelantikan, tetapi MPR mengubah aturannya sendiri lewat revisi UU MD3 demi kepentingan elite alih-alih pemilih.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43869,7 +43869,7 @@
           "confidence": 0.85,
           "rationale_id": "Pelantikan presiden terpilih berjalan lancar sesuai jadwal dan tata tertib konstitusional.",
           "antithesis_id": "Pelantikan presiden terpilih dijalankan tepat waktu menurut tata tertib konstitusional, menjaga peralihan kekuasaan berlangsung tanpa gejolak sebagaimana amanat pemilih.",
-          "synthesis_id": "Skor Netral (0) karena mandat pemilih dikukuhkan lewat pelantikan yang tertib, tetapi MPR belum menunjukkan peran apa pun dalam menyalurkan kedaulatan rakyat di luar tugas seremonial itu.",
+          "synthesis_id": "Skor Netral (0) karena mandat pemilih dikukuhkan lewat pelantikan yang tertib, tetapi MPR belum menunjukkan peran apa pun menyalurkan kedaulatan rakyat di luar tugas seremonial itu.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43909,11 +43909,11 @@
         },
         {
           "dimension_id": "sila-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menyelenggarakan Sidang Tahunan MPR RI dan Sidang Bersama DPR-DPD pada 2026 yang memuat pesan kebangsaan tentang nilai ketuhanan dan kerukunan, memelihara forum kenegaraan tertinggi tetap berjalan berkala.",
           "antithesis_id": "Sidang tahunan memuat pesan kebangsaan tanpa mekanisme tindak lanjut, dan MPR belum bersikap atas pasal penodaan agama dalam KUHP Nasional yang akan berlaku dan dipersoalkan banyak kelompok keagamaan.",
-          "synthesis_id": "Skor Baik (+1) karena forum kenegaraan tertinggi yang mempertemukan seluruh lembaga negara dipelihara berjalan berkala dengan pesan kerukunan sebagai agendanya.",
+          "synthesis_id": "Skor Netral (0) karena sidang tahunan memuat pesan kerukunan tanpa mekanisme tindak lanjut, dan MPR belum bersikap atas pasal penodaan agama dalam KUHP Nasional yang akan berlaku.",
           "evidence": [
             {
               "source_id": "buku-mpr-empat-pilar-2012"
@@ -43931,11 +43931,11 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": 2,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Menyelenggarakan sidang paripurna pelantikan Presiden dan Wakil Presiden pada Oktober 2024 dan menjaga Bab XA UUD 1945 tetap utuh sebagai norma tertinggi hak asasi pada awal masa jabatan.",
           "antithesis_id": "Norma hak asasi dijaga dalam konstitusi, tetapi MPR tidak bersikap atas catatan Komnas HAM mengenai korban jiwa dan kekerasan aparat dalam aksi nasional Agustus 2025 yang terjadi pada masa jabatannya.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena katalog hak asasi dalam konstitusi dipertahankan utuh sebagai norma tertinggi yang tidak dapat dikurangi undang-undang.",
+          "synthesis_id": "Skor Netral (0) karena norma hak asasi dijaga utuh dalam konstitusi, tetapi MPR tidak bersikap atas catatan Komnas HAM mengenai korban aksi nasional Agustus 2025 yang terjadi pada masa jabatannya.",
           "evidence": [
             {
               "source_id": "risalah-sidang-mpr-2025"
@@ -43956,11 +43956,11 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": 2,
+          "score": 0,
           "confidence": 0.9,
           "rationale_id": "Menyelenggarakan Rembuk Nasional pimpinan lembaga negara pada Januari 2025 sebagai forum permusyawaratan antarlembaga di awal masa pemerintahan baru, menghidupkan tradisi konsultasi kenegaraan.",
           "antithesis_id": "Rembuk nasional mempertemukan pimpinan lembaga negara tetapi tidak menghasilkan kesepakatan yang mengikat, dan formatnya tertutup sehingga rakyat yang diwakili tidak mengetahui apa yang dimusyawarahkan atas namanya.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena hasil amandemen yang memulihkan kedaulatan rakyat dipertahankan dan forum permusyawaratan antarlembaga dihidupkan pada awal masa pemerintahan baru.",
+          "synthesis_id": "Skor Netral (0) karena Rembuk Nasional mempertemukan pimpinan lembaga negara tanpa menghasilkan kesepakatan mengikat, dan formatnya tertutup bagi rakyat yang diwakili.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -43978,11 +43978,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Memelihara berlakunya TAP MPR No. IX/MPR/2001 tentang Pembaruan Agraria sebagai mandat yang belum dijalankan pada awal masa jabatan ini, menjaga rujukan hukum keadilan agraria tetap hidup.",
           "antithesis_id": "Mandat pembaruan agraria kembali dipelihara secara pasif tanpa penagihan, mengulang pola lima periode MPR sebelumnya yang membiarkan ketetapan itu menjadi dokumen tanpa pelaksanaan selama lebih dari dua dasawarsa.",
-          "synthesis_id": "Skor Baik (+1) karena mandat konstitusional pembaruan agraria dijaga tetap berlaku dan tidak dicabut, mempertahankan rujukan hukumnya.",
+          "synthesis_id": "Skor Netral (0) karena mandat pembaruan agraria kembali dipelihara secara pasif tanpa penagihan, mengulang pola lima periode MPR sebelumnya.",
           "evidence": [
             {
               "source_id": "risalah-sidang-mpr-2025"
@@ -44000,11 +44000,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Menjaga Pasal 30 UUD 1945 tentang pertahanan dan keamanan negara tetap utuh pada awal masa jabatan dan menyelenggarakan sidang tahunan yang menghadirkan laporan seluruh lembaga negara termasuk bidang pertahanan.",
           "antithesis_id": "Norma pertahanan dijaga utuh, tetapi MPR belum bersikap atas penempatan perwira aktif TNI dan Polri di jabatan sipil yang dipersoalkan sebagai penerobosan batas dwifungsi yang dibongkar reformasi.",
-          "synthesis_id": "Skor Baik (+1) karena doktrin pertahanan dan keamanan dalam konstitusi dijaga utuh dan pelaksanaannya dilaporkan dalam forum kenegaraan tahunan.",
+          "synthesis_id": "Skor Netral (0) karena norma pertahanan dijaga utuh, tetapi MPR belum bersikap atas penempatan perwira aktif TNI dan Polri di jabatan sipil yang menerobos batas dwifungsi.",
           "evidence": [
             {
               "source_id": "risalah-sidang-mpr-2025"
@@ -44022,11 +44022,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menjaga Pasal 33 UUD 1945 tentang perekonomian nasional tetap utuh pada awal masa jabatan dan menyelenggarakan sidang tahunan yang menghadirkan laporan kinerja lembaga negara di bidang ekonomi.",
           "antithesis_id": "Asas perekonomian konstitusional dijaga utuh, tetapi MPR belum mempersoalkan pembentukan Danantara yang mengelola aset negara di luar rezim akuntabilitas biasa - persoalan yang menyentuh langsung penguasaan negara atas kekayaan.",
-          "synthesis_id": "Skor Baik (+1) karena asas perekonomian nasional dalam konstitusi dipertahankan utuh dan pelaksanaannya dilaporkan dalam forum kenegaraan tahunan.",
+          "synthesis_id": "Skor Netral (0) karena asas perekonomian konstitusional dijaga utuh, tetapi MPR belum mempersoalkan pengelolaan aset negara lewat Danantara di luar rezim akuntabilitas biasa.",
           "evidence": [
             {
               "source_id": "risalah-sidang-mpr-2025"
@@ -44044,11 +44044,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 2,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Menjaga Pasal 31 ayat (4) UUD 1945 tentang kewajiban alokasi 20 persen anggaran pendidikan tetap utuh pada awal masa jabatan, mempertahankan mandat yang sedang dipersoalkan lewat pengujian ke Mahkamah Konstitusi.",
           "antithesis_id": "Mandat 20 persen dijaga dalam teks konstitusi, tetapi persoalan pembebanan Makan Bergizi Gratis ke pos anggaran pendidikan diselesaikan Mahkamah Konstitusi lewat Putusan 40/PUU-XXIV/2026 - bukan oleh MPR yang menetapkan normanya.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena kewajiban konstitusional anggaran pendidikan dipertahankan utuh tanpa pelunakan, menjadi dasar koreksi atas cara pembiayaan program yang menggerusnya.",
+          "synthesis_id": "Skor Netral (0) karena mandat anggaran pendidikan dijaga utuh, tetapi koreksi atas pembebanan MBG ke pos itu dilakukan Mahkamah Konstitusi dan bukan oleh MPR.",
           "evidence": [
             {
               "source_id": "risalah-sidang-mpr-2025"
@@ -44066,11 +44066,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Menjaga prinsip politik luar negeri bebas aktif dalam konstitusi tetap utuh pada awal masa jabatan dan menyelenggarakan sidang tahunan yang menghadirkan laporan kebijakan luar negeri pemerintah.",
           "antithesis_id": "Prinsip bebas aktif dijaga dalam teks, tetapi MPR tidak bersikap atas keikutsertaan Indonesia dalam Board of Peace yang dinilai banyak ahli bertentangan dengan mandat Pembukaan tentang penghapusan penjajahan.",
-          "synthesis_id": "Skor Baik (+1) karena prinsip politik luar negeri bebas aktif dipertahankan utuh dalam konstitusi sebagai norma yang mengikat penyelenggara negara.",
+          "synthesis_id": "Skor Netral (0) karena prinsip bebas aktif dijaga dalam teks, tetapi MPR tidak bersikap atas keikutsertaan Indonesia dalam Board of Peace yang dipersoalkan banyak ahli.",
           "evidence": [
             {
               "source_id": "tap-amandemen-uud-1999-2002"
@@ -44082,11 +44082,11 @@
         },
         {
           "dimension_id": "negara-hukum",
-          "score": 2,
+          "score": 0,
           "confidence": 0.85,
           "rationale_id": "Menjaga Pasal 1 ayat (3) UUD 1945 tentang Indonesia sebagai negara hukum tetap utuh pada awal masa jabatan dan menyelenggarakan sidang tahunan yang menghadirkan laporan seluruh lembaga penegak hukum.",
           "antithesis_id": "Asas negara hukum dijaga dalam teks konstitusi, tetapi MPR tidak bersikap atas seleksi calon hakim konstitusi lewat proses kilat yang menyentuh langsung independensi penjaga konstitusi.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena penegasan Indonesia sebagai negara hukum dijaga utuh sebagai norma tertinggi yang tidak dapat dikurangi undang-undang.",
+          "synthesis_id": "Skor Netral (0) karena asas negara hukum dijaga dalam teks konstitusi, tetapi MPR tidak bersikap atas seleksi calon hakim konstitusi lewat proses kilat.",
           "evidence": [
             {
               "source_id": "risalah-sidang-mpr-2025"
@@ -44104,11 +44104,11 @@
         },
         {
           "dimension_id": "checks-balances",
-          "score": 2,
+          "score": 0,
           "confidence": 0.9,
           "rationale_id": "Menjaga pembatasan masa jabatan presiden dua periode dalam Pasal 7 UUD 1945 tetap utuh pada awal masa jabatan tanpa membuka wacana perubahannya, mempertahankan pilar utama pembatasan kekuasaan.",
           "antithesis_id": "Pembatasan masa jabatan dijaga secara pasif, sementara MPR tidak menggunakan forum tahunannya untuk mengevaluasi ketegangan antara DPR dan Mahkamah Konstitusi yang berlangsung pada masa jabatannya.",
-          "synthesis_id": "Skor Sangat Baik (+2) karena pembatasan masa jabatan presiden dipertahankan tanpa celah, menjaga pilar utama pencegahan kekuasaan tak terbatas tetap berdiri.",
+          "synthesis_id": "Skor Netral (0) karena pembatasan masa jabatan presiden dijaga secara pasif tanpa memakai forum tahunan untuk mengevaluasi ketegangan antara DPR dan Mahkamah Konstitusi.",
           "evidence": [
             {
               "source_id": "risalah-sidang-mpr-2025"
@@ -44220,11 +44220,11 @@
         },
         {
           "dimension_id": "sila-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Mengawasi implementasi kebijakan kedaulatan pangan di daerah pada 2017, menjalankan amanah perwakilan atas urusan yang menyentuh kebutuhan paling dasar warga di wilayah masing-masing.",
           "antithesis_id": "Pengawasan kedaulatan pangan dijalankan pada periode ketika ketua lembaga tertangkap tangan menerima suap kuota gula impor - amanah yang diawasi justru dilanggar dari pucuk pimpinannya sendiri.",
-          "synthesis_id": "Skor Baik (+1) karena pelaksanaan kebijakan pangan di daerah diawasi secara terlembaga oleh wakil daerah, menjaga kebutuhan paling dasar warga tetap dalam pengawasan.",
+          "synthesis_id": "Skor Netral (0) karena pengawasan kedaulatan pangan dijalankan pada periode ketika ketua lembaga justru tertangkap tangan menerima suap kuota gula impor.",
           "evidence": [
             {
               "source_id": "putusan-mk-79-puu-xii-2014"
@@ -44249,11 +44249,11 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Melanjutkan fungsi pengawasan atas pelaksanaan undang-undang di daerah di tengah dualisme dan konflik kepemimpinan yang mengguncang lembaga pada 2017, menjaga hak warga daerah tetap terwakili meski lembaganya terbelah.",
           "antithesis_id": "Fungsi pengawasan tetap berjalan secara formal, tetapi konflik kepemimpinan yang berlarut menyerap perhatian dan sumber daya lembaga sehingga mutu pengawasan atas hak warga daerah ikut merosot.",
-          "synthesis_id": "Skor Baik (+1) karena fungsi perwakilan daerah tetap dijalankan dan tidak terhenti meski lembaganya mengalami krisis kepemimpinan.",
+          "synthesis_id": "Skor Netral (0) karena fungsi pengawasan tetap berjalan secara formal, tetapi konflik kepemimpinan yang berlarut menyerap sumber daya lembaga sehingga mutunya ikut merosot.",
           "evidence": [
             {
               "source_id": "putusan-mk-79-puu-xii-2014"
@@ -44278,11 +44278,11 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": 1,
+          "score": -1,
           "confidence": 0.8,
           "rationale_id": "Menghadapi operasi tangkap tangan KPK atas Ketua DPD Irman Gusman pada 2016 dalam perkara suap kuota gula impor, pukulan integritas terberat bagi lembaga yang mengklaim mewakili aspirasi murni daerah.",
           "antithesis_id": "Putusan MK No. 79/PUU-XII/2014 yang mengukuhkan posisi tripartit legislasi DPD diperoleh pada periode yang sama, memperlihatkan perjuangan kelembagaan tetap berjalan di luar persoalan personal pimpinannya.",
-          "synthesis_id": "Skor Baik (+1) karena mandat perseorangan non-partisan tetap menjadi dasar keterwakilan daerah, meski penyalahgunaannya oleh ketua lembaga mencederai klaim moral yang menyertainya.",
+          "synthesis_id": "Skor Buruk (-1) karena Ketua DPD tertangkap tangan menerima suap kuota gula impor, mencederai klaim mandat perseorangan non-partisan yang menjadi dasar keberadaan lembaga ini.",
           "evidence": [
             {
               "source_id": "putusan-mk-79-puu-xii-2014"
@@ -44304,11 +44304,11 @@
         },
         {
           "dimension_id": "sila-5",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Mengadvokasi keadilan fiskal dana perimbangan bagi daerah pada 2018 dan mengawasi realisasi penyaluran kredit usaha rakyat di wilayah timur pada 2016, memperjuangkan pemerataan akses ekonomi antarwilayah.",
           "antithesis_id": "Advokasi keadilan fiskal berjalan tanpa kewenangan mengubah formula dana perimbangan, sehingga kesenjangan yang diperjuangkan tetap ditentukan pemerintah pusat dan DPR.",
-          "synthesis_id": "Skor Baik (+1) karena ketimpangan akses pembiayaan dan dana perimbangan bagi wilayah timur diangkat menjadi agenda nasional oleh wakil daerahnya sendiri.",
+          "synthesis_id": "Skor Netral (0) karena advokasi keadilan fiskal berjalan tanpa kewenangan mengubah formula dana perimbangan yang tetap ditentukan pusat dan DPR.",
           "evidence": [
             {
               "source_id": "putusan-pn-jkt-pusat-irman-gusman-2017"
@@ -44365,11 +44365,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Membentuk panitia khusus pengawasan tenaga kerja asing di kawasan smelter nikel Sulawesi dan Maluku pada 2018, menyuarakan kepentingan tenaga kerja lokal di wilayah investasi sumber daya alam.",
           "antithesis_id": "Panitia khusus menghasilkan temuan dan rekomendasi, tetapi kebijakan perizinan tenaga kerja asing tetap berada di tangan pemerintah pusat yang tidak berkewajiban menindaklanjuti rekomendasi DPD.",
-          "synthesis_id": "Skor Baik (+1) karena kepentingan tenaga kerja lokal di kawasan investasi sumber daya alam diperjuangkan lewat instrumen pengawasan resmi.",
+          "synthesis_id": "Skor Netral (0) karena panitia khusus tenaga kerja asing menghasilkan temuan sementara kebijakan perizinannya tetap di tangan pusat yang tidak wajib menindaklanjuti.",
           "evidence": [
             {
               "source_id": "laporan-dpd-dbh-2018"
@@ -44394,11 +44394,11 @@
         },
         {
           "dimension_id": "tujuan-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.75,
           "rationale_id": "Mengawasi pelaksanaan kebijakan pembangunan di daerah termasuk pemenuhan layanan dasar pendidikan di wilayah kepulauan dan perbatasan sepanjang periode, menyuarakan kesenjangan yang tidak tampak dari pusat.",
           "antithesis_id": "Pengawasan menyuarakan kesenjangan layanan pendidikan antarwilayah, tetapi tanpa kewenangan anggaran temuan itu tidak dapat diterjemahkan menjadi realokasi belanja yang mengoreksinya.",
-          "synthesis_id": "Skor Baik (+1) karena kesenjangan layanan dasar pendidikan di wilayah kepulauan dan perbatasan diangkat secara terlembaga ke tingkat nasional.",
+          "synthesis_id": "Skor Netral (0) karena kesenjangan layanan pendidikan antarwilayah disuarakan tanpa kewenangan anggaran untuk mengoreksinya.",
           "evidence": [
             {
               "source_id": "putusan-mk-79-puu-xii-2014"
@@ -44423,11 +44423,11 @@
         },
         {
           "dimension_id": "tujuan-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.7,
           "rationale_id": "Mengawasi pelaksanaan kebijakan kedaulatan pangan pada 2017 yang bersinggungan dengan kebijakan impor dan perdagangan internasional, menempatkan kepentingan produsen daerah dalam perumusan posisi Indonesia.",
           "antithesis_id": "Pengawasan atas kebijakan pangan yang bersinggungan perdagangan internasional dijalankan, tetapi ketua lembaga justru terjerat perkara suap kuota impor pada wilayah kebijakan yang sama.",
-          "synthesis_id": "Skor Baik (+1) karena kepentingan produsen daerah dalam kebijakan pangan yang bersinggungan dengan perdagangan internasional disuarakan secara terlembaga.",
+          "synthesis_id": "Skor Netral (0) karena kepentingan produsen daerah disuarakan sementara ketua lembaga justru terjerat perkara suap kuota impor pada wilayah kebijakan yang sama.",
           "evidence": [
             {
               "source_id": "putusan-mk-79-puu-xii-2014"
@@ -44481,11 +44481,11 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
+          "score": 0,
           "confidence": 0.8,
           "rationale_id": "Mempertahankan keterwakilan daerah hasil Pemilu 2014 di tengah krisis dualisme kepemimpinan 2017, menjaga mandat langsung pemilih di setiap provinsi tetap tersalurkan meski lembaganya terbelah.",
           "antithesis_id": "Mandat pemilih tetap tersalurkan secara formal, tetapi konflik perebutan kursi pimpinan memperlihatkan energi lembaga tersedot ke urusan internal alih-alih ke kepentingan pemilih yang memberi mandat.",
-          "synthesis_id": "Skor Baik (+1) karena keterwakilan setiap provinsi di parlemen nasional tetap berjalan tanpa terputus melewati krisis kepemimpinan lembaga.",
+          "synthesis_id": "Skor Netral (0) karena keterwakilan provinsi tetap berjalan melewati krisis, tepat sebanding dengan energi lembaga yang tersedot perebutan kursi pimpinan alih-alih kepentingan pemilih.",
           "evidence": [
             {
               "source_id": "putusan-mk-79-puu-xii-2014"
@@ -44595,11 +44595,11 @@
         },
         {
           "dimension_id": "kedaulatan-rakyat",
-          "score": 1,
+          "score": 0,
           "confidence": 0.6,
           "rationale_id": "DPD menjalankan fungsi perwakilan daerah hasil pemilu dan mengawasi penyelenggaraan pilkada serentak, memastikan suara daerah tersalurkan di tingkat nasional.",
           "antithesis_id": "Fungsi perwakilan dijalankan dan pilkada serentak 2024 di 545 daerah diawasi, tetapi kewenangan DPD atas hasil maupun penyelenggaraannya tetap nihil sehingga pengawasan itu tidak berkonsekuensi.",
-          "synthesis_id": "Skor Baik (+1) karena wakil daerah hasil Pemilu 2024 menjalankan fungsi perwakilan dan mengawasi penyelenggaraan pilkada serentak di ratusan daerah.",
+          "synthesis_id": "Skor Netral (0) karena fungsi perwakilan dijalankan dan pilkada serentak diawasi, tetapi kewenangan DPD atas hasil maupun penyelenggaraannya nihil sehingga pengawasan itu tidak berkonsekuensi.",
           "evidence": [
             {
               "source_id": "risalah-paripurna-dpd-oktober-2024"
@@ -44630,11 +44630,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.55,
           "rationale_id": "Pengawasan pembangunan IKN dan komitmen terhadap daerah terluar/kepulauan memperkuat pemerataan pembangunan nasional dan keutuhan wilayah.",
           "antithesis_id": "Pengawasan IKN dan komitmen pada daerah terluar dijalankan lewat kunjungan dan rekomendasi, tetapi tanpa kewenangan anggaran maupun legislasi sehingga pengaruhnya pada alokasi pembangunan belum terbukti.",
-          "synthesis_id": "Skor Baik (+1) karena pemerataan pembangunan bagi wilayah terluar dan kepulauan diawasi sejak awal masa jabatan oleh lembaga yang mewakilinya.",
+          "synthesis_id": "Skor Netral (0) karena pengawasan IKN dan wilayah terluar dijalankan lewat kunjungan dan rekomendasi tanpa kewenangan anggaran maupun legislasi.",
           "evidence": [
             {
               "source_id": "laporan-dpd-pengawasan-ikn-2024"
@@ -44652,11 +44652,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.55,
           "rationale_id": "DPD mendesak penataan anggaran pendidikan dan transparansi alokasi dana transfer ke daerah demi kesejahteraan dan pemerataan layanan publik di daerah.",
           "antithesis_id": "Desakan penataan anggaran pendidikan dan transparansi transfer ke daerah disampaikan sebagai rekomendasi, sementara keputusan alokasinya tetap berada pada pemerintah dan DPR tanpa kewajiban menanggapi.",
-          "synthesis_id": "Skor Baik (+1) karena distorsi alokasi anggaran pendidikan dan ketertutupan transfer ke daerah diangkat menjadi persoalan publik oleh wakil daerah.",
+          "synthesis_id": "Skor Netral (0) karena distorsi anggaran pendidikan dan ketertutupan transfer daerah diangkat sebagai rekomendasi, sementara keputusan alokasinya tetap di pemerintah dan DPR.",
           "evidence": [
             {
               "source_id": "laporan-dpd-dbh-2018"
@@ -44668,11 +44668,11 @@
         },
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.5,
           "rationale_id": "DPD memperjuangkan pengakuan masyarakat hukum adat dan daerah-daerah kepulauan, meneguhkan persatuan dalam keberagaman se-Indonesia.",
           "antithesis_id": "Perjuangan pengakuan masyarakat hukum adat dan daerah kepulauan mengulang agenda yang telah diajukan periode-periode sebelumnya tanpa pernah disahkan, sehingga tantangannya bukan pada usulan melainkan pada kewenangan.",
-          "synthesis_id": "Skor Baik (+1) karena pengakuan masyarakat hukum adat dan kekhususan daerah kepulauan tetap diperjuangkan sebagai agenda persatuan yang mengakui keragaman wilayah.",
+          "synthesis_id": "Skor Netral (0) karena perjuangan pengakuan masyarakat hukum adat dan daerah kepulauan mengulang agenda periode-periode sebelumnya yang tidak pernah disahkan.",
           "evidence": [
             {
               "source_id": "laporan-dpd-pengawasan-ikn-2024"
@@ -44690,11 +44690,11 @@
         },
         {
           "dimension_id": "sila-4",
-          "score": 1,
+          "score": 0,
           "confidence": 0.5,
           "rationale_id": "Keterlibatan DPD dalam pengusulan dan pembahasan RUU masyarakat hukum adat serta pengawasan daerah menegaskan representasi musyawarah di tingkat nasional.",
           "antithesis_id": "Keterlibatan dalam pembahasan RUU Masyarakat Hukum Adat berlangsung tanpa hak memutus, dan sidang paripurna maraton pemilihan pimpinan pada awal masa jabatan memperlihatkan energi lembaga tersedot urusan internal.",
-          "synthesis_id": "Skor Baik (+1) karena aspirasi masyarakat hukum adat disalurkan lewat pengusulan dan pembahasan rancangan undang-undang oleh wakil daerah.",
+          "synthesis_id": "Skor Netral (0) karena keterlibatan dalam pembahasan RUU Masyarakat Hukum Adat berlangsung tanpa hak memutus, sementara energi awal lembaga tersedot sidang paripurna maraton pemilihan pimpinan.",
           "evidence": [
             {
               "source_id": "laporan-dpd-pengawasan-ikn-2024"
@@ -45062,11 +45062,11 @@
         },
         {
           "dimension_id": "sila-3",
-          "score": 1,
+          "score": 0,
           "confidence": 0.45,
           "rationale_id": "Pembentukan KNIP dan penetapan dasar negara melalui PPKI menegakkan persatuan segenap bangsa di tengah revolusi kemerdekaan.",
           "antithesis_id": "Pembentukan KNIP dan penetapan delapan provinsi menegakkan kesatuan di atas kertas, sementara wilayah yang benar-benar dikuasai republik menyusut terus akibat agresi militer dan pembentukan negara-negara bagian bentukan Belanda.",
-          "synthesis_id": "Skor Baik (+1) karena badan perwakilan nasional dan pembagian wilayah ditetapkan dalam hitungan hari setelah proklamasi, menegakkan klaim kesatuan bangsa di tengah kekosongan kekuasaan.",
+          "synthesis_id": "Skor Netral (0) karena badan perwakilan nasional dan pembagian wilayah ditetapkan, tepat sebanding dengan wilayah yang benar-benar dikuasai republik yang terus menyusut akibat agresi militer dan negara-negara bentukan Belanda.",
           "evidence": [
             {
               "source_id": "anri-ppki-sidang-22-agu-1945"
@@ -45137,11 +45137,11 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.4,
           "rationale_id": "Maklumat Pemerintah X dan pergeseran kabinet membuka ruang partisipasi politik yang menjunjung harkat kemanusiaan.",
           "antithesis_id": "Ruang partisipasi politik dibuka lewat Maklumat X, tetapi kekerasan revolusi sosial di berbagai daerah pada 1945-1946 berlangsung tanpa perlindungan hukum bagi korbannya dan tanpa dipersoalkan badan perwakilan.",
-          "synthesis_id": "Skor Baik (+1) karena kebebasan berserikat dan mendirikan partai dijamin lewat maklumat, menempatkan warga sebagai subjek politik dan bukan sekadar objek pemerintahan.",
+          "synthesis_id": "Skor Netral (0) karena kebebasan berserikat dijamin lewat maklumat, tepat sebanding dengan kekerasan revolusi sosial 1945-1946 yang berlangsung tanpa perlindungan hukum bagi korbannya dan tanpa dipersoalkan badan perwakilan.",
           "evidence": [
             {
               "source_id": "anri-maklumat-wakil-presiden-x-1945"
@@ -45165,11 +45165,11 @@
         },
         {
           "dimension_id": "tujuan-1",
-          "score": 1,
+          "score": 0,
           "confidence": 0.4,
           "rationale_id": "Proklamasi dan pembentukan negara melalui PPKI menegakkan kedaulatan dan melindungi segenap bangsa dari ancaman luar.",
           "antithesis_id": "Kedaulatan diperjuangkan dan dipertahankan, tetapi badan perwakilan tidak dapat melindungi warga dari agresi militer Belanda maupun dari kekerasan antargolongan yang menyertai revolusi di banyak daerah.",
-          "synthesis_id": "Skor Baik (+1) karena negara dibentuk lengkap dengan konstitusi dan lembaga perwakilannya di tengah upaya kembalinya kekuasaan kolonial, mempertahankan eksistensi republik.",
+          "synthesis_id": "Skor Netral (0) karena eksistensi republik dipertahankan, tetapi badan perwakilan tidak dapat melindungi warga dari agresi militer maupun kekerasan antargolongan yang menyertai revolusi.",
           "evidence": [
             {
               "source_id": "anri-ppki-sidang-18-agu-1945"
@@ -45190,11 +45190,11 @@
         },
         {
           "dimension_id": "tujuan-2",
-          "score": 1,
+          "score": 0,
           "confidence": 0.4,
           "rationale_id": "Pembentukan pemerintahan dan lembaga keuangan negara tahun 1945 membangun fondasi kesejahteraan umum di awal revolusi.",
           "antithesis_id": "Fondasi pemerintahan dan keuangan negara dibentuk, tetapi perekonomian sepanjang periode ini hancur oleh blokade, inflasi mata uang pendudukan, dan pembiayaan perang sehingga kesejahteraan umum tidak bergerak.",
-          "synthesis_id": "Skor Baik (+1) karena kelembagaan pemerintahan dan keuangan negara dibentuk dari titik nol, menyediakan kerangka yang menopang seluruh pembangunan sesudahnya.",
+          "synthesis_id": "Skor Netral (0) karena kelembagaan pemerintahan dan keuangan negara dibentuk dari titik nol, tepat sebanding dengan perekonomian yang hancur oleh blokade, inflasi, dan pembiayaan perang.",
           "evidence": [
             {
               "source_id": "anri-ppki-sidang-22-agu-1945"

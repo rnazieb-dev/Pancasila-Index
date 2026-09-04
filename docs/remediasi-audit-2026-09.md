@@ -26,6 +26,7 @@
 | Sumber ber-URL 404 / medan verifikasi hantu | 25 / 254 | **0 / 0** |
 | Skor dimensi | 579 | 569 (5 kini `evidence_gap: true`) |
 | Rasional kembar antarmasa jabatan | 248 skor | **0** |
+| Blok skor `+1` seragam (penilaian template) | 12 asesmen | **0** |
 | Klaim EU AI Act "verified" tanpa penelaah | 50 | **0** |
 
 ## Yang dikerjakan
@@ -171,15 +172,56 @@ Perkakasnya: `scripts/dialektika-dump.mts` (cetak konteks per skor) dan
 label skor tidak cocok, teks terpotong, rasional kembar, atau kalimat dipakai
 lebih dari 3 kali).
 
+## Gelombang keempat: rescoring 201 skor yang terinflasi
+
+Setelah rasional dibereskan, terlihat penyakit yang sama pada **angkanya**:
+blok skor `+1` seragam di seluruh dimensi — tanda penilaian template, bukan
+penilaian. MPR pasca-2004 bahkan rata-rata **lebih tinggi** (1.17–1.42)
+daripada MPR 1999–2004 (1.33) yang benar-benar mengerjakan empat tahap
+amandemen, padahal kerjanya sebagian besar sosialisasi Empat Pilar,
+sidang tahunan, dan pelantikan.
+
+Anchor rubrik untuk skor `0` dipakai sebagai patokan: *"tidak ada tindakan
+signifikan yang mengubah keadaan."* Memelihara norma yang ditetapkan periode
+lain bukan capaian periode ini.
+
+| Blok | Sebelum | Sesudah |
+| --- | ---: | ---: |
+| MPR 2004–2009 | 1.33 | **0.25** |
+| MPR 2009–2014 | 1.42 | **0.08** |
+| MPR 2014–2019 | 1.33 | **0.00** |
+| MPR 2019–2024 | 1.17 | **0.17** |
+| MPR 2024–sekarang | 1.25 | **0.00** |
+| KY (4 periode) | 0.92–1.00 | **0.17–0.50** |
+| DPD (5 periode) | 0.75–1.00 | **0.00–0.33** |
+| BPK 1947–1998 | 0.75 | **0.08** |
+| BPK 2009–2019 | 0.67 | **0.33** |
+| MA revolusi–liberal | 0.92 | **0.33** |
+| MA Demokrasi Terpimpin–Orde Baru | 0.33 | **−0.25** |
+| DPR/KNIP 1945–1950 | 1.00 | **0.50** |
+
+**201 skor disetel ulang**, sintesisnya ditulis ulang agar labelnya cocok.
+Distribusi global berubah dari didominasi `+1` menjadi: `0` = 234, `+1` = 217,
+`+2` = 27, `−1` = 51, `−2` = 40. Rata-rata global 0.246.
+
+Rata-rata per organ sesudahnya: MK 0.80 · KY 0.33 · BPK 0.29 · DPR 0.28 ·
+MPR 0.26 · DPD 0.20 · MA 0.06 · Presiden −0.02.
+
+Pagar baru: build menolak asesmen yang seluruh dimensinya berskor sama pada
+nilai positif atau negatif. Seragam **nol** dikecualikan — "tidak ada tindakan
+signifikan" memang dapat berlaku menyeluruh bagi lembaga yang kewenangannya
+nyaris nihil (DPD 2019–2024 dan MPR 2024–sekarang adalah dua kasus itu).
+
+> Skor ini disusun AI dan bertanda AI. Alurnya: **AI menilai → kontributor
+> manusia menelaah.** Angka mana pun di sini adalah usulan yang menunggu
+> koreksi penelaah, bukan putusan final.
+
 ## Sisa pekerjaan (butuh manusia, bukan model)
 
-- **Meninjau ulang skor MPR pasca-2004.** Sekitar 40 skor MPR periode
-  2004–sekarang bernilai +1/+2 atas dasar norma konstitusional yang ditetapkan
-  MPR 1999–2004, bukan atas rekam jejak periodenya sendiri — yang sebagian
-  besar berupa sosialisasi Empat Pilar, sidang tahunan, dan pelantikan.
-  Rasional dan dialektikanya kini menyatakan hal itu apa adanya, tetapi
-  **angkanya belum dikoreksi** karena rescoring menggeser indeks dan itu
-  keputusan manusia, bukan model.
+- **Menelaah 201 skor hasil rescoring AI.** Seluruhnya sudah disetel ulang
+  dengan alasan yang tertulis di sintesis masing-masing, tetapi tetap berstatus
+  usulan sampai penelaah manusia menyetujuinya lewat mekanisme kuorum dua
+  penelaah.
 - **Kutipan pakar** hanya boleh ditambahkan sebagai kutipan langsung
   terverifikasi dari publikasi yang benar-benar ada. Ini satu-satunya bagian
   yang TIDAK boleh dibangkitkan AI: menaruh kalimat karangan di dalam tanda

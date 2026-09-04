@@ -111,6 +111,19 @@ describe("integritas anti-halusinasi dataset", () => {
     expect([...hitung].filter(([, ids]) => ids.length > 1).map(([t]) => t.slice(0, 60))).toEqual([]);
   });
 
+  it("tidak ada asesmen berskor positif/negatif seragam di seluruh dimensi", () => {
+    // Seragam nol sah: "tidak ada tindakan signifikan" dapat berlaku menyeluruh
+    // bagi lembaga yang kewenangannya nyaris nihil. Seragam +1 atau -1 tidak.
+    const seragam = dataset.assessments
+      .filter((a) => a.dimension_scores.length >= 8)
+      .filter((a) => {
+        const nilai = new Set(a.dimension_scores.map((d) => d.score));
+        return nilai.size === 1 && [...nilai][0] !== 0;
+      })
+      .map((a) => a.id);
+    expect(seragam).toEqual([]);
+  });
+
   it("klaim provenance sumber dapat ditagih (archive_ok & source_verified)", () => {
     const beranda = (url?: string) => {
       if (!url) return false;

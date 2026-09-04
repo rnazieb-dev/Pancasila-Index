@@ -24,7 +24,7 @@ if (!patchFile) throw new Error("pemakaian: dialektika-apply.mts <patch.json>");
 
 const patch = JSON.parse(readFileSync(patchFile, "utf8")) as Record<
   string,
-  { rationale_id?: string; antithesis_id: string; synthesis_id: string }
+  { score?: number; rationale_id?: string; antithesis_id?: string; synthesis_id: string }
 >;
 const assessments = parse(readFileSync(PATH, "utf8")) as any[];
 
@@ -41,10 +41,13 @@ for (const [k, v] of Object.entries(patch)) {
     galat.push(`${k}: skor dimensi tidak ada`);
     continue;
   }
+  // antithesis_id boleh dihilangkan pada patch yang hanya menyetel ulang skor;
+  // yang lama dipertahankan apa adanya.
   for (const [field, teks] of [
     ["antithesis_id", v.antithesis_id],
     ["synthesis_id", v.synthesis_id],
   ] as const) {
+    if (field === "antithesis_id" && teks === undefined) continue;
     if (!teks || teks.trim().length < 40) galat.push(`${k}: ${field} terlalu pendek`);
     else if (TERPOTONG.test(teks.trim())) galat.push(`${k}: ${field} terpotong di nomor dokumen`);
   }
@@ -52,9 +55,13 @@ for (const [k, v] of Object.entries(patch)) {
     if (v.rationale_id.trim().length < 40) galat.push(`${k}: rationale_id terlalu pendek`);
     if (TERPOTONG.test(v.rationale_id.trim())) galat.push(`${k}: rationale_id terpotong di nomor dokumen`);
   }
+  const skorBaru = v.score ?? d.score;
+  if (v.score !== undefined && (!Number.isInteger(v.score) || v.score < -2 || v.score > 2)) {
+    galat.push(`${k}: score ${v.score} di luar rentang -2..2`);
+  }
   const m = v.synthesis_id?.match(LABEL);
   if (!m) galat.push(`${k}: synthesis_id wajib menyebut label skor, mis. "Skor Baik (+1)"`);
-  else if (Number(m[1]) !== d.score) galat.push(`${k}: sintesis menulis (${m[1]}), score = ${d.score}`);
+  else if (Number(m[1]) !== skorBaru) galat.push(`${k}: sintesis menulis (${m[1]}), score = ${skorBaru}`);
 }
 
 // Ambang pengulangan dihitung terhadap SELURUH dataset, bukan hanya patch ini.
@@ -68,7 +75,7 @@ for (const a of assessments) {
   for (const d of a.dimension_scores) {
     const k = `${a.id}::${d.dimension_id}`;
     const p = patch[k];
-    catat(p ? p.antithesis_id : d.antithesis_id);
+    catat(p?.antithesis_id ?? d.antithesis_id);
     catat(p ? p.synthesis_id : d.synthesis_id);
   }
 }
@@ -99,8 +106,9 @@ if (galat.length) {
 
 for (const [k, v] of Object.entries(patch)) {
   const d = index.get(k);
+  if (v.score !== undefined) d.score = v.score;
   if (v.rationale_id !== undefined) d.rationale_id = v.rationale_id;
-  d.antithesis_id = v.antithesis_id;
+  if (v.antithesis_id !== undefined) d.antithesis_id = v.antithesis_id;
   d.synthesis_id = v.synthesis_id;
 }
 writeFileSync(PATH, stringify(assessments, { indent: 2, lineWidth: 0 }), "utf8");

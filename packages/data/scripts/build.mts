@@ -683,6 +683,23 @@ for (const [teks, dipakai] of rasionalTerpakai) {
   );
 }
 
+// (6d) Skor positif atau negatif yang seragam pada seluruh dimensi adalah tanda
+//      penilaian template: satu masa jabatan hampir tidak mungkin berprestasi
+//      atau gagal persis sama pada dua belas dimensi yang berbeda.
+//      Seragam NOL dikecualikan - "tidak ada tindakan signifikan yang mengubah
+//      keadaan" (anchor rubrik untuk 0) memang dapat berlaku pada seluruh
+//      dimensi bagi lembaga yang kewenangannya nyaris nihil.
+for (const a of assessments) {
+  if (a.dimension_scores.length < 8) continue;
+  const nilai = new Set(a.dimension_scores.map((d) => d.score));
+  if (nilai.size === 1 && [...nilai][0] !== 0) {
+    errors.push(
+      `${a.id}: seluruh ${a.dimension_scores.length} dimensi berskor sama (${[...nilai][0]}) - ` +
+        `itu penilaian template, bukan penilaian per dimensi`
+    );
+  }
+}
+
 // (7) Klaim pengawasan manusia EU AI Act Pasal 14 harus punya penelaah nyata.
 for (const a of assessments) {
   const ho = a.ai_disclosure?.human_oversight;
