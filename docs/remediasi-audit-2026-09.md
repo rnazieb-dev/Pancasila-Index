@@ -216,6 +216,47 @@ nyaris nihil (DPD 2019–2024 dan MPR 2024–sekarang adalah dua kasus itu).
 > manusia menelaah.** Angka mana pun di sini adalah usulan yang menunggu
 > koreksi penelaah, bukan putusan final.
 
+## Gelombang kelima: diam bukan kenetralan
+
+Koreksi atas gelombang keempat. Skor `0` diberikan terlalu harfiah kepada MPR
+dan DPD dengan alasan "tidak ada tindakan signifikan". Itu keliru: bagi organ
+konstitusional yang **memegang forum dan instrumen**, diam di hadapan
+pelanggaran adalah tindakan, bukan ketiadaan tindakan.
+
+Rubrik v1 sendiri sudah menyediakan dasarnya pada anchor `-1`:
+
+- checks-balances: *"Pengabaian berkala terhadap fungsi pengawasan"*
+- sila-2: *"Pengabaian berulang; penanganan korban lambat dan setengah hati"*
+- negara-hukum: *"Supremasi hukum goyah: kasus besar mengendur"*
+
+MPR memegang **Sidang Tahunan** — satu-satunya forum konstitusional tempat
+seluruh lembaga negara melapor — dan berwenang menerbitkan rekomendasi. DPD
+memegang pertimbangan, pengawasan, dan rekomendasi atas urusan daerah. Tidak
+memakai instrumen itu ketika konstitusi dilanggar di depan matanya adalah
+pengabaian, dan pengabaian bernilai negatif.
+
+**26 skor disetel ulang dari 0 menjadi −1**, masing-masing ditambatkan pada
+pelanggaran yang terdokumentasi pada periodenya:
+
+| Asesmen | Diam atas |
+| --- | --- |
+| MPR 2004–2009 | SKB Ahmadiyah 2008; bailout Century & kriminalisasi pimpinan KPK |
+| MPR 2009–2014 | pengusiran Syiah Sampang 2012; Gayus, Hambalang, konflik penegak hukum |
+| MPR 2014–2019 | UU MD3 2018 (pemanggilan paksa pengkritik); pelemahan KPK 2019 |
+| MPR 2019–2024 | Kanjuruhan 135 tewas; TWK KPK; Wadas & Rempang; pemekaran Papua tanpa MRP; **Putusan MK 90/2023, vonis MKMK, dan pembangkangan DPR atas putusan MK** |
+| MPR 2024–sekarang | korban aksi Agustus 2025; perwira aktif di jabatan sipil; Danantara; seleksi hakim MK kilat |
+| DPD 2014–2019 | fungsi pengawasan berhenti selama dualisme kepemimpinan & OTT ketuanya |
+| DPD 2019–2024 | **ikut merekomendasikan** pemekaran Papua alih-alih membela syarat konsultasi MRP |
+
+Juga dimoderasi: MPR 1971–1999 tidak lagi berskor `+2` pada negara-hukum dan
+tujuan-3. Koreksi Sidang Istimewa 1998 nyata, tetapi diambil setelah rezimnya
+lengser — 27 tahun sebelumnya MPR justru mengesahkan produk hukum yang
+melanggengkannya. Skor `+2` ("teladan") tidak dapat dipertahankan.
+
+Rata-rata sesudahnya: MPR 2009–2014 **−0.25** · MPR 2014–2019 **−0.17** ·
+MPR 2019–2024 **−0.33** · MPR 2024–sekarang **−0.42** · DPD 2019–2024 **−0.25**.
+Distribusi global: `0`=213, `+1`=216, `+2`=27, `−1`=73, `−2`=40.
+
 ## Sisa pekerjaan (butuh manusia, bukan model)
 
 - **Menelaah 201 skor hasil rescoring AI.** Seluruhnya sudah disetel ulang
