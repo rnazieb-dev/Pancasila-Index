@@ -139,6 +139,15 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
       `expert_quotes` tetap tidak boleh dibangkitkan — 21 kutipan bersitasi
       terbitan nyata. Perkakas: `scripts/dialektika-dump.mts` &
       `scripts/dialektika-apply.mts`.
+- [x] **Fase 17: Rescoring 201 skor terinflasi** ✅
+      Blok skor `+1` seragam di seluruh dimensi (penilaian template) dibongkar
+      memakai anchor rubrik untuk 0: "tidak ada tindakan signifikan yang mengubah
+      keadaan". MPR pasca-2004 turun dari rata-rata 1.17-1.42 ke 0.00-0.25;
+      KY, DPD, BPK 1947-1998, MA, dan DPR/KNIP ikut disetel ulang. Distribusi
+      global kini 0=234, +1=217, +2=27, -1=51, -2=40. Pagar baru menolak
+      asesmen berskor positif/negatif seragam (seragam nol dikecualikan).
+      **Alur kerja yang disepakati: AI menilai → kontributor manusia menelaah.**
+      Seluruh skor berstatus usulan hingga kuorum dua penelaah terpenuhi.
 
 ## Definisi Selesai v1.0 (TERCAPAI PENUH ✅)
 
