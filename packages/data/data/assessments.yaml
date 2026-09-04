@@ -882,7 +882,6 @@
         - source_id: skp2-kejaksaan-bibit-chandra-2009
         - source_id: uu-21-2011-ojk
       event_ids:
-        - ev-rescue-uu-pemerintahan-aceh-11-2006
         - ev-pengesahan-uu-desa-2014
       normative_anchors:
         - uud-nri-1945
@@ -1144,7 +1143,6 @@
         - ev-dpr-uu-tpks-2022
         - ev-perpres-publisher-rights-2024
         - ev-tragedi-kanjuruhan-tgipf-2022
-        - ev-rescue-rekomendasi-dpd-ri-nomor-1-tahun-2023-tentang-pelaksanaan-ot
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-2
@@ -1164,28 +1162,10 @@
         - source_id: laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst
       event_ids:
         - ev-amnesti-presiden-saiful-mahdi-2021
-        - ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-949
-        - ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-950
-        - ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-952
-        - ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-953
-        - ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-955
-        - ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-956
-        - ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-958
-        - ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-959
-        - ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-961
-        - ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-962
-        - ev-rescue-laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-964
-        - ev-rescue-laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-965
-        - ev-rescue-laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-966
-        - ev-rescue-laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-967
-        - ev-rescue-laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-1
-        - ev-rescue-laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-2
-        - ev-rescue-laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-3
         - ev-pengakuan-pelanggaran-ham-berat-2023
         - ev-tragedi-kanjuruhan-malang-2022
         - ev-presiden-darurat-kesehatan-covid-2020
         - ev-jokowi-presidensi-g20
-        - ev-rescue-rekomendasi-dpd-ri-nomor-2-tahun-2023-tentang-pelaksanaan-ot
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -1201,7 +1181,6 @@
         - ev-jokowi2-ikn
         - ev-presiden-uu-fir-ekstradisi-singapura-2023
         - ev-inpres-pelanggaran-ham-berat-2023
-        - ev-rescue-rekomendasi-dpd-ri-nomor-3-tahun-2023-tentang-pelaksanaan-ot
     - dimension_id: sila-4
       score: -2
       confidence: 0.6
@@ -1212,7 +1191,6 @@
           note_id: "Sitasi langsung pakar: Prof. Dr. Maria Farida Indrati, S.H., M.H."
       event_ids:
         - ev-skb-tiga-menteri-ite-2021
-        - ev-rescue-rekomendasi-dpd-ri-nomor-4-tahun-2023-tentang-pelaksanaan-ot
       normative_anchors:
         - uud-nri-1945
       thesis_id: Pemerintah dan DPR menyatakan seluruh undang-undang strategis telah melalui pembahasan terbuka di Badan Legislasi sesuai tata tertib Dewan.
@@ -1229,7 +1207,6 @@
         - source_id: putusan-kasasi-ma-wisnu-cpo-2023
       event_ids:
         - ev-presiden-pengakuan-pelanggaran-ham-2023
-        - ev-rescue-rekomendasi-dpd-ri-nomor-5-tahun-2023-tentang-pelaksanaan-ot
       normative_anchors:
         - uud-nri-1945
     - dimension_id: tujuan-1
@@ -1269,27 +1246,6 @@
       event_ids:
         - ev-skb-pelarangan-fpi-2020
         - ev-rescue-perpres-badan-gizi-2024
-        - ev-rescue-rekomendasi-dpd-ri-nomor-1-tahun-2024-tentang-kebijakan-peme
-        - ev-rescue-rekomendasi-dpd-ri-nomor-2-tahun-2024-tentang-kebijakan-peme
-        - ev-rescue-rekomendasi-dpd-ri-nomor-3-tahun-2024-tentang-kebijakan-peme
-        - ev-rescue-rekomendasi-dpd-ri-nomor-4-tahun-2024-tentang-kebijakan-peme
-        - ev-rescue-rekomendasi-dpd-ri-nomor-5-tahun-2024-tentang-kebijakan-peme
-        - ev-rescue-rekomendasi-dpd-ri-nomor-6-tahun-2024-tentang-kebijakan-peme
-        - ev-rescue-rekomendasi-dpd-ri-nomor-7-tahun-2024-tentang-kebijakan-peme
-        - ev-rescue-laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak
-        - ev-rescue-laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-891
-        - ev-rescue-laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-892
-        - ev-rescue-laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-893
-        - ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenkeu-tah-906
-        - ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t
-        - ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t-908
-        - ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemekes-tahu-910
-        - ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendikbud-912
-        - ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kementan-tah-914
-        - ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenhub-tah-916
-        - ev-rescue-laporan-tahunan-ombudsman-republik-indonesia-2024
-        - ev-rescue-rekomendasi-ombudsman-terhadap-administrasi-pemerintahan-202
-        - ev-rescue-laporan-realisasi-amanat-uud-1945-mpr-2024
         - ev-dpr-uu-kuhp-2022
         - ev-jokowi2-revisi-ite-2024
         - ev-perpu-2-2022
@@ -1347,8 +1303,6 @@
         - ev-jokowi2-fpi-dibubarkan
         - ev-jokowi2-juliari-bansos
         - ev-rescue-dakwaan-kejagung-timah-2024
-        - ev-rescue-laporan-tahunan-kpk-2024-komisi-pemberantasan-korupsi
-        - ev-rescue-laporan-operasional-kpk-2023-status-pemberantasan-korupsi
         - ev-rescue-hasil-sidang-tahunan-mpr-tahun-2024-putusan-dan-ketetapan
         - ev-investigasi-komnas-ham-penyiksaan-dan-hak-hidup-2024
         - ev-jokowi2-kanjuruhan

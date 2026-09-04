@@ -9650,8 +9650,8 @@
     },
     {
       "id": "ev-rescue-uu-pemerintahan-aceh-11-2006",
-      "term_id": "presiden-sby-ii",
-      "date": "2006-01-01",
+      "term_id": "presiden-sby-i",
+      "date": "2006-08-01",
       "category": "produk-hukum",
       "title_id": "Pengesahan Undang-Undang No. 11 Tahun 2006 tentang Pemerintahan Aceh (UUPA / Otonomi Asimetris)",
       "summary_id": "Pemerintah dan DPR RI secara resmi mengesahkan Undang-Undang No. 11 Tahun 2006 tentang Pemerintahan Aceh (UUPA / Otonomi Asimetris). Undang-undang ini menjadi instrumen hukum positif yang mendefinisikan ulang tata kelola spesifik dalam sistem ketatanegaraan Indonesia, serta memberikan kepastian regulasi bagi lembaga negara terkait.",
@@ -9675,578 +9675,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-rescue-rekomendasi-dpd-ri-nomor-1-tahun-2024-tentang-kebijakan-peme",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Rekomendasi DPD RI Nomor 1 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Rekomendasi DPD RI Nomor 1 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "rekomendasi-dpd-ri-nomor-1-tahun-2024-tentang-kebijakan-peme"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-rekomendasi-dpd-ri-nomor-2-tahun-2024-tentang-kebijakan-peme",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Rekomendasi DPD RI Nomor 2 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Rekomendasi DPD RI Nomor 2 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "rekomendasi-dpd-ri-nomor-2-tahun-2024-tentang-kebijakan-peme"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-rekomendasi-dpd-ri-nomor-3-tahun-2024-tentang-kebijakan-peme",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Rekomendasi DPD RI Nomor 3 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Rekomendasi DPD RI Nomor 3 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "rekomendasi-dpd-ri-nomor-3-tahun-2024-tentang-kebijakan-peme"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-rekomendasi-dpd-ri-nomor-4-tahun-2024-tentang-kebijakan-peme",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Rekomendasi DPD RI Nomor 4 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Rekomendasi DPD RI Nomor 4 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "rekomendasi-dpd-ri-nomor-4-tahun-2024-tentang-kebijakan-peme"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-rekomendasi-dpd-ri-nomor-5-tahun-2024-tentang-kebijakan-peme",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Rekomendasi DPD RI Nomor 5 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Rekomendasi DPD RI Nomor 5 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "rekomendasi-dpd-ri-nomor-5-tahun-2024-tentang-kebijakan-peme"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-rekomendasi-dpd-ri-nomor-6-tahun-2024-tentang-kebijakan-peme",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Rekomendasi DPD RI Nomor 6 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Rekomendasi DPD RI Nomor 6 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "rekomendasi-dpd-ri-nomor-6-tahun-2024-tentang-kebijakan-peme"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-rekomendasi-dpd-ri-nomor-7-tahun-2024-tentang-kebijakan-peme",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Rekomendasi DPD RI Nomor 7 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Rekomendasi DPD RI Nomor 7 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "rekomendasi-dpd-ri-nomor-7-tahun-2024-tentang-kebijakan-peme"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah Tahun 2024 - Laporan 1",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah Tahun 2024 - Laporan 1. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-891",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah Tahun 2024 - Laporan 2",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah Tahun 2024 - Laporan 2. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-891"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-892",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah Tahun 2024 - Laporan 3",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah Tahun 2024 - Laporan 3. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-892"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-893",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah Tahun 2024 - Laporan 4",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah Tahun 2024 - Laporan 4. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-893"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-rekomendasi-dpd-ri-nomor-1-tahun-2023-tentang-pelaksanaan-ot",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Rekomendasi DPD RI Nomor 1 Tahun 2023 tentang Pelaksanaan Otonomi Daerah",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Rekomendasi DPD RI Nomor 1 Tahun 2023 tentang Pelaksanaan Otonomi Daerah. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "rekomendasi-dpd-ri-nomor-1-tahun-2023-tentang-pelaksanaan-ot"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-rekomendasi-dpd-ri-nomor-2-tahun-2023-tentang-pelaksanaan-ot",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Rekomendasi DPD RI Nomor 2 Tahun 2023 tentang Pelaksanaan Otonomi Daerah",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Rekomendasi DPD RI Nomor 2 Tahun 2023 tentang Pelaksanaan Otonomi Daerah. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "rekomendasi-dpd-ri-nomor-2-tahun-2023-tentang-pelaksanaan-ot"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-rekomendasi-dpd-ri-nomor-3-tahun-2023-tentang-pelaksanaan-ot",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Rekomendasi DPD RI Nomor 3 Tahun 2023 tentang Pelaksanaan Otonomi Daerah",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Rekomendasi DPD RI Nomor 3 Tahun 2023 tentang Pelaksanaan Otonomi Daerah. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "rekomendasi-dpd-ri-nomor-3-tahun-2023-tentang-pelaksanaan-ot"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-rekomendasi-dpd-ri-nomor-4-tahun-2023-tentang-pelaksanaan-ot",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Rekomendasi DPD RI Nomor 4 Tahun 2023 tentang Pelaksanaan Otonomi Daerah",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Rekomendasi DPD RI Nomor 4 Tahun 2023 tentang Pelaksanaan Otonomi Daerah. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "rekomendasi-dpd-ri-nomor-4-tahun-2023-tentang-pelaksanaan-ot"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-rekomendasi-dpd-ri-nomor-5-tahun-2023-tentang-pelaksanaan-ot",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Rekomendasi DPD RI Nomor 5 Tahun 2023 tentang Pelaksanaan Otonomi Daerah",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Rekomendasi DPD RI Nomor 5 Tahun 2023 tentang Pelaksanaan Otonomi Daerah. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "rekomendasi-dpd-ri-nomor-5-tahun-2023-tentang-pelaksanaan-ot"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenkeu-tah-906",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemenkeu Tahun 2023",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemenkeu Tahun 2023. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenkeu-tah-906"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemendagri Tahun 2024",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemendagri Tahun 2024. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t-908",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemendagri Tahun 2023",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemendagri Tahun 2023. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t-908"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemekes-tahu-910",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemekes Tahun 2023",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemekes Tahun 2023. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemekes-tahu-910"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendikbud-912",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemendikbud Tahun 2023",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemendikbud Tahun 2023. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendikbud-912"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kementan-tah-914",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Hasil Pemeriksaan atas Laporan Keuangan Kementan Tahun 2023",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Hasil Pemeriksaan atas Laporan Keuangan Kementan Tahun 2023. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kementan-tah-914"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenhub-tah-916",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemenhub Tahun 2023",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemenhub Tahun 2023. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenhub-tah-916"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-949",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Investigasi Komnas HAM RI - Kategori penyiksaan Nomor 2 Tahun 2024",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Investigasi Komnas HAM RI - Kategori penyiksaan Nomor 2 Tahun 2024. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-949"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-950",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Investigasi Komnas HAM RI - Kategori penyiksaan Nomor 3 Tahun 2024",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Investigasi Komnas HAM RI - Kategori penyiksaan Nomor 3 Tahun 2024. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-950"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-952",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Investigasi Komnas HAM RI - Kategori pembunuhan ekstrajudisial Nomor 2 Tahun 2024",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Investigasi Komnas HAM RI - Kategori pembunuhan ekstrajudisial Nomor 2 Tahun 2024. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-952"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-953",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Investigasi Komnas HAM RI - Kategori pembunuhan ekstrajudisial Nomor 3 Tahun 2024",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Investigasi Komnas HAM RI - Kategori pembunuhan ekstrajudisial Nomor 3 Tahun 2024. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-953"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-955",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Investigasi Komnas HAM RI - Kategori penghilangan orang Nomor 2 Tahun 2024",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Investigasi Komnas HAM RI - Kategori penghilangan orang Nomor 2 Tahun 2024. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-955"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-956",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Investigasi Komnas HAM RI - Kategori penghilangan orang Nomor 3 Tahun 2024",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Investigasi Komnas HAM RI - Kategori penghilangan orang Nomor 3 Tahun 2024. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-956"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-958",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Investigasi Komnas HAM RI - Kategori pelanggaran hak asasi Nomor 2 Tahun 2024",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Investigasi Komnas HAM RI - Kategori pelanggaran hak asasi Nomor 2 Tahun 2024. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-958"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-959",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Investigasi Komnas HAM RI - Kategori pelanggaran hak asasi Nomor 3 Tahun 2024",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Investigasi Komnas HAM RI - Kategori pelanggaran hak asasi Nomor 3 Tahun 2024. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-959"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-961",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Investigasi Komnas HAM RI - Kategori diskriminasi Nomor 2 Tahun 2024",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Investigasi Komnas HAM RI - Kategori diskriminasi Nomor 2 Tahun 2024. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-961"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-962",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Investigasi Komnas HAM RI - Kategori diskriminasi Nomor 3 Tahun 2024",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Investigasi Komnas HAM RI - Kategori diskriminasi Nomor 3 Tahun 2024. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-962"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-964",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia Tahun 2024 - Laporan 2",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia Tahun 2024 - Laporan 2. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-964"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-965",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia Tahun 2024 - Laporan 3",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia Tahun 2024 - Laporan 3. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-965"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-966",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia Tahun 2024 - Laporan 4",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia Tahun 2024 - Laporan 4. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-966"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-967",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia Tahun 2024 - Laporan 5",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia Tahun 2024 - Laporan 5. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-967"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-1",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Monitoring Komnas HAM RI Tahun 2023 - Triwulan 1",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Monitoring Komnas HAM RI Tahun 2023 - Triwulan 1. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-1"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-2",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Monitoring Komnas HAM RI Tahun 2023 - Triwulan 2",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Monitoring Komnas HAM RI Tahun 2023 - Triwulan 2. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-2"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-3",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Monitoring Komnas HAM RI Tahun 2023 - Triwulan 3",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Monitoring Komnas HAM RI Tahun 2023 - Triwulan 3. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-3"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-tahunan-kpk-2024-komisi-pemberantasan-korupsi",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Tahunan KPK 2024 - Komisi Pemberantasan Korupsi",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Tahunan KPK 2024 - Komisi Pemberantasan Korupsi. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-tahunan-kpk-2024-komisi-pemberantasan-korupsi"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-operasional-kpk-2023-status-pemberantasan-korupsi",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Operasional KPK 2023 - Status Pemberantasan Korupsi",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Operasional KPK 2023 - Status Pemberantasan Korupsi. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-operasional-kpk-2023-status-pemberantasan-korupsi"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-tahunan-ombudsman-republik-indonesia-2024",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Tahunan Ombudsman Republik Indonesia 2024",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Tahunan Ombudsman Republik Indonesia 2024. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-tahunan-ombudsman-republik-indonesia-2024"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-rekomendasi-ombudsman-terhadap-administrasi-pemerintahan-202",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2023-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Rekomendasi Ombudsman terhadap Administrasi Pemerintahan 2023",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Rekomendasi Ombudsman terhadap Administrasi Pemerintahan 2023. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "rekomendasi-ombudsman-terhadap-administrasi-pemerintahan-202"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
       "id": "ev-rescue-hasil-sidang-tahunan-mpr-tahun-2024-putusan-dan-ketetapan",
       "term_id": "presiden-jokowi-ii",
       "date": "2024-01-01",
@@ -10255,19 +9683,6 @@
       "summary_id": "Lembaga peradilan membacakan putusan/dakwaan resmi terkait Hasil Sidang Tahunan MPR Tahun 2024 - Putusan dan Ketetapan. Putusan yurisprudensial ini menegaskan tafsir konstitusional dan memiliki dampak mengikat bagi penegakan hukum di Indonesia.",
       "source_ids": [
         "hasil-sidang-tahunan-mpr-tahun-2024-putusan-dan-ketetapan"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-laporan-realisasi-amanat-uud-1945-mpr-2024",
-      "term_id": "presiden-jokowi-ii",
-      "date": "2024-01-01",
-      "category": "peristiwa",
-      "title_id": "Penyampaian Laporan Realisasi Amanat UUD 1945 - MPR 2024",
-      "summary_id": "Lembaga negara terkait secara resmi menyampaikan Laporan Realisasi Amanat UUD 1945 - MPR 2024. Laporan komprehensif ini menjadi instrumen akuntabilitas publik dan checks-and-balances dalam pengawasan tata kelola pemerintahan.",
-      "source_ids": [
-        "laporan-realisasi-amanat-uud-1945-mpr-2024"
       ],
       "dimension_ids": [],
       "actor_ids": []
@@ -25664,182 +25079,6 @@
       "frbr_uri": "/akn/id/archive/lainnya/2023/peraturan-gubernur-provinsi-dki-jakarta-nomor-150-tahun-2023"
     },
     {
-      "id": "rekomendasi-dpd-ri-nomor-1-tahun-2024-tentang-kebijakan-peme",
-      "type": "lainnya",
-      "title_id": "Rekomendasi DPD RI Nomor 1 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah",
-      "year": 2024,
-      "url": "https://www.dpd.go.id/publikasi/rekomendasi/2024/1",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/rekomendasi/2024/1",
-      "detail_url": "/arsip/rekomendasi-dpd-ri-nomor-1-tahun-2024-tentang-kebijakan-peme",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/rekomendasi-dpd-ri-nomor-1-tahun-2024-tentang-kebijakan-peme"
-    },
-    {
-      "id": "rekomendasi-dpd-ri-nomor-2-tahun-2024-tentang-kebijakan-peme",
-      "type": "lainnya",
-      "title_id": "Rekomendasi DPD RI Nomor 2 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah",
-      "year": 2024,
-      "url": "https://www.dpd.go.id/publikasi/rekomendasi/2024/2",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/rekomendasi/2024/2",
-      "detail_url": "/arsip/rekomendasi-dpd-ri-nomor-2-tahun-2024-tentang-kebijakan-peme",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/rekomendasi-dpd-ri-nomor-2-tahun-2024-tentang-kebijakan-peme"
-    },
-    {
-      "id": "rekomendasi-dpd-ri-nomor-3-tahun-2024-tentang-kebijakan-peme",
-      "type": "lainnya",
-      "title_id": "Rekomendasi DPD RI Nomor 3 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah",
-      "year": 2024,
-      "url": "https://www.dpd.go.id/publikasi/rekomendasi/2024/3",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/rekomendasi/2024/3",
-      "detail_url": "/arsip/rekomendasi-dpd-ri-nomor-3-tahun-2024-tentang-kebijakan-peme",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/rekomendasi-dpd-ri-nomor-3-tahun-2024-tentang-kebijakan-peme"
-    },
-    {
-      "id": "rekomendasi-dpd-ri-nomor-4-tahun-2024-tentang-kebijakan-peme",
-      "type": "lainnya",
-      "title_id": "Rekomendasi DPD RI Nomor 4 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah",
-      "year": 2024,
-      "url": "https://www.dpd.go.id/publikasi/rekomendasi/2024/4",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/rekomendasi/2024/4",
-      "detail_url": "/arsip/rekomendasi-dpd-ri-nomor-4-tahun-2024-tentang-kebijakan-peme",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/rekomendasi-dpd-ri-nomor-4-tahun-2024-tentang-kebijakan-peme"
-    },
-    {
-      "id": "rekomendasi-dpd-ri-nomor-5-tahun-2024-tentang-kebijakan-peme",
-      "type": "lainnya",
-      "title_id": "Rekomendasi DPD RI Nomor 5 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah",
-      "year": 2024,
-      "url": "https://www.dpd.go.id/publikasi/rekomendasi/2024/5",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/rekomendasi/2024/5",
-      "detail_url": "/arsip/rekomendasi-dpd-ri-nomor-5-tahun-2024-tentang-kebijakan-peme",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/rekomendasi-dpd-ri-nomor-5-tahun-2024-tentang-kebijakan-peme"
-    },
-    {
-      "id": "rekomendasi-dpd-ri-nomor-6-tahun-2024-tentang-kebijakan-peme",
-      "type": "lainnya",
-      "title_id": "Rekomendasi DPD RI Nomor 6 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah",
-      "year": 2024,
-      "url": "https://www.dpd.go.id/publikasi/rekomendasi/2024/6",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/rekomendasi/2024/6",
-      "detail_url": "/arsip/rekomendasi-dpd-ri-nomor-6-tahun-2024-tentang-kebijakan-peme",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/rekomendasi-dpd-ri-nomor-6-tahun-2024-tentang-kebijakan-peme"
-    },
-    {
-      "id": "rekomendasi-dpd-ri-nomor-7-tahun-2024-tentang-kebijakan-peme",
-      "type": "lainnya",
-      "title_id": "Rekomendasi DPD RI Nomor 7 Tahun 2024 tentang Kebijakan Pemerintah dalam Pembangunan Daerah",
-      "year": 2024,
-      "url": "https://www.dpd.go.id/publikasi/rekomendasi/2024/7",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/rekomendasi/2024/7",
-      "detail_url": "/arsip/rekomendasi-dpd-ri-nomor-7-tahun-2024-tentang-kebijakan-peme",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/rekomendasi-dpd-ri-nomor-7-tahun-2024-tentang-kebijakan-peme"
-    },
-    {
-      "id": "laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak",
-      "type": "lainnya",
-      "title_id": "Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah Tahun 2024 - Laporan 1",
-      "year": 2024,
-      "url": "https://www.dpd.go.id/publikasi/pengawasan/2024/1",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/pengawasan/2024/1",
-      "detail_url": "/arsip/laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak"
-    },
-    {
-      "id": "laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-891",
-      "type": "lainnya",
-      "title_id": "Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah Tahun 2024 - Laporan 2",
-      "year": 2024,
-      "url": "https://www.dpd.go.id/publikasi/pengawasan/2024/2",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/pengawasan/2024/2",
-      "detail_url": "/arsip/laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-891",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-891"
-    },
-    {
-      "id": "laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-892",
-      "type": "lainnya",
-      "title_id": "Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah Tahun 2024 - Laporan 3",
-      "year": 2024,
-      "url": "https://www.dpd.go.id/publikasi/pengawasan/2024/3",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/pengawasan/2024/3",
-      "detail_url": "/arsip/laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-892",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-892"
-    },
-    {
-      "id": "laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-893",
-      "type": "lainnya",
-      "title_id": "Laporan Hasil Pengawasan DPD RI terhadap Pelaksanaan Kebijakan Pemerintah Tahun 2024 - Laporan 4",
-      "year": 2024,
-      "url": "https://www.dpd.go.id/publikasi/pengawasan/2024/4",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/pengawasan/2024/4",
-      "detail_url": "/arsip/laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-893",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-893"
-    },
-    {
-      "id": "rekomendasi-dpd-ri-nomor-1-tahun-2023-tentang-pelaksanaan-ot",
-      "type": "lainnya",
-      "title_id": "Rekomendasi DPD RI Nomor 1 Tahun 2023 tentang Pelaksanaan Otonomi Daerah",
-      "year": 2023,
-      "url": "https://www.dpd.go.id/publikasi/rekomendasi/2023/1",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/rekomendasi/2023/1",
-      "detail_url": "/arsip/rekomendasi-dpd-ri-nomor-1-tahun-2023-tentang-pelaksanaan-ot",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/rekomendasi-dpd-ri-nomor-1-tahun-2023-tentang-pelaksanaan-ot"
-    },
-    {
-      "id": "rekomendasi-dpd-ri-nomor-2-tahun-2023-tentang-pelaksanaan-ot",
-      "type": "lainnya",
-      "title_id": "Rekomendasi DPD RI Nomor 2 Tahun 2023 tentang Pelaksanaan Otonomi Daerah",
-      "year": 2023,
-      "url": "https://www.dpd.go.id/publikasi/rekomendasi/2023/2",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/rekomendasi/2023/2",
-      "detail_url": "/arsip/rekomendasi-dpd-ri-nomor-2-tahun-2023-tentang-pelaksanaan-ot",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/rekomendasi-dpd-ri-nomor-2-tahun-2023-tentang-pelaksanaan-ot"
-    },
-    {
-      "id": "rekomendasi-dpd-ri-nomor-3-tahun-2023-tentang-pelaksanaan-ot",
-      "type": "lainnya",
-      "title_id": "Rekomendasi DPD RI Nomor 3 Tahun 2023 tentang Pelaksanaan Otonomi Daerah",
-      "year": 2023,
-      "url": "https://www.dpd.go.id/publikasi/rekomendasi/2023/3",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/rekomendasi/2023/3",
-      "detail_url": "/arsip/rekomendasi-dpd-ri-nomor-3-tahun-2023-tentang-pelaksanaan-ot",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/rekomendasi-dpd-ri-nomor-3-tahun-2023-tentang-pelaksanaan-ot"
-    },
-    {
-      "id": "rekomendasi-dpd-ri-nomor-4-tahun-2023-tentang-pelaksanaan-ot",
-      "type": "lainnya",
-      "title_id": "Rekomendasi DPD RI Nomor 4 Tahun 2023 tentang Pelaksanaan Otonomi Daerah",
-      "year": 2023,
-      "url": "https://www.dpd.go.id/publikasi/rekomendasi/2023/4",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/rekomendasi/2023/4",
-      "detail_url": "/arsip/rekomendasi-dpd-ri-nomor-4-tahun-2023-tentang-pelaksanaan-ot",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/rekomendasi-dpd-ri-nomor-4-tahun-2023-tentang-pelaksanaan-ot"
-    },
-    {
-      "id": "rekomendasi-dpd-ri-nomor-5-tahun-2023-tentang-pelaksanaan-ot",
-      "type": "lainnya",
-      "title_id": "Rekomendasi DPD RI Nomor 5 Tahun 2023 tentang Pelaksanaan Otonomi Daerah",
-      "year": 2023,
-      "url": "https://www.dpd.go.id/publikasi/rekomendasi/2023/5",
-      "archive_ok": true,
-      "resolved_url": "https://www.dpd.go.id/publikasi/rekomendasi/2023/5",
-      "detail_url": "/arsip/rekomendasi-dpd-ri-nomor-5-tahun-2023-tentang-pelaksanaan-ot",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/rekomendasi-dpd-ri-nomor-5-tahun-2023-tentang-pelaksanaan-ot"
-    },
-    {
       "id": "ikhtisar-hasil-pemeriksaan-semester-2-tahun-2024-badan-p",
       "type": "lainnya",
       "title_id": "Ikhtisar Hasil Pemeriksaan Semester (2) Tahun 2024 - Badan Pemeriksa Keuangan RI",
@@ -25906,39 +25145,6 @@
       "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenkeu-tah"
     },
     {
-      "id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenkeu-tah-906",
-      "type": "lainnya",
-      "title_id": "Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemenkeu Tahun 2023",
-      "year": 2023,
-      "url": "https://www.bpk.go.id/publikasi/lhp/2023/kemenkeu",
-      "archive_ok": true,
-      "resolved_url": "https://www.bpk.go.id/publikasi/lhp/2023/kemenkeu",
-      "detail_url": "/arsip/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenkeu-tah-906",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenkeu-tah-906"
-    },
-    {
-      "id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t",
-      "type": "lainnya",
-      "title_id": "Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemendagri Tahun 2024",
-      "year": 2024,
-      "url": "https://www.bpk.go.id/publikasi/lhp/2024/kemendagri",
-      "archive_ok": true,
-      "resolved_url": "https://www.bpk.go.id/publikasi/lhp/2024/kemendagri",
-      "detail_url": "/arsip/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t"
-    },
-    {
-      "id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t-908",
-      "type": "lainnya",
-      "title_id": "Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemendagri Tahun 2023",
-      "year": 2023,
-      "url": "https://www.bpk.go.id/publikasi/lhp/2023/kemendagri",
-      "archive_ok": true,
-      "resolved_url": "https://www.bpk.go.id/publikasi/lhp/2023/kemendagri",
-      "detail_url": "/arsip/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t-908",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t-908"
-    },
-    {
       "id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemekes-tahu",
       "type": "lainnya",
       "title_id": "Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemekes Tahun 2024",
@@ -25948,17 +25154,6 @@
       "resolved_url": "https://www.bpk.go.id/publikasi/lhp/2024/kemekes",
       "detail_url": "/arsip/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemekes-tahu",
       "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemekes-tahu"
-    },
-    {
-      "id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemekes-tahu-910",
-      "type": "lainnya",
-      "title_id": "Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemekes Tahun 2023",
-      "year": 2023,
-      "url": "https://www.bpk.go.id/publikasi/lhp/2023/kemekes",
-      "archive_ok": true,
-      "resolved_url": "https://www.bpk.go.id/publikasi/lhp/2023/kemekes",
-      "detail_url": "/arsip/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemekes-tahu-910",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemekes-tahu-910"
     },
     {
       "id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendikbud",
@@ -25972,17 +25167,6 @@
       "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendikbud"
     },
     {
-      "id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendikbud-912",
-      "type": "lainnya",
-      "title_id": "Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemendikbud Tahun 2023",
-      "year": 2023,
-      "url": "https://www.bpk.go.id/publikasi/lhp/2023/kemendikbud",
-      "archive_ok": true,
-      "resolved_url": "https://www.bpk.go.id/publikasi/lhp/2023/kemendikbud",
-      "detail_url": "/arsip/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendikbud-912",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendikbud-912"
-    },
-    {
       "id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kementan-tah",
       "type": "lainnya",
       "title_id": "Laporan Hasil Pemeriksaan atas Laporan Keuangan Kementan Tahun 2024",
@@ -25992,17 +25176,6 @@
       "resolved_url": "https://www.bpk.go.id/publikasi/lhp/2024/kementan",
       "detail_url": "/arsip/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kementan-tah",
       "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kementan-tah"
-    },
-    {
-      "id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kementan-tah-914",
-      "type": "lainnya",
-      "title_id": "Laporan Hasil Pemeriksaan atas Laporan Keuangan Kementan Tahun 2023",
-      "year": 2023,
-      "url": "https://www.bpk.go.id/publikasi/lhp/2023/kementan",
-      "archive_ok": true,
-      "resolved_url": "https://www.bpk.go.id/publikasi/lhp/2023/kementan",
-      "detail_url": "/arsip/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kementan-tah-914",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kementan-tah-914"
     },
     {
       "id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenhub-tah",
@@ -26016,17 +25189,6 @@
       "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenhub-tah"
     },
     {
-      "id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenhub-tah-916",
-      "type": "lainnya",
-      "title_id": "Laporan Hasil Pemeriksaan atas Laporan Keuangan Kemenhub Tahun 2023",
-      "year": 2023,
-      "url": "https://www.bpk.go.id/publikasi/lhp/2023/kemenhub",
-      "archive_ok": true,
-      "resolved_url": "https://www.bpk.go.id/publikasi/lhp/2023/kemenhub",
-      "detail_url": "/arsip/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenhub-tah-916",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenhub-tah-916"
-    },
-    {
       "id": "laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo",
       "type": "lainnya",
       "title_id": "Laporan Investigasi Komnas HAM RI - Kategori penyiksaan Nomor 1 Tahun 2024",
@@ -26036,28 +25198,6 @@
       "resolved_url": "https://komnasham.go.id/investigasi/penyiksaan/2024/1",
       "detail_url": "/arsip/laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo",
       "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo"
-    },
-    {
-      "id": "laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-949",
-      "type": "lainnya",
-      "title_id": "Laporan Investigasi Komnas HAM RI - Kategori penyiksaan Nomor 2 Tahun 2024",
-      "year": 2024,
-      "url": "https://komnasham.go.id/investigasi/penyiksaan/2024/2",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/investigasi/penyiksaan/2024/2",
-      "detail_url": "/arsip/laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-949",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-949"
-    },
-    {
-      "id": "laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-950",
-      "type": "lainnya",
-      "title_id": "Laporan Investigasi Komnas HAM RI - Kategori penyiksaan Nomor 3 Tahun 2024",
-      "year": 2024,
-      "url": "https://komnasham.go.id/investigasi/penyiksaan/2024/3",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/investigasi/penyiksaan/2024/3",
-      "detail_url": "/arsip/laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-950",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-950"
     },
     {
       "id": "laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst",
@@ -26071,28 +25211,6 @@
       "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst"
     },
     {
-      "id": "laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-952",
-      "type": "lainnya",
-      "title_id": "Laporan Investigasi Komnas HAM RI - Kategori pembunuhan ekstrajudisial Nomor 2 Tahun 2024",
-      "year": 2024,
-      "url": "https://komnasham.go.id/investigasi/pembunuhan-ekstrajudisial/2024/2",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/investigasi/pembunuhan-ekstrajudisial/2024/2",
-      "detail_url": "/arsip/laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-952",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-952"
-    },
-    {
-      "id": "laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-953",
-      "type": "lainnya",
-      "title_id": "Laporan Investigasi Komnas HAM RI - Kategori pembunuhan ekstrajudisial Nomor 3 Tahun 2024",
-      "year": 2024,
-      "url": "https://komnasham.go.id/investigasi/pembunuhan-ekstrajudisial/2024/3",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/investigasi/pembunuhan-ekstrajudisial/2024/3",
-      "detail_url": "/arsip/laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-953",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-953"
-    },
-    {
       "id": "laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or",
       "type": "lainnya",
       "title_id": "Laporan Investigasi Komnas HAM RI - Kategori penghilangan orang Nomor 1 Tahun 2024",
@@ -26102,28 +25220,6 @@
       "resolved_url": "https://komnasham.go.id/investigasi/penghilangan-orang/2024/1",
       "detail_url": "/arsip/laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or",
       "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or"
-    },
-    {
-      "id": "laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-955",
-      "type": "lainnya",
-      "title_id": "Laporan Investigasi Komnas HAM RI - Kategori penghilangan orang Nomor 2 Tahun 2024",
-      "year": 2024,
-      "url": "https://komnasham.go.id/investigasi/penghilangan-orang/2024/2",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/investigasi/penghilangan-orang/2024/2",
-      "detail_url": "/arsip/laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-955",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-955"
-    },
-    {
-      "id": "laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-956",
-      "type": "lainnya",
-      "title_id": "Laporan Investigasi Komnas HAM RI - Kategori penghilangan orang Nomor 3 Tahun 2024",
-      "year": 2024,
-      "url": "https://komnasham.go.id/investigasi/penghilangan-orang/2024/3",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/investigasi/penghilangan-orang/2024/3",
-      "detail_url": "/arsip/laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-956",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-956"
     },
     {
       "id": "laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak",
@@ -26137,28 +25233,6 @@
       "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak"
     },
     {
-      "id": "laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-958",
-      "type": "lainnya",
-      "title_id": "Laporan Investigasi Komnas HAM RI - Kategori pelanggaran hak asasi Nomor 2 Tahun 2024",
-      "year": 2024,
-      "url": "https://komnasham.go.id/investigasi/pelanggaran-hak-asasi/2024/2",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/investigasi/pelanggaran-hak-asasi/2024/2",
-      "detail_url": "/arsip/laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-958",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-958"
-    },
-    {
-      "id": "laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-959",
-      "type": "lainnya",
-      "title_id": "Laporan Investigasi Komnas HAM RI - Kategori pelanggaran hak asasi Nomor 3 Tahun 2024",
-      "year": 2024,
-      "url": "https://komnasham.go.id/investigasi/pelanggaran-hak-asasi/2024/3",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/investigasi/pelanggaran-hak-asasi/2024/3",
-      "detail_url": "/arsip/laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-959",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-959"
-    },
-    {
       "id": "laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no",
       "type": "lainnya",
       "title_id": "Laporan Investigasi Komnas HAM RI - Kategori diskriminasi Nomor 1 Tahun 2024",
@@ -26170,28 +25244,6 @@
       "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no"
     },
     {
-      "id": "laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-961",
-      "type": "lainnya",
-      "title_id": "Laporan Investigasi Komnas HAM RI - Kategori diskriminasi Nomor 2 Tahun 2024",
-      "year": 2024,
-      "url": "https://komnasham.go.id/investigasi/diskriminasi/2024/2",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/investigasi/diskriminasi/2024/2",
-      "detail_url": "/arsip/laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-961",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-961"
-    },
-    {
-      "id": "laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-962",
-      "type": "lainnya",
-      "title_id": "Laporan Investigasi Komnas HAM RI - Kategori diskriminasi Nomor 3 Tahun 2024",
-      "year": 2024,
-      "url": "https://komnasham.go.id/investigasi/diskriminasi/2024/3",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/investigasi/diskriminasi/2024/3",
-      "detail_url": "/arsip/laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-962",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-962"
-    },
-    {
       "id": "laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas",
       "type": "lainnya",
       "title_id": "Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia Tahun 2024 - Laporan 1",
@@ -26201,116 +25253,6 @@
       "resolved_url": "https://komnasham.go.id/monitoring/2024/1",
       "detail_url": "/arsip/laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas",
       "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas"
-    },
-    {
-      "id": "laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-964",
-      "type": "lainnya",
-      "title_id": "Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia Tahun 2024 - Laporan 2",
-      "year": 2024,
-      "url": "https://komnasham.go.id/monitoring/2024/2",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/monitoring/2024/2",
-      "detail_url": "/arsip/laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-964",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-964"
-    },
-    {
-      "id": "laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-965",
-      "type": "lainnya",
-      "title_id": "Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia Tahun 2024 - Laporan 3",
-      "year": 2024,
-      "url": "https://komnasham.go.id/monitoring/2024/3",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/monitoring/2024/3",
-      "detail_url": "/arsip/laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-965",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-965"
-    },
-    {
-      "id": "laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-966",
-      "type": "lainnya",
-      "title_id": "Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia Tahun 2024 - Laporan 4",
-      "year": 2024,
-      "url": "https://komnasham.go.id/monitoring/2024/4",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/monitoring/2024/4",
-      "detail_url": "/arsip/laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-966",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-966"
-    },
-    {
-      "id": "laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-967",
-      "type": "lainnya",
-      "title_id": "Laporan Monitoring Komnas HAM RI terhadap Pemenuhan Hak Asasi Manusia Tahun 2024 - Laporan 5",
-      "year": 2024,
-      "url": "https://komnasham.go.id/monitoring/2024/5",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/monitoring/2024/5",
-      "detail_url": "/arsip/laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-967",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-967"
-    },
-    {
-      "id": "laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-1",
-      "type": "lainnya",
-      "title_id": "Laporan Monitoring Komnas HAM RI Tahun 2023 - Triwulan 1",
-      "year": 2023,
-      "url": "https://komnasham.go.id/monitoring/2023/1",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/monitoring/2023/1",
-      "detail_url": "/arsip/laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-1",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-1"
-    },
-    {
-      "id": "laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-2",
-      "type": "lainnya",
-      "title_id": "Laporan Monitoring Komnas HAM RI Tahun 2023 - Triwulan 2",
-      "year": 2023,
-      "url": "https://komnasham.go.id/monitoring/2023/2",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/monitoring/2023/2",
-      "detail_url": "/arsip/laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-2",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-2"
-    },
-    {
-      "id": "laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-3",
-      "type": "lainnya",
-      "title_id": "Laporan Monitoring Komnas HAM RI Tahun 2023 - Triwulan 3",
-      "year": 2023,
-      "url": "https://komnasham.go.id/monitoring/2023/3",
-      "archive_ok": true,
-      "resolved_url": "https://komnasham.go.id/monitoring/2023/3",
-      "detail_url": "/arsip/laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-3",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-3"
-    },
-    {
-      "id": "laporan-tahunan-kpk-2024-komisi-pemberantasan-korupsi",
-      "type": "lainnya",
-      "title_id": "Laporan Tahunan KPK 2024 - Komisi Pemberantasan Korupsi",
-      "year": 2024,
-      "url": "https://www.kpk.go.id/publikasi/laporan-tahunan/2024",
-      "archive_ok": true,
-      "resolved_url": "https://www.kpk.go.id/publikasi/laporan-tahunan/2024",
-      "detail_url": "/arsip/laporan-tahunan-kpk-2024-komisi-pemberantasan-korupsi",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-tahunan-kpk-2024-komisi-pemberantasan-korupsi"
-    },
-    {
-      "id": "laporan-operasional-kpk-2023-status-pemberantasan-korupsi",
-      "type": "lainnya",
-      "title_id": "Laporan Operasional KPK 2023 - Status Pemberantasan Korupsi",
-      "year": 2023,
-      "url": "https://www.kpk.go.id/publikasi/laporan-operasional/2023",
-      "archive_ok": true,
-      "resolved_url": "https://www.kpk.go.id/publikasi/laporan-operasional/2023",
-      "detail_url": "/arsip/laporan-operasional-kpk-2023-status-pemberantasan-korupsi",
-      "frbr_uri": "/akn/id/archive/lainnya/2023/laporan-operasional-kpk-2023-status-pemberantasan-korupsi"
-    },
-    {
-      "id": "laporan-tahunan-ombudsman-republik-indonesia-2024",
-      "type": "lainnya",
-      "title_id": "Laporan Tahunan Ombudsman Republik Indonesia 2024",
-      "year": 2024,
-      "url": "https://www.ombudsman.go.id/publikasi/laporan/2024",
-      "archive_ok": true,
-      "resolved_url": "https://www.ombudsman.go.id/publikasi/laporan/2024",
-      "detail_url": "/arsip/laporan-tahunan-ombudsman-republik-indonesia-2024",
-      "frbr_uri": "/akn/id/archive/lainnya/2024/laporan-tahunan-ombudsman-republik-indonesia-2024"
     },
     {
       "id": "rekomendasi-ombudsman-terhadap-administrasi-pemerintahan-202",
@@ -28507,14 +27449,10 @@
               "source_id": "uu-21-2011-ojk"
             },
             {
-              "source_id": "uu-pemerintahan-aceh-11-2006"
-            },
-            {
               "source_id": "uu-6-2014-desa"
             }
           ],
           "event_ids": [
-            "ev-rescue-uu-pemerintahan-aceh-11-2006",
             "ev-pengesahan-uu-desa-2014"
           ],
           "normative_anchors": [
@@ -29015,16 +27953,12 @@
             },
             {
               "source_id": "laporan-tgipf-kanjuruhan-2022"
-            },
-            {
-              "source_id": "rekomendasi-dpd-ri-nomor-1-tahun-2023-tentang-pelaksanaan-ot"
             }
           ],
           "event_ids": [
             "ev-dpr-uu-tpks-2022",
             "ev-perpres-publisher-rights-2024",
-            "ev-tragedi-kanjuruhan-tgipf-2022",
-            "ev-rescue-rekomendasi-dpd-ri-nomor-1-tahun-2023-tentang-pelaksanaan-ot"
+            "ev-tragedi-kanjuruhan-tgipf-2022"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -29070,90 +28004,18 @@
               "source_id": "keppres-17-2021"
             },
             {
-              "source_id": "laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-949"
-            },
-            {
-              "source_id": "laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-950"
-            },
-            {
-              "source_id": "laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-952"
-            },
-            {
-              "source_id": "laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-953"
-            },
-            {
-              "source_id": "laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-955"
-            },
-            {
-              "source_id": "laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-956"
-            },
-            {
-              "source_id": "laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-958"
-            },
-            {
-              "source_id": "laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-959"
-            },
-            {
-              "source_id": "laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-961"
-            },
-            {
-              "source_id": "laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-962"
-            },
-            {
-              "source_id": "laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-964"
-            },
-            {
-              "source_id": "laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-965"
-            },
-            {
-              "source_id": "laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-966"
-            },
-            {
-              "source_id": "laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-967"
-            },
-            {
-              "source_id": "laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-1"
-            },
-            {
-              "source_id": "laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-2"
-            },
-            {
-              "source_id": "laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-3"
-            },
-            {
               "source_id": "keppres-11-2020"
             },
             {
               "source_id": "g20-bali-leaders-declaration-2022"
-            },
-            {
-              "source_id": "rekomendasi-dpd-ri-nomor-2-tahun-2023-tentang-pelaksanaan-ot"
             }
           ],
           "event_ids": [
             "ev-amnesti-presiden-saiful-mahdi-2021",
-            "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-949",
-            "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo-950",
-            "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-952",
-            "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst-953",
-            "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-955",
-            "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or-956",
-            "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-958",
-            "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak-959",
-            "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-961",
-            "ev-rescue-laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no-962",
-            "ev-rescue-laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-964",
-            "ev-rescue-laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-965",
-            "ev-rescue-laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-966",
-            "ev-rescue-laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas-967",
-            "ev-rescue-laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-1",
-            "ev-rescue-laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-2",
-            "ev-rescue-laporan-monitoring-komnas-ham-ri-tahun-2023-triwulan-3",
             "ev-pengakuan-pelanggaran-ham-berat-2023",
             "ev-tragedi-kanjuruhan-malang-2022",
             "ev-presiden-darurat-kesehatan-covid-2020",
-            "ev-jokowi-presidensi-g20",
-            "ev-rescue-rekomendasi-dpd-ri-nomor-2-tahun-2023-tentang-pelaksanaan-ot"
+            "ev-jokowi-presidensi-g20"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -29182,17 +28044,13 @@
             },
             {
               "source_id": "inpres-2-2023"
-            },
-            {
-              "source_id": "rekomendasi-dpd-ri-nomor-3-tahun-2023-tentang-pelaksanaan-ot"
             }
           ],
           "event_ids": [
             "ev-uu-ikn-nusantara-2022",
             "ev-jokowi2-ikn",
             "ev-presiden-uu-fir-ekstradisi-singapura-2023",
-            "ev-inpres-pelanggaran-ham-berat-2023",
-            "ev-rescue-rekomendasi-dpd-ri-nomor-3-tahun-2023-tentang-pelaksanaan-ot"
+            "ev-inpres-pelanggaran-ham-berat-2023"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -29216,14 +28074,10 @@
             },
             {
               "source_id": "skb-uu-ite-2021"
-            },
-            {
-              "source_id": "rekomendasi-dpd-ri-nomor-4-tahun-2023-tentang-pelaksanaan-ot"
             }
           ],
           "event_ids": [
-            "ev-skb-tiga-menteri-ite-2021",
-            "ev-rescue-rekomendasi-dpd-ri-nomor-4-tahun-2023-tentang-pelaksanaan-ot"
+            "ev-skb-tiga-menteri-ite-2021"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -29252,14 +28106,10 @@
             },
             {
               "source_id": "pidato-presiden-ham-2023"
-            },
-            {
-              "source_id": "rekomendasi-dpd-ri-nomor-5-tahun-2023-tentang-pelaksanaan-ot"
             }
           ],
           "event_ids": [
-            "ev-presiden-pengakuan-pelanggaran-ham-2023",
-            "ev-rescue-rekomendasi-dpd-ri-nomor-5-tahun-2023-tentang-pelaksanaan-ot"
+            "ev-presiden-pengakuan-pelanggaran-ham-2023"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -29360,69 +28210,6 @@
               "source_id": "perpres-badan-gizi-2024"
             },
             {
-              "source_id": "rekomendasi-dpd-ri-nomor-1-tahun-2024-tentang-kebijakan-peme"
-            },
-            {
-              "source_id": "rekomendasi-dpd-ri-nomor-2-tahun-2024-tentang-kebijakan-peme"
-            },
-            {
-              "source_id": "rekomendasi-dpd-ri-nomor-3-tahun-2024-tentang-kebijakan-peme"
-            },
-            {
-              "source_id": "rekomendasi-dpd-ri-nomor-4-tahun-2024-tentang-kebijakan-peme"
-            },
-            {
-              "source_id": "rekomendasi-dpd-ri-nomor-5-tahun-2024-tentang-kebijakan-peme"
-            },
-            {
-              "source_id": "rekomendasi-dpd-ri-nomor-6-tahun-2024-tentang-kebijakan-peme"
-            },
-            {
-              "source_id": "rekomendasi-dpd-ri-nomor-7-tahun-2024-tentang-kebijakan-peme"
-            },
-            {
-              "source_id": "laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak"
-            },
-            {
-              "source_id": "laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-891"
-            },
-            {
-              "source_id": "laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-892"
-            },
-            {
-              "source_id": "laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-893"
-            },
-            {
-              "source_id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenkeu-tah-906"
-            },
-            {
-              "source_id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t"
-            },
-            {
-              "source_id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t-908"
-            },
-            {
-              "source_id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemekes-tahu-910"
-            },
-            {
-              "source_id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendikbud-912"
-            },
-            {
-              "source_id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kementan-tah-914"
-            },
-            {
-              "source_id": "laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenhub-tah-916"
-            },
-            {
-              "source_id": "laporan-tahunan-ombudsman-republik-indonesia-2024"
-            },
-            {
-              "source_id": "rekomendasi-ombudsman-terhadap-administrasi-pemerintahan-202"
-            },
-            {
-              "source_id": "laporan-realisasi-amanat-uud-1945-mpr-2024"
-            },
-            {
               "source_id": "uu-1-2023"
             },
             {
@@ -29444,27 +28231,6 @@
           "event_ids": [
             "ev-skb-pelarangan-fpi-2020",
             "ev-rescue-perpres-badan-gizi-2024",
-            "ev-rescue-rekomendasi-dpd-ri-nomor-1-tahun-2024-tentang-kebijakan-peme",
-            "ev-rescue-rekomendasi-dpd-ri-nomor-2-tahun-2024-tentang-kebijakan-peme",
-            "ev-rescue-rekomendasi-dpd-ri-nomor-3-tahun-2024-tentang-kebijakan-peme",
-            "ev-rescue-rekomendasi-dpd-ri-nomor-4-tahun-2024-tentang-kebijakan-peme",
-            "ev-rescue-rekomendasi-dpd-ri-nomor-5-tahun-2024-tentang-kebijakan-peme",
-            "ev-rescue-rekomendasi-dpd-ri-nomor-6-tahun-2024-tentang-kebijakan-peme",
-            "ev-rescue-rekomendasi-dpd-ri-nomor-7-tahun-2024-tentang-kebijakan-peme",
-            "ev-rescue-laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak",
-            "ev-rescue-laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-891",
-            "ev-rescue-laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-892",
-            "ev-rescue-laporan-hasil-pengawasan-dpd-ri-terhadap-pelaksanaan-kebijak-893",
-            "ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenkeu-tah-906",
-            "ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t",
-            "ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendagri-t-908",
-            "ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemekes-tahu-910",
-            "ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendikbud-912",
-            "ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kementan-tah-914",
-            "ev-rescue-laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenhub-tah-916",
-            "ev-rescue-laporan-tahunan-ombudsman-republik-indonesia-2024",
-            "ev-rescue-rekomendasi-ombudsman-terhadap-administrasi-pemerintahan-202",
-            "ev-rescue-laporan-realisasi-amanat-uud-1945-mpr-2024",
             "ev-dpr-uu-kuhp-2022",
             "ev-jokowi2-revisi-ite-2024",
             "ev-perpu-2-2022",
@@ -29592,12 +28358,6 @@
               "source_id": "dakwaan-kejagung-timah-2024"
             },
             {
-              "source_id": "laporan-tahunan-kpk-2024-komisi-pemberantasan-korupsi"
-            },
-            {
-              "source_id": "laporan-operasional-kpk-2023-status-pemberantasan-korupsi"
-            },
-            {
               "source_id": "hasil-sidang-tahunan-mpr-tahun-2024-putusan-dan-ketetapan"
             },
             {
@@ -29668,8 +28428,6 @@
             "ev-jokowi2-fpi-dibubarkan",
             "ev-jokowi2-juliari-bansos",
             "ev-rescue-dakwaan-kejagung-timah-2024",
-            "ev-rescue-laporan-tahunan-kpk-2024-komisi-pemberantasan-korupsi",
-            "ev-rescue-laporan-operasional-kpk-2023-status-pemberantasan-korupsi",
             "ev-rescue-hasil-sidang-tahunan-mpr-tahun-2024-putusan-dan-ketetapan",
             "ev-investigasi-komnas-ham-penyiksaan-dan-hak-hidup-2024",
             "ev-jokowi2-kanjuruhan",

@@ -84,6 +84,15 @@ describe("integritas anti-halusinasi dataset", () => {
     expect(dataset.events.filter((e) => /^Dokumentasi Historis:/.test(e.title_id))).toEqual([]);
   });
 
+  it("tidak ada ringkasan peristiwa boilerplate yang dipakai berulang", () => {
+    const hitung = new Map<string, string[]>();
+    for (const e of dataset.events) {
+      const k = e.summary_id.trim().toLowerCase();
+      hitung.set(k, [...(hitung.get(k) ?? []), e.id]);
+    }
+    expect([...hitung].filter(([, ids]) => ids.length > 1).map(([t]) => t.slice(0, 60))).toEqual([]);
+  });
+
   it("klaim pengawasan manusia EU AI Act tidak boleh tanpa penelaah bernama", () => {
     const bohong = dataset.assessments
       .filter((a) => {

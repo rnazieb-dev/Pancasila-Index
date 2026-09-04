@@ -532,6 +532,24 @@ for (const a of assessments) {
   }
 }
 
+// (5b) Ringkasan peristiwa tidak boleh boilerplate massal: satu paragraf yang
+//      sama pada puluhan "peristiwa" berbeda adalah pengisi metrik.
+const ringkasanTerpakai = new Map<string, string[]>();
+for (const e of events) {
+  const kunci = e.summary_id.trim().toLowerCase();
+  const list = ringkasanTerpakai.get(kunci) ?? [];
+  list.push(e.id);
+  ringkasanTerpakai.set(kunci, list);
+}
+for (const [teks, ids] of ringkasanTerpakai) {
+  if (ids.length < 2) continue;
+  errors.push(
+    `ringkasan peristiwa identik dipakai ${ids.length}x (${ids.slice(0, 3).join(", ")}` +
+      `${ids.length > 3 ? ", ..." : ""}): "${teks.slice(0, 60)}..." - setiap peristiwa ` +
+      `wajib punya uraian sendiri`
+  );
+}
+
 // (6) Dua peristiwa dalam satu masa jabatan yang menunjuk nomor dokumen hukum
 //     yang sama adalah duplikat - `source::date` saja tidak cukup karena
 //     tanggal beda satu hari sudah lolos.
