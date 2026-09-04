@@ -471,11 +471,38 @@ export const aiDisclosureSchema = z.object({
   human_oversight: z
     .object({
       mechanism: z.literal("quorum-2-reviewers").default("quorum-2-reviewers"),
-      status: z.enum(["verified", "pending_second_review", "draft"]).default("verified"),
-      approver_count: z.number().int().min(1).default(2),
+      /**
+       * `draft` = belum ada penelaah manusia sama sekali. Nilai ini WAJIB
+       * dipakai selama `approver_count === 0`; mengklaim `verified` tanpa
+       * approver nyata adalah pelanggaran EU AI Act Pasal 14.
+       */
+      status: z.enum(["verified", "pending_second_review", "draft"]).default("draft"),
+      approver_count: z.number().int().min(0).default(0),
+      /** Nama penelaah manusia sungguhan - bukan label peran generik. */
       approvers: z.array(z.string()).default([]),
     })
-    .default({}),
+    .default({})
+    .refine(
+      (h) => h.approvers.length === h.approver_count,
+      "human_oversight.approver_count wajib sama dengan jumlah nama approvers"
+    )
+    .refine(
+      (h) => h.status === "draft" || h.approver_count > 0,
+      "human_oversight berstatus terverifikasi wajib punya minimal satu approver bernama"
+    ),
+  /**
+   * Jejak remediasi otomatis (mis. pencabutan materi hasil halusinasi model
+   * terdahulu). Dicatat terpisah agar model yang membangkitkan draf tidak
+   * tertukar dengan model yang membersihkannya.
+   */
+  remediation: z
+    .object({
+      model_id: z.string(),
+      model_provider: z.string(),
+      performed_at: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+      notes_id: z.string().optional(),
+    })
+    .optional(),
   limitations_notice: z
     .string()
     .default(
