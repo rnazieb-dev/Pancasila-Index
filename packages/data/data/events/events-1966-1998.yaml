@@ -14,9 +14,10 @@
   date: 1975-08-27
   category: produk-hukum
   title_id: UU No. 3 Tahun 1975 tentang Fusi Tiga Kontestan Pemilu Orde Baru
-  summary_id: "Pemerintah dan DPR mengesahkan penyederhanaan partai politik menjadi tiga kekuatan: PPP (fusi partai Islam), PDI (fusi partai nasionalis & Kristen), dan Golongan Karya, membatasi pluralisme politik sipil."
+  summary_id: Pemerintah Orde Baru memberlakukan fusi paksa seluruh partai politik menjadi dua partai (Partai Persatuan Pembangunan / PPP dan Partai Demokrasi Indonesia / PDI) serta satu Golongan Karya (Golkar), menciptakan format hegemoni stabilitas politik semi-kompetitif selama lebih dari dua dekade.
   source_ids:
     - uu-3-1975
+    - uu-3-1975-parpol-golkar
   dimension_ids:
     - kedaulatan-rakyat
     - sila-4
@@ -288,17 +289,6 @@
   summary_id: Pemerintah dan DPR mengesahkan kerangka hukum Pemilu Orde Baru yang memperkenalkan sistem perwakilan berimbang dengan stelsel daftar tertutup serta pengalokasian kursi pengangkatan bagi Angkatan Bersenjata Republik Indonesia (ABRI) di DPR dan MPR.
   source_ids:
     - uu-15-1969
-  dimension_ids:
-    - kedaulatan-rakyat
-    - sila-4
-- id: ev-uu-fusi-partai-politik-1975
-  term_id: presiden-soeharto
-  date: 1975-12-27
-  category: produk-hukum
-  title_id: Pengesahan UU No. 3 Tahun 1975 tentang Fusi Tiga Kekuatan Politik
-  summary_id: Pemerintah Orde Baru memberlakukan fusi paksa seluruh partai politik menjadi dua partai (Partai Persatuan Pembangunan / PPP dan Partai Demokrasi Indonesia / PDI) serta satu Golongan Karya (Golkar), menciptakan format hegemoni stabilitas politik semi-kompetitif selama lebih dari dua dekade.
-  source_ids:
-    - uu-3-1975
   dimension_ids:
     - kedaulatan-rakyat
     - sila-4

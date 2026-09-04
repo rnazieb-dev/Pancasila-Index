@@ -161,9 +161,14 @@
   source_ids:
     - bap-kejagung-zarof-ricar-2024
     - laporan-icw-korupsi-penegak-hukum-2024
+    - laporan-kejagung-zarof-ricar-2024
+    - putusan-kasasi-ma-zarof-ricar-2025
   dimension_ids:
     - negara-hukum
     - sila-2
+    - checks-balances
+    - sila-5
+    - tujuan-3
   actor_ids:
     - zarof-ricar
     - erintuah-damanik
@@ -267,18 +272,6 @@
     - checks-balances
     - sila-5
     - tujuan-2
-- id: ev-ma-skandal-zarof-2024
-  term_id: ma-reformasi-sekarang
-  date: 2024-10-25
-  category: krisis
-  title_id: Penyitaan Rp920 Miliar dan 51 Kg Emas Milik Mantan Pejabat MA Zarof Ricar
-  summary_id: Kejaksaan Agung menyita tumpukan uang tunai berbagai valuta asing dan emas batangan di rumah eks Kepala Balitbang Kumdil MA Zarof Ricar yang diduga menjadi makelar perkara di Mahkamah Agung selama 10 tahun.
-  source_ids:
-    - laporan-kejagung-zarof-ricar-2024
-  dimension_ids:
-    - negara-hukum
-    - checks-balances
-    - sila-5
 - id: ev-mpr-pelantikan-prabowo-2024
   term_id: mpr-2024-sekarang
   date: 2024-10-20

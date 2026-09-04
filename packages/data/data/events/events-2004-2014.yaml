@@ -31,6 +31,7 @@
   dimension_ids:
     - sila-5
     - sila-3
+    - negara-hukum
 - id: ev-mk-putusan-sda-2015
   term_id: mk-2013-2018
   date: 2015-02-18
@@ -115,12 +116,13 @@
   date: 2005-08-15
   category: peristiwa
   title_id: Penandatanganan MoU Helsinki - Perdamaian Bersejarah Aceh
-  summary_id: Pemerintah RI dan Gerakan Aceh Merdeka (GAM) menandatangani nota kesepahaman damai di Helsinki, mengakhiri konflik bersenjata hampir 30 tahun, menyerahkan senjata milisi, dan memberikan status otonomi khusus berpemerintahan sendiri dalam bingkai NKRI.
+  summary_id: "Tsunami Desember 2004 yang menewaskan 167 ribu orang di Aceh membuka pintu yang tak terduga: 15 Agustus 2005 pemerintah dan GAM menandatangani MoU Helsinki setelah 29 tahun perang dan puluhan ribu korban jiwa. GAM melucuti 840 senjata, pasukan nonorganik mundur, partai lokal dilegalkan. Konflik separatis terlama di Asia Tenggara berakhir di atas meja - bukti langka bahwa integrasi bisa dicapai dengan martabat, bukan hanya peluru."
   source_ids:
     - mou-helsinki-2005
   dimension_ids:
     - tujuan-1
     - sila-3
+    - sila-2
 - id: ev-dpr-uu-pemerintahan-aceh-2006
   term_id: dpr-2004-2009
   date: 2006-08-01
@@ -215,12 +217,15 @@
   date: 2010-03-03
   category: peristiwa
   title_id: Pansus Hak Angket Kasus Bank Century DPR RI
-  summary_id: Rapat Paripurna DPR RI menyetujui rekomendasi Pansus Hak Angket Century (Opsi C) yang menyatakan adanya indikasi penyimpangan dan pelanggaran hukum dalam proses pemberian Fasilitas Pendanaan Jangka Pendek (FPJP) dan Penyertaan Modal Sementara (PMS) Rp6,7 triliun.
+  summary_id: Sidang Paripurna DPR RI menyetujui rekomendasi Opsi C Pansus Hak Angket yang menyatakan bailout Bank Century bermasalah dan melanggar hukum, merekomendasikan penegakan hukum oleh KPK/Kepolisian/Kejaksaan terhadap pejabat terkait dalam dinamika checks and balances parlemen terpanas era SBY.
   source_ids:
     - laporan-pansus-century-2010
+    - risalah-pansus-century-dpr-2010
+    - risalah-dpr-angket-century-2010
   dimension_ids:
     - checks-balances
     - kedaulatan-rakyat
+    - negara-hukum
 - id: ev-presiden-moratorium-hutan-2011
   term_id: presiden-sby-ii
   date: 2011-05-20
@@ -438,17 +443,6 @@
   dimension_ids:
     - sila-2
     - negara-hukum
-- id: ev-mk-putusan-hutan-adat-2012
-  term_id: mk-2008-2013
-  date: 2013-05-16
-  category: pengadilan
-  title_id: Putusan MK No. 35/PUU-X/2012 Mengakui Hutan Adat & Mendekriminalisasi Masyarakat Hukum Adat
-  summary_id: MK memutuskan bahwa hutan adat adalah hutan hak milik masyarakat adat dan bukan hutan negara, menghentikan gelombang kriminalisasi terhadap masyarakat adat yang mengelola wilayah tanah ulayat leluhur mereka dari jeratan pasal pidana kehutanan.
-  source_ids:
-    - putusan-mk-35-puu-x-2012
-  dimension_ids:
-    - sila-5
-    - negara-hukum
 - id: ev-skb-tiga-menteri-ahmadiyah-2008
   term_id: presiden-sby-i
   date: 2008-06-09
@@ -468,20 +462,12 @@
   summary_id: BPK RI menyerahkan Laporan Hasil Pemeriksaan Investigasi kepada DPR RI, menyimpulkan adanya 9 ketidaktegasan dan dugaan pelanggaran hukum dalam pemberian Fasilitas Pendanaan Jangka Pendek (FPJP) dan Penyertaan Modal Sementara (PMS) oleh Bank Indonesia dan KSSK.
   source_ids:
     - laporan-audit-bpk-century-2009
+    - lhp-bpk-century-2009
   dimension_ids:
     - checks-balances
     - tujuan-2
-- id: ev-dpr-pansus-angket-century-2010
-  term_id: dpr-2009-2014
-  date: 2010-03-03
-  category: peristiwa
-  title_id: Paripurna DPR RI Putusan Akhir Pansus Hak Angket Century (Opsi C Bermasalah)
-  summary_id: Sidang Paripurna DPR RI menyetujui rekomendasi Opsi C Pansus Hak Angket yang menyatakan bailout Bank Century bermasalah dan melanggar hukum, merekomendasikan penegakan hukum oleh KPK/Kepolisian/Kejaksaan terhadap pejabat terkait dalam dinamika checks and balances parlemen terpanas era SBY.
-  source_ids:
-    - risalah-pansus-century-dpr-2010
-  dimension_ids:
-    - checks-balances
     - negara-hukum
+    - sila-4
 - id: ev-mk-putusan-tripartit-dpd-2012-2014
   term_id: mk-2008-2013
   date: 2013-03-27
@@ -621,18 +607,6 @@
   dimension_ids:
     - kedaulatan-rakyat
     - sila-4
-- id: ev-dpr-angket-century-2010
-  term_id: dpr-2009-2014
-  date: 2010-03-03
-  category: kebijakan
-  title_id: Rapat Paripurna DPR Mengesahkan Opsi C Pansus Hak Angket Kasus Bank Century
-  summary_id: DPR RI melalui voting paripurna menetapkan bailout Century bermasalah hukum dan merekomendasikan penegak hukum mengusut pejabat pengambil kebijakan FPJP dan PMS.
-  source_ids:
-    - risalah-dpr-angket-century-2010
-  dimension_ids:
-    - checks-balances
-    - negara-hukum
-    - kedaulatan-rakyat
 - id: ev-sby-skb-ahmadiyah
   term_id: presiden-sby-i
   date: 2008-06-09
@@ -644,18 +618,6 @@
   dimension_ids:
     - sila-1
     - sila-2
-- id: ev-sby-mou-helsinki
-  term_id: presiden-sby-i
-  date: 2005-08-15
-  category: peristiwa
-  title_id: Penandatanganan Nota Kesepahaman Damai Aceh (MoU Helsinki)
-  summary_id: Pemerintah RI dan GAM menandatangani kesepakatan damai permanen di Finlandia, mengakhiri perang saudara dan memulai reintegrasi mantan kombatan.
-  source_ids:
-    - mou-helsinki-2005
-  dimension_ids:
-    - sila-2
-    - sila-3
-    - tujuan-1
 - id: ev-sby-uu-umkm
   term_id: presiden-sby-i
   date: 2008-07-04

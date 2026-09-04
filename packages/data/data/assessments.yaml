@@ -223,8 +223,8 @@
         - source_id: keppres-6-2000
         - source_id: inpres-6-2000
       event_ids:
-        - ev-keppres-pemulihan-hak-tionghoa-2000
-        - ev-gusdur-imlek
+        - ev-gusdur-uu-pengadilan-ham
+        - ev-gusdur-konflik-komunal
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-3
@@ -391,7 +391,7 @@
         - source_id: putusan-munir-2008
         - source_id: uu-21-2001-otsus-papua
       event_ids:
-        - ev-keppres-imlek-libur-nasional-2002
+        - ev-megawati-pengadilan-timtim
         - ev-uu-otsus-papua-2001
       normative_anchors:
         - uud-nri-1945
@@ -579,7 +579,7 @@
         - uud-nri-1945
       event_ids:
         - ev-sby-skb-ahmadiyah
-        - ev-sby1-damai-aceh
+        - ev-mou-helsinki-damai-2005
       thesis_id: Pemerintah menerbitkan SKB 3 Menteri No. 3/2008 tentang Peringatan dan Perintah kepada Penganut Jemaat Ahmadiyah Indonesia (JAI) dengan dalil mencegah konflik komunal dan menjaga kerukunan umat beragama.
       antithesis_id: Koalisi hak asasi manusia dan pakar konstitusi mengecam SKB tersebut sebagai bentuk ketundukan negara pada tirani mayoritas intoleran, yang melegitimasi diskriminasi dan penyerangan fisik terhadap warga Ahmadiyah (seperti Tragedi Cikeusik).
     - dimension_id: sila-2
@@ -594,7 +594,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-skb-tiga-menteri-ahmadiyah-2008
+        - ev-mou-helsinki-damai-2005
         - ev-uu-kewarganegaraan-anti-diskriminasi-2006
     - dimension_id: sila-3
       score: 1
@@ -616,7 +616,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-sby-mou-helsinki
+        - ev-mou-helsinki-damai-2005
         - ev-sby1-antirasial
     - dimension_id: sila-5
       score: 1
@@ -656,7 +656,7 @@
         - ev-sby1-ite
         - ev-sby1-kur
         - ev-uu-pelayanan-publik-2009
-        - ev-bpk-audit-century-2009
+        - ev-bpk-audit-bank-century-2009
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.4
@@ -710,7 +710,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-sby1-damai-aceh
+        - ev-mou-helsinki-damai-2005
         - ev-sby1-log-aceh
   ai_disclosure:
     assisted: true
@@ -1655,9 +1655,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-mpr-tap-vi-vii-2001
-        - ev-otonomi-daerah-1999
-        - ev-dpr-uu-pemberantasan-korupsi-1999
+        - ev-dpr99-amandemen-uud
     - dimension_id: sila-2
       score: 1
       confidence: 0.85
@@ -1740,7 +1738,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-dpr-uu-mk-2003
+        - ev-uu-mk-2003
         - ev-uu-sisdiknas-2003
     - dimension_id: tujuan-3
       score: 1
@@ -1908,7 +1906,7 @@
         - source_id: uu-22-2007
         - source_id: uu-14-2008-kip
       event_ids:
-        - ev-sby-mou-helsinki
+        - ev-mou-helsinki-damai-2005
         - ev-dpr-uu-rpjpn-2007
       normative_anchors:
         - uud-nri-1945
@@ -2116,7 +2114,7 @@
         - source_id: uu-6-2014
         - source_id: uu-21-2011
       event_ids:
-        - ev-dpr-pansus-angket-century-2010
+        - ev-dpr-pansus-century-2010
         - ev-sby-uu-pendidikan-tinggi
       normative_anchors:
         - uud-nri-1945
@@ -2154,7 +2152,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-dpr-angket-century-2010
+        - ev-dpr-pansus-century-2010
         - ev-dpr09-bpjs
     - dimension_id: tujuan-4
       score: 1
@@ -2312,7 +2310,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-revisi-uu-kpk-pelemahan-independensi-2019
+        - ev-dpr-revisi-uu-kpk-2019
         - ev-dpr14-des
     - dimension_id: tujuan-2
       score: 1
@@ -2349,7 +2347,7 @@
         - uud-nri-1945
       event_ids:
         - ev-dpr-uu-pemilu-7-2017
-        - ev-revisi-uu-kpk-pelemahan-independensi-2019
+        - ev-dpr-revisi-uu-kpk-2019
     - dimension_id: negara-hukum
       score: -2
       confidence: 0.85
@@ -2362,7 +2360,6 @@
       event_ids:
         - ev-dpr14-revisi-kpk
         - ev-dpr14-des
-        - ev-revisi-uu-kpk-pelemahan-independensi-2019
         - ev-dpr-revisi-uu-kpk-2019
       normative_anchors:
         - uud-nri-1945
@@ -3049,7 +3046,7 @@
           note_id: "Sitasi langsung pakar: Prof. Dr. Mohammad Mahfud MD, S.H., S.U."
       event_ids:
         - ev-mk2-akil-mochtar
-        - ev-mk-putusan-hutan-adat-2012
+        - ev-mk-putusan-hutan-adat-2013
       normative_anchors:
         - uud-nri-1945
       thesis_id: MK menegaskan fungsinya sebagai penjaga hak konstitusional warga negara dan pengawal integritas pemilu dengan memeriksa perselisihan hasil pemilu secara transparan.
@@ -3863,9 +3860,8 @@
         - source_id: maklumat-pemerintah-3-nov-1945
         - source_id: maklumat-x-1945
       event_ids:
-        - ev-kaa-bandung-1955
+        - ev-soekarno1-pemilu-1955
         - ev-presiden-dekrit-5-juli-1959
-        - ev-soekarno1-prri-permesta
       normative_anchors:
         - uud-nri-1945
     - dimension_id: sila-5
@@ -3912,11 +3908,10 @@
       event_ids:
         - ev-keadaan-darurat-sob-1957
         - ev-soekarno1-di-tii
-        - ev-rescue-anri-perjanjian-linggarjati-1947
+        - ev-persetujuan-linggarjati-1947
         - ev-rescue-arsip-nii-proklamasi-1949
         - ev-rescue-iisg-pki-musso-djalan-baru-1948
         - ev-kmb-pengakuan-kedaulatan-1949
-        - ev-persetujuan-linggarjati-1947
         - ev-mandat-darurat-kawat-pdri-1948
         - ev-anri-kmb-pengakuan-kedaulatan-1949
         - ev-nasionalisasi-de-javasche-bank-1953
@@ -4488,7 +4483,7 @@
         - ev-soeharto-kb-program
         - ev-soeharto-krismon-blbi
         - ev-deklarasi-asean-bangkok-1967
-        - ev-uu-fusi-partai-politik-1975
+        - ev-uu-3-1975-fusi-partai
       normative_anchors:
         - uud-nri-1945
     - dimension_id: negara-hukum
@@ -4571,7 +4566,7 @@
         - ev-soeharto-fusi-partai
         - ev-soeharto-asas-tunggal
         - ev-penyerbuan-kudatuli-1996
-        - ev-fusi-partai-politik-1975
+        - ev-uu-3-1975-fusi-partai
       normative_anchors:
         - uud-nri-1945
   ai_disclosure:
@@ -5022,7 +5017,7 @@
         - ev-ma-suap-hakim-modern
         - ev-penyatuan-satu-atap-peradilan-uu-4-2004
         - ev-vonis-suap-pengurusan-perkara-nurhadi-2021
-        - ev-skandal-mafia-peradilan-zarof-ricar-2024
+        - ev-ma-skandal-zarof-ricar-2024
         - ev-penerbitan-sema-perma-reformasi-peradilan-2017-2019
         - ev-ma-satu-atap-2004
         - ev-ma-perma-ecourt-2019
@@ -5213,7 +5208,7 @@
         - uud-nri-1945
       event_ids:
         - ev-vonis-bebas-haris-fatia-2024
-        - ev-ma-skandal-zarof-2024
+        - ev-ma-skandal-zarof-ricar-2024
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -5419,7 +5414,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-mpr-pemisahan-tni-polri-2000
+        - ev-tap-mpr-pemisahan-tni-polri-2000
         - ev-mpr-amendemen-4
   ai_disclosure:
     assisted: true
@@ -6560,7 +6555,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-audit-investigasi-bpk-bank-century-2009
+        - ev-bpk-audit-bank-century-2009
         - ev-bpk-audit-blbi
     - dimension_id: sila-2
       score: 1
@@ -6612,7 +6607,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-audit-investigasi-bpk-bank-century-2009
+        - ev-bpk-audit-bank-century-2009
         - ev-bpk-audit-blbi
     - dimension_id: tujuan-1
       score: 1
@@ -6641,7 +6636,7 @@
         - ev-bpk-paket-uu-keuangan
         - ev-bpk-audit-blbi
         - ev-bpk-audit-kpu-2004
-        - ev-audit-investigasi-bpk-bank-century-2009
+        - ev-bpk-audit-bank-century-2009
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.8
@@ -6653,7 +6648,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-audit-investigasi-bpk-bank-century-2009
+        - ev-bpk-audit-bank-century-2009
         - ev-bpk-audit-blbi
     - dimension_id: tujuan-4
       score: 1
@@ -6678,7 +6673,7 @@
         - uud-nri-1945
       event_ids:
         - ev-bpk-uu-15-2006
-        - ev-audit-investigasi-bpk-bank-century-2009
+        - ev-bpk-audit-bank-century-2009
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -6729,7 +6724,7 @@
         - uud-nri-1945
       event_ids:
         - ev-bpk-standar-sap-wtp
-        - ev-bpk-audit-century-2009
+        - ev-bpk-audit-bank-century-2009
     - dimension_id: negara-hukum
       score: -1
       confidence: 0.85
@@ -6757,7 +6752,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-bpk-audit-century-2009
+        - ev-bpk-audit-bank-century-2009
         - ev-bpk-standar-sap-wtp
     - dimension_id: sila-2
       score: 1
@@ -6771,7 +6766,7 @@
         - uud-nri-1945
       event_ids:
         - ev-bpk-audit-hambalang-2013
-        - ev-bpk-audit-century-2009
+        - ev-bpk-audit-bank-century-2009
     - dimension_id: sila-3
       score: 1
       confidence: 0.75
@@ -6797,7 +6792,7 @@
         - uud-nri-1945
       event_ids:
         - ev-bpk-audit-hambalang-2012
-        - ev-bpk-audit-century-2009
+        - ev-bpk-audit-bank-century-2009
     - dimension_id: sila-5
       score: 1
       confidence: 0.85
@@ -6823,7 +6818,7 @@
         - uud-nri-1945
       event_ids:
         - ev-bpk-audit-ektp-2017
-        - ev-bpk-audit-century-2009
+        - ev-bpk-audit-bank-century-2009
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.85
@@ -6836,7 +6831,7 @@
       event_ids:
         - ev-bpk-standar-sap-wtp
         - ev-bpk-suap-wtp-kemendes-2017
-        - ev-bpk-audit-century-2009
+        - ev-bpk-audit-bank-century-2009
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.8
@@ -6849,7 +6844,7 @@
         - uud-nri-1945
       event_ids:
         - ev-bpk-standar-sap-wtp
-        - ev-bpk-audit-century-2009
+        - ev-bpk-audit-bank-century-2009
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
@@ -6874,7 +6869,7 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-bpk-audit-century-2009
+        - ev-bpk-audit-bank-century-2009
         - ev-bpk-standar-sap-wtp
   ai_disclosure:
     assisted: true

@@ -3,13 +3,14 @@
   date: 2000-08-18
   category: produk-hukum
   title_id: TAP MPR No. VI/2000 & VII/2000 - Pemisahan Polri dan Penghapusan Dwifungsi ABRI
-  summary_id: MPR secara formal memisahkan kelembagaan TNI (pertahanan negara) dan Polri (keamanan & ketertiban masyarakat) serta menghapus doktrin Dwifungsi ABRI dalam politik praktis guna menegaskan supremasi sipil dalam negara demokrasi.
+  summary_id: MPR RI menetapkan pemisahan kelembagaan dan peran Tentara Nasional Indonesia (sebagai alat pertahanan negara) dan Kepolisian Negara Republik Indonesia (sebagai alat keamanan dan ketertiban masyarakat serta penegak hukum), mengakhiri Dwifungsi ABRI.
   source_ids:
     - tap-mpr-vi-2000
     - tap-mpr-vii-2000
   dimension_ids:
     - tujuan-1
     - negara-hukum
+    - checks-balances
 - id: ev-mk-putusan-kelistrikan-2004
   term_id: mk-2003-2008
   date: 2004-12-15
@@ -84,6 +85,7 @@
   summary_id: DPR mengesahkan payung hukum operasional Mahkamah Konstitusi RI sebagai pengawal konstitusi (the guardian of constitution) yang berwenang menguji undang-undang terhadap UUD 1945, memutus sengketa kewenangan lembaga negara, dan sengketa hasil pemilu.
   source_ids:
     - uu-24-2003
+    - tap-amandemen-uud-1999-2002
   dimension_ids:
     - negara-hukum
     - checks-balances
@@ -188,19 +190,6 @@
   dimension_ids:
     - negara-hukum
     - checks-balances
-- id: ev-mpr-pemisahan-tni-polri-2000
-  term_id: mpr-1999-2004
-  date: 2000-08-18
-  category: produk-hukum
-  title_id: TAP MPR No. VI & VII/MPR/2000 tentang Pemisahan TNI dan Polri Serta Supremasi Sipil
-  summary_id: MPR RI menetapkan pemisahan kelembagaan dan peran Tentara Nasional Indonesia (sebagai alat pertahanan negara) dan Kepolisian Negara Republik Indonesia (sebagai alat keamanan dan ketertiban masyarakat serta penegak hukum), mengakhiri Dwifungsi ABRI.
-  source_ids:
-    - tap-mpr-vi-2000
-    - tap-mpr-vii-2000
-  dimension_ids:
-    - checks-balances
-    - negara-hukum
-  actor_ids: []
 - id: ev-keppres-pemulihan-hak-tionghoa-2000
   term_id: presiden-gusdur
   date: 2000-01-17
@@ -519,17 +508,6 @@
   dimension_ids:
     - negara-hukum
     - sila-5
-    - checks-balances
-- id: ev-dpr-uu-mk-2003
-  term_id: dpr-1999-2004
-  date: 2003-08-13
-  category: produk-hukum
-  title_id: Pengesahan UU No. 24/2003 tentang Mahkamah Konstitusi
-  summary_id: DPR RI menetapkan undang-undang pembentukan MK sebagai pengawal konstitusi, pemutus sengketa kewenangan lembaga negara, dan pembubar partai politik.
-  source_ids:
-    - tap-amandemen-uud-1999-2002
-  dimension_ids:
-    - negara-hukum
     - checks-balances
 - id: ev-mpr-laporan-pertanggungjawaban-presiden-1999
   term_id: mpr-1999-2004

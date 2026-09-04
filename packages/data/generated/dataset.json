@@ -4984,22 +4984,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-sby1-damai-aceh",
-      "term_id": "presiden-sby-i",
-      "date": "2005-08",
-      "category": "kebijakan",
-      "title_id": "MoU Helsinki mengakhiri konflik Aceh",
-      "summary_id": "Tsunami Desember 2004 yang menewaskan 167 ribu orang di Aceh membuka pintu yang tak terduga: 15 Agustus 2005 pemerintah dan GAM menandatangani MoU Helsinki setelah 29 tahun perang dan puluhan ribu korban jiwa. GAM melucuti 840 senjata, pasukan nonorganik mundur, partai lokal dilegalkan. Konflik separatis terlama di Asia Tenggara berakhir di atas meja - bukti langka bahwa integrasi bisa dicapai dengan martabat, bukan hanya peluru.",
-      "source_ids": [
-        "mou-helsinki-2005"
-      ],
-      "dimension_ids": [
-        "sila-3",
-        "tujuan-1"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-sby1-log-aceh",
       "term_id": "presiden-sby-i",
       "date": "2006-07",
@@ -7898,34 +7882,17 @@
       "date": "2019-09-17",
       "category": "produk-hukum",
       "title_id": "Pengesahan UU No. 19 Tahun 2019 tentang Perubahan Kedua UU KPK",
-      "summary_id": "DPR dan Pemerintah merevisi UU KPK dengan pembentukan Dewan Pengawas, alih status pegawai KPK menjadi ASN, dan pembatasan penyadapan serta SP3, yang memicu aksi demonstrasi mahasiswa Reformasi Dikorupsi di berbagai kota.",
+      "summary_id": "DPR dan Pemerintah mengesahkan revisi UU KPK secara kilat di akhir masa jabatan yang mengubah status pegawai menjadi ASN, membentuk Dewan Pengawas penyadap, dan membatasi kemandirian KPK, memicu demonstrasi mahasiswa nasional #ReformasiDikorupsi.",
       "source_ids": [
-        "uu-19-2019"
-      ],
-      "dimension_ids": [
-        "checks-balances",
-        "negara-hukum"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-bpk-audit-century-2009",
-      "term_id": "bpk-2009-2019",
-      "date": "2009-11-23",
-      "category": "kebijakan",
-      "title_id": "Penyerahan Laporan Investigatif Kasus Bank Century ke DPR RI",
-      "summary_id": "BPK RI menyerahkan Laporan Hasil Pemeriksaan (LHP) Investigatif atas penanganan Bank Century ke DPR RI, menemukan 9 ketetapan bermasalah dan indikasi kerugian negara dalam penetapan bank gagal berdampak sistemik serta Fasilitas Pendanaan Jangka Pendek (FPJP).",
-      "source_ids": [
-        "laporan-audit-bpk-century-2009"
+        "uu-19-2019",
+        "uu-19-2019-kpk"
       ],
       "dimension_ids": [
         "checks-balances",
         "negara-hukum",
-        "sila-4"
+        "kedaulatan-rakyat"
       ],
-      "actor_ids": [],
-      "subject_term_id": "presiden-sby-i",
-      "subject_basis_id": "Objek pemeriksaan LHP adalah penetapan bank gagal berdampak sistemik dan pemberian FPJP Bank Century pada November 2008, yang jatuh di dalam masa jabatan ini."
+      "actor_ids": []
     },
     {
       "id": "ev-dpr-uu-pemilu-7-2017",
@@ -8604,22 +8571,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-fusi-partai-politik-1975",
-      "term_id": "presiden-soeharto",
-      "date": "1975-08-27",
-      "category": "produk-hukum",
-      "title_id": "Pemberlakuan Fusi Tiga Partai Politik melalui UU No. 3 Tahun 1975 (PPP, PDI, Golkar)",
-      "summary_id": "Pengesahan UU No. 3/1975 membatasi kontestasi pemilu hanya pada dua partai politik (PPP dan PDI) serta satu Golongan Karya, menyederhanakan peta politik namun membatasi ruang aspirasi dan kebebasan berserikat rakyat secara masif.",
-      "source_ids": [
-        "uu-3-1975-parpol-golkar"
-      ],
-      "dimension_ids": [
-        "sila-4",
-        "kedaulatan-rakyat"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-pernyataan-petisi-50-1980",
       "term_id": "presiden-soeharto",
       "date": "1980-05-05",
@@ -8903,23 +8854,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-revisi-uu-kpk-pelemahan-independensi-2019",
-      "term_id": "dpr-2014-2019",
-      "date": "2019-09-17",
-      "category": "produk-hukum",
-      "title_id": "Pengesahan Revisi UU KPK No. 19/2019: Pelemahan Status Kelembagaan dan Protes Reformasi Dikorupsi",
-      "summary_id": "DPR dan Pemerintah mengesahkan revisi UU KPK secara kilat di akhir masa jabatan yang mengubah status pegawai menjadi ASN, membentuk Dewan Pengawas penyadap, dan membatasi kemandirian KPK, memicu demonstrasi mahasiswa nasional #ReformasiDikorupsi.",
-      "source_ids": [
-        "uu-19-2019-kpk"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "checks-balances",
-        "kedaulatan-rakyat"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-uu-kebijakan-keuangan-covid-2020",
       "term_id": "presiden-jokowi-ii",
       "date": "2020-05-18",
@@ -9028,7 +8962,8 @@
       "title_id": "Penandatanganan Naskah Persetujuan Linggarjati (1947): Pengakuan De Facto Wilayah Republik",
       "summary_id": "Pemerintah RI yang dipimpin Sutan Sjahrir dan Pemerintah Belanda menandatangani Perjanjian Linggarjati yang mengakui kedaulatan de facto RI atas Jawa, Madura, dan Sumatera, serta menyepakati pembentukan Republik Indonesia Serikat.",
       "source_ids": [
-        "perjanjian-linggarjati-1947"
+        "perjanjian-linggarjati-1947",
+        "anri-perjanjian-linggarjati-1947"
       ],
       "dimension_ids": [
         "tujuan-4",
@@ -9099,23 +9034,6 @@
         "checks-balances",
         "negara-hukum",
         "sila-1"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-audit-investigasi-bpk-bank-century-2009",
-      "term_id": "bpk-1998-2009",
-      "date": "2009-11-23",
-      "category": "krisis",
-      "title_id": "Penyerahan LHP Investigasi BPK RI atas Fasilitas Pendanaan Jangka Pendek (FPJP) Bank Century ke DPR RI",
-      "summary_id": "BPK RI menyerahkan Laporan Hasil Pemeriksaan Investigasi kasus Bank Century senilai Rp 6,7 triliun kepada DPR, menemukan dugaan rekayasa aturan BI dan ketidaktegasan KSSK dalam penetapan status bank gagal berdampak sistemik.",
-      "source_ids": [
-        "lhp-bpk-century-2009"
-      ],
-      "dimension_ids": [
-        "checks-balances",
-        "tujuan-2",
-        "sila-4"
       ],
       "actor_ids": []
     },
@@ -9330,23 +9248,6 @@
       ],
       "dimension_ids": [
         "negara-hukum"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-skandal-mafia-peradilan-zarof-ricar-2024",
-      "term_id": "ma-reformasi-sekarang",
-      "date": "2024-10-25",
-      "category": "krisis",
-      "title_id": "Pengungkapan Skandal Mafia Kasasi MA: Penyitaan Uang Tunai Rp 920 Miliar dan 51 Kg Emas dari Zarof Ricar",
-      "summary_id": "Kejaksaan Agung menangkap mantan pejabat MA Zarof Ricar dan menyita uang tunai Rp 920 miliar serta 51 kilogram emas batangan di kediamannya, yang diakui sebagai hasil pengurusan perkara di Mahkamah Agung selama lebih dari satu dekade.",
-      "source_ids": [
-        "putusan-kasasi-ma-zarof-ricar-2025"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "checks-balances",
-        "tujuan-3"
       ],
       "actor_ids": []
     },
@@ -9871,19 +9772,6 @@
       "summary_id": "Panitia Sembilan BPUPK menyepakati draf Pembukaan UUD yang memuat kewajiban menjalankan syariat Islam. Kompromi historis ini menjadi cikal bakal perdebatan panjang mengenai relasi agama dan negara dalam konstitusi Indonesia.",
       "source_ids": [
         "anri-piagam-jakarta-1945"
-      ],
-      "dimension_ids": [],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-rescue-anri-perjanjian-linggarjati-1947",
-      "term_id": "presiden-soekarno-i",
-      "date": "1947-01-01",
-      "category": "peristiwa",
-      "title_id": "Perundingan dan Penandatanganan Perjanjian Linggarjati",
-      "summary_id": "Republik Indonesia dan Belanda menyepakati pengakuan de facto RI atas Jawa, Madura, dan Sumatera. Perjanjian ini merupakan upaya diplomatik krusial yang menguji kedaulatan wilayah dan batas-batas konstitusional negara muda.",
-      "source_ids": [
-        "anri-perjanjian-linggarjati-1947"
       ],
       "dimension_ids": [],
       "actor_ids": []
@@ -11477,9 +11365,10 @@
       "date": "1975-08-27",
       "category": "produk-hukum",
       "title_id": "UU No. 3 Tahun 1975 tentang Fusi Tiga Kontestan Pemilu Orde Baru",
-      "summary_id": "Pemerintah dan DPR mengesahkan penyederhanaan partai politik menjadi tiga kekuatan: PPP (fusi partai Islam), PDI (fusi partai nasionalis & Kristen), dan Golongan Karya, membatasi pluralisme politik sipil.",
+      "summary_id": "Pemerintah Orde Baru memberlakukan fusi paksa seluruh partai politik menjadi dua partai (Partai Persatuan Pembangunan / PPP dan Partai Demokrasi Indonesia / PDI) serta satu Golongan Karya (Golkar), menciptakan format hegemoni stabilitas politik semi-kompetitif selama lebih dari dua dekade.",
       "source_ids": [
-        "uu-3-1975"
+        "uu-3-1975",
+        "uu-3-1975-parpol-golkar"
       ],
       "dimension_ids": [
         "kedaulatan-rakyat",
@@ -11878,22 +11767,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-uu-fusi-partai-politik-1975",
-      "term_id": "presiden-soeharto",
-      "date": "1975-12-27",
-      "category": "produk-hukum",
-      "title_id": "Pengesahan UU No. 3 Tahun 1975 tentang Fusi Tiga Kekuatan Politik",
-      "summary_id": "Pemerintah Orde Baru memberlakukan fusi paksa seluruh partai politik menjadi dua partai (Partai Persatuan Pembangunan / PPP dan Partai Demokrasi Indonesia / PDI) serta satu Golongan Karya (Golkar), menciptakan format hegemoni stabilitas politik semi-kompetitif selama lebih dari dua dekade.",
-      "source_ids": [
-        "uu-3-1975"
-      ],
-      "dimension_ids": [
-        "kedaulatan-rakyat",
-        "sila-4"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-pembredelan-tempo-editor-detik-1994",
       "term_id": "presiden-soeharto",
       "date": "1994-06-21",
@@ -12097,14 +11970,15 @@
       "date": "2000-08-18",
       "category": "produk-hukum",
       "title_id": "TAP MPR No. VI/2000 & VII/2000 - Pemisahan Polri dan Penghapusan Dwifungsi ABRI",
-      "summary_id": "MPR secara formal memisahkan kelembagaan TNI (pertahanan negara) dan Polri (keamanan & ketertiban masyarakat) serta menghapus doktrin Dwifungsi ABRI dalam politik praktis guna menegaskan supremasi sipil dalam negara demokrasi.",
+      "summary_id": "MPR RI menetapkan pemisahan kelembagaan dan peran Tentara Nasional Indonesia (sebagai alat pertahanan negara) dan Kepolisian Negara Republik Indonesia (sebagai alat keamanan dan ketertiban masyarakat serta penegak hukum), mengakhiri Dwifungsi ABRI.",
       "source_ids": [
         "tap-mpr-vi-2000",
         "tap-mpr-vii-2000"
       ],
       "dimension_ids": [
         "tujuan-1",
-        "negara-hukum"
+        "negara-hukum",
+        "checks-balances"
       ],
       "actor_ids": []
     },
@@ -12212,7 +12086,8 @@
       "title_id": "Pengesahan UU No. 24 Tahun 2003 tentang Mahkamah Konstitusi",
       "summary_id": "DPR mengesahkan payung hukum operasional Mahkamah Konstitusi RI sebagai pengawal konstitusi (the guardian of constitution) yang berwenang menguji undang-undang terhadap UUD 1945, memutus sengketa kewenangan lembaga negara, dan sengketa hasil pemilu.",
       "source_ids": [
-        "uu-24-2003"
+        "uu-24-2003",
+        "tap-amandemen-uud-1999-2002"
       ],
       "dimension_ids": [
         "negara-hukum",
@@ -12363,23 +12238,6 @@
       "dimension_ids": [
         "negara-hukum",
         "checks-balances"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-mpr-pemisahan-tni-polri-2000",
-      "term_id": "mpr-1999-2004",
-      "date": "2000-08-18",
-      "category": "produk-hukum",
-      "title_id": "TAP MPR No. VI & VII/MPR/2000 tentang Pemisahan TNI dan Polri Serta Supremasi Sipil",
-      "summary_id": "MPR RI menetapkan pemisahan kelembagaan dan peran Tentara Nasional Indonesia (sebagai alat pertahanan negara) dan Kepolisian Negara Republik Indonesia (sebagai alat keamanan dan ketertiban masyarakat serta penegak hukum), mengakhiri Dwifungsi ABRI.",
-      "source_ids": [
-        "tap-mpr-vi-2000",
-        "tap-mpr-vii-2000"
-      ],
-      "dimension_ids": [
-        "checks-balances",
-        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -12843,22 +12701,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-dpr-uu-mk-2003",
-      "term_id": "dpr-1999-2004",
-      "date": "2003-08-13",
-      "category": "produk-hukum",
-      "title_id": "Pengesahan UU No. 24/2003 tentang Mahkamah Konstitusi",
-      "summary_id": "DPR RI menetapkan undang-undang pembentukan MK sebagai pengawal konstitusi, pemutus sengketa kewenangan lembaga negara, dan pembubar partai politik.",
-      "source_ids": [
-        "tap-amandemen-uud-1999-2002"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "checks-balances"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-mpr-laporan-pertanggungjawaban-presiden-1999",
       "term_id": "mpr-1999-2004",
       "date": "1999-10-19",
@@ -12986,7 +12828,8 @@
       ],
       "dimension_ids": [
         "sila-5",
-        "sila-3"
+        "sila-3",
+        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -13109,13 +12952,14 @@
       "date": "2005-08-15",
       "category": "peristiwa",
       "title_id": "Penandatanganan MoU Helsinki - Perdamaian Bersejarah Aceh",
-      "summary_id": "Pemerintah RI dan Gerakan Aceh Merdeka (GAM) menandatangani nota kesepahaman damai di Helsinki, mengakhiri konflik bersenjata hampir 30 tahun, menyerahkan senjata milisi, dan memberikan status otonomi khusus berpemerintahan sendiri dalam bingkai NKRI.",
+      "summary_id": "Tsunami Desember 2004 yang menewaskan 167 ribu orang di Aceh membuka pintu yang tak terduga: 15 Agustus 2005 pemerintah dan GAM menandatangani MoU Helsinki setelah 29 tahun perang dan puluhan ribu korban jiwa. GAM melucuti 840 senjata, pasukan nonorganik mundur, partai lokal dilegalkan. Konflik separatis terlama di Asia Tenggara berakhir di atas meja - bukti langka bahwa integrasi bisa dicapai dengan martabat, bukan hanya peluru.",
       "source_ids": [
         "mou-helsinki-2005"
       ],
       "dimension_ids": [
         "tujuan-1",
-        "sila-3"
+        "sila-3",
+        "sila-2"
       ],
       "actor_ids": []
     },
@@ -13254,13 +13098,16 @@
       "date": "2010-03-03",
       "category": "peristiwa",
       "title_id": "Pansus Hak Angket Kasus Bank Century DPR RI",
-      "summary_id": "Rapat Paripurna DPR RI menyetujui rekomendasi Pansus Hak Angket Century (Opsi C) yang menyatakan adanya indikasi penyimpangan dan pelanggaran hukum dalam proses pemberian Fasilitas Pendanaan Jangka Pendek (FPJP) dan Penyertaan Modal Sementara (PMS) Rp6,7 triliun.",
+      "summary_id": "Sidang Paripurna DPR RI menyetujui rekomendasi Opsi C Pansus Hak Angket yang menyatakan bailout Bank Century bermasalah dan melanggar hukum, merekomendasikan penegakan hukum oleh KPK/Kepolisian/Kejaksaan terhadap pejabat terkait dalam dinamika checks and balances parlemen terpanas era SBY.",
       "source_ids": [
-        "laporan-pansus-century-2010"
+        "laporan-pansus-century-2010",
+        "risalah-pansus-century-dpr-2010",
+        "risalah-dpr-angket-century-2010"
       ],
       "dimension_ids": [
         "checks-balances",
-        "kedaulatan-rakyat"
+        "kedaulatan-rakyat",
+        "negara-hukum"
       ],
       "actor_ids": []
     },
@@ -13577,22 +13424,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-mk-putusan-hutan-adat-2012",
-      "term_id": "mk-2008-2013",
-      "date": "2013-05-16",
-      "category": "pengadilan",
-      "title_id": "Putusan MK No. 35/PUU-X/2012 Mengakui Hutan Adat & Mendekriminalisasi Masyarakat Hukum Adat",
-      "summary_id": "MK memutuskan bahwa hutan adat adalah hutan hak milik masyarakat adat dan bukan hutan negara, menghentikan gelombang kriminalisasi terhadap masyarakat adat yang mengelola wilayah tanah ulayat leluhur mereka dari jeratan pasal pidana kehutanan.",
-      "source_ids": [
-        "putusan-mk-35-puu-x-2012"
-      ],
-      "dimension_ids": [
-        "sila-5",
-        "negara-hukum"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-skb-tiga-menteri-ahmadiyah-2008",
       "term_id": "presiden-sby-i",
       "date": "2008-06-09",
@@ -13616,27 +13447,14 @@
       "title_id": "LHP Audit Investigasi BPK atas Skandal Bailout Bank Century Rp6,76 Triliun",
       "summary_id": "BPK RI menyerahkan Laporan Hasil Pemeriksaan Investigasi kepada DPR RI, menyimpulkan adanya 9 ketidaktegasan dan dugaan pelanggaran hukum dalam pemberian Fasilitas Pendanaan Jangka Pendek (FPJP) dan Penyertaan Modal Sementara (PMS) oleh Bank Indonesia dan KSSK.",
       "source_ids": [
-        "laporan-audit-bpk-century-2009"
+        "laporan-audit-bpk-century-2009",
+        "lhp-bpk-century-2009"
       ],
       "dimension_ids": [
         "checks-balances",
-        "tujuan-2"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-dpr-pansus-angket-century-2010",
-      "term_id": "dpr-2009-2014",
-      "date": "2010-03-03",
-      "category": "peristiwa",
-      "title_id": "Paripurna DPR RI Putusan Akhir Pansus Hak Angket Century (Opsi C Bermasalah)",
-      "summary_id": "Sidang Paripurna DPR RI menyetujui rekomendasi Opsi C Pansus Hak Angket yang menyatakan bailout Bank Century bermasalah dan melanggar hukum, merekomendasikan penegakan hukum oleh KPK/Kepolisian/Kejaksaan terhadap pejabat terkait dalam dinamika checks and balances parlemen terpanas era SBY.",
-      "source_ids": [
-        "risalah-pansus-century-dpr-2010"
-      ],
-      "dimension_ids": [
-        "checks-balances",
-        "negara-hukum"
+        "tujuan-2",
+        "negara-hukum",
+        "sila-4"
       ],
       "actor_ids": []
     },
@@ -13840,23 +13658,6 @@
       "actor_ids": []
     },
     {
-      "id": "ev-dpr-angket-century-2010",
-      "term_id": "dpr-2009-2014",
-      "date": "2010-03-03",
-      "category": "kebijakan",
-      "title_id": "Rapat Paripurna DPR Mengesahkan Opsi C Pansus Hak Angket Kasus Bank Century",
-      "summary_id": "DPR RI melalui voting paripurna menetapkan bailout Century bermasalah hukum dan merekomendasikan penegak hukum mengusut pejabat pengambil kebijakan FPJP dan PMS.",
-      "source_ids": [
-        "risalah-dpr-angket-century-2010"
-      ],
-      "dimension_ids": [
-        "checks-balances",
-        "negara-hukum",
-        "kedaulatan-rakyat"
-      ],
-      "actor_ids": []
-    },
-    {
       "id": "ev-sby-skb-ahmadiyah",
       "term_id": "presiden-sby-i",
       "date": "2008-06-09",
@@ -13869,23 +13670,6 @@
       "dimension_ids": [
         "sila-1",
         "sila-2"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-sby-mou-helsinki",
-      "term_id": "presiden-sby-i",
-      "date": "2005-08-15",
-      "category": "peristiwa",
-      "title_id": "Penandatanganan Nota Kesepahaman Damai Aceh (MoU Helsinki)",
-      "summary_id": "Pemerintah RI dan GAM menandatangani kesepakatan damai permanen di Finlandia, mengakhiri perang saudara dan memulai reintegrasi mantan kombatan.",
-      "source_ids": [
-        "mou-helsinki-2005"
-      ],
-      "dimension_ids": [
-        "sila-2",
-        "sila-3",
-        "tujuan-1"
       ],
       "actor_ids": []
     },
@@ -17278,11 +17062,16 @@
       "summary_id": "Kejaksaan Agung membongkar skandal mafia peradilan terbesar pasca-Reformasi dengan menangkap mantan Kepala Balitbang Diklat Kumdil MA Zarof Ricar dan menyita uang tunai hampir Rp1 triliun (berbagai valuta asing) serta 51 kilogram emas batangan Antam dari kediamannya, hasil percaloan perkara dan suap vonis kasasi, menyusul OTT terhadap 3 hakim PN Surabaya (Erintuah Damanik dkk.) penerima suap vonis bebas pembunuhan Ronald Tannur.",
       "source_ids": [
         "bap-kejagung-zarof-ricar-2024",
-        "laporan-icw-korupsi-penegak-hukum-2024"
+        "laporan-icw-korupsi-penegak-hukum-2024",
+        "laporan-kejagung-zarof-ricar-2024",
+        "putusan-kasasi-ma-zarof-ricar-2025"
       ],
       "dimension_ids": [
         "negara-hukum",
-        "sila-2"
+        "sila-2",
+        "checks-balances",
+        "sila-5",
+        "tujuan-3"
       ],
       "actor_ids": [
         "zarof-ricar",
@@ -17426,23 +17215,6 @@
         "checks-balances",
         "sila-5",
         "tujuan-2"
-      ],
-      "actor_ids": []
-    },
-    {
-      "id": "ev-ma-skandal-zarof-2024",
-      "term_id": "ma-reformasi-sekarang",
-      "date": "2024-10-25",
-      "category": "krisis",
-      "title_id": "Penyitaan Rp920 Miliar dan 51 Kg Emas Milik Mantan Pejabat MA Zarof Ricar",
-      "summary_id": "Kejaksaan Agung menyita tumpukan uang tunai berbagai valuta asing dan emas batangan di rumah eks Kepala Balitbang Kumdil MA Zarof Ricar yang diduga menjadi makelar perkara di Mahkamah Agung selama 10 tahun.",
-      "source_ids": [
-        "laporan-kejagung-zarof-ricar-2024"
-      ],
-      "dimension_ids": [
-        "negara-hukum",
-        "checks-balances",
-        "sila-5"
       ],
       "actor_ids": []
     },
@@ -27700,8 +27472,8 @@
             }
           ],
           "event_ids": [
-            "ev-keppres-pemulihan-hak-tionghoa-2000",
-            "ev-gusdur-imlek"
+            "ev-gusdur-uu-pengadilan-ham",
+            "ev-gusdur-konflik-komunal"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -28031,13 +27803,10 @@
             },
             {
               "source_id": "uu-21-2001-otsus-papua"
-            },
-            {
-              "source_id": "keppres-19-2002"
             }
           ],
           "event_ids": [
-            "ev-keppres-imlek-libur-nasional-2002",
+            "ev-megawati-pengadilan-timtim",
             "ev-uu-otsus-papua-2001"
           ],
           "normative_anchors": [
@@ -28404,7 +28173,7 @@
           ],
           "event_ids": [
             "ev-sby-skb-ahmadiyah",
-            "ev-sby1-damai-aceh"
+            "ev-mou-helsinki-damai-2005"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -28430,7 +28199,7 @@
             }
           ],
           "event_ids": [
-            "ev-skb-tiga-menteri-ahmadiyah-2008",
+            "ev-mou-helsinki-damai-2005",
             "ev-uu-kewarganegaraan-anti-diskriminasi-2006"
           ],
           "normative_anchors": [
@@ -28478,7 +28247,7 @@
             }
           ],
           "event_ids": [
-            "ev-sby-mou-helsinki",
+            "ev-mou-helsinki-damai-2005",
             "ev-sby1-antirasial"
           ],
           "normative_anchors": [
@@ -28564,13 +28333,16 @@
             },
             {
               "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
+              "source_id": "lhp-bpk-century-2009"
             }
           ],
           "event_ids": [
             "ev-sby1-ite",
             "ev-sby1-kur",
             "ev-uu-pelayanan-publik-2009",
-            "ev-bpk-audit-century-2009"
+            "ev-bpk-audit-bank-century-2009"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -28689,7 +28461,7 @@
             }
           ],
           "event_ids": [
-            "ev-sby1-damai-aceh",
+            "ev-mou-helsinki-damai-2005",
             "ev-sby1-log-aceh"
           ],
           "normative_anchors": [
@@ -30786,22 +30558,11 @@
               "source_id": "tap-amandemen-uud-1999-2002"
             },
             {
-              "source_id": "tap-mpr-vi-2001"
-            },
-            {
-              "source_id": "tap-mpr-vii-2001"
-            },
-            {
-              "source_id": "uu-22-1999"
-            },
-            {
-              "source_id": "uu-30-2002"
+              "source_id": "uud-nri-1945"
             }
           ],
           "event_ids": [
-            "ev-mpr-tap-vi-vii-2001",
-            "ev-otonomi-daerah-1999",
-            "ev-dpr-uu-pemberantasan-korupsi-1999"
+            "ev-dpr99-amandemen-uud"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -30994,6 +30755,9 @@
               "source_id": "uu-21-2001"
             },
             {
+              "source_id": "uu-24-2003"
+            },
+            {
               "source_id": "tap-amandemen-uud-1999-2002"
             },
             {
@@ -31001,7 +30765,7 @@
             }
           ],
           "event_ids": [
-            "ev-dpr-uu-mk-2003",
+            "ev-uu-mk-2003",
             "ev-uu-sisdiknas-2003"
           ],
           "normative_anchors": [
@@ -31362,7 +31126,7 @@
             }
           ],
           "event_ids": [
-            "ev-sby-mou-helsinki",
+            "ev-mou-helsinki-damai-2005",
             "ev-dpr-uu-rpjpn-2007"
           ],
           "normative_anchors": [
@@ -31798,14 +31562,20 @@
               "source_id": "uu-21-2011"
             },
             {
+              "source_id": "laporan-pansus-century-2010"
+            },
+            {
               "source_id": "risalah-pansus-century-dpr-2010"
+            },
+            {
+              "source_id": "risalah-dpr-angket-century-2010"
             },
             {
               "source_id": "uu-12-2012"
             }
           ],
           "event_ids": [
-            "ev-dpr-pansus-angket-century-2010",
+            "ev-dpr-pansus-century-2010",
             "ev-sby-uu-pendidikan-tinggi"
           ],
           "normative_anchors": [
@@ -31879,6 +31649,12 @@
               "source_id": "uu-12-2012"
             },
             {
+              "source_id": "laporan-pansus-century-2010"
+            },
+            {
+              "source_id": "risalah-pansus-century-dpr-2010"
+            },
+            {
               "source_id": "risalah-dpr-angket-century-2010"
             },
             {
@@ -31886,7 +31662,7 @@
             }
           ],
           "event_ids": [
-            "ev-dpr-angket-century-2010",
+            "ev-dpr-pansus-century-2010",
             "ev-dpr09-bpjs"
           ],
           "normative_anchors": [
@@ -32148,6 +31924,9 @@
             },
             {
               "source_id": "uu-5-2018"
+            },
+            {
+              "source_id": "uu-19-2019-kpk"
             }
           ],
           "event_ids": [
@@ -32201,6 +31980,9 @@
               "source_id": "uu-5-2018"
             },
             {
+              "source_id": "uu-19-2019"
+            },
+            {
               "source_id": "uu-19-2019-kpk"
             },
             {
@@ -32208,7 +31990,7 @@
             }
           ],
           "event_ids": [
-            "ev-revisi-uu-kpk-pelemahan-independensi-2019",
+            "ev-dpr-revisi-uu-kpk-2019",
             "ev-dpr14-des"
           ],
           "normative_anchors": [
@@ -32265,6 +32047,9 @@
             },
             {
               "source_id": "uu-19-2019"
+            },
+            {
+              "source_id": "uu-19-2019-kpk"
             }
           ],
           "event_ids": [
@@ -32288,12 +32073,15 @@
               "source_id": "uu-7-2017"
             },
             {
+              "source_id": "uu-19-2019"
+            },
+            {
               "source_id": "uu-19-2019-kpk"
             }
           ],
           "event_ids": [
             "ev-dpr-uu-pemilu-7-2017",
-            "ev-revisi-uu-kpk-pelemahan-independensi-2019"
+            "ev-dpr-revisi-uu-kpk-2019"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -32327,7 +32115,6 @@
           "event_ids": [
             "ev-dpr14-revisi-kpk",
             "ev-dpr14-des",
-            "ev-revisi-uu-kpk-pelemahan-independensi-2019",
             "ev-dpr-revisi-uu-kpk-2019"
           ],
           "normative_anchors": [
@@ -33716,7 +33503,7 @@
           ],
           "event_ids": [
             "ev-mk2-akil-mochtar",
-            "ev-mk-putusan-hutan-adat-2012"
+            "ev-mk-putusan-hutan-adat-2013"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -35354,22 +35141,12 @@
               "source_id": "maklumat-x-1945"
             },
             {
-              "source_id": "dasasila-bandung-1955"
-            },
-            {
               "source_id": "dekrit-presiden-5-juli-1959"
-            },
-            {
-              "source_id": "buku-kahin-nationalism-revolution-1952"
-            },
-            {
-              "source_id": "buku-ricklefs-history-modern-indonesia-1981"
             }
           ],
           "event_ids": [
-            "ev-kaa-bandung-1955",
-            "ev-presiden-dekrit-5-juli-1959",
-            "ev-soekarno1-prri-permesta"
+            "ev-soekarno1-pemilu-1955",
+            "ev-presiden-dekrit-5-juli-1959"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -35484,6 +35261,9 @@
               "source_id": "buku-ricklefs-history-modern-indonesia-1981"
             },
             {
+              "source_id": "perjanjian-linggarjati-1947"
+            },
+            {
               "source_id": "anri-perjanjian-linggarjati-1947"
             },
             {
@@ -35491,9 +35271,6 @@
             },
             {
               "source_id": "iisg-pki-musso-djalan-baru-1948"
-            },
-            {
-              "source_id": "perjanjian-linggarjati-1947"
             },
             {
               "source_id": "anri-kmb-den-haag-1949"
@@ -35505,11 +35282,10 @@
           "event_ids": [
             "ev-keadaan-darurat-sob-1957",
             "ev-soekarno1-di-tii",
-            "ev-rescue-anri-perjanjian-linggarjati-1947",
+            "ev-persetujuan-linggarjati-1947",
             "ev-rescue-arsip-nii-proklamasi-1949",
             "ev-rescue-iisg-pki-musso-djalan-baru-1948",
             "ev-kmb-pengakuan-kedaulatan-1949",
-            "ev-persetujuan-linggarjati-1947",
             "ev-mandat-darurat-kawat-pdri-1948",
             "ev-anri-kmb-pengakuan-kedaulatan-1949",
             "ev-nasionalisasi-de-javasche-bank-1953",
@@ -36764,6 +36540,9 @@
             },
             {
               "source_id": "uu-3-1975"
+            },
+            {
+              "source_id": "uu-3-1975-parpol-golkar"
             }
           ],
           "event_ids": [
@@ -36774,7 +36553,7 @@
             "ev-soeharto-kb-program",
             "ev-soeharto-krismon-blbi",
             "ev-deklarasi-asean-bangkok-1967",
-            "ev-uu-fusi-partai-politik-1975"
+            "ev-uu-3-1975-fusi-partai"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -36914,6 +36693,9 @@
               "source_id": "uu-3-1975"
             },
             {
+              "source_id": "uu-3-1975-parpol-golkar"
+            },
+            {
               "source_id": "tap-mpr-iv-1978"
             }
           ],
@@ -36978,7 +36760,7 @@
             "ev-soeharto-fusi-partai",
             "ev-soeharto-asas-tunggal",
             "ev-penyerbuan-kudatuli-1996",
-            "ev-fusi-partai-politik-1975"
+            "ev-uu-3-1975-fusi-partai"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -37876,7 +37658,7 @@
             "ev-ma-suap-hakim-modern",
             "ev-penyatuan-satu-atap-peradilan-uu-4-2004",
             "ev-vonis-suap-pengurusan-perkara-nurhadi-2021",
-            "ev-skandal-mafia-peradilan-zarof-ricar-2024",
+            "ev-ma-skandal-zarof-ricar-2024",
             "ev-penerbitan-sema-perma-reformasi-peradilan-2017-2019",
             "ev-ma-satu-atap-2004",
             "ev-ma-perma-ecourt-2019",
@@ -38222,6 +38004,12 @@
             },
             {
               "source_id": "laporan-icw-korupsi-penegak-hukum-2024"
+            },
+            {
+              "source_id": "laporan-kejagung-zarof-ricar-2024"
+            },
+            {
+              "source_id": "putusan-kasasi-ma-zarof-ricar-2025"
             }
           ],
           "event_ids": [
@@ -38314,12 +38102,21 @@
               "source_id": "putusan-ma-haris-fatia-2024"
             },
             {
+              "source_id": "bap-kejagung-zarof-ricar-2024"
+            },
+            {
+              "source_id": "laporan-icw-korupsi-penegak-hukum-2024"
+            },
+            {
               "source_id": "laporan-kejagung-zarof-ricar-2024"
+            },
+            {
+              "source_id": "putusan-kasasi-ma-zarof-ricar-2025"
             }
           ],
           "event_ids": [
             "ev-vonis-bebas-haris-fatia-2024",
-            "ev-ma-skandal-zarof-2024"
+            "ev-ma-skandal-zarof-ricar-2024"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -38773,7 +38570,7 @@
             }
           ],
           "event_ids": [
-            "ev-mpr-pemisahan-tni-polri-2000",
+            "ev-tap-mpr-pemisahan-tni-polri-2000",
             "ev-mpr-amendemen-4"
           ],
           "normative_anchors": [
@@ -40981,11 +40778,14 @@
               "source_id": "uu-15-2006"
             },
             {
+              "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
               "source_id": "lhp-bpk-century-2009"
             }
           ],
           "event_ids": [
-            "ev-audit-investigasi-bpk-bank-century-2009",
+            "ev-bpk-audit-bank-century-2009",
             "ev-bpk-audit-blbi"
           ],
           "normative_anchors": [
@@ -41086,11 +40886,14 @@
               "source_id": "lhp-bpk-pertamina-2008"
             },
             {
+              "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
               "source_id": "lhp-bpk-century-2009"
             }
           ],
           "event_ids": [
-            "ev-audit-investigasi-bpk-bank-century-2009",
+            "ev-bpk-audit-bank-century-2009",
             "ev-bpk-audit-blbi"
           ],
           "normative_anchors": [
@@ -41137,6 +40940,9 @@
               "source_id": "uu-15-2006"
             },
             {
+              "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
               "source_id": "lhp-bpk-century-2009"
             }
           ],
@@ -41144,7 +40950,7 @@
             "ev-bpk-paket-uu-keuangan",
             "ev-bpk-audit-blbi",
             "ev-bpk-audit-kpu-2004",
-            "ev-audit-investigasi-bpk-bank-century-2009"
+            "ev-bpk-audit-bank-century-2009"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -41166,11 +40972,14 @@
               "source_id": "uu-15-2006"
             },
             {
+              "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
               "source_id": "lhp-bpk-century-2009"
             }
           ],
           "event_ids": [
-            "ev-audit-investigasi-bpk-bank-century-2009",
+            "ev-bpk-audit-bank-century-2009",
             "ev-bpk-audit-blbi"
           ],
           "normative_anchors": [
@@ -41217,12 +41026,15 @@
               "source_id": "uu-15-2006"
             },
             {
+              "source_id": "laporan-audit-bpk-century-2009"
+            },
+            {
               "source_id": "lhp-bpk-century-2009"
             }
           ],
           "event_ids": [
             "ev-bpk-uu-15-2006",
-            "ev-audit-investigasi-bpk-bank-century-2009"
+            "ev-bpk-audit-bank-century-2009"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -41300,11 +41112,14 @@
             },
             {
               "source_id": "lhp-bpk-pelindo-2016"
+            },
+            {
+              "source_id": "lhp-bpk-century-2009"
             }
           ],
           "event_ids": [
             "ev-bpk-standar-sap-wtp",
-            "ev-bpk-audit-century-2009"
+            "ev-bpk-audit-bank-century-2009"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -41360,10 +41175,13 @@
             },
             {
               "source_id": "laporan-audit-bpk-hambalang-2013"
+            },
+            {
+              "source_id": "lhp-bpk-century-2009"
             }
           ],
           "event_ids": [
-            "ev-bpk-audit-century-2009",
+            "ev-bpk-audit-bank-century-2009",
             "ev-bpk-standar-sap-wtp"
           ],
           "normative_anchors": [
@@ -41384,11 +41202,14 @@
             },
             {
               "source_id": "laporan-audit-bpk-hambalang-2013"
+            },
+            {
+              "source_id": "lhp-bpk-century-2009"
             }
           ],
           "event_ids": [
             "ev-bpk-audit-hambalang-2013",
-            "ev-bpk-audit-century-2009"
+            "ev-bpk-audit-bank-century-2009"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -41408,6 +41229,9 @@
             },
             {
               "source_id": "laporan-audit-bpk-hambalang-2013"
+            },
+            {
+              "source_id": "lhp-bpk-century-2009"
             }
           ],
           "event_ids": [
@@ -41435,11 +41259,14 @@
             },
             {
               "source_id": "lhp-bpk-hambalang-2012"
+            },
+            {
+              "source_id": "lhp-bpk-century-2009"
             }
           ],
           "event_ids": [
             "ev-bpk-audit-hambalang-2012",
-            "ev-bpk-audit-century-2009"
+            "ev-bpk-audit-bank-century-2009"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -41492,11 +41319,14 @@
             },
             {
               "source_id": "laporan-audit-bpk-ektp-2017"
+            },
+            {
+              "source_id": "lhp-bpk-century-2009"
             }
           ],
           "event_ids": [
             "ev-bpk-audit-ektp-2017",
-            "ev-bpk-audit-century-2009"
+            "ev-bpk-audit-bank-century-2009"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -41519,12 +41349,15 @@
             },
             {
               "source_id": "putusan-pn-jkt-pusat-rochmadi-2018"
+            },
+            {
+              "source_id": "lhp-bpk-century-2009"
             }
           ],
           "event_ids": [
             "ev-bpk-standar-sap-wtp",
             "ev-bpk-suap-wtp-kemendes-2017",
-            "ev-bpk-audit-century-2009"
+            "ev-bpk-audit-bank-century-2009"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -41544,11 +41377,14 @@
             },
             {
               "source_id": "laporan-audit-bpk-hambalang-2013"
+            },
+            {
+              "source_id": "lhp-bpk-century-2009"
             }
           ],
           "event_ids": [
             "ev-bpk-standar-sap-wtp",
-            "ev-bpk-audit-century-2009"
+            "ev-bpk-audit-bank-century-2009"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -41595,10 +41431,13 @@
             },
             {
               "source_id": "laporan-audit-bpk-hambalang-2013"
+            },
+            {
+              "source_id": "lhp-bpk-century-2009"
             }
           ],
           "event_ids": [
-            "ev-bpk-audit-century-2009",
+            "ev-bpk-audit-bank-century-2009",
             "ev-bpk-standar-sap-wtp"
           ],
           "normative_anchors": [
