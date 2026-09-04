@@ -24,7 +24,7 @@ if (!patchFile) throw new Error("pemakaian: dialektika-apply.mts <patch.json>");
 
 const patch = JSON.parse(readFileSync(patchFile, "utf8")) as Record<
   string,
-  { antithesis_id: string; synthesis_id: string }
+  { rationale_id?: string; antithesis_id: string; synthesis_id: string }
 >;
 const assessments = parse(readFileSync(PATH, "utf8")) as any[];
 
@@ -48,6 +48,10 @@ for (const [k, v] of Object.entries(patch)) {
     if (!teks || teks.trim().length < 40) galat.push(`${k}: ${field} terlalu pendek`);
     else if (TERPOTONG.test(teks.trim())) galat.push(`${k}: ${field} terpotong di nomor dokumen`);
   }
+  if (v.rationale_id !== undefined) {
+    if (v.rationale_id.trim().length < 40) galat.push(`${k}: rationale_id terlalu pendek`);
+    if (TERPOTONG.test(v.rationale_id.trim())) galat.push(`${k}: rationale_id terpotong di nomor dokumen`);
+  }
   const m = v.synthesis_id?.match(LABEL);
   if (!m) galat.push(`${k}: synthesis_id wajib menyebut label skor, mis. "Skor Baik (+1)"`);
   else if (Number(m[1]) !== d.score) galat.push(`${k}: sintesis menulis (${m[1]}), score = ${d.score}`);
@@ -68,6 +72,21 @@ for (const a of assessments) {
     catat(p ? p.synthesis_id : d.synthesis_id);
   }
 }
+
+// rationale_id tidak boleh kembar sama sekali: satu masa jabatan satu penilaian.
+const rasional = new Map<string, string[]>();
+for (const a of assessments) {
+  for (const d of a.dimension_scores) {
+    const k = `${a.id}::${d.dimension_id}`;
+    const teks = (patch[k]?.rationale_id ?? d.rationale_id).trim().toLowerCase();
+    rasional.set(teks, [...(rasional.get(teks) ?? []), k]);
+  }
+}
+for (const [teks, dipakai] of rasional) {
+  if (dipakai.length > 1 && dipakai.some((k) => patch[k]?.rationale_id !== undefined)) {
+    galat.push(`rationale_id kembar di ${dipakai.join(", ")}: "${teks.slice(0, 60)}..."`);
+  }
+}
 for (const [t, n] of hitung) {
   if (n > 3) galat.push(`kalimat dipakai ${n}x (ambang 3): "${t.slice(0, 70)}..."`);
 }
@@ -80,6 +99,7 @@ if (galat.length) {
 
 for (const [k, v] of Object.entries(patch)) {
   const d = index.get(k);
+  if (v.rationale_id !== undefined) d.rationale_id = v.rationale_id;
   d.antithesis_id = v.antithesis_id;
   d.synthesis_id = v.synthesis_id;
 }

@@ -18,11 +18,18 @@ for (const f of ["events.yaml", ...readdirSync(join(DATA, "events")).map((x) => 
   for (const e of parse(readFileSync(join(DATA, f), "utf8")) as any[]) E.set(e.id, e);
 }
 
+/** Berapa kali rasional yang sama dipakai di seluruh dataset. */
+const kembar = new Map<string, number>();
+for (const a of A) for (const d of a.dimension_scores) {
+  const key = d.rationale_id.trim();
+  kembar.set(key, (kembar.get(key) ?? 0) + 1);
+}
+
 const want = new Set(process.argv.slice(2));
 for (const a of A) {
   if (want.size && !want.has(a.id)) continue;
   for (const d of a.dimension_scores) {
-    if (d.antithesis_id || d.synthesis_id) continue;
+    if (!process.env.SEMUA && (d.antithesis_id || d.synthesis_id)) continue;
     const ev = (d.event_ids ?? [])
       .map((id: string) => E.get(id))
       .filter(Boolean)
@@ -35,6 +42,7 @@ for (const a of A) {
         k: `${a.id}::${d.dimension_id}`,
         score: d.score,
         rationale: d.rationale_id,
+        kembar: kembar.get(d.rationale_id.trim()) ?? 1,
         events: ev,
         sources: src,
       })

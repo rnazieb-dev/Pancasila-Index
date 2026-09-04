@@ -3078,6 +3078,8 @@
       event_ids:
         - ev-mk-putusan-kelistrikan-2004
         - ev-mk1-pelantikan
+      antithesis_id: Pembatalan UU Ketenagalistrikan menegakkan Pasal 33 tetapi tidak diikuti pengujian atas UU No. 1/PNPS/1965, sehingga pada periode pertamanya MK belum menyentuh instrumen yang paling langsung membatasi kebebasan beragama.
+      synthesis_id: Skor Baik (+1) karena doktrin penguasaan negara ditegakkan sejak putusan pertama yang bermakna, meski dimensi ketuhanan sendiri belum diuji pada periode ini.
     - dimension_id: sila-2
       score: 1
       confidence: 0.85
@@ -3089,6 +3091,8 @@
       event_ids:
         - ev-mk-putusan-kkr-2006
         - ev-pembentukan-mahkamah-konstitusi-2003
+      antithesis_id: Pembatalan UU KKR menghapus syarat amnesti yang mengorbankan korban, tetapi karena undang-undangnya dibatalkan seluruhnya, Indonesia justru kehilangan satu-satunya kerangka hukum rekonsiliasi tanpa penggantinya sampai hari ini.
+      synthesis_id: Skor Baik (+1) karena MK menolak jalan keluar yang menukar keadilan korban dengan amnesti, menegaskan hak korban sebagai hak konstitusional.
     - dimension_id: sila-4
       score: 1
       confidence: 0.85
@@ -3101,6 +3105,8 @@
         - ev-pembentukan-mahkamah-konstitusi-2003
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Uji materi elektoral ditegakkan sebagai fungsi inti, tetapi MK pada periode ini belum menyentuh sistem proporsional tertutup yang menempatkan penentuan wakil rakyat di tangan pengurus partai alih-alih pemilih.
+      synthesis_id: Skor Baik (+1) karena pengujian undang-undang kepemiluan dijalankan konsisten sejak awal, meletakkan MK sebagai wasit aturan main demokrasi.
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.9
@@ -3119,6 +3125,8 @@
       event_ids:
         - ev-mk1-pelantikan
         - ev-pembentukan-mahkamah-konstitusi-2003
+      antithesis_id: Penguatan instrumen antikorupsi berjalan bersamaan dengan Putusan No. 005/PUU-IV/2006 yang mengeluarkan hakim konstitusi dari pengawasan Komisi Yudisial, sehingga MK memperkuat pengawasan atas lembaga lain sambil melepaskan pengawasan atas dirinya.
+      synthesis_id: Skor Sangat Baik (+2) karena dalam periode pertamanya MK mengukuhkan kewenangan KPK, memerintahkan pembentukan pengadilan tipikor, dan membatalkan pasal pemidanaan kritik - fondasi negara hukum pasca-otoritarian.
     - dimension_id: checks-balances
       score: 2
       confidence: 0.85
@@ -3136,8 +3144,8 @@
       normative_anchors:
         - uud-nri-1945
       thesis_id: Mahkamah Konstitusi generasi pertama memposisikan diri sebagai pengawal konstitusi independen yang berwenang menguji produk legislasi DPR dan Presiden tanpa intervensi politik.
-      antithesis_id: Kritik dari kalangan ekonom pasar bebas menuduh putusan MK yang membatalkan UU Ketenagalistrikan (No. 001-021-022/PUU-I/2003) dan UU Privatisasi BUMN menghambat iklim investasi asing.
-      synthesis_id: Skor teladan (+2) karena MK secara berani menegakkan kedaulatan Pasal 33 UUD 1945 dan membuktikan fungsi kontrol yudisial atas kesewenang-wenangan legislasi.
+      antithesis_id: Kesediaan membatalkan produk legislasi pemerintah dan DPR belum diuji pada perkara yang menyangkut kepentingan politik langsung penguasa, sehingga keberanian itu belum teruji pada tekanan yang sesungguhnya.
+      synthesis_id: Skor Sangat Baik (+2) karena untuk pertama kali dalam sejarah Indonesia undang-undang hasil kesepakatan pemerintah dan DPR dapat dibatalkan oleh pengadilan, mengubah keseimbangan kekuasaan secara permanen.
     - dimension_id: kedaulatan-rakyat
       score: 2
       confidence: 0.9
@@ -3151,10 +3159,12 @@
       event_ids:
         - ev-mk1-pelantikan
         - ev-pembentukan-mahkamah-konstitusi-2003
+      antithesis_id: Putusan calon perseorangan memperluas hak dipilih tetapi MK tidak menyertakan pengaturan peralihan, sehingga pelaksanaannya bergantung pada revisi undang-undang yang baru disusun DPR setahun kemudian dengan syarat yang memberatkan.
+      synthesis_id: Skor Sangat Baik (+2) karena monopoli partai atas pencalonan kepala daerah dipatahkan lewat putusan konstitusional, mengembalikan hak dipilih kepada warga negara perseorangan.
     - dimension_id: sila-3
       score: 1
       confidence: 0.75
-      rationale_id: Meneguhkan kebinekaan dan hak masyarakat adat melalui putusan pengujian UU, termasuk pengakuan hutan adat (Putusan MK 35/PUU-X/2012) dan status penghayat kepercayaan.
+      rationale_id: Membuka jalur calon perseorangan dalam pilkada lewat Putusan MK No. 5/PUU-V/2007 sehingga warga di daerah tidak lagi harus melewati monopoli partai untuk memimpin daerahnya sendiri.
       evidence:
         - source_id: uu-24-2003
         - source_id: putusan-mk-001-puu-i-2003
@@ -3164,10 +3174,12 @@
       event_ids:
         - ev-mk-putusan-calon-independen-2007
         - ev-mk1-pelantikan
+      antithesis_id: Pembukaan jalur perseorangan tidak diikuti pengaturan ambang dukungan yang proporsional, sehingga syarat pengumpulan KTP yang berat membuat hak itu sulit dipakai di daerah berpenduduk besar.
+      synthesis_id: Skor Baik (+1) karena hak konstitusional warga daerah untuk dipilih tanpa perantara partai diakui, memperluas ruang keterwakilan di luar kanal kepartaian.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Menafsirkan doktrin penguasaan negara Pasal 33 UUD 1945 untuk sebesar-besar kemakmuran rakyat pada pengujian UU Ketenagalistrikan, UU Migas, dan UU SDA.
+      rationale_id: Membatalkan pasal privatisasi UU Ketenagalistrikan lewat Putusan MK No. 001-021-022/PUU-I/2003 dan menegaskan cabang produksi penting harus dikuasai negara demi sebesar-besar kemakmuran rakyat.
       evidence:
         - source_id: putusan-mk-001-puu-i-2003
       normative_anchors:
@@ -3175,10 +3187,12 @@
       event_ids:
         - ev-pembentukan-mahkamah-konstitusi-2003
         - ev-mk1-pelantikan
+      antithesis_id: Doktrin penguasaan negara ditegakkan pada sektor kelistrikan tetapi tidak dijaga konsisten pada pengujian UU Migas yang tetap membuka kontrak karya, sehingga penafsiran Pasal 33 berlaku selektif menurut sektor.
+      synthesis_id: Skor Baik (+1) karena pembatalan liberalisasi kelistrikan menjadi tafsir konstitusional pertama atas Pasal 33 yang mengikat pembentuk undang-undang sesudahnya.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
-      rationale_id: Menguji UU Terorisme, UU Intelijen Negara, dan hukum acara pidana untuk memastikan perlindungan keamanan warga negara selaras dengan hak konstitusional.
+      rationale_id: Mengukuhkan kewenangan penyadapan KPK lewat Putusan MK No. 012-016-019/PUU-IV/2006 dan memerintahkan pembentukan undang-undang Pengadilan Tipikor demi kepastian perlindungan warga dari korupsi kekuasaan.
       evidence:
         - source_id: uu-24-2003
         - source_id: putusan-mk-001-puu-i-2003
@@ -3188,10 +3202,12 @@
       event_ids:
         - ev-mk-putusan-penyadapan-kpk-2006
         - ev-pembentukan-mahkamah-konstitusi-2003
+      antithesis_id: Putusan itu memberi tenggat tiga tahun kepada pembentuk undang-undang yang nyaris tidak dipenuhi, dan MK tidak menyediakan konsekuensi hukum bila tenggatnya dilewati - perlindungan bergantung pada kepatuhan sukarela DPR.
+      synthesis_id: Skor Baik (+1) karena kewenangan penyadapan lembaga antikorupsi diselamatkan dari pembatalan dan pengadilan tipikor memperoleh perintah konstitusional untuk dibentuk.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.8
-      rationale_id: Membatalkan komersialisasi sumber daya air privat (Putusan MK 85/PUU-XI/2013) dan menguji norma perburuhan UU Cipta Kerja guna melindungi kesejahteraan umum.
+      rationale_id: Menguji kewenangan pengawasan Komisi Yudisial atas hakim lewat Putusan MK No. 005/PUU-IV/2006, putusan yang menata ulang hubungan antarlembaga pengawas peradilan pada periode pembentukan MK.
       evidence:
         - source_id: putusan-mk-85-puu-xi-2013
       normative_anchors:
@@ -3199,10 +3215,12 @@
       event_ids:
         - ev-mk-putusan-ky-hakim-agung-2006
         - ev-mk1-pelantikan
+      antithesis_id: Dengan mengeluarkan hakim konstitusi dari objek pengawasan Komisi Yudisial, MK memutus perkara yang menyangkut dirinya sendiri dan menghapus satu-satunya pengawas eksternal atas perilaku hakimnya - celah yang terbukti fatal ketika ketuanya ditangkap tujuh tahun kemudian.
+      synthesis_id: Skor Baik (+1) karena independensi kekuasaan kehakiman dari intervensi lembaga lain dikukuhkan, meski dengan biaya melemahkan pengawasan eksternal atas hakim konstitusi.
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
-      rationale_id: Mengawal mandat konstitusi alokasi 20% APBN untuk anggaran pendidikan murni dan membatalkan privatisasi pendidikan melalui Putusan UU BHP.
+      rationale_id: Menghapus pasal penghinaan presiden lewat Putusan MK No. 013-022/PUU-IV/2006 dan pasal penyebaran permusuhan terhadap pemerintah lewat Putusan No. 6/PUU-V/2007, membebaskan ruang kritik publik yang menjadi prasyarat pencerdasan bangsa.
       evidence:
         - source_id: uu-24-2003
         - source_id: putusan-mk-001-puu-i-2003
@@ -3212,10 +3230,12 @@
       event_ids:
         - ev-mk-putusan-lese-majeste-2006
         - ev-pembentukan-mahkamah-konstitusi-2003
+      antithesis_id: Dua pasal warisan kolonial dihapus tetapi delik penghinaan lain dalam KUHP dan UU ITE dibiarkan utuh, sehingga kriminalisasi kritik berpindah kanal alih-alih berakhir.
+      synthesis_id: Skor Sangat Baik (+2) karena pasal-pasal yang selama puluhan tahun memidanakan kritik terhadap penguasa dinyatakan bertentangan dengan konstitusi, membebaskan ruang publik secara permanen.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
-      rationale_id: Menegaskan kedudukan hukum traktat dan perjanjian internasional dalam hierarki hukum nasional sesuai amanat alinea IV Pembukaan UUD 1945.
+      rationale_id: Menegakkan kedudukan hukum norma internasional dalam pengujian undang-undang periode awal MK, termasuk merujuk kovenan hak sipil dan politik yang baru diratifikasi Indonesia pada 2005 sebagai bahan penafsiran hak konstitusional.
       evidence:
         - source_id: uu-24-2003
       normative_anchors:
@@ -3223,6 +3243,8 @@
       event_ids:
         - ev-mk-putusan-haatzaai-artikelen-2007
         - ev-mk1-pelantikan
+      antithesis_id: Rujukan pada instrumen internasional dipakai sebagai bahan penafsiran tanpa menempatkannya dalam hierarki norma yang mengikat, sehingga kekuatannya bergantung pada kesediaan majelis yang sedang memutus.
+      synthesis_id: Skor Baik (+1) karena MK sejak awal memperlakukan kovenan hak asasi yang diratifikasi sebagai rujukan penafsiran konstitusi, menghubungkan tertib hukum nasional dengan komitmen internasional.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -3266,6 +3288,8 @@
       event_ids:
         - ev-mk-putusan-hutan-adat-2013
         - ev-mk-putusan-uu-penodaan-agama-2010
+      antithesis_id: Pengakuan hutan adat memulihkan hak spiritual masyarakat adat, tetapi pada periode yang sama MK menolak pengujian UU No. 1/PNPS/1965 lewat Putusan No. 140/PUU-VII/2009 sehingga pembatasan negara atas tafsir keagamaan tetap berdiri.
+      synthesis_id: Skor Baik (+1) karena hak ulayat dan spiritual masyarakat adat diakui sebagai hak konstitusional, walau instrumen utama pembatasan kebebasan beragama justru dipertahankan pada periode yang sama.
     - dimension_id: sila-2
       score: 2
       confidence: 0.85
@@ -3281,6 +3305,8 @@
         - ev-mk-putusan-buruh-outsourcing-2012
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Perubahan paradigma pecandu narkotika menjadi korban tidak disertai kewajiban negara menyediakan kapasitas rehabilitasi, sehingga secara praktik pemidanaan tetap menjadi jalur utama karena fasilitas pengganti tidak tersedia.
+      synthesis_id: Skor Sangat Baik (+2) karena martabat kelompok yang paling mudah dikriminalkan diangkat menjadi persoalan konstitusional, bersama pengakuan hak keperdataan anak luar kawin yang menghapus stigma hukum seumur hidup.
     - dimension_id: sila-4
       score: 1
       confidence: 0.85
@@ -3292,10 +3318,12 @@
       event_ids:
         - ev-mk-putusan-bpmigas-2012
         - ev-mk-putusan-kegentingan-perppu-2009
+      antithesis_id: Pengizinan KTP dan paspor sebagai dasar memilih menyelamatkan hak pilih pada hari pemungutan suara, tetapi tidak mengoreksi akar persoalannya yaitu kekacauan pemutakhiran daftar pemilih yang berulang pada setiap pemilu sesudahnya.
+      synthesis_id: Skor Baik (+1) karena hak pilih ditempatkan di atas kelengkapan administratif, memastikan kegagalan negara mendata warganya tidak menghapus hak konstitusional mereka.
     - dimension_id: negara-hukum
       score: -2
       confidence: 0.85
-      rationale_id: Langkah bersejarah MK memutar sadapan rekayasa Anggodo Widjojo membuktikan keberanian yudikatif membongkar mafia hukum. Prof. Mahfud MD membuktikan bahwa moralitas konstitusi berdiri di atas formalisme prosedural demi melindungi pilar antikorupsi.
+      rationale_id: Ketua MK Akil Mochtar ditangkap dan divonis seumur hidup karena menerima suap dalam penanganan sengketa pilkada pada 2013, kejatuhan integritas terberat yang pernah dialami peradilan konstitusi Indonesia.
       evidence:
         - source_id: putusan-ma-akil-2014
         - source_id: putusan-mk-138-puu-vii-2009
@@ -3314,13 +3342,14 @@
       normative_anchors:
         - uud-nri-1945
       thesis_id: MK menegaskan fungsinya sebagai penjaga hak konstitusional warga negara dan pengawal integritas pemilu dengan memeriksa perselisihan hasil pemilu secara transparan.
-      antithesis_id: Elite politik mengkritik langkah berani Ketua MK memutar rekaman penyadapan KPK di sidang terbuka terkait rekayasa kriminalisasi Chandra M. Hamzah dan Bibit Samad Rianto (kasus Anggodo Widjojo).
+      antithesis_id: Pada periode yang sama MK menghasilkan putusan hutan adat, pembubaran BP Migas, dan pembatalan UU BHP - fungsi pengujian undang-undang tetap berjalan dan menghasilkan koreksi konstitusional berskala besar.
       expert_quotes:
         - quote: Hukum bukan sekadar teks mati atau pasal kaku perundang-undangan. Ketika aparat penegak hukum bersekongkol merekayasa perkara, pengadilan konstitusi wajib membuka tabir kebenaran demi moralitas keadilan publik.
           author: Prof. Dr. Mohammad Mahfud MD, S.H., S.U.
           role: Ketua Mahkamah Konstitusi RI 2008-2013
           year: 1998
           source_id: buku-mahfud-politik-hukum-1998
+      synthesis_id: Skor Sangat Buruk (-2) karena ketua pengadilan yang menjadi penjaga terakhir konstitusi memperjualbelikan putusan, kerusakan pada negara hukum yang tidak tertutupi oleh kualitas putusan lain periode ini.
     - dimension_id: checks-balances
       score: 0
       confidence: 0.85
@@ -3337,6 +3366,8 @@
         - ev-mk-putusan-anak-luar-kawin-2012
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Fungsi pengujian undang-undang berjalan penuh dan menghasilkan pembatalan produk legislasi berskala besar, membuktikan mekanisme saling kontrol antarlembaga tidak lumpuh oleh krisis internal.
+      synthesis_id: Skor Netral (0) karena kapasitas MK mengoreksi lembaga lain tetap bekerja tepat sebanding dengan hilangnya otoritas moralnya akibat skandal pimpinan sendiri.
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.85
@@ -3350,10 +3381,12 @@
       event_ids:
         - ev-mk-putusan-tripartit-dpd-2012-2014
         - ev-mk2-akil-mochtar
+      antithesis_id: Perlindungan hak pilih dari kendala administratif dijamin lewat putusan, tetapi pada periode yang sama sengketa hasil pilkada yang menjadi muara kedaulatan rakyat justru menjadi objek transaksi suap ketua MK.
+      synthesis_id: Skor Baik (+1) karena tidak ada warga yang boleh kehilangan hak pilih akibat kegagalan administrasi negara, prinsip yang sejak itu mengikat seluruh penyelenggaraan pemilu.
     - dimension_id: sila-3
       score: 1
       confidence: 0.75
-      rationale_id: Meneguhkan kebinekaan dan hak masyarakat adat melalui putusan pengujian UU, termasuk pengakuan hutan adat (Putusan MK 35/PUU-X/2012) dan status penghayat kepercayaan.
+      rationale_id: Menetapkan hutan adat bukan hutan negara lewat Putusan MK No. 35/PUU-X/2012, mengembalikan penguasaan wilayah adat kepada masyarakat hukum adat setelah lebih dari empat dasawarsa dikuasai negara.
       evidence:
         - source_id: putusan-mk-35-puu-x-2012
       normative_anchors:
@@ -3361,10 +3394,12 @@
       event_ids:
         - ev-mk-putusan-ktp-pemilu-2009
         - ev-mk-putusan-anak-luar-kawin-2012
+      antithesis_id: Putusan itu mensyaratkan pengakuan masyarakat hukum adat lewat peraturan daerah lebih dahulu, sehingga pemulihan hak bergantung pada kemauan politik pemerintah daerah dan sebagian besar wilayah adat belum juga dikembalikan bertahun-tahun kemudian.
+      synthesis_id: Skor Baik (+1) karena klaim negara atas hutan adat dinyatakan inkonstitusional, koreksi struktural terbesar atas hubungan negara dan masyarakat adat sejak UU Kehutanan 1967.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Menafsirkan doktrin penguasaan negara Pasal 33 UUD 1945 untuk sebesar-besar kemakmuran rakyat pada pengujian UU Ketenagalistrikan, UU Migas, dan UU SDA.
+      rationale_id: Membubarkan BP Migas lewat Putusan MK No. 36/PUU-X/2012 karena model kontrak kerja sama menempatkan negara setara dengan korporasi, bertentangan dengan penguasaan negara atas kekayaan alam menurut Pasal 33 UUD 1945.
       evidence:
         - source_id: putusan-mk-46-puu-viii-2010
         - source_id: putusan-mk-35-puu-x-2012
@@ -3374,10 +3409,12 @@
       event_ids:
         - ev-mk-putusan-anak-luar-kawin-2012
         - ev-mk2-akil-mochtar
+      antithesis_id: Pembubaran BP Migas tidak diikuti desain kelembagaan pengganti, sehingga fungsinya dialihkan ke satuan kerja sementara di bawah kementerian yang bertahan lebih dari satu dasawarsa tanpa dasar undang-undang yang kokoh.
+      synthesis_id: Skor Baik (+1) karena kelembagaan yang menempatkan negara sejajar dengan korporasi dalam pengelolaan migas dinyatakan inkonstitusional, menegaskan Pasal 33 mengikat desain kelembagaan dan bukan sekadar retorika.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
-      rationale_id: Menguji UU Terorisme, UU Intelijen Negara, dan hukum acara pidana untuk memastikan perlindungan keamanan warga negara selaras dengan hak konstitusional.
+      rationale_id: Membatasi kewenangan Presiden menerbitkan Perppu lewat Putusan MK No. 138/PUU-VII/2009 dengan menetapkan tiga syarat kegentingan yang memaksa, mencegah instrumen darurat dipakai memintas pembentukan undang-undang.
       normative_anchors:
         - uud-nri-1945
       evidence_gap: true
@@ -3385,10 +3422,12 @@
       event_ids:
         - ev-mk-putusan-tripartit-dpd-2012-2014
         - ev-mk-putusan-anak-luar-kawin-2012
+      antithesis_id: Tiga syarat kegentingan yang ditetapkan bersifat sangat umum dan penilaiannya diserahkan kepada Presiden sendiri, sehingga pembatasan itu terbukti tidak menghalangi penerbitan Perppu Cipta Kerja satu dasawarsa kemudian.
+      synthesis_id: Skor Baik (+1) karena kewenangan darurat eksekutif untuk pertama kalinya diberi tolok ukur konstitusional yang dapat diuji, bukan lagi sepenuhnya penilaian subjektif Presiden.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.8
-      rationale_id: Membatalkan komersialisasi sumber daya air privat (Putusan MK 85/PUU-XI/2013) dan menguji norma perburuhan UU Cipta Kerja guna melindungi kesejahteraan umum.
+      rationale_id: Memberikan jaminan hak pekerja alih daya lewat Putusan MK No. 27/PUU-IX/2011 dengan mewajibkan pengalihan perlindungan bagi pekerja kontrak yang objek pekerjaannya tetap ada, membatasi praktik kerja kontrak tanpa kepastian.
       evidence:
         - source_id: putusan-mk-85-puu-xi-2013
       normative_anchors:
@@ -3396,10 +3435,12 @@
       event_ids:
         - ev-mk2-akil-mochtar
         - ev-mk-putusan-anak-luar-kawin-2012
+      antithesis_id: Putusan itu mensyaratkan klausul pengalihan perlindungan dalam perjanjian kerja, sesuatu yang tidak dapat dinegosiasikan pekerja alih daya di posisi tawar terlemah, sehingga perlindungannya sulit ditagih dalam praktik.
+      synthesis_id: Skor Baik (+1) karena kepastian kerja bagi pekerja alih daya diangkat menjadi persoalan konstitusional dan praktik kontrak berulang tanpa batas dinyatakan bertentangan dengan UUD 1945.
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
-      rationale_id: Mengawal mandat konstitusi alokasi 20% APBN untuk anggaran pendidikan murni dan membatalkan privatisasi pendidikan melalui Putusan UU BHP.
+      rationale_id: Membatalkan UU Badan Hukum Pendidikan lewat Putusan MK No. 11-14-21-126-136/PUU-VII/2009 karena melepaskan tanggung jawab negara atas pembiayaan pendidikan kepada satuan pendidikan, dan menegakkan pendidikan sebagai kewajiban negara bukan komoditas.
       evidence:
         - source_id: uu-12-2012
         - source_id: putusan-mk-11-14-21-126-136-puu-vii-2009
@@ -3408,10 +3449,12 @@
       event_ids:
         - ev-mk-putusan-jaksa-agung-2010
         - ev-mk2-akil-mochtar
+      antithesis_id: Pembatalan menghentikan korporatisasi kampus tetapi tidak menghadirkan model tata kelola pengganti, sehingga otonomi perguruan tinggi kemudian dihidupkan kembali lewat undang-undang lain dengan efek kenaikan biaya yang serupa.
+      synthesis_id: Skor Sangat Baik (+2) karena pelepasan tanggung jawab pembiayaan pendidikan dari negara ke satuan pendidikan dinyatakan inkonstitusional, menegaskan pendidikan sebagai kewajiban negara.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
-      rationale_id: Menegaskan kedudukan hukum traktat dan perjanjian internasional dalam hierarki hukum nasional sesuai amanat alinea IV Pembukaan UUD 1945.
+      rationale_id: Menetapkan batas masa jabatan pimpinan lembaga negara lewat Putusan MK No. 6-13-20/PUU-VIII/2010 dan menjaga tertib kelembagaan yang menjadi prasyarat kredibilitas Indonesia dalam kerja sama internasional.
       normative_anchors:
         - uud-nri-1945
       evidence_gap: true
@@ -3419,6 +3462,8 @@
       event_ids:
         - ev-mk-pembatalan-uu-bhp-2010
         - ev-mk-putusan-anak-luar-kawin-2012
+      antithesis_id: Penataan tertib kelembagaan pada periode ini berjalan sementara kredibilitas MK sendiri runtuh oleh penangkapan ketuanya, sehingga otoritas moral untuk menuntut tertib pada lembaga lain ikut tergerus.
+      synthesis_id: Skor Baik (+1) karena kepastian masa jabatan pimpinan lembaga negara ditegakkan lewat putusan yang mengikat, menutup ruang perpanjangan kekuasaan lewat tafsir sepihak.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -3462,6 +3507,8 @@
       event_ids:
         - ev-mk-putusan-penghayat-2017
         - ev-mk-pembatalan-pembatalan-perda-2017
+      antithesis_id: "Pengakuan hak penghayat kepercayaan pada kolom kependudukan menyelesaikan diskriminasi administratif tanpa menyentuh pembatasan substantif: pendirian tempat ibadat dan pengakuan agama di luar enam yang dilayani negara tetap tidak diuji."
+      synthesis_id: Skor Baik (+1) karena jutaan penghayat kepercayaan berhenti diperlakukan sebagai warga tanpa identitas keagamaan yang sah, koreksi diskriminasi administratif yang berumur puluhan tahun.
     - dimension_id: sila-2
       score: 1
       confidence: 0.85
@@ -3477,6 +3524,8 @@
       event_ids:
         - ev-mk-putusan-rekaman-ilegal-2016
         - ev-mk-putusan-perjanjian-kawin-2015
+      antithesis_id: Perluasan objek praperadilan memberi tersangka jalur menguji keabsahan penetapannya, tetapi tanpa pengaturan hukum acara yang memadai putusan itu justru dipakai tersangka korupsi berkekuatan hukum untuk melumpuhkan penyidikan.
+      synthesis_id: Skor Baik (+1) karena penetapan tersangka, penggeledahan, dan penyitaan tidak lagi menjadi kewenangan aparat yang tidak dapat diuji, menutup ruang kesewenang-wenangan yang lama terbuka dalam KUHAP.
     - dimension_id: sila-4
       score: 2
       confidence: 0.85
@@ -3489,6 +3538,8 @@
         - ev-mk-putusan-pemilu-serentak-2013
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Pembukaan kembali pencalonan independen memperluas hak politik, tetapi Putusan No. 100/PUU-XIII/2015 yang melegalkan calon tunggal memperlihatkan MK juga mengesahkan kontestasi tanpa lawan sebagai pilkada yang sah.
+      synthesis_id: Skor Sangat Baik (+2) karena hak warga mencalonkan diri tanpa partai ditegakkan kembali setelah dipersempit undang-undang, memulihkan pintu masuk demokrasi lokal di luar kanal kepartaian.
     - dimension_id: negara-hukum
       score: 0
       confidence: 0.85
@@ -3512,6 +3563,8 @@
         - ev-putusan-mk-pemulihan-pilkada-langsung-2014
         - ev-kasus-suap-pilkada-akil-mochtar-2013
         - ev-vonis-suap-uji-materi-patrialis-akbar-2017
+      antithesis_id: Pembatalan komersialisasi air dan perluasan praperadilan menunjukkan fungsi pengujian tetap menghasilkan koreksi konstitusional berskala besar sepanjang periode ini.
+      synthesis_id: Skor Netral (0) karena kualitas putusan yang tinggi dinetralkan oleh penangkapan hakim konstitusi Patrialis Akbar - pengadilan yang menegakkan hukum bagi orang lain gagal menegakkannya di dalam dirinya untuk kedua kalinya berturut-turut.
     - dimension_id: checks-balances
       score: 0
       confidence: 0.85
@@ -3528,6 +3581,8 @@
       event_ids:
         - ev-mk-putusan-pk-berkali-kali-2013
         - ev-mk3-pilkada-independen
+      antithesis_id: Putusan pemilu serentak memperkuat sistem presidensial tetapi menunda pemberlakuannya hingga 2019 demi kepastian tahapan, sehingga koreksi konstitusional atas desain kepemiluan tertunda dua siklus pemilu.
+      synthesis_id: Skor Netral (0) karena penataan sistem presidensial lewat pemilu serentak berjalan seiring dengan runtuhnya kredibilitas majelis akibat suap hakim konstitusi kedua dalam empat tahun.
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.85
@@ -3543,10 +3598,12 @@
         - ev-mk-putusan-sda-air-2013
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Hak mencalonkan diri tanpa partai diakui kembali, tetapi MK pada periode yang sama mengesahkan pilkada dengan calon tunggal melawan kotak kosong sehingga pilihan rakyat dapat menyusut menjadi persetujuan atas kandidat tunggal.
+      synthesis_id: Skor Baik (+1) karena hak konstitusional warga untuk dipilih tanpa perantara partai dipulihkan setelah dipersempit pembentuk undang-undang.
     - dimension_id: sila-3
       score: 1
       confidence: 0.75
-      rationale_id: Meneguhkan kebinekaan dan hak masyarakat adat melalui putusan pengujian UU, termasuk pengakuan hutan adat (Putusan MK 35/PUU-X/2012) dan status penghayat kepercayaan.
+      rationale_id: Menjaga kebinekaan lewat Putusan MK No. 69/PUU-XIII/2015 yang mengakui perjanjian perkawinan dapat dibuat selama perkawinan, memulihkan hak keperdataan pasangan kawin campur atas kepemilikan tanah di Indonesia.
       evidence:
         - source_id: putusan-mk-100-2014
         - source_id: putusan-mk-14-puu-xi-2013
@@ -3557,10 +3614,12 @@
       event_ids:
         - ev-mk-putusan-praperadilan-2015
         - ev-mk-putusan-spdp-7-hari-2015
+      antithesis_id: Pemulihan hak keperdataan pasangan kawin campur menyelesaikan persoalan kepemilikan aset tetapi tidak menyentuh diskriminasi yang lebih mendasar dalam UU Perkawinan terhadap pasangan beda agama.
+      synthesis_id: Skor Baik (+1) karena warga negara Indonesia tidak lagi kehilangan hak atas tanah semata karena menikahi warga negara asing, menghapus hukuman keperdataan atas pilihan personal.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Menafsirkan doktrin penguasaan negara Pasal 33 UUD 1945 untuk sebesar-besar kemakmuran rakyat pada pengujian UU Ketenagalistrikan, UU Migas, dan UU SDA.
+      rationale_id: Membatalkan seluruh UU Sumber Daya Air lewat Putusan MK No. 85/PUU-XI/2013 pada Februari 2015 karena membuka komersialisasi air, dan memberlakukan kembali UU Pengairan 1974 demi menegakkan penguasaan negara atas air.
       evidence:
         - source_id: putusan-mk-85-puu-xi-2013
         - source_id: putusan-tipikor-patrialis-2017
@@ -3569,10 +3628,12 @@
       event_ids:
         - ev-mk-putusan-spdp-7-hari-2015
         - ev-mk-putusan-dpd-parpol-2018
+      antithesis_id: Pembatalan total memberlakukan kembali undang-undang tahun 1974 yang jauh tertinggal dari kebutuhan pengelolaan air modern, sehingga koreksi konstitusional dicapai dengan biaya kekosongan pengaturan selama bertahun-tahun.
+      synthesis_id: Skor Baik (+1) karena komersialisasi air dinyatakan bertentangan dengan Pasal 33 dan hak atas air ditegaskan sebagai hak konstitusional yang tidak boleh diserahkan kepada mekanisme pasar.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
-      rationale_id: Menguji UU Terorisme, UU Intelijen Negara, dan hukum acara pidana untuk memastikan perlindungan keamanan warga negara selaras dengan hak konstitusional.
+      rationale_id: Mewajibkan penyerahan Surat Pemberitahuan Dimulainya Penyidikan kepada terlapor dan korban paling lambat tujuh hari lewat Putusan MK No. 130/PUU-XIII/2015, menutup praktik penyidikan yang berlangsung tanpa sepengetahuan pihak yang diselidiki.
       normative_anchors:
         - uud-nri-1945
       evidence_gap: true
@@ -3580,10 +3641,12 @@
       event_ids:
         - ev-mk-putusan-calon-tunggal-2015
         - ev-kasus-suap-pilkada-akil-mochtar-2013
+      antithesis_id: Kewajiban tujuh hari ditetapkan tanpa sanksi yang tegas atas pelanggarannya, sehingga kepatuhan penyidik bergantung pada pengawasan internal institusi yang selama ini justru menjadi sumber persoalannya.
+      synthesis_id: Skor Baik (+1) karena warga yang diselidiki memperoleh hak konstitusional untuk mengetahui bahwa dirinya sedang disidik, menutup ruang penyidikan gelap berkepanjangan.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.8
-      rationale_id: Membatalkan komersialisasi sumber daya air privat (Putusan MK 85/PUU-XI/2013) dan menguji norma perburuhan UU Cipta Kerja guna melindungi kesejahteraan umum.
+      rationale_id: Memulihkan pilkada langsung lewat Putusan MK No. 73/PUU-XII/2014 dan menata syarat pencalonan agar kompetisi kepala daerah tetap terbuka, menjaga pemerintahan daerah yang bertanggung jawab kepada warganya sendiri.
       evidence:
         - source_id: putusan-mk-85-puu-xi-2013
       normative_anchors:
@@ -3591,10 +3654,12 @@
       event_ids:
         - ev-mk-putusan-sda-air-2013
         - ev-putusan-mk-pemulihan-pilkada-langsung-2014
+      antithesis_id: Pemulihan pilkada langsung menjaga akuntabilitas kepala daerah kepada pemilih tetapi tidak disertai pembatasan biaya politik, sehingga jabatan daerah tetap mahal dan mendorong pembiayaan dari pemodal yang menagih kembali lewat kebijakan.
+      synthesis_id: Skor Baik (+1) karena hak warga daerah memilih langsung pemimpinnya dipertahankan dari upaya pengembaliannya ke DPRD, menjaga pertanggungjawaban kepala daerah kepada rakyat.
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
-      rationale_id: Mengawal mandat konstitusi alokasi 20% APBN untuk anggaran pendidikan murni dan membatalkan privatisasi pendidikan melalui Putusan UU BHP.
+      rationale_id: Mewajibkan verifikasi faktual bagi seluruh partai peserta pemilu lewat Putusan MK No. 53/PUU-XV/2017 tanpa membedakan partai lama dan baru, menegakkan kesetaraan syarat kontestasi sebagai pendidikan politik yang jujur bagi pemilih.
       normative_anchors:
         - uud-nri-1945
       evidence_gap: true
@@ -3602,10 +3667,12 @@
       event_ids:
         - ev-mk-putusan-verifikasi-parpol-2018
         - ev-vonis-suap-uji-materi-patrialis-akbar-2017
+      antithesis_id: Putusan diucapkan ketika tahapan pemilu sudah berjalan sehingga penyelenggara harus memampatkan verifikasi faktual dalam waktu yang sangat singkat, dan kualitas verifikasi yang dihasilkan dipersoalkan banyak pihak.
+      synthesis_id: Skor Sangat Baik (+2) karena hak istimewa partai lama untuk lolos tanpa verifikasi dinyatakan inkonstitusional, menegakkan kesetaraan perlakuan yang menjadi dasar kejujuran kontestasi.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
-      rationale_id: Menegaskan kedudukan hukum traktat dan perjanjian internasional dalam hierarki hukum nasional sesuai amanat alinea IV Pembukaan UUD 1945.
+      rationale_id: Membatalkan kewenangan eksekutif membubarkan organisasi kemasyarakatan tanpa proses peradilan lewat Putusan MK No. 137/PUU-XIII/2015 dan putusan terkait, menjaga standar kebebasan berserikat yang diikat Indonesia lewat kovenan internasional.
       normative_anchors:
         - uud-nri-1945
       evidence_gap: true
@@ -3613,6 +3680,8 @@
       event_ids:
         - ev-mk-ott-patrialis-akbar-2017
         - ev-mk3-pilkada-independen
+      antithesis_id: "Standar itu ditegakkan pada pengujian peraturan daerah dan ormas, tetapi tidak bertahan lama: Perppu Ormas 2017 mengembalikan pembubaran tanpa pengadilan dan MK tidak membatalkannya pada periode berikutnya."
+      synthesis_id: Skor Baik (+1) karena kebebasan berserikat ditegaskan hanya dapat dibatasi lewat putusan pengadilan, menyelaraskan tertib hukum nasional dengan kovenan hak sipil dan politik.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -3656,6 +3725,8 @@
       event_ids:
         - ev-mk-putusan-penghayat-2017
         - ev-mk-putusan-pemilu-serentak-2019
+      antithesis_id: Konsistensi perlindungan penghayat kepercayaan dijaga, tetapi MK pada periode ini tidak menguji satu pun ketentuan yang menjadi dasar penyegelan rumah ibadah dan pembatasan minoritas yang justru meningkat pada rentang waktu yang sama.
+      synthesis_id: Skor Baik (+1) karena kesetaraan perlakuan bagi penghayat kepercayaan dipertahankan tanpa kemunduran, menjaga capaian periode sebelumnya tetap berlaku.
     - dimension_id: sila-2
       score: -1
       confidence: 0.85
@@ -3670,6 +3741,8 @@
       event_ids:
         - ev-mk-putusan-batas-usia-capres-2023
         - ev-mk-putusan-sistem-pemilu-terbuka-2023
+      antithesis_id: Pada periode yang sama MK menyatakan UU Cipta Kerja inkonstitusional bersyarat lewat Putusan No. 91/PUU-XVIII/2020 karena pembentukannya mengabaikan partisipasi bermakna, membela hak warga untuk didengar dalam pembentukan hukum.
+      synthesis_id: Skor Buruk (-1) karena pelanggaran etik berat dalam Putusan No. 90/PUU-XXI/2023 mencederai rasa keadilan pada perkara yang menentukan siapa boleh memimpin negara, kerusakan yang melampaui capaian putusan lain.
     - dimension_id: sila-4
       score: -2
       confidence: 0.85
@@ -3683,6 +3756,8 @@
         - ev-mk-putusan-fidusia-2019
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: MK pada periode ini mempertahankan sistem proporsional terbuka lewat Putusan No. 114/PUU-XX/2022, menolak upaya mengembalikan penentuan wakil rakyat ke tangan pengurus partai.
+      synthesis_id: Skor Sangat Buruk (-2) karena Putusan No. 90/PUU-XXI/2023 membuka jalan bagi kerabat ketua majelis sendiri untuk maju sebagai calon wakil presiden, menghancurkan kesetaraan kompetisi yang menjadi inti Sila Keempat.
     - dimension_id: negara-hukum
       score: -2
       confidence: 0.85
@@ -3700,6 +3775,8 @@
         - ev-mk4-ciptaker-91
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Majelis Kehormatan MK yang dibentuk pada periode ini berhasil memvonis ketuanya sendiri melanggar etik berat dan mencopotnya dari jabatan ketua - mekanisme koreksi internal terbukti dapat bekerja.
+      synthesis_id: Skor Sangat Buruk (-2) karena ketua pengadilan konstitusi memutus perkara yang menguntungkan kerabatnya sendiri, konflik kepentingan paling telanjang dalam sejarah peradilan Indonesia.
     - dimension_id: checks-balances
       score: 2
       confidence: 0.85
@@ -3715,6 +3792,8 @@
         - ev-mk4-usia-capres
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Putusan Cipta Kerja menegakkan prosedur legislasi, tetapi MK tidak menindaklanjuti ketika perintahnya dipatahkan lewat Perppu, sehingga kewenangan mengoreksi berhenti pada pernyataan tanpa penegakan.
+      synthesis_id: Skor Sangat Baik (+2) karena untuk pertama kalinya sebuah undang-undang dinyatakan cacat karena cara pembentukannya, menempatkan proses legislasi itu sendiri di bawah kontrol konstitusional.
     - dimension_id: kedaulatan-rakyat
       score: -2
       confidence: 0.85
@@ -3733,10 +3812,12 @@
         - ev-mk-putusan-usia-nikah-2018
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Sistem proporsional terbuka dipertahankan lewat Putusan No. 114/PUU-XX/2022 sehingga pemilih tetap menentukan orang dan bukan hanya partai, menjaga satu pilar kedaulatan rakyat tetap berdiri.
+      synthesis_id: Skor Sangat Buruk (-2) karena kombinasi putusan batas usia dan konflik kepentingan ketua majelis membuka pintu pewarisan kekuasaan, membalik fungsi penjaga konstitusi menjadi pemberi jalan bagi dinasti.
     - dimension_id: sila-3
       score: 1
       confidence: 0.75
-      rationale_id: Meneguhkan kebinekaan dan hak masyarakat adat melalui putusan pengujian UU, termasuk pengakuan hutan adat (Putusan MK 35/PUU-X/2012) dan status penghayat kepercayaan.
+      rationale_id: Melindungi debitur dari penarikan paksa kendaraan oleh penagih utang lewat Putusan MK No. 18/PUU-XVII/2019 yang mewajibkan kesepakatan cidera janji atau putusan pengadilan sebelum eksekusi jaminan fidusia.
       evidence:
         - source_id: putusan-mk-91-2021
         - source_id: putusan-mk-90-2023
@@ -3747,20 +3828,24 @@
       event_ids:
         - ev-mk-putusan-fidusia-2019
         - ev-mk4-etik-anwar-usman
+      antithesis_id: "Perlindungan ditetapkan lewat putusan tetapi tidak diikuti penegakan di lapangan: praktik penarikan paksa berlanjut karena tidak ada mekanisme sanksi yang dijalankan aparat terhadap perusahaan pembiayaan yang melanggarnya."
+      synthesis_id: Skor Baik (+1) karena jutaan debitur kecil dilindungi dari kekerasan penagihan di luar proses hukum, menegakkan kesetaraan kedudukan warga di hadapan korporasi pembiayaan.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Menafsirkan doktrin penguasaan negara Pasal 33 UUD 1945 untuk sebesar-besar kemakmuran rakyat pada pengujian UU Ketenagalistrikan, UU Migas, dan UU SDA.
+      rationale_id: Menyatakan UU Cipta Kerja inkonstitusional bersyarat lewat Putusan MK No. 91/PUU-XVIII/2020 karena disusun tanpa partisipasi bermakna, memerintahkan perbaikan dalam dua tahun demi melindungi hak pekerja dan masyarakat terdampak.
       evidence:
         - source_id: putusan-mk-18-puu-xvii-2019
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-mk-putusan-batas-usia-capres-2023
+      antithesis_id: Putusan itu menyatakan cacat pembentukannya tetapi tetap memberlakukan undang-undangnya selama masa perbaikan, dan perintah perbaikan kemudian dipatahkan pemerintah lewat Perppu Cipta Kerja tanpa konsekuensi apa pun dari MK.
+      synthesis_id: Skor Baik (+1) karena partisipasi bermakna ditegakkan sebagai syarat konstitusional pembentukan undang-undang, doktrin yang sejak itu menjadi dasar pengujian formil seluruh legislasi.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
-      rationale_id: Menguji UU Terorisme, UU Intelijen Negara, dan hukum acara pidana untuk memastikan perlindungan keamanan warga negara selaras dengan hak konstitusional.
+      rationale_id: Menata desain keserentakan pemilu lewat Putusan MK No. 55/PUU-XVII/2019 dengan menetapkan enam model yang konstitusional, memberi kepastian bagi penyelenggaraan pemilu yang tertib dan aman bagi warga.
       normative_anchors:
         - uud-nri-1945
       evidence_gap: true
@@ -3770,10 +3855,12 @@
       event_ids:
         - ev-mk-putusan-fidusia-2019
         - ev-mk4-ciptaker-91
+      antithesis_id: Enam pilihan model diserahkan kepada pembentuk undang-undang tanpa preferensi konstitusional yang mengikat, sehingga putusan itu memberi keleluasaan politik alih-alih kepastian dan persoalan beban penyelenggaraan serentak tidak terselesaikan.
+      synthesis_id: Skor Baik (+1) karena batas konstitusional desain keserentakan pemilu ditetapkan sehingga perubahan sistem tidak lagi dapat dilakukan sesuka pembentuk undang-undang.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.8
-      rationale_id: Membatalkan komersialisasi sumber daya air privat (Putusan MK 85/PUU-XI/2013) dan menguji norma perburuhan UU Cipta Kerja guna melindungi kesejahteraan umum.
+      rationale_id: Membatalkan perpanjangan masa jabatan pimpinan KPK yang berlaku surut lewat Putusan MK No. 112/PUU-XX/2022 dan menegaskan penguatan lembaga antikorupsi sebagai bagian dari perlindungan keuangan negara.
       evidence:
         - source_id: putusan-mk-91-2021
         - source_id: putusan-mk-90-2023
@@ -3784,10 +3871,12 @@
       event_ids:
         - ev-mk4-etik-anwar-usman
         - ev-mk4-usia-capres
+      antithesis_id: Putusan yang memperpanjang masa jabatan pimpinan KPK yang sedang menjabat justru dinilai banyak pihak menguntungkan individu tertentu dan diputus tanpa permohonan dari pihak yang dirugikan langsung.
+      synthesis_id: Skor Baik (+1) karena kepastian masa jabatan pimpinan lembaga antikorupsi ditegaskan setara dengan lembaga negara independen lain, menutup perlakuan diskriminatif dalam undang-undang.
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
-      rationale_id: Mengawal mandat konstitusi alokasi 20% APBN untuk anggaran pendidikan murni dan membatalkan privatisasi pendidikan melalui Putusan UU BHP.
+      rationale_id: Menolak kriminalisasi berlebihan atas delik kesusilaan lewat Putusan MK No. 46/PUU-XIV/2016 dan putusan lanjutannya, menjaga ruang pendidikan dan penelitian dari perluasan pemidanaan yang dituntut sebagian kelompok.
       evidence:
         - source_id: uu-16-2019
       normative_anchors:
@@ -3795,10 +3884,12 @@
       event_ids:
         - ev-mk-putusan-perpanjangan-kpk-2022
         - ev-mk4-etik-anwar-usman
+      antithesis_id: Penolakan perluasan delik kesusilaan mempertahankan batas pemidanaan yang ada, tetapi ruang itu kemudian dipersempit kembali lewat KUHP Nasional yang disahkan pada periode yang sama tanpa dibatalkan MK.
+      synthesis_id: Skor Sangat Baik (+2) karena MK menolak memperluas pemidanaan atas wilayah privat yang dituntut lewat pengujian, menjaga hukum pidana tidak dipakai menyeragamkan moral dalam ruang belajar.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
-      rationale_id: Menegaskan kedudukan hukum traktat dan perjanjian internasional dalam hierarki hukum nasional sesuai amanat alinea IV Pembukaan UUD 1945.
+      rationale_id: Menempatkan partisipasi bermakna dan asas keterbukaan sebagai syarat konstitusional pembentukan undang-undang lewat Putusan MK No. 91/PUU-XVIII/2020, menyelaraskan praktik legislasi Indonesia dengan standar tata kelola yang diakui internasional.
       evidence:
         - source_id: putusan-mk-91-2021
         - source_id: putusan-mk-90-2023
@@ -3809,6 +3900,8 @@
       event_ids:
         - ev-mk-putusan-batas-usia-capres-2023
         - ev-mk-putusan-fidusia-2019
+      antithesis_id: Doktrin partisipasi bermakna dirumuskan tanpa tolok ukur yang terukur, sehingga pembentuk undang-undang dapat memenuhinya secara formalitas lewat rangkaian sosialisasi tanpa mengubah substansi rancangan.
+      synthesis_id: Skor Baik (+1) karena keterbukaan dan partisipasi dalam pembentukan undang-undang diangkat menjadi syarat konstitusional yang dapat diuji, bukan lagi sekadar anjuran prosedural.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -3852,6 +3945,8 @@
       event_ids:
         - ev-mk-putusan-threshold-2024
         - ev-mk5-ambang-batas
+      antithesis_id: Penataan ambang batas parlemen memperbaiki keadilan representasi tetapi berlaku baru pada pemilu berikutnya, sehingga jutaan suara yang terbuang pada Pemilu 2024 tidak dipulihkan oleh putusan itu.
+      synthesis_id: Skor Baik (+1) karena ambang batas yang membuang suara pemilih tanpa dasar perhitungan yang rasional dinyatakan harus ditata ulang, menegakkan prinsip setiap suara berarti.
     - dimension_id: sila-2
       score: 1
       confidence: 0.85
@@ -3863,6 +3958,8 @@
       event_ids:
         - ev-mk-putusan-ciptaker-naker-168-2024
         - ev-mk-putusan-ambang-batas-pilkada-2024
+      antithesis_id: Penegasan sanksi pidana atas ketidaknetralan aparat menutup celah impunitas dalam pilkada, tetapi MK pada periode yang sama tidak menyentuh persoalan kekerasan aparat terhadap warga yang menjadi keprihatinan Komnas HAM.
+      synthesis_id: Skor Baik (+1) karena netralitas TNI, Polri, dan pejabat daerah ditegaskan sebagai kewajiban yang berkonsekuensi pidana, melindungi warga dari mobilisasi kekuasaan negara dalam pemilihan.
     - dimension_id: sila-4
       score: 1
       confidence: 0.85
@@ -3878,6 +3975,8 @@
       event_ids:
         - ev-mk-putusan-threshold-2024
         - ev-mk5-lantikan-adies-kadir
+      antithesis_id: Penurunan ambang batas pencalonan pilkada membuka kompetisi, tetapi diputus setelah MK sendiri pada periode sebelumnya mengeluarkan putusan yang membuka jalan dinasti - koreksi datang dari majelis yang kredibilitasnya sudah tergerus.
+      synthesis_id: Skor Baik (+1) karena kartel politik yang mengunci pencalonan kepala daerah dipatahkan sehingga partai kecil dan gabungan minoritas dapat mengajukan calon.
     - dimension_id: negara-hukum
       score: -1
       confidence: 0.85
@@ -3901,8 +4000,8 @@
       normative_anchors:
         - uud-nri-1945
       thesis_id: MK memutus Perkara No. 90/PUU-XXI/2023 dengan dalil membuka ruang bagi generasi muda yang berpengalaman sebagai kepala daerah untuk mencalonkan diri dalam pemilu presiden.
-      antithesis_id: Putusan tersebut memicu skandal etika terbesar dalam sejarah peradilan Indonesia karena dipimpin oleh Anwar Usman (paman kandidat). Majelis Kehormatan MK (MKMK) menjatuhkan sanksi pemberhentian dari jabatan Ketua MK karena pelanggaran etik berat dan konflik kepentingan.
-      synthesis_id: Skor inkonstitusional (-1) karena rekayasa putusan demi memfasilitasi dinasti keluarga presiden meruntuhkan muruah dan legitimasi peradilan konstitusi.
+      antithesis_id: Majelis pada periode ini mengoreksi arah lewat Putusan 60 dan 70/PUU-XXII/2024 yang mematahkan upaya penguncian pencalonan, dan bertahan menghadapi upaya DPR menerobosnya.
+      synthesis_id: Skor Buruk (-1) karena beban Putusan No. 90/PUU-XXI/2023 dan vonis MKMK atas ketuanya belum dipulihkan, sehingga otoritas MK sebagai penjaga konstitusi tetap berdiri di atas legitimasi yang cacat.
       expert_quotes:
         - quote: Hakim Terlapor terbukti melakukan pelanggaran berat terhadap Kode Etik dan Perilaku Hakim Konstitusi... dengan sengaja membuka ruang intervensi pihak luar dalam pengambilan putusan.
           author: Majelis Kehormatan Mahkamah Konstitusi (MKMK)
@@ -3931,8 +4030,8 @@
       normative_anchors:
         - uud-nri-1945
       thesis_id: Putusan sengketa hasil pemilihan presiden (PHPU) 2024 diklaim telah memeriksa seluruh dalil pemohon secara objektif dan menolak tuduhan kecurangan terstruktur, sistematis, dan masif (TSM).
-      antithesis_id: Tiga hakim konstitusi (Saldi Isra, Enny Nurbaningsih, dan Arief Hidayat) mengajukan dissenting opinion menyoroti politisasi bantuan sosial (bansos) menjelang pemilu dan pengerahan aparatur negara yang mencederai asas pemilu jujur dan adil.
-      synthesis_id: Skor regresi (-1) karena peradilan gagal memutus rantai impunitas politisasi sumber daya negara dalam kontestasi elektoral.
+      antithesis_id: MK menegakkan putusan 60 dan 70/PUU-XXII/2024 di hadapan upaya DPR merevisi undang-undang secara kilat untuk menerobosnya, mempertahankan posisinya sebagai pengoreksi pembentuk undang-undang.
+      synthesis_id: Skor Buruk (-1) karena mayoritas hakim gagal menangani politisasi bantuan sosial dalam sengketa Pilpres 2024 dan tiga hakim harus menyatakan pendapat berbeda, memperlihatkan pengadilan terbelah menghadapi kekuasaan.
       expert_quotes:
         - quote: Penyaluran bantuan sosial dalam jumlah masif menjelang hari pemungutan suara tanpa mekanisme pengawasan independen telah mempengaruhi netralitas pemilih dan merusak prinsip keadilan elektoral.
           author: Prof. Dr. Achmad Ruslan, S.H., M.H.
@@ -3960,10 +4059,12 @@
         - ev-mk-putusan-70-usia-pilkada
       normative_anchors:
         - uud-nri-1945
+      antithesis_id: Putusan 60 dan 70/PUU-XXII/2024 memperluas pilihan yang tersedia bagi pemilih daerah, dan penyelesaian sengketa pilkada di ratusan daerah berjalan tertib sesuai tenggat konstitusional.
+      synthesis_id: Skor Buruk (-1) karena pengisian jabatan hakim konstitusi lewat proses yang dipolitisasi menggerus kepercayaan publik pada lembaga yang menjadi muara sengketa kedaulatan rakyat.
     - dimension_id: sila-3
       score: 1
       confidence: 0.75
-      rationale_id: Meneguhkan kebinekaan dan hak masyarakat adat melalui putusan pengujian UU, termasuk pengakuan hutan adat (Putusan MK 35/PUU-X/2012) dan status penghayat kepercayaan.
+      rationale_id: Membatalkan Pasal 240 dan 241 KUHP tentang penghinaan terhadap pemerintah pada 2026, menjaga ruang kritik warga di seluruh daerah dari pemidanaan yang menyeragamkan pendapat.
       evidence:
         - source_id: berita-adies-kadir-mk-2026
         - source_id: putusan-mk-60-puu-xxii-2024
@@ -3973,10 +4074,12 @@
       event_ids:
         - ev-mk-putusan-netralitas-pilkada-2024
         - ev-mk-batal-pasal-penghinaan-pemerintah-2026
+      antithesis_id: Pembatalan dua pasal itu menutup satu kanal pemidanaan kritik, tetapi delik penghinaan lain dalam KUHP Nasional dan UU ITE tetap berlaku sehingga ruang aman berpendapat belum sepenuhnya pulih.
+      synthesis_id: Skor Baik (+1) karena pasal yang memidanakan kritik terhadap pemerintah dalam kodifikasi pidana baru dinyatakan inkonstitusional, mempertahankan kebinekaan pendapat sebagai hak warga.
     - dimension_id: sila-5
       score: 1
       confidence: 0.8
-      rationale_id: Menafsirkan doktrin penguasaan negara Pasal 33 UUD 1945 untuk sebesar-besar kemakmuran rakyat pada pengujian UU Ketenagalistrikan, UU Migas, dan UU SDA.
+      rationale_id: Menguji klaster ketenagakerjaan UU Cipta Kerja lewat Putusan MK No. 168/PUU-XXI/2023 dan memerintahkan pembentukan undang-undang ketenagakerjaan tersendiri demi memulihkan perlindungan upah dan kepastian kerja.
       evidence:
         - source_id: putusan-mk-168-puu-xxi-2023
       normative_anchors:
@@ -3984,10 +4087,12 @@
       event_ids:
         - ev-mk-putusan-ambang-batas-pilkada-2024
         - ev-mk-putusan-netralitas-pilkada-2024
+      antithesis_id: Putusan memerintahkan pembentukan undang-undang baru dalam dua tahun tanpa konsekuensi bila tenggat dilewati, mengulang pola perintah konstitusional yang bergantung pada kepatuhan sukarela pembentuk undang-undang.
+      synthesis_id: Skor Baik (+1) karena norma ketenagakerjaan yang diselipkan dalam omnibus dikoreksi dan hak pekerja atas kepastian kerja serta upah layak ditegaskan sebagai hak konstitusional.
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
-      rationale_id: Menguji UU Terorisme, UU Intelijen Negara, dan hukum acara pidana untuk memastikan perlindungan keamanan warga negara selaras dengan hak konstitusional.
+      rationale_id: Menegaskan sanksi pidana atas ketidaknetralan TNI, Polri, dan pejabat daerah dalam pilkada lewat Putusan MK No. 136/PUU-XXII/2024, melindungi warga dari penggunaan aparat negara sebagai alat pemenangan.
       evidence:
         - source_id: berita-adies-kadir-mk-2026
       normative_anchors:
@@ -3995,10 +4100,12 @@
       event_ids:
         - ev-mk5-ambang-batas
         - ev-mk5-lantikan-adies-kadir
+      antithesis_id: Penegasan sanksi pidana berlaku bagi pelanggaran dalam pilkada tetapi tidak menjangkau mobilisasi sumber daya negara di luar masa kampanye, sehingga bentuk keberpihakan yang paling berpengaruh justru berada di luar jangkauannya.
+      synthesis_id: Skor Baik (+1) karena netralitas aparat keamanan dan birokrasi ditegaskan sebagai kewajiban hukum berkonsekuensi pidana, melindungi warga dari negara yang berpihak.
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.8
-      rationale_id: Membatalkan komersialisasi sumber daya air privat (Putusan MK 85/PUU-XI/2013) dan menguji norma perburuhan UU Cipta Kerja guna melindungi kesejahteraan umum.
+      rationale_id: Menurunkan ambang batas pencalonan kepala daerah lewat Putusan MK No. 60/PUU-XXII/2024 dan menegaskan syarat usia calon lewat Putusan No. 70/PUU-XXII/2024, menjaga pemerintahan daerah yang kompetitif sebagai prasyarat kebijakan kesejahteraan yang responsif.
       evidence:
         - source_id: berita-adies-kadir-mk-2026
         - source_id: putusan-mk-60-puu-xxii-2024
@@ -4008,10 +4115,12 @@
       event_ids:
         - ev-mkmk-putusan-etik-ketua-mk-2023
         - ev-mk-putusan-ambang-batas-pilkada-2024
+      antithesis_id: Dua putusan itu segera dihadapi upaya DPR merevisi UU Pilkada secara kilat untuk menerobosnya, memperlihatkan putusan MK tidak lagi otomatis dipatuhi dan penegakannya bergantung pada tekanan publik.
+      synthesis_id: Skor Baik (+1) karena monopoli koalisi besar atas pencalonan kepala daerah dipatahkan, membuka kompetisi yang menjadi syarat pemerintahan daerah bertanggung jawab kepada warganya.
     - dimension_id: tujuan-3
       score: 2
       confidence: 0.85
-      rationale_id: Mengawal mandat konstitusi alokasi 20% APBN untuk anggaran pendidikan murni dan membatalkan privatisasi pendidikan melalui Putusan UU BHP.
+      rationale_id: Menyelesaikan sengketa hasil Pilkada Serentak 2024 di 545 daerah sepanjang 2025, menjaga kepastian hasil pemilihan sebagai syarat berjalannya pemerintahan daerah yang mengurus layanan pendidikan warganya.
       evidence:
         - source_id: berita-adies-kadir-mk-2026
       normative_anchors:
@@ -4019,10 +4128,12 @@
       event_ids:
         - ev-mk-phpu-pilkada-serentak-2025
         - ev-mk-putusan-70-usia-pilkada
+      antithesis_id: Penyelesaian sengketa berskala besar dituntaskan tepat waktu, tetapi kaitannya dengan pencerdasan kehidupan bangsa bersifat tidak langsung dan MK pada periode ini belum menguji satu pun norma di bidang pendidikan.
+      synthesis_id: Skor Sangat Baik (+2) karena sengketa hasil pilkada di ratusan daerah diselesaikan secara tertib dalam tenggat konstitusional, mencegah kekosongan pemerintahan daerah yang menyelenggarakan layanan dasar.
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.7
-      rationale_id: Menegaskan kedudukan hukum traktat dan perjanjian internasional dalam hierarki hukum nasional sesuai amanat alinea IV Pembukaan UUD 1945.
+      rationale_id: Menghapus ambang batas parlemen empat persen lewat Putusan MK No. 116/PUU-XXI/2023 dan memerintahkan penataannya sebelum Pemilu 2029, menegakkan standar keterwakilan yang sejalan dengan prinsip demokrasi yang dianut komunitas internasional.
       evidence:
         - source_id: berita-adies-kadir-mk-2026
       normative_anchors:
@@ -4030,6 +4141,8 @@
       event_ids:
         - ev-mk-putusan-ambang-batas-pilkada-2024
         - ev-mk-putusan-netralitas-pilkada-2024
+      antithesis_id: Perintah penataan diberikan tanpa menetapkan tolok ukur ambang yang konstitusional, sehingga pembentuk undang-undang tetap leluasa menetapkan angka yang secara praktis mempertahankan hambatan bagi partai kecil.
+      synthesis_id: Skor Baik (+1) karena ambang batas yang membuang jutaan suara tanpa dasar perhitungan rasional dinyatakan harus ditata ulang, menyelaraskan sistem pemilu dengan prinsip keterwakilan.
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
