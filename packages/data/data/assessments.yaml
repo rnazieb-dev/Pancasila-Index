@@ -1158,8 +1158,6 @@
         - source_id: laporan-tgipf-kanjuruhan-2022
         - source_id: inpres-2-2023
         - source_id: inpres-2-2023-non-yudisial-ham
-        - source_id: laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo
-        - source_id: laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst
       event_ids:
         - ev-amnesti-presiden-saiful-mahdi-2021
         - ev-pengakuan-pelanggaran-ham-berat-2023
@@ -1303,8 +1301,6 @@
         - ev-jokowi2-fpi-dibubarkan
         - ev-jokowi2-juliari-bansos
         - ev-rescue-dakwaan-kejagung-timah-2024
-        - ev-rescue-hasil-sidang-tahunan-mpr-tahun-2024-putusan-dan-ketetapan
-        - ev-investigasi-komnas-ham-penyiksaan-dan-hak-hidup-2024
         - ev-jokowi2-kanjuruhan
         - ev-vonis-korupsi-bansos-covid-juliari-2021
         - ev-jokowi2-revisi-uumk
@@ -6150,7 +6146,6 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-ruu-daerah-kepulauan-2020
-        - ev-harmonisasi-legislasi-otonomi-daerah-dpd-2024
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -6162,7 +6157,6 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pengawasan-perbatasan-3t-2021
-        - ev-harmonisasi-legislasi-otonomi-daerah-dpd-2024
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
@@ -6187,7 +6181,6 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-revisi-uu-desa-2024
-        - ev-harmonisasi-perda-dan-pergub-dki-jakarta-2023-2024
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.75
@@ -6211,7 +6204,6 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-gugatan-pt-0-2022
-        - ev-harmonisasi-legislasi-otonomi-daerah-dpd-2024
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.75
@@ -6224,7 +6216,6 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pengawasan-desa
-        - ev-harmonisasi-perda-dan-pergub-dki-jakarta-2023-2024
     - dimension_id: checks-balances
       score: 1
       confidence: 0.75
@@ -6232,14 +6223,9 @@
       evidence:
         - source_id: putusan-mk-52-puu-xx-2022
         - source_id: dokumen-dpd-proposal-uud-2023
-        - source_id: regional-jawa-tengah-0023
-        - source_id: regional-jawa-tengah-0030
-        - source_id: regional-jawa-tengah-0040
-        - source_id: peraturan-daerah-provinsi-dki-jakarta-nomor-1-tahun-2024-ten-730
       normative_anchors:
         - uud-nri-1945
       event_ids:
-        - ev-harmonisasi-perda-dan-pergub-dki-jakarta-2023-2024
         - ev-dpd-inisiatif-kepulauan
     - dimension_id: kedaulatan-rakyat
       score: 1
@@ -6253,7 +6239,6 @@
         - uud-nri-1945
       event_ids:
         - ev-dpd-pengawasan-desa
-        - ev-harmonisasi-legislasi-otonomi-daerah-dpd-2024
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -6877,8 +6862,6 @@
         - source_id: lhp-bpk-otsus-papua-2021
         - source_id: ihps-ii-bpk-2024
         - source_id: ihps-i-bpk-2025
-        - source_id: ikhtisar-hasil-pemeriksaan-semester-1-tahun-2022-badan-p
-        - source_id: ikhtisar-hasil-pemeriksaan-semester-2-tahun-2024-badan-p
         - source_id: buku-artidjo-alkostar-korupsi-politik-2008
           note_id: "Sitasi langsung pakar: Dr. Artidjo Alkostar, S.H., LL.M."
       normative_anchors:
@@ -6991,16 +6974,13 @@
         - source_id: laporan-audit-bpk-jiwasraya-2020
         - source_id: laporan-audit-bpk-covid-2021
         - source_id: lhp-bpk-asabri-2021
-        - source_id: laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenkeu-tah
         - source_id: lhp-bpk-jiwasraya-2020
       normative_anchors:
         - uud-nri-1945
       event_ids:
         - ev-bpk-audit-garuda-2020
         - ev-bpk-audit-pen-covid
-        - ev-audit-semester-bpk-ihps-2022-2024
         - ev-bpk-ihps-2022
-        - ev-audit-bpk-laporan-keuangan-kementerian-2023-2024
         - ev-bpk-ihps-bansos-covid-2021
     - dimension_id: tujuan-3
       score: 1
@@ -7027,7 +7007,6 @@
         - uud-nri-1945
       event_ids:
         - ev-bpk-vonis-achsanul-2024
-        - ev-audit-semester-bpk-ihps-2022-2024
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.8
@@ -7055,7 +7034,6 @@
         - uud-nri-1945
       event_ids:
         - ev-bpk-ihps-i-2025
-        - ev-audit-bpk-laporan-keuangan-kementerian-2023-2024
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high

@@ -3051,20 +3051,6 @@
   dimension_ids:
     - sila-5
     - tujuan-2
-- id: ev-harmonisasi-legislasi-otonomi-daerah-dpd-2024
-  term_id: dpd-2019-2024
-  date: 2024-03-20
-  category: kebijakan
-  title_id: Pengawasan dan Harmonisasi Peraturan Daerah (Perda) oleh DPD RI Bersama Pemerintah Provinsi
-  summary_id: Komite I DPD RI melaksanakan uji kepatuhan dan pengawasan harmonisasi ratusan peraturan daerah dan peraturan gubernur di pulau Jawa dan luar Jawa guna memastikan peraturan daerah selaras dengan norma hak asasi dan kemudahan usaha.
-  source_ids:
-    - regional-jawa-tengah-0023
-    - regional-jawa-tengah-0030
-    - regional-jawa-tengah-0040
-  dimension_ids:
-    - checks-balances
-    - kedaulatan-rakyat
-    - negara-hukum
 - id: ev-mandat-darurat-kawat-pdri-1948
   term_id: presiden-soekarno-i
   date: 1948-12-19
@@ -3136,66 +3122,6 @@
   dimension_ids:
     - sila-2
     - negara-hukum
-- id: ev-audit-semester-bpk-ihps-2022-2024
-  term_id: bpk-2019-sekarang
-  date: 2024-06-04
-  category: kebijakan
-  title_id: Publikasi Ikhtisar Hasil Pemeriksaan Semester (IHPS) BPK RI Periode 2022–2024 Menemukan Ribuan Masalah Ketidakpatuhan APBN
-  summary_id: BPK RI menyampaikan IHPS I dan II tahun 2022, 2023, dan 2024 kepada DPR dan DPD RI, memuat rekomendasi penertiban belanja barang, efisiensi transfer ke daerah, dan pemulihan kerugian keuangan negara senilai puluhan triliun rupiah.
-  source_ids:
-    - ikhtisar-hasil-pemeriksaan-semester-1-tahun-2022-badan-p
-    - ikhtisar-hasil-pemeriksaan-semester-2-tahun-2022-badan-p
-    - ikhtisar-hasil-pemeriksaan-semester-1-tahun-2023-badan-p
-    - ikhtisar-hasil-pemeriksaan-semester-2-tahun-2023-badan-p
-    - ikhtisar-hasil-pemeriksaan-semester-2-tahun-2024-badan-p
-  dimension_ids:
-    - checks-balances
-    - tujuan-2
-    - sila-4
-- id: ev-audit-bpk-laporan-keuangan-kementerian-2023-2024
-  term_id: bpk-2019-sekarang
-  date: 2024-07-15
-  category: kebijakan
-  title_id: Pemeriksaan atas Laporan Keuangan Kementerian Negara (Kemenkeu, Kemendikbud, Kemenkes, Kementan, Kemenhub)
-  summary_id: BPK RI menyelesaikan audit tahunan atas kepatuhan anggaran kementerian-kementerian strategis, memberikan opini WTP dengan sejumlah catatan perbaikan sistem pengendalian intern (SPI) dan belanja program prioritas nasional.
-  source_ids:
-    - laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenkeu-tah
-    - laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemendikbud
-    - laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemekes-tahu
-    - laporan-hasil-pemeriksaan-atas-laporan-keuangan-kementan-tah
-    - laporan-hasil-pemeriksaan-atas-laporan-keuangan-kemenhub-tah
-  dimension_ids:
-    - checks-balances
-    - tujuan-2
-- id: ev-investigasi-komnas-ham-penyiksaan-dan-hak-hidup-2024
-  term_id: presiden-jokowi-ii
-  date: 2024-08-30
-  category: krisis
-  title_id: Laporan Investigasi Komnas HAM RI atas Dugaan Penyiksaan, Pembunuhan Ekstrajudisial, dan Pemenuhan HAM (2024)
-  summary_id: Komnas HAM menerbitkan rangkaian laporan investigasi pemantauan independen mengenai dugaan praktik penyiksaan dalam tahanan aparat penegak hukum, pembunuhan di luar putusan pengadilan, dan hambatan pemenuhan hak-hak asasi kelompok rentan.
-  source_ids:
-    - laporan-investigasi-komnas-ham-ri-kategori-penyiksaan-nomo
-    - laporan-investigasi-komnas-ham-ri-kategori-pembunuhan-ekst
-    - laporan-investigasi-komnas-ham-ri-kategori-penghilangan-or
-    - laporan-investigasi-komnas-ham-ri-kategori-pelanggaran-hak
-    - laporan-investigasi-komnas-ham-ri-kategori-diskriminasi-no
-    - laporan-monitoring-komnas-ham-ri-terhadap-pemenuhan-hak-asas
-  dimension_ids:
-    - sila-2
-    - negara-hukum
-- id: ev-harmonisasi-perda-dan-pergub-dki-jakarta-2023-2024
-  term_id: dpd-2019-2024
-  date: 2024-04-18
-  category: produk-hukum
-  title_id: Penetapan dan Harmonisasi Peraturan Daerah dan Peraturan Gubernur DKI Jakarta Terkait Tata Kelola Anggaran & Pelayanan Publik
-  summary_id: Pemerintah Provinsi bersama DPRD DKI Jakarta menetapkan paket regulasi daerah tahun 2023-2024 mengenai pengelolaan anggaran, retribusi daerah, dan standar mutu pelayanan publik ibu kota yang diawasi DPD RI dan Kemendagri.
-  source_ids:
-    - peraturan-daerah-provinsi-dki-jakarta-nomor-1-tahun-2024-ten-730
-    - peraturan-gubernur-provinsi-dki-jakarta-nomor-13-tahun-2024
-    - peraturan-gubernur-provinsi-dki-jakarta-nomor-150-tahun-2023
-  dimension_ids:
-    - checks-balances
-    - kedaulatan-rakyat
 - id: ev-anri-sidang-ppki-18-22-agustus-1945
   term_id: dpr-knip-1945-1950
   date: 1945-08-18
@@ -3414,12 +3340,4 @@
   summary_id: 50 tokoh nasional, termasuk purnawirawan dan tokoh politik, menandatangani petisi yang mengkritik Presiden Soeharto atas penggunaan Pancasila sebagai alat penekan politik. Ini adalah manifestasi oposisi sipil terbesar pada era Orde Baru.
   source_ids:
     - anri-petisi-50-pernyataan-1980
-  category: peristiwa
-- id: ev-rescue-hasil-sidang-tahunan-mpr-tahun-2024-putusan-dan-ketetapan
-  term_id: presiden-jokowi-ii
-  date: 2024-01-01
-  title_id: Sidang Tahunan MPR RI Tahun 2024 dan Ketetapan yang Dihasilkan
-  summary_id: Lembaga peradilan membacakan putusan/dakwaan resmi terkait Hasil Sidang Tahunan MPR Tahun 2024 - Putusan dan Ketetapan. Putusan yurisprudensial ini menegaskan tafsir konstitusional dan memiliki dampak mengikat bagi penegakan hukum di Indonesia.
-  source_ids:
-    - hasil-sidang-tahunan-mpr-tahun-2024-putusan-dan-ketetapan
   category: peristiwa

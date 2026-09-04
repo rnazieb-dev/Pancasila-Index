@@ -93,6 +93,29 @@ describe("integritas anti-halusinasi dataset", () => {
     expect([...hitung].filter(([, ids]) => ids.length > 1).map(([t]) => t.slice(0, 60))).toEqual([]);
   });
 
+  it("klaim provenance sumber dapat ditagih (archive_ok & source_verified)", () => {
+    const beranda = (url?: string) => {
+      if (!url) return false;
+      try {
+        const u = new URL(url);
+        return (u.pathname === "/" || u.pathname === "") && !u.search;
+      } catch {
+        return false;
+      }
+    };
+    const palsu = dataset.sources
+      .filter(
+        (s) =>
+          (s.archive_ok !== undefined && !s.r2_key) ||
+          s.verification_tier === undefined ||
+          (s.verification_tier === "official_source" &&
+            !s.r2_key &&
+            (!s.url || beranda(s.url)))
+      )
+      .map((s) => s.id);
+    expect(palsu).toEqual([]);
+  });
+
   it("klaim pengawasan manusia EU AI Act tidak boleh tanpa penelaah bernama", () => {
     const bohong = dataset.assessments
       .filter((a) => {

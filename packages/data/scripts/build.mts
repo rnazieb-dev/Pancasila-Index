@@ -574,6 +574,44 @@ for (const [kunci, ids] of sidikJari) {
   );
 }
 
+// (6b) Klaim provenance sumber harus dapat ditagih.
+//      `archive_ok` hanya bermakna bersama `r2_key`; dan beranda lembaga atau
+//      penerbit tidak membuktikan keberadaan dokumen yang disitasi.
+function hanyaBeranda(url: string | undefined): boolean {
+  if (!url) return false;
+  try {
+    const u = new URL(url);
+    return (u.pathname === "/" || u.pathname === "") && !u.search;
+  } catch {
+    return false;
+  }
+}
+for (const s of sourcesRaw) {
+  if (s.archive_ok !== undefined && !s.r2_key) {
+    errors.push(
+      `sumber ${s.id}: menyatakan archive_ok tanpa r2_key - medan itu hanya bermakna ` +
+        `bila ada salinan arsip R2`
+    );
+  }
+  if (
+    s.verification_tier === "official_source" &&
+    !s.r2_key &&
+    (!s.url || hanyaBeranda(s.url))
+  ) {
+    errors.push(
+      `sumber ${s.id}: verification_tier "official_source" tanpa salinan arsip dan ` +
+        `tanpa tautan dokumen (${s.url ?? "tanpa url"}) - beranda lembaga tidak ` +
+        `membuktikan dokumennya; pakai "unverified"`
+    );
+  }
+  if (s.verification_tier === undefined) {
+    errors.push(
+      `sumber ${s.id}: verification_tier wajib diisi - derajat verifikasi tidak ` +
+        `boleh dibiarkan tersirat`
+    );
+  }
+}
+
 // (7) Klaim pengawasan manusia EU AI Act Pasal 14 harus punya penelaah nyata.
 for (const a of assessments) {
   const ho = a.ai_disclosure?.human_oversight;
