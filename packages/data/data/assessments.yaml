@@ -7265,8 +7265,9 @@
       event_ids:
         - ev-bpk-penetapan-1947
         - ev-bpk-uu-5-1973
-      antithesis_id: BPK tetap berdiri dan memeriksa sepanjang periode, dan UU No. 5 Tahun 1973 memberinya dasar undang-undang tersendiri sehingga kelembagaannya bertahan melewati dua rezim yang sangat berbeda.
+      antithesis_id: Pemeriksaan berjalan subordinatif di bawah eksekutif dan temuannya tidak pernah menjadi dasar pertanggungjawaban politik, sehingga fungsi audit eksternal kehilangan seluruh daya koreksinya terhadap kekuasaan yang diperiksanya.
       synthesis_id: Skor Buruk (-1) karena audit eksternal berjalan subordinatif di bawah eksekutif dan temuannya tidak pernah menjadi dasar pertanggungjawaban politik, sehingga pengawasan anggaran kehilangan daya koreksinya.
+      thesis_id: "Dalil formal BPK: lembaga pemeriksa keuangan negara tetap berdiri dan menjalankan pemeriksaan tanpa terputus sepanjang periode, dan UU No. 5 Tahun 1973 memberinya dasar undang-undang tersendiri yang bertahan melewati dua rezim."
     - dimension_id: negara-hukum
       score: 0
       confidence: 0.45
@@ -7280,6 +7281,7 @@
         - ev-bpk-penetapan-1947
       antithesis_id: Penempatan BPK sebagai pembantu Pemimpin Besar Revolusi pada 1965 memperlihatkan kemandirian konstitusionalnya pernah dicabut sepenuhnya, sehingga kesinambungan yang dipertahankan bersifat kelembagaan alih-alih fungsional.
       synthesis_id: Skor Netral (0) karena dasar konstitusional pemeriksaan keuangan negara dipertahankan tanpa terputus sejak 1947, tepat sebanding dengan hilangnya daya dorong temuan audit terhadap penegakan hukum.
+      thesis_id: "Dalil formal BPK: dasar konstitusional pemeriksaan keuangan negara menurut Pasal 23 UUD 1945 dipertahankan tanpa terputus sejak berdirinya pada 1947."
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
@@ -7295,6 +7297,7 @@
         - ev-bpk-uu-5-1973
       antithesis_id: Pemeriksaan pada masa revolusi berjalan dengan sumber daya yang nyaris tidak ada dan jangkauan yang terbatas pada wilayah yang dikuasai republik, sehingga fungsinya lebih bersifat penegasan kelembagaan daripada pengawasan efektif.
       synthesis_id: Skor Baik (+1) karena republik mendirikan pemeriksa keuangan negara di tengah perang kemerdekaan, menegaskan amanah atas uang rakyat sejak hari-hari pertama berdirinya.
+      thesis_id: "Dalil formal BPK: republik mendirikan pemeriksa keuangan negara di tengah perang kemerdekaan dan menggelar sidang perdana di Magelang pada 1 Januari 1947 di bawah Ketua R. Soerasno."
     - dimension_id: sila-2
       score: 0
       confidence: 0.75
@@ -7310,6 +7313,7 @@
         - ev-pembentukan-bpk-magelang-1946
       antithesis_id: Pemeriksaan atas rencana pembangunan dilakukan tanpa kewenangan menindaklanjuti temuan, dan pada periode yang sama negara menjalankan Petrus serta operasi militer yang biayanya tidak pernah masuk objek pemeriksaan mana pun.
       synthesis_id: Skor Netral (0) karena pemeriksaan rencana pembangunan dijalankan tanpa kewenangan menindaklanjuti temuan, sementara biaya operasi keamanan sama sekali tidak menjadi objek pemeriksaan.
+      thesis_id: "Dalil formal BPK: pemeriksaan atas pelaksanaan rencana pembangunan negara dijalankan sejak 1957 sebagai pengawasan atas belanja yang menyangkut hajat hidup rakyat."
     - dimension_id: sila-3
       score: 0
       confidence: 0.75
@@ -7325,6 +7329,7 @@
         - ev-bpk-penetapan-1947
       antithesis_id: Pemeriksaan proyek strategis berlangsung ketika alokasi pembangunan sangat terpusat di Jawa dan konsesi sumber daya alam di luar Jawa diberikan kepada kroni penguasa, wilayah yang justru tidak tersentuh pemeriksaan.
       synthesis_id: Skor Netral (0) karena pemeriksaan proyek strategis berjalan sementara konsesi sumber daya alam di luar Jawa yang diberikan kepada kroni penguasa tidak tersentuh.
+      thesis_id: "Dalil formal BPK: keuangan BUMN dan proyek strategis nasional yang tersebar di berbagai daerah diperiksa pada 1993, menjaga sumber daya pembangunan sampai pada peruntukannya."
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -7340,6 +7345,7 @@
         - ev-bpk-uu-5-1973
       antithesis_id: Kewajiban menyampaikan hasil pemeriksaan kepada DPR berjalan formal, tetapi DPR pada periode itu tidak memiliki kemerdekaan menindaklanjutinya sehingga rantai pertanggungjawaban terputus di ujungnya.
       synthesis_id: Skor Baik (+1) karena kedudukan BPK dan kewajibannya melapor kepada lembaga perwakilan ditetapkan lewat undang-undang tersendiri, memberi dasar hukum yang bertahan melewati dua rezim.
+      thesis_id: "Dalil formal BPK: UU No. 5 Tahun 1973 menetapkan kedudukan BPK beserta kewajibannya menyampaikan hasil pemeriksaan kepada lembaga perwakilan rakyat."
     - dimension_id: sila-5
       score: 0
       confidence: 0.85
@@ -7353,6 +7359,7 @@
         - ev-pembentukan-bpk-magelang-1946
       antithesis_id: Pemeriksaan proyek Repelita berjalan sementara kebocoran anggaran pembangunan yang ditaksir berbagai kajian mencapai puluhan persen tidak pernah menjadi temuan yang berkonsekuensi, karena penerimanya berada di lingkaran kekuasaan.
       synthesis_id: Skor Netral (0) karena belanja Repelita diperiksa berkala tanpa satu pun temuan berkonsekuensi, sebab penerimanya berada di lingkaran kekuasaan.
+      thesis_id: "Dalil formal BPK: keuangan proyek Pembangunan Lima Tahun yang menjadi tulang punggung belanja kesejahteraan diperiksa secara berkala sejak 1979."
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.75
@@ -7366,6 +7373,7 @@
         - ev-bpk-uu-5-1973
       antithesis_id: Pencatatan pembiayaan pertahanan berjalan pada masa revolusi, tetapi sepanjang Orde Baru anggaran keamanan dan operasi militer di Aceh, Papua, serta Timor Timur berada di luar jangkauan pemeriksaan publik.
       synthesis_id: Skor Netral (0) karena pembiayaan pertahanan tercatat pada masa revolusi, tetapi sepanjang Orde Baru anggaran keamanan dan operasi militer berada di luar jangkauan pemeriksaan publik.
+      thesis_id: "Dalil formal BPK: pemeriksaan perbendaharaan darurat dijalankan pada masa perang gerilya, menjaga pembiayaan pertahanan republik tetap tercatat dan dapat dipertanggungjawabkan."
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.85
@@ -7380,6 +7388,7 @@
         - ev-pembentukan-bpk-magelang-1946
       antithesis_id: Gambaran efektivitas belanja yang dihasilkan tidak pernah dipublikasikan secara terbuka kepada rakyat yang uangnya dibelanjakan, sehingga akuntabilitasnya berhenti pada lingkaran birokrasi.
       synthesis_id: Skor Netral (0) karena efektivitas belanja pembangunan diperiksa berkala tanpa pernah dipublikasikan kepada rakyat yang uangnya dibelanjakan.
+      thesis_id: "Dalil formal BPK: pelaksanaan anggaran pembangunan nasional diperiksa sepanjang Repelita, memberi gambaran efektivitas belanja negara yang menopang penurunan kemiskinan."
     - dimension_id: tujuan-3
       score: 0
       confidence: 0.8
@@ -7395,6 +7404,7 @@
         - ev-bpk-penetapan-1947
       antithesis_id: Pemeriksaan menyasar kepatuhan administratif pembangunan fisik sekolah dan tidak menyentuh mutu pembelajaran yang dihasilkannya, sehingga temuan audit tidak berkorelasi dengan capaian pendidikan.
       synthesis_id: Skor Netral (0) karena belanja perluasan sekolah diperiksa dari sisi kepatuhan administratif tanpa menyentuh mutu yang dihasilkannya.
+      thesis_id: "Dalil formal BPK: belanja pembangunan sarana pendidikan pada program SD Inpres diperiksa, mengawasi penggunaan anggaran perluasan akses pendidikan dasar."
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.75
@@ -7410,6 +7420,7 @@
         - ev-pembentukan-bpk-magelang-1946
       antithesis_id: Kepercayaan mitra internasional dijaga lewat tertib pencatatan, tetapi pinjaman luar negeri yang membiayai pembangunan Orde Baru tetap menumpuk menjadi beban yang meledak pada krisis 1997 tanpa peringatan dini dari pemeriksa.
       synthesis_id: Skor Netral (0) karena tertib pencatatan menjaga kelayakan Indonesia menerima pinjaman, tetapi tumpukan utang yang meledak pada krisis 1997 berlangsung tanpa peringatan dini dari pemeriksa.
+      thesis_id: "Dalil formal BPK: kaidah pemeriksaan keuangan negara yang berlaku umum ditegakkan sejak berdirinya, prasyarat kepercayaan mitra internasional atas pengelolaan pinjaman dan bantuan luar negeri."
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.8
@@ -7425,6 +7436,7 @@
         - ev-bpk-uu-5-1973
       antithesis_id: Prinsip itu dipertahankan secara kelembagaan tetapi dikosongkan isinya ketika BPK pada 1965 ditempatkan sebagai pembantu Pemimpin Besar Revolusi, dan hasil pemeriksaannya tidak pernah dapat diakses rakyat yang diwakilinya.
       synthesis_id: Skor Netral (0) karena amanat konstitusional pemeriksaan dipertahankan secara kelembagaan, tetapi dikosongkan isinya ketika BPK ditempatkan sebagai pembantu Pemimpin Besar Revolusi dan hasilnya tak pernah dapat diakses rakyat.
+      thesis_id: "Dalil formal BPK: amanat konstitusional bahwa uang rakyat diperiksa lembaga di luar yang membelanjakannya dipertahankan sepanjang lima dasawarsa tanpa terputus."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -7476,6 +7488,7 @@
         - ev-bpk-paket-uu-keuangan
       antithesis_id: Independensi baru diperoleh setelah tiga dekade subordinasi, dan temuan BLBI senilai ratusan triliun rupiah yang dibongkar pada 2000 tidak berujung pemulihan kerugian negara maupun penuntutan terhadap obligor utamanya.
       synthesis_id: Skor Sangat Baik (+2) karena UU 15/2004 dan UU 15/2006 mengubah BPK menjadi pemeriksa independen satu pintu dengan kewenangan penuh, transformasi kelembagaan terbesar sejak 1947.
+      thesis_id: "Dalil formal BPK: UU No. 15 Tahun 2004 dan UU No. 15 Tahun 2006 mengubah BPK menjadi pemeriksa independen satu pintu dengan kewenangan penuh atas seluruh entitas pengelola keuangan negara."
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.85
@@ -7491,6 +7504,7 @@
         - ev-bpk-uu-15-2006
       antithesis_id: Penyerahan temuan kepada penegak hukum melembagakan jalur pidana atas kerugian negara, tetapi tindak lanjutnya sepenuhnya berada di luar kendali BPK sehingga sebagian besar temuan mengendap tanpa kepastian.
       synthesis_id: Skor Baik (+1) karena hasil pemeriksaan investigatif ditetapkan sebagai bukti yang diserahkan langsung kepada penegak hukum, menghubungkan audit keuangan dengan penegakan pidana.
+      thesis_id: "Dalil formal BPK: hasil pemeriksaan investigatif ditetapkan sebagai bukti yang diserahkan langsung kepada KPK, Kejaksaan, dan Kepolisian untuk ditindaklanjuti secara pidana."
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
@@ -7506,6 +7520,7 @@
         - ev-bpk-audit-blbi
       antithesis_id: Standar profesional ditetapkan di atas kertas tanpa mekanisme penegakan etik yang independen terhadap pemeriksanya sendiri, kelemahan yang terbukti fatal ketika auditor BPK mulai tertangkap menjual opini pada periode berikutnya.
       synthesis_id: Skor Baik (+1) karena seluruh pemeriksaan keuangan negara diikat pada satu standar profesional yang mengikat, menutup keleluasaan metode yang sebelumnya terbuka.
+      thesis_id: "Dalil formal BPK: Peraturan BPK No. 1 Tahun 2007 menetapkan Standar Pemeriksaan Keuangan Negara yang mengikat seluruh pemeriksa pada kaidah profesional dan etika yang seragam."
     - dimension_id: sila-2
       score: 1
       confidence: 0.75
@@ -7521,6 +7536,7 @@
         - ev-bpk-paket-uu-keuangan
       antithesis_id: "Temuan sebesar itu tidak berujung pemulihan kerugian negara: penerbitan Surat Keterangan Lunas justru menutup jalur penagihan terhadap obligor, sehingga audit yang berani berakhir sebagai dokumen tanpa konsekuensi."
       synthesis_id: Skor Baik (+1) karena penyimpangan keuangan terbesar dalam sejarah republik dibongkar dan diangkat ke ruang publik oleh lembaga pemeriksa negara sendiri.
+      thesis_id: "Dalil formal BPK: audit investigatif 2000 membongkar penyimpangan dana Bantuan Likuiditas Bank Indonesia senilai Rp138,4 triliun dan mengangkatnya ke ruang publik."
     - dimension_id: sila-3
       score: 0
       confidence: 0.75
@@ -7536,6 +7552,7 @@
         - ev-bpk-uu-15-2006
       antithesis_id: Kapasitas pemeriksaan tidak tumbuh secepat jumlah entitas yang harus diperiksa setelah otonomi daerah, sehingga cakupan audit atas ratusan pemerintah daerah pada periode ini masih sangat terbatas.
       synthesis_id: Skor Netral (0) karena kapasitas pemeriksaan tidak tumbuh secepat jumlah entitas yang harus diperiksa setelah otonomi daerah, sehingga cakupan audit atas ratusan pemerintah daerah masih sangat terbatas.
+      thesis_id: "Dalil formal BPK: pemeriksaan diperluas mengikuti perpindahan kewenangan fiskal ke ratusan pemerintah daerah pada masa awal desentralisasi."
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -7551,6 +7568,7 @@
         - ev-bpk-paket-uu-keuangan-2004
       antithesis_id: Kewajiban melapor kepada tiga jenis lembaga perwakilan ditetapkan tanpa kewajiban lembaga penerima menindaklanjutinya, sehingga laporan pemeriksaan kerap berhenti sebagai dokumen yang diterima tanpa dibahas.
       synthesis_id: Skor Baik (+1) karena hasil pemeriksaan keuangan negara wajib disampaikan kepada lembaga perwakilan di seluruh tingkatan, membuka rantai pertanggungjawaban yang sebelumnya tertutup.
+      thesis_id: "Dalil formal BPK: UU No. 15 Tahun 2004 mewajibkan penyampaian hasil pemeriksaan kepada DPR, DPD, dan DPRD, menempatkan lembaga perwakilan di semua tingkatan sebagai penerima pertanggungjawaban keuangan negara."
     - dimension_id: sila-5
       score: 1
       confidence: 0.85
@@ -7566,6 +7584,7 @@
         - ev-bpk-audit-blbi
       antithesis_id: Laporan itu diserahkan tepat waktu dan lengkap, tetapi tindak lanjutnya di DPR berubah menjadi manuver politik sehingga tidak seorang pun bertanggung jawab dan dana yang dikeluarkan tidak pulih.
       synthesis_id: Skor Baik (+1) karena penyelamatan bank yang membebani keuangan negara dibongkar lewat audit investigatif dan diserahkan kepada lembaga perwakilan untuk ditindaklanjuti.
+      thesis_id: "Dalil formal BPK: laporan hasil pemeriksaan investigatif atas bailout Bank Century senilai Rp6,76 triliun diserahkan kepada DPR pada November 2009 secara lengkap dan tepat waktu."
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
@@ -7581,6 +7600,7 @@
         - ev-bpk-uu-15-2006
       antithesis_id: Kewenangan tanpa pengecualian ditetapkan dalam undang-undang, tetapi akses atas anggaran pertahanan dan intelijen dalam praktik tetap terbatas karena alasan kerahasiaan negara yang penilaiannya ada pada pihak yang diperiksa.
       synthesis_id: Skor Baik (+1) karena seluruh entitas pengelola keuangan negara ditetapkan sebagai objek pemeriksaan tanpa pengecualian, menghapus wilayah anggaran yang kebal audit.
+      thesis_id: "Dalil formal BPK: UU No. 15 Tahun 2006 menegaskan kewenangan memeriksa seluruh entitas pengelola keuangan negara tanpa pengecualian, menghapus wilayah anggaran yang sebelumnya kebal audit."
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.85
@@ -7598,6 +7618,7 @@
         - ev-bpk-audit-bank-century-2009
       antithesis_id: Pemeriksaan menghasilkan gambaran biaya yang lebih jernih, tetapi keputusan besaran subsidi tetap ditentukan pertimbangan politik jangka pendek sehingga temuan audit tidak mengubah struktur belanja energi.
       synthesis_id: Skor Netral (0) karena struktur biaya subsidi energi diperiksa secara independen, sementara besaran subsidinya tetap ditentukan pertimbangan politik jangka pendek tanpa mengubah struktur belanja.
+      thesis_id: "Dalil formal BPK: efisiensi biaya pokok produksi bahan bakar minyak diperiksa pada 2008 ketika subsidi energi membebani APBN secara ekstrem, memberi dasar faktual bagi kebijakan subsidi."
     - dimension_id: tujuan-3
       score: 0
       confidence: 0.8
@@ -7613,6 +7634,7 @@
         - ev-bpk-audit-blbi
       antithesis_id: Pemeriksaan menyasar kepatuhan penyaluran sementara pungutan tidak resmi di sekolah berlanjut di luar jangkauan audit, sehingga temuan bersih tidak berarti biaya pendidikan benar-benar hilang bagi orang tua.
       synthesis_id: Skor Netral (0) karena penyaluran dana BOS diperiksa dari sisi kepatuhan sementara pungutan tidak resmi di sekolah berlanjut di luar jangkauan audit.
+      thesis_id: "Dalil formal BPK: penyaluran dana Bantuan Operasional Sekolah diperiksa sejak diluncurkan pada 2005, mengawasi agar dana sampai ke satuan pendidikan penerimanya."
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.75
@@ -7628,6 +7650,7 @@
         - ev-bpk-paket-uu-keuangan
       antithesis_id: Penyesuaian dengan standar internasional berlangsung di tingkat metodologi, sementara tingkat tindak lanjut temuan yang menjadi ukuran sesungguhnya efektivitas pemeriksaan tetap jauh di bawah praktik terbaik yang dirujuk.
       synthesis_id: Skor Netral (0) karena metodologi pemeriksaan diselaraskan dengan standar internasional, sementara tingkat tindak lanjut temuan yang menjadi ukuran efektivitasnya tetap jauh di bawah praktik terbaik yang dirujuk.
+      thesis_id: "Dalil formal BPK: praktik pemeriksaan Indonesia diselaraskan dengan standar organisasi lembaga pemeriksa keuangan sedunia lewat UU 15/2004 dan SPKN 2007."
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
@@ -7641,6 +7664,7 @@
         - ev-bpk-audit-bank-century-2009
       antithesis_id: Keterbukaan hasil pemeriksaan tidak diikuti kemampuan publik menuntut tindak lanjut, sehingga akses atas informasi tersedia sementara mekanisme menagih pertanggungjawaban atasnya tidak.
       synthesis_id: Skor Baik (+1) karena laporan hasil pemeriksaan keuangan negara berubah dari dokumen tertutup menjadi informasi publik yang dapat diperiksa siapa pun.
+      thesis_id: "Dalil formal BPK: hasil pemeriksaan keuangan negara dibuka kepada publik seiring UU 15/2004 dan UU 15/2006, mengubah laporan yang sebelumnya tertutup menjadi informasi yang dapat diperiksa rakyat."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -7692,8 +7716,9 @@
       event_ids:
         - ev-bpk-standar-sap-wtp
         - ev-bpk-audit-bank-century-2009
-      antithesis_id: Pada periode yang sama BPK menghasilkan audit investigatif Hambalang, Wisma Atlet, helikopter AW-101, dan e-KTP yang menjadi dasar penuntutan pejabat tinggi negara termasuk ketua DPR.
+      antithesis_id: "Instrumen pengawasan itu sendiri diperjualbelikan: Auditor Utama BPK Rochmadi Saptogiri dan Ali Sadli tertangkap tangan KPK menjual opini wajar tanpa pengecualian kepada Kementerian Desa, dan auditor BPK Jawa Barat menyusul tertangkap."
       synthesis_id: Skor Buruk (-1) karena Auditor Utama BPK tertangkap tangan menjual opini WTP kepada kementerian, sehingga instrumen pengawasan itu sendiri berubah menjadi komoditas yang diperjualbelikan.
+      thesis_id: "Dalil formal BPK: audit investigatif Hambalang, Wisma Atlet, helikopter AW-101, dan e-KTP pada periode ini menjadi dasar penuntutan pejabat tinggi negara termasuk ketua DPR."
     - dimension_id: negara-hukum
       score: -1
       confidence: 0.85
@@ -7710,8 +7735,9 @@
       event_ids:
         - ev-bpk-audit-investigasi-pelindo-2016
         - ev-bpk-standar-sap-wtp
-      antithesis_id: Audit investigatif periode ini menjadi bukti primer dalam perkara korupsi terbesar dalam sejarah republik, memperlihatkan fungsi penghitungan kerugian negara tetap bekerja dan diandalkan penegak hukum.
+      antithesis_id: Opini wajar tanpa pengecualian yang menjadi penanda kepatuhan justru diperjualbelikan oleh pemeriksanya sendiri, sehingga nilai seluruh opini audit sebagai alat ukur pengelolaan keuangan negara runtuh dari dalam.
       synthesis_id: Skor Buruk (-1) karena opini wajar tanpa pengecualian diperjualbelikan oleh pemeriksanya sendiri, meruntuhkan nilai opini audit sebagai penanda kepatuhan pengelolaan keuangan negara.
+      thesis_id: "Dalil formal BPK: audit investigatif periode ini menjadi bukti primer dalam perkara korupsi terbesar dalam sejarah republik, memperlihatkan fungsi penghitungan kerugian negara tetap bekerja dan diandalkan penegak hukum."
     - dimension_id: sila-1
       score: 0
       confidence: 0.7
@@ -7727,6 +7753,7 @@
         - ev-bpk-standar-sap-wtp
       antithesis_id: Peralihan ke akuntansi akrual memperbaiki mutu pelaporan, tetapi lonjakan opini WTP yang menyertainya sebagian diperoleh lewat perbaikan administratif alih-alih perbaikan substansi pengelolaan, dan sebagian lagi terbukti dibeli.
       synthesis_id: Skor Netral (0) karena peralihan ke akuntansi akrual memperbaiki mutu pelaporan, tepat sebanding dengan lonjakan opini WTP yang sebagiannya diperoleh lewat perbaikan administratif dan sebagian lagi terbukti dibeli.
+      thesis_id: "Dalil formal BPK: akuntansi berbasis akrual diterapkan pada seluruh entitas pemerintah sejak 2015-2016, mengubah pelaporan keuangan negara dari pencatatan kas menjadi gambaran utuh hak dan kewajiban."
     - dimension_id: sila-2
       score: 1
       confidence: 0.75
@@ -7742,6 +7769,7 @@
         - ev-bpk-audit-bank-century-2009
       antithesis_id: Penghitungan kerugian dituntaskan dan menjadi dasar pemidanaan, tetapi pemulihan aset negara dari kedua perkara itu berjalan jauh di bawah nilai kerugian yang ditetapkan sehingga uang rakyat sebagian besar tidak kembali.
       synthesis_id: Skor Baik (+1) karena penjarahan anggaran pada dua proyek besar dibongkar lewat audit investigatif dan menjadi dasar pemidanaan pejabat yang bertanggung jawab.
+      thesis_id: "Dalil formal BPK: kerugian negara dalam mega korupsi Wisma Atlet 2013 dan proyek Hambalang 2012 dihitung dan menjadi dasar pemidanaan para pejabat yang bertanggung jawab."
     - dimension_id: sila-3
       score: 0
       confidence: 0.75
@@ -7757,6 +7785,7 @@
         - ev-bpk-standar-sap-wtp
       antithesis_id: Temuan atas perpanjangan kontrak JICT dipersoalkan balik oleh pihak yang diperiksa dan tindak lanjutnya berlarut tanpa kepastian hukum, memperlihatkan kewenangan audit atas BUMN besar mudah dilawan.
       synthesis_id: Skor Netral (0) karena temuan atas perpanjangan kontrak JICT dipersoalkan balik oleh pihak yang diperiksa dan tindak lanjutnya berlarut tanpa kepastian hukum.
+      thesis_id: "Dalil formal BPK: perpanjangan kontrak Jakarta International Container Terminal pada Pelindo II diperiksa pada 2016 dan kerugian negara atas pengelolaan aset pelabuhan diungkap."
     - dimension_id: sila-4
       score: 0
       confidence: 0.8
@@ -7772,6 +7801,7 @@
         - ev-bpk-audit-bank-century-2009
       antithesis_id: Penyerahan hasil audit ke DPR menjadikan temuan bahan perdebatan politik, tetapi juga membuat tindak lanjutnya bergantung pada peta koalisi sehingga kedalaman pengusutan ditentukan kalkulasi partai alih-alih bukti.
       synthesis_id: Skor Netral (0) karena hasil audit diserahkan terbuka kepada DPR, tetapi tindak lanjutnya bergantung pada peta koalisi sehingga kedalaman pengusutan ditentukan kalkulasi partai alih-alih bukti.
+      thesis_id: "Dalil formal BPK: audit investigatif Hambalang diserahkan kepada DPR pada 2012, menjadikan temuan atas proyek yang melibatkan pimpinan partai berkuasa sebagai bahan pertanggungjawaban di lembaga perwakilan."
     - dimension_id: sila-5
       score: 0
       confidence: 0.85
@@ -7787,6 +7817,7 @@
         - ev-bpk-standar-sap-wtp
       antithesis_id: Audit atas pengadaan pertahanan tuntas dilakukan, tetapi tindak lanjut pidananya tersendat oleh dualisme peradilan militer dan umum sehingga pertanggungjawabannya tidak pernah utuh.
       synthesis_id: Skor Netral (0) karena belanja pengadaan pertahanan yang selama ini kebal berhasil diperiksa, sementara tindak lanjut pidananya tersendat dualisme peradilan militer dan umum.
+      thesis_id: "Dalil formal BPK: audit investigatif pengadaan helikopter AW-101 pada 2017 mengungkap kerugian negara pada belanja pertahanan yang selama ini kebal diperiksa."
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
@@ -7802,6 +7833,7 @@
         - ev-bpk-audit-bank-century-2009
       antithesis_id: Penghitungan kerugian menjadi dasar pemidanaan hingga ketua DPR, tetapi kerusakan pada sistem identitas kependudukan yang ditimbulkannya berlangsung bertahun-tahun dan memengaruhi layanan dasar bagi jutaan warga.
       synthesis_id: Skor Baik (+1) karena korupsi pada proyek identitas kependudukan nasional dibongkar dan kerugiannya dihitung, menjadi dasar pemidanaan pejabat tertinggi lembaga legislatif.
+      thesis_id: "Dalil formal BPK: kerugian keuangan negara proyek kartu tanda penduduk elektronik sebesar Rp2,31 triliun dihitung pada 2017, membongkar korupsi pada proyek identitas kependudukan nasional."
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.85
@@ -7817,6 +7849,7 @@
         - ev-bpk-audit-bank-century-2009
       antithesis_id: Pengungkapan rekayasa laporan keuangan menunjukkan pengawasan berjalan, tetapi terjadi setelah laporan yang menyesatkan sempat dipublikasikan dan memengaruhi keputusan pemangku kepentingan selama satu tahun buku penuh.
       synthesis_id: Skor Baik (+1) karena rekayasa pengakuan pendapatan pada laporan keuangan BUMN penerbangan nasional ditolak dan dikoreksi secara terbuka.
+      thesis_id: "Dalil formal BPK: rekayasa pengakuan pendapatan dalam laporan keuangan PT Garuda Indonesia ditolak dan diungkap pada 2019, menegakkan kejujuran pelaporan badan usaha milik negara."
     - dimension_id: tujuan-3
       score: 0
       confidence: 0.8
@@ -7832,6 +7865,7 @@
         - ev-bpk-audit-bank-century-2009
       antithesis_id: Pemeriksaan kinerja mengungkap sebagian besar anggaran pendidikan terserap gaji dan tunjangan alih-alih mutu pembelajaran, tetapi temuan itu tidak berkonsekuensi karena pemenuhan mandat 20 persen dihitung secara nominal.
       synthesis_id: Skor Netral (0) karena kualitas penggunaan anggaran pendidikan diperiksa dan bukan sekadar angkanya, tetapi temuannya tidak berkonsekuensi karena pemenuhan mandat 20 persen tetap dihitung nominal.
+      thesis_id: "Dalil formal BPK: kinerja belanja fungsi pendidikan diperiksa pada periode ketika mandat 20 persen APBN telah dipenuhi secara nominal, menguji apakah dana benar-benar sampai pada komponen utama pendidikan."
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.75
@@ -7847,6 +7881,7 @@
         - ev-bpk-standar-sap-wtp
       antithesis_id: Kepercayaan mitra internasional dijaga lewat kepatuhan metodologi, tetapi tertangkapnya auditor BPK menjual opini pada 2017 merusak reputasi profesional yang dibangun bertahun-tahun dalam sekali peristiwa.
       synthesis_id: Skor Netral (0) karena kepatuhan metodologi menjaga kepercayaan mitra internasional, tepat sebanding dengan reputasi profesional yang runtuh oleh auditor BPK yang tertangkap menjual opini.
+      thesis_id: "Dalil formal BPK: pemeriksaan atas entitas pengelola pinjaman dan hibah luar negeri dijalankan sesuai standar internasional, menjaga kepercayaan mitra pembangunan."
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.8
@@ -7862,6 +7897,7 @@
         - ev-bpk-standar-sap-wtp
       antithesis_id: Publikasi opini memberi warga penanda mutu pengelolaan keuangan, tetapi nilai penanda itu runtuh ketika terbukti sebagian opini WTP diperoleh lewat suap kepada pemeriksanya.
       synthesis_id: Skor Netral (0) karena opini atas laporan keuangan seluruh entitas dipublikasikan terbuka, tetapi nilainya sebagai penanda bagi warga runtuh ketika sebagian opini WTP terbukti diperoleh lewat suap.
+      thesis_id: "Dalil formal BPK: capaian opini laporan keuangan pemerintah pusat dan daerah dipublikasikan terbuka sejak penerapan akuntansi akrual 2016, memberi warga penanda mutu pengelolaan keuangan setiap entitas."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -7951,8 +7987,9 @@
       event_ids:
         - ev-bpk-audit-bts-2023
         - ev-bpk-ihps-2022
-      antithesis_id: Audit atas program Pemulihan Ekonomi Nasional dan bantuan sosial pandemi dituntaskan pada saat belanja negara melonjak paling cepat sepanjang sejarah, menjaga jejak akuntabilitas di masa paling rawan penyimpangan.
+      antithesis_id: Kredibilitas temuan itu terdegradasi oleh auditor BPK sendiri yang terus tertangkap memperjualbelikan hasil pemeriksaan, hingga anggota BPK Achsanul Qosasi divonis bersalah pada 2024.
       synthesis_id: Skor Netral (0) karena pemeriksaan atas belanja perlindungan sosial berjalan penuh, tepat sebanding dengan degradasi kredibilitasnya akibat auditor BPK yang terus tertangkap memperjualbelikan hasil pemeriksaan.
+      thesis_id: "Dalil formal BPK: audit atas program Pemulihan Ekonomi Nasional dan bantuan sosial pandemi dituntaskan pada saat belanja negara melonjak paling cepat sepanjang sejarah, menjaga jejak akuntabilitas di masa paling rawan penyimpangan."
     - dimension_id: sila-1
       score: 0
       confidence: 0.7
@@ -7969,6 +8006,7 @@
         - ev-bpk-audit-bts-kominfo-2023
       antithesis_id: Audit kinerja atas pengadaan dan restrukturisasi berjalan rutin, tetapi rekomendasinya tidak mengikat dan tingkat tindak lanjutnya oleh entitas yang diperiksa tetap menjadi persoalan yang berulang dalam setiap ikhtisar.
       synthesis_id: Skor Netral (0) karena audit kinerja pengadaan dan restrukturisasi berjalan rutin, sementara rekomendasinya tidak mengikat dan tingkat tindak lanjutnya tetap menjadi persoalan berulang dalam setiap ikhtisar.
+      thesis_id: "Dalil formal BPK: audit kinerja pengadaan sarana pertanian pada 2025 dan pemeriksaan restrukturisasi utang badan usaha milik negara pada 2023 dijalankan atas sektor yang menyangkut hajat hidup orang banyak."
     - dimension_id: sila-2
       score: 1
       confidence: 0.75
@@ -7984,6 +8022,7 @@
         - ev-audit-bpk-mega-skandal-jiwasraya-2020
       antithesis_id: Kerugian dihitung dan pelakunya dipidana, tetapi pemulihan dana bagi peserta Jiwasraya dan Asabri berlangsung lewat restrukturisasi yang memangkas nilai manfaat, sehingga korban tetap menanggung sebagian kerugian.
       synthesis_id: Skor Baik (+1) karena penjarahan dana pensiun dan asuransi prajurit serta pegawai negeri dibongkar lewat audit investigatif dan menjadi dasar pemidanaan.
+      thesis_id: "Dalil formal BPK: mega korupsi investasi Jiwasraya 2020 dan Asabri 2021 dibongkar lewat audit investigatif, mengungkap penjarahan dana pensiun serta asuransi prajurit dan pegawai negeri."
     - dimension_id: sila-3
       score: 0
       confidence: 0.75
@@ -7998,6 +8037,7 @@
         - ev-bpk-evaluasi-kinerja-dana-desa-2022
       antithesis_id: Audit atas dana otonomi khusus mengungkap persoalan penyerapan dan tata kelola, tetapi tidak menyentuh persoalan politik yang mendasarinya sehingga temuan fiskal tidak menjawab akar ketimpangan di wilayah yang diperiksa.
       synthesis_id: Skor Netral (0) karena belanja Otsus Papua dan IKN diperiksa efektivitasnya, tetapi temuan fiskal tidak menjawab akar ketimpangan politik di wilayah yang diperiksa.
+      thesis_id: "Dalil formal BPK: audit kinerja pengelolaan Dana Otonomi Khusus Papua pada 2021 dan pemetaan tata kelola anggaran Ibu Kota Nusantara dalam IHPS I 2024 menguji efektivitas belanja pemerataan antarwilayah."
     - dimension_id: sila-4
       score: 0
       confidence: 0.8
@@ -8013,6 +8053,7 @@
         - ev-audit-bpk-kepatuhan-penanganan-covid-2021
       antithesis_id: Temuan sawit ilegal berskala jutaan hektare diangkat ke publik, tetapi penyelesaiannya dialihkan ke skema pemutihan administratif sehingga pelanggaran justru memperoleh legalisasi alih-alih sanksi.
       synthesis_id: Skor Netral (0) karena temuan sawit ilegal jutaan hektare diangkat ke publik, tetapi penyelesaiannya dialihkan ke pemutihan administratif sehingga pelanggaran justru memperoleh legalisasi.
+      thesis_id: "Dalil formal BPK: audit 2023 mengungkap jutaan hektare perkebunan sawit ilegal tanpa izin yang merugikan penerimaan negara, menempatkan hasil pemeriksaan sebagai bahan pertanggungjawaban publik."
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.75
@@ -8028,6 +8069,7 @@
         - ev-audit-investigasi-bpk-mega-korupsi-asabri-2021
       antithesis_id: Pemeriksaan atas belanja darurat dituntaskan, tetapi dilakukan setelah pengadaan berlangsung dengan relaksasi aturan yang ditetapkan UU 2/2020, sehingga audit hanya dapat mencatat kerugian yang sudah terjadi.
       synthesis_id: Skor Netral (0) karena belanja darurat pandemi tetap diperiksa, tetapi audit dilakukan setelah pengadaan berlangsung dengan relaksasi aturan sehingga hanya dapat mencatat kerugian yang sudah terjadi.
+      thesis_id: "Dalil formal BPK: audit investigatif mengungkap kerugian negara pada pengadaan darurat penanganan COVID-19, dan kepatuhan penanganan pandemi diperiksa pada 2021."
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.85
@@ -8049,6 +8091,7 @@
         - ev-bpk-ihps-bansos-covid-2021
       antithesis_id: Kerugian dihitung dan pelakunya dipidana, tetapi proyek BTS 4G yang seharusnya menghadirkan sinyal di daerah tertinggal tertunda bertahun-tahun sehingga warga yang menjadi sasarannya menanggung akibatnya.
       synthesis_id: Skor Baik (+1) karena korupsi pada dua proyek layanan publik berskala besar dibongkar lewat audit investigatif dan menjadi dasar pemidanaan.
+      thesis_id: "Dalil formal BPK: audit investigatif korupsi proyek BTS 4G pada 2023 dan pengadaan pesawat Garuda pada 2020 dirampungkan, menghitung kerugian negara pada belanja layanan publik berskala besar."
     - dimension_id: tujuan-3
       score: 0
       confidence: 0.8
@@ -8064,6 +8107,7 @@
         - ev-bpk-suap-bekasi-2022
       antithesis_id: Penyerahan ikhtisar berjalan berkala, tetapi pada periode yang sama tim pemeriksa BPK Jawa Barat tertangkap tangan menerima suap sehingga keandalan temuan yang disampaikan ikut dipersoalkan.
       synthesis_id: Skor Netral (0) karena pemeriksaan belanja pendidikan disampaikan berkala, tepat sebanding dengan tim pemeriksa BPK Jawa Barat yang tertangkap tangan menerima suap pada periode yang sama.
+      thesis_id: "Dalil formal BPK: Ikhtisar Hasil Pemeriksaan Semester II 2024 yang memuat pemeriksaan belanja fungsi pendidikan diserahkan kepada lembaga perwakilan pada 2025."
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.75
@@ -8078,6 +8122,7 @@
         - ev-bpk-vonis-achsanul-2024
       antithesis_id: Penghitungan kerugian ekologis membuka metodologi baru yang berani, tetapi metodenya dipersoalkan di persidangan dan menjadi titik lemah pembuktian sehingga terobosan itu belum menjadi yurisprudensi yang mapan.
       synthesis_id: Skor Baik (+1) karena kerugian ekologis dihitung sebagai bagian kerugian negara untuk pertama kalinya, memperluas tanggung jawab hukum atas kerusakan lingkungan lintas batas generasi.
+      thesis_id: "Dalil formal BPK: audit investigatif tata niaga timah 2024 menghitung kerugian ekologis sebagai bagian kerugian negara untuk pertama kalinya, memperluas tanggung jawab hukum atas kerusakan alam."
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.8
@@ -8095,6 +8140,7 @@
         - ev-vonis-seumur-hidup-direksi-jiwasraya-2020
       antithesis_id: Nilai laporan investigatif sebagai bukti pro justitia bergantung pada integritas pemeriksanya, dan vonis tipikor terhadap anggota BPK Achsanul Qosasi pada 2024 memperlihatkan integritas itu tidak terjamin pada tingkat pimpinan sekalipun.
       synthesis_id: Skor Baik (+1) karena laporan hasil pemeriksaan investigatif dilembagakan sebagai bukti primer yang diserahkan langsung kepada penegak hukum, menopang pengusutan korupsi berskala besar.
+      thesis_id: "Dalil formal BPK: laporan hasil pemeriksaan investigatif dilembagakan sebagai bukti primer pro justitia yang diserahkan langsung kepada penegak hukum untuk menopang pengusutan korupsi."
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.8
@@ -8109,6 +8155,7 @@
         - ev-bpk-ihps-i-2025
       antithesis_id: Siklus pertanggungjawaban berjalan tertib secara prosedural, tetapi rangkaian penangkapan auditor dan vonis terhadap anggota BPK sendiri membuat laporan yang disampaikan tidak lagi otomatis dipercaya publik.
       synthesis_id: Skor Netral (0) karena siklus penyampaian hasil pemeriksaan berjalan tertib secara prosedural, tetapi rangkaian penangkapan auditor dan vonis atas anggota BPK sendiri membuat laporannya tidak lagi otomatis dipercaya publik.
+      thesis_id: "Dalil formal BPK: Ikhtisar Hasil Pemeriksaan Semester I 2025 diserahkan kepada lembaga perwakilan pada 2026, menjaga siklus pertanggungjawaban keuangan negara kepada rakyat berjalan tanpa terputus."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -8160,6 +8207,7 @@
         - ev-ky-putusan-mk-005-2006
       antithesis_id: KEPPH lahir sebagai kesepakatan bersama dengan Mahkamah Agung sehingga penegakannya bergantung pada kesediaan lembaga yang diawasi, dan Putusan MK 005/PUU-IV/2006 sudah lebih dulu mencabut kewenangan KY mengawasi hakim agung.
       synthesis_id: Skor Baik (+1) karena Kode Etik dan Pedoman Perilaku Hakim ditetapkan sebagai standar tunggal yang mengikat seluruh hakim Indonesia untuk pertama kalinya.
+      thesis_id: "Dalil formal Komisi Yudisial: Kode Etik dan Pedoman Perilaku Hakim yang ditandatangani bersama Mahkamah Agung pada 2009 menjadi standar tunggal perilaku yang mengikat seluruh hakim Indonesia untuk pertama kalinya."
     - dimension_id: checks-balances
       score: 0
       confidence: 0.85
@@ -8194,6 +8242,7 @@
         - ev-pengawasan-integritas-kehakiman-ky-2006
       antithesis_id: Kelembagaan pengawasan didirikan tetapi tanpa kewenangan menjatuhkan sanksi sendiri, sehingga seluruh temuan perilaku hakim berhenti sebagai rekomendasi kepada Mahkamah Agung yang boleh mengabaikannya.
       synthesis_id: Skor Baik (+1) karena pengawasan eksternal atas perilaku hakim didirikan sebagai lembaga negara tersendiri, mengakhiri keadaan ketika peradilan hanya diawasi oleh dirinya sendiri.
+      thesis_id: "Dalil formal Komisi Yudisial: UU No. 22 Tahun 2004 mendirikan pengawasan eksternal atas perilaku hakim sebagai lembaga negara tersendiri, mengakhiri keadaan ketika peradilan hanya diawasi oleh dirinya sendiri."
     - dimension_id: sila-2
       score: 1
       confidence: 0.75
@@ -8209,6 +8258,7 @@
         - ev-ky-skb-kepph-2009
       antithesis_id: Pemetaan titik rawan diterbitkan sebagai dokumen tanpa kewenangan menindak, sehingga simpul penyimpangan yang diidentifikasi tetap bekerja dan sebagian besarnya masih ditemukan pada pemetaan bertahun-tahun kemudian.
       synthesis_id: Skor Baik (+1) karena praktik mafia peradilan dipetakan secara sistematis oleh lembaga negara untuk pertama kalinya, mengangkatnya dari desas-desus menjadi temuan resmi.
+      thesis_id: "Dalil formal Komisi Yudisial: laporan pemetaan titik rawan mafia peradilan 2007 mengidentifikasi simpul-simpul penyimpangan dalam proses perkara, mengangkatnya dari desas-desus menjadi temuan resmi lembaga negara."
     - dimension_id: sila-3
       score: 0
       confidence: 0.7
@@ -8224,6 +8274,7 @@
         - ev-pengawasan-integritas-kehakiman-ky-2006
       antithesis_id: Saluran pengaduan tersedia secara nasional tetapi kantor penghubung di daerah belum dibentuk pada periode ini, sehingga akses nyata bagi pengadu di luar Jakarta masih sangat terbatas.
       synthesis_id: Skor Netral (0) karena saluran pengaduan nasional tersedia di atas kertas sementara kantor penghubung daerah belum dibentuk, sehingga akses nyata bagi pengadu di luar Jakarta tidak berubah.
+      thesis_id: "Dalil formal Komisi Yudisial: sistem pengaduan masyarakat atas perilaku hakim dibangun sejak 2005 dan dapat diakses dari seluruh wilayah, menyediakan satu saluran nasional bagi pencari keadilan."
     - dimension_id: sila-4
       score: 1
       confidence: 0.8
@@ -8239,6 +8290,7 @@
         - ev-ky-putusan-mk-005-2006
       antithesis_id: "Keterbukaan seleksi berhenti di tahap KY: nama yang diusulkan tetap ditentukan lewat uji kelayakan tertutup di DPR yang sarat pertimbangan politik, sehingga transparansi di hulu tidak menjamin hasil di hilir."
       synthesis_id: Skor Baik (+1) karena pengisian jabatan hakim agung berubah dari kooptasi internal menjadi seleksi terbuka yang dapat diawasi publik.
+      thesis_id: "Dalil formal Komisi Yudisial: seleksi calon hakim agung diselenggarakan terbuka dengan melibatkan masukan publik, memindahkan pengisian jabatan dari proses tertutup Mahkamah Agung ke proses yang dapat diikuti masyarakat."
     - dimension_id: sila-5
       score: 1
       confidence: 0.75
@@ -8254,6 +8306,7 @@
         - ev-ky-skb-kepph-2009
       antithesis_id: Forum Majelis Kehormatan Hakim baru terbentuk empat tahun setelah KY berdiri dan hanya dapat digelar atas kesepakatan dengan Mahkamah Agung, sehingga jumlah perkara yang diperiksa jauh di bawah jumlah pengaduan yang masuk.
       synthesis_id: Skor Baik (+1) karena hakim yang diduga melanggar etik untuk pertama kalinya diperiksa dalam forum yang melibatkan pengawas dari luar lembaga peradilan.
+      thesis_id: "Dalil formal Komisi Yudisial: sidang Majelis Kehormatan Hakim bersama Mahkamah Agung digelar pada 2009 sebagai forum pertama yang memeriksa hakim atas dugaan pelanggaran etik secara terbuka."
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.7
@@ -8269,6 +8322,7 @@
         - ev-pembentukan-komisi-yudisial-2004
       antithesis_id: Peraturan bersama memberi kepastian standar, tetapi tidak disertai jaminan keamanan bagi hakim yang mengadili perkara berisiko maupun bagi pengadu yang melaporkan penyimpangan.
       synthesis_id: Skor Netral (0) karena peraturan bersama memberi kepastian standar perilaku tanpa jaminan keamanan bagi hakim maupun pengadu, sehingga keadaan perlindungan tidak berubah.
+      thesis_id: "Dalil formal Komisi Yudisial: Peraturan Bersama Mahkamah Agung dan Komisi Yudisial 2009 memberi hakim standar perilaku yang jelas sekaligus melindungi mereka dari tuduhan yang tidak berdasar."
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.75
@@ -8285,6 +8339,7 @@
         - ev-pembentukan-komisi-yudisial-2004
       antithesis_id: Pemetaan mengangkat persoalan ke ruang publik tetapi tidak berlanjut ke penindakan karena kewenangan KY atas hakim agung sudah dicabut, sehingga simpul tertinggi rantai penyimpangan tetap tidak tersentuh.
       synthesis_id: Skor Netral (0) karena biaya tersembunyi berperkara diangkat menjadi temuan resmi tanpa penindakan, sebab kewenangan atas hakim agung sudah dicabut lebih dulu.
+      thesis_id: "Dalil formal Komisi Yudisial: praktik suap dalam sengketa perdata dan bisnis dipetakan lewat laporan 2007, mengangkat biaya tersembunyi berperkara sebagai persoalan kelembagaan."
     - dimension_id: tujuan-3
       score: 0
       confidence: 0.75
@@ -8300,6 +8355,7 @@
         - ev-ky-putusan-mk-005-2006
       antithesis_id: Laporan tahunan membuka data pengaduan tetapi tidak dapat mengungkap tindak lanjut yang dilakukan Mahkamah Agung, sehingga publik mengetahui persoalannya tanpa mengetahui penyelesaiannya.
       synthesis_id: Skor Netral (0) karena laporan tahunan membuka data pengaduan tanpa dapat mengungkap tindak lanjutnya, sehingga pengetahuan publik yang dihasilkan tidak utuh.
+      thesis_id: "Dalil formal Komisi Yudisial: laporan tahunan sejak 2006 memuat data pengaduan masyarakat dan rekomendasi sanksi secara terbuka, menjadikan kinerja pengawasan peradilan bahan belajar publik."
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.7
@@ -8315,6 +8371,7 @@
         - ev-pembentukan-komisi-yudisial-2004
       antithesis_id: Prinsip internasional diadopsi ke dalam teks kode etik, tetapi mekanisme penegakannya jauh lebih lemah daripada model yang menjadi rujukan karena kewenangan sanksi tetap berada di lembaga yang diawasi.
       synthesis_id: Skor Netral (0) karena prinsip integritas yudisial internasional diadopsi ke dalam teks kode etik tanpa mekanisme penegakan yang setara dengan modelnya.
+      thesis_id: "Dalil formal Komisi Yudisial: prinsip Bangalore tentang perilaku yudisial diadopsi ke dalam KEPPH 2009, menyelaraskan standar integritas peradilan Indonesia dengan kaidah yang diakui internasional."
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.8
@@ -8330,6 +8387,7 @@
         - ev-ky-putusan-mk-005-2006
       antithesis_id: Peran publik terbatas pada penyampaian masukan tanpa bobot yang mengikat, dan keputusan akhir tetap berada pada DPR yang menilai berdasarkan pertimbangan di luar rekam jejak yang disampaikan masyarakat.
       synthesis_id: Skor Baik (+1) karena masyarakat memperoleh peran resmi dalam pengisian jabatan hakim agung, membuka kanal kedaulatan rakyat ke cabang kekuasaan yang paling tertutup.
+      thesis_id: "Dalil formal Komisi Yudisial: partisipasi masyarakat dibuka dalam seleksi calon hakim agung sejak 2005 lewat masukan dan penelusuran rekam jejak publik."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -8379,6 +8437,7 @@
         - ev-ky-uu-18-2011
       antithesis_id: Penguatan lewat UU No. 18 Tahun 2011 memberi kewenangan investigasi, tetapi Putusan MK No. 43/PUU-XIII/2015 kembali memangkas wewenang KY dalam seleksi hakim sehingga penguatan itu bertahan kurang dari empat tahun.
       synthesis_id: Skor Baik (+1) karena KY memperoleh dasar hukum untuk melakukan investigasi dan penegakan etik secara mandiri, memulihkan sebagian daya yang dicabut pada 2006.
+      thesis_id: "Dalil formal Komisi Yudisial: UU No. 18 Tahun 2011 memberi dasar hukum untuk melakukan investigasi dan penegakan etik secara mandiri, memulihkan sebagian daya yang dicabut Putusan MK 2006."
     - dimension_id: checks-balances
       score: 1
       confidence: 0.85
@@ -8394,6 +8453,7 @@
         - ev-ky-uu-18-2011
       antithesis_id: Rekomendasi sanksi disampaikan secara konsisten tetapi eksekusinya tetap berada di tangan Mahkamah Agung, dan penetapan dua komisioner KY sebagai tersangka pada 2015 memperlihatkan pengawas pun dapat dijerat balik.
       synthesis_id: Skor Baik (+1) karena seleksi hakim agung dan rekomendasi sanksi etik dijalankan konsisten, menjadikan KY penyeimbang nyata bagi kekuasaan kehakiman.
+      thesis_id: "Dalil formal Komisi Yudisial: seleksi ketat calon hakim agung yang diusulkan ke DPR dan rekomendasi sanksi etik kepada Mahkamah Agung dijalankan konsisten sepanjang periode."
     - dimension_id: sila-1
       score: 0
       confidence: 0.7
@@ -8408,6 +8468,7 @@
         - ev-ky-seleksi-cha-2011
       antithesis_id: Investigasi rekam jejak diterapkan dengan sumber daya terbatas dan tanpa akses ke data keuangan calon, sehingga kedalamannya bergantung pada informasi yang bersedia diberikan pihak lain.
       synthesis_id: Skor Netral (0) karena penelusuran rekam jejak diterapkan dengan sumber daya terbatas dan tanpa akses data keuangan calon, sehingga kedalaman pemeriksaan integritas belum berubah.
+      thesis_id: "Dalil formal Komisi Yudisial: investigasi rekam jejak publik diterapkan dalam seleksi hakim sejak 2011, menempatkan integritas personal calon sebagai syarat yang diperiksa dan bukan sekadar dinyatakan."
     - dimension_id: sila-2
       score: 1
       confidence: 0.75
@@ -8422,6 +8483,7 @@
         - ev-ky-advokasi-pp-94-2012
       antithesis_id: Perbaikan kesejahteraan hakim ditempuh sebagai jalan mencegah suap, tetapi pada periode yang sama hakim tipikor tetap diberhentikan karena menerima suap, memperlihatkan penyebabnya tidak semata kesejahteraan.
       synthesis_id: Skor Baik (+1) karena hak keuangan hakim ditetapkan lewat peraturan pemerintah setelah bertahun-tahun tidak diperbaiki, menutup salah satu celah struktural penyimpangan.
+      thesis_id: "Dalil formal Komisi Yudisial: advokasi Komisi Yudisial menghasilkan PP No. 94 Tahun 2012 tentang hak keuangan dan fasilitas hakim, menutup celah struktural yang mendorong penyimpangan."
     - dimension_id: sila-3
       score: 1
       confidence: 0.7
@@ -8436,6 +8498,7 @@
         - ev-ky-mkh-hakim-tipikor-2013
       antithesis_id: Pemberhentian hakim daerah menegakkan standar tetapi menyasar simpul terlemah rantai peradilan, sementara pengawasan atas hakim agung tetap tertutup akibat putusan MK 2006 yang belum dipulihkan.
       synthesis_id: Skor Baik (+1) karena hakim yang terbukti melanggar etik berat diberhentikan lewat forum resmi, menegaskan standar integritas berlaku sama di pengadilan daerah maupun pusat.
+      thesis_id: "Dalil formal Komisi Yudisial: sidang Majelis Kehormatan Hakim 2013 memberhentikan hakim pengadilan tipikor daerah, menegakkan standar integritas yang sama bagi peradilan di seluruh wilayah."
     - dimension_id: sila-4
       score: 0
       confidence: 0.8
@@ -8448,8 +8511,9 @@
         - uud-nri-1945
       event_ids:
         - ev-ky-putusan-mk-43-2015
-      antithesis_id: Mahkamah Konstitusi beralasan seleksi hakim adalah bagian kemandirian kekuasaan kehakiman yang tidak boleh dicampuri lembaga lain, argumen yang secara doktriner memiliki dasar konstitusional.
+      antithesis_id: Putusan MK No. 43/PUU-XIII/2015 mencabut kewenangan Komisi Yudisial turut menyeleksi hakim tingkat pertama, mempersempit peran pengawas eksternal justru pada jenjang peradilan yang paling sering ditemui warga.
       synthesis_id: Skor Netral (0) karena seleksi terbuka dan pemantauan partisipatif dijalankan penuh, tepat sebanding dengan dipangkasnya kewenangan KY dalam seleksi hakim lewat Putusan MK No. 43/PUU-XIII/2015 di ujung periode.
+      thesis_id: "Dalil formal Komisi Yudisial: seleksi terbuka calon hakim agung dan pemantauan persidangan partisipatif tetap dijalankan penuh sepanjang periode sebagai wujud permusyawaratan dalam pengisian jabatan kehakiman."
     - dimension_id: sila-5
       score: 0
       confidence: 0.75
@@ -8463,6 +8527,7 @@
         - ev-ky-kriminalisasi-sarpin-2015
       antithesis_id: Penetapan tersangka atas komisioner KY dapat dibaca sebagai penegakan hukum yang berlaku bagi siapa pun termasuk pengawas, prinsip yang secara normatif tidak boleh dikecualikan.
       synthesis_id: Skor Netral (0) karena pengawasan atas perkara hak buruh, tanah, dan lingkungan tetap berjalan, tepat sebanding dengan dua komisionernya sendiri yang ditetapkan tersangka atas laporan pihak yang diawasi.
+      thesis_id: "Dalil formal Komisi Yudisial: pengawasan atas persidangan perkara perburuhan, sengketa tanah, dan lingkungan tetap dijalankan meski dua komisionernya sendiri ditetapkan tersangka atas laporan pihak yang diawasi."
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.7
@@ -8477,6 +8542,7 @@
         - ev-ky-uu-18-2011
       antithesis_id: Kewenangan investigasi diberikan tanpa daya paksa, sehingga pihak yang menolak memenuhi panggilan tidak dapat dikenai konsekuensi apa pun dan penelusuran bergantung pada kerja sama sukarela.
       synthesis_id: Skor Baik (+1) karena KY memperoleh kewenangan menelusuri dugaan pelanggaran etik secara mandiri lewat UU No. 18 Tahun 2011, mengakhiri ketergantungan penuh pada keterangan lembaga yang diawasinya.
+      thesis_id: "Dalil formal Komisi Yudisial: UU No. 18 Tahun 2011 memberi kewenangan investigasi mandiri termasuk memanggil dan memeriksa saksi, mengakhiri ketergantungan penuh pada keterangan lembaga yang diawasi."
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.75
@@ -8492,6 +8558,7 @@
         - ev-ky-pengesahan-uu-18-2011
       antithesis_id: Penelusuran dugaan suap perkara bisnis terhambat oleh ketiadaan akses ke data transaksi keuangan, sehingga sebagian besar dugaan berhenti pada tahap yang tidak dapat dibuktikan secara etik maupun pidana.
       synthesis_id: Skor Netral (0) karena penelusuran dugaan suap perkara bisnis terhambat ketiadaan akses data transaksi keuangan, sehingga sebagian besar berhenti tanpa dapat dibuktikan.
+      thesis_id: "Dalil formal Komisi Yudisial: kewenangan investigasi baru dipakai menelusuri dugaan suap dalam perkara bisnis dan kepailitan, menjaga kepastian hukum yang menjadi prasyarat kegiatan ekonomi."
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.75
@@ -8506,6 +8573,7 @@
         - ev-ky-seleksi-terbuka-hakim-agung-2013
       antithesis_id: Uji publik terbuka digelar KY, tetapi sebagian besar calon yang diloloskannya kemudian ditolak DPR tanpa alasan yang dijelaskan kepada publik, sehingga nilai edukatifnya terputus di tahap akhir.
       synthesis_id: Skor Baik (+1) karena uji kelayakan calon hakim agung dibuka untuk disaksikan publik, menjadikan pengisian jabatan kehakiman tertinggi proses yang dapat dipelajari warga.
+      thesis_id: "Dalil formal Komisi Yudisial: seleksi calon hakim agung 2013 digelar dengan uji publik yang dapat disaksikan masyarakat, menjadikan pengisian jabatan kehakiman tertinggi sarana pendidikan hukum warga."
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.7
@@ -8520,6 +8588,7 @@
         - ev-ky-uu-18-2011
       antithesis_id: Penyelarasan berlangsung pada tataran kewenangan formal, sementara ukuran yang dipakai jaringan internasional yaitu tingkat eksekusi rekomendasi sanksi tetap rendah karena berada di luar kendali KY.
       synthesis_id: Skor Netral (0) karena penyelarasan dengan praktik internasional berlangsung pada tataran kewenangan formal sementara tingkat eksekusi rekomendasi sanksi tetap rendah.
+      thesis_id: "Dalil formal Komisi Yudisial: kewenangan investigasi dalam UU No. 18 Tahun 2011 diselaraskan dengan praktik lembaga pengawas peradilan di berbagai negara, memperkuat posisi Indonesia dalam jaringan integritas yudisial."
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.8
@@ -8533,6 +8602,7 @@
         - ev-ky-uu-18-2011
       antithesis_id: Peran warga diperluas di tahap seleksi tetapi dipangkas kembali oleh Putusan MK No. 43/PUU-XIII/2015 yang mencabut keterlibatan KY dalam seleksi hakim tingkat pertama, memutus akses publik ke jenjang yang paling sering ditemui warga.
       synthesis_id: Skor Netral (0) karena peran warga diperluas pada seleksi hakim agung, tepat sebanding dengan dicabutnya keterlibatan KY pada seleksi hakim tingkat pertama yang paling sering ditemui warga.
+      thesis_id: "Dalil formal Komisi Yudisial: masyarakat dilibatkan dalam investigasi rekam jejak calon hakim agung sejak 2011 dan uji publik terbuka 2013, memperluas peran warga menentukan siapa yang mengadili perkaranya."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -8580,6 +8650,7 @@
         - ev-ky-mkh-penegakan
       antithesis_id: Sidang Majelis Kehormatan Hakim digelar konsisten dan menghasilkan pemberhentian hakim penerima suap, tetapi jumlah perkara yang diperiksa tetap jauh di bawah jumlah pengaduan karena penyelenggaraannya memerlukan persetujuan Mahkamah Agung.
       synthesis_id: Skor Baik (+1) karena hakim penerima suap diberhentikan lewat forum resmi secara berulang, menegakkan konsekuensi nyata atas pelanggaran etik berat.
+      thesis_id: "Dalil formal Komisi Yudisial: sidang Majelis Kehormatan Hakim dilaksanakan konsisten dan menindak tegas hakim penerima suap hingga pemberhentian dari jabatan."
     - dimension_id: checks-balances
       score: 0
       confidence: 0.85
@@ -8592,8 +8663,9 @@
         - uud-nri-1945
       event_ids:
         - ev-ky-mkh-penegakan
-      antithesis_id: KY tetap menerbitkan rekomendasi sanksi secara konsisten dan memantau persidangan perkara yang menarik perhatian publik, menjaga fungsi pengawasan tetap terlihat meski hasilnya tidak selalu dieksekusi.
+      antithesis_id: Tingkat eksekusinya oleh Mahkamah Agung tetap rendah akibat perbedaan tafsir kewenangan, sehingga sebagian besar rekomendasi berhenti sebagai dokumen tanpa konsekuensi bagi hakim yang diadukan.
       synthesis_id: Skor Netral (0) karena rekomendasi sanksi dihasilkan secara berkelanjutan tepat sebanding dengan tingkat eksekusinya oleh Mahkamah Agung yang tetap rendah akibat perbedaan tafsir kewenangan.
+      thesis_id: "Dalil formal Komisi Yudisial: rekomendasi sanksi diterbitkan secara berkelanjutan dan persidangan perkara yang menarik perhatian publik dipantau, menjaga fungsi pengawasan tetap berjalan dan terlihat."
     - dimension_id: sila-1
       score: 1
       confidence: 0.7
@@ -8608,6 +8680,7 @@
         - ev-ky-mkh-penegakan
       antithesis_id: Penegakan etik berjalan pada perkara yang sudah terbukti secara pidana, sementara pelanggaran yang tidak sampai ke ranah pidana umumnya berhenti pada sanksi ringan yang tidak mengubah perilaku.
       synthesis_id: Skor Baik (+1) karena hakim yang melanggar etik berat diberhentikan dari jabatannya, menegaskan integritas sebagai syarat yang tidak dapat ditawar bagi pemangku kekuasaan mengadili.
+      thesis_id: "Dalil formal Komisi Yudisial: sidang Majelis Kehormatan Hakim 2019 memberhentikan hakim yang terbukti melanggar berat, menegaskan integritas sebagai syarat memangku jabatan mengadili."
     - dimension_id: sila-2
       score: 0
       confidence: 0.75
@@ -8620,6 +8693,7 @@
         - ev-ky-advokasi-independensi-hakim-2016
       antithesis_id: Advokasi perlindungan hakim berjalan sementara perlindungan bagi pelapor dan saksi yang mengadukan perilaku hakim tidak dibangun setara, sehingga risiko justru ditanggung pihak yang paling lemah kedudukannya.
       synthesis_id: Skor Netral (0) karena keselamatan hakim diadvokasikan sementara perlindungan bagi pelapor dan saksi yang mengadukan hakim tidak dibangun setara.
+      thesis_id: "Dalil formal Komisi Yudisial: jaminan keamanan dan perlindungan hakim diadvokasikan pada 2016 setelah rangkaian ancaman terhadap hakim yang menangani perkara sensitif."
     - dimension_id: sila-3
       score: 0
       confidence: 0.7
@@ -8634,6 +8708,7 @@
         - ev-ky-pemantauan-sidang-pemilu-2019
       antithesis_id: Pemantauan terpadu dilakukan secara selektif pada perkara yang mendapat sorotan, sementara ribuan persidangan lain di daerah berlangsung tanpa pengawasan karena keterbatasan personel dan kantor penghubung.
       synthesis_id: Skor Netral (0) karena pemantauan terpadu dibawa ke daerah secara selektif pada perkara yang disorot, sementara ribuan persidangan lain berlangsung tanpa pengawasan.
+      thesis_id: "Dalil formal Komisi Yudisial: pemantauan terpadu atas persidangan sengketa di daerah dijalankan pada 2019 dengan menurunkan tim ke lokasi perkara, memastikan standar peradilan yang sama berlaku di luar pusat."
     - dimension_id: sila-4
       score: 0
       confidence: 0.8
@@ -8648,6 +8723,7 @@
         - ev-ky-deklarasi-integritas-2018
       antithesis_id: Deklarasi bersama menghasilkan komitmen tanpa mekanisme penegakan, sehingga nilainya bergantung pada kesediaan masing-masing penanda tangan dan tidak dapat ditagih ketika komitmen itu diabaikan.
       synthesis_id: Skor Netral (0) karena deklarasi bersama integritas peradilan menghasilkan komitmen lintas lembaga tanpa mekanisme penegakan yang dapat ditagih.
+      thesis_id: "Dalil formal Komisi Yudisial: deklarasi bersama integritas peradilan 2018 melibatkan lembaga penegak hukum dan organisasi masyarakat sipil, membangun komitmen pengawasan lintas pemangku kepentingan."
     - dimension_id: sila-5
       score: 0
       confidence: 0.75
@@ -8660,6 +8736,7 @@
         - ev-ky-pemantauan-korupsi-ektp-2017
       antithesis_id: Kehadiran pemantau mengubah perilaku di ruang sidang selama pemantauan berlangsung, tetapi tidak dapat menjangkau tahap penyusunan putusan tempat penyimpangan yang paling menentukan biasanya terjadi.
       synthesis_id: Skor Netral (0) karena kehadiran pemantau mengubah perilaku selama persidangan berlangsung tetapi tidak menjangkau tahap penyusunan putusan tempat penyimpangan paling menentukan terjadi.
+      thesis_id: "Dalil formal Komisi Yudisial: tim pemantau persidangan diterjunkan pada 2017 untuk perkara yang menyangkut hak masyarakat kecil, agar ketimpangan kedudukan para pihak tidak berlanjut menjadi ketimpangan perlakuan."
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.7
@@ -8674,6 +8751,7 @@
         - ev-ky-kerjasama-kpk-2019
       antithesis_id: Kerangka kerja sama disepakati di tingkat pusat tetapi penerapannya di pengadilan daerah bergantung pada inisiatif aparat setempat, sehingga perlindungan yang dijanjikan tidak merata.
       synthesis_id: Skor Netral (0) karena kerangka kerja sama pengamanan persidangan disepakati di tingkat pusat sementara penerapannya di daerah bergantung pada inisiatif aparat setempat.
+      thesis_id: "Dalil formal Komisi Yudisial: nota kesepahaman dengan aparat keamanan pada 2019 membangun kerangka kerja sama perlindungan hakim dan pengamanan persidangan."
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.75
@@ -8688,6 +8766,7 @@
         - ev-ky-mkh-penegakan
       antithesis_id: Pemberhentian dilakukan atas perkara yang sudah terungkap lewat operasi tangkap tangan lembaga lain, sehingga fungsi pencegahan KY sendiri belum terbukti mampu mendeteksi sebelum penyimpangan terjadi.
       synthesis_id: Skor Netral (0) karena hakim penerima suap diberhentikan setelah perkaranya terungkap lembaga lain, sehingga fungsi pencegahan KY sendiri belum terbukti bekerja.
+      thesis_id: "Dalil formal Komisi Yudisial: hakim penerima suap diberhentikan lewat sidang Majelis Kehormatan Hakim 2019, menegakkan kepastian bahwa putusan tidak dapat dibeli."
     - dimension_id: tujuan-3
       score: 0
       confidence: 0.75
@@ -8702,6 +8781,7 @@
         - ev-ky-mkh-penegakan
       antithesis_id: Publikasi hasil sidang etik terbuka bagi publik, tetapi rekomendasi sanksi yang tidak dieksekusi Mahkamah Agung tidak dilaporkan dengan sama terbukanya sehingga gambaran yang diterima publik tidak utuh.
       synthesis_id: Skor Netral (0) karena hasil sidang etik dipublikasikan sementara rekomendasi yang ditolak Mahkamah Agung tidak dilaporkan sama terbukanya, sehingga gambaran publik tidak utuh.
+      thesis_id: "Dalil formal Komisi Yudisial: hasil sidang Majelis Kehormatan Hakim dan rekomendasi sanksi dipublikasikan terbuka sepanjang periode sebagai bahan belajar publik tentang standar perilaku pemangku kekuasaan."
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.7
@@ -8716,6 +8796,7 @@
         - ev-ky-mkh-penegakan
       antithesis_id: Penyelarasan berlangsung pada tataran komitmen dan metode, sementara indikator yang paling diperhatikan mitra internasional yaitu tingkat eksekusi sanksi tetap menjadi kelemahan yang berulang dilaporkan.
       synthesis_id: Skor Netral (0) karena penyelarasan dengan standar integritas internasional berjalan pada tataran komitmen sementara tingkat eksekusi sanksi tetap menjadi kelemahan yang berulang.
+      thesis_id: "Dalil formal Komisi Yudisial: praktik pemantauan persidangan dan penegakan etik diselaraskan dengan standar integritas yudisial internasional lewat kerja sama dan deklarasi bersama 2018."
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.8
@@ -8728,6 +8809,7 @@
         - ev-ky-mkh-penegakan
       antithesis_id: Jalur pengaduan terbuka dan sebagian berujung sidang etik, tetapi rasio antara pengaduan yang masuk dan yang berujung sanksi tetap sangat kecil sehingga sebagian besar pengadu tidak memperoleh penyelesaian.
       synthesis_id: Skor Netral (0) karena pengaduan warga ditindaklanjuti hingga forum pemberhentian, tepat sebanding dengan rasio pengaduan berujung sanksi yang tetap sangat kecil.
+      thesis_id: "Dalil formal Komisi Yudisial: pengaduan masyarakat atas perilaku hakim dibuka dan ditindaklanjuti hingga sidang Majelis Kehormatan Hakim 2019, memberi warga jalur menuntut pertanggungjawaban pemangku kekuasaan mengadili."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -8782,6 +8864,7 @@
         - ev-ky-pemantauan-sambo-2023
       antithesis_id: Digitalisasi pemantauan dan uji publik terbuka memperluas jangkauan pengawasan, tetapi berlangsung pada periode ketika hakim agung tertangkap tangan menerima suap - wilayah yang justru berada di luar kewenangan KY sejak 2006.
       synthesis_id: Skor Baik (+1) karena pemantauan persidangan didigitalkan dan uji kelayakan calon hakim dibuka kepada publik, memperluas jangkauan pengawasan dengan sumber daya yang tetap terbatas.
+      thesis_id: "Dalil formal Komisi Yudisial: pemantauan persidangan didigitalkan dan uji publik kelayakan calon hakim agung serta hakim ad hoc dibuka kepada masyarakat, memperluas jangkauan pengawasan."
     - dimension_id: checks-balances
       score: 0
       confidence: 0.85
@@ -8799,8 +8882,9 @@
         - uud-nri-1945
       event_ids:
         - ev-ky-audit-integritas-cha-2025
-      antithesis_id: Koordinasi dengan KPK dan Kejaksaan diperkuat setelah operasi tangkap tangan hakim agung 2022, dan investigasi khusus atas skandal Zarof Ricar dijalankan bersama Kejaksaan Agung pada 2024.
+      antithesis_id: Kewenangan memeriksa hakim agung tetap tertutup sejak Putusan MK 005/PUU-IV/2006, sehingga pada simpul tempat penyimpangan terbesar justru terjadi, Komisi Yudisial hanya dapat bekerja lewat lembaga lain yang bersedia membuka akses.
       synthesis_id: Skor Netral (0) karena penguatan koordinasi pengawasan terpadu berjalan tepat sebanding dengan tetap tertutupnya kewenangan KY atas hakim agung, simpul tempat penyimpangan terbesar justru terjadi.
+      thesis_id: "Dalil formal Komisi Yudisial: koordinasi pengawasan terpadu dengan KPK dan Kejaksaan Agung diperkuat setelah operasi tangkap tangan hakim agung 2022, dan investigasi khusus atas skandal Zarof Ricar dijalankan bersama pada 2024."
     - dimension_id: sila-1
       score: 0
       confidence: 0.7
@@ -8815,6 +8899,7 @@
         - ev-ky-kasus-zarof-ricar-2024
       antithesis_id: Investigasi dijalankan bersama penegak hukum lain karena KY sendiri tidak berwenang memeriksa hakim agung, sehingga perannya bergantung pada kesediaan lembaga lain membuka akses.
       synthesis_id: Skor Netral (0) karena investigasi skandal mafia peradilan dijalankan bersama penegak hukum lain, sebab KY sendiri tidak berwenang memeriksa hakim agung yang menjadi pusat perkaranya.
+      thesis_id: "Dalil formal Komisi Yudisial: investigasi khusus bersama Kejaksaan Agung pada 2024 atas skandal mafia peradilan Zarof Ricar menegakkan pertanggungjawaban etik atas praktik yang merusak amanah jabatan mengadili."
     - dimension_id: sila-2
       score: 0
       confidence: 0.75
@@ -8829,6 +8914,7 @@
         - ev-ky-seleksi-ha-2021
       antithesis_id: Seleksi hakim ad hoc HAM diselenggarakan, tetapi pengadilan HAM yang menjadi tempat mereka bertugas nyaris tidak menerima perkara karena penyidikan pelanggaran HAM berat mandek di kejaksaan.
       synthesis_id: Skor Netral (0) karena jabatan hakim ad hoc HAM diisi lewat seleksi terbuka sementara pengadilan tempat mereka bertugas nyaris tidak menerima perkara karena penyidikan mandek di kejaksaan.
+      thesis_id: "Dalil formal Komisi Yudisial: seleksi calon hakim agung dan hakim ad hoc hak asasi manusia diselenggarakan pada 2021, mengisi jabatan yang menentukan penanganan perkara pelanggaran HAM berat."
     - dimension_id: sila-3
       score: 0
       confidence: 0.7
@@ -8843,6 +8929,7 @@
         - ev-ky-laptah-penegakan-2023
       antithesis_id: Rekomendasi menjangkau hakim di berbagai wilayah, tetapi sebagian besar tidak dieksekusi Mahkamah Agung sehingga keseragaman standar yang dituju tidak terwujud dalam konsekuensi nyata.
       synthesis_id: Skor Netral (0) karena rekomendasi sanksi menjangkau hakim di berbagai wilayah tetapi sebagian besar tidak dieksekusi Mahkamah Agung, sehingga keseragaman standar tidak terwujud.
+      thesis_id: "Dalil formal Komisi Yudisial: Laporan Kinerja 2023 memuat rekomendasi sanksi atas hakim dari berbagai wilayah, menegakkan standar integritas yang seragam bagi peradilan di seluruh daerah."
     - dimension_id: sila-4
       score: 0
       confidence: 0.8
@@ -8857,6 +8944,7 @@
         - ev-mkh-ky-ma-integritas-hakim-2023
       antithesis_id: Forum bersama mensyaratkan kesepakatan dua lembaga untuk digelar, sehingga perkara yang tidak disetujui Mahkamah Agung tidak pernah sampai ke sidang meski rekomendasi KY sudah keluar.
       synthesis_id: Skor Netral (0) karena forum bersama pemeriksa etik tetap mensyaratkan persetujuan Mahkamah Agung untuk digelar, sehingga perkara yang tidak disetujui tidak pernah sampai ke sidang.
+      thesis_id: "Dalil formal Komisi Yudisial: sidang Majelis Kehormatan Hakim bersama Mahkamah Agung pada 2023 mempertemukan pengawas internal dan eksternal dalam memutus nasib hakim yang diadukan."
     - dimension_id: sila-5
       score: 0
       confidence: 0.75
@@ -8871,6 +8959,7 @@
         - ev-ky-ott-sudrajad-2022
       antithesis_id: Pemeriksaan etik dilakukan setelah penangkapan oleh lembaga lain dan terbatas pada aspek yang dapat diakses KY, karena kewenangan memeriksa hakim agung telah dicabut Mahkamah Konstitusi sejak 2006.
       synthesis_id: Skor Netral (0) karena pemeriksaan etik dilakukan setelah penangkapan oleh lembaga lain dan terbatas pada aspek yang dapat diakses KY.
+      thesis_id: "Dalil formal Komisi Yudisial: pemeriksaan etik khusus dilakukan pada 2022 setelah operasi tangkap tangan hakim agung dalam perkara koperasi simpan pinjam, menelusuri penyimpangan pada perkara yang menyangkut dana masyarakat kecil."
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.7
@@ -8885,6 +8974,7 @@
         - ev-ky-rekomendasi-mkh-surabaya-2024
       antithesis_id: Rekomendasi pemecatan dikeluarkan setelah perkaranya menjadi sorotan nasional dan setelah vonis bebas sempat dijatuhkan, sehingga koreksi datang terlambat bagi keluarga korban.
       synthesis_id: Skor Baik (+1) karena hakim yang memutus atas dasar suap dalam perkara kematian direkomendasikan dipecat, menegakkan perlindungan warga atas keadilan yang tidak dapat dibeli.
+      thesis_id: "Dalil formal Komisi Yudisial: tiga hakim Pengadilan Negeri Surabaya direkomendasikan dipecat pada 2024 setelah terbukti melanggar berat dalam perkara yang menyangkut nyawa korban."
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.75
@@ -8899,6 +8989,7 @@
         - ev-ky-klinik-etik-hukum-2021
       antithesis_id: Program klinik etik memperluas pengetahuan tentang jalur pengaduan, tetapi tidak mengubah kenyataan bahwa sebagian besar pengaduan berakhir tanpa sanksi sehingga pengetahuan itu tidak selalu berujung pemulihan.
       synthesis_id: Skor Netral (0) karena klinik etik memperluas pengetahuan tentang jalur pengaduan tanpa mengubah kenyataan bahwa sebagian besar pengaduan berakhir tanpa sanksi.
+      thesis_id: "Dalil formal Komisi Yudisial: Program Nasional Klinik Etik dan Advokasi Kehakiman sejak 2021 membekali warga dan pelaku usaha memahami jalur pengaduan perilaku hakim."
     - dimension_id: tujuan-3
       score: 0
       confidence: 0.75
@@ -8911,6 +9002,7 @@
         - ev-ky-laporan-kehormatan-hakim-2023
       antithesis_id: Laporan tahunan memuat data rekomendasi tetapi tidak dapat melaporkan alasan Mahkamah Agung menolak sebagian besarnya, sehingga bagian paling penting bagi pembelajaran publik justru tidak tersedia.
       synthesis_id: Skor Netral (0) karena data rekomendasi dipublikasikan tanpa dapat melaporkan alasan penolakannya oleh Mahkamah Agung, bagian yang justru paling penting bagi pembelajaran publik.
+      thesis_id: "Dalil formal Komisi Yudisial: Laporan Tahunan 2023 memuat rekomendasi sanksi etik beserta data pengaduan secara terbuka, menjaga kinerja pengawasan peradilan dapat diperiksa publik."
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.7
@@ -8925,6 +9017,7 @@
         - ev-ky-pemantauan-kanjuruhan-2023
       antithesis_id: Pemantauan menjaga standar prosedural dalam persidangan yang disorot, tetapi tidak menyentuh persoalan substantif yang paling dipersoalkan dunia internasional yaitu pemberlakuan pidana mati itu sendiri.
       synthesis_id: Skor Netral (0) karena pemantauan menjaga standar prosedural persidangan yang disorot tanpa menyentuh persoalan substantif yang paling dipersoalkan dunia internasional.
+      thesis_id: "Dalil formal Komisi Yudisial: tim pemantau khusus diterjunkan pada 2023 untuk persidangan yang menarik perhatian internasional, menjaga standar peradilan Indonesia sesuai kaidah yang diakui global."
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.8
@@ -8939,6 +9032,7 @@
         - ev-ky-laptah-2025
       antithesis_id: Skrining kekayaan dan rekam jejak diperkuat pada tahap seleksi, tetapi keputusan akhir pengisian jabatan hakim agung tetap berada pada uji kelayakan DPR yang pertimbangannya tidak dibuka kepada publik.
       synthesis_id: Skor Netral (0) karena penelusuran kekayaan dan rekam jejak calon hakim diperkuat pada tahap seleksi, sementara keputusan akhir tetap pada uji kelayakan DPR yang pertimbangannya tidak dibuka.
+      thesis_id: "Dalil formal Komisi Yudisial: skrining LHKPN digital dan penelusuran latar belakang calon hakim diterapkan sejak 2025, memperluas kemampuan publik menilai integritas pemangku kekuasaan kehakiman."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
