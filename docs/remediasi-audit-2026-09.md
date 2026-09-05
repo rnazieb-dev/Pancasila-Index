@@ -298,6 +298,54 @@ Pagar baru: build menolak skor dimensi yang tesis, antitesis, atau sintesisnya
 kosong; menolak tesis yang sama persis dengan rasional atau antitesis; dan
 tesis kini ikut diawasi ambang pengulangan >3 kali.
 
+## Gelombang ketujuh: pengungkapan AI yang tidak jujur tentang dirinya sendiri
+
+Enam gelombang sebelumnya membersihkan **isi** indeks. Gelombang ini
+membersihkan lapisan yang seharusnya paling jujur: pengungkapan AI itu sendiri.
+
+**Sertifikasi-mandiri kepatuhan hukum.** `article_50_compliant` bertipe
+`z.literal(true)` — secara tipe, ketidakpatuhan mustahil dinyatakan — dan UI
+menampilkannya sebagai lencana hijau *"EU AI Act Art. 50 Compliant"* pada 50
+penilaian. Tidak ada pihak ketiga yang pernah menilainya. Penerbit tidak boleh
+menyatakan dirinya patuh hukum; yang boleh dinyatakan hanya fakta yang dapat
+diperiksa. Diganti `article_50_disclosed` (pengungkapan sudah dilakukan) dan
+`independently_audited: false`. Lencana kini amber: *"Diungkap · belum diaudit
+independen"*.
+
+**Pengungkapan yang mengecilkan peran AI.** Dialog transparansi menyatakan AI
+*"hanya digunakan sebagai alat bantu klasifikasi heuristik dan sintesis awal
+dokumen"*. Terbalik dari kenyataan: model mengarang seluruh skor, rasional,
+tesis, antitesis, dan sintesis. Mengecilkan peran AI **di dalam lembar
+transparansi** adalah kebalikan dari transparansi. `analysis_type` juga
+menyimpan `llm-assisted-synthesis`, yang menyiratkan manusia sebagai penyusun;
+ditambahkan nilai jujur `llm-authored-draft`.
+
+**Default skema yang mengklaim verifikasi manusia.** Default
+`limitations_notice` berbunyi *"sepenuhnya diverifikasi oleh penelaah manusia"*
+padahal `approver_count = 0` di seluruh dataset. Ranjau diam: berlaku otomatis
+pada penilaian baru mana pun yang tidak menuliskan catatannya sendiri.
+
+**Skrip yang mengarang penelaah.** `enrich-milestones-eu-ai.mts` menulis
+`status: "verified"`, `approver_count: 2`, dan dua nama karangan — *"Pakar
+Hukum Tata Negara"* dan *"Penelaah Sejarah"*. Kombinasi itu **lolos validasi
+skema** karena jumlah nama cocok dengan hitungannya. Sekali skrip itu
+dijalankan ulang, seluruh remediasi enam gelombang terhapus diam-diam.
+
+Perbaikan lain pada gelombang ini:
+
+| Cacat | Sebelum | Sesudah |
+| --- | --- | --- |
+| Label sumber | "Dokumen Primer Terverifikasi" (648, nol `human_verified`) | "Dokumen Primer Tersitasi" + "33 belum terverifikasi" |
+| Angka prosa basi | 578 / 634 sumber, 695 / 636 peristiwa | dibaca dari `dataset.*.length` |
+| Penanda AI per dimensi | teks "belum ditinjau" dihardcode | dibaca dari `human_oversight` |
+| Sintesis pada cabang fallback | tidak pernah tampil | ikut tampil |
+| `*Human-in-the-Loop*` | asterisk tampil harfiah di JSX | `<em>` |
+
+Pagar baru (build guard 7b, diuji negatif — build gagal saat dilanggar) menolak
+`analysis_type` yang mengecilkan peran AI selagi `approver_count = 0`,
+`limitations_notice` yang mengklaim verifikasi manusia, dan
+`independently_audited` yang dinaikkan sendiri tanpa audit pihak ketiga.
+
 ## Sisa pekerjaan (butuh manusia, bukan model)
 
 - **Menelaah 201 skor hasil rescoring AI.** Seluruhnya sudah disetel ulang

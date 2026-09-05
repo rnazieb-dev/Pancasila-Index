@@ -156,6 +156,17 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
       569/569 skor punya tesis-antitesis-sintesis yang utuh dan pada tempatnya.
       Pagar baru menolak dialektika yang tidak lengkap, tesis yang menyalin
       rasional atau antitesis, dan tesis yang diulang lebih dari 3 kali.
+- [x] **Fase 19: Pengungkapan AI yang jujur tentang dirinya sendiri** ✅
+      Enam fase sebelumnya membersihkan isi indeks; fase ini membersihkan
+      lapisan yang seharusnya paling jujur. Dicabut: sertifikasi-mandiri
+      kepatuhan EU AI Act (`article_50_compliant` bertipe `z.literal(true)`
+      sehingga ketidakpatuhan mustahil dinyatakan, tampil sebagai lencana hijau
+      "Compliant"); pernyataan bahwa AI "hanya alat bantu klasifikasi" padahal
+      model mengarang seluruh skor dan dialektika; default `limitations_notice`
+      yang mengklaim verifikasi manusia dengan `approver_count = 0`; dan skrip
+      `enrich-milestones-eu-ai.mts` yang mengarang dua nama penelaah lengkap
+      dengan `approver_count: 2` — kombinasi yang lolos validasi skema dan
+      sekali dijalankan ulang akan menghapus seluruh remediasi diam-diam.
 
 ## Definisi Selesai v1.0 (TERCAPAI PENUH ✅)
 
