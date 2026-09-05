@@ -24,7 +24,13 @@ if (!patchFile) throw new Error("pemakaian: dialektika-apply.mts <patch.json>");
 
 const patch = JSON.parse(readFileSync(patchFile, "utf8")) as Record<
   string,
-  { score?: number; rationale_id?: string; antithesis_id?: string; synthesis_id: string }
+  {
+    score?: number;
+    rationale_id?: string;
+    thesis_id?: string;
+    antithesis_id?: string;
+    synthesis_id: string;
+  }
 >;
 const assessments = parse(readFileSync(PATH, "utf8")) as any[];
 
@@ -44,16 +50,26 @@ for (const [k, v] of Object.entries(patch)) {
   // antithesis_id boleh dihilangkan pada patch yang hanya menyetel ulang skor;
   // yang lama dipertahankan apa adanya.
   for (const [field, teks] of [
+    ["thesis_id", v.thesis_id],
     ["antithesis_id", v.antithesis_id],
     ["synthesis_id", v.synthesis_id],
   ] as const) {
-    if (field === "antithesis_id" && teks === undefined) continue;
+    if (field !== "synthesis_id" && teks === undefined) continue;
     if (!teks || teks.trim().length < 40) galat.push(`${k}: ${field} terlalu pendek`);
     else if (TERPOTONG.test(teks.trim())) galat.push(`${k}: ${field} terpotong di nomor dokumen`);
   }
   if (v.rationale_id !== undefined) {
     if (v.rationale_id.trim().length < 40) galat.push(`${k}: rationale_id terlalu pendek`);
     if (TERPOTONG.test(v.rationale_id.trim())) galat.push(`${k}: rationale_id terpotong di nomor dokumen`);
+  }
+  // Tesis adalah dalil formal institusi - bukan salinan rasional maupun
+  // pengulangan antitesis. Kesamaan persis berarti dialektikanya semu.
+  const tesisBaru = v.thesis_id ?? d.thesis_id;
+  const antiBaru = v.antithesis_id ?? d.antithesis_id;
+  const ratBaru = v.rationale_id ?? d.rationale_id;
+  if (tesisBaru) {
+    if (tesisBaru.trim() === ratBaru.trim()) galat.push(`${k}: thesis_id sama persis dengan rationale_id`);
+    if (antiBaru && tesisBaru.trim() === antiBaru.trim()) galat.push(`${k}: thesis_id sama persis dengan antithesis_id`);
   }
   const skorBaru = v.score ?? d.score;
   if (v.score !== undefined && (!Number.isInteger(v.score) || v.score < -2 || v.score > 2)) {
@@ -75,6 +91,7 @@ for (const a of assessments) {
   for (const d of a.dimension_scores) {
     const k = `${a.id}::${d.dimension_id}`;
     const p = patch[k];
+    catat(p?.thesis_id ?? d.thesis_id);
     catat(p?.antithesis_id ?? d.antithesis_id);
     catat(p ? p.synthesis_id : d.synthesis_id);
   }
@@ -108,6 +125,7 @@ for (const [k, v] of Object.entries(patch)) {
   const d = index.get(k);
   if (v.score !== undefined) d.score = v.score;
   if (v.rationale_id !== undefined) d.rationale_id = v.rationale_id;
+  if (v.thesis_id !== undefined) d.thesis_id = v.thesis_id;
   if (v.antithesis_id !== undefined) d.antithesis_id = v.antithesis_id;
   d.synthesis_id = v.synthesis_id;
 }
