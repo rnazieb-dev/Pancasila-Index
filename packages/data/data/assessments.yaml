@@ -1869,6 +1869,7 @@
         - ev-dpr99-amandemen-uud
       antithesis_id: Jaminan konstitusional kebebasan beragama dirumuskan tanpa menyentuh UU No. 1/PNPS/1965 yang membatasi agama yang diakui, sehingga norma tertinggi menjamin kebebasan sementara undang-undang di bawahnya tetap membatasinya.
       synthesis_id: Skor Baik (+1) karena kebebasan beragama untuk pertama kalinya dijamin langsung oleh konstitusi sebagai hak yang tidak dapat dikurangi, meski peraturan pembatas di bawahnya dibiarkan berlaku.
+      thesis_id: "Dalil formalnya: DPR bersama MPR menetapkan Pasal 28E dan 28I dalam Perubahan Kedua UUD 1945, yang untuk pertama kalinya menempatkan kebebasan beragama sebagai hak konstitusional yang tidak dapat dikurangi dalam keadaan apa pun."
     - dimension_id: sila-2
       score: 1
       confidence: 0.85
@@ -1885,6 +1886,7 @@
         - uud-nri-1945
       antithesis_id: Bab XA memasukkan katalog HAM ke dalam konstitusi, tetapi dewan yang sama mengesahkan UU Antiterorisme dengan kewenangan penahanan luas dan tidak pernah menggunakan hak penyelidikannya atas kegagalan Pengadilan HAM Ad Hoc.
       synthesis_id: Skor Baik (+1) karena hak asasi diangkat menjadi materi muatan konstitusi yang mengikat seluruh penyelenggara negara, capaian normatif yang tidak dapat dicabut oleh undang-undang biasa.
+      thesis_id: "Dalil formalnya: Bab XA UUD 1945 hasil Perubahan Kedua memuat katalog hak asasi manusia lengkap dari Pasal 28A sampai 28J, mengikat seluruh penyelenggara negara dan tidak dapat dicabut undang-undang biasa."
     - dimension_id: sila-3
       score: 1
       confidence: 0.55
@@ -1898,6 +1900,7 @@
         - ev-dpr-uu-perjanjian-internasional
       antithesis_id: Desentralisasi luas dan pemisahan Polri dari militer memperkuat integrasi, tetapi otonomi tanpa pengendalian pemekaran memicu pembentukan daerah baru yang tidak layak secara fiskal dan menumbuhkan politik identitas lokal.
       synthesis_id: Skor Baik (+1) karena kerangka hukum desentralisasi menggantikan sentralisme Orde Baru dan memberi wilayah ruang mengurus dirinya di dalam negara kesatuan.
+      thesis_id: "Dalil formalnya: DPR mengesahkan UU No. 22 Tahun 1999 tentang Pemerintahan Daerah dan UU No. 2 Tahun 2002 tentang Kepolisian, membongkar sentralisme dan memisahkan Polri dari struktur militer."
     - dimension_id: sila-4
       score: 2
       confidence: 0.85
@@ -1914,6 +1917,7 @@
         - uud-nri-1945
       antithesis_id: "Amandemen dirancang lewat kompromi antarfraksi yang meninggalkan pekerjaan setengah jadi: DPD dibentuk tanpa kewenangan legislasi yang setara, dan usul membentuk komisi konstitusi independen ditolak agar perumusan tetap di tangan politisi."
       synthesis_id: Skor Sangat Baik (+2) karena empat tahap perubahan UUD 1945 menata ulang seluruh arsitektur kekuasaan - pembatasan masa jabatan, pemilihan langsung, dan peradilan konstitusi - tanpa satu pun tembakan.
+      thesis_id: "Dalil formalnya: empat tahap Perubahan UUD 1945 diselesaikan pada 2002, menata ulang seluruh arsitektur kekuasaan mulai dari pembatasan masa jabatan presiden hingga pemilihan langsung dan peradilan konstitusi."
     - dimension_id: sila-5
       score: 1
       confidence: 0.85
@@ -1933,6 +1937,7 @@
         - uud-nri-1945
       antithesis_id: Perimbangan keuangan pusat-daerah memindahkan sumber daya tanpa formula yang mengoreksi kesenjangan awal, sehingga daerah kaya sumber daya alam melaju sementara daerah miskin tetap bergantung dana alokasi umum.
       synthesis_id: Skor Baik (+1) karena desentralisasi fiskal memberi daerah kendali atas belanja pembangunannya sendiri, membuka ruang keadilan antarwilayah yang tertutup selama tiga dasawarsa.
+      thesis_id: "Dalil formalnya: UU No. 25 Tahun 1999 tentang Perimbangan Keuangan memberi daerah bagian atas penerimaan negara dan kendali atas belanja pembangunannya sendiri, memutus aliran satu arah ke pusat."
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.85
@@ -1948,6 +1953,7 @@
         - ev-dpr-uu-ppatk-2002
       antithesis_id: Supremasi sipil ditegakkan di atas kertas melalui UU Pertahanan dan UU Kepolisian, tetapi peradilan militer tetap berwenang mengadili prajurit atas pidana umum sehingga akuntabilitas aparat terhadap warga belum sepenuhnya berpindah ke peradilan sipil.
       synthesis_id: Skor Baik (+1) karena TNI ditempatkan di bawah kebijakan pertahanan yang ditetapkan otoritas sipil dan Polri dipisahkan dari struktur militer, membongkar dwifungsi secara hukum.
+      thesis_id: "Dalil formalnya: UU No. 3 Tahun 2002 tentang Pertahanan Negara menempatkan TNI di bawah kebijakan pertahanan yang ditetapkan otoritas sipil, membongkar dwifungsi secara hukum."
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.85
@@ -1965,6 +1971,7 @@
         - ev-uu-sisdiknas-2003
       antithesis_id: Paket UU Keuangan Negara menertibkan siklus anggaran tetapi tidak menyentuh penyelesaian BLBI yang sedang berjalan, sehingga disiplin fiskal baru dibangun sambil kerugian negara terbesar dalam sejarah dibiarkan tanpa pemulihan.
       synthesis_id: Skor Baik (+1) karena tata kelola keuangan negara modern - perencanaan, perbendaharaan, dan pemeriksaan - dilembagakan dan menjadi rujukan seluruh pemerintahan sesudahnya.
+      thesis_id: "Dalil formalnya: UU No. 17 Tahun 2003, UU No. 1 Tahun 2004, dan UU No. 15 Tahun 2004 melembagakan siklus perencanaan, perbendaharaan, dan pemeriksaan keuangan negara yang tertib."
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.45
@@ -1978,6 +1985,7 @@
         - ev-uu-kpk-2002
       antithesis_id: Mandat 20 persen anggaran pendidikan ditulis ke dalam konstitusi tanpa mekanisme pemaksa, sehingga selama bertahun-tahun tidak dipenuhi dan pemenuhannya harus dikejar lewat serangkaian gugatan ke Mahkamah Konstitusi.
       synthesis_id: Skor Baik (+1) karena kewajiban anggaran pendidikan diangkat menjadi norma konstitusional yang tidak dapat ditawar pemerintah mana pun, dasar bagi seluruh perluasan akses pendidikan sesudahnya.
+      thesis_id: "Dalil formalnya: Pasal 31 ayat (4) UUD 1945 hasil Perubahan Keempat mewajibkan negara mengalokasikan sekurang-kurangnya dua puluh persen anggaran negara bagi pendidikan."
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.8
@@ -1991,6 +1999,7 @@
         - ev-dpr99-amandemen-uud
       antithesis_id: UU Perjanjian Internasional mengatur prosedur ratifikasi tetapi memberi pemerintah keleluasaan menentukan perjanjian mana yang cukup lewat peraturan presiden, sehingga kontrol parlemen atas komitmen internasional tetap terbatas.
       synthesis_id: Skor Baik (+1) karena Indonesia memperoleh dasar hukum yang tertib untuk mengikatkan diri pada perjanjian internasional, prasyarat keikutsertaan yang kredibel dalam tata dunia.
+      thesis_id: "Dalil formalnya: UU No. 24 Tahun 2000 tentang Perjanjian Internasional memberi Indonesia prosedur yang tertib untuk mengikatkan diri pada perjanjian internasional."
     - dimension_id: negara-hukum
       score: 2
       confidence: 0.85
@@ -2018,6 +2027,7 @@
         - uud-nri-1945
       antithesis_id: Arsitektur antikorupsi dibangun oleh dewan yang sebagian anggotanya kemudian menjadi terdakwa lembaga yang mereka dirikan sendiri, dan UU KPK memuat ketentuan pimpinan kolektif yang belakangan menjadi celah pelumpuhan dari dalam.
       synthesis_id: Skor Sangat Baik (+2) karena KPK, Mahkamah Konstitusi, dan Komisi Yudisial didirikan sekaligus dalam satu periode - fondasi kelembagaan negara hukum pasca-otoritarian yang paling menentukan.
+      thesis_id: "Dalil formalnya: dewan ini mendirikan tiga pilar sekaligus - KPK lewat UU No. 30 Tahun 2002, Mahkamah Konstitusi lewat UU No. 24 Tahun 2003, dan Komisi Yudisial lewat amandemen konstitusi."
     - dimension_id: checks-balances
       score: 2
       confidence: 0.85
@@ -2044,6 +2054,7 @@
         - uud-nri-1945
       antithesis_id: Mekanisme pemakzulan yang dirancang mensyaratkan putusan Mahkamah Konstitusi lebih dulu, tetapi keputusan akhir tetap berada di tangan MPR sehingga pertimbangan politik masih dapat mengalahkan putusan hukum.
       synthesis_id: Skor Sangat Baik (+2) karena Mahkamah Konstitusi, Komisi Yudisial, dan BPK yang independen dibentuk sekaligus dengan prosedur pemakzulan yang berbasis putusan pengadilan, bukan lagi selera politik semata.
+      thesis_id: "Dalil formalnya: amandemen membentuk Mahkamah Konstitusi, Komisi Yudisial, dan BPK yang independen, serta menetapkan pemakzulan presiden harus didahului putusan pengadilan konstitusi."
     - dimension_id: kedaulatan-rakyat
       score: 2
       confidence: 0.85
@@ -2063,6 +2074,7 @@
         - uud-nri-1945
       antithesis_id: Pemilihan presiden dipindahkan kepada rakyat tetapi jalur pencalonan dikunci bagi partai atau gabungan partai, sehingga kedaulatan rakyat pada tahap penentuan kandidat tetap berada di tangan pengurus partai.
       synthesis_id: Skor Sangat Baik (+2) karena hak memilih presiden dipindahkan dari 700 anggota MPR ke seluruh pemilih dewasa, perubahan paling mendasar pada letak kedaulatan sejak 1945.
+      thesis_id: "Dalil formalnya: UU No. 23 Tahun 2003 memindahkan penentuan Presiden dari 700 anggota MPR kepada seluruh pemilih dewasa, perubahan paling mendasar pada letak kedaulatan sejak 1945."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -2108,6 +2120,7 @@
         - ev-dpr04-ky
       antithesis_id: Dewan memiliki hak interpelasi dan angket untuk mempersoalkan SKB Ahmadiyah yang memicu kekerasan, tetapi tidak satu pun digunakan; fungsi pengawasan justru absen persis pada kebijakan yang menyangkut hak yang tidak dapat dikurangi.
       synthesis_id: Skor Netral (0) karena dewan tidak menerbitkan legislasi yang memperburuk kebebasan beragama, tetapi juga tidak menggunakan satu pun instrumen pengawasannya untuk mengoreksi kebijakan diskriminatif eksekutif.
+      thesis_id: "Dalil formalnya: dewan tidak menerbitkan satu pun undang-undang yang membatasi kebebasan beragama sepanjang periode, dan penerbitan surat keputusan bersama atas Ahmadiyah berada di ranah kewenangan eksekutif."
     - dimension_id: sila-2
       score: 1
       confidence: 0.85
@@ -2124,6 +2137,7 @@
         - ev-dpr04-kepemilihan
       antithesis_id: UU Pemerintahan Aceh memberi landasan rekonsiliasi tetapi menghapus ketentuan pengadilan HAM untuk pelanggaran sebelum 2006, sehingga korban darurat militer kehilangan jalur peradilan yang dijanjikan MoU Helsinki.
       synthesis_id: Skor Baik (+1) karena perdamaian Aceh memperoleh dasar undang-undang yang memungkinkan bekas kombatan berpolitik secara sah, mengakhiri konflik bersenjata tiga dekade.
+      thesis_id: "Dalil formalnya: UU No. 11 Tahun 2006 tentang Pemerintahan Aceh memberi landasan hukum bagi rekonsiliasi pasca-konflik, memungkinkan bekas kombatan berpolitik secara sah."
     - dimension_id: sila-3
       score: 1
       confidence: 0.85
@@ -2139,6 +2153,7 @@
         - uud-nri-1945
       antithesis_id: Penyempurnaan kerangka desentralisasi berjalan bersamaan dengan ledakan pemekaran daerah yang sebagian besar didorong kepentingan elite lokal dan berujung ketergantungan fiskal pada pusat.
       synthesis_id: Skor Baik (+1) karena kerangka hukum pemerintahan daerah disempurnakan dengan pengaturan pemilihan kepala daerah langsung yang memperkuat ikatan antara warga dan pemerintahannya.
+      thesis_id: "Dalil formalnya: UU No. 32 Tahun 2004 menyempurnakan kerangka desentralisasi dengan mengatur pemilihan kepala daerah langsung, memperkuat ikatan antara warga dan pemerintahannya."
     - dimension_id: sila-4
       score: 1
       confidence: 0.55
@@ -2153,6 +2168,7 @@
         - uud-nri-1945
       antithesis_id: Penyelenggara pemilu dilembagakan sebagai badan independen, tetapi undang-undang yang sama memberi DPR kewenangan menyeleksi komisionernya sehingga independensi itu bergantung pada proses politik di dewan.
       synthesis_id: Skor Baik (+1) karena KPU dan Bawaslu dikukuhkan sebagai lembaga tetap yang mandiri, memindahkan penyelenggaraan pemilu keluar dari kendali pemerintah.
+      thesis_id: "Dalil formalnya: UU No. 22 Tahun 2007 melembagakan KPU dan Bawaslu sebagai penyelenggara pemilu yang mandiri dan tetap, memindahkannya keluar dari kendali pemerintah."
     - dimension_id: sila-5
       score: 1
       confidence: 0.85
@@ -2171,6 +2187,7 @@
         - uud-nri-1945
       antithesis_id: UU Penghapusan Diskriminasi Rasial dan Etnik disahkan di ujung periode, sementara sepanjang periode yang sama dewan meloloskan UU Penanaman Modal yang memberi hak guna usaha berjangka sangat panjang tanpa pengaman bagi masyarakat terdampak.
       synthesis_id: Skor Baik (+1) karena diskriminasi rasial dan etnik akhirnya dilarang lewat undang-undang tersendiri dengan sanksi pidana, menutup celah yang dibiarkan terbuka sejak Orde Baru.
+      thesis_id: "Dalil formalnya: UU No. 40 Tahun 2008 tentang Penghapusan Diskriminasi Ras dan Etnis melarang diskriminasi dengan ancaman pidana, menutup celah yang dibiarkan terbuka sejak Orde Baru."
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.85
@@ -2185,6 +2202,7 @@
         - ev-dpr04-pilkada-langsung
       antithesis_id: UU Penanggulangan Bencana disahkan dua setengah tahun setelah tsunami Aceh, memperlihatkan dewan bekerja reaktif; kerangka kelembagaan yang dibangun pun tidak disertai kewajiban anggaran mitigasi yang mengikat daerah.
       synthesis_id: Skor Baik (+1) karena penanggulangan bencana berubah dari respons darurat ad hoc menjadi sistem kelembagaan permanen dengan BNPB dan kewajiban kesiapsiagaan.
+      thesis_id: "Dalil formalnya: UU No. 24 Tahun 2007 mengubah penanggulangan bencana dari respons darurat ad hoc menjadi sistem kelembagaan permanen dengan pembentukan BNPB."
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.85
@@ -2208,6 +2226,7 @@
         - ev-dpr-uu-ombudsman-2008
       antithesis_id: UU UMKM dan UU Keterbukaan Informasi Publik memperkuat ekonomi rakyat dan hak tahu warga, tetapi pada periode yang sama dewan mengesahkan UU ITE dengan pasal pencemaran nama baik yang kemudian dipakai membungkam kritik konsumen dan warga.
       synthesis_id: Skor Baik (+1) karena usaha mikro memperoleh definisi hukum, keberpihakan pembiayaan, dan perlindungan kemitraan yang sebelumnya tidak ada.
+      thesis_id: "Dalil formalnya: UU No. 20 Tahun 2008 memberi usaha mikro, kecil, dan menengah definisi hukum, keberpihakan pembiayaan, serta perlindungan kemitraan yang sebelumnya tidak ada."
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.85
@@ -2222,6 +2241,7 @@
         - ev-dpr-uu-pelayanan-publik-2009
       antithesis_id: Sertifikasi guru menaikkan penghasilan pendidik secara signifikan tetapi dikaitkan pada pemenuhan jam mengajar administratif alih-alih pada mutu pembelajaran, sehingga anggaran besar tidak berkorelasi dengan hasil belajar siswa.
       synthesis_id: Skor Baik (+1) karena profesi guru dan dosen diakui sebagai jabatan profesional dengan standar kualifikasi dan jaminan kesejahteraan yang diatur undang-undang.
+      thesis_id: "Dalil formalnya: UU No. 14 Tahun 2005 mengakui guru dan dosen sebagai jabatan profesional dengan standar kualifikasi dan jaminan kesejahteraan yang diatur undang-undang."
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.8
@@ -2235,6 +2255,7 @@
         - ev-dpr-uu-kip-2008
       antithesis_id: Arah kebijakan luar negeri dalam RPJPN dirumuskan sangat umum tanpa target terukur, sehingga dokumen dua puluh tahun itu lebih berfungsi sebagai pernyataan niat daripada instrumen pengendali kebijakan.
       synthesis_id: Skor Baik (+1) karena Indonesia memiliki rencana pembangunan jangka panjang yang memuat arah politik luar negeri bebas aktif sebagai komitmen lintas pemerintahan.
+      thesis_id: "Dalil formalnya: UU No. 17 Tahun 2007 tentang RPJPN 2005-2025 memuat arah politik luar negeri bebas aktif sebagai komitmen pembangunan lintas pemerintahan."
     - dimension_id: negara-hukum
       score: 0
       confidence: 0.85
@@ -2251,8 +2272,9 @@
         - ev-dpr04-tipikor
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Komisi Yudisial dan Pengadilan Tipikor didirikan lewat undang-undang dewan ini, dan kerangka pemberantasan korupsi diperkuat justru ketika lembaga itu akan menjerat anggotanya sendiri.
+      antithesis_id: "Kredibilitas pembuat hukum runtuh oleh perbuatannya sendiri: puluhan anggota dewan periode ini kemudian menjadi terdakwa pada lembaga antikorupsi yang mereka dirikan, sehingga produk legislasinya dilanggar lebih dulu oleh pembuatnya."
       synthesis_id: Skor Netral (0) karena produk legislasi antikorupsi yang kuat dinetralkan oleh runtuhnya integritas pembuatnya sendiri - dewan memproduksi hukum yang kemudian dilanggar oleh puluhan anggotanya.
+      thesis_id: "Dalil formalnya: dewan ini mendirikan Komisi Yudisial dan Pengadilan Tindak Pidana Korupsi lewat undang-undang, memperkuat kerangka pemberantasan korupsi justru ketika lembaga itu akan menjerat anggotanya sendiri."
     - dimension_id: checks-balances
       score: -1
       confidence: 0.85
@@ -2266,8 +2288,9 @@
         - ev-uu-keterbukaan-informasi-publik-2008
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Dewan mengesahkan UU Keterbukaan Informasi Publik yang memberi warga hak menuntut informasi dari badan publik, instrumen pengawasan dari luar parlemen yang berlaku permanen.
+      antithesis_id: Otoritas moral untuk mengawasi lumpuh oleh skandal suap cek pelawat pada pemilihan Deputi Gubernur Bank Indonesia yang menjerat lebih dari empat puluh anggota, dan hak angket yang digunakan berhenti sebagai manuver politik tanpa konsekuensi.
       synthesis_id: Skor Buruk (-1) karena skandal suap cek pelawat yang menjerat puluhan anggota melumpuhkan otoritas moral dewan untuk mengawasi, dan hak angket yang digunakan berhenti sebagai manuver politik.
+      thesis_id: "Dalil formalnya: dewan mengesahkan UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik yang memberi warga hak menuntut informasi dari badan publik, instrumen pengawasan permanen dari luar parlemen."
     - dimension_id: kedaulatan-rakyat
       score: 1
       confidence: 0.5
@@ -2283,6 +2306,7 @@
         - ev-dpr-ratifikasi-uncac-2006
       antithesis_id: "Legitimasi elektoral yang kuat tidak diterjemahkan menjadi keterbukaan proses legislasi: pembahasan undang-undang penting berlangsung di panitia kerja yang tertutup, dan naskah akademik kerap tidak dapat diakses publik."
       synthesis_id: Skor Baik (+1) karena Pemilu 2004 menghasilkan dewan multipartai yang tertib dan pilkada langsung mulai diberlakukan, memperluas hak pilih rakyat hingga tingkat daerah.
+      thesis_id: "Dalil formalnya: Pemilu 2004 menghasilkan dewan multipartai yang tertib dan pemilihan kepala daerah langsung mulai diberlakukan, memperluas hak pilih rakyat hingga tingkat daerah."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -2326,8 +2350,9 @@
       event_ids:
         - ev-sby-konflik-syiah-sampang
         - ev-dpr-uu-mata-uang-2011
-      antithesis_id: Dewan mengesahkan UU BPJS dan UU Pangan yang menjangkau seluruh warga tanpa membedakan keyakinan, menunjukkan legislasi yang inklusif masih dihasilkan pada periode yang sama.
+      antithesis_id: Kekerasan berulang terhadap komunitas Syiah dan Ahmadiyah berlangsung sepanjang periode tanpa satu pun hak interpelasi, angket, maupun rapat dengar pendapat yang digunakan dewan untuk mempersoalkannya.
       synthesis_id: Skor Netral (0) karena tiadanya legislasi yang memperburuk kebebasan beragama diimbangi oleh kepasifan total dewan terhadap kekerasan berulang atas komunitas Syiah dan Ahmadiyah.
+      thesis_id: "Dalil formalnya: dewan mengesahkan UU BPJS dan UU Pangan yang menjangkau seluruh warga tanpa membedakan keyakinan, dan tidak menerbitkan satu pun undang-undang yang membatasi kebebasan beragama."
     - dimension_id: sila-2
       score: 1
       confidence: 0.8
@@ -2341,6 +2366,7 @@
         - ev-dpr09-bpjs
       antithesis_id: UU BPJS menjamin hak atas kesehatan tetapi menetapkan sistem iuran wajib yang membebani pekerja informal, dan dewan tidak menyertakan mekanisme perlindungan bagi kelompok yang tidak mampu membayar di luar skema penerima bantuan iuran.
       synthesis_id: Skor Baik (+1) karena hak konstitusional atas jaminan kesehatan dan sosial diwujudkan menjadi kelembagaan yang menjangkau seluruh penduduk, capaian kemanusiaan terbesar periode ini.
+      thesis_id: "Dalil formalnya: UU No. 24 Tahun 2011 tentang BPJS mewujudkan hak konstitusional atas jaminan kesehatan dan sosial menjadi kelembagaan yang menjangkau seluruh penduduk."
     - dimension_id: sila-3
       score: 1
       confidence: 0.85
@@ -2357,6 +2383,7 @@
         - ev-dpr09-pp3
       antithesis_id: UU Desa mengakui otonomi desa dan mengalirkan dana langsung, tetapi tanpa penguatan pengawasan sepadan sehingga penyalahgunaan dana desa menjadi salah satu perkara korupsi terbanyak pada dekade sesudahnya.
       synthesis_id: Skor Baik (+1) karena desa diakui sebagai kesatuan masyarakat hukum yang berhak mengatur dirinya, memindahkan pusat pembangunan ke unit pemerintahan terdekat dengan warga.
+      thesis_id: "Dalil formalnya: UU No. 6 Tahun 2014 tentang Desa mengakui desa sebagai kesatuan masyarakat hukum yang berhak mengatur dirinya sendiri, disertai alokasi dana langsung dari APBN."
     - dimension_id: sila-4
       score: 0
       confidence: 0.5
@@ -2371,6 +2398,7 @@
         - uud-nri-1945
       antithesis_id: UU MD3 2014 mengubah tata cara pemilihan pimpinan dewan menjelang pergantian periode untuk menguntungkan koalisi tertentu, memakai fungsi legislasi bagi kepentingan internal alih-alih bagi permusyawaratan rakyat.
       synthesis_id: Skor Netral (0) karena fungsi legislasi berjalan produktif sepanjang periode, tetapi ditutup oleh perubahan aturan main dewan yang dirancang untuk kepentingan elitenya sendiri.
+      thesis_id: "Dalil formalnya: fungsi legislasi berjalan produktif sepanjang periode dengan puluhan undang-undang disahkan, dan perubahan UU MD3 ditempuh lewat prosedur legislasi yang sah."
     - dimension_id: sila-5
       score: 1
       confidence: 0.85
@@ -2387,6 +2415,7 @@
         - uud-nri-1945
       antithesis_id: UU BPJS menetapkan jaminan sosial universal tetapi menunda operasionalisasinya hingga setelah periode dewan ini berakhir, sehingga pertanggungjawaban atas pelaksanaannya berpindah ke dewan berikutnya.
       synthesis_id: Skor Baik (+1) karena sistem jaminan sosial nasional yang menjangkau seluruh penduduk memperoleh badan penyelenggara dan dasar hukumnya, keputusan struktural terbesar bagi keadilan sosial pasca-reformasi.
+      thesis_id: "Dalil formalnya: UU BPJS menetapkan jaminan sosial universal bagi seluruh penduduk beserta badan penyelenggaranya, keputusan struktural terbesar bagi keadilan sosial pasca-reformasi."
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.75
@@ -2400,6 +2429,7 @@
         - ev-dpr-uu-ojk-2011
       antithesis_id: UU Penanganan Konflik Sosial memberi kerangka resolusi terpadu tetapi juga membuka kewenangan pengerahan kekuatan TNI atas permintaan kepala daerah, menghidupkan kembali peran militer dalam urusan keamanan dalam negeri.
       synthesis_id: Skor Baik (+1) karena penanganan konflik sosial memperoleh kerangka hukum yang mengatur pencegahan, penghentian, dan pemulihan pascakonflik secara terpadu.
+      thesis_id: "Dalil formalnya: UU No. 7 Tahun 2012 tentang Penanganan Konflik Sosial memberi kerangka hukum yang mengatur pencegahan, penghentian, dan pemulihan pascakonflik secara terpadu."
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.85
@@ -2416,6 +2446,7 @@
         - uud-nri-1945
       antithesis_id: Sistem jaminan sosial dan Otoritas Jasa Keuangan dibentuk bersamaan, tetapi pemindahan pengawasan perbankan dari Bank Indonesia ke lembaga baru berlangsung tanpa masa transisi yang memadai dan menimbulkan celah pengawasan.
       synthesis_id: Skor Baik (+1) karena arsitektur kesejahteraan dan pengawasan sektor keuangan dilembagakan sekaligus, dua pilar yang menopang stabilitas ekonomi rumah tangga dan negara.
+      thesis_id: "Dalil formalnya: dewan melembagakan dua pilar sekaligus - sistem jaminan sosial nasional lewat UU BPJS dan pengawasan sektor keuangan lewat UU No. 21 Tahun 2011 tentang OJK."
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.8
@@ -2429,6 +2460,7 @@
         - ev-dpr09-bpjs
       antithesis_id: UU Pendidikan Tinggi mewajibkan perguruan tinggi menyediakan kuota bagi mahasiswa kurang mampu, tetapi juga membuka otonomi pengelolaan yang mendorong kenaikan biaya kuliah sehingga hambatan finansial bergeser alih-alih hilang.
       synthesis_id: Skor Baik (+1) karena kewajiban afirmasi bagi mahasiswa tidak mampu ditetapkan dalam undang-undang dan menjadi dasar hukum program beasiswa negara yang berjalan hingga kini.
+      thesis_id: "Dalil formalnya: UU No. 12 Tahun 2012 tentang Pendidikan Tinggi mewajibkan perguruan tinggi menyediakan kuota bagi mahasiswa kurang mampu, dasar hukum bagi program beasiswa negara sesudahnya."
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.8
@@ -2442,6 +2474,7 @@
         - ev-dpr09-pp3
       antithesis_id: Ratifikasi perjanjian asap lintas batas ASEAN dilakukan setelah tertunda dua belas tahun, dan Indonesia menjadi negara terakhir yang meratifikasi padahal merupakan sumber utama asap yang diatur perjanjian itu.
       synthesis_id: Skor Baik (+1) karena Indonesia akhirnya mengikatkan diri pada kewajiban regional penanggulangan pencemaran asap lintas batas, menutup kesenjangan komitmen yang lama dipersoalkan negara tetangga.
+      thesis_id: "Dalil formalnya: UU No. 1 Tahun 2014 meratifikasi Perjanjian ASEAN tentang Pencemaran Asap Lintas Batas, mengikat Indonesia pada kewajiban regional penanggulangan asap."
     - dimension_id: negara-hukum
       score: 0
       confidence: 0.85
@@ -2458,6 +2491,7 @@
         - uud-nri-1945
       antithesis_id: UU Pembentukan Peraturan Perundang-undangan menstandarkan hierarki norma dan mewajibkan naskah akademik, tetapi kewajiban partisipasi publik dirumuskan tanpa sanksi sehingga dapat dipenuhi secara formalitas.
       synthesis_id: Skor Netral (0) karena tertibnya hierarki dan prosedur pembentukan undang-undang diimbangi oleh kualitas partisipasi yang tetap seremonial dan tingginya undang-undang yang kemudian dibatalkan Mahkamah Konstitusi.
+      thesis_id: "Dalil formalnya: UU No. 12 Tahun 2011 menstandarkan hierarki peraturan perundang-undangan dan mewajibkan naskah akademik serta partisipasi masyarakat dalam pembentukan undang-undang."
     - dimension_id: checks-balances
       score: -1
       confidence: 0.85
@@ -2475,8 +2509,9 @@
         - ev-dpr09-md3
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Pansus Hak Angket Century memperlihatkan dewan masih berani menggunakan instrumen pengawasan tertinggi terhadap kebijakan eksekutif yang melibatkan pejabat tinggi negara.
+      antithesis_id: Hak angket itu berakhir tanpa konsekuensi hukum apa pun, dan UU MD3 2014 justru memusatkan kewenangan pada pimpinan dewan sehingga kontrol internal antaranggota melemah.
       synthesis_id: Skor Buruk (-1) karena UU MD3 memusatkan kewenangan pada pimpinan dewan dan melemahkan kontrol internal, sementara hak angket yang digunakan berakhir tanpa konsekuensi hukum apa pun.
+      thesis_id: "Dalil formalnya: dewan menggunakan hak angket atas kebijakan penyelamatan Bank Century, instrumen pengawasan tertinggi lembaga perwakilan terhadap kebijakan eksekutif yang melibatkan pejabat tinggi negara."
     - dimension_id: kedaulatan-rakyat
       score: -1
       confidence: 0.85
@@ -2492,8 +2527,9 @@
         - ev-dpr09-bpjs
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Dewan mengesahkan UU Desa yang memindahkan kewenangan dan anggaran ke tingkat pemerintahan terdekat dengan warga, memperluas ruang partisipasi di luar siklus pemilu nasional.
+      antithesis_id: Jarak antara wakil dan yang diwakili justru melebar seiring rangkaian perkara korupsi anggota dewan, dan kepercayaan publik kepada parlemen jatuh ke titik terendah pasca-reformasi menurut survei berulang.
       synthesis_id: Skor Buruk (-1) karena jarak antara wakil dan yang diwakili melebar seiring rangkaian perkara korupsi anggota dewan, dan kepercayaan publik kepada parlemen jatuh ke titik terendah pasca-reformasi.
+      thesis_id: "Dalil formalnya: dewan mengesahkan UU Desa yang memindahkan kewenangan dan anggaran ke unit pemerintahan terdekat dengan warga, memperluas ruang partisipasi di luar siklus pemilu nasional."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -2539,6 +2575,7 @@
         - ev-dpr14-des
       antithesis_id: Menerima Perppu Ormas menjadi undang-undang berarti dewan mengesahkan penghapusan proses peradilan sebagai syarat pembubaran organisasi, menyerahkan penilaian atas keyakinan berorganisasi kepada penilaian sepihak eksekutif.
       synthesis_id: Skor Netral (0) karena kewajiban negara menjaga dasar negara diakui, tetapi dewan gagal mempertahankan syarat putusan pengadilan yang selama ini melindungi kebebasan berserikat.
+      thesis_id: "Dalil formalnya: dewan menerima Perppu No. 2 Tahun 2017 menjadi UU No. 16 Tahun 2017 dalam kewenangan konstitusionalnya, sebagai instrumen menjaga dasar negara dari organisasi yang menolaknya."
     - dimension_id: sila-2
       score: -1
       confidence: 0.45
@@ -2550,8 +2587,9 @@
         - ev-dpr14-pemilu
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Dewan mengesahkan UU Penyandang Disabilitas yang mengangkat hak kelompok rentan dari belas kasih menjadi kewajiban hukum negara, kemajuan kemanusiaan yang nyata pada periode yang sama.
+      antithesis_id: Kekerasan aparat terhadap peserta aksi September 2019 yang dicatat Komnas HAM tidak direspons satu pun instrumen pengawasan dewan, padahal aksi itu justru ditujukan pada produk legislasinya sendiri.
       synthesis_id: Skor Buruk (-1) karena dewan tidak menggunakan satu pun instrumen pengawasannya atas kekerasan aparat terhadap peserta aksi September 2019 yang dicatat Komnas HAM, padahal aksi itu ditujukan pada produk legislasinya sendiri.
+      thesis_id: "Dalil formalnya: dewan mengesahkan UU No. 8 Tahun 2016 tentang Penyandang Disabilitas yang mengangkat pemenuhan hak kelompok rentan dari belas kasih menjadi kewajiban hukum negara."
     - dimension_id: sila-3
       score: 0
       confidence: 0.45
@@ -2563,8 +2601,9 @@
         - ev-dpr14-revisi-kpk
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Pelaksanaan UU Desa mengalirkan dana ke seluruh desa di Indonesia termasuk di wilayah terluar, memperkecil kesenjangan pembangunan antarwilayah lewat mekanisme yang berjalan otomatis.
+      antithesis_id: "Agenda keadilan wilayah yang lebih mendasar tidak disentuh: status Papua, sengketa agraria, dan ketimpangan dana perimbangan tidak pernah menjadi pembahasan dewan sepanjang periode."
       synthesis_id: Skor Netral (0) karena pemerataan fiskal ke desa berjalan sementara agenda keadilan wilayah yang lebih mendasar - status Papua dan sengketa agraria - tidak dibahas dewan sama sekali.
+      thesis_id: "Dalil formalnya: pelaksanaan UU Desa mengalirkan dana langsung ke seluruh desa termasuk di wilayah terluar, memperkecil kesenjangan pembangunan antarwilayah lewat mekanisme yang berjalan otomatis."
     - dimension_id: sila-4
       score: -2
       confidence: 0.55
@@ -2576,8 +2615,9 @@
         - ev-dpr-revisi-uu-kpk-2019
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: UU Pemilu 7/2017 mengodifikasi seluruh aturan kepemiluan yang sebelumnya tersebar dan menyiapkan penyelenggaraan pemilu serentak, pekerjaan legislasi teknis berskala besar yang dituntaskan tepat waktu.
+      antithesis_id: Pada waktu yang sama revisi UU KPK diketok di tengah penolakan jutaan warga yang turun ke jalan, dan ketua dewan sendiri dipidana dalam korupsi e-KTP - permusyawaratan digantikan kalkulasi elite yang berhadapan dengan rakyatnya.
       synthesis_id: Skor Sangat Buruk (-2) karena revisi UU KPK diketok di tengah penolakan jutaan warga dan ketua dewannya sendiri dipidana dalam korupsi e-KTP - permusyawaratan digantikan kalkulasi elite yang berhadapan dengan rakyatnya.
+      thesis_id: "Dalil formalnya: dewan menuntaskan UU No. 7 Tahun 2017 yang mengodifikasi seluruh aturan kepemiluan dan menyiapkan penyelenggaraan pemilu serentak, pekerjaan legislasi teknis berskala besar yang selesai tepat waktu."
     - dimension_id: sila-5
       score: 1
       confidence: 0.85
@@ -2594,6 +2634,7 @@
         - uud-nri-1945
       antithesis_id: Dana desa mengalir dalam jumlah besar tanpa penguatan kapasitas pengawasan di tingkat desa, sehingga penyalahgunaannya menjadi salah satu jenis perkara korupsi terbanyak pada periode berikutnya.
       synthesis_id: Skor Baik (+1) karena pembiayaan langsung ke puluhan ribu desa dilanjutkan dan diperbesar, memindahkan sumber daya pembangunan ke unit pemerintahan terdekat dengan warga miskin.
+      thesis_id: "Dalil formalnya: dewan melanjutkan dan memperbesar pembiayaan langsung ke puluhan ribu desa, memindahkan sumber daya pembangunan ke unit pemerintahan terdekat dengan warga miskin."
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.8
@@ -2607,6 +2648,7 @@
         - ev-dpr14-des
       antithesis_id: Revisi UU Terorisme memperluas masa penahanan tanpa dakwaan dan memasukkan peran TNI dalam penanggulangan terorisme, sehingga perlindungan dari teror diperoleh dengan mengurangi jaminan proses hukum yang adil.
       synthesis_id: Skor Baik (+1) karena pencegahan terorisme memperoleh dasar hukum yang mencakup deradikalisasi dan perlindungan korban, bukan lagi hanya penindakan setelah serangan terjadi.
+      thesis_id: "Dalil formalnya: UU No. 5 Tahun 2018 memperkuat pencegahan terorisme dengan mencakup deradikalisasi dan perlindungan korban, bukan lagi hanya penindakan setelah serangan terjadi."
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.85
@@ -2623,6 +2665,7 @@
         - uud-nri-1945
       antithesis_id: Kenaikan belanja transfer ke desa berjalan bersamaan dengan pengesahan pengampunan pajak yang memutihkan harta tidak dilaporkan, sehingga penerimaan negara yang seharusnya membiayai belanja itu justru dikompromikan.
       synthesis_id: Skor Baik (+1) karena alokasi anggaran yang langsung dinikmati desa naik signifikan lewat undang-undang, memperluas jangkauan belanja negara ke tingkat paling bawah.
+      thesis_id: "Dalil formalnya: alokasi transfer ke desa dinaikkan signifikan lewat undang-undang anggaran, memperluas jangkauan belanja negara hingga tingkat pemerintahan paling bawah."
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.4
@@ -2636,6 +2679,7 @@
         - uud-nri-1945
       antithesis_id: Kodifikasi elektoral menyeluruh mengatur teknis penyelenggaraan tetapi tidak menyentuh pendidikan politik pemilih maupun transparansi dana kampanye, sehingga kualitas kontestasi tidak ikut terangkat.
       synthesis_id: Skor Baik (+1) karena seluruh aturan kepemiluan disatukan dalam satu undang-undang yang memberi kepastian bagi penyelenggara, peserta, dan pemilih.
+      thesis_id: "Dalil formalnya: UU No. 7 Tahun 2017 menyatukan seluruh aturan kepemiluan dalam satu undang-undang, memberi kepastian bagi penyelenggara, peserta, dan pemilih."
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.8
@@ -2649,6 +2693,7 @@
         - ev-dpr-revisi-uu-kpk-2019
       antithesis_id: Ratifikasi Perjanjian Paris dilakukan cepat tetapi dewan tidak menindaklanjutinya dengan penyesuaian undang-undang sektoral kehutanan dan energi, sehingga komitmen internasional tidak diterjemahkan ke kewajiban domestik yang mengikat.
       synthesis_id: Skor Baik (+1) karena Indonesia mengikatkan diri pada rezim iklim global melalui undang-undang, menempatkan target penurunan emisi sebagai kewajiban negara.
+      thesis_id: "Dalil formalnya: UU No. 16 Tahun 2016 meratifikasi Perjanjian Paris, menempatkan target penurunan emisi sebagai kewajiban negara yang mengikat."
     - dimension_id: negara-hukum
       score: -2
       confidence: 0.85
@@ -2664,8 +2709,9 @@
         - ev-dpr-revisi-uu-kpk-2019
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Dewan mengesahkan UU Pemilu dan UU Penyandang Disabilitas yang memperkuat kepastian hukum di bidangnya masing-masing, menunjukkan fungsi legislasi tidak sepenuhnya berhenti.
+      antithesis_id: Pada periode yang sama revisi UU No. 19 Tahun 2019 membongkar independensi KPK secara sistematis, dan ketua dewannya sendiri dipidana dalam korupsi e-KTP senilai Rp2,3 triliun - pembuat hukum menjadi perusak utamanya.
       synthesis_id: Skor Sangat Buruk (-2) karena revisi UU KPK membongkar independensi lembaga antikorupsi secara sistematis dan ketua dewannya sendiri dipidana dalam korupsi e-KTP - pembuat hukum menjadi perusak utamanya.
+      thesis_id: "Dalil formalnya: dewan mengesahkan UU Pemilu dan UU Penyandang Disabilitas yang memperkuat kepastian hukum di bidangnya masing-masing, sehingga fungsi legislasi tetap menghasilkan norma yang menguatkan hak."
     - dimension_id: checks-balances
       score: -1
       confidence: 0.5
@@ -2677,8 +2723,9 @@
       event_ids:
         - ev-dpr14-des
         - ev-dpr14-pemilu
-      antithesis_id: Pansus Hak Angket terhadap KPK pada 2017 memperlihatkan dewan mampu menggunakan instrumen pengawasan tertinggi, meski kali ini diarahkan kepada lembaga pengawas alih-alih kepada eksekutif.
+      antithesis_id: Instrumen itu diarahkan melemahkan lembaga antikorupsi alih-alih mengontrol pemerintah, membalik arah checks and balances yang dimaksud konstitusi; fungsi pengawasan selebihnya tunduk pada kepentingan koalisi pendukung eksekutif.
       synthesis_id: Skor Buruk (-1) karena fungsi pengawasan diarahkan melemahkan lembaga antikorupsi dan bukan mengontrol pemerintah, membalik arah checks and balances yang dimaksud konstitusi.
+      thesis_id: "Dalil formalnya: dewan menggunakan hak angket lewat Pansus KPK pada 2017, instrumen pengawasan tertinggi yang tersedia bagi lembaga perwakilan."
     - dimension_id: kedaulatan-rakyat
       score: -1
       confidence: 0.5
@@ -2690,8 +2737,9 @@
       event_ids:
         - ev-dpr14-pemilu
         - ev-dpr-uu-pemilu-7-2017
-      antithesis_id: Dewan menuntaskan UU Pemilu yang menjadi dasar Pemilu 2019 dengan partisipasi pemilih tertinggi pasca-reformasi, memastikan hak pilih rakyat terselenggara tepat waktu.
+      antithesis_id: Protes nasional menolak revisi UU KPK yang tetap diketok memperlihatkan dewan memilih bertindak melawan kehendak rakyat yang diwakilinya, jurang representasi yang tidak dapat ditutup oleh ketertiban teknis pemilu.
       synthesis_id: Skor Buruk (-1) karena protes nasional menolak revisi UU KPK yang tetap diketok memperlihatkan dewan memilih bertindak melawan kehendak rakyat yang diwakilinya.
+      thesis_id: "Dalil formalnya: dewan menuntaskan UU Pemilu yang menjadi dasar Pemilu 2019 dengan partisipasi pemilih tertinggi pasca-reformasi, memastikan hak pilih rakyat terselenggara tepat waktu."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -2735,8 +2783,9 @@
         - ev-dpr-uu-p2sk-2023
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: KUHP Nasional menghapus pasal penghinaan presiden warisan kolonial dalam bentuk delik biasa dan mempersempit sebagian rumusan lama, menunjukkan tidak seluruh perubahan bergerak mundur.
+      antithesis_id: Pasal penodaan agama justru dipertahankan dan diperluas rumusannya dalam KUHP Nasional, membuka ruang kriminalisasi ekspresi keberagamaan minoritas yang selama ini sudah paling rentan.
       synthesis_id: Skor Buruk (-1) karena pasal penodaan agama dipertahankan dan diperluas rumusannya, membuka ruang kriminalisasi ekspresi keberagamaan minoritas yang selama ini sudah rentan.
+      thesis_id: "Dalil formalnya: KUHP Nasional menghapus pasal penghinaan presiden warisan kolonial dalam bentuk delik biasa dan mempersempit sebagian rumusan lama, sehingga tidak seluruh perubahan bergerak mundur."
     - dimension_id: sila-2
       score: -1
       confidence: 0.85
@@ -2754,8 +2803,9 @@
         - ev-pengesahan-uu-pemasyarakatan-2022
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Dewan mengesahkan UU TPKS setelah tertunda enam tahun dan UU Pelindungan Data Pribadi, dua instrumen yang secara langsung memperkuat perlindungan martabat dan privasi warga.
+      antithesis_id: Capaian itu berdampingan dengan KUHP Nasional yang mempertahankan pidana bagi ekspresi damai dan memperluas delik yang dapat menjerat pembela hak asasi, sehingga standar perlindungan bergerak dua arah sekaligus.
       synthesis_id: Skor Buruk (-1) karena capaian itu berdampingan dengan KUHP yang mempertahankan pidana bagi ekspresi damai dan memperluas delik yang dapat menjerat pembela hak asasi.
+      thesis_id: "Dalil formalnya: dewan mengesahkan UU TPKS setelah tertunda enam tahun dan UU Pelindungan Data Pribadi, dua instrumen yang langsung memperkuat perlindungan martabat dan privasi warga."
     - dimension_id: sila-3
       score: 0
       confidence: 0.7
@@ -2767,8 +2817,9 @@
       event_ids:
         - ev-dpr19-ciptaker-legislasi
         - ev-dpr19-pdp
-      antithesis_id: Pemindahan ibu kota dirancang sebagai koreksi atas pemusatan pembangunan di Jawa yang berlangsung sejak kemerdekaan, agenda pemerataan wilayah yang tidak pernah diambil pemerintahan sebelumnya.
+      antithesis_id: Undang-undang itu ditetapkan lewat pembahasan cepat tanpa persetujuan masyarakat adat pemilik wilayah yang menjadi lokasinya, sehingga pemerataan dikerjakan dengan mengulang pola pengabaian yang hendak dikoreksinya.
       synthesis_id: Skor Netral (0) karena tujuan pemerataan antarwilayah sah, tetapi ditetapkan lewat pembahasan cepat tanpa persetujuan masyarakat adat pemilik wilayah yang menjadi lokasinya.
+      thesis_id: "Dalil formalnya: UU No. 3 Tahun 2022 tentang Ibu Kota Nusantara dirancang sebagai koreksi atas pemusatan pembangunan di Jawa yang berlangsung sejak kemerdekaan."
     - dimension_id: sila-4
       score: -2
       confidence: 0.6
@@ -2780,8 +2831,9 @@
         - ev-dpr19-uu-ciptaker-permanen
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Dewan menuntaskan KUHP Nasional yang menggantikan kodifikasi kolonial setelah diupayakan lebih dari setengah abad, pekerjaan legislasi yang gagal diselesaikan seluruh dewan sebelumnya.
+      antithesis_id: "Cara kerjanya meniadakan musyawarah: omnibus Cipta Kerja, KUHP yang diketok tengah malam, dan revisi UU Pilkada kilat pada 21 Agustus 2024 yang menerobos Putusan MK 60 dan 70/PUU-XXII/2024 menjadikan legislasi tanpa partisipasi bermakna sebagai pola normal."
       synthesis_id: Skor Sangat Buruk (-2) karena omnibus Cipta Kerja, KUHP, dan revisi Pilkada kilat yang menerobos Putusan MK 60/70/2024 menjadikan legislasi tanpa partisipasi bermakna sebagai pola normal, meniadakan musyawarah.
+      thesis_id: "Dalil formalnya: dewan menuntaskan KUHP Nasional yang menggantikan kodifikasi kolonial setelah diupayakan lebih dari setengah abad, pekerjaan legislasi yang gagal diselesaikan seluruh dewan sebelumnya."
     - dimension_id: sila-5
       score: 1
       confidence: 0.85
@@ -2806,6 +2858,7 @@
         - uud-nri-1945
       antithesis_id: UU Pelindungan Data Pribadi menempatkan otoritas pengawasnya di bawah presiden alih-alih sebagai lembaga independen, sehingga perlindungan warga bergantung pada kesediaan pemerintah mengawasi dirinya sendiri.
       synthesis_id: Skor Baik (+1) karena warga untuk pertama kali memiliki hak yang dapat dituntut atas data pribadinya beserta sanksi bagi pengendali data yang lalai.
+      thesis_id: "Dalil formalnya: UU No. 27 Tahun 2022 memberi warga hak yang dapat dituntut atas data pribadinya beserta sanksi bagi pengendali data yang lalai."
     - dimension_id: tujuan-1
       score: 1
       confidence: 0.85
@@ -2821,6 +2874,7 @@
         - ev-dpr19-kesehatan-omnibus
       antithesis_id: Perlindungan data pribadi diberlakukan dengan masa transisi dua tahun tanpa kesiapan lembaga pengawas, sementara pada periode yang sama kebocoran data berskala nasional berulang tanpa pertanggungjawaban penyelenggara sistem elektronik.
       synthesis_id: Skor Baik (+1) karena keamanan data warga di ruang digital memperoleh dasar hukum dengan kewajiban dan sanksi yang mengikat pengendali data.
+      thesis_id: "Dalil formalnya: UU Pelindungan Data Pribadi memberi keamanan data warga di ruang digital dasar hukum dengan kewajiban dan sanksi yang mengikat pengendali data."
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.85
@@ -2847,6 +2901,7 @@
         - uud-nri-1945
       antithesis_id: Omnibus kesehatan mencabut belasan undang-undang sekaligus termasuk ketentuan alokasi anggaran kesehatan minimal, sehingga perbaikan tata kelola diperoleh dengan melepas jaminan pembiayaan yang sebelumnya mengikat.
       synthesis_id: Skor Baik (+1) karena hambatan regulasi pada pemenuhan tenaga kesehatan dan penyelenggaraan layanan disederhanakan lewat satu kerangka hukum terpadu.
+      thesis_id: "Dalil formalnya: omnibus kesehatan menyederhanakan hambatan regulasi pada pemenuhan tenaga kesehatan dan penyelenggaraan layanan dalam satu kerangka hukum terpadu."
     - dimension_id: tujuan-3
       score: 1
       confidence: 0.85
@@ -2860,6 +2915,7 @@
         - ev-dpr-uu-covid-2020
       antithesis_id: UU TPKS mewajibkan satuan pendidikan menyediakan mekanisme pencegahan, tetapi dewan tidak menyertakan sanksi bagi institusi yang menutupi kasus sehingga penegakannya bergantung pada niat baik lembaga yang selama ini justru menutupi.
       synthesis_id: Skor Baik (+1) karena kekerasan seksual diatur sebagai tindak pidana tersendiri dengan hak korban atas pendampingan dan restitusi, membuat ruang belajar lebih aman.
+      thesis_id: "Dalil formalnya: UU No. 12 Tahun 2022 mengatur kekerasan seksual sebagai tindak pidana tersendiri dengan hak korban atas pendampingan dan restitusi, termasuk kewajiban pencegahan di satuan pendidikan."
     - dimension_id: tujuan-4
       score: 1
       confidence: 0.8
@@ -2873,6 +2929,7 @@
         - ev-dpr-uu-ikn-2022
       antithesis_id: KUHP Nasional menutup ketergantungan pada teks kolonial tetapi memuat pasal yang dipersoalkan pelapor khusus PBB sebagai tidak sesuai standar hak asasi, sehingga kemandirian hukum diperoleh dengan biaya reputasi internasional.
       synthesis_id: Skor Baik (+1) karena Indonesia mengakhiri pemberlakuan hukum pidana warisan kolonial setelah 78 tahun merdeka, langkah dekolonisasi hukum yang berdampak lintas generasi.
+      thesis_id: "Dalil formalnya: UU No. 1 Tahun 2023 mengakhiri pemberlakuan hukum pidana warisan kolonial setelah 78 tahun merdeka, langkah dekolonisasi hukum yang berdampak lintas generasi."
     - dimension_id: negara-hukum
       score: -2
       confidence: 0.85
@@ -2887,8 +2944,9 @@
         - ev-dpr-uu-kuhp-2022
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Dewan mengesahkan UU Pelindungan Data Pribadi dan UU TPKS yang menambah perlindungan hukum bagi warga, membuktikan kapasitas legislasi yang menguatkan hak masih ada ketika kehendak politiknya cukup.
+      antithesis_id: Pada saat bersamaan dewan menetapkan Perppu Cipta Kerja menjadi undang-undang ketika uji materinya masih berjalan di Mahkamah Konstitusi, dan berupaya merevisi UU Pilkada secara kilat untuk menerobos putusan MK - pembangkangan sistematis terhadap penjaga konstitusi.
       synthesis_id: Skor Sangat Buruk (-2) karena Perppu Cipta Kerja disahkan saat uji materi masih berjalan dan revisi Pilkada kilat menerobos putusan MK - dewan membangkang penjaga konstitusi secara sistematis.
+      thesis_id: "Dalil formalnya: dewan mengesahkan UU Pelindungan Data Pribadi dan UU TPKS yang menambah perlindungan hukum bagi warga, membuktikan kapasitas legislasi yang menguatkan hak masih ada."
     - dimension_id: checks-balances
       score: -2
       confidence: 0.85
@@ -2931,8 +2989,9 @@
         - ev-dpr19-pdp
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Pansus Angket Haji 2024 membongkar pengalihan sepihak kuota haji tambahan, memperlihatkan dewan masih dapat memakai instrumen pengawasan untuk membela kepentingan warga.
+      antithesis_id: Paket regulasi terbesar periode ini - Cipta Kerja, KUHP, dan IKN - disusun tanpa partisipasi bermakna, sehingga kedaulatan rakyat berhenti pada pemberian mandat dan hilang pada pelaksanaannya.
       synthesis_id: Skor Buruk (-1) karena paket regulasi terbesar periode ini disusun tanpa partisipasi bermakna, sehingga kedaulatan rakyat berhenti pada pemberian mandat dan hilang pada pelaksanaannya.
+      thesis_id: "Dalil formalnya: Pansus Angket Haji 2024 membongkar pengalihan sepihak kuota haji tambahan, memperlihatkan dewan masih memakai instrumen pengawasan untuk membela kepentingan warga."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -2978,6 +3037,7 @@
         - ev-dpr24-revisi-pemilu-mk60
       antithesis_id: Komitmen menjaga toleransi disampaikan sebagai pernyataan awal masa jabatan tanpa agenda legislasi yang menindaklanjutinya, dan pasal penodaan agama dalam KUHP Nasional yang akan berlaku tidak masuk daftar peninjauan.
       synthesis_id: Skor Netral (0) karena belum ada legislasi yang memperburuk maupun memperbaiki kebebasan beragama pada awal masa jabatan ini.
+      thesis_id: "Dalil formalnya: dewan menegaskan komitmen menjaga toleransi beragama dan mencegah polarisasi politik identitas pada awal masa jabatan."
     - dimension_id: sila-2
       score: -1
       confidence: 0.3
@@ -2989,8 +3049,9 @@
         - ev-dpr24-revisi-md3
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Dewan memasukkan RUU Perampasan Aset ke Prolegnas Prioritas 2025, agenda yang berulang kali gagal masuk pada periode sebelumnya dan berdampak langsung pada pemulihan kerugian rakyat.
+      antithesis_id: Kekerasan pada aksi Agustus 2025 justru dipicu kebijakan tunjangan dewan sendiri, dan tidak satu pun instrumen pengawasan digunakan untuk mempertanggungjawabkan korban yang jatuh.
       synthesis_id: Skor Buruk (-1) karena kekerasan pada aksi Agustus 2025 dipicu oleh kebijakan tunjangan dewan sendiri, dan tidak ada instrumen pengawasan yang digunakan untuk mempertanggungjawabkan korbannya.
+      thesis_id: "Dalil formalnya: dewan memasukkan RUU Perampasan Aset ke Prolegnas Prioritas 2025, agenda yang berulang kali gagal masuk pada periode sebelumnya dan berdampak langsung pada pemulihan kerugian rakyat."
     - dimension_id: sila-3
       score: 0
       confidence: 0.7
@@ -3004,6 +3065,7 @@
         - ev-dpr24-protes-tunjangan
       antithesis_id: Pengawasan alokasi anggaran wilayah terdepan dan tertinggal berjalan sebagai fungsi budgeting rutin tanpa inisiatif legislasi yang mengoreksi formula ketimpangan antardaerah yang sudah lama dipersoalkan.
       synthesis_id: Skor Netral (0) karena fungsi anggaran untuk wilayah tertinggal dijalankan sebagaimana mestinya tanpa terobosan maupun kemunduran pada agenda keadilan antarwilayah.
+      thesis_id: "Dalil formalnya: dewan menjalankan fungsi anggaran atas alokasi APBN bagi pembangunan infrastruktur daerah terdepan, terluar, dan tertinggal."
     - dimension_id: sila-4
       score: -1
       confidence: 0.35
@@ -3015,8 +3077,9 @@
         - ev-dpr24-calon-hakim-mk
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Dewan merevisi UU Pemilu untuk mematuhi Putusan MK No. 60/PUU-XXII/2024, memulihkan ambang batas pencalonan kepala daerah sesuai perintah pengadilan setelah upaya menerobosnya pada periode sebelumnya gagal.
+      antithesis_id: Pada periode yang sama revisi UU MD3 yang memperluas hak anggota diketok di tengah protes publik, mengulang pola menempatkan kepentingan internal dewan di atas permusyawaratan dengan rakyat.
       synthesis_id: Skor Buruk (-1) karena revisi UU MD3 yang memperluas hak anggota diketok di tengah protes publik, mengulang pola menempatkan kepentingan internal dewan di atas permusyawaratan.
+      thesis_id: "Dalil formalnya: dewan merevisi UU Pemilu untuk mematuhi Putusan MK No. 60/PUU-XXII/2024, memulihkan ambang batas pencalonan kepala daerah sesuai perintah pengadilan setelah upaya menerobosnya gagal."
     - dimension_id: sila-5
       score: 0
       confidence: 0.85
@@ -3032,6 +3095,7 @@
         - ev-dpr24-revisi-md3
       antithesis_id: Pengawasan keberlanjutan pembiayaan jaminan kesehatan dijalankan lewat pembahasan anggaran, tetapi belum ada inisiatif legislasi yang menjawab defisit struktural program maupun perlindungan upah pekerja informal.
       synthesis_id: Skor Netral (0) karena fungsi pengawasan atas program kesejahteraan berjalan rutin tanpa capaian maupun kemunduran yang menonjol pada awal masa jabatan ini.
+      thesis_id: "Dalil formalnya: dewan menjalankan pengawasan atas keberlanjutan pembiayaan jaminan kesehatan nasional dan subsidi upah lewat pembahasan anggaran."
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.7
@@ -3045,6 +3109,7 @@
         - ev-dpr24-protes-tunjangan
       antithesis_id: Masuknya RUU Perampasan Aset ke Prolegnas Prioritas belum diikuti pembahasan, dan pengawasan alutsista serta ketahanan pangan berjalan tanpa temuan yang ditindaklanjuti secara terbuka.
       synthesis_id: Skor Netral (0) karena fungsi pengawasan atas pertahanan dan ketahanan pangan dijalankan dalam batas rutin, belum menghasilkan koreksi kebijakan yang terukur.
+      thesis_id: "Dalil formalnya: dewan menjalankan fungsi pengawasan atas modernisasi alat utama sistem persenjataan dan ketahanan pangan nasional."
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.3
@@ -3056,8 +3121,9 @@
         - ev-dpr-uu-pertahanan-2002
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Kepatuhan pada putusan Mahkamah Konstitusi tetap merupakan pemulihan tertib konstitusional setelah periode sebelumnya berusaha menerobosnya, dan itu memiliki nilai tersendiri bagi kepastian hukum ekonomi.
+      antithesis_id: "Kepatuhan itu adalah kewajiban, bukan prestasi: dewan menjalankan perintah pengadilan tanpa satu pun inisiatif sendiri yang memajukan kesejahteraan umum pada awal masa jabatannya."
       synthesis_id: Skor Netral (0) karena dewan menjalankan kewajiban mematuhi putusan pengadilan tanpa inisiatif sendiri yang memajukan kesejahteraan umum.
+      thesis_id: "Dalil formalnya: kepatuhan pada putusan Mahkamah Konstitusi memulihkan tertib konstitusional setelah periode sebelumnya berupaya menerobosnya, dan itu bernilai bagi kepastian hukum ekonomi."
     - dimension_id: tujuan-3
       score: 0
       confidence: 0.7
@@ -3071,6 +3137,7 @@
         - ev-dpr24-revisi-pemilu-mk60
       antithesis_id: Pengawasan atas aturan turunan UU TPKS di perguruan tinggi dan pesantren baru berjalan sebagai agenda komisi tanpa laporan hasil yang dipublikasikan, sehingga dampaknya belum dapat dinilai.
       synthesis_id: Skor Netral (0) karena fungsi pengawasan atas pelaksanaan perlindungan di lingkungan pendidikan dimulai tetapi belum menghasilkan temuan maupun koreksi.
+      thesis_id: "Dalil formalnya: dewan memulai pengawasan atas pelaksanaan aturan turunan UU TPKS di perguruan tinggi dan pesantren sebagai agenda komisi."
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.7
@@ -3084,6 +3151,7 @@
         - ev-dpr24-revisi-md3
       antithesis_id: Dukungan parlemen pada diplomasi kemanusiaan Palestina bersifat pernyataan politik, sementara dewan tidak mempersoalkan keikutsertaan Indonesia dalam badan internasional yang keanggotaannya dipertanyakan banyak ahli.
       synthesis_id: Skor Netral (0) karena sikap parlemen mendukung penyelesaian damai disuarakan tanpa instrumen pengawasan yang menguji konsistensinya dengan politik bebas-aktif.
+      thesis_id: "Dalil formalnya: dewan menyatakan dukungan atas diplomasi kemanusiaan Indonesia untuk Palestina dan keterlibatan di forum antarpemerintahan."
     - dimension_id: negara-hukum
       score: -1
       confidence: 0.3
@@ -3095,8 +3163,9 @@
         - ev-dpr24-calon-hakim-mk
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Dewan mematuhi Putusan MK No. 60/PUU-XXII/2024 dalam revisi UU Pemilu, memulihkan tertib konstitusional yang sempat hendak diterobos pada Agustus 2024.
+      antithesis_id: Seleksi calon hakim konstitusi lewat proses kilat merusak legitimasi pengisian jabatan yudisial, menyentuh langsung independensi lembaga yang putusannya baru saja dipatuhi dewan itu sendiri.
       synthesis_id: Skor Buruk (-1) karena seleksi calon hakim konstitusi lewat proses kilat merusak legitimasi pengisian jabatan yudisial, menyentuh langsung independensi penjaga konstitusi.
+      thesis_id: "Dalil formalnya: dewan mematuhi Putusan MK No. 60/PUU-XXII/2024 dalam revisi UU Pemilu, memulihkan tertib konstitusional yang sempat hendak diterobos pada Agustus 2024."
     - dimension_id: checks-balances
       score: -1
       confidence: 0.3
@@ -3108,8 +3177,9 @@
         - ev-dpr24-revisi-md3
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Ketegangan antara dewan dan Mahkamah Konstitusi setidaknya menunjukkan lembaga-lembaga itu tidak saling melebur; perbedaan sikap yang terbuka masih lebih baik daripada penyeragaman diam-diam.
+      antithesis_id: Dewan menolak proses Majelis Kehormatan atas calon hakim usulannya sendiri, menempatkan diri di luar mekanisme akuntabilitas yang dibentuk konstitusi - penolakan diawasi, bukan sekadar berbeda pendapat.
       synthesis_id: Skor Buruk (-1) karena dewan menolak proses Majelis Kehormatan atas calon hakim usulannya sendiri, menempatkan diri di luar mekanisme akuntabilitas yang dibentuk konstitusi.
+      thesis_id: "Dalil formalnya: perbedaan sikap yang terbuka antara dewan dan Mahkamah Konstitusi menunjukkan lembaga-lembaga itu tidak saling melebur, dan ketegangan yang terlihat lebih baik daripada penyeragaman diam-diam."
     - dimension_id: kedaulatan-rakyat
       score: -1
       confidence: 0.35
@@ -3122,8 +3192,9 @@
         - ev-dpr24-calon-hakim-mk
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: Dewan hasil Pemilu 2024 memperoleh mandat elektoral yang sah dengan partisipasi tinggi, dan menjalankan revisi UU Pemilu sesuai perintah pengadilan konstitusi.
+      antithesis_id: Gelombang protes nasional atas tunjangan anggota memperlihatkan jarak antara dewan dan rakyat yang diwakilinya melebar sejak awal masa jabatan, sebelum satu pun capaian legislasi dihasilkan.
       synthesis_id: Skor Buruk (-1) karena gelombang protes nasional atas tunjangan anggota memperlihatkan jarak antara dewan dan rakyat yang diwakilinya melebar sejak awal masa jabatan.
+      thesis_id: "Dalil formalnya: dewan hasil Pemilu 2024 memperoleh mandat elektoral yang sah dengan partisipasi tinggi, dan menjalankan revisi UU Pemilu sesuai perintah pengadilan konstitusi."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -10031,6 +10102,7 @@
         - ev-anri-sidang-ppki-18-22-agustus-1945
       antithesis_id: KNIP dibentuk PPKI dan anggotanya diangkat, bukan dipilih; perluasan partisipasi lewat Maklumat X membuka sistem multipartai tanpa pernah diuji lewat pemilihan umum sepanjang periode revolusi.
       synthesis_id: Skor Baik (+1) karena badan perwakilan dibentuk hanya sehari setelah proklamasi dan segera diberi kekuasaan legislatif lewat Maklumat X, meletakkan kedaulatan rakyat sebagai asas sejak hari pertama republik.
+      thesis_id: "Dalil formalnya: PPKI membentuk Komite Nasional Indonesia Pusat sehari setelah proklamasi, dan Maklumat Wakil Presiden No. X 16 Oktober 1945 memberinya kekuasaan legislatif bersama Presiden."
     - dimension_id: sila-4
       score: 1
       confidence: 0.5
@@ -10043,6 +10115,7 @@
         - ev-anri-sidang-ppki-18-22-agustus-1945
       antithesis_id: Peralihan ke sistem parlementer ditempuh lewat maklumat pemerintah dan bukan lewat perubahan UUD, sehingga perubahan mendasar sistem ketatanegaraan diputuskan tanpa mekanisme konstitusional yang tersedia.
       synthesis_id: Skor Baik (+1) karena tanggung jawab pemerintahan dialihkan kepada menteri yang bertanggung jawab pada badan perwakilan, memperkenalkan permusyawaratan sebagai dasar pemerintahan sejak awal republik.
+      thesis_id: "Dalil formalnya: Maklumat Pemerintah 14 November 1945 mengalihkan tanggung jawab pemerintahan kepada menteri yang bertanggung jawab kepada badan perwakilan, memperkenalkan permusyawaratan sebagai dasar pemerintahan."
     - dimension_id: sila-3
       score: 0
       confidence: 0.45
@@ -10055,6 +10128,7 @@
         - ev-anri-sidang-ppki-18-22-agustus-1945
       antithesis_id: Pembentukan KNIP dan penetapan delapan provinsi menegakkan kesatuan di atas kertas, sementara wilayah yang benar-benar dikuasai republik menyusut terus akibat agresi militer dan pembentukan negara-negara bagian bentukan Belanda.
       synthesis_id: Skor Netral (0) karena badan perwakilan nasional dan pembagian wilayah ditetapkan, tepat sebanding dengan wilayah yang benar-benar dikuasai republik yang terus menyusut akibat agresi militer dan negara-negara bentukan Belanda.
+      thesis_id: "Dalil formalnya: PPKI membentuk KNIP dan menetapkan pembagian delapan provinsi pada sidang 18-22 Agustus 1945, menegakkan klaim kesatuan bangsa di tengah kekosongan kekuasaan."
     - dimension_id: sila-1
       score: 1
       confidence: 0.45
@@ -10067,6 +10141,7 @@
         - ev-anri-sidang-ppki-18-22-agustus-1945
       antithesis_id: Penghapusan tujuh kata Piagam Jakarta dilakukan lewat kesepakatan cepat sehari setelah proklamasi tanpa forum permusyawaratan yang luas, dan ketidakpuasan atasnya kemudian meletus menjadi pemberontakan bersenjata.
       synthesis_id: Skor Baik (+1) karena rumusan Ketuhanan Yang Maha Esa yang dapat diterima seluruh golongan disepakati sebagai sila pertama, menjaga negara baru tidak pecah pada hari pertamanya.
+      thesis_id: "Dalil formalnya: PPKI mengesahkan Pancasila dengan sila Ketuhanan Yang Maha Esa sebagai dasar negara pada 18 Agustus 1945, rumusan yang disepakati agar dapat diterima seluruh golongan."
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.4
@@ -10079,6 +10154,7 @@
         - ev-anri-sidang-ppki-18-22-agustus-1945
       antithesis_id: Tertib hukum ditegakkan lewat pengesahan UUD dan pembentukan lembaga, tetapi dalam praktik revolusi banyak keputusan diambil lewat maklumat dan tindakan darurat di luar kerangka konstitusi yang baru disahkan.
       synthesis_id: Skor Baik (+1) karena konstitusi disahkan dan lembaga negara dibentuk sebagai dasar hukum republik dalam waktu empat hari setelah proklamasi, di tengah kekosongan kekuasaan total.
+      thesis_id: "Dalil formalnya: UUD 1945 disahkan dan lembaga negara dibentuk dalam empat hari setelah proklamasi, memberi republik dasar hukum di tengah kekosongan kekuasaan total."
     - dimension_id: sila-2
       score: 0
       confidence: 0.4
@@ -10091,6 +10167,7 @@
         - ev-anri-sidang-ppki-18-22-agustus-1945
       antithesis_id: Ruang partisipasi politik dibuka lewat Maklumat X, tetapi kekerasan revolusi sosial di berbagai daerah pada 1945-1946 berlangsung tanpa perlindungan hukum bagi korbannya dan tanpa dipersoalkan badan perwakilan.
       synthesis_id: Skor Netral (0) karena kebebasan berserikat dijamin lewat maklumat, tepat sebanding dengan kekerasan revolusi sosial 1945-1946 yang berlangsung tanpa perlindungan hukum bagi korbannya dan tanpa dipersoalkan badan perwakilan.
+      thesis_id: "Dalil formalnya: Maklumat Wakil Presiden No. X dan Maklumat Pemerintah 3 November 1945 menjamin kebebasan berserikat dan mendirikan partai, menempatkan warga sebagai subjek politik."
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.4
@@ -10103,6 +10180,7 @@
         - ev-anri-sidang-ppki-18-22-agustus-1945
       antithesis_id: Kedaulatan diperjuangkan dan dipertahankan, tetapi badan perwakilan tidak dapat melindungi warga dari agresi militer Belanda maupun dari kekerasan antargolongan yang menyertai revolusi di banyak daerah.
       synthesis_id: Skor Netral (0) karena eksistensi republik dipertahankan, tetapi badan perwakilan tidak dapat melindungi warga dari agresi militer maupun kekerasan antargolongan yang menyertai revolusi.
+      thesis_id: "Dalil formalnya: negara dibentuk lengkap dengan konstitusi dan lembaga perwakilannya di tengah upaya kembalinya kekuasaan kolonial, dan eksistensinya berhasil dipertahankan."
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.4
@@ -10115,6 +10193,7 @@
         - ev-anri-sidang-ppki-18-22-agustus-1945
       antithesis_id: Fondasi pemerintahan dan keuangan negara dibentuk, tetapi perekonomian sepanjang periode ini hancur oleh blokade, inflasi mata uang pendudukan, dan pembiayaan perang sehingga kesejahteraan umum tidak bergerak.
       synthesis_id: Skor Netral (0) karena kelembagaan pemerintahan dan keuangan negara dibentuk dari titik nol, tepat sebanding dengan perekonomian yang hancur oleh blokade, inflasi, dan pembiayaan perang.
+      thesis_id: "Dalil formalnya: kelembagaan pemerintahan dan keuangan negara dibentuk dari titik nol pada 1945, menyediakan kerangka yang menopang seluruh pembangunan sesudahnya."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -10161,6 +10240,7 @@
         - uud-nri-1945
       antithesis_id: Konstituante hasil Pemilu 1955 memiliki legitimasi terkuat dalam sejarah republik, tetapi dibubarkan lewat dekrit presiden sebelum menyelesaikan mandatnya - kedaulatan rakyat yang dipulihkan dicabut oleh eksekutif.
       synthesis_id: Skor Baik (+1) karena kembalinya bentuk negara kesatuan disepakati lewat persetujuan dan Konstituante dibentuk dari pemilu yang jujur, memulihkan kedaulatan rakyat sebagai sumber konstitusi.
+      thesis_id: "Dalil formalnya: bentuk negara kesatuan dipulihkan lewat Piagam Persetujuan 19 Mei 1950 dan Konstituante dibentuk dari Pemilu 1955 yang jujur, memulihkan kedaulatan rakyat sebagai sumber konstitusi."
     - dimension_id: sila-2
       score: 0
       confidence: 0.5
@@ -10173,8 +10253,9 @@
       event_ids:
         - ev-uu-pemda-desentralisasi-1957
         - ev-anri-piagam-persetujuan-nkri-1950
-      antithesis_id: Perdebatan hak asasi manusia di Konstituante berlangsung terbuka dan mendalam, menghasilkan rumusan yang oleh banyak ahli dinilai lebih maju daripada Bab XA hasil amandemen empat dasawarsa kemudian.
+      antithesis_id: "Pembahasan itu tidak pernah menjadi norma: Konstituante dibubarkan lewat Dekrit Presiden 5 Juli 1959 sebelum kesepakatan tercapai, sehingga seluruh rumusan hak asasi yang telah dikerjakan bertahun-tahun hangus tanpa berlaku sehari pun."
       synthesis_id: Skor Netral (0) karena pembahasan hak asasi berlangsung paling substantif sepanjang sejarah ketatanegaraan Indonesia, tepat sebanding dengan dibubarkannya forum itu sebelum kesepakatan dicapai.
+      thesis_id: "Dalil formalnya: Konstituante membahas hak asasi manusia secara terbuka dan mendalam sepanjang 1956-1958, menghasilkan rumusan yang oleh banyak ahli dinilai lebih maju daripada Bab XA hasil amandemen empat dasawarsa kemudian."
     - dimension_id: sila-4
       score: 1
       confidence: 0.5
@@ -10188,6 +10269,7 @@
         - ev-uu-pemda-desentralisasi-1957
       antithesis_id: Musyawarah perwakilan berjalan penuh, tetapi kebuntuan Konstituante atas dasar negara memperlihatkan permusyawaratan tanpa kesediaan berkompromi dapat berujung pada pembenaran bagi penyelesaian di luar mekanisme demokratis.
       synthesis_id: Skor Baik (+1) karena Konstituante hasil pemilu bebas membahas konstitusi secara terbuka, dan Pemilu 1955 diselenggarakan tanpa rekayasa dengan hasil diterima seluruh kontestan.
+      thesis_id: "Dalil formalnya: Pemilu 1955 diselenggarakan tanpa rekayasa dengan hasil diterima seluruh kontestan, dan Konstituante hasil pemilu itu membahas konstitusi secara terbuka."
     - dimension_id: negara-hukum
       score: 1
       confidence: 0.5
@@ -10201,6 +10283,7 @@
         - ev-anri-piagam-persetujuan-nkri-1950
       antithesis_id: UUDS 1950 menata negara hukum kesatuan dengan jaminan hak yang kuat, tetapi konstitusi itu sendiri berstatus sementara dan berakhir dibatalkan lewat dekrit di luar prosedur perubahan yang diaturnya.
       synthesis_id: Skor Baik (+1) karena kembalinya bentuk kesatuan dan pemberlakuan UUDS 1950 menata tertib hukum nasional lewat kesepakatan, bukan lewat paksaan bersenjata.
+      thesis_id: "Dalil formalnya: kembalinya bentuk kesatuan dan pemberlakuan UUDS 1950 menata tertib hukum nasional lewat kesepakatan, bukan lewat paksaan bersenjata."
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.45
@@ -10214,6 +10297,7 @@
         - ev-dpr-uuds-1950
       antithesis_id: Sistem parlementer menjaga pemerintahan tetap bertanggung jawab kepada wakil rakyat, tetapi tujuh kali pergantian kabinet dalam sembilan tahun melemahkan kemampuan negara menangani pemberontakan daerah yang mengancam keutuhan wilayah.
       synthesis_id: Skor Netral (0) karena pertanggungjawaban pemerintahan kepada lembaga perwakilan berjalan penuh, tepat sebanding dengan ketidakstabilan kabinet yang menggerus kemampuan negara melindungi warganya.
+      thesis_id: "Dalil formalnya: sistem parlementer menjaga pemerintahan tetap bertanggung jawab kepada wakil rakyat, dan setiap kabinet yang kehilangan dukungan digantikan lewat prosedur konstitusional."
     - dimension_id: sila-1
       score: 0
       confidence: 0.45
@@ -10226,8 +10310,9 @@
       event_ids:
         - ev-pemilu-demokratis-1955
         - ev-uu-pemda-desentralisasi-1957
-      antithesis_id: Perdebatan dasar negara berlangsung terbuka dan setara antara pendukung Pancasila, Islam, dan sosial-ekonomi, kebebasan berdebat tentang fondasi negara yang tidak pernah terulang dalam sejarah Indonesia sesudahnya.
+      antithesis_id: Perdebatan itu tidak mencapai kesepakatan dan kebuntuannya justru dipakai membenarkan pembubaran forumnya lewat dekrit, sehingga kebebasan berdebat berakhir dengan hilangnya hak berdebat itu sendiri.
       synthesis_id: Skor Netral (0) karena kebebasan penuh memperdebatkan dasar negara diimbangi persis oleh kegagalan mencapai kesepakatan yang kemudian dipakai membenarkan pembubaran forumnya lewat dekrit.
+      thesis_id: "Dalil formalnya: dasar negara diperdebatkan secara terbuka dan setara di Konstituante antara pendukung Pancasila, Islam, dan sosial-ekonomi - kebebasan berdebat tentang fondasi negara yang tidak pernah terulang sesudahnya."
     - dimension_id: tujuan-2
       score: 1
       confidence: 0.5
@@ -10241,6 +10326,7 @@
         - ev-anri-piagam-persetujuan-nkri-1950
       antithesis_id: Upaya membangun ekonomi nasional pasca-federal berjalan, tetapi terhambat beban utang warisan Konferensi Meja Bundar, pemberontakan daerah, dan pergantian kabinet yang membuat kebijakan ekonomi tidak pernah berjalan tuntas.
       synthesis_id: Skor Baik (+1) karena UU No. 1 Tahun 1957 meletakkan otonomi daerah yang luas dan demokratis, dan Pemilu 1955 memberi pemerintahan legitimasi untuk menyusun kebijakan ekonomi nasional.
+      thesis_id: "Dalil formalnya: UU No. 1 Tahun 1957 meletakkan otonomi daerah yang luas dan demokratis, dan Pemilu 1955 memberi pemerintahan legitimasi untuk menyusun kebijakan ekonomi nasional."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -10283,6 +10369,7 @@
         - uud-nri-1945
       antithesis_id: UUPA No. 5 Tahun 1960 lahir dari DPR-GR yang seluruh anggotanya diangkat Presiden setelah DPR hasil Pemilu 1955 dibubarkan, sehingga undang-undang pokok terpenting periode ini disahkan tanpa mandat rakyat.
       synthesis_id: Skor Baik (+1) karena UUPA membongkar hukum tanah kolonial dan meletakkan dasar keadilan agraria, undang-undang yang hingga kini menjadi rujukan utama hukum agraria Indonesia.
+      thesis_id: "Dalil formalnya: DPR-GR mengesahkan UU Pokok Agraria No. 5 Tahun 1960 yang membongkar hukum tanah kolonial, undang-undang pokok yang hingga kini menjadi rujukan utama hukum agraria Indonesia."
     - dimension_id: kedaulatan-rakyat
       score: 0
       confidence: 0.55
@@ -10292,8 +10379,9 @@
         - source_id: tap-mprs-xxv-1966
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: DPR-GR tetap menjadi forum yang mengesahkan undang-undang pokok seperti UUPA, mempertahankan bentuk kelembagaan pembentukan hukum meski legitimasinya kosong.
+      antithesis_id: "Bentuk itu kosong dari mandat rakyat: DPR hasil Pemilu 1955 dibubarkan lewat Penpres No. 3 Tahun 1960 dan seluruh anggota penggantinya diangkat Presiden, sehingga undang-undang terpenting periode ini lahir tanpa satu pun suara pemilih."
       synthesis_id: Skor Netral (0) karena fungsi legislasi tetap berjalan dan menghasilkan undang-undang yang bertahan, tepat sebanding dengan hilangnya mandat rakyat akibat pembubaran DPR hasil pemilu dan pengangkatan anggota oleh Presiden.
+      thesis_id: "Dalil formalnya: DPR-GR tetap menjadi forum yang mengesahkan undang-undang pokok termasuk UUPA, mempertahankan bentuk kelembagaan pembentukan hukum tetap berjalan."
     - dimension_id: checks-balances
       score: -1
       confidence: 0.45
@@ -10302,8 +10390,9 @@
         - source_id: anri-supersemar-1966
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: DPR-GR sempat menjadi forum yang mengesahkan peralihan kekuasaan pasca-Supersemar secara terdokumentasi, menjaga perubahan kekuasaan tetap melewati lembaga perwakilan meski tanpa daya menolaknya.
+      antithesis_id: Lembaga yang seluruh anggotanya diangkat Presiden tidak dapat mengawasi Presiden yang mengangkatnya; pengesahan itu adalah stempel, bukan kontrol.
       synthesis_id: Skor Buruk (-1) karena lembaga perwakilan yang anggotanya diangkat Presiden tidak dapat mengawasi Presiden yang mengangkatnya, meniadakan fungsi pengimbang kekuasaan eksekutif.
+      thesis_id: "Dalil formalnya: DPR-GR menjadi forum yang mengesahkan peralihan kekuasaan pasca-Supersemar secara terdokumentasi, menjaga perubahan kekuasaan tetap melewati lembaga perwakilan."
     - dimension_id: sila-1
       score: 0
       confidence: 0.45
@@ -10314,6 +10403,7 @@
         - uud-nri-1945
       antithesis_id: Sila Ketuhanan ditegakkan secara formal dalam seluruh produk hukum, tetapi UU No. 1/PNPS/1965 yang lahir pada periode ini justru mengunci tafsir keagamaan yang sah dan menjadi dasar kriminalisasi keyakinan selama enam dasawarsa.
       synthesis_id: Skor Netral (0) karena kedudukan formal sila Ketuhanan dipertahankan dalam tertib hukum, tepat sebanding dengan lahirnya instrumen yang membatasi kebebasan beragama pada periode yang sama.
+      thesis_id: "Dalil formalnya: sila Ketuhanan tetap ditegakkan secara formal dalam seluruh produk hukum periode ini, dan tidak ada pelarangan peribadatan."
     - dimension_id: tujuan-1
       score: 0
       confidence: 0.45
@@ -10324,6 +10414,7 @@
         - uud-nri-1945
       antithesis_id: UUPA menegakkan kedaulatan atas tanah dan sumber daya, tetapi pelaksanaan landreform-nya berlangsung lewat aksi sepihak yang memicu kekerasan antargolongan di pedesaan tanpa perlindungan hukum bagi korbannya.
       synthesis_id: Skor Netral (0) karena kedaulatan negara atas tanah dan kekayaan alam ditegakkan lewat undang-undang pokok, tepat sebanding dengan kekerasan yang menyertai pelaksanaannya tanpa perlindungan warga.
+      thesis_id: "Dalil formalnya: UUPA No. 5 Tahun 1960 menegakkan kedaulatan negara atas tanah dan sumber daya alam, mengakhiri penguasaan berdasarkan hukum kolonial."
     - dimension_id: sila-5
       score: 0
       confidence: 0.45
@@ -10334,6 +10425,7 @@
         - uud-nri-1945
       antithesis_id: UUPA meletakkan landasan redistribusi tanah bagi petani, tetapi pelaksanaannya terhenti oleh gejolak politik 1965 dan sebagian besar mandat redistribusinya tidak pernah dijalankan hingga hari ini.
       synthesis_id: Skor Netral (0) karena landasan hukum keadilan agraria yang progresif ditetapkan, tepat sebanding dengan terhentinya pelaksanaan redistribusi yang menjadi tujuannya.
+      thesis_id: "Dalil formalnya: UUPA meletakkan landasan redistribusi tanah bagi petani, kerangka keadilan agraria paling progresif yang pernah ditetapkan republik."
     - dimension_id: sila-4
       score: -1
       confidence: 0.45
@@ -10342,8 +10434,9 @@
         - source_id: anri-supersemar-1966
       normative_anchors:
         - uud-nri-1945
-      antithesis_id: DPR-GR tetap menyelenggarakan pembahasan undang-undang secara formal dan menghasilkan produk hukum yang bertahan puluhan tahun, sehingga bentuk permusyawaratan tidak sepenuhnya hilang.
+      antithesis_id: "Syarat dasar permusyawaratan tidak terpenuhi: anggota lembaga perwakilan diangkat Presiden setelah DPR hasil Pemilu 1955 dibubarkan, sehingga yang bermusyawarah adalah orang-orang yang dipilih oleh pihak yang seharusnya diawasi."
       synthesis_id: Skor Buruk (-1) karena anggota lembaga perwakilan diangkat Presiden setelah DPR hasil Pemilu 1955 dibubarkan, meniadakan syarat dasar permusyawaratan yaitu wakil yang dipilih rakyat.
+      thesis_id: "Dalil formalnya: DPR-GR tetap menyelenggarakan pembahasan undang-undang secara formal dan menghasilkan produk hukum yang bertahan puluhan tahun sesudahnya."
     - dimension_id: tujuan-2
       score: 0
       confidence: 0.4
@@ -10354,6 +10447,7 @@
         - uud-nri-1945
       antithesis_id: Penataan agraria nasional lewat UUPA memberi kerangka pemerataan penguasaan tanah, tetapi periode yang sama ditandai hiperinflasi tiga digit yang menghapus daya beli rakyat lebih cepat daripada manfaat penataan itu.
       synthesis_id: Skor Netral (0) karena kerangka pemerataan penguasaan sumber daya ditetapkan lewat undang-undang pokok, tepat sebanding dengan runtuhnya perekonomian yang menghapus manfaatnya bagi rakyat.
+      thesis_id: "Dalil formalnya: penataan agraria nasional lewat UUPA memberi kerangka pemerataan penguasaan tanah sebagai dasar kesejahteraan rakyat pedesaan."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
@@ -10400,6 +10494,7 @@
         - uud-nri-1945
       antithesis_id: TAP MPR XI/MPR/1998 lahir dari Sidang Istimewa MPR, forum yang anggotanya sebagian besar berasal dari DPR periode ini - lembaga yang selama tiga dasawarsa justru mengesahkan seluruh produk hukum yang melanggengkan KKN.
       synthesis_id: Skor Baik (+1) karena asas penyelenggara negara yang bersih dan bebas KKN akhirnya ditetapkan sebagai norma yang mengikat, menjadi dasar seluruh legislasi antikorupsi sesudahnya.
+      thesis_id: "Dalil formalnya: Sidang Istimewa MPR November 1998 menetapkan TAP MPR No. XI/MPR/1998 tentang penyelenggara negara yang bersih dan bebas dari korupsi, kolusi, serta nepotisme."
     - dimension_id: sila-2
       score: 1
       confidence: 0.55
@@ -10412,6 +10507,7 @@
         - uud-nri-1945
       antithesis_id: Piagam HAM 1998 ditetapkan pada bulan-bulan terakhir periode setelah rezim yang didukung DPR ini lengser, sehingga koreksi datang ketika tidak lagi berisiko - bukan sebagai perlawanan melainkan sebagai penyesuaian.
       synthesis_id: Skor Baik (+1) karena Piagam HAM pertama Indonesia ditetapkan dan menjadi dasar UU 39/1999 serta Bab XA UUD 1945, titik balik pengakuan hak asasi pasca-otoritarianisme.
+      thesis_id: "Dalil formalnya: TAP MPR No. XVII/MPR/1998 menetapkan Piagam HAM pertama Indonesia, yang menjadi dasar UU No. 39 Tahun 1999 dan Bab XA UUD 1945 sesudahnya."
   ai_disclosure:
     assisted: true
     model_id: gemini-3.8-flash-high
