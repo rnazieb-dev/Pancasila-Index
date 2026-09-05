@@ -740,6 +740,37 @@ for (const a of assessments) {
   }
 }
 
+// (7b) Pengungkapan AI tidak boleh MENGECILKAN peran model, dan penerbit tidak
+// boleh menyertifikasi kepatuhan hukumnya sendiri. Dua klaim ini pernah lolos
+// bertahun-tahun karena keduanya "valid" secara skema: analysis_type
+// "llm-assisted-synthesis" menyiratkan manusia yang menyusun dengan bantuan
+// model, dan article_50_compliant dulu bertipe literal(true) sehingga
+// ketidakpatuhan mustahil dinyatakan.
+for (const a of assessments) {
+  const dis = a.ai_disclosure;
+  if (!dis) continue;
+  const approverCount = dis.human_oversight?.approver_count ?? 0;
+
+  if (approverCount === 0 && dis.analysis_type !== "llm-authored-draft") {
+    errors.push(
+      `${a.id}: analysis_type "${dis.analysis_type}" mengecilkan peran AI - tanpa satu pun penelaah manusia, nilai yang jujur adalah "llm-authored-draft"`
+    );
+  }
+
+  const notice = dis.limitations_notice ?? "";
+  if (approverCount === 0 && /diverifikasi (?:sepenuhnya )?oleh penelaah manusia|sepenuhnya diverifikasi/i.test(notice)) {
+    errors.push(
+      `${a.id}: limitations_notice mengklaim verifikasi manusia padahal approver_count=0`
+    );
+  }
+
+  if (dis.eu_ai_act_compliance?.independently_audited === true) {
+    errors.push(
+      `${a.id}: independently_audited=true - kepatuhan hukum tidak boleh disertifikasi sendiri, hanya audit pihak ketiga yang boleh menaikkan nilai ini`
+    );
+  }
+}
+
 if (errors.length > 0) {
   console.error("Referensi silang tidak konsisten:");
   for (const err of errors) console.error(`  - ${err}`);

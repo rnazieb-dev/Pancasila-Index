@@ -319,6 +319,7 @@ export function DimensionCard({
                   <DialecticalRationale
                     dimensionScore={e.ds}
                     sources={sources}
+                    disclosure={e.ds.ai_disclosure || assessment?.ai_disclosure}
                   />
                 </div>
               ))}

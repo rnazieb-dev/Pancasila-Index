@@ -464,9 +464,21 @@ export const aiDisclosureSchema = z.object({
   model_id: z.string().default("gemini-3.8-flash-high"),
   model_provider: z.string().default("Google DeepMind"),
   pipeline_version: z.string().default("pancasila-nlp-v1.5"),
+  /**
+   * `llm-authored-draft` = skor, rasional, dan dialektika DIKARANG model, belum
+   * ditelaah manusia. Ini nilai yang jujur untuk indeks ini saat ini.
+   * `llm-assisted-synthesis` menyiratkan manusia yang menyusun dengan bantuan
+   * model - klaim itu terbalik dari kenyataan dan tidak boleh dipakai selama
+   * `human_oversight.approver_count === 0`.
+   */
   analysis_type: z
-    .enum(["heuristic-classification", "llm-assisted-synthesis", "human-verified-only"])
-    .default("llm-assisted-synthesis"),
+    .enum([
+      "heuristic-classification",
+      "llm-authored-draft",
+      "llm-assisted-synthesis",
+      "human-verified-only",
+    ])
+    .default("llm-authored-draft"),
   temperature: z.number().optional(),
   human_oversight: z
     .object({
@@ -506,11 +518,20 @@ export const aiDisclosureSchema = z.object({
   limitations_notice: z
     .string()
     .default(
-      "Sintesis analitis dibantu oleh model AI untuk klasifikasi awal dan perumusan draf. Otoritas kebenaran dan validitas hukum kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap dokumen primer Lembaran Negara dan Putusan Peradilan."
+      "Skor, rasional, dan dialektika pada penilaian ini dikarang model AI dan BELUM ditelaah penelaah manusia. Dokumen primer yang disitasi dapat diperiksa sendiri oleh pembaca, tetapi penimbangan dan angka skornya adalah keluaran model - bukan kesimpulan yang sudah divalidasi manusia."
     ),
+  /**
+   * Penerbit tidak boleh menyatakan sendiri bahwa dirinya patuh hukum. Yang
+   * boleh dinyatakan hanya FAKTA yang dapat diperiksa: pengungkapan Pasal 50
+   * sudah dilakukan. Apakah pengungkapan itu memenuhi Pasal 50 adalah
+   * kesimpulan hukum - dan sampai `independently_audited` bernilai true,
+   * belum ada pihak ketiga yang menilainya. Sebelumnya field ini bertipe
+   * `z.literal(true)` sehingga ketidakpatuhan mustahil dinyatakan.
+   */
   eu_ai_act_compliance: z
     .object({
-      article_50_compliant: z.literal(true).default(true),
+      article_50_disclosed: z.boolean().default(true),
+      independently_audited: z.boolean().default(false),
       transparency_tag: z.string().default("EU-AI-ACT-ART-50-DISCLOSED"),
     })
     .default({}),

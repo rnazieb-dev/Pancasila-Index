@@ -16,7 +16,7 @@ export const dynamic = "force-dynamic";
 export const metadata = {
   title: "Log Aktivitas Kurasi & Jejak Audit",
   description:
-    "Transparansi jejak audit, riwayat verifikasi dataset kanonik 636 peristiwa, dan log kurasi real-time Pancasila Index.",
+    "Transparansi jejak audit, riwayat verifikasi dataset kanonik, dan log kurasi real-time Pancasila Index.",
 };
 
 interface LogRow {
@@ -47,7 +47,7 @@ const CANONICAL_AUDIT_TRAIL: LogRow[] = [
     action: "dataset.archive.sync",
     entity: "Repositori Khazanah Arsip Primer",
     entityId: "pancasila-arsip",
-    meta: "578 dokumen primer hukum (UU, Putusan MK, Putusan MA, Keppres, Laporan BPK) terverifikasi dan terhubung langsung ke basis data resmi negara.",
+    meta: "Dokumen primer hukum (UU, Putusan MK, Putusan MA, Keppres, Laporan BPK) disitasi dan ditautkan langsung ke basis data resmi negara. Jumlah mutakhir ditampilkan pada bilah metrik di atas.",
     createdAt: new Date("2026-08-30T07:00:00Z"),
     actorName: "Sistem Ingest & Kurasi Data",
     badgeTone: "text-[var(--acc-emerald-strong)] bg-emerald-500/10 border-emerald-500/30",
@@ -57,7 +57,7 @@ const CANONICAL_AUDIT_TRAIL: LogRow[] = [
     action: "dataset.audit.dedupe",
     entity: "Dataset Kanonik v1.0",
     entityId: "dataset.json",
-    meta: "Audit integritas data 636 peristiwa multi-bukti, 50 masa jabatan, 0 tautan mati, eliminasi duplikasi, dan penutupan data DPR/MPR pra-1971.",
+    meta: "Audit integritas data peristiwa multi-bukti pada 50 masa jabatan: eliminasi duplikasi, pembersihan tautan mati, dan penutupan data DPR/MPR pra-1971.",
     createdAt: new Date("2026-08-30T06:00:00Z"),
     actorName: "Dewan Kurasi & Validasi",
     badgeTone: "text-[var(--acc-emerald-strong)] bg-emerald-500/10 border-emerald-500/30",
@@ -105,6 +105,10 @@ function getActionTone(action: string): string {
 }
 
 export default async function KurasiLogPage() {
+  const sumberBelumTerverifikasi = dataset.sources.filter(
+    (s) => s.verification_tier !== "official_source" && s.verification_tier !== "human_verified"
+  ).length;
+
   let liveLogs: LogRow[] = [];
   try {
     const found = await db.auditLog.findMany({
@@ -181,6 +185,11 @@ export default async function KurasiLogPage() {
         </div>
       </div>
 
+      {/*
+        Jangan melabeli seluruh sumber sebagai "terverifikasi": tidak satu pun
+        berstatus human_verified. Yang jujur adalah menghitung tersitasi, lalu
+        menyebut berapa yang belum terverifikasi.
+      */}
       {/* Dataset Metrics Bar */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         <div className="rounded-2xl border border-[var(--line)] bg-[var(--panel)] p-4 text-center">
@@ -205,7 +214,12 @@ export default async function KurasiLogPage() {
           <div className="font-mono text-2xl font-black text-[var(--acc-red-strong)]">
             {dataset.sources.length}
           </div>
-          <div className="text-[11px] text-[var(--muted)] mt-0.5">Dokumen Primer Terverifikasi</div>
+          <div className="text-[11px] text-[var(--muted)] mt-0.5">Dokumen Primer Tersitasi</div>
+          {sumberBelumTerverifikasi > 0 && (
+            <div className="text-[10px] text-amber-600 dark:text-amber-400 mt-0.5">
+              {sumberBelumTerverifikasi} belum terverifikasi
+            </div>
+          )}
         </div>
       </div>
 

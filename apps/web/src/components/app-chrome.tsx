@@ -509,7 +509,7 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
                 className="flex items-center gap-2.5 rounded-xl border border-[var(--line)] bg-[var(--bg)] px-3.5 py-2.5 text-xs text-[var(--muted)] hover:border-slate-400 hover:text-[var(--text)] transition shadow-2xs"
               >
                 <IconSearch size={15} />
-                <span className="flex-1 truncate">Cari 650+ peristiwa & arsip...</span>
+                <span className="flex-1 truncate">Cari Peristiwa & arsip...</span>
                 <span className="text-[10px] font-mono opacity-60">/</span>
               </Link>
             </div>

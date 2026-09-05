@@ -35,17 +35,24 @@ for (const a of assessments) {
     model_id: "gemini-3.8-flash-high",
     model_provider: "Google DeepMind",
     pipeline_version: "pancasila-nlp-v1.5",
-    analysis_type: "llm-assisted-synthesis",
+    analysis_type: "llm-authored-draft",
+    // JANGAN PERNAH menuliskan status "verified", approver_count > 0, atau nama
+    // penelaah karangan di sini. Skrip tidak bisa menelaah apa pun. Versi
+    // terdahulu mengarang dua nama generik ("Pakar Hukum Tata Negara",
+    // "Penelaah Sejarah") lengkap dengan approver_count: 2 - kombinasi itu lolos
+    // validasi skema dan diam-diam mengklaim pengawasan manusia yang tidak
+    // pernah terjadi. Status pengawasan hanya boleh naik lewat telaah manusia.
     human_oversight: {
       mechanism: "quorum-2-reviewers",
-      status: "verified",
-      approver_count: 2,
-      approvers: a.reviewers && a.reviewers.length >= 2 ? a.reviewers : ["Pakar Hukum Tata Negara", "Penelaah Sejarah"],
+      status: "draft",
+      approver_count: 0,
+      approvers: [],
     },
     limitations_notice:
-      "Sintesis analitis dibantu oleh model Gemini 3.8 Flash High untuk klasifikasi heuristik dan perumusan draf awal. Validitas hukum dan autoritas kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap dokumen hukum primer yang disitasi.",
+      "Skor, rasional, dan dialektika dikarang model AI dan BELUM ditelaah penelaah manusia. Dokumen primer yang disitasi dapat diperiksa sendiri oleh pembaca, tetapi penimbangan dan angka skornya adalah keluaran model.",
     eu_ai_act_compliance: {
-      article_50_compliant: true,
+      article_50_disclosed: true,
+      independently_audited: false,
       transparency_tag: "EU-AI-ACT-ART-50-DISCLOSED",
     },
   };

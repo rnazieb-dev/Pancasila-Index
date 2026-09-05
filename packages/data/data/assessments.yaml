@@ -200,7 +200,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -208,7 +208,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -409,7 +410,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -417,7 +418,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -639,7 +641,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -647,7 +649,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -850,7 +853,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -858,7 +861,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -1070,7 +1074,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -1078,7 +1082,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -1307,7 +1312,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -1315,7 +1320,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -1602,7 +1608,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -1610,7 +1616,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -1830,7 +1837,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -1838,7 +1845,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -2080,7 +2088,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -2088,7 +2096,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -2312,7 +2321,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -2320,7 +2329,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -2535,7 +2545,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -2543,7 +2553,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -2745,7 +2756,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -2753,7 +2764,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -2997,7 +3009,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -3005,7 +3017,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -3200,7 +3213,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -3208,7 +3221,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -3421,7 +3435,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -3429,7 +3443,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -3651,7 +3666,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -3659,7 +3674,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -3881,7 +3897,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -3889,7 +3905,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -4113,7 +4130,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -4121,7 +4138,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -4364,7 +4382,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -4372,7 +4390,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -4661,7 +4680,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -4669,7 +4688,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -4932,7 +4952,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -4940,7 +4960,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -5259,7 +5280,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -5267,7 +5288,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -5471,7 +5493,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -5479,7 +5501,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -5696,7 +5719,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -5704,7 +5727,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -6004,7 +6028,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -6012,7 +6036,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -6244,7 +6269,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -6252,7 +6277,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -6448,7 +6474,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -6456,7 +6482,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -6666,7 +6693,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -6674,7 +6701,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -6873,7 +6901,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -6881,7 +6909,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -7077,7 +7106,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -7085,7 +7114,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -7295,7 +7325,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -7303,7 +7333,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -7512,7 +7543,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -7520,7 +7551,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -7740,7 +7772,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -7748,7 +7780,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -7973,7 +8006,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -7981,7 +8014,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -8231,7 +8265,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -8239,7 +8273,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -8463,7 +8498,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -8471,7 +8506,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -8678,7 +8714,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -8686,7 +8722,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -8885,7 +8922,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -8893,7 +8930,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -9108,7 +9146,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -9116,7 +9154,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -9327,7 +9366,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -9335,7 +9374,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -9499,7 +9539,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -9507,7 +9547,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -9698,7 +9739,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -9706,7 +9747,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -9885,7 +9927,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -9893,7 +9935,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -10107,7 +10150,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -10115,7 +10158,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -10241,7 +10285,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -10249,7 +10293,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -10391,7 +10436,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -10399,7 +10444,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -10530,7 +10576,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -10538,7 +10584,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -10663,7 +10710,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -10671,7 +10718,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -10784,7 +10832,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -10792,7 +10840,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
@@ -10844,7 +10893,7 @@
     model_id: gemini-3.8-flash-high
     model_provider: Google DeepMind
     pipeline_version: pancasila-nlp-v1.5
-    analysis_type: llm-assisted-synthesis
+    analysis_type: llm-authored-draft
     human_oversight:
       mechanism: quorum-2-reviewers
       status: draft
@@ -10852,7 +10901,8 @@
       approvers: []
     limitations_notice: Draf analitis dibangkitkan model AI dan BELUM ditelaah manusia. Audit integritas 4 September 2026 menemukan dialektika, kutipan pakar, dan sitasi hasil halusinasi model; seluruh materi tersebut telah dihapus. Yang tersisa adalah rasional bersitasi dokumen primer yang masih menunggu kuorum dua penelaah manusia sebelum berstatus published.
     eu_ai_act_compliance:
-      article_50_compliant: true
+      article_50_disclosed: true
+      independently_audited: false
       transparency_tag: EU-AI-ACT-ART-50-DISCLOSED
     remediation:
       model_id: claude-opus-5
