@@ -22,12 +22,17 @@ daftar user yang boleh bypass hanya tersedia untuk repo organisasi.
 Untuk personal repo, satu-satunya cara admin override yang tercatat
 adalah: **buka PR biasa, lalu admin merge lewat UI dengan opsi
 "Merge without waiting for requirements"**. Fitur UI ini tersedia
-untuk admin repo walaupun `enforce_admins: true` — ia hanya memastikan
-bahwa **push langsung lewat CLI ditolak**, sehingga setiap perubahan
-harus lewat PR (yang menciptakan jejak audit).
+untuk admin repo. **Keadaan sebenarnya (diperbarui 5 September 2026):**
+`enforce_admins` pada repo ini bernilai **`false`**, bukan `true`. Artinya
+override tidak hanya tersedia lewat UI — `gh pr merge --admin` dan bahkan
+`git push origin main` langsung pun tidak akan ditolak. Pagar yang tersisa
+karena itu bersifat **sosial dan prosedural**, bukan teknis: ia bekerja
+sejauh protokol ini dipatuhi.
 
 Override **tidak** berarti:
-- `git push origin main` langsung (akan ditolak oleh `enforce_admins`).
+- `git push origin main` langsung. Secara teknis TIDAK ditolak selama
+  `enforce_admins: false`, tetapi tetap dilarang protokol ini karena
+  melewati PR berarti menghapus jejak audit.
 - Mengubah aturan tanpa diskusi.
 
 Override **ya** berarti:
@@ -76,11 +81,22 @@ Override **ya** berarti:
 
 ## Cara yang salah (jangan dilakukan)
 
-- `git push origin main` langsung (akan ditolak oleh `enforce_admins`).
-- Mematikan `enforce_admins` lalu push, lalu menyalakan lagi, tanpa
-  tercatat di PR.
+- `git push origin main` langsung. Tidak ditolak secara teknis
+  (`enforce_admins: false`), justru karena itu dilarang di sini.
+- Mematikan pagar lalu push, lalu menyalakan lagi, tanpa tercatat di PR.
 - Meminta kontributor tepercaya untuk menyetujui tanpa review nyata
   ("rubber-stamping").
+
+## Preseden tercatat
+
+| PR | Tanggal | Kelas perubahan | Catatan |
+| --- | --- | --- | --- |
+| [#17](https://github.com/rnazieb-dev/Pancasila-Index/pull/17) | 4 Sep 2026 | `packages/data/` — skor, peristiwa, sumber | Di-merge owner dengan 0 review, padahal kelas ini termasuk **"kapan TIDAK boleh dipakai"** di atas. CI hijau (`verify`, `audit`, `secrets`). Data tetap `human_confirmed: false` dan `human_oversight.status: draft`, jadi tidak ada klaim palsu bahwa isinya sudah ditelaah manusia — yang terlewat adalah telaah kodenya. Telaah isi menyusul lewat `/kurasi` (kuorum dua penelaah). |
+
+Preseden dicatat di sini, bukan disembunyikan. Bila pola ini berulang untuk
+perubahan `packages/data/`, aturan pada bagian "Kapan TIDAK boleh dipakai"
+kehilangan maknanya dan sebaiknya diubah secara terbuka alih-alih dilanggar
+diam-diam.
 
 ## Audit & akuntabilitas
 
