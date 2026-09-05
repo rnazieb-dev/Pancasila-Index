@@ -98,7 +98,15 @@ function pasangFetchTiruan(opts?: { expiresInMs?: number }) {
   );
 }
 
-describe("otentikasi GitHub App (github-pr.ts)", () => {
+/*
+ * Timeout dinaikkan dari 5 detik bawaan: `generateKeyPairSync` RSA-2048 di
+ * tingkat modul (baris 15) berjalan sekali sebelum uji pertama, dan biayanya
+ * sangat bervariasi - dari ratusan milidetik sampai beberapa detik saat mesin
+ * sibuk. Uji pertama yang menanggungnya jadi gagal karena kehabisan waktu,
+ * bukan karena asersinya salah. Ini murni anggaran waktu, bukan pelonggaran
+ * asersi.
+ */
+describe("otentikasi GitHub App (github-pr.ts)", { timeout: 30_000 }, () => {
   beforeEach(() => {
     vi.resetModules();
     vi.unstubAllEnvs();

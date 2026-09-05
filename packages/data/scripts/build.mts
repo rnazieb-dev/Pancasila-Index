@@ -535,6 +535,34 @@ for (const a of assessments) {
   }
 }
 
+// (5c) Entri register JDIH adalah metadata Lembaran Negara apa adanya, BUKAN
+//      bukti terkurasi. Menempelkannya ke skor dimensi sama dengan mengisi
+//      metrik: ribuan peraturan tarif dan pengangkatan pejabat akan tampak
+//      seolah "bukti empiris" penilaian konstitusional. Penautan hanya sah
+//      lewat kurasi eksplisit, yaitu setelah provenance-nya diubah ke `kurasi`.
+for (const a of assessments) {
+  for (const ds of a.dimension_scores) {
+    for (const eid of ds.event_ids ?? []) {
+      const ev = eventById.get(eid);
+      if (ev?.provenance === "register-jdih") {
+        errors.push(
+          `${a.id}/${ds.dimension_id}: peristiwa "${eid}" berprovenance register-jdih ` +
+            `dan tidak boleh jadi bukti skor tanpa kurasi eksplisit`
+        );
+      }
+    }
+    for (const ev of ds.evidence ?? []) {
+      const src = sourcesRaw.find((x) => x.id === ev.source_id);
+      if (src?.provenance === "register-jdih") {
+        errors.push(
+          `${a.id}/${ds.dimension_id}: sumber "${ev.source_id}" berprovenance ` +
+            `register-jdih dan tidak boleh jadi bukti skor tanpa kurasi eksplisit`
+        );
+      }
+    }
+  }
+}
+
 // (5b) Ringkasan peristiwa tidak boleh boilerplate massal: satu paragraf yang
 //      sama pada puluhan "peristiwa" berbeda adalah pengisi metrik.
 const ringkasanTerpakai = new Map<string, string[]>();
@@ -561,7 +589,10 @@ for (const e of events) {
     .toLowerCase()
     .replace(/[^a-z0-9 ]/g, " ")
     .split(/\s+/)
-    .filter((w) => w.length > 3)
+    // Angka SELALU dipertahankan meski pendek: pada judul dokumen hukum,
+    // nomornya justru pembedanya ("PP No. 110" vs "PP No. 111"). Membuang
+    // token <=3 huruf tanpa kecuali membuat keduanya tampak kembar.
+    .filter((w) => w.length > 3 || /^\d+$/.test(w))
     .sort()
     .join(" ");
   const kunci = `${e.term_id}::${e.date}::${inti}`;

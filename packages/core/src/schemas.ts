@@ -64,6 +64,8 @@ export const i18nFields = (key: string) =>
 export const sourceTypeSchema = z.enum([
   "undang-undang",
   "perppu",
+  "peraturan-pemerintah",
+  "peraturan-presiden",
   "keppres",
   "inpres",
   "putusan-mk",
