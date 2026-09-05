@@ -3,7 +3,7 @@ import { aiDisclosureSchema } from "@pancasila-index/core";
 import { dataset } from "@pancasila-index/data";
 
 describe("EU AI Act & Dimension Milestones Integrity", () => {
-  it("aiDisclosureSchema memvalidasi konfigurasi model Gemini 3.8 Flash High sesuai Pasal 50 EU AI Act", () => {
+  it("aiDisclosureSchema memvalidasi deklarasi transparansi sesuai Pasal 50 EU AI Act", () => {
     const disclosure = aiDisclosureSchema.parse({
       assisted: true,
       model_id: "gemini-3.8-flash-high",
@@ -35,8 +35,11 @@ describe("EU AI Act & Dimension Milestones Integrity", () => {
 
     for (const asm of dataset.assessments) {
       expect(asm.ai_disclosure).toBeDefined();
-      expect(asm.ai_disclosure?.model_id).toBe("gemini-3.8-flash-high");
-      expect(asm.ai_disclosure?.model_provider).toBe("Google DeepMind");
+      // Penulis isi versi sekarang, bukan model yang membuat draf pertama.
+      expect(asm.ai_disclosure?.model_id).toBe("claude-opus-5");
+      expect(asm.ai_disclosure?.model_provider).toBe("Anthropic");
+      // Riwayat model terdahulu wajib disimpan, bukan dihapus.
+      expect(asm.ai_disclosure?.prior_draft?.model_id).toBe("gemini-3.8-flash-high");
       expect(asm.ai_disclosure?.eu_ai_act_compliance?.article_50_disclosed).toBe(true);
       // Kepatuhan hukum tidak boleh disertifikasi sendiri: selama belum ada
       // audit pihak ketiga, situs tidak boleh menampilkan klaim "compliant".

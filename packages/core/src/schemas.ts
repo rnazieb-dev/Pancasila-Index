@@ -130,6 +130,8 @@ export const sourceSchema = z.object({
   frbr_uri: z.string().optional(),
   /** true = isi sumber sudah diverifikasi manusia terhadap dokumen resmi asli. */
   content_verified: z.boolean().optional(),
+  /** Sama seperti event.provenance: membedakan sumber terkurasi dari panen register JDIH. */
+  provenance: z.enum(["kurasi", "register-jdih"]).optional(),
   /** Pengarang menurut katalog perpustakaan, bila sumbernya literatur. */
   author: z.string().optional(),
   /** Penerbit menurut katalog perpustakaan. */
@@ -319,6 +321,17 @@ export const eventSchema = z.object({
    * agar re-atribusi bisa diaudit dan tidak jadi tebakan sejarah.
    */
   subject_basis_id: z.string().min(10).optional(),
+  /**
+   * Asal-usul peristiwa - WAJIB dibedakan agar pembaca tidak menyangka entri
+   * register adalah analisis.
+   * - `kurasi` (bawaan): peristiwa yang dipilih dan diuraikan sebagai tonggak
+   *   ketatanegaraan, dengan penimbangan.
+   * - `register-jdih`: entri faktual hasil panen langsung dari JDIH resmi
+   *   (peraturan.bpk.go.id). Isinya metadata Lembaran Negara apa adanya -
+   *   tanggal, nomor LN/TLN, status - BUKAN penilaian. Berguna sebagai rekam
+   *   jejak legislasi yang lengkap, tetapi tidak setara bukti terkurasi.
+   */
+  provenance: z.enum(["kurasi", "register-jdih"]).optional(),
 });
 export type EventRecord = z.infer<typeof eventSchema>;
 
@@ -470,8 +483,24 @@ export const dimensionScoreSchema = z.object({
  */
 export const aiDisclosureSchema = z.object({
   assisted: z.boolean().default(false),
-  model_id: z.string().default("gemini-3.8-flash-high"),
-  model_provider: z.string().default("Google DeepMind"),
+  /** Model yang MENGARANG isi penilaian versi sekarang. */
+  model_id: z.string().default("claude-opus-5"),
+  model_provider: z.string().default("Anthropic"),
+  /** Tingkat usaha penalaran yang dipakai, bila modelnya punya tingkatan. */
+  reasoning_tier: z.string().optional(),
+  /**
+   * Model yang membangkitkan draf TERDAHULU, bila isi sekarang sudah ditulis
+   * ulang model lain. Disimpan - bukan dihapus - karena riwayat provenance
+   * adalah fakta: menghapusnya membuat seolah isi ini selalu berasal dari
+   * satu model.
+   */
+  prior_draft: z
+    .object({
+      model_id: z.string(),
+      model_provider: z.string(),
+      notes_id: z.string().optional(),
+    })
+    .optional(),
   pipeline_version: z.string().default("pancasila-nlp-v1.5"),
   /**
    * `llm-authored-draft` = skor, rasional, dan dialektika DIKARANG model, belum

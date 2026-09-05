@@ -197,8 +197,13 @@
       thesis_id: Pemerintah mendalilkan bahwa kedaulatan rakyat dipulihkan lewat UU No. 3 Tahun 1999 yang membuka pemilu bagi 48 partai tanpa asas tunggal, mengakhiri rekayasa kontestasi yang berlangsung sejak 1971.
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -407,8 +412,13 @@
       thesis_id: "Dalil formalnya: parlemen hasil Pemilu 1999 menjalankan seluruh fungsi kontrolnya atas eksekutif, termasuk kewenangan tertinggi menilai dan memberhentikan Presiden yang dipilihnya sendiri."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -638,8 +648,13 @@
       thesis_id: Pemerintah mendalilkan bahwa hak rakyat menentukan kepala negaranya sendiri diwujudkan lewat legislasi pemilihan presiden langsung, dan pemerintah yang menyusunnya menyerahkan kekuasaan tanpa perlawanan ketika kalah pada pemilihan pertama itu.
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -850,8 +865,13 @@
       thesis_id: Pemerintah mendalilkan bahwa kedaulatan rakyat terselenggara penuh lewat pemilu legislatif dan pemilihan presiden langsung yang kredibel dengan partisipasi tinggi, dan hasilnya diterima seluruh kontestan tanpa sengketa kekerasan.
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -1071,8 +1091,13 @@
       thesis_id: Pemerintah mendalilkan bahwa kedaulatan rakyat terselenggara lewat pemilu yang kredibel dan pemilihan kepala daerah langsung di seluruh wilayah, dengan hasil yang diterima tanpa sengketa kekerasan.
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -1309,8 +1334,13 @@
       thesis_id: Pemerintah mendalilkan bahwa mandat rakyat diperoleh lewat pemilu dengan partisipasi tinggi, dan seluruh kebijakan dijalankan dalam kerangka legitimasi elektoral yang diperbarui pada 2019.
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -1605,8 +1635,13 @@
       thesis_id: Pemerintah mendalilkan bahwa kedaulatan rakyat terselenggara penuh lewat Pemilu 14 Februari 2024 - pemungutan suara satu hari terbesar di dunia - dengan partisipasi di atas 80 persen dan sengketa hasilnya diselesaikan lewat jalur konstitusional.
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -1834,8 +1869,13 @@
       thesis_id: Pemerintah mendalilkan bahwa legitimasi kekuasaan diperoleh sah lewat pemilu dengan partisipasi tinggi, dan seluruh pengisian jabatan dilakukan menurut prosedur konstitusional.
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -2085,8 +2125,13 @@
       thesis_id: "Dalil formalnya: UU No. 23 Tahun 2003 memindahkan penentuan Presiden dari 700 anggota MPR kepada seluruh pemilih dewasa, perubahan paling mendasar pada letak kedaulatan sejak 1945."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -2318,8 +2363,13 @@
       thesis_id: "Dalil formalnya: Pemilu 2004 menghasilkan dewan multipartai yang tertib dan pemilihan kepala daerah langsung mulai diberlakukan, memperluas hak pilih rakyat hingga tingkat daerah."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -2542,8 +2592,13 @@
       thesis_id: "Dalil formalnya: dewan mengesahkan UU Desa yang memindahkan kewenangan dan anggaran ke unit pemerintahan terdekat dengan warga, memperluas ruang partisipasi di luar siklus pemilu nasional."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -2753,8 +2808,13 @@
       thesis_id: "Dalil formalnya: dewan menuntaskan UU Pemilu yang menjadi dasar Pemilu 2019 dengan partisipasi pemilih tertinggi pasca-reformasi, memastikan hak pilih rakyat terselenggara tepat waktu."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -3006,8 +3066,13 @@
       thesis_id: "Dalil formalnya: Pansus Angket Haji 2024 membongkar pengalihan sepihak kuota haji tambahan, memperlihatkan dewan masih memakai instrumen pengawasan untuk membela kepentingan warga."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -3210,8 +3275,13 @@
       thesis_id: "Dalil formalnya: dewan hasil Pemilu 2024 memperoleh mandat elektoral yang sah dengan partisipasi tinggi, dan menjalankan revisi UU Pemilu sesuai perintah pengadilan konstitusi."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -3432,8 +3502,13 @@
       thesis_id: "Dalil formal Mahkamah: kovenan hak asasi yang diratifikasi Indonesia diperlakukan sebagai bahan penafsiran hak konstitusional sejak periode pertama, menghubungkan tertib hukum nasional dengan komitmen internasional."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -3663,8 +3738,13 @@
       thesis_id: "Dalil formal Mahkamah: Putusan No. 6-13-20/PUU-VIII/2010 menetapkan batas masa jabatan pimpinan lembaga negara, menutup ruang perpanjangan kekuasaan lewat tafsir sepihak."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -3894,8 +3974,13 @@
       thesis_id: "Dalil formal Mahkamah: Putusan No. 137/PUU-XIII/2015 dan putusan terkait membatalkan kewenangan eksekutif membubarkan organisasi tanpa proses peradilan, menegaskan kebebasan berserikat hanya dapat dibatasi lewat putusan pengadilan."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -4127,8 +4212,13 @@
       thesis_id: "Dalil formal Mahkamah: partisipasi bermakna dan asas keterbukaan ditetapkan sebagai syarat konstitusional pembentukan undang-undang, menyelaraskan praktik legislasi Indonesia dengan standar tata kelola yang diakui internasional."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -4379,8 +4469,13 @@
       thesis_id: "Dalil formal Mahkamah: Putusan No. 116/PUU-XXI/2023 menghapus ambang batas parlemen empat persen dan memerintahkan penataannya sebelum Pemilu 2029, menyelaraskan sistem pemilu dengan prinsip keterwakilan."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -4677,8 +4772,13 @@
       synthesis_id: Skor positif (+1) karena fleksibilitas konstitusional awal kemerdekaan berhasil menyelamatkan kedaulatan negara Republik Indonesia di forum internasional.
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -4949,8 +5049,13 @@
       thesis_id: "Dalil formalnya: mobilisasi massa dalam kerangka Nasakom melibatkan jutaan warga dalam organisasi politik dan memberi saluran partisipasi di luar pemilu bagi kelompok yang sebelumnya tidak terorganisasi."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -5277,8 +5382,13 @@
       thesis_id: "Dalil formalnya: pemilu diselenggarakan enam kali dengan partisipasi hampir universal dan hasilnya diumumkan terbuka, mempertahankan bentuk pemilihan yang menjadi titik berangkat reformasi elektoral sesudahnya."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -5490,8 +5600,13 @@
       thesis_id: "Dalil formal Mahkamah Agung: peradilan tidak tunduk pada kabinet yang berganti-ganti sepanjang masa demokrasi parlementer, sehingga hak warga di hadapan pengadilan tidak berubah mengikuti pergeseran koalisi."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -5716,8 +5831,13 @@
       thesis_id: "Dalil formal Mahkamah Agung: jalur kasasi bagi warga yang menggugat pejabat dan pelaku usaha besar tetap terbuka secara formal, satu-satunya kanal yang tersisa ketika saluran politik ditutup."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -6025,8 +6145,13 @@
       thesis_id: "Dalil formal Mahkamah Agung: vonis bebas murni bagi Haris Azhar dan Fatia Maulidiyanti pada Januari 2024 menegaskan kritik terhadap pejabat publik bukan tindak pidana, sejalan dengan kovenan hak sipil dan politik yang diratifikasi Indonesia."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -6266,8 +6391,13 @@
       thesis_id: "Dalil formal MPR: Pasal 1 ayat (2) diubah sehingga kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar, mencabut kedudukan MPR sebagai pelaksana tunggal kedaulatan rakyat."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -6471,8 +6601,13 @@
       thesis_id: "Dalil formal MPR: Pasal 1 ayat (2) tentang kedaulatan rakyat yang dilaksanakan menurut konstitusi dijaga utuh, dan pelantikan presiden hasil pemilihan langsung 2009 diselenggarakan."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -6690,8 +6825,13 @@
       thesis_id: "Dalil formal MPR: ketetapan MPRS yang menjatuhkan sanksi hukum tanpa proses peradilan dicabut pada 2024, menerapkan asas negara hukum pada kekeliruan lembaganya sendiri."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -6898,8 +7038,13 @@
       thesis_id: "Dalil formal DPD: kewenangan memberikan pertimbangan atas calon anggota BPK dijalankan sejak periode pertama, menempatkan wakil daerah dalam rantai pengisian jabatan lembaga pemeriksa keuangan negara."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -7103,8 +7248,13 @@
       thesis_id: "Dalil formal DPD: hak ikut membahas legislasi diperjuangkan lewat Putusan MK No. 92/PUU-X/2012, memastikan suara 132 wakil daerah yang dipilih langsung tidak berhenti sebagai formalitas."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -7322,8 +7472,13 @@
       thesis_id: "Dalil formal DPD: keterwakilan setiap provinsi hasil Pemilu 2019 dijaga lewat pengawasan penyelenggaraan pemerintahan daerah pada 2023."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -7540,8 +7695,13 @@
       thesis_id: "Dalil formal BPK: amanat konstitusional bahwa uang rakyat diperiksa lembaga di luar yang membelanjakannya dipertahankan sepanjang lima dasawarsa tanpa terputus."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -7769,8 +7929,13 @@
       thesis_id: "Dalil formal BPK: hasil pemeriksaan keuangan negara dibuka kepada publik seiring UU 15/2004 dan UU 15/2006, mengubah laporan yang sebelumnya tertutup menjadi informasi yang dapat diperiksa rakyat."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -8003,8 +8168,13 @@
       thesis_id: "Dalil formal BPK: capaian opini laporan keuangan pemerintah pusat dan daerah dipublikasikan terbuka sejak penerapan akuntansi akrual 2016, memberi warga penanda mutu pengelolaan keuangan setiap entitas."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -8262,8 +8432,13 @@
       thesis_id: "Dalil formal BPK: Ikhtisar Hasil Pemeriksaan Semester I 2025 diserahkan kepada lembaga perwakilan pada 2026, menjaga siklus pertanggungjawaban keuangan negara kepada rakyat berjalan tanpa terputus."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -8495,8 +8670,13 @@
       thesis_id: "Dalil formal Komisi Yudisial: partisipasi masyarakat dibuka dalam seleksi calon hakim agung sejak 2005 lewat masukan dan penelusuran rekam jejak publik."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -8711,8 +8891,13 @@
       thesis_id: "Dalil formal Komisi Yudisial: masyarakat dilibatkan dalam investigasi rekam jejak calon hakim agung sejak 2011 dan uji publik terbuka 2013, memperluas peran warga menentukan siapa yang mengadili perkaranya."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -8919,8 +9104,13 @@
       thesis_id: "Dalil formal Komisi Yudisial: pengaduan masyarakat atas perilaku hakim dibuka dan ditindaklanjuti hingga sidang Majelis Kehormatan Hakim 2019, memberi warga jalur menuntut pertanggungjawaban pemangku kekuasaan mengadili."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -9143,8 +9333,13 @@
       thesis_id: "Dalil formal Komisi Yudisial: skrining LHKPN digital dan penelusuran latar belakang calon hakim diterapkan sejak 2025, memperluas kemampuan publik menilai integritas pemangku kekuasaan kehakiman."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -9363,8 +9558,13 @@
       thesis_id: "Dalil formal MPR: Sidang Istimewa 1998 menetapkan pembatasan masa jabatan presiden dan agenda pemilu yang dipercepat, mengembalikan penentuan kekuasaan kepada rakyat."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -9536,8 +9736,13 @@
       thesis_id: "Dalil formal MPR: pembatasan masa jabatan presiden maksimal dua periode dalam Pasal 7 UUD 1945 dijaga tetap utuh tanpa satu pun wacana pelonggaran."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -9736,8 +9941,13 @@
       thesis_id: "Dalil formal MPR: pelantikan Presiden dan Wakil Presiden hasil Pemilu 2014 diselenggarakan dan Pasal 1 ayat (2) dijaga tetap utuh, mengukuhkan mandat langsung pemilih sebagai sumber kekuasaan."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -9924,8 +10134,13 @@
       thesis_id: "Dalil formal MPR: pembatasan masa jabatan presiden dipertahankan tanpa celah sejak awal masa jabatan, menjaga pilar utama pencegahan kekuasaan tak terbatas."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -10147,8 +10362,13 @@
       thesis_id: "Dalil formal DPD: keterwakilan daerah hasil Pemilu 2014 dipertahankan tanpa terputus meski lembaga mengalami krisis dualisme kepemimpinan pada 2017."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -10282,8 +10502,13 @@
       thesis_id: "Dalil formal DPD: DPD terlibat dalam pengusulan dan pembahasan RUU Masyarakat Hukum Adat serta pengawasan daerah, menyalurkan aspirasi yang selama ini tidak terwakili."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -10433,8 +10658,13 @@
       thesis_id: "Dalil formal MPRS: Pola Pembangunan Nasional Semesta Berencana ditetapkan lewat TAP MPRS No. II/MPRS/1960 sebagai upaya pertama menyusun perencanaan pembangunan jangka panjang secara menyeluruh."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -10573,8 +10803,13 @@
       thesis_id: "Dalil formalnya: kelembagaan pemerintahan dan keuangan negara dibentuk dari titik nol pada 1945, menyediakan kerangka yang menopang seluruh pembangunan sesudahnya."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -10707,8 +10942,13 @@
       thesis_id: "Dalil formalnya: UU No. 1 Tahun 1957 meletakkan otonomi daerah yang luas dan demokratis, dan Pemilu 1955 memberi pemerintahan legitimasi untuk menyusun kebijakan ekonomi nasional."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -10829,8 +11069,13 @@
       thesis_id: "Dalil formalnya: penataan agraria nasional lewat UUPA memberi kerangka pemerataan penguasaan tanah sebagai dasar kesejahteraan rakyat pedesaan."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:
@@ -10890,8 +11135,13 @@
       thesis_id: "Dalil formalnya: TAP MPR No. XVII/MPR/1998 menetapkan Piagam HAM pertama Indonesia, yang menjadi dasar UU No. 39 Tahun 1999 dan Bab XA UUD 1945 sesudahnya."
   ai_disclosure:
     assisted: true
-    model_id: gemini-3.8-flash-high
-    model_provider: Google DeepMind
+    model_id: claude-opus-5
+    model_provider: Anthropic
+    reasoning_tier: max
+    prior_draft:
+      model_id: gemini-3.8-flash-high
+      model_provider: Google DeepMind
+      notes_id: "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
     pipeline_version: pancasila-nlp-v1.5
     analysis_type: llm-authored-draft
     human_oversight:

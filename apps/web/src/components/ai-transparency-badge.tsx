@@ -56,6 +56,11 @@ export function AiTransparencyBadge({
       ? "Claude Opus 5"
       : modelId;
 
+  // "Opus 5 (Max)" - tingkat penalaran ikut ditampilkan bila dicatat.
+  const modelLengkap = disclosure?.reasoning_tier
+    ? `${modelDisplay} (${disclosure.reasoning_tier.replace(/^./, (c) => c.toUpperCase())})`
+    : modelDisplay;
+
   return (
     <>
       {/* Tombol / Lencana Interaktif */}
@@ -72,10 +77,10 @@ export function AiTransparencyBadge({
         <IconBot size={13} className="shrink-0" />
         <span>
           {compact ? (
-            <>AI: <strong>{modelDisplay}</strong> (EU AI Act)</>
+            <>AI: <strong>{modelLengkap}</strong> (EU AI Act)</>
           ) : (
             <>
-              Analisis &amp; Skor Disusun AI: <strong>{modelDisplay}</strong>
+              Analisis &amp; Skor Disusun AI: <strong>{modelLengkap}</strong>
               {" · "}
               {oversightVerified ? "Ditinjau 2 penelaah" : "Belum ditinjau manusia"}
             </>
@@ -131,7 +136,7 @@ export function AiTransparencyBadge({
             <div className="grid grid-cols-2 gap-2.5 bg-[var(--bg)] p-3.5 rounded-xl border border-[var(--line)]">
               <div>
                 <span className="text-[10px] uppercase text-[var(--muted)] block">Model AI Utama</span>
-                <strong className="text-sm text-[var(--text)]">{modelDisplay}</strong>
+                <strong className="text-sm text-[var(--text)]">{modelLengkap}</strong>
               </div>
               <div>
                 <span className="text-[10px] uppercase text-[var(--muted)] block">Penyedia / Pengembang</span>
@@ -172,16 +177,30 @@ export function AiTransparencyBadge({
                   <span>Remediasi Integritas Data</span>
                 </div>
                 <p className="text-[11px] text-[var(--muted)] leading-relaxed">
-                  Draf awal dibangkitkan <strong>{modelDisplay}</strong>, lalu diaudit dan
-                  dibersihkan oleh model lain:{" "}
-                  <strong className="text-[var(--text)]">
-                    {disclosure.remediation.model_id === "claude-opus-5"
-                      ? "Claude Opus 5"
-                      : disclosure.remediation.model_id}
-                  </strong>{" "}
-                  ({disclosure.remediation.model_provider}) pada{" "}
+                  Isi penilaian versi sekarang dikarang{" "}
+                  <strong className="text-[var(--text)]">{modelLengkap}</strong> (
+                  {modelProvider}). Remediasi integritas dijalankan pada{" "}
                   <span className="font-mono">{disclosure.remediation.performed_at}</span>.
                   {disclosure.remediation.notes_id ? ` ${disclosure.remediation.notes_id}` : null}
+                </p>
+              </div>
+            )}
+
+            {disclosure?.prior_draft && (
+              <div className="space-y-1.5 rounded-xl border border-[var(--line)] bg-[var(--bg)] p-4">
+                <div className="flex items-center gap-2 text-[var(--muted)] font-bold text-xs">
+                  <IconBot size={16} />
+                  <span>Riwayat Model Terdahulu</span>
+                </div>
+                <p className="text-[11px] text-[var(--muted)] leading-relaxed">
+                  Draf sebelumnya dibangkitkan{" "}
+                  <strong className="text-[var(--text)]">
+                    {disclosure.prior_draft.model_id === "gemini-3.8-flash-high"
+                      ? "Gemini 3.8 Flash High"
+                      : disclosure.prior_draft.model_id}
+                  </strong>{" "}
+                  ({disclosure.prior_draft.model_provider}).
+                  {disclosure.prior_draft.notes_id ? ` ${disclosure.prior_draft.notes_id}` : null}
                 </p>
               </div>
             )}

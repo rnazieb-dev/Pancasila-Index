@@ -25935,8 +25935,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -26338,8 +26344,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -26722,8 +26734,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -27143,8 +27161,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -27534,8 +27558,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -27950,8 +27980,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -28396,8 +28432,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -29061,8 +29103,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -29493,8 +29541,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -30001,8 +30055,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -30462,8 +30522,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -30894,8 +30960,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -31299,8 +31371,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -31800,8 +31878,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -32169,8 +32253,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -32574,8 +32664,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -33003,8 +33099,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -33435,8 +33537,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -33884,8 +33992,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -34373,8 +34487,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -35021,8 +35141,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -35556,8 +35682,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -36293,8 +36425,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -36655,8 +36793,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -37072,8 +37216,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -37757,8 +37907,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -38246,8 +38402,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -38591,8 +38753,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -39013,8 +39181,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -39366,8 +39540,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -39693,8 +39873,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -40087,8 +40273,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -40477,8 +40669,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -40895,8 +41093,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -41336,8 +41540,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -41856,8 +42066,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -42286,8 +42502,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -42655,8 +42877,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -42996,8 +43224,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -43404,8 +43638,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -43807,8 +44047,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -44070,8 +44316,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -44409,8 +44661,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -44720,8 +44978,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -45117,8 +45381,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -45331,8 +45601,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -45594,8 +45870,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -45852,8 +46134,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -46088,8 +46376,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
@@ -46268,8 +46562,14 @@
       "human_confirmed": false,
       "ai_disclosure": {
         "assisted": true,
-        "model_id": "gemini-3.8-flash-high",
-        "model_provider": "Google DeepMind",
+        "model_id": "claude-opus-5",
+        "model_provider": "Anthropic",
+        "reasoning_tier": "max",
+        "prior_draft": {
+          "model_id": "gemini-3.8-flash-high",
+          "model_provider": "Google DeepMind",
+          "notes_id": "Draf pertama seluruh penilaian dibangkitkan model ini pada 2026. Materi tersebut kemudian dicabut dan ditulis ulang sepenuhnya: 569 rasional, tesis, antitesis, dan sintesis, serta 227 skor. Riwayat ini disimpan karena provenance adalah fakta."
+        },
         "pipeline_version": "pancasila-nlp-v1.5",
         "analysis_type": "llm-authored-draft",
         "human_oversight": {
