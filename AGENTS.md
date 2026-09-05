@@ -107,7 +107,8 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
     `CONTRIBUTING.md` aturan anti-kampanye partisan;
     `SECURITY.md` memisahkan jalur right of reply dari pelaporan
     kerentanan; footer global merujuk 3 halaman hukum.
-    `enforce_admins: true` di branch protection + 2 review + 3 status
+    `enforce_admins: false` di branch protection (owner dapat override,
+    lihat `.github/ADMIN_OVERRIDE.md`) + 2 review + 3 status
     check (`verify`, `audit`, `secrets`) + `CODEOWNERS`; dokumentasi
     `[.github/ADMIN_OVERRIDE.md](.github/ADMIN_OVERRIDE.md)`.
 - [x] **Fase 14: Trajektori Ilmiah Multi-Peristiwa (Scientific Milestones) & Kepatuhan EU AI Act (Gemini 3.8 Flash High)** ✅
