@@ -149,6 +149,13 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
       asesmen berskor positif/negatif seragam (seragam nol dikecualikan).
       **Alur kerja yang disepakati: AI menilai → kontributor manusia menelaah.**
       Seluruh skor berstatus usulan hingga kuorum dua penelaah terpenuhi.
+- [x] **Fase 18: Dialektika utuh — 569 tesis & 77 antitesis salah tempat** ✅
+      Dua cacat struktural dibereskan: 544 skor tidak punya `thesis_id` sama
+      sekali, dan pada skor negatif isi tesis justru ditaruh di antitesis
+      (pembelaan resmi lembaga ditulis sebagai "sanggahan kritis"). Kini
+      569/569 skor punya tesis-antitesis-sintesis yang utuh dan pada tempatnya.
+      Pagar baru menolak dialektika yang tidak lengkap, tesis yang menyalin
+      rasional atau antitesis, dan tesis yang diulang lebih dari 3 kali.
 
 ## Definisi Selesai v1.0 (TERCAPAI PENUH ✅)
 

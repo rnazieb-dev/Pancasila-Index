@@ -19,7 +19,7 @@
 
 | Metrik | Sebelum | Sesudah |
 | --- | ---: | ---: |
-| Dialektika tesis–antitesis | 579 (554 template) | **569 ditulis per dimensi** |
+| Dialektika tesis–antitesis–sintesis | 579 (554 template, 25 bertesis) | **569 lengkap bertiga** |
 | Kutipan pakar | 583 (554 template) | **21 bersitasi nyata** |
 | Sumber | 1.034 | **648** |
 | Peristiwa | 1.112 | **711** |
@@ -256,6 +256,47 @@ melanggengkannya. Skor `+2` ("teladan") tidak dapat dipertahankan.
 Rata-rata sesudahnya: MPR 2009–2014 **−0.25** · MPR 2014–2019 **−0.17** ·
 MPR 2019–2024 **−0.33** · MPR 2024–sekarang **−0.42** · DPD 2019–2024 **−0.25**.
 Distribusi global: `0`=213, `+1`=216, `+2`=27, `−1`=73, `−2`=40.
+
+## Gelombang keenam: dialektika yang tidak lengkap dan salah tempat
+
+Pengisian dialektika pada gelombang ketiga menyisakan dua cacat struktural.
+
+**Tidak lengkap.** 544 dari 569 skor sama sekali tidak punya `thesis_id`.
+Dialektika tanpa tesis bukan dialektika: pembaca hanya melihat kritik dan
+kesimpulan tanpa dalil yang dikritik.
+
+**Salah tempat.** Untuk skor negatif, yang ditulis di `antithesis_id` justru
+pembelaan resmi lembaga. Menurut skema, itu `thesis_id` — *"dalil yuridis
+formal / pembelaan kebijakan resmi lembaga pembuat keputusan"* — sedangkan
+`antithesis_id` adalah *"sanggahan kritis doktriner para pakar, dissenting
+opinion, dan realitas empiris lapangan"*. Isinya terbalik.
+
+Seluruh 8 organ dibereskan: **569 tesis ditulis** dan **77 antitesis yang
+berisi pembelaan dipindahkan ke tesis lalu diganti kritik yang sesungguhnya.**
+
+| Organ | Tesis ditulis | Antitesis ditukar |
+| --- | ---: | ---: |
+| Presiden | 117 | 20 |
+| DPR | 96 | 22 |
+| MK | 56 | 7 |
+| MA | 35 | 7 |
+| BPK | 47 | 4 |
+| KY | 47 | 3 |
+| DPD | 55 | 9 |
+| MPR + MPRS | 91 | 21 |
+
+Contoh perbaikan pada `asm-prabowo/sila-5`:
+
+- **Tesis** — "Pemerintah mendalilkan bahwa Makan Bergizi Gratis adalah program
+  redistribusi terbesar yang pernah dijalankan republik…"
+- **Antitesis** — "Putusan MK No. 40/PUU-XXIV/2026 menyatakan pembiayaannya
+  wajib dipisahkan dari anggaran pendidikan…"
+- **Sintesis** — "Skor Buruk (-1) karena keadilan sosial tidak sah bila
+  dibangun dengan memindahkan beban ke hak dasar lain."
+
+Pagar baru: build menolak skor dimensi yang tesis, antitesis, atau sintesisnya
+kosong; menolak tesis yang sama persis dengan rasional atau antitesis; dan
+tesis kini ikut diawasi ambang pengulangan >3 kali.
 
 ## Sisa pekerjaan (butuh manusia, bukan model)
 

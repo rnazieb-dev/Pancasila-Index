@@ -419,6 +419,7 @@ function catatPengulangan(map: Map<string, string[]>, teks: string | undefined, 
   map.set(kunci, list);
 }
 
+const tesisTerpakai = new Map<string, string[]>();
 const antitesisTerpakai = new Map<string, string[]>();
 const sintesisTerpakai = new Map<string, string[]>();
 const kutipanTerpakai = new Map<string, string[]>();
@@ -436,6 +437,7 @@ const LABEL_SKOR = /\b(?:skor|penilaian)\b[^.]{0,48}?\(([+-][0-2]|0)\)/i;
 for (const a of assessments) {
   for (const ds of a.dimension_scores) {
     const di = `${a.id}/${ds.dimension_id}`;
+    catatPengulangan(tesisTerpakai, ds.thesis_id, di);
     catatPengulangan(antitesisTerpakai, ds.antithesis_id, di);
     catatPengulangan(sintesisTerpakai, ds.synthesis_id, di);
     for (const ev of ds.evidence) {
@@ -493,6 +495,7 @@ for (const a of assessments) {
 }
 
 for (const [label, map] of [
+  ["thesis_id", tesisTerpakai],
   ["antithesis_id", antitesisTerpakai],
   ["synthesis_id", sintesisTerpakai],
   ["expert_quote", kutipanTerpakai],
@@ -697,6 +700,31 @@ for (const a of assessments) {
       `${a.id}: seluruh ${a.dimension_scores.length} dimensi berskor sama (${[...nilai][0]}) - ` +
         `itu penilaian template, bukan penilaian per dimensi`
     );
+  }
+}
+
+// (6e) Dialektika wajib utuh dan tidak boleh saling menyalin. Sebelum
+//      September 2026, 544 dari 569 skor tidak punya tesis sama sekali -
+//      pembaca hanya melihat kritik dan kesimpulan tanpa dalil yang dikritik -
+//      dan pada skor negatif isi tesis justru ditaruh di antitesis.
+for (const a of assessments) {
+  for (const ds of a.dimension_scores) {
+    const di = `${a.id}/${ds.dimension_id}`;
+    for (const [field, teks] of [
+      ["thesis_id", ds.thesis_id],
+      ["antithesis_id", ds.antithesis_id],
+      ["synthesis_id", ds.synthesis_id],
+    ] as const) {
+      if (!teks || teks.trim().length < 40) {
+        errors.push(`${di}: ${field} kosong atau terlalu pendek - dialektika wajib utuh`);
+      }
+    }
+    if (ds.thesis_id && ds.thesis_id.trim() === ds.rationale_id.trim()) {
+      errors.push(`${di}: thesis_id sama persis dengan rationale_id - tesis wajib dalil formal institusi, bukan salinan rasional`);
+    }
+    if (ds.thesis_id && ds.antithesis_id && ds.thesis_id.trim() === ds.antithesis_id.trim()) {
+      errors.push(`${di}: thesis_id sama persis dengan antithesis_id`);
+    }
   }
 }
 

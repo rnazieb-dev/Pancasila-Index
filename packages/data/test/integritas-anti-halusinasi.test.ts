@@ -95,11 +95,32 @@ describe("integritas anti-halusinasi dataset", () => {
     ).toEqual([]);
   });
 
-  it("setiap skor dimensi memiliki antitesis dan sintesis", () => {
+  it("setiap skor dimensi memiliki tesis, antitesis, dan sintesis", () => {
     const kosong = skor
-      .filter((d) => !d.antithesis_id || !d.synthesis_id)
+      .filter((d) => !d.thesis_id || !d.antithesis_id || !d.synthesis_id)
       .map((d) => `${d.asm}/${d.dimension_id}`);
     expect(kosong).toEqual([]);
+  });
+
+  it("tesis bukan salinan rasional maupun pengulangan antitesis", () => {
+    const salin = skor
+      .filter(
+        (d) =>
+          d.thesis_id?.trim() === d.rationale_id.trim() ||
+          (d.thesis_id && d.thesis_id.trim() === d.antithesis_id?.trim())
+      )
+      .map((d) => `${d.asm}/${d.dimension_id}`);
+    expect(salin).toEqual([]);
+  });
+
+  it("tidak ada tesis identik dipakai lebih dari 3 kali", () => {
+    const hitung = new Map<string, number>();
+    for (const d of skor) {
+      const t = d.thesis_id?.trim().toLowerCase();
+      if (!t || t.length < 40) continue;
+      hitung.set(t, (hitung.get(t) ?? 0) + 1);
+    }
+    expect([...hitung].filter(([, n]) => n > 3).map(([t]) => t.slice(0, 60))).toEqual([]);
   });
 
   it("tidak ada ringkasan peristiwa boilerplate yang dipakai berulang", () => {
