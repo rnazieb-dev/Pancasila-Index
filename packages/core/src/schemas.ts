@@ -130,14 +130,23 @@ export const sourceSchema = z.object({
   frbr_uri: z.string().optional(),
   /** true = isi sumber sudah diverifikasi manusia terhadap dokumen resmi asli. */
   content_verified: z.boolean().optional(),
+  /** Pengarang menurut katalog perpustakaan, bila sumbernya literatur. */
+  author: z.string().optional(),
+  /** Penerbit menurut katalog perpustakaan. */
+  publisher: z.string().optional(),
   /**
    * Tingkat verifikasi ala pasal.id (verification.tier):
    * - human_verified: ditinjau manusia terhadap naskah resmi
    * - official_source: diambil langsung dari domain resmi, belum ditinjau manusia
+   * - catalog_verified: metadata cocok dengan rekaman katalog perpustakaan
+   *   publik (mis. OneSearch/Perpusnas, OpenLibrary) - membuktikan karyanya
+   *   ADA dan metadatanya benar, bukan membuktikan isinya. Buku tidak pernah
+   *   boleh berstatus `official_source`: ia literatur ilmiah, bukan dokumen
+   *   resmi negara.
    * - unverified: belum diverifikasi sama sekali
    */
   verification_tier: z
-    .enum(["human_verified", "official_source", "unverified"])
+    .enum(["human_verified", "official_source", "catalog_verified", "unverified"])
     .optional(),
 });
 export type Source = z.infer<typeof sourceSchema>;

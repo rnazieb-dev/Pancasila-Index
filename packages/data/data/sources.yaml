@@ -1139,7 +1139,7 @@
   citation_id: Kemendikbudristek; PP 17/2005 jo. regulasi Dana BOS
   r2_key: v2/dokumen/dana-bos-2005.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/dokumen/dana-bos-2005.pdf
-  url: https://puslapdik.kemdikbud.go.id/
+  url: https://puslapdik.kemendikdasmen.go.id/
   archive_ok: false
   frbr_uri: /akn/id/archive/lainnya/2005/dana-bos-2005
   verification_tier: unverified
@@ -1245,7 +1245,7 @@
   citation_id: Kemendikbudristek, Panduan KIP Kuliah 2020
   r2_key: v2/dokumen/kip-kuliah-2020.pdf
   archive_url: https://www.pancasila.site/api/arsip/v2/dokumen/kip-kuliah-2020.pdf
-  url: https://puslapdik.kemdikbud.go.id/
+  url: https://puslapdik.kemendikdasmen.go.id/
   archive_ok: false
   frbr_uri: /akn/id/archive/lainnya/2020/kip-kuliah-2020
   verification_tier: unverified
@@ -6589,23 +6589,25 @@
   type: buku
   title_id: Demokrasi Kita (Mohammad Hatta, 1960)
   year: 1960
-  url: https://anri.go.id
+  url: https://onesearch.id/Record/IOS8249.INLIS000000000043552
   citation_id: "Hatta, M. (1960). Demokrasi Kita. Jakarta: Panji Masyarakat."
   frbr_uri: /akn/id/archive/buku/1960/hatta-demokrasi-kita
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  author: "Mohammad Hatta"
+  publisher: "Bandung sega arsy"
 - id: buku-soepomo-uud-1945
   type: buku
   title_id: Risalah Sidang BPUPKI-PPKI, 29 Mei 1945 - 19 Agustus 1945 (Sekretariat Negara RI)
   year: 1992
-  url: https://setneg.go.id
+  url: https://onesearch.id/Record/IOS13403.INLIS000000000019845
   citation_id: "Sekretariat Negara Republik Indonesia. (1992). Risalah Sidang Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan Indonesia (BPUPKI) - Panitia Persiapan Kemerdekaan Indonesia (PPKI), 29 Mei 1945 - 19 Agustus 1945. Jakarta: Sekretariat Negara RI."
   frbr_uri: /akn/id/archive/buku/1945/soepomo-uud-1945
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  publisher: "Jakarta SEKRETARIAT NEGARA RI , 1995 Online Access: http://katalogarpusklaten.perpusnas.go.id/detail-opac?id=20444 Lokasi Deskripsi Preview Tampilan Petugas Int"
 - id: buku-ismail-suny-pergeseran-kekuasaan-1968
   type: buku
   title_id: "Pergeseran Kekuasaan Eksekutif: Suatu Penyelidikan HTN (Prof. Dr. Ismail Suny)"
   year: 1968
-  url: https://law.ui.ac.id
   citation_id: "Suny, I. (1968). Pergeseran Kekuasaan Eksekutif. Jakarta: Aksara Baru."
   frbr_uri: /akn/id/archive/buku/1968/suny-pergeseran-kekuasaan
   verification_tier: unverified
@@ -6613,7 +6615,6 @@
   type: buku
   title_id: Judicial Institutions and Legal Culture in Indonesia (Prof. Daniel S. Lev)
   year: 1972
-  url: https://jstor.org
   citation_id: "Lev, D. S. (1972). Judicial Institutions and Legal Culture in Indonesia. Ithaca: Cornell University."
   frbr_uri: /akn/id/archive/buku/1972/lev-judicial-institutions
   verification_tier: unverified
@@ -6621,47 +6622,55 @@
   type: buku
   title_id: Pengisian Jabatan Presiden (Prof. Dr. Harun Alrasid)
   year: 1999
-  url: https://law.ui.ac.id
+  url: https://onesearch.id/Record/IOS7573.KASEL-06100000021347
   citation_id: "Alrasid, H. (1999). Pengisian Jabatan Presiden. Jakarta: Pustaka Utama Grafiti."
   frbr_uri: /akn/id/archive/buku/1999/harun-alrasid-pengisian-presiden
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  author: "Harun Alrasid"
+  publisher: "Jakarta Pustaka Utama Grafiti"
 - id: buku-buyung-nasution-aspirasi-konstitusi-1992
   type: buku
   title_id: The Aspiration for Constitutional Government in Indonesia (Prof. Dr. Adnan Buyung Nasution)
   year: 1992
-  url: https://lbhjakarta.org
+  url: https://onesearch.id/Record/IOS4820.detail-276742
   citation_id: "Nasution, A. B. (1992). The Aspiration for Constitutional Government in Indonesia. Jakarta: Sinar Harapan."
   frbr_uri: /akn/id/archive/buku/1992/buyung-aspirasi-konstitusi
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  author: "Nasution Adnan Buyung"
+  publisher: "Pustaka Sinar Harapan"
 - id: buku-mahfud-politik-hukum-1998
   type: buku
   title_id: Politik Hukum di Indonesia (Prof. Dr. Mohammad Mahfud MD)
   year: 1998
-  url: https://lp3es.or.id
+  url: https://onesearch.id/Record/IOS14141.JAMBI-10110000000077
   citation_id: "Mahfud MD, M. (1998). Politik Hukum di Indonesia. Jakarta: LP3ES / Rajawali Pers."
   frbr_uri: /akn/id/archive/buku/1998/mahfud-politik-hukum
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  publisher: "Jakarta : Rajawali Press"
 - id: buku-jimly-konstitusi-2005
   type: buku
   title_id: Konstitusi & Konstitusionalisme Indonesia (Prof. Dr. Jimly Asshiddiqie)
   year: 2005
-  url: https://mkri.id
+  url: https://onesearch.id/Record/IOS20448.INLIS000000000005957
   citation_id: "Asshiddiqie, J. (2005). Konstitusi & Konstitusionalisme Indonesia. Jakarta: Mahkamah Konstitusi RI & Konpres."
   frbr_uri: /akn/id/archive/buku/2005/jimly-konstitusi
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  author: "Jimly asshiddiqie"
+  publisher: "Jakarta : Sinar grafika"
 - id: buku-bagir-manan-menegakkan-hukum-2004
   type: buku
   title_id: Menegakkan Hukum Suatu Pencarian (Prof. Dr. Bagir Manan)
   year: 2009
-  url: https://mahkamahagung.go.id
+  url: https://onesearch.id/Record/IOS1.INLIS000000000243828
   citation_id: "Manan, B. (2009). Menegakkan Hukum Suatu Pencarian. Jakarta: Djambatan."
   frbr_uri: /akn/id/archive/buku/2004/bagir-manan-menegakkan-hukum
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  author: "Bagir Manan"
+  publisher: "Jakarta : Asosiasi Advokat Indonesia"
 - id: buku-saldi-isra-pergeseran-legislatif-2010
   type: buku
   title_id: Pergeseran Kekuasaan Legislatif Pasca-Amandemen UUD 1945 (Prof. Dr. Saldi Isra)
   year: 2010
-  url: https://mkri.id
   citation_id: "Isra, S. (2010). Pergeseran Kekuasaan Legislatif. Jakarta: Mizan Pustaka / Rajawali Pers."
   frbr_uri: /akn/id/archive/buku/2010/saldi-isra-pergeseran-legislatif
   verification_tier: unverified
@@ -6677,23 +6686,23 @@
   type: putusan-mk
   title_id: Putusan Majelis Kehormatan Mahkamah Konstitusi No. 02/MKMK/L/11/2023
   year: 2023
-  url: https://mkri.id
+  url: https://s.mkri.id/public/content/mkmk/mkmk_putusan_1699360420_3a09ab30a7a22aa9d99d.pdf
   citation_id: MKMK. (2023). Putusan Nomor 02/MKMK/L/11/2023 tentang Pelanggaran Berat Kode Etik Hakim Konstitusi.
   frbr_uri: /akn/id/judgment/putusan-mk/2023/putusan-mkmk-02-2023
-  verification_tier: unverified
+  verification_tier: official_source
 - id: kertas-posisi-jentera-uu-ciptaker-2020
   type: jurnal
   title_id: Autocratic Legalism dalam Pembentukan UU Cipta Kerja (Bivitri Susanti, STH Jentera)
   year: 2020
-  url: https://jentera.ac.id
+  url: https://www.jentera.ac.id/publikasi/politik-hukum-omnibus-cipta-kerja
   citation_id: Susanti, B. (2020). Autocratic Legalism dalam Pembentukan UU Cipta Kerja. Jentera Law School Policy Paper.
   frbr_uri: /akn/id/archive/jurnal/2020/jentera-autocratic-legalism-ciptaker
-  verification_tier: unverified
+  verification_tier: official_source
 - id: kertas-posisi-pusako-revisi-kpk-2019
   type: jurnal
   title_id: Analisis Inkonstitusionalitas Revisi UU KPK (PUSaKO / Feri Amsari & Zainal Arifin Mochtar)
   year: 2019
-  url: https://pusako.or.id
+  url: https://pusako.unand.ac.id/
   citation_id: "Pusat Studi Konstitusi (PUSaKO). (2019). Analisis Inkonstitusionalitas Revisi UU KPK. Padang: FH Unand."
   frbr_uri: /akn/id/archive/jurnal/2019/pusako-revisi-uu-kpk
   verification_tier: unverified
@@ -6701,94 +6710,128 @@
   type: buku
   title_id: Korupsi Politik di Negara Modern (Dr. Artidjo Alkostar)
   year: 2008
-  url: https://mahkamahagung.go.id
+  url: https://onesearch.id/Record/IOS1.INLIS000000000147243
   citation_id: "Alkostar, A. (2008). Korupsi Politik di Negara Modern. Yogyakarta: FH UII Press."
   frbr_uri: /akn/id/archive/buku/2008/artidjo-korupsi-politik
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  author: "Artidjo Alkostar"
+  publisher: "Yogyakarta : FH UII Press"
 - id: buku-maria-farida-perundang-undangan-2007
   type: buku
   title_id: "Ilmu Perundang-Undangan: Proses dan Teknik Pembentukan (Prof. Dr. Maria Farida Indrati)"
   year: 2007
-  url: https://kanisiusmedia.co.id
+  url: https://onesearch.id/Record/IOS18792.slims-19701
   citation_id: "Indrati, M. F. (2007). Ilmu Perundang-Undangan. Yogyakarta: Kanisius."
   frbr_uri: /akn/id/archive/buku/2007/maria-farida-perundang-undangan
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  author: "Indrati, Maria Farida"
+  publisher: "Kanisius"
 - id: buku-sri-soemantri-konstitusi-1987
   type: buku
   title_id: Prosedur dan Sistem Perubahan Konstitusi (Prof. Dr. Sri Soemantri Martosoewignjo)
   year: 1987
-  url: https://unpad.ac.id
+  url: https://onesearch.id/Record/IOS19308.INLIS000000000015936
   citation_id: "Martosoewignjo, S. S. (1987). Prosedur dan Sistem Perubahan Konstitusi. Bandung: Alumni."
   frbr_uri: /akn/id/archive/buku/1987/sri-soemantri-perubahan-konstitusi
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  author: "Martosoewignyo, Sri Soemantri"
+  publisher: "Bandung : Alumni"
 - id: buku-wirjono-asas-hukum-1953
   type: buku
   title_id: Azas-azas Hukum Tata Negara di Indonesia (Wirjono Prodjodikoro)
   year: 1974
-  url: https://mahkamahagung.go.id
+  url: https://onesearch.id/Record/IOS14141.JAMBI-03090000014586
   citation_id: "Prodjodikoro, W. (1974). Azas-azas Hukum Tata Negara di Indonesia (cet. 2). Jakarta: Dian Rakyat."
   frbr_uri: /akn/id/archive/buku/1953/wirjono-asas-hukum
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  author: "Projodikoro, Wirjono"
+  publisher: "Jakarta Dian Rakyat"
 - id: buku-nimatul-huda-htn-2014
   type: buku
   title_id: Hukum Tata Negara Indonesia (Prof. Dr. Ni'matul Huda, S.H., M.Hum.)
   year: 2014
   citation_id: Rajawali Pers, 2014
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  url: https://onesearch.id/Record/IOS1.INLIS000000000032147
+  author: "Ni'matul Huda"
+  publisher: "Jakarta : RajaGrafindo Persada"
 - id: buku-zainal-arifin-lembaga-independen-2016
   type: buku
   title_id: "Lembaga Negara Independen: Dinamika Ketatanegaraan Pasca-Amandemen (Dr. Zainal Arifin Mochtar)"
   year: 2016
   citation_id: Rajawali Pers, 2016
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  url: https://onesearch.id/Record/IOS13916.INLIS000000001010062
+  publisher: "Depok : Rajawali Pers"
 - id: buku-denny-indrayana-amandemen-2007
   type: buku
   title_id: "Amandemen UUD 1945: Antara Mitos dan Pembongkaran (Prof. Dr. Denny Indrayana)"
   year: 2007
   citation_id: Mizan, 2007
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  url: https://onesearch.id/Record/IOS17027.slims-339
+  author: "Denny Indrayana"
+  publisher: "Mizan Pustaka"
 - id: buku-bintan-saragih-lembaga-perwakilan-2006
   type: buku
   title_id: Lembaga Perwakilan dan Pemilihan Umum di Indonesia (Prof. Dr. Bintan R. Saragih)
   year: 1988
   citation_id: "Saragih, B. R. (1988). Lembaga Perwakilan dan Pemilihan Umum di Indonesia (cet. 1). Jakarta: Gaya Media Pratama."
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  url: https://onesearch.id/Record/IOS1.INLISM00000000032664
+  author: "Saragih, Bintan R"
 - id: buku-mukthie-fadjar-tipe-negara-2004
   type: buku
   title_id: Tipe Negara Hukum (Prof. Dr. A. Mukthie Fadjar)
   year: 2004
   citation_id: Bayumedia, 2004
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  url: https://openlibrary.org/works/OL5779714W
 - id: buku-titik-triwulan-konstruksi-htn-2010
   type: buku
   title_id: Konstruksi Hukum Tata Negara Indonesia Pasca-Amandemen (Prof. Dr. Titik Triwulan Tutik)
   year: 2010
   citation_id: Kencana, 2010
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  url: https://onesearch.id/Record/IOS4829.INLIS000000000022511
+  author: "Tutik, Titik Triwulan"
+  publisher: "Jakarta : Kencana"
 - id: buku-yance-arizona-konstitusionalisme-agraria-2018
   type: buku
   title_id: Konstitusionalisme Agraria (Dr. Yance Arizona)
   year: 2014
   citation_id: "Arizona, Y. (2014). Konstitusionalisme Agraria. Yogyakarta: STPN Press."
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  url: https://onesearch.id/Record/IOS16348.slims-208667
+  author: "Yance Arizona"
+  publisher: "Yogyakarta : STPN Press , 2014 Online Access: http://digilib.ulm.ac.id/pusat/index.php?p=show_detail&id=208667 Lokasi Deskripsi Preview Tampilan Petugas Interne"
 - id: buku-satya-arinanto-htn-2016
   type: buku
   title_id: Hak Asasi Manusia dalam Transisi Politik di Indonesia (Prof. Satya Arinanto)
   year: 2003
   citation_id: "Arinanto, S. (2003). Hak Asasi Manusia dalam Transisi Politik di Indonesia. Jakarta: Pusat Studi Hukum Tata Negara FH UI."
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  url: https://onesearch.id/Record/IOS1.INLISM00000000004446
+  author: "Satya ArinantoCorporate Authors: Universitas Indonesia. Fakultas Hukum. Pusat Studi Hukum Tata Negara"
+  publisher: "Jakarta : Pusat Studi Hukum Tata Negara , Fakultas Hukum, Universitas Indonesia"
 - id: buku-fitra-arsil-pemilu-2017
   type: buku
   title_id: "Teori Sistem Pemerintahan: Pergeseran Konsep dan Saling Kontribusi Antar Sistem Pemerintahan di Berbagai Negara (Dr. Fitra Arsil)"
   year: 2017
   citation_id: "Arsil, F. (2017). Teori Sistem Pemerintahan: Pergeseran Konsep dan Saling Kontribusi Antar Sistem Pemerintahan di Berbagai Negara. Depok: Rajawali Pers (RajaGrafindo Persada)."
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  url: https://onesearch.id/Record/IOS4965.028749
+  author: "Fitra Arsil"
+  publisher: "PT RAJAGRAFINDO PERSADA"
 - id: buku-syaiful-aris-demokrasi-2019
   type: buku
   title_id: Pemilu dan Sistem Presidensiil Indonesia (Dr. Mohammad Syaiful Aris)
   year: 2022
   citation_id: "Aris, M. S. (2022). Pemilu dan Sistem Presidensiil Indonesia. Malang: Setara Press."
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  url: https://onesearch.id/Record/IOS2847.INLIS000000000095025
+  author: "Aris, Mohammad Syaiful"
+  publisher: "Malang : Setara Press"
 - id: buku-arief-hidayat-hukum-pancasila-2015
   type: buku
   title_id: Negara Hukum Pancasila dan MK (Prof. Arief Hidayat)
@@ -6806,7 +6849,10 @@
   title_id: Teori dan Panduan Praktik Pembentukan Peraturan Perundang-undangan di Indonesia (Prof. Achmad Ruslan)
   year: 2013
   citation_id: "Ruslan, A. (2013). Teori dan Panduan Praktik Pembentukan Peraturan Perundang-undangan di Indonesia (ed. 2). Yogyakarta: Rangkang Education."
-  verification_tier: unverified
+  verification_tier: catalog_verified
+  url: https://onesearch.id/Record/IOS3420.slims-42683
+  author: "Ruslan, Achmad"
+  publisher: "Rangkang Education"
 - id: buku-kahin-nationalism-revolution-1952
   type: buku
   title_id: Nationalism and Revolution in Indonesia (George McTurnan Kahin)
@@ -6821,4 +6867,8 @@
   year: 1981
   citation_id: "Ricklefs, M. C. (1981). A History of Modern Indonesia since c. 1300. London: Macmillan."
   frbr_uri: /akn/id/archive/buku/1981/ricklefs-history-modern-indonesia
-  verification_tier: unverified
+  verification_tier: catalog_verified
+
+  url: https://onesearch.id/Record/IOS3680.20442
+  author: "RICKLEFS, M.C"
+  publisher: "Stanford University Press"
