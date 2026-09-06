@@ -132,3 +132,21 @@ body {
   color: var(--text);
   transition: background 0.2s, color 0.2s;
 }
+
+/*
+ * Strip yang digulung mendatar (tab dimensi, navigasi metodologi) tetap
+ * bisa digeser jari/trackpad, tapi tanpa batang gulir yang memakan tinggi
+ * baris tab. Kelas ini sudah dipakai `methodology-tabs.tsx` sejak lama
+ * padahal belum pernah didefinisikan - jadi bukan hiasan baru, ini
+ * menambal utilitas yang hilang.
+ *
+ * Hanya menyembunyikan batangnya: konten tetap dapat digulir dengan
+ * keyboard, roda, dan sentuhan, sehingga tidak ada isi yang jadi
+ * tak terjangkau.
+ */
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* WebKit/Blink */
+}

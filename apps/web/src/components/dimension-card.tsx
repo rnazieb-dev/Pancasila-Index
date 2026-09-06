@@ -1,5 +1,6 @@
 "use client";
 
+import type React from "react";
 import { useState, useMemo } from "react";
 import type {
   RubricDimension,
@@ -28,6 +29,14 @@ interface Entry {
   ds: DimensionScore;
 }
 
+type TabId = "dialektika" | "linimasa" | "bukti";
+
+const TABS: { id: TabId; label: string; icon: React.ReactNode }[] = [
+  { id: "dialektika", label: "Dialektika & Doktrin Pakar", icon: <IconScale size={13} /> },
+  { id: "linimasa", label: "Linimasa Trajektori", icon: <IconTimeline size={13} /> },
+  { id: "bukti", label: "Pustaka Bukti & Norma", icon: <IconArchive size={13} /> },
+];
+
 interface DimensionCardProps {
   dimension: RubricDimension;
   entries: Entry[];
@@ -48,9 +57,24 @@ export function DimensionCard({
   termId,
 }: DimensionCardProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeTab, setActiveTab] = useState<"dialektika" | "linimasa" | "bukti">(
-    "dialektika"
-  );
+  const [activeTab, setActiveTab] = useState<TabId>("dialektika");
+  const tabIdBase = `dim-${termId}-${dimension.id}`;
+
+  /*
+   * Tablist ber-`role` wajib bisa dijelajahi panah kiri/kanan; tanpa itu
+   * pembaca layar mengumumkan pola tab yang perilakunya tidak ada.
+   */
+  const handleTabKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
+    const delta = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
+    if (!delta) return;
+    e.preventDefault();
+    const idx = TABS.findIndex((t) => t.id === activeTab);
+    const nextId = TABS[(idx + delta + TABS.length) % TABS.length]!.id;
+    setActiveTab(nextId);
+    e.currentTarget
+      .querySelector<HTMLButtonElement>(`#${CSS.escape(`${tabIdBase}-tab-${nextId}`)}`)
+      ?.focus();
+  };
 
   const avgScore = useMemo(
     () => entries.reduce((acc, e) => acc + e.ds.score, 0) / entries.length,
@@ -248,50 +272,61 @@ export function DimensionCard({
           </div>
 
           {/* Segmented View / Tab Switcher */}
-          <div className="flex items-center justify-between border-b border-[var(--line)] pb-3 gap-2 flex-wrap">
-            <div className="flex items-center gap-1.5 p-1 rounded-xl bg-[var(--bg)] border border-[var(--line)]">
-              <button
-                type="button"
-                onClick={() => setActiveTab("dialektika")}
-                className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-bold transition cursor-pointer ${
-                  activeTab === "dialektika"
-                    ? "bg-[var(--panel)] text-[var(--text)] shadow-xs border border-[var(--line)]"
-                    : "text-[var(--muted)] hover:text-[var(--text)]"
-                }`}
+          {/*
+           * Strip tab dan lencana AI ditumpuk, tidak disandingkan: ketiga
+           * label tab butuh ~580 px sedangkan lencana ~250 px, jadi di lebar
+           * kartu mana pun keduanya tidak pernah muat sebaris - hasilnya tab
+           * ketiga selalu tergulung walau ruang layarnya lega. Ditumpuk,
+           * strip tab dapat lebar kartu penuh dan di desktop tidak perlu
+           * digeser sama sekali.
+           */}
+          <div className="flex flex-col items-start gap-2.5 border-b border-[var(--line)] pb-3">
+            {/*
+             * Pembungkus penggulung. Kartu induk memakai `overflow-hidden`, jadi
+             * strip tab yang lebih lebar dari layar akan terpotong diam-diam -
+             * di ponsel tab ketiga tidak pernah bisa dijangkau. `min-w-0` wajib
+             * ada: tanpa itu item flex menolak menyusut di bawah lebar
+             * kontennya sehingga `overflow-x-auto` tidak pernah aktif.
+             */}
+            <div className="min-w-0 max-w-full overflow-x-auto overscroll-x-contain no-scrollbar -mx-1 px-1">
+              <div
+                role="tablist"
+                aria-label={`Rincian dimensi ${dimension.name_id}`}
+                className="inline-flex w-max items-center gap-1.5 p-1 rounded-xl bg-[var(--bg)] border border-[var(--line)]"
+                onKeyDown={handleTabKeyDown}
               >
-                <IconScale size={13} />
-                <span>Dialektika &amp; Doktrin Pakar</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => setActiveTab("linimasa")}
-                className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-bold transition cursor-pointer ${
-                  activeTab === "linimasa"
-                    ? "bg-[var(--panel)] text-[var(--text)] shadow-xs border border-[var(--line)]"
-                    : "text-[var(--muted)] hover:text-[var(--text)]"
-                }`}
-              >
-                <IconTimeline size={13} />
-                <span>Linimasa Trajektori ({dimensionEvents.length})</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => setActiveTab("bukti")}
-                className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-bold transition cursor-pointer ${
-                  activeTab === "bukti"
-                    ? "bg-[var(--panel)] text-[var(--text)] shadow-xs border border-[var(--line)]"
-                    : "text-[var(--muted)] hover:text-[var(--text)]"
-                }`}
-              >
-                <IconArchive size={13} />
-                <span>Pustaka Bukti &amp; Norma ({totalEvidenceIds.length})</span>
-              </button>
+                {TABS.map((tab) => {
+                  const isActive = activeTab === tab.id;
+                  return (
+                    <button
+                      key={tab.id}
+                      type="button"
+                      role="tab"
+                      id={`${tabIdBase}-tab-${tab.id}`}
+                      aria-selected={isActive}
+                      aria-controls={`${tabIdBase}-panel-${tab.id}`}
+                      tabIndex={isActive ? 0 : -1}
+                      onClick={() => setActiveTab(tab.id)}
+                      className={`inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-lg px-3 py-1.5 text-xs font-bold transition cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--acc-sky)] ${
+                        isActive
+                          ? "bg-[var(--panel)] text-[var(--text)] shadow-xs border border-[var(--line)]"
+                          : "text-[var(--muted)] hover:text-[var(--text)]"
+                      }`}
+                    >
+                      {tab.icon}
+                      <span>
+                        {tab.label}
+                        {tab.id === "linimasa" && ` (${dimensionEvents.length})`}
+                        {tab.id === "bukti" && ` (${totalEvidenceIds.length})`}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
             </div>
 
             {/* AI Transparency & Human Oversight Badging */}
-            <div className="flex items-center gap-2">
+            <div className="flex min-w-0 max-w-full items-center gap-2">
               <AiTransparencyBadge
                 disclosure={entries[0]?.ds.ai_disclosure || assessment?.ai_disclosure}
                 reviewers={assessment?.reviewers}
@@ -302,7 +337,12 @@ export function DimensionCard({
 
           {/* TAB 1: DIALEKTIKA & DOKTRIN PAKAR */}
           {activeTab === "dialektika" && (
-            <div className="space-y-4 pt-1">
+            <div
+              role="tabpanel"
+              id={`${tabIdBase}-panel-dialektika`}
+              aria-labelledby={`${tabIdBase}-tab-dialektika`}
+              className="space-y-4 pt-1"
+            >
               {entries.map((e, idx) => (
                 <div key={`${e.assessmentId}-${idx}`} className="space-y-3">
                   {entries.length > 1 && (
@@ -328,7 +368,12 @@ export function DimensionCard({
 
           {/* TAB 2: LINIMASA TRAJEKTORI PERISTIWA */}
           {activeTab === "linimasa" && (
-            <div className="pt-1">
+            <div
+              role="tabpanel"
+              id={`${tabIdBase}-panel-linimasa`}
+              aria-labelledby={`${tabIdBase}-tab-linimasa`}
+              className="pt-1"
+            >
               <DimensionMilestones
                 dimensionId={dimension.id}
                 dimensionName={dimension.name_id}
@@ -341,7 +386,12 @@ export function DimensionCard({
 
           {/* TAB 3: PUSTAKA BUKTI & NORMA UUD 1945 */}
           {activeTab === "bukti" && (
-            <div className="space-y-4 pt-1">
+            <div
+              role="tabpanel"
+              id={`${tabIdBase}-panel-bukti`}
+              aria-labelledby={`${tabIdBase}-tab-bukti`}
+              className="space-y-4 pt-1"
+            >
               <div>
                 <div className="text-xs uppercase tracking-wide text-[var(--muted)] font-bold mb-2">
                   Daftar Bukti Empiris Terverifikasi

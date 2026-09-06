@@ -1,0 +1,64 @@
+{
+  "_catatan": "Dihasilkan oleh apps/web/scripts/build-sila-symbols.mts. Jangan disunting tangan.",
+  "sumber": {
+    "berkas": "public/emblems/presiden-ri.svg",
+    "judul": "Lambang Negara Republik Indonesia (Garuda Pancasila)",
+    "asal": "Wikimedia Commons",
+    "sha256": "8153704649b7bab5ce2103d9c60c0f547c4d66aa2e9f736837a8a3c104a02082",
+    "status_hak_cipta": "Lambang negara - Pasal 42 huruf b UU No. 28 Tahun 2014 tentang Hak Cipta: tidak ada hak cipta atas lambang negara menurut sifatnya yang asli."
+  },
+  "raster_kerja_px": 2400,
+  "dibuat_pada": "2026-09-06",
+  "lambang": [
+    {
+      "id": "sila-1",
+      "sila": 1,
+      "name_id": "Bintang",
+      "file": "/lambang/sila-1.png",
+      "ground_hex": "#000000",
+      "px": 512,
+      "bytes": 15375,
+      "sha256": "84b3b9211f529dc02d251e0fef1fdcd88cc31f24c2c9ae09092bab6ca2fc1ead"
+    },
+    {
+      "id": "sila-2",
+      "sila": 2,
+      "name_id": "Rantai",
+      "file": "/lambang/sila-2.png",
+      "ground_hex": "#ff0000",
+      "px": 512,
+      "bytes": 45232,
+      "sha256": "b40f51a983cdb8c8a761fd63ac623ecdeffc985c3d9e43541be4ba0280319081"
+    },
+    {
+      "id": "sila-3",
+      "sila": 3,
+      "name_id": "Pohon Beringin",
+      "file": "/lambang/sila-3.png",
+      "ground_hex": "#ffffff",
+      "px": 512,
+      "bytes": 24577,
+      "sha256": "3a7e168469e172aa02681566535d087f0511d09e38ebadc6fbc7e8346d5a6bd9"
+    },
+    {
+      "id": "sila-4",
+      "sila": 4,
+      "name_id": "Kepala Banteng",
+      "file": "/lambang/sila-4.png",
+      "ground_hex": "#ff0000",
+      "px": 512,
+      "bytes": 14954,
+      "sha256": "bb51fb9025e74e020aeb2c9599ffea6fa889d645c3045a5cedaac7d5fa5a4987"
+    },
+    {
+      "id": "sila-5",
+      "sila": 5,
+      "name_id": "Padi dan Kapas",
+      "file": "/lambang/sila-5.png",
+      "ground_hex": "#ffffff",
+      "px": 512,
+      "bytes": 44203,
+      "sha256": "e7bf5312e188e3e8245c32583c1a39f4b7cb7e061710a8ff1a183e0330d95170"
+    }
+  ]
+}
