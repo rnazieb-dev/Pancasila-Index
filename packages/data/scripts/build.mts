@@ -419,6 +419,7 @@ function catatPengulangan(map: Map<string, string[]>, teks: string | undefined, 
   map.set(kunci, list);
 }
 
+const tesisTerpakai = new Map<string, string[]>();
 const antitesisTerpakai = new Map<string, string[]>();
 const sintesisTerpakai = new Map<string, string[]>();
 const kutipanTerpakai = new Map<string, string[]>();
@@ -436,6 +437,7 @@ const LABEL_SKOR = /\b(?:skor|penilaian)\b[^.]{0,48}?\(([+-][0-2]|0)\)/i;
 for (const a of assessments) {
   for (const ds of a.dimension_scores) {
     const di = `${a.id}/${ds.dimension_id}`;
+    catatPengulangan(tesisTerpakai, ds.thesis_id, di);
     catatPengulangan(antitesisTerpakai, ds.antithesis_id, di);
     catatPengulangan(sintesisTerpakai, ds.synthesis_id, di);
     for (const ev of ds.evidence) {
@@ -493,6 +495,7 @@ for (const a of assessments) {
 }
 
 for (const [label, map] of [
+  ["thesis_id", tesisTerpakai],
   ["antithesis_id", antitesisTerpakai],
   ["synthesis_id", sintesisTerpakai],
   ["expert_quote", kutipanTerpakai],
@@ -532,6 +535,34 @@ for (const a of assessments) {
   }
 }
 
+// (5c) Entri register JDIH adalah metadata Lembaran Negara apa adanya, BUKAN
+//      bukti terkurasi. Menempelkannya ke skor dimensi sama dengan mengisi
+//      metrik: ribuan peraturan tarif dan pengangkatan pejabat akan tampak
+//      seolah "bukti empiris" penilaian konstitusional. Penautan hanya sah
+//      lewat kurasi eksplisit, yaitu setelah provenance-nya diubah ke `kurasi`.
+for (const a of assessments) {
+  for (const ds of a.dimension_scores) {
+    for (const eid of ds.event_ids ?? []) {
+      const ev = eventById.get(eid);
+      if (ev?.provenance === "register-jdih") {
+        errors.push(
+          `${a.id}/${ds.dimension_id}: peristiwa "${eid}" berprovenance register-jdih ` +
+            `dan tidak boleh jadi bukti skor tanpa kurasi eksplisit`
+        );
+      }
+    }
+    for (const ev of ds.evidence ?? []) {
+      const src = sourcesRaw.find((x) => x.id === ev.source_id);
+      if (src?.provenance === "register-jdih") {
+        errors.push(
+          `${a.id}/${ds.dimension_id}: sumber "${ev.source_id}" berprovenance ` +
+            `register-jdih dan tidak boleh jadi bukti skor tanpa kurasi eksplisit`
+        );
+      }
+    }
+  }
+}
+
 // (5b) Ringkasan peristiwa tidak boleh boilerplate massal: satu paragraf yang
 //      sama pada puluhan "peristiwa" berbeda adalah pengisi metrik.
 const ringkasanTerpakai = new Map<string, string[]>();
@@ -558,7 +589,10 @@ for (const e of events) {
     .toLowerCase()
     .replace(/[^a-z0-9 ]/g, " ")
     .split(/\s+/)
-    .filter((w) => w.length > 3)
+    // Angka SELALU dipertahankan meski pendek: pada judul dokumen hukum,
+    // nomornya justru pembedanya ("PP No. 110" vs "PP No. 111"). Membuang
+    // token <=3 huruf tanpa kecuali membuat keduanya tampak kembar.
+    .filter((w) => w.length > 3 || /^\d+$/.test(w))
     .sort()
     .join(" ");
   const kunci = `${e.term_id}::${e.date}::${inti}`;
@@ -700,6 +734,31 @@ for (const a of assessments) {
   }
 }
 
+// (6e) Dialektika wajib utuh dan tidak boleh saling menyalin. Sebelum
+//      September 2026, 544 dari 569 skor tidak punya tesis sama sekali -
+//      pembaca hanya melihat kritik dan kesimpulan tanpa dalil yang dikritik -
+//      dan pada skor negatif isi tesis justru ditaruh di antitesis.
+for (const a of assessments) {
+  for (const ds of a.dimension_scores) {
+    const di = `${a.id}/${ds.dimension_id}`;
+    for (const [field, teks] of [
+      ["thesis_id", ds.thesis_id],
+      ["antithesis_id", ds.antithesis_id],
+      ["synthesis_id", ds.synthesis_id],
+    ] as const) {
+      if (!teks || teks.trim().length < 40) {
+        errors.push(`${di}: ${field} kosong atau terlalu pendek - dialektika wajib utuh`);
+      }
+    }
+    if (ds.thesis_id && ds.thesis_id.trim() === ds.rationale_id.trim()) {
+      errors.push(`${di}: thesis_id sama persis dengan rationale_id - tesis wajib dalil formal institusi, bukan salinan rasional`);
+    }
+    if (ds.thesis_id && ds.antithesis_id && ds.thesis_id.trim() === ds.antithesis_id.trim()) {
+      errors.push(`${di}: thesis_id sama persis dengan antithesis_id`);
+    }
+  }
+}
+
 // (7) Klaim pengawasan manusia EU AI Act Pasal 14 harus punya penelaah nyata.
 for (const a of assessments) {
   const ho = a.ai_disclosure?.human_oversight;
@@ -709,6 +768,37 @@ for (const a of assessments) {
   }
   if (a.human_confirmed && ho.status === "draft") {
     errors.push(`${a.id}: human_confirmed=true tetapi human_oversight masih berstatus draft`);
+  }
+}
+
+// (7b) Pengungkapan AI tidak boleh MENGECILKAN peran model, dan penerbit tidak
+// boleh menyertifikasi kepatuhan hukumnya sendiri. Dua klaim ini pernah lolos
+// bertahun-tahun karena keduanya "valid" secara skema: analysis_type
+// "llm-assisted-synthesis" menyiratkan manusia yang menyusun dengan bantuan
+// model, dan article_50_compliant dulu bertipe literal(true) sehingga
+// ketidakpatuhan mustahil dinyatakan.
+for (const a of assessments) {
+  const dis = a.ai_disclosure;
+  if (!dis) continue;
+  const approverCount = dis.human_oversight?.approver_count ?? 0;
+
+  if (approverCount === 0 && dis.analysis_type !== "llm-authored-draft") {
+    errors.push(
+      `${a.id}: analysis_type "${dis.analysis_type}" mengecilkan peran AI - tanpa satu pun penelaah manusia, nilai yang jujur adalah "llm-authored-draft"`
+    );
+  }
+
+  const notice = dis.limitations_notice ?? "";
+  if (approverCount === 0 && /diverifikasi (?:sepenuhnya )?oleh penelaah manusia|sepenuhnya diverifikasi/i.test(notice)) {
+    errors.push(
+      `${a.id}: limitations_notice mengklaim verifikasi manusia padahal approver_count=0`
+    );
+  }
+
+  if (dis.eu_ai_act_compliance?.independently_audited === true) {
+    errors.push(
+      `${a.id}: independently_audited=true - kepatuhan hukum tidak boleh disertifikasi sendiri, hanya audit pihak ketiga yang boleh menaikkan nilai ini`
+    );
   }
 }
 

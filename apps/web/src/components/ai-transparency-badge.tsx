@@ -27,17 +27,24 @@ export function AiTransparencyBadge({
 }: Props) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const modelId = disclosure?.model_id || "gemini-3.8-flash-high";
-  const modelProvider = disclosure?.model_provider || "Google DeepMind";
-  const pipelineVersion = disclosure?.pipeline_version || "pancasila-nlp-v1.5";
+  // Bila asesmen tidak punya ai_disclosure, provenance-nya memang tidak
+  // tercatat. Mengisinya dengan nilai bawaan berarti mengarang siapa yang
+  // menyusun analisis - persis kesalahan yang dibersihkan audit integritas.
+  const TIDAK_TERCATAT = "Tidak tercatat";
+  const modelId = disclosure?.model_id;
+  const modelProvider = disclosure?.model_provider || TIDAK_TERCATAT;
+  const pipelineVersion = disclosure?.pipeline_version || TIDAK_TERCATAT;
   // Jangan pernah mengarang nama penelaah. Bila tidak ada approver bernama,
   // status pengawasan manusia ditampilkan apa adanya: belum ditelaah.
   const approvers = disclosure?.human_oversight?.approvers ?? [];
   const oversightVerified =
     disclosure?.human_oversight?.status === "verified" && approvers.length > 0;
+  const auditedIndependently =
+    disclosure?.eu_ai_act_compliance?.independently_audited === true;
 
-  const modelDisplay =
-    modelId === "gemini-3.8-flash-high"
+  const modelDisplay = !modelId
+    ? TIDAK_TERCATAT
+    : modelId === "gemini-3.8-flash-high"
       ? "Gemini 3.8 Flash High"
       : modelId === "gemini-2.5-flash"
       ? "Gemini 2.5 Flash"
@@ -49,13 +56,18 @@ export function AiTransparencyBadge({
       ? "Claude Opus 5"
       : modelId;
 
+  // "Opus 5 (Max)" - tingkat penalaran ikut ditampilkan bila dicatat.
+  const modelLengkap = disclosure?.reasoning_tier
+    ? `${modelDisplay} (${disclosure.reasoning_tier.replace(/^./, (c) => c.toUpperCase())})`
+    : modelDisplay;
+
   return (
     <>
       {/* Tombol / Lencana Interaktif */}
       <button
         type="button"
         onClick={() => setIsOpen(true)}
-        title="Klik untuk melihat lembar transparansi kepatuhan EU AI Act Pasal 50"
+        title="Klik untuk melihat lembar transparansi AI (pengungkapan EU AI Act Pasal 50 & 14)"
         className={`inline-flex items-center gap-1.5 rounded-md border px-2 py-0.5 text-[10px] font-mono font-medium transition cursor-pointer text-left ${
           oversightVerified
             ? "border-sky-500/30 bg-sky-500/10 text-[var(--acc-sky-strong)] hover:border-sky-400 hover:bg-sky-500/20"
@@ -65,10 +77,10 @@ export function AiTransparencyBadge({
         <IconBot size={13} className="shrink-0" />
         <span>
           {compact ? (
-            <>AI: <strong>{modelDisplay}</strong> (EU AI Act)</>
+            <>AI: <strong>{modelLengkap}</strong> (EU AI Act)</>
           ) : (
             <>
-              Analisis &amp; Skor Disusun AI: <strong>{modelDisplay}</strong>
+              Analisis &amp; Skor Disusun AI: <strong>{modelLengkap}</strong>
               {" · "}
               {oversightVerified ? "Ditinjau 2 penelaah" : "Belum ditinjau manusia"}
             </>
@@ -100,7 +112,7 @@ export function AiTransparencyBadge({
                     <IconScale size={18} />
                   </span>
                   <span className="text-[10px] uppercase tracking-wider font-bold text-[var(--acc-sky)]">
-                    Kepatuhan Regulasi EU AI Act (Pasal 50 &amp; 14)
+                    Pengungkapan EU AI Act (Pasal 50 &amp; 14)
                   </span>
                 </div>
                 <h3 className="text-base sm:text-lg font-black text-[var(--text)] mt-1">
@@ -124,7 +136,7 @@ export function AiTransparencyBadge({
             <div className="grid grid-cols-2 gap-2.5 bg-[var(--bg)] p-3.5 rounded-xl border border-[var(--line)]">
               <div>
                 <span className="text-[10px] uppercase text-[var(--muted)] block">Model AI Utama</span>
-                <strong className="text-sm text-[var(--text)]">{modelDisplay}</strong>
+                <strong className="text-sm text-[var(--text)]">{modelLengkap}</strong>
               </div>
               <div>
                 <span className="text-[10px] uppercase text-[var(--muted)] block">Penyedia / Pengembang</span>
@@ -135,9 +147,24 @@ export function AiTransparencyBadge({
                 <span className="font-mono text-xs text-[var(--acc-sky)]">{pipelineVersion}</span>
               </div>
               <div>
-                <span className="text-[10px] uppercase text-[var(--muted)] block">Status Regulasi</span>
-                <span className="inline-block px-1.5 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 font-semibold text-[10px]">
-                  EU AI Act Art. 50 Compliant
+                <span className="text-[10px] uppercase text-[var(--muted)] block">Status Pengungkapan</span>
+                {/*
+                  Penerbit tidak boleh menyatakan dirinya patuh hukum. Yang bisa
+                  dinyatakan hanya fakta yang dapat diperiksa: pengungkapannya
+                  sudah dilakukan. Penilaian kepatuhannya belum pernah diaudit
+                  pihak ketiga - selama itu, lencana hijau "Compliant" adalah
+                  klaim yang tidak berdasar.
+                */}
+                <span
+                  className={`inline-block px-1.5 py-0.5 rounded font-semibold text-[10px] ${
+                    auditedIndependently
+                      ? "bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400"
+                      : "bg-amber-500/10 border border-amber-500/30 text-amber-600 dark:text-amber-400"
+                  }`}
+                >
+                  {auditedIndependently
+                    ? "Diaudit independen (Pasal 50)"
+                    : "Diungkap · belum diaudit independen"}
                 </span>
               </div>
             </div>
@@ -150,16 +177,30 @@ export function AiTransparencyBadge({
                   <span>Remediasi Integritas Data</span>
                 </div>
                 <p className="text-[11px] text-[var(--muted)] leading-relaxed">
-                  Draf awal dibangkitkan <strong>{modelDisplay}</strong>, lalu diaudit dan
-                  dibersihkan oleh model lain:{" "}
-                  <strong className="text-[var(--text)]">
-                    {disclosure.remediation.model_id === "claude-opus-5"
-                      ? "Claude Opus 5"
-                      : disclosure.remediation.model_id}
-                  </strong>{" "}
-                  ({disclosure.remediation.model_provider}) pada{" "}
+                  Isi penilaian versi sekarang dikarang{" "}
+                  <strong className="text-[var(--text)]">{modelLengkap}</strong> (
+                  {modelProvider}). Remediasi integritas dijalankan pada{" "}
                   <span className="font-mono">{disclosure.remediation.performed_at}</span>.
                   {disclosure.remediation.notes_id ? ` ${disclosure.remediation.notes_id}` : null}
+                </p>
+              </div>
+            )}
+
+            {disclosure?.prior_draft && (
+              <div className="space-y-1.5 rounded-xl border border-[var(--line)] bg-[var(--bg)] p-4">
+                <div className="flex items-center gap-2 text-[var(--muted)] font-bold text-xs">
+                  <IconBot size={16} />
+                  <span>Riwayat Model Terdahulu</span>
+                </div>
+                <p className="text-[11px] text-[var(--muted)] leading-relaxed">
+                  Draf sebelumnya dibangkitkan{" "}
+                  <strong className="text-[var(--text)]">
+                    {disclosure.prior_draft.model_id === "gemini-3.8-flash-high"
+                      ? "Gemini 3.8 Flash High"
+                      : disclosure.prior_draft.model_id}
+                  </strong>{" "}
+                  ({disclosure.prior_draft.model_provider}).
+                  {disclosure.prior_draft.notes_id ? ` ${disclosure.prior_draft.notes_id}` : null}
                 </p>
               </div>
             )}
@@ -183,7 +224,16 @@ export function AiTransparencyBadge({
                 <span>Pengawasan Manusia (Human Oversight — Pasal 14)</span>
               </div>
               <p className="text-[11px] text-[var(--muted)] leading-relaxed">
-                Sistem AI pada Pancasila Index <strong>hanya digunakan sebagai alat bantu klasifikasi heuristik dan sintesis awal dokumen</strong>. Sesuai prinsip *Human-in-the-Loop*, penilaian baru boleh berstatus <em>published</em> setelah diverifikasi dan disetujui secara independen oleh minimal <strong>2 Penelaah Manusia (Kuorum Ganda)</strong> tanpa konflik kepentingan.
+                Model AI pada Pancasila Index{" "}
+                <strong className="text-[var(--text)]">
+                  mengarang sendiri angka skor, rasional, serta seluruh tesis, antitesis, dan
+                  sintesisnya
+                </strong>{" "}
+                - bukan sekadar alat bantu klasifikasi. Sesuai prinsip{" "}
+                <em>Human-in-the-Loop</em>, penilaian baru boleh berstatus <em>published</em>{" "}
+                setelah diverifikasi dan disetujui secara independen oleh minimal{" "}
+                <strong>2 Penelaah Manusia (Kuorum Ganda)</strong> tanpa konflik kepentingan.
+                Sampai kuorum itu terpenuhi, yang Anda baca adalah draf mesin.
               </p>
               <div
                 className={`pt-2 border-t text-[11px] ${

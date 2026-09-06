@@ -98,7 +98,19 @@ function pasangFetchTiruan(opts?: { expiresInMs?: number }) {
   );
 }
 
-describe("otentikasi GitHub App (github-pr.ts)", () => {
+/*
+ * Timeout dinaikkan dari 5 detik bawaan sebagai jaring pengaman untuk
+ * `generateKeyPairSync` RSA-2048 di tingkat modul (baris 15), yang berjalan
+ * sekali sebelum uji pertama dan biayanya bervariasi.
+ *
+ * Penyebab utama kegagalan sebelumnya BUKAN itu, melainkan `github-pr.ts`
+ * yang mengimpor dari "@pancasila-index/data" sehingga ikut menarik
+ * generated/dataset.json (15 MB) ke pipeline transform vite. Itu sudah
+ * diperbaiki di sumbernya: impor kini lewat subpath "/yaml-edit" yang tidak
+ * menyentuh dataset. Timeout ini murni anggaran waktu, bukan pelonggaran
+ * asersi.
+ */
+describe("otentikasi GitHub App (github-pr.ts)", { timeout: 15_000 }, () => {
   beforeEach(() => {
     vi.resetModules();
     vi.unstubAllEnvs();

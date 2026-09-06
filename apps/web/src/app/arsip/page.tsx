@@ -174,7 +174,7 @@ export default function ArsipPage() {
               Khazanah Arsip Konstitusi
             </h1>
             <p className="mt-2.5 text-sm sm:text-base text-[var(--muted)] leading-relaxed max-w-3xl">
-              Direktori 578 dokumen primer otentik yang menyokong penilaian: risalah PPKI, naskah undang-undang, putusan mahkamah, laporan audit negara, serta dokumen rekonsiliasi dan arsip sejarah.
+              Direktori {dataset.sources.length} dokumen primer yang menyokong penilaian: risalah PPKI, naskah undang-undang, putusan mahkamah, laporan audit negara, serta dokumen rekonsiliasi dan arsip sejarah.
             </p>
           </div>
 

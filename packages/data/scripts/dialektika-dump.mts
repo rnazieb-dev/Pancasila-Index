@@ -29,7 +29,8 @@ const want = new Set(process.argv.slice(2));
 for (const a of A) {
   if (want.size && !want.has(a.id)) continue;
   for (const d of a.dimension_scores) {
-    if (!process.env.SEMUA && (d.antithesis_id || d.synthesis_id)) continue;
+    // Default: hanya yang belum punya tesis. SEMUA=1 untuk seluruhnya.
+    if (!process.env.SEMUA && d.thesis_id) continue;
     const ev = (d.event_ids ?? [])
       .map((id: string) => E.get(id))
       .filter(Boolean)
@@ -42,6 +43,8 @@ for (const a of A) {
         k: `${a.id}::${d.dimension_id}`,
         score: d.score,
         rationale: d.rationale_id,
+        thesis: d.thesis_id ?? null,
+        anti: d.antithesis_id ?? null,
         kembar: kembar.get(d.rationale_id.trim()) ?? 1,
         events: ev,
         sources: src,

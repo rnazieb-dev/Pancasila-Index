@@ -471,7 +471,7 @@ export default function CariPage() {
         {(categoryFilter === "all" || categoryFilter === "event") && results.events.length > 0 && (
           <section>
             <h2 className="text-base font-bold text-[var(--acc-red)] uppercase tracking-wide">
-              Peristiwa Berbukti ({results.events.length})
+              Peristiwa Tercatat ({results.events.length})
             </h2>
             <div className="mt-3 space-y-3">
               {results.events.slice(0, 30).map((ev) => {

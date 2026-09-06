@@ -182,6 +182,9 @@ for (const asm of assessments) {
   if (dis) {
     dis.model_id = "gemini-3.8-flash-high";
     dis.model_provider = "Google DeepMind";
+    // Tanpa satu pun penelaah, "llm-assisted-synthesis" terbalik dari kenyataan:
+    // yang terjadi adalah model mengarang draf, bukan manusia dibantu model.
+    dis.analysis_type = "llm-authored-draft";
     dis.human_oversight = {
       mechanism: "quorum-2-reviewers",
       status: "draft",

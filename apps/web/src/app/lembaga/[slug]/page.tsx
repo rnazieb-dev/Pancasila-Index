@@ -85,7 +85,7 @@ export default async function LembagaPage({
           </div>
           <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4">
             <div className="text-2xl font-bold">{events.length}</div>
-            <div className="text-xs text-[var(--muted)] mt-0.5">Peristiwa Berbukti</div>
+            <div className="text-xs text-[var(--muted)] mt-0.5">Peristiwa Tercatat</div>
           </div>
           <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4">
             <div className="text-2xl font-bold">{sourceIds.size}</div>

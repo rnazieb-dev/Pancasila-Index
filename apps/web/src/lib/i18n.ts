@@ -72,7 +72,7 @@ const id = {
   heroBadge: "Merebut kembali Pancasila dari monopoli tafsir penguasa",
   heroTitle: "Seberapa Pancasila para P̶e̶n̶g̶u̶a̶s̶a̶ Pelayan Rakyat kita?",
   heroSubtitle:
-    "Pancasila Index menguji kesetiaan 8 organ konstitusional Indonesia terhadap Pancasila dan UUD sejak 1945 hingga hari ini. Setiap skor didukung oleh sitasi bukti primer serta divalidasi oleh dua peninjau berbeda latar belakang sebelum rilis.",
+    "Pancasila Index menguji kesetiaan 8 organ konstitusional Indonesia terhadap Pancasila dan UUD sejak 1945 hingga hari ini. Setiap skor bersitasi bukti primer yang dapat Anda periksa sendiri. Analisis dan skornya disusun AI dan berstatus draf - belum ditinjau penelaah manusia.",
   heroCtaExplore: "Jelajahi 8 Lembaga",
   heroCtaMethod: "Baca Metodenya",
   heroCtaAkarSejarah: "Lacak Sejarahnya",
@@ -81,7 +81,7 @@ const id = {
   // Aggregate Stats
   statInstitutions: "Organ Konstitusi",
   statTerms: "Masa Jabatan",
-  statEvents: "Peristiwa Berbukti",
+  statEvents: "Peristiwa Tercatat",
   statSources: "Sumber Primer",
   statArticles: "Pasal UUD 1945",
 
@@ -268,7 +268,7 @@ const en: Dict = {
 
   heroBadge: "A question that has never been fully answered",
   heroTitle: "How Pancasila are our r̶u̶l̶e̶r̶s̶ leaders (servants of the people)?",
-  heroSubtitle: "Pancasila Index assesses the fidelity of the 8 Indonesia constitutional organs to Pancasila and the 1945 Constitution — from 1945 to today, with every figure backed by primary sources and reviewed by two independent reviewers before publication.",
+  heroSubtitle: "Pancasila Index assesses the fidelity of the 8 Indonesia constitutional organs to Pancasila and the 1945 Constitution — from 1945 to today, with every figure backed by primary sources you can check yourself. The analysis and scores are AI-authored drafts, not yet reviewed by human reviewers.",
   heroCtaExplore: "Explore 8 Institutions",
   heroCtaMethod: "Read Methodology",
   heroCtaAkarSejarah: "Read Historical Roots",
@@ -276,7 +276,7 @@ const en: Dict = {
 
   statInstitutions: "Constitutional Organs",
   statTerms: "Governing Terms",
-  statEvents: "Evidenced Events",
+  statEvents: "Recorded Events",
   statSources: "Primary Sources",
   statArticles: "Articles of 1945 Constitution",
 
@@ -455,7 +455,7 @@ const jv: Dict = {
   heroBadge: "Pitakonan sing ora tau rampung dijawab",
   heroTitle: "Sepira Pancasila para p̶a̶n̶g̶u̶w̶a̶s̶a̶ abdi rakyat kita?",
   heroSubtitle:
-    "Indeks kasetyan 8 organ konstitusi Indonesia wiwit 1945 nganti saiki, adhedhasar bukti hukum primer lan ditinjau dening loro paninjau sing beda identitas sadurunge dipublikasikake.",
+    "Indeks kasetyan 8 organ konstitusi Indonesia wiwit 1945 nganti saiki, adhedhasar bukti hukum primer sing bisa dipriksa dhewe. Analisis lan skore disusun AI, isih draf, durung ditinjau paninjau manungsa.",
   heroCtaExplore: "Njlajah 8 Lembaga",
   heroCtaMethod: "Waca Metodologi",
   heroCtaAkarSejarah: "Waca Oyod Sejarah",
@@ -463,7 +463,7 @@ const jv: Dict = {
 
   statInstitutions: "Organ Konstitusi",
   statTerms: "Mangsa Jabatan",
-  statEvents: "Kedadeyan Berbukti",
+  statEvents: "Kedadeyan Kacathet",
   statSources: "Sumber Primer",
   statArticles: "Pasal UUD 1945",
 
@@ -642,7 +642,7 @@ const su: Dict = {
   heroBadge: "Suatu patarosan anu teu acan kabérés",
   heroTitle: "Sacara Pancasila para p̶a̶n̶g̶u̶a̶s̶a̶ abdi rakyat urang?",
   heroSubtitle:
-    "Indéks kasatiaan 8 organ konstitusional Indonésia ti 1945 dugi ka kiwari, didadasaran ku bukti hukum primér sarta ditinjau ku dua paninjau anu béda identitas saacan dipublikasikeun.",
+    "Indéks kasatiaan 8 organ konstitusional Indonésia ti 1945 dugi ka kiwari, didadasaran ku bukti hukum primér anu tiasa dipariksa nyalira. Analisis sareng skorna disusun AI, masih draf, tacan ditinjau ku paninjau manusa.",
   heroCtaExplore: "Nalungtik 8 Lembaga",
   heroCtaMethod: "Baca Métodologi",
   heroCtaAkarSejarah: "Baca Akar Sajarah",
@@ -650,7 +650,7 @@ const su: Dict = {
 
   statInstitutions: "Organ Konstitusi",
   statTerms: "Mangsa Jabatan",
-  statEvents: "Kajadian Berbukti",
+  statEvents: "Kajadian Kacatet",
   statSources: "Sumber Primér",
   statArticles: "Pasal UUD 1945",
 
@@ -829,7 +829,7 @@ const mad: Dict = {
   heroBadge: "Sokaduwa' perrtanyaan sè ta' pernah epatosè",
   heroTitle: "Sacara Pancasila para p̶a̶n̶g̶o̶w̶a̶s̶a̶ abdi oreng ka'dinto?",
   heroSubtitle:
-    "Indeks kasatèya'an 8 organ konstitusi Indonesia molaè 1945 kantos samangkèn, abuktè dokumen hokom primer sareng ètinjau sareng loro panerrebhès sè bedâ èdèntitas sajhân èpoblesikasè.",
+    "Indeks kasatèya'an 8 organ konstitusi Indonesia molaè 1945 kantos samangkèn, abuktè dokumen hokom primer sè bisa èpareksa dhibi'. Analisis ban skorra èsoson AI, gi' draf, gi' ta' ètinjau panerrebhès manossa.",
   heroCtaExplore: "Jelajah 8 Lembhâgâ",
   heroCtaMethod: "Bâca Metodologi",
   heroCtaAkarSejarah: "Bâca Akar Sajhârâ",
@@ -1016,7 +1016,7 @@ const min: Dict = {
   heroBadge: "Sabuah patanyaan nan indak pernah salasai",
   heroTitle: "Sacara Pancasila para p̶a̶n̶g̶u̶a̶s̶o̶ palayan rayek kito?",
   heroSubtitle:
-    "Indeks kapatuahan 8 organ konstitusional Indonesia dari 1945 sampai kini, basandik pado bukti hukum primer sarang ditinjau dek duo panilaiek nan bidaik idenitas sabalun dipublikasi.",
+    "Indeks kapatuahan 8 organ konstitusional Indonesia dari 1945 sampai kini, basandik pado bukti hukum primer nan buliah dipareso surang. Analisis jo skornyo disusun AI, masih draf, alun ditinjau panilaiek manusia.",
   heroCtaExplore: "Jelajahi 8 Lambago",
   heroCtaMethod: "Baco Metodologi",
   heroCtaAkarSejarah: "Baco Aka Sajarah",

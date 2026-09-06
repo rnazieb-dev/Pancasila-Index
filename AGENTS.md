@@ -107,7 +107,8 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
     `CONTRIBUTING.md` aturan anti-kampanye partisan;
     `SECURITY.md` memisahkan jalur right of reply dari pelaporan
     kerentanan; footer global merujuk 3 halaman hukum.
-    `enforce_admins: true` di branch protection + 2 review + 3 status
+    `enforce_admins: false` di branch protection (owner dapat override,
+    lihat `.github/ADMIN_OVERRIDE.md`) + 2 review + 3 status
     check (`verify`, `audit`, `secrets`) + `CODEOWNERS`; dokumentasi
     `[.github/ADMIN_OVERRIDE.md](.github/ADMIN_OVERRIDE.md)`.
 - [x] **Fase 14: Trajektori Ilmiah Multi-Peristiwa (Scientific Milestones) & Kepatuhan EU AI Act (Gemini 3.8 Flash High)** ✅
@@ -148,6 +149,34 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
       asesmen berskor positif/negatif seragam (seragam nol dikecualikan).
       **Alur kerja yang disepakati: AI menilai → kontributor manusia menelaah.**
       Seluruh skor berstatus usulan hingga kuorum dua penelaah terpenuhi.
+- [x] **Fase 18: Dialektika utuh — 569 tesis & 77 antitesis salah tempat** ✅
+      Dua cacat struktural dibereskan: 544 skor tidak punya `thesis_id` sama
+      sekali, dan pada skor negatif isi tesis justru ditaruh di antitesis
+      (pembelaan resmi lembaga ditulis sebagai "sanggahan kritis"). Kini
+      569/569 skor punya tesis-antitesis-sintesis yang utuh dan pada tempatnya.
+      Pagar baru menolak dialektika yang tidak lengkap, tesis yang menyalin
+      rasional atau antitesis, dan tesis yang diulang lebih dari 3 kali.
+- [x] **Fase 19: Pengungkapan AI yang jujur tentang dirinya sendiri** ✅
+      Enam fase sebelumnya membersihkan isi indeks; fase ini membersihkan
+      lapisan yang seharusnya paling jujur. Dicabut: sertifikasi-mandiri
+      kepatuhan EU AI Act (`article_50_compliant` bertipe `z.literal(true)`
+      sehingga ketidakpatuhan mustahil dinyatakan, tampil sebagai lencana hijau
+      "Compliant"); pernyataan bahwa AI "hanya alat bantu klasifikasi" padahal
+      model mengarang seluruh skor dan dialektika; default `limitations_notice`
+      yang mengklaim verifikasi manusia dengan `approver_count = 0`; dan skrip
+      `enrich-milestones-eu-ai.mts` yang mengarang dua nama penelaah lengkap
+      dengan `approver_count: 2` — kombinasi yang lolos validasi skema dan
+      sekali dijalankan ulang akan menghapus seluruh remediasi diam-diam.
+- [x] **Fase 20: Verifikasi 33 sumber, panen register JDIH, penilaian ulang** ✅
+      33 sumber `unverified` diperiksa satu per satu terhadap katalog publik:
+      23 `catalog_verified` (tier baru), 2 naik `official_source`, 8 jujur
+      tetap unverified. 9.827 peraturan dipanen dari peraturan.bpk.go.id -
+      peristiwa 711 -> 10.533, sumber 648 -> 10.475 - seluruhnya bersitasi
+      Lembaran Negara dan bertautan PDF resmi. Field `provenance` memisahkan
+      `kurasi` dari `register-jdih`; pagar 5c melarang entri register jadi
+      bukti skor tanpa kurasi eksplisit. DPR Orde Baru (2 dimensi untuk 28
+      tahun, keduanya positif) dinilai ulang jadi 5 dimensi, +1,00 -> -1,80.
+      Atribusi model: `claude-opus-5` (max), Gemini disimpan di `prior_draft`.
 
 ## Definisi Selesai v1.0 (TERCAPAI PENUH ✅)
 

@@ -64,6 +64,8 @@ export const i18nFields = (key: string) =>
 export const sourceTypeSchema = z.enum([
   "undang-undang",
   "perppu",
+  "peraturan-pemerintah",
+  "peraturan-presiden",
   "keppres",
   "inpres",
   "putusan-mk",
@@ -130,14 +132,25 @@ export const sourceSchema = z.object({
   frbr_uri: z.string().optional(),
   /** true = isi sumber sudah diverifikasi manusia terhadap dokumen resmi asli. */
   content_verified: z.boolean().optional(),
+  /** Sama seperti event.provenance: membedakan sumber terkurasi dari panen register JDIH. */
+  provenance: z.enum(["kurasi", "register-jdih"]).optional(),
+  /** Pengarang menurut katalog perpustakaan, bila sumbernya literatur. */
+  author: z.string().optional(),
+  /** Penerbit menurut katalog perpustakaan. */
+  publisher: z.string().optional(),
   /**
    * Tingkat verifikasi ala pasal.id (verification.tier):
    * - human_verified: ditinjau manusia terhadap naskah resmi
    * - official_source: diambil langsung dari domain resmi, belum ditinjau manusia
+   * - catalog_verified: metadata cocok dengan rekaman katalog perpustakaan
+   *   publik (mis. OneSearch/Perpusnas, OpenLibrary) - membuktikan karyanya
+   *   ADA dan metadatanya benar, bukan membuktikan isinya. Buku tidak pernah
+   *   boleh berstatus `official_source`: ia literatur ilmiah, bukan dokumen
+   *   resmi negara.
    * - unverified: belum diverifikasi sama sekali
    */
   verification_tier: z
-    .enum(["human_verified", "official_source", "unverified"])
+    .enum(["human_verified", "official_source", "catalog_verified", "unverified"])
     .optional(),
 });
 export type Source = z.infer<typeof sourceSchema>;
@@ -310,6 +323,17 @@ export const eventSchema = z.object({
    * agar re-atribusi bisa diaudit dan tidak jadi tebakan sejarah.
    */
   subject_basis_id: z.string().min(10).optional(),
+  /**
+   * Asal-usul peristiwa - WAJIB dibedakan agar pembaca tidak menyangka entri
+   * register adalah analisis.
+   * - `kurasi` (bawaan): peristiwa yang dipilih dan diuraikan sebagai tonggak
+   *   ketatanegaraan, dengan penimbangan.
+   * - `register-jdih`: entri faktual hasil panen langsung dari JDIH resmi
+   *   (peraturan.bpk.go.id). Isinya metadata Lembaran Negara apa adanya -
+   *   tanggal, nomor LN/TLN, status - BUKAN penilaian. Berguna sebagai rekam
+   *   jejak legislasi yang lengkap, tetapi tidak setara bukti terkurasi.
+   */
+  provenance: z.enum(["kurasi", "register-jdih"]).optional(),
 });
 export type EventRecord = z.infer<typeof eventSchema>;
 
@@ -461,12 +485,40 @@ export const dimensionScoreSchema = z.object({
  */
 export const aiDisclosureSchema = z.object({
   assisted: z.boolean().default(false),
-  model_id: z.string().default("gemini-3.8-flash-high"),
-  model_provider: z.string().default("Google DeepMind"),
+  /** Model yang MENGARANG isi penilaian versi sekarang. */
+  model_id: z.string().default("claude-opus-5"),
+  model_provider: z.string().default("Anthropic"),
+  /** Tingkat usaha penalaran yang dipakai, bila modelnya punya tingkatan. */
+  reasoning_tier: z.string().optional(),
+  /**
+   * Model yang membangkitkan draf TERDAHULU, bila isi sekarang sudah ditulis
+   * ulang model lain. Disimpan - bukan dihapus - karena riwayat provenance
+   * adalah fakta: menghapusnya membuat seolah isi ini selalu berasal dari
+   * satu model.
+   */
+  prior_draft: z
+    .object({
+      model_id: z.string(),
+      model_provider: z.string(),
+      notes_id: z.string().optional(),
+    })
+    .optional(),
   pipeline_version: z.string().default("pancasila-nlp-v1.5"),
+  /**
+   * `llm-authored-draft` = skor, rasional, dan dialektika DIKARANG model, belum
+   * ditelaah manusia. Ini nilai yang jujur untuk indeks ini saat ini.
+   * `llm-assisted-synthesis` menyiratkan manusia yang menyusun dengan bantuan
+   * model - klaim itu terbalik dari kenyataan dan tidak boleh dipakai selama
+   * `human_oversight.approver_count === 0`.
+   */
   analysis_type: z
-    .enum(["heuristic-classification", "llm-assisted-synthesis", "human-verified-only"])
-    .default("llm-assisted-synthesis"),
+    .enum([
+      "heuristic-classification",
+      "llm-authored-draft",
+      "llm-assisted-synthesis",
+      "human-verified-only",
+    ])
+    .default("llm-authored-draft"),
   temperature: z.number().optional(),
   human_oversight: z
     .object({
@@ -506,11 +558,20 @@ export const aiDisclosureSchema = z.object({
   limitations_notice: z
     .string()
     .default(
-      "Sintesis analitis dibantu oleh model AI untuk klasifikasi awal dan perumusan draf. Otoritas kebenaran dan validitas hukum kanonik sepenuhnya diverifikasi oleh penelaah manusia terhadap dokumen primer Lembaran Negara dan Putusan Peradilan."
+      "Skor, rasional, dan dialektika pada penilaian ini dikarang model AI dan BELUM ditelaah penelaah manusia. Dokumen primer yang disitasi dapat diperiksa sendiri oleh pembaca, tetapi penimbangan dan angka skornya adalah keluaran model - bukan kesimpulan yang sudah divalidasi manusia."
     ),
+  /**
+   * Penerbit tidak boleh menyatakan sendiri bahwa dirinya patuh hukum. Yang
+   * boleh dinyatakan hanya FAKTA yang dapat diperiksa: pengungkapan Pasal 50
+   * sudah dilakukan. Apakah pengungkapan itu memenuhi Pasal 50 adalah
+   * kesimpulan hukum - dan sampai `independently_audited` bernilai true,
+   * belum ada pihak ketiga yang menilainya. Sebelumnya field ini bertipe
+   * `z.literal(true)` sehingga ketidakpatuhan mustahil dinyatakan.
+   */
   eu_ai_act_compliance: z
     .object({
-      article_50_compliant: z.literal(true).default(true),
+      article_50_disclosed: z.boolean().default(true),
+      independently_audited: z.boolean().default(false),
       transparency_tag: z.string().default("EU-AI-ACT-ART-50-DISCLOSED"),
     })
     .default({}),

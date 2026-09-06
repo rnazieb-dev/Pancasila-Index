@@ -19,7 +19,7 @@
 
 | Metrik | Sebelum | Sesudah |
 | --- | ---: | ---: |
-| Dialektika tesis–antitesis | 579 (554 template) | **569 ditulis per dimensi** |
+| Dialektika tesis–antitesis–sintesis | 579 (554 template, 25 bertesis) | **569 lengkap bertiga** |
 | Kutipan pakar | 583 (554 template) | **21 bersitasi nyata** |
 | Sumber | 1.034 | **648** |
 | Peristiwa | 1.112 | **711** |
@@ -256,6 +256,159 @@ melanggengkannya. Skor `+2` ("teladan") tidak dapat dipertahankan.
 Rata-rata sesudahnya: MPR 2009–2014 **−0.25** · MPR 2014–2019 **−0.17** ·
 MPR 2019–2024 **−0.33** · MPR 2024–sekarang **−0.42** · DPD 2019–2024 **−0.25**.
 Distribusi global: `0`=213, `+1`=216, `+2`=27, `−1`=73, `−2`=40.
+
+## Gelombang keenam: dialektika yang tidak lengkap dan salah tempat
+
+Pengisian dialektika pada gelombang ketiga menyisakan dua cacat struktural.
+
+**Tidak lengkap.** 544 dari 569 skor sama sekali tidak punya `thesis_id`.
+Dialektika tanpa tesis bukan dialektika: pembaca hanya melihat kritik dan
+kesimpulan tanpa dalil yang dikritik.
+
+**Salah tempat.** Untuk skor negatif, yang ditulis di `antithesis_id` justru
+pembelaan resmi lembaga. Menurut skema, itu `thesis_id` — *"dalil yuridis
+formal / pembelaan kebijakan resmi lembaga pembuat keputusan"* — sedangkan
+`antithesis_id` adalah *"sanggahan kritis doktriner para pakar, dissenting
+opinion, dan realitas empiris lapangan"*. Isinya terbalik.
+
+Seluruh 8 organ dibereskan: **569 tesis ditulis** dan **77 antitesis yang
+berisi pembelaan dipindahkan ke tesis lalu diganti kritik yang sesungguhnya.**
+
+| Organ | Tesis ditulis | Antitesis ditukar |
+| --- | ---: | ---: |
+| Presiden | 117 | 20 |
+| DPR | 96 | 22 |
+| MK | 56 | 7 |
+| MA | 35 | 7 |
+| BPK | 47 | 4 |
+| KY | 47 | 3 |
+| DPD | 55 | 9 |
+| MPR + MPRS | 91 | 21 |
+
+Contoh perbaikan pada `asm-prabowo/sila-5`:
+
+- **Tesis** — "Pemerintah mendalilkan bahwa Makan Bergizi Gratis adalah program
+  redistribusi terbesar yang pernah dijalankan republik…"
+- **Antitesis** — "Putusan MK No. 40/PUU-XXIV/2026 menyatakan pembiayaannya
+  wajib dipisahkan dari anggaran pendidikan…"
+- **Sintesis** — "Skor Buruk (-1) karena keadilan sosial tidak sah bila
+  dibangun dengan memindahkan beban ke hak dasar lain."
+
+Pagar baru: build menolak skor dimensi yang tesis, antitesis, atau sintesisnya
+kosong; menolak tesis yang sama persis dengan rasional atau antitesis; dan
+tesis kini ikut diawasi ambang pengulangan >3 kali.
+
+## Gelombang ketujuh: pengungkapan AI yang tidak jujur tentang dirinya sendiri
+
+Enam gelombang sebelumnya membersihkan **isi** indeks. Gelombang ini
+membersihkan lapisan yang seharusnya paling jujur: pengungkapan AI itu sendiri.
+
+**Sertifikasi-mandiri kepatuhan hukum.** `article_50_compliant` bertipe
+`z.literal(true)` — secara tipe, ketidakpatuhan mustahil dinyatakan — dan UI
+menampilkannya sebagai lencana hijau *"EU AI Act Art. 50 Compliant"* pada 50
+penilaian. Tidak ada pihak ketiga yang pernah menilainya. Penerbit tidak boleh
+menyatakan dirinya patuh hukum; yang boleh dinyatakan hanya fakta yang dapat
+diperiksa. Diganti `article_50_disclosed` (pengungkapan sudah dilakukan) dan
+`independently_audited: false`. Lencana kini amber: *"Diungkap · belum diaudit
+independen"*.
+
+**Pengungkapan yang mengecilkan peran AI.** Dialog transparansi menyatakan AI
+*"hanya digunakan sebagai alat bantu klasifikasi heuristik dan sintesis awal
+dokumen"*. Terbalik dari kenyataan: model mengarang seluruh skor, rasional,
+tesis, antitesis, dan sintesis. Mengecilkan peran AI **di dalam lembar
+transparansi** adalah kebalikan dari transparansi. `analysis_type` juga
+menyimpan `llm-assisted-synthesis`, yang menyiratkan manusia sebagai penyusun;
+ditambahkan nilai jujur `llm-authored-draft`.
+
+**Default skema yang mengklaim verifikasi manusia.** Default
+`limitations_notice` berbunyi *"sepenuhnya diverifikasi oleh penelaah manusia"*
+padahal `approver_count = 0` di seluruh dataset. Ranjau diam: berlaku otomatis
+pada penilaian baru mana pun yang tidak menuliskan catatannya sendiri.
+
+**Skrip yang mengarang penelaah.** `enrich-milestones-eu-ai.mts` menulis
+`status: "verified"`, `approver_count: 2`, dan dua nama karangan — *"Pakar
+Hukum Tata Negara"* dan *"Penelaah Sejarah"*. Kombinasi itu **lolos validasi
+skema** karena jumlah nama cocok dengan hitungannya. Sekali skrip itu
+dijalankan ulang, seluruh remediasi enam gelombang terhapus diam-diam.
+
+Perbaikan lain pada gelombang ini:
+
+| Cacat | Sebelum | Sesudah |
+| --- | --- | --- |
+| Label sumber | "Dokumen Primer Terverifikasi" (648, nol `human_verified`) | "Dokumen Primer Tersitasi" + "33 belum terverifikasi" |
+| Angka prosa basi | 578 / 634 sumber, 695 / 636 peristiwa | dibaca dari `dataset.*.length` |
+| Penanda AI per dimensi | teks "belum ditinjau" dihardcode | dibaca dari `human_oversight` |
+| Sintesis pada cabang fallback | tidak pernah tampil | ikut tampil |
+| `*Human-in-the-Loop*` | asterisk tampil harfiah di JSX | `<em>` |
+
+Pagar baru (build guard 7b, diuji negatif — build gagal saat dilanggar) menolak
+`analysis_type` yang mengecilkan peran AI selagi `approver_count = 0`,
+`limitations_notice` yang mengklaim verifikasi manusia, dan
+`independently_audited` yang dinaikkan sendiri tanpa audit pihak ketiga.
+
+## Gelombang kedelapan: verifikasi 33 sumber & panen register JDIH
+
+**Verifikasi 33 sumber tak terverifikasi.** Diperiksa satu per satu, bukan
+dinaikkan statusnya begitu saja. 28 buku dicocokkan ke OneSearch/Perpusnas,
+OpenLibrary, dan Google Books; 23 ketemu (mayoritas padanan judul 1,00) dan
+kini membawa tautan rekaman katalog yang dapat dibuka, plus `author` dan
+`publisher` menurut katalog. Sebelumnya 14 di antaranya berURL
+`google.com/search?q=...` - URL pencarian bukan sitasi, dan pada 5 buku yang
+TIDAK ketemu placeholder itu dicabut tanpa diganti apa pun.
+
+Tier baru **`catalog_verified`**: metadata cocok dengan katalog perpustakaan
+publik - membuktikan karyanya ada dan metadatanya benar, bukan membuktikan
+isinya. Buku tidak pernah boleh berstatus `official_source`; ia literatur
+ilmiah, bukan dokumen resmi negara.
+
+Temuan sampingan: seluruh domain `kemdikbud.go.id` sudah mati (kementerian
+menjadi Kemendikdasmen), dan `pusako.or.id` memang salah - PUSaKO berada di
+`pusako.unand.ac.id`. Hasil akhir: 23 catalog_verified, 2 naik
+official_source, **8 jujur tetap unverified**.
+
+**Panen register JDIH.** 9.827 peraturan dipanen langsung dari
+`peraturan.bpk.go.id` (JDIH BPK, 308.200 peraturan). Peristiwa 711 -> 10.533,
+sumber 648 -> 10.475. Tiap entri membawa metadata yang dapat diperiksa sendiri:
+judul resmi, nomor, tanggal penetapan dan pengundangan, sitasi Lembaran
+Negara/TLN berikut jumlah halaman, status berlaku, dan tautan PDF resmi.
+Ringkasannya hanya menyusun ulang metadata itu - tidak ada kalimat analisis
+yang dikarang.
+
+| Instrumen | Jumlah | Diatribusikan ke |
+| --- | ---: | --- |
+| UU | 1.838 | periode DPR (produk legislatif) |
+| Perpu | 170 | masa jabatan Presiden |
+| UU Darurat | 174 | masa jabatan Presiden |
+| PP / Perpres / Keppres / Inpres | 7.639 | masa jabatan Presiden |
+| TAP MPR | 2 | masa jabatan MPR |
+
+Field baru `provenance` membedakan `kurasi` dari `register-jdih`, dan **pagar
+build 5c menolak entri register dipakai sebagai bukti skor tanpa kurasi
+eksplisit**. Tanpa itu, ribuan peraturan tarif dan pengangkatan pejabat akan
+tampak seolah bukti empiris penilaian konstitusional - itu pengisian metrik,
+bukan bukti.
+
+**Penilaian ulang DPR Orde Baru.** `asm-dpr-1971-1999` hanya punya 2 skor
+dimensi untuk 28 tahun - rasio tertipis di seluruh indeks - dan keduanya
+positif, keduanya bersumber dari 1998, bulan-bulan terakhir masa jabatannya.
+Skor `negara-hukum` +1 bahkan bertentangan dengan antitesisnya sendiri.
+
+Dinilai ulang menjadi 5 dimensi, rata-rata **+1,00 -> -1,80**, dengan lima
+peraturan Orde Baru yang dinaikkan ke `kurasi` sebagai bukti: UU 3/1975
+(peleburan paksa sembilan partai), UU 16/1975 (kursi pengangkatan), UU 15/1975,
+UU 31/1997 (peradilan militer), UU 5/1999 (pencabutan UU Referendum 1985).
+Temuan empiris yang baru terlihat dari korpus: laju **8,9 UU per tahun**,
+terendah dari sepuluh periode DPR dan seperlima parlemen 1950-an.
+
+Catatan metodologis penting: **volume bukan mutu.** Perpu Soeharto justru
+rendah (0,26/tahun) karena DPR-nya patuh - angka rendah di sini bukan tanda
+menahan diri. Sebaliknya 120 Perpu Soekarno II (15,6/tahun) *mengukuhkan*
+skor -2 yang sudah ada, bukan mengubahnya.
+
+**Atribusi model.** Penulis utama kini `claude-opus-5` (Anthropic, tingkat
+penalaran `max`) karena seluruh isi penilaian sudah ditulis ulang pada
+gelombang 1-7. Draf Gemini 3.8 Flash High disimpan di `prior_draft`, bukan
+dihapus: provenance adalah fakta.
 
 ## Sisa pekerjaan (butuh manusia, bukan model)
 

@@ -1,6 +1,6 @@
 "use client";
 
-import type { DimensionScore, Source } from "@pancasila-index/core";
+import type { AiDisclosure, DimensionScore, Source } from "@pancasila-index/core";
 import {
   IconQuote,
   IconScale,
@@ -13,9 +13,11 @@ import {
 interface Props {
   dimensionScore: DimensionScore;
   sources: Source[];
+  /** Dipakai untuk membaca status telaah manusia yang sebenarnya, bukan menebaknya. */
+  disclosure?: AiDisclosure;
 }
 
-export function DialecticalRationale({ dimensionScore, sources }: Props) {
+export function DialecticalRationale({ dimensionScore, sources, disclosure }: Props) {
   const {
     rationale_id,
     thesis_id,
@@ -25,7 +27,10 @@ export function DialecticalRationale({ dimensionScore, sources }: Props) {
   } = dimensionScore;
 
   const hasStructuredDialectic =
-    Boolean(thesis_id) || Boolean(antithesis_id) || expert_quotes.length > 0;
+    Boolean(thesis_id) ||
+    Boolean(antithesis_id) ||
+    Boolean(synthesis_id) ||
+    expert_quotes.length > 0;
 
   /*
    * Penanda AI menempel pada blok analisisnya sendiri, bukan hanya tersembunyi
@@ -33,10 +38,22 @@ export function DialecticalRationale({ dimensionScore, sources }: Props) {
    * memang disusun model AI - yang wajib adalah pembacanya tahu itu di tempat
    * ia membaca analisisnya.
    */
+  const ho = disclosure?.human_oversight;
+  const ditinjauManusia = ho?.status === "verified" && (ho?.approvers?.length ?? 0) > 0;
+
   const aiMarker = (
-    <div className="flex items-center gap-1.5 text-[10px] font-mono uppercase tracking-wider text-[var(--muted)]">
+    <div
+      className={`flex items-center gap-1.5 text-[10px] font-mono uppercase tracking-wider ${
+        ditinjauManusia ? "text-[var(--muted)]" : "text-amber-600 dark:text-amber-400"
+      }`}
+    >
       <IconBot size={12} className="shrink-0" />
-      <span>Analisis &amp; skor disusun AI · belum ditinjau penelaah manusia</span>
+      <span>
+        Analisis &amp; skor disusun AI ·{" "}
+        {ditinjauManusia
+          ? `ditinjau ${ho!.approvers.length} penelaah manusia`
+          : "belum ditinjau penelaah manusia"}
+      </span>
     </div>
   );
 

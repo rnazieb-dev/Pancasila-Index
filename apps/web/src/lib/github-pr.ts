@@ -1,4 +1,7 @@
-import { appendSource, addEvidence, yamlDapatDiurai } from "@pancasila-index/data";
+// Subpath sengaja: lewat "@pancasila-index/data" impor ini ikut menarik
+// generated/dataset.json (15 MB) yang harus ditransform vite dan divalidasi
+// Zod, padahal ketiganya fungsi string murni tanpa sentuhan dataset.
+import { appendSource, addEvidence, yamlDapatDiurai } from "@pancasila-index/data/yaml-edit";
 import type { UsulanRow } from "@/lib/usulan-store";
 import { buildUsulanPatch } from "@/lib/usulan-patch";
 

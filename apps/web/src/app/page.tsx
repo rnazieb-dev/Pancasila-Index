@@ -88,7 +88,7 @@ export default function Beranda() {
       value: dataset.events.length,
       label: t("statEvents"),
       explain:
-        "695 peristiwa terdokumentasi yang dipakai sebagai bukti penilaian, masing-masing bersitasi sumber primer.",
+        `${dataset.events.length} peristiwa terdokumentasi yang dipakai sebagai bukti penilaian, masing-masing bersitasi sumber primer.`,
       href: "/timeline",
       hrefLabel: "Jelajahi linimasa peristiwa",
     },
@@ -96,7 +96,7 @@ export default function Beranda() {
       value: dataset.sources.length,
       label: t("statSources"),
       explain:
-        "634 dokumen sumber primer — undang-undang, putusan pengadilan, risalah sidang, laporan resmi lembaga negara — yang disitir sebagai bukti.",
+        `${dataset.sources.length} dokumen sumber primer — undang-undang, putusan pengadilan, risalah sidang, laporan resmi lembaga negara — yang disitir sebagai bukti.`,
       href: "/ekspor",
       hrefLabel: "Unduh daftar sumber",
     },
