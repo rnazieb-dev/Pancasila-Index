@@ -7,7 +7,7 @@
 #
 # Skala per dimensi: -2 .. +2
 #   -2 = melanggar berat   -1 = menggerus   0 = netral/tidak signifikan
-#   +1 = memperkuat        +2 = selaras penuh / teladan
+#   +1 = memperkuat        +2 = selaras penuh
 #
 # ARTI 0 DIPERSEMPIT. Nilai 0 berarti TIDAK ADA TINDAKAN SIGNIFIKAN. Ia BUKAN
 # untuk kasus tarik-menarik. Bila satu masa jabatan menguatkan sekaligus
@@ -104,7 +104,7 @@ dimensions:
         Penegakan hukum HAM konkret; pemulihan korban; pembatasan hak hanya
         dengan dasar kuat, terukur, dan dapat diuji.
       "2": >-
-        Penguatan teladan perlindungan HAM; rekonsiliasi berbasis kebenaran
+        Penguatan penuh perlindungan HAM; rekonsiliasi berbasis kebenaran
         dan keadilan yang menyentuh akar masalah.
     indicators:
       - id: sila-2-hak-hidup
@@ -136,7 +136,7 @@ dimensions:
         Penguatan otonomi daerah dan keadilan antarwilayah; pengelolaan
         konflik secara adil dan damai.
       "2": >-
-        Konsolidasi persatuan teladan: keadilan antarwilayah disertai
+        Konsolidasi persatuan menyeluruh: keadilan antarwilayah disertai
         penghargaan penuh terhadap kebinekaan.
     indicators:
       - id: sila-3-otonomi-daerah
@@ -168,7 +168,7 @@ dimensions:
       "1": >-
         Praktik demokrasi berjalan baik; kebebasan sipil dilindungi; musyawarah dan partisipasi publik dalam kebijakan nyata.
       "2": >-
-        Konsensus beradab teladan: pertentangan tajam diselesaikan melalui musyawarah mufakat dengan kedalaman etika (hikmat kebijaksanaan) para negarawan.
+        Konsensus beradab penuh: pertentangan tajam diselesaikan melalui musyawarah mufakat dengan kedalaman etika (hikmat kebijaksanaan) para negarawan.
     indicators:
       - id: sila-4-musyawarah-mufakat
         name_id: Praktik musyawarah mufakat & etika kenegarawanan (hikmat kebijaksanaan)
@@ -200,7 +200,7 @@ dimensions:
         Perluasan jaminan sosial nyata; pengentasan kemiskinan berbasis
         data; kesempatan kerja layak meningkat.
       "2": >-
-        Keadilan sosial teladan: distribusi merata lintas wilayah/kelompok
+        Keadilan sosial menyeluruh: distribusi merata lintas wilayah/kelompok
         dan berkelanjutan secara fiskal.
     indicators:
       - id: sila-5-penguasaan-negara
@@ -235,7 +235,7 @@ dimensions:
         Perlindungan warga efektif dalam krisis; profesionalisme pertahanan-
         keamanan meningkat dengan kontrol sipil sehat.
       "2": >-
-        Perlindungan teladan: tangguh terhadap ancaman nyata, tunduk pada
+        Perlindungan penuh: tangguh terhadap ancaman nyata, tunduk pada
         hukum, dan berpihak pada keselamatan warga.
     indicators:
       - id: tujuan-1-pertahanan
@@ -268,7 +268,7 @@ dimensions:
         Layanan dasar membaik dan terjangkau; belanja tepat sasaran;
         transparansi anggaran meningkat.
       "2": >-
-        Kesejahteraan umum teladan: hasil pembangunan dirasakan merata dan
+        Kesejahteraan umum menyeluruh: hasil pembangunan dirasakan merata dan
         terverifikasi data independen.
     indicators:
       - id: tujuan-2-layanan-dasar
@@ -301,7 +301,7 @@ dimensions:
         Akses dan mutu pendidikan membaik; anggaran 20% dipenuhi dengan
         kualitas output yang terukur.
       "2": >-
-        Pencerdasan teladan: hasil belajar dunia, kebebasan akademik
+        Pencerdasan menyeluruh: hasil belajar dunia, kebebasan akademik
         terjaga, riset dan budaya berkembang.
     indicators:
       - id: tujuan-3-pendidikan
@@ -334,7 +334,7 @@ dimensions:
         Diplomasi bebas-aktif produktif; partisipasi perdamaian PBB;
         ratifikasi instrumen HAM internasional.
       "2": >-
-        Teladan internasional: jangkar perdamaian regional dan advokat
+        Kepeloporan internasional: jangkar perdamaian regional dan advokat
         keadilan global yang konsisten.
     indicators:
       - id: tujuan-4-bebas-aktif
@@ -369,7 +369,7 @@ dimensions:
         Kasus penting ditangani tanpa pandang bulu; kepastian hukum
         meningkat.
       "2": >-
-        Supremasi hukum teladan: siapa pun dapat diaudit/ditindak, proses
+        Supremasi hukum penuh: siapa pun dapat diaudit/ditindak, proses
         hukum transparan.
     indicators:
       - id: negara-hukum-supremasi
@@ -402,7 +402,7 @@ dimensions:
         Putusan MK/MA dihormati; fungsi pengawasan DPR/KY/BPK berjalan;
         proses legislasi patuh prosedur.
       "2": >-
-        Checks and balances teladan: ketaatan konstitusional tinggi dan
+        Checks and balances penuh: ketaatan konstitusional tinggi dan
         transparansi antarlembaga melembaga.
     indicators:
       - id: cb-ketaatan-putusan
@@ -435,7 +435,7 @@ dimensions:
         Pemilihan berkala bebas-rahasia-jujur-adil; aspirasi publik
         tercermin dalam kebijakan.
       "2": >-
-        Kedaulatan rakyat teladan: keterbukaan informasi dan akuntabilitas
+        Kedaulatan rakyat penuh: keterbukaan informasi dan akuntabilitas
         langsung kepada publik melembaga.
     indicators:
       - id: kr-pemilu

@@ -22,7 +22,7 @@
         - ev-habibie-tap-xvii
         - ev-habibie-kemerdekaan-sipil
       antithesis_id: "Pencabutan hambatan formal tidak disertai pembongkaran kerangka hukum diskriminatif warisan Orde Baru: UU No. 1/PNPS/1965 dan rezim izin rumah ibadah dibiarkan utuh, sementara tidak satu pun kasus kekerasan berlatar agama dari periode sebelumnya dibawa ke pengadilan."
-      synthesis_id: Skor Baik (+1) karena ruang kebebasan beragama benar-benar terbuka dalam 17 bulan transisi, tetapi belum teladan karena yang dibongkar adalah praktik represifnya, bukan instrumen hukum yang memungkinkannya.
+      synthesis_id: Skor Baik (+1) karena ruang kebebasan beragama benar-benar terbuka dalam 17 bulan transisi, tetapi belum selaras penuh karena yang dibongkar adalah praktik represifnya, bukan instrumen hukum yang memungkinkannya.
       thesis_id: Pemerintah menyatakan telah memulihkan kebebasan beragama dengan mencabut pengawasan aliran kepercayaan dan membebaskan tahanan politik berlatar keyakinan, sesuai TAP MPR No. XVII/MPR/1998 yang menempatkan kebebasan beragama sebagai hak asasi yang diakui negara.
     - dimension_id: sila-2
       score: 0
@@ -51,7 +51,7 @@
       normative_anchors:
         - uud-nri-1945
       antithesis_id: Desentralisasi dirancang tergesa tanpa peta kapasitas fiskal daerah, dan opsi jajak pendapat Timor Timur diambil tanpa persiapan pengamanan sehingga berujung kekerasan milisi pasca-pemungutan suara serta hilangnya satu provinsi dari wilayah negara.
-      synthesis_id: Skor Baik (+1) karena persatuan dipilih untuk dijaga lewat pengakuan keragaman dan bukan lewat represi, meski harga politik dan korban di Timor Timur menahannya jauh dari nilai teladan.
+      synthesis_id: Skor Baik (+1) karena persatuan dipilih untuk dijaga lewat pengakuan keragaman dan bukan lewat represi, meski harga politik dan korban di Timor Timur menahannya jauh dari nilai selaras penuh.
       thesis_id: "Pemerintah mendalilkan bahwa persatuan dijaga dengan mengganti pendekatan represif menjadi pengakuan keragaman: otonomi daerah diberlakukan lewat UU No. 22 Tahun 1999 dan status Timor Timur diserahkan pada kehendak rakyatnya sendiri melalui jajak pendapat yang disepakati internasional."
     - dimension_id: sila-4
       score: 2
@@ -68,7 +68,7 @@
         - uud-nri-1945
       thesis_id: Pemerintahan Habibie berketetapan memulihkan legitimasi negara melalui pembebasan tahanan politik, pencabutan izin pembredelan pers, dan penyelenggaraan pemilu multipartai paling bebas sejak 1955.
       antithesis_id: Kritik dialamatkan pada proses pembahasan yang terburu-buru dan penolakan pertanggungjawaban di Sidang Umum MPR 1999 akibat persoalan lepasnya Timor Timur.
-      synthesis_id: Skor teladan (+2) diberikan karena UU Pers 40/1999 dan pemilu bebas 1999 meletakkan fondasi permanen bagi pemulihan kedaulatan rakyat pasca-Orba.
+      synthesis_id: Skor Sangat Baik (+2) diberikan karena UU Pers 40/1999 dan pemilu bebas 1999 meletakkan fondasi permanen bagi pemulihan kedaulatan rakyat pasca-Orba.
     - dimension_id: sila-5
       score: 1
       confidence: 0.85
@@ -244,7 +244,7 @@
         - uud-nri-1945
       thesis_id: Presiden Abdurrahman Wahid (Gus Dur) menerbitkan Keppres No. 6/2000 untuk mencabut Inpres 14/1967 tentang Pembatasan Agama, Kepercayaan, dan Adat Istiadat Cina, serta menetapkan Tahun Baru Imlek sebagai hari libur fakultatif.
       antithesis_id: Langkah progresif ini sempat menghadapi resistensi dari kelompok puritan dan aparat birokrasi Orba yang menganggap pengakuan ekspresi budaya Tionghoa dapat mengancam asimilasi nasional.
-      synthesis_id: Skor teladan (+2) diberikan karena pemulihan hak-hak sipil penganut Konghucu dan minoritas etnis merupakan pengejawantahan sejati Sila Ketuhanan Yang Maha Esa yang adil dan beradab.
+      synthesis_id: Skor Sangat Baik (+2) diberikan karena pemulihan hak-hak sipil penganut Konghucu dan minoritas etnis merupakan pengejawantahan sejati Sila Ketuhanan Yang Maha Esa yang adil dan beradab.
     - dimension_id: sila-2
       score: 0
       confidence: 0.85
@@ -4263,7 +4263,7 @@
     - dimension_id: sila-4
       score: 1
       confidence: 0.85
-      rationale_id: Menurunkan ambang batas pencalonan pilkada untuk membuka kompetisi demokratis dan melawan kartel politik. Diperkuat Putusan 282/PUU-XXIII/2025 (28 Agustus 2026) yang membatalkan Pasal 240 beserta Penjelasan dan Pasal 241 KUHP, sehingga kritik terhadap pemerintah dan lembaga negara tidak lagi dapat dipidana. Skor ditahan di +1 dan tidak dinaikkan ke +2 karena pada masa jabatan yang sama dimensi negara-hukum, checks-balances, dan kedaulatan-rakyat masing-masing bernilai -1 sebagai warisan krisis etik 2023; penguatan kebebasan sipil ini belum cukup menjadikan keseluruhan dimensi kerakyatan bersifat teladan. Kenaikan skor adalah keputusan kurator, bukan konsekuensi otomatis satu putusan.
+      rationale_id: Menurunkan ambang batas pencalonan pilkada untuk membuka kompetisi demokratis dan melawan kartel politik. Diperkuat Putusan 282/PUU-XXIII/2025 (28 Agustus 2026) yang membatalkan Pasal 240 beserta Penjelasan dan Pasal 241 KUHP, sehingga kritik terhadap pemerintah dan lembaga negara tidak lagi dapat dipidana. Skor ditahan di +1 dan tidak dinaikkan ke +2 karena pada masa jabatan yang sama dimensi negara-hukum, checks-balances, dan kedaulatan-rakyat masing-masing bernilai -1 sebagai warisan krisis etik 2023; penguatan kebebasan sipil ini belum cukup menjadikan keseluruhan dimensi kerakyatan bersifat selaras penuh. Kenaikan skor adalah keputusan kurator, bukan konsekuensi otomatis satu putusan.
       evidence:
         - source_id: putusan-mk-60-puu-xxii-2024
         - source_id: putusan-mk-116-puu-xxi-2023
@@ -9437,7 +9437,7 @@
         - ev-mpr-tap-xvii-1998
         - ev-tap-mpr-xi-1998-pemberantasan-kkn
       antithesis_id: Agenda pembenahan pendidikan dirumuskan di ujung periode, sementara sepanjang tiga dasawarsa sebelumnya MPR justru mengesahkan penataran P4 yang menjadikan pendidikan sarana penyeragaman ideologi.
-      synthesis_id: Skor Baik (+1) karena pembenahan menyeluruh sektor pendidikan ditetapkan sebagai agenda reformasi yang mengikat, tetapi tidak teladan karena selama dua dasawarsa sebelumnya MPR justru mewajibkan penataran P4 yang menjadikan pendidikan sarana penyeragaman ideologi.
+      synthesis_id: Skor Baik (+1) karena pembenahan menyeluruh sektor pendidikan ditetapkan sebagai agenda reformasi yang mengikat, tetapi tidak selaras penuh karena selama dua dasawarsa sebelumnya MPR justru mewajibkan penataran P4 yang menjadikan pendidikan sarana penyeragaman ideologi.
       thesis_id: "Dalil formal MPR: TAP MPR No. X/MPR/1998 tentang pokok-pokok reformasi pembangunan memuat agenda pembenahan pendidikan nasional pasca-Orde Baru."
     - dimension_id: tujuan-4
       score: 0
@@ -9470,7 +9470,7 @@
         - ev-mpr-tap-xvii-1998
         - ev-mpr-tap-xxxiii-1967
       antithesis_id: Pemulihan pembatasan kekuasaan datang setelah Presiden yang dibatasi sudah lengser, sehingga MPR mengoreksi ketika koreksi itu tidak lagi berisiko - bukti bahwa lembaga ini mengikuti alih-alih memimpin perubahan.
-      synthesis_id: Skor Baik (+1) karena ketetapan yang memberi kekuasaan tak terbatas kepada Presiden akhirnya dicabut dan asas penyelenggara negara bebas KKN ditetapkan, tetapi tidak teladan karena koreksi itu baru diambil setelah rezimnya lengser - selama 27 tahun MPR justru mengesahkan seluruh produk hukum yang melanggengkannya.
+      synthesis_id: Skor Baik (+1) karena ketetapan yang memberi kekuasaan tak terbatas kepada Presiden akhirnya dicabut dan asas penyelenggara negara bebas KKN ditetapkan, tetapi tidak selaras penuh karena koreksi itu baru diambil setelah rezimnya lengser - selama 27 tahun MPR justru mengesahkan seluruh produk hukum yang melanggengkannya.
       thesis_id: "Dalil formal MPR: Sidang Istimewa November 1998 mencabut ketetapan pemberian kekuasaan khusus kepada Presiden dan menetapkan asas penyelenggara negara bebas KKN."
     - dimension_id: kedaulatan-rakyat
       score: -2

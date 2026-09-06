@@ -133,7 +133,7 @@ export function scoreQualLabel(index: number | null): QualLabel {
   if (index === null)
     return { label: "Belum Dinilai", color: "var(--score-zero)", bg: "var(--score-zero-bg)" };
   if (index >= 75)
-    return { label: "Teladan / Progresif", color: "var(--score-vpos)", bg: "var(--score-vpos-bg)" };
+    return { label: "Selaras Penuh", color: "var(--score-vpos)", bg: "var(--score-vpos-bg)" };
   if (index >= 56)
     return { label: "Penguatan Konkret", color: "var(--score-pos)", bg: "var(--score-pos-bg)" };
   if (index >= 46)
