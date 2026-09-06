@@ -346,6 +346,70 @@ Pagar baru (build guard 7b, diuji negatif — build gagal saat dilanggar) menola
 `limitations_notice` yang mengklaim verifikasi manusia, dan
 `independently_audited` yang dinaikkan sendiri tanpa audit pihak ketiga.
 
+## Gelombang kedelapan: verifikasi 33 sumber & panen register JDIH
+
+**Verifikasi 33 sumber tak terverifikasi.** Diperiksa satu per satu, bukan
+dinaikkan statusnya begitu saja. 28 buku dicocokkan ke OneSearch/Perpusnas,
+OpenLibrary, dan Google Books; 23 ketemu (mayoritas padanan judul 1,00) dan
+kini membawa tautan rekaman katalog yang dapat dibuka, plus `author` dan
+`publisher` menurut katalog. Sebelumnya 14 di antaranya berURL
+`google.com/search?q=...` - URL pencarian bukan sitasi, dan pada 5 buku yang
+TIDAK ketemu placeholder itu dicabut tanpa diganti apa pun.
+
+Tier baru **`catalog_verified`**: metadata cocok dengan katalog perpustakaan
+publik - membuktikan karyanya ada dan metadatanya benar, bukan membuktikan
+isinya. Buku tidak pernah boleh berstatus `official_source`; ia literatur
+ilmiah, bukan dokumen resmi negara.
+
+Temuan sampingan: seluruh domain `kemdikbud.go.id` sudah mati (kementerian
+menjadi Kemendikdasmen), dan `pusako.or.id` memang salah - PUSaKO berada di
+`pusako.unand.ac.id`. Hasil akhir: 23 catalog_verified, 2 naik
+official_source, **8 jujur tetap unverified**.
+
+**Panen register JDIH.** 9.827 peraturan dipanen langsung dari
+`peraturan.bpk.go.id` (JDIH BPK, 308.200 peraturan). Peristiwa 711 -> 10.533,
+sumber 648 -> 10.475. Tiap entri membawa metadata yang dapat diperiksa sendiri:
+judul resmi, nomor, tanggal penetapan dan pengundangan, sitasi Lembaran
+Negara/TLN berikut jumlah halaman, status berlaku, dan tautan PDF resmi.
+Ringkasannya hanya menyusun ulang metadata itu - tidak ada kalimat analisis
+yang dikarang.
+
+| Instrumen | Jumlah | Diatribusikan ke |
+| --- | ---: | --- |
+| UU | 1.838 | periode DPR (produk legislatif) |
+| Perpu | 170 | masa jabatan Presiden |
+| UU Darurat | 174 | masa jabatan Presiden |
+| PP / Perpres / Keppres / Inpres | 7.639 | masa jabatan Presiden |
+| TAP MPR | 2 | masa jabatan MPR |
+
+Field baru `provenance` membedakan `kurasi` dari `register-jdih`, dan **pagar
+build 5c menolak entri register dipakai sebagai bukti skor tanpa kurasi
+eksplisit**. Tanpa itu, ribuan peraturan tarif dan pengangkatan pejabat akan
+tampak seolah bukti empiris penilaian konstitusional - itu pengisian metrik,
+bukan bukti.
+
+**Penilaian ulang DPR Orde Baru.** `asm-dpr-1971-1999` hanya punya 2 skor
+dimensi untuk 28 tahun - rasio tertipis di seluruh indeks - dan keduanya
+positif, keduanya bersumber dari 1998, bulan-bulan terakhir masa jabatannya.
+Skor `negara-hukum` +1 bahkan bertentangan dengan antitesisnya sendiri.
+
+Dinilai ulang menjadi 5 dimensi, rata-rata **+1,00 -> -1,80**, dengan lima
+peraturan Orde Baru yang dinaikkan ke `kurasi` sebagai bukti: UU 3/1975
+(peleburan paksa sembilan partai), UU 16/1975 (kursi pengangkatan), UU 15/1975,
+UU 31/1997 (peradilan militer), UU 5/1999 (pencabutan UU Referendum 1985).
+Temuan empiris yang baru terlihat dari korpus: laju **8,9 UU per tahun**,
+terendah dari sepuluh periode DPR dan seperlima parlemen 1950-an.
+
+Catatan metodologis penting: **volume bukan mutu.** Perpu Soeharto justru
+rendah (0,26/tahun) karena DPR-nya patuh - angka rendah di sini bukan tanda
+menahan diri. Sebaliknya 120 Perpu Soekarno II (15,6/tahun) *mengukuhkan*
+skor -2 yang sudah ada, bukan mengubahnya.
+
+**Atribusi model.** Penulis utama kini `claude-opus-5` (Anthropic, tingkat
+penalaran `max`) karena seluruh isi penilaian sudah ditulis ulang pada
+gelombang 1-7. Draf Gemini 3.8 Flash High disimpan di `prior_draft`, bukan
+dihapus: provenance adalah fakta.
+
 ## Sisa pekerjaan (butuh manusia, bukan model)
 
 - **Menelaah 201 skor hasil rescoring AI.** Seluruhnya sudah disetel ulang

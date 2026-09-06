@@ -167,6 +167,16 @@ Status: ✅ selesai · 🚧 berjalan · ⬜ belum
       `enrich-milestones-eu-ai.mts` yang mengarang dua nama penelaah lengkap
       dengan `approver_count: 2` — kombinasi yang lolos validasi skema dan
       sekali dijalankan ulang akan menghapus seluruh remediasi diam-diam.
+- [x] **Fase 20: Verifikasi 33 sumber, panen register JDIH, penilaian ulang** ✅
+      33 sumber `unverified` diperiksa satu per satu terhadap katalog publik:
+      23 `catalog_verified` (tier baru), 2 naik `official_source`, 8 jujur
+      tetap unverified. 9.827 peraturan dipanen dari peraturan.bpk.go.id -
+      peristiwa 711 -> 10.533, sumber 648 -> 10.475 - seluruhnya bersitasi
+      Lembaran Negara dan bertautan PDF resmi. Field `provenance` memisahkan
+      `kurasi` dari `register-jdih`; pagar 5c melarang entri register jadi
+      bukti skor tanpa kurasi eksplisit. DPR Orde Baru (2 dimensi untuk 28
+      tahun, keduanya positif) dinilai ulang jadi 5 dimensi, +1,00 -> -1,80.
+      Atribusi model: `claude-opus-5` (max), Gemini disimpan di `prior_draft`.
 
 ## Definisi Selesai v1.0 (TERCAPAI PENUH ✅)
 
