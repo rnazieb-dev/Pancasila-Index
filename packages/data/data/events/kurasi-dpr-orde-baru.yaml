@@ -1,0 +1,64 @@
+# Peristiwa terkurasi: rekam jejak legislatif DPR Orde Baru 1971-1999.
+# Dinaikkan dari register JDIH dan ditulis ulang sebagai analisis, sehingga
+# sah dipakai sebagai bukti skor dimensi (lihat pagar 5c di build.mts).
+- id: "ev-jdih-uu-3-1975"
+  term_id: "dpr-1971-1999"
+  date: "1975-08-27"
+  category: "produk-hukum"
+  title_id: "UU No. 3 Tahun 1975 tentang Partai Politik dan Golongan Karya"
+  summary_id: "DPR mengesahkan peleburan paksa sembilan partai hasil Pemilu 1971 menjadi hanya dua - PPP dan PDI - sementara Golongan Karya dibiarkan berdiri di luar kategori partai dan tetap ditopang aparat negara serta korps pegawai negeri. Kontestasi tidak dilarang, melainkan dikurung: rakyat tetap memilih, tetapi hanya dari daftar yang sudah ditentukan negara. Undang-undang inilah fondasi legal yang membuat enam pemilu berikutnya (1977-1997) menghasilkan komposisi yang praktis sama, dan DPR yang mengesahkannya adalah DPR yang diuntungkan olehnya."
+  source_ids:
+    - "jdih-uu-3-1975"
+  dimension_ids:
+    - "kedaulatan-rakyat"
+    - "sila-4"
+    - "checks-balances"
+  provenance: "kurasi"
+- id: "ev-jdih-uu-15-1975"
+  term_id: "dpr-1971-1999"
+  date: "1975-11-24"
+  category: "produk-hukum"
+  title_id: "UU No. 15 Tahun 1975 tentang Perubahan Undang-Undang Nomor 15 Tahun 1969 tentang Pemilihan Umum Angota-Anggota Badan Permusyawaratan/Perwakilan Rakyat"
+  summary_id: "Perubahan UU Pemilihan Umum ini melengkapi UU 3/1975: setelah peserta pemilu dibatasi jadi dua partai plus Golkar, aturan teknis penyelenggaraannya pun ditempatkan di bawah kendali pemerintah, dari pendaftaran pemilih hingga penghitungan suara. Pemilu tetap diselenggarakan tepat waktu setiap lima tahun - keteraturan prosedural yang justru menjadi tameng: yang rutin dijalankan adalah tata caranya, bukan kompetisinya."
+  source_ids:
+    - "jdih-uu-15-1975"
+  dimension_ids:
+    - "kedaulatan-rakyat"
+    - "sila-4"
+  provenance: "kurasi"
+- id: "ev-jdih-uu-16-1975"
+  term_id: "dpr-1971-1999"
+  date: "1975-11-24"
+  category: "produk-hukum"
+  title_id: "UU No. 16 Tahun 1975 tentang Perubahan Undang-Undang Nomor 16 Tahun 1969 tentang Susunan dan Kedudukan Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat dan Dewan Perwakilan Rakyat Daerah"
+  summary_id: "Perubahan atas UU 16/1969 mempertahankan kursi yang diisi lewat pengangkatan - terutama jatah ABRI - di MPR, DPR, dan DPRD, sehingga sebagian wakil rakyat tidak pernah melewati kotak suara. Akibatnya sebuah lembaga yang secara konstitusional bersandar pada kedaulatan rakyat menyimpan blok permanen yang loyalitasnya kepada pengangkat, bukan pemilih. DPR menyetujui sendiri aturan yang menentukan siapa boleh duduk di dalamnya."
+  source_ids:
+    - "jdih-uu-16-1975"
+  dimension_ids:
+    - "kedaulatan-rakyat"
+    - "checks-balances"
+  provenance: "kurasi"
+- id: "ev-jdih-uu-31-1997"
+  term_id: "dpr-1971-1999"
+  date: "1997-10-15"
+  category: "produk-hukum"
+  title_id: "UU No. 31 Tahun 1997 tentang Peradilan Militer"
+  summary_id: "UU Peradilan Militer menegaskan bahwa prajurit yang melakukan tindak pidana diadili di lingkungan peradilan militer, termasuk untuk perbuatan yang korbannya warga sipil. Di masa ketika operasi keamanan berlangsung di Aceh, Papua, dan Timor Timur, forum itu menentukan hasil: penyidik, penuntut, dan hakimnya berada dalam satu rantai komando dengan terdakwa. Disahkan pada Oktober 1997, tujuh bulan sebelum kerusuhan Mei 1998 - dan menjadi salah satu sebab mengapa pertanggungjawaban atas kekerasan periode itu tidak pernah sampai ke pengadilan umum."
+  source_ids:
+    - "jdih-uu-31-1997"
+  dimension_ids:
+    - "negara-hukum"
+    - "sila-2"
+  provenance: "kurasi"
+- id: "ev-jdih-uu-5-1999"
+  term_id: "dpr-1971-1999"
+  date: "1999-03-23"
+  category: "produk-hukum"
+  title_id: "UU No. 5 Tahun 1999 tentang Pencabutan Undang-Undang Nomor 5 Tahun 1985 tentang Referendum"
+  summary_id: "Pencabutan UU 5/1985 tentang Referendum - undang-undang yang mensyaratkan referendum dengan ambang persetujuan sangat tinggi sebelum UUD 1945 boleh diubah, dan karenanya secara praktis membekukan konstitusi selama empat belas tahun. Pencabutannya pada Maret 1999 membuka jalan bagi empat kali amandemen 1999-2002. Peristiwa ini merugikan sekaligus meringankan DPR periode ini: ia yang mengesahkan pembekuan itu pada 1985, dan ia pula - dalam bulan-bulan terakhirnya, di bawah tekanan reformasi - yang mencabutnya."
+  source_ids:
+    - "jdih-uu-5-1999"
+  dimension_ids:
+    - "kedaulatan-rakyat"
+    - "negara-hukum"
+  provenance: "kurasi"

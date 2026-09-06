@@ -8,6 +8,7 @@
   "types": "./src/index.ts",
   "exports": {
     ".": "./src/index.ts",
+    "./yaml-edit": "./src/yaml-edit.ts",
     "./generated/dataset.json": "./generated/dataset.json"
   },
   "scripts": {

@@ -1572,36 +1572,6 @@
     - "jdih-uu-2-1975"
   dimension_ids: []
   provenance: "register-jdih"
-- id: "ev-jdih-uu-3-1975"
-  term_id: "dpr-1971-1999"
-  date: "1975-08-27"
-  category: "produk-hukum"
-  title_id: "UU No. 3 Tahun 1975 tentang Partai Politik dan Golongan Karya"
-  summary_id: "Ditetapkan di Jakarta pada 27 Agustus 1975, diundangkan pada tanggal yang sama. Materi yang diatur: Partai Politik dan Golongan Karya. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-3-1975"
-  dimension_ids: []
-  provenance: "register-jdih"
-- id: "ev-jdih-uu-15-1975"
-  term_id: "dpr-1971-1999"
-  date: "1975-11-24"
-  category: "produk-hukum"
-  title_id: "UU No. 15 Tahun 1975 tentang Perubahan Undang-Undang Nomor 15 Tahun 1969 tentang Pemilihan Umum Angota-Anggota Badan Permusyawaratan/Perwakilan Rakyat"
-  summary_id: "Ditetapkan di Jakarta pada 24 November 1975, diundangkan pada tanggal yang sama. Materi yang diatur: Perubahan Undang-Undang Nomor 15 Tahun 1969 tentang Pemilihan Umum Angota-Anggota Badan Permusyawaratan/Perwakilan Rakyat. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-15-1975"
-  dimension_ids: []
-  provenance: "register-jdih"
-- id: "ev-jdih-uu-16-1975"
-  term_id: "dpr-1971-1999"
-  date: "1975-11-24"
-  category: "produk-hukum"
-  title_id: "UU No. 16 Tahun 1975 tentang Perubahan Undang-Undang Nomor 16 Tahun 1969 tentang Susunan dan Kedudukan Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat dan Dewan Perwakilan Rakyat Daerah"
-  summary_id: "Ditetapkan di Jakarta pada 24 November 1975, diundangkan pada tanggal yang sama. Materi yang diatur: Perubahan Undang-Undang Nomor 16 Tahun 1969 tentang Susunan dan Kedudukan Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat dan Dewan Perwakilan Rakyat Daerah. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-16-1975"
-  dimension_ids: []
-  provenance: "register-jdih"
 - id: "ev-jdih-inpres-1-1976"
   term_id: "presiden-soeharto"
   date: "1976-01-13"
@@ -15950,16 +15920,6 @@
   summary_id: "Ditetapkan di Jakarta pada 08 Oktober 1997, diundangkan pada tanggal yang sama. Materi yang diatur: Perhitungan Anggaran Negara Tahun Anggaran 1995/96. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang."
   source_ids:
     - "jdih-uu-30-1997"
-  dimension_ids: []
-  provenance: "register-jdih"
-- id: "ev-jdih-uu-31-1997"
-  term_id: "dpr-1971-1999"
-  date: "1997-10-15"
-  category: "produk-hukum"
-  title_id: "UU No. 31 Tahun 1997 tentang Peradilan Militer"
-  summary_id: "Ditetapkan di Jakarta pada 15 Oktober 1997, diundangkan pada tanggal yang sama. Materi yang diatur: Peradilan Militer. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-31-1997"
   dimension_ids: []
   provenance: "register-jdih"
 - id: "ev-jdih-pp-38-1997"

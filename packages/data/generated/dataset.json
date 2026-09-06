@@ -16453,6 +16453,92 @@
       "actor_ids": []
     },
     {
+      "id": "ev-jdih-uu-3-1975",
+      "term_id": "dpr-1971-1999",
+      "date": "1975-08-27",
+      "category": "produk-hukum",
+      "title_id": "UU No. 3 Tahun 1975 tentang Partai Politik dan Golongan Karya",
+      "summary_id": "DPR mengesahkan peleburan paksa sembilan partai hasil Pemilu 1971 menjadi hanya dua - PPP dan PDI - sementara Golongan Karya dibiarkan berdiri di luar kategori partai dan tetap ditopang aparat negara serta korps pegawai negeri. Kontestasi tidak dilarang, melainkan dikurung: rakyat tetap memilih, tetapi hanya dari daftar yang sudah ditentukan negara. Undang-undang inilah fondasi legal yang membuat enam pemilu berikutnya (1977-1997) menghasilkan komposisi yang praktis sama, dan DPR yang mengesahkannya adalah DPR yang diuntungkan olehnya.",
+      "source_ids": [
+        "jdih-uu-3-1975"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4",
+        "checks-balances"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-15-1975",
+      "term_id": "dpr-1971-1999",
+      "date": "1975-11-24",
+      "category": "produk-hukum",
+      "title_id": "UU No. 15 Tahun 1975 tentang Perubahan Undang-Undang Nomor 15 Tahun 1969 tentang Pemilihan Umum Angota-Anggota Badan Permusyawaratan/Perwakilan Rakyat",
+      "summary_id": "Perubahan UU Pemilihan Umum ini melengkapi UU 3/1975: setelah peserta pemilu dibatasi jadi dua partai plus Golkar, aturan teknis penyelenggaraannya pun ditempatkan di bawah kendali pemerintah, dari pendaftaran pemilih hingga penghitungan suara. Pemilu tetap diselenggarakan tepat waktu setiap lima tahun - keteraturan prosedural yang justru menjadi tameng: yang rutin dijalankan adalah tata caranya, bukan kompetisinya.",
+      "source_ids": [
+        "jdih-uu-15-1975"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-16-1975",
+      "term_id": "dpr-1971-1999",
+      "date": "1975-11-24",
+      "category": "produk-hukum",
+      "title_id": "UU No. 16 Tahun 1975 tentang Perubahan Undang-Undang Nomor 16 Tahun 1969 tentang Susunan dan Kedudukan Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat dan Dewan Perwakilan Rakyat Daerah",
+      "summary_id": "Perubahan atas UU 16/1969 mempertahankan kursi yang diisi lewat pengangkatan - terutama jatah ABRI - di MPR, DPR, dan DPRD, sehingga sebagian wakil rakyat tidak pernah melewati kotak suara. Akibatnya sebuah lembaga yang secara konstitusional bersandar pada kedaulatan rakyat menyimpan blok permanen yang loyalitasnya kepada pengangkat, bukan pemilih. DPR menyetujui sendiri aturan yang menentukan siapa boleh duduk di dalamnya.",
+      "source_ids": [
+        "jdih-uu-16-1975"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "checks-balances"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-31-1997",
+      "term_id": "dpr-1971-1999",
+      "date": "1997-10-15",
+      "category": "produk-hukum",
+      "title_id": "UU No. 31 Tahun 1997 tentang Peradilan Militer",
+      "summary_id": "UU Peradilan Militer menegaskan bahwa prajurit yang melakukan tindak pidana diadili di lingkungan peradilan militer, termasuk untuk perbuatan yang korbannya warga sipil. Di masa ketika operasi keamanan berlangsung di Aceh, Papua, dan Timor Timur, forum itu menentukan hasil: penyidik, penuntut, dan hakimnya berada dalam satu rantai komando dengan terdakwa. Disahkan pada Oktober 1997, tujuh bulan sebelum kerusuhan Mei 1998 - dan menjadi salah satu sebab mengapa pertanggungjawaban atas kekerasan periode itu tidak pernah sampai ke pengadilan umum.",
+      "source_ids": [
+        "jdih-uu-31-1997"
+      ],
+      "dimension_ids": [
+        "negara-hukum",
+        "sila-2"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-5-1999",
+      "term_id": "dpr-1971-1999",
+      "date": "1999-03-23",
+      "category": "produk-hukum",
+      "title_id": "UU No. 5 Tahun 1999 tentang Pencabutan Undang-Undang Nomor 5 Tahun 1985 tentang Referendum",
+      "summary_id": "Pencabutan UU 5/1985 tentang Referendum - undang-undang yang mensyaratkan referendum dengan ambang persetujuan sangat tinggi sebelum UUD 1945 boleh diubah, dan karenanya secara praktis membekukan konstitusi selama empat belas tahun. Pencabutannya pada Maret 1999 membuka jalan bagi empat kali amandemen 1999-2002. Peristiwa ini merugikan sekaligus meringankan DPR periode ini: ia yang mengesahkan pembekuan itu pada 1985, dan ia pula - dalam bulan-bulan terakhirnya, di bawah tekanan reformasi - yang mencabutnya.",
+      "source_ids": [
+        "jdih-uu-5-1999"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "negara-hukum"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
       "id": "ev-jdih-uu-1-1945",
       "term_id": "dpr-knip-1945-1950",
       "date": "1945-11-23",
@@ -33177,48 +33263,6 @@
       "summary_id": "Ditetapkan di Jakarta pada 16 Juni 1975, diundangkan pada tanggal yang sama. Materi yang diatur: Tambahan dan Perubahan atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1974/1975. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
       "source_ids": [
         "jdih-uu-2-1975"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
-      "id": "ev-jdih-uu-3-1975",
-      "term_id": "dpr-1971-1999",
-      "date": "1975-08-27",
-      "category": "produk-hukum",
-      "title_id": "UU No. 3 Tahun 1975 tentang Partai Politik dan Golongan Karya",
-      "summary_id": "Ditetapkan di Jakarta pada 27 Agustus 1975, diundangkan pada tanggal yang sama. Materi yang diatur: Partai Politik dan Golongan Karya. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-3-1975"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
-      "id": "ev-jdih-uu-15-1975",
-      "term_id": "dpr-1971-1999",
-      "date": "1975-11-24",
-      "category": "produk-hukum",
-      "title_id": "UU No. 15 Tahun 1975 tentang Perubahan Undang-Undang Nomor 15 Tahun 1969 tentang Pemilihan Umum Angota-Anggota Badan Permusyawaratan/Perwakilan Rakyat",
-      "summary_id": "Ditetapkan di Jakarta pada 24 November 1975, diundangkan pada tanggal yang sama. Materi yang diatur: Perubahan Undang-Undang Nomor 15 Tahun 1969 tentang Pemilihan Umum Angota-Anggota Badan Permusyawaratan/Perwakilan Rakyat. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-15-1975"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
-      "id": "ev-jdih-uu-16-1975",
-      "term_id": "dpr-1971-1999",
-      "date": "1975-11-24",
-      "category": "produk-hukum",
-      "title_id": "UU No. 16 Tahun 1975 tentang Perubahan Undang-Undang Nomor 16 Tahun 1969 tentang Susunan dan Kedudukan Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat dan Dewan Perwakilan Rakyat Daerah",
-      "summary_id": "Ditetapkan di Jakarta pada 24 November 1975, diundangkan pada tanggal yang sama. Materi yang diatur: Perubahan Undang-Undang Nomor 16 Tahun 1969 tentang Susunan dan Kedudukan Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat dan Dewan Perwakilan Rakyat Daerah. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-16-1975"
       ],
       "dimension_ids": [],
       "actor_ids": [],
@@ -53315,20 +53359,6 @@
       "provenance": "register-jdih"
     },
     {
-      "id": "ev-jdih-uu-31-1997",
-      "term_id": "dpr-1971-1999",
-      "date": "1997-10-15",
-      "category": "produk-hukum",
-      "title_id": "UU No. 31 Tahun 1997 tentang Peradilan Militer",
-      "summary_id": "Ditetapkan di Jakarta pada 15 Oktober 1997, diundangkan pada tanggal yang sama. Materi yang diatur: Peradilan Militer. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-31-1997"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
       "id": "ev-jdih-pp-38-1997",
       "term_id": "presiden-soeharto",
       "date": "1997-10-17",
@@ -58013,20 +58043,6 @@
       "summary_id": "Ditetapkan di Jakarta pada 17 Maret 1999, diundangkan pada tanggal yang sama. Materi yang diatur: Tim Kerja Terpadu Pengkajian Pelaksanaan Ketetapan Majelis Permusyawaratan Rakyat Republik Indonesia Nomor X/MPR/1998 Berkaitan Dengan Pemisahan Yang Tegas Antar Fungsi-Fungsi Yudikatif Dari Eksekutif. Status menurut JDIH: Berlaku. Jenis instrumen: Keputusan Presiden.",
       "source_ids": [
         "jdih-keppres-x-mpr-1998-berkaitan-dengan-pemisahan-yang-tegas-antar-fungs-1999"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
-      "id": "ev-jdih-uu-5-1999",
-      "term_id": "dpr-1971-1999",
-      "date": "1999-03-23",
-      "category": "produk-hukum",
-      "title_id": "UU No. 5 Tahun 1999 tentang Pencabutan Undang-Undang Nomor 5 Tahun 1985 tentang Referendum",
-      "summary_id": "Ditetapkan di Jakarta pada 23 Maret 1999, diundangkan pada tanggal yang sama. Materi yang diatur: Pencabutan Undang-Undang Nomor 5 Tahun 1985 tentang Referendum. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-5-1999"
       ],
       "dimension_ids": [],
       "actor_ids": [],
@@ -174020,7 +174036,7 @@
       "citation_id": "LN. 1999/ No. 34, TLN NO. 3818, LL SETNEG : 3 HLM",
       "resolved_url": "https://peraturan.bpk.go.id/Download/33778/UU%20Nomor%206%20Tahun%201999.pdf",
       "detail_url": "/arsip/jdih-uu-5-1999",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -174260,7 +174276,7 @@
       "citation_id": "LN. 1997, LL SETNEG : 139 HLM",
       "resolved_url": "https://peraturan.bpk.go.id/Download/69294/UU%20Nomor%2031%20Tahun%201997.pdf",
       "detail_url": "/arsip/jdih-uu-31-1997",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -176192,7 +176208,7 @@
       "citation_id": "LN. 1975/ No.39, TLN NO. 3064, LL SETNEG : 7 HLM",
       "resolved_url": "https://peraturan.bpk.go.id/Download/36381/UU%20Nomor%205%20Tahun%201975.pdf",
       "detail_url": "/arsip/jdih-uu-16-1975",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -176204,7 +176220,7 @@
       "citation_id": "LN. 1975/ No.38, TLN NO. 3063, LL SETNEG : 7 HLM",
       "resolved_url": "https://peraturan.bpk.go.id/Download/224603/UU%20Nomor%204%20Tahun%201975-.pdf",
       "detail_url": "/arsip/jdih-uu-15-1975",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -176216,7 +176232,7 @@
       "citation_id": "LN. 1975/ No. 32, TLN NO. 3062, LL SETNEG : 9 HLM",
       "resolved_url": "https://peraturan.bpk.go.id/Download/36378/UU%20Nomor%203%20Tahun%201975.pdf",
       "detail_url": "/arsip/jdih-uu-3-1975",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -302025,27 +302041,78 @@
       "created_at": "2026-08-30",
       "dimension_scores": [
         {
-          "dimension_id": "negara-hukum",
-          "score": 1,
-          "confidence": 0.55,
-          "rationale_id": "Pada akhir era Orde Baru, Sidang Istimewa MPR 1998 dan TAP MPR XI/MPR/1998 merespons tuntutan reformasi untuk memberantas KKN dan menegakkan penyelenggaraan negara yang bebas korupsi.",
-          "thesis_id": "Dalil formalnya: Sidang Istimewa MPR November 1998 menetapkan TAP MPR No. XI/MPR/1998 tentang penyelenggara negara yang bersih dan bebas dari korupsi, kolusi, serta nepotisme.",
-          "antithesis_id": "TAP MPR XI/MPR/1998 lahir dari Sidang Istimewa MPR, forum yang anggotanya sebagian besar berasal dari DPR periode ini - lembaga yang selama tiga dasawarsa justru mengesahkan seluruh produk hukum yang melanggengkan KKN.",
-          "synthesis_id": "Skor Baik (+1) karena asas penyelenggara negara yang bersih dan bebas KKN akhirnya ditetapkan sebagai norma yang mengikat, menjadi dasar seluruh legislasi antikorupsi sesudahnya.",
+          "dimension_id": "checks-balances",
+          "score": -2,
+          "confidence": 0.7,
+          "rationale_id": "Fungsi pengawasan praktis padam: sepanjang 1971-1999 tidak ada catatan DPR menolak rancangan undang-undang pemerintah, tidak ada hak angket yang tuntas menghasilkan konsekuensi politik, dan laju legislasinya 8,9 UU per tahun - terendah dari sepuluh periode DPR yang diukur indeks ini. Lembaga yang secara konstitusional menjadi penyeimbang eksekutif berfungsi sebagai ruang pengesahan.",
+          "thesis_id": "Dalil formalnya: DPR tetap bersidang secara teratur, membahas rancangan undang-undang bersama pemerintah, dan menjalankan fungsi anggaran melalui pengesahan APBN setiap tahun anggaran sebagaimana diperintahkan UUD 1945.",
+          "antithesis_id": "Pembahasan yang tidak pernah berujung penolakan bukan pengawasan melainkan formalitas. Laju 8,9 undang-undang per tahun - seperlima parlemen 1950-an yang mencapai 44,7 - menunjukkan lembaga yang inisiatif legislasinya nyaris nihil, sementara UU 16/1975 memastikan blok kursi pengangkatan yang loyalitasnya kepada pengangkat, bukan pemilih, ada di dalam lembaga itu sendiri.",
+          "synthesis_id": "Skor pelanggaran berat (-2) karena penyeimbang konstitusional atas kekuasaan eksekutif tidak berfungsi selama hampir tiga dasawarsa, dan komposisi lembaganya sendiri dirancang lewat undang-undang agar tidak mungkin menyeimbangkan.",
           "evidence": [
             {
-              "source_id": "anri-risalah-si-mpr-1998"
+              "source_id": "jdih-uu-16-1975"
             },
             {
-              "source_id": "tap-mpr-xi-1998"
-            },
-            {
-              "source_id": "tap-mpr-xvii-1998"
+              "source_id": "jdih-uu-3-1975"
             }
           ],
           "event_ids": [
-            "ev-mpr-tap-xi-1998",
-            "ev-mpr-tap-xvii-1998"
+            "ev-jdih-uu-16-1975"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "kedaulatan-rakyat",
+          "score": -2,
+          "confidence": 0.78,
+          "rationale_id": "DPR ini mengesahkan sendiri aturan yang menentukan siapa boleh menjadi pesaingnya dan siapa boleh duduk tanpa dipilih. UU 3/1975 melebur sembilan partai hasil Pemilu 1971 menjadi dua sementara Golkar dibiarkan di luar kategori partai dengan topangan aparat negara; UU 16/1975 mempertahankan kursi pengangkatan terutama jatah ABRI; UU 15/1975 menempatkan teknis penyelenggaraan pemilu di bawah kendali pemerintah. Pada 1985 kerangka itu dikunci dengan UU Referendum yang mensyaratkan ambang persetujuan sangat tinggi sebelum UUD boleh diubah - membekukan konstitusi empat belas tahun sampai dicabut lewat UU 5/1999.",
+          "thesis_id": "Dalil formalnya: pemilu tetap diselenggarakan tepat waktu setiap lima tahun sepanjang 1977-1997 tanpa satu kali pun ditunda, rakyat tetap memberikan suara, dan seluruh pembatasan peserta pemilu dituangkan dalam undang-undang yang disahkan lembaga perwakilan.",
+          "antithesis_id": "Yang rutin dijalankan adalah tata caranya, bukan kompetisinya: peleburan paksa partai lewat UU 3/1975 membuat enam pemilu berikutnya menghasilkan komposisi yang praktis sama, dan kursi pengangkatan dalam UU 16/1975 memastikan sebagian wakil rakyat tidak pernah melewati kotak suara. Kedaulatan rakyat yang dijamin Pasal 1 ayat (2) UUD 1945 direduksi menjadi partisipasi tanpa pilihan.",
+          "synthesis_id": "Skor pelanggaran berat (-2) karena lembaga yang mandatnya bersandar pada kedaulatan rakyat justru mengesahkan undang-undang yang mengurung pilihan rakyat dan membekukan konstitusi, lalu diuntungkan sendiri oleh aturan itu selama enam pemilu berturut-turut.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-3-1975"
+            },
+            {
+              "source_id": "jdih-uu-16-1975"
+            },
+            {
+              "source_id": "jdih-uu-15-1975"
+            },
+            {
+              "source_id": "jdih-uu-5-1999"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-3-1975",
+            "ev-jdih-uu-16-1975",
+            "ev-jdih-uu-15-1975",
+            "ev-jdih-uu-5-1999"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "negara-hukum",
+          "score": -2,
+          "confidence": 0.72,
+          "rationale_id": "Selama 28 tahun DPR ini mengesahkan kerangka hukum yang menjadikan hukum alat kekuasaan, bukan pembatasnya - puncaknya UU 31/1997 yang menempatkan prajurit pelaku pidana terhadap warga sipil di forum peradilan militer, satu rantai komando dengan terdakwanya. Laju legislasinya 8,9 UU per tahun, terendah dari seluruh periode DPR dalam sejarah Indonesia dan seperlima laju parlemen 1950-an. TAP MPR XI/MPR/1998 tentang penyelenggara negara bebas KKN memang lahir dari periode ini, tetapi pada bulan-bulan terakhirnya dan di bawah tekanan jalanan - satu tindakan korektif tidak menyeimbangkan tiga dasawarsa pembentukan impunitas.",
+          "thesis_id": "Dalil formalnya: seluruh instrumen represi Orde Baru berbentuk undang-undang yang sah menurut prosedur, disahkan lembaga perwakilan hasil pemilu yang diselenggarakan teratur setiap lima tahun; dan pada 1998 DPR yang sama menetapkan dasar hukum pemberantasan KKN lewat Sidang Istimewa MPR.",
+          "antithesis_id": "Keabsahan prosedural justru inti persoalannya: UU 31/1997 memindahkan pertanggungjawaban kekerasan aparat terhadap warga sipil ke forum yang diadili sesama korps, sehingga impunitas bukan penyimpangan dari hukum melainkan produk hukum. Laju 8,9 UU per tahun - terendah sepanjang sejarah DPR - menunjukkan lembaga yang tidak menjalankan fungsi legislasinya, dan tidak sekali pun tercatat menolak rancangan pemerintah.",
+          "synthesis_id": "Skor pelanggaran berat (-2) karena hukum dijadikan senjata politik dan impunitas elite dilembagakan lewat undang-undang yang disahkan DPR ini sendiri, sesuai jangkar rubrik -2 'rule by law'. Penetapan TAP MPR XI/MPR/1998 dicatat sebagai fakta yang meringankan, bukan yang mengubah skor.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-31-1997"
+            },
+            {
+              "source_id": "tap-mpr-xi-1998"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-31-1997"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -302053,22 +302120,46 @@
         },
         {
           "dimension_id": "sila-2",
-          "score": 1,
-          "confidence": 0.55,
-          "rationale_id": "TAP MPR XVII/MPR/1998 tentang Hak Asasi Manusia meletakkan Piagam HAM sebagai landasan pengakuan hak-hak warga setelah otoritarianisme, menjadi titik balik pasca-Orde Baru.",
-          "thesis_id": "Dalil formalnya: TAP MPR No. XVII/MPR/1998 menetapkan Piagam HAM pertama Indonesia, yang menjadi dasar UU No. 39 Tahun 1999 dan Bab XA UUD 1945 sesudahnya.",
-          "antithesis_id": "Piagam HAM 1998 ditetapkan pada bulan-bulan terakhir periode setelah rezim yang didukung DPR ini lengser, sehingga koreksi datang ketika tidak lagi berisiko - bukan sebagai perlawanan melainkan sebagai penyesuaian.",
-          "synthesis_id": "Skor Baik (+1) karena Piagam HAM pertama Indonesia ditetapkan dan menjadi dasar UU 39/1999 serta Bab XA UUD 1945, titik balik pengakuan hak asasi pasca-otoritarianisme.",
+          "score": -1,
+          "confidence": 0.68,
+          "rationale_id": "TAP MPR XVII/MPR/1998 tentang Hak Asasi Manusia yang lahir dari periode ini adalah tonggak nyata dan menjadi dasar UU 39/1999 serta Bab XA UUD 1945. Namun ia ditetapkan pada November 1998, bulan-bulan terakhir masa jabatan, setelah DPR yang sama mengesahkan UU 31/1997 yang menempatkan prajurit pelaku pidana terhadap warga sipil di peradilan militer - tujuh bulan sebelum kekerasan Mei 1998. Sesuai rubrik, dua temuan berlawanan diberi skor netonya, bukan nol.",
+          "thesis_id": "Dalil formalnya: Sidang Istimewa MPR November 1998 menetapkan TAP MPR No. XVII/MPR/1998, piagam hak asasi manusia pertama Indonesia, yang mengadopsi semangat Deklarasi Universal HAM dan menjadi payung seluruh legislasi HAM sesudahnya.",
+          "antithesis_id": "Piagam itu datang setelah, bukan sebelum: UU 31/1997 yang disahkan DPR yang sama pada Oktober 1997 memastikan pertanggungjawaban kekerasan aparat terhadap warga sipil tidak sampai ke pengadilan umum, dan itulah kerangka yang berlaku ketika kerusuhan Mei 1998 terjadi. Pengakuan hak di atas kertas ditandatangani jauh sebelum di meja pengadilan.",
+          "synthesis_id": "Skor Buruk (-1) sebagai neto: piagam HAM pertama adalah capaian sungguhan, tetapi tidak menutup kerangka impunitas yang disahkan DPR yang sama setahun sebelumnya dan yang justru berlaku saat pelanggaran terberat periode ini terjadi.",
           "evidence": [
             {
               "source_id": "tap-mpr-xvii-1998"
             },
             {
-              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+              "source_id": "jdih-uu-31-1997"
             }
           ],
           "event_ids": [
-            "ev-dpd-posisi-ruu-masyarakat-adat-2025"
+            "ev-jdih-uu-31-1997"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": -2,
+          "confidence": 0.75,
+          "rationale_id": "Kerakyatan yang dipimpin hikmat kebijaksanaan dalam permusyawaratan perwakilan direduksi menjadi mufakat yang hasilnya sudah diketahui sebelum musyawarah dimulai. UU 3/1975 menghapus pluralitas politik hasil Pemilu 1971 dengan melebur sembilan partai menjadi dua, sehingga permusyawaratan berlangsung di antara pihak-pihak yang komposisinya ditentukan negara, bukan pemilih.",
+          "thesis_id": "Dalil formalnya: pengambilan keputusan di DPR sepanjang periode ini justru dijalankan dengan asas musyawarah untuk mufakat dan nyaris tanpa pemungutan suara - yang secara tekstual paling dekat dengan rumusan sila keempat.",
+          "antithesis_id": "Mufakat tanpa perbedaan bukan musyawarah melainkan keseragaman yang dilembagakan. Setelah UU 3/1975 melebur peserta politik menjadi dua partai plus Golkar dan UU 16/1975 menyisipkan kursi pengangkatan, ketiadaan pemungutan suara bukan tanda kebijaksanaan kolektif melainkan tanda tidak ada lagi pihak yang berbeda pendapat di dalam ruangan.",
+          "synthesis_id": "Skor pelanggaran berat (-2) karena bentuk lahiriah sila keempat dipertahankan sementara syarat yang membuatnya bermakna - adanya perbedaan yang harus dimusyawarahkan - dihapus lewat undang-undang yang disahkan DPR ini sendiri.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-3-1975"
+            },
+            {
+              "source_id": "jdih-uu-15-1975"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-3-1975",
+            "ev-jdih-uu-15-1975"
           ],
           "normative_anchors": [
             "uud-nri-1945"

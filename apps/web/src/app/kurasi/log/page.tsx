@@ -105,8 +105,11 @@ function getActionTone(action: string): string {
 }
 
 export default async function KurasiLogPage() {
+  // `catalog_verified` SUDAH terverifikasi - metadatanya cocok dengan rekaman
+  // katalog perpustakaan publik. Hanya `unverified` (dan yang tak bertier)
+  // yang belum diperiksa sama sekali.
   const sumberBelumTerverifikasi = dataset.sources.filter(
-    (s) => s.verification_tier !== "official_source" && s.verification_tier !== "human_verified"
+    (s) => !s.verification_tier || s.verification_tier === "unverified"
   ).length;
 
   let liveLogs: LogRow[] = [];

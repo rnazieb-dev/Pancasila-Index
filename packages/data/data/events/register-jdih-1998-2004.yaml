@@ -3212,16 +3212,6 @@
     - "jdih-keppres-x-mpr-1998-berkaitan-dengan-pemisahan-yang-tegas-antar-fungs-1999"
   dimension_ids: []
   provenance: "register-jdih"
-- id: "ev-jdih-uu-5-1999"
-  term_id: "dpr-1971-1999"
-  date: "1999-03-23"
-  category: "produk-hukum"
-  title_id: "UU No. 5 Tahun 1999 tentang Pencabutan Undang-Undang Nomor 5 Tahun 1985 tentang Referendum"
-  summary_id: "Ditetapkan di Jakarta pada 23 Maret 1999, diundangkan pada tanggal yang sama. Materi yang diatur: Pencabutan Undang-Undang Nomor 5 Tahun 1985 tentang Referendum. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-5-1999"
-  dimension_ids: []
-  provenance: "register-jdih"
 - id: "ev-jdih-keppres-24-1999"
   term_id: "presiden-habibie"
   date: "1999-03-24"
