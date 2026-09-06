@@ -114,6 +114,29 @@ export default async function TermPage({
   const assessments = getAssessmentsOfTerm(dataset, term.id);
   const assessment = assessments[0];
   const events = getEventsOfTerm(dataset, term.id);
+
+  /*
+   * DimensionCard dirender 12 kali per halaman dan merupakan komponen klien,
+   * jadi setiap prop diserialisasi 12 kali ke payload RSC. Mengoper
+   * `dataset.events` (10.533) dan `dataset.sources` (10.475) utuh membuat
+   * pembangkitan statis satu halaman melewati batas 60 detik.
+   *
+   * Keduanya dipersempit ke yang benar-benar dipakai: filter di dalam kartu
+   * memang selalu membuang peristiwa di luar masa jabatan ini, dan `sources`
+   * hanya dipakai untuk pencarian .find() berdasarkan id.
+   */
+  const sumberDipakai = (() => {
+    const perlu = new Set<string>();
+    for (const e of events) for (const id of e.source_ids ?? []) perlu.add(id);
+    for (const a of assessments) {
+      for (const ds of a.dimension_scores) {
+        for (const ev of ds.evidence ?? []) perlu.add(ev.source_id);
+        for (const na of ds.normative_anchors ?? []) perlu.add(na);
+        for (const q of ds.expert_quotes ?? []) if (q.source_id) perlu.add(q.source_id);
+      }
+    }
+    return dataset.sources.filter((s) => perlu.has(s.id));
+  })();
   // Peristiwa yang menjadikan periode ini subjek pemeriksaan meski dicatat di
   // lembaga lain - tanpa ini, audit BPK atau putusan MA atas perkara pejabat
   // periode ini hanya tampil di profil lembaga yang membongkarnya.
@@ -415,8 +438,8 @@ export default async function TermPage({
                       dimension={dim}
                       entries={entries}
                       assessment={assessment}
-                      sources={dataset.sources}
-                      allEvents={dataset.events}
+                      sources={sumberDipakai}
+                      allEvents={events}
                       actorsById={actorsById}
                       termId={term.id}
                     />

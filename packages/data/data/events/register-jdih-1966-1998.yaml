@@ -1072,16 +1072,6 @@
     - "jdih-uu-13-1971"
   dimension_ids: []
   provenance: "register-jdih"
-- id: "ev-jdih-uu-1-1972"
-  term_id: "dpr-1971-1999"
-  date: "1972-03-06"
-  category: "produk-hukum"
-  title_id: "UU No. 1 Tahun 1972 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1972/1973"
-  summary_id: "Ditetapkan di Jakarta pada 06 Maret 1972, diundangkan 07 Maret 1972. Materi yang diatur: Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1972/1973. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-1-1972"
-  dimension_ids: []
-  provenance: "register-jdih"
 - id: "ev-jdih-uu-2-1972"
   term_id: "dpr-1971-1999"
   date: "1972-06-13"
@@ -1090,16 +1080,6 @@
   summary_id: "Ditetapkan di Jakarta pada 13 Juni 1972, diundangkan pada tanggal yang sama. Materi yang diatur: Tambahan dan Perubahan atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1971/1972. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang."
   source_ids:
     - "jdih-uu-2-1972"
-  dimension_ids: []
-  provenance: "register-jdih"
-- id: "ev-jdih-uu-3-1972"
-  term_id: "dpr-1971-1999"
-  date: "1972-07-28"
-  category: "produk-hukum"
-  title_id: "UU No. 3 Tahun 1972 tentang Ketentuan-Ketentuan Pokok Transmigrasi"
-  summary_id: "Ditetapkan di Jakarta pada 28 Juli 1972, diundangkan pada tanggal yang sama. Materi yang diatur: Ketentuan-Ketentuan Pokok Transmigrasi. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-3-1972"
   dimension_ids: []
   provenance: "register-jdih"
 - id: "ev-jdih-uu-4-1972"
@@ -1210,16 +1190,6 @@
   summary_id: "Ditetapkan di Jakarta pada 08 Desember 1973, diundangkan pada tanggal yang sama. Materi yang diatur: Perjanjian antara Republik Indonesia dan Republik Singapura Mengenai Penetapan Garis Batas Laut Wilayah Kedua Negara di Selat Singapura. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang."
   source_ids:
     - "jdih-uu-7-1973"
-  dimension_ids: []
-  provenance: "register-jdih"
-- id: "ev-jdih-uu-1-1974"
-  term_id: "dpr-1971-1999"
-  date: "1974-01-02"
-  category: "produk-hukum"
-  title_id: "UU No. 1 Tahun 1974 tentang Perkawinan"
-  summary_id: "Ditetapkan di Jakarta pada 02 Januari 1974, diundangkan pada tanggal yang sama. Materi yang diatur: Perkawinan. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-1-1974"
   dimension_ids: []
   provenance: "register-jdih"
 - id: "ev-jdih-inpres-2-1974"
@@ -1642,16 +1612,6 @@
     - "jdih-uu-5-1976"
   dimension_ids: []
   provenance: "register-jdih"
-- id: "ev-jdih-uu-6-1976"
-  term_id: "dpr-1971-1999"
-  date: "1976-06-21"
-  category: "produk-hukum"
-  title_id: "UU No. 6 Tahun 1976 tentang Pengesahan Perjanjian Persahabatan dan Kerjasama di Asia Tenggara"
-  summary_id: "Ditetapkan di Jakarta pada 21 Juni 1976, diundangkan pada tanggal yang sama. Materi yang diatur: Pengesahan Perjanjian Persahabatan dan Kerjasama di Asia Tenggara. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-6-1976"
-  dimension_ids: []
-  provenance: "register-jdih"
 - id: "ev-jdih-uu-7-1976"
   term_id: "dpr-1971-1999"
   date: "1976-07-17"
@@ -1840,16 +1800,6 @@
   summary_id: "Ditetapkan di Jakarta pada 23 Juli 1979, diundangkan pada tanggal yang sama. Materi yang diatur: Kesejahteraan Anak. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang."
   source_ids:
     - "jdih-uu-4-1979"
-  dimension_ids: []
-  provenance: "register-jdih"
-- id: "ev-jdih-uu-5-1979"
-  term_id: "dpr-1971-1999"
-  date: "1979-12-01"
-  category: "produk-hukum"
-  title_id: "UU No. 5 Tahun 1979 tentang Pemerintahan Desa"
-  summary_id: "Ditetapkan di Jakarta pada 01 Desember 1979, diundangkan pada tanggal yang sama. Materi yang diatur: Pemerintahan Desa. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-5-1979"
   dimension_ids: []
   provenance: "register-jdih"
 - id: "ev-jdih-uu-1-1980"
@@ -15890,16 +15840,6 @@
   summary_id: "Ditetapkan di Jakarta pada 07 Oktober 1997, diundangkan pada tanggal yang sama. Materi yang diatur: Pembebastugasan Dan Pemberhentian Ketua, Wakil Ketua, Atau Anggota Badan Penyelesaian Sengketa Pajak Serta Hak-Haknya. Status menurut JDIH: Berlaku. Jenis instrumen: Peraturan Pemerintah."
   source_ids:
     - "jdih-pp-37-1997"
-  dimension_ids: []
-  provenance: "register-jdih"
-- id: "ev-jdih-uu-28-1997"
-  term_id: "dpr-1971-1999"
-  date: "1997-10-07"
-  category: "produk-hukum"
-  title_id: "UU No. 28 Tahun 1997 tentang Kepolisian Negara Republik Indonesia"
-  summary_id: "Ditetapkan di Jakarta pada 07 Oktober 1997, diundangkan pada tanggal yang sama. Materi yang diatur: Kepolisian Negara Republik Indonesia. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-28-1997"
   dimension_ids: []
   provenance: "register-jdih"
 - id: "ev-jdih-uu-29-1997"

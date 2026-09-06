@@ -302,16 +302,6 @@
     - "jdih-uu-3-1947"
   dimension_ids: []
   provenance: "register-jdih"
-- id: "ev-jdih-uu-7-1947"
-  term_id: "dpr-knip-1945-1950"
-  date: "1947-02-27"
-  category: "produk-hukum"
-  title_id: "UU No. 7 Tahun 1947 tentang Susunan dan Kekuasaan Mahkamah Agung dan Kejaksaan Agung"
-  summary_id: "Ditetapkan di Jakarta pada 27 Februari 1947, diundangkan 03 Maret 1947. Materi yang diatur: Susunan dan Kekuasaan Mahkamah Agung dan Kejaksaan Agung. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-7-1947"
-  dimension_ids: []
-  provenance: "register-jdih"
 - id: "ev-jdih-uu-8-1947"
   term_id: "dpr-knip-1945-1950"
   date: "1947-05-01"
@@ -562,16 +552,6 @@
     - "jdih-uu-31-1947"
   dimension_ids: []
   provenance: "register-jdih"
-- id: "ev-jdih-uu-32-1947"
-  term_id: "dpr-knip-1945-1950"
-  date: "1947-09-22"
-  category: "produk-hukum"
-  title_id: "UU No. 32 Tahun 1947 tentang Memusatkan Segala Urusan Sekolah-Sekolah Lanjutan Negeri pada Kementerian Pengajaran Pendidikan dan Kebudayaan"
-  summary_id: "Ditetapkan di Jakarta pada 22 September 1947, diundangkan 23 September 1947. Materi yang diatur: Memusatkan Segala Urusan Sekolah-Sekolah Lanjutan Negeri pada Kementerian Pengajaran Pendidikan dan Kebudayaan. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-32-1947"
-  dimension_ids: []
-  provenance: "register-jdih"
 - id: "ev-jdih-uu-21-1947"
   term_id: "dpr-knip-1945-1950"
   date: "1947-10-18"
@@ -670,16 +650,6 @@
   summary_id: "Ditetapkan di Jakarta pada 09 Januari 1948, diundangkan 10 Januari 1948. Materi yang diatur: Mempersamakan \"Keadaan Bahaya\" dengan \"Tijd Van Oorlog\" seperti yang Dimaksud Dalam Kitab-Undang-Undang Hukum Pidana Tentara. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang."
   source_ids:
     - "jdih-uu-1-1948"
-  dimension_ids: []
-  provenance: "register-jdih"
-- id: "ev-jdih-uu-2-1948"
-  term_id: "dpr-knip-1945-1950"
-  date: "1948-01-20"
-  category: "produk-hukum"
-  title_id: "UU No. 2 Tahun 1948 tentang Pengesahan Perjanjian Persahabatan antara Republik Indonesia dan Negara Kerajaan Mesir"
-  summary_id: "Ditetapkan di Jakarta pada 20 Januari 1948, diundangkan pada tanggal yang sama. Materi yang diatur: Pengesahan Perjanjian Persahabatan antara Republik Indonesia dan Negara Kerajaan Mesir. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-2-1948"
   dimension_ids: []
   provenance: "register-jdih"
 - id: "ev-jdih-uu-3-1948"
@@ -880,16 +850,6 @@
   summary_id: "Ditetapkan di Jakarta pada 10 Juli 1948, diundangkan pada tanggal yang sama. Materi yang diatur: Penetapan Aturan-Aturan Pokok Mengenai Pemerintahan Sendiri Didaerah-Daerah yang Berhak Mengatur dan Mengurus Rumah Tangganya Sendiri. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang."
   source_ids:
     - "jdih-uu-22-1948"
-  dimension_ids: []
-  provenance: "register-jdih"
-- id: "ev-jdih-uu-23-1948"
-  term_id: "dpr-knip-1945-1950"
-  date: "1948-07-23"
-  category: "produk-hukum"
-  title_id: "UU No. 23 Tahun 1948 tentang Pengawasan Perburuhan Tahun 1948"
-  summary_id: "Ditetapkan di Jakarta pada 23 Juli 1948, diundangkan pada tanggal yang sama. Materi yang diatur: Pengawasan Perburuhan Tahun 1948. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-23-1948"
   dimension_ids: []
   provenance: "register-jdih"
 - id: "ev-jdih-uu-25-1948"
@@ -1172,16 +1132,6 @@
     - "jdih-perpu-6-1950"
   dimension_ids: []
   provenance: "register-jdih"
-- id: "ev-jdih-uu-17-1950"
-  term_id: "dpr-1950-1960"
-  date: "1950"
-  category: "produk-hukum"
-  title_id: "UU No. 17 Tahun 1950 tentang Pembentukan Daerah-Daerah Kota Kecil dalam Lingkungan Propinsi Jawa Timur, Jawa Tengah dan Jawa Barat"
-  summary_id: "Materi yang diatur: Pembentukan Daerah-Daerah Kota Kecil dalam Lingkungan Propinsi Jawa Timur, Jawa Tengah dan Jawa Barat. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-17-1950"
-  dimension_ids: []
-  provenance: "register-jdih"
 - id: "ev-jdih-uudrt-2-1950"
   term_id: "presiden-soekarno-i"
   date: "1950"
@@ -1380,16 +1330,6 @@
   summary_id: "Ditetapkan di Jakarta pada 26 April 1950, diundangkan 27 April 1950. Materi yang diatur: Peraturan Pensiun dan Onderstand Kepada para Anggota Tentara Angkatan Darat. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang Darurat."
   source_ids:
     - "jdih-uudrt-19-1950"
-  dimension_ids: []
-  provenance: "register-jdih"
-- id: "ev-jdih-uu-1-1950"
-  term_id: "dpr-1950-1960"
-  date: "1950-05-06"
-  category: "produk-hukum"
-  title_id: "UU No. 1 Tahun 1950 tentang Susunan, Kekuasaan, dan Jalan-Pengadilan Mahkamah Agung Indonesia"
-  summary_id: "Ditetapkan di Jakarta pada 06 Mei 1950, diundangkan 09 Mei 1950. Materi yang diatur: Susunan, Kekuasaan, dan Jalan-Pengadilan Mahkamah Agung Indonesia. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-1-1950"
   dimension_ids: []
   provenance: "register-jdih"
 - id: "ev-jdih-uudrt-20-1950"
@@ -1790,16 +1730,6 @@
   summary_id: "Ditetapkan di Jakarta pada 06 Januari 1951, diundangkan 08 Januari 1951. Materi yang diatur: Pernyataan Berlakunya Undang-Undang Kecelakaan Tahun 1947 Nr. 33, dari Republik Indonesia untuk Seluruh Indonesia. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang."
   source_ids:
     - "jdih-uu-2-1951"
-  dimension_ids: []
-  provenance: "register-jdih"
-- id: "ev-jdih-uu-3-1951"
-  term_id: "dpr-1950-1960"
-  date: "1951-01-06"
-  category: "produk-hukum"
-  title_id: "UU No. 3 Tahun 1951 tentang Pernyataan Berlakunya Undang-Undang Pengawasan Perburuhan Tahun 1948 Nr. 23 dari Republik Indonesia untuk Seluruh Indonesia"
-  summary_id: "Ditetapkan di Jakarta pada 06 Januari 1951, diundangkan 08 Januari 1951. Materi yang diatur: Pernyataan Berlakunya Undang-Undang Pengawasan Perburuhan Tahun 1948 Nr. 23 dari Republik Indonesia untuk Seluruh Indonesia. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang."
-  source_ids:
-    - "jdih-uu-3-1951"
   dimension_ids: []
   provenance: "register-jdih"
 - id: "ev-jdih-uudrt-2-1951"

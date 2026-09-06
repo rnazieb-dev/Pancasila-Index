@@ -16453,6 +16453,262 @@
       "actor_ids": []
     },
     {
+      "id": "ev-jdih-uu-7-1947",
+      "term_id": "dpr-knip-1945-1950",
+      "date": "1947-02-27",
+      "category": "produk-hukum",
+      "title_id": "UU No. 7 Tahun 1947 tentang Susunan dan Kekuasaan Mahkamah Agung dan Kejaksaan Agung",
+      "summary_id": "Susunan dan kekuasaan Mahkamah Agung ditetapkan pada Februari 1947, ketika ibu kota baru saja pindah ke Yogyakarta dan pengadilan republik nyaris tanpa gedung maupun arsip. KNIP tetap mendirikan puncak kekuasaan kehakiman yang terpisah dari eksekutif - keputusan yang menetapkan bahwa republik memilih bentuk negara hukum sejak sebelum ia aman secara militer.",
+      "source_ids": [
+        "jdih-uu-7-1947"
+      ],
+      "dimension_ids": [
+        "checks-balances"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-32-1947",
+      "term_id": "dpr-knip-1945-1950",
+      "date": "1947-09-22",
+      "category": "produk-hukum",
+      "title_id": "UU No. 32 Tahun 1947 tentang Memusatkan Segala Urusan Sekolah-Sekolah Lanjutan Negeri pada Kementerian Pengajaran Pendidikan dan Kebudayaan",
+      "summary_id": "Segala urusan sekolah dipusatkan pada Kementerian Pendidikan, mengakhiri warisan sistem pendidikan kolonial yang terbelah menurut golongan penduduk - Eropa, Timur Asing, dan bumiputra - dengan mutu dan akses yang berbeda-beda. Pemusatan ini yang memungkinkan satu kurikulum kebangsaan, meski pelaksanaannya baru berjalan setelah pengakuan kedaulatan.",
+      "source_ids": [
+        "jdih-uu-32-1947"
+      ],
+      "dimension_ids": [
+        "tujuan-3"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-2-1948",
+      "term_id": "dpr-knip-1945-1950",
+      "date": "1948-01-20",
+      "category": "produk-hukum",
+      "title_id": "UU No. 2 Tahun 1948 tentang Pengesahan Perjanjian Persahabatan antara Republik Indonesia dan Negara Kerajaan Mesir",
+      "summary_id": "Pengesahan perjanjian persahabatan dengan negara lain di masa republik masih diperebutkan pengakuannya. Tiap traktat yang diratifikasi KNIP berfungsi ganda: ia perjanjian bilateral sekaligus bukti bahwa Indonesia bertindak sebagai subjek hukum internasional yang cakap - argumen yang dipakai di meja diplomasi melawan klaim Belanda bahwa republik hanyalah pemberontakan dalam negeri.",
+      "source_ids": [
+        "jdih-uu-2-1948"
+      ],
+      "dimension_ids": [
+        "tujuan-4"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-23-1948",
+      "term_id": "dpr-knip-1945-1950",
+      "date": "1948-07-23",
+      "category": "produk-hukum",
+      "title_id": "UU No. 23 Tahun 1948 tentang Pengawasan Perburuhan Tahun 1948",
+      "summary_id": "Di tengah perang kemerdekaan dan wilayah republik yang menyusut akibat blokade, KNIP mengesahkan pengawasan perburuhan: negara memberi diri kewajiban memeriksa keselamatan dan syarat kerja di perusahaan. Isinya sederhana dan jangkauannya terbatas pada wilayah yang masih dikuasai republik, tetapi arah normanya jelas - buruh diperlakukan sebagai pihak yang dilindungi hukum, bukan sekadar faktor produksi, pada saat republik sendiri belum pasti bertahan.",
+      "source_ids": [
+        "jdih-uu-23-1948"
+      ],
+      "dimension_ids": [
+        "sila-5"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-17-1950",
+      "term_id": "dpr-1950-1960",
+      "date": "1950",
+      "category": "produk-hukum",
+      "title_id": "UU No. 17 Tahun 1950 tentang Pembentukan Daerah-Daerah Kota Kecil dalam Lingkungan Propinsi Jawa Timur, Jawa Tengah dan Jawa Barat",
+      "summary_id": "Pembentukan daerah-daerah kota besar sebagai satuan pemerintahan tersendiri, bagian dari penataan wilayah pasca-RIS. Parlemen memilih menata ulang lewat undang-undang alih-alih keputusan sepihak pusat - prosedur yang kemudian ditinggalkan sepenuhnya ketika pembentukan dan penghapusan daerah dilakukan lewat penetapan presiden pada era Demokrasi Terpimpin.",
+      "source_ids": [
+        "jdih-uu-17-1950"
+      ],
+      "dimension_ids": [
+        "sila-3"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-1-1950",
+      "term_id": "dpr-1950-1960",
+      "date": "1950-05-06",
+      "category": "produk-hukum",
+      "title_id": "UU No. 1 Tahun 1950 tentang Susunan, Kekuasaan, dan Jalan-Pengadilan Mahkamah Agung Indonesia",
+      "summary_id": "Susunan, kekuasaan, dan jalan pengadilan Mahkamah Agung disusun ulang bagi negara kesatuan yang baru dipulihkan dari bentuk federal RIS. Parlemen menetapkan sendiri batas kewenangan puncak yudikatif, termasuk kasasi atas seluruh lingkungan peradilan - fondasi yang bertahan sampai reformasi dan menjadi rujukan ketika kekuasaan kehakiman kemudian digerogoti pada 1964.",
+      "source_ids": [
+        "jdih-uu-1-1950"
+      ],
+      "dimension_ids": [
+        "checks-balances"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-3-1951",
+      "term_id": "dpr-1950-1960",
+      "date": "1951-01-06",
+      "category": "produk-hukum",
+      "title_id": "UU No. 3 Tahun 1951 tentang Pernyataan Berlakunya Undang-Undang Pengawasan Perburuhan Tahun 1948 Nr. 23 dari Republik Indonesia untuk Seluruh Indonesia",
+      "summary_id": "Pengawasan perburuhan yang lahir di masa revolusi dinyatakan berlaku untuk seluruh wilayah Indonesia setelah pengakuan kedaulatan, termasuk bekas daerah negara-negara bagian RIS. Satu norma perlindungan buruh menggantikan aturan yang sebelumnya berbeda-beda antarwilayah - langkah unifikasi hukum sosial yang jarang dicatat karena tidak dramatis.",
+      "source_ids": [
+        "jdih-uu-3-1951"
+      ],
+      "dimension_ids": [
+        "sila-5"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-22-1961",
+      "term_id": "dpr-gr-1960-1971",
+      "date": "1961-12-04",
+      "category": "produk-hukum",
+      "title_id": "UU No. 22 Tahun 1961 tentang Perguruan Tinggi",
+      "summary_id": "UU Perguruan Tinggi menetapkan kerangka universitas nasional: otonomi keilmuan, tridarma, dan pembinaan negara atas perguruan tinggi. Ia lahir dari DPR-GR yang anggotanya diangkat Presiden, dan pada periode yang sama kampus menjadi arena mobilisasi politik - otonomi yang dijanjikan pasal-pasalnya berjalan bersamaan dengan tekanan agar perguruan tinggi menyelaraskan diri dengan garis politik negara.",
+      "source_ids": [
+        "jdih-uu-22-1961"
+      ],
+      "dimension_ids": [
+        "tujuan-3"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-14-1963",
+      "term_id": "dpr-gr-1960-1971",
+      "date": "1963-11-28",
+      "category": "produk-hukum",
+      "title_id": "UU No. 14 Tahun 1963 tentang Pengesahan \"Perjanjian Karya\" Antara P.N. Pertamina dengan p.t. Caltex Indonesia dan California Asiatic Oil Company (Calasiatic) Texaco Overseas Petroleum Company (Topco) ; P.N. Pertamina dengan P.T. Stanvac Indonesia, P.N. Permigan dengan P.T. Shell indonesia",
+      "summary_id": "Pengesahan \"Perjanjian Karya\" dengan perusahaan asing di sektor sumber daya alam, disahkan DPR-GR yang seluruh anggotanya diangkat. Perjanjian ekonomi internasional berdampak jangka panjang diratifikasi tanpa lembaga perwakilan hasil pemilu - politik luar negeri dijalankan tanpa penyeimbang domestik yang sah.",
+      "source_ids": [
+        "jdih-uu-14-1963"
+      ],
+      "dimension_ids": [
+        "tujuan-4"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-13-1964",
+      "term_id": "dpr-gr-1960-1971",
+      "date": "1964-09-23",
+      "category": "produk-hukum",
+      "title_id": "UU No. 13 Tahun 1964 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang No. 2 Tahun 1964 Tentang Pembentukan Daerah Tingkat I Sulawesi Tengah Dan Daerah Tingkat I Sulawesi Tenggara Dengan Mengubah Undang-Undang No. 47 Prp Tahun 1960 tentang Pembentukan Daerah Tingkat I Sulawesi Utara -te",
+      "summary_id": "Penetapan Peraturan Pemerintah Pengganti Undang-Undang menjadi undang-undang - satu dari rangkaian panjang pengesahan serupa sepanjang 1964. Pola ini menunjukkan cara kerja DPR-GR: Presiden menerbitkan Perpu lebih dulu, lembaga perwakilan mengesahkannya belakangan. Fungsi legislasi bergeser dari membentuk norma menjadi meratifikasi norma yang sudah berlaku.",
+      "source_ids": [
+        "jdih-uu-13-1964"
+      ],
+      "dimension_ids": [
+        "sila-3"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-1-1972",
+      "term_id": "dpr-1971-1999",
+      "date": "1972-03-06",
+      "category": "produk-hukum",
+      "title_id": "UU No. 1 Tahun 1972 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1972/1973",
+      "summary_id": "Undang-undang APBN tahunan yang disahkan DPR - satu dari rangkaian yang berulang tiap tahun anggaran sepanjang Orde Baru tanpa satu kali pun ditolak. Fungsi anggaran dijalankan secara prosedural lengkap, tetapi tanpa penolakan atau perubahan berarti, persetujuan parlemen atas belanja negara berhenti pada pengesahan dan tidak sampai pada pengendalian.",
+      "source_ids": [
+        "jdih-uu-1-1972"
+      ],
+      "dimension_ids": [
+        "tujuan-2"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-3-1972",
+      "term_id": "dpr-1971-1999",
+      "date": "1972-07-28",
+      "category": "produk-hukum",
+      "title_id": "UU No. 3 Tahun 1972 tentang Ketentuan-Ketentuan Pokok Transmigrasi",
+      "summary_id": "Ketentuan pokok transmigrasi menjadikan pemindahan penduduk dari Jawa ke luar Jawa sebagai kebijakan negara berskala besar. Tujuannya pemerataan penduduk dan pembukaan lahan, dan sebagian transmigran memang memperoleh tanah yang tidak mungkin mereka miliki di Jawa. Namun undang-undang ini tidak mengatur perlindungan hak masyarakat adat di daerah tujuan, sehingga pemerataan bagi satu kelompok dijalankan di atas tanah yang bagi kelompok lain adalah wilayah adat - sumber konflik agraria yang belum selesai sampai hari ini.",
+      "source_ids": [
+        "jdih-uu-3-1972"
+      ],
+      "dimension_ids": [
+        "sila-5"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-1-1974",
+      "term_id": "dpr-1971-1999",
+      "date": "1974-01-02",
+      "category": "produk-hukum",
+      "title_id": "UU No. 1 Tahun 1974 tentang Perkawinan",
+      "summary_id": "UU Perkawinan mengakhiri pluralisme hukum perkawinan warisan kolonial dan menegaskan bahwa sah tidaknya perkawinan ditentukan hukum agama masing-masing, dengan pencatatan negara sebagai syarat administratif. Rancangan awalnya memicu penolakan luas kalangan Islam sampai terjadi insiden di gedung DPR pada 1973, dan naskah akhirnya adalah hasil kompromi. Kewenangan peradilan agama diperkuat, tetapi ketentuan poligami dan batas usia kawin meninggalkan persoalan perlindungan perempuan yang baru diperbaiki lima dasawarsa kemudian.",
+      "source_ids": [
+        "jdih-uu-1-1974"
+      ],
+      "dimension_ids": [
+        "sila-1"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-6-1976",
+      "term_id": "dpr-1971-1999",
+      "date": "1976-06-21",
+      "category": "produk-hukum",
+      "title_id": "UU No. 6 Tahun 1976 tentang Pengesahan Perjanjian Persahabatan dan Kerjasama di Asia Tenggara",
+      "summary_id": "Pengesahan perjanjian persahabatan bilateral pada 1976 - tahun yang sama ketika Timor Timur diintegrasikan lewat undang-undang setelah operasi militer yang tidak pernah memperoleh pengakuan PBB. Diplomasi persahabatan berjalan di satu meja sementara di meja lain Indonesia menghadapi resolusi Dewan Keamanan yang menyerukan penarikan pasukan; DPR mengesahkan keduanya tanpa perdebatan yang tercatat.",
+      "source_ids": [
+        "jdih-uu-6-1976"
+      ],
+      "dimension_ids": [
+        "tujuan-4"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-5-1979",
+      "term_id": "dpr-1971-1999",
+      "date": "1979-12-01",
+      "category": "produk-hukum",
+      "title_id": "UU No. 5 Tahun 1979 tentang Pemerintahan Desa",
+      "summary_id": "UU Pemerintahan Desa menyeragamkan seluruh satuan pemerintahan terendah di Indonesia mengikuti satu model tunggal, menghapus nagari di Sumatera Barat, marga di Sumatera Selatan, dan puluhan bentuk pemerintahan adat lain yang berumur lebih tua dari republik. Keseragaman memudahkan pusat menyalurkan program dan mengawasi desa, tetapi memutus struktur adat yang menjadi penopang identitas kewilayahan - dan pemulihannya setelah 1999 tidak pernah sepenuhnya berhasil karena satu generasi kepemimpinan adat sudah terputus.",
+      "source_ids": [
+        "jdih-uu-5-1979"
+      ],
+      "dimension_ids": [
+        "sila-3"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
+      "id": "ev-jdih-uu-28-1997",
+      "term_id": "dpr-1971-1999",
+      "date": "1997-10-07",
+      "category": "produk-hukum",
+      "title_id": "UU No. 28 Tahun 1997 tentang Kepolisian Negara Republik Indonesia",
+      "summary_id": "UU Kepolisian 1997 menegaskan Polri sebagai bagian dari ABRI, bukan lembaga sipil tersendiri. Artinya penegakan hukum terhadap warga berada dalam satu struktur komando dengan kekuatan pertahanan, tepat pada tahun terakhir sebelum krisis 1998. Pemisahan Polri dari TNI baru terjadi dua tahun kemudian lewat Ketetapan MPR - koreksi yang justru menegaskan bahwa kerangka 1997 memang tidak memisahkan fungsi perlindungan warga dari fungsi pertahanan negara.",
+      "source_ids": [
+        "jdih-uu-28-1997"
+      ],
+      "dimension_ids": [
+        "tujuan-1"
+      ],
+      "actor_ids": [],
+      "provenance": "kurasi"
+    },
+    {
       "id": "ev-jdih-uu-3-1975",
       "term_id": "dpr-1971-1999",
       "date": "1975-08-27",
@@ -16959,20 +17215,6 @@
       "provenance": "register-jdih"
     },
     {
-      "id": "ev-jdih-uu-7-1947",
-      "term_id": "dpr-knip-1945-1950",
-      "date": "1947-02-27",
-      "category": "produk-hukum",
-      "title_id": "UU No. 7 Tahun 1947 tentang Susunan dan Kekuasaan Mahkamah Agung dan Kejaksaan Agung",
-      "summary_id": "Ditetapkan di Jakarta pada 27 Februari 1947, diundangkan 03 Maret 1947. Materi yang diatur: Susunan dan Kekuasaan Mahkamah Agung dan Kejaksaan Agung. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-7-1947"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
       "id": "ev-jdih-uu-8-1947",
       "term_id": "dpr-knip-1945-1950",
       "date": "1947-05-01",
@@ -17323,20 +17565,6 @@
       "provenance": "register-jdih"
     },
     {
-      "id": "ev-jdih-uu-32-1947",
-      "term_id": "dpr-knip-1945-1950",
-      "date": "1947-09-22",
-      "category": "produk-hukum",
-      "title_id": "UU No. 32 Tahun 1947 tentang Memusatkan Segala Urusan Sekolah-Sekolah Lanjutan Negeri pada Kementerian Pengajaran Pendidikan dan Kebudayaan",
-      "summary_id": "Ditetapkan di Jakarta pada 22 September 1947, diundangkan 23 September 1947. Materi yang diatur: Memusatkan Segala Urusan Sekolah-Sekolah Lanjutan Negeri pada Kementerian Pengajaran Pendidikan dan Kebudayaan. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-32-1947"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
       "id": "ev-jdih-uu-21-1947",
       "term_id": "dpr-knip-1945-1950",
       "date": "1947-10-18",
@@ -17471,20 +17699,6 @@
       "summary_id": "Ditetapkan di Jakarta pada 09 Januari 1948, diundangkan 10 Januari 1948. Materi yang diatur: Mempersamakan \"Keadaan Bahaya\" dengan \"Tijd Van Oorlog\" seperti yang Dimaksud Dalam Kitab-Undang-Undang Hukum Pidana Tentara. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
       "source_ids": [
         "jdih-uu-1-1948"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
-      "id": "ev-jdih-uu-2-1948",
-      "term_id": "dpr-knip-1945-1950",
-      "date": "1948-01-20",
-      "category": "produk-hukum",
-      "title_id": "UU No. 2 Tahun 1948 tentang Pengesahan Perjanjian Persahabatan antara Republik Indonesia dan Negara Kerajaan Mesir",
-      "summary_id": "Ditetapkan di Jakarta pada 20 Januari 1948, diundangkan pada tanggal yang sama. Materi yang diatur: Pengesahan Perjanjian Persahabatan antara Republik Indonesia dan Negara Kerajaan Mesir. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-2-1948"
       ],
       "dimension_ids": [],
       "actor_ids": [],
@@ -17765,20 +17979,6 @@
       "summary_id": "Ditetapkan di Jakarta pada 10 Juli 1948, diundangkan pada tanggal yang sama. Materi yang diatur: Penetapan Aturan-Aturan Pokok Mengenai Pemerintahan Sendiri Didaerah-Daerah yang Berhak Mengatur dan Mengurus Rumah Tangganya Sendiri. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang.",
       "source_ids": [
         "jdih-uu-22-1948"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
-      "id": "ev-jdih-uu-23-1948",
-      "term_id": "dpr-knip-1945-1950",
-      "date": "1948-07-23",
-      "category": "produk-hukum",
-      "title_id": "UU No. 23 Tahun 1948 tentang Pengawasan Perburuhan Tahun 1948",
-      "summary_id": "Ditetapkan di Jakarta pada 23 Juli 1948, diundangkan pada tanggal yang sama. Materi yang diatur: Pengawasan Perburuhan Tahun 1948. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-23-1948"
       ],
       "dimension_ids": [],
       "actor_ids": [],
@@ -18177,20 +18377,6 @@
       "provenance": "register-jdih"
     },
     {
-      "id": "ev-jdih-uu-17-1950",
-      "term_id": "dpr-1950-1960",
-      "date": "1950",
-      "category": "produk-hukum",
-      "title_id": "UU No. 17 Tahun 1950 tentang Pembentukan Daerah-Daerah Kota Kecil dalam Lingkungan Propinsi Jawa Timur, Jawa Tengah dan Jawa Barat",
-      "summary_id": "Materi yang diatur: Pembentukan Daerah-Daerah Kota Kecil dalam Lingkungan Propinsi Jawa Timur, Jawa Tengah dan Jawa Barat. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-17-1950"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
       "id": "ev-jdih-uudrt-2-1950",
       "term_id": "presiden-soekarno-i",
       "date": "1950",
@@ -18465,20 +18651,6 @@
       "summary_id": "Ditetapkan di Jakarta pada 26 April 1950, diundangkan 27 April 1950. Materi yang diatur: Peraturan Pensiun dan Onderstand Kepada para Anggota Tentara Angkatan Darat. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang Darurat.",
       "source_ids": [
         "jdih-uudrt-19-1950"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
-      "id": "ev-jdih-uu-1-1950",
-      "term_id": "dpr-1950-1960",
-      "date": "1950-05-06",
-      "category": "produk-hukum",
-      "title_id": "UU No. 1 Tahun 1950 tentang Susunan, Kekuasaan, dan Jalan-Pengadilan Mahkamah Agung Indonesia",
-      "summary_id": "Ditetapkan di Jakarta pada 06 Mei 1950, diundangkan 09 Mei 1950. Materi yang diatur: Susunan, Kekuasaan, dan Jalan-Pengadilan Mahkamah Agung Indonesia. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-1-1950"
       ],
       "dimension_ids": [],
       "actor_ids": [],
@@ -19039,20 +19211,6 @@
       "summary_id": "Ditetapkan di Jakarta pada 06 Januari 1951, diundangkan 08 Januari 1951. Materi yang diatur: Pernyataan Berlakunya Undang-Undang Kecelakaan Tahun 1947 Nr. 33, dari Republik Indonesia untuk Seluruh Indonesia. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang.",
       "source_ids": [
         "jdih-uu-2-1951"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
-      "id": "ev-jdih-uu-3-1951",
-      "term_id": "dpr-1950-1960",
-      "date": "1951-01-06",
-      "category": "produk-hukum",
-      "title_id": "UU No. 3 Tahun 1951 tentang Pernyataan Berlakunya Undang-Undang Pengawasan Perburuhan Tahun 1948 Nr. 23 dari Republik Indonesia untuk Seluruh Indonesia",
-      "summary_id": "Ditetapkan di Jakarta pada 06 Januari 1951, diundangkan 08 Januari 1951. Materi yang diatur: Pernyataan Berlakunya Undang-Undang Pengawasan Perburuhan Tahun 1948 Nr. 23 dari Republik Indonesia untuk Seluruh Indonesia. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-3-1951"
       ],
       "dimension_ids": [],
       "actor_ids": [],
@@ -28047,20 +28205,6 @@
       "provenance": "register-jdih"
     },
     {
-      "id": "ev-jdih-uu-22-1961",
-      "term_id": "dpr-gr-1960-1971",
-      "date": "1961-12-04",
-      "category": "produk-hukum",
-      "title_id": "UU No. 22 Tahun 1961 tentang Perguruan Tinggi",
-      "summary_id": "Ditetapkan di Jakarta pada 04 Desember 1961, diundangkan pada tanggal yang sama. Materi yang diatur: Perguruan Tinggi. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-22-1961"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
       "id": "ev-jdih-uu-1-1962",
       "term_id": "dpr-gr-1960-1971",
       "date": "1962-01-18",
@@ -29111,20 +29255,6 @@
       "provenance": "register-jdih"
     },
     {
-      "id": "ev-jdih-uu-14-1963",
-      "term_id": "dpr-gr-1960-1971",
-      "date": "1963-11-28",
-      "category": "produk-hukum",
-      "title_id": "UU No. 14 Tahun 1963 tentang Pengesahan \"Perjanjian Karya\" Antara P.N. Pertamina dengan p.t. Caltex Indonesia dan California Asiatic Oil Company (Calasiatic) Texaco Overseas Petroleum Company (Topco) ; P.N. Pertamina dengan P.T. Stanvac Indonesia, P.N. Permigan dengan P.T. Shell indonesia",
-      "summary_id": "Ditetapkan di Jakarta pada 28 November 1963, diundangkan pada tanggal yang sama. Materi yang diatur: Pengesahan \"Perjanjian Karya\" Antara P.N. Pertamina dengan p.t. Caltex Indonesia dan California Asiatic Oil Company (Calasiatic) Texaco Overseas Petroleum Company (Topco) ; P.N. Pertamina dengan P.T. Stanvac Indonesia, P.N. Permigan dengan P.T. Shell indonesia. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-14-1963"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
       "id": "ev-jdih-uu-4-1963",
       "term_id": "dpr-gr-1960-1971",
       "date": "1963-11-28",
@@ -29889,20 +30019,6 @@
       "summary_id": "Ditetapkan di Jakarta pada 23 September 1964, diundangkan pada tanggal yang sama. Materi yang diatur: Pemutusan Hubungan Kerja Di Perusahaan Swasta. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang.",
       "source_ids": [
         "jdih-uu-12-1964"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
-      "id": "ev-jdih-uu-13-1964",
-      "term_id": "dpr-gr-1960-1971",
-      "date": "1964-09-23",
-      "category": "produk-hukum",
-      "title_id": "UU No. 13 Tahun 1964 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang No. 2 Tahun 1964 Tentang Pembentukan Daerah Tingkat I Sulawesi Tengah Dan Daerah Tingkat I Sulawesi Tenggara Dengan Mengubah Undang-Undang No. 47 Prp Tahun 1960 tentang Pembentukan Daerah Tingkat I Sulawesi Utara -te",
-      "summary_id": "Ditetapkan di Jakarta pada 23 September 1964, diundangkan pada tanggal yang sama. Materi yang diatur: Penetapan Peraturan Pemerintah Pengganti Undang-Undang No. 2 Tahun 1964 Tentang Pembentukan Daerah Tingkat I Sulawesi Tengah Dan Daerah Tingkat I Sulawesi Tenggara Dengan Mengubah Undang-Undang No. 47 Prp Tahun 1960 tentang Pembentukan Daerah Tingkat I Sulawesi Utara -tengah Dan Daerah Tingkat I Sulawesi Selatan-Tenggara (Lembaran Negara Tahun 1964 No. 7) Menjadi Undang-Undang. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-13-1964"
       ],
       "dimension_ids": [],
       "actor_ids": [],
@@ -32569,20 +32685,6 @@
       "provenance": "register-jdih"
     },
     {
-      "id": "ev-jdih-uu-1-1972",
-      "term_id": "dpr-1971-1999",
-      "date": "1972-03-06",
-      "category": "produk-hukum",
-      "title_id": "UU No. 1 Tahun 1972 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1972/1973",
-      "summary_id": "Ditetapkan di Jakarta pada 06 Maret 1972, diundangkan 07 Maret 1972. Materi yang diatur: Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1972/1973. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-1-1972"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
       "id": "ev-jdih-uu-2-1972",
       "term_id": "dpr-1971-1999",
       "date": "1972-06-13",
@@ -32591,20 +32693,6 @@
       "summary_id": "Ditetapkan di Jakarta pada 13 Juni 1972, diundangkan pada tanggal yang sama. Materi yang diatur: Tambahan dan Perubahan atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1971/1972. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
       "source_ids": [
         "jdih-uu-2-1972"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
-      "id": "ev-jdih-uu-3-1972",
-      "term_id": "dpr-1971-1999",
-      "date": "1972-07-28",
-      "category": "produk-hukum",
-      "title_id": "UU No. 3 Tahun 1972 tentang Ketentuan-Ketentuan Pokok Transmigrasi",
-      "summary_id": "Ditetapkan di Jakarta pada 28 Juli 1972, diundangkan pada tanggal yang sama. Materi yang diatur: Ketentuan-Ketentuan Pokok Transmigrasi. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-3-1972"
       ],
       "dimension_ids": [],
       "actor_ids": [],
@@ -32759,20 +32847,6 @@
       "summary_id": "Ditetapkan di Jakarta pada 08 Desember 1973, diundangkan pada tanggal yang sama. Materi yang diatur: Perjanjian antara Republik Indonesia dan Republik Singapura Mengenai Penetapan Garis Batas Laut Wilayah Kedua Negara di Selat Singapura. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
       "source_ids": [
         "jdih-uu-7-1973"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
-      "id": "ev-jdih-uu-1-1974",
-      "term_id": "dpr-1971-1999",
-      "date": "1974-01-02",
-      "category": "produk-hukum",
-      "title_id": "UU No. 1 Tahun 1974 tentang Perkawinan",
-      "summary_id": "Ditetapkan di Jakarta pada 02 Januari 1974, diundangkan pada tanggal yang sama. Materi yang diatur: Perkawinan. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-1-1974"
       ],
       "dimension_ids": [],
       "actor_ids": [],
@@ -33367,20 +33441,6 @@
       "provenance": "register-jdih"
     },
     {
-      "id": "ev-jdih-uu-6-1976",
-      "term_id": "dpr-1971-1999",
-      "date": "1976-06-21",
-      "category": "produk-hukum",
-      "title_id": "UU No. 6 Tahun 1976 tentang Pengesahan Perjanjian Persahabatan dan Kerjasama di Asia Tenggara",
-      "summary_id": "Ditetapkan di Jakarta pada 21 Juni 1976, diundangkan pada tanggal yang sama. Materi yang diatur: Pengesahan Perjanjian Persahabatan dan Kerjasama di Asia Tenggara. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-6-1976"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
       "id": "ev-jdih-uu-7-1976",
       "term_id": "dpr-1971-1999",
       "date": "1976-07-17",
@@ -33641,20 +33701,6 @@
       "summary_id": "Ditetapkan di Jakarta pada 23 Juli 1979, diundangkan pada tanggal yang sama. Materi yang diatur: Kesejahteraan Anak. Status menurut JDIH: Berlaku. Jenis instrumen: Undang-Undang.",
       "source_ids": [
         "jdih-uu-4-1979"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
-      "id": "ev-jdih-uu-5-1979",
-      "term_id": "dpr-1971-1999",
-      "date": "1979-12-01",
-      "category": "produk-hukum",
-      "title_id": "UU No. 5 Tahun 1979 tentang Pemerintahan Desa",
-      "summary_id": "Ditetapkan di Jakarta pada 01 Desember 1979, diundangkan pada tanggal yang sama. Materi yang diatur: Pemerintahan Desa. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-5-1979"
       ],
       "dimension_ids": [],
       "actor_ids": [],
@@ -53311,20 +53357,6 @@
       "summary_id": "Ditetapkan di Jakarta pada 07 Oktober 1997, diundangkan pada tanggal yang sama. Materi yang diatur: Pembebastugasan Dan Pemberhentian Ketua, Wakil Ketua, Atau Anggota Badan Penyelesaian Sengketa Pajak Serta Hak-Haknya. Status menurut JDIH: Berlaku. Jenis instrumen: Peraturan Pemerintah.",
       "source_ids": [
         "jdih-pp-37-1997"
-      ],
-      "dimension_ids": [],
-      "actor_ids": [],
-      "provenance": "register-jdih"
-    },
-    {
-      "id": "ev-jdih-uu-28-1997",
-      "term_id": "dpr-1971-1999",
-      "date": "1997-10-07",
-      "category": "produk-hukum",
-      "title_id": "UU No. 28 Tahun 1997 tentang Kepolisian Negara Republik Indonesia",
-      "summary_id": "Ditetapkan di Jakarta pada 07 Oktober 1997, diundangkan pada tanggal yang sama. Materi yang diatur: Kepolisian Negara Republik Indonesia. Status menurut JDIH: Tidak Berlaku. Jenis instrumen: Undang-Undang.",
-      "source_ids": [
-        "jdih-uu-28-1997"
       ],
       "dimension_ids": [],
       "actor_ids": [],
@@ -174312,7 +174344,7 @@
       "citation_id": "LN. 1997/ No. 81, TLN NO. 3710, LL SETNEG : 21 HLM",
       "resolved_url": "https://peraturan.bpk.go.id/Download/34600/UU%20Nomor%2028%20Tahun%201997.pdf",
       "detail_url": "/arsip/jdih-uu-28-1997",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -175896,7 +175928,7 @@
       "citation_id": "LN. 1979/ No. 56, TLN NO. 3153, LL SETNEG : 16 HLM",
       "resolved_url": "https://peraturan.bpk.go.id/Download/36042/UU%20Nomor%205%20Tahun%201979.pdf",
       "detail_url": "/arsip/jdih-uu-5-1979",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -176136,7 +176168,7 @@
       "citation_id": "LN. 1976, LL SETNEG : 2 HLM",
       "resolved_url": "https://peraturan.bpk.go.id/Download/36142/UU%20Nomor%206%20Tahun%201976.pdf",
       "detail_url": "/arsip/jdih-uu-6-1976",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -176388,7 +176420,7 @@
       "citation_id": "LN. 1974/ No.1, TLN NO.3019, LL SETNEG : 26 HLM",
       "resolved_url": "https://peraturan.bpk.go.id/Download/36382/UU%20Nomor%201%20Tahun%201974.pdf",
       "detail_url": "/arsip/jdih-uu-1-1974",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -176520,7 +176552,7 @@
       "citation_id": "LN. 1972, LL SETNEG : 11 HLM",
       "resolved_url": "https://peraturan.bpk.go.id/Download/36534/UU%20Nomor%203%20Tahun%201972.pdf",
       "detail_url": "/arsip/jdih-uu-3-1972",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -176544,7 +176576,7 @@
       "citation_id": "LN. 1972 LL SETNEG : 6 HLM",
       "resolved_url": "https://peraturan.bpk.go.id/Download/36528/UU%20Nomor%201%20Tahun%201972.pdf",
       "detail_url": "/arsip/jdih-uu-1-1972",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -178248,7 +178280,7 @@
       "citation_id": "LN. 1964/ No. 94 , TLN NO. 2687, LL SETNEG : 12 HLM",
       "resolved_url": "https://peraturan.bpk.go.id/Download/39601/UU%20Nomor%2013%20Tahun%201964.pdf",
       "detail_url": "/arsip/jdih-uu-13-1964",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -178404,7 +178436,7 @@
       "citation_id": "LN. 1963/ No. 110, TLN NO. 2599, LL SETNEG : 4 HLM",
       "resolved_url": "https://peraturan.bpk.go.id/Download/39906/UU%20Nomor%2014%20Tahun%201963.pdf",
       "detail_url": "/arsip/jdih-uu-14-1963",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -178800,7 +178832,7 @@
       "citation_id": "LN. 1961 No. 302, TLN NO. 2361, LL SETNEG : 12 HLM",
       "resolved_url": "https://peraturan.bpk.go.id/Download/40513/UU%20Nomor%2022%20Tahun%201961.pdf",
       "detail_url": "/arsip/jdih-uu-22-1961",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -183972,7 +184004,7 @@
       "citation_id": "LN.1951/NO.4, LL SETNEG : 4 HLM.",
       "resolved_url": "https://peraturan.bpk.go.id/Download/29408/UU%20Nomor%203%20Tahun%201951.pdf",
       "detail_url": "/arsip/jdih-uu-3-1951",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -184008,7 +184040,7 @@
       "citation_id": "Subjek OTONOMI DAERAH DAN PEMERINTAH DAERAH",
       "resolved_url": "https://peraturan.bpk.go.id/Details/47964/uu-no-17-tahun-1950",
       "detail_url": "/arsip/jdih-uu-17-1950",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -184188,7 +184220,7 @@
       "citation_id": "LL Setneg : 20 Hlm",
       "resolved_url": "https://peraturan.bpk.go.id/Download/14771/UU%20Nomor%201%20Tahun%201950.pdf",
       "detail_url": "/arsip/jdih-uu-1-1950",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -184488,7 +184520,7 @@
       "citation_id": "Subjek KETENAGAKERJAAN",
       "resolved_url": "https://peraturan.bpk.go.id/Download/14609/UU%20Nomor%2023%20Tahun%201948.pdf",
       "detail_url": "/arsip/jdih-uu-23-1948",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -184740,7 +184772,7 @@
       "citation_id": "Subjek PENGESAHAN DAN / ATAU PEMBATALAN PERSETUJUAN / KONVENSI / PERJANJIAN INTERNASIONAL",
       "resolved_url": "https://peraturan.bpk.go.id/Download/14307/UU%20Nomor%202%20Tahun%201948.pdf",
       "detail_url": "/arsip/jdih-uu-2-1948",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -184872,7 +184904,7 @@
       "citation_id": "Subjek PENDIDIKAN",
       "resolved_url": "https://peraturan.bpk.go.id/Download/14280/UU%20Nomor%2032%20Tahun%201947.pdf",
       "detail_url": "/arsip/jdih-uu-32-1947",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -185172,7 +185204,7 @@
       "citation_id": "Subjek ADMINISTRASI DAN TATA USAHA NEGARA - HUKUM ACARA DAN PERADILAN",
       "resolved_url": "https://peraturan.bpk.go.id/Download/14256/UU%20Nomor%207%20Tahun%201947.pdf",
       "detail_url": "/arsip/jdih-uu-7-1947",
-      "provenance": "register-jdih",
+      "provenance": "kurasi",
       "verification_tier": "official_source"
     },
     {
@@ -300860,33 +300892,6 @@
       "created_at": "2026-08-27",
       "dimension_scores": [
         {
-          "dimension_id": "sila-5",
-          "score": 0,
-          "confidence": 0.85,
-          "rationale_id": "Pengawasan perlindungan hak ekonomi dan agraria masyarakat adat di wilayah IKN Nusantara.",
-          "thesis_id": "Dalil formal DPD: hak ekonomi dan agraria masyarakat adat di wilayah Ibu Kota Nusantara diawasi sejak awal masa jabatan, dan transparansi alokasi transfer ke daerah didesak pada 2025.",
-          "antithesis_id": "Pengawasan itu belum menghasilkan satu pun koreksi kebijakan yang terukur bagi warga terdampak, sementara penetapan lokasi dan pembangunannya sudah final sehingga ruang yang tersisa hanya mitigasi.",
-          "synthesis_id": "Skor Netral (0) karena pengawasan hak ekonomi dan agraria masyarakat adat dijalankan sejak awal masa jabatan, tetapi belum menghasilkan koreksi kebijakan yang terukur bagi warga terdampak.",
-          "evidence": [
-            {
-              "source_id": "laporan-dpd-pengawasan-ikn-2024"
-            },
-            {
-              "source_id": "laporan-dpd-dbh-2018"
-            },
-            {
-              "source_id": "laporan-dpd-guru-honorer-2022"
-            }
-          ],
-          "event_ids": [
-            "ev-dpd-pengawasan-adat-ikn-2024",
-            "ev-dpd-advokasi-fiskal-daerah-2025"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
           "dimension_id": "checks-balances",
           "score": 0,
           "confidence": 0.75,
@@ -300947,40 +300952,35 @@
           ]
         },
         {
-          "dimension_id": "tujuan-1",
+          "dimension_id": "sila-1",
           "score": 0,
-          "confidence": 0.55,
-          "rationale_id": "Pengawasan pembangunan IKN dan komitmen terhadap daerah terluar/kepulauan memperkuat pemerataan pembangunan nasional dan keutuhan wilayah.",
-          "thesis_id": "Dalil formal DPD: pembangunan Ibu Kota Nusantara diawasi dan komitmen pada daerah terluar serta kepulauan ditegaskan sejak awal masa jabatan.",
-          "antithesis_id": "Pengawasan IKN dan komitmen pada daerah terluar dijalankan lewat kunjungan dan rekomendasi, tetapi tanpa kewenangan anggaran maupun legislasi sehingga pengaruhnya pada alokasi pembangunan belum terbukti.",
-          "synthesis_id": "Skor Netral (0) karena pengawasan IKN dan wilayah terluar dijalankan lewat kunjungan dan rekomendasi tanpa kewenangan anggaran maupun legislasi.",
+          "confidence": 0.4,
+          "rationale_id": "Tidak ditemukan satu pun tindakan DPD periode ini yang menyentuh fasilitasi kehidupan beragama atau relasi negara dengan umat beragama. Kewenangan DPD memang tidak mencakup bidang ini, tetapi ketiadaan tindakan tetap dicatat sebagai ketiadaan temuan, bukan sebagai kinerja netral yang memuaskan.",
+          "thesis_id": "Dalil formalnya: Pasal 22D UUD 1945 membatasi kewenangan DPD pada rancangan undang-undang tertentu yang berkaitan dengan otonomi daerah dan hubungan pusat-daerah, sehingga urusan keagamaan berada di luar mandat konstitusionalnya.",
+          "antithesis_id": "Pembatasan mandat tidak menutup fungsi pengawasan dan penyampaian pertimbangan yang tetap dimiliki DPD, dan isu keagamaan di daerah - dari perizinan rumah ibadah sampai konflik kebinekaan - jelas beririsan dengan hubungan pusat-daerah yang menjadi wilayahnya.",
+          "synthesis_id": "Skor Netral (0) karena tidak ada tindakan signifikan yang tercatat, disertai evidence_gap sehingga dimensi ini dikeluarkan dari perhitungan indeks sampai ada bukti.",
+          "evidence": [],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ],
+          "evidence_gap": true
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 1,
+          "confidence": 0.6,
+          "rationale_id": "DPD mengawasi dampak sosial pembangunan Ibu Kota Nusantara terhadap masyarakat adat dan mendorong percepatan pengesahan RUU Masyarakat Hukum Adat masuk Prolegnas. Dua tindakan itu menyasar kelompok yang paling lemah posisinya dalam proyek negara berskala besar, dan dilakukan ketika lembaga lain tidak mengangkatnya.",
+          "thesis_id": "Dalil formalnya: DPD menjalankan fungsi pengawasan atas pelaksanaan undang-undang yang berkaitan dengan otonomi daerah sebagaimana Pasal 22D ayat (3) UUD 1945, dan menyampaikan hasilnya sebagai pertimbangan kepada DPR.",
+          "antithesis_id": "Pengawasan DPD berhenti sebagai pertimbangan yang tidak mengikat: RUU Masyarakat Hukum Adat sudah diusulkan lintas periode tanpa pernah disahkan, dan pembangunan IKN berjalan terus tanpa perubahan yang dapat ditelusuri ke temuan DPD.",
+          "synthesis_id": "Skor Baik (+1) karena isu hak masyarakat adat diangkat secara konkret dan berulang oleh lembaga yang paling sedikit kewenangannya, meski dampaknya terbatas pada agenda, belum pada kebijakan.",
           "evidence": [
             {
               "source_id": "laporan-dpd-pengawasan-ikn-2024"
-            },
-            {
-              "source_id": "laporan-dpd-guru-honorer-2022"
             }
           ],
           "event_ids": [
-            "ev-dpd-evaluasi-anggaran-pendidikan-2025"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "tujuan-2",
-          "score": 0,
-          "confidence": 0.55,
-          "rationale_id": "DPD mendesak penataan anggaran pendidikan dan transparansi alokasi dana transfer ke daerah demi kesejahteraan dan pemerataan layanan publik di daerah.",
-          "thesis_id": "Dalil formal DPD: penataan 20 persen anggaran pendidikan dan transparansi alokasi transfer ke daerah didesak pada 2025 sebagai koreksi atas distorsi yang berlangsung.",
-          "antithesis_id": "Desakan penataan anggaran pendidikan dan transparansi transfer ke daerah disampaikan sebagai rekomendasi, sementara keputusan alokasinya tetap berada pada pemerintah dan DPR tanpa kewajiban menanggapi.",
-          "synthesis_id": "Skor Netral (0) karena distorsi anggaran pendidikan dan ketertutupan transfer daerah diangkat sebagai rekomendasi, sementara keputusan alokasinya tetap di pemerintah dan DPR.",
-          "evidence": [
-            {
-              "source_id": "laporan-dpd-dbh-2018"
-            }
+            "ev-dpd-pengawasan-adat-ikn-2024",
+            "ev-dpd-posisi-ruu-masyarakat-adat-2025"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -301031,6 +301031,107 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 0,
+          "confidence": 0.85,
+          "rationale_id": "Pengawasan perlindungan hak ekonomi dan agraria masyarakat adat di wilayah IKN Nusantara.",
+          "thesis_id": "Dalil formal DPD: hak ekonomi dan agraria masyarakat adat di wilayah Ibu Kota Nusantara diawasi sejak awal masa jabatan, dan transparansi alokasi transfer ke daerah didesak pada 2025.",
+          "antithesis_id": "Pengawasan itu belum menghasilkan satu pun koreksi kebijakan yang terukur bagi warga terdampak, sementara penetapan lokasi dan pembangunannya sudah final sehingga ruang yang tersisa hanya mitigasi.",
+          "synthesis_id": "Skor Netral (0) karena pengawasan hak ekonomi dan agraria masyarakat adat dijalankan sejak awal masa jabatan, tetapi belum menghasilkan koreksi kebijakan yang terukur bagi warga terdampak.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+            },
+            {
+              "source_id": "laporan-dpd-dbh-2018"
+            },
+            {
+              "source_id": "laporan-dpd-guru-honorer-2022"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-pengawasan-adat-ikn-2024",
+            "ev-dpd-advokasi-fiskal-daerah-2025"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 0,
+          "confidence": 0.55,
+          "rationale_id": "Pengawasan pembangunan IKN dan komitmen terhadap daerah terluar/kepulauan memperkuat pemerataan pembangunan nasional dan keutuhan wilayah.",
+          "thesis_id": "Dalil formal DPD: pembangunan Ibu Kota Nusantara diawasi dan komitmen pada daerah terluar serta kepulauan ditegaskan sejak awal masa jabatan.",
+          "antithesis_id": "Pengawasan IKN dan komitmen pada daerah terluar dijalankan lewat kunjungan dan rekomendasi, tetapi tanpa kewenangan anggaran maupun legislasi sehingga pengaruhnya pada alokasi pembangunan belum terbukti.",
+          "synthesis_id": "Skor Netral (0) karena pengawasan IKN dan wilayah terluar dijalankan lewat kunjungan dan rekomendasi tanpa kewenangan anggaran maupun legislasi.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-pengawasan-ikn-2024"
+            },
+            {
+              "source_id": "laporan-dpd-guru-honorer-2022"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-evaluasi-anggaran-pendidikan-2025"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": 0,
+          "confidence": 0.55,
+          "rationale_id": "DPD mendesak penataan anggaran pendidikan dan transparansi alokasi dana transfer ke daerah demi kesejahteraan dan pemerataan layanan publik di daerah.",
+          "thesis_id": "Dalil formal DPD: penataan 20 persen anggaran pendidikan dan transparansi alokasi transfer ke daerah didesak pada 2025 sebagai koreksi atas distorsi yang berlangsung.",
+          "antithesis_id": "Desakan penataan anggaran pendidikan dan transparansi transfer ke daerah disampaikan sebagai rekomendasi, sementara keputusan alokasinya tetap berada pada pemerintah dan DPR tanpa kewajiban menanggapi.",
+          "synthesis_id": "Skor Netral (0) karena distorsi anggaran pendidikan dan ketertutupan transfer daerah diangkat sebagai rekomendasi, sementara keputusan alokasinya tetap di pemerintah dan DPR.",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-dbh-2018"
+            }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.6,
+          "rationale_id": "DPD mendesak penataan mandat 20 persen anggaran pendidikan dalam APBN agar benar-benar sampai ke sekolah dasar, bukan tersebar ke pos yang secara akuntansi masuk kategori pendidikan tetapi tidak menyentuh ruang kelas. Ini menyasar persoalan yang sudah lama diketahui namun jarang dipersoalkan secara kelembagaan.",
+          "thesis_id": "Dalil formalnya: Pasal 31 ayat (4) UUD 1945 mewajibkan negara memprioritaskan anggaran pendidikan sekurang-kurangnya 20 persen dari APBN dan APBD, dan pemerintah melaporkan mandat itu terpenuhi setiap tahun.",
+          "antithesis_id": "Angka 20 persen terpenuhi secara akuntansi tetapi tidak secara substansi: sebagian besar dialokasikan ke transfer daerah dan belanja pegawai, sehingga capaian formal justru menutupi kekurangan pembiayaan pada satuan pendidikan yang dituju perintah konstitusi.",
+          "synthesis_id": "Skor Baik (+1) karena DPD mempersoalkan mutu pemenuhan mandat konstitusional, bukan sekadar angkanya - persis pembacaan yang dibutuhkan Pasal 31 ayat (4).",
+          "evidence": [
+            {
+              "source_id": "laporan-dpd-guru-honorer-2022"
+            }
+          ],
+          "event_ids": [
+            "ev-dpd-evaluasi-anggaran-pendidikan-2025"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 0,
+          "confidence": 0.4,
+          "rationale_id": "Tidak ada catatan keterlibatan DPD periode ini dalam politik luar negeri, diplomasi parlemen, atau pertimbangan atas ratifikasi perjanjian internasional. Ketiadaan ini konsisten dengan mandat Pasal 22D yang tidak menyebut hubungan luar negeri.",
+          "thesis_id": "Dalil formalnya: kewenangan legislasi DPD dibatasi pada bidang otonomi daerah, pembentukan dan pemekaran daerah, hubungan pusat-daerah, pengelolaan sumber daya alam, serta perimbangan keuangan - hubungan luar negeri berada di luar daftar itu.",
+          "antithesis_id": "Sejumlah perjanjian internasional yang diratifikasi berdampak langsung pada pengelolaan sumber daya alam dan perimbangan keuangan daerah, sehingga ketiadaan pertimbangan DPD di ranah itu bukan sepenuhnya persoalan mandat melainkan juga pilihan untuk tidak menggunakannya.",
+          "synthesis_id": "Skor Netral (0) karena tidak ada tindakan signifikan yang tercatat, disertai evidence_gap sehingga dimensi ini tidak ikut menghitung indeks.",
+          "evidence": [],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ],
+          "evidence_gap": true
         }
       ]
     },
@@ -301080,33 +301181,6 @@
       "created_at": "2026-08-30",
       "dimension_scores": [
         {
-          "dimension_id": "negara-hukum",
-          "score": 1,
-          "confidence": 0.5,
-          "rationale_id": "Dekrit Presiden 5 Juli 1959 membubarkan Konstituante dan mengembalikan UUD 1945 sebagai sumber hukum, menegakkan kembali konstitusi yang lama setelah periode parlementer.",
-          "thesis_id": "Dalil formal MPRS: UUD 1945 diberlakukan kembali sebagai sumber tertib hukum dan peralihan kekuasaan dituntaskan lewat ketetapan yang terdokumentasi, bukan lewat kekerasan.",
-          "antithesis_id": "Pengembalian UUD 1945 sebagai sumber hukum dilakukan lewat dekrit presiden tanpa prosedur perubahan konstitusi yang sah, sehingga tertib hukum yang dipulihkan berdiri di atas tindakan yang menerobos konstitusi yang sedang berlaku.",
-          "synthesis_id": "Skor Baik (+1) karena MPRS menuntaskan peralihan kekuasaan lewat ketetapan yang terdokumentasi dan bukan lewat kekerasan, menjaga bentuk tertib konstitusional tetap berjalan.",
-          "evidence": [
-            {
-              "source_id": "anri-dekrit-presiden-5-juli-1959"
-            },
-            {
-              "source_id": "tap-mprs-xxxiii-1967"
-            },
-            {
-              "source_id": "anri-risalah-sidang-mprs-1967"
-            }
-          ],
-          "event_ids": [
-            "ev-mpr-tap-xxxiii-1967",
-            "ev-anri-sidang-istimewa-mprs-1967"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
           "dimension_id": "checks-balances",
           "score": 0,
           "confidence": 0.55,
@@ -301123,30 +301197,6 @@
             },
             {
               "source_id": "anri-risalah-sidang-mprs-1967"
-            }
-          ],
-          "event_ids": [
-            "ev-mpr-tap-xxxiii-1967",
-            "ev-anri-sidang-istimewa-mprs-1967"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "sila-1",
-          "score": 1,
-          "confidence": 0.5,
-          "rationale_id": "MPRS menegaskan Pancasila sebagai sumber tertib hukum termasuk sila Ketuhanan, namun penafsirannya dikendalikan oleh kekuasaan, bukan ruang tafsir bebas warga.",
-          "thesis_id": "Dalil formal MPRS: Pancasila ditegaskan sebagai sumber dari segala sumber tertib hukum negara lewat ketetapan yang mengikat seluruh penyelenggara negara.",
-          "antithesis_id": "Penegasan Pancasila sebagai sumber tertib hukum berjalan bersamaan dengan pelarangan ajaran komunisme lewat TAP MPRS XXV/1966 yang menjadikan keyakinan politik dasar pemidanaan, mempersempit kebebasan berkeyakinan atas nama sila pertama.",
-          "synthesis_id": "Skor Baik (+1) karena Pancasila ditegaskan sebagai sumber tertib hukum negara lewat ketetapan yang mengikat, meletakkan dasar normatif yang bertahan hingga kini.",
-          "evidence": [
-            {
-              "source_id": "anri-risalah-sidang-mprs-1967"
-            },
-            {
-              "source_id": "tap-mprs-xxxiii-1967"
             }
           ],
           "event_ids": [
@@ -301188,6 +301238,57 @@
           ]
         },
         {
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.5,
+          "rationale_id": "Dekrit Presiden 5 Juli 1959 membubarkan Konstituante dan mengembalikan UUD 1945 sebagai sumber hukum, menegakkan kembali konstitusi yang lama setelah periode parlementer.",
+          "thesis_id": "Dalil formal MPRS: UUD 1945 diberlakukan kembali sebagai sumber tertib hukum dan peralihan kekuasaan dituntaskan lewat ketetapan yang terdokumentasi, bukan lewat kekerasan.",
+          "antithesis_id": "Pengembalian UUD 1945 sebagai sumber hukum dilakukan lewat dekrit presiden tanpa prosedur perubahan konstitusi yang sah, sehingga tertib hukum yang dipulihkan berdiri di atas tindakan yang menerobos konstitusi yang sedang berlaku.",
+          "synthesis_id": "Skor Baik (+1) karena MPRS menuntaskan peralihan kekuasaan lewat ketetapan yang terdokumentasi dan bukan lewat kekerasan, menjaga bentuk tertib konstitusional tetap berjalan.",
+          "evidence": [
+            {
+              "source_id": "anri-dekrit-presiden-5-juli-1959"
+            },
+            {
+              "source_id": "tap-mprs-xxxiii-1967"
+            },
+            {
+              "source_id": "anri-risalah-sidang-mprs-1967"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-tap-xxxiii-1967",
+            "ev-anri-sidang-istimewa-mprs-1967"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.5,
+          "rationale_id": "MPRS menegaskan Pancasila sebagai sumber tertib hukum termasuk sila Ketuhanan, namun penafsirannya dikendalikan oleh kekuasaan, bukan ruang tafsir bebas warga.",
+          "thesis_id": "Dalil formal MPRS: Pancasila ditegaskan sebagai sumber dari segala sumber tertib hukum negara lewat ketetapan yang mengikat seluruh penyelenggara negara.",
+          "antithesis_id": "Penegasan Pancasila sebagai sumber tertib hukum berjalan bersamaan dengan pelarangan ajaran komunisme lewat TAP MPRS XXV/1966 yang menjadikan keyakinan politik dasar pemidanaan, mempersempit kebebasan berkeyakinan atas nama sila pertama.",
+          "synthesis_id": "Skor Baik (+1) karena Pancasila ditegaskan sebagai sumber tertib hukum negara lewat ketetapan yang mengikat, meletakkan dasar normatif yang bertahan hingga kini.",
+          "evidence": [
+            {
+              "source_id": "anri-risalah-sidang-mprs-1967"
+            },
+            {
+              "source_id": "tap-mprs-xxxiii-1967"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-tap-xxxiii-1967",
+            "ev-anri-sidang-istimewa-mprs-1967"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
           "dimension_id": "sila-2",
           "score": 0,
           "confidence": 0.45,
@@ -301215,27 +301316,38 @@
           ]
         },
         {
-          "dimension_id": "tujuan-1",
+          "dimension_id": "sila-3",
           "score": 0,
-          "confidence": 0.5,
-          "rationale_id": "Kembalinya ke UUD 1945 dan GBHN pada MPRS menjaga keutuhan negara, meski dilakukan lewat dekrit tanpa musyawarah Dewan.",
-          "thesis_id": "Dalil formal MPRS: keutuhan negara dijaga lewat pengembalian UUD 1945 dan penetapan haluan negara, memberi republik kerangka konstitusional yang tunggal setelah kebuntuan Konstituante.",
-          "antithesis_id": "Cara pengembaliannya menerobos konstitusi yang sedang berlaku, sehingga preseden yang ditinggalkan justru melemahkan perlindungan konstitusional warga untuk puluhan tahun sesudahnya.",
-          "synthesis_id": "Skor Netral (0) karena keutuhan negara terjaga melalui peralihan kekuasaan yang terdokumentasi, tepat sebanding dengan rusaknya prosedur konstitusional yang menjadi harga pembayarannya.",
+          "confidence": 0.4,
+          "rationale_id": "Tidak ditemukan ketetapan MPRS periode ini yang menyentuh keadilan antarwilayah, otonomi daerah, atau pengelolaan kebinekaan. Sidang-sidang MPRS terpusat pada persoalan kekuasaan nasional, sementara pemberontakan daerah pada awal periode ini diselesaikan lewat operasi militer dan penetapan presiden, bukan lewat majelis.",
+          "thesis_id": "Dalil formalnya: MPRS sebagai lembaga tertinggi negara menetapkan Garis-Garis Besar Haluan Negara yang secara normatif mencakup seluruh bidang penyelenggaraan negara, termasuk pembangunan daerah.",
+          "antithesis_id": "Haluan yang mencakup segalanya secara normatif tidak berarti ada tindakan yang dapat diperiksa: tidak ada ketetapan MPRS periode ini yang menjadi dasar penataan hubungan pusat-daerah, dan pembentukan serta penghapusan daerah justru berjalan lewat penetapan presiden.",
+          "synthesis_id": "Skor Netral (0) karena tidak ada tindakan signifikan yang tercatat, disertai evidence_gap sehingga dimensi ini dikeluarkan dari perhitungan indeks.",
+          "evidence": [],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ],
+          "evidence_gap": true
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": -1,
+          "confidence": 0.7,
+          "rationale_id": "MPRS adalah majelis yang seluruh anggotanya diangkat Presiden, bukan hasil pemilu - lembaga yang menurut UUD memegang kedaulatan rakyat justru dibentuk oleh pihak yang seharusnya diawasinya. Pada 1966-1967 majelis yang sama akhirnya menjalankan fungsi konstitusionalnya: menetapkan Pancasila sebagai sumber tertib hukum lewat TAP XX/MPRS/1966 dan mencabut kekuasaan Presiden Soekarno lewat TAP XXXIII/MPRS/1967. Koreksi itu nyata, tetapi datang setelah delapan tahun.",
+          "thesis_id": "Dalil formalnya: MPRS dibentuk berdasarkan Dekrit Presiden 5 Juli 1959 sebagai majelis sementara sampai pemilu dapat diselenggarakan, dan seluruh ketetapannya diambil melalui musyawarah untuk mufakat dalam sidang umum.",
+          "antithesis_id": "Musyawarah di antara orang-orang yang diangkat oleh pihak yang dimusyawarahkan bukan permusyawaratan perwakilan: majelis ini menetapkan Soekarno sebagai presiden seumur hidup lewat TAP III/MPRS/1963, keputusan yang bertentangan dengan pembatasan masa jabatan dan mustahil lahir dari majelis yang mandatnya berasal dari pemilih.",
+          "synthesis_id": "Skor Buruk (-1) sebagai neto: pengangkatan anggota dan penetapan presiden seumur hidup menggerus kerakyatan secara berat, tetapi majelis yang sama akhirnya memakai kewenangannya untuk mencabut kekuasaan itu - dua temuan berlawanan, bukan nol temuan.",
           "evidence": [
             {
-              "source_id": "anri-dekrit-presiden-5-juli-1959"
+              "source_id": "anri-risalah-sidang-mprs-1967"
             },
             {
               "source_id": "tap-mprs-xxxiii-1967"
-            },
-            {
-              "source_id": "anri-risalah-sidang-mprs-1967"
             }
           ],
           "event_ids": [
-            "ev-mpr-tap-xxxiii-1967",
-            "ev-anri-sidang-istimewa-mprs-1967"
+            "ev-mprs-tap-xx-1966",
+            "ev-mpr-tap-xxxiii-1967"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -301255,6 +301367,33 @@
             },
             {
               "source_id": "penpres-1-1959"
+            },
+            {
+              "source_id": "tap-mprs-xxxiii-1967"
+            },
+            {
+              "source_id": "anri-risalah-sidang-mprs-1967"
+            }
+          ],
+          "event_ids": [
+            "ev-mpr-tap-xxxiii-1967",
+            "ev-anri-sidang-istimewa-mprs-1967"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 0,
+          "confidence": 0.5,
+          "rationale_id": "Kembalinya ke UUD 1945 dan GBHN pada MPRS menjaga keutuhan negara, meski dilakukan lewat dekrit tanpa musyawarah Dewan.",
+          "thesis_id": "Dalil formal MPRS: keutuhan negara dijaga lewat pengembalian UUD 1945 dan penetapan haluan negara, memberi republik kerangka konstitusional yang tunggal setelah kebuntuan Konstituante.",
+          "antithesis_id": "Cara pengembaliannya menerobos konstitusi yang sedang berlaku, sehingga preseden yang ditinggalkan justru melemahkan perlindungan konstitusional warga untuk puluhan tahun sesudahnya.",
+          "synthesis_id": "Skor Netral (0) karena keutuhan negara terjaga melalui peralihan kekuasaan yang terdokumentasi, tepat sebanding dengan rusaknya prosedur konstitusional yang menjadi harga pembayarannya.",
+          "evidence": [
+            {
+              "source_id": "anri-dekrit-presiden-5-juli-1959"
             },
             {
               "source_id": "tap-mprs-xxxiii-1967"
@@ -301300,6 +301439,34 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 0,
+          "confidence": 0.4,
+          "rationale_id": "Tidak ada ketetapan MPRS periode ini yang tercatat menyentuh pendidikan, kebudayaan, atau ilmu pengetahuan sebagai bidang tersendiri. Kebijakan pendidikan periode ini bergerak lewat undang-undang dan keputusan presiden, tidak lewat majelis.",
+          "thesis_id": "Dalil formalnya: penetapan haluan negara oleh MPRS secara normatif membawahi seluruh bidang pembangunan, sehingga arah pendidikan nasional dianggap sudah tercakup di dalamnya tanpa perlu ketetapan tersendiri.",
+          "antithesis_id": "Cakupan normatif tanpa ketetapan yang dapat disitasi tidak bisa dinilai: bila haluan itu sungguh mengarahkan pendidikan, mestinya ada dokumen majelis yang menjadi rujukan kebijakan - dan tidak ada.",
+          "synthesis_id": "Skor Netral (0) karena tidak ada tindakan signifikan yang tercatat, disertai evidence_gap sehingga dimensi ini tidak ikut menghitung indeks.",
+          "evidence": [],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ],
+          "evidence_gap": true
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 0,
+          "confidence": 0.4,
+          "rationale_id": "Tidak ditemukan ketetapan MPRS yang menjadi dasar politik luar negeri periode ini. Keputusan besar - konfrontasi dengan Malaysia, keluarnya Indonesia dari PBB pada 1965 - diambil dan diumumkan Presiden, bukan ditetapkan majelis.",
+          "thesis_id": "Dalil formalnya: haluan negara yang ditetapkan MPRS memuat garis politik luar negeri bebas-aktif sebagai bagian dari arah penyelenggaraan negara secara keseluruhan.",
+          "antithesis_id": "Keluarnya Indonesia dari Perserikatan Bangsa-Bangsa pada 1965 adalah keputusan politik luar negeri paling berat sepanjang sejarah republik, dan majelis yang mengaku menetapkan haluan negara tidak tercatat membahas, menyetujui, maupun mengoreksinya.",
+          "synthesis_id": "Skor Netral (0) karena tidak ada tindakan majelis yang dapat dinilai, disertai evidence_gap sehingga dimensi ini dikeluarkan dari perhitungan indeks.",
+          "evidence": [],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ],
+          "evidence_gap": true
         }
       ]
     },
@@ -301349,6 +301516,26 @@
       "created_at": "2026-08-30",
       "dimension_scores": [
         {
+          "dimension_id": "checks-balances",
+          "score": 1,
+          "confidence": 0.65,
+          "rationale_id": "Susunan dan kekuasaan Mahkamah Agung ditetapkan pada Februari 1947, ketika ibu kota baru pindah ke Yogyakarta dan pengadilan republik nyaris tanpa gedung maupun arsip. KNIP tetap mendirikan puncak kekuasaan kehakiman yang terpisah dari eksekutif - menetapkan bahwa republik memilih bentuk negara hukum sebelum ia aman secara militer.",
+          "thesis_id": "Dalil formalnya: Pasal 24 UUD 1945 menyatakan kekuasaan kehakiman dilakukan oleh sebuah Mahkamah Agung dan badan peradilan lain yang susunannya ditetapkan undang-undang - perintah yang dijalankan KNIP pada kesempatan pertama.",
+          "antithesis_id": "Pada periode yang sama KNIP sendiri berubah fungsi dari badan pembantu presiden menjadi badan legislatif lewat Maklumat X, dan kabinet berganti-ganti dengan cepat; pemisahan kekuasaan yang rapi di atas kertas berjalan di atas struktur ketatanegaraan yang belum mapan dan sering berubah lewat maklumat, bukan undang-undang.",
+          "synthesis_id": "Skor Baik (+1) karena kemerdekaan kekuasaan kehakiman dilembagakan sejak awal dan bertahan sebagai rujukan, meski keseimbangan antarlembaga lain periode ini masih berubah-ubah.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-7-1947"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-7-1947"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
           "confidence": 0.55,
@@ -301378,16 +301565,68 @@
           ]
         },
         {
-          "dimension_id": "sila-4",
+          "dimension_id": "negara-hukum",
           "score": 1,
-          "confidence": 0.5,
-          "rationale_id": "Pergeseran dari presidensial ke sistem parlementer lewat Maklumat 14 November 1945 menunjukkan negara mengadopsi musyawarah perwakilan dalam merumuskan pemerintahan.",
-          "thesis_id": "Dalil formalnya: Maklumat Pemerintah 14 November 1945 mengalihkan tanggung jawab pemerintahan kepada menteri yang bertanggung jawab kepada badan perwakilan, memperkenalkan permusyawaratan sebagai dasar pemerintahan.",
-          "antithesis_id": "Peralihan ke sistem parlementer ditempuh lewat maklumat pemerintah dan bukan lewat perubahan UUD, sehingga perubahan mendasar sistem ketatanegaraan diputuskan tanpa mekanisme konstitusional yang tersedia.",
-          "synthesis_id": "Skor Baik (+1) karena tanggung jawab pemerintahan dialihkan kepada menteri yang bertanggung jawab pada badan perwakilan, memperkenalkan permusyawaratan sebagai dasar pemerintahan sejak awal republik.",
+          "confidence": 0.4,
+          "rationale_id": "UUD 1945 dan lembaga negara dibentuk 1945 dalam tata hukum darurat revolusi; negara hukum mulai ditegakkan walau dalam keadaan perang.",
+          "thesis_id": "Dalil formalnya: UUD 1945 disahkan dan lembaga negara dibentuk dalam empat hari setelah proklamasi, memberi republik dasar hukum di tengah kekosongan kekuasaan total.",
+          "antithesis_id": "Tertib hukum ditegakkan lewat pengesahan UUD dan pembentukan lembaga, tetapi dalam praktik revolusi banyak keputusan diambil lewat maklumat dan tindakan darurat di luar kerangka konstitusi yang baru disahkan.",
+          "synthesis_id": "Skor Baik (+1) karena konstitusi disahkan dan lembaga negara dibentuk sebagai dasar hukum republik dalam waktu empat hari setelah proklamasi, di tengah kekosongan kekuasaan total.",
           "evidence": [
             {
-              "source_id": "anri-maklumat-kabinet-parlementer-1945"
+              "source_id": "anri-ppki-sidang-18-agu-1945"
+            },
+            {
+              "source_id": "anri-ppki-sidang-19-agu-1945"
+            },
+            {
+              "source_id": "anri-ppki-sidang-22-agu-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-anri-sidang-ppki-18-22-agustus-1945"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.45,
+          "rationale_id": "Rumusan dasar negara pasca-proklamasi menempatkan Ketuhanan sebagai sila pertama, meski tujuh kata Piagam Jakarta dipangkas demi kesatuan.",
+          "thesis_id": "Dalil formalnya: PPKI mengesahkan Pancasila dengan sila Ketuhanan Yang Maha Esa sebagai dasar negara pada 18 Agustus 1945, rumusan yang disepakati agar dapat diterima seluruh golongan.",
+          "antithesis_id": "Penghapusan tujuh kata Piagam Jakarta dilakukan lewat kesepakatan cepat sehari setelah proklamasi tanpa forum permusyawaratan yang luas, dan ketidakpuasan atasnya kemudian meletus menjadi pemberontakan bersenjata.",
+          "synthesis_id": "Skor Baik (+1) karena rumusan Ketuhanan Yang Maha Esa yang dapat diterima seluruh golongan disepakati sebagai sila pertama, menjaga negara baru tidak pecah pada hari pertamanya.",
+          "evidence": [
+            {
+              "source_id": "anri-ppki-sidang-18-agu-1945"
+            },
+            {
+              "source_id": "anri-ppki-sidang-19-agu-1945"
+            },
+            {
+              "source_id": "anri-ppki-sidang-22-agu-1945"
+            }
+          ],
+          "event_ids": [
+            "ev-anri-sidang-ppki-18-22-agustus-1945"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-2",
+          "score": 0,
+          "confidence": 0.4,
+          "rationale_id": "Maklumat Pemerintah X dan pergeseran kabinet membuka ruang partisipasi politik yang menjunjung harkat kemanusiaan.",
+          "thesis_id": "Dalil formalnya: Maklumat Wakil Presiden No. X dan Maklumat Pemerintah 3 November 1945 menjamin kebebasan berserikat dan mendirikan partai, menempatkan warga sebagai subjek politik.",
+          "antithesis_id": "Ruang partisipasi politik dibuka lewat Maklumat X, tetapi kekerasan revolusi sosial di berbagai daerah pada 1945-1946 berlangsung tanpa perlindungan hukum bagi korbannya dan tanpa dipersoalkan badan perwakilan.",
+          "synthesis_id": "Skor Netral (0) karena kebebasan berserikat dijamin lewat maklumat, tepat sebanding dengan kekerasan revolusi sosial 1945-1946 yang berlangsung tanpa perlindungan hukum bagi korbannya dan tanpa dipersoalkan badan perwakilan.",
+          "evidence": [
+            {
+              "source_id": "anri-maklumat-wakil-presiden-x-1945"
             },
             {
               "source_id": "anri-ppki-sidang-18-agu-1945"
@@ -301433,14 +301672,17 @@
           ]
         },
         {
-          "dimension_id": "sila-1",
+          "dimension_id": "sila-4",
           "score": 1,
-          "confidence": 0.45,
-          "rationale_id": "Rumusan dasar negara pasca-proklamasi menempatkan Ketuhanan sebagai sila pertama, meski tujuh kata Piagam Jakarta dipangkas demi kesatuan.",
-          "thesis_id": "Dalil formalnya: PPKI mengesahkan Pancasila dengan sila Ketuhanan Yang Maha Esa sebagai dasar negara pada 18 Agustus 1945, rumusan yang disepakati agar dapat diterima seluruh golongan.",
-          "antithesis_id": "Penghapusan tujuh kata Piagam Jakarta dilakukan lewat kesepakatan cepat sehari setelah proklamasi tanpa forum permusyawaratan yang luas, dan ketidakpuasan atasnya kemudian meletus menjadi pemberontakan bersenjata.",
-          "synthesis_id": "Skor Baik (+1) karena rumusan Ketuhanan Yang Maha Esa yang dapat diterima seluruh golongan disepakati sebagai sila pertama, menjaga negara baru tidak pecah pada hari pertamanya.",
+          "confidence": 0.5,
+          "rationale_id": "Pergeseran dari presidensial ke sistem parlementer lewat Maklumat 14 November 1945 menunjukkan negara mengadopsi musyawarah perwakilan dalam merumuskan pemerintahan.",
+          "thesis_id": "Dalil formalnya: Maklumat Pemerintah 14 November 1945 mengalihkan tanggung jawab pemerintahan kepada menteri yang bertanggung jawab kepada badan perwakilan, memperkenalkan permusyawaratan sebagai dasar pemerintahan.",
+          "antithesis_id": "Peralihan ke sistem parlementer ditempuh lewat maklumat pemerintah dan bukan lewat perubahan UUD, sehingga perubahan mendasar sistem ketatanegaraan diputuskan tanpa mekanisme konstitusional yang tersedia.",
+          "synthesis_id": "Skor Baik (+1) karena tanggung jawab pemerintahan dialihkan kepada menteri yang bertanggung jawab pada badan perwakilan, memperkenalkan permusyawaratan sebagai dasar pemerintahan sejak awal republik.",
           "evidence": [
+            {
+              "source_id": "anri-maklumat-kabinet-parlementer-1945"
+            },
             {
               "source_id": "anri-ppki-sidang-18-agu-1945"
             },
@@ -301459,55 +301701,20 @@
           ]
         },
         {
-          "dimension_id": "negara-hukum",
+          "dimension_id": "sila-5",
           "score": 1,
-          "confidence": 0.4,
-          "rationale_id": "UUD 1945 dan lembaga negara dibentuk 1945 dalam tata hukum darurat revolusi; negara hukum mulai ditegakkan walau dalam keadaan perang.",
-          "thesis_id": "Dalil formalnya: UUD 1945 disahkan dan lembaga negara dibentuk dalam empat hari setelah proklamasi, memberi republik dasar hukum di tengah kekosongan kekuasaan total.",
-          "antithesis_id": "Tertib hukum ditegakkan lewat pengesahan UUD dan pembentukan lembaga, tetapi dalam praktik revolusi banyak keputusan diambil lewat maklumat dan tindakan darurat di luar kerangka konstitusi yang baru disahkan.",
-          "synthesis_id": "Skor Baik (+1) karena konstitusi disahkan dan lembaga negara dibentuk sebagai dasar hukum republik dalam waktu empat hari setelah proklamasi, di tengah kekosongan kekuasaan total.",
+          "confidence": 0.6,
+          "rationale_id": "Di tengah perang kemerdekaan, KNIP mengesahkan pengawasan perburuhan - negara mewajibkan diri memeriksa keselamatan dan syarat kerja di perusahaan. Jangkauannya terbatas pada wilayah yang masih dikuasai republik dan penegakannya minim, tetapi arah normanya menempatkan buruh sebagai pihak yang dilindungi hukum pada saat republik sendiri belum pasti bertahan.",
+          "thesis_id": "Dalil formalnya: Pasal 27 ayat (2) UUD 1945 menjamin hak setiap warga negara atas pekerjaan dan penghidupan yang layak, dan pengawasan perburuhan adalah instrumen pertama yang dibentuk republik untuk menjalankannya.",
+          "antithesis_id": "Undang-undang perlindungan yang tidak dapat ditegakkan hanya berlaku di atas kertas: wilayah republik menyusut akibat blokade dan dua agresi militer Belanda, aparat pengawas nyaris tidak ada, dan sebagian besar buruh perkebunan justru berada di wilayah yang dikuasai pihak lawan.",
+          "synthesis_id": "Skor Baik (+1) karena norma perlindungan buruh ditetapkan lebih dulu daripada kemampuan menegakkannya - pilihan yang menentukan watak republik, meski hasil praktisnya pada masa itu kecil.",
           "evidence": [
             {
-              "source_id": "anri-ppki-sidang-18-agu-1945"
-            },
-            {
-              "source_id": "anri-ppki-sidang-19-agu-1945"
-            },
-            {
-              "source_id": "anri-ppki-sidang-22-agu-1945"
+              "source_id": "jdih-uu-23-1948"
             }
           ],
           "event_ids": [
-            "ev-anri-sidang-ppki-18-22-agustus-1945"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "sila-2",
-          "score": 0,
-          "confidence": 0.4,
-          "rationale_id": "Maklumat Pemerintah X dan pergeseran kabinet membuka ruang partisipasi politik yang menjunjung harkat kemanusiaan.",
-          "thesis_id": "Dalil formalnya: Maklumat Wakil Presiden No. X dan Maklumat Pemerintah 3 November 1945 menjamin kebebasan berserikat dan mendirikan partai, menempatkan warga sebagai subjek politik.",
-          "antithesis_id": "Ruang partisipasi politik dibuka lewat Maklumat X, tetapi kekerasan revolusi sosial di berbagai daerah pada 1945-1946 berlangsung tanpa perlindungan hukum bagi korbannya dan tanpa dipersoalkan badan perwakilan.",
-          "synthesis_id": "Skor Netral (0) karena kebebasan berserikat dijamin lewat maklumat, tepat sebanding dengan kekerasan revolusi sosial 1945-1946 yang berlangsung tanpa perlindungan hukum bagi korbannya dan tanpa dipersoalkan badan perwakilan.",
-          "evidence": [
-            {
-              "source_id": "anri-maklumat-wakil-presiden-x-1945"
-            },
-            {
-              "source_id": "anri-ppki-sidang-18-agu-1945"
-            },
-            {
-              "source_id": "anri-ppki-sidang-19-agu-1945"
-            },
-            {
-              "source_id": "anri-ppki-sidang-22-agu-1945"
-            }
-          ],
-          "event_ids": [
-            "ev-anri-sidang-ppki-18-22-agustus-1945"
+            "ev-jdih-uu-23-1948"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -301564,6 +301771,46 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 1,
+          "confidence": 0.62,
+          "rationale_id": "KNIP memusatkan segala urusan sekolah pada kementerian, mengakhiri warisan pendidikan kolonial yang terbelah menurut golongan penduduk dengan mutu dan akses berbeda-beda. Pemusatan inilah yang memungkinkan satu kurikulum kebangsaan, meski pelaksanaannya baru berjalan setelah pengakuan kedaulatan.",
+          "thesis_id": "Dalil formalnya: Pasal 31 UUD 1945 menyatakan tiap warga negara berhak mendapat pengajaran dan pemerintah mengusahakan satu sistem pengajaran nasional yang diatur undang-undang.",
+          "antithesis_id": "Satu sistem pengajaran ditetapkan ketika sebagian besar sekolah berada di wilayah pendudukan, guru terserap ke perjuangan bersenjata, dan anggaran republik tidak mencukupi - sehingga yang lahir adalah kerangka hukum, bukan sistem yang benar-benar beroperasi.",
+          "synthesis_id": "Skor Baik (+1) karena pembelahan pendidikan menurut golongan penduduk dihapus di tingkat norma, langkah yang menjadi dasar seluruh sistem pendidikan nasional sesudahnya.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-32-1947"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-32-1947"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 1,
+          "confidence": 0.58,
+          "rationale_id": "KNIP meratifikasi perjanjian persahabatan dengan negara lain ketika pengakuan atas republik masih diperebutkan. Tiap traktat berfungsi ganda: perjanjian bilateral sekaligus bukti bahwa Indonesia bertindak sebagai subjek hukum internasional yang cakap - argumen yang dipakai melawan klaim Belanda bahwa republik hanyalah pemberontakan dalam negeri.",
+          "thesis_id": "Dalil formalnya: Pembukaan UUD 1945 alinea IV menempatkan keikutsertaan melaksanakan ketertiban dunia sebagai tujuan bernegara, dan pengesahan perjanjian internasional oleh lembaga perwakilan adalah bentuk paling awal pelaksanaannya.",
+          "antithesis_id": "Diplomasi periode ini berjalan dalam posisi yang sangat lemah: republik menandatangani Linggarjati dan Renville dari posisi terdesak, kehilangan wilayah pada tiap perundingan, dan pengakuan kedaulatan baru datang setelah tekanan internasional atas Agresi Militer II - bukan karena keberhasilan traktat-traktat itu sendiri.",
+          "synthesis_id": "Skor Baik (+1) karena republik konsisten memilih jalur hukum internasional bahkan dari posisi tawar terlemah, dan kecakapannya sebagai subjek hukum itulah yang akhirnya diakui.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-2-1948"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-2-1948"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
         }
       ]
     },
@@ -301613,6 +301860,26 @@
       "created_at": "2026-08-30",
       "dimension_scores": [
         {
+          "dimension_id": "checks-balances",
+          "score": 1,
+          "confidence": 0.62,
+          "rationale_id": "Susunan, kekuasaan, dan jalan pengadilan Mahkamah Agung disusun ulang bagi negara kesatuan yang baru dipulihkan dari bentuk federal RIS. Parlemen menetapkan sendiri batas kewenangan puncak yudikatif termasuk kasasi atas seluruh lingkungan peradilan - fondasi yang bertahan sampai reformasi.",
+          "thesis_id": "Dalil formalnya: pemulihan negara kesatuan pada 17 Agustus 1950 menuntut penataan ulang lembaga-lembaga warisan RIS, dan penataan kekuasaan kehakiman dilakukan lewat undang-undang yang dibahas di parlemen.",
+          "antithesis_id": "Keseimbangan antarlembaga periode ini rapuh di sisi lain: kabinet parlementer berganti tujuh kali dalam sembilan tahun, sehingga pengawasan parlemen atas eksekutif lebih sering berwujud penjatuhan kabinet daripada koreksi kebijakan yang berkelanjutan.",
+          "synthesis_id": "Skor Baik (+1) karena kemerdekaan dan jangkauan kekuasaan kehakiman ditetapkan secara tegas lewat undang-undang, meski hubungan eksekutif-legislatif periode ini sendiri tidak stabil.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-1-1950"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-1-1950"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
           "dimension_id": "kedaulatan-rakyat",
           "score": 1,
           "confidence": 0.55,
@@ -301643,63 +301910,6 @@
           ]
         },
         {
-          "dimension_id": "sila-2",
-          "score": 0,
-          "confidence": 0.5,
-          "rationale_id": "Konstituante membahas dasar negara dan hak asasi manusia, tetapi Pemerintah mengakhiri proses tersebut lewat Dekrit Presiden 1959 sebelum kesepakatan tercapai.",
-          "thesis_id": "Dalil formalnya: Konstituante membahas hak asasi manusia secara terbuka dan mendalam sepanjang 1956-1958, menghasilkan rumusan yang oleh banyak ahli dinilai lebih maju daripada Bab XA hasil amandemen empat dasawarsa kemudian.",
-          "antithesis_id": "Pembahasan itu tidak pernah menjadi norma: Konstituante dibubarkan lewat Dekrit Presiden 5 Juli 1959 sebelum kesepakatan tercapai, sehingga seluruh rumusan hak asasi yang telah dikerjakan bertahun-tahun hangus tanpa berlaku sehari pun.",
-          "synthesis_id": "Skor Netral (0) karena pembahasan hak asasi berlangsung paling substantif sepanjang sejarah ketatanegaraan Indonesia, tepat sebanding dengan dibubarkannya forum itu sebelum kesepakatan dicapai.",
-          "evidence": [
-            {
-              "source_id": "anri-risalah-konstituante-ham-1958"
-            },
-            {
-              "source_id": "anri-dekrit-presiden-5-juli-1959"
-            },
-            {
-              "source_id": "uu-1-1957-pemda"
-            },
-            {
-              "source_id": "anri-piagam-persetujuan-nkri-1950"
-            }
-          ],
-          "event_ids": [
-            "ev-uu-pemda-desentralisasi-1957",
-            "ev-anri-piagam-persetujuan-nkri-1950"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "sila-4",
-          "score": 1,
-          "confidence": 0.5,
-          "rationale_id": "Konstituante dan pemilihan umum pertama 1955 menghidupkan musyawarah perwakilan dalam merumuskan konstitusi pengganti UUD 1945.",
-          "thesis_id": "Dalil formalnya: Pemilu 1955 diselenggarakan tanpa rekayasa dengan hasil diterima seluruh kontestan, dan Konstituante hasil pemilu itu membahas konstitusi secara terbuka.",
-          "antithesis_id": "Musyawarah perwakilan berjalan penuh, tetapi kebuntuan Konstituante atas dasar negara memperlihatkan permusyawaratan tanpa kesediaan berkompromi dapat berujung pada pembenaran bagi penyelesaian di luar mekanisme demokratis.",
-          "synthesis_id": "Skor Baik (+1) karena Konstituante hasil pemilu bebas membahas konstitusi secara terbuka, dan Pemilu 1955 diselenggarakan tanpa rekayasa dengan hasil diterima seluruh kontestan.",
-          "evidence": [
-            {
-              "source_id": "anri-risalah-konstituante-natsir-1957"
-            },
-            {
-              "source_id": "uu-7-1953-pemilu"
-            },
-            {
-              "source_id": "uu-1-1957-pemda"
-            }
-          ],
-          "event_ids": [
-            "ev-pemilu-demokratis-1955",
-            "ev-uu-pemda-desentralisasi-1957"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
           "dimension_id": "negara-hukum",
           "score": 1,
           "confidence": 0.5,
@@ -301721,33 +301931,6 @@
           "event_ids": [
             "ev-anri-risalah-konstituante-dasar-negara-1957-1958",
             "ev-anri-piagam-persetujuan-nkri-1950"
-          ],
-          "normative_anchors": [
-            "uud-nri-1945"
-          ]
-        },
-        {
-          "dimension_id": "tujuan-1",
-          "score": 0,
-          "confidence": 0.45,
-          "rationale_id": "Proses parlementer yang dinamis dengan koalisi berganti-ganti menegaskan demokrasi liberal, namun ditandai ketidakstabilan kabinet.",
-          "thesis_id": "Dalil formalnya: sistem parlementer menjaga pemerintahan tetap bertanggung jawab kepada wakil rakyat, dan setiap kabinet yang kehilangan dukungan digantikan lewat prosedur konstitusional.",
-          "antithesis_id": "Sistem parlementer menjaga pemerintahan tetap bertanggung jawab kepada wakil rakyat, tetapi tujuh kali pergantian kabinet dalam sembilan tahun melemahkan kemampuan negara menangani pemberontakan daerah yang mengancam keutuhan wilayah.",
-          "synthesis_id": "Skor Netral (0) karena pertanggungjawaban pemerintahan kepada lembaga perwakilan berjalan penuh, tepat sebanding dengan ketidakstabilan kabinet yang menggerus kemampuan negara melindungi warganya.",
-          "evidence": [
-            {
-              "source_id": "anri-risalah-konstituante-natsir-1957"
-            },
-            {
-              "source_id": "anri-risalah-konstituante-ham-1958"
-            },
-            {
-              "source_id": "uuds-1950"
-            }
-          ],
-          "event_ids": [
-            "ev-anri-risalah-konstituante-dasar-negara-1957-1958",
-            "ev-dpr-uuds-1950"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -301784,6 +301967,134 @@
           ]
         },
         {
+          "dimension_id": "sila-2",
+          "score": 0,
+          "confidence": 0.5,
+          "rationale_id": "Konstituante membahas dasar negara dan hak asasi manusia, tetapi Pemerintah mengakhiri proses tersebut lewat Dekrit Presiden 1959 sebelum kesepakatan tercapai.",
+          "thesis_id": "Dalil formalnya: Konstituante membahas hak asasi manusia secara terbuka dan mendalam sepanjang 1956-1958, menghasilkan rumusan yang oleh banyak ahli dinilai lebih maju daripada Bab XA hasil amandemen empat dasawarsa kemudian.",
+          "antithesis_id": "Pembahasan itu tidak pernah menjadi norma: Konstituante dibubarkan lewat Dekrit Presiden 5 Juli 1959 sebelum kesepakatan tercapai, sehingga seluruh rumusan hak asasi yang telah dikerjakan bertahun-tahun hangus tanpa berlaku sehari pun.",
+          "synthesis_id": "Skor Netral (0) karena pembahasan hak asasi berlangsung paling substantif sepanjang sejarah ketatanegaraan Indonesia, tepat sebanding dengan dibubarkannya forum itu sebelum kesepakatan dicapai.",
+          "evidence": [
+            {
+              "source_id": "anri-risalah-konstituante-ham-1958"
+            },
+            {
+              "source_id": "anri-dekrit-presiden-5-juli-1959"
+            },
+            {
+              "source_id": "uu-1-1957-pemda"
+            },
+            {
+              "source_id": "anri-piagam-persetujuan-nkri-1950"
+            }
+          ],
+          "event_ids": [
+            "ev-uu-pemda-desentralisasi-1957",
+            "ev-anri-piagam-persetujuan-nkri-1950"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": 2,
+          "confidence": 0.7,
+          "rationale_id": "UU No. 1 Tahun 1957 meletakkan otonomi daerah seluas-luasnya: daerah memilih sendiri kepala daerahnya dan menjalankan urusan rumah tangganya, kebalikan dari pola pengangkatan dari pusat. Parlemen juga menata pembentukan daerah lewat undang-undang, bukan keputusan sepihak - prosedur yang sepenuhnya ditinggalkan pada era berikutnya.",
+          "thesis_id": "Dalil formalnya: Pasal 18 UUD 1945 dan ketentuan UUDS 1950 memerintahkan pembagian daerah atas daerah besar dan kecil dengan memandang dasar permusyawaratan dalam sistem pemerintahan negara serta hak asal-usul daerah yang bersifat istimewa.",
+          "antithesis_id": "Otonomi seluas-luasnya diberikan ketika sebagian daerah justru sedang bergerak ke arah pemberontakan bersenjata - PRRI dan Permesta pecah tidak lama sesudahnya - sehingga desentralisasi berjalan bersamaan dengan krisis keutuhan wilayah dan akhirnya dipakai sebagai alasan untuk membatalkannya lewat Dekrit 1959.",
+          "synthesis_id": "Skor Sangat Baik (+2) karena keadilan antarwilayah dijawab dengan penyerahan kewenangan sungguhan disertai pemilihan kepala daerah, tingkat desentralisasi yang belum pernah dilampaui republik sesudahnya.",
+          "evidence": [
+            {
+              "source_id": "uu-1-1957-pemda"
+            },
+            {
+              "source_id": "jdih-uu-17-1950"
+            }
+          ],
+          "event_ids": [
+            "ev-uu-pemda-desentralisasi-1957",
+            "ev-jdih-uu-17-1950"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": 1,
+          "confidence": 0.5,
+          "rationale_id": "Konstituante dan pemilihan umum pertama 1955 menghidupkan musyawarah perwakilan dalam merumuskan konstitusi pengganti UUD 1945.",
+          "thesis_id": "Dalil formalnya: Pemilu 1955 diselenggarakan tanpa rekayasa dengan hasil diterima seluruh kontestan, dan Konstituante hasil pemilu itu membahas konstitusi secara terbuka.",
+          "antithesis_id": "Musyawarah perwakilan berjalan penuh, tetapi kebuntuan Konstituante atas dasar negara memperlihatkan permusyawaratan tanpa kesediaan berkompromi dapat berujung pada pembenaran bagi penyelesaian di luar mekanisme demokratis.",
+          "synthesis_id": "Skor Baik (+1) karena Konstituante hasil pemilu bebas membahas konstitusi secara terbuka, dan Pemilu 1955 diselenggarakan tanpa rekayasa dengan hasil diterima seluruh kontestan.",
+          "evidence": [
+            {
+              "source_id": "anri-risalah-konstituante-natsir-1957"
+            },
+            {
+              "source_id": "uu-7-1953-pemilu"
+            },
+            {
+              "source_id": "uu-1-1957-pemda"
+            }
+          ],
+          "event_ids": [
+            "ev-pemilu-demokratis-1955",
+            "ev-uu-pemda-desentralisasi-1957"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": 1,
+          "confidence": 0.58,
+          "rationale_id": "Pengawasan perburuhan yang lahir di masa revolusi dinyatakan berlaku untuk seluruh wilayah Indonesia setelah pengakuan kedaulatan, termasuk bekas daerah negara-negara bagian RIS. Satu norma perlindungan buruh menggantikan aturan yang sebelumnya berbeda-beda antarwilayah.",
+          "thesis_id": "Dalil formalnya: pemulihan negara kesatuan mensyaratkan unifikasi hukum, dan pemberlakuan satu aturan perlindungan buruh di seluruh wilayah adalah pelaksanaan langsung dari asas persamaan kedudukan warga negara.",
+          "antithesis_id": "Unifikasi norma tidak diikuti pemerataan kemampuan menegakkannya: pengawas perburuhan terkonsentrasi di Jawa, sementara buruh perkebunan di Sumatera dan Indonesia bagian timur - yang justru paling rentan - berada jauh dari jangkauan aparat pengawas.",
+          "synthesis_id": "Skor Baik (+1) karena perlindungan buruh diperluas menjadi hak yang sama di seluruh wilayah, meski penegakannya timpang antardaerah.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-3-1951"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-3-1951"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": 0,
+          "confidence": 0.45,
+          "rationale_id": "Proses parlementer yang dinamis dengan koalisi berganti-ganti menegaskan demokrasi liberal, namun ditandai ketidakstabilan kabinet.",
+          "thesis_id": "Dalil formalnya: sistem parlementer menjaga pemerintahan tetap bertanggung jawab kepada wakil rakyat, dan setiap kabinet yang kehilangan dukungan digantikan lewat prosedur konstitusional.",
+          "antithesis_id": "Sistem parlementer menjaga pemerintahan tetap bertanggung jawab kepada wakil rakyat, tetapi tujuh kali pergantian kabinet dalam sembilan tahun melemahkan kemampuan negara menangani pemberontakan daerah yang mengancam keutuhan wilayah.",
+          "synthesis_id": "Skor Netral (0) karena pertanggungjawaban pemerintahan kepada lembaga perwakilan berjalan penuh, tepat sebanding dengan ketidakstabilan kabinet yang menggerus kemampuan negara melindungi warganya.",
+          "evidence": [
+            {
+              "source_id": "anri-risalah-konstituante-natsir-1957"
+            },
+            {
+              "source_id": "anri-risalah-konstituante-ham-1958"
+            },
+            {
+              "source_id": "uuds-1950"
+            }
+          ],
+          "event_ids": [
+            "ev-anri-risalah-konstituante-dasar-negara-1957-1958",
+            "ev-dpr-uuds-1950"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
           "dimension_id": "tujuan-2",
           "score": 1,
           "confidence": 0.5,
@@ -301806,6 +302117,34 @@
           "normative_anchors": [
             "uud-nri-1945"
           ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 0,
+          "confidence": 0.42,
+          "rationale_id": "Tidak ditemukan undang-undang periode ini yang menata sistem pendidikan nasional secara menyeluruh; yang ada bersifat penyerahan urusan administratif. Perluasan sekolah rakyat pada dasawarsa ini berjalan lewat kebijakan kementerian, bukan lewat legislasi parlemen yang dapat dinilai di sini.",
+          "thesis_id": "Dalil formalnya: pengaturan pengajaran nasional telah ditetapkan lewat undang-undang pendidikan warisan periode sebelumnya, sehingga parlemen periode ini menganggap kerangka dasarnya sudah tersedia dan cukup.",
+          "antithesis_id": "Anggapan bahwa kerangka lama memadai tidak diuji: angka buta huruf pada awal 1950-an masih di atas separuh penduduk, dan persoalan sebesar itu tidak menghasilkan satu pun undang-undang pendidikan baru dari parlemen sepanjang sepuluh tahun.",
+          "synthesis_id": "Skor Netral (0) karena tidak ada tindakan legislatif signifikan yang tercatat, disertai evidence_gap sehingga dimensi ini dikeluarkan dari perhitungan indeks.",
+          "evidence": [],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ],
+          "evidence_gap": true
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": 0,
+          "confidence": 0.42,
+          "rationale_id": "Undang-undang bidang luar negeri periode ini didominasi pengesahan perjanjian pinjaman dan pembebasan bea - urusan teknis-ekonomi, bukan sikap politik luar negeri. Konferensi Asia-Afrika 1955, capaian diplomasi terbesar periode ini, adalah inisiatif pemerintah dan tidak lahir dari produk legislasi parlemen.",
+          "thesis_id": "Dalil formalnya: politik luar negeri merupakan ranah eksekutif, dan peran parlemen terbatas pada pengesahan perjanjian internasional yang diajukan pemerintah kepadanya.",
+          "antithesis_id": "Batasan peran itu tidak menghalangi parlemen menyatakan sikap atas persoalan besar - sengketa Irian Barat berlangsung sepanjang periode ini tanpa satu pun produk legislasi yang menjadi dasar posisi Indonesia, sehingga ketiadaan ini bukan semata soal pembagian kewenangan.",
+          "synthesis_id": "Skor Netral (0) karena tidak ada tindakan legislatif yang dapat dinilai sebagai sikap politik luar negeri, disertai evidence_gap sehingga tidak ikut menghitung indeks.",
+          "evidence": [],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ],
+          "evidence_gap": true
         }
       ]
     },
@@ -301855,16 +302194,16 @@
       "created_at": "2026-08-30",
       "dimension_scores": [
         {
-          "dimension_id": "negara-hukum",
-          "score": 1,
-          "confidence": 0.5,
-          "rationale_id": "DPR-GR melahirkan undang-undang pokok penting seperti UUPA No. 5 Tahun 1960 yang menata ulang struktur agraria nasional di atas dasar hukum konstitusi.",
-          "thesis_id": "Dalil formalnya: DPR-GR mengesahkan UU Pokok Agraria No. 5 Tahun 1960 yang membongkar hukum tanah kolonial, undang-undang pokok yang hingga kini menjadi rujukan utama hukum agraria Indonesia.",
-          "antithesis_id": "UUPA No. 5 Tahun 1960 lahir dari DPR-GR yang seluruh anggotanya diangkat Presiden setelah DPR hasil Pemilu 1955 dibubarkan, sehingga undang-undang pokok terpenting periode ini disahkan tanpa mandat rakyat.",
-          "synthesis_id": "Skor Baik (+1) karena UUPA membongkar hukum tanah kolonial dan meletakkan dasar keadilan agraria, undang-undang yang hingga kini menjadi rujukan utama hukum agraria Indonesia.",
+          "dimension_id": "checks-balances",
+          "score": -1,
+          "confidence": 0.45,
+          "rationale_id": "DPR-GR yang keanggotaannya banyak ditunjuk kehilangan kemandirian kontrol, dan Supersemar 1966 memindahkan kekuasaan besar ke eksekutif.",
+          "thesis_id": "Dalil formalnya: DPR-GR menjadi forum yang mengesahkan peralihan kekuasaan pasca-Supersemar secara terdokumentasi, menjaga perubahan kekuasaan tetap melewati lembaga perwakilan.",
+          "antithesis_id": "Lembaga yang seluruh anggotanya diangkat Presiden tidak dapat mengawasi Presiden yang mengangkatnya; pengesahan itu adalah stempel, bukan kontrol.",
+          "synthesis_id": "Skor Buruk (-1) karena lembaga perwakilan yang anggotanya diangkat Presiden tidak dapat mengawasi Presiden yang mengangkatnya, meniadakan fungsi pengimbang kekuasaan eksekutif.",
           "evidence": [
             {
-              "source_id": "anri-uupa-5-1960"
+              "source_id": "anri-supersemar-1966"
             }
           ],
           "normative_anchors": [
@@ -301892,16 +302231,16 @@
           ]
         },
         {
-          "dimension_id": "checks-balances",
-          "score": -1,
-          "confidence": 0.45,
-          "rationale_id": "DPR-GR yang keanggotaannya banyak ditunjuk kehilangan kemandirian kontrol, dan Supersemar 1966 memindahkan kekuasaan besar ke eksekutif.",
-          "thesis_id": "Dalil formalnya: DPR-GR menjadi forum yang mengesahkan peralihan kekuasaan pasca-Supersemar secara terdokumentasi, menjaga perubahan kekuasaan tetap melewati lembaga perwakilan.",
-          "antithesis_id": "Lembaga yang seluruh anggotanya diangkat Presiden tidak dapat mengawasi Presiden yang mengangkatnya; pengesahan itu adalah stempel, bukan kontrol.",
-          "synthesis_id": "Skor Buruk (-1) karena lembaga perwakilan yang anggotanya diangkat Presiden tidak dapat mengawasi Presiden yang mengangkatnya, meniadakan fungsi pengimbang kekuasaan eksekutif.",
+          "dimension_id": "negara-hukum",
+          "score": 1,
+          "confidence": 0.5,
+          "rationale_id": "DPR-GR melahirkan undang-undang pokok penting seperti UUPA No. 5 Tahun 1960 yang menata ulang struktur agraria nasional di atas dasar hukum konstitusi.",
+          "thesis_id": "Dalil formalnya: DPR-GR mengesahkan UU Pokok Agraria No. 5 Tahun 1960 yang membongkar hukum tanah kolonial, undang-undang pokok yang hingga kini menjadi rujukan utama hukum agraria Indonesia.",
+          "antithesis_id": "UUPA No. 5 Tahun 1960 lahir dari DPR-GR yang seluruh anggotanya diangkat Presiden setelah DPR hasil Pemilu 1955 dibubarkan, sehingga undang-undang pokok terpenting periode ini disahkan tanpa mandat rakyat.",
+          "synthesis_id": "Skor Baik (+1) karena UUPA membongkar hukum tanah kolonial dan meletakkan dasar keadilan agraria, undang-undang yang hingga kini menjadi rujukan utama hukum agraria Indonesia.",
           "evidence": [
             {
-              "source_id": "anri-supersemar-1966"
+              "source_id": "anri-uupa-5-1960"
             }
           ],
           "normative_anchors": [
@@ -301926,16 +302265,56 @@
           ]
         },
         {
-          "dimension_id": "tujuan-1",
-          "score": 0,
-          "confidence": 0.45,
-          "rationale_id": "UUPA No. 5 Tahun 1960 dan penataan agraria nasional menegakkan kedaulatan atas sumber daya, meski dilakukan dalam struktur politik yang sentralistik.",
-          "thesis_id": "Dalil formalnya: UUPA No. 5 Tahun 1960 menegakkan kedaulatan negara atas tanah dan sumber daya alam, mengakhiri penguasaan berdasarkan hukum kolonial.",
-          "antithesis_id": "UUPA menegakkan kedaulatan atas tanah dan sumber daya, tetapi pelaksanaan landreform-nya berlangsung lewat aksi sepihak yang memicu kekerasan antargolongan di pedesaan tanpa perlindungan hukum bagi korbannya.",
-          "synthesis_id": "Skor Netral (0) karena kedaulatan negara atas tanah dan kekayaan alam ditegakkan lewat undang-undang pokok, tepat sebanding dengan kekerasan yang menyertai pelaksanaannya tanpa perlindungan warga.",
+          "dimension_id": "sila-2",
+          "score": -2,
+          "confidence": 0.7,
+          "rationale_id": "DPR-GR lahir dari pembubaran DPR hasil Pemilu 1955 oleh Presiden setelah parlemen menolak anggaran - lembaga perwakilan dibubarkan karena menggunakan haknya, lalu diganti dengan lembaga yang seluruh anggotanya diangkat. Sepanjang periode ini penahanan tanpa proses pengadilan berlangsung luas, dan tidak ada satu pun produk legislasi DPR-GR yang menyediakan mekanisme perlindungan atau pemulihan bagi korbannya.",
+          "thesis_id": "Dalil formalnya: pembentukan DPR-GR didasarkan pada Penetapan Presiden yang dinyatakan sebagai pelaksanaan Dekrit 5 Juli 1959, dan lembaga ini tetap menjalankan fungsi legislasi bersama pemerintah sebagaimana diperintahkan UUD 1945.",
+          "antithesis_id": "Lembaga yang anggotanya diangkat oleh pihak yang seharusnya diawasinya tidak dapat melindungi warga dari pihak itu: ketika penahanan politik berlangsung tanpa pengadilan sepanjang periode ini, dan memuncak pada pembunuhan massal 1965-1966, tidak ada satu pun inisiatif legislasi dari DPR-GR yang menyentuhnya.",
+          "synthesis_id": "Skor pelanggaran berat (-2) karena lembaga perwakilan tidak berfungsi sama sekali sebagai pelindung hak warga pada periode dengan pelanggaran hak asasi paling berat dalam sejarah republik.",
           "evidence": [
             {
-              "source_id": "anri-uupa-5-1960"
+              "source_id": "jdih-uu-13-1964"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-13-1964"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": -1,
+          "confidence": 0.62,
+          "rationale_id": "Fungsi legislasi DPR-GR bergeser menjadi peratifikasi: Presiden menerbitkan Peraturan Pemerintah Pengganti Undang-Undang lebih dulu, lembaga perwakilan mengesahkannya belakangan - pola yang berulang sepanjang 1964. Akibatnya penataan wilayah dan hubungan pusat-daerah ditentukan sepihak dari pusat, membalik desentralisasi UU 1/1957 yang baru berumur beberapa tahun.",
+          "thesis_id": "Dalil formalnya: Pasal 22 UUD 1945 membolehkan Presiden menetapkan Peraturan Pemerintah Pengganti Undang-Undang dalam kegentingan yang memaksa, dengan persetujuan DPR pada persidangan berikutnya - dan persetujuan itu memang diberikan.",
+          "antithesis_id": "Kegentingan yang memaksa berubah menjadi cara kerja sehari-hari: 120 Perpu terbit pada periode kepresidenan ini, sepuluh kali lipat presiden mana pun, sehingga persetujuan DPR-GR bukan pengujian melainkan pengesahan atas norma yang sudah berlaku dan tidak mungkin ditolak.",
+          "synthesis_id": "Skor Buruk (-1) karena penataan hubungan pusat-daerah ditarik kembali ke pusat lewat instrumen sepihak, menggerus otonomi yang baru saja diletakkan tanpa mekanisme pengganti.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-13-1964"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-13-1964"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-4",
+          "score": -1,
+          "confidence": 0.45,
+          "rationale_id": "Musyawarah perwakilan melalui DPR-GR yang keanggotaannya ditunjuk serta dominasi eksekutif mengurangi iklim musyawarah yang berkeadaban.",
+          "thesis_id": "Dalil formalnya: DPR-GR tetap menyelenggarakan pembahasan undang-undang secara formal dan menghasilkan produk hukum yang bertahan puluhan tahun sesudahnya.",
+          "antithesis_id": "Syarat dasar permusyawaratan tidak terpenuhi: anggota lembaga perwakilan diangkat Presiden setelah DPR hasil Pemilu 1955 dibubarkan, sehingga yang bermusyawarah adalah orang-orang yang dipilih oleh pihak yang seharusnya diawasi.",
+          "synthesis_id": "Skor Buruk (-1) karena anggota lembaga perwakilan diangkat Presiden setelah DPR hasil Pemilu 1955 dibubarkan, meniadakan syarat dasar permusyawaratan yaitu wakil yang dipilih rakyat.",
+          "evidence": [
+            {
+              "source_id": "anri-supersemar-1966"
             }
           ],
           "normative_anchors": [
@@ -301960,16 +302339,16 @@
           ]
         },
         {
-          "dimension_id": "sila-4",
-          "score": -1,
+          "dimension_id": "tujuan-1",
+          "score": 0,
           "confidence": 0.45,
-          "rationale_id": "Musyawarah perwakilan melalui DPR-GR yang keanggotaannya ditunjuk serta dominasi eksekutif mengurangi iklim musyawarah yang berkeadaban.",
-          "thesis_id": "Dalil formalnya: DPR-GR tetap menyelenggarakan pembahasan undang-undang secara formal dan menghasilkan produk hukum yang bertahan puluhan tahun sesudahnya.",
-          "antithesis_id": "Syarat dasar permusyawaratan tidak terpenuhi: anggota lembaga perwakilan diangkat Presiden setelah DPR hasil Pemilu 1955 dibubarkan, sehingga yang bermusyawarah adalah orang-orang yang dipilih oleh pihak yang seharusnya diawasi.",
-          "synthesis_id": "Skor Buruk (-1) karena anggota lembaga perwakilan diangkat Presiden setelah DPR hasil Pemilu 1955 dibubarkan, meniadakan syarat dasar permusyawaratan yaitu wakil yang dipilih rakyat.",
+          "rationale_id": "UUPA No. 5 Tahun 1960 dan penataan agraria nasional menegakkan kedaulatan atas sumber daya, meski dilakukan dalam struktur politik yang sentralistik.",
+          "thesis_id": "Dalil formalnya: UUPA No. 5 Tahun 1960 menegakkan kedaulatan negara atas tanah dan sumber daya alam, mengakhiri penguasaan berdasarkan hukum kolonial.",
+          "antithesis_id": "UUPA menegakkan kedaulatan atas tanah dan sumber daya, tetapi pelaksanaan landreform-nya berlangsung lewat aksi sepihak yang memicu kekerasan antargolongan di pedesaan tanpa perlindungan hukum bagi korbannya.",
+          "synthesis_id": "Skor Netral (0) karena kedaulatan negara atas tanah dan kekayaan alam ditegakkan lewat undang-undang pokok, tepat sebanding dengan kekerasan yang menyertai pelaksanaannya tanpa perlindungan warga.",
           "evidence": [
             {
-              "source_id": "anri-supersemar-1966"
+              "source_id": "anri-uupa-5-1960"
             }
           ],
           "normative_anchors": [
@@ -301988,6 +302367,46 @@
             {
               "source_id": "anri-uupa-5-1960"
             }
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 0,
+          "confidence": 0.5,
+          "rationale_id": "UU Perguruan Tinggi 1961 menetapkan kerangka universitas nasional - otonomi keilmuan, tridarma, dan pembinaan negara. Pada periode yang sama kampus menjadi arena mobilisasi politik dan tekanan agar perguruan tinggi menyelaraskan diri dengan garis politik negara berlangsung terbuka. Penguatan kelembagaan dan penggerusan kebebasan akademik berjalan bersamaan.",
+          "thesis_id": "Dalil formalnya: undang-undang ini untuk pertama kalinya memberi dasar hukum nasional bagi perguruan tinggi Indonesia, menetapkan tridarma dan mengakui otonomi keilmuan sebagai asas penyelenggaraannya.",
+          "antithesis_id": "Otonomi keilmuan yang dijanjikan pasal-pasalnya berjalan bersamaan dengan keharusan menyelaraskan diri pada garis politik negara: organisasi mahasiswa berafiliasi partai menguasai kampus, dan pengangkatan pimpinan perguruan tinggi tidak lepas dari pertimbangan politik.",
+          "synthesis_id": "Skor Netral (0) sebagai neto dari dua temuan yang berlawanan dan sebanding: kerangka hukum perguruan tinggi nasional berdiri untuk pertama kalinya, sementara kebebasan akademik yang menjadi syarat hidupnya justru tertekan pada periode yang sama.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-22-1961"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-22-1961"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": -1,
+          "confidence": 0.6,
+          "rationale_id": "DPR-GR mengesahkan perjanjian ekonomi internasional berdampak jangka panjang di sektor sumber daya alam tanpa lembaga perwakilan hasil pemilu. Pada periode yang sama Indonesia berkonfrontasi dengan Malaysia dan keluar dari Perserikatan Bangsa-Bangsa pada 1965 - keputusan politik luar negeri terberat sepanjang sejarah republik, yang tidak tercatat dibahas maupun dikoreksi lembaga ini.",
+          "thesis_id": "Dalil formalnya: pengesahan perjanjian internasional oleh DPR-GR memenuhi syarat konstitusional bahwa perjanjian yang menimbulkan akibat luas bagi negara memerlukan persetujuan lembaga perwakilan.",
+          "antithesis_id": "Persetujuan dari lembaga yang anggotanya diangkat tidak memberi legitimasi tambahan apa pun: politik luar negeri bebas-aktif justru ditinggalkan pada periode ini lewat poros yang memihak dan penarikan diri dari PBB, tanpa satu pun keberatan dari lembaga yang secara formal menyetujuinya.",
+          "synthesis_id": "Skor Buruk (-1) karena keikutsertaan melaksanakan ketertiban dunia ditinggalkan justru saat lembaga perwakilan kehilangan kemampuan mengoreksinya.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-14-1963"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-14-1963"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -302119,6 +302538,26 @@
           ]
         },
         {
+          "dimension_id": "sila-1",
+          "score": 1,
+          "confidence": 0.6,
+          "rationale_id": "UU Perkawinan 1974 mengakhiri pluralisme hukum perkawinan warisan kolonial dan menegaskan sah tidaknya perkawinan ditentukan hukum agama masing-masing, dengan pencatatan negara sebagai syarat administratif. Kewenangan peradilan agama diperkuat. Pada akhir periode ini menyusul UU Pengelolaan Zakat dan UU Penyelenggaraan Ibadah Haji.",
+          "thesis_id": "Dalil formalnya: Pasal 29 UUD 1945 menyatakan negara berdasar atas Ketuhanan Yang Maha Esa dan menjamin kemerdekaan tiap penduduk memeluk agamanya, sehingga pengakuan hukum agama dalam urusan perkawinan adalah pelaksanaan langsung dari pasal itu.",
+          "antithesis_id": "Rancangan awalnya justru hendak menyeragamkan perkawinan secara sekuler dan memicu penolakan luas sampai terjadi insiden di gedung DPR pada 1973; naskah akhirnya adalah hasil tekanan dari luar parlemen, bukan inisiatif DPR sendiri. Ketentuan poligami dan batas usia kawin yang lolos di dalamnya meninggalkan persoalan perlindungan perempuan selama lima dasawarsa.",
+          "synthesis_id": "Skor Baik (+1) karena kedudukan hukum agama dan peradilan agama memperoleh dasar undang-undang yang bertahan sampai kini, meski capaian itu datang lewat koreksi dari luar parlemen dan menyisakan cacat perlindungan.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-1-1974"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-1-1974"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
           "dimension_id": "sila-2",
           "score": -1,
           "confidence": 0.68,
@@ -302136,6 +302575,26 @@
           ],
           "event_ids": [
             "ev-jdih-uu-31-1997"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-3",
+          "score": -2,
+          "confidence": 0.72,
+          "rationale_id": "UU Pemerintahan Desa 1979 menyeragamkan seluruh satuan pemerintahan terendah mengikuti satu model tunggal, menghapus nagari di Sumatera Barat, marga di Sumatera Selatan, dan puluhan bentuk pemerintahan adat lain yang berumur lebih tua dari republik. Keseragaman memudahkan pusat mengawasi desa, tetapi memutus struktur adat yang menjadi penopang identitas kewilayahan - dan pemulihannya setelah 1999 tidak pernah sepenuhnya berhasil karena satu generasi kepemimpinan adat sudah terputus.",
+          "thesis_id": "Dalil formalnya: penyeragaman pemerintahan desa dimaksudkan untuk memperkuat pemerintahan terendah agar mampu menggerakkan pembangunan dan memberi kepastian bentuk bagi seluruh desa di Indonesia.",
+          "antithesis_id": "Kepastian bentuk dibeli dengan penghapusan kebinekaan yang justru menjadi dasar Pasal 18 UUD 1945, yang memerintahkan negara memandang hak asal-usul daerah yang bersifat istimewa; nagari dan marga bukan variasi administratif melainkan susunan asli yang secara tegas dilindungi konstitusi.",
+          "synthesis_id": "Skor pelanggaran berat (-2) karena sentralisasi paksa menghapus susunan asli daerah yang dilindungi konstitusi, sesuai jangkar rubrik -2 tentang peresahan kebinekaan demi kemudahan politik pusat.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-5-1979"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-5-1979"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -302160,6 +302619,104 @@
           "event_ids": [
             "ev-jdih-uu-3-1975",
             "ev-jdih-uu-15-1975"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "sila-5",
+          "score": -1,
+          "confidence": 0.65,
+          "rationale_id": "Ketentuan pokok transmigrasi menjadikan pemindahan penduduk dari Jawa ke luar Jawa sebagai kebijakan negara berskala besar. Sebagian transmigran memang memperoleh tanah yang tidak mungkin mereka miliki di Jawa. Namun undang-undang ini tidak mengatur perlindungan hak masyarakat adat di daerah tujuan, sehingga pemerataan bagi satu kelompok dijalankan di atas tanah yang bagi kelompok lain adalah wilayah adat.",
+          "thesis_id": "Dalil formalnya: transmigrasi ditujukan untuk pemerataan penduduk, pembukaan lahan produktif, dan peningkatan taraf hidup - pelaksanaan Pasal 33 UUD 1945 tentang penggunaan bumi dan air bagi sebesar-besar kemakmuran rakyat.",
+          "antithesis_id": "Sebesar-besar kemakmuran rakyat tidak boleh dihitung dengan mengabaikan sebagian rakyat: undang-undang ini sama sekali tidak memuat mekanisme pengakuan atau ganti rugi atas tanah ulayat di daerah tujuan, dan konflik agraria yang lahir darinya masih berlangsung sampai hari ini.",
+          "synthesis_id": "Skor Buruk (-1) karena keadilan distributif dikejar dengan memindahkan beban ke kelompok lain yang haknya tidak diatur sama sekali - pemerataan yang menciptakan ketimpangan baru.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-3-1972"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-3-1972"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-1",
+          "score": -2,
+          "confidence": 0.7,
+          "rationale_id": "UU Kepolisian 1997 menegaskan Polri sebagai bagian dari ABRI, bukan lembaga sipil tersendiri - penegakan hukum terhadap warga berada dalam satu struktur komando dengan kekuatan pertahanan, tepat pada tahun terakhir sebelum krisis 1998. Bersama UU Peradilan Militer yang disahkan pekan yang sama, dua undang-undang ini menutup jalur pertanggungjawaban sipil atas kekerasan aparat.",
+          "thesis_id": "Dalil formalnya: integrasi Polri dalam ABRI dipandang sebagai bentuk kesatuan pertahanan dan keamanan negara yang menyeluruh, sesuai doktrin pertahanan keamanan rakyat semesta yang berlaku sepanjang periode ini.",
+          "antithesis_id": "Menyatukan aparat penegak hukum terhadap warga dengan kekuatan tempur menghapus perbedaan antara musuh dan warga negara: pemisahan Polri dari TNI dua tahun kemudian lewat Ketetapan MPR adalah pengakuan resmi bahwa kerangka 1997 memang keliru, dan koreksi itu datang setelah kekerasan Mei 1998 terjadi.",
+          "synthesis_id": "Skor pelanggaran berat (-2) karena aparat yang seharusnya melindungi warga ditempatkan dalam struktur yang memperlakukan warga sebagai objek keamanan, sesuai jangkar rubrik -2.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-28-1997"
+            },
+            {
+              "source_id": "jdih-uu-31-1997"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-28-1997",
+            "ev-jdih-uu-31-1997"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-2",
+          "score": -1,
+          "confidence": 0.6,
+          "rationale_id": "DPR mengesahkan undang-undang APBN tiap tahun anggaran sepanjang Orde Baru tanpa satu kali pun menolak atau mengubahnya secara berarti. Fungsi anggaran dijalankan lengkap secara prosedural, tetapi persetujuan parlemen atas belanja negara berhenti pada pengesahan dan tidak sampai pada pengendalian - sementara temuan penyimpangan pengelolaan keuangan negara berulang tanpa konsekuensi politik.",
+          "thesis_id": "Dalil formalnya: Pasal 23 UUD 1945 mensyaratkan anggaran pendapatan dan belanja negara ditetapkan dengan undang-undang setiap tahun, dan syarat itu dipenuhi tanpa terputus selama hampir tiga dasawarsa.",
+          "antithesis_id": "Pemenuhan syarat tanpa pengujian membuat pasal itu kehilangan maksudnya: hak budget adalah alat kendali parlemen atas eksekutif, dan alat yang tidak pernah sekali pun dipakai untuk menolak atau memangkas berarti pengawasan atas belanja negara hanya ada di atas kertas.",
+          "synthesis_id": "Skor Buruk (-1) karena belanja negara disahkan tanpa kendali, sehingga kesejahteraan umum bergantung sepenuhnya pada kehendak eksekutif tanpa penyeimbang.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-1-1972"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-1-1972"
+          ],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ]
+        },
+        {
+          "dimension_id": "tujuan-3",
+          "score": 0,
+          "confidence": 0.45,
+          "rationale_id": "Undang-undang sistem pendidikan nasional periode ini tidak tercakup dalam korpus yang sudah terverifikasi, sehingga penilaian atas dimensi ini belum memiliki dasar bukti primer yang dapat disitasi. Kekosongan ini dinyatakan terbuka, bukan diisi dengan penilaian tanpa dasar.",
+          "thesis_id": "Dalil formalnya: pendidikan dasar diperluas secara masif sepanjang periode ini lewat program pembangunan sekolah dasar berskala nasional, dan angka partisipasi kasar meningkat tajam menurut laporan pemerintah.",
+          "antithesis_id": "Perluasan akses berjalan bersamaan dengan penyeragaman isi: penataran ideologi diwajibkan bagi guru dan siswa, dan penulisan sejarah nasional dikendalikan negara - sehingga menilai dimensi ini hanya dari angka partisipasi akan menutupi persoalan indoktrinasi yang justru disebut jangkar -2 rubrik.",
+          "synthesis_id": "Skor Netral (0) dengan evidence_gap: dua temuan berlawanan sama-sama kuat tetapi belum satu pun didukung dokumen primer dalam korpus, sehingga dimensi ini dikeluarkan dari perhitungan indeks sampai buktinya ada.",
+          "evidence": [],
+          "normative_anchors": [
+            "uud-nri-1945"
+          ],
+          "evidence_gap": true
+        },
+        {
+          "dimension_id": "tujuan-4",
+          "score": -1,
+          "confidence": 0.6,
+          "rationale_id": "DPR mengesahkan perjanjian persahabatan bilateral pada 1976 - tahun yang sama ketika Timor Timur diintegrasikan lewat undang-undang setelah operasi militer yang tidak pernah memperoleh pengakuan Perserikatan Bangsa-Bangsa. Diplomasi persahabatan berjalan di satu meja sementara di meja lain Indonesia menghadapi resolusi Dewan Keamanan yang menyerukan penarikan pasukan.",
+          "thesis_id": "Dalil formalnya: Indonesia menjalankan politik luar negeri bebas-aktif, kembali ke Perserikatan Bangsa-Bangsa, menjadi pendiri ASEAN, dan meratifikasi rangkaian perjanjian persahabatan bilateral yang seluruhnya disahkan lewat undang-undang.",
+          "antithesis_id": "Rangkaian ratifikasi itu berjalan sementara Dewan Keamanan PBB mengeluarkan resolusi yang menyerukan penarikan pasukan Indonesia dari Timor Timur, dan DPR mengesahkan integrasinya tanpa perdebatan yang tercatat - keikutsertaan melaksanakan ketertiban dunia dijalankan selektif, pada perkara yang tidak menyentuh kepentingan sendiri.",
+          "synthesis_id": "Skor Buruk (-1) karena kewajiban internasional dipenuhi pada perkara yang mudah dan diabaikan pada perkara yang paling disorot dunia, tanpa satu pun koreksi dari lembaga perwakilan.",
+          "evidence": [
+            {
+              "source_id": "jdih-uu-6-1976"
+            }
+          ],
+          "event_ids": [
+            "ev-jdih-uu-6-1976"
           ],
           "normative_anchors": [
             "uud-nri-1945"
