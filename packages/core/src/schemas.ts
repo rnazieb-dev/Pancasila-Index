@@ -134,10 +134,30 @@ export const sourceSchema = z.object({
   content_verified: z.boolean().optional(),
   /** Sama seperti event.provenance: membedakan sumber terkurasi dari panen register JDIH. */
   provenance: z.enum(["kurasi", "register-jdih"]).optional(),
-  /** Pengarang menurut katalog perpustakaan, bila sumbernya literatur. */
+  /**
+   * Pengarang menurut katalog perpustakaan, bila sumbernya literatur.
+   *
+   * WAJIB dalam urutan APA - "Nama Belakang, N. D." - karena `formatApa()`
+   * memakai nilai ini apa adanya. Membalik nama secara otomatis tidak aman:
+   * konvensi nama Indonesia tidak selalu punya nama keluarga, jadi menebak
+   * mana bagian "belakang" justru menghasilkan sitasi yang salah.
+   */
   author: z.string().optional(),
   /** Penerbit menurut katalog perpustakaan. */
   publisher: z.string().optional(),
+  /**
+   * Wadah penerbitan: nama jurnal, surat kabar, atau buku induk bila
+   * sumbernya bab dalam buku. Dipakai `formatApa()` sebagai bagian yang
+   * dimiringkan pada rujukan artikel.
+   */
+  container_title: z.string().optional(),
+  volume: z.string().optional(),
+  issue: z.string().optional(),
+  /** Rentang halaman, mis. "231-248". */
+  pages: z.string().optional(),
+  /** Edisi selain edisi pertama, mis. "2" untuk (2nd ed.)/(ed. 2). */
+  edition: z.string().optional(),
+  doi: z.string().optional(),
   /**
    * Tingkat verifikasi ala pasal.id (verification.tier):
    * - human_verified: ditinjau manusia terhadap naskah resmi
@@ -426,13 +446,74 @@ export const evidenceSchema = z.object({
   note_id: z.string().optional(),
 });
 
-export const expertQuoteSchema = z.object({
-  quote: z.string().min(5),
-  author: z.string().min(2),
-  role: z.string().min(2),
-  source_id: idField("expert_quote.source_id").optional(),
-  year: z.number().int().optional(),
-});
+/**
+ * Apa yang sebenarnya ada di dokumen sumber. Membedakan ini bukan
+ * kerewelan tata bahasa: menyajikan susunan sendiri di dalam tanda kutip
+ * atas nama pakar yang masih hidup adalah menaruh kata-kata di mulut orang.
+ */
+export const quoteKindSchema = z.enum([
+  /** Kata demi kata sebagaimana tertulis/terucap. Wajib ber-`locator`. */
+  "kutipan-langsung",
+  /** Ringkasan argumen yang memang dikemukakan sumbernya, dengan kata kita. */
+  "parafrasa",
+  /** Temuan atau angka yang dilaporkan sebuah lembaga, bukan pendapat orang. */
+  "temuan-laporan",
+]);
+export type QuoteKind = z.infer<typeof quoteKindSchema>;
+
+/**
+ * Sejauh apa isi kutipan ini benar-benar sudah diperiksa. Sejajar dengan
+ * `source.verification_tier`, dan dibedakan darinya karena keduanya menjawab
+ * pertanyaan yang berbeda: `verification_tier` membuktikan KARYANYA ada dan
+ * metadatanya benar, sedangkan field ini membuktikan KALIMAT ini ada di
+ * dalamnya. Katalog perpustakaan tidak pernah bisa membuktikan yang kedua -
+ * celah itulah yang dipakai kutipan karangan untuk tampak sah.
+ */
+export const quoteVerificationSchema = z.enum([
+  /** Dicocokkan langsung ke naskah dokumennya pada halaman/paragraf yang disebut. */
+  "naskah-primer",
+  /** Dikutip dari pemberitaan/publikasi yang mengutip yang bersangkutan. */
+  "kutipan-sekunder",
+  /** Belum diperiksa. Ditampilkan dengan peringatan, tidak disajikan sebagai fakta. */
+  "belum-terverifikasi",
+]);
+export type QuoteVerification = z.infer<typeof quoteVerificationSchema>;
+
+export const expertQuoteSchema = z
+  .object({
+    quote: z.string().min(5),
+    author: z.string().min(2),
+    role: z.string().min(2),
+    /**
+     * Wajib - dulu opsional. Doktrin tanpa sumber tidak dapat diperiksa
+     * siapa pun, dan justru bagian yang tak dapat diperiksa itulah yang
+     * paling mudah dikarang.
+     */
+    source_id: idField("expert_quote.source_id"),
+    /**
+     * Tahun kalimat ini diucapkan/ditulis. Divalidasi build terhadap tahun
+     * terbit sumbernya: sebuah terbitan tidak mungkin memuat pernyataan yang
+     * belum terjadi ketika ia dicetak.
+     */
+    year: z.number().int().optional(),
+    kind: quoteKindSchema,
+    /**
+     * Penunjuk letak di dalam sumber: "hlm. 231", "para. 3.14", "Pasal 5",
+     * "menit 12:04". Wajib untuk `kutipan-langsung` - tanpa penunjuk letak,
+     * sebuah kutipan kata-demi-kata tidak dapat dicari orang lain, sehingga
+     * kutipan karangan dan kutipan asli tampak sama sahnya.
+     */
+    locator: z.string().optional(),
+    verification: quoteVerificationSchema,
+  })
+  .refine(
+    (q) => q.kind !== "kutipan-langsung" || Boolean(q.locator?.trim()),
+    "expert_quote: kutipan-langsung wajib menyebut `locator` (halaman/paragraf/pasal) agar dapat dicari ulang"
+  )
+  .refine(
+    (q) => q.verification !== "naskah-primer" || Boolean(q.locator?.trim()),
+    "expert_quote: verification `naskah-primer` mengklaim kalimatnya sudah dicocokkan ke naskah - sebutkan `locator` tempat mencocokkannya"
+  );
 export type ExpertQuote = z.infer<typeof expertQuoteSchema>;
 
 export const dimensionScoreSchema = z.object({

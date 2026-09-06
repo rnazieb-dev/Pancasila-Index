@@ -1,6 +1,14 @@
 "use client";
 
-import type { AiDisclosure, DimensionScore, Source } from "@pancasila-index/core";
+import type {
+  AiDisclosure,
+  DimensionScore,
+  ExpertQuote,
+  QuoteKind,
+  QuoteVerification,
+  Source,
+} from "@pancasila-index/core";
+import { formatApa } from "@pancasila-index/core";
 import {
   IconQuote,
   IconScale,
@@ -9,6 +17,63 @@ import {
   IconExternalLink,
   IconBot,
 } from "./icons";
+
+/**
+ * Label jenis kutipan. Sengaja ditampilkan, bukan disembunyikan: pembaca
+ * berhak tahu apakah yang dibacanya kata-kata pakar itu sendiri atau
+ * ringkasan kita atas argumennya.
+ */
+const KIND_VIEW: Record<QuoteKind, { label: string; kutipMiring: boolean }> = {
+  "kutipan-langsung": { label: "Kutipan langsung", kutipMiring: true },
+  parafrasa: { label: "Parafrasa argumen", kutipMiring: false },
+  "temuan-laporan": { label: "Temuan lembaga", kutipMiring: false },
+};
+
+const VERIFICATION_VIEW: Record<
+  QuoteVerification,
+  { label: string; className: string }
+> = {
+  "naskah-primer": {
+    label: "dicocokkan ke naskah",
+    className:
+      "border-emerald-500/30 bg-emerald-500/10 text-emerald-700 dark:text-emerald-400",
+  },
+  "kutipan-sekunder": {
+    label: "dari terbitan yang mengutip",
+    className: "border-[var(--line)] bg-[var(--panel)] text-[var(--muted)]",
+  },
+  "belum-terverifikasi": {
+    label: "belum diperiksa ke naskahnya",
+    className:
+      "border-amber-500/40 bg-amber-500/10 text-amber-700 dark:text-amber-400",
+  },
+};
+
+/** Rujukan APA, dengan bagian yang seharusnya miring benar-benar dimiringkan. */
+function ApaReference({ source, quote }: { source: Source; quote: ExpertQuote }) {
+  const apa = formatApa(source);
+  return (
+    <div className="space-y-1">
+      <div className="text-[10px] uppercase font-bold tracking-wider text-[var(--muted)]">
+        Rujukan (APA 7)
+      </div>
+      <p className="text-[11px] leading-relaxed text-[var(--muted)] break-words">
+        {apa.parts.map((part, i) =>
+          part.italic ? (
+            <em key={i} className="italic">
+              {part.text}
+            </em>
+          ) : (
+            <span key={i}>{part.text}</span>
+          )
+        )}
+        {quote.locator ? (
+          <span className="text-[var(--text)]"> {quote.locator}.</span>
+        ) : null}
+      </p>
+    </div>
+  );
+}
 
 interface Props {
   dimensionScore: DimensionScore;
@@ -108,6 +173,34 @@ export function DialecticalRationale({ dimensionScore, sources, disclosure }: Pr
         )}
       </div>
 
+      {/*
+       * Celah doktrin dinyatakan, bukan didiamkan.
+       *
+       * Tab ini bernama "Dialektika & Doktrin Pakar", jadi antitesis tanpa
+       * satu pun kutipan pakar atau temuan lembaga terbaca seolah punya
+       * sandaran doktriner padahal tidak. Menyatakannya terbuka lebih baik
+       * daripada membiarkan pembaca menyimpulkan sendiri - dan jauh lebih
+       * baik daripada menambalnya dengan kutipan yang tak dapat diperiksa.
+       */}
+      {antithesis_id && expert_quotes.length === 0 && (
+        <div className="flex items-start gap-2 rounded-xl border border-amber-500/25 bg-amber-500/5 p-3">
+          <IconAlertTriangle
+            size={14}
+            className="mt-0.5 shrink-0 text-amber-600 dark:text-amber-400"
+          />
+          <p className="text-[11px] leading-relaxed text-[var(--muted)]">
+            <strong className="text-amber-700 dark:text-amber-400">
+              Antitesis ini belum bersandar pada doktrin pakar.
+            </strong>{" "}
+            Tidak ada kutipan ahli hukum tata negara maupun temuan lembaga yang
+            menopangnya - yang Anda baca adalah pembacaan AI atas bukti yang
+            disitasi di tab <em>Pustaka Bukti &amp; Norma</em>. Bukti primernya
+            tetap dapat Anda periksa sendiri, tetapi penafsirannya belum diuji
+            terhadap pendapat pakar mana pun.
+          </p>
+        </div>
+      )}
+
       {/* Kartu Kutipan Langsung Pakar Terkemuka (Expert Quotes) */}
       {expert_quotes.length > 0 && (
         <div className="space-y-2 pt-1">
@@ -123,13 +216,38 @@ export function DialecticalRationale({ dimensionScore, sources, disclosure }: Pr
                 : undefined;
               const href = src?.detail_url ?? src?.resolved_url ?? src?.url;
 
+              const kind = KIND_VIEW[eq.kind];
+              const ver = VERIFICATION_VIEW[eq.verification];
+
               return (
                 <div
                   key={idx}
                   className="relative rounded-xl border border-[var(--line)] bg-[var(--bg)] p-3.5 pl-4 sm:pl-5 space-y-2 shadow-2xs border-l-3 border-l-[var(--acc-sky)]"
                 >
-                  <div className="text-xs sm:text-[13px] italic leading-relaxed text-[var(--text)] font-serif">
-                    &ldquo;{eq.quote}&rdquo;
+                  <div className="flex flex-wrap items-center gap-1.5">
+                    <span className="rounded border border-[var(--line)] bg-[var(--panel)] px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-[var(--muted)]">
+                      {kind.label}
+                    </span>
+                    <span
+                      className={`rounded border px-1.5 py-0.5 text-[9px] font-semibold ${ver.className}`}
+                    >
+                      {ver.label}
+                    </span>
+                  </div>
+
+                  {/*
+                   * Hanya kutipan kata-demi-kata yang memakai tanda kutip.
+                   * Parafrasa dan temuan lembaga ditampilkan tanpa tanda kutip
+                   * supaya tidak terbaca sebagai ucapan langsung seseorang -
+                   * membungkus susunan sendiri dengan tanda kutip atas nama
+                   * pakar yang masih hidup adalah menaruh kata di mulut orang.
+                   */}
+                  <div
+                    className={`text-xs sm:text-[13px] leading-relaxed text-[var(--text)] ${
+                      kind.kutipMiring ? "italic font-serif" : ""
+                    }`}
+                  >
+                    {kind.kutipMiring ? `“${eq.quote}”` : eq.quote}
                   </div>
 
                   <div className="flex flex-wrap items-center justify-between gap-2 pt-1 border-t border-[var(--line)]/50 text-[11px]">
@@ -147,29 +265,26 @@ export function DialecticalRationale({ dimensionScore, sources, disclosure }: Pr
                       )}
                     </div>
 
-                    {src && (
-                      <div className="shrink-0">
-                        {href ? (
-                          <a
-                            href={href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1 font-mono text-[10px] text-[var(--acc-sky)] hover:underline"
-                            title={src.title_id}
-                          >
-                            <IconFileText size={11} className="shrink-0" />
-                            <span className="max-w-[200px] truncate">{src.title_id}</span>
-                            <IconExternalLink size={9} className="shrink-0" />
-                          </a>
-                        ) : (
-                          <span className="inline-flex items-center gap-1 font-mono text-[10px] text-[var(--muted)]">
-                            <IconFileText size={11} className="shrink-0" />
-                            <span className="max-w-[200px] truncate">{src.title_id}</span>
-                          </span>
-                        )}
-                      </div>
+                    {src && href && (
+                      <a
+                        href={href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex shrink-0 items-center gap-1 font-mono text-[10px] text-[var(--acc-sky)] hover:underline"
+                        title={src.title_id}
+                      >
+                        <IconFileText size={11} className="shrink-0" />
+                        <span>Buka sumber</span>
+                        <IconExternalLink size={9} className="shrink-0" />
+                      </a>
                     )}
                   </div>
+
+                  {src && (
+                    <div className="pt-1 border-t border-[var(--line)]/50">
+                      <ApaReference source={src} quote={eq} />
+                    </div>
+                  )}
                 </div>
               );
             })}

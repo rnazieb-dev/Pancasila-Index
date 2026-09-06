@@ -1,89 +1,181 @@
 import { describe, it, expect } from "vitest";
-import { dimensionScoreSchema, expertQuoteSchema } from "@pancasila-index/core";
+import { dimensionScoreSchema, expertQuoteSchema, formatApa } from "@pancasila-index/core";
 import { dataset } from "@pancasila-index/data";
 
-describe("Dialectical Rationale & Expert Quotes Integrity", () => {
-  it("expertQuoteSchema memvalidasi struktur kutipan langsung pakar hukum dan peradilan", () => {
-    const quote = expertQuoteSchema.parse({
-      quote:
-        "Baru kali ini saya menyaksikan Mahkamah Konstitusi berubah haluan secepat ini dalam hitungan hari...",
-      author: "Prof. Dr. Saldi Isra, S.H., M.P.A.",
-      role: "Hakim Konstitusi",
-      year: 2023,
-      source_id: "dissenting-opinion-saldi-isra-putusan-90-2023",
-    });
+/*
+ * Berkas ini dulu menguji JUMLAH kutipan ("minimal 20 kutipan pakar") dan
+ * menyebut hasilnya "terverifikasi". Ambang itu justru mengunci masalahnya:
+ * ia lulus selama dataset punya cukup banyak kutipan, tanpa pernah menanyakan
+ * apakah kutipannya benar ada. Sembilan belas dari dua puluh satu kutipan yang
+ * membuat uji ini hijau ternyata mustahil - antara lain kutipan Jimly
+ * Asshiddiqie tahun 2005 tentang UU ITE yang baru disahkan 2008.
+ *
+ * Yang diuji sekarang adalah sifat yang membuat kutipan dapat diperiksa
+ * pembaca, bukan banyaknya.
+ */
+describe("Integritas kutipan doktrin", () => {
+  const quoteDasar = {
+    quote: "Perubahan APBN wajib lewat undang-undang, bukan instruksi presiden.",
+    author: "Prof. Dr. Ferdi, S.H., M.Hum.",
+    role: "Dekan Fakultas Hukum Universitas Andalas",
+    year: 2025,
+    source_id: "berita-hukumonline-ferdi-inpres-cacat-hukum-2025",
+  };
 
-    expect(quote.author).toBe("Prof. Dr. Saldi Isra, S.H., M.P.A.");
-    expect(quote.year).toBe(2023);
-    expect(quote.source_id).toBe("dissenting-opinion-saldi-isra-putusan-90-2023");
+  it("menolak kutipan tanpa sumber", () => {
+    const { source_id: _dibuang, ...tanpaSumber } = quoteDasar;
+    expect(() =>
+      expertQuoteSchema.parse({
+        ...tanpaSumber,
+        kind: "parafrasa",
+        verification: "kutipan-sekunder",
+      })
+    ).toThrow();
   });
 
-  it("dimensionScoreSchema memvalidasi struktur dialektika (tesis, antitesis, sintesis, dan kutipan)", () => {
+  it("menolak kutipan langsung tanpa penunjuk letak", () => {
+    expect(() =>
+      expertQuoteSchema.parse({
+        ...quoteDasar,
+        kind: "kutipan-langsung",
+        verification: "kutipan-sekunder",
+      })
+    ).toThrow(/locator/i);
+  });
+
+  it("menolak klaim naskah-primer tanpa penunjuk letak", () => {
+    expect(() =>
+      expertQuoteSchema.parse({
+        ...quoteDasar,
+        kind: "parafrasa",
+        verification: "naskah-primer",
+      })
+    ).toThrow(/locator/i);
+  });
+
+  it("menerima parafrasa bersumber yang menyatakan tingkat verifikasinya", () => {
+    const q = expertQuoteSchema.parse({
+      ...quoteDasar,
+      kind: "parafrasa",
+      verification: "kutipan-sekunder",
+    });
+    expect(q.kind).toBe("parafrasa");
+    expect(q.verification).toBe("kutipan-sekunder");
+  });
+
+  it("dimensionScoreSchema tetap memvalidasi dialektika lengkap", () => {
     const ds = dimensionScoreSchema.parse({
       dimension_id: "checks-balances",
       score: -2,
       confidence: 0.9,
       thesis_id: "Pemerintah mengklaim revisi UU untuk penataan pengawasan.",
-      antithesis_id: "Pakar mengkritik pelemahan KPK dan autokrasi legalisme.",
+      antithesis_id: "Pengawasan independen justru dipangkas.",
       synthesis_id: "Pelanggaran berat terhadap checks and balances.",
       expert_quotes: [
         {
-          quote: "Revisi UU KPK membonsai independensi penyidikan...",
-          author: "Bivitri Susanti, S.H., LL.M.",
-          role: "Pakar Hukum Tata Negara",
-          year: 2020,
+          ...quoteDasar,
+          kind: "kutipan-langsung",
+          locator: "paragraf 4",
+          verification: "kutipan-sekunder",
         },
       ],
       rationale_id: "Sintesis lengkap pertimbangan ilmiah berbasis bukti empiris.",
       evidence: [{ source_id: "uu-19-2019" }],
     });
-
-    expect(ds.thesis_id).toBeDefined();
-    expect(ds.antithesis_id).toBeDefined();
-    expect(ds.synthesis_id).toBeDefined();
     expect(ds.expert_quotes?.length).toBe(1);
   });
+});
 
-  it("dataset kanonik memuat skor berdialektika tesis-antitesis dan kutipan pakar terverifikasi", () => {
-    let dialecticCount = 0;
-    let quoteCount = 0;
-    const sourceIds = new Set(dataset.sources.map((s) => s.id));
+describe("Kutipan pada dataset kanonik", () => {
+  const sumberById = new Map(dataset.sources.map((s) => [s.id, s]));
+  const semuaKutipan = dataset.assessments.flatMap((a) =>
+    a.dimension_scores.flatMap((ds) =>
+      (ds.expert_quotes ?? []).map((q) => ({ q, di: `${a.id}/${ds.dimension_id}` }))
+    )
+  );
 
-    for (const asm of dataset.assessments) {
-      for (const ds of asm.dimension_scores) {
-        if (ds.thesis_id || ds.antithesis_id) {
-          dialecticCount++;
-        }
-        if (ds.expert_quotes && ds.expert_quotes.length > 0) {
-          for (const eq of ds.expert_quotes) {
-            quoteCount++;
-            if (eq.source_id) {
-              expect(sourceIds.has(eq.source_id)).toBe(true);
-            }
-          }
-        }
-      }
+  it("setiap kutipan menunjuk sumber yang terdaftar", () => {
+    for (const { q, di } of semuaKutipan) {
+      expect(sumberById.has(q.source_id), `${di}: ${q.source_id}`).toBe(true);
     }
-
-    expect(dialecticCount).toBeGreaterThanOrEqual(20);
-    expect(quoteCount).toBeGreaterThanOrEqual(20);
   });
 
-  it("asesmen kunci era krusial memiliki kutipan pakar otoritatif", () => {
-    const jokowi2 = dataset.assessments.find((a) => a.id === "asm-jokowi-ii");
-    expect(jokowi2).toBeDefined();
-    const cbJokowi2 = jokowi2?.dimension_scores.find((d) => d.dimension_id === "checks-balances");
-    expect(cbJokowi2?.expert_quotes?.length).toBeGreaterThanOrEqual(1);
-    expect(cbJokowi2?.expert_quotes?.some((q) => q.author.includes("Saldi Isra"))).toBe(true);
+  it("tidak ada kutipan yang menyebut tahun melampaui terbitan sumbernya", () => {
+    // Sifat inilah yang gagal dimiliki kutipan Jimly 2005 tentang UU ITE 2008.
+    for (const { q, di } of semuaKutipan) {
+      const tahunTerbit = sumberById.get(q.source_id)?.year;
+      if (typeof tahunTerbit !== "number") continue;
+      for (const m of q.quote.matchAll(/\b(19|20)\d{2}\b/g)) {
+        expect(Number(m[0]), `${di}: menyebut ${m[0]}, sumber terbit ${tahunTerbit}`)
+          .toBeLessThanOrEqual(tahunTerbit);
+      }
+    }
+  });
 
-    const soeharto = dataset.assessments.find((a) => a.id === "asm-soeharto");
-    expect(soeharto).toBeDefined();
-    const cbSoeharto = soeharto?.dimension_scores.find((d) => d.dimension_id === "checks-balances");
-    expect(cbSoeharto?.expert_quotes?.some((q) => q.author.includes("Daniel S. Lev"))).toBe(true);
+  it("naskah-primer tidak diklaim di atas sumber yang baru terverifikasi katalog", () => {
+    for (const { q, di } of semuaKutipan) {
+      if (q.verification !== "naskah-primer") continue;
+      const tier = sumberById.get(q.source_id)?.verification_tier;
+      expect(["catalog_verified", "unverified"], `${di}`).not.toContain(tier);
+    }
+  });
 
-    const mk23 = dataset.assessments.find((a) => a.id === "asm-mk23");
-    expect(mk23).toBeDefined();
-    const nhMk23 = mk23?.dimension_scores.find((d) => d.dimension_id === "negara-hukum");
-    expect(nhMk23?.expert_quotes?.some((q) => q.author.includes("MKMK") || q.author.includes("Saldi Isra"))).toBe(true);
+  it("setiap kutipan langsung membawa penunjuk letak yang dapat dicari", () => {
+    for (const { q, di } of semuaKutipan) {
+      if (q.kind !== "kutipan-langsung") continue;
+      expect(q.locator?.trim(), `${di}`).toBeTruthy();
+    }
+  });
+});
+
+describe("Rujukan APA", () => {
+  it("menyusun rujukan buku dengan pengarang, tahun, judul, dan penerbit", () => {
+    const apa = formatApa({
+      id: "buku-uji",
+      type: "buku",
+      title_id: "Politik Hukum di Indonesia",
+      year: 1998,
+      author: "Mahfud MD, M.",
+      publisher: "Rajawali Press",
+    });
+    expect(apa.text).toBe(
+      "Mahfud MD, M. (1998). Politik Hukum di Indonesia. Rajawali Press."
+    );
+    expect(apa.parts.some((p) => p.italic && p.text.includes("Politik Hukum"))).toBe(true);
+  });
+
+  it("membuang ekor nama pengarang dari judul agar tidak muncul dua kali", () => {
+    const apa = formatApa({
+      id: "buku-uji-2",
+      type: "buku",
+      title_id: "Konstitusi & Konstitusionalisme Indonesia (Prof. Dr. Jimly Asshiddiqie)",
+      year: 2005,
+      author: "Asshiddiqie, J.",
+      publisher: "Sinar Grafika",
+    });
+    expect(apa.text).not.toContain("(Prof. Dr. Jimly Asshiddiqie)");
+    expect(apa.text).toContain("Konstitusi & Konstitusionalisme Indonesia.");
+  });
+
+  it("memakai lembaga sebagai pengarang korporat untuk putusan pengadilan", () => {
+    const apa = formatApa({
+      id: "putusan-uji",
+      type: "putusan-mk",
+      title_id: "Putusan MK No. 40/PUU-XXIV/2026",
+      year: 2026,
+      url: "https://pasal.id/peraturan/putusan-mk/puu-mk-40-2026",
+    });
+    expect(apa.text).toContain("Mahkamah Konstitusi Republik Indonesia. (2026).");
+    expect(apa.text).toContain("https://pasal.id/");
+  });
+
+  it("menandai tahun tidak diketahui, tidak mengarangnya", () => {
+    const apa = formatApa({
+      id: "tanpa-tahun",
+      type: "laporan-lembaga",
+      title_id: "Laporan Tanpa Tahun",
+      author: "Lembaga Uji",
+    });
+    expect(apa.text).toContain("(t.t.).");
   });
 });
