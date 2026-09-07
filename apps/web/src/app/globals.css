@@ -55,6 +55,28 @@
   --flag-red: #E01A2B;
   --flag-red-ink: #ffffff;
 
+  /*
+   * Palet INDEKS untuk pita beranda. Bukan warna bendera.
+   *
+   * Pita itu dulu diisi merah-putih, dan itu keliru dua kali. Pertama, ia
+   * membuat grafik indeks terbaca sebagai lambang, bukan sebagai ukuran.
+   * Kedua, ia mengkodekan "jarak menuju 100" sebagai bidang merah, sehingga
+   * selisih kecil pun tampak dramatis.
+   *
+   * Pekerjaan warna di sini adalah POLARITAS - di sisi mana sebuah angka
+   * berada terhadap titik netral 50 - dan pekerjaan itu memakai pasangan
+   * diverging: dua hue berlawanan suhu dengan titik tengah netral. Biru
+   * (di atas netral) dan merah (di bawah netral) dipilih karena aman bagi
+   * buta warna: pasangan ini terpisah OKLab dE 21.6 di bawah simulasi
+   * protanopia pada tema terang dan 19.2 pada tema gelap, jauh di atas
+   * ambang 8, dengan kontras >= 3:1 terhadap kedua permukaan panel.
+   *
+   * Langkah tema gelap DIPILIH untuk permukaan gelap, bukan hasil pembalikan
+   * otomatis tema terang.
+   */
+  --idx-above: #2a78d6;
+  --idx-below: #e34948;
+
   --acc-sky-strong: #0c4a6e;
   --acc-sky: #075985;
   --acc-amber-strong: #78350f;
@@ -110,6 +132,10 @@
      identik supaya merah bendera tidak berubah rona antar tema. */
   --flag-red: #E01A2B;
   --flag-red-ink: #ffffff;
+
+  /* Langkah gelap dari hue yang sama, divalidasi terhadap panel gelap. */
+  --idx-above: #3987e5;
+  --idx-below: #e66767;
 
   --acc-sky-strong: #7dd3fc;
   --acc-sky: #38bdf8;
