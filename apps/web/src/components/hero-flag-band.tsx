@@ -42,7 +42,6 @@ const NETRAL = 50;
 export function HeroFlagBand({ terms }: { terms: FlagBandTerm[] }) {
   const dinilai = terms.filter((t) => t.summary?.index != null);
   const ditahan = terms.length - dinilai.length;
-  const dibatasi = terms.filter((t) => t.summary?.index_capped === true).length;
 
   return (
     <figure className="mt-8 border-[3px] border-[var(--text)] bg-[var(--panel)]">
@@ -54,8 +53,7 @@ export function HeroFlagBand({ terms }: { terms: FlagBandTerm[] }) {
           Merah mengisi dari atas sebesar jarak menuju 100. Pada indeks{" "}
           {NETRAL} kolomnya berbentuk{" "}
           <strong className="text-[var(--text)]">Sang Merah Putih utuh</strong> —
-          itulah titik netral skala ini. Makin banyak merah, makin jauh di
-          bawahnya.
+          itulah titik netral skala ini.
         </p>
       </figcaption>
 
@@ -113,17 +111,6 @@ export function HeroFlagBand({ terms }: { terms: FlagBandTerm[] }) {
                             background: "#ffffff",
                           }}
                         />
-                        {capped && (
-                          /* Dibatasi di 50 bukan "netral"; tanpa penanda,
-                             kolomnya menyamar jadi bendera utuh. */
-                          <div
-                            className="absolute inset-0"
-                            style={{
-                              backgroundImage:
-                                "repeating-linear-gradient(45deg, rgba(15,23,42,.5) 0 3px, transparent 3px 7px)",
-                            }}
-                          />
-                        )}
                       </>
                     )}
                   </Link>
@@ -184,10 +171,14 @@ export function HeroFlagBand({ terms }: { terms: FlagBandTerm[] }) {
 
       <div className="border-t border-[var(--line)] px-4 py-2.5 text-[10px] leading-relaxed text-[var(--muted)] sm:px-5">
         {/*
-         * Keterangan disusun kondisional. Kalimat tetap "sisanya ditahan"
+         * Keterangan disusun kondisional: kalimat tetap "sisanya ditahan"
          * berbunyi omong kosong ketika semua indeks terbit ("11 dari 11 ...
-         * sisanya ditahan"), dan penjelasan tanda * menggantung kalau tidak
-         * ada satu pun kolom yang dibatasi.
+         * sisanya ditahan").
+         *
+         * Indeks yang dibatasi tidak lagi diberi arsir maupun keterangan kaki.
+         * Tanda * pada angkanya dipertahankan karena itu satu-satunya isyarat
+         * bahwa 50 di sana adalah BATAS, bukan hasil ukur; keterangan penuhnya
+         * ada di title dan aria-label kolomnya.
          */}
         <span className="font-semibold text-[var(--text)]">
           {dinilai.length} dari {terms.length} masa jabatan
@@ -200,15 +191,6 @@ export function HeroFlagBand({ terms }: { terms: FlagBandTerm[] }) {
           </>
         ) : null}
         .
-        {dibatasi > 0 && (
-          <>
-            {" "}
-            <span className="text-[var(--acc-red)]">*</span> menandai indeks
-            yang dibatasi di {NETRAL} karena temuan pelanggaran hak dasar —
-            kolomnya berbentuk bendera utuh bukan karena netral, melainkan
-            karena ditahan di sana.
-          </>
-        )}
       </div>
     </figure>
   );
