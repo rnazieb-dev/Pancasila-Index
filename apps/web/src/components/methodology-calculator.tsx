@@ -33,7 +33,7 @@ export function MethodologyCalculator() {
       },
     },
     {
-      name: "Teladan Reformasi (+2 HAM & Lembaga)",
+      name: "Reformasi Institusional (+2 HAM & Lembaga)",
       apply: () => {
         const s: Record<string, number> = {};
         for (const d of rubric.dimensions) s[d.id] = 1;

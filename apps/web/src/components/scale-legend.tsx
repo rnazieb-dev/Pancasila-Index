@@ -13,7 +13,7 @@ export function ScaleLegend({ compact = false }: ScaleLegendProps) {
   // warnanya jadi var(), `var(--x)18` adalah CSS invalid dan latarnya hilang
   // tanpa suara. Pakai token latar tersendiri.
   const levels = [
-    { range: "75–100", label: "Teladan / Progresif", color: "var(--score-vpos)", bg: "var(--score-vpos-bg)" },
+    { range: "75–100", label: "Selaras Penuh", color: "var(--score-vpos)", bg: "var(--score-vpos-bg)" },
     { range: "56–74", label: "Penguatan Konkret", color: "var(--score-pos)", bg: "var(--score-pos-bg)" },
     { range: "46–55", label: "Netral / Status Quo ← titik tengah", color: "var(--score-zero)", bg: "var(--score-zero-bg)" },
     { range: "30–45", label: "Cenderung Menggerus", color: "var(--score-neg)", bg: "var(--score-neg-bg)" },

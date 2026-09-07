@@ -31,6 +31,30 @@
      memakan kontras, jadi -700 tidak menyisakan headroom untuk 4.5 */
   --acc-red-strong: #7f1d1d;
   --acc-red: #991b1b;
+
+  /*
+   * Merah BIDANG - hanya untuk permukaan (tombol, bilah, bayangan blok),
+   * tidak pernah untuk teks.
+   *
+   * Dipisah dari --acc-red karena keduanya menjawab syarat yang berlawanan.
+   * --acc-red gelap (#991b1b) supaya lolos 4.5:1 SEBAGAI teks di atas latar
+   * terang; dipakai sebagai bidang, ia jadi maroon pudar - jauh dari merah
+   * bendera. --flag-red kebalikannya: ia yang jadi latar, dan teks putih di
+   * atasnya yang harus lolos 4.5:1.
+   *
+   * #E01A2B = 4.83:1 terhadap putih. Itu merah paling cerah yang masih lolos
+   * WCAG AA untuk teks kecil; tombol hero bertipografi 12px bold, yang TIDAK
+   * memenuhi definisi "teks besar" (18.66px bold / 24px), jadi ambangnya
+   * memang 4.5 penuh. Merah bendera yang lebih populer gagal di sini:
+   * #FF0000 hanya 4.00:1 dan #ED1C24 4.38:1.
+   *
+   * UU No. 24/2009 Pasal 4 hanya menyebut "berwarna merah" tanpa kode warna,
+   * jadi tidak ada hex yang mengikat secara hukum - nilai ini pilihan desain
+   * yang dibatasi keterbacaan, bukan klaim kepatuhan.
+   */
+  --flag-red: #E01A2B;
+  --flag-red-ink: #ffffff;
+
   --acc-sky-strong: #0c4a6e;
   --acc-sky: #075985;
   --acc-amber-strong: #78350f;
@@ -80,6 +104,13 @@
 
   --acc-red-strong: #fca5a5;
   --acc-red: #f87171;
+
+  /* Bidang merah tidak ikut dibalik: ia latar, bukan teks, jadi rasionya
+     terhadap teks putih di atasnya sama saja di kedua tema. Dibiarkan
+     identik supaya merah bendera tidak berubah rona antar tema. */
+  --flag-red: #E01A2B;
+  --flag-red-ink: #ffffff;
+
   --acc-sky-strong: #7dd3fc;
   --acc-sky: #38bdf8;
   --acc-amber-strong: #fcd34d;
@@ -131,4 +162,22 @@ body {
   background: var(--bg);
   color: var(--text);
   transition: background 0.2s, color 0.2s;
+}
+
+/*
+ * Strip yang digulung mendatar (tab dimensi, navigasi metodologi) tetap
+ * bisa digeser jari/trackpad, tapi tanpa batang gulir yang memakan tinggi
+ * baris tab. Kelas ini sudah dipakai `methodology-tabs.tsx` sejak lama
+ * padahal belum pernah didefinisikan - jadi bukan hiasan baru, ini
+ * menambal utilitas yang hilang.
+ *
+ * Hanya menyembunyikan batangnya: konten tetap dapat digulir dengan
+ * keyboard, roda, dan sentuhan, sehingga tidak ada isi yang jadi
+ * tak terjangkau.
+ */
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* WebKit/Blink */
 }

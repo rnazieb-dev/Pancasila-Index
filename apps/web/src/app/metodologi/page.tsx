@@ -21,7 +21,7 @@ export const metadata = {
 const scaleAnchors = [
   {
     v: "+2",
-    label: "Selaras Penuh / Teladan Institusional",
+    label: "Selaras Penuh",
     badge: "bg-[var(--acc-emerald)]/15 text-[var(--acc-emerald-strong)] border-[var(--acc-emerald)]/40",
     desc: "Terobosan institusional fundamental yang memperluas jaminan konstitusional, hak sipil, dan akuntabilitas publik secara berkelanjutan.",
     example:

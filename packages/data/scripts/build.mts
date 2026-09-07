@@ -358,15 +358,51 @@ for (const a of assessments) {
   }
 }
 
+/*
+ * Cakupan doktrin, dilaporkan apa adanya.
+ *
+ * Angka ini sengaja dipisah per tingkat verifikasi dan tidak digabung jadi
+ * satu bilangan "kutipan terverifikasi". Baris log lama menyebut SELURUH
+ * kutipan "terverifikasi" padahal tidak satu pun pernah dicocokkan ke
+ * naskahnya - dan justru label itulah yang membuat 19 kutipan karangan
+ * bertahan lama di dataset ini tanpa ada yang curiga.
+ */
 let totalExpertQuotes = 0;
 let dialecticDimensions = 0;
+let totalDimensionScores = 0;
+let skorBerdoktrin = 0;
+const perVerifikasi = new Map<string, number>();
 for (const a of assessments) {
   for (const ds of a.dimension_scores) {
-    if (ds.expert_quotes?.length) totalExpertQuotes += ds.expert_quotes.length;
+    totalDimensionScores++;
+    const quotes = ds.expert_quotes ?? [];
+    if (quotes.length) {
+      totalExpertQuotes += quotes.length;
+      skorBerdoktrin++;
+    }
+    for (const q of quotes) {
+      perVerifikasi.set(q.verification, (perVerifikasi.get(q.verification) ?? 0) + 1);
+    }
     if (ds.thesis_id || ds.antithesis_id) dialecticDimensions++;
   }
 }
-console.log(`Analisis ilmiah: ${totalExpertQuotes} kutipan langsung pakar terverifikasi, ${dialecticDimensions} skor berdialektika tesis-antitesis`);
+const rincianVerifikasi = [...perVerifikasi.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .map(([k, v]) => `${v} ${k}`)
+  .join(", ");
+const persenDoktrin = ((skorBerdoktrin / totalDimensionScores) * 100).toFixed(1);
+console.log(
+  `Analisis ilmiah: ${dialecticDimensions} skor berdialektika tesis-antitesis; ` +
+    `${totalExpertQuotes} kutipan doktrin (${rincianVerifikasi || "tidak ada"}) ` +
+    `pada ${skorBerdoktrin}/${totalDimensionScores} skor (${persenDoktrin}%)`
+);
+if (skorBerdoktrin < totalDimensionScores) {
+  console.log(
+    `  Catatan: ${totalDimensionScores - skorBerdoktrin} skor beranti-tesis tanpa satu pun ` +
+      `kutipan pakar atau temuan lembaga - antitesisnya murni susunan AI. UI menyatakan ini ` +
+      `terbuka pada pembaca; jangan tutup celahnya dengan kutipan yang tidak dapat diperiksa.`
+  );
+}
 
 for (const d of rubric.dimensions)
   if (!groupIds.has(d.group_id))
@@ -409,6 +445,7 @@ for (const bab of uud.babs)
 const AMBANG_PENGULANGAN = 3;
 
 const sourceYearById = new Map(sourcesRaw.map((s) => [s.id, s.year]));
+const sourceTierById = new Map(sourcesRaw.map((s) => [s.id, s.verification_tier]));
 
 function catatPengulangan(map: Map<string, string[]>, teks: string | undefined, di: string) {
   if (!teks) return;
@@ -468,6 +505,46 @@ for (const a of assessments) {
           errors.push(
             `${di}: expert_quote tahun ${q.year} tidak cocok dengan tahun terbit ` +
               `sumber ${q.source_id} (${tahunSumber}) - kutipan wajib bertahun terbitannya`
+          );
+        }
+      }
+
+      /*
+       * (2b) Anti-anakronisme ISI. Pemeriksaan (2) hanya mencocokkan field
+       * `year`, sehingga kutipan yang field tahunnya rapi tetapi isinya
+       * membicarakan peristiwa yang belum terjadi saat sumbernya terbit
+       * lolos begitu saja - persis cara kutipan Jimly 2005 tentang UU ITE
+       * (disahkan 2008) bertahan di dataset ini. Tahun yang disebut DI DALAM
+       * teks kutipan karena itu ikut diuji terhadap tahun terbit sumbernya.
+       */
+      const tahunTerbit = q.source_id ? sourceYearById.get(q.source_id) : undefined;
+      if (typeof tahunTerbit === "number") {
+        for (const m of q.quote.matchAll(/\b(19|20)\d{2}\b/g)) {
+          const disebut = Number(m[0]);
+          if (disebut > tahunTerbit) {
+            errors.push(
+              `${di}: expert_quote menyebut tahun ${disebut} padahal sumbernya ` +
+                `(${q.source_id}) terbit ${tahunTerbit} - sebuah terbitan tidak dapat ` +
+                `memuat pernyataan tentang peristiwa yang belum terjadi`
+            );
+          }
+        }
+      }
+
+      /*
+       * (2c) `naskah-primer` berarti kalimatnya sudah dicocokkan ke naskah
+       * dokumennya. Itu mustahil diklaim di atas sumber yang sendirinya baru
+       * terverifikasi lewat katalog perpustakaan: katalog membuktikan bukunya
+       * ADA, bukan bahwa kalimat ini ada di dalamnya. Celah itulah yang
+       * dipakai kutipan karangan untuk tampak sah.
+       */
+      if (q.verification === "naskah-primer" && q.source_id) {
+        const tier = sourceTierById.get(q.source_id);
+        if (tier === "catalog_verified" || tier === "unverified") {
+          errors.push(
+            `${di}: expert_quote mengklaim verification "naskah-primer" tetapi sumber ` +
+              `${q.source_id} baru bertingkat "${tier}" - katalog/metadata tidak membuktikan ` +
+              `isi kutipannya. Turunkan ke "kutipan-sekunder" atau naikkan verifikasi sumbernya`
           );
         }
       }

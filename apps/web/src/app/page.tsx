@@ -5,6 +5,7 @@ import Link from "next/link";
 import { dataset, getEventsOfTerm } from "@pancasila-index/data";
 import { useLocale } from "@/components/locale-provider";
 import { InstitutionLogo } from "@/components/institution-logo";
+import { HeroFlagBand, type FlagBandTerm } from "@/components/hero-flag-band";
 import {
   IconSearch,
   IconCompare,
@@ -42,7 +43,7 @@ function HeroTitle({ title }: { title: string }) {
         tok.includes("̶") ? (
           <del
             key={i}
-            className="line-through decoration-red-600 decoration-[3px]"
+            className="line-through decoration-[var(--flag-red)] decoration-[3px]"
           >
             {tok.replace(/̶/g, "")}
           </del>
@@ -54,6 +55,38 @@ function HeroTitle({ title }: { title: string }) {
   );
 }
 
+/**
+ * Nama pendek untuk sumbu pita hero.
+ *
+ * Dipetakan eksplisit, bukan diturunkan dari `label_id`, karena bentuk
+ * pendek yang dikenal publik tidak konsisten letaknya: "Megawati" itu kata
+ * PERTAMA namanya, "Habibie" kata TERAKHIR, dan "SBY" sebuah akronim.
+ * Aturan otomatis apa pun akan salah pada sebagian, dan pernah membuat dua
+ * periode Yudhoyono tampil identik ("Susilo Bambang …") karena terpotong -
+ * dua kolom berbeda yang tak bisa dibedakan pembaca.
+ *
+ * Ini murni label sumbu; nama lengkapnya tetap dibawa ke title dan
+ * aria-label tiap kolom, jadi tidak ada informasi yang hilang.
+ */
+const NAMA_PENDEK: Record<string, string> = {
+  "presiden-soekarno-i": "Sukarno I",
+  "presiden-soekarno-ii": "Sukarno II",
+  "presiden-soeharto": "Suharto",
+  "presiden-habibie": "Habibie",
+  "presiden-gusdur": "Gus Dur",
+  "presiden-megawati": "Megawati",
+  "presiden-sby-i": "SBY I",
+  "presiden-sby-ii": "SBY II",
+  "presiden-jokowi-i": "Jokowi I",
+  "presiden-jokowi-ii": "Jokowi II",
+  "presiden-prabowo": "Prabowo",
+};
+
+/** Cadangan bila ada masa jabatan baru yang belum dipetakan. */
+function shortTermName(termId: string, label: string): string {
+  return NAMA_PENDEK[termId] ?? label.replace(/^Presiden\s+/i, "").replace(/\s*\(.*$/, "");
+}
+
 export default function Beranda() {
   const { t, locale } = useLocale();
   const [activeStat, setActiveStat] = useState<number | null>(null);
@@ -61,6 +94,22 @@ export default function Beranda() {
   const presidents = dataset.terms
     .filter((t) => t.institution_id === "presiden-ri")
     .sort((a, b) => a.start_date.localeCompare(b.start_date));
+
+  /*
+   * Sumbu pita hero. Nama pendek diturunkan dari label_id: label penuh
+   * ("Presiden Susilo Bambang Yudhoyono (Periode Pertama)") tak terbaca di
+   * kolom selebar ~30 px, sedangkan label penuhnya tetap dibawa ke title
+   * dan aria-label sehingga tidak ada informasi yang hilang.
+   */
+  const flagBandTerms: FlagBandTerm[] = presidents.map((term) => ({
+    id: term.id,
+    short_id: shortTermName(term.id, term.label_id),
+    label_id: term.label_id,
+    period: periodLabel(term.start_date, term.end_date),
+    summary: termSummary(term.id),
+    href: `/lembaga/presiden/${term.id}`,
+    ongoing: !term.end_date,
+  }));
 
   const pasalCount = dataset.uud.babs.reduce(
     (acc, bab) => acc + bab.pasal.length,
@@ -130,8 +179,8 @@ export default function Beranda() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
       {/* Hero Section — neo-brutalism: border tebal, bayangan keras, tanpa gradasi */}
-      <section className="relative my-6 border-[3px] border-[var(--text)] bg-[var(--panel)] p-6 md:p-8 shadow-[8px_8px_0_0_var(--acc-red)]">
-        <p className="inline-block bg-[var(--acc-red)] px-3 py-1 text-xs font-black uppercase tracking-widest text-white">
+      <section className="relative my-6 border-[3px] border-[var(--text)] bg-[var(--panel)] p-6 md:p-8 shadow-[8px_8px_0_0_var(--flag-red)]">
+        <p className="inline-block bg-[var(--flag-red)] px-3 py-1 text-xs font-black uppercase tracking-widest text-[var(--flag-red-ink)]">
           {t("heroBadge")}
         </p>
         <h1 className="mt-4 text-4xl font-black leading-tight md:text-5xl">
@@ -149,12 +198,14 @@ export default function Beranda() {
           </Link>
           <Link
             href="/akar-sejarah"
-            className="border-[3px] border-[var(--text)] bg-[var(--acc-red)] px-4 py-2 text-xs font-bold uppercase tracking-wide text-white shadow-[4px_4px_0_0_var(--text)] transition-transform hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_0_var(--text)]"
+            className="border-[3px] border-[var(--text)] bg-[var(--flag-red)] px-4 py-2 text-xs font-bold uppercase tracking-wide text-[var(--flag-red-ink)] shadow-[4px_4px_0_0_var(--text)] transition-transform hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_0_var(--text)]"
           >
             {t("heroCtaAkarSejarah")} →
           </Link>
         </div>
       </section>
+
+      <HeroFlagBand terms={flagBandTerms} />
 
       {/*
         Stats Counter Bar - tiap kartu adalah tombol (bukan navigasi):

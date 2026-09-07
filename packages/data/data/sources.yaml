@@ -82642,7 +82642,9 @@
   url: "https://peraturan.bpk.go.id/Download/374292/Inpres%20Nomor%201%20tahun%202025.pdf"
   citation_id: "jdih.setneg.go.id : 6 hlm."
   verification_tier: "official_source"
-  provenance: "register-jdih"
+  # Dikurasi eksplisit dari register JDIH: Inpres ini bukan entri rutin, ia
+  # instrumen pokok yang dinilai pada dimensi negara-hukum periode Prabowo.
+  provenance: "kurasi"
 - id: "jdih-inpres-2-2024"
   type: "inpres"
   title_id: "Inpres No. 2 Tahun 2024 tentang Dukungan Percepatan Penyelenggaraan Uji Coba dan Unjuk Kerja (Proof of Concept) Trem Otonom di Ibu Kota Nusantara"
@@ -85491,3 +85493,19 @@
   citation_id: "jdih.setkab.go.id: 2 hlm."
   verification_tier: "official_source"
   provenance: "register-jdih"
+- id: "putusan-mk-40-puu-xxiv-2026"
+  type: "putusan-mk"
+  title_id: "Putusan MK No. 40/PUU-XXIV/2026 tentang Pengujian Materiil UU No. 17 Tahun 2025 tentang APBN Tahun Anggaran 2026"
+  year: 2026
+  citation_id: "Putusan MK No. 40/PUU-XXIV/2026, diputus 30 Juli 2026, amar: dikabulkan sebagian, klasifikasi: pendanaan operasional penyelenggaraan pendidikan"
+  url: "https://pasal.id/peraturan/putusan-mk/puu-mk-40-2026"
+  frbr_uri: "/akn/id/judgment/puu-mk/2026/40"
+  verification_tier: "official_source"
+- id: "berita-hukumonline-ferdi-inpres-cacat-hukum-2025"
+  type: "berita"
+  title_id: "Dekan FH Universitas Andalas sebut efisiensi anggaran cacat hukum"
+  year: 2025
+  container_title: "Hukumonline"
+  publisher: "PT Justika Siar Publika"
+  url: "https://www.hukumonline.com/berita/a/dekan-fh-universitas-andalas-sebut-efisiensi-anggaran-cacat-hukum--begini-alasannya-lt67bad582c8828/"
+  verification_tier: "unverified"

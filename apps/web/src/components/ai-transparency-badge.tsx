@@ -68,14 +68,21 @@ export function AiTransparencyBadge({
         type="button"
         onClick={() => setIsOpen(true)}
         title="Klik untuk melihat lembar transparansi AI (pengungkapan EU AI Act Pasal 50 & 14)"
-        className={`inline-flex items-center gap-1.5 rounded-md border px-2 py-0.5 text-[10px] font-mono font-medium transition cursor-pointer text-left ${
+        /*
+         * `flex-wrap` + `max-w-full` wajib: tanpa itu lencana ini melebar
+         * sampai lebar kontennya dan terpotong kartu induk yang
+         * `overflow-hidden` - di ponsel teks "(EU AI Act)" dan tautan
+         * "Rincian" hilang sama sekali, padahal justru itu jalan pembaca ke
+         * lembar pengungkapan AI-nya.
+         */
+        className={`inline-flex max-w-full flex-wrap items-center gap-1.5 rounded-md border px-2 py-0.5 text-[10px] font-mono font-medium transition cursor-pointer text-left ${
           oversightVerified
             ? "border-sky-500/30 bg-sky-500/10 text-[var(--acc-sky-strong)] hover:border-sky-400 hover:bg-sky-500/20"
             : "border-amber-500/40 bg-amber-500/10 text-amber-600 dark:text-amber-400 hover:border-amber-400 hover:bg-amber-500/20"
         } ${className}`}
       >
         <IconBot size={13} className="shrink-0" />
-        <span>
+        <span className="min-w-0 break-words">
           {compact ? (
             <>AI: <strong>{modelLengkap}</strong> (EU AI Act)</>
           ) : (

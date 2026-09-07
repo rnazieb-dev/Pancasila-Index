@@ -165,11 +165,11 @@ export function ScoreGauge({
               style={{ width: "19%", opacity: finalScore !== null && finalScore > 55 && finalScore < 75 ? 1 : 0.65 }}
               title="56–74: Penguatan Konkret"
             />
-            {/* Zona 5: Teladan (75-100) */}
+            {/* Zona 5: Selaras Penuh (75-100) */}
             <div
               className="h-full bg-[#22c55e] transition-opacity"
               style={{ width: "25%", opacity: finalScore !== null && finalScore >= 75 ? 1 : 0.65 }}
-              title="75–100: Teladan / Progresif"
+              title="75–100: Selaras Penuh"
             />
           </div>
 
@@ -181,7 +181,7 @@ export function ScoreGauge({
               50 (Titik Netral / Skor 0)
             </span>
             <span className="text-[#a3e635] hidden sm:inline">75</span>
-            <span className="text-[#22c55e]">100 (Teladan)</span>
+            <span className="text-[#22c55e]">100 (Selaras Penuh)</span>
           </div>
         </div>
       </div>
@@ -243,7 +243,7 @@ export function DimensionScoreBadge({ score }: { score: number }) {
   let sign = "0";
 
   if (score >= 1.5) {
-    label = "Teladan";
+    label = "Selaras Penuh";
     sign = "+2";
   } else if (score > 0) {
     label = "Penguatan";

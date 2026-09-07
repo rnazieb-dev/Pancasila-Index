@@ -1,5 +1,7 @@
 import type { SVGProps } from "react";
 
+import { SILA_SYMBOLS, SilaSymbol } from "./sila-symbol";
+
 type IconProps = SVGProps<SVGSVGElement> & {
   size?: number;
 };
@@ -1110,23 +1112,22 @@ export function IconNormaChecksBalances({ size = 18, className = "", ...props }:
 
 /**
  * Resolver Ikon Semantik Dimensi Konstitusional
+ *
+ * Kelima sila memakai lambang resminya sebagai raster lewat `SilaSymbol`,
+ * bukan ikon garis di berkas ini - lihat docstring `sila-symbol.tsx`. Ikon
+ * SVG `IconSila*` di bawah masih diekspor karena dipakai sebagai lambang
+ * dekoratif di tempat lain dan sebagai rujukan sejarah perubahan ini.
  */
 export function renderDimensionIcon(
   dimensionId: string,
   size = 18,
   className = ""
 ) {
+  if (dimensionId in SILA_SYMBOLS) {
+    return <SilaSymbol dimensionId={dimensionId} size={size} className={className} />;
+  }
+
   switch (dimensionId) {
-    case "sila-1":
-      return <IconSilaBintang size={size} className={className} />;
-    case "sila-2":
-      return <IconSilaRantai size={size} className={className} />;
-    case "sila-3":
-      return <IconSilaBeringin size={size} className={className} />;
-    case "sila-4":
-      return <IconSilaBanteng size={size} className={className} />;
-    case "sila-5":
-      return <IconSilaPadiKapas size={size} className={className} />;
     case "tujuan-1":
       return <IconTujuanLindungi size={size} className={className} />;
     case "tujuan-2":
