@@ -1646,9 +1646,12 @@
       normative_anchors:
         - uud-nri-1945
       event_ids:
+        # Peristiwa Program Makan Bergizi Gratis dicabut dari dimensi ini:
+        # `ev-perpres-makan-bergizi-2024` menandai dirinya tujuan-2 dan
+        # sila-5, dan program pangan sekolah tidak menyentuh kebebasan
+        # beragama sama sekali. Sitasinya di sini menggantung.
         - ev-mpr-pelantikan-prabowo-2024
         - ev-pembentukan-badan-penyelenggara-haji-2024
-        - ev-perpres-makan-bergizi-2024
       antithesis_id: "Komitmen kerukunan disampaikan sebagai pernyataan politik tanpa perubahan instrumen hukum yang selama ini menjadi sumber pembatasan: aturan pendirian rumah ibadah dan pasal penodaan agama tetap berlaku tanpa rencana peninjauan."
       synthesis_id: Skor Netral (0) karena pemerintahan baru menegaskan arah kerukunan dan menata kelembagaan haji secara mandiri, tetapi belum menyentuh sumber struktural pembatasan kebebasan beragama.
       thesis_id: Pemerintah mendalilkan bahwa kerukunan antarumat beragama menjadi komitmen kenegaraan sejak pidato awal masa jabatan, ditopang penataan kelembagaan haji secara mandiri lewat Perpres No. 154 Tahun 2024.
@@ -1668,18 +1671,26 @@
       thesis_id: Pemerintah mendalilkan bahwa pemenuhan hak dasar warga dikerjakan pada skala terbesar yang pernah ada lewat Program Makan Bergizi Gratis, yang menjangkau jutaan anak dari keluarga miskin di seluruh provinsi sejak Januari 2025.
     - dimension_id: sila-3
       score: 0
-      confidence: 0.7
-      rationale_id: Melanjutkan komitmen pembangunan wilayah terluar dan pemerataan infrastruktur strategis nasional.
+      confidence: 0.6
+      # Dimensi ini sebelumnya dinilai dari MBG: antitesisnya bertumpu pada
+      # kerentanan monopoli pengadaan pangan MBG. Itu kesalahan kategori.
+      # Monopoli pengadaan adalah persoalan keadilan sosial dan tata kelola
+      # hukum - dan memang sudah dinilai di sila-5, tujuan-2 dan
+      # negara-hukum. Kedua peristiwa MBG pun menandai dirinya sila-5,
+      # tujuan-2, tujuan-3 dan negara-hukum, tidak pernah sila-3. Persatuan
+      # Indonesia menuntut bahan tentang kohesi antarwilayah dan hubungan
+      # pusat-daerah, jadi dimensi ini dinilai ulang dari instrumen yang
+      # benar-benar mengaturnya.
+      rationale_id: Kelembagaan pemerataan antarwilayah ditata ulang lewat kementerian tersendiri untuk desa dan daerah tertinggal serta perubahan susunan Badan Pengarah Percepatan Pembangunan Otonomi Khusus Papua.
       evidence:
         - source_id: uu-3-2022
+        - source_id: jdih-perpres-171-2024
+        - source_id: jdih-perpres-102-2025
       normative_anchors:
         - uud-nri-1945
-      event_ids:
-        - ev-mbg-risiko-korupsi-pengadaan-2025
-        - ev-prabowo-mbg
-      antithesis_id: Temuan audit atas kerentanan monopoli pengadaan bahan pangan MBG menunjukkan program pemerataan justru berpotensi memusatkan manfaat ekonomi pada pemasok terbatas, sehingga pembangunan wilayah terluar belum tentu memperkuat kohesi.
-      synthesis_id: Skor Netral (0) karena komitmen pemerataan infrastruktur dan program pangan nasional dijalankan serentak di seluruh wilayah, tetapi tata kelolanya belum menjamin manfaatnya benar-benar merata.
-      thesis_id: Pemerintah mendalilkan bahwa pemerataan wilayah dilanjutkan lewat pembangunan infrastruktur strategis nasional dan program pangan yang dijalankan serentak hingga daerah terluar.
+      thesis_id: "Pemerintah mendalilkan bahwa kohesi antarwilayah dikerjakan lewat kelembagaan tersendiri: urusan desa dan daerah tertinggal dipegang kementerian sendiri (Perpres No. 171 Tahun 2024), percepatan Otonomi Khusus Papua tetap diarahkan badan khusus (Perpres No. 102 Tahun 2025), dan pemindahan ibu kota dijalankan sebagai pemerataan pusat pertumbuhan (UU No. 3 Tahun 2022)."
+      antithesis_id: "Penataan itu bekerja pada sisi kelembagaan pusat, bukan pada porsi suara daerah yang diaturnya. Perpres No. 102 Tahun 2025 menyisipkan Pasal 9A yang menambah lapisan komite eksekutif beranggotakan Dewan Penasihat dan Ketua yang ditetapkan dengan keputusan, dan Pasal 25A yang menetapkan honorariumnya secara administratif, sementara perwakilan provinsi di Papua tetap satu orang per provinsi sebagaimana Pasal 5 Perpres No. 121 Tahun 2022. Menambah kelembagaan di Jakarta tanpa memperbesar keterwakilan daerah yang dipercepat pembangunannya membuat percepatan itu tetap diputuskan dari pusat."
+      synthesis_id: Skor Netral (0) karena kerangka hukum pemerataan antarwilayah memang diperkuat dengan kementerian dan badan pengarah tersendiri, tetapi penguatannya menambah lapisan pengambil keputusan di pusat tanpa mengubah porsi keterwakilan daerah yang menjadi sasarannya.
     - dimension_id: sila-4
       score: -1
       confidence: 0.35
@@ -3664,17 +3675,27 @@
       synthesis_id: Skor Baik (+1) karena kelembagaan yang menempatkan negara sejajar dengan korporasi dalam pengelolaan migas dinyatakan inkonstitusional, menegaskan Pasal 33 mengikat desain kelembagaan dan bukan sekadar retorika.
       thesis_id: "Dalil formal Mahkamah: Putusan No. 36/PUU-X/2012 membubarkan BP Migas karena model kontrak kerja samanya menempatkan negara setara dengan korporasi, bertentangan dengan penguasaan negara menurut Pasal 33 UUD 1945."
     - dimension_id: tujuan-1
+      # Celah bukti ditutup dengan menyitasi putusan yang memang disebut
+      # rasionalnya. Sebelumnya `evidence: []` sementara `event_ids`
+      # menunjuk peristiwa yang tidak berkaitan, sehingga build ikut
+      # menghitung sumber peristiwa itu sebagai bukti dimensi ini -
+      # skor bersandar pada dokumen yang tidak pernah disebutnya.
+      # Diverifikasi ke register putusan lewat Pasal.id
+      # (perkara 138/PUU-VII/2009, menguji Perppu No. 4 Tahun 2009 atas
+      # UU KPK). Amarnya "tidak dapat diterima", jadi tiga syarat
+      # kegentingan yang memaksa lahir di pertimbangan hukumnya, bukan
+      # di amar - dan itu justru inti antitesisnya.
       score: 1
       confidence: 0.75
-      rationale_id: Membatasi kewenangan Presiden menerbitkan Perppu lewat Putusan MK No. 138/PUU-VII/2009 dengan menetapkan tiga syarat kegentingan yang memaksa, mencegah instrumen darurat dipakai memintas pembentukan undang-undang.
+      rationale_id: "Merumuskan tiga syarat kegentingan yang memaksa bagi penerbitan Perppu di dalam pertimbangan hukum Putusan MK No. 138/PUU-VII/2009, sehingga instrumen darurat tidak lagi bebas dipakai memintas pembentukan undang-undang."
       normative_anchors:
         - uud-nri-1945
-      evidence_gap: true
-      evidence: []
+      evidence:
+        - source_id: putusan-mk-138-puu-vii-2009
       event_ids:
         - ev-mk-putusan-tripartit-dpd-2012-2014
         - ev-mk-putusan-anak-luar-kawin-2012
-      antithesis_id: Tiga syarat kegentingan yang ditetapkan bersifat sangat umum dan penilaiannya diserahkan kepada Presiden sendiri, sehingga pembatasan itu terbukti tidak menghalangi penerbitan Perppu Cipta Kerja satu dasawarsa kemudian.
+      antithesis_id: "Rumusan tiga syarat itu tidak berdiri di amar putusan: permohonan pengujian Perppu No. 4 Tahun 2009 dinyatakan tidak dapat diterima, sehingga parameter tersebut lahir sebagai pertimbangan hukum, bukan sebagai perintah yang mengikat pembuat Perppu. Pembatas yang kekuatannya bergantung pada kesediaan pemerintah mengikuti pertimbangan hakim bukanlah pembatas yang dapat ditagih."
       synthesis_id: Skor Baik (+1) karena kewenangan darurat eksekutif untuk pertama kalinya diberi tolok ukur konstitusional yang dapat diuji, bukan lagi sepenuhnya penilaian subjektif Presiden.
       thesis_id: "Dalil formal Mahkamah: Putusan No. 138/PUU-VII/2009 menetapkan tiga syarat kegentingan yang memaksa bagi penerbitan Perppu, mencegah instrumen darurat dipakai memintas pembentukan undang-undang."
     - dimension_id: tujuan-2
@@ -3707,19 +3728,24 @@
       synthesis_id: Skor Sangat Baik (+2) karena pelepasan tanggung jawab pembiayaan pendidikan dari negara ke satuan pendidikan dinyatakan inkonstitusional, menegaskan pendidikan sebagai kewajiban negara.
       thesis_id: "Dalil formal Mahkamah: Putusan No. 11-14-21-126-136/PUU-VII/2009 membatalkan UU Badan Hukum Pendidikan karena melepaskan tanggung jawab pembiayaan pendidikan dari negara kepada satuan pendidikan."
     - dimension_id: tujuan-4
+      # Celah bukti ditutup dengan menyitasi putusan yang memang disebut
+      # rasionalnya. Sebelumnya `evidence: []` sementara `event_ids`
+      # menunjuk peristiwa yang tidak berkaitan, sehingga build ikut
+      # menghitung sumber peristiwa itu sebagai bukti dimensi ini -
+      # skor bersandar pada dokumen yang tidak pernah disebutnya.
       score: 1
       confidence: 0.7
-      rationale_id: Menetapkan batas masa jabatan pimpinan lembaga negara lewat Putusan MK No. 6-13-20/PUU-VIII/2010 dan menjaga tertib kelembagaan yang menjadi prasyarat kredibilitas Indonesia dalam kerja sama internasional.
+      rationale_id: Menetapkan bahwa masa jabatan Jaksa Agung berakhir bersamaan dengan masa jabatan Presiden lewat Putusan MK No. 6-13-20/PUU-VIII/2010, menutup ruang jabatan penegak hukum tertinggi diperpanjang lewat tafsir sepihak.
       normative_anchors:
         - uud-nri-1945
-      evidence_gap: true
-      evidence: []
+      evidence:
+        - source_id: putusan-mk-6-13-20-puu-viii-2010
       event_ids:
         - ev-mk-pembatalan-uu-bhp-2010
         - ev-mk-putusan-anak-luar-kawin-2012
       antithesis_id: Penataan tertib kelembagaan pada periode ini berjalan sementara kredibilitas MK sendiri runtuh oleh penangkapan ketuanya, sehingga otoritas moral untuk menuntut tertib pada lembaga lain ikut tergerus.
       synthesis_id: Skor Baik (+1) karena kepastian masa jabatan pimpinan lembaga negara ditegakkan lewat putusan yang mengikat, menutup ruang perpanjangan kekuasaan lewat tafsir sepihak.
-      thesis_id: "Dalil formal Mahkamah: Putusan No. 6-13-20/PUU-VIII/2010 menetapkan batas masa jabatan pimpinan lembaga negara, menutup ruang perpanjangan kekuasaan lewat tafsir sepihak."
+      thesis_id: "Dalil formal Mahkamah: Putusan No. 6-13-20/PUU-VIII/2010 menetapkan masa jabatan Jaksa Agung berakhir bersamaan dengan masa jabatan Presiden yang mengangkatnya, sehingga kepastian masa jabatan itu tidak lagi bergantung pada tafsir pemerintah."
   ai_disclosure:
     assisted: true
     model_id: claude-opus-5
@@ -3901,13 +3927,18 @@
       synthesis_id: Skor Baik (+1) karena komersialisasi air dinyatakan bertentangan dengan Pasal 33 dan hak atas air ditegaskan sebagai hak konstitusional yang tidak boleh diserahkan kepada mekanisme pasar.
       thesis_id: "Dalil formal Mahkamah: Putusan No. 85/PUU-XI/2013 membatalkan seluruh UU Sumber Daya Air karena membuka komersialisasi air, menegaskan hak atas air sebagai hak konstitusional yang tidak boleh diserahkan pada mekanisme pasar."
     - dimension_id: tujuan-1
+      # Celah bukti ditutup dengan menyitasi putusan yang memang disebut
+      # rasionalnya. Sebelumnya `evidence: []` sementara `event_ids`
+      # menunjuk peristiwa yang tidak berkaitan, sehingga build ikut
+      # menghitung sumber peristiwa itu sebagai bukti dimensi ini -
+      # skor bersandar pada dokumen yang tidak pernah disebutnya.
       score: 1
       confidence: 0.75
       rationale_id: Mewajibkan penyerahan Surat Pemberitahuan Dimulainya Penyidikan kepada terlapor dan korban paling lambat tujuh hari lewat Putusan MK No. 130/PUU-XIII/2015, menutup praktik penyidikan yang berlangsung tanpa sepengetahuan pihak yang diselidiki.
       normative_anchors:
         - uud-nri-1945
-      evidence_gap: true
-      evidence: []
+      evidence:
+        - source_id: putusan-mk-130-puu-xiii-2015
       event_ids:
         - ev-mk-putusan-calon-tunggal-2015
         - ev-kasus-suap-pilkada-akil-mochtar-2013
@@ -3929,13 +3960,18 @@
       synthesis_id: Skor Baik (+1) karena hak warga daerah memilih langsung pemimpinnya dipertahankan dari upaya pengembaliannya ke DPRD, menjaga pertanggungjawaban kepala daerah kepada rakyat.
       thesis_id: "Dalil formal Mahkamah: Putusan No. 73/PUU-XII/2014 memulihkan pilkada langsung, menjaga kepala daerah tetap bertanggung jawab kepada pemilih dan bukan kepada DPRD."
     - dimension_id: tujuan-3
+      # Celah bukti ditutup dengan menyitasi putusan yang memang disebut
+      # rasionalnya. Sebelumnya `evidence: []` sementara `event_ids`
+      # menunjuk peristiwa yang tidak berkaitan, sehingga build ikut
+      # menghitung sumber peristiwa itu sebagai bukti dimensi ini -
+      # skor bersandar pada dokumen yang tidak pernah disebutnya.
       score: 2
       confidence: 0.85
       rationale_id: Mewajibkan verifikasi faktual bagi seluruh partai peserta pemilu lewat Putusan MK No. 53/PUU-XV/2017 tanpa membedakan partai lama dan baru, menegakkan kesetaraan syarat kontestasi sebagai pendidikan politik yang jujur bagi pemilih.
       normative_anchors:
         - uud-nri-1945
-      evidence_gap: true
-      evidence: []
+      evidence:
+        - source_id: putusan-mk-53-puu-xv-2017
       event_ids:
         - ev-mk-putusan-verifikasi-parpol-2018
         - ev-vonis-suap-uji-materi-patrialis-akbar-2017
@@ -3943,19 +3979,33 @@
       synthesis_id: Skor Sangat Baik (+2) karena hak istimewa partai lama untuk lolos tanpa verifikasi dinyatakan inkonstitusional, menegakkan kesetaraan perlakuan yang menjadi dasar kejujuran kontestasi.
       thesis_id: "Dalil formal Mahkamah: Putusan No. 53/PUU-XV/2017 mewajibkan verifikasi faktual bagi seluruh partai peserta pemilu tanpa membedakan partai lama dan baru, menegakkan kesetaraan syarat kontestasi."
     - dimension_id: tujuan-4
-      score: 1
-      confidence: 0.7
-      rationale_id: Membatalkan kewenangan eksekutif membubarkan organisasi kemasyarakatan tanpa proses peradilan lewat Putusan MK No. 137/PUU-XIII/2015 dan putusan terkait, menjaga standar kebebasan berserikat yang diikat Indonesia lewat kovenan internasional.
-      normative_anchors:
-        - uud-nri-1945
+      score: 0
+      confidence: 0.3
+      # Koreksi salah atribusi, bukan penambalan bukti.
+      #
+      # Versi sebelumnya menyandarkan dimensi ini pada "Putusan MK No.
+      # 137/PUU-XIII/2015" untuk pembatalan wewenang eksekutif MEMBUBARKAN
+      # ORGANISASI KEMASYARAKATAN tanpa proses peradilan. Putusan itu ada di
+      # korpus dan judulnya sendiri menyatakan pokok yang berbeda: pembatalan
+      # wewenang Menteri Dalam Negeri MEMBATALKAN PERATURAN DAERAH (5 April
+      # 2017). Jadi skor +1 lama bertumpu pada putusan yang tidak memuat
+      # dalilnya.
+      #
+      # Pemeriksaan register putusan Pasal.id atas pengujian UU No. 17 Tahun
+      # 2013 tentang Organisasi Kemasyarakatan menunjukkan dalil kebebasan
+      # berserikat itu justru dipegang Putusan MK No. 82/PUU-XI/2013 dan No.
+      # 3/PUU-XII/2014 (keduanya dikabulkan sebagian, diputus 23 Desember
+      # 2014, masih di dalam masa jabatan ini). Keduanya BELUM ada di korpus,
+      # sehingga dimensi ini dikembalikan menjadi celah bukti yang dinyatakan
+      # terbuka - bukan diisi sitasi yang tidak memuat dalilnya.
       evidence_gap: true
       evidence: []
-      event_ids:
-        - ev-mk-ott-patrialis-akbar-2017
-        - ev-mk3-pilkada-independen
-      antithesis_id: "Standar itu ditegakkan pada pengujian peraturan daerah dan ormas, tetapi tidak bertahan lama: Perppu Ormas 2017 mengembalikan pembubaran tanpa pengadilan dan MK tidak membatalkannya pada periode berikutnya."
-      synthesis_id: Skor Baik (+1) karena kebebasan berserikat ditegaskan hanya dapat dibatasi lewat putusan pengadilan, menyelaraskan tertib hukum nasional dengan kovenan hak sipil dan politik.
-      thesis_id: "Dalil formal Mahkamah: Putusan No. 137/PUU-XIII/2015 dan putusan terkait membatalkan kewenangan eksekutif membubarkan organisasi tanpa proses peradilan, menegaskan kebebasan berserikat hanya dapat dibatasi lewat putusan pengadilan."
+      normative_anchors:
+        - uud-nri-1945
+      rationale_id: Dalil kebebasan berserikat yang menjadi dasar penilaian dimensi ini belum memiliki sumber primer di korpus. Putusan yang sebelumnya disitasi, Putusan MK No. 137/PUU-XIII/2015, memutus pembatalan wewenang Menteri Dalam Negeri membatalkan peraturan daerah - bukan pembubaran organisasi kemasyarakatan - sehingga tidak dapat menopang dalil itu.
+      thesis_id: "Dalil formalnya: Mahkamah pada masa jabatan ini menguji pembatasan kebebasan berserikat dan menegaskan pembubaran organisasi hanya sah lewat proses peradilan, sejalan dengan kovenan hak sipil dan politik yang diikat Indonesia."
+      antithesis_id: "Dalil itu belum dapat diperiksa di indeks ini: putusan yang memuatnya - No. 82/PUU-XI/2013 dan No. 3/PUU-XII/2014 - belum masuk korpus, sementara putusan yang tercantum sebelumnya memutus perkara yang berbeda. Menilai dimensi ini tetap +1 berarti mempertahankan skor di atas sitasi yang tidak memuat dalilnya."
+      synthesis_id: "Skor Netral (0) dengan evidence_gap: dimensi ini dikeluarkan dari perhitungan indeks sampai putusan yang benar-benar memuat dalil kebebasan berserikat masuk ke korpus dan dapat disitasi pembaca."
   ai_disclosure:
     assisted: true
     model_id: claude-opus-5
@@ -4131,12 +4181,14 @@
       synthesis_id: Skor Baik (+1) karena partisipasi bermakna ditegakkan sebagai syarat konstitusional pembentukan undang-undang, doktrin yang sejak itu menjadi dasar pengujian formil seluruh legislasi.
       thesis_id: "Dalil formal Mahkamah: Putusan No. 91/PUU-XVIII/2020 menyatakan UU Cipta Kerja inkonstitusional bersyarat dan memerintahkan perbaikannya dalam dua tahun demi melindungi hak pekerja serta masyarakat terdampak."
     - dimension_id: tujuan-1
+      # Penanda evidence_gap dicabut: dimensi ini SUDAH menyitasi Putusan
+      # MK No. 55/PUU-XVII/2019 secara langsung, jadi menandainya "belum
+      # berbukti" salah - dan penanda itu mengeluarkannya dari indeks.
       score: 1
       confidence: 0.75
       rationale_id: Menata desain keserentakan pemilu lewat Putusan MK No. 55/PUU-XVII/2019 dengan menetapkan enam model yang konstitusional, memberi kepastian bagi penyelenggaraan pemilu yang tertib dan aman bagi warga.
       normative_anchors:
         - uud-nri-1945
-      evidence_gap: true
       evidence:
         - source_id: putusan-mk-55-puu-xvii-2019
           note_id: Putusan perlindungan hak pilih dan pemilu serentak
@@ -10586,14 +10638,22 @@
       synthesis_id: Skor Netral (0) karena penegasan normatif atas kemanusiaan diimbangi persis oleh pembubaran partai politik lewat ketetapan dan pembiaran kekerasan massal 1965-1966 yang tidak pernah dipersoalkan MPRS.
       thesis_id: "Dalil formal MPRS: penegasan Pancasila sebagai sumber tertib hukum menempatkan kemanusiaan sebagai norma tertinggi negara, kerangka yang kemudian menjadi dasar seluruh instrumen hak asasi Indonesia."
     - dimension_id: sila-3
-      score: 0
-      confidence: 0.4
-      evidence_gap: true
-      evidence: []
-      rationale_id: Tidak ditemukan ketetapan MPRS periode ini yang menyentuh keadilan antarwilayah, otonomi daerah, atau pengelolaan kebinekaan. Sidang-sidang MPRS terpusat pada persoalan kekuasaan nasional, sementara pemberontakan daerah pada awal periode ini diselesaikan lewat operasi militer dan penetapan presiden, bukan lewat majelis.
-      thesis_id: "Dalil formalnya: MPRS sebagai lembaga tertinggi negara menetapkan Garis-Garis Besar Haluan Negara yang secara normatif mencakup seluruh bidang penyelenggaraan negara, termasuk pembangunan daerah."
-      antithesis_id: "Haluan yang mencakup segalanya secara normatif tidak berarti ada tindakan yang dapat diperiksa: tidak ada ketetapan MPRS periode ini yang menjadi dasar penataan hubungan pusat-daerah, dan pembentukan serta penghapusan daerah justru berjalan lewat penetapan presiden."
-      synthesis_id: Skor Netral (0) karena tidak ada tindakan signifikan yang tercatat, disertai evidence_gap sehingga dimensi ini dikeluarkan dari perhitungan indeks.
+      score: -1
+      confidence: 0.6
+      # Celah bukti ditutup. Rasional lama menyatakan "tidak ditemukan
+      # ketetapan MPRS periode ini yang menyentuh keadilan antarwilayah" -
+      # keliru: TAP MPRS No. II/MPRS/1960 Pasal 3 ayat (1), Pasal 4 ayat (6)
+      # dan Pasal 5 ayat (1) mengatur pemerataan, dan Pasal 4 ayat (2)
+      # beserta Pasal 10 mengatur salurannya. Diverifikasi ke naskah lewat
+      # Pasal.id (law_id 25433).
+      rationale_id: Haluan MPRS memuat perintah pemerataan yang tegas - kesejahteraan yang merata (Pasal 3 ayat 1), pembangunan tata perdesaan yang merata dan berencana (Pasal 4 ayat 6), pembagian pendapatan nasional yang adil dan merata (Pasal 5 ayat 1) - tetapi menyalurkan keikutsertaan rakyat lewat satu organisasi Front Nasional (Pasal 4 ayat 2) dan menyerahkan pelaksanaan seluruh putusan kepada Presiden dengan kekuasaan penuh (Pasal 10).
+      evidence:
+        - source_id: tap-mprs-ii-1960
+      normative_anchors:
+        - uud-nri-1945
+      thesis_id: "Dalil formalnya: MPRS menetapkan pemerataan antarwilayah sebagai perintah haluan negara - TAP MPRS No. II/MPRS/1960 Pasal 4 ayat (6) memerintahkan pembangunan tata perdesaan yang demokratis, merata, dan berencana, sementara Pasal 5 ayat (1) mengarahkan pembangunan pada pembagian pendapatan nasional yang adil dan merata."
+      antithesis_id: "Perintah pemerataan itu dijalankan lewat saluran tunggal. Pasal 4 ayat (2) mengikutsertakan rakyat \"dalam suatu gerakan massa (Massa-aksi) yang berbentuk satu organisasi Front Nasional\", Pasal 2 ayat (1) memerintahkan penolakan pengaruh kebudayaan asing, dan Pasal 10 memberikan kekuasaan penuh kepada Presiden untuk melaksanakan seluruh putusan. Persatuan yang dirancang sebagai satu wadah dengan pelaksanaan bertumpu pada satu orang menghapus ruang kebinekaan yang justru menjadi isi Sila Ketiga - dan tidak menyediakan mekanisme perlindungan setara sebagai gantinya."
+      synthesis_id: Skor Buruk (-1) karena haluan MPRS memang memerintahkan pemerataan antarwilayah secara eksplisit, tetapi mengorganisasi persatuan melalui satu wadah massa tunggal dan menyerahkan pelaksanaannya kepada kekuasaan penuh Presiden, sehingga sentralisasi berjalan tanpa mekanisme perlindungan kebinekaan yang setara.
     - dimension_id: sila-4
       score: -1
       confidence: 0.7
@@ -10652,23 +10712,40 @@
       synthesis_id: Skor Buruk (-1) karena rencana pembangunan yang ditetapkan tidak pernah dibiayai secara realistis dan anggaran dialihkan ke konfrontasi, sehingga kesejahteraan umum justru merosot berkepanjangan.
       thesis_id: "Dalil formal MPRS: Pola Pembangunan Nasional Semesta Berencana ditetapkan lewat TAP MPRS No. II/MPRS/1960 sebagai upaya pertama menyusun perencanaan pembangunan jangka panjang secara menyeluruh."
     - dimension_id: tujuan-3
-      score: 0
-      confidence: 0.4
-      evidence_gap: true
-      evidence: []
-      rationale_id: Tidak ada ketetapan MPRS periode ini yang tercatat menyentuh pendidikan, kebudayaan, atau ilmu pengetahuan sebagai bidang tersendiri. Kebijakan pendidikan periode ini bergerak lewat undang-undang dan keputusan presiden, tidak lewat majelis.
-      thesis_id: "Dalil formalnya: penetapan haluan negara oleh MPRS secara normatif membawahi seluruh bidang pembangunan, sehingga arah pendidikan nasional dianggap sudah tercakup di dalamnya tanpa perlu ketetapan tersendiri."
-      antithesis_id: "Cakupan normatif tanpa ketetapan yang dapat disitasi tidak bisa dinilai: bila haluan itu sungguh mengarahkan pendidikan, mestinya ada dokumen majelis yang menjadi rujukan kebijakan - dan tidak ada."
-      synthesis_id: Skor Netral (0) karena tidak ada tindakan signifikan yang tercatat, disertai evidence_gap sehingga dimensi ini tidak ikut menghitung indeks.
+      score: -1
+      confidence: 0.65
+      # Celah bukti ditutup. Rasional lama menyatakan "tidak ada ketetapan
+      # MPRS periode ini yang tercatat menyentuh pendidikan" - itu keliru,
+      # dan sumbernya bahkan sudah ada di korpus: TAP MPRS No. II/MPRS/1960
+      # Pasal 2 berjudul "Bidang Mental/Agama/Kerohanian/Penelitian" dan
+      # mengatur mata pelajaran dari perguruan rendah sampai perguruan
+      # tinggi. Diverifikasi ke naskah lewat Pasal.id (law_id 25433).
+      rationale_id: "MPRS mengatur pendidikan langsung di dalam ketetapannya, bukan menyerahkannya pada undang-undang. TAP MPRS No. II/MPRS/1960 Pasal 2 ayat (2) menetapkan Pancasila dan Manipol sebagai mata pelajaran dari perguruan rendah sampai perguruan tinggi, dan ayat (5) mengarahkan sistem pendidikan nasional pada pembentukan tenaga ahli \"sesuai dengan syarat-syarat manusia Sosialis Indonesia\"."
+      evidence:
+        - source_id: tap-mprs-ii-1960
+      normative_anchors:
+        - uud-nri-1945
+      thesis_id: "Dalil formalnya: MPRS menempatkan pendidikan sebagai bidang tersendiri dalam haluan pembangunan nasional, dan TAP MPRS No. II/MPRS/1960 Pasal 2 ayat (3) menjamin pendidikan agama diselenggarakan dari sekolah rakyat sampai universitas negeri dengan hak murid untuk tidak ikut serta apabila wali murid atau murid dewasa menyatakan keberatannya."
+      antithesis_id: "Ketetapan yang sama menjadikan kurikulum kendaraan satu ideologi resmi: Pasal 2 ayat (2) menetapkan Pancasila dan Manipol - Manifesto Politik - sebagai mata pelajaran dari perguruan rendah sampai perguruan tinggi, ayat (5) mengikat tujuan sistem pendidikan pada \"syarat-syarat manusia Sosialis Indonesia\", dan ayat (1) memerintahkan penolakan pengaruh kebudayaan asing. Mewajibkan dokumen politik pemerintah yang sedang berkuasa sebagai mata pelajaran di seluruh jenjang membuat pendidikan menilai pemerintahnya sendiri sebagai kebenaran yang harus dipelajari."
+      synthesis_id: "Skor Buruk (-1) karena MPRS memang mengatur pendidikan secara eksplisit dan mempertahankan hak menolak pelajaran agama, tetapi pada ketetapan yang sama menetapkan Manipol sebagai mata pelajaran wajib di semua jenjang. Jangkar -2 rubrik menggabungkan pengabaian anggaran konstitusional pendidikan dengan indoktrinasi politik; unsur indoktrinasi terpenuhi oleh naskah, unsur anggaran tidak dapat dinilai untuk 1960, sehingga skor ditahan di -1."
     - dimension_id: tujuan-4
       score: 0
-      confidence: 0.4
-      evidence_gap: true
-      evidence: []
-      rationale_id: Tidak ditemukan ketetapan MPRS yang menjadi dasar politik luar negeri periode ini. Keputusan besar - konfrontasi dengan Malaysia, keluarnya Indonesia dari PBB pada 1965 - diambil dan diumumkan Presiden, bukan ditetapkan majelis.
-      thesis_id: "Dalil formalnya: haluan negara yang ditetapkan MPRS memuat garis politik luar negeri bebas-aktif sebagai bagian dari arah penyelenggaraan negara secara keseluruhan."
-      antithesis_id: Keluarnya Indonesia dari Perserikatan Bangsa-Bangsa pada 1965 adalah keputusan politik luar negeri paling berat sepanjang sejarah republik, dan majelis yang mengaku menetapkan haluan negara tidak tercatat membahas, menyetujui, maupun mengoreksinya.
-      synthesis_id: Skor Netral (0) karena tidak ada tindakan majelis yang dapat dinilai, disertai evidence_gap sehingga dimensi ini dikeluarkan dari perhitungan indeks.
+      confidence: 0.55
+      # Celah bukti ditutup. Rasional lama menyatakan "tidak ditemukan
+      # ketetapan MPRS yang menjadi dasar politik luar negeri periode ini";
+      # TAP MPRS No. II/MPRS/1960 memuatnya di Pasal 2 ayat (8) dan Pasal 4
+      # ayat (4)-(5). Klaim keluarnya Indonesia dari PBB 1965 dicabut dari
+      # antitesis karena belum ada sumber untuknya di korpus - alasannya
+      # sekarang bersandar pada naskah ketetapan yang benar-benar disitasi.
+      # Diverifikasi ke naskah lewat Pasal.id (law_id 25433).
+      rationale_id: MPRS menetapkan politik luar negeri bebas dan aktif serta keikutsertaan mengusahakan perdamaian dunia di dalam haluannya (Pasal 2 ayat 8 dan Pasal 4 ayat 4), tetapi pada pasal yang sama mengikat pertahanan pada sikap anti-kolonialisme dan anti-imperialisme dengan tumpuan milisi (Pasal 4 ayat 5) dan menyerahkan pelaksanaan seluruh putusan kepada Presiden dengan kekuasaan penuh (Pasal 10).
+      evidence:
+        - source_id: tap-mprs-ii-1960
+      normative_anchors:
+        - uud-nri-1945
+      thesis_id: "Dalil formalnya: haluan negara yang ditetapkan MPRS memuat politik luar negeri bebas dan aktif - TAP MPRS No. II/MPRS/1960 Pasal 2 ayat (8) menyebutnya secara eksplisit, dan Pasal 4 ayat (4) menyatakan politik keamanan bertujuan turut mengusahakan terselenggaranya perdamaian dunia."
+      antithesis_id: "Arah itu tidak dipegang majelis yang menetapkannya. Pasal 4 ayat (5) merumuskan pertahanan sebagai \"defensif aktif\" yang \"bersikap anti kolonialisme dan anti imperialisme\" dengan inti tentara sukarela dan milisi, sehingga perdamaian dunia dirumuskan sekaligus sebagai mobilisasi; dan Pasal 10 memberikan kekuasaan penuh kepada Presiden untuk melaksanakan putusan-putusan itu. Menetapkan haluan luar negeri lalu menyerahkan pelaksanaannya tanpa syarat membuat majelis tidak menyimpan alat untuk mengoreksi arah yang ia sendiri tetapkan."
+      synthesis_id: Skor Netral (0) karena MPRS memang menetapkan politik luar negeri bebas-aktif dan kontribusi pada perdamaian dunia sebagai haluan negara, tetapi merumuskannya bersama mobilisasi pertahanan anti-imperialis dan menyerahkan pelaksanaannya kepada kekuasaan penuh Presiden, sehingga penguatan dan penggerusan saling meniadakan.
   ai_disclosure:
     assisted: true
     model_id: claude-opus-5
@@ -11034,13 +11111,21 @@
       thesis_id: "Dalil formalnya: UU No. 1 Tahun 1957 meletakkan otonomi daerah yang luas dan demokratis, dan Pemilu 1955 memberi pemerintahan legitimasi untuk menyusun kebijakan ekonomi nasional."
     - dimension_id: tujuan-3
       score: 0
-      confidence: 0.42
-      evidence_gap: true
-      evidence: []
-      rationale_id: Tidak ditemukan undang-undang periode ini yang menata sistem pendidikan nasional secara menyeluruh; yang ada bersifat penyerahan urusan administratif. Perluasan sekolah rakyat pada dasawarsa ini berjalan lewat kebijakan kementerian, bukan lewat legislasi parlemen yang dapat dinilai di sini.
-      thesis_id: "Dalil formalnya: pengaturan pengajaran nasional telah ditetapkan lewat undang-undang pendidikan warisan periode sebelumnya, sehingga parlemen periode ini menganggap kerangka dasarnya sudah tersedia dan cukup."
-      antithesis_id: "Anggapan bahwa kerangka lama memadai tidak diuji: angka buta huruf pada awal 1950-an masih di atas separuh penduduk, dan persoalan sebesar itu tidak menghasilkan satu pun undang-undang pendidikan baru dari parlemen sepanjang sepuluh tahun."
-      synthesis_id: Skor Netral (0) karena tidak ada tindakan legislatif signifikan yang tercatat, disertai evidence_gap sehingga dimensi ini dikeluarkan dari perhitungan indeks.
+      confidence: 0.5
+      # Celah bukti ditutup. Rasional lama menyatakan "tidak ditemukan
+      # undang-undang periode ini yang menata sistem pendidikan nasional"
+      # dan antitesisnya menyatakan "tidak ada satu pun undang-undang
+      # pendidikan baru dari parlemen sepanjang sepuluh tahun". Keduanya
+      # keliru: UU No. 12 Tahun 1954 ada, disahkan parlemen periode ini,
+      # dan diverifikasi ke naskah lewat Pasal.id (law_id 3778).
+      rationale_id: Parlemen periode ini menghasilkan satu undang-undang pendidikan yang dapat disitasi, UU No. 12 Tahun 1954, yang menyatakan dasar-dasar pendidikan dan pengajaran di sekolah berlaku untuk seluruh Indonesia - menyatukan kerangka hukum pendidikan pascapembubaran RIS, tetapi berhenti pada pernyataan keberlakuan tanpa menata mutu, pembiayaan, maupun perluasan akses.
+      evidence:
+        - source_id: jdih-uu-12-1954
+      normative_anchors:
+        - uud-nri-1945
+      thesis_id: "Dalil formalnya: kerangka hukum pendidikan nasional dirapikan lewat undang-undang, yakni UU No. 12 Tahun 1954 yang menyatakan berlakunya UU No. 4 Tahun 1950 tentang dasar-dasar pendidikan dan pengajaran di sekolah untuk seluruh Indonesia, sehingga satu dasar hukum pendidikan berlaku seragam di wilayah bekas negara-negara bagian."
+      antithesis_id: "Undang-undang itu hanya dua pasal dan Pasal 1-nya sebatas menyatakan keberlakuan aturan lama untuk seluruh Indonesia - ia tidak mengatur mutu, pembiayaan, maupun target perluasan akses. Sepanjang sisa periode tidak ada undang-undang pendidikan lain, sehingga penyatuan dasar hukum itu tidak diikuti instrumen yang mengubah keadaan di sekolah."
+      synthesis_id: Skor Netral (0) karena parlemen periode ini menyatukan dasar hukum pendidikan untuk seluruh Indonesia lewat UU No. 12 Tahun 1954, tetapi tindakan itu bersifat menyatakan keberlakuan aturan lama dan tidak disertai instrumen yang menata mutu maupun perluasan akses.
     - dimension_id: tujuan-4
       score: 0
       confidence: 0.42
@@ -11387,14 +11472,21 @@
       event_ids:
         - ev-jdih-uu-1-1972
     - dimension_id: tujuan-3
-      score: 0
-      confidence: 0.45
-      evidence_gap: true
-      evidence: []
-      rationale_id: Undang-undang sistem pendidikan nasional periode ini tidak tercakup dalam korpus yang sudah terverifikasi, sehingga penilaian atas dimensi ini belum memiliki dasar bukti primer yang dapat disitasi. Kekosongan ini dinyatakan terbuka, bukan diisi dengan penilaian tanpa dasar.
-      thesis_id: "Dalil formalnya: pendidikan dasar diperluas secara masif sepanjang periode ini lewat program pembangunan sekolah dasar berskala nasional, dan angka partisipasi kasar meningkat tajam menurut laporan pemerintah."
-      antithesis_id: "Perluasan akses berjalan bersamaan dengan penyeragaman isi: penataran ideologi diwajibkan bagi guru dan siswa, dan penulisan sejarah nasional dikendalikan negara - sehingga menilai dimensi ini hanya dari angka partisipasi akan menutupi persoalan indoktrinasi yang justru disebut jangkar -2 rubrik."
-      synthesis_id: "Skor Netral (0) dengan evidence_gap: dua temuan berlawanan sama-sama kuat tetapi belum satu pun didukung dokumen primer dalam korpus, sehingga dimensi ini dikeluarkan dari perhitungan indeks sampai buktinya ada."
+      score: -1
+      confidence: 0.6
+      # Celah bukti ditutup: UU No. 2 Tahun 1989 kini ada di korpus dan
+      # diverifikasi ke naskah lewat Pasal.id (law_id 3389). Antitesis lama
+      # menyebut indoktrinasi tanpa satu pun sumber; sekarang klaim itu
+      # bersandar pada Pasal 39 ayat (2) dan ayat (4) undang-undang itu
+      # sendiri, bukan pada ingatan.
+      rationale_id: UU No. 2 Tahun 1989 mengangkat tujuan konstitusional "mencerdaskan kehidupan bangsa" ke dalam Pasal 4 dan menjamin hak yang sama atas pendidikan di Pasal 5, tetapi Pasal 39 ayat (2) mewajibkan pendidikan Pancasila pada setiap jenis, jalur, dan jenjang pendidikan sementara ayat (4) menyerahkan pengaturan pelaksanaannya sepenuhnya kepada Menteri - parlemen menetapkan kerangkanya dan eksekutif menentukan isinya.
+      evidence:
+        - source_id: uu-2-1989
+      normative_anchors:
+        - uud-nri-1945
+      thesis_id: "Dalil formalnya: parlemen periode ini mengesahkan undang-undang sistem pendidikan nasional pertama, UU No. 2 Tahun 1989, yang Pasal 4-nya menyatakan pendidikan nasional bertujuan mencerdaskan kehidupan bangsa dan Pasal 5-nya menyatakan setiap warga negara mempunyai hak yang sama untuk memperoleh pendidikan."
+      antithesis_id: "Undang-undang yang sama menjadikan isi pendidikan alat penyeragaman: Pasal 39 ayat (2) mewajibkan pendidikan Pancasila dimuat pada setiap jenis, jalur, dan jenjang pendidikan, dan ayat (4) menyerahkan pelaksanaan ketentuan itu kepada Menteri tanpa pembatas dalam undang-undang. Hak yang sama atas pendidikan di Pasal 5 karena itu berjalan di atas kurikulum yang isinya ditentukan eksekutif, bukan oleh pembentuk undang-undang yang menjaminnya."
+      synthesis_id: "Skor Buruk (-1) karena akses pendidikan memang diperluas dengan dasar undang-undang, tetapi Pasal 39 ayat (2) dan ayat (4) UU No. 2 Tahun 1989 menempatkan isi kurikulum di bawah kendali eksekutif dengan pendidikan Pancasila diwajibkan di semua jenjang. Jangkar -2 rubrik menuntut dua hal sekaligus - anggaran konstitusional pendidikan diabaikan dan kebijakan pendidikan menjadi instrumen indoktrinasi politik; unsur kedua terpenuhi oleh naskah, sedangkan unsur pertama tidak dapat dinilai karena mandat anggaran 20 persen baru ada setelah amandemen 2002, sehingga skor ditahan di -1."
     - dimension_id: tujuan-4
       score: -1
       confidence: 0.6

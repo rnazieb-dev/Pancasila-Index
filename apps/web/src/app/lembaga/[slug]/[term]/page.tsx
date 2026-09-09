@@ -219,34 +219,60 @@ export default async function TermPage({
         termLabel={term.label_id}
       />
 
-      {/* Peringatan pelanggaran hak dasar. Sengaja DI ATAS angka dan tidak
-          bergantung pada ada-tidaknya indeks: aturannya disebut sebelum
-          angkanya, dan mayoritas masa jabatan indeksnya ditahan ambang
-          cakupan sehingga peringatan yang digantungkan ke angka tak berguna. */}
-      {(summary?.non_derogable_breaches.length ?? 0) > 0 && (
-        <div className="mt-5 rounded-xl border border-[var(--acc-red)] bg-[var(--score-vneg-bg)] px-5 py-4">
-          <div className="text-xs font-bold uppercase tracking-wide text-[var(--acc-red)]">
-            Pelanggaran hak yang tidak dapat dikurangi
-          </div>
-          <p className="mt-2 text-sm leading-relaxed text-[var(--text)]">
-            Pasal 28I ayat (1) UUD 1945 menyatakan sebagian hak tidak dapat dikurangi
-            dalam keadaan apa pun — termasuk hak hidup dan hak bebas dari penyiksaan.
-            Penilaian periode ini menemukan pelanggaran pada{" "}
-            {summary!.non_derogable_breaches
-              .map((b) => `${dimensionName(b.dimension_id)} (skor ${b.score})`)
-              .join(", ")}
-            . Pelanggaran seperti ini <strong>tidak dapat dilunasi</strong> capaian di
-            dimensi lain, sehingga indeks komposit diberi batas atas.
-          </p>
-          {summary!.index_capped && (
+      {/*
+        Peringatan pelanggaran hak dasar.
+
+        Bunyinya BERGANTUNG pada apakah plafonnya benar-benar berlaku. Versi
+        sebelumnya menyatakan tanpa syarat "sehingga indeks komposit diberi
+        batas atas" pada setiap masa jabatan yang punya pelanggaran - padahal
+        dari 18 masa jabatan yang menampilkannya, komposit yang benar-benar
+        dibatasi hanya 4. Pada 14 sisanya `index` sama dengan
+        `index_uncapped`: tidak ada batas yang berlaku, sehingga kalimat itu
+        menyatakan sesuatu yang tidak terjadi - di halaman publik, pada
+        proyek yang seluruh klaimnya soal dapat diperiksa.
+
+        Ketika plafon berlaku ia menentukan angkanya, jadi tampil sebagai blok
+        penuh. Ketika tidak, faktanya tetap dinyatakan tetapi seukuran
+        catatan - bukan dihapus, karena pelanggaran hak non-derogable adalah
+        kualifikasi terpenting atas indeks kepatuhan, dan bukan dibesarkan,
+        karena ia tidak sedang mengubah angka apa pun.
+      */}
+      {(summary?.non_derogable_breaches.length ?? 0) > 0 &&
+        (summary!.index_capped ? (
+          <div className="mt-5 rounded-xl border border-[var(--acc-red)] bg-[var(--score-vneg-bg)] px-5 py-4">
+            <div className="text-xs font-bold uppercase tracking-wide text-[var(--acc-red)]">
+              Indeks dibatasi: pelanggaran hak yang tidak dapat dikurangi
+            </div>
+            <p className="mt-2 text-sm leading-relaxed text-[var(--text)]">
+              Pasal 28I ayat (1) UUD 1945 menyatakan sebagian hak tidak dapat
+              dikurangi dalam keadaan apa pun — termasuk hak hidup dan hak bebas
+              dari penyiksaan. Penilaian periode ini menemukan pelanggaran pada{" "}
+              {summary!.non_derogable_breaches
+                .map((b) => `${dimensionName(b.dimension_id)} (skor ${b.score})`)
+                .join(", ")}
+              . Pelanggaran seperti ini <strong>tidak dapat dilunasi</strong> capaian
+              di dimensi lain, sehingga komposit periode ini ditahan pada plafonnya.
+            </p>
             <p className="mt-2 text-xs leading-relaxed text-[var(--muted)]">
               Tanpa batas itu, komposit periode ini adalah{" "}
-              <strong className="text-[var(--text)]">{summary!.index_uncapped}</strong> —
-              dicantumkan agar batasnya dapat diperiksa, bukan disembunyikan.
+              <strong className="text-[var(--text)]">{summary!.index_uncapped}</strong>{" "}
+              — dicantumkan agar batasnya dapat diperiksa, bukan disembunyikan.
             </p>
-          )}
-        </div>
-      )}
+          </div>
+        ) : (
+          <p className="mt-5 rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-2.5 text-xs leading-relaxed text-[var(--muted)]">
+            <strong className="text-[var(--acc-red)]">
+              Pelanggaran hak yang tidak dapat dikurangi
+            </strong>{" "}
+            tercatat pada{" "}
+            {summary!.non_derogable_breaches
+              .map((b) => `${dimensionName(b.dimension_id)} (skor ${b.score})`)
+              .join(", ")}{" "}
+            — Pasal 28I ayat (1) UUD 1945. Plafon indeks untuk pelanggaran semacam
+            ini tidak mengubah angka periode ini, karena kompositnya sudah berada di
+            bawah plafon tersebut.
+          </p>
+        ))}
 
       {/* Score Gauge Visual Diverging Spectrum (0–100 dengan Titik Netral 50) */}
       <div className="mt-6 space-y-3">

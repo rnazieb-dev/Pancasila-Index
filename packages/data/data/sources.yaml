@@ -19804,6 +19804,17 @@
   citation_id: "LL SETNEG : 3 HLM."
   verification_tier: "official_source"
   provenance: "register-jdih"
+- id: "uu-2-1989"
+  type: "undang-undang"
+  # Ditambahkan setelah diverifikasi ke naskah lewat Pasal.id (law_id 3389,
+  # status "dicabut" - digantikan UU No. 20 Tahun 2003). Dipakai sebagai
+  # bukti tujuan-3 masa DPR Orde Baru, yang sebelumnya dinilai tanpa satu
+  # pun sumber karena undang-undang ini belum ada di korpus.
+  title_id: "UU No. 2 Tahun 1989 tentang Sistem Pendidikan Nasional"
+  year: 1989
+  url: "https://pasal.id/peraturan/uu/uu-no-2-tahun-1989"
+  citation_id: "LN 1989 (6), TLN (3390)"
+  verification_tier: "official_source"
 - id: "jdih-uu-12-1954"
   type: "undang-undang"
   title_id: "UU No. 12 Tahun 1954 tentang Pernyataan Berlakunya Undang-Undang Nr 4 Tahun 1950 dari Republik Indonesia Dahulu tentang Dasar-Dasar Pendidikan dan Pengajaran di Sekolah Untuk Seluruh Indonesia"
@@ -19811,7 +19822,12 @@
   url: "https://peraturan.bpk.go.id/Download/37006/UU%20Nomor%2012%20Tahun%201954.pdf"
   citation_id: "LN.1954/NO.38, LL SETNEG : 2 HLM."
   verification_tier: "official_source"
-  provenance: "register-jdih"
+  # Dikurasi eksplisit dari register JDIH: dipakai sebagai bukti tujuan-3
+  # (mencerdaskan kehidupan bangsa) masa DPR 1950-1959. Diverifikasi ke
+  # naskah lewat Pasal.id (law_id 3778): Pasal 1 menyatakan berlaku untuk
+  # seluruh Indonesia UU No. 4 Tahun 1950 tentang dasar-dasar pendidikan
+  # dan pengajaran di sekolah.
+  provenance: "kurasi"
 - id: "jdih-uu-11-1954"
   type: "undang-undang"
   title_id: "UU No. 11 Tahun 1954 tentang Penetapan Undang-Undang Darurat No. 24 Tahun 1950 tentang Peraturan Tambahan Perjalanan Ke Luar Negeri (Lembaran Negara No. 39 Tahun 1950) Sebagai Undang-Undang"
@@ -44138,7 +44154,13 @@
   url: "https://peraturan.bpk.go.id/Download/392919/Perpres%20Nomor%20102%20Tahun%202025.pdf"
   citation_id: "LN 2025 (164): 11 hlm.; jdih.setneg.go.id"
   verification_tier: "official_source"
-  provenance: "register-jdih"
+  # Dikurasi eksplisit dari register JDIH, bukan entri rutin: instrumen ini
+  # dinilai pada dimensi sila-3 (Persatuan Indonesia) periode Prabowo.
+  # Diverifikasi ke naskah lewat Pasal.id (law_id 4558, status "berlaku"):
+  # Pasal I mengubah Pasal 5 Perpres No. 121/2022 tentang susunan Badan
+  # Pengarah Papua, menyisipkan Pasal 9A (komite eksekutif dengan Dewan
+  # Penasihat dan Ketua) dan Pasal 25A (honorarium komite itu).
+  provenance: "kurasi"
 - id: "jdih-perpres-100-2025"
   type: "peraturan-presiden"
   title_id: "Perpres No. 100 Tahun 2025 tentang Pengesahan ASEAN Mutual Recognition Arrangement on Flight Crew Licensing (Pengaturan Saling Pengakuan ASEAN mengenai Penerbitan Lisensi Penerbang)"
@@ -44898,7 +44920,10 @@
   url: "https://peraturan.bpk.go.id/Download/367151/Perpres%20Nomor%20171%20Tahun%202024.pdf"
   citation_id: "LN 2024 (367) : 18 hlm.; jdih.setneg.go.id"
   verification_tier: "official_source"
-  provenance: "register-jdih"
+  # Dikurasi eksplisit dari register JDIH: dipakai sebagai bukti sila-3
+  # (pemerataan antarwilayah) periode Prabowo. Diverifikasi ke naskah lewat
+  # Pasal.id (law_id 279, sumber resmi terverifikasi).
+  provenance: "kurasi"
 - id: "jdih-perpres-170-2024"
   type: "peraturan-presiden"
   title_id: "Perpres No. 170 Tahun 2024 tentang Kementerian Pekerjaan Umum"
