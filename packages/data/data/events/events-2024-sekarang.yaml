@@ -436,3 +436,30 @@
   dimension_ids:
     - sila-4
     - negara-hukum
+- id: ev-mk-tolak-recall-konstituen-199-2025
+  term_id: mk-2023-sekarang
+  date: 2025-11-27
+  category: pengadilan
+  title_id: MK Menolak Permohonan agar Konstituen Dapat Memberhentikan Anggota DPR (Putusan No. 199/PUU-XXIII/2025)
+  summary_id: Lima pemohon perorangan menguji Pasal 239 ayat (2) huruf d UU No. 17/2014 (UU MD3) yang menempatkan usul pemberhentian antarwaktu anggota DPR sepenuhnya pada partai politik. Mahkamah menolak permohonan itu seluruhnya. Bertolak dari Pasal 22E ayat (3) UUD 1945 yang menetapkan partai politik sebagai peserta pemilu anggota DPR, Mahkamah menalar bahwa kewenangan recall sebagai konsekuensi logis tetap berada pada partai; pemberhentian oleh konstituen dipandang setara menyelenggarakan pemungutan suara ulang di daerah pemilihan sehingga menimbulkan ketidakpastian hukum. Mahkamah menyatakan tidak menemukan alasan kuat untuk mengubah pendiriannya dalam Putusan No. 38/PUU-VIII/2010, dan menunjuk keberatan pemilih kepada partai pengusul sebagai kanal kontrol yang tersedia.
+  source_ids:
+    - putusan-mk-199-puu-xxiii-2025
+    - putusan-mk-38-puu-viii-2010
+    - uu-17-2014
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+    - checks-balances
+- id: ev-mk-tegaskan-recall-parpol-44-2026
+  term_id: mk-2023-sekarang
+  date: 2026-03-02
+  category: pengadilan
+  title_id: MK Menegaskan Kembali Pemberhentian Antarwaktu Anggota DPR oleh Partai Politik (Putusan No. 44/PUU-XXIV/2026)
+  summary_id: Tiga bulan setelah perkara serupa ditolak, lima pemohon mahasiswa kembali menguji Pasal 239 ayat (2) huruf d UU MD3 dengan permintaan yang lebih sempit, yakni agar norma itu dinyatakan inkonstitusional bersyarat sepanjang tidak dimaknai bahwa pemberhentian antarwaktu atas usul partai politik wajib memperoleh persetujuan pemilih di daerah pemilihan yang bersangkutan. Mahkamah kembali menolak. Pertimbangan yang dibacakan Hakim Konstitusi Adies Kadir menempatkan pergantian antarwaktu sebagai bagian dari upaya menjaga keseimbangan hubungan antara partai politik, calon anggota legislatif, dan konstituen yang memilih dalam pemilu. Dengan demikian jalur tafsir bersyarat, yang selama ini diusulkan sebagai jalan tengah antara hak recall partai dan kedaulatan pemilih, ikut tertutup.
+  source_ids:
+    - putusan-mk-44-puu-xxiv-2026
+    - uu-17-2014
+  dimension_ids:
+    - kedaulatan-rakyat
+    - sila-4
+    - checks-balances

@@ -5562,6 +5562,36 @@
   archive_ok: true
   frbr_uri: /akn/id/judgment/mk/2025/282
   verification_tier: official_source
+- id: putusan-mk-199-puu-xxiii-2025
+  type: putusan-mk
+  title_id: Putusan MK No. 199/PUU-XXIII/2025 (uji Pasal 239 ayat (2) huruf d UU MD3; permohonan agar konstituen dapat memberhentikan anggota DPR ditolak)
+  year: 2025
+  citation_id: Putusan MKRI No. 199/PUU-XXIII/2025, diucapkan 27 November 2025
+  url: https://s.mkri.id/public/content/persidangan/putusan/putusan_mkri_13471_1764217947.pdf
+  frbr_uri: /akn/id/judgment/mk/2025/199
+  verification_tier: official_source
+- id: putusan-mk-44-puu-xxiv-2026
+  type: putusan-mk
+  title_id: Putusan MK No. 44/PUU-XXIV/2026 (uji ulang Pasal 239 ayat (2) huruf d UU MD3; permintaan tafsir bersyarat agar pemberhentian antarwaktu disetujui pemilih di daerah pemilihan ditolak)
+  year: 2026
+  citation_id: Putusan MKRI No. 44/PUU-XXIV/2026, diucapkan 2 Maret 2026
+  url: https://s.mkri.id/public/content/persidangan/putusan/putusan_mkri_13928_1772424422.pdf
+  frbr_uri: /akn/id/judgment/mk/2026/44
+  verification_tier: official_source
+- id: putusan-mk-38-puu-viii-2010
+  type: putusan-mk
+  title_id: Sinopsis resmi Putusan MK No. 38/PUU-VIII/2010 (pemberhentian antarwaktu anggota DPR atas usul partai politik dinyatakan konstitusional)
+  citation_id: Sinopsis Putusan MKRI No. 38/PUU-VIII/2010; tanggal pengucapan belum dicocokkan ke naskah putusan sehingga tahun sengaja dikosongkan
+  url: https://www.mkri.id/public/content/persidangan/sinopsis/sinopsis_Putusan%2038-PUU-VIII-2010%20_MPR,%20DPR,%20DPD%20dan%20DPRD_.pdf
+  frbr_uri: /akn/id/judgment/mk/2010/38
+  verification_tier: official_source
+- id: putusan-mk-22-24-puu-vi-2008
+  type: putusan-mk
+  title_id: Putusan MK No. 22-24/PUU-VI/2008 (Pasal 214 UU No. 10/2008 dibatalkan; kursi DPR ditentukan suara terbanyak calon, bukan nomor urut partai)
+  citation_id: Putusan MKRI No. 22-24/PUU-VI/2008; tanggal pengucapan belum dicocokkan ke naskah putusan sehingga tahun sengaja dikosongkan
+  url: https://bphn.go.id/data/documents/putusan_22-24-puu-vi-2008_(pemilu_anggota_dpr,_dpd_dan_dprd).pdf
+  frbr_uri: /akn/id/judgment/mk/2008/22-24
+  verification_tier: official_source
 - id: berita-antara-mk-240-241-kuhp-2026
   type: berita
   title_id: ANTARA — MK nyatakan Pasal 240 dan 241 KUHP bertentangan dengan UUD

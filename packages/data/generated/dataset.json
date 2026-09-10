@@ -16453,6 +16453,43 @@
       "actor_ids": []
     },
     {
+      "id": "ev-mk-tolak-recall-konstituen-199-2025",
+      "term_id": "mk-2023-sekarang",
+      "date": "2025-11-27",
+      "category": "pengadilan",
+      "title_id": "MK Menolak Permohonan agar Konstituen Dapat Memberhentikan Anggota DPR (Putusan No. 199/PUU-XXIII/2025)",
+      "summary_id": "Lima pemohon perorangan menguji Pasal 239 ayat (2) huruf d UU No. 17/2014 (UU MD3) yang menempatkan usul pemberhentian antarwaktu anggota DPR sepenuhnya pada partai politik. Mahkamah menolak permohonan itu seluruhnya. Bertolak dari Pasal 22E ayat (3) UUD 1945 yang menetapkan partai politik sebagai peserta pemilu anggota DPR, Mahkamah menalar bahwa kewenangan recall sebagai konsekuensi logis tetap berada pada partai; pemberhentian oleh konstituen dipandang setara menyelenggarakan pemungutan suara ulang di daerah pemilihan sehingga menimbulkan ketidakpastian hukum. Mahkamah menyatakan tidak menemukan alasan kuat untuk mengubah pendiriannya dalam Putusan No. 38/PUU-VIII/2010, dan menunjuk keberatan pemilih kepada partai pengusul sebagai kanal kontrol yang tersedia.",
+      "source_ids": [
+        "putusan-mk-199-puu-xxiii-2025",
+        "putusan-mk-38-puu-viii-2010",
+        "uu-17-2014"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
+      "id": "ev-mk-tegaskan-recall-parpol-44-2026",
+      "term_id": "mk-2023-sekarang",
+      "date": "2026-03-02",
+      "category": "pengadilan",
+      "title_id": "MK Menegaskan Kembali Pemberhentian Antarwaktu Anggota DPR oleh Partai Politik (Putusan No. 44/PUU-XXIV/2026)",
+      "summary_id": "Tiga bulan setelah perkara serupa ditolak, lima pemohon mahasiswa kembali menguji Pasal 239 ayat (2) huruf d UU MD3 dengan permintaan yang lebih sempit, yakni agar norma itu dinyatakan inkonstitusional bersyarat sepanjang tidak dimaknai bahwa pemberhentian antarwaktu atas usul partai politik wajib memperoleh persetujuan pemilih di daerah pemilihan yang bersangkutan. Mahkamah kembali menolak. Pertimbangan yang dibacakan Hakim Konstitusi Adies Kadir menempatkan pergantian antarwaktu sebagai bagian dari upaya menjaga keseimbangan hubungan antara partai politik, calon anggota legislatif, dan konstituen yang memilih dalam pemilu. Dengan demikian jalur tafsir bersyarat, yang selama ini diusulkan sebagai jalan tengah antara hak recall partai dan kedaulatan pemilih, ikut tertutup.",
+      "source_ids": [
+        "putusan-mk-44-puu-xxiv-2026",
+        "uu-17-2014"
+      ],
+      "dimension_ids": [
+        "kedaulatan-rakyat",
+        "sila-4",
+        "checks-balances"
+      ],
+      "actor_ids": []
+    },
+    {
       "id": "ev-jdih-uu-7-1947",
       "term_id": "dpr-knip-1945-1950",
       "date": "1947-02-27",
@@ -161651,6 +161688,52 @@
       "verification_tier": "official_source"
     },
     {
+      "id": "putusan-mk-199-puu-xxiii-2025",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 199/PUU-XXIII/2025 (uji Pasal 239 ayat (2) huruf d UU MD3; permohonan agar konstituen dapat memberhentikan anggota DPR ditolak)",
+      "year": 2025,
+      "url": "https://s.mkri.id/public/content/persidangan/putusan/putusan_mkri_13471_1764217947.pdf",
+      "citation_id": "Putusan MKRI No. 199/PUU-XXIII/2025, diucapkan 27 November 2025",
+      "resolved_url": "https://s.mkri.id/public/content/persidangan/putusan/putusan_mkri_13471_1764217947.pdf",
+      "detail_url": "/arsip/putusan-mk-199-puu-xxiii-2025",
+      "frbr_uri": "/akn/id/judgment/mk/2025/199",
+      "verification_tier": "official_source"
+    },
+    {
+      "id": "putusan-mk-44-puu-xxiv-2026",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 44/PUU-XXIV/2026 (uji ulang Pasal 239 ayat (2) huruf d UU MD3; permintaan tafsir bersyarat agar pemberhentian antarwaktu disetujui pemilih di daerah pemilihan ditolak)",
+      "year": 2026,
+      "url": "https://s.mkri.id/public/content/persidangan/putusan/putusan_mkri_13928_1772424422.pdf",
+      "citation_id": "Putusan MKRI No. 44/PUU-XXIV/2026, diucapkan 2 Maret 2026",
+      "resolved_url": "https://s.mkri.id/public/content/persidangan/putusan/putusan_mkri_13928_1772424422.pdf",
+      "detail_url": "/arsip/putusan-mk-44-puu-xxiv-2026",
+      "frbr_uri": "/akn/id/judgment/mk/2026/44",
+      "verification_tier": "official_source"
+    },
+    {
+      "id": "putusan-mk-38-puu-viii-2010",
+      "type": "putusan-mk",
+      "title_id": "Sinopsis resmi Putusan MK No. 38/PUU-VIII/2010 (pemberhentian antarwaktu anggota DPR atas usul partai politik dinyatakan konstitusional)",
+      "url": "https://www.mkri.id/public/content/persidangan/sinopsis/sinopsis_Putusan%2038-PUU-VIII-2010%20_MPR,%20DPR,%20DPD%20dan%20DPRD_.pdf",
+      "citation_id": "Sinopsis Putusan MKRI No. 38/PUU-VIII/2010; tanggal pengucapan belum dicocokkan ke naskah putusan sehingga tahun sengaja dikosongkan",
+      "resolved_url": "https://www.mkri.id/public/content/persidangan/sinopsis/sinopsis_Putusan%2038-PUU-VIII-2010%20_MPR,%20DPR,%20DPD%20dan%20DPRD_.pdf",
+      "detail_url": "/arsip/putusan-mk-38-puu-viii-2010",
+      "frbr_uri": "/akn/id/judgment/mk/2010/38",
+      "verification_tier": "official_source"
+    },
+    {
+      "id": "putusan-mk-22-24-puu-vi-2008",
+      "type": "putusan-mk",
+      "title_id": "Putusan MK No. 22-24/PUU-VI/2008 (Pasal 214 UU No. 10/2008 dibatalkan; kursi DPR ditentukan suara terbanyak calon, bukan nomor urut partai)",
+      "url": "https://bphn.go.id/data/documents/putusan_22-24-puu-vi-2008_(pemilu_anggota_dpr,_dpd_dan_dprd).pdf",
+      "citation_id": "Putusan MKRI No. 22-24/PUU-VI/2008; tanggal pengucapan belum dicocokkan ke naskah putusan sehingga tahun sengaja dikosongkan",
+      "resolved_url": "https://bphn.go.id/data/documents/putusan_22-24-puu-vi-2008_(pemilu_anggota_dpr,_dpd_dan_dprd).pdf",
+      "detail_url": "/arsip/putusan-mk-22-24-puu-vi-2008",
+      "frbr_uri": "/akn/id/judgment/mk/2008/22-24",
+      "verification_tier": "official_source"
+    },
+    {
       "id": "berita-antara-mk-240-241-kuhp-2026",
       "type": "berita",
       "title_id": "ANTARA — MK nyatakan Pasal 240 dan 241 KUHP bertentangan dengan UUD",
@@ -289552,9 +289635,9 @@
           "dimension_id": "sila-4",
           "score": 1,
           "confidence": 0.85,
-          "rationale_id": "Menurunkan ambang batas pencalonan pilkada untuk membuka kompetisi demokratis dan melawan kartel politik. Diperkuat Putusan 282/PUU-XXIII/2025 (28 Agustus 2026) yang membatalkan Pasal 240 beserta Penjelasan dan Pasal 241 KUHP, sehingga kritik terhadap pemerintah dan lembaga negara tidak lagi dapat dipidana. Skor ditahan di +1 dan tidak dinaikkan ke +2 karena pada masa jabatan yang sama dimensi negara-hukum, checks-balances, dan kedaulatan-rakyat masing-masing bernilai -1 sebagai warisan krisis etik 2023; penguatan kebebasan sipil ini belum cukup menjadikan keseluruhan dimensi kerakyatan bersifat selaras penuh. Kenaikan skor adalah keputusan kurator, bukan konsekuensi otomatis satu putusan.",
+          "rationale_id": "Menurunkan ambang batas pencalonan pilkada untuk membuka kompetisi demokratis dan melawan kartel politik. Diperkuat Putusan 282/PUU-XXIII/2025 (28 Agustus 2026) yang membatalkan Pasal 240 beserta Penjelasan dan Pasal 241 KUHP, sehingga kritik terhadap pemerintah dan lembaga negara tidak lagi dapat dipidana. Skor ditahan di +1 dan tidak dinaikkan ke +2 karena pada masa jabatan yang sama dimensi negara-hukum, checks-balances, dan kedaulatan-rakyat masing-masing bernilai -1 sebagai warisan krisis etik 2023; penguatan kebebasan sipil ini belum cukup menjadikan keseluruhan dimensi kerakyatan bersifat selaras penuh. Kenaikan skor adalah keputusan kurator, bukan konsekuensi otomatis satu putusan. Penahanan itu diperkuat Putusan No. 199/PUU-XXIII/2025 dan Putusan No. 44/PUU-XXIV/2026: permusyawaratan-perwakilan tetap bertumpu pada disiplin internal partai karena Mahkamah dua kali menolak membuka pemberhentian antarwaktu anggota DPR kepada pemilih yang memilihnya.",
           "thesis_id": "Dalil formal Mahkamah: Putusan No. 60/PUU-XXII/2024 menurunkan ambang batas pencalonan kepala daerah, mematahkan kartel politik yang mengunci kompetisi di daerah.",
-          "antithesis_id": "Penurunan ambang batas pencalonan pilkada membuka kompetisi, tetapi diputus setelah MK sendiri pada periode sebelumnya mengeluarkan putusan yang membuka jalan dinasti - koreksi datang dari majelis yang kredibilitasnya sudah tergerus.",
+          "antithesis_id": "Penurunan ambang batas pencalonan pilkada membuka kompetisi, tetapi diputus setelah MK sendiri pada periode sebelumnya mengeluarkan putusan yang membuka jalan dinasti - koreksi datang dari majelis yang kredibilitasnya sudah tergerus. Pembukaan pintu masuk kompetisi itu pun tidak diikuti pembukaan pintu keluar: begitu seseorang duduk di kursi DPR, satu-satunya pihak yang dapat memutus jabatannya di tengah masa jabatan tetap pengurus partai, dan dua permohonan yang meminta pemilih ikut menentukan ditolak Mahkamah.",
           "synthesis_id": "Skor Baik (+1) karena kartel politik yang mengunci pencalonan kepala daerah dipatahkan sehingga partai kecil dan gabungan minoritas dapat mengajukan calon.",
           "evidence": [
             {
@@ -289573,12 +289656,26 @@
               "source_id": "berita-antara-mk-240-241-kuhp-2026"
             },
             {
+              "source_id": "putusan-mk-199-puu-xxiii-2025"
+            },
+            {
+              "source_id": "putusan-mk-44-puu-xxiv-2026"
+            },
+            {
               "source_id": "berita-adies-kadir-mk-2026"
+            },
+            {
+              "source_id": "putusan-mk-38-puu-viii-2010"
+            },
+            {
+              "source_id": "uu-17-2014"
             }
           ],
           "event_ids": [
             "ev-mk-putusan-threshold-2024",
-            "ev-mk5-lantikan-adies-kadir"
+            "ev-mk5-lantikan-adies-kadir",
+            "ev-mk-tolak-recall-konstituen-199-2025",
+            "ev-mk-tegaskan-recall-parpol-44-2026"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -289666,9 +289763,9 @@
           "dimension_id": "checks-balances",
           "score": -1,
           "confidence": 0.85,
-          "rationale_id": "Dissenting opinion tiga hakim konstitusi dalam PHPU 2024 membuktikan terbelahnya pengadilan atas politisasi instrumen bansos. Kegagalan mayoritas hakim menindak mobilisasi sumber daya negara melemahkan fungsi MK sebagai wasit elektoral yang adil.",
+          "rationale_id": "Dissenting opinion tiga hakim konstitusi dalam PHPU 2024 membuktikan terbelahnya pengadilan atas politisasi instrumen bansos. Kegagalan mayoritas hakim menindak mobilisasi sumber daya negara melemahkan fungsi MK sebagai wasit elektoral yang adil. Pola menahan diri itu berulang pada dua perkara recall: dengan menolak Putusan No. 199/PUU-XXIII/2025 dan Putusan No. 44/PUU-XXIV/2026, penataan pemberhentian antarwaktu anggota DPR dibiarkan sepenuhnya di tangan pembentuk undang-undang, yaitu lembaga yang anggotanya sendiri menjadi objek mekanisme itu.",
           "thesis_id": "Putusan sengketa hasil pemilihan presiden (PHPU) 2024 diklaim telah memeriksa seluruh dalil pemohon secara objektif dan menolak tuduhan kecurangan terstruktur, sistematis, dan masif (TSM).",
-          "antithesis_id": "MK menegakkan putusan 60 dan 70/PUU-XXII/2024 di hadapan upaya DPR merevisi undang-undang secara kilat untuk menerobosnya, mempertahankan posisinya sebagai pengoreksi pembentuk undang-undang.",
+          "antithesis_id": "MK menegakkan putusan 60 dan 70/PUU-XXII/2024 di hadapan upaya DPR merevisi undang-undang secara kilat untuk menerobosnya, mempertahankan posisinya sebagai pengoreksi pembentuk undang-undang. Namun keberanian mengoreksi itu berhenti pada norma yang mengatur kursi dewan itu sendiri: dua permohonan recall ditolak dengan menempatkan persoalannya sebagai pilihan pembentuk undang-undang, padahal justru di titik itu pembentuk undang-undang adalah pihak yang paling tidak mungkin mengoreksi diri.",
           "synthesis_id": "Skor Buruk (-1) karena mayoritas hakim gagal menangani politisasi bantuan sosial dalam sengketa Pilpres 2024 dan tiga hakim harus menyatakan pendapat berbeda, memperlihatkan pengadilan terbelah menghadapi kekuasaan.",
           "evidence": [
             {
@@ -289688,15 +289785,29 @@
               "note_id": "Sitasi langsung pakar: Prof. Dr. Saldi Isra, S.H., M.P.A."
             },
             {
+              "source_id": "putusan-mk-199-puu-xxiii-2025"
+            },
+            {
+              "source_id": "putusan-mk-44-puu-xxiv-2026"
+            },
+            {
               "source_id": "putusan-mk-60-puu-xxii-2024"
             },
             {
               "source_id": "putusan-mk-70-puu-xxii-2024"
+            },
+            {
+              "source_id": "putusan-mk-38-puu-viii-2010"
+            },
+            {
+              "source_id": "uu-17-2014"
             }
           ],
           "event_ids": [
             "ev-mk-putusan-ambang-batas-pilkada-2024",
-            "ev-mk-putusan-70-usia-pilkada"
+            "ev-mk-putusan-70-usia-pilkada",
+            "ev-mk-tolak-recall-konstituen-199-2025",
+            "ev-mk-tegaskan-recall-parpol-44-2026"
           ],
           "normative_anchors": [
             "uud-nri-1945"
@@ -289706,10 +289817,10 @@
           "dimension_id": "kedaulatan-rakyat",
           "score": -1,
           "confidence": 0.85,
-          "rationale_id": "Komposisi majelis yang dipolitisir melemahkan kepercayaan publik kepada penjaga konstitusi.",
-          "thesis_id": "Dalil formal Mahkamah: Putusan No. 60 dan 70/PUU-XXII/2024 memperluas pilihan yang tersedia bagi pemilih daerah, dan sengketa hasil pilkada di ratusan daerah diselesaikan tertib sesuai tenggat konstitusional.",
-          "antithesis_id": "Pengisian jabatan hakim konstitusi lewat proses yang dipolitisasi menggerus kepercayaan publik pada lembaga yang menjadi muara sengketa kedaulatan rakyat, dan beban Putusan No. 90/PUU-XXI/2023 belum dipulihkan.",
-          "synthesis_id": "Skor Buruk (-1) karena pengisian jabatan hakim konstitusi lewat proses yang dipolitisasi menggerus kepercayaan publik pada lembaga yang menjadi muara sengketa kedaulatan rakyat.",
+          "rationale_id": "Dua beban berbeda menekan dimensi ini pada masa jabatan yang sama. Pertama, pengisian jabatan hakim konstitusi lewat proses yang dipolitisasi dan beban Putusan No. 90/PUU-XXI/2023 yang belum dipulihkan menggerus kepercayaan publik pada lembaga yang menjadi muara sengketa kedaulatan rakyat. Kedua, lewat Putusan No. 199/PUU-XXIII/2025 (27 November 2025) dan Putusan No. 44/PUU-XXIV/2026 (2 Maret 2026), Mahkamah dua kali menolak permohonan yang meminta pemberhentian antarwaktu anggota DPR digantungkan pada persetujuan pemilih di daerah pemilihan, sehingga hubungan pertanggungjawaban langsung antara wakil dan pemilih tetap tidak punya kanal hukum sekalipun sejak Putusan No. 22-24/PUU-VI/2008 kursi DPR ditentukan suara terbanyak calon.",
+          "thesis_id": "Dalil formal Mahkamah: Pasal 22E ayat (3) UUD 1945 menetapkan partai politik sebagai peserta pemilu anggota DPR, sehingga kewenangan mengusulkan pemberhentian antarwaktu sebagai konsekuensi logisnya berada pada partai; pemberhentian oleh konstituen dipandang setara menyelenggarakan pemungutan suara ulang di daerah pemilihan dan menimbulkan ketidakpastian hukum, sementara pemilih dinilai tetap dapat mengajukan keberatan kepada partai pengusul.",
+          "antithesis_id": "Penalaran konsekuensi logis itu bertumpu pada pasal tentang peserta pemilu, bukan pada Pasal 22B UUD 1945 yang justru menyerahkan syarat dan tata cara pemberhentian anggota DPR kepada undang-undang - artinya susunan yang berlaku adalah pilihan pembentuk undang-undang yang terbuka dinilai, bukan perintah konstitusi yang tertutup. Sejak Putusan No. 22-24/PUU-VI/2008 kursi diperoleh dari suara terbanyak calon, sehingga mandat datang dari daerah pemilihan sementara sanksi pemutus jabatan tetap dipegang pengurus partai. Keberatan pemilih kepada partai yang ditunjuk Mahkamah bukan upaya hukum: tidak ada tenggat menjawab, tidak ada kewajiban menerima, dan tidak ada forum menguji jawabannya.",
+          "synthesis_id": "Skor Buruk (-1) dipertahankan, bukan diturunkan ke -2: penolakan pada Putusan No. 199/PUU-XXIII/2025 dan No. 44/PUU-XXIV/2026 konsisten dengan pendirian Mahkamah sejak Putusan No. 38/PUU-VIII/2010 sehingga tidak diperlakukan sebagai pelanggaran baru, tetapi keduanya menutup jalur yudisial terakhir untuk memulihkan pertanggungjawaban wakil kepada pemilih dan mengunci penataannya pada dewan yang anggotanya sendiri diuntungkan susunan sekarang. Dasar utama skor ini tetap beban Putusan No. 90/PUU-XXI/2023 yang belum dipulihkan.",
           "evidence": [
             {
               "source_id": "berita-adies-kadir-mk-2026"
@@ -289734,6 +289845,21 @@
             },
             {
               "source_id": "putusan-mk-phpu-pres-2024"
+            },
+            {
+              "source_id": "putusan-mk-199-puu-xxiii-2025"
+            },
+            {
+              "source_id": "putusan-mk-44-puu-xxiv-2026"
+            },
+            {
+              "source_id": "putusan-mk-38-puu-viii-2010"
+            },
+            {
+              "source_id": "putusan-mk-22-24-puu-vi-2008"
+            },
+            {
+              "source_id": "uu-17-2014"
             }
           ],
           "event_ids": [
@@ -289741,7 +289867,9 @@
             "ev-mk5-lantikan-adies-kadir",
             "ev-mk-putusan-phpu-pilpres-2024",
             "ev-mk5-ambang-batas",
-            "ev-mk-putusan-70-usia-pilkada"
+            "ev-mk-putusan-70-usia-pilkada",
+            "ev-mk-tolak-recall-konstituen-199-2025",
+            "ev-mk-tegaskan-recall-parpol-44-2026"
           ],
           "normative_anchors": [
             "uud-nri-1945"
