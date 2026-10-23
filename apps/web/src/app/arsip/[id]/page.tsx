@@ -13,6 +13,8 @@ import {
   IconFilePlus,
 } from "@/components/icons";
 
+export const revalidate = 604800; // 7 hari (Edge CDN Cache)
+
 const TYPE_LABEL: Record<string, string> = {
   "undang-undang": "Undang-Undang (UU)",
   perppu: "Peraturan Pemerintah Pengganti UU",
